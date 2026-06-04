@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>March 2026 — KB Article Recommendations</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#0f1117;color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:2rem;max-width:960px;margin:0 auto;}
+  h1{font-size:1.35rem;margin-bottom:.2rem;}
+  .subtitle{color:#94a3b8;font-size:.82rem;margin-bottom:1.75rem;}
+  .priority-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.75rem;}
+  .p-badge{border-radius:4px;padding:.2rem .7rem;font-size:.72rem;font-weight:700;}
+  .p1{background:#450a0a;color:#fca5a5;}
+  .p2{background:#431407;color:#fdba74;}
+  .p3{background:#1e293b;color:#94a3b8;}
+  .card{background:#1a1d27;border:1px solid #2a2d3a;border-radius:9px;margin-bottom:1.25rem;overflow:hidden;}
+  .card-header{padding:1rem 1.25rem;border-bottom:1px solid #2a2d3a;display:flex;align-items:flex-start;gap:.75rem;flex-wrap:wrap;}
+  .card-body{padding:1rem 1.25rem;}
+  .card-body h3{font-size:.72rem;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem;margin-top:.9rem;}
+  .card-body h3:first-child{margin-top:0;}
+  .card-body p,.card-body li{font-size:.84rem;line-height:1.7;color:#cbd5e1;}
+  .card-body ul{padding-left:1.1rem;margin-bottom:.25rem;}
+  .card-body li{margin-bottom:.2rem;}
+  .stat-row{display:flex;gap:1.25rem;flex-wrap:wrap;margin-bottom:.9rem;}
+  .stat{text-align:center;}
+  .stat .val{font-size:1.3rem;font-weight:700;}
+  .stat .lbl{font-size:.68rem;color:#6b7280;margin-top:1px;}
+  .reply-example{background:#0d1f17;border-left:3px solid #166534;border-radius:0 5px 5px 0;padding:.6rem .85rem;font-size:.78rem;color:#d1fae5;line-height:1.6;margin-top:.5rem;white-space:pre-wrap;}
+  .slug{font-family:monospace;background:#1e293b;border-radius:4px;padding:1px 6px;font-size:.76rem;color:#94a3b8;}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+  @media(max-width:620px){.two-col{grid-template-columns:1fr;}}
+  table{width:100%;border-collapse:collapse;font-size:.8rem;}
+  th{text-align:left;color:#6b7280;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;padding:.38rem .6rem;border-bottom:1px solid #2a2d3a;font-weight:500;}
+  td{padding:.45rem .6rem;border-bottom:1px solid #1e2535;color:#cbd5e1;vertical-align:top;}
+  tr:last-child td{border-bottom:none;}
+</style>
+</head>
+<body>
+
+<h1>KB Article Recommendations</h1>
+<p class="subtitle">March 2026 · sourced from 451 Play Store reviews · articles that would reduce 1–3★ reviews and shorten dev replies</p>
+
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #6366f1;border-radius:7px;padding:.8rem 1rem;margin-bottom:1.75rem;font-size:.82rem;color:#94a3b8;line-height:1.65">
+  <strong style="color:#a5b4fc">How to use this doc:</strong> Each article has a suggested slug, outline, and a sample dev reply showing how to link it. Priority 1 articles have the highest mention counts and lowest avg ratings — write these first. Priority 2 articles are important but less urgent. Priority 3 articles are evergreen and can be written any time.
+</div>
+
+<!-- PRIORITY LEGEND -->
+<div class="priority-bar">
+  <span class="p-badge p1">P1 — write first</span>
+  <span class="p-badge p2">P2 — important</span>
+  <span class="p-badge p3">P3 — evergreen</span>
+</div>
+
+<!-- ═══ P1 ARTICLES ═══ -->
+
+<!-- 1. OEM Battery -->
+<div class="card" style="border-top:3px solid #ef4444">
+  <div class="card-header">
+    <span class="p-badge p1">P1</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">Background sync &amp; battery optimization by device manufacturer</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-battery-optimization-by-manufacturer</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#ef4444">31</div><div class="lbl">neg push reviews</div></div>
+      <div class="stat"><div class="val" style="color:#f59e0b">2.38★</div><div class="lbl">avg (Problem A)</div></div>
+      <div class="stat"><div class="val">9</div><div class="lbl">OEMs affected</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Why this article exists</h3>
+    <p>The #1 driver of push failure is not a bug in Thunderbird — it's OEM battery management killing the background process. The fix varies significantly by manufacturer. Current dev replies include generic steps that often don't resolve the issue. A single linkable article with OEM-specific instructions would let replies stay under 350 chars and be far more actionable.</p>
+    <h3>Outline</h3>
+    <div class="two-col" style="margin-top:.25rem">
+      <ul>
+        <li><strong>Samsung (One UI):</strong> Apps → Battery → Unrestricted; Background usage limits → Never sleeping apps; App power management → Sleeping apps; Adaptive Battery</li>
+        <li><strong>OnePlus (OxygenOS):</strong> Battery optimization → Don't optimize; Apps → Battery → Allow background; App freeze</li>
+        <li><strong>Xiaomi / POCO (MIUI / HyperOS):</strong> Battery saver → No restrictions; App battery saver; Start in background; Security app</li>
+        <li><strong>Motorola:</strong> Battery optimization → Don't optimize</li>
+      </ul>
+      <ul>
+        <li><strong>Huawei:</strong> App launch → Manage manually → all three toggles</li>
+        <li><strong>Sony (Xperia):</strong> STAMINA mode → disable or whitelist</li>
+        <li><strong>Fairphone / stock Android:</strong> Apps → Battery → Unrestricted</li>
+        <li><strong>Google Pixel:</strong> Apps → Battery → Unrestricted (Adaptive Battery)</li>
+        <li>Note: screenshots for Samsung and Xiaomi especially — UI changes across versions</li>
+        <li>Note: Android 15 introduced new background process restrictions — add a section when confirmed</li>
+      </ul>
+    </div>
+    <h3>Sample reply using this article</h3>
+    <div class="reply-example">On Samsung, One UI's battery management can block sync even when permissions look correct. Our step-by-step guide for your device: [link] — please try all steps listed for Samsung. Let us know if it still doesn't work!</div>
+    <p style="font-size:.75rem;color:#6b7280;margin-top:.35rem">~220 chars · leaves room to personalise</p>
+  </div>
+</div>
+
+<!-- 2. Spam Filter -->
+<div class="card" style="border-top:3px solid #ef4444">
+  <div class="card-header">
+    <span class="p-badge p1">P1</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">Spam filtering on Thunderbird Android — what's available and what's coming</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-spam-filtering</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#ef4444">13</div><div class="lbl">mentions</div></div>
+      <div class="stat"><div class="val" style="color:#ef4444">10</div><div class="lbl">negative</div></div>
+      <div class="stat"><div class="val" style="color:#f59e0b">2.69★</div><div class="lbl">avg rating</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Why this article exists</h3>
+    <p>Second-highest friction point in March (10 negative mentions, 2.69★ avg). Users expect desktop-equivalent spam filtering. The cross-channel signal is strong: Play Store users write 1★ reviews about it, forum users ask "filters like desktop" — same gap, two entry points. An honest article that acknowledges the limitation, explains the roadmap, and offers workarounds (server-side filtering, Gmail categories) would reduce both review frustration and forum volume.</p>
+    <h3>Outline</h3>
+    <ul>
+      <li>What filtering is currently available on Android (basic, server-side only)</li>
+      <li>What's on the roadmap (link to GitHub issue / public tracking if available)</li>
+      <li>Workarounds: use server-side rules (provider settings), Gmail/Outlook's built-in spam, Thunderbird desktop for rule management if using IMAP</li>
+      <li>How to vote / follow progress</li>
+    </ul>
+    <h3>Sample reply using this article</h3>
+    <div class="reply-example">We hear you — spam filtering on Android is currently limited compared to desktop, and we know it's frustrating. Here's where things stand and what workarounds are available in the meantime: [link]</div>
+  </div>
+</div>
+
+<!-- 3. Push setup -->
+<div class="card" style="border-top:3px solid #ef4444">
+  <div class="card-header">
+    <span class="p-badge p1">P1</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">How to set up push notifications on Thunderbird Android</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-push-notifications-setup</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#f59e0b">47</div><div class="lbl">push reviews</div></div>
+      <div class="stat"><div class="val">8</div><div class="lbl">Problem C (UX friction)</div></div>
+      <div class="stat"><div class="val">6</div><div class="lbl">cited docs &amp; still failed</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Why this article exists</h3>
+    <p>Multiple reviewers described push setup as "more complex than expected." Six explicitly said they read the documentation and it still didn't work. The current path (Settings → Getting Help → Configure push) is buried and the instructions feel like a workaround. This article should be the canonical destination for push setup — short, direct, with screenshots, and a clear explanation of why push isn't the default yet.</p>
+    <h3>Outline</h3>
+    <ul>
+      <li>What push is vs. poll (plain language — not technical)</li>
+      <li>Why push isn't on by default (brief, honest — architecture reason)</li>
+      <li>Step-by-step: Settings → [account] → Manage folders → [folder] → enable push + notifications</li>
+      <li>Why battery optimization matters — link to the OEM article above</li>
+      <li>What to do if push is on but notifications still don't arrive</li>
+      <li>The 15-minute poll: what it is, how to change the interval</li>
+    </ul>
+    <h3>Note</h3>
+    <p>This article should eventually be the destination of an in-app "set up notifications" prompt during onboarding. Write it with that future entry point in mind.</p>
+  </div>
+</div>
+
+<!-- ═══ P2 ARTICLES ═══ -->
+
+<!-- 4. v17 notification bug -->
+<div class="card" style="border-top:3px solid #f97316">
+  <div class="card-header">
+    <span class="p-badge p2">P2</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">Known issue: notifications not clearing after reading (v17.0)</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-v17-notification-clear-bug</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#f59e0b">5</div><div class="lbl">reviews</div></div>
+      <div class="stat"><div class="val" style="color:#f59e0b">3.00★</div><div class="lbl">avg (all 3★)</div></div>
+      <div class="stat"><div class="val">v17.0</div><div class="lbl">version</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Why this article exists</h3>
+    <p>Five reviews in March describe the same v17.0 regression: notifications that don't clear after the email is read, emails reappearing on the notification slider, and mark-as-read not syncing to the notification shade. These users have working push delivery — the failure is in notification state management. A known issue article lets dev replies link to it and sets expectation for a fix.</p>
+    <h3>Outline</h3>
+    <ul>
+      <li>What the bug is: notification for an email persists even after the email is marked read or deleted from the notification shade</li>
+      <li>Affected versions: v17.0 (confirmed)</li>
+      <li>Status: under investigation / fix expected in v17.x (update when known)</li>
+      <li>Workaround: manually dismiss notifications from the shade; or temporarily revert to v16.x via F-Droid if critical</li>
+      <li>Link to GitHub issue for tracking</li>
+    </ul>
+    <h3>Sample reply using this article</h3>
+    <div class="reply-example">This is a known issue in v17.0 that we're actively working on — notifications not clearing after reading. You can follow progress and find a workaround here: [link]. We appreciate your patience!</div>
+  </div>
+</div>
+
+<!-- 5. K-9 migration -->
+<div class="card" style="border-top:3px solid #f97316">
+  <div class="card-header">
+    <span class="p-badge p2">P2</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">K-9 Mail and Thunderbird Android — what's the same, what's different</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">k9-thunderbird-android-differences</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#f59e0b">6</div><div class="lbl">migration mentions</div></div>
+      <div class="stat"><div class="val" style="color:#ef4444">4</div><div class="lbl">negative</div></div>
+      <div class="stat"><div class="val">K-9</div><div class="lbl">added Mar 2026</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Why this article exists</h3>
+    <p>K-9 was merged into the Thunderbird Android codebase and K-9 users are now experiencing Thunderbird features (and bugs) they didn't before — particularly push notification setup, which K-9 handled differently. Several reviewers express confusion about the relationship between the two apps. This article reduces friction for long-term K-9 users encountering unexpected behaviour.</p>
+    <h3>Outline</h3>
+    <ul>
+      <li>What happened: K-9 is now the same app as Thunderbird Android under the hood</li>
+      <li>What stayed the same: account setup, IMAP/POP3 support, folder management</li>
+      <li>What changed: push notification setup (new UI), Thunderbird branding, new features coming</li>
+      <li>Why some K-9 users see push regressions (push architecture changed)</li>
+      <li>How to get help if things that worked in K-9 no longer work</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 6. Calendar -->
+<div class="card" style="border-top:3px solid #f97316">
+  <div class="card-header">
+    <span class="p-badge p2">P2</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">Calendar on Thunderbird Android — current state and roadmap</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-calendar-roadmap</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#f59e0b">13</div><div class="lbl">mentions</div></div>
+      <div class="stat"><div class="val">6</div><div class="lbl">negative</div></div>
+      <div class="stat"><div class="val">3.15★</div><div class="lbl">avg</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Why this article exists</h3>
+    <p>13 reviews mention calendar — users expect it from a Thunderbird product. An honest, current article reduces 1★ reviews from users who feel misled, and gives dev replies a destination that's more satisfying than "not available yet."</p>
+    <h3>Outline</h3>
+    <ul>
+      <li>Current state: calendar is not yet available on Android</li>
+      <li>Roadmap: when it's expected (update as known)</li>
+      <li>Workarounds: CalDAV apps (DAVx⁵), Thunderbird desktop, provider apps</li>
+      <li>How to follow or upvote the roadmap item</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══ P3 ARTICLES ═══ -->
+
+<!-- 7. QR import -->
+<div class="card" style="border-top:3px solid #2a2d3a">
+  <div class="card-header">
+    <span class="p-badge p3">P3</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">Troubleshooting QR code / account import from desktop</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-qr-account-import-troubleshooting</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val" style="color:#ef4444">4</div><div class="lbl">mentions</div></div>
+      <div class="stat"><div class="val" style="color:#ef4444">4</div><div class="lbl">negative</div></div>
+      <div class="stat"><div class="val" style="color:#ef4444">1.25★</div><div class="lbl">avg rating</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Outline</h3>
+    <ul>
+      <li>Requirements: desktop and mobile on same network; Thunderbird desktop version required</li>
+      <li>Common failures: QR expires, camera permission not granted, same-network requirement not met</li>
+      <li>Manual account setup as fallback</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 8. Outlook/Exchange push -->
+<div class="card" style="border-top:3px solid #2a2d3a">
+  <div class="card-header">
+    <span class="p-badge p3">P3</span>
+    <div style="flex:1">
+      <div style="font-weight:700;font-size:.95rem;margin-bottom:.2rem">Push notifications with Microsoft Outlook / Exchange accounts</div>
+      <div style="font-size:.78rem;color:#6b7280">Slug: <span class="slug">android-outlook-exchange-push-limitations</span></div>
+    </div>
+    <div class="stat-row" style="margin:0">
+      <div class="stat"><div class="val">2</div><div class="lbl">mentions</div></div>
+      <div class="stat"><div class="val" style="color:#ef4444">2</div><div class="lbl">negative</div></div>
+      <div class="stat"><div class="val" style="color:#ef4444">1.0★</div><div class="lbl">avg rating</div></div>
+    </div>
+  </div>
+  <div class="card-body">
+    <h3>Outline</h3>
+    <ul>
+      <li>Outlook/Exchange accounts don't support IMAP IDLE push — poll only</li>
+      <li>Why: Microsoft's protocol limitations, not a Thunderbird bug</li>
+      <li>Best poll interval for Outlook users</li>
+      <li>Microsoft 365 and Exchange ActiveSync — status of support</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SUMMARY TABLE -->
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;overflow:hidden;margin-top:2rem">
+  <div style="padding:.7rem 1rem;border-bottom:1px solid #2a2d3a">
+    <span style="font-size:.7rem;color:#6b7280;text-transform:uppercase;letter-spacing:.06em">Summary — all 8 recommended articles</span>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Article</th>
+        <th style="text-align:center">Priority</th>
+        <th style="text-align:center">Reviews addressed</th>
+        <th style="text-align:center">Avg ★ (neg)</th>
+        <th>Linkable from replies?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Battery optimization by OEM</td><td style="text-align:center"><span class="p-badge p1">P1</span></td><td style="text-align:center;color:#ef4444">31</td><td style="text-align:center;color:#f59e0b">2.38★</td><td style="color:#22c55e">✓ Yes — core use case</td></tr>
+      <tr><td>Spam filtering on Android</td><td style="text-align:center"><span class="p-badge p1">P1</span></td><td style="text-align:center;color:#ef4444">10</td><td style="text-align:center;color:#f59e0b">2.69★</td><td style="color:#22c55e">✓ Yes</td></tr>
+      <tr><td>Push notification setup guide</td><td style="text-align:center"><span class="p-badge p1">P1</span></td><td style="text-align:center;color:#f59e0b">47</td><td style="text-align:center;color:#f59e0b">2.83★</td><td style="color:#22c55e">✓ Yes — replace current inline steps</td></tr>
+      <tr><td>v17.0 notification clear bug</td><td style="text-align:center"><span class="p-badge p2">P2</span></td><td style="text-align:center">5</td><td style="text-align:center;color:#f59e0b">3.00★</td><td style="color:#22c55e">✓ Yes — known issue link</td></tr>
+      <tr><td>K-9 → Thunderbird differences</td><td style="text-align:center"><span class="p-badge p2">P2</span></td><td style="text-align:center">4</td><td style="text-align:center;color:#f59e0b">2.50★</td><td style="color:#22c55e">✓ Yes</td></tr>
+      <tr><td>Calendar — current state &amp; roadmap</td><td style="text-align:center"><span class="p-badge p2">P2</span></td><td style="text-align:center">6</td><td style="text-align:center">3.15★</td><td style="color:#22c55e">✓ Yes</td></tr>
+      <tr><td>QR / account import troubleshooting</td><td style="text-align:center"><span class="p-badge p3">P3</span></td><td style="text-align:center">4</td><td style="text-align:center;color:#ef4444">1.25★</td><td style="color:#94a3b8">Helpful</td></tr>
+      <tr><td>Outlook / Exchange push limitations</td><td style="text-align:center"><span class="p-badge p3">P3</span></td><td style="text-align:center">2</td><td style="text-align:center;color:#ef4444">1.00★</td><td style="color:#22c55e">✓ Yes — expectation setting</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div style="margin-top:1.5rem;padding:.75rem 1rem;background:#1a1d27;border:1px solid #2a2d3a;border-radius:7px;font-size:.73rem;color:#6b7280;line-height:1.6">
+  Internal working document — March 2026 KB article recommendations. Not linked from any public dashboard. Review counts sourced from 451 Play Store reviews (TB + K-9), March 2026.
+</div>
+
+</body>
+</html>

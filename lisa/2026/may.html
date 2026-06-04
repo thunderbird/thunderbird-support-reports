@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>May 2026 — Thunderbird Support Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
+    --text: #e2e8f0; --muted: #94a3b8; --accent: #6366f1;
+    --green: #22c55e; --red: #ef4444; --yellow: #f59e0b;
+    --orange: #f97316; --sky: #38bdf8; --teal: #2dd4bf; --k9: #a78bfa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; padding: 2rem; max-width: 1200px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .subtitle { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+  .section-header { display: flex; align-items: center; gap: .75rem; margin: 2.5rem 0 1rem; padding-bottom: .6rem; border-bottom: 2px solid var(--sc); }
+  .section-header h2 { font-size: 1.1rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--sc); }
+  .section-header .sh-meta { font-size: .8rem; color: var(--muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .subsection-header { display: flex; align-items: center; gap: .75rem; margin: 2rem 0 .75rem; padding-bottom: .4rem; border-bottom: 1px dashed var(--sc); scroll-margin-top: 1rem; }
+  .subsection-header h3 { font-size: .9rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--sc); }
+  .subsection-header h3 a { color: inherit; text-decoration: none; }
+  .subsection-header h3 a:hover .anchor { opacity: 1; }
+  .subsection-header .anchor { opacity: 0; margin-left: .35rem; color: var(--muted); font-weight: 400; transition: opacity .15s; }
+  .subsection-header .sh-meta { font-size: .75rem; color: var(--muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .subsection-header:target { background: rgba(99,102,241,.08); border-radius: 6px; padding: .4rem .75rem; margin-left: -.75rem; margin-right: -.75rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; border-top: 3px solid var(--sc, var(--border)); }
+  .card .label { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: .4rem; }
+  .card .value { font-size: 2rem; font-weight: 700; }
+  .card .change { font-size: .8rem; color: var(--muted); margin-top: .25rem; }
+  .up { color: var(--green); } .down { color: var(--red); } .flat { color: var(--yellow); } .muted { color: var(--muted); }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .box h3 { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 1rem; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+  @media(max-width:700px){ .two-col { grid-template-columns: 1fr; } }
+  table { width: 100%; border-collapse: collapse; font-size: .875rem; }
+  th { text-align: left; color: var(--muted); font-weight: 500; padding: .5rem .75rem; border-bottom: 1px solid var(--border); font-size: .75rem; text-transform: uppercase; }
+  td { padding: .6rem .75rem; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .trend { color: var(--muted); font-size: .8rem; }
+  .neg-high { color: var(--red); font-weight: 700; }
+  .neg-med { color: var(--yellow); font-weight: 600; }
+  .neg-low { color: var(--text); }
+  .bar { height: 8px; background: var(--accent); border-radius: 4px; display: inline-block; }
+  canvas { max-height: 260px; }
+  .alert { background: #2d1a1a; border: 1px solid #7f1d1d; border-radius: 10px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
+  .alert-title { color: var(--red); font-weight: 700; margin-bottom: .35rem; }
+  .alert p { font-size: .9rem; color: #fca5a5; }
+  .filter-bar { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .filter-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: .35rem .9rem; font-size: .8rem; cursor: pointer; color: var(--muted); transition: all .15s; }
+  .filter-btn:hover { border-color: var(--text); color: var(--text); }
+  .filter-btn.active { color: var(--bg); font-weight: 600; }
+  .filter-section { transition: opacity .15s; }
+  .report-note { background: #1a2333; border: 1px solid #2d3a5a; border-left: 3px solid var(--sky); border-radius: 8px; padding: .75rem 1rem; margin: 0 0 1.5rem; font-size: .9rem; color: #c8d4ec; }
+  .report-note strong { color: var(--sky); }
+</style>
+</head>
+<body>
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:.5rem;margin-bottom:.25rem">
+  <h1>May 2026 — Thunderbird Support Dashboard</h1>
+  <a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md" style="font-size:.85rem;color:var(--accent);text-decoration:none;">Full report on GitHub →</a>
+</div>
+<p class="subtitle">Generated 2026-06-03</p>
+
+<div class="filter-bar">
+  <button class="filter-btn active" style="background:var(--accent);border-color:var(--accent)" onclick="filterSection('all', this)">All</button>
+  <button class="filter-btn" onclick="filterSection('donor', this)">Donor Care</button>
+  <button class="filter-btn" onclick="filterSection('tbpro', this)">Thundermail</button>
+  <button class="filter-btn" onclick="filterSection('android', this)">Android</button>
+  <button class="filter-btn" onclick="filterSection('desktop', this)">Desktop</button>
+</div>
+
+<div class="filter-section" data-section="all">
+<div class="grid" style="--sc: var(--accent);margin-bottom:1.5rem">
+  <div class="card">
+    <div class="label">Total Tickets</div>
+    <div class="value">606</div>
+    <div class="change up">+17.4% MoM</div>
+  </div>
+  <div class="card">
+    <div class="label">Overall CSAT</div>
+    <div class="value down">76.7%</div>
+    <div class="change down">-1.0 pts MoM</div>
+  </div>
+</div>
+</div><!-- /all -->
+
+<div class="filter-section" data-section="donor">
+<div class="section-header" style="--sc: var(--green)">
+  <h2>Donor Care</h2>
+  <span class="sh-meta">279 tickets · Zendesk</span>
+</div>
+
+<div class="grid" style="--sc: var(--green)">
+  <div class="card">
+    <div class="label">Donor CSAT</div>
+    <div class="value down">66.7%</div>
+    <div class="change down">-10.3 pts MoM</div>
+    <p style="font-size:.75rem;color:var(--muted);margin-top:.25rem;margin-bottom:0">Seven of nine bad ratings were noise — wrong channel, misdirected tickets, a donor who went quiet after asking about donation numbers. The one that matters: a real gap in our German-language donor KB.</p>
+  </div>
+  <div class="card">
+    <div class="label">Donor Tickets</div>
+    <div class="value">279</div>
+    <div class="change down">-44.2% MoM</div>
+  </div>
+</div>
+</div><!-- /donor -->
+
+<div class="filter-section" data-section="tbpro">
+<div class="section-header" style="--sc: var(--accent)">
+  <h2>Thundermail</h2>
+  <span class="sh-meta">118 tickets · Zendesk</span>
+</div>
+<div class="grid" style="--sc: var(--accent)">
+  <div class="card">
+    <div class="label">Thundermail CSAT</div>
+    <div class="value up">92.9%*</div>
+    <div class="change flat"></div>
+  </div>
+  <div class="card">
+    <div class="label">Thundermail Tickets</div>
+    <div class="value">118</div>
+    <div class="change down">+637.5% MoM</div>
+  </div>
+</div>
+<p style="font-size:.75rem;color:var(--muted);margin-top:.25rem;margin-bottom:1rem">*Both dissatisfied ratings (DSATs) were misdirected emails to Thundermail, remediated via thunderbird-accounts#834.</p>
+<div class="two-col">
+  <div class="box">
+    <h3>New Ideas — May (19 total)</h3>
+    <table>
+      <thead><tr><th>Idea</th><th class="num">Votes</th><th>Tag</th></tr></thead>
+      <tbody><tr><td><a href="https://ideas.tb.pro/p/white-labeling" target="_blank" style="color:var(--text)">White labeling</a></td><td class="num">1</td><td style="color:var(--muted);font-size:.8rem">Appointment</td></tr><tr><td><a href="https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client" target="_blank" style="color:var(--text)">Emails appear multiple times if multiple aliases are configured in the client</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/resellers-it-companies" target="_blank" style="color:var(--text)">Resellers & IT Companies</a></td><td class="num">1</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/feature-request-public-calendar-ics-feed-shareable-subscription-url-for-external-integration" target="_blank" style="color:var(--text)">Feature Request: Public Calendar ICS Feed / Shareable Subscription URL for External Integration</a></td><td class="num">1</td><td style="color:var(--muted);font-size:.8rem">Appointment</td></tr><tr><td><a href="https://ideas.tb.pro/p/native-outlook-microsoft-calendar-integration-for-appointments" target="_blank" style="color:var(--text)">Native Outlook / Microsoft Calendar integration for Appointments</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Appointment</td></tr><tr><td><a href="https://ideas.tb.pro/p/custom-full-name-email-display-format" target="_blank" style="color:var(--text)">Custom "Full Name <email>" display format</a></td><td class="num">3</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/show-warning-or-error-if-domain-name-has-no-adresses-nor-aliases" target="_blank" style="color:var(--text)">Show warning or error if domain name has no addresses nor aliases</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/appointment-use-only-the-username-in-the-personal-link" target="_blank" style="color:var(--text)">Appointment: Use only the username in the personal link</a></td><td class="num">1</td><td style="color:var(--muted);font-size:.8rem">Appointment</td></tr><tr><td><a href="https://ideas.tb.pro/p/more-email-domains" target="_blank" style="color:var(--text)">More Email Domains</a></td><td class="num">4</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/add-send-to-the-spaces-toolbar" target="_blank" style="color:var(--text)">Add Send to the Spaces Toolbar</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Send</td></tr><tr><td><a href="https://ideas.tb.pro/p/integrating-aliases-with-identities-in-thunderbird" target="_blank" style="color:var(--text)">Integrating aliases with identities in Thunderbird</a></td><td class="num">8</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/syncing-filters-between-thunderbird-instances" target="_blank" style="color:var(--text)">Syncing filters between Thunderbird instances</a></td><td class="num">8</td><td style="color:var(--muted);font-size:.8rem">Accounts & Subscriptions</td></tr><tr><td><a href="https://ideas.tb.pro/p/snooze-emails" target="_blank" style="color:var(--text)">Snooze emails</a></td><td class="num">4</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/native-email-forwarding-redirection-rules-no-external-services" target="_blank" style="color:var(--text)">native email forwarding / redirection rules (no external services)</a></td><td class="num">5</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/secure-portal" target="_blank" style="color:var(--text)">Secure portal</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/send-later-support" target="_blank" style="color:var(--text)">Send later support</a></td><td class="num">1</td><td style="color:var(--muted);font-size:.8rem">Send</td></tr><tr><td><a href="https://ideas.tb.pro/p/improving-usability-and-readability" target="_blank" style="color:var(--text)">Improving usability and readability</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Thunderbird Pro</td></tr><tr><td><a href="https://ideas.tb.pro/p/calendar" target="_blank" style="color:var(--text)">Calendar</a></td><td class="num">2</td><td style="color:var(--muted);font-size:.8rem">Appointment</td></tr><tr><td><a href="https://ideas.tb.pro/p/calendar-improvement" target="_blank" style="color:var(--text)">Calendar Improvement</a></td><td class="num">1</td><td style="color:var(--muted);font-size:.8rem">Appointment</td></tr></tbody>
+    </table>
+  </div>
+  <div class="box">
+    <h3>Top Ideas All-Time</h3>
+    <table>
+      <thead><tr><th>Idea</th><th class="num">Votes</th><th>Tag</th></tr></thead>
+      <tbody><tr><td><a href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank" style="color:var(--text)">Webmail for Thundermail</a></td><td class="num">56</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/additional-pricing-tiers" target="_blank" style="color:var(--text)">Additional pricing tiers</a></td><td class="num">48</td><td style="color:var(--muted);font-size:.8rem">Accounts & Subscriptions</td></tr><tr><td><a href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank" style="color:var(--text)">Multifactor Authentication</a></td><td class="num">44</td><td style="color:var(--muted);font-size:.8rem">Privacy & Security</td></tr><tr><td><a href="https://ideas.tb.pro/p/dnssec-dane-support" target="_blank" style="color:var(--text)">DNSSEC/DANE Support</a></td><td class="num">38</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr><tr><td><a href="https://ideas.tb.pro/p/increase-custom-domains-limit" target="_blank" style="color:var(--text)">Increase custom domains limit</a></td><td class="num">35</td><td style="color:var(--muted);font-size:.8rem">Thundermail</td></tr></tbody>
+    </table>
+  </div>
+</div>
+</div><!-- /tbpro -->
+
+<div class="filter-section" data-section="android">
+<div class="section-header" style="--sc: var(--orange)">
+  <h2>Android</h2>
+  <span class="sh-meta">Play Store reviews · SUMO Android forum · K-9 Mail Discourse · May 2026</span>
+</div>
+
+<div class="subsection-header" style="--sc: var(--orange)" id="play-store-reviews">
+  <h3><a href="#play-store-reviews">Play Store Reviews<span class="anchor">#</span></a></h3>
+  <span class="sh-meta">493 reviews · TB 385 (348 stable + 37 beta) · K-9 108 · 32 languages</span>
+</div>
+<div class="alert">
+  <div class="alert-title">⚠️ Play Store Rating — Q2 Trend</div>
+  <p>TB: 3.73★ this month (-0.08 from April). Track against 4★ annual goal.</p>
+</div>
+<div class="grid" style="--sc: var(--orange)">
+  <div class="card">
+    <div class="label">TB Avg Rating</div>
+    <div class="value">3.73★</div>
+    <div class="change down">-0.08 from April</div>
+  </div>
+  <div class="card">
+    <div class="label">K-9 Avg Rating</div>
+    <div class="value">3.53★</div>
+    <div class="change up">+0.57 from April</div>
+  </div>
+  <div class="card">
+    <div class="label">Play Store Tickets</div>
+    <div class="value">209</div>
+    <div class="change">Up from 205</div>
+    <p style="font-size:.75rem;color:var(--muted);margin-top:.25rem;margin-bottom:0">Tickets are opened only for low-star reviews (1–3★) that we reply to — not every review generates a ticket.</p>
+  </div>
+</div>
+<div class="two-col">
+  <div class="box">
+    <h3>Star Distribution — TB (385 reviews)</h3>
+    <canvas id="tbChart"></canvas>
+  </div>
+  <div class="box">
+    <h3>Star Distribution — K-9 (108 reviews)</h3>
+    <canvas id="k9Chart"></canvas>
+  </div>
+</div>
+<div class="box">
+  <h3>Friction Points <span style="font-weight:400;text-transform:none;font-size:.75rem;color:var(--muted)">&nbsp;— click a theme to see the full story in the report</span></h3>
+  <table>
+    <thead><tr>
+      <th>Theme</th>
+      <th class="num">Mentions</th>
+      <th class="num">Neg. mentions<br><span style="font-weight:400;font-size:.7rem">1–3★ reviews</span></th>
+      <th class="num">Avg ★</th><th class="num">TB</th><th class="num">K-9</th>
+      <th>Neg. mentions trend<br><span style="font-weight:400;font-size:.7rem">rolling 3 months</span></th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#top-3-friction-points" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>Push / Notification Sync</strong></a></td>
+        <td class="num">51</td>
+        <td class="num neg-high">34</td>
+        <td class="num">2.94★</td>
+        <td class="num">35</td>
+        <td class="num">16</td>
+        <td class="trend">31 → 37 → 34 📉</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#top-3-friction-points" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>Spam Filter Absent</strong></a></td>
+        <td class="num">11</td>
+        <td class="num neg-med">8</td>
+        <td class="num">2.82★</td>
+        <td class="num">11</td>
+        <td class="num">0</td>
+        <td class="trend">10 → 12 → 8 📉</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#top-3-friction-points" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>Crashes & Freezes</strong></a></td>
+        <td class="num">5</td>
+        <td class="num neg-med">5</td>
+        <td class="num">1.80★</td>
+        <td class="num">4</td>
+        <td class="num">1</td>
+        <td class="trend">6 → 9 → 5 📉</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#android-reviews" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>Calendar Missing</strong></a></td>
+        <td class="num">7</td>
+        <td class="num neg-low">3</td>
+        <td class="num">3.43★</td>
+        <td class="num">5</td>
+        <td class="num">2</td>
+        <td class="trend">6 → 5 → 3 📉</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#android-reviews" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>Stuck Outbox / Send Failure</strong></a></td>
+        <td class="num">4</td>
+        <td class="num neg-low">4</td>
+        <td class="num">2.50★</td>
+        <td class="num">2</td>
+        <td class="num">2</td>
+        <td class="trend">4 → 1 → 4 📈</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#android-reviews" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>QR / Settings Import</strong></a></td>
+        <td class="num">6</td>
+        <td class="num neg-low">3</td>
+        <td class="num">3.83★</td>
+        <td class="num">6</td>
+        <td class="num">0</td>
+        <td class="trend">4 → 1 → 3 📈</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may.md#android-reviews" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--border)"><strong>Email Headers / Print</strong></a></td>
+        <td class="num">2</td>
+        <td class="num neg-low">2</td>
+        <td class="num">3.00★</td>
+        <td class="num">2</td>
+        <td class="num">0</td>
+        <td class="trend">2 → 2 → 2 ➡️</td>
+      </tr></tbody>
+  </table>
+</div>
+<div class="box">
+  <h3>Top 10 Languages — Play Store</h3>
+  <table>
+    <thead><tr><th>Language</th><th class="num">Reviews</th><th></th></tr></thead>
+    <tbody><tr><td>English</td><td class="num">157</td><td><div class="bar" style="width:96px"></div></td></tr><tr><td>German</td><td class="num">118</td><td><div class="bar" style="width:72px"></div></td></tr><tr><td>Spanish</td><td class="num">29</td><td><div class="bar" style="width:18px"></div></td></tr><tr><td>Russian</td><td class="num">29</td><td><div class="bar" style="width:18px"></div></td></tr><tr><td>French</td><td class="num">25</td><td><div class="bar" style="width:15px"></div></td></tr><tr><td>Polish</td><td class="num">21</td><td><div class="bar" style="width:13px"></div></td></tr><tr><td>Italian</td><td class="num">20</td><td><div class="bar" style="width:12px"></div></td></tr><tr><td>Japanese</td><td class="num">17</td><td><div class="bar" style="width:10px"></div></td></tr><tr><td>Portuguese</td><td class="num">12</td><td><div class="bar" style="width:7px"></div></td></tr><tr><td>Dutch</td><td class="num">9</td><td><div class="bar" style="width:5px"></div></td></tr></tbody>
+  </table>
+</div>
+<div class="box">
+  <h3>Definitions</h3>
+  <table>
+    <tbody>
+      <tr><td style="width:160px;color:var(--muted);font-weight:600">Mentions</td><td>Count of Play Store reviews whose text matches a topic's keyword pattern, regardless of star rating. One review = one mention even if multiple keywords match.</td></tr>
+      <tr><td style="color:var(--muted);font-weight:600">Neg. mentions</td><td>Mentions where the review is 1–3 stars. This is a count of reviews, not a count of star ratings.</td></tr>
+      <tr><td style="color:var(--muted);font-weight:600">Avg ★</td><td>Mean star rating (1–5) across all reviews matching that topic — both positive and negative.</td></tr>
+      <tr><td style="color:var(--muted);font-weight:600">Neg. mentions trend</td><td>Count of negative mentions (1–3★) for that topic over the rolling 3-month window.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="subsection-header" style="--sc: var(--teal)" id="android-forum">
+  <h3><a href="#android-forum">Android Forum<span class="anchor">#</span></a></h3>
+  <span class="sh-meta">SUMO · thunderbird-android · May 2026</span>
+</div>
+<div class="grid" style="--sc: var(--teal)">
+  <div class="card">
+    <div class="label">Questions</div>
+    <div class="value">55</div>
+    <div class="change down">-18 MoM</div>
+  </div>
+  <div class="card">
+    <div class="label">Solved Rate</div>
+    <div class="value down">64%</div>
+    <div class="change down">-1 pts MoM</div>
+  </div>
+  <div class="card">
+    <div class="label">Ignored %</div>
+    <div class="value down">31%</div>
+    <div class="change down">+9 pts MoM</div>
+  </div>
+</div>
+<div class="box">
+  <table>
+    <thead><tr><th>Metric</th><th class="num">Value</th><th class="num">MoM</th><th class="num">3-mo trend</th></tr></thead>
+    <tbody>
+      <tr><td>Questions (excl. spam)</td><td class="num">55</td><td class="num muted">-18</td><td class="num muted" style="font-size:.75rem">66 → 73 → 55</td></tr>
+      <tr><td>Overall Solved Rate</td><td class="num down">64%</td><td class="num down">-1 pts</td><td class="num muted" style="font-size:.75rem">72 → 65 → 64</td></tr>
+      <tr><td>Ignored %</td><td class="num">31%</td><td class="num down">+9 pts</td><td class="num muted" style="font-size:.75rem">24 → 22 → 31</td></tr>
+      <tr><td>Trusted Contributor %</td><td class="num">44%</td><td class="num down">-9 pts</td><td class="num muted" style="font-size:.75rem">55 → 53 → 44</td></tr>
+      
+    </tbody>
+  </table>
+</div>
+
+<div class="box"><h3>Top Contributors — SUMO <span style="font-weight:400;color:var(--muted);font-size:.8rem">· 51 total answers · 11 solutions</span></h3><table><thead><tr><th>Username</th><th class="num">Answers</th><th class="num">Solutions</th></tr></thead><tbody><tr><td><a href="https://support.mozilla.org/en-US/user/platform34" target="_blank" style="color:var(--teal)">platform34</a></td><td class="num">40</td><td class="num">9</td></tr></tbody></table></div>
+
+<div class="subsection-header" style="--sc: var(--orange)" id="connect-android"><h3><a href="#connect-android">Mozilla Connect — Community Wishlist<span class="anchor">#</span></a></h3><span class="sh-meta">15 ideas · <a href="https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird%20android/tab/most-kudoed" style="color:var(--orange)" target="_blank">view all on Mozilla Connect →</a></span></div><div class="box"><table><thead><tr><th class="num">#</th><th>Idea</th><th class="num">Kudos</th><th class="num">MoM</th></tr></thead><tbody><tr><td class="num muted">1</td><td><a href="https://connect.mozilla.org/t5/ideas/calendar-support-on-thunderbird-mobile/idi-p/76394" target="_blank" style="color:var(--text)">Calendar support on Thunderbird mobile</a></td><td class="num">327</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">2</td><td><a href="https://connect.mozilla.org/t5/ideas/android-version-of-thunderbird/idi-p/7383" target="_blank" style="color:var(--text)">Android version of Thunderbird</a></td><td class="num">286</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">3</td><td><a href="https://connect.mozilla.org/t5/ideas/allow-html-signatures-in-k-9-mail-thunderbird-for-android/idi-p/28983" target="_blank" style="color:var(--text)">Allow HTML signatures in K-9 Mail/Thunderbird for Android</a></td><td class="num">153</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">4</td><td><a href="https://connect.mozilla.org/t5/ideas/filtering-with-android-thunderbird/idi-p/61144" target="_blank" style="color:var(--text)">filtering with Android Thunderbird</a></td><td class="num">99</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">5</td><td><a href="https://connect.mozilla.org/t5/ideas/give-thunderbird-for-android-a-quot-send-later-quot-function/idi-p/72251" target="_blank" style="color:var(--text)">Give Thunderbird for Android a "send later" function</a></td><td class="num">96</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">6</td><td><a href="https://connect.mozilla.org/t5/ideas/tags-on-thunderbird-android/idi-p/86051" target="_blank" style="color:var(--text)">Tags on Thunderbird Android</a></td><td class="num">87</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">7</td><td><a href="https://connect.mozilla.org/t5/ideas/s-mime-support-for-k-9-mail-android/idi-p/61756" target="_blank" style="color:var(--text)">S/MIME support for K-9 Mail Android</a></td><td class="num">77</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">8</td><td><a href="https://connect.mozilla.org/t5/ideas/display-subfolders-in-tree-structure-like-on-thunderbird-for/idi-p/73292" target="_blank" style="color:var(--text)">Display Subfolders in tree structure (like on thunderbird for desktop)</a></td><td class="num">76</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">9</td><td><a href="https://connect.mozilla.org/t5/ideas/add-the-ability-to-create-imap-folders/idi-p/72777" target="_blank" style="color:var(--text)">Add the ability to create IMAP folders</a></td><td class="num">65</td><td class="num"><span class="muted">—</span></td></tr><tr><td class="num muted">10</td><td><a href="https://connect.mozilla.org/t5/ideas/ai-detection-tool/idi-p/106133" target="_blank" style="color:var(--text)">AI detection tool</a></td><td class="num">65</td><td class="num"><span class="muted">—</span></td></tr></tbody></table></div>
+
+<div class="subsection-header" style="--sc: var(--k9)" id="k9-mail-forum">
+  <h3><a href="#k9-mail-forum">K-9 Mail Forum<span class="anchor">#</span></a></h3>
+  <span class="sh-meta">forum.k9mail.app · all categories · May 2026</span>
+</div>
+<div class="grid" style="--sc: var(--k9)">
+  <div class="card">
+    <div class="label">New Topics</div>
+    <div class="value">38</div>
+    <div class="change muted">3-mo: 50 → 50 → 38</div>
+  </div>
+  <div class="card">
+    <div class="label">Accepted Answer</div>
+    <div class="value down">8%</div>
+    <div class="change muted">3-mo: 14 → 4 → 8%</div>
+  </div>
+  <div class="card">
+    <div class="label">Unanswered</div>
+    <div class="value down">32%</div>
+    <div class="change muted">3-mo: 46 → 40 → 32%</div>
+  </div>
+</div>
+<div class="box"><h3>Top Topic Themes</h3><table><thead><tr><th>Theme</th><th class="num">Topics</th><th class="num">3-mo trend</th></tr></thead><tbody><tr><td>Sync / Fetch</td><td class="num">5</td><td class="num muted" style="font-size:.75rem">3 → 3 → 5</td></tr><tr><td>Setup / Accounts</td><td class="num">5</td><td class="num muted" style="font-size:.75rem">10 → 7 → 5</td></tr><tr><td>Crashes & Freezes</td><td class="num">2</td><td class="num muted" style="font-size:.75rem">3 → 8 → 2</td></tr><tr><td>Notifications</td><td class="num">2</td><td class="num muted" style="font-size:.75rem">4 → 6 → 2</td></tr><tr><td>Update regression</td><td class="num">2</td><td class="num muted" style="font-size:.75rem">5 → 5 → 2</td></tr></tbody></table></div>
+<div class="box"><h3>Top Contributors</h3><p style="font-size:.85rem;color:var(--muted)">No contributors with 3+ answers this month.</p></div>
+<div class="box" style="font-size:.75rem;color:var(--muted);margin-top:.5rem">
+  <strong style="color:var(--text)">Methodology</strong> — Topics sourced from the K-9 Mail Discourse forum
+  (<a href="https://forum.k9mail.app" style="color:var(--k9)" target="_blank">forum.k9mail.app</a>)
+  via the public Discourse search API, across all forum categories, filtered to the report month.
+  <em>Accepted answer %</em> counts topics where a reply was marked as the solution — this undercounts
+  actual resolution since many resolved threads are never formally marked.
+  <em>Unanswered %</em> counts topics with zero replies.
+  Themes are matched by keyword pattern against topic titles only.
+  Data is fetched automatically at report generation time.
+</div>
+</div><!-- /android -->
+
+<div class="filter-section" data-section="desktop">
+<div class="section-header" style="--sc: var(--sky)">
+  <h2>Desktop</h2>
+  <span class="sh-meta">SUMO forum · trending topics · engineering priorities · Mozilla Connect · May 2026</span>
+</div>
+
+<div class="subsection-header" style="--sc: var(--sky)" id="sumo-forum">
+  <h3><a href="#sumo-forum">SUMO Forum<span class="anchor">#</span></a></h3>
+  <span class="sh-meta">SUMO · thunderbird · May 2026</span>
+</div>
+<div class="grid" style="--sc: var(--sky)">
+  <div class="card">
+    <div class="label">Questions</div>
+    <div class="value">802</div>
+    <div class="change up">+69 MoM</div>
+  </div>
+  <div class="card">
+    <div class="label">Solved Rate</div>
+    <div class="value up">70%</div>
+    <div class="change up">+6 pts MoM</div>
+  </div>
+  <div class="card">
+    <div class="label">Ignored %</div>
+    <div class="value up">17%</div>
+    <div class="change up">-6 pts MoM</div>
+  </div>
+</div>
+<div class="box">
+  <table>
+    <thead><tr><th>Metric</th><th class="num">Value</th><th class="num">MoM</th><th class="num">3-mo trend</th></tr></thead>
+    <tbody>
+      <tr><td>Questions (excl. spam)</td><td class="num">802</td><td class="num muted">+69</td><td class="num muted" style="font-size:.75rem">960 → 733 → 802</td></tr>
+      <tr><td>Overall Solved Rate</td><td class="num">70%</td><td class="num up">+6 pts</td><td class="num muted" style="font-size:.75rem">67 → 64 → 70</td></tr>
+      <tr><td>Ignored %</td><td class="num">17%</td><td class="num up">-6 pts</td><td class="num muted" style="font-size:.75rem">49 → 23 → 17</td></tr>
+      <tr><td>Trusted Contributor %</td><td class="num">49%</td><td class="num up">+4 pts</td><td class="num muted" style="font-size:.75rem">49 → 45 → 49</td></tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+<div class="subsection-header" style="--sc: var(--sky)" id="top-trending-topics"><h3><a href="#top-trending-topics">Top Trending Topics<span class="anchor">#</span></a></h3><span class="sh-meta">SUMO tag rollup · top 10 of 17 · <a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may_sumo_trending.md" style="color:var(--sky)" target="_blank">full report →</a></span></div><div class="box"><table><thead><tr><th style="width:36px">#</th><th>Topic</th><th class="num muted" style="font-size:.75rem">March</th><th class="num muted" style="font-size:.75rem">April</th><th class="num">May</th><th class="num" style="font-size:.75rem">3-mo avg</th></tr></thead><tbody><tr><td class="muted" style="font-size:.8rem">1</td><td>Send/Receive issues <span style="color:var(--critical)">↑</span></td><td class="num muted" style="font-size:.8rem">259<br><span style="font-size:.7rem">27.0%</span></td><td class="num muted" style="font-size:.8rem">191<br><span style="font-size:.7rem">26.1%</span></td><td class="num"><strong>250</strong><br><span style="font-size:.7rem">31.2%</span></td><td class="num muted" style="font-size:.8rem">28.1%</td></tr><tr><td class="muted" style="font-size:.8rem">2</td><td>General messaging (broad tag) <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">119<br><span style="font-size:.7rem">12.4%</span></td><td class="num muted" style="font-size:.8rem">99<br><span style="font-size:.7rem">13.5%</span></td><td class="num"><strong>101</strong><br><span style="font-size:.7rem">12.6%</span></td><td class="num muted" style="font-size:.8rem">12.8%</td></tr><tr><td class="muted" style="font-size:.8rem">3</td><td>Customization & UI <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">102<br><span style="font-size:.7rem">10.6%</span></td><td class="num muted" style="font-size:.8rem">82<br><span style="font-size:.7rem">11.2%</span></td><td class="num"><strong>94</strong><br><span style="font-size:.7rem">11.7%</span></td><td class="num muted" style="font-size:.8rem">11.2%</td></tr><tr><td class="muted" style="font-size:.8rem">4</td><td>Sign-in & Passwords <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">89<br><span style="font-size:.7rem">9.3%</span></td><td class="num muted" style="font-size:.8rem">56<br><span style="font-size:.7rem">7.6%</span></td><td class="num"><strong>66</strong><br><span style="font-size:.7rem">8.2%</span></td><td class="num muted" style="font-size:.8rem">8.4%</td></tr><tr><td class="muted" style="font-size:.8rem">5</td><td>Import / Migration / Profiles <span style="color:var(--success)">↓</span></td><td class="num muted" style="font-size:.8rem">53<br><span style="font-size:.7rem">5.5%</span></td><td class="num muted" style="font-size:.8rem">58<br><span style="font-size:.7rem">7.9%</span></td><td class="num"><strong>51</strong><br><span style="font-size:.7rem">6.4%</span></td><td class="num muted" style="font-size:.8rem">6.6%</td></tr><tr><td class="muted" style="font-size:.8rem">6</td><td>Account setup & management <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">72<br><span style="font-size:.7rem">7.5%</span></td><td class="num muted" style="font-size:.8rem">46<br><span style="font-size:.7rem">6.3%</span></td><td class="num"><strong>49</strong><br><span style="font-size:.7rem">6.1%</span></td><td class="num muted" style="font-size:.8rem">6.6%</td></tr><tr><td class="muted" style="font-size:.8rem">7</td><td>Spam & Junk mail <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">31<br><span style="font-size:.7rem">3.2%</span></td><td class="num muted" style="font-size:.8rem">30<br><span style="font-size:.7rem">4.1%</span></td><td class="num"><strong>33</strong><br><span style="font-size:.7rem">4.1%</span></td><td class="num muted" style="font-size:.8rem">3.8%</td></tr><tr><td class="muted" style="font-size:.8rem">8</td><td>Crashes & Performance <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">33<br><span style="font-size:.7rem">3.4%</span></td><td class="num muted" style="font-size:.8rem">26<br><span style="font-size:.7rem">3.5%</span></td><td class="num"><strong>28</strong><br><span style="font-size:.7rem">3.5%</span></td><td class="num muted" style="font-size:.8rem">3.5%</td></tr><tr><td class="muted" style="font-size:.8rem">9</td><td>Install & Update <span style="color:var(--success)">↓</span></td><td class="num muted" style="font-size:.8rem">36<br><span style="font-size:.7rem">3.8%</span></td><td class="num muted" style="font-size:.8rem">36<br><span style="font-size:.7rem">4.9%</span></td><td class="num"><strong>27</strong><br><span style="font-size:.7rem">3.4%</span></td><td class="num muted" style="font-size:.8rem">4.0%</td></tr><tr><td class="muted" style="font-size:.8rem">10</td><td>Calendar & Events <span style="color:var(--muted)">→</span></td><td class="num muted" style="font-size:.8rem">32<br><span style="font-size:.7rem">3.3%</span></td><td class="num muted" style="font-size:.8rem">25<br><span style="font-size:.7rem">3.4%</span></td><td class="num"><strong>26</strong><br><span style="font-size:.7rem">3.2%</span></td><td class="num muted" style="font-size:.8rem">3.3%</td></tr></tbody></table></div>
+
+<div class="subsection-header" style="--sc: var(--sky)" id="recommended-priorities"><h3><a href="#recommended-priorities">Recommended Priorities — Community Signal<span class="anchor">#</span></a></h3><span class="sh-meta">3 themes · <a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may_desktop_priorities.md" style="color:var(--sky)" target="_blank">full drill-down →</a></span></div><div class="box"><table><thead><tr><th>Theme</th><th class="num">Questions</th><th class="num">% of total</th></tr></thead><tbody><tr><td><strong>1.</strong> Authentication / OAuth fragility<br><span style="font-size:.8rem;color:var(--muted)">Heavy on Gmail, Outlook, Yahoo, Comcast provider failures. Recurring patterns: "stopped working after password change," "broke after Thunderbird update," repeated password prompts, connection / server reset, and friction with the new Account Setup Hub.</span></td><td class="num"><strong>145</strong></td><td class="num muted">18.1%</td></tr><tr><td><strong>2.</strong> Update regressions<br><span style="font-size:.8rem;color:var(--muted)">Visible across UI, send/receive, drag-and-drop, and folder display. Updates are breaking established workflows at scale — a release-process and regression-detection problem more than a feature problem.</span></td><td class="num"><strong>43</strong></td><td class="num muted">5.4%</td></tr><tr><td><strong>3.</strong> Data loss / folder integrity<br><span style="font-size:.8rem;color:var(--muted)">Highest-emotional-charge bucket. Folders/emails disappearing, "wiped out all my folders," "Local Folders gone," "Recover Emails removed by Expunge." High urgency, high trust impact — these are the "I lost everything" tickets.</span></td><td class="num"><strong>54</strong></td><td class="num muted">6.7%</td></tr></tbody></table></div>
+
+<div class="subsection-header" style="--sc: var(--sky)" id="mozilla-connect"><h3><a href="#mozilla-connect">Mozilla Connect — Community Wishlist<span class="anchor">#</span></a></h3><span class="sh-meta">25 ideas · 43 kudos · 3,073 views · <a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/may_connect_ideas.md" style="color:var(--sky)" target="_blank">full report →</a></span></div><div class="box"><table><thead><tr><th class="num">Kudos</th><th class="num">Views</th><th>Status</th><th>Idea</th></tr></thead><tbody><tr><td class="num">4</td><td class="num muted">189</td><td>new</td><td><a href="https://connect.mozilla.org/t5/ideas/pinned-messages-things-to-do/idi-p/126021" target="_blank" style="color:var(--text)">Pinned Messages - Things to Do</a></td></tr><tr><td class="num">3</td><td class="num muted">163</td><td>new</td><td><a href="https://connect.mozilla.org/t5/ideas/to-sort-the-conditions-in-a-thunderbird-filter-s-rules/idi-p/126518" target="_blank" style="color:var(--text)">To sort the conditions in a Thunderbird filter's rules</a></td></tr><tr><td class="num">3</td><td class="num muted">144</td><td>new</td><td><a href="https://connect.mozilla.org/t5/ideas/option-to-exclude-calendar-event-emails-from-search-in/idi-p/125325" target="_blank" style="color:var(--text)">Option to exclude calendar event emails from search in Thunderbird</a></td></tr><tr><td class="num">3</td><td class="num muted">134</td><td>new</td><td><a href="https://connect.mozilla.org/t5/ideas/calendar-print-today-and-forward/idi-p/125299" target="_blank" style="color:var(--text)">Calendar Print today and forward</a></td></tr><tr><td class="num">3</td><td class="num muted">252</td><td>new</td><td><a href="https://connect.mozilla.org/t5/ideas/feature-request-native-pst-import-without-requiring-outlook/idi-p/125298" target="_blank" style="color:var(--text)">Feature Request: Native PST Import Without Requiring Outlook Installation</a></td></tr></tbody></table></div>
+
+<div class="box"><h3>Top Contributors — SUMO <span style="font-weight:400;color:var(--muted);font-size:.8rem">· 1,980 total answers · 169 solutions</span></h3><table><thead><tr><th>Username</th><th class="num">Answers</th><th class="num">Solutions</th></tr></thead><tbody><tr><td><a href="https://support.mozilla.org/en-US/user/davidsk" target="_blank" style="color:var(--sky)">davidsk</a></td><td class="num">426</td><td class="num">37</td></tr><tr><td><a href="https://support.mozilla.org/en-US/user/rednoise" target="_blank" style="color:var(--sky)">rednoise</a></td><td class="num">158</td><td class="num">26</td></tr><tr><td><a href="https://support.mozilla.org/en-US/user/MattAuSupport" target="_blank" style="color:var(--sky)">MattAuSupport</a></td><td class="num">109</td><td class="num">13</td></tr><tr><td><a href="https://support.mozilla.org/en-US/user/Mapenzi" target="_blank" style="color:var(--sky)">Mapenzi</a></td><td class="num">103</td><td class="num">7</td></tr><tr><td><a href="https://support.mozilla.org/en-US/user/@next" target="_blank" style="color:var(--sky)">@next</a></td><td class="num">79</td><td class="num">7</td></tr></tbody></table></div>
+</div><!-- /desktop -->
+
+<script>
+function filterSection(key, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.classList.remove('active');
+    b.style.background = '';
+    b.style.borderColor = '';
+    b.style.color = '';
+  });
+  btn.classList.add('active');
+  btn.style.background = 'var(--accent)';
+  btn.style.borderColor = 'var(--accent)';
+  btn.style.color = 'var(--bg)';
+  document.querySelectorAll('.filter-section').forEach(s => {
+    s.style.display = (key === 'all' || s.dataset.section === key) ? '' : 'none';
+  });
+  history.replaceState(null, '', key === 'all' ? '#' : '#' + key);
+}
+const subsectionToParent = {
+  'play-store-reviews': 'android',
+  'android-forum': 'android',
+  'connect-android': 'android',
+  'k9-mail-forum': 'android',
+  'sumo-forum': 'desktop',
+  'top-trending-topics': 'desktop',
+  'recommended-priorities': 'desktop',
+  'mozilla-connect': 'desktop'
+};
+function applyHash() {
+  const hash = window.location.hash.replace('#', '');
+  if (!hash) return;
+  const parent = subsectionToParent[hash];
+  const filterKey = parent || hash;
+  const btn = document.querySelector(`.filter-btn[onclick*="'${filterKey}'"]`);
+  if (btn) filterSection(filterKey, btn);
+  if (parent) {
+    const el = document.getElementById(hash);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+window.addEventListener('DOMContentLoaded', applyHash);
+window.addEventListener('hashchange', applyHash);
+</script>
+<script>
+const tbCtx = document.getElementById('tbChart').getContext('2d');
+const k9Ctx = document.getElementById('k9Chart').getContext('2d');
+const chartDefaults = {
+  type: 'bar',
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#94a3b8' }, grid: { color: '#2a2d3a' } },
+      y: { ticks: { color: '#94a3b8' }, grid: { color: '#2a2d3a' } }
+    }
+  }
+};
+new Chart(tbCtx, { ...chartDefaults, data: {
+  labels: ["1", "2", "3", "4", "5"],
+  datasets: [{ label: 'Reviews', data: [55, 33, 53, 65, 179],
+    backgroundColor: ['#ef4444','#f97316','#f59e0b','#22c55e','#6366f1'] }]
+}});
+new Chart(k9Ctx, { ...chartDefaults, data: {
+  labels: ["1", "2", "3", "4", "5"],
+  datasets: [{ label: 'Reviews', data: [22, 10, 12, 17, 47],
+    backgroundColor: ['#ef4444','#f97316','#f59e0b','#22c55e','#6366f1'] }]
+}});
+</script>
+</body>
+</html>

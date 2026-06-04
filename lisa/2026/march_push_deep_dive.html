@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>March 2026 — Push &amp; Notification Deep Dive</title>
+<style>
+  :root {
+    --bg:#0f1117;--surface:#1a1d27;--border:#2a2d3a;
+    --text:#e2e8f0;--muted:#94a3b8;--accent:#6366f1;
+    --green:#22c55e;--red:#ef4444;--yellow:#f59e0b;--orange:#f97316;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:2rem;max-width:960px;margin:0 auto;}
+  h1{font-size:1.5rem;margin-bottom:.2rem;}
+  .subtitle{color:var(--muted);font-size:.85rem;margin-bottom:2rem;}
+  .section-header{display:flex;align-items:center;gap:.75rem;margin:2.5rem 0 1rem;padding-bottom:.6rem;border-bottom:2px solid var(--sc);}
+  .section-header h2{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--sc);}
+  .section-header .meta{font-size:.8rem;color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;}
+  .overview-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.9rem;margin-bottom:2rem;}
+  .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.1rem;border-top:3px solid var(--sc,var(--border));}
+  .stat-card .label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem;}
+  .stat-card .value{font-size:1.75rem;font-weight:700;}
+  .stat-card .sub{font-size:.75rem;color:var(--muted);margin-top:.2rem;}
+  .alert{background:#2d1a1a;border:1px solid #7f1d1d;border-radius:10px;padding:1rem 1.5rem;margin-bottom:1.5rem;}
+  .alert-title{color:var(--red);font-weight:700;margin-bottom:.35rem;}
+  .alert p{font-size:.875rem;color:#fca5a5;line-height:1.6;}
+  .tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.7rem;font-weight:700;}
+  .tag-a{background:#4b1414;color:#fca5a5;}
+  .tag-b{background:#4b3a14;color:#fde68a;}
+  .tag-c{background:#1e1b4b;color:#a5b4fc;}
+  .filter-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.75rem;}
+  .filter-btn{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:.35rem .9rem;font-size:.8rem;cursor:pointer;color:var(--muted);transition:all .15s;}
+  .filter-btn:hover{border-color:var(--text);color:var(--text);}
+  .filter-btn.active{color:var(--bg);font-weight:600;}
+  .filter-section{transition:opacity .15s;}
+  .badge{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:.15rem .6rem;font-size:.7rem;color:var(--muted);display:inline-block;margin-left:.35rem;vertical-align:middle;}
+  .explanation{background:#131720;border:1px solid #1e2535;border-radius:10px;padding:1.75rem;margin-top:3rem;}
+  .explanation h2{font-size:.95rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:1.25rem;padding-bottom:.6rem;border-bottom:1px solid var(--border);}
+  .explanation h3{font-size:.9rem;font-weight:700;margin:1.25rem 0 .5rem;}
+  .explanation p,.explanation li{font-size:.875rem;line-height:1.75;color:#cbd5e1;}
+  .explanation ul{padding-left:1.25rem;margin-bottom:.75rem;}
+  .explanation li{margin-bottom:.35rem;}
+  details>summary::-webkit-details-marker{display:none;}
+</style>
+</head>
+<body>
+
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:.5rem;margin-bottom:.25rem">
+  <h1>Push &amp; Notification — Deep Dive</h1>
+  <a href="march.html" style="font-size:.85rem;color:var(--accent);text-decoration:none;">← Back to March dashboard</a>
+</div>
+<p class="subtitle">March 2026 · 47 reviews · TB 38 · K-9 9 · 24 non-English reviews machine-translated</p>
+
+<div class="alert">
+  <div class="alert-title">⚠️ Q1 trend: 19 → 23 → 31 negative push mentions — accelerating</div>
+  <p>Push and notification issues are the single largest driver of 1–3★ reviews in March. Avg rating across all 47 push-related reviews: <strong>2.85★</strong>. These 47 reviews break into three distinct problems that look identical from the outside but need different fixes.</p>
+</div>
+
+<div class="overview-grid" style="--sc:var(--orange)">
+  <div class="stat-card"><div class="label">All push reviews</div><div class="value">47</div><div class="sub">TB 38 · K-9 9</div></div>
+  <div class="stat-card"><div class="label">Negative 1–3★</div><div class="value" style="color:var(--red)">31</div><div class="sub">of 47 total</div></div>
+  <div class="stat-card"><div class="label">Avg rating</div><div class="value" style="color:var(--yellow)">2.85★</div><div class="sub">vs 3.87★ overall TB</div></div>
+  <div class="stat-card"><div class="label">Reply rate</div><div class="value" style="color:var(--green)">100%</div><div class="sub">31/31 negatives</div></div>
+  <div class="stat-card" style="--sc:#ef4444"><div class="label">Problem A</div><div class="value" style="color:var(--red)">34</div><div class="sub">delivery failure · 2.50★</div></div>
+  <div class="stat-card" style="--sc:#f59e0b"><div class="label">Problem B</div><div class="value" style="color:var(--yellow)">5</div><div class="sub">v17 regression · 3.00★</div></div>
+  <div class="stat-card" style="--sc:#6366f1"><div class="label">Problem C</div><div class="value" style="color:var(--accent)">8</div><div class="sub">poll / UX · 4.25★</div></div>
+</div>
+
+<a href="#recommendations" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;background:#1a1f2d;border:1px solid #3730a3;border-radius:8px;padding:.75rem 1.1rem;margin-bottom:1.25rem;text-decoration:none;transition:border-color .15s" onmouseover="this.style.borderColor='#6366f1'" onmouseout="this.style.borderColor='#3730a3'">
+  <div>
+    <span style="font-size:.8rem;font-weight:700;color:#a5b4fc">↓ Recommendations &amp; star rating math</span>
+    <span style="font-size:.75rem;color:#6b7280;margin-left:.75rem">What it takes to hit 4.0★ · 4 actions ordered by effort</span>
+  </div>
+  <span style="font-size:.85rem;color:#6366f1;white-space:nowrap">jump ↓</span>
+</a>
+<div class="filter-bar">
+  <button class="filter-btn active" style="background:var(--orange);border-color:var(--orange)" onclick="filterSection('all',this)">All 47</button>
+  <button class="filter-btn" onclick="filterSection('a',this)"><span class="tag tag-a" style="margin-right:.35rem">A</span> Delivery failure <span class="badge">34</span></button>
+  <button class="filter-btn" onclick="filterSection('b',this)"><span class="tag tag-b" style="margin-right:.35rem">B</span> v17 regression <span class="badge">5</span></button>
+  <button class="filter-btn" onclick="filterSection('c',this)"><span class="tag tag-c" style="margin-right:.35rem">C</span> Poll / UX <span class="badge">8</span></button>
+</div>
+
+<div class="filter-section" data-section="a">
+<div class="section-header" style="--sc:#ef4444">
+  <span class="tag tag-a">A</span>
+  <h2>Push delivery failure</h2>
+  <span class="meta">34 reviews · core bug · avg 2.50★</span>
+</div>
+<div style="display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center;padding:1rem 1.25rem;background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;margin-bottom:1.25rem">
+  <div style="text-align:center"><div style="font-size:1.75rem;font-weight:700;color:#ef4444">2.50★</div><div style="font-size:.68rem;color:#6b7280;margin-top:1px">avg rating</div></div>
+  <div style="width:1px;background:#2a2d3a;align-self:stretch"></div>
+  <div style="text-align:center"><div style="font-size:1.4rem;font-weight:700">34</div><div style="font-size:.68rem;color:#6b7280">reviews</div></div>
+  <div style="text-align:center"><div style="font-size:1.4rem;font-weight:700;color:#ef4444">24</div><div style="font-size:.68rem;color:#6b7280">negative 1–3★</div></div>
+  <div style="text-align:center"><div style="font-size:.85rem;font-weight:600">TB 26</div><div style="font-size:.85rem;font-weight:600;color:#94a3b8">K-9 8</div></div>
+  <div style="flex:1;min-width:120px"><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">1</span><div style="height:7px;width:35px;background:#ef4444;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">12</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">2</span><div style="height:7px;width:17px;background:#ef4444;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">6</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">3</span><div style="height:7px;width:17px;background:#f59e0b;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">6</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">4</span><div style="height:7px;width:20px;background:#22c55e;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">7</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">5</span><div style="height:7px;width:8px;background:#22c55e;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">3</span></div></div>
+</div>
+<div style="background:#131720;border:1px solid #1e2535;border-left:3px solid #ef4444;border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:1.25rem;font-size:.875rem;line-height:1.7;color:#cbd5e1"><h3><span class="tag tag-a" style="margin-right:.4rem">A</span>Push delivery failure — the core bug</h3>
+  <p>These 34 reviews all describe the same failure mode: push notifications either never arrive, stop arriving after some time, or the entire sync process stalls silently and requires a manual restart. Several specific patterns:</p>
+  <ul>
+    <li><strong>Setup-correct, still broken.</strong> Multiple users explicitly note they followed documentation, checked every permission, disabled battery optimization — and it still doesn't work. Most damaging category because support replies often assume user error.</li>
+    <li><strong>OEM background process kill.</strong> One Samsung S22 Ultra reviewer (v17.0, writing "Galaxy S26" — likely a typo) describes a specific failure: push connection stays active, battery usage spikes, then sync stops entirely. Only force-quit fixes it. This is One UI's aggressive background process management interacting badly with the push keep-alive.</li>
+    <li><strong>Flagship hardware.</strong> Samsung Galaxy S24 Ultra, S25 Ultra, OnePlus 11, Google Pixel 9. Not low-end devices. These users have tried to make it work.</li>
+    <li><strong>Long-term desktop users as the canary.</strong> Two reviews cite 10–20 years of Thunderbird desktop loyalty as setup for disappointment. One: "I'm a tech person… if I can't easily make this app work, it's essentially unusable for most people." Highest-trust segment, highest churn risk.</li>
+    <li><strong>K-9 proportionally harder hit.</strong> 7 of K-9's 77 March reviews (9.1%) vs. 24 of TB's 374 (6.4%).</li>
+    <li><strong>4★ reviews still reporting failures.</strong> Several gave 4★ despite broken push — fixing it would likely flip them to 5★.</li>
+  </ul>
+
+  </div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-02 · OnePlus Nord CE 3 · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Worst email app I&#x27;ve ever used. Poor layout, display, and I never get notifications on time...</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Thanks for letting us know, and we&#x27;re sorry notifications aren&#x27;t coming on time! Are you using notifications at a set interval (15 minutes or higher) or push (instant) notifications? We are also working on an improved design experience this year.
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-06 · Samsung Galaxy A12s · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">👏👏delayed👏 notifications</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Ugh, we&#x27;re sorry you&#x27;re having issues with notification delays! We&#x27;d love to help troubleshoot this in more detail to help see what is going on exactly and help fix it! Please open a support question at Settings &gt; Get Help for us and our support community!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-06 · Samsung Galaxy A12s · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">👏delayed👏👏 notifications</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Ugh, we&#x27;re sorry you&#x27;re having issues with notification delays! We&#x27;d love to help troubleshoot this in more detail to help see what is going on exactly and help fix it! Please open a support question at Settings &gt; Get Help for us and our support community!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-10 · Samsung Galaxy S25 Ultra · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Push funktioniert beim S25 Ultra einfach nicht mehr. Programm muss mit Gewalt geschlossen und neu geöffnet werden, dann läuft der Sync meistens wieder korrekt aus. Hätte K9 über 10 Jahre und seit 1 Jahr läuft nicht mehr gut. Schade</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Push simply no longer works on the S25 Ultra. The app has to be force-closed and reopened, after which sync usually works correctly again. I&#x27;ve had K-9 for over 10 years and for the past year it&#x27;s been running poorly. A shame.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Lesen Sie bitte Einstellungen &gt; Hilfe &gt; Einstellungen &gt; &quot;Push konfigurieren...&quot; und aktivieren Sie dann &quot;Ordner verwalten&quot;. Aktivieren Sie Benachrichtigungen unter Einstellungen &gt; [Konto] &gt; Benachrichtigungen &gt; &quot;Neue Mail...&quot; und auf Ihrem Telefon unter Einstellungen &gt; Benachrichtigungen &gt; Nachrichten. Deaktivieren Sie außerdem die Akku-Optimierung
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-11 · Samsung Galaxy S24 Ultra · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">o well so much for ditching Microsoft. 1k options on desktop and mobile but I have to keep it running all the time?? and enable push sync on over 40 accounts and thousands of folders? rip.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Thanks for the feedback, and we&#x27;re sorry this is a blocker for switching from Microsoft. We&#x27;re working on making push easier to enable, and the reason ours is enabled by folder is because we use a privacy-preserving push service that has limits of folders that can be enabled per account.
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-11 · Google Pixel 9 Pro XL · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Stupid Bugs ruin this app. Constantly fails to send messages with attachments, stuck in outbox for no apparent reason. Also does not push notifications.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Please read Settings &gt; Getting Help &gt; Settings &gt; &quot;Configure push...&quot; and enable push and Notifications in Manage folders &gt; [folder]. Also enable Settings &gt; [account] &gt; Notifications &gt; &quot;New mail..&quot; and your phone&#x27;s notification settings in Settings &gt; Notifications &gt; Messages. Please also turn off battery optimizing. We&#x27;re working on the other bugs!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-16 · Sony Xperia 1 IV · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">aus einer Mail kein Ereignis im Kalender erstellen zu können.... schwach dass dies hiermit nicht möglich ist Push-Mail bei Outlook Mailadresse nicht möglich.... oje wie schwach! EREIGNISSE KÖNNEN NICHT AUS DEM MAILPROGRAMM ERSTELLT WERDEN. ICH MEINE EINE MAIL AUS DER MAN EINEN KALENDEREINTRAG ERSTELLEN KANN .....</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    ...being unable to create a calendar event from an email — weak that this isn&#x27;t possible here. Push email with an Outlook address is not possible either... oh how weak! EVENTS CANNOT BE CREATED FROM THE MAIL APP. I MEAN AN EMAIL FROM WHICH YOU COULD CREATE A CALENDAR ENTRY.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Vielen Dank für das aktualisierte Ticket und Entschuldigung für die Verwirrung! Wir prüfen, wie wir die Kalenderunterstützung, einschließlich der Ereignisse, verbessern können, indem wir entweder den Kalender des Telefons integrieren oder eine Kalenderkomponente für die App entwickeln. Wir haben noch kein Datum, aber das ist eine Priorität.
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-21 · OnePlus 11 · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Why I can only see outbox? It&#x27;s even worse then thunderbird as I can&#x27;t set notifications there. Totally useless.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>We&#x27;re sorry you&#x27;re only seeing the outbox! Please to to Settings &gt; [account] &gt; Folder to enable your other folders, as something may have happened during set up. If this doesn&#x27;t help, please go to Settings &gt; Get Help for more troubleshooting. Thanks!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-22 · Samsung Galaxy S24 Ultra · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">omg, die Email&#x27;s werden nicht automatisch abgerufen , man muss die Synchronisation immer manuell starten. Wozu braucht man so eine Email app, die es nicht automatisch macht! Samsung S24</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    omg, emails are not fetched automatically, you always have to start sync manually. What&#x27;s the point of an email app that doesn&#x27;t do it automatically! Samsung S24
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Dies könnte ein Problem mit der Nachrichtensynchronisierung sein, aber es könnte auch ein Problem mit den Akkueinstellungen sein. Kannst du sehen, ob das Problem weiterhin auftritt, wenn du in den Einstellungen deines Telefons &gt; Apps &gt; Thunderbird gehst und sicherstellst, dass es uneingeschränkten Zugriff auf den Akku hat?
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-25 · Fairphone 4 · v17.0</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">bad sync no real reason to use, besides sending data to a third party...</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>We&#x27;re sorry sync is still an issue, and this is one of our priorities to fix this year. There is a chance this could be related to battery permissions - K-9 needs unrestricted battery access to make regular syncing work!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Portuguese</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-29 · POCO F6 Pro · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">único problema é as notificações que demora para aparecer não integra em tempo real dos recebimentos dos e-mail, precisa melhorar.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    The only problem is the notifications that take a long time to appear — it doesn&#x27;t integrate in real time with incoming emails. Needs improvement.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Leia Definições &gt; Obter ajuda &gt; Definições &gt; &quot;Configurar push...&quot; e active o push e as notificações em Gerir pastas &gt; [pasta]. Active também as notificações em Definições &gt; [conta] &gt; Notificações &gt; &quot;Novo correio...&quot; e as definições de notificação do seu telemóvel em Definições &gt; Notificações &gt; Mensagens. Desactive também a otimização da bateria
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-31 · Google Pixel 9 · v17.0</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">I keep not getting notifications of emails. I&#x27;ve read the documentation, enabled the push service etc. I&#x27;m a tech person, I&#x27;ve been using thunderbird for desktop for 20 years. If I can&#x27;t easily make this app work, it&#x27;s essentially unusable for most people.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Please read Settings &gt; Getting Help &gt; Settings &gt; &quot;Configure push...&quot; and enable push and Notifications in Manage folders &gt; [folder]. Also enable Settings &gt; [account] &gt; Notifications &gt; &quot;New mail..&quot; and your phone&#x27;s notification settings in Settings &gt; Notifications &gt; Messages. Please also turn off battery optimizing (we&#x27;re working to simplify this!)
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-02 · Samsung Galaxy S24 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Ist so leider nicht brauchbar. Die Einrichtung und die Übernahme der Passwörter und Kontoeinstellungen hat schnell und super per QR-Code funktioniert. Das war es aber leider auch schon. Die automatische Synchronisation funktioniert nicht, trotz aller Berechtigung und Einstellungen, die es nur gibt. Ebenfalls ist die Wischaktion unbrauchbar. Es geht nur das Wischen in eine Richtung, die andere Richtung geht dann nicht mehr. Da muss nachgearbeitet werden.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Unfortunately not usable like this. Setup and transfer of passwords and account settings worked quickly and brilliantly via QR code. But that&#x27;s unfortunately where it ends. Automatic synchronization doesn&#x27;t work despite every available permission and setting.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Wir arbeiten daran, die Synchronisierung von Nachrichten zu verbessern - können Sie bitte Ihre Batterieeinstellungen überprüfen, um sicherzustellen, dass Thunderbird uneingeschränkten Zugriff hat? Und überprüfen Sie bitte Einstellungen &gt; Allgemeine Einstellungen &gt; Interaktion &gt; Wisch-Aktion, um sicherzustellen, dass beide Richtungen zugewiesen sind
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Croatian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-03 · Samsung Galaxy A54 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Koristim Thunderbird desetljećima na desktop računalima. Ovdje na Androidu ne obavještava o pristiglim porukama, ne rade ni push notifikacije, treba ručno osvježavati. Sve je podešeno: pozadinski rad, sinkronizacija, obavijesti, postavke mapa -push obavijesti, optimizacija baterije - rad u pozadini. Sve je podešeno kako treba.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I&#x27;ve been using Thunderbird on desktop computers for decades. Here on Android it doesn&#x27;t notify about incoming messages, push notifications don&#x27;t work, you need to refresh manually. Everything is configured: background activity, synchronization, notifications, folder settings — push notifications, battery optimization — background activity.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Žao nam je što i dalje imate problema s push obavijestima i željeli bismo vam pomoći s detaljnijom dijagnostikom! Možete li, molimo vas, otvoriti upit za podršku za nas i našu zajednicu u Postavke &gt; Potraži pomoć? Hvala!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Croatian*</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-17 · Samsung Galaxy Tab A7 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Thunderbird desktop koristim preko 2 desetljeća. Veselio sam se mobilnoj verziji no nije na razini zadatka - osnovne funkcionalnosti ne rade: a) Sinkronizacija emailova i push obavijesti na Androidu ne rade b) U aplikaciji nije moguće dodati napredno formatirani potpis već samo plain tekst. Nažalost, trebati će potražiti drugo rješenje ako se ovo ne zakrpi. Koristim Xiaomi 14T EDIT: Nije pomoglo njiže napisano. Volio bih da se uz opis aplikacije navede i lista uređaja na kojima provjereno radi.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I&#x27;ve been using Thunderbird desktop for over 2 decades. I was looking forward to the mobile version but it&#x27;s not up to the task — core features don&#x27;t work: a) Email sync and push notifications on Android don&#x27;t work b) It&#x27;s not possible to add a properly formatted signature in the app, only plain text. Unfortunately.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Žao nam je što savjet nije pomogao! Na Xiaomi telefonima možda ćete također morati omogućiti &#x27;Pozadinske podatke&#x27; i &#x27;Neograničenu upotrebu mobilnih podataka&#x27; u Postavke &gt; Aplikacije &gt; Thunderbird. Ako ovo ne uspije, molimo vas da otvorite pitanje za nas i našu zajednicu u Postavke &gt; Potraži pomoć. Hvala!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-20 · Samsung Galaxy S23+ · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">It&#x27;s a great unified inbox but the fastest time you can receive notifs after receiving an email is 15mins and it doesn&#x27;t copy the promotions/social/etc folders like on Gmail where it auto dumps ad emails. mailbox widget only shows unified mailbox and doesn&#x27;t have dark mode</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Unfortunately Gmail&#x27;s promotions/social/etc. folders are features only available in their apps. And while we&#x27;re working on more widget options, you can go to Settings &gt; Get Help &gt; Email and Messaging &gt; &quot;Configure push&quot; to learn how to set up instant notifications.
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-30 · Samsung Galaxy A03s · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">was great until, for months on end, it was suddenly completely unable to sync or send emails (all emails would indefinitely go to outbox regardless of connection, and i would never receive any new emails), rendering the app completely unusable. no fix i tried worked. it&#x27;s great on desktop though.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Unfortunately messages being stuck in the trash may involve a silent error with our existing database. We are actively working on improving error messaging to let users know when the errors that cause these kinds of issues happen, which we hope to deliver later this year.
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Slovak</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-31 · Samsung Galaxy A55 · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">mal som nastavene synchronizaciu schranky kazdu hodinu, doteraz fungovalo, teraz uz nefunguje, musim manualne synchronizovat schranky</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I had my inbox synchronization set to every hour, it worked until now. Now it no longer works — I have to sync my inbox manually.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Děkujeme za nahlášení a omlouváme se, že synchronizace s dotazováním nefunguje! Rádi bychom to s vámi vyřešili podrobněji. Mohli byste pro nás a naši komunitu podpory otevřít dotaz na podporu v Nastavení &gt; Získat nápovědu? Děkujeme!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-05 · OnePlus 11 · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">For unknown reasons notifications doesn&#x27;t work. Any hints?</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>If using push, please read Settings &gt; Getting Help &gt; Settings &gt; &quot;Configure push...&quot; and enable push and Notifications in Manage folders &gt; [folder]. Also enable notifications under Settings &gt; [account] &gt; Notifications &gt; &quot;New mail..&quot; and your phone&#x27;s notification settings in Settings &gt; Notifications &gt; Messages. Please also turn off battery optimizing
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Italian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-05 · Xiaomi Redmi Note 10 Pro · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Ottima, idea, specialmente &quot;open source&quot; ma: la posta unificata non ha le funzionalità della &quot;posta in arrivo&quot; della versione desk ( la suddivisione degli account, intendo), le notifiche arrivano quando capita, e spesso mi trovo a districarmi nei doppioni delle mail ricevute, prodotto assai acerbo, ma nello stesso tempo molto importante in questo panorama, di clienti mail, anche a pagamento, ma di scarsa qualità, un 5 stelle mancato, per ora il più brutto progetto, della Mozilla foundation.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Great idea, especially being open source, but: the unified inbox doesn&#x27;t have the features of the &#x27;inbox&#x27; from the desktop version (I mean the per-account breakdown), notifications arrive randomly, and I often end up dealing with duplicate received emails. A very unfinished product.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Siamo spiacenti per i problemi con le notifiche e i messaggi duplicati, e i problemi di qualità della vita come questi sono la nostra massima priorità da risolvere. E per avere account divisi invece di una vista unificata, è possibile disattivare questa funzione in Impostazioni &gt; Impostazioni generali &gt; Visualizzazione!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-20 · Huawei P40 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Kann mich der Rezension von Uwe, 2.3.26 nur anschließen, bei mir genauso, Einrichtung auf Handy geklappt, jedoch keine Synchronisation mit Laptop, warum weiß ich nicht?</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I can only agree with Uwe&#x27;s review from 2.3.26 — same situation for me: setup on the phone worked fine, but no synchronization with laptop — I don&#x27;t know why.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Wir entschuldigen uns für alle Probleme! Die Verbesserung des QR-Supports ist eine unserer Prioritäten in diesem Jahr. Im Moment gehen Sie bitte zu Einstellungen &gt; Hilfe holen &gt; Installation... &gt; &quot;Einstellungen importieren...&quot;, um unseren Support-Artikel zu lesen, und versuchen Sie, Ihr Telefon weiter von Ihrem Computer zu entfernen!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Italian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-23 · Samsung Galaxy M54 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Attivare le notifiche è risultato più complesso del dovuto/di quanto ci si aspetterebbe ed in ogni caso vi sono ritardi considerevoli tra la ricezione delle mail e l&#x27;arrivo delle notifiche</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Setting up notifications turned out to be more complex than necessary / than one would expect, and in any case there are considerable delays between receiving the email and the notification arriving.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Sorry for any frustration with notifications! We&#x27;re working on ways to make them easier to enable, as well as to reduce any delays. This might be caused by issues with message sync, which is a top priority to improve this year!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-28 · Samsung Galaxy S22 Ultra · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Die App ist grundsätzlich super. Leider habe ich auf dem Galaxy S26 das Problem, dass sie sich, wenn die Push Verbindung im Hintergrund aktiv ist, sporadisch aufhängt. Das merke ich daran, dass der Akkuverbrauch steigt und keine Mails mehr synchronisiert werden können. Nur ein erzwungenes Beenden der App und ein Neustart lösen das Problem. Zudem würde ich mir wünschen, dass man die neuen Avatare in den Benachrichtigungen deaktivieren kann. Die vorherige Darstellung hat mir besser gefallen.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    The app is fundamentally great. Unfortunately on the Galaxy S26 I have a problem where, when the push connection is active in the background, it occasionally hangs. I notice this because battery usage goes up and no more emails can be synced. Only a force-close fixes it. [Note: device code m1s = Samsung Galaxy S22 Ultra — reviewer likely has a typo for S24/S25]
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Danke, dass Sie dies gemeldet haben! Könntest du den Einfrierfehler unter github.com/thunderbird/thunderbird-android/issues für unser Bug Triage Team und unsere Entwickler melden? Und Sie können das Monogramm unter Einstellungen &gt; [Konto] &gt; Allgemeine Einstellungen wiederherstellen
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Italian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-29 · POCO F8 Ultra · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">per me non è un gran problema, cmq segnalo che io continuo a non ricevere nessuna notifica, anzi, non l&#x27;ho proprio mai ricevuta (poco F2 pro prima, F8 Ultra ora) e che con l&#x27;ultimo aggiornamento ora l&#x27;elenco degli account compare XX al posto delle iniziali del nome 🤷 ... e un&#x27;ultima cosa anche se di poco conto: l&#x27;animazione delle frecce di &quot;sincronizza account&quot;, girano in senso opposto alla loro direzione!</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    For me it&#x27;s not a big deal, but I&#x27;m reporting that I still receive no notifications at all — in fact I&#x27;ve never received a single one (POCO F2 Pro before, F8 Ultra now). Also, with the last update the account list now shows &#x27;XX&#x27; instead of the name initials. And one more thing even if it&#x27;s off-topic [review continues]
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Leggere Impostazioni &gt; Guida in linea &gt; Impostazioni &gt; &quot;Configura push...&quot; e abilitare push e notifiche in Gestione cartelle &gt; [cartella]. Attivare anche Impostazioni &gt; [account] &gt; Notifiche &gt; &quot;Nuova posta...&quot; e le impostazioni di notifica del telefono in Impostazioni &gt; Notifiche &gt; Messaggi. Disattivare anche l&#x27;ottimizzazione della batteria
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Danish</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-08 · Samsung Galaxy A35 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Enkel ,overskuelig app og super let opsætning når man som jeg har Thunderbird på PC - men jeg får ikke notifikationer ved indkomne mails og det synes ikke at være en indstillings mulighed (derfor kun 4 *)</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Simple, clear app and super easy setup when you have Thunderbird on PC like I do — but I don&#x27;t get notifications for incoming mail, and that doesn&#x27;t seem to be a setting option (hence only 4★)
+  </div>
+</details>
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Italian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-10 · Samsung Galaxy S25 Ultra · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Ottima app, ho risolto tramite assistenza anche il problema delle notifiche push e ora sembra funzionare tutto in modo ottimale. Si possono importare i vari account dalla versione desktop senza troppi problemi e in modo veloce</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Excellent app. I also resolved the push notification problem with support assistance, and now everything seems to be working optimally. You can import all your accounts from the desktop version without too much trouble and very quickly.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Grazie per aver aggiornato il tuo commento e siamo lieti che il consiglio sulle notifiche push sia stato utile!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-12 · Samsung Galaxy A16 5G · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Everything the Internet was supposed to be! Functional. Quick. Could be easier to use. Well documented. Configuring push could be easier, but figure it out and it works.</div>
+  
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-17 · Samsung Galaxy Tab A9+ · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Signatures do not synchronize and do not support HTML? Seems nice otherwise.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>While we&#x27;re working on HTML signatures for the Android app, unfortunately we don&#x27;t yet have the ability to sync them from the desktop app. You can also request this feature at connect.mozilla.org, our official feedback site! Thanks for using the app and your review!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Portuguese</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-20 · Samsung Galaxy A16 5G · v—</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Uso o Thunderbird no meu computador e ele funciona muito bem. Mas no celular ele possui bugs de sincronização e notificação. O app simplesmente parou de notificar e quase fui prejudicado por isso. Principalmente por causa do bug das notificações tive que desinstalá-lo.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I use Thunderbird on my computer and it works very well. But on mobile it has sync and notification bugs. The app simply stopped notifying me and I nearly suffered because of it. Mainly because of the notification bug I had to uninstall it.
+  </div>
+</details>
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-25 · Fairphone 5 · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Eigentlich ganz brauchbar, aber Ordnerverwaltung fehlt. Mit IMAP möchte ich auch meine Online Ordner verschieben, erstellen und löschen können, so dass sie dann auch synchronisiert werden. Das fehlt.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Actually quite usable, but folder management is missing. With IMAP I&#x27;d also like to be able to move, create and delete my online folders so they sync. That&#x27;s what&#x27;s missing.
+  </div>
+</details>
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-30 · Samsung Galaxy S24 · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Die Android App ist leider nicht sinnvoll nutzbar. Einrichtung funktioniert zwar problemlos aber eine automatische Synchronisation ist nicht möglich, mit allen Berechtigungen und Thunderbird aus der Standby Routine entnommen. Es bringt mir wenig, jedes mal aktiv nach potenziellen Mails schauen zu müssen. So für mich leider nicht brauchbar. Schade, denn ich würde es gerne nutzen wollen. Edit: Nach den Vorschlägen zur Problemlösung funktioniert die Synchronisation.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    The Android app is unfortunately not meaningfully usable. Setup works fine, but automatic synchronization is not possible even with all permissions granted and Thunderbird removed from the standby routine. It doesn&#x27;t help much to have to actively check for new emails every time.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Wir freuen uns, dass die Anleitung funktioniert hat. Die Erstellung von Fehlermeldungen zur Behebung von Synchronisierungsproblemen wie diesem hat für uns hohe Priorität. Vielen Dank für die aktualisierte Bewertung!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">German</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-10 · OnePlus Nord 3 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Ich verstehe nicht, warum die Thunderbird Mobile App aktuell nur 3,8 Sterne hat – für mich klar 5. Sehr nutzerfreundliches, übersichtliches Design und viele Konfigurationsmöglichkeiten. Meine Konten aus Thunderbird auf Windows konnte ich schnell und problemlos aufs Smartphone übertragen. Der gemeinsame Posteingang für alle Konten ist ebenfalls sehr praktisch. Einziger Wunsch: Push/Live-Synchronisation für alle Konten mit einem Klick aktivierbar machen statt einzeln.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I don&#x27;t understand why the Thunderbird mobile app currently only has 3.8 stars — for me it&#x27;s clearly a 5. Very user-friendly, clear design and lots of configuration options. I was able to quickly and easily transfer my accounts from Thunderbird on Windows to my smartphone. The unified inbox [review continues]
+  </div>
+</details>
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Chinese (Simplified)</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-23 · OnePlus Nord 4 · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Great app, but I have a question about proxy. I&#x27;m a user from China mainland, due to well known reason, I have to use a proxy when accessing Gmail. but here comes a problem that when the proxy disconnects, the app keeps notificating me that cannot access the gmail server. my suggestion is enable user to ignore some message like this for a while. thanks</div>
+  
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-30 · Honor Magic5 Pro · v17.0</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">everything ok except push email are very slow. Update 01.04. Dev responded, thank you</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>We&#x27;re so glad this advice worked, and thanks for the updated review and the five stars!
+</div>
+</div>
+</div>
+
+<div class="filter-section" data-section="b">
+<div class="section-header" style="--sc:#f59e0b">
+  <span class="tag tag-b">B</span>
+  <h2>v17.0 — Notification management regression</h2>
+  <span class="meta">5 reviews · new bug · avg 3.00★</span>
+</div>
+<div style="display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center;padding:1rem 1.25rem;background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;margin-bottom:1.25rem">
+  <div style="text-align:center"><div style="font-size:1.75rem;font-weight:700;color:#f59e0b">3.00★</div><div style="font-size:.68rem;color:#6b7280;margin-top:1px">avg rating</div></div>
+  <div style="width:1px;background:#2a2d3a;align-self:stretch"></div>
+  <div style="text-align:center"><div style="font-size:1.4rem;font-weight:700">5</div><div style="font-size:.68rem;color:#6b7280">reviews</div></div>
+  <div style="text-align:center"><div style="font-size:1.4rem;font-weight:700;color:#ef4444">5</div><div style="font-size:.68rem;color:#6b7280">negative 1–3★</div></div>
+  <div style="text-align:center"><div style="font-size:.85rem;font-weight:600">TB 4</div><div style="font-size:.85rem;font-weight:600;color:#94a3b8">K-9 1</div></div>
+  <div style="flex:1;min-width:120px"><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">1</span><div style="height:7px;width:3px;background:#ef4444;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">0</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">2</span><div style="height:7px;width:3px;background:#ef4444;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">0</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">3</span><div style="height:7px;width:100px;background:#f59e0b;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">5</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">4</span><div style="height:7px;width:3px;background:#22c55e;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">0</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">5</span><div style="height:7px;width:3px;background:#22c55e;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">0</span></div></div>
+</div>
+<div style="background:#131720;border:1px solid #1e2535;border-left:3px solid #f59e0b;border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:1.25rem;font-size:.875rem;line-height:1.7;color:#cbd5e1"><h3><span class="tag tag-b" style="margin-right:.4rem">B</span>v17.0 notification management regression</h3>
+  <p>These 5 reviews are a distinct bug from Problem A: notifications that won't clear after the email is read, emails reappearing on the notification slider after being dismissed, and mark-as-read not syncing to the notification shade. Users experiencing this may have push delivery working fine — the failure is in notification state management. Worth tracking separately from delivery failures, and already present in both v16.1 and v17.0.</p>
+
+  </div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-02 · Motorola Edge 50 Pro · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">DO NOT USE POP. any new mail, once opened is deleted to the trash bin. use IMAP. 2. Mail notifications is sketchy. worked for me once. then only sounds afterward. 3. Push does not work. in fact, once turned on as per instructions, no mail is ever checked. tried this for three hours. used my PC to fill up my 3 mailboxes with several new emails. 4. Sync is sketchy. it does not check till I pick up the phone and log in, and yes I leave the app active. once active on the phone 15 min sync works.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Thanks for providing your feedback, and we&#x27;ll help in our reply as much as we can. You can&#x27;t use sync and push on the same account, so you&#x27;ll want to disable sync in a folder if you want to use push. Be sure the battery isn&#x27;t restricted for the app, and double check the article at Settings &gt; Get Help &gt; Settings &gt; &quot;Enable push&quot;
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-04 · Samsung Galaxy S24+ · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Almost great, but the one super annoying thing is having to confirm you want to delete an email from notification. It didn&#x27;t use to be this way, but this extra step makes it a huge hassle to just delete emails you know you don&#x27;t need from the notification.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Thanks for letting us know about this! We&#x27;ll get this feedback to our mobile and design team about an option to delete without a confirmation. You can also suggest this as a feature at connect.mozilla.org, our official feedback website!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-25 · Samsung Galaxy S25 Ultra · v17.0</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Since a recent update I can no longer delete some emails from my notifications slider, the emails appear deleted but then reappear on the slider! having that feature was the main reason I downloaded this in the first place. Hopefully this can be rectified soon as it is very annoying.</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Thanks for reporting this, and unfortunately this is a recurring bug we&#x27;re working on fixing. You can comment on this issue and follow our progress on fixing it here: https://github.com/thunderbird/thunderbird-android/issues/10731
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">K9</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Italian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-27 · Xiaomi 14T Pro · v—</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">le notifiche non sono più cancellate una volta letti i messaggi ma si deve cancellarle una alla volta</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Notifications are no longer cleared once messages have been read — you have to dismiss them one by one.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Grazie per averci segnalato questo problema, che potrebbe essere correlato a un problema che abbiamo riscontrato con i messaggi che non vengono eliminati nella visualizzazione dell&#x27;elenco dei messaggi anche quando sono stati eliminati nella visualizzazione dei messaggi. Stiamo lavorando per risolvere il problema e ci scusiamo per la frustrazione!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Spanish</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-28 · OnePlus 12 · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">A mejorado, pero la última versión no marca correos como leídos, y se quedan las notificaciones, incluso si oprimo &quot;marcar como leído&quot;, persiste la notificación.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    It has improved, but the latest version doesn&#x27;t mark emails as read, and the notifications linger — even if I press &#x27;mark as read&#x27;, the notification persists.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Gracias por informarnos de este problema, que podría estar relacionado con un problema que tenemos con los mensajes que no se eliminan ni se marcan como leídos en la vista de lista de mensajes. Estamos investigando este problema y sentimos la frustración.
+</div>
+</div>
+</div>
+
+<div class="filter-section" data-section="c">
+<div class="section-header" style="--sc:#6366f1">
+  <span class="tag tag-c">C</span>
+  <h2>Poll interval &amp; setup friction</h2>
+  <span class="meta">8 reviews · UX gap, not a bug · avg 4.25★</span>
+</div>
+<div style="display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center;padding:1rem 1.25rem;background:#1a1d27;border:1px solid #2a2d3a;border-radius:8px;margin-bottom:1.25rem">
+  <div style="text-align:center"><div style="font-size:1.75rem;font-weight:700;color:#6366f1">4.25★</div><div style="font-size:.68rem;color:#6b7280;margin-top:1px">avg rating</div></div>
+  <div style="width:1px;background:#2a2d3a;align-self:stretch"></div>
+  <div style="text-align:center"><div style="font-size:1.4rem;font-weight:700">8</div><div style="font-size:.68rem;color:#6b7280">reviews</div></div>
+  <div style="text-align:center"><div style="font-size:1.4rem;font-weight:700;color:#ef4444">2</div><div style="font-size:.68rem;color:#6b7280">negative 1–3★</div></div>
+  <div style="text-align:center"><div style="font-size:.85rem;font-weight:600">TB 8</div><div style="font-size:.85rem;font-weight:600;color:#94a3b8">K-9 0</div></div>
+  <div style="flex:1;min-width:120px"><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">1</span><div style="height:7px;width:3px;background:#ef4444;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">0</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">2</span><div style="height:7px;width:12px;background:#ef4444;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">1</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">3</span><div style="height:7px;width:12px;background:#f59e0b;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">1</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">4</span><div style="height:7px;width:12px;background:#22c55e;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">1</span></div><div style="display:flex;align-items:center;gap:.35rem;margin-bottom:3px"><span style="font-size:.68rem;color:#6b7280;width:10px">5</span><div style="height:7px;width:62px;background:#22c55e;border-radius:3px"></div><span style="font-size:.68rem;color:#6b7280">5</span></div></div>
+</div>
+<div style="background:#131720;border:1px solid #1e2535;border-left:3px solid #6366f1;border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:1.25rem;font-size:.875rem;line-height:1.7;color:#cbd5e1"><h3><span class="tag tag-c" style="margin-right:.4rem">C</span>Poll interval &amp; setup friction</h3>
+  <p>Not a bug — push works, or would work if discoverable. The friction is the 15-minute minimum poll interval and push configuration being buried. Several 2-3★ ratings are entirely caused by this. One 5★ reviewer asks why push isn't the default: "it would save you so much hassle and bad reviews." Problem C reviews are recoverable — these users aren't churning over a bug. An onboarding "set up notifications" prompt or making push the default flow would convert some of these to 4–5★.</p>
+
+  </div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #ef4444;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-18 · — · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">I can&#x27;t wait 15 minutes for it to check mail. It will not accept my login passwords for my Google Account. Yet, I can login on my laptop with my Google Account. Any app that has this issue is not worth using. Sorry Mozilla, but Thunderbird is not user friendly. JMHO</div>
+  
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Please check the Google support article at Settings &gt; Get Help &gt; Passwords and Sign In (some types of Google accounts need extra permissions) and the push notification article at Settings &gt; Get Help &gt; Setting. If these don&#x27;t help, we&#x27;d love to troubleshoot! Press on the &#x27;Ask the community&#x27; section on the main Get Help page!
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #f59e0b;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">French</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-03 · Google Pixel 8 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Problème de notifications qui n&#x27;apparaissent plus depuis la dernière mise à jour. Je ne parle pas des notifications push, mais bien du relevé occasionnel (toutes les 15 min). Cela fonctionnait très bien auparavant.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Notification problem — they no longer appear since the last update. I&#x27;m not talking about push notifications, but the regular polling (every 15 min). It used to work very well before.
+  </div>
+</details>
+  <div style="margin-top:.75rem;padding:.75rem;background:#12151f;border-left:3px solid #3730a3;border-radius:0 6px 6px 0;font-size:.8rem;color:#a5b4fc;line-height:1.55">
+  <span style="font-weight:700;color:#6366f1">Dev reply · </span>Merci de nous l&#x27;avoir signalé, et nous travaillons à l&#x27;amélioration de la synchronisation des messages pour ces notifications. Pour l&#x27;instant, pouvez-vous vérifier les paramètres de batterie de l&#x27;application Thunderbird pour vous assurer qu&#x27;ils ne sont pas limités ?
+</div>
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#374151">☆</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-13 · tokay · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Please add folder poll frequency &quot;Every 5 minutes&quot;</div>
+  
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">English</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-01 · Samsung Galaxy S24 Ultra · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">So far so good, absolutely love this client..... But... Why do you not default push email which would save you so much hassle and bad reviews? I don&#x27;t understand.... I love that you guys have released this.... I will be donating something to you guys. Thanks</div>
+  
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Polish</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-02 · Motorola Moto G52 · v16.1</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">hostuję własną domenę i korzystam z tej aplikacji. Nie używam powiadomień push tylko 15 min . Na chromeboku korzystam również z thunderbirda. Nie mam żadnych problemów. Poprostu działa. Dodane tylko jedno konto.</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    I host my own domain and use this app. I don&#x27;t use push notifications, just the 15-min poll. I also use Thunderbird on my Chromebook. I have no problems. It just works. Only one account added.
+  </div>
+</details>
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Russian</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-11 · Samsung Galaxy S25 · v16.1</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Notification settings a little bit hard to find :)</div>
+  
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">French</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-28 · Samsung Galaxy S21 Ultra · v17.0</span>
+  </div>
+  
+  <div style="font-size:.7rem;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem">Original</div>
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Très bonne application. Contrairement à ce qui est dit, le push est configurable, mais avec une manipulation certes un peu complexe...</div>
+  <details open style="margin-top:.75rem">
+  <summary style="cursor:pointer;font-size:.75rem;color:#6366f1;font-weight:600;user-select:none;list-style:none;display:flex;align-items:center;gap:.35rem">
+    <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:1px 7px;font-size:.68rem;font-weight:700;color:#a5b4fc">TRANSLATED</span>
+    <span style="color:#94a3b8;font-size:.72rem">machine-translated for analysis · click to hide</span>
+  </summary>
+  <div style="margin-top:.6rem;padding:.75rem 1rem;background:#0f1117;border:1px solid #1e1b4b;border-radius:6px;font-size:.875rem;color:#c7d2fe;line-height:1.65">
+    Very good application. Contrary to what is said, push is configurable, but with a process that is admittedly a bit complex…
+  </div>
+</details>
+  
+</div>
+<div style="background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #22c55e;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem">
+  <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem">
+    <span style="background:#f97316;color:#0f1117;border-radius:4px;padding:1px 6px;font-size:.7rem;font-weight:700">TB</span>
+    <span style="font-size:1.05rem"><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span><span style="color:#f59e0b">★</span></span>
+    <span style="background:#1e293b;color:#94a3b8;border-radius:4px;padding:1px 6px;font-size:.7rem">Greek</span>
+    <span style="font-size:.75rem;color:#94a3b8">2026-03-29 · OnePlus 9 Pro · v—</span>
+  </div>
+  
+  
+  <div style="font-size:.875rem;line-height:1.65;color:#e2e8f0">Hi team. Recently, I downloaded the app, but I noticed that the incoming emails are updated every 15 minutes. Could you please reduce the time into 1 min? Also is there any notification for incoming emails? I made folders for better correspondence with clients. Still there is no notification for incoming email.</div>
+  
+  
+</div>
+</div>
+
+<!-- EXPLANATION -->
+
+<!-- RECOMMENDATIONS -->
+<div id="recommendations" style="background:#131720;border:1px solid #1e2535;border-radius:10px;padding:1.75rem;margin-top:3rem">
+  <h2 style="font-size:.95rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8;margin-bottom:1.25rem;padding-bottom:.6rem;border-bottom:1px solid #2a2d3a">Recommendations &amp; star rating math</h2>
+
+  <!-- Rating math table -->
+  <h3 style="font-size:.875rem;font-weight:700;margin-bottom:.75rem">What would it actually take to hit 4.0★?</h3>
+  <p style="font-size:.8rem;color:#94a3b8;margin-bottom:.9rem">TB March baseline: <strong style="color:#e2e8f0">3.87★</strong> across 374 reviews. Goal: 4.0★. Deficit: <strong style="color:#ef4444">47 star-points</strong>.</p>
+
+  <table style="width:100%;border-collapse:collapse;font-size:.8rem;margin-bottom:1.5rem">
+    <thead>
+      <tr style="border-bottom:1px solid #2a2d3a">
+        <th style="text-align:left;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Fix scenario</th>
+        <th style="text-align:center;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Reviews affected</th>
+        <th style="text-align:right;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">New avg</th>
+        <th style="text-align:right;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Δ</th>
+        <th style="text-align:right;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Hits 4.0★?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.5rem .6rem;color:#e2e8f0"><span class="tag tag-c" style="margin-right:.4rem;font-size:.65rem">C</span>Onboarding push default / 15-min UX fix</td>
+        <td style="text-align:center;padding:.5rem .6rem;color:#94a3b8">3</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#e2e8f0">3.89★</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#94a3b8">+0.02</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#ef4444">✗</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.5rem .6rem;color:#e2e8f0"><span class="tag tag-b" style="margin-right:.4rem;font-size:.65rem">B</span>Fix v17.0 notification clear/delete bug</td>
+        <td style="text-align:center;padding:.5rem .6rem;color:#94a3b8">5</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#e2e8f0">3.90★</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#94a3b8">+0.02</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#ef4444">✗</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.5rem .6rem;color:#e2e8f0"><span class="tag tag-c" style="margin-right:.4rem;font-size:.65rem">C</span> + <span class="tag tag-b" style="margin:.0 .4rem 0 .2rem;font-size:.65rem">B</span>Both low-effort fixes</td>
+        <td style="text-align:center;padding:.5rem .6rem;color:#94a3b8">6</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#e2e8f0">3.89★</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#94a3b8">+0.02</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#ef4444">✗</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.5rem .6rem;color:#e2e8f0"><span class="tag tag-a" style="margin-right:.4rem;font-size:.65rem">A</span>Fix push delivery — all Problem A → 4★</td>
+        <td style="text-align:center;padding:.5rem .6rem;color:#94a3b8">18</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#e2e8f0">3.97★</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#f59e0b">+0.10</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#ef4444">✗ close</td>
+      </tr>
+      <tr>
+        <td style="padding:.5rem .6rem;color:#e2e8f0"><span class="tag tag-a" style="margin-right:.4rem;font-size:.65rem">A</span>Fix push delivery — all Problem A → 5★ (optimistic)</td>
+        <td style="text-align:center;padding:.5rem .6rem;color:#94a3b8">24</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#22c55e;font-weight:700">4.04★</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#22c55e">+0.16</td>
+        <td style="text-align:right;padding:.5rem .6rem;color:#22c55e;font-weight:700">✓</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="background:#2d1a1a;border:1px solid #7f1d1d;border-radius:8px;padding:.9rem 1.1rem;margin-bottom:1.5rem;font-size:.8rem;color:#fca5a5;line-height:1.65">
+    <strong style="color:#ef4444">The uncomfortable truth:</strong> Fixing Problems B and C together moves the avg by +0.02★. The 4.0★ annual goal lives entirely inside Problem A. There is no UX shortcut — push delivery has to actually work.
+  </div>
+
+  <!-- Actions table -->
+  <h3 style="font-size:.875rem;font-weight:700;margin-bottom:.75rem">Recommended actions, ordered by effort vs. impact</h3>
+  <table style="width:100%;border-collapse:collapse;font-size:.8rem">
+    <thead>
+      <tr style="border-bottom:1px solid #2a2d3a">
+        <th style="text-align:left;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Action</th>
+        <th style="text-align:center;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Effort</th>
+        <th style="text-align:left;color:#6b7280;padding:.4rem .6rem;font-weight:500;font-size:.72rem;text-transform:uppercase">Why</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.55rem .6rem;color:#e2e8f0;vertical-align:top">
+          <div style="font-weight:600;margin-bottom:.2rem">OEM-specific battery exemption steps in dev replies</div>
+          <div style="color:#94a3b8;font-size:.75rem">Samsung: Adaptive Battery → Never sleeping. OnePlus: Battery → App freeze off. Different for each OEM. Current replies are generic and frequently don't solve the problem.</div>
+        </td>
+        <td style="text-align:center;padding:.55rem .6rem;vertical-align:top"><span style="background:#14532d;color:#86efac;border-radius:4px;padding:1px 8px;font-weight:700;font-size:.72rem">LOW</span></td>
+        <td style="padding:.55rem .6rem;color:#94a3b8;vertical-align:top;font-size:.75rem">May unlock review updates from users who were replied to but never fixed. 31 negatives all received a reply — even a 10% conversion to 4★ is ~3 star-points.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.55rem .6rem;color:#e2e8f0;vertical-align:top">
+          <div style="font-weight:600;margin-bottom:.2rem">Fix v17.0 notification clear / mark-as-read bug <span class="tag tag-b" style="font-size:.65rem;margin-left:.3rem">B</span></div>
+          <div style="color:#94a3b8;font-size:.75rem">5 reviews all 3★, all about the same bug. Already tracked in GitHub issues. A patch release that fixes this would be worth asking those reviewers to update.</div>
+        </td>
+        <td style="text-align:center;padding:.55rem .6rem;vertical-align:top"><span style="background:#1c1917;color:#d6d3d1;border-radius:4px;padding:1px 8px;font-weight:700;font-size:.72rem">MED</span></td>
+        <td style="padding:.55rem .6rem;color:#94a3b8;vertical-align:top;font-size:.75rem">Known regression, small blast radius, clear user expectation. Fast win once fixed.</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1e2535">
+        <td style="padding:.55rem .6rem;color:#e2e8f0;vertical-align:top">
+          <div style="font-weight:600;margin-bottom:.2rem">Make push the default in account setup <span class="tag tag-c" style="font-size:.65rem;margin-left:.3rem">C</span></div>
+          <div style="color:#94a3b8;font-size:.75rem">Reviewers explicitly ask for this. Minimal engineering — it's a default-on change, not a new feature. Won't recover existing bad reviews but prevents new ones.</div>
+        </td>
+        <td style="text-align:center;padding:.55rem .6rem;vertical-align:top"><span style="background:#14532d;color:#86efac;border-radius:4px;padding:1px 8px;font-weight:700;font-size:.72rem">LOW</span></td>
+        <td style="padding:.55rem .6rem;color:#94a3b8;vertical-align:top;font-size:.75rem">Stops bleeding from Problem C going forward. Q1 pattern suggests these reviews will keep coming monthly until the default changes.</td>
+      </tr>
+      <tr>
+        <td style="padding:.55rem .6rem;color:#e2e8f0;vertical-align:top">
+          <div style="font-weight:600;margin-bottom:.2rem">Fix push delivery on OEM battery-managed devices <span class="tag tag-a" style="font-size:.65rem;margin-left:.3rem">A</span></div>
+          <div style="color:#94a3b8;font-size:.75rem">The actual engineering fix: keep-alive that survives Samsung One UI / OnePlus battery management. This is the only lever that gets to 4.0★. See: <a href="https://github.com/thunderbird/thunderbird-android/issues" target="_blank" style="color:#6366f1">thunderbird-android issues</a>.</div>
+        </td>
+        <td style="text-align:center;padding:.55rem .6rem;vertical-align:top"><span style="background:#450a0a;color:#fca5a5;border-radius:4px;padding:1px 8px;font-weight:700;font-size:.72rem">HIGH</span></td>
+        <td style="padding:.55rem .6rem;color:#94a3b8;vertical-align:top;font-size:.75rem">Only fix that moves avg past 4.0★. 26 TB reviews averaging 2.65★. Q1 trend is accelerating — deferring this costs ~8 additional negative reviews/month at current rate.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<div class="explanation">
+  <h2>Analysis notes</h2>
+
+  <h3>Translation methodology</h3>
+  <p>24 of the 47 reviews in this dataset are in languages other than English (German, Italian, French, Croatian, Portuguese, Spanish, Polish, Slovak, Danish). Each non-English review shows the original text with a <span style="background:#1e1b4b;border:1px solid #3730a3;border-radius:4px;padding:0 6px;font-size:.75rem;color:#a5b4fc;font-weight:700">TRANSLATED</span> toggle below it. Translations are machine-generated (Claude) for analysis purposes only and are not claimed to be certified translations. Two reviews were labeled with the wrong language code by the Play Store (one Croatian review labeled English, one Greek-locale reviewer writing in English) — these are noted inline.</p>
+</div>
+
+<script>
+function filterSection(key,btn){
+  document.querySelectorAll('.filter-btn').forEach(b=>{b.classList.remove('active');b.style.background='';b.style.borderColor='';b.style.color='';});
+  btn.classList.add('active');btn.style.background='var(--orange)';btn.style.borderColor='var(--orange)';btn.style.color='var(--bg)';
+  document.querySelectorAll('.filter-section').forEach(s=>{s.style.display=(key==='all'||s.dataset.section===key)?'':'none';});
+  history.replaceState(null,'',key==='all'?'#':'#'+key);
+}
+window.addEventListener('DOMContentLoaded',()=>{
+  const hash=window.location.hash.replace('#','');
+  if(hash){const btn=document.querySelector(`.filter-btn[onclick*="${hash}"]`);if(btn)filterSection(hash,btn);}
+});
+</script>
+</body>
+</html>

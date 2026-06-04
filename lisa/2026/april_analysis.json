@@ -1,0 +1,198 @@
+{
+  "tb_count": 495,
+  "k9_count": 101,
+  "total_count": 596,
+  "tb_avg_rating": 3.81,
+  "k9_avg_rating": 2.96,
+  "overall_avg_rating": 3.66,
+  "replies_to_low_star": 205,
+  "total_low_star": 232,
+  "unique_languages": 29,
+  "rating_dist_tb": {
+    "1": 63,
+    "2": 44,
+    "3": 65,
+    "4": 77,
+    "5": 246
+  },
+  "rating_dist_k9": {
+    "1": 33,
+    "2": 12,
+    "3": 15,
+    "4": 8,
+    "5": 33
+  },
+  "top_languages": [
+    [
+      "en",
+      181
+    ],
+    [
+      "de",
+      142
+    ],
+    [
+      "es",
+      44
+    ],
+    [
+      "fr",
+      40
+    ],
+    [
+      "ja",
+      36
+    ],
+    [
+      "ru",
+      35
+    ],
+    [
+      "it",
+      25
+    ],
+    [
+      "pt",
+      14
+    ],
+    [
+      "pl",
+      13
+    ],
+    [
+      "nl",
+      12
+    ]
+  ],
+  "friction": {
+    "Push / Notification Sync": {
+      "total": 52,
+      "negative": 37,
+      "avg_rating": 2.73,
+      "tb_count": 42,
+      "k9_count": 10
+    },
+    "Crashes & Freezes": {
+      "total": 11,
+      "negative": 9,
+      "avg_rating": 2.0,
+      "tb_count": 9,
+      "k9_count": 2
+    },
+    "Stuck Outbox / Send Failure": {
+      "total": 2,
+      "negative": 1,
+      "avg_rating": 4.0,
+      "tb_count": 1,
+      "k9_count": 1
+    },
+    "Spam Filter Absent": {
+      "total": 23,
+      "negative": 12,
+      "avg_rating": 3.09,
+      "tb_count": 21,
+      "k9_count": 2
+    },
+    "Calendar Missing": {
+      "total": 8,
+      "negative": 5,
+      "avg_rating": 2.88,
+      "tb_count": 7,
+      "k9_count": 1
+    },
+    "QR / Settings Import": {
+      "total": 3,
+      "negative": 1,
+      "avg_rating": 3.67,
+      "tb_count": 3,
+      "k9_count": 0
+    },
+    "Email Headers / Print": {
+      "total": 4,
+      "negative": 2,
+      "avg_rating": 3.0,
+      "tb_count": 4,
+      "k9_count": 0
+    }
+  },
+  "friction_detail": {
+    "Push / Notification Sync": {
+      "quote": "used to use this mail client for years, they have broken imap sync somehow. only every like 1 in 10 messages is getting synced now. had to switch to a\u2026",
+      "devices": "Samsung Galaxy S25 Ultra (2), pa1q (2), a32x (2)",
+      "languages": "English, German, French"
+    },
+    "Crashes & Freezes": {
+      "quote": "The app has begun crashing constantly. It crashes on opening the app. I did an update uninstall/reinstall, And It is still crashing. I have no access to any of\u2026",
+      "devices": "OnePlus (2), t1lte (1), ASUS_Z01KDA (1)",
+      "languages": "English, Spanish, German"
+    },
+    "Stuck Outbox / Send Failure": {
+      "quote": "i like this email client generally, especially as open source etc. once set up it generally works well. relatively easy to move between unified inbox and\u2026",
+      "devices": "starlte (1)",
+      "languages": "English"
+    },
+    "Spam Filter Absent": {
+      "quote": "not spam button absent need entering pass for multi account when switching to mobile from desktop refresh is slow",
+      "devices": "sapphiren (1), GX4 (1), Google Pixel 7 (1)",
+      "languages": "French, German, English"
+    },
+    "Calendar Missing": {
+      "quote": "Excelente aplicaci\u00f3n... pero sin calendario ni permite sincronizar con samsung calendar.",
+      "devices": "OP595DL1 (1), kansas (1), Samsung Galaxy S24 Ultra (1)",
+      "languages": "English, German, Spanish"
+    },
+    "QR / Settings Import": {
+      "quote": "Kontoeinrichtung per QR-Code nicht m\u00f6glich Nachdem ich Thunderbird erfolgreich am PC eingerichtet habe (und voll zufrieden bin), wollte ich die Einstellungen\u2026",
+      "devices": "husky (1)",
+      "languages": "German"
+    },
+    "Email Headers / Print": {
+      "quote": "Update: 1 Stern weg nach 8 Monaten, da man bei markierten E-Mails nicht verschieben kann, man muss alles einzeln \u00f6ffnen und dort dann verschieben. Das drucken\u2026",
+      "devices": "m31 (1), pa1q (1)",
+      "languages": "English, German"
+    }
+  },
+  "wins": {
+    "UI / Design Praise": {
+      "total": 17,
+      "negative": 0,
+      "avg_rating": 4.71,
+      "tb_count": 16,
+      "k9_count": 1
+    },
+    "Speed / Performance": {
+      "total": 1,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 1,
+      "k9_count": 0
+    },
+    "Privacy / Open Source": {
+      "total": 5,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 4,
+      "k9_count": 1
+    },
+    "Setup / Ease of Use": {
+      "total": 1,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 1,
+      "k9_count": 0
+    },
+    "Reliability / Stability": {
+      "total": 4,
+      "negative": 0,
+      "avg_rating": 4.5,
+      "tb_count": 3,
+      "k9_count": 1
+    }
+  },
+  "rating_changes": {
+    "improved": 0,
+    "unchanged": 3,
+    "decreased": 1,
+    "matched": 4
+  }
+}

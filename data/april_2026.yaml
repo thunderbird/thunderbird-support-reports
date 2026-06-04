@@ -1,0 +1,117 @@
+# April 2026 — Monthly Report Config
+# Fill in the ZENDESK section from the MoM spreadsheet.
+# Everything else Claude fills in automatically.
+
+month: April
+year: 2026
+prev_month: March
+month_num: "04"
+
+# CSV filenames — place in project root
+csv_tb_stable: reviews_reviews_net.thunderbird.android_202604(1).csv
+csv_k9: reviews_reviews_com.fsck.k9_202604.csv
+csv_tb_beta: reviews_reviews_net.thunderbird.android.beta_202604.csv
+
+# ── ZENDESK (from MoM spreadsheet) ─────────────────────────────────────────
+zendesk:
+  overall_csat: 77.7
+  donor_csat: 77.0
+  tbpro_csat: 62.5
+  tbpro_csat_note: "3 ratings only — not statistically significant. One dissatisfied rating from a contributor checkout error."
+  total_tickets: 516
+  replies_to_low_star: 205
+  donor_tickets: 500
+  tbpro_tickets: 16
+
+  # NOTE: TB Pro CSAT 62.5% is based on only 3 ratings (one was a dissatisfied
+  # contributor who had a checkout issue and never followed up). Not statistically
+  # significant — flag in report rather than treating as a trend.
+  # Survey response rate dropped 33.1% → 22.0%: first month on binary scale.
+  # Change from feelings-based to issue-resolution had a measurable impact on rate.
+
+# prev and history_neg are auto-loaded from data/history.json — no need to fill in here
+
+# ── SUMO (from Roland's repo — github.com/thunderbird/thunderbird-metrics-and-reports) ─
+sumo:
+  desktop:
+    total_questions: 733
+    spam: 0
+    overall_solved_rate: 64
+    ignored_pct: 23
+    trusted_contributor_pct: 45
+    trusted_contributors: null  # held back for April; restore in May when Android count is available
+    top_signals: []  # Roland's April report has no topic breakdown
+  android:
+    total_questions: 73
+    spam: 0
+    overall_solved_rate: 65
+    ignored_pct: 22
+    trusted_contributor_pct: 53
+    contributors: []
+    top_signals: []
+
+# ── TB PRO IDEAS (from FeatureOS board 17437) ───────────────────────────────
+tbpro_ideas:
+  new_this_month:
+    - title: "Domain Hosting Support for Thundermail"
+      votes: 13
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/domain-hosting-support-for-thundermail"
+    - title: "Dark Mode"
+      votes: 4
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/dark-mode"
+    - title: "Promote Thunderbird"
+      votes: 4
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/promote-thunderbird"
+    - title: "Demo Account for \"trial\" before buying"
+      votes: 3
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/demo-account-for-trial-before-buying"
+    - title: "Offer HIPAA BAA (Business Associate Agreement)"
+      votes: 2
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/offer-hipaa-baa-business-associate-agreement"
+    - title: "EU Based Thunderbird Pro"
+      votes: 1
+      tag: "Thunderbird Pro"
+      url: "https://ideas.tb.pro/p/eu-based-thunderbird-pro"
+  top_alltime:
+    - title: "Unlimited aliases"
+      votes: 21
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/unlimited-aliases"
+    - title: "Domain Hosting Support for Thundermail"
+      votes: 13
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/domain-hosting-support-for-thundermail"
+    - title: "Server Side Email Filtering"
+      votes: 12
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/server-side-email-filtering"
+    - title: "Sign-in with Thunderbird"
+      votes: 12
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/sign-in-with-thunderbirdd"
+    - title: "À la carte pricing"
+      votes: 5
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/a-la-carte-pricing"
+
+# ── NARRATIVE (Claude drafts, Lisa edits) ───────────────────────────────────
+narrative:
+  lede: ""
+  report_note: "April was an appeals month — donor outreach drove the volume spike and shapes the comparisons throughout this report."
+
+  receive_resolve_resound: |
+    **🕊 Receive**
+    -
+
+    **🪽 Resolve**
+    -
+
+    **✨ Resound**
+    -
+
+  experiments: ""

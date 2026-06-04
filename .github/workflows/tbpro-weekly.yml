@@ -1,0 +1,60 @@
+name: Thundermail Weekly Summary
+
+on:
+  schedule:
+    # 20:00 UTC = 4:00pm ET (EDT summer). In EST (winter, Nov–Mar) this is 3:00pm.
+    # Passes last Sunday so each run covers the prior completed Mon–Sun week (incl. weekend).
+    - cron: '0 20 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node (for featureos-cli)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install featureos-cli
+        run: npm install -g @featureos/cli
+
+      - name: Generate Thundermail weekly summary
+        env:
+          ZENDESK_EMAIL:     ${{ secrets.ZENDESK_EMAIL }}
+          ZENDESK_TOKEN:     ${{ secrets.ZENDESK_TOKEN }}
+          ZENDESK_SUBDOMAIN: ${{ secrets.ZENDESK_SUBDOMAIN }}
+          FEATUREOS_API_KEY: ${{ secrets.FEATUREOS_API_KEY }}
+          FEATUREOS_JWT:     ${{ secrets.FEATUREOS_JWT }}
+          GITHUB_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
+          TZ: America/New_York
+        run: |
+          export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
+          export FEATUREOS_API_KEY="$(printf '%s' "$FEATUREOS_API_KEY" | tr -d ' \t\r\n')"
+          export FEATUREOS_JWT="$(printf '%s' "$FEATUREOS_JWT" | tr -d ' \t\r\n')"
+          # Pass last Sunday so the run covers the full Mon–Sun week
+          LAST_SUNDAY=$(date -d 'last sunday' +%Y-%m-%d 2>/dev/null || python3 -c "import datetime; d=datetime.date.today(); print(d - datetime.timedelta(days=(d.weekday()+1)%7))")
+          python3 scripts/tbpro_weekly.py --public --week-end "$LAST_SUNDAY" --out-dir reports/tbpro/weekly
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/tbpro/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Thundermail weekly summary: $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TB Pro — Flight 2 Forecast</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
+    --text: #e2e8f0; --muted: #94a3b8; --accent: #6366f1;
+    --green: #22c55e; --red: #ef4444; --yellow: #f59e0b;
+    --orange: #f97316; --sky: #38bdf8; --teal: #2dd4bf; --k9: #a78bfa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; padding: 2rem; max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .subtitle { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+  .section-header { display: flex; align-items: center; gap: .75rem; margin: 2.5rem 0 1rem; padding-bottom: .6rem; border-bottom: 2px solid var(--sc); }
+  .section-header h2 { font-size: 1.1rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--sc); }
+  .section-header .sh-meta { font-size: .8rem; color: var(--muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; border-top: 3px solid var(--sc, var(--border)); }
+  .card .label { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: .4rem; }
+  .card .value { font-size: 2rem; font-weight: 700; }
+  .card .change { font-size: .8rem; color: var(--muted); margin-top: .25rem; }
+  .up { color: var(--green); } .down { color: var(--red); } .flat { color: var(--yellow); } .muted { color: var(--muted); }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .box h3 { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 1rem; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+  @media(max-width:700px){ .two-col { grid-template-columns: 1fr; } }
+  table { width: 100%; border-collapse: collapse; font-size: .875rem; }
+  th { text-align: left; color: var(--muted); font-weight: 500; padding: .5rem .75rem; border-bottom: 1px solid var(--border); font-size: .75rem; text-transform: uppercase; }
+  td { padding: .6rem .75rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .bar-wrap { display: flex; align-items: center; gap: .6rem; }
+  .bar { height: 8px; background: var(--accent); border-radius: 4px; display: inline-block; }
+  .bar-peak { background: var(--yellow); }
+  canvas { max-height: 260px; }
+  .alert { background: #2d1a1a; border: 1px solid #7f1d1d; border-radius: 10px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
+  .alert-title { color: var(--red); font-weight: 700; margin-bottom: .35rem; }
+  .alert p { font-size: .9rem; color: #fca5a5; }
+  .info-box { background: #1a1d2e; border: 1px solid #2d325a; border-left: 3px solid var(--accent); border-radius: 8px; padding: .75rem 1rem; margin-bottom: 1.5rem; font-size: .9rem; color: #c8cff0; }
+  .info-box strong { color: var(--accent); }
+  .tag { display: inline-block; font-size: .7rem; font-weight: 600; padding: .15rem .5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: .05em; }
+  .tag-ok { background: rgba(34,197,94,.15); color: var(--green); }
+  .tag-warn { background: rgba(245,158,11,.15); color: var(--yellow); }
+  .tag-tight { background: rgba(239,68,68,.12); color: var(--red); }
+  .compare-row-f1 { background: rgba(99,102,241,.06); }
+  .compare-row-f2 { background: rgba(245,158,11,.06); }
+  .footnote { font-size: .8rem; color: var(--muted); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<h1>TB Pro — Flight 2 Forecast</h1>
+<p class="subtitle">Invitation wave: ~2,000 subscribers · June 2026 · Generated 2026-06-01</p>
+
+<!-- ── HEADLINE CARDS ─────────────────────────────────────────── -->
+<div class="section-header" style="--sc:var(--accent)">
+  <h2>Forecast Summary</h2>
+  <span class="sh-meta">scaled from Early Bird actuals</span>
+</div>
+
+<div class="grid" style="--sc:var(--accent)">
+  <div class="card">
+    <div class="label">Invites sent</div>
+    <div class="value">~2,000</div>
+    <div class="change muted">3.3× Early Bird</div>
+  </div>
+  <div class="card">
+    <div class="label">Forecast tickets</div>
+    <div class="value">~290</div>
+    <div class="change muted">range 240–340</div>
+  </div>
+  <div class="card">
+    <div class="label">Avg tickets/day</div>
+    <div class="value">~10</div>
+    <div class="change muted">over 4-week wave</div>
+  </div>
+  <div class="card">
+    <div class="label">Peak tickets/day</div>
+    <div class="value flat">~14</div>
+    <div class="change muted">week 2 · ~5/person</div>
+  </div>
+  <div class="card">
+    <div class="label">Forecast unique requesters</div>
+    <div class="value">~240</div>
+    <div class="change muted">69 × 3.33 + ~17 return</div>
+  </div>
+  <div class="card">
+    <div class="label">Tickets / requester</div>
+    <div class="value">~1.2</div>
+    <div class="change muted">same as Early Bird</div>
+  </div>
+</div>
+
+<!-- ── CAPACITY CALLOUT ────────────────────────────────────────── -->
+<div class="info-box">
+  <strong>Capacity assessment</strong> — 3 team members handling TB Pro tickets, Lisa on overflow.
+  ~14/day peak (week 2) = ~5 tickets/person/day — <span class="tag tag-ok">manageable</span>.
+  Steady-state ~10/day = ~3–4/person/day. No backlog risk at forecast volume.
+  Watch for clustering on a single issue type — that creates research overhead that's harder to distribute.
+</div>
+
+<!-- ── FLIGHT 1 vs FLIGHT 2 COMPARISON ───────────────────────── -->
+<div class="section-header" style="--sc:var(--accent)">
+  <h2>Early Bird vs Flight 2</h2>
+  <span class="sh-meta">actuals vs forecast</span>
+</div>
+
+<div class="box">
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th class="num">Early Bird (actuals)</th>
+        <th class="num">Flight 2 (forecast)</th>
+        <th class="num">Multiplier</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="compare-row-f1">
+        <td>Invitations sent</td>
+        <td class="num">600</td>
+        <td class="num">~2,000</td>
+        <td class="num muted">3.3×</td>
+      </tr>
+      <tr class="compare-row-f1">
+        <td>Real tickets (after exclusions)</td>
+        <td class="num">82</td>
+        <td class="num"><strong>~290</strong></td>
+        <td class="num muted">3.5×</td>
+      </tr>
+      <tr class="compare-row-f1">
+        <td>Unique requesters</td>
+        <td class="num">69</td>
+        <td class="num">~240</td>
+        <td class="num muted">3.5×</td>
+      </tr>
+      <tr class="compare-row-f1">
+        <td>Tickets / requester</td>
+        <td class="num">1.19</td>
+        <td class="num">~1.2</td>
+        <td class="num muted">—</td>
+      </tr>
+      <tr class="compare-row-f1">
+        <td>CSAT</td>
+        <td class="num up">96.5%</td>
+        <td class="num muted">TBD</td>
+        <td class="num muted">—</td>
+      </tr>
+      <tr>
+        <td style="color:var(--muted);font-size:.8rem;padding-top:.75rem" colspan="4">
+          Exclusions applied: <code>closed_by_merge</code>, <code>test</code>, <code>macro_tbpro_cantlogin_no_allowlist</code> tags; agent-created tickets (submitter ≠ requester).
+          Flight 2 adds ~17 estimated returnees from Early Bird (≈25% of multi-ticket requesters).
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ── WEEKLY RAMP ────────────────────────────────────────────── -->
+<div class="section-header" style="--sc:var(--accent)">
+  <h2>Weekly Ramp</h2>
+  <span class="sh-meta">projected ticket volume</span>
+</div>
+
+<div class="two-col">
+  <div class="box" style="margin-bottom:0">
+    <table>
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th class="num">Tickets</th>
+          <th class="num">Avg/day</th>
+          <th>Capacity</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Wk 1 <span class="muted" style="font-size:.75rem">invites land</span></td>
+          <td class="num">~30</td>
+          <td class="num">~4</td>
+          <td><span class="tag tag-ok">OK</span></td>
+          <td>
+            <div class="bar-wrap">
+              <div class="bar" style="width:30px"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Wk 2 <span class="muted" style="font-size:.75rem">peak setup</span></td>
+          <td class="num"><strong>~100</strong></td>
+          <td class="num"><strong>~14</strong></td>
+          <td><span class="tag tag-warn">WATCH</span></td>
+          <td>
+            <div class="bar-wrap">
+              <div class="bar bar-peak" style="width:100px"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Wk 3 <span class="muted" style="font-size:.75rem">settling</span></td>
+          <td class="num">~90</td>
+          <td class="num">~13</td>
+          <td><span class="tag tag-warn">WATCH</span></td>
+          <td>
+            <div class="bar-wrap">
+              <div class="bar bar-peak" style="width:90px;opacity:.7"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Wk 4 <span class="muted" style="font-size:.75rem">tail</span></td>
+          <td class="num">~70</td>
+          <td class="num">~10</td>
+          <td><span class="tag tag-warn">WATCH</span></td>
+          <td>
+            <div class="bar-wrap">
+              <div class="bar" style="width:70px;opacity:.85"></div>
+            </div>
+          </td>
+        </tr>
+        <tr style="border-top:1px solid var(--border)">
+          <td><strong>Total</strong></td>
+          <td class="num"><strong>~290</strong></td>
+          <td class="num"><strong>~10</strong></td>
+          <td>—</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="box" style="margin-bottom:0">
+    <h3>Weekly volume curve</h3>
+    <canvas id="weekChart"></canvas>
+  </div>
+</div>
+
+<!-- ── REQUESTER DISTRIBUTION ──────────────────────────────────── -->
+<div class="section-header" style="--sc:var(--accent)">
+  <h2>Requester Distribution</h2>
+  <span class="sh-meta">from Early Bird actuals — applied to Flight 2</span>
+</div>
+
+<div class="box">
+  <table>
+    <thead>
+      <tr>
+        <th>Tickets per user</th>
+        <th class="num">Early Bird users</th>
+        <th class="num">Early Bird %</th>
+        <th class="num">Flight 2 est. users</th>
+        <th class="num">Flight 2 est. tickets</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1 ticket</td>
+        <td class="num">63</td>
+        <td class="num">91.3%</td>
+        <td class="num">~219</td>
+        <td class="num">~219</td>
+      </tr>
+      <tr>
+        <td>2 tickets</td>
+        <td class="num">4</td>
+        <td class="num">5.8%</td>
+        <td class="num">~14</td>
+        <td class="num">~28</td>
+      </tr>
+      <tr>
+        <td>5 tickets</td>
+        <td class="num">1</td>
+        <td class="num">1.4%</td>
+        <td class="num">~3</td>
+        <td class="num">~15</td>
+      </tr>
+      <tr>
+        <td>6 tickets</td>
+        <td class="num">1</td>
+        <td class="num">1.4%</td>
+        <td class="num">~3</td>
+        <td class="num">~18</td>
+      </tr>
+      <tr style="border-top: 1px solid var(--border)">
+        <td><strong>Total</strong></td>
+        <td class="num"><strong>69</strong></td>
+        <td class="num">—</td>
+        <td class="num"><strong>~239 + ~17 returnees</strong></td>
+        <td class="num"><strong>~280 + ~17 = ~297</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:.8rem;color:var(--muted);margin-top:.75rem">
+    ~17 returnees: estimated from Early Bird multi-ticket users (6 people, 5+ tickets each) who are likely to open a new ticket in Flight 2 as their usage deepens.
+    Applied ~25% return rate. Rounded to ~290 total in headline.
+  </p>
+</div>
+
+<!-- ── WHAT TO WATCH ──────────────────────────────────────────── -->
+<div class="section-header" style="--sc:var(--accent)">
+  <h2>What to Watch</h2>
+</div>
+
+<div class="info-box">
+  <strong>Week 2 watch:</strong> ~14 tickets/day (~5/person) as new subscribers hit setup friction — email config, alias setup, password issues.
+  Distributed across 3 agents this is workable, but issue clustering (e.g. a new Thundermail bug) can concentrate load.
+  Flag if 3+ tickets in 48h share the same root cause — escalate to product rather than letting the queue absorb it.
+</div>
+
+<div class="box">
+  <h3>Signals that would push volume above the high range (340+)</h3>
+  <table>
+    <thead>
+      <tr><th>Signal</th><th>Implication</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Misdirected non-subscriber contacts (repeat)</td>
+        <td>Early Bird had ~16 non-allowlist contacts; email routing fix was applied</td>
+        <td>Monitor <code>macro_tbpro_cantlogin_no_allowlist</code> tag in week 1 — should be near zero</td>
+      </tr>
+      <tr>
+        <td>New Thundermail feature bugs at scale</td>
+        <td>Early Bird was pre-Thundermail launch for most users; Flight 2 cohort hits it fresh</td>
+        <td>Watch for clustering of same-issue tickets; escalate to product if 5+ similar in 48h</td>
+      </tr>
+      <tr>
+        <td>High-ticket-count power users (>5 tickets)</td>
+        <td>1 user opened 6 tickets in Early Bird — 3.3× cohort means ~3 such users expected</td>
+        <td>Flag any user with 3+ tickets for proactive outreach</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p class="footnote">
+  <strong>Methodology:</strong> Direct scaling from Early Bird actuals.
+  Early Bird: 600 invites → 82 real tickets (after exclusions) → 82 ÷ 600 × 2,000 = 273 scaled tickets + ~17 estimated returnees = ~290.
+  No contact rate assumption applied (subscriber list not used for cross-reference).
+  <br>
+  <strong>Exclusions applied to Early Bird baseline:</strong> <code>closed_by_merge</code>, <code>test</code>, and <code>macro_tbpro_cantlogin_no_allowlist</code> tags removed.
+  Agent-created tickets (submitter_id ≠ requester_id) removed. 16 non-allowlist contacts excluded.
+  <br>
+  <strong>Weekly shape:</strong> Based on Early Bird daily ticket distribution — spike in days 8–14 as invites are acted on, tapering through weeks 3–4.
+  <br>
+  <strong>Range:</strong> Low 240 assumes improved email routing reduces misdirected contacts and no new Thundermail bugs. High 340 assumes routing issues recur and a new setup pain point emerges.
+</p>
+
+<script>
+Chart.defaults.color = '#94a3b8';
+Chart.defaults.borderColor = '#2a2d3a';
+
+const ctx = document.getElementById('weekChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['Wk 1', 'Wk 2', 'Wk 3', 'Wk 4'],
+    datasets: [{
+      label: 'Forecast tickets',
+      data: [30, 100, 90, 70],
+      backgroundColor: ['rgba(99,102,241,.7)', 'rgba(245,158,11,.8)', 'rgba(245,158,11,.55)', 'rgba(99,102,241,.5)'],
+      borderColor: ['#6366f1', '#f59e0b', '#f59e0b', '#6366f1'],
+      borderWidth: 1,
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ` ${ctx.raw} tickets (~${Math.round(ctx.raw/7)}/day)`
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        grid: { color: '#2a2d3a' },
+        ticks: { stepSize: 25 }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+# May 2026 — Monthly Report Config
+# Fill in the ZENDESK section from the MoM spreadsheet.
+# Everything else Claude fills in automatically.
+
+month: May
+year: 2026
+prev_month: April
+month_num: "05"
+
+# CSV filenames — fetched via scripts/fetch_reviews.py
+csv_tb_stable: reviews_net.thunderbird.android_202605.csv
+csv_k9: reviews_com.fsck.k9_202605.csv
+csv_tb_beta: reviews_net.thunderbird.android.beta_202605.csv
+
+# ── ZENDESK (from MoM spreadsheet) ─────────────────────────────────────────
+zendesk:
+  overall_csat: 76.7
+  donor_csat: 66.7
+  donor_csat_note: "Seven of nine bad ratings were noise — wrong channel, misdirected tickets, a donor who went quiet after asking about donation numbers. The one that matters: a real gap in our German-language donor KB."
+  tbpro_csat: 92.9
+  tbpro_csat_note: "Both dissatisfied ratings (DSATs) were misdirected emails to Thundermail, remediated via thunderbird-accounts#834."
+  total_tickets: 606
+  replies_to_low_star: 209
+  donor_tickets: 279
+  tbpro_tickets: 118
+  appstore_tickets: 209
+
+# prev and history_neg are auto-loaded from data/history.json — no need to fill in here
+
+# ── SUMO (from Roland's repo — github.com/thunderbird/thunderbird-metrics-and-reports) ─
+# Source: REPORTS/DESKTOP/2026-05-sumo-desktop-report.csv
+#         REPORTS/ANDROID/2026-05-sumo-android-report.csv
+sumo:
+  desktop:
+    total_questions: 802
+    spam: 0
+    overall_solved_rate: 70
+    ignored_pct: 17
+    trusted_contributor_pct: 49
+    trusted_contributors: null
+    top_signals: []  # Roland has no May topic breakdown yet; use sumo_trending.py
+  android:
+    total_questions: 55
+    spam: 0
+    overall_solved_rate: 64
+    ignored_pct: 31
+    trusted_contributor_pct: 44
+    contributors: []
+    top_signals: []
+
+# ── TB PRO IDEAS (from FeatureOS board 17437) ───────────────────────────────
+tbpro_ideas:
+  new_this_month:
+    - title: "White labeling"
+      votes: 1
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/white-labeling"
+    - title: "Emails appear multiple times if multiple aliases are configured in the client"
+      votes: 2
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client"
+    - title: "Resellers & IT Companies"
+      votes: 1
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/resellers-it-companies"
+    - title: "Feature Request: Public Calendar ICS Feed / Shareable Subscription URL for External Integration"
+      votes: 1
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/feature-request-public-calendar-ics-feed-shareable-subscription-url-for-external-integration"
+    - title: "Native Outlook / Microsoft Calendar integration for Appointments"
+      votes: 2
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/native-outlook-microsoft-calendar-integration-for-appointments"
+    - title: "Custom \"Full Name <email>\" display format"
+      votes: 3
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/custom-full-name-email-display-format"
+    - title: "Show warning or error if domain name has no addresses nor aliases"
+      votes: 2
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/show-warning-or-error-if-domain-name-has-no-adresses-nor-aliases"
+    - title: "Appointment: Use only the username in the personal link"
+      votes: 1
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/appointment-use-only-the-username-in-the-personal-link"
+    - title: "More Email Domains"
+      votes: 4
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/more-email-domains"
+    - title: "Add Send to the Spaces Toolbar"
+      votes: 2
+      tag: "Send"
+      url: "https://ideas.tb.pro/p/add-send-to-the-spaces-toolbar"
+    - title: "Integrating aliases with identities in Thunderbird"
+      votes: 8
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/integrating-aliases-with-identities-in-thunderbird"
+    - title: "Syncing filters between Thunderbird instances"
+      votes: 8
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/syncing-filters-between-thunderbird-instances"
+    - title: "Snooze emails"
+      votes: 4
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/snooze-emails"
+    - title: "native email forwarding / redirection rules (no external services)"
+      votes: 5
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/native-email-forwarding-redirection-rules-no-external-services"
+    - title: "Secure portal"
+      votes: 2
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/secure-portal"
+    - title: "Send later support"
+      votes: 1
+      tag: "Send"
+      url: "https://ideas.tb.pro/p/send-later-support"
+    - title: "Improving usability and readability"
+      votes: 2
+      tag: "Thunderbird Pro"
+      url: "https://ideas.tb.pro/p/improving-usability-and-readability"
+    - title: "Calendar"
+      votes: 2
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/calendar"
+    - title: "Calendar Improvement"
+      votes: 1
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/calendar-improvement"
+  top_alltime:
+    - title: "Webmail for Thundermail"
+      votes: 56
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/webmail-for-thundermail"
+    - title: "Additional pricing tiers"
+      votes: 48
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/additional-pricing-tiers"
+    - title: "Multifactor Authentication"
+      votes: 44
+      tag: "Privacy & Security"
+      url: "https://ideas.tb.pro/p/multifactor-authentication"
+    - title: "DNSSEC/DANE Support"
+      votes: 38
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/dnssec-dane-support"
+    - title: "Increase custom domains limit"
+      votes: 35
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/increase-custom-domains-limit"
+
+# ── NARRATIVE (Claude drafts, Lisa edits) ───────────────────────────────────
+narrative:
+  lede: "Thundermail support matured significantly in May — 118 tickets at 92.9% CSAT, signaling the wave is landing well with subscribers. K-9 Mail staged a notable Play Store recovery, climbing from 2.96★ to 3.53★ as v17/v18 regression reports faded. Donor Support CSAT dipped to 66.7% (-10.3 pts MoM), but ticket-level review shows most bad ratings were misdirected contacts, wrong-channel requests, and measurement noise — with one actionable gap: German-language bank transfer documentation."
+  report_note: ""
+
+  receive_resolve_resound: |
+    **🕊 Receive**
+    - 606 Zendesk tickets (+17% MoM) — Thundermail volume growing with wave expansion; 445 Play Store reviews across 32 languages; 802 desktop forum questions (+9% MoM)
+
+    **🪽 Resolve**
+    - Thundermail 92.9% CSAT (both dissatisfied ratings (DSATs) were misdirected emails, remediated via thunderbird-accounts#834); desktop forum solved rate 70% (+6 pts); 209 low-star Play Store reviews replied to
+
+    **✨ Resound**
+    - K-9 recovered +0.57★ to 3.53★ as v17/v18 regression reports faded; push sync improving for the second consecutive month; Thundermail CSAT a strong signal for continued wave expansion
+
+  sumo_desktop_signal: "Send/Receive issues dominant at 31% of volume (250 questions)"
+  sumo_android_signal: "ignored rate jumped to 31% (from 22% in April)"
+  goal_bullets: |
+    - **Push / Notification Sync:** 32 negative mentions (down from 37) · improving for 2nd straight month · still the single largest drag on rating; TB at 3.74★, needs +0.26★ to reach goal
+    - **Stuck Outbox / Send Failure:** 4 negative (up from 1 in April) · accelerating · K-9 now matching TB volume on this theme; watch for continuation in June
+    - **K-9 rating baseline:** 3.53★ (recovered +0.57★ MoM) · sustaining this through the next release cycle is essential to maintaining combined rating progress
+
+  experiments: ""
+  whats_coming_up: |
+    **Support team headcount (as of May 2026):**
+    - 1 dedicated support agent focused on Thundermail subscriber tickets
+    - Donor Support handled by an outsourced team

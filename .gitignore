@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+*.token
+credentials
+credentials.*
+*_secret*
+*_secrets*
+
+# Raw upstream source exports — never publish. Customer review text, Play
+# Console deep-links, internal MoM spreadsheet data. Only generated reports
+# under lisa/ and reports/ are public.
+data/input/
+
+# Python bytecode
+__pycache__/
+*.pyc

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>March 2026 — Support Ops Working Docs</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#0f1117;color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:2rem;max-width:820px;margin:0 auto;}
+  h1{font-size:1.4rem;margin-bottom:.2rem;}
+  .subtitle{color:#94a3b8;font-size:.82rem;margin-bottom:2rem;}
+  .doc-grid{display:flex;flex-direction:column;gap:1rem;}
+  .doc-card{background:#1a1d27;border:1px solid #2a2d3a;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;}
+  .doc-card-inner{padding:1.2rem 1.4rem;display:flex;gap:1rem;align-items:flex-start;flex:1;}
+  .doc-icon{font-size:1.6rem;line-height:1;flex-shrink:0;padding-top:.1rem;}
+  .doc-info{flex:1}
+  .doc-title{font-size:1rem;font-weight:700;margin-bottom:.25rem;}
+  .doc-title a{color:inherit;text-decoration:none;}
+  .doc-title a:hover{text-decoration:underline;text-decoration-color:#6366f1;}
+  .doc-desc{font-size:.82rem;color:#94a3b8;line-height:1.6;margin-bottom:.6rem;}
+  .doc-meta{display:flex;gap:.5rem;flex-wrap:wrap;}
+  .badge{font-size:.7rem;font-weight:600;padding:.15rem .55rem;border-radius:4px;}
+  .badge-public{background:#052e16;color:#86efac;}
+  .badge-internal{background:#1e293b;color:#94a3b8;}
+  .badge-unlinked{background:#1e293b;color:#94a3b8;}
+  .doc-footer{border-top:1px solid #2a2d3a;padding:.55rem 1.4rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;}
+  .doc-footer a{font-size:.78rem;color:#6366f1;text-decoration:none;display:flex;align-items:center;gap:.25rem;}
+  .doc-footer a:hover{text-decoration:underline;}
+  .accent-main{border-left:3px solid #6366f1;}
+  .accent-deep{border-left:3px solid #f97316;}
+  .accent-followup{border-left:3px solid #f59e0b;}
+  .accent-kb{border-left:3px solid #22c55e;}
+  .section-label{font-size:.67rem;text-transform:uppercase;letter-spacing:.08em;color:#6b7280;font-weight:600;margin-bottom:.55rem;margin-top:1.5rem;}
+  .section-label:first-of-type{margin-top:0;}
+  .info-block{background:#1a1d27;border:1px solid #2a2d3a;border-left:3px solid #6366f1;border-radius:7px;padding:.8rem 1rem;margin-bottom:1.75rem;font-size:.82rem;color:#94a3b8;line-height:1.65;}
+  .content-list{list-style:none;padding:0;}
+  .content-list li{font-size:.8rem;color:#64748b;padding:.1rem 0;}
+  .content-list li::before{content:"·";margin-right:.4rem;color:#475569;}
+  .chevron{font-size:.9rem;color:#4b5563;}
+</style>
+</head>
+<body>
+
+<h1>March 2026 — Support Ops Working Docs</h1>
+<p class="subtitle">Internal index · 4 documents · April 2026</p>
+
+<div class="info-block">
+  <strong style="color:#a5b4fc">What this is:</strong> An internal index of support ops documents produced from the March 2026 Play Store review analysis. The main dashboard is public on GitHub Pages; the three working docs below are unlinked and intended for the support team only.
+</div>
+
+<!-- PUBLIC -->
+<div class="section-label">Public — GitHub Pages</div>
+<div class="doc-grid">
+
+  <div class="doc-card accent-main">
+    <div class="doc-card-inner">
+      <div class="doc-icon">📊</div>
+      <div class="doc-info">
+        <div class="doc-title"><a href="march.html">March 2026 — Monthly Support Dashboard</a></div>
+        <div class="doc-desc">The main monthly report dashboard. Donor Care, TB Pro (FeatureOS ideas), Android Reviews (friction points, K-9 churn watch, star goal), and Community Support (SUMO solved rates). Linked from Notion and the monthly email.</div>
+        <div class="doc-meta">
+          <span class="badge badge-public">Public</span>
+          <span class="badge badge-internal" style="background:#1c1440;color:#a5b4fc">Notion report</span>
+          <span class="badge badge-internal" style="background:#1c1440;color:#a5b4fc">Team email</span>
+        </div>
+      </div>
+    </div>
+    <div class="doc-footer">
+      <span class="content-list" style="display:flex;gap:.9rem;flex-wrap:wrap">
+        <span style="font-size:.73rem;color:#64748b">· 4 sections · 3 friction points · K-9 churn watch</span>
+      </span>
+      <a href="march.html">Open dashboard <span class="chevron">›</span></a>
+    </div>
+  </div>
+
+</div>
+
+<!-- WORKING DOCS -->
+<div class="section-label" style="margin-top:1.5rem">Internal working docs — unlinked</div>
+<div class="doc-grid">
+
+  <div class="doc-card accent-deep">
+    <div class="doc-card-inner">
+      <div class="doc-icon">🔍</div>
+      <div class="doc-info">
+        <div class="doc-title"><a href="march_push_deep_dive.html">Push / Notification Sync — Deep Dive</a></div>
+        <div class="doc-desc">All 47 push-related reviews broken into 3 problem categories: Problem A (core delivery failure — OEM battery management), Problem B (v17.0 regression — notification state), and Problem C (UX friction — setup complexity). Includes per-section analysis, translations, star rating math, and an actions table ranked by effort.</div>
+        <div class="doc-meta">
+          <span class="badge badge-unlinked">Unlinked</span>
+          <span class="badge badge-internal" style="background:#1f1107;color:#fdba74">47 reviews</span>
+          <span class="badge badge-internal" style="background:#1f1107;color:#fdba74">3 problem categories</span>
+        </div>
+      </div>
+    </div>
+    <div class="doc-footer">
+      <ul class="content-list" style="display:flex;gap:.9rem;flex-wrap:wrap;list-style:none;padding:0">
+        <li style="font-size:.73rem;color:#64748b">· Problem A: 35 reviews · Problem B: 5 · Problem C: 8</li>
+      </ul>
+      <a href="march_push_deep_dive.html" style="color:#f97316">Open deep dive <span class="chevron">›</span></a>
+    </div>
+  </div>
+
+  <div class="doc-card accent-followup">
+    <div class="doc-card-inner">
+      <div class="doc-icon">✍️</div>
+      <div class="doc-info">
+        <div class="doc-title"><a href="march_push_followup.html">Push — Dev Reply Follow-up Queue</a></div>
+        <div class="doc-desc">Working doc for the support team. 31 negative push reviews that already have a generic dev reply — prioritized by conversion likelihood, with OEM-specific battery steps and copy-paste replies (≤350 chars each). Flags 6 reviews where users explicitly tried the steps and still failed.</div>
+        <div class="doc-meta">
+          <span class="badge badge-unlinked">Unlinked</span>
+          <span class="badge badge-internal" style="background:#291500;color:#fbbf24">31 reviews to follow up</span>
+          <span class="badge badge-internal" style="background:#3d1508;color:#fca5a5">6 ⚠ tried + failed</span>
+        </div>
+      </div>
+    </div>
+    <div class="doc-footer">
+      <ul class="content-list" style="display:flex;gap:.9rem;flex-wrap:wrap;list-style:none;padding:0">
+        <li style="font-size:.73rem;color:#64748b">· Samsung · Xiaomi · OnePlus · Motorola · Other OEMs</li>
+      </ul>
+      <a href="march_push_followup.html" style="color:#f59e0b">Open follow-up queue <span class="chevron">›</span></a>
+    </div>
+  </div>
+
+  <div class="doc-card accent-kb">
+    <div class="doc-card-inner">
+      <div class="doc-icon">📝</div>
+      <div class="doc-info">
+        <div class="doc-title"><a href="march_push_kb_recommendations.html">KB Article Recommendations</a></div>
+        <div class="doc-desc">8 knowledge base articles recommended based on March review patterns. Includes suggested slugs, outlines, motivation data (review counts + avg ratings), and sample dev replies showing how to link each article. Prioritized into P1 (write first), P2 (important), and P3 (evergreen).</div>
+        <div class="doc-meta">
+          <span class="badge badge-unlinked">Unlinked</span>
+          <span class="badge badge-internal" style="background:#0a1f0f;color:#86efac">3 P1 articles</span>
+          <span class="badge badge-internal" style="background:#1c1107;color:#fdba74">3 P2 articles</span>
+          <span class="badge badge-internal" style="background:#1e293b;color:#94a3b8">2 P3 articles</span>
+        </div>
+      </div>
+    </div>
+    <div class="doc-footer">
+      <ul class="content-list" style="display:flex;gap:.9rem;flex-wrap:wrap;list-style:none;padding:0">
+        <li style="font-size:.73rem;color:#64748b">· Battery by OEM · Spam filtering · Push setup · v17 bug · K-9 migration · Calendar · QR import · Exchange</li>
+      </ul>
+      <a href="march_push_kb_recommendations.html" style="color:#22c55e">Open KB recommendations <span class="chevron">›</span></a>
+    </div>
+  </div>
+
+</div>
+
+<div style="margin-top:2rem;padding:.75rem 1rem;background:#1a1d27;border:1px solid #2a2d3a;border-radius:7px;font-size:.73rem;color:#6b7280;line-height:1.6">
+  Internal support ops index — March 2026. Not linked from any public page. Generated April 2026.
+</div>
+
+</body>
+</html>

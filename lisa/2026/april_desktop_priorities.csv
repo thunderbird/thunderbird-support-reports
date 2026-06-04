@@ -1,0 +1,4 @@
+rank,theme,count,percent_of_total
+1,Authentication / OAuth fragility,121,16.5
+2,Update regressions,55,7.5
+3,Data loss / folder integrity,41,5.6

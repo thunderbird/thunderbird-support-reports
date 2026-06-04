@@ -1,0 +1,133 @@
+{
+  "month": "March",
+  "year": 2026,
+  "tb_count": 374,
+  "k9_count": 77,
+  "total_count": 451,
+  "tb_avg_rating": 3.87,
+  "k9_avg_rating": 3.52,
+  "overall_avg_rating": 3.81,
+  "replies_to_low_star": 129,
+  "total_low_star": 150,
+  "unique_languages": 31,
+  "rating_dist_tb": {
+    "1": 39,
+    "2": 30,
+    "3": 50,
+    "4": 75,
+    "5": 180
+  },
+  "rating_dist_k9": {
+    "1": 16,
+    "2": 7,
+    "3": 8,
+    "4": 13,
+    "5": 33
+  },
+  "friction": {
+    "Push / Notification Sync": {
+      "total": 46,
+      "negative": 31,
+      "positive": 15,
+      "avg_rating": 2.83,
+      "tb_count": 37,
+      "k9_count": 9
+    },
+    "Crashes & Freezes": {
+      "total": 9,
+      "negative": 6,
+      "positive": 3,
+      "avg_rating": 2.56,
+      "tb_count": 5,
+      "k9_count": 4
+    },
+    "Stuck Outbox / Send Failure": {
+      "total": 4,
+      "negative": 4,
+      "positive": 0,
+      "avg_rating": 1.5,
+      "tb_count": 3,
+      "k9_count": 1
+    },
+    "Spam Filter Absent": {
+      "total": 13,
+      "negative": 10,
+      "positive": 3,
+      "avg_rating": 2.69,
+      "tb_count": 12,
+      "k9_count": 1
+    },
+    "Calendar Missing": {
+      "total": 13,
+      "negative": 6,
+      "positive": 7,
+      "avg_rating": 3.15,
+      "tb_count": 10,
+      "k9_count": 3
+    },
+    "QR / Settings Import": {
+      "total": 4,
+      "negative": 4,
+      "positive": 0,
+      "avg_rating": 1.25,
+      "tb_count": 4,
+      "k9_count": 0
+    },
+    "Email Headers / Print": {
+      "total": 6,
+      "negative": 2,
+      "positive": 4,
+      "avg_rating": 3.5,
+      "tb_count": 4,
+      "k9_count": 2
+    }
+  },
+  "wins": {
+    "UI / Design Praise": {
+      "total": 15,
+      "negative": 0,
+      "positive": 15,
+      "avg_rating": 4.53,
+      "tb_count": 13,
+      "k9_count": 2
+    },
+    "Speed / Performance": {
+      "total": 4,
+      "negative": 0,
+      "positive": 4,
+      "avg_rating": 4.75,
+      "tb_count": 4,
+      "k9_count": 0
+    },
+    "Privacy / Open Source": {
+      "total": 4,
+      "negative": 0,
+      "positive": 4,
+      "avg_rating": 4.75,
+      "tb_count": 4,
+      "k9_count": 0
+    },
+    "Setup / Ease of Use": {
+      "total": 1,
+      "negative": 0,
+      "positive": 1,
+      "avg_rating": 4.0,
+      "tb_count": 1,
+      "k9_count": 0
+    },
+    "Reliability / Stability": {
+      "total": 3,
+      "negative": 0,
+      "positive": 3,
+      "avg_rating": 4.67,
+      "tb_count": 3,
+      "k9_count": 0
+    }
+  },
+  "k9_churn": {
+    "FairEmail mentions": 1,
+    "Switching away": 0,
+    "Long-term users leaving": 0,
+    "Abandonment language": 0
+  }
+}

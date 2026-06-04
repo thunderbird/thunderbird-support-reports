@@ -1,0 +1,199 @@
+{
+  "tb_count": 385,
+  "k9_count": 108,
+  "total_count": 493,
+  "beta_count": 37,
+  "tb_avg_rating": 3.73,
+  "k9_avg_rating": 3.53,
+  "overall_avg_rating": 3.68,
+  "replies_to_low_star": 209,
+  "total_low_star": 185,
+  "unique_languages": 32,
+  "rating_dist_tb": {
+    "1": 55,
+    "2": 33,
+    "3": 53,
+    "4": 65,
+    "5": 179
+  },
+  "rating_dist_k9": {
+    "1": 22,
+    "2": 10,
+    "3": 12,
+    "4": 17,
+    "5": 47
+  },
+  "top_languages": [
+    [
+      "en",
+      157
+    ],
+    [
+      "de",
+      118
+    ],
+    [
+      "es",
+      29
+    ],
+    [
+      "ru",
+      29
+    ],
+    [
+      "fr",
+      25
+    ],
+    [
+      "pl",
+      21
+    ],
+    [
+      "it",
+      20
+    ],
+    [
+      "ja",
+      17
+    ],
+    [
+      "pt",
+      12
+    ],
+    [
+      "nl",
+      9
+    ]
+  ],
+  "friction": {
+    "Push / Notification Sync": {
+      "total": 51,
+      "negative": 34,
+      "avg_rating": 2.94,
+      "tb_count": 35,
+      "k9_count": 16
+    },
+    "Crashes & Freezes": {
+      "total": 5,
+      "negative": 5,
+      "avg_rating": 1.8,
+      "tb_count": 4,
+      "k9_count": 1
+    },
+    "Stuck Outbox / Send Failure": {
+      "total": 4,
+      "negative": 4,
+      "avg_rating": 2.5,
+      "tb_count": 2,
+      "k9_count": 2
+    },
+    "Spam Filter Absent": {
+      "total": 11,
+      "negative": 8,
+      "avg_rating": 2.82,
+      "tb_count": 11,
+      "k9_count": 0
+    },
+    "Calendar Missing": {
+      "total": 7,
+      "negative": 3,
+      "avg_rating": 3.43,
+      "tb_count": 5,
+      "k9_count": 2
+    },
+    "QR / Settings Import": {
+      "total": 6,
+      "negative": 3,
+      "avg_rating": 3.83,
+      "tb_count": 6,
+      "k9_count": 0
+    },
+    "Email Headers / Print": {
+      "total": 2,
+      "negative": 2,
+      "avg_rating": 3.0,
+      "tb_count": 2,
+      "k9_count": 0
+    }
+  },
+  "friction_detail": {
+    "Push / Notification Sync": {
+      "quote": "Notifications are still broken. Even though it's the most privileged app on my phone, still refuses to send me any. Manage folders > Inbox > Enable\u2026",
+      "devices": "klimt (2), bogota (2), itel-P663LN (2)",
+      "languages": "English, German, Spanish"
+    },
+    "Crashes & Freezes": {
+      "quote": "Crashea en Android 6. Es imposible entrar al correo. No pasa nada si no es compatible. Indica lo y ya est\u00e1",
+      "devices": "cancunn (1), dew (1), grandpplte (1)",
+      "languages": "English, Italian, vi"
+    },
+    "Stuck Outbox / Send Failure": {
+      "quote": "After a week of use, 1. An email had sat in the outbox for a week. 2. Searching a gmail imap inbox requires me to to submit a search, takes me to an empty\u2026",
+      "devices": "Samsung Galaxy S22 Ultra (1), Samsung Galaxy A55 (1), q5q (1)",
+      "languages": "English, Polish, sk"
+    },
+    "Spam Filter Absent": {
+      "quote": "ik kan niet zelf mail adressen blokkeren. ds ik krijg steeds dezelfde spam (waar ook niet-spam tussendoor staat), minstens 100 per dag van dezelfde spammert.\u2026",
+      "devices": "e2s (2), gts7l (1), apollo (1)",
+      "languages": "German, French, Dutch"
+    },
+    "Calendar Missing": {
+      "quote": "Despite widespread disdain for complicating account navigation and other features, nothing has been done to remedy these issues. Months of claiming to listen,\u2026",
+      "devices": "b0s (1), Samsung Galaxy S25 Ultra (1), blazer (1)",
+      "languages": "English, French"
+    },
+    "QR / Settings Import": {
+      "quote": "Update: Die Kontoeinrichtung per QR-Code ist immer noch nicht m\u00f6glich, daher habe ich manuell einige meiner E-Mail-Konten eingerichtet. Daher ein Stern Abzug.\u2026",
+      "devices": "husky (1), Samsung Galaxy S25 Ultra (1), V2434 (1)",
+      "languages": "English, German"
+    },
+    "Email Headers / Print": {
+      "quote": "Beim Drucken fehlt der Header. Man wei\u00df nicht von wem und wann die Mail verfasst wurde.",
+      "devices": "OP5E8EL1 (1), husky (1)",
+      "languages": "German, English"
+    }
+  },
+  "wins": {
+    "UI / Design Praise": {
+      "total": 14,
+      "negative": 0,
+      "avg_rating": 4.79,
+      "tb_count": 11,
+      "k9_count": 3
+    },
+    "Speed / Performance": {
+      "total": 1,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 1,
+      "k9_count": 0
+    },
+    "Privacy / Open Source": {
+      "total": 2,
+      "negative": 0,
+      "avg_rating": 4.5,
+      "tb_count": 1,
+      "k9_count": 1
+    },
+    "Setup / Ease of Use": {
+      "total": 1,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 1,
+      "k9_count": 0
+    },
+    "Reliability / Stability": {
+      "total": 3,
+      "negative": 0,
+      "avg_rating": 4.67,
+      "tb_count": 3,
+      "k9_count": 0
+    }
+  },
+  "rating_changes": {
+    "improved": 2,
+    "unchanged": 12,
+    "decreased": 2,
+    "matched": 16
+  }
+}

@@ -1,0 +1,31 @@
+month,year,section,category,metric,value_number,value_percent,mom_change_number,mom_change_percent,mom_direction,avg_rating,tb_count,k9_count,source,notes
+March,2026,Support Metrics,Private Support,Overall CSAT,,75.0,,6.0,up,,,,Zendesk,
+March,2026,Support Metrics,Private Support,CSAT Donor Support,,69.0,,5.7,up,,,,Zendesk,
+March,2026,Support Metrics,Private Support,CSAT TB Pro,,100.0,,0.0,flat,,,,Zendesk,
+March,2026,Support Metrics,Private Support,Total Tickets,267,,-99,-27.0,down,,,,Zendesk,
+March,2026,Support Metrics,Private Support,Donor Support Tickets,246,,-91,-27.0,down,,,,Zendesk,
+March,2026,Support Metrics,Private Support,TB Pro Tickets,21,,-8,-27.6,down,,,,Zendesk,
+March,2026,Community Support,Desktop SUMO,Total Questions,960,,-49,-4.9,down,,,,SUMO,
+March,2026,Community Support,Desktop SUMO,Solved %,,18.0,,-2.0,down,,,,SUMO,
+March,2026,Community Support,Desktop SUMO,Ignored %,,49.0,,29.0,up,,,,SUMO,Spike from 20% in Feb
+March,2026,Community Support,Desktop SUMO,Trusted Contributor %,,49.0,,1.0,flat,,,,SUMO,
+March,2026,Community Support,Desktop SUMO,Overall Solved Rate,,67.0,,-1.0,down,,,,SUMO,
+March,2026,Community Support,Android SUMO,Total Questions,66,,6,10.0,up,,,,SUMO,
+March,2026,Community Support,Android SUMO,Solved %,,17.0,,-1.0,down,,,,SUMO,
+March,2026,Community Support,Android SUMO,Ignored %,,24.0,,-6.0,down,,,,SUMO,
+March,2026,Community Support,Android SUMO,Trusted Contributor %,,55.0,,20.0,up,,,,SUMO,
+March,2026,Community Support,Android SUMO,Overall Solved Rate,,72.0,,19.0,up,,,,SUMO,
+March,2026,Android Reviews,Overview,Total Reviews,451,,42,10.3,up,3.81,374,77,Play Store,
+March,2026,Android Reviews,Overview,TB Reviews,374,,,,,3.87,374,,Play Store,
+March,2026,Android Reviews,Overview,K-9 Reviews,77,,,,,3.52,,77,Play Store,First full month
+March,2026,Android Reviews,Overview,Replies to 1-3 Star,215,,74,52.5,up,,,,Play Store,
+March,2026,Android Reviews,Overview,Improved Ratings,9,,5,125.0,up,,,,Play Store,
+March,2026,Android Reviews,Overview,Unchanged Ratings,4,,3,300.0,up,,,,Play Store,
+March,2026,Android Reviews,Overview,Decreased Ratings,1,,1,,up,,,,Play Store,
+March,2026,Android Reviews,Friction,Push / Notification Sync,46,,,,,2.83,37,9,Play Store,neg:31
+March,2026,Android Reviews,Friction,Spam Filter Absent,13,,,,,2.69,12,1,Play Store,neg:10
+March,2026,Android Reviews,Friction,Crashes & Freezes,9,,,,,2.56,5,4,Play Store,neg:6
+March,2026,Android Reviews,Friction,Calendar Missing,13,,,,,3.15,10,3,Play Store,neg:6
+March,2026,Android Reviews,Friction,Stuck Outbox / Send Failure,4,,,,,1.5,3,1,Play Store,neg:4
+March,2026,Android Reviews,Friction,QR / Settings Import,4,,,,,1.25,4,0,Play Store,neg:4
+March,2026,Android Reviews,Friction,Email Headers / Print,6,,,,,3.5,4,2,Play Store,neg:2

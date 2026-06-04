@@ -1,0 +1,319 @@
+{
+  "2026-01": {
+    "month": "January",
+    "year": 2026,
+    "play_store": {
+      "tb_count": 378,
+      "k9_count": null,
+      "total_count": 378,
+      "tb_avg_rating": 3.95,
+      "k9_avg_rating": null,
+      "replies_to_low_star": null,
+      "unique_languages": null
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 19,
+      "Crashes & Freezes": 0,
+      "Stuck Outbox / Send Failure": 0,
+      "Spam Filter Absent": 0,
+      "Calendar Missing": 0,
+      "QR / Settings Import": 0,
+      "Email Headers / Print": 0
+    },
+    "zendesk": {
+      "overall_csat": null,
+      "donor_csat": null,
+      "tbpro_csat": null,
+      "total_tickets": null,
+      "donor_tickets": null,
+      "tbpro_tickets": null
+    },
+    "sumo": {
+      "desktop_solved_rate": null,
+      "android_solved_rate": null
+    }
+  },
+  "2026-02": {
+    "month": "February",
+    "year": 2026,
+    "play_store": {
+      "tb_count": 409,
+      "k9_count": null,
+      "total_count": 409,
+      "tb_avg_rating": 3.91,
+      "k9_avg_rating": 3.47,
+      "replies_to_low_star": 141,
+      "unique_languages": null
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 23,
+      "Crashes & Freezes": 0,
+      "Stuck Outbox / Send Failure": 0,
+      "Spam Filter Absent": 0,
+      "Calendar Missing": 0,
+      "QR / Settings Import": 0,
+      "Email Headers / Print": 0
+    },
+    "zendesk": {
+      "overall_csat": 69.0,
+      "donor_csat": 63.3,
+      "tbpro_csat": 100.0,
+      "total_tickets": 366,
+      "donor_tickets": 337,
+      "tbpro_tickets": 29
+    },
+    "sumo": {
+      "desktop_solved_rate": 68,
+      "desktop_ignored_pct": 20,
+      "desktop_tc_pct": 48,
+      "desktop_questions": 1009,
+      "android_solved_rate": 53,
+      "android_ignored_pct": 30,
+      "android_tc_pct": 35,
+      "android_questions": 60
+    },
+    "k9_discourse": {
+      "total_topics": 38,
+      "solved_pct": 11,
+      "unanswered_pct": 58,
+      "themes": {
+        "Sync / Fetch": 4,
+        "Notifications": 4,
+        "Attachments": 3,
+        "Crashes & Freezes": 2,
+        "Setup / Accounts": 2
+      }
+    }
+  },
+  "2026-03": {
+    "month": "March",
+    "year": 2026,
+    "play_store": {
+      "tb_count": 374,
+      "k9_count": 77,
+      "total_count": 451,
+      "tb_avg_rating": 3.87,
+      "k9_avg_rating": 3.52,
+      "replies_to_low_star": 215,
+      "unique_languages": 31
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 31,
+      "Crashes & Freezes": 6,
+      "Stuck Outbox / Send Failure": 4,
+      "Spam Filter Absent": 10,
+      "Calendar Missing": 6,
+      "QR / Settings Import": 4,
+      "Email Headers / Print": 2
+    },
+    "zendesk": {
+      "overall_csat": 75.0,
+      "donor_csat": 69.0,
+      "tbpro_csat": 100.0,
+      "total_tickets": 267,
+      "donor_tickets": 246,
+      "tbpro_tickets": 21
+    },
+    "sumo": {
+      "desktop_solved_rate": 67,
+      "desktop_ignored_pct": 49,
+      "desktop_tc_pct": 49,
+      "desktop_questions": 960,
+      "android_solved_rate": 72,
+      "android_ignored_pct": 24,
+      "android_tc_pct": 55,
+      "android_questions": 66
+    },
+    "k9_discourse": {
+      "total_topics": 50,
+      "solved_pct": 14,
+      "unanswered_pct": 46,
+      "themes": {
+        "Setup / Accounts": 10,
+        "Update regression": 5,
+        "Notifications": 4,
+        "Crashes & Freezes": 3,
+        "Sync / Fetch": 3,
+        "Attachments": 3
+      }
+    },
+    "tbpro_ideas": {
+      "Increase custom domains limit": 19,
+      "Import email, calendar and contacts feature": 13,
+      "Appointment: do not require calendar connection": 9,
+      "Sign-in with Thunderbird": 8,
+      "Unlimited aliases": 6,
+      "Agency Plan": 4,
+      "Server Side Email Filtering": 3,
+      "Events should be able to end on the next calendar day": 2,
+      "Gmail is ending POP3 support - you guys need to get this done.": 2,
+      "Managed Calendar with \"Calendar Managed Availability phrases\"": 2,
+      "Custom link preview for Send links": 1,
+      "Integrate Send into popular chat apps (Slack, Matrix, Discord, Telegram) as well as Thunderbird's chat app": 1,
+      "\u00c0 la carte pricing": 1,
+      "Appointment: More flexible start times for booking slots": 1,
+      "Calendar auto decline and warnings for out of working hours": 1,
+      "Quick Send system tray icon": 1
+    }
+  },
+  "2026-04": {
+    "month": "April",
+    "year": 2026,
+    "play_store": {
+      "tb_count": 495,
+      "k9_count": 101,
+      "total_count": 596,
+      "tb_avg_rating": 3.81,
+      "k9_avg_rating": 2.96,
+      "replies_to_low_star": 205,
+      "unique_languages": 29
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 37,
+      "Crashes & Freezes": 9,
+      "Stuck Outbox / Send Failure": 1,
+      "Spam Filter Absent": 12,
+      "Calendar Missing": 5,
+      "QR / Settings Import": 1,
+      "Email Headers / Print": 2
+    },
+    "zendesk": {
+      "overall_csat": 77.7,
+      "donor_csat": 77.0,
+      "tbpro_csat": 62.5,
+      "total_tickets": 516,
+      "donor_tickets": 500,
+      "tbpro_tickets": 16
+    },
+    "sumo": {
+      "desktop_solved_rate": 64,
+      "desktop_ignored_pct": 23,
+      "desktop_tc_pct": 45,
+      "desktop_questions": 733,
+      "android_solved_rate": 65,
+      "android_ignored_pct": 22,
+      "android_tc_pct": 53,
+      "android_questions": 73
+    },
+    "tbpro_ideas": {
+      "Domain Hosting Support for Thundermail": 13,
+      "Dark Mode": 4,
+      "Promote Thunderbird": 4,
+      "Demo Account for \"trial\" before buying": 3,
+      "Offer HIPAA BAA (Business Associate Agreement)": 2,
+      "EU Based Thunderbird Pro": 1,
+      "Unlimited aliases": 21,
+      "Server Side Email Filtering": 12,
+      "Sign-in with Thunderbird": 12,
+      "\u00c0 la carte pricing": 5
+    },
+    "k9_discourse": {
+      "total_topics": 50,
+      "solved_pct": 4,
+      "unanswered_pct": 40,
+      "themes": {
+        "Crashes & Freezes": 8,
+        "Setup / Accounts": 7,
+        "Notifications": 6,
+        "Update regression": 5,
+        "Sync / Fetch": 3,
+        "Attachments": 3
+      }
+    }
+  },
+  "2026-05": {
+    "month": "May",
+    "year": 2026,
+    "play_store": {
+      "tb_count": 385,
+      "k9_count": 108,
+      "total_count": 493,
+      "tb_avg_rating": 3.73,
+      "k9_avg_rating": 3.53,
+      "replies_to_low_star": 209,
+      "unique_languages": 32
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 34,
+      "Crashes & Freezes": 5,
+      "Stuck Outbox / Send Failure": 4,
+      "Spam Filter Absent": 8,
+      "Calendar Missing": 3,
+      "QR / Settings Import": 3,
+      "Email Headers / Print": 2
+    },
+    "zendesk": {
+      "overall_csat": 76.7,
+      "donor_csat": 66.7,
+      "tbpro_csat": 92.9,
+      "total_tickets": 606,
+      "donor_tickets": 279,
+      "tbpro_tickets": 118
+    },
+    "sumo": {
+      "desktop_solved_rate": 70,
+      "desktop_ignored_pct": 17,
+      "desktop_tc_pct": 49,
+      "desktop_questions": 802,
+      "android_solved_rate": 64,
+      "android_ignored_pct": 31,
+      "android_tc_pct": 44,
+      "android_questions": 55
+    },
+    "tbpro_ideas": {
+      "White labeling": 1,
+      "Emails appear multiple times if multiple aliases are configured in the client": 2,
+      "Resellers & IT Companies": 1,
+      "Feature Request: Public Calendar ICS Feed / Shareable Subscription URL for External Integration": 1,
+      "Native Outlook / Microsoft Calendar integration for Appointments": 2,
+      "Custom \"Full Name <email>\" display format": 3,
+      "Show warning or error if domain name has no addresses nor aliases": 2,
+      "Appointment: Use only the username in the personal link": 1,
+      "More Email Domains": 4,
+      "Add Send to the Spaces Toolbar": 2,
+      "Integrating aliases with identities in Thunderbird": 8,
+      "Syncing filters between Thunderbird instances": 8,
+      "Snooze emails": 4,
+      "native email forwarding / redirection rules (no external services)": 5,
+      "Secure portal": 2,
+      "Send later support": 1,
+      "Improving usability and readability": 2,
+      "Calendar": 2,
+      "Calendar Improvement": 1,
+      "Webmail for Thundermail": 56,
+      "Additional pricing tiers": 48,
+      "Multifactor Authentication": 44,
+      "DNSSEC/DANE Support": 38,
+      "Increase custom domains limit": 35
+    },
+    "k9_discourse": {
+      "total_topics": 38,
+      "solved_pct": 8,
+      "unanswered_pct": 32,
+      "themes": {
+        "Sync / Fetch": 5,
+        "Setup / Accounts": 5,
+        "Crashes & Freezes": 2,
+        "Notifications": 2,
+        "Update regression": 2
+      }
+    },
+    "connect_android": {
+      "https://connect.mozilla.org/t5/ideas/calendar-support-on-thunderbird-mobile/idi-p/76394": 327,
+      "https://connect.mozilla.org/t5/ideas/android-version-of-thunderbird/idi-p/7383": 286,
+      "https://connect.mozilla.org/t5/ideas/allow-html-signatures-in-k-9-mail-thunderbird-for-android/idi-p/28983": 153,
+      "https://connect.mozilla.org/t5/ideas/filtering-with-android-thunderbird/idi-p/61144": 99,
+      "https://connect.mozilla.org/t5/ideas/give-thunderbird-for-android-a-quot-send-later-quot-function/idi-p/72251": 96,
+      "https://connect.mozilla.org/t5/ideas/tags-on-thunderbird-android/idi-p/86051": 87,
+      "https://connect.mozilla.org/t5/ideas/s-mime-support-for-k-9-mail-android/idi-p/61756": 77,
+      "https://connect.mozilla.org/t5/ideas/display-subfolders-in-tree-structure-like-on-thunderbird-for/idi-p/73292": 76,
+      "https://connect.mozilla.org/t5/ideas/add-the-ability-to-create-imap-folders/idi-p/72777": 65,
+      "https://connect.mozilla.org/t5/ideas/ai-detection-tool/idi-p/106133": 65,
+      "https://connect.mozilla.org/t5/ideas/thunderbird-rss-on-mobile/idi-p/58536": 62,
+      "https://connect.mozilla.org/t5/ideas/thunderbird-android-customise-account-icon/idi-p/74996": 61,
+      "https://connect.mozilla.org/t5/ideas/ability-to-print-email-messages/idi-p/71885": 58,
+      "https://connect.mozilla.org/t5/ideas/add-the-ability-to-snooze-emails-on-thunderbird-android/idi-p/73169": 53,
+      "https://connect.mozilla.org/t5/ideas/thunderbird-mobile-unified-folder-for-inbox-drafts-sent-spam/idi-p/95546": 48
+    }
+  }
+}

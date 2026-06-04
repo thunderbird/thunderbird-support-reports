@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TB Pro Daily · 2026-05-31</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:          #0d0c14;
+  --bg-lower:    #060618;
+  --bg-card:     #15131e;
+  --border:      #2b2845;
+  --border-ia:   #3e3b62;
+  --primary:     #4d7bf8;
+  --primary-bg:  #0e1038;
+  --secondary:   #7c3aed;
+  --text:        #e2e0f0;
+  --text-2:      #b0aece;
+  --text-3:      #7a7898;
+  --success:     #22c55e;
+  --success-bg:  #041d0e;
+  --warning:     #f59e0b;
+  --warning-bg:  #1c1200;
+  --critical:    #ef4444;
+  --critical-bg: #2a0808;
+  --teal:        #00d4a0;
+  --orange:      #f97316;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:15px;line-height:1.5;padding:2rem;max-width:920px;margin:0 auto;}
+a{color:var(--primary);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.header{padding-bottom:1.25rem;border-bottom:1px solid var(--border);margin-bottom:1.75rem;}
+.header-badge{display:inline-flex;align-items:center;gap:.35rem;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--primary);background:var(--primary-bg);border:1px solid var(--border-ia);border-radius:5px;padding:.2rem .55rem;margin-bottom:.65rem;}
+.header-title{font-size:1.4rem;font-weight:700;margin-bottom:.3rem;}
+.header-meta{font-size:.8rem;color:var(--text-2);}
+h2{font-size:.9rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-3);margin:1.75rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border);}
+h3{font-size:.875rem;font-weight:600;color:var(--text-2);margin:.9rem 0 .35rem;}
+.metrics{display:grid;grid-template-columns:repeat(auto-fill,minmax(152px,1fr));gap:.65rem;margin-bottom:1.5rem;}
+.metric{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:.875rem 1rem;}
+.metric.blue{border-left:3px solid var(--primary);}
+.metric.green{border-left:3px solid var(--success);}
+.metric.teal{border-left:3px solid var(--teal);}
+.metric.orange{border-left:3px solid var(--orange);}
+.metric-val{font-size:1.55rem;font-weight:700;line-height:1;margin-bottom:.15rem;}
+.metric-label{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text-3);}
+.metric-sub{font-size:.7rem;color:var(--text-2);margin-top:.15rem;}
+.csat-bar{height:5px;border-radius:3px;background:var(--border);overflow:hidden;margin:.35rem 0;}
+.csat-fill{height:100%;background:var(--success);border-radius:3px;}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:1.1rem 1.35rem;margin-bottom:.75rem;}
+.fix-card{background:var(--bg-lower);border:1px solid var(--border-ia);border-left:3px solid var(--warning);border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem;}
+.fix-card-header{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;margin-bottom:.4rem;}
+.fix-card-title{font-size:.875rem;font-weight:600;}
+.fix-counts{font-size:.75rem;color:var(--text-2);}
+.fix-status{font-size:.75rem;color:var(--text-2);font-style:italic;margin-bottom:.45rem;padding:.3rem .6rem;background:var(--border);border-radius:4px;display:inline-block;}
+.fix-blurb{font-size:.78rem;color:var(--text-3);line-height:1.65;margin:.45rem 0;}
+.chart{font-family:'JetBrains Mono','Fira Mono',monospace;font-size:.75rem;line-height:1.8;margin:.6rem 0;}
+.chart-row{display:flex;align-items:center;gap:.5rem;flex-wrap:nowrap;}
+.chart-d{width:5.5rem;color:var(--text-3);flex-shrink:0;}
+.chart-n{width:3.5rem;font-size:.68rem;color:var(--text-2);flex-shrink:0;text-align:right;}
+.chart-b{flex:1;white-space:pre;}
+.chart-note{color:var(--primary);font-size:.7rem;font-style:italic;}
+.chart-legend{font-size:.72rem;color:var(--text-3);margin-bottom:.3rem;}
+.pattern-item{background:var(--bg-lower);border-left:2px solid var(--teal);border-radius:5px;padding:.5rem .75rem;margin-bottom:.4rem;}
+.pattern-phrase{font-weight:700;color:var(--teal);font-size:.82rem;}
+.pattern-meta{font-size:.72rem;color:var(--text-2);margin-top:.15rem;}
+.badge{display:inline-block;font-size:.62rem;font-weight:700;padding:.1rem .4rem;border-radius:4px;letter-spacing:.04em;}
+.badge-blue{background:var(--primary-bg);color:var(--primary);border:1px solid var(--border-ia);}
+.badge-green{background:var(--success-bg);color:var(--success);}
+.badge-red{background:var(--critical-bg);color:var(--critical);}
+.badge-yellow{background:var(--warning-bg);color:var(--warning);}
+.badge-muted{background:var(--border);color:var(--text-2);}
+.ideas-list{list-style:none;padding:0;}
+.idea-item{display:flex;justify-content:space-between;align-items:flex-start;gap:.75rem;padding:.4rem 0;border-bottom:1px solid var(--border);}
+.idea-item:last-child{border-bottom:none;}
+.idea-title{font-size:.82rem;}
+.idea-meta{font-size:.68rem;color:var(--text-3);white-space:nowrap;margin-top:.1rem;}
+.neg-item{background:var(--critical-bg);border:1px solid #4a1010;border-radius:6px;padding:.6rem .8rem;margin-bottom:.4rem;}
+.neg-reason{font-size:.72rem;font-weight:700;color:var(--critical);}
+.neg-comment{font-size:.77rem;color:var(--text-2);margin-top:.2rem;}
+.refund-item{padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.8rem;}
+.refund-excerpt{font-size:.73rem;color:var(--text-3);margin-top:.2rem;padding-left:.65rem;border-left:2px solid var(--border-ia);line-height:1.55;}
+.theme-row{display:flex;align-items:center;gap:.75rem;padding:.3rem 0;border-bottom:1px solid var(--border);}
+.theme-name{flex:1;font-size:.8rem;}
+.theme-count{font-size:.78rem;font-weight:600;color:var(--primary);width:2rem;text-align:right;flex-shrink:0;}
+.theme-bar-wrap{width:6rem;height:4px;background:var(--border);border-radius:2px;overflow:hidden;flex-shrink:0;}
+.theme-bar-fill{height:100%;background:var(--primary);border-radius:2px;}
+.footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.72rem;color:var(--text-3);}
+ul.report-list{list-style:none;padding:0;}
+ul.report-list li{font-size:.82rem;padding:.2rem 0;border-bottom:1px solid var(--border);}
+ul.report-list li:last-child{border-bottom:none;}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-badge">&#9889; Thunderbird Pro</div>
+  <div class="header-title">Daily Support Report &middot; 2026-05-31</div>
+  <div class="header-meta">24h window: <strong>2026-05-30T16:00</strong> &rarr; <strong>2026-05-31T16:00 ET</strong>
+    &nbsp;&middot;&nbsp; Launch: 2026-05-04 &nbsp;&middot;&nbsp; 600 invitees</div>
+</div>
+<h2>At a Glance</h2>
+<div class="metrics">
+<div class="metric blue"><div class="metric-val">0</div><div class="metric-label">New (24h)</div><div class="metric-sub">1 solved</div></div>
+<div class="metric blue"><div class="metric-val">110</div><div class="metric-label">Total since launch</div><div class="metric-sub">Contact rate: 18%</div></div>
+<div class="metric green"><div class="metric-val">—</div><div class="metric-label">CSAT 24h</div><div class="csat-bar"><div class="csat-fill" style="width:0%"></div></div><div class="metric-sub">0 good / 0 bad</div></div>
+<div class="metric green"><div class="metric-val">100%</div><div class="metric-label">CSAT since launch</div><div class="csat-bar"><div class="csat-fill" style="width:100%"></div></div><div class="metric-sub">12 good / 0 bad</div></div>
+<div class="metric teal"><div class="metric-val">0</div><div class="metric-label">FeatureOS ideas (24h)</div><div class="metric-sub">17 since launch</div></div>
+</div>
+<h2>&#128295; Upstream Fixes</h2>
+<p style="font-size:.8rem;color:var(--text-3);margin-bottom:.85rem">These fixes target the root cause that brought users to our ticket system. They don't resolve any one user's issue — they stop similar tickets from recurring.</p>
+<div class="fix-card">
+  <div class="fix-card-header"><div class="fix-card-title"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/834">thunderbird/thunderbird-accounts#834</a></div><div class="fix-counts"><span class="badge badge-blue">42 cumulative</span>&nbsp;<span class="badge badge-muted">0 in 24h</span></div></div>
+  <div style="font-size:.78rem;color:var(--text-2);margin-bottom:.35rem">Non-subscriber login attempts on the Account Hub form</div>
+  <div class="fix-status">📅 Status: deployed 2026-05-19 (12 day(s) post-fix)</div>
+  <div class="fix-blurb">The fix changes Account Hub to check the allowlist before prompting login, and adds a warning on the Zendesk contact form for non-subscribers (&quot;You don&#x27;t have an account with us yet — join the waitlist&quot;). Both are intended to stop the high-volume mis-directed tickets from people who aren&#x27;t TB Pro subscribers.</div>
+  <div style="font-size:.75rem;color:var(--text-3);margin:.4rem 0 .25rem">Themes:</div>
+  <div style="font-size:.75rem;color:var(--text-3)">
+    <div>Login attempt — not on the allowlist yet <strong style="color:var(--text-2)">16</strong></div>
+    <div>Login attempt — wrong product, redirected to SUMO <strong style="color:var(--text-2)">15</strong></div>
+    <div>Login attempt — email lookup required <strong style="color:var(--text-2)">4</strong></div>
+    <div>Login attempt — Account Hub login trouble triage <strong style="color:var(--text-2)">3</strong></div>
+    <div>Security / hacked <strong style="color:var(--text-2)">2</strong></div>
+    <div>Other / uncategorized <strong style="color:var(--text-2)">2</strong></div>
+  </div>
+  <div style="margin-top:.75rem">
+  <div class="chart-legend">🟦 real TB Pro &nbsp;·&nbsp; 🟧 misdirected (eliminated by fix)</div>
+  <div class="chart">
+    <div class="chart-row"><span class="chart-d">2026-05-04</span><span class="chart-n"><strong>1</strong> (1/0)</span><span class="chart-b">🟦</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-05</span><span class="chart-n"><strong>10</strong> (10/0)</span><span class="chart-b">🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-06</span><span class="chart-n"><strong>12</strong> (10/2)</span><span class="chart-b">🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-07</span><span class="chart-n"><strong>10</strong> (2/8)</span><span class="chart-b">🟦🟦🟧🟧🟧🟧🟧🟧🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-08</span><span class="chart-n"><strong>10</strong> (8/2)</span><span class="chart-b">🟦🟦🟦🟦🟦🟦🟦🟦🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-09</span><span class="chart-n"><strong>2</strong> (2/0)</span><span class="chart-b">🟦🟦</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-10</span><span class="chart-n"><strong>2</strong> (0/2)</span><span class="chart-b">🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-11</span><span class="chart-n"><strong>6</strong> (1/5)</span><span class="chart-b">🟦🟧🟧🟧🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-12</span><span class="chart-n"><strong>4</strong> (0/4)</span><span class="chart-b">🟧🟧🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-13</span><span class="chart-n"><strong>7</strong> (3/4)</span><span class="chart-b">🟦🟦🟦🟧🟧🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-14</span><span class="chart-n"><strong>5</strong> (2/3)</span><span class="chart-b">🟦🟦🟧🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-15</span><span class="chart-n"><strong>5</strong> (4/1)</span><span class="chart-b">🟦🟦🟦🟦🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-16</span><span class="chart-n"><strong>4</strong> (2/2)</span><span class="chart-b">🟦🟦🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-17</span><span class="chart-n"><strong>3</strong> (1/2)</span><span class="chart-b">🟦🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-18</span><span class="chart-n"><strong>13</strong> (6/7)</span><span class="chart-b">🟦🟦🟦🟦🟦🟦🟧🟧🟧🟧🟧🟧🟧</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-21</span><span class="chart-n"><strong>2</strong> (2/0)</span><span class="chart-b">🟦🟦</span><span style="font-size:.68rem;color:var(--text-3)">(post-fix)</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-24</span><span class="chart-n"><strong>1</strong> (1/0)</span><span class="chart-b">🟦</span><span style="font-size:.68rem;color:var(--text-3)">(post-fix)</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-26</span><span class="chart-n"><strong>11</strong> (11/0)</span><span class="chart-b">🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦</span><span style="font-size:.68rem;color:var(--text-3)">(post-fix)</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-27</span><span class="chart-n"><strong>1</strong> (1/0)</span><span class="chart-b">🟦</span><span style="font-size:.68rem;color:var(--text-3)">(post-fix)</span></div>
+    <div class="chart-row"><span class="chart-d">2026-05-29</span><span class="chart-n"><strong>1</strong> (1/0)</span><span class="chart-b">🟦</span><span style="font-size:.68rem;color:var(--text-3)">(post-fix)</span></div>
+    <div style="margin-top:.5rem;font-size:.78rem;color:var(--text-3)">Pre-fix avg: <strong>3.5/day</strong> &mdash; post-fix data starts 2026-05-19</div>
+  </div></div>
+</div>
+<h2>&#128161; FeatureOS Ideas</h2>
+<h3>Last 24h &mdash; 0 new</h3>
+<p style="font-size:.8rem;color:var(--text-3)">(none)</p>
+<h3>Since launch (2026-05-04) &mdash; 17 ideas</h3>
+<ul class="ideas-list">
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/white-labeling">White labeling</a></div><div class="idea-meta">1 &#9651; &middot; 2026-05-30</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client">Emails appear multiple times if multiple aliases are configured in the client</a></div><div class="idea-meta">2 &#9651; &middot; 2026-05-26</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/resellers-it-companies">Resellers &amp; IT Companies</a></div><div class="idea-meta">1 &#9651; &middot; 2026-05-21</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/feature-request-public-calendar-ics-feed-shareable-subscription-url-for-external-integration">**Feature Request: Public Calendar ICS Feed / Shareable Subscription URL for External Integration**</a></div><div class="idea-meta">1 &#9651; &middot; 2026-05-21</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/native-outlook-microsoft-calendar-integration-for-appointments">Native Outlook / Microsoft Calendar integration for Appointments</a></div><div class="idea-meta">2 &#9651; &middot; 2026-05-18</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/custom-full-name-email-display-format">Custom “Full Name &lt;email&gt;” display format</a></div><div class="idea-meta">3 &#9651; &middot; 2026-05-18</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/show-warning-or-error-if-domain-name-has-no-adresses-nor-aliases">Show warning or error if domain name has no adresses nor aliases</a></div><div class="idea-meta">2 &#9651; &middot; 2026-05-18</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/new-idea">NEW IDEA</a></div><div class="idea-meta">1 &#9651; &middot; 2026-05-17</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/appointment-use-only-the-username-in-the-personal-link">Appointment: Use only the username in the personal link</a></div><div class="idea-meta">1 &#9651; &middot; 2026-05-17</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/more-email-domains">More Email Domains</a></div><div class="idea-meta">4 &#9651; &middot; 2026-05-14</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/add-send-to-the-spaces-toolbar">Add Send to the Spaces Toolbar</a></div><div class="idea-meta">2 &#9651; &middot; 2026-05-11</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/integrating-aliases-with-identities-in-thunderbird">Integrating aliases with identities in Thunderbird</a></div><div class="idea-meta">8 &#9651; &middot; 2026-05-10</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/syncing-filters-between-thunderbird-instances">Syncing filters between Thunderbird instances</a></div><div class="idea-meta">8 &#9651; &middot; 2026-05-08</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/snooze-emails">Snooze emails</a></div><div class="idea-meta">4 &#9651; &middot; 2026-05-07</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/calendar-improvement">Calendar Improvement</a></div><div class="idea-meta">1 &#9651; &middot; 2026-05-07</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/native-email-forwarding-redirection-rules-no-external-services">native email forwarding / redirection rules (no external services)</a></div><div class="idea-meta">5 &#9651; &middot; 2026-05-06</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/secure-portal">Secure portal</a></div><div class="idea-meta">2 &#9651; &middot; 2026-05-06</div></li>
+</ul>
+<h2>&#128202; Drill-ins</h2>
+<h3>Theme breakdown (cumulative)</h3>
+<div class="theme-row"><div class="theme-name">Other / uncategorized</div><div class="theme-count">17</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:100%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Login attempt — not on the allowlist yet</div><div class="theme-count">16</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:94%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Login attempt — wrong product, redirected to SUMO</div><div class="theme-count">15</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:88%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Pure waitlist inquiry</div><div class="theme-count">8</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:47%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Refund request</div><div class="theme-count">7</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:41%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Account creation / signup confusion</div><div class="theme-count">6</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:35%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Request or complaint</div><div class="theme-count">5</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:29%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Aliases</div><div class="theme-count">4</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:23%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Login attempt — email lookup required</div><div class="theme-count">4</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:23%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Login attempt — Account Hub login trouble triage</div><div class="theme-count">3</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:17%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Bug report / app crash / not working</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Security / hacked</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Custom domain DNS</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Custom domain / DKIM / DNS</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Early-bird signup</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Subscription / billing / cancel</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Calendar / contacts / Outlook integration</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Password reset / forgot password</div><div class="theme-count">2</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:11%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Payment issue</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Drafts / sending failures / lost mail</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Wanted free / monthly plan</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Account recovery</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Pricing concerns</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Add account</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Custom domain setup</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Beta is annual-only inquiry</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<div class="theme-row"><div class="theme-name">Login / can&#x27;t access account</div><div class="theme-count">1</div><div class="theme-bar-wrap"><div class="theme-bar-fill" style="width:5%"></div></div></div>
+<h3>Status breakdown (cumulative)</h3>
+<ul class="report-list">
+<li><strong>solved</strong>: 94</li>
+<li><strong>hold</strong>: 10</li>
+<li><strong>open</strong>: 5</li>
+<li><strong>pending</strong>: 1</li>
+</ul>
+<h3>Known problems &mdash; 3 problem(s), 17 incident(s)</h3>
+<div class="card" style="margin-bottom:.5rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/5441">#5441</a></strong> <span class="badge badge-muted">hold</span> &mdash; TB Pro deletion request<br><span style="font-size:.72rem;color:var(--text-3)">Incidents: <a href="https://tbpro.zendesk.com/agent/tickets/5496">#5496</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5487">#5487</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5449">#5449</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5440">#5440</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5417">#5417</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5403">#5403</a></span></div>
+<div class="card" style="margin-bottom:.5rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/5679">#5679</a></strong> <span class="badge badge-muted">hold</span> &mdash; Accounts 839: Expose RSA DKIM keys in custom domain setup <br><span style="font-size:.72rem;color:var(--text-3)">GH: <a href="https://github.com/thunderbird/thunderbird-accounts/issues/839">thunderbird/thunderbird-accounts#839</a></span><br><span style="font-size:.72rem;color:var(--text-3)">Incidents: <a href="https://tbpro.zendesk.com/agent/tickets/5655">#5655</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5528">#5528</a></span></div>
+<div class="card" style="margin-bottom:.5rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/5866">#5866</a></strong> <span class="badge badge-muted">hold</span> &mdash; BUG: 1 &amp; 2 letter usernamaes<br><span style="font-size:.72rem;color:var(--text-3)">Incidents: <a href="https://tbpro.zendesk.com/agent/tickets/5874">#5874</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5873">#5873</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5869">#5869</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5880">#5880</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5879">#5879</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5875">#5875</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5872">#5872</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5871">#5871</a>, <a href="https://tbpro.zendesk.com/agent/tickets/5868">#5868</a></span></div>
+<h3>Why &times; How (cumulative)</h3>
+<ul class="report-list">
+<li><strong>blocked</strong> + <strong>redirected</strong>: 18</li>
+<li><strong>change request</strong> + <strong>actioned</strong>: 17</li>
+<li><strong>confused</strong> + <strong>explained</strong>: 17</li>
+<li><strong>blocked</strong> + <strong>explained</strong>: 15</li>
+<li><strong>curious</strong> + <strong>explained</strong>: 12</li>
+<li><strong>request</strong> + <strong>redirected</strong>: 5</li>
+<li><strong>blocked</strong> + <strong>escalated</strong>: 3</li>
+<li><strong>other</strong> + <strong>—</strong>: 2</li>
+<li><strong>change request</strong> + <strong>escalated</strong>: 2</li>
+<li><strong>concerned</strong> + <strong>escalated</strong>: 1</li>
+<li><strong>change request</strong> + <strong>explained</strong>: 1</li>
+<li><strong>blocked</strong> + <strong>informed</strong>: 1</li>
+<li><strong>other</strong> + <strong>n/a</strong>: 1</li>
+<li><strong>blocked</strong> + <strong>—</strong>: 1</li>
+<li><strong>other</strong> + <strong>investigated</strong>: 1</li>
+<li><strong>concerned</strong> + <strong>explained</strong>: 1</li>
+<li><strong>request</strong> + <strong>explained</strong>: 1</li>
+<li><strong>blocked</strong> + <strong>actioned</strong>: 1</li>
+<li><strong>request</strong> + <strong>actioned</strong>: 1</li>
+<li><strong>curious</strong> + <strong>redirected</strong>: 1</li>
+<li><strong>telling us</strong> + <strong>redirected</strong>: 1</li>
+<li><strong>praise</strong> + <strong>explained</strong>: 1</li>
+<li><strong>curious</strong> + <strong>escalated</strong>: 1</li>
+</ul>
+<div class="footer">Generated 2026-05-31 16:24 ET &nbsp;&middot;&nbsp; Thunderbird Pro · MZLA Technologies&nbsp;&middot;&nbsp; PII redacted</div>
+</body>
+</html>
