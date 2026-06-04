@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 15:26 ET** · refreshes hourly_  
+_Updated: **2026-06-04 15:50 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
@@ -51,10 +51,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
+- **open**: 6
 - **solved**: 6
-- **open**: 5
 - **pending**: 4
-- **hold**: 1
 
 ## Service (cumulative)
 
@@ -67,10 +66,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 3
 - **curious** + **informed**: 2
+- **blocked** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
-- **blocked** + **escalated**: 1
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
@@ -136,7 +135,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6029](https://tbpro.zendesk.com/agent/tickets/6029) · [pending] · 2026-06-03T23:11 · Webmail
 - [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [pending] · 2026-06-04T01:55 · Change default email account to [domain]
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
-- [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [hold] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
+- [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [open] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
 - [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [open] · 2026-06-04T12:16 · Appointment: saving availability error
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
