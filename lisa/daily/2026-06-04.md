@@ -1,12 +1,12 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 16:52 ET** · refreshes hourly_  
+_Updated: **2026-06-04 17:44 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **15** new tickets in last 24h · **6** solved in last 24h
-- **16** tickets total since launch · contact rate **1%** of 2000 invitees
+- **14** new tickets in last 24h · **5** solved in last 24h
+- **15** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: —  (0 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
 - 2 incident(s):
   - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [pending] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
+  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [open] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
 
@@ -53,11 +53,11 @@ _(none in last 24h)_
 
 - **solved**: 8
 - **pending**: 5
-- **open**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 14
+- **Thundermail**: 13
 - **Appointment**: 1
 
 ## Why × How (cumulative)
@@ -108,11 +108,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6057](https://tbpro.zendesk.com/agent/tickets/6057)** · Had not realized early bird was a paid service; no thanks
   > I hadn’t seen (admittedly, perhaps my oversight) any language in initial invitations for the early bird Thundermail service saying that it would be paid; my impression was that…
 
-### Subscription / billing / cancel — 1 tickets
-
-- **[#6053](https://tbpro.zendesk.com/agent/tickets/6053)** · Delete Account and All Data
-  > Please delete my Thunderbird Pro account and all associated data, and cancel my subscription. I'm not seeking a refund, happy to donate to the project. However, without 2FA I'm…
-
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#6040](https://tbpro.zendesk.com/agent/tickets/6040)** · Delivery Issue with Telekom Mail Server — why: **blocked** · how: **escalated** · 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
@@ -140,7 +135,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
 - [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [solved] · 2026-06-04T15:49 · 2FA
-- [6053](https://tbpro.zendesk.com/agent/tickets/6053) · [open] · 2026-06-04T16:44 · Delete Account and All Data
 - [6055](https://tbpro.zendesk.com/agent/tickets/6055) · [solved] · 2026-06-04T17:05 · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail. 
 - [6057](https://tbpro.zendesk.com/agent/tickets/6057) · [open] · 2026-06-04T17:36 · Had not realized early bird was a paid service; no thanks
 - [6060](https://tbpro.zendesk.com/agent/tickets/6060) · [solved] · 2026-06-04T19:06 · Monthly Subscription
@@ -152,7 +146,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6021](https://tbpro.zendesk.com/agent/tickets/6021) · 2026-06-04T02:17 · Waiting list change of email
 - · [6051](https://tbpro.zendesk.com/agent/tickets/6051) · 2026-06-04T17:02 · New emails need to be pushed to Thunderbird
 - · [6052](https://tbpro.zendesk.com/agent/tickets/6052) · 2026-06-04T18:01 · 2FA
-- · [6055](https://tbpro.zendesk.com/agent/tickets/6055) · 2026-06-04T19:01 · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail. 
 - · [6028](https://tbpro.zendesk.com/agent/tickets/6028) · 2026-06-04T19:02 · Thundermail Pro
 
 ---
