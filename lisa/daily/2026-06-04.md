@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 15:50 ET** · refreshes hourly_  
+_Updated: **2026-06-04 16:52 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
 - 2 incident(s):
   - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [open] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
+  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [pending] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
 
@@ -51,9 +51,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **open**: 6
-- **solved**: 6
-- **pending**: 4
+- **solved**: 8
+- **pending**: 5
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -64,10 +64,10 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 3
+- **curious** + **explained**: 4
+- **telling us** + **n/a**: 2
 - **curious** + **informed**: 2
 - **blocked** + **escalated**: 1
-- **telling us** + **n/a**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
 - **blocked** + **explained**: 1
@@ -76,7 +76,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 6 tickets
 
-- **[#6060](https://tbpro.zendesk.com/agent/tickets/6060)** · Monthly Subscription
+- **[#6060](https://tbpro.zendesk.com/agent/tickets/6060)** · Monthly Subscription — why: **curious** · how: **explained**
   > Hello, I want to try out for a month before annual commitment. Please advise how to do a monthly subscription. Thanks,
 - **[#6055](https://tbpro.zendesk.com/agent/tickets/6055)** · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail.  — why: **telling us** · how: **n/a**
   > request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail.
@@ -91,7 +91,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Login / can't access account — 2 tickets
 
-- **[#6061](https://tbpro.zendesk.com/agent/tickets/6061)** · account setup in thunderbird desktop fails
+- **[#6061](https://tbpro.zendesk.com/agent/tickets/6061)** · account setup in thunderbird desktop fails — why: **telling us** · how: **n/a**
   > Hi there, Quick feedback: when adding a [domain] account in Thunderbird Desktop and "Accept cookies from sites" is unchecked in the settings, the login page for [domain] won't…
 - **[#6027](https://tbpro.zendesk.com/agent/tickets/6027)** · You're Invited: Thundermail Early Bird Access message to me — why: **blocked** · how: **explained**
   > canot login or subcribed ???? Please help
@@ -113,15 +113,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6053](https://tbpro.zendesk.com/agent/tickets/6053)** · Delete Account and All Data
   > Please delete my Thunderbird Pro account and all associated data, and cancel my subscription. I'm not seeking a refund, happy to donate to the project. However, without 2FA I'm…
 
-### Calendar / contacts / Outlook integration — 1 tickets
-
-- **[#6044](https://tbpro.zendesk.com/agent/tickets/6044)** · Appointment: saving availability error
-  > In appointment, the availability page won't save any changes. When I click on save, I get this error in a red box: "There was an issue creating your schedule". Please try again.…
-
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#6040](https://tbpro.zendesk.com/agent/tickets/6040)** · Delivery Issue with Telekom Mail Server — why: **blocked** · how: **escalated** · 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
   > I run into an issue when I send an email to a Telekom mail address: Your message could not be delivered to the following recipients: <[email]> (host '[domain]' rejected…
+
+### Calendar / contacts / Outlook integration — 1 tickets
+
+- **[#6044](https://tbpro.zendesk.com/agent/tickets/6044)** · Appointment: saving availability error
+  > In appointment, the availability page won't save any changes. When I click on save, I get this error in a red box: "There was an issue creating your schedule". Please try again.…
 
 ### Aliases — 1 tickets
 
@@ -136,15 +136,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [pending] · 2026-06-04T01:55 · Change default email account to [domain]
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
 - [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [open] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
-- [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [open] · 2026-06-04T12:16 · Appointment: saving availability error
+- [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [pending] · 2026-06-04T12:16 · Appointment: saving availability error
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
 - [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [solved] · 2026-06-04T15:49 · 2FA
 - [6053](https://tbpro.zendesk.com/agent/tickets/6053) · [open] · 2026-06-04T16:44 · Delete Account and All Data
 - [6055](https://tbpro.zendesk.com/agent/tickets/6055) · [solved] · 2026-06-04T17:05 · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail. 
 - [6057](https://tbpro.zendesk.com/agent/tickets/6057) · [open] · 2026-06-04T17:36 · Had not realized early bird was a paid service; no thanks
-- [6060](https://tbpro.zendesk.com/agent/tickets/6060) · [open] · 2026-06-04T19:06 · Monthly Subscription
-- [6061](https://tbpro.zendesk.com/agent/tickets/6061) · [open] · 2026-06-04T19:20 · account setup in thunderbird desktop fails
+- [6060](https://tbpro.zendesk.com/agent/tickets/6060) · [solved] · 2026-06-04T19:06 · Monthly Subscription
+- [6061](https://tbpro.zendesk.com/agent/tickets/6061) · [solved] · 2026-06-04T19:20 · account setup in thunderbird desktop fails
 
 ## Solved — last 24h
 
