@@ -1,12 +1,12 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 13:59 ET** · refreshes hourly_  
+_Updated: **2026-06-04 15:01 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **14** new tickets in last 24h · **5** solved in last 24h
-- **15** tickets total since launch · contact rate **1%** of 2000 invitees
+- **13** new tickets in last 24h · **5** solved in last 24h
+- **14** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: —  (0 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -27,7 +27,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
 
-- 🔧 [zd #6040](https://tbpro.zendesk.com/agent/tickets/6040) → [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226) · _Delivery Issue with Telekom Mail Server_
+- ✅ [zd #6040](https://tbpro.zendesk.com/agent/tickets/6040) → [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226) · _Delivery Issue with Telekom Mail Server_
 
 ## Negative CSAT (since launch)
 
@@ -52,13 +52,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 5
-- **pending**: 5
-- **open**: 4
-- **hold**: 1
+- **pending**: 4
+- **open**: 3
+- **hold**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 13
+- **Thundermail**: 12
 - **Appointment**: 1
 
 ## Why × How (cumulative)
@@ -86,13 +86,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi, Do you offer webmail also ? I am more interested in webmail
 - **[#6028](https://tbpro.zendesk.com/agent/tickets/6028)** · Thundermail Pro — why: **curious** · how: **explained**
   > I would love to try Thunderbird Pro, but $72.00 for a year is pretty steep for me. Is there any way to be billed monthly or perhaps a promo code to make it an annual sub a little…
-
-### Login / can't access account — 2 tickets
-
-- **[#6054](https://tbpro.zendesk.com/agent/tickets/6054)** · just signed in and i cant access my new account
-  > just signed in and i cant access my new account. I received email for early access, i created an account [email] and then i received email for update then when i try to enter for…
-- **[#6027](https://tbpro.zendesk.com/agent/tickets/6027)** · You're Invited: Thundermail Early Bird Access message to me — why: **blocked** · how: **explained**
-  > canot login or subcribed ???? Please help
 
 ### App setup / configuration — 2 tickets
 
@@ -126,6 +119,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6032](https://tbpro.zendesk.com/agent/tickets/6032)** · Change default email account to [domain] — why: **curious** · how: **explained**
   > Hi folks This is looking good - thanks for all the hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to…
 
+### Login / can't access account — 1 tickets
+
+- **[#6027](https://tbpro.zendesk.com/agent/tickets/6027)** · You're Invited: Thundermail Early Bird Access message to me — why: **blocked** · how: **explained**
+  > canot login or subcribed ???? Please help
+
 ## New tickets — last 24h
 
 - [6027](https://tbpro.zendesk.com/agent/tickets/6027) · [solved] · 2026-06-03T21:48 · You're Invited: Thundermail Early Bird Access message to me
@@ -134,12 +132,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [pending] · 2026-06-04T01:55 · Change default email account to [domain]
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
 - [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [hold] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
-- [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [pending] · 2026-06-04T12:16 · Appointment: saving availability error
+- [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [hold] · 2026-06-04T12:16 · Appointment: saving availability error
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
 - [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [solved] · 2026-06-04T15:49 · 2FA
 - [6053](https://tbpro.zendesk.com/agent/tickets/6053) · [open] · 2026-06-04T16:44 · Delete Account and All Data
-- [6054](https://tbpro.zendesk.com/agent/tickets/6054) · [open] · 2026-06-04T16:59 · just signed in and i cant access my new account
 - [6055](https://tbpro.zendesk.com/agent/tickets/6055) · [open] · 2026-06-04T17:05 · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail. 
 - [6057](https://tbpro.zendesk.com/agent/tickets/6057) · [open] · 2026-06-04T17:36 · Had not realized early bird was a paid service; no thanks
 
@@ -147,9 +144,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6027](https://tbpro.zendesk.com/agent/tickets/6027) · 2026-06-04T01:20 · You're Invited: Thundermail Early Bird Access message to me
 - · [6021](https://tbpro.zendesk.com/agent/tickets/6021) · 2026-06-04T02:17 · Waiting list change of email
-- · [6052](https://tbpro.zendesk.com/agent/tickets/6052) · 2026-06-04T16:30 · 2FA
 - · [6051](https://tbpro.zendesk.com/agent/tickets/6051) · 2026-06-04T17:02 · New emails need to be pushed to Thunderbird
 - · [6028](https://tbpro.zendesk.com/agent/tickets/6028) · 2026-06-04T17:30 · Thundermail Pro
+- · [6052](https://tbpro.zendesk.com/agent/tickets/6052) · 2026-06-04T18:01 · 2FA
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
