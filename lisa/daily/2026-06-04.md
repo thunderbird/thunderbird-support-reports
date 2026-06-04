@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 18:41 ET** · refreshes hourly_  
+_Updated: **2026-06-04 19:37 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
@@ -46,8 +46,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 9
-- **pending**: 4
-- **open**: 2
+- **open**: 3
+- **pending**: 3
 
 ## Service (cumulative)
 
@@ -97,15 +97,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6045](https://tbpro.zendesk.com/agent/tickets/6045)** · My Thundermail account
   > I have set up the Thundermail on Thunderbird v151.0.1 (64-bit) but when is goes to get mail i get an error message, - Could not connect to server mail. [domain]; the connection…
 
-### Aliases — 1 tickets
-
-- **[#6032](https://tbpro.zendesk.com/agent/tickets/6032)** · Change default email account to [domain] — why: **curious** · how: **explained**
-  > Hi folks This is looking good - thanks for all the hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to…
-
 ### Calendar / contacts / Outlook integration — 1 tickets
 
 - **[#6044](https://tbpro.zendesk.com/agent/tickets/6044)** · Appointment: saving availability error
   > In appointment, the availability page won't save any changes. When I click on save, I get this error in a red box: "There was an issue creating your schedule". Please try again.…
+
+### Aliases — 1 tickets
+
+- **[#6032](https://tbpro.zendesk.com/agent/tickets/6032)** · Change default email account to [domain] — why: **curious** · how: **explained**
+  > Hi folks This is looking good - thanks for all the hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
@@ -120,7 +120,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [open] · 2026-06-04T01:55 · Change default email account to [domain]
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
 - [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [solved] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
-- [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [pending] · 2026-06-04T12:16 · Appointment: saving availability error
+- [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [open] · 2026-06-04T12:16 · Appointment: saving availability error
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
 - [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [solved] · 2026-06-04T15:49 · 2FA
