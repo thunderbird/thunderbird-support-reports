@@ -1,21 +1,15 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 17:44 ET** · refreshes hourly_  
+_Updated: **2026-06-04 18:41 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **14** new tickets in last 24h · **5** solved in last 24h
+- **13** new tickets in last 24h · **5** solved in last 24h
 - **15** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: —  (0 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"early bird"** — 2 tickets in 24h (new; baseline 0 cum) — [#6027](https://tbpro.zendesk.com/agent/tickets/6027), [#6057](https://tbpro.zendesk.com/agent/tickets/6057)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -23,7 +17,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
 - 2 incident(s):
   - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [open] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
+  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [pending] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
 
@@ -51,8 +45,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 8
-- **pending**: 5
+- **solved**: 9
+- **pending**: 4
 - **open**: 2
 
 ## Service (cumulative)
@@ -67,9 +61,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 4
 - **telling us** + **n/a**: 2
 - **curious** + **informed**: 2
-- **blocked** + **escalated**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
+- **blocked** + **escalated**: 1
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
@@ -103,40 +97,34 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6045](https://tbpro.zendesk.com/agent/tickets/6045)** · My Thundermail account
   > I have set up the Thundermail on Thunderbird v151.0.1 (64-bit) but when is goes to get mail i get an error message, - Could not connect to server mail. [domain]; the connection…
 
-### Account creation / signup confusion — 1 tickets
+### Aliases — 1 tickets
 
-- **[#6057](https://tbpro.zendesk.com/agent/tickets/6057)** · Had not realized early bird was a paid service; no thanks
-  > I hadn’t seen (admittedly, perhaps my oversight) any language in initial invitations for the early bird Thundermail service saying that it would be paid; my impression was that…
-
-### Email sending / receiving / SMTP / IMAP — 1 tickets
-
-- **[#6040](https://tbpro.zendesk.com/agent/tickets/6040)** · Delivery Issue with Telekom Mail Server — why: **blocked** · how: **escalated** · 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
-  > I run into an issue when I send an email to a Telekom mail address: Your message could not be delivered to the following recipients: <[email]> (host '[domain]' rejected…
+- **[#6032](https://tbpro.zendesk.com/agent/tickets/6032)** · Change default email account to [domain] — why: **curious** · how: **explained**
+  > Hi folks This is looking good - thanks for all the hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to…
 
 ### Calendar / contacts / Outlook integration — 1 tickets
 
 - **[#6044](https://tbpro.zendesk.com/agent/tickets/6044)** · Appointment: saving availability error
   > In appointment, the availability page won't save any changes. When I click on save, I get this error in a red box: "There was an issue creating your schedule". Please try again.…
 
-### Aliases — 1 tickets
+### Email sending / receiving / SMTP / IMAP — 1 tickets
 
-- **[#6032](https://tbpro.zendesk.com/agent/tickets/6032)** · Change default email account to [domain] — why: **curious** · how: **explained**
-  > Hi folks This is looking good - thanks for all the hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to…
+- **[#6040](https://tbpro.zendesk.com/agent/tickets/6040)** · Delivery Issue with Telekom Mail Server — why: **blocked** · how: **escalated** · 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
+  > I run into an issue when I send an email to a Telekom mail address: Your message could not be delivered to the following recipients: <[email]> (host '[domain]' rejected…
 
 ## New tickets — last 24h
 
 - [6027](https://tbpro.zendesk.com/agent/tickets/6027) · [solved] · 2026-06-03T21:48 · You're Invited: Thundermail Early Bird Access message to me
 - [6028](https://tbpro.zendesk.com/agent/tickets/6028) · [solved] · 2026-06-03T22:43 · Thundermail Pro
 - [6029](https://tbpro.zendesk.com/agent/tickets/6029) · [pending] · 2026-06-03T23:11 · Webmail
-- [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [pending] · 2026-06-04T01:55 · Change default email account to [domain]
+- [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [open] · 2026-06-04T01:55 · Change default email account to [domain]
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
-- [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [open] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
+- [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [solved] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
 - [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [pending] · 2026-06-04T12:16 · Appointment: saving availability error
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
 - [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [solved] · 2026-06-04T15:49 · 2FA
 - [6055](https://tbpro.zendesk.com/agent/tickets/6055) · [solved] · 2026-06-04T17:05 · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail. 
-- [6057](https://tbpro.zendesk.com/agent/tickets/6057) · [open] · 2026-06-04T17:36 · Had not realized early bird was a paid service; no thanks
 - [6060](https://tbpro.zendesk.com/agent/tickets/6060) · [solved] · 2026-06-04T19:06 · Monthly Subscription
 - [6061](https://tbpro.zendesk.com/agent/tickets/6061) · [solved] · 2026-06-04T19:20 · account setup in thunderbird desktop fails
 
