@@ -1,11 +1,11 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 12:13 ET** · refreshes hourly_  
+_Updated: **2026-06-04 12:37 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **10** new tickets in last 24h · **3** solved in last 24h
+- **10** new tickets in last 24h · **4** solved in last 24h
 - **11** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: —  (0 good / 0 bad)
@@ -45,9 +45,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **open**: 4
+- **solved**: 4
 - **pending**: 4
-- **solved**: 3
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -59,6 +59,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 2
+- **confused** + **explained**: 1
 - **change request** + **explained**: 1
 - **curious** + **informed**: 1
 - **blocked** + **explained**: 1
@@ -78,7 +79,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### App setup / configuration — 2 tickets
 
-- **[#6052](https://tbpro.zendesk.com/agent/tickets/6052)** · 2FA
+- **[#6052](https://tbpro.zendesk.com/agent/tickets/6052)** · 2FA — why: **confused** · how: **explained**
   > Hello, can you please point me in the direction of where to setup 2FA for my new Thunderbird Pro account? Thank you!
 - **[#6045](https://tbpro.zendesk.com/agent/tickets/6045)** · My Thundermail account
   > I have set up the Thundermail on Thunderbird v151.0.1 (64-bit) but when is goes to get mail i get an error message, - Could not connect to server mail. [domain]; the connection…
@@ -96,7 +97,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ### Aliases — 1 tickets
 
 - **[#6032](https://tbpro.zendesk.com/agent/tickets/6032)** · Change default email account to [domain] — why: **curious** · how: **explained**
-  > Hi folks This is looking good - thanks, [name] hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to use…
+  > Hi folks This is looking good - thanks for all the hard work. I set up my new account today [email] I may have missed a step in the sign up process as I would have preferred to…
 
 ### Login / can't access account — 1 tickets
 
@@ -114,13 +115,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [pending] · 2026-06-04T12:16 · Appointment: saving availability error
 - [6045](https://tbpro.zendesk.com/agent/tickets/6045) · [pending] · 2026-06-04T13:26 · My Thundermail account
 - [6051](https://tbpro.zendesk.com/agent/tickets/6051) · [solved] · 2026-06-04T15:37 · New emails need to be pushed to Thunderbird
-- [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [open] · 2026-06-04T15:49 · 2FA
+- [6052](https://tbpro.zendesk.com/agent/tickets/6052) · [solved] · 2026-06-04T15:49 · 2FA
 
 ## Solved — last 24h
 
 - · [6027](https://tbpro.zendesk.com/agent/tickets/6027) · 2026-06-04T01:20 · You're Invited: Thundermail Early Bird Access message to me
 - · [6021](https://tbpro.zendesk.com/agent/tickets/6021) · 2026-06-04T02:17 · Waiting list change of email
 - · [6051](https://tbpro.zendesk.com/agent/tickets/6051) · 2026-06-04T15:53 · New emails need to be pushed to Thunderbird
+- · [6052](https://tbpro.zendesk.com/agent/tickets/6052) · 2026-06-04T16:30 · 2FA
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
