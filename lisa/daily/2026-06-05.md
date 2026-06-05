@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 09:23 ET** · refreshes hourly_  
+_Updated: **2026-06-05 11:14 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 2 is **day 3** of rollout — **2,000 invitees**, **22 tickets** so far (
 
 ## At a glance
 
-- **7** new tickets in last 24h · **4** solved in last 24h
+- **7** new tickets in last 24h · **5** solved in last 24h
 - **22** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (1 good / 0 bad)
@@ -29,8 +29,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
   - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [open] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
-## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
+## Other tickets linked to GitHub — 2 ticket(s) → 2 issue(s)
 
+- 🔧 [zd #6044](https://tbpro.zendesk.com/agent/tickets/6044) → [thunderbird/appointment#1696](https://github.com/thunderbird/appointment/issues/1696) · _Slugs are scope-generated on the Subscriber but indexed globally in DB_
 - ✅ [zd #6040](https://tbpro.zendesk.com/agent/tickets/6040) → [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226) · _Delivery Issue with Telekom Mail Server_
 
 ## Negative CSAT (since launch)
@@ -49,9 +50,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **open**: 10
-- **solved**: 9
-- **pending**: 3
+- **solved**: 10
+- **open**: 6
+- **pending**: 5
+- **hold**: 1
 
 ## Service (cumulative)
 
@@ -64,9 +66,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 4
-- **curious** + **informed**: 2
+- **curious** + **explained**: 5
 - **telling us** + **n/a**: 2
+- **curious** + **informed**: 2
 - **blocked** + **escalated**: 1
 - **blocked** + **investigated**: 1
 - **confused** + **explained**: 1
@@ -85,10 +87,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Password reset / forgot password — 2 tickets
 
-- **[#6077](https://tbpro.zendesk.com/agent/tickets/6077)** · TB pro question
-  > I got the invite for the early bird, and when I read about the account it's not really clear to me what **15** Email Addresses **3** Custom Domains means in this context. Is it so…
 - **[#6068](https://tbpro.zendesk.com/agent/tickets/6068)** · Password Change email received into wrong account inbox
   > Went to [domain] on desktop web browser. Clicked on Sign In. Clicked on "Forgot your password?" and provided my primary Thundermail address then Submit. Message on page indicated…
+- **[#6077](https://tbpro.zendesk.com/agent/tickets/6077)** · TB pro question — why: **curious** · how: **explained**
+  > I got the invite for the early bird, and when I read about the account it's not really clear to me what **15** Email Addresses **3** Custom Domains means in this context. Is it so…
 
 ### App setup / configuration — 1 tickets
 
@@ -111,7 +113,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6066](https://tbpro.zendesk.com/agent/tickets/6066) · [open] · 2026-06-05T04:24 · Send Storage shows space being used, but there are no files in Thunderbird Send.
 - [6068](https://tbpro.zendesk.com/agent/tickets/6068) · [open] · 2026-06-05T05:36 · Password Change email received into wrong account inbox
 - [6072](https://tbpro.zendesk.com/agent/tickets/6072) · [open] · 2026-06-05T08:40 · I received early bird invite
-- [6077](https://tbpro.zendesk.com/agent/tickets/6077) · [open] · 2026-06-05T11:30 · TB pro question
+- [6077](https://tbpro.zendesk.com/agent/tickets/6077) · [pending] · 2026-06-05T11:30 · TB pro question
 - [6078](https://tbpro.zendesk.com/agent/tickets/6078) · [open] · 2026-06-05T12:29 · Send as
 - [6082](https://tbpro.zendesk.com/agent/tickets/6082) · [open] · 2026-06-05T12:58 · Delete data + account
 
@@ -121,6 +123,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6061](https://tbpro.zendesk.com/agent/tickets/6061) · 2026-06-04T22:01 · account setup in thunderbird desktop fails
 - · [6060](https://tbpro.zendesk.com/agent/tickets/6060) · 2026-06-04T22:01 · Monthly Subscription
 - · [6036](https://tbpro.zendesk.com/agent/tickets/6036) · 2026-06-05T02:01 · Kunnen het niet instaleren op mijn tablet  hij kent deserve niet
+- · [6032](https://tbpro.zendesk.com/agent/tickets/6032) · 2026-06-05T15:02 · Change default email account to [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
