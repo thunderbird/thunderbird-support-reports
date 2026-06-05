@@ -28,4 +28,4 @@ Public repo. GitHub Pages is publicly accessible.
 
 ## Maintainer
 
-Lisa Wess · Support Operations Manager · MZLA Technologies
+Lisa Wess · Support Operations Manager · MZLA
