@@ -1,11 +1,11 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 01:44 ET** · refreshes hourly_  
+_Updated: **2026-06-05 03:47 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **3** new tickets in last 24h · **5** solved in last 24h
+- **3** new tickets in last 24h · **4** solved in last 24h
 - **18** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (1 good / 0 bad)
@@ -17,7 +17,7 @@ _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-0
 - ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
 - 2 incident(s):
   - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [hold] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
+  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [open] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
 
@@ -39,8 +39,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 10
-- **open**: 5
+- **solved**: 9
+- **open**: 6
 - **pending**: 3
 
 ## Service (cumulative)
@@ -56,10 +56,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 4
 - **curious** + **informed**: 2
 - **telling us** + **n/a**: 2
+- **blocked** + **escalated**: 1
 - **blocked** + **investigated**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
-- **blocked** + **escalated**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **explained**: 1
 
@@ -91,7 +91,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6055](https://tbpro.zendesk.com/agent/tickets/6055) · 2026-06-04T21:02 · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail. 
 - · [6061](https://tbpro.zendesk.com/agent/tickets/6061) · 2026-06-04T22:01 · account setup in thunderbird desktop fails
 - · [6060](https://tbpro.zendesk.com/agent/tickets/6060) · 2026-06-04T22:01 · Monthly Subscription
-- · [6040](https://tbpro.zendesk.com/agent/tickets/6040) · 2026-06-04T23:01 · Delivery Issue with Telekom Mail Server
 - · [6036](https://tbpro.zendesk.com/agent/tickets/6036) · 2026-06-05T02:01 · Kunnen het niet instaleren op mijn tablet  hij kent deserve niet
 
 ---
