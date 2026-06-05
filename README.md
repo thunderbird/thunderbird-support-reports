@@ -10,17 +10,13 @@ Automated support operations reporting for Thunderbird and MZLA, maintained by t
 - SUMO forum health (Desktop and Android)
 - FeatureOS idea tracking
 
-## Published reports
-
-GitHub Pages: **https://thunderbird.github.io/thunderbird-support-reports/**
-
 ## Data sources
 
 | Source | What it covers |
 |--------|---------------|
 | Google Play Console (GCS) | Android review CSVs |
 | Zendesk | Ticket volume, CSAT, Thundermail support |
-| SUMO (Roland's metrics repo) | Forum solved rates, contributors |
+| SUMO | Forum solved rates, contributors |
 | FeatureOS | Thundermail idea board |
 | K-9 Discourse | K-9 community forum |
 
