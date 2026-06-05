@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 15:46 ET** · refreshes hourly_  
+_Updated: **2026-06-05 16:46 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -51,8 +51,7 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 13
-- **pending**: 7
-- **hold**: 1
+- **pending**: 8
 
 ## Service (cumulative)
 
@@ -68,10 +67,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 6
 - **curious** + **informed**: 3
 - **telling us** + **n/a**: 2
+- **blocked** + **escalated**: 2
 - **blocked** + **investigated**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
-- **blocked** + **escalated**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **explained**: 1
 
