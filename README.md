@@ -28,7 +28,7 @@ All customer-facing content is PII-redacted before publishing. No raw ticket dat
 
 ## Access
 
-Private repo. All 55 Thunderbird org members have read access. GitHub Pages is accessible to org members.
+Public repo. GitHub Pages is publicly accessible.
 
 ## Maintainer
 
