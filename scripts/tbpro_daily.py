@@ -49,6 +49,7 @@ TAG_THEMES = [
     ("macro_tbpro_no_free_monthly",         "Pricing — wanted free / monthly plan"),
     ("macro_tbpro_annual_only_beta",        "Pricing — annual-only inquiry"),
     ("tbpro_hub_what_pricing_concerns",     "Pricing — general pricing concern"),
+    ("macro_thundermail_discount_pricing",  "Pricing — discount / pricing question"),
     ("tbpro_hub_what_payment",              "Pricing — payment issue"),
 
     # ── Refund / cancel ──────────────────────────────────────────────────────
