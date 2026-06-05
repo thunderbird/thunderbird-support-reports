@@ -1,12 +1,12 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 19:37 ET** · refreshes hourly_  
+_Updated: **2026-06-04 21:20 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **13** new tickets in last 24h · **5** solved in last 24h
-- **15** tickets total since launch · contact rate **1%** of 2000 invitees
+- **14** new tickets in last 24h · **5** solved in last 24h
+- **16** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: —  (0 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -45,9 +45,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 9
-- **open**: 3
-- **pending**: 3
+- **solved**: 10
+- **pending**: 4
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -61,9 +61,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 4
 - **telling us** + **n/a**: 2
 - **curious** + **informed**: 2
+- **blocked** + **investigated**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
 - **blocked** + **escalated**: 1
+- **blocked** + **redirected**: 1
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
@@ -112,12 +114,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6040](https://tbpro.zendesk.com/agent/tickets/6040)** · Delivery Issue with Telekom Mail Server — why: **blocked** · how: **escalated** · 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
   > I run into an issue when I send an email to a Telekom mail address: Your message could not be delivered to the following recipients: <[email]> (host '[domain]' rejected…
 
+### Login attempt — wrong product, redirected to SUMO — 1 tickets
+
+- **[#6036](https://tbpro.zendesk.com/agent/tickets/6036)** · Kunnen het niet instaleren op mijn tablet  hij kent deserve niet — why: **blocked** · how: **redirected**
+  > [No content]
+
 ## New tickets — last 24h
 
 - [6027](https://tbpro.zendesk.com/agent/tickets/6027) · [solved] · 2026-06-03T21:48 · You're Invited: Thundermail Early Bird Access message to me
 - [6028](https://tbpro.zendesk.com/agent/tickets/6028) · [solved] · 2026-06-03T22:43 · Thundermail Pro
 - [6029](https://tbpro.zendesk.com/agent/tickets/6029) · [pending] · 2026-06-03T23:11 · Webmail
 - [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [open] · 2026-06-04T01:55 · Change default email account to [domain]
+- [6036](https://tbpro.zendesk.com/agent/tickets/6036) · [solved] · 2026-06-04T09:05 · Kunnen het niet instaleren op mijn tablet  hij kent deserve niet
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
 - [6040](https://tbpro.zendesk.com/agent/tickets/6040) · [solved] · 2026-06-04T10:30 · Delivery Issue with Telekom Mail Server 🔗 [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226)
 - [6044](https://tbpro.zendesk.com/agent/tickets/6044) · [open] · 2026-06-04T12:16 · Appointment: saving availability error
