@@ -67,18 +67,65 @@ def fetch_all_tickets(brand, since, creds):
 # Order matters: first match wins for a ticket's *primary* theme; we also tag
 # secondary themes for reporting.
 THEMES = [
-    ("Security / hacked", r"\b(hack(ed|ing)?|compromis|breach|phish|stolen|unauthorized|suspicious activity|fraud)\b"),
-    ("Password reset / forgot password", r"\b(forgot|reset|recover|recovery|cannot remember|don'?t remember|new password|neues passwort|olvid|passwort vergessen|mot de passe oubli)\b.*\bpassword\b|\bpassword\b.*\b(forgot|reset|recover|recovery|reset link)\b|\b(forget password|password recovery|password vergessen)\b"),
-    ("Login / can't access account", r"\b(can'?t (log ?in|sign ?in|access)|unable to (log ?in|sign ?in|access)|login (error|issue|problem|fail)|sign[- ]?in (error|issue|problem|fail)|locked out|access (denied|issue)|won'?t let me (in|log)|login\b|signin\b)\b"),
-    ("Account creation / signup confusion", r"\b(sign ?up|signed up|signup|create.{0,20}account|new account|invite|invitation|waitlist|join|early bird|early access|beta access|when.{0,15}(get|will).{0,15}(in|access))\b"),
-    ("Subscription / billing / cancel", r"\b(subscri|billing|charged|refund|cancel|payment|invoice|price|pricing|cost|plan|tier|upgrade|downgrade|free|paid)\b"),
-    ("Custom domain / DKIM / DNS", r"\b(custom domain|dkim|spf|dmarc|dns|mx record|domain setup|own domain|my domain)\b"),
-    ("Email sending / receiving / SMTP / IMAP", r"\b(smtp|imap|send(ing)? (email|mail|message)|receiv(e|ing) (email|mail|message)|server (down|caido|caída|caduto)|server (error|issue)|can'?t send|not (sending|receiving)|delivery)\b"),
-    ("Calendar / contacts / Outlook integration", r"\b(calendar|invite|invitation|outlook|exchange|contact(s)?|caldav|carddav|appointment)\b"),
-    ("App setup / configuration", r"\b(set ?up|setup|configur|install|migrat|import|sync|gmail|yahoo|exchange.{0,20}account|3rd party|third[- ]party|connect.{0,20}account|add.{0,20}account)\b"),
-    ("Drafts / sending failures / lost mail", r"\b(draft|lost (email|mail|message)|disappear|missing (email|mail|message)|attach(ment|ing) (fail|not|lost)|saving draft)\b"),
-    ("Bug report / app crash / not working", r"\b(bug|crash|not work|doesn'?t work|broken|error message|stops? working|freeze|hang)\b"),
-    ("Pricing / nonprofit / discount inquiry", r"\b(non[- ]?profit|educational|student|discount|charity|free for|nonprofit)\b"),
+    # --- Security ---
+    ("Security / hacked",
+     r"\b(hack(ed|ing)?|compromis|breach|phish|stolen|unauthorized|suspicious activity|fraud)\b"),
+
+    # --- Auth / access ---
+    ("Password reset / forgot password",
+     r"\b(forgot|reset|recover|recovery|cannot remember|don'?t remember|new password|neues passwort|olvid|passwort vergessen|mot de passe oubli)\b.*\bpassword\b"
+     r"|\bpassword\b.*\b(forgot|reset|recover|recovery|reset link)\b"
+     r"|\b(forget password|password recovery|password vergessen)\b"),
+    ("Login / can't access account",
+     r"\b(can'?t (log ?in|sign ?in|access)|unable to (log ?in|sign ?in|access)|login (error|issue|problem|fail)|sign[- ]?in (error|issue|problem|fail)|locked out|access (denied|issue)|won'?t let me (in|log)|login\b|signin\b)\b"),
+
+    # --- Onboarding / signup ---
+    ("Early bird / invite / waitlist",
+     r"\b(early bird|early access|invite|invitation|waitlist|join the (beta|program)|when.{0,15}(get|will).{0,15}(in|access)|got (an )?invite)\b"),
+    ("Account creation / signup confusion",
+     r"\b(sign ?up|signed up|signup|create.{0,20}account|new account)\b"),
+
+    # --- Pricing & plans ---
+    ("Pricing / monthly plan / free tier",
+     r"\b(month(ly)?[ -]?(plan|subscription|billing)|free (plan|tier|trial|version)|how much|what.{0,10}cost|pricing|price (per|of)|per month|annual (only|plan)|no free|free monthly|pay monthly|monthly fee)\b"),
+    ("Subscription / billing / refund / cancel",
+     r"\b(subscri|billing|charged|refund|cancel|payment|invoice|cost|plan|tier|upgrade|downgrade|paid|non[- ]?profit|educational|student|discount|charity|free for|nonprofit)\b"),
+
+    # --- Privacy & data ---
+    ("Privacy / data / jurisdiction concerns",
+     r"\b(privacy|gdpr|dsgvo|data protect|delete (my )?(data|account)|right to erasure|eu (host|based|law|server)|us (law|based|server|jurisdiction)|where.{0,20}(store|host|data)|jurisdiction|data residency|eu only)\b"),
+
+    # --- Thundermail-specific features ---
+    ("Webmail",
+     r"\b(webmail|web.{0,5}(interface|app|client|access)|browser.{0,10}(access|login|mail)|access.{0,10}browser|web version)\b"),
+    ("Thunderbird for Android + Thundermail",
+     r"\b(android|mobile|phone|fcm|wns|push notif|mobile (app|client|sync)|thunderbird (for |on )?android|sync.{0,10}(mobile|phone)|android.{0,10}(sync|push|notif))\b"),
+    ("Aliases",
+     r"\b(alias(es)?|send as|send from|multiple (address|email)|secondary (address|email)|from address|identity)\b"),
+    ("Custom domain / DKIM / DNS",
+     r"\b(custom domain|dkim|spf|dmarc|dns|mx record|cname|domain setup|own domain|my domain|domain (not|fail|error))\b"),
+    ("Send (file sharing)",
+     r"\b(thunderbird send|tb send|send\.thunderbird|file (send|upload|share|transfer)|storage (used|space|quota)|upload (fail|error|stuck|progress))\b"),
+    ("Appointment / calendar",
+     r"\b(appointment|calendar|caldav|carddav|invite|ical|schedule|booking)\b"),
+
+    # --- Pre-purchase & docs ---
+    ("Pre-purchase / documentation gap",
+     r"\b(document(ation)?|docs|readme|how does it work|before (I |i )(buy|pay|subscribe|sign)|want to know|more info|feature list|what.{0,20}include|what do (I|you) get)\b"),
+
+    # --- Technical setup ---
+    ("Email sending / receiving / SMTP / IMAP",
+     r"\b(smtp|imap|send(ing)? (email|mail|message)|receiv(e|ing) (email|mail|message)|server (down|caido|caída|caduto)|server (error|issue)|can'?t send|not (sending|receiving)|delivery|outbox)\b"),
+    ("App setup / configuration",
+     r"\b(set ?up|setup|configur|install|migrat|import|sync|gmail|yahoo|exchange.{0,20}account|3rd party|third[- ]party|connect.{0,20}account|add.{0,20}account|thunderbird desktop)\b"),
+    ("Drafts / sending failures / lost mail",
+     r"\b(draft|lost (email|mail|message)|disappear|missing (email|mail|message)|attach(ment|ing) (fail|not|lost)|saving draft)\b"),
+
+    # --- Bugs ---
+    ("Bug report / app crash / not working",
+     r"\b(bug|crash|not work|doesn'?t work|broken|error message|stops? working|freeze|hang|glitch)\b"),
+
+    # --- Misc ---
     ("App Store review (low stars)", r"★[★☆]{0,4}(?![★])|\bstar.{0,5}rating\b"),
 ]
 

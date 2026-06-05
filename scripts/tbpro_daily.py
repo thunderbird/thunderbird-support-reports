@@ -38,36 +38,37 @@ from brand_summary import THEMES, classify, short_excerpt  # noqa: E402
 # (via macros applied and admin-defined trees), so they are more accurate than
 # regex on raw user text. Order matters: the first matching tag wins.
 TAG_THEMES = [
-    # Macros applied — most direct signal of what happened.
-    # Login-attempt macros come BEFORE waitlist_bump because tickets bearing
-    # both mean the user actually tried to log in (the waitlist macro is the
-    # response). Pure waitlist-status inquiries have only waitlist_bump.
-    ("macro_tbpro_cantlogin_no_allowlist", "Login attempt — not on the allowlist yet"),
-    ("macro_tbpro_sumo_redirect",          "Login attempt — wrong product, redirected to SUMO"),
-    ("macro_tbpro_email_lookup",           "Login attempt — email lookup required"),
-    # Account Hub login trouble triage — fires BEFORE waitlist_bump so a
-    # ticket triaged as login trouble + responded with waitlist macro is
-    # classified as a login attempt (not a pure waitlist inquiry)
-    ("tbpro_hub_accounts_login_trouble",   "Login attempt — Account Hub login trouble triage"),
-    ("macro_tbpro_waitlist_bump",          "Pure waitlist inquiry"),
-    ("macro_tbpro_no_free_monthly",        "Wanted free / monthly plan"),
-    ("macro_tbpro_annual_only_beta",       "Beta is annual-only inquiry"),
-    ("macro_tbpro_request_or_complaint",   "Request or complaint"),
-    ("tbpro_hub_what_refund",              "Refund request"),
-    ("tbpro_hub_what_pricing_concerns",    "Pricing concerns"),
-    ("tbpro_hub_what_payment",             "Payment issue"),
-    ("tbpro_hub_what_recover",             "Account recovery"),
-    # Thundermail-specific topic categories
-    ("tbpro_thundermail_what_aliases",                    "Aliases"),
-    ("tbpro_thundermail_what_custom_domains_setup",       "Custom domain setup"),
-    ("tbpro_thundermail_what_custom_domains__dns_records","Custom domain DNS"),
-    ("tbpro_thundermail_what_add_account",                "Add account"),
-    ("tbpro_thundermail_what_accounts_waitlist",          "Waitlist (thundermail)"),
-    # Refund/cancel signals
-    ("tbpro_refund",         "Refund request"),
-    ("tbpro_cancel_unpaid",  "Cancelled (unpaid)"),
-    # Generic signup
-    ("accounts__early_bird_signups", "Early-bird signup"),
+    # ── Login / access (check before waitlist — these bear both macros) ──────
+    ("macro_tbpro_cantlogin_no_allowlist",  "Login / Access — not on allowlist yet"),
+    ("macro_tbpro_sumo_redirect",           "Login / Access — wrong product, redirected to SUMO"),
+    ("macro_tbpro_email_lookup",            "Login / Access — email lookup required"),
+    ("tbpro_hub_accounts_login_trouble",    "Login / Access — Account Hub trouble"),
+    ("tbpro_hub_what_recover",              "Login / Access — account recovery"),
+
+    # ── Pricing & plans ──────────────────────────────────────────────────────
+    ("macro_tbpro_no_free_monthly",         "Pricing — wanted free / monthly plan"),
+    ("macro_tbpro_annual_only_beta",        "Pricing — annual-only inquiry"),
+    ("tbpro_hub_what_pricing_concerns",     "Pricing — general pricing concern"),
+    ("tbpro_hub_what_payment",              "Pricing — payment issue"),
+
+    # ── Refund / cancel ──────────────────────────────────────────────────────
+    ("tbpro_hub_what_refund",               "Refund / Cancel"),
+    ("tbpro_refund",                        "Refund / Cancel"),
+    ("tbpro_cancel_unpaid",                 "Refund / Cancel — unpaid"),
+
+    # ── Waitlist / onboarding ────────────────────────────────────────────────
+    ("macro_tbpro_waitlist_bump",           "Waitlist / onboarding inquiry"),
+    ("tbpro_thundermail_what_accounts_waitlist", "Waitlist / onboarding inquiry"),
+    ("accounts__early_bird_signups",        "Early bird signup"),
+
+    # ── Thundermail features ─────────────────────────────────────────────────
+    ("tbpro_thundermail_what_aliases",                     "Aliases"),
+    ("tbpro_thundermail_what_custom_domains_setup",        "Custom domain setup"),
+    ("tbpro_thundermail_what_custom_domains__dns_records", "Custom domain DNS"),
+    ("tbpro_thundermail_what_add_account",                 "Add account in Thunderbird"),
+
+    # ── General ──────────────────────────────────────────────────────────────
+    ("macro_tbpro_request_or_complaint",    "Request or complaint"),
 ]
 TAG_THEME_SET = {t for t, _ in TAG_THEMES}
 
