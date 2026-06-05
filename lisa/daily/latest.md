@@ -1,15 +1,21 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 07:17 ET** · refreshes hourly_  
+_Updated: **2026-06-05 09:20 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **19** tickets total since launch · contact rate **1%** of 2000 invitees
+- **7** new tickets in last 24h · **4** solved in last 24h
+- **22** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (1 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"early bird"** — 2 tickets in 24h (4.0× baseline; baseline 1 cum) — [#6072](https://tbpro.zendesk.com/agent/tickets/6072), [#6077](https://tbpro.zendesk.com/agent/tickets/6077)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -39,13 +45,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
+- **open**: 10
 - **solved**: 9
-- **open**: 7
 - **pending**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 14
+- **Thundermail**: 15
+- **Account Hub**: 1
 - **Send**: 1
 - **Appointment**: 1
 
@@ -65,20 +72,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#6082](https://tbpro.zendesk.com/agent/tickets/6082)** · Delete data + account
+  > Hi, could you please delete my data and my account? I have find another provider that is based in the EU and has no need to adhere to US laws. Thank you and good luck with the…
+- **[#6066](https://tbpro.zendesk.com/agent/tickets/6066)** · Send Storage shows space being used, but there are no files in Thunderbird Send.
+  > I am currently just testing the service. I was uploading a zip file of around 155 MB in size, but I encountered the known issue in which the progress bar rewinds while uploading…
+
+### Password reset / forgot password — 2 tickets
+
+- **[#6077](https://tbpro.zendesk.com/agent/tickets/6077)** · TB pro question
+  > I got the invite for the early bird, and when I read about the account it's not really clear to me what **15** Email Addresses **3** Custom Domains means in this context. Is it so…
+- **[#6068](https://tbpro.zendesk.com/agent/tickets/6068)** · Password Change email received into wrong account inbox
+  > Went to [domain] on desktop web browser. Clicked on Sign In. Clicked on "Forgot your password?" and provided my primary Thundermail address then Submit. Message on page indicated…
+
+### App setup / configuration — 1 tickets
+
+- **[#6078](https://tbpro.zendesk.com/agent/tickets/6078)** · Send as
+  > Hi, I want to leave gmail, but I use several mail address for different projects... Is a must for me to be able to "send as" from thundermail, this is the issue that make me not…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6072](https://tbpro.zendesk.com/agent/tickets/6072)** · I received early bird invite
   > Hi, i received early bird invite, but i'm asked to pay for a subscription, why? isn't it a test? Best regards, [name]
-
-### Password reset / forgot password — 1 tickets
-
-- **[#6068](https://tbpro.zendesk.com/agent/tickets/6068)** · Password Change email received into wrong account inbox
-  > Went to [domain] on desktop web browser. Clicked on Sign In. Clicked on "Forgot your password?" and provided my primary Thundermail address then Submit. Message on page indicated…
-
-### Other / uncategorized — 1 tickets
-
-- **[#6066](https://tbpro.zendesk.com/agent/tickets/6066)** · Send Storage shows space being used, but there are no files in Thunderbird Send.
-  > I am currently just testing the service. I was uploading a zip file of around 155 MB in size, but I encountered the known issue in which the progress bar rewinds while uploading…
 
 ### Custom domain DNS — 1 tickets
 
@@ -91,6 +107,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6066](https://tbpro.zendesk.com/agent/tickets/6066) · [open] · 2026-06-05T04:24 · Send Storage shows space being used, but there are no files in Thunderbird Send.
 - [6068](https://tbpro.zendesk.com/agent/tickets/6068) · [open] · 2026-06-05T05:36 · Password Change email received into wrong account inbox
 - [6072](https://tbpro.zendesk.com/agent/tickets/6072) · [open] · 2026-06-05T08:40 · I received early bird invite
+- [6077](https://tbpro.zendesk.com/agent/tickets/6077) · [open] · 2026-06-05T11:30 · TB pro question
+- [6078](https://tbpro.zendesk.com/agent/tickets/6078) · [open] · 2026-06-05T12:29 · Send as
+- [6082](https://tbpro.zendesk.com/agent/tickets/6082) · [open] · 2026-06-05T12:58 · Delete data + account
 
 ## Solved — last 24h
 
