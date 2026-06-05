@@ -787,8 +787,21 @@ def render_md(d, subdomain="tbpro", public=False):
     o.append(f"_24h window: {d['window_start_et'][:16]} → {d['window_end_et'][:16]} ET · Flight 2 launch: {LAUNCH_DATE} · {INVITEE_COUNT} invitees_")
     o.append("")
 
-    # Top numbers
+    # TL;DR — evergreen summary
     cum = len(d["cumulative"])
+    contact_rate = cum / INVITEE_COUNT * 100 if INVITEE_COUNT else 0
+    csat_str = f"{d['csat_cum_pct']:.0f}%" if d['csat_cum_pct'] is not None else "no ratings yet"
+    top_theme = max(d["cumulative_themes"], key=lambda k: len(d["cumulative_themes"][k])) if d["cumulative_themes"] else None
+    n_kp = len(d.get("incidents_by_problem") or {})
+    days_since = (dt.date.fromisoformat(str(d["report_date"])) - dt.date.fromisoformat(LAUNCH_DATE)).days + 1
+    o.append("## TL;DR")
+    o.append("")
+    o.append(f"Flight 2 is **day {days_since}** of rollout — **{INVITEE_COUNT:,} invitees**, "
+             f"**{cum} tickets** so far ({contact_rate:.1f}% contact rate). "
+             f"CSAT since launch: **{csat_str}**. "
+             + (f"Top theme: **{top_theme}**. " if top_theme else "")
+             + (f"**{n_kp} known problem(s)** being tracked." if n_kp else "No known problems open."))
+    o.append("")
     o.append("## At a glance")
     o.append("")
     o.append(f"- **{len(d['new_24h'])}** new tickets in last 24h · **{len(d['solved_24h'])}** solved in last 24h")
@@ -1162,8 +1175,25 @@ def render_html(d, subdomain="tbpro", public=False):
 </div>
 """)
 
-    # --- At a glance metrics ---
+    # --- TL;DR banner ---
     cum = len(d["cumulative"])
+    _cr = f"{cum / INVITEE_COUNT * 100:.1f}%" if INVITEE_COUNT else "—"
+    _csat_tl = f"{d['csat_cum_pct']:.0f}%" if d.get("csat_cum_pct") is not None else "no ratings yet"
+    _top_theme = max(d["cumulative_themes"], key=lambda k: len(d["cumulative_themes"][k])) if d.get("cumulative_themes") else None
+    _n_kp = len(d.get("incidents_by_problem") or {})
+    _days = (dt.date.fromisoformat(str(d["report_date"])) - dt.date.fromisoformat(LAUNCH_DATE)).days + 1
+    _kp_str = f" &nbsp;·&nbsp; <strong>{_n_kp} known problem(s)</strong> tracked" if _n_kp else " &nbsp;·&nbsp; No known problems open"
+    _theme_str = f" &nbsp;·&nbsp; Top theme: <strong>{_h(_top_theme)}</strong>" if _top_theme else ""
+    p.append(f'<div style="background:var(--surface-2);border:1px solid var(--border);border-left:4px solid var(--primary);'
+             f'border-radius:8px;padding:.9rem 1.25rem;margin-bottom:1.5rem;font-size:.88rem;line-height:1.6">'
+             f'<strong>Flight 2 · Day {_days}</strong> &nbsp;·&nbsp; '
+             f'<strong>{INVITEE_COUNT:,}</strong> invitees &nbsp;·&nbsp; '
+             f'<strong>{cum}</strong> tickets ({_cr} contact rate) &nbsp;·&nbsp; '
+             f'CSAT: <strong>{_csat_tl}</strong>'
+             f'{_theme_str}{_kp_str}'
+             f'</div>\n')
+
+    # --- At a glance metrics ---
     contact_rate = f"{cum / INVITEE_COUNT * 100:.0f}%"
     csat24_pct  = d.get("csat_24h_pct")
     csatc_pct   = d.get("csat_cum_pct")
