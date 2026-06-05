@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 14:51 ET** · refreshes hourly_  
+_Updated: **2026-06-05 15:46 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -31,7 +31,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ## Other tickets linked to GitHub — 2 ticket(s) → 2 issue(s)
 
-- 🔧 [zd #6044](https://tbpro.zendesk.com/agent/tickets/6044) → [thunderbird/appointment#1696](https://github.com/thunderbird/appointment/issues/1696) · _Slugs are scope-generated on the Subscriber but indexed globally in DB_
+- ✅ [zd #6044](https://tbpro.zendesk.com/agent/tickets/6044) → [thunderbird/appointment#1696](https://github.com/thunderbird/appointment/issues/1696) · _Slugs are scope-generated on the Subscriber but indexed globally in DB_
 - ✅ [zd #6040](https://tbpro.zendesk.com/agent/tickets/6040) → [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226) · _Delivery Issue with Telekom Mail Server_
 
 ## Negative CSAT (since launch)
@@ -127,9 +127,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6036](https://tbpro.zendesk.com/agent/tickets/6036) · 2026-06-05T02:01 · Kunnen het niet instaleren op mijn tablet  hij kent deserve niet
 - · [6032](https://tbpro.zendesk.com/agent/tickets/6032) · 2026-06-05T15:02 · Change default email account to [domain]
 - 👍 [6040](https://tbpro.zendesk.com/agent/tickets/6040) · 2026-06-05T15:16 · Delivery Issue with Telekom Mail Server
-- · [6082](https://tbpro.zendesk.com/agent/tickets/6082) · 2026-06-05T17:17 · Delete data + account
 - · [6078](https://tbpro.zendesk.com/agent/tickets/6078) · 2026-06-05T18:02 · Send as
 - · [6072](https://tbpro.zendesk.com/agent/tickets/6072) · 2026-06-05T18:02 · I received early bird invite
+- · [6082](https://tbpro.zendesk.com/agent/tickets/6082) · 2026-06-05T19:01 · Delete data + account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
