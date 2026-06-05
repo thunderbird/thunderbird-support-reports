@@ -1,11 +1,11 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 13:47 ET** · refreshes hourly_  
+_Updated: **2026-06-05 13:49 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 3** of rollout — **2,000 invitees**, **22 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — discount / pricing question**. **1 known problem(s)** being tracked.
+Flight 2 is **day 3** of rollout — **2,000 invitees**, **22 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
@@ -78,7 +78,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Password reset / forgot password — 2 tickets
+### Account access issues — 2 tickets
 
 - **[#6077](https://tbpro.zendesk.com/agent/tickets/6077)** · TB pro question — why: **curious** · how: **explained**
   > I got the invite for the early bird, and when I read about the account it's not really clear to me what **15** Email Addresses **3** Custom Domains means in this context. Is it so…
