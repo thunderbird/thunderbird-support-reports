@@ -1,12 +1,12 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 03:47 ET** · refreshes hourly_  
+_Updated: **2026-06-05 05:23 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
-- **18** tickets total since launch · contact rate **1%** of 2000 invitees
+- **4** new tickets in last 24h · **4** solved in last 24h
+- **19** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (1 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -40,12 +40,12 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 9
-- **open**: 6
+- **open**: 7
 - **pending**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 13
+- **Thundermail**: 14
 - **Send**: 1
 - **Appointment**: 1
 
@@ -64,6 +64,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#6072](https://tbpro.zendesk.com/agent/tickets/6072)** · I received early bird invite
+  > Hi, i received early bird invite, but i'm asked to pay for a subscription, why? isn't it a test? Best regards, [name]
 
 ### Password reset / forgot password — 1 tickets
 
@@ -85,6 +90,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6063](https://tbpro.zendesk.com/agent/tickets/6063) · [pending] · 2026-06-04T22:40 · CNAME Records
 - [6066](https://tbpro.zendesk.com/agent/tickets/6066) · [open] · 2026-06-05T04:24 · Send Storage shows space being used, but there are no files in Thunderbird Send.
 - [6068](https://tbpro.zendesk.com/agent/tickets/6068) · [open] · 2026-06-05T05:36 · Password Change email received into wrong account inbox
+- [6072](https://tbpro.zendesk.com/agent/tickets/6072) · [open] · 2026-06-05T08:40 · I received early bird invite
 
 ## Solved — last 24h
 
