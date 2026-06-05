@@ -71,13 +71,12 @@ THEMES = [
     ("Security / hacked",
      r"\b(hack(ed|ing)?|compromis|breach|phish|stolen|unauthorized|suspicious activity|fraud)\b"),
 
-    # --- Auth / access ---
-    ("Password reset / forgot password",
+    # --- Auth / access (merged: password reset + login issues = same journey) ---
+    ("Account access issues",
      r"\b(forgot|reset|recover|recovery|cannot remember|don'?t remember|new password|neues passwort|olvid|passwort vergessen|mot de passe oubli)\b.*\bpassword\b"
      r"|\bpassword\b.*\b(forgot|reset|recover|recovery|reset link)\b"
-     r"|\b(forget password|password recovery|password vergessen)\b"),
-    ("Login / can't access account",
-     r"\b(can'?t (log ?in|sign ?in|access)|unable to (log ?in|sign ?in|access)|login (error|issue|problem|fail)|sign[- ]?in (error|issue|problem|fail)|locked out|access (denied|issue)|won'?t let me (in|log)|login\b|signin\b|wrong (account|username|email)|noted.{0,15}wrong|used (wrong|incorrect).{0,15}(email|username|account))\b"),
+     r"|\b(forget password|password recovery|password vergessen)\b"
+     r"|\b(can'?t (log ?in|sign ?in|access)|unable to (log ?in|sign ?in|access)|login (error|issue|problem|fail)|sign[- ]?in (error|issue|problem|fail)|locked out|access (denied|issue)|won'?t let me (in|log)|login\b|signin\b|wrong (account|username|email)|noted.{0,15}wrong|used (wrong|incorrect).{0,15}(email|username|account))\b"),
 
     # --- Onboarding / signup ---
     ("Early bird / invite / waitlist",

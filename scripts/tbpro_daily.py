@@ -38,12 +38,12 @@ from brand_summary import THEMES, classify, short_excerpt  # noqa: E402
 # (via macros applied and admin-defined trees), so they are more accurate than
 # regex on raw user text. Order matters: the first matching tag wins.
 TAG_THEMES = [
-    # ── Login / access (check before waitlist — these bear both macros) ──────
-    ("macro_tbpro_cantlogin_no_allowlist",  "Login / Access — not on allowlist yet"),
-    ("macro_tbpro_sumo_redirect",           "Login / Access — wrong product, redirected to SUMO"),
-    ("macro_tbpro_email_lookup",            "Login / Access — email lookup required"),
-    ("tbpro_hub_accounts_login_trouble",    "Login / Access — Account Hub trouble"),
-    ("tbpro_hub_what_recover",              "Login / Access — account recovery"),
+    # ── Account access issues (login + password reset = same journey) ────────
+    ("macro_tbpro_cantlogin_no_allowlist",  "Account access issues — not on allowlist yet"),
+    ("macro_tbpro_sumo_redirect",           "Account access issues — wrong product, redirected to SUMO"),
+    ("macro_tbpro_email_lookup",            "Account access issues — email lookup required"),
+    ("tbpro_hub_accounts_login_trouble",    "Account access issues — Account Hub trouble"),
+    ("tbpro_hub_what_recover",              "Account access issues — account recovery"),
 
     # ── Pricing & plans ──────────────────────────────────────────────────────
     ("macro_tbpro_no_free_monthly",         "Pricing — wanted free / monthly plan"),
