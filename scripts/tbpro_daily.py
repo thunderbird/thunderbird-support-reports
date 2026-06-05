@@ -916,9 +916,17 @@ def render_md(d, subdomain="tbpro", public=False):
             for e in _today_entries:
                 src = e.get("source", "Community")
                 qs = e.get("questions") or []
-                o.append(f"**{src}** — {len(qs)} question(s):")
-                for q in qs:
-                    o.append(f"- {q}")
+                sigs = e.get("signals") or []
+                if qs:
+                    o.append(f"**{src}** — {len(qs)} question(s):")
+                    for q in qs:
+                        o.append(f"- {q}")
+                if sigs:
+                    if qs:
+                        o.append("")
+                    o.append(f"**{src}** — signals:")
+                    for s in sigs:
+                        o.append(f"- {s}")
             o.append("")
 
     # FeatureOS new ideas
@@ -1239,10 +1247,17 @@ def render_html(d, subdomain="tbpro", public=False):
             for e in _today2:
                 src = _h(e.get("source", "Community"))
                 qs = e.get("questions") or []
-                p.append(f'<h3>{src} &mdash; {len(qs)} question(s)</h3>\n<ul class="report-list">\n')
-                for q in qs:
-                    p.append(f'<li>{_h(q)}</li>\n')
-                p.append('</ul>\n')
+                sigs = e.get("signals") or []
+                if qs:
+                    p.append(f'<h3>{src} &mdash; {len(qs)} question(s)</h3>\n<ul class="report-list">\n')
+                    for q in qs:
+                        p.append(f'<li>{_h(q)}</li>\n')
+                    p.append('</ul>\n')
+                if sigs:
+                    p.append(f'<h3>{src} &mdash; signals</h3>\n<ul class="report-list">\n')
+                    for s in sigs:
+                        p.append(f'<li>{_h(s)}</li>\n')
+                    p.append('</ul>\n')
 
     # --- FeatureOS ideas ---
     p.append('<h2>&#128161; FeatureOS Ideas</h2>\n')
