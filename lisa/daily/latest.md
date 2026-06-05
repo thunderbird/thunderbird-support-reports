@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-04
 
-_Updated: **2026-06-04 21:20 ET** · refreshes hourly_  
+_Updated: **2026-06-04 23:23 ET** · refreshes hourly_  
 _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## At a glance
@@ -8,7 +8,7 @@ _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-0
 - **14** new tickets in last 24h · **5** solved in last 24h
 - **16** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: —  (0 good / 0 bad)
+- **CSAT (since launch)**: 100%  (1 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
 
 ## Known problems — 1 problem(s), 2 incident(s)
@@ -17,7 +17,7 @@ _24h window: 2026-06-03T16:00 → 2026-06-04T16:00 ET · Flight 2 launch: 2026-0
 - ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
 - 2 incident(s):
   - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [pending] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
+  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [open] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
 
@@ -46,8 +46,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 10
-- **pending**: 4
-- **open**: 2
+- **open**: 4
+- **pending**: 2
 
 ## Service (cumulative)
 
@@ -59,8 +59,8 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 4
-- **telling us** + **n/a**: 2
 - **curious** + **informed**: 2
+- **telling us** + **n/a**: 2
 - **blocked** + **investigated**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
@@ -72,6 +72,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 6 tickets
 
+- **[#6029](https://tbpro.zendesk.com/agent/tickets/6029)** · Webmail — why: **curious** · how: **informed**
+  > Hi, Do you offer webmail also ? I am more interested in webmail
 - **[#6060](https://tbpro.zendesk.com/agent/tickets/6060)** · Monthly Subscription — why: **curious** · how: **explained**
   > Hello, I want to try out for a month before annual commitment. Please advise how to do a monthly subscription. Thanks,
 - **[#6055](https://tbpro.zendesk.com/agent/tickets/6055)** · request (6054) [MVVN3J-VW1DV] is working now, forget my previous mail.  — why: **telling us** · how: **n/a**
@@ -80,8 +82,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Currently on Thunderbird (at least on Android), Thundermail is still based on polling. I wish a real push service can be implemented, preferably using WNS on Windows and FCM (and…
 - **[#6037](https://tbpro.zendesk.com/agent/tickets/6037)** · tb pro product documentation available? — why: **curious** · how: **informed**
   > I am interested in Thunderbird Pro, but hesitating to pay $72 before I'm sure what features are available that would make it a fit for me. For example, I have questions about…
-- **[#6029](https://tbpro.zendesk.com/agent/tickets/6029)** · Webmail — why: **curious** · how: **informed**
-  > Hi, Do you offer webmail also ? I am more interested in webmail
 - **[#6028](https://tbpro.zendesk.com/agent/tickets/6028)** · Thundermail Pro — why: **curious** · how: **explained**
   > I would love to try Thunderbird Pro, but $72.00 for a year is pretty steep for me. Is there any way to be billed monthly or perhaps a promo code to make it an annual sub a little…
 
@@ -123,7 +123,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6027](https://tbpro.zendesk.com/agent/tickets/6027) · [solved] · 2026-06-03T21:48 · You're Invited: Thundermail Early Bird Access message to me
 - [6028](https://tbpro.zendesk.com/agent/tickets/6028) · [solved] · 2026-06-03T22:43 · Thundermail Pro
-- [6029](https://tbpro.zendesk.com/agent/tickets/6029) · [pending] · 2026-06-03T23:11 · Webmail
+- [6029](https://tbpro.zendesk.com/agent/tickets/6029) · [open] · 2026-06-03T23:11 · Webmail
 - [6032](https://tbpro.zendesk.com/agent/tickets/6032) · [open] · 2026-06-04T01:55 · Change default email account to [domain]
 - [6036](https://tbpro.zendesk.com/agent/tickets/6036) · [solved] · 2026-06-04T09:05 · Kunnen het niet instaleren op mijn tablet  hij kent deserve niet
 - [6037](https://tbpro.zendesk.com/agent/tickets/6037) · [pending] · 2026-06-04T09:06 · tb pro product documentation available?
