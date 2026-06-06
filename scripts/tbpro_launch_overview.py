@@ -310,33 +310,34 @@ def render(data):
             f'{i["repo"].split("/")[1]}#{i["number"]}</a>'
             for i in issues
         )
+        status = t.get("status","")
         return (
-            f"<tr>"
-            f"<td><a href='https://{sub}.zendesk.com/agent/tickets/{tid}' target='_blank' style='color:var(--accent)'>#{tid}</a>"
+            f"<tr title='Status: {status}'>"
+            f"<td><a href='https://{sub}.zendesk.com/agent/tickets/{tid}' target='_blank' style='color:{sc}'>#{tid}</a>"
             f"{(' &nbsp;' + issue_links) if issue_links else ''}</td>"
             f"<td style='font-size:.8rem'>{t.get('subject','')[:70]}</td>"
-            f"<td style='font-size:.78rem;color:{sc}'>{t.get('status','')}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{t.get('created_at','')[:10]}</td>"
             f"</tr>\n"
         )
 
-    gh_sorted = sorted(data["gh_tickets"], key=lambda x: x["created_at"], reverse=True)
-    gh_open   = [t for t in gh_sorted if t.get("status") != "solved"]
-    gh_solved = [t for t in gh_sorted if t.get("status") == "solved"]
+    gh_sorted  = sorted(data["gh_tickets"], key=lambda x: x["created_at"], reverse=True)
+    gh_open    = [t for t in gh_sorted if t.get("status") not in ("solved", "closed")]
+    gh_done    = ([t for t in gh_sorted if t.get("status") == "solved"] +
+                  [t for t in gh_sorted if t.get("status") == "closed"])
 
-    gh_open_rows   = "".join(gh_row(t) for t in gh_open) or "<tr><td colspan='4' style='color:var(--muted)'>None</td></tr>"
-    gh_solved_rows = "".join(gh_row(t) for t in gh_solved)
+    gh_open_rows = "".join(gh_row(t) for t in gh_open) or "<tr><td colspan='3' style='color:var(--muted)'>None</td></tr>"
+    gh_done_rows = "".join(gh_row(t) for t in gh_done)
 
     gh_solved_block = ""
-    if gh_solved:
+    if gh_done:
         gh_solved_block = (
-            f"<tr><td colspan='4' style='padding:0'>"
+            f"<tr><td colspan='3' style='padding:0'>"
             f"<details style='padding:.5rem .65rem'>"
             f"<summary style='cursor:pointer;font-size:.78rem;color:var(--muted);list-style:none'>"
-            f"▶ {len(gh_solved)} solved ticket(s) — click to expand"
+            f"▶ {len(gh_done)} solved / closed ticket(s) — click to expand"
             f"</summary>"
             f"<table style='width:100%;margin-top:.5rem'>"
-            f"<tbody>{gh_solved_rows}</tbody>"
+            f"<tbody>{gh_done_rows}</tbody>"
             f"</table>"
             f"</details>"
             f"</td></tr>"
@@ -527,7 +528,7 @@ def render(data):
   <h3>Tickets linked to GitHub — {len(data['gh_tickets'])} of {total} ({round(len(data['gh_tickets'])/total*100) if total else 0}%)</h3>
   <p style="font-size:.8rem;color:var(--muted);margin-bottom:.75rem">Tickets tagged <code>zd-gh</code> — linked to a GitHub issue in the thunderbird org via gz# marker.</p>
   <table>
-    <thead><tr><th>Ticket</th><th>Subject</th><th>Status</th><th>Created</th></tr></thead>
+    <thead><tr><th>Ticket</th><th>Subject</th><th>Created</th></tr></thead>
     <tbody>{gh_rows if gh_rows else "<tr><td colspan='4' style='color:var(--muted)'>None</td></tr>"}</tbody>
   </table>
 </div>
