@@ -43,9 +43,10 @@ jobs:
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
           export FEATUREOS_API_KEY="$(printf '%s' "$FEATUREOS_API_KEY" | tr -d ' \t\r\n')"
           export FEATUREOS_JWT="$(printf '%s' "$FEATUREOS_JWT" | tr -d ' \t\r\n')"
-          # Pass last Sunday so the run covers the full Mon–Sun week
-          LAST_SUNDAY=$(date -d 'last sunday' +%Y-%m-%d 2>/dev/null || python3 -c "import datetime; d=datetime.date.today(); print(d - datetime.timedelta(days=(d.weekday()+1)%7))")
-          python3 scripts/tbpro_weekly.py --public --week-end "$LAST_SUNDAY" --out-dir reports/tbpro/weekly
+          # Pass today — week_bounds floors the start at LAUNCH_DATE so this
+          # always covers launch → today, not the prior Mon–Sun calendar week.
+          TODAY=$(date +%Y-%m-%d)
+          python3 scripts/tbpro_weekly.py --public --week-end "$TODAY" --out-dir reports/tbpro/weekly
 
       - name: Commit and push
         run: |

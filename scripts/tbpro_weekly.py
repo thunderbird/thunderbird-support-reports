@@ -62,19 +62,18 @@ WEEKLY_THEME_ROLLUP = {
 # ── Date helpers ──────────────────────────────────────────────────────────────
 
 def week_bounds(anchor: dt.date):
-    """Return (week_start_monday, week_end, window_start_utc, window_end_utc).
+    """Return (week_start, week_end, window_start_utc, window_end_utc).
 
-    Window = Mon of anchor's ISO week → anchor (inclusive).
-    Pass any date to get that week's data:
-      - today mid-week  →  current in-progress week (Mon → today)
-      - last Sunday     →  prior completed week (Mon → Sun)
-    The scheduled workflow passes last Sunday explicitly so the Friday
-    run always covers a full Mon–Sun week.
+    week_start is the Monday of anchor's ISO week, floored at LAUNCH_DATE
+    so the first weekly always starts from when the flight launched,
+    not from the prior Monday.
     """
     week_start_monday = anchor - dt.timedelta(days=anchor.weekday())  # Mon=0
-    start_utc = dt.datetime.combine(week_start_monday, dt.time(0, 0, 0),   tzinfo=ET).astimezone(UTC)
-    end_utc   = dt.datetime.combine(anchor,            dt.time(23, 59, 59), tzinfo=ET).astimezone(UTC)
-    return week_start_monday, anchor, start_utc, end_utc
+    launch = dt.date.fromisoformat(daily.LAUNCH_DATE)
+    week_start = max(week_start_monday, launch)
+    start_utc = dt.datetime.combine(week_start, dt.time(0, 0, 0),   tzinfo=ET).astimezone(UTC)
+    end_utc   = dt.datetime.combine(anchor,     dt.time(23, 59, 59), tzinfo=ET).astimezone(UTC)
+    return week_start, anchor, start_utc, end_utc
 
 
 # ── Blocker assessment ────────────────────────────────────────────────────────
