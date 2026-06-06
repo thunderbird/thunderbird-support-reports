@@ -140,7 +140,8 @@ def fetch_ideas():
     OMIT_STATUSES = {"Off-topic", "By design"}
     filtered = [p for p in posts
                 if (p.get("custom_status") or {}).get("title", p.get("status","")) not in OMIT_STATUSES]
-    filtered.sort(key=lambda p: p.get("votes_count", 0), reverse=True)
+    # Sort by combined votes + comments score
+    filtered.sort(key=lambda p: p.get("votes_count", 0) + p.get("comments_count", 0), reverse=True)
     return filtered[:10]
 
 
@@ -282,12 +283,19 @@ def render(data):
         _sorted_tags = sorted(_all_tags, key=lambda x: (0 if x in _product_tags else 1, x))
         tags = ", ".join(_sorted_tags)[:50] or "—"
         status = (p.get("custom_status") or {}).get("title") or p.get("status","")
+        votes = p.get("votes_count", 0)
+        comments = p.get("comments_count", 0)
+        score = votes + comments
+        # Flag when discussion outpaces votes — hidden demand signal
+        hot = comments > votes
+        hot_badge = " <span title='Comments exceed votes — high discussion signal' style='color:var(--orange);font-size:.7rem'>🔥</span>" if hot else ""
         idea_rows += (
             f"<tr><td class='num muted'>{i}</td>"
-            f"<td class='num'><strong>{p.get('votes_count',0)}</strong></td>"
+            f"<td class='num'><strong>{votes}</strong></td>"
+            f"<td class='num' style='color:var(--muted)'>{comments}</td>"
+            f"<td class='num' style='font-weight:600'>{score}</td>"
             f"<td><a href='{p.get('url','')}' target='_blank' style='color:var(--accent)'>"
-            f"{p.get('title','')[:70]}</a></td>"
-            f"<td style='font-size:.75rem;color:var(--muted)'>{p.get('created_at','')[:10]}</td>"
+            f"{p.get('title','')[:65]}</a>{hot_badge}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{tags}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{status}</td></tr>\n"
         )
@@ -432,6 +440,11 @@ def render(data):
     <div class="value">{len(data['ideas'])}</div>
     <div class="sub">on FeatureOS since May 4</div>
   </div>
+  <div class="card orange">
+    <div class="label">GitHub Escalation Rate</div>
+    <div class="value">{round(len(data['gh_tickets'])/total*100) if total else 0}%</div>
+    <div class="sub">{len(data['gh_tickets'])} of {total} tickets linked to a GitHub issue</div>
+  </div>
 </div>
 
 <div class="callout">
@@ -491,9 +504,9 @@ def render(data):
 </div>
 
 <div class="box">
-  <h3>Top 10 ideas — all time, by votes</h3>
+  <h3>Top 10 ideas — all time, sorted by votes + comments · 🔥 = comments exceed votes (high-discussion signal)</h3>
   <table>
-    <thead><tr><th class="num">#</th><th class="num">Votes</th><th>Idea</th><th>Created</th><th>Tags</th><th>Status</th></tr></thead>
+    <thead><tr><th class="num">#</th><th class="num">Votes</th><th class="num">Comments</th><th class="num">Score</th><th>Idea</th><th>Tags</th><th>Status</th></tr></thead>
     <tbody>{idea_rows if idea_rows else "<tr><td colspan='6' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
   </table>
 </div>
