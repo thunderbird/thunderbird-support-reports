@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-06
 
-_Updated: **2026-06-06 03:19 ET** · refreshes hourly_  
+_Updated: **2026-06-06 05:04 ET** · refreshes hourly_  
 _24h window: 2026-06-05T16:00 → 2026-06-06T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 4** of rollout — **2,000 invitees**, **22 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
+Flight 2 is **day 4** of rollout — **2,000 invitees**, **23 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
-- **22** tickets total since launch · contact rate **1%** of 2000 invitees
+- **2** new tickets in last 24h · **0** solved in last 24h
+- **23** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (2 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -45,12 +45,12 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 12
-- **open**: 5
+- **open**: 6
 - **pending**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 16
+- **Thundermail**: 17
 - **Send**: 1
 - **Appointment**: 1
 - **Account Hub**: 1
@@ -71,6 +71,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#6094](https://tbpro.zendesk.com/agent/tickets/6094)** · Email alias
+  > I signed up for thundermail, and created email aliases. But I cannot send mail through an alias. Is this normal, or am I missing something? If it is possible to do this, how to do…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#6092](https://tbpro.zendesk.com/agent/tickets/6092)** · アカウント作成が完了しません
@@ -79,6 +84,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6092](https://tbpro.zendesk.com/agent/tickets/6092) · [open] · 2026-06-06T00:40 · アカウント作成が完了しません
+- [6094](https://tbpro.zendesk.com/agent/tickets/6094) · [open] · 2026-06-06T07:24 · Email alias
 
 ## Solved — last 24h
 
