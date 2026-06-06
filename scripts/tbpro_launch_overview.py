@@ -440,10 +440,19 @@ def render(data):
   </table>
 </div>
 
+<h2 style="margin-top:2rem">Definitions</h2>
+<div class="box" style="font-size:.85rem;line-height:1.8">
+  <p><strong>AHT (Average Handle Time)</strong> — calendar time from ticket creation to resolution (solved status). Median is used rather than mean to reduce the effect of outliers (e.g. tickets that sat open over a weekend). Based on {aht.get("n","—")} solved tickets.</p>
+  <p style="margin-top:.6rem"><strong>First Reply Time</strong> — calendar time from ticket creation to the agent's first response.</p>
+  <p style="margin-top:.6rem"><strong>Contact Rate</strong> — percentage of invitees who opened a support ticket. Calculated as: tickets ÷ invitees in that wave. A lower contact rate indicates a smoother onboarding experience.</p>
+  <p style="margin-top:.6rem"><strong>Day-2 Peak</strong> — historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</p>
+  <p style="margin-top:.6rem"><strong>Misdirected — wrong product / non-subscriber</strong> — tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect subscriber support demand.</p>
+  <p style="margin-top:.6rem"><strong>Cumulative contact rate</strong> — running total of tickets divided by total invitees sent at that point in time. Drops sharply when a large new invite wave goes out (more invitees, same tickets).</p>
+</div>
+
 <div class="footer">
   Data: Zendesk (Thunderbird Pro brand) · FeatureOS board {FEATUREOS_BOARD_ID} · May 4, 2026 → {data["today"]} ·
-  Excludes: closed_by_merge, test tickets, agent-created, known infrastructure tickets.
-  AHT based on {aht.get("n","—")} solved tickets (calendar time). PII-redacted.
+  Excludes: closed_by_merge, test tickets, agent-created, known infrastructure tickets. PII-redacted.
   &nbsp;·&nbsp; <a href="latest.html" style="color:var(--accent)">→ Flight 2 live report</a>
 </div>
 
