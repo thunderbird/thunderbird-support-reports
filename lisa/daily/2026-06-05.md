@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-05
 
-_Updated: **2026-06-05 19:38 ET** · refreshes hourly_  
+_Updated: **2026-06-05 21:14 ET** · refreshes hourly_  
 _24h window: 2026-06-04T16:00 → 2026-06-05T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 3** of rollout — **2,000 invitees**, **21 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
+Flight 2 is **day 3** of rollout — **2,000 invitees**, **22 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **8** solved in last 24h
-- **21** tickets total since launch · contact rate **1%** of 2000 invitees
+- **22** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (2 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -51,9 +51,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 12
+- **open**: 5
 - **pending**: 5
-- **open**: 3
-- **hold**: 1
 
 ## Service (cumulative)
 
@@ -80,10 +79,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account access issues — 2 tickets
 
-- **[#6077](https://tbpro.zendesk.com/agent/tickets/6077)** · TB pro question — why: **curious** · how: **explained**
-  > I got the invite for the early bird, and when I read about the account it's not really clear to me what **15** Email Addresses **3** Custom Domains means in this context. Is it so…
 - **[#6068](https://tbpro.zendesk.com/agent/tickets/6068)** · Password Change email received into wrong account inbox
   > Went to [domain] on desktop web browser. Clicked on Sign In. Clicked on "Forgot your password?" and provided my primary Thundermail address then Submit. Message on page indicated…
+- **[#6077](https://tbpro.zendesk.com/agent/tickets/6077)** · TB pro question — why: **curious** · how: **explained**
+  > I got the invite for the early bird, and when I read about the account it's not really clear to me what **15** Email Addresses **3** Custom Domains means in this context. Is it so…
 
 ### Send (file sharing) — 1 tickets
 
@@ -114,7 +113,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6063](https://tbpro.zendesk.com/agent/tickets/6063) · [pending] · 2026-06-04T22:40 · CNAME Records
 - [6066](https://tbpro.zendesk.com/agent/tickets/6066) · [open] · 2026-06-05T04:24 · Send Storage shows space being used, but there are no files in Thunderbird Send.
-- [6068](https://tbpro.zendesk.com/agent/tickets/6068) · [hold] · 2026-06-05T05:36 · Password Change email received into wrong account inbox
+- [6068](https://tbpro.zendesk.com/agent/tickets/6068) · [open] · 2026-06-05T05:36 · Password Change email received into wrong account inbox
 - [6072](https://tbpro.zendesk.com/agent/tickets/6072) · [solved] · 2026-06-05T08:40 · I received early bird invite
 - [6077](https://tbpro.zendesk.com/agent/tickets/6077) · [pending] · 2026-06-05T11:30 · TB pro question
 - [6078](https://tbpro.zendesk.com/agent/tickets/6078) · [solved] · 2026-06-05T12:29 · Send as
