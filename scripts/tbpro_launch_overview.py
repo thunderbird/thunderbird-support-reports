@@ -125,8 +125,8 @@ def fetch_aht(auth, sub, tickets, sample=60):
 # ── FeatureOS ─────────────────────────────────────────────────────────────────
 
 def fetch_ideas():
-    """Top 10 all-time ideas by vote count, using custom status labels. Omits off-topic/by design."""
-    q = f"board_id={FEATUREOS_BOARD_ID}&sort=votes_count&order=desc&per_page=25&status=all"
+    """Top 10 all-time ideas by vote count. CLI sort param is unreliable — sort client-side."""
+    q = f"board_id={FEATUREOS_BOARD_ID}&per_page=100&status=all"
     try:
         proc = subprocess.run(
             ["featureos-cli", "posts", "list", "--query", q, "--json"],
@@ -139,6 +139,7 @@ def fetch_ideas():
     OMIT_STATUSES = {"Off-topic", "By design"}
     filtered = [p for p in posts
                 if (p.get("custom_status") or {}).get("title", p.get("status","")) not in OMIT_STATUSES]
+    filtered.sort(key=lambda p: p.get("votes_count", 0), reverse=True)
     return filtered[:10]
 
 
