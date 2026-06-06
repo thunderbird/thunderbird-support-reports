@@ -275,7 +275,10 @@ def render(data):
     # Ideas table rows
     idea_rows = ""
     for i, p in enumerate(data["ideas"], 1):
-        tags = ", ".join(t.get("name","") for t in (p.get("tags") or []))[:40] or "—"
+        _product_tags = {"Thundermail", "Appointment", "Send"}
+        _all_tags = [t.get("name","") for t in (p.get("tags") or []) if t.get("name")]
+        _sorted_tags = sorted(_all_tags, key=lambda x: (0 if x in _product_tags else 1, x))
+        tags = ", ".join(_sorted_tags)[:50] or "—"
         status = (p.get("custom_status") or {}).get("title") or p.get("status","")
         idea_rows += (
             f"<tr><td class='num muted'>{i}</td>"
