@@ -508,9 +508,18 @@ def render(data):
 
 <div class="box">
   <h3>Top 10 ideas — all time, sorted by votes + comments · 🔥 = comments exceed votes (high-discussion signal)</h3>
-  <table>
-    <thead><tr><th class="num">#</th><th class="num">Votes</th><th class="num">Comments</th><th class="num">Score</th><th>Idea</th><th>Tags</th><th>Status</th></tr></thead>
-    <tbody>{idea_rows if idea_rows else "<tr><td colspan='6' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
+  <p style="font-size:.72rem;color:var(--muted);margin-bottom:.6rem">Click a column header to sort.</p>
+  <table id="ideasTable">
+    <thead><tr>
+      <th class="num sortable" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer"># ↕</th>
+      <th class="num sortable" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer">Votes ↕</th>
+      <th class="num sortable" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer">Comments ↕</th>
+      <th class="num sortable" onclick="sortTable('ideasTable',3,'num')" style="cursor:pointer">Score ↕</th>
+      <th onclick="sortTable('ideasTable',4,'str')" style="cursor:pointer">Idea ↕</th>
+      <th>Tags</th>
+      <th onclick="sortTable('ideasTable',6,'str')" style="cursor:pointer">Status ↕</th>
+    </tr></thead>
+    <tbody>{idea_rows if idea_rows else "<tr><td colspan='7' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
   </table>
 </div>
 
@@ -600,6 +609,24 @@ new Chart(document.getElementById('rateChart'), {{
     }}
   }}
 }});
+
+function sortTable(tableId, colIdx, type) {{
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  const rows  = Array.from(tbody.querySelectorAll('tr'));
+  const dir   = table.dataset.sortCol == colIdx && table.dataset.sortDir == 'asc' ? 'desc' : 'asc';
+  table.dataset.sortCol = colIdx;
+  table.dataset.sortDir = dir;
+  rows.sort((a, b) => {{
+    const av = a.cells[colIdx]?.innerText.trim() || '';
+    const bv = b.cells[colIdx]?.innerText.trim() || '';
+    const cmp = type === 'num'
+      ? (parseFloat(av.replace(/[^0-9.-]/g,'')) || 0) - (parseFloat(bv.replace(/[^0-9.-]/g,'')) || 0)
+      : av.localeCompare(bv);
+    return dir === 'asc' ? cmp : -cmp;
+  }});
+  rows.forEach(r => tbody.appendChild(r));
+}}
 </script>
 </body>
 </html>"""
