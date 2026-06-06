@@ -406,7 +406,10 @@ def render(data):
 </style>
 </head>
 <body>
-<h1>Thundermail — Full Launch Overview</h1>
+<div style="display:flex;align-items:center;gap:1rem;margin-bottom:.25rem">
+  <img src="https://tb.pro/media/img/thunderbird/thunderbird-256.png" alt="Thunderbird" style="width:48px;height:48px">
+  <h1>Thundermail — Full Launch Overview</h1>
+</div>
 <p class="subtitle">Early Bird (May 4, 2026) → {data["today"]} &nbsp;·&nbsp; {TOTAL_INVITEES:,} invitees total &nbsp;·&nbsp; Generated {gen}</p>
 
 <div class="stats">
