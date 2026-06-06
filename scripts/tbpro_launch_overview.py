@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from brand_summary import classify
+from tbpro_daily import github_zendesk_links
 
 # Tag-based classification (mirrors tbpro_daily.py TAG_THEMES)
 TAG_THEMES = [
@@ -145,7 +146,7 @@ def fetch_ideas():
 
 # ── Build data ────────────────────────────────────────────────────────────────
 
-def build(tickets, aht_mins, frt_mins, ideas):
+def build(tickets, aht_mins, frt_mins, ideas, gh_links=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -230,6 +231,7 @@ def build(tickets, aht_mins, frt_mins, ideas):
         "themes": dict(theme_counts.most_common(12)),
         "ideas": ideas,
         "gh_tickets": gh_tickets,
+        "gh_links": gh_links or {},
         "today": today.isoformat(),
     }
 
@@ -294,9 +296,16 @@ def render(data):
     def gh_row(t, sub="tbpro"):
         sc = {"solved": "var(--green)", "open": "var(--accent)", "pending": "var(--orange)"}.get(t.get("status",""), "var(--muted)")
         tid = t["id"]
+        issues = data.get("gh_links", {}).get(tid, [])
+        issue_links = " ".join(
+            f'<a href="{i["url"]}" target="_blank" style="color:var(--muted);font-size:.75rem">'
+            f'{i["repo"].split("/")[1]}#{i["number"]}</a>'
+            for i in issues
+        )
         return (
             f"<tr>"
-            f"<td><a href='https://{sub}.zendesk.com/agent/tickets/{tid}' target='_blank' style='color:var(--accent)'>#{tid}</a></td>"
+            f"<td><a href='https://{sub}.zendesk.com/agent/tickets/{tid}' target='_blank' style='color:var(--accent)'>#{tid}</a>"
+            f"{(' &nbsp;' + issue_links) if issue_links else ''}</td>"
             f"<td style='font-size:.8rem'>{t.get('subject','')[:70]}</td>"
             f"<td style='font-size:.78rem;color:{sc}'>{t.get('status','')}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{t.get('created_at','')[:10]}</td>"
@@ -598,7 +607,11 @@ def main():
     ideas = fetch_ideas()
     print(f"  {len(ideas)} ideas since launch", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas)
+    print("Fetching GitHub issue links…", file=sys.stderr)
+    gh_links = github_zendesk_links()
+    print(f"  {sum(len(v) for v in gh_links.values())} GitHub links across {len(gh_links)} tickets", file=sys.stderr)
+
+    data = build(tickets, aht_mins, frt_mins, ideas, gh_links)
     html = render(data)
 
     out = Path(args.out)
