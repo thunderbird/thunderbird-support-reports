@@ -598,7 +598,9 @@ new Chart(document.getElementById('rateChart'), {{
     datasets: [{{
       label: 'Cumulative contact rate (%)', data: cumContact,
       borderColor: '#22c55e', backgroundColor: '#22c55e20',
-      fill: true, tension: 0.3, pointRadius: 0, borderWidth: 2,
+      fill: true, tension: 0.3, pointRadius: 0, pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#22c55e', pointHoverBorderColor: '#fff',
+      borderWidth: 2,
     }}]
   }},
   options: {{
