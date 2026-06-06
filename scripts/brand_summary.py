@@ -73,10 +73,15 @@ THEMES = [
 
     # --- Auth / access (merged: password reset + login issues = same journey) ---
     ("Account access issues",
-     r"\b(forgot|reset|recover|recovery|cannot remember|don'?t remember|new password|neues passwort|olvid|passwort vergessen|mot de passe oubli)\b.*\bpassword\b"
+     r"\b(forgot|reset|recover|recovery|cannot remember|don'?t remember|new password|neues passwort|olvid|passwort vergessen|mot de passe oubli|recupero password|neues passwort|mot de passe)\b.*\bpassword\b"
      r"|\bpassword\b.*\b(forgot|reset|recover|recovery|reset link)\b"
      r"|\b(forget password|password recovery|password vergessen)\b"
-     r"|\b(can'?t (log ?in|sign ?in|access)|unable to (log ?in|sign ?in|access)|login (error|issue|problem|fail)|sign[- ]?in (error|issue|problem|fail)|locked out|access (denied|issue)|won'?t let me (in|log)|login\b|signin\b|wrong (account|username|email)|noted.{0,15}wrong|used (wrong|incorrect).{0,15}(email|username|account))\b"),
+     r"|\b(can'?t (log ?in|sign ?in|access)|unable to (log ?in|sign ?in|access)|login (error|issue|problem|fail)|sign[- ]?in (error|issue|problem|fail)|locked out|access (denied|issue)|won'?t let me (in|log)|login\b|signin\b|wrong (account|username|email)|noted.{0,15}wrong|used (wrong|incorrect).{0,15}(email|username|account))\b"
+     r"|\b(verif(y|ication|ying).{0,20}(account|email|code)|confirm(ation)?.{0,20}(email|code|link)|confirmation mail|verify account|account verif|not receiv.{0,20}(confirm|verif|code)|auth.{0,10}code|inloggning|cant.*authenticat|nicht authentifizier)\b"),
+
+    # --- Email migration from another provider ---
+    ("Email migration / import",
+     r"\b(mov(e|ing) (my |from ).{0,30}(email|mail|account)|migrat.{0,20}(email|mail|account)|import.{0,20}from (office|outlook|gmail|yahoo|icloud|O365|365)|switch(ing)? (from|to).{0,20}(thundermail|email provider)|transfer.{0,20}email|past email|old email|previous (provider|account))\b"),
 
     # --- Onboarding / signup ---
     ("Early bird / invite / waitlist",

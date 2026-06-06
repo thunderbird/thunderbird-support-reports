@@ -3,183 +3,254 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thundermail — Launch Overview · Early Bird → Today</title>
+<title>Thundermail — Launch Overview</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/3.0.1/chartjs-plugin-annotation.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg:#0f1117;--surface:#1a1d27;--border:#2a2d3a;
-    --text:#e2e8f0;--muted:#94a3b8;--accent:#6366f1;
-    --green:#22c55e;--red:#ef4444;--orange:#f97316;
-  }
+  :root{--bg:#0f1117;--surface:#1a1d27;--border:#2a2d3a;--text:#e2e8f0;--muted:#94a3b8;--accent:#6366f1;--green:#22c55e;--red:#ef4444;--orange:#f97316;}
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;padding:2rem;max-width:1100px;margin:0 auto}
   h1{font-size:1.5rem;margin-bottom:.25rem}
+  h2{font-size:1rem;font-weight:600;margin:2rem 0 1rem;color:var(--text)}
   .subtitle{color:var(--muted);font-size:.85rem;margin-bottom:2rem}
-  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-bottom:2rem}
-  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.25rem;border-top:3px solid var(--accent)}
-  .card .label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem}
-  .card .value{font-size:1.8rem;font-weight:700}
-  .card .sub{font-size:.78rem;color:var(--muted);margin-top:.2rem}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin-bottom:2rem}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.1rem;border-top:3px solid var(--accent)}
+  .card.green{border-top-color:var(--green)} .card.orange{border-top-color:var(--orange)} .card.red{border-top-color:var(--red)}
+  .card .label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.3rem}
+  .card .value{font-size:1.6rem;font-weight:700}
+  .card .sub{font-size:.75rem;color:var(--muted);margin-top:.2rem}
   .box{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:1.5rem}
-  .box h2{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem}
-  canvas{max-height:320px}
-  table{width:100%;border-collapse:collapse;font-size:.875rem}
-  th{text-align:left;color:var(--muted);font-weight:500;padding:.5rem .75rem;border-bottom:1px solid var(--border);font-size:.75rem;text-transform:uppercase}
-  td{padding:.55rem .75rem;border-bottom:1px solid var(--border)}
+  .box h3{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem}
+  canvas{max-height:280px}
+  table{width:100%;border-collapse:collapse;font-size:.85rem}
+  th{text-align:left;color:var(--muted);font-weight:500;padding:.45rem .65rem;border-bottom:1px solid var(--border);font-size:.73rem;text-transform:uppercase}
+  td{padding:.5rem .65rem;border-bottom:1px solid var(--border)}
   tr:last-child td{border-bottom:none}
   .num{text-align:right;font-variant-numeric:tabular-nums}
-  .legend{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1.5rem}
-  .legend-item{display:flex;align-items:center;gap:.4rem;font-size:.8rem;color:var(--muted)}
+  .muted{color:var(--muted)}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+  .legend{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:1rem}
+  .legend-item{display:flex;align-items:center;gap:.4rem;font-size:.78rem;color:var(--muted)}
   .legend-dot{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+  .callout{background:#1a2333;border:1px solid #2d3a5a;border-left:4px solid var(--accent);border-radius:8px;padding:.9rem 1.1rem;margin-bottom:1.5rem;font-size:.88rem;line-height:1.7}
+  .callout strong{color:var(--text)}
   .footer{margin-top:2rem;font-size:.72rem;color:var(--muted);border-top:1px solid var(--border);padding-top:1rem}
+  @media(max-width:700px){.two-col{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<h1>Thundermail — Launch Overview</h1>
-<p class="subtitle">Early Bird (May 4) → today (2026-06-06) &nbsp;·&nbsp; Generated 2026-06-06 17:50 ET &nbsp;·&nbsp; PII-redacted</p>
+<h1>Thundermail — Full Launch Overview</h1>
+<p class="subtitle">Early Bird (May 4, 2026) → 2026-06-06 &nbsp;·&nbsp; 2,600 invitees total &nbsp;·&nbsp; Generated 2026-06-06 17:57 ET</p>
 
 <div class="stats">
   <div class="card">
     <div class="label">Total Tickets</div>
     <div class="value">116</div>
-    <div class="sub">since May 4, 2026</div>
+    <div class="sub">since Early Bird launch</div>
   </div>
   <div class="card">
-    <div class="label">Total Invitees</div>
-    <div class="value">2,066</div>
-    <div class="sub">Early Bird + Flight 2</div>
+    <div class="label">Overall Contact Rate</div>
+    <div class="value">4.5%</div>
+    <div class="sub">116 tickets / 2,600 invitees</div>
+  </div>
+  <div class="card green">
+    <div class="label">Flight 2 Rate</div>
+    <div class="value">0.95%</div>
+    <div class="sub">avg contact rate, Waves 1+2</div>
+  </div>
+  <div class="card orange">
+    <div class="label">Median AHT</div>
+    <div class="value">33.2h</div>
+    <div class="sub">calendar time to resolve</div>
   </div>
   <div class="card">
-    <div class="label">Contact Rate</div>
-    <div class="value">5.6%</div>
-    <div class="sub">tickets / invitees</div>
+    <div class="label">Median First Reply</div>
+    <div class="value">260 min</div>
+    <div class="sub">to initial response</div>
   </div>
+  <div class="card">
+    <div class="label">Ideas Since Launch</div>
+    <div class="value">21</div>
+    <div class="sub">on FeatureOS since May 4</div>
+  </div>
+</div>
+
+<div class="callout">
+  <strong>Capacity projection (0.95% contact rate · 40% of weekly tickets land on day 2):</strong><br>
+  At Flight 2 rates, every 1,000 new invites generates ~10 support tickets,
+  with a day-2 peak of ~4 tickets.
+  Median resolution: 33.2h per ticket.
 </div>
 
 <div class="legend">
-  <div class="legend-item"><div class="legend-dot" style="background:#6366f1"></div>Early Bird (~66 invites)</div><div class="legend-item"><div class="legend-dot" style="background:#f97316"></div>Flight 2 Wave 1 (500)</div><div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Flight 2 Wave 2 (1,500)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#6366f1"></div>Early Bird (600)</div><div class="legend-item"><div class="legend-dot" style="background:#f97316"></div>Flight 2 Wave 1 (500)</div><div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Flight 2 Wave 2 (1,500)</div>
 </div>
 
 <div class="box">
-  <h2>Daily ticket volume</h2>
+  <h3>Daily ticket volume — invite waves marked</h3>
   <canvas id="dailyChart"></canvas>
 </div>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem">
+<div class="box">
+  <h3>Cumulative contact rate over time</h3>
+  <canvas id="rateChart"></canvas>
+</div>
+
+<div class="two-col">
   <div class="box">
-    <h2>Weekly volumes</h2>
+    <h3>Contact rate by wave</h3>
+    <table>
+      <thead><tr><th>Wave</th><th>Date</th><th class="num">Invites</th><th class="num">Tickets</th><th class="num">Rate</th></tr></thead>
+      <tbody><tr><td>Early Bird</td><td>2026-05-04</td><td class='num'>600</td><td class='num'>93</td><td class='num'>15.5%</td></tr>
+<tr><td>Flight 2 Wave 1</td><td>2026-06-03</td><td class='num'>500</td><td class='num'>3</td><td class='num'>0.6%</td></tr>
+<tr><td>Flight 2 Wave 2</td><td>2026-06-04</td><td class='num'>1,500</td><td class='num'>20</td><td class='num'>1.3%</td></tr>
+</tbody>
+    </table>
+  </div>
+  <div class="box">
+    <h3>Projection — new invite batch</h3>
+    <table>
+      <thead><tr><th class="num">Batch size</th><th class="num">Expected tickets</th><th class="num">Day-2 peak</th></tr></thead>
+      <tbody><tr><td class='num'>500</td><td class='num'>5</td><td class='num'>2/day</td></tr>
+<tr><td class='num'>1,000</td><td class='num'>10</td><td class='num'>4/day</td></tr>
+<tr><td class='num'>2,000</td><td class='num'>19</td><td class='num'>8/day</td></tr>
+<tr><td class='num'>5,000</td><td class='num'>48</td><td class='num'>19/day</td></tr>
+<tr><td class='num'>10,000</td><td class='num'>95</td><td class='num'>38/day</td></tr>
+</tbody>
+    </table>
+    <p style="font-size:.72rem;color:var(--muted);margin-top:.75rem">Based on 0.95% Flight 2 contact rate. Early Bird rate (15.5%) was higher due to onboarding friction — expect rates to decrease as product matures.</p>
+  </div>
+</div>
+
+<div class="two-col">
+  <div class="box">
+    <h3>Weekly volumes</h3>
     <table>
       <thead><tr><th>Week</th><th class="num">Tickets</th></tr></thead>
-      <tbody><tr><td>2026-05-04 → 2026-05-10</td><td class="num">38</td></tr>
-<tr><td>2026-05-11 → 2026-05-17</td><td class="num">34</td></tr>
-<tr><td>2026-05-18 → 2026-05-24</td><td class="num">16</td></tr>
-<tr><td>2026-05-25 → 2026-05-31</td><td class="num">2</td></tr>
-<tr><td>2026-06-01 → 2026-06-07</td><td class="num">26</td></tr>
+      <tbody><tr><td>2026-05-04 → 2026-05-10</td><td class='num'>38</td></tr>
+<tr><td>2026-05-11 → 2026-05-17</td><td class='num'>34</td></tr>
+<tr><td>2026-05-18 → 2026-05-24</td><td class='num'>16</td></tr>
+<tr><td>2026-05-25 → 2026-05-31</td><td class='num'>2</td></tr>
+<tr><td>2026-06-01 → 2026-06-07</td><td class='num'>26</td></tr>
 </tbody>
     </table>
   </div>
   <div class="box">
-    <h2>Theme breakdown (all tickets)</h2>
+    <h3>Theme breakdown</h3>
     <table>
-      <thead><tr><th>Theme</th><th class="num">Count</th><th style="width:80px"></th></tr></thead>
-      <tbody><tr><td>Account access issues</td><td class="num">32</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:27%"></div></td></tr>
-<tr><td>Other / uncategorized</td><td class="num">25</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:21%"></div></td></tr>
-<tr><td>Early bird / invite / waitlist</td><td class="num">15</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:12%"></div></td></tr>
-<tr><td>Custom domain / DKIM / DNS</td><td class="num">7</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:6%"></div></td></tr>
-<tr><td>Subscription / billing / refund / cancel</td><td class="num">7</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:6%"></div></td></tr>
-<tr><td>Account creation / signup confusion</td><td class="num">6</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:5%"></div></td></tr>
-<tr><td>App setup / configuration</td><td class="num">5</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:4%"></div></td></tr>
-<tr><td>Appointment / calendar</td><td class="num">3</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:2%"></div></td></tr>
-<tr><td>Aliases</td><td class="num">3</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:2%"></div></td></tr>
-<tr><td>Pricing / monthly plan / free tier</td><td class="num">2</td><td><div style="height:6px;background:#6366f1;border-radius:3px;width:1%"></div></td></tr>
+      <thead><tr><th>Theme</th><th class="num">Count</th><th class="num">%</th><th style="width:70px"></th></tr></thead>
+      <tbody><tr><td>Misdirected — wrong product / non-subscriber</td><td class='num'>36</td><td class='num muted'>31%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:31%'></div></td></tr>
+<tr><td>Account access issues</td><td class='num'>15</td><td class='num muted'>12%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:12%'></div></td></tr>
+<tr><td>Waitlist / onboarding inquiry</td><td class='num'>9</td><td class='num muted'>7%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:7%'></div></td></tr>
+<tr><td>Other / uncategorized</td><td class='num'>6</td><td class='num muted'>5%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:5%'></div></td></tr>
+<tr><td>Aliases</td><td class='num'>6</td><td class='num muted'>5%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:5%'></div></td></tr>
+<tr><td>Custom domain DNS</td><td class='num'>5</td><td class='num muted'>4%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:4%'></div></td></tr>
+<tr><td>Request or complaint</td><td class='num'>5</td><td class='num muted'>4%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:4%'></div></td></tr>
+<tr><td>Early bird / invite / waitlist</td><td class='num'>4</td><td class='num muted'>3%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:3%'></div></td></tr>
+<tr><td>App setup / configuration</td><td class='num'>3</td><td class='num muted'>2%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:2%'></div></td></tr>
+<tr><td>Subscription / billing / refund / cancel</td><td class='num'>3</td><td class='num muted'>2%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:2%'></div></td></tr>
+<tr><td>Appointment / calendar</td><td class='num'>2</td><td class='num muted'>1%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:1%'></div></td></tr>
+<tr><td>Pricing — discount inquiry</td><td class='num'>2</td><td class='num muted'>1%</td><td><div style='height:5px;background:var(--accent);border-radius:3px;width:1%'></div></td></tr>
 </tbody>
     </table>
   </div>
+</div>
+
+<div class="box">
+  <h3>All ideas since Early Bird launch — sorted by votes</h3>
+  <table>
+    <thead><tr><th class="num">#</th><th class="num">Votes</th><th>Idea</th><th>Created</th><th>Tags</th><th>Status</th></tr></thead>
+    <tbody><tr><td class='num muted'>1</td><td class='num'><strong>10</strong></td><td><a href='https://ideas.tb.pro/p/integrating-aliases-with-identities-in-thunderbird' target='_blank' style='color:var(--accent)'>Integrating aliases with identities in Thunderbird</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-10</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>2</td><td class='num'><strong>10</strong></td><td><a href='https://ideas.tb.pro/p/syncing-filters-between-thunderbird-instances' target='_blank' style='color:var(--accent)'>Syncing filters between Thunderbird instances</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-08</td><td style='font-size:.75rem;color:var(--muted)'>Accounts & Subscriptions</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>3</td><td class='num'><strong>5</strong></td><td><a href='https://ideas.tb.pro/p/feature-request-public-calendar-ics-feed-shareable-subscription-url-for-external-integration' target='_blank' style='color:var(--accent)'>**Feature Request: Public Calendar ICS Feed / Shareable Subscription U</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-21</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>4</td><td class='num'><strong>5</strong></td><td><a href='https://ideas.tb.pro/p/more-email-domains' target='_blank' style='color:var(--accent)'>More Email Domains</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-14</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>5</td><td class='num'><strong>5</strong></td><td><a href='https://ideas.tb.pro/p/native-email-forwarding-redirection-rules-no-external-services' target='_blank' style='color:var(--accent)'>native email forwarding / redirection rules (no external services)</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-06</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>6</td><td class='num'><strong>4</strong></td><td><a href='https://ideas.tb.pro/p/white-labeling-custom-branding-for-calendar-schedules' target='_blank' style='color:var(--accent)'>White labeling / Custom branding for calendar schedules</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-30</td><td style='font-size:.75rem;color:var(--muted)'>Appointment</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>7</td><td class='num'><strong>4</strong></td><td><a href='https://ideas.tb.pro/p/snooze-emails' target='_blank' style='color:var(--accent)'>Snooze emails</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-07</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail, New Feature</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>8</td><td class='num'><strong>3</strong></td><td><a href='https://ideas.tb.pro/p/european-hosting' target='_blank' style='color:var(--accent)'>European Hosting</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-06-04</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>9</td><td class='num'><strong>3</strong></td><td><a href='https://ideas.tb.pro/p/native-outlook-microsoft-calendar-integration-for-appointments' target='_blank' style='color:var(--accent)'>Native Outlook / Microsoft Calendar integration for Appointments</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-18</td><td style='font-size:.75rem;color:var(--muted)'>Appointment</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>10</td><td class='num'><strong>3</strong></td><td><a href='https://ideas.tb.pro/p/custom-full-name-email-display-format' target='_blank' style='color:var(--accent)'>Custom “Full Name <email>” display format</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-18</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>11</td><td class='num'><strong>2</strong></td><td><a href='https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client' target='_blank' style='color:var(--accent)'>Emails appear multiple times if multiple aliases are configured in the</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-26</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail, Improvement</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>12</td><td class='num'><strong>2</strong></td><td><a href='https://ideas.tb.pro/p/show-warning-or-error-if-domain-name-has-no-adresses-nor-aliases' target='_blank' style='color:var(--accent)'>Show warning or error if domain name has no adresses nor aliases</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-18</td><td style='font-size:.75rem;color:var(--muted)'>Accounts & Subscriptions, Thundermail</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>13</td><td class='num'><strong>2</strong></td><td><a href='https://ideas.tb.pro/p/add-send-to-the-spaces-toolbar' target='_blank' style='color:var(--accent)'>Add Send to the Spaces Toolbar</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-11</td><td style='font-size:.75rem;color:var(--muted)'>Send, Improvement</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>14</td><td class='num'><strong>2</strong></td><td><a href='https://ideas.tb.pro/p/secure-portal' target='_blank' style='color:var(--accent)'>Secure portal</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-06</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail, Privacy & Security, New Fea</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>15</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/consider-bimi-support-for-webmail' target='_blank' style='color:var(--accent)'>Consider BIMI support for Webmail</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-06-06</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail, Privacy & Security, New Fea</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>16</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/ability-to-change-primary-e-mail' target='_blank' style='color:var(--accent)'>Ability to change primary e-mail</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-06-06</td><td style='font-size:.75rem;color:var(--muted)'>Privacy & Security, Improvement</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>17</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/add-gmail-style-send-mail-as-external-sending-identities-to-thundermail' target='_blank' style='color:var(--accent)'>Add Gmail-style “Send mail as” / external sending identities to Thunde</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-06-05</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail, New Feature</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>18</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/resellers-it-companies' target='_blank' style='color:var(--accent)'>Resellers & IT Companies</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-21</td><td style='font-size:.75rem;color:var(--muted)'>Thundermail, Accounts & Subscriptions, N</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>19</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/new-idea' target='_blank' style='color:var(--accent)'>NEW IDEA</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-17</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Closed</td></tr>
+<tr><td class='num muted'>20</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/appointment-use-only-the-username-in-the-personal-link' target='_blank' style='color:var(--accent)'>Appointment: Use only the username in the personal link</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-17</td><td style='font-size:.75rem;color:var(--muted)'>Appointment</td><td style='font-size:.75rem;color:var(--muted)'>Incoming ideas</td></tr>
+<tr><td class='num muted'>21</td><td class='num'><strong>1</strong></td><td><a href='https://ideas.tb.pro/p/calendar-improvement' target='_blank' style='color:var(--accent)'>Calendar Improvement</a></td><td style='font-size:.75rem;color:var(--muted)'>2026-05-07</td><td style='font-size:.75rem;color:var(--muted)'>—</td><td style='font-size:.75rem;color:var(--muted)'>Closed</td></tr>
+</tbody>
+  </table>
 </div>
 
 <div class="footer">
-  Data: Zendesk · Thunderbird Pro brand · May 4, 2026 → 2026-06-06 ·
-  Excludes: closed_by_merge, test, agent-created, and known infrastructure tickets (5441, 5866 + linked incidents).
-  <a href="latest.html" style="color:var(--accent)">→ Flight 2 live report</a>
+  Data: Zendesk (Thunderbird Pro brand) · FeatureOS board 17437 · May 4, 2026 → 2026-06-06 ·
+  Excludes: closed_by_merge, test tickets, agent-created, known infrastructure tickets.
+  AHT based on 60 solved tickets (calendar time). PII-redacted.
+  &nbsp;·&nbsp; <a href="latest.html" style="color:var(--accent)">→ Flight 2 live report</a>
 </div>
 
 <script>
-const dates     = ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06"];
-const counts    = [1, 9, 8, 8, 8, 2, 2, 6, 5, 6, 5, 5, 4, 3, 13, 0, 0, 2, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 2, 1, 3, 12, 6, 2];
-const milestones= [{"date": "2026-05-04", "label": "Early Bird (~66 invites)", "color": "#6366f1"}, {"date": "2026-06-03", "label": "Flight 2 Wave 1 (500)", "color": "#f97316"}, {"date": "2026-06-04", "label": "Flight 2 Wave 2 (1,500)", "color": "#ef4444"}];
+const dates      = ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06"];
+const daily      = [1, 9, 8, 8, 8, 2, 2, 6, 5, 6, 5, 5, 4, 3, 13, 0, 0, 2, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 2, 1, 3, 12, 6, 2];
+const cumContact = [0.17, 1.67, 3.0, 4.33, 5.67, 6.0, 6.33, 7.33, 8.17, 9.17, 10.0, 10.83, 11.5, 12.0, 14.17, 14.17, 14.17, 14.5, 14.5, 14.5, 14.67, 14.67, 14.67, 14.83, 14.83, 15.0, 15.0, 15.0, 15.33, 15.5, 8.73, 4.15, 4.38, 4.46];
+const milestones = [{"date": "2026-05-04", "label": "Early Bird", "color": "#6366f1"}, {"date": "2026-06-03", "label": "Flight 2 Wave 1", "color": "#f97316"}, {"date": "2026-06-04", "label": "Flight 2 Wave 2", "color": "#ef4444"}];
 
-const annotations = {};
-milestones.forEach((m, i) => {
-  const idx = dates.indexOf(m.date);
-  if (idx < 0) return;
-  annotations['line' + i] = {
-    type: 'line',
-    xMin: idx, xMax: idx,
-    borderColor: m.color,
-    borderWidth: 2,
-    borderDash: [4, 3],
-    label: {
-      display: true,
-      content: m.label,
-      position: 'start',
-      backgroundColor: m.color,
-      color: '#fff',
-      font: { size: 10 },
-      padding: 4,
-    }
-  };
-});
+function buildAnnotations() {
+  const ann = {};
+  milestones.forEach((m, i) => {
+    const idx = dates.indexOf(m.date);
+    if (idx < 0) return;
+    ann['line' + i] = {
+      type: 'line', xMin: idx, xMax: idx,
+      borderColor: m.color, borderWidth: 2, borderDash: [4,3],
+      label: { display: true, content: m.label, position: 'start',
+               backgroundColor: m.color, color:'#fff', font:{size:9}, padding:3 }
+    };
+  });
+  return ann;
+}
 
 new Chart(document.getElementById('dailyChart'), {
   type: 'bar',
   data: {
     labels: dates,
     datasets: [{
-      label: 'Tickets',
-      data: counts,
-      backgroundColor: dates.map(d => {
-        if (d === '2026-06-04') return '#ef444480';
-        if (d === '2026-06-03') return '#f9731680';
-        if (d === '2026-05-04') return '#6366f180';
-        return '#6366f140';
-      }),
-      borderColor: dates.map(d => {
-        if (d === '2026-06-04') return '#ef4444';
-        if (d === '2026-06-03') return '#f97316';
-        if (d === '2026-05-04') return '#6366f1';
-        return '#6366f1';
-      }),
-      borderWidth: 1,
-      borderRadius: 3,
+      label: 'Tickets', data: daily,
+      backgroundColor: dates.map(d => milestones.find(m=>m.date===d) ? milestones.find(m=>m.date===d).color+'99' : '#6366f140'),
+      borderColor:     dates.map(d => milestones.find(m=>m.date===d) ? milestones.find(m=>m.date===d).color : '#6366f1'),
+      borderWidth: 1, borderRadius: 3,
     }]
   },
   options: {
-    responsive: true,
-    plugins: {
-      legend: { display: false },
-      annotation: { annotations },
-      tooltip: {
-        callbacks: {
-          title: ctx => ctx[0].label,
-          afterLabel: ctx => {
-            const m = milestones.find(m => m.date === ctx.label);
-            return m ? '⚡ ' + m.label : '';
-          }
-        }
-      }
-    },
+    responsive:true,
+    plugins: { legend:{display:false}, annotation:{annotations:buildAnnotations()} },
     scales: {
-      x: {
-        ticks: { color: '#94a3b8', maxTicksLimit: 12, maxRotation: 45 },
-        grid: { color: '#2a2d3a' }
-      },
-      y: {
-        beginAtZero: true,
-        ticks: { color: '#94a3b8', stepSize: 1 },
-        grid: { color: '#2a2d3a' }
-      }
+      x: { ticks:{color:'#94a3b8',maxTicksLimit:12,maxRotation:45}, grid:{color:'#2a2d3a'} },
+      y: { beginAtZero:true, ticks:{color:'#94a3b8',stepSize:1}, grid:{color:'#2a2d3a'} }
+    }
+  }
+});
+
+new Chart(document.getElementById('rateChart'), {
+  type: 'line',
+  data: {
+    labels: dates,
+    datasets: [{
+      label: 'Cumulative contact rate (%)', data: cumContact,
+      borderColor: '#22c55e', backgroundColor: '#22c55e20',
+      fill: true, tension: 0.3, pointRadius: 0, borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive:true,
+    plugins: { legend:{display:false}, annotation:{annotations:buildAnnotations()} },
+    scales: {
+      x: { ticks:{color:'#94a3b8',maxTicksLimit:12,maxRotation:45}, grid:{color:'#2a2d3a'} },
+      y: { beginAtZero:true, ticks:{color:'#94a3b8',callback:v=>v+'%'}, grid:{color:'#2a2d3a'} }
     }
   }
 });
