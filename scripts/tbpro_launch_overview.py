@@ -211,6 +211,13 @@ def build(tickets, aht_mins, frt_mins, ideas):
     for t in tickets:
         theme_counts[classify_ticket(t)] += 1
 
+    # GitHub-linked tickets (zd-gh tag)
+    gh_tickets = [t for t in tickets if "zd-gh" in (t.get("tags") or [])]
+    gh_by_repo = defaultdict(list)
+    for t in gh_tickets:
+        # Repo inferred from subject prefix "Repo Issue: ..." or just group all
+        gh_by_repo["linked"].append(t)
+
     return {
         "dates": dates, "daily": daily,
         "cumulative": cumulative, "cum_contact": cum_contact,
@@ -221,6 +228,7 @@ def build(tickets, aht_mins, frt_mins, ideas):
         "avg_rate": avg_rate, "surge_pct": surge_pct,
         "themes": dict(theme_counts.most_common(12)),
         "ideas": ideas,
+        "gh_tickets": gh_tickets,
         "today": today.isoformat(),
     }
 
@@ -276,6 +284,21 @@ def render(data):
             f"<td style='font-size:.75rem;color:var(--muted)'>{p.get('created_at','')[:10]}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{tags}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{status}</td></tr>\n"
+        )
+
+    # GitHub-linked ticket rows
+    gh_rows = ""
+    sub = "tbpro"
+    for t in sorted(data["gh_tickets"], key=lambda x: x["created_at"], reverse=True):
+        status_color = {"solved": "var(--green)", "open": "var(--accent)", "pending": "var(--orange)"}.get(t.get("status",""), "var(--muted)")
+        tid = t['id']
+        gh_rows += (
+            f"<tr>"
+            f"<td><a href='https://{sub}.zendesk.com/agent/tickets/{tid}' target='_blank' style='color:var(--accent)'>#{tid}</a></td>"
+            f"<td style='font-size:.8rem'>{t.get('subject','')[:70]}</td>"
+            f"<td style='font-size:.78rem;color:{status_color}'>{t.get('status','')}</td>"
+            f"<td style='font-size:.75rem;color:var(--muted)'>{t.get('created_at','')[:10]}</td>"
+            f"</tr>\n"
         )
 
     # Weekly rows
@@ -437,6 +460,15 @@ def render(data):
   <table>
     <thead><tr><th class="num">#</th><th class="num">Votes</th><th>Idea</th><th>Created</th><th>Tags</th><th>Status</th></tr></thead>
     <tbody>{idea_rows if idea_rows else "<tr><td colspan='6' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
+  </table>
+</div>
+
+<div class="box" style="margin-top:1.5rem">
+  <h3>Tickets linked to GitHub — {len(data['gh_tickets'])} of {total} ({round(len(data['gh_tickets'])/total*100) if total else 0}%)</h3>
+  <p style="font-size:.8rem;color:var(--muted);margin-bottom:.75rem">Tickets tagged <code>zd-gh</code> — linked to a GitHub issue in the thunderbird org via gz# marker.</p>
+  <table>
+    <thead><tr><th>Ticket</th><th>Subject</th><th>Status</th><th>Created</th></tr></thead>
+    <tbody>{gh_rows if gh_rows else "<tr><td colspan='4' style='color:var(--muted)'>None</td></tr>"}</tbody>
   </table>
 </div>
 
