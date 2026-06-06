@@ -230,7 +230,10 @@ def how_for(ticket):
 
 
 def classify_ticket(ticket):
-    """Return primary theme. Tag-based first, regex fallback."""
+    """Return primary theme. Manual override first, then tag-based, then regex fallback."""
+    tid = int(ticket.get("id") or 0)
+    if tid in MANUAL_THEMES:
+        return MANUAL_THEMES[tid], "manual"
     tags = ticket.get("tags") or []
     for tag, theme in TAG_THEMES:
         if tag in tags:
@@ -257,6 +260,9 @@ INVITEE_COUNT = 2000         # Flight 2 · 500 (2026-06-03) + 1500 (2026-06-04)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
 WATCH_PROBLEMS = {5679}      # Problem IDs to always track regardless of LAUNCH_DATE (e.g. DKIM)
+MANUAL_THEMES = {            # Force-assign theme for tickets that can't be auto-categorized
+    6055: "Account access issues",  # follow-up ticket, no useful subject/tags
+}
 
 ET = ZoneInfo("America/New_York")
 UTC = ZoneInfo("UTC")
