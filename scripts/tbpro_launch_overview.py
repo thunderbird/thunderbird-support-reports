@@ -367,7 +367,7 @@ def render(data):
   <div class="card">
     <div class="label">Median First Reply</div>
     <div class="value">{frt_median}</div>
-    <div class="sub">to initial response</div>
+    <div class="sub">from ticket created to first reply</div>
   </div>
   <div class="card">
     <div class="label">Ideas Since Launch</div>
