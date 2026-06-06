@@ -290,7 +290,7 @@ def render(data):
         hot = comments > votes
         hot_badge = " <span title='Comments exceed votes — high discussion signal' style='color:var(--orange);font-size:.7rem'>🔥</span>" if hot else ""
         idea_rows += (
-            f"<tr><td class='num muted'>{i}</td>"
+            f"<tr>"
             f"<td class='num'><strong>{votes}</strong></td>"
             f"<td class='num' style='color:var(--muted)'>{comments}</td>"
             f"<td class='num' style='font-weight:600'>{score}</td>"
@@ -511,13 +511,12 @@ def render(data):
   <h3>Top 10 ideas — all time, sorted by votes + comments · 🔥 = comments exceed votes (high-discussion signal)</h3>
   <table id="ideasTable">
     <thead><tr>
-      <th class="num" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer;white-space:nowrap"># ↕</th>
-      <th class="num" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer;white-space:nowrap">Votes ↕</th>
-      <th class="num" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer;white-space:nowrap">Comments ↕</th>
-      <th class="num" onclick="sortTable('ideasTable',3,'num')" style="cursor:pointer;white-space:nowrap">Score ↕</th>
-      <th onclick="sortTable('ideasTable',4,'str')" style="cursor:pointer;white-space:nowrap">Idea ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer;white-space:nowrap">Votes ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer;white-space:nowrap">Comments ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer;white-space:nowrap">Score ↕</th>
+      <th onclick="sortTable('ideasTable',3,'str')" style="cursor:pointer;white-space:nowrap">Idea ↕</th>
       <th>Tags</th>
-      <th onclick="sortTable('ideasTable',6,'str')" style="cursor:pointer;white-space:nowrap">Status ↕</th>
+      <th onclick="sortTable('ideasTable',5,'str')" style="cursor:pointer;white-space:nowrap">Status ↕</th>
     </tr></thead>
     <tbody>{idea_rows if idea_rows else "<tr><td colspan='7' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
   </table>
