@@ -45,6 +45,7 @@ jobs:
         run: |
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
           python3 scripts/tbpro_daily.py --public --out-dir lisa/daily/
+          python3 scripts/tbpro_launch_overview.py --out lisa/daily/launch_overview.html
 
       - name: Commit and push
         run: |
