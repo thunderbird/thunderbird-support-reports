@@ -138,7 +138,8 @@ def fetch_ideas():
     launch_utc = dt.datetime.fromisoformat(LAUNCH_DATE + "T00:00:00+00:00")
     return sorted(
         [p for p in posts if p.get("created_at") and
-         dt.datetime.fromisoformat(p["created_at"].replace("Z", "+00:00")) >= launch_utc],
+         dt.datetime.fromisoformat(p["created_at"].replace("Z", "+00:00")) >= launch_utc and
+         p.get("status") != "Off-topic"],
         key=lambda p: p.get("votes_count", 0), reverse=True
     )
 
