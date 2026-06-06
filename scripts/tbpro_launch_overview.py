@@ -198,6 +198,7 @@ def build(tickets, aht_mins, frt_mins, ideas):
     if frt_mins:
         frt_data = {
             "median_min": round(statistics.median(frt_mins)),
+            "median_h": round(statistics.median(frt_mins) / 60, 1),
             "mean_min":   round(statistics.mean(frt_mins)),
         }
 
@@ -241,7 +242,7 @@ def render(data):
 
     # AHT cards
     aht_median = f"{aht.get('median_h','—')}h" if aht else "—"
-    frt_median = f"{frt.get('median_min','—')} min" if frt else "—"
+    frt_median = f"{frt.get('median_h','—')}h" if frt else "—"
 
     # Wave table rows
     wave_rows = ""
