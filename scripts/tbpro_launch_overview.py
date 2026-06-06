@@ -486,7 +486,7 @@ def render(data):
       <thead><tr><th class="num">Batch size</th><th class="num">Expected tickets</th><th class="num">Day-2 peak</th></tr></thead>
       <tbody>{proj_rows}</tbody>
     </table>
-    <p style="font-size:.72rem;color:var(--muted);margin-top:.75rem">Based on {avg_rate}% Flight 2 contact rate. Early Bird rate ({data['wave_stats'][0]['rate']}%) was higher due to onboarding friction — expect rates to decrease as product matures.</p>
+    <p style="font-size:.72rem;color:var(--muted);margin-top:.75rem">Based on {avg_rate}% average across Flight 2 Waves 1+2 (0.6% and 1.3% respectively). <strong>Note:</strong> Wave 2 is only {(dt.date.today() - dt.date(2026,6,4)).days} days old — its true rate may be higher as tickets arrive over 7–14 days. Early Bird rate ({data['wave_stats'][0]['rate']}%) was inflated by misdirected non-subscribers, not a reliable baseline.</p>
   </div>
 </div>
 
