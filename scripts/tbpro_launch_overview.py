@@ -509,16 +509,15 @@ def render(data):
 
 <div class="box">
   <h3>Top 10 ideas — all time, sorted by votes + comments · 🔥 = comments exceed votes (high-discussion signal)</h3>
-  <p style="font-size:.72rem;color:var(--muted);margin-bottom:.6rem">Click a column header to sort.</p>
   <table id="ideasTable">
     <thead><tr>
-      <th class="num sortable" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer"># ↕</th>
-      <th class="num sortable" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer">Votes ↕</th>
-      <th class="num sortable" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer">Comments ↕</th>
-      <th class="num sortable" onclick="sortTable('ideasTable',3,'num')" style="cursor:pointer">Score ↕</th>
-      <th onclick="sortTable('ideasTable',4,'str')" style="cursor:pointer">Idea ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer;white-space:nowrap"># ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer;white-space:nowrap">Votes ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer;white-space:nowrap">Comments ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',3,'num')" style="cursor:pointer;white-space:nowrap">Score ↕</th>
+      <th onclick="sortTable('ideasTable',4,'str')" style="cursor:pointer;white-space:nowrap">Idea ↕</th>
       <th>Tags</th>
-      <th onclick="sortTable('ideasTable',6,'str')" style="cursor:pointer">Status ↕</th>
+      <th onclick="sortTable('ideasTable',6,'str')" style="cursor:pointer;white-space:nowrap">Status ↕</th>
     </tr></thead>
     <tbody>{idea_rows if idea_rows else "<tr><td colspan='7' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
   </table>
