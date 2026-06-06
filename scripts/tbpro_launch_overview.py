@@ -287,20 +287,42 @@ def render(data):
             f"<td style='font-size:.75rem;color:var(--muted)'>{status}</td></tr>\n"
         )
 
-    # GitHub-linked ticket rows
-    gh_rows = ""
-    sub = "tbpro"
-    for t in sorted(data["gh_tickets"], key=lambda x: x["created_at"], reverse=True):
-        status_color = {"solved": "var(--green)", "open": "var(--accent)", "pending": "var(--orange)"}.get(t.get("status",""), "var(--muted)")
-        tid = t['id']
-        gh_rows += (
+    # GitHub-linked ticket rows — open/pending visible, solved collapsed
+    def gh_row(t, sub="tbpro"):
+        sc = {"solved": "var(--green)", "open": "var(--accent)", "pending": "var(--orange)"}.get(t.get("status",""), "var(--muted)")
+        tid = t["id"]
+        return (
             f"<tr>"
             f"<td><a href='https://{sub}.zendesk.com/agent/tickets/{tid}' target='_blank' style='color:var(--accent)'>#{tid}</a></td>"
             f"<td style='font-size:.8rem'>{t.get('subject','')[:70]}</td>"
-            f"<td style='font-size:.78rem;color:{status_color}'>{t.get('status','')}</td>"
+            f"<td style='font-size:.78rem;color:{sc}'>{t.get('status','')}</td>"
             f"<td style='font-size:.75rem;color:var(--muted)'>{t.get('created_at','')[:10]}</td>"
             f"</tr>\n"
         )
+
+    gh_sorted = sorted(data["gh_tickets"], key=lambda x: x["created_at"], reverse=True)
+    gh_open   = [t for t in gh_sorted if t.get("status") != "solved"]
+    gh_solved = [t for t in gh_sorted if t.get("status") == "solved"]
+
+    gh_open_rows   = "".join(gh_row(t) for t in gh_open) or "<tr><td colspan='4' style='color:var(--muted)'>None</td></tr>"
+    gh_solved_rows = "".join(gh_row(t) for t in gh_solved)
+
+    gh_solved_block = ""
+    if gh_solved:
+        gh_solved_block = (
+            f"<tr><td colspan='4' style='padding:0'>"
+            f"<details style='padding:.5rem .65rem'>"
+            f"<summary style='cursor:pointer;font-size:.78rem;color:var(--muted);list-style:none'>"
+            f"▶ {len(gh_solved)} solved ticket(s) — click to expand"
+            f"</summary>"
+            f"<table style='width:100%;margin-top:.5rem'>"
+            f"<tbody>{gh_solved_rows}</tbody>"
+            f"</table>"
+            f"</details>"
+            f"</td></tr>"
+        )
+
+    gh_rows = gh_open_rows + gh_solved_block
 
     # Weekly rows
     weekly_rows = ""
