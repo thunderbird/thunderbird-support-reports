@@ -127,7 +127,8 @@ def fetch_aht(auth, sub, tickets, sample=60):
 # ── FeatureOS ─────────────────────────────────────────────────────────────────
 
 def fetch_ideas():
-    """Top 10 all-time ideas by vote count. CLI sort param is unreliable — sort client-side."""
+    """Fetch all non-off-topic ideas. Returns (all_ideas, top10) tuple.
+    CLI sort param is unreliable — sort client-side."""
     q = f"board_id={FEATUREOS_BOARD_ID}&per_page=100&status=all"
     try:
         proc = subprocess.run(
@@ -137,13 +138,12 @@ def fetch_ideas():
         data = json.loads(out)
         posts = data.get("feature_requests", [])
     except Exception:
-        return []
+        return [], []
     OMIT_STATUSES = {"Off-topic", "By design"}
     filtered = [p for p in posts
                 if (p.get("custom_status") or {}).get("title", p.get("status","")) not in OMIT_STATUSES]
-    # Sort by combined votes + comments score
     filtered.sort(key=lambda p: p.get("votes_count", 0) + p.get("comments_count", 0), reverse=True)
-    return filtered[:10]
+    return filtered, filtered[:10]
 
 
 # ── Active blockers ──────────────────────────────────────────────────────────
@@ -178,7 +178,7 @@ def fetch_blockers(auth, sub):
 
 # ── Build data ────────────────────────────────────────────────────────────────
 
-def build(tickets, aht_mins, frt_mins, ideas, gh_links=None, blockers=None):
+def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -261,7 +261,8 @@ def build(tickets, aht_mins, frt_mins, ideas, gh_links=None, blockers=None):
         "aht": aht_data, "frt": frt_data,
         "avg_rate": avg_rate, "surge_pct": surge_pct,
         "themes": dict(theme_counts.most_common(12)),
-        "ideas": ideas,
+        "ideas": ideas_top10,
+        "ideas_count": len(ideas_all),
         "gh_tickets": gh_tickets,
         "gh_links": gh_links or {},
         "blockers": blockers or [],
@@ -485,8 +486,8 @@ def render(data):
   </div>
   <div class="card">
     <div class="label">Ideas Since Launch</div>
-    <div class="value">{len(data['ideas'])}</div>
-    <div class="sub">on FeatureOS since May 4</div>
+    <div class="value">{data['ideas_count']}</div>
+    <div class="sub">on FeatureOS (excl. off-topic)</div>
   </div>
   <div class="card orange">
     <div class="label">GitHub Escalation Rate</div>
@@ -692,8 +693,8 @@ def main():
     print(f"  {len(aht_mins)} AHT samples", file=sys.stderr)
 
     print("Fetching FeatureOS ideas…", file=sys.stderr)
-    ideas = fetch_ideas()
-    print(f"  {len(ideas)} ideas since launch", file=sys.stderr)
+    ideas_all, ideas_top10 = fetch_ideas()
+    print(f"  {len(ideas_all)} total ideas (excl. off-topic), top 10 in table", file=sys.stderr)
 
     print("Fetching GitHub issue links…", file=sys.stderr)
     gh_links = github_zendesk_links()
@@ -704,7 +705,7 @@ def main():
     active = sum(1 for b in blockers if b.get("status") not in ("solved", "closed"))
     print(f"  {active} active blocker(s) with open incidents", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas, gh_links, blockers)
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers)
     html = render(data)
 
     out = Path(args.out)
