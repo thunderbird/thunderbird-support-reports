@@ -45,6 +45,8 @@ jobs:
           TZ: America/New_York
         run: |
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
+          export FEATUREOS_API_KEY="$(printf '%s' "$FEATUREOS_API_KEY" | tr -d ' \t\r\n')"
+          export FEATUREOS_JWT="$(printf '%s' "$FEATUREOS_JWT" | tr -d ' \t\r\n')"
           python3 scripts/tbpro_launch_overview.py --out lisa/daily/launch_overview.html
 
       - name: Commit and push
