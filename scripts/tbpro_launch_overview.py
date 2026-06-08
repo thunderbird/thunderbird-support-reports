@@ -153,7 +153,9 @@ LAUNCH_WATCH_ONLY = {5679}  # DKIM — tracked but not a launch blocker
 
 
 def fetch_blockers(auth, sub):
-    """Fetch WATCH_PROBLEMS (minus LAUNCH_WATCH_ONLY) as launch blockers."""
+    """Fetch WATCH_PROBLEMS (minus LAUNCH_WATCH_ONLY) as launch blockers.
+    A blocker is active if the problem ticket itself is not solved/closed,
+    regardless of whether individual incidents are currently open."""
     blockers = []
     for pid in sorted(WATCH_PROBLEMS - LAUNCH_WATCH_ONLY):
         try:
@@ -449,9 +451,10 @@ def render(data):
     f'<span style="color:#ef4444;font-weight:700">🔴 BLOCK — Known problem #{b["id"]}: '
     f'<a href="{b["url"]}" target="_blank" style="color:#ef4444">{b["subject"][:80]}</a></span>'
     f'<br><span style="color:#fca5a5">{len(b["open_incidents"])} open incident(s): '
-    + ", ".join(f'<a href="https://tbpro.zendesk.com/agent/tickets/{i["id"]}" target="_blank" style="color:#fca5a5">#{i["id"]}</a>' for i in b["open_incidents"])
+    + (", ".join(f'<a href="https://tbpro.zendesk.com/agent/tickets/{i["id"]}" target="_blank" style="color:#fca5a5">#{i["id"]}</a>' for i in b["open_incidents"])
+       if b["open_incidents"] else "<em>problem ticket still open — monitoring for new incidents</em>")
     + "</span></div>"
-    for b in data.get("blockers", []) if b.get("open_incidents")
+    for b in data.get("blockers", []) if b.get("status") not in ("solved", "closed")
 )}
 
 <div class="stats">
@@ -698,7 +701,7 @@ def main():
 
     print("Fetching active blockers…", file=sys.stderr)
     blockers = fetch_blockers(auth, sub)
-    active = sum(1 for b in blockers if b.get("open_incidents"))
+    active = sum(1 for b in blockers if b.get("status") not in ("solved", "closed"))
     print(f"  {active} active blocker(s) with open incidents", file=sys.stderr)
 
     data = build(tickets, aht_mins, frt_mins, ideas, gh_links, blockers)
