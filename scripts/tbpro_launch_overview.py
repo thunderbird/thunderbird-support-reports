@@ -148,10 +148,14 @@ def fetch_ideas():
 
 # ── Active blockers ──────────────────────────────────────────────────────────
 
+# Problems tracked in daily report but NOT shown as blockers on launch overview
+LAUNCH_WATCH_ONLY = {5679}  # DKIM — tracked but not a launch blocker
+
+
 def fetch_blockers(auth, sub):
-    """Fetch WATCH_PROBLEMS and return list of dicts with problem + open incidents."""
+    """Fetch WATCH_PROBLEMS (minus LAUNCH_WATCH_ONLY) as launch blockers."""
     blockers = []
-    for pid in sorted(WATCH_PROBLEMS):
+    for pid in sorted(WATCH_PROBLEMS - LAUNCH_WATCH_ONLY):
         try:
             prob = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{pid}.json", auth).get("ticket", {})
             inc_data = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{pid}/incidents.json", auth)
