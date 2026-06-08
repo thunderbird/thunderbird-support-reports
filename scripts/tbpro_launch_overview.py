@@ -134,10 +134,17 @@ def fetch_ideas():
         proc = subprocess.run(
             ["featureos-cli", "posts", "list", "--query", q, "--json"],
             capture_output=True, text=True)
-        out = re.sub(r"\x1b\[[0-9;]*m", "", proc.stdout).strip()
+        out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", proc.stdout).strip()
+        out = out[out.find("{"):]  # strip any leading escape junk
         data = json.loads(out)
+        if not data.get("success", True):
+            print(f"WARN: featureos-cli error: {data.get('message')}", file=sys.stderr)
+            return [], []
         posts = data.get("feature_requests", [])
-    except Exception:
+        if not posts:
+            print(f"WARN: featureos-cli returned 0 posts. Keys: {list(data.keys())}", file=sys.stderr)
+    except Exception as e:
+        print(f"WARN: featureos-cli fetch failed: {e}", file=sys.stderr)
         return [], []
     OMIT_STATUSES = {"Off-topic", "By design"}
     filtered = [p for p in posts
