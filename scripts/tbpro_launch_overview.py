@@ -134,8 +134,14 @@ def fetch_ideas():
         proc = subprocess.run(
             ["featureos-cli", "posts", "list", "--query", q, "--json"],
             capture_output=True, text=True)
-        out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", proc.stdout).strip()
-        out = out[out.find("{"):]  # strip any leading escape junk
+        # featureos-cli sometimes writes JSON to stderr instead of stdout
+        raw = proc.stdout or proc.stderr or ""
+        out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", raw).strip()
+        idx = out.find("{")
+        if idx < 0:
+            print(f"WARN: featureos-cli no JSON in output. rc={proc.returncode} raw={raw[:200]!r}", file=sys.stderr)
+            return [], []
+        out = out[idx:]
         data = json.loads(out)
         if not data.get("success", True):
             print(f"WARN: featureos-cli error: {data.get('message')}", file=sys.stderr)
