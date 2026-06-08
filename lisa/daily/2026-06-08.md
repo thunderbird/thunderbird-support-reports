@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-08
 
-_Updated: **2026-06-08 15:03 ET** · refreshes hourly_  
+_Updated: **2026-06-08 15:53 ET** · refreshes hourly_  
 _24h window: 2026-06-07T16:00 → 2026-06-08T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 2 is **day 6** of rollout — **2,000 invitees**, **29 tickets** so far (
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 7.7h · mean 23.5h (proxy: updated_at − created_at, 16 solved tickets)
+- **Median AHT**: 7.7h · mean 23.6h (proxy: updated_at − created_at, 16 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"payment processed take"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
+- **"payment processed"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -127,8 +127,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6032](https://tbpro.zendesk.com/agent/tickets/6032) · 2026-06-08T13:44 · Change default email account to [domain]
 - 👍 [6044](https://tbpro.zendesk.com/agent/tickets/6044) · 2026-06-08T15:55 · Appointment: saving availability error
-- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-08T18:43 · Payment Processing
 - · [6094](https://tbpro.zendesk.com/agent/tickets/6094) · 2026-06-08T19:02 · Email alias
+- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-08T19:31 · Payment Processing
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
