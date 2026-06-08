@@ -136,6 +136,60 @@ header print statement at the top of the file to match the current month's filen
 March 2026 specific. `build_march.py` is the reference implementation for dashboard
 patterns — consult it when building new months. `analyze_march.py` is frozen.
 
+## Thundermail live reporting
+
+Three scripts track the Thundermail (TB Pro) subscriber launch. All output goes to
+`lisa/daily/` and is published to GitHub Pages. GH Actions runs the daily script hourly.
+
+### `scripts/tbpro_daily.py` — Flight 2 live report
+Generates `lisa/daily/latest.html` + `latest.md`. Run locally or via GH Actions.
+
+```
+uv run scripts/tbpro_daily.py                    # today
+uv run scripts/tbpro_daily.py --date 2026-06-03  # specific date
+uv run scripts/tbpro_daily.py --public           # PII-redacted (used in CI)
+```
+
+**Key config constants at the top of the file — update per flight:**
+- `LAUNCH_DATE` — flight start date (currently `"2026-06-03"` for Flight 2)
+- `INVITEE_COUNT` — total invites sent so far this flight
+- `EXCLUDE_IDS` — ticket IDs to suppress entirely (known infrastructure problems + their incidents)
+- `WATCH_PROBLEMS` — Zendesk problem-type ticket IDs to always track regardless of LAUNCH_DATE (e.g. DKIM #5679)
+- `MANUAL_THEMES` — dict of `{ticket_id: "Theme name"}` for tickets that can't be auto-classified (subject gives no signal)
+
+**Community signals:** Add entries to `data/tbpro_community.json` to include manual observations (Matrix channel, Reddit, etc.). Format:
+```json
+{"entries": [{"date": "YYYY-MM-DD", "source": "Early Birds Matrix Channel",
+              "questions": ["..."], "signals": ["..."]}]}
+```
+
+**Zendesk auth:** Always use `zd_creds()` imported from `tbpro_daily` — reads env vars first (CI), falls back to `~/.config/zendesk/credentials` (local). Never read the credentials file directly.
+
+**Theme classification:** Two layers — tag-based (`TAG_THEMES`) first, regex fallback (`brand_summary.py` `THEMES`). For one-off corrections use `MANUAL_THEMES`. The `brand_summary.py` file is shared with the monthly report.
+
+### `scripts/tbpro_weekly.py` — weekly executive summary
+Runs every Friday via GH Actions. Covers **launch date → today** (not Mon–Sun calendar week).
+The `week_bounds()` function floors the start at `LAUNCH_DATE` automatically.
+Output: `reports/tbpro/weekly/YYYY-MM-DD.html` + `reports/tbpro/LATEST_WEEKLY.html`
+
+### `scripts/tbpro_launch_overview.py` — full-launch overview
+Covers Early Bird (May 4) through today. Run manually to refresh.
+```
+uv run scripts/tbpro_launch_overview.py
+```
+Also runs in GH Actions daily alongside `tbpro_daily.py`.
+
+**Invitee counts (update per wave):**
+- Early Bird: 600 (May 4, 2026)
+- Flight 2 Wave 1: 500 (June 3, 2026)
+- Flight 2 Wave 2: 1,500 (June 4, 2026)
+
+### FeatureOS CLI caveats
+- `sort=votes_count` parameter is **unreliable** — always sort client-side after fetching
+- JSON key is `feature_requests`, not `posts` or `data`
+- Custom status labels are in `custom_status.title`, not `status`
+- Credentials: `~/.featureos.yaml` (api_key + jwt)
+
 ## The report format
 The report follows this exact structure — do not change it:
 
