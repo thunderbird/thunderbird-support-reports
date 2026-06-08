@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-08
 
-_Updated: **2026-06-08 17:46 ET** · refreshes hourly_  
+_Updated: **2026-06-08 18:43 ET** · refreshes hourly_  
 _24h window: 2026-06-07T16:00 → 2026-06-08T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 2 is **day 6** of rollout — **2,000 invitees**, **28 tickets** so far (
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"processed take"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
+- **"payment processed"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
