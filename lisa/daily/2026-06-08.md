@@ -1,26 +1,26 @@
 # Thundermail — Flight 2 Live Report · 2026-06-08
 
-_Updated: **2026-06-08 17:02 ET** · refreshes hourly_  
+_Updated: **2026-06-08 17:46 ET** · refreshes hourly_  
 _24h window: 2026-06-07T16:00 → 2026-06-08T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 6** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 6** of rollout — **2,000 invitees**, **28 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
-- **29** tickets total since launch · contact rate **1%** of 2000 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **28** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 7.7h · mean 23.6h (proxy: updated_at − created_at, 16 solved tickets)
+- **Median AHT**: 6.6h · mean 22.7h (proxy: updated_at − created_at, 17 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"processed take hours"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
+- **"processed take"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -35,7 +35,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 3 incident(s):
   - [#5631](https://tbpro.zendesk.com/agent/tickets/5631) · [solved] · 2026-05-14 · _Subscription_
   - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
-  - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [open] · 2026-06-08 · _Payment being processed, may take 48 hours_
+  - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -59,10 +59,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 16
+- **solved**: 17
 - **pending**: 8
 - **hold**: 3
-- **open**: 2
 
 ## Service (cumulative)
 
@@ -90,20 +89,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#6128](https://tbpro.zendesk.com/agent/tickets/6128)** · Testing inline images in gitze
-  > test
+- **[#6126](https://tbpro.zendesk.com/agent/tickets/6126)** · thunderbird-accounts/838: Payment Complete, Stalwart not updated
+  > **Problem**: - User has paid, but Stalwart is not updated. DJ Admin shows no plan. - User sees "Payment being processed, may take 48 hours" **Solution**: See steps in…
 
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6125](https://tbpro.zendesk.com/agent/tickets/6125)** · Payment being processed, may take 48 hours — why: **blocked** · how: **actioned** · 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
   > It's been a month since I signed up and paid, and I do not yet have access to the service. I cannot so much test without access... HELP!
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6126](https://tbpro.zendesk.com/agent/tickets/6126)** · thunderbird-accounts/838: Payment Complete, Stalwart not updated
-  > **Problem**: - User has paid, but Stalwart is not updated. DJ Admin shows no plan. - User sees "Payment being processed, may take 48 hours" **Solution**: See steps in…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -119,9 +113,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6117](https://tbpro.zendesk.com/agent/tickets/6117) · [pending] · 2026-06-07T23:53 · Events on more than 1 days are not displayed correctly in the dashboard. 
 - [6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08T04:49 · Payment Processing 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
-- [6125](https://tbpro.zendesk.com/agent/tickets/6125) · [open] · 2026-06-08T14:33 · Payment being processed, may take 48 hours 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
+- [6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08T14:33 · Payment being processed, may take 48 hours 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
 - [6126](https://tbpro.zendesk.com/agent/tickets/6126) · [hold] · 2026-06-08T14:44 · thunderbird-accounts/838: Payment Complete, Stalwart not updated
-- [6128](https://tbpro.zendesk.com/agent/tickets/6128) · [open] · 2026-06-08T16:06 · Testing inline images in gitze
 
 ## Solved — last 24h
 
