@@ -1,0 +1,40 @@
+name: Alert on workflow failure
+
+on:
+  workflow_run:
+    workflows:
+      - "Thundermail Daily Report"
+      - "Thundermail Launch Overview"
+      - "Thundermail Weekly Summary"
+    types:
+      - completed
+
+jobs:
+  alert:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create failure issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run = context.payload.workflow_run;
+            const title = `⚠️ Workflow failed: ${run.name} (${run.created_at.slice(0,10)})`;
+            const body = `**Workflow:** ${run.name}\n**Run:** ${run.html_url}\n**Branch:** ${run.head_branch}\n**Triggered by:** ${run.event}\n\nCheck the run logs for details.`;
+            // Check if a similar open issue already exists to avoid spam
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'workflow-failure',
+            });
+            const alreadyOpen = issues.data.some(i => i.title.includes(run.name));
+            if (!alreadyOpen) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['workflow-failure'],
+              });
+            }

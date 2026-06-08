@@ -259,7 +259,10 @@ LAUNCH_DATE = "2026-06-03"   # Flight 2 start
 INVITEE_COUNT = 2000         # Flight 2 · 500 (2026-06-03) + 1500 (2026-06-04)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
-WATCH_PROBLEMS = {5679}      # Problem IDs to always track regardless of LAUNCH_DATE (e.g. DKIM)
+WATCH_PROBLEMS = {
+    5679,   # DKIM — Expose RSA DKIM keys in custom domain setup (thunderbird-accounts#839)
+    6126,   # 🔴 BLOCK — Payment complete, Stalwart not updated (thunderbird-accounts#838) — 3 incidents
+}
 MANUAL_THEMES = {            # Force-assign theme for tickets that can't be auto-categorized
     6055: "Account access issues",  # follow-up ticket, no useful subject/tags
 }
@@ -720,6 +723,24 @@ def build(report_date_et):
     csat_cum_pct = csat_pct(good_cum, bad_cum)
     csat_24h_pct = csat_pct(good_24h, bad_24h)
 
+    # AHT proxy — updated_at minus created_at for solved tickets (no extra API calls)
+    import statistics as _stats
+    _solved = [t for t in cumulative if t.get("status") == "solved"
+               and t.get("created_at") and t.get("updated_at")]
+    _aht_mins = []
+    for t in _solved:
+        try:
+            delta = (parse_iso(t["updated_at"]) - parse_iso(t["created_at"])).total_seconds() / 60
+            if 0 < delta < 60 * 24 * 90:  # sanity: between 0 and 90 days
+                _aht_mins.append(delta)
+        except Exception:
+            pass
+    aht_data = {
+        "median_h": round(_stats.median(_aht_mins) / 60, 1) if _aht_mins else None,
+        "mean_h":   round(_stats.mean(_aht_mins) / 60, 1) if _aht_mins else None,
+        "n":        len(_aht_mins),
+    } if _aht_mins else {}
+
     # FeatureOS — pull recent, split into "since launch" and "last 24h"
     fos = featureos_posts()
     launch_utc = dt.datetime.fromisoformat(LAUNCH_DATE + "T00:00:00+00:00")
@@ -768,6 +789,7 @@ def build(report_date_et):
         "bad_24h": bad_24h,
         "csat_cum_pct": csat_cum_pct,
         "csat_24h_pct": csat_24h_pct,
+        "aht": aht_data,
         "fos_since_launch": fos_since_launch,
         "fos_24h": fos_24h,
         "refunds": refunds,
@@ -819,6 +841,8 @@ def render_md(d, subdomain="tbpro", public=False):
     o.append(f"- **CSAT (24h)**: {csat24}  ({len(d['good_24h'])} good / {len(d['bad_24h'])} bad)")
     o.append(f"- **CSAT (since launch)**: {csatc}  ({len(d['good_cum'])} good / {len(d['bad_cum'])} bad)")
     o.append(f"- **New FeatureOS ideas (24h)**: {len(d['fos_24h'])} · **since launch**: {len(d['fos_since_launch'])}")
+    if d.get("aht") and d["aht"].get("median_h") is not None:
+        o.append(f"- **Median AHT**: {d['aht']['median_h']}h · mean {d['aht']['mean_h']}h (proxy: updated_at − created_at, {d['aht']['n']} solved tickets)")
     o.append("")
 
     # =========================================================================
@@ -1237,6 +1261,11 @@ def render_html(d, subdomain="tbpro", public=False):
     p.append(f'<div class="metric teal"><div class="metric-val">{fos24}</div>'
              f'<div class="metric-label">FeatureOS ideas (24h)</div>'
              f'<div class="metric-sub">{fos_tot} since launch</div></div>\n')
+    _aht = d.get("aht") or {}
+    if _aht.get("median_h") is not None:
+        p.append(f'<div class="metric"><div class="metric-val">{_aht["median_h"]}h</div>'
+                 f'<div class="metric-label">Median AHT</div>'
+                 f'<div class="metric-sub" title="AHT proxy: updated_at − created_at for {_aht["n"]} solved tickets">mean {_aht["mean_h"]}h · {_aht["n"]} solved</div></div>\n')
     p.append('</div>\n')
 
     gh_links = d.get("gh_links") or {}

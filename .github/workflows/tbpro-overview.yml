@@ -1,19 +1,18 @@
-name: Thundermail Daily Report
+name: Thundermail Launch Overview
 
 on:
   schedule:
-    - cron: '7 * * * *'   # hourly at :07 UTC
-  workflow_dispatch:       # also runnable on demand from the Actions tab
+    - cron: '17 */6 * * *'  # every 6 hours at :17
+  workflow_dispatch:
 
 permissions:
-  contents: write  # needed to commit the generated report
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,7 +34,7 @@ jobs:
             "${{ secrets.FEATUREOS_JWT }}" \
             > ~/.featureos.yaml
 
-      - name: Generate Thundermail daily report
+      - name: Generate launch overview
         env:
           ZENDESK_EMAIL:     ${{ secrets.ZENDESK_EMAIL }}
           ZENDESK_TOKEN:     ${{ secrets.ZENDESK_TOKEN }}
@@ -44,16 +43,16 @@ jobs:
           TZ: America/New_York
         run: |
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
-          python3 scripts/tbpro_daily.py --public --out-dir lisa/daily/
+          python3 scripts/tbpro_launch_overview.py --out lisa/daily/launch_overview.html
 
       - name: Commit and push
         run: |
           git config user.name "Moment"
           git config user.email "lisajill@users.noreply.github.com"
-          git add lisa/daily/
+          git add lisa/daily/launch_overview.html
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "No changes."
           else
-            git commit -m "Thundermail daily report · $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Thundermail launch overview · $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
