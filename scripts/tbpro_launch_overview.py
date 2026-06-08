@@ -470,7 +470,7 @@ def render(data):
 {"".join(
     f'<div style="background:#2d1a1a;border:1px solid #7f1d1d;border-left:4px solid #ef4444;border-radius:8px;'
     f'padding:.9rem 1.25rem;margin-bottom:1rem;font-size:.9rem;line-height:1.7">'
-    f'<span style="color:#ef4444;font-weight:700">🔴 BLOCK — Known problem #{b["id"]}: '
+    f'<span style="color:#ef4444;font-weight:700">🔴 BLOCK — Known problem <a href="{b["url"]}" target="_blank" style="color:#ef4444">#{b["id"]}</a>: '
     f'<a href="{b["url"]}" target="_blank" style="color:#ef4444">{b["subject"][:80]}</a></span>'
     f'<br><span style="color:#fca5a5">{len(b["open_incidents"])} open incident(s): '
     + (", ".join(f'<a href="https://tbpro.zendesk.com/agent/tickets/{i["id"]}" target="_blank" style="color:#fca5a5">#{i["id"]}</a>' for i in b["open_incidents"])
