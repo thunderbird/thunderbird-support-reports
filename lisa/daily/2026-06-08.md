@@ -1,27 +1,28 @@
 # Thundermail — Flight 2 Live Report · 2026-06-08
 
-_Updated: **2026-06-08 11:19 ET** · refreshes hourly_  
+_Updated: **2026-06-08 13:17 ET** · refreshes hourly_  
 _24h window: 2026-06-07T16:00 → 2026-06-08T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 6** of rollout — **2,000 invitees**, **28 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 6** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **1** solved in last 24h
-- **28** tickets total since launch · contact rate **1%** of 2000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (2 good / 0 bad)
+- **5** new tickets in last 24h · **5** solved in last 24h
+- **29** tickets total since launch · contact rate **1%** of 2000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (3 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
+- **Median AHT**: 6.0h · mean 22.0h (proxy: updated_at − created_at, 17 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"processed take"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
+- **"payment processed"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
 
-## Known problems — 2 problem(s), 4 incident(s)
+## Known problems — 2 problem(s), 5 incident(s)
 
 ### [#5679](https://tbpro.zendesk.com/agent/tickets/5679) · [solved] · Accounts 839: Expose RSA DKIM keys in custom domain setup 
 - ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
@@ -31,9 +32,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#6126](https://tbpro.zendesk.com/agent/tickets/6126) · [hold] · thunderbird-accounts/838: Payment Complete, Stalwart not updated
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
-- 2 incident(s):
-  - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [pending] · 2026-06-08 · _Payment Processing_
-  - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [pending] · 2026-06-08 · _Payment being processed, may take 48 hours_
+- 3 incident(s):
+  - [#5631](https://tbpro.zendesk.com/agent/tickets/5631) · [solved] · 2026-05-14 · _Subscription_
+  - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
+  - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -57,15 +59,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 13
-- **pending**: 8
-- **open**: 6
-- **hold**: 1
+- **solved**: 17
+- **pending**: 7
+- **hold**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
 - **Thundermail**: 18
-- **Account Hub**: 4
+- **Account Hub**: 5
 - **Appointment**: 2
 - **Send**: 1
 
@@ -75,17 +77,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 6
 - **curious** + **informed**: 4
-- **blocked** + **escalated**: 2
+- **blocked** + **investigated**: 2
 - **telling us** + **n/a**: 2
+- **blocked** + **escalated**: 2
 - **blocked** + **actioned**: 1
-- **confused** + **—**: 1
-- **blocked** + **investigated**: 1
+- **confused** + **actioned**: 1
+- **concerned** + **explained**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
+
+### Other / uncategorized — 1 tickets
+
+- **[#6128](https://tbpro.zendesk.com/agent/tickets/6128)** · Testing inline images in gitze
+  > test
 
 ### Appointment / calendar — 1 tickets
 
@@ -104,19 +112,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Pricing — payment issue — 1 tickets
 
-- **[#6119](https://tbpro.zendesk.com/agent/tickets/6119)** · Payment Processing — why: **confused** · 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
+- **[#6119](https://tbpro.zendesk.com/agent/tickets/6119)** · Payment Processing — why: **confused** · how: **actioned** · 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
   > Hi guys, For some reason payment processing is taking more than two days. Could you check if everything is going alright? Best, Matthijs
 
 ## New tickets — last 24h
 
 - [6117](https://tbpro.zendesk.com/agent/tickets/6117) · [open] · 2026-06-07T23:53 · Events on more than 1 days are not displayed correctly in the dashboard. 
-- [6119](https://tbpro.zendesk.com/agent/tickets/6119) · [pending] · 2026-06-08T04:49 · Payment Processing 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
-- [6125](https://tbpro.zendesk.com/agent/tickets/6125) · [pending] · 2026-06-08T14:33 · Payment being processed, may take 48 hours 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
+- [6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08T04:49 · Payment Processing 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
+- [6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08T14:33 · Payment being processed, may take 48 hours 🔗 [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838)
 - [6126](https://tbpro.zendesk.com/agent/tickets/6126) · [hold] · 2026-06-08T14:44 · thunderbird-accounts/838: Payment Complete, Stalwart not updated
+- [6128](https://tbpro.zendesk.com/agent/tickets/6128) · [open] · 2026-06-08T16:06 · Testing inline images in gitze
 
 ## Solved — last 24h
 
 - · [6032](https://tbpro.zendesk.com/agent/tickets/6032) · 2026-06-08T13:44 · Change default email account to [domain]
+- 👍 [6044](https://tbpro.zendesk.com/agent/tickets/6044) · 2026-06-08T15:55 · Appointment: saving availability error
+- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-08T16:32 · Payment being processed, may take 48 hours
+- · [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-08T16:41 · Payment Processing
+- · [6094](https://tbpro.zendesk.com/agent/tickets/6094) · 2026-06-08T17:02 · Email alias
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
