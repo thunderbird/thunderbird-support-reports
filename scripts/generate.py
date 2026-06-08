@@ -1262,7 +1262,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
   <h1>{month_cap} {year} — Thunderbird Support Dashboard</h1>
   <a href="{report_url}" style="font-size:.85rem;color:var(--accent);text-decoration:none;">Full report on GitHub →</a>
 </div>
-<p class="subtitle">Generated {today}</p>
+<p class="subtitle">{month_cap} {year} report · generated {today}</p>
 
 <div class="filter-bar">
   <button class="filter-btn active" style="background:var(--accent);border-color:var(--accent)" onclick="filterSection('all', this)">All</button>
