@@ -15,7 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from brand_summary import classify
-from tbpro_daily import github_zendesk_links, zd_creds
+from tbpro_daily import github_zendesk_links, zd_creds, WATCH_PROBLEMS, EXCLUDE_IDS as _DAILY_EXCLUDE
 
 # Tag-based classification (mirrors tbpro_daily.py TAG_THEMES)
 TAG_THEMES = [
@@ -146,9 +146,33 @@ def fetch_ideas():
     return filtered[:10]
 
 
+# ── Active blockers ──────────────────────────────────────────────────────────
+
+def fetch_blockers(auth, sub):
+    """Fetch WATCH_PROBLEMS and return list of dicts with problem + open incidents."""
+    blockers = []
+    for pid in sorted(WATCH_PROBLEMS):
+        try:
+            prob = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{pid}.json", auth).get("ticket", {})
+            inc_data = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{pid}/incidents.json", auth)
+            incidents = [i for i in inc_data.get("tickets", [])
+                         if i.get("status") not in ("solved", "closed")
+                         and int(i.get("id", 0)) not in _DAILY_EXCLUDE]
+            blockers.append({
+                "id": pid,
+                "subject": prob.get("subject", ""),
+                "status": prob.get("status", ""),
+                "open_incidents": incidents,
+                "url": f"https://{sub}.zendesk.com/agent/tickets/{pid}",
+            })
+        except Exception as e:
+            print(f"WARN: couldn't fetch blocker #{pid}: {e}", file=sys.stderr)
+    return blockers
+
+
 # ── Build data ────────────────────────────────────────────────────────────────
 
-def build(tickets, aht_mins, frt_mins, ideas, gh_links=None):
+def build(tickets, aht_mins, frt_mins, ideas, gh_links=None, blockers=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -234,6 +258,7 @@ def build(tickets, aht_mins, frt_mins, ideas, gh_links=None):
         "ideas": ideas,
         "gh_tickets": gh_tickets,
         "gh_links": gh_links or {},
+        "blockers": blockers or [],
         "today": today.isoformat(),
     }
 
@@ -413,6 +438,17 @@ def render(data):
   <h1>Thundermail — Full Launch Overview</h1>
 </div>
 <p class="subtitle">Early Bird (May 4, 2026) → {data["today"]} &nbsp;·&nbsp; {TOTAL_INVITEES:,} invitees total &nbsp;·&nbsp; Generated {gen}</p>
+
+{"".join(
+    f'<div style="background:#2d1a1a;border:1px solid #7f1d1d;border-left:4px solid #ef4444;border-radius:8px;'
+    f'padding:.9rem 1.25rem;margin-bottom:1rem;font-size:.9rem;line-height:1.7">'
+    f'<span style="color:#ef4444;font-weight:700">🔴 BLOCK — Known problem #{b["id"]}: '
+    f'<a href="{b["url"]}" target="_blank" style="color:#ef4444">{b["subject"][:80]}</a></span>'
+    f'<br><span style="color:#fca5a5">{len(b["open_incidents"])} open incident(s): '
+    + ", ".join(f'<a href="https://tbpro.zendesk.com/agent/tickets/{i["id"]}" target="_blank" style="color:#fca5a5">#{i["id"]}</a>' for i in b["open_incidents"])
+    + "</span></div>"
+    for b in data.get("blockers", []) if b.get("open_incidents")
+)}
 
 <div class="stats">
   <div class="card">
@@ -656,7 +692,12 @@ def main():
     gh_links = github_zendesk_links()
     print(f"  {sum(len(v) for v in gh_links.values())} GitHub links across {len(gh_links)} tickets", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas, gh_links)
+    print("Fetching active blockers…", file=sys.stderr)
+    blockers = fetch_blockers(auth, sub)
+    active = sum(1 for b in blockers if b.get("open_incidents"))
+    print(f"  {active} active blocker(s) with open incidents", file=sys.stderr)
+
+    data = build(tickets, aht_mins, frt_mins, ideas, gh_links, blockers)
     html = render(data)
 
     out = Path(args.out)
