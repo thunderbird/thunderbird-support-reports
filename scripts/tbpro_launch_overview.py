@@ -15,7 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from brand_summary import classify
-from tbpro_daily import github_zendesk_links
+from tbpro_daily import github_zendesk_links, zd_creds
 
 # Tag-based classification (mirrors tbpro_daily.py TAG_THEMES)
 TAG_THEMES = [
@@ -73,8 +73,9 @@ DEFAULT_OUT = Path("lisa/daily/launch_overview.html")
 # ── Zendesk ──────────────────────────────────────────────────────────────────
 
 def load_creds():
-    p = Path.home() / ".config" / "zendesk" / "credentials"
-    return dict(l.split("=", 1) for l in p.read_text().splitlines() if "=" in l)
+    # Read Zendesk creds via the shared loader: env vars first (for CI, where
+    # there is no creds file), then ~/.config/zendesk/credentials for local use.
+    return zd_creds()
 
 
 def zd_get(url, auth):
