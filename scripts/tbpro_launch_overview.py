@@ -129,6 +129,14 @@ def fetch_aht(auth, sub, tickets, sample=60):
 def fetch_ideas():
     """Fetch all non-off-topic ideas. Returns (all_ideas, top10) tuple.
     CLI sort param is unreliable — sort client-side."""
+    # Ensure credentials file exists — write from env vars if running in CI
+    creds_path = Path.home() / ".featureos.yaml"
+    if not creds_path.exists():
+        api_key = os.environ.get("FEATUREOS_API_KEY", "")
+        jwt = os.environ.get("FEATUREOS_JWT", "")
+        if api_key:
+            creds_path.write_text(f"api_key: {api_key}\njwt: {jwt}\n")
+
     q = f"board_id={FEATUREOS_BOARD_ID}&per_page=100&status=all"
     try:
         proc = subprocess.run(

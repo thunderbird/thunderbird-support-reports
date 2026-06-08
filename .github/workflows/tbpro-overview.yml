@@ -40,6 +40,8 @@ jobs:
           ZENDESK_TOKEN:     ${{ secrets.ZENDESK_TOKEN }}
           ZENDESK_SUBDOMAIN: ${{ secrets.ZENDESK_SUBDOMAIN }}
           GITHUB_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
+          FEATUREOS_API_KEY: ${{ secrets.FEATUREOS_API_KEY }}
+          FEATUREOS_JWT:     ${{ secrets.FEATUREOS_JWT }}
           TZ: America/New_York
         run: |
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
