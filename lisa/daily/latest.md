@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-09
 
-_Updated: **2026-06-09 13:53 ET** · refreshes hourly_  
+_Updated: **2026-06-09 14:57 ET** · refreshes hourly_  
 _24h window: 2026-06-08T16:00 → 2026-06-09T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 7** of rollout — **2,000 invitees**, **28 tickets** so far (
 
 ## At a glance
 
-- **0** new tickets in last 24h · **3** solved in last 24h
+- **0** new tickets in last 24h · **4** solved in last 24h
 - **28** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 9.4h · mean 24.3h (proxy: updated_at − created_at, 17 solved tickets)
+- **Median AHT**: 10.0h · mean 30.1h (proxy: updated_at − created_at, 18 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -53,8 +53,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 17
-- **pending**: 7
+- **solved**: 18
+- **pending**: 6
 - **hold**: 3
 - **open**: 1
 
@@ -95,6 +95,7 @@ _(none)_
 - 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-09T01:08 · Payment Processing
 - · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-09T01:08 · Payment being processed, may take 48 hours
 - · [6094](https://tbpro.zendesk.com/agent/tickets/6094) · 2026-06-09T13:47 · Email alias
+- · [6037](https://tbpro.zendesk.com/agent/tickets/6037) · 2026-06-09T18:02 · tb pro product documentation available?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
