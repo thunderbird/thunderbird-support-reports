@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-09
 
-_Updated: **2026-06-09 14:57 ET** · refreshes hourly_  
+_Updated: **2026-06-09 15:49 ET** · refreshes hourly_  
 _24h window: 2026-06-08T16:00 → 2026-06-09T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 7** of rollout — **2,000 invitees**, **28 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 7** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **4** solved in last 24h
-- **28** tickets total since launch · contact rate **1%** of 2000 invitees
+- **1** new tickets in last 24h · **5** solved in last 24h
+- **29** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 10.0h · mean 30.1h (proxy: updated_at − created_at, 18 solved tickets)
+- **Median AHT**: 12.3h · mean 37.0h (proxy: updated_at − created_at, 19 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -53,15 +53,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 18
-- **pending**: 6
+- **solved**: 19
+- **pending**: 5
 - **hold**: 3
-- **open**: 1
+- **open**: 2
 
 ## Service (cumulative)
 
 - **Thundermail**: 18
-- **Account Hub**: 5
+- **Account Hub**: 6
 - **Appointment**: 2
 - **Send**: 1
 
@@ -84,18 +84,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Account creation / signup confusion — 1 tickets
+
+- **[#6144](https://tbpro.zendesk.com/agent/tickets/6144)** · Unsubscribe
+  > Please remove me from your list and delete my account information. I signed up by mistake because I thought the service was free.
 
 ## New tickets — last 24h
 
-_(none)_
+- [6144](https://tbpro.zendesk.com/agent/tickets/6144) · [open] · 2026-06-09T19:15 · Unsubscribe
 
 ## Solved — last 24h
 
-- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-09T01:08 · Payment Processing
-- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-09T01:08 · Payment being processed, may take 48 hours
 - · [6094](https://tbpro.zendesk.com/agent/tickets/6094) · 2026-06-09T13:47 · Email alias
 - · [6037](https://tbpro.zendesk.com/agent/tickets/6037) · 2026-06-09T18:02 · tb pro product documentation available?
+- · [6045](https://tbpro.zendesk.com/agent/tickets/6045) · 2026-06-09T19:01 · My Thundermail account
+- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-09T19:30 · Payment Processing
+- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-09T19:30 · Payment being processed, may take 48 hours
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
