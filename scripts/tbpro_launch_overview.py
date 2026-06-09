@@ -199,6 +199,27 @@ def fetch_blockers(auth, sub):
 
 # ── Build data ────────────────────────────────────────────────────────────────
 
+def _weekly_csat(tickets):
+    """Returns list of {week, volume, good, bad, pct} dicts sorted by week."""
+    by_week = defaultdict(lambda: {"volume":0,"good":0,"bad":0})
+    for t in tickets:
+        d = dt.date.fromisoformat((t.get("created_at","")[:10]) or "2000-01-01")
+        ws = (d - dt.timedelta(days=d.weekday())).isoformat()
+        by_week[ws]["volume"] += 1
+        score = (t.get("satisfaction_rating") or {}).get("score")
+        if score == "good": by_week[ws]["good"] += 1
+        if score == "bad":  by_week[ws]["bad"]  += 1
+    result = []
+    for ws, s in sorted(by_week.items()):
+        n = s["good"] + s["bad"]
+        result.append({
+            "week": ws, "volume": s["volume"],
+            "good": s["good"], "bad": s["bad"],
+            "pct": round(s["good"]/n*100) if n else None
+        })
+    return result
+
+
 def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
@@ -261,6 +282,23 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
     # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
     surge_pct = 0.40
 
+    # CSAT — Thundermail only (Flight 2 launch onwards), all-time and last 7 days
+    F2_LAUNCH = "2026-06-03"
+    f2_tickets = [t for t in tickets
+                  if str(t.get("brand_id","")) == "38173138875795"
+                  and (t.get("created_at","") or "") >= F2_LAUNCH]
+    week_ago = (today - dt.timedelta(days=7)).isoformat()
+    f2_week   = [t for t in f2_tickets if (t.get("created_at","") or "")[:10] >= week_ago]
+
+    def csat_stats(tlist):
+        good = sum(1 for t in tlist if (t.get("satisfaction_rating") or {}).get("score") == "good")
+        bad  = sum(1 for t in tlist if (t.get("satisfaction_rating") or {}).get("score") == "bad")
+        pct  = f"{good/(good+bad)*100:.0f}%" if good + bad else "—"
+        return {"good": good, "bad": bad, "pct": pct, "n": good + bad}
+
+    csat_launch = csat_stats(f2_tickets)
+    csat_week   = csat_stats(f2_week)
+
     # Themes
     theme_counts = Counter()
     for t in tickets:
@@ -285,7 +323,10 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "ideas": ideas_top10,
         "ideas_count": len(ideas_all),
         "gh_tickets": gh_tickets,
-        "gh_links": gh_links or {},
+        "gh_links":     gh_links or {},
+        "csat_launch":  csat_launch,
+        "csat_week":    csat_week,
+        "csat_weekly":  _weekly_csat(f2_tickets),
         "blockers": blockers or [],
         "today": today.isoformat(),
     }
@@ -515,6 +556,23 @@ def render(data):
     <div class="value">{round(len(data['gh_tickets'])/total*100) if total else 0}%</div>
     <div class="sub">{len(data['gh_tickets'])} of {total} tickets linked to a GitHub issue</div>
   </div>
+  <div class="card{'green' if (data['csat_launch']['pct'] not in ('—','') and int(data['csat_launch']['pct'].rstrip('%') or 0) >= 80) else ''}">
+    <div class="label">Thundermail CSAT — since launch</div>
+    <div class="value">{data['csat_launch']['pct']}</div>
+    <div class="sub">{data['csat_launch']['good']} good · {data['csat_launch']['bad']} bad · {data['csat_launch']['n']} rated</div>
+  </div>
+  <div class="card{'green' if (data['csat_week']['pct'] not in ('—','') and int(data['csat_week']['pct'].rstrip('%') or 0) >= 80) else ''}">
+    <div class="label">Thundermail CSAT — last 7 days</div>
+    <div class="value">{data['csat_week']['pct']}</div>
+    <div class="sub">{data['csat_week']['good']} good · {data['csat_week']['bad']} bad · {data['csat_week']['n']} rated</div>
+  </div>
+</div>
+
+<div class="box" style="margin-bottom:1.5rem">
+  <h2 style="font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem">
+    Thundermail CSAT vs ticket volume — by week (Flight 2)
+  </h2>
+  <canvas id="csatChart" style="max-height:220px"></canvas>
 </div>
 
 <div class="callout">
@@ -693,6 +751,39 @@ function sortTable(tableId, colIdx, type) {{
     return dir === 'asc' ? cmp : -cmp;
   }});
   rows.forEach(r => tbody.appendChild(r));
+}}
+
+// CSAT vs volume chart
+const csatWeekly = {json.dumps(data['csat_weekly'])};
+if (csatWeekly.length && document.getElementById('csatChart')) {{
+  new Chart(document.getElementById('csatChart'), {{
+    data: {{
+      labels: csatWeekly.map(w => w.week),
+      datasets: [
+        {{
+          type: 'bar', label: 'Tickets', data: csatWeekly.map(w => w.volume),
+          backgroundColor: '#6366f140', borderColor: '#6366f1', borderWidth: 1,
+          borderRadius: 3, yAxisID: 'yVol',
+        }},
+        {{
+          type: 'line', label: 'CSAT %', data: csatWeekly.map(w => w.pct),
+          borderColor: '#22c55e', backgroundColor: 'transparent',
+          tension: 0.3, pointRadius: 4, pointHoverRadius: 6,
+          pointBackgroundColor: '#22c55e', borderWidth: 2, yAxisID: 'yCsat',
+          spanGaps: true,
+        }},
+      ]
+    }},
+    options: {{
+      responsive: true,
+      plugins: {{ legend: {{ labels: {{ color: '#94a3b8', font: {{ size: 11 }} }} }} }},
+      scales: {{
+        x: {{ ticks: {{ color: '#94a3b8', maxRotation: 45 }}, grid: {{ color: '#2a2d3a' }} }},
+        yVol: {{ position: 'left', beginAtZero: true, ticks: {{ color: '#6366f1', stepSize: 1 }}, grid: {{ color: '#2a2d3a' }}, title: {{ display: true, text: 'Tickets', color: '#6366f1', font: {{ size: 10 }} }} }},
+        yCsat: {{ position: 'right', min: 0, max: 100, ticks: {{ color: '#22c55e', callback: v => v + '%' }}, grid: {{ drawOnChartArea: false }}, title: {{ display: true, text: 'CSAT', color: '#22c55e', font: {{ size: 10 }} }} }},
+      }}
+    }}
+  }});
 }}
 </script>
 </body>

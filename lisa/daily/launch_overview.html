@@ -44,7 +44,7 @@
   <img src="https://tb.pro/media/img/thunderbird/thunderbird-256.png" alt="Thunderbird" style="width:48px;height:48px">
   <h1>Thundermail — Full Launch Overview</h1>
 </div>
-<p class="subtitle">Early Bird (May 4, 2026) → 2026-06-09 &nbsp;·&nbsp; 2,600 invitees total &nbsp;·&nbsp; Generated 2026-06-09 11:08 ET</p>
+<p class="subtitle">Early Bird (May 4, 2026) → 2026-06-09 &nbsp;·&nbsp; 2,600 invitees total &nbsp;·&nbsp; Generated 2026-06-09 11:10 ET</p>
 
 <div style="background:#2d1a1a;border:1px solid #7f1d1d;border-left:4px solid #ef4444;border-radius:8px;padding:.9rem 1.25rem;margin-bottom:1rem;font-size:.9rem;line-height:1.7"><span style="color:#ef4444;font-weight:700">🔴 BLOCK — Known problem <a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank" style="color:#ef4444">#6126</a>: <a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank" style="color:#ef4444">thunderbird-accounts/838: Payment Complete, Stalwart not updated</a></span><br><span style="color:#fca5a5">0 open incident(s): <em>problem ticket still open — monitoring for new incidents</em></span></div>
 
@@ -84,6 +84,23 @@
     <div class="value">13%</div>
     <div class="sub">16 of 121 tickets linked to a GitHub issue</div>
   </div>
+  <div class="cardgreen">
+    <div class="label">Thundermail CSAT — since launch</div>
+    <div class="value">100%</div>
+    <div class="sub">6 good · 0 bad · 6 rated</div>
+  </div>
+  <div class="cardgreen">
+    <div class="label">Thundermail CSAT — last 7 days</div>
+    <div class="value">100%</div>
+    <div class="sub">6 good · 0 bad · 6 rated</div>
+  </div>
+</div>
+
+<div class="box" style="margin-bottom:1.5rem">
+  <h2 style="font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem">
+    Thundermail CSAT vs ticket volume — by week (Flight 2)
+  </h2>
+  <canvas id="csatChart" style="max-height:220px"></canvas>
 </div>
 
 <div class="callout">
@@ -314,6 +331,39 @@ function sortTable(tableId, colIdx, type) {
     return dir === 'asc' ? cmp : -cmp;
   });
   rows.forEach(r => tbody.appendChild(r));
+}
+
+// CSAT vs volume chart
+const csatWeekly = [{"week": "2026-06-01", "volume": 25, "good": 4, "bad": 0, "pct": 100}, {"week": "2026-06-08", "volume": 3, "good": 2, "bad": 0, "pct": 100}];
+if (csatWeekly.length && document.getElementById('csatChart')) {
+  new Chart(document.getElementById('csatChart'), {
+    data: {
+      labels: csatWeekly.map(w => w.week),
+      datasets: [
+        {
+          type: 'bar', label: 'Tickets', data: csatWeekly.map(w => w.volume),
+          backgroundColor: '#6366f140', borderColor: '#6366f1', borderWidth: 1,
+          borderRadius: 3, yAxisID: 'yVol',
+        },
+        {
+          type: 'line', label: 'CSAT %', data: csatWeekly.map(w => w.pct),
+          borderColor: '#22c55e', backgroundColor: 'transparent',
+          tension: 0.3, pointRadius: 4, pointHoverRadius: 6,
+          pointBackgroundColor: '#22c55e', borderWidth: 2, yAxisID: 'yCsat',
+          spanGaps: true,
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { labels: { color: '#94a3b8', font: { size: 11 } } } },
+      scales: {
+        x: { ticks: { color: '#94a3b8', maxRotation: 45 }, grid: { color: '#2a2d3a' } },
+        yVol: { position: 'left', beginAtZero: true, ticks: { color: '#6366f1', stepSize: 1 }, grid: { color: '#2a2d3a' }, title: { display: true, text: 'Tickets', color: '#6366f1', font: { size: 10 } } },
+        yCsat: { position: 'right', min: 0, max: 100, ticks: { color: '#22c55e', callback: v => v + '%' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'CSAT', color: '#22c55e', font: { size: 10 } } },
+      }
+    }
+  });
 }
 </script>
 </body>
