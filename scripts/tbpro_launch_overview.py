@@ -199,6 +199,30 @@ def fetch_blockers(auth, sub):
 
 # ── Build data ────────────────────────────────────────────────────────────────
 
+def fetch_csat_stats(auth, sub):
+    """Fetch accurate CSAT counts via dedicated Zendesk searches."""
+    import datetime as _dt
+    F2_LAUNCH  = "2026-06-03"
+    EB_LAUNCH  = LAUNCH_DATE
+    week_ago   = (_dt.date.today() - _dt.timedelta(days=7)).isoformat()
+
+    def _count(query):
+        q = urllib.parse.urlencode({"query": query, "per_page": 1})
+        d = zd_get(f"https://{sub}.zendesk.com/api/v2/search.json?{q}", auth)
+        return d.get("count", 0)
+
+    def _stats(since):
+        g = _count(f'type:ticket brand:"Thunderbird Pro" status:solved satisfaction:good created>={since}')
+        b = _count(f'type:ticket brand:"Thunderbird Pro" status:solved satisfaction:bad created>={since}')
+        return {"good": g, "bad": b, "n": g+b, "pct": f"{g/(g+b)*100:.0f}%" if g+b else "—"}
+
+    return {
+        "eb":   _stats(EB_LAUNCH),
+        "f2":   _stats(F2_LAUNCH),
+        "week": _stats(week_ago),
+    }
+
+
 def _weekly_csat(tickets):
     """Returns list of {week, volume, good, bad, pct} dicts sorted by week."""
     by_week = defaultdict(lambda: {"volume":0,"good":0,"bad":0})
@@ -220,7 +244,7 @@ def _weekly_csat(tickets):
     return result
 
 
-def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None):
+def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -282,22 +306,8 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
     # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
     surge_pct = 0.40
 
-    # CSAT — Thundermail only (Flight 2 launch onwards), all-time and last 7 days
-    F2_LAUNCH = "2026-06-03"
-    f2_tickets = [t for t in tickets
-                  if str(t.get("brand_id","")) == "38173138875795"
-                  and (t.get("created_at","") or "") >= F2_LAUNCH]
-    week_ago = (today - dt.timedelta(days=7)).isoformat()
-    f2_week   = [t for t in f2_tickets if (t.get("created_at","") or "")[:10] >= week_ago]
-
-    def csat_stats(tlist):
-        good = sum(1 for t in tlist if (t.get("satisfaction_rating") or {}).get("score") == "good")
-        bad  = sum(1 for t in tlist if (t.get("satisfaction_rating") or {}).get("score") == "bad")
-        pct  = f"{good/(good+bad)*100:.0f}%" if good + bad else "—"
-        return {"good": good, "bad": bad, "pct": pct, "n": good + bad}
-
-    csat_launch = csat_stats(f2_tickets)
-    csat_week   = csat_stats(f2_week)
+    csat_launch = csat_all.get("eb", {})
+    csat_week   = csat_all.get("week", {})
 
     # Themes
     theme_counts = Counter()
@@ -326,7 +336,7 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "gh_links":     gh_links or {},
         "csat_launch":  csat_launch,
         "csat_week":    csat_week,
-        "csat_weekly":  _weekly_csat(f2_tickets),
+        "csat_weekly":  _weekly_csat([t for t in tickets if str(t.get("brand_id","")) == "38173138875795" and (t.get("created_at","") or "") >= "2026-06-03"]),
         "blockers": blockers or [],
         "today": today.isoformat(),
     }
@@ -817,7 +827,11 @@ def main():
     active = sum(1 for b in blockers if b.get("status") not in ("solved", "closed"))
     print(f"  {active} active blocker(s) with open incidents", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers)
+    print("Fetching CSAT stats…", file=sys.stderr)
+    csat_all = fetch_csat_stats(auth, sub)
+    print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated)", file=sys.stderr)
+
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all)
     html = render(data)
 
     out = Path(args.out)
