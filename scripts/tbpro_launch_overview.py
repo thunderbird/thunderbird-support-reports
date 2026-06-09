@@ -786,6 +786,7 @@ if (csatWeekly.length && document.getElementById('csatChart')) {{
     }},
     options: {{
       responsive: true,
+      interaction: {{ mode: 'index', intersect: false }},
       plugins: {{ legend: {{ labels: {{ color: '#94a3b8', font: {{ size: 11 }} }} }} }},
       scales: {{
         x: {{ ticks: {{ color: '#94a3b8', maxRotation: 45 }}, grid: {{ color: '#2a2d3a' }} }},
