@@ -556,12 +556,12 @@ def render(data):
     <div class="value">{round(len(data['gh_tickets'])/total*100) if total else 0}%</div>
     <div class="sub">{len(data['gh_tickets'])} of {total} tickets linked to a GitHub issue</div>
   </div>
-  <div class="card{'green' if (data['csat_launch']['pct'] not in ('—','') and int(data['csat_launch']['pct'].rstrip('%') or 0) >= 80) else ''}">
+  <div class="card {'green' if data['csat_launch']['n'] and int((data['csat_launch']['pct'] or '0').rstrip('%')) >= 80 else ''}">
     <div class="label">Thundermail CSAT — since launch</div>
     <div class="value">{data['csat_launch']['pct']}</div>
     <div class="sub">{data['csat_launch']['good']} good · {data['csat_launch']['bad']} bad · {data['csat_launch']['n']} rated</div>
   </div>
-  <div class="card{'green' if (data['csat_week']['pct'] not in ('—','') and int(data['csat_week']['pct'].rstrip('%') or 0) >= 80) else ''}">
+  <div class="card {'green' if data['csat_week']['n'] and int((data['csat_week']['pct'] or '0').rstrip('%')) >= 80 else ''}">
     <div class="label">Thundermail CSAT — last 7 days</div>
     <div class="value">{data['csat_week']['pct']}</div>
     <div class="sub">{data['csat_week']['good']} good · {data['csat_week']['bad']} bad · {data['csat_week']['n']} rated</div>
