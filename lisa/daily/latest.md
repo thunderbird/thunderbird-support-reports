@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-08
 
-_Updated: **2026-06-08 21:14 ET** · refreshes hourly_  
+_Updated: **2026-06-08 23:23 ET** · refreshes hourly_  
 _24h window: 2026-06-07T16:00 → 2026-06-08T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 2 is **day 6** of rollout — **2,000 invitees**, **28 tickets** so far (
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"take hours"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
+- **"payment processed"** — 2 tickets in 24h (new; baseline 0 cum) — [#6125](https://tbpro.zendesk.com/agent/tickets/6125), [#6126](https://tbpro.zendesk.com/agent/tickets/6126)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -60,8 +60,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 17
-- **pending**: 8
+- **pending**: 7
 - **hold**: 3
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -79,9 +80,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **concerned** + **explained**: 1
 - **blocked** + **actioned**: 1
 - **confused** + **actioned**: 1
-- **concerned** + **explained**: 1
 - **confused** + **explained**: 1
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
