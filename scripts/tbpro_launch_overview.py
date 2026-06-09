@@ -537,7 +537,7 @@ def render(data):
     <div class="sub">since Early Bird launch</div>
   </div>
   <div class="card">
-    <div class="label">Overall Contact Rate</div>
+    <div class="label">Contact Rate</div>
     <div class="value">{overall_rate}%</div>
     <div class="sub">{total} tickets / {TOTAL_INVITEES:,} invitees</div>
   </div>
@@ -552,27 +552,27 @@ def render(data):
     <div class="sub">calendar time to resolve</div>
   </div>
   <div class="card">
-    <div class="label">Median First Reply</div>
+    <div class="label">First Reply</div>
     <div class="value">{frt_median}</div>
     <div class="sub">from ticket created to first reply</div>
   </div>
   <div class="card">
-    <div class="label">Ideas Since Launch</div>
+    <div class="label">Ideas (Board)</div>
     <div class="value">{data['ideas_count']}</div>
     <div class="sub">on FeatureOS (excl. off-topic)</div>
   </div>
   <div class="card orange">
-    <div class="label">GitHub Escalation Rate</div>
+    <div class="label">GH Escalations</div>
     <div class="value">{round(len(data['gh_tickets'])/total*100) if total else 0}%</div>
     <div class="sub">{len(data['gh_tickets'])} of {total} tickets linked to a GitHub issue</div>
   </div>
   <div class="card {'green' if data['csat_launch']['n'] and int((data['csat_launch']['pct'] or '0').rstrip('%')) >= 80 else ''}">
-    <div class="label">Thundermail CSAT — since launch</div>
+    <div class="label">CSAT Since Launch</div>
     <div class="value">{data['csat_launch']['pct']}</div>
     <div class="sub">{data['csat_launch']['good']} good · {data['csat_launch']['bad']} bad · {data['csat_launch']['n']} rated</div>
   </div>
   <div class="card {'green' if data['csat_week']['n'] and int((data['csat_week']['pct'] or '0').rstrip('%')) >= 80 else ''}">
-    <div class="label">Thundermail CSAT — last 7 days</div>
+    <div class="label">CSAT Last 7 Days</div>
     <div class="value">{data['csat_week']['pct']}</div>
     <div class="sub">{data['csat_week']['good']} good · {data['csat_week']['bad']} bad · {data['csat_week']['n']} rated</div>
   </div>
