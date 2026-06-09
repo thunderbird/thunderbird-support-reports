@@ -768,7 +768,7 @@ if (csatWeekly.length && document.getElementById('csatChart')) {{
         {{
           type: 'line', label: 'CSAT %', data: csatWeekly.map(w => w.pct),
           borderColor: '#22c55e', backgroundColor: 'transparent',
-          tension: 0.3, pointRadius: 4, pointHoverRadius: 6,
+          tension: 0.3, pointRadius: 7, pointHoverRadius: 10,
           pointBackgroundColor: '#22c55e', borderWidth: 2, yAxisID: 'yCsat',
           spanGaps: true,
         }},
