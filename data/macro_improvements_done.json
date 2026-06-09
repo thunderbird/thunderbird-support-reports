@@ -1,0 +1,8 @@
+{
+  "_readme": "Track macros where KB links have been added. Format: macro_title -> {kb_url, date_added, notes}",
+  "Thundermail::Waitlist questions/bump": {
+    "kb_url": "https://tb.pro/waitlist",
+    "date_added": "2026-06-09",
+    "notes": "Waitlist link added per Lisa"
+  }
+}
