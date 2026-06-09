@@ -255,7 +255,8 @@ def urgency_for(ticket):
     return None
 
 BRAND = "Thunderbird Pro"
-LAUNCH_DATE = "2026-06-03"   # Flight 2 start
+LAUNCH_DATE     = "2026-06-03"   # Flight 2 start (ticket counts, themes, contact rate)
+CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time from here
 INVITEE_COUNT = 2000         # Flight 2 · 500 (2026-06-03) + 1500 (2026-06-04)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
@@ -711,8 +712,8 @@ def build(report_date_et):
             print(f"WARN: couldn't fetch incidents for watch problem #{pid}: {e}", file=sys.stderr)
 
     # CSAT — cumulative (since launch) and 24h
-    good_cum = zd_search_all(f'type:ticket brand:"{BRAND}" status:solved satisfaction:good created>={LAUNCH_DATE}')
-    bad_cum = zd_search_all(f'type:ticket brand:"{BRAND}" status:solved satisfaction:bad created>={LAUNCH_DATE}')
+    good_cum = zd_search_all(f'type:ticket brand:"{BRAND}" status:solved satisfaction:good created>={CSAT_START_DATE}')
+    bad_cum = zd_search_all(f'type:ticket brand:"{BRAND}" status:solved satisfaction:bad created>={CSAT_START_DATE}')
     good_24h = [t for t in good_cum if window_start_utc <= parse_iso(t["updated_at"]) < window_end_utc]
     bad_24h = [t for t in bad_cum if window_start_utc <= parse_iso(t["updated_at"]) < window_end_utc]
 
