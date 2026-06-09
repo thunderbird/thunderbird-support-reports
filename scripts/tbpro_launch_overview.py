@@ -567,7 +567,7 @@ def render(data):
     <div class="sub">{len(data['gh_tickets'])} of {total} tickets linked to a GitHub issue</div>
   </div>
   <div class="card {'green' if data['csat_launch']['n'] and int((data['csat_launch']['pct'] or '0').rstrip('%')) >= 80 else ''}">
-    <div class="label">CSAT Since Launch</div>
+    <div class="label">CSAT All-time</div>
     <div class="value">{data['csat_launch']['pct']}</div>
     <div class="sub">{data['csat_launch']['good']} good · {data['csat_launch']['bad']} bad · {data['csat_launch']['n']} rated</div>
   </div>
