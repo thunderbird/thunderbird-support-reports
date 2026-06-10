@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-10
 
-_Updated: **2026-06-10 11:18 ET** · refreshes hourly_  
+_Updated: **2026-06-10 13:23 ET** · refreshes hourly_  
 _24h window: 2026-06-09T16:00 → 2026-06-10T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 2 is **day 8** of rollout — **2,000 invitees**, **29 tickets** so far (
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 22.8h · mean 52.3h (proxy: updated_at − created_at, 22 solved tickets)
+- **Median AHT**: 22.8h · mean 52.5h (proxy: updated_at − created_at, 22 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -25,14 +25,15 @@ Flight 2 is **day 8** of rollout — **2,000 invitees**, **29 tickets** so far (
   - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [solved] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
 
 ### [#6126](https://tbpro.zendesk.com/agent/tickets/6126) · [hold] · thunderbird-accounts/838: Payment Complete, Stalwart not updated
-- 🔧 GitHub: [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
+- ✅ GitHub: [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
 - 3 incident(s):
   - [#5631](https://tbpro.zendesk.com/agent/tickets/5631) · [solved] · 2026-05-14 · _Subscription_
   - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
   - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
 
-## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
+## Other tickets linked to GitHub — 4 ticket(s) → 4 issue(s)
 
+- 🔧 [zd #6117](https://tbpro.zendesk.com/agent/tickets/6117) → [thunderbird/appointment#1702](https://github.com/thunderbird/appointment/issues/1702) · _All day events overflow the Dashboard calendar UI_
 - 🔧 [zd #6068](https://tbpro.zendesk.com/agent/tickets/6068) → [thunderbird/thunderbird-accounts#769](https://github.com/thunderbird/thunderbird-accounts/issues/769) · _Enable duplicate email on keycloak_
 - ✅ [zd #6044](https://tbpro.zendesk.com/agent/tickets/6044) → [thunderbird/appointment#1696](https://github.com/thunderbird/appointment/issues/1696) · _Slugs are scope-generated on the Subscriber but indexed globally in DB_
 - ✅ [zd #6040](https://tbpro.zendesk.com/agent/tickets/6040) → [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226) · _Delivery Issue with Telekom Mail Server_
@@ -54,9 +55,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 22
-- **hold**: 3
-- **open**: 2
-- **pending**: 2
+- **open**: 3
+- **pending**: 3
+- **hold**: 1
 
 ## Service (cumulative)
 
@@ -71,35 +72,35 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 6
 - **curious** + **informed**: 4
+- **confused** + **explained**: 2
 - **blocked** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
 - **blocked** + **actioned**: 1
 - **confused** + **actioned**: 1
 - **concerned** + **explained**: 1
-- **confused** + **explained**: 1
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
 
-### Account creation / signup confusion — 1 tickets
+### Aliases — 1 tickets
 
-- **[#6155](https://tbpro.zendesk.com/agent/tickets/6155)** · email
+- **[#6155](https://tbpro.zendesk.com/agent/tickets/6155)** · email — why: **confused** · how: **explained**
   > When I signed up for [domain] I thought I could get 15 email adresses. I thought they would be different ( like 15 different adresses in hotmail), but they are alias, and…
 
 ## New tickets — last 24h
 
-- [6155](https://tbpro.zendesk.com/agent/tickets/6155) · [open] · 2026-06-10T11:39 · email
+- [6155](https://tbpro.zendesk.com/agent/tickets/6155) · [pending] · 2026-06-10T11:39 · email
 
 ## Solved — last 24h
 
 - · [6063](https://tbpro.zendesk.com/agent/tickets/6063) · 2026-06-10T04:01 · CNAME Records
-- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-10T14:38 · Payment Processing
-- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-10T14:38 · Payment being processed, may take 48 hours
 - · [6077](https://tbpro.zendesk.com/agent/tickets/6077) · 2026-06-10T15:02 · TB pro question
 - · [6029](https://tbpro.zendesk.com/agent/tickets/6029) · 2026-06-10T15:02 · Webmail
+- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-10T16:47 · Payment Processing
+- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-10T16:47 · Payment being processed, may take 48 hours
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
