@@ -532,8 +532,7 @@ def render(data):
         f'padding:.9rem 1.25rem;margin-bottom:1rem;font-size:.9rem;line-height:1.7">'
         f'<span style="color:{"#f59e0b" if monitoring else "#ef4444"};font-weight:700">{"🟡 MONITORING" if monitoring else "🔴 BLOCK"} — Known problem '
         f'<a href="{b["url"]}" target="_blank" style="color:{"#f59e0b" if monitoring else "#ef4444"}">#{b["id"]}</a>'
-        + ((" &nbsp;" + " ".join(f'<a href="{i["url"]}" target="_blank" style="color:{"#fcd34d" if monitoring else "#fca5a5"};font-size:.8rem">{i["repo"]}#{i["number"]}</a>' for i in gh_issues)) if gh_issues else "")
-        + f': <a href="{b["url"]}" target="_blank" style="color:{"#f59e0b" if monitoring else "#ef4444"}">{b["subject"][:80]}</a>'
+        + ((" &nbsp;" + " ".join(f'<a href="{i["url"]}" target="_blank" style="color:{"#fcd34d" if monitoring else "#fca5a5"};font-size:.8rem">{i["repo"]}#{i["number"]}</a>' for i in gh_issues)) if gh_issues else f': <a href="{b["url"]}" target="_blank" style="color:{"#f59e0b" if monitoring else "#ef4444"}">{b["subject"][:80]}</a>')
         + (f' <span style="color:{"#fcd34d" if monitoring else "#fca5a5"};font-weight:400;font-size:.8rem">({monitoring})</span>' if monitoring else "")
         + "</span>"
         f'<br><span style="color:{"#fcd34d" if monitoring else "#fca5a5"}">{len(b["open_incidents"])} open incident(s): '
