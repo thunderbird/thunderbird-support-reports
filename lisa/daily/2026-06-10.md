@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-10
 
-_Updated: **2026-06-10 09:29 ET** · refreshes hourly_  
+_Updated: **2026-06-10 11:18 ET** · refreshes hourly_  
 _24h window: 2026-06-09T16:00 → 2026-06-10T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 8** of rollout — **2,000 invitees**, **29 tickets** so far (
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
+- **1** new tickets in last 24h · **5** solved in last 24h
 - **29** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 14.6h · mean 41.5h (proxy: updated_at − created_at, 20 solved tickets)
+- **Median AHT**: 22.8h · mean 52.3h (proxy: updated_at − created_at, 22 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -53,10 +53,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 20
-- **pending**: 4
+- **solved**: 22
 - **hold**: 3
 - **open**: 2
+- **pending**: 2
 
 ## Service (cumulative)
 
@@ -95,9 +95,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-09T20:30 · Payment Processing
-- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-09T20:30 · Payment being processed, may take 48 hours
 - · [6063](https://tbpro.zendesk.com/agent/tickets/6063) · 2026-06-10T04:01 · CNAME Records
+- 👍 [6119](https://tbpro.zendesk.com/agent/tickets/6119) · 2026-06-10T14:38 · Payment Processing
+- · [6125](https://tbpro.zendesk.com/agent/tickets/6125) · 2026-06-10T14:38 · Payment being processed, may take 48 hours
+- · [6077](https://tbpro.zendesk.com/agent/tickets/6077) · 2026-06-10T15:02 · TB pro question
+- · [6029](https://tbpro.zendesk.com/agent/tickets/6029) · 2026-06-10T15:02 · Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
