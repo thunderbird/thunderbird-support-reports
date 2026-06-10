@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-10
 
-_Updated: **2026-06-10 07:25 ET** · refreshes hourly_  
+_Updated: **2026-06-10 09:29 ET** · refreshes hourly_  
 _24h window: 2026-06-09T16:00 → 2026-06-10T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 8** of rollout — **2,000 invitees**, **28 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 8** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **3** solved in last 24h
-- **28** tickets total since launch · contact rate **1%** of 2000 invitees
+- **1** new tickets in last 24h · **3** solved in last 24h
+- **29** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -56,11 +56,11 @@ _(none in last 24h)_
 - **solved**: 20
 - **pending**: 4
 - **hold**: 3
-- **open**: 1
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 18
+- **Thundermail**: 19
 - **Account Hub**: 5
 - **Appointment**: 2
 - **Send**: 1
@@ -84,11 +84,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Account creation / signup confusion — 1 tickets
+
+- **[#6155](https://tbpro.zendesk.com/agent/tickets/6155)** · email
+  > When I signed up for [domain] I thought I could get 15 email adresses. I thought they would be different ( like 15 different adresses in hotmail), but they are alias, and…
 
 ## New tickets — last 24h
 
-_(none)_
+- [6155](https://tbpro.zendesk.com/agent/tickets/6155) · [open] · 2026-06-10T11:39 · email
 
 ## Solved — last 24h
 
