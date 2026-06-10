@@ -172,6 +172,12 @@ def fetch_ideas():
 # Problems tracked in daily report but NOT shown as blockers on launch overview
 LAUNCH_WATCH_ONLY = {5679}  # DKIM — tracked but not a launch blocker
 
+# Problems where a fix has been deployed — show in amber "monitoring" state
+# Format: {ticket_id: "fix deployed <date>"}
+MONITORING_FIXED = {
+    6126: "fix deployed June 9",
+}
+
 
 def fetch_blockers(auth, sub):
     """Fetch WATCH_PROBLEMS (minus LAUNCH_WATCH_ONLY) as launch blockers.
@@ -182,14 +188,16 @@ def fetch_blockers(auth, sub):
         try:
             prob = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{pid}.json", auth).get("ticket", {})
             inc_data = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{pid}/incidents.json", auth)
-            incidents = [i for i in inc_data.get("tickets", [])
-                         if i.get("status") not in ("solved", "closed")
-                         and int(i.get("id", 0)) not in _DAILY_EXCLUDE]
+            all_incidents = [i for i in inc_data.get("tickets", [])
+                             if int(i.get("id", 0)) not in _DAILY_EXCLUDE]
+            open_incidents = [i for i in all_incidents
+                              if i.get("status") not in ("solved", "closed")]
             blockers.append({
                 "id": pid,
                 "subject": prob.get("subject", ""),
                 "status": prob.get("status", ""),
-                "open_incidents": incidents,
+                "open_incidents": open_incidents,
+                "all_incident_ids": [i["id"] for i in all_incidents],
                 "url": f"https://{sub}.zendesk.com/agent/tickets/{pid}",
             })
         except Exception as e:
@@ -519,14 +527,26 @@ def render(data):
 <p class="subtitle">Early Bird (May 4, 2026) → {data["today"]} &nbsp;·&nbsp; {TOTAL_INVITEES:,} invitees total &nbsp;·&nbsp; Generated {gen}</p>
 
 {"".join(
-    f'<div style="background:#2d1a1a;border:1px solid #7f1d1d;border-left:4px solid #ef4444;border-radius:8px;'
-    f'padding:.9rem 1.25rem;margin-bottom:1rem;font-size:.9rem;line-height:1.7">'
-    f'<span style="color:#ef4444;font-weight:700">🔴 BLOCK — Known problem <a href="{b["url"]}" target="_blank" style="color:#ef4444">#{b["id"]}</a>: '
-    f'<a href="{b["url"]}" target="_blank" style="color:#ef4444">{b["subject"][:80]}</a></span>'
-    f'<br><span style="color:#fca5a5">{len(b["open_incidents"])} open incident(s): '
-    + (", ".join(f'<a href="https://tbpro.zendesk.com/agent/tickets/{i["id"]}" target="_blank" style="color:#fca5a5">#{i["id"]}</a>' for i in b["open_incidents"])
-       if b["open_incidents"] else "<em>problem ticket still open — monitoring for new incidents</em>")
-    + "</span></div>"
+    (lambda monitoring, gh_issues: (
+        f'<div style="background:{"#2a2000" if monitoring else "#2d1a1a"};border:1px solid {"#78350f" if monitoring else "#7f1d1d"};border-left:4px solid {"#f59e0b" if monitoring else "#ef4444"};border-radius:8px;'
+        f'padding:.9rem 1.25rem;margin-bottom:1rem;font-size:.9rem;line-height:1.7">'
+        f'<span style="color:{"#f59e0b" if monitoring else "#ef4444"};font-weight:700">{"🟡 MONITORING" if monitoring else "🔴 BLOCK"} — Known problem '
+        f'<a href="{b["url"]}" target="_blank" style="color:{"#f59e0b" if monitoring else "#ef4444"}">#{b["id"]}</a>'
+        + ((" &nbsp;" + " ".join(f'<a href="{i["url"]}" target="_blank" style="color:{"#fcd34d" if monitoring else "#fca5a5"};font-size:.8rem">{i["repo"]}#{i["number"]}</a>' for i in gh_issues)) if gh_issues else "")
+        + f': <a href="{b["url"]}" target="_blank" style="color:{"#f59e0b" if monitoring else "#ef4444"}">{b["subject"][:80]}</a>'
+        + (f' <span style="color:{"#fcd34d" if monitoring else "#fca5a5"};font-weight:400;font-size:.8rem">({monitoring})</span>' if monitoring else "")
+        + "</span>"
+        f'<br><span style="color:{"#fcd34d" if monitoring else "#fca5a5"}">{len(b["open_incidents"])} open incident(s): '
+        + (", ".join(f'<a href="https://tbpro.zendesk.com/agent/tickets/{i["id"]}" target="_blank" style="color:{"#fcd34d" if monitoring else "#fca5a5"}">#{i["id"]}</a>' for i in b["open_incidents"])
+           if b["open_incidents"] else "<em>problem ticket still open — monitoring for new incidents</em>")
+        + "</span></div>"
+    ))(
+        MONITORING_FIXED.get(b["id"]),
+        list({i["url"]: i for issues in [
+            data.get("gh_links", {}).get(b["id"], []),
+            *(data.get("gh_links", {}).get(iid, []) for iid in b.get("all_incident_ids", []))
+        ] for i in issues}.values())
+    )
     for b in data.get("blockers", []) if b.get("status") not in ("solved", "closed")
 )}
 
