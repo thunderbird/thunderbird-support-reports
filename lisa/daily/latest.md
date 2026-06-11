@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-11
 
-_Updated: **2026-06-11 01:47 ET** · refreshes hourly_  
+_Updated: **2026-06-11 04:00 ET** · refreshes hourly_  
 _24h window: 2026-06-10T16:00 → 2026-06-11T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 9** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 9** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **0** solved in last 24h
+- **0** new tickets in last 24h · **1** solved in last 24h
 - **29** tickets total since launch · contact rate **1%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 22.8h · mean 52.5h (proxy: updated_at − created_at, 22 solved tickets)
+- **Median AHT**: 28.8h · mean 53.7h (proxy: updated_at − created_at, 23 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -54,9 +54,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 22
-- **open**: 3
-- **pending**: 3
+- **solved**: 23
+- **pending**: 5
 - **hold**: 1
 
 ## Service (cumulative)
@@ -78,7 +77,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 2
 - **blocked** + **actioned**: 1
 - **confused** + **actioned**: 1
+- **confused** + **informed**: 1
 - **concerned** + **explained**: 1
+- **request** + **redirected**: 1
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **explained**: 1
@@ -93,7 +94,7 @@ _(none)_
 
 ## Solved — last 24h
 
-_(none)_
+- · [6117](https://tbpro.zendesk.com/agent/tickets/6117) · 2026-06-11T07:57 · Events on more than 1 days are not displayed correctly in the dashboard. 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
