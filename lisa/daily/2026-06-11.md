@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-11
 
-_Updated: **2026-06-11 11:22 ET** · refreshes hourly_  
+_Updated: **2026-06-11 13:26 ET** · refreshes hourly_  
 _24h window: 2026-06-10T16:00 → 2026-06-11T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 9** of rollout — **2,000 invitees**, **29 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
+Flight 2 is **day 9** of rollout — **2,000 invitees**, **30 tickets** so far (1.5% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **1** solved in last 24h
-- **29** tickets total since launch · contact rate **1%** of 2000 invitees
+- **1** new tickets in last 24h · **2** solved in last 24h
+- **30** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 28.8h · mean 53.7h (proxy: updated_at − created_at, 23 solved tickets)
+- **Median AHT**: 22.8h · mean 51.5h (proxy: updated_at − created_at, 24 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -54,7 +54,7 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 23
+- **solved**: 24
 - **pending**: 4
 - **open**: 1
 - **hold**: 1
@@ -76,6 +76,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **other** + **explained**: 1
 - **blocked** + **actioned**: 1
 - **confused** + **actioned**: 1
 - **confused** + **informed**: 1
@@ -87,15 +88,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Other / uncategorized — 1 tickets
+
+- **[#6182](https://tbpro.zendesk.com/agent/tickets/6182)** · let me know — why: **other** · how: **explained**
+  > I see you’re hiring for a senior Rust software engineer. We're in talks with four senior rust software engineers near Canada. Should I send you their resumes to review? Catherine
 
 ## New tickets — last 24h
 
-_(none)_
+- [6182](https://tbpro.zendesk.com/agent/tickets/6182) · [solved] · 2026-06-11T15:37 · let me know
 
 ## Solved — last 24h
 
 - · [6117](https://tbpro.zendesk.com/agent/tickets/6117) · 2026-06-11T07:57 · Events on more than 1 days are not displayed correctly in the dashboard. 
+- · [6182](https://tbpro.zendesk.com/agent/tickets/6182) · 2026-06-11T17:18 · let me know
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
