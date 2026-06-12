@@ -667,8 +667,20 @@ def render(data):
 <div class="box">
   <h3>Ideas — {len(ideas_all)} total (excl. off-topic &amp; by design)</h3>
 
+  <h4 style="margin:0 0 .4rem;font-size:.9rem;color:var(--text)">Top 10 open for discussion <span style="font-weight:400;color:var(--muted);font-size:.8rem">· sortable · 🔥 = comments exceed votes</span></h4>
+  <table id="ideasTable">
+    <thead><tr>
+      <th class="num" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer;white-space:nowrap">Votes ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer;white-space:nowrap">Comments ↕</th>
+      <th class="num" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer;white-space:nowrap">Score ↕</th>
+      <th onclick="sortTable('ideasTable',3,'str')" style="cursor:pointer;white-space:nowrap">Idea ↕</th>
+      <th>Tags</th>
+    </tr></thead>
+    <tbody>{unhandled_rows or "<tr><td colspan='5' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
+  </table>
+
   {"".join([
-    f'<div style="margin-bottom:1.25rem"><h4 style="margin:0 0 .4rem;font-size:.9rem;color:{"#10b981" if grp_label=="Landed!" else "#6366f1" if grp_label=="In flight" else "#f59e0b"}">'
+    f'<div style="margin-top:1.25rem"><h4 style="margin:0 0 .4rem;font-size:.9rem;color:{"#10b981" if grp_label=="Landed!" else "#6366f1" if grp_label=="In flight" else "#f59e0b"}">'
     f'{"✅ Landed" if grp_label=="Landed!" else "🚀 In flight" if grp_label=="In flight" else "🗺 On the roadmap"}'
     f' <span style="font-weight:400;color:var(--muted);font-size:.8rem">({len(grp_ideas)})</span></h4>'
     f'<div style="display:flex;flex-direction:column;gap:.3rem">'
@@ -684,18 +696,6 @@ def render(data):
     for grp_label, grp_ideas in [("On the roadmap", roadmap), ("In flight", in_flight), ("Landed!", landed)]
     if grp_ideas
   ])}
-
-  <h4 style="margin:1rem 0 .4rem;font-size:.9rem;color:var(--text)">Top 10 open for discussion <span style="font-weight:400;color:var(--muted);font-size:.8rem">· sortable · 🔥 = comments exceed votes</span></h4>
-  <table id="ideasTable">
-    <thead><tr>
-      <th class="num" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer;white-space:nowrap">Votes ↕</th>
-      <th class="num" onclick="sortTable('ideasTable',1,'num')" style="cursor:pointer;white-space:nowrap">Comments ↕</th>
-      <th class="num" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer;white-space:nowrap">Score ↕</th>
-      <th onclick="sortTable('ideasTable',3,'str')" style="cursor:pointer;white-space:nowrap">Idea ↕</th>
-      <th>Tags</th>
-    </tr></thead>
-    <tbody>{unhandled_rows or "<tr><td colspan='5' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
-  </table>
 </div>"""
         )(
             unhandled[:10],
