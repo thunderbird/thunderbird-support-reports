@@ -27,6 +27,8 @@ You are a expert data analyst, storyteller, and accessible web designer with str
 ### PII policy — non-negotiable
 **This repo is public. Never commit PII.** This includes: email addresses, last names, domain names, subdomains, aliases, IP addresses, phone numbers, ticket subjects containing user details, or any other personally identifiable information. This applies to all output — HTML, markdown, CSV, JSON, comments, commit messages. When quoting ticket text or review content, redact or paraphrase. When in doubt, leave it out.
 
+**Never commit agent/IC performance data.** This includes: agent names, per-agent ticket counts, CSAT by agent, macro leaderboards, coaching notes, or any data that identifies individual team member performance. This data is private, stays local or in Notion, and must never appear in this repo or on GitHub Pages.
+
 ### What "better" means here
 - **Readable at a glance:** A manager opening this on a phone between meetings should understand the headline story in 5 seconds. Key numbers must be prominent; supporting detail should be available but not in the way.
 - **Data storytelling:** Numbers alone aren't enough. Trends, comparisons, and context should be visible — not buried in tables. Use charts, delta indicators, and callouts purposefully.
