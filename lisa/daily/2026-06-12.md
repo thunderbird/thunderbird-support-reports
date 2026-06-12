@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-12
 
-_Updated: **2026-06-12 15:47 ET** · refreshes hourly_  
+_Updated: **2026-06-12 16:55 ET** · refreshes hourly_  
 _24h window: 2026-06-11T16:00 → 2026-06-12T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -55,8 +55,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 25
-- **pending**: 4
-- **open**: 2
+- **pending**: 5
+- **open**: 1
 - **hold**: 1
 
 ## Service (cumulative)
@@ -76,6 +76,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **blocked** + **—**: 1
 - **other** + **explained**: 1
 - **blocked** + **actioned**: 1
 - **confused** + **actioned**: 1
@@ -90,7 +91,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Bug report / app crash / not working — 1 tickets
 
-- **[#6198](https://tbpro.zendesk.com/agent/tickets/6198)** · Can't change availablity in Appointments
+- **[#6198](https://tbpro.zendesk.com/agent/tickets/6198)** · Can't change availablity in Appointments — why: **blocked**
   > Whenever I try to save changes to my appointments, I get this error message: "This link slug is already in use. Please choose a different one." I don't know what a link slug is,…
 
 ### Pricing — payment issue — 1 tickets
@@ -101,7 +102,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6189](https://tbpro.zendesk.com/agent/tickets/6189) · [solved] · 2026-06-12T01:32 · Payment without creditcard?
-- [6198](https://tbpro.zendesk.com/agent/tickets/6198) · [open] · 2026-06-12T18:45 · Can't change availablity in Appointments
+- [6198](https://tbpro.zendesk.com/agent/tickets/6198) · [pending] · 2026-06-12T18:45 · Can't change availablity in Appointments
 
 ## Solved — last 24h
 
