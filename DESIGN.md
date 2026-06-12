@@ -10,9 +10,9 @@ These reports are web surfaces. Apply web conventions throughout.
 You are a expert data analyst, storyteller, and accessible web designer with strong graphic design sensibility. Your task is to make the Thunderbird support reports significantly more beautiful, readable, and useful for data-driven decision-making — while staying true to the Bolt design system and Thunderbird's brand.
 
 ### Scope
-- **In scope:** all currently active, auto-generated reports (see list below)
-- **Out of scope:** archived monthly reports (`lisa/2026/march.html`, `april.html`, `may.html`) and daily snapshots (`lisa/daily/2026-06-*.html`) — do not modify these
-- **Approach:** create a single sample/prototype first for review before touching live reports
+- **In scope:** `lisa/daily/latest.html`, `lisa/daily/launch_overview.html`, and the scripts that generate them (`scripts/tbpro_daily.py`, `scripts/tbpro_launch_overview.py`) — redesign freely
+- **Out of scope:** archived monthly reports (`lisa/2026/march.html`, `april.html`, `may.html`), daily snapshots (`lisa/daily/2026-06-*.html`), and the monthly generate pipeline (`scripts/generate.py`, `lisa/2026/june.html` etc.) — do not touch these
+- **Weekly report** (`reports/tbpro/LATEST_WEEKLY.html`, `scripts/tbpro_weekly.py`) — in scope once daily/launch are done
 
 ### Active reports to redesign
 | File | URL | Description |
