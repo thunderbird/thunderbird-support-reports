@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-12
 
-_Updated: **2026-06-12 09:27 ET** · refreshes hourly_  
+_Updated: **2026-06-12 11:15 ET** · refreshes hourly_  
 _24h window: 2026-06-11T16:00 → 2026-06-12T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -12,7 +12,7 @@ Flight 2 is **day 10** of rollout — **2,000 invitees**, **31 tickets** so far 
 - **1** new tickets in last 24h · **3** solved in last 24h
 - **31** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (14 good / 0 bad)
+- **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
 - **Median AHT**: 39.5h · mean 61.0h (proxy: updated_at − created_at, 24 solved tickets)
 
