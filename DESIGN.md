@@ -27,6 +27,8 @@ You are a expert data analyst, storyteller, and accessible web designer with str
 ### PII policy — non-negotiable
 **This repo is public. Never commit PII.** This includes: email addresses, last names, domain names, subdomains, aliases, IP addresses, phone numbers, ticket subjects containing user details, or any other personally identifiable information. This applies to all output — HTML, markdown, CSV, JSON, comments, commit messages. When quoting ticket text or review content, redact or paraphrase. When in doubt, leave it out.
 
+**Non-English content:** always include an AI-generated translation inline for any non-English review text or user quote, after redacting PII. Format: *(Language — "translated text")* · Note translations as AI-generated in the report footer.
+
 **Never commit agent/IC performance data.** This includes: agent names, per-agent ticket counts, CSAT by agent, macro leaderboards, coaching notes, or any data that identifies individual team member performance. This data is private, stays local or in Notion, and must never appear in this repo or on GitHub Pages.
 
 ### What "better" means here
