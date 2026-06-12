@@ -340,6 +340,7 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "themes": dict(theme_counts.most_common(12)),
         "ideas": ideas_top10,
         "ideas_count": len(ideas_all),
+        "ideas_all": ideas_all,
         "gh_tickets": gh_tickets,
         "gh_links":     gh_links or {},
         "csat_launch":  csat_launch,
@@ -660,8 +661,31 @@ def render(data):
   </div>
 </div>
 
+{(lambda ideas_all: (
+    (lambda roadmap, in_flight, landed, unhandled: (
+        (lambda unhandled_top10, unhandled_rows: f"""
 <div class="box">
-  <h3>Top 10 ideas — all time, sorted by votes + comments · 🔥 = comments exceed votes (high-discussion signal)</h3>
+  <h3>Ideas — {len(ideas_all)} total (excl. off-topic &amp; by design)</h3>
+
+  {"".join([
+    f'<div style="margin-bottom:1.25rem"><h4 style="margin:0 0 .4rem;font-size:.9rem;color:{"#10b981" if grp_label=="Landed!" else "#6366f1" if grp_label=="In flight" else "#f59e0b"}">'
+    f'{"✅ Landed" if grp_label=="Landed!" else "🚀 In flight" if grp_label=="In flight" else "🗺 On the roadmap"}'
+    f' <span style="font-weight:400;color:var(--muted);font-size:.8rem">({len(grp_ideas)})</span></h4>'
+    f'<div style="display:flex;flex-direction:column;gap:.3rem">'
+    + "".join(
+        f'<div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem">'
+        f'<span style="color:var(--muted);font-size:.75rem;min-width:2.5rem;text-align:right">{p.get("votes_count",0)}▲</span>'
+        f'<a href="{p.get("url","")}" target="_blank" style="color:var(--accent)">{p.get("title","")[:80]}</a>'
+        + (f' <span title="Comments exceed votes" style="color:var(--orange);font-size:.7rem">🔥</span>' if p.get("comments_count",0) > p.get("votes_count",0) else "")
+        + f'</div>'
+        for p in grp_ideas
+    )
+    + "</div></div>"
+    for grp_label, grp_ideas in [("On the roadmap", roadmap), ("In flight", in_flight), ("Landed!", landed)]
+    if grp_ideas
+  ])}
+
+  <h4 style="margin:1rem 0 .4rem;font-size:.9rem;color:var(--text)">Top 10 open for discussion <span style="font-weight:400;color:var(--muted);font-size:.8rem">· sortable · 🔥 = comments exceed votes</span></h4>
   <table id="ideasTable">
     <thead><tr>
       <th class="num" onclick="sortTable('ideasTable',0,'num')" style="cursor:pointer;white-space:nowrap">Votes ↕</th>
@@ -669,11 +693,33 @@ def render(data):
       <th class="num" onclick="sortTable('ideasTable',2,'num')" style="cursor:pointer;white-space:nowrap">Score ↕</th>
       <th onclick="sortTable('ideasTable',3,'str')" style="cursor:pointer;white-space:nowrap">Idea ↕</th>
       <th>Tags</th>
-      <th onclick="sortTable('ideasTable',5,'str')" style="cursor:pointer;white-space:nowrap">Status ↕</th>
     </tr></thead>
-    <tbody>{idea_rows if idea_rows else "<tr><td colspan='7' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
+    <tbody>{unhandled_rows or "<tr><td colspan='5' style='color:var(--muted);text-align:center'>No ideas fetched</td></tr>"}</tbody>
   </table>
-</div>
+</div>"""
+        )(
+            unhandled[:10],
+            "".join(
+                f"<tr>"
+                f"<td class='num'><strong>{p.get('votes_count',0)}</strong></td>"
+                f"<td class='num' style='color:var(--muted)'>{p.get('comments_count',0)}</td>"
+                f"<td class='num' style='font-weight:600'>{p.get('votes_count',0)+p.get('comments_count',0)}</td>"
+                f"<td><a href='{p.get('url','')}' target='_blank' style='color:var(--accent)'>{p.get('title','')[:65]}</a>"
+                + (" <span title='Comments exceed votes' style='color:var(--orange);font-size:.7rem'>🔥</span>" if p.get("comments_count",0) > p.get("votes_count",0) else "")
+                + f"</td>"
+                f"<td style='font-size:.75rem;color:var(--muted)'>{', '.join(t.get('name','') for t in (p.get('tags') or []))[:50] or '—'}</td>"
+                f"</tr>"
+                for p in unhandled[:10]
+            )
+        )
+    ))(
+        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) == "On the roadmap"],
+        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) == "In flight"],
+        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) == "Landed!"],
+        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) not in {"On the roadmap","In flight","Landed!","Off-topic","By design"}],
+    )
+))(data.get("ideas_all", data["ideas"]))}
+
 
 <div class="box" style="margin-top:1.5rem">
   <h3>Tickets linked to GitHub — {len(data['gh_tickets'])} of {total} ({round(len(data['gh_tickets'])/total*100) if total else 0}%)</h3>
