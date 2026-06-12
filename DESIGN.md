@@ -13,6 +13,7 @@ You are a expert data analyst, storyteller, and accessible web designer with str
 - **In scope:** `lisa/daily/latest.html`, `lisa/daily/launch_overview.html`, and the scripts that generate them (`scripts/tbpro_daily.py`, `scripts/tbpro_launch_overview.py`) — redesign freely
 - **Out of scope:** archived monthly reports (`lisa/2026/march.html`, `april.html`, `may.html`), daily snapshots (`lisa/daily/2026-06-*.html`), and the monthly generate pipeline (`scripts/generate.py`, `lisa/2026/june.html` etc.) — do not touch these
 - **Weekly report** (`reports/tbpro/LATEST_WEEKLY.html`, `scripts/tbpro_weekly.py`) — in scope once daily/launch are done
+- **Monthly report** (`scripts/generate.py`, output: `lisa/2026/june.html`) — **sample gate required.** Produce `lisa/2026/june_sample.html` as a standalone prototype first. Do not modify `generate.py` or produce `june.html` until the sample is reviewed and approved. Deadline: sample must be ready for review before **June 23, 2026**.
 
 ### Active reports to redesign
 | File | URL | Description |
