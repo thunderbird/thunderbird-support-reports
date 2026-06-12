@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-12
 
-_Updated: **2026-06-12 11:15 ET** · refreshes hourly_  
+_Updated: **2026-06-12 13:12 ET** · refreshes hourly_  
 _24h window: 2026-06-11T16:00 → 2026-06-12T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 10** of rollout — **2,000 invitees**, **31 tickets** so far 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **31** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 39.5h · mean 61.0h (proxy: updated_at − created_at, 24 solved tickets)
+- **Median AHT**: 28.8h · mean 59.1h (proxy: updated_at − created_at, 25 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -54,15 +54,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 24
+- **solved**: 25
 - **pending**: 4
-- **open**: 2
+- **open**: 1
 - **hold**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 20
-- **Account Hub**: 5
+- **Thundermail**: 19
+- **Account Hub**: 6
 - **Appointment**: 2
 - **Send**: 1
 
@@ -70,7 +70,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 6
+- **curious** + **explained**: 7
 - **curious** + **informed**: 4
 - **confused** + **explained**: 2
 - **blocked** + **investigated**: 2
@@ -88,20 +88,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Pricing — payment issue — 1 tickets
 
-- **[#6189](https://tbpro.zendesk.com/agent/tickets/6189)** · Payment without creditcard?
+- **[#6189](https://tbpro.zendesk.com/agent/tickets/6189)** · Payment without creditcard? — why: **curious** · how: **explained**
   > Is it possible to upgrade to pro either monthly/yearly, but using crypto, ideal or paysafe? Kind regards, [name]
 
 ## New tickets — last 24h
 
-- [6189](https://tbpro.zendesk.com/agent/tickets/6189) · [open] · 2026-06-12T01:32 · Payment without creditcard?
+- [6189](https://tbpro.zendesk.com/agent/tickets/6189) · [solved] · 2026-06-12T01:32 · Payment without creditcard?
 
 ## Solved — last 24h
 
 - 👍 [6082](https://tbpro.zendesk.com/agent/tickets/6082) · 2026-06-11T20:09 · Delete data + account
 - · [6117](https://tbpro.zendesk.com/agent/tickets/6117) · 2026-06-11T21:33 · Events on more than 1 days are not displayed correctly in the dashboard. 
 - · [6094](https://tbpro.zendesk.com/agent/tickets/6094) · 2026-06-12T09:25 · Email alias
+- · [6189](https://tbpro.zendesk.com/agent/tickets/6189) · 2026-06-12T15:50 · Payment without creditcard?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
