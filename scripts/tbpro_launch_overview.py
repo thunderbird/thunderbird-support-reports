@@ -160,7 +160,7 @@ def fetch_ideas():
     except Exception as e:
         print(f"WARN: featureos-cli fetch failed: {e}", file=sys.stderr)
         return [], []
-    OMIT_STATUSES = {"Off-topic", "By design"}
+    OMIT_STATUSES = {"Off-topic"}
     filtered = [p for p in posts
                 if (p.get("custom_status") or {}).get("title", p.get("status","")) not in OMIT_STATUSES]
     filtered.sort(key=lambda p: p.get("votes_count", 0) + p.get("comments_count", 0), reverse=True)
@@ -662,7 +662,7 @@ def render(data):
 </div>
 
 {(lambda ideas_all: (
-    (lambda roadmap, in_flight, landed, unhandled: (
+    (lambda roadmap, in_flight, landed, wont_do, unhandled: (
         (lambda unhandled_top10, unhandled_rows: f"""
 <div class="box">
   <h3>Ideas — {len(ideas_all)} total (excl. off-topic &amp; by design)</h3>
@@ -680,8 +680,8 @@ def render(data):
   </table>
 
   {"".join([
-    f'<div style="margin-top:1.25rem"><h4 style="margin:0 0 .4rem;font-size:.9rem;color:{"#10b981" if grp_label=="Landed!" else "#6366f1" if grp_label=="In flight" else "#f59e0b"}">'
-    f'{"✅ Landed" if grp_label=="Landed!" else "🚀 In flight" if grp_label=="In flight" else "🗺 On the roadmap"}'
+    f'<div style="margin-top:1.25rem"><h4 style="margin:0 0 .4rem;font-size:.9rem;color:{"#10b981" if grp_label=="Landed!" else "#6366f1" if grp_label=="In flight" else "#6b7280" if grp_label=="No for now" else "#f59e0b"}">'
+    f'{"✅ Landed" if grp_label=="Landed!" else "🚀 In flight" if grp_label=="In flight" else "🚫 No for now / By design" if grp_label=="No for now" else "🗺 On the roadmap"}'
     f' <span style="font-weight:400;color:var(--muted);font-size:.8rem">({len(grp_ideas)})</span></h4>'
     f'<div style="display:flex;flex-direction:column;gap:.3rem">'
     + "".join(
@@ -693,7 +693,7 @@ def render(data):
         for p in grp_ideas
     )
     + "</div></div>"
-    for grp_label, grp_ideas in [("On the roadmap", roadmap), ("In flight", in_flight), ("Landed!", landed)]
+    for grp_label, grp_ideas in [("On the roadmap", roadmap), ("In flight", in_flight), ("Landed!", landed), ("No for now", wont_do)]
     if grp_ideas
   ])}
 </div>"""
@@ -716,7 +716,8 @@ def render(data):
         [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) == "On the roadmap"],
         [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) == "In flight"],
         [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) == "Landed!"],
-        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) not in {"On the roadmap","In flight","Landed!","Off-topic","By design"}],
+        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) in {"No for now","By design"}],
+        [p for p in ideas_all if ((p.get("custom_status") or {}).get("title") or p.get("status","")) not in {"On the roadmap","In flight","Landed!","No for now","By design","Off-topic"}],
     )
 ))(data.get("ideas_all", data["ideas"]))}
 
