@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-12
 
-_Updated: **2026-06-12 17:45 ET** · refreshes hourly_  
+_Updated: **2026-06-12 18:42 ET** · refreshes hourly_  
 _24h window: 2026-06-11T16:00 → 2026-06-12T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 10** of rollout — **2,000 invitees**, **32 tickets** so far 
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
+- **2** new tickets in last 24h · **4** solved in last 24h
 - **32** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (13 good / 0 bad)
+- **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 28.8h · mean 60.1h (proxy: updated_at − created_at, 25 solved tickets)
+- **Median AHT**: 28.8h · mean 61.1h (proxy: updated_at − created_at, 25 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -107,7 +107,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [6082](https://tbpro.zendesk.com/agent/tickets/6082) · 2026-06-11T20:09 · Delete data + account
-- · [6117](https://tbpro.zendesk.com/agent/tickets/6117) · 2026-06-11T21:33 · Events on more than 1 days are not displayed correctly in the dashboard. 
 - · [6094](https://tbpro.zendesk.com/agent/tickets/6094) · 2026-06-12T09:25 · Email alias
 - · [6189](https://tbpro.zendesk.com/agent/tickets/6189) · 2026-06-12T15:50 · Payment without creditcard?
 - · [6182](https://tbpro.zendesk.com/agent/tickets/6182) · 2026-06-12T18:02 · let me know
