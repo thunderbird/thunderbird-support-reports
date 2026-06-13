@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-12
 
-_Updated: **2026-06-12 21:23 ET** · refreshes hourly_  
+_Updated: **2026-06-12 23:21 ET** · refreshes hourly_  
 _24h window: 2026-06-11T16:00 → 2026-06-12T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 10** of rollout — **2,000 invitees**, **32 tickets** so far (1.6% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
+Flight 2 is **day 10** of rollout — **2,000 invitees**, **33 tickets** so far (1.7% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **2** new tickets in last 24h · **4** solved in last 24h
-- **32** tickets total since launch · contact rate **2%** of 2000 invitees
+- **33** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -56,13 +56,13 @@ _(none in last 24h)_
 
 - **solved**: 25
 - **pending**: 5
-- **open**: 1
+- **open**: 2
 - **hold**: 1
 
 ## Service (cumulative)
 
 - **Thundermail**: 19
-- **Account Hub**: 6
+- **Account Hub**: 7
 - **Appointment**: 3
 - **Send**: 1
 
