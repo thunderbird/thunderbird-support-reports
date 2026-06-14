@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-14
 
-_Updated: **2026-06-14 08:54 ET** · refreshes hourly_  
+_Updated: **2026-06-14 09:46 ET** · refreshes hourly_  
 _24h window: 2026-06-13T16:00 → 2026-06-14T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 12** of rollout — **2,000 invitees**, **34 tickets** so far (1.7% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
+Flight 2 is **day 12** of rollout — **2,000 invitees**, **35 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **1** solved in last 24h
-- **34** tickets total since launch · contact rate **2%** of 2000 invitees
+- **2** new tickets in last 24h · **1** solved in last 24h
+- **35** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -56,7 +56,7 @@ _(none in last 24h)_
 
 - **solved**: 27
 - **pending**: 4
-- **new**: 1
+- **new**: 2
 - **open**: 1
 - **hold**: 1
 
@@ -90,6 +90,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Appointment / calendar — 1 tickets
+
+- **[#6217](https://tbpro.zendesk.com/agent/tickets/6217)** · Setting in appointment
+  > Hi, So I'm getting this when trying to access setting in Send, after configuring with my Google calendar. Please see attached screenshot Best Regards, [name].jpg
+
 ### Other / uncategorized — 1 tickets
 
 - **[#6213](https://tbpro.zendesk.com/agent/tickets/6213)** · Delete this account
@@ -98,6 +103,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6213](https://tbpro.zendesk.com/agent/tickets/6213) · [new] · 2026-06-14T03:36 · Delete this account
+- [6217](https://tbpro.zendesk.com/agent/tickets/6217) · [new] · 2026-06-14T13:37 · Setting in appointment
 
 ## Solved — last 24h
 
