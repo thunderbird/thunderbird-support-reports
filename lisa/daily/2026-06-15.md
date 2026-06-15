@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-15
 
-_Updated: **2026-06-15 16:18 ET** · refreshes hourly_  
+_Updated: **2026-06-15 18:00 ET** · refreshes hourly_  
 _24h window: 2026-06-14T16:00 → 2026-06-15T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -55,9 +55,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 29
-- **pending**: 3
-- **open**: 2
+- **pending**: 4
 - **hold**: 2
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -96,7 +96,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6221](https://tbpro.zendesk.com/agent/tickets/6221) · [open] · 2026-06-14T20:17 · Folder structure 
+- [6221](https://tbpro.zendesk.com/agent/tickets/6221) · [pending] · 2026-06-14T20:17 · Folder structure 
 
 ## Solved — last 24h
 
