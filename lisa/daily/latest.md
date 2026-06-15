@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-15
 
-_Updated: **2026-06-15 10:24 ET** · refreshes hourly_  
+_Updated: **2026-06-15 12:47 ET** · refreshes hourly_  
 _24h window: 2026-06-14T16:00 → 2026-06-15T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 13** of rollout — **2,000 invitees**, **36 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
+Flight 2 is **day 13** of rollout — **2,000 invitees**, **36 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
+- **1** new tickets in last 24h · **1** solved in last 24h
 - **36** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 50.2h · mean 70.6h (proxy: updated_at − created_at, 27 solved tickets)
+- **Median AHT**: 55.1h · mean 70.2h (proxy: updated_at − created_at, 28 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -54,26 +54,26 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 27
-- **open**: 5
-- **pending**: 3
+- **solved**: 28
+- **pending**: 5
+- **open**: 2
 - **hold**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 20
-- **Account Hub**: 8
+- **Thundermail**: 21
+- **Account Hub**: 7
 - **Appointment**: 3
-- **Send**: 1
+- **Send**: 2
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 7
-- **curious** + **informed**: 4
+- **curious** + **informed**: 5
+- **blocked** + **investigated**: 3
 - **confused** + **explained**: 2
-- **blocked** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
 - **blocked** + **—**: 1
@@ -96,11 +96,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6221](https://tbpro.zendesk.com/agent/tickets/6221) · [open] · 2026-06-14T20:17 · Folder structure 
+- [6221](https://tbpro.zendesk.com/agent/tickets/6221) · [pending] · 2026-06-14T20:17 · Folder structure 
 
 ## Solved — last 24h
 
-_(none)_
+- · [6201](https://tbpro.zendesk.com/agent/tickets/6201) · 2026-06-15T14:33 · domain name
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
