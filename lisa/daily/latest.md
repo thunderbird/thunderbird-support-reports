@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-16
 
-_Updated: **2026-06-16 06:47 ET** · refreshes hourly_  
+_Updated: **2026-06-16 08:47 ET** · refreshes hourly_  
 _24h window: 2026-06-15T16:00 → 2026-06-16T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -71,11 +71,12 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 8
-- **curious** + **informed**: 5
+- **curious** + **informed**: 4
 - **blocked** + **investigated**: 3
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **request** + **informed**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
 - **blocked** + **actioned**: 1
