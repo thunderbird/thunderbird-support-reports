@@ -1,0 +1,34 @@
+---
+description: Copy tone for TB Pro daily reports — Lisa's support ops audience
+globs: lisa/daily/**
+alwaysApply: false
+---
+
+# TB Pro Report Copy Tone
+
+Audience: Lisa manages the support team. Reports are for ops leadership, not agent performance review.
+
+## Do
+
+- Explain **why** time accumulates: Pending (customer wait), Hold/Research (eng dependency), ticket mix (DNS, GH-linked bugs), wave volume.
+- Lead with **business hours** (8am–8pm ET, 12h/day Zendesk schedule) for AHT, first reply, and medians.
+- Show **calendar time** as secondary reference — dashed lines on charts, parenthetical notes — because subscribers experience calendar days.
+
+## Don't
+
+- Defensive framing about agents ("not idle agent time", "agents aren't slow", apologizing for team capacity).
+- Implying blame on individual agents or naming agent performance (repo policy — never commit IC metrics).
+- Leading with calendar-day AHT without business-hours context (misleading for staffing decisions).
+
+## Removed sections — do not re-add without Lisa's request
+
+- **Still open panel** — tried, then removed from launch overview (maintenance burden; doesn't scale).
+- **Blocker-column pattern** — experimented in Still open table, removed with the section.
+
+## Examples
+
+**Good:** "39% of solves sit 3–7 business days in Pending, Research, or Snooze while eng ships fixes or customers propagate DNS."
+
+**Good:** "Median ~3 days · business hours (8am–8pm ET)" with dashed calendar reference on trend chart.
+
+**Avoid:** "High calendar AHT doesn't mean agents were idle — most time is Pending/Hold."

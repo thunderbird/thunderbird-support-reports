@@ -1,0 +1,42 @@
+---
+description: TB Pro launch overview design iteration — sample file gate only
+globs: lisa/daily/launch_overview_sample.html,scripts/tbpro_launch_overview.py
+alwaysApply: false
+---
+
+# TB Pro Launch Overview — Sample Gate
+
+See also `DESIGN.md` (sample gate pattern, same as monthly `june_sample.html`).
+
+## Rule
+
+**Design iteration:** edit **only** `lisa/daily/launch_overview_sample.html`.
+
+**Do NOT touch** until Lisa approves the sample:
+- `lisa/daily/launch_overview.html` (live, GH Actions / Pages)
+- `scripts/tbpro_launch_overview.py` (generator)
+- Generated daily snapshots (`lisa/daily/2026-*.html`, `latest.html`)
+
+## Workflow
+
+1. Prototype layout, CSS, copy, and table/theme patterns in the sample file.
+2. Lisa reviews the sample in browser or on a local static server.
+3. After explicit approval: port CSS/classes/HTML structure into `tbpro_launch_overview.py`, then regenerate live output.
+
+## Why
+
+Live files are published hourly/daily. Editing them directly ships half-baked design to GitHub Pages and breaks the review loop.
+
+## Sample contract (approved decisions)
+
+- **Still open panel omitted** from sample (and likely live) — open-queue backlog doesn't scale in a static report; resolution-time panels (distribution, long-close themes) remain.
+- **Misdirect routing callout** sits **under** Flight 2 subscriber themes, not above the section.
+- **Sidebar nav anchors:** `#story` `#waves` `#volume` `#aht` `#planning` `#themes` `#ideas` `#engineering` `#glossary`
+- **`#5470` excluded** — donor-support thank-you misclassified as TB Pro; omit from TB Pro counts and theme lists.
+- **Misdirect historical stats:** 35 tickets / 28% of Flight 2 volume (not 36 / 29%).
+
+## Sample file expectations
+
+- Self-contained HTML (inline CSS/JS), Bolt tokens via CSS variables — match `DESIGN.md`.
+- Theme rows use `.theme-row-wrap` + paraphrased ticket lines (see `.cursor/rules/tbpro-theme-tickets.mdc`).
+- No raw Zendesk subjects or PII in committed sample content.

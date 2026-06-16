@@ -1,0 +1,42 @@
+---
+description: Shared table CSS patterns for TB Pro daily HTML reports
+globs: lisa/daily/*.html
+alwaysApply: false
+---
+
+# TB Pro Table Patterns
+
+Reference: `lisa/daily/launch_overview_sample.html` (Tables section, ~340–362).
+
+**Still open queue table:** removed from launch overview design — do not re-add table guidance for it here.
+
+## Base `.tbl`
+
+- Full width, collapsed borders, `.8rem` body text.
+- **NEVER `display:flex` (or `inline-flex`) on `th` or `td`.** Flex on table cells breaks column layout — the Ideas table "YIKES" bug came from `th.tbl-sort { display:flex }`.
+- **Sort headers:** `th.tbl-sort` — `white-space:nowrap; cursor:pointer; vertical-align:middle; user-select:none`. Label and icon stay on one line via an inner wrapper, not flex on the cell.
+- **Sort icon wrapper:** `.tbl-sort__inner { display:inline-flex; align-items:center; gap:.2em }` wraps label + icon inside the `<th>`.
+- **Sort icon:** child `<span class="tbl-sort__icon" aria-hidden="true">↕</span>` — `font-size:.85em; opacity:.55; line-height:1`.
+- **Numeric columns:** `class="num"` on `th`/`td` — `text-align:right; font-variant-numeric:tabular-nums; width:1%; white-space:nowrap`. Right-align via `.tbl .num`, **not** `justify-content` on a flex header.
+- **Status dot cells:** `.tbl td:has(> .status-dot){white-space:nowrap}`.
+
+```html
+<th class="num tbl-sort" onclick="sortTable('ideasTable',0,'num')">
+  <span class="tbl-sort__inner"><span>Votes</span><span class="tbl-sort__icon" aria-hidden="true">↕</span></span>
+</th>
+```
+
+## Ideas table — Tags column
+
+```css
+#ideasTable th:last-child, #ideasTable td:last-child {
+  width: 14%; padding-left: var(--space-12);
+  font-size: .72rem; color: var(--color-text-muted);
+}
+```
+
+## Alignment checklist
+
+- Sort header text and ↕ icon on same line — `inline-flex` on `.tbl-sort__inner` inside the `<th>`, never flex on the `<th>` itself.
+- Numeric headers right-justified via `.tbl th.num { text-align:right }`, not flex `justify-content`.
+- Status label beside dot, never wrapping under it.

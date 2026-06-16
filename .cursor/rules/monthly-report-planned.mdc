@@ -1,0 +1,28 @@
+---
+description: Monthly report dashboard redesign — PLANNED, not active
+globs: lisa/2026/*.html,scripts/generate.py
+alwaysApply: false
+---
+
+# Monthly Report Redesign — PLANNED
+
+**Status: PLANNED — do not begin without explicit user go-ahead.**
+
+See `CLAUDE.md` → *Planned — monthly report redesign* and `DESIGN.md` (monthly sample gate).
+
+## When Lisa asks to start
+
+1. Copy prior month YAML → fill `data/june_2026.yaml` (Zendesk from Lisa; re-fetch Play Store, FeatureOS, SUMO live)
+2. Prototype **`lisa/2026/june_sample.html` only** — Bolt tokens, dark mode, paraphrased/redacted PII, layout reimagined from scratch (same playbook as `launch_overview_sample.html`); must be **Sonnet-maintainable from day one** (`<!-- SECTION: … -->` comments, Bolt tokens in `:root`, paraphrase pattern for all customer-facing text)
+3. Read TB Pro rules: `tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`
+4. Create **`monthly-report-sample.mdc`** for section map and safe-edit patterns
+5. Lisa reviews sample → then port to `scripts/generate.py` and regenerate live `june.html`
+
+## Do NOT touch until sample approved
+
+- `scripts/generate.py`
+- Live monthly output (`lisa/YYYY/month.html`, e.g. `june.html`)
+
+## Monthly sections to adapt
+
+Donor Care · TB Pro · Android Reviews · Desktop SUMO · Android SUMO · K-9 Forum

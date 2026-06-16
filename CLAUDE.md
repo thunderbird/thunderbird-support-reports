@@ -43,6 +43,23 @@ Copy the previous month's YAML, update `month`, `year`, `month_num`, `prev_month
 CSV filenames, and move all `zendesk` values into `prev`. Leave `zendesk` fields as `null`.
 Update `history_neg` by appending last month's negative mention counts.
 
+### Planned — monthly report redesign *(queued — do not start until Lisa asks)*
+
+**Next task when Lisa is back:** create `lisa/YYYY/month_sample.html` — start with **June 2026** (`lisa/2026/june_sample.html`; review deadline **June 23** per `DESIGN.md`).
+
+Same playbook as the launch overview sample (`lisa/daily/launch_overview_sample.html`):
+- **Bolt tokens**, dark mode, accessible hierarchy
+- **Paraphrase / redact PII** in all customer-facing quotes and ticket text
+- **Reimagined layout from scratch** — not an incremental patch on `generate.py` output
+
+**Sample gate:** edit **only** the `*_sample.html` file until Lisa approves. Do **not** modify `scripts/generate.py` or live output (`lisa/YYYY/month.html`, e.g. `june.html`) until then.
+
+**Pattern references:** `launch_overview_sample.html` + the five TB Pro Cursor rules (`tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`). Adapt for monthly dashboard sections: Donor Care, TB Pro, Android Reviews, Desktop/Android SUMO forums, K-9 Forum (see Dashboard structure below).
+
+**When work starts:** read `tbpro-sonnet-maintenance.mdc` principles (section comments, no `display:flex` on `th`, etc.) and create `.cursor/rules/monthly-report-sample.mdc` for ongoing maintenance.
+
+**Status:** queued, not active — **do not begin without explicit user go-ahead.**
+
 ## Privacy — PII policy
 When showing any customer content, never publish PII. This includes: email addresses, last names, domain names, aliases, IP addresses, phone numbers, or any other personally identifiable information. This applies to all data sources: Zendesk tickets (subjects, excerpts, comments), Play Store reviews, FeatureOS, SUMO. Use the `--public` flag (which applies PII redaction) for all content committed to the repo or published to GitHub Pages. When in doubt, redact.
 
@@ -138,6 +155,8 @@ patterns — consult it when building new months. `analyze_march.py` is frozen.
 
 ## Thundermail live reporting
 
+Launch overview redesign lives in `launch_overview_sample.html`; see maintenance block below.
+
 Three scripts track the Thundermail (TB Pro) subscriber launch. All output goes to
 `lisa/daily/` and is published to GitHub Pages. GH Actions runs the daily script hourly.
 
@@ -183,6 +202,30 @@ Also runs in GH Actions daily alongside `tbpro_daily.py`.
 - Early Bird: 600 (May 4, 2026)
 - Flight 2 Wave 1: 500 (June 3, 2026)
 - Flight 2 Wave 2: 1,500 (June 4, 2026)
+
+### TB Pro reports — maintenance for any model
+
+**All support report HTML** (daily, launch overview, weekly, monthly) must follow Sonnet-safe patterns when redesigned or maintained. Daily and weekly redesigns are **pending** — use `launch_overview_sample.html` as the reference implementation until their samples exist.
+
+**Before any edit** to TB Pro report HTML or generators (`latest.html`, `launch_overview_sample.html`, `launch_overview.html`, `LATEST_WEEKLY.html`, `*_sample.html`, `tbpro_daily.py`, `tbpro_launch_overview.py`, `tbpro_weekly.py`, and eventually `generate.py`): **read** `.cursor/rules/tbpro-sonnet-maintenance.mdc` — mandatory for all models (Sonnet included), not optional.
+
+**Cursor rules** (detail lives in each file):
+- `tbpro-launch-sample.mdc` — sample gate; what's omitted from live until Lisa approves
+- `tbpro-theme-tickets.mdc` — `.theme-row-wrap` expansions; paraphrased subjects, never raw Zendesk text
+- `tbpro-table-patterns.mdc` — sortable headers via `.tbl-sort__inner`; never `display:flex` on `th`/`td`
+- `tbpro-copy-tone.mdc` — business hours first; explain WHY time accumulates; no defensive agent framing
+- `tbpro-sonnet-maintenance.mdc` — section map, safe vs forbidden edits, HTML templates, update workflow
+
+**Essentials (inline — don't skip even if rules unread):**
+- **Sample only** until Lisa approves — do not edit `launch_overview.html`, `tbpro_launch_overview.py`, or `latest.html`
+- **Theme rows:** `.theme-row-wrap` + `<details class="theme-tickets">`; each line `#ID` link + paraphrased description (not raw subject); same for `.eng-card__subject`; footer *"Ticket subjects paraphrased; non-English quotes include AI translations."*
+- **Still open panel:** omitted — do not re-add (blocker-column pattern also removed)
+- **Misdirect:** 35 tickets / 28% of Flight 2 volume; callout **under** Flight 2 subscriber themes; exclude `#5470` from TB Pro counts
+- **Sidebar anchors:** `#story` `#waves` `#volume` `#aht` `#planning` `#themes` `#ideas` `#engineering` `#glossary`
+- **Edit by section:** jump via `<!-- SECTION: name -->` comments (and matching CSS region markers) — one section per change
+- **Re-fetch Zendesk** via `fetch_tickets()` / `classify_ticket()` — never hardcode stale ticket IDs from a prior session
+
+**Update workflow:** fetch live data → paraphrase subjects → grep for PII (`@`, phone patterns) → edit **sample only** → Lisa approves → port to generator. See `DESIGN.md` for sample-gate pattern.
 
 ### FeatureOS CLI caveats
 - `sort=votes_count` parameter is **unreliable** — always sort client-side after fetching

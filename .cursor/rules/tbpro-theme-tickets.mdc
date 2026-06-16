@@ -1,0 +1,53 @@
+---
+description: TB Pro theme rows must expand to live Zendesk ticket links
+globs: lisa/daily/*overview*.html,scripts/tbpro_*.py
+alwaysApply: false
+---
+
+# TB Pro Theme Ticket Expansions
+
+**Every theme visualization row** must be expandable to ticket IDs — no exceptions.
+
+Applies to: long-close themes, Flight 2 themes, all-launch leaderboard, misdirected, any `.theme-row` block.
+## Ticket line format — paraphrased, not raw
+
+Each ticket line: **`#ID` link + paraphrased generic theme description** — never raw Zendesk subject, never ID-only.
+
+Lisa confirmed: *"general idea of ticket is good so people know what they want to click."*
+
+- **English:** short paraphrase (e.g. `#6125 — Payment processing delay`).
+- **Non-English:** paraphrase + `*(Language — "translation")*`.
+- **`.eng-card__subject`:** same rule — paraphrased labels, not API subjects.
+
+**Generator:** paraphrase at build time in `tbpro_launch_overview.py` — never embed raw Zendesk subjects in committed HTML.
+
+**Footer:** *"Ticket subjects paraphrased; non-English quotes include AI translations."* — not "PII-redacted" unless that step ran.
+
+## Required HTML pattern
+
+Wrap each theme in `.theme-row-wrap`. The bar/count row stays in `.theme-row`; ticket list goes in `<details class="theme-tickets">`:
+
+```html
+<div class="theme-row-wrap">
+  <div class="theme-row">…name, count, bar…</div>
+  <details class="theme-tickets">
+    <summary>N tickets</summary>
+    <ul class="theme-tickets__list">
+      <li>
+        <a href="https://tbpro.zendesk.com/agent/tickets/{id}" target="_blank">#{id}</a>
+        <span class="theme-tickets__subj"> — paraphrased theme description</span>
+        <span class="theme-tickets__gh"><a href="…">repo#issue</a></span>
+      </li>
+    </ul>
+  </details>
+</div>
+```
+
+- Link format: `https://tbpro.zendesk.com/agent/tickets/{id}`
+- Summary count must match list length (`summary` text ↔ `<li>` count).
+
+## Data source & common mistakes
+
+Re-fetch Zendesk (`fetch_tickets()` / `classify_ticket()` in `tbpro_launch_overview.py`; `zd_search_all()` in `tbpro_daily.py`) before embedding lists. Do not hardcode stale IDs or paste raw subjects.
+
+Reference: `lisa/daily/launch_overview_sample.html`.

@@ -1,0 +1,100 @@
+---
+description: Safe maintenance guide for all TB Pro support reports — Sonnet and below
+globs: lisa/daily/*overview*.html,lisa/daily/latest.html,reports/tbpro/**/*.html,lisa/20*/*_sample.html,scripts/tbpro_launch_overview.py,scripts/tbpro_daily.py,scripts/tbpro_weekly.py
+alwaysApply: false
+---
+
+# TB Pro Reports — Sonnet Maintenance Guide
+
+Read **before** editing any TB Pro report HTML or generator script. Also: `tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`.
+
+## All TB Pro reports — Sonnet maintenance scope
+
+| Report | Sample/live file | Generator | Sonnet-safe when |
+|--------|------------------|-----------|------------------|
+| Daily Flight 2 | `lisa/daily/latest.html` | `scripts/tbpro_daily.py` | After redesign sample approved (future) |
+| Launch overview | `launch_overview_sample.html` → `launch_overview.html` | `tbpro_launch_overview.py` | Sample in progress / playbook established |
+| Weekly | `reports/tbpro/LATEST_WEEKLY.html` | `tbpro_weekly.py` | After daily/launch samples done (`DESIGN.md` scope) |
+| Monthly | `lisa/YYYY/month_sample.html` → `month.html` | `generate.py` | Queued — see `monthly-report-planned.mdc` |
+
+**Principles apply to ALL reports:**
+
+- CSS vars in `:root` only — no raw hex in component rules
+- `<!-- SECTION: name -->` comments at major boundaries; edit one section at a time
+- Paraphrased PII — never raw Zendesk subjects, emails, names, or ticket bodies
+- No `display:flex` on `th`/`td` — use `.tbl-sort__inner` (see `tbpro-table-patterns.mdc`)
+- Explicit CSS classes — avoid one-off inline styles
+- **Sample gate** before generator — prototype in `*_sample.html`; do not edit live output or Python until Lisa approves
+- Read this file + relevant TB Pro rules **before every edit**
+
+---
+
+## Launch overview — detail
+
+## What Sonnet CAN safely do
+
+- **Update counts** in hero, bento, rail stats, timeline, theme rows — text only; do not restructure grids.
+- **Refresh theme lists** via `uv run scripts/tbpro_launch_overview.py` (post-approval) or copy fresh output into one `<!-- SECTION: … -->` block at a time.
+- **Fix copy** in hero, insights, glossary, footer — see `tbpro-copy-tone.mdc`.
+- **Add theme rows** inside `#themes .themes` using template below; bar width = `style="width:N%"` on `.theme-row__bar` only.
+
+**Python constants:** `tbpro_launch_overview.py` — `LAUNCH_DATE`, `WAVES`, `EXCLUDE_IDS`, `MANUAL_THEMES`, `LAUNCH_WATCH_ONLY`. `tbpro_daily.py` — `LAUNCH_DATE`, `INVITEE_COUNT`, `EXCLUDE_IDS`, `WATCH_PROBLEMS`, `MANUAL_THEMES`.
+
+## What requires caution
+
+- **Chart.js** — bottom `<script>`: edit `dates`/`daily` arrays only; do not refactor chart config.
+- **IntersectionObserver** — scroll-spy / `setActiveNav()`; touch only for a reported bug.
+- **CSS tokens** — `:root` only (`/* CSS REGION: tokens */`); no raw hex in component rules.
+
+## Forbidden without Lisa review
+
+- Raw Zendesk `subject` in HTML — use generic paraphrase (`#6125 — Payment processing delay`, not API text).
+- `display:flex` on `th`/`td` — see `tbpro-table-patterns.mdc`.
+- Re-adding **Still open** panel or blocker-column pattern.
+- Editing `launch_overview.html`, `tbpro_launch_overview.py`, or `latest.html` before sample approval.
+- PII: emails, names, domains, raw ticket bodies.
+
+## File map — `launch_overview_sample.html`
+
+Jump via `<!-- SECTION: name -->`: `#story` hero+bento · `#waves` timeline · `#volume` charts · `#aht` resolution time · `#planning` staffing · `#themes` theme blocks+misdirect · `#ideas` kanban+table · `#engineering` eng cards · `#glossary` definitions.
+
+CSS regions in `<style>`: tokens → layout → components → tables → themes.
+
+## Update workflow
+
+1. Fetch: `uv run scripts/tbpro_launch_overview.py` (Zendesk creds required).
+2. Update Python constants if waves/exclusions changed.
+3. Edit one HTML section at a time via section comments.
+4. Grep for PII (`@`, phone patterns) before commit; footer must include *"Ticket subjects paraphrased…"*.
+
+## HTML templates (copy-paste)
+
+**Theme row:**
+
+```html
+<div class="theme-row-wrap">
+  <div class="theme-row">
+    <span class="theme-row__name">Theme label</span>
+    <span class="theme-row__count">4<span class="theme-row__pct">13%</span></span>
+    <div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:100%"></div></div>
+  </div>
+  <details class="theme-tickets">
+    <summary>4 tickets</summary>
+    <ul class="theme-tickets__list">
+      <li><a href="https://tbpro.zendesk.com/agent/tickets/1234" target="_blank">#1234</a><span class="theme-tickets__subj"> — Paraphrased description</span></li>
+    </ul>
+  </details>
+</div>
+```
+
+**Eng card** (`--open` | `--hold` | `--solved`):
+
+```html
+<div class="eng-card eng-card--open">
+  <div><div class="eng-card__id eng-card__id--open"><a href="https://tbpro.zendesk.com/agent/tickets/6068" target="_blank">#6068</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/repo/issues/123" target="_blank">repo#123</a></div></div>
+  <div class="eng-card__subject">Paraphrased issue summary</div>
+  <div class="eng-card__date">2026-06-05</div>
+</div>
+```
+
+Non-English tickets: paraphrase + `*(Language — "translation")*`.

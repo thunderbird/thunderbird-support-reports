@@ -39,6 +39,9 @@ You are a expert data analyst, storyteller, and accessible web designer with str
 - **Beautiful:** These represent Thunderbird Support externally. They should look like they were made with care — not like a script dumped data into a template.
 
 ### Hardening for lower-level models (Sonnet and below)
+
+The entire support report suite — **daily** (`latest.html`), **launch overview**, **weekly** (`LATEST_WEEKLY.html`), and **monthly** dashboards — targets Sonnet-maintainability. A more capable model (e.g. Fable) may do the initial redesign; Sonnet (and below) maintains ongoing updates. Apply the same hardening patterns to every report as each redesign ships; launch overview is the current reference implementation.
+
 When redesigning, structure the HTML and CSS so that future maintenance by a less capable model is safe:
 - All colors via CSS custom properties — no raw hex in component styles
 - Semantic variable names that communicate intent (`--color-surface-raised`, not `--bg-card`)
@@ -47,6 +50,16 @@ When redesigning, structure the HTML and CSS so that future maintenance by a les
 - Inline style overrides should be rare; favor adding a class
 - Generated HTML (from Python f-strings) should use the same CSS classes as the static shell — no special-cased inline styles per-row unless truly necessary
 - Avoid deeply nested f-string lambdas where a helper function would be clearer
+- **Launch overview sample gate:** prototype in `lisa/daily/launch_overview_sample.html` only; do not modify `launch_overview.html` or `scripts/tbpro_launch_overview.py` until Lisa approves (same pattern as `june_sample.html` for monthly reports)
+- **Monthly report sample (planned):** upcoming full redesign of the monthly dashboard using the launch overview playbook — Bolt tokens, dark mode, PII-redacted/paraphrased content, reimagined layout (not a patch on current `generate.py` HTML). Prototype in `lisa/2026/june_sample.html` first; do not touch `generate.py` or `june.html` until Lisa approves. **Queued — do not start until Lisa explicitly asks.** See `CLAUDE.md` → *Planned — monthly report redesign* and `.cursor/rules/monthly-report-planned.mdc`.
+- **Theme ticket expansions are mandatory** on all theme visualizations — every `.theme-row` must wrap in `.theme-row-wrap` with a `<details class="theme-tickets">` list of Zendesk ticket links (`#ID` + paraphrased subject, not raw API text; re-fetch live data; see `.cursor/rules/tbpro-theme-tickets.mdc`)
+- **Still-open queue table omitted** from launch overview design — resolution-time panels remain; do not re-add without Lisa's approval
+- **Sortable table headers:** use `.tbl-sort__inner` inline-flex wrapper inside `th.tbl-sort` — never `display:flex` on `th` (breaks column layout). See `.cursor/rules/tbpro-table-patterns.mdc`
+- **Launch overview sample specifics:**
+  - **Section comments:** `launch_overview_sample.html` uses `<!-- SECTION: story|waves|volume|aht|planning|themes|ideas|engineering|glossary -->` at each major `<section>` boundary; CSS uses `<!-- CSS REGION: tokens|layout|components|tables|themes -->` inside `<style>`. Edit one section at a time — do not refactor the whole file.
+  - **Paraphrased subjects:** ticket lines and `.eng-card__subject` use generic theme labels, never raw Zendesk `subject` from the API. Footer: *"Ticket subjects paraphrased; non-English quotes include AI translations."*
+  - **Still open omitted:** resolution-time panels (distribution, long-close themes) stay; do not re-add the open-queue backlog table without Lisa's approval.
+  - **Sonnet workflow:** before maintenance edits, read `.cursor/rules/tbpro-sonnet-maintenance.mdc` — safe tasks, forbidden traps, HTML templates, and file map.
 
 ### Future-proofing
 - Use Bolt semantic tokens (see Color section below) — when Bolt updates, only `:root` needs to change

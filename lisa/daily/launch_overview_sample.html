@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thundermail Launch — Support Briefing</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/3.0.1/chartjs-plugin-annotation.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* CSS REGION: tokens — Bolt dark palette; edit colors/spacing here only */
+/* Bolt dark palette — single source of truth
+ * Maps to bolt.thunderbird.net/color (dark mode equivalents)
+ * Surface:  --color-surface-base → surface/base
+ *           --color-surface-lower → surface/lower
+ *           --color-surface-raised → surface/raised
+ *           --color-surface-border → surface/border
+ * Primary:   --color-primary → primary/default
+ * Secondary: --color-secondary → secondary/default
+ * Text:      --color-text-base → text/base
+ *            --color-text-secondary → text/secondary
+ *            --color-text-muted → text/muted (≥4.5:1 on surface/base)
+ * Status:    --color-success → success/default
+ *            --color-warning → warning/default
+ *            --color-critical → error/default
+ * On-fill:   --color-on-inverse → onPrimary / onSuccess / onWarning
+ * Accents:   --color-teal, --color-orange — TB-specific, no Bolt token
+ */
+:root {
+  --color-surface-base:          #0d0c14;
+  --color-surface-lower:         #060618;
+  --color-surface-raised:        #15131e;
+  --color-surface-overlay:       #1c1a28;
+  --color-surface-border:        #2b2845;
+  --color-surface-border-strong: #3e3b62;
+  --color-primary:               #4d7bf8;
+  --color-primary-soft:          #0e1038;
+  --color-secondary:             #7c3aed;
+  --color-text-base:             #e2e0f0;
+  --color-text-secondary:        #b0aece;
+  --color-text-muted:            #9492b0;  /* ≥4.5:1 on --color-surface-base */
+  --color-success:               #22c55e;
+  --color-success-soft:          #041d0e;
+  --color-warning:               #f59e0b;
+  --color-warning-soft:          #1c1200;
+  --color-warning-text:          #fcd34d;
+  --color-critical:              #ef4444;
+  --color-critical-soft:         #2a0808;
+  --color-teal:                  #00d4a0;
+  --color-orange:                #f97316;
+  --color-on-inverse:            #ffffff;
+  --color-wave-early:            #6366f1;
+  --color-wave-w1:               #f97316;
+  --color-wave-w2:               #ef4444;
+  --space-4:  0.25rem;
+  --space-8:  0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --font-mono: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--color-surface-base);
+  color:var(--color-text-base);
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:14px;line-height:1.5;
+  min-height:100vh;
+}
+a{color:var(--color-primary);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,summary:focus-visible{
+  outline:2px solid var(--color-primary);outline-offset:2px;
+}
+code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface-border);padding:.1em .35em;border-radius:4px}
+
+/* CSS REGION: layout — shell, rail, main */
+.shell{display:grid;grid-template-columns:200px 1fr;min-height:100vh}
+@media(max-width:960px){.shell{grid-template-columns:1fr}}
+
+/* ---- Side rail (desktop) ---- */
+.rail{
+  background:var(--color-surface-lower);
+  border-right:1px solid var(--color-surface-border);
+  padding:var(--space-16) var(--space-12);
+  position:sticky;top:0;
+  align-self:start;
+  display:flex;flex-direction:column;gap:var(--space-12);
+}
+@media(max-width:960px){
+  .rail{position:relative;align-self:stretch;border-right:none;border-bottom:1px solid var(--color-surface-border);padding:var(--space-16)}
+}
+.rail__brand{display:flex;align-items:center;gap:var(--space-8)}
+.rail__logo{width:32px;height:32px}
+.rail__title{font-size:.88rem;font-weight:700;line-height:1.25}
+.rail__tag{font-size:.625rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-teal)}
+.rail__nav{list-style:none;display:flex;flex-direction:column;gap:2px}
+@media(max-width:960px){.rail__nav{flex-direction:row;flex-wrap:wrap;gap:var(--space-4)}}
+.rail__nav a{
+  display:block;padding:5px var(--space-8);
+  font-size:.74rem;font-weight:500;color:var(--color-text-muted);
+  border-radius:var(--radius-sm);transition:background .15s,color .15s;
+}
+.rail__nav a:hover,.rail__nav a.is-active{
+  background:var(--color-surface-raised);color:var(--color-text-base);text-decoration:none;
+}
+.rail__stats{
+  display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8);
+}
+.rail-stat{
+  padding:var(--space-8) var(--space-8);
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-sm);
+}
+.rail-stat__val{font-size:1.05rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.rail-stat__lbl{font-size:.625rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-muted);margin-top:3px;line-height:1.3}
+.rail-stat--success .rail-stat__val{color:var(--color-success)}
+.rail-watch{
+  padding:var(--space-8) var(--space-8);
+  background:var(--color-warning-soft);border:1px solid var(--color-warning);
+  border-radius:var(--radius-sm);font-size:.68rem;line-height:1.45;
+}
+.rail-watch__lbl{font-size:.625rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-warning);margin-bottom:3px}
+.rail-watch__issue{font-weight:600;color:var(--color-text-base)}
+.rail-watch__refs{color:var(--color-warning-text);margin-top:2px}
+.rail-watch__refs a{color:var(--color-warning)}
+.rail-watch__note{color:var(--color-text-muted);font-size:.62rem;margin-top:3px;font-style:italic}
+
+/* ---- Main ---- */
+.main{padding:var(--space-24) var(--space-32) var(--space-32);max-width:960px}
+@media(max-width:640px){.main{padding:var(--space-16)}}
+
+/* CSS REGION: components — status bar, hero, charts, AHT, ideas, engineering */
+.status-bar{
+  display:flex;flex-wrap:wrap;align-items:flex-start;gap:var(--space-12);
+  margin-bottom:var(--space-24);
+}
+.chip{
+  display:inline-flex;align-items:center;gap:var(--space-8);
+  padding:var(--space-8) var(--space-12);
+  border-radius:999px;font-size:.75rem;font-weight:600;
+}
+.chip--warn{background:var(--color-warning-soft);border:1px solid var(--color-warning);color:var(--color-warning)}
+.chip--ok{background:var(--color-success-soft);border:1px solid var(--color-success);color:var(--color-success)}
+.chip__dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex-shrink:0}
+
+.alert-panel{
+  flex:1 1 100%;background:var(--color-warning-soft);
+  border:1px solid var(--color-warning);border-radius:var(--radius-md);
+  padding:var(--space-12) var(--space-16);font-size:.84rem;line-height:1.6;
+}
+.alert-panel__head{font-weight:700;color:var(--color-warning);margin-bottom:var(--space-4)}
+.alert-panel__head a{color:var(--color-warning)}
+.alert-panel__sub{color:var(--color-warning-text);font-size:.8rem}
+
+/* ---- Hero narrative ---- */
+.hero{
+  background:linear-gradient(135deg,var(--color-surface-raised) 0%,var(--color-surface-overlay) 100%);
+  border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-lg);
+  padding:var(--space-24) var(--space-24) var(--space-24) var(--space-32);
+  margin-bottom:var(--space-32);
+  position:relative;overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(180deg,var(--color-primary),var(--color-teal));
+}
+.hero__eyebrow{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--color-text-muted);margin-bottom:var(--space-8)}
+.hero__headline{font-size:clamp(1.25rem,3vw,1.65rem);font-weight:700;line-height:1.3;margin-bottom:var(--space-12);max-width:38ch}
+.hero__headline em{font-style:normal;color:var(--color-teal)}
+.hero__meta{font-size:.78rem;color:var(--color-text-secondary)}
+.hero__meta span{color:var(--color-text-muted)}
+
+/* ---- Section ---- */
+.section{margin-bottom:var(--space-32);scroll-margin-top:var(--space-24)}
+.section__head{display:flex;align-items:baseline;gap:var(--space-12);margin-bottom:var(--space-16);padding-bottom:var(--space-8);border-bottom:1px solid var(--color-surface-border)}
+.section__num{font-family:var(--font-mono);font-size:.72rem;font-weight:700;color:var(--color-primary);opacity:.7}
+.section__title{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-muted)}
+
+/* ---- Wave timeline ---- */
+.timeline{
+  display:grid;grid-template-columns:1fr auto 1fr auto 1fr;
+  align-items:start;gap:0;margin-bottom:var(--space-24);
+}
+@media(max-width:640px){.timeline{grid-template-columns:1fr;gap:var(--space-12)}}
+.timeline__node{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-md);padding:var(--space-16);position:relative;
+}
+.timeline__node::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:var(--node-color);border-radius:var(--radius-md) var(--radius-md) 0 0;
+}
+.timeline__node--early{--node-color:var(--color-wave-early)}
+.timeline__node--w1{--node-color:var(--color-wave-w1)}
+.timeline__node--w2{--node-color:var(--color-wave-w2)}
+.timeline__label{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-4)}
+.timeline__date{font-size:.72rem;color:var(--color-text-secondary);margin-bottom:var(--space-8)}
+.timeline__stat{display:flex;justify-content:space-between;align-items:baseline;padding:var(--space-4) 0;border-top:1px solid var(--color-surface-border);font-size:.78rem}
+.timeline__stat-val{font-weight:700;font-variant-numeric:tabular-nums}
+.timeline__stat-val--high{color:var(--color-warning)}
+.timeline__stat-val--low{color:var(--color-success)}
+.timeline__connector{
+  align-self:center;width:24px;height:2px;background:var(--color-surface-border-strong);
+  margin-top:2rem;
+}
+@media(max-width:640px){.timeline__connector{display:none}}
+
+/* ---- Bento grid ---- */
+.bento{
+  display:grid;grid-template-columns:repeat(12,1fr);gap:var(--space-12);
+  margin-bottom:var(--space-24);
+}
+.tile{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-md);padding:var(--space-16);
+  display:flex;flex-direction:column;justify-content:flex-end;min-height:88px;
+}
+.tile__val{font-size:1.75rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.tile__lbl{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-muted);margin-top:var(--space-4)}
+.tile__sub{font-size:.68rem;color:var(--color-text-secondary);margin-top:var(--space-4)}
+.tile--span4{grid-column:span 4}
+.tile--span3{grid-column:span 3}
+.tile--span6{grid-column:span 6}
+.tile--accent{border-color:var(--color-primary);background:var(--color-primary-soft)}
+.tile--accent .tile__val{color:var(--color-primary)}
+.tile--success .tile__val{color:var(--color-success)}
+.tile--warn .tile__val{color:var(--color-warning)}
+@media(max-width:640px){.tile--span3,.tile--span4,.tile--span6{grid-column:span 6}}
+@media(max-width:420px){.tile--span3,.tile--span4,.tile--span6{grid-column:span 12}}
+
+/* ---- Chart panel with tabs ---- */
+.chart-panel{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-lg);overflow:hidden;margin-bottom:var(--space-24);
+}
+.chart-tabs{display:flex;border-bottom:1px solid var(--color-surface-border);background:var(--color-surface-lower)}
+.chart-tab{
+  flex:1;padding:var(--space-12) var(--space-16);
+  font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--color-text-muted);background:none;border:none;cursor:pointer;
+  border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s;
+}
+.chart-tab:hover{color:var(--color-text-base)}
+.chart-tab.is-active{color:var(--color-primary);border-bottom-color:var(--color-primary)}
+.chart-tab:focus-visible{outline-offset:-2px}
+.chart-body{padding:var(--space-16) var(--space-16) var(--space-8);position:relative;min-height:260px}
+.chart-pane{display:none}
+.chart-pane.is-active{display:block}
+.chart-pane canvas{max-height:240px}
+
+/* ---- Insight strip ---- */
+.insight{
+  background:var(--color-primary-soft);border:1px solid var(--color-surface-border-strong);
+  border-left:4px solid var(--color-primary);border-radius:var(--radius-md);
+  padding:var(--space-16) var(--space-16);margin-bottom:var(--space-24);
+  font-size:.84rem;line-height:1.65;
+}
+.insight strong{font-weight:700;color:var(--color-text-base)}
+.insight__nums{display:flex;flex-wrap:wrap;gap:var(--space-16);margin-top:var(--space-12)}
+.insight__num{text-align:center}
+.insight__num-val{font-size:1.25rem;font-weight:700;color:var(--color-teal);font-variant-numeric:tabular-nums}
+.insight__num-lbl{font-size:.62rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.05em}
+
+/* ---- AHT distribution ---- */
+.aht-hero{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-12);margin-bottom:var(--space-16)}
+@media(max-width:700px){.aht-hero{grid-template-columns:repeat(2,1fr)}}
+.aht-stat{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-12);text-align:center}
+.aht-stat__val{font-size:1.4rem;font-weight:700;color:var(--color-teal);line-height:1}
+.aht-stat__val--warn{color:var(--color-warning)}
+.aht-stat__lbl{font-size:.62rem;color:var(--color-text-muted);margin-top:var(--space-4);line-height:1.35}
+.dist-row{display:flex;align-items:center;gap:var(--space-8);margin-bottom:var(--space-8);font-size:.78rem}
+.dist-row__lbl{flex:1;color:var(--color-text-secondary)}
+.dist-row__pct{font-weight:700;font-variant-numeric:tabular-nums;min-width:2.5rem;text-align:right}
+.dist-row__bar-wrap{flex:0 0 100px;height:8px;background:var(--color-surface-border);border-radius:4px;overflow:hidden}
+.dist-row__bar{height:100%;border-radius:4px}
+.dist-row__bar--fast{background:var(--color-success)}
+.dist-row__bar--mid{background:var(--color-primary)}
+.dist-row__bar--slow{background:var(--color-warning)}
+.dist-row__bar--tail{background:var(--color-critical)}
+.wait-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-12)}
+@media(max-width:640px){.wait-grid{grid-template-columns:1fr}}
+.wait-cell{text-align:center;padding:var(--space-12);background:var(--color-surface-lower);border-radius:var(--radius-sm);border:1px solid var(--color-surface-border)}
+.wait-cell__val{font-size:1.15rem;font-weight:700;font-variant-numeric:tabular-nums}
+.wait-cell__lbl{font-size:.65rem;color:var(--color-text-muted);margin-top:var(--space-4);line-height:1.4}
+.insight--frustrated{border-left-color:var(--color-warning);background:var(--color-warning-soft)}
+
+/* ---- Time-in-status breakdown ---- */
+.time-stack{margin:var(--space-16) 0 var(--space-12)}
+.time-stack__bar{display:flex;height:28px;border-radius:var(--radius-sm);overflow:hidden;border:1px solid var(--color-surface-border)}
+.time-stack__seg{display:flex;align-items:center;justify-content:center;font-size:.62rem;font-weight:700;color:var(--color-on-inverse);min-width:2px;transition:width .4s ease}
+.time-stack__seg--open{background:var(--color-primary)}
+.time-stack__seg--pending{background:var(--color-secondary)}
+.time-stack__seg--hold{background:var(--color-orange)}
+.time-stack__legend{display:flex;flex-wrap:wrap;gap:var(--space-12) var(--space-16);font-size:.72rem;color:var(--color-text-secondary);margin-top:var(--space-8)}
+.time-stack__legend-item{display:flex;align-items:center;gap:var(--space-4)}
+.time-stack__swatch{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.status-def-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-12);margin-bottom:var(--space-16)}
+@media(max-width:700px){.status-def-grid{grid-template-columns:1fr}}
+.status-def{padding:var(--space-12);background:var(--color-surface-lower);border:1px solid var(--color-surface-border);border-radius:var(--radius-sm);border-top:3px solid var(--def-color,var(--color-primary))}
+.status-def--open{--def-color:var(--color-primary)}
+.status-def--pending{--def-color:var(--color-secondary)}
+.status-def--hold{--def-color:var(--color-orange)}
+.status-def__name{font-size:.72rem;font-weight:700;color:var(--color-text-base);margin-bottom:var(--space-4)}
+.status-def__api{font-size:.62rem;color:var(--color-text-muted);font-family:var(--font-mono);margin-bottom:var(--space-8)}
+.status-def__body{font-size:.72rem;color:var(--color-text-secondary);line-height:1.55}
+
+/* ---- Ticket status reference ---- */
+.status-ref{margin-bottom:var(--space-16)}
+.status-ref__quote{
+  font-size:.78rem;color:var(--color-text-secondary);font-style:italic;
+  margin-bottom:var(--space-12);padding:var(--space-8) var(--space-12);
+  background:var(--color-surface-lower);border-radius:var(--radius-sm);
+  border-left:3px solid var(--color-primary);
+}
+.status-ref__sla{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+.status-ref__sla--run{color:var(--color-primary)}
+.status-ref__sla--pause{color:var(--color-warning)}
+.status-ref__sla--stop{color:var(--color-success)}
+.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-right:6px;vertical-align:middle}
+.status-dot--open{background:var(--color-primary)}
+.status-dot--snooze{background:var(--color-warning)}
+.status-dot--research{background:var(--color-orange)}
+.status-dot--pending{background:var(--color-secondary)}
+.status-dot--solved{background:var(--color-success)}
+.status-ref .tbl td:first-child{font-weight:600;white-space:nowrap}
+.status-ref__guide{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-8);
+  margin-top:var(--space-12);font-size:.72rem;color:var(--color-text-secondary);line-height:1.5;
+}
+@media(max-width:640px){.status-ref__guide{grid-template-columns:1fr}}
+.status-ref__guide-item{padding:var(--space-8);background:var(--color-surface-lower);border-radius:var(--radius-sm);border:1px solid var(--color-surface-border)}
+.status-ref__guide-item strong{color:var(--color-text-base);display:block;margin-bottom:2px;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em}
+.status-ref__map{
+  margin-top:var(--space-12);padding-top:var(--space-12);
+  border-top:1px solid var(--color-surface-border);
+  font-size:.78rem;color:var(--color-text-secondary);line-height:1.6;
+}
+
+/* ---- Dual panel ---- */
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-16);margin-bottom:var(--space-24)}
+@media(max-width:700px){.dual{grid-template-columns:1fr}}
+.panel{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-md);padding:var(--space-16);
+}
+.panel__title{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:var(--space-12)}
+.panel__note{font-size:.68rem;color:var(--color-text-muted);margin-top:var(--space-12);line-height:1.55}
+
+/* CSS REGION: tables — .tbl, sort headers (.tbl-sort__inner, never flex on th/td) */
+.tbl{width:100%;border-collapse:collapse;font-size:.8rem}
+.tbl th{
+  text-align:left;font-size:.65rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--color-text-muted);
+  padding:var(--space-8);border-bottom:1px solid var(--color-surface-border);
+  vertical-align:middle;
+}
+.tbl td{padding:var(--space-8);border-bottom:1px solid var(--color-surface-border);vertical-align:middle}
+.tbl tr:last-child td{border-bottom:none}
+.tbl .num{text-align:right;font-variant-numeric:tabular-nums;width:1%;white-space:nowrap}
+.tbl td:has(> .status-dot){white-space:nowrap}
+.tbl th.tbl-sort{
+  vertical-align:middle;white-space:nowrap;cursor:pointer;user-select:none;
+}
+.tbl th.tbl-sort:hover{color:var(--color-text-base)}
+.tbl-sort__inner{display:inline-flex;align-items:center;gap:.2em}
+.tbl-sort__icon{
+  font-size:.85em;opacity:.55;line-height:1;
+}
+#ideasTable th:last-child,#ideasTable td:last-child{
+  width:14%;padding-left:var(--space-12);font-size:.72rem;color:var(--color-text-muted);
+}
+/* CSS REGION: themes — leaderboard rows, ticket expansions, historical misdirect */
+/* Bar widths: inline style="width:N%" on .theme-row__bar, .dist-row__bar, .time-stack__seg is intentional (data-driven) */
+.themes{display:flex;flex-direction:column;gap:var(--space-8)}
+.theme-row{display:grid;grid-template-columns:1fr auto;gap:var(--space-8);align-items:center;font-size:.78rem}
+.theme-row__name{color:var(--color-text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px}
+#themes .theme-row__name{white-space:normal;overflow:visible;text-overflow:unset;max-width:none}
+.theme-row__count{font-weight:700;font-variant-numeric:tabular-nums;min-width:2rem;text-align:right}
+.theme-row__bar-wrap{grid-column:1/-1;height:6px;background:var(--color-surface-border);border-radius:3px;overflow:hidden}
+.theme-row__bar{height:100%;background:linear-gradient(90deg,var(--color-primary),var(--color-teal));border-radius:3px;transition:width .4s ease}
+.theme-row__pct{font-size:.65rem;color:var(--color-text-muted);margin-left:var(--space-4)}
+.theme-row--thin .theme-row__bar{opacity:.45}
+.theme-row--thin .theme-row__name{font-style:italic;color:var(--color-text-muted)}
+.theme-row--historical .theme-row__name{color:var(--color-text-muted)}
+.theme-row--historical .theme-row__count{color:var(--color-text-muted)}
+.theme-row--historical .theme-row__bar{
+  opacity:.4;background:repeating-linear-gradient(90deg,var(--color-text-muted) 0 6px,transparent 6px 10px);
+  background-color:var(--color-surface-border-strong);
+}
+.theme-row-wrap{display:flex;flex-direction:column;gap:0}
+.theme-tickets{margin:0;padding:0}
+.theme-tickets>summary{
+  cursor:pointer;list-style:none;
+  font-size:.65rem;color:var(--color-text-muted);
+  padding:2px 0 var(--space-4);
+  user-select:none;
+}
+.theme-tickets>summary::-webkit-details-marker{display:none}
+.theme-tickets>summary::before{content:'▸ ';font-size:.6rem}
+.theme-tickets[open]>summary::before{content:'▾ '}
+.theme-tickets>summary:hover{color:var(--color-text-secondary)}
+.theme-tickets__list{
+  margin:0 0 var(--space-4);padding:var(--space-4) 0 var(--space-4) var(--space-12);
+  list-style:none;border-left:2px solid var(--color-surface-border);
+}
+.theme-tickets__list li{
+  font-size:.72rem;line-height:1.45;padding:.15rem 0;
+  color:var(--color-text-secondary);
+}
+.theme-tickets__list a{font-weight:600;font-family:var(--font-mono);font-size:.68rem}
+.theme-tickets__subj{color:var(--color-text-muted)}
+.theme-tickets__gh{
+  display:inline-block;margin-left:var(--space-4);
+  font-size:.62rem;color:var(--color-text-muted);
+}
+.theme-block{margin-bottom:var(--space-16)}
+.theme-block:last-child{margin-bottom:0}
+.theme-block__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-8);margin-bottom:var(--space-12)}
+.theme-block__title{font-size:.78rem;font-weight:600;color:var(--color-text-base)}
+.theme-block__meta{font-size:.68rem;color:var(--color-text-muted)}
+.theme-historical{margin-top:var(--space-12)}
+.theme-historical>summary{
+  cursor:pointer;list-style:none;display:flex;align-items:center;gap:var(--space-8);
+  padding:var(--space-12) var(--space-16);
+  background:var(--color-surface-lower);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-md);font-size:.78rem;font-weight:600;color:var(--color-text-muted);
+}
+.theme-historical>summary::before{content:'▸';font-size:.72rem;transition:transform .15s}
+.theme-historical[open]>summary::before{transform:rotate(90deg)}
+.theme-historical>summary::-webkit-details-marker{display:none}
+.theme-historical__body{
+  margin-top:var(--space-8);padding:var(--space-16);
+  background:var(--color-surface-lower);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-md);border-left:3px dashed var(--color-text-muted);
+}
+.theme-tag{
+  display:inline-block;font-size:.625rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.06em;padding:.15em .45em;border-radius:4px;vertical-align:middle;margin-left:var(--space-4);
+}
+.theme-tag--fixed{background:var(--color-success-soft);border:1px solid var(--color-success);color:var(--color-success)}
+.insight--routing{border-left-color:var(--color-text-muted);background:var(--color-surface-lower)}
+
+/* ---- Ideas kanban ---- */
+.ideas-header{margin-bottom:var(--space-16)}
+.ideas-header h3{font-size:.95rem;font-weight:600;margin-bottom:var(--space-4)}
+.ideas-header p{font-size:.75rem;color:var(--color-text-muted)}
+.kanban{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-12);margin-bottom:var(--space-24)}
+@media(max-width:900px){.kanban{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.kanban{grid-template-columns:1fr}}
+.kanban-col{background:var(--color-surface-lower);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-12);min-height:120px}
+.kanban-col__head{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:var(--space-12);padding-bottom:var(--space-8);border-bottom:2px solid var(--col-accent)}
+.kanban-col--roadmap{--col-accent:var(--color-warning)}
+.kanban-col--flight{--col-accent:var(--color-primary)}
+.kanban-col--landed{--col-accent:var(--color-success)}
+.kanban-col--declined{--col-accent:var(--color-text-muted)}
+.kanban-item{display:flex;gap:var(--space-8);align-items:flex-start;padding:var(--space-8) 0;border-bottom:1px solid var(--color-surface-border);font-size:.76rem;line-height:1.4}
+.kanban-item:last-child{border-bottom:none}
+.kanban-item__votes{font-family:var(--font-mono);font-size:.65rem;font-weight:700;color:var(--color-text-muted);min-width:2rem;text-align:right;flex-shrink:0;padding-top:.1em}
+.kanban-item__link{color:var(--color-text-base)}
+.kanban-item__link:hover{color:var(--color-primary)}
+.flag-hot{color:var(--color-orange);font-size:.65rem;cursor:help;white-space:nowrap}
+
+/* ---- Engineering ---- */
+.eng-summary{font-size:.78rem;color:var(--color-text-secondary);margin-bottom:var(--space-12)}
+.eng-list{display:flex;flex-direction:column;gap:var(--space-8)}
+.eng-card{
+  display:grid;grid-template-columns:auto 1fr auto;gap:var(--space-12);align-items:center;
+  background:var(--color-surface-lower);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-sm);padding:var(--space-12) var(--space-12);
+  font-size:.78rem;
+}
+.eng-card--open{border-left:3px solid var(--color-orange)}
+.eng-card--hold{border-left:3px solid var(--color-text-muted)}
+.eng-card--solved{border-left:3px solid var(--color-success)}
+.eng-card__id{font-family:var(--font-mono);font-weight:700;white-space:nowrap}
+.eng-card__id--open{color:var(--color-orange)}
+.eng-card__id--hold{color:var(--color-text-muted)}
+.eng-card__id--solved{color:var(--color-success)}
+.eng-card__subject{color:var(--color-text-secondary)}
+.eng-card__date{font-size:.68rem;color:var(--color-text-muted);white-space:nowrap}
+.eng-card__gh{font-size:.65rem;color:var(--color-text-muted)}
+.eng-expand summary{
+  cursor:pointer;font-size:.72rem;color:var(--color-text-muted);
+  padding:var(--space-8) 0;list-style:none;
+}
+.eng-expand summary::before{content:'▸ ';display:inline-block;transition:transform .15s}
+.eng-expand[open] summary::before{transform:rotate(90deg)}
+
+/* ---- Glossary ---- */
+.glossary{display:flex;flex-direction:column;gap:var(--space-12)}
+.glossary details{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-sm);overflow:hidden;
+}
+.glossary summary{
+  padding:var(--space-12) var(--space-16);font-weight:600;font-size:.82rem;
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;
+}
+.glossary summary::after{content:'+';color:var(--color-text-muted);font-weight:400}
+.glossary details[open] summary::after{content:'−'}
+.glossary details[open] summary{border-bottom:1px solid var(--color-surface-border)}
+.glossary__body{padding:var(--space-12) var(--space-16);font-size:.8rem;color:var(--color-text-secondary);line-height:1.65}
+
+/* ---- Footer ---- */
+.footer{
+  margin-top:var(--space-32);padding-top:var(--space-16);
+  border-top:1px solid var(--color-surface-border);
+  font-size:.68rem;color:var(--color-text-muted);line-height:1.6;
+}
+.footer a{color:var(--color-primary)}
+
+/* ---- Utility / component helpers (Bolt — avoid inline repeats) ---- */
+.label-xs{font-size:.625rem;color:var(--color-text-muted)}
+.text-muted-sm{font-size:.75rem;color:var(--color-text-muted)}
+.rail-watch__meta{font-weight:400}
+.alert-panel__meta{font-weight:400;font-size:.78rem;color:var(--color-warning-text)}
+.timeline__note{font-size:.65rem;color:var(--color-text-muted);margin-top:var(--space-8);line-height:1.45;border-top:1px solid var(--color-surface-border);padding-top:var(--space-8)}
+.legend-list{display:flex;flex-direction:column;gap:var(--space-12)}
+.legend-row{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)}
+.legend-swatch{width:12px;height:12px;border-radius:2px;flex-shrink:0}
+.legend-swatch--early{background:var(--color-wave-early)}
+.legend-swatch--w1{background:var(--color-wave-w1)}
+.legend-swatch--w2{background:var(--color-wave-w2)}
+.chart-body--compact{min-height:0;padding-bottom:var(--space-16)}
+.panel--spaced{margin-bottom:var(--space-16)}
+.insight--spaced{margin-bottom:var(--space-16)}
+.insight--spaced-top{margin-top:var(--space-16)}
+.insight--primary{border-left-color:var(--color-primary);background:var(--color-primary-soft)}
+.insight__link{font-size:.75rem;color:var(--color-text-muted)}
+.insight__body{margin-top:var(--space-8);color:var(--color-text-secondary);font-size:.84rem;line-height:1.65}
+.panel-intro{font-size:.75rem;color:var(--color-text-muted);margin-bottom:var(--space-12);line-height:1.5}
+.time-stack__seg--gap{background:var(--color-surface-border);color:var(--color-text-muted)}
+.time-stack__swatch--open{background:var(--color-primary)}
+.time-stack__swatch--pending{background:var(--color-secondary)}
+.time-stack__swatch--hold{background:var(--color-orange)}
+.wait-grid--spaced{margin-top:var(--space-12)}
+.wait-cell__val--primary{color:var(--color-primary)}
+.wait-cell__val--secondary{color:var(--color-secondary)}
+.wait-cell__val--orange{color:var(--color-orange)}
+.wait-cell__sub{font-size:.625rem;color:var(--color-text-muted)}
+.chart-canvas--sm{max-height:120px;margin-top:var(--space-12)}
+.chart-canvas--md{max-height:240px}
+.status-ref__title{color:var(--color-text-base)}
+.tbl-muted{color:var(--color-text-muted)}
+.tbl-strong{font-weight:600}
+.tbl-tags{font-size:.72rem;color:var(--color-text-muted)}
+.ideas-table{margin-top:var(--space-12)}
+.panel__note--spaced{margin-top:var(--space-12)}
+/* Sort icon: unicode ↕ — Phosphor ArrowsDownUp recommended for generator port */
+.flag-hot{color:var(--color-warning)}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .time-stack__seg{transition:none}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
+.prototype-tag{
+  display:inline-block;font-size:.62rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--color-secondary);
+  background:color-mix(in srgb,var(--color-secondary) 15%,transparent);
+  border:1px solid var(--color-secondary);border-radius:4px;
+  padding:.15em .5em;margin-bottom:var(--space-12);
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<aside class="rail">
+  <div class="rail__brand">
+    <img class="rail__logo" src="https://tb.pro/media/img/thunderbird/thunderbird-256.png" alt="">
+    <div>
+      <div class="rail__tag">Support Briefing</div>
+      <div class="rail__title">Thundermail Launch</div>
+    </div>
+  </div>
+  <nav aria-label="Sections">
+    <ul class="rail__nav">
+      <li><a href="#story" class="is-active">Story</a></li>
+      <li><a href="#waves">Invite waves</a></li>
+      <li><a href="#volume">Volume</a></li>
+      <li><a href="#aht">Resolution time</a></li>
+      <li><a href="#planning">Planning</a></li>
+      <li><a href="#themes">Themes</a></li>
+      <li><a href="#ideas">Ideas</a></li>
+      <li><a href="#engineering">Engineering</a></li>
+      <li><a href="#glossary">Glossary</a></li>
+    </ul>
+  </nav>
+  <div class="rail__stats">
+    <div class="rail-stat"><div class="rail-stat__val">124</div><div class="rail-stat__lbl">Tickets</div></div>
+    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">1.25%</div><div class="rail-stat__lbl">Flight 2 baseline</div></div>
+    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">100%</div><div class="rail-stat__lbl">CSAT</div></div>
+    <div class="rail-stat"><div class="rail-stat__val">2h</div><div class="rail-stat__lbl">First reply</div></div>
+  </div>
+  <div class="rail-watch">
+    <div class="rail-watch__lbl">Watching</div>
+    <div class="rail-watch__issue">Payment processing delays</div>
+    <div class="rail-watch__refs">
+      <a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a>
+      · <a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">accts#838</a>
+      <span class="rail-watch__meta"> · fix deployed Jun 9</span>
+    </div>
+    <div class="rail-watch__note">0 new incidents — problem ticket still open</div>
+  </div>
+</aside>
+
+<main class="main">
+<span class="prototype-tag">Design prototype · reimagined layout</span>
+
+<div class="status-bar">
+  <span class="chip chip--warn"><span class="chip__dot"></span> Monitoring</span>
+  <span class="chip chip--ok"><span class="chip__dot"></span> CSAT 100%</span>
+  <div class="alert-panel" role="status">
+    <div class="alert-panel__head">
+      Known problem <a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a>
+      · <a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a>
+      <span class="alert-panel__meta"> (fix deployed June 9)</span>
+    </div>
+    <div class="alert-panel__sub">0 open incident(s): <em>problem ticket still open — monitoring for new incidents</em></div>
+  </div>
+</div>
+
+<!-- SECTION: story -->
+<section class="section" id="story">
+  <div class="hero">
+    <div class="hero__eyebrow">Early Bird May 4 → Jun 12 · 2,600 invitees · Generated 2026-06-12 09:41 ET</div>
+    <h1 class="hero__headline">Flight 2 complete at <em>1.25% contact rate</em> — use this baseline to staff the next flight.</h1>
+    <p class="hero__meta">124 tickets across all waves · <span>Early Bird inflated to 15.5% by misdirected non-subscribers; Flight 2 Waves 1+2 complete — historical baseline for next flight</span></p>
+  </div>
+
+  <div class="bento">
+    <div class="tile tile--span4 tile--accent">
+      <div class="tile__val">124</div>
+      <div class="tile__lbl">Total tickets</div>
+      <div class="tile__sub">since Early Bird launch</div>
+    </div>
+    <div class="tile tile--span4 tile--success">
+      <div class="tile__val">1.25%</div>
+      <div class="tile__lbl">Flight 2 contact rate</div>
+      <div class="tile__sub">Waves 1+2 complete · historical baseline</div>
+    </div>
+    <div class="tile tile--span4 tile--success">
+      <div class="tile__val">100%</div>
+      <div class="tile__lbl">CSAT all-time</div>
+      <div class="tile__sub">14 good · 0 bad · 14 rated</div>
+    </div>
+    <div class="tile tile--span3">
+      <div class="tile__val">4.8%</div>
+      <div class="tile__lbl">Overall contact rate</div>
+      <div class="tile__sub">124 / 2,600 invitees</div>
+    </div>
+    <div class="tile tile--span3 tile--warn">
+      <div class="tile__val">~3 biz days</div>
+      <div class="tile__lbl">Median AHT</div>
+      <div class="tile__sub">37 biz hrs · 8am–8pm ET · 77 solved</div>
+    </div>
+    <div class="tile tile--span3">
+      <div class="tile__val">2h</div>
+      <div class="tile__lbl">First reply</div>
+      <div class="tile__sub">business hours · 4.4h calendar</div>
+    </div>
+    <div class="tile tile--span3">
+      <div class="tile__val">71</div>
+      <div class="tile__lbl">FeatureOS ideas</div>
+      <div class="tile__sub">excl. off-topic</div>
+    </div>
+    <div class="tile tile--span6">
+      <div class="tile__val">14%</div>
+      <div class="tile__lbl">GitHub escalations</div>
+      <div class="tile__sub">17 of 124 tickets linked to a GitHub issue</div>
+    </div>
+    <div class="tile tile--span6 tile--success">
+      <div class="tile__val">100%</div>
+      <div class="tile__lbl">CSAT last 7 days</div>
+      <div class="tile__sub">2 good · 0 bad · 2 rated</div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: waves -->
+<section class="section" id="waves">
+  <div class="section__head"><span class="section__num">01</span><h2 class="section__title">Invite waves</h2></div>
+  <div class="timeline">
+    <div class="timeline__node timeline__node--early">
+      <div class="timeline__label">Early Bird</div>
+      <div class="timeline__date">2026-05-04 · 600 invites</div>
+      <div class="timeline__stat"><span>Tickets</span><span class="timeline__stat-val">93</span></div>
+      <div class="timeline__stat"><span>Contact rate</span><span class="timeline__stat-val timeline__stat-val--high">15.5%</span></div>
+      <p class="timeline__note">~35 misdirects (routing issue, fixed) inflated this rate — not subscriber demand</p>
+    </div>
+    <div class="timeline__connector" aria-hidden="true"></div>
+    <div class="timeline__node timeline__node--w1">
+      <div class="timeline__label">Flight 2 Wave 1</div>
+      <div class="timeline__date">2026-06-03 · 500 invites</div>
+      <div class="timeline__stat"><span>Tickets</span><span class="timeline__stat-val">3</span></div>
+      <div class="timeline__stat"><span>Contact rate</span><span class="timeline__stat-val timeline__stat-val--low">0.6%</span></div>
+    </div>
+    <div class="timeline__connector" aria-hidden="true"></div>
+    <div class="timeline__node timeline__node--w2">
+      <div class="timeline__label">Flight 2 Wave 2</div>
+      <div class="timeline__date">2026-06-04 · 1,500 invites</div>
+      <div class="timeline__stat"><span>Tickets</span><span class="timeline__stat-val">28</span></div>
+      <div class="timeline__stat"><span>Contact rate</span><span class="timeline__stat-val timeline__stat-val--low">1.9%</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: volume -->
+<section class="section" id="volume">
+  <div class="section__head"><span class="section__num">02</span><h2 class="section__title">Volume &amp; satisfaction</h2></div>
+
+  <div class="chart-panel">
+    <div class="chart-tabs" role="tablist">
+      <button class="chart-tab is-active" role="tab" aria-selected="true" aria-controls="pane-daily" data-chart="daily">Daily volume</button>
+      <button class="chart-tab" role="tab" aria-selected="false" aria-controls="pane-rate" data-chart="rate">Contact rate</button>
+      <button class="chart-tab" role="tab" aria-selected="false" aria-controls="pane-csat" data-chart="csat">CSAT vs volume</button>
+    </div>
+    <div class="chart-body">
+      <div class="chart-pane is-active" id="pane-daily"><canvas id="dailyChart"></canvas></div>
+      <div class="chart-pane" id="pane-rate"><canvas id="rateChart"></canvas></div>
+      <div class="chart-pane" id="pane-csat"><canvas id="csatChart"></canvas></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Capacity projection — next flight</strong> — using Flight 2's completed 1.25% contact rate, 40% of weekly tickets land on day 2.
+    <div class="insight__nums">
+      <div class="insight__num"><div class="insight__num-val">~12</div><div class="insight__num-lbl">tickets / 1k invites</div></div>
+      <div class="insight__num"><div class="insight__num-val">~5</div><div class="insight__num-lbl">day-2 peak</div></div>
+      <div class="insight__num"><div class="insight__num-val">~3 biz days</div><div class="insight__num-lbl">median resolution</div></div>
+    </div>
+  </div>
+
+  <div class="dual">
+    <div class="panel">
+      <div class="panel__title">Weekly volumes</div>
+      <table class="tbl">
+        <thead><tr><th>Week</th><th class="num">Tickets</th></tr></thead>
+        <tbody>
+          <tr><td>2026-05-04 → 2026-05-10</td><td class="num">38</td></tr>
+          <tr><td>2026-05-11 → 2026-05-17</td><td class="num">34</td></tr>
+          <tr><td>2026-05-18 → 2026-05-24</td><td class="num">16</td></tr>
+          <tr><td>2026-05-25 → 2026-05-31</td><td class="num">2</td></tr>
+          <tr><td>2026-06-01 → 2026-06-07</td><td class="num">28</td></tr>
+          <tr><td>2026-06-08 → 2026-06-14</td><td class="num">6</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel">
+      <div class="panel__title">Wave legend</div>
+      <div class="legend-list">
+        <div class="legend-row"><span class="legend-swatch legend-swatch--early" aria-hidden="true"></span><span>Early Bird (600)</span></div>
+        <div class="legend-row"><span class="legend-swatch legend-swatch--w1" aria-hidden="true"></span><span>Flight 2 Wave 1 (500)</span></div>
+        <div class="legend-row"><span class="legend-swatch legend-swatch--w2" aria-hidden="true"></span><span>Flight 2 Wave 2 (1,500)</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: aht -->
+<section class="section" id="aht">
+  <div class="section__head"><span class="section__num">02a</span><h2 class="section__title">Resolution time (AHT)</h2></div>
+
+    <div class="chart-panel">
+    <div class="chart-tabs" role="tablist">
+      <button class="chart-tab is-active" role="tab" aria-selected="true" aria-controls="pane-aht-summary" data-chart="aht-summary">Summary</button>
+      <button class="chart-tab" role="tab" aria-selected="false" aria-controls="pane-aht-status" data-chart="aht-status">Status guide</button>
+    </div>
+    <div class="chart-body chart-body--compact">
+    <div class="chart-pane is-active" id="pane-aht-summary">
+
+    <div class="aht-hero">
+      <div class="aht-stat"><div class="aht-stat__val">34%</div><div class="aht-stat__lbl">Solved same business day</div></div>
+      <div class="aht-stat"><div class="aht-stat__val">~3 days</div><div class="aht-stat__lbl">Median · business hours (8am–8pm ET)</div></div>
+      <div class="aht-stat"><div class="aht-stat__val">2h</div><div class="aht-stat__lbl">Median first reply · business hours</div></div>
+      <div class="aht-stat"><div class="aht-stat__val aht-stat__val--warn">14%</div><div class="aht-stat__lbl">Take 7+ business days (eng / DNS)</div></div>
+    </div>
+
+    <div class="insight insight--frustrated insight--spaced">
+      <strong>Resolution time = where tickets sit</strong>, not agent typing speed.
+      First reply <strong>~2h</strong>; median close <strong>~3 business days</strong> (~5 calendar days with nights/weekends).
+      Most hours are <strong>Pending</strong> (customer) or <strong>Open</strong> (us); DNS and GH-linked bugs drive the long tail.
+      <span class="insight__link"> · <a href="#aht" onclick="document.querySelector('[data-chart=aht-status]')?.click()">Status definitions →</a></span>
+    </div>
+
+    <div class="dual">
+      <div class="panel">
+        <div class="panel__title">How long to close? (77 solved · business hours)</div>
+        <div class="dist-row"><span class="dist-row__lbl">Same business day (≤12h)</span><span class="dist-row__pct">34%</span><div class="dist-row__bar-wrap"><div class="dist-row__bar dist-row__bar--fast" style="width:34%"></div></div></div>
+        <div class="dist-row"><span class="dist-row__lbl">1–3 business days</span><span class="dist-row__pct">13%</span><div class="dist-row__bar-wrap"><div class="dist-row__bar dist-row__bar--mid" style="width:13%"></div></div></div>
+        <div class="dist-row"><span class="dist-row__lbl">3–7 business days</span><span class="dist-row__pct">39%</span><div class="dist-row__bar-wrap"><div class="dist-row__bar dist-row__bar--slow" style="width:39%"></div></div></div>
+        <div class="dist-row"><span class="dist-row__lbl">7+ business days</span><span class="dist-row__pct">14%</span><div class="dist-row__bar-wrap"><div class="dist-row__bar dist-row__bar--tail" style="width:14%"></div></div></div>
+        <p class="panel__note">That 14% tail (mostly custom domain + GH escalations) pulls the median up. Payment issues close in under a business day.</p>
+      </div>
+      <div class="panel">
+        <div class="panel__title">Where the time goes · 77 solved · business hours</div>
+        <div class="time-stack" aria-label="Mean share of resolution time by status bucket">
+          <div class="time-stack__bar">
+            <div class="time-stack__seg time-stack__seg--open" style="width:43.3%" title="Open/New: 43%">43%</div>
+            <div class="time-stack__seg time-stack__seg--pending" style="width:38.5%" title="Pending: 39%">39%</div>
+            <div class="time-stack__seg time-stack__seg--hold" style="width:8.1%" title="Hold: 8%">8%</div>
+            <div class="time-stack__seg time-stack__seg--gap" style="width:10.1%" title="Gaps / reopen cycles: 10%">10%</div>
+          </div>
+          <div class="time-stack__legend">
+            <span class="time-stack__legend-item"><span class="time-stack__swatch time-stack__swatch--open" aria-hidden="true"></span>Open/New · customer waiting on us</span>
+            <span class="time-stack__legend-item"><span class="time-stack__swatch time-stack__swatch--pending" aria-hidden="true"></span>Pending · we wait on customer</span>
+            <span class="time-stack__legend-item"><span class="time-stack__swatch time-stack__swatch--hold" aria-hidden="true"></span>Hold · eng / third party</span>
+          </div>
+        </div>
+        <div class="wait-grid wait-grid--spaced">
+          <div class="wait-cell"><div class="wait-cell__val wait-cell__val--primary">4.0h</div><div class="wait-cell__lbl">Open/New median<br><span class="wait-cell__sub">~16h typical (43%)</span></div></div>
+          <div class="wait-cell"><div class="wait-cell__val wait-cell__val--secondary">5.2h</div><div class="wait-cell__lbl">Pending median<br><span class="wait-cell__sub">~14h typical (39%)</span></div></div>
+          <div class="wait-cell"><div class="wait-cell__val wait-cell__val--orange">0h</div><div class="wait-cell__lbl">Hold median<br><span class="wait-cell__sub">26h when used · 21% of tickets</span></div></div>
+        </div>
+        <canvas id="timeBreakdownChart" class="chart-canvas--sm"></canvas>
+        <p class="panel__note">Mean share of business-hours resolution time across 77 solved tickets. <a href="#aht" onclick="document.querySelector('[data-chart=aht-status]')?.click()">Status definitions →</a></p>
+      </div>
+    </div>
+
+    <div class="panel panel--spaced">
+      <div class="panel__title">Median AHT trend · business hours</div>
+      <p class="panel-intro">
+        Schedule: 8am–8pm Eastern (12h/day). Dashed line = calendar days (inflated by nights/weekends) — shown for reference only.
+      </p>
+      <canvas id="ahtChart" class="chart-canvas--md"></canvas>
+    </div>
+
+    <div class="panel panel--spaced">
+        <div class="panel__title">What drives the long closes</div>
+        <div class="themes">
+          <div class="theme-row-wrap">
+            <div class="theme-row theme-row--thin"><span class="theme-row__name">Pricing inquiry</span><span class="theme-row__count">~15 biz days<span class="theme-row__pct">n=2</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:100%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>2 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5453" target="_blank">#5453</a><span class="theme-tickets__subj"> — Signup timing question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5610" target="_blank">#5610</a><span class="theme-tickets__subj"> — Non-profit pricing inquiry</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Custom domain DNS</span><span class="theme-row__count">~14 biz days<span class="theme-row__pct">n=5 · GH-linked</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:93%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>5 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5528" target="_blank">#5528</a><span class="theme-tickets__subj"> — Custom domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">accounts#839</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5655" target="_blank">#5655</a><span class="theme-tickets__subj"> — Missing DKIM on custom domain</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">accounts#839</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5679" target="_blank">#5679</a><span class="theme-tickets__subj"> — DKIM key visibility in domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">accounts#839</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5711" target="_blank">#5711</a><span class="theme-tickets__subj"> — Third-party domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/874" target="_blank">accounts#874</a> · <a href="https://github.com/thunderbird/thunderbird-accounts/issues/857" target="_blank">accounts#857</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — DNS CNAME record setup</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">~2 biz days<span class="theme-row__pct">n=9</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:13%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>9 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5461" target="_blank">#5461</a><span class="theme-tickets__subj"> — Account verification</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5489" target="_blank">#5489</a><span class="theme-tickets__subj"> — Recovery email change request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5535" target="_blank">#5535</a><span class="theme-tickets__subj"> — New Thundermail account setup</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5692" target="_blank">#5692</a><span class="theme-tickets__subj"> — Signed up but cannot log in</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5969" target="_blank">#5969</a><span class="theme-tickets__subj"> — Appointment subdomain disabled question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6027" target="_blank">#6027</a><span class="theme-tickets__subj"> — Early Bird invite email question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6055" target="_blank">#6055</a><span class="theme-tickets__subj"> — Prior issue resolved — close ticket</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6061" target="_blank">#6061</a><span class="theme-tickets__subj"> — Desktop client account setup failure</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6077" target="_blank">#6077</a><span class="theme-tickets__subj"> — TB Pro general question</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Pricing — payment issue</span><span class="theme-row__count">&lt;1 biz day<span class="theme-row__pct">n=3</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:5%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>3 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5631" target="_blank">#5631</a><span class="theme-tickets__subj"> — Subscription question</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">accounts#838</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a><span class="theme-tickets__subj"> — Payment processing delay</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">accounts#838</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6189" target="_blank">#6189</a><span class="theme-tickets__subj"> — Alternative payment method question</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+    </div>
+
+    <div class="insight insight--primary insight--spaced-top">
+      <strong>Bottom line for Support Ops</strong>
+      <p class="insight__body">
+        Early Bird misdirects closed quickly and pulled the overall median down; real subscriber work — especially DNS and GH-linked bugs — takes longer.
+        <strong>39% of solves sit 3–7 business days</strong> in Pending, Research, or Snooze while eng ships fixes or customers propagate DNS.
+        Levers: <strong>eng turnaround on Research tickets (GH-linked custom-domain work)</strong> and staffing for fast-closing Flight 2 themes (payments, access).
+        Subscribers see calendar days; plan comms and SLAs accordingly.
+      </p>
+    </div>
+
+    </div><!-- /pane-aht-summary -->
+    <div class="chart-pane" id="pane-aht-status">
+
+    <div class="status-def-grid">
+      <div class="status-def status-def--open">
+        <div class="status-def__name">Open (New / Open)</div>
+        <div class="status-def__api">requester_wait_time − on_hold</div>
+        <div class="status-def__body">Ticket is in the agent queue — Unanswered or In Progress in our workflow. SLA running. Customer is waiting for us to reply or act. Median <strong>4.0 business hours</strong>; first reply typically lands in <strong>~2h</strong>.</div>
+      </div>
+      <div class="status-def status-def--pending">
+        <div class="status-def__name">Pending</div>
+        <div class="status-def__api">agent_wait_time</div>
+        <div class="status-def__body">We asked the customer for something — reply, DNS test, billing confirmation. SLA paused. Zendesk confusingly names this field “agent wait” (the agent is waiting, not working). Median <strong>5.2 business hours</strong>.</div>
+      </div>
+      <div class="status-def status-def--hold">
+        <div class="status-def__name">Hold (On-hold)</div>
+        <div class="status-def__api">on_hold_time</div>
+        <div class="status-def__body">Waiting on engineering or a third party — Research status in our workflow, GitHub-linked bugs, infrastructure fixes. Median <strong>0h</strong> (most tickets never hold), but <strong>16 of 77</strong> tickets used Hold; median <strong>26h</strong> among those.</div>
+      </div>
+    </div>
+
+    <div class="panel status-ref">
+      <div class="panel__title">Ticket status guide · how we measure complexity</div>
+      <p class="status-ref__quote">"Ticket status drives how we measure complexity and staff the queue. Keep yours accurate."</p>
+      <table class="tbl">
+        <thead><tr><th>Status</th><th>Use when</th><th class="num">SLA</th></tr></thead>
+        <tbody>
+          <tr><td><span class="status-dot status-dot--open"></span>Open – Unanswered</td><td>Just arrived, no reply yet</td><td class="num"><span class="status-ref__sla status-ref__sla--run">Running</span></td></tr>
+          <tr><td><span class="status-dot status-dot--open"></span>Open – In Progress</td><td>You've replied or are actively working it</td><td class="num"><span class="status-ref__sla status-ref__sla--run">Running</span></td></tr>
+          <tr><td><span class="status-dot status-dot--snooze"></span>Snooze 24h</td><td>Need something back within a day</td><td class="num"><span class="status-ref__sla status-ref__sla--pause">Paused</span></td></tr>
+          <tr><td><span class="status-dot status-dot--snooze"></span>Snooze 96h</td><td>Longer wait — weekend, extended delay</td><td class="num"><span class="status-ref__sla status-ref__sla--pause">Paused</span></td></tr>
+          <tr><td><span class="status-dot status-dot--research"></span>Research</td><td>Needs investigation or dev input — auto-reopens in 48h</td><td class="num"><span class="status-ref__sla status-ref__sla--pause">Paused</span></td></tr>
+          <tr><td><span class="status-dot status-dot--pending"></span>Pending</td><td>Waiting on the user — automation bumps then auto-solves. Questions for user.</td><td class="num"><span class="status-ref__sla status-ref__sla--pause">Paused</span></td></tr>
+          <tr><td><span class="status-dot status-dot--solved"></span>Solved</td><td>Fully resolved</td><td class="num"><span class="status-ref__sla status-ref__sla--stop">Stopped</span></td></tr>
+        </tbody>
+      </table>
+      <div class="status-ref__guide">
+        <div class="status-ref__guide-item"><strong>Waiting on user + automation</strong> → Pending</div>
+        <div class="status-ref__guide-item"><strong>Waiting on yourself or colleague</strong> → Snooze or Research</div>
+        <div class="status-ref__guide-item"><strong>When in doubt</strong> → don't solve — Pending or Snooze</div>
+      </div>
+      <div class="status-ref__map">
+        <strong class="status-ref__title">Mapping our statuses → Zendesk API metrics</strong><br>
+        <span class="status-dot status-dot--open"></span><strong>Open</strong> (Unanswered / In Progress) → counted in <code>requester_wait_time</code> (customer waiting on us).<br>
+        <span class="status-dot status-dot--pending"></span><strong>Pending</strong> → counted in <code>agent_wait_time</code> (we waiting on customer — yes, the API name is backwards).<br>
+        <span class="status-dot status-dot--research"></span><strong>Research</strong> (and some Snooze) → underlying Zendesk <strong>Hold</strong> → <code>on_hold_time</code>. The API cannot split Research vs Snooze vs Hold — all roll into one bucket.<br>
+        Snooze without Hold underlying status may appear in Pending or Open depending on agent workflow — treat status hygiene as part of metric accuracy.
+      </div>
+    </div>
+
+    </div><!-- /pane-aht-status -->
+    </div><!-- /chart-body -->
+    </div><!-- /chart-panel -->
+</section>
+
+<!-- SECTION: planning -->
+<section class="section" id="planning">
+  <div class="section__head"><span class="section__num">03</span><h2 class="section__title">Staffing planner</h2></div>
+  <div class="dual">
+    <div class="panel">
+      <div class="panel__title">Projection — next flight</div>
+      <table class="tbl">
+        <thead><tr><th class="num">Batch size</th><th class="num">Expected tickets</th><th class="num">Day-2 peak</th></tr></thead>
+        <tbody>
+          <tr><td class="num">500</td><td class="num">6</td><td class="num">2/day</td></tr>
+          <tr><td class="num">1,000</td><td class="num">12</td><td class="num">5/day</td></tr>
+          <tr><td class="num">2,000</td><td class="num">25</td><td class="num">10/day</td></tr>
+          <tr><td class="num">5,000</td><td class="num">62</td><td class="num">25/day</td></tr>
+          <tr><td class="num">10,000</td><td class="num">125</td><td class="num">50/day</td></tr>
+        </tbody>
+      </table>
+      <p class="panel__note">Flight 2 Waves 1+2 are complete (2,000 invites). Projections for the next flight use their 1.25% average (0.6% and 1.3% respectively). <strong>Note:</strong> Wave 2 is only 8 days old — its true rate may be higher as tickets arrive over 7–14 days. Early Bird rate (15.5%) was inflated by misdirected non-subscribers, not a reliable baseline.</p>
+    </div>
+    <div class="panel">
+      <div class="panel__title">Contact rate by wave</div>
+      <table class="tbl">
+        <thead><tr><th>Wave</th><th>Date</th><th class="num">Invites</th><th class="num">Tickets</th><th class="num">Rate</th></tr></thead>
+        <tbody>
+          <tr><td>Early Bird</td><td>2026-05-04</td><td class="num">600</td><td class="num">93</td><td class="num">15.5%</td></tr>
+          <tr><td>Flight 2 Wave 1</td><td>2026-06-03</td><td class="num">500</td><td class="num">3</td><td class="num">0.6%</td></tr>
+          <tr><td>Flight 2 Wave 2</td><td>2026-06-04</td><td class="num">1,500</td><td class="num">28</td><td class="num">1.9%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: themes -->
+<section class="section" id="themes">
+  <div class="section__head"><span class="section__num">04</span><h2 class="section__title">What people ask about</h2></div>
+
+  <div class="panel">
+    <div class="theme-block">
+      <div class="theme-block__head">
+        <div class="theme-block__title">Subscriber themes · Flight 2 era</div>
+        <div class="theme-block__meta">Jun 3+ · 31 subscriber tickets · baseline for next flight</div>
+      </div>
+      <div class="themes">
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Aliases</span><span class="theme-row__count">4<span class="theme-row__pct">13%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:100%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>4 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6032" target="_blank">#6032</a><span class="theme-tickets__subj"> — Change default send-from address</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6078" target="_blank">#6078</a><span class="theme-tickets__subj"> — Send-as alias configuration</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6094" target="_blank">#6094</a><span class="theme-tickets__subj"> — Email alias question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6155" target="_blank">#6155</a><span class="theme-tickets__subj"> — General email question</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">4<span class="theme-row__pct">13%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:100%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>4 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6027" target="_blank">#6027</a><span class="theme-tickets__subj"> — Early Bird invite email content question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6055" target="_blank">#6055</a><span class="theme-tickets__subj"> — Prior issue resolved — close ticket</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6061" target="_blank">#6061</a><span class="theme-tickets__subj"> — Desktop client account setup failure</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6077" target="_blank">#6077</a><span class="theme-tickets__subj"> — TB Pro general question</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Pricing — payment issue</span><span class="theme-row__count">2<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:50%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>2 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a><span class="theme-tickets__subj"> — Payment processing delay</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6189" target="_blank">#6189</a><span class="theme-tickets__subj"> — Alternative payment method question</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Appointment / calendar</span><span class="theme-row__count">2<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:50%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>2 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6044" target="_blank">#6044</a><span class="theme-tickets__subj"> — Availability save error in Appointments</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/appointment/issues/1696" target="_blank">appointment#1696</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6117" target="_blank">#6117</a><span class="theme-tickets__subj"> — Multi-day events display bug</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/appointment/issues/1702" target="_blank">appointment#1702</a></span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">App setup / configuration</span><span class="theme-row__count">2<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:50%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>2 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6045" target="_blank">#6045</a><span class="theme-tickets__subj"> — Thundermail account question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6052" target="_blank">#6052</a><span class="theme-tickets__subj"> — Two-factor authentication setup</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Pricing — discount inquiry</span><span class="theme-row__count">2<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:50%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>2 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6060" target="_blank">#6060</a><span class="theme-tickets__subj"> — Monthly subscription question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6072" target="_blank">#6072</a><span class="theme-tickets__subj"> — Early Bird invite received</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Other / uncategorized</span><span class="theme-row__count">2<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:50%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>2 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6092" target="_blank">#6092</a><span class="theme-tickets__subj"> — Account creation incomplete *(Japanese — "Account creation does not complete")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6182" target="_blank">#6182</a><span class="theme-tickets__subj"> — General follow-up request</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row theme-row--thin"><span class="theme-row__name">Send · billing · bugs · signup (4 themes)</span><span class="theme-row__count">4<span class="theme-row__pct">13%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:25%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>4 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6066" target="_blank">#6066</a><span class="theme-tickets__subj"> — Send storage shows usage with no files</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6125" target="_blank">#6125</a><span class="theme-tickets__subj"> — Payment processing delay (48h)</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a><span class="theme-tickets__subj"> — Payment complete but account not activated</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6198" target="_blank">#6198</a><span class="theme-tickets__subj"> — Cannot change availability in Appointments</span></li>
+              </ul>
+            </details>
+          </div>
+      </div>
+      <p class="panel__note">Top signal: <strong>aliases + account access</strong> (each 13%) — setup and identity, not routing noise. Payments and appointment close fast; DNS/custom domain work still lives in the Early Bird cohort.</p>
+    </div>
+
+    <div class="insight insight--routing insight--spaced insight--spaced-top">
+      <strong>Misdirected volume was an Early Bird routing issue — resolved.</strong>
+      35 tickets (28% of all classified themes) came from non-subscribers who reached the wrong support form before routing was fixed (May 19, <a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>).
+      Flight 2 saw only <strong>1 misdirect</strong> in 32 tickets. Excluded from the Flight 2 baseline above; full ticket list in the historical panel below — routing noise, not ongoing product demand.
+    </div>
+
+    <details class="theme-historical">
+      <summary>All launch · subscriber-only (excl. misdirected) — 88 tickets since May 4</summary>
+      <div class="theme-historical__body">
+        <div class="themes">
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">14<span class="theme-row__pct">16%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:100%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>14 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5377" target="_blank">#5377</a><span class="theme-tickets__subj"> — Appointment GitHub OAuth login</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5392" target="_blank">#5392</a><span class="theme-tickets__subj"> — Thundermail account setup issue</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5396" target="_blank">#5396</a><span class="theme-tickets__subj"> — Cannot sign up with invite</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5415" target="_blank">#5415</a><span class="theme-tickets__subj"> — Thunderbird setup on new device</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5461" target="_blank">#5461</a><span class="theme-tickets__subj"> — Account verification</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5489" target="_blank">#5489</a><span class="theme-tickets__subj"> — Recovery email change request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5503" target="_blank">#5503</a><span class="theme-tickets__subj"> — Cannot sign in</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5535" target="_blank">#5535</a><span class="theme-tickets__subj"> — New Thundermail account setup</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5692" target="_blank">#5692</a><span class="theme-tickets__subj"> — Signed up but cannot log in</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5969" target="_blank">#5969</a><span class="theme-tickets__subj"> — Appointment subdomain disabled question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6027" target="_blank">#6027</a><span class="theme-tickets__subj"> — Early Bird invite email content question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6055" target="_blank">#6055</a><span class="theme-tickets__subj"> — Prior issue resolved — close ticket</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6061" target="_blank">#6061</a><span class="theme-tickets__subj"> — Desktop client account setup failure</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6077" target="_blank">#6077</a><span class="theme-tickets__subj"> — TB Pro general question</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Waitlist / onboarding inquiry</span><span class="theme-row__count">9<span class="theme-row__pct">10%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:64%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>9 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5373" target="_blank">#5373</a><span class="theme-tickets__subj"> — Thundermail login question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5498" target="_blank">#5498</a><span class="theme-tickets__subj"> — New account creation</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5674" target="_blank">#5674</a><span class="theme-tickets__subj"> — Family member account request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5720" target="_blank">#5720</a><span class="theme-tickets__subj"> — Waitlist access timing question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5728" target="_blank">#5728</a><span class="theme-tickets__subj"> — Account access and address setup</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5792" target="_blank">#5792</a><span class="theme-tickets__subj"> — General onboarding confusion</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5888" target="_blank">#5888</a><span class="theme-tickets__subj"> — Early access request before provider renewal</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5926" target="_blank">#5926</a><span class="theme-tickets__subj"> — Beta tester request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6021" target="_blank">#6021</a><span class="theme-tickets__subj"> — Waitlist email change</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Aliases</span><span class="theme-row__count">8<span class="theme-row__pct">9%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:57%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>8 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5407" target="_blank">#5407</a><span class="theme-tickets__subj"> — Alias not visible in settings</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/819" target="_blank">thunderbird-accounts#819</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5439" target="_blank">#5439</a><span class="theme-tickets__subj"> — Alias creation request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5502" target="_blank">#5502</a><span class="theme-tickets__subj"> — Thunderbird iOS app question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5734" target="_blank">#5734</a><span class="theme-tickets__subj"> — Compose with alias in client</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6032" target="_blank">#6032</a><span class="theme-tickets__subj"> — Change default send-from address</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6078" target="_blank">#6078</a><span class="theme-tickets__subj"> — Send-as alias configuration</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6094" target="_blank">#6094</a><span class="theme-tickets__subj"> — Email alias question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6155" target="_blank">#6155</a><span class="theme-tickets__subj"> — General email question</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Other / uncategorized</span><span class="theme-row__count">7<span class="theme-row__pct">8%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:50%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>7 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5533" target="_blank">#5533</a><span class="theme-tickets__subj"> — Email migration to TB Pro</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5680" target="_blank">#5680</a><span class="theme-tickets__subj"> — Self-hosted server connection question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5710" target="_blank">#5710</a><span class="theme-tickets__subj"> — Email password question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5735" target="_blank">#5735</a><span class="theme-tickets__subj"> — Support form submission issue</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/596" target="_blank">thunderbird-accounts#596</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5736" target="_blank">#5736</a><span class="theme-tickets__subj"> — Duplicate file-picker on submit</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/appointment/issues/1680" target="_blank">appointment#1680</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6092" target="_blank">#6092</a><span class="theme-tickets__subj"> — Account creation incomplete *(Japanese — "Account creation does not complete")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6182" target="_blank">#6182</a><span class="theme-tickets__subj"> — General follow-up request</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Request or complaint</span><span class="theme-row__count">5<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:36%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>5 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5463" target="_blank">#5463</a><span class="theme-tickets__subj"> — MSP partner program inquiry</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5650" target="_blank">#5650</a><span class="theme-tickets__subj"> — Appointment scheduling feature question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5703" target="_blank">#5703</a><span class="theme-tickets__subj"> — Calendar invite and Outlook integration</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5831" target="_blank">#5831</a><span class="theme-tickets__subj"> — Duplicate emails in client</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6068" target="_blank">#6068</a><span class="theme-tickets__subj"> — Password reset email routed to wrong inbox</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/769" target="_blank">thunderbird-accounts#769</a></span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Custom domain DNS</span><span class="theme-row__count">5<span class="theme-row__pct">6%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:36%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>5 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5528" target="_blank">#5528</a><span class="theme-tickets__subj"> — Custom domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5655" target="_blank">#5655</a><span class="theme-tickets__subj"> — Missing DKIM on custom domain</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5679" target="_blank">#5679</a><span class="theme-tickets__subj"> — DKIM key visibility in domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5711" target="_blank">#5711</a><span class="theme-tickets__subj"> — Third-party domain setup in client</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/874" target="_blank">thunderbird-accounts#874</a> · <a href="https://github.com/thunderbird/thunderbird-accounts/issues/857" target="_blank">thunderbird-accounts#857</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — DNS CNAME record setup</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Subscription / billing / refund / cancel</span><span class="theme-row__count">4<span class="theme-row__pct">5%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:29%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>4 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5367" target="_blank">#5367</a><span class="theme-tickets__subj"> — Erroneous payment</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5615" target="_blank">#5615</a><span class="theme-tickets__subj"> — Subscription cancellation request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5977" target="_blank">#5977</a><span class="theme-tickets__subj"> — Recovery and billing email change</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a><span class="theme-tickets__subj"> — Payment complete but account not activated</span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row"><span class="theme-row__name">Early bird / invite / waitlist</span><span class="theme-row__count">4<span class="theme-row__pct">5%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:29%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>4 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5391" target="_blank">#5391</a><span class="theme-tickets__subj"> — Invite link not working</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5394" target="_blank">#5394</a><span class="theme-tickets__subj"> — Early access redirects to waitlist</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5395" target="_blank">#5395</a><span class="theme-tickets__subj"> — Early Bird invite email forwarded</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5799" target="_blank">#5799</a><span class="theme-tickets__subj"> — Invite confirmation API error</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/mailstrom/issues/223" target="_blank">mailstrom#223</a></span></li>
+              </ul>
+            </details>
+          </div>
+          <div class="theme-row-wrap">
+            <div class="theme-row theme-row--thin"><span class="theme-row__name">Appointment · app setup · payment · bugs (11 tickets)</span><span class="theme-row__count">11<span class="theme-row__pct">13%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:79%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>11 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5515" target="_blank">#5515</a><span class="theme-tickets__subj"> — Email deliverability question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5516" target="_blank">#5516</a><span class="theme-tickets__subj"> — Appointment calendar setup in desktop client</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/appointment/issues/1678" target="_blank">appointment#1678</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5567" target="_blank">#5567</a><span class="theme-tickets__subj"> — Bug report</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5631" target="_blank">#5631</a><span class="theme-tickets__subj"> — Subscription question</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6044" target="_blank">#6044</a><span class="theme-tickets__subj"> — Availability save error in Appointments</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/appointment/issues/1696" target="_blank">appointment#1696</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6045" target="_blank">#6045</a><span class="theme-tickets__subj"> — Thundermail account question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6052" target="_blank">#6052</a><span class="theme-tickets__subj"> — Two-factor authentication setup</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6117" target="_blank">#6117</a><span class="theme-tickets__subj"> — Multi-day events display bug</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/appointment/issues/1702" target="_blank">appointment#1702</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a><span class="theme-tickets__subj"> — Payment processing delay</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6189" target="_blank">#6189</a><span class="theme-tickets__subj"> — Alternative payment method question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6198" target="_blank">#6198</a><span class="theme-tickets__subj"> — Cannot change availability in Appointments</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+        <p class="panel__note panel__note--spaced">Blends Early Bird subscriber work with Flight 2 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flight 2 era above for staffing the next flight.</p>
+      </div>
+    </details>
+
+    <details class="theme-historical">
+      <summary>Historical — Early Bird misdirects · 35 tickets · 28% of all themes · fixed</summary>
+      <div class="theme-historical__body">
+        <div class="themes">
+          <div class="theme-row-wrap">
+            <div class="theme-row theme-row--historical"><span class="theme-row__name">Misdirected — wrong product / non-subscriber <span class="theme-tag theme-tag--fixed">Fixed — historical only</span></span><span class="theme-row__count">35<span class="theme-row__pct">28%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:100%"></div></div></div>
+            <details class="theme-tickets">
+              <summary>35 tickets</summary>
+              <ul class="theme-tickets__list">
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5408" target="_blank">#5408</a><span class="theme-tickets__subj"> — Desktop password prompt issue *(German — "Thunderbird now requires a password")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5437" target="_blank">#5437</a><span class="theme-tickets__subj"> — General email question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5465" target="_blank">#5465</a><span class="theme-tickets__subj"> — Password recovery *(Italian — "Password recovery")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5474" target="_blank">#5474</a><span class="theme-tickets__subj"> — Email address change request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5481" target="_blank">#5481</a><span class="theme-tickets__subj"> — Cannot log in</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5482" target="_blank">#5482</a><span class="theme-tickets__subj"> — New account request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5510" target="_blank">#5510</a><span class="theme-tickets__subj"> — Reply to Thunderbird team message</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5545" target="_blank">#5545</a><span class="theme-tickets__subj"> — Desktop login issue *(German — "Error prevents me from accessing email")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5550" target="_blank">#5550</a><span class="theme-tickets__subj"> — No confirmation code on signup</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5555" target="_blank">#5555</a><span class="theme-tickets__subj"> — Login failure *(French — "Cannot connect, please send a login link")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5564" target="_blank">#5564</a><span class="theme-tickets__subj"> — Thunderbird login question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5570" target="_blank">#5570</a><span class="theme-tickets__subj"> — Lost Thunderbird desktop installation</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5577" target="_blank">#5577</a><span class="theme-tickets__subj"> — Sign-in help request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5579" target="_blank">#5579</a><span class="theme-tickets__subj"> — Cannot log in</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5580" target="_blank">#5580</a><span class="theme-tickets__subj"> — Email problem *(Spanish — "Problem with email")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5584" target="_blank">#5584</a><span class="theme-tickets__subj"> — Password recovery</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5585" target="_blank">#5585</a><span class="theme-tickets__subj"> — Login access request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5587" target="_blank">#5587</a><span class="theme-tickets__subj"> — Login problem *(Swedish — "Login problem")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5616" target="_blank">#5616</a><span class="theme-tickets__subj"> — New password request *(German — "New password")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5619" target="_blank">#5619</a><span class="theme-tickets__subj"> — Password reset for account</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5622" target="_blank">#5622</a><span class="theme-tickets__subj"> — Password question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5623" target="_blank">#5623</a><span class="theme-tickets__subj"> — Password reset not working</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5637" target="_blank">#5637</a><span class="theme-tickets__subj"> — Login question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5639" target="_blank">#5639</a><span class="theme-tickets__subj"> — Thunderbird Pro setup issue</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5648" target="_blank">#5648</a><span class="theme-tickets__subj"> — Password reset request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5671" target="_blank">#5671</a><span class="theme-tickets__subj"> — Unable to log in</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5689" target="_blank">#5689</a><span class="theme-tickets__subj"> — Sign-in and external provider sync</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5695" target="_blank">#5695</a><span class="theme-tickets__subj"> — Account access request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5713" target="_blank">#5713</a><span class="theme-tickets__subj"> — Login error</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5715" target="_blank">#5715</a><span class="theme-tickets__subj"> — General contact request</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5717" target="_blank">#5717</a><span class="theme-tickets__subj"> — Legacy Thunderbird login question</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5726" target="_blank">#5726</a><span class="theme-tickets__subj"> — Server down report *(Spanish — "Server is down")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5730" target="_blank">#5730</a><span class="theme-tickets__subj"> — Email account access *(Portuguese — "Access my email account")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/5989" target="_blank">#5989</a><span class="theme-tickets__subj"> — Signup authentication failure *(German — "Cannot authenticate during new signup")*</span></li>
+                <li><a href="https://tbpro.zendesk.com/agent/tickets/6036" target="_blank">#6036</a><span class="theme-tickets__subj"> — Tablet install issue *(Dutch — "Cannot install on tablet")*</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+        <p class="panel__note panel__note--spaced">Pre-fix routing (May 4–Jun 2): desktop Thunderbird users and search traffic hit the Thundermail form. Team redirected each ticket and shipped routing fixes — not recurring subscriber demand.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- SECTION: ideas -->
+<section class="section" id="ideas">
+  <div class="section__head"><span class="section__num">05</span><h2 class="section__title">Community ideas · 71 total</h2></div>
+
+  <div class="panel ideas-header">
+    <h3>Top 10 open for discussion</h3>
+    <p class="ideas-legend">Sortable columns · <span class="flag-hot" title="Comments exceed votes on FeatureOS">🔥</span> high discussion (comments &gt; votes)</p>
+    <table class="tbl ideas-table" id="ideasTable">
+      <thead><tr>
+        <th class="num tbl-sort" onclick="sortTable('ideasTable',0,'num')"><span class="tbl-sort__inner"><span>Votes</span><span class="tbl-sort__icon" aria-hidden="true">↕</span></span></th>
+        <th class="num tbl-sort" onclick="sortTable('ideasTable',1,'num')"><span class="tbl-sort__inner"><span>Comments</span><span class="tbl-sort__icon" aria-hidden="true">↕</span></span></th>
+        <th class="num tbl-sort" onclick="sortTable('ideasTable',2,'num')"><span class="tbl-sort__inner"><span>Score</span><span class="tbl-sort__icon" aria-hidden="true">↕</span></span></th>
+        <th class="tbl-sort" onclick="sortTable('ideasTable',3,'str')"><span class="tbl-sort__inner"><span>Idea</span><span class="tbl-sort__icon" aria-hidden="true">↕</span></span></th>
+        <th>Tags</th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="num"><strong>38</strong></td><td class="num tbl-muted">9</td><td class="num tbl-strong">47</td><td><a href="https://ideas.tb.pro/p/thunderbird-email-domains-should-be-easily-sayable-typeable" target="_blank">Thunderbird email domains should be easily sayable + typeable</a></td><td class="tbl-tags">Thundermail</td></tr>
+        <tr><td class="num"><strong>36</strong></td><td class="num tbl-muted">3</td><td class="num tbl-strong">39</td><td><a href="https://ideas.tb.pro/p/increase-custom-domains-limit" target="_blank">Increase custom domains limit</a></td><td class="tbl-tags">Thundermail, Improvement</td></tr>
+        <tr><td class="num"><strong>26</strong></td><td class="num tbl-muted">6</td><td class="num tbl-strong">32</td><td><a href="https://ideas.tb.pro/p/bundle-firefox-relay-functionality" target="_blank">Bundle Firefox Relay Functionality</a></td><td class="tbl-tags">Thundermail, New Feature</td></tr>
+        <tr><td class="num"><strong>25</strong></td><td class="num tbl-muted">6</td><td class="num tbl-strong">31</td><td><a href="https://ideas.tb.pro/p/import-email-calendar-and-contacts-feature" target="_blank">Import email, calendar and contacts feature</a></td><td class="tbl-tags">New Feature, Thundermail</td></tr>
+        <tr><td class="num"><strong>29</strong></td><td class="num tbl-muted">2</td><td class="num tbl-strong">31</td><td><a href="https://ideas.tb.pro/p/please-support-ipv6-on-all-thunderbird-pro-services" target="_blank">Please support IPv6 on all Thunderbird Pro Services</a></td><td class="tbl-tags">Thundermail, New Feature</td></tr>
+        <tr><td class="num"><strong>26</strong></td><td class="num tbl-muted">2</td><td class="num tbl-strong">28</td><td><a href="https://ideas.tb.pro/p/server-side-email-filtering" target="_blank">Server Side Email Filtering</a></td><td class="tbl-tags">Thundermail, Accounts &amp; Subscriptions</td></tr>
+        <tr><td class="num"><strong>5</strong></td><td class="num tbl-muted">19</td><td class="num tbl-strong">24</td><td><a href="https://ideas.tb.pro/p/offer-hipaa-baa-business-associate-agreement" target="_blank">Offer HIPAA BAA (Business Associate Agreement)</a> <span class="flag-hot" title="Comments exceed votes — high discussion">🔥</span></td><td class="tbl-tags">Appointment, Send, Thundermail, Privacy &amp; Security</td></tr>
+        <tr><td class="num"><strong>15</strong></td><td class="num tbl-muted">8</td><td class="num tbl-strong">23</td><td><a href="https://ideas.tb.pro/p/reseller-msp-program-enable-it-partners-to-offer-thunderbird-pro-to-clients" target="_blank">Reseller &amp; MSP Program: Enable IT Partners to Offer Thunderbird P</a></td><td class="tbl-tags">Thundermail, Appointment, Send</td></tr>
+        <tr><td class="num"><strong>12</strong></td><td class="num tbl-muted">9</td><td class="num tbl-strong">21</td><td><a href="https://ideas.tb.pro/p/support-for-catch-all-and-wildcard-email-aliases-e-g-anything-domain-com" target="_blank">Support for Catch-All and Wildcard Email Aliases</a></td><td class="tbl-tags">Thundermail</td></tr>
+        <tr><td class="num"><strong>19</strong></td><td class="num tbl-muted">1</td><td class="num tbl-strong">20</td><td><a href="https://ideas.tb.pro/p/sign-in-with-thunderbirdd" target="_blank">Sign-in with Thunderbirdd</a></td><td class="tbl-tags">Accounts &amp; Subscriptions, New Feature</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="kanban">
+    <div class="kanban-col kanban-col--roadmap">
+      <div class="kanban-col__head">On the roadmap (6)</div>
+      <div class="kanban-item"><span class="kanban-item__votes">50▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/additional-pricing-tiers" target="_blank">Additional pricing tiers</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">38▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/dnssec-dane-support" target="_blank">DNSSEC/DANE Support</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">12▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/additional-encryption-at-rest-with-openpgp-or-s-mime" target="_blank">Additional Encryption at Rest with OpenPGP or S/MIME</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">9▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/send-e2e-cross-device-login-verification" target="_blank">Send E2E cross-device login/verification</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">5▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/show-active-login-sessions" target="_blank">Show active login sessions</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">3▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/send-multiple-folder-support" target="_blank">Send Multiple Folder Support</a></div>
+    </div>
+    <div class="kanban-col kanban-col--flight">
+      <div class="kanban-col__head">In flight (3)</div>
+      <div class="kanban-item"><span class="kanban-item__votes">62▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank">Webmail for Thundermail</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">47▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank">Multifactor Authentication</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">16▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/dark-mode" target="_blank">Dark Mode</a></div>
+    </div>
+    <div class="kanban-col kanban-col--landed">
+      <div class="kanban-col__head">Landed (3)</div>
+      <div class="kanban-item"><span class="kanban-item__votes">23▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/unlimited-aliases" target="_blank">Unlimited aliases</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">10▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/allow-permission-to-send-from-any-email" target="_blank">Allow permission to send from "any" email</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">3▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client" target="_blank">Emails appear multiple times if multiple aliases are configured in the client</a></div>
+    </div>
+    <div class="kanban-col kanban-col--declined">
+      <div class="kanban-col__head">No for now (2)</div>
+      <div class="kanban-item"><span class="kanban-item__votes">2▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/eu-based-thunderbird-pro" target="_blank">EU Based Thunderbird Pro</a></div>
+      <div class="kanban-item"><span class="kanban-item__votes">1▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/calendar-auto-decline-and-warnings-for-out-of-working-hours" target="_blank">Calendar auto decline and warnings for out of working hours</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: engineering -->
+<section class="section" id="engineering">
+  <div class="section__head"><span class="section__num">06</span><h2 class="section__title">Engineering escalations · 17 of 124 (14%)</h2></div>
+  <p class="eng-summary">Tickets tagged <code>zd-gh</code> — linked to a GitHub issue in the thunderbird org via gz# marker.</p>
+  <div class="eng-list">
+    <div class="eng-card eng-card--open">
+      <div><div class="eng-card__id eng-card__id--open"><a href="https://tbpro.zendesk.com/agent/tickets/6068" target="_blank">#6068</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/769" target="_blank">thunderbird-accounts#769</a></div></div>
+      <div class="eng-card__subject">Password reset email routed to wrong inbox</div>
+      <div class="eng-card__date">2026-06-05</div>
+    </div>
+    <div class="eng-card eng-card--hold">
+      <div><div class="eng-card__id eng-card__id--hold"><a href="https://tbpro.zendesk.com/agent/tickets/5516" target="_blank">#5516</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/appointment/issues/1678" target="_blank">appointment#1678</a></div></div>
+      <div class="eng-card__subject">Appointment calendar setup in desktop client</div>
+      <div class="eng-card__date">2026-05-08</div>
+    </div>
+  </div>
+  <details class="eng-expand">
+    <summary>15 solved / closed tickets</summary>
+    <div class="eng-list wait-grid--spaced">
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/6125" target="_blank">#6125</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></div></div><div class="eng-card__subject">Payment processing delay (48h)</div><div class="eng-card__date">2026-06-08</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></div></div><div class="eng-card__subject">Payment processing delay</div><div class="eng-card__date">2026-06-08</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/6117" target="_blank">#6117</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/appointment/issues/1702" target="_blank">appointment#1702</a></div></div><div class="eng-card__subject">Multi-day events display bug</div><div class="eng-card__date">2026-06-07</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/6044" target="_blank">#6044</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/appointment/issues/1696" target="_blank">appointment#1696</a></div></div><div class="eng-card__subject">Availability save error in Appointments</div><div class="eng-card__date">2026-06-04</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/6040" target="_blank">#6040</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/mailstrom/issues/226" target="_blank">mailstrom#226</a></div></div><div class="eng-card__subject">Deliverability to major mail provider</div><div class="eng-card__date">2026-06-04</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5799" target="_blank">#5799</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/mailstrom/issues/223" target="_blank">mailstrom#223</a></div></div><div class="eng-card__subject">Invite confirmation API error</div><div class="eng-card__date">2026-05-21</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5736" target="_blank">#5736</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/appointment/issues/1680" target="_blank">appointment#1680</a></div></div><div class="eng-card__subject">Duplicate file-picker on submit</div><div class="eng-card__date">2026-05-18</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5735" target="_blank">#5735</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/596" target="_blank">thunderbird-accounts#596</a></div></div><div class="eng-card__subject">Support form submission issue</div><div class="eng-card__date">2026-05-18</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5711" target="_blank">#5711</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/874" target="_blank">thunderbird-accounts#874</a> <a href="https://github.com/thunderbird/thunderbird-accounts/issues/857" target="_blank">thunderbird-accounts#857</a></div></div><div class="eng-card__subject">Third-party domain setup in client</div><div class="eng-card__date">2026-05-18</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5679" target="_blank">#5679</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></div></div><div class="eng-card__subject">DKIM key visibility in domain setup</div><div class="eng-card__date">2026-05-16</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5655" target="_blank">#5655</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></div></div><div class="eng-card__subject">Missing DKIM on custom domain</div><div class="eng-card__date">2026-05-15</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5631" target="_blank">#5631</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></div></div><div class="eng-card__subject">Subscription question</div><div class="eng-card__date">2026-05-14</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5528" target="_blank">#5528</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></div></div><div class="eng-card__subject">Custom domain setup</div><div class="eng-card__date">2026-05-09</div></div>
+      <div class="eng-card eng-card--solved"><div><div class="eng-card__id eng-card__id--solved"><a href="https://tbpro.zendesk.com/agent/tickets/5407" target="_blank">#5407</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/819" target="_blank">thunderbird-accounts#819</a></div></div><div class="eng-card__subject">Alias not visible in settings</div><div class="eng-card__date">2026-05-06</div></div>
+      <div class="eng-card eng-card--hold"><div><div class="eng-card__id eng-card__id--hold"><a href="https://tbpro.zendesk.com/agent/tickets/5411" target="_blank">#5411</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/690" target="_blank">thunderbird-accounts#690</a></div></div><div class="eng-card__subject">Cannot re-add removed custom domain</div><div class="eng-card__date">2026-05-06</div></div>
+    </div>
+  </details>
+</section>
+
+<!-- SECTION: glossary -->
+<section class="section" id="glossary">
+  <div class="section__head"><span class="section__num">07</span><h2 class="section__title">Glossary</h2></div>
+  <div class="glossary">
+    <details><summary>AHT (Average Handle Time)</summary><div class="glossary__body">Time from ticket creation to resolution (Solved status). We report <strong>business hours</strong> first — Zendesk schedule 8am–8pm Eastern (12 hours/day), which excludes nights and weekends; calendar time adds nights/weekends and reads higher (~5 calendar days vs ~3 business days median). Median is used rather than mean to reduce outlier impact. Based on 77 solved tickets. See <strong>Where the time goes</strong> for the status breakdown.</div></details>
+    <details><summary>Open · Pending · Hold (Zendesk metrics)</summary><div class="glossary__body"><strong>Open/New</strong> — ticket in the agent queue (Unanswered or In Progress). Tracked as <code>requester_wait_time</code> minus Hold. Customer is waiting for us. Median 4.0 business hours.<br><strong>Pending</strong> — waiting on the customer to reply or test. Tracked as <code>agent_wait_time</code> (Zendesk's name reflects that the agent is waiting, not that agents are slow). Median 5.2 business hours.<br><strong>Hold</strong> — waiting on engineering or a third party (Research in our workflow). Tracked as <code>on_hold_time</code>. Median 0h overall; 21% of tickets use Hold (median 26h when they do). The API cannot split Research vs Snooze — both map to underlying Hold when configured that way.</div></details>
+    <details><summary>Ticket statuses (TB Pro workflow)</summary><div class="glossary__body"><strong>Open – Unanswered</strong> / <strong>Open – In Progress</strong> — SLA running (active work). <strong>Snooze 24h</strong> / <strong>Snooze 96h</strong> — paused, waiting on yourself or a colleague. <strong>Research</strong> — paused, needs investigation or dev input (auto-reopens in 48h). <strong>Pending</strong> — paused, waiting on the user (automation bumps then auto-solves). <strong>Solved</strong> — SLA stopped. Full SLA table, decision guide, and API mapping: <a href="#aht" onclick="document.querySelector('[data-chart=aht-status]')?.click()">Status guide tab</a> in Resolution time.</div></details>
+    <details><summary>First Reply Time</summary><div class="glossary__body">Time from ticket creation to the agent's first response. Reported in business hours (8am–8pm ET) with calendar time noted where relevant.</div></details>
+    <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who opened a support ticket. Calculated as: tickets ÷ invitees in that wave. A lower contact rate indicates a smoother onboarding experience.</div></details>
+    <details><summary>Day-2 Peak</summary><div class="glossary__body">Historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</div></details>
+    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect subscriber support demand. <strong>35 tickets (28% of classified themes)</strong> during Early Bird — a routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2: 1 misdirect in 32 tickets. Shown in a collapsed historical section on the themes panel, not in the Flight 2 baseline.</div></details>
+    <details><summary>Cumulative contact rate</summary><div class="glossary__body">Running total of tickets divided by total invitees sent at that point in time. Drops sharply when a large new invite wave goes out (more invitees, same tickets).</div></details>
+  </div>
+</section>
+
+<!-- DATA: last-updated 2026-06-12 -->
+<footer class="footer">
+  Data: Zendesk (Thunderbird Pro brand) · FeatureOS board 17437 · May 4, 2026 → 2026-06-12 ·
+  Excludes: closed_by_merge, test tickets, agent-created, known infrastructure tickets. Ticket subjects paraphrased; non-English quotes include AI translations.
+  · <a href="launch_overview.html">Live report</a>
+  · <a href="latest.html">Flight 2 live report</a>
+  · Design prototype — reimagined from scratch
+</footer>
+</main>
+</div>
+
+<!-- GENERATOR: edit chart/nav JS below when porting to tbpro_launch_overview.py -->
+<!-- DATA: last-updated 2026-06-12 -->
+<script>
+
+Chart.defaults.animation = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? false : Chart.defaults.animation;
+const root = getComputedStyle(document.documentElement);
+const P = {
+  muted:  root.getPropertyValue('--color-text-muted').trim() || '#9492b0',
+  border: root.getPropertyValue('--color-surface-border').trim() || '#2b2845',
+  primary:root.getPropertyValue('--color-primary').trim() || '#4d7bf8',
+  success:root.getPropertyValue('--color-success').trim() || '#22c55e',
+  onInverse: root.getPropertyValue('--color-on-inverse').trim() || '#ffffff',
+  waveEarly: root.getPropertyValue('--color-wave-early').trim() || '#6366f1',
+  waveW1: root.getPropertyValue('--color-wave-w1').trim() || '#f97316',
+  waveW2: root.getPropertyValue('--color-wave-w2').trim() || '#ef4444',
+};
+
+const dates      = ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12"];
+const daily      = [1, 9, 8, 8, 8, 2, 2, 6, 5, 6, 5, 5, 4, 3, 13, 0, 0, 2, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 2, 1, 3, 12, 6, 2, 2, 3, 0, 1, 1, 1];
+const cumContact = [0.17, 1.67, 3.0, 4.33, 5.67, 6.0, 6.33, 7.33, 8.17, 9.17, 10.0, 10.83, 11.5, 12.0, 14.17, 14.17, 14.17, 14.5, 14.5, 14.5, 14.67, 14.67, 14.67, 14.83, 14.83, 15.0, 15.0, 15.0, 15.33, 15.5, 8.73, 4.15, 4.38, 4.46, 4.54, 4.65, 4.65, 4.69, 4.73, 4.77];
+const milestones = [{"date": "2026-05-04", "label": "Early Bird", "color": P.waveEarly}, {"date": "2026-06-03", "label": "Flight 2 Wave 1", "color": P.waveW1}, {"date": "2026-06-04", "label": "Flight 2 Wave 2", "color": P.waveW2}];
+
+function buildAnnotations() {
+  const ann = {};
+  milestones.forEach((m, i) => {
+    const idx = dates.indexOf(m.date);
+    if (idx < 0) return;
+    ann['line' + i] = {
+      type: 'line', xMin: idx, xMax: idx,
+      borderColor: m.color, borderWidth: 2, borderDash: [4,3],
+      label: { display: true, content: m.label, position: 'start',
+               backgroundColor: m.color, color: P.onInverse, font:{size:9}, padding:3 }
+    };
+  });
+  return ann;
+}
+
+const gridOpts = {
+  x: { ticks:{color:P.muted,maxTicksLimit:12,maxRotation:45}, grid:{color:P.border} },
+  y: { beginAtZero:true, ticks:{color:P.muted}, grid:{color:P.border} }
+};
+
+new Chart(document.getElementById('dailyChart'), {
+  type: 'bar',
+  data: {
+    labels: dates,
+    datasets: [{
+      label: 'Tickets', data: daily,
+      backgroundColor: dates.map(d => milestones.find(m=>m.date===d) ? milestones.find(m=>m.date===d).color+'99' : P.primary+'40'),
+      borderColor:     dates.map(d => milestones.find(m=>m.date===d) ? milestones.find(m=>m.date===d).color : P.primary),
+      borderWidth: 1, borderRadius: 3,
+    }]
+  },
+  options: {
+    responsive:true, maintainAspectRatio:true,
+    plugins: { legend:{display:false}, annotation:{annotations:buildAnnotations()} },
+    scales: { ...gridOpts, y: { ...gridOpts.y, ticks:{...gridOpts.y.ticks, stepSize:1} } }
+  }
+});
+
+new Chart(document.getElementById('rateChart'), {
+  type: 'line',
+  data: {
+    labels: dates,
+    datasets: [{
+      label: 'Cumulative contact rate (%)', data: cumContact,
+      borderColor: P.success, backgroundColor: P.success+'20',
+      fill: true, tension: 0.3, pointRadius: 0, pointHoverRadius: 5,
+      pointHoverBackgroundColor: P.success, pointHoverBorderColor: P.onInverse,
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive:true,
+    plugins: { legend:{display:false}, annotation:{annotations:buildAnnotations()} },
+    scales: {
+      x: gridOpts.x,
+      y: { beginAtZero:true, ticks:{color:P.muted,callback:v=>v+'%'}, grid:{color:P.border} }
+    }
+  }
+});
+
+const csatWeekly = [{"week": "2026-06-01", "volume": 25, "good": 4, "bad": 1, "pct": 80}, {"week": "2026-06-08", "volume": 6, "good": 2, "bad": 0, "pct": 100}];
+if (csatWeekly.length && document.getElementById('csatChart')) {
+  new Chart(document.getElementById('csatChart'), {
+    data: {
+      labels: csatWeekly.map(w => w.week),
+      datasets: [
+        { type: 'bar', label: 'Tickets', data: csatWeekly.map(w => w.volume),
+          backgroundColor: P.primary+'40', borderColor: P.primary, borderWidth: 1,
+          borderRadius: 3, yAxisID: 'yVol' },
+        { type: 'line', label: 'CSAT %', data: csatWeekly.map(w => w.pct),
+          borderColor: P.success, backgroundColor: 'transparent',
+          tension: 0.3, pointRadius: 7, pointHoverRadius: 10,
+          pointBackgroundColor: P.success, borderWidth: 2, yAxisID: 'yCsat', spanGaps: true },
+      ]
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: { legend: { labels: { color: P.muted, font: { size: 11 } } } },
+      scales: {
+        x: { ticks: { color: P.muted, maxRotation: 45 }, grid: { color: P.border } },
+        yVol: { position: 'left', beginAtZero: true, ticks: { color: P.primary, stepSize: 1 }, grid: { color: P.border }, title: { display: true, text: 'Tickets', color: P.primary, font: { size: 10 } } },
+        yCsat: { position: 'right', min: 0, max: 100, ticks: { color: P.success, callback: v => v + '%' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'CSAT', color: P.success, font: { size: 10 } } },
+      }
+    }
+  });
+}
+
+const BIZ_HRS_PER_DAY = 12; // Zendesk schedule: 8am–8pm Eastern
+const ahtWeekly = [
+  {"week":"2026-05-11","week_median_biz_h":60.0,"week_median_cal_h":144.7,"week_n":7,"cum_median_biz_h":60.0,"cum_median_cal_h":144.7,"cum_n":7},
+  {"week":"2026-05-18","week_median_biz_h":37.9,"week_median_cal_h":120.9,"week_n":30,"cum_median_biz_h":40.4,"cum_median_cal_h":122.4,"cum_n":37},
+  {"week":"2026-05-25","week_median_biz_h":52.7,"week_median_cal_h":148.7,"week_n":5,"cum_median_biz_h":40.6,"cum_median_cal_h":123.6,"cum_n":42},
+  {"week":"2026-06-01","week_median_biz_h":12.0,"week_median_cal_h":15.2,"week_n":19,"cum_median_biz_h":37.3,"cum_median_cal_h":120.4,"cum_n":61},
+  {"week":"2026-06-08","week_median_biz_h":38.2,"week_median_cal_h":120.9,"week_n":16,"cum_median_biz_h":37.3,"cum_median_cal_h":120.4,"cum_n":77},
+];
+if (ahtWeekly.length && document.getElementById('ahtChart')) {
+  const toBizDays = h => Math.round(h / BIZ_HRS_PER_DAY * 10) / 10;
+  const toCalDays = h => Math.round(h / 24 * 10) / 10;
+  const fmtBiz = h => h >= BIZ_HRS_PER_DAY ? `${toBizDays(h)} biz days` : `${Math.round(h * 10) / 10} biz hrs`;
+  new Chart(document.getElementById('ahtChart'), {
+    data: {
+      labels: ahtWeekly.map(w => w.week),
+      datasets: [
+        {
+          type: 'bar', label: 'Median (week solved, biz hrs)', data: ahtWeekly.map(w => toBizDays(w.week_median_biz_h)),
+          backgroundColor: P.primary + '55', borderColor: P.primary, borderWidth: 1,
+          borderRadius: 3, yAxisID: 'yAht',
+        },
+        {
+          type: 'line', label: 'Cumulative median (biz hrs)', data: ahtWeekly.map(w => toBizDays(w.cum_median_biz_h)),
+          borderColor: P.success, backgroundColor: 'transparent',
+          tension: 0.25, pointRadius: 6, pointHoverRadius: 9,
+          pointBackgroundColor: P.success, borderWidth: 2, yAxisID: 'yAht',
+        },
+        {
+          type: 'line', label: 'Calendar (reference)', data: ahtWeekly.map(w => toCalDays(w.cum_median_cal_h)),
+          borderColor: P.muted + '88', backgroundColor: 'transparent', borderDash: [4, 6],
+          tension: 0.25, pointRadius: 0, borderWidth: 1, yAxisID: 'yAht',
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color: P.muted, font: { size: 11 } } },
+        tooltip: {
+          callbacks: {
+            label(ctx) {
+              const w = ahtWeekly[ctx.dataIndex];
+              if (ctx.datasetIndex === 0) return `Week median: ${fmtBiz(w.week_median_biz_h)} (${toCalDays(w.week_median_cal_h)} cal days)`;
+              if (ctx.datasetIndex === 1) return `Cumulative biz: ${fmtBiz(w.cum_median_biz_h)}`;
+              return `Cumulative calendar: ${toCalDays(w.cum_median_cal_h)} days`;
+            },
+            afterBody(items) {
+              const i = items[0]?.dataIndex;
+              if (i == null) return [];
+              const w = ahtWeekly[i];
+              return [`Solved that week: ${w.week_n}`, `All solved to date: ${w.cum_n}`, 'Schedule: 8am–8pm ET'];
+            }
+          }
+        }
+      },
+      scales: {
+        x: { ticks: { color: P.muted, maxRotation: 45 }, grid: { color: P.border } },
+        yAht: {
+          position: 'left', beginAtZero: true,
+          ticks: { color: P.muted, callback: v => v + ' biz d' },
+          grid: { color: P.border },
+          title: { display: true, text: 'Business days (12h/day · 8am–8pm ET)', color: P.muted, font: { size: 10 } },
+        },
+      }
+    }
+  });
+}
+
+/* Where the time goes — median hours stacked bar */
+const timeBreakdown = {
+  labels: ['Median hours', 'Typical ticket (~37h resolution)'],
+  open:    [4.0, 16.2],
+  pending: [5.2, 14.4],
+  hold:    [0.0, 3.0],
+};
+if (document.getElementById('timeBreakdownChart')) {
+  const C_SECONDARY = root.getPropertyValue('--color-secondary').trim() || '#7c3aed';
+  const C_ORANGE = root.getPropertyValue('--color-orange').trim() || '#f97316';
+  new Chart(document.getElementById('timeBreakdownChart'), {
+    type: 'bar',
+    data: {
+      labels: timeBreakdown.labels,
+      datasets: [
+        { label: 'Open/New', data: timeBreakdown.open, backgroundColor: P.primary + 'cc', borderColor: P.primary, borderWidth: 1, borderRadius: 3 },
+        { label: 'Pending', data: timeBreakdown.pending, backgroundColor: C_SECONDARY + 'cc', borderColor: C_SECONDARY, borderWidth: 1, borderRadius: 3 },
+        { label: 'Hold', data: timeBreakdown.hold, backgroundColor: C_ORANGE + 'cc', borderColor: C_ORANGE, borderWidth: 1, borderRadius: 3 },
+      ]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        legend: { labels: { color: P.muted, font: { size: 11 } } },
+        tooltip: {
+          callbacks: {
+            label(ctx) {
+              const hrs = ctx.raw;
+              const bizDays = Math.round(hrs / 12 * 10) / 10;
+              return `${ctx.dataset.label}: ${hrs}h${hrs >= 12 ? ` (${bizDays} biz days)` : ''}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: { stacked: true, beginAtZero: true, ticks: { color: P.muted, callback: v => v + 'h' }, grid: { color: P.border }, title: { display: true, text: 'Business hours (8am–8pm ET)', color: P.muted, font: { size: 10 } } },
+        y: { stacked: true, ticks: { color: P.muted }, grid: { color: P.border } },
+      }
+    }
+  });
+}
+
+/* Chart tabs — scoped per .chart-panel */
+document.querySelectorAll('.chart-panel').forEach(panel => {
+  const tabs = panel.querySelectorAll('.chart-tab');
+  const panes = panel.querySelectorAll('.chart-pane');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false'); });
+      panes.forEach(p => p.classList.remove('is-active'));
+      tab.classList.add('is-active');
+      tab.setAttribute('aria-selected','true');
+      const pane = panel.querySelector('#pane-' + tab.dataset.chart);
+      if (pane) pane.classList.add('is-active');
+    });
+  });
+});
+
+/* Section nav — anchor links + scroll spy (hash URLs shareable) */
+const navLinks = document.querySelectorAll('.rail__nav a');
+const sectionIds = [...navLinks].map(a => a.getAttribute('href').slice(1));
+const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+
+function setActiveNav(id) {
+  if (!id) return;
+  navLinks.forEach(a => a.classList.toggle('is-active', a.getAttribute('href') === '#' + id));
+}
+
+let scrollSpyPaused = false;
+let scrollSpyTimer = null;
+
+function pauseScrollSpy(ms = 800) {
+  scrollSpyPaused = true;
+  clearTimeout(scrollSpyTimer);
+  scrollSpyTimer = setTimeout(() => { scrollSpyPaused = false; }, ms);
+}
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    pauseScrollSpy(1000);
+    setActiveNav(link.getAttribute('href').slice(1));
+  });
+});
+
+window.addEventListener('hashchange', () => {
+  pauseScrollSpy(500);
+  setActiveNav(location.hash.slice(1));
+});
+
+const observer = new IntersectionObserver(entries => {
+  if (scrollSpyPaused) return;
+  const visible = entries.filter(e => e.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+  if (!visible.length) return;
+  const id = visible[0].target.id;
+  setActiveNav(id);
+  const hash = '#' + id;
+  if (location.hash !== hash) history.replaceState(null, '', hash);
+}, { rootMargin: '-15% 0px -60% 0px', threshold: [0, 0.15, 0.4] });
+sections.forEach(s => observer.observe(s));
+
+pauseScrollSpy(location.hash ? 1200 : 400);
+const initialId = location.hash.slice(1);
+setActiveNav(initialId && sectionIds.includes(initialId) ? initialId : 'story');
+
+function sortTable(tableId, colIdx, type) {
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  const rows  = Array.from(tbody.querySelectorAll('tr'));
+  const dir   = table.dataset.sortCol == colIdx && table.dataset.sortDir == 'asc' ? 'desc' : 'asc';
+  table.dataset.sortCol = colIdx;
+  table.dataset.sortDir = dir;
+  rows.sort((a, b) => {
+    const av = a.cells[colIdx]?.innerText.trim() || '';
+    const bv = b.cells[colIdx]?.innerText.trim() || '';
+    const cmp = type === 'num'
+      ? (parseFloat(av.replace(/[^0-9.-]/g,'')) || 0) - (parseFloat(bv.replace(/[^0-9.-]/g,'')) || 0)
+      : av.localeCompare(bv);
+    return dir === 'asc' ? cmp : -cmp;
+  });
+  rows.forEach(r => tbody.appendChild(r));
+}
+</script>
+</body>
+</html>
