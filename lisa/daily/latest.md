@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-16
 
-_Updated: **2026-06-16 08:47 ET** · refreshes hourly_  
+_Updated: **2026-06-16 10:49 ET** · refreshes hourly_  
 _24h window: 2026-06-15T16:00 → 2026-06-16T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 14** of rollout — **2,000 invitees**, **36 tickets** so far 
 
 ## At a glance
 
-- **0** new tickets in last 24h · **1** solved in last 24h
+- **0** new tickets in last 24h · **2** solved in last 24h
 - **36** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 60.0h · mean 75.7h (proxy: updated_at − created_at, 29 solved tickets)
+- **Median AHT**: 60.4h · mean 83.3h (proxy: updated_at − created_at, 30 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -54,10 +54,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 29
+- **solved**: 30
 - **pending**: 3
-- **open**: 2
 - **hold**: 2
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -76,7 +76,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
-- **request** + **informed**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
 - **blocked** + **actioned**: 1
@@ -86,6 +85,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 1
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
+- **request** + **informed**: 1
 - **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
@@ -99,6 +99,7 @@ _(none)_
 ## Solved — last 24h
 
 - · [6068](https://tbpro.zendesk.com/agent/tickets/6068) · 2026-06-16T04:34 · Password Change email received into wrong account inbox
+- · [6029](https://tbpro.zendesk.com/agent/tickets/6029) · 2026-06-16T14:48 · Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
