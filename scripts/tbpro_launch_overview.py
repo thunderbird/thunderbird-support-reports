@@ -107,21 +107,34 @@ def fetch_tickets(creds):
     ])
 
 
-def fetch_aht(auth, sub, tickets, sample=60):
-    """Fetch ticket metrics for solved tickets; return (aht_calendar_mins, first_reply_mins)."""
-    solved_ids = [str(t["id"]) for t in tickets if t.get("status") == "solved"][:sample]
-    aht, frt = [], []
-    for tid in solved_ids:
+def fetch_aht(auth, sub, tickets, sample=None):
+    """Fetch ticket metrics for all solved tickets.
+    Returns (aht_calendar_mins, first_reply_mins, aht_by_id).
+    aht_by_id: {str(ticket_id): {"mins": int, "week": str}}
+    """
+    solved = [t for t in tickets if t.get("status") == "solved"]
+    aht_list, frt_list = [], []
+    aht_by_id = {}
+    for t in solved:
+        tid = str(t["id"])
         try:
             m = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{tid}/metrics.json", auth)
             mm = m.get("ticket_metric", {})
             v = (mm.get("full_resolution_time_in_minutes") or {}).get("calendar")
             r = (mm.get("reply_time_in_minutes") or {}).get("calendar")
-            if v and v > 0: aht.append(v)
-            if r is not None: frt.append(r)
+            if v and v > 0:
+                aht_list.append(v)
+                solved_at = mm.get("solved_at") or t.get("updated_at", "")
+                week = ""
+                if solved_at:
+                    d = dt.date.fromisoformat(solved_at[:10])
+                    week = (d - dt.timedelta(days=d.weekday())).isoformat()
+                aht_by_id[tid] = {"mins": v, "week": week}
+            if r is not None:
+                frt_list.append(r)
         except Exception:
             pass
-    return aht, frt
+    return aht_list, frt_list, aht_by_id
 
 
 # ── FeatureOS ─────────────────────────────────────────────────────────────────
@@ -269,7 +282,7 @@ def _weekly_csat(tickets):
     return result
 
 
-def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None):
+def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -367,6 +380,41 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         # Repo inferred from subject prefix "Repo Issue: ..." or just group all
         gh_by_repo["linked"].append(t)
 
+    # Per-theme AHT (for "What drives the long closes")
+    BIZ_MINS = 720  # 12h/day × 60 min
+    theme_aht_data = {}
+    if aht_by_id:
+        for theme, t_list in theme_tickets.items():
+            mins_list = [aht_by_id[str(t["id"])]["mins"]
+                         for t in t_list if str(t["id"]) in aht_by_id]
+            if len(mins_list) >= 2:
+                gh = any("zd-gh" in (t.get("tags") or []) for t in t_list)
+                med = statistics.median(mins_list)
+                biz_days = med / BIZ_MINS
+                theme_aht_data[theme] = {
+                    "median_mins": med,
+                    "biz_days": round(biz_days, 1),
+                    "n": len(mins_list),
+                    "gh": gh,
+                }
+
+    # Weekly AHT trend
+    aht_weekly_data = {}
+    if aht_by_id:
+        by_week = defaultdict(list)
+        for v in aht_by_id.values():
+            if v.get("week") and v.get("mins"):
+                by_week[v["week"]].append(v["mins"])
+        aht_weekly_data = {
+            week: {
+                "median_mins": statistics.median(mins),
+                "biz_days": round(statistics.median(mins) / BIZ_MINS, 1),
+                "cal_days": round(statistics.median(mins) / 1440, 1),
+                "n": len(mins),
+            }
+            for week, mins in sorted(by_week.items())
+        }
+
     return {
         "dates": dates, "daily": daily,
         "cumulative": cumulative, "cum_contact": cum_contact,
@@ -388,6 +436,8 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "csat_weekly":  _weekly_csat([t for t in tickets if str(t.get("brand_id","")) == "38173138875795" and (t.get("created_at","") or "") >= "2026-06-03"]),
         "blockers": blockers or [],
         "today": today.isoformat(),
+        "theme_aht": theme_aht_data,
+        "aht_weekly": aht_weekly_data,
     }
 
 
@@ -807,6 +857,62 @@ def render(data):
     aht_mean = f"{aht.get('mean_h','—')}h" if aht else "—"
     aht_p75  = f"{aht.get('p75_h','—')}h" if aht else "—"
 
+    # ── AHT trend chart data ──────────────────────────────────────────────────
+    aht_weekly = data.get("aht_weekly", {})
+    aht_trend_weeks = list(aht_weekly.keys())
+    aht_trend_biz   = [v["biz_days"] for v in aht_weekly.values()]
+    aht_trend_cal   = [v["cal_days"] for v in aht_weekly.values()]
+    # Cumulative median (running average of weekly biz_days as an approximation)
+    cum_aht_biz = []
+    all_so_far = []
+    for v in aht_weekly.values():
+        all_so_far.append(v["biz_days"])
+        cum_aht_biz.append(round(sum(all_so_far) / len(all_so_far), 1))
+
+    # ── "What drives the long closes" rows ───────────────────────────────────
+    theme_aht = data.get("theme_aht", {})
+    sorted_theme_aht = sorted(theme_aht.items(), key=lambda x: x[1]["median_mins"], reverse=True)
+    max_biz = sorted_theme_aht[0][1]["biz_days"] if sorted_theme_aht else 1
+
+    wdl_rows = ""
+    for theme, td in sorted_theme_aht:
+        bar_pct = int(td["biz_days"] / max_biz * 100)
+        biz_label = (f"~{{td['biz_days']:.0f}} biz day{{'s' if td['biz_days'] != 1 else ''}}"
+                     if td["biz_days"] >= 1 else "<1 biz day")
+        gh_badge = ' <span class="wdl-gh">GH-linked</span>' if td["gh"] else ""
+        n_tickets = td["n"]
+        ticket_items = "".join(_ticket_li(t, sub, gh_links) for t in data["theme_tickets"].get(theme, [])[:20])
+        wdl_rows += f"""<div class="wdl-row">
+  <div class="wdl-header">
+    <span class="wdl-name">{theme}</span>
+    <span class="wdl-meta">{biz_label} <span class="wdl-n">n={n_tickets}</span>{gh_badge}</span>
+  </div>
+  <div class="wdl-bar-wrap"><div class="wdl-bar" style="width:{bar_pct}%"></div></div>
+  <details class="theme-tickets"><summary>{n_tickets} ticket{"s" if n_tickets != 1 else ""}</summary>
+    <ul class="theme-tickets__list">
+      {ticket_items}
+    </ul>
+  </details>
+</div>
+"""
+
+    aht_trend_html = ""
+    if aht_trend_weeks:
+        aht_trend_html = f"""
+  <div class="panel panel--spaced">
+    <div class="panel__title">Median AHT Trend &middot; Business Hours</div>
+    <p class="panel__note" style="margin-bottom:.75rem">Schedule: 8am&ndash;8pm Eastern (12h/day). Dashed line = calendar days (inflated by nights/weekends) &mdash; shown for reference only.</p>
+    <canvas id="ahtTrendChart" style="max-height:260px"></canvas>
+  </div>"""
+
+    wdl_html = ""
+    if wdl_rows:
+        wdl_html = f"""
+  <div class="panel panel--spaced">
+    <div class="panel__title">What drives the long closes</div>
+    {wdl_rows}
+  </div>"""
+
     milestones_js = json.dumps([
         {"date": w["date"], "label": w["label"], "color": w["color"]} for w in WAVES
     ])
@@ -1025,6 +1131,14 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .dist-row__bar--mid{{background:var(--color-primary)}}
 .dist-row__bar--slow{{background:var(--color-warning)}}
 .dist-row__bar--tail{{background:var(--color-critical)}}
+.wdl-row{{margin-bottom:var(--space-12)}}
+.wdl-header{{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px;flex-wrap:wrap;gap:var(--space-4)}}
+.wdl-name{{font-size:.78rem;font-weight:600;color:var(--color-text-secondary)}}
+.wdl-meta{{font-size:.72rem;color:var(--color-text-muted)}}
+.wdl-n{{color:var(--color-text-muted);margin-left:var(--space-4)}}
+.wdl-gh{{display:inline-block;font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:.1em .35em;border-radius:3px;background:var(--color-primary-soft);border:1px solid var(--color-primary);color:var(--color-primary);margin-left:var(--space-4)}}
+.wdl-bar-wrap{{height:8px;background:var(--color-surface-border);border-radius:4px;overflow:hidden;margin-bottom:4px}}
+.wdl-bar{{height:100%;background:linear-gradient(90deg,var(--color-primary),var(--color-teal));border-radius:4px}}
 .dual{{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-16);margin-bottom:var(--space-24)}}
 @media(max-width:700px){{.dual{{grid-template-columns:1fr}}}}
 .panel{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}
@@ -1303,6 +1417,8 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     {aht_dist_html}
     <p class="panel__note">AHT measured in calendar time (creation → solved). Nights and weekends are included — business-hours figures run shorter. DNS setup and GH-linked bugs drive the long tail.</p>
   </div>
+{aht_trend_html}
+{wdl_html}
 </section>
 
 <!-- SECTION: planning -->
@@ -1613,6 +1729,58 @@ function sortTable(tableId, colIdx, type) {{
   }});
   rows.forEach(r => tbody.appendChild(r));
 }}
+
+// AHT trend chart
+const ahtTrendWeeks = {json.dumps(aht_trend_weeks)};
+const ahtTrendBiz   = {json.dumps(aht_trend_biz)};
+const ahtTrendCal   = {json.dumps(aht_trend_cal)};
+const ahtTrendCum   = {json.dumps(cum_aht_biz)};
+if (ahtTrendWeeks.length && document.getElementById('ahtTrendChart')) {{
+  new Chart(document.getElementById('ahtTrendChart'), {{
+    data: {{
+      labels: ahtTrendWeeks,
+      datasets: [
+        {{
+          type: 'bar', label: 'Median (week solved, biz days)',
+          data: ahtTrendBiz,
+          backgroundColor: P.primary + '55', borderColor: P.primary, borderWidth: 1,
+          borderRadius: 3, yAxisID: 'y',
+        }},
+        {{
+          type: 'line', label: 'Cumulative median (biz days)',
+          data: ahtTrendCum,
+          borderColor: P.success, backgroundColor: 'transparent',
+          tension: 0.3, pointRadius: 6, pointHoverRadius: 9,
+          pointBackgroundColor: P.success, borderWidth: 2, yAxisID: 'y', spanGaps: true,
+        }},
+        {{
+          type: 'line', label: 'Calendar days (reference)',
+          data: ahtTrendCal,
+          borderColor: P.muted, backgroundColor: 'transparent',
+          borderDash: [5, 4], tension: 0.3, pointRadius: 0, borderWidth: 1.5,
+          yAxisID: 'y', spanGaps: true,
+        }},
+      ]
+    }},
+    options: {{
+      responsive: true,
+      interaction: {{ mode: 'index', intersect: false }},
+      plugins: {{
+        legend: {{ labels: {{ color: P.muted, font: {{ size: 11 }}, boxWidth: 20 }} }},
+        annotation: {{ annotations: buildAnnotations() }},
+      }},
+      scales: {{
+        x: {{ ticks: {{ color: P.muted, maxRotation: 45 }}, grid: {{ color: P.border }} }},
+        y: {{
+          beginAtZero: true,
+          ticks: {{ color: P.muted, callback: v => v + ' biz d' }},
+          grid: {{ color: P.border }},
+          title: {{ display: true, text: 'Business days (12h/day · 8am–8pm ET)', color: P.muted, font: {{ size: 10 }} }},
+        }},
+      }}
+    }}
+  }});
+}}
 </script>
 </body>
 </html>"""
@@ -1629,8 +1797,8 @@ def main():
     print(f"  {len(tickets)} tickets after exclusions", file=sys.stderr)
 
     print("Fetching AHT metrics…", file=sys.stderr)
-    aht_mins, frt_mins = fetch_aht(auth, sub, tickets)
-    print(f"  {len(aht_mins)} AHT samples", file=sys.stderr)
+    aht_mins, frt_mins, aht_by_id = fetch_aht(auth, sub, tickets)
+    print(f"  {len(aht_mins)} AHT samples, {len(aht_by_id)} ticket-keyed", file=sys.stderr)
 
     print("Fetching FeatureOS ideas…", file=sys.stderr)
     ideas_all, ideas_top10 = fetch_ideas()
@@ -1649,7 +1817,7 @@ def main():
     csat_all = fetch_csat_stats(auth, sub)
     print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated)", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all)
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id)
     html = render(data)
 
     out = Path(args.out)
