@@ -460,12 +460,24 @@ def _has_non_ascii(s):
     return bool(s) and any(ord(c) > 127 for c in s)
 
 
+_PII_PATTERNS = [
+    (re.compile(r'\b[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}\b'), '[email]'),
+    (re.compile(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b'), '[IP]'),
+]
+
+def _redact(s):
+    """Strip email addresses and IPs from a subject line."""
+    for pattern, replacement in _PII_PATTERNS:
+        s = pattern.sub(replacement, s)
+    return s
+
+
 def _ticket_li(t, sub, gh_links):
     """Build a <li> for a ticket in a theme-tickets list.
-    Uses theme classification as paraphrase — never raw subject."""
+    Shows redacted subject — PII stripped, non-English flagged."""
     tid = t["id"]
-    theme = classify_ticket(t)
     subj_raw = (t.get("subject") or "").strip()
+    subj = _redact(subj_raw) or classify_ticket(t)
     non_en = _has_non_ascii(subj_raw)
     lang_note = " *(Non-English)*" if non_en else ""
     issues = gh_links.get(tid, [])
@@ -480,7 +492,7 @@ def _ticket_li(t, sub, gh_links):
     return (
         f'<li><a href="https://{sub}.zendesk.com/agent/tickets/{tid}"'
         f' target="_blank">#{tid}</a>'
-        f'<span class="theme-tickets__subj"> — {theme}{lang_note}</span>'
+        f'<span class="theme-tickets__subj"> — {subj}{lang_note}</span>'
         f'{gh_html}</li>\n'
     )
 
