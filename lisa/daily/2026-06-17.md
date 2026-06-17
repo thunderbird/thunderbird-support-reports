@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 10:20 ET** · refreshes hourly_  
+_Updated: **2026-06-17 12:26 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 15** of rollout — **2,000 invitees**, **37 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
+Flight 2 is **day 15** of rollout — **2,000 invitees**, **38 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
-- **37** tickets total since launch · contact rate **2%** of 2000 invitees
+- **2** new tickets in last 24h · **1** solved in last 24h
+- **38** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 60.0h · mean 77.9h (proxy: updated_at − created_at, 29 solved tickets)
+- **Median AHT**: 60.0h · mean 78.8h (proxy: updated_at − created_at, 29 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -55,13 +55,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 29
+- **open**: 3
 - **hold**: 3
 - **pending**: 3
-- **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 21
+- **Thundermail**: 22
 - **Account Hub**: 7
 - **Appointment**: 4
 - **Send**: 2
@@ -91,6 +91,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#6257](https://tbpro.zendesk.com/agent/tickets/6257)** · I Cannot Login to finish Subscribing
+  > I try to verify my address at [email] but I get a message already a user. I am not already a user because I have not finished subscribing but I cannot login to finish subscribing.…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#6249](https://tbpro.zendesk.com/agent/tickets/6249)** · Appointment display issue — why: **change request**
@@ -99,10 +104,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6249](https://tbpro.zendesk.com/agent/tickets/6249) · [open] · 2026-06-17T07:57 · Appointment display issue
+- [6257](https://tbpro.zendesk.com/agent/tickets/6257) · [open] · 2026-06-17T16:06 · I Cannot Login to finish Subscribing
 
 ## Solved — last 24h
 
-_(none)_
+- · [6029](https://tbpro.zendesk.com/agent/tickets/6029) · 2026-06-17T15:01 · Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
