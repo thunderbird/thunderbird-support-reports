@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 14:01 ET** · refreshes hourly_  
+_Updated: **2026-06-17 15:05 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -27,12 +27,13 @@ Flight 2 is **day 15** of rollout — **2,000 invitees**, **39 tickets** so far 
 ### [#6126](https://tbpro.zendesk.com/agent/tickets/6126) · [hold] · thunderbird-accounts/838: Payment Complete, Stalwart not updated
 - ✅ GitHub: [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
 - 3 incident(s):
-  - [#5631](https://tbpro.zendesk.com/agent/tickets/5631) · [solved] · 2026-05-14 · _Subscription_
+  - [#5631](https://tbpro.zendesk.com/agent/tickets/5631) · [closed] · 2026-05-14 · _Subscription_
   - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
   - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
 
-## Other tickets linked to GitHub — 4 ticket(s) → 4 issue(s)
+## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
 
+- 🔧 [zd #6249](https://tbpro.zendesk.com/agent/tickets/6249) → [thunderbird/appointment#1718](https://github.com/thunderbird/appointment/issues/1718) · _UI: Appointment display issue on mobile_
 - 🔧 [zd #6117](https://tbpro.zendesk.com/agent/tickets/6117) → [thunderbird/appointment#1702](https://github.com/thunderbird/appointment/issues/1702) · _All day events overflow the Dashboard calendar UI_
 - 🔧 [zd #6068](https://tbpro.zendesk.com/agent/tickets/6068) → [thunderbird/thunderbird-accounts#769](https://github.com/thunderbird/thunderbird-accounts/issues/769) · _Enable duplicate email on keycloak_
 - ✅ [zd #6044](https://tbpro.zendesk.com/agent/tickets/6044) → [thunderbird/appointment#1696](https://github.com/thunderbird/appointment/issues/1696) · _Slugs are scope-generated on the Subscriber but indexed globally in DB_
@@ -55,9 +56,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 29
-- **open**: 4
-- **hold**: 3
-- **pending**: 3
+- **pending**: 4
+- **hold**: 4
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -76,8 +77,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
-- **change request** + **—**: 1
 - **request** + **redirected**: 1
+- **change request** + **—**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
 - **blocked** + **actioned**: 1
@@ -100,13 +101,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#6249](https://tbpro.zendesk.com/agent/tickets/6249)** · Appointment display issue — why: **change request**
+- **[#6249](https://tbpro.zendesk.com/agent/tickets/6249)** · Appointment display issue — why: **change request** · 🔗 [thunderbird/appointment#1718](https://github.com/thunderbird/appointment/issues/1718)
   > Just letting you know that Firefox mobile doesn't display the settings change popup amazingly. Also, if this is the wrong method of providing such feedback I'm sorry, you may want…
 
 ## New tickets — last 24h
 
-- [6249](https://tbpro.zendesk.com/agent/tickets/6249) · [open] · 2026-06-17T07:57 · Appointment display issue
-- [6257](https://tbpro.zendesk.com/agent/tickets/6257) · [open] · 2026-06-17T16:06 · I Cannot Login to finish Subscribing
+- [6249](https://tbpro.zendesk.com/agent/tickets/6249) · [hold] · 2026-06-17T07:57 · Appointment display issue 🔗 [thunderbird/appointment#1718](https://github.com/thunderbird/appointment/issues/1718)
+- [6257](https://tbpro.zendesk.com/agent/tickets/6257) · [pending] · 2026-06-17T16:06 · I Cannot Login to finish Subscribing
 - [6258](https://tbpro.zendesk.com/agent/tickets/6258) · [open] · 2026-06-17T16:32 · Never recieved an email to validate account cant acces 
 
 ## Solved — last 24h
