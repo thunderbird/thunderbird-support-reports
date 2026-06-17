@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 12:26 ET** · refreshes hourly_  
+_Updated: **2026-06-17 14:01 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 15** of rollout — **2,000 invitees**, **38 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 15** of rollout — **2,000 invitees**, **39 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
-- **38** tickets total since launch · contact rate **2%** of 2000 invitees
+- **3** new tickets in last 24h · **1** solved in last 24h
+- **39** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -55,13 +55,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 29
-- **open**: 3
+- **open**: 4
 - **hold**: 3
 - **pending**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 22
+- **Thundermail**: 23
 - **Account Hub**: 7
 - **Appointment**: 4
 - **Send**: 2
@@ -91,8 +91,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
+### Account access issues — 2 tickets
 
+- **[#6258](https://tbpro.zendesk.com/agent/tickets/6258)** · Never recieved an email to validate account cant acces 
+  > I never received an email to validate the account I created and now I forgot my password [email] is the email address I tried to create
 - **[#6257](https://tbpro.zendesk.com/agent/tickets/6257)** · I Cannot Login to finish Subscribing
   > I try to verify my address at [email] but I get a message already a user. I am not already a user because I have not finished subscribing but I cannot login to finish subscribing.…
 
@@ -105,6 +107,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6249](https://tbpro.zendesk.com/agent/tickets/6249) · [open] · 2026-06-17T07:57 · Appointment display issue
 - [6257](https://tbpro.zendesk.com/agent/tickets/6257) · [open] · 2026-06-17T16:06 · I Cannot Login to finish Subscribing
+- [6258](https://tbpro.zendesk.com/agent/tickets/6258) · [open] · 2026-06-17T16:32 · Never recieved an email to validate account cant acces 
 
 ## Solved — last 24h
 
