@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 15:53 ET** · refreshes hourly_  
+_Updated: **2026-06-17 16:54 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 2 is **day 15** of rollout — **2,000 invitees**, **39 tickets** so far 
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 60.0h · mean 78.8h (proxy: updated_at − created_at, 29 solved tickets)
+- **Median AHT**: 72.6h · mean 80.2h (proxy: updated_at − created_at, 30 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -55,10 +55,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 29
+- **solved**: 30
 - **pending**: 4
 - **open**: 3
-- **hold**: 3
+- **hold**: 2
 
 ## Service (cumulative)
 
@@ -74,6 +74,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 8
 - **curious** + **informed**: 4
 - **blocked** + **investigated**: 3
+- **blocked** + **explained**: 2
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
@@ -88,13 +89,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
 - **request** + **informed**: 1
-- **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
 
 ### Account access issues — 2 tickets
 
-- **[#6258](https://tbpro.zendesk.com/agent/tickets/6258)** · Never recieved an email to validate account cant acces 
+- **[#6258](https://tbpro.zendesk.com/agent/tickets/6258)** · Never recieved an email to validate account cant acces  — why: **blocked** · how: **explained**
   > I never received an email to validate the account I created and now I forgot my password [email] is the email address I tried to create
 - **[#6257](https://tbpro.zendesk.com/agent/tickets/6257)** · I Cannot Login to finish Subscribing
   > I try to verify my address at [email] but I get a message already a user. I am not already a user because I have not finished subscribing but I cannot login to finish subscribing.…
@@ -108,7 +108,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6249](https://tbpro.zendesk.com/agent/tickets/6249) · [hold] · 2026-06-17T07:57 · Appointment display issue 🔗 [thunderbird/appointment#1718](https://github.com/thunderbird/appointment/issues/1718)
 - [6257](https://tbpro.zendesk.com/agent/tickets/6257) · [pending] · 2026-06-17T16:06 · I Cannot Login to finish Subscribing
-- [6258](https://tbpro.zendesk.com/agent/tickets/6258) · [open] · 2026-06-17T16:32 · Never recieved an email to validate account cant acces 
+- [6258](https://tbpro.zendesk.com/agent/tickets/6258) · [pending] · 2026-06-17T16:32 · Never recieved an email to validate account cant acces 
 
 ## Solved — last 24h
 
