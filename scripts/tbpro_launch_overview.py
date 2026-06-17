@@ -382,6 +382,18 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
 
     # Per-theme AHT (for "What drives the long closes")
     BIZ_MINS = 720  # 12h/day × 60 min
+
+    # Merge Pricing sub-themes into a single "Pricing" bucket
+    PRICING_CANONICAL = "Pricing"
+    PRICING_MERGE = {"Pricing — monthly plan request", "Pricing — annual-only inquiry",
+                     "Pricing — discount inquiry", "Pricing — payment issue"}
+    for _sub in PRICING_MERGE:
+        if _sub in theme_tickets:
+            theme_tickets[PRICING_CANONICAL] = (
+                list(theme_tickets.get(PRICING_CANONICAL, [])) + theme_tickets.pop(_sub)
+            )
+            theme_counts[PRICING_CANONICAL] += theme_counts.pop(_sub, 0)
+
     theme_aht_data = {}
     if aht_by_id:
         for theme, t_list in theme_tickets.items():
