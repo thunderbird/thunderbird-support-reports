@@ -877,8 +877,8 @@ def render(data):
     wdl_rows = ""
     for theme, td in sorted_theme_aht:
         bar_pct = int(td["biz_days"] / max_biz * 100)
-        biz_label = (f"~{{td['biz_days']:.0f}} biz day{{'s' if td['biz_days'] != 1 else ''}}"
-                     if td["biz_days"] >= 1 else "<1 biz day")
+        _bd = td["biz_days"]
+        biz_label = f"~{_bd:.0f} biz day{'s' if _bd != 1 else ''}" if _bd >= 1 else "<1 biz day"
         gh_badge = ' <span class="wdl-gh">GH-linked</span>' if td["gh"] else ""
         n_tickets = td["n"]
         ticket_items = "".join(_ticket_li(t, sub, gh_links) for t in data["theme_tickets"].get(theme, [])[:20])
