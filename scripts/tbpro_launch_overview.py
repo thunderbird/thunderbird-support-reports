@@ -401,10 +401,10 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
     # Weekly AHT trend
     aht_weekly_data = {}
     if aht_by_id:
-        by_week = defaultdict(list)
+        aht_week_groups = defaultdict(list)
         for v in aht_by_id.values():
             if v.get("week") and v.get("mins"):
-                by_week[v["week"]].append(v["mins"])
+                aht_week_groups[v["week"]].append(v["mins"])
         aht_weekly_data = {
             week: {
                 "median_mins": statistics.median(mins),
@@ -412,7 +412,7 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
                 "cal_days": round(statistics.median(mins) / 1440, 1),
                 "n": len(mins),
             }
-            for week, mins in sorted(by_week.items())
+            for week, mins in sorted(aht_week_groups.items())
         }
 
     return {
