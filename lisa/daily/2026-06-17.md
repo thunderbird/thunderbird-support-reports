@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 08:33 ET** · refreshes hourly_  
+_Updated: **2026-06-17 10:20 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -76,6 +76,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **change request** + **—**: 1
 - **request** + **redirected**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
@@ -92,7 +93,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#6249](https://tbpro.zendesk.com/agent/tickets/6249)** · Appointment display issue
+- **[#6249](https://tbpro.zendesk.com/agent/tickets/6249)** · Appointment display issue — why: **change request**
   > Just letting you know that Firefox mobile doesn't display the settings change popup amazingly. Also, if this is the wrong method of providing such feedback I'm sorry, you may want…
 
 ## New tickets — last 24h
