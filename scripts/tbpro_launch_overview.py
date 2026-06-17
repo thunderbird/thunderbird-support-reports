@@ -1564,7 +1564,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 <footer class="footer">
   Data: Zendesk (Thunderbird Pro brand) · FeatureOS board {FEATUREOS_BOARD_ID} · May 4, 2026 → {data["today"]} ·
   Excludes: closed_by_merge, test tickets, agent-created, known infrastructure tickets.
-  Ticket subjects paraphrased; non-English quotes include AI translations.
+  Ticket subjects shown with PII redacted; non-English quotes include AI translations.
   · <a href="latest.html">Flight 2 live report</a>
 </footer>
 </main>

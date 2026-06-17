@@ -48,7 +48,7 @@ Read **before** editing any TB Pro report HTML or generator script. Also: `tbpro
 
 ## Forbidden without Lisa review
 
-- Raw Zendesk `subject` in HTML — use generic paraphrase (`#6125 — Payment processing delay`, not API text).
+- Unredacted Zendesk `subject` in HTML — always pass subjects through `_redact()` first (strips emails → `[email]`, IPs → `[IP]`). Showing the actual subject is correct; showing raw PII is not.
 - `display:flex` on `th`/`td` — see `tbpro-table-patterns.mdc`.
 - Re-adding **Still open** panel or blocker-column pattern.
 - Editing `launch_overview.html`, `tbpro_launch_overview.py`, or `latest.html` before sample approval.

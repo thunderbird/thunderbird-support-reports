@@ -9,19 +9,21 @@ alwaysApply: false
 **Every theme visualization row** must be expandable to ticket IDs — no exceptions.
 
 Applies to: long-close themes, Flight 2 themes, all-launch leaderboard, misdirected, any `.theme-row` block.
-## Ticket line format — paraphrased, not raw
 
-Each ticket line: **`#ID` link + paraphrased generic theme description** — never raw Zendesk subject, never ID-only.
+## Ticket line format — PII-redacted subject, not theme paraphrase
 
-Lisa confirmed: *"general idea of ticket is good so people know what they want to click."*
+Each ticket line: **`#ID` link + PII-redacted subject** — never theme-name paraphrase, never ID-only.
 
-- **English:** short paraphrase (e.g. `#6125 — Payment processing delay`).
-- **Non-English:** paraphrase + `*(Language — "translation")*`.
-- **`.eng-card__subject`:** same rule — paraphrased labels, not API subjects.
+Lisa confirmed: subjects are useful for knowing what to click. Generic labels (e.g. "Request or complaint") lose too much signal.
 
-**Generator:** paraphrase at build time in `tbpro_launch_overview.py` — never embed raw Zendesk subjects in committed HTML.
+- **Subject display:** show the actual Zendesk subject with PII stripped via `_redact()` — emails → `[email]`, IPs → `[IP]`.
+- **Fallback:** if subject is blank after redaction, fall back to `classify_ticket(t)` theme name.
+- **Non-English:** append `*(Non-English)*` when subject contains non-ASCII characters.
+- **`.eng-card__subject`:** same rule — redacted subject, not a generic label.
 
-**Footer:** *"Ticket subjects paraphrased; non-English quotes include AI translations."* — not "PII-redacted" unless that step ran.
+**Generator:** `_redact()` and `_ticket_li()` in `tbpro_launch_overview.py` handle this — do not bypass them.
+
+**Footer:** *"Ticket subjects shown with PII redacted; non-English quotes include AI translations."*
 
 ## Required HTML pattern
 
@@ -35,7 +37,7 @@ Wrap each theme in `.theme-row-wrap`. The bar/count row stays in `.theme-row`; t
     <ul class="theme-tickets__list">
       <li>
         <a href="https://tbpro.zendesk.com/agent/tickets/{id}" target="_blank">#{id}</a>
-        <span class="theme-tickets__subj"> — paraphrased theme description</span>
+        <span class="theme-tickets__subj"> — Redacted subject text</span>
         <span class="theme-tickets__gh"><a href="…">repo#issue</a></span>
       </li>
     </ul>
@@ -48,6 +50,6 @@ Wrap each theme in `.theme-row-wrap`. The bar/count row stays in `.theme-row`; t
 
 ## Data source & common mistakes
 
-Re-fetch Zendesk (`fetch_tickets()` / `classify_ticket()` in `tbpro_launch_overview.py`; `zd_search_all()` in `tbpro_daily.py`) before embedding lists. Do not hardcode stale IDs or paste raw subjects.
+Re-fetch Zendesk (`fetch_tickets()` / `_ticket_li()` in `tbpro_launch_overview.py`; `zd_search_all()` in `tbpro_daily.py`) before embedding lists. Do not hardcode stale IDs or paste raw subjects.
 
 Reference: `lisa/daily/launch_overview_sample.html`.
