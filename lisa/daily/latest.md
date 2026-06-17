@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 17:51 ET** · refreshes hourly_  
+_Updated: **2026-06-17 18:44 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 2 is **day 15** of rollout — **2,000 invitees**, **39 tickets** so far 
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 72.6h · mean 80.2h (proxy: updated_at − created_at, 30 solved tickets)
+- **Median AHT**: 85.3h · mean 87.4h (proxy: updated_at − created_at, 31 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -55,9 +55,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 30
+- **solved**: 31
 - **pending**: 4
-- **open**: 3
+- **open**: 2
 - **hold**: 2
 
 ## Service (cumulative)
@@ -78,7 +78,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
-- **request** + **redirected**: 1
 - **change request** + **—**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
@@ -86,6 +85,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **actioned**: 1
 - **confused** + **informed**: 1
 - **concerned** + **explained**: 1
+- **request** + **redirected**: 1
 - **change request** + **explained**: 1
 - **blocked** + **redirected**: 1
 - **request** + **informed**: 1
