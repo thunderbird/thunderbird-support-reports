@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-17
 
-_Updated: **2026-06-17 01:53 ET** · refreshes hourly_  
+_Updated: **2026-06-17 04:11 ET** · refreshes hourly_  
 _24h window: 2026-06-16T16:00 → 2026-06-17T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 15** of rollout — **2,000 invitees**, **36 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
+Flight 2 is **day 15** of rollout — **2,000 invitees**, **37 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Aliases**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **0** solved in last 24h
-- **36** tickets total since launch · contact rate **2%** of 2000 invitees
+- **1** new tickets in last 24h · **0** solved in last 24h
+- **37** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -55,7 +55,7 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 29
-- **open**: 3
+- **open**: 4
 - **pending**: 2
 - **hold**: 2
 
@@ -63,7 +63,7 @@ _(none in last 24h)_
 
 - **Thundermail**: 21
 - **Account Hub**: 7
-- **Appointment**: 3
+- **Appointment**: 4
 - **Send**: 2
 
 ## Why × How (cumulative)
@@ -90,11 +90,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#6249](https://tbpro.zendesk.com/agent/tickets/6249)** · Appointment display issue
+  > Just letting you know that Firefox mobile doesn't display the settings change popup amazingly. Also, if this is the wrong method of providing such feedback I'm sorry, you may want…
 
 ## New tickets — last 24h
 
-_(none)_
+- [6249](https://tbpro.zendesk.com/agent/tickets/6249) · [open] · 2026-06-17T07:57 · Appointment display issue
 
 ## Solved — last 24h
 
