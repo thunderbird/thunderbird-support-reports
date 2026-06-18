@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-18
 
-_Updated: **2026-06-18 11:16 ET** · refreshes hourly_  
+_Updated: **2026-06-18 13:15 ET** · refreshes hourly_  
 _24h window: 2026-06-17T16:00 → 2026-06-18T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 16** of rollout — **2,000 invitees**, **41 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 16** of rollout — **2,000 invitees**, **42 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
-- **41** tickets total since launch · contact rate **2%** of 2000 invitees
+- **3** new tickets in last 24h · **3** solved in last 24h
+- **42** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 85.3h · mean 87.4h (proxy: updated_at − created_at, 31 solved tickets)
+- **Median AHT**: 72.6h · mean 85.0h (proxy: updated_at − created_at, 32 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -55,14 +55,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 31
+- **solved**: 32
 - **pending**: 5
-- **open**: 3
-- **hold**: 2
+- **hold**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 23
+- **Thundermail**: 24
 - **Account Hub**: 8
 - **Appointment**: 4
 - **Send**: 2
@@ -74,6 +74,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 8
 - **curious** + **informed**: 4
 - **blocked** + **investigated**: 3
+- **blocked** + **redirected**: 2
 - **blocked** + **explained**: 2
 - **confused** + **explained**: 2
 - **telling us** + **n/a**: 2
@@ -87,30 +88,36 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 1
 - **request** + **redirected**: 1
 - **change request** + **explained**: 1
-- **blocked** + **redirected**: 1
 - **request** + **informed**: 1
 
 ## Tickets in last 24h — by theme
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6267](https://tbpro.zendesk.com/agent/tickets/6267)** · Email is lost during removing email to backup folder. 
-  > Dear [name] team, May I please request some help. Currently some of our users is using Thunder bird (but it's not pro plan) as email send/receiving program and some use 365. The…
 
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#6265](https://tbpro.zendesk.com/agent/tickets/6265)** · Time + Webmail
   > Hi, I paid USD 72 for early bird accss and getting IMAP + SMTP only. Webmail wil come after 4-5 months. So you should add this time in same subscription. We paid for full service…
 
+### Drafts / sending failures / lost mail — 1 tickets
+
+- **[#6282](https://tbpro.zendesk.com/agent/tickets/6282)** · Several drafts are being created while writing an email.
+  > Hello [name] team, I noticed that when composing an email, multiple draft emails get created and remain stored in the Drafts folder even after I send the email. An easy way for me…
+
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
+
+- **[#6267](https://tbpro.zendesk.com/agent/tickets/6267)** · Email is lost during removing email to backup folder.  — why: **blocked** · how: **redirected**
+  > Dear [name] team, May I please request some help. Currently some of our users is using Thunder bird (but it's not pro plan) as email send/receiving program and some use 365. The…
+
 ## New tickets — last 24h
 
 - [6265](https://tbpro.zendesk.com/agent/tickets/6265) · [open] · 2026-06-18T01:44 · Time + Webmail
-- [6267](https://tbpro.zendesk.com/agent/tickets/6267) · [open] · 2026-06-18T04:05 · Email is lost during removing email to backup folder. 
+- [6267](https://tbpro.zendesk.com/agent/tickets/6267) · [solved] · 2026-06-18T04:05 · Email is lost during removing email to backup folder. 
+- [6282](https://tbpro.zendesk.com/agent/tickets/6282) · [hold] · 2026-06-18T16:03 · Several drafts are being created while writing an email.
 
 ## Solved — last 24h
 
 - · [6198](https://tbpro.zendesk.com/agent/tickets/6198) · 2026-06-17T20:02 · Can't change availablity in Appointments
 - · [6068](https://tbpro.zendesk.com/agent/tickets/6068) · 2026-06-17T22:16 · Password Change email received into wrong account inbox
+- · [6267](https://tbpro.zendesk.com/agent/tickets/6267) · 2026-06-18T15:38 · Email is lost during removing email to backup folder. 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
