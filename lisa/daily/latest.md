@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-18
 
-_Updated: **2026-06-18 17:51 ET** · refreshes hourly_  
+_Updated: **2026-06-18 18:48 ET** · refreshes hourly_  
 _24h window: 2026-06-17T16:00 → 2026-06-18T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 16** of rollout — **2,000 invitees**, **42 tickets** so far 
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
+- **4** new tickets in last 24h · **3** solved in last 24h
 - **42** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 60.0h · mean 83.0h (proxy: updated_at − created_at, 33 solved tickets)
+- **Median AHT**: 55.1h · mean 76.1h (proxy: updated_at − created_at, 32 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -55,9 +55,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 33
+- **solved**: 32
 - **pending**: 6
 - **hold**: 3
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -78,6 +79,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **request** + **redirected**: 1
 - **change request** + **—**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
@@ -85,7 +87,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **actioned**: 1
 - **confused** + **informed**: 1
 - **concerned** + **explained**: 1
-- **request** + **redirected**: 1
 - **change request** + **explained**: 1
 - **request** + **informed**: 1
 
@@ -121,7 +122,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [6198](https://tbpro.zendesk.com/agent/tickets/6198) · 2026-06-17T20:02 · Can't change availablity in Appointments
-- · [6068](https://tbpro.zendesk.com/agent/tickets/6068) · 2026-06-17T22:16 · Password Change email received into wrong account inbox
 - · [6267](https://tbpro.zendesk.com/agent/tickets/6267) · 2026-06-18T15:38 · Email is lost during removing email to backup folder. 
 - · [6264](https://tbpro.zendesk.com/agent/tickets/6264) · 2026-06-18T19:25 · Thunderbird Pro
 
