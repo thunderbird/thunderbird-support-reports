@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-18
 
-_Updated: **2026-06-18 21:30 ET** · refreshes hourly_  
+_Updated: **2026-06-18 23:25 ET** · refreshes hourly_  
 _24h window: 2026-06-17T16:00 → 2026-06-18T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -56,9 +56,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 32
-- **pending**: 6
+- **pending**: 5
 - **hold**: 3
-- **open**: 1
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -92,6 +92,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6265](https://tbpro.zendesk.com/agent/tickets/6265)** · Time + Webmail
+  > Hi, I paid USD 72 for early bird accss and getting IMAP + SMTP only. Webmail wil come after 4-5 months. So you should add this time in same subscription. We paid for full service…
+
 ### Drafts / sending failures / lost mail — 1 tickets
 
 - **[#6282](https://tbpro.zendesk.com/agent/tickets/6282)** · Several drafts are being created while writing an email.
@@ -102,11 +107,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6267](https://tbpro.zendesk.com/agent/tickets/6267)** · Email is lost during removing email to backup folder.  — why: **blocked** · how: **redirected**
   > Dear [name] team, May I please request some help. Currently some of our users is using Thunder bird (but it's not pro plan) as email send/receiving program and some use 365. The…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6265](https://tbpro.zendesk.com/agent/tickets/6265)** · Time + Webmail
-  > Hi, I paid USD 72 for early bird accss and getting IMAP + SMTP only. Webmail wil come after 4-5 months. So you should add this time in same subscription. We paid for full service…
-
 ### Account access issues — not on allowlist yet — 1 tickets
 
 - **[#6264](https://tbpro.zendesk.com/agent/tickets/6264)** · Thunderbird Pro — why: **confused** · how: **explained**
@@ -115,7 +115,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6264](https://tbpro.zendesk.com/agent/tickets/6264) · [solved] · 2026-06-18T01:08 · Thunderbird Pro
-- [6265](https://tbpro.zendesk.com/agent/tickets/6265) · [pending] · 2026-06-18T01:44 · Time + Webmail
+- [6265](https://tbpro.zendesk.com/agent/tickets/6265) · [open] · 2026-06-18T01:44 · Time + Webmail
 - [6267](https://tbpro.zendesk.com/agent/tickets/6267) · [solved] · 2026-06-18T04:05 · Email is lost during removing email to backup folder. 
 - [6282](https://tbpro.zendesk.com/agent/tickets/6282) · [hold] · 2026-06-18T16:03 · Several drafts are being created while writing an email.
 
