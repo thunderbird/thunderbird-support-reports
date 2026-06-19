@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-19
 
-_Updated: **2026-06-19 10:14 ET** · refreshes hourly_  
+_Updated: **2026-06-19 12:12 ET** · refreshes hourly_  
 _24h window: 2026-06-18T16:00 → 2026-06-19T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 2 is **day 17** of rollout — **2,000 invitees**, **42 tickets** so far 
 
 ## At a glance
 
-- **0** new tickets in last 24h · **0** solved in last 24h
+- **0** new tickets in last 24h · **1** solved in last 24h
 - **42** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 55.1h · mean 76.1h (proxy: updated_at − created_at, 32 solved tickets)
+- **Median AHT**: 55.1h · mean 76.9h (proxy: updated_at − created_at, 32 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -57,8 +57,8 @@ _(none in last 24h)_
 
 - **solved**: 32
 - **pending**: 5
-- **hold**: 3
-- **open**: 2
+- **open**: 3
+- **hold**: 2
 
 ## Service (cumulative)
 
@@ -100,7 +100,7 @@ _(none)_
 
 ## Solved — last 24h
 
-_(none)_
+- · [6267](https://tbpro.zendesk.com/agent/tickets/6267) · 2026-06-19T16:01 · Email is lost during removing email to backup folder. 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
