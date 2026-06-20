@@ -57,5 +57,19 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Thundermail weekly summary: $(date -u +%Y-%m-%d)"
-            git push
+            # Retry to absorb transient remote rejections (e.g. "fatal error in commit_refs")
+            # and races with concurrent runs.
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Push failed after $attempt attempts." >&2
+                exit 1
+              fi
+              echo "Push attempt $attempt failed; rebasing on origin/main and retrying…"
+              git pull --rebase origin main
+              sleep $((attempt * 5))
+            done
           fi
