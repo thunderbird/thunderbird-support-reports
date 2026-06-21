@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-21
 
-_Updated: **2026-06-21 14:44 ET** · refreshes hourly_  
+_Updated: **2026-06-21 15:44 ET** · refreshes hourly_  
 _24h window: 2026-06-20T16:00 → 2026-06-21T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
