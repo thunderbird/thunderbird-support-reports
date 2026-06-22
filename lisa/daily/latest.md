@@ -1,16 +1,16 @@
 # Thundermail — Flight 2 Live Report · 2026-06-22
 
-_Updated: **2026-06-22 18:45 ET** · refreshes hourly_  
+_Updated: **2026-06-22 19:40 ET** · refreshes hourly_  
 _24h window: 2026-06-21T16:00 → 2026-06-22T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 20** of rollout — **2,000 invitees**, **46 tickets** so far (2.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
+Flight 2 is **day 20** of rollout — **2,000 invitees**, **47 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **2** new tickets in last 24h · **2** solved in last 24h
-- **46** tickets total since launch · contact rate **2%** of 2000 invitees
+- **47** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -31,8 +31,9 @@ Flight 2 is **day 20** of rollout — **2,000 invitees**, **46 tickets** so far 
   - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
   - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
 
-## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
+## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
 
+- 🔧 [zd #6282](https://tbpro.zendesk.com/agent/tickets/6282) → [thunderbird/mailstrom#229](https://github.com/thunderbird/mailstrom/issues/229) · _Several drafts are being created while writing an email._
 - 🔧 [zd #6249](https://tbpro.zendesk.com/agent/tickets/6249) → [thunderbird/appointment#1718](https://github.com/thunderbird/appointment/issues/1718) · _UI: Appointment display issue on mobile_
 - 🔧 [zd #6117](https://tbpro.zendesk.com/agent/tickets/6117) → [thunderbird/appointment#1702](https://github.com/thunderbird/appointment/issues/1702) · _All day events overflow the Dashboard calendar UI_
 - 🔧 [zd #6068](https://tbpro.zendesk.com/agent/tickets/6068) → [thunderbird/thunderbird-accounts#769](https://github.com/thunderbird/thunderbird-accounts/issues/769) · _Enable duplicate email on keycloak_
@@ -56,14 +57,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 36
-- **open**: 4
-- **hold**: 3
-- **pending**: 2
-- **new**: 1
+- **pending**: 4
+- **hold**: 4
+- **open**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 25
+- **Thundermail**: 26
 - **Account Hub**: 8
 - **Appointment**: 4
 - **Send**: 3
@@ -80,6 +80,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **concerned** + **redirected**: 1
 - **change request** + **—**: 1
 - **blocked** + **—**: 1
 - **other** + **explained**: 1
