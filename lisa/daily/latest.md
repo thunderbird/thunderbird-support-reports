@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-22
 
-_Updated: **2026-06-22 14:31 ET** · refreshes hourly_  
+_Updated: **2026-06-22 16:12 ET** · refreshes hourly_  
 _24h window: 2026-06-21T16:00 → 2026-06-22T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 20** of rollout — **2,000 invitees**, **42 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 20** of rollout — **2,000 invitees**, **44 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **1** solved in last 24h
-- **42** tickets total since launch · contact rate **2%** of 2000 invitees
+- **2** new tickets in last 24h · **2** solved in last 24h
+- **44** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 72.6h · mean 89.5h (proxy: updated_at − created_at, 34 solved tickets)
+- **Median AHT**: 85.3h · mean 90.5h (proxy: updated_at − created_at, 35 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -55,15 +55,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 34
-- **pending**: 4
+- **solved**: 35
+- **open**: 3
+- **pending**: 3
 - **hold**: 3
-- **open**: 1
 
 ## Service (cumulative)
 
 - **Thundermail**: 24
-- **Account Hub**: 7
+- **Account Hub**: 8
 - **Appointment**: 4
 - **Send**: 2
 
@@ -92,15 +92,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Other / uncategorized — 2 tickets
+
+- **[#6344](https://tbpro.zendesk.com/agent/tickets/6344)** · I'm not going to pay money to be your beta tester
+  > Hi, sorry I'm not going to give you my credit card number to be your beta tester.
+- **[#6343](https://tbpro.zendesk.com/agent/tickets/6343)** · Pro
+  > Hi, is there any promo code we can use to try things out? Thank you.
 
 ## New tickets — last 24h
 
-_(none)_
+- [6343](https://tbpro.zendesk.com/agent/tickets/6343) · [open] · 2026-06-22T19:17 · Pro
+- [6344](https://tbpro.zendesk.com/agent/tickets/6344) · [open] · 2026-06-22T19:28 · I'm not going to pay money to be your beta tester
 
 ## Solved — last 24h
 
 - · [6066](https://tbpro.zendesk.com/agent/tickets/6066) · 2026-06-22T09:01 · Send Storage shows space being used, but there are no files in Thunderbird Send.
+- · [6257](https://tbpro.zendesk.com/agent/tickets/6257) · 2026-06-22T19:02 · I Cannot Login to finish Subscribing
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
