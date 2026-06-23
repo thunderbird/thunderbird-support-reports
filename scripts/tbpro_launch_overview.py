@@ -1081,7 +1081,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .section__head{{display:flex;align-items:baseline;gap:var(--space-12);margin-bottom:var(--space-16);padding-bottom:var(--space-8);border-bottom:1px solid var(--color-surface-border)}}
 .section__num{{font-family:var(--font-mono);font-size:.72rem;font-weight:700;color:var(--color-primary);opacity:.7}}
 .section__title{{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-muted)}}
-.timeline{{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:start;gap:0;margin-bottom:var(--space-24)}}
+.timeline{{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:start;gap:0;margin-bottom:var(--space-24)}}
 @media(max-width:640px){{.timeline{{grid-template-columns:1fr;gap:var(--space-12)}}}}
 .timeline__node{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16);position:relative}}
 .timeline__node::before{{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--node-color);border-radius:var(--radius-md) var(--radius-md) 0 0}}
