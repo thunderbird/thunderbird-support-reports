@@ -260,10 +260,7 @@ CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time fr
 INVITEE_COUNT = 2000         # Flight 2 · 500 (2026-06-03) + 1500 (2026-06-04)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
-WATCH_PROBLEMS = {
-    5679,   # DKIM — Expose RSA DKIM keys in custom domain setup (thunderbird-accounts#839)
-    6126,   # 🔴 BLOCK — Payment complete, Stalwart not updated (thunderbird-accounts#838) — 3 incidents
-}
+WATCH_PROBLEMS = set()  # No active blockers
 MANUAL_THEMES = {            # Force-assign theme for tickets that can't be auto-categorized
     6055: "Account access issues",  # follow-up ticket, no useful subject/tags
 }
