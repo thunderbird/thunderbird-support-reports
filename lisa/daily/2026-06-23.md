@@ -1,33 +1,26 @@
 # Thundermail — Flight 2 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 08:33 ET** · refreshes hourly_  
+_Updated: **2026-06-23 08:36 ET** · refreshes hourly_  
 _24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 21** of rollout — **2,000 invitees**, **48 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 2 is **day 21** of rollout — **2,000 invitees**, **48 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
+- **4** new tickets in last 24h · **5** solved in last 24h
 - **48** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 60.0h · mean 84.7h (proxy: updated_at − created_at, 39 solved tickets)
+- **Median AHT**: 72.6h · mean 91.5h (proxy: updated_at − created_at, 40 solved tickets)
 
-## Known problems — 2 problem(s), 5 incident(s)
+## Known problems — 1 problem(s), 2 incident(s)
 
-### [#5679](https://tbpro.zendesk.com/agent/tickets/5679) · [solved] · Accounts 839: Expose RSA DKIM keys in custom domain setup 
-- ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
-- 2 incident(s):
-  - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [solved] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [solved] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
-
-### [#6126](https://tbpro.zendesk.com/agent/tickets/6126) · [hold] · thunderbird-accounts/838: Payment Complete, Stalwart not updated
+### [#6126](https://tbpro.zendesk.com/agent/tickets/6126) · [solved] · thunderbird-accounts/838: Payment Complete, Stalwart not updated
 - ✅ GitHub: [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
-- 3 incident(s):
-  - [#5631](https://tbpro.zendesk.com/agent/tickets/5631) · [closed] · 2026-05-14 · _Subscription_
+- 2 incident(s):
   - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
   - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
 
@@ -56,9 +49,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 39
+- **solved**: 40
 - **pending**: 4
-- **hold**: 4
+- **hold**: 3
 - **open**: 1
 
 ## Service (cumulative)
@@ -76,10 +69,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 4
 - **curious** + **informed**: 4
 - **confused** + **explained**: 3
+- **blocked** + **escalated**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **explained**: 2
 - **telling us** + **n/a**: 2
-- **blocked** + **escalated**: 2
 - **concerned** + **redirected**: 1
 - **change request** + **—**: 1
 - **blocked** + **—**: 1
@@ -124,6 +117,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6343](https://tbpro.zendesk.com/agent/tickets/6343) · 2026-06-22T23:56 · Pro
 - · [6344](https://tbpro.zendesk.com/agent/tickets/6344) · 2026-06-23T00:00 · I'm not going to pay money to be your beta tester
 - · [6351](https://tbpro.zendesk.com/agent/tickets/6351) · 2026-06-23T02:39 · Created a Thundermail account and password, can't log in
+- · [6126](https://tbpro.zendesk.com/agent/tickets/6126) · 2026-06-23T12:34 · thunderbird-accounts/838: Payment Complete, Stalwart not updated
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
