@@ -305,11 +305,16 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         ws = (dd - dt.timedelta(days=dd.weekday())).isoformat()
         by_week[ws] += count
 
-    # Contact rate by wave
+    # Contact rate + CSAT by wave
     wave_stats = []
     for w in WAVES:
-        wt = [t for t in tickets if w["date"] <= t["created_at"][:10] <= w["end"]]
-        wave_stats.append({**w, "tickets": len(wt), "rate": round(len(wt)/w["invites"]*100, 1)})
+        wt   = [t for t in tickets if w["date"] <= t["created_at"][:10] <= w["end"]]
+        good = sum(1 for t in wt if (t.get("satisfaction_rating") or {}).get("score") == "good")
+        bad  = sum(1 for t in wt if (t.get("satisfaction_rating") or {}).get("score") == "bad")
+        n    = good + bad
+        wave_stats.append({**w, "tickets": len(wt), "rate": round(len(wt)/w["invites"]*100, 1),
+                           "csat_pct": f"{good/n*100:.0f}%" if n else "—",
+                           "csat_n": n})
 
     # AHT
     aht_data = {}
@@ -652,6 +657,9 @@ def render(data):
         rate_cls = "wave-rate--high" if rate > 5 else "wave-rate--low"
         note_html = ('<br><span class="wave-note">~35 misdirects (routing issue, fixed) inflated this rate</span>'
                      if i == 0 else "")
+        csat     = w.get("csat_pct", "—")
+        csat_n   = w.get("csat_n", 0)
+        csat_note = f'<span class="wave-note">{csat_n} rated</span>' if csat_n else '<span class="wave-note">no ratings yet</span>'
         wave_rows += (
             f'<tr>'
             f'<td class="wave-swatch" style="background:{color}"></td>'
@@ -660,12 +668,14 @@ def render(data):
             f'<td class="num">{w["invites"]:,}</td>'
             f'<td class="num">{w["tickets"]}</td>'
             f'<td class="num {rate_cls}">{rate}%</td>'
+            f'<td class="num">{csat}{csat_note}</td>'
             f'</tr>\n'
         )
     timeline_html = (
         '<table class="tbl wave-tbl"><thead><tr>'
         '<th></th><th>Wave</th><th>Date</th>'
-        '<th class="num">Invites</th><th class="num">Tickets</th><th class="num">Contact rate</th>'
+        '<th class="num">Invites</th><th class="num">Tickets</th>'
+        '<th class="num">Contact rate</th><th class="num">CSAT</th>'
         f'</tr></thead><tbody>{wave_rows}</tbody></table>'
     )
 
