@@ -37,6 +37,7 @@
   --color-wave-early:            #6366f1;
   --color-wave-w1:               #f97316;
   --color-wave-w2:               #ef4444;
+  --color-wave-w3:               #10b981;
   --space-4:  0.25rem;
   --space-8:  0.5rem;
   --space-12: 0.75rem;
@@ -154,6 +155,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 .timeline__node--early{--node-color:var(--color-wave-early)}
 .timeline__node--w1{--node-color:var(--color-wave-w1)}
 .timeline__node--w2{--node-color:var(--color-wave-w2)}
+.timeline__node--w3{--node-color:var(--color-wave-w3)}
 .timeline__label{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-4)}
 .timeline__date{font-size:.72rem;color:var(--color-text-secondary);margin-bottom:var(--space-8)}
 .timeline__stat{display:flex;justify-content:space-between;align-items:baseline;padding:var(--space-4) 0;border-top:1px solid var(--color-surface-border);font-size:.78rem}
@@ -374,7 +376,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <!-- SECTION: story -->
 <section class="section" id="story">
   <div class="hero">
-    <div class="hero__eyebrow">Early Bird May 4 → 2026-06-23 · 4,100 invitees · Generated 2026-06-23 08:47 ET</div>
+    <div class="hero__eyebrow">Early Bird May 4 → 2026-06-23 · 4,100 invitees · Generated 2026-06-23 08:57 ET</div>
     <h1 class="hero__headline">Flight 2 complete at <em>1.2%</em> contact rate — use this baseline to staff the next flight.</h1>
     <p class="hero__meta">140 tickets across all waves · <span>Early Bird inflated by misdirected non-subscribers; Flight 2 Waves 1+2 complete — historical baseline for next flight</span></p>
   </div>
@@ -411,7 +413,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
       <div class="tile__sub">from ticket created to first reply</div>
     </div>
     <div class="tile tile--span3">
-      <div class="tile__val">75</div>
+      <div class="tile__val">74</div>
       <div class="tile__lbl">FeatureOS ideas</div>
       <div class="tile__sub">excl. off-topic</div>
     </div>
@@ -456,7 +458,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   
 </div>
 <div class="timeline__connector" aria-hidden="true"></div>
-<div class="timeline__node timeline__node--w2">
+<div class="timeline__node timeline__node--w3">
   <div class="timeline__label">Flight 3 Wave 1</div>
   <div class="timeline__date">2026-06-22 · 1,500 invites</div>
   <div class="timeline__stat"><span>Tickets</span><span class="timeline__stat-val">6</span></div>
@@ -517,6 +519,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-early);display:inline-block" aria-hidden="true"></span><span>Early Bird (600)</span></div>
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w1);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 1 (500)</span></div>
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w2);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 2 (1,500)</span></div>
+        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w3);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 1 (1,500)</span></div>
       </div>
     </div>
   </div>
@@ -731,15 +734,15 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6343" target="_blank">#6343</a><span class="theme-tickets__subj"> — Pro</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5610" target="_blank">#5610</a><span class="theme-tickets__subj"> — Plans for non-profits and educational?</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5453" target="_blank">#5453</a><span class="theme-tickets__subj"> — Question on when to sign up</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5493" target="_blank">#5493</a><span class="theme-tickets__subj"> — Thunderbird Pro Early Bird</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6072" target="_blank">#6072</a><span class="theme-tickets__subj"> — I received early bird invite</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6060" target="_blank">#6060</a><span class="theme-tickets__subj"> — Monthly Subscription</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6189" target="_blank">#6189</a><span class="theme-tickets__subj"> — Payment without creditcard?</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a><span class="theme-tickets__subj"> — thunderbird-accounts/838: Payment Complete, Stalwart not updated</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a><span class="theme-tickets__subj"> — Payment Processing</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5631" target="_blank">#5631</a><span class="theme-tickets__subj"> — Subscription</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5493" target="_blank">#5493</a><span class="theme-tickets__subj"> — Thunderbird Pro Early Bird</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6351" target="_blank">#6351</a><span class="theme-tickets__subj"> — Created a Thundermail account and password, can't log in</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5397" target="_blank">#5397</a><span class="theme-tickets__subj"> — Email only or regional pricing</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6072" target="_blank">#6072</a><span class="theme-tickets__subj"> — I received early bird invite</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6060" target="_blank">#6060</a><span class="theme-tickets__subj"> — Monthly Subscription</span></li>
 
     </ul>
   </details>
@@ -1202,22 +1205,22 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 <div class="theme-row-wrap">
-  <div class="theme-row"><span class="theme-row__name">Pricing — annual-only inquiry</span><span class="theme-row__count">2<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
-  <details class="theme-tickets">
-    <summary>2 tickets</summary>
-    <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6351" target="_blank">#6351</a><span class="theme-tickets__subj"> — Created a Thundermail account and password, can't log in</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5397" target="_blank">#5397</a><span class="theme-tickets__subj"> — Email only or regional pricing</span></li>
-    </ul>
-  </details>
-</div>
-<div class="theme-row-wrap">
   <div class="theme-row"><span class="theme-row__name">Pricing — discount inquiry</span><span class="theme-row__count">2<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
   <details class="theme-tickets">
     <summary>2 tickets</summary>
     <ul class="theme-tickets__list">
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6072" target="_blank">#6072</a><span class="theme-tickets__subj"> — I received early bird invite</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6060" target="_blank">#6060</a><span class="theme-tickets__subj"> — Monthly Subscription</span></li>
+    </ul>
+  </details>
+</div>
+<div class="theme-row-wrap">
+  <div class="theme-row"><span class="theme-row__name">Pricing — annual-only inquiry</span><span class="theme-row__count">2<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
+  <details class="theme-tickets">
+    <summary>2 tickets</summary>
+    <ul class="theme-tickets__list">
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6351" target="_blank">#6351</a><span class="theme-tickets__subj"> — Created a Thundermail account and password, can't log in</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5397" target="_blank">#5397</a><span class="theme-tickets__subj"> — Email only or regional pricing</span></li>
     </ul>
   </details>
 </div>
@@ -1345,7 +1348,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 
 <!-- SECTION: ideas -->
 <section class="section" id="ideas">
-  <div class="section__head"><span class="section__num">05</span><h2 class="section__title">Community ideas · 75 total</h2></div>
+  <div class="section__head"><span class="section__num">05</span><h2 class="section__title">Community ideas · 74 total</h2></div>
 
   <div class="panel ideas-header">
     <h3>Top 10 open for discussion</h3>
@@ -1387,7 +1390,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <div class="kanban-col kanban-col--flight">
   <div class="kanban-col__head">In flight (4)</div>
 <div class="kanban-item"><span class="kanban-item__votes">63▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank">Webmail for Thundermail</a></div>
-<div class="kanban-item"><span class="kanban-item__votes">48▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank">Multifactor Authentication</a></div>
+<div class="kanban-item"><span class="kanban-item__votes">49▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank">Multifactor Authentication</a></div>
 <div class="kanban-item"><span class="kanban-item__votes">16▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/dark-mode" target="_blank">Dark Mode</a></div>
 <div class="kanban-item"><span class="kanban-item__votes">1▲</span><a class="kanban-item__link" href="https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases" target="_blank">15 email adresses and not 15 aliases</a></div>
 </div>
@@ -1475,6 +1478,7 @@ const P = {
   waveEarly: root.getPropertyValue('--color-wave-early').trim() || '#6366f1',
   waveW1:    root.getPropertyValue('--color-wave-w1').trim()   || '#f97316',
   waveW2:    root.getPropertyValue('--color-wave-w2').trim()   || '#ef4444',
+  waveW3:    root.getPropertyValue('--color-wave-w3').trim()   || '#10b981',
 };
 
 const dates      = ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23"];
@@ -1484,6 +1488,7 @@ const milestones = [
   {"date": "2026-05-04", "label": "Early Bird", "color": P.waveEarly},
   {"date": "2026-06-03", "label": "Flight 2 Wave 1", "color": P.waveW1},
   {"date": "2026-06-04", "label": "Flight 2 Wave 2", "color": P.waveW2},
+  {"date": "2026-06-22", "label": "Flight 3 Wave 1", "color": P.waveW3},
 ];
 
 function buildAnnotations() {
