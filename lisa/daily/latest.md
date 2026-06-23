@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 15:47 ET** · refreshes hourly_  
+_Updated: **2026-06-23 16:54 ET** · refreshes hourly_  
 _24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
@@ -32,24 +32,25 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
+- **pending**: 6
 - **solved**: 5
-- **open**: 4
-- **pending**: 4
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 6
 - **Thundermail**: 6
+- **Account Hub**: 5
+- **Appointment**: 1
 - **Send**: 1
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
+- **request** + **redirected**: 3
 - **curious** + **explained**: 3
-- **request** + **redirected**: 2
+- **blocked** + **investigated**: 2
 - **blocked** + **explained**: 1
-- **blocked** + **investigated**: 1
 - **confused** + **explained**: 1
 
 ## Tickets in last 24h — by theme
@@ -63,27 +64,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6349](https://tbpro.zendesk.com/agent/tickets/6349)** · Send upload fails — why: **blocked** · how: **investigated**
   > I am attempting to send an ~15 gb zip file. The upload has been failing. One time it appeared to have uploaded, but the sent file was incomplete. Sometimes it tells me that I have…
 
-### Request or complaint — 2 tickets
+### Request or complaint — 3 tickets
 
 - **[#6366](https://tbpro.zendesk.com/agent/tickets/6366)** · Family plan planed? — why: **request** · how: **redirected**
   > I would live to see a famuly plan whete you can share your custom donain wirh 5 or 6 people. Is such a olan planed?
+- **[#6365](https://tbpro.zendesk.com/agent/tickets/6365)** · Cannot Add Second Calendar to Thundermail Pro Account — why: **request** · how: **redirected**
+  > I am unable to add a second calendar to my Thundermail Pro account. When I attempt to add additional calendars, only my primary "default" calendar appears.
 - **[#6364](https://tbpro.zendesk.com/agent/tickets/6364)** · primary email — why: **request** · how: **redirected**
   > I was a bit overzealous on signing up for Thundermail and was wondering if there was a way to now switch my current primary account email ([email]) to the [domain] variant…
-
-### Email sending / receiving / SMTP / IMAP — 1 tickets
-
-- **[#6368](https://tbpro.zendesk.com/agent/tickets/6368)** · Cannot send email with Apple Mai
-  > I used an App password in Apple Mail to set up and receive emails. I tried to send a test message and got this response ‘The server response was: VXNlcm5hbWU6’ Screenshot attached…
-
-### Appointment / calendar — 1 tickets
-
-- **[#6365](https://tbpro.zendesk.com/agent/tickets/6365)** · Cannot Add Second Calendar to Thundermail Pro Account
-  > I am unable to add a second calendar to my Thundermail Pro account. When I attempt to add additional calendars, only my primary "default" calendar appears.
 
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#6363](https://tbpro.zendesk.com/agent/tickets/6363)** · Pricing related query. 
   > Hello, Today I got an invitation from Thundermail team. I signed up as soon as I could to give it a try. But then I was hit with the payment window. I have been using Thunderbird…
+
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#6368](https://tbpro.zendesk.com/agent/tickets/6368)** · Cannot send email with Apple Mai — why: **blocked** · how: **investigated**
+  > I used an App password in Apple Mail to set up and receive emails. I tried to send a test message and got this response ‘The server response was: VXNlcm5hbWU6’ Screenshot attached…
 
 ### Account access issues — 1 tickets
 
@@ -109,9 +107,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6359](https://tbpro.zendesk.com/agent/tickets/6359) · [solved] · 2026-06-23T16:21 · need password reset, confused during signup
 - [6363](https://tbpro.zendesk.com/agent/tickets/6363) · [open] · 2026-06-23T17:00 · Pricing related query. 
 - [6364](https://tbpro.zendesk.com/agent/tickets/6364) · [pending] · 2026-06-23T17:06 · primary email
-- [6365](https://tbpro.zendesk.com/agent/tickets/6365) · [open] · 2026-06-23T17:51 · Cannot Add Second Calendar to Thundermail Pro Account
+- [6365](https://tbpro.zendesk.com/agent/tickets/6365) · [pending] · 2026-06-23T17:51 · Cannot Add Second Calendar to Thundermail Pro Account
 - [6366](https://tbpro.zendesk.com/agent/tickets/6366) · [pending] · 2026-06-23T18:22 · Family plan planed?
-- [6368](https://tbpro.zendesk.com/agent/tickets/6368) · [open] · 2026-06-23T19:25 · Cannot send email with Apple Mai
+- [6368](https://tbpro.zendesk.com/agent/tickets/6368) · [pending] · 2026-06-23T19:25 · Cannot send email with Apple Mai
 - [6369](https://tbpro.zendesk.com/agent/tickets/6369) · [open] · 2026-06-23T19:46 · Connection Problem
 
 ## Solved — last 24h
