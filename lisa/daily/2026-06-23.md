@@ -1,37 +1,20 @@
-# Thundermail — Flight 2 Live Report · 2026-06-23
+# Thundermail — Flight 3 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 08:36 ET** · refreshes hourly_  
-_24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
+_Updated: **2026-06-23 08:39 ET** · refreshes hourly_  
+_24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 21** of rollout — **2,000 invitees**, **48 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
+Flight 3 is **day 2** of rollout — **1,500 invitees**, **6 tickets** so far (0.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **5** solved in last 24h
-- **48** tickets total since launch · contact rate **2%** of 2000 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **6** tickets total since launch · contact rate **0%** of 1500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 72.6h · mean 91.5h (proxy: updated_at − created_at, 40 solved tickets)
-
-## Known problems — 1 problem(s), 2 incident(s)
-
-### [#6126](https://tbpro.zendesk.com/agent/tickets/6126) · [solved] · thunderbird-accounts/838: Payment Complete, Stalwart not updated
-- ✅ GitHub: [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
-- 2 incident(s):
-  - [#6119](https://tbpro.zendesk.com/agent/tickets/6119) · [solved] · 2026-06-08 · _Payment Processing_
-  - [#6125](https://tbpro.zendesk.com/agent/tickets/6125) · [solved] · 2026-06-08 · _Payment being processed, may take 48 hours_
-
-## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
-
-- 🔧 [zd #6282](https://tbpro.zendesk.com/agent/tickets/6282) → [thunderbird/mailstrom#229](https://github.com/thunderbird/mailstrom/issues/229) · _Several drafts are being created while writing an email._
-- 🔧 [zd #6249](https://tbpro.zendesk.com/agent/tickets/6249) → [thunderbird/appointment#1718](https://github.com/thunderbird/appointment/issues/1718) · _UI: Appointment display issue on mobile_
-- 🔧 [zd #6117](https://tbpro.zendesk.com/agent/tickets/6117) → [thunderbird/appointment#1702](https://github.com/thunderbird/appointment/issues/1702) · _All day events overflow the Dashboard calendar UI_
-- 🔧 [zd #6068](https://tbpro.zendesk.com/agent/tickets/6068) → [thunderbird/thunderbird-accounts#769](https://github.com/thunderbird/thunderbird-accounts/issues/769) · _Enable duplicate email on keycloak_
-- ✅ [zd #6044](https://tbpro.zendesk.com/agent/tickets/6044) → [thunderbird/appointment#1696](https://github.com/thunderbird/appointment/issues/1696) · _Slugs are scope-generated on the Subscriber but indexed globally in DB_
-- ✅ [zd #6040](https://tbpro.zendesk.com/agent/tickets/6040) → [thunderbird/mailstrom#226](https://github.com/thunderbird/mailstrom/issues/226) · _Delivery Issue with Telekom Mail Server_
+- **Median AHT**: 4.5h · mean 3.8h (proxy: updated_at − created_at, 3 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -49,41 +32,22 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 40
-- **pending**: 4
-- **hold**: 3
+- **solved**: 3
+- **pending**: 2
 - **open**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 26
-- **Account Hub**: 10
-- **Appointment**: 4
-- **Send**: 3
+- **Account Hub**: 3
+- **Thundermail**: 2
+- **Send**: 1
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 10
-- **blocked** + **investigated**: 4
-- **curious** + **informed**: 4
-- **confused** + **explained**: 3
-- **blocked** + **escalated**: 3
-- **blocked** + **redirected**: 2
-- **blocked** + **explained**: 2
-- **telling us** + **n/a**: 2
-- **concerned** + **redirected**: 1
-- **change request** + **—**: 1
-- **blocked** + **—**: 1
-- **other** + **explained**: 1
-- **blocked** + **actioned**: 1
-- **confused** + **actioned**: 1
-- **confused** + **informed**: 1
-- **concerned** + **explained**: 1
-- **request** + **redirected**: 1
-- **change request** + **explained**: 1
-- **request** + **informed**: 1
+- **curious** + **explained**: 3
+- **blocked** + **investigated**: 1
 
 ## Tickets in last 24h — by theme
 
@@ -113,11 +77,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [6258](https://tbpro.zendesk.com/agent/tickets/6258) · 2026-06-22T21:01 · Never recieved an email to validate account cant acces 
 - · [6343](https://tbpro.zendesk.com/agent/tickets/6343) · 2026-06-22T23:56 · Pro
 - · [6344](https://tbpro.zendesk.com/agent/tickets/6344) · 2026-06-23T00:00 · I'm not going to pay money to be your beta tester
 - · [6351](https://tbpro.zendesk.com/agent/tickets/6351) · 2026-06-23T02:39 · Created a Thundermail account and password, can't log in
-- · [6126](https://tbpro.zendesk.com/agent/tickets/6126) · 2026-06-23T12:34 · thunderbird-accounts/838: Payment Complete, Stalwart not updated
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
