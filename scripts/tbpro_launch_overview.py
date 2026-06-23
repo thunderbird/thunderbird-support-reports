@@ -1473,7 +1473,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="theme-block">
       <div class="theme-block__head">
         <div class="theme-block__title">Subscriber themes · Flights 2 &amp; 3</div>
-        <div class="theme-block__meta">Jun 3+ · {f2_total} subscriber tickets · baseline for next flight</div>
+        <div class="theme-block__meta">Jun 3+ · baseline for next flight</div>
       </div>
       <div class="themes">
         {f2_theme_html}
