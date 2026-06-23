@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 16:54 ET** · refreshes hourly_  
+_Updated: **2026-06-23 17:44 ET** · refreshes hourly_  
 _24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 2** of rollout — **1,500 invitees**, **13 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
+Flight 3 is **day 2** of rollout — **1,500 invitees**, **14 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
 - **11** new tickets in last 24h · **5** solved in last 24h
-- **13** tickets total since launch · contact rate **1%** of 1500 invitees
+- **14** tickets total since launch · contact rate **1%** of 1500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 4.5h · mean 6.1h (proxy: updated_at − created_at, 5 solved tickets)
+- **Median AHT**: 3.3h · mean 5.4h (proxy: updated_at − created_at, 6 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -32,13 +32,13 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
+- **solved**: 6
 - **pending**: 6
-- **solved**: 5
 - **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 6
+- **Thundermail**: 7
 - **Account Hub**: 5
 - **Appointment**: 1
 - **Send**: 1
@@ -47,8 +47,8 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
+- **curious** + **explained**: 4
 - **request** + **redirected**: 3
-- **curious** + **explained**: 3
 - **blocked** + **investigated**: 2
 - **blocked** + **explained**: 1
 - **confused** + **explained**: 1
@@ -57,7 +57,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#6369](https://tbpro.zendesk.com/agent/tickets/6369)** · Connection Problem
+- **[#6369](https://tbpro.zendesk.com/agent/tickets/6369)** · Connection Problem — why: **curious** · how: **explained**
   > I tried to connect my user on my Online Accounts on Linux Mint, but it said: Authentication Failed, so i tried to open my accounts and send a message to myself. The message is…
 - **[#6350](https://tbpro.zendesk.com/agent/tickets/6350)** · mac thunderbird pro extension
   > I am unable to log into the tb pro add-on for the thunderbird on macos. When I click the 'Sign in' button on the extension management page, the opened page appears blank. I have…
@@ -110,7 +110,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6365](https://tbpro.zendesk.com/agent/tickets/6365) · [pending] · 2026-06-23T17:51 · Cannot Add Second Calendar to Thundermail Pro Account
 - [6366](https://tbpro.zendesk.com/agent/tickets/6366) · [pending] · 2026-06-23T18:22 · Family plan planed?
 - [6368](https://tbpro.zendesk.com/agent/tickets/6368) · [pending] · 2026-06-23T19:25 · Cannot send email with Apple Mai
-- [6369](https://tbpro.zendesk.com/agent/tickets/6369) · [open] · 2026-06-23T19:46 · Connection Problem
+- [6369](https://tbpro.zendesk.com/agent/tickets/6369) · [solved] · 2026-06-23T19:46 · Connection Problem
 
 ## Solved — last 24h
 
