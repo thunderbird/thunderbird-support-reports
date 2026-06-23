@@ -777,9 +777,9 @@ def render(data):
     # ── theme section HTML ─────────────────────────────────────────────────
     theme_tickets_map = data.get("theme_tickets", {})
     MISDIRECT_KEY = "Misdirected — wrong product / non-subscriber"
-    F2_START = "2026-06-03"
+    F2_START = "2026-06-03"  # start of active launch (Flight 2+3)
 
-    # Flight 2 tickets (subscriber themes, no misdirects)
+    # Active launch tickets (Flight 2 + Flight 3, subscriber themes, no misdirects)
     f2_tickets = [t for t in (theme_tickets_map.get(MISDIRECT_KEY) or [])
                   if t.get("created_at", "")[:10] >= F2_START]  # misdirects in F2
     f2_all     = [t for t in sum(theme_tickets_map.values(), [])
@@ -788,7 +788,7 @@ def render(data):
                      if classify_ticket(t) != MISDIRECT_KEY]
     f2_total = len(f2_subscriber)
 
-    # Build Flight 2 subscriber theme rows
+    # Build active launch subscriber theme rows
     f2_theme_counts = Counter(classify_ticket(t) for t in f2_subscriber)
     f2_theme_tickets = defaultdict(list)
     for t in f2_subscriber:
@@ -1472,13 +1472,13 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="panel">
     <div class="theme-block">
       <div class="theme-block__head">
-        <div class="theme-block__title">Subscriber themes · Flight 2 era</div>
+        <div class="theme-block__title">Subscriber themes · Flights 2 &amp; 3</div>
         <div class="theme-block__meta">Jun 3+ · {f2_total} subscriber tickets · baseline for next flight</div>
       </div>
       <div class="themes">
         {f2_theme_html}
       </div>
-      <p class="panel__note">Flight 2 subscriber tickets only (excl. misdirects). Use this for staffing the next flight.</p>
+      <p class="panel__note">Flight 2 + Flight 3 subscriber tickets (excl. misdirects). Use this for staffing the next flight.</p>
     </div>
 
     {misdirect_callout}
@@ -1489,7 +1489,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
         <div class="themes">
           {all_sub_theme_html}
         </div>
-        <p class="panel__note" style="margin-top:var(--space-12)">Blends Early Bird subscriber work with Flight 2 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flight 2 era above for staffing the next flight.</p>
+        <p class="panel__note" style="margin-top:var(--space-12)">Blends Early Bird subscriber work with Flights 2 &amp; 3 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flights 2 &amp; 3 above for staffing.</p>
       </div>
     </details>
 
