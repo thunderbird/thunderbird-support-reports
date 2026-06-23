@@ -645,7 +645,7 @@ def render(data):
 """
 
     # ── timeline nodes ────────────────────────────────────────────────────
-    wave_mods = ["early", "w1", "w2"]
+    wave_mods = ["early", "w1", "w2", "w3"]
     timeline_html = ""
     for i, w in enumerate(data["wave_stats"]):
         mod   = wave_mods[i] if i < len(wave_mods) else "w2"
@@ -970,6 +970,7 @@ def render(data):
   --color-wave-early:            #6366f1;
   --color-wave-w1:               #f97316;
   --color-wave-w2:               #ef4444;
+  --color-wave-w3:               #10b981;
   --space-4:  0.25rem;
   --space-8:  0.5rem;
   --space-12: 0.75rem;
@@ -1087,6 +1088,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .timeline__node--early{{--node-color:var(--color-wave-early)}}
 .timeline__node--w1{{--node-color:var(--color-wave-w1)}}
 .timeline__node--w2{{--node-color:var(--color-wave-w2)}}
+.timeline__node--w3{{--node-color:var(--color-wave-w3)}}
 .timeline__label{{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-4)}}
 .timeline__date{{font-size:.72rem;color:var(--color-text-secondary);margin-bottom:var(--space-8)}}
 .timeline__stat{{display:flex;justify-content:space-between;align-items:baseline;padding:var(--space-4) 0;border-top:1px solid var(--color-surface-border);font-size:.78rem}}
@@ -1410,6 +1412,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-early);display:inline-block" aria-hidden="true"></span><span>Early Bird (600)</span></div>
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w1);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 1 (500)</span></div>
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w2);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 2 (1,500)</span></div>
+        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w3);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 1 (1,500)</span></div>
       </div>
     </div>
   </div>
@@ -1573,6 +1576,7 @@ const P = {{
   waveEarly: root.getPropertyValue('--color-wave-early').trim() || '#6366f1',
   waveW1:    root.getPropertyValue('--color-wave-w1').trim()   || '#f97316',
   waveW2:    root.getPropertyValue('--color-wave-w2').trim()   || '#ef4444',
+  waveW3:    root.getPropertyValue('--color-wave-w3').trim()   || '#10b981',
 }};
 
 const dates      = {json.dumps(data["dates"])};
@@ -1582,6 +1586,7 @@ const milestones = [
   {{"date": "{WAVES[0]["date"]}", "label": "{WAVES[0]["label"]}", "color": P.waveEarly}},
   {{"date": "{WAVES[1]["date"]}", "label": "{WAVES[1]["label"]}", "color": P.waveW1}},
   {{"date": "{WAVES[2]["date"]}", "label": "{WAVES[2]["label"]}", "color": P.waveW2}},
+  {{"date": "{WAVES[3]["date"]}", "label": "{WAVES[3]["label"]}", "color": P.waveW3}},
 ];
 
 function buildAnnotations() {{
