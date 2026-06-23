@@ -255,9 +255,9 @@ def urgency_for(ticket):
     return None
 
 BRAND = "Thunderbird Pro"
-LAUNCH_DATE     = "2026-06-03"   # Flight 2 start (ticket counts, themes, contact rate)
+LAUNCH_DATE     = "2026-06-22"   # Flight 3 Wave 1 start (ticket counts, themes, contact rate)
 CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time from here
-INVITEE_COUNT = 2000         # Flight 2 · 500 (2026-06-03) + 1500 (2026-06-04)
+INVITEE_COUNT = 1500         # Flight 3 · Wave 1 (2026-06-22)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
 WATCH_PROBLEMS = set()  # No active blockers
@@ -809,10 +809,10 @@ def render_md(d, subdomain="tbpro", public=False):
     R = redact if public else (lambda s: s)
     o = []
     gen_time_et = dt.datetime.now(ET).strftime("%Y-%m-%d %H:%M ET")
-    o.append(f"# Thundermail — Flight 2 Live Report · {d['report_date']}")
+    o.append(f"# Thundermail — Flight 3 Live Report · {d['report_date']}")
     o.append("")
     o.append(f"_Updated: **{gen_time_et}** · refreshes hourly_  ")
-    o.append(f"_24h window: {d['window_start_et'][:16]} → {d['window_end_et'][:16]} ET · Flight 2 launch: {LAUNCH_DATE} · {INVITEE_COUNT} invitees_")
+    o.append(f"_24h window: {d['window_start_et'][:16]} → {d['window_end_et'][:16]} ET · Flight 3 launch: {LAUNCH_DATE} · {INVITEE_COUNT} invitees_")
     o.append("")
 
     # TL;DR — evergreen summary
@@ -824,7 +824,7 @@ def render_md(d, subdomain="tbpro", public=False):
     days_since = (dt.date.fromisoformat(str(d["report_date"])) - dt.date.fromisoformat(LAUNCH_DATE)).days + 1
     o.append("## TL;DR")
     o.append("")
-    o.append(f"Flight 2 is **day {days_since}** of rollout — **{INVITEE_COUNT:,} invitees**, "
+    o.append(f"Flight 3 is **day {days_since}** of rollout — **{INVITEE_COUNT:,} invitees**, "
              f"**{cum} tickets** so far ({contact_rate:.1f}% contact rate). "
              f"CSAT since launch: **{csat_str}**. "
              + (f"Top theme: **{top_theme}**. " if top_theme else "")
@@ -1186,7 +1186,7 @@ def render_html(d, subdomain="tbpro", public=False):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thundermail · Flight 2 Live Report · {_h(d['report_date'])}</title>
+<title>Thundermail · Flight 3 Live Report · {_h(d['report_date'])}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>{_BOLT_CSS}</style>
@@ -1199,9 +1199,9 @@ def render_html(d, subdomain="tbpro", public=False):
     window_end   = (d.get("window_end_et")   or "")[:16]
     p.append(f"""<div class="header">
   <div class="header-badge">&#9889; Thundermail</div>
-  <div class="header-title">Flight 2 &mdash; Live Support Report &middot; {_h(d['report_date'])}</div>
+  <div class="header-title">Flight 3 &mdash; Live Support Report &middot; {_h(d['report_date'])}</div>
   <div class="header-meta">Updated: <strong>{_h(dt.datetime.now(ET).strftime("%Y-%m-%d %H:%M ET"))}</strong> &nbsp;&middot;&nbsp; refreshes hourly &nbsp;&middot;&nbsp; 24h window: {_h(window_start)} &rarr; {_h(window_end)} ET
-    &nbsp;&middot;&nbsp; Flight 2 launch: {_h(LAUNCH_DATE)} &nbsp;&middot;&nbsp; {_h(INVITEE_COUNT)} invitees</div>
+    &nbsp;&middot;&nbsp; Flight 3 launch: {_h(LAUNCH_DATE)} &nbsp;&middot;&nbsp; {_h(INVITEE_COUNT)} invitees</div>
 </div>
 """)
 
@@ -1216,7 +1216,7 @@ def render_html(d, subdomain="tbpro", public=False):
     _theme_str = f" &nbsp;·&nbsp; Top theme: <strong>{_h(_top_theme)}</strong>" if _top_theme else ""
     p.append(f'<div style="background:var(--surface-2);border:1px solid var(--border);border-left:4px solid var(--primary);'
              f'border-radius:8px;padding:.9rem 1.25rem;margin-bottom:1.5rem;font-size:.88rem;line-height:1.6">'
-             f'<strong>Flight 2 · Day {_days}</strong> &nbsp;·&nbsp; '
+             f'<strong>Flight 3 · Day {_days}</strong> &nbsp;·&nbsp; '
              f'<strong>{INVITEE_COUNT:,}</strong> invitees &nbsp;·&nbsp; '
              f'<strong>{cum}</strong> tickets ({_cr} contact rate) &nbsp;·&nbsp; '
              f'CSAT: <strong>{_csat_tl}</strong>'
@@ -1604,7 +1604,7 @@ def main():
     print(f"Wrote {out_dir}/latest.{{md,html}}", file=sys.stderr)
 
     if args.post_to_notion:
-        title = f"Thundermail · Flight 2 · {report_date.isoformat()}"
+        title = f"Thundermail · Flight 3 · {report_date.isoformat()}"
         url = post_to_notion(title, md)
         if url:
             print(f"Posted to Notion: {url}", file=sys.stderr)

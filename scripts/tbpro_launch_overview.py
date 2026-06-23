@@ -61,9 +61,10 @@ LAUNCH_DATE = "2026-05-04"
 WAVES = [
     {"date": "2026-05-04", "end": "2026-06-02", "invites": 600,  "label": "Early Bird",       "color": "#6366f1"},
     {"date": "2026-06-03", "end": "2026-06-03", "invites": 500,  "label": "Flight 2 Wave 1",  "color": "#f97316"},
-    {"date": "2026-06-04", "end": "2099-12-31", "invites": 1500, "label": "Flight 2 Wave 2",  "color": "#ef4444"},
+    {"date": "2026-06-04", "end": "2026-06-21", "invites": 1500, "label": "Flight 2 Wave 2",  "color": "#ef4444"},
+    {"date": "2026-06-22", "end": "2099-12-31", "invites": 1500, "label": "Flight 3 Wave 1",  "color": "#10b981"},
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 2600
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 4100
 
 EXCLUDE_IDS = {5441, 5866}
 FEATUREOS_BOARD_ID = 17437
@@ -1565,7 +1566,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   Data: Zendesk (Thunderbird Pro brand) · FeatureOS board {FEATUREOS_BOARD_ID} · May 4, 2026 → {data["today"]} ·
   Excludes: closed_by_merge, test tickets, agent-created, known infrastructure tickets.
   Ticket subjects shown with PII redacted; non-English quotes include AI translations.
-  · <a href="latest.html">Flight 2 live report</a>
+  · <a href="latest.html">Flight 3 live report</a>
 </footer>
 </main>
 </div>
