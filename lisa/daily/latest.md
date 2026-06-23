@@ -1,20 +1,20 @@
 # Thundermail — Flight 2 Live Report · 2026-06-22
 
-_Updated: **2026-06-22 19:40 ET** · refreshes hourly_  
+_Updated: **2026-06-22 21:13 ET** · refreshes hourly_  
 _24h window: 2026-06-21T16:00 → 2026-06-22T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
 
-Flight 2 is **day 20** of rollout — **2,000 invitees**, **47 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
+Flight 2 is **day 20** of rollout — **2,000 invitees**, **48 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **2** new tickets in last 24h · **2** solved in last 24h
-- **47** tickets total since launch · contact rate **2%** of 2000 invitees
+- **48** tickets total since launch · contact rate **2%** of 2000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 92.5h · mean 91.4h (proxy: updated_at − created_at, 36 solved tickets)
+- **Median AHT**: 72.6h · mean 86.9h (proxy: updated_at − created_at, 38 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -56,15 +56,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 36
-- **pending**: 4
+- **solved**: 38
+- **pending**: 6
 - **hold**: 4
-- **open**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 26
-- **Account Hub**: 8
+- **Thundermail**: 27
+- **Account Hub**: 9
 - **Appointment**: 4
 - **Send**: 3
 
@@ -72,14 +71,15 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 7
+- **curious** + **explained**: 9
+- **blocked** + **investigated**: 4
 - **curious** + **informed**: 4
 - **confused** + **explained**: 3
-- **blocked** + **investigated**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **explained**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **escalated**: 2
+- **blocked** + **informed**: 1
 - **concerned** + **redirected**: 1
 - **change request** + **—**: 1
 - **blocked** + **—**: 1
@@ -94,17 +94,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Pricing — general pricing concern — 2 tickets
 
-- **[#6344](https://tbpro.zendesk.com/agent/tickets/6344)** · I'm not going to pay money to be your beta tester
+- **[#6344](https://tbpro.zendesk.com/agent/tickets/6344)** · I'm not going to pay money to be your beta tester — why: **curious** · how: **explained**
   > Hi, sorry I'm not going to give you my credit card number to be your beta tester.
-- **[#6343](https://tbpro.zendesk.com/agent/tickets/6343)** · Pro
+- **[#6343](https://tbpro.zendesk.com/agent/tickets/6343)** · Pro — why: **curious** · how: **explained**
   > Hi, is there any promo code we can use to try things out? Thank you.
 
 ## New tickets — last 24h
 
-- [6343](https://tbpro.zendesk.com/agent/tickets/6343) · [open] · 2026-06-22T19:17 · Pro
-- [6344](https://tbpro.zendesk.com/agent/tickets/6344) · [open] · 2026-06-22T19:28 · I'm not going to pay money to be your beta tester
+- [6343](https://tbpro.zendesk.com/agent/tickets/6343) · [solved] · 2026-06-22T19:17 · Pro
+- [6344](https://tbpro.zendesk.com/agent/tickets/6344) · [solved] · 2026-06-22T19:28 · I'm not going to pay money to be your beta tester
 
 ## Solved — last 24h
 
