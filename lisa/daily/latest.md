@@ -1,6 +1,6 @@
 # Thundermail — Flight 2 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 01:32 ET** · refreshes hourly_  
+_Updated: **2026-06-23 03:31 ET** · refreshes hourly_  
 _24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 2 launch: 2026-06-03 · 2000 invitees_
 
 ## TL;DR
@@ -57,8 +57,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 39
-- **pending**: 5
+- **pending**: 4
 - **hold**: 4
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -100,19 +101,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6349](https://tbpro.zendesk.com/agent/tickets/6349)** · Send upload fails — why: **blocked** · how: **investigated**
   > I am attempting to send an ~15 gb zip file. The upload has been failing. One time it appeared to have uploaded, but the sent file was incomplete. Sometimes it tells me that I have…
 
-### Pricing — annual-only inquiry — 1 tickets
-
-- **[#6351](https://tbpro.zendesk.com/agent/tickets/6351)** · Created a Thundermail account and password, can't log in — why: **curious** · how: **explained**
-  > Just accepted an invite to create a Thundermail account which I did and was verified. Can't log in. Also, is my email address [email] or eszklar@ [domain] or [email]? Will you…
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#6347](https://tbpro.zendesk.com/agent/tickets/6347)** · Add custom fomian later?
   > Hi, I was just invited in to this amazing initiative. I might have been to keen, and missed if you could've chosen a custom domain (would love to move away from Google having my…
 
+### Pricing — annual-only inquiry — 1 tickets
+
+- **[#6351](https://tbpro.zendesk.com/agent/tickets/6351)** · Created a Thundermail account and password, can't log in — why: **curious** · how: **explained**
+  > Just accepted an invite to create a Thundermail account which I did and was verified. Can't log in. Also, is my email address [email] or eszklar@ [domain] or [email]? Will you…
+
 ## New tickets — last 24h
 
-- [6347](https://tbpro.zendesk.com/agent/tickets/6347) · [pending] · 2026-06-22T21:51 · Add custom fomian later?
+- [6347](https://tbpro.zendesk.com/agent/tickets/6347) · [open] · 2026-06-22T21:51 · Add custom fomian later?
 - [6349](https://tbpro.zendesk.com/agent/tickets/6349) · [pending] · 2026-06-22T22:44 · Send upload fails
 - [6350](https://tbpro.zendesk.com/agent/tickets/6350) · [pending] · 2026-06-22T22:49 · mac thunderbird pro extension
 - [6351](https://tbpro.zendesk.com/agent/tickets/6351) · [solved] · 2026-06-23T00:33 · Created a Thundermail account and password, can't log in
