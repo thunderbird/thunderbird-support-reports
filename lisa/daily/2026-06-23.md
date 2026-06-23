@@ -1,11 +1,11 @@
 # Thundermail — Flight 3 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 17:44 ET** · refreshes hourly_  
+_Updated: **2026-06-23 18:37 ET** · refreshes hourly_  
 _24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 2** of rollout — **1,500 invitees**, **14 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
+Flight 3 is **day 2** of rollout — **1,500 invitees**, **14 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
 
 ## At a glance
 
@@ -34,12 +34,13 @@ _(none in last 24h)_
 
 - **solved**: 6
 - **pending**: 6
-- **open**: 2
+- **open**: 1
+- **hold**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 7
-- **Account Hub**: 5
+- **Account Hub**: 6
+- **Thundermail**: 6
 - **Appointment**: 1
 - **Send**: 1
 
@@ -47,9 +48,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
+- **request** + **redirected**: 4
 - **curious** + **explained**: 4
-- **request** + **redirected**: 3
-- **blocked** + **investigated**: 2
+- **blocked** + **investigated**: 3
 - **blocked** + **explained**: 1
 - **confused** + **explained**: 1
 
@@ -73,9 +74,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6364](https://tbpro.zendesk.com/agent/tickets/6364)** · primary email — why: **request** · how: **redirected**
   > I was a bit overzealous on signing up for Thundermail and was wondering if there was a way to now switch my current primary account email ([email]) to the [domain] variant…
 
-### Early bird / invite / waitlist — 1 tickets
+### Pricing — general pricing concern — 1 tickets
 
-- **[#6363](https://tbpro.zendesk.com/agent/tickets/6363)** · Pricing related query. 
+- **[#6363](https://tbpro.zendesk.com/agent/tickets/6363)** · Pricing related query.  — why: **request** · how: **redirected**
   > Hello, Today I got an invitation from Thundermail team. I signed up as soon as I could to give it a try. But then I was hit with the payment window. I have been using Thunderbird…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
