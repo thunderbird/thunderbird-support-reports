@@ -195,18 +195,7 @@ MONITORING_FIXED = {
 # Manual blockers — not backed by a Zendesk problem ticket.
 # Add static_gh_links when GitHub links are available:
 #   {"url": "https://github.com/...", "repo": "owner/repo", "number": "123"}
-STATIC_BLOCKERS = [
-    {
-        "id": None,
-        "subject": "Updates to signup page blocking invites this week",
-        "status": "open",
-        "open_incidents": [],
-        "all_incident_ids": [],
-        "url": None,
-        "manual": True,
-        "static_gh_links": [{"url": "https://github.com/thunderbird/thunderbird-accounts/issues/970", "repo": "thunderbird/thunderbird-accounts", "number": "970"}],
-    },
-]
+STATIC_BLOCKERS = []
 
 
 def fetch_blockers(auth, sub):
