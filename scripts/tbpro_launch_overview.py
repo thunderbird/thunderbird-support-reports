@@ -644,25 +644,30 @@ def render(data):
 </div>
 """
 
-    # ── timeline nodes ────────────────────────────────────────────────────
-    wave_mods = ["early", "w1", "w2", "w3"]
-    timeline_html = ""
+    # ── wave table ────────────────────────────────────────────────────────
+    wave_rows = ""
     for i, w in enumerate(data["wave_stats"]):
-        mod   = wave_mods[i] if i < len(wave_mods) else "w2"
-        rate  = w["rate"]
-        rate_cls = "timeline__stat-val--high" if rate > 5 else "timeline__stat-val--low"
-        note  = ""
-        if i == 0:
-            note = '<p class="timeline__note">~35 misdirects (routing issue, fixed) inflated this rate — not subscriber demand</p>'
-        connector = '<div class="timeline__connector" aria-hidden="true"></div>\n' if i < len(data["wave_stats"]) - 1 else ""
-        timeline_html += f"""<div class="timeline__node timeline__node--{mod}">
-  <div class="timeline__label">{w["label"]}</div>
-  <div class="timeline__date">{w["date"]} · {w["invites"]:,} invites</div>
-  <div class="timeline__stat"><span>Tickets</span><span class="timeline__stat-val">{w["tickets"]}</span></div>
-  <div class="timeline__stat"><span>Contact rate</span><span class="timeline__stat-val {rate_cls}">{rate}%</span></div>
-  {note}
-</div>
-{connector}"""
+        color    = w.get("color", "#4d7bf8")
+        rate     = w["rate"]
+        rate_cls = "wave-rate--high" if rate > 5 else "wave-rate--low"
+        note_html = ('<br><span class="wave-note">~35 misdirects (routing issue, fixed) inflated this rate</span>'
+                     if i == 0 else "")
+        wave_rows += (
+            f'<tr>'
+            f'<td class="wave-swatch" style="background:{color}"></td>'
+            f'<td>{w["label"]}{note_html}</td>'
+            f'<td style="color:var(--color-text-secondary)">{w["date"]}</td>'
+            f'<td class="num">{w["invites"]:,}</td>'
+            f'<td class="num">{w["tickets"]}</td>'
+            f'<td class="num {rate_cls}">{rate}%</td>'
+            f'</tr>\n'
+        )
+    timeline_html = (
+        '<table class="tbl wave-tbl"><thead><tr>'
+        '<th></th><th>Wave</th><th>Date</th>'
+        '<th class="num">Invites</th><th class="num">Tickets</th><th class="num">Contact rate</th>'
+        f'</tr></thead><tbody>{wave_rows}</tbody></table>'
+    )
 
     # ── weekly volume table ────────────────────────────────────────────────
     weekly_rows = ""
@@ -1081,23 +1086,11 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .section__head{{display:flex;align-items:baseline;gap:var(--space-12);margin-bottom:var(--space-16);padding-bottom:var(--space-8);border-bottom:1px solid var(--color-surface-border)}}
 .section__num{{font-family:var(--font-mono);font-size:.72rem;font-weight:700;color:var(--color-primary);opacity:.7}}
 .section__title{{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-muted)}}
-.timeline{{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;align-items:start;gap:0;margin-bottom:var(--space-24)}}
-@media(max-width:640px){{.timeline{{grid-template-columns:1fr;gap:var(--space-12)}}}}
-.timeline__node{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16);position:relative}}
-.timeline__node::before{{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--node-color);border-radius:var(--radius-md) var(--radius-md) 0 0}}
-.timeline__node--early{{--node-color:var(--color-wave-early)}}
-.timeline__node--w1{{--node-color:var(--color-wave-w1)}}
-.timeline__node--w2{{--node-color:var(--color-wave-w2)}}
-.timeline__node--w3{{--node-color:var(--color-wave-w3)}}
-.timeline__label{{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-4)}}
-.timeline__date{{font-size:.72rem;color:var(--color-text-secondary);margin-bottom:var(--space-8)}}
-.timeline__stat{{display:flex;justify-content:space-between;align-items:baseline;padding:var(--space-4) 0;border-top:1px solid var(--color-surface-border);font-size:.78rem}}
-.timeline__stat-val{{font-weight:700;font-variant-numeric:tabular-nums}}
-.timeline__stat-val--high{{color:var(--color-warning)}}
-.timeline__stat-val--low{{color:var(--color-success)}}
-.timeline__connector{{align-self:center;width:24px;height:2px;background:var(--color-surface-border-strong);margin-top:2rem}}
-@media(max-width:640px){{.timeline__connector{{display:none}}}}
-.timeline__note{{font-size:.65rem;color:var(--color-text-muted);margin-top:var(--space-8);line-height:1.45;border-top:1px solid var(--color-surface-border);padding-top:var(--space-8)}}
+.wave-tbl{{margin-bottom:var(--space-24)}}
+.wave-swatch{{width:4px;padding:0;border-right:none}}
+.wave-note{{font-size:.65rem;color:var(--color-text-muted);display:block;margin-top:2px}}
+.wave-rate--high{{color:var(--color-warning);font-weight:700}}
+.wave-rate--low{{color:var(--color-success);font-weight:700}}
 .bento{{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--space-12);margin-bottom:var(--space-24)}}
 .tile{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16);display:flex;flex-direction:column;justify-content:flex-end;min-height:88px}}
 .tile__val{{font-size:1.75rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}}
@@ -1365,9 +1358,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 <!-- SECTION: waves -->
 <section class="section" id="waves">
   <div class="section__head"><span class="section__num">01</span><h2 class="section__title">Invite waves</h2></div>
-  <div class="timeline">
-    {timeline_html}
-  </div>
+  {timeline_html}
 </section>
 
 <!-- SECTION: volume -->
