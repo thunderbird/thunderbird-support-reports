@@ -257,7 +257,7 @@ def urgency_for(ticket):
 BRAND = "Thunderbird Pro"
 LAUNCH_DATE     = "2026-06-22"   # Flight 3 Wave 1 start (ticket counts, themes, contact rate)
 CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time from here
-INVITEE_COUNT = 4500         # Flight 3 · Wave 1 (2026-06-22) + Wave 2 (2026-06-23)
+INVITEE_COUNT = 6500         # Flight 3 · Wave 1 (2026-06-22) + Wave 2 (2026-06-23) + Wave 3 (2026-06-24)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
 WATCH_PROBLEMS = set()  # No active blockers
