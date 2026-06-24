@@ -40,10 +40,14 @@ TAG_THEMES = [
     ("tbpro_thundermail_what_custom_domains__dns_records", "Custom domain DNS"),
     ("tbpro_thundermail_what_add_account",  "Add account in Thunderbird"),
     ("macro_tbpro_request_or_complaint",    "Request or complaint"),
+    ("pro_service_send",                    "Send (add-on)"),
+    ("pro_service_appointment",             "Appointment"),
 ]
 MANUAL_THEMES = {6055: "Account access issues"}
 
-# Themes that should be grouped under a parent header in the dashboard
+# Themes that should be grouped under a parent header in the dashboard.
+# Add new sub-themes here whenever a new tag or regex variant is introduced —
+# the dashboard automatically renders a parent header + indented sub-rows.
 THEME_GROUPS = {
     "Pricing": [
         "Pricing",
@@ -55,10 +59,17 @@ THEME_GROUPS = {
         "Subscription / billing / refund / cancel",
     ],
     "Send": [
+        "Send (add-on)",
         "Send (file sharing)",
     ],
     "Appointment": [
+        "Appointment",
         "Appointment / calendar",
+    ],
+    "Custom domain": [
+        "Custom domain setup",
+        "Custom domain DNS",
+        "Custom domain / DKIM / DNS",
     ],
 }
 
