@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-23
 
-_Updated: **2026-06-23 19:32 ET** · refreshes hourly_  
+_Updated: **2026-06-23 21:11 ET** · refreshes hourly_  
 _24h window: 2026-06-22T16:00 → 2026-06-23T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 2** of rollout — **1,500 invitees**, **14 tickets** so far (
 
 ## At a glance
 
-- **11** new tickets in last 24h · **5** solved in last 24h
+- **11** new tickets in last 24h · **3** solved in last 24h
 - **14** tickets total since launch · contact rate **1%** of 1500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 3.3h · mean 5.4h (proxy: updated_at − created_at, 6 solved tickets)
+- **Median AHT**: 10.1h · mean 13.6h (proxy: updated_at − created_at, 6 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -114,8 +114,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [6343](https://tbpro.zendesk.com/agent/tickets/6343) · 2026-06-22T23:56 · Pro
-- · [6344](https://tbpro.zendesk.com/agent/tickets/6344) · 2026-06-23T00:00 · I'm not going to pay money to be your beta tester
 - · [6351](https://tbpro.zendesk.com/agent/tickets/6351) · 2026-06-23T02:39 · Created a Thundermail account and password, can't log in
 - · [6347](https://tbpro.zendesk.com/agent/tickets/6347) · 2026-06-23T15:57 · Add custom fomian later?
 - · [6359](https://tbpro.zendesk.com/agent/tickets/6359) · 2026-06-23T17:39 · need password reset, confused during signup
