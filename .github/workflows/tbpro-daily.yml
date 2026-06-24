@@ -28,22 +28,19 @@ jobs:
       - name: Install featureos-cli
         run: npm install -g @featureos/cli
 
-      - name: Write FeatureOS credentials
-        run: |
-          printf 'api_key: %s\njwt: %s\n' \
-            "${{ secrets.FEATUREOS_API_KEY }}" \
-            "${{ secrets.FEATUREOS_JWT }}" \
-            > ~/.featureos.yaml
-
       - name: Generate Thundermail daily report
         env:
           ZENDESK_EMAIL:     ${{ secrets.ZENDESK_EMAIL }}
           ZENDESK_TOKEN:     ${{ secrets.ZENDESK_TOKEN }}
           ZENDESK_SUBDOMAIN: ${{ secrets.ZENDESK_SUBDOMAIN }}
+          FEATUREOS_API_KEY: ${{ secrets.FEATUREOS_API_KEY }}
+          FEATUREOS_JWT:     ${{ secrets.FEATUREOS_JWT }}
           GITHUB_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
           TZ: America/New_York
         run: |
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
+          export FEATUREOS_API_KEY="$(printf '%s' "$FEATUREOS_API_KEY" | tr -d ' \t\r\n')"
+          export FEATUREOS_JWT="$(printf '%s' "$FEATUREOS_JWT" | tr -d ' \t\r\n')"
           python3 scripts/tbpro_daily.py --public --out-dir lisa/daily/
 
       - name: Commit and push
