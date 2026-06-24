@@ -1603,6 +1603,12 @@ def main():
     (out_dir / "latest.html").write_text(html)
     print(f"Wrote {out_dir}/latest.{{md,html}}", file=sys.stderr)
 
+    # Keep reports/tbpro/LATEST.html in sync (legacy URL shared with team)
+    legacy_dir = Path(__file__).parent.parent / "reports" / "tbpro"
+    legacy_dir.mkdir(parents=True, exist_ok=True)
+    (legacy_dir / "LATEST.html").write_text(html)
+    (legacy_dir / "LATEST.md").write_text(md)
+
     if args.post_to_notion:
         title = f"Thundermail · Flight 3 · {report_date.isoformat()}"
         url = post_to_notion(title, md)
