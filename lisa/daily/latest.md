@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-06-24
 
-_Updated: **2026-06-24 09:02 ET** · refreshes hourly_  
+_Updated: **2026-06-24 09:53 ET** · refreshes hourly_  
 _24h window: 2026-06-23T16:00 → 2026-06-24T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 3** of rollout — **1,500 invitees**, **17 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
+Flight 3 is **day 3** of rollout — **1,500 invitees**, **18 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
-- **17** tickets total since launch · contact rate **1%** of 1500 invitees
+- **5** new tickets in last 24h · **7** solved in last 24h
+- **18** tickets total since launch · contact rate **1%** of 1500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 14.8h · mean 15.6h (proxy: updated_at − created_at, 8 solved tickets)
+- **Median AHT**: 17.7h · mean 15.8h (proxy: updated_at − created_at, 9 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -32,7 +32,7 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 8
+- **solved**: 9
 - **pending**: 5
 - **open**: 4
 
@@ -48,22 +48,25 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 5
-- **blocked** + **investigated**: 3
 - **request** + **redirected**: 3
+- **blocked** + **investigated**: 2
+- **blocked** + **n/a**: 1
 - **blocked** + **explained**: 1
 - **confused** + **explained**: 1
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#6380](https://tbpro.zendesk.com/agent/tickets/6380)** · why early access with expensive price?
+  > hello guys, sorry but for an early access to a beta service the price is quite expensive, i'll stay with my Proton email account.
+- **[#6377](https://tbpro.zendesk.com/agent/tickets/6377)** · Account activation 
+  > Hi! I was on the waitlist for the Thundermail app, I recently got an e-mail that I can sign-up (create my account), I went on with the process but after verifying the e-mail…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#6378](https://tbpro.zendesk.com/agent/tickets/6378)** · Delete account
   > Having used the service I don't see any benefit to this. Please delete my account
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6377](https://tbpro.zendesk.com/agent/tickets/6377)** · Account activation 
-  > Hi! I was on the waitlist for the Thundermail app, I recently got an e-mail that I can sign-up (create my account), I went on with the process but after verifying the e-mail…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -81,6 +84,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6373](https://tbpro.zendesk.com/agent/tickets/6373) · [open] · 2026-06-24T06:39 · subscription canceling
 - [6377](https://tbpro.zendesk.com/agent/tickets/6377) · [open] · 2026-06-24T09:09 · Account activation 
 - [6378](https://tbpro.zendesk.com/agent/tickets/6378) · [open] · 2026-06-24T11:41 · Delete account
+- [6380](https://tbpro.zendesk.com/agent/tickets/6380) · [open] · 2026-06-24T13:09 · why early access with expensive price?
 
 ## Solved — last 24h
 
@@ -90,6 +94,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6351](https://tbpro.zendesk.com/agent/tickets/6351) · 2026-06-24T03:01 · Created a Thundermail account and password, can't log in
 - · [6371](https://tbpro.zendesk.com/agent/tickets/6371) · 2026-06-24T04:22 · Errors sending to one of my custom domain emails.
 - · [6363](https://tbpro.zendesk.com/agent/tickets/6363) · 2026-06-24T04:25 · Pricing related query. 
+- · [6368](https://tbpro.zendesk.com/agent/tickets/6368) · 2026-06-24T13:10 · Cannot send email with Apple Mai
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
