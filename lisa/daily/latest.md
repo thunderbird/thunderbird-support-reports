@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-24
 
-_Updated: **2026-06-24 14:47 ET** · refreshes hourly_  
+_Updated: **2026-06-24 15:44 ET** · refreshes hourly_  
 _24h window: 2026-06-23T16:00 → 2026-06-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 3** of rollout — **6,500 invitees**, **13 tickets** so far (
 - **13** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: 100%  (11 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 5
 - **Median AHT**: 20.4h · mean 26.1h (proxy: updated_at − created_at, 8 solved tickets)
 
 ## Negative CSAT (since launch)
@@ -26,9 +26,16 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 4 new:
 
-- _(none)_
+- [Instant synching with Push notifications](https://ideas.tb.pro/p/instant-synching-with-push-notifications) · 1 votes · _Thundermail_
+  > Thundermail accounts only seem to synch every 15mins or manually. This is a pretty serious drawback compared to say gmail which is more or less instnant.When an email arrives at the thundermail…
+- [Enforced breaks between meetings](https://ideas.tb.pro/p/enforced-breaks-between-meetings) · 1 votes · _Appointment_
+  > What you’d like to seeThe ability to set a set gap before and/or after anything scheduled to be sure there is time to ground, group, get water, take notes, etc, between meetings.Why it mattersHaving…
+- [Setting for maximum bookings per day or time-frame.](https://ideas.tb.pro/p/setting-for-maximum-bookings-per-day-or-time-frame) · 1 votes · _Appointment, New Feature_
+  > What you’d like to seeA setting for max bookings per day, or even within a span of time (say 1 booking every 4 hours).Why it mattersI have a lot of meetings and other calendar events, I need to…
+- [Regional Pricing for Thundermail](https://ideas.tb.pro/p/regional-pricing-for-thundermail) · 1 votes · _Thundermail, Accounts & Subscriptions_
+  > What you’d like to seeBriefly describe the feature or improvement.Thundermail in the early bird pricing is $73. It translates to very big amounts in currencies from suppressed economies. Proton…
 
 ## Status breakdown (cumulative)
 
