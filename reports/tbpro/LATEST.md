@@ -1,50 +1,34 @@
-# Thunderbird Pro — Daily Support Report · 2026-06-03
+# Thundermail — Flight 3 Live Report · 2026-06-24
 
-_24h window: **2026-06-02T16:00 → 2026-06-03T16:00 ET**_  
-_Launch: 2026-05-04 · invitees: 600_
+_Updated: **2026-06-24 11:14 ET** · refreshes hourly_  
+_24h window: 2026-06-23T16:00 → 2026-06-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+
+## TL;DR
+
+Flight 3 is **day 3** of rollout — **6,500 invitees**, **19 tickets** so far (0.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **2** solved in last 24h
-- **101** tickets total since launch · contact rate **17%** of 600 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (10 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 17
+- **6** new tickets in last 24h · **10** solved in last 24h
+- **19** tickets total since launch · contact rate **0%** of 6500 invitees
+- **CSAT (24h)**: 100%  (11 good / 0 bad)
+- **CSAT (since launch)**: 100%  (12 good / 0 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
+- **Median AHT**: 21.9h · mean 27.2h (proxy: updated_at − created_at, 10 solved tickets)
 
-## Known problems — 2 problem(s), 6 incident(s)
+## 🔎 Emerging patterns to investigate
 
-### [#5441](https://tbpro.zendesk.com/agent/tickets/5441) · [hold] · TB Pro deletion request
-- 4 incident(s):
-  - [#5403](https://tbpro.zendesk.com/agent/tickets/5403) · [closed] · 2026-05-05 · _Can I please cancel my subscription?_
-  - [#5417](https://tbpro.zendesk.com/agent/tickets/5417) · [closed] · 2026-05-06 · _close account_
-  - [#5440](https://tbpro.zendesk.com/agent/tickets/5440) · [closed] · 2026-05-06 · _Cancelation of account registration_
-  - [#5487](https://tbpro.zendesk.com/agent/tickets/5487) · [solved] · 2026-05-08 · _Data storage location misleading._
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-### [#5679](https://tbpro.zendesk.com/agent/tickets/5679) · [hold] · Accounts 839: Expose RSA DKIM keys in custom domain setup 
-- ✅ GitHub: [thunderbird/thunderbird-accounts#839](https://github.com/thunderbird/thunderbird-accounts/issues/839) · _Expose RSA DKIM keys in custom domain setup_
-- 2 incident(s):
-  - [#5528](https://tbpro.zendesk.com/agent/tickets/5528) · [hold] · 2026-05-09 · _Setup custom domain_
-  - [#5655](https://tbpro.zendesk.com/agent/tickets/5655) · [hold] · 2026-05-15 · _No DKIM signature for mails sent from custom domain_
-
-## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
-
-- ✅ [zd #5799](https://tbpro.zendesk.com/agent/tickets/5799) → [thunderbird/mailstrom#223](https://github.com/thunderbird/mailstrom/issues/223) · _Stalwart: CalDAV/JMAP(?) scheduling extension url is incorrectly set_
-- ✅ [zd #5736](https://tbpro.zendesk.com/agent/tickets/5736) → [thunderbird/appointment#1680](https://github.com/thunderbird/appointment/issues/1680) · _Submit Request Choose Files Asks Twice_
-- 🔧 [zd #5735](https://tbpro.zendesk.com/agent/tickets/5735) → [thunderbird/thunderbird-accounts#596](https://github.com/thunderbird/thunderbird-accounts/issues/596) · _Contact form doesn't clear invalid state_
-- 🔧 [zd #5711](https://tbpro.zendesk.com/agent/tickets/5711) → [thunderbird/thunderbird-accounts#874](https://github.com/thunderbird/thunderbird-accounts/issues/874) · _Test various autoconfig URLs during custom domain setup_
-- ✅ [zd #5711](https://tbpro.zendesk.com/agent/tickets/5711) → [thunderbird/thunderbird-accounts#857](https://github.com/thunderbird/thunderbird-accounts/issues/857) · _Indicate to the user that they will need to delete/update certain keys instead o_
-- 🔧 [zd #5631](https://tbpro.zendesk.com/agent/tickets/5631) → [thunderbird/thunderbird-accounts#838](https://github.com/thunderbird/thunderbird-accounts/issues/838) · _Payment completed, Stalwart not updated_
-- 🔧 [zd #5516](https://tbpro.zendesk.com/agent/tickets/5516) → [thunderbird/appointment#1678](https://github.com/thunderbird/appointment/issues/1678) · _Repeating Thundermail Calendar Events Cutting Off Last Day_
-- 🔧 [zd #5411](https://tbpro.zendesk.com/agent/tickets/5411) → [thunderbird/thunderbird-accounts#690](https://github.com/thunderbird/thunderbird-accounts/issues/690) · _unable to setup custom domain if used in different tb pro account_
-- 🔧 [zd #5407](https://tbpro.zendesk.com/agent/tickets/5407) → [thunderbird/thunderbird-accounts#819](https://github.com/thunderbird/thunderbird-accounts/issues/819) · _When adding an alias, if I select "tb.pro" in the domain dropdown it resets to "_
+- **"custom domain"** — 2 tickets in 24h (4.0× baseline; baseline 1 cum) — [#6371](https://tbpro.zendesk.com/agent/tickets/6371), [#6386](https://tbpro.zendesk.com/agent/tickets/6386)
 
 ## Negative CSAT (since launch)
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (today) — 0
+## Refund & cancellation tickets (last 24h) — 0
 
-_(none today)_
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -54,63 +38,79 @@ _(none today)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 73
-- **closed**: 16
-- **hold**: 6
-- **pending**: 4
-- **open**: 2
+- **solved**: 10
+- **pending**: 5
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 39
-- **Thundermail**: 33
-- **Appointment**: 6
+- **Thundermail**: 8
+- **Account Hub**: 7
+- **Appointment**: 1
+- **Send**: 1
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **blocked** + **redirected**: 18
-- **confused** + **explained**: 17
-- **blocked** + **explained**: 14
-- **curious** + **explained**: 12
-- **change request** + **actioned**: 6
-- **request** + **redirected**: 5
-- **blocked** + **escalated**: 4
-- **change request** + **escalated**: 2
-- **telling us** + **explained**: 1
-- **other** + **—**: 1
-- **change request** + **explained**: 1
-- **blocked** + **informed**: 1
-- **other** + **n/a**: 1
-- **blocked** + **—**: 1
-- **other** + **investigated**: 1
-- **concerned** + **explained**: 1
-- **request** + **explained**: 1
-- **concerned** + **redirected**: 1
-- **blocked** + **actioned**: 1
+- **curious** + **explained**: 5
+- **request** + **redirected**: 3
+- **blocked** + **investigated**: 2
 - **request** + **actioned**: 1
-- **concerned** + **escalated**: 1
-- **curious** + **redirected**: 1
-- **telling us** + **redirected**: 1
-- **praise** + **explained**: 1
-- **curious** + **escalated**: 1
+- **blocked** + **n/a**: 1
+- **blocked** + **explained**: 1
+- **confused** + **explained**: 1
 
-## 24h tickets grouped by theme — detail
+## Tickets in last 24h — by theme
 
-### Account creation / signup confusion — 1 tickets
+### Early bird / invite / waitlist — 2 tickets
 
-- **[#6021](https://tbpro.zendesk.com/agent/tickets/6021)** · Waiting list change of email — why: **telling us** · how: **explained**
-  > Hey all, I initially had put myself on the waitlist with the email [email], however I stopped that account at the start of the year and unfortunately will not be able to reinstate…
+- **[#6380](https://tbpro.zendesk.com/agent/tickets/6380)** · why early access with expensive price?
+  > hello guys, sorry but for an early access to a beta service the price is quite expensive, i'll stay with my Proton email account.
+- **[#6377](https://tbpro.zendesk.com/agent/tickets/6377)** · Account activation 
+  > Hi! I was on the waitlist for the Thundermail app, I recently got an e-mail that I can sign-up (create my account), I went on with the process but after verifying the e-mail…
 
-## New tickets in last 24h
+### Email migration / import — 1 tickets
 
-- [6021](https://tbpro.zendesk.com/agent/tickets/6021) · [solved] · 2026-06-03T14:02 · Waiting list change of email
+- **[#6386](https://tbpro.zendesk.com/agent/tickets/6386)** · Squarespace Custom Domain
+  > I am trying to migrate my custom domain email to Thundermail. My domain is provided by Squarespace. All of the DNS records that the TB dashboard generated contain a trailing…
 
-## Solved in last 24h
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- 👍 [5831](https://tbpro.zendesk.com/agent/tickets/5831) · 2026-06-03T14:03 · Emails appear as double in Thunderbird
-- · [6021](https://tbpro.zendesk.com/agent/tickets/6021) · 2026-06-03T17:01 · Waiting list change of email
+- **[#6378](https://tbpro.zendesk.com/agent/tickets/6378)** · Delete account
+  > Having used the service I don't see any benefit to this. Please delete my account
+
+### Refund / Cancel — 1 tickets
+
+- **[#6373](https://tbpro.zendesk.com/agent/tickets/6373)** · subscription canceling — why: **request** · how: **actioned**
+  > Dear [name]! I paid an annual subscription but I misunderstood the thundermail pro service. I tought it is a new, modern mail client and not a mail server service. So, I'm a great…
+
+### Aliases — 1 tickets
+
+- **[#6371](https://tbpro.zendesk.com/agent/tickets/6371)** · Errors sending to one of my custom domain emails. — why: **blocked** · how: **investigated**
+  > I can send emails to [email] but not [email]. I tried from outlook and gmail and from ThundermailPro and I get the following error. I have [email] set up as a custom alias and…
+
+## New tickets — last 24h
+
+- [6371](https://tbpro.zendesk.com/agent/tickets/6371) · [solved] · 2026-06-23T21:17 · Errors sending to one of my custom domain emails.
+- [6373](https://tbpro.zendesk.com/agent/tickets/6373) · [solved] · 2026-06-24T06:39 · subscription canceling
+- [6377](https://tbpro.zendesk.com/agent/tickets/6377) · [open] · 2026-06-24T09:09 · Account activation 
+- [6378](https://tbpro.zendesk.com/agent/tickets/6378) · [open] · 2026-06-24T11:41 · Delete account
+- [6380](https://tbpro.zendesk.com/agent/tickets/6380) · [open] · 2026-06-24T13:09 · why early access with expensive price?
+- [6386](https://tbpro.zendesk.com/agent/tickets/6386) · [open] · 2026-06-24T14:54 · Squarespace Custom Domain
+
+## Solved — last 24h
+
+- · [6368](https://tbpro.zendesk.com/agent/tickets/6368) · 2026-06-24T14:34 · Cannot send email with Apple Mai
+- · [6351](https://tbpro.zendesk.com/agent/tickets/6351) · 2026-06-24T14:34 · Created a Thundermail account and password, can't log in
+- · [6373](https://tbpro.zendesk.com/agent/tickets/6373) · 2026-06-24T14:34 · subscription canceling
+- · [6371](https://tbpro.zendesk.com/agent/tickets/6371) · 2026-06-24T14:34 · Errors sending to one of my custom domain emails.
+- · [6344](https://tbpro.zendesk.com/agent/tickets/6344) · 2026-06-24T14:34 · I'm not going to pay money to be your beta tester
+- · [6343](https://tbpro.zendesk.com/agent/tickets/6343) · 2026-06-24T14:34 · Pro
+- · [6363](https://tbpro.zendesk.com/agent/tickets/6363) · 2026-06-24T14:34 · Pricing related query. 
+- · [6359](https://tbpro.zendesk.com/agent/tickets/6359) · 2026-06-24T14:34 · need password reset, confused during signup
+- · [6369](https://tbpro.zendesk.com/agent/tickets/6369) · 2026-06-24T14:34 · Connection Problem
+- · [6347](https://tbpro.zendesk.com/agent/tickets/6347) · 2026-06-24T14:34 · Add custom fomian later?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
