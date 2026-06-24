@@ -62,9 +62,10 @@ WAVES = [
     {"date": "2026-05-04", "end": "2026-06-02", "invites": 600,  "label": "Early Bird",       "color": "#6366f1"},
     {"date": "2026-06-03", "end": "2026-06-03", "invites": 500,  "label": "Flight 2 Wave 1",  "color": "#f97316"},
     {"date": "2026-06-04", "end": "2026-06-21", "invites": 1500, "label": "Flight 2 Wave 2",  "color": "#ef4444"},
-    {"date": "2026-06-22", "end": "2099-12-31", "invites": 1500, "label": "Flight 3 Wave 1",  "color": "#10b981"},
+    {"date": "2026-06-22", "end": "2026-06-22", "invites": 1500, "label": "Flight 3 Wave 1",  "color": "#10b981"},
+    {"date": "2026-06-23", "end": "2099-12-31", "invites": 3000, "label": "Flight 3 Wave 2",  "color": "#0ea5e9"},
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 4100
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 7100
 
 EXCLUDE_IDS = {5441, 5866}
 FEATUREOS_BOARD_ID = 17437
@@ -986,6 +987,7 @@ def render(data):
   --color-wave-w1:               #f97316;
   --color-wave-w2:               #ef4444;
   --color-wave-w3:               #10b981;
+  --color-wave-w4:               #0ea5e9;
   --space-4:  0.25rem;
   --space-8:  0.5rem;
   --space-12: 0.75rem;
@@ -1414,6 +1416,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w1);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 1 (500)</span></div>
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w2);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 2 (1,500)</span></div>
         <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w3);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 1 (1,500)</span></div>
+        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w4);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 2 (3,000)</span></div>
       </div>
     </div>
   </div>
@@ -1578,6 +1581,7 @@ const P = {{
   waveW1:    root.getPropertyValue('--color-wave-w1').trim()   || '#f97316',
   waveW2:    root.getPropertyValue('--color-wave-w2').trim()   || '#ef4444',
   waveW3:    root.getPropertyValue('--color-wave-w3').trim()   || '#10b981',
+  waveW4:    root.getPropertyValue('--color-wave-w4').trim()   || '#0ea5e9',
 }};
 
 const dates      = {json.dumps(data["dates"])};
@@ -1588,6 +1592,7 @@ const milestones = [
   {{"date": "{WAVES[1]["date"]}", "label": "{WAVES[1]["label"]}", "color": P.waveW1}},
   {{"date": "{WAVES[2]["date"]}", "label": "{WAVES[2]["label"]}", "color": P.waveW2}},
   {{"date": "{WAVES[3]["date"]}", "label": "{WAVES[3]["label"]}", "color": P.waveW3}},
+  {{"date": "{WAVES[4]["date"]}", "label": "{WAVES[4]["label"]}", "color": P.waveW4}},
 ];
 
 function buildAnnotations() {{
