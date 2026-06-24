@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-06-24
 
-_Updated: **2026-06-24 13:47 ET** · refreshes hourly_  
+_Updated: **2026-06-24 14:47 ET** · refreshes hourly_  
 _24h window: 2026-06-23T16:00 → 2026-06-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 3** of rollout — **6,500 invitees**, **14 tickets** so far (0.2% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
+Flight 3 is **day 3** of rollout — **6,500 invitees**, **13 tickets** so far (0.2% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **9** solved in last 24h
-- **14** tickets total since launch · contact rate **0%** of 6500 invitees
+- **2** new tickets in last 24h · **8** solved in last 24h
+- **13** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: 100%  (11 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
-- **Median AHT**: 21.6h · mean 25.7h (proxy: updated_at − created_at, 9 solved tickets)
+- **Median AHT**: 20.4h · mean 26.1h (proxy: updated_at − created_at, 8 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -32,13 +32,13 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 9
+- **solved**: 8
 - **pending**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 7
-- **Thundermail**: 5
+- **Thundermail**: 4
 - **Appointment**: 1
 - **Send**: 1
 
@@ -51,7 +51,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 2
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
-- **blocked** + **explained**: 1
 
 ## Tickets in last 24h — by theme
 
@@ -79,7 +78,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6344](https://tbpro.zendesk.com/agent/tickets/6344) · 2026-06-24T14:34 · I'm not going to pay money to be your beta tester
 - · [6343](https://tbpro.zendesk.com/agent/tickets/6343) · 2026-06-24T14:34 · Pro
 - · [6363](https://tbpro.zendesk.com/agent/tickets/6363) · 2026-06-24T14:34 · Pricing related query. 
-- · [6359](https://tbpro.zendesk.com/agent/tickets/6359) · 2026-06-24T14:34 · need password reset, confused during signup
 - · [6369](https://tbpro.zendesk.com/agent/tickets/6369) · 2026-06-24T14:34 · Connection Problem
 
 ---
