@@ -43,6 +43,25 @@ TAG_THEMES = [
 ]
 MANUAL_THEMES = {6055: "Account access issues"}
 
+# Themes that should be grouped under a parent header in the dashboard
+THEME_GROUPS = {
+    "Pricing": [
+        "Pricing",
+        "Pricing — monthly plan request",
+        "Pricing — annual-only inquiry",
+        "Pricing — discount inquiry",
+        "Pricing — payment issue",
+        "Pricing / monthly plan / free tier",
+        "Subscription / billing / refund / cancel",
+    ],
+    "Send": [
+        "Send (file sharing)",
+    ],
+    "Appointment": [
+        "Appointment / calendar",
+    ],
+}
+
 
 def classify_ticket(t):
     tid = int(t.get("id") or 0)
@@ -513,6 +532,65 @@ def _theme_row_wrap(theme, n, total, tickets_list, sub, gh_links, extra_class=""
 """
 
 
+def _theme_group_html(group_name, sub_themes, theme_tickets_map, total, sub, gh_links):
+    """Render a parent group header with indented sub-theme rows."""
+    group_total = sum(n for _, n in sub_themes)
+    if not group_total:
+        return ""
+    pct = int(group_total / total * 100) if total else 0
+    sub_html = "".join(
+        _theme_row_wrap(name, n, total, theme_tickets_map.get(name, []), sub, gh_links, "theme-row--sub")
+        for name, n in sub_themes if n > 0
+    )
+    return (
+        f'<div class="theme-group">'
+        f'<div class="theme-group__hdr theme-row">'
+        f'<span class="theme-row__name">{group_name}</span>'
+        f'<span class="theme-row__count">{group_total}<span class="theme-row__pct">{pct}%</span></span>'
+        f'<div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:{pct}%"></div></div>'
+        f'</div>'
+        f'<div class="theme-group__body">{sub_html}</div>'
+        f'</div>\n'
+    )
+
+
+def _build_themes_html(theme_counts, theme_tickets_map, total, sub, gh_links, max_themes=20):
+    """Build theme rows HTML, merging grouped sub-themes under parent headers."""
+    sub_to_group = {m: g for g, members in THEME_GROUPS.items() for m in members}
+
+    group_totals = defaultdict(int)
+    group_subs = defaultdict(list)
+    ungrouped = {}
+
+    for theme, n in theme_counts.items():
+        g = sub_to_group.get(theme)
+        if g:
+            group_totals[g] += n
+            group_subs[g].append((theme, n))
+        else:
+            ungrouped[theme] = n
+
+    for g in group_subs:
+        group_subs[g].sort(key=lambda x: -x[1])
+
+    combined = [(name, n, False) for name, n in ungrouped.items()]
+    combined += [(g, n, True) for g, n in group_totals.items() if n > 0]
+    combined.sort(key=lambda x: -x[1])
+
+    html = ""
+    rendered = 0
+    for name, n, is_group in combined:
+        if rendered >= max_themes:
+            break
+        if is_group:
+            html += _theme_group_html(name, group_subs[name], theme_tickets_map, total, sub, gh_links)
+        else:
+            html += _theme_row_wrap(name, n, total, theme_tickets_map.get(name, []), sub, gh_links)
+        rendered += 1
+
+    return html
+
+
 def _eng_card(t, sub, gh_links):
     """Render an .eng-card for a GH-linked ticket."""
     tid = t["id"]
@@ -796,10 +874,7 @@ def render(data):
     for t in f2_subscriber:
         f2_theme_tickets[classify_ticket(t)].append(t)
 
-    f2_theme_html = ""
-    for theme, n in f2_theme_counts.most_common(20):
-        tlist = f2_theme_tickets[theme]
-        f2_theme_html += _theme_row_wrap(theme, n, f2_total, tlist, sub, gh_links)
+    f2_theme_html = _build_themes_html(f2_theme_counts, f2_theme_tickets, f2_total, sub, gh_links)
 
     f2_misdirect_count = len([t for t in f2_all if classify_ticket(t) == MISDIRECT_KEY])
     misdirect_callout = ""
@@ -826,10 +901,7 @@ def render(data):
     for t in all_sub_tickets:
         all_sub_theme_tickets[classify_ticket(t)].append(t)
 
-    all_sub_theme_html = ""
-    for theme, n in all_sub_theme_counts.most_common(20):
-        tlist = all_sub_theme_tickets[theme]
-        all_sub_theme_html += _theme_row_wrap(theme, n, all_sub_total, tlist, sub, gh_links)
+    all_sub_theme_html = _build_themes_html(all_sub_theme_counts, all_sub_theme_tickets, all_sub_total, sub, gh_links)
 
     # Historical misdirects
     misdirect_tickets = theme_tickets_map.get(MISDIRECT_KEY, [])
@@ -1197,6 +1269,11 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .theme-row--historical .theme-row__name{{color:var(--color-text-muted)}}
 .theme-row--historical .theme-row__count{{color:var(--color-text-muted)}}
 .theme-row--historical .theme-row__bar{{opacity:.4;background:repeating-linear-gradient(90deg,var(--color-text-muted) 0 6px,transparent 6px 10px);background-color:var(--color-surface-border-strong)}}
+.theme-group{{margin-bottom:var(--space-8)}}
+.theme-group__hdr .theme-row__name{{font-weight:700;color:var(--color-text-primary)}}
+.theme-group__hdr .theme-row__bar{{background:linear-gradient(90deg,var(--color-primary),var(--color-teal));opacity:.7}}
+.theme-group__body{{padding-left:var(--space-16);border-left:2px solid var(--color-surface-border);margin-top:var(--space-4)}}
+.theme-row--sub .theme-row__name{{font-size:.75rem;color:var(--color-text-muted)}}
 .theme-row-wrap{{display:flex;flex-direction:column;gap:0}}
 .theme-tickets{{margin:0;padding:0}}
 .theme-tickets>summary{{cursor:pointer;list-style:none;font-size:.65rem;color:var(--color-text-muted);padding:2px 0 var(--space-4);user-select:none}}
