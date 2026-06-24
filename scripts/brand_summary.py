@@ -100,6 +100,8 @@ THEMES = [
      r"\b(privacy|gdpr|dsgvo|data protect|delete (my )?(data|account)|right to erasure|eu (host|based|law|server)|us (law|based|server|jurisdiction)|where.{0,20}(store|host|data)|jurisdiction|data residency|eu only)\b"),
 
     # --- Thundermail-specific features ---
+    ("MFA / two-factor",
+     r"\b(mfa|2fa|two.factor|two factor|multifactor|multi.factor|authenticat(or|ion) app|totp|otp code|verification code|auth(entication)? code|google authenticator|authy|security key)\b"),
     ("Webmail",
      r"\b(webmail|web.{0,5}(interface|app|client|access)|browser.{0,10}(access|login|mail)|access.{0,10}browser|web version)\b"),
     ("Thunderbird for Android + Thundermail",

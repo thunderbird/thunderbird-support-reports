@@ -71,6 +71,12 @@ THEME_GROUPS = {
         "Custom domain DNS",
         "Custom domain / DKIM / DNS",
     ],
+    "MFA / two-factor": [
+        "MFA / two-factor",
+    ],
+    "Webmail": [
+        "Webmail",
+    ],
 }
 
 
