@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-06-24
 
-_Updated: **2026-06-24 03:27 ET** · refreshes hourly_  
+_Updated: **2026-06-24 05:20 ET** · refreshes hourly_  
 _24h window: 2026-06-23T16:00 → 2026-06-24T16:00 ET · Flight 3 launch: 2026-06-22 · 1500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 3** of rollout — **1,500 invitees**, **15 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
+Flight 3 is **day 3** of rollout — **1,500 invitees**, **16 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
-- **15** tickets total since launch · contact rate **1%** of 1500 invitees
+- **3** new tickets in last 24h · **6** solved in last 24h
+- **16** tickets total since launch · contact rate **1%** of 1500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
@@ -33,13 +33,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 8
-- **pending**: 6
-- **open**: 1
+- **pending**: 5
+- **open**: 3
 
 ## Service (cumulative)
 
+- **Thundermail**: 7
 - **Account Hub**: 7
-- **Thundermail**: 6
 - **Appointment**: 1
 - **Send**: 1
 
@@ -55,6 +55,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6377](https://tbpro.zendesk.com/agent/tickets/6377)** · Account activation 
+  > Hi! I was on the waitlist for the Thundermail app, I recently got an e-mail that I can sign-up (create my account), I went on with the process but after verifying the e-mail…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#6373](https://tbpro.zendesk.com/agent/tickets/6373)** · subscription canceling
@@ -69,6 +74,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6371](https://tbpro.zendesk.com/agent/tickets/6371) · [solved] · 2026-06-23T21:17 · Errors sending to one of my custom domain emails.
 - [6373](https://tbpro.zendesk.com/agent/tickets/6373) · [open] · 2026-06-24T06:39 · subscription canceling
+- [6377](https://tbpro.zendesk.com/agent/tickets/6377) · [open] · 2026-06-24T09:09 · Account activation 
 
 ## Solved — last 24h
 
