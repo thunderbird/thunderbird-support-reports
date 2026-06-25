@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-25
 
-_Updated: **2026-06-25 17:44 ET** · refreshes hourly_  
+_Updated: **2026-06-25 18:41 ET** · refreshes hourly_  
 _24h window: 2026-06-24T16:00 → 2026-06-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 4** of rollout — **6,500 invitees**, **29 tickets** so far (
 - **29** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 6
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 7
 - **Median AHT**: 31.9h · mean 31.0h (proxy: updated_at − created_at, 19 solved tickets)
 
 ## Negative CSAT (since launch)
@@ -34,7 +34,7 @@ _(none in last 24h)_
 
 - **solved**: 19
 - **pending**: 9
-- **hold**: 1
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -60,10 +60,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account creation / signup confusion — 2 tickets
 
-- **[#6411](https://tbpro.zendesk.com/agent/tickets/6411)** · can't auth to [domain] with new account on Thunderbird app — why: **blocked** · how: **explained**
-  > Hello, I just now signed up for thundermail. Username [email] I'm on MacOS and using Thunderbird 152.0 (aarch64). As I setup a new account and it opens a window to do auth, the…
 - **[#6401](https://tbpro.zendesk.com/agent/tickets/6401)** · Outgoing messages with custom domain not being signed with DKIM
   > I signed up for Thundermail on Tuesday morning and added my custom ([domain]) domain with all the requested DNS records, which fully passes verification. I'm using the newer…
+- **[#6411](https://tbpro.zendesk.com/agent/tickets/6411)** · can't auth to [domain] with new account on Thunderbird app — why: **blocked** · how: **explained**
+  > Hello, I just now signed up for thundermail. Username [email] I'm on MacOS and using Thunderbird 152.0 (aarch64). As I setup a new account and it opens a window to do auth, the…
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -84,7 +84,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6396](https://tbpro.zendesk.com/agent/tickets/6396) · [pending] · 2026-06-24T20:25 · Delivering incoming mail to global inbox
 - [6400](https://tbpro.zendesk.com/agent/tickets/6400) · [pending] · 2026-06-25T00:58 · I'm trying to pay for [domain] and it says something went wrong
-- [6401](https://tbpro.zendesk.com/agent/tickets/6401) · [hold] · 2026-06-25T01:11 · Outgoing messages with custom domain not being signed with DKIM
+- [6401](https://tbpro.zendesk.com/agent/tickets/6401) · [open] · 2026-06-25T01:11 · Outgoing messages with custom domain not being signed with DKIM
 - [6402](https://tbpro.zendesk.com/agent/tickets/6402) · [solved] · 2026-06-25T05:16 · Pricing
 - [6411](https://tbpro.zendesk.com/agent/tickets/6411) · [solved] · 2026-06-25T15:48 · can't auth to [domain] with new account on Thunderbird app
 
