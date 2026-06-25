@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-25
 
-_Updated: **2026-06-25 12:56 ET** · refreshes hourly_  
+_Updated: **2026-06-25 13:55 ET** · refreshes hourly_  
 _24h window: 2026-06-24T16:00 → 2026-06-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 4** of rollout — **6,500 invitees**, **29 tickets** so far (
 
 ## At a glance
 
-- **5** new tickets in last 24h · **10** solved in last 24h
+- **5** new tickets in last 24h · **13** solved in last 24h
 - **29** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 5
-- **Median AHT**: 30.5h · mean 27.0h (proxy: updated_at − created_at, 18 solved tickets)
+- **Median AHT**: 32.1h · mean 31.2h (proxy: updated_at − created_at, 18 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -33,8 +33,7 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 18
-- **pending**: 8
-- **open**: 3
+- **pending**: 11
 
 ## Service (cumulative)
 
@@ -65,15 +64,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6401](https://tbpro.zendesk.com/agent/tickets/6401)** · Outgoing messages with custom domain not being signed with DKIM
   > I signed up for Thundermail on Tuesday morning and added my custom ([domain]) domain with all the requested DNS records, which fully passes verification. I'm using the newer…
 
-### Refund / Cancel — 1 tickets
-
-- **[#6400](https://tbpro.zendesk.com/agent/tickets/6400)** · I'm trying to pay for [domain] and it says something went wrong — why: **change request** · how: **actioned**
-  > I'm not sure what is wrong with the payment but I'll try again later
-
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#6402](https://tbpro.zendesk.com/agent/tickets/6402)** · Pricing — why: **curious** · how: **explained**
   > Hi I would love to support tb pro but 72 is more than I'm willing to part with. Is there a way I could do 6 months or a discount?
+
+### Refund / Cancel — 1 tickets
+
+- **[#6400](https://tbpro.zendesk.com/agent/tickets/6400)** · I'm trying to pay for [domain] and it says something went wrong — why: **change request** · how: **actioned**
+  > I'm not sure what is wrong with the payment but I'll try again later
 
 ### App setup / configuration — 1 tickets
 
@@ -83,10 +82,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6396](https://tbpro.zendesk.com/agent/tickets/6396) · [pending] · 2026-06-24T20:25 · Delivering incoming mail to global inbox
-- [6400](https://tbpro.zendesk.com/agent/tickets/6400) · [open] · 2026-06-25T00:58 · I'm trying to pay for [domain] and it says something went wrong
+- [6400](https://tbpro.zendesk.com/agent/tickets/6400) · [pending] · 2026-06-25T00:58 · I'm trying to pay for [domain] and it says something went wrong
 - [6401](https://tbpro.zendesk.com/agent/tickets/6401) · [pending] · 2026-06-25T01:11 · Outgoing messages with custom domain not being signed with DKIM
 - [6402](https://tbpro.zendesk.com/agent/tickets/6402) · [solved] · 2026-06-25T05:16 · Pricing
-- [6411](https://tbpro.zendesk.com/agent/tickets/6411) · [open] · 2026-06-25T15:48 · can't auth to [domain] with new account on Thunderbird app
+- [6411](https://tbpro.zendesk.com/agent/tickets/6411) · [pending] · 2026-06-25T15:48 · can't auth to [domain] with new account on Thunderbird app
 
 ## Solved — last 24h
 
@@ -100,6 +99,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6378](https://tbpro.zendesk.com/agent/tickets/6378) · 2026-06-25T15:59 · Delete account
 - 👍 [6368](https://tbpro.zendesk.com/agent/tickets/6368) · 2026-06-25T16:07 · Cannot send email with Apple Mai
 - · [6395](https://tbpro.zendesk.com/agent/tickets/6395) · 2026-06-25T16:20 · Questions
+- · [6380](https://tbpro.zendesk.com/agent/tickets/6380) · 2026-06-25T17:01 · why early access with expensive price?
+- · [6377](https://tbpro.zendesk.com/agent/tickets/6377) · 2026-06-25T17:01 · Account activation 
+- · [6388](https://tbpro.zendesk.com/agent/tickets/6388) · 2026-06-25T17:34 · Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
