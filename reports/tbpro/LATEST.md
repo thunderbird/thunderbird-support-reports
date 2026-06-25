@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-06-25
 
-_Updated: **2026-06-25 09:51 ET** · refreshes hourly_  
+_Updated: **2026-06-25 11:09 ET** · refreshes hourly_  
 _24h window: 2026-06-24T16:00 → 2026-06-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 4** of rollout — **6,500 invitees**, **29 tickets** so far (0.4% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
+Flight 3 is **day 4** of rollout — **6,500 invitees**, **28 tickets** so far (0.4% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **2** solved in last 24h
-- **29** tickets total since launch · contact rate **0%** of 6500 invitees
+- **4** new tickets in last 24h · **7** solved in last 24h
+- **28** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 5
-- **Median AHT**: 23.9h · mean 22.6h (proxy: updated_at − created_at, 12 solved tickets)
+- **Median AHT**: 32.4h · mean 26.2h (proxy: updated_at − created_at, 15 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -32,14 +32,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 12
-- **open**: 10
+- **solved**: 15
 - **pending**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 13
-- **Thundermail**: 13
+- **Thundermail**: 12
 - **Appointment**: 2
 - **Send**: 1
 
@@ -47,22 +47,16 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 8
+- **curious** + **explained**: 9
 - **blocked** + **investigated**: 3
 - **request** + **redirected**: 3
 - **change request** + **actioned**: 2
-- **confused** + **n/a**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 - **blocked** + **explained**: 1
 - **confused** + **explained**: 1
 
 ## Tickets in last 24h — by theme
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#6402](https://tbpro.zendesk.com/agent/tickets/6402)** · Pricing
-  > Hi I would love to support tb pro but 72 is more than I'm willing to part with. Is there a way I could do 6 months or a discount?
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -79,17 +73,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6396](https://tbpro.zendesk.com/agent/tickets/6396)** · Delivering incoming mail to global inbox
   > Ubuntu 22.04 Thunderbird (desktop) 140.12.0esr (64-bit) I have searched through the available help at [domain], and haven't found an answer for this. In all other email accounts…
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#6402](https://tbpro.zendesk.com/agent/tickets/6402)** · Pricing — why: **curious** · how: **explained**
+  > Hi I would love to support tb pro but 72 is more than I'm willing to part with. Is there a way I could do 6 months or a discount?
+
 ## New tickets — last 24h
 
 - [6396](https://tbpro.zendesk.com/agent/tickets/6396) · [open] · 2026-06-24T20:25 · Delivering incoming mail to global inbox
 - [6400](https://tbpro.zendesk.com/agent/tickets/6400) · [open] · 2026-06-25T00:58 · I'm trying to pay for [domain] and it says something went wrong
 - [6401](https://tbpro.zendesk.com/agent/tickets/6401) · [open] · 2026-06-25T01:11 · Outgoing messages with custom domain not being signed with DKIM
-- [6402](https://tbpro.zendesk.com/agent/tickets/6402) · [open] · 2026-06-25T05:16 · Pricing
+- [6402](https://tbpro.zendesk.com/agent/tickets/6402) · [solved] · 2026-06-25T05:16 · Pricing
 
 ## Solved — last 24h
 
 - 👍 [6359](https://tbpro.zendesk.com/agent/tickets/6359) · 2026-06-24T21:02 · need password reset, confused during signup
 - · [6363](https://tbpro.zendesk.com/agent/tickets/6363) · 2026-06-25T05:01 · Pricing related query. 
+- · [6391](https://tbpro.zendesk.com/agent/tickets/6391) · 2026-06-25T13:54 · Thunderbird desktop (Ubuntu) setup problem
+- · [6368](https://tbpro.zendesk.com/agent/tickets/6368) · 2026-06-25T14:01 · Cannot send email with Apple Mai
+- · [6369](https://tbpro.zendesk.com/agent/tickets/6369) · 2026-06-25T14:52 · Connection Problem
+- · [6402](https://tbpro.zendesk.com/agent/tickets/6402) · 2026-06-25T14:53 · Pricing
+- · [6373](https://tbpro.zendesk.com/agent/tickets/6373) · 2026-06-25T15:01 · subscription canceling
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
