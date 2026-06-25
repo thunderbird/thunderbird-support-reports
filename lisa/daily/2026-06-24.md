@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-24
 
-_Updated: **2026-06-24 21:15 ET** · refreshes hourly_  
+_Updated: **2026-06-24 23:20 ET** · refreshes hourly_  
 _24h window: 2026-06-23T16:00 → 2026-06-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -34,7 +34,7 @@ _(none in last 24h)_
   > What you’d like to seeThe ability to set a set gap before and/or after anything scheduled to be sure there is time to ground, group, get water, take notes, etc, between meetings.Why it mattersHaving…
 - [Setting for maximum bookings per day or time-frame.](https://ideas.tb.pro/p/setting-for-maximum-bookings-per-day-or-time-frame) · 1 votes · _Appointment, New Feature_
   > What you’d like to seeA setting for max bookings per day, or even within a span of time (say 1 booking every 4 hours).Why it mattersI have a lot of meetings and other calendar events, I need to…
-- [Regional Pricing for Thundermail](https://ideas.tb.pro/p/regional-pricing-for-thundermail) · 1 votes · _Thundermail, Accounts & Subscriptions_
+- [Regional Pricing for Thundermail](https://ideas.tb.pro/p/regional-pricing-for-thundermail) · 2 votes · _Thundermail, Accounts & Subscriptions_
   > What you’d like to seeBriefly describe the feature or improvement.Thundermail in the early bird pricing is $73. It translates to very big amounts in currencies from suppressed economies. Proton…
 
 ## Status breakdown (cumulative)
