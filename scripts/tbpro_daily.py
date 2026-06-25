@@ -254,7 +254,8 @@ def urgency_for(ticket):
             return name
     return None
 
-BRAND = "Thunderbird Pro"
+BRAND = "Thunderbird Pro"       # legacy search name — use BRAND_ID for accurate counts
+BRAND_ID = 38173138875795       # Zendesk brand ID for Thundermail (stable across renames)
 LAUNCH_DATE     = "2026-06-22"   # Flight 3 Wave 1 start (ticket counts, themes, contact rate)
 CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time from here
 INVITEE_COUNT = 6500         # Flight 3 · Wave 1 (2026-06-22) + Wave 2 (2026-06-23) + Wave 3 (2026-06-24)
@@ -612,7 +613,7 @@ def build(report_date_et):
     # Zendesk: all tickets since launch.
     # Exclude tickets merged into another (closed_by_merge tag) — they're
     # duplicates of a canonical ticket and would inflate every count.
-    cumulative = zd_search_all(f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE}')
+    cumulative = zd_search_all(f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE}')
     merged_count = sum(1 for t in cumulative if "closed_by_merge" in (t.get("tags") or []))
     cumulative = [t for t in cumulative if "closed_by_merge" not in (t.get("tags") or [])]
     if merged_count:
@@ -709,8 +710,8 @@ def build(report_date_et):
             print(f"WARN: couldn't fetch incidents for watch problem #{pid}: {e}", file=sys.stderr)
 
     # CSAT — cumulative (since launch) and 24h
-    good_cum = zd_search_all(f'type:ticket brand:"{BRAND}" status:solved satisfaction:good created>={CSAT_START_DATE}')
-    bad_cum = zd_search_all(f'type:ticket brand:"{BRAND}" status:solved satisfaction:bad created>={CSAT_START_DATE}')
+    good_cum = zd_search_all(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:good created>={CSAT_START_DATE}')
+    bad_cum = zd_search_all(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:bad created>={CSAT_START_DATE}')
     good_24h = [t for t in good_cum if window_start_utc <= parse_iso(t["updated_at"]) < window_end_utc]
     bad_24h = [t for t in bad_cum if window_start_utc <= parse_iso(t["updated_at"]) < window_end_utc]
 
@@ -755,13 +756,13 @@ def build(report_date_et):
     # honor parenthesized OR groups well, so run each query separately and
     # dedupe by ticket ID.
     refund_queries = [
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} subject:refund',
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} subject:cancel',
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} subject:cancellation',
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} subject:cancelation',
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} tags:refund',
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} tags:cancellation',
-        f'type:ticket brand:"{BRAND}" created>={LAUNCH_DATE} tags:cancel',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} subject:refund',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} subject:cancel',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} subject:cancellation',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} subject:cancelation',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} tags:refund',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} tags:cancellation',
+        f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE} tags:cancel',
     ]
     refunds_by_id = {}
     for q in refund_queries:

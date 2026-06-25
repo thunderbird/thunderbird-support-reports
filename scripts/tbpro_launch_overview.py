@@ -93,6 +93,7 @@ def classify_ticket(t):
     return primary
 
 LAUNCH_DATE = "2026-05-04"
+BRAND_ID = 38173138875795       # Zendesk brand ID for Thundermail (stable across renames)
 
 WAVES = [
     {"date": "2026-05-04", "end": "2026-06-02", "invites": 600,  "label": "Early Bird",       "color": "#6366f1"},
@@ -130,20 +131,22 @@ def fetch_tickets(creds):
     while True:
         d = zd_get(
             f"https://{sub}.zendesk.com/api/v2/search.json"
-            f"?query=type:ticket+brand:\"Thunderbird+Pro\"+created>={LAUNCH_DATE}"
+            f"?query=type:ticket+brand_id:{BRAND_ID}+created>={LAUNCH_DATE}"
             f"&per_page=100&page={page}", auth)
         results.extend(d.get("results", []))
         if not d.get("next_page") or page >= 10:
             break
         page += 1
-    return (auth, sub, [
+    raw_total = len(results)
+    filtered = [
         t for t in results
         if "closed_by_merge" not in (t.get("tags") or [])
         and (t.get("subject") or "").strip().lower() != "test"
         and t.get("submitter_id") == t.get("requester_id")
         and int(t.get("id", 0)) not in EXCLUDE_IDS
         and int(t.get("problem_id") or 0) not in EXCLUDE_IDS
-    ])
+    ]
+    return (auth, sub, filtered, raw_total)
 
 
 def fetch_aht(auth, sub, tickets, sample=None):
@@ -278,8 +281,8 @@ def fetch_csat_stats(auth, sub):
         return d.get("count", 0)
 
     def _stats(since):
-        g = _count(f'type:ticket brand:"Thunderbird Pro" status:solved satisfaction:good created>={since}')
-        b = _count(f'type:ticket brand:"Thunderbird Pro" status:solved satisfaction:bad created>={since}')
+        g = _count(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:good created>={since}')
+        b = _count(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:bad created>={since}')
         return {"good": g, "bad": b, "n": g+b, "pct": f"{g/(g+b)*100:.0f}%" if g+b else "—"}
 
     return {
@@ -310,7 +313,7 @@ def _weekly_csat(tickets):
     return result
 
 
-def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None):
+def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None, raw_total=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -483,6 +486,7 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "today": today.isoformat(),
         "theme_aht": theme_aht_data,
         "aht_weekly": aht_weekly_data,
+        "raw_total": raw_total if raw_total is not None else len(tickets),
     }
 
 
@@ -640,6 +644,7 @@ def _eng_card(t, sub, gh_links):
 def render(data):
     gen = dt.datetime.now().strftime("%Y-%m-%d %H:%M ET")
     total = data["total"]
+    raw_total = data.get("raw_total", total)
     aht   = data["aht"]
     frt   = data["frt"]
     avg_rate = data["avg_rate"]
@@ -1411,7 +1416,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="hero">
     <div class="hero__eyebrow">Early Bird May 4 → {data["today"]} · {TOTAL_INVITEES:,} invitees · Generated {gen}</div>
     <h1 class="hero__headline">Flight 2 complete at <em>{avg_rate}%</em> contact rate — use this baseline to staff the next flight.</h1>
-    <p class="hero__meta">{total} tickets across all waves · <span>Early Bird inflated by misdirected non-subscribers; Flight 2 Waves 1+2 complete — historical baseline for next flight</span></p>
+    <p class="hero__meta">{total} end-user requests across all waves · <span>Excludes merged/internal tickets; Zendesk Explore may show ~{raw_total} total created</span></p>
   </div>
 
   <div class="bento">
@@ -1433,7 +1438,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="tile tile--span3">
       <div class="tile__val">{overall_rate}%</div>
       <div class="tile__lbl">Overall contact rate</div>
-      <div class="tile__sub">{total} / {TOTAL_INVITEES:,} invitees</div>
+      <div class="tile__sub">{total} end-user requests / {TOTAL_INVITEES:,} invitees</div>
     </div>
     <div class="tile tile--span3 tile--warn">
       <div class="tile__val">{aht_median}</div>
@@ -1917,8 +1922,8 @@ def main():
 
     print("Fetching Zendesk tickets…", file=sys.stderr)
     creds = load_creds()
-    auth, sub, tickets = fetch_tickets(creds)
-    print(f"  {len(tickets)} tickets after exclusions", file=sys.stderr)
+    auth, sub, tickets, raw_total = fetch_tickets(creds)
+    print(f"  {len(tickets)} tickets after exclusions ({raw_total} raw from brand_id query)", file=sys.stderr)
 
     print("Fetching AHT metrics…", file=sys.stderr)
     aht_mins, frt_mins, aht_by_id = fetch_aht(auth, sub, tickets)
@@ -1941,7 +1946,7 @@ def main():
     csat_all = fetch_csat_stats(auth, sub)
     print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated)", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id)
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total)
     html = render(data)
 
     out = Path(args.out)
