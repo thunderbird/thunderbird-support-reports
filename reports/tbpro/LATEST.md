@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-25
 
-_Updated: **2026-06-25 14:56 ET** · refreshes hourly_  
+_Updated: **2026-06-25 15:46 ET** · refreshes hourly_  
 _24h window: 2026-06-24T16:00 → 2026-06-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 4** of rollout — **6,500 invitees**, **29 tickets** so far (
 
 ## At a glance
 
-- **5** new tickets in last 24h · **13** solved in last 24h
+- **5** new tickets in last 24h · **15** solved in last 24h
 - **29** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 5
-- **Median AHT**: 32.1h · mean 31.2h (proxy: updated_at − created_at, 18 solved tickets)
+- **Median AHT**: 31.9h · mean 31.0h (proxy: updated_at − created_at, 19 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -32,14 +32,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 18
+- **solved**: 19
 - **pending**: 9
-- **open**: 2
+- **hold**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 14
-- **Thundermail**: 11
+- **Thundermail**: 12
 - **Appointment**: 2
 - **Send**: 1
 
@@ -51,16 +51,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 3
 - **blocked** + **investigated**: 3
 - **request** + **redirected**: 3
+- **blocked** + **explained**: 2
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
-- **blocked** + **explained**: 1
 - **confused** + **explained**: 1
 
 ## Tickets in last 24h — by theme
 
 ### Account creation / signup confusion — 2 tickets
 
-- **[#6411](https://tbpro.zendesk.com/agent/tickets/6411)** · can't auth to [domain] with new account on Thunderbird app
+- **[#6411](https://tbpro.zendesk.com/agent/tickets/6411)** · can't auth to [domain] with new account on Thunderbird app — why: **blocked** · how: **explained**
   > Hello, I just now signed up for thundermail. Username [email] I'm on MacOS and using Thunderbird 152.0 (aarch64). As I setup a new account and it opens a window to do auth, the…
 - **[#6401](https://tbpro.zendesk.com/agent/tickets/6401)** · Outgoing messages with custom domain not being signed with DKIM
   > I signed up for Thundermail on Tuesday morning and added my custom ([domain]) domain with all the requested DNS records, which fully passes verification. I'm using the newer…
@@ -84,9 +84,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6396](https://tbpro.zendesk.com/agent/tickets/6396) · [pending] · 2026-06-24T20:25 · Delivering incoming mail to global inbox
 - [6400](https://tbpro.zendesk.com/agent/tickets/6400) · [pending] · 2026-06-25T00:58 · I'm trying to pay for [domain] and it says something went wrong
-- [6401](https://tbpro.zendesk.com/agent/tickets/6401) · [open] · 2026-06-25T01:11 · Outgoing messages with custom domain not being signed with DKIM
+- [6401](https://tbpro.zendesk.com/agent/tickets/6401) · [hold] · 2026-06-25T01:11 · Outgoing messages with custom domain not being signed with DKIM
 - [6402](https://tbpro.zendesk.com/agent/tickets/6402) · [solved] · 2026-06-25T05:16 · Pricing
-- [6411](https://tbpro.zendesk.com/agent/tickets/6411) · [open] · 2026-06-25T15:48 · can't auth to [domain] with new account on Thunderbird app
+- [6411](https://tbpro.zendesk.com/agent/tickets/6411) · [solved] · 2026-06-25T15:48 · can't auth to [domain] with new account on Thunderbird app
 
 ## Solved — last 24h
 
@@ -103,6 +103,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6380](https://tbpro.zendesk.com/agent/tickets/6380) · 2026-06-25T17:01 · why early access with expensive price?
 - · [6377](https://tbpro.zendesk.com/agent/tickets/6377) · 2026-06-25T17:01 · Account activation 
 - · [6388](https://tbpro.zendesk.com/agent/tickets/6388) · 2026-06-25T17:34 · Thundermail
+- · [6390](https://tbpro.zendesk.com/agent/tickets/6390) · 2026-06-25T19:02 · Close Account
+- · [6411](https://tbpro.zendesk.com/agent/tickets/6411) · 2026-06-25T19:38 · can't auth to [domain] with new account on Thunderbird app
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
