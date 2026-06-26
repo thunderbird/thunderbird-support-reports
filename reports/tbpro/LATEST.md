@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-26
 
-_Updated: **2026-06-26 11:58 ET** · refreshes hourly_  
+_Updated: **2026-06-26 12:51 ET** · refreshes hourly_  
 _24h window: 2026-06-25T16:00 → 2026-06-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 5** of rollout — **6,500 invitees**, **29 tickets** so far (
 
 ## At a glance
 
-- **0** new tickets in last 24h · **2** solved in last 24h
+- **0** new tickets in last 24h · **3** solved in last 24h
 - **29** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 7 · **since launch**: 12
-- **Median AHT**: 34.2h · mean 33.6h (proxy: updated_at − created_at, 19 solved tickets)
+- **Median AHT**: 36.0h · mean 34.9h (proxy: updated_at − created_at, 19 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -82,6 +82,7 @@ _(none)_
 
 - · [6391](https://tbpro.zendesk.com/agent/tickets/6391) · 2026-06-26T14:01 · Thunderbird desktop (Ubuntu) setup problem
 - · [6402](https://tbpro.zendesk.com/agent/tickets/6402) · 2026-06-26T15:27 · Pricing
+- · [6378](https://tbpro.zendesk.com/agent/tickets/6378) · 2026-06-26T16:01 · Delete account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
