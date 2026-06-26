@@ -226,9 +226,9 @@ def fetch_idea_comments(posts):
     """Fetch customer-authored comments from all posts that have comments.
     Returns list of comment dicts with created_at timestamps (staff excluded)."""
     comments = []
-    for p in posts:
-        if not p.get("comments_count", 0):
-            continue
+    raw_total = 0
+    posts_with_comments = [p for p in posts if p.get("comments_count", 0)]
+    for p in posts_with_comments:
         try:
             proc = subprocess.run(
                 ["featureos-cli", "comments", "list",
@@ -240,13 +240,17 @@ def fetch_idea_comments(posts):
             if idx < 0:
                 continue
             data = json.loads(out[idx:])
-            for c in data.get("comments", []):
+            post_comments = data.get("comments", [])
+            raw_total += len(post_comments)
+            for c in post_comments:
                 # Exclude known staff roles; accept "customer" or absent (CI token may omit role)
                 role = (c.get("author") or {}).get("role") or ""
                 if role not in ("member", "admin", "moderator"):
                     comments.append(c)
         except Exception as e:
             print(f"WARN: comments fetch failed for post {p['id']}: {e}", file=sys.stderr)
+    # Debug: show raw vs filtered count so CI auth issues are visible
+    print(f"  {len(comments)} customer comments ({raw_total} raw) across {len(posts_with_comments)} posts", file=sys.stderr)
     return comments
 
 
@@ -1994,7 +1998,6 @@ def main():
 
     print("Fetching FeatureOS idea comments (customer only)…", file=sys.stderr)
     idea_comments = fetch_idea_comments(ideas_all)
-    print(f"  {len(idea_comments)} customer comments across {sum(1 for p in ideas_all if p.get('comments_count',0))} posts", file=sys.stderr)
 
     print("Fetching GitHub issue links…", file=sys.stderr)
     gh_links = github_zendesk_links()
