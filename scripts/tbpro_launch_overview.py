@@ -283,7 +283,7 @@ STATIC_BLOCKERS = [
             "tb.pro displays a hardcoded static price, but Paddle uses localized pricing. "
             "Subscribers outside the US/EU see one price on the marketing site and a different "
             "price at checkout — leading to abandoned conversions and refund requests at scale. "
-            "Surfaced via r/ThunderbirdPro."
+            'Surfaced via <a href="https://www.reddit.com/r/ThunderbirdPro/comments/1udn04b/comment/otvup3p/" target="_blank">r/ThunderbirdPro</a>.'
         ),
         "static_gh_links": [
             {"url": "https://github.com/thunderbird/thunderbird-website/issues/1253",
