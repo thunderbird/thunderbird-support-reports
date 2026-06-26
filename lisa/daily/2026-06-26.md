@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-26
 
-_Updated: **2026-06-26 18:37 ET** · refreshes hourly_  
+_Updated: **2026-06-26 19:35 ET** · refreshes hourly_  
 _24h window: 2026-06-25T16:00 → 2026-06-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -40,8 +40,8 @@ _(none in last 24h)_
   > What you’d like to seePresort ‘promotional’ and ‘social’ emails into separate tabs (like gmail does)Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an…
 - [Sync Custom Message Filters through Thundermail account.](https://ideas.tb.pro/p/sync-custom-message-filters-through-thundermail-account) · 1 votes · _untagged_
   > Ability to sync my mail filter msgFilterRules.dat file inside Thundermail.Would like to keep all my Thundermail message rules and filters accross future webmal, mobile and Thunderbird applications.…
-- [Family olan](https://ideas.tb.pro/p/family-olan) · 1 votes · _Thundermail, Appointment, Accounts & Subscriptions_
-  > What you’d like to seeI would love to see a famuly olan to bundle 5+ accounts to share a custom domainWhy it mattersShare a custom domain with family and save moneyYour use caseMy family 5 persons…
+- [Family plan](https://ideas.tb.pro/p/family-plan) · 1 votes · _Thundermail, Appointment, Accounts & Subscriptions_
+  > What you’d like to seeI would love to see a famuly plan to bundle 5+ accounts to share a custom domainWhy it mattersShare a custom domain with family and save moneyYour use caseMy family 5 persons…
 
 ## Status breakdown (cumulative)
 
