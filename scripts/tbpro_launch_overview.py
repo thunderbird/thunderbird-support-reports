@@ -227,8 +227,9 @@ def fetch_idea_comments(posts):
     Returns list of comment dicts with created_at timestamps (staff excluded)."""
     comments = []
     raw_total = 0
+    auth_failures = 0
     posts_with_comments = [p for p in posts if p.get("comments_count", 0)]
-    for i, p in enumerate(posts_with_comments):
+    for p in posts_with_comments:
         try:
             proc = subprocess.run(
                 ["featureos-cli", "comments", "list",
@@ -236,23 +237,24 @@ def fetch_idea_comments(posts):
                 capture_output=True, text=True)
             raw = proc.stdout or proc.stderr or ""
             out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", raw).strip()
-            # First post: dump raw output to stderr for CI debugging
-            if i == 0:
-                print(f"  DEBUG post {p['id']} raw output: {out[:200]!r}", file=sys.stderr)
             idx = out.find("{")
             if idx < 0:
                 continue
             data = json.loads(out[idx:])
+            if not data.get("success", True) and data.get("status") == 401:
+                auth_failures += 1
+                continue
             post_comments = data.get("comments", [])
             raw_total += len(post_comments)
             for c in post_comments:
-                # Exclude known staff roles; accept "customer" or absent (CI token may omit role)
+                # Exclude known staff roles; accept "customer" or absent
                 role = (c.get("author") or {}).get("role") or ""
                 if role not in ("member", "admin", "moderator"):
                     comments.append(c)
         except Exception as e:
             print(f"WARN: comments fetch failed for post {p['id']}: {e}", file=sys.stderr)
-    # Debug: show raw vs filtered count so CI auth issues are visible
+    if auth_failures > 0:
+        print(f"  WARN: {auth_failures}/{len(posts_with_comments)} posts returned 401 — FEATUREOS_JWT secret needs refreshing in GitHub repo settings", file=sys.stderr)
     print(f"  {len(comments)} customer comments ({raw_total} raw) across {len(posts_with_comments)} posts", file=sys.stderr)
     return comments
 
