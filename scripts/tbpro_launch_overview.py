@@ -271,9 +271,26 @@ MONITORING_FIXED = {
 }
 
 # Manual blockers — not backed by a Zendesk problem ticket.
+# "recommended": True → shown as pre-scale fix (amber), not a hard block.
 # Add static_gh_links when GitHub links are available:
 #   {"url": "https://github.com/...", "repo": "owner/repo", "number": "123"}
-STATIC_BLOCKERS = []
+STATIC_BLOCKERS = [
+    {
+        "manual": True,
+        "recommended": True,
+        "subject": "Pricing page shows wrong price for many countries",
+        "description": (
+            "tb.pro displays a hardcoded static price, but Paddle uses localized pricing. "
+            "Subscribers outside the US/EU see one price on the marketing site and a different "
+            "price at checkout — leading to abandoned conversions and refund requests at scale. "
+            "Surfaced via r/ThunderbirdPro."
+        ),
+        "static_gh_links": [
+            {"url": "https://github.com/thunderbird/thunderbird-website/issues/1253",
+             "repo": "thunderbird/thunderbird-website", "number": "1253"}
+        ],
+    }
+]
 
 
 def fetch_blockers(auth, sub):
@@ -732,13 +749,16 @@ def render(data):
     status_chips = ""
     alert_panels = ""
     active_blockers = [b for b in data.get("blockers", []) if b.get("status") not in ("solved", "closed")]
-    has_monitoring = any(MONITORING_FIXED.get(b.get("id")) for b in active_blockers)
-    has_block      = any(not MONITORING_FIXED.get(b.get("id")) for b in active_blockers)
+    has_monitoring   = any(MONITORING_FIXED.get(b.get("id")) for b in active_blockers if not b.get("recommended"))
+    has_block        = any(not MONITORING_FIXED.get(b.get("id")) and not b.get("recommended") for b in active_blockers)
+    has_recommended  = any(b.get("recommended") for b in active_blockers)
 
     if has_monitoring:
         status_chips += '<span class="chip chip--warn"><span class="chip__dot"></span> Monitoring</span>\n'
     if has_block:
         status_chips += '<span class="chip chip--warn"><span class="chip__dot"></span> Active block</span>\n'
+    if has_recommended:
+        status_chips += '<span class="chip chip--info"><span class="chip__dot"></span> Pre-scale fix needed</span>\n'
     if csat_launch.get("n", 0) and int((csat_launch.get("pct") or "0").rstrip("%")) >= 80:
         status_chips += f'<span class="chip chip--ok"><span class="chip__dot"></span> CSAT {csat_launch["pct"]}</span>\n'
 
@@ -753,13 +773,30 @@ def render(data):
             f'<a href="{i["url"]}" target="_blank">{i["repo"].split("/")[1]}#{i["number"]}</a>'
             for i in all_gh
         )
-        if b.get("manual"):
+        if b.get("recommended"):
+            head_html = f'{b["subject"]}'
+            if gh_refs:
+                head_html += f' · {gh_refs}'
+            desc = b.get("description", "")
+            sub_html = f'<div class="alert-panel__sub">{desc}</div>' if desc else ""
+            alert_panels += f"""<div class="alert-panel alert-panel--recommended" role="status">
+  <div class="alert-panel__label">Pre-scale fix</div>
+  <div class="alert-panel__head">{head_html}</div>
+  {sub_html}
+</div>
+"""
+        elif b.get("manual"):
             head_html = f'{b["subject"]}'
             if gh_refs:
                 head_html += f' · {gh_refs}'
             else:
                 head_html += ' <span class="alert-panel__meta">— GitHub links pending</span>'
             sub_html = ""
+            alert_panels += f"""<div class="alert-panel" role="status">
+  <div class="alert-panel__head">{head_html}</div>
+  {sub_html}
+</div>
+"""
         else:
             zd_url  = b.get("url", f"https://{sub}.zendesk.com/agent/tickets/{b['id']}")
             head_html = f'Known problem <a href="{zd_url}" target="_blank">#{b["id"]}</a>'
@@ -773,8 +810,7 @@ def render(data):
                 for i in b.get("open_incidents", [])
             ) if b.get("open_incidents") else "<em>problem ticket still open — monitoring for new incidents</em>"
             sub_html = f'<div class="alert-panel__sub">{n_open} open incident(s): {inc_links}</div>'
-
-        alert_panels += f"""<div class="alert-panel" role="status">
+            alert_panels += f"""<div class="alert-panel" role="status">
   <div class="alert-panel__head">{head_html}</div>
   {sub_html}
 </div>
@@ -789,7 +825,16 @@ def render(data):
             *(gh_links.get(iid, []) for iid in b.get("all_incident_ids", [])),
             b.get("static_gh_links", []),
         ] for i in issues}.values())
-        if b.get("manual"):
+        if b.get("recommended"):
+            rail_lbl = "Fix needed"
+            issue_label = b["subject"]
+            refs_html = " ".join(
+                f'<a href="{i["url"]}" target="_blank">{i["repo"].split("/")[1]}#{i["number"]}</a>'
+                for i in all_gh
+            )
+            note_html = ""
+        elif b.get("manual"):
+            rail_lbl = "Watching"
             issue_label = b["subject"]
             refs_html = " ".join(
                 f'<a href="{i["url"]}" target="_blank">{i["repo"].split("/")[1]}#{i["number"]}</a>'
@@ -797,6 +842,7 @@ def render(data):
             )
             note_html = ""
         else:
+            rail_lbl = "Watching"
             zd_url = b.get("url", f"https://{sub}.zendesk.com/agent/tickets/{b['id']}")
             issue_label = b.get("subject", f"Problem #{b['id']}")[:60]
             refs_parts = [f'<a href="{zd_url}" target="_blank">#{b["id"]}</a>']
@@ -808,7 +854,7 @@ def render(data):
             n_open = len(b.get("open_incidents", []))
             note_html = f'<div class="rail-watch__note">{n_open} new incidents — problem ticket still open</div>'
         rail_watch_html += f"""<div class="rail-watch">
-  <div class="rail-watch__lbl">Watching</div>
+  <div class="rail-watch__lbl">{rail_lbl}</div>
   <div class="rail-watch__issue">{issue_label}</div>
   <div class="rail-watch__refs">{refs_html}</div>
   {note_html}
@@ -1236,13 +1282,19 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .chip{{display:inline-flex;align-items:center;gap:var(--space-8);padding:var(--space-8) var(--space-12);border-radius:999px;font-size:.75rem;font-weight:600}}
 .chip--warn{{background:var(--color-warning-soft);border:1px solid var(--color-warning);color:var(--color-warning)}}
 .chip--ok{{background:var(--color-success-soft);border:1px solid var(--color-success);color:var(--color-success)}}
+.chip--info{{background:#eff6ff;border:1px solid #3b82f6;color:#1d4ed8}}
 .chip__dot{{width:7px;height:7px;border-radius:50%;background:currentColor;flex-shrink:0}}
 .alert-panel{{
   flex:1 1 100%;background:var(--color-warning-soft);
   border:1px solid var(--color-warning);border-radius:var(--radius-md);
   padding:var(--space-12) var(--space-16);font-size:.84rem;line-height:1.6;
 }}
+.alert-panel--recommended{{background:#eff6ff;border-color:#3b82f6}}
+.alert-panel__label{{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#1d4ed8;margin-bottom:var(--space-4)}}
 .alert-panel__head{{font-weight:700;color:var(--color-warning);margin-bottom:var(--space-4)}}
+.alert-panel--recommended .alert-panel__head{{color:#1d4ed8}}
+.alert-panel--recommended .alert-panel__head a{{color:#1d4ed8}}
+.alert-panel--recommended .alert-panel__sub{{color:#1e40af}}
 .alert-panel__head a{{color:var(--color-warning)}}
 .alert-panel__sub{{color:var(--color-warning-text);font-size:.8rem}}
 .alert-panel__meta{{font-weight:400;font-size:.78rem;color:var(--color-warning-text)}}
