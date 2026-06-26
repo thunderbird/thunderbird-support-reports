@@ -228,7 +228,7 @@ def fetch_idea_comments(posts):
     comments = []
     raw_total = 0
     posts_with_comments = [p for p in posts if p.get("comments_count", 0)]
-    for p in posts_with_comments:
+    for i, p in enumerate(posts_with_comments):
         try:
             proc = subprocess.run(
                 ["featureos-cli", "comments", "list",
@@ -236,6 +236,9 @@ def fetch_idea_comments(posts):
                 capture_output=True, text=True)
             raw = proc.stdout or proc.stderr or ""
             out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", raw).strip()
+            # First post: dump raw output to stderr for CI debugging
+            if i == 0:
+                print(f"  DEBUG post {p['id']} raw output: {out[:200]!r}", file=sys.stderr)
             idx = out.find("{")
             if idx < 0:
                 continue
