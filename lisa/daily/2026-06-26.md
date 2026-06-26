@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-26
 
-_Updated: **2026-06-26 03:34 ET** · refreshes hourly_  
+_Updated: **2026-06-26 05:20 ET** · refreshes hourly_  
 _24h window: 2026-06-25T16:00 → 2026-06-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 5** of rollout — **6,500 invitees**, **29 tickets** so far (
 - **29** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 5 · **since launch**: 10
+- **New FeatureOS ideas (24h)**: 6 · **since launch**: 11
 - **Median AHT**: 31.9h · mean 31.0h (proxy: updated_at − created_at, 19 solved tickets)
 
 ## Negative CSAT (since launch)
@@ -26,8 +26,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 5 new:
+**Last 24h** — 6 new:
 
+- [Implementazione Codice "app.Procedures.Cloud"](https://ideas.tb.pro/p/implementazione-codice-app-procedures-cloud) · 1 votes · _untagged_
+  > I would like to be contacted by a Thundermail developer to discuss the possibility of transferring my PHP code for app.procedures.cloud, so that the application's features can be implemented in…
 - [Enable JMAP even if Thunderbird does not support it yet.](https://ideas.tb.pro/p/enable-jmap-even-if-thunderbird-does-not-support-it-yet) · 1 votes · _Thundermail, Improvement_
   > I have been trying to login to Thundermail with several JMAP clients, but I cannot access it. Since Stalwart, used in the backend, supports JMAP, could you please enable JMAP support, even if…
 - [Keep it simple](https://ideas.tb.pro/p/keep-it-simple) · 1 votes · _untagged_
