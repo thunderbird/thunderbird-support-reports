@@ -222,6 +222,32 @@ def fetch_ideas():
     return filtered, filtered[:10]
 
 
+def fetch_idea_comments(posts):
+    """Fetch customer-authored comments from all posts that have comments.
+    Returns list of comment dicts with created_at timestamps (staff excluded)."""
+    comments = []
+    for p in posts:
+        if not p.get("comments_count", 0):
+            continue
+        try:
+            proc = subprocess.run(
+                ["featureos-cli", "comments", "list",
+                 "--query", f"feature_request_id={p['id']}", "--json"],
+                capture_output=True, text=True)
+            raw = proc.stdout or proc.stderr or ""
+            out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", raw).strip()
+            idx = out.find("{")
+            if idx < 0:
+                continue
+            data = json.loads(out[idx:])
+            for c in data.get("comments", []):
+                if (c.get("author") or {}).get("role") == "customer":
+                    comments.append(c)
+        except Exception as e:
+            print(f"WARN: comments fetch failed for post {p['id']}: {e}", file=sys.stderr)
+    return comments
+
+
 # ── Active blockers ──────────────────────────────────────────────────────────
 
 # Problems tracked in daily report but NOT shown as blockers on launch overview
@@ -313,7 +339,7 @@ def _weekly_csat(tickets):
     return result
 
 
-def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None, raw_total=None):
+def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None, raw_total=None, idea_comments=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -346,14 +372,35 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         ws = (dd - dt.timedelta(days=dd.weekday())).isoformat()
         by_week[ws] += count
 
+    # Ideas and customer comments indexed by date for per-wave attribution
+    idea_by_date  = defaultdict(int)
+    for p in (ideas_all or []):
+        d = (p.get("created_at") or "")[:10]
+        if d >= LAUNCH_DATE:
+            idea_by_date[d] += 1
+    comment_by_date = defaultdict(int)
+    for c in (idea_comments or []):
+        d = (c.get("created_at") or "")[:10]
+        if d >= LAUNCH_DATE:
+            comment_by_date[d] += 1
+
     # Contact rate + CSAT by wave
     wave_stats = []
     for w in WAVES:
-        wt   = [t for t in tickets if w["date"] <= t["created_at"][:10] <= w["end"]]
+        wt       = [t for t in tickets if w["date"] <= t["created_at"][:10] <= w["end"]]
+        w_ideas  = sum(idea_by_date[d] for d in idea_by_date if w["date"] <= d <= w["end"])
+        w_coms   = sum(comment_by_date[d] for d in comment_by_date if w["date"] <= d <= w["end"])
+        combined = len(wt) + w_ideas + w_coms
         good = sum(1 for t in wt if (t.get("satisfaction_rating") or {}).get("score") == "good")
         bad  = sum(1 for t in wt if (t.get("satisfaction_rating") or {}).get("score") == "bad")
         n    = good + bad
-        wave_stats.append({**w, "tickets": len(wt), "rate": round(len(wt)/w["invites"]*100, 1),
+        wave_stats.append({**w,
+                           "tickets": len(wt),
+                           "ideas": w_ideas,
+                           "idea_comments": w_coms,
+                           "combined": combined,
+                           "rate": round(combined / w["invites"] * 100, 1),
+                           "tickets_rate": round(len(wt) / w["invites"] * 100, 1),
                            "csat_pct": f"{good/n*100:.0f}%" if n else "—",
                            "csat_n": n})
 
@@ -468,6 +515,9 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "cumulative": cumulative, "cum_contact": cum_contact,
         "weekly": dict(sorted(by_week.items())),
         "total": len(tickets),
+        "total_ideas": sum(idea_by_date.values()),
+        "total_idea_comments": sum(comment_by_date.values()),
+        "total_combined": len(tickets) + sum(idea_by_date.values()) + sum(comment_by_date.values()),
         "wave_stats": wave_stats,
         "aht": aht_data, "frt": frt_data,
         "avg_rate": avg_rate, "surge_pct": surge_pct,
@@ -653,7 +703,10 @@ def render(data):
     gh_links = data.get("gh_links", {})
 
     # ── derived stats ──────────────────────────────────────────────────────
-    overall_rate  = round(total / TOTAL_INVITEES * 100, 1)
+    total_combined  = data.get("total_combined", total)
+    total_ideas     = data.get("total_ideas", 0)
+    total_idea_coms = data.get("total_idea_comments", 0)
+    overall_rate    = round(total_combined / TOTAL_INVITEES * 100, 1)
     aht_median    = f"{aht.get('median_h','—')}h" if aht else "—"
     frt_median    = f"{frt.get('median_h','—')}h" if frt else "—"
     csat_launch   = data.get("csat_launch", {})
@@ -762,13 +815,17 @@ def render(data):
         csat     = w.get("csat_pct", "—")
         csat_n   = w.get("csat_n", 0)
         csat_note = f'<span class="wave-note">{csat_n} rated</span>' if csat_n else '<span class="wave-note">no ratings yet</span>'
+        ideas    = w.get("ideas", 0)
+        coms     = w.get("idea_comments", 0)
+        combined = w.get("combined", w["tickets"])
+        breakdown = f'<span class="wave-note">{w["tickets"]} tickets · {ideas} ideas · {coms} comments</span>'
         wave_rows += (
             f'<tr>'
             f'<td class="wave-swatch" style="background:{color}"></td>'
             f'<td>{w["label"]}{note_html}</td>'
             f'<td style="color:var(--color-text-secondary)">{w["date"]}</td>'
             f'<td class="num">{w["invites"]:,}</td>'
-            f'<td class="num">{w["tickets"]}</td>'
+            f'<td class="num">{combined}<br>{breakdown}</td>'
             f'<td class="num {rate_cls}">{rate}%</td>'
             f'<td class="num">{csat}{csat_note}</td>'
             f'</tr>\n'
@@ -776,7 +833,7 @@ def render(data):
     timeline_html = (
         '<table class="tbl wave-tbl"><thead><tr>'
         '<th></th><th>Wave</th><th>Date</th>'
-        '<th class="num">Invites</th><th class="num">Tickets</th>'
+        '<th class="num">Invites</th><th class="num">Contacts</th>'
         '<th class="num">Contact rate</th><th class="num">CSAT</th>'
         f'</tr></thead><tbody>{wave_rows}</tbody></table>'
     )
@@ -1416,7 +1473,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="hero">
     <div class="hero__eyebrow">Early Bird May 4 → {data["today"]} · {TOTAL_INVITEES:,} invitees · Generated {gen}</div>
     <h1 class="hero__headline">Flights 2+3 combined: <em>{avg_rate}%</em> contact rate — active baseline for staffing.</h1>
-    <p class="hero__meta">{total} end-user requests across all waves · <span>Excludes merged/internal tickets; Zendesk Explore may show ~{raw_total} total created</span></p>
+    <p class="hero__meta">{total_combined} contacts across all waves ({total} tickets · {total_ideas} ideas · {total_idea_coms} comments) · <span>Zendesk Explore may show ~{raw_total} total created tickets</span></p>
   </div>
 
   <div class="bento">
@@ -1438,7 +1495,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="tile tile--span3">
       <div class="tile__val">{overall_rate}%</div>
       <div class="tile__lbl">Overall contact rate</div>
-      <div class="tile__sub">{total} end-user requests / {TOTAL_INVITEES:,} invitees</div>
+      <div class="tile__sub">{total_combined} contacts / {TOTAL_INVITEES:,} invitees · tickets + ideas + comments</div>
     </div>
     <div class="tile tile--span3 tile--warn">
       <div class="tile__val">{aht_median}</div>
@@ -1652,7 +1709,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="glossary">
     <details><summary>AHT (Average Handle Time)</summary><div class="glossary__body">Calendar time from ticket creation to resolution (Solved status). Median is used rather than mean to reduce outlier impact. Based on {aht_n} solved tickets.</div></details>
     <details><summary>First Reply Time</summary><div class="glossary__body">Time from ticket creation to the agent's first response. Reported in calendar hours.</div></details>
-    <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who opened a support ticket. Calculated as: tickets ÷ invitees in that wave. A lower contact rate indicates a smoother onboarding experience.</div></details>
+    <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who made contact across any channel. Calculated as: (support tickets + FeatureOS idea submissions + customer comments on ideas) ÷ invitees in that wave. Staff/team comments are excluded. A lower rate indicates a smoother onboarding experience.</div></details>
     <details><summary>Day-2 Peak</summary><div class="glossary__body">Historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</div></details>
     <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect subscriber support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2+3: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the Flights 2+3 baseline.</div></details>
     <details><summary>Cumulative contact rate</summary><div class="glossary__body">Running total of tickets divided by total invitees sent at that point in time. Drops sharply when a large new invite wave goes out (more invitees, same tickets).</div></details>
@@ -1933,6 +1990,10 @@ def main():
     ideas_all, ideas_top10 = fetch_ideas()
     print(f"  {len(ideas_all)} total ideas (excl. off-topic), top 10 in table", file=sys.stderr)
 
+    print("Fetching FeatureOS idea comments (customer only)…", file=sys.stderr)
+    idea_comments = fetch_idea_comments(ideas_all)
+    print(f"  {len(idea_comments)} customer comments across {sum(1 for p in ideas_all if p.get('comments_count',0))} posts", file=sys.stderr)
+
     print("Fetching GitHub issue links…", file=sys.stderr)
     gh_links = github_zendesk_links()
     print(f"  {sum(len(v) for v in gh_links.values())} GitHub links across {len(gh_links)} tickets", file=sys.stderr)
@@ -1946,7 +2007,7 @@ def main():
     csat_all = fetch_csat_stats(auth, sub)
     print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated)", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total)
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total, idea_comments=idea_comments)
     html = render(data)
 
     out = Path(args.out)
