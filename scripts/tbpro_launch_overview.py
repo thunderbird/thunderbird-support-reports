@@ -241,7 +241,9 @@ def fetch_idea_comments(posts):
                 continue
             data = json.loads(out[idx:])
             for c in data.get("comments", []):
-                if (c.get("author") or {}).get("role") == "customer":
+                # Exclude known staff roles; accept "customer" or absent (CI token may omit role)
+                role = (c.get("author") or {}).get("role") or ""
+                if role not in ("member", "admin", "moderator"):
                     comments.append(c)
         except Exception as e:
             print(f"WARN: comments fetch failed for post {p['id']}: {e}", file=sys.stderr)
