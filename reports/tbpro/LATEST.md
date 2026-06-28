@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-28
 
-_Updated: **2026-06-28 13:36 ET** · refreshes hourly_  
+_Updated: **2026-06-28 14:36 ET** · refreshes hourly_  
 _24h window: 2026-06-27T16:00 → 2026-06-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 7** of rollout — **6,500 invitees**, **31 tickets** so far (
 
 ## At a glance
 
-- **1** new tickets in last 24h · **2** solved in last 24h
+- **1** new tickets in last 24h · **3** solved in last 24h
 - **31** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 12
-- **Median AHT**: 42.6h · mean 45.6h (proxy: updated_at − created_at, 21 solved tickets)
+- **Median AHT**: 42.6h · mean 49.0h (proxy: updated_at − created_at, 22 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -32,10 +32,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 21
-- **pending**: 5
-- **hold**: 3
-- **open**: 2
+- **solved**: 22
+- **pending**: 4
+- **open**: 3
+- **hold**: 2
 
 ## Service (cumulative)
 
@@ -49,9 +49,9 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 10
+- **request** + **redirected**: 3
 - **change request** + **actioned**: 3
 - **blocked** + **investigated**: 3
-- **request** + **redirected**: 3
 - **blocked** + **explained**: 2
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
@@ -72,6 +72,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6350](https://tbpro.zendesk.com/agent/tickets/6350) · 2026-06-28T00:01 · mac thunderbird pro extension
 - · [6349](https://tbpro.zendesk.com/agent/tickets/6349) · 2026-06-28T01:01 · Send upload fails
+- · [6364](https://tbpro.zendesk.com/agent/tickets/6364) · 2026-06-28T18:01 · primary email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
