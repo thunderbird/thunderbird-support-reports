@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-29
 
-_Updated: **2026-06-29 13:11 ET** · refreshes hourly_  
+_Updated: **2026-06-29 14:53 ET** · refreshes hourly_  
 _24h window: 2026-06-28T16:00 → 2026-06-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 8** of rollout — **6,500 invitees**, **32 tickets** so far (
 
 ## At a glance
 
-- **1** new tickets in last 24h · **1** solved in last 24h
+- **1** new tickets in last 24h · **2** solved in last 24h
 - **32** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 12
-- **Median AHT**: 42.7h · mean 52.2h (proxy: updated_at − created_at, 23 solved tickets)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 11
+- **Median AHT**: 42.9h · mean 56.0h (proxy: updated_at − created_at, 24 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -22,7 +22,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [pending] · _Cancel subscription_
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · _Cancel subscription_
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or part of that amount to the credit card…
 
 ## New ideas on FeatureOS
@@ -33,9 +33,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 23
-- **pending**: 7
-- **open**: 1
+- **solved**: 24
+- **pending**: 5
+- **open**: 2
 - **hold**: 1
 
 ## Service (cumulative)
@@ -51,8 +51,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 11
 - **blocked** + **investigated**: 4
-- **request** + **redirected**: 3
 - **change request** + **actioned**: 3
+- **request** + **redirected**: 3
 - **confused** + **explained**: 2
 - **blocked** + **explained**: 2
 - **request** + **actioned**: 1
@@ -67,11 +67,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [pending] · 2026-06-29T01:11 · Cancel subscription
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · 2026-06-29T01:11 · Cancel subscription
 
 ## Solved — last 24h
 
 - · [6366](https://tbpro.zendesk.com/agent/tickets/6366) · 2026-06-28T20:01 · Family plan planed?
+- · [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-06-29T18:13 · Cannot Add Second Calendar to Thundermail Pro Account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
