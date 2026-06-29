@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-29
 
-_Updated: **2026-06-29 16:46 ET** · refreshes hourly_  
+_Updated: **2026-06-29 17:41 ET** · refreshes hourly_  
 _24h window: 2026-06-28T16:00 → 2026-06-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -40,8 +40,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 24
-- **open**: 7
-- **pending**: 5
+- **open**: 6
+- **pending**: 6
 - **hold**: 2
 
 ## Service (cumulative)
@@ -55,7 +55,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 12
+- **curious** + **explained**: 13
 - **blocked** + **investigated**: 4
 - **request** + **redirected**: 4
 - **change request** + **actioned**: 3
@@ -66,10 +66,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing / monthly plan / free tier — 2 tickets
+### Pricing — annual-only inquiry — 2 tickets
 
-- **[#6490](https://tbpro.zendesk.com/agent/tickets/6490)** · monthly subscription
+- **[#6486](https://tbpro.zendesk.com/agent/tickets/6486)** · Annual payment instead of monthly payment — why: **curious** · how: **explained**
+  > Could you tell me why there is no option to pay monthly, only annually?
+- **[#6490](https://tbpro.zendesk.com/agent/tickets/6490)** · monthly subscription — why: **curious** · how: **explained**
   > Is there any way for me to pay for the plan on a monthly basis? The full annual amount would be too heavy a burden for me.
+
+### Pricing / monthly plan / free tier — 1 tickets
+
 - **[#6489](https://tbpro.zendesk.com/agent/tickets/6489)** · Monthly subscription
   > I can't afford to pay for a whole year right now (and it also costs more than my current email host Fastmail). Would you be able to offer monthly subscriptions? I would like to…
 
@@ -77,11 +82,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6487](https://tbpro.zendesk.com/agent/tickets/6487)** · Subscription fee is a really bad idea
   > I'm not going to pay you $72 to test alpha software that I have never seen.
-
-### Pricing — annual-only inquiry — 1 tickets
-
-- **[#6486](https://tbpro.zendesk.com/agent/tickets/6486)** · Annual payment instead of monthly payment — why: **curious** · how: **explained**
-  > Could you tell me why there is no option to pay monthly, only annually?
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -100,7 +100,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6487](https://tbpro.zendesk.com/agent/tickets/6487) · [open] · 2026-06-29T19:26 · Subscription fee is a really bad idea
 - [6488](https://tbpro.zendesk.com/agent/tickets/6488) · [pending] · 2026-06-29T19:33 · Multiple Inboxes
 - [6489](https://tbpro.zendesk.com/agent/tickets/6489) · [open] · 2026-06-29T19:34 · Monthly subscription
-- [6490](https://tbpro.zendesk.com/agent/tickets/6490) · [open] · 2026-06-29T19:55 · monthly subscription
+- [6490](https://tbpro.zendesk.com/agent/tickets/6490) · [pending] · 2026-06-29T19:55 · monthly subscription
 
 ## Solved — last 24h
 
