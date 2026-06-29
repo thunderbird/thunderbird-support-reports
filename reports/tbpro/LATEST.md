@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-29
 
-_Updated: **2026-06-29 17:41 ET** · refreshes hourly_  
+_Updated: **2026-06-29 18:33 ET** · refreshes hourly_  
 _24h window: 2026-06-28T16:00 → 2026-06-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 8** of rollout — **6,500 invitees**, **38 tickets** so far (
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 11
-- **Median AHT**: 42.9h · mean 56.0h (proxy: updated_at − created_at, 24 solved tickets)
+- **Median AHT**: 42.7h · mean 53.9h (proxy: updated_at − created_at, 25 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -28,7 +28,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · _Cancel subscription_
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [pending] · _Cancel subscription_
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or part of that amount to the credit card…
 
 ## New ideas on FeatureOS
@@ -39,9 +39,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 24
-- **open**: 6
-- **pending**: 6
+- **solved**: 25
+- **pending**: 7
+- **open**: 4
 - **hold**: 2
 
 ## Service (cumulative)
@@ -56,8 +56,8 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 13
-- **blocked** + **investigated**: 4
 - **request** + **redirected**: 4
+- **blocked** + **investigated**: 4
 - **change request** + **actioned**: 3
 - **confused** + **explained**: 2
 - **blocked** + **explained**: 2
@@ -65,13 +65,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
-
-### Pricing — annual-only inquiry — 2 tickets
-
-- **[#6486](https://tbpro.zendesk.com/agent/tickets/6486)** · Annual payment instead of monthly payment — why: **curious** · how: **explained**
-  > Could you tell me why there is no option to pay monthly, only annually?
-- **[#6490](https://tbpro.zendesk.com/agent/tickets/6490)** · monthly subscription — why: **curious** · how: **explained**
-  > Is there any way for me to pay for the plan on a monthly basis? The full annual amount would be too heavy a burden for me.
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -83,20 +76,30 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6487](https://tbpro.zendesk.com/agent/tickets/6487)** · Subscription fee is a really bad idea
   > I'm not going to pay you $72 to test alpha software that I have never seen.
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Pricing — annual-only inquiry — 1 tickets
 
-- **[#6468](https://tbpro.zendesk.com/agent/tickets/6468)** · Cancel subscription — why: **blocked** · how: **investigated**
-  > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or…
+- **[#6490](https://tbpro.zendesk.com/agent/tickets/6490)** · monthly subscription — why: **curious** · how: **explained**
+  > Is there any way for me to pay for the plan on a monthly basis? The full annual amount would be too heavy a burden for me.
 
 ### Request or complaint — 1 tickets
 
 - **[#6488](https://tbpro.zendesk.com/agent/tickets/6488)** · Multiple Inboxes — why: **request** · how: **redirected**
   > I am looking to manage multiple accounts under the same custom domain, how can I make that happen, and what would the pricing be?
 
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#6486](https://tbpro.zendesk.com/agent/tickets/6486)** · Annual payment instead of monthly payment — why: **curious** · how: **explained**
+  > Could you tell me why there is no option to pay monthly, only annually?
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6468](https://tbpro.zendesk.com/agent/tickets/6468)** · Cancel subscription — why: **blocked** · how: **investigated**
+  > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or…
+
 ## New tickets — last 24h
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · 2026-06-29T01:11 · Cancel subscription
-- [6486](https://tbpro.zendesk.com/agent/tickets/6486) · [open] · 2026-06-29T19:16 · Annual payment instead of monthly payment
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [pending] · 2026-06-29T01:11 · Cancel subscription
+- [6486](https://tbpro.zendesk.com/agent/tickets/6486) · [solved] · 2026-06-29T19:16 · Annual payment instead of monthly payment
 - [6487](https://tbpro.zendesk.com/agent/tickets/6487) · [open] · 2026-06-29T19:26 · Subscription fee is a really bad idea
 - [6488](https://tbpro.zendesk.com/agent/tickets/6488) · [pending] · 2026-06-29T19:33 · Multiple Inboxes
 - [6489](https://tbpro.zendesk.com/agent/tickets/6489) · [open] · 2026-06-29T19:34 · Monthly subscription
