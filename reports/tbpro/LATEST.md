@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-06-29
 
-_Updated: **2026-06-29 15:46 ET** · refreshes hourly_  
+_Updated: **2026-06-29 16:46 ET** · refreshes hourly_  
 _24h window: 2026-06-28T16:00 → 2026-06-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 8** of rollout — **6,500 invitees**, **36 tickets** so far (0.6% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
+Flight 3 is **day 8** of rollout — **6,500 invitees**, **38 tickets** so far (0.6% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **2** solved in last 24h
-- **36** tickets total since launch · contact rate **1%** of 6500 invitees
+- **6** new tickets in last 24h · **2** solved in last 24h
+- **38** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 11
 - **Median AHT**: 42.9h · mean 56.0h (proxy: updated_at − created_at, 24 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"monthly subscription"** — 2 tickets in 24h (new; baseline 0 cum) — [#6489](https://tbpro.zendesk.com/agent/tickets/6489), [#6490](https://tbpro.zendesk.com/agent/tickets/6490)
 
 ## Negative CSAT (since launch)
 
@@ -34,14 +40,13 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 24
-- **open**: 5
-- **pending**: 4
+- **open**: 7
+- **pending**: 5
 - **hold**: 2
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 17
+- **Account Hub**: 19
 - **Thundermail**: 14
 - **Appointment**: 3
 - **Send**: 1
@@ -52,8 +57,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 12
 - **blocked** + **investigated**: 4
+- **request** + **redirected**: 4
 - **change request** + **actioned**: 3
-- **request** + **redirected**: 3
 - **confused** + **explained**: 2
 - **blocked** + **explained**: 2
 - **request** + **actioned**: 1
@@ -63,10 +68,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Pricing / monthly plan / free tier — 2 tickets
 
+- **[#6490](https://tbpro.zendesk.com/agent/tickets/6490)** · monthly subscription
+  > Is there any way for me to pay for the plan on a monthly basis? The full annual amount would be too heavy a burden for me.
 - **[#6489](https://tbpro.zendesk.com/agent/tickets/6489)** · Monthly subscription
   > I can't afford to pay for a whole year right now (and it also costs more than my current email host Fastmail). Would you be able to offer monthly subscriptions? I would like to…
-- **[#6488](https://tbpro.zendesk.com/agent/tickets/6488)** · Multiple Inboxes
-  > I am looking to manage multiple accounts under the same custom domain, how can I make that happen, and what would the pricing be?
 
 ### Other / uncategorized — 1 tickets
 
@@ -83,13 +88,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6468](https://tbpro.zendesk.com/agent/tickets/6468)** · Cancel subscription — why: **blocked** · how: **investigated**
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or…
 
+### Request or complaint — 1 tickets
+
+- **[#6488](https://tbpro.zendesk.com/agent/tickets/6488)** · Multiple Inboxes — why: **request** · how: **redirected**
+  > I am looking to manage multiple accounts under the same custom domain, how can I make that happen, and what would the pricing be?
+
 ## New tickets — last 24h
 
 - [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · 2026-06-29T01:11 · Cancel subscription
 - [6486](https://tbpro.zendesk.com/agent/tickets/6486) · [open] · 2026-06-29T19:16 · Annual payment instead of monthly payment
 - [6487](https://tbpro.zendesk.com/agent/tickets/6487) · [open] · 2026-06-29T19:26 · Subscription fee is a really bad idea
-- [6488](https://tbpro.zendesk.com/agent/tickets/6488) · [open] · 2026-06-29T19:33 · Multiple Inboxes
-- [6489](https://tbpro.zendesk.com/agent/tickets/6489) · [new] · 2026-06-29T19:34 · Monthly subscription
+- [6488](https://tbpro.zendesk.com/agent/tickets/6488) · [pending] · 2026-06-29T19:33 · Multiple Inboxes
+- [6489](https://tbpro.zendesk.com/agent/tickets/6489) · [open] · 2026-06-29T19:34 · Monthly subscription
+- [6490](https://tbpro.zendesk.com/agent/tickets/6490) · [open] · 2026-06-29T19:55 · monthly subscription
 
 ## Solved — last 24h
 
