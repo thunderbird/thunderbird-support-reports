@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-06-29
 
-_Updated: **2026-06-29 07:49 ET** · refreshes hourly_  
+_Updated: **2026-06-29 09:45 ET** · refreshes hourly_  
 _24h window: 2026-06-28T16:00 → 2026-06-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 8** of rollout — **6,500 invitees**, **33 tickets** so far (0.5% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
+Flight 3 is **day 8** of rollout — **6,500 invitees**, **32 tickets** so far (0.5% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
-- **33** tickets total since launch · contact rate **1%** of 6500 invitees
+- **1** new tickets in last 24h · **1** solved in last 24h
+- **32** tickets total since launch · contact rate **0%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 12
@@ -22,7 +22,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [new] · _Cancel subscription_
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · _Cancel subscription_
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or part of that amount to the credit card…
 
 ## New ideas on FeatureOS
@@ -34,9 +34,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 23
-- **open**: 4
+- **open**: 5
 - **pending**: 3
-- **new**: 2
 - **hold**: 1
 
 ## Service (cumulative)
@@ -66,15 +65,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6468](https://tbpro.zendesk.com/agent/tickets/6468)** · Cancel subscription
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or…
 
-### Other / uncategorized — 1 tickets
-
-- **[#6466](https://tbpro.zendesk.com/agent/tickets/6466)** · タスク割り当てのご連絡
-  > 業務連絡のご案内 Mozilla 今後の業務運営および社内連携のさらなる円滑化を図るため、業務連絡を（LINE）に移行することといたしました。 つきましては、皆様のLine個人アカウントのQRコードを、本メールへの返信にてお送りくださいますようお願い申し上げます。…
-
 ## New tickets — last 24h
 
-- [6466](https://tbpro.zendesk.com/agent/tickets/6466) · [new] · 2026-06-28T23:47 · タスク割り当てのご連絡
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [new] · 2026-06-29T01:11 · Cancel subscription
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · 2026-06-29T01:11 · Cancel subscription
 
 ## Solved — last 24h
 
