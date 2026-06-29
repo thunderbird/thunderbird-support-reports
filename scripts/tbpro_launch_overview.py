@@ -270,20 +270,24 @@ MONITORING_FIXED = {
     6126: "fix deployed June 9",
 }
 
-# Manual blockers — not backed by a Zendesk problem ticket.
-# "recommended": True → shown as pre-scale fix (amber), not a hard block.
+# Manual items — not backed by a Zendesk problem ticket.
+# "watch": True → shown as an evidence-led "pre-scale watch" item (info/blue), NOT a blocker.
+#   The dashboard quantifies the supporting signal (pricing-related tickets/ideas/comments)
+#   so the case builds from data over successive waves rather than from assertion.
 # Add static_gh_links when GitHub links are available:
 #   {"url": "https://github.com/...", "repo": "owner/repo", "number": "123"}
 STATIC_BLOCKERS = [
     {
         "manual": True,
-        "recommended": True,
-        "subject": "Pricing page shows wrong price for many countries",
+        "watch": True,
+        "subject": "Localized pricing mismatch — resolve before scaling",
         "description": (
-            "tb.pro displays a hardcoded static price, but Paddle uses localized pricing. "
-            "Subscribers outside the US/EU see one price on the marketing site and a different "
-            "price at checkout — leading to abandoned conversions and refund requests at scale. "
-            'Surfaced via <a href="https://www.reddit.com/r/ThunderbirdPro/comments/1udn04b/comment/otvup3p/" target="_blank">r/ThunderbirdPro</a>.'
+            "Not a wave blocker, but a pre-scale risk worth resolving early. tb.pro shows a hardcoded "
+            "price while Paddle charges localized pricing, so subscribers outside the US/EU can see one "
+            "price on the marketing site and a different price at checkout. The cost is small at current "
+            "wave sizes but compounds as invite volume and non-US share grow — abandoned conversions and "
+            "refund requests. Leading hypothesis behind the pricing signal tracked below; surfaced via "
+            '<a href="https://www.reddit.com/r/ThunderbirdPro/comments/1udn04b/comment/otvup3p/" target="_blank">r/ThunderbirdPro</a>.'
         ),
         "static_gh_links": [
             {"url": "https://github.com/thunderbird/thunderbird-website/issues/1253",
@@ -291,6 +295,14 @@ STATIC_BLOCKERS = [
         ],
     }
 ]
+
+# Keyword signal used to quantify the pricing-localization watch item (build() scans
+# ticket subjects, idea titles, and idea comments). Deliberately scoped to pricing/billing
+# language so the count is a defensible proxy, not every mention of "cost".
+PRICING_SIGNAL_RE = re.compile(
+    r'pric|currency|paddle|checkout|\bvat\b|exchange rate|too expensive|expensive|'
+    r'wrong (price|amount|currency|charge)|charged .*(more|wrong|differ)|local(ized)? pric',
+    re.I)
 
 
 def fetch_blockers(auth, sub):
@@ -411,6 +423,17 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         d = (c.get("created_at") or "")[:10]
         if d >= LAUNCH_DATE:
             comment_by_date[d] += 1
+
+    # Pre-scale pricing watch — quantify the localized-pricing signal across channels
+    p_tickets = sum(1 for t in tickets if PRICING_SIGNAL_RE.search(t.get("subject", "") or ""))
+    p_ideas = sum(1 for p in (ideas_all or []) if PRICING_SIGNAL_RE.search(p.get("title", "") or ""))
+    p_comments = 0
+    for c in (idea_comments or []):
+        body = c.get("body") or c.get("comment") or c.get("content") or ""
+        if PRICING_SIGNAL_RE.search(body):
+            p_comments += 1
+    pricing_signal = {"tickets": p_tickets, "ideas": p_ideas,
+                      "comments": p_comments, "total": p_tickets + p_ideas + p_comments}
 
     # Contact rate + CSAT by wave
     wave_stats = []
@@ -565,6 +588,7 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "theme_aht": theme_aht_data,
         "aht_weekly": aht_weekly_data,
         "raw_total": raw_total if raw_total is not None else len(tickets),
+        "pricing_signal": pricing_signal,
     }
 
 
@@ -749,16 +773,16 @@ def render(data):
     status_chips = ""
     alert_panels = ""
     active_blockers = [b for b in data.get("blockers", []) if b.get("status") not in ("solved", "closed")]
-    has_monitoring   = any(MONITORING_FIXED.get(b.get("id")) for b in active_blockers if not b.get("recommended"))
-    has_block        = any(not MONITORING_FIXED.get(b.get("id")) and not b.get("recommended") for b in active_blockers)
-    has_recommended  = any(b.get("recommended") for b in active_blockers)
+    has_monitoring   = any(MONITORING_FIXED.get(b.get("id")) for b in active_blockers if not b.get("watch"))
+    has_block        = any(not MONITORING_FIXED.get(b.get("id")) and not b.get("watch") for b in active_blockers)
+    has_watch        = any(b.get("watch") for b in active_blockers)
 
     if has_monitoring:
         status_chips += '<span class="chip chip--warn"><span class="chip__dot"></span> Monitoring</span>\n'
     if has_block:
         status_chips += '<span class="chip chip--warn"><span class="chip__dot"></span> Active block</span>\n'
-    if has_recommended:
-        status_chips += '<span class="chip chip--info"><span class="chip__dot"></span> Pre-scale fix needed</span>\n'
+    if has_watch:
+        status_chips += '<span class="chip chip--info"><span class="chip__dot"></span> Pre-scale watch</span>\n'
     if csat_launch.get("n", 0) and int((csat_launch.get("pct") or "0").rstrip("%")) >= 80:
         status_chips += f'<span class="chip chip--ok"><span class="chip__dot"></span> CSAT {csat_launch["pct"]}</span>\n'
 
@@ -773,14 +797,23 @@ def render(data):
             f'<a href="{i["url"]}" target="_blank">{i["repo"].split("/")[1]}#{i["number"]}</a>'
             for i in all_gh
         )
-        if b.get("recommended"):
+        if b.get("watch"):
             head_html = f'{b["subject"]}'
             if gh_refs:
                 head_html += f' · {gh_refs}'
             desc = b.get("description", "")
-            sub_html = f'<div class="alert-panel__sub">{desc}</div>' if desc else ""
-            alert_panels += f"""<div class="alert-panel alert-panel--recommended" role="status">
-  <div class="alert-panel__label">Pre-scale fix</div>
+            ps = data.get("pricing_signal") or {}
+            evid_html = ""
+            if ps:
+                evid_html = (
+                    '<div class="alert-panel__evidence">'
+                    f'<strong>{ps.get("total", 0)}</strong> pricing-related signals this launch · '
+                    f'{ps.get("tickets", 0)} tickets · {ps.get("ideas", 0)} ideas · {ps.get("comments", 0)} comments. '
+                    'Watch whether this grows as non-US invite share rises.'
+                    '</div>')
+            sub_html = (f'<div class="alert-panel__sub">{desc}</div>' if desc else "") + evid_html
+            alert_panels += f"""<div class="alert-panel alert-panel--watch" role="status">
+  <div class="alert-panel__label">Pre-scale watch · not blocking</div>
   <div class="alert-panel__head">{head_html}</div>
   {sub_html}
 </div>
@@ -825,8 +858,8 @@ def render(data):
             *(gh_links.get(iid, []) for iid in b.get("all_incident_ids", [])),
             b.get("static_gh_links", []),
         ] for i in issues}.values())
-        if b.get("recommended"):
-            rail_lbl = "Fix needed"
+        if b.get("watch"):
+            rail_lbl = "Watching"
             issue_label = b["subject"]
             refs_html = " ".join(
                 f'<a href="{i["url"]}" target="_blank">{i["repo"].split("/")[1]}#{i["number"]}</a>'
@@ -1289,12 +1322,16 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   border:1px solid var(--color-warning);border-radius:var(--radius-md);
   padding:var(--space-12) var(--space-16);font-size:.84rem;line-height:1.6;
 }}
-.alert-panel--recommended{{background:#eff6ff;border-color:#3b82f6}}
+/* Pre-scale watch — informational (blue), explicitly NOT a blocker */
+.alert-panel--watch{{background:#0e1726;border-color:#3b6fb5}}
 .alert-panel__label{{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#1d4ed8;margin-bottom:var(--space-4)}}
 .alert-panel__head{{font-weight:700;color:var(--color-warning);margin-bottom:var(--space-4)}}
-.alert-panel--recommended .alert-panel__head{{color:#1d4ed8}}
-.alert-panel--recommended .alert-panel__head a{{color:#1d4ed8}}
-.alert-panel--recommended .alert-panel__sub{{color:#1e40af}}
+.alert-panel--watch .alert-panel__label{{color:#7fb0ff}}
+.alert-panel--watch .alert-panel__head{{color:#cfe0ff}}
+.alert-panel--watch .alert-panel__head a{{color:#7fb0ff}}
+.alert-panel--watch .alert-panel__sub{{color:#9db4d6}}
+.alert-panel--watch .alert-panel__evidence{{margin-top:var(--space-8);padding:var(--space-8) var(--space-12);background:#0a1220;border:1px solid #24385a;border-radius:var(--radius-sm);font-size:.8rem;color:#cfe0ff}}
+.alert-panel--watch .alert-panel__evidence strong{{color:#7fb0ff;font-size:1.05em}}
 .alert-panel__head a{{color:var(--color-warning)}}
 .alert-panel__sub{{color:var(--color-warning-text);font-size:.8rem}}
 .alert-panel__meta{{font-weight:400;font-size:.78rem;color:var(--color-warning-text)}}
