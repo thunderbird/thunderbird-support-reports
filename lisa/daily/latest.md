@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-29
 
-_Updated: **2026-06-29 11:19 ET** · refreshes hourly_  
+_Updated: **2026-06-29 13:11 ET** · refreshes hourly_  
 _24h window: 2026-06-28T16:00 → 2026-06-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -22,7 +22,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · _Cancel subscription_
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [pending] · _Cancel subscription_
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or part of that amount to the credit card…
 
 ## New ideas on FeatureOS
@@ -34,8 +34,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 23
-- **open**: 5
-- **pending**: 3
+- **pending**: 7
+- **open**: 1
 - **hold**: 1
 
 ## Service (cumulative)
@@ -49,25 +49,25 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 10
+- **curious** + **explained**: 11
+- **blocked** + **investigated**: 4
 - **request** + **redirected**: 3
 - **change request** + **actioned**: 3
-- **blocked** + **investigated**: 3
+- **confused** + **explained**: 2
 - **blocked** + **explained**: 2
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
-- **confused** + **explained**: 1
 
 ## Tickets in last 24h — by theme
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#6468](https://tbpro.zendesk.com/agent/tickets/6468)** · Cancel subscription
+- **[#6468](https://tbpro.zendesk.com/agent/tickets/6468)** · Cancel subscription — why: **blocked** · how: **investigated**
   > The Thundermail app opens and then hangs on my MacBook Pro M1 running OS26 (Tahoe). I paid for a year's subscription on 6/22/2026. I would appreciate it if you would credit all or…
 
 ## New tickets — last 24h
 
-- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [open] · 2026-06-29T01:11 · Cancel subscription
+- [6468](https://tbpro.zendesk.com/agent/tickets/6468) · [pending] · 2026-06-29T01:11 · Cancel subscription
 
 ## Solved — last 24h
 
