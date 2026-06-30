@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 15:45 ET** · refreshes hourly_  
+_Updated: **2026-06-30 16:48 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 9** of rollout — **6,500 invitees**, **49 tickets** so far (0.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 9** of rollout — **6,500 invitees**, **50 tickets** so far (0.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **7** solved in last 24h
-- **49** tickets total since launch · contact rate **1%** of 6500 invitees
+- **13** new tickets in last 24h · **7** solved in last 24h
+- **50** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 14
@@ -26,7 +26,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 1 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [hold] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30 · _Custom Domain DKIM not working_
 
 ## Negative CSAT (since launch)
 
@@ -41,7 +41,7 @@ _No negative ratings since launch._
 
 **Last 24h** — 3 new:
 
-- [Online Accounts Feature](https://ideas.tb.pro/p/online-accounts-feature) · 1 votes · _untagged_
+- [Online Accounts Feature](https://ideas.tb.pro/p/online-accounts-feature) · 1 votes · _Thundermail, Community_
   > This is incredible for Linux Mint users, if for example this feature will be added, It can be really convinient for connecting and synchronize my account to another device, or if i do an error on the…
 - [Pricing questions](https://ideas.tb.pro/p/pricing-questions) · 1 votes · _Accounts & Subscriptions_
   > What you’d like to seeI’d like to either see A) lower pricing (especially for early bird) or B) more featuresWhy it mattersCurrently I pay around $70-80 a year for proton unlimited, that includes:…
@@ -52,13 +52,13 @@ _No negative ratings since launch._
 
 - **solved**: 30
 - **pending**: 9
-- **open**: 5
-- **hold**: 5
+- **open**: 7
+- **hold**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 23
-- **Thundermail**: 21
+- **Thundermail**: 22
 - **Appointment**: 3
 - **Send**: 1
 
@@ -67,8 +67,8 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 15
-- **request** + **redirected**: 5
 - **blocked** + **explained**: 5
+- **request** + **redirected**: 5
 - **blocked** + **investigated**: 5
 - **change request** + **actioned**: 3
 - **confused** + **explained**: 2
@@ -76,6 +76,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
+
+### Account creation / signup confusion — 2 tickets
+
+- **[#6520](https://tbpro.zendesk.com/agent/tickets/6520)** · Signup Issue
+  > Just signed up but still no email with logon instructions.
+- **[#6509](https://tbpro.zendesk.com/agent/tickets/6509)** · Beta Signup
+  > I got my email that I’ve been invited but I can’t figure out how to actually log in or complete signup.
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
@@ -86,20 +93,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain DNS — 2 tickets
 
-- **[#6512](https://tbpro.zendesk.com/agent/tickets/6512)** · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed — why: **blocked** · how: **explained**
-  > Copied from https://github.com/thunderbird/thunderbird-accounts/pull/1023 ## Problem Outbound mail from **verified custom domains** in Thundermail is sent **without a DKIM…
 - **[#6496](https://tbpro.zendesk.com/agent/tickets/6496)** · Custom Domain DKIM not working — why: **blocked** · how: **explained**
   > Hello, after configuring my custom domain [domain] and testing messages with popular providers (so far I have tried Gmail, Yahoo, and iCloud), it appears messages sent from my…
+- **[#6512](https://tbpro.zendesk.com/agent/tickets/6512)** · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed — why: **blocked** · how: **explained**
+  > Copied from https://github.com/thunderbird/thunderbird-accounts/pull/1023 ## Problem Outbound mail from **verified custom domains** in Thundermail is sent **without a DKIM…
 
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#6519](https://tbpro.zendesk.com/agent/tickets/6519)** · [domain] email address
   > Hi guys I've received my early bird invite to Thundermail, and it says I can choose either an @thundermail or @[domain] email address - but I only see the option for a…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#6509](https://tbpro.zendesk.com/agent/tickets/6509)** · Beta Signup
-  > I got my email that I’ve been invited but I can’t figure out how to actually log in or complete signup.
 
 ### Email migration / import — 1 tickets
 
@@ -134,7 +136,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6492](https://tbpro.zendesk.com/agent/tickets/6492) · [hold] · 2026-06-29T23:45 · Can’t Login
-- [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [hold] · 2026-06-30T02:14 · Custom Domain DKIM not working
+- [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30T02:14 · Custom Domain DKIM not working
 - [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [pending] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
 - [6502](https://tbpro.zendesk.com/agent/tickets/6502) · [pending] · 2026-06-30T10:21 · regarding thundermail pro
 - [6503](https://tbpro.zendesk.com/agent/tickets/6503) · [open] · 2026-06-30T12:19 · Contact form
@@ -145,6 +147,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6515](https://tbpro.zendesk.com/agent/tickets/6515) · [pending] · 2026-06-30T18:32 · SRV syntax error on Gandi custom domain
 - [6517](https://tbpro.zendesk.com/agent/tickets/6517) · [pending] · 2026-06-30T19:07 · Mobile Server Sync Problem
 - [6519](https://tbpro.zendesk.com/agent/tickets/6519) · [open] · 2026-06-30T19:33 · [domain] email address
+- [6520](https://tbpro.zendesk.com/agent/tickets/6520) · [open] · 2026-06-30T19:57 · Signup Issue
 
 ## Solved — last 24h
 
