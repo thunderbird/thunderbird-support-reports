@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 12:03 ET** · refreshes hourly_  
+_Updated: **2026-06-30 12:54 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 9** of rollout — **6,500 invitees**, **43 tickets** so far (0.7% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
+Flight 3 is **day 9** of rollout — **6,500 invitees**, **42 tickets** so far (0.6% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **3** solved in last 24h
-- **43** tickets total since launch · contact rate **1%** of 6500 invitees
+- **5** new tickets in last 24h · **3** solved in last 24h
+- **42** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 13
@@ -38,12 +38,12 @@ _No negative ratings since launch._
 
 - **solved**: 26
 - **pending**: 9
-- **open**: 6
+- **open**: 5
 - **hold**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 23
+- **Account Hub**: 22
 - **Thundermail**: 16
 - **Appointment**: 3
 - **Send**: 1
@@ -70,11 +70,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6498](https://tbpro.zendesk.com/agent/tickets/6498)** · Unable to send emails out from Thunderbird
   > Good evening. I am able to receive emails, and I can reply to emails, but when I try to send a new message out it does not seem to ever go. It sits in the Sent folder for a bit,…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6505](https://tbpro.zendesk.com/agent/tickets/6505)** · Billed for trial period
-  > Hello, I recently signed up for early bird access and was under the impression it was no cost for the first year, but I was charged $72 on 6/26/2026. If I misunderstood, I'd like…
-
 ### Email migration / import — 1 tickets
 
 - **[#6503](https://tbpro.zendesk.com/agent/tickets/6503)** · Contact form
@@ -97,7 +92,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [pending] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
 - [6502](https://tbpro.zendesk.com/agent/tickets/6502) · [open] · 2026-06-30T10:21 · regarding thundermail pro
 - [6503](https://tbpro.zendesk.com/agent/tickets/6503) · [open] · 2026-06-30T12:19 · Contact form
-- [6505](https://tbpro.zendesk.com/agent/tickets/6505) · [open] · 2026-06-30T13:26 · Billed for trial period
 
 ## Solved — last 24h
 
