@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 11:04 ET** · refreshes hourly_  
+_Updated: **2026-06-30 12:03 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 9** of rollout — **6,500 invitees**, **43 tickets** so far (
 - **43** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 12
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 13
 - **Median AHT**: 40.3h · mean 46.9h (proxy: updated_at − created_at, 26 solved tickets)
 
 ## Negative CSAT (since launch)
@@ -27,16 +27,18 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Pricing questions](https://ideas.tb.pro/p/pricing-questions) · 1 votes · _untagged_
+  > What you’d like to seeI’d like to either see A) lower pricing (especially for early bird) or B) more featuresWhy it mattersCurrently I pay around $70-80 a year for proton unlimited, that includes:…
 - [Sync notes and create a call feature VOIP. ](https://ideas.tb.pro/p/sync-notes-and-create-a-call-feature-voip) · 1 votes · _untagged_
   > What you’d like to seeA built-in note application like obsidian and voice calls VOIP for paid TB.Pro membersWhy it mattersI don’t have to pay obsidian (keep it in house). VOIP calls WebRTCYour use…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 26
-- **pending**: 10
-- **open**: 5
+- **pending**: 9
+- **open**: 6
 - **hold**: 2
 
 ## Service (cumulative)
@@ -90,7 +92,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6492](https://tbpro.zendesk.com/agent/tickets/6492) · [pending] · 2026-06-29T23:45 · Can’t Login
+- [6492](https://tbpro.zendesk.com/agent/tickets/6492) · [open] · 2026-06-29T23:45 · Can’t Login
 - [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30T02:14 · Custom Domain DKIM not working
 - [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [pending] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
 - [6502](https://tbpro.zendesk.com/agent/tickets/6502) · [open] · 2026-06-30T10:21 · regarding thundermail pro
