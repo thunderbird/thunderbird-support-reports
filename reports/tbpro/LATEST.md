@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 09:47 ET** · refreshes hourly_  
+_Updated: **2026-06-30 11:04 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 9** of rollout — **6,500 invitees**, **43 tickets** so far (
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 12
-- **Median AHT**: 42.6h · mean 50.5h (proxy: updated_at − created_at, 27 solved tickets)
+- **Median AHT**: 40.3h · mean 46.9h (proxy: updated_at − created_at, 26 solved tickets)
 
 ## Negative CSAT (since launch)
 
@@ -34,9 +34,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 27
+- **solved**: 26
 - **pending**: 10
-- **open**: 4
+- **open**: 5
 - **hold**: 2
 
 ## Service (cumulative)
@@ -91,8 +91,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6492](https://tbpro.zendesk.com/agent/tickets/6492) · [pending] · 2026-06-29T23:45 · Can’t Login
-- [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [pending] · 2026-06-30T02:14 · Custom Domain DKIM not working
-- [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [open] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
+- [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30T02:14 · Custom Domain DKIM not working
+- [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [pending] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
 - [6502](https://tbpro.zendesk.com/agent/tickets/6502) · [open] · 2026-06-30T10:21 · regarding thundermail pro
 - [6503](https://tbpro.zendesk.com/agent/tickets/6503) · [open] · 2026-06-30T12:19 · Contact form
 - [6505](https://tbpro.zendesk.com/agent/tickets/6505) · [open] · 2026-06-30T13:26 · Billed for trial period
