@@ -1,11 +1,11 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 07:13 ET** · refreshes hourly_  
+_Updated: **2026-06-30 08:56 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 9** of rollout — **6,500 invitees**, **44 tickets** so far (0.7% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
+Flight 3 is **day 9** of rollout — **6,500 invitees**, **44 tickets** so far (0.7% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
 
 ## At a glance
 
@@ -61,14 +61,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 2 tickets
 
 - **[#6502](https://tbpro.zendesk.com/agent/tickets/6502)** · regarding thundermail pro
   > hey guys, i would like to finalize my registration for thundermail pro, but i have one final, important question: will i be able to use thundermail pro as general cloud storage?…
 - **[#6498](https://tbpro.zendesk.com/agent/tickets/6498)** · Unable to send emails out from Thunderbird
   > Good evening. I am able to receive emails, and I can reply to emails, but when I try to send a new message out it does not seem to ever go. It sits in the Sent folder for a bit,…
-- **[#6491](https://tbpro.zendesk.com/agent/tickets/6491)** · hello this is a test
-  > if you can read this, i'm sorry for the support message. If you cannot read this then you're welcome! E2E tests are failing for contact form and this is a best.
+
+### Email migration / import — 1 tickets
+
+- **[#6503](https://tbpro.zendesk.com/agent/tickets/6503)** · Contact form
+  > Deletion of previous account with a username that was apparently too short. Email asked to mention Lisa and the code 5872
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -92,13 +95,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6491](https://tbpro.zendesk.com/agent/tickets/6491) · [open] · 2026-06-29T20:35 · hello this is a test
 - [6492](https://tbpro.zendesk.com/agent/tickets/6492) · [pending] · 2026-06-29T23:45 · Can’t Login
 - [6493](https://tbpro.zendesk.com/agent/tickets/6493) · [open] · 2026-06-30T01:46 · Refund
 - [6494](https://tbpro.zendesk.com/agent/tickets/6494) · [open] · 2026-06-30T01:52 · Fwd: Update Your Account
 - [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30T02:14 · Custom Domain DKIM not working
 - [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [open] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
 - [6502](https://tbpro.zendesk.com/agent/tickets/6502) · [open] · 2026-06-30T10:21 · regarding thundermail pro
+- [6503](https://tbpro.zendesk.com/agent/tickets/6503) · [open] · 2026-06-30T12:19 · Contact form
 
 ## Solved — last 24h
 
