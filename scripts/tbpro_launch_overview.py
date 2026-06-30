@@ -43,7 +43,23 @@ TAG_THEMES = [
     ("pro_service_send",                    "Send (add-on)"),
     ("pro_service_appointment",             "Appointment"),
 ]
-MANUAL_THEMES = {6055: "Account access issues"}
+MANUAL_THEMES = {
+    6055: "Account access issues",
+    6487: "Pricing",  # "Subscription fee is a really bad idea" — pricing objection, no price keyword to auto-match
+}
+
+# CSAT corrections — the survey score is stale because the bad-CSAT trigger isn't firing,
+# so some ratings never got re-surveyed after the issue was actually resolved.
+# Map ticket_id -> corrected effective score: "good" | "bad" | None (drop from CSAT).
+# Document WHY each correction exists — these change the published CSAT number, so the
+# justification must live in the ticket (resolution confirmed in the body).
+CSAT_OVERRIDES = {
+    5655: "good",  # DKIM resolved & customer confirmed in ticket body; survey not re-rated (trigger bug)
+}
+
+# Prior-period GitHub escalation rate (%) for the MoM arrow on the escalations tile.
+# Update each reporting cycle. Down = good (fewer tickets needing an engineering escalation).
+GH_ESCALATION_PRIOR = 13
 
 # Themes that should be grouped under a parent header in the dashboard.
 # Add new sub-themes here whenever a new tag or regex variant is introduced —
@@ -91,6 +107,15 @@ def classify_ticket(t):
     text = f"{t.get('subject','')}\n{t.get('description','')}"
     primary, _ = classify(text)
     return primary
+
+
+def csat_score(t):
+    """Effective CSAT score for a ticket, applying CSAT_OVERRIDES for stale ratings.
+    Returns "good", "bad", or None (no/dropped rating)."""
+    tid = int(t.get("id") or 0)
+    if tid in CSAT_OVERRIDES:
+        return CSAT_OVERRIDES[tid]
+    return (t.get("satisfaction_rating") or {}).get("score")
 
 LAUNCH_DATE = "2026-05-04"
 BRAND_ID = 38173138875795       # Zendesk brand ID for Thundermail (stable across renames)
@@ -301,7 +326,8 @@ STATIC_BLOCKERS = [
 # language so the count is a defensible proxy, not every mention of "cost".
 PRICING_SIGNAL_RE = re.compile(
     r'pric|currency|paddle|checkout|\bvat\b|exchange rate|too expensive|expensive|'
-    r'wrong (price|amount|currency|charge)|charged .*(more|wrong|differ)|local(ized)? pric',
+    r'wrong (price|amount|currency|charge)|charged .*(more|wrong|differ)|local(ized)? pric|'
+    r'subscription fee|\bfees?\b|paywall|free tier|monthly plan|annual (plan|fee|price)',
     re.I)
 
 
@@ -334,22 +360,32 @@ def fetch_blockers(auth, sub):
 
 # ── Build data ────────────────────────────────────────────────────────────────
 
-def fetch_csat_stats(auth, sub):
-    """Fetch accurate CSAT counts via dedicated Zendesk searches."""
-    import datetime as _dt
+def fetch_csat_stats(tickets):
+    """CSAT counts from each ticket's CURRENT satisfaction score (any status).
+
+    Counts good/bad from the live satisfaction_rating.score on the fetched ticket
+    objects rather than via Zendesk search. The search approach
+    (status:solved satisfaction:bad) undercounts because:
+      • a rating that flips good→bad reopens the ticket, so status:solved drops it
+        (e.g. #6082 — open, score "bad", but invisible to the solved-only search), and
+      • the satisfaction search index doesn't surface every rating (assessed_at unset).
+    The ticket object carries the live score, so this reflects rating changes and
+    reopened tickets correctly. Ratings other than good/bad (offered/unoffered) ignored."""
     F2_LAUNCH  = "2026-06-03"
     EB_LAUNCH  = LAUNCH_DATE
-    week_ago   = (_dt.date.today() - _dt.timedelta(days=7)).isoformat()
-
-    def _count(query):
-        q = urllib.parse.urlencode({"query": query, "per_page": 1})
-        d = zd_get(f"https://{sub}.zendesk.com/api/v2/search.json?{q}", auth)
-        return d.get("count", 0)
+    week_ago   = (dt.date.today() - dt.timedelta(days=7)).isoformat()
 
     def _stats(since):
-        g = _count(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:good created>={since}')
-        b = _count(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:bad created>={since}')
-        return {"good": g, "bad": b, "n": g+b, "pct": f"{g/(g+b)*100:.0f}%" if g+b else "—"}
+        g = b = 0
+        for t in tickets:
+            if (t.get("created_at") or "")[:10] < since:
+                continue
+            score = csat_score(t)
+            if score == "good":
+                g += 1
+            elif score == "bad":
+                b += 1
+        return {"good": g, "bad": b, "n": g + b, "pct": f"{g/(g+b)*100:.0f}%" if g + b else "—"}
 
     return {
         "eb":   _stats(EB_LAUNCH),
@@ -365,7 +401,7 @@ def _weekly_csat(tickets):
         d = dt.date.fromisoformat((t.get("created_at","")[:10]) or "2000-01-01")
         ws = (d - dt.timedelta(days=d.weekday())).isoformat()
         by_week[ws]["volume"] += 1
-        score = (t.get("satisfaction_rating") or {}).get("score")
+        score = csat_score(t)
         if score == "good": by_week[ws]["good"] += 1
         if score == "bad":  by_week[ws]["bad"]  += 1
     result = []
@@ -435,6 +471,21 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
     pricing_signal = {"tickets": p_tickets, "ideas": p_ideas,
                       "comments": p_comments, "total": p_tickets + p_ideas + p_comments}
 
+    # CSAT story — good vs bad grouped by ticket theme (PII-safe: counts + IDs, no comment text)
+    csat_good_themes = Counter()
+    csat_bad_themes = Counter()
+    csat_bad_tickets = []
+    for t in tickets:
+        sc = csat_score(t)
+        if sc not in ("good", "bad"):
+            continue
+        th = classify_ticket(t)
+        if sc == "good":
+            csat_good_themes[th] += 1
+        else:
+            csat_bad_themes[th] += 1
+            csat_bad_tickets.append({"id": int(t.get("id") or 0), "theme": th})
+
     # Contact rate + CSAT by wave
     wave_stats = []
     for w in WAVES:
@@ -442,8 +493,8 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         w_ideas  = sum(idea_by_date[d] for d in idea_by_date if w["date"] <= d <= w["end"])
         w_coms   = sum(comment_by_date[d] for d in comment_by_date if w["date"] <= d <= w["end"])
         combined = len(wt) + w_ideas + w_coms
-        good = sum(1 for t in wt if (t.get("satisfaction_rating") or {}).get("score") == "good")
-        bad  = sum(1 for t in wt if (t.get("satisfaction_rating") or {}).get("score") == "bad")
+        good = sum(1 for t in wt if csat_score(t) == "good")
+        bad  = sum(1 for t in wt if csat_score(t) == "bad")
         n    = good + bad
         wave_stats.append({**w,
                            "tickets": len(wt),
@@ -582,6 +633,10 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "gh_links":     gh_links or {},
         "csat_launch":  csat_launch,
         "csat_week":    csat_week,
+        "csat_good_themes": csat_good_themes.most_common(8),
+        "csat_bad_themes":  csat_bad_themes.most_common(),
+        "csat_bad_tickets": csat_bad_tickets,
+        "csat_corrections": sum(1 for t in tickets if int(t.get("id") or 0) in CSAT_OVERRIDES),
         "csat_weekly":  _weekly_csat([t for t in tickets if str(t.get("brand_id","")) == "38173138875795" and (t.get("created_at","") or "") >= "2026-06-03"]),
         "blockers": blockers or [],
         "today": today.isoformat(),
@@ -764,6 +819,59 @@ def render(data):
     csat_launch   = data.get("csat_launch", {})
     csat_week     = data.get("csat_week", {})
     gh_pct        = round(len(data["gh_tickets"]) / total * 100) if total else 0
+    # MoM escalation trend (down = good — fewer tickets needing engineering)
+    _gh_delta = gh_pct - GH_ESCALATION_PRIOR
+    if _gh_delta < 0:
+        gh_arrow = f'<span class="gh-delta gh-delta--down">↓ {abs(_gh_delta)} pts MoM (was {GH_ESCALATION_PRIOR}%)</span>'
+    elif _gh_delta > 0:
+        gh_arrow = f'<span class="gh-delta gh-delta--up">↑ {_gh_delta} pts MoM (was {GH_ESCALATION_PRIOR}%)</span>'
+    else:
+        gh_arrow = f'<span class="gh-delta">→ flat MoM (was {GH_ESCALATION_PRIOR}%)</span>'
+
+    # ── CSAT TL;DR — analyst-curated narrative (PII-safe), counts below auto-update ──
+    _story = {}
+    try:
+        _sp = Path(__file__).resolve().parent.parent / "data" / "tbpro_csat_story.json"
+        if _sp.exists():
+            _story = json.loads(_sp.read_text(encoding="utf-8"))
+    except Exception:
+        _story = {}
+    csat_tldr_html = ""
+    if _story.get("landing") or _story.get("not_landing"):
+        csat_tldr_html = f"""<div class="csat-tldr">
+    <div class="csat-tldr__label">CSAT TL;DR <span class="csat-tldr__date">analyst-reviewed {_story.get("updated","")}</span></div>
+    <p class="csat-tldr__line"><span class="csat-tldr__face">👍</span><span><strong>What people like —</strong> {_story.get("landing","")}</span></p>
+    <p class="csat-tldr__line"><span class="csat-tldr__face">👎</span><span><strong>What people hate —</strong> {_story.get("not_landing","")}</span></p>
+  </div>
+"""
+
+    # ── CSAT story: what's landing / what's not (theme breakdown, PII-safe) ──
+    _good_themes = data.get("csat_good_themes", [])
+    _bad_themes  = data.get("csat_bad_themes", [])
+    _bad_tix     = data.get("csat_bad_tickets", [])
+    _good_rows = "".join(f'<li><span class="csat-theme__n">{n}</span>{theme}</li>' for theme, n in _good_themes) \
+                 or '<li class="csat-theme__none">No ratings yet</li>'
+    _bad_rows = "".join(f'<li><span class="csat-theme__n">{n}</span>{theme}</li>' for theme, n in _bad_themes) \
+                or '<li class="csat-theme__none">No dissatisfied ratings</li>'
+    _bad_links = " · ".join(
+        f'<a href="https://{"tbpro"}.zendesk.com/agent/tickets/{b["id"]}" target="_blank">#{b["id"]}</a>'
+        for b in _bad_tix)
+    _csat_corr = data.get("csat_corrections", 0)
+    _corr_note = (f'<div class="csat-corr-note">{_csat_corr} rating corrected for documented resolution — '
+                  f'issue fixed and confirmed in the ticket, but the survey wasn\'t re-sent (CSAT trigger bug).</div>'
+                  if _csat_corr else "")
+    csat_story_html = csat_tldr_html + f"""<div class="csat-story">
+    <div class="csat-col csat-col--good">
+      <div class="csat-col__head"><span class="csat-col__face">👍</span> What's landing<span class="csat-col__tally">{csat_launch.get("good",0)} good</span></div>
+      <ul class="csat-theme-list">{_good_rows}</ul>
+    </div>
+    <div class="csat-col csat-col--bad">
+      <div class="csat-col__head"><span class="csat-col__face">👎</span> What's not<span class="csat-col__tally">{csat_launch.get("bad",0)} bad</span></div>
+      <ul class="csat-theme-list">{_bad_rows}</ul>
+      {f'<div class="csat-bad-tix">Read the bad-rated tickets: {_bad_links}</div>' if _bad_links else ""}
+    </div>
+  </div>
+  {_corr_note}"""
 
     # ── rail stats (sidebar quick-view) ───────────────────────────────────
     rail_csat_pct = csat_launch.get("pct", "—")
@@ -798,26 +906,8 @@ def render(data):
             for i in all_gh
         )
         if b.get("watch"):
-            head_html = f'{b["subject"]}'
-            if gh_refs:
-                head_html += f' · {gh_refs}'
-            desc = b.get("description", "")
-            ps = data.get("pricing_signal") or {}
-            evid_html = ""
-            if ps:
-                evid_html = (
-                    '<div class="alert-panel__evidence">'
-                    f'<strong>{ps.get("total", 0)}</strong> pricing-related signals this launch · '
-                    f'{ps.get("tickets", 0)} tickets · {ps.get("ideas", 0)} ideas · {ps.get("comments", 0)} comments. '
-                    'Watch whether this grows as non-US invite share rises.'
-                    '</div>')
-            sub_html = (f'<div class="alert-panel__sub">{desc}</div>' if desc else "") + evid_html
-            alert_panels += f"""<div class="alert-panel alert-panel--watch" role="status">
-  <div class="alert-panel__label">Pre-scale watch · not blocking</div>
-  <div class="alert-panel__head">{head_html}</div>
-  {sub_html}
-</div>
-"""
+            # No main-content panel — the watch item lives in the sidebar (rail) only.
+            continue
         elif b.get("manual"):
             head_html = f'{b["subject"]}'
             if gh_refs:
@@ -865,7 +955,9 @@ def render(data):
                 f'<a href="{i["url"]}" target="_blank">{i["repo"].split("/")[1]}#{i["number"]}</a>'
                 for i in all_gh
             )
-            note_html = ""
+            ps = data.get("pricing_signal") or {}
+            note_html = (f'<div class="rail-watch__note">{ps.get("total",0)} pricing signals · '
+                         f'{ps.get("tickets",0)}t · {ps.get("ideas",0)}i · {ps.get("comments",0)}c</div>') if ps else ""
         elif b.get("manual"):
             rail_lbl = "Watching"
             issue_label = b["subject"]
@@ -1335,6 +1427,37 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .alert-panel__head a{{color:var(--color-warning)}}
 .alert-panel__sub{{color:var(--color-warning-text);font-size:.8rem}}
 .alert-panel__meta{{font-weight:400;font-size:.78rem;color:var(--color-warning-text)}}
+/* CSAT TL;DR — analyst-curated narrative callout */
+.csat-tldr{{background:var(--color-primary-soft);border:1px solid var(--color-surface-border-strong);border-left:4px solid var(--color-primary);border-radius:var(--radius-md);padding:var(--space-16);margin-bottom:var(--space-12)}}
+.csat-tldr__label{{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:var(--space-12);display:flex;align-items:baseline;gap:var(--space-8)}}
+.csat-tldr__date{{font-weight:500;letter-spacing:0;text-transform:none;font-style:italic;color:var(--color-text-muted)}}
+.csat-tldr__line{{display:flex;gap:var(--space-12);font-size:.86rem;line-height:1.6;color:var(--color-text-secondary)}}
+.csat-tldr__line + .csat-tldr__line{{margin-top:var(--space-8)}}
+.csat-tldr__line strong{{color:var(--color-text-base)}}
+.csat-tldr__face{{font-size:1.05rem;flex-shrink:0}}
+/* CSAT story — what's landing / what's not (theme breakdown) */
+.csat-story{{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-12);margin-bottom:var(--space-24)}}
+@media(max-width:640px){{.csat-story{{grid-template-columns:1fr}}}}
+.csat-col{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}
+.csat-col--good{{border-top:3px solid var(--color-success)}}
+.csat-col--bad{{border-top:3px solid var(--color-critical)}}
+.csat-col__head{{display:flex;align-items:center;gap:var(--space-8);font-weight:700;font-size:.9rem;margin-bottom:var(--space-12)}}
+.csat-col__face{{font-size:1rem}}
+.csat-col__tally{{margin-left:auto;font-size:.72rem;font-weight:600;color:var(--color-text-muted)}}
+.csat-col--good .csat-col__tally{{color:var(--color-success)}}
+.csat-col--bad .csat-col__tally{{color:var(--color-critical)}}
+.csat-theme-list{{list-style:none;display:flex;flex-direction:column;gap:var(--space-4)}}
+.csat-theme-list li{{display:flex;align-items:center;gap:var(--space-8);font-size:.82rem;color:var(--color-text-secondary);padding:3px 0}}
+.csat-theme__n{{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:20px;padding:0 6px;border-radius:99px;background:var(--color-surface-overlay);border:1px solid var(--color-surface-border);font-size:.7rem;font-weight:700;font-variant-numeric:tabular-nums}}
+.csat-col--good .csat-theme__n{{color:var(--color-success)}}
+.csat-col--bad .csat-theme__n{{color:var(--color-critical)}}
+.csat-theme__none{{color:var(--color-text-muted);font-style:italic}}
+.csat-bad-tix{{margin-top:var(--space-12);padding-top:var(--space-8);border-top:1px solid var(--color-surface-border);font-size:.74rem;color:var(--color-text-muted)}}
+.csat-bad-tix a{{color:var(--color-critical)}}
+.csat-corr-note{{font-size:.72rem;color:var(--color-text-muted);font-style:italic;margin-bottom:var(--space-24);margin-top:calc(var(--space-24) * -1 + var(--space-4))}}
+.gh-delta{{font-size:.72rem;font-weight:600;vertical-align:middle;margin-left:6px;white-space:nowrap}}
+.gh-delta--down{{color:var(--color-success)}}
+.gh-delta--up{{color:var(--color-critical)}}
 .hero{{
   background:linear-gradient(135deg,var(--color-surface-raised) 0%,var(--color-surface-overlay) 100%);
   border:1px solid var(--color-surface-border);border-radius:var(--radius-lg);
@@ -1613,7 +1736,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
       <div class="tile__sub">excl. off-topic</div>
     </div>
     <div class="tile tile--span6">
-      <div class="tile__val">{gh_pct}%</div>
+      <div class="tile__val">{gh_pct}% {gh_arrow}</div>
       <div class="tile__lbl">GitHub escalations</div>
       <div class="tile__sub">{len(data["gh_tickets"])} of {total} tickets linked to a GitHub issue</div>
     </div>
@@ -1647,6 +1770,8 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
       <div class="chart-pane" id="pane-csat"><canvas id="csatChart"></canvas></div>
     </div>
   </div>
+
+  {csat_story_html}
 
   <div class="insight">
     <strong>Capacity projection — next flight</strong> — using Flights 2+3 {avg_rate}% contact rate, {round(surge*100,0):.0f}% of weekly tickets land on day 2.
@@ -1713,7 +1838,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
           {proj_rows}
         </tbody>
       </table>
-      <p class="panel__note">Projections use the Flights 2+3 combined {avg_rate}% average (all waves except Early Bird). <strong>Note:</strong> Flight 3 Wave 3 is only {f3w3_age} day{"s" if f3w3_age != 1 else ""} old — its rate will rise as tickets arrive over 7–14 days, which may shift the baseline slightly upward. Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}%) excluded — inflated by misdirected non-subscribers.</p>
+      <p class="panel__note">Projections use the Flights 2+3 combined {avg_rate}% average (all waves except Early Bird). <strong>Note:</strong> Flight 3 Wave 3 is only {f3w3_age} day{"s" if f3w3_age != 1 else ""} old — its rate will rise as tickets arrive over 7–14 days, which may shift the baseline slightly upward. Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}%) excluded — inflated by misdirected contacts.</p>
     </div>
     <div class="panel">
       <div class="panel__title">Contact rate by wave</div>
@@ -1734,24 +1859,24 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="panel">
     <div class="theme-block">
       <div class="theme-block__head">
-        <div class="theme-block__title">Subscriber themes · Flights 2 &amp; 3</div>
+        <div class="theme-block__title">Thundermail themes · Flights 2 &amp; 3</div>
         <div class="theme-block__meta">Jun 3+ · baseline for next flight</div>
       </div>
       <div class="themes">
         {f2_theme_html}
       </div>
-      <p class="panel__note">Flight 2 + Flight 3 subscriber tickets (excl. misdirects). Use this for staffing the next flight.</p>
+      <p class="panel__note">Flight 2 + Flight 3 on-topic Thundermail tickets from invited users (excl. misdirected). Use this for staffing the next flight.</p>
     </div>
 
     {misdirect_callout}
 
     <details class="theme-historical">
-      <summary>All launch · subscriber-only (excl. misdirected) — {all_sub_total} tickets since May 4</summary>
+      <summary>All launch · Thundermail tickets, invited users (excl. misdirected) — {all_sub_total} tickets since May 4</summary>
       <div class="theme-historical__body">
         <div class="themes">
           {all_sub_theme_html}
         </div>
-        <p class="panel__note" style="margin-top:var(--space-12)">Blends Early Bird subscriber work with Flights 2 &amp; 3 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flights 2 &amp; 3 above for staffing.</p>
+        <p class="panel__note" style="margin-top:var(--space-12)">Blends Early Bird Thundermail tickets with Flights 2 &amp; 3 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flights 2 &amp; 3 above for staffing.</p>
       </div>
     </details>
 
@@ -1761,7 +1886,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
         <div class="themes">
           {misdirect_theme_html}
         </div>
-        <p class="panel__note" style="margin-top:var(--space-12)">Pre-fix routing (May 4–Jun 2): desktop Thunderbird users and search traffic hit the Thundermail form. Team redirected each ticket and shipped routing fixes — not recurring subscriber demand.</p>
+        <p class="panel__note" style="margin-top:var(--space-12)">Pre-fix routing (May 4–Jun 2): desktop Thunderbird users and search traffic hit the Thundermail form. Team redirected each ticket and shipped routing fixes — not recurring Thundermail demand.</p>
       </div>
     </details>
   </div>
@@ -1811,7 +1936,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <details><summary>First Reply Time</summary><div class="glossary__body">Time from ticket creation to the agent's first response. Reported in calendar hours.</div></details>
     <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who made contact across any channel. Calculated as: (support tickets + FeatureOS idea submissions + customer comments on ideas) ÷ invitees in that wave. Staff/team comments are excluded. A lower rate indicates a smoother onboarding experience.</div></details>
     <details><summary>Day-2 Peak</summary><div class="glossary__body">Historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</div></details>
-    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect subscriber support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2+3: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the Flights 2+3 baseline.</div></details>
+    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect Thundermail support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2+3: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the Flights 2+3 baseline.</div></details>
     <details><summary>Cumulative contact rate</summary><div class="glossary__body">Running total of tickets divided by total invitees sent at that point in time. Drops sharply when a large new invite wave goes out (more invitees, same tickets).</div></details>
   </div>
 </section>
@@ -2102,9 +2227,9 @@ def main():
     active = sum(1 for b in blockers if b.get("status") not in ("solved", "closed"))
     print(f"  {active} active blocker(s) with open incidents", file=sys.stderr)
 
-    print("Fetching CSAT stats…", file=sys.stderr)
-    csat_all = fetch_csat_stats(auth, sub)
-    print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated)", file=sys.stderr)
+    print("Computing CSAT from live ticket scores…", file=sys.stderr)
+    csat_all = fetch_csat_stats(tickets)
+    print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated, {csat_all['eb']['bad']} bad)", file=sys.stderr)
 
     data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total, idea_comments=idea_comments)
     html = render(data)

@@ -144,6 +144,37 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 .alert-panel__head a{color:var(--color-warning)}
 .alert-panel__sub{color:var(--color-warning-text);font-size:.8rem}
 .alert-panel__meta{font-weight:400;font-size:.78rem;color:var(--color-warning-text)}
+/* CSAT TL;DR — analyst-curated narrative callout */
+.csat-tldr{background:var(--color-primary-soft);border:1px solid var(--color-surface-border-strong);border-left:4px solid var(--color-primary);border-radius:var(--radius-md);padding:var(--space-16);margin-bottom:var(--space-12)}
+.csat-tldr__label{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:var(--space-12);display:flex;align-items:baseline;gap:var(--space-8)}
+.csat-tldr__date{font-weight:500;letter-spacing:0;text-transform:none;font-style:italic;color:var(--color-text-muted)}
+.csat-tldr__line{display:flex;gap:var(--space-12);font-size:.86rem;line-height:1.6;color:var(--color-text-secondary)}
+.csat-tldr__line + .csat-tldr__line{margin-top:var(--space-8)}
+.csat-tldr__line strong{color:var(--color-text-base)}
+.csat-tldr__face{font-size:1.05rem;flex-shrink:0}
+/* CSAT story — what's landing / what's not (theme breakdown) */
+.csat-story{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-12);margin-bottom:var(--space-24)}
+@media(max-width:640px){.csat-story{grid-template-columns:1fr}}
+.csat-col{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}
+.csat-col--good{border-top:3px solid var(--color-success)}
+.csat-col--bad{border-top:3px solid var(--color-critical)}
+.csat-col__head{display:flex;align-items:center;gap:var(--space-8);font-weight:700;font-size:.9rem;margin-bottom:var(--space-12)}
+.csat-col__face{font-size:1rem}
+.csat-col__tally{margin-left:auto;font-size:.72rem;font-weight:600;color:var(--color-text-muted)}
+.csat-col--good .csat-col__tally{color:var(--color-success)}
+.csat-col--bad .csat-col__tally{color:var(--color-critical)}
+.csat-theme-list{list-style:none;display:flex;flex-direction:column;gap:var(--space-4)}
+.csat-theme-list li{display:flex;align-items:center;gap:var(--space-8);font-size:.82rem;color:var(--color-text-secondary);padding:3px 0}
+.csat-theme__n{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:20px;padding:0 6px;border-radius:99px;background:var(--color-surface-overlay);border:1px solid var(--color-surface-border);font-size:.7rem;font-weight:700;font-variant-numeric:tabular-nums}
+.csat-col--good .csat-theme__n{color:var(--color-success)}
+.csat-col--bad .csat-theme__n{color:var(--color-critical)}
+.csat-theme__none{color:var(--color-text-muted);font-style:italic}
+.csat-bad-tix{margin-top:var(--space-12);padding-top:var(--space-8);border-top:1px solid var(--color-surface-border);font-size:.74rem;color:var(--color-text-muted)}
+.csat-bad-tix a{color:var(--color-critical)}
+.csat-corr-note{font-size:.72rem;color:var(--color-text-muted);font-style:italic;margin-bottom:var(--space-24);margin-top:calc(var(--space-24) * -1 + var(--space-4))}
+.gh-delta{font-size:.72rem;font-weight:600;vertical-align:middle;margin-left:6px;white-space:nowrap}
+.gh-delta--down{color:var(--color-success)}
+.gh-delta--up{color:var(--color-critical)}
 .hero{
   background:linear-gradient(135deg,var(--color-surface-raised) 0%,var(--color-surface-overlay) 100%);
   border:1px solid var(--color-surface-border);border-radius:var(--radius-lg);
@@ -362,16 +393,16 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
     </ul>
   </nav>
   <div class="rail__stats">
-    <div class="rail-stat"><div class="rail-stat__val">178</div><div class="rail-stat__lbl">Tickets</div></div>
-    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">1.82%</div><div class="rail-stat__lbl">Flights 2+3 baseline</div></div>
-    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">100%</div><div class="rail-stat__lbl">CSAT</div></div>
+    <div class="rail-stat"><div class="rail-stat__val">177</div><div class="rail-stat__lbl">Tickets</div></div>
+    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">1.8%</div><div class="rail-stat__lbl">Flights 2+3 baseline</div></div>
+    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">91%</div><div class="rail-stat__lbl">CSAT</div></div>
     <div class="rail-stat"><div class="rail-stat__val">4.0h</div><div class="rail-stat__lbl">First reply</div></div>
   </div>
   <div class="rail-watch">
   <div class="rail-watch__lbl">Watching</div>
   <div class="rail-watch__issue">Localized pricing mismatch — resolve before scaling</div>
   <div class="rail-watch__refs"><a href="https://github.com/thunderbird/thunderbird-website/issues/1253" target="_blank">thunderbird-website#1253</a></div>
-  
+  <div class="rail-watch__note">16 pricing signals · 6t · 3i · 7c</div>
 </div>
 
 </aside>
@@ -380,44 +411,39 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 
 <div class="status-bar">
 <span class="chip chip--info"><span class="chip__dot"></span> Pre-scale watch</span>
-<span class="chip chip--ok"><span class="chip__dot"></span> CSAT 100%</span>
+<span class="chip chip--ok"><span class="chip__dot"></span> CSAT 91%</span>
 
-<div class="alert-panel alert-panel--watch" role="status">
-  <div class="alert-panel__label">Pre-scale watch · not blocking</div>
-  <div class="alert-panel__head">Localized pricing mismatch — resolve before scaling · <a href="https://github.com/thunderbird/thunderbird-website/issues/1253" target="_blank">thunderbird-website#1253</a></div>
-  <div class="alert-panel__sub">Not a wave blocker, but a pre-scale risk worth resolving early. tb.pro shows a hardcoded price while Paddle charges localized pricing, so subscribers outside the US/EU can see one price on the marketing site and a different price at checkout. The cost is small at current wave sizes but compounds as invite volume and non-US share grow — abandoned conversions and refund requests. Leading hypothesis behind the pricing signal tracked below; surfaced via <a href="https://www.reddit.com/r/ThunderbirdPro/comments/1udn04b/comment/otvup3p/" target="_blank">r/ThunderbirdPro</a>.</div><div class="alert-panel__evidence"><strong>14</strong> pricing-related signals this launch · 5 tickets · 3 ideas · 6 comments. Watch whether this grows as non-US invite share rises.</div>
-</div>
 
 </div>
 
 <!-- SECTION: story -->
 <section class="section" id="story">
   <div class="hero">
-    <div class="hero__eyebrow">Early Bird May 4 → 2026-06-30 · 9,100 invitees · Generated 2026-06-30 09:01 ET</div>
-    <h1 class="hero__headline">Flights 2+3 combined: <em>1.82%</em> contact rate — active baseline for staffing.</h1>
-    <p class="hero__meta">299 contacts across all waves (178 tickets · 37 ideas · 84 comments) · <span>Zendesk Explore may show ~216 total created tickets</span></p>
+    <div class="hero__eyebrow">Early Bird May 4 → 2026-06-30 · 9,100 invitees · Generated 2026-06-30 10:22 ET</div>
+    <h1 class="hero__headline">Flights 2+3 combined: <em>1.8%</em> contact rate — active baseline for staffing.</h1>
+    <p class="hero__meta">298 contacts across all waves (177 tickets · 37 ideas · 84 comments) · <span>Zendesk Explore may show ~217 total created tickets</span></p>
   </div>
 
   <div class="bento">
     <div class="tile tile--span4 tile--accent">
-      <div class="tile__val">178</div>
+      <div class="tile__val">177</div>
       <div class="tile__lbl">Total tickets</div>
       <div class="tile__sub">since Early Bird launch</div>
     </div>
     <div class="tile tile--span4 tile--success">
-      <div class="tile__val">1.82%</div>
+      <div class="tile__val">1.8%</div>
       <div class="tile__lbl">Flights 2+3 contact rate</div>
       <div class="tile__sub">Waves 1+2 complete · historical baseline</div>
     </div>
     <div class="tile tile--span4 tile--success">
-      <div class="tile__val">100%</div>
+      <div class="tile__val">91%</div>
       <div class="tile__lbl">CSAT all-time</div>
-      <div class="tile__sub">14 good · 0 bad · 14 rated</div>
+      <div class="tile__sub">39 good · 4 bad · 43 rated</div>
     </div>
     <div class="tile tile--span3">
       <div class="tile__val">3.3%</div>
       <div class="tile__lbl">Overall contact rate</div>
-      <div class="tile__sub">299 contacts / 9,100 invitees · tickets + ideas + comments</div>
+      <div class="tile__sub">298 contacts / 9,100 invitees · tickets + ideas + comments</div>
     </div>
     <div class="tile tile--span3 tile--warn">
       <div class="tile__val">43.9h</div>
@@ -435,14 +461,14 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
       <div class="tile__sub">excl. off-topic</div>
     </div>
     <div class="tile tile--span6">
-      <div class="tile__val">11%</div>
+      <div class="tile__val">11% <span class="gh-delta gh-delta--down">↓ 2 pts MoM (was 13%)</span></div>
       <div class="tile__lbl">GitHub escalations</div>
-      <div class="tile__sub">19 of 178 tickets linked to a GitHub issue</div>
+      <div class="tile__sub">19 of 177 tickets linked to a GitHub issue</div>
     </div>
     <div class="tile tile--span6 tile--success">
       <div class="tile__val">100%</div>
       <div class="tile__lbl">CSAT last 7 days</div>
-      <div class="tile__sub">3 good · 0 bad · 3 rated</div>
+      <div class="tile__sub">7 good · 0 bad · 7 rated</div>
     </div>
   </div>
 </section>
@@ -450,12 +476,12 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <!-- SECTION: waves -->
 <section class="section" id="waves">
   <div class="section__head"><span class="section__num">01</span><h2 class="section__title">Invite waves</h2></div>
-  <table class="tbl wave-tbl"><thead><tr><th></th><th>Wave</th><th>Date</th><th class="num">Invites</th><th class="num">Contacts</th><th class="num">Contact rate</th><th class="num">CSAT</th></tr></thead><tbody><tr><td class="wave-swatch" style="background:#6366f1"></td><td>Early Bird<br><span class="wave-note">~35 misdirects (routing issue, fixed) inflated this rate</span></td><td style="color:var(--color-text-secondary)">2026-05-04</td><td class="num">600</td><td class="num">148<br><span class="wave-note">92 tickets · 15 ideas · 41 comments</span></td><td class="num wave-rate--high">24.7%</td><td class="num">89%<span class="wave-note">27 rated</span></td></tr>
+  <table class="tbl wave-tbl"><thead><tr><th></th><th>Wave</th><th>Date</th><th class="num">Invites</th><th class="num">Contacts</th><th class="num">Contact rate</th><th class="num">CSAT</th></tr></thead><tbody><tr><td class="wave-swatch" style="background:#6366f1"></td><td>Early Bird<br><span class="wave-note">~35 misdirects (routing issue, fixed) inflated this rate</span></td><td style="color:var(--color-text-secondary)">2026-05-04</td><td class="num">600</td><td class="num">148<br><span class="wave-note">92 tickets · 15 ideas · 41 comments</span></td><td class="num wave-rate--high">24.7%</td><td class="num">93%<span class="wave-note">27 rated</span></td></tr>
 <tr><td class="wave-swatch" style="background:#f97316"></td><td>Flight 2 Wave 1</td><td style="color:var(--color-text-secondary)">2026-06-03</td><td class="num">500</td><td class="num">3<br><span class="wave-note">3 tickets · 0 ideas · 0 comments</span></td><td class="num wave-rate--low">0.6%</td><td class="num">—<span class="wave-note">no ratings yet</span></td></tr>
 <tr><td class="wave-swatch" style="background:#ef4444"></td><td>Flight 2 Wave 2</td><td style="color:var(--color-text-secondary)">2026-06-04</td><td class="num">1,500</td><td class="num">75<br><span class="wave-note">39 tickets · 10 ideas · 26 comments</span></td><td class="num wave-rate--low">5.0%</td><td class="num">75%<span class="wave-note">8 rated</span></td></tr>
 <tr><td class="wave-swatch" style="background:#10b981"></td><td>Flight 3 Wave 1</td><td style="color:var(--color-text-secondary)">2026-06-22</td><td class="num">1,500</td><td class="num">5<br><span class="wave-note">5 tickets · 0 ideas · 0 comments</span></td><td class="num wave-rate--low">0.3%</td><td class="num">100%<span class="wave-note">1 rated</span></td></tr>
 <tr><td class="wave-swatch" style="background:#0ea5e9"></td><td>Flight 3 Wave 2</td><td style="color:var(--color-text-secondary)">2026-06-23</td><td class="num">3,000</td><td class="num">13<br><span class="wave-note">9 tickets · 2 ideas · 2 comments</span></td><td class="num wave-rate--low">0.4%</td><td class="num">100%<span class="wave-note">3 rated</span></td></tr>
-<tr><td class="wave-swatch" style="background:#a855f7"></td><td>Flight 3 Wave 3</td><td style="color:var(--color-text-secondary)">2026-06-24</td><td class="num">2,000</td><td class="num">55<br><span class="wave-note">30 tickets · 10 ideas · 15 comments</span></td><td class="num wave-rate--low">2.8%</td><td class="num">100%<span class="wave-note">4 rated</span></td></tr>
+<tr><td class="wave-swatch" style="background:#a855f7"></td><td>Flight 3 Wave 3</td><td style="color:var(--color-text-secondary)">2026-06-24</td><td class="num">2,000</td><td class="num">54<br><span class="wave-note">29 tickets · 10 ideas · 15 comments</span></td><td class="num wave-rate--low">2.7%</td><td class="num">100%<span class="wave-note">4 rated</span></td></tr>
 </tbody></table>
 </section>
 
@@ -476,8 +502,26 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
     </div>
   </div>
 
+  <div class="csat-tldr">
+    <div class="csat-tldr__label">CSAT TL;DR <span class="csat-tldr__date">analyst-reviewed 2026-06-30</span></div>
+    <p class="csat-tldr__line"><span class="csat-tldr__face">👍</span><span><strong>What people like —</strong> Good ratings cluster on one thing — speed and helpfulness. The praise is consistent (fast, prompt, genuinely helpful replies) and spans onboarding, account access, aliases, and appointments. The support experience itself is landing well across the board when the team responds quickly.</span></p>
+    <p class="csat-tldr__line"><span class="csat-tldr__face">👎</span><span><strong>What people hate —</strong> The handful of bad ratings are about product gaps, not support quality — and one has already flipped positive. A couple are misdirected (wrong-product or confused users, language barriers — not real Thundermail dissatisfaction). The genuine technical ones still open are an aliases delivery bug and a data-deletion/privacy follow-up. The custom-domain DKIM/deliverability issue turned around after engineering followed up and shipped a fix — effectively a positive now (kudos to eng). Pricing also surfaces even inside positive ratings — one happy customer still flagged it as a future risk.</span></p>
+  </div>
+<div class="csat-story">
+    <div class="csat-col csat-col--good">
+      <div class="csat-col__head"><span class="csat-col__face">👍</span> What's landing<span class="csat-col__tally">39 good</span></div>
+      <ul class="csat-theme-list"><li><span class="csat-theme__n">5</span>Account access issues</li><li><span class="csat-theme__n">4</span>Waitlist / onboarding inquiry</li><li><span class="csat-theme__n">4</span>Aliases</li><li><span class="csat-theme__n">4</span>Appointment</li><li><span class="csat-theme__n">4</span>Request or complaint</li><li><span class="csat-theme__n">3</span>Early bird / invite / waitlist</li><li><span class="csat-theme__n">2</span>Account creation / signup confusion</li><li><span class="csat-theme__n">2</span>Pricing</li></ul>
+    </div>
+    <div class="csat-col csat-col--bad">
+      <div class="csat-col__head"><span class="csat-col__face">👎</span> What's not<span class="csat-col__tally">4 bad</span></div>
+      <ul class="csat-theme-list"><li><span class="csat-theme__n">2</span>Misdirected — wrong product / non-subscriber</li><li><span class="csat-theme__n">1</span>Privacy / data / jurisdiction concerns</li><li><span class="csat-theme__n">1</span>Aliases</li></ul>
+      <div class="csat-bad-tix">Read the bad-rated tickets: <a href="https://tbpro.zendesk.com/agent/tickets/6082" target="_blank">#6082</a> · <a href="https://tbpro.zendesk.com/agent/tickets/6094" target="_blank">#6094</a> · <a href="https://tbpro.zendesk.com/agent/tickets/5715" target="_blank">#5715</a> · <a href="https://tbpro.zendesk.com/agent/tickets/5587" target="_blank">#5587</a></div>
+    </div>
+  </div>
+  <div class="csat-corr-note">1 rating corrected for documented resolution — issue fixed and confirmed in the ticket, but the survey wasn't re-sent (CSAT trigger bug).</div>
+
   <div class="insight">
-    <strong>Capacity projection — next flight</strong> — using Flights 2+3 1.82% contact rate, 40% of weekly tickets land on day 2.
+    <strong>Capacity projection — next flight</strong> — using Flights 2+3 1.8% contact rate, 40% of weekly tickets land on day 2.
     <div class="insight__nums">
       <div class="insight__num"><div class="insight__num-val">~18</div><div class="insight__num-lbl">tickets / 1k invites</div></div>
       <div class="insight__num"><div class="insight__num-val">~7</div><div class="insight__num-lbl">day-2 peak</div></div>
@@ -499,7 +543,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <tr><td>2026-06-08 → 2026-06-14</td><td class='num'>10</td></tr>
 <tr><td>2026-06-15 → 2026-06-21</td><td class='num'>7</td></tr>
 <tr><td>2026-06-22 → 2026-06-28</td><td class='num'>31</td></tr>
-<tr><td>2026-06-29 → 2026-07-05</td><td class='num'>13</td></tr>
+<tr><td>2026-06-29 → 2026-07-05</td><td class='num'>12</td></tr>
 
         </tbody>
       </table>
@@ -558,7 +602,8 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   <div class="wdl-bar-wrap"><div class="wdl-bar" style="width:100%"></div></div>
   <details class="theme-tickets"><summary>4 tickets</summary>
     <ul class="theme-tickets__list">
-      <li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — CNAME Records</span></li>
+      <li><a href="https://tbpro.zendesk.com/agent/tickets/6496" target="_blank">#6496</a><span class="theme-tickets__subj"> — Custom Domain DKIM not working</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — CNAME Records</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5711" target="_blank">#5711</a><span class="theme-tickets__subj"> — Setting up my 3rd party domain email account in Thunderbird</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/874" target="_blank">thunderbird-accounts#874</a> · <a href="https://github.com/thunderbird/thunderbird-accounts/issues/857" target="_blank">thunderbird-accounts#857</a></span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5679" target="_blank">#5679</a><span class="theme-tickets__subj"> — Accounts 839: Expose RSA DKIM keys in custom domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5655" target="_blank">#5655</a><span class="theme-tickets__subj"> — No DKIM signature for mails sent from custom domain</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></span></li>
@@ -693,8 +738,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   <div class="wdl-bar-wrap"><div class="wdl-bar" style="width:4%"></div></div>
   <details class="theme-tickets"><summary>8 tickets</summary>
     <ul class="theme-tickets__list">
-      <li><a href="https://tbpro.zendesk.com/agent/tickets/6494" target="_blank">#6494</a><span class="theme-tickets__subj"> — Fwd: Update Your Account</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6492" target="_blank">#6492</a><span class="theme-tickets__subj"> — Can’t Login *(Non-English)*</span></li>
+      <li><a href="https://tbpro.zendesk.com/agent/tickets/6492" target="_blank">#6492</a><span class="theme-tickets__subj"> — Can’t Login *(Non-English)*</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6391" target="_blank">#6391</a><span class="theme-tickets__subj"> — Thunderbird desktop (Ubuntu) setup problem</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6359" target="_blank">#6359</a><span class="theme-tickets__subj"> — need password reset, confused during signup</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6258" target="_blank">#6258</a><span class="theme-tickets__subj"> — Never recieved an email to validate account cant acces</span></li>
@@ -800,18 +844,18 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6343" target="_blank">#6343</a><span class="theme-tickets__subj"> — Pro</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5610" target="_blank">#5610</a><span class="theme-tickets__subj"> — Plans for non-profits and educational?</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5453" target="_blank">#5453</a><span class="theme-tickets__subj"> — Question on when to sign up</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6489" target="_blank">#6489</a><span class="theme-tickets__subj"> — Monthly subscription</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6486" target="_blank">#6486</a><span class="theme-tickets__subj"> — Annual payment instead of monthly payment</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6380" target="_blank">#6380</a><span class="theme-tickets__subj"> — why early access with expensive price?</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6377" target="_blank">#6377</a><span class="theme-tickets__subj"> — Account activation</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5493" target="_blank">#5493</a><span class="theme-tickets__subj"> — Thunderbird Pro Early Bird</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6072" target="_blank">#6072</a><span class="theme-tickets__subj"> — I received early bird invite</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6060" target="_blank">#6060</a><span class="theme-tickets__subj"> — Monthly Subscription</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6189" target="_blank">#6189</a><span class="theme-tickets__subj"> — Payment without creditcard?</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a><span class="theme-tickets__subj"> — thunderbird-accounts/838: Payment Complete, Stalwart not updated</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a><span class="theme-tickets__subj"> — Payment Processing</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5631" target="_blank">#5631</a><span class="theme-tickets__subj"> — Subscription</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6072" target="_blank">#6072</a><span class="theme-tickets__subj"> — I received early bird invite</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6060" target="_blank">#6060</a><span class="theme-tickets__subj"> — Monthly Subscription</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6490" target="_blank">#6490</a><span class="theme-tickets__subj"> — monthly subscription</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6351" target="_blank">#6351</a><span class="theme-tickets__subj"> — Created a Thundermail account and password, can't log in</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5397" target="_blank">#5397</a><span class="theme-tickets__subj"> — Email only or regional pricing</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6489" target="_blank">#6489</a><span class="theme-tickets__subj"> — Monthly subscription</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6486" target="_blank">#6486</a><span class="theme-tickets__subj"> — Annual payment instead of monthly payment</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6380" target="_blank">#6380</a><span class="theme-tickets__subj"> — why early access with expensive price?</span></li>
 
     </ul>
   </details>
@@ -849,12 +893,12 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
           <tr><td class='num'>500</td><td class='num'>9</td><td class='num'>4/day</td></tr>
 <tr><td class='num'>1,000</td><td class='num'>18</td><td class='num'>7/day</td></tr>
 <tr><td class='num'>2,000</td><td class='num'>36</td><td class='num'>14/day</td></tr>
-<tr><td class='num'>5,000</td><td class='num'>91</td><td class='num'>36/day</td></tr>
-<tr><td class='num'>10,000</td><td class='num'>182</td><td class='num'>73/day</td></tr>
+<tr><td class='num'>5,000</td><td class='num'>90</td><td class='num'>36/day</td></tr>
+<tr><td class='num'>10,000</td><td class='num'>180</td><td class='num'>72/day</td></tr>
 
         </tbody>
       </table>
-      <p class="panel__note">Projections use the Flights 2+3 combined 1.82% average (all waves except Early Bird). <strong>Note:</strong> Flight 3 Wave 3 is only 6 days old — its rate will rise as tickets arrive over 7–14 days, which may shift the baseline slightly upward. Early Bird (24.7%) excluded — inflated by misdirected non-subscribers.</p>
+      <p class="panel__note">Projections use the Flights 2+3 combined 1.8% average (all waves except Early Bird). <strong>Note:</strong> Flight 3 Wave 3 is only 6 days old — its rate will rise as tickets arrive over 7–14 days, which may shift the baseline slightly upward. Early Bird (24.7%) excluded — inflated by misdirected contacts.</p>
     </div>
     <div class="panel">
       <div class="panel__title">Contact rate by wave</div>
@@ -866,7 +910,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <tr><td>Flight 2 Wave 2</td><td>2026-06-04</td><td class='num'>1,500</td><td class='num'>39</td><td class='num'>5.0%</td></tr>
 <tr><td>Flight 3 Wave 1</td><td>2026-06-22</td><td class='num'>1,500</td><td class='num'>5</td><td class='num'>0.3%</td></tr>
 <tr><td>Flight 3 Wave 2</td><td>2026-06-23</td><td class='num'>3,000</td><td class='num'>9</td><td class='num'>0.4%</td></tr>
-<tr><td>Flight 3 Wave 3</td><td>2026-06-24</td><td class='num'>2,000</td><td class='num'>30</td><td class='num'>2.8%</td></tr>
+<tr><td>Flight 3 Wave 3</td><td>2026-06-24</td><td class='num'>2,000</td><td class='num'>29</td><td class='num'>2.7%</td></tr>
 
         </tbody>
       </table>
@@ -881,11 +925,11 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   <div class="panel">
     <div class="theme-block">
       <div class="theme-block__head">
-        <div class="theme-block__title">Subscriber themes · Flights 2 &amp; 3</div>
+        <div class="theme-block__title">Thundermail themes · Flights 2 &amp; 3</div>
         <div class="theme-block__meta">Jun 3+ · baseline for next flight</div>
       </div>
       <div class="themes">
-        <div class="theme-group"><div class="theme-group__hdr theme-row"><span class="theme-row__name">Pricing</span><span class="theme-row__count">20<span class="theme-row__pct">24%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:24%"></div></div></div><div class="theme-group__body"><div class="theme-row-wrap">
+        <div class="theme-group"><div class="theme-group__hdr theme-row"><span class="theme-row__name">Pricing</span><span class="theme-row__count">19<span class="theme-row__pct">23%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:23%"></div></div></div><div class="theme-group__body"><div class="theme-row-wrap">
   <div class="theme-row theme-row--sub"><span class="theme-row__name">Pricing</span><span class="theme-row__count">6<span class="theme-row__pct">7%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:7%"></div></div></div>
   <details class="theme-tickets">
     <summary>6 tickets</summary>
@@ -923,16 +967,6 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 <div class="theme-row-wrap">
-  <div class="theme-row theme-row--sub"><span class="theme-row__name">Subscription / billing / refund / cancel</span><span class="theme-row__count">2<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
-  <details class="theme-tickets">
-    <summary>2 tickets</summary>
-    <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6493" target="_blank">#6493</a><span class="theme-tickets__subj"> — Refund</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6468" target="_blank">#6468</a><span class="theme-tickets__subj"> — Cancel subscription</span></li>
-    </ul>
-  </details>
-</div>
-<div class="theme-row-wrap">
   <div class="theme-row theme-row--sub"><span class="theme-row__name">Pricing — discount inquiry</span><span class="theme-row__count">2<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
   <details class="theme-tickets">
     <summary>2 tickets</summary>
@@ -953,6 +987,15 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 <div class="theme-row-wrap">
+  <div class="theme-row theme-row--sub"><span class="theme-row__name">Subscription / billing / refund / cancel</span><span class="theme-row__count">1<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
+  <details class="theme-tickets">
+    <summary>1 ticket</summary>
+    <ul class="theme-tickets__list">
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6468" target="_blank">#6468</a><span class="theme-tickets__subj"> — Cancel subscription</span></li>
+    </ul>
+  </details>
+</div>
+<div class="theme-row-wrap">
   <div class="theme-row theme-row--sub"><span class="theme-row__name">Pricing / monthly plan / free tier</span><span class="theme-row__count">1<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
   <details class="theme-tickets">
     <summary>1 ticket</summary>
@@ -963,11 +1006,10 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 </div>
 </div></div>
 <div class="theme-row-wrap">
-  <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">10<span class="theme-row__pct">12%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:12%"></div></div></div>
+  <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">9<span class="theme-row__pct">11%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:11%"></div></div></div>
   <details class="theme-tickets">
-    <summary>10 tickets</summary>
+    <summary>9 tickets</summary>
     <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6494" target="_blank">#6494</a><span class="theme-tickets__subj"> — Fwd: Update Your Account</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6492" target="_blank">#6492</a><span class="theme-tickets__subj"> — Can’t Login *(Non-English)*</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6391" target="_blank">#6391</a><span class="theme-tickets__subj"> — Thunderbird desktop (Ubuntu) setup problem</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6359" target="_blank">#6359</a><span class="theme-tickets__subj"> — need password reset, confused during signup</span></li>
@@ -1061,11 +1103,12 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 <div class="theme-group"><div class="theme-group__hdr theme-row"><span class="theme-row__name">Custom domain</span><span class="theme-row__count">3<span class="theme-row__pct">3%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:3%"></div></div></div><div class="theme-group__body"><div class="theme-row-wrap">
-  <div class="theme-row theme-row--sub"><span class="theme-row__name">Custom domain / DKIM / DNS</span><span class="theme-row__count">1<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
+  <div class="theme-row theme-row--sub"><span class="theme-row__name">Custom domain DNS</span><span class="theme-row__count">2<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
   <details class="theme-tickets">
-    <summary>1 ticket</summary>
+    <summary>2 tickets</summary>
     <ul class="theme-tickets__list">
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6496" target="_blank">#6496</a><span class="theme-tickets__subj"> — Custom Domain DKIM not working</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — CNAME Records</span></li>
     </ul>
   </details>
 </div>
@@ -1075,15 +1118,6 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
     <summary>1 ticket</summary>
     <ul class="theme-tickets__list">
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6347" target="_blank">#6347</a><span class="theme-tickets__subj"> — Add custom fomian later?</span></li>
-    </ul>
-  </details>
-</div>
-<div class="theme-row-wrap">
-  <div class="theme-row theme-row--sub"><span class="theme-row__name">Custom domain DNS</span><span class="theme-row__count">1<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
-  <details class="theme-tickets">
-    <summary>1 ticket</summary>
-    <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — CNAME Records</span></li>
     </ul>
   </details>
 </div>
@@ -1100,6 +1134,16 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 </div></div>
+<div class="theme-row-wrap">
+  <div class="theme-row"><span class="theme-row__name">Early bird / invite / waitlist</span><span class="theme-row__count">2<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
+  <details class="theme-tickets">
+    <summary>2 tickets</summary>
+    <ul class="theme-tickets__list">
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6505" target="_blank">#6505</a><span class="theme-tickets__subj"> — Billed for trial period</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6265" target="_blank">#6265</a><span class="theme-tickets__subj"> — Time + Webmail</span></li>
+    </ul>
+  </details>
+</div>
 <div class="theme-row-wrap">
   <div class="theme-row"><span class="theme-row__name">Email migration / import</span><span class="theme-row__count">2<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
   <details class="theme-tickets">
@@ -1159,15 +1203,6 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 <div class="theme-row-wrap">
-  <div class="theme-row"><span class="theme-row__name">Early bird / invite / waitlist</span><span class="theme-row__count">1<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
-  <details class="theme-tickets">
-    <summary>1 ticket</summary>
-    <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6265" target="_blank">#6265</a><span class="theme-tickets__subj"> — Time + Webmail</span></li>
-    </ul>
-  </details>
-</div>
-<div class="theme-row-wrap">
   <div class="theme-row"><span class="theme-row__name">Thunderbird for Android + Thundermail</span><span class="theme-row__count">1<span class="theme-row__pct">1%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:1%"></div></div></div>
   <details class="theme-tickets">
     <summary>1 ticket</summary>
@@ -1197,17 +1232,17 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 </div></div>
 
       </div>
-      <p class="panel__note">Flight 2 + Flight 3 subscriber tickets (excl. misdirects). Use this for staffing the next flight.</p>
+      <p class="panel__note">Flight 2 + Flight 3 on-topic Thundermail tickets from invited users (excl. misdirected). Use this for staffing the next flight.</p>
     </div>
 
-    <div class="insight insight--routing insight--spaced insight--spaced-top"><strong>Misdirected volume was an Early Bird routing issue — resolved.</strong> Flight 2 saw only <strong>4 misdirects</strong> in 86 tickets. Full ticket list in the historical panel below.</div>
+    <div class="insight insight--routing insight--spaced insight--spaced-top"><strong>Misdirected volume was an Early Bird routing issue — resolved.</strong> Flight 2 saw only <strong>4 misdirects</strong> in 85 tickets. Full ticket list in the historical panel below.</div>
 
 
     <details class="theme-historical">
-      <summary>All launch · subscriber-only (excl. misdirected) — 140 tickets since May 4</summary>
+      <summary>All launch · Thundermail tickets, invited users (excl. misdirected) — 139 tickets since May 4</summary>
       <div class="theme-historical__body">
         <div class="themes">
-          <div class="theme-group"><div class="theme-group__hdr theme-row"><span class="theme-row__name">Pricing</span><span class="theme-row__count">28<span class="theme-row__pct">20%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:20%"></div></div></div><div class="theme-group__body"><div class="theme-row-wrap">
+          <div class="theme-group"><div class="theme-group__hdr theme-row"><span class="theme-row__name">Pricing</span><span class="theme-row__count">27<span class="theme-row__pct">19%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:19%"></div></div></div><div class="theme-group__body"><div class="theme-row-wrap">
   <div class="theme-row theme-row--sub"><span class="theme-row__name">Pricing</span><span class="theme-row__count">8<span class="theme-row__pct">5%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:5%"></div></div></div>
   <details class="theme-tickets">
     <summary>8 tickets</summary>
@@ -1220,19 +1255,6 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6343" target="_blank">#6343</a><span class="theme-tickets__subj"> — Pro</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5610" target="_blank">#5610</a><span class="theme-tickets__subj"> — Plans for non-profits and educational?</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5453" target="_blank">#5453</a><span class="theme-tickets__subj"> — Question on when to sign up</span></li>
-    </ul>
-  </details>
-</div>
-<div class="theme-row-wrap">
-  <div class="theme-row theme-row--sub"><span class="theme-row__name">Subscription / billing / refund / cancel</span><span class="theme-row__count">5<span class="theme-row__pct">3%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:3%"></div></div></div>
-  <details class="theme-tickets">
-    <summary>5 tickets</summary>
-    <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6493" target="_blank">#6493</a><span class="theme-tickets__subj"> — Refund</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6468" target="_blank">#6468</a><span class="theme-tickets__subj"> — Cancel subscription</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5977" target="_blank">#5977</a><span class="theme-tickets__subj"> — Request to Change Recovery Email and Paddle Payment Account Email</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5615" target="_blank">#5615</a><span class="theme-tickets__subj"> — Cancel Subscription</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5367" target="_blank">#5367</a><span class="theme-tickets__subj"> — Payment in Error</span></li>
     </ul>
   </details>
 </div>
@@ -1258,6 +1280,18 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6126" target="_blank">#6126</a><span class="theme-tickets__subj"> — thunderbird-accounts/838: Payment Complete, Stalwart not updated</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6119" target="_blank">#6119</a><span class="theme-tickets__subj"> — Payment Processing</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5631" target="_blank">#5631</a><span class="theme-tickets__subj"> — Subscription</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/838" target="_blank">thunderbird-accounts#838</a></span></li>
+    </ul>
+  </details>
+</div>
+<div class="theme-row-wrap">
+  <div class="theme-row theme-row--sub"><span class="theme-row__name">Subscription / billing / refund / cancel</span><span class="theme-row__count">4<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
+  <details class="theme-tickets">
+    <summary>4 tickets</summary>
+    <ul class="theme-tickets__list">
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6468" target="_blank">#6468</a><span class="theme-tickets__subj"> — Cancel subscription</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5977" target="_blank">#5977</a><span class="theme-tickets__subj"> — Request to Change Recovery Email and Paddle Payment Account Email</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5615" target="_blank">#5615</a><span class="theme-tickets__subj"> — Cancel Subscription</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5367" target="_blank">#5367</a><span class="theme-tickets__subj"> — Payment in Error</span></li>
     </ul>
   </details>
 </div>
@@ -1293,11 +1327,10 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 </div>
 </div></div>
 <div class="theme-row-wrap">
-  <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">18<span class="theme-row__pct">12%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:12%"></div></div></div>
+  <div class="theme-row"><span class="theme-row__name">Account access issues</span><span class="theme-row__count">17<span class="theme-row__pct">12%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:12%"></div></div></div>
   <details class="theme-tickets">
-    <summary>18 tickets</summary>
+    <summary>17 tickets</summary>
     <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6494" target="_blank">#6494</a><span class="theme-tickets__subj"> — Fwd: Update Your Account</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6492" target="_blank">#6492</a><span class="theme-tickets__subj"> — Can’t Login *(Non-English)*</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6391" target="_blank">#6391</a><span class="theme-tickets__subj"> — Thunderbird desktop (Ubuntu) setup problem</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6359" target="_blank">#6359</a><span class="theme-tickets__subj"> — need password reset, confused during signup</span></li>
@@ -1420,10 +1453,11 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
   </details>
 </div>
 <div class="theme-group"><div class="theme-group__hdr theme-row"><span class="theme-row__name">Custom domain</span><span class="theme-row__count">8<span class="theme-row__pct">5%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:5%"></div></div></div><div class="theme-group__body"><div class="theme-row-wrap">
-  <div class="theme-row theme-row--sub"><span class="theme-row__name">Custom domain DNS</span><span class="theme-row__count">5<span class="theme-row__pct">3%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:3%"></div></div></div>
+  <div class="theme-row theme-row--sub"><span class="theme-row__name">Custom domain DNS</span><span class="theme-row__count">6<span class="theme-row__pct">4%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:4%"></div></div></div>
   <details class="theme-tickets">
-    <summary>5 tickets</summary>
+    <summary>6 tickets</summary>
     <ul class="theme-tickets__list">
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6496" target="_blank">#6496</a><span class="theme-tickets__subj"> — Custom Domain DKIM not working</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6063" target="_blank">#6063</a><span class="theme-tickets__subj"> — CNAME Records</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5711" target="_blank">#5711</a><span class="theme-tickets__subj"> — Setting up my 3rd party domain email account in Thunderbird</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/874" target="_blank">thunderbird-accounts#874</a> · <a href="https://github.com/thunderbird/thunderbird-accounts/issues/857" target="_blank">thunderbird-accounts#857</a></span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5679" target="_blank">#5679</a><span class="theme-tickets__subj"> — Accounts 839: Expose RSA DKIM keys in custom domain setup</span><span class="theme-tickets__gh"><a href="https://github.com/thunderbird/thunderbird-accounts/issues/839" target="_blank">thunderbird-accounts#839</a></span></li>
@@ -1442,16 +1476,20 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
     </ul>
   </details>
 </div>
+</div></div>
 <div class="theme-row-wrap">
-  <div class="theme-row theme-row--sub"><span class="theme-row__name">Custom domain / DKIM / DNS</span><span class="theme-row__count">1<span class="theme-row__pct">0%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:0%"></div></div></div>
+  <div class="theme-row"><span class="theme-row__name">Early bird / invite / waitlist</span><span class="theme-row__count">5<span class="theme-row__pct">3%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:3%"></div></div></div>
   <details class="theme-tickets">
-    <summary>1 ticket</summary>
+    <summary>5 tickets</summary>
     <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6496" target="_blank">#6496</a><span class="theme-tickets__subj"> — Custom Domain DKIM not working</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6505" target="_blank">#6505</a><span class="theme-tickets__subj"> — Billed for trial period</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/6265" target="_blank">#6265</a><span class="theme-tickets__subj"> — Time + Webmail</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5395" target="_blank">#5395</a><span class="theme-tickets__subj"> — Fw: Re: You're Invited: Thunderbird Pro Early Bird Access</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5394" target="_blank">#5394</a><span class="theme-tickets__subj"> — Early access registration kicks me to 'join waitlist' page</span></li>
+<li><a href="https://tbpro.zendesk.com/agent/tickets/5391" target="_blank">#5391</a><span class="theme-tickets__subj"> — I got the invite but it's not working</span></li>
     </ul>
   </details>
 </div>
-</div></div>
 <div class="theme-row-wrap">
   <div class="theme-row"><span class="theme-row__name">Refund / Cancel</span><span class="theme-row__count">5<span class="theme-row__pct">3%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:3%"></div></div></div>
   <details class="theme-tickets">
@@ -1462,18 +1500,6 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6378" target="_blank">#6378</a><span class="theme-tickets__subj"> — Delete account</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/6373" target="_blank">#6373</a><span class="theme-tickets__subj"> — subscription canceling</span></li>
 <li><a href="https://tbpro.zendesk.com/agent/tickets/5443" target="_blank">#5443</a><span class="theme-tickets__subj"> — cancellation refund</span></li>
-    </ul>
-  </details>
-</div>
-<div class="theme-row-wrap">
-  <div class="theme-row"><span class="theme-row__name">Early bird / invite / waitlist</span><span class="theme-row__count">4<span class="theme-row__pct">2%</span></span><div class="theme-row__bar-wrap"><div class="theme-row__bar" style="width:2%"></div></div></div>
-  <details class="theme-tickets">
-    <summary>4 tickets</summary>
-    <ul class="theme-tickets__list">
-<li><a href="https://tbpro.zendesk.com/agent/tickets/6265" target="_blank">#6265</a><span class="theme-tickets__subj"> — Time + Webmail</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5395" target="_blank">#5395</a><span class="theme-tickets__subj"> — Fw: Re: You're Invited: Thunderbird Pro Early Bird Access</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5394" target="_blank">#5394</a><span class="theme-tickets__subj"> — Early access registration kicks me to 'join waitlist' page</span></li>
-<li><a href="https://tbpro.zendesk.com/agent/tickets/5391" target="_blank">#5391</a><span class="theme-tickets__subj"> — I got the invite but it's not working</span></li>
     </ul>
   </details>
 </div>
@@ -1581,7 +1607,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 </div>
 
         </div>
-        <p class="panel__note" style="margin-top:var(--space-12)">Blends Early Bird subscriber work with Flights 2 &amp; 3 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flights 2 &amp; 3 above for staffing.</p>
+        <p class="panel__note" style="margin-top:var(--space-12)">Blends Early Bird Thundermail tickets with Flights 2 &amp; 3 — useful for volume context, but Early Bird waitlist/onboarding themes skew the picture. Prefer Flights 2 &amp; 3 above for staffing.</p>
       </div>
     </details>
 
@@ -1637,7 +1663,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 </div>
 
         </div>
-        <p class="panel__note" style="margin-top:var(--space-12)">Pre-fix routing (May 4–Jun 2): desktop Thunderbird users and search traffic hit the Thundermail form. Team redirected each ticket and shipped routing fixes — not recurring subscriber demand.</p>
+        <p class="panel__note" style="margin-top:var(--space-12)">Pre-fix routing (May 4–Jun 2): desktop Thunderbird users and search traffic hit the Thundermail form. Team redirected each ticket and shipped routing fixes — not recurring Thundermail demand.</p>
       </div>
     </details>
   </div>
@@ -1708,7 +1734,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
 
 <!-- SECTION: engineering -->
 <section class="section" id="engineering">
-  <div class="section__head"><span class="section__num">06</span><h2 class="section__title">Engineering escalations · 19 of 178 (11%)</h2></div>
+  <div class="section__head"><span class="section__num">06</span><h2 class="section__title">Engineering escalations · 19 of 177 (11%)</h2></div>
   <p class="eng-summary">Tickets tagged <code>zd-gh</code> — linked to a GitHub issue in the thunderbird org via gz# marker.</p>
   <div class="eng-list">
     <div class="eng-card eng-card--hold"><div><div class="eng-card__id eng-card__id--hold"><a href="https://tbpro.zendesk.com/agent/tickets/6282" target="_blank">#6282</a></div><div class="eng-card__gh"><a href="https://github.com/thunderbird/mailstrom/issues/229" target="_blank">mailstrom#229</a></div></div><div class="eng-card__subject">Drafts / sending failures / lost mail</div><div class="eng-card__date">2026-06-18</div></div>
@@ -1747,7 +1773,7 @@ code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface
     <details><summary>First Reply Time</summary><div class="glossary__body">Time from ticket creation to the agent's first response. Reported in calendar hours.</div></details>
     <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who made contact across any channel. Calculated as: (support tickets + FeatureOS idea submissions + customer comments on ideas) ÷ invitees in that wave. Staff/team comments are excluded. A lower rate indicates a smoother onboarding experience.</div></details>
     <details><summary>Day-2 Peak</summary><div class="glossary__body">Historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</div></details>
-    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect subscriber support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2+3: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the Flights 2+3 baseline.</div></details>
+    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect Thundermail support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2+3: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the Flights 2+3 baseline.</div></details>
     <details><summary>Cumulative contact rate</summary><div class="glossary__body">Running total of tickets divided by total invitees sent at that point in time. Drops sharply when a large new invite wave goes out (more invitees, same tickets).</div></details>
   </div>
 </section>
@@ -1781,8 +1807,8 @@ const P = {
 };
 
 const dates      = ["2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30"];
-const daily      = [1, 9, 8, 7, 8, 2, 2, 6, 5, 6, 5, 5, 4, 3, 13, 0, 0, 2, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 2, 1, 3, 12, 6, 2, 2, 3, 0, 1, 1, 2, 1, 2, 0, 0, 3, 4, 0, 0, 0, 5, 9, 11, 4, 0, 1, 1, 7, 6];
-const cumContact = [0.17, 1.67, 3.0, 4.17, 5.5, 5.83, 6.17, 7.17, 8.0, 9.0, 9.83, 10.67, 11.33, 11.83, 14.0, 14.0, 14.0, 14.33, 14.33, 14.33, 14.5, 14.5, 14.5, 14.67, 14.67, 14.83, 14.83, 14.83, 15.17, 15.33, 8.64, 4.12, 4.35, 4.42, 4.5, 4.62, 4.62, 4.65, 4.69, 4.77, 4.81, 4.88, 4.88, 4.88, 5.0, 5.15, 5.15, 5.15, 5.15, 3.39, 2.08, 1.75, 1.79, 1.79, 1.8, 1.81, 1.89, 1.96];
+const daily      = [1, 9, 8, 7, 8, 2, 2, 6, 5, 6, 5, 5, 4, 3, 13, 0, 0, 2, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 2, 1, 3, 12, 6, 2, 2, 3, 0, 1, 1, 2, 1, 2, 0, 0, 3, 4, 0, 0, 0, 5, 9, 11, 4, 0, 1, 1, 7, 5];
+const cumContact = [0.17, 1.67, 3.0, 4.17, 5.5, 5.83, 6.17, 7.17, 8.0, 9.0, 9.83, 10.67, 11.33, 11.83, 14.0, 14.0, 14.0, 14.33, 14.33, 14.33, 14.5, 14.5, 14.5, 14.67, 14.67, 14.83, 14.83, 14.83, 15.17, 15.33, 8.64, 4.12, 4.35, 4.42, 4.5, 4.62, 4.62, 4.65, 4.69, 4.77, 4.81, 4.88, 4.88, 4.88, 5.0, 5.15, 5.15, 5.15, 5.15, 3.39, 2.08, 1.75, 1.79, 1.79, 1.8, 1.81, 1.89, 1.95];
 const milestones = [
   {"date": "2026-05-04", "label": "Early Bird", "color": P.waveEarly},
   {"date": "2026-06-03", "label": "Flight 2 Wave 1", "color": P.waveW1},
@@ -1852,7 +1878,7 @@ new Chart(document.getElementById('rateChart'), {
   }
 });
 
-const csatWeekly = [{"week": "2026-06-01", "volume": 25, "good": 4, "bad": 2, "pct": 67}, {"week": "2026-06-08", "volume": 10, "good": 2, "bad": 0, "pct": 100}, {"week": "2026-06-15", "volume": 7, "good": 0, "bad": 0, "pct": null}, {"week": "2026-06-22", "volume": 31, "good": 8, "bad": 0, "pct": 100}, {"week": "2026-06-29", "volume": 13, "good": 0, "bad": 0, "pct": null}];
+const csatWeekly = [{"week": "2026-06-01", "volume": 25, "good": 4, "bad": 2, "pct": 67}, {"week": "2026-06-08", "volume": 10, "good": 2, "bad": 0, "pct": 100}, {"week": "2026-06-15", "volume": 7, "good": 0, "bad": 0, "pct": null}, {"week": "2026-06-22", "volume": 31, "good": 8, "bad": 0, "pct": 100}, {"week": "2026-06-29", "volume": 12, "good": 0, "bad": 0, "pct": null}];
 if (csatWeekly.length && document.getElementById('csatChart')) {
   new Chart(document.getElementById('csatChart'), {
     data: {
