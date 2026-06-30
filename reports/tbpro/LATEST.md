@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 05:21 ET** · refreshes hourly_  
+_Updated: **2026-06-30 07:13 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 9** of rollout — **6,500 invitees**, **43 tickets** so far (0.7% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. No known problems open.
+Flight 3 is **day 9** of rollout — **6,500 invitees**, **44 tickets** so far (0.7% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. No known problems open.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **3** solved in last 24h
-- **43** tickets total since launch · contact rate **1%** of 6500 invitees
+- **7** new tickets in last 24h · **3** solved in last 24h
+- **44** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 12
@@ -36,13 +36,13 @@ _No negative ratings since launch._
 
 - **solved**: 27
 - **pending**: 9
-- **open**: 5
+- **open**: 6
 - **hold**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 23
-- **Thundermail**: 15
+- **Thundermail**: 16
 - **Appointment**: 3
 - **Send**: 1
 
@@ -61,8 +61,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#6502](https://tbpro.zendesk.com/agent/tickets/6502)** · regarding thundermail pro
+  > hey guys, i would like to finalize my registration for thundermail pro, but i have one final, important question: will i be able to use thundermail pro as general cloud storage?…
 - **[#6498](https://tbpro.zendesk.com/agent/tickets/6498)** · Unable to send emails out from Thunderbird
   > Good evening. I am able to receive emails, and I can reply to emails, but when I try to send a new message out it does not seem to ever go. It sits in the Sent folder for a bit,…
 - **[#6491](https://tbpro.zendesk.com/agent/tickets/6491)** · hello this is a test
@@ -96,6 +98,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6494](https://tbpro.zendesk.com/agent/tickets/6494) · [open] · 2026-06-30T01:52 · Fwd: Update Your Account
 - [6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30T02:14 · Custom Domain DKIM not working
 - [6498](https://tbpro.zendesk.com/agent/tickets/6498) · [open] · 2026-06-30T03:18 · Unable to send emails out from Thunderbird
+- [6502](https://tbpro.zendesk.com/agent/tickets/6502) · [open] · 2026-06-30T10:21 · regarding thundermail pro
 
 ## Solved — last 24h
 
