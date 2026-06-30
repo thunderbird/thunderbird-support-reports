@@ -57,10 +57,6 @@ CSAT_OVERRIDES = {
     5655: "good",  # DKIM resolved & customer confirmed in ticket body; survey not re-rated (trigger bug)
 }
 
-# Prior-period GitHub escalation rate (%) for the MoM arrow on the escalations tile.
-# Update each reporting cycle. Down = good (fewer tickets needing an engineering escalation).
-GH_ESCALATION_PRIOR = 13
-
 # Themes that should be grouped under a parent header in the dashboard.
 # Add new sub-themes here whenever a new tag or regex variant is introduced —
 # the dashboard automatically renders a parent header + indented sub-rows.
@@ -126,9 +122,14 @@ WAVES = [
     {"date": "2026-06-04", "end": "2026-06-21", "invites": 1500, "label": "Flight 2 Wave 2",  "color": "#ef4444"},
     {"date": "2026-06-22", "end": "2026-06-22", "invites": 1500, "label": "Flight 3 Wave 1",  "color": "#10b981"},
     {"date": "2026-06-23", "end": "2026-06-23", "invites": 3000, "label": "Flight 3 Wave 2",  "color": "#0ea5e9"},
-    {"date": "2026-06-24", "end": "2099-12-31", "invites": 2000, "label": "Flight 3 Wave 3",  "color": "#a855f7"},
+    {"date": "2026-06-24", "end": "2026-06-28", "invites": 2000, "label": "Flight 3 Wave 3",  "color": "#a855f7"},
+    {"date": "2026-06-29", "end": "2026-06-29", "invites": 5000, "label": "Flight 4 Wave 1",  "color": "#ec4899"},
+    {"date": "2026-06-30", "end": "2099-12-31", "invites": 5000, "label": "Flight 4 Wave 2",  "color": "#14b8a6"},
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 9100
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 19,100 (Flight 4: 5k Jun 29 + 5k Jun 30)
+# Waves settle (tickets arrive) over ~7-14 days. The projection baseline excludes waves
+# younger than this so fresh sends don't drag the rate toward zero.
+WAVE_SETTLE_DAYS = 7
 
 EXCLUDE_IDS = {5441, 5866}
 FEATUREOS_BOARD_ID = 17437
@@ -182,6 +183,7 @@ def fetch_aht(auth, sub, tickets, sample=None):
     solved = [t for t in tickets if t.get("status") == "solved"]
     aht_list, frt_list = [], []
     aht_by_id = {}
+    frt_by_id = {}
     for t in solved:
         tid = str(t["id"])
         try:
@@ -199,9 +201,10 @@ def fetch_aht(auth, sub, tickets, sample=None):
                 aht_by_id[tid] = {"mins": v, "week": week}
             if r is not None:
                 frt_list.append(r)
+                frt_by_id[tid] = r
         except Exception:
             pass
-    return aht_list, frt_list, aht_by_id
+    return aht_list, frt_list, aht_by_id, frt_by_id
 
 
 # ── FeatureOS ─────────────────────────────────────────────────────────────────
@@ -415,7 +418,7 @@ def _weekly_csat(tickets):
     return result
 
 
-def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None, raw_total=None, idea_comments=None):
+def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, blockers=None, csat_all=None, aht_by_id=None, raw_total=None, idea_comments=None, frt_by_id=None):
     today  = dt.date.today()
     start  = dt.date.fromisoformat(LAUNCH_DATE)
     dates  = []
@@ -486,6 +489,30 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
             csat_bad_themes[th] += 1
             csat_bad_tickets.append({"id": int(t.get("id") or 0), "theme": th})
 
+    # End-of-Flight-2 snapshot — baseline for "vs Flight 2" deltas on the all-time tiles.
+    # Comparing the current cumulative figure to its value at the last reporting point
+    # (Flight 2 close) shows whether the latest wave is moving the number. Both samples
+    # are large (through-F2 is the bulk of the data), so the deltas are trustworthy.
+    FLIGHT2_END = "2026-06-21"
+    _pre = [t for t in tickets if (t.get("created_at") or "")[:10] <= FLIGHT2_END]
+    _pre_ids = {str(t.get("id")) for t in _pre}
+
+    def _median_h(d):
+        vals = [(v["mins"] if isinstance(v, dict) else v) for k, v in (d or {}).items() if k in _pre_ids]
+        return round(statistics.median(vals) / 60, 1) if vals else None
+
+    _pg = sum(1 for t in _pre if csat_score(t) == "good")
+    _pb = sum(1 for t in _pre if csat_score(t) == "bad")
+    _pre_gh = sum(1 for t in _pre if "zd-gh" in (t.get("tags") or []))
+    snap_prior = {
+        "basis":   "vs Flight 2",
+        "csat_pct": round(_pg / (_pg + _pb) * 100) if (_pg + _pb) else None,
+        "csat_n":   _pg + _pb,
+        "esc_pct":  round(_pre_gh / len(_pre) * 100) if _pre else None,
+        "aht_h":    _median_h(aht_by_id),
+        "frt_h":    _median_h(frt_by_id),
+    }
+
     # Contact rate + CSAT by wave
     wave_stats = []
     for w in WAVES:
@@ -523,9 +550,13 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
             "mean_min":   round(statistics.mean(frt_mins)),
         }
 
-    # Projection baseline: Flights 2+3 avg, excluding Early Bird (inflated by misdirects)
-    f2_rates  = [ws["rate"] for ws in wave_stats[1:]]
-    avg_rate  = round(sum(f2_rates) / len(f2_rates), 2) if f2_rates else 1.0
+    # Projection baseline: average of SETTLED waves only — exclude Early Bird (inflated by
+    # misdirects) and any wave younger than WAVE_SETTLE_DAYS (tickets haven't arrived yet,
+    # so their rate is artificially low). Fresh sends like a brand-new flight must not drag it.
+    settled = [ws for ws in wave_stats[1:]
+               if (today - dt.date.fromisoformat(ws["date"])).days >= WAVE_SETTLE_DAYS]
+    f2_rates = [ws["rate"] for ws in settled] or [ws["rate"] for ws in wave_stats[1:]]
+    avg_rate = round(sum(f2_rates) / len(f2_rates), 2) if f2_rates else 1.0
     # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
     surge_pct = 0.40
 
@@ -637,6 +668,7 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
         "csat_bad_themes":  csat_bad_themes.most_common(),
         "csat_bad_tickets": csat_bad_tickets,
         "csat_corrections": sum(1 for t in tickets if int(t.get("id") or 0) in CSAT_OVERRIDES),
+        "snap_prior": snap_prior,
         "csat_weekly":  _weekly_csat([t for t in tickets if str(t.get("brand_id","")) == "38173138875795" and (t.get("created_at","") or "") >= "2026-06-03"]),
         "blockers": blockers or [],
         "today": today.isoformat(),
@@ -819,14 +851,44 @@ def render(data):
     csat_launch   = data.get("csat_launch", {})
     csat_week     = data.get("csat_week", {})
     gh_pct        = round(len(data["gh_tickets"]) / total * 100) if total else 0
-    # MoM escalation trend (down = good — fewer tickets needing engineering)
-    _gh_delta = gh_pct - GH_ESCALATION_PRIOR
-    if _gh_delta < 0:
-        gh_arrow = f'<span class="gh-delta gh-delta--down">↓ {abs(_gh_delta)} pts MoM (was {GH_ESCALATION_PRIOR}%)</span>'
-    elif _gh_delta > 0:
-        gh_arrow = f'<span class="gh-delta gh-delta--up">↑ {_gh_delta} pts MoM (was {GH_ESCALATION_PRIOR}%)</span>'
-    else:
-        gh_arrow = f'<span class="gh-delta">→ flat MoM (was {GH_ESCALATION_PRIOR}%)</span>'
+
+    # ── deltas: current vs end-of-Flight-2 snapshot (the analyst way) ──────
+    # Only render an arrow when there's a comparable prior AND the move clears a
+    # noise threshold; colour by good/bad direction, not by up/down. Cumulative
+    # tiles (Total tickets, Ideas) and tiny samples (CSAT 7-day) get NO delta.
+    _snap = data.get("snap_prior", {})
+    _basis = _snap.get("basis", "vs Flight 2")
+    def _delta(cur, prior, lower_better, unit):
+        if cur is None or prior is None:
+            return ""
+        try:
+            d = round(float(cur) - float(prior), 1)
+        except (TypeError, ValueError):
+            return ""
+        if abs(d) < (0.5 if unit == "pts" else 0.1):   # below noise floor → suppress
+            return ""
+        improving = (d < 0) if lower_better else (d > 0)
+        cls = "gh-delta--good" if improving else "gh-delta--bad"
+        arrow = "↑" if d > 0 else "↓"
+        mag = f"{abs(d):g} pts" if unit == "pts" else f"{abs(d):g}h"
+        return f'<span class="gh-delta {cls}">{arrow} {mag} {_basis}</span>'
+
+    try:
+        _csat_now = int((csat_launch.get("pct") or "0").rstrip("%"))
+    except ValueError:
+        _csat_now = None
+    # Wave legend generated from WAVES (single source of truth — no manual drift)
+    wave_legend_html = "".join(
+        f'<div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)">'
+        f'<span style="width:12px;height:12px;border-radius:2px;background:{w["color"]};display:inline-block" aria-hidden="true"></span>'
+        f'<span>{w["label"]} ({w["invites"]:,})</span></div>'
+        for w in WAVES
+    )
+
+    csat_delta = _delta(_csat_now, _snap.get("csat_pct"), lower_better=False, unit="pts")
+    gh_arrow   = _delta(gh_pct, _snap.get("esc_pct"), lower_better=True, unit="pts")
+    aht_delta  = _delta((data.get("aht") or {}).get("median_h"), _snap.get("aht_h"), lower_better=True, unit="h")
+    frt_delta  = _delta((data.get("frt") or {}).get("median_h"), _snap.get("frt_h"), lower_better=True, unit="h")
 
     # ── CSAT TL;DR — analyst-curated narrative (PII-safe), counts below auto-update ──
     _story = {}
@@ -841,7 +903,7 @@ def render(data):
         csat_tldr_html = f"""<div class="csat-tldr">
     <div class="csat-tldr__label">CSAT TL;DR <span class="csat-tldr__date">analyst-reviewed {_story.get("updated","")}</span></div>
     <p class="csat-tldr__line"><span class="csat-tldr__face">👍</span><span><strong>What people like —</strong> {_story.get("landing","")}</span></p>
-    <p class="csat-tldr__line"><span class="csat-tldr__face">👎</span><span><strong>What people hate —</strong> {_story.get("not_landing","")}</span></p>
+    <p class="csat-tldr__line"><span class="csat-tldr__face">👎</span><span><strong>What's frustrating people —</strong> {_story.get("not_landing","")}</span></p>
   </div>
 """
 
@@ -992,8 +1054,13 @@ def render(data):
         color    = w.get("color", "#4d7bf8")
         rate     = w["rate"]
         rate_cls = "wave-rate--high" if rate > 5 else "wave-rate--low"
-        note_html = ('<br><span class="wave-note">~35 misdirects (routing issue, fixed) inflated this rate</span>'
-                     if i == 0 else "")
+        w_age = (dt.date.today() - dt.date.fromisoformat(w["date"])).days
+        if i == 0:
+            note_html = '<br><span class="wave-note">~35 misdirects (routing issue, fixed) inflated this rate</span>'
+        elif w_age < WAVE_SETTLE_DAYS:
+            note_html = '<br><span class="wave-note">just sent — tickets still arriving, rate not settled</span>'
+        else:
+            note_html = ""
         csat     = w.get("csat_pct", "—")
         csat_n   = w.get("csat_n", 0)
         csat_note = f'<span class="wave-note">{csat_n} rated</span>' if csat_n else '<span class="wave-note">no ratings yet</span>'
@@ -1041,8 +1108,6 @@ def render(data):
             f"<td class='num'>{peak_day}/day</td></tr>\n"
         )
 
-    # age of most recent F3 wave for settling caveat
-    f3w3_age = (dt.date.today() - dt.date(2026, 6, 24)).days
 
     # ── wave contact-rate table rows ──────────────────────────────────────
     wave_rows = ""
@@ -1456,8 +1521,8 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .csat-bad-tix a{{color:var(--color-critical)}}
 .csat-corr-note{{font-size:.72rem;color:var(--color-text-muted);font-style:italic;margin-bottom:var(--space-24);margin-top:calc(var(--space-24) * -1 + var(--space-4))}}
 .gh-delta{{font-size:.72rem;font-weight:600;vertical-align:middle;margin-left:6px;white-space:nowrap}}
-.gh-delta--down{{color:var(--color-success)}}
-.gh-delta--up{{color:var(--color-critical)}}
+.gh-delta--down,.gh-delta--good{{color:var(--color-success)}}
+.gh-delta--up,.gh-delta--bad{{color:var(--color-critical)}}
 .hero{{
   background:linear-gradient(135deg,var(--color-surface-raised) 0%,var(--color-surface-overlay) 100%);
   border:1px solid var(--color-surface-border);border-radius:var(--radius-lg);
@@ -1711,22 +1776,22 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
       <div class="tile__sub">Waves 1+2 complete · historical baseline</div>
     </div>
     <div class="tile tile--span4 {"tile--success" if csat_launch.get("n",0) and int((csat_launch.get("pct") or "0").rstrip("%")) >= 80 else ""}">
-      <div class="tile__val">{csat_launch.get("pct","—")}</div>
+      <div class="tile__val">{csat_launch.get("pct","—")} {csat_delta}</div>
       <div class="tile__lbl">CSAT all-time</div>
       <div class="tile__sub">{csat_launch.get("good",0)} good · {csat_launch.get("bad",0)} bad · {csat_launch.get("n",0)} rated</div>
     </div>
     <div class="tile tile--span3">
       <div class="tile__val">{overall_rate}%</div>
       <div class="tile__lbl">Overall contact rate</div>
-      <div class="tile__sub">{total_combined} contacts / {TOTAL_INVITEES:,} invitees · tickets + ideas + comments</div>
+      <div class="tile__sub">{total_combined} contacts / {TOTAL_INVITEES:,} invitees · tickets + ideas + comments<br><span class="wave-note">Flight 4 (10k, Jun 29–30) just sent — rate will rise as those tickets arrive</span></div>
     </div>
     <div class="tile tile--span3 tile--warn">
-      <div class="tile__val">{aht_median}</div>
+      <div class="tile__val">{aht_median} {aht_delta}</div>
       <div class="tile__lbl">Median AHT</div>
       <div class="tile__sub">calendar time to resolve · {aht_n} solved</div>
     </div>
     <div class="tile tile--span3">
-      <div class="tile__val">{frt_median}</div>
+      <div class="tile__val">{frt_median} {frt_delta}</div>
       <div class="tile__lbl">First reply</div>
       <div class="tile__sub">from ticket created to first reply</div>
     </div>
@@ -1795,12 +1860,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="panel">
       <div class="panel__title">Wave legend</div>
       <div style="display:flex;flex-direction:column;gap:var(--space-12)">
-        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-early);display:inline-block" aria-hidden="true"></span><span>Early Bird (600)</span></div>
-        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w1);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 1 (500)</span></div>
-        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w2);display:inline-block" aria-hidden="true"></span><span>Flight 2 Wave 2 (1,500)</span></div>
-        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w3);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 1 (1,500)</span></div>
-        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w4);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 2 (3,000)</span></div>
-        <div style="display:grid;grid-template-columns:auto 1fr;align-items:center;gap:var(--space-8)"><span style="width:12px;height:12px;border-radius:2px;background:var(--color-wave-w5);display:inline-block" aria-hidden="true"></span><span>Flight 3 Wave 3 (2,000)</span></div>
+        {wave_legend_html}
       </div>
     </div>
   </div>
@@ -1838,7 +1898,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
           {proj_rows}
         </tbody>
       </table>
-      <p class="panel__note">Projections use the Flights 2+3 combined {avg_rate}% average (all waves except Early Bird). <strong>Note:</strong> Flight 3 Wave 3 is only {f3w3_age} day{"s" if f3w3_age != 1 else ""} old — its rate will rise as tickets arrive over 7–14 days, which may shift the baseline slightly upward. Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}%) excluded — inflated by misdirected contacts.</p>
+      <p class="panel__note">Projections use the {avg_rate}% average of <strong>settled waves only</strong> (≥{WAVE_SETTLE_DAYS} days old, where tickets have largely arrived). <strong>Excluded:</strong> Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% — inflated by misdirected contacts) and any fresh wave — including <strong>Flight 4 (10k sent Jun 29–30)</strong>, which is too new to have generated tickets and would otherwise drag the rate toward zero. Expect the baseline to firm up as Flight 4 settles over the next 7–14 days.</p>
     </div>
     <div class="panel">
       <div class="panel__title">Contact rate by wave</div>
@@ -2208,7 +2268,7 @@ def main():
     print(f"  {len(tickets)} tickets after exclusions ({raw_total} raw from brand_id query)", file=sys.stderr)
 
     print("Fetching AHT metrics…", file=sys.stderr)
-    aht_mins, frt_mins, aht_by_id = fetch_aht(auth, sub, tickets)
+    aht_mins, frt_mins, aht_by_id, frt_by_id = fetch_aht(auth, sub, tickets)
     print(f"  {len(aht_mins)} AHT samples, {len(aht_by_id)} ticket-keyed", file=sys.stderr)
 
     print("Fetching FeatureOS ideas…", file=sys.stderr)
@@ -2231,7 +2291,7 @@ def main():
     csat_all = fetch_csat_stats(tickets)
     print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated, {csat_all['eb']['bad']} bad)", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total, idea_comments=idea_comments)
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total, idea_comments=idea_comments, frt_by_id=frt_by_id)
     html = render(data)
 
     out = Path(args.out)
