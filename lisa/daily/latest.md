@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 18:38 ET** · refreshes hourly_  
+_Updated: **2026-06-30 19:37 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 9** of rollout — **6,500 invitees**, **52 tickets** so far (0.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 9** of rollout — **6,500 invitees**, **54 tickets** so far (0.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **7** solved in last 24h
-- **52** tickets total since launch · contact rate **1%** of 6500 invitees
+- **13** new tickets in last 24h · **6** solved in last 24h
+- **54** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 14
-- **Median AHT**: 40.3h · mean 51.4h (proxy: updated_at − created_at, 32 solved tickets)
+- **Median AHT**: 42.6h · mean 53.0h (proxy: updated_at − created_at, 31 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -50,14 +50,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 32
-- **pending**: 12
-- **open**: 4
+- **solved**: 31
+- **pending**: 13
+- **open**: 6
 - **hold**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 24
+- **Account Hub**: 25
 - **Thundermail**: 22
 - **Appointment**: 3
 - **Send**: 1
@@ -66,7 +66,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 15
+- **curious** + **explained**: 16
 - **blocked** + **explained**: 7
 - **blocked** + **investigated**: 5
 - **request** + **redirected**: 5
@@ -153,7 +153,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [6486](https://tbpro.zendesk.com/agent/tickets/6486) · 2026-06-29T22:09 · Annual payment instead of monthly payment
 - · [6489](https://tbpro.zendesk.com/agent/tickets/6489) · 2026-06-30T03:41 · Monthly subscription
 - · [6487](https://tbpro.zendesk.com/agent/tickets/6487) · 2026-06-30T03:42 · Subscription fee is a really bad idea
 - · [6396](https://tbpro.zendesk.com/agent/tickets/6396) · 2026-06-30T17:01 · Delivering incoming mail to global inbox
