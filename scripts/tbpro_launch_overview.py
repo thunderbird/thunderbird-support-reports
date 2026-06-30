@@ -127,9 +127,10 @@ WAVES = [
     {"date": "2026-06-30", "end": "2099-12-31", "invites": 5000, "label": "Flight 4 Wave 2",  "color": "#14b8a6"},
 ]
 TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 19,100 (Flight 4: 5k Jun 29 + 5k Jun 30)
-# Waves settle (tickets arrive) over ~7-14 days. The projection baseline excludes waves
-# younger than this so fresh sends don't drag the rate toward zero.
-WAVE_SETTLE_DAYS = 7
+# Waves settle (contacts arrive) over ~7-14 days. The projection baseline excludes waves
+# younger than this so still-ramping sends don't drag the rate down. 14 = fully settled
+# (a wave at 7-8 days is only partway there — its rate is still climbing).
+WAVE_SETTLE_DAYS = 14
 
 EXCLUDE_IDS = {5441, 5866}
 FEATUREOS_BOARD_ID = 17437
@@ -550,13 +551,19 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
             "mean_min":   round(statistics.mean(frt_mins)),
         }
 
-    # Projection baseline: average of SETTLED waves only — exclude Early Bird (inflated by
-    # misdirects) and any wave younger than WAVE_SETTLE_DAYS (tickets haven't arrived yet,
-    # so their rate is artificially low). Fresh sends like a brand-new flight must not drag it.
+    # Projection baseline: POOLED combined contact rate of SETTLED waves only.
+    # - exclude Early Bird (wave_stats[0]) — inflated by misdirects
+    # - exclude waves younger than WAVE_SETTLE_DAYS — still ramping, rate not yet real
+    # - POOL (sum contacts / sum invites), don't average per-wave rates — a 500-invite
+    #   wave must not weigh the same as a 3,000-invite wave.
     settled = [ws for ws in wave_stats[1:]
                if (today - dt.date.fromisoformat(ws["date"])).days >= WAVE_SETTLE_DAYS]
-    f2_rates = [ws["rate"] for ws in settled] or [ws["rate"] for ws in wave_stats[1:]]
-    avg_rate = round(sum(f2_rates) / len(f2_rates), 2) if f2_rates else 1.0
+    _pool = settled or wave_stats[1:]
+    _pool_contacts = sum(ws.get("combined", ws["tickets"]) for ws in _pool)
+    _pool_invites  = sum(ws["invites"] for ws in _pool)
+    avg_rate = round(_pool_contacts / _pool_invites * 100, 2) if _pool_invites else 1.0
+    # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
+    surge_pct = 0.40
     # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
     surge_pct = 0.40
 
@@ -1742,7 +1749,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   </nav>
   <div class="rail__stats">
     <div class="rail-stat"><div class="rail-stat__val">{total}</div><div class="rail-stat__lbl">Tickets</div></div>
-    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">{avg_rate}%</div><div class="rail-stat__lbl">Flights 2+3 baseline</div></div>
+    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">{avg_rate}%</div><div class="rail-stat__lbl">Settled-wave baseline</div></div>
     <div class="rail-stat {rail_csat_cls}"><div class="rail-stat__val">{rail_csat_pct}</div><div class="rail-stat__lbl">CSAT</div></div>
     <div class="rail-stat"><div class="rail-stat__val">{frt_median}</div><div class="rail-stat__lbl">First reply</div></div>
   </div>
@@ -1760,7 +1767,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 <section class="section" id="story">
   <div class="hero">
     <div class="hero__eyebrow">Early Bird May 4 → {data["today"]} · {TOTAL_INVITEES:,} invitees · Generated {gen}</div>
-    <h1 class="hero__headline">Flights 2+3 combined: <em>{avg_rate}%</em> contact rate — active baseline for staffing.</h1>
+    <h1 class="hero__headline">Settled waves: <em>{avg_rate}%</em> pooled contact rate — active baseline for staffing.</h1>
     <p class="hero__meta">{total_combined} contacts across all waves ({total} tickets · {total_ideas} ideas · {total_idea_coms} comments) · <span>Zendesk Explore may show ~{raw_total} total created tickets</span></p>
   </div>
 
@@ -1772,8 +1779,8 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     </div>
     <div class="tile tile--span4 tile--success">
       <div class="tile__val">{avg_rate}%</div>
-      <div class="tile__lbl">Flights 2+3 contact rate</div>
-      <div class="tile__sub">Waves 1+2 complete · historical baseline</div>
+      <div class="tile__lbl">Settled-wave contact rate</div>
+      <div class="tile__sub">pooled, waves ≥{WAVE_SETTLE_DAYS}d old · excl. Early Bird &amp; fresh sends</div>
     </div>
     <div class="tile tile--span4 {"tile--success" if csat_launch.get("n",0) and int((csat_launch.get("pct") or "0").rstrip("%")) >= 80 else ""}">
       <div class="tile__val">{csat_launch.get("pct","—")} {csat_delta}</div>
@@ -1839,9 +1846,9 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   {csat_story_html}
 
   <div class="insight">
-    <strong>Capacity projection — next flight</strong> — using Flights 2+3 {avg_rate}% contact rate, {round(surge*100,0):.0f}% of weekly tickets land on day 2.
+    <strong>Capacity projection — next flight</strong> — using the {avg_rate}% pooled contact rate of settled waves, {round(surge*100,0):.0f}% of weekly contacts land on day 2.
     <div class="insight__nums">
-      <div class="insight__num"><div class="insight__num-val">~{per_1k}</div><div class="insight__num-lbl">tickets / 1k invites</div></div>
+      <div class="insight__num"><div class="insight__num-val">~{per_1k}</div><div class="insight__num-lbl">contacts / 1k invites</div></div>
       <div class="insight__num"><div class="insight__num-val">~{day2}</div><div class="insight__num-lbl">day-2 peak</div></div>
       <div class="insight__num"><div class="insight__num-val">{aht_median}</div><div class="insight__num-lbl">median resolution</div></div>
     </div>
@@ -1893,12 +1900,12 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="panel">
       <div class="panel__title">Projection — next flight</div>
       <table class="tbl">
-        <thead><tr><th class="num">Batch size</th><th class="num">Expected tickets</th><th class="num">Day-2 peak</th></tr></thead>
+        <thead><tr><th class="num">Batch size</th><th class="num">Expected contacts</th><th class="num">Day-2 peak</th></tr></thead>
         <tbody>
           {proj_rows}
         </tbody>
       </table>
-      <p class="panel__note">Projections use the {avg_rate}% average of <strong>settled waves only</strong> (≥{WAVE_SETTLE_DAYS} days old, where tickets have largely arrived). <strong>Excluded:</strong> Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% — inflated by misdirected contacts) and any fresh wave — including <strong>Flight 4 (10k sent Jun 29–30)</strong>, which is too new to have generated tickets and would otherwise drag the rate toward zero. Expect the baseline to firm up as Flight 4 settles over the next 7–14 days.</p>
+      <p class="panel__note">Projections use the {avg_rate}% <strong>pooled</strong> contact rate (total contacts ÷ total invites) of <strong>settled waves only</strong> (≥{WAVE_SETTLE_DAYS} days old, where contacts have largely arrived). <strong>Excluded:</strong> Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% — inflated by misdirected contacts) and every still-ramping wave — Flight 3 (7–8 days old) and <strong>Flight 4 (10k sent Jun 29–30)</strong> — which would otherwise drag the rate down. As Flight 3 then Flight 4 cross 14 days, they join the baseline and it will firm up.</p>
     </div>
     <div class="panel">
       <div class="panel__title">Contact rate by wave</div>
@@ -1996,7 +2003,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <details><summary>First Reply Time</summary><div class="glossary__body">Time from ticket creation to the agent's first response. Reported in calendar hours.</div></details>
     <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who made contact across any channel. Calculated as: (support tickets + FeatureOS idea submissions + customer comments on ideas) ÷ invitees in that wave. Staff/team comments are excluded. A lower rate indicates a smoother onboarding experience.</div></details>
     <details><summary>Day-2 Peak</summary><div class="glossary__body">Historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</div></details>
-    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect Thundermail support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flight 2+3: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the Flights 2+3 baseline.</div></details>
+    <details><summary>Misdirected — wrong product / non-subscriber</summary><div class="glossary__body">Tickets from people who do not have a Thundermail account and contacted support by mistake (e.g. desktop Thunderbird users, people who found the form via search). These are redirected to the correct channel and do not reflect Thundermail support demand. A routing issue fixed May 19 (<a href="https://github.com/thunderbird/thunderbird-accounts/issues/834" target="_blank">accounts#834</a>). Flights 2–4: 0 misdirects. Shown in a collapsed historical section on the themes panel, not in the settled-wave baseline.</div></details>
     <details><summary>Cumulative contact rate</summary><div class="glossary__body">Running total of tickets divided by total invitees sent at that point in time. Drops sharply when a large new invite wave goes out (more invitees, same tickets).</div></details>
   </div>
 </section>
