@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 03:47 ET** · refreshes hourly_  
+_Updated: **2026-07-01 05:22 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **56 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **57 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **1** solved in last 24h
-- **56** tickets total since launch · contact rate **1%** of 6500 invitees
+- **7** new tickets in last 24h · **1** solved in last 24h
+- **57** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
@@ -20,7 +20,7 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **56 tickets** so far 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"throwing authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -48,10 +48,11 @@ _(none in last 24h)_
 - **open**: 13
 - **pending**: 11
 - **hold**: 4
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 26
+- **Account Hub**: 27
 - **Thundermail**: 23
 - **Appointment**: 3
 - **Send**: 1
@@ -81,6 +82,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
   > Hi, I just paid for my new Thundermail account. My email is [email]. I followed the instructions and downloaded the Thunderbird Desktop client on Windows, and it keeps throwing an…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6532](https://tbpro.zendesk.com/agent/tickets/6532)** · domain
+  > i initiated a early bird subscription bur used "[domain]" in stead of my domain "[domain]"
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6530](https://tbpro.zendesk.com/agent/tickets/6530)** · Can't create Thundermail account containing "ssl"
@@ -109,6 +115,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6527](https://tbpro.zendesk.com/agent/tickets/6527) · [open] · 2026-06-30T23:29 · Forgot My Thundermail Address
 - [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [open] · 2026-06-30T23:57 · Change the recovery e-mail
 - [6530](https://tbpro.zendesk.com/agent/tickets/6530) · [open] · 2026-07-01T02:26 · Can't create Thundermail account containing "ssl"
+- [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [new] · 2026-07-01T08:29 · domain
 
 ## Solved — last 24h
 
