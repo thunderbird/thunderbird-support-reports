@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 05:22 ET** · refreshes hourly_  
+_Updated: **2026-07-01 07:16 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **57 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **58 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **1** solved in last 24h
-- **57** tickets total since launch · contact rate **1%** of 6500 invitees
+- **8** new tickets in last 24h · **1** solved in last 24h
+- **58** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
@@ -20,7 +20,7 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **57 tickets** so far 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"throwing authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"keeps throwing"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -32,9 +32,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [new] · _Too late to cancel?_
+  > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient anyway, I'd appreciate it.
 
 ## New ideas on FeatureOS
 
@@ -48,11 +49,11 @@ _(none in last 24h)_
 - **open**: 13
 - **pending**: 11
 - **hold**: 4
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 27
+- **Account Hub**: 28
 - **Thundermail**: 23
 - **Appointment**: 3
 - **Send**: 1
@@ -75,8 +76,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#6534](https://tbpro.zendesk.com/agent/tickets/6534)** · Too late to cancel?
+  > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient…
 - **[#6525](https://tbpro.zendesk.com/agent/tickets/6525)** · Unable to use mŷnew Thundermail account
   > Hi, My Thundermail account is [email]. I paid for this yesterday. I am not able to access it via the Thunderbird client. It keeps throwing an authentication error saying invalid…
 - **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
@@ -116,6 +119,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [open] · 2026-06-30T23:57 · Change the recovery e-mail
 - [6530](https://tbpro.zendesk.com/agent/tickets/6530) · [open] · 2026-07-01T02:26 · Can't create Thundermail account containing "ssl"
 - [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [new] · 2026-07-01T08:29 · domain
+- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [new] · 2026-07-01T11:04 · Too late to cancel?
 
 ## Solved — last 24h
 
