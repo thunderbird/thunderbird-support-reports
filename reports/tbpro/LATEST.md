@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 14:51 ET** · refreshes hourly_  
+_Updated: **2026-07-01 15:45 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,19 +9,19 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **62 tickets** so far 
 
 ## At a glance
 
-- **13** new tickets in last 24h · **14** solved in last 24h
+- **13** new tickets in last 24h · **16** solved in last 24h
 - **62** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
-- **Median AHT**: 36.1h · mean 45.6h (proxy: updated_at − created_at, 41 solved tickets)
+- **Median AHT**: 37.1h · mean 46.1h (proxy: updated_at − created_at, 42 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"possible change"** — 2 tickets in 24h (new; baseline 0 cum) — [#6528](https://tbpro.zendesk.com/agent/tickets/6528), [#6543](https://tbpro.zendesk.com/agent/tickets/6543)
-- **"keeps throwing authentication"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"throwing authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -51,10 +51,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 41
+- **solved**: 42
 - **pending**: 12
 - **hold**: 5
-- **open**: 4
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -71,8 +71,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 10
 - **change request** + **actioned**: 6
 - **confused** + **explained**: 5
-- **blocked** + **investigated**: 5
 - **request** + **redirected**: 5
+- **blocked** + **investigated**: 5
 - **blocked** + **redirected**: 1
 - **blocked** + **actioned**: 1
 - **curious** + **informed**: 1
@@ -165,6 +165,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6486](https://tbpro.zendesk.com/agent/tickets/6486) · 2026-07-01T15:36 · Annual payment instead of monthly payment
 - · [6543](https://tbpro.zendesk.com/agent/tickets/6543) · 2026-07-01T18:28 · Monthly Billing
 - · [6536](https://tbpro.zendesk.com/agent/tickets/6536) · 2026-07-01T18:43 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
+- · [6511](https://tbpro.zendesk.com/agent/tickets/6511) · 2026-07-01T19:02 · Cannot pay using Russian card
+- · [6492](https://tbpro.zendesk.com/agent/tickets/6492) · 2026-07-01T19:05 · Can’t Login
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
