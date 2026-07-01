@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 13:46 ET** · refreshes hourly_  
+_Updated: **2026-07-01 14:51 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **63 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **62 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **12** solved in last 24h
-- **63** tickets total since launch · contact rate **1%** of 6500 invitees
+- **13** new tickets in last 24h · **14** solved in last 24h
+- **62** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
-- **Median AHT**: 38.0h · mean 47.7h (proxy: updated_at − created_at, 39 solved tickets)
+- **Median AHT**: 36.1h · mean 45.6h (proxy: updated_at − created_at, 41 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -51,14 +51,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 39
+- **solved**: 41
 - **pending**: 12
-- **open**: 6
-- **hold**: 6
+- **hold**: 5
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 32
+- **Account Hub**: 31
 - **Thundermail**: 25
 - **Appointment**: 3
 - **Send**: 1
@@ -69,29 +69,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 16
 - **blocked** + **explained**: 10
-- **blocked** + **investigated**: 6
+- **change request** + **actioned**: 6
 - **confused** + **explained**: 5
+- **blocked** + **investigated**: 5
 - **request** + **redirected**: 5
-- **change request** + **actioned**: 5
+- **blocked** + **redirected**: 1
 - **blocked** + **actioned**: 1
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
-- **other** + **explained**: 1
 - **concerned** + **investigated**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 2 tickets
+### Refund / Cancel — 3 tickets
 
-- **[#6536](https://tbpro.zendesk.com/agent/tickets/6536)** · Unable to log in at server. Probably wrong configuration, username or password when trying to login to Thundermail on Thunderbird — why: **blocked** · how: **investigated**
-  > Attempting to connect with OAuth authentication and recommended settings in Thunderbird yields Unable to log in at server. Probably wrong configuration, username or password. I…
-- **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address — why: **blocked** · how: **explained**
-  > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
-
-### Refund / Cancel — 2 tickets
-
+- **[#6543](https://tbpro.zendesk.com/agent/tickets/6543)** · Monthly Billing — why: **change request** · how: **actioned**
+  > Hello [name] - I just received my invitation to try out TB Pro and signed up. I was interesting in checking out the service to see if I wanted to migrate. I saw it was going to be…
 - **[#6541](https://tbpro.zendesk.com/agent/tickets/6541)** · Release thundermail email address — why: **change request** · how: **actioned**
   > Hi guys I started the process to set up [email] yesterday, but didn't complete the payment step. I want to see if a different email address is available before I do, so can you…
 - **[#6534](https://tbpro.zendesk.com/agent/tickets/6534)** · Too late to cancel? — why: **change request** · how: **actioned**
@@ -104,17 +99,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6530](https://tbpro.zendesk.com/agent/tickets/6530)** · Can't create Thundermail account containing "ssl" — why: **confused** · how: **explained**
   > When trying to create a Thundermail account with a username containing “ssl”, as in my surname “Zettlmeissl”, the form returns: “This username is not valid. Try another one.” Nice…
 
+### Account access issues — 2 tickets
+
+- **[#6536](https://tbpro.zendesk.com/agent/tickets/6536)** · Unable to log in at server. Probably wrong configuration, username or password when trying to login to Thundermail on Thunderbird — why: **blocked** · how: **redirected**
+  > Attempting to connect with OAuth authentication and recommended settings in Thunderbird yields Unable to log in at server. Probably wrong configuration, username or password. I…
+- **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address — why: **blocked** · how: **explained**
+  > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#6525](https://tbpro.zendesk.com/agent/tickets/6525)** · Unable to use mŷnew Thundermail account — why: **blocked** · how: **explained**
   > Hi, My Thundermail account is [email]. I paid for this yesterday. I am not able to access it via the Thunderbird client. It keeps throwing an authentication error saying invalid…
 - **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
   > Hi, I just paid for my new Thundermail account. My email is [email]. I followed the instructions and downloaded the Thunderbird Desktop client on Windows, and it keeps throwing an…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6543](https://tbpro.zendesk.com/agent/tickets/6543)** · Monthly Billing
-  > Hello [name] - I just received my invitation to try out TB Pro and signed up. I was interesting in checking out the service to see if I wanted to migrate. I saw it was going to be…
 
 ### Custom domain DNS — 1 tickets
 
@@ -146,11 +143,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6530](https://tbpro.zendesk.com/agent/tickets/6530) · [solved] · 2026-07-01T02:26 · Can't create Thundermail account containing "ssl"
 - [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [solved] · 2026-07-01T08:29 · domain
 - [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [solved] · 2026-07-01T11:04 · Too late to cancel?
-- [6536](https://tbpro.zendesk.com/agent/tickets/6536) · [open] · 2026-07-01T12:46 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
+- [6536](https://tbpro.zendesk.com/agent/tickets/6536) · [solved] · 2026-07-01T12:46 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
 - [6538](https://tbpro.zendesk.com/agent/tickets/6538) · [solved] · 2026-07-01T14:16 · thundermail
 - [6540](https://tbpro.zendesk.com/agent/tickets/6540) · [open] · 2026-07-01T15:22 · Domain report from google
 - [6541](https://tbpro.zendesk.com/agent/tickets/6541) · [hold] · 2026-07-01T15:23 · Release thundermail email address
-- [6543](https://tbpro.zendesk.com/agent/tickets/6543) · [open] · 2026-07-01T16:48 · Monthly Billing
+- [6543](https://tbpro.zendesk.com/agent/tickets/6543) · [solved] · 2026-07-01T16:48 · Monthly Billing
 
 ## Solved — last 24h
 
@@ -166,6 +163,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-01T15:23 · Unable to send emails out from Thunderbird
 - · [6538](https://tbpro.zendesk.com/agent/tickets/6538) · 2026-07-01T15:34 · thundermail
 - · [6486](https://tbpro.zendesk.com/agent/tickets/6486) · 2026-07-01T15:36 · Annual payment instead of monthly payment
+- · [6543](https://tbpro.zendesk.com/agent/tickets/6543) · 2026-07-01T18:28 · Monthly Billing
+- · [6536](https://tbpro.zendesk.com/agent/tickets/6536) · 2026-07-01T18:43 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
