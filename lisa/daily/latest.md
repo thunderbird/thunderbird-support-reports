@@ -1,26 +1,27 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 11:09 ET** · refreshes hourly_  
+_Updated: **2026-07-01 12:57 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **61 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **63 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **8** solved in last 24h
-- **61** tickets total since launch · contact rate **1%** of 6500 invitees
+- **13** new tickets in last 24h · **12** solved in last 24h
+- **63** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
-- **Median AHT**: 42.6h · mean 50.7h (proxy: updated_at − created_at, 35 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
+- **Median AHT**: 38.0h · mean 47.7h (proxy: updated_at − created_at, 39 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"throwing authentication"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"possible change"** — 2 tickets in 24h (new; baseline 0 cum) — [#6528](https://tbpro.zendesk.com/agent/tickets/6528), [#6543](https://tbpro.zendesk.com/agent/tickets/6543)
+- **"keeps throwing"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -34,11 +35,11 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 3
 
-- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [open] · _Too late to cancel?_
+- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [solved] · _Too late to cancel?_
   > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient anyway, I'd appreciate it.
 - [6535](https://tbpro.zendesk.com/agent/tickets/6535) · [solved] · _Cancel Thundermail_
   > I'm curious if I can cancel Thundermail and get some/all of the payment back. I've had access for less than 24 hours. I knew this was beta, but I was under the impression I could have multiple users on my domain, but I…
-- [6537](https://tbpro.zendesk.com/agent/tickets/6537) · [open] · _Please Cancel Account_
+- [6537](https://tbpro.zendesk.com/agent/tickets/6537) · [solved] · _Please Cancel Account_
   > Cancel Account.
 
 ## New ideas on FeatureOS
@@ -50,15 +51,15 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 35
+- **solved**: 39
 - **pending**: 12
-- **open**: 8
-- **hold**: 6
+- **hold**: 7
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 30
-- **Thundermail**: 24
+- **Account Hub**: 32
+- **Thundermail**: 25
 - **Appointment**: 3
 - **Send**: 1
 
@@ -67,49 +68,63 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 16
-- **blocked** + **explained**: 9
-- **blocked** + **investigated**: 5
+- **blocked** + **explained**: 10
+- **blocked** + **investigated**: 6
+- **confused** + **explained**: 5
 - **request** + **redirected**: 5
-- **confused** + **explained**: 4
-- **change request** + **actioned**: 3
+- **change request** + **actioned**: 5
 - **blocked** + **actioned**: 1
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
 - **other** + **explained**: 1
+- **concerned** + **investigated**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 4 tickets
+### Account access issues — 2 tickets
 
-- **[#6537](https://tbpro.zendesk.com/agent/tickets/6537)** · Please Cancel Account
-  > Cancel Account.
-- **[#6534](https://tbpro.zendesk.com/agent/tickets/6534)** · Too late to cancel?
+- **[#6536](https://tbpro.zendesk.com/agent/tickets/6536)** · Unable to log in at server. Probably wrong configuration, username or password when trying to login to Thundermail on Thunderbird — why: **blocked** · how: **investigated**
+  > Attempting to connect with OAuth authentication and recommended settings in Thunderbird yields Unable to log in at server. Probably wrong configuration, username or password. I…
+- **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address — why: **blocked** · how: **explained**
+  > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
+
+### Refund / Cancel — 2 tickets
+
+- **[#6541](https://tbpro.zendesk.com/agent/tickets/6541)** · Release thundermail email address — why: **change request** · how: **actioned**
+  > Hi guys I started the process to set up [email] yesterday, but didn't complete the payment step. I want to see if a different email address is available before I do, so can you…
+- **[#6534](https://tbpro.zendesk.com/agent/tickets/6534)** · Too late to cancel? — why: **change request** · how: **actioned**
   > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient…
+
+### Early bird signup — 2 tickets
+
+- **[#6538](https://tbpro.zendesk.com/agent/tickets/6538)** · thundermail — why: **blocked** · how: **explained**
+  > What is the default user login suffix? I signed up but my password manager only saved the password.... And I only remember my prefix rgo@??? Can't finish my onboarding. 😞
+- **[#6530](https://tbpro.zendesk.com/agent/tickets/6530)** · Can't create Thundermail account containing "ssl" — why: **confused** · how: **explained**
+  > When trying to create a Thundermail account with a username containing “ssl”, as in my surname “Zettlmeissl”, the form returns: “This username is not valid. Try another one.” Nice…
+
+### Subscription / billing / refund / cancel — 2 tickets
+
 - **[#6525](https://tbpro.zendesk.com/agent/tickets/6525)** · Unable to use mŷnew Thundermail account — why: **blocked** · how: **explained**
   > Hi, My Thundermail account is [email]. I paid for this yesterday. I am not able to access it via the Thunderbird client. It keeps throwing an authentication error saying invalid…
 - **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
   > Hi, I just paid for my new Thundermail account. My email is [email]. I followed the instructions and downloaded the Thunderbird Desktop client on Windows, and it keeps throwing an…
 
-### Account access issues — 3 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#6538](https://tbpro.zendesk.com/agent/tickets/6538)** · thundermail
-  > What is the default user login suffix? I signed up but my password manager only saved the password.... And I only remember my prefix rgo@??? Can't finish my onboarding. 😞
-- **[#6536](https://tbpro.zendesk.com/agent/tickets/6536)** · Unable to log in at server. Probably wrong configuration, username or password when trying to login to Thundermail on Thunderbird
-  > Attempting to connect with OAuth authentication and recommended settings in Thunderbird yields Unable to log in at server. Probably wrong configuration, username or password. I…
-- **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address — why: **blocked** · how: **explained**
-  > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
+- **[#6543](https://tbpro.zendesk.com/agent/tickets/6543)** · Monthly Billing
+  > Hello [name] - I just received my invitation to try out TB Pro and signed up. I was interesting in checking out the service to see if I wanted to migrate. I saw it was going to be…
+
+### Custom domain DNS — 1 tickets
+
+- **[#6540](https://tbpro.zendesk.com/agent/tickets/6540)** · Domain report from google — why: **confused** · how: **explained**
+  > Hello, after setting everything up with my custom domain according to the instructions (including double checking to verify that the DNS records were correct), today I received a…
 
 ### Custom domain setup — 1 tickets
 
 - **[#6532](https://tbpro.zendesk.com/agent/tickets/6532)** · domain — why: **confused** · how: **explained**
   > i initiated a early bird subscription bur used "[domain]" in stead of my domain "[domain]"
-
-### Early bird signup — 1 tickets
-
-- **[#6530](https://tbpro.zendesk.com/agent/tickets/6530)** · Can't create Thundermail account containing "ssl" — why: **confused** · how: **explained**
-  > When trying to create a Thundermail account with a username containing “ssl”, as in my surname “Zettlmeissl”, the form returns: “This username is not valid. Try another one.” Nice…
 
 ### Other / uncategorized — 1 tickets
 
@@ -130,10 +145,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [pending] · 2026-06-30T23:57 · Change the recovery e-mail
 - [6530](https://tbpro.zendesk.com/agent/tickets/6530) · [solved] · 2026-07-01T02:26 · Can't create Thundermail account containing "ssl"
 - [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [solved] · 2026-07-01T08:29 · domain
-- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [open] · 2026-07-01T11:04 · Too late to cancel?
+- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [solved] · 2026-07-01T11:04 · Too late to cancel?
 - [6536](https://tbpro.zendesk.com/agent/tickets/6536) · [open] · 2026-07-01T12:46 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
-- [6537](https://tbpro.zendesk.com/agent/tickets/6537) · [open] · 2026-07-01T13:01 · Please Cancel Account
-- [6538](https://tbpro.zendesk.com/agent/tickets/6538) · [open] · 2026-07-01T14:16 · thundermail
+- [6538](https://tbpro.zendesk.com/agent/tickets/6538) · [solved] · 2026-07-01T14:16 · thundermail
+- [6540](https://tbpro.zendesk.com/agent/tickets/6540) · [open] · 2026-07-01T15:22 · Domain report from google
+- [6541](https://tbpro.zendesk.com/agent/tickets/6541) · [hold] · 2026-07-01T15:23 · Release thundermail email address
+- [6543](https://tbpro.zendesk.com/agent/tickets/6543) · [open] · 2026-07-01T16:48 · Monthly Billing
 
 ## Solved — last 24h
 
@@ -145,6 +162,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-01T14:56 · Can't create Thundermail account containing "ssl"
 - · [6489](https://tbpro.zendesk.com/agent/tickets/6489) · 2026-07-01T14:57 · Monthly subscription
 - · [6487](https://tbpro.zendesk.com/agent/tickets/6487) · 2026-07-01T14:57 · Subscription fee is a really bad idea
+- · [6534](https://tbpro.zendesk.com/agent/tickets/6534) · 2026-07-01T15:15 · Too late to cancel?
+- · [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-01T15:23 · Unable to send emails out from Thunderbird
+- · [6538](https://tbpro.zendesk.com/agent/tickets/6538) · 2026-07-01T15:34 · thundermail
+- · [6486](https://tbpro.zendesk.com/agent/tickets/6486) · 2026-07-01T15:36 · Annual payment instead of monthly payment
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
