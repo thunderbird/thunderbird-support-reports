@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-06-30
 
-_Updated: **2026-06-30 19:37 ET** · refreshes hourly_  
+_Updated: **2026-06-30 21:20 ET** · refreshes hourly_  
 _24h window: 2026-06-29T16:00 → 2026-06-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 9** of rollout — **6,500 invitees**, **54 tickets** so far (0.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 9** of rollout — **6,500 invitees**, **55 tickets** so far (0.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **6** solved in last 24h
-- **54** tickets total since launch · contact rate **1%** of 6500 invitees
+- **55** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 14
-- **Median AHT**: 42.6h · mean 53.0h (proxy: updated_at − created_at, 31 solved tickets)
+- **Median AHT**: 42.6h · mean 54.7h (proxy: updated_at − created_at, 30 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -50,14 +50,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 31
-- **pending**: 13
-- **open**: 6
+- **solved**: 30
+- **pending**: 12
+- **open**: 9
 - **hold**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 25
+- **Account Hub**: 26
 - **Thundermail**: 22
 - **Appointment**: 3
 - **Send**: 1
@@ -72,6 +72,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 5
 - **change request** + **actioned**: 3
 - **confused** + **explained**: 2
+- **other** + **explained**: 1
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
 - **request** + **actioned**: 1
@@ -100,15 +101,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6496](https://tbpro.zendesk.com/agent/tickets/6496)** · Custom Domain DKIM not working — why: **blocked** · how: **explained**
   > Hello, after configuring my custom domain [domain] and testing messages with popular providers (so far I have tried Gmail, Yahoo, and iCloud), it appears messages sent from my…
 
-### Email migration / import — 1 tickets
-
-- **[#6503](https://tbpro.zendesk.com/agent/tickets/6503)** · Contact form
-  > Deletion of previous account with a username that was apparently too short. Email asked to mention Lisa and the code 5872
-
 ### Waitlist / onboarding inquiry — 1 tickets
 
 - **[#6520](https://tbpro.zendesk.com/agent/tickets/6520)** · Signup Issue — why: **blocked** · how: **explained**
   > Just signed up but still no email with logon instructions.
+
+### Email migration / import — 1 tickets
+
+- **[#6503](https://tbpro.zendesk.com/agent/tickets/6503)** · Contact form — why: **other** · how: **explained**
+  > Deletion of previous account with a username that was apparently too short. Email asked to mention Lisa and the code 5872
 
 ### Aliases — 1 tickets
 
@@ -149,7 +150,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6515](https://tbpro.zendesk.com/agent/tickets/6515) · [pending] · 2026-06-30T18:32 · SRV syntax error on Gandi custom domain
 - [6517](https://tbpro.zendesk.com/agent/tickets/6517) · [pending] · 2026-06-30T19:07 · Mobile Server Sync Problem
 - [6519](https://tbpro.zendesk.com/agent/tickets/6519) · [pending] · 2026-06-30T19:33 · [domain] email address
-- [6520](https://tbpro.zendesk.com/agent/tickets/6520) · [solved] · 2026-06-30T19:57 · Signup Issue
+- [6520](https://tbpro.zendesk.com/agent/tickets/6520) · [open] · 2026-06-30T19:57 · Signup Issue
 
 ## Solved — last 24h
 
