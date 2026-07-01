@@ -1,27 +1,27 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 17:43 ET** · refreshes hourly_  
+_Updated: **2026-07-01 18:38 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **61 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **62 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **15** solved in last 24h
-- **61** tickets total since launch · contact rate **1%** of 6500 invitees
+- **12** new tickets in last 24h · **13** solved in last 24h
+- **62** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (13 good / 0 bad)
+- **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
-- **Median AHT**: 37.1h · mean 46.2h (proxy: updated_at − created_at, 42 solved tickets)
+- **Median AHT**: 38.0h · mean 47.5h (proxy: updated_at − created_at, 41 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"throwing authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 - **"possible change"** — 2 tickets in 24h (new; baseline 0 cum) — [#6528](https://tbpro.zendesk.com/agent/tickets/6528), [#6543](https://tbpro.zendesk.com/agent/tickets/6543)
-- **"throwing authentication"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -51,15 +51,15 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 42
-- **pending**: 12
-- **open**: 4
+- **solved**: 41
+- **pending**: 11
+- **open**: 7
 - **hold**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 30
-- **Thundermail**: 25
+- **Thundermail**: 26
 - **Appointment**: 3
 - **Send**: 1
 
@@ -83,6 +83,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#6525](https://tbpro.zendesk.com/agent/tickets/6525)** · Unable to use mŷnew Thundermail account — why: **blocked** · how: **explained**
+  > Hi, My Thundermail account is [email]. I paid for this yesterday. I am not able to access it via the Thunderbird client. It keeps throwing an authentication error saying invalid…
+- **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
+  > Hi, I just paid for my new Thundermail account. My email is [email]. I followed the instructions and downloaded the Thunderbird Desktop client on Windows, and it keeps throwing an…
+
 ### Refund / Cancel — 2 tickets
 
 - **[#6543](https://tbpro.zendesk.com/agent/tickets/6543)** · Monthly Billing — why: **change request** · how: **actioned**
@@ -103,13 +110,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Attempting to connect with OAuth authentication and recommended settings in Thunderbird yields Unable to log in at server. Probably wrong configuration, username or password. I…
 - **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address — why: **blocked** · how: **explained**
   > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#6525](https://tbpro.zendesk.com/agent/tickets/6525)** · Unable to use mŷnew Thundermail account — why: **blocked** · how: **explained**
-  > Hi, My Thundermail account is [email]. I paid for this yesterday. I am not able to access it via the Thunderbird client. It keeps throwing an authentication error saying invalid…
-- **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
-  > Hi, I just paid for my new Thundermail account. My email is [email]. I followed the instructions and downloaded the Thunderbird Desktop client on Windows, and it keeps throwing an…
 
 ### Custom domain DNS — 1 tickets
 
@@ -133,8 +133,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6524](https://tbpro.zendesk.com/agent/tickets/6524) · [pending] · 2026-06-30T21:47 · Unable to use my new email and configure Thunderbird
-- [6525](https://tbpro.zendesk.com/agent/tickets/6525) · [solved] · 2026-06-30T21:50 · Unable to use mŷnew Thundermail account
+- [6524](https://tbpro.zendesk.com/agent/tickets/6524) · [open] · 2026-06-30T21:47 · Unable to use my new email and configure Thunderbird
+- [6525](https://tbpro.zendesk.com/agent/tickets/6525) · [open] · 2026-06-30T21:50 · Unable to use mŷnew Thundermail account
 - [6526](https://tbpro.zendesk.com/agent/tickets/6526) · [solved] · 2026-06-30T22:52 · Payment for wishlist invite of Thundermail
 - [6527](https://tbpro.zendesk.com/agent/tickets/6527) · [solved] · 2026-06-30T23:29 · Forgot My Thundermail Address
 - [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [pending] · 2026-06-30T23:57 · Change the recovery e-mail
@@ -148,8 +148,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [6509](https://tbpro.zendesk.com/agent/tickets/6509) · 2026-06-30T21:43 · Beta Signup
-- · [6525](https://tbpro.zendesk.com/agent/tickets/6525) · 2026-07-01T13:44 · Unable to use mŷnew Thundermail account
 - · [6532](https://tbpro.zendesk.com/agent/tickets/6532) · 2026-07-01T14:14 · domain
 - · [6527](https://tbpro.zendesk.com/agent/tickets/6527) · 2026-07-01T14:29 · Forgot My Thundermail Address
 - · [6526](https://tbpro.zendesk.com/agent/tickets/6526) · 2026-07-01T14:41 · Payment for wishlist invite of Thundermail
