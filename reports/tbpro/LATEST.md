@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 18:38 ET** · refreshes hourly_  
+_Updated: **2026-07-01 19:39 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,19 +9,19 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **62 tickets** so far 
 
 ## At a glance
 
-- **12** new tickets in last 24h · **13** solved in last 24h
+- **12** new tickets in last 24h · **12** solved in last 24h
 - **62** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (14 good / 0 bad)
+- **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
-- **Median AHT**: 38.0h · mean 47.5h (proxy: updated_at − created_at, 41 solved tickets)
+- **Median AHT**: 38.0h · mean 47.7h (proxy: updated_at − created_at, 41 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"throwing authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 - **"possible change"** — 2 tickets in 24h (new; baseline 0 cum) — [#6528](https://tbpro.zendesk.com/agent/tickets/6528), [#6543](https://tbpro.zendesk.com/agent/tickets/6543)
+- **"keeps throwing"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -52,8 +52,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 41
-- **pending**: 11
-- **open**: 7
+- **pending**: 10
+- **open**: 8
 - **hold**: 3
 
 ## Service (cumulative)
@@ -73,8 +73,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 5
 - **change request** + **actioned**: 5
 - **blocked** + **investigated**: 5
-- **blocked** + **redirected**: 1
 - **blocked** + **actioned**: 1
+- **blocked** + **redirected**: 1
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
 - **concerned** + **investigated**: 1
@@ -116,15 +116,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6540](https://tbpro.zendesk.com/agent/tickets/6540)** · Domain report from google — why: **confused** · how: **explained**
   > Hello, after setting everything up with my custom domain according to the instructions (including double checking to verify that the DNS records were correct), today I received a…
 
-### Custom domain setup — 1 tickets
-
-- **[#6532](https://tbpro.zendesk.com/agent/tickets/6532)** · domain — why: **confused** · how: **explained**
-  > i initiated a early bird subscription bur used "[domain]" in stead of my domain "[domain]"
-
 ### Other / uncategorized — 1 tickets
 
 - **[#6528](https://tbpro.zendesk.com/agent/tickets/6528)** · Change the recovery e-mail — why: **blocked** · how: **actioned**
   > Hello, how are you? I deleted my Proton account today, and I can’t find the option to change my recovery email in Thunderbird. I want to set a different email for recovery, but it…
+
+### Custom domain setup — 1 tickets
+
+- **[#6532](https://tbpro.zendesk.com/agent/tickets/6532)** · domain — why: **confused** · how: **explained**
+  > i initiated a early bird subscription bur used "[domain]" in stead of my domain "[domain]"
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -137,7 +137,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6525](https://tbpro.zendesk.com/agent/tickets/6525) · [open] · 2026-06-30T21:50 · Unable to use mŷnew Thundermail account
 - [6526](https://tbpro.zendesk.com/agent/tickets/6526) · [solved] · 2026-06-30T22:52 · Payment for wishlist invite of Thundermail
 - [6527](https://tbpro.zendesk.com/agent/tickets/6527) · [solved] · 2026-06-30T23:29 · Forgot My Thundermail Address
-- [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [pending] · 2026-06-30T23:57 · Change the recovery e-mail
+- [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [open] · 2026-06-30T23:57 · Change the recovery e-mail
 - [6530](https://tbpro.zendesk.com/agent/tickets/6530) · [solved] · 2026-07-01T02:26 · Can't create Thundermail account containing "ssl"
 - [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [solved] · 2026-07-01T08:29 · domain
 - [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [solved] · 2026-07-01T11:04 · Too late to cancel?
@@ -152,7 +152,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6527](https://tbpro.zendesk.com/agent/tickets/6527) · 2026-07-01T14:29 · Forgot My Thundermail Address
 - · [6526](https://tbpro.zendesk.com/agent/tickets/6526) · 2026-07-01T14:41 · Payment for wishlist invite of Thundermail
 - · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-01T14:56 · Can't create Thundermail account containing "ssl"
-- · [6489](https://tbpro.zendesk.com/agent/tickets/6489) · 2026-07-01T14:57 · Monthly subscription
 - · [6487](https://tbpro.zendesk.com/agent/tickets/6487) · 2026-07-01T14:57 · Subscription fee is a really bad idea
 - · [6534](https://tbpro.zendesk.com/agent/tickets/6534) · 2026-07-01T15:15 · Too late to cancel?
 - · [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-01T15:23 · Unable to send emails out from Thunderbird
