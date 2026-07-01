@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 12:57 ET** · refreshes hourly_  
+_Updated: **2026-07-01 13:46 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -11,8 +11,8 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **63 tickets** so far 
 
 - **13** new tickets in last 24h · **12** solved in last 24h
 - **63** tickets total since launch · contact rate **1%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (12 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
 - **Median AHT**: 38.0h · mean 47.7h (proxy: updated_at − created_at, 39 solved tickets)
 
@@ -21,7 +21,7 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **63 tickets** so far 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"possible change"** — 2 tickets in 24h (new; baseline 0 cum) — [#6528](https://tbpro.zendesk.com/agent/tickets/6528), [#6543](https://tbpro.zendesk.com/agent/tickets/6543)
-- **"keeps throwing"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"keeps throwing authentication"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -53,8 +53,8 @@ _No negative ratings since launch._
 
 - **solved**: 39
 - **pending**: 12
-- **hold**: 7
-- **open**: 5
+- **open**: 6
+- **hold**: 6
 
 ## Service (cumulative)
 
