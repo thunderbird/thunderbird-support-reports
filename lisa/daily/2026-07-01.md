@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 15:45 ET** · refreshes hourly_  
+_Updated: **2026-07-01 16:46 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **62 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **61 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **16** solved in last 24h
-- **62** tickets total since launch · contact rate **1%** of 6500 invitees
+- **12** new tickets in last 24h · **15** solved in last 24h
+- **61** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
-- **Median AHT**: 37.1h · mean 46.1h (proxy: updated_at − created_at, 42 solved tickets)
+- **Median AHT**: 37.1h · mean 46.2h (proxy: updated_at − created_at, 42 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -53,12 +53,12 @@ _No negative ratings since launch._
 
 - **solved**: 42
 - **pending**: 12
-- **hold**: 5
-- **open**: 3
+- **open**: 4
+- **hold**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 31
+- **Account Hub**: 30
 - **Thundermail**: 25
 - **Appointment**: 3
 - **Send**: 1
@@ -69,9 +69,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 16
 - **blocked** + **explained**: 10
-- **change request** + **actioned**: 6
 - **confused** + **explained**: 5
 - **request** + **redirected**: 5
+- **change request** + **actioned**: 5
 - **blocked** + **investigated**: 5
 - **blocked** + **redirected**: 1
 - **blocked** + **actioned**: 1
@@ -83,12 +83,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Refund / Cancel — 3 tickets
+### Refund / Cancel — 2 tickets
 
 - **[#6543](https://tbpro.zendesk.com/agent/tickets/6543)** · Monthly Billing — why: **change request** · how: **actioned**
   > Hello [name] - I just received my invitation to try out TB Pro and signed up. I was interesting in checking out the service to see if I wanted to migrate. I saw it was going to be…
-- **[#6541](https://tbpro.zendesk.com/agent/tickets/6541)** · Release thundermail email address — why: **change request** · how: **actioned**
-  > Hi guys I started the process to set up [email] yesterday, but didn't complete the payment step. I want to see if a different email address is available before I do, so can you…
 - **[#6534](https://tbpro.zendesk.com/agent/tickets/6534)** · Too late to cancel? — why: **change request** · how: **actioned**
   > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient…
 
@@ -146,7 +144,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6536](https://tbpro.zendesk.com/agent/tickets/6536) · [solved] · 2026-07-01T12:46 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
 - [6538](https://tbpro.zendesk.com/agent/tickets/6538) · [solved] · 2026-07-01T14:16 · thundermail
 - [6540](https://tbpro.zendesk.com/agent/tickets/6540) · [open] · 2026-07-01T15:22 · Domain report from google
-- [6541](https://tbpro.zendesk.com/agent/tickets/6541) · [hold] · 2026-07-01T15:23 · Release thundermail email address
 - [6543](https://tbpro.zendesk.com/agent/tickets/6543) · [solved] · 2026-07-01T16:48 · Monthly Billing
 
 ## Solved — last 24h
@@ -163,7 +160,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-01T15:23 · Unable to send emails out from Thunderbird
 - · [6538](https://tbpro.zendesk.com/agent/tickets/6538) · 2026-07-01T15:34 · thundermail
 - · [6486](https://tbpro.zendesk.com/agent/tickets/6486) · 2026-07-01T15:36 · Annual payment instead of monthly payment
-- · [6543](https://tbpro.zendesk.com/agent/tickets/6543) · 2026-07-01T18:28 · Monthly Billing
 - · [6536](https://tbpro.zendesk.com/agent/tickets/6536) · 2026-07-01T18:43 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
 - · [6511](https://tbpro.zendesk.com/agent/tickets/6511) · 2026-07-01T19:02 · Cannot pay using Russian card
 - · [6492](https://tbpro.zendesk.com/agent/tickets/6492) · 2026-07-01T19:05 · Can’t Login
