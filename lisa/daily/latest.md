@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 07:16 ET** · refreshes hourly_  
+_Updated: **2026-07-01 09:11 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **58 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **61 tickets** so far (0.9% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **1** solved in last 24h
-- **58** tickets total since launch · contact rate **1%** of 6500 invitees
+- **11** new tickets in last 24h · **1** solved in last 24h
+- **61** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
 - **Median AHT**: 42.9h · mean 58.0h (proxy: updated_at − created_at, 28 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"keeps throwing"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"keeps throwing authentication"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -32,29 +32,33 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 3
 
-- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [new] · _Too late to cancel?_
+- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [open] · _Too late to cancel?_
   > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient anyway, I'd appreciate it.
+- [6535](https://tbpro.zendesk.com/agent/tickets/6535) · [open] · _Cancel Thundermail_
+  > I'm curious if I can cancel Thundermail and get some/all of the payment back. I've had access for less than 24 hours. I knew this was beta, but I was under the impression I could have multiple users on my domain, but I…
+- [6537](https://tbpro.zendesk.com/agent/tickets/6537) · [open] · _Please Cancel Account_
+  > Cancel Account.
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Prevent recycling of email addresses on Thundermail domains](https://ideas.tb.pro/p/prevent-recycling-of-email-addresses-on-thundermail-domains) · 1 votes · _Thundermail_
+  > What you’d like to seeI would like for users to not be able to claim previously-used email addresses on Thundermail domains.Why it mattersTo me, this is a crucial feature, and one that is often…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 28
-- **open**: 13
+- **open**: 17
 - **pending**: 11
-- **hold**: 4
-- **new**: 2
+- **hold**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 28
-- **Thundermail**: 23
+- **Thundermail**: 24
 - **Appointment**: 3
 - **Send**: 1
 
@@ -68,22 +72,33 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 5
 - **change request** + **actioned**: 3
 - **confused** + **explained**: 2
-- **other** + **explained**: 1
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
+- **other** + **explained**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 3 tickets
+### Subscription / billing / refund / cancel — 5 tickets
 
+- **[#6537](https://tbpro.zendesk.com/agent/tickets/6537)** · Please Cancel Account
+  > Cancel Account.
+- **[#6535](https://tbpro.zendesk.com/agent/tickets/6535)** · Cancel Thundermail
+  > I'm curious if I can cancel Thundermail and get some/all of the payment back. I've had access for less than 24 hours. I knew this was beta, but I was under the impression I could…
 - **[#6534](https://tbpro.zendesk.com/agent/tickets/6534)** · Too late to cancel?
   > I would like to know if I can cancel the current subscription for a refund? I just don't think I will use the service after signing up yesterday. If it is not to inconvenient…
 - **[#6525](https://tbpro.zendesk.com/agent/tickets/6525)** · Unable to use mŷnew Thundermail account
   > Hi, My Thundermail account is [email]. I paid for this yesterday. I am not able to access it via the Thunderbird client. It keeps throwing an authentication error saying invalid…
 - **[#6524](https://tbpro.zendesk.com/agent/tickets/6524)** · Unable to use my new email and configure Thunderbird
   > Hi, I just paid for my new Thundermail account. My email is [email]. I followed the instructions and downloaded the Thunderbird Desktop client on Windows, and it keeps throwing an…
+
+### Account access issues — 2 tickets
+
+- **[#6536](https://tbpro.zendesk.com/agent/tickets/6536)** · Unable to log in at server. Probably wrong configuration, username or password when trying to login to Thundermail on Thunderbird
+  > Attempting to connect with OAuth authentication and recommended settings in Thunderbird yields Unable to log in at server. Probably wrong configuration, username or password. I…
+- **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address
+  > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -100,11 +115,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6528](https://tbpro.zendesk.com/agent/tickets/6528)** · Change the recovery e-mail
   > Hello, how are you? I deleted my Proton account today, and I can’t find the option to change my recovery email in Thunderbird. I want to set a different email for recovery, but it…
 
-### Account access issues — 1 tickets
-
-- **[#6527](https://tbpro.zendesk.com/agent/tickets/6527)** · Forgot My Thundermail Address
-  > I just created my new Thundermail address & password & promptly forgot it. Can you send it to me? Or, just can I just recreate my account again?
-
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#6526](https://tbpro.zendesk.com/agent/tickets/6526)** · Payment for wishlist invite of Thundermail — why: **curious** · how: **explained**
@@ -118,8 +128,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6527](https://tbpro.zendesk.com/agent/tickets/6527) · [open] · 2026-06-30T23:29 · Forgot My Thundermail Address
 - [6528](https://tbpro.zendesk.com/agent/tickets/6528) · [open] · 2026-06-30T23:57 · Change the recovery e-mail
 - [6530](https://tbpro.zendesk.com/agent/tickets/6530) · [open] · 2026-07-01T02:26 · Can't create Thundermail account containing "ssl"
-- [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [new] · 2026-07-01T08:29 · domain
-- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [new] · 2026-07-01T11:04 · Too late to cancel?
+- [6532](https://tbpro.zendesk.com/agent/tickets/6532) · [open] · 2026-07-01T08:29 · domain
+- [6534](https://tbpro.zendesk.com/agent/tickets/6534) · [open] · 2026-07-01T11:04 · Too late to cancel?
+- [6535](https://tbpro.zendesk.com/agent/tickets/6535) · [open] · 2026-07-01T11:28 · Cancel Thundermail
+- [6536](https://tbpro.zendesk.com/agent/tickets/6536) · [open] · 2026-07-01T12:46 · Unable to log in at server. Probably wrong configuration, username or password when trying to login 
+- [6537](https://tbpro.zendesk.com/agent/tickets/6537) · [open] · 2026-07-01T13:01 · Please Cancel Account
 
 ## Solved — last 24h
 
