@@ -551,20 +551,17 @@ def build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links=None, bl
             "mean_min":   round(statistics.mean(frt_mins)),
         }
 
-    # Projection baseline: POOLED combined contact rate of SETTLED waves only.
-    # - exclude Early Bird (wave_stats[0]) — inflated by misdirects
-    # - exclude waves younger than WAVE_SETTLE_DAYS — still ramping, rate not yet real
-    # - POOL (sum contacts / sum invites), don't average per-wave rates — a 500-invite
-    #   wave must not weigh the same as a 3,000-invite wave.
-    settled = [ws for ws in wave_stats[1:]
-               if (today - dt.date.fromisoformat(ws["date"])).days >= WAVE_SETTLE_DAYS]
-    _pool = settled or wave_stats[1:]
+    # Projection baseline: POOLED combined contact rate of the AT-SCALE cohort (Flight 3+).
+    # Contact rate COLLAPSES as waves scale up — Early Bird (24.7%) and Flight 2 (5%) were
+    # chatty early adopters and do NOT represent mass sends, which run <1%. Future flights
+    # are large, so project off the large waves only. Pool (total contacts / total invites),
+    # never average per-wave rates. These waves are still settling → conservative FLOOR.
+    scale = [ws for ws in wave_stats if not ws["label"].startswith(("Early Bird", "Flight 2"))]
+    _pool = scale or wave_stats[1:]
     _pool_contacts = sum(ws.get("combined", ws["tickets"]) for ws in _pool)
     _pool_invites  = sum(ws["invites"] for ws in _pool)
     avg_rate = round(_pool_contacts / _pool_invites * 100, 2) if _pool_invites else 1.0
-    # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
-    surge_pct = 0.40
-    # Day-2 surge: from data, day 2 is typically ~50% of 7-day total
+    # Day-2 surge: from data, day 2 is typically ~40% of the 7-day total
     surge_pct = 0.40
 
     csat_launch = csat_all.get("eb", {})
@@ -1749,7 +1746,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   </nav>
   <div class="rail__stats">
     <div class="rail-stat"><div class="rail-stat__val">{total}</div><div class="rail-stat__lbl">Tickets</div></div>
-    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">{avg_rate}%</div><div class="rail-stat__lbl">Settled-wave baseline</div></div>
+    <div class="rail-stat rail-stat--success"><div class="rail-stat__val">{avg_rate}%</div><div class="rail-stat__lbl">At-scale baseline (F3+)</div></div>
     <div class="rail-stat {rail_csat_cls}"><div class="rail-stat__val">{rail_csat_pct}</div><div class="rail-stat__lbl">CSAT</div></div>
     <div class="rail-stat"><div class="rail-stat__val">{frt_median}</div><div class="rail-stat__lbl">First reply</div></div>
   </div>
@@ -1767,7 +1764,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 <section class="section" id="story">
   <div class="hero">
     <div class="hero__eyebrow">Early Bird May 4 → {data["today"]} · {TOTAL_INVITEES:,} invitees · Generated {gen}</div>
-    <h1 class="hero__headline">Settled waves: <em>{avg_rate}%</em> pooled contact rate — active baseline for staffing.</h1>
+    <h1 class="hero__headline">At-scale waves: <em>{avg_rate}%</em> pooled contact rate — early-adopter rates don't scale.</h1>
     <p class="hero__meta">{total_combined} contacts across all waves ({total} tickets · {total_ideas} ideas · {total_idea_coms} comments) · <span>Zendesk Explore may show ~{raw_total} total created tickets</span></p>
   </div>
 
@@ -1779,8 +1776,8 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     </div>
     <div class="tile tile--span4 tile--success">
       <div class="tile__val">{avg_rate}%</div>
-      <div class="tile__lbl">Settled-wave contact rate</div>
-      <div class="tile__sub">pooled, waves ≥{WAVE_SETTLE_DAYS}d old · excl. Early Bird &amp; fresh sends</div>
+      <div class="tile__lbl">At-scale contact rate</div>
+      <div class="tile__sub">pooled Flight 3+ (mass sends) · early adopters excluded · still settling</div>
     </div>
     <div class="tile tile--span4 {"tile--success" if csat_launch.get("n",0) and int((csat_launch.get("pct") or "0").rstrip("%")) >= 80 else ""}">
       <div class="tile__val">{csat_launch.get("pct","—")} {csat_delta}</div>
@@ -1905,7 +1902,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
           {proj_rows}
         </tbody>
       </table>
-      <p class="panel__note">Projections use the {avg_rate}% <strong>pooled</strong> contact rate (total contacts ÷ total invites) of <strong>settled waves only</strong> (≥{WAVE_SETTLE_DAYS} days old, where contacts have largely arrived). <strong>Excluded:</strong> Early Bird ({data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% — inflated by misdirected contacts) and every still-ramping wave — Flight 3 (7–8 days old) and <strong>Flight 4 (10k sent Jun 29–30)</strong> — which would otherwise drag the rate down. As Flight 3 then Flight 4 cross 14 days, they join the baseline and it will firm up.</p>
+      <p class="panel__note"><strong>Contact rate collapses with scale.</strong> Early adopters were chatty — Early Bird {data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% (misdirect-inflated), Flight 2 ~5% — but mass sends run under 1%. Projections therefore use the {avg_rate}% <strong>pooled</strong> rate (total contacts ÷ total invites) of the <strong>at-scale cohort (Flight 3 onward)</strong>, the only waves that resemble future large flights. Early adopters are excluded — their rates don't scale. Flight 3/4 are still settling, so treat this as a conservative floor that will rise somewhat over the next 7–14 days.</p>
     </div>
     <div class="panel">
       <div class="panel__title">Contact rate by wave</div>
