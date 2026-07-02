@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 11:54 ET** · refreshes hourly_  
+_Updated: **2026-07-02 12:46 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 11** of rollout — **6,500 invitees**, **71 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 11** of rollout — **6,500 invitees**, **70 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **11** solved in last 24h
-- **71** tickets total since launch · contact rate **1%** of 6500 invitees
+- **9** new tickets in last 24h · **14** solved in last 24h
+- **70** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
-- **Median AHT**: 39.5h · mean 50.5h (proxy: updated_at − created_at, 45 solved tickets)
+- **Median AHT**: 40.2h · mean 52.1h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -40,7 +40,7 @@ _(none in last 24h)_
 
 - **solved**: 45
 - **pending**: 14
-- **open**: 8
+- **open**: 7
 - **hold**: 4
 
 ## Service (cumulative)
@@ -55,7 +55,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 17
-- **blocked** + **explained**: 10
+- **blocked** + **explained**: 11
 - **confused** + **explained**: 6
 - **change request** + **actioned**: 6
 - **request** + **redirected**: 6
@@ -82,11 +82,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6578](https://tbpro.zendesk.com/agent/tickets/6578)** · unconscionable ToS and (lack of) Privacy Policy.
   > I had my localLLM review your Terms of Service and Privacy Policy . Its a good thing I did. Its unconscionable and flies directly against your front text on [domain] "Ad free,…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6576](https://tbpro.zendesk.com/agent/tickets/6576)** · New sign up request
-  > Hi guys Could a fresh invite link to sign up to thundermail please be sent to [email], or my other email address, [email]. I started the sign up process a couple of days ago, but…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -125,7 +120,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [pending] · 2026-07-02T00:30 · Adding custom domain
 - [6557](https://tbpro.zendesk.com/agent/tickets/6557) · [solved] · 2026-07-02T02:12 · Thundermail Privacy
 - [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [solved] · 2026-07-02T07:34 · get an [domain] mail address
-- [6576](https://tbpro.zendesk.com/agent/tickets/6576) · [open] · 2026-07-02T12:24 · New sign up request
 - [6578](https://tbpro.zendesk.com/agent/tickets/6578) · [open] · 2026-07-02T13:08 · unconscionable ToS and (lack of) Privacy Policy.
 - [6579](https://tbpro.zendesk.com/agent/tickets/6579) · [pending] · 2026-07-02T13:10 · Request to remove PII from Thundermail Ideas page
 - [6583](https://tbpro.zendesk.com/agent/tickets/6583) · [pending] · 2026-07-02T13:43 · My subscribe link is no longer working
@@ -144,6 +138,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6526](https://tbpro.zendesk.com/agent/tickets/6526) · 2026-07-02T15:01 · Payment for wishlist invite of Thundermail
 - · [6585](https://tbpro.zendesk.com/agent/tickets/6585) · 2026-07-02T15:06 · Trial
 - 👍 [6532](https://tbpro.zendesk.com/agent/tickets/6532) · 2026-07-02T15:41 · domain
+- · [6538](https://tbpro.zendesk.com/agent/tickets/6538) · 2026-07-02T16:02 · thundermail
+- · [6534](https://tbpro.zendesk.com/agent/tickets/6534) · 2026-07-02T16:02 · Too late to cancel?
+- · [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-02T16:02 · Unable to send emails out from Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
