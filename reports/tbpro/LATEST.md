@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 15:43 ET** · refreshes hourly_  
+_Updated: **2026-07-02 16:37 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 11** of rollout — **6,500 invitees**, **70 tickets** so far 
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
-- **Median AHT**: 41.1h · mean 53.5h (proxy: updated_at − created_at, 44 solved tickets)
+- **Median AHT**: 41.1h · mean 54.1h (proxy: updated_at − created_at, 44 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -39,8 +39,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 44
-- **pending**: 15
-- **open**: 7
+- **pending**: 14
+- **open**: 8
 - **hold**: 4
 
 ## Service (cumulative)
@@ -74,10 +74,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#6579](https://tbpro.zendesk.com/agent/tickets/6579)** · Request to remove PII from Thundermail Ideas page — why: **change request** · how: **actioned**
-  > Hi, Apologies if this is the incorrect place to make this request. I recently posted a suggestion on the Thundermail Ideas page as a guest but didn't realize this would publish…
 - **[#6551](https://tbpro.zendesk.com/agent/tickets/6551)** · Namecheap Custom Domains
   > I am unable to fully verify custom domains I have through namecheap. It appears that I am unable to append a period to the end of the hostnames which I think could be causing…
+- **[#6579](https://tbpro.zendesk.com/agent/tickets/6579)** · Request to remove PII from Thundermail Ideas page — why: **change request** · how: **actioned**
+  > Hi, Apologies if this is the incorrect place to make this request. I recently posted a suggestion on the Thundermail Ideas page as a guest but didn't realize this would publish…
 
 ### Security / hacked — 1 tickets
 
@@ -116,7 +116,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6551](https://tbpro.zendesk.com/agent/tickets/6551) · [pending] · 2026-07-01T21:44 · Namecheap Custom Domains
+- [6551](https://tbpro.zendesk.com/agent/tickets/6551) · [open] · 2026-07-01T21:44 · Namecheap Custom Domains
 - [6552](https://tbpro.zendesk.com/agent/tickets/6552) · [pending] · 2026-07-01T23:52 · CalDav and DavX
 - [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [pending] · 2026-07-02T00:30 · Adding custom domain
 - [6557](https://tbpro.zendesk.com/agent/tickets/6557) · [solved] · 2026-07-02T02:12 · Thundermail Privacy
