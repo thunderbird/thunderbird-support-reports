@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 12:46 ET** · refreshes hourly_  
+_Updated: **2026-07-02 13:45 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -60,6 +60,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 6
 - **request** + **redirected**: 6
 - **blocked** + **investigated**: 5
+- **change request** + **escalated**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **actioned**: 1
@@ -80,7 +81,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Security / hacked — 1 tickets
 
-- **[#6578](https://tbpro.zendesk.com/agent/tickets/6578)** · unconscionable ToS and (lack of) Privacy Policy.
+- **[#6578](https://tbpro.zendesk.com/agent/tickets/6578)** · unconscionable ToS and (lack of) Privacy Policy. — why: **change request** · how: **escalated**
   > I had my localLLM review your Terms of Service and Privacy Policy . Its a good thing I did. Its unconscionable and flies directly against your front text on [domain] "Ad free,…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
