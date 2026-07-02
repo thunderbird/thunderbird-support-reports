@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-01
 
-_Updated: **2026-07-01 21:15 ET** · refreshes hourly_  
+_Updated: **2026-07-01 23:19 ET** · refreshes hourly_  
 _24h window: 2026-06-30T16:00 → 2026-07-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 10** of rollout — **6,500 invitees**, **64 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 10** of rollout — **6,500 invitees**, **65 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
 - **12** new tickets in last 24h · **12** solved in last 24h
-- **64** tickets total since launch · contact rate **1%** of 6500 invitees
+- **65** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 14
@@ -20,7 +20,7 @@ Flight 3 is **day 10** of rollout — **6,500 invitees**, **64 tickets** so far 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"throwing authentication"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
+- **"throwing authentication error"** — 2 tickets in 24h (new; baseline 0 cum) — [#6524](https://tbpro.zendesk.com/agent/tickets/6524), [#6525](https://tbpro.zendesk.com/agent/tickets/6525)
 - **"possible change"** — 2 tickets in 24h (new; baseline 0 cum) — [#6528](https://tbpro.zendesk.com/agent/tickets/6528), [#6543](https://tbpro.zendesk.com/agent/tickets/6543)
 
 ## Known problems — 1 problem(s), 1 incident(s)
@@ -52,14 +52,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 42
+- **open**: 10
 - **pending**: 10
-- **open**: 9
 - **hold**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 30
-- **Thundermail**: 28
+- **Thundermail**: 29
 - **Appointment**: 3
 - **Send**: 1
 
