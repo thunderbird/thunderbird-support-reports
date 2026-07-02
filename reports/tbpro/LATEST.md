@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 09:46 ET** · refreshes hourly_  
+_Updated: **2026-07-02 10:56 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 11** of rollout — **6,500 invitees**, **70 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
+Flight 3 is **day 11** of rollout — **6,500 invitees**, **71 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **5** solved in last 24h
-- **70** tickets total since launch · contact rate **1%** of 6500 invitees
+- **10** new tickets in last 24h · **7** solved in last 24h
+- **71** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
-- **Median AHT**: 36.1h · mean 46.3h (proxy: updated_at − created_at, 43 solved tickets)
+- **Median AHT**: 36.1h · mean 49.1h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -38,15 +38,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 43
-- **open**: 11
-- **pending**: 10
-- **new**: 3
-- **hold**: 3
+- **solved**: 45
+- **pending**: 12
+- **open**: 10
+- **hold**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 32
+- **Thundermail**: 33
 - **Account Hub**: 31
 - **Appointment**: 3
 - **Send**: 1
@@ -57,9 +56,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 16
 - **blocked** + **explained**: 10
-- **confused** + **explained**: 5
+- **confused** + **explained**: 6
+- **change request** + **actioned**: 6
 - **request** + **redirected**: 5
-- **change request** + **actioned**: 5
 - **blocked** + **investigated**: 5
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -72,19 +71,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#6579](https://tbpro.zendesk.com/agent/tickets/6579)** · Request to remove PII from Thundermail Ideas page
-  > Hi, Apologies if this is the incorrect place to make this request. I recently posted a suggestion on the Thundermail Ideas page as a guest but didn't realize this would publish…
-- **[#6565](https://tbpro.zendesk.com/agent/tickets/6565)** · get an [domain] mail address
-  > When signing up I was only able to have @[domain], and not able to choose [domain]. Will this be automatically available? Just want to make sure I can get that domain after I pay.
 - **[#6551](https://tbpro.zendesk.com/agent/tickets/6551)** · Namecheap Custom Domains
   > I am unable to fully verify custom domains I have through namecheap. It appears that I am unable to append a period to the end of the hostnames which I think could be causing…
+- **[#6579](https://tbpro.zendesk.com/agent/tickets/6579)** · Request to remove PII from Thundermail Ideas page — why: **change request** · how: **actioned**
+  > Hi, Apologies if this is the incorrect place to make this request. I recently posted a suggestion on the Thundermail Ideas page as a guest but didn't realize this would publish…
 
-### Account access issues — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#6583](https://tbpro.zendesk.com/agent/tickets/6583)** · My subscribe link is no longer working
-  > Hi [name] Team, I’m unable to log in to my Thunderbird Pro account because my login link no longer works. When I try to sign in, I receive the following error message: “Invalid…
+- **[#6585](https://tbpro.zendesk.com/agent/tickets/6585)** · Trial
+  > Before I commit to a yearly plan, I would like to test Thundermail. Would it be possible for you to provide a trial period for me? Thank you.
 
 ### Security / hacked — 1 tickets
 
@@ -106,6 +103,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6552](https://tbpro.zendesk.com/agent/tickets/6552)** · CalDav and DavX
   > Having issues connecting my Thundermail calendar to DAVx5. Are there any solutions found by other uses to get this to work. DAVx5 support said it should work. Used this link with…
 
+### Account access issues — 1 tickets
+
+- **[#6583](https://tbpro.zendesk.com/agent/tickets/6583)** · My subscribe link is no longer working
+  > Hi [name] Team, I’m unable to log in to my Thunderbird Pro account because my login link no longer works. When I try to sign in, I receive the following error message: “Invalid…
+
+### Aliases — 1 tickets
+
+- **[#6565](https://tbpro.zendesk.com/agent/tickets/6565)** · get an [domain] mail address — why: **confused** · how: **explained**
+  > When signing up I was only able to have @[domain], and not able to choose [domain]. Will this be automatically available? Just want to make sure I can get that domain after I pay.
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#6557](https://tbpro.zendesk.com/agent/tickets/6557)** · Thundermail Privacy — why: **telling us**
@@ -117,11 +124,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6552](https://tbpro.zendesk.com/agent/tickets/6552) · [open] · 2026-07-01T23:52 · CalDav and DavX
 - [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [open] · 2026-07-02T00:30 · Adding custom domain
 - [6557](https://tbpro.zendesk.com/agent/tickets/6557) · [solved] · 2026-07-02T02:12 · Thundermail Privacy
-- [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [open] · 2026-07-02T07:34 · get an [domain] mail address
+- [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [solved] · 2026-07-02T07:34 · get an [domain] mail address
 - [6576](https://tbpro.zendesk.com/agent/tickets/6576) · [open] · 2026-07-02T12:24 · New sign up request
-- [6578](https://tbpro.zendesk.com/agent/tickets/6578) · [new] · 2026-07-02T13:08 · unconscionable ToS and (lack of) Privacy Policy.
-- [6579](https://tbpro.zendesk.com/agent/tickets/6579) · [new] · 2026-07-02T13:10 · Request to remove PII from Thundermail Ideas page
-- [6583](https://tbpro.zendesk.com/agent/tickets/6583) · [new] · 2026-07-02T13:43 · My subscribe link is no longer working
+- [6578](https://tbpro.zendesk.com/agent/tickets/6578) · [open] · 2026-07-02T13:08 · unconscionable ToS and (lack of) Privacy Policy.
+- [6579](https://tbpro.zendesk.com/agent/tickets/6579) · [pending] · 2026-07-02T13:10 · Request to remove PII from Thundermail Ideas page
+- [6583](https://tbpro.zendesk.com/agent/tickets/6583) · [pending] · 2026-07-02T13:43 · My subscribe link is no longer working
+- [6585](https://tbpro.zendesk.com/agent/tickets/6585) · [open] · 2026-07-02T14:32 · Trial
 
 ## Solved — last 24h
 
@@ -130,6 +138,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [6489](https://tbpro.zendesk.com/agent/tickets/6489) · 2026-07-01T22:51 · Monthly subscription
 - · [6528](https://tbpro.zendesk.com/agent/tickets/6528) · 2026-07-02T00:03 · Change the recovery e-mail
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-02T13:28 · Thundermail Privacy
+- · [6565](https://tbpro.zendesk.com/agent/tickets/6565) · 2026-07-02T13:55 · get an [domain] mail address
+- · [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-02T14:52 · Cannot Add Second Calendar to Thundermail Pro Account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
