@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 07:55 ET** · refreshes hourly_  
+_Updated: **2026-07-02 08:50 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 11** of rollout — **6,500 invitees**, **66 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
+Flight 3 is **day 11** of rollout — **6,500 invitees**, **67 tickets** so far (1.0% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **66** tickets total since launch · contact rate **1%** of 6500 invitees
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **67** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
@@ -39,10 +39,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 42
-- **open**: 11
+- **open**: 13
 - **pending**: 9
 - **hold**: 3
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -78,6 +77,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6551](https://tbpro.zendesk.com/agent/tickets/6551)** · Namecheap Custom Domains
   > I am unable to fully verify custom domains I have through namecheap. It appears that I am unable to append a period to the end of the hostnames which I think could be causing…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6576](https://tbpro.zendesk.com/agent/tickets/6576)** · New sign up request
+  > Hi guys Could a fresh invite link to sign up to thundermail please be sent to [email], or my other email address, [email]. I started the sign up process a couple of days ago, but…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#6557](https://tbpro.zendesk.com/agent/tickets/6557)** · Thundermail Privacy
@@ -99,7 +103,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6552](https://tbpro.zendesk.com/agent/tickets/6552) · [open] · 2026-07-01T23:52 · CalDav and DavX
 - [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [open] · 2026-07-02T00:30 · Adding custom domain
 - [6557](https://tbpro.zendesk.com/agent/tickets/6557) · [open] · 2026-07-02T02:12 · Thundermail Privacy
-- [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [new] · 2026-07-02T07:34 · get an [domain] mail address
+- [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [open] · 2026-07-02T07:34 · get an [domain] mail address
+- [6576](https://tbpro.zendesk.com/agent/tickets/6576) · [open] · 2026-07-02T12:24 · New sign up request
 
 ## Solved — last 24h
 
