@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 16:37 ET** · refreshes hourly_  
+_Updated: **2026-07-02 17:35 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,7 +12,7 @@ Flight 3 is **day 11** of rollout — **6,500 invitees**, **70 tickets** so far 
 - **9** new tickets in last 24h · **14** solved in last 24h
 - **70** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 100%  (16 good / 0 bad)
+- **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
 - **Median AHT**: 41.1h · mean 54.1h (proxy: updated_at − created_at, 44 solved tickets)
 
@@ -39,8 +39,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 44
-- **pending**: 14
-- **open**: 8
+- **pending**: 15
+- **open**: 7
 - **hold**: 4
 
 ## Service (cumulative)
@@ -84,6 +84,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6578](https://tbpro.zendesk.com/agent/tickets/6578)** · unconscionable ToS and (lack of) Privacy Policy. — why: **change request** · how: **escalated**
   > I had my localLLM review your Terms of Service and Privacy Policy . Its a good thing I did. Its unconscionable and flies directly against your front text on [domain] "Ad free,…
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#6552](https://tbpro.zendesk.com/agent/tickets/6552)** · CalDav and DavX
+  > Having issues connecting my Thundermail calendar to DAVx5. Are there any solutions found by other uses to get this to work. DAVx5 support said it should work. Used this link with…
+
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#6585](https://tbpro.zendesk.com/agent/tickets/6585)** · Trial — why: **curious** · how: **explained**
@@ -109,15 +114,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6555](https://tbpro.zendesk.com/agent/tickets/6555)** · Adding custom domain — why: **request** · how: **redirected**
   > 1. When adding the custom domain and verify the DNS setting, there is no clear message that the domain is verified (maybe mark the item in green?)And there is a bug that I need to…
 
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#6552](https://tbpro.zendesk.com/agent/tickets/6552)** · CalDav and DavX
-  > Having issues connecting my Thundermail calendar to DAVx5. Are there any solutions found by other uses to get this to work. DAVx5 support said it should work. Used this link with…
-
 ## New tickets — last 24h
 
 - [6551](https://tbpro.zendesk.com/agent/tickets/6551) · [open] · 2026-07-01T21:44 · Namecheap Custom Domains
-- [6552](https://tbpro.zendesk.com/agent/tickets/6552) · [pending] · 2026-07-01T23:52 · CalDav and DavX
+- [6552](https://tbpro.zendesk.com/agent/tickets/6552) · [open] · 2026-07-01T23:52 · CalDav and DavX
 - [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [pending] · 2026-07-02T00:30 · Adding custom domain
 - [6557](https://tbpro.zendesk.com/agent/tickets/6557) · [solved] · 2026-07-02T02:12 · Thundermail Privacy
 - [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [solved] · 2026-07-02T07:34 · get an [domain] mail address
