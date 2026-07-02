@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 10:56 ET** · refreshes hourly_  
+_Updated: **2026-07-02 11:54 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 11** of rollout — **6,500 invitees**, **71 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
+Flight 3 is **day 11** of rollout — **6,500 invitees**, **71 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **7** solved in last 24h
+- **10** new tickets in last 24h · **11** solved in last 24h
 - **71** tickets total since launch · contact rate **1%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (15 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
-- **Median AHT**: 36.1h · mean 49.1h (proxy: updated_at − created_at, 45 solved tickets)
+- **Median AHT**: 39.5h · mean 50.5h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -39,14 +39,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 45
-- **pending**: 12
-- **open**: 10
+- **pending**: 14
+- **open**: 8
 - **hold**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 33
-- **Account Hub**: 31
+- **Thundermail**: 32
+- **Account Hub**: 32
 - **Appointment**: 3
 - **Send**: 1
 
@@ -54,11 +54,11 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 16
+- **curious** + **explained**: 17
 - **blocked** + **explained**: 10
 - **confused** + **explained**: 6
 - **change request** + **actioned**: 6
-- **request** + **redirected**: 5
+- **request** + **redirected**: 6
 - **blocked** + **investigated**: 5
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -73,15 +73,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#6551](https://tbpro.zendesk.com/agent/tickets/6551)** · Namecheap Custom Domains
-  > I am unable to fully verify custom domains I have through namecheap. It appears that I am unable to append a period to the end of the hostnames which I think could be causing…
 - **[#6579](https://tbpro.zendesk.com/agent/tickets/6579)** · Request to remove PII from Thundermail Ideas page — why: **change request** · how: **actioned**
   > Hi, Apologies if this is the incorrect place to make this request. I recently posted a suggestion on the Thundermail Ideas page as a guest but didn't realize this would publish…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6585](https://tbpro.zendesk.com/agent/tickets/6585)** · Trial
-  > Before I commit to a yearly plan, I would like to test Thundermail. Would it be possible for you to provide a trial period for me? Thank you.
+- **[#6551](https://tbpro.zendesk.com/agent/tickets/6551)** · Namecheap Custom Domains
+  > I am unable to fully verify custom domains I have through namecheap. It appears that I am unable to append a period to the end of the hostnames which I think could be causing…
 
 ### Security / hacked — 1 tickets
 
@@ -93,15 +88,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6576](https://tbpro.zendesk.com/agent/tickets/6576)** · New sign up request
   > Hi guys Could a fresh invite link to sign up to thundermail please be sent to [email], or my other email address, [email]. I started the sign up process a couple of days ago, but…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#6555](https://tbpro.zendesk.com/agent/tickets/6555)** · Adding custom domain
-  > 1. When adding the custom domain and verify the DNS setting, there is no clear message that the domain is verified (maybe mark the item in green?)And there is a bug that I need to…
-
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#6552](https://tbpro.zendesk.com/agent/tickets/6552)** · CalDav and DavX
   > Having issues connecting my Thundermail calendar to DAVx5. Are there any solutions found by other uses to get this to work. DAVx5 support said it should work. Used this link with…
+
+### Pricing — general pricing concern — 1 tickets
+
+- **[#6585](https://tbpro.zendesk.com/agent/tickets/6585)** · Trial — why: **curious** · how: **explained**
+  > Before I commit to a yearly plan, I would like to test Thundermail. Would it be possible for you to provide a trial period for me? Thank you.
 
 ### Account access issues — 1 tickets
 
@@ -118,18 +113,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6557](https://tbpro.zendesk.com/agent/tickets/6557)** · Thundermail Privacy — why: **telling us**
   > While I appreciate that Thundermail's goal is privacy, I have significant concerns that its service appears to be hosted by Amazon, which even if its hosted geographic location is…
 
+### Request or complaint — 1 tickets
+
+- **[#6555](https://tbpro.zendesk.com/agent/tickets/6555)** · Adding custom domain — why: **request** · how: **redirected**
+  > 1. When adding the custom domain and verify the DNS setting, there is no clear message that the domain is verified (maybe mark the item in green?)And there is a bug that I need to…
+
 ## New tickets — last 24h
 
-- [6551](https://tbpro.zendesk.com/agent/tickets/6551) · [open] · 2026-07-01T21:44 · Namecheap Custom Domains
+- [6551](https://tbpro.zendesk.com/agent/tickets/6551) · [pending] · 2026-07-01T21:44 · Namecheap Custom Domains
 - [6552](https://tbpro.zendesk.com/agent/tickets/6552) · [open] · 2026-07-01T23:52 · CalDav and DavX
-- [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [open] · 2026-07-02T00:30 · Adding custom domain
+- [6555](https://tbpro.zendesk.com/agent/tickets/6555) · [pending] · 2026-07-02T00:30 · Adding custom domain
 - [6557](https://tbpro.zendesk.com/agent/tickets/6557) · [solved] · 2026-07-02T02:12 · Thundermail Privacy
 - [6565](https://tbpro.zendesk.com/agent/tickets/6565) · [solved] · 2026-07-02T07:34 · get an [domain] mail address
 - [6576](https://tbpro.zendesk.com/agent/tickets/6576) · [open] · 2026-07-02T12:24 · New sign up request
 - [6578](https://tbpro.zendesk.com/agent/tickets/6578) · [open] · 2026-07-02T13:08 · unconscionable ToS and (lack of) Privacy Policy.
 - [6579](https://tbpro.zendesk.com/agent/tickets/6579) · [pending] · 2026-07-02T13:10 · Request to remove PII from Thundermail Ideas page
 - [6583](https://tbpro.zendesk.com/agent/tickets/6583) · [pending] · 2026-07-02T13:43 · My subscribe link is no longer working
-- [6585](https://tbpro.zendesk.com/agent/tickets/6585) · [open] · 2026-07-02T14:32 · Trial
+- [6585](https://tbpro.zendesk.com/agent/tickets/6585) · [solved] · 2026-07-02T14:32 · Trial
 
 ## Solved — last 24h
 
@@ -140,6 +140,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-02T13:28 · Thundermail Privacy
 - · [6565](https://tbpro.zendesk.com/agent/tickets/6565) · 2026-07-02T13:55 · get an [domain] mail address
 - · [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-02T14:52 · Cannot Add Second Calendar to Thundermail Pro Account
+- · [6527](https://tbpro.zendesk.com/agent/tickets/6527) · 2026-07-02T15:01 · Forgot My Thundermail Address
+- · [6526](https://tbpro.zendesk.com/agent/tickets/6526) · 2026-07-02T15:01 · Payment for wishlist invite of Thundermail
+- · [6585](https://tbpro.zendesk.com/agent/tickets/6585) · 2026-07-02T15:06 · Trial
+- 👍 [6532](https://tbpro.zendesk.com/agent/tickets/6532) · 2026-07-02T15:41 · domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
