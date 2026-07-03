@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-03
 
-_Updated: **2026-07-03 12:42 ET** · refreshes hourly_  
+_Updated: **2026-07-03 13:41 ET** · refreshes hourly_  
 _24h window: 2026-07-02T16:00 → 2026-07-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 12** of rollout — **6,500 invitees**, **73 tickets** so far 
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
+- **2** new tickets in last 24h · **7** solved in last 24h
 - **73** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
-- **Median AHT**: 42.6h · mean 56.4h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 42.6h · mean 52.4h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -40,9 +40,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 46
-- **pending**: 15
-- **open**: 7
+- **solved**: 45
+- **pending**: 14
+- **open**: 9
 - **hold**: 5
 
 ## Service (cumulative)
@@ -59,8 +59,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 17
 - **blocked** + **explained**: 12
 - **change request** + **actioned**: 7
-- **confused** + **explained**: 6
 - **request** + **redirected**: 6
+- **confused** + **explained**: 6
 - **blocked** + **investigated**: 5
 - **change request** + **escalated**: 1
 - **telling us** + **—**: 1
@@ -96,7 +96,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6552](https://tbpro.zendesk.com/agent/tickets/6552) · 2026-07-03T06:31 · CalDav and DavX
 - · [6565](https://tbpro.zendesk.com/agent/tickets/6565) · 2026-07-03T14:01 · get an [domain] mail address
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-03T14:01 · Thundermail Privacy
-- · [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-03T15:02 · Cannot Add Second Calendar to Thundermail Pro Account
 - 👍 [6585](https://tbpro.zendesk.com/agent/tickets/6585) · 2026-07-03T16:02 · Trial
 - 👍 [6528](https://tbpro.zendesk.com/agent/tickets/6528) · 2026-07-03T16:11 · Change the recovery e-mail
 
