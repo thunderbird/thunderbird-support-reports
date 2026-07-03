@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-03
 
-_Updated: **2026-07-03 10:56 ET** · refreshes hourly_  
+_Updated: **2026-07-03 11:46 ET** · refreshes hourly_  
 _24h window: 2026-07-02T16:00 → 2026-07-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,18 +9,19 @@ Flight 3 is **day 12** of rollout — **6,500 invitees**, **72 tickets** so far 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **6** solved in last 24h
+- **1** new tickets in last 24h · **7** solved in last 24h
 - **72** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (16 good / 0 bad)
+- **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
-- **Median AHT**: 42.6h · mean 55.0h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 42.6h · mean 55.5h (proxy: updated_at − created_at, 46 solved tickets)
 
-## Known problems — 1 problem(s), 1 incident(s)
+## Known problems — 1 problem(s), 2 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
-- 1 incident(s):
+- 2 incident(s):
   - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [hold] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ## Negative CSAT (since launch)
 
@@ -40,14 +41,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 46
-- **pending**: 14
-- **open**: 7
+- **pending**: 16
+- **open**: 5
 - **hold**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 33
 - **Account Hub**: 33
+- **Thundermail**: 33
 - **Appointment**: 3
 - **Send**: 1
 
@@ -80,7 +81,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6598](https://tbpro.zendesk.com/agent/tickets/6598) · [open] · 2026-07-03T13:35 · DKIM keys not published for lund.to — CNAME targets return NXDOMAIN
+- [6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03T13:35 · DKIM keys not published for lund.to — CNAME targets return NXDOMAIN
 
 ## Solved — last 24h
 
@@ -90,6 +91,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6552](https://tbpro.zendesk.com/agent/tickets/6552) · 2026-07-03T06:31 · CalDav and DavX
 - · [6565](https://tbpro.zendesk.com/agent/tickets/6565) · 2026-07-03T14:01 · get an [domain] mail address
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-03T14:01 · Thundermail Privacy
+- · [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-03T15:02 · Cannot Add Second Calendar to Thundermail Pro Account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
