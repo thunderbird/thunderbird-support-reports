@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-03
 
-_Updated: **2026-07-03 09:46 ET** · refreshes hourly_  
+_Updated: **2026-07-03 10:56 ET** · refreshes hourly_  
 _24h window: 2026-07-02T16:00 → 2026-07-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 12** of rollout — **6,500 invitees**, **72 tickets** so far 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
+- **1** new tickets in last 24h · **6** solved in last 24h
 - **72** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
-- **Median AHT**: 42.6h · mean 54.0h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 42.6h · mean 55.0h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -40,8 +40,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 46
-- **pending**: 16
-- **open**: 5
+- **pending**: 14
+- **open**: 7
 - **hold**: 5
 
 ## Service (cumulative)
@@ -88,6 +88,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6526](https://tbpro.zendesk.com/agent/tickets/6526) · 2026-07-02T23:07 · Payment for wishlist invite of Thundermail
 - · [6528](https://tbpro.zendesk.com/agent/tickets/6528) · 2026-07-03T01:01 · Change the recovery e-mail
 - · [6552](https://tbpro.zendesk.com/agent/tickets/6552) · 2026-07-03T06:31 · CalDav and DavX
+- · [6565](https://tbpro.zendesk.com/agent/tickets/6565) · 2026-07-03T14:01 · get an [domain] mail address
+- · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-03T14:01 · Thundermail Privacy
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
