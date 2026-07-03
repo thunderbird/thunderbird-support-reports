@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-03
 
-_Updated: **2026-07-03 07:03 ET** · refreshes hourly_  
+_Updated: **2026-07-03 07:55 ET** · refreshes hourly_  
 _24h window: 2026-07-02T16:00 → 2026-07-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 12** of rollout — **6,500 invitees**, **71 tickets** so far 
 - **71** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
 - **Median AHT**: 42.6h · mean 54.0h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
@@ -32,16 +32,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [DNS setup and monitoring of: DMARC, SPF, DKIM, etc.](https://ideas.tb.pro/p/dns-setup-and-monitoring-of-dmarc-spf-dkim-etc) · 1 votes · _untagged_
+  > What you’d like to seeHelp domain owner to be relaxed that the DNS is setup correctly to secure mail delivery and would be superb if there will be notifications for any future changes.in domain setup…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 46
-- **pending**: 17
+- **pending**: 16
 - **hold**: 5
-- **open**: 3
+- **open**: 4
 
 ## Service (cumulative)
 
