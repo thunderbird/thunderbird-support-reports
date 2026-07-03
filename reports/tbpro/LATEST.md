@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-03
 
-_Updated: **2026-07-03 08:49 ET** · refreshes hourly_  
+_Updated: **2026-07-03 09:46 ET** · refreshes hourly_  
 _24h window: 2026-07-02T16:00 → 2026-07-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 12** of rollout — **6,500 invitees**, **71 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 12** of rollout — **6,500 invitees**, **72 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **4** solved in last 24h
-- **71** tickets total since launch · contact rate **1%** of 6500 invitees
+- **1** new tickets in last 24h · **4** solved in last 24h
+- **72** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 15
@@ -41,13 +41,13 @@ _(none in last 24h)_
 
 - **solved**: 46
 - **pending**: 16
+- **open**: 5
 - **hold**: 5
-- **open**: 4
 
 ## Service (cumulative)
 
+- **Thundermail**: 33
 - **Account Hub**: 33
-- **Thundermail**: 32
 - **Appointment**: 3
 - **Send**: 1
 
@@ -73,11 +73,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6598](https://tbpro.zendesk.com/agent/tickets/6598)** · DKIM keys not published for lund.to — CNAME targets return NXDOMAIN
+  > My domain lund.to shows as verified and active in the control panel, and I've added all the DNS records you provided, including the three DKIM CNAMEs: - tm1._domainkey.lund.to →…
 
 ## New tickets — last 24h
 
-_(none)_
+- [6598](https://tbpro.zendesk.com/agent/tickets/6598) · [open] · 2026-07-03T13:35 · DKIM keys not published for lund.to — CNAME targets return NXDOMAIN
 
 ## Solved — last 24h
 
