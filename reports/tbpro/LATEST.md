@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-02
 
-_Updated: **2026-07-02 20:58 ET** · refreshes hourly_  
+_Updated: **2026-07-02 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-01T16:00 → 2026-07-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 11** of rollout — **6,500 invitees**, **70 tickets** so far 
 
 ## At a glance
 
-- **9** new tickets in last 24h · **14** solved in last 24h
+- **9** new tickets in last 24h · **13** solved in last 24h
 - **70** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 14
-- **Median AHT**: 42.6h · mean 53.9h (proxy: updated_at − created_at, 45 solved tickets)
+- **Median AHT**: 42.7h · mean 54.5h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 1 problem(s), 1 incident(s)
 
@@ -130,7 +130,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [6509](https://tbpro.zendesk.com/agent/tickets/6509) · 2026-07-01T22:02 · Beta Signup
 - 👍 [6489](https://tbpro.zendesk.com/agent/tickets/6489) · 2026-07-01T22:51 · Monthly subscription
-- · [6528](https://tbpro.zendesk.com/agent/tickets/6528) · 2026-07-02T00:03 · Change the recovery e-mail
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-02T13:28 · Thundermail Privacy
 - · [6565](https://tbpro.zendesk.com/agent/tickets/6565) · 2026-07-02T13:55 · get an [domain] mail address
 - · [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-02T14:52 · Cannot Add Second Calendar to Thundermail Pro Account
