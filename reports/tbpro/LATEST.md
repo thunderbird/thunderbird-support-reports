@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-04
 
-_Updated: **2026-07-04 08:35 ET** · refreshes hourly_  
+_Updated: **2026-07-04 09:43 ET** · refreshes hourly_  
 _24h window: 2026-07-03T16:00 → 2026-07-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 13** of rollout — **6,500 invitees**, **74 tickets** so far (1.1% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 13** of rollout — **6,500 invitees**, **75 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **74** tickets total since launch · contact rate **1%** of 6500 invitees
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **75** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 17
@@ -50,7 +50,7 @@ _(none in last 24h)_
 
 - **solved**: 47
 - **pending**: 17
-- **open**: 6
+- **open**: 7
 - **hold**: 4
 
 ## Service (cumulative)
@@ -58,7 +58,7 @@ _(none in last 24h)_
 - **Account Hub**: 33
 - **Thundermail**: 32
 - **Appointment**: 5
-- **Send**: 1
+- **Send**: 2
 
 ## Why × How (cumulative)
 
@@ -89,10 +89,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6606](https://tbpro.zendesk.com/agent/tickets/6606)** · Full day event displayed incorrectly for Thundermail calendar only
   > New improvements have been made recently to display full day events on top in the Appointment dashboard. However, with the thundermail calendar, it does not work and it is…
 
+### Account access issues — 1 tickets
+
+- **[#6614](https://tbpro.zendesk.com/agent/tickets/6614)** · SEND not working
+  > I tried SEND for the first time with a 132mb file. (macOS, 153.0b5 beta). It worked though I had to sign into send repeatedly. It was really janky, a pile of login dialogs had…
+
 ## New tickets — last 24h
 
 - [6606](https://tbpro.zendesk.com/agent/tickets/6606) · [pending] · 2026-07-03T21:52 · Full day event displayed incorrectly for Thundermail calendar only
 - [6610](https://tbpro.zendesk.com/agent/tickets/6610) · [pending] · 2026-07-03T22:58 · no way to recreate the original Thundermail calendar.
+- [6614](https://tbpro.zendesk.com/agent/tickets/6614) · [open] · 2026-07-04T12:55 · SEND not working
 
 ## Solved — last 24h
 
