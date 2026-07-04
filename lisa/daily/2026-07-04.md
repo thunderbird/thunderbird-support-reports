@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-04
 
-_Updated: **2026-07-04 12:30 ET** · refreshes hourly_  
+_Updated: **2026-07-04 13:31 ET** · refreshes hourly_  
 _24h window: 2026-07-03T16:00 → 2026-07-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -49,8 +49,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 47
-- **pending**: 17
-- **open**: 7
+- **pending**: 16
+- **open**: 8
 - **hold**: 4
 
 ## Service (cumulative)
@@ -84,10 +84,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Appointment / calendar — 2 tickets
 
-- **[#6610](https://tbpro.zendesk.com/agent/tickets/6610)** · no way to recreate the original Thundermail calendar.
-  > I tried the flow below and I'm running into a bit of trouble. When I first accessed https://[domain]/, I set the default Thundermail calendar. ↓ I set Google Calendar as the…
 - **[#6606](https://tbpro.zendesk.com/agent/tickets/6606)** · Full day event displayed incorrectly for Thundermail calendar only
   > New improvements have been made recently to display full day events on top in the Appointment dashboard. However, with the thundermail calendar, it does not work and it is…
+- **[#6610](https://tbpro.zendesk.com/agent/tickets/6610)** · no way to recreate the original Thundermail calendar.
+  > I tried the flow below and I'm running into a bit of trouble. When I first accessed https://[domain]/, I set the default Thundermail calendar. ↓ I set Google Calendar as the…
 
 ### Account access issues — 1 tickets
 
@@ -96,7 +96,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6606](https://tbpro.zendesk.com/agent/tickets/6606) · [pending] · 2026-07-03T21:52 · Full day event displayed incorrectly for Thundermail calendar only
+- [6606](https://tbpro.zendesk.com/agent/tickets/6606) · [open] · 2026-07-03T21:52 · Full day event displayed incorrectly for Thundermail calendar only
 - [6610](https://tbpro.zendesk.com/agent/tickets/6610) · [pending] · 2026-07-03T22:58 · no way to recreate the original Thundermail calendar.
 - [6614](https://tbpro.zendesk.com/agent/tickets/6614) · [open] · 2026-07-04T12:55 · SEND not working
 
