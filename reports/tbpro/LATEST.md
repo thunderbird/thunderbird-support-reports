@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-04
 
-_Updated: **2026-07-04 14:30 ET** · refreshes hourly_  
+_Updated: **2026-07-04 15:37 ET** · refreshes hourly_  
 _24h window: 2026-07-03T16:00 → 2026-07-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 13** of rollout — **6,500 invitees**, **75 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 13** of rollout — **6,500 invitees**, **76 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
-- **75** tickets total since launch · contact rate **1%** of 6500 invitees
+- **4** new tickets in last 24h · **5** solved in last 24h
+- **76** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 17
-- **Median AHT**: 43.3h · mean 57.3h (proxy: updated_at − created_at, 47 solved tickets)
+- **Median AHT**: 43.3h · mean 57.8h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -33,9 +33,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6624](https://tbpro.zendesk.com/agent/tickets/6624) · [new] · _Refund_
+  > Hello, I subscribed to Thunderbird Pro via the Early Bird program on Jun 29. I would now like to request a refund. The subscription was canceled today, Jul 4. Many thanks for your understanding and support. All the…
 
 ## New ideas on FeatureOS
 
@@ -52,10 +53,11 @@ _(none in last 24h)_
 - **pending**: 16
 - **open**: 8
 - **hold**: 4
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 33
+- **Account Hub**: 34
 - **Thundermail**: 32
 - **Appointment**: 5
 - **Send**: 2
@@ -89,6 +91,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6610](https://tbpro.zendesk.com/agent/tickets/6610)** · no way to recreate the original Thundermail calendar.
   > I tried the flow below and I'm running into a bit of trouble. When I first accessed https://[domain]/, I set the default Thundermail calendar. ↓ I set Google Calendar as the…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6624](https://tbpro.zendesk.com/agent/tickets/6624)** · Refund
+  > Hello, I subscribed to Thunderbird Pro via the Early Bird program on Jun 29. I would now like to request a refund. The subscription was canceled today, Jul 4. Many thanks for your…
+
 ### Account access issues — 1 tickets
 
 - **[#6614](https://tbpro.zendesk.com/agent/tickets/6614)** · SEND not working
@@ -99,6 +106,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6606](https://tbpro.zendesk.com/agent/tickets/6606) · [open] · 2026-07-03T21:52 · Full day event displayed incorrectly for Thundermail calendar only
 - [6610](https://tbpro.zendesk.com/agent/tickets/6610) · [pending] · 2026-07-03T22:58 · no way to recreate the original Thundermail calendar.
 - [6614](https://tbpro.zendesk.com/agent/tickets/6614) · [open] · 2026-07-04T12:55 · SEND not working
+- [6624](https://tbpro.zendesk.com/agent/tickets/6624) · [new] · 2026-07-04T19:34 · Refund
 
 ## Solved — last 24h
 
@@ -106,6 +114,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6541](https://tbpro.zendesk.com/agent/tickets/6541) · 2026-07-03T21:55 · Release thundermail email address
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-03T22:18 · Thundermail Privacy
 - · [6552](https://tbpro.zendesk.com/agent/tickets/6552) · 2026-07-04T07:01 · CalDav and DavX
+- · [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-04T19:01 · Squarespace Custom Domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
