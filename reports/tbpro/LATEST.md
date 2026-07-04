@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-04
 
-_Updated: **2026-07-04 01:26 ET** · refreshes hourly_  
+_Updated: **2026-07-04 03:11 ET** · refreshes hourly_  
 _24h window: 2026-07-03T16:00 → 2026-07-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 13** of rollout — **6,500 invitees**, **74 tickets** so far 
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
+- **2** new tickets in last 24h · **4** solved in last 24h
 - **74** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 16
-- **Median AHT**: 43.1h · mean 56.8h (proxy: updated_at − created_at, 47 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 17
+- **Median AHT**: 43.3h · mean 57.3h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -39,8 +39,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Per-app passwords](https://ideas.tb.pro/p/per-app-passwords) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, New Feature_
+  > What you’d like to seeCreate named per-app passwords that can be individually deleted. Show last used date in list of per-app passwords.Why it mattersGood for security, for example; if a phone is…
 - [Birthdays calendar populated from contacts](https://ideas.tb.pro/p/birthdays-calendar-populated-from-contacts) · 1 votes · _Thundermail, New Feature_
   > What you’d like to seeI would like a separate Birthdays calendar that pulls birthdays from contact records.Full-day events, include the contact’s name and age at the time of the event.Surface as…
 
@@ -97,6 +99,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [6527](https://tbpro.zendesk.com/agent/tickets/6527) · 2026-07-03T20:17 · Forgot My Thundermail Address
 - · [6541](https://tbpro.zendesk.com/agent/tickets/6541) · 2026-07-03T21:55 · Release thundermail email address
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-03T22:18 · Thundermail Privacy
+- · [6552](https://tbpro.zendesk.com/agent/tickets/6552) · 2026-07-04T07:01 · CalDav and DavX
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
