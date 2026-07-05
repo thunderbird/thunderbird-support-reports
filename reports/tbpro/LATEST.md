@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-05
 
-_Updated: **2026-07-05 13:33 ET** · refreshes hourly_  
+_Updated: **2026-07-05 14:33 ET** · refreshes hourly_  
 _24h window: 2026-07-04T16:00 → 2026-07-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 14** of rollout — **6,500 invitees**, **77 tickets** so far 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **6** solved in last 24h
+- **1** new tickets in last 24h · **7** solved in last 24h
 - **77** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 18
-- **Median AHT**: 43.8h · mean 63.4h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 44.1h · mean 64.7h (proxy: updated_at − created_at, 51 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -40,8 +40,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 50
-- **pending**: 12
+- **solved**: 51
+- **pending**: 11
 - **open**: 10
 - **hold**: 4
 - **new**: 1
@@ -93,6 +93,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6468](https://tbpro.zendesk.com/agent/tickets/6468) · 2026-07-04T23:01 · Cancel subscription
 - · [6488](https://tbpro.zendesk.com/agent/tickets/6488) · 2026-07-05T01:48 · Multiple Inboxes
 - 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-05T17:06 · Squarespace Custom Domain
+- · [6502](https://tbpro.zendesk.com/agent/tickets/6502) · 2026-07-05T18:01 · regarding thundermail pro
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
