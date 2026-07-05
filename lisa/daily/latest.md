@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-04
 
-_Updated: **2026-07-04 21:03 ET** · refreshes hourly_  
+_Updated: **2026-07-04 21:48 ET** · refreshes hourly_  
 _24h window: 2026-07-03T16:00 → 2026-07-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 13** of rollout — **6,500 invitees**, **76 tickets** so far 
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
+- **4** new tickets in last 24h · **2** solved in last 24h
 - **76** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 18
-- **Median AHT**: 43.8h · mean 62.8h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 43.8h · mean 63.1h (proxy: updated_at − created_at, 50 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -56,8 +56,8 @@ _No negative ratings since launch._
 
 ## Service (cumulative)
 
-- **Account Hub**: 34
-- **Thundermail**: 32
+- **Account Hub**: 35
+- **Thundermail**: 31
 - **Appointment**: 5
 - **Send**: 2
 
@@ -66,7 +66,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 17
-- **blocked** + **explained**: 11
+- **blocked** + **explained**: 10
 - **change request** + **actioned**: 7
 - **request** + **redirected**: 7
 - **confused** + **explained**: 6
@@ -78,6 +78,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
 - **concerned** + **investigated**: 1
+- **blocked** + **escalated**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 
@@ -111,7 +112,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [6527](https://tbpro.zendesk.com/agent/tickets/6527) · 2026-07-03T20:17 · Forgot My Thundermail Address
 - · [6557](https://tbpro.zendesk.com/agent/tickets/6557) · 2026-07-03T22:18 · Thundermail Privacy
-- · [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-04T19:01 · Squarespace Custom Domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
