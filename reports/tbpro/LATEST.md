@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-07-05
+# Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-05 23:19 ET** · refreshes hourly_  
-_24h window: 2026-07-04T16:00 → 2026-07-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-06 01:36 ET** · refreshes hourly_  
+_24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 14** of rollout — **6,500 invitees**, **78 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 15** of rollout — **6,500 invitees**, **78 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **7** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **78** tickets total since launch · contact rate **1%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 18
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
 - **Median AHT**: 44.7h · mean 68.9h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
@@ -33,10 +33,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Migration tool from Outlook/Office365/Gmail/...](https://ideas.tb.pro/p/migration-tool-from-outlook-office365-gmail) · 1 votes · _untagged_
-  > Import mail, contacts, address book notes from major email providers
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -76,24 +75,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pre-purchase / documentation gap — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#6635](https://tbpro.zendesk.com/agent/tickets/6635)** · Add OAuth for Thundermail to FairEmail
-  > Hello, I would like to add OAuth for Thundermail accounts to FairEmail. Can you provide a test account, documentation, etc. for this purpose? Kind regards, [name] (M66B)
+- **[#6640](https://tbpro.zendesk.com/agent/tickets/6640)** · 【依頼】line業務の対応について
+  > Mozilla お疲れさまです。 今後の業務連絡をよりスムーズに行うため、ご自身のLINEのQRコードを本メールにご返信ください。 確認次第、こちらから追加いたします。 以降の連絡はLINEで統一したいと考えておりますので、ご対応のほど、よろしくお願いいたします。 Mozilla Anthony Enzor-DeMeo
 
 ## New tickets — last 24h
 
-- [6635](https://tbpro.zendesk.com/agent/tickets/6635) · [open] · 2026-07-05T16:27 · Add OAuth for Thundermail to FairEmail
+- [6640](https://tbpro.zendesk.com/agent/tickets/6640) · [new] · 2026-07-06T00:30 · 【依頼】line業務の対応について
 
 ## Solved — last 24h
 
-- 👍 [6552](https://tbpro.zendesk.com/agent/tickets/6552) · 2026-07-04T21:36 · CalDav and DavX
-- · [6541](https://tbpro.zendesk.com/agent/tickets/6541) · 2026-07-04T22:01 · Release thundermail email address
-- · [6490](https://tbpro.zendesk.com/agent/tickets/6490) · 2026-07-04T22:01 · monthly subscription
-- · [6468](https://tbpro.zendesk.com/agent/tickets/6468) · 2026-07-04T23:01 · Cancel subscription
-- · [6488](https://tbpro.zendesk.com/agent/tickets/6488) · 2026-07-05T01:48 · Multiple Inboxes
-- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-05T17:06 · Squarespace Custom Domain
-- · [6502](https://tbpro.zendesk.com/agent/tickets/6502) · 2026-07-05T18:01 · regarding thundermail pro
+- · [6515](https://tbpro.zendesk.com/agent/tickets/6515) · 2026-07-05T20:01 · SRV syntax error on Gandi custom domain
+- · [6517](https://tbpro.zendesk.com/agent/tickets/6517) · 2026-07-05T21:01 · Mobile Server Sync Problem
+- · [6513](https://tbpro.zendesk.com/agent/tickets/6513) · 2026-07-05T22:01 · Gmail spam markings
+- · [6519](https://tbpro.zendesk.com/agent/tickets/6519) · 2026-07-05T23:01 · [domain] email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
