@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 11:16 ET** · refreshes hourly_  
+_Updated: **2026-07-06 13:11 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 15** of rollout — **6,500 invitees**, **78 tickets** so far (1.2% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 15** of rollout — **6,500 invitees**, **82 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **8** solved in last 24h
-- **78** tickets total since launch · contact rate **1%** of 6500 invitees
+- **5** new tickets in last 24h · **11** solved in last 24h
+- **82** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (19 good / 0 bad)
+- **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 47.5h · mean 75.0h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 49.8h · mean 80.5h (proxy: updated_at − created_at, 60 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"paid service"** — 2 tickets in 24h (28.0× baseline; baseline 1 cum) — [#6652](https://tbpro.zendesk.com/agent/tickets/6652), [#6654](https://tbpro.zendesk.com/agent/tickets/6654)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -27,9 +33,10 @@ Flight 3 is **day 15** of rollout — **6,500 invitees**, **78 tickets** so far 
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [new] · _14 day cancel and refund_
+  > Please can you confirm this applies to me I signed up just now. There's now web mail. Thanks.
 
 ## New ideas on FeatureOS
 
@@ -39,15 +46,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 58
-- **open**: 9
-- **pending**: 6
-- **hold**: 5
+- **solved**: 60
+- **pending**: 8
+- **open**: 7
+- **hold**: 4
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 36
-- **Thundermail**: 32
+- **Thundermail**: 35
 - **Appointment**: 5
 - **Send**: 2
 
@@ -57,8 +65,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 18
 - **blocked** + **explained**: 11
+- **change request** + **actioned**: 8
 - **request** + **redirected**: 7
-- **change request** + **actioned**: 7
 - **confused** + **explained**: 6
 - **blocked** + **investigated**: 5
 - **change request** + **escalated**: 1
@@ -74,6 +82,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#6655](https://tbpro.zendesk.com/agent/tickets/6655)** · Thundermail (thunderbird pro subscriptions OK) IOS App
+  > Hi, Could you tell me how I could have the Thundermail IOS App ? Thx Franck
+
+### Account access issues — 1 tickets
+
+- **[#6654](https://tbpro.zendesk.com/agent/tickets/6654)** · Can't add account in Thunderbird
+  > I got my Thundermail invite, paid for service, and went to set up my new account in Thunderbird (version 140.7.1esr). When I try to authenticate my login credentials, I get a…
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#6653](https://tbpro.zendesk.com/agent/tickets/6653)** · 14 day cancel and refund
+  > Please can you confirm this applies to me I signed up just now. There's now web mail. Thanks.
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6652](https://tbpro.zendesk.com/agent/tickets/6652)** · Delete account
+  > Hello, I didn't notice that this early access was a paid service. Can you please delete my account? Thanks
+
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer — why: **curious** · how: **explained**
@@ -82,6 +110,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6649](https://tbpro.zendesk.com/agent/tickets/6649) · [pending] · 2026-07-06T13:09 · Beta tester offer
+- [6652](https://tbpro.zendesk.com/agent/tickets/6652) · [open] · 2026-07-06T16:12 · Delete account
+- [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [new] · 2026-07-06T16:33 · 14 day cancel and refund
+- [6654](https://tbpro.zendesk.com/agent/tickets/6654) · [new] · 2026-07-06T17:04 · Can't add account in Thunderbird
+- [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [new] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
 
 ## Solved — last 24h
 
@@ -93,6 +125,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6610](https://tbpro.zendesk.com/agent/tickets/6610) · 2026-07-06T13:43 · no way to recreate the original Thundermail calendar.
 - 👍 [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-06T14:23 · Cannot Add Second Calendar to Thundermail Pro Account
 - · [6538](https://tbpro.zendesk.com/agent/tickets/6538) · 2026-07-06T14:47 · thundermail
+- · [6461](https://tbpro.zendesk.com/agent/tickets/6461) · 2026-07-06T15:17 · Calender
+- · [6391](https://tbpro.zendesk.com/agent/tickets/6391) · 2026-07-06T15:28 · Thunderbird desktop (Ubuntu) setup problem
+- · [6624](https://tbpro.zendesk.com/agent/tickets/6624) · 2026-07-06T16:11 · Refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
