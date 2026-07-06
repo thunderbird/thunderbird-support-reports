@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 07:42 ET** · refreshes hourly_  
+_Updated: **2026-07-06 09:27 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 15** of rollout — **6,500 invitees**, **78 tickets** so far 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
+- **1** new tickets in last 24h · **5** solved in last 24h
 - **78** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 44.7h · mean 68.9h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 44.9h · mean 69.4h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -39,8 +39,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 55
-- **open**: 13
+- **solved**: 56
+- **open**: 12
 - **pending**: 5
 - **hold**: 4
 - **new**: 1
@@ -58,8 +58,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 17
 - **blocked** + **explained**: 10
-- **change request** + **actioned**: 7
 - **request** + **redirected**: 7
+- **change request** + **actioned**: 7
 - **confused** + **explained**: 6
 - **blocked** + **investigated**: 5
 - **change request** + **escalated**: 1
@@ -75,14 +75,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#6640](https://tbpro.zendesk.com/agent/tickets/6640)** · 【依頼】line業務の対応について
-  > Mozilla お疲れさまです。 今後の業務連絡をよりスムーズに行うため、ご自身のLINEのQRコードを本メールにご返信ください。 確認次第、こちらから追加いたします。 以降の連絡はLINEで統一したいと考えておりますので、ご対応のほど、よろしくお願いいたします。 Mozilla Anthony Enzor-DeMeo
+- **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer
+  > Hello, good morning! I received an invitation to try out ThunderbirdPro and would like to know if there are any discount offers for the initial period. The quoted price is a bit…
 
 ## New tickets — last 24h
 
-- [6640](https://tbpro.zendesk.com/agent/tickets/6640) · [new] · 2026-07-06T00:30 · 【依頼】line業務の対応について
+- [6649](https://tbpro.zendesk.com/agent/tickets/6649) · [new] · 2026-07-06T13:09 · Beta tester offer
 
 ## Solved — last 24h
 
@@ -90,6 +90,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6517](https://tbpro.zendesk.com/agent/tickets/6517) · 2026-07-05T21:01 · Mobile Server Sync Problem
 - · [6513](https://tbpro.zendesk.com/agent/tickets/6513) · 2026-07-05T22:01 · Gmail spam markings
 - · [6519](https://tbpro.zendesk.com/agent/tickets/6519) · 2026-07-05T23:01 · [domain] email address
+- · [6579](https://tbpro.zendesk.com/agent/tickets/6579) · 2026-07-06T13:06 · Request to remove PII from Thundermail Ideas page
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
