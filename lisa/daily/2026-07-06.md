@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 17:43 ET** · refreshes hourly_  
+_Updated: **2026-07-06 18:37 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 15** of rollout — **6,500 invitees**, **86 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 15** of rollout — **6,500 invitees**, **87 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **12** solved in last 24h
-- **86** tickets total since launch · contact rate **1%** of 6500 invitees
+- **87** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 46.8h · mean 76.7h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 45.8h · mean 75.5h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -46,14 +46,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 63
-- **pending**: 16
+- **solved**: 64
+- **pending**: 17
 - **hold**: 5
-- **open**: 2
+- **open**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 39
+- **Account Hub**: 40
 - **Thundermail**: 38
 - **Appointment**: 5
 - **Send**: 2
@@ -64,9 +64,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 20
 - **blocked** + **explained**: 14
+- **confused** + **explained**: 8
 - **request** + **redirected**: 8
 - **change request** + **actioned**: 8
-- **confused** + **explained**: 7
 - **blocked** + **investigated**: 5
 - **change request** + **escalated**: 1
 - **request** + **informed**: 1
@@ -121,7 +121,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6654](https://tbpro.zendesk.com/agent/tickets/6654) · [pending] · 2026-07-06T17:04 · Can't add account in Thunderbird
 - [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [pending] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
 - [6656](https://tbpro.zendesk.com/agent/tickets/6656) · [pending] · 2026-07-06T17:45 · Payment
-- [6658](https://tbpro.zendesk.com/agent/tickets/6658) · [hold] · 2026-07-06T18:01 · Subscription Information Incomplete
+- [6658](https://tbpro.zendesk.com/agent/tickets/6658) · [solved] · 2026-07-06T18:01 · Subscription Information Incomplete
 - [6659](https://tbpro.zendesk.com/agent/tickets/6659) · [solved] · 2026-07-06T18:37 · Subscription Price
 
 ## Solved — last 24h
