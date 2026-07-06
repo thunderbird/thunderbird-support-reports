@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 13:11 ET** · refreshes hourly_  
+_Updated: **2026-07-06 14:47 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 15** of rollout — **6,500 invitees**, **82 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 15** of rollout — **6,500 invitees**, **85 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **11** solved in last 24h
-- **82** tickets total since launch · contact rate **1%** of 6500 invitees
+- **8** new tickets in last 24h · **11** solved in last 24h
+- **85** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
@@ -20,6 +20,7 @@ Flight 3 is **day 15** of rollout — **6,500 invitees**, **82 tickets** so far 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"annual subscription"** — 2 tickets in 24h (28.0× baseline; baseline 1 cum) — [#6658](https://tbpro.zendesk.com/agent/tickets/6658), [#6659](https://tbpro.zendesk.com/agent/tickets/6659)
 - **"paid service"** — 2 tickets in 24h (28.0× baseline; baseline 1 cum) — [#6652](https://tbpro.zendesk.com/agent/tickets/6652), [#6654](https://tbpro.zendesk.com/agent/tickets/6654)
 
 ## Known problems — 1 problem(s), 2 incident(s)
@@ -35,7 +36,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [new] · _14 day cancel and refund_
+- [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [open] · _14 day cancel and refund_
   > Please can you confirm this applies to me I signed up just now. There's now web mail. Thanks.
 
 ## New ideas on FeatureOS
@@ -47,15 +48,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 60
-- **pending**: 8
-- **open**: 7
-- **hold**: 4
-- **new**: 3
+- **open**: 12
+- **pending**: 9
+- **hold**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
+- **Thundermail**: 37
 - **Account Hub**: 36
-- **Thundermail**: 35
 - **Appointment**: 5
 - **Send**: 2
 
@@ -82,8 +83,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
+- **[#6659](https://tbpro.zendesk.com/agent/tickets/6659)** · Subscription Price
+  > I went to activate my account under the assumption that it was $6/month, or $36 annually. Now the annual subscription price shows $72. I'm a little confused. Did I accidentally…
+- **[#6656](https://tbpro.zendesk.com/agent/tickets/6656)** · Payment
+  > Can I pay Thundermail account monthy? I can't se option for that, only annually. Sincerely, [name]
+
+### Other / uncategorized — 2 tickets
+
+- **[#6658](https://tbpro.zendesk.com/agent/tickets/6658)** · Subscription Information Incomplete
+  > I got my annual subscription through Paypal and I see the transaction and everything. But thundermail is showing the subscription as being incomplete
 - **[#6655](https://tbpro.zendesk.com/agent/tickets/6655)** · Thundermail (thunderbird pro subscriptions OK) IOS App
   > Hi, Could you tell me how I could have the Thundermail IOS App ? Thx Franck
 
@@ -111,9 +121,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6649](https://tbpro.zendesk.com/agent/tickets/6649) · [pending] · 2026-07-06T13:09 · Beta tester offer
 - [6652](https://tbpro.zendesk.com/agent/tickets/6652) · [open] · 2026-07-06T16:12 · Delete account
-- [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [new] · 2026-07-06T16:33 · 14 day cancel and refund
-- [6654](https://tbpro.zendesk.com/agent/tickets/6654) · [new] · 2026-07-06T17:04 · Can't add account in Thunderbird
-- [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [new] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
+- [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [open] · 2026-07-06T16:33 · 14 day cancel and refund
+- [6654](https://tbpro.zendesk.com/agent/tickets/6654) · [open] · 2026-07-06T17:04 · Can't add account in Thunderbird
+- [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [open] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
+- [6656](https://tbpro.zendesk.com/agent/tickets/6656) · [open] · 2026-07-06T17:45 · Payment
+- [6658](https://tbpro.zendesk.com/agent/tickets/6658) · [open] · 2026-07-06T18:01 · Subscription Information Incomplete
+- [6659](https://tbpro.zendesk.com/agent/tickets/6659) · [new] · 2026-07-06T18:37 · Subscription Price
 
 ## Solved — last 24h
 
