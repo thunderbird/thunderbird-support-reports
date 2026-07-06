@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 09:27 ET** · refreshes hourly_  
+_Updated: **2026-07-06 11:16 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 15** of rollout — **6,500 invitees**, **78 tickets** so far 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **5** solved in last 24h
+- **1** new tickets in last 24h · **8** solved in last 24h
 - **78** tickets total since launch · contact rate **1%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 44.9h · mean 69.4h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 47.5h · mean 75.0h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -39,15 +39,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 56
-- **open**: 12
-- **pending**: 5
-- **hold**: 4
-- **new**: 1
+- **solved**: 58
+- **open**: 9
+- **pending**: 6
+- **hold**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 35
+- **Account Hub**: 36
 - **Thundermail**: 32
 - **Appointment**: 5
 - **Send**: 2
@@ -56,8 +55,8 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 17
-- **blocked** + **explained**: 10
+- **curious** + **explained**: 18
+- **blocked** + **explained**: 11
 - **request** + **redirected**: 7
 - **change request** + **actioned**: 7
 - **confused** + **explained**: 6
@@ -75,14 +74,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 1 tickets
+### Pricing — wanted free / monthly plan — 1 tickets
 
-- **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer
+- **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer — why: **curious** · how: **explained**
   > Hello, good morning! I received an invitation to try out ThunderbirdPro and would like to know if there are any discount offers for the initial period. The quoted price is a bit…
 
 ## New tickets — last 24h
 
-- [6649](https://tbpro.zendesk.com/agent/tickets/6649) · [new] · 2026-07-06T13:09 · Beta tester offer
+- [6649](https://tbpro.zendesk.com/agent/tickets/6649) · [pending] · 2026-07-06T13:09 · Beta tester offer
 
 ## Solved — last 24h
 
@@ -91,6 +90,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6513](https://tbpro.zendesk.com/agent/tickets/6513) · 2026-07-05T22:01 · Gmail spam markings
 - · [6519](https://tbpro.zendesk.com/agent/tickets/6519) · 2026-07-05T23:01 · [domain] email address
 - · [6579](https://tbpro.zendesk.com/agent/tickets/6579) · 2026-07-06T13:06 · Request to remove PII from Thundermail Ideas page
+- · [6610](https://tbpro.zendesk.com/agent/tickets/6610) · 2026-07-06T13:43 · no way to recreate the original Thundermail calendar.
+- 👍 [6365](https://tbpro.zendesk.com/agent/tickets/6365) · 2026-07-06T14:23 · Cannot Add Second Calendar to Thundermail Pro Account
+- · [6538](https://tbpro.zendesk.com/agent/tickets/6538) · 2026-07-06T14:47 · thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
