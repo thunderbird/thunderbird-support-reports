@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 14:47 ET** · refreshes hourly_  
+_Updated: **2026-07-06 15:45 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 15** of rollout — **6,500 invitees**, **85 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **1 known problem(s)** being tracked.
+Flight 3 is **day 15** of rollout — **6,500 invitees**, **85 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **11** solved in last 24h
+- **8** new tickets in last 24h · **12** solved in last 24h
 - **85** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (18 good / 0 bad)
+- **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 49.8h · mean 80.5h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 48.2h · mean 79.2h (proxy: updated_at − created_at, 61 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -47,16 +47,15 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 60
-- **open**: 12
-- **pending**: 9
-- **hold**: 3
-- **new**: 1
+- **solved**: 61
+- **pending**: 14
+- **open**: 6
+- **hold**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 37
-- **Account Hub**: 36
+- **Account Hub**: 38
+- **Thundermail**: 36
 - **Appointment**: 5
 - **Send**: 2
 
@@ -64,11 +63,11 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 18
+- **curious** + **explained**: 19
 - **blocked** + **explained**: 11
 - **change request** + **actioned**: 8
+- **confused** + **explained**: 7
 - **request** + **redirected**: 7
-- **confused** + **explained**: 6
 - **blocked** + **investigated**: 5
 - **change request** + **escalated**: 1
 - **telling us** + **—**: 1
@@ -83,19 +82,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#6659](https://tbpro.zendesk.com/agent/tickets/6659)** · Subscription Price
-  > I went to activate my account under the assumption that it was $6/month, or $36 annually. Now the annual subscription price shows $72. I'm a little confused. Did I accidentally…
-- **[#6656](https://tbpro.zendesk.com/agent/tickets/6656)** · Payment
-  > Can I pay Thundermail account monthy? I can't se option for that, only annually. Sincerely, [name]
-
 ### Other / uncategorized — 2 tickets
 
 - **[#6658](https://tbpro.zendesk.com/agent/tickets/6658)** · Subscription Information Incomplete
   > I got my annual subscription through Paypal and I see the transaction and everything. But thundermail is showing the subscription as being incomplete
 - **[#6655](https://tbpro.zendesk.com/agent/tickets/6655)** · Thundermail (thunderbird pro subscriptions OK) IOS App
   > Hi, Could you tell me how I could have the Thundermail IOS App ? Thx Franck
+
+### Pricing — wanted free / monthly plan — 2 tickets
+
+- **[#6656](https://tbpro.zendesk.com/agent/tickets/6656)** · Payment — why: **curious** · how: **explained**
+  > Can I pay Thundermail account monthy? I can't se option for that, only annually. Sincerely, [name]
+- **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer — why: **curious** · how: **explained**
+  > Hello, good morning! I received an invitation to try out ThunderbirdPro and would like to know if there are any discount offers for the initial period. The quoted price is a bit…
 
 ### Account access issues — 1 tickets
 
@@ -112,10 +111,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6652](https://tbpro.zendesk.com/agent/tickets/6652)** · Delete account
   > Hello, I didn't notice that this early access was a paid service. Can you please delete my account? Thanks
 
-### Pricing — wanted free / monthly plan — 1 tickets
+### Pricing — general pricing concern — 1 tickets
 
-- **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer — why: **curious** · how: **explained**
-  > Hello, good morning! I received an invitation to try out ThunderbirdPro and would like to know if there are any discount offers for the initial period. The quoted price is a bit…
+- **[#6659](https://tbpro.zendesk.com/agent/tickets/6659)** · Subscription Price — why: **confused** · how: **explained**
+  > I went to activate my account under the assumption that it was $6/month, or $36 annually. Now the annual subscription price shows $72. I'm a little confused. Did I accidentally…
 
 ## New tickets — last 24h
 
@@ -123,10 +122,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6652](https://tbpro.zendesk.com/agent/tickets/6652) · [open] · 2026-07-06T16:12 · Delete account
 - [6653](https://tbpro.zendesk.com/agent/tickets/6653) · [open] · 2026-07-06T16:33 · 14 day cancel and refund
 - [6654](https://tbpro.zendesk.com/agent/tickets/6654) · [open] · 2026-07-06T17:04 · Can't add account in Thunderbird
-- [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [open] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
-- [6656](https://tbpro.zendesk.com/agent/tickets/6656) · [open] · 2026-07-06T17:45 · Payment
+- [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [pending] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
+- [6656](https://tbpro.zendesk.com/agent/tickets/6656) · [pending] · 2026-07-06T17:45 · Payment
 - [6658](https://tbpro.zendesk.com/agent/tickets/6658) · [open] · 2026-07-06T18:01 · Subscription Information Incomplete
-- [6659](https://tbpro.zendesk.com/agent/tickets/6659) · [new] · 2026-07-06T18:37 · Subscription Price
+- [6659](https://tbpro.zendesk.com/agent/tickets/6659) · [solved] · 2026-07-06T18:37 · Subscription Price
 
 ## Solved — last 24h
 
@@ -141,6 +140,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6461](https://tbpro.zendesk.com/agent/tickets/6461) · 2026-07-06T15:17 · Calender
 - · [6391](https://tbpro.zendesk.com/agent/tickets/6391) · 2026-07-06T15:28 · Thunderbird desktop (Ubuntu) setup problem
 - · [6624](https://tbpro.zendesk.com/agent/tickets/6624) · 2026-07-06T16:11 · Refund
+- · [6659](https://tbpro.zendesk.com/agent/tickets/6659) · 2026-07-06T19:29 · Subscription Price
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
