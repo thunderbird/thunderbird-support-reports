@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-06
 
-_Updated: **2026-07-06 18:37 ET** · refreshes hourly_  
+_Updated: **2026-07-06 19:33 ET** · refreshes hourly_  
 _24h window: 2026-07-05T16:00 → 2026-07-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 15** of rollout — **6,500 invitees**, **87 tickets** so far 
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 45.8h · mean 75.5h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 46.8h · mean 76.7h (proxy: updated_at − created_at, 63 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -46,15 +46,15 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 64
+- **solved**: 63
 - **pending**: 17
 - **hold**: 5
-- **open**: 1
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 40
-- **Thundermail**: 38
+- **Account Hub**: 41
+- **Thundermail**: 37
 - **Appointment**: 5
 - **Send**: 2
 
@@ -63,11 +63,12 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 20
-- **blocked** + **explained**: 14
+- **blocked** + **explained**: 13
 - **confused** + **explained**: 8
 - **request** + **redirected**: 8
 - **change request** + **actioned**: 8
 - **blocked** + **investigated**: 5
+- **blocked** + **escalated**: 2
 - **change request** + **escalated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
@@ -76,7 +77,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 1
 - **concerned** + **explained**: 1
 - **concerned** + **investigated**: 1
-- **blocked** + **escalated**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 
@@ -89,15 +89,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6649](https://tbpro.zendesk.com/agent/tickets/6649)** · Beta tester offer — why: **curious** · how: **explained**
   > Hello, good morning! I received an invitation to try out ThunderbirdPro and would like to know if there are any discount offers for the initial period. The quoted price is a bit…
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#6658](https://tbpro.zendesk.com/agent/tickets/6658)** · Subscription Information Incomplete — why: **blocked** · how: **escalated**
+  > I got my annual subscription through Paypal and I see the transaction and everything. But thundermail is showing the subscription as being incomplete
+
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#6659](https://tbpro.zendesk.com/agent/tickets/6659)** · Subscription Price — why: **confused** · how: **explained**
   > I went to activate my account under the assumption that it was $6/month, or $36 annually. Now the annual subscription price shows $72. I'm a little confused. Did I accidentally…
-
-### Other / uncategorized — 1 tickets
-
-- **[#6658](https://tbpro.zendesk.com/agent/tickets/6658)** · Subscription Information Incomplete — why: **blocked** · how: **explained**
-  > I got my annual subscription through Paypal and I see the transaction and everything. But thundermail is showing the subscription as being incomplete
 
 ### Request or complaint — 1 tickets
 
@@ -121,7 +121,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6654](https://tbpro.zendesk.com/agent/tickets/6654) · [pending] · 2026-07-06T17:04 · Can't add account in Thunderbird
 - [6655](https://tbpro.zendesk.com/agent/tickets/6655) · [pending] · 2026-07-06T17:11 · Thundermail (thunderbird pro subscriptions OK) IOS App
 - [6656](https://tbpro.zendesk.com/agent/tickets/6656) · [pending] · 2026-07-06T17:45 · Payment
-- [6658](https://tbpro.zendesk.com/agent/tickets/6658) · [solved] · 2026-07-06T18:01 · Subscription Information Incomplete
+- [6658](https://tbpro.zendesk.com/agent/tickets/6658) · [open] · 2026-07-06T18:01 · Subscription Information Incomplete
 - [6659](https://tbpro.zendesk.com/agent/tickets/6659) · [solved] · 2026-07-06T18:37 · Subscription Price
 
 ## Solved — last 24h
