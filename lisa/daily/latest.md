@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 09:01 ET** · refreshes hourly_  
+_Updated: **2026-07-07 09:52 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -44,13 +44,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 64
-- **pending**: 12
-- **open**: 8
+- **pending**: 14
+- **open**: 6
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 41
+- **Account Hub**: 42
 - **Thundermail**: 38
 - **Appointment**: 5
 - **Send**: 2
@@ -64,7 +64,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 8
 - **request** + **redirected**: 8
 - **change request** + **actioned**: 8
-- **blocked** + **investigated**: 5
+- **blocked** + **investigated**: 6
 - **blocked** + **escalated**: 2
 - **change request** + **escalated**: 2
 - **request** + **informed**: 1
@@ -79,19 +79,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 2 tickets
-
-- **[#6675](https://tbpro.zendesk.com/agent/tickets/6675)** · I have been invited but cannot login
-  > Hello, I received an invitation for Thundermail but when I try to login using the email rudy@kameereddy, I have to reset the password, but no email is received on the recovery…
-- **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
-  > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
-
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#6672](https://tbpro.zendesk.com/agent/tickets/6672)** · Difficulties configuring my custom domain's DNS records
   > Hi, I'm trying to configure my custom domain's DNS records as defined in Thundermail. Unfortunately, several days later the verification fails. Refer attached…
 - **[#6668](https://tbpro.zendesk.com/agent/tickets/6668)** · smtp
   > I have a homelab and it needs to send mails to me for notifications. I use my custom domain to send the mails to my other mail address. Can i use thundermail smtp to send the…
+
+### Account access issues — 2 tickets
+
+- **[#6675](https://tbpro.zendesk.com/agent/tickets/6675)** · I have been invited but cannot login — why: **blocked** · how: **investigated**
+  > Hello, I received an invitation for Thundermail but when I try to login using the email rudy@kameereddy, I have to reset the password, but no email is received on the recovery…
+- **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
+  > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
 
 ### Early bird signup — 1 tickets
 
@@ -110,7 +110,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6664](https://tbpro.zendesk.com/agent/tickets/6664) · [pending] · 2026-07-06T22:20 · Question About the Early Bird Sign Up
 - [6668](https://tbpro.zendesk.com/agent/tickets/6668) · [open] · 2026-07-07T07:29 · smtp
 - [6672](https://tbpro.zendesk.com/agent/tickets/6672) · [open] · 2026-07-07T10:04 · Difficulties configuring my custom domain's DNS records
-- [6675](https://tbpro.zendesk.com/agent/tickets/6675) · [open] · 2026-07-07T12:09 · I have been invited but cannot login
+- [6675](https://tbpro.zendesk.com/agent/tickets/6675) · [pending] · 2026-07-07T12:09 · I have been invited but cannot login
 
 ## Solved — last 24h
 
