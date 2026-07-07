@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 09:52 ET** · refreshes hourly_  
+_Updated: **2026-07-07 11:10 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 16** of rollout — **6,500 invitees**, **90 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
+Flight 3 is **day 16** of rollout — **6,500 invitees**, **91 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **3** solved in last 24h
-- **90** tickets total since launch · contact rate **1%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (17 good / 0 bad)
+- **7** new tickets in last 24h · **5** solved in last 24h
+- **91** tickets total since launch · contact rate **1%** of 6500 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 47.5h · mean 80.1h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 47.5h · mean 80.8h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -44,13 +44,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 64
-- **pending**: 14
+- **pending**: 13
+- **hold**: 8
 - **open**: 6
-- **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 42
+- **Account Hub**: 43
 - **Thundermail**: 38
 - **Appointment**: 5
 - **Send**: 2
@@ -65,8 +65,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 8
 - **change request** + **actioned**: 8
 - **blocked** + **investigated**: 6
-- **blocked** + **escalated**: 2
 - **change request** + **escalated**: 2
+- **blocked** + **escalated**: 2
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -79,19 +79,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 3 tickets
+
+- **[#6678](https://tbpro.zendesk.com/agent/tickets/6678)** · no confirmation email
+  > Yesterday I received my email to signup for Thundermail. I filled out the fields, but when I got to the confirmation email, I never received it despite trying the resend multiple…
+- **[#6675](https://tbpro.zendesk.com/agent/tickets/6675)** · I have been invited but cannot login — why: **blocked** · how: **investigated**
+  > Hello, I received an invitation for Thundermail but when I try to login using the email rudy@kameereddy, I have to reset the password, but no email is received on the recovery…
+- **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
+  > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#6672](https://tbpro.zendesk.com/agent/tickets/6672)** · Difficulties configuring my custom domain's DNS records
   > Hi, I'm trying to configure my custom domain's DNS records as defined in Thundermail. Unfortunately, several days later the verification fails. Refer attached…
 - **[#6668](https://tbpro.zendesk.com/agent/tickets/6668)** · smtp
   > I have a homelab and it needs to send mails to me for notifications. I use my custom domain to send the mails to my other mail address. Can i use thundermail smtp to send the…
-
-### Account access issues — 2 tickets
-
-- **[#6675](https://tbpro.zendesk.com/agent/tickets/6675)** · I have been invited but cannot login — why: **blocked** · how: **investigated**
-  > Hello, I received an invitation for Thundermail but when I try to login using the email rudy@kameereddy, I have to reset the password, but no email is received on the recovery…
-- **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
-  > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
 
 ### Early bird signup — 1 tickets
 
@@ -111,12 +113,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6668](https://tbpro.zendesk.com/agent/tickets/6668) · [open] · 2026-07-07T07:29 · smtp
 - [6672](https://tbpro.zendesk.com/agent/tickets/6672) · [open] · 2026-07-07T10:04 · Difficulties configuring my custom domain's DNS records
 - [6675](https://tbpro.zendesk.com/agent/tickets/6675) · [pending] · 2026-07-07T12:09 · I have been invited but cannot login
+- [6678](https://tbpro.zendesk.com/agent/tickets/6678) · [open] · 2026-07-07T14:26 · no confirmation email
 
 ## Solved — last 24h
 
 - · [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-06T20:50 · 2FA or passkey?
 - · [6663](https://tbpro.zendesk.com/agent/tickets/6663) · 2026-07-06T21:41 · Can't access my Thunderbird pro account?
 - · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-07T06:08 · Outgoing messages with custom domain not being signed with DKIM
+- · [6579](https://tbpro.zendesk.com/agent/tickets/6579) · 2026-07-07T14:02 · Request to remove PII from Thundermail Ideas page
+- 👍 [6610](https://tbpro.zendesk.com/agent/tickets/6610) · 2026-07-07T14:17 · no way to recreate the original Thundermail calendar.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
