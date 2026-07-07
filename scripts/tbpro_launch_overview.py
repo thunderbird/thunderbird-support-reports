@@ -956,7 +956,7 @@ def render(data):
     if has_monitoring:
         status_chips += '<span class="chip chip--warn"><span class="chip__dot"></span> Monitoring</span>\n'
     if has_block:
-        status_chips += '<span class="chip chip--warn"><span class="chip__dot"></span> Active block</span>\n'
+        status_chips += '<span class="chip chip--block"><span class="chip__dot"></span> Active block</span>\n'
     if has_watch:
         status_chips += '<span class="chip chip--info"><span class="chip__dot"></span> Pre-scale watch</span>\n'
     if csat_launch.get("n", 0) and int((csat_launch.get("pct") or "0").rstrip("%")) >= 80:
@@ -990,7 +990,11 @@ def render(data):
 """
         else:
             zd_url  = b.get("url", f"https://{sub}.zendesk.com/agent/tickets/{b['id']}")
-            head_html = f'Known problem <a href="{zd_url}" target="_blank">#{b["id"]}</a>'
+            # Problem titles are support-authored (no PII) — show the title, not just the ID.
+            subj = _esc(b.get("subject", "")) if "_esc" in globals() else b.get("subject", "")
+            head_html = f'<a href="{zd_url}" target="_blank">#{b["id"]}</a>'
+            if subj:
+                head_html += f' — {subj}'
             if gh_refs:
                 head_html += f' · {gh_refs}'
             if monitoring:
@@ -1001,7 +1005,11 @@ def render(data):
                 for i in b.get("open_incidents", [])
             ) if b.get("open_incidents") else "<em>problem ticket still open — monitoring for new incidents</em>"
             sub_html = f'<div class="alert-panel__sub">{n_open} open incident(s): {inc_links}</div>'
-            alert_panels += f"""<div class="alert-panel" role="status">
+            # Active block (open problem) = RED; fix-deployed monitoring = amber.
+            panel_cls = "alert-panel" if monitoring else "alert-panel alert-panel--block"
+            label = "Monitoring · fix deployed" if monitoring else "Active block · blocking new invites"
+            alert_panels += f"""<div class="{panel_cls}" role="status">
+  <div class="alert-panel__label">{label}</div>
   <div class="alert-panel__head">{head_html}</div>
   {sub_html}
 </div>
@@ -1016,6 +1024,7 @@ def render(data):
             *(gh_links.get(iid, []) for iid in b.get("all_incident_ids", [])),
             b.get("static_gh_links", []),
         ] for i in issues}.values())
+        rail_cls = ""
         if b.get("watch"):
             rail_lbl = "Watching"
             issue_label = b["subject"]
@@ -1035,7 +1044,9 @@ def render(data):
             )
             note_html = ""
         else:
-            rail_lbl = "Watching"
+            # Active block (open problem) = RED "Blocking"; fix-deployed = amber "Monitoring".
+            rail_lbl = "Monitoring" if monitoring else "Blocking"
+            rail_cls = "" if monitoring else " rail-watch--block"
             zd_url = b.get("url", f"https://{sub}.zendesk.com/agent/tickets/{b['id']}")
             issue_label = b.get("subject", f"Problem #{b['id']}")[:60]
             refs_parts = [f'<a href="{zd_url}" target="_blank">#{b["id"]}</a>']
@@ -1046,7 +1057,7 @@ def render(data):
                 refs_html += f'<span class="rail-watch__meta"> · {monitoring}</span>'
             n_open = len(b.get("open_incidents", []))
             note_html = f'<div class="rail-watch__note">{n_open} new incidents — problem ticket still open</div>'
-        rail_watch_html += f"""<div class="rail-watch">
+        rail_watch_html += f"""<div class="rail-watch{rail_cls}">
   <div class="rail-watch__lbl">{rail_lbl}</div>
   <div class="rail-watch__issue">{issue_label}</div>
   <div class="rail-watch__refs">{refs_html}</div>
@@ -1498,6 +1509,18 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .alert-panel__head a{{color:var(--color-warning)}}
 .alert-panel__sub{{color:var(--color-warning-text);font-size:.8rem}}
 .alert-panel__meta{{font-weight:400;font-size:.78rem;color:var(--color-warning-text)}}
+/* Active block — RED (a real blocker, distinct from amber monitoring / blue pre-scale watch) */
+.chip--block{{background:var(--color-critical-soft);border:1px solid var(--color-critical);color:var(--color-critical)}}
+.alert-panel--block{{background:var(--color-critical-soft);border-color:var(--color-critical)}}
+.alert-panel--block .alert-panel__label{{color:var(--color-critical)}}
+.alert-panel--block .alert-panel__head{{color:#ffd9d9}}
+.alert-panel--block .alert-panel__head a{{color:var(--color-critical)}}
+.alert-panel--block .alert-panel__sub{{color:#f2b8b8}}
+.alert-panel--block .alert-panel__sub a{{color:var(--color-critical)}}
+.rail-watch--block{{background:var(--color-critical-soft);border-color:var(--color-critical)}}
+.rail-watch--block .rail-watch__lbl{{color:var(--color-critical)}}
+.rail-watch--block .rail-watch__refs{{color:#f2b8b8}}
+.rail-watch--block .rail-watch__refs a{{color:var(--color-critical)}}
 /* CSAT TL;DR — analyst-curated narrative callout */
 .csat-tldr{{background:var(--color-primary-soft);border:1px solid var(--color-surface-border-strong);border-left:4px solid var(--color-primary);border-radius:var(--radius-md);padding:var(--space-16);margin-bottom:var(--space-12)}}
 .csat-tldr__label{{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:var(--space-12);display:flex;align-items:baseline;gap:var(--space-8)}}
