@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 16:46 ET** · refreshes hourly_  
+_Updated: **2026-07-07 17:38 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 16** of rollout — **6,500 invitees**, **98 tickets** so far 
 - **98** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 19
 - **Median AHT**: 52.3h · mean 85.4h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -52,9 +52,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 65
-- **pending**: 19
-- **open**: 8
-- **hold**: 6
+- **pending**: 22
+- **hold**: 7
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -67,44 +67,35 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 20
+- **curious** + **explained**: 21
 - **blocked** + **explained**: 14
+- **request** + **redirected**: 9
 - **confused** + **explained**: 8
-- **request** + **redirected**: 8
 - **change request** + **actioned**: 8
 - **blocked** + **investigated**: 6
 - **blocked** + **escalated**: 3
 - **change request** + **escalated**: 2
+- **concerned** + **explained**: 2
 - **curious** + **investigated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
 - **blocked** + **actioned**: 1
 - **curious** + **informed**: 1
-- **concerned** + **explained**: 1
 - **concerned** + **investigated**: 1
 - **request** + **actioned**: 1
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 4 tickets
+### Account access issues — 3 tickets
 
-- **[#6688](https://tbpro.zendesk.com/agent/tickets/6688)** · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain] into an alias
-  > There's more character input when providing my new thundermail address than there is for the gmail account I'm leaving - I'd like to be able to switch my subscription, login info,…
 - **[#6678](https://tbpro.zendesk.com/agent/tickets/6678)** · no confirmation email
   > Yesterday I received my email to signup for Thundermail. I filled out the fields, but when I got to the confirmation email, I never received it despite trying the resend multiple…
 - **[#6675](https://tbpro.zendesk.com/agent/tickets/6675)** · I have been invited but cannot login — why: **blocked** · how: **investigated**
   > Hello, I received an invitation for Thundermail but when I try to login using the email rudy@kameereddy, I have to reset the password, but no email is received on the recovery…
 - **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
   > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
-
-### Account access issues — Account Hub trouble — 2 tickets
-
-- **[#6680](https://tbpro.zendesk.com/agent/tickets/6680)** · locked out of early bird access account — why: **blocked** · how: **explained**
-  > Oof. Must have typo'd my password to my earlybird account. Confirmed username, verified email. Tried to login. Error: Invalid username or password. Can't receive reset because…
-- **[#6682](https://tbpro.zendesk.com/agent/tickets/6682)** · Email confirmations not received — why: **blocked** · how: **escalated**
-  > Have a pattern of email confirmations not received by the end user (some customers, some not yet subscribed). Being investigated by Mel:…
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
@@ -113,20 +104,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6672](https://tbpro.zendesk.com/agent/tickets/6672)** · Difficulties configuring my custom domain's DNS records
   > Hi, I'm trying to configure my custom domain's DNS records as defined in Thundermail. Unfortunately, several days later the verification fails. Refer attached…
 
-### App setup / configuration — 1 tickets
+### Account access issues — Account Hub trouble — 2 tickets
 
-- **[#6687](https://tbpro.zendesk.com/agent/tickets/6687)** · Gmail flagged my outgoing test email as spam -_-
-  > Hey [name], Gmail has flagged an outgoing test email from my primary account [email] as spam
-
-### Pre-purchase / documentation gap — 1 tickets
-
-- **[#6686](https://tbpro.zendesk.com/agent/tickets/6686)** · Thundermail vs Fastmail
-  > Hello — I love Mozilla and use Firefox religiously. I'm trying to grok how Thundermail will compare to Fastmail, which I've already used for years and have multiple custom domains…
+- **[#6682](https://tbpro.zendesk.com/agent/tickets/6682)** · Email confirmations not received — why: **blocked** · how: **escalated**
+  > Have a pattern of email confirmations not received by the end user (some customers, some not yet subscribed). Being investigated by Mel:…
+- **[#6680](https://tbpro.zendesk.com/agent/tickets/6680)** · locked out of early bird access account — why: **blocked** · how: **explained**
+  > Oof. Must have typo'd my password to my earlybird account. Confirmed username, verified email. Tried to login. Error: Invalid username or password. Can't receive reset because…
 
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#6685](https://tbpro.zendesk.com/agent/tickets/6685)** · Invitation early bird plan
   > Dear [name], I have received am invitation to subscribe and I would like to do so with my own domain. However I see in the early bird plan that I will get 1 mailbox with 15…
+
+### Request or complaint — 1 tickets
+
+- **[#6688](https://tbpro.zendesk.com/agent/tickets/6688)** · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain] into an alias — why: **request** · how: **redirected**
+  > There's more character input when providing my new thundermail address than there is for the gmail account I'm leaving - I'd like to be able to switch my subscription, login info,…
+
+### App setup / configuration — 1 tickets
+
+- **[#6687](https://tbpro.zendesk.com/agent/tickets/6687)** · Gmail flagged my outgoing test email as spam -_- — why: **concerned** · how: **explained**
+  > Hey [name], Gmail has flagged an outgoing test email from my primary account [email] as spam
+
+### Pre-purchase / documentation gap — 1 tickets
+
+- **[#6686](https://tbpro.zendesk.com/agent/tickets/6686)** · Thundermail vs Fastmail — why: **curious** · how: **explained**
+  > Hello — I love Mozilla and use Firefox religiously. I'm trying to grok how Thundermail will compare to Fastmail, which I've already used for years and have multiple custom domains…
 
 ### Early bird signup — 1 tickets
 
@@ -147,12 +150,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6672](https://tbpro.zendesk.com/agent/tickets/6672) · [pending] · 2026-07-07T10:04 · Difficulties configuring my custom domain's DNS records
 - [6675](https://tbpro.zendesk.com/agent/tickets/6675) · [pending] · 2026-07-07T12:09 · I have been invited but cannot login
 - [6678](https://tbpro.zendesk.com/agent/tickets/6678) · [pending] · 2026-07-07T14:26 · no confirmation email
-- [6680](https://tbpro.zendesk.com/agent/tickets/6680) · [open] · 2026-07-07T15:18 · locked out of early bird access account
+- [6680](https://tbpro.zendesk.com/agent/tickets/6680) · [pending] · 2026-07-07T15:18 · locked out of early bird access account
 - [6682](https://tbpro.zendesk.com/agent/tickets/6682) · [solved] · 2026-07-07T15:38 · Email confirmations not received
 - [6685](https://tbpro.zendesk.com/agent/tickets/6685) · [open] · 2026-07-07T17:43 · Invitation early bird plan
-- [6686](https://tbpro.zendesk.com/agent/tickets/6686) · [open] · 2026-07-07T18:22 · Thundermail vs Fastmail
-- [6687](https://tbpro.zendesk.com/agent/tickets/6687) · [open] · 2026-07-07T19:02 · Gmail flagged my outgoing test email as spam -_-
-- [6688](https://tbpro.zendesk.com/agent/tickets/6688) · [open] · 2026-07-07T19:09 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
+- [6686](https://tbpro.zendesk.com/agent/tickets/6686) · [hold] · 2026-07-07T18:22 · Thundermail vs Fastmail
+- [6687](https://tbpro.zendesk.com/agent/tickets/6687) · [pending] · 2026-07-07T19:02 · Gmail flagged my outgoing test email as spam -_-
+- [6688](https://tbpro.zendesk.com/agent/tickets/6688) · [pending] · 2026-07-07T19:09 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
 
 ## Solved — last 24h
 
