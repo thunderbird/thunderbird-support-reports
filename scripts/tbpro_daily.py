@@ -261,7 +261,7 @@ CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time fr
 INVITEE_COUNT = 6500         # Flight 3 · Wave 1 (2026-06-22) + Wave 2 (2026-06-23) + Wave 3 (2026-06-24)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
-WATCH_PROBLEMS = set()  # No active blockers
+WATCH_PROBLEMS = {6682}  # #6682 — email confirmations not being received (5 incidents); blocking new invites while under investigation
 MANUAL_THEMES = {            # Force-assign theme for tickets that can't be auto-categorized
     6055: "Account access issues",  # follow-up ticket, no useful subject/tags
 }
