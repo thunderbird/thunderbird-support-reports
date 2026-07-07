@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 18:33 ET** · refreshes hourly_  
+_Updated: **2026-07-07 19:29 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -52,9 +52,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 64
-- **pending**: 22
+- **pending**: 23
 - **hold**: 6
-- **open**: 5
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -67,7 +67,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 21
+- **curious** + **explained**: 22
 - **blocked** + **explained**: 14
 - **request** + **redirected**: 9
 - **confused** + **explained**: 8
@@ -116,11 +116,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6686](https://tbpro.zendesk.com/agent/tickets/6686)** · Thundermail vs Fastmail — why: **curious** · how: **explained**
   > Hello — I love Mozilla and use Firefox religiously. I'm trying to grok how Thundermail will compare to Fastmail, which I've already used for years and have multiple custom domains…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6685](https://tbpro.zendesk.com/agent/tickets/6685)** · Invitation early bird plan
-  > Dear [name], I have received am invitation to subscribe and I would like to do so with my own domain. However I see in the early bird plan that I will get 1 mailbox with 15…
-
 ### Request or complaint — 1 tickets
 
 - **[#6688](https://tbpro.zendesk.com/agent/tickets/6688)** · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain] into an alias — why: **request** · how: **redirected**
@@ -130,6 +125,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6687](https://tbpro.zendesk.com/agent/tickets/6687)** · Gmail flagged my outgoing test email as spam -_- — why: **concerned** · how: **explained**
   > Hey [name], Gmail has flagged an outgoing test email from my primary account [email] as spam
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6685](https://tbpro.zendesk.com/agent/tickets/6685)** · Invitation early bird plan — why: **curious** · how: **explained**
+  > Dear [name], I have received am invitation to subscribe and I would like to do so with my own domain. However I see in the early bird plan that I will get 1 mailbox with 15…
 
 ### Early bird signup — 1 tickets
 
@@ -152,7 +152,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6678](https://tbpro.zendesk.com/agent/tickets/6678) · [pending] · 2026-07-07T14:26 · no confirmation email
 - [6680](https://tbpro.zendesk.com/agent/tickets/6680) · [pending] · 2026-07-07T15:18 · locked out of early bird access account
 - [6682](https://tbpro.zendesk.com/agent/tickets/6682) · [solved] · 2026-07-07T15:38 · Email confirmations not received
-- [6685](https://tbpro.zendesk.com/agent/tickets/6685) · [open] · 2026-07-07T17:43 · Invitation early bird plan
+- [6685](https://tbpro.zendesk.com/agent/tickets/6685) · [pending] · 2026-07-07T17:43 · Invitation early bird plan
 - [6686](https://tbpro.zendesk.com/agent/tickets/6686) · [open] · 2026-07-07T18:22 · Thundermail vs Fastmail
 - [6687](https://tbpro.zendesk.com/agent/tickets/6687) · [pending] · 2026-07-07T19:02 · Gmail flagged my outgoing test email as spam -_-
 - [6688](https://tbpro.zendesk.com/agent/tickets/6688) · [pending] · 2026-07-07T19:09 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
