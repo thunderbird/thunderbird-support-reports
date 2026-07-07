@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 07:13 ET** · refreshes hourly_  
+_Updated: **2026-07-07 09:01 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 16** of rollout — **6,500 invitees**, **89 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 16** of rollout — **6,500 invitees**, **90 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
-- **89** tickets total since launch · contact rate **1%** of 6500 invitees
+- **6** new tickets in last 24h · **3** solved in last 24h
+- **90** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
@@ -45,7 +45,7 @@ _(none in last 24h)_
 
 - **solved**: 64
 - **pending**: 12
-- **open**: 7
+- **open**: 8
 - **hold**: 6
 
 ## Service (cumulative)
@@ -79,6 +79,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#6675](https://tbpro.zendesk.com/agent/tickets/6675)** · I have been invited but cannot login
+  > Hello, I received an invitation for Thundermail but when I try to login using the email rudy@kameereddy, I have to reset the password, but no email is received on the recovery…
+- **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
+  > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#6672](https://tbpro.zendesk.com/agent/tickets/6672)** · Difficulties configuring my custom domain's DNS records
@@ -90,11 +97,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6664](https://tbpro.zendesk.com/agent/tickets/6664)** · Question About the Early Bird Sign Up — why: **confused** · how: **explained**
   > Dear [name], I’ve been waiting since early last year to sign up, and I received today’s email about completing payment. I noticed that only @[domain] is currently available.…
-
-### Account access issues — 1 tickets
-
-- **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
-  > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
 
 ### MFA / two-factor — 1 tickets
 
@@ -108,6 +110,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6664](https://tbpro.zendesk.com/agent/tickets/6664) · [pending] · 2026-07-06T22:20 · Question About the Early Bird Sign Up
 - [6668](https://tbpro.zendesk.com/agent/tickets/6668) · [open] · 2026-07-07T07:29 · smtp
 - [6672](https://tbpro.zendesk.com/agent/tickets/6672) · [open] · 2026-07-07T10:04 · Difficulties configuring my custom domain's DNS records
+- [6675](https://tbpro.zendesk.com/agent/tickets/6675) · [open] · 2026-07-07T12:09 · I have been invited but cannot login
 
 ## Solved — last 24h
 
