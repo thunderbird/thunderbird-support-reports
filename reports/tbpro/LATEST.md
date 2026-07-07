@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 03:23 ET** · refreshes hourly_  
+_Updated: **2026-07-07 05:18 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 16** of rollout — **6,500 invitees**, **87 tickets** so far (1.3% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
+Flight 3 is **day 16** of rollout — **6,500 invitees**, **88 tickets** so far (1.4% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **1 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
-- **87** tickets total since launch · contact rate **1%** of 6500 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **88** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
@@ -44,14 +44,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 64
-- **pending**: 13
+- **pending**: 12
+- **open**: 6
 - **hold**: 6
-- **open**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 41
-- **Thundermail**: 37
+- **Thundermail**: 38
 - **Appointment**: 5
 - **Send**: 2
 
@@ -79,6 +79,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6668](https://tbpro.zendesk.com/agent/tickets/6668)** · smtp
+  > I have a homelab and it needs to send mails to me for notifications. I use my custom domain to send the mails to my other mail address. Can i use thundermail smtp to send the…
+
 ### Early bird signup — 1 tickets
 
 - **[#6664](https://tbpro.zendesk.com/agent/tickets/6664)** · Question About the Early Bird Sign Up — why: **confused** · how: **explained**
@@ -99,6 +104,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6662](https://tbpro.zendesk.com/agent/tickets/6662) · [solved] · 2026-07-06T20:30 · 2FA or passkey?
 - [6663](https://tbpro.zendesk.com/agent/tickets/6663) · [solved] · 2026-07-06T20:58 · Can't access my Thunderbird pro account?
 - [6664](https://tbpro.zendesk.com/agent/tickets/6664) · [pending] · 2026-07-06T22:20 · Question About the Early Bird Sign Up
+- [6668](https://tbpro.zendesk.com/agent/tickets/6668) · [open] · 2026-07-07T07:29 · smtp
 
 ## Solved — last 24h
 
