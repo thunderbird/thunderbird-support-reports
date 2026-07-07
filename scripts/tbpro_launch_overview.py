@@ -124,9 +124,11 @@ WAVES = [
     {"date": "2026-06-23", "end": "2026-06-23", "invites": 3000, "label": "Flight 3 Wave 2",  "color": "#0ea5e9"},
     {"date": "2026-06-24", "end": "2026-06-28", "invites": 2000, "label": "Flight 3 Wave 3",  "color": "#a855f7"},
     {"date": "2026-06-29", "end": "2026-06-29", "invites": 5000, "label": "Flight 4 Wave 1",  "color": "#ec4899"},
-    {"date": "2026-06-30", "end": "2099-12-31", "invites": 5000, "label": "Flight 4 Wave 2",  "color": "#14b8a6"},
+    {"date": "2026-06-30", "end": "2026-07-05", "invites": 5000, "label": "Flight 4 Wave 2",  "color": "#14b8a6"},
+    {"date": "2026-07-06", "end": "2026-07-06", "invites": 4000, "label": "Flight 5 Wave 1",  "color": "#eab308"},
+    {"date": "2026-07-07", "end": "2099-12-31", "invites": 5000, "label": "Flight 5 Wave 2",  "color": "#8b5cf6"},
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 19,100 (Flight 4: 5k Jun 29 + 5k Jun 30)
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 28,100 (Flight 5: 4k Jul 6 + 5k Jul 7)
 # Waves settle (contacts arrive) over ~7-14 days. The projection baseline excludes waves
 # younger than this so still-ramping sends don't drag the rate down. 14 = fully settled
 # (a wave at 7-8 days is only partway there — its rate is still climbing).
@@ -1787,7 +1789,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="tile tile--span3">
       <div class="tile__val">{overall_rate}%</div>
       <div class="tile__lbl">Overall contact rate</div>
-      <div class="tile__sub">{total_combined} contacts / {TOTAL_INVITEES:,} invitees · tickets + ideas + comments<br><span class="wave-note">Flight 4 (10k, Jun 29–30) just sent — rate will rise as those tickets arrive</span></div>
+      <div class="tile__sub">{total_combined} contacts / {TOTAL_INVITEES:,} invitees · tickets + ideas + comments<br><span class="wave-note">Flights 4–5 (19k, Jun 29–Jul 7) recently sent — rate will rise as those tickets arrive</span></div>
     </div>
     <div class="tile tile--span3 tile--warn">
       <div class="tile__val">{aht_median} {aht_delta}</div>
@@ -1902,7 +1904,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
           {proj_rows}
         </tbody>
       </table>
-      <p class="panel__note"><strong>Contact rate collapses with scale.</strong> Early adopters were chatty — Early Bird {data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% (misdirect-inflated), Flight 2 ~5% — but mass sends run under 1%. Projections therefore use the {avg_rate}% <strong>pooled</strong> rate (total contacts ÷ total invites) of the <strong>at-scale cohort (Flight 3 onward)</strong>, the only waves that resemble future large flights. Early adopters are excluded — their rates don't scale. Flight 3/4 are still settling, so treat this as a conservative floor that will rise somewhat over the next 7–14 days.</p>
+      <p class="panel__note"><strong>Contact rate collapses with scale.</strong> Early adopters were chatty — Early Bird {data["wave_stats"][0]["rate"] if data["wave_stats"] else "—"}% (misdirect-inflated), Flight 2 ~5% — but mass sends run under 1%. Projections therefore use the {avg_rate}% <strong>pooled</strong> rate (total contacts ÷ total invites) of the <strong>at-scale cohort (Flight 3 onward)</strong>, the only waves that resemble future large flights. Early adopters are excluded — their rates don't scale. Flights 3–5 are still settling (Flight 5 sent Jul 6–7), so treat this as a conservative floor that will rise somewhat over the next 7–14 days.</p>
     </div>
     <div class="panel">
       <div class="panel__title">Contact rate by wave</div>
