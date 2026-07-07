@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 01:30 ET** · refreshes hourly_  
+_Updated: **2026-07-07 03:23 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 16** of rollout — **6,500 invitees**, **87 tickets** so far 
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
+- **3** new tickets in last 24h · **3** solved in last 24h
 - **87** tickets total since launch · contact rate **1%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 18
-- **Median AHT**: 46.8h · mean 76.7h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 47.5h · mean 80.1h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## Known problems — 1 problem(s), 2 incident(s)
 
@@ -43,9 +43,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 63
-- **pending**: 15
-- **hold**: 5
+- **solved**: 64
+- **pending**: 13
+- **hold**: 6
 - **open**: 4
 
 ## Service (cumulative)
@@ -66,7 +66,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 8
 - **blocked** + **investigated**: 5
 - **blocked** + **escalated**: 2
-- **change request** + **escalated**: 1
+- **change request** + **escalated**: 2
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -104,6 +104,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-06T20:50 · 2FA or passkey?
 - · [6663](https://tbpro.zendesk.com/agent/tickets/6663) · 2026-07-06T21:41 · Can't access my Thunderbird pro account?
+- · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-07T06:08 · Outgoing messages with custom domain not being signed with DKIM
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
