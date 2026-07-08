@@ -125,10 +125,12 @@ WAVES = [
     {"date": "2026-06-24", "end": "2026-06-28", "invites": 2000, "label": "Flight 3 Wave 3",  "color": "#a855f7"},
     {"date": "2026-06-29", "end": "2026-06-29", "invites": 5000, "label": "Flight 4 Wave 1",  "color": "#ec4899"},
     {"date": "2026-06-30", "end": "2026-07-05", "invites": 5000, "label": "Flight 4 Wave 2",  "color": "#14b8a6"},
-    {"date": "2026-07-06", "end": "2099-12-31", "invites": 4000, "label": "Flight 5 Wave 1",  "color": "#eab308"},
-    # Flight 5 Wave 2 (5k, Jul 7) ON HOLD — potential email bug under investigation; add back when it ships.
+    {"date": "2026-07-06", "end": "2026-07-06", "invites": 4000, "label": "Flight 5 Wave 1",  "color": "#eab308"},
+    {"date": "2026-07-07", "end": "2026-07-07", "invites": 3000, "label": "Flight 5 Wave 2",  "color": "#8b5cf6"},
+    {"date": "2026-07-08", "end": "2099-12-31", "invites": 3000, "label": "Flight 5 Wave 3",  "color": "#22d3ee"},
+    # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 23,100 (Flight 5: 4k Jul 6; Jul 7 5k on hold)
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 29,100 (Flight 5: 4k Jul 6 + 3k Jul 7 + 3k Jul 8)
 # Waves settle (contacts arrive) over ~7-14 days. The projection baseline excludes waves
 # younger than this so still-ramping sends don't drag the rate down. 14 = fully settled
 # (a wave at 7-8 days is only partway there — its rate is still climbing).
@@ -1007,7 +1009,7 @@ def render(data):
             sub_html = f'<div class="alert-panel__sub">{n_open} open incident(s): {inc_links}</div>'
             # Active block (open problem) = RED; fix-deployed monitoring = amber.
             panel_cls = "alert-panel" if monitoring else "alert-panel alert-panel--block"
-            label = "Monitoring · fix deployed" if monitoring else "Active block · blocking new invites"
+            label = "Monitoring · fix deployed" if monitoring else "Active block · under investigation"
             alert_panels += f"""<div class="{panel_cls}" role="status">
   <div class="alert-panel__label">{label}</div>
   <div class="alert-panel__head">{head_html}</div>
@@ -1984,6 +1986,10 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 <!-- SECTION: ideas -->
 <section class="section" id="ideas">
   <div class="section__head"><span class="section__num">05</span><h2 class="section__title">Community ideas · {data["ideas_count"]} total</h2></div>
+
+  <div class="insight" style="border-left-color:var(--color-success);background:var(--color-success-soft)">
+    <strong>🎉 Announced July 8 — the two most-requested ideas shipped:</strong> Multifactor Authentication (58 votes) and Webmail for Thundermail (74 votes) — the top-voted requests on the board. Support heads-up: expect a bump in MFA-setup and Webmail-access questions; brief the team and stage macros/KB.
+  </div>
 
   <div class="panel ideas-header">
     <h3>Top 10 open for discussion</h3>
