@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-07
 
-_Updated: **2026-07-07 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-07 23:14 ET** · refreshes hourly_  
 _24h window: 2026-07-06T16:00 → 2026-07-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -52,9 +52,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 64
-- **pending**: 22
-- **open**: 6
+- **pending**: 24
 - **hold**: 6
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -97,19 +97,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6663](https://tbpro.zendesk.com/agent/tickets/6663)** · Can't access my Thunderbird pro account? — why: **blocked** · how: **explained**
   > Hello, very excited today as I received my invite for Thunderbird Pro! I've tried signing up but I had some weirdness using Firefox and the signup portal and for some reason my @…
 
-### Custom domain / DKIM / DNS — 2 tickets
-
-- **[#6668](https://tbpro.zendesk.com/agent/tickets/6668)** · smtp — why: **curious** · how: **investigated**
-  > I have a homelab and it needs to send mails to me for notifications. I use my custom domain to send the mails to my other mail address. Can i use thundermail smtp to send the…
-- **[#6672](https://tbpro.zendesk.com/agent/tickets/6672)** · Difficulties configuring my custom domain's DNS records
-  > Hi, I'm trying to configure my custom domain's DNS records as defined in Thundermail. Unfortunately, several days later the verification fails. Refer attached…
-
 ### Account access issues — Account Hub trouble — 2 tickets
 
 - **[#6682](https://tbpro.zendesk.com/agent/tickets/6682)** · Email confirmations not received — why: **blocked** · how: **escalated**
   > Have a pattern of email confirmations not received by the end user (some customers, some not yet subscribed). Being investigated by Mel:…
 - **[#6680](https://tbpro.zendesk.com/agent/tickets/6680)** · locked out of early bird access account — why: **blocked** · how: **explained**
   > Oof. Must have typo'd my password to my earlybird account. Confirmed username, verified email. Tried to login. Error: Invalid username or password. Can't receive reset because…
+
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#6672](https://tbpro.zendesk.com/agent/tickets/6672)** · Difficulties configuring my custom domain's DNS records
+  > Hi, I'm trying to configure my custom domain's DNS records as defined in Thundermail. Unfortunately, several days later the verification fails. Refer attached…
+- **[#6668](https://tbpro.zendesk.com/agent/tickets/6668)** · smtp — why: **curious** · how: **investigated**
+  > I have a homelab and it needs to send mails to me for notifications. I use my custom domain to send the mails to my other mail address. Can i use thundermail smtp to send the…
 
 ### Pre-purchase / documentation gap — 1 tickets
 
@@ -146,7 +146,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6662](https://tbpro.zendesk.com/agent/tickets/6662) · [pending] · 2026-07-06T20:30 · 2FA or passkey?
 - [6663](https://tbpro.zendesk.com/agent/tickets/6663) · [pending] · 2026-07-06T20:58 · Can't access my Thunderbird pro account?
 - [6664](https://tbpro.zendesk.com/agent/tickets/6664) · [pending] · 2026-07-06T22:20 · Question About the Early Bird Sign Up
-- [6668](https://tbpro.zendesk.com/agent/tickets/6668) · [open] · 2026-07-07T07:29 · smtp
+- [6668](https://tbpro.zendesk.com/agent/tickets/6668) · [pending] · 2026-07-07T07:29 · smtp
 - [6672](https://tbpro.zendesk.com/agent/tickets/6672) · [pending] · 2026-07-07T10:04 · Difficulties configuring my custom domain's DNS records
 - [6675](https://tbpro.zendesk.com/agent/tickets/6675) · [pending] · 2026-07-07T12:09 · I have been invited but cannot login
 - [6678](https://tbpro.zendesk.com/agent/tickets/6678) · [pending] · 2026-07-07T14:26 · no confirmation email
