@@ -1,19 +1,19 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 16:37 ET** · refreshes hourly_  
+_Updated: **2026-07-08 17:34 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 17** of rollout — **6,500 invitees**, **106 tickets** so far (1.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 17** of rollout — **6,500 invitees**, **108 tickets** so far (1.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **10** solved in last 24h
-- **106** tickets total since launch · contact rate **2%** of 6500 invitees
+- **108** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 22
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 21
 - **Median AHT**: 56.5h · mean 88.6h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -63,14 +63,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 72
-- **pending**: 23
-- **hold**: 8
+- **pending**: 24
+- **hold**: 9
 - **open**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 51
-- **Thundermail**: 44
+- **Thundermail**: 46
 - **Appointment**: 5
 - **Send**: 2
 
@@ -80,14 +80,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 23
 - **blocked** + **explained**: 14
+- **request** + **redirected**: 10
 - **confused** + **explained**: 9
-- **request** + **redirected**: 9
 - **change request** + **actioned**: 8
 - **blocked** + **investigated**: 7
 - **blocked** + **escalated**: 5
 - **blocked** + **actioned**: 3
 - **concerned** + **explained**: 2
 - **change request** + **escalated**: 2
+- **request** + **—**: 1
 - **curious** + **investigated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
@@ -101,13 +102,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 1 tickets
 
-- **[#6721](https://tbpro.zendesk.com/agent/tickets/6721)** · why I cannot get alias [email]
+- **[#6721](https://tbpro.zendesk.com/agent/tickets/6721)** · why I cannot get alias [email] — why: **request**
   > Hi folks, I tried to get this alias from day one but have not been able to "[email]". How comes? Thanks!
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#6717](https://tbpro.zendesk.com/agent/tickets/6717)** · Pricing detail
-  > Hello, You quote a price of $6/month with 30GB storage and 3 custom domains. Is this per-user or for an overall account with you? For example I have two domains with 5 unique…
 
 ### Early bird signup — 1 tickets
 
@@ -118,6 +114,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6719](https://tbpro.zendesk.com/agent/tickets/6719)** · Subscription — why: **curious** · how: **explained**
   > Hi, is there any way I could pay monthly? I *want* to pay but I’m way too poor for nearly $70 at once :c If not possible and I don't pay now, would my chosen email address be…
+
+### Request or complaint — 1 tickets
+
+- **[#6717](https://tbpro.zendesk.com/agent/tickets/6717)** · Pricing detail — why: **request** · how: **redirected**
+  > Hello, You quote a price of $6/month with 30GB storage and 3 custom domains. Is this per-user or for an overall account with you? For example I have two domains with 5 unique…
 
 ### Account access issues — 1 tickets
 
@@ -151,10 +152,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6697](https://tbpro.zendesk.com/agent/tickets/6697) · [hold] · 2026-07-08T06:57 · Pre-signup questions
 - [6698](https://tbpro.zendesk.com/agent/tickets/6698) · [pending] · 2026-07-08T06:58 · Recovery E-Mail and Aliases
 - [6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · 2026-07-08T16:52 · Tracker: Who did we have to manually verify email for?
-- [6717](https://tbpro.zendesk.com/agent/tickets/6717) · [open] · 2026-07-08T19:15 · Pricing detail
+- [6717](https://tbpro.zendesk.com/agent/tickets/6717) · [pending] · 2026-07-08T19:15 · Pricing detail
 - [6719](https://tbpro.zendesk.com/agent/tickets/6719) · [pending] · 2026-07-08T19:24 · Subscription
 - [6720](https://tbpro.zendesk.com/agent/tickets/6720) · [pending] · 2026-07-08T19:32 · Oops, registered and missed the recovery email step, now being charged full price for first year
-- [6721](https://tbpro.zendesk.com/agent/tickets/6721) · [open] · 2026-07-08T19:52 · why I cannot get alias [email]
+- [6721](https://tbpro.zendesk.com/agent/tickets/6721) · [hold] · 2026-07-08T19:52 · why I cannot get alias [email]
 
 ## Solved — last 24h
 
