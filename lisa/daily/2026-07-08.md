@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 11:53 ET** · refreshes hourly_  
+_Updated: **2026-07-08 12:43 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 17** of rollout — **6,500 invitees**, **101 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **5** solved in last 24h
+- **4** new tickets in last 24h · **7** solved in last 24h
 - **101** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 20
-- **Median AHT**: 60.7h · mean 88.0h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 60.7h · mean 90.0h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -45,17 +45,17 @@ _(none in last 24h)_
 
 **Last 24h** — 2 new:
 
-- [Fast User Switching (Web Mail)](https://ideas.tb.pro/p/fast-user-switching-web-mail) · 1 votes · _untagged_
+- [Fast User Switching (Web Mail)](https://ideas.tb.pro/p/fast-user-switching-web-mail) · 2 votes · _untagged_
   > Include the ability for multiple logged in users to quickly switch between accounts.Behaviour would function the same way logged in Google accounts can be switched between within the browser.Our use…
 - [Auto-add person to an email](https://ideas.tb.pro/p/auto-add-person-to-an-email) · 1 votes · _untagged_
   > What you’d like to seeHaving the ability to ‘tag’ another address against an email you receive. Then, if/when future emails arrive in that chain, you are prompted to forward it on automatically, or…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 67
+- **solved**: 69
 - **pending**: 22
-- **open**: 6
 - **hold**: 6
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -69,7 +69,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 22
-- **blocked** + **explained**: 14
+- **blocked** + **explained**: 15
 - **request** + **redirected**: 9
 - **confused** + **explained**: 8
 - **change request** + **actioned**: 8
@@ -91,10 +91,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 2 tickets
 
-- **[#6698](https://tbpro.zendesk.com/agent/tickets/6698)** · Recovery E-Mail and Aliases
-  > I cannot find where to set the recovery e-mail address to access the early bird beta. I added two email aliases and they seem to have gone, or rather they are not being displayed,…
 - **[#6695](https://tbpro.zendesk.com/agent/tickets/6695)** · Inquiry: How do I change my recovery email?
   > Hi [name], I recently received the invitation email and subscribed to Thunderbird Pro. It’s working great, and I’m really enjoying it so far! However, I noticed a prompt saying…
+- **[#6698](https://tbpro.zendesk.com/agent/tickets/6698)** · Recovery E-Mail and Aliases — why: **blocked** · how: **explained**
+  > I cannot find where to set the recovery e-mail address to access the early bird beta. I added two email aliases and they seem to have gone, or rather they are not being displayed,…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -111,7 +111,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6692](https://tbpro.zendesk.com/agent/tickets/6692) · [open] · 2026-07-07T23:31 · Stuck at email verifcation
 - [6695](https://tbpro.zendesk.com/agent/tickets/6695) · [open] · 2026-07-08T05:36 · Inquiry: How do I change my recovery email?
 - [6697](https://tbpro.zendesk.com/agent/tickets/6697) · [open] · 2026-07-08T06:57 · Pre-signup questions
-- [6698](https://tbpro.zendesk.com/agent/tickets/6698) · [open] · 2026-07-08T06:58 · Recovery E-Mail and Aliases
+- [6698](https://tbpro.zendesk.com/agent/tickets/6698) · [pending] · 2026-07-08T06:58 · Recovery E-Mail and Aliases
 
 ## Solved — last 24h
 
@@ -120,6 +120,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6551](https://tbpro.zendesk.com/agent/tickets/6551) · 2026-07-08T07:01 · Namecheap Custom Domains
 - · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-07-08T10:50 · unconscionable ToS and (lack of) Privacy Policy.
 - · [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-08T15:18 · Signup Issue
+- · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-08T16:00 · Can't add account in Thunderbird
+- · [6450](https://tbpro.zendesk.com/agent/tickets/6450) · 2026-07-08T16:01 · Can not login
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
