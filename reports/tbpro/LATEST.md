@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 13:43 ET** · refreshes hourly_  
+_Updated: **2026-07-08 14:40 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 17** of rollout — **6,500 invitees**, **102 tickets** so far
 
 ## At a glance
 
-- **5** new tickets in last 24h · **8** solved in last 24h
+- **5** new tickets in last 24h · **9** solved in last 24h
 - **102** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 20
-- **Median AHT**: 56.5h · mean 89.0h (proxy: updated_at − created_at, 70 solved tickets)
+- **Median AHT**: 52.3h · mean 88.1h (proxy: updated_at − created_at, 71 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -31,7 +31,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
 - 2 incident(s):
-  - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [open] · 2026-07-07 · _no confirmation email_
+  - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
 
 ## Other tickets linked to GitHub — 1 ticket(s) → 1 issue(s)
@@ -57,15 +57,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 70
-- **pending**: 21
+- **solved**: 71
+- **pending**: 22
 - **hold**: 9
-- **open**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 48
-- **Thundermail**: 43
+- **Account Hub**: 49
+- **Thundermail**: 42
 - **Appointment**: 5
 - **Send**: 2
 
@@ -78,9 +77,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 9
 - **confused** + **explained**: 8
 - **change request** + **actioned**: 8
-- **blocked** + **investigated**: 6
+- **blocked** + **investigated**: 7
+- **blocked** + **escalated**: 4
 - **blocked** + **actioned**: 3
-- **blocked** + **escalated**: 3
 - **concerned** + **explained**: 2
 - **change request** + **escalated**: 2
 - **curious** + **investigated**: 1
@@ -137,6 +136,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-08T16:00 · Can't add account in Thunderbird
 - · [6450](https://tbpro.zendesk.com/agent/tickets/6450) · 2026-07-08T16:01 · Can not login
 - · [6692](https://tbpro.zendesk.com/agent/tickets/6692) · 2026-07-08T16:57 · Stuck at email verifcation
+- · [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-08T18:09 · no confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
