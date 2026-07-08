@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 10:57 ET** · refreshes hourly_  
+_Updated: **2026-07-08 11:53 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 17** of rollout — **6,500 invitees**, **101 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
+- **4** new tickets in last 24h · **5** solved in last 24h
 - **101** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 20
-- **Median AHT**: 56.5h · mean 86.5h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 60.7h · mean 88.0h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -52,9 +52,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 66
+- **solved**: 67
 - **pending**: 22
-- **open**: 7
+- **open**: 6
 - **hold**: 6
 
 ## Service (cumulative)
@@ -119,6 +119,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-08T07:01 · Outgoing messages with custom domain not being signed with DKIM
 - · [6551](https://tbpro.zendesk.com/agent/tickets/6551) · 2026-07-08T07:01 · Namecheap Custom Domains
 - · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-07-08T10:50 · unconscionable ToS and (lack of) Privacy Policy.
+- · [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-08T15:18 · Signup Issue
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
