@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 03:56 ET** · refreshes hourly_  
+_Updated: **2026-07-08 05:03 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -53,8 +53,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 65
-- **pending**: 22
-- **open**: 8
+- **pending**: 21
+- **open**: 9
 - **hold**: 6
 
 ## Service (cumulative)
@@ -108,7 +108,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6692](https://tbpro.zendesk.com/agent/tickets/6692) · [pending] · 2026-07-07T23:31 · Stuck at email verifcation
+- [6692](https://tbpro.zendesk.com/agent/tickets/6692) · [open] · 2026-07-07T23:31 · Stuck at email verifcation
 - [6695](https://tbpro.zendesk.com/agent/tickets/6695) · [open] · 2026-07-08T05:36 · Inquiry: How do I change my recovery email?
 - [6697](https://tbpro.zendesk.com/agent/tickets/6697) · [open] · 2026-07-08T06:57 · Pre-signup questions
 - [6698](https://tbpro.zendesk.com/agent/tickets/6698) · [open] · 2026-07-08T06:58 · Recovery E-Mail and Aliases
