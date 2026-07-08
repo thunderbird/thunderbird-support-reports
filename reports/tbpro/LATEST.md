@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 17:34 ET** · refreshes hourly_  
+_Updated: **2026-07-08 18:30 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -63,8 +63,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 72
-- **pending**: 24
-- **hold**: 9
+- **pending**: 25
+- **hold**: 8
 - **open**: 3
 
 ## Service (cumulative)
@@ -82,8 +82,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 14
 - **request** + **redirected**: 10
 - **confused** + **explained**: 9
+- **blocked** + **investigated**: 8
 - **change request** + **actioned**: 8
-- **blocked** + **investigated**: 7
 - **blocked** + **escalated**: 5
 - **blocked** + **actioned**: 3
 - **concerned** + **explained**: 2
@@ -155,7 +155,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6717](https://tbpro.zendesk.com/agent/tickets/6717) · [pending] · 2026-07-08T19:15 · Pricing detail
 - [6719](https://tbpro.zendesk.com/agent/tickets/6719) · [pending] · 2026-07-08T19:24 · Subscription
 - [6720](https://tbpro.zendesk.com/agent/tickets/6720) · [pending] · 2026-07-08T19:32 · Oops, registered and missed the recovery email step, now being charged full price for first year
-- [6721](https://tbpro.zendesk.com/agent/tickets/6721) · [hold] · 2026-07-08T19:52 · why I cannot get alias [email]
+- [6721](https://tbpro.zendesk.com/agent/tickets/6721) · [open] · 2026-07-08T19:52 · why I cannot get alias [email]
 
 ## Solved — last 24h
 
