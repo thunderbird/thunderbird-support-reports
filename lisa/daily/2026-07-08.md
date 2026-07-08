@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 14:40 ET** · refreshes hourly_  
+_Updated: **2026-07-08 15:43 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 17** of rollout — **6,500 invitees**, **102 tickets** so far (1.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 17** of rollout — **6,500 invitees**, **105 tickets** so far (1.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **9** solved in last 24h
-- **102** tickets total since launch · contact rate **2%** of 6500 invitees
+- **8** new tickets in last 24h · **10** solved in last 24h
+- **105** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 20
-- **Median AHT**: 52.3h · mean 88.1h (proxy: updated_at − created_at, 71 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 22
+- **Median AHT**: 56.5h · mean 88.6h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"find recovery"** — 2 tickets in 24h (new; baseline 0 cum) — [#6695](https://tbpro.zendesk.com/agent/tickets/6695), [#6698](https://tbpro.zendesk.com/agent/tickets/6698)
 
-## Known problems — 2 problem(s), 4 incident(s)
+## Known problems — 2 problem(s), 5 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -30,7 +30,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
-- 2 incident(s):
+- 3 incident(s):
+  - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [solved] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
 
@@ -48,8 +49,12 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 4 new:
 
+- [SMS-based Multifactor Authentication](https://ideas.tb.pro/p/sms-based-multifactor-authentication) · 1 votes · _Privacy & Security, Accounts & Subscriptions, Improvement_
+  > Multifactor authentication via Authenticator app has arrived.We want to understand more about other methods the community would like to see. Want SMS MFA? Share your votes and comments below.
+- [Email-based Multifactor Authentication](https://ideas.tb.pro/p/email-based-multifactor-authentication) · 1 votes · _Privacy & Security, Accounts & Subscriptions, Improvement_
+  > Multifactor authentication via Authenticator app has arrived.We want to understand more about other methods the community would like to see. Want email-based MFA? Share your votes and comments below.
 - [Fast User Switching (Web Mail)](https://ideas.tb.pro/p/fast-user-switching-web-mail) · 2 votes · _untagged_
   > Include the ability for multiple logged in users to quickly switch between accounts.Behaviour would function the same way logged in Google accounts can be switched between within the browser.Our use…
 - [Auto-add person to an email](https://ideas.tb.pro/p/auto-add-person-to-an-email) · 1 votes · _untagged_
@@ -57,14 +62,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 71
-- **pending**: 22
+- **solved**: 72
+- **pending**: 21
 - **hold**: 9
+- **open**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 49
-- **Thundermail**: 42
+- **Account Hub**: 50
+- **Thundermail**: 44
 - **Appointment**: 5
 - **Send**: 2
 
@@ -73,12 +79,12 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 22
-- **blocked** + **explained**: 15
+- **blocked** + **explained**: 14
 - **request** + **redirected**: 9
 - **confused** + **explained**: 8
 - **change request** + **actioned**: 8
 - **blocked** + **investigated**: 7
-- **blocked** + **escalated**: 4
+- **blocked** + **escalated**: 5
 - **blocked** + **actioned**: 3
 - **concerned** + **explained**: 2
 - **change request** + **escalated**: 2
@@ -93,6 +99,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account creation / signup confusion — 2 tickets
+
+- **[#6719](https://tbpro.zendesk.com/agent/tickets/6719)** · Subscription
+  > Hi, is there any way I could pay monthly? I *want* to pay but I’m way too poor for nearly $70 at once :c If not possible and I don't pay now, would my chosen email address be…
+- **[#6697](https://tbpro.zendesk.com/agent/tickets/6697)** · Pre-signup questions
+  > 1. Does the calendar support configuring automatic email reminders 1h before for all events, like in Gmail ie. it can be set globally so it happens every time instead of…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6720](https://tbpro.zendesk.com/agent/tickets/6720)** · Oops, registered and missed the recovery email step, now being charged full price for first year
+  > Hey, I just registered to the Thundermail earlybird beta, but missed the step to add my recovery email. Now stuck at payment registration page. Is their an option to fix this? I…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#6717](https://tbpro.zendesk.com/agent/tickets/6717)** · Pricing detail
+  > Hello, You quote a price of $6/month with 30GB storage and 3 custom domains. Is this per-user or for an overall account with you? For example I have two domains with 5 unique…
+
 ### Account access issues — 1 tickets
 
 - **[#6712](https://tbpro.zendesk.com/agent/tickets/6712)** · Tracker: Who did we have to manually verify email for?
@@ -102,11 +125,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6698](https://tbpro.zendesk.com/agent/tickets/6698)** · Recovery E-Mail and Aliases — why: **blocked** · how: **explained**
   > I cannot find where to set the recovery e-mail address to access the early bird beta. I added two email aliases and they seem to have gone, or rather they are not being displayed,…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#6697](https://tbpro.zendesk.com/agent/tickets/6697)** · Pre-signup questions
-  > 1. Does the calendar support configuring automatic email reminders 1h before for all events, like in Gmail ie. it can be set globally so it happens every time instead of…
 
 ### Account access issues — account recovery — 1 tickets
 
@@ -125,6 +143,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6697](https://tbpro.zendesk.com/agent/tickets/6697) · [hold] · 2026-07-08T06:57 · Pre-signup questions
 - [6698](https://tbpro.zendesk.com/agent/tickets/6698) · [pending] · 2026-07-08T06:58 · Recovery E-Mail and Aliases
 - [6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · 2026-07-08T16:52 · Tracker: Who did we have to manually verify email for?
+- [6717](https://tbpro.zendesk.com/agent/tickets/6717) · [open] · 2026-07-08T19:15 · Pricing detail
+- [6719](https://tbpro.zendesk.com/agent/tickets/6719) · [open] · 2026-07-08T19:24 · Subscription
+- [6720](https://tbpro.zendesk.com/agent/tickets/6720) · [open] · 2026-07-08T19:32 · Oops, registered and missed the recovery email step, now being charged full price for first year
 
 ## Solved — last 24h
 
@@ -132,11 +153,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-08T07:01 · Outgoing messages with custom domain not being signed with DKIM
 - · [6551](https://tbpro.zendesk.com/agent/tickets/6551) · 2026-07-08T07:01 · Namecheap Custom Domains
 - · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-07-08T10:50 · unconscionable ToS and (lack of) Privacy Policy.
-- · [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-08T15:18 · Signup Issue
 - · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-08T16:00 · Can't add account in Thunderbird
 - · [6450](https://tbpro.zendesk.com/agent/tickets/6450) · 2026-07-08T16:01 · Can not login
 - · [6692](https://tbpro.zendesk.com/agent/tickets/6692) · 2026-07-08T16:57 · Stuck at email verifcation
 - · [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-08T18:09 · no confirmation email
+- · [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-08T18:59 · Signup Issue
+- · [6603](https://tbpro.zendesk.com/agent/tickets/6603) · 2026-07-08T19:02 · Fwd: When AI recommends the best in Photography, will your name be mentioned, Bruce Barr ?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
