@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-08
 
-_Updated: **2026-07-08 18:30 ET** · refreshes hourly_  
+_Updated: **2026-07-08 19:33 ET** · refreshes hourly_  
 _24h window: 2026-07-07T16:00 → 2026-07-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 17** of rollout — **6,500 invitees**, **108 tickets** so far (1.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 17** of rollout — **6,500 invitees**, **111 tickets** so far (1.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **10** solved in last 24h
-- **108** tickets total since launch · contact rate **2%** of 6500 invitees
+- **111** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 21
@@ -43,9 +43,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6725](https://tbpro.zendesk.com/agent/tickets/6725) · [open] · _Refund_
+  > Hello, I'd like to request a refund of my Thundermail early bird subscription since it doesn't support the features I need. I thank you for your efforts and hope to revisit this project in a year or so. Thanks, [name]
 
 ## New ideas on FeatureOS
 
@@ -63,14 +64,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 72
-- **pending**: 25
-- **hold**: 8
-- **open**: 3
+- **pending**: 26
+- **hold**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 51
-- **Thundermail**: 46
+- **Thundermail**: 49
 - **Appointment**: 5
 - **Send**: 2
 
