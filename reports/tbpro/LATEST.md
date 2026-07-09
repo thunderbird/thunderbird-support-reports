@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 07:13 ET** · refreshes hourly_  
+_Updated: **2026-07-09 09:19 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **116 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 18** of rollout — **6,500 invitees**, **117 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **1** solved in last 24h
-- **116** tickets total since launch · contact rate **2%** of 6500 invitees
+- **11** new tickets in last 24h · **1** solved in last 24h
+- **117** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 21
@@ -59,13 +59,13 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 72
-- **pending**: 25
-- **open**: 11
+- **pending**: 24
+- **open**: 13
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 54
+- **Account Hub**: 55
 - **Thundermail**: 49
 - **Appointment**: 5
 - **Send**: 2
@@ -104,6 +104,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Guys, finally, webmail! Congrats keep it up! You're building a great product. Much love and support! ❤️
 - **[#6722](https://tbpro.zendesk.com/agent/tickets/6722)** · Webmail - no mail from own domain — why: **blocked** · how: **investigated**
   > In the compose window of Thundermail webmail, only my [domain] address and the [domain] alias are offered for selection, but not the alias I set up with my custom domain. In the…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#6738](https://tbpro.zendesk.com/agent/tickets/6738)** · Free tier
+  > I need to use this service freely,please
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -152,6 +157,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6733](https://tbpro.zendesk.com/agent/tickets/6733) · [open] · 2026-07-09T08:34 · Addressbook in Webmail
 - [6735](https://tbpro.zendesk.com/agent/tickets/6735) · [pending] · 2026-07-09T09:21 · Question about Monthly Subscription
 - [6736](https://tbpro.zendesk.com/agent/tickets/6736) · [open] · 2026-07-09T10:51 · Receive mail at custom domain
+- [6738](https://tbpro.zendesk.com/agent/tickets/6738) · [open] · 2026-07-09T13:01 · Free tier
 
 ## Solved — last 24h
 
