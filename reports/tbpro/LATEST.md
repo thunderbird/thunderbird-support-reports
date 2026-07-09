@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 16:44 ET** · refreshes hourly_  
+_Updated: **2026-07-09 17:39 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **119 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **2 known problem(s)** being tracked.
+Flight 3 is **day 18** of rollout — **6,500 invitees**, **120 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **9** solved in last 24h
-- **119** tickets total since launch · contact rate **2%** of 6500 invitees
+- **13** new tickets in last 24h · **9** solved in last 24h
+- **120** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
@@ -64,14 +64,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 77
-- **pending**: 26
+- **pending**: 27
 - **hold**: 11
 - **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 58
-- **Thundermail**: 49
+- **Thundermail**: 50
 - **Appointment**: 5
 - **Send**: 2
 
@@ -81,7 +81,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 27
 - **blocked** + **explained**: 16
-- **request** + **redirected**: 11
+- **request** + **redirected**: 12
 - **confused** + **explained**: 9
 - **blocked** + **investigated**: 8
 - **change request** + **actioned**: 8
@@ -91,6 +91,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 2
 - **change request** + **escalated**: 2
 - **telling us** + **escalated**: 1
+- **blocked** + **—**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -116,6 +117,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > https://[domain]/p/missing-cname-record-_mta-sts?b=ideas This issue AFFECTS EVERYONE that uses BYOD. Not just me.
 - **[#6736](https://tbpro.zendesk.com/agent/tickets/6736)** · Receive mail at custom domain — why: **blocked** · how: **explained**
   > I acquired a custom domain through [domain]: [domain], and set up the DNS records. The “Verify Domain” button on my Thundermail dashboard seems to be happy, but when I tried…
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6746](https://tbpro.zendesk.com/agent/tickets/6746)** · thunderbird email
+  > frankly, i’m hoping you’ll invite me to open an email account with you as soon as invites are available. cheers!
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -166,6 +172,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6741](https://tbpro.zendesk.com/agent/tickets/6741) · [open] · 2026-07-09T15:42 · Cancel subscription and refund
 - [6742](https://tbpro.zendesk.com/agent/tickets/6742) · [pending] · 2026-07-09T15:47 · mta-sts not working right now
 - [6743](https://tbpro.zendesk.com/agent/tickets/6743) · [pending] · 2026-07-09T15:51 · help
+- [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [open] · 2026-07-09T17:46 · thunderbird email
 
 ## Solved — last 24h
 
