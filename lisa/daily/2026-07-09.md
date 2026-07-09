@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 17:39 ET** · refreshes hourly_  
+_Updated: **2026-07-09 18:41 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 18** of rollout — **6,500 invitees**, **120 tickets** so far
 
 ## At a glance
 
-- **13** new tickets in last 24h · **9** solved in last 24h
+- **12** new tickets in last 24h · **8** solved in last 24h
 - **120** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (19 good / 0 bad)
+- **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
-- **Median AHT**: 54.9h · mean 87.4h (proxy: updated_at − created_at, 77 solved tickets)
+- **Median AHT**: 58.3h · mean 87.3h (proxy: updated_at − created_at, 78 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -45,12 +45,14 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [6730](https://tbpro.zendesk.com/agent/tickets/6730) · [pending] · _Request Refund_
   > I'd like to cancel my subscription and ask for a refund
-- [6741](https://tbpro.zendesk.com/agent/tickets/6741) · [open] · _Cancel subscription and refund_
+- [6741](https://tbpro.zendesk.com/agent/tickets/6741) · [pending] · _Cancel subscription and refund_
   > Hi, I'm so happy to see you get this offering off the ground, but after digging around a bit, it's clear that the service is covered under US jurisdiction which makes it immediately and actively unwanted here. I'm…
+- [6749](https://tbpro.zendesk.com/agent/tickets/6749) · [open] · _Refund request_
+  > Hi! I would like to ask for a refund for the subscription bought 09.07.26. According to your support article (https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations) I have to contact support.…
 
 ## New ideas on FeatureOS
 
@@ -63,10 +65,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 77
-- **pending**: 27
+- **solved**: 78
+- **pending**: 29
 - **hold**: 11
-- **open**: 5
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -79,7 +81,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 27
+- **curious** + **explained**: 28
 - **blocked** + **explained**: 16
 - **request** + **redirected**: 12
 - **confused** + **explained**: 9
@@ -118,20 +120,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6736](https://tbpro.zendesk.com/agent/tickets/6736)** · Receive mail at custom domain — why: **blocked** · how: **explained**
   > I acquired a custom domain through [domain]: [domain], and set up the DNS records. The “Verify Domain” button on my Thundermail dashboard seems to be happy, but when I tried…
 
-### Early bird / invite / waitlist — 1 tickets
+### Waitlist / onboarding inquiry — 1 tickets
 
-- **[#6746](https://tbpro.zendesk.com/agent/tickets/6746)** · thunderbird email
+- **[#6746](https://tbpro.zendesk.com/agent/tickets/6746)** · thunderbird email — why: **curious** · how: **explained**
   > frankly, i’m hoping you’ll invite me to open an email account with you as soon as invites are available. cheers!
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6741](https://tbpro.zendesk.com/agent/tickets/6741)** · Cancel subscription and refund
-  > Hi, I'm so happy to see you get this offering off the ground, but after digging around a bit, it's clear that the service is covered under US jurisdiction which makes it…
-
-### App setup / configuration — 1 tickets
-
-- **[#6732](https://tbpro.zendesk.com/agent/tickets/6732)** · Change backup email — why: **request**
-  > Hey, Can you change my backup email from my Gmail to: [email] Thanks in advance! Best Regards, [name]
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -147,6 +139,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6735](https://tbpro.zendesk.com/agent/tickets/6735)** · Question about Monthly Subscription — why: **curious** · how: **explained**
   > Hi there! I wanted to really try out thundermail before fully committing to it but having to pay a yearly subscription when I'm not sure if I'm happy with the product yet is a bit…
+
+### App setup / configuration — 1 tickets
+
+- **[#6732](https://tbpro.zendesk.com/agent/tickets/6732)** · Change backup email — why: **request**
+  > Hey, Can you change my backup email from my Gmail to: [email] Thanks in advance! Best Regards, [name]
 
 ### Request or complaint — 1 tickets
 
@@ -164,15 +161,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6724](https://tbpro.zendesk.com/agent/tickets/6724) · [solved] · 2026-07-08T21:30 · Trouble connecting to managesieve
 - [6726](https://tbpro.zendesk.com/agent/tickets/6726) · [pending] · 2026-07-08T23:07 · Alies email delivery
 - [6727](https://tbpro.zendesk.com/agent/tickets/6727) · [pending] · 2026-07-08T23:26 · Webmail Alpha
-- [6732](https://tbpro.zendesk.com/agent/tickets/6732) · [open] · 2026-07-09T08:28 · Change backup email
+- [6732](https://tbpro.zendesk.com/agent/tickets/6732) · [pending] · 2026-07-09T08:28 · Change backup email
 - [6733](https://tbpro.zendesk.com/agent/tickets/6733) · [hold] · 2026-07-09T08:34 · Addressbook in Webmail
 - [6735](https://tbpro.zendesk.com/agent/tickets/6735) · [pending] · 2026-07-09T09:21 · Question about Monthly Subscription
 - [6736](https://tbpro.zendesk.com/agent/tickets/6736) · [solved] · 2026-07-09T10:51 · Receive mail at custom domain
 - [6738](https://tbpro.zendesk.com/agent/tickets/6738) · [pending] · 2026-07-09T13:01 · Free tier
-- [6741](https://tbpro.zendesk.com/agent/tickets/6741) · [open] · 2026-07-09T15:42 · Cancel subscription and refund
 - [6742](https://tbpro.zendesk.com/agent/tickets/6742) · [pending] · 2026-07-09T15:47 · mta-sts not working right now
 - [6743](https://tbpro.zendesk.com/agent/tickets/6743) · [pending] · 2026-07-09T15:51 · help
-- [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [open] · 2026-07-09T17:46 · thunderbird email
+- [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [pending] · 2026-07-09T17:46 · thunderbird email
 
 ## Solved — last 24h
 
@@ -182,7 +178,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6692](https://tbpro.zendesk.com/agent/tickets/6692) · 2026-07-09T17:02 · Stuck at email verifcation
 - · [6614](https://tbpro.zendesk.com/agent/tickets/6614) · 2026-07-09T17:05 · SEND not working
 - · [6717](https://tbpro.zendesk.com/agent/tickets/6717) · 2026-07-09T18:38 · Pricing detail
-- · [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-09T19:02 · no confirmation email
 - · [6675](https://tbpro.zendesk.com/agent/tickets/6675) · 2026-07-09T19:05 · I have been invited but cannot login
 - 👍 [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-09T19:41 · Signup Issue
 
