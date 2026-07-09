@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 15:45 ET** · refreshes hourly_  
+_Updated: **2026-07-09 16:44 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **118 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 18** of rollout — **6,500 invitees**, **119 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Pricing — general pricing concern**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **12** new tickets in last 24h · **9** solved in last 24h
-- **118** tickets total since launch · contact rate **2%** of 6500 invitees
+- **119** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
-- **Median AHT**: 53.8h · mean 87.6h (proxy: updated_at − created_at, 76 solved tickets)
+- **Median AHT**: 54.9h · mean 87.4h (proxy: updated_at − created_at, 77 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -63,14 +63,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 76
-- **pending**: 27
-- **hold**: 10
+- **solved**: 77
+- **pending**: 26
+- **hold**: 11
 - **open**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 57
+- **Account Hub**: 58
 - **Thundermail**: 49
 - **Appointment**: 5
 - **Send**: 2
@@ -122,6 +122,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6741](https://tbpro.zendesk.com/agent/tickets/6741)** · Cancel subscription and refund
   > Hi, I'm so happy to see you get this offering off the ground, but after digging around a bit, it's clear that the service is covered under US jurisdiction which makes it…
 
+### App setup / configuration — 1 tickets
+
+- **[#6732](https://tbpro.zendesk.com/agent/tickets/6732)** · Change backup email — why: **request**
+  > Hey, Can you change my backup email from my Gmail to: [email] Thanks in advance! Best Regards, [name]
+
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#6743](https://tbpro.zendesk.com/agent/tickets/6743)** · help — why: **curious** · how: **explained**
@@ -136,11 +141,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6735](https://tbpro.zendesk.com/agent/tickets/6735)** · Question about Monthly Subscription — why: **curious** · how: **explained**
   > Hi there! I wanted to really try out thundermail before fully committing to it but having to pay a yearly subscription when I'm not sure if I'm happy with the product yet is a bit…
-
-### App setup / configuration — 1 tickets
-
-- **[#6732](https://tbpro.zendesk.com/agent/tickets/6732)** · Change backup email — why: **request**
-  > Hey, Can you change my backup email from my Gmail to: [email] Thanks in advance! Best Regards, [name]
 
 ### Request or complaint — 1 tickets
 
@@ -158,7 +158,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6724](https://tbpro.zendesk.com/agent/tickets/6724) · [solved] · 2026-07-08T21:30 · Trouble connecting to managesieve
 - [6726](https://tbpro.zendesk.com/agent/tickets/6726) · [pending] · 2026-07-08T23:07 · Alies email delivery
 - [6727](https://tbpro.zendesk.com/agent/tickets/6727) · [pending] · 2026-07-08T23:26 · Webmail Alpha
-- [6732](https://tbpro.zendesk.com/agent/tickets/6732) · [pending] · 2026-07-09T08:28 · Change backup email
+- [6732](https://tbpro.zendesk.com/agent/tickets/6732) · [open] · 2026-07-09T08:28 · Change backup email
 - [6733](https://tbpro.zendesk.com/agent/tickets/6733) · [hold] · 2026-07-09T08:34 · Addressbook in Webmail
 - [6735](https://tbpro.zendesk.com/agent/tickets/6735) · [pending] · 2026-07-09T09:21 · Question about Monthly Subscription
 - [6736](https://tbpro.zendesk.com/agent/tickets/6736) · [solved] · 2026-07-09T10:51 · Receive mail at custom domain
