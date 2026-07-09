@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 03:24 ET** · refreshes hourly_  
+_Updated: **2026-07-09 05:22 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **112 tickets** so far (1.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 18** of rollout — **6,500 invitees**, **115 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **0** solved in last 24h
-- **112** tickets total since launch · contact rate **2%** of 6500 invitees
+- **9** new tickets in last 24h · **0** solved in last 24h
+- **115** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 21
@@ -21,6 +21,7 @@ Flight 3 is **day 18** of rollout — **6,500 invitees**, **112 tickets** so far
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"request refund"** — 2 tickets in 24h (34.0× baseline; baseline 1 cum) — [#6725](https://tbpro.zendesk.com/agent/tickets/6725), [#6730](https://tbpro.zendesk.com/agent/tickets/6730)
+- **"best regards"** — 2 tickets in 24h (8.5× baseline; baseline 4 cum) — [#6732](https://tbpro.zendesk.com/agent/tickets/6732), [#6735](https://tbpro.zendesk.com/agent/tickets/6735)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -58,12 +59,12 @@ _No negative ratings since launch._
 
 - **solved**: 72
 - **pending**: 25
+- **open**: 10
 - **hold**: 8
-- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 52
+- **Account Hub**: 54
 - **Thundermail**: 48
 - **Appointment**: 5
 - **Send**: 2
@@ -94,12 +95,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 2 tickets
+### Webmail — 3 tickets
 
+- **[#6733](https://tbpro.zendesk.com/agent/tickets/6733)** · Addressbook in Webmail
+  > I imported a list of contacts into the Thundermail address book (via Thunderbird client, for I couldn't find an import option in the web interface). All contacts were imported and…
 - **[#6727](https://tbpro.zendesk.com/agent/tickets/6727)** · Webmail Alpha — why: **blocked** · how: **escalated**
   > Guys, finally, webmail! Congrats keep it up! You're building a great product. Much love and support! ❤️
 - **[#6722](https://tbpro.zendesk.com/agent/tickets/6722)** · Webmail - no mail from own domain — why: **blocked** · how: **investigated**
   > In the compose window of Thundermail webmail, only my [domain] address and the [domain] alias are offered for selection, but not the alias I set up with my custom domain. In the…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#6735](https://tbpro.zendesk.com/agent/tickets/6735)** · Question about Monthly Subscription
+  > Hi there! I wanted to really try out thundermail before fully committing to it but having to pay a yearly subscription when I'm not sure if I'm happy with the product yet is a bit…
+
+### App setup / configuration — 1 tickets
+
+- **[#6732](https://tbpro.zendesk.com/agent/tickets/6732)** · Change backup email
+  > Hey, Can you change my backup email from my Gmail to: [email] Thanks in advance! Best Regards, [name]
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -129,6 +142,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6726](https://tbpro.zendesk.com/agent/tickets/6726) · [open] · 2026-07-08T23:07 · Alies email delivery
 - [6727](https://tbpro.zendesk.com/agent/tickets/6727) · [pending] · 2026-07-08T23:26 · Webmail Alpha
 - [6730](https://tbpro.zendesk.com/agent/tickets/6730) · [open] · 2026-07-09T04:14 · Request Refund
+- [6732](https://tbpro.zendesk.com/agent/tickets/6732) · [open] · 2026-07-09T08:28 · Change backup email
+- [6733](https://tbpro.zendesk.com/agent/tickets/6733) · [open] · 2026-07-09T08:34 · Addressbook in Webmail
+- [6735](https://tbpro.zendesk.com/agent/tickets/6735) · [open] · 2026-07-09T09:21 · Question about Monthly Subscription
 
 ## Solved — last 24h
 
