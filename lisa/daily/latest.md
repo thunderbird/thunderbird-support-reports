@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 13:00 ET** · refreshes hourly_  
+_Updated: **2026-07-09 13:46 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 18** of rollout — **6,500 invitees**, **118 tickets** so far
 
 ## At a glance
 
-- **12** new tickets in last 24h · **4** solved in last 24h
+- **12** new tickets in last 24h · **6** solved in last 24h
 - **118** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
-- **Median AHT**: 51.8h · mean 87.1h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 56.5h · mean 88.5h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -56,10 +56,10 @@ _No negative ratings since launch._
 
 **Last 24h** — 2 new:
 
-- [Allow enabling catch-all on custom domains before having to complete and verify DNS changes](https://ideas.tb.pro/p/allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes) · 2 votes · _untagged_
+- [Allow enabling catch-all on custom domains before having to complete and verify DNS changes](https://ideas.tb.pro/p/allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes) · 2 votes · _Thundermail, Improvement_
   > What you’d like to seeWhen adding a custom domain, would it be possible to allow turning on catch-all before having to add and verify all 12 domain records?The way it is at the moment you end up…
-- [Missing cname record!!!! _mta-sts](https://ideas.tb.pro/p/missing-cname-record-_mta-sts) · 1 votes · _untagged_
-  > What you’d like to seeadd a cname record to BYOD CNAME mta-sts.byod-example.com → mta-sts.thundermail.com. This would also include generating certs for byod-example.com.ORat least let the user know…
+- [Missing cname record!!!! _mta-sts](https://ideas.tb.pro/p/missing-cname-record-_mta-sts) · 1 votes · _Thundermail_
+  > What you’d like to seeadd a cname record to BYODCNAME mta-sts.byod-example.com → mta-sts.thundermail.com. This would also include generating certs for byod-example.com.ORat least let the user know…
 
 ## Status breakdown (cumulative)
 
@@ -173,6 +173,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6736](https://tbpro.zendesk.com/agent/tickets/6736) · 2026-07-09T15:08 · Receive mail at custom domain
 - · [6724](https://tbpro.zendesk.com/agent/tickets/6724) · 2026-07-09T15:54 · Trouble connecting to managesieve
 - · [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-09T16:01 · Signup Issue
+- · [6692](https://tbpro.zendesk.com/agent/tickets/6692) · 2026-07-09T17:02 · Stuck at email verifcation
+- · [6614](https://tbpro.zendesk.com/agent/tickets/6614) · 2026-07-09T17:05 · SEND not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
