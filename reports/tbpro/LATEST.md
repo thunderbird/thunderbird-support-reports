@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 03:23 ET** · refreshes hourly_  
+_Updated: **2026-07-10 05:17 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 19** of rollout — **6,500 invitees**, **124 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 19** of rollout — **6,500 invitees**, **125 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **3** solved in last 24h
-- **124** tickets total since launch · contact rate **2%** of 6500 invitees
+- **7** new tickets in last 24h · **3** solved in last 24h
+- **125** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
@@ -54,12 +54,12 @@ _(none in last 24h)_
 
 - **solved**: 78
 - **pending**: 27
-- **hold**: 11
-- **open**: 8
+- **open**: 10
+- **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 58
+- **Account Hub**: 59
 - **Thundermail**: 54
 - **Appointment**: 5
 - **Send**: 2
@@ -98,6 +98,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird
   > I am a bit lost with all this. I don't want to use as email address “[email] ” for my emails exchanges but to keep using the same email addresses accounts that I actually use with…
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#6755](https://tbpro.zendesk.com/agent/tickets/6755)** · Please completely delete my account
+  > Please completely delete my account
+
 ### App setup / configuration — 1 tickets
 
 - **[#6751](https://tbpro.zendesk.com/agent/tickets/6751)** · Emails going to spam
@@ -126,6 +131,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6751](https://tbpro.zendesk.com/agent/tickets/6751) · [open] · 2026-07-10T00:04 · Emails going to spam
 - [6752](https://tbpro.zendesk.com/agent/tickets/6752) · [open] · 2026-07-10T03:05 · How to use Thundermail as I used to do with Thunderbird
 - [6754](https://tbpro.zendesk.com/agent/tickets/6754) · [open] · 2026-07-10T05:22 · Email address reuse
+- [6755](https://tbpro.zendesk.com/agent/tickets/6755) · [open] · 2026-07-10T08:39 · Please completely delete my account
 
 ## Solved — last 24h
 
