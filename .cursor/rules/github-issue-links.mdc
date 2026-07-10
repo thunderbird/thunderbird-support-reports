@@ -1,0 +1,45 @@
+---
+description: Link GitHub issue references in support report HTML and markdown
+globs: lisa/**/*.html,lisa/**/*.md,reports/**/*.html,reports/**/*.md,scripts/generate.py,scripts/tbpro_*.py,scripts/build_*_dashboard*.py
+alwaysApply: false
+---
+
+# GitHub issue links — mandatory
+
+Whenever a GitHub issue number appears as `#NNNN` (4+ digits) in report HTML or markdown, **wrap it in a link**.
+
+## HTML
+
+```html
+<a href="https://github.com/thunderbird/{repo}/issues/{n}" target="_blank">#{n}</a>
+```
+
+Default repo: `thunderbird-android` (mobile / Play Store friction, Android eng tracking).
+
+Use context to pick the repo when obvious:
+- `thunderbird-android` — Android app, K-9, push/sync, spam, crashes, QR import
+- `thunderbird` — desktop Thunderbird (rare in monthly Android sections)
+- `thunderbird-accounts` — Thundermail auth, portal, subscriber identity
+- `appointment`, `tbpro-add-on`, `mailstrom`, `stormbox` — TB Pro suite when cited by name
+
+## Markdown
+
+Same URL pattern: `[#11056](https://github.com/thunderbird/thunderbird-android/issues/11056)`
+
+## Do NOT link
+
+- Ranking labels: "Play Store #1", "Roland #6", "top #2 theme"
+- SUMO question IDs: `#1585059` on support.mozilla.org (already linked to SUMO)
+- Zendesk ticket IDs: `#5470` on tbpro.zendesk.com
+- CSS hex colors: `#15131e`, `#08070f`
+- Mozilla Connect rank: "filtering demand (#4, 103 kudos)"
+
+## Before commit
+
+Grep the month's deliverables for bare `#\d{4,}` outside `href=` / `issues/`:
+
+```bash
+rg '#\d{4,}' lisa/YYYY/<month>* --glob '!*compare*'
+```
+
+Link any GitHub issue hits; leave ranking/SUMO/Zendesk/CSS hits alone.

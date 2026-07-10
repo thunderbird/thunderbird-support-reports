@@ -12,6 +12,10 @@ credentials.*
 # under lisa/ and reports/ are public.
 data/input/
 
+# Internal-only briefs (budget, headcount, hiring strategy) — never commit,
+# never publish. Local reference only.
+internal/
+
 # Python bytecode
 __pycache__/
 *.pyc

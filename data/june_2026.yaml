@@ -1,0 +1,544 @@
+# June 2026 — Monthly Report Config
+# Fill in the ZENDESK section from the MoM spreadsheet (Lisa provides).
+# Everything else is pre-filled: SUMO from Roland's repo, Play Store from GCS, FeatureOS live.
+
+month: June
+year: 2026
+prev_month: May
+month_num: "06"
+
+# CSV filenames — fetched directly from the Play Console GCS export bucket (2026-07)
+# via scripts/fetch_reviews.py. Clean canonical names (no manual-download "(1)" suffixes).
+csv_tb_stable: reviews_net.thunderbird.android_202606.csv
+csv_k9: reviews_com.fsck.k9_202606.csv
+csv_tb_beta: reviews_net.thunderbird.android.beta_202606.csv
+
+# ── METHODOLOGY FOOTNOTES (must appear in the June report) ──────────────────
+# 1. Play Store: review data now pulled directly from the Play Console GCS export
+#    bucket via scripts/fetch_reviews.py (previously manual UI downloads, Jan–May 2026).
+#    Mobile manager approved this operational shift (July 2026). Count differences vs
+#    prior months may reflect the source change, not real movement — e.g. May 493
+#    (manual) vs June 360 (GCS).
+# 2. SUMO: Mozilla gated the SUMO API behind JS; Roland's repo switched to concatenating
+#    exported Q&A files. This recomputes numbers — even historical months differ from
+#    what was previously reported. May is NOT restated here; June's SUMO MoM deltas carry
+#    a methodology caveat (compare like-for-like against Roland's current figures, not the
+#    originally-published May numbers).
+methodology_approved_by: mobile manager  # Play Store GCS shift — approved July 2026
+methodology_notes:
+  - "Play Store (June 2026+): review CSVs fetched automatically from the Play Console GCS export bucket via scripts/fetch_reviews.py — replacing manual Play Console UI downloads used Jan–May 2026. Approved operational improvement. Review counts and monthly averages may differ from prior months partly due to this source change (e.g. May 493 manual vs June 360 GCS), not necessarily real volume movement; MoM comparisons spanning the boundary carry a methodology caveat."
+  - "SUMO figures use Roland's new concatenation method (the SUMO API was gated behind JS). This recomputes values; May is not restated, so SUMO month-over-month carries a methodology caveat."
+
+# ── ZENDESK (from MoM spreadsheet — Lisa fills) ─────────────────────────────
+zendesk:
+  overall_csat: 83.6          # global CSAT · +6.9 pts MoM (was 76.7)
+  donor_csat: 80.0            # +13.3 pts MoM (was 66.7) · 23.6% of tickets rated
+  donor_csat_note: null
+  tbpro_csat: 95.0            # +2.1 pts MoM (was 92.9) · 39.2% of tickets rated
+  tbpro_csat_note: null
+  total_tickets: 534          # Donor 215 + App Store 202 + Thundermail 117 (was 606)
+  replies_to_low_star: 202    # Thunderbird App Store Reviews brand ticket count (was 209)
+  donor_tickets: 215          # was 279
+  tbpro_tickets: 117          # was 118 (flat)
+  appstore_tickets: 202       # was 209
+
+# prev and history_neg are auto-loaded from data/history.json — no need to fill in here
+
+# ── SUMO (Roland's repo — new concatenation method; see methodology footnote) ─
+# Source: REPORTS/DESKTOP/2026-06-sumo-desktop-report.csv
+#         REPORTS/ANDROID/2026-06-sumo-android-report.csv
+# Mapping: overall_solved_rate = synthetic_solved_rate column;
+#          ignored_pct = ignored-percentage; trusted_contributor_pct = synthetic trusted %.
+sumo:
+  desktop:
+    total_questions: 750
+    spam: 0
+    overall_solved_rate: 60
+    ignored_pct: 21
+    trusted_contributor_pct: 43
+    trusted_contributors: null
+    top_signals: []  # superseded by roland_insights block below
+  android:
+    total_questions: 50
+    spam: 0
+    overall_solved_rate: 68
+    ignored_pct: 18
+    trusted_contributor_pct: 50
+    contributors: []
+    top_signals:
+      - "Stopped receiving new mail on Android (LLM #6): 1→3 reports, mean severity 4.0, 67% resolved, 33% unanswered — worst-served returning cluster."
+      - "No new-mail notifications despite sync (LLM #2, new): compounds delivery pain — mail arrives but no notify signal."
+      - "QR code transfer failures (LLM #7): 1→3, 100% resolved but doubled — onboarding friction scaling."
+      - "Save All attachments data loss (LLM #3, new): overwritten/zero-byte files — concrete bug, 100% resolved so far."
+      - "Category shift: send-receive 9→12, search-folders 1→7, migration-import 3→7 — composition shifted toward delivery and parity."
+    sources:
+      - "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html"
+
+# ── ROLAND ENGINEERING INSIGHTS (monthly summaries — for generate.py later) ─
+roland_insights:
+  android:
+    month: "2026-06"
+    last_updated: "2026-07-06"
+    questions: 46
+    questions_mom: "flat (−1, −2%)"
+    new_clusters: 5
+    methodology: "LLM_INSIGHTS — Claude reads every question + accepted solutions; clusters free-text pain and rates severity. Counts exact; clustering LLM-derived. Triage pointer, not proof."
+    source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html"
+    top_priorities:
+      - rank: 6
+        cluster: "Stopped receiving new mail on Android"
+        category: send-receive
+        may: 1
+        june: 3
+        severity: 4.0
+        resolved_pct: 67
+        unanswered_pct: 33
+      - rank: 2
+        cluster: "No new-mail notifications despite sync"
+        category: send-receive
+        may: 0
+        june: 2
+        severity: 2.5
+        resolved_pct: 50
+        new_this_month: true
+      - rank: 7
+        cluster: "QR code not recognised during transfer"
+        category: migration-import
+        may: 1
+        june: 3
+        severity: 3.0
+        resolved_pct: 100
+      - rank: 3
+        cluster: "Save All attachments overwrites / zero-byte files"
+        category: attachments
+        may: 0
+        june: 2
+        severity: 3.0
+        resolved_pct: 100
+        new_this_month: true
+  desktop:
+    project1:
+      month: "2026-06"
+      last_updated: "2026-07-10"
+      questions: 724
+      questions_mom: "−88 (−11%)"
+      methodology: "PROJECT1 — regex + traditional stats; version×cause spikes and release adoption. Non-AI engineering signal."
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html"
+      version_regressions:
+        - signal: "v151 × Spectrum cert"
+          date: "2026-06-09"
+          questions: 7
+          lift: 21.5
+          served_pct: 100
+        - signal: "v152 × Gmail"
+          date: "2026-06-30"
+          questions: 4
+          lift: 4.7
+          served_pct: 50
+          status: hypothesis
+          note: "Wrong email groups / missing message visibility — flagged by PROJECT1"
+        - signal: "v152 × Microsoft/Outlook"
+          date: "2026-06-29"
+          questions: 6
+          lift: 4.4
+          served_pct: 50
+    llm:
+      month: "2026-06"
+      last_updated: "2026-07-05"
+      questions: 724
+      new_clusters: 4
+      methodology: "LLM_INSIGHTS — Claude reads every question; clusters and severity ratings. Triage pointer, not proof."
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html"
+      top_priorities:
+        - rank: 1
+          cluster: "Performance: freeze/hang/crash on startup or use"
+          category: performance-crash
+          may: 24
+          june: 60
+          severity: 3.6
+          resolved_pct: 57
+          note: "2.5× spike while total volume fell — strongest regression signal"
+        - rank: 5
+          cluster: "Charter/Spectrum untrusted certificate"
+          category: encryption-security
+          may: 0
+          june: 7
+          severity: 3.6
+          resolved_pct: 43
+          new_this_month: true
+          project1_overlap: "v151 × Spectrum (Jun 9)"
+        - rank: 8
+          cluster: "Attachments dropped/lost when forwarding"
+          category: attachments
+          may: 0
+          june: 5
+          resolved_pct: 20
+          new_this_month: true
+        - rank: 9
+          cluster: "Emails auto-moved to Trash/Junk"
+          category: spam-filters
+          may: 0
+          june: 5
+          resolved_pct: 20
+          unanswered_pct: 40
+          new_this_month: true
+    actions:
+      - "Publish KB articles for ISP certificate expiry / acceptance workflows (Charter/Spectrum pattern)"
+      - "More importantly — in-product: clearer untrusted-cert handling for ISP mail servers (improve the dialog, not just docs)"
+      - "Regression-test startup/crash path; revisit v152 provider regressions once Gmail thread is confirmed"
+    engineering_priority: "TBD — flagged for triage; not sure yet if high priority for engineering"
+    cert_spike:
+      note: "Spectrum/Charter certificate spike on desktop SUMO — 7 questions, 21.5× baseline; ISP cert change hitting desktop IMAP users"
+  eng_alignment:
+    source_repo: "https://github.com/thunderbird/thunderbird-android-reports/tree/main/reports/merged-prs"
+    source_month: "2026-06"
+    aligned:
+      - play_store: "Push / Notification Sync (#1)"
+        roland: "Android LLM #6 + #2"
+        shipped: "FetchingMailSettings UX refresh (not notify pipeline fix)"
+        open: "SPIKE #11083 global folder sync/push"
+      - play_store: "QR / Settings Import (#4)"
+        roland: "Android LLM #7"
+        shipped: "QR migration manager to release (Jun 4)"
+    gaps:
+      - play_store: "Spam Filter Absent (#2, rising)"
+        roland: "absent from Android LLM top 7"
+        shipped: "none in June merged PRs"
+        open_issues:
+          - id: 1508
+            url: "https://github.com/thunderbird/thunderbird-android/issues/1508"
+          - id: 5676
+            url: "https://github.com/thunderbird/thunderbird-android/issues/5676"
+          note: "since 2021"
+    assessment: "Push/delivery is the primary product ask and aligns with Roland clusters; no notify pipeline fix has shipped yet. #11056 regressions → modest bump; #11057 core delivery → toward 3.81–3.88★. Spam is the fastest-rising Android review theme; mobile leadership has other work ahead — 4★ likely needs a junk-filter build."
+
+# ── THUNDERMAIL IDEAS (FeatureOS board 17437 — live fetch 2026-07-01) ───────
+tbpro_ideas:
+  new_this_month:
+    - title: "A small permanent perk for early supporters (applied on top of any tier)"
+      votes: 27
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier"
+    - title: "Ability to change primary e-mail"
+      votes: 20
+      tag: "Privacy & Security"
+      url: "https://ideas.tb.pro/p/ability-to-change-primary-e-mail"
+    - title: "Family plan"
+      votes: 17
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/family-plan"
+    - title: "Add support for multiple calendars"
+      votes: 9
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/add-support-for-multiple-calendars"
+    - title: "Use Stalwart's WebDAV implementation"
+      votes: 9
+      tag: "Send"
+      url: "https://ideas.tb.pro/p/use-stalwart-s-webdav-implementation"
+    - title: "Regional Pricing for Thundermail"
+      votes: 7
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/regional-pricing-for-thundermail"
+    - title: "European Hosting"
+      votes: 7
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/european-hosting"
+    - title: "Password manager as part of the Thundermail suite"
+      votes: 6
+      tag: "New Feature"
+      url: "https://ideas.tb.pro/p/password-manager-as-part-of-the-thundermail-suite"
+    - title: "Add Gmail-style \"Send mail as\" / external sending identities to Thundermail"
+      votes: 6
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/add-gmail-style-send-mail-as-external-sending-identities-to-thundermail"
+    - title: "15 email addresses and not 15 aliases"
+      votes: 4
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases"
+    - title: "Consider BIMI support for Webmail"
+      votes: 4
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/consider-bimi-support-for-webmail"
+    - title: "Tabs"
+      votes: 3
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/tabs"
+    - title: "Keep it simple"
+      votes: 2
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/keep-it-simple"
+    - title: "Instant syncing with Push notifications"
+      votes: 2
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/instant-synching-with-push-notifications"
+    - title: "Non email-based signup, login and recovery system"
+      votes: 2
+      tag: "Privacy & Security"
+      url: "https://ideas.tb.pro/p/non-email-based-signup-login-and-recovery-system"
+    - title: "Support sender's profile picture"
+      votes: 2
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/support-sender-s-profile-picture"
+    - title: "Linux Mint Online Accounts Support"
+      votes: 1
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/linux-mint-online-accounts-support"
+    - title: "Pricing questions"
+      votes: 1
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/pricing-questions"
+    - title: "Sync notes and create a call feature (VOIP)"
+      votes: 1
+      tag: "New Feature"
+      url: "https://ideas.tb.pro/p/sync-notes-and-create-a-call-feature-voip"
+    - title: "Enable JMAP even if Thunderbird does not support it yet"
+      votes: 1
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/enable-jmap-even-if-thunderbird-does-not-support-it-yet"
+    - title: "Enforced breaks between meetings"
+      votes: 1
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/enforced-breaks-between-meetings"
+    - title: "Setting for maximum bookings per day or time-frame"
+      votes: 1
+      tag: "Appointment"
+      url: "https://ideas.tb.pro/p/setting-for-maximum-bookings-per-day-or-time-frame"
+    - title: "Send email alert when custom domain DNS verification fails"
+      votes: 1
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/send-email-alert-when-custom-domain-dns-verification-fails"
+    - title: "Implementazione Codice \"app.Procedures.Cloud\""
+      votes: 1
+      tag: "Other"
+      url: "https://ideas.tb.pro/p/implementazione-codice-app-procedures-cloud"
+  top_alltime:
+    - title: "Thunderbird email domains should be easily sayable + typeable"
+      votes: 74
+      tag: "Thundermail"
+      status: "Great idea; not yet"
+      url: "https://ideas.tb.pro/p/thunderbird-email-domains-should-be-easily-sayable-typeable"
+    - title: "Webmail for Thundermail"
+      votes: 74
+      tag: "Thundermail"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/webmail-for-thundermail"
+    - title: "Multifactor Authentication"
+      votes: 58
+      tag: "Privacy & Security"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/multifactor-authentication"
+    - title: "Additional pricing tiers"
+      votes: 53
+      tag: "Accounts & Subscriptions"
+      status: "On the roadmap"
+      url: "https://ideas.tb.pro/p/additional-pricing-tiers"
+    - title: "Sign-in with Thunderbird"
+      votes: 46
+      tag: "Accounts & Subscriptions"
+      status: "Great idea; not yet"
+      url: "https://ideas.tb.pro/p/sign-in-with-thunderbirdd"
+  in_flight:
+    - title: "Webmail for Thundermail"
+      votes: 74
+      tag: "Thundermail"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/webmail-for-thundermail"
+    - title: "Multifactor Authentication"
+      votes: 58
+      tag: "Privacy & Security"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/multifactor-authentication"
+    - title: "Dark Mode"
+      votes: 19
+      tag: "Accounts & Subscriptions"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/dark-mode"
+    - title: "15 email adresses and not 15 aliases"
+      votes: 4
+      tag: "Thundermail"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases"
+  landed:
+    - title: "Unlimited aliases"
+      votes: 23
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/unlimited-aliases"
+    - title: "Allow permission to send from \"any\" email"
+      votes: 11
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/allow-permission-to-send-from-any-email"
+    - title: "Emails appear multiple times if multiple aliases are configured in the client"
+      votes: 3
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client"
+  # Status moves inferrable from FeatureOS created_at / updated_at (no audit log API).
+  # Unlimited aliases landed May 8 — predates June; not listed here.
+  # June is the first featureos_status snapshot — manual entries below until July auto-diff.
+  # After quarterly review: append moves under status_moves_manual (same shape as moves:).
+  status_moves:
+    caveat: "FeatureOS exposes created_at and updated_at only — no status-change audit log. Dates reflect last board activity or submission; vote/comment edits also bump updated_at."
+    moves:
+      - date: "2026-06-26"
+        status: "Landed!"
+        title: "Allow permission to send from \"any\" email"
+        votes: 11
+        url: "https://ideas.tb.pro/p/allow-permission-to-send-from-any-email"
+        note: "last board activity"
+      - date: "2026-06-12"
+        status: "Landed!"
+        title: "Emails appear multiple times if multiple aliases are configured in the client"
+        votes: 3
+        url: "https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client"
+        note: "last board activity"
+      - date: "2026-06-12"
+        status: "In flight"
+        title: "15 email adresses and not 15 aliases"
+        votes: 4
+        url: "https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases"
+        note: "submitted in flight"
+
+  # First quarterly review (Jul 1, 2026) — LJ only. Top 10 ideas by score moved FROM
+  # Open for discussion (excludes triage moves TO Open for discussion).
+  quarterly_review:
+    date: "2026-07-01"
+    facilitator: "Lisa (LJ)"
+    footnote: "First quarterly review; top 10 ideas by score updated from Open for discussion per How We Handle Ideas."
+    moves:
+      - date: "2026-07-01"
+        status: "Great idea; not yet"
+        title: "Thunderbird email domains should be easily sayable + typeable"
+        votes: 74
+        url: "https://ideas.tb.pro/p/thunderbird-email-domains-should-be-easily-sayable-typeable"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Great idea; not yet"
+        title: "Sign-in with Thunderbird"
+        votes: 46
+        url: "https://ideas.tb.pro/p/sign-in-with-thunderbirdd"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "Increase custom domains limit"
+        votes: 38
+        url: "https://ideas.tb.pro/p/increase-custom-domains-limit"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "On the roadmap"
+        title: "Import email, calendar and contacts feature"
+        votes: 35
+        url: "https://ideas.tb.pro/p/import-email-calendar-and-contacts-feature"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "Bundle Firefox Relay Functionality"
+        votes: 33
+        url: "https://ideas.tb.pro/p/bundle-firefox-relay-functionality"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "On the roadmap"
+        title: "Server Side Email Filtering"
+        votes: 33
+        url: "https://ideas.tb.pro/p/server-side-email-filtering"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "À la carte pricing"
+        votes: 37
+        url: "https://ideas.tb.pro/p/a-la-carte-pricing"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "On the roadmap"
+        title: "Please support IPv6 on all Thundermail services"
+        votes: 30
+        url: "https://ideas.tb.pro/p/please-support-ipv6-on-all-thunderbird-pro-services"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "A small permanent perk for early supporters (applied on top of any tier)"
+        votes: 31
+        url: "https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "Offer HIPAA BAA (Business Associate Agreement)"
+        votes: 5
+        url: "https://ideas.tb.pro/p/offer-hipaa-baa-business-associate-agreement"
+        note: "quarterly review · from Open for discussion"
+
+  # Same Jul 1 moves — merged into status diff when July auto-snapshot runs.
+  status_moves_manual:
+    moves:
+      - date: "2026-07-01"
+        status: "Great idea; not yet"
+        title: "Thunderbird email domains should be easily sayable + typeable"
+        votes: 74
+        url: "https://ideas.tb.pro/p/thunderbird-email-domains-should-be-easily-sayable-typeable"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Great idea; not yet"
+        title: "Sign-in with Thunderbird"
+        votes: 46
+        url: "https://ideas.tb.pro/p/sign-in-with-thunderbirdd"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "Increase custom domains limit"
+        votes: 38
+        url: "https://ideas.tb.pro/p/increase-custom-domains-limit"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "On the roadmap"
+        title: "Import email, calendar and contacts feature"
+        votes: 35
+        url: "https://ideas.tb.pro/p/import-email-calendar-and-contacts-feature"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "Bundle Firefox Relay Functionality"
+        votes: 33
+        url: "https://ideas.tb.pro/p/bundle-firefox-relay-functionality"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "On the roadmap"
+        title: "Server Side Email Filtering"
+        votes: 33
+        url: "https://ideas.tb.pro/p/server-side-email-filtering"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "À la carte pricing"
+        votes: 37
+        url: "https://ideas.tb.pro/p/a-la-carte-pricing"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "On the roadmap"
+        title: "Please support IPv6 on all Thundermail services"
+        votes: 30
+        url: "https://ideas.tb.pro/p/please-support-ipv6-on-all-thunderbird-pro-services"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "A small permanent perk for early supporters (applied on top of any tier)"
+        votes: 31
+        url: "https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-07-01"
+        status: "Exploring the Idea"
+        title: "Offer HIPAA BAA (Business Associate Agreement)"
+        votes: 5
+        url: "https://ideas.tb.pro/p/offer-hipaa-baa-business-associate-agreement"
+        note: "quarterly review · from Open for discussion"
+
+# ── NARRATIVE (Claude drafts, Lisa edits — pending Zendesk data) ────────────
+narrative:
+  lede: null
+  report_note: ""
+  receive_resolve_resound: null
+  sumo_desktop_signal: null
+  sumo_android_signal: null
+  goal_bullets: null
+  experiments: ""
+  whats_coming_up: null

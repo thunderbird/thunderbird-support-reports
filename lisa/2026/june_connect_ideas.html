@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mozilla Connect Ideas — Thunderbird Support · June 2026</title>
+<script>(function(){var t=localStorage.getItem('tb-theme')||'dark';if(t==='dark')document.documentElement.classList.add('dark');})();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<style>
+/* ============================================================================
+   CSS REGION: tokens — Thunderbird brand (light) · Bolt semantic tokens (DESIGN.md)
+   thunderbird.net look: light, spacious, soft shadows, Thunderbird blue + teal.
+   ============================================================================ */
+:root{
+  --surface-page:#f5f6fb;
+  --surface-card:#ffffff;
+  --surface-sunken:#eef1f8;
+  --border:#e4e6f0;
+  --border-strong:#d2d5e4;
+  --primary:#1373d9;            /* Thunderbird blue — links / active / accents */
+  --primary-strong:#105399;     /* deeper blue — headings, hovered links */
+  --primary-soft:#eaf3fd;
+  --teal:#1a9c95;               /* Thunderbird teal — attention/accent */
+  --teal-soft:#e6f6f4;
+  --text:#16161e;
+  --text-secondary:#494b5c;
+  --text-muted:#73758a;
+  --text-faint:#9a9cb0;
+  /* Bolt semantic (light) — from DESIGN.md */
+  --success:#194e2c; --success-c:#f4f9f4;
+  --warning:#713f12; --warning-c:#fefae8;
+  --error:#7f1d1d;   --error-c:#fef2f2;
+  --info:#004f9b;    --info-c:#f0f8ff;
+  /* spacing (4px base) */
+  --s4:.25rem; --s8:.5rem; --s12:.75rem; --s16:1rem; --s24:1.5rem; --s32:2rem; --s48:3rem;
+  --radius-sm:8px; --radius-md:12px; --radius-lg:16px;
+  --shadow-sm:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.10);
+  --shadow-md:0 4px 12px rgba(16,24,40,.08),0 2px 4px rgba(16,24,40,.06);
+}
+/* CSS REGION: dark theme — Bolt dark tokens; default for these dashboards (team norm) */
+html.dark{
+  --surface-page:#0d0c14; --surface-card:#15131e; --surface-sunken:#1c1a28;
+  --border:#2b2845; --border-strong:#3e3b62;
+  --primary:#6d8bff; --primary-strong:#9db4ff; --primary-soft:#0e1038;
+  --teal:#2dd4bf; --teal-soft:#04201d;
+  --text:#e8e6f5; --text-secondary:#b4b1d0; --text-muted:#8a87a6; --text-faint:#5d5a78;
+  --success:#34d27b; --success-c:#06210f;
+  --warning:#f5a623; --warning-c:#1f1500;
+  --error:#ff5a5a;   --error-c:#270808;
+  --info:#6d8bff;    --info-c:#0e1038;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.45); --shadow-md:0 6px 16px rgba(0,0,0,.5);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--surface-page);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--primary);text-decoration:none}
+a:hover{color:var(--primary-strong);text-decoration:underline}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:4px}
+
+/* topbar */
+.topbar{background:var(--surface-card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20}
+.topbar__in{max-width:1080px;margin:0 auto;padding:var(--s12) var(--s32);display:flex;align-items:center;gap:var(--s16)}
+.brand{display:flex;align-items:center;gap:var(--s8);font-weight:700;color:var(--text);font-size:.95rem}
+.brand:hover{text-decoration:none;color:var(--text)}
+.brand svg{width:26px;height:26px}
+.crumbs{margin-left:auto;font-size:.8rem;color:var(--text-muted)}
+.crumbs a{color:var(--text-muted)}
+.crumbs b{color:var(--text-secondary);font-weight:600}
+.theme-toggle{background:var(--surface-sunken);border:1px solid var(--border);color:var(--text-secondary);border-radius:999px;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font-size:1.05rem;flex-shrink:0}
+.theme-toggle:hover{color:var(--text);border-color:var(--border-strong)}
+.theme-toggle .ph-sun{display:none}
+html.dark .theme-toggle .ph-moon{display:none}
+html.dark .theme-toggle .ph-sun{display:inline}
+
+.wrap{max-width:1080px;margin:0 auto;padding:var(--s32)}
+@media(max-width:640px){.wrap,.topbar__in{padding-left:var(--s16);padding-right:var(--s16)}}
+
+/* page head */
+.page-head{margin-bottom:var(--s32)}
+.eyebrow{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--primary);margin-bottom:var(--s8);display:flex;align-items:center;gap:var(--s8)}
+.page-head h1{font-size:clamp(1.7rem,4vw,2.4rem);font-weight:700;letter-spacing:-.02em;line-height:1.1;margin-bottom:var(--s12)}
+.dek{font-size:1rem;color:var(--text-secondary);line-height:1.65;max-width:70ch}
+.meta-pills{display:flex;flex-wrap:wrap;gap:var(--s8);margin-top:var(--s16)}
+.pill{background:var(--surface-card);border:1px solid var(--border);border-radius:999px;padding:var(--s4) var(--s12);font-size:.78rem;font-weight:600;color:var(--text-secondary);box-shadow:var(--shadow-sm)}
+.pill i{color:var(--primary);margin-right:4px}
+
+/* stat row */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--s16);margin-bottom:var(--s24)}
+.stat{background:var(--surface-card);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--s16) var(--s24);box-shadow:var(--shadow-sm)}
+.stat__val{font-size:2rem;font-weight:700;letter-spacing:-.02em;line-height:1;font-variant-numeric:tabular-nums}
+.stat__lbl{font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);margin-top:var(--s8)}
+.stat--primary .stat__val{color:var(--primary-strong)}
+.stat--teal .stat__val{color:var(--teal)}
+
+/* card */
+.card{background:var(--surface-card);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);margin-bottom:var(--s24);overflow:hidden}
+.card__head{padding:var(--s24) var(--s24) var(--s12);display:flex;align-items:baseline;justify-content:space-between;gap:var(--s12);flex-wrap:wrap}
+.card__title{font-size:1.05rem;font-weight:700;letter-spacing:-.01em}
+.card__sub{font-size:.8rem;color:var(--text-muted)}
+.card__body{padding:0 var(--s24) var(--s24)}
+.chart-box{padding:var(--s16) var(--s24) var(--s24);position:relative;min-height:280px}
+
+/* search */
+.toolbar{display:flex;gap:var(--s12);align-items:center;margin-bottom:var(--s16);flex-wrap:wrap}
+.search{flex:1;min-width:220px;position:relative}
+.search i{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-faint)}
+.search input{width:100%;padding:var(--s12) var(--s12) var(--s12) 38px;border:1px solid var(--border-strong);border-radius:var(--radius-sm);font:inherit;font-size:.9rem;background:var(--surface-card);color:var(--text)}
+.search input::placeholder{color:var(--text-faint)}
+.count-note{font-size:.8rem;color:var(--text-muted)}
+
+/* topic rows (expandable) */
+.topic{border:1px solid var(--border);border-radius:var(--radius-md);margin-bottom:var(--s12);background:var(--surface-card);box-shadow:var(--shadow-sm);overflow:hidden}
+.topic > summary{list-style:none;cursor:pointer;padding:var(--s16);display:grid;grid-template-columns:auto 1fr auto;gap:var(--s16);align-items:center}
+.topic > summary::-webkit-details-marker{display:none}
+.topic__rank{font-size:.85rem;font-weight:700;color:var(--text-faint);font-variant-numeric:tabular-nums;width:1.5rem;text-align:right}
+.topic__main{min-width:0}
+.topic__name{font-weight:700;font-size:.95rem;display:flex;align-items:center;gap:var(--s8)}
+.topic__name .caret{color:var(--text-faint);transition:transform .15s}
+.topic[open] .topic__name .caret{transform:rotate(90deg)}
+.topic__bar-wrap{height:8px;background:var(--surface-sunken);border-radius:999px;margin-top:var(--s8);overflow:hidden;max-width:520px}
+.topic__bar{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--primary),var(--teal))}
+.topic__fig{text-align:right;white-space:nowrap}
+.topic__count{font-size:1.25rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.topic__pct{font-size:.74rem;color:var(--text-muted);font-variant-numeric:tabular-nums}
+.topic__qs{padding:0 var(--s16) var(--s16);border-top:1px solid var(--border)}
+.q-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:var(--s4) var(--s16);margin-top:var(--s12)}
+.q-list li{font-size:.84rem;line-height:1.5;padding:var(--s4) 0;border-bottom:1px solid var(--surface-sunken)}
+.q-list li a{color:var(--text-secondary)}
+.q-list li a:hover{color:var(--primary-strong)}
+.q-id{font-size:.72rem;color:var(--text-faint);font-variant-numeric:tabular-nums;margin-right:6px}
+
+/* tables */
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{text-align:left;color:var(--text-muted);font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;padding:var(--s8) var(--s12);border-bottom:2px solid var(--border-strong);cursor:pointer;user-select:none;white-space:nowrap}
+th .so{display:inline-flex;align-items:center;gap:4px}
+th .so i{color:var(--text-faint);font-size:.9em}
+td{padding:var(--s8) var(--s12);border-bottom:1px solid var(--border);vertical-align:top}
+tbody tr:hover{background:var(--surface-sunken)}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.tag{display:inline-block;font-size:.7rem;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--info-c);color:var(--info);border:1px solid var(--info)}
+.kudos{font-weight:700;color:var(--primary-strong);font-variant-numeric:tabular-nums}
+
+/* theme cards (priorities) */
+.theme{border:1px solid var(--border);border-left:4px solid var(--accent,var(--primary));border-radius:var(--radius-md);background:var(--surface-card);box-shadow:var(--shadow-sm);margin-bottom:var(--s16);overflow:hidden}
+.theme > summary{list-style:none;cursor:pointer;padding:var(--s24);display:grid;grid-template-columns:1fr auto;gap:var(--s16);align-items:center}
+.theme > summary::-webkit-details-marker{display:none}
+.theme__name{font-size:1.1rem;font-weight:700;display:flex;align-items:center;gap:var(--s8)}
+.theme__name .caret{color:var(--text-faint);transition:transform .15s}
+.theme[open] .theme__name .caret{transform:rotate(90deg)}
+.theme__desc{font-size:.85rem;color:var(--text-muted);margin-top:var(--s4)}
+.theme__fig{text-align:right;white-space:nowrap}
+.theme__count{font-size:1.6rem;font-weight:700;color:var(--accent,var(--primary));line-height:1;font-variant-numeric:tabular-nums}
+.theme__pct{font-size:.78rem;color:var(--text-muted)}
+.theme__body{padding:0 var(--s24) var(--s24);border-top:1px solid var(--border)}
+.subhead{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin:var(--s16) 0 var(--s8)}
+.mini-bars{display:flex;flex-direction:column;gap:6px;max-width:420px}
+.mini-row{display:grid;grid-template-columns:120px 32px 1fr;align-items:center;gap:var(--s8);font-size:.82rem}
+.mini-row__bar{height:7px;background:var(--teal);border-radius:999px;opacity:.8}
+
+.footer{font-size:.78rem;color:var(--text-muted);line-height:1.6;border-top:1px solid var(--border);padding-top:var(--s16);margin-top:var(--s32)}
+.proto{background:var(--info-c);border:1px solid var(--info);color:var(--info);border-radius:var(--radius-sm);padding:var(--s8) var(--s16);font-size:.78rem;margin-bottom:var(--s24)}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar__in">
+    <a class="brand" href="june_sample.html">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="16" cy="16" r="15" fill="#1373d9"/>
+        <path d="M8 13h16M8 17h11M8 21h7" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      Thunderbird Support
+    </a>
+    <nav class="crumbs"><a href="june_sample.html">Monthly Report</a> &rsaquo; <b>Connect Ideas</b></nav>
+    <button class="theme-toggle" onclick="localStorage.setItem('tb-theme',document.documentElement.classList.contains('dark')?'light':'dark');location.reload();" aria-label="Toggle light / dark theme" title="Toggle light / dark"><i class="ph ph-moon"></i><i class="ph ph-sun"></i></button>
+  </div>
+</header>
+<main class="wrap">
+<div class="proto"><b>Drill-down dashboard prototype</b> — generated from <code>june_connect_ideas.md</code>. Brand: thunderbird.net + Bolt (light). Data: June 2026 2026.</div>
+
+<div class="page-head">
+  <p class="eyebrow"><i class="ph-fill ph-lightbulb"></i> Community Wishlist · Mozilla Connect</p>
+  <h1>Connect Ideas</h1>
+  <p class="dek">The Thunderbird community wishlist from Mozilla Connect — what users are asking for, complementing the SUMO signal of what they're blocked on. Sort by any column; search to filter.</p>
+  <div class="meta-pills">
+    <span class="pill"><i class="ph ph-lightbulb"></i>25 ideas</span>
+    <span class="pill"><i class="ph ph-thumbs-up"></i>37 kudos</span>
+    <span class="pill"><i class="ph ph-eye"></i>4,937 views</span>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat stat--primary"><div class="stat__val">25</div><div class="stat__lbl">Ideas posted</div></div>
+  <div class="stat stat--teal"><div class="stat__val">37</div><div class="stat__lbl">Total kudos</div></div>
+  <div class="stat"><div class="stat__val">4,937</div><div class="stat__lbl">Total views</div></div>
+</div>
+
+<div class="card">
+  <div class="card__head"><div class="card__title">Top 10 by kudos</div><div class="card__sub">community upvotes</div></div>
+  <div class="chart-box"><canvas id="ideaChart"></canvas></div>
+</div>
+
+<div class="toolbar">
+  <label class="search"><i class="ph ph-magnifying-glass"></i><input id="q" type="search" placeholder="Search ideas"></label>
+  <span class="count-note" id="countNote"></span>
+</div>
+<div class="card"><div class="card__body" style="padding-top:var(--s16)">
+<table id="ideaTable">
+  <thead><tr>
+    <th data-sort="rank" class="num">#</th>
+    <th>Idea</th>
+    <th data-sort="k" class="num"><span class="so">Kudos <i class="ph ph-arrows-down-up"></i></span></th>
+    <th data-sort="v" class="num"><span class="so">Views <i class="ph ph-arrows-down-up"></i></span></th>
+    <th data-sort="c" class="num"><span class="so">Comments <i class="ph ph-arrows-down-up"></i></span></th>
+    <th>Status</th>
+  </tr></thead>
+  <tbody><tr data-k="6" data-v="269" data-c="4"><td class="num tbl-muted">1</td><td><a href="https://connect.mozilla.org/t5/ideas/thunderbird-additional-apply-column-and-view-settings-for-all/idi-p/128731" target="_blank">Thunderbird: Additional: Apply column and view settings for ALL folders + ALL accounts</a></td><td class="num kudos">6</td><td class="num">269</td><td class="num">4</td><td><span class="tag">new</span></td></tr><tr data-k="3" data-v="272" data-c="4"><td class="num tbl-muted">2</td><td><a href="https://connect.mozilla.org/t5/ideas/embedding-pictures-in-thunderbird/idi-p/128435" target="_blank">embedding pictures in Thunderbird</a></td><td class="num kudos">3</td><td class="num">272</td><td class="num">4</td><td><span class="tag">new</span></td></tr><tr data-k="3" data-v="259" data-c="3"><td class="num tbl-muted">3</td><td><a href="https://connect.mozilla.org/t5/ideas/security-alerts-in-thunderbird-re-server-certificates/idi-p/127527" target="_blank">Security alerts in Thunderbird re server certificates</a></td><td class="num kudos">3</td><td class="num">259</td><td class="num">3</td><td><span class="tag">new</span></td></tr><tr data-k="2" data-v="172" data-c="3"><td class="num tbl-muted">4</td><td><a href="https://connect.mozilla.org/t5/ideas/support-windows-11-share-contract-so-thunderbird-appears-in-the/idi-p/129981" target="_blank">Support Windows 11 Share contract so Thunderbird appears in the context menu Share panel</a></td><td class="num kudos">2</td><td class="num">172</td><td class="num">3</td><td><span class="tag">new</span></td></tr><tr data-k="2" data-v="190" data-c="2"><td class="num tbl-muted">5</td><td><a href="https://connect.mozilla.org/t5/ideas/view-source-of-email-by-a-right-click-option-w-o-opening-the/idi-p/128135" target="_blank">View source of email by a right click option w/o opening the email.</a></td><td class="num kudos">2</td><td class="num">190</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="2" data-v="202" data-c="3"><td class="num tbl-muted">6</td><td><a href="https://connect.mozilla.org/t5/ideas/thunderbird-optimizing-the-email-filter-function/idi-p/128018" target="_blank">Thunderbird: Optimizing the Email Filter Function</a></td><td class="num kudos">2</td><td class="num">202</td><td class="num">3</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="113" data-c="2"><td class="num tbl-muted">7</td><td><a href="https://connect.mozilla.org/t5/ideas/pin-a-tab-in-thunderbird/idi-p/130519" target="_blank">pin a tab in thunderbird</a></td><td class="num kudos">1</td><td class="num">113</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="95" data-c="3"><td class="num tbl-muted">8</td><td><a href="https://connect.mozilla.org/t5/ideas/when-clicking-quot-mark-as-read-quot-or-quot-delete-quot-on-the/idi-p/130514" target="_blank">When clicking &quot;Mark as Read&quot; or &quot;Delete&quot; on the new email notification window, DON&#x27;T switch focus to Thunderbird</a></td><td class="num kudos">1</td><td class="num">95</td><td class="num">3</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="135" data-c="2"><td class="num tbl-muted">9</td><td><a href="https://connect.mozilla.org/t5/ideas/make-mailing-lists-in-carddav-address-books/idi-p/130449" target="_blank">Make mailing lists in CardDAV address books</a></td><td class="num kudos">1</td><td class="num">135</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="160" data-c="2"><td class="num tbl-muted">10</td><td><a href="https://connect.mozilla.org/t5/ideas/edit-event-title-for-ics-accepted-events/idi-p/130003" target="_blank">Edit event title for ICS accepted events</a></td><td class="num kudos">1</td><td class="num">160</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="148" data-c="2"><td class="num tbl-muted">11</td><td><a href="https://connect.mozilla.org/t5/ideas/multiple-ways-to-import-emails-to-thunderbird/idi-p/129765" target="_blank">Multiple Ways to Import Emails to Thunderbird</a></td><td class="num kudos">1</td><td class="num">148</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="108" data-c="2"><td class="num tbl-muted">12</td><td><a href="https://connect.mozilla.org/t5/ideas/an-entry-for-the-right-click-menu-over-a-mailbox-folder/idi-p/129597" target="_blank">An Entry For the Right-Click Menu Over a Mailbox Folder</a></td><td class="num kudos">1</td><td class="num">108</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="838" data-c="4"><td class="num tbl-muted">13</td><td><a href="https://connect.mozilla.org/t5/ideas/thunderbox-show-subject-of-e-mail-group-with-new-e-mail/idi-p/129086" target="_blank">Thunderbox: Show subject of e-mail group with new e-mail underlined and bold</a></td><td class="num kudos">1</td><td class="num">838</td><td class="num">4</td><td><span class="tag">delivered</span></td></tr><tr data-k="1" data-v="213" data-c="4"><td class="num tbl-muted">14</td><td><a href="https://connect.mozilla.org/t5/ideas/tb-should-be-auto-marking-junk-as-quot-read-quot-so-i-don-t/idi-p/128919" target="_blank">TB Should be auto-marking JUNK as &quot;READ&quot; so I don&#x27;t constantly see the new mail indicator</a></td><td class="num kudos">1</td><td class="num">213</td><td class="num">4</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="151" data-c="2"><td class="num tbl-muted">15</td><td><a href="https://connect.mozilla.org/t5/ideas/full-support-for-rfc-2047-in-subject-headers/idi-p/128833" target="_blank">Full support for RFC 2047 in subject headers</a></td><td class="num kudos">1</td><td class="num">151</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="202" data-c="4"><td class="num tbl-muted">16</td><td><a href="https://connect.mozilla.org/t5/ideas/always-load-important-mails/idi-p/128124" target="_blank">Always load important mails</a></td><td class="num kudos">1</td><td class="num">202</td><td class="num">4</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="168" data-c="2"><td class="num tbl-muted">17</td><td><a href="https://connect.mozilla.org/t5/ideas/option-for-thunderbird-not-jumping-to-next-message-in-message/idi-p/128065" target="_blank">option for Thunderbird not jumping to next message in message list after clicking “Download the rest of the message”</a></td><td class="num kudos">1</td><td class="num">168</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="164" data-c="2"><td class="num tbl-muted">18</td><td><a href="https://connect.mozilla.org/t5/ideas/saving-attached-files-a-feature-could-be-added-so-that-the/idi-p/128031" target="_blank">Saving attached files - A feature could be added so that the program remembers that attachments from a given recipient are saved in their own folder</a></td><td class="num kudos">1</td><td class="num">164</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="264" data-c="4"><td class="num tbl-muted">19</td><td><a href="https://connect.mozilla.org/t5/ideas/thunderbird-show-archived-mails-on-a-map/idi-p/127801" target="_blank">Thunderbird: Show archived mails on a map</a></td><td class="num kudos">1</td><td class="num">264</td><td class="num">4</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="149" data-c="2"><td class="num tbl-muted">20</td><td><a href="https://connect.mozilla.org/t5/ideas/remove-the-useless-empty-top-bar-in-thunderbird/idi-p/127754" target="_blank">Remove the useless empty top bar in Thunderbird</a></td><td class="num kudos">1</td><td class="num">149</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="155" data-c="2"><td class="num tbl-muted">21</td><td><a href="https://connect.mozilla.org/t5/ideas/tasks-for-today-in-today-pane/idi-p/127751" target="_blank">Tasks for Today in Today Pane</a></td><td class="num kudos">1</td><td class="num">155</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="140" data-c="2"><td class="num tbl-muted">22</td><td><a href="https://connect.mozilla.org/t5/ideas/change-account-page-in-thunderbird-to-similar-to-ms-outlook/idi-p/127689" target="_blank">Change Account Page In Thunderbird to Similar to MS Outlook Today</a></td><td class="num kudos">1</td><td class="num">140</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="128" data-c="2"><td class="num tbl-muted">23</td><td><a href="https://connect.mozilla.org/t5/ideas/put-back-status-when-checking-mail/idi-p/127684" target="_blank">Put Back Status when Checking Mail</a></td><td class="num kudos">1</td><td class="num">128</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="113" data-c="2"><td class="num tbl-muted">24</td><td><a href="https://connect.mozilla.org/t5/ideas/new-emails-in-collapsed-threads-easy-to-miss-please-make-it/idi-p/127659" target="_blank">New emails in collapsed threads easy to miss - Please make it underlined and bold if new message appears inside a collapsed thread</a></td><td class="num kudos">1</td><td class="num">113</td><td class="num">2</td><td><span class="tag">new</span></td></tr><tr data-k="1" data-v="129" data-c="2"><td class="num tbl-muted">25</td><td><a href="https://connect.mozilla.org/t5/ideas/shift-del-button-in-thunderbird/idi-p/127622" target="_blank">Shift + del button in Thunderbird</a></td><td class="num kudos">1</td><td class="num">129</td><td class="num">2</td><td><span class="tag">new</span></td></tr></tbody>
+</table>
+</div></div>
+
+<div class="footer">Mozilla Connect is the product feedback / ideation channel; every Thunderbird-labeled post lands in the ideas board. Generated from <code>june_connect_ideas.md</code>.</div>
+</main>
+<script>
+const PAL=(()=>{const c=getComputedStyle(document.documentElement);return{grid:c.getPropertyValue('--border').trim(),tick:c.getPropertyValue('--text-muted').trim(),txt:c.getPropertyValue('--text').trim(),teal:c.getPropertyValue('--teal').trim()};})();
+const TOP={labels:["Thunderbird: Additional: Apply column \u2026", "embedding pictures in Thunderbird", "Security alerts in Thunderbird re serv\u2026", "Support Windows 11 Share contract so T\u2026", "View source of email by a right click \u2026", "Thunderbird: Optimizing the Email Filt\u2026", "pin a tab in thunderbird", "When clicking \"Mark as Read\" or \"Delet\u2026", "Make mailing lists in CardDAV address \u2026", "Edit event title for ICS accepted even\u2026"],data:[6, 3, 3, 2, 2, 2, 1, 1, 1, 1]};
+new Chart(document.getElementById('ideaChart'),{
+  type:'bar',
+  data:{labels:TOP.labels,datasets:[{data:TOP.data,backgroundColor:PAL.teal,borderRadius:6,maxBarThickness:20}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.x+' kudos'}}},
+    scales:{x:{ticks:{color:PAL.tick,precision:0},grid:{color:PAL.grid}},y:{ticks:{color:PAL.txt,font:{size:11}},grid:{display:false}}}}
+});
+// sort + search
+const tbl=document.getElementById('ideaTable'),tb=tbl.querySelector('tbody');
+const rows=[...tb.rows];let dir=1,lastKey=null;
+tbl.querySelectorAll('th[data-sort]').forEach(th=>th.addEventListener('click',()=>{
+  const k=th.dataset.sort;dir=(lastKey===k)?-dir:-1;lastKey=k;
+  rows.sort((a,b)=>{
+    const av=k==='rank'?+a.cells[0].textContent:+a.dataset[k];
+    const bv=k==='rank'?+b.cells[0].textContent:+b.dataset[k];
+    return (av-bv)*dir;
+  });
+  rows.forEach(r=>tb.appendChild(r));
+}));
+const q=document.getElementById('q'),note=document.getElementById('countNote');
+q.addEventListener('input',()=>{
+  const t=q.value.trim().toLowerCase();let n=0;
+  rows.forEach(r=>{const m=!t||r.cells[1].textContent.toLowerCase().includes(t);r.style.display=m?'':'none';if(m)n++;});
+  note.textContent=t?`${n} of 25 ideas`:'';
+});
+</script>
+</body>
+</html>

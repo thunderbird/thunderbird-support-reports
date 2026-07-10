@@ -81,6 +81,9 @@ DEVICE_MAP = {
 def _decode_device(codename):
     return DEVICE_MAP.get(codename, codename) if codename else None
 
+from pii_redact import paraphrase_review
+
+
 def _best_quote(rows, pattern, max_len=160):
     """Pick the most on-topic negative review — scored by keyword density, 1-2★ preferred."""
     pool = [r for r in rows if r['_rating'] <= 2 and len(r['_raw_text']) > 40] \
@@ -91,10 +94,7 @@ def _best_quote(rows, pattern, max_len=160):
         hits = len(re.findall(pattern, r['_text']))
         return hits / math.sqrt(max(len(r['_text'].split()), 1))
     pool.sort(key=score, reverse=True)
-    text = pool[0]['_raw_text']
-    if len(text) > max_len:
-        text = text[:max_len].rsplit(' ', 1)[0] + '…'
-    return text
+    return paraphrase_review(pool[0]['_raw_text'], max_len=max_len)
 
 def deep_analyze_themes(all_rows, themes):
     """Qualitative detail per friction theme: best quote, top devices, top languages."""
@@ -237,16 +237,19 @@ def load_history(base):
         return {}
     return json.loads(path.read_text())
 
+def _month_keys(history):
+    return sorted(k for k in history if re.match(r'^\d{4}-\d{2}$', k))
+
 def prev_from_history(history, month_prefix):
     """Return the most recent month's data before month_prefix."""
-    keys = sorted(k for k in history if k < month_prefix)
+    keys = [k for k in _month_keys(history) if k < month_prefix]
     if not keys:
         return {}
     return history[keys[-1]]
 
 def history_neg_from_history(history, month_prefix, themes):
     """Return the 2 most recent prior months' negative counts; caller appends current month."""
-    keys = sorted(k for k in history if k < month_prefix)[-2:]
+    keys = [k for k in _month_keys(history) if k < month_prefix][-2:]
     result = {}
     for theme in themes:
         result[theme] = [history[k]['friction_neg'].get(theme, 0) for k in keys]
@@ -256,10 +259,9 @@ def idea_votes_snapshot(config):
     """Return {title: votes} for all ideas in the YAML."""
     ideas = config.get('tbpro_ideas', {})
     snapshot = {}
-    for idea in ideas.get('new_this_month', []):
-        snapshot[idea['title']] = idea['votes']
-    for idea in ideas.get('top_alltime', []):
-        snapshot[idea['title']] = idea['votes']
+    for key in ('new_this_month', 'top_alltime', 'in_flight', 'landed'):
+        for idea in ideas.get(key, []):
+            snapshot[idea['title']] = idea['votes']
     return snapshot
 
 def idea_mom_delta(title, votes, prev_snapshot):
@@ -272,6 +274,164 @@ def idea_mom_delta(title, votes, prev_snapshot):
     if delta < 0:
         return f' ({delta} this month)'
     return ''
+
+def idea_status_class(status):
+    """Map FeatureOS custom_status.title to a CSS modifier class."""
+    if not status:
+        return 'idea-status'
+    s = status.strip()
+    if s == 'In flight':
+        return 'idea-status idea-status--flight'
+    if s == 'On the roadmap':
+        return 'idea-status idea-status--roadmap'
+    if s in {'Landed!', 'Landed'}:
+        return 'idea-status idea-status--landed'
+    if s in {'No for now', 'By design', 'Off-topic'}:
+        return 'idea-status idea-status--declined'
+    if s == 'Exploring the Idea':
+        return 'idea-status idea-status--exploring'
+    if s == 'Great idea; not yet':
+        return 'idea-status idea-status--review'
+    return 'idea-status idea-status--review'
+
+def idea_status_html(status):
+    """Return HTML span for FeatureOS status, or em dash if missing."""
+    if not status:
+        return '<span class="tbl-muted">—</span>'
+    cls = idea_status_class(status)
+    return f'<span class="{cls}">{_esc(status)}</span>'
+
+def build_status_moves_html(status_moves_block, month_cap):
+    """Thundermail status moves — YAML manual, auto snapshot diff, or both."""
+    if not status_moves_block or not status_moves_block.get('moves'):
+        return ''
+    moves = sorted(status_moves_block['moves'], key=lambda m: m.get('date', ''), reverse=True)
+    rows = []
+    for m in moves:
+        status_span = idea_status_html(m.get('status'))
+        note = f' · <span class="tbl-muted">{_esc(m["note"])}</span>' if m.get('note') else ''
+        rows.append(
+            f'<li><span class="tbl-muted" style="font-variant-numeric:tabular-nums">{_esc(m.get("date", ""))}</span>'
+            f' · {status_span} · <a href="{_esc(m["url"])}" target="_blank" style="color:var(--text)">'
+            f'{_esc(m["title"])}</a> · <strong>{m.get("votes", "")}</strong> votes{note}</li>'
+        )
+    caveat = status_moves_block.get('caveat', '')
+    caveat_html = f'<p class="footnote" style="margin-top:.75rem">{_esc(caveat)}</p>' if caveat else ''
+    return f'''
+<h3 style="margin-top:1.25rem">Status moves · {month_cap}</h3>
+<ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.35rem;font-size:.82rem">
+  {"".join(rows)}
+</ul>
+{caveat_html}
+'''
+
+_QUARTERLY_STATUS_ORDER = (
+    'On the roadmap',
+    'Exploring the Idea',
+    'Great idea; not yet',
+)
+
+def build_quarterly_review_html(quarterly_review):
+    """Jul quarterly review status moves — separate from inferrable monthly moves."""
+    if not quarterly_review or not quarterly_review.get('moves'):
+        return ''
+    date_label = 'Jul 1'
+    raw_date = quarterly_review.get('date', '')
+    if raw_date and len(raw_date) >= 10:
+        _MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
+        try:
+            y, m, d = (int(raw_date[:4]), int(raw_date[5:7]), int(raw_date[8:10]))
+            date_label = f'{_MONTHS[m - 1]} {d}'
+        except (ValueError, IndexError):
+            date_label = raw_date
+
+    by_status = {s: [] for s in _QUARTERLY_STATUS_ORDER}
+    allowed = set(_QUARTERLY_STATUS_ORDER)
+    for move in quarterly_review['moves']:
+        status = move.get('status') or ''
+        if status not in allowed:
+            continue
+        by_status[status].append(move)
+
+    groups_html = []
+    for status in _QUARTERLY_STATUS_ORDER:
+        moves = by_status.get(status) or []
+        if not moves:
+            continue
+        moves.sort(key=lambda m: (-(m.get('votes') or 0), m.get('title', '')))
+        status_span = idea_status_html(status)
+        items = []
+        for m in moves:
+            items.append(
+                f'<li><a href="{_esc(m["url"])}" target="_blank" style="color:var(--text)">'
+                f'{_esc(m["title"])}</a> · <strong>{m.get("votes", "")}</strong> votes</li>'
+            )
+        groups_html.append(f'''
+  <div class="box" style="margin-bottom:.75rem">
+    <h4 style="font-size:.82rem;margin:0 0 .5rem">{status_span} <span style="color:var(--muted);font-weight:400">({len(moves)})</span></h4>
+    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.35rem;font-size:.82rem">
+      {"".join(items)}
+    </ul>
+  </div>''')
+
+    footnote = quarterly_review.get('footnote', '')
+    footnote_html = ''
+    if footnote:
+        footnote_html = (
+            f'<p class="footnote" style="margin-top:.75rem">{_esc(footnote)} '
+            f'See <a href="https://support.tb.pro/hc/en-us/articles/51206861883027-How-We-Handle-Ideas" '
+            f'target="_blank">How We Handle Ideas</a>.</p>'
+        )
+    facilitator = quarterly_review.get('facilitator', 'Lisa (LJ)')
+    move_count = sum(len(by_status.get(s) or []) for s in _QUARTERLY_STATUS_ORDER)
+    intro = (
+        f'First public quarterly ideas review — top {move_count} ideas by score on the launch overview agenda. '
+        f'{facilitator} updated statuses from Open for discussion with public comments.'
+    )
+    return f'''
+<h3 style="margin-top:1.25rem">Quarterly review · {date_label or "Jul 1"}</h3>
+<p style="font-size:.82rem;color:var(--muted);margin:0 0 .75rem">{_esc(intro)}</p>
+{"".join(groups_html)}
+{footnote_html}
+'''
+
+def build_shipped_ideas_html(ideas):
+    """Landed + in-flight FeatureOS ideas for the Thundermail dashboard section."""
+    landed = ideas.get('landed', [])
+    in_flight = ideas.get('in_flight', [])
+    if not landed and not in_flight:
+        return ''
+
+    def _idea_li(idea):
+        status_span = idea_status_html(idea.get('status'))
+        return (
+            f'<li>'
+            f'<a class="idea-row__title" href="{_esc(idea["url"])}" target="_blank">{_esc(idea["title"])}</a>'
+            f'<span class="idea-row__votes"><strong>{idea["votes"]}</strong> votes</span>'
+            f'{status_span}'
+            f'</li>'
+        )
+
+    landed_items = ''.join(_idea_li(i) for i in sorted(landed, key=lambda x: -x['votes']))
+    flight_items = ''.join(_idea_li(i) for i in sorted(in_flight, key=lambda x: -x['votes']))
+    return f'''
+<h3 style="margin-top:1.25rem">Shipped &amp; in flight</h3>
+<div class="two-col">
+  <div class="box">
+    <h3 style="font-size:.85rem;margin-bottom:.5rem">Landed ({len(landed)})</h3>
+    <ul class="idea-row-list">
+      {landed_items or '<li class="idea-row-list__empty">None</li>'}
+    </ul>
+  </div>
+  <div class="box">
+    <h3 style="font-size:.85rem;margin-bottom:.5rem">In flight ({len(in_flight)})</h3>
+    <ul class="idea-row-list">
+      {flight_items or '<li class="idea-row-list__empty">None</li>'}
+    </ul>
+  </div>
+</div>
+'''
 
 def append_to_history(base, month_prefix, month_cap, year, analysis, config):
     path = base / 'data' / 'history.json'
@@ -312,8 +472,14 @@ def append_to_history(base, month_prefix, month_cap, year, analysis, config):
         'tbpro_ideas': idea_votes_snapshot(config),
         'k9_discourse': None,  # filled in after fetch, patched by main()
     }
-    path.write_text(json.dumps(dict(sorted(history.items())), indent=2))
+    _write_history_json(path, history)
     return history
+
+def _write_history_json(path, history):
+    month_keys = _month_keys(history)
+    other_keys = sorted(k for k in history if k not in month_keys)
+    ordered = {k: history[k] for k in month_keys + other_keys}
+    path.write_text(json.dumps(ordered, indent=2) + '\n')
 
 FRICTION_ANCHORS = {
     'Push / Notification Sync':    '#top-3-friction-points',
@@ -598,7 +764,7 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
         trend_str = ' → '.join(str(x) for x in hist)
         label = trend_label(hist)
         detail = friction_detail.get(theme, {})
-        quote_line = f'"{detail["quote"]}"' if detail.get('quote') else '[No review text available]'
+        quote_line = detail['quote'] if detail.get('quote') else '[No review text available]'
         flags_parts = []
         if detail.get('devices'):
             flags_parts.append(f'Devices: {detail["devices"]}')
@@ -624,7 +790,8 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
     top_ideas_md = ''
     for idea in ideas.get('top_alltime', []):
         delta = idea_mom_delta(idea['title'], idea['votes'], prev_idea_snapshot)
-        top_ideas_md += f"- [{idea['title']}]({idea['url']}) — {idea['votes']} votes{delta} ({idea.get('tag','')})\n"
+        status_note = f" · {idea['status']}" if idea.get('status') else ''
+        top_ideas_md += f"- [{idea['title']}]({idea['url']}) — {idea['votes']} votes{delta} ({idea.get('tag','')}{status_note})\n"
     if not top_ideas_md:
         top_ideas_md = '- [Top ideas not yet loaded]\n'
 
@@ -666,8 +833,8 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
 ## Support Metrics
 - **Overall CSAT:** {z['overall_csat'] or 'N/A'}% ({mom_pts(z['overall_csat'], p['overall_csat'])} pts MoM) {mom_arrow(z['overall_csat'], p['overall_csat'])}
 - **CSAT — Donor Support:** {z['donor_csat'] or 'N/A'}% ({mom_pts(z['donor_csat'], p['donor_csat'])} pts MoM) {mom_arrow(z['donor_csat'], p['donor_csat'])}{'*' if z.get('donor_csat_note') else ''}
-- **CSAT — TB Pro:** {z['tbpro_csat'] or 'N/A'}%{'*' if z.get('tbpro_csat_note') else ' ✅'}
-- **Volume:** {z['total_tickets'] or 'N/A'} tickets ({mom_pct(z['total_tickets'], p['total_tickets'])} MoM) — Donor Support {z['donor_tickets'] or 'N/A'}, TB Pro {z['tbpro_tickets'] or 'N/A'}{(', App Store Reviews ' + str(z['appstore_tickets'])) if z.get('appstore_tickets') else ''}
+- **CSAT — Thundermail:** {z['tbpro_csat'] or 'N/A'}%{'*' if z.get('tbpro_csat_note') else ' ✅'}
+- **Volume:** {z['total_tickets'] or 'N/A'} tickets ({mom_pct(z['total_tickets'], p['total_tickets'])} MoM) — Donor Support {z['donor_tickets'] or 'N/A'}, Thundermail {z['tbpro_tickets'] or 'N/A'}{(', App Store Reviews ' + str(z['appstore_tickets'])) if z.get('appstore_tickets') else ''}
 {donor_note_md}{tbpro_note_md}
 ---
 ## Community Support
@@ -719,7 +886,7 @@ Raw data (CSV): [{month_cap.lower()}.csv]({csv_url})
 
 # ── Dashboard HTML ────────────────────────────────────────────────────────────
 
-def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot=None, k9_discourse=None, history=None, connect_android_ideas=None, sumo_contributors=None):
+def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot=None, k9_discourse=None, history=None, connect_android_ideas=None, sumo_contributors=None, status_moves_block=None, quarterly_review=None):
     z = config['zendesk']
     p = config['prev']
     history_neg = config.get('history_neg', {})
@@ -785,9 +952,14 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     for idea in ideas.get('top_alltime', []):
         delta = idea_mom_delta(idea['title'], idea['votes'], prev_idea_snapshot or {})
         delta_html = f' <span style="color:var(--green);font-size:.75rem">{delta}</span>' if delta else ''
-        top_ideas_html += f'<tr><td><a href="{_esc(idea["url"])}" target="_blank" style="color:var(--text)">{_esc(idea["title"])}</a></td><td class="num">{idea["votes"]}{delta_html}</td><td style="color:var(--muted);font-size:.8rem">{_esc(idea.get("tag",""))}</td></tr>'
+        status_html = idea_status_html(idea.get('status'))
+        top_ideas_html += f'<tr><td><a href="{_esc(idea["url"])}" target="_blank" style="color:var(--text)">{_esc(idea["title"])}</a></td><td class="num">{idea["votes"]}{delta_html}</td><td>{status_html}</td><td style="color:var(--muted);font-size:.8rem">{_esc(idea.get("tag",""))}</td></tr>'
     if not top_ideas_html:
-        top_ideas_html = '<tr><td colspan="3" style="color:var(--muted)">Not yet loaded</td></tr>'
+        top_ideas_html = '<tr><td colspan="4" style="color:var(--muted)">Not yet loaded</td></tr>'
+
+    shipped_ideas_html = build_shipped_ideas_html(ideas)
+    status_moves_html = build_status_moves_html(status_moves_block, month_cap)
+    quarterly_review_html = build_quarterly_review_html(quarterly_review)
 
     n_new_ideas = len(ideas.get('new_this_month', []))
 
@@ -1255,6 +1427,20 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
   .filter-section {{ transition: opacity .15s; }}
   .report-note {{ background: #1a2333; border: 1px solid #2d3a5a; border-left: 3px solid var(--sky); border-radius: 8px; padding: .75rem 1rem; margin: 0 0 1.5rem; font-size: .9rem; color: #c8d4ec; }}
   .report-note strong {{ color: var(--sky); }}
+  .idea-status {{ display:inline-block; font-size:.7rem; font-weight:600; line-height:1.35; padding:2px 8px; border-radius:99px; border:1px solid var(--border); color:var(--muted); white-space:nowrap; }}
+  .idea-status--flight {{ color:var(--accent); border-color:var(--accent); background:#1a1d3a; }}
+  .idea-status--roadmap {{ color:var(--yellow); border-color:var(--yellow); background:#2a2010; }}
+  .idea-status--landed {{ color:var(--green); border-color:var(--green); background:#0f2a1a; }}
+  .idea-status--declined {{ color:var(--muted); border-color:var(--border); }}
+  .idea-status--review {{ color:#a78bfa; border-color:#a78bfa; background:#1a1530; }}
+  .idea-status--exploring {{ color:var(--yellow); border-color:var(--yellow); background:#2a2010; }}
+  .idea-row-list {{ list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.5rem;font-size:.82rem; }}
+  .idea-row-list li {{ display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:.25rem .75rem;align-items:baseline;line-height:1.45;color:var(--muted); }}
+  .idea-row-list .idea-row__title {{ color:var(--text);min-width:0; }}
+  .idea-row-list .idea-row__votes {{ white-space:nowrap;font-variant-numeric:tabular-nums; }}
+  .idea-row-list .idea-status {{ justify-self:end; }}
+  .idea-row-list__empty {{ display:block;color:var(--muted); }}
+  .tbl-muted {{ color:var(--muted); }}
 </style>
 </head>
 <body>
@@ -1267,7 +1453,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 <div class="filter-bar">
   <button class="filter-btn active" style="background:var(--accent);border-color:var(--accent)" onclick="filterSection('all', this)">All</button>
   <button class="filter-btn" onclick="filterSection('donor', this)">Donor Care</button>
-  <button class="filter-btn" onclick="filterSection('tbpro', this)">TB Pro</button>
+  <button class="filter-btn" onclick="filterSection('tbpro', this)">Thundermail</button>
   <button class="filter-btn" onclick="filterSection('android', this)">Android</button>
   <button class="filter-btn" onclick="filterSection('desktop', this)">Desktop</button>
 </div>
@@ -1302,22 +1488,25 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 
 <div class="filter-section" data-section="tbpro">
 <div class="section-header" style="--sc: var(--accent)">
-  <h2>TB Pro</h2>
-  <span class="sh-meta">{z['tbpro_tickets'] or '—'} tickets · Zendesk</span>
+  <h2>Thundermail</h2>
+  <span class="sh-meta">{z['tbpro_tickets'] or '—'} tickets · Zendesk · FeatureOS board 17437</span>
 </div>
 <div class="grid" style="--sc: var(--accent)">
   <div class="card">
-    <div class="label">TB Pro CSAT</div>
+    <div class="label">Thundermail CSAT</div>
     <div class="value up">{z['tbpro_csat'] or '—'}%{'*' if z.get('tbpro_csat_note') else ''}</div>
     <div class="change {'up' if z['tbpro_csat'] == 100 else 'flat'}">{'Perfect score ✅' if z['tbpro_csat'] == 100 and not z.get('tbpro_csat_note') else ''}</div>
   </div>
   <div class="card">
-    <div class="label">TB Pro Tickets</div>
+    <div class="label">Thundermail Tickets</div>
     <div class="value">{z['tbpro_tickets'] or '—'}</div>
     <div class="change down">{ticket_change(z['tbpro_tickets'], p['tbpro_tickets'])} MoM</div>
   </div>
 </div>
 {'<p style="font-size:.75rem;color:var(--muted);margin-top:.25rem;margin-bottom:1rem">*' + z["tbpro_csat_note"] + '</p>' if z.get("tbpro_csat_note") else ''}
+{shipped_ideas_html}
+{status_moves_html}
+{quarterly_review_html}
 <div class="two-col">
   <div class="box">
     <h3>New Ideas — {month_cap} ({n_new_ideas} total)</h3>
@@ -1329,7 +1518,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
   <div class="box">
     <h3>Top Ideas All-Time</h3>
     <table>
-      <thead><tr><th>Idea</th><th class="num">Votes</th><th>Tag</th></tr></thead>
+      <thead><tr><th>Idea</th><th class="num">Votes</th><th>Status</th><th>Tag</th></tr></thead>
       <tbody>{top_ideas_html}</tbody>
     </table>
   </div>
@@ -1588,7 +1777,7 @@ def build_csv(config, analysis, month_cap, year):
         (month_cap, year, 'Support Metrics', 'Private Support', 'CSAT Donor Support',
          None, z['donor_csat'], None, round(z['donor_csat'] - p['donor_csat'], 1) if z['donor_csat'] else None,
          'up' if (z['donor_csat'] or 0) > p['donor_csat'] else 'down', None, None, None, 'Zendesk', ''),
-        (month_cap, year, 'Support Metrics', 'Private Support', 'CSAT TB Pro',
+        (month_cap, year, 'Support Metrics', 'Private Support', 'CSAT Thundermail',
          None, z['tbpro_csat'], None, None, 'flat', None, None, None, 'Zendesk', ''),
         (month_cap, year, 'Support Metrics', 'Private Support', 'Total Tickets',
          z['total_tickets'], None,
@@ -1650,7 +1839,7 @@ def push_to_notion(config, analysis, month_cap, year):
         }}]},
         "Posted Date": {"date": {"start": date.today().isoformat()}},
         "Overall CSAT": {"number": to_pct(z.get('overall_csat'))},
-        "TB Pro CSAT":  {"number": to_pct(z.get('tbpro_csat'))},
+        "Thundermail CSAT":  {"number": to_pct(z.get('tbpro_csat'))},
         "TfA Rating":   {"number": analysis['tb_avg_rating'] or None},
         "K-9 Rating":   {"number": analysis['k9_avg_rating'] or None},
     }
@@ -1793,6 +1982,29 @@ def main():
 
     prev_idea_snapshot = prev_entry.get('tbpro_ideas', {}) if prev_entry else {}
 
+    from featureos_snapshot import (
+        capture_featureos_snapshot,
+        diff_status_moves,
+        prior_featureos_snapshot,
+        resolve_status_moves,
+    )
+    print('  Fetching FeatureOS Thundermail idea statuses…')
+    history, fos_ideas, fos_captured = capture_featureos_snapshot(BASE, month_prefix)
+    prior_fos = prior_featureos_snapshot(history, month_prefix)
+    has_prior_fos = bool(prior_fos)
+    auto_status_moves = diff_status_moves(fos_ideas, prior_fos) if has_prior_fos and fos_ideas else []
+    if fos_ideas:
+        print(f'  FeatureOS: {len(fos_ideas)} ideas snapshotted ({fos_captured})')
+        if has_prior_fos:
+            print(f'  FeatureOS status diff vs prior month: {len(auto_status_moves)} move(s)')
+        else:
+            print('  FeatureOS: no prior snapshot — using YAML status_moves if present')
+    else:
+        print('  FeatureOS: snapshot skipped (fetch failed)')
+    status_moves_block = resolve_status_moves(
+        config.get('tbpro_ideas', {}), auto_status_moves, has_prior_fos
+    )
+
     print("  Fetching Mozilla Connect Android ideas…")
     connect_android_ideas = fetch_connect_android_ideas()
     if connect_android_ideas:
@@ -1836,7 +2048,7 @@ def main():
     md_path.write_text(new_md)
     print(f"✓ Report: {md_path}")
 
-    html_path.write_text(build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot, k9_discourse, history, connect_android_ideas, sumo_contributors))
+    html_path.write_text(build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot, k9_discourse, history, connect_android_ideas, sumo_contributors, status_moves_block, config.get('tbpro_ideas', {}).get('quarterly_review')))
     print(f"✓ Dashboard: {html_path}")
 
     csv_rows = build_csv(config, analysis, month_cap, year)
@@ -1866,7 +2078,7 @@ def main():
         needs_history_write = True
     if needs_history_write:
         path = BASE / 'data' / 'history.json'
-        path.write_text(json.dumps(dict(sorted(updated_history.items())), indent=2))
+        _write_history_json(path, updated_history)
     print(f"✓ History updated: data/history.json")
 
     # Push to Notion

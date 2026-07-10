@@ -106,28 +106,27 @@ def classify(question):
     return buckets
 
 
-EMAIL_RE = re.compile(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}')
-
-
-def redact_emails(text):
-    # Users sometimes type their own email into a SUMO question title. Strip it
-    # so we don't republish personal addresses in a public report.
-    return EMAIL_RE.sub('[email removed]', text or '')
+from pii_redact import redact_sumo_title
 
 
 def make_link(qid, title):
-    title = redact_emails(title)[:80].replace('"', '＂').replace('|', '¦')
+    title = redact_sumo_title(title)
     return f'[{qid}](https://support.mozilla.org/questions/{qid} "{title}")'
 
 
 def fetch_questions(year, month):
+    import urllib.request
     path = GH_PATH.format(year=year, month=month)
     result = subprocess.run(
         ['gh', 'api', path],
         capture_output=True, text=True, check=True,
     )
     payload = json.loads(result.stdout)
-    data = base64.b64decode(payload['content']).decode('utf-8')
+    if payload.get('content'):
+        data = base64.b64decode(payload['content']).decode('utf-8')
+    else:
+        with urllib.request.urlopen(payload['download_url']) as resp:
+            data = resp.read().decode('utf-8', errors='replace')
     return list(csv.DictReader(io.StringIO(data)))
 
 

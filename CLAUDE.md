@@ -38,30 +38,53 @@ Beta is optional — script warns but does not fail if missing.
 6. Optionally run `uv run scripts/deep_analysis.py` for fuller per-review detail if a theme warrants deeper investigation
 7. Commit and push to GitHub
 
+### Local review links — always include full `file://` paths
+
+When pointing Lisa to a report, sample, drill-down, or publish-readiness review, **proactively include full `file://` URLs** (not relative paths alone). Lisa opens these locally in the browser.
+
+Templates (replace `YYYY` / `month` as needed):
+
+- Monthly sample: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/YYYY/month_sample.html`
+- Launch overview sample: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/daily/launch_overview_sample.html`
+- Drill-downs: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/YYYY/month_*.html` (e.g. `june_sumo_trending.html`, `june_push_deep_dive_sample.html`)
+- After publish: GitHub Pages — `https://thunderbird.github.io/thunderbird-support-reports/lisa/YYYY/month.html`
+
+Apply whenever the topic is monthly report review, publish readiness, "open locally", or Lisa asks for full links — do not wait for her to repeat the request.
+
 ### Creating the next month's YAML
 Copy the previous month's YAML, update `month`, `year`, `month_num`, `prev_month`,
 CSV filenames, and move all `zendesk` values into `prev`. Leave `zendesk` fields as `null`.
 Update `history_neg` by appending last month's negative mention counts.
 
-### Planned — monthly report redesign *(queued — do not start until Lisa asks)*
+### Planned — monthly report redesign *(direction chosen — sample gate still active)*
 
-**Next task when Lisa is back:** create `lisa/YYYY/month_sample.html` — start with **June 2026** (`lisa/2026/june_sample.html`; review deadline **June 23** per `DESIGN.md`).
+**Lisa chose restrained (Jun 2026):** Inter-only operational dashboard layout — easier to scan than the editorial/magazine serif variant. Working prototype: `lisa/2026/june_sample_restrained.html`. When Fable starts, consolidate that file → `lisa/2026/june_sample.html` (single sample-gate file; review deadline **June 23** per `DESIGN.md`). Editorial compare files (`june_compare_editorial.html`, etc.) are **reference only**.
 
 Same playbook as the launch overview sample (`lisa/daily/launch_overview_sample.html`):
 - **Bolt tokens**, dark mode, accessible hierarchy
 - **Paraphrase / redact PII** in all customer-facing quotes and ticket text
+- **Scannable copy** — no essay blocks in masthead/lede; use `.masthead__highlights` + `.scan-list` (see `.cursor/rules/tbpro-copy-tone.mdc` → *Scannable copy*)
 - **Reimagined layout from scratch** — not an incremental patch on `generate.py` output
 
 **Sample gate:** edit **only** the `*_sample.html` file until Lisa approves. Do **not** modify `scripts/generate.py` or live output (`lisa/YYYY/month.html`, e.g. `june.html`) until then.
 
+**Never modify archived monthly reports.** Prior months in `lisa/YYYY/` are frozen once published — read-only references for voice, layout, and drill-down patterns. Do not edit:
+- Published dashboards: `march.html`, `april.html`, `may.html`, … (any month before the current reporting cycle)
+- Frozen deep dives and working docs: `march_push_deep_dive.html`, `march_push_followup.html`, `march_push_kb_recommendations.html`, `march_support_ops_index.html`, prior-month `*_sumo_trending.html`, etc.
+- Matching `.md`, `.csv`, and analysis JSON for those months
+
+When the current sample needs a drill-down link, create or link to **current-month** artifacts (`june_push_deep_dive.html`, `june_sumo_trending.html`, …) — never patch archived HTML to fix a broken link from the sample. See `DESIGN.md` scope.
+
 **Pattern references:** `launch_overview_sample.html` + the five TB Pro Cursor rules (`tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`). Adapt for monthly dashboard sections: Donor Care, TB Pro, Android Reviews, Desktop/Android SUMO forums, K-9 Forum (see Dashboard structure below).
 
-**When work starts:** read `tbpro-sonnet-maintenance.mdc` principles (section comments, no `display:flex` on `th`, etc.) and create `.cursor/rules/monthly-report-sample.mdc` for ongoing maintenance.
-
-**Status:** queued, not active — **do not begin without explicit user go-ahead.**
+**When Fable starts:** read `tbpro-sonnet-maintenance.mdc` principles (section comments, no `display:flex` on `th`, etc.) and create `.cursor/rules/monthly-report-sample.mdc` for ongoing maintenance.
 
 ## Privacy — PII policy
-When showing any customer content, never publish PII. This includes: email addresses, last names, domain names, aliases, IP addresses, phone numbers, or any other personally identifiable information. This applies to all data sources: Zendesk tickets (subjects, excerpts, comments), Play Store reviews, FeatureOS, SUMO. Use the `--public` flag (which applies PII redaction) for all content committed to the repo or published to GitHub Pages. When in doubt, redact.
+When showing any customer content, **never store PII in any repo file — committed or local.** This includes: email addresses, last names, domain names, aliases, IP addresses, phone numbers, Play Console developer account IDs, or any other personally identifiable information. This applies to all data sources: Zendesk tickets (subjects, excerpts, comments), Play Store reviews, FeatureOS, SUMO.
+
+**All generators redact before write.** Import `scripts/pii_redact.py` (`redact`, `redact_sumo_title`, `paraphrase_review`) — never write raw customer text to `lisa/`, `data/`, or any tracked path. TB Pro daily/weekly scripts still accept `--public` for CI; local runs must also produce redacted output when writing into this repo.
+
+When in doubt, redact.
 
 ### Git commit pattern (always use this — privacy requirement)
 ```
@@ -88,6 +111,8 @@ that month's dataset. Filtering on `Review Submit Date and Time` drops valid row
 K-9 was added to the dataset in March 2026.
 Beta is merged into TB counts when its CSV is present.
 
+**GCS vs manual export (from June 2026):** June 2026 is the first month using the GCS bucket fetch; Jan–May used manual Play Console UI downloads. Review counts and monthly averages may differ when MoM comparisons span that boundary — always surface the methodology caveat in the report/dashboard (mobile manager approved the shift, July 2026).
+
 **Engagement count (incoming Play Store review tickets):** The number of Play Store review
 tickets received in Zendesk that month (all star ratings, all three apps). Source: the
 "Thunderbird App Store Reviews" brand ticket count from Zendesk. Set
@@ -104,7 +129,7 @@ Pull via GitHub API — no local clone needed:
 gh api repos/thunderbird/thunderbird-metrics-and-reports/contents/REPORTS/<filename>
 ```
 
-### TB Pro Ideas
+### Thundermail Ideas (FeatureOS)
 Board ID: 17437 on FeatureOS. Pull via featureos-cli (credentials in ~/.featureos.yaml).
 Need: new ideas this month + top 5 all-time by votes.
 Idea URLs follow the pattern: https://ideas.tb.pro/p/{slug}
@@ -116,7 +141,7 @@ reporting cycles. Stale data from even a few days ago can be wrong.
 **Important:** default posts list only returns "Incoming" status and misses high-vote ideas.
 Always use `status=all` to get the full list:
 ```
-featureos-cli posts list --query "sort=votes_count&order=desc&per_page=25&status=all" --json
+featureos-cli posts list --query "sort=votes_count&order=desc&per_page=100&status=all" --json
 ```
 Tags come from the `tags` array on each post. Use the first tag as the category label.
 
@@ -125,6 +150,35 @@ does not support date filtering — cross-reference with the FeatureOS board UI 
 creation date (as Lisa does), or ask Lisa to confirm the list.
 
 **Parsing the CLI response:** the JSON key is `feature_requests`, not `posts` or `data`.
+
+**Status snapshots (automated):** Each `generate.py` run fetches all ideas and stores a
+monthly snapshot in `data/history.json` under `featureos_status`:
+
+```json
+"featureos_status": {
+  "2026-06": {
+    "captured_at": "2026-07-01T…Z",
+    "ideas": [
+      {"slug": "…", "title": "…", "votes": N, "status": "In flight", "updated_at": "…"}
+    ]
+  }
+}
+```
+
+On the next month's run, `generate.py` diffs the live fetch against the prior month's snapshot
+(by slug) and auto-populates **Status moves** in the Thundermail dashboard section. The first
+month with a snapshot (e.g. June 2026) has no prior baseline — keep manual `status_moves` in
+YAML until July.
+
+**Manual status moves:** FeatureOS has no status-change audit log. For quarterly product review
+or other moves not captured by snapshot diff, append entries under optional `status_moves_manual`
+in the month YAML (same shape as `status_moves.moves`). Auto-detected and manual entries merge
+on generate.
+
+Standalone backfill: `uv run scripts/featureos_snapshot.py 2026-06`
+
+**Vote MoM deltas** (separate from status): per-month `tbpro_ideas` title→votes map still lives
+under each month key in `history.json` (written by `append_to_history`).
 
 ## Scripts
 
@@ -213,7 +267,7 @@ Also runs in GH Actions daily alongside `tbpro_daily.py`.
 - `tbpro-launch-sample.mdc` — sample gate; what's omitted from live until Lisa approves
 - `tbpro-theme-tickets.mdc` — `.theme-row-wrap` expansions; paraphrased subjects, never raw Zendesk text
 - `tbpro-table-patterns.mdc` — sortable headers via `.tbl-sort__inner`; never `display:flex` on `th`/`td`
-- `tbpro-copy-tone.mdc` — business hours first; explain WHY time accumulates; no defensive agent framing
+- `tbpro-copy-tone.mdc` — business hours first; explain WHY time accumulates; no defensive agent framing; scannable copy (no essay blocks)
 - `tbpro-sonnet-maintenance.mdc` — section map, safe vs forbidden edits, HTML templates, update workflow
 
 **Essentials (inline — don't skip even if rules unread):**
@@ -224,14 +278,21 @@ Also runs in GH Actions daily alongside `tbpro_daily.py`.
 - **Sidebar anchors:** `#story` `#waves` `#volume` `#aht` `#planning` `#themes` `#ideas` `#engineering` `#glossary`
 - **Edit by section:** jump via `<!-- SECTION: name -->` comments (and matching CSS region markers) — one section per change
 - **Re-fetch Zendesk** via `fetch_tickets()` / `classify_ticket()` — never hardcode stale ticket IDs from a prior session
+- **Scannable copy:** max ~2 short sentences per block or scan-list — masthead = headline + metrics + one line per theme; applies to monthly samples too (see `tbpro-copy-tone.mdc` → *Scannable copy*)
 
 **Update workflow:** fetch live data → paraphrase subjects → grep for PII (`@`, phone patterns) → edit **sample only** → Lisa approves → port to generator. See `DESIGN.md` for sample-gate pattern.
+
+**Monthly archives — never modify:** same rule as monthly sample gate — do not edit prior months' HTML, MD, CSV, or deep dives in `lisa/YYYY/` (`march.html`, `april.html`, `may.html`, frozen `*_deep_dive.html`, etc.). Fix links in the current `*_sample.html` instead; port new drill-downs via `generate.py` after approval.
 
 ### FeatureOS CLI caveats
 - `sort=votes_count` parameter is **unreliable** — always sort client-side after fetching
 - JSON key is `feature_requests`, not `posts` or `data`
 - Custom status labels are in `custom_status.title`, not `status`
 - Credentials: `~/.featureos.yaml` (api_key + jwt)
+
+## GitHub issue links
+
+Whenever `#NNNN` refers to a GitHub issue in report HTML or markdown, link it: `<a href="https://github.com/thunderbird/{repo}/issues/{n}" target="_blank">#NNNN</a>`. Default repo: `thunderbird-android`. See `.cursor/rules/github-issue-links.mdc` for repo disambiguation and exceptions (rankings, SUMO IDs, Zendesk tickets, CSS).
 
 ## The report format
 The report follows this exact structure — do not change it:

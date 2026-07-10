@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monthly Support Report — Thunderbird · June 2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================================
+   CSS REGION: tokens — Bolt dark palette + editorial type system
+   Edit colors / spacing / type here only. No raw hex in component rules.
+   ============================================================================ */
+:root {
+  /* surfaces */
+  --color-surface-base:          #0d0c14;
+  --color-surface-lower:         #08070f;
+  --color-surface-raised:        #15131e;
+  --color-surface-overlay:       #1c1a28;
+  --color-surface-border:        #2b2845;
+  --color-surface-border-strong: #3e3b62;
+  /* brand */
+  --color-primary:               #6d8bff;
+  --color-primary-soft:          #0e1038;
+  --color-secondary:             #a78bfa;
+  /* text */
+  --color-text-base:             #e8e6f5;
+  --color-text-secondary:        #b4b1d0;
+  --color-text-muted:            #8a87a6;
+  --color-text-faint:            #5d5a78;
+  /* status */
+  --color-success:               #34d27b;
+  --color-success-soft:          #06210f;
+  --color-warning:               #f5a623;
+  --color-warning-soft:          #1f1500;
+  --color-warning-text:          #fcd34d;
+  --color-critical:              #ff5a5a;
+  --color-critical-soft:         #270808;
+  /* section accents */
+  --c-donor:    #34d27b;
+  --c-tbpro:    #6d8bff;
+  --c-android:  #ff8a3d;
+  --c-desktop:  #45b6f5;
+  --c-sumoand:  #2dd4bf;
+  --c-k9:       #b794ff;
+  --c-rrr:      #f5a623;
+  /* spacing (4px base) */
+  --space-2:  0.125rem;
+  --space-4:  0.25rem;
+  --space-8:  0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --space-64: 4rem;
+  --space-96: 6rem;
+  /* radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  /* type families — RESTRAINED VARIANT: display = Inter (no serif), operational look */
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+  /* layout */
+  --col:       720px;   /* editorial reading column */
+  --col-wide:  1040px;  /* breakout figures */
+  --topbar-h:  54px;
+}
+
+/* ============================================================================
+   CSS REGION: base + reset
+   ============================================================================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--color-surface-base);
+  color:var(--color-text-base);
+  font-family:var(--font-sans);
+  font-size:15px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a{color:var(--color-primary);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--color-primary);outline-offset:3px;border-radius:3px}
+::selection{background:rgba(109,139,255,.3)}
+code{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface-border);padding:.12em .4em;border-radius:4px}
+summary{cursor:pointer}
+
+/* ============================================================================
+   CSS REGION: layout — editorial column + breakout
+   ============================================================================ */
+.wrap{max-width:var(--col-wide);margin:0 auto;padding:0 var(--space-32)}
+@media(max-width:640px){.wrap{padding:0 var(--space-16)}}
+
+/* ============================================================================
+   CSS REGION: prototype banner (removed at publish — June 2026 shipped)
+   ============================================================================ */
+.proto-banner{
+  background:var(--color-surface-overlay);
+  border-bottom:1px solid var(--color-surface-border-strong);
+  padding:var(--space-8) var(--space-32);
+  font-size:.72rem;color:var(--color-text-muted);
+  text-align:center;
+}
+.proto-banner strong{color:var(--color-text-secondary)}
+.proto-banner__note{display:block;margin-top:var(--space-4);color:var(--color-text-faint);max-width:72ch;margin-left:auto;margin-right:auto}
+
+/* ============================================================================
+   CSS REGION: sticky topbar (nameplate + scroll-spy nav)
+   ============================================================================ */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:color-mix(in srgb,var(--color-surface-base) 86%,transparent);
+  backdrop-filter:saturate(140%) blur(10px);
+  border-bottom:1px solid var(--color-surface-border);
+  height:var(--topbar-h);
+}
+.topbar__inner{max-width:var(--col-wide);margin:0 auto;padding:0 var(--space-32);height:100%;display:flex;align-items:center;gap:var(--space-24)}
+@media(max-width:640px){.topbar__inner{padding:0 var(--space-16);gap:var(--space-12)}}
+.topbar__brand{display:flex;align-items:center;gap:var(--space-8);flex-shrink:0;font-family:var(--font-display);font-size:1rem;font-weight:600;letter-spacing:-.01em;color:var(--color-text-base)}
+.topbar__brand:hover{text-decoration:none}
+.topbar__brand svg{width:22px;height:22px}
+.topbar__brand span{color:var(--color-text-muted);font-family:var(--font-sans);font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em}
+.topbar__nav{display:flex;gap:var(--space-4);overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.topbar__nav::-webkit-scrollbar{display:none}
+.topbar__nav a{
+  flex-shrink:0;padding:var(--space-4) var(--space-8);border-radius:99px;
+  font-size:.72rem;font-weight:600;color:var(--color-text-muted);
+  display:inline-flex;align-items:center;gap:6px;transition:color .15s,background .15s;
+}
+.topbar__nav a:hover{color:var(--color-text-base);text-decoration:none}
+.topbar__nav a.is-active{color:var(--color-text-base);background:var(--color-surface-raised)}
+.topbar__nav .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+@media(max-width:880px){.topbar__nav a span.lbl{display:none}.topbar__nav a{padding:var(--space-8)}.topbar__nav .dot{width:9px;height:9px}}
+
+/* ============================================================================
+   CSS REGION: masthead (cover)
+   ============================================================================ */
+.masthead{padding:var(--space-48) 0 var(--space-32);position:relative;overflow:hidden}
+.masthead::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--color-surface-border)}
+.nameplate{display:flex;align-items:center;justify-content:space-between;gap:var(--space-16);padding-bottom:var(--space-16);border-bottom:1px solid var(--color-surface-border);margin-bottom:var(--space-24)}
+.nameplate__title{font-family:var(--font-display);font-size:clamp(1.1rem,2.5vw,1.4rem);font-weight:700;letter-spacing:-.01em;line-height:1}
+.nameplate__issue{font-family:var(--font-mono);font-size:.72rem;font-weight:600;color:var(--color-text-muted);text-align:right;line-height:1.5;text-transform:uppercase;letter-spacing:.04em;flex-shrink:0}
+.masthead__kicker{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--color-primary);margin-bottom:var(--space-12)}
+.masthead__headline{
+  font-family:var(--font-display);
+  font-size:clamp(1.6rem,4vw,2.4rem);
+  font-weight:700;line-height:1.15;letter-spacing:-.02em;
+  max-width:26ch;margin-bottom:var(--space-16);
+}
+.masthead__headline em{font-style:normal;color:var(--color-success)}
+.masthead__dek{
+  font-family:var(--font-sans);
+  font-size:clamp(.95rem,1.6vw,1.05rem);
+  font-weight:400;line-height:1.5;color:var(--color-text-secondary);
+  max-width:68ch;display:flex;flex-direction:column;gap:var(--space-12);
+}
+.masthead__dek-lead{color:var(--color-text-base);font-weight:500;line-height:1.45}
+.masthead__dek-metrics{display:flex;flex-wrap:wrap;gap:var(--space-4) var(--space-16);font-size:.88rem;font-variant-numeric:tabular-nums}
+.masthead__dek-metrics span{white-space:nowrap}
+.masthead__dek-line{font-size:.88rem;line-height:1.5}
+.masthead__dek-line--warn{color:var(--color-warning-text)}
+/* scannable blocks — headline + bullet scan-list (max ~2 sentences per block) */
+.scan-stack,.scan-block{display:flex;flex-direction:column;gap:var(--space-8)}
+.scan-stack p,.scan-block p,.scan-stack li,.scan-block li{line-height:1.45;margin:0}
+.scan-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:var(--space-4);font-size:inherit;color:inherit}
+.scan-list li{padding-left:1.1em;text-indent:-1.1em;color:var(--color-text-secondary)}
+.scan-list li::before{content:'· ';color:var(--color-text-faint)}
+.scan-list--warn li{color:var(--color-warning-text)}
+/* idea rows — Title · votes · status pill (grid avoids scan-list hanging-indent overlap) */
+.scan-list.scan-list--idea-rows{gap:var(--space-8)}
+.scan-list.scan-list--idea-rows li{
+  padding-left:0;text-indent:0;
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr) auto auto;
+  gap:var(--space-4) var(--space-12);
+  align-items:baseline;line-height:1.45;
+}
+.scan-list.scan-list--idea-rows li::before{content:'·';color:var(--color-text-faint)}
+.scan-list.scan-list--idea-rows .idea-row__title{min-width:0;color:var(--color-text-base)}
+.scan-list.scan-list--idea-rows .idea-row__votes{white-space:nowrap;font-variant-numeric:tabular-nums;flex-shrink:0}
+.scan-list.scan-list--idea-rows .idea-status{justify-self:end}
+.scan-list.scan-list--idea-rows.scan-list--status-moves li{
+  grid-template-columns:auto auto auto minmax(0,1fr) auto minmax(0,max-content);
+  gap:var(--space-4) var(--space-8);
+}
+.scan-list.scan-list--status-moves .idea-row__date{
+  font-size:.82rem;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--color-text-muted);
+}
+.scan-list.scan-list--status-moves .idea-row__note{
+  font-size:.78rem;color:var(--color-text-muted);white-space:nowrap;
+}
+.scan-list.scan-list--idea-rows.scan-list--votes-only li{
+  grid-template-columns:auto minmax(0,1fr) auto;
+}
+.footnote.scan-block .scan-list{font-size:.74rem}
+.footnote.scan-block .scan-list li{color:var(--color-text-muted)}
+.masthead__q2{
+  margin-bottom:var(--space-24);
+  padding:var(--space-24);
+  background:var(--color-surface-raised);
+  border:1px solid var(--color-surface-border);
+  border-radius:var(--radius-md);
+}
+.masthead__q2-kicker{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-muted);margin-bottom:var(--space-12)}
+.masthead__q2 .scan-list{font-size:.86rem;padding-left:var(--space-8);gap:var(--space-8)}
+.masthead__q2 .scan-list li{padding-left:var(--space-12);text-indent:0}
+.masthead__highlights{display:flex;flex-direction:column;gap:var(--space-8);margin-top:var(--space-4)}
+.masthead__highlights .scan-list{font-size:.88rem}
+.chapter__standfirst.scan-block,.takeaway__body.scan-block,.method-panel__sub.scan-block,.alert-panel__sub.scan-block,.ask__body.scan-block,.rrr-card__body.scan-block,.footnote.scan-block{font-size:inherit}
+.colophon .scan-list{font-size:.74rem}
+.doc-card__desc.scan-block{font-size:.82rem;color:var(--color-text-muted);margin-bottom:var(--space-8)}
+.docs-note.scan-block{font-size:.74rem;line-height:1.45}
+.takeaway__body .scan-list{font-size:.88rem;font-weight:400;font-family:var(--font-sans)}
+.masthead__byline{margin-top:var(--space-24);font-size:.78rem;color:var(--color-text-muted)}
+.masthead__byline a{color:var(--color-primary)}
+
+/* ============================================================================
+   CSS REGION: ribbon (by the numbers)
+   ============================================================================ */
+.ribbon{padding:var(--space-32) 0;border-bottom:1px solid var(--color-surface-border)}
+.ribbon__label{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.16em;color:var(--color-text-faint);margin-bottom:var(--space-24);text-align:center}
+.ribbon__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:760px){.ribbon__grid{grid-template-columns:repeat(2,1fr);gap:var(--space-24) 0}}
+.figure-stat{padding:0 var(--space-24);border-left:1px solid var(--color-surface-border);display:flex;flex-direction:column}
+.figure-stat:first-child{border-left:none}
+@media(max-width:760px){.figure-stat:nth-child(odd){border-left:none}}
+.figure-stat__val{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,2.6rem);font-weight:600;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.figure-stat__lbl{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-top:var(--space-8)}
+.figure-stat__delta{font-size:.74rem;margin-top:var(--space-4);font-variant-numeric:tabular-nums}
+.figure-stat--warn .figure-stat__val{color:var(--color-warning)}
+.figure-stat--up .figure-stat__val{color:var(--color-success)}
+.figure-stat--tbpro .figure-stat__val{color:var(--c-tbpro)}
+
+/* ============================================================================
+   CSS REGION: lead story
+   ============================================================================ */
+.lead{padding:var(--space-48) 0;border-bottom:1px solid var(--color-surface-border)}
+.lead__grid{display:grid;grid-template-columns:1.4fr 1fr;gap:var(--space-48);align-items:center}
+@media(max-width:880px){.lead__grid{grid-template-columns:1fr;gap:var(--space-32)}}
+.lead__aside{display:flex;flex-direction:column;gap:var(--space-16)}
+.lead__kicker{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--color-critical)}
+.pullquote{
+  font-family:var(--font-sans);
+  font-size:clamp(1.1rem,2vw,1.3rem);
+  font-weight:500;line-height:1.45;letter-spacing:-.005em;
+  border-left:3px solid var(--color-critical);
+  padding-left:var(--space-16);color:var(--color-text-base);
+}
+.pullquote strong{font-weight:700;color:var(--color-critical)}
+.lead__metrics{display:flex;gap:var(--space-32);padding-left:var(--space-24)}
+.lead__metric-val{font-family:var(--font-mono);font-size:1.5rem;font-weight:700;line-height:1}
+.lead__metric-lbl{font-size:.66rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.05em;margin-top:var(--space-4)}
+.ask{
+  background:var(--color-primary-soft);
+  border:1px solid var(--color-primary);border-radius:var(--radius-md);
+  padding:var(--space-16);margin-left:var(--space-24);
+}
+.ask__label{font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--color-primary);margin-bottom:var(--space-8);display:flex;align-items:center;gap:6px}
+.ask__body{font-size:.92rem;line-height:1.55;color:var(--color-text-base)}
+.ask__body strong{font-weight:700;color:var(--color-primary)}
+
+/* ============================================================================
+   CSS REGION: filter bar (section isolation — preserves classic muscle memory)
+   ============================================================================ */
+.filterbar{padding:var(--space-24) 0;display:flex;align-items:center;gap:var(--space-12);flex-wrap:wrap;border-bottom:1px solid var(--color-surface-border)}
+.filterbar__label{font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-faint)}
+.filter-btn{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border-strong);
+  border-radius:99px;padding:var(--space-4) var(--space-12);
+  font-size:.76rem;font-weight:600;color:var(--color-text-secondary);cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;transition:border-color .15s,color .15s,background .15s;font-family:inherit;
+}
+.filter-btn:hover{color:var(--color-text-base);border-color:var(--color-text-muted)}
+.filter-btn .dot{width:8px;height:8px;border-radius:50%}
+.filter-btn.is-active{background:var(--color-text-base);color:var(--color-surface-base);border-color:var(--color-text-base)}
+
+/* ============================================================================
+   CSS REGION: figure (charts)
+   ============================================================================ */
+.figure{margin:0}
+.figure__frame{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-lg);padding:var(--space-24)}
+.figure__caption{margin-top:var(--space-12);font-size:.74rem;color:var(--color-text-muted);line-height:1.5;display:flex;gap:var(--space-8)}
+.figure__num{font-family:var(--font-mono);font-weight:700;color:var(--color-text-faint);flex-shrink:0}
+.chart-wrap{position:relative;min-height:240px}
+.chart-wrap--lg{min-height:300px}
+
+/* ============================================================================
+   CSS REGION: chapter headers
+   ============================================================================ */
+.chapter{padding:var(--space-64) 0 0;scroll-margin-top:calc(var(--topbar-h) + var(--space-16))}
+.chapter__head{display:grid;grid-template-columns:auto 1fr;gap:var(--space-24);align-items:start;margin-bottom:var(--space-32);padding-bottom:var(--space-16);border-bottom:2px solid var(--chapter-color,var(--color-surface-border))}
+@media(max-width:560px){.chapter__head{grid-template-columns:1fr;gap:var(--space-8)}}
+.chapter__num{
+  font-family:var(--font-mono);
+  font-size:1rem;font-weight:700;line-height:1;
+  color:var(--color-on-inverse,#fff);
+  background:var(--chapter-color,var(--color-text-faint));
+  border-radius:var(--radius-sm);padding:var(--space-8) var(--space-12);
+  font-variant-numeric:tabular-nums;letter-spacing:0;
+  display:inline-block;
+}
+.chapter__kicker{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--chapter-color,var(--color-text-muted));margin-bottom:var(--space-8)}
+.chapter__title{font-family:var(--font-display);font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:600;line-height:1.1;letter-spacing:-.02em;margin-bottom:var(--space-12)}
+.chapter__standfirst{font-size:.95rem;color:var(--color-text-secondary);line-height:1.65;max-width:62ch}
+.chapter__meta{font-family:var(--font-mono);font-size:.68rem;color:var(--color-text-faint);text-transform:uppercase;letter-spacing:.04em;margin-top:var(--space-8)}
+
+/* subsection divider inside a chapter */
+.subsec{margin-top:var(--space-48);scroll-margin-top:calc(var(--topbar-h) + var(--space-16))}
+.subsec__head{display:flex;align-items:baseline;gap:var(--space-12);margin-bottom:var(--space-16);padding-bottom:var(--space-8);border-bottom:1px dashed var(--chapter-color,var(--color-surface-border))}
+.subsec__title{font-family:var(--font-display);font-size:1.3rem;font-weight:600;letter-spacing:-.01em}
+.subsec__meta{font-size:.74rem;color:var(--color-text-muted)}
+.subsec__meta a{color:var(--chapter-color,var(--color-primary))}
+
+/* ============================================================================
+   CSS REGION: stat cards
+   ============================================================================ */
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--space-12);margin-bottom:var(--space-24)}
+.stat-card{
+  background:var(--color-surface-raised);
+  border:1px solid var(--color-surface-border);
+  border-top:2px solid var(--chapter-color,var(--color-surface-border-strong));
+  border-radius:var(--radius-md);
+  padding:var(--space-16);
+}
+.stat-card__lbl{font-size:.66rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-muted);margin-bottom:var(--space-8)}
+.stat-card__val{font-family:var(--font-display);font-size:2rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.stat-card__delta{font-size:.74rem;color:var(--color-text-muted);margin-top:var(--space-8);font-variant-numeric:tabular-nums}
+.stat-card__note{font-size:.7rem;color:var(--color-text-muted);margin-top:var(--space-8);line-height:1.5}
+.stat-card--up .stat-card__val,.stat-card--up .stat-card__delta{color:var(--color-success)}
+.stat-card--down .stat-card__val,.stat-card--down .stat-card__delta{color:var(--color-critical)}
+.stat-card--warn .stat-card__val{color:var(--color-warning)}
+
+/* ============================================================================
+   CSS REGION: pull-quote insight (in-chapter)
+   ============================================================================ */
+.takeaway{
+  border-left:3px solid var(--chapter-color,var(--color-primary));
+  padding:var(--space-8) 0 var(--space-8) var(--space-24);
+  margin:var(--space-24) 0;
+}
+.takeaway__label{font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--chapter-color,var(--color-text-muted));margin-bottom:var(--space-8)}
+.takeaway__body{font-family:var(--font-display);font-size:1.15rem;font-weight:400;line-height:1.55;color:var(--color-text-base)}
+.takeaway__body strong{font-weight:600}
+.takeaway--warn{border-left-color:var(--color-warning)}
+.takeaway--warn .takeaway__label{color:var(--color-warning)}
+
+/* ============================================================================
+   CSS REGION: editorial body blocks
+   ============================================================================ */
+.block-title{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin:var(--space-32) 0 var(--space-16)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-24);margin-bottom:var(--space-16)}
+@media(max-width:700px){.two-col{grid-template-columns:1fr}}
+.panel{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16);margin-bottom:var(--space-16)}
+.panel__title{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:var(--space-12)}
+details.panel > summary{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);list-style-position:inside}
+details.panel[open] > summary{margin-bottom:var(--space-12)}
+
+/* ============================================================================
+   CSS REGION: tables
+   ============================================================================ */
+table{width:100%;border-collapse:collapse;font-size:.86rem}
+th{text-align:left;color:var(--color-text-muted);font-weight:600;padding:var(--space-8) var(--space-12);border-bottom:1px solid var(--color-surface-border-strong);font-size:.66rem;text-transform:uppercase;letter-spacing:.04em}
+td{padding:var(--space-8) var(--space-12);border-bottom:1px solid var(--color-surface-border);vertical-align:top}
+tr:last-child td{border-bottom:none}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.tbl-muted{color:var(--color-text-muted)}
+.tbl-strong{font-weight:700}
+.tbl-mono{font-family:var(--font-mono);font-size:.8em;color:var(--color-text-muted)}
+.tbl-sub{font-size:.78rem;color:var(--color-text-muted);font-weight:400;line-height:1.5}
+
+/* ============================================================================
+   CSS REGION: alert panels
+   ============================================================================ */
+.alert-panel{background:var(--color-warning-soft);border:1px solid var(--color-warning);border-radius:var(--radius-md);padding:var(--space-16);margin-bottom:var(--space-24)}
+.alert-panel__head{font-weight:700;color:var(--color-warning);margin-bottom:var(--space-4);font-size:.88rem}
+.alert-panel__sub{font-size:.84rem;color:var(--color-warning-text);line-height:1.55}
+.method-panel{background:var(--color-primary-soft);border:1px solid var(--color-primary);border-radius:var(--radius-md);padding:var(--space-16);margin-bottom:var(--space-24)}
+.method-panel__head{font-weight:700;color:var(--color-primary);margin-bottom:var(--space-4);font-size:.88rem}
+.method-panel__sub{font-size:.84rem;color:var(--color-text-secondary);line-height:1.55}
+
+/* ============================================================================
+   CSS REGION: friction points (ranked editorial list)
+   ============================================================================ */
+.friction{display:flex;flex-direction:column;gap:var(--space-12)}
+.friction-item{display:grid;grid-template-columns:auto 1fr auto;gap:var(--space-16);align-items:center;background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}
+.friction-item--lead{border-color:var(--color-critical);background:linear-gradient(90deg,var(--color-critical-soft),var(--color-surface-raised) 60%)}
+.friction-item__rank{font-family:var(--font-display);font-size:2rem;font-weight:400;color:var(--color-text-faint);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.friction-item--lead .friction-item__rank{color:var(--color-critical);opacity:.8}
+.friction-item__main{min-width:0}
+.friction-item__name{font-weight:700;font-size:.95rem;margin-bottom:var(--space-4)}
+.friction-item__name a{color:var(--color-text-base);border-bottom:1px dotted var(--color-text-faint)}
+.friction-item__name a:hover{text-decoration:none;border-bottom-color:var(--color-text-base)}
+.friction-item__tag{font-size:.66rem;font-weight:600;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.04em;margin-left:var(--space-8)}
+.friction-item__deep{font-size:.7rem;font-weight:600;color:var(--c-android);border-bottom:1px dotted var(--c-android);white-space:nowrap}
+.friction-item__deep:hover{text-decoration:none;color:var(--color-text-base);border-bottom-color:var(--color-text-base)}
+.friction-item__bar-wrap{height:6px;background:var(--color-surface-border);border-radius:3px;overflow:hidden;margin:var(--space-8) 0}
+.friction-item__bar{height:100%;border-radius:3px}
+.friction-item__meta{font-size:.72rem;color:var(--color-text-muted);display:flex;gap:var(--space-16);flex-wrap:wrap}
+.friction-item__meta b{color:var(--color-text-secondary)}
+.friction-item__fig{text-align:right;flex-shrink:0}
+.friction-item__neg{font-family:var(--font-display);font-size:1.9rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+.friction-item__neg-lbl{font-size:.62rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.05em;margin-top:var(--space-2)}
+.friction-item--lead .friction-item__neg{color:var(--color-critical)}
+.trend-pill{font-size:.66rem;font-weight:600;padding:1px 7px;border-radius:99px;border:1px solid var(--color-surface-border-strong);color:var(--color-text-muted);white-space:nowrap}
+.trend-pill--down{color:var(--color-success);border-color:var(--color-success)}
+.trend-pill--up{color:var(--color-warning);border-color:var(--color-warning)}
+@media(max-width:560px){.friction-item{grid-template-columns:auto 1fr;gap:var(--space-12)}.friction-item__fig{grid-column:2;text-align:left;display:flex;align-items:baseline;gap:var(--space-8)}.friction-item__neg-lbl{margin-top:0}}
+
+/* ============================================================================
+   CSS REGION: language bars
+   ============================================================================ */
+.lang-bars{display:flex;flex-direction:column;gap:var(--space-8)}
+.lang-row{display:grid;grid-template-columns:96px 40px 1fr;align-items:center;gap:var(--space-12);font-size:.82rem}
+.lang-row__name{color:var(--color-text-base)}
+.lang-row__count{text-align:right;color:var(--color-text-muted);font-variant-numeric:tabular-nums}
+.lang-row__bar{height:7px;background:var(--c-android);border-radius:99px;opacity:.75}
+
+/* ============================================================================
+   CSS REGION: ideas chips
+   ============================================================================ */
+.ideas{display:flex;flex-wrap:wrap;gap:var(--space-8);margin-bottom:var(--space-16)}
+.idea-chip{background:var(--color-surface-raised);border:1px solid var(--color-surface-border-strong);border-radius:99px;padding:5px 12px;font-size:.76rem;display:inline-flex;align-items:center;gap:var(--space-8)}
+.idea-chip__votes{font-family:var(--font-mono);font-weight:700;color:var(--c-tbpro)}
+.idea-chip a{color:var(--color-text-base)}
+.idea-chip__tag{color:var(--color-text-faint);font-size:.66rem}
+
+/* ---- FeatureOS idea status pills (top all-time table) ---- */
+.idea-status{
+  display:inline-block;
+  font-size:.66rem;
+  font-weight:600;
+  line-height:1.35;
+  padding:2px 8px;
+  border-radius:99px;
+  border:1px solid var(--color-surface-border-strong);
+  color:var(--color-text-muted);
+  white-space:nowrap;
+}
+.idea-status--flight{color:var(--color-primary);border-color:var(--color-primary);background:var(--color-primary-soft)}
+.idea-status--roadmap{color:var(--color-warning-text);border-color:var(--color-warning);background:var(--color-warning-soft)}
+.idea-status--landed{color:var(--color-success);border-color:var(--color-success);background:var(--color-success-soft)}
+.idea-status--declined{color:var(--color-text-faint);border-color:var(--color-surface-border)}
+.idea-status--review{color:var(--color-secondary);border-color:var(--color-secondary);background:var(--color-primary-soft)}
+.idea-status--exploring{color:var(--color-warning-text);border-color:var(--color-warning);background:var(--color-warning-soft)}
+.quarterly-groups{display:flex;flex-direction:column;gap:var(--space-16)}
+.quarterly-group__head{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--color-text-muted);margin-bottom:var(--space-8)}
+
+/* ============================================================================
+   CSS REGION: churn watch
+   ============================================================================ */
+.churn{list-style:none;display:flex;flex-direction:column;gap:var(--space-8)}
+.churn li{font-size:.86rem;color:var(--color-text-secondary);padding:var(--space-12) var(--space-16);background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-left:3px solid var(--c-k9);border-radius:var(--radius-sm);line-height:1.6}
+.churn li strong{color:var(--color-text-base)}
+
+/* goal priorities list (path to 4 stars) */
+.goals{list-style:none;display:flex;flex-direction:column;gap:var(--space-8)}
+.goals li{font-size:.86rem;color:var(--color-text-secondary);padding:var(--space-12) var(--space-16);background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-left:3px solid var(--c-android);border-radius:var(--radius-sm);line-height:1.6}
+.goals li strong{color:var(--color-text-base)}
+
+/* ============================================================================
+   CSS REGION: drill-down dashboards (deep dives + working docs)
+   ============================================================================ */
+.docs-grid{display:flex;flex-direction:column;gap:var(--space-12);margin-bottom:var(--space-16)}
+.doc-card{
+  background:var(--color-surface-raised);border:1px solid var(--color-surface-border);
+  border-left:3px solid var(--doc-color,var(--color-surface-border-strong));
+  border-radius:var(--radius-md);overflow:hidden;
+}
+.doc-card__inner{padding:var(--space-16);display:flex;gap:var(--space-16);align-items:flex-start}
+.doc-card__icon{font-size:1.4rem;line-height:1;flex-shrink:0;padding-top:2px}
+.doc-card__info{flex:1;min-width:0}
+.doc-card__title{font-family:var(--font-display);font-size:1.15rem;font-weight:600;margin-bottom:var(--space-4)}
+.doc-card__title a{color:var(--color-text-base)}
+.doc-card__title a:hover{text-decoration:none;color:var(--doc-color,var(--color-primary))}
+.doc-card__desc{font-size:.82rem;color:var(--color-text-muted);line-height:1.6;margin-bottom:var(--space-8)}
+.doc-card__badges{display:flex;gap:var(--space-8);flex-wrap:wrap}
+.doc-badge{font-size:.64rem;font-weight:700;padding:2px 8px;border-radius:99px;text-transform:uppercase;letter-spacing:.04em}
+.doc-badge--public{background:var(--color-success-soft);color:var(--color-success);border:1px solid var(--color-success)}
+.doc-badge--internal{background:var(--color-surface-overlay);color:var(--color-text-muted);border:1px solid var(--color-surface-border-strong)}
+.doc-badge--data{background:var(--color-warning-soft);color:var(--color-warning-text);border:1px solid var(--color-warning)}
+.doc-card__footer{border-top:1px solid var(--color-surface-border);padding:var(--space-8) var(--space-16);display:flex;align-items:center;justify-content:space-between;gap:var(--space-8)}
+.doc-card__crumbs{font-size:.72rem;color:var(--color-text-faint)}
+.doc-card__open{font-size:.76rem;font-weight:600;color:var(--doc-color,var(--color-primary));white-space:nowrap}
+.docs-note{font-size:.74rem;color:var(--color-text-muted);line-height:1.6;background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-sm);padding:var(--space-12) var(--space-16);margin-bottom:var(--space-24)}
+.docs-note strong{color:var(--color-text-secondary)}
+.docs-sublabel{font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-text-faint);margin:var(--space-24) 0 var(--space-12)}
+
+/* ============================================================================
+   CSS REGION: receive / resolve / resound
+   ============================================================================ */
+.rrr{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-16);margin-bottom:var(--space-16)}
+@media(max-width:640px){.rrr{grid-template-columns:1fr}}
+.rrr-card{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-24)}
+.rrr-card__icon{font-size:1.5rem;margin-bottom:var(--space-12)}
+.rrr-card__label{font-family:var(--font-display);font-size:1.25rem;font-weight:600;margin-bottom:var(--space-12)}
+.rrr-card__body{font-size:.84rem;color:var(--color-text-secondary);line-height:1.65}
+.rrr-note{font-size:.74rem;color:var(--color-text-muted);font-style:italic;margin-top:var(--space-16)}
+.rrr-note a{color:var(--color-text-muted);text-decoration:underline}
+
+/* ============================================================================
+   CSS REGION: colophon / footer
+   ============================================================================ */
+.colophon{padding:var(--space-48) 0 var(--space-96);border-top:1px solid var(--color-surface-border);margin-top:var(--space-64)}
+.colophon__title{font-family:var(--font-display);font-size:1.25rem;font-weight:600;margin-bottom:var(--space-16)}
+.footnote{font-size:.74rem;color:var(--color-text-muted);line-height:1.6}
+.footnote--top{padding-top:var(--space-16);border-top:1px solid var(--color-surface-border);margin-top:var(--space-16)}
+
+/* utilities */
+.delta-up{color:var(--color-success)}
+.delta-down{color:var(--color-critical)}
+.delta-flat{color:var(--color-warning)}
+.muted{color:var(--color-text-muted)}
+.trend-rise{color:var(--color-critical)}
+.trend-fall{color:var(--color-success)}
+</style>
+</head>
+<body>
+
+<!-- SECTION: topbar -->
+<div class="topbar">
+  <div class="topbar__inner">
+    <a class="topbar__brand" href="#top">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="#15131e"/>
+        <path d="M6 11h20M6 16h14M6 21h10" stroke="#6d8bff" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="24" cy="21" r="4" fill="#34d27b"/>
+      </svg>
+      Briefing <span>June&nbsp;2026</span>
+    </a>
+    <nav class="topbar__nav" aria-label="Sections">
+      <a href="#donor" data-nav="donor"><span class="dot" style="background:var(--c-donor)"></span><span class="lbl">Donor</span></a>
+      <a href="#thundermail" data-nav="thundermail"><span class="dot" style="background:var(--c-tbpro)"></span><span class="lbl">Thundermail</span></a>
+      <a href="#android" data-nav="android"><span class="dot" style="background:var(--c-android)"></span><span class="lbl">Android</span></a>
+      <a href="#sumo-desktop" data-nav="sumo-desktop"><span class="dot" style="background:var(--c-desktop)"></span><span class="lbl">Desktop</span></a>
+      <a href="#sumo-android" data-nav="sumo-android"><span class="dot" style="background:var(--c-sumoand)"></span><span class="lbl">Android Forum</span></a>
+      <a href="#k9-forum" data-nav="k9-forum"><span class="dot" style="background:var(--c-k9)"></span><span class="lbl">K-9</span></a>
+      <a href="#drilldowns" data-nav="drilldowns"><span class="dot" style="background:var(--color-secondary)"></span><span class="lbl">Drill-downs</span></a>
+      <a href="#rrr" data-nav="rrr"><span class="dot" style="background:var(--c-rrr)"></span><span class="lbl">RRR</span></a>
+    </nav>
+  </div>
+</div>
+
+<a id="top"></a>
+<main>
+
+<!-- SECTION: masthead -->
+<header class="masthead">
+  <div class="wrap">
+    <div class="nameplate">
+      <div class="nameplate__title">Monthly Support Report</div>
+      <div class="nameplate__issue">Thunderbird Support<br>June 2026</div>
+    </div>
+    <div class="masthead__q2" aria-label="Q2 2026 at a glance">
+      <div class="masthead__q2-kicker">Q2 2026 · At a glance</div>
+      <ul class="scan-list">
+        <li><strong>Overall CSAT:</strong> 77.7% → 76.7% → 83.6% (Apr–Jun) — every score rose in June</li>
+        <li><strong>Thundermail CSAT:</strong> 62.5% → 92.9% → 95.0% (Apr–Jun) — April low-sample noise; June 95%</li>
+        <li><strong>Donor CSAT:</strong> 77.0% → 66.7% → 80.0% (Apr–Jun) — May dip was rating noise; June rebound</li>
+        <li><strong>Play Store TB:</strong> 3.81★ → 3.73★ → 3.68★ — declining every month since January's 3.95★; 0.32★ short of 4★ goal</li>
+        <li><strong>Top friction (neg mentions):</strong> Push sync #1 all quarter (37→34→20) · Spam rising (12→8→13) — no fixes shipped</li>
+        <li><strong>Thundermail ideas:</strong> 24 new in June (top 27 votes) · 3 landed · 4 in flight · Jul 1 quarterly review — 10 status moves</li>
+        <li><strong>Volume:</strong> 516 → 606 → 534 tickets — May post-appeal peak; June donor lull (279→215)</li>
+      </ul>
+    </div>
+    <p class="masthead__kicker">Support Operations · Month in Review</p>
+    <h1 class="masthead__headline">Every satisfaction score rose. Now the Play Store rating needs to follow.</h1>
+    <div class="masthead__dek">
+      <p class="masthead__dek-lead">June was a strong CSAT month — every satisfaction score rose.</p>
+      <div class="masthead__dek-metrics">
+        <span>Overall <strong>83.6%</strong> (+6.9 pts)</span>
+        <span>Thundermail <strong>95.0%</strong></span>
+        <span>Donor <strong>80.0%</strong> (+13.3)</span>
+        <span>Volume <strong>534</strong> (−12% MoM)</span>
+      </div>
+      <div class="masthead__highlights">
+        <p class="masthead__dek-line masthead__dek-line--warn">Play Store still short of the 4★ goal.</p>
+        <ul class="scan-list scan-list--warn">
+          <li>TB <strong>3.68★</strong> · K-9 <strong>3.55★</strong></li>
+          <li>Push / Notification Sync — #1 friction (20 neg, 34→20; no fix shipped)</li>
+          <li>Spam Filter Absent — rising review pain (13 neg, 8→13) · lower product priority</li>
+        </ul>
+      </div>
+    </div>
+    <p class="masthead__byline">Compiled by Support Operations · generated July 1, 2026 · <a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/june.md" target="_blank">Full report on GitHub →</a></p>
+  </div>
+</header>
+
+<!-- SECTION: ribbon -->
+<section class="ribbon" aria-label="By the numbers">
+  <div class="wrap">
+    <div class="ribbon__label">June 2026 · By the numbers</div>
+    <div class="ribbon__grid">
+      <div class="figure-stat">
+        <div class="figure-stat__val">534</div>
+        <div class="figure-stat__lbl">Total tickets</div>
+        <div class="figure-stat__delta muted">▼ −11.9% MoM</div>
+      </div>
+      <div class="figure-stat figure-stat--up">
+        <div class="figure-stat__val">83.6%</div>
+        <div class="figure-stat__lbl">Overall CSAT</div>
+        <div class="figure-stat__delta delta-up">▲ +6.9 pts MoM</div>
+      </div>
+      <div class="figure-stat figure-stat--tbpro">
+        <div class="figure-stat__val">95.0%</div>
+        <div class="figure-stat__lbl">Thundermail CSAT</div>
+        <div class="figure-stat__delta delta-up">▲ +2.1 pts MoM</div>
+      </div>
+      <div class="figure-stat">
+        <div class="figure-stat__val">360</div>
+        <div class="figure-stat__lbl">Play Store reviews</div>
+        <div class="figure-stat__delta muted">493→360 MoM† · 30 languages</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: lead -->
+<section class="lead" aria-label="Lead story">
+  <div class="wrap">
+    <div class="lead__grid">
+      <figure class="figure">
+        <div class="figure__frame">
+          <div class="chart-wrap chart-wrap--lg"><canvas id="ratingTrendChart"></canvas></div>
+        </div>
+        <figcaption class="figure__caption"><span class="figure__num">FIG. 1</span><span>Monthly average Play Store rating, Jan–Jun 2026. Thunderbird slipped again to 3.68★; K-9 held steady at 3.55★. Dashed line = 4★ annual goal.</span></figcaption>
+      </figure>
+      <div class="lead__aside">
+        <div class="lead__kicker">The story this month</div>
+        <blockquote class="pullquote scan-stack">
+          <p><strong>0.32★</strong> from the 4★ annual goal.</p>
+          <ul class="scan-list">
+            <li>Push / Notification Sync — still #1 (20 neg, 34→20; mentions only, no fix shipped)</li>
+            <li>Spam Filter Absent — rising fast (13 neg, 8→13) · users feel it; not a top product ask</li>
+          </ul>
+        </blockquote>
+        <div class="lead__metrics">
+          <div>
+            <div class="lead__metric-val" style="color:var(--color-warning)">3.68★</div>
+            <div class="lead__metric-lbl">TB · −0.05 MoM</div>
+          </div>
+          <div>
+            <div class="lead__metric-val" style="color:var(--color-success)">3.55★</div>
+            <div class="lead__metric-lbl">K-9 · +0.02 MoM</div>
+          </div>
+        </div>
+        <div class="ask">
+          <div class="ask__label">▸ What we're asking for</div>
+          <div class="ask__body scan-block">
+            <p>Reliable push/sync is the primary product ask — still #1 friction, open epics, no fix shipped yet.</p>
+            <ul class="scan-list">
+              <li>Push / Notification Sync — #1 friction (20 neg, 34→20; mentions only)</li>
+            </ul>
+            <p class="tbl-sub">Spam filter pain is rising in reviews (13 neg, 8→13; no fix shipped) — mobile leadership has other work ahead of it in the product queue.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: filterbar -->
+<div class="wrap">
+  <div class="filterbar" role="group" aria-label="Filter by area">
+    <span class="filterbar__label">Filter</span>
+    <button class="filter-btn is-active" data-filter="all">All sections</button>
+    <button class="filter-btn" data-filter="donor"><span class="dot" style="background:var(--c-donor)"></span>Donor Care</button>
+    <button class="filter-btn" data-filter="thundermail"><span class="dot" style="background:var(--c-tbpro)"></span>Thundermail</button>
+    <button class="filter-btn" data-filter="android"><span class="dot" style="background:var(--c-android)"></span>Android Reviews</button>
+    <button class="filter-btn" data-filter="sumo-desktop"><span class="dot" style="background:var(--c-desktop)"></span>Desktop Forum</button>
+    <button class="filter-btn" data-filter="sumo-android"><span class="dot" style="background:var(--c-sumoand)"></span>Android Forum</button>
+    <button class="filter-btn" data-filter="k9-forum"><span class="dot" style="background:var(--c-k9)"></span>K-9 Forum</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- SECTION: donor -->
+<section class="chapter" id="donor" data-filter-target="donor" style="--chapter-color:var(--c-donor)">
+  <div class="chapter__head">
+    <div class="chapter__num">01</div>
+    <div>
+      <div class="chapter__kicker">Donor Care</div>
+      <h2 class="chapter__title">Donor CSAT snaps back — up 13 points to 80%</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>Donor satisfaction recovered sharply to <strong>80.0%</strong> after May's noise-driven dip.</p>
+        <ul class="scan-list">
+          <li>Strongest donor month since the drop · volume eased with seasonal lull</li>
+          <li>215 tickets (−22.9% MoM)</li>
+        </ul>
+      </div>
+      <div class="chapter__meta">215 tickets · Zendesk</div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card stat-card--up">
+      <div class="stat-card__lbl">Donor CSAT</div>
+      <div class="stat-card__val">80.0%</div>
+      <div class="stat-card__delta">+13.3 pts MoM</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__lbl">Donor Tickets</div>
+      <div class="stat-card__val">215</div>
+      <div class="stat-card__delta">−22.9% MoM · seasonal</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__lbl">Response rate</div>
+      <div class="stat-card__val">23.6%</div>
+      <div class="stat-card__delta">of tickets rated</div>
+    </div>
+  </div>
+
+  <div class="takeaway">
+    <div class="takeaway__label">The read</div>
+    <div class="takeaway__body scan-block">
+      <p>May's dip was mostly measurement noise; June confirms the bounce to <strong>80.0%</strong>.</p>
+      <ul class="scan-list">
+        <li>Misdirected and wrong-channel ratings drove May's dip</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: thundermail -->
+<section class="chapter" id="thundermail" data-filter-target="thundermail" style="--chapter-color:var(--c-tbpro)">
+  <div class="chapter__head">
+    <div class="chapter__num">02</div>
+    <div>
+      <div class="chapter__kicker">Thundermail</div>
+      <h2 class="chapter__title">95% CSAT, and an ideas board buzzing about pricing</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>117 tickets at <strong>95.0%</strong> CSAT (+2.1 pts) — subscriber support holding strong.</p>
+        <ul class="scan-list">
+          <li>3 status moves in June · 2 landed, 1 new in flight (see below)</li>
+          <li>10 statuses updated at Jul 1 quarterly review — top 10 ideas by score</li>
+          <li>3 landed · 4 in flight — webmail, MFA, and dark mode among active builds</li>
+          <li>24 new ideas in June · pricing themes prominent (early-supporter perk, family plan, regional pricing)</li>
+          <li>Account and calendar features also in the mix</li>
+        </ul>
+      </div>
+      <div class="chapter__meta">117 tickets · Zendesk · FeatureOS board 17437</div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card stat-card--up">
+      <div class="stat-card__lbl">Thundermail CSAT</div>
+      <div class="stat-card__val">95.0%</div>
+      <div class="stat-card__delta">+2.1 pts MoM · 39.2% rated</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__lbl">Thundermail Tickets</div>
+      <div class="stat-card__val">117</div>
+      <div class="stat-card__delta">flat MoM (was 118)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__lbl">New Ideas (June)</div>
+      <div class="stat-card__val">24</div>
+      <div class="stat-card__delta">7 categories</div>
+    </div>
+  </div>
+
+  <div class="block-title">Shipped &amp; in flight</div>
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel__title">Landed <span class="muted" style="font-weight:400">(3)</span></div>
+      <ul class="scan-list scan-list--idea-rows">
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/unlimited-aliases" target="_blank">Unlimited aliases</a><span class="idea-row__votes"><strong>23</strong> votes</span><span class="idea-status idea-status--landed">Landed!</span></li>
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/allow-permission-to-send-from-any-email" target="_blank">Send from any email</a><span class="idea-row__votes"><strong>11</strong> votes</span><span class="idea-status idea-status--landed">Landed!</span></li>
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client" target="_blank">Duplicate emails with multiple aliases</a><span class="idea-row__votes"><strong>3</strong> votes</span><span class="idea-status idea-status--landed">Landed!</span></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <div class="panel__title">In flight <span class="muted" style="font-weight:400">(4)</span></div>
+      <ul class="scan-list scan-list--idea-rows">
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank">Webmail for Thundermail</a><span class="idea-row__votes"><strong>74</strong> votes</span><span class="idea-status idea-status--flight">In flight</span></li>
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank">Multifactor Authentication</a><span class="idea-row__votes"><strong>58</strong> votes</span><span class="idea-status idea-status--flight">In flight</span></li>
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/dark-mode" target="_blank">Dark Mode</a><span class="idea-row__votes"><strong>19</strong> votes</span><span class="idea-status idea-status--flight">In flight</span></li>
+        <li><a class="idea-row__title" href="https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases" target="_blank">15 email addresses, not 15 aliases</a><span class="idea-row__votes"><strong>4</strong> votes</span><span class="idea-status idea-status--flight">In flight</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block-title">Status moves · June</div>
+  <div class="panel">
+    <ul class="scan-list scan-list--idea-rows scan-list--status-moves">
+      <li><span class="idea-row__date">Jun 26</span><span class="idea-status idea-status--landed">Landed!</span><a class="idea-row__title" href="https://ideas.tb.pro/p/allow-permission-to-send-from-any-email" target="_blank">Send from any email</a><span class="idea-row__votes"><strong>11</strong> votes</span><span class="idea-row__note">last board activity</span></li>
+      <li><span class="idea-row__date">Jun 12</span><span class="idea-status idea-status--landed">Landed!</span><a class="idea-row__title" href="https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client" target="_blank">Duplicate emails with multiple aliases</a><span class="idea-row__votes"><strong>3</strong> votes</span><span class="idea-row__note">last board activity</span></li>
+      <li><span class="idea-row__date">Jun 12</span><span class="idea-status idea-status--flight">In flight</span><a class="idea-row__title" href="https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases" target="_blank">15 email addresses, not 15 aliases</a><span class="idea-row__votes"><strong>4</strong> votes</span><span class="idea-row__note">submitted in flight</span></li>
+    </ul>
+    <div class="footnote scan-block" style="margin-top:var(--space-12)">
+      <ul class="scan-list">
+        <li>FeatureOS exposes <code>created_at</code> and <code>updated_at</code> only — no status-change audit log</li>
+        <li>Dates reflect last board activity or submission; vote and comment edits also bump <code>updated_at</code></li>
+        <li>Unlimited aliases landed May 8 (predates June)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block-title">Quarterly review · Jul 1</div>
+  <div class="panel">
+    <div class="scan-block" style="margin-bottom:var(--space-16)">
+      <ul class="scan-list">
+        <li>First public quarterly ideas review — top 10 ideas by score on the launch overview agenda</li>
+        <li>Lisa (LJ) updated statuses from Open for discussion with public comments</li>
+        <li>Vote counts below are as of the Jul 1 review snapshot — June sections above show June-end counts, so the same idea can differ (e.g. Early-supporter perk: 27 at June-end, 31 at Jul 1)</li>
+      </ul>
+    </div>
+    <div class="quarterly-groups">
+      <div class="quarterly-group">
+        <div class="quarterly-group__head">On the roadmap <span class="muted" style="font-weight:400;text-transform:none">(3)</span></div>
+        <ul class="scan-list scan-list--idea-rows scan-list--votes-only">
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/import-email-calendar-and-contacts-feature" target="_blank">Import email, calendar and contacts</a><span class="idea-row__votes"><strong>35</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/server-side-email-filtering" target="_blank">Server Side Email Filtering</a><span class="idea-row__votes"><strong>33</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/please-support-ipv6-on-all-thunderbird-pro-services" target="_blank">IPv6 support</a><span class="idea-row__votes"><strong>30</strong> votes</span></li>
+        </ul>
+      </div>
+      <div class="quarterly-group">
+        <div class="quarterly-group__head">Exploring the Idea <span class="muted" style="font-weight:400;text-transform:none">(5)</span></div>
+        <ul class="scan-list scan-list--idea-rows scan-list--votes-only">
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/increase-custom-domains-limit" target="_blank">Increase custom domains limit</a><span class="idea-row__votes"><strong>38</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/a-la-carte-pricing" target="_blank">À la carte pricing</a><span class="idea-row__votes"><strong>37</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/bundle-firefox-relay-functionality" target="_blank">Bundle Firefox Relay</a><span class="idea-row__votes"><strong>33</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier" target="_blank">Early-supporter perk</a><span class="idea-row__votes"><strong>31</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/offer-hipaa-baa-business-associate-agreement" target="_blank">HIPAA BAA</a><span class="idea-row__votes"><strong>5</strong> votes</span></li>
+        </ul>
+      </div>
+      <div class="quarterly-group">
+        <div class="quarterly-group__head">Great idea; not yet <span class="muted" style="font-weight:400;text-transform:none">(2)</span></div>
+        <ul class="scan-list scan-list--idea-rows scan-list--votes-only">
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/thunderbird-email-domains-should-be-easily-sayable-typeable" target="_blank">Easily sayable + typeable email domains</a><span class="idea-row__votes"><strong>74</strong> votes</span></li>
+          <li><a class="idea-row__title" href="https://ideas.tb.pro/p/sign-in-with-thunderbirdd" target="_blank">Sign-in with Thunderbird</a><span class="idea-row__votes"><strong>46</strong> votes</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footnote" style="margin-top:var(--space-12)">First quarterly review; statuses moved from Open for discussion per <a href="https://support.tb.pro/hc/en-us/articles/51206861883027-How-We-Handle-Ideas" target="_blank">How We Handle Ideas</a>. Vote counts as of Jul 1.</p>
+  </div>
+
+  <div class="block-title">New ideas this month — top by votes</div>
+  <div class="ideas">
+    <div class="idea-chip"><span class="idea-chip__votes">27▲</span><a href="https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier" target="_blank">Early-supporter perk</a><span class="idea-chip__tag">Accounts</span></div>
+    <div class="idea-chip"><span class="idea-chip__votes">20▲</span><a href="https://ideas.tb.pro/p/ability-to-change-primary-e-mail" target="_blank">Change primary email</a><span class="idea-chip__tag">Privacy</span></div>
+    <div class="idea-chip"><span class="idea-chip__votes">17▲</span><a href="https://ideas.tb.pro/p/family-plan" target="_blank">Family plan</a><span class="idea-chip__tag">Thundermail</span></div>
+    <div class="idea-chip"><span class="idea-chip__votes">9▲</span><a href="https://ideas.tb.pro/p/add-support-for-multiple-calendars" target="_blank">Multiple calendars</a><span class="idea-chip__tag">Appointment</span></div>
+    <div class="idea-chip"><span class="idea-chip__votes">7▲</span><a href="https://ideas.tb.pro/p/regional-pricing-for-thundermail" target="_blank">Regional pricing</a><span class="idea-chip__tag">Thundermail</span></div>
+    <div class="idea-chip"><span class="idea-chip__votes">7▲</span><a href="https://ideas.tb.pro/p/european-hosting" target="_blank">European hosting</a><span class="idea-chip__tag">Thundermail</span></div>
+  </div>
+
+  <details class="panel">
+    <summary>All 24 new ideas — June</summary>
+    <table>
+      <thead><tr><th>Idea</th><th class="num">Votes</th><th>Tag</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier" target="_blank">A small permanent perk for early supporters</a></td><td class="num tbl-strong">27</td><td class="tbl-muted">Accounts &amp; Subscriptions</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/ability-to-change-primary-e-mail" target="_blank">Ability to change primary e-mail</a></td><td class="num tbl-strong">20</td><td class="tbl-muted">Privacy &amp; Security</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/family-plan" target="_blank">Family plan</a></td><td class="num tbl-strong">17</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/add-support-for-multiple-calendars" target="_blank">Add support for multiple calendars</a></td><td class="num tbl-strong">9</td><td class="tbl-muted">Appointment</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/use-stalwart-s-webdav-implementation" target="_blank">Use Stalwart's WebDAV implementation</a></td><td class="num tbl-strong">9</td><td class="tbl-muted">Send</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/regional-pricing-for-thundermail" target="_blank">Regional Pricing for Thundermail</a></td><td class="num tbl-strong">7</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/european-hosting" target="_blank">European Hosting</a></td><td class="num tbl-strong">7</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/password-manager-as-part-of-the-thundermail-suite" target="_blank">Password manager in the Thundermail suite</a></td><td class="num tbl-strong">6</td><td class="tbl-muted">New Feature</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/add-gmail-style-send-mail-as-external-sending-identities-to-thundermail" target="_blank">Gmail-style "Send mail as" identities</a></td><td class="num tbl-strong">6</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases" target="_blank">15 email addresses, not 15 aliases</a></td><td class="num tbl-strong">4</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/consider-bimi-support-for-webmail" target="_blank">Consider BIMI support for Webmail</a></td><td class="num tbl-strong">4</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/tabs" target="_blank">Tabs</a></td><td class="num tbl-strong">3</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/keep-it-simple" target="_blank">Keep it simple</a></td><td class="num tbl-strong">2</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/instant-synching-with-push-notifications" target="_blank">Instant syncing with Push notifications</a></td><td class="num tbl-strong">2</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/non-email-based-signup-login-and-recovery-system" target="_blank">Non email-based signup / login / recovery</a></td><td class="num tbl-strong">2</td><td class="tbl-muted">Privacy &amp; Security</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/support-sender-s-profile-picture" target="_blank">Support sender's profile picture</a></td><td class="num tbl-strong">2</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/linux-mint-online-accounts-support" target="_blank">Linux Mint Online Accounts support</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/pricing-questions" target="_blank">Pricing questions</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Accounts &amp; Subscriptions</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/sync-notes-and-create-a-call-feature-voip" target="_blank">Sync notes &amp; call feature (VOIP)</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">New Feature</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/enable-jmap-even-if-thunderbird-does-not-support-it-yet" target="_blank">Enable JMAP even if Thunderbird doesn't yet</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/enforced-breaks-between-meetings" target="_blank">Enforced breaks between meetings</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Appointment</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/setting-for-maximum-bookings-per-day-or-time-frame" target="_blank">Max bookings per day / time-frame</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Appointment</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/send-email-alert-when-custom-domain-dns-verification-fails" target="_blank">Alert when custom-domain DNS verification fails</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Thundermail</td></tr>
+        <tr><td><a href="https://ideas.tb.pro/p/implementazione-codice-app-procedures-cloud" target="_blank">Implementazione Codice "app.Procedures.Cloud"</a></td><td class="num tbl-strong">1</td><td class="tbl-muted">Other</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel__title">Top ideas — all time</div>
+      <table>
+        <thead><tr><th>Idea</th><th class="num">Votes</th><th class="num">MoM</th><th>Status</th><th>Tag</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://ideas.tb.pro/p/thunderbird-email-domains-should-be-easily-sayable-typeable" target="_blank">Easily sayable + typeable email domains</a></td><td class="num tbl-strong">74</td><td class="num tbl-muted">—</td><td><span class="idea-status idea-status--review">Great idea; not yet</span></td><td class="tbl-muted">Thundermail</td></tr>
+          <tr><td><a href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank">Webmail for Thundermail</a></td><td class="num tbl-strong">74</td><td class="num delta-up">+18</td><td><span class="idea-status idea-status--flight">In flight</span></td><td class="tbl-muted">Thundermail</td></tr>
+          <tr><td><a href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank">Multifactor Authentication</a></td><td class="num tbl-strong">58</td><td class="num delta-up">+14</td><td><span class="idea-status idea-status--flight">In flight</span></td><td class="tbl-muted">Privacy</td></tr>
+          <tr><td><a href="https://ideas.tb.pro/p/additional-pricing-tiers" target="_blank">Additional pricing tiers</a></td><td class="num tbl-strong">53</td><td class="num delta-up">+5</td><td><span class="idea-status idea-status--roadmap">On the roadmap</span></td><td class="tbl-muted">Accounts</td></tr>
+          <tr><td><a href="https://ideas.tb.pro/p/sign-in-with-thunderbirdd" target="_blank">Sign-in with Thunderbird</a></td><td class="num tbl-strong">46</td><td class="num tbl-muted">—</td><td><span class="idea-status idea-status--review">Great idea; not yet</span></td><td class="tbl-muted">Accounts</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel">
+      <div class="panel__title">New ideas by category</div>
+      <div class="lang-bars">
+        <div class="lang-row"><span class="lang-row__name">Thundermail</span><span class="lang-row__count">13</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:100%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Appointment</span><span class="lang-row__count">3</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:23%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Accounts</span><span class="lang-row__count">2</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:15%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Privacy</span><span class="lang-row__count">2</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:15%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">New Feature</span><span class="lang-row__count">2</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:15%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Send</span><span class="lang-row__count">1</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:8%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Other</span><span class="lang-row__count">1</span><div class="lang-row__bar" style="background:var(--c-tbpro);width:8%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: android -->
+<section class="chapter" id="android" data-filter-target="android" style="--chapter-color:var(--c-android)">
+  <div class="chapter__head">
+    <div class="chapter__num">03</div>
+    <div>
+      <div class="chapter__kicker">Android Reviews</div>
+      <h2 class="chapter__title">Push still tops friction — spam pain rising, not top product priority</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>360 Play Store reviews · 30 languages — push still tops friction; spam mentions keep rising but sit lower on the product queue.</p>
+        <ul class="scan-list">
+          <li>Push / Notification Sync — #1 (20 neg, 34→20; no fix shipped)</li>
+          <li>Spam Filter Absent — #2, only top-3 theme still rising (13 neg, 8→13) · user pain, lower product priority</li>
+        </ul>
+      </div>
+      <div class="chapter__meta">360 reviews · TB 295 (276 stable + 19 beta) · K-9 65 · GCS auto-export</div>
+    </div>
+  </div>
+
+  <div class="method-panel" role="note">
+    <div class="method-panel__head">Play Store data source — June 2026</div>
+    <div class="method-panel__sub scan-block">
+      <p>June review counts and monthly averages come from <strong>Play Console GCS auto-export</strong> (<code>scripts/fetch_reviews.py</code>) — replacing manual UI downloads (Jan–May).</p>
+      <ul class="scan-list">
+        <li>Mobile leadership approved the shift (July 2026) — cleaner, repeatable, canonical</li>
+        <li>May manual export: <strong>493</strong> reviews · June GCS: <strong>360</strong> — not necessarily fewer users reviewing</li>
+        <li>Treat trend lines crossing this boundary as carrying a methodology caveat</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card stat-card--warn">
+      <div class="stat-card__lbl">TB Avg Rating</div>
+      <div class="stat-card__val">3.68★</div>
+      <div class="stat-card__delta delta-down">−0.05 MoM · 0.32★ to goal</div>
+    </div>
+    <div class="stat-card stat-card--up">
+      <div class="stat-card__lbl">K-9 Avg Rating</div>
+      <div class="stat-card__val">3.55★</div>
+      <div class="stat-card__delta">+0.02 MoM · held steady</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__lbl">Play Store Tickets</div>
+      <div class="stat-card__val">202</div>
+      <div class="stat-card__delta">down from 209</div>
+      <div class="stat-card__note">Incoming Play Store review tickets — all star ratings, all three apps.</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__lbl">Reviews</div>
+      <div class="stat-card__val">360</div>
+      <div class="stat-card__delta">30 languages · TB 295 · K-9 65</div>
+    </div>
+  </div>
+
+  <div class="alert-panel" role="status">
+    <div class="alert-panel__head">⚠️ Play Store Rating — Q2 drift</div>
+    <div class="alert-panel__sub scan-block">
+      <p>TB averaged <strong>3.68★</strong> in June — declining every month since January's 3.95★.</p>
+      <ul class="scan-list scan-list--warn">
+        <li>−0.27 from January's 3.95★ · 0.32★ to the 4★ annual goal</li>
+        <li>K-9 held at 3.55★ (+0.02 MoM) — track both apps against goal</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <figure class="figure">
+      <div class="figure__frame"><div class="chart-wrap"><canvas id="tbStarChart"></canvas></div></div>
+      <figcaption class="figure__caption"><span class="figure__num">FIG. 2</span><span>Thunderbird star distribution — 295 reviews. The 1–2★ columns are the mass we need to convert.</span></figcaption>
+    </figure>
+    <figure class="figure">
+      <div class="figure__frame"><div class="chart-wrap"><canvas id="k9StarChart"></canvas></div></div>
+      <figcaption class="figure__caption"><span class="figure__num">FIG. 3</span><span>K-9 Mail star distribution — 65 reviews. Held steady, but a heavier 1★ tail than TB.</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="block-title">Top friction points <span class="muted" style="font-weight:400;text-transform:none;letter-spacing:0">· ranked by negative (1–3★) mentions · sourced from 360 reviews, analyzed with AI</span></div>
+  <div class="friction">
+
+    <div class="friction-item friction-item--lead">
+      <div class="friction-item__rank">01</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name"><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/june.md#top-3-friction-points" target="_blank">Push / Notification Sync</a><span class="friction-item__tag">top friction · unaddressed</span></div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:100%;background:var(--color-critical)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>33</b> mentions</span>
+          <span><b>TB</b> 28 · <b>K-9</b> 5</span>
+          <span>avg <b>3.00★</b></span>
+          <span class="trend-pill trend-pill--down">3-mo 37→34→20 ↓ fewer mentions · not from fixes</span>
+          <a class="friction-item__deep" href="june_push_deep_dive.html" target="_blank">→ deep dive</a>
+        </div>
+        <p class="tbl-sub" style="margin-top:var(--space-8)">Paraphrase: users report sync is unreliable — they have to manually refresh and still miss messages; contact storage also inconsistent.</p>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg">20</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+    <div class="friction-item" style="border-color:var(--color-warning)">
+      <div class="friction-item__rank">02</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name"><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/june.md#top-3-friction-points" target="_blank">Spam Filter Absent</a><span class="friction-item__tag">rising neg mentions</span></div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:65%;background:var(--color-warning)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>20</b> mentions</span>
+          <span><b>TB</b> 18 · <b>K-9</b> 2</span>
+          <span>avg <b>3.00★</b></span>
+          <span class="trend-pill trend-pill--up">3-mo 12→8→13 ↑ rising neg mentions</span>
+        </div>
+        <p class="tbl-sub" style="margin-top:var(--space-8)">Paraphrase: no way to mark mail as junk — reviewers say the app is unusable without basic spam handling.</p>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg" style="color:var(--color-warning)">13</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+    <div class="friction-item">
+      <div class="friction-item__rank">03</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name">Crashes &amp; Freezes</div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:25%;background:var(--color-warning)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>8</b> mentions</span>
+          <span><b>TB</b> 7 · <b>K-9</b> 1</span>
+          <span>avg <b>2.50★</b></span>
+          <span class="trend-pill">3-mo 9→5→5 → flat</span>
+        </div>
+        <p class="tbl-sub" style="margin-top:var(--space-8)">Paraphrase: app won't launch on older Samsung hardware — crashes immediately on first open, reproducible every attempt.</p>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg" style="color:var(--color-warning)">5</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+    <div class="friction-item">
+      <div class="friction-item__rank">04</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name">QR / Settings Import<span class="friction-item__tag">accelerating</span></div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:20%;background:var(--color-text-muted)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>7</b> mentions</span>
+          <span><b>TB</b> 7 · <b>K-9</b> 0</span>
+          <span>avg <b>3.29★</b></span>
+          <span class="trend-pill trend-pill--up">3-mo 1→3→4 ↑ accelerating</span>
+        </div>
+        <p class="tbl-sub" style="margin-top:var(--space-8)">Paraphrase (German → English): account setup via QR code doesn't work.</p>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg" style="color:var(--color-text-secondary)">4</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+    <div class="friction-item">
+      <div class="friction-item__rank">05</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name">Calendar Missing</div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:15%;background:var(--color-text-muted)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>7</b> mentions</span>
+          <span><b>TB</b> 7 · <b>K-9</b> 0</span>
+          <span>avg <b>3.43★</b></span>
+          <span class="trend-pill">3-mo 5→3→3 → flat</span>
+        </div>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg" style="color:var(--color-text-secondary)">3</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+    <div class="friction-item">
+      <div class="friction-item__rank">06</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name">Stuck Outbox / Send Failure</div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:10%;background:var(--color-text-muted)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>2</b> mentions</span>
+          <span><b>TB</b> 2 · <b>K-9</b> 0</span>
+          <span>avg <b>2.00★</b></span>
+          <span class="trend-pill trend-pill--down">3-mo 1→4→2 ↓ fewer mentions</span>
+        </div>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg" style="color:var(--color-text-secondary)">2</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+    <div class="friction-item">
+      <div class="friction-item__rank">07</div>
+      <div class="friction-item__main">
+        <div class="friction-item__name">Email Headers / Print</div>
+        <div class="friction-item__bar-wrap"><div class="friction-item__bar" style="width:5%;background:var(--color-text-muted)"></div></div>
+        <div class="friction-item__meta">
+          <span><b>3</b> mentions</span>
+          <span><b>TB</b> 2 · <b>K-9</b> 1</span>
+          <span>avg <b>4.00★</b></span>
+          <span class="trend-pill trend-pill--down">3-mo 2→2→1 ↓ fewer mentions</span>
+        </div>
+        <p class="tbl-sub" style="margin-top:var(--space-8)">Paraphrase (German → English): printed mail omits headers — sender and date missing, still true in latest release.</p>
+      </div>
+      <div class="friction-item__fig">
+        <div class="friction-item__neg" style="color:var(--color-text-secondary)">1</div>
+        <div class="friction-item__neg-lbl">negative</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="block-title">Meeting the ⭐⭐⭐⭐+ goal — what we need to do</div>
+  <ul class="goals">
+    <li><strong>Push / Notification Sync:</strong> 20 neg (34→20) · still #1 · primary product ask · fewer mentions, not from fixes · no product fix shipped</li>
+    <li><strong>Spam Filter Absent:</strong> 13 neg (8→13) · only top-3 theme still rising · users feel it · lower product priority · no fix in market</li>
+    <li><strong>Rating gap:</strong> TB 3.68★ needs +0.32★ · K-9 held 3.55★ · converting push 1–3★ reviewers is the primary path</li>
+  </ul>
+
+  <div class="takeaway takeaway--warn" id="eng-priority-alignment">
+    <div class="takeaway__label">Eng priority alignment · Play Store vs SUMO vs shipped work</div>
+    <div class="takeaway__body scan-block">
+      <p>Cross-checked June Play Store friction against Roland's Android LLM Insights and <a href="https://github.com/thunderbird/thunderbird-android-reports/tree/main/reports/merged-prs" target="_blank">thunderbird-android-reports</a> merged PRs — are we working on what moves stars?</p>
+      <ul class="scan-list">
+        <li><strong>Aligned:</strong> push/sync/delivery — Play Store #1 · Roland #6 + #2 · June shipped FetchingMailSettings UX refresh (not a notify pipeline fix) · open spike <a href="https://github.com/thunderbird/thunderbird-android/issues/11083" target="_blank">#11083</a> on global folder sync/push</li>
+        <li><strong>GitHub (push):</strong> <a href="https://github.com/thunderbird/thunderbird-android/issues/11056" target="_blank">#11056</a> notification bug fixes (~16% done) · <a href="https://github.com/thunderbird/thunderbird-android/issues/11083" target="_blank">#11083</a> global sync/push spike · <a href="https://github.com/thunderbird/thunderbird-android/issues/10079" target="_blank">#10079</a> sync all folders · <a href="https://github.com/thunderbird/thunderbird-android/issues/11057" target="_blank">#11057</a> notification refactor is the core delivery lever</li>
+        <li><strong>Aligned:</strong> QR/setup — Play Store #4 · Roland #7 · June merged QR migration manager to release</li>
+        <li><strong>Deprioritized (for now):</strong> spam filter — Play Store #2 (rising) · absent from Roland Android top clusters · Mozilla Connect filtering demand (#4, 103 kudos) · mobile leadership ranks other work ahead · no June merged PR · open issues <a href="https://github.com/thunderbird/thunderbird-android/issues/1508" target="_blank">#1508</a> / <a href="https://github.com/thunderbird/thunderbird-android/issues/5676" target="_blank">#5676</a> since 2021</li>
+        <li><strong>Partial:</strong> crashes — Play Store #3 (flat) · June shipped webview + date-format crash fixes · not the dominant star-math lever</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="takeaway" style="--chapter-color:var(--c-k9)">
+    <div class="takeaway__label">K-9 Churn Watch</div>
+    <div class="takeaway__body scan-block">
+      <p>K-9 held steady at <strong>3.55★</strong> (+0.02) — no regression this month.</p>
+      <ul class="scan-list">
+        <li>Low-star tail remains the concern</li>
+      </ul>
+    </div>
+  </div>
+  <ul class="churn">
+    <li><strong>Heavy 1★ tail:</strong> 14 of 65 K-9 reviews (22%) are 1★ — higher low-star share than TB (13%)</li>
+  </ul>
+
+  <!-- subsection: Mozilla Connect (Android wishlist) -->
+  <div class="subsec" id="connect-android">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Mozilla Connect — Community Wishlist</h3>
+      <span class="subsec__meta">15 ideas · <a href="https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/thunderbird%20android/tab/most-kudoed" target="_blank">view all on Mozilla Connect →</a></span>
+    </div>
+    <div class="panel">
+      <table>
+        <thead><tr><th class="num" style="width:36px">#</th><th>Idea</th><th class="num">Kudos</th><th class="num">MoM</th></tr></thead>
+        <tbody>
+          <tr><td class="num tbl-muted">1</td><td><a href="https://connect.mozilla.org/t5/ideas/calendar-support-on-thunderbird-mobile/idi-p/76394" target="_blank">Calendar support on Thunderbird mobile</a></td><td class="num tbl-strong">333</td><td class="num delta-up">+6</td></tr>
+          <tr><td class="num tbl-muted">2</td><td><a href="https://connect.mozilla.org/t5/ideas/android-version-of-thunderbird/idi-p/7383" target="_blank">Android version of Thunderbird</a></td><td class="num tbl-strong">286</td><td class="num tbl-muted">—</td></tr>
+          <tr><td class="num tbl-muted">3</td><td><a href="https://connect.mozilla.org/t5/ideas/allow-html-signatures-in-k-9-mail-thunderbird-for-android/idi-p/28983" target="_blank">Allow HTML signatures in K-9 Mail / TB Android</a></td><td class="num tbl-strong">156</td><td class="num delta-up">+3</td></tr>
+          <tr><td class="num tbl-muted">4</td><td><a href="https://connect.mozilla.org/t5/ideas/filtering-with-android-thunderbird/idi-p/61144" target="_blank">Filtering with Android Thunderbird</a></td><td class="num tbl-strong">103</td><td class="num delta-up">+4</td></tr>
+          <tr><td class="num tbl-muted">5</td><td><a href="https://connect.mozilla.org/t5/ideas/give-thunderbird-for-android-a-quot-send-later-quot-function/idi-p/72251" target="_blank">"Send later" function for TB Android</a></td><td class="num tbl-strong">98</td><td class="num delta-up">+2</td></tr>
+          <tr><td class="num tbl-muted">6</td><td><a href="https://connect.mozilla.org/t5/ideas/tags-on-thunderbird-android/idi-p/86051" target="_blank">Tags on Thunderbird Android</a></td><td class="num tbl-strong">90</td><td class="num delta-up">+3</td></tr>
+          <tr><td class="num tbl-muted">7</td><td><a href="https://connect.mozilla.org/t5/ideas/s-mime-support-for-k-9-mail-android/idi-p/61756" target="_blank">S/MIME support for K-9 Mail Android</a></td><td class="num tbl-strong">78</td><td class="num delta-up">+1</td></tr>
+          <tr><td class="num tbl-muted">8</td><td><a href="https://connect.mozilla.org/t5/ideas/display-subfolders-in-tree-structure-like-on-thunderbird-for/idi-p/73292" target="_blank">Display subfolders in tree structure</a></td><td class="num tbl-strong">76</td><td class="num tbl-muted">—</td></tr>
+          <tr><td class="num tbl-muted">9</td><td><a href="https://connect.mozilla.org/t5/ideas/add-the-ability-to-create-imap-folders/idi-p/72777" target="_blank">Add the ability to create IMAP folders</a></td><td class="num tbl-strong">67</td><td class="num delta-up">+2</td></tr>
+          <tr><td class="num tbl-muted">10</td><td><a href="https://connect.mozilla.org/t5/ideas/ai-detection-tool/idi-p/106133" target="_blank">AI detection tool</a></td><td class="num tbl-strong">67</td><td class="num delta-up">+2</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- subsection: Languages -->
+  <div class="subsec" id="play-languages">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Top 10 languages — Play Store</h3>
+    </div>
+    <div class="panel">
+      <div class="lang-bars">
+        <div class="lang-row"><span class="lang-row__name">English</span><span class="lang-row__count">120</span><div class="lang-row__bar" style="width:100%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">German</span><span class="lang-row__count">83</span><div class="lang-row__bar" style="width:69%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Spanish</span><span class="lang-row__count">25</span><div class="lang-row__bar" style="width:21%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Russian</span><span class="lang-row__count">19</span><div class="lang-row__bar" style="width:16%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">French</span><span class="lang-row__count">19</span><div class="lang-row__bar" style="width:16%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Italian</span><span class="lang-row__count">17</span><div class="lang-row__bar" style="width:14%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Japanese</span><span class="lang-row__count">13</span><div class="lang-row__bar" style="width:11%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Polish</span><span class="lang-row__count">12</span><div class="lang-row__bar" style="width:10%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Portuguese</span><span class="lang-row__count">9</span><div class="lang-row__bar" style="width:8%"></div></div>
+        <div class="lang-row"><span class="lang-row__name">Czech</span><span class="lang-row__count">6</span><div class="lang-row__bar" style="width:5%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: sumo-desktop -->
+<section class="chapter" id="sumo-desktop" data-filter-target="sumo-desktop" style="--chapter-color:var(--c-desktop)">
+  <div class="chapter__head">
+    <div class="chapter__num">04</div>
+    <div>
+      <div class="chapter__kicker">Desktop Forum · SUMO</div>
+      <h2 class="chapter__title">Volume eased; solved rate dips under new methodology</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>750 questions this month — solved rate fell to 60% (−10 pts MoM) under Roland's new concatenation method.</p>
+        <ul class="scan-list">
+          <li>Compare like-for-like against his current figures, not originally-published May numbers</li>
+          <li>Ignored rate rose to 21%</li>
+        </ul>
+      </div>
+      <div class="chapter__meta">SUMO · thunderbird · 750 questions · methodology caveat applies</div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card"><div class="stat-card__lbl">Questions</div><div class="stat-card__val">750</div><div class="stat-card__delta delta-down">−52 MoM</div></div>
+    <div class="stat-card stat-card--down"><div class="stat-card__lbl">Solved Rate</div><div class="stat-card__val">60%</div><div class="stat-card__delta">−10 pts MoM †</div></div>
+    <div class="stat-card stat-card--down"><div class="stat-card__lbl">Ignored %</div><div class="stat-card__val">21%</div><div class="stat-card__delta">+4 pts MoM</div></div>
+    <div class="stat-card stat-card--down"><div class="stat-card__lbl">Trusted Contributor %</div><div class="stat-card__val">43%</div><div class="stat-card__delta">−6 pts MoM</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel__title">SUMO metrics · 3-month trend</div>
+    <table>
+      <thead><tr><th>Metric</th><th class="num">Value</th><th class="num">MoM</th><th class="num">3-mo trend</th></tr></thead>
+      <tbody>
+        <tr><td>Questions (excl. spam)</td><td class="num tbl-strong">750</td><td class="num delta-down">−52</td><td class="num tbl-mono">733 → 802 → 750</td></tr>
+        <tr><td>Solved Rate</td><td class="num tbl-strong">60%</td><td class="num delta-down">−10 pts</td><td class="num tbl-mono">64 → 70 → 60% †</td></tr>
+        <tr><td>Ignored %</td><td class="num tbl-strong">21%</td><td class="num delta-down">+4 pts</td><td class="num tbl-mono">23 → 17 → 21% †</td></tr>
+        <tr><td>Trusted Contributor %</td><td class="num tbl-strong">43%</td><td class="num delta-down">−6 pts</td><td class="num tbl-mono">45 → 49 → 43% †</td></tr>
+      </tbody>
+    </table>
+    <p class="footnote footnote--top">† SUMO figures use Roland's concatenation method as of July 2026. May is not restated — MoM deltas carry a methodology caveat.</p>
+  </div>
+
+  <div class="takeaway">
+    <div class="takeaway__label">Signal</div>
+    <div class="takeaway__body scan-block">
+      <p>Send/Receive and Crashes &amp; Performance lead June desktop signal — Roland's LLM Insights flags a startup freeze/crash spike on top.</p>
+      <ul class="scan-list">
+        <li>Send/Receive — 245 questions (32.7%)</li>
+        <li>Crashes &amp; Performance — 61 (up from 28 in May); LLM rank 1: startup freeze/crash 24→60 (+150%)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- subsection: Roland insights · June (PROJECT1 spike + LLM) -->
+  <div class="subsec" id="roland-desktop-insights">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Roland insights · June</h3>
+      <span class="subsec__meta"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html" target="_blank">Spike report →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html" target="_blank">LLM insights →</a></span>
+    </div>
+
+    <div class="takeaway takeaway--warn">
+      <div class="takeaway__label">⚠ Spectrum/Charter certificate spike — June vs May</div>
+      <div class="takeaway__body scan-block">
+        <p>Both Roland reports flag the same incident: Thunderbird treats <code>mobile.charter.net</code> mail-server certificates as untrusted after an ISP cert change.</p>
+        <ul class="scan-list">
+          <li><strong>PROJECT1</strong> — v151 × Spectrum · 7 questions · <strong>21.5× above baseline</strong> (Jun 9) · 100% served</li>
+          <li><strong>LLM Insights</strong> — new cluster 0→7 · same hostname pattern · 43% resolved, poorly served</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ask">
+      <div class="ask__label">▸ Open questions · ops</div>
+      <div class="ask__body scan-block">
+        <ul class="scan-list">
+          <li><strong>Gmail (Jun 30)</strong> — PROJECT1 flags v152 wrong-groups / missing visibility (4 cases, 4.7× baseline). <em>Hypothesis only</em></li>
+          <li><strong>Certificate path</strong> — need a KB for ISP cert expiry, but <strong>in-product fix matters more</strong> than documentation alone</li>
+          <li><strong>Engineering priority</strong> — triage flagged; honestly unclear if this ranks high on the eng backlog yet</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel__title">Other spikes &amp; regressions · June vs May</div>
+      <table>
+        <thead><tr><th>Signal</th><th class="num">Cases</th><th>Detail</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Startup freeze / crash</strong> <span class="trend-rise">↑</span></td><td class="num tbl-strong">60</td><td class="tbl-sub">LLM #1 · 24→60 (+150%) · 37 severity-4+ — strongest regression signal while total volume fell</td></tr>
+          <tr><td>Microsoft / Outlook <span class="tbl-muted">(spreading)</span></td><td class="num tbl-strong">6</td><td class="tbl-sub">PROJECT1 · 4.4× baseline · HTML display + connection failures · 50% answered</td></tr>
+          <tr><td>Gmail <span class="tbl-muted">(hypothesis)</span></td><td class="num tbl-strong">4</td><td class="tbl-sub">PROJECT1 · emerging Jun 30, v152 · 4.7× baseline · wrong groups / missing message visibility · 50% answered</td></tr>
+          <tr><td>Attachments dropped on forward <span class="tbl-muted">(new)</span></td><td class="num tbl-strong">5</td><td class="tbl-sub">LLM #8 · 20% resolved · data-integrity cluster</td></tr>
+          <tr><td>Mail auto-moved to Trash/Junk <span class="tbl-muted">(new)</span></td><td class="num tbl-strong">5</td><td class="tbl-sub">LLM #9 · 20% resolved · 40% unanswered</td></tr>
+        </tbody>
+      </table>
+      <p class="footnote footnote--top">Sources: <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html" target="_blank">Desktop spike report (PROJECT1)</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html" target="_blank">Desktop LLM Insights</a> · June 2026 vs May 2026</p>
+    </div>
+
+    <div class="takeaway">
+      <div class="takeaway__label">What sounds like we need</div>
+      <div class="takeaway__body scan-block">
+        <ul class="scan-list">
+          <li>KB article for ISP certificate expiry / acceptance (Charter/Spectrum pattern) — bridge until product path improves</li>
+          <li>In-product untrusted-cert handling for ISP mail servers — not documentation-only</li>
+          <li>Regression-test startup/crash path and v152 provider regressions once Gmail thread is confirmed</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="alert-panel" role="status">
+      <div class="alert-panel__head">Spectrum/Charter certificate spike</div>
+      <div class="alert-panel__sub scan-block">
+        <p>Spectrum/Charter certificate trust errors spiked on desktop SUMO this month — <strong>7 questions, 21.5× baseline</strong> (Roland PROJECT1 + LLM Insights).</p>
+        <ul class="scan-list">
+          <li>Desktop IMAP users hit ISP cert changes and bring them to the forum — an ISP-driven entry point worth watching for recurrence</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- subsection: Top trending topics -->
+  <div class="subsec" id="top-trending-topics">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Top trending topics</h3>
+      <span class="subsec__meta">June 2026 · <a href="june_sumo_trending.html" target="_blank">Dashboard →</a> · <a href="june_sumo_trending.md" target="_blank">Full report →</a></span>
+    </div>
+    <div class="panel">
+      <table>
+        <thead><tr><th style="width:30px">#</th><th>Topic</th><th class="num">Apr</th><th class="num">May</th><th class="num">Jun</th><th class="num">3-mo %</th></tr></thead>
+        <tbody>
+          <tr><td class="tbl-muted">1</td><td>Send/Receive issues <span class="trend-rise">↑</span></td><td class="num tbl-muted">191</td><td class="num tbl-muted">250</td><td class="num tbl-strong">245 <span class="tbl-mono">32.7%</span></td><td class="num tbl-muted">30.0%</td></tr>
+          <tr><td class="tbl-muted">2</td><td>Customization &amp; UI <span class="trend-fall">↓</span></td><td class="num tbl-muted">82</td><td class="num tbl-muted">94</td><td class="num tbl-strong">65 <span class="tbl-mono">8.7%</span></td><td class="num tbl-muted">10.6%</td></tr>
+          <tr><td class="tbl-muted">3</td><td>Crashes &amp; Performance <span class="trend-rise">↑</span></td><td class="num tbl-muted">26</td><td class="num tbl-muted">28</td><td class="num tbl-strong">61 <span class="tbl-mono">8.1%</span></td><td class="num tbl-muted">5.0%</td></tr>
+          <tr><td class="tbl-muted">4</td><td>General messaging (broad tag) <span class="trend-fall">↓</span></td><td class="num tbl-muted">99</td><td class="num tbl-muted">101</td><td class="num tbl-strong">54 <span class="tbl-mono">7.2%</span></td><td class="num tbl-muted">11.1%</td></tr>
+          <tr><td class="tbl-muted">5</td><td>Sign-in &amp; Passwords <span class="muted">→</span></td><td class="num tbl-muted">56</td><td class="num tbl-muted">66</td><td class="num tbl-strong">52 <span class="tbl-mono">6.9%</span></td><td class="num tbl-muted">7.6%</td></tr>
+          <tr><td class="tbl-muted">6</td><td>Import / Migration / Profiles <span class="trend-fall">↓</span></td><td class="num tbl-muted">58</td><td class="num tbl-muted">51</td><td class="num tbl-strong">39 <span class="tbl-mono">5.2%</span></td><td class="num tbl-muted">6.5%</td></tr>
+          <tr><td class="tbl-muted">7</td><td>Account setup &amp; management <span class="trend-fall">↓</span></td><td class="num tbl-muted">46</td><td class="num tbl-muted">49</td><td class="num tbl-strong">38 <span class="tbl-mono">5.1%</span></td><td class="num tbl-muted">5.8%</td></tr>
+          <tr><td class="tbl-muted">8</td><td>Install &amp; Update <span class="muted">→</span></td><td class="num tbl-muted">36</td><td class="num tbl-muted">27</td><td class="num tbl-strong">36 <span class="tbl-mono">4.8%</span></td><td class="num tbl-muted">4.3%</td></tr>
+          <tr><td class="tbl-muted">9</td><td>Calendar &amp; Events <span class="trend-rise">↑</span></td><td class="num tbl-muted">25</td><td class="num tbl-muted">26</td><td class="num tbl-strong">32 <span class="tbl-mono">4.3%</span></td><td class="num tbl-muted">3.6%</td></tr>
+          <tr><td class="tbl-muted">10</td><td>Spam &amp; Junk mail <span class="muted">→</span></td><td class="num tbl-muted">30</td><td class="num tbl-muted">33</td><td class="num tbl-strong">29 <span class="tbl-mono">3.9%</span></td><td class="num tbl-muted">4.0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- subsection: Recommended priorities -->
+  <div class="subsec" id="recommended-priorities">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Recommended priorities — community signal</h3>
+      <span class="subsec__meta">June 2026 · <a href="june_desktop_priorities.html" target="_blank">Dashboard →</a> · <a href="june_desktop_priorities.md" target="_blank">Full drill-down →</a></span>
+    </div>
+    <div class="panel">
+      <table>
+        <thead><tr><th>Theme</th><th class="num">Questions</th><th class="num">% of total</th></tr></thead>
+        <tbody>
+          <tr><td><strong>1. Authentication / OAuth fragility</strong><div class="tbl-sub">Provider login failures after password changes or updates — recurring across Gmail, Outlook, Yahoo.</div></td><td class="num tbl-strong">122</td><td class="num tbl-muted">16.3%</td></tr>
+          <tr><td><strong>2. Update regressions</strong><div class="tbl-sub">Updates breaking send/receive, UI, and folder workflows — a release-process signal.</div></td><td class="num tbl-strong">51</td><td class="num tbl-muted">6.8%</td></tr>
+          <tr><td><strong>3. Data loss / folder integrity</strong><div class="tbl-sub">High-emotion tickets about missing folders and expunged mail — trust impact.</div></td><td class="num tbl-strong">33</td><td class="num tbl-muted">4.4%</td></tr>
+        </tbody>
+      </table>
+      <p class="footnote footnote--top">From 750 June SUMO questions · <code>june_desktop_priorities.md</code></p>
+    </div>
+  </div>
+
+  <!-- subsection: Mozilla Connect (Desktop) -->
+  <div class="subsec" id="connect-desktop">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Mozilla Connect — Community Wishlist</h3>
+      <span class="subsec__meta">June 2026 · <a href="june_connect_ideas.html" target="_blank">Dashboard →</a> · <a href="june_connect_ideas.md" target="_blank">Full report →</a></span>
+    </div>
+    <div class="panel">
+      <table>
+        <thead><tr><th class="num">Kudos</th><th class="num">Views</th><th>Status</th><th>Idea</th></tr></thead>
+        <tbody>
+          <tr><td class="num tbl-strong">6</td><td class="num tbl-muted">269</td><td class="tbl-muted">new</td><td><a href="https://connect.mozilla.org/t5/ideas/thunderbird-additional-apply-column-and-view-settings-for-all/idi-p/128731" target="_blank">Apply column and view settings for ALL folders + ALL accounts</a></td></tr>
+          <tr><td class="num tbl-strong">3</td><td class="num tbl-muted">272</td><td class="tbl-muted">new</td><td><a href="https://connect.mozilla.org/t5/ideas/embedding-pictures-in-thunderbird/idi-p/128435" target="_blank">Embedding pictures in Thunderbird</a></td></tr>
+          <tr><td class="num tbl-strong">3</td><td class="num tbl-muted">259</td><td class="tbl-muted">new</td><td><a href="https://connect.mozilla.org/t5/ideas/security-alerts-in-thunderbird-re-server-certificates/idi-p/127527" target="_blank">Security alerts re server certificates</a></td></tr>
+          <tr><td class="num tbl-strong">2</td><td class="num tbl-muted">172</td><td class="tbl-muted">new</td><td><a href="https://connect.mozilla.org/t5/ideas/support-windows-11-share-contract-so-thunderbird-appears-in-the/idi-p/129981" target="_blank">Windows 11 Share contract in context menu</a></td></tr>
+          <tr><td class="num tbl-strong">2</td><td class="num tbl-muted">190</td><td class="tbl-muted">new</td><td><a href="https://connect.mozilla.org/t5/ideas/view-source-of-email-by-a-right-click-option-w-o-opening-the/idi-p/128135" target="_blank">View source via right-click without opening email</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</section>
+
+<!-- SECTION: sumo-android -->
+<section class="chapter" id="sumo-android" data-filter-target="sumo-android" style="--chapter-color:var(--c-sumoand)">
+  <div class="chapter__head">
+    <div class="chapter__num">05</div>
+    <div>
+      <div class="chapter__kicker">Android Forum · SUMO</div>
+      <h2 class="chapter__title">Solved rate recovered — ignored rate eased</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>50 questions at 68% solved (+4 pts MoM) — ignored rate eased sharply.</p>
+        <ul class="scan-list">
+          <li>Ignored rate fell to 18% (−13 pts) — reversal from May's spike</li>
+          <li>Delivery/notify pain spans two Roland clusters (#6 + #2)</li>
+        </ul>
+      </div>
+      <div class="chapter__meta">SUMO · thunderbird-android · 50 questions</div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card"><div class="stat-card__lbl">Questions</div><div class="stat-card__val">50</div><div class="stat-card__delta delta-down">−5 MoM</div></div>
+    <div class="stat-card stat-card--up"><div class="stat-card__lbl">Solved Rate</div><div class="stat-card__val">68%</div><div class="stat-card__delta">+4 pts MoM</div></div>
+    <div class="stat-card stat-card--up"><div class="stat-card__lbl">Ignored %</div><div class="stat-card__val">18%</div><div class="stat-card__delta">−13 pts MoM</div></div>
+    <div class="stat-card stat-card--up"><div class="stat-card__lbl">Trusted Contributor %</div><div class="stat-card__val">50%</div><div class="stat-card__delta">+6 pts MoM</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel__title">Android forum metrics · 3-month trend</div>
+    <table>
+      <thead><tr><th>Metric</th><th class="num">Value</th><th class="num">MoM</th><th class="num">3-mo trend</th></tr></thead>
+      <tbody>
+        <tr><td>Questions (excl. spam)</td><td class="num tbl-strong">50</td><td class="num delta-down">−5</td><td class="num tbl-mono">73 → 55 → 50</td></tr>
+        <tr><td>Solved Rate</td><td class="num tbl-strong">68%</td><td class="num delta-up">+4 pts</td><td class="num tbl-mono">65 → 64 → 68%</td></tr>
+        <tr><td>Ignored %</td><td class="num tbl-strong">18%</td><td class="num delta-up">−13 pts</td><td class="num tbl-mono">22 → 31 → 18%</td></tr>
+        <tr><td>Trusted Contributor %</td><td class="num tbl-strong">50%</td><td class="num delta-up">+6 pts</td><td class="num tbl-mono">53 → 44 → 50%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- subsection: Roland LLM engineering insights -->
+  <div class="subsec" id="roland-android-insights">
+    <div class="subsec__head">
+      <h3 class="subsec__title">Roland insights · June</h3>
+      <span class="subsec__meta"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html" target="_blank">Full report →</a></span>
+    </div>
+    <div class="panel">
+      <div class="panel__title">Emerging pain · 46 questions (Roland's LLM corpus; flat MoM) · 5 new clusters</div>
+      <ul class="scan-list">
+        <li><strong>Stopped receiving new mail</strong> (LLM #6) — 1→3 reports, mean severity 4.0, 67% resolved, 33% unanswered · worst-served returning cluster</li>
+        <li><strong>No new-mail notifications despite sync</strong> (LLM #2, new) — compounds #6; mail arrives but no notify signal</li>
+        <li><strong>QR transfer failures</strong> (LLM #7) — 1→3, 100% resolved but doubled · onboarding friction scaling</li>
+        <li><strong>Save All attachments data loss</strong> (LLM #3, new) — overwritten/zero-byte files · quick code look warranted</li>
+        <li><strong>Category shift:</strong> send-receive 9→12 · search-folders 1→7 · migration-import 3→7</li>
+      </ul>
+      <p class="footnote footnote--top">Source: <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html" target="_blank">Android LLM Insights monthly summary</a> · updated 2026-07-06 · June 2026 vs May 2026 · LLM-derived triage, not proof</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel__title">Top contributors · SUMO</div>
+    <table>
+      <thead><tr><th>Username</th><th class="num">Answers</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://support.mozilla.org/en-US/user/platform34" target="_blank">platform34</a></td><td class="num">48</td></tr>
+        <tr><td><a href="https://support.mozilla.org/en-US/user/jesuscpa7" target="_blank">jesuscpa7</a></td><td class="num">5</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- SECTION: k9-forum -->
+<section class="chapter" id="k9-forum" data-filter-target="k9-forum" style="--chapter-color:var(--c-k9)">
+  <div class="chapter__head">
+    <div class="chapter__num">06</div>
+    <div>
+      <div class="chapter__kicker">K-9 Mail Forum · Discourse</div>
+      <h2 class="chapter__title">Accepted answers up; unanswered rate ticked higher</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>36 new topics — accepted-answer rate climbed to 14%, best in three months.</p>
+        <ul class="scan-list">
+          <li>Unanswered rate rose to 44%</li>
+          <li>Attachments returned to top themes (absent in May)</li>
+        </ul>
+      </div>
+      <div class="chapter__meta">forum.k9mail.app · all categories · 36 new topics</div>
+    </div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card"><div class="stat-card__lbl">New Topics</div><div class="stat-card__val">36</div><div class="stat-card__delta tbl-mono">50 → 38 → 36</div></div>
+    <div class="stat-card stat-card--up"><div class="stat-card__lbl">Accepted Answer %</div><div class="stat-card__val">14%</div><div class="stat-card__delta tbl-mono">4 → 8 → 14%</div></div>
+    <div class="stat-card stat-card--down"><div class="stat-card__lbl">Unanswered %</div><div class="stat-card__val">44%</div><div class="stat-card__delta tbl-mono">40 → 32 → 44%</div></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel__title">Top topic themes</div>
+    <table>
+      <thead><tr><th>Theme</th><th class="num">Topics</th><th class="num">3-mo trend</th></tr></thead>
+      <tbody>
+        <tr><td class="tbl-strong">Setup / Accounts</td><td class="num">5</td><td class="num tbl-mono">7 → 5 → 5</td></tr>
+        <tr><td class="tbl-strong">Sync / Fetch</td><td class="num">4</td><td class="num tbl-mono">3 → 5 → 4</td></tr>
+        <tr><td>Attachments</td><td class="num">4</td><td class="num tbl-mono">3 → — → 4 ↑</td></tr>
+        <tr><td>Update regression</td><td class="num">3</td><td class="num tbl-mono">5 → 2 → 3</td></tr>
+        <tr><td>Notifications</td><td class="num">1</td><td class="num tbl-mono">6 → 2 → 1 ↓</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel">
+    <div class="panel__title">Top contributors</div>
+    <p style="font-size:.84rem;color:var(--color-text-muted)">No contributors with 3+ answers this month.</p>
+  </div>
+
+  <div class="footnote scan-block">
+    <p>Topics from <a href="https://forum.k9mail.app" target="_blank">forum.k9mail.app</a> via public Discourse API — all categories, report month only.</p>
+    <ul class="scan-list">
+      <li>Accepted-answer % counts topics with a marked solution (undercounts true resolution)</li>
+      <li>Themes matched by keyword pattern against topic titles</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SECTION: drilldowns (always visible) -->
+<section class="chapter" id="drilldowns" data-filter-target="all-only" style="--chapter-color:var(--color-secondary)">
+  <div class="chapter__head">
+    <div class="chapter__num">07</div>
+    <div>
+      <div class="chapter__kicker">Appendix</div>
+      <h2 class="chapter__title">Drill-down dashboards &amp; working docs</h2>
+      <div class="chapter__standfirst scan-block">
+        <p>When a theme needs more than the dashboard shows, it gets its own drill-down.</p>
+        <ul class="scan-list">
+          <li>Per-review analysis, OEM follow-up queues, KB recommendations</li>
+          <li>Full source reports behind each section summary</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="docs-note scan-block">
+    <p><strong>Note:</strong> June drill-downs live in this folder.</p>
+    <ul class="scan-list">
+      <li>Push deep dive</li>
+      <li>SUMO and Connect source reports — June <code>.md</code> exports</li>
+      <li>Internal working docs (follow-up queue, KB recs, ops index) not yet generated for June</li>
+      <li>Archived prior-month HTML is read-only — never edit March/May files to fix links here</li>
+    </ul>
+  </div>
+
+  <div class="docs-sublabel">Deep-dive dashboards</div>
+  <div class="docs-grid">
+    <div class="doc-card" style="--doc-color:var(--c-android)">
+      <div class="doc-card__inner">
+        <div class="doc-card__icon">🔍</div>
+        <div class="doc-card__info">
+          <div class="doc-card__title"><a href="june_push_deep_dive.html" target="_blank">Push / Notification Sync — Deep Dive</a></div>
+          <div class="doc-card__desc scan-block">
+            <p>Every push-related review by problem category.</p>
+            <ul class="scan-list">
+              <li>Core delivery failure, version regression, UX friction</li>
+              <li>Per-review cards, device decoding, translations, star-math scenarios</li>
+            </ul>
+          </div>
+          <div class="doc-card__badges">
+            <span class="doc-badge doc-badge--public">Public</span>
+            <span class="doc-badge doc-badge--data">Per-review detail</span>
+            <span class="doc-badge doc-badge--data">Star-math scenarios</span>
+          </div>
+        </div>
+      </div>
+      <div class="doc-card__footer">
+        <span class="doc-card__crumbs">Problem A · Problem B · Problem C · recommendations</span>
+        <a class="doc-card__open" href="june_push_deep_dive.html" target="_blank">Open deep dive ›</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="docs-sublabel">Full source reports</div>
+  <div class="docs-grid">
+    <div class="doc-card" style="--doc-color:var(--c-desktop)">
+      <div class="doc-card__inner">
+        <div class="doc-card__icon">📈</div>
+        <div class="doc-card__info">
+          <div class="doc-card__title"><a href="june_sumo_trending.html" target="_blank">SUMO Trending Topics — Interactive Dashboard</a></div>
+          <div class="doc-card__desc scan-block">
+            <p>All 17 trending desktop tags with searchable question lists.</p>
+            <ul class="scan-list">
+              <li>Source behind the Desktop Forum top-10 table</li>
+              <li>Markdown export: <code>june_sumo_trending.md</code></li>
+            </ul>
+          </div>
+          <div class="doc-card__badges"><span class="doc-badge doc-badge--public">Public</span></div>
+        </div>
+      </div>
+      <div class="doc-card__footer">
+        <span class="doc-card__crumbs">Desktop Forum · §04</span>
+        <a class="doc-card__open" href="june_sumo_trending.html" target="_blank" style="color:var(--c-desktop)">Open dashboard ›</a>
+      </div>
+    </div>
+    <div class="doc-card" style="--doc-color:var(--c-desktop)">
+      <div class="doc-card__inner">
+        <div class="doc-card__icon">🎯</div>
+        <div class="doc-card__info">
+          <div class="doc-card__title"><a href="june_desktop_priorities.html" target="_blank">Desktop Priorities — Interactive Dashboard</a></div>
+          <div class="doc-card__desc scan-block">
+            <p>Community-signal priority themes with provider breakdowns.</p>
+            <ul class="scan-list">
+              <li>Auth/OAuth, update regressions, data loss</li>
+              <li>Markdown export: <code>june_desktop_priorities.md</code></li>
+            </ul>
+          </div>
+          <div class="doc-card__badges"><span class="doc-badge doc-badge--public">Public</span></div>
+        </div>
+      </div>
+      <div class="doc-card__footer">
+        <span class="doc-card__crumbs">Desktop Forum · §04</span>
+        <a class="doc-card__open" href="june_desktop_priorities.html" target="_blank" style="color:var(--c-desktop)">Open dashboard ›</a>
+      </div>
+    </div>
+    <div class="doc-card" style="--doc-color:var(--c-sumoand)">
+      <div class="doc-card__inner">
+        <div class="doc-card__icon">🤖</div>
+        <div class="doc-card__info">
+          <div class="doc-card__title"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html" target="_blank">Android LLM Insights — Roland</a></div>
+          <div class="doc-card__desc scan-block">
+            <p>LLM-derived engineering triage over Android SUMO questions.</p>
+            <ul class="scan-list">
+              <li>Send-receive + notification clusters · QR transfer · attachment data loss</li>
+              <li>Source behind Android Forum §05 Roland insights block</li>
+            </ul>
+          </div>
+          <div class="doc-card__badges"><span class="doc-badge doc-badge--public">Public</span><span class="doc-badge doc-badge--data">June 2026</span></div>
+        </div>
+      </div>
+      <div class="doc-card__footer">
+        <span class="doc-card__crumbs">Android Forum · §05</span>
+        <a class="doc-card__open" href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html" target="_blank" style="color:var(--c-sumoand)">Open report ›</a>
+      </div>
+    </div>
+    <div class="doc-card" style="--doc-color:var(--c-desktop)">
+      <div class="doc-card__inner">
+        <div class="doc-card__icon">📊</div>
+        <div class="doc-card__info">
+          <div class="doc-card__title"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html" target="_blank">Desktop PROJECT1 + LLM Insights — Roland</a></div>
+          <div class="doc-card__desc scan-block">
+            <p>Version×cause spikes (PROJECT1) merged with LLM severity clusters.</p>
+            <ul class="scan-list">
+              <li>Startup crash spike · Spectrum cert · v152 Gmail/Outlook regressions</li>
+              <li>Source behind Desktop Forum §04 Roland insights block</li>
+            </ul>
+          </div>
+          <div class="doc-card__badges"><span class="doc-badge doc-badge--public">Public</span><span class="doc-badge doc-badge--data">June 2026</span></div>
+        </div>
+      </div>
+      <div class="doc-card__footer">
+        <span class="doc-card__crumbs">Desktop Forum · §04</span>
+        <a class="doc-card__open" href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html" target="_blank" style="color:var(--c-desktop)">Open LLM report ›</a>
+      </div>
+    </div>
+    <div class="doc-card" style="--doc-color:var(--c-android)">
+      <div class="doc-card__inner">
+        <div class="doc-card__icon">💡</div>
+        <div class="doc-card__info">
+          <div class="doc-card__title"><a href="june_connect_ideas.html" target="_blank">Mozilla Connect Ideas — Interactive Dashboard</a></div>
+          <div class="doc-card__desc scan-block">
+            <p>Complete Mozilla Connect wishlist (25 ideas).</p>
+            <ul class="scan-list">
+              <li>Kudos + views behind Android and Desktop wishlist tables</li>
+              <li>Markdown export: <code>june_connect_ideas.md</code></li>
+            </ul>
+          </div>
+          <div class="doc-card__badges"><span class="doc-badge doc-badge--public">Public</span></div>
+        </div>
+      </div>
+      <div class="doc-card__footer">
+        <span class="doc-card__crumbs">Android §03 · Desktop §04</span>
+        <a class="doc-card__open" href="june_connect_ideas.html" target="_blank" style="color:var(--c-android)">Open dashboard ›</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: rrr (always visible) -->
+<section class="chapter" id="rrr" data-filter-target="all-only" style="--chapter-color:var(--c-rrr)">
+  <div class="chapter__head">
+    <div class="chapter__num">08</div>
+    <div>
+      <div class="chapter__kicker">CX Framework</div>
+      <h2 class="chapter__title">Receive · Resolve · Resound</h2>
+      <p class="chapter__standfirst">How the month maps to Thunderbird Support's action framework.</p>
+    </div>
+  </div>
+
+  <div class="rrr">
+    <div class="rrr-card">
+      <div class="rrr-card__icon">🕊</div>
+      <div class="rrr-card__label">Receive</div>
+      <div class="rrr-card__body scan-block">
+        <p>June volume and friction signals at a glance.</p>
+        <ul class="scan-list">
+          <li>534 Zendesk tickets (−12% MoM) — seasonal lull</li>
+          <li>360 Play Store reviews · 30 languages</li>
+          <li>Push/sync #1 friction (20 neg, 34→20; no fix shipped)</li>
+          <li>Spam-filter mentions rising (13 neg, 8→13) · user pain, lower product priority</li>
+          <li>750 desktop forum questions (new SUMO methodology)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rrr-card">
+      <div class="rrr-card__icon">🪽</div>
+      <div class="rrr-card__label">Resolve</div>
+      <div class="rrr-card__body scan-block">
+        <p>CSAT rose across every brand this month.</p>
+        <ul class="scan-list">
+          <li>Overall 83.6% (+6.9 pts) · Thundermail 95.0% (+2.1) · Donor 80.0% (+13.3)</li>
+          <li>Android forum solved rate 68% (+4 pts)</li>
+          <li>202 Play Store review tickets received</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rrr-card">
+      <div class="rrr-card__icon">✨</div>
+      <div class="rrr-card__label">Resound</div>
+      <div class="rrr-card__body scan-block">
+        <p>Positive signals worth noting amid Play Store rating pressure.</p>
+        <ul class="scan-list">
+          <li>K-9 Play Store rating held 3.55★ (+0.02 MoM)</li>
+          <li>Thundermail CSAT 95.0% (+2.1 pts)</li>
+          <li>Donor Support recovered to 80.0% (+13.3 pts)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="rrr-note">Receive / Resolve / Resound is Thunderbird Support's CX action framework. <a href="https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77" target="_blank">Support Vision →</a></p>
+</section>
+
+<!-- SECTION: colophon (always visible) -->
+<footer class="colophon" data-filter-target="all-only">
+  <div class="colophon__title">Definitions &amp; sources</div>
+  <table>
+    <tbody>
+      <tr><td style="width:170px;color:var(--color-text-muted);font-weight:600">Mentions</td><td>Count of Play Store reviews whose text matches a topic's keyword pattern, regardless of star rating. One review = one mention.</td></tr>
+      <tr><td style="color:var(--color-text-muted);font-weight:600">Neg. mentions</td><td>Mentions where the review is 1–3 stars.</td></tr>
+      <tr><td style="color:var(--color-text-muted);font-weight:600">Avg ★</td><td>Mean star rating (1–5) across all reviews matching that topic.</td></tr>
+      <tr><td style="color:var(--color-text-muted);font-weight:600">Play Store tickets</td><td>Incoming Play Store review tickets received in Zendesk — all star ratings, all three apps ("Thunderbird App Store Reviews" brand count). Not every review generates a ticket.</td></tr>
+      <tr><td style="color:var(--color-text-muted);font-weight:600">Review export</td><td>
+        <div class="scan-block">
+          <p>Jan–May 2026: manual Play Console UI download. June onward: GCS auto-export via <code>fetch_reviews.py</code> (mobile manager approved, July 2026).</p>
+          <ul class="scan-list">
+            <li>MoM counts spanning this boundary may differ partly because of the source change</li>
+            <li>Example: May 493 vs June 360 — not necessarily real volume movement</li>
+          </ul>
+        </div>
+      </td></tr>
+      <tr><td style="color:var(--color-text-muted);font-weight:600">DSAT</td><td>Dissatisfied rating — a Zendesk CSAT response indicating the ticket did not meet expectations.</td></tr>
+    </tbody>
+  </table>
+  <div class="footnote scan-block footnote--top">
+    <p><strong>Methodology caveats</strong></p>
+    <ul class="scan-list">
+      <li>† May 493 → June 360 review count: may reflect the GCS vs manual export methodology change, not necessarily real volume movement — see §03 Android Reviews callout</li>
+      <li><strong>Play Store (June 2026):</strong> CSVs from GCS export bucket — approved shift from manual UI downloads. Cross-method MoM comparisons carry a caveat.</li>
+      <li><strong>SUMO:</strong> Roland's concatenation method (SUMO API gated behind JS). May not restated — MoM deltas carry a caveat.</li>
+    </ul>
+  </div>
+  <div class="footnote scan-block footnote--top">
+    <p><strong>Data sources &amp; privacy</strong></p>
+    <ul class="scan-list">
+      <li>Zendesk Explore · Play Store Console (GCS export) · SUMO (Roland's metrics repo) · FeatureOS board 17437 · K-9 Discourse API · Mozilla Connect</li>
+      <li>AI translations noted where applicable</li>
+      <li>Review text and ticket subjects paraphrased · PII redacted before write · no identifying content in any repo file</li>
+    </ul>
+  </div>
+</footer>
+
+</div><!-- /wrap -->
+</main>
+
+<script>
+/* ============================================================================
+   Filter — isolate one section (classic dashboard muscle memory)
+   ============================================================================ */
+(function(){
+  const btns = document.querySelectorAll('.filter-btn');
+  const targets = document.querySelectorAll('[data-filter-target]');
+  function applyFilter(key){
+    targets.forEach(el=>{
+      const t = el.dataset.filterTarget;
+      const show = (key === 'all') ? true : (t === key);
+      // 'all-only' blocks (RRR, colophon) show only when no specific filter active
+      el.style.display = (t === 'all-only' && key !== 'all') ? 'none' : (show ? '' : 'none');
+    });
+    btns.forEach(b=>b.classList.toggle('is-active', b.dataset.filter === key));
+    history.replaceState(null,'', key === 'all' ? '#' : '#'+key);
+  }
+  btns.forEach(b=>b.addEventListener('click',()=>applyFilter(b.dataset.filter)));
+
+  // Topbar nav: always reset to "all" so the target is visible, then scroll
+  document.querySelectorAll('.topbar__nav a[data-nav]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      applyFilter('all');
+    });
+  });
+
+  // Deep-link on load: #section scrolls within full view
+  window.addEventListener('DOMContentLoaded',()=>{
+    const hash = location.hash.replace('#','');
+    const known = Array.from(btns).map(b=>b.dataset.filter);
+    if(hash && document.getElementById(hash)){
+      applyFilter('all');
+      document.getElementById(hash).scrollIntoView();
+    }
+  });
+})();
+
+/* ============================================================================
+   Scroll-spy — highlight active section in the sticky topbar nav
+   ============================================================================ */
+(function(){
+  const links = document.querySelectorAll('.topbar__nav a[data-nav]');
+  const sections = Array.from(links).map(l => document.getElementById(l.dataset.nav)).filter(Boolean);
+  const offset = 70;
+  function setActive(){
+    let active = null;
+    for(const s of sections){
+      if(s.style.display !== 'none' && s.getBoundingClientRect().top <= offset) active = s;
+    }
+    links.forEach(l => l.classList.toggle('is-active', active && l.dataset.nav === active.id));
+  }
+  window.addEventListener('scroll', setActive, {passive:true});
+  setActive();
+})();
+
+/* ============================================================================
+   Charts (Bolt dark)
+   ============================================================================ */
+const GRID = '#2b2845', TICK = '#8a87a6', TICKFONT = {family:"'Inter',sans-serif", size:11};
+
+/* FIG 1 — Play Store rating trajectory */
+(function(){
+  const ctx = document.getElementById('ratingTrendChart').getContext('2d');
+  new Chart(ctx, {
+    type:'line',
+    data:{
+      labels:['Jan','Feb','Mar','Apr','May','Jun'],
+      datasets:[
+        {label:'Thunderbird',data:[3.95,3.91,3.87,3.81,3.73,3.68],borderColor:'#ff8a3d',borderWidth:3,pointBackgroundColor:'#ff8a3d',pointRadius:4,tension:.3},
+        {label:'K-9 Mail',data:[null,null,3.52,2.96,3.53,3.55],borderColor:'#b794ff',borderWidth:3,pointBackgroundColor:'#b794ff',pointRadius:4,tension:.3,borderDash:[5,3]},
+        {label:'4★ goal',data:[4,4,4,4,4,4],borderColor:'rgba(52,210,123,.45)',borderWidth:1.5,pointRadius:0,borderDash:[6,5]}
+      ]
+    },
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{labels:{color:TICK,font:TICKFONT,boxWidth:14,usePointStyle:true}}},
+      scales:{
+        x:{ticks:{color:TICK,font:TICKFONT},grid:{color:GRID}},
+        y:{min:2.7,max:4.1,ticks:{color:TICK,font:TICKFONT,callback:v=>v.toFixed(2)+'★'},grid:{color:GRID}}
+      }
+    }
+  });
+})();
+
+/* FIG 2 — TB star distribution (June: 1★=38,2★=43,3★=34,4★=41,5★=139) */
+(function(){
+  const ctx = document.getElementById('tbStarChart').getContext('2d');
+  new Chart(ctx, {
+    type:'bar',
+    data:{labels:['1★','2★','3★','4★','5★'],datasets:[{data:[38,43,34,41,139],backgroundColor:['#ff5a5a','#ff8a3d','#f5a623','#34d27b','#6d8bff'],borderRadius:5}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:TICK,font:TICKFONT},grid:{display:false}},y:{ticks:{color:TICK,font:TICKFONT},grid:{color:GRID}}}}
+  });
+})();
+
+/* FIG 3 — K-9 star distribution (June: 1★=14,2★=6,3★=4,4★=12,5★=29) */
+(function(){
+  const ctx = document.getElementById('k9StarChart').getContext('2d');
+  new Chart(ctx, {
+    type:'bar',
+    data:{labels:['1★','2★','3★','4★','5★'],datasets:[{data:[14,6,4,12,29],backgroundColor:['#ff5a5a','#ff8a3d','#f5a623','#34d27b','#b794ff'],borderRadius:5}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:TICK,font:TICKFONT},grid:{display:false}},y:{ticks:{color:TICK,font:TICKFONT},grid:{color:GRID}}}}
+  });
+})();
+</script>
+</body>
+</html>

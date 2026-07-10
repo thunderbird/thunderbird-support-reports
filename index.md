@@ -18,3 +18,4 @@ In-progress data for the current month, refreshed hourly by automation:
 | March | [March 2026](lisa/2026/march.md) | [Dashboard](https://thunderbird.github.io/thunderbird-support-reports/lisa/2026/march.html) | [CSV](lisa/2026/march.csv) |
 | April | [April 2026](lisa/2026/april.md) | [Dashboard](https://thunderbird.github.io/thunderbird-support-reports/lisa/2026/april.html) | [CSV](lisa/2026/april.csv) |
 | May | [May 2026](lisa/2026/may.md) | [Dashboard](https://thunderbird.github.io/thunderbird-support-reports/lisa/2026/may.html) | [CSV](lisa/2026/may.csv) |
+| June | [June 2026](lisa/2026/june.md) | [Dashboard](https://thunderbird.github.io/thunderbird-support-reports/lisa/2026/june.html) | [CSV](lisa/2026/june.csv) |

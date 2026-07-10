@@ -207,8 +207,11 @@ def classify_subthemes(questions, sub_patterns):
     return sub_map
 
 
+from pii_redact import redact_sumo_title
+
+
 def make_link(qid, title):
-    title = (title or '')[:80].replace('"', '＂').replace('|', '¦')
+    title = redact_sumo_title(title)
     return f'[{qid}](https://support.mozilla.org/questions/{qid} "{title}")'
 
 
@@ -245,10 +248,15 @@ def write_theme(f, label, questions, total, sub_patterns, extra_section=None):
 
 
 def fetch_questions(year, month):
+    import urllib.request
     path = GH_PATH.format(year=year, month=month)
     result = subprocess.run(['gh', 'api', path], capture_output=True, text=True, check=True)
     payload = json.loads(result.stdout)
-    data = base64.b64decode(payload['content']).decode('utf-8')
+    if payload.get('content'):
+        data = base64.b64decode(payload['content']).decode('utf-8')
+    else:
+        with urllib.request.urlopen(payload['download_url']) as resp:
+            data = resp.read().decode('utf-8', errors='replace')
     return list(csv.DictReader(io.StringIO(data)))
 
 
