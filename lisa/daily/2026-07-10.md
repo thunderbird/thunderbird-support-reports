@@ -1,26 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 11:05 ET** · refreshes hourly_  
+_Updated: **2026-07-10 12:00 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 19** of rollout — **6,500 invitees**, **127 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **2 known problem(s)** being tracked.
+Flight 3 is **day 19** of rollout — **6,500 invitees**, **126 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **4** solved in last 24h
-- **127** tickets total since launch · contact rate **2%** of 6500 invitees
+- **8** new tickets in last 24h · **5** solved in last 24h
+- **126** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
-- **Median AHT**: 55.9h · mean 86.5h (proxy: updated_at − created_at, 79 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"votre retour"** — 2 tickets in 24h (new; baseline 0 cum) — [#6762](https://tbpro.zendesk.com/agent/tickets/6762), [#6764](https://tbpro.zendesk.com/agent/tickets/6764)
+- **Median AHT**: 58.3h · mean 86.4h (proxy: updated_at − created_at, 80 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -58,16 +52,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 79
+- **solved**: 80
 - **pending**: 28
-- **hold**: 10
-- **open**: 9
-- **new**: 1
+- **hold**: 11
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 58
-- **Thundermail**: 56
+- **Thundermail**: 57
+- **Account Hub**: 57
 - **Appointment**: 5
 - **Send**: 2
 
@@ -78,10 +71,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 28
 - **blocked** + **explained**: 16
 - **request** + **redirected**: 12
-- **confused** + **explained**: 9
+- **confused** + **explained**: 10
+- **blocked** + **escalated**: 8
 - **blocked** + **investigated**: 8
 - **change request** + **actioned**: 8
-- **blocked** + **escalated**: 7
 - **blocked** + **actioned**: 3
 - **request** + **actioned**: 2
 - **request** + **—**: 2
@@ -98,13 +91,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#6764](https://tbpro.zendesk.com/agent/tickets/6764)** · SPAM
-  > Bonjour, Je vous contacte car j'ai du mal a géré le SPAM de mon compte courrier Thunderbird les messages spam malgré mon marquage arrivant en nombre élevé dans mon courrier…
 - **[#6754](https://tbpro.zendesk.com/agent/tickets/6754)** · Email address reuse
   > Hello, What happens to an email address if a user cancels their subscription? Can a future user claim it? Thank you
-- **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird
+- **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird — why: **confused** · how: **explained**
   > I am a bit lost with all this. I don't want to use as email address “[email] ” for my emails exchanges but to keep using the same email addresses accounts that I actually use with…
 
 ### Aliases — 1 tickets
@@ -141,13 +132,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6748](https://tbpro.zendesk.com/agent/tickets/6748) · [pending] · 2026-07-09T20:36 · Invites to others?
 - [6749](https://tbpro.zendesk.com/agent/tickets/6749) · [pending] · 2026-07-09T22:21 · Refund request
-- [6750](https://tbpro.zendesk.com/agent/tickets/6750) · [pending] · 2026-07-09T23:47 · Custom Domain: DKIM Not Properly Served by [domain]
+- [6750](https://tbpro.zendesk.com/agent/tickets/6750) · [open] · 2026-07-09T23:47 · Custom Domain: DKIM Not Properly Served by [domain]
 - [6751](https://tbpro.zendesk.com/agent/tickets/6751) · [open] · 2026-07-10T00:04 · Emails going to spam
-- [6752](https://tbpro.zendesk.com/agent/tickets/6752) · [open] · 2026-07-10T03:05 · How to use Thundermail as I used to do with Thunderbird
+- [6752](https://tbpro.zendesk.com/agent/tickets/6752) · [pending] · 2026-07-10T03:05 · How to use Thundermail as I used to do with Thunderbird
 - [6754](https://tbpro.zendesk.com/agent/tickets/6754) · [open] · 2026-07-10T05:22 · Email address reuse
 - [6755](https://tbpro.zendesk.com/agent/tickets/6755) · [open] · 2026-07-10T08:39 · Please completely delete my account
 - [6762](https://tbpro.zendesk.com/agent/tickets/6762) · [open] · 2026-07-10T13:55 · Questions sur migration domaine + e-mails
-- [6764](https://tbpro.zendesk.com/agent/tickets/6764) · [new] · 2026-07-10T15:03 · SPAM
 
 ## Solved — last 24h
 
@@ -155,6 +145,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-09T21:51 · 2FA or passkey?
 - 👍 [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-09T22:22 · no confirmation email
 - · [6732](https://tbpro.zendesk.com/agent/tickets/6732) · 2026-07-10T13:41 · Change backup email
+- · [6680](https://tbpro.zendesk.com/agent/tickets/6680) · 2026-07-10T15:34 · locked out of early bird access account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
