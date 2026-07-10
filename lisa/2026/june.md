@@ -15,7 +15,11 @@ June was a strong CSAT month — every satisfaction score rose. Overall hit 83.6
 ## Community Support
 
 ### Desktop Forum
-- **Overall solved rate:** 60% (-10 pts MoM) · 750 questions · Roland's June reports flag a **Spectrum/Charter invalid-certificate spike** (7 qs, 21.5× baseline, Jun 9) plus startup freeze/crash regression (24→60). Possible Gmail v152 thread — hypothesis. Sounds like we need KB on expiring ISP certs and better in-product cert handling; eng priority TBD. [Spike report](https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html) · [LLM insights](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html)
+- **Overall solved rate:** 60% (-10 pts MoM) · 750 questions · Ignored %: 21% · Trusted contributor %: 43%
+- **Startup freeze/crash spike:** 24 → 60 questions MoM (2.5×) while total volume fell — strongest regression signal in Roland's June analysis (severity 3.6, 57% resolved)
+- **Spectrum/Charter invalid-certificate spike:** 7 questions at 21.5× baseline (Jun 9), new this month — ISP certificate change hitting desktop IMAP users. Recommended: KB coverage for ISP cert expiry, plus clearer in-product untrusted-cert handling; engineering priority TBD
+- **v152 provider regressions (hypothesis):** Gmail (4 qs, 4.7× lift) and Microsoft/Outlook (6 qs, 4.4× lift) clusters flagged by PROJECT1 in late June — watching, not confirmed
+- Sources: [PROJECT1 spike report](https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html) · [LLM insights](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html)
 
 ### Android Forum
 - **Overall solved rate:** 68% (+4 pts MoM) · 50 questions · Roland LLM flags delivery/notify pain (#6 stopped receiving mail, severity 4.0; #2 notifications despite sync) and QR transfer friction (#7) — [LLM Insights](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html)
@@ -51,10 +55,6 @@ June was a strong CSAT month — every satisfaction score rose. Overall hit 83.6
 - Devices: OnePlus (1), a53x (1), a5ulte (1) · Languages: English, Spanish, Italian
 - 3-month trend: 9 → 5 → 5 negative mentions ➡️ Stable
 
-### K-9 Churn Watch
-- **K-9 held steady at 3.55★ (+0.02 MoM):** no regression this month — the low-star tail remains the concern
-- **Heavy 1★ tail:** 14 of 65 K-9 reviews (22%) are 1★ — higher low-star share than TB (13%)
-
 ### Meeting Our ⭐⭐⭐⭐+ Goal: What We Need to Do
 - **Push / Notification Sync — primary product ask:** 20 negative mentions (down from 34) · still #1 by volume · 3-mo trend shows fewer mentions (37→34→20) — not attributed to shipped fixes · no product fix in market yet
 - **Spam Filter Absent — rising user pain, lower product priority:** 13 negative (up from 8) · only top-3 theme still rising MoM · now #2. Users feel it; mobile leadership has other work ahead. No fix in market
@@ -80,11 +80,6 @@ June was a strong CSAT month — every satisfaction score rose. Overall hit 83.6
 - Donor Support recovered to 80.0% (+13.3 pts) after May's noise-driven dip
 
 *Receive / Resolve / Resound is Thunderbird Support's CX action framework. [Support Vision →](https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77)*
-
----
-## What's Coming Up
-
-[What's coming up — fill in manually.]
 
 ---
 ## Data Access
