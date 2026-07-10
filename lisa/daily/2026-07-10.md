@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 15:43 ET** · refreshes hourly_  
+_Updated: **2026-07-10 16:40 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 19** of rollout — **6,500 invitees**, **129 tickets** so far
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
-- **Median AHT**: 55.9h · mean 86.5h (proxy: updated_at − created_at, 81 solved tickets)
+- **Median AHT**: 60.7h · mean 86.8h (proxy: updated_at − created_at, 81 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -53,14 +53,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 81
-- **pending**: 34
+- **pending**: 36
 - **hold**: 12
-- **open**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 58
-- **Thundermail**: 58
+- **Thundermail**: 59
+- **Account Hub**: 57
 - **Appointment**: 5
 - **Send**: 3
 
@@ -75,9 +74,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 8
 - **blocked** + **investigated**: 8
 - **change request** + **actioned**: 8
+- **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **blocked** + **actioned**: 3
-- **request** + **actioned**: 2
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 1
@@ -91,13 +90,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
-
-### Other / uncategorized — 2 tickets
-
-- **[#6773](https://tbpro.zendesk.com/agent/tickets/6773)** · Missing my name from Customer portal on Paddle
-  > Hi, When i subscribed my 1password autofill glitched and only registered my email when paying for the subscription and in my customer portal account info only my email that i used…
-- **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird — why: **confused** · how: **explained**
-  > I am a bit lost with all this. I don't want to use as email address “[email] ” for my emails exchanges but to keep using the same email addresses accounts that I actually use with…
 
 ### App setup / configuration — 2 tickets
 
@@ -113,10 +105,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6748](https://tbpro.zendesk.com/agent/tickets/6748)** · Invites to others? — why: **request** · how: **redirected**
   > Since I'm in the early access beta of the service, is there an option for me to invite others? I know some companies provide this, like 3 invites for friends for example.
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Pricing — payment issue — 1 tickets
 
-- **[#6749](https://tbpro.zendesk.com/agent/tickets/6749)** · Refund request — why: **request** · how: **actioned**
-  > Hi! I would like to ask for a refund for the subscription bought 09.07.26. According to your support article…
+- **[#6773](https://tbpro.zendesk.com/agent/tickets/6773)** · Missing my name from Customer portal on Paddle — why: **request** · how: **actioned**
+  > Hi, When i subscribed my 1password autofill glitched and only registered my email when paying for the subscription and in my customer portal account info only my email that i used…
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
@@ -133,15 +125,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6762](https://tbpro.zendesk.com/agent/tickets/6762)** · Questions sur migration domaine + e-mails — why: **curious** · how: **explained**
   > Bonjour, Je teste actuellement Thundermail et les services associés. Pour le contexte, j'ai acheté un domaine chez un autre prestataire (appelons-le [domain]), et j'ai configuré…
 
+### Other / uncategorized — 1 tickets
+
+- **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird — why: **confused** · how: **explained**
+  > I am a bit lost with all this. I don't want to use as email address “[email] ” for my emails exchanges but to keep using the same email addresses accounts that I actually use with…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#6750](https://tbpro.zendesk.com/agent/tickets/6750)** · Custom Domain: DKIM Not Properly Served by [domain]
   > Greetings, I am filing this ticket following a suggestion from TB Pro Matrix chatroom. I moved my domains to Thundermail about 8 days ago, that I think propagation is at this…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6749](https://tbpro.zendesk.com/agent/tickets/6749)** · Refund request — why: **request** · how: **actioned**
+  > Hi! I would like to ask for a refund for the subscription bought 09.07.26. According to your support article…
+
 ## New tickets — last 24h
 
 - [6748](https://tbpro.zendesk.com/agent/tickets/6748) · [pending] · 2026-07-09T20:36 · Invites to others?
-- [6749](https://tbpro.zendesk.com/agent/tickets/6749) · [open] · 2026-07-09T22:21 · Refund request
+- [6749](https://tbpro.zendesk.com/agent/tickets/6749) · [pending] · 2026-07-09T22:21 · Refund request
 - [6750](https://tbpro.zendesk.com/agent/tickets/6750) · [hold] · 2026-07-09T23:47 · Custom Domain: DKIM Not Properly Served by [domain]
 - [6751](https://tbpro.zendesk.com/agent/tickets/6751) · [pending] · 2026-07-10T00:04 · Emails going to spam
 - [6752](https://tbpro.zendesk.com/agent/tickets/6752) · [pending] · 2026-07-10T03:05 · How to use Thundermail as I used to do with Thunderbird
@@ -150,7 +152,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6767](https://tbpro.zendesk.com/agent/tickets/6767) · [solved] · 2026-07-10T16:35 · Invite to join your team on [domain]
 - [6769](https://tbpro.zendesk.com/agent/tickets/6769) · [pending] · 2026-07-10T16:54 · Vision Gratuit sur Thundermail
 - [6770](https://tbpro.zendesk.com/agent/tickets/6770) · [pending] · 2026-07-10T17:00 · setting up e-mail allias
-- [6773](https://tbpro.zendesk.com/agent/tickets/6773) · [open] · 2026-07-10T18:34 · Missing my name from Customer portal on Paddle
+- [6773](https://tbpro.zendesk.com/agent/tickets/6773) · [pending] · 2026-07-10T18:34 · Missing my name from Customer portal on Paddle
 
 ## Solved — last 24h
 
