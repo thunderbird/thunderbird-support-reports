@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-09 23:15 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **122 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 18** of rollout — **6,500 invitees**, **123 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **12** new tickets in last 24h · **8** solved in last 24h
-- **122** tickets total since launch · contact rate **2%** of 6500 invitees
+- **123** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
@@ -66,14 +66,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 78
-- **pending**: 29
+- **pending**: 28
 - **hold**: 11
-- **open**: 4
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 58
-- **Thundermail**: 52
+- **Thundermail**: 53
 - **Appointment**: 5
 - **Send**: 2
 
@@ -168,7 +168,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6738](https://tbpro.zendesk.com/agent/tickets/6738) · [pending] · 2026-07-09T13:01 · Free tier
 - [6742](https://tbpro.zendesk.com/agent/tickets/6742) · [open] · 2026-07-09T15:47 · mta-sts not working right now
 - [6743](https://tbpro.zendesk.com/agent/tickets/6743) · [pending] · 2026-07-09T15:51 · help
-- [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [pending] · 2026-07-09T17:46 · thunderbird email
+- [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [open] · 2026-07-09T17:46 · thunderbird email
 
 ## Solved — last 24h
 
