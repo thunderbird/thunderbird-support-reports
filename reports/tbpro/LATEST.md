@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-09
 
-_Updated: **2026-07-09 19:36 ET** · refreshes hourly_  
+_Updated: **2026-07-09 20:56 ET** · refreshes hourly_  
 _24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **120 tickets** so far (1.8% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 18** of rollout — **6,500 invitees**, **122 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **12** new tickets in last 24h · **8** solved in last 24h
-- **120** tickets total since launch · contact rate **2%** of 6500 invitees
+- **122** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
@@ -58,7 +58,7 @@ _No negative ratings since launch._
 
 **Last 24h** — 2 new:
 
-- [Allow enabling catch-all on custom domains before having to complete and verify DNS changes](https://ideas.tb.pro/p/allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes) · 2 votes · _Thundermail, Improvement_
+- [Allow enabling catch-all on custom domains before having to complete and verify DNS changes](https://ideas.tb.pro/p/allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes) · 3 votes · _Thundermail, Improvement_
   > What you’d like to seeWhen adding a custom domain, would it be possible to allow turning on catch-all before having to add and verify all 12 domain records?The way it is at the moment you end up…
 - [Missing cname record!!!! _mta-sts](https://ideas.tb.pro/p/missing-cname-record-_mta-sts) · 1 votes · _Thundermail_
   > What you’d like to seeadd a cname record to BYODCNAME mta-sts.byod-example.com → mta-sts.thundermail.com. This would also include generating certs for byod-example.com.ORat least let the user know…
@@ -68,12 +68,12 @@ _No negative ratings since launch._
 - **solved**: 78
 - **pending**: 28
 - **hold**: 11
-- **open**: 3
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 58
-- **Thundermail**: 50
+- **Thundermail**: 52
 - **Appointment**: 5
 - **Send**: 2
 
@@ -166,7 +166,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6735](https://tbpro.zendesk.com/agent/tickets/6735) · [pending] · 2026-07-09T09:21 · Question about Monthly Subscription
 - [6736](https://tbpro.zendesk.com/agent/tickets/6736) · [solved] · 2026-07-09T10:51 · Receive mail at custom domain
 - [6738](https://tbpro.zendesk.com/agent/tickets/6738) · [pending] · 2026-07-09T13:01 · Free tier
-- [6742](https://tbpro.zendesk.com/agent/tickets/6742) · [pending] · 2026-07-09T15:47 · mta-sts not working right now
+- [6742](https://tbpro.zendesk.com/agent/tickets/6742) · [open] · 2026-07-09T15:47 · mta-sts not working right now
 - [6743](https://tbpro.zendesk.com/agent/tickets/6743) · [pending] · 2026-07-09T15:51 · help
 - [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [pending] · 2026-07-09T17:46 · thunderbird email
 
