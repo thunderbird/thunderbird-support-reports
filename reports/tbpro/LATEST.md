@@ -1,27 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 12:48 ET** · refreshes hourly_  
+_Updated: **2026-07-10 13:45 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 19** of rollout — **6,500 invitees**, **127 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 19** of rollout — **6,500 invitees**, **128 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **7** solved in last 24h
-- **127** tickets total since launch · contact rate **2%** of 6500 invitees
+- **10** new tickets in last 24h · **8** solved in last 24h
+- **128** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
-- **Median AHT**: 58.3h · mean 87.0h (proxy: updated_at − created_at, 80 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"rights reserved"** — 2 tickets in 24h (new; baseline 0 cum) — [#6767](https://tbpro.zendesk.com/agent/tickets/6767), [#6768](https://tbpro.zendesk.com/agent/tickets/6768)
-- **"request paddle"** — 2 tickets in 24h (new; baseline 0 cum) — [#6749](https://tbpro.zendesk.com/agent/tickets/6749), [#6768](https://tbpro.zendesk.com/agent/tickets/6768)
+- **Median AHT**: 55.9h · mean 85.9h (proxy: updated_at − created_at, 81 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -59,15 +52,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 80
-- **pending**: 29
+- **solved**: 81
+- **pending**: 30
 - **hold**: 11
-- **open**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 57
-- **Thundermail**: 57
+- **Account Hub**: 58
+- **Thundermail**: 58
 - **Appointment**: 5
 - **Send**: 2
 
@@ -77,7 +70,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 28
 - **blocked** + **explained**: 16
-- **request** + **redirected**: 12
+- **request** + **redirected**: 13
 - **confused** + **explained**: 10
 - **blocked** + **escalated**: 8
 - **blocked** + **investigated**: 8
@@ -87,6 +80,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **actioned**: 2
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
+- **other** + **n/a**: 1
 - **telling us** + **escalated**: 1
 - **blocked** + **—**: 1
 - **request** + **informed**: 1
@@ -98,19 +92,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 2 tickets
+### App setup / configuration — 2 tickets
 
-- **[#6768](https://tbpro.zendesk.com/agent/tickets/6768)** · Verify your email
-  > Verify your email Your details were submitted in a request for support on [domain] We didn’t find any purchases associated with this email address. Could you have used another…
-- **[#6767](https://tbpro.zendesk.com/agent/tickets/6767)** · Invite to join your team on [domain]
-  > Hi there, One of your team ([email]) has given you access to their Paddle Dashboard account. To get started using Paddle, please create your login details below: Accept Invite…
+- **[#6770](https://tbpro.zendesk.com/agent/tickets/6770)** · setting up e-mail allias
+  > I would like to use an allias. Can you help me add it to my account ? Do I need to create a new password other than my main one?
+- **[#6751](https://tbpro.zendesk.com/agent/tickets/6751)** · Emails going to spam — why: **concerned** · how: **explained**
+  > Testing emails from my account to my and my wife's Gmail accounts are going to spam.
 
 ### Other / uncategorized — 2 tickets
 
-- **[#6754](https://tbpro.zendesk.com/agent/tickets/6754)** · Email address reuse
-  > Hello, What happens to an email address if a user cancels their subscription? Can a future user claim it? Thank you
+- **[#6769](https://tbpro.zendesk.com/agent/tickets/6769)** · Vision Gratuit sur Thundermail
+  > Bonjour [name] suis Javaid Chaudhary Sarosh J'aimerais savoir s'il vous plait est-ce que il y aura une vision gratuit ? Merci Beaucoup Cordialement, [name]
 - **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird — why: **confused** · how: **explained**
   > I am a bit lost with all this. I don't want to use as email address “[email] ” for my emails exchanges but to keep using the same email addresses accounts that I actually use with…
+
+### Request or complaint — 2 tickets
+
+- **[#6754](https://tbpro.zendesk.com/agent/tickets/6754)** · Email address reuse — why: **request** · how: **redirected**
+  > Hello, What happens to an email address if a user cancels their subscription? Can a future user claim it? Thank you
+- **[#6748](https://tbpro.zendesk.com/agent/tickets/6748)** · Invites to others? — why: **request** · how: **redirected**
+  > Since I'm in the early access beta of the service, is there an option for me to invite others? I know some companies provide this, like 3 invites for friends for example.
 
 ### Aliases — 1 tickets
 
@@ -127,15 +128,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6749](https://tbpro.zendesk.com/agent/tickets/6749)** · Refund request — why: **request** · how: **actioned**
   > Hi! I would like to ask for a refund for the subscription bought 09.07.26. According to your support article…
 
-### App setup / configuration — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#6751](https://tbpro.zendesk.com/agent/tickets/6751)** · Emails going to spam — why: **concerned** · how: **explained**
-  > Testing emails from my account to my and my wife's Gmail accounts are going to spam.
-
-### Request or complaint — 1 tickets
-
-- **[#6748](https://tbpro.zendesk.com/agent/tickets/6748)** · Invites to others? — why: **request** · how: **redirected**
-  > Since I'm in the early access beta of the service, is there an option for me to invite others? I know some companies provide this, like 3 invites for friends for example.
+- **[#6767](https://tbpro.zendesk.com/agent/tickets/6767)** · Invite to join your team on [domain] — why: **other** · how: **n/a**
+  > Hi there, One of your team ([email]) has given you access to their Paddle Dashboard account. To get started using Paddle, please create your login details below: Accept Invite…
 
 ## New tickets — last 24h
 
@@ -144,10 +140,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6750](https://tbpro.zendesk.com/agent/tickets/6750) · [open] · 2026-07-09T23:47 · Custom Domain: DKIM Not Properly Served by [domain]
 - [6751](https://tbpro.zendesk.com/agent/tickets/6751) · [pending] · 2026-07-10T00:04 · Emails going to spam
 - [6752](https://tbpro.zendesk.com/agent/tickets/6752) · [pending] · 2026-07-10T03:05 · How to use Thundermail as I used to do with Thunderbird
-- [6754](https://tbpro.zendesk.com/agent/tickets/6754) · [open] · 2026-07-10T05:22 · Email address reuse
+- [6754](https://tbpro.zendesk.com/agent/tickets/6754) · [pending] · 2026-07-10T05:22 · Email address reuse
 - [6762](https://tbpro.zendesk.com/agent/tickets/6762) · [open] · 2026-07-10T13:55 · Questions sur migration domaine + e-mails
-- [6767](https://tbpro.zendesk.com/agent/tickets/6767) · [open] · 2026-07-10T16:35 · Invite to join your team on [domain]
-- [6768](https://tbpro.zendesk.com/agent/tickets/6768) · [open] · 2026-07-10T16:42 · Verify your email
+- [6767](https://tbpro.zendesk.com/agent/tickets/6767) · [solved] · 2026-07-10T16:35 · Invite to join your team on [domain]
+- [6769](https://tbpro.zendesk.com/agent/tickets/6769) · [open] · 2026-07-10T16:54 · Vision Gratuit sur Thundermail
+- [6770](https://tbpro.zendesk.com/agent/tickets/6770) · [open] · 2026-07-10T17:00 · setting up e-mail allias
 
 ## Solved — last 24h
 
@@ -158,6 +155,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6680](https://tbpro.zendesk.com/agent/tickets/6680) · 2026-07-10T15:34 · locked out of early bird access account
 - 👍 [6736](https://tbpro.zendesk.com/agent/tickets/6736) · 2026-07-10T16:13 · Receive mail at custom domain
 - 👍 [6724](https://tbpro.zendesk.com/agent/tickets/6724) · 2026-07-10T16:32 · Trouble connecting to managesieve
+- · [6767](https://tbpro.zendesk.com/agent/tickets/6767) · 2026-07-10T16:57 · Invite to join your team on [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
