@@ -14,6 +14,8 @@ Applies to: long-close themes, Flight 2 themes, all-launch leaderboard, misdirec
 
 Each ticket line: **`#ID` link + PII-redacted subject** — never theme-name paraphrase, never ID-only.
 
+**Repo rule:** PII must never exist in any repo file — committed or local. Always run subjects through `_redact()` / `pii_redact.redact()` before writing HTML or markdown into this repo.
+
 Lisa confirmed: subjects are useful for knowing what to click. Generic labels (e.g. "Request or complaint") lose too much signal.
 
 - **Subject display:** show the actual Zendesk subject with PII stripped via `_redact()` — emails → `[email]`, IPs → `[IP]`.

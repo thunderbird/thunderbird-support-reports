@@ -20,6 +20,14 @@ Audience: Lisa manages the support team. Reports are for ops leadership, not age
 - Implying blame on individual agents or naming agent performance (repo policy — never commit IC metrics).
 - Leading with calendar-day AHT without business-hours context (misleading for staffing decisions).
 
+## Scannable copy — no essay blocks
+
+- Max ~2 short sentences per prose block OR use bullet/scan-list
+- Masthead/lead: headline + metric row + one line per theme — never 80+ word paragraph
+- Pattern: `.masthead__highlights`, `.scan-list` in monthly samples
+- Executives/managers scan in 5 seconds — dense paragraphs fail restrained dashboard goal
+- Keep numbers + push/spam/GCS honesty when splitting
+
 ## Removed sections — do not re-add without Lisa's request
 
 - **Still open panel** — tried, then removed from launch overview (maintenance burden; doesn't scale).

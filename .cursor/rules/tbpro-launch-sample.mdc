@@ -8,6 +8,8 @@ alwaysApply: false
 
 See also `DESIGN.md` (sample gate pattern, same as monthly `june_sample.html`).
 
+**Local review:** When pointing Lisa to the launch overview sample or asking her to review locally, proactively include the full path: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/daily/launch_overview_sample.html` (see `CLAUDE.md` → *Local review links*).
+
 ## Rule
 
 **Design iteration:** edit **only** `lisa/daily/launch_overview_sample.html`.

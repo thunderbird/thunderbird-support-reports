@@ -6,14 +6,33 @@ alwaysApply: false
 
 # Monthly Report Redesign — PLANNED
 
-**Status: PLANNED — do not begin without explicit user go-ahead.**
+**Status: direction chosen (Jun 2026) — canonical design is restrained; do not port to `generate.py` until Lisa approves the sample.**
 
 See `CLAUDE.md` → *Planned — monthly report redesign* and `DESIGN.md` (monthly sample gate).
 
-## When Lisa asks to start
+**Local review:** When discussing the sample, drill-downs, or publish readiness, proactively include full `file://` paths (see `CLAUDE.md` → *Local review links*) — not relative paths only.
+
+## Canonical design — restrained
+
+Lisa chose the **restrained / dashboard** layout (June 2026 comparison):
+
+- **Inter only** — no serif display type; operational scan, not magazine
+- **Dashboard scan** — section filters, stat cards, compact tables; dialed-back styling vs editorial variant
+- **Scannable copy before Lisa review:** break masthead/narrative essay blocks into headline + metric row + `.scan-list` bullets (see `tbpro-copy-tone.mdc` → *Scannable copy*)
+- **Working prototype:** `lisa/2026/june_sample_restrained.html`
+- **When Fable starts:** consolidate `june_sample_restrained.html` → `lisa/2026/june_sample.html` (single approved sample gate file)
+
+**Archived reference only (do not build from):**
+
+- `june_compare_editorial.html`, `june_sample.html` (editorial/magazine serif direction)
+- `june_compare_restrained.html`, `june_compare_index.html` — comparison prototypes for the decision; keep for history
+
+Same non-negotiables as launch overview: Bolt tokens, dark mode, PII paraphrase/redaction before write (even locally — no PII in any repo file), Sonnet-maintainable section comments.
+
+## When Lisa asks Fable to start
 
 1. Copy prior month YAML → fill `data/june_2026.yaml` (Zendesk from Lisa; re-fetch Play Store, FeatureOS, SUMO live)
-2. Prototype **`lisa/2026/june_sample.html` only** — Bolt tokens, dark mode, paraphrased/redacted PII, layout reimagined from scratch (same playbook as `launch_overview_sample.html`); must be **Sonnet-maintainable from day one** (`<!-- SECTION: … -->` comments, Bolt tokens in `:root`, paraphrase pattern for all customer-facing text)
+2. Work from **`lisa/2026/june_sample_restrained.html`** — consolidate to **`june_sample.html`** when the sample is ready for review; Bolt tokens, dark mode, paraphrased/redacted PII, layout reimagined from scratch (same playbook as `launch_overview_sample.html`); must be **Sonnet-maintainable from day one** (`<!-- SECTION: … -->` comments, Bolt tokens in `:root`, paraphrase pattern for all customer-facing text)
 3. Read TB Pro rules: `tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`
 4. Create **`monthly-report-sample.mdc`** for section map and safe-edit patterns
 5. Lisa reviews sample → then port to `scripts/generate.py` and regenerate live `june.html`
@@ -23,6 +42,39 @@ See `CLAUDE.md` → *Planned — monthly report redesign* and `DESIGN.md` (month
 - `scripts/generate.py`
 - Live monthly output (`lisa/YYYY/month.html`, e.g. `june.html`)
 
+## Forbidden — archived months
+
+- Do **not** edit prior months' HTML, MD, or CSV in `lisa/YYYY/` — published dashboards (`march.html`, `april.html`, `may.html`, …), frozen deep dives (`march_push_deep_dive.html`, …), working docs (`*_followup.html`, `*_kb_recommendations.html`, `*_sumo_trending.html`, etc.), or their source exports
+- Exception: fixing a broken link **from** the current `*_sample.html` — prefer updating the sample's link to a **current-month** drill-down instead of patching archived files
+- Read archived months for voice, layout, and drill-down patterns only
+
+## Friction MoM trend copy
+
+Trend badges and narrative labels (e.g. `37→34→20`, `rising`, `accelerating`) describe **Play Store mention counts only** — not product progress.
+
+- Never imply eng fixes, support wins, or resolved issues on **Push / Notification Sync** or **Spam Filter Absent** unless Lisa explicitly states them in YAML or narrative.
+- ↓ mention count ≠ fixed notifications (push can still be #1 by volume with fewer mentions).
+- ↑ spam mentions = rising user pain; pair with "no fix shipped" when called out as a top theme.
+- Avoid outcome labels that sound like team action: "improving", "easing", "drag reduced", "fix rolling", "resolved lever".
+
+## Play Store GCS methodology caveat
+
+When MoM comparison spans manual export (Jan–May 2026) → GCS auto-export (June 2026+), always surface the methodology caveat in the sample/report — mobile manager approved the shift (July 2026). Discrepancies are partly source change, not necessarily real volume movement.
+
 ## Monthly sections to adapt
 
 Donor Care · TB Pro · Android Reviews · Desktop SUMO · Android SUMO · K-9 Forum
+
+## PII — mandatory before any commit
+
+**No PII in any repo file — committed or local.** Generators must import `scripts/pii_redact.py` and redact/paraphrase **before** writing HTML, MD, CSV, or JSON.
+
+Before commit or publish, grep the month's deliverables for:
+
+```bash
+rg '@|8696262544613553264|play\.google\.com/console|\[edited\]@|@msn\.com' lisa/YYYY/<month>*
+```
+
+Also spot-check: no verbatim Play Store review paragraphs, no raw SUMO question titles (use `redact_sumo_title` paraphrases), no Play Console developer account IDs in URLs.
+
+Generators that must use `pii_redact.py`: `generate.py`, `build_deep_dive_dashboard.py`, `build_drilldown_dashboards.py`, `sumo_trending.py`, `desktop_priorities.py`.

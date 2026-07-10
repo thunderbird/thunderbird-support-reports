@@ -53,6 +53,7 @@ Read **before** editing any TB Pro report HTML or generator script. Also: `tbpro
 - Re-adding **Still open** panel or blocker-column pattern.
 - Editing `launch_overview.html`, `tbpro_launch_overview.py`, or `latest.html` before sample approval.
 - PII: emails, names, domains, raw ticket bodies.
+- **Archived monthly reports** — do not edit prior months' HTML, MD, or CSV in `lisa/YYYY/` (`march.html`, `april.html`, `may.html`, frozen `*_deep_dive.html`, `*_followup.html`, `*_kb_recommendations.html`, `*_sumo_trending.html`, etc.). Fix links in the current `*_sample.html` instead; create current-month drill-downs rather than patching archives.
 
 ## File map — `launch_overview_sample.html`
 
