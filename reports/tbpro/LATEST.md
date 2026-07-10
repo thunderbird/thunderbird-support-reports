@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 08:55 ET** · refreshes hourly_  
+_Updated: **2026-07-10 09:47 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 19** of rollout — **6,500 invitees**, **125 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **3** solved in last 24h
+- **7** new tickets in last 24h · **4** solved in last 24h
 - **125** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
-- **Median AHT**: 58.3h · mean 87.3h (proxy: updated_at − created_at, 78 solved tickets)
+- **Median AHT**: 55.9h · mean 86.5h (proxy: updated_at − created_at, 79 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -52,9 +52,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 78
+- **solved**: 79
 - **pending**: 26
-- **open**: 11
+- **open**: 10
 - **hold**: 10
 
 ## Service (cumulative)
@@ -74,7 +74,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 9
 - **blocked** + **investigated**: 8
 - **change request** + **actioned**: 8
-- **blocked** + **escalated**: 6
+- **blocked** + **escalated**: 7
 - **blocked** + **actioned**: 3
 - **request** + **—**: 2
 - **concerned** + **explained**: 2
@@ -138,6 +138,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-09T20:04 · Can't add account in Thunderbird
 - · [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-09T21:51 · 2FA or passkey?
 - 👍 [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-09T22:22 · no confirmation email
+- · [6732](https://tbpro.zendesk.com/agent/tickets/6732) · 2026-07-10T13:41 · Change backup email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
