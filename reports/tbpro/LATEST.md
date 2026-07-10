@@ -1,27 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-09
+# Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-09 23:15 ET** · refreshes hourly_  
-_24h window: 2026-07-08T16:00 → 2026-07-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-10 01:30 ET** · refreshes hourly_  
+_24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 18** of rollout — **6,500 invitees**, **123 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 19** of rollout — **6,500 invitees**, **124 tickets** so far (1.9% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **8** solved in last 24h
-- **123** tickets total since launch · contact rate **2%** of 6500 invitees
+- **6** new tickets in last 24h · **3** solved in last 24h
+- **124** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 23
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 23
 - **Median AHT**: 58.3h · mean 87.3h (proxy: updated_at − created_at, 78 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"doing wrong"** — 2 tickets in 24h (new; baseline 0 cum) — [#6724](https://tbpro.zendesk.com/agent/tickets/6724), [#6736](https://tbpro.zendesk.com/agent/tickets/6736)
-- **"best regards"** — 2 tickets in 24h (8.5× baseline; baseline 4 cum) — [#6732](https://tbpro.zendesk.com/agent/tickets/6732), [#6735](https://tbpro.zendesk.com/agent/tickets/6735)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -45,35 +38,27 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 0
 
-- [6730](https://tbpro.zendesk.com/agent/tickets/6730) · [pending] · _Request Refund_
-  > I'd like to cancel my subscription and ask for a refund
-- [6741](https://tbpro.zendesk.com/agent/tickets/6741) · [pending] · _Cancel subscription and refund_
-  > Hi, I'm so happy to see you get this offering off the ground, but after digging around a bit, it's clear that the service is covered under US jurisdiction which makes it immediately and actively unwanted here. I'm…
-- [6749](https://tbpro.zendesk.com/agent/tickets/6749) · [open] · _Refund request_
-  > Hi! I would like to ask for a refund for the subscription bought 09.07.26. According to your support article (https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations) I have to contact support.…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Allow enabling catch-all on custom domains before having to complete and verify DNS changes](https://ideas.tb.pro/p/allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes) · 3 votes · _Thundermail, Improvement_
-  > What you’d like to seeWhen adding a custom domain, would it be possible to allow turning on catch-all before having to add and verify all 12 domain records?The way it is at the moment you end up…
-- [Missing cname record!!!! _mta-sts](https://ideas.tb.pro/p/missing-cname-record-_mta-sts) · 1 votes · _Thundermail_
-  > What you’d like to seeadd a cname record to BYODCNAME mta-sts.byod-example.com → mta-sts.thundermail.com. This would also include generating certs for byod-example.com.ORat least let the user know…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 78
 - **pending**: 28
 - **hold**: 11
-- **open**: 6
+- **open**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 58
-- **Thundermail**: 53
+- **Thundermail**: 54
 - **Appointment**: 5
 - **Send**: 2
 
@@ -104,82 +89,47 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 3 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#6733](https://tbpro.zendesk.com/agent/tickets/6733)** · Addressbook in Webmail
-  > I imported a list of contacts into the Thundermail address book (via Thunderbird client, for I couldn't find an import option in the web interface). All contacts were imported and…
-- **[#6727](https://tbpro.zendesk.com/agent/tickets/6727)** · Webmail Alpha — why: **blocked** · how: **escalated**
-  > Guys, finally, webmail! Congrats keep it up! You're building a great product. Much love and support! ❤️
-- **[#6722](https://tbpro.zendesk.com/agent/tickets/6722)** · Webmail - no mail from own domain — why: **blocked** · how: **investigated** · 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
-  > In the compose window of Thundermail webmail, only my [domain] address and the [domain] alias are offered for selection, but not the alias I set up with my custom domain. In the…
-
-### Custom domain / DKIM / DNS — 2 tickets
-
-- **[#6742](https://tbpro.zendesk.com/agent/tickets/6742)** · mta-sts not working right now
-  > https://[domain]/p/missing-cname-record-_mta-sts?b=ideas This issue AFFECTS EVERYONE that uses BYOD. Not just me.
-- **[#6736](https://tbpro.zendesk.com/agent/tickets/6736)** · Receive mail at custom domain — why: **blocked** · how: **explained**
-  > I acquired a custom domain through [domain]: [domain], and set up the DNS records. The “Verify Domain” button on my Thundermail dashboard seems to be happy, but when I tried…
-
-### Waitlist / onboarding inquiry — 1 tickets
-
-- **[#6746](https://tbpro.zendesk.com/agent/tickets/6746)** · thunderbird email — why: **curious** · how: **explained**
-  > frankly, i’m hoping you’ll invite me to open an email account with you as soon as invites are available. cheers!
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#6743](https://tbpro.zendesk.com/agent/tickets/6743)** · help — why: **curious** · how: **explained**
-  > in looking for a free account to check if i like your service then i may continue, please activate my free account
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#6738](https://tbpro.zendesk.com/agent/tickets/6738)** · Free tier — why: **curious** · how: **explained**
-  > I need to use this service freely,please
-
-### Pricing — annual-only inquiry — 1 tickets
-
-- **[#6735](https://tbpro.zendesk.com/agent/tickets/6735)** · Question about Monthly Subscription — why: **curious** · how: **explained**
-  > Hi there! I wanted to really try out thundermail before fully committing to it but having to pay a yearly subscription when I'm not sure if I'm happy with the product yet is a bit…
+- **[#6754](https://tbpro.zendesk.com/agent/tickets/6754)** · Email address reuse
+  > Hello, What happens to an email address if a user cancels their subscription? Can a future user claim it? Thank you
+- **[#6752](https://tbpro.zendesk.com/agent/tickets/6752)** · How to use Thundermail as I used to do with Thunderbird
+  > I am a bit lost with all this. I don't want to use as email address “[email] ” for my emails exchanges but to keep using the same email addresses accounts that I actually use with…
 
 ### App setup / configuration — 1 tickets
 
-- **[#6732](https://tbpro.zendesk.com/agent/tickets/6732)** · Change backup email — why: **request**
-  > Hey, Can you change my backup email from my Gmail to: [email] Thanks in advance! Best Regards, [name]
+- **[#6751](https://tbpro.zendesk.com/agent/tickets/6751)** · Emails going to spam
+  > Testing emails from my account to my and my wife's Gmail accounts are going to spam.
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6749](https://tbpro.zendesk.com/agent/tickets/6749)** · Refund request
+  > Hi! I would like to ask for a refund for the subscription bought 09.07.26. According to your support article…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6750](https://tbpro.zendesk.com/agent/tickets/6750)** · Custom Domain: DKIM Not Properly Served by [domain]
+  > Greetings, I am filing this ticket following a suggestion from TB Pro Matrix chatroom. I moved my domains to Thundermail about 8 days ago, that I think propagation is at this…
 
 ### Request or complaint — 1 tickets
 
-- **[#6726](https://tbpro.zendesk.com/agent/tickets/6726)** · Alies email delivery — why: **request** · how: **redirected**
-  > I have a suggestion to allow emails to route to different inboxes for different aliases. For example, if my account's primary address is [email], and I have an alias of [email],…
-
-### Other / uncategorized — 1 tickets
-
-- **[#6724](https://tbpro.zendesk.com/agent/tickets/6724)** · Trouble connecting to managesieve — why: **telling us** · how: **escalated**
-  > to have a usable email experience i need access to SIEVEs i see on the statuspage for thunderbird pro that you have Thundermail - ManageSieve however when i try to connect to it…
+- **[#6748](https://tbpro.zendesk.com/agent/tickets/6748)** · Invites to others? — why: **request** · how: **redirected**
+  > Since I'm in the early access beta of the service, is there an option for me to invite others? I know some companies provide this, like 3 invites for friends for example.
 
 ## New tickets — last 24h
 
-- [6722](https://tbpro.zendesk.com/agent/tickets/6722) · [hold] · 2026-07-08T20:55 · Webmail - no mail from own domain 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
-- [6724](https://tbpro.zendesk.com/agent/tickets/6724) · [solved] · 2026-07-08T21:30 · Trouble connecting to managesieve
-- [6726](https://tbpro.zendesk.com/agent/tickets/6726) · [pending] · 2026-07-08T23:07 · Alies email delivery
-- [6727](https://tbpro.zendesk.com/agent/tickets/6727) · [pending] · 2026-07-08T23:26 · Webmail Alpha
-- [6732](https://tbpro.zendesk.com/agent/tickets/6732) · [pending] · 2026-07-09T08:28 · Change backup email
-- [6733](https://tbpro.zendesk.com/agent/tickets/6733) · [hold] · 2026-07-09T08:34 · Addressbook in Webmail
-- [6735](https://tbpro.zendesk.com/agent/tickets/6735) · [pending] · 2026-07-09T09:21 · Question about Monthly Subscription
-- [6736](https://tbpro.zendesk.com/agent/tickets/6736) · [solved] · 2026-07-09T10:51 · Receive mail at custom domain
-- [6738](https://tbpro.zendesk.com/agent/tickets/6738) · [pending] · 2026-07-09T13:01 · Free tier
-- [6742](https://tbpro.zendesk.com/agent/tickets/6742) · [open] · 2026-07-09T15:47 · mta-sts not working right now
-- [6743](https://tbpro.zendesk.com/agent/tickets/6743) · [pending] · 2026-07-09T15:51 · help
-- [6746](https://tbpro.zendesk.com/agent/tickets/6746) · [open] · 2026-07-09T17:46 · thunderbird email
+- [6748](https://tbpro.zendesk.com/agent/tickets/6748) · [pending] · 2026-07-09T20:36 · Invites to others?
+- [6749](https://tbpro.zendesk.com/agent/tickets/6749) · [open] · 2026-07-09T22:21 · Refund request
+- [6750](https://tbpro.zendesk.com/agent/tickets/6750) · [pending] · 2026-07-09T23:47 · Custom Domain: DKIM Not Properly Served by [domain]
+- [6751](https://tbpro.zendesk.com/agent/tickets/6751) · [open] · 2026-07-10T00:04 · Emails going to spam
+- [6752](https://tbpro.zendesk.com/agent/tickets/6752) · [open] · 2026-07-10T03:05 · How to use Thundermail as I used to do with Thunderbird
+- [6754](https://tbpro.zendesk.com/agent/tickets/6754) · [open] · 2026-07-10T05:22 · Email address reuse
 
 ## Solved — last 24h
 
-- · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-07-09T11:01 · unconscionable ToS and (lack of) Privacy Policy.
-- · [6736](https://tbpro.zendesk.com/agent/tickets/6736) · 2026-07-09T15:08 · Receive mail at custom domain
-- · [6724](https://tbpro.zendesk.com/agent/tickets/6724) · 2026-07-09T15:54 · Trouble connecting to managesieve
-- · [6692](https://tbpro.zendesk.com/agent/tickets/6692) · 2026-07-09T17:02 · Stuck at email verifcation
-- · [6614](https://tbpro.zendesk.com/agent/tickets/6614) · 2026-07-09T17:05 · SEND not working
-- · [6717](https://tbpro.zendesk.com/agent/tickets/6717) · 2026-07-09T18:38 · Pricing detail
-- · [6675](https://tbpro.zendesk.com/agent/tickets/6675) · 2026-07-09T19:05 · I have been invited but cannot login
-- 👍 [6520](https://tbpro.zendesk.com/agent/tickets/6520) · 2026-07-09T19:41 · Signup Issue
+- · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-09T20:04 · Can't add account in Thunderbird
+- · [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-09T21:51 · 2FA or passkey?
+- 👍 [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-09T22:22 · no confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
