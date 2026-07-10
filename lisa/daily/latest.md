@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 01:30 ET** · refreshes hourly_  
+_Updated: **2026-07-10 03:23 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 19** of rollout — **6,500 invitees**, **124 tickets** so far
 - **124** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 23
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
 - **Median AHT**: 58.3h · mean 87.3h (proxy: updated_at − created_at, 78 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
@@ -29,8 +29,9 @@ Flight 3 is **day 19** of rollout — **6,500 invitees**, **124 tickets** so far
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
 
-## Other tickets linked to GitHub — 2 ticket(s) → 2 issue(s)
+## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
+- 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Addressbook in Webmail_
 - 🔧 [zd #6722](https://tbpro.zendesk.com/agent/tickets/6722) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 🔧 [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
@@ -44,16 +45,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Multiple MFA entries for each type (and rename-able)](https://ideas.tb.pro/p/multiple-mfa-entries-for-each-type-and-rename-able) · 1 votes · _untagged_
+  > What you’d like to seeAble to set up multiple entries for each MFA types. Currently the feature seems to only allow having one TOTP auth app for my TB Pro account.If we can have multiple MFA entries,…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 78
-- **pending**: 28
+- **pending**: 27
 - **hold**: 11
-- **open**: 7
+- **open**: 8
 
 ## Service (cumulative)
 
