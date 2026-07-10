@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 17:31 ET** · refreshes hourly_  
+_Updated: **2026-07-10 18:30 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 19** of rollout — **6,500 invitees**, **129 tickets** so far
 
 ## At a glance
 
-- **11** new tickets in last 24h · **10** solved in last 24h
+- **11** new tickets in last 24h · **9** solved in last 24h
 - **129** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 24
-- **Median AHT**: 60.7h · mean 86.8h (proxy: updated_at − created_at, 81 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 25
+- **Median AHT**: 60.7h · mean 87.1h (proxy: updated_at − created_at, 81 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -152,13 +152,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6762](https://tbpro.zendesk.com/agent/tickets/6762) · [pending] · 2026-07-10T13:55 · Questions sur migration domaine + e-mails
 - [6767](https://tbpro.zendesk.com/agent/tickets/6767) · [solved] · 2026-07-10T16:35 · Invite to join your team on [domain]
 - [6769](https://tbpro.zendesk.com/agent/tickets/6769) · [pending] · 2026-07-10T16:54 · Vision Gratuit sur Thundermail
-- [6770](https://tbpro.zendesk.com/agent/tickets/6770) · [pending] · 2026-07-10T17:00 · setting up e-mail allias
+- [6770](https://tbpro.zendesk.com/agent/tickets/6770) · [open] · 2026-07-10T17:00 · setting up e-mail allias
 - [6773](https://tbpro.zendesk.com/agent/tickets/6773) · [pending] · 2026-07-10T18:34 · Missing my name from Customer portal on Paddle
 
 ## Solved — last 24h
 
 - · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-09T20:04 · Can't add account in Thunderbird
-- · [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-09T21:51 · 2FA or passkey?
 - 👍 [6678](https://tbpro.zendesk.com/agent/tickets/6678) · 2026-07-09T22:22 · no confirmation email
 - · [6732](https://tbpro.zendesk.com/agent/tickets/6732) · 2026-07-10T13:41 · Change backup email
 - · [6680](https://tbpro.zendesk.com/agent/tickets/6680) · 2026-07-10T15:34 · locked out of early bird access account
