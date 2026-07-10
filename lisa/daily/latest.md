@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-10
 
-_Updated: **2026-07-10 07:13 ET** · refreshes hourly_  
+_Updated: **2026-07-10 08:55 ET** · refreshes hourly_  
 _24h window: 2026-07-09T16:00 → 2026-07-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -47,7 +47,7 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Multiple MFA entries for each type (and rename-able)](https://ideas.tb.pro/p/multiple-mfa-entries-for-each-type-and-rename-able) · 1 votes · _untagged_
+- [Multiple MFA entries for each type (and rename-able)](https://ideas.tb.pro/p/multiple-mfa-entries-for-each-type-and-rename-able) · 1 votes · _Accounts & Subscriptions, Privacy & Security_
   > What you’d like to seeAble to set up multiple entries for each MFA types. Currently the feature seems to only allow having one TOTP auth app for my TB Pro account.If we can have multiple MFA entries,…
 
 ## Status breakdown (cumulative)
