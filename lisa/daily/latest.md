@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-11
 
-_Updated: **2026-07-11 07:29 ET** · refreshes hourly_  
+_Updated: **2026-07-11 08:29 ET** · refreshes hourly_  
 _24h window: 2026-07-10T16:00 → 2026-07-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 3 is **day 20** of rollout — **6,500 invitees**, **131 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"refund delete"** — 2 tickets in 24h (new; baseline 0 cum) — [#6778](https://tbpro.zendesk.com/agent/tickets/6778), [#6781](https://tbpro.zendesk.com/agent/tickets/6781)
+- **"refund delete mailbox"** — 2 tickets in 24h (new; baseline 0 cum) — [#6778](https://tbpro.zendesk.com/agent/tickets/6778), [#6781](https://tbpro.zendesk.com/agent/tickets/6781)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
