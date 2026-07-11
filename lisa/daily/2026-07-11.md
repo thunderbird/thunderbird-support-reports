@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-11
 
-_Updated: **2026-07-11 14:28 ET** · refreshes hourly_  
+_Updated: **2026-07-11 15:34 ET** · refreshes hourly_  
 _24h window: 2026-07-10T16:00 → 2026-07-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -31,7 +31,7 @@ Flight 3 is **day 20** of rollout — **6,500 invitees**, **130 tickets** so far
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
-- 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Addressbook in Webmail_
+- 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6722](https://tbpro.zendesk.com/agent/tickets/6722) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 🔧 [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
