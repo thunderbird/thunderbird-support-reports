@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-11
 
-_Updated: **2026-07-11 09:43 ET** · refreshes hourly_  
+_Updated: **2026-07-11 10:33 ET** · refreshes hourly_  
 _24h window: 2026-07-10T16:00 → 2026-07-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 20** of rollout — **6,500 invitees**, **131 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
+- **2** new tickets in last 24h · **5** solved in last 24h
 - **131** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 25
-- **Median AHT**: 64.2h · mean 89.7h (proxy: updated_at − created_at, 81 solved tickets)
+- **Median AHT**: 66.2h · mean 90.4h (proxy: updated_at − created_at, 82 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -53,8 +53,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 81
-- **pending**: 34
+- **solved**: 82
+- **pending**: 33
 - **hold**: 11
 - **open**: 5
 
@@ -69,7 +69,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 31
+- **curious** + **explained**: 32
 - **blocked** + **explained**: 16
 - **request** + **redirected**: 13
 - **confused** + **explained**: 10
@@ -93,9 +93,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Waitlist / onboarding inquiry — 1 tickets
 
-- **[#6783](https://tbpro.zendesk.com/agent/tickets/6783)** · I really apologize but I'm kinda panicking 
+- **[#6783](https://tbpro.zendesk.com/agent/tickets/6783)** · I really apologize but I'm kinda panicking  — why: **curious** · how: **explained**
   > Really sorry but my weird anxiety disorder won't leave me if I didn't ask the question. I got worried that I missed the Bird phase? Is it possible? I joined the list at the start…
 
 ### Subscription / billing / refund / cancel — 1 tickets
@@ -113,6 +113,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6675](https://tbpro.zendesk.com/agent/tickets/6675) · 2026-07-10T20:01 · I have been invited but cannot login
 - 👍 [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-10T22:27 · 2FA or passkey?
 - 👍 [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-11T06:00 · Unable to send emails out from Thunderbird
+- · [6732](https://tbpro.zendesk.com/agent/tickets/6732) · 2026-07-11T14:01 · Change backup email
+- · [6649](https://tbpro.zendesk.com/agent/tickets/6649) · 2026-07-11T14:01 · Beta tester offer
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
