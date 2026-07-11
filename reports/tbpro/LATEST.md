@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-11
 
-_Updated: **2026-07-11 02:56 ET** · refreshes hourly_  
+_Updated: **2026-07-11 03:45 ET** · refreshes hourly_  
 _24h window: 2026-07-10T16:00 → 2026-07-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 20** of rollout — **6,500 invitees**, **129 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 20** of rollout — **6,500 invitees**, **130 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **3** solved in last 24h
-- **129** tickets total since launch · contact rate **2%** of 6500 invitees
+- **1** new tickets in last 24h · **3** solved in last 24h
+- **130** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 25
@@ -39,9 +39,10 @@ Flight 3 is **day 20** of rollout — **6,500 invitees**, **129 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6778](https://tbpro.zendesk.com/agent/tickets/6778) · [open] · _Cancel Thundermail subscription and request full $72 refund_
+  > Please cancel my Thundermail Early Bird subscription and issue a full refund of $72.00 to the original payment method, Mastercard ending 5810. The charge was made by [domain]* MZLATECHNO on July 7, 2026 at 23:49 and…
 
 ## New ideas on FeatureOS
 
@@ -55,11 +56,11 @@ _(none in last 24h)_
 - **solved**: 81
 - **pending**: 34
 - **hold**: 11
-- **open**: 3
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 59
+- **Thundermail**: 60
 - **Account Hub**: 57
 - **Appointment**: 5
 - **Send**: 3
@@ -92,11 +93,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Email migration / import — 1 tickets
+
+- **[#6778](https://tbpro.zendesk.com/agent/tickets/6778)** · Cancel Thundermail subscription and request full $72 refund
+  > Please cancel my Thundermail Early Bird subscription and issue a full refund of $72.00 to the original payment method, Mastercard ending 5810. The charge was made by [domain]*…
 
 ## New tickets — last 24h
 
-_(none)_
+- [6778](https://tbpro.zendesk.com/agent/tickets/6778) · [open] · 2026-07-11T07:44 · Cancel Thundermail subscription and request full $72 refund
 
 ## Solved — last 24h
 
