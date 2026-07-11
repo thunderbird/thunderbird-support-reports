@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-11
 
-_Updated: **2026-07-11 11:29 ET** · refreshes hourly_  
+_Updated: **2026-07-11 12:28 ET** · refreshes hourly_  
 _24h window: 2026-07-10T16:00 → 2026-07-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 20** of rollout — **6,500 invitees**, **131 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **131** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 25
-- **Median AHT**: 66.2h · mean 90.4h (proxy: updated_at − created_at, 82 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 26
+- **Median AHT**: 66.2h · mean 90.7h (proxy: updated_at − created_at, 82 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -46,17 +46,19 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Full calendar support in webmail](https://ideas.tb.pro/p/full-calendar-support-in-webmail) · 1 votes · _untagged_
+  > What you’d like to seeCalendar UI and features similar to Thunderbird desktop implemented in the webmail interface.Roughly the changes/features:New calendar(s) icon/tab in left rail list (near Mail,…
 - [Webmail columns](https://ideas.tb.pro/p/webmail-columns) · 1 votes · _untagged_
   > Include Time of email along with the Date in the display.Ability to sort mail list by Sender.Ability to sort mail Ascending / Descending date time order.
 
 ## Status breakdown (cumulative)
 
 - **solved**: 82
-- **pending**: 32
+- **pending**: 31
 - **hold**: 10
-- **open**: 7
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -115,6 +117,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-11T06:00 · Unable to send emails out from Thunderbird
 - · [6732](https://tbpro.zendesk.com/agent/tickets/6732) · 2026-07-11T14:01 · Change backup email
 - · [6649](https://tbpro.zendesk.com/agent/tickets/6649) · 2026-07-11T14:01 · Beta tester offer
+- · [6680](https://tbpro.zendesk.com/agent/tickets/6680) · 2026-07-11T16:02 · locked out of early bird access account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
