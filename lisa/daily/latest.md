@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-12
 
-_Updated: **2026-07-12 05:45 ET** · refreshes hourly_  
+_Updated: **2026-07-12 06:40 ET** · refreshes hourly_  
 _24h window: 2026-07-11T16:00 → 2026-07-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 21** of rollout — **6,500 invitees**, **130 tickets** so far
 - **130** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 27
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 28
 - **Median AHT**: 69.1h · mean 90.6h (proxy: updated_at − created_at, 84 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
@@ -45,8 +45,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Nextcloud and other privacy focused cloud providers intgration](https://ideas.tb.pro/p/nextcloud-and-other-privacy-focused-cloud-providers-intgration) · 1 votes · _untagged_
+  > What you’d like to seeIntegration between Thundermail and Nextcloud (and /or other cloud providers) to be similar to Outlook and One drive integrationWhy it mattersLess friction when uploading and…
 - [FIDO2 for MFA](https://ideas.tb.pro/p/fido2-for-mfa) · 1 votes · _Privacy & Security, Accounts & Subscriptions_
   > What you’d like to seeI’d like to be able to add FIDO2 Hardware Security Keys and use them for MFA instead of just having TOTP and nothing else.Why it mattersSome privacy focused users might trust…
 
