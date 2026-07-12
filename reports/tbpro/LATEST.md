@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-07-11
+# Thundermail — Flight 3 Live Report · 2026-07-12
 
-_Updated: **2026-07-11 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-10T16:00 → 2026-07-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-12 01:16 ET** · refreshes hourly_  
+_24h window: 2026-07-11T16:00 → 2026-07-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 20** of rollout — **6,500 invitees**, **130 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 21** of rollout — **6,500 invitees**, **130 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
+- **0** new tickets in last 24h · **4** solved in last 24h
 - **130** tickets total since launch · contact rate **2%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 27
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 27
 - **Median AHT**: 69.5h · mean 93.2h (proxy: updated_at − created_at, 85 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
@@ -39,19 +39,16 @@ Flight 3 is **day 20** of rollout — **6,500 invitees**, **130 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [6781](https://tbpro.zendesk.com/agent/tickets/6781) · [open] · _Re: [Thunderbird Pro Beta] We're here to help: "Cancel Thundermail subscription and request full $72 refund"_
-  > Hello [name], Please disregard and withdraw my cancellation and refund request #6778. I need to keep my Thundermail subscription, mailbox, and username [email] active. I realized this address is connected to my DocTime…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 1 new:
 
-- [Full calendar support in webmail](https://ideas.tb.pro/p/full-calendar-support-in-webmail) · 1 votes · _untagged_
-  > What you’d like to seeCalendar UI and features similar to Thunderbird desktop implemented in the webmail interface.Roughly the changes/features:New calendar(s) icon/tab in left rail list (near Mail,…
-- [Webmail columns](https://ideas.tb.pro/p/webmail-columns) · 1 votes · _untagged_
-  > Include Time of email along with the Date in the display.Ability to sort mail list by Sender.Ability to sort mail Ascending / Descending date time order.
+- [FIDO2 for MFA](https://ideas.tb.pro/p/fido2-for-mfa) · 1 votes · _Privacy & Security, Accounts & Subscriptions_
+  > What you’d like to seeI’d like to be able to add FIDO2 Hardware Security Keys and use them for MFA instead of just having TOTP and nothing else.Why it mattersSome privacy focused users might trust…
 
 ## Status breakdown (cumulative)
 
@@ -94,29 +91,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Waitlist / onboarding inquiry — 1 tickets
-
-- **[#6783](https://tbpro.zendesk.com/agent/tickets/6783)** · I really apologize but I'm kinda panicking  — why: **curious** · how: **explained**
-  > Really sorry but my weird anxiety disorder won't leave me if I didn't ask the question. I got worried that I missed the Bird phase? Is it possible? I joined the list at the start…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6781](https://tbpro.zendesk.com/agent/tickets/6781)** · Re: [Thunderbird Pro Beta] We're here to help: "Cancel Thundermail subscription and request full $72 refund"
-  > Hello [name], Please disregard and withdraw my cancellation and refund request #6778. I need to keep my Thundermail subscription, mailbox, and username [email] active. I realized…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [6781](https://tbpro.zendesk.com/agent/tickets/6781) · [open] · 2026-07-11T08:46 · Re: [Thunderbird Pro Beta] We're here to help: "Cancel Thundermail subscription and request full $72
-- [6783](https://tbpro.zendesk.com/agent/tickets/6783) · [open] · 2026-07-11T12:33 · I really apologize but I'm kinda panicking 
+_(none)_
 
 ## Solved — last 24h
 
-- · [6675](https://tbpro.zendesk.com/agent/tickets/6675) · 2026-07-10T20:01 · I have been invited but cannot login
-- 👍 [6662](https://tbpro.zendesk.com/agent/tickets/6662) · 2026-07-10T22:27 · 2FA or passkey?
-- 👍 [6498](https://tbpro.zendesk.com/agent/tickets/6498) · 2026-07-11T06:00 · Unable to send emails out from Thunderbird
-- · [6732](https://tbpro.zendesk.com/agent/tickets/6732) · 2026-07-11T14:01 · Change backup email
-- · [6649](https://tbpro.zendesk.com/agent/tickets/6649) · 2026-07-11T14:01 · Beta tester offer
-- · [6680](https://tbpro.zendesk.com/agent/tickets/6680) · 2026-07-11T16:02 · locked out of early bird access account
+- · [6656](https://tbpro.zendesk.com/agent/tickets/6656) · 2026-07-11T20:01 · Payment
+- · [6653](https://tbpro.zendesk.com/agent/tickets/6653) · 2026-07-11T21:02 · 14 day cancel and refund
+- · [6655](https://tbpro.zendesk.com/agent/tickets/6655) · 2026-07-11T22:01 · Thundermail (thunderbird pro subscriptions OK) IOS App
+- · [6664](https://tbpro.zendesk.com/agent/tickets/6664) · 2026-07-11T23:01 · Question About the Early Bird Sign Up
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
