@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-12
 
-_Updated: **2026-07-12 09:43 ET** · refreshes hourly_  
+_Updated: **2026-07-12 10:37 ET** · refreshes hourly_  
 _24h window: 2026-07-11T16:00 → 2026-07-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 21** of rollout — **6,500 invitees**, **130 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 21** of rollout — **6,500 invitees**, **131 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **4** solved in last 24h
-- **130** tickets total since launch · contact rate **2%** of 6500 invitees
+- **1** new tickets in last 24h · **4** solved in last 24h
+- **131** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 28
@@ -58,10 +58,11 @@ _(none in last 24h)_
 - **pending**: 26
 - **open**: 10
 - **hold**: 10
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 61
+- **Thundermail**: 62
 - **Account Hub**: 55
 - **Appointment**: 5
 - **Send**: 4
@@ -93,11 +94,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Email migration / import — 1 tickets
+
+- **[#6797](https://tbpro.zendesk.com/agent/tickets/6797)** · 1 Inbox, 15 Email Addresses?
+  > Help me understand what I would be buying _“1 Inbox, 15 Email Addresses”. _ My brain translates it to _“1 Inbox, 15 Email Aliases”_ - meaning _“1 email address with 15 optional…
 
 ## New tickets — last 24h
 
-_(none)_
+- [6797](https://tbpro.zendesk.com/agent/tickets/6797) · [new] · 2026-07-12T14:14 · 1 Inbox, 15 Email Addresses?
 
 ## Solved — last 24h
 
