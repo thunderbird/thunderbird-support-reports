@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 12:57 ET** · refreshes hourly_  
+_Updated: **2026-07-13 13:47 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **135 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **134 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
-- **135** tickets total since launch · contact rate **2%** of 6500 invitees
+- **3** new tickets in last 24h · **9** solved in last 24h
+- **134** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 29
-- **Median AHT**: 79.3h · mean 101.0h (proxy: updated_at − created_at, 92 solved tickets)
+- **Median AHT**: 78.6h · mean 98.8h (proxy: updated_at − created_at, 93 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -52,16 +52,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 92
-- **pending**: 19
-- **open**: 12
+- **solved**: 93
+- **pending**: 25
 - **hold**: 11
-- **new**: 1
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 64
-- **Account Hub**: 57
+- **Thundermail**: 62
+- **Account Hub**: 59
 - **Appointment**: 5
 - **Send**: 4
 
@@ -69,7 +68,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 32
+- **curious** + **explained**: 33
 - **blocked** + **explained**: 17
 - **request** + **redirected**: 13
 - **confused** + **explained**: 10
@@ -81,8 +80,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 3
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
-- **blocked** + **—**: 1
+- **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
+- **blocked** + **—**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -91,11 +91,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6815](https://tbpro.zendesk.com/agent/tickets/6815)** · JOIN US FOR A DAY OF JOY, LOVE, AND CELEBRATION.
-  > *CLICK HERE TO VIEW THE DATE, TIME, VENUE, AND MORE.* *OPEN INVITATION* <https://shorturl.at/GWGJE> [image: https://shorturl.at/GWGJE] <https://shorturl.at/GWGJE> INVITATION
 
 ### Account access issues — 1 tickets
 
@@ -117,7 +112,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [open] · 2026-07-13T02:58 · Setting Up Aliases on iOS
 - [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [open] · 2026-07-13T03:43 · A couple of things.
 - [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [pending] · 2026-07-13T06:35 · Change recovery email address
-- [6815](https://tbpro.zendesk.com/agent/tickets/6815) · [new] · 2026-07-13T14:25 · JOIN US FOR A DAY OF JOY, LOVE, AND CELEBRATION.
 
 ## Solved — last 24h
 
@@ -128,7 +122,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6687](https://tbpro.zendesk.com/agent/tickets/6687) · 2026-07-12T22:01 · Gmail flagged my outgoing test email as spam -_-
 - · [6685](https://tbpro.zendesk.com/agent/tickets/6685) · 2026-07-13T00:01 · Invitation early bird plan
 - · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-13T16:04 · Outgoing messages with custom domain not being signed with DKIM
-- · [6524](https://tbpro.zendesk.com/agent/tickets/6524) · 2026-07-13T16:33 · Unable to use my new email and configure Thunderbird
+- · [6770](https://tbpro.zendesk.com/agent/tickets/6770) · 2026-07-13T16:59 · setting up e-mail allias
+- · [6698](https://tbpro.zendesk.com/agent/tickets/6698) · 2026-07-13T17:01 · Recovery E-Mail and Aliases
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
