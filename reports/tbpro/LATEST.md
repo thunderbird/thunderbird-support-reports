@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 07:14 ET** · refreshes hourly_  
+_Updated: **2026-07-13 08:59 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -53,9 +53,8 @@ _(none in last 24h)_
 
 - **solved**: 90
 - **pending**: 17
-- **open**: 14
-- **hold**: 9
-- **new**: 4
+- **open**: 16
+- **hold**: 11
 
 ## Service (cumulative)
 
@@ -108,9 +107,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [new] · 2026-07-13T02:58 · Setting Up Aliases on iOS
-- [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [new] · 2026-07-13T03:43 · A couple of things.
-- [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [new] · 2026-07-13T06:35 · Change recovery email address
+- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [open] · 2026-07-13T02:58 · Setting Up Aliases on iOS
+- [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [open] · 2026-07-13T03:43 · A couple of things.
+- [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [open] · 2026-07-13T06:35 · Change recovery email address
 
 ## Solved — last 24h
 
