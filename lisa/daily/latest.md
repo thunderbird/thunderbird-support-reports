@@ -1,18 +1,18 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 01:19 ET** · refreshes hourly_  
+_Updated: **2026-07-13 03:22 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **133 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **134 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
-- **133** tickets total since launch · contact rate **2%** of 6500 invitees
+- **3** new tickets in last 24h · **6** solved in last 24h
+- **134** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (23 good / 0 bad)
+- **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 28
 - **Median AHT**: 76.8h · mean 94.9h (proxy: updated_at − created_at, 90 solved tickets)
 
@@ -55,12 +55,12 @@ _(none in last 24h)_
 - **pending**: 18
 - **open**: 13
 - **hold**: 9
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Thundermail**: 63
-- **Account Hub**: 56
+- **Account Hub**: 57
 - **Appointment**: 5
 - **Send**: 4
 
@@ -91,6 +91,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address
+  > I want to change the recovery email address associated with my thunderbird pro account.
+
 ### Account access issues — 1 tickets
 
 - **[#6801](https://tbpro.zendesk.com/agent/tickets/6801)** · A couple of things.
@@ -105,6 +110,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [new] · 2026-07-13T02:58 · Setting Up Aliases on iOS
 - [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [new] · 2026-07-13T03:43 · A couple of things.
+- [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [new] · 2026-07-13T06:35 · Change recovery email address
 
 ## Solved — last 24h
 
