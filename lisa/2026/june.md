@@ -89,6 +89,8 @@ June was a strong CSAT month — every satisfaction score rose. Overall hit 83.6
 
 The team is growing — we're bringing on two new Technical Support Specialists, with onboarding expected in late July and early August.
 
+This dashboard was redesigned with [Fable](https://claude.ai/code) following [Bolt](https://bolt.thunderbird.net/) design principles.
+
 ---
 ## Data Access
 Dashboard: [june.html](https://thunderbird.github.io/thunderbird-support-reports/lisa/2026/june.html)
