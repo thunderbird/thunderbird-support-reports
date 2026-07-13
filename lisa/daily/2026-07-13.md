@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 17:29 ET** · refreshes hourly_  
+_Updated: **2026-07-13 18:28 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **135 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **136 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **10** solved in last 24h
-- **135** tickets total since launch · contact rate **2%** of 6500 invitees
+- **136** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 29
@@ -47,20 +47,20 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Nested Labels (or Tags), as in Fastmail](https://ideas.tb.pro/p/nested-labels-or-tags-as-in-fastmail) · 2 votes · _Thundermail, Improvement_
+- [Nested Labels (or Tags), as in Fastmail](https://ideas.tb.pro/p/nested-labels-or-tags-as-in-fastmail) · 3 votes · _Thundermail, Improvement_
   > Nested Labels (or Tags), as in FastmailThe ability to assign labels, structured in a hierarchy, to email. Could be done manually, or using a rule. The same design as fastmail would be great.Why it…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 95
 - **pending**: 24
-- **open**: 9
+- **open**: 10
 - **hold**: 7
 
 ## Service (cumulative)
 
 - **Thundermail**: 62
-- **Account Hub**: 60
+- **Account Hub**: 61
 - **Appointment**: 5
 - **Send**: 4
 
