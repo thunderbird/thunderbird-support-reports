@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 11:09 ET** · refreshes hourly_  
+_Updated: **2026-07-13 12:57 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 22** of rollout — **6,500 invitees**, **135 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
+- **4** new tickets in last 24h · **8** solved in last 24h
 - **135** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 28
-- **Median AHT**: 76.8h · mean 94.9h (proxy: updated_at − created_at, 90 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 29
+- **Median AHT**: 79.3h · mean 101.0h (proxy: updated_at − created_at, 92 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -45,21 +45,22 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Nested Labels (or Tags), as in Fastmail](https://ideas.tb.pro/p/nested-labels-or-tags-as-in-fastmail) · 1 votes · _Thundermail, Improvement_
+  > Nested Labels (or Tags), as in FastmailThe ability to assign labels, structured in a hierarchy, to email. Could be done manually, or using a rule. The same design as fastmail would be great.Why it…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 90
-- **pending**: 17
-- **open**: 16
+- **solved**: 92
+- **pending**: 19
+- **open**: 12
 - **hold**: 11
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 63
+- **Thundermail**: 64
 - **Account Hub**: 57
 - **Appointment**: 5
 - **Send**: 4
@@ -69,17 +70,17 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 32
-- **blocked** + **explained**: 16
+- **blocked** + **explained**: 17
 - **request** + **redirected**: 13
 - **confused** + **explained**: 10
+- **change request** + **actioned**: 9
 - **blocked** + **investigated**: 8
 - **blocked** + **escalated**: 8
-- **change request** + **actioned**: 8
-- **blocked** + **actioned**: 3
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
-- **change request** + **escalated**: 2
+- **blocked** + **actioned**: 3
 - **request** + **—**: 2
+- **change request** + **escalated**: 2
 - **blocked** + **—**: 1
 - **telling us** + **escalated**: 1
 - **request** + **informed**: 1
@@ -96,11 +97,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6815](https://tbpro.zendesk.com/agent/tickets/6815)** · JOIN US FOR A DAY OF JOY, LOVE, AND CELEBRATION.
   > *CLICK HERE TO VIEW THE DATE, TIME, VENUE, AND MORE.* *OPEN INVITATION* <https://shorturl.at/GWGJE> [image: https://shorturl.at/GWGJE] <https://shorturl.at/GWGJE> INVITATION
 
-### Other / uncategorized — 1 tickets
-
-- **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address
-  > I want to change the recovery email address associated with my thunderbird pro account.
-
 ### Account access issues — 1 tickets
 
 - **[#6801](https://tbpro.zendesk.com/agent/tickets/6801)** · A couple of things.
@@ -111,11 +107,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS
   > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
 
+### Account access issues — account recovery — 1 tickets
+
+- **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address — why: **change request** · how: **actioned**
+  > I want to change the recovery email address associated with my thunderbird pro account.
+
 ## New tickets — last 24h
 
 - [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [open] · 2026-07-13T02:58 · Setting Up Aliases on iOS
 - [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [open] · 2026-07-13T03:43 · A couple of things.
-- [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [open] · 2026-07-13T06:35 · Change recovery email address
+- [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [pending] · 2026-07-13T06:35 · Change recovery email address
 - [6815](https://tbpro.zendesk.com/agent/tickets/6815) · [new] · 2026-07-13T14:25 · JOIN US FOR A DAY OF JOY, LOVE, AND CELEBRATION.
 
 ## Solved — last 24h
@@ -126,6 +127,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-12T22:01 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
 - · [6687](https://tbpro.zendesk.com/agent/tickets/6687) · 2026-07-12T22:01 · Gmail flagged my outgoing test email as spam -_-
 - · [6685](https://tbpro.zendesk.com/agent/tickets/6685) · 2026-07-13T00:01 · Invitation early bird plan
+- · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-13T16:04 · Outgoing messages with custom domain not being signed with DKIM
+- · [6524](https://tbpro.zendesk.com/agent/tickets/6524) · 2026-07-13T16:33 · Unable to use my new email and configure Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
