@@ -85,6 +85,11 @@ June was a strong CSAT month — every satisfaction score rose. Overall hit 83.6
 *Receive / Resolve / Resound is Thunderbird Support's CX action framework. [Support Vision →](https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77)*
 
 ---
+## What's Next
+
+The team is growing — we're bringing on two new Technical Support Specialists, with onboarding expected in late July and early August.
+
+---
 ## Data Access
 Dashboard: [june.html](https://thunderbird.github.io/thunderbird-support-reports/lisa/2026/june.html)
 Raw data (CSV): [june.csv](https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/june.csv)
