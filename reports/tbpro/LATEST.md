@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 09:50 ET** · refreshes hourly_  
+_Updated: **2026-07-13 11:09 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **134 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **135 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **6** solved in last 24h
-- **134** tickets total since launch · contact rate **2%** of 6500 invitees
+- **4** new tickets in last 24h · **6** solved in last 24h
+- **135** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 28
@@ -55,6 +55,7 @@ _(none in last 24h)_
 - **pending**: 17
 - **open**: 16
 - **hold**: 11
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -90,6 +91,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6815](https://tbpro.zendesk.com/agent/tickets/6815)** · JOIN US FOR A DAY OF JOY, LOVE, AND CELEBRATION.
+  > *CLICK HERE TO VIEW THE DATE, TIME, VENUE, AND MORE.* *OPEN INVITATION* <https://shorturl.at/GWGJE> [image: https://shorturl.at/GWGJE] <https://shorturl.at/GWGJE> INVITATION
+
 ### Other / uncategorized — 1 tickets
 
 - **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address
@@ -110,6 +116,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [open] · 2026-07-13T02:58 · Setting Up Aliases on iOS
 - [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [open] · 2026-07-13T03:43 · A couple of things.
 - [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [open] · 2026-07-13T06:35 · Change recovery email address
+- [6815](https://tbpro.zendesk.com/agent/tickets/6815) · [new] · 2026-07-13T14:25 · JOIN US FOR A DAY OF JOY, LOVE, AND CELEBRATION.
 
 ## Solved — last 24h
 
