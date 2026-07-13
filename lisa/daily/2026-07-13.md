@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 14:44 ET** · refreshes hourly_  
+_Updated: **2026-07-13 15:42 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 22** of rollout — **6,500 invitees**, **134 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **9** solved in last 24h
+- **3** new tickets in last 24h · **10** solved in last 24h
 - **134** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 29
-- **Median AHT**: 78.6h · mean 98.8h (proxy: updated_at − created_at, 93 solved tickets)
+- **Median AHT**: 79.3h · mean 100.6h (proxy: updated_at − created_at, 94 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -52,10 +52,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 93
+- **solved**: 94
 - **pending**: 25
 - **hold**: 11
-- **open**: 5
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -80,9 +80,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 3
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
-- **blocked** + **—**: 1
 - **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
+- **blocked** + **—**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -124,6 +124,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-13T16:04 · Outgoing messages with custom domain not being signed with DKIM
 - · [6770](https://tbpro.zendesk.com/agent/tickets/6770) · 2026-07-13T16:59 · setting up e-mail allias
 - · [6698](https://tbpro.zendesk.com/agent/tickets/6698) · 2026-07-13T17:01 · Recovery E-Mail and Aliases
+- · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-13T19:01 · My subscribe link is no longer working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
