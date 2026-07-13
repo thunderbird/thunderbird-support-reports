@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 18:28 ET** · refreshes hourly_  
+_Updated: **2026-07-13 19:28 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **136 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **137 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **10** solved in last 24h
-- **136** tickets total since launch · contact rate **2%** of 6500 invitees
+- **137** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 29
@@ -53,13 +53,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 95
-- **pending**: 24
-- **open**: 10
-- **hold**: 7
+- **pending**: 29
+- **hold**: 11
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 62
+- **Thundermail**: 63
 - **Account Hub**: 61
 - **Appointment**: 5
 - **Send**: 4
@@ -68,13 +68,13 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 33
+- **curious** + **explained**: 34
 - **blocked** + **explained**: 18
 - **request** + **redirected**: 13
 - **confused** + **explained**: 10
 - **change request** + **actioned**: 9
-- **blocked** + **investigated**: 8
 - **blocked** + **escalated**: 8
+- **blocked** + **investigated**: 8
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **blocked** + **actioned**: 3
@@ -92,11 +92,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 1 tickets
-
-- **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS — why: **blocked** · how: **explained**
-  > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
-
 ### Account access issues — account recovery — 1 tickets
 
 - **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address — why: **change request** · how: **actioned**
@@ -107,9 +102,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6801](https://tbpro.zendesk.com/agent/tickets/6801)** · A couple of things.
   > I'm not using the account in a critical way yet, while you're in Beta. But i'm playing with it. Here are a couple of screenshots showing little problems. First, i couldn't use the…
 
+### Aliases — 1 tickets
+
+- **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS — why: **blocked** · how: **explained**
+  > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
+
 ## New tickets — last 24h
 
-- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [open] · 2026-07-13T02:58 · Setting Up Aliases on iOS
+- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [pending] · 2026-07-13T02:58 · Setting Up Aliases on iOS
 - [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [pending] · 2026-07-13T03:43 · A couple of things.
 - [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [pending] · 2026-07-13T06:35 · Change recovery email address
 
