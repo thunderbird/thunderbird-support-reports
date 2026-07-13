@@ -75,9 +75,12 @@ June was a strong CSAT month — every satisfaction score rose. Overall hit 83.6
 - 202 Play Store review tickets received
 
 **✨ Resound**
-- K-9 Play Store rating held 3.55★ (+0.02 MoM)
-- Thundermail CSAT 95.0% (+2.1 pts) — subscriber support holding strong
-- Donor Support recovered to 80.0% (+13.3 pts) after May's noise-driven dip
+- **47% of TB reviews are 5★** (139 of 295) — a loyal base actively showing up; the drag is concentrated in a fixable low-star slice
+- **Push negative mentions down 46% over Q2** (37→20) — quieting without a fix shipped; the trend is moving in the right direction
+- **Crashes flat two months straight** (9→5→5 negative) — stopped getting worse
+- **K-9 stabilized** — 3.55★ (+0.02 MoM) after the sharp April regression
+- **Desktop cert spike: 100% answered** — novel ISP-driven issue (Spectrum/Charter), fully served by the community
+- Thundermail CSAT 95.0% (+2.1 pts) · Donor 80.0% (+13.3 pts)
 
 *Receive / Resolve / Resound is Thunderbird Support's CX action framework. [Support Vision →](https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77)*
 
