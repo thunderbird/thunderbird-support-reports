@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 15:42 ET** · refreshes hourly_  
+_Updated: **2026-07-13 16:35 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -53,14 +53,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 94
-- **pending**: 25
-- **hold**: 11
-- **open**: 4
+- **pending**: 26
+- **open**: 7
+- **hold**: 7
 
 ## Service (cumulative)
 
-- **Thundermail**: 63
-- **Account Hub**: 58
+- **Thundermail**: 62
+- **Account Hub**: 59
 - **Appointment**: 5
 - **Send**: 4
 
@@ -69,7 +69,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 33
-- **blocked** + **explained**: 17
+- **blocked** + **explained**: 18
 - **request** + **redirected**: 13
 - **confused** + **explained**: 10
 - **change request** + **actioned**: 9
@@ -92,11 +92,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 1 tickets
-
-- **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS
-  > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
-
 ### Account access issues — account recovery — 1 tickets
 
 - **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address — why: **change request** · how: **actioned**
@@ -107,9 +102,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6801](https://tbpro.zendesk.com/agent/tickets/6801)** · A couple of things.
   > I'm not using the account in a critical way yet, while you're in Beta. But i'm playing with it. Here are a couple of screenshots showing little problems. First, i couldn't use the…
 
+### Aliases — 1 tickets
+
+- **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS — why: **blocked** · how: **explained**
+  > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
+
 ## New tickets — last 24h
 
-- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [open] · 2026-07-13T02:58 · Setting Up Aliases on iOS
+- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [pending] · 2026-07-13T02:58 · Setting Up Aliases on iOS
 - [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [pending] · 2026-07-13T03:43 · A couple of things.
 - [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [pending] · 2026-07-13T06:35 · Change recovery email address
 
