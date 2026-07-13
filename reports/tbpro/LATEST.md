@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-07-12
+# Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-12 23:15 ET** · refreshes hourly_  
-_24h window: 2026-07-11T16:00 → 2026-07-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-13 01:19 ET** · refreshes hourly_  
+_24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 21** of rollout — **6,500 invitees**, **132 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Request or complaint**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **133 tickets** so far (2.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **132** tickets total since launch · contact rate **2%** of 6500 invitees
+- **2** new tickets in last 24h · **6** solved in last 24h
+- **133** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 28
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 28
 - **Median AHT**: 76.8h · mean 94.9h (proxy: updated_at − created_at, 90 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
@@ -45,25 +45,22 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Nextcloud and other privacy focused cloud providers intgration](https://ideas.tb.pro/p/nextcloud-and-other-privacy-focused-cloud-providers-intgration) · 1 votes · _untagged_
-  > What you’d like to seeIntegration between Thundermail and Nextcloud (and /or other cloud providers) to be similar to Outlook and One drive integrationWhy it mattersLess friction when uploading and…
-- [FIDO2 for MFA](https://ideas.tb.pro/p/fido2-for-mfa) · 1 votes · _Privacy & Security, Accounts & Subscriptions_
-  > What you’d like to seeI’d like to be able to add FIDO2 Hardware Security Keys and use them for MFA instead of just having TOTP and nothing else.Why it mattersSome privacy focused users might trust…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 90
-- **pending**: 19
-- **open**: 12
+- **pending**: 18
+- **open**: 13
 - **hold**: 9
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Thundermail**: 63
-- **Account Hub**: 55
+- **Account Hub**: 56
 - **Appointment**: 5
 - **Send**: 4
 
@@ -94,21 +91,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Email migration / import — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#6797](https://tbpro.zendesk.com/agent/tickets/6797)** · 1 Inbox, 15 Email Addresses?
-  > Help me understand what I would be buying _“1 Inbox, 15 Email Addresses”. _ My brain translates it to _“1 Inbox, 15 Email Aliases”_ - meaning _“1 email address with 15 optional…
+- **[#6801](https://tbpro.zendesk.com/agent/tickets/6801)** · A couple of things.
+  > I'm not using the account in a critical way yet, while you're in Beta. But i'm playing with it. Here are a couple of screenshots showing little problems. First, i couldn't use the…
+
+### Aliases — 1 tickets
+
+- **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS
+  > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
 
 ## New tickets — last 24h
 
-- [6797](https://tbpro.zendesk.com/agent/tickets/6797) · [new] · 2026-07-12T14:14 · 1 Inbox, 15 Email Addresses?
+- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [new] · 2026-07-13T02:58 · Setting Up Aliases on iOS
+- [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [new] · 2026-07-13T03:43 · A couple of things.
 
 ## Solved — last 24h
 
-- · [6656](https://tbpro.zendesk.com/agent/tickets/6656) · 2026-07-11T20:01 · Payment
-- · [6653](https://tbpro.zendesk.com/agent/tickets/6653) · 2026-07-11T21:02 · 14 day cancel and refund
-- · [6655](https://tbpro.zendesk.com/agent/tickets/6655) · 2026-07-11T22:01 · Thundermail (thunderbird pro subscriptions OK) IOS App
-- · [6664](https://tbpro.zendesk.com/agent/tickets/6664) · 2026-07-11T23:01 · Question About the Early Bird Sign Up
+- · [6663](https://tbpro.zendesk.com/agent/tickets/6663) · 2026-07-12T20:01 · Can't access my Thunderbird pro account?
+- · [6658](https://tbpro.zendesk.com/agent/tickets/6658) · 2026-07-12T20:01 · Subscription Information Incomplete
+- · [6540](https://tbpro.zendesk.com/agent/tickets/6540) · 2026-07-12T20:01 · Domain report from google
+- · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-12T22:01 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
+- · [6687](https://tbpro.zendesk.com/agent/tickets/6687) · 2026-07-12T22:01 · Gmail flagged my outgoing test email as spam -_-
+- · [6685](https://tbpro.zendesk.com/agent/tickets/6685) · 2026-07-13T00:01 · Invitation early bird plan
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
