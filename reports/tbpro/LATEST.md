@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 03:46 ET** · refreshes hourly_  
+_Updated: **2026-07-14 04:53 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **139 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **141 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
-- **139** tickets total since launch · contact rate **2%** of 6500 invitees
+- **7** new tickets in last 24h · **3** solved in last 24h
+- **141** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 31
@@ -57,14 +57,14 @@ _(none in last 24h)_
 - **solved**: 97
 - **pending**: 29
 - **hold**: 10
-- **open**: 3
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 64
+- **Thundermail**: 65
 - **Account Hub**: 61
+- **Appointment**: 6
 - **Send**: 5
-- **Appointment**: 5
 
 ## Why × How (cumulative)
 
@@ -94,15 +94,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#6832](https://tbpro.zendesk.com/agent/tickets/6832)** · login fails with Firefox
+  > Login is failing in Firefox, after entering username and password it says "I am sorry" and no detail is given. It works on Safari, where it asks for 2FA and then proceeds to log…
+- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
+  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
+
+### Appointment / calendar — 1 tickets
+
+- **[#6834](https://tbpro.zendesk.com/agent/tickets/6834)** · Importing Google Calender
+  > The only items that appear in Appointment from the Google Calendar I have added are those with a specific time e.g 10am on 14 July 2026. All of the reminders and diary entries on…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6829](https://tbpro.zendesk.com/agent/tickets/6829)** · Thundermail account after 
   > Hello, If I sign up for thunderbird mail pro, then stop after a year, can I still forward mail from my [domain] address to another account? Some services do not allow you to…
-
-### Account access issues — 1 tickets
-
-- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
-  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
 
 ### Bug report / app crash / not working — 1 tickets
 
@@ -126,6 +133,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6828](https://tbpro.zendesk.com/agent/tickets/6828) · [open] · 2026-07-13T23:09 · cannot log in
 - [6829](https://tbpro.zendesk.com/agent/tickets/6829) · [open] · 2026-07-14T00:57 · Thundermail account after 
 - [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [pending] · 2026-07-14T02:31 · Custom SMTP
+- [6832](https://tbpro.zendesk.com/agent/tickets/6832) · [open] · 2026-07-14T07:53 · login fails with Firefox
+- [6834](https://tbpro.zendesk.com/agent/tickets/6834) · [open] · 2026-07-14T08:36 · Importing Google Calender
 
 ## Solved — last 24h
 
