@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 09:44 ET** · refreshes hourly_  
+_Updated: **2026-07-14 10:45 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **143 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **144 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **4** solved in last 24h
-- **143** tickets total since launch · contact rate **2%** of 6500 invitees
+- **10** new tickets in last 24h · **4** solved in last 24h
+- **144** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 33
@@ -20,7 +20,7 @@ Flight 3 is **day 23** of rollout — **6,500 invitees**, **143 tickets** so far
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [pending] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30 · _Custom Domain DKIM not working_
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
@@ -59,14 +59,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 97
-- **pending**: 28
-- **open**: 9
+- **pending**: 27
+- **open**: 11
 - **hold**: 9
 
 ## Service (cumulative)
 
 - **Thundermail**: 67
-- **Account Hub**: 61
+- **Account Hub**: 62
 - **Appointment**: 6
 - **Send**: 5
 
@@ -98,19 +98,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 3 tickets
+
+- **[#6840](https://tbpro.zendesk.com/agent/tickets/6840)** · No confirmation email received on signup.
+  > I received my invitation and signed up for an account, however, I have not received the confirmation email. I have checked my Junk folder.
+- **[#6832](https://tbpro.zendesk.com/agent/tickets/6832)** · login fails with Firefox
+  > Login is failing in Firefox, after entering username and password it says "I am sorry" and no detail is given. It works on Safari, where it asks for 2FA and then proceeds to log…
+- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
+  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#6837](https://tbpro.zendesk.com/agent/tickets/6837)** · DNS Warning
   > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
 - **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
   > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
-
-### Account access issues — 2 tickets
-
-- **[#6832](https://tbpro.zendesk.com/agent/tickets/6832)** · login fails with Firefox
-  > Login is failing in Firefox, after entering username and password it says "I am sorry" and no detail is given. It works on Safari, where it asks for 2FA and then proceeds to log…
-- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
-  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -148,6 +150,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6834](https://tbpro.zendesk.com/agent/tickets/6834) · [open] · 2026-07-14T08:36 · Importing Google Calender
 - [6836](https://tbpro.zendesk.com/agent/tickets/6836) · [open] · 2026-07-14T10:47 · Declaration of Withdrawal
 - [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [open] · 2026-07-14T11:02 · DNS Warning
+- [6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14T14:39 · No confirmation email received on signup.
 
 ## Solved — last 24h
 
