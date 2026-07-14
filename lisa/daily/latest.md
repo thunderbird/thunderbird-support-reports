@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 13:35 ET** · refreshes hourly_  
+_Updated: **2026-07-14 14:33 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **150 tickets** so far (2.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **151 tickets** so far (2.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **10** solved in last 24h
-- **150** tickets total since launch · contact rate **2%** of 6500 invitees
+- **17** new tickets in last 24h · **10** solved in last 24h
+- **151** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 33
@@ -67,15 +67,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 102
-- **pending**: 28
-- **open**: 12
+- **pending**: 31
+- **open**: 10
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Thundermail**: 69
-- **Account Hub**: 66
-- **Appointment**: 6
+- **Thundermail**: 68
+- **Account Hub**: 67
+- **Appointment**: 7
 - **Send**: 5
 
 ## Why × How (cumulative)
@@ -83,10 +83,10 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 34
-- **blocked** + **explained**: 19
+- **blocked** + **explained**: 20
 - **request** + **redirected**: 13
 - **change request** + **actioned**: 11
-- **blocked** + **investigated**: 9
+- **blocked** + **investigated**: 10
 - **confused** + **explained**: 9
 - **blocked** + **escalated**: 8
 - **blocked** + **actioned**: 4
@@ -94,6 +94,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 3
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
+- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
 - **blocked** + **—**: 1
@@ -101,7 +102,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
-- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 - **blocked** + **n/a**: 1
@@ -114,10 +114,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I just got an email that I am invited for join thundermail. but there were no invitation link, i tried to to do recover password to my invited email [email] and didnt work as well
 - **[#6840](https://tbpro.zendesk.com/agent/tickets/6840)** · No confirmation email received on signup. — why: **blocked** · how: **explained**
   > I received my invitation and signed up for an account, however, I have not received the confirmation email. I have checked my Junk folder.
-- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
-  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
 - **[#6832](https://tbpro.zendesk.com/agent/tickets/6832)** · login fails with Firefox — why: **blocked** · how: **investigated**
   > Login is failing in Firefox, after entering username and password it says "I am sorry" and no detail is given. It works on Safari, where it asks for 2FA and then proceeds to log…
+- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in — why: **blocked** · how: **explained**
+  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
 
 ### Custom domain / DKIM / DNS — 3 tickets
 
@@ -127,6 +127,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
 - **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
   > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
+
+### Appointment / calendar — 2 tickets
+
+- **[#6853](https://tbpro.zendesk.com/agent/tickets/6853)** · Unintended annual subscription
+  > Hi, I wanted to try the Appointment service, and only intended to purchase a month. I expected an open source alternative to https://[domain]/ but its something else entirely.…
+- **[#6834](https://tbpro.zendesk.com/agent/tickets/6834)** · Importing Google Calender
+  > The only items that appear in Appointment from the Google Calendar I have added are those with a specific time e.g 10am on 14 July 2026. All of the reminders and diary entries on…
 
 ### Refund / Cancel — 2 tickets
 
@@ -150,20 +157,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6844](https://tbpro.zendesk.com/agent/tickets/6844)** · Not recieving early-bird sign up.
   > Want to recieve the early bird sign up link with my email as recovery.
 
-### Appointment / calendar — 1 tickets
-
-- **[#6834](https://tbpro.zendesk.com/agent/tickets/6834)** · Importing Google Calender
-  > The only items that appear in Appointment from the Google Calendar I have added are those with a specific time e.g 10am on 14 July 2026. All of the reminders and diary entries on…
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#6826](https://tbpro.zendesk.com/agent/tickets/6826)** · My account does not work
-  > Bonjour, mon compte ne fonctionne pas. J'ai essayé avec Thunderbird, j'ai essayé avec Apple Mail. Je suis à peu près sûr d'utiliser les bons paramètres. Ce n'est pas si difficile…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6829](https://tbpro.zendesk.com/agent/tickets/6829)** · Thundermail account after  — why: **curious** · how: **explained**
   > Hello, If I sign up for thunderbird mail pro, then stop after a year, can I still forward mail from my [domain] address to another account? Some services do not allow you to…
+
+### Bug report / app crash / not working — 1 tickets
+
+- **[#6826](https://tbpro.zendesk.com/agent/tickets/6826)** · My account does not work — why: **blocked** · how: **investigated**
+  > Bonjour, mon compte ne fonctionne pas. J'ai essayé avec Thunderbird, j'ai essayé avec Apple Mail. Je suis à peu près sûr d'utiliser les bons paramètres. Ce n'est pas si difficile…
 
 ### Early bird signup — 1 tickets
 
@@ -173,8 +175,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6824](https://tbpro.zendesk.com/agent/tickets/6824) · [pending] · 2026-07-13T20:59 · get 2 subscription with one invite
-- [6826](https://tbpro.zendesk.com/agent/tickets/6826) · [open] · 2026-07-13T22:14 · My account does not work
-- [6828](https://tbpro.zendesk.com/agent/tickets/6828) · [open] · 2026-07-13T23:09 · cannot log in
+- [6826](https://tbpro.zendesk.com/agent/tickets/6826) · [pending] · 2026-07-13T22:14 · My account does not work
+- [6828](https://tbpro.zendesk.com/agent/tickets/6828) · [pending] · 2026-07-13T23:09 · cannot log in
 - [6829](https://tbpro.zendesk.com/agent/tickets/6829) · [pending] · 2026-07-14T00:57 · Thundermail account after 
 - [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [pending] · 2026-07-14T02:31 · Custom SMTP
 - [6832](https://tbpro.zendesk.com/agent/tickets/6832) · [pending] · 2026-07-14T07:53 · login fails with Firefox
@@ -188,6 +190,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6848](https://tbpro.zendesk.com/agent/tickets/6848) · [open] · 2026-07-14T16:53 · first log in
 - [6849](https://tbpro.zendesk.com/agent/tickets/6849) · [open] · 2026-07-14T17:15 · cant use my invitation to signup
 - [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [open] · 2026-07-14T17:22 · Custom domains
+- [6853](https://tbpro.zendesk.com/agent/tickets/6853) · [open] · 2026-07-14T18:03 · Unintended annual subscription
 
 ## Solved — last 24h
 
