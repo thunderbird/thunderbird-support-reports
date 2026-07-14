@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 08:38 ET** · refreshes hourly_  
+_Updated: **2026-07-14 09:44 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 23** of rollout — **6,500 invitees**, **143 tickets** so far
 - **143** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 32
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 33
 - **Median AHT**: 87.3h · mean 101.2h (proxy: updated_at − created_at, 97 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
@@ -45,11 +45,13 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 4 new:
 
-- [Auto dark mode in webmail](https://ideas.tb.pro/p/auto-dark-mode-in-webmail) · 1 votes · _untagged_
+- [Block sender and block domain in webmail, not just mark as junk](https://ideas.tb.pro/p/block-sender-and-block-domain-in-webmail-not-just-mark-as-junk) · 1 votes · _untagged_
+  > What you’d like to seeA Block sender action next to Junk, with an option to block the entire domain. Blocked mail gets filed to Junk or discarded server side, plus a settings list where blocked…
+- [Auto dark mode in webmail](https://ideas.tb.pro/p/auto-dark-mode-in-webmail) · 1 votes · _Thundermail, Webmail, Improvement_
   > What you’d like to seeWe currently have both a dark and a light mode in the webmail, but no option to have it adapt to the system theme (or at least the browser theme, as that is usually synced if…
-- [Isolated inboxes](https://ideas.tb.pro/p/isolated-inboxes) · 1 votes · _untagged_
+- [Isolated inboxes](https://ideas.tb.pro/p/isolated-inboxes) · 1 votes · _Thundermail_
   > What you’d like to seeSupport for more than one inbox under a single Thundermail account, not additional email addresses/aliases.Why it mattersAliases still dump everything into one inbox, there…
 - [Calendar](https://ideas.tb.pro/p/calendar) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.Full feature calendar.Why it mattersWhat problem does this solve, or what benefit does it bring?Compliment the AppointmentYour use…
@@ -58,8 +60,8 @@ _(none in last 24h)_
 
 - **solved**: 97
 - **pending**: 28
-- **hold**: 10
-- **open**: 8
+- **open**: 9
+- **hold**: 9
 
 ## Service (cumulative)
 
