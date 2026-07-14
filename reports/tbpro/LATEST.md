@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-13
 
-_Updated: **2026-07-13 20:47 ET** · refreshes hourly_  
+_Updated: **2026-07-13 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **137 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 22** of rollout — **6,500 invitees**, **138 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **10** solved in last 24h
-- **137** tickets total since launch · contact rate **2%** of 6500 invitees
+- **138** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 29
-- **Median AHT**: 83.6h · mean 100.8h (proxy: updated_at − created_at, 96 solved tickets)
+- **Median AHT**: 87.3h · mean 101.0h (proxy: updated_at − created_at, 97 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [hold] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30 · _Custom Domain DKIM not working_
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
@@ -52,14 +52,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 96
-- **pending**: 28
-- **hold**: 11
-- **open**: 2
+- **solved**: 97
+- **pending**: 27
+- **hold**: 10
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 63
+- **Thundermail**: 64
 - **Account Hub**: 61
 - **Appointment**: 5
 - **Send**: 4
