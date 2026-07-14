@@ -1,26 +1,26 @@
-# Thundermail — Flight 3 Live Report · 2026-07-13
+# Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-13 23:13 ET** · refreshes hourly_  
-_24h window: 2026-07-12T16:00 → 2026-07-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-14 01:08 ET** · refreshes hourly_  
+_24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 22** of rollout — **6,500 invitees**, **139 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **139 tickets** so far (2.1% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **10** solved in last 24h
+- **5** new tickets in last 24h · **3** solved in last 24h
 - **139** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 30
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 31
 - **Median AHT**: 87.3h · mean 101.0h (proxy: updated_at − created_at, 97 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [pending] · 2026-06-30 · _Custom Domain DKIM not working_
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
@@ -45,17 +45,19 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
-- [Nested Labels (or Tags), as in Fastmail](https://ideas.tb.pro/p/nested-labels-or-tags-as-in-fastmail) · 3 votes · _Thundermail, Improvement_
-  > Nested Labels (or Tags), as in FastmailThe ability to assign labels, structured in a hierarchy, to email. Could be done manually, or using a rule. The same design as fastmail would be great.Why it…
+- [Isolated inboxes](https://ideas.tb.pro/p/isolated-inboxes) · 1 votes · _untagged_
+  > What you’d like to seeSupport for more than one inbox under a single Thundermail account, not additional email addresses/aliases.Why it mattersAliases still dump everything into one inbox, there…
+- [Calendar](https://ideas.tb.pro/p/calendar) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Full feature calendar.Why it mattersWhat problem does this solve, or what benefit does it bring?Compliment the AppointmentYour use…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 97
-- **pending**: 27
+- **pending**: 29
 - **hold**: 10
-- **open**: 5
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -92,39 +94,44 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — account recovery — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#6804](https://tbpro.zendesk.com/agent/tickets/6804)** · Change recovery email address — why: **change request** · how: **actioned**
-  > I want to change the recovery email address associated with my thunderbird pro account.
+- **[#6829](https://tbpro.zendesk.com/agent/tickets/6829)** · Thundermail account after 
+  > Hello, If I sign up for thunderbird mail pro, then stop after a year, can I still forward mail from my [domain] address to another account? Some services do not allow you to…
 
 ### Account access issues — 1 tickets
 
-- **[#6801](https://tbpro.zendesk.com/agent/tickets/6801)** · A couple of things.
-  > I'm not using the account in a critical way yet, while you're in Beta. But i'm playing with it. Here are a couple of screenshots showing little problems. First, i couldn't use the…
+- **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
+  > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
 
-### Aliases — 1 tickets
+### Bug report / app crash / not working — 1 tickets
 
-- **[#6800](https://tbpro.zendesk.com/agent/tickets/6800)** · Setting Up Aliases on iOS — why: **blocked** · how: **explained**
-  > hello! i've got my main [email] set up on the Mail app on iOS, but I can’t seem to set up the aliases using the same info. i’ve tried using both my main address as the username…
+- **[#6826](https://tbpro.zendesk.com/agent/tickets/6826)** · My account does not work
+  > Bonjour, mon compte ne fonctionne pas. J'ai essayé avec Thunderbird, j'ai essayé avec Apple Mail. Je suis à peu près sûr d'utiliser les bons paramètres. Ce n'est pas si difficile…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
+  > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
+
+### Early bird signup — 1 tickets
+
+- **[#6824](https://tbpro.zendesk.com/agent/tickets/6824)** · get 2 subscription with one invite — why: **curious** · how: **explained**
+  > Thanks for the invite. I already subscribed. Can I get another subscription for my Partner with this invite? Best, MG
 
 ## New tickets — last 24h
 
-- [6800](https://tbpro.zendesk.com/agent/tickets/6800) · [pending] · 2026-07-13T02:58 · Setting Up Aliases on iOS
-- [6801](https://tbpro.zendesk.com/agent/tickets/6801) · [pending] · 2026-07-13T03:43 · A couple of things.
-- [6804](https://tbpro.zendesk.com/agent/tickets/6804) · [pending] · 2026-07-13T06:35 · Change recovery email address
+- [6824](https://tbpro.zendesk.com/agent/tickets/6824) · [pending] · 2026-07-13T20:59 · get 2 subscription with one invite
+- [6826](https://tbpro.zendesk.com/agent/tickets/6826) · [open] · 2026-07-13T22:14 · My account does not work
+- [6828](https://tbpro.zendesk.com/agent/tickets/6828) · [open] · 2026-07-13T23:09 · cannot log in
+- [6829](https://tbpro.zendesk.com/agent/tickets/6829) · [open] · 2026-07-14T00:57 · Thundermail account after 
+- [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [pending] · 2026-07-14T02:31 · Custom SMTP
 
 ## Solved — last 24h
 
-- · [6663](https://tbpro.zendesk.com/agent/tickets/6663) · 2026-07-12T20:01 · Can't access my Thunderbird pro account?
-- · [6658](https://tbpro.zendesk.com/agent/tickets/6658) · 2026-07-12T20:01 · Subscription Information Incomplete
-- · [6540](https://tbpro.zendesk.com/agent/tickets/6540) · 2026-07-12T20:01 · Domain report from google
-- · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-12T22:01 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
-- · [6687](https://tbpro.zendesk.com/agent/tickets/6687) · 2026-07-12T22:01 · Gmail flagged my outgoing test email as spam -_-
-- · [6685](https://tbpro.zendesk.com/agent/tickets/6685) · 2026-07-13T00:01 · Invitation early bird plan
-- · [6401](https://tbpro.zendesk.com/agent/tickets/6401) · 2026-07-13T16:04 · Outgoing messages with custom domain not being signed with DKIM
-- · [6770](https://tbpro.zendesk.com/agent/tickets/6770) · 2026-07-13T16:59 · setting up e-mail allias
-- · [6698](https://tbpro.zendesk.com/agent/tickets/6698) · 2026-07-13T17:01 · Recovery E-Mail and Aliases
-- · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-13T19:01 · My subscribe link is no longer working
+- · [6719](https://tbpro.zendesk.com/agent/tickets/6719) · 2026-07-13T21:01 · Subscription
+- · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-14T00:00 · Custom Domain: DKIM Not Properly Served by [domain]
+- · [6727](https://tbpro.zendesk.com/agent/tickets/6727) · 2026-07-14T01:01 · Webmail Alpha
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
