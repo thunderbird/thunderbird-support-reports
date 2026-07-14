@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 15:40 ET** · refreshes hourly_  
+_Updated: **2026-07-14 16:33 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **151 tickets** so far (2.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **152 tickets** so far (2.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **11** solved in last 24h
-- **151** tickets total since launch · contact rate **2%** of 6500 invitees
+- **16** new tickets in last 24h · **11** solved in last 24h
+- **152** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 33
-- **Median AHT**: 120.5h · mean 105.7h (proxy: updated_at − created_at, 103 solved tickets)
+- **Median AHT**: 120.5h · mean 105.3h (proxy: updated_at − created_at, 105 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"custom domains"** — 2 tickets in 24h (8.8× baseline; baseline 5 cum) — [#6831](https://tbpro.zendesk.com/agent/tickets/6831), [#6850](https://tbpro.zendesk.com/agent/tickets/6850)
 
-## Known problems — 2 problem(s), 6 incident(s)
+## Known problems — 2 problem(s), 7 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -30,11 +30,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
-- 4 incident(s):
+- 5 incident(s):
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [solved] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
   - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14 · _No confirmation email received on signup._
+  - [#6846](https://tbpro.zendesk.com/agent/tickets/6846) · [open] · 2026-07-14 · _first log in_
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -66,14 +67,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 103
-- **pending**: 31
-- **hold**: 9
-- **open**: 8
+- **solved**: 105
+- **pending**: 32
+- **hold**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Thundermail**: 68
+- **Thundermail**: 69
 - **Account Hub**: 67
 - **Appointment**: 7
 - **Send**: 5
@@ -85,15 +86,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 34
 - **blocked** + **explained**: 21
 - **request** + **redirected**: 13
+- **blocked** + **investigated**: 11
 - **change request** + **actioned**: 11
-- **blocked** + **investigated**: 10
 - **confused** + **explained**: 9
 - **blocked** + **escalated**: 8
 - **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
+- **blocked** + **n/a**: 2
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
+- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
 - **blocked** + **—**: 1
@@ -101,19 +104,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
-- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
-- **blocked** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
 ### Account access issues — 4 tickets
 
-- **[#6849](https://tbpro.zendesk.com/agent/tickets/6849)** · cant use my invitation to signup
-  > I just got an email that I am invited for join thundermail. but there were no invitation link, i tried to to do recover password to my invited email [email] and didnt work as well
 - **[#6840](https://tbpro.zendesk.com/agent/tickets/6840)** · No confirmation email received on signup. — why: **blocked** · how: **explained**
   > I received my invitation and signed up for an account, however, I have not received the confirmation email. I have checked my Junk folder.
+- **[#6849](https://tbpro.zendesk.com/agent/tickets/6849)** · cant use my invitation to signup — why: **blocked** · how: **n/a**
+  > I just got an email that I am invited for join thundermail. but there were no invitation link, i tried to to do recover password to my invited email [email] and didnt work as well
 - **[#6832](https://tbpro.zendesk.com/agent/tickets/6832)** · login fails with Firefox — why: **blocked** · how: **investigated**
   > Login is failing in Firefox, after entering username and password it says "I am sorry" and no detail is given. It works on Safari, where it asks for 2FA and then proceeds to log…
 - **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in — why: **blocked** · how: **explained**
@@ -142,14 +143,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6836](https://tbpro.zendesk.com/agent/tickets/6836)** · Declaration of Withdrawal — why: **change request** · how: **actioned**
   > Dear [name] or Madam, I hereby give notice that I withdraw from my contract for the purchase/subscription of the following service: • Service/Product: Thundermail Subscription /…
 
-### App setup / configuration — 1 tickets
-
-- **[#6848](https://tbpro.zendesk.com/agent/tickets/6848)** · first log in
-  > I just sent in a request and realized I used the email account I don't have access to, please use [email] to address request re: [email] . Thank you
-
 ### Other / uncategorized — 1 tickets
 
-- **[#6846](https://tbpro.zendesk.com/agent/tickets/6846)** · first log in
+- **[#6846](https://tbpro.zendesk.com/agent/tickets/6846)** · first log in — why: **blocked** · how: **investigated**
   > I'm trying to log in for the first time. I created a username and password, but I keep getting the message below. How do i get to my account to verify? I've tried online log in…
 
 ### Early bird / invite / waitlist — 1 tickets
@@ -185,11 +181,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [pending] · 2026-07-14T11:02 · DNS Warning
 - [6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14T14:39 · No confirmation email received on signup.
 - [6843](https://tbpro.zendesk.com/agent/tickets/6843) · [pending] · 2026-07-14T15:55 · cancel your subscription and delete your account
-- [6844](https://tbpro.zendesk.com/agent/tickets/6844) · [open] · 2026-07-14T16:15 · Not recieving early-bird sign up.
+- [6844](https://tbpro.zendesk.com/agent/tickets/6844) · [pending] · 2026-07-14T16:15 · Not recieving early-bird sign up.
 - [6846](https://tbpro.zendesk.com/agent/tickets/6846) · [open] · 2026-07-14T16:51 · first log in
-- [6848](https://tbpro.zendesk.com/agent/tickets/6848) · [open] · 2026-07-14T16:53 · first log in
-- [6849](https://tbpro.zendesk.com/agent/tickets/6849) · [open] · 2026-07-14T17:15 · cant use my invitation to signup
-- [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [open] · 2026-07-14T17:22 · Custom domains
+- [6849](https://tbpro.zendesk.com/agent/tickets/6849) · [solved] · 2026-07-14T17:15 · cant use my invitation to signup
+- [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [pending] · 2026-07-14T17:22 · Custom domains
 - [6853](https://tbpro.zendesk.com/agent/tickets/6853) · [open] · 2026-07-14T18:03 · Unintended annual subscription
 
 ## Solved — last 24h
