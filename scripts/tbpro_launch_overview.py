@@ -127,10 +127,12 @@ WAVES = [
     {"date": "2026-06-30", "end": "2026-07-05", "invites": 5000, "label": "Flight 4 Wave 2",  "color": "#14b8a6"},
     {"date": "2026-07-06", "end": "2026-07-06", "invites": 4000, "label": "Flight 5 Wave 1",  "color": "#eab308"},
     {"date": "2026-07-07", "end": "2026-07-07", "invites": 3000, "label": "Flight 5 Wave 2",  "color": "#8b5cf6"},
-    {"date": "2026-07-08", "end": "2099-12-31", "invites": 3000, "label": "Flight 5 Wave 3",  "color": "#22d3ee"},
+    {"date": "2026-07-08", "end": "2026-07-12", "invites": 3000, "label": "Flight 5 Wave 3",  "color": "#22d3ee"},
+    {"date": "2026-07-13", "end": "2026-07-13", "invites": 4000, "label": "Flight 6 Wave 1",  "color": "#f43f5e"},
+    {"date": "2026-07-14", "end": "2099-12-31", "invites": 4000, "label": "Flight 6 Wave 2",  "color": "#84cc16"},
     # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 29,100 (Flight 5: 4k Jul 6 + 3k Jul 7 + 3k Jul 8)
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 37,100 (Flight 6: 4k Jul 13 + 4k Jul 14)
 # Waves settle (contacts arrive) over ~7-14 days. The projection baseline excludes waves
 # younger than this so still-ramping sends don't drag the rate down. 14 = fully settled
 # (a wave at 7-8 days is only partway there — its rate is still climbing).
