@@ -1,33 +1,34 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 11:40 ET** · refreshes hourly_  
+_Updated: **2026-07-14 12:37 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **144 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **146 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **5** solved in last 24h
-- **144** tickets total since launch · contact rate **2%** of 6500 invitees
+- **12** new tickets in last 24h · **6** solved in last 24h
+- **146** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 33
-- **Median AHT**: 91.8h · mean 101.6h (proxy: updated_at − created_at, 98 solved tickets)
+- **Median AHT**: 96.2h · mean 104.1h (proxy: updated_at − created_at, 99 solved tickets)
 
-## Known problems — 2 problem(s), 5 incident(s)
+## Known problems — 2 problem(s), 6 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [open] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [solved] · 2026-06-30 · _Custom Domain DKIM not working_
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
-- 3 incident(s):
+- 4 incident(s):
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [solved] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
+  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14 · _No confirmation email received on signup._
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -39,9 +40,10 @@ Flight 3 is **day 23** of rollout — **6,500 invitees**, **144 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6843](https://tbpro.zendesk.com/agent/tickets/6843) · [pending] · _cancel your subscription and delete your account_
+  > I thought it was just a trial version and accidentally took out a subscription – I would like to cancel it with immediate effect and request a refund of the amount paid.
 
 ## New ideas on FeatureOS
 
@@ -58,15 +60,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 98
-- **pending**: 28
-- **open**: 10
-- **hold**: 8
+- **solved**: 99
+- **pending**: 29
+- **open**: 12
+- **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 66
-- **Account Hub**: 63
+- **Thundermail**: 67
+- **Account Hub**: 64
 - **Appointment**: 6
 - **Send**: 5
 
@@ -75,11 +77,11 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 34
-- **blocked** + **explained**: 18
+- **blocked** + **explained**: 19
 - **request** + **redirected**: 13
 - **confused** + **explained**: 10
+- **change request** + **actioned**: 10
 - **blocked** + **investigated**: 9
-- **change request** + **actioned**: 9
 - **blocked** + **escalated**: 8
 - **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
@@ -101,7 +103,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account access issues — 3 tickets
 
-- **[#6840](https://tbpro.zendesk.com/agent/tickets/6840)** · No confirmation email received on signup.
+- **[#6840](https://tbpro.zendesk.com/agent/tickets/6840)** · No confirmation email received on signup. — why: **blocked** · how: **explained**
   > I received my invitation and signed up for an account, however, I have not received the confirmation email. I have checked my Junk folder.
 - **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
   > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
@@ -114,6 +116,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
 - **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
   > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6844](https://tbpro.zendesk.com/agent/tickets/6844)** · Not recieving early-bird sign up.
+  > Want to recieve the early bird sign up link with my email as recovery.
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -129,6 +136,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6826](https://tbpro.zendesk.com/agent/tickets/6826)** · My account does not work
   > Bonjour, mon compte ne fonctionne pas. J'ai essayé avec Thunderbird, j'ai essayé avec Apple Mail. Je suis à peu près sûr d'utiliser les bons paramètres. Ce n'est pas si difficile…
+
+### Refund / Cancel — 1 tickets
+
+- **[#6843](https://tbpro.zendesk.com/agent/tickets/6843)** · cancel your subscription and delete your account — why: **change request** · how: **actioned**
+  > I thought it was just a trial version and accidentally took out a subscription – I would like to cancel it with immediate effect and request a refund of the amount paid.
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -152,6 +164,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6836](https://tbpro.zendesk.com/agent/tickets/6836) · [open] · 2026-07-14T10:47 · Declaration of Withdrawal
 - [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [open] · 2026-07-14T11:02 · DNS Warning
 - [6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14T14:39 · No confirmation email received on signup.
+- [6843](https://tbpro.zendesk.com/agent/tickets/6843) · [pending] · 2026-07-14T15:55 · cancel your subscription and delete your account
+- [6844](https://tbpro.zendesk.com/agent/tickets/6844) · [open] · 2026-07-14T16:15 · Not recieving early-bird sign up.
 
 ## Solved — last 24h
 
@@ -160,6 +174,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6727](https://tbpro.zendesk.com/agent/tickets/6727) · 2026-07-14T01:01 · Webmail Alpha
 - · [6735](https://tbpro.zendesk.com/agent/tickets/6735) · 2026-07-14T11:01 · Question about Monthly Subscription
 - · [6720](https://tbpro.zendesk.com/agent/tickets/6720) · 2026-07-14T15:02 · Oops, registered and missed the recovery email step, now being charged full price for first year
+- · [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-14T15:58 · Custom Domain DKIM not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
