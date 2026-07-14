@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 06:44 ET** · refreshes hourly_  
+_Updated: **2026-07-14 07:41 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **141 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **143 tickets** so far (2.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **3** solved in last 24h
-- **141** tickets total since launch · contact rate **2%** of 6500 invitees
+- **9** new tickets in last 24h · **4** solved in last 24h
+- **143** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 32
-- **Median AHT**: 87.3h · mean 101.0h (proxy: updated_at − created_at, 97 solved tickets)
+- **Median AHT**: 87.3h · mean 101.2h (proxy: updated_at − created_at, 97 solved tickets)
 
 ## Known problems — 2 problem(s), 5 incident(s)
 
@@ -57,13 +57,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 97
-- **pending**: 29
+- **pending**: 28
 - **hold**: 10
-- **open**: 5
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Thundermail**: 65
+- **Thundermail**: 67
 - **Account Hub**: 61
 - **Appointment**: 6
 - **Send**: 5
@@ -96,12 +96,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#6837](https://tbpro.zendesk.com/agent/tickets/6837)** · DNS Warning
+  > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
+- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
+  > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
+
 ### Account access issues — 2 tickets
 
 - **[#6832](https://tbpro.zendesk.com/agent/tickets/6832)** · login fails with Firefox
   > Login is failing in Firefox, after entering username and password it says "I am sorry" and no detail is given. It works on Safari, where it asks for 2FA and then proceeds to log…
 - **[#6828](https://tbpro.zendesk.com/agent/tickets/6828)** · cannot log in
   > Hi. I've paid for thundermail and are trying to log in with the password associated with my account, but i guess I did not store it properly? i originally did all this via my…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6836](https://tbpro.zendesk.com/agent/tickets/6836)** · Declaration of Withdrawal
+  > Dear [name] or Madam, I hereby give notice that I withdraw from my contract for the purchase/subscription of the following service: • Service/Product: Thundermail Subscription /…
 
 ### Appointment / calendar — 1 tickets
 
@@ -118,11 +130,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6826](https://tbpro.zendesk.com/agent/tickets/6826)** · My account does not work
   > Bonjour, mon compte ne fonctionne pas. J'ai essayé avec Thunderbird, j'ai essayé avec Apple Mail. Je suis à peu près sûr d'utiliser les bons paramètres. Ce n'est pas si difficile…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
-  > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
-
 ### Early bird signup — 1 tickets
 
 - **[#6824](https://tbpro.zendesk.com/agent/tickets/6824)** · get 2 subscription with one invite — why: **curious** · how: **explained**
@@ -137,12 +144,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [pending] · 2026-07-14T02:31 · Custom SMTP
 - [6832](https://tbpro.zendesk.com/agent/tickets/6832) · [open] · 2026-07-14T07:53 · login fails with Firefox
 - [6834](https://tbpro.zendesk.com/agent/tickets/6834) · [open] · 2026-07-14T08:36 · Importing Google Calender
+- [6836](https://tbpro.zendesk.com/agent/tickets/6836) · [open] · 2026-07-14T10:47 · Declaration of Withdrawal
+- [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [open] · 2026-07-14T11:02 · DNS Warning
 
 ## Solved — last 24h
 
 - · [6719](https://tbpro.zendesk.com/agent/tickets/6719) · 2026-07-13T21:01 · Subscription
 - · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-14T00:00 · Custom Domain: DKIM Not Properly Served by [domain]
 - · [6727](https://tbpro.zendesk.com/agent/tickets/6727) · 2026-07-14T01:01 · Webmail Alpha
+- · [6735](https://tbpro.zendesk.com/agent/tickets/6735) · 2026-07-14T11:01 · Question about Monthly Subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
