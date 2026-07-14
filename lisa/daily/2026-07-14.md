@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 14:33 ET** · refreshes hourly_  
+_Updated: **2026-07-14 15:40 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 23** of rollout — **6,500 invitees**, **151 tickets** so far
 
 ## At a glance
 
-- **17** new tickets in last 24h · **10** solved in last 24h
+- **17** new tickets in last 24h · **11** solved in last 24h
 - **151** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 33
-- **Median AHT**: 109.2h · mean 105.5h (proxy: updated_at − created_at, 102 solved tickets)
+- **Median AHT**: 120.5h · mean 105.7h (proxy: updated_at − created_at, 103 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -66,10 +66,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 102
+- **solved**: 103
 - **pending**: 31
-- **open**: 10
-- **hold**: 8
+- **hold**: 9
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -83,7 +83,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 34
-- **blocked** + **explained**: 20
+- **blocked** + **explained**: 21
 - **request** + **redirected**: 13
 - **change request** + **actioned**: 11
 - **blocked** + **investigated**: 10
@@ -94,7 +94,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 3
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
-- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
 - **blocked** + **—**: 1
@@ -102,6 +101,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
+- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 - **blocked** + **n/a**: 1
@@ -123,7 +123,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6850](https://tbpro.zendesk.com/agent/tickets/6850)** · Custom domains
   > The directions for what to enter for DNS for custom domains does not match what is required at GoDaddy,
-- **[#6837](https://tbpro.zendesk.com/agent/tickets/6837)** · DNS Warning
+- **[#6837](https://tbpro.zendesk.com/agent/tickets/6837)** · DNS Warning — why: **blocked** · how: **explained**
   > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
 - **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
   > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
@@ -182,7 +182,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6832](https://tbpro.zendesk.com/agent/tickets/6832) · [pending] · 2026-07-14T07:53 · login fails with Firefox
 - [6834](https://tbpro.zendesk.com/agent/tickets/6834) · [open] · 2026-07-14T08:36 · Importing Google Calender
 - [6836](https://tbpro.zendesk.com/agent/tickets/6836) · [pending] · 2026-07-14T10:47 · Declaration of Withdrawal
-- [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [open] · 2026-07-14T11:02 · DNS Warning
+- [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [pending] · 2026-07-14T11:02 · DNS Warning
 - [6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14T14:39 · No confirmation email received on signup.
 - [6843](https://tbpro.zendesk.com/agent/tickets/6843) · [pending] · 2026-07-14T15:55 · cancel your subscription and delete your account
 - [6844](https://tbpro.zendesk.com/agent/tickets/6844) · [open] · 2026-07-14T16:15 · Not recieving early-bird sign up.
@@ -204,6 +204,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6743](https://tbpro.zendesk.com/agent/tickets/6743) · 2026-07-14T17:02 · help
 - · [6726](https://tbpro.zendesk.com/agent/tickets/6726) · 2026-07-14T17:02 · Alies email delivery
 - · [6680](https://tbpro.zendesk.com/agent/tickets/6680) · 2026-07-14T17:12 · locked out of early bird access account
+- · [6738](https://tbpro.zendesk.com/agent/tickets/6738) · 2026-07-14T19:01 · Free tier
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
