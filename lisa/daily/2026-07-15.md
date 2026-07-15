@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 17:29 ET** · refreshes hourly_  
+_Updated: **2026-07-15 18:29 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **157 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **158 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **11** solved in last 24h
-- **157** tickets total since launch · contact rate **2%** of 6500 invitees
+- **158** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 121.1h · mean 108.6h (proxy: updated_at − created_at, 116 solved tickets)
+- **Median AHT**: 120.9h · mean 107.7h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -63,15 +63,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 116
-- **pending**: 29
-- **open**: 6
-- **hold**: 6
+- **solved**: 117
+- **pending**: 30
+- **hold**: 7
+- **open**: 4
 
 ## Service (cumulative)
 
 - **Thundermail**: 75
-- **Account Hub**: 68
+- **Account Hub**: 69
 - **Appointment**: 6
 - **Send**: 4
 
@@ -80,7 +80,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 35
-- **blocked** + **explained**: 22
+- **blocked** + **explained**: 23
 - **request** + **redirected**: 14
 - **blocked** + **investigated**: 11
 - **change request** + **actioned**: 10
@@ -92,6 +92,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **escalated**: 1
+- **other** + **n/a**: 1
+- **curious** + **investigated**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
@@ -108,7 +110,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#6879](https://tbpro.zendesk.com/agent/tickets/6879)** · site for ios instructions from introducing email not found
+- **[#6879](https://tbpro.zendesk.com/agent/tickets/6879)** · site for ios instructions from introducing email not found — why: **blocked** · how: **explained**
   > https://[domain]/hc/de/articles/[number]-Setting-Up-Thundermail-on-iOS says: „Die gesuchte Seite ist nicht vorhanden.“
 - **[#6870](https://tbpro.zendesk.com/agent/tickets/6870)** · THundermail vs Thunderbird
   > Hi, I am a long long time user and enthusiast of Thunderbird, which I use to manage my [domain] accounts. I have just subscribed into the new Thundermail, and I am a bit confused…
@@ -120,11 +122,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
   > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
 
-### Aliases — 1 tickets
-
-- **[#6883](https://tbpro.zendesk.com/agent/tickets/6883)** · Aliases
-  > I have established my Tb Pro account. I also created several aliases, which I understand will route any incoming mail to those e-addresses to my principal account. One of the…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6864](https://tbpro.zendesk.com/agent/tickets/6864)** · Email alias - potential security and privacy issues
@@ -134,6 +131,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
   > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
+
+### Aliases — 1 tickets
+
+- **[#6883](https://tbpro.zendesk.com/agent/tickets/6883)** · Aliases — why: **curious** · how: **investigated**
+  > I have established my Tb Pro account. I also created several aliases, which I understand will route any incoming mail to those e-addresses to my principal account. One of the…
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
@@ -154,8 +156,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [pending] · 2026-07-15T05:28 · Upgrade Subscription
 - [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [pending] · 2026-07-15T07:09 · THundermail vs Thunderbird
 - [6875](https://tbpro.zendesk.com/agent/tickets/6875) · [pending] · 2026-07-15T13:18 · Thundermail Early Bird Access
-- [6879](https://tbpro.zendesk.com/agent/tickets/6879) · [open] · 2026-07-15T17:34 · site for ios instructions from introducing email not found
-- [6883](https://tbpro.zendesk.com/agent/tickets/6883) · [open] · 2026-07-15T19:08 · Aliases
+- [6879](https://tbpro.zendesk.com/agent/tickets/6879) · [pending] · 2026-07-15T17:34 · site for ios instructions from introducing email not found
+- [6883](https://tbpro.zendesk.com/agent/tickets/6883) · [hold] · 2026-07-15T19:08 · Aliases
 
 ## Solved — last 24h
 
