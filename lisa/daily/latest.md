@@ -1,19 +1,19 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 01:09 ET** · refreshes hourly_  
+_Updated: **2026-07-15 02:57 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **153 tickets** so far (2.4% contact rate). CSAT since launch: **96%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **154 tickets** so far (2.4% contact rate). CSAT since launch: **96%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **8** solved in last 24h
-- **153** tickets total since launch · contact rate **2%** of 6500 invitees
+- **6** new tickets in last 24h · **8** solved in last 24h
+- **154** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 96%  (22 good / 1 bad)
-- **New FeatureOS ideas (24h)**: 5 · **since launch**: 38
+- **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
 - **Median AHT**: 120.8h · mean 106.6h (proxy: updated_at − created_at, 110 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
@@ -47,8 +47,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 5 new:
+**Last 24h** — 6 new:
 
+- [Email hosting for small businesses](https://ideas.tb.pro/p/email-hosting-for-small-businesses) · 1 votes · _untagged_
+  > What you’d like to seeI want to be able to have email accounts on my domain for all employees.To do this, I imagine two options:- Bring my domain and my LDAP. I can configure the LDAP URL and root…
 - [Time Out for Site](https://ideas.tb.pro/p/time-out-for-site) · 1 votes · _untagged_
   > What you’d like to seeSeems like you have timer for time out during logins. How about allow the user to set that time out period? Why it matters?Frequent logging in is a bit exhausting. Your use…
 - [Alias/Identities support in Webmail](https://ideas.tb.pro/p/alias-identities-support-in-webmail) · 1 votes · _Thundermail, Webmail_
@@ -65,12 +67,12 @@ _(none in last 24h)_
 - **solved**: 110
 - **pending**: 30
 - **hold**: 8
-- **open**: 5
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Thundermail**: 73
-- **Account Hub**: 66
+- **Account Hub**: 67
 - **Appointment**: 6
 - **Send**: 4
 
@@ -105,6 +107,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#6867](https://tbpro.zendesk.com/agent/tickets/6867)** · Upgrade Subscription
+  > I got invited and I am currently on $6 dollar plan (that's the only option I see). It gives me 3 domains to add. I want to know if there's a chance for me to upgrade to $9 plan…
+- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
+  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#6856](https://tbpro.zendesk.com/agent/tickets/6856)** · Invitation 
@@ -122,11 +131,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6861](https://tbpro.zendesk.com/agent/tickets/6861)** · Display Name not being Used
   > When an email is sent the Display Name is not used (in some cases) they primary email is being provided instead of Display Name. If I use an alias the primary email is being…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
-  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
-
 ## New tickets — last 24h
 
 - [6855](https://tbpro.zendesk.com/agent/tickets/6855) · [pending] · 2026-07-14T20:08 · New thundermail email vs email used to pre-enroll
@@ -134,6 +138,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [hold] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
 - [6861](https://tbpro.zendesk.com/agent/tickets/6861) · [open] · 2026-07-14T23:19 · Display Name not being Used
 - [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
+- [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [open] · 2026-07-15T05:28 · Upgrade Subscription
 
 ## Solved — last 24h
 
