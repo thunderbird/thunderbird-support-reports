@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 11:42 ET** · refreshes hourly_  
+_Updated: **2026-07-15 12:41 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **9** solved in last 24h
+- **7** new tickets in last 24h · **10** solved in last 24h
 - **155** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 107.0h (proxy: updated_at − created_at, 111 solved tickets)
+- **Median AHT**: 120.9h · mean 107.2h (proxy: updated_at − created_at, 111 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -64,9 +64,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 111
-- **pending**: 33
+- **pending**: 31
 - **hold**: 7
-- **open**: 4
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -156,6 +156,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
 - · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T13:37 · Can't create Thundermail account containing "ssl"
 - · [6742](https://tbpro.zendesk.com/agent/tickets/6742) · 2026-07-15T15:01 · mta-sts not working right now
+- · [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-15T16:02 · Custom Domain DKIM not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
