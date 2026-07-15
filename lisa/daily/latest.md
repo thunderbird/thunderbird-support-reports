@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-14 23:13 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 23** of rollout — **6,500 invitees**, **153 tickets** so far
 - **153** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 96%  (22 good / 1 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 37
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 38
 - **Median AHT**: 120.7h · mean 106.2h (proxy: updated_at − created_at, 109 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -70,9 +70,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ## Status breakdown (cumulative)
 
 - **solved**: 109
-- **pending**: 30
+- **pending**: 29
 - **hold**: 9
-- **open**: 5
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -181,7 +181,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6844](https://tbpro.zendesk.com/agent/tickets/6844) · [pending] · 2026-07-14T16:15 · Not recieving early-bird sign up.
 - [6846](https://tbpro.zendesk.com/agent/tickets/6846) · [solved] · 2026-07-14T16:51 · first log in
 - [6849](https://tbpro.zendesk.com/agent/tickets/6849) · [solved] · 2026-07-14T17:15 · cant use my invitation to signup
-- [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [pending] · 2026-07-14T17:22 · Custom domains
+- [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [open] · 2026-07-14T17:22 · Custom domains
 
 ## Solved — last 24h
 
