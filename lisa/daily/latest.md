@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 05:46 ET** · refreshes hourly_  
+_Updated: **2026-07-15 06:45 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -66,8 +66,8 @@ _(none in last 24h)_
 
 - **solved**: 110
 - **pending**: 30
-- **hold**: 8
-- **open**: 7
+- **open**: 8
+- **hold**: 7
 
 ## Service (cumulative)
 
@@ -140,7 +140,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6855](https://tbpro.zendesk.com/agent/tickets/6855) · [pending] · 2026-07-14T20:08 · New thundermail email vs email used to pre-enroll
 - [6856](https://tbpro.zendesk.com/agent/tickets/6856) · [open] · 2026-07-14T20:31 · Invitation 
-- [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [hold] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
+- [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [open] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
 - [6861](https://tbpro.zendesk.com/agent/tickets/6861) · [open] · 2026-07-14T23:19 · Display Name not being Used
 - [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
 - [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [open] · 2026-07-15T05:28 · Upgrade Subscription
