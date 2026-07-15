@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 12:41 ET** · refreshes hourly_  
+_Updated: **2026-07-15 13:37 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **156 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **10** solved in last 24h
-- **155** tickets total since launch · contact rate **2%** of 6500 invitees
+- **8** new tickets in last 24h · **12** solved in last 24h
+- **156** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 107.2h (proxy: updated_at − created_at, 111 solved tickets)
+- **Median AHT**: 120.9h · mean 107.8h (proxy: updated_at − created_at, 113 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -50,7 +50,7 @@ _(none in last 24h)_
 
 - [Email hosting for small businesses](https://ideas.tb.pro/p/email-hosting-for-small-businesses) · 1 votes · _untagged_
   > What you’d like to seeI want to be able to have email accounts on my domain for all employees.To do this, I imagine two options:- Bring my domain and my LDAP. I can configure the LDAP URL and root…
-- [Time Out for Site](https://ideas.tb.pro/p/time-out-for-site) · 1 votes · _untagged_
+- [Time Out for Site](https://ideas.tb.pro/p/time-out-for-site) · 1 votes · _Thundermail, Privacy & Security_
   > What you’d like to seeSeems like you have timer for time out during logins. How about allow the user to set that time out period? Why it matters?Frequent logging in is a bit exhausting. Your use…
 - [Alias/Identities support in Webmail](https://ideas.tb.pro/p/alias-identities-support-in-webmail) · 1 votes · _Thundermail, Webmail_
   > What you’d like to seeThe new webmail looks great but there’s a lack of support of the aliases defined in the account, as such creating emails or responding to them defaults to your Thundermail…
@@ -58,19 +58,19 @@ _(none in last 24h)_
   > What you’d like to seeAliases need to be outbound as well as inbound. Why it mattersIt does not do you much good to have an alias if you can not do a drop down on sender and select the alias you are…
 - [Exit Settings > Return to Email](https://ideas.tb.pro/p/exit-settings-return-to-email) · 1 votes · _untagged_
   > What you’d like to seeWhen I am done with settings update - I want to return to email but there is no apparent link. Why it mattersNever seen an email site that did not. You have to know the original…
-- [Automatic email reminders for calendar events](https://ideas.tb.pro/p/automatic-email-reminders-for-calendar-events) · 1 votes · _untagged_
+- [Automatic email reminders for calendar events](https://ideas.tb.pro/p/automatic-email-reminders-for-calendar-events) · 1 votes · _Thundermail, Improvement_
   > With Gmail, I can globally configure an email reminder for all events with a “send x minutes before”. Once this is done, every new event created is automatically configured with a reminder. It is not…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 111
+- **solved**: 113
 - **pending**: 31
 - **hold**: 7
-- **open**: 6
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 73
+- **Thundermail**: 74
 - **Account Hub**: 68
 - **Appointment**: 6
 - **Send**: 4
@@ -81,7 +81,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 35
 - **blocked** + **explained**: 22
-- **request** + **redirected**: 13
+- **request** + **redirected**: 14
 - **blocked** + **investigated**: 11
 - **change request** + **actioned**: 10
 - **confused** + **explained**: 10
@@ -106,12 +106,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#6867](https://tbpro.zendesk.com/agent/tickets/6867)** · Upgrade Subscription
-  > I got invited and I am currently on $6 dollar plan (that's the only option I see). It gives me 3 domains to add. I want to know if there's a chance for me to upgrade to $9 plan…
-- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
-  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
+- **[#6879](https://tbpro.zendesk.com/agent/tickets/6879)** · site for ios instructions from introducing email not found
+  > https://[domain]/hc/de/articles/[number]-Setting-Up-Thundermail-on-iOS says: „Die gesuchte Seite ist nicht vorhanden.“
+- **[#6870](https://tbpro.zendesk.com/agent/tickets/6870)** · THundermail vs Thunderbird
+  > Hi, I am a long long time user and enthusiast of Thunderbird, which I use to manage my [domain] accounts. I have just subscribed into the new Thundermail, and I am a bit confused…
 
 ### Early bird / invite / waitlist — 2 tickets
 
@@ -120,20 +120,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
   > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
 
-### Other / uncategorized — 1 tickets
-
-- **[#6870](https://tbpro.zendesk.com/agent/tickets/6870)** · THundermail vs Thunderbird
-  > Hi, I am a long long time user and enthusiast of Thunderbird, which I use to manage my [domain] accounts. I have just subscribed into the new Thundermail, and I am a bit confused…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6864](https://tbpro.zendesk.com/agent/tickets/6864)** · Email alias - potential security and privacy issues
   > Hi, thanks for the great work so far! I have signed up to Thunderbird PRO today. During the sign up process, I used [email] for my primary email account name, as the email name…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
+  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
+
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#6875](https://tbpro.zendesk.com/agent/tickets/6875)** · Thundermail Early Bird Access — why: **curious** · how: **explained**
   > I have received an invite for the ThunderMail service, however I cannot find a way to test the service before committing to a year long subscription. What do I need to do to get…
+
+### Request or complaint — 1 tickets
+
+- **[#6867](https://tbpro.zendesk.com/agent/tickets/6867)** · Upgrade Subscription — why: **request** · how: **redirected**
+  > I got invited and I am currently on $6 dollar plan (that's the only option I see). It gives me 3 domains to add. I want to know if there's a chance for me to upgrade to $9 plan…
 
 ## New tickets — last 24h
 
@@ -141,9 +146,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6856](https://tbpro.zendesk.com/agent/tickets/6856) · [pending] · 2026-07-14T20:31 · Invitation 
 - [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [open] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
 - [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
-- [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [open] · 2026-07-15T05:28 · Upgrade Subscription
-- [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [open] · 2026-07-15T07:09 · THundermail vs Thunderbird
+- [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [pending] · 2026-07-15T05:28 · Upgrade Subscription
+- [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [pending] · 2026-07-15T07:09 · THundermail vs Thunderbird
 - [6875](https://tbpro.zendesk.com/agent/tickets/6875) · [pending] · 2026-07-15T13:18 · Thundermail Early Bird Access
+- [6879](https://tbpro.zendesk.com/agent/tickets/6879) · [open] · 2026-07-15T17:34 · site for ios instructions from introducing email not found
 
 ## Solved — last 24h
 
@@ -157,6 +163,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T13:37 · Can't create Thundermail account containing "ssl"
 - · [6742](https://tbpro.zendesk.com/agent/tickets/6742) · 2026-07-15T15:01 · mta-sts not working right now
 - · [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-15T16:02 · Custom Domain DKIM not working
+- · [6751](https://tbpro.zendesk.com/agent/tickets/6751) · 2026-07-15T17:01 · Emails going to spam
+- · [6746](https://tbpro.zendesk.com/agent/tickets/6746) · 2026-07-15T17:01 · thunderbird email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
