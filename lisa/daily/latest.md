@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 08:39 ET** · refreshes hourly_  
+_Updated: **2026-07-15 09:44 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **156 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **7** solved in last 24h
-- **155** tickets total since launch · contact rate **2%** of 6500 invitees
+- **8** new tickets in last 24h · **8** solved in last 24h
+- **156** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.7h · mean 104.5h (proxy: updated_at − created_at, 109 solved tickets)
+- **Median AHT**: 120.8h · mean 106.7h (proxy: updated_at − created_at, 110 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -28,7 +28,7 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [solved] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
-  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14 · _No confirmation email received on signup._
+  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [pending] · 2026-07-14 · _No confirmation email received on signup._
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -63,14 +63,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 109
-- **pending**: 30
-- **open**: 9
+- **solved**: 110
+- **pending**: 33
 - **hold**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 74
+- **Thundermail**: 75
 - **Account Hub**: 67
 - **Appointment**: 6
 - **Send**: 4
@@ -84,14 +84,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 13
 - **blocked** + **investigated**: 11
 - **change request** + **actioned**: 10
+- **confused** + **explained**: 10
 - **blocked** + **escalated**: 9
-- **confused** + **explained**: 9
 - **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
@@ -101,10 +100,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
+- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 
 ## Tickets in last 24h — by theme
+
+### Early bird / invite / waitlist — 3 tickets
+
+- **[#6875](https://tbpro.zendesk.com/agent/tickets/6875)** · Thundermail Early Bird Access
+  > I have received an invite for the ThunderMail service, however I cannot find a way to test the service before committing to a year long subscription. What do I need to do to get…
+- **[#6856](https://tbpro.zendesk.com/agent/tickets/6856)** · Invitation 
+  > Hey [name], I was very pleased to have been invited and to have directly reserved an account, but I didn't realize I would have to pay for a full year upfront and that the account…
+- **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
+  > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
@@ -112,13 +121,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I got invited and I am currently on $6 dollar plan (that's the only option I see). It gives me 3 domains to add. I want to know if there's a chance for me to upgrade to $9 plan…
 - **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
   > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
-
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#6856](https://tbpro.zendesk.com/agent/tickets/6856)** · Invitation 
-  > Hey [name], I was very pleased to have been invited and to have directly reserved an account, but I didn't realize I would have to pay for a full year upfront and that the account…
-- **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
-  > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
 
 ### Other / uncategorized — 1 tickets
 
@@ -138,12 +140,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6855](https://tbpro.zendesk.com/agent/tickets/6855) · [pending] · 2026-07-14T20:08 · New thundermail email vs email used to pre-enroll
-- [6856](https://tbpro.zendesk.com/agent/tickets/6856) · [open] · 2026-07-14T20:31 · Invitation 
+- [6856](https://tbpro.zendesk.com/agent/tickets/6856) · [pending] · 2026-07-14T20:31 · Invitation 
 - [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [open] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
 - [6861](https://tbpro.zendesk.com/agent/tickets/6861) · [open] · 2026-07-14T23:19 · Display Name not being Used
 - [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
 - [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [open] · 2026-07-15T05:28 · Upgrade Subscription
 - [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [open] · 2026-07-15T07:09 · THundermail vs Thunderbird
+- [6875](https://tbpro.zendesk.com/agent/tickets/6875) · [open] · 2026-07-15T13:18 · Thundermail Early Bird Access
 
 ## Solved — last 24h
 
@@ -154,6 +157,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-15T00:55 · Custom SMTP
 - · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-15T01:44 · Custom Domain: DKIM Not Properly Served by [domain]
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
+- · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T13:37 · Can't create Thundermail account containing "ssl"
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
