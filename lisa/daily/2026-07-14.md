@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 20:45 ET** · refreshes hourly_  
+_Updated: **2026-07-14 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 23** of rollout — **6,500 invitees**, **154 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 23** of rollout — **6,500 invitees**, **153 tickets** so far (2.4% contact rate). CSAT since launch: **96%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **11** solved in last 24h
-- **154** tickets total since launch · contact rate **2%** of 6500 invitees
+- **14** new tickets in last 24h · **10** solved in last 24h
+- **153** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (22 good / 0 bad)
+- **CSAT (since launch)**: 96%  (22 good / 1 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 37
-- **Median AHT**: 120.5h · mean 104.6h (proxy: updated_at − created_at, 107 solved tickets)
+- **Median AHT**: 120.7h · mean 106.2h (proxy: updated_at − created_at, 109 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -44,7 +44,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ## Negative CSAT (since launch)
 
-_No negative ratings since launch._
+- 👎 [6530](https://tbpro.zendesk.com/agent/tickets/6530) · _Can't create Thundermail account containing "ssl"_  
+  - Reason: **My issue wasn't resolved** · Comment: _—_
 
 ## Refund & cancellation tickets (last 24h) — 2
 
@@ -68,36 +69,35 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 107
-- **pending**: 31
-- **open**: 8
-- **hold**: 8
+- **solved**: 109
+- **pending**: 30
+- **hold**: 9
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 71
-- **Account Hub**: 68
+- **Thundermail**: 72
+- **Account Hub**: 67
 - **Appointment**: 6
-- **Send**: 5
+- **Send**: 4
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 34
-- **blocked** + **explained**: 21
+- **blocked** + **explained**: 22
 - **request** + **redirected**: 13
 - **blocked** + **investigated**: 11
-- **change request** + **actioned**: 11
+- **change request** + **actioned**: 10
+- **blocked** + **escalated**: 9
 - **confused** + **explained**: 9
-- **blocked** + **escalated**: 8
 - **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **blocked** + **n/a**: 2
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
-- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
 - **blocked** + **—**: 1
@@ -105,6 +105,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
+- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 
@@ -127,15 +128,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > The directions for what to enter for DNS for custom domains does not match what is required at GoDaddy,
 - **[#6837](https://tbpro.zendesk.com/agent/tickets/6837)** · DNS Warning — why: **blocked** · how: **explained**
   > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
-- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
+- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP — why: **blocked** · how: **explained**
   > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
-
-### Refund / Cancel — 2 tickets
-
-- **[#6843](https://tbpro.zendesk.com/agent/tickets/6843)** · cancel your subscription and delete your account — why: **change request** · how: **actioned**
-  > I thought it was just a trial version and accidentally took out a subscription – I would like to cancel it with immediate effect and request a refund of the amount paid.
-- **[#6836](https://tbpro.zendesk.com/agent/tickets/6836)** · Declaration of Withdrawal — why: **change request** · how: **actioned**
-  > Dear [name] or Madam, I hereby give notice that I withdraw from my contract for the purchase/subscription of the following service: • Service/Product: Thundermail Subscription /…
 
 ### Appointment / calendar — 1 tickets
 
@@ -151,6 +145,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6844](https://tbpro.zendesk.com/agent/tickets/6844)** · Not recieving early-bird sign up.
   > Want to recieve the early bird sign up link with my email as recovery.
+
+### Refund / Cancel — 1 tickets
+
+- **[#6843](https://tbpro.zendesk.com/agent/tickets/6843)** · cancel your subscription and delete your account — why: **change request** · how: **actioned**
+  > I thought it was just a trial version and accidentally took out a subscription – I would like to cancel it with immediate effect and request a refund of the amount paid.
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -173,22 +172,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6826](https://tbpro.zendesk.com/agent/tickets/6826) · [pending] · 2026-07-13T22:14 · My account does not work
 - [6828](https://tbpro.zendesk.com/agent/tickets/6828) · [pending] · 2026-07-13T23:09 · cannot log in
 - [6829](https://tbpro.zendesk.com/agent/tickets/6829) · [pending] · 2026-07-14T00:57 · Thundermail account after 
-- [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [pending] · 2026-07-14T02:31 · Custom SMTP
+- [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [solved] · 2026-07-14T02:31 · Custom SMTP
 - [6832](https://tbpro.zendesk.com/agent/tickets/6832) · [pending] · 2026-07-14T07:53 · login fails with Firefox
 - [6834](https://tbpro.zendesk.com/agent/tickets/6834) · [open] · 2026-07-14T08:36 · Importing Google Calender
-- [6836](https://tbpro.zendesk.com/agent/tickets/6836) · [pending] · 2026-07-14T10:47 · Declaration of Withdrawal
 - [6837](https://tbpro.zendesk.com/agent/tickets/6837) · [pending] · 2026-07-14T11:02 · DNS Warning
 - [6840](https://tbpro.zendesk.com/agent/tickets/6840) · [open] · 2026-07-14T14:39 · No confirmation email received on signup.
 - [6843](https://tbpro.zendesk.com/agent/tickets/6843) · [pending] · 2026-07-14T15:55 · cancel your subscription and delete your account
 - [6844](https://tbpro.zendesk.com/agent/tickets/6844) · [pending] · 2026-07-14T16:15 · Not recieving early-bird sign up.
 - [6846](https://tbpro.zendesk.com/agent/tickets/6846) · [solved] · 2026-07-14T16:51 · first log in
 - [6849](https://tbpro.zendesk.com/agent/tickets/6849) · [solved] · 2026-07-14T17:15 · cant use my invitation to signup
-- [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [open] · 2026-07-14T17:22 · Custom domains
+- [6850](https://tbpro.zendesk.com/agent/tickets/6850) · [pending] · 2026-07-14T17:22 · Custom domains
 
 ## Solved — last 24h
 
 - · [6719](https://tbpro.zendesk.com/agent/tickets/6719) · 2026-07-13T21:01 · Subscription
-- · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-14T00:00 · Custom Domain: DKIM Not Properly Served by [domain]
 - · [6727](https://tbpro.zendesk.com/agent/tickets/6727) · 2026-07-14T01:01 · Webmail Alpha
 - · [6735](https://tbpro.zendesk.com/agent/tickets/6735) · 2026-07-14T11:01 · Question about Monthly Subscription
 - · [6720](https://tbpro.zendesk.com/agent/tickets/6720) · 2026-07-14T15:02 · Oops, registered and missed the recovery email step, now being charged full price for first year
