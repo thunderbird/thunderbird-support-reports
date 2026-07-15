@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 13:37 ET** · refreshes hourly_  
+_Updated: **2026-07-15 14:34 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -11,8 +11,8 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **156 tickets** so far
 
 - **8** new tickets in last 24h · **12** solved in last 24h
 - **156** tickets total since launch · contact rate **2%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (22 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
 - **Median AHT**: 120.9h · mean 107.8h (proxy: updated_at − created_at, 113 solved tickets)
 
@@ -65,8 +65,8 @@ _(none in last 24h)_
 
 - **solved**: 113
 - **pending**: 31
-- **hold**: 7
-- **open**: 5
+- **open**: 7
+- **hold**: 5
 
 ## Service (cumulative)
 
@@ -91,12 +91,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 3
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **curious** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **request** + **explained**: 1
 - **blocked** + **—**: 1
-- **curious** + **escalated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -162,9 +162,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
 - · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T13:37 · Can't create Thundermail account containing "ssl"
 - · [6742](https://tbpro.zendesk.com/agent/tickets/6742) · 2026-07-15T15:01 · mta-sts not working right now
-- · [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-15T16:02 · Custom Domain DKIM not working
 - · [6751](https://tbpro.zendesk.com/agent/tickets/6751) · 2026-07-15T17:01 · Emails going to spam
 - · [6746](https://tbpro.zendesk.com/agent/tickets/6746) · 2026-07-15T17:01 · thunderbird email
+- 👍 [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-15T17:41 · Custom Domain DKIM not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
