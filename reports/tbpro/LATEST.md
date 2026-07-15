@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-14
 
-_Updated: **2026-07-14 19:27 ET** · refreshes hourly_  
+_Updated: **2026-07-14 20:45 ET** · refreshes hourly_  
 _24h window: 2026-07-13T16:00 → 2026-07-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 23** of rollout — **6,500 invitees**, **154 tickets** so far
 - **154** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 36
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 37
 - **Median AHT**: 120.5h · mean 104.6h (proxy: updated_at − created_at, 107 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -97,6 +97,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **request** + **—**: 2
 - **change request** + **escalated**: 2
+- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **telling us** + **escalated**: 1
 - **blocked** + **—**: 1
@@ -104,7 +105,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
-- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 
@@ -125,10 +125,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6850](https://tbpro.zendesk.com/agent/tickets/6850)** · Custom domains
   > The directions for what to enter for DNS for custom domains does not match what is required at GoDaddy,
-- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
-  > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
 - **[#6837](https://tbpro.zendesk.com/agent/tickets/6837)** · DNS Warning — why: **blocked** · how: **explained**
   > Hello, I just configured my domain vntc.it and I use OVH as host/registrar. Wanted to let you know that OVH is finding these warnings: vntc.it/MX '[domain]' (out of zone) is a…
+- **[#6831](https://tbpro.zendesk.com/agent/tickets/6831)** · Custom SMTP
+  > Are you able to set up SMTP addresses for your custom domains? I'd like to be able to send email through my custom domain but I can only get it to work with my default address.…
 
 ### Refund / Cancel — 2 tickets
 
@@ -173,7 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6826](https://tbpro.zendesk.com/agent/tickets/6826) · [pending] · 2026-07-13T22:14 · My account does not work
 - [6828](https://tbpro.zendesk.com/agent/tickets/6828) · [pending] · 2026-07-13T23:09 · cannot log in
 - [6829](https://tbpro.zendesk.com/agent/tickets/6829) · [pending] · 2026-07-14T00:57 · Thundermail account after 
-- [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [open] · 2026-07-14T02:31 · Custom SMTP
+- [6831](https://tbpro.zendesk.com/agent/tickets/6831) · [pending] · 2026-07-14T02:31 · Custom SMTP
 - [6832](https://tbpro.zendesk.com/agent/tickets/6832) · [pending] · 2026-07-14T07:53 · login fails with Firefox
 - [6834](https://tbpro.zendesk.com/agent/tickets/6834) · [open] · 2026-07-14T08:36 · Importing Google Calender
 - [6836](https://tbpro.zendesk.com/agent/tickets/6836) · [pending] · 2026-07-14T10:47 · Declaration of Withdrawal
