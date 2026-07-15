@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 14:34 ET** · refreshes hourly_  
+_Updated: **2026-07-15 15:36 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **156 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **157 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **12** solved in last 24h
-- **156** tickets total since launch · contact rate **2%** of 6500 invitees
+- **9** new tickets in last 24h · **12** solved in last 24h
+- **157** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
@@ -64,13 +64,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 113
-- **pending**: 31
-- **open**: 7
-- **hold**: 5
+- **pending**: 32
+- **open**: 6
+- **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 74
+- **Thundermail**: 75
 - **Account Hub**: 68
 - **Appointment**: 6
 - **Send**: 4
@@ -120,6 +120,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
   > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
 
+### Aliases — 1 tickets
+
+- **[#6883](https://tbpro.zendesk.com/agent/tickets/6883)** · Aliases
+  > I have established my Tb Pro account. I also created several aliases, which I understand will route any incoming mail to those e-addresses to my principal account. One of the…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6864](https://tbpro.zendesk.com/agent/tickets/6864)** · Email alias - potential security and privacy issues
@@ -150,6 +155,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [pending] · 2026-07-15T07:09 · THundermail vs Thunderbird
 - [6875](https://tbpro.zendesk.com/agent/tickets/6875) · [pending] · 2026-07-15T13:18 · Thundermail Early Bird Access
 - [6879](https://tbpro.zendesk.com/agent/tickets/6879) · [open] · 2026-07-15T17:34 · site for ios instructions from introducing email not found
+- [6883](https://tbpro.zendesk.com/agent/tickets/6883) · [open] · 2026-07-15T19:08 · Aliases
 
 ## Solved — last 24h
 
