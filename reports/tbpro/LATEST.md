@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 18:29 ET** · refreshes hourly_  
+_Updated: **2026-07-15 19:29 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **158 tickets** so far
 
 ## At a glance
 
-- **9** new tickets in last 24h · **11** solved in last 24h
+- **9** new tickets in last 24h · **10** solved in last 24h
 - **158** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 107.7h (proxy: updated_at − created_at, 117 solved tickets)
+- **Median AHT**: 120.9h · mean 107.9h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -48,13 +48,13 @@ _(none in last 24h)_
 
 **Last 24h** — 6 new:
 
-- [Email hosting for small businesses](https://ideas.tb.pro/p/email-hosting-for-small-businesses) · 1 votes · _untagged_
+- [Email hosting for small businesses](https://ideas.tb.pro/p/email-hosting-for-small-businesses) · 1 votes · _Thundermail, Accounts & Subscriptions, New Feature_
   > What you’d like to seeI want to be able to have email accounts on my domain for all employees.To do this, I imagine two options:- Bring my domain and my LDAP. I can configure the LDAP URL and root…
 - [Time Out for Site](https://ideas.tb.pro/p/time-out-for-site) · 1 votes · _Thundermail, Privacy & Security_
   > What you’d like to seeSeems like you have timer for time out during logins. How about allow the user to set that time out period? Why it matters?Frequent logging in is a bit exhausting. Your use…
-- [Alias/Identities support in Webmail](https://ideas.tb.pro/p/alias-identities-support-in-webmail) · 1 votes · _Thundermail, Webmail_
+- [Alias/Identities support in Webmail](https://ideas.tb.pro/p/alias-identities-support-in-webmail) · 1 votes · _Thundermail, Webmail, Improvement_
   > What you’d like to seeThe new webmail looks great but there’s a lack of support of the aliases defined in the account, as such creating emails or responding to them defaults to your Thundermail…
-- [New Message and Aliases](https://ideas.tb.pro/p/new-message-and-aliases) · 1 votes · _untagged_
+- [New Message and Aliases](https://ideas.tb.pro/p/new-message-and-aliases) · 1 votes · _Thundermail, Improvement_
   > What you’d like to seeAliases need to be outbound as well as inbound. Why it mattersIt does not do you much good to have an alias if you can not do a drop down on sender and select the alias you are…
 - [Exit Settings > Return to Email](https://ideas.tb.pro/p/exit-settings-return-to-email) · 1 votes · _untagged_
   > What you’d like to seeWhen I am done with settings update - I want to return to email but there is no apparent link. Why it mattersNever seen an email site that did not. You have to know the original…
@@ -64,8 +64,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 30
-- **hold**: 7
+- **pending**: 31
+- **hold**: 6
 - **open**: 4
 
 ## Service (cumulative)
@@ -163,7 +163,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6686](https://tbpro.zendesk.com/agent/tickets/6686) · 2026-07-14T20:02 · Thundermail vs Fastmail
 - · [6748](https://tbpro.zendesk.com/agent/tickets/6748) · 2026-07-14T22:01 · Invites to others?
-- · [6846](https://tbpro.zendesk.com/agent/tickets/6846) · 2026-07-14T22:29 · first log in
 - · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-15T00:55 · Custom SMTP
 - · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-15T01:44 · Custom Domain: DKIM Not Properly Served by [domain]
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
