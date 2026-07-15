@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 02:57 ET** · refreshes hourly_  
+_Updated: **2026-07-15 03:46 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **154 tickets** so far (2.4% contact rate). CSAT since launch: **96%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far (2.4% contact rate). CSAT since launch: **96%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **8** solved in last 24h
-- **154** tickets total since launch · contact rate **2%** of 6500 invitees
+- **7** new tickets in last 24h · **8** solved in last 24h
+- **155** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 96%  (22 good / 1 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
@@ -67,11 +67,11 @@ _(none in last 24h)_
 - **solved**: 110
 - **pending**: 30
 - **hold**: 8
-- **open**: 6
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Thundermail**: 73
+- **Thundermail**: 74
 - **Account Hub**: 67
 - **Appointment**: 6
 - **Send**: 4
@@ -121,6 +121,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
   > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
 
+### Other / uncategorized — 1 tickets
+
+- **[#6870](https://tbpro.zendesk.com/agent/tickets/6870)** · THundermail vs Thunderbird
+  > Hi, I am a long long time user and enthusiast of Thunderbird, which I use to manage my [domain] accounts. I have just subscribed into the new Thundermail, and I am a bit confused…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6864](https://tbpro.zendesk.com/agent/tickets/6864)** · Email alias - potential security and privacy issues
@@ -139,6 +144,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6861](https://tbpro.zendesk.com/agent/tickets/6861) · [open] · 2026-07-14T23:19 · Display Name not being Used
 - [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
 - [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [open] · 2026-07-15T05:28 · Upgrade Subscription
+- [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [open] · 2026-07-15T07:09 · THundermail vs Thunderbird
 
 ## Solved — last 24h
 
