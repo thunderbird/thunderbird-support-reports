@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 06:45 ET** · refreshes hourly_  
+_Updated: **2026-07-15 07:42 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far (2.4% contact rate). CSAT since launch: **96%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far (2.4% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **8** solved in last 24h
+- **7** new tickets in last 24h · **7** solved in last 24h
 - **155** tickets total since launch · contact rate **2%** of 6500 invitees
-- **CSAT (24h)**: 0%  (0 good / 1 bad)
-- **CSAT (since launch)**: 96%  (22 good / 1 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.8h · mean 106.6h (proxy: updated_at − created_at, 110 solved tickets)
+- **Median AHT**: 120.7h · mean 104.5h (proxy: updated_at − created_at, 109 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -38,8 +38,7 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **155 tickets** so far
 
 ## Negative CSAT (since launch)
 
-- 👎 [6530](https://tbpro.zendesk.com/agent/tickets/6530) · _Can't create Thundermail account containing "ssl"_  
-  - Reason: **My issue wasn't resolved** · Comment: _—_
+_No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 0
 
@@ -64,9 +63,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 110
+- **solved**: 109
 - **pending**: 30
-- **open**: 8
+- **open**: 9
 - **hold**: 7
 
 ## Service (cumulative)
@@ -92,6 +91,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 3
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **confused** + **escalated**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
@@ -101,7 +101,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
-- **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 
@@ -153,7 +152,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6748](https://tbpro.zendesk.com/agent/tickets/6748) · 2026-07-14T22:01 · Invites to others?
 - · [6846](https://tbpro.zendesk.com/agent/tickets/6846) · 2026-07-14T22:29 · first log in
 - · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-15T00:55 · Custom SMTP
-- 👎 [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T01:09 · Can't create Thundermail account containing "ssl"
 - · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-15T01:44 · Custom Domain: DKIM Not Properly Served by [domain]
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
 
