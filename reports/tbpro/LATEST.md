@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-15
 
-_Updated: **2026-07-15 20:49 ET** · refreshes hourly_  
+_Updated: **2026-07-15 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **159 tickets** so far
 
 ## At a glance
 
-- **9** new tickets in last 24h · **10** solved in last 24h
+- **9** new tickets in last 24h · **9** solved in last 24h
 - **159** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 107.9h (proxy: updated_at − created_at, 117 solved tickets)
+- **Median AHT**: 120.9h · mean 108.1h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -54,7 +54,7 @@ _(none in last 24h)_
   > What you’d like to seeSeems like you have timer for time out during logins. How about allow the user to set that time out period? Why it matters?Frequent logging in is a bit exhausting. Your use…
 - [Alias/Identities support in Webmail](https://ideas.tb.pro/p/alias-identities-support-in-webmail) · 1 votes · _Thundermail, Webmail, Improvement_
   > What you’d like to seeThe new webmail looks great but there’s a lack of support of the aliases defined in the account, as such creating emails or responding to them defaults to your Thundermail…
-- [New Message and Aliases](https://ideas.tb.pro/p/new-message-and-aliases) · 1 votes · _Thundermail, Improvement_
+- [New Message and Aliases](https://ideas.tb.pro/p/new-message-and-aliases) · 2 votes · _Thundermail, Improvement_
   > What you’d like to seeAliases need to be outbound as well as inbound. Why it mattersIt does not do you much good to have an alias if you can not do a drop down on sender and select the alias you are…
 - [Exit Settings > Return to Email](https://ideas.tb.pro/p/exit-settings-return-to-email) · 1 votes · _untagged_
   > What you’d like to seeWhen I am done with settings update - I want to return to email but there is no apparent link. Why it mattersNever seen an email site that did not. You have to know the original…
@@ -64,9 +64,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 31
-- **open**: 6
-- **hold**: 5
+- **pending**: 32
+- **hold**: 6
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -83,9 +83,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 23
 - **request** + **redirected**: 14
 - **blocked** + **investigated**: 11
-- **change request** + **actioned**: 10
 - **confused** + **explained**: 10
-- **blocked** + **escalated**: 9
+- **blocked** + **escalated**: 10
+- **change request** + **actioned**: 10
 - **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
@@ -127,11 +127,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6864](https://tbpro.zendesk.com/agent/tickets/6864)** · Email alias - potential security and privacy issues
   > Hi, thanks for the great work so far! I have signed up to Thunderbird PRO today. During the sign up process, I used [email] for my primary email account name, as the email name…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
-  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
-
 ### Aliases — 1 tickets
 
 - **[#6883](https://tbpro.zendesk.com/agent/tickets/6883)** · Aliases — why: **curious** · how: **investigated**
@@ -147,11 +142,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6867](https://tbpro.zendesk.com/agent/tickets/6867)** · Upgrade Subscription — why: **request** · how: **redirected**
   > I got invited and I am currently on $6 dollar plan (that's the only option I see). It gives me 3 domains to add. I want to know if there's a chance for me to upgrade to $9 plan…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
+  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
+
 ## New tickets — last 24h
 
 - [6855](https://tbpro.zendesk.com/agent/tickets/6855) · [pending] · 2026-07-14T20:08 · New thundermail email vs email used to pre-enroll
 - [6856](https://tbpro.zendesk.com/agent/tickets/6856) · [pending] · 2026-07-14T20:31 · Invitation 
-- [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [open] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
+- [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [pending] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
 - [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
 - [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [pending] · 2026-07-15T05:28 · Upgrade Subscription
 - [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [pending] · 2026-07-15T07:09 · THundermail vs Thunderbird
@@ -163,7 +163,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6686](https://tbpro.zendesk.com/agent/tickets/6686) · 2026-07-14T20:02 · Thundermail vs Fastmail
 - · [6748](https://tbpro.zendesk.com/agent/tickets/6748) · 2026-07-14T22:01 · Invites to others?
-- · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-15T00:55 · Custom SMTP
 - · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-15T01:44 · Custom Domain: DKIM Not Properly Served by [domain]
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
 - · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T13:37 · Can't create Thundermail account containing "ssl"
