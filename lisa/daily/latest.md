@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 06:47 ET** · refreshes hourly_  
+_Updated: **2026-07-16 07:43 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **161 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **163 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
-- **161** tickets total since launch · contact rate **2%** of 6500 invitees
+- **6** new tickets in last 24h · **7** solved in last 24h
+- **163** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 108.3h (proxy: updated_at − created_at, 117 solved tickets)
+- **Median AHT**: 120.9h · mean 107.7h (proxy: updated_at − created_at, 116 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -53,15 +53,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 117
-- **pending**: 31
-- **open**: 7
+- **solved**: 116
+- **pending**: 30
+- **open**: 11
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 78
-- **Account Hub**: 69
+- **Thundermail**: 79
+- **Account Hub**: 70
 - **Appointment**: 6
 - **Send**: 4
 
@@ -81,15 +81,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 3
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **request** + **explained**: 1
 - **blocked** + **—**: 1
+- **curious** + **escalated**: 1
 - **other** + **n/a**: 1
 - **curious** + **investigated**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
-- **request** + **explained**: 1
-- **curious** + **escalated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -105,6 +105,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
   > ... but i don't know what the something is. I think I remember my passcode.
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning?
+  > I have been waiting for more than 6 months for access to [domain], after you initially promised last year that it would be opened in early 2026. I have been using [domain] in the…
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#6894](https://tbpro.zendesk.com/agent/tickets/6894)** · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
+  > Hi [name] team, I've got a custom domain set up with a catch-all alias for throwaway signups. I'd like to automatically sort catch-all mail into a separate folder — but this only…
 
 ### Appointment / calendar — 1 tickets
 
@@ -122,6 +132,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6889](https://tbpro.zendesk.com/agent/tickets/6889) · [open] · 2026-07-15T23:50 · How to connect to my thunderbird calendar?
 - [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [open] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 - [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [open] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
+- [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [open] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
+- [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
 
 ## Solved — last 24h
 
@@ -132,7 +144,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-15T22:18 · Plz ignore (just testing a patch)
 - · [6846](https://tbpro.zendesk.com/agent/tickets/6846) · 2026-07-15T23:01 · first log in
 - · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-16T01:01 · Custom SMTP
-- · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-16T05:01 · why I cannot get alias [email]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
