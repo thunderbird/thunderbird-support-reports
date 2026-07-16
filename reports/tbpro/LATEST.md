@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-15
+# Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-15 23:13 ET** · refreshes hourly_  
-_24h window: 2026-07-14T16:00 → 2026-07-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-16 01:14 ET** · refreshes hourly_  
+_24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 24** of rollout — **6,500 invitees**, **160 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **160 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
+- **3** new tickets in last 24h · **8** solved in last 24h
 - **160** tickets total since launch · contact rate **2%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 6 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 108.1h (proxy: updated_at − created_at, 117 solved tickets)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
+- **Median AHT**: 120.9h · mean 108.3h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## Known problems — 2 problem(s), 6 incident(s)
 
@@ -30,8 +30,9 @@ Flight 3 is **day 24** of rollout — **6,500 invitees**, **160 tickets** so far
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
   - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [pending] · 2026-07-14 · _No confirmation email received on signup._
 
-## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
+## Other tickets linked to GitHub — 4 ticket(s) → 4 issue(s)
 
+- 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6722](https://tbpro.zendesk.com/agent/tickets/6722) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 🔧 [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
@@ -46,20 +47,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 6 new:
+**Last 24h** — 0 new:
 
-- [Email hosting for small businesses](https://ideas.tb.pro/p/email-hosting-for-small-businesses) · 1 votes · _Thundermail, Accounts & Subscriptions, New Feature_
-  > What you’d like to seeI want to be able to have email accounts on my domain for all employees.To do this, I imagine two options:- Bring my domain and my LDAP. I can configure the LDAP URL and root…
-- [Time Out for Site](https://ideas.tb.pro/p/time-out-for-site) · 1 votes · _Thundermail, Privacy & Security_
-  > What you’d like to seeSeems like you have timer for time out during logins. How about allow the user to set that time out period? Why it matters?Frequent logging in is a bit exhausting. Your use…
-- [Alias/Identities support in Webmail](https://ideas.tb.pro/p/alias-identities-support-in-webmail) · 1 votes · _Thundermail, Webmail, Improvement_
-  > What you’d like to seeThe new webmail looks great but there’s a lack of support of the aliases defined in the account, as such creating emails or responding to them defaults to your Thundermail…
-- [New Message and Aliases](https://ideas.tb.pro/p/new-message-and-aliases) · 2 votes · _Thundermail, Improvement_
-  > What you’d like to seeAliases need to be outbound as well as inbound. Why it mattersIt does not do you much good to have an alias if you can not do a drop down on sender and select the alias you are…
-- [Exit Settings > Return to Email](https://ideas.tb.pro/p/exit-settings-return-to-email) · 1 votes · _untagged_
-  > What you’d like to seeWhen I am done with settings update - I want to return to email but there is no apparent link. Why it mattersNever seen an email site that did not. You have to know the original…
-- [Automatic email reminders for calendar events](https://ideas.tb.pro/p/automatic-email-reminders-for-calendar-events) · 1 votes · _Thundermail, Improvement_
-  > With Gmail, I can globally configure an email reminder for all events with a “send x minutes before”. Once this is done, every new event created is automatically configured with a reminder. It is not…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -91,6 +81,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 3
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **concerned** + **—**: 1
 - **other** + **n/a**: 1
 - **curious** + **investigated**: 1
 - **telling us** + **n/a**: 1
@@ -108,68 +99,37 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#6879](https://tbpro.zendesk.com/agent/tickets/6879)** · site for ios instructions from introducing email not found — why: **blocked** · how: **explained**
-  > https://[domain]/hc/de/articles/[number]-Setting-Up-Thundermail-on-iOS says: „Die gesuchte Seite ist nicht vorhanden.“
-- **[#6870](https://tbpro.zendesk.com/agent/tickets/6870)** · THundermail vs Thunderbird
-  > Hi, I am a long long time user and enthusiast of Thunderbird, which I use to manage my [domain] accounts. I have just subscribed into the new Thundermail, and I am a bit confused…
+- **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+  > ... but i don't know what the something is. I think I remember my passcode.
 
-### Early bird / invite / waitlist — 2 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#6856](https://tbpro.zendesk.com/agent/tickets/6856)** · Invitation 
-  > Hey [name], I was very pleased to have been invited and to have directly reserved an account, but I didn't realize I would have to pay for a full year upfront and that the account…
-- **[#6855](https://tbpro.zendesk.com/agent/tickets/6855)** · New thundermail email vs email used to pre-enroll
-  > I created an account before receiving the invite for beta Thundermail. I believe the email used for that account is my recovery email. Does this mean I can log into Thundermail or…
+- **[#6889](https://tbpro.zendesk.com/agent/tickets/6889)** · How to connect to my thunderbird calendar?
+  > Hi, i have a calendar set up and running in Thunderbird application, but how can i connect in an app that supports CalDAV, like Dav5X/Etar Calendar, Apple Calendar, Google…
 
-### Account creation / signup confusion — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#6864](https://tbpro.zendesk.com/agent/tickets/6864)** · Email alias - potential security and privacy issues
-  > Hi, thanks for the great work so far! I have signed up to Thunderbird PRO today. During the sign up process, I used [email] for my primary email account name, as the email name…
-
-### Aliases — 1 tickets
-
-- **[#6883](https://tbpro.zendesk.com/agent/tickets/6883)** · Aliases — why: **curious** · how: **investigated**
-  > I have established my Tb Pro account. I also created several aliases, which I understand will route any incoming mail to those e-addresses to my principal account. One of the…
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#6875](https://tbpro.zendesk.com/agent/tickets/6875)** · Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > I have received an invite for the ThunderMail service, however I cannot find a way to test the service before committing to a year long subscription. What do I need to do to get…
-
-### Request or complaint — 1 tickets
-
-- **[#6867](https://tbpro.zendesk.com/agent/tickets/6867)** · Upgrade Subscription — why: **request** · how: **redirected**
-  > I got invited and I am currently on $6 dollar plan (that's the only option I see). It gives me 3 domains to add. I want to know if there's a chance for me to upgrade to $9 plan…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6859](https://tbpro.zendesk.com/agent/tickets/6859)** · Checking if tax documents are available - needed for Thundermail subscription in India — why: **blocked** · how: **escalated**
-  > I will be purchasing Thundermail for my business. Since Thundermail is presumably not an India-based company, there are specific compliances/tax documentation needed for this…
+- **[#6886](https://tbpro.zendesk.com/agent/tickets/6886)** · Plz ignore (just testing a patch) — why: **other** · how: **n/a**
+  > Nothing, you are all great! Thanks for your work <3
 
 ## New tickets — last 24h
 
-- [6855](https://tbpro.zendesk.com/agent/tickets/6855) · [pending] · 2026-07-14T20:08 · New thundermail email vs email used to pre-enroll
-- [6856](https://tbpro.zendesk.com/agent/tickets/6856) · [pending] · 2026-07-14T20:31 · Invitation 
-- [6859](https://tbpro.zendesk.com/agent/tickets/6859) · [pending] · 2026-07-14T21:24 · Checking if tax documents are available - needed for Thundermail subscription in India
-- [6864](https://tbpro.zendesk.com/agent/tickets/6864) · [open] · 2026-07-15T04:59 · Email alias - potential security and privacy issues
-- [6867](https://tbpro.zendesk.com/agent/tickets/6867) · [pending] · 2026-07-15T05:28 · Upgrade Subscription
-- [6870](https://tbpro.zendesk.com/agent/tickets/6870) · [pending] · 2026-07-15T07:09 · THundermail vs Thunderbird
-- [6875](https://tbpro.zendesk.com/agent/tickets/6875) · [pending] · 2026-07-15T13:18 · Thundermail Early Bird Access
-- [6879](https://tbpro.zendesk.com/agent/tickets/6879) · [pending] · 2026-07-15T17:34 · site for ios instructions from introducing email not found
-- [6883](https://tbpro.zendesk.com/agent/tickets/6883) · [hold] · 2026-07-15T19:08 · Aliases
+- [6886](https://tbpro.zendesk.com/agent/tickets/6886) · [solved] · 2026-07-15T21:31 · Plz ignore (just testing a patch)
+- [6889](https://tbpro.zendesk.com/agent/tickets/6889) · [open] · 2026-07-15T23:50 · How to connect to my thunderbird calendar?
+- [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [open] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 
 ## Solved — last 24h
 
-- · [6686](https://tbpro.zendesk.com/agent/tickets/6686) · 2026-07-14T20:02 · Thundermail vs Fastmail
-- · [6748](https://tbpro.zendesk.com/agent/tickets/6748) · 2026-07-14T22:01 · Invites to others?
-- · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-15T01:44 · Custom Domain: DKIM Not Properly Served by [domain]
-- · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-15T04:46 · why I cannot get alias [email]
-- · [6530](https://tbpro.zendesk.com/agent/tickets/6530) · 2026-07-15T13:37 · Can't create Thundermail account containing "ssl"
-- · [6742](https://tbpro.zendesk.com/agent/tickets/6742) · 2026-07-15T15:01 · mta-sts not working right now
-- · [6751](https://tbpro.zendesk.com/agent/tickets/6751) · 2026-07-15T17:01 · Emails going to spam
-- · [6746](https://tbpro.zendesk.com/agent/tickets/6746) · 2026-07-15T17:01 · thunderbird email
-- 👍 [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-15T17:41 · Custom Domain DKIM not working
+- · [6769](https://tbpro.zendesk.com/agent/tickets/6769) · 2026-07-15T20:01 · Vision Gratuit sur Thundermail
+- · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-15T20:01 · Refund request
+- · [6849](https://tbpro.zendesk.com/agent/tickets/6849) · 2026-07-15T21:01 · cant use my invitation to signup
+- · [6773](https://tbpro.zendesk.com/agent/tickets/6773) · 2026-07-15T21:01 · Missing my name from Customer portal on Paddle
+- · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-15T22:18 · Plz ignore (just testing a patch)
+- · [6846](https://tbpro.zendesk.com/agent/tickets/6846) · 2026-07-15T23:01 · first log in
+- · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-16T01:01 · Custom SMTP
+- · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-16T05:01 · why I cannot get alias [email]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
