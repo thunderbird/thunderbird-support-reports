@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 07:43 ET** · refreshes hourly_  
+_Updated: **2026-07-16 08:44 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **163 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **164 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **7** solved in last 24h
-- **163** tickets total since launch · contact rate **3%** of 6500 invitees
+- **7** new tickets in last 24h · **7** solved in last 24h
+- **164** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
@@ -55,12 +55,12 @@ _(none in last 24h)_
 
 - **solved**: 116
 - **pending**: 30
-- **open**: 11
+- **open**: 12
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 79
+- **Thundermail**: 80
 - **Account Hub**: 70
 - **Appointment**: 6
 - **Send**: 4
@@ -106,6 +106,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
   > ... but i don't know what the something is. I think I remember my passcode.
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#6899](https://tbpro.zendesk.com/agent/tickets/6899)** · Question regarding free plan availability
+  > Hi, I recently completed my registration, but I am currently being prompted to pay in order to proceed. I wanted to ask if there is a free plan available for Thundermail? If a…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning?
@@ -134,6 +139,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [open] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
 - [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [open] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
 - [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
+- [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [open] · 2026-07-16T12:09 · Question regarding free plan availability
 
 ## Solved — last 24h
 
