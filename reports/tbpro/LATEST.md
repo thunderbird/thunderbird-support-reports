@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 13:38 ET** · refreshes hourly_  
+_Updated: **2026-07-16 14:34 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **167 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **166 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **8** solved in last 24h
-- **167** tickets total since launch · contact rate **3%** of 6500 invitees
+- **9** new tickets in last 24h · **8** solved in last 24h
+- **166** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
@@ -47,7 +47,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [open] · _Refund Request_
+- [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [pending] · _Refund Request_
   > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was under the impression that I would be billed…
 
 ## New ideas on FeatureOS
@@ -59,14 +59,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 36
+- **pending**: 37
 - **hold**: 8
-- **open**: 6
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 82
-- **Account Hub**: 71
+- **Thundermail**: 80
+- **Account Hub**: 72
 - **Appointment**: 6
 - **Send**: 4
 
@@ -74,7 +74,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 35
+- **curious** + **explained**: 36
 - **blocked** + **explained**: 24
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 11
@@ -112,16 +112,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>> — why: **confused** · how: **investigated**
   > ... but i don't know what the something is. I think I remember my passcode.
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6903](https://tbpro.zendesk.com/agent/tickets/6903)** · Refund Request
-  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#6899](https://tbpro.zendesk.com/agent/tickets/6899)** · Question regarding free plan availability
-  > Hi, I recently completed my registration, but I am currently being prompted to pay in order to proceed. I wanted to ask if there is a free plan available for Thundermail? If a…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning?
@@ -142,6 +132,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6905](https://tbpro.zendesk.com/agent/tickets/6905)** · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail — why: **blocked**
   > **GitHub Issue:** **https://github.com/thunderbird/stormbox/issues/60** **Problem:** Customer has added thundermail, [domain], and aliases from a custom domain in the Account…
 
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#6899](https://tbpro.zendesk.com/agent/tickets/6899)** · Question regarding free plan availability — why: **curious** · how: **explained**
+  > Hi, I recently completed my registration, but I am currently being prompted to pay in order to proceed. I wanted to ask if there is a free plan available for Thundermail? If a…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#6889](https://tbpro.zendesk.com/agent/tickets/6889)** · How to connect to my thunderbird calendar? — why: **blocked** · how: **explained**
@@ -160,8 +155,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [open] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
 - [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [open] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
 - [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
-- [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [open] · 2026-07-16T12:09 · Question regarding free plan availability
-- [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [open] · 2026-07-16T14:07 · Refund Request
+- [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [pending] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [pending] · 2026-07-16T15:25 · Thunderbird Pro Invite
 
