@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 09:45 ET** · refreshes hourly_  
+_Updated: **2026-07-16 10:49 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **164 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **165 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **7** solved in last 24h
-- **164** tickets total since launch · contact rate **3%** of 6500 invitees
+- **8** new tickets in last 24h · **7** solved in last 24h
+- **165** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
@@ -35,15 +35,16 @@ Flight 3 is **day 25** of rollout — **6,500 invitees**, **164 tickets** so far
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6722](https://tbpro.zendesk.com/agent/tickets/6722) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
-- 🔧 [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
+- ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
 ## Negative CSAT (since launch)
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [open] · _Refund Request_
+  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was under the impression that I would be billed…
 
 ## New ideas on FeatureOS
 
@@ -54,13 +55,13 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 116
-- **pending**: 30
-- **open**: 12
+- **pending**: 32
+- **open**: 11
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 80
+- **Thundermail**: 81
 - **Account Hub**: 70
 - **Appointment**: 6
 - **Send**: 4
@@ -70,7 +71,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 35
-- **blocked** + **explained**: 23
+- **blocked** + **explained**: 24
 - **request** + **redirected**: 14
 - **blocked** + **investigated**: 11
 - **confused** + **explained**: 10
@@ -84,6 +85,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **explained**: 1
 - **blocked** + **—**: 1
 - **curious** + **escalated**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **curious** + **investigated**: 1
 - **concerned** + **—**: 1
@@ -103,8 +105,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6891](https://tbpro.zendesk.com/agent/tickets/6891)** · Wo werden die Daten von Thundermail gespeichert
   > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
-- **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+- **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>> — why: **confused** · how: **investigated**
   > ... but i don't know what the something is. I think I remember my passcode.
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6903](https://tbpro.zendesk.com/agent/tickets/6903)** · Refund Request
+  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -123,7 +130,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Appointment / calendar — 1 tickets
 
-- **[#6889](https://tbpro.zendesk.com/agent/tickets/6889)** · How to connect to my thunderbird calendar?
+- **[#6889](https://tbpro.zendesk.com/agent/tickets/6889)** · How to connect to my thunderbird calendar? — why: **blocked** · how: **explained**
   > Hi, i have a calendar set up and running in Thunderbird application, but how can i connect in an app that supports CalDAV, like Dav5X/Etar Calendar, Apple Calendar, Google…
 
 ### Account access issues — Account Hub trouble — 1 tickets
@@ -134,12 +141,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6886](https://tbpro.zendesk.com/agent/tickets/6886) · [solved] · 2026-07-15T21:31 · Plz ignore (just testing a patch)
-- [6889](https://tbpro.zendesk.com/agent/tickets/6889) · [open] · 2026-07-15T23:50 · How to connect to my thunderbird calendar?
-- [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [open] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+- [6889](https://tbpro.zendesk.com/agent/tickets/6889) · [pending] · 2026-07-15T23:50 · How to connect to my thunderbird calendar?
+- [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [pending] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 - [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [open] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
 - [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [open] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
 - [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [open] · 2026-07-16T12:09 · Question regarding free plan availability
+- [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [open] · 2026-07-16T14:07 · Refund Request
 
 ## Solved — last 24h
 
