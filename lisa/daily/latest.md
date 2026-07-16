@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 03:00 ET** · refreshes hourly_  
+_Updated: **2026-07-16 03:48 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **160 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **161 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **160** tickets total since launch · contact rate **2%** of 6500 invitees
+- **4** new tickets in last 24h · **8** solved in last 24h
+- **161** tickets total since launch · contact rate **2%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
@@ -55,12 +55,12 @@ _(none in last 24h)_
 
 - **solved**: 117
 - **pending**: 32
+- **open**: 6
 - **hold**: 6
-- **open**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 77
+- **Thundermail**: 78
 - **Account Hub**: 69
 - **Appointment**: 6
 - **Send**: 4
@@ -99,8 +99,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#6891](https://tbpro.zendesk.com/agent/tickets/6891)** · Wo werden die Daten von Thundermail gespeichert
+  > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
   > ... but i don't know what the something is. I think I remember my passcode.
 
@@ -119,6 +121,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6886](https://tbpro.zendesk.com/agent/tickets/6886) · [solved] · 2026-07-15T21:31 · Plz ignore (just testing a patch)
 - [6889](https://tbpro.zendesk.com/agent/tickets/6889) · [open] · 2026-07-15T23:50 · How to connect to my thunderbird calendar?
 - [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [open] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+- [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [open] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
 
 ## Solved — last 24h
 
