@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 14:34 ET** · refreshes hourly_  
+_Updated: **2026-07-16 15:35 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **166 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **167 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **8** solved in last 24h
-- **166** tickets total since launch · contact rate **3%** of 6500 invitees
+- **10** new tickets in last 24h · **8** solved in last 24h
+- **167** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
 - **Median AHT**: 120.9h · mean 108.5h (proxy: updated_at − created_at, 117 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domain"** — 3 tickets in 24h (4.2× baseline; baseline 17 cum) — [#6894](https://tbpro.zendesk.com/agent/tickets/6894), [#6905](https://tbpro.zendesk.com/agent/tickets/6905), [#6911](https://tbpro.zendesk.com/agent/tickets/6911)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -33,7 +39,7 @@ Flight 3 is **day 25** of rollout — **6,500 invitees**, **166 tickets** so far
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [hold] · 2026-07-08 · _Webmail - no mail from own domain_
+  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [open] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -59,13 +65,13 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 37
-- **hold**: 8
-- **open**: 4
+- **pending**: 36
+- **open**: 7
+- **hold**: 7
 
 ## Service (cumulative)
 
-- **Thundermail**: 80
+- **Thundermail**: 81
 - **Account Hub**: 72
 - **Appointment**: 6
 - **Send**: 4
@@ -111,6 +117,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>> — why: **confused** · how: **investigated**
   > ... but i don't know what the something is. I think I remember my passcode.
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6911](https://tbpro.zendesk.com/agent/tickets/6911)** · IONOS DNS Records Assistance
+  > I am trying to configure my custom domain that is hosted with IONOS. Trying to add the SRV records on IONOS and I am unable to understand the relation to what is shown from…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -158,6 +169,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [pending] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [pending] · 2026-07-16T15:25 · Thunderbird Pro Invite
+- [6911](https://tbpro.zendesk.com/agent/tickets/6911) · [open] · 2026-07-16T19:07 · IONOS DNS Records Assistance
 
 ## Solved — last 24h
 
