@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 12:39 ET** · refreshes hourly_  
+_Updated: **2026-07-16 13:38 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -59,14 +59,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 35
+- **pending**: 36
 - **hold**: 8
-- **open**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 83
-- **Account Hub**: 70
+- **Thundermail**: 82
+- **Account Hub**: 71
 - **Appointment**: 6
 - **Send**: 4
 
@@ -81,7 +81,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 10
 - **change request** + **actioned**: 10
 - **confused** + **explained**: 9
-- **blocked** + **actioned**: 4
+- **blocked** + **actioned**: 5
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **blocked** + **—**: 2
@@ -105,19 +105,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#6906](https://tbpro.zendesk.com/agent/tickets/6906)** · Thunderbird Pro Invite
-  > Hello, you sent me an invitation to join Thunderbird Pro. I put it somewhere so I wouldn't inadvertantly delete it... of course now I can't find it!!! :( Can you *please* send me…
-- **[#6903](https://tbpro.zendesk.com/agent/tickets/6903)** · Refund Request
-  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was…
-
 ### Other / uncategorized — 2 tickets
 
 - **[#6891](https://tbpro.zendesk.com/agent/tickets/6891)** · Wo werden die Daten von Thundermail gespeichert
   > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>> — why: **confused** · how: **investigated**
   > ... but i don't know what the something is. I think I remember my passcode.
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#6903](https://tbpro.zendesk.com/agent/tickets/6903)** · Refund Request
+  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -133,6 +131,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6894](https://tbpro.zendesk.com/agent/tickets/6894)** · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
   > Hi [name] team, I've got a custom domain set up with a catch-all alias for throwaway signups. I'd like to automatically sort catch-all mail into a separate folder — but this only…
+
+### Early bird signup — 1 tickets
+
+- **[#6906](https://tbpro.zendesk.com/agent/tickets/6906)** · Thunderbird Pro Invite — why: **blocked** · how: **actioned**
+  > Hello, you sent me an invitation to join Thunderbird Pro. I put it somewhere so I wouldn't inadvertantly delete it... of course now I can't find it!!! :( Can you *please* send me…
 
 ### Webmail — 1 tickets
 
@@ -160,7 +163,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [open] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [open] · 2026-07-16T14:07 · Refund Request
 - [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
-- [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [open] · 2026-07-16T15:25 · Thunderbird Pro Invite
+- [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [pending] · 2026-07-16T15:25 · Thunderbird Pro Invite
 
 ## Solved — last 24h
 
