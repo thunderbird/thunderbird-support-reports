@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 16:28 ET** · refreshes hourly_  
+_Updated: **2026-07-16 17:30 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -65,14 +65,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 37
+- **pending**: 41
 - **hold**: 7
-- **open**: 6
+- **open**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 81
-- **Account Hub**: 72
+- **Thundermail**: 80
+- **Account Hub**: 73
 - **Appointment**: 6
 - **Send**: 4
 
@@ -80,9 +80,9 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 36
+- **curious** + **explained**: 37
 - **blocked** + **explained**: 24
-- **request** + **redirected**: 15
+- **request** + **redirected**: 16
 - **blocked** + **investigated**: 11
 - **blocked** + **escalated**: 10
 - **change request** + **actioned**: 10
@@ -93,6 +93,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **curious** + **investigated**: 1
@@ -113,7 +114,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#6891](https://tbpro.zendesk.com/agent/tickets/6891)** · Wo werden die Daten von Thundermail gespeichert
+- **[#6891](https://tbpro.zendesk.com/agent/tickets/6891)** · Wo werden die Daten von Thundermail gespeichert — why: **change request** · how: **redirected**
   > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>> — why: **confused** · how: **investigated**
   > ... but i don't know what the something is. I think I remember my passcode.
@@ -122,16 +123,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6911](https://tbpro.zendesk.com/agent/tickets/6911)** · IONOS DNS Records Assistance
   > I am trying to configure my custom domain that is hosted with IONOS. Trying to add the SRV records on IONOS and I am unable to understand the relation to what is shown from…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning?
-  > I have been waiting for more than 6 months for access to [domain], after you initially promised last year that it would be opened in early 2026. I have been using [domain] in the…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#6894](https://tbpro.zendesk.com/agent/tickets/6894)** · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
-  > Hi [name] team, I've got a custom domain set up with a catch-all alias for throwaway signups. I'd like to automatically sort catch-all mail into a separate folder — but this only…
 
 ### Early bird signup — 1 tickets
 
@@ -148,6 +139,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6899](https://tbpro.zendesk.com/agent/tickets/6899)** · Question regarding free plan availability — why: **curious** · how: **explained**
   > Hi, I recently completed my registration, but I am currently being prompted to pay in order to proceed. I wanted to ask if there is a free plan available for Thundermail? If a…
 
+### Waitlist / onboarding inquiry — 1 tickets
+
+- **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning? — why: **curious** · how: **explained**
+  > I have been waiting for more than 6 months for access to [domain], after you initially promised last year that it would be opened in early 2026. I have been using [domain] in the…
+
+### Request or complaint — 1 tickets
+
+- **[#6894](https://tbpro.zendesk.com/agent/tickets/6894)** · Question: Server-side (Sieve) filtering support for custom domain mailboxes? — why: **request** · how: **redirected**
+  > Hi [name] team, I've got a custom domain set up with a catch-all alias for throwaway signups. I'd like to automatically sort catch-all mail into a separate folder — but this only…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#6889](https://tbpro.zendesk.com/agent/tickets/6889)** · How to connect to my thunderbird calendar? — why: **blocked** · how: **explained**
@@ -163,9 +164,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6886](https://tbpro.zendesk.com/agent/tickets/6886) · [solved] · 2026-07-15T21:31 · Plz ignore (just testing a patch)
 - [6889](https://tbpro.zendesk.com/agent/tickets/6889) · [pending] · 2026-07-15T23:50 · How to connect to my thunderbird calendar?
 - [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [pending] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
-- [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [open] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
-- [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [open] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
-- [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
+- [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [pending] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
+- [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [pending] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
+- [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [pending] · 2026-07-16T11:05 · Is it ever happenning?
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [pending] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [pending] · 2026-07-16T15:25 · Thunderbird Pro Invite
