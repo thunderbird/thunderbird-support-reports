@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 10:49 ET** · refreshes hourly_  
+_Updated: **2026-07-16 11:42 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 25** of rollout — **6,500 invitees**, **165 tickets** so far (2.5% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **2 known problem(s)** being tracked.
+Flight 3 is **day 25** of rollout — **6,500 invitees**, **167 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **7** solved in last 24h
-- **165** tickets total since launch · contact rate **3%** of 6500 invitees
+- **10** new tickets in last 24h · **8** solved in last 24h
+- **167** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 107.7h (proxy: updated_at − created_at, 116 solved tickets)
+- **Median AHT**: 120.9h · mean 108.4h (proxy: updated_at − created_at, 117 solved tickets)
 
-## Known problems — 2 problem(s), 6 incident(s)
+## Known problems — 3 problem(s), 7 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -30,11 +30,15 @@ Flight 3 is **day 25** of rollout — **6,500 invitees**, **165 tickets** so far
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
   - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [pending] · 2026-07-14 · _No confirmation email received on signup._
 
-## Other tickets linked to GitHub — 4 ticket(s) → 4 issue(s)
+### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
+- 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
+- 1 incident(s):
+  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [hold] · 2026-07-08 · _Webmail - no mail from own domain_
+
+## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
-- 🔧 [zd #6722](https://tbpro.zendesk.com/agent/tickets/6722) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
 ## Negative CSAT (since launch)
@@ -54,14 +58,14 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 116
-- **pending**: 32
-- **open**: 11
-- **hold**: 6
+- **solved**: 117
+- **pending**: 34
+- **open**: 8
+- **hold**: 8
 
 ## Service (cumulative)
 
-- **Thundermail**: 81
+- **Thundermail**: 83
 - **Account Hub**: 70
 - **Appointment**: 6
 - **Send**: 4
@@ -80,11 +84,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
+- **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **request** + **explained**: 1
-- **blocked** + **—**: 1
-- **curious** + **escalated**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **curious** + **investigated**: 1
@@ -92,6 +94,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
+- **request** + **explained**: 1
+- **curious** + **escalated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
 - **blocked** + **redirected**: 1
@@ -101,17 +105,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#6906](https://tbpro.zendesk.com/agent/tickets/6906)** · Thunderbird Pro Invite
+  > Hello, you sent me an invitation to join Thunderbird Pro. I put it somewhere so I wouldn't inadvertantly delete it... of course now I can't find it!!! :( Can you *please* send me…
+- **[#6903](https://tbpro.zendesk.com/agent/tickets/6903)** · Refund Request
+  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#6891](https://tbpro.zendesk.com/agent/tickets/6891)** · Wo werden die Daten von Thundermail gespeichert
   > Können Sie mir bitte mitteilen wo die Daten von Thundermail gespeichert werden, wo die Server stehen (den genauen Ort bitte) und welche Daten in die USA geliefert werden.…
 - **[#6890](https://tbpro.zendesk.com/agent/tickets/6890)** · forgot full email address, esp domain: it's EcoQuant02090@<<something>> — why: **confused** · how: **investigated**
   > ... but i don't know what the something is. I think I remember my passcode.
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#6903](https://tbpro.zendesk.com/agent/tickets/6903)** · Refund Request
-  > Good afternoon, I'm sadly writing to request a refund and subscription cancellation. In my excitement to sign up after receiving the invite, I misread the information and was…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -127,6 +133,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6894](https://tbpro.zendesk.com/agent/tickets/6894)** · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
   > Hi [name] team, I've got a custom domain set up with a catch-all alias for throwaway signups. I'd like to automatically sort catch-all mail into a separate folder — but this only…
+
+### Webmail — 1 tickets
+
+- **[#6905](https://tbpro.zendesk.com/agent/tickets/6905)** · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail — why: **blocked**
+  > **GitHub Issue:** **https://github.com/thunderbird/stormbox/issues/60** **Problem:** Customer has added thundermail, [domain], and aliases from a custom domain in the Account…
 
 ### Appointment / calendar — 1 tickets
 
@@ -148,6 +159,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [open] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6903](https://tbpro.zendesk.com/agent/tickets/6903) · [open] · 2026-07-16T14:07 · Refund Request
+- [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
+- [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [open] · 2026-07-16T15:25 · Thunderbird Pro Invite
 
 ## Solved — last 24h
 
@@ -158,6 +171,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-15T22:18 · Plz ignore (just testing a patch)
 - · [6846](https://tbpro.zendesk.com/agent/tickets/6846) · 2026-07-15T23:01 · first log in
 - · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-16T01:01 · Custom SMTP
+- · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-16T15:24 · why I cannot get alias [email]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
