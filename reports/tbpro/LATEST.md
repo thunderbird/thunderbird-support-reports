@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 18:29 ET** · refreshes hourly_  
+_Updated: **2026-07-16 19:28 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 25** of rollout — **6,500 invitees**, **168 tickets** so far
 
 ## At a glance
 
-- **10** new tickets in last 24h · **8** solved in last 24h
+- **10** new tickets in last 24h · **7** solved in last 24h
 - **168** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
-- **Median AHT**: 120.9h · mean 108.5h (proxy: updated_at − created_at, 117 solved tickets)
+- **Median AHT**: 120.9h · mean 108.8h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -171,7 +171,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-15T20:01 · Refund request
 - · [6849](https://tbpro.zendesk.com/agent/tickets/6849) · 2026-07-15T21:01 · cant use my invitation to signup
 - · [6773](https://tbpro.zendesk.com/agent/tickets/6773) · 2026-07-15T21:01 · Missing my name from Customer portal on Paddle
-- · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-15T22:18 · Plz ignore (just testing a patch)
 - · [6831](https://tbpro.zendesk.com/agent/tickets/6831) · 2026-07-16T01:01 · Custom SMTP
 - · [6721](https://tbpro.zendesk.com/agent/tickets/6721) · 2026-07-16T15:24 · why I cannot get alias [email]
 - 👍 [6846](https://tbpro.zendesk.com/agent/tickets/6846) · 2026-07-16T16:16 · first log in
