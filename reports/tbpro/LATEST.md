@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-17
 
-_Updated: **2026-07-17 09:44 ET** · refreshes hourly_  
+_Updated: **2026-07-17 10:44 ET** · refreshes hourly_  
 _24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -63,9 +63,8 @@ _No negative ratings since launch._
 
 - **solved**: 118
 - **pending**: 41
-- **hold**: 7
-- **open**: 2
-- **new**: 1
+- **hold**: 6
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -78,7 +77,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 37
+- **curious** + **explained**: 38
 - **blocked** + **explained**: 25
 - **request** + **redirected**: 16
 - **blocked** + **investigated**: 11
@@ -112,7 +111,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 1 tickets
 
-- **[#6922](https://tbpro.zendesk.com/agent/tickets/6922)** · domain name
+- **[#6922](https://tbpro.zendesk.com/agent/tickets/6922)** · domain name — why: **curious** · how: **explained**
   > Hello, Can I use @[domain] and @[domain] interchangeably when sending and receiving emails. If I register as [email], can I use the [email] to send and receive emails. Thanks,
 
 ### Account creation / signup confusion — 1 tickets
@@ -123,7 +122,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6913](https://tbpro.zendesk.com/agent/tickets/6913) · [pending] · 2026-07-16T22:06 · alias folder???
-- [6922](https://tbpro.zendesk.com/agent/tickets/6922) · [new] · 2026-07-17T13:38 · domain name
+- [6922](https://tbpro.zendesk.com/agent/tickets/6922) · [pending] · 2026-07-17T13:38 · domain name
 
 ## Solved — last 24h
 
