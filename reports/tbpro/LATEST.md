@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-17
 
-_Updated: **2026-07-17 05:46 ET** · refreshes hourly_  
+_Updated: **2026-07-17 06:45 ET** · refreshes hourly_  
 _24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 26** of rollout — **6,500 invitees**, **169 tickets** so far
 - **169** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 39
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 41
 - **Median AHT**: 120.9h · mean 108.8h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
@@ -52,9 +52,12 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 2 new:
 
-- _(none)_
+- [remove or fix thundermail send](https://ideas.tb.pro/p/remove-or-fix-thundermail-send) · 1 votes · _Send_
+  > What you’d like to seeRemoval of thundermail send or support proper day-to-day use cases.Why it mattersStop wasting money on thundermail send.It is truly atrocious and forces users to use alternative…
+- [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 1 votes · _Send_
+  > What you’d like to seeBe able to install https://addons.thunderbird.net/en-US/thunderbird/addon/pro/?src=ext-send-dashboardWhy it mattersI want to install the extension without having to…
 
 ## Status breakdown (cumulative)
 
