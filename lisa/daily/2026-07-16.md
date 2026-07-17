@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 19:28 ET** · refreshes hourly_  
+_Updated: **2026-07-16 20:51 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -37,8 +37,15 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [pending] · 2026-07-14 · _No confirmation email received on signup._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
+- 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
   - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [pending] · 2026-07-08 · _Webmail - no mail from own domain_
+
+## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
+
+- 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
+- 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
+- ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
 ## Negative CSAT (since launch)
 
@@ -58,9 +65,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 41
+- **pending**: 42
 - **hold**: 7
-- **open**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -117,11 +124,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6911](https://tbpro.zendesk.com/agent/tickets/6911)** · IONOS DNS Records Assistance
   > I am trying to configure my custom domain that is hosted with IONOS. Trying to add the SRV records on IONOS and I am unable to understand the relation to what is shown from…
 
-### Waitlist / onboarding inquiry — 1 tickets
-
-- **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning? — why: **curious** · how: **explained**
-  > I have been waiting for more than 6 months for access to [domain], after you initially promised last year that it would be opened in early 2026. I have been using [domain] in the…
-
 ### Early bird signup — 1 tickets
 
 - **[#6906](https://tbpro.zendesk.com/agent/tickets/6906)** · Thunderbird Pro Invite — why: **blocked** · how: **actioned**
@@ -136,6 +138,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6899](https://tbpro.zendesk.com/agent/tickets/6899)** · Question regarding free plan availability — why: **curious** · how: **explained**
   > Hi, I recently completed my registration, but I am currently being prompted to pay in order to proceed. I wanted to ask if there is a free plan available for Thundermail? If a…
+
+### Waitlist / onboarding inquiry — 1 tickets
+
+- **[#6895](https://tbpro.zendesk.com/agent/tickets/6895)** · Is it ever happenning? — why: **curious** · how: **explained**
+  > I have been waiting for more than 6 months for access to [domain], after you initially promised last year that it would be opened in early 2026. I have been using [domain] in the…
 
 ### Request or complaint — 1 tickets
 
@@ -159,7 +166,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6890](https://tbpro.zendesk.com/agent/tickets/6890) · [pending] · 2026-07-16T02:18 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 - [6891](https://tbpro.zendesk.com/agent/tickets/6891) · [pending] · 2026-07-16T07:20 · Wo werden die Daten von Thundermail gespeichert
 - [6894](https://tbpro.zendesk.com/agent/tickets/6894) · [pending] · 2026-07-16T10:50 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
-- [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [open] · 2026-07-16T11:05 · Is it ever happenning?
+- [6895](https://tbpro.zendesk.com/agent/tickets/6895) · [pending] · 2026-07-16T11:05 · Is it ever happenning?
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [pending] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [pending] · 2026-07-16T15:25 · Thunderbird Pro Invite
