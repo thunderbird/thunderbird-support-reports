@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-17
 
-_Updated: **2026-07-17 17:26 ET** · refreshes hourly_  
+_Updated: **2026-07-17 18:26 ET** · refreshes hourly_  
 _24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -56,7 +56,7 @@ _No negative ratings since launch._
 
 - [Ability to upload folders and file structures](https://ideas.tb.pro/p/ability-to-upload-folders-and-file-structures) · 1 votes · _Send_
   > What you’d like to seeRemoval of thundermail send or support proper day-to-day use cases.Why it mattersA lot of people I communicate with (private and professional) are incapable of decompressing a…
-- [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 1 votes · _Send, Community_
+- [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 2 votes · _Send, Community_
   > What you’d like to seeBe able to install https://addons.thunderbird.net/en-US/thunderbird/addon/pro/?src=ext-send-dashboardWhy it mattersI want to install the extension without having to…
 
 ## Status breakdown (cumulative)
