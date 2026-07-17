@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-17
 
-_Updated: **2026-07-17 08:36 ET** · refreshes hourly_  
+_Updated: **2026-07-17 09:44 ET** · refreshes hourly_  
 _24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 26** of rollout — **6,500 invitees**, **169 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **169** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 41
-- **Median AHT**: 120.9h · mean 108.8h (proxy: updated_at − created_at, 117 solved tickets)
+- **Median AHT**: 121.1h · mean 109.6h (proxy: updated_at − created_at, 118 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -33,7 +33,7 @@ Flight 3 is **day 26** of rollout — **6,500 invitees**, **169 tickets** so far
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [open] · 2026-07-08 · _Webmail - no mail from own domain_
+  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [solved] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -47,7 +47,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6914](https://tbpro.zendesk.com/agent/tickets/6914) · [open] · _Refund request_
+- [6914](https://tbpro.zendesk.com/agent/tickets/6914) · [pending] · _Refund request_
   > Can I please get a refund for my recent initial yearly subscription cost for Thunderbird Pro? My account is [email] I've hit a few issues and have decided to go back to my previous provider. Thanks, [name] [email]
 
 ## New ideas on FeatureOS
@@ -56,15 +56,16 @@ _No negative ratings since launch._
 
 - [remove or fix thundermail send](https://ideas.tb.pro/p/remove-or-fix-thundermail-send) · 1 votes · _Send_
   > What you’d like to seeRemoval of thundermail send or support proper day-to-day use cases.Why it mattersStop wasting money on thundermail send.It is truly atrocious and forces users to use alternative…
-- [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 1 votes · _Send_
+- [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 1 votes · _Send, Community_
   > What you’d like to seeBe able to install https://addons.thunderbird.net/en-US/thunderbird/addon/pro/?src=ext-send-dashboardWhy it mattersI want to install the extension without having to…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 117
+- **solved**: 118
 - **pending**: 41
 - **hold**: 7
-- **open**: 4
+- **open**: 2
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -109,10 +110,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Email migration / import — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#6914](https://tbpro.zendesk.com/agent/tickets/6914)** · Refund request
-  > Can I please get a refund for my recent initial yearly subscription cost for Thunderbird Pro? My account is [email] I've hit a few issues and have decided to go back to my…
+- **[#6922](https://tbpro.zendesk.com/agent/tickets/6922)** · domain name
+  > Hello, Can I use @[domain] and @[domain] interchangeably when sending and receiving emails. If I register as [email], can I use the [email] to send and receive emails. Thanks,
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -122,11 +123,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6913](https://tbpro.zendesk.com/agent/tickets/6913) · [pending] · 2026-07-16T22:06 · alias folder???
-- [6914](https://tbpro.zendesk.com/agent/tickets/6914) · [open] · 2026-07-17T02:17 · Refund request
+- [6922](https://tbpro.zendesk.com/agent/tickets/6922) · [new] · 2026-07-17T13:38 · domain name
 
 ## Solved — last 24h
 
 - · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-16T23:01 · Plz ignore (just testing a patch)
+- · [6722](https://tbpro.zendesk.com/agent/tickets/6722) · 2026-07-17T12:43 · Webmail - no mail from own domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
