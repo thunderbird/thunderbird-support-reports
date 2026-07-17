@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-16
 
-_Updated: **2026-07-16 20:51 ET** · refreshes hourly_  
+_Updated: **2026-07-16 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-15T16:00 → 2026-07-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -65,9 +65,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 42
+- **pending**: 43
 - **hold**: 7
-- **open**: 2
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -81,7 +81,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 37
-- **blocked** + **explained**: 24
+- **blocked** + **explained**: 25
 - **request** + **redirected**: 16
 - **blocked** + **investigated**: 11
 - **blocked** + **escalated**: 10
@@ -121,7 +121,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#6911](https://tbpro.zendesk.com/agent/tickets/6911)** · IONOS DNS Records Assistance
+- **[#6911](https://tbpro.zendesk.com/agent/tickets/6911)** · IONOS DNS Records Assistance — why: **blocked** · how: **explained**
   > I am trying to configure my custom domain that is hosted with IONOS. Trying to add the SRV records on IONOS and I am unable to understand the relation to what is shown from…
 
 ### Early bird signup — 1 tickets
@@ -170,7 +170,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6899](https://tbpro.zendesk.com/agent/tickets/6899) · [pending] · 2026-07-16T12:09 · Question regarding free plan availability
 - [6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · 2026-07-16T15:12 · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - [6906](https://tbpro.zendesk.com/agent/tickets/6906) · [pending] · 2026-07-16T15:25 · Thunderbird Pro Invite
-- [6911](https://tbpro.zendesk.com/agent/tickets/6911) · [open] · 2026-07-16T19:07 · IONOS DNS Records Assistance
+- [6911](https://tbpro.zendesk.com/agent/tickets/6911) · [pending] · 2026-07-16T19:07 · IONOS DNS Records Assistance
 
 ## Solved — last 24h
 
