@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-17
 
-_Updated: **2026-07-17 10:44 ET** · refreshes hourly_  
+_Updated: **2026-07-17 11:38 ET** · refreshes hourly_  
 _24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 26** of rollout — **6,500 invitees**, **169 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
+- **2** new tickets in last 24h · **4** solved in last 24h
 - **169** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 41
-- **Median AHT**: 121.1h · mean 109.6h (proxy: updated_at − created_at, 118 solved tickets)
+- **Median AHT**: 120.9h · mean 108.6h (proxy: updated_at − created_at, 120 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -54,17 +54,16 @@ _No negative ratings since launch._
 
 **Last 24h** — 2 new:
 
-- [remove or fix thundermail send](https://ideas.tb.pro/p/remove-or-fix-thundermail-send) · 1 votes · _Send_
-  > What you’d like to seeRemoval of thundermail send or support proper day-to-day use cases.Why it mattersStop wasting money on thundermail send.It is truly atrocious and forces users to use alternative…
+- [Ability to upload folders and file structures](https://ideas.tb.pro/p/ability-to-upload-folders-and-file-structures) · 1 votes · _Send_
+  > What you’d like to seeRemoval of thundermail send or support proper day-to-day use cases.Why it mattersA lot of people I communicate with (private and professional) are incapable of decompressing a…
 - [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 1 votes · _Send, Community_
   > What you’d like to seeBe able to install https://addons.thunderbird.net/en-US/thunderbird/addon/pro/?src=ext-send-dashboardWhy it mattersI want to install the extension without having to…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 118
+- **solved**: 120
 - **pending**: 41
-- **hold**: 6
-- **open**: 4
+- **hold**: 8
 
 ## Service (cumulative)
 
@@ -77,7 +76,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 38
+- **curious** + **explained**: 39
 - **blocked** + **explained**: 25
 - **request** + **redirected**: 16
 - **blocked** + **investigated**: 11
@@ -128,6 +127,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-16T23:01 · Plz ignore (just testing a patch)
 - · [6722](https://tbpro.zendesk.com/agent/tickets/6722) · 2026-07-17T12:43 · Webmail - no mail from own domain
+- · [6895](https://tbpro.zendesk.com/agent/tickets/6895) · 2026-07-17T14:45 · Is it ever happenning?
+- · [6856](https://tbpro.zendesk.com/agent/tickets/6856) · 2026-07-17T14:51 · Invitation 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
