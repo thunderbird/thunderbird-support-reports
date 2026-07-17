@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-17
 
-_Updated: **2026-07-17 07:38 ET** · refreshes hourly_  
+_Updated: **2026-07-17 08:36 ET** · refreshes hourly_  
 _24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -33,7 +33,7 @@ Flight 3 is **day 26** of rollout — **6,500 invitees**, **169 tickets** so far
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [pending] · 2026-07-08 · _Webmail - no mail from own domain_
+  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [open] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
 
@@ -62,9 +62,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 117
-- **pending**: 42
+- **pending**: 41
 - **hold**: 7
-- **open**: 3
+- **open**: 4
 
 ## Service (cumulative)
 
