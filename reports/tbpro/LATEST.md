@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-07-17
+# Thundermail — Flight 3 Live Report · 2026-07-18
 
-_Updated: **2026-07-17 23:13 ET** · refreshes hourly_  
-_24h window: 2026-07-16T16:00 → 2026-07-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-18 01:05 ET** · refreshes hourly_  
+_24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 26** of rollout — **6,500 invitees**, **170 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 27** of rollout — **6,500 invitees**, **170 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
+- **1** new tickets in last 24h · **0** solved in last 24h
 - **170** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 41
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
 - **Median AHT**: 120.9h · mean 108.6h (proxy: updated_at − created_at, 120 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
@@ -45,19 +45,15 @@ Flight 3 is **day 26** of rollout — **6,500 invitees**, **170 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [6914](https://tbpro.zendesk.com/agent/tickets/6914) · [pending] · _Refund request_
-  > Can I please get a refund for my recent initial yearly subscription cost for Thunderbird Pro? My account is [email] I've hit a few issues and have decided to go back to my previous provider. Thanks, [name] [email]
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Ability to upload folders and file structures](https://ideas.tb.pro/p/ability-to-upload-folders-and-file-structures) · 1 votes · _Send_
-  > What you’d like to seeRemoval of thundermail send or support proper day-to-day use cases.Why it mattersA lot of people I communicate with (private and professional) are incapable of decompressing a…
-- [Sign send extension](https://ideas.tb.pro/p/sign-send-extension) · 2 votes · _Send, Community_
-  > What you’d like to seeBe able to install https://addons.thunderbird.net/en-US/thunderbird/addon/pro/?src=ext-send-dashboardWhy it mattersI want to install the extension without having to…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -108,27 +104,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Aliases — 1 tickets
 
-- **[#6922](https://tbpro.zendesk.com/agent/tickets/6922)** · domain name — why: **curious** · how: **explained**
-  > Hello, Can I use @[domain] and @[domain] interchangeably when sending and receiving emails. If I register as [email], can I use the [email] to send and receive emails. Thanks,
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#6913](https://tbpro.zendesk.com/agent/tickets/6913)** · alias folder???
-  > When I signed up… I “thought” I was getting 15 email addresses… As in 15 emails independent of each other… Not the case… I now understand that the plan includes 15 alias emails……
+- **[#6933](https://tbpro.zendesk.com/agent/tickets/6933)** · Change of email
+  > Hi there, I made a mistake and created my alias name as my main email account. Can we put [email] to be my main account plz?
 
 ## New tickets — last 24h
 
-- [6913](https://tbpro.zendesk.com/agent/tickets/6913) · [pending] · 2026-07-16T22:06 · alias folder???
-- [6922](https://tbpro.zendesk.com/agent/tickets/6922) · [pending] · 2026-07-17T13:38 · domain name
+- [6933](https://tbpro.zendesk.com/agent/tickets/6933) · [open] · 2026-07-18T02:37 · Change of email
 
 ## Solved — last 24h
 
-- · [6886](https://tbpro.zendesk.com/agent/tickets/6886) · 2026-07-16T23:01 · Plz ignore (just testing a patch)
-- · [6722](https://tbpro.zendesk.com/agent/tickets/6722) · 2026-07-17T12:43 · Webmail - no mail from own domain
-- · [6895](https://tbpro.zendesk.com/agent/tickets/6895) · 2026-07-17T14:45 · Is it ever happenning?
-- · [6856](https://tbpro.zendesk.com/agent/tickets/6856) · 2026-07-17T14:51 · Invitation 
+_(none)_
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
