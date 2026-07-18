@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-18
 
-_Updated: **2026-07-18 13:29 ET** · refreshes hourly_  
+_Updated: **2026-07-18 14:28 ET** · refreshes hourly_  
 _24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 27** of rollout — **6,500 invitees**, **171 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **2** new tickets in last 24h · **10** solved in last 24h
 - **171** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 42
-- **Median AHT**: 121.2h · mean 113.8h (proxy: updated_at − created_at, 124 solved tickets)
+- **Median AHT**: 121.4h · mean 115.0h (proxy: updated_at − created_at, 127 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -58,8 +58,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 124
-- **pending**: 36
+- **solved**: 127
+- **pending**: 33
 - **hold**: 6
 - **open**: 4
 - **new**: 1
@@ -130,6 +130,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6754](https://tbpro.zendesk.com/agent/tickets/6754) · 2026-07-18T17:01 · Email address reuse
 - · [6695](https://tbpro.zendesk.com/agent/tickets/6695) · 2026-07-18T17:01 · Inquiry: How do I change my recovery email?
 - · [6524](https://tbpro.zendesk.com/agent/tickets/6524) · 2026-07-18T17:01 · Unable to use my new email and configure Thunderbird
+- · [6797](https://tbpro.zendesk.com/agent/tickets/6797) · 2026-07-18T18:01 · 1 Inbox, 15 Email Addresses?
+- · [6783](https://tbpro.zendesk.com/agent/tickets/6783) · 2026-07-18T18:01 · I really apologize but I'm kinda panicking 
+- · [6781](https://tbpro.zendesk.com/agent/tickets/6781) · 2026-07-18T18:01 · Re: [Thunderbird Pro Beta] We're here to help: "Cancel Thundermail subscription and request full $72
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
