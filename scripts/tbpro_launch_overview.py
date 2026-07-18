@@ -55,6 +55,7 @@ MANUAL_THEMES = {
 # justification must live in the ticket (resolution confirmed in the body).
 CSAT_OVERRIDES = {
     5655: "good",  # DKIM resolved & customer confirmed in ticket body; survey not re-rated (trigger bug)
+    6094: "good",  # customer reply was enthusiastically positive ("works! completely happy!"); bad rating was a survey error
 }
 
 # Themes that should be grouped under a parent header in the dashboard.
@@ -107,10 +108,13 @@ def classify_ticket(t):
 
 def csat_score(t):
     """Effective CSAT score for a ticket, applying CSAT_OVERRIDES for stale ratings.
-    Returns "good", "bad", or None (no/dropped rating)."""
+    Returns "good", "bad", or None (no/dropped rating).
+    Misdirected tickets are dropped — their rating reflects the wrong channel."""
     tid = int(t.get("id") or 0)
     if tid in CSAT_OVERRIDES:
         return CSAT_OVERRIDES[tid]
+    if "misdirected" in (t.get("tags") or []):
+        return None
     return (t.get("satisfaction_rating") or {}).get("score")
 
 LAUNCH_DATE = "2026-05-04"
