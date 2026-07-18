@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-18
 
-_Updated: **2026-07-18 14:28 ET** · refreshes hourly_  
+_Updated: **2026-07-18 15:34 ET** · refreshes hourly_  
 _24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 27** of rollout — **6,500 invitees**, **171 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 27** of rollout — **6,500 invitees**, **172 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **10** solved in last 24h
-- **171** tickets total since launch · contact rate **3%** of 6500 invitees
+- **3** new tickets in last 24h · **11** solved in last 24h
+- **172** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 42
-- **Median AHT**: 121.4h · mean 115.0h (proxy: updated_at − created_at, 127 solved tickets)
+- **Median AHT**: 121.5h · mean 115.2h (proxy: updated_at − created_at, 128 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -58,16 +58,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 127
-- **pending**: 33
+- **solved**: 128
+- **pending**: 32
 - **hold**: 6
 - **open**: 4
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Thundermail**: 82
-- **Account Hub**: 74
+- **Account Hub**: 75
 - **Appointment**: 6
 - **Send**: 4
 
@@ -106,6 +106,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6943](https://tbpro.zendesk.com/agent/tickets/6943)** · how to set up the email address in thunderbird 115.18.0
+  > What a total mess. I am using Thunderbird 115.18.0 with Windows 7 on a desktop PC. I cannot upgrade Thunderbird. How do I set up my account on this program? Please reply promptly.…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#6940](https://tbpro.zendesk.com/agent/tickets/6940)** · Help setting DNS records
@@ -120,6 +125,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6933](https://tbpro.zendesk.com/agent/tickets/6933) · [open] · 2026-07-18T02:37 · Change of email
 - [6940](https://tbpro.zendesk.com/agent/tickets/6940) · [new] · 2026-07-18T15:06 · Help setting DNS records
+- [6943](https://tbpro.zendesk.com/agent/tickets/6943) · [new] · 2026-07-18T18:48 · how to set up the email address in thunderbird 115.18.0
 
 ## Solved — last 24h
 
@@ -133,6 +139,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6797](https://tbpro.zendesk.com/agent/tickets/6797) · 2026-07-18T18:01 · 1 Inbox, 15 Email Addresses?
 - · [6783](https://tbpro.zendesk.com/agent/tickets/6783) · 2026-07-18T18:01 · I really apologize but I'm kinda panicking 
 - · [6781](https://tbpro.zendesk.com/agent/tickets/6781) · 2026-07-18T18:01 · Re: [Thunderbird Pro Beta] We're here to help: "Cancel Thundermail subscription and request full $72
+- · [6801](https://tbpro.zendesk.com/agent/tickets/6801) · 2026-07-18T19:01 · A couple of things.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
