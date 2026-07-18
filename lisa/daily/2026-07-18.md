@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-18
 
-_Updated: **2026-07-18 10:32 ET** · refreshes hourly_  
+_Updated: **2026-07-18 11:29 ET** · refreshes hourly_  
 _24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 27** of rollout — **6,500 invitees**, **170 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 27** of rollout — **6,500 invitees**, **171 tickets** so far (2.6% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **1** solved in last 24h
-- **170** tickets total since launch · contact rate **3%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (24 good / 0 bad)
+- **2** new tickets in last 24h · **3** solved in last 24h
+- **171** tickets total since launch · contact rate **3%** of 6500 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 41
-- **Median AHT**: 120.9h · mean 108.8h (proxy: updated_at − created_at, 120 solved tickets)
+- **Median AHT**: 120.9h · mean 109.2h (proxy: updated_at − created_at, 120 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -58,13 +58,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 120
-- **pending**: 42
+- **pending**: 40
 - **hold**: 6
-- **open**: 2
+- **open**: 4
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 81
+- **Thundermail**: 82
 - **Account Hub**: 74
 - **Appointment**: 6
 - **Send**: 4
@@ -86,8 +87,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
+- **change request** + **redirected**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -104,6 +105,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6940](https://tbpro.zendesk.com/agent/tickets/6940)** · Help setting DNS records
+  > Hello, I'm trying to tie my domain to thundermail, but I'm getting this conflict detected message when i try to verify. (see attached screenshot) What am I doing wrong? Thanks,…
+
 ### Aliases — 1 tickets
 
 - **[#6933](https://tbpro.zendesk.com/agent/tickets/6933)** · Change of email
@@ -112,10 +118,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6933](https://tbpro.zendesk.com/agent/tickets/6933) · [open] · 2026-07-18T02:37 · Change of email
+- [6940](https://tbpro.zendesk.com/agent/tickets/6940) · [new] · 2026-07-18T15:06 · Help setting DNS records
 
 ## Solved — last 24h
 
 - · [6722](https://tbpro.zendesk.com/agent/tickets/6722) · 2026-07-18T13:01 · Webmail - no mail from own domain
+- · [6895](https://tbpro.zendesk.com/agent/tickets/6895) · 2026-07-18T15:01 · Is it ever happenning?
+- 👍 [6856](https://tbpro.zendesk.com/agent/tickets/6856) · 2026-07-18T15:05 · Invitation 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
