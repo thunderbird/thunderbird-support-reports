@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-18
 
-_Updated: **2026-07-18 20:54 ET** · refreshes hourly_  
+_Updated: **2026-07-18 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 27** of rollout — **6,500 invitees**, **173 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 27** of rollout — **6,500 invitees**, **174 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **4** new tickets in last 24h · **11** solved in last 24h
-- **173** tickets total since launch · contact rate **3%** of 6500 invitees
+- **174** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 42
@@ -63,11 +63,12 @@ _No negative ratings since launch._
 - **pending**: 30
 - **open**: 7
 - **hold**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Thundermail**: 83
-- **Account Hub**: 75
+- **Account Hub**: 76
 - **Appointment**: 6
 - **Send**: 4
 
