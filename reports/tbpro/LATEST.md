@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-19
 
-_Updated: **2026-07-19 12:28 ET** · refreshes hourly_  
+_Updated: **2026-07-19 13:30 ET** · refreshes hourly_  
 _24h window: 2026-07-18T16:00 → 2026-07-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 28** of rollout — **6,500 invitees**, **175 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
+- **2** new tickets in last 24h · **5** solved in last 24h
 - **175** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 42
-- **Median AHT**: 121.6h · mean 115.7h (proxy: updated_at − created_at, 132 solved tickets)
+- **Median AHT**: 121.6h · mean 115.7h (proxy: updated_at − created_at, 133 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -57,8 +57,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 132
-- **pending**: 27
+- **solved**: 133
+- **pending**: 26
 - **open**: 9
 - **hold**: 5
 - **new**: 2
@@ -126,6 +126,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6800](https://tbpro.zendesk.com/agent/tickets/6800) · 2026-07-18T23:01 · Setting Up Aliases on iOS
 - · [6832](https://tbpro.zendesk.com/agent/tickets/6832) · 2026-07-19T15:01 · login fails with Firefox
 - · [6829](https://tbpro.zendesk.com/agent/tickets/6829) · 2026-07-19T16:01 · Thundermail account after 
+- · [6843](https://tbpro.zendesk.com/agent/tickets/6843) · 2026-07-19T17:01 · cancel your subscription and delete your account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
