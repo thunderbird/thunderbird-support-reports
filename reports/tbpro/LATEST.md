@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-07-18
+# Thundermail — Flight 3 Live Report · 2026-07-19
 
-_Updated: **2026-07-18 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-19 01:15 ET** · refreshes hourly_  
+_24h window: 2026-07-18T16:00 → 2026-07-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 27** of rollout — **6,500 invitees**, **174 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 28** of rollout — **6,500 invitees**, **174 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
+- **1** new tickets in last 24h · **2** solved in last 24h
 - **174** tickets total since launch · contact rate **3%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 42
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 42
 - **Median AHT**: 121.5h · mean 115.4h (proxy: updated_at − created_at, 130 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
@@ -45,17 +45,15 @@ Flight 3 is **day 27** of rollout — **6,500 invitees**, **174 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [6944](https://tbpro.zendesk.com/agent/tickets/6944) · [open] · _Refund_
-  > Please refund my money. I subscribed to thundermail today. I'm using Thunderbird on my desktop PC, and the app would not allow me to add my thundermail email address, stating that the password is not recognized. I…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [SSO - Add "Sign in with Thundermail" (OAuth/OpenID Connect)](https://ideas.tb.pro/p/sso-add-sign-in-with-thundermail-oauth-openid-connect) · 1 votes · _Accounts & Subscriptions_
-  > What you’d like to seeAdd support for "Sign in with Thundermail" using OAuth 2.0 and OpenID Connect, allowing Thundermail accounts to be used as a secure single sign-on (SSO) provider for third-party…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -107,43 +105,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#6944](https://tbpro.zendesk.com/agent/tickets/6944)** · Refund
-  > Please refund my money. I subscribed to thundermail today. I'm using Thunderbird on my desktop PC, and the app would not allow me to add my thundermail email address, stating that…
-- **[#6943](https://tbpro.zendesk.com/agent/tickets/6943)** · how to set up the email address in thunderbird 115.18.0
-  > What a total mess. I am using Thunderbird 115.18.0 with Windows 7 on a desktop PC. I cannot upgrade Thunderbird. How do I set up my account on this program? Please reply promptly.…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#6940](https://tbpro.zendesk.com/agent/tickets/6940)** · Help setting DNS records
-  > Hello, I'm trying to tie my domain to thundermail, but I'm getting this conflict detected message when i try to verify. (see attached screenshot) What am I doing wrong? Thanks,…
-
-### Aliases — 1 tickets
-
-- **[#6933](https://tbpro.zendesk.com/agent/tickets/6933)** · Change of email
-  > Hi there, I made a mistake and created my alias name as my main email account. Can we put [email] to be my main account plz?
+- **[#6948](https://tbpro.zendesk.com/agent/tickets/6948)** · [domain] as default
+  > hello - i recently signed up, and wanted to use my [domain] address as my primary for the account.. is that possible? how do i do that?
 
 ## New tickets — last 24h
 
-- [6933](https://tbpro.zendesk.com/agent/tickets/6933) · [open] · 2026-07-18T02:37 · Change of email
-- [6940](https://tbpro.zendesk.com/agent/tickets/6940) · [open] · 2026-07-18T15:06 · Help setting DNS records
-- [6943](https://tbpro.zendesk.com/agent/tickets/6943) · [open] · 2026-07-18T18:48 · how to set up the email address in thunderbird 115.18.0
-- [6944](https://tbpro.zendesk.com/agent/tickets/6944) · [open] · 2026-07-18T19:50 · Refund
+- [6948](https://tbpro.zendesk.com/agent/tickets/6948) · [new] · 2026-07-19T01:19 · [domain] as default
 
 ## Solved — last 24h
 
-- · [6722](https://tbpro.zendesk.com/agent/tickets/6722) · 2026-07-18T13:01 · Webmail - no mail from own domain
-- · [6895](https://tbpro.zendesk.com/agent/tickets/6895) · 2026-07-18T15:01 · Is it ever happenning?
-- 👍 [6856](https://tbpro.zendesk.com/agent/tickets/6856) · 2026-07-18T15:05 · Invitation 
-- · [6804](https://tbpro.zendesk.com/agent/tickets/6804) · 2026-07-18T16:01 · Change recovery email address
-- · [6754](https://tbpro.zendesk.com/agent/tickets/6754) · 2026-07-18T17:01 · Email address reuse
-- · [6695](https://tbpro.zendesk.com/agent/tickets/6695) · 2026-07-18T17:01 · Inquiry: How do I change my recovery email?
-- · [6524](https://tbpro.zendesk.com/agent/tickets/6524) · 2026-07-18T17:01 · Unable to use my new email and configure Thunderbird
-- · [6797](https://tbpro.zendesk.com/agent/tickets/6797) · 2026-07-18T18:01 · 1 Inbox, 15 Email Addresses?
-- · [6783](https://tbpro.zendesk.com/agent/tickets/6783) · 2026-07-18T18:01 · I really apologize but I'm kinda panicking 
-- · [6781](https://tbpro.zendesk.com/agent/tickets/6781) · 2026-07-18T18:01 · Re: [Thunderbird Pro Beta] We're here to help: "Cancel Thundermail subscription and request full $72
-- · [6801](https://tbpro.zendesk.com/agent/tickets/6801) · 2026-07-18T19:01 · A couple of things.
+- · [6824](https://tbpro.zendesk.com/agent/tickets/6824) · 2026-07-18T23:01 · get 2 subscription with one invite
+- · [6800](https://tbpro.zendesk.com/agent/tickets/6800) · 2026-07-18T23:01 · Setting Up Aliases on iOS
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
