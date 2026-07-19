@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-19
 
-_Updated: **2026-07-19 07:33 ET** · refreshes hourly_  
+_Updated: **2026-07-19 08:28 ET** · refreshes hourly_  
 _24h window: 2026-07-18T16:00 → 2026-07-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 28** of rollout — **6,500 invitees**, **174 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 28** of rollout — **6,500 invitees**, **175 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **2** solved in last 24h
-- **174** tickets total since launch · contact rate **3%** of 6500 invitees
+- **2** new tickets in last 24h · **2** solved in last 24h
+- **175** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 42
@@ -61,12 +61,12 @@ _(none in last 24h)_
 - **pending**: 29
 - **open**: 8
 - **hold**: 6
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Thundermail**: 83
-- **Account Hub**: 76
+- **Account Hub**: 77
 - **Appointment**: 6
 - **Send**: 4
 
@@ -105,6 +105,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#6951](https://tbpro.zendesk.com/agent/tickets/6951)** · forgot my password for the new thunderbird software
+  > how to reset it?
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#6948](https://tbpro.zendesk.com/agent/tickets/6948)** · [domain] as default
@@ -113,6 +118,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6948](https://tbpro.zendesk.com/agent/tickets/6948) · [new] · 2026-07-19T01:19 · [domain] as default
+- [6951](https://tbpro.zendesk.com/agent/tickets/6951) · [new] · 2026-07-19T12:27 · forgot my password for the new thunderbird software
 
 ## Solved — last 24h
 
