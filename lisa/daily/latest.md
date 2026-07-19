@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-18
 
-_Updated: **2026-07-18 19:28 ET** · refreshes hourly_  
+_Updated: **2026-07-18 20:54 ET** · refreshes hourly_  
 _24h window: 2026-07-17T16:00 → 2026-07-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -47,7 +47,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6944](https://tbpro.zendesk.com/agent/tickets/6944) · [new] · _Refund_
+- [6944](https://tbpro.zendesk.com/agent/tickets/6944) · [open] · _Refund_
   > Please refund my money. I subscribed to thundermail today. I'm using Thunderbird on my desktop PC, and the app would not allow me to add my thundermail email address, stating that the password is not recognized. I…
 
 ## New ideas on FeatureOS
@@ -61,9 +61,8 @@ _No negative ratings since launch._
 
 - **solved**: 130
 - **pending**: 30
+- **open**: 7
 - **hold**: 6
-- **open**: 4
-- **new**: 3
 
 ## Service (cumulative)
 
@@ -127,9 +126,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [6933](https://tbpro.zendesk.com/agent/tickets/6933) · [open] · 2026-07-18T02:37 · Change of email
-- [6940](https://tbpro.zendesk.com/agent/tickets/6940) · [new] · 2026-07-18T15:06 · Help setting DNS records
-- [6943](https://tbpro.zendesk.com/agent/tickets/6943) · [new] · 2026-07-18T18:48 · how to set up the email address in thunderbird 115.18.0
-- [6944](https://tbpro.zendesk.com/agent/tickets/6944) · [new] · 2026-07-18T19:50 · Refund
+- [6940](https://tbpro.zendesk.com/agent/tickets/6940) · [open] · 2026-07-18T15:06 · Help setting DNS records
+- [6943](https://tbpro.zendesk.com/agent/tickets/6943) · [open] · 2026-07-18T18:48 · how to set up the email address in thunderbird 115.18.0
+- [6944](https://tbpro.zendesk.com/agent/tickets/6944) · [open] · 2026-07-18T19:50 · Refund
 
 ## Solved — last 24h
 
