@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 09:46 ET** · refreshes hourly_  
+_Updated: **2026-07-20 10:54 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **177 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **178 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
-- **177** tickets total since launch · contact rate **3%** of 6500 invitees
+- **3** new tickets in last 24h · **8** solved in last 24h
+- **178** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.7h · mean 118.7h (proxy: updated_at − created_at, 139 solved tickets)
+- **Median AHT**: 121.7h · mean 118.9h (proxy: updated_at − created_at, 141 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -28,7 +28,7 @@ Flight 3 is **day 29** of rollout — **6,500 invitees**, **177 tickets** so far
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [solved] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
-  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [pending] · 2026-07-14 · _No confirmation email received on signup._
+  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [solved] · 2026-07-14 · _No confirmation email received on signup._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -58,15 +58,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 139
+- **solved**: 141
 - **pending**: 22
-- **open**: 10
-- **hold**: 5
-- **new**: 1
+- **open**: 9
+- **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 83
+- **Thundermail**: 84
 - **Account Hub**: 78
 - **Appointment**: 6
 - **Send**: 4
@@ -89,8 +88,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **confused** + **investigated**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -106,6 +105,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
+  > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
+
 ### Aliases — 1 tickets
 
 - **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent
@@ -120,6 +124,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [open] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
+- [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [open] · 2026-07-20T14:05 · Bug?
 
 ## Solved — last 24h
 
@@ -129,6 +134,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6855](https://tbpro.zendesk.com/agent/tickets/6855) · 2026-07-20T05:01 · New thundermail email vs email used to pre-enroll
 - · [6850](https://tbpro.zendesk.com/agent/tickets/6850) · 2026-07-20T05:01 · Custom domains
 - · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-20T12:39 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
+- · [6840](https://tbpro.zendesk.com/agent/tickets/6840) · 2026-07-20T14:02 · No confirmation email received on signup.
+- · [6879](https://tbpro.zendesk.com/agent/tickets/6879) · 2026-07-20T14:05 · site for ios instructions from introducing email not found
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
