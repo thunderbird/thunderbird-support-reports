@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-19
+# Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-19 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-18T16:00 → 2026-07-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-20 01:22 ET** · refreshes hourly_  
+_24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 28** of rollout — **6,500 invitees**, **175 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **175 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
+- **0** new tickets in last 24h · **5** solved in last 24h
 - **175** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 42
-- **Median AHT**: 121.6h · mean 117.2h (proxy: updated_at − created_at, 137 solved tickets)
+- **Median AHT**: 121.7h · mean 117.4h (proxy: updated_at − created_at, 139 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -57,8 +57,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 137
-- **pending**: 22
+- **solved**: 139
+- **pending**: 20
 - **open**: 9
 - **hold**: 5
 - **new**: 2
@@ -105,29 +105,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
-
-- **[#6951](https://tbpro.zendesk.com/agent/tickets/6951)** · forgot my password for the new thunderbird software
-  > how to reset it?
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#6948](https://tbpro.zendesk.com/agent/tickets/6948)** · [domain] as default
-  > hello - i recently signed up, and wanted to use my [domain] address as my primary for the account.. is that possible? how do i do that?
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [6948](https://tbpro.zendesk.com/agent/tickets/6948) · [new] · 2026-07-19T01:19 · [domain] as default
-- [6951](https://tbpro.zendesk.com/agent/tickets/6951) · [new] · 2026-07-19T12:27 · forgot my password for the new thunderbird software
+_(none)_
 
 ## Solved — last 24h
 
-- · [6824](https://tbpro.zendesk.com/agent/tickets/6824) · 2026-07-18T23:01 · get 2 subscription with one invite
-- · [6800](https://tbpro.zendesk.com/agent/tickets/6800) · 2026-07-18T23:01 · Setting Up Aliases on iOS
-- · [6832](https://tbpro.zendesk.com/agent/tickets/6832) · 2026-07-19T15:01 · login fails with Firefox
-- · [6829](https://tbpro.zendesk.com/agent/tickets/6829) · 2026-07-19T16:01 · Thundermail account after 
-- · [6843](https://tbpro.zendesk.com/agent/tickets/6843) · 2026-07-19T17:01 · cancel your subscription and delete your account
-- · [6828](https://tbpro.zendesk.com/agent/tickets/6828) · 2026-07-19T18:01 · cannot log in
+- · [6844](https://tbpro.zendesk.com/agent/tickets/6844) · 2026-07-19T20:01 · Not recieving early-bird sign up.
+- · [6837](https://tbpro.zendesk.com/agent/tickets/6837) · 2026-07-19T20:01 · DNS Warning
+- · [6697](https://tbpro.zendesk.com/agent/tickets/6697) · 2026-07-19T23:01 · Pre-signup questions
+- · [6855](https://tbpro.zendesk.com/agent/tickets/6855) · 2026-07-20T05:01 · New thundermail email vs email used to pre-enroll
+- · [6850](https://tbpro.zendesk.com/agent/tickets/6850) · 2026-07-20T05:01 · Custom domains
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
