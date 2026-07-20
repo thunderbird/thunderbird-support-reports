@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 01:22 ET** · refreshes hourly_  
+_Updated: **2026-07-20 03:19 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **175 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **177 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **5** solved in last 24h
-- **175** tickets total since launch · contact rate **3%** of 6500 invitees
+- **2** new tickets in last 24h · **5** solved in last 24h
+- **177** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 42
@@ -61,11 +61,11 @@ _(none in last 24h)_
 - **pending**: 20
 - **open**: 9
 - **hold**: 5
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Thundermail**: 83
+- **Thundermail**: 84
 - **Account Hub**: 77
 - **Appointment**: 6
 - **Send**: 4
@@ -105,11 +105,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#6958](https://tbpro.zendesk.com/agent/tickets/6958)** · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
+  > Subject: Performance Issues with Thunderbird + ProtonMail Bridge Dear [name], I have been experiencing significant slowdowns when using Thunderbird, especially with my current…
+
+### Aliases — 1 tickets
+
+- **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent
+  > Hi folks I'm enjoying using my new email accounts - thanks for all your work. I'm using thundermail with Thunderbird. When I compose an email using one of my aliases (I don't use…
 
 ## New tickets — last 24h
 
-_(none)_
+- [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [new] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
+- [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [new] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 
 ## Solved — last 24h
 
