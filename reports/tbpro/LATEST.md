@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 07:10 ET** · refreshes hourly_  
+_Updated: **2026-07-20 08:53 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 29** of rollout — **6,500 invitees**, **177 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **177** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.7h · mean 117.4h (proxy: updated_at − created_at, 139 solved tickets)
+- **Median AHT**: 121.7h · mean 118.7h (proxy: updated_at − created_at, 139 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -53,21 +53,21 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Collaborative / Shared accountsCu](https://ideas.tb.pro/p/collaborative-shared-accountscu) · 1 votes · _untagged_
+- [Collaborative / Shared accounts](https://ideas.tb.pro/p/collaborative-shared-accounts) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 139
-- **pending**: 20
-- **open**: 9
+- **pending**: 22
+- **open**: 10
 - **hold**: 5
-- **new**: 4
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 84
-- **Account Hub**: 77
+- **Thundermail**: 83
+- **Account Hub**: 78
 - **Appointment**: 6
 - **Send**: 4
 
@@ -75,9 +75,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 40
+- **curious** + **explained**: 42
 - **blocked** + **explained**: 25
-- **request** + **redirected**: 16
+- **request** + **redirected**: 15
 - **blocked** + **investigated**: 11
 - **blocked** + **escalated**: 10
 - **change request** + **actioned**: 10
@@ -85,6 +85,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
+- **blocked** + **redirected**: 2
 - **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
@@ -99,27 +100,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **escalated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
-- **blocked** + **redirected**: 1
 - **confused** + **escalated**: 1
 - **curious** + **informed**: 1
 - **concerned** + **investigated**: 1
 
 ## Tickets in last 24h — by theme
 
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#6958](https://tbpro.zendesk.com/agent/tickets/6958)** · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
-  > Subject: Performance Issues with Thunderbird + ProtonMail Bridge Dear [name], I have been experiencing significant slowdowns when using Thunderbird, especially with my current…
-
 ### Aliases — 1 tickets
 
 - **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent
   > Hi folks I'm enjoying using my new email accounts - thanks for all your work. I'm using thundermail with Thunderbird. When I compose an email using one of my aliases (I don't use…
 
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
+
+- **[#6958](https://tbpro.zendesk.com/agent/tickets/6958)** · Subject: Performance Issues with Thunderbird + ProtonMail Bridge — why: **blocked** · how: **redirected**
+  > Subject: Performance Issues with Thunderbird + ProtonMail Bridge Dear [name], I have been experiencing significant slowdowns when using Thunderbird, especially with my current…
+
 ## New tickets — last 24h
 
-- [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [new] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
-- [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [new] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
+- [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [open] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
+- [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 
 ## Solved — last 24h
 
@@ -128,6 +128,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6697](https://tbpro.zendesk.com/agent/tickets/6697) · 2026-07-19T23:01 · Pre-signup questions
 - · [6855](https://tbpro.zendesk.com/agent/tickets/6855) · 2026-07-20T05:01 · New thundermail email vs email used to pre-enroll
 - · [6850](https://tbpro.zendesk.com/agent/tickets/6850) · 2026-07-20T05:01 · Custom domains
+- · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-20T12:39 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
