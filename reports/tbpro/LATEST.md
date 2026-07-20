@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 12:41 ET** · refreshes hourly_  
+_Updated: **2026-07-20 13:53 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **179 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **181 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **9** solved in last 24h
-- **179** tickets total since launch · contact rate **3%** of 6500 invitees
+- **6** new tickets in last 24h · **11** solved in last 24h
+- **181** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.7h · mean 118.9h (proxy: updated_at − created_at, 142 solved tickets)
+- **Median AHT**: 121.8h · mean 119.1h (proxy: updated_at − created_at, 144 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -35,19 +35,21 @@ Flight 3 is **day 29** of rollout — **6,500 invitees**, **179 tickets** so far
 - 1 incident(s):
   - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [solved] · 2026-07-08 · _Webmail - no mail from own domain_
 
-## Other tickets linked to GitHub — 3 ticket(s) → 3 issue(s)
+## Other tickets linked to GitHub — 4 ticket(s) → 4 issue(s)
 
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
+- 🔧 [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
 - ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
 ## Negative CSAT (since launch)
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · _Cancel_
+  > Please cancel my account
 
 ## New ideas on FeatureOS
 
@@ -58,23 +60,23 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 142
+- **solved**: 144
 - **pending**: 22
 - **open**: 9
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 85
+- **Thundermail**: 86
 - **Account Hub**: 78
-- **Appointment**: 6
+- **Appointment**: 7
 - **Send**: 4
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 42
+- **curious** + **explained**: 43
 - **blocked** + **explained**: 25
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 11
@@ -105,15 +107,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#6969](https://tbpro.zendesk.com/agent/tickets/6969)** · Zoom Integration
+  > Just getting started with [domain]... When I am logged into [domain] in the browser I can use the appointment service to set up a meeting that gets my zoom link. But when I am in…
+- **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
+  > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6967](https://tbpro.zendesk.com/agent/tickets/6967)** · Cancel
+  > Please cancel my account
+
 ### Webmail — 1 tickets
 
 - **[#6964](https://tbpro.zendesk.com/agent/tickets/6964)** · How to filter mails to be put in given folder? 
   > How to filter mails to be put in given folder? I cannot find it in webmail or Thunderbird. Using Thundermail. Thanks!
-
-### Account access issues — 1 tickets
-
-- **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
-  > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
 
 ### Aliases — 1 tickets
 
@@ -131,6 +140,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 - [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [open] · 2026-07-20T14:05 · Bug?
 - [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [open] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
+- [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · 2026-07-20T16:42 · Cancel
+- [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [open] · 2026-07-20T17:28 · Zoom Integration
 
 ## Solved — last 24h
 
@@ -143,6 +154,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6840](https://tbpro.zendesk.com/agent/tickets/6840) · 2026-07-20T14:02 · No confirmation email received on signup.
 - · [6879](https://tbpro.zendesk.com/agent/tickets/6879) · 2026-07-20T14:05 · site for ios instructions from introducing email not found
 - · [6875](https://tbpro.zendesk.com/agent/tickets/6875) · 2026-07-20T15:01 · Thundermail Early Bird Access
+- · [6870](https://tbpro.zendesk.com/agent/tickets/6870) · 2026-07-20T17:01 · THundermail vs Thunderbird
+- · [6867](https://tbpro.zendesk.com/agent/tickets/6867) · 2026-07-20T17:01 · Upgrade Subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
