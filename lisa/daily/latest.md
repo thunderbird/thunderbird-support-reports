@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 17:34 ET** · refreshes hourly_  
+_Updated: **2026-07-20 18:30 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -67,9 +67,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 146
-- **pending**: 27
+- **pending**: 31
 - **hold**: 6
-- **open**: 5
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -83,7 +83,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 44
-- **blocked** + **explained**: 26
+- **blocked** + **explained**: 28
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 12
 - **change request** + **actioned**: 11
@@ -96,6 +96,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
@@ -128,19 +129,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
   > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#6973](https://tbpro.zendesk.com/agent/tickets/6973)** · Domain settings
-  > Hi, I use ClouDNS to manage my DNS settings. Setting up my own domain with thunderbird pro is quite challenging, as the entries are not fully described. The SRV-entries have a…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#6967](https://tbpro.zendesk.com/agent/tickets/6967)** · Cancel
   > Please cancel my account
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6973](https://tbpro.zendesk.com/agent/tickets/6973)** · Domain settings — why: **blocked** · how: **explained**
+  > Hi, I use ClouDNS to manage my DNS settings. Setting up my own domain with thunderbird pro is quite challenging, as the entries are not fully described. The SRV-entries have a…
+
 ### Webmail — 1 tickets
 
-- **[#6964](https://tbpro.zendesk.com/agent/tickets/6964)** · How to filter mails to be put in given folder? 
+- **[#6964](https://tbpro.zendesk.com/agent/tickets/6964)** · How to filter mails to be put in given folder?  — why: **blocked** · how: **explained**
   > How to filter mails to be put in given folder? I cannot find it in webmail or Thunderbird. Using Thundermail. Thanks!
 
 ### Account access issues — wrong product, redirected to SUMO — 1 tickets
@@ -153,11 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [pending] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 - [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [pending] · 2026-07-20T14:05 · Bug?
-- [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [open] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
+- [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [pending] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
 - [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · 2026-07-20T16:42 · Cancel
 - [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [pending] · 2026-07-20T17:28 · Zoom Integration
 - [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [pending] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
-- [6973](https://tbpro.zendesk.com/agent/tickets/6973) · [open] · 2026-07-20T19:09 · Domain settings
+- [6973](https://tbpro.zendesk.com/agent/tickets/6973) · [pending] · 2026-07-20T19:09 · Domain settings
 
 ## Solved — last 24h
 
