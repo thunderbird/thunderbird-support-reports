@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 18:30 ET** · refreshes hourly_  
+_Updated: **2026-07-20 19:29 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 29** of rollout — **6,500 invitees**, **184 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.8h · mean 119.9h (proxy: updated_at − created_at, 146 solved tickets)
+- **Median AHT**: 121.9h · mean 120.0h (proxy: updated_at − created_at, 145 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -66,10 +66,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 146
-- **pending**: 31
+- **solved**: 145
+- **pending**: 30
 - **hold**: 6
-- **open**: 1
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -85,8 +85,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 44
 - **blocked** + **explained**: 28
 - **request** + **redirected**: 15
+- **change request** + **actioned**: 12
 - **blocked** + **investigated**: 12
-- **change request** + **actioned**: 11
 - **blocked** + **escalated**: 10
 - **confused** + **explained**: 9
 - **blocked** + **actioned**: 5
@@ -96,10 +96,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **confused** + **investigated**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -129,9 +129,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
   > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Refund / Cancel — 1 tickets
 
-- **[#6967](https://tbpro.zendesk.com/agent/tickets/6967)** · Cancel
+- **[#6967](https://tbpro.zendesk.com/agent/tickets/6967)** · Cancel — why: **change request** · how: **actioned**
   > Please cancel my account
 
 ### Custom domain / DKIM / DNS — 1 tickets
