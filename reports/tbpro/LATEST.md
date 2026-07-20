@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 10:54 ET** · refreshes hourly_  
+_Updated: **2026-07-20 11:46 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **178 tickets** so far (2.7% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **179 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **178** tickets total since launch · contact rate **3%** of 6500 invitees
+- **4** new tickets in last 24h · **9** solved in last 24h
+- **179** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.7h · mean 118.9h (proxy: updated_at − created_at, 141 solved tickets)
+- **Median AHT**: 121.7h · mean 118.9h (proxy: updated_at − created_at, 142 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -58,14 +58,14 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 141
+- **solved**: 142
 - **pending**: 22
 - **open**: 9
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 84
+- **Thundermail**: 85
 - **Account Hub**: 78
 - **Appointment**: 6
 - **Send**: 4
@@ -105,6 +105,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 1 tickets
+
+- **[#6964](https://tbpro.zendesk.com/agent/tickets/6964)** · How to filter mails to be put in given folder? 
+  > How to filter mails to be put in given folder? I cannot find it in webmail or Thunderbird. Using Thundermail. Thanks!
+
 ### Account access issues — 1 tickets
 
 - **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
@@ -125,6 +130,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [open] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 - [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [open] · 2026-07-20T14:05 · Bug?
+- [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [open] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
 
 ## Solved — last 24h
 
@@ -136,6 +142,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-20T12:39 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
 - · [6840](https://tbpro.zendesk.com/agent/tickets/6840) · 2026-07-20T14:02 · No confirmation email received on signup.
 - · [6879](https://tbpro.zendesk.com/agent/tickets/6879) · 2026-07-20T14:05 · site for ios instructions from introducing email not found
+- · [6875](https://tbpro.zendesk.com/agent/tickets/6875) · 2026-07-20T15:01 · Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
