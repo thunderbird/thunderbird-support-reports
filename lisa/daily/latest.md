@@ -1,18 +1,18 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 13:53 ET** · refreshes hourly_  
+_Updated: **2026-07-20 14:47 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **181 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **182 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **11** solved in last 24h
-- **181** tickets total since launch · contact rate **3%** of 6500 invitees
+- **7** new tickets in last 24h · **11** solved in last 24h
+- **182** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (25 good / 0 bad)
+- **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
 - **Median AHT**: 121.8h · mean 119.1h (proxy: updated_at − created_at, 144 solved tickets)
 
@@ -61,13 +61,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 144
-- **pending**: 22
-- **open**: 9
+- **pending**: 23
+- **open**: 8
 - **hold**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 86
+- **Thundermail**: 87
 - **Account Hub**: 78
 - **Appointment**: 7
 - **Send**: 4
@@ -77,7 +78,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 43
-- **blocked** + **explained**: 25
+- **blocked** + **explained**: 26
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 11
 - **blocked** + **escalated**: 10
@@ -107,6 +108,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#6972](https://tbpro.zendesk.com/agent/tickets/6972)** · Email aliases, catch all and general use of domain names
+  > Hi! I've gone through the setup to add a domain name, but am wondering what I am missing. All I can do is verify, view dns records or delete? I have rectified the errors when…
+- **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent
+  > Hi folks I'm enjoying using my new email accounts - thanks for all your work. I'm using thundermail with Thunderbird. When I compose an email using one of my aliases (I don't use…
+
 ### Account access issues — 2 tickets
 
 - **[#6969](https://tbpro.zendesk.com/agent/tickets/6969)** · Zoom Integration
@@ -124,11 +132,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6964](https://tbpro.zendesk.com/agent/tickets/6964)** · How to filter mails to be put in given folder? 
   > How to filter mails to be put in given folder? I cannot find it in webmail or Thunderbird. Using Thundermail. Thanks!
 
-### Aliases — 1 tickets
-
-- **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent
-  > Hi folks I'm enjoying using my new email accounts - thanks for all your work. I'm using thundermail with Thunderbird. When I compose an email using one of my aliases (I don't use…
-
 ### Account access issues — wrong product, redirected to SUMO — 1 tickets
 
 - **[#6958](https://tbpro.zendesk.com/agent/tickets/6958)** · Subject: Performance Issues with Thunderbird + ProtonMail Bridge — why: **blocked** · how: **redirected**
@@ -142,6 +145,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [open] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
 - [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · 2026-07-20T16:42 · Cancel
 - [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [open] · 2026-07-20T17:28 · Zoom Integration
+- [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [new] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
 
 ## Solved — last 24h
 
