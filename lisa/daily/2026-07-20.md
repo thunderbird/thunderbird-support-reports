@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 16:38 ET** · refreshes hourly_  
+_Updated: **2026-07-20 17:34 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -67,14 +67,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 146
-- **pending**: 24
-- **open**: 8
+- **pending**: 27
 - **hold**: 6
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 89
-- **Account Hub**: 78
+- **Thundermail**: 88
+- **Account Hub**: 79
 - **Appointment**: 7
 - **Send**: 4
 
@@ -86,14 +86,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 26
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 12
+- **change request** + **actioned**: 11
 - **blocked** + **escalated**: 10
-- **change request** + **actioned**: 10
 - **confused** + **explained**: 9
 - **blocked** + **actioned**: 5
+- **blocked** + **—**: 3
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **blocked** + **redirected**: 2
-- **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **change request** + **investigated**: 1
@@ -123,10 +123,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account access issues — 2 tickets
 
-- **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
-  > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
 - **[#6969](https://tbpro.zendesk.com/agent/tickets/6969)** · Zoom Integration — why: **blocked** · how: **investigated**
   > Just getting started with [domain]... When I am logged into [domain] in the browser I can use the appointment service to set up a meeting that gets my zoom link. But when I am in…
+- **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
+  > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -152,11 +152,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [pending] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
-- [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [open] · 2026-07-20T14:05 · Bug?
+- [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [pending] · 2026-07-20T14:05 · Bug?
 - [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [open] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
 - [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · 2026-07-20T16:42 · Cancel
 - [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [pending] · 2026-07-20T17:28 · Zoom Integration
-- [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [open] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
+- [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [pending] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
 - [6973](https://tbpro.zendesk.com/agent/tickets/6973) · [open] · 2026-07-20T19:09 · Domain settings
 
 ## Solved — last 24h
