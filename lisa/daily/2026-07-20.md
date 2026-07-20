@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 14:47 ET** · refreshes hourly_  
+_Updated: **2026-07-20 15:44 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **182 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 29** of rollout — **6,500 invitees**, **183 tickets** so far (2.8% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **11** solved in last 24h
-- **182** tickets total since launch · contact rate **3%** of 6500 invitees
+- **8** new tickets in last 24h · **12** solved in last 24h
+- **183** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.8h · mean 119.1h (proxy: updated_at − created_at, 144 solved tickets)
+- **Median AHT**: 121.9h · mean 120.0h (proxy: updated_at − created_at, 145 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"which doesn"** — 2 tickets in 24h (new; baseline 0 cum) — [#6957](https://tbpro.zendesk.com/agent/tickets/6957), [#6973](https://tbpro.zendesk.com/agent/tickets/6973)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -60,7 +66,7 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 144
+- **solved**: 145
 - **pending**: 23
 - **open**: 8
 - **hold**: 6
@@ -68,8 +74,8 @@ _No negative ratings since launch._
 
 ## Service (cumulative)
 
-- **Thundermail**: 87
-- **Account Hub**: 78
+- **Thundermail**: 89
+- **Account Hub**: 77
 - **Appointment**: 7
 - **Send**: 4
 
@@ -77,7 +83,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 43
+- **curious** + **explained**: 44
 - **blocked** + **explained**: 26
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 11
@@ -91,8 +97,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
+- **change request** + **investigated**: 1
+- **change request** + **redirected**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -112,7 +119,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#6972](https://tbpro.zendesk.com/agent/tickets/6972)** · Email aliases, catch all and general use of domain names
   > Hi! I've gone through the setup to add a domain name, but am wondering what I am missing. All I can do is verify, view dns records or delete? I have rectified the errors when…
-- **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent
+- **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent — why: **change request** · how: **investigated**
   > Hi folks I'm enjoying using my new email accounts - thanks for all your work. I'm using thundermail with Thunderbird. When I compose an email using one of my aliases (I don't use…
 
 ### Account access issues — 2 tickets
@@ -121,6 +128,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Just getting started with [domain]... When I am logged into [domain] in the browser I can use the appointment service to set up a meeting that gets my zoom link. But when I am in…
 - **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
   > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#6973](https://tbpro.zendesk.com/agent/tickets/6973)** · Domain settings
+  > Hi, I use ClouDNS to manage my DNS settings. Setting up my own domain with thunderbird pro is quite challenging, as the entries are not fully described. The SRV-entries have a…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -139,13 +151,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [open] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
+- [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [pending] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 - [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [open] · 2026-07-20T14:05 · Bug?
 - [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [open] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
 - [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · 2026-07-20T16:42 · Cancel
 - [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [open] · 2026-07-20T17:28 · Zoom Integration
-- [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [new] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
+- [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [open] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
+- [6973](https://tbpro.zendesk.com/agent/tickets/6973) · [new] · 2026-07-20T19:09 · Domain settings
 
 ## Solved — last 24h
 
@@ -160,6 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6875](https://tbpro.zendesk.com/agent/tickets/6875) · 2026-07-20T15:01 · Thundermail Early Bird Access
 - · [6870](https://tbpro.zendesk.com/agent/tickets/6870) · 2026-07-20T17:01 · THundermail vs Thunderbird
 - · [6867](https://tbpro.zendesk.com/agent/tickets/6867) · 2026-07-20T17:01 · Upgrade Subscription
+- · [6762](https://tbpro.zendesk.com/agent/tickets/6762) · 2026-07-20T19:02 · Questions sur migration domaine + e-mails
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
