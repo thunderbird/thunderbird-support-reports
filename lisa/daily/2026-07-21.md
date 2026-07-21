@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 06:03 ET** · refreshes hourly_  
+_Updated: **2026-07-21 06:51 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -74,7 +74,7 @@ _(none in last 24h)_
 ## Service (cumulative)
 
 - **Thundermail**: 93
-- **Account Hub**: 79
+- **Account Hub**: 80
 - **Appointment**: 7
 - **Send**: 5
 
@@ -115,6 +115,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#6990](https://tbpro.zendesk.com/agent/tickets/6990)** · Only yearly subscription? Not monthly?
+  > At the moment, I cannot afford a yearly subscription. No monthly option?
+- **[#6981](https://tbpro.zendesk.com/agent/tickets/6981)** · Push notifications for Thundermail
+  > Because there is no Thunderbird for iOS, I have to use Thundermail with the Apple Mail app. I have to manually check email. Please add support for push notifications. Still glad…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#6978](https://tbpro.zendesk.com/agent/tickets/6978)** · DKIM and Jellyfish Spam filtering
@@ -127,20 +134,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6987](https://tbpro.zendesk.com/agent/tickets/6987)** · Importing eml
   > I have some backlog of emails from my own domain and I would like to import them to thundermail. They are all .eml files. I couldn't find a way to do so in webmail or in…
 
-### Pre-purchase / documentation gap — 1 tickets
-
-- **[#6984](https://tbpro.zendesk.com/agent/tickets/6984)** · Rust developer Job application
-  > Hello [name], I came across your job post for a Rust Developer, and it definitely looks like you’re building something pretty exciting. And let’s be honest — hiring good Rust…
-
 ### Account access issues — 1 tickets
 
 - **[#6982](https://tbpro.zendesk.com/agent/tickets/6982)** · i have no idea what my login name is
   > I don't know where on the registration page it was, but I really don't know what name I used to register. Apparently, though, I did register, because I received a link in my…
-
-### Other / uncategorized — 1 tickets
-
-- **[#6981](https://tbpro.zendesk.com/agent/tickets/6981)** · Push notifications for Thundermail
-  > Because there is no Thunderbird for iOS, I have to use Thundermail with the Apple Mail app. I have to manually check email. Please add support for push notifications. Still glad…
 
 ### App setup / configuration — 1 tickets
 
@@ -166,8 +163,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6980](https://tbpro.zendesk.com/agent/tickets/6980) · [open] · 2026-07-21T03:08 · filelink
 - [6981](https://tbpro.zendesk.com/agent/tickets/6981) · [open] · 2026-07-21T03:20 · Push notifications for Thundermail
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
-- [6984](https://tbpro.zendesk.com/agent/tickets/6984) · [open] · 2026-07-21T06:13 · Rust developer Job application
-- [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [new] · 2026-07-21T08:05 · Importing eml
+- [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [open] · 2026-07-21T08:05 · Importing eml
+- [6990](https://tbpro.zendesk.com/agent/tickets/6990) · [new] · 2026-07-21T10:17 · Only yearly subscription? Not monthly?
 
 ## Solved — last 24h
 
