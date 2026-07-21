@@ -1,26 +1,26 @@
-# Thundermail — Flight 3 Live Report · 2026-07-20
+# Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-20 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-21 01:15 ET** · refreshes hourly_  
+_24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 29** of rollout — **6,500 invitees**, **187 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **189 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **12** solved in last 24h
-- **187** tickets total since launch · contact rate **3%** of 6500 invitees
+- **7** new tickets in last 24h · **1** solved in last 24h
+- **189** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 43
 - **Median AHT**: 122.0h · mean 123.6h (proxy: updated_at − created_at, 143 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"which doesn"** — 2 tickets in 24h (new; baseline 0 cum) — [#6957](https://tbpro.zendesk.com/agent/tickets/6957), [#6973](https://tbpro.zendesk.com/agent/tickets/6973)
+- **"namecheap namecheap"** — 2 tickets in 24h (new; baseline 0 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#6978](https://tbpro.zendesk.com/agent/tickets/6978)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -52,31 +52,28 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [pending] · _Cancel_
-  > Please cancel my account
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Collaborative / Shared accounts](https://ideas.tb.pro/p/collaborative-shared-accounts) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 143
 - **pending**: 28
+- **open**: 9
 - **hold**: 6
-- **open**: 4
-- **new**: 3
 - **closed**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 91
-- **Account Hub**: 78
+- **Thundermail**: 92
+- **Account Hub**: 79
 - **Appointment**: 7
 - **Send**: 5
 
@@ -117,59 +114,51 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#6972](https://tbpro.zendesk.com/agent/tickets/6972)** · Email aliases, catch all and general use of domain names
-  > Hi! I've gone through the setup to add a domain name, but am wondering what I am missing. All I can do is verify, view dns records or delete? I have rectified the errors when…
-- **[#6957](https://tbpro.zendesk.com/agent/tickets/6957)** · Thundermail drafts not deleting after final version sent — why: **change request** · how: **investigated**
-  > Hi folks I'm enjoying using my new email accounts - thanks for all your work. I'm using thundermail with Thunderbird. When I compose an email using one of my aliases (I don't use…
+- **[#6978](https://tbpro.zendesk.com/agent/tickets/6978)** · DKIM and Jellyfish Spam filtering
+  > Hello! I am happy to be supporting thunderbird! I currently have my domains with namecheap and I have email on one of them. I see that namecheap has DKIM and Jellyfish spam…
+- **[#6977](https://tbpro.zendesk.com/agent/tickets/6977)** · Unable to Setup Custom Domain on Namecheap  — why: **blocked** · how: **explained**
+  > Namecheap will not save DNS settings with: - Period as last character in CNAME - Period as last character in TXT These entries (if added without trailing period) show as "Record…
 
-### Account access issues — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#6969](https://tbpro.zendesk.com/agent/tickets/6969)** · Zoom Integration — why: **blocked** · how: **investigated**
-  > Just getting started with [domain]... When I am logged into [domain] in the browser I can use the appointment service to set up a meeting that gets my zoom link. But when I am in…
-- **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
-  > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
+- **[#6982](https://tbpro.zendesk.com/agent/tickets/6982)** · i have no idea what my login name is
+  > I don't know where on the registration page it was, but I really don't know what name I used to register. Apparently, though, I did register, because I received a link in my…
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#6973](https://tbpro.zendesk.com/agent/tickets/6973)** · Domain settings — why: **blocked** · how: **explained**
-  > Hi, I use ClouDNS to manage my DNS settings. Setting up my own domain with thunderbird pro is quite challenging, as the entries are not fully described. The SRV-entries have a…
+- **[#6981](https://tbpro.zendesk.com/agent/tickets/6981)** · Push notifications for Thundermail
+  > Because there is no Thunderbird for iOS, I have to use Thundermail with the Apple Mail app. I have to manually check email. Please add support for push notifications. Still glad…
 
-### Webmail — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#6964](https://tbpro.zendesk.com/agent/tickets/6964)** · How to filter mails to be put in given folder?  — why: **blocked** · how: **explained**
-  > How to filter mails to be put in given folder? I cannot find it in webmail or Thunderbird. Using Thundermail. Thanks!
+- **[#6980](https://tbpro.zendesk.com/agent/tickets/6980)** · filelink
+  > I can't seem to enable file link to work with the new thundermail account. When selecting link when composing the new email it takes you to the configuration screen where you add…
 
-### Account access issues — wrong product, redirected to SUMO — 1 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#6958](https://tbpro.zendesk.com/agent/tickets/6958)** · Subject: Performance Issues with Thunderbird + ProtonMail Bridge — why: **blocked** · how: **redirected**
-  > Subject: Performance Issues with Thunderbird + ProtonMail Bridge Dear [name], I have been experiencing significant slowdowns when using Thunderbird, especially with my current…
+- **[#6979](https://tbpro.zendesk.com/agent/tickets/6979)** · CardDAV
+  > Thrilled to have my new Thundermail address! I set it up to sync with my Apple calendar and contacts. Calendar works fine. The contacts sync, but the sync loses all of my contact…
+
+### Pricing — general pricing concern — 1 tickets
+
+- **[#6975](https://tbpro.zendesk.com/agent/tickets/6975)** · delete the account — why: **telling us** · how: **redirected**
+  > Hey guys.. you can delete the account [email].. maybe someone else wants it. I've decided I don't want to pay for it. Thanks.
 
 ## New tickets — last 24h
 
-- [6957](https://tbpro.zendesk.com/agent/tickets/6957) · [pending] · 2026-07-20T06:51 · Thundermail drafts not deleting after final version sent
-- [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
-- [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [pending] · 2026-07-20T14:05 · Bug?
-- [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [pending] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
-- [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [pending] · 2026-07-20T17:28 · Zoom Integration
-- [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [pending] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
-- [6973](https://tbpro.zendesk.com/agent/tickets/6973) · [pending] · 2026-07-20T19:09 · Domain settings
+- [6975](https://tbpro.zendesk.com/agent/tickets/6975) · [open] · 2026-07-20T20:29 · delete the account
+- [6977](https://tbpro.zendesk.com/agent/tickets/6977) · [pending] · 2026-07-21T00:05 · Unable to Setup Custom Domain on Namecheap 
+- [6978](https://tbpro.zendesk.com/agent/tickets/6978) · [open] · 2026-07-21T01:16 · DKIM and Jellyfish Spam filtering
+- [6979](https://tbpro.zendesk.com/agent/tickets/6979) · [open] · 2026-07-21T02:28 · CardDAV
+- [6980](https://tbpro.zendesk.com/agent/tickets/6980) · [open] · 2026-07-21T03:08 · filelink
+- [6981](https://tbpro.zendesk.com/agent/tickets/6981) · [open] · 2026-07-21T03:20 · Push notifications for Thundermail
+- [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
 
 ## Solved — last 24h
 
-- · [6844](https://tbpro.zendesk.com/agent/tickets/6844) · 2026-07-19T20:01 · Not recieving early-bird sign up.
-- · [6837](https://tbpro.zendesk.com/agent/tickets/6837) · 2026-07-19T20:01 · DNS Warning
-- · [6697](https://tbpro.zendesk.com/agent/tickets/6697) · 2026-07-19T23:01 · Pre-signup questions
-- · [6855](https://tbpro.zendesk.com/agent/tickets/6855) · 2026-07-20T05:01 · New thundermail email vs email used to pre-enroll
-- · [6850](https://tbpro.zendesk.com/agent/tickets/6850) · 2026-07-20T05:01 · Custom domains
-- · [6688](https://tbpro.zendesk.com/agent/tickets/6688) · 2026-07-20T12:39 · I'd like an option to make my @[domain] address my primary & subscription address, and turn @[domain
-- · [6840](https://tbpro.zendesk.com/agent/tickets/6840) · 2026-07-20T14:02 · No confirmation email received on signup.
-- · [6879](https://tbpro.zendesk.com/agent/tickets/6879) · 2026-07-20T14:05 · site for ios instructions from introducing email not found
-- · [6875](https://tbpro.zendesk.com/agent/tickets/6875) · 2026-07-20T15:01 · Thundermail Early Bird Access
-- · [6870](https://tbpro.zendesk.com/agent/tickets/6870) · 2026-07-20T17:01 · THundermail vs Thunderbird
-- · [6867](https://tbpro.zendesk.com/agent/tickets/6867) · 2026-07-20T17:01 · Upgrade Subscription
-- · [6762](https://tbpro.zendesk.com/agent/tickets/6762) · 2026-07-20T19:02 · Questions sur migration domaine + e-mails
+- · [6606](https://tbpro.zendesk.com/agent/tickets/6606) · 2026-07-21T02:01 · Full day event displayed incorrectly for Thundermail calendar only
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
