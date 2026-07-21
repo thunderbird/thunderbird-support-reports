@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 18:28 ET** · refreshes hourly_  
+_Updated: **2026-07-21 19:29 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **210 tickets** so far (3.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **211 tickets** so far (3.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **23** new tickets in last 24h · **16** solved in last 24h
-- **210** tickets total since launch · contact rate **3%** of 6500 invitees
+- **211** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 47
@@ -21,8 +21,8 @@ Flight 3 is **day 30** of rollout — **6,500 invitees**, **210 tickets** so far
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"click link"** — 2 tickets in 24h (new; baseline 0 cum) — [#6996](https://tbpro.zendesk.com/agent/tickets/6996), [#7015](https://tbpro.zendesk.com/agent/tickets/7015)
-- **"blank page"** — 2 tickets in 24h (new; baseline 0 cum) — [#7008](https://tbpro.zendesk.com/agent/tickets/7008), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
 - **"open blank"** — 2 tickets in 24h (new; baseline 0 cum) — [#7000](https://tbpro.zendesk.com/agent/tickets/7000), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
+- **"blank page"** — 2 tickets in 24h (new; baseline 0 cum) — [#7008](https://tbpro.zendesk.com/agent/tickets/7008), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
 - **"namecheap namecheap"** — 2 tickets in 24h (new; baseline 0 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#6978](https://tbpro.zendesk.com/agent/tickets/6978)
 - **"priority weight"** — 2 tickets in 24h (58.0× baseline; baseline 1 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#7012](https://tbpro.zendesk.com/agent/tickets/7012)
 
@@ -56,7 +56,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 5
+## Refund & cancellation tickets (last 24h) — 6
 
 - [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · _refund susbcription (14 days trial)_
   > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
@@ -68,6 +68,8 @@ _No negative ratings since launch._
   > Thundermail is being flagged as spam by Gmail. For the price of this service that is unacceptable. I would like to request a refund
 - [7010](https://tbpro.zendesk.com/agent/tickets/7010) · [open] · _Cancel_
   > Hi, I would like to cancel/close my account and get a refund please? I have tried and tested the service but sadly it is not for me. Thanks for your help.
+- [7027](https://tbpro.zendesk.com/agent/tickets/7027) · [new] · _Closure of my account and refund_
+  > After trying out the available features in thundermail, I have decided that I don't want to participate in the early bird program, I would like to request a refund and close my account
 
 ## New ideas on FeatureOS
 
@@ -83,11 +85,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 156
-- **pending**: 31
-- **open**: 12
+- **pending**: 29
+- **open**: 14
 - **hold**: 6
+- **new**: 3
 - **closed**: 3
-- **new**: 2
 
 ## Service (cumulative)
 
@@ -169,6 +171,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6977](https://tbpro.zendesk.com/agent/tickets/6977)** · Unable to Setup Custom Domain on Namecheap  — why: **blocked** · how: **explained**
   > Namecheap will not save DNS settings with: - Period as last character in CNAME - Period as last character in TXT These entries (if added without trailing period) show as "Record…
 
+### Pricing — general pricing concern — 2 tickets
+
+- **[#7018](https://tbpro.zendesk.com/agent/tickets/7018)** · Cost — why: **telling us** · how: **informed**
+  > For a poor Franciscan Bishop like me, the cost of Thundermail is too prohibitive. I really was excited to check it out, but I can’t.
+- **[#6975](https://tbpro.zendesk.com/agent/tickets/6975)** · delete the account — why: **telling us** · how: **redirected**
+  > Hey guys.. you can delete the account [email].. maybe someone else wants it. I've decided I don't want to pay for it. Thanks.
+
 ### App setup / configuration — 2 tickets
 
 - **[#7008](https://tbpro.zendesk.com/agent/tickets/7008)** · cannot connect agenda and email account thunderbird show a blank page 
@@ -182,13 +191,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
 - **[#7017](https://tbpro.zendesk.com/agent/tickets/7017)** · Please close my account — why: **change request** · how: **actioned**
   > I opened the account this morning but would now like to close it as i don;t think it meets my needs. I understand as i'm in the UK that i will receive a refund of my initial…
-
-### Pricing — general pricing concern — 2 tickets
-
-- **[#7018](https://tbpro.zendesk.com/agent/tickets/7018)** · Cost — why: **telling us** · how: **informed**
-  > For a poor Franciscan Bishop like me, the cost of Thundermail is too prohibitive. I really was excited to check it out, but I can’t.
-- **[#6975](https://tbpro.zendesk.com/agent/tickets/6975)** · delete the account — why: **telling us** · how: **redirected**
-  > Hey guys.. you can delete the account [email].. maybe someone else wants it. I've decided I don't want to pay for it. Thanks.
 
 ### Pricing — annual-only inquiry — 2 tickets
 
@@ -241,7 +243,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7015](https://tbpro.zendesk.com/agent/tickets/7015) · [open] · 2026-07-21T19:01 · I'm unable to sign up for Thundermail with an invitation
 - [7016](https://tbpro.zendesk.com/agent/tickets/7016) · [pending] · 2026-07-21T19:14 · Monthly subscription
 - [7017](https://tbpro.zendesk.com/agent/tickets/7017) · [pending] · 2026-07-21T19:28 · Please close my account
-- [7018](https://tbpro.zendesk.com/agent/tickets/7018) · [pending] · 2026-07-21T19:32 · Cost
+- [7018](https://tbpro.zendesk.com/agent/tickets/7018) · [open] · 2026-07-21T19:32 · Cost
 
 ## Solved — last 24h
 
