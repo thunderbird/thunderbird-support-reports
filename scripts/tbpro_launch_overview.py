@@ -133,10 +133,15 @@ WAVES = [
     {"date": "2026-07-07", "end": "2026-07-07", "invites": 3000, "label": "Flight 5 Wave 2",  "color": "#8b5cf6"},
     {"date": "2026-07-08", "end": "2026-07-12", "invites": 3000, "label": "Flight 5 Wave 3",  "color": "#22d3ee"},
     {"date": "2026-07-13", "end": "2026-07-13", "invites": 4000, "label": "Flight 6 Wave 1",  "color": "#f43f5e"},
-    {"date": "2026-07-14", "end": "2099-12-31", "invites": 4000, "label": "Flight 6 Wave 2",  "color": "#84cc16"},
+    {"date": "2026-07-14", "end": "2026-07-19", "invites": 4000, "label": "Flight 6 Wave 2",      "color": "#84cc16"},
+    {"date": "2026-07-20", "end": "2026-07-20", "invites": 4000, "label": "Flight 7 Wave 1",      "color": "#fb923c"},
+    {"date": "2026-07-20", "end": "2026-07-20", "invites": 10000, "label": "Re-engagement 1",     "color": "#c084fc"},
+    {"date": "2026-07-21", "end": "2026-07-21", "invites": 4000, "label": "Flight 7 Wave 2",      "color": "#4ade80"},
+    {"date": "2026-07-21", "end": "2099-12-31", "invites": 20000, "label": "Re-engagement 2",     "color": "#38bdf8"},
     # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
+    # Re-engagement waves = previously-waitlisted users re-invited; confirm whether to include in TOTAL_INVITEES.
 ]
-TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 37,100 (Flight 6: 4k Jul 13 + 4k Jul 14)
+TOTAL_INVITEES = sum(w["invites"] for w in WAVES)  # 75,100 (incl. 30k re-engagement Jul 20–21)
 # Waves settle (contacts arrive) over ~7-14 days. The projection baseline excludes waves
 # younger than this so still-ramping sends don't drag the rate down. 14 = fully settled
 # (a wave at 7-8 days is only partway there — its rate is still climbing).
