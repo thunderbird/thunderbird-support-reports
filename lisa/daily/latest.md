@@ -1,19 +1,19 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 15:43 ET** · refreshes hourly_  
+_Updated: **2026-07-21 16:36 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **206 tickets** so far (3.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **208 tickets** so far (3.2% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **25** new tickets in last 24h · **16** solved in last 24h
-- **206** tickets total since launch · contact rate **3%** of 6500 invitees
+- **208** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 46
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 47
 - **Median AHT**: 122.6h · mean 130.3h (proxy: updated_at − created_at, 153 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -21,8 +21,8 @@ Flight 3 is **day 30** of rollout — **6,500 invitees**, **206 tickets** so far
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"click link"** — 2 tickets in 24h (new; baseline 0 cum) — [#6996](https://tbpro.zendesk.com/agent/tickets/6996), [#7015](https://tbpro.zendesk.com/agent/tickets/7015)
-- **"blank page"** — 2 tickets in 24h (new; baseline 0 cum) — [#7008](https://tbpro.zendesk.com/agent/tickets/7008), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
 - **"open blank"** — 2 tickets in 24h (new; baseline 0 cum) — [#7000](https://tbpro.zendesk.com/agent/tickets/7000), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
+- **"blank page"** — 2 tickets in 24h (new; baseline 0 cum) — [#7008](https://tbpro.zendesk.com/agent/tickets/7008), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
 - **"thundermailearlybird protonmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#6992](https://tbpro.zendesk.com/agent/tickets/6992), [#6997](https://tbpro.zendesk.com/agent/tickets/6997)
 - **"namecheap namecheap"** — 2 tickets in 24h (new; baseline 0 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#6978](https://tbpro.zendesk.com/agent/tickets/6978)
 - **"priority weight"** — 2 tickets in 24h (58.0× baseline; baseline 1 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#7012](https://tbpro.zendesk.com/agent/tickets/7012)
@@ -85,17 +85,17 @@ _No negative ratings since launch._
 
 - **solved**: 153
 - **pending**: 31
-- **open**: 12
+- **open**: 13
 - **hold**: 6
 - **closed**: 3
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Thundermail**: 98
-- **Account Hub**: 87
+- **Account Hub**: 88
 - **Appointment**: 9
-- **Send**: 5
+- **Send**: 6
 
 ## Why × How (cumulative)
 
@@ -117,6 +117,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **change request** + **explained**: 1
+- **curious** + **actioned**: 1
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
@@ -141,10 +142,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7011](https://tbpro.zendesk.com/agent/tickets/7011)** · Subdomain addressing
   > Is something like subdomain addressing expected to be supported? Otherwise I can't migrate my primary domain (without changing a lot of accounts).…
-- **[#6999](https://tbpro.zendesk.com/agent/tickets/6999)** · Press plans
-  > Hi everyone! I run one of the largest tech blogs in Germany and have been reporting on Thunderbird and related software since the dawn of time. Would it be possible for you to…
 - **[#7003](https://tbpro.zendesk.com/agent/tickets/7003)** · Thundermail labled as spam — why: **change request** · how: **explained**
   > When I sent email to others it gets labeled as spam
+- **[#6999](https://tbpro.zendesk.com/agent/tickets/6999)** · Press plans — why: **curious** · how: **actioned**
+  > Hi everyone! I run one of the largest tech blogs in Germany and have been reporting on Thunderbird and related software since the dawn of time. Would it be possible for you to…
 - **[#6996](https://tbpro.zendesk.com/agent/tickets/6996)** · unable to update avaiilability.  — why: **blocked** · how: **explained**
   > Whenever i click the link to update availability, it opens a new tab, but after making changes clicking the save button creates the message: "This link slug is already in use.…
 - **[#6981](https://tbpro.zendesk.com/agent/tickets/6981)** · Push notifications for Thundermail — why: **request** · how: **explained**
@@ -237,7 +238,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · 2026-07-21T12:13 · refund susbcription (14 days trial)
 - [6996](https://tbpro.zendesk.com/agent/tickets/6996) · [pending] · 2026-07-21T14:54 · unable to update avaiilability. 
 - [6997](https://tbpro.zendesk.com/agent/tickets/6997) · [open] · 2026-07-21T15:29 · Cancel request 6992 and update my recovery email
-- [6999](https://tbpro.zendesk.com/agent/tickets/6999) · [open] · 2026-07-21T15:42 · Press plans
+- [6999](https://tbpro.zendesk.com/agent/tickets/6999) · [pending] · 2026-07-21T15:42 · Press plans
 - [7000](https://tbpro.zendesk.com/agent/tickets/7000) · [pending] · 2026-07-21T15:49 · Can't login in thunderbird
 - [7003](https://tbpro.zendesk.com/agent/tickets/7003) · [pending] · 2026-07-21T16:10 · Thundermail labled as spam
 - [7006](https://tbpro.zendesk.com/agent/tickets/7006) · [open] · 2026-07-21T16:51 · Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc
@@ -249,7 +250,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7015](https://tbpro.zendesk.com/agent/tickets/7015) · [open] · 2026-07-21T19:01 · I'm unable to sign up for Thundermail with an invitation
 - [7016](https://tbpro.zendesk.com/agent/tickets/7016) · [pending] · 2026-07-21T19:14 · Monthly subscription
 - [7017](https://tbpro.zendesk.com/agent/tickets/7017) · [open] · 2026-07-21T19:28 · Please close my account
-- [7018](https://tbpro.zendesk.com/agent/tickets/7018) · [new] · 2026-07-21T19:32 · Cost
+- [7018](https://tbpro.zendesk.com/agent/tickets/7018) · [open] · 2026-07-21T19:32 · Cost
 
 ## Solved — last 24h
 
