@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 07:45 ET** · refreshes hourly_  
+_Updated: **2026-07-21 08:41 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **191 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **192 tickets** so far (3.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **2** solved in last 24h
-- **191** tickets total since launch · contact rate **3%** of 6500 invitees
+- **10** new tickets in last 24h · **2** solved in last 24h
+- **192** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 43
@@ -52,9 +52,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · _refund susbcription (14 days trial)_
+  > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
 
 ## New ideas on FeatureOS
 
@@ -66,13 +67,13 @@ _(none in last 24h)_
 
 - **solved**: 143
 - **pending**: 27
-- **open**: 12
+- **open**: 13
 - **hold**: 6
 - **closed**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 93
+- **Thundermail**: 94
 - **Account Hub**: 80
 - **Appointment**: 7
 - **Send**: 5
@@ -128,6 +129,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6977](https://tbpro.zendesk.com/agent/tickets/6977)** · Unable to Setup Custom Domain on Namecheap  — why: **blocked** · how: **explained**
   > Namecheap will not save DNS settings with: - Period as last character in CNAME - Period as last character in TXT These entries (if added without trailing period) show as "Record…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#6992](https://tbpro.zendesk.com/agent/tickets/6992)** · refund susbcription (14 days trial)
+  > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
+
 ### Webmail — 1 tickets
 
 - **[#6987](https://tbpro.zendesk.com/agent/tickets/6987)** · Importing eml
@@ -164,6 +170,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
 - [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [open] · 2026-07-21T08:05 · Importing eml
 - [6990](https://tbpro.zendesk.com/agent/tickets/6990) · [open] · 2026-07-21T10:17 · Only yearly subscription? Not monthly?
+- [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · 2026-07-21T12:13 · refund susbcription (14 days trial)
 
 ## Solved — last 24h
 
