@@ -1,25 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 10:49 ET** · refreshes hourly_  
+_Updated: **2026-07-21 11:44 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **191 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **194 tickets** so far (3.0% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **8** solved in last 24h
-- **191** tickets total since launch · contact rate **3%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (24 good / 0 bad)
+- **13** new tickets in last 24h · **10** solved in last 24h
+- **194** tickets total since launch · contact rate **3%** of 6500 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 43
-- **Median AHT**: 122.3h · mean 127.4h (proxy: updated_at − created_at, 146 solved tickets)
+- **Median AHT**: 122.5h · mean 127.6h (proxy: updated_at − created_at, 147 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"thundermailearlybird protonmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#6992](https://tbpro.zendesk.com/agent/tickets/6992), [#6997](https://tbpro.zendesk.com/agent/tickets/6997)
 - **"namecheap namecheap"** — 2 tickets in 24h (new; baseline 0 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#6978](https://tbpro.zendesk.com/agent/tickets/6978)
 
 ## Known problems — 3 problem(s), 7 incident(s)
@@ -52,10 +53,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · _refund susbcription (14 days trial)_
   > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
+- [6997](https://tbpro.zendesk.com/agent/tickets/6997) · [open] · _Cancel request 6992 and update my recovery email_
+  > Hello please cancel my request i keep the subcription, and please update my email into : [email] (old: [email]) thanks so much
 
 ## New ideas on FeatureOS
 
@@ -65,17 +68,18 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 146
+- **solved**: 147
 - **pending**: 26
-- **open**: 10
-- **hold**: 6
+- **open**: 12
+- **hold**: 5
 - **closed**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 92
-- **Account Hub**: 81
-- **Appointment**: 7
+- **Thundermail**: 93
+- **Account Hub**: 82
+- **Appointment**: 8
 - **Send**: 5
 
 ## Why × How (cumulative)
@@ -96,6 +100,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
@@ -115,12 +120,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#6999](https://tbpro.zendesk.com/agent/tickets/6999)** · Press plans
+  > Hi everyone! I run one of the largest tech blogs in Germany and have been reporting on Thunderbird and related software since the dawn of time. Would it be possible for you to…
+- **[#6996](https://tbpro.zendesk.com/agent/tickets/6996)** · unable to update avaiilability. 
+  > Whenever i click the link to update availability, it opens a new tab, but after making changes clicking the save button creates the message: "This link slug is already in use.…
 - **[#6990](https://tbpro.zendesk.com/agent/tickets/6990)** · Only yearly subscription? Not monthly?
   > At the moment, I cannot afford a yearly subscription. No monthly option?
 - **[#6981](https://tbpro.zendesk.com/agent/tickets/6981)** · Push notifications for Thundermail
   > Because there is no Thunderbird for iOS, I have to use Thundermail with the Apple Mail app. I have to manually check email. Please add support for push notifications. Still glad…
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#6997](https://tbpro.zendesk.com/agent/tickets/6997)** · Cancel request 6992 and update my recovery email
+  > Hello please cancel my request i keep the subcription, and please update my email into : [email] (old: [email]) thanks so much
+- **[#6992](https://tbpro.zendesk.com/agent/tickets/6992)** · refund susbcription (14 days trial)
+  > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
@@ -128,11 +144,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello! I am happy to be supporting thunderbird! I currently have my domains with namecheap and I have email on one of them. I see that namecheap has DKIM and Jellyfish spam…
 - **[#6977](https://tbpro.zendesk.com/agent/tickets/6977)** · Unable to Setup Custom Domain on Namecheap  — why: **blocked** · how: **explained**
   > Namecheap will not save DNS settings with: - Period as last character in CNAME - Period as last character in TXT These entries (if added without trailing period) show as "Record…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#6992](https://tbpro.zendesk.com/agent/tickets/6992)** · refund susbcription (14 days trial)
-  > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
 
 ### Webmail — 1 tickets
 
@@ -144,15 +155,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6982](https://tbpro.zendesk.com/agent/tickets/6982)** · i have no idea what my login name is
   > I don't know where on the registration page it was, but I really don't know what name I used to register. Apparently, though, I did register, because I received a link in my…
 
-### App setup / configuration — 1 tickets
-
-- **[#6980](https://tbpro.zendesk.com/agent/tickets/6980)** · filelink
-  > I can't seem to enable file link to work with the new thundermail account. When selecting link when composing the new email it takes you to the configuration screen where you add…
-
 ### Appointment / calendar — 1 tickets
 
 - **[#6979](https://tbpro.zendesk.com/agent/tickets/6979)** · CardDAV
   > Thrilled to have my new Thundermail address! I set it up to sync with my Apple calendar and contacts. Calendar works fine. The contacts sync, but the sync loses all of my contact…
+
+### App setup / configuration — 1 tickets
+
+- **[#6980](https://tbpro.zendesk.com/agent/tickets/6980)** · filelink — why: **blocked** · how: **informed**
+  > I can't seem to enable file link to work with the new thundermail account. When selecting link when composing the new email it takes you to the configuration screen where you add…
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -165,12 +176,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6977](https://tbpro.zendesk.com/agent/tickets/6977) · [pending] · 2026-07-21T00:05 · Unable to Setup Custom Domain on Namecheap 
 - [6978](https://tbpro.zendesk.com/agent/tickets/6978) · [open] · 2026-07-21T01:16 · DKIM and Jellyfish Spam filtering
 - [6979](https://tbpro.zendesk.com/agent/tickets/6979) · [open] · 2026-07-21T02:28 · CardDAV
-- [6980](https://tbpro.zendesk.com/agent/tickets/6980) · [open] · 2026-07-21T03:08 · filelink
+- [6980](https://tbpro.zendesk.com/agent/tickets/6980) · [pending] · 2026-07-21T03:08 · filelink
 - [6981](https://tbpro.zendesk.com/agent/tickets/6981) · [open] · 2026-07-21T03:20 · Push notifications for Thundermail
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
 - [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [open] · 2026-07-21T08:05 · Importing eml
 - [6990](https://tbpro.zendesk.com/agent/tickets/6990) · [open] · 2026-07-21T10:17 · Only yearly subscription? Not monthly?
 - [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · 2026-07-21T12:13 · refund susbcription (14 days trial)
+- [6996](https://tbpro.zendesk.com/agent/tickets/6996) · [open] · 2026-07-21T14:54 · unable to update avaiilability. 
+- [6997](https://tbpro.zendesk.com/agent/tickets/6997) · [open] · 2026-07-21T15:29 · Cancel request 6992 and update my recovery email
+- [6999](https://tbpro.zendesk.com/agent/tickets/6999) · [new] · 2026-07-21T15:42 · Press plans
 
 ## Solved — last 24h
 
@@ -182,6 +196,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-07-21T14:00 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 - · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-21T14:03 · My subscribe link is no longer working
 - · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-21T14:03 · Custom Domain: DKIM Not Properly Served by [domain]
+- · [6889](https://tbpro.zendesk.com/agent/tickets/6889) · 2026-07-21T15:02 · How to connect to my thunderbird calendar?
+- 👍 [6879](https://tbpro.zendesk.com/agent/tickets/6879) · 2026-07-21T15:31 · site for ios instructions from introducing email not found
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
