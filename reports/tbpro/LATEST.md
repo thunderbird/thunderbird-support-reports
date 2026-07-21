@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 01:15 ET** · refreshes hourly_  
+_Updated: **2026-07-21 03:03 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **189 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **190 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **1** solved in last 24h
-- **189** tickets total since launch · contact rate **3%** of 6500 invitees
+- **8** new tickets in last 24h · **2** solved in last 24h
+- **190** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 43
-- **Median AHT**: 122.0h · mean 123.6h (proxy: updated_at − created_at, 143 solved tickets)
+- **Median AHT**: 122.1h · mean 123.8h (proxy: updated_at − created_at, 144 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -64,9 +64,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 143
-- **pending**: 28
-- **open**: 9
+- **solved**: 144
+- **pending**: 27
+- **open**: 10
 - **hold**: 6
 - **closed**: 3
 
@@ -121,6 +121,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6977](https://tbpro.zendesk.com/agent/tickets/6977)** · Unable to Setup Custom Domain on Namecheap  — why: **blocked** · how: **explained**
   > Namecheap will not save DNS settings with: - Period as last character in CNAME - Period as last character in TXT These entries (if added without trailing period) show as "Record…
 
+### Pre-purchase / documentation gap — 1 tickets
+
+- **[#6984](https://tbpro.zendesk.com/agent/tickets/6984)** · Rust developer Job application
+  > Hello [name], I came across your job post for a Rust Developer, and it definitely looks like you’re building something pretty exciting. And let’s be honest — hiring good Rust…
+
 ### Account access issues — 1 tickets
 
 - **[#6982](https://tbpro.zendesk.com/agent/tickets/6982)** · i have no idea what my login name is
@@ -155,10 +160,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6980](https://tbpro.zendesk.com/agent/tickets/6980) · [open] · 2026-07-21T03:08 · filelink
 - [6981](https://tbpro.zendesk.com/agent/tickets/6981) · [open] · 2026-07-21T03:20 · Push notifications for Thundermail
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
+- [6984](https://tbpro.zendesk.com/agent/tickets/6984) · [open] · 2026-07-21T06:13 · Rust developer Job application
 
 ## Solved — last 24h
 
 - · [6606](https://tbpro.zendesk.com/agent/tickets/6606) · 2026-07-21T02:01 · Full day event displayed incorrectly for Thundermail calendar only
+- · [6864](https://tbpro.zendesk.com/agent/tickets/6864) · 2026-07-21T06:01 · Email alias - potential security and privacy issues
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
