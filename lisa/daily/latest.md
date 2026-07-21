@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 09:45 ET** · refreshes hourly_  
+_Updated: **2026-07-21 10:49 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **192 tickets** so far (3.0% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **191 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **2** solved in last 24h
-- **192** tickets total since launch · contact rate **3%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **10** new tickets in last 24h · **8** solved in last 24h
+- **191** tickets total since launch · contact rate **3%** of 6500 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 43
-- **Median AHT**: 122.0h · mean 122.8h (proxy: updated_at − created_at, 143 solved tickets)
+- **Median AHT**: 122.3h · mean 127.4h (proxy: updated_at − created_at, 146 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -65,16 +65,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 143
-- **pending**: 27
-- **open**: 13
+- **solved**: 146
+- **pending**: 26
+- **open**: 10
 - **hold**: 6
 - **closed**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 94
-- **Account Hub**: 80
+- **Thundermail**: 92
+- **Account Hub**: 81
 - **Appointment**: 7
 - **Send**: 5
 
@@ -82,14 +82,14 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 44
-- **blocked** + **explained**: 29
+- **curious** + **explained**: 43
+- **blocked** + **explained**: 28
 - **request** + **redirected**: 15
 - **blocked** + **investigated**: 12
+- **blocked** + **escalated**: 12
 - **change request** + **actioned**: 11
-- **blocked** + **escalated**: 10
 - **confused** + **explained**: 9
-- **blocked** + **actioned**: 5
+- **blocked** + **actioned**: 4
 - **blocked** + **—**: 3
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
@@ -97,9 +97,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **telling us** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -161,7 +161,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [6975](https://tbpro.zendesk.com/agent/tickets/6975) · [open] · 2026-07-20T20:29 · delete the account
+- [6975](https://tbpro.zendesk.com/agent/tickets/6975) · [solved] · 2026-07-20T20:29 · delete the account
 - [6977](https://tbpro.zendesk.com/agent/tickets/6977) · [pending] · 2026-07-21T00:05 · Unable to Setup Custom Domain on Namecheap 
 - [6978](https://tbpro.zendesk.com/agent/tickets/6978) · [open] · 2026-07-21T01:16 · DKIM and Jellyfish Spam filtering
 - [6979](https://tbpro.zendesk.com/agent/tickets/6979) · [open] · 2026-07-21T02:28 · CardDAV
@@ -176,6 +176,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [6606](https://tbpro.zendesk.com/agent/tickets/6606) · 2026-07-21T02:01 · Full day event displayed incorrectly for Thundermail calendar only
 - · [6864](https://tbpro.zendesk.com/agent/tickets/6864) · 2026-07-21T06:01 · Email alias - potential security and privacy issues
+- · [6849](https://tbpro.zendesk.com/agent/tickets/6849) · 2026-07-21T13:46 · cant use my invitation to signup
+- · [6975](https://tbpro.zendesk.com/agent/tickets/6975) · 2026-07-21T13:58 · delete the account
+- 👍 [6496](https://tbpro.zendesk.com/agent/tickets/6496) · 2026-07-21T13:59 · Custom Domain DKIM not working
+- · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-07-21T14:00 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+- · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-21T14:03 · My subscribe link is no longer working
+- · [6750](https://tbpro.zendesk.com/agent/tickets/6750) · 2026-07-21T14:03 · Custom Domain: DKIM Not Properly Served by [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
