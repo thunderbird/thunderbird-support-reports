@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 03:56 ET** · refreshes hourly_  
+_Updated: **2026-07-21 05:04 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **190 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **191 tickets** so far (2.9% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **2** solved in last 24h
-- **190** tickets total since launch · contact rate **3%** of 6500 invitees
+- **9** new tickets in last 24h · **2** solved in last 24h
+- **191** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 43
@@ -69,10 +69,11 @@ _(none in last 24h)_
 - **open**: 10
 - **hold**: 6
 - **closed**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Thundermail**: 92
+- **Thundermail**: 93
 - **Account Hub**: 79
 - **Appointment**: 7
 - **Send**: 5
@@ -121,6 +122,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6977](https://tbpro.zendesk.com/agent/tickets/6977)** · Unable to Setup Custom Domain on Namecheap  — why: **blocked** · how: **explained**
   > Namecheap will not save DNS settings with: - Period as last character in CNAME - Period as last character in TXT These entries (if added without trailing period) show as "Record…
 
+### Webmail — 1 tickets
+
+- **[#6987](https://tbpro.zendesk.com/agent/tickets/6987)** · Importing eml
+  > I have some backlog of emails from my own domain and I would like to import them to thundermail. They are all .eml files. I couldn't find a way to do so in webmail or in…
+
 ### Pre-purchase / documentation gap — 1 tickets
 
 - **[#6984](https://tbpro.zendesk.com/agent/tickets/6984)** · Rust developer Job application
@@ -161,6 +167,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6981](https://tbpro.zendesk.com/agent/tickets/6981) · [open] · 2026-07-21T03:20 · Push notifications for Thundermail
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
 - [6984](https://tbpro.zendesk.com/agent/tickets/6984) · [open] · 2026-07-21T06:13 · Rust developer Job application
+- [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [new] · 2026-07-21T08:05 · Importing eml
 
 ## Solved — last 24h
 
