@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 06:51 ET** · refreshes hourly_  
+_Updated: **2026-07-21 07:45 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -66,10 +66,9 @@ _(none in last 24h)_
 
 - **solved**: 143
 - **pending**: 27
-- **open**: 11
+- **open**: 12
 - **hold**: 6
 - **closed**: 3
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -164,7 +163,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6981](https://tbpro.zendesk.com/agent/tickets/6981) · [open] · 2026-07-21T03:20 · Push notifications for Thundermail
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [open] · 2026-07-21T05:13 · i have no idea what my login name is
 - [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [open] · 2026-07-21T08:05 · Importing eml
-- [6990](https://tbpro.zendesk.com/agent/tickets/6990) · [new] · 2026-07-21T10:17 · Only yearly subscription? Not monthly?
+- [6990](https://tbpro.zendesk.com/agent/tickets/6990) · [open] · 2026-07-21T10:17 · Only yearly subscription? Not monthly?
 
 ## Solved — last 24h
 
