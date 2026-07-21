@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-20
 
-_Updated: **2026-07-20 19:29 ET** · refreshes hourly_  
+_Updated: **2026-07-20 20:51 ET** · refreshes hourly_  
 _24h window: 2026-07-19T16:00 → 2026-07-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 29** of rollout — **6,500 invitees**, **184 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **12** solved in last 24h
+- **7** new tickets in last 24h · **12** solved in last 24h
 - **184** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 43
-- **Median AHT**: 121.9h · mean 120.0h (proxy: updated_at − created_at, 145 solved tickets)
+- **Median AHT**: 121.9h · mean 121.0h (proxy: updated_at − created_at, 143 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -54,7 +54,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · _Cancel_
+- [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [pending] · _Cancel_
   > Please cancel my account
 
 ## New ideas on FeatureOS
@@ -66,15 +66,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 145
-- **pending**: 30
+- **solved**: 143
+- **pending**: 31
 - **hold**: 6
-- **open**: 3
+- **open**: 2
+- **closed**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 88
-- **Account Hub**: 79
+- **Thundermail**: 89
+- **Account Hub**: 78
 - **Appointment**: 7
 - **Send**: 4
 
@@ -83,10 +84,10 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 44
-- **blocked** + **explained**: 28
+- **blocked** + **explained**: 29
 - **request** + **redirected**: 15
-- **change request** + **actioned**: 12
 - **blocked** + **investigated**: 12
+- **change request** + **actioned**: 11
 - **blocked** + **escalated**: 10
 - **confused** + **explained**: 9
 - **blocked** + **actioned**: 5
@@ -129,11 +130,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#6962](https://tbpro.zendesk.com/agent/tickets/6962)** · Bug?
   > I downloaded the Thundermail client for linux, and tried to log in with my thundermail account. Entering my name, email, and password seems to be fine after I click "Continue",…
 
-### Refund / Cancel — 1 tickets
-
-- **[#6967](https://tbpro.zendesk.com/agent/tickets/6967)** · Cancel — why: **change request** · how: **actioned**
-  > Please cancel my account
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#6973](https://tbpro.zendesk.com/agent/tickets/6973)** · Domain settings — why: **blocked** · how: **explained**
@@ -155,7 +151,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6958](https://tbpro.zendesk.com/agent/tickets/6958) · [pending] · 2026-07-20T07:00 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 - [6962](https://tbpro.zendesk.com/agent/tickets/6962) · [pending] · 2026-07-20T14:05 · Bug?
 - [6964](https://tbpro.zendesk.com/agent/tickets/6964) · [pending] · 2026-07-20T15:28 · How to filter mails to be put in given folder? 
-- [6967](https://tbpro.zendesk.com/agent/tickets/6967) · [open] · 2026-07-20T16:42 · Cancel
 - [6969](https://tbpro.zendesk.com/agent/tickets/6969) · [pending] · 2026-07-20T17:28 · Zoom Integration
 - [6972](https://tbpro.zendesk.com/agent/tickets/6972) · [pending] · 2026-07-20T18:39 · Email aliases, catch all and general use of domain names
 - [6973](https://tbpro.zendesk.com/agent/tickets/6973) · [pending] · 2026-07-20T19:09 · Domain settings
