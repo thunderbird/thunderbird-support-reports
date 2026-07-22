@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 10:49 ET** · refreshes hourly_  
+_Updated: **2026-07-22 11:44 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **220 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **221 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **10** solved in last 24h
-- **220** tickets total since launch · contact rate **3%** of 6500 invitees
+- **19** new tickets in last 24h · **13** solved in last 24h
+- **221** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 123.0h · mean 127.9h (proxy: updated_at − created_at, 159 solved tickets)
+- **Median AHT**: 122.8h · mean 128.2h (proxy: updated_at − created_at, 160 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -64,10 +64,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 159
-- **pending**: 38
-- **open**: 12
-- **hold**: 6
+- **solved**: 160
+- **pending**: 37
+- **open**: 14
+- **hold**: 5
 - **closed**: 5
 
 ## Service (cumulative)
@@ -85,8 +85,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 31
 - **request** + **redirected**: 17
 - **change request** + **actioned**: 13
-- **blocked** + **investigated**: 12
 - **blocked** + **escalated**: 12
+- **blocked** + **investigated**: 12
 - **confused** + **explained**: 9
 - **blocked** + **actioned**: 5
 - **blocked** + **—**: 4
@@ -119,8 +119,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#7051](https://tbpro.zendesk.com/agent/tickets/7051)** · Test Tickets
+  > Test test test test test
 - **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
   > Instlalation works automaticly but does not authenticate.
 - **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
@@ -211,6 +213,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7045](https://tbpro.zendesk.com/agent/tickets/7045) · [pending] · 2026-07-22T13:00 · Service testing
 - [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [open] · 2026-07-22T13:58 · changing the original gmail address to a different address
 - [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [open] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
+- [7051](https://tbpro.zendesk.com/agent/tickets/7051) · [open] · 2026-07-22T15:17 · Test Tickets
 
 ## Solved — last 24h
 
@@ -224,6 +227,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6913](https://tbpro.zendesk.com/agent/tickets/6913) · 2026-07-22T04:01 · alias folder???
 - · [7018](https://tbpro.zendesk.com/agent/tickets/7018) · 2026-07-22T13:23 · Cost
 - · [6975](https://tbpro.zendesk.com/agent/tickets/6975) · 2026-07-22T14:01 · delete the account
+- · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-07-22T15:01 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+- · [6922](https://tbpro.zendesk.com/agent/tickets/6922) · 2026-07-22T15:01 · domain name
+- · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-22T15:01 · My subscribe link is no longer working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
