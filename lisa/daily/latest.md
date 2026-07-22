@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 15:39 ET** · refreshes hourly_  
+_Updated: **2026-07-22 16:34 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -65,33 +65,33 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 157
-- **pending**: 39
-- **open**: 10
+- **pending**: 41
 - **closed**: 9
+- **open**: 8
 - **hold**: 7
 
 ## Service (cumulative)
 
-- **Thundermail**: 105
+- **Thundermail**: 107
 - **Account Hub**: 94
-- **Appointment**: 10
-- **Send**: 7
+- **Appointment**: 9
+- **Send**: 6
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 53
+- **curious** + **explained**: 54
 - **blocked** + **explained**: 33
 - **request** + **redirected**: 17
 - **change request** + **actioned**: 13
-- **blocked** + **escalated**: 12
 - **blocked** + **investigated**: 12
+- **blocked** + **escalated**: 12
 - **confused** + **explained**: 9
 - **blocked** + **actioned**: 5
 - **blocked** + **—**: 4
+- **concerned** + **explained**: 4
 - **request** + **actioned**: 3
-- **concerned** + **explained**: 3
 - **curious** + **informed**: 2
 - **request** + **explained**: 2
 - **blocked** + **redirected**: 2
@@ -123,12 +123,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
   > Instlalation works automaticly but does not authenticate.
-- **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
-  > Hi, is there any way to use thundermail account as email realying? Currently I'm using my own email server with Mailjet sending service. I'd be interested in email relaying…
 - **[#7053](https://tbpro.zendesk.com/agent/tickets/7053)** · Thundermail: Account refunded and canceled, purge queue
   > Add finalized Thundermail refunds and cancellations to this new KP.
 - **[#7041](https://tbpro.zendesk.com/agent/tickets/7041)** · JMAP support and other queries — why: **curious** · how: **explained**
   > Hi, How do I configure Thunderbird to use JMAP with Thundermail? What options would I select in Thunderbird to configure this? In addition, is it possible to have self-filtering…
+- **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying — why: **curious** · how: **explained**
+  > Hi, is there any way to use thundermail account as email realying? Currently I'm using my own email server with Mailjet sending service. I'd be interested in email relaying…
 - **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
   > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
 
@@ -163,11 +163,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7050](https://tbpro.zendesk.com/agent/tickets/7050)** · Folder showing in webmail but not Thunderbird
   > Tried to create a folder for my Thundermail account in Thunderbird v153.0. Nothing happened. When I open Thundermail webmail, the folder is there. Can't do anything yet in webmail…
 
-### App setup / configuration — 1 tickets
-
-- **[#7031](https://tbpro.zendesk.com/agent/tickets/7031)** · forwarding
-  > Hi. How can I set up forwarding from my new Thundermail account to another email address of mine?
-
 ### Appointment / calendar — 1 tickets
 
 - **[#7022](https://tbpro.zendesk.com/agent/tickets/7022)** · Zoom meeting integration in Calendar — why: **curious** · how: **explained**
@@ -182,6 +177,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7033](https://tbpro.zendesk.com/agent/tickets/7033)** · FEEDBACK: Sign in with username instead of email — why: **request** · how: **redirected**
   > In the event of a data breach that reveals the account email, you should allow users to log in with a separate username instead of using the Thundermail email address as the main…
+
+### App setup / configuration — 1 tickets
+
+- **[#7031](https://tbpro.zendesk.com/agent/tickets/7031)** · forwarding
+  > Hi. How can I set up forwarding from my new Thundermail account to another email address of mine?
 
 ### Aliases — 1 tickets
 
@@ -208,9 +208,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7026](https://tbpro.zendesk.com/agent/tickets/7026) · [pending] · 2026-07-21T22:14 · Three-character restriction is unfortunate for custom domains
 - [7029](https://tbpro.zendesk.com/agent/tickets/7029) · [pending] · 2026-07-21T23:46 · Unable to signup to [domain] domain
 - [7030](https://tbpro.zendesk.com/agent/tickets/7030) · [solved] · 2026-07-22T00:40 · Email Sign Up
-- [7031](https://tbpro.zendesk.com/agent/tickets/7031) · [open] · 2026-07-22T02:26 · forwarding
+- [7031](https://tbpro.zendesk.com/agent/tickets/7031) · [pending] · 2026-07-22T02:26 · forwarding
 - [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [solved] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
-- [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [open] · 2026-07-22T06:29 · email relaying
+- [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [pending] · 2026-07-22T06:29 · email relaying
 - [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [pending] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
 - [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [open] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
 - [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [open] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
