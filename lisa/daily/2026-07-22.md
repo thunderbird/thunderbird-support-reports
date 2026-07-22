@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 12:40 ET** · refreshes hourly_  
+_Updated: **2026-07-22 13:39 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **221 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **222 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **13** solved in last 24h
-- **221** tickets total since launch · contact rate **3%** of 6500 invitees
+- **20** new tickets in last 24h · **13** solved in last 24h
+- **222** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 123.1h · mean 129.4h (proxy: updated_at − created_at, 158 solved tickets)
+- **Median AHT**: 123.1h · mean 130.0h (proxy: updated_at − created_at, 157 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -57,23 +57,23 @@ _No negative ratings since launch._
 
 **Last 24h** — 2 new:
 
-- [Username as login instead of account email](https://ideas.tb.pro/p/username-as-login-instead-of-account-email) · 1 votes · _untagged_
+- [Username as login instead of account email](https://ideas.tb.pro/p/username-as-login-instead-of-account-email) · 2 votes · _untagged_
   > In the event of a data breach that reveals the account email, you should allow users to log in with a random username instead of using the email address as the main login.For example, the login would…
-- [Appointment: Dashboard calendars should honor colors in settings](https://ideas.tb.pro/p/appointment-dashboard-calendars-should-honor-colors-in-settings) · 1 votes · _untagged_
+- [Appointment: Dashboard calendars should honor colors in settings](https://ideas.tb.pro/p/appointment-dashboard-calendars-should-honor-colors-in-settings) · 2 votes · _untagged_
   > What you’d like to seeThe dashboard at https://appointment.tb.pro/dashboard should use the CalDAV per-calendar colors set in the “Connected Applications” settings at…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 158
+- **solved**: 157
 - **pending**: 40
 - **open**: 10
-- **closed**: 7
-- **hold**: 6
+- **closed**: 8
+- **hold**: 7
 
 ## Service (cumulative)
 
 - **Thundermail**: 105
-- **Account Hub**: 93
+- **Account Hub**: 94
 - **Appointment**: 10
 - **Send**: 7
 
@@ -119,12 +119,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
 - **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
   > Instlalation works automaticly but does not authenticate.
 - **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
   > Hi, is there any way to use thundermail account as email realying? Currently I'm using my own email server with Mailjet sending service. I'd be interested in email relaying…
+- **[#7053](https://tbpro.zendesk.com/agent/tickets/7053)** · Thundermail: Account refunded and canceled, purge queue
+  > Add finalized Thundermail refunds and cancellations to this new KP.
 - **[#7041](https://tbpro.zendesk.com/agent/tickets/7041)** · JMAP support and other queries — why: **curious** · how: **explained**
   > Hi, How do I configure Thunderbird to use JMAP with Thundermail? What options would I select in Thunderbird to configure this? In addition, is it possible to have self-filtering…
 - **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
@@ -217,6 +219,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [pending] · 2026-07-22T13:58 · changing the original gmail address to a different address
 - [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [open] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
 - [7052](https://tbpro.zendesk.com/agent/tickets/7052) · [open] · 2026-07-22T16:30 · Please delete account
+- [7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · 2026-07-22T16:48 · Thundermail: Account refunded and canceled, purge queue
 
 ## Solved — last 24h
 
