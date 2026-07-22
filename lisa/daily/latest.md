@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 20:50 ET** · refreshes hourly_  
+_Updated: **2026-07-21 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -68,7 +68,7 @@ _No negative ratings since launch._
   > Thundermail is being flagged as spam by Gmail. For the price of this service that is unacceptable. I would like to request a refund
 - [7010](https://tbpro.zendesk.com/agent/tickets/7010) · [open] · _Cancel_
   > Hi, I would like to cancel/close my account and get a refund please? I have tried and tested the service but sadly it is not for me. Thanks for your help.
-- [7027](https://tbpro.zendesk.com/agent/tickets/7027) · [new] · _Closure of my account and refund_
+- [7027](https://tbpro.zendesk.com/agent/tickets/7027) · [open] · _Closure of my account and refund_
   > After trying out the available features in thundermail, I have decided that I don't want to participate in the early bird program, I would like to request a refund and close my account
 
 ## New ideas on FeatureOS
@@ -85,11 +85,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 157
-- **pending**: 30
+- **pending**: 31
 - **open**: 14
 - **hold**: 6
-- **new**: 3
 - **closed**: 3
+- **new**: 2
 
 ## Service (cumulative)
 
