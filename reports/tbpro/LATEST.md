@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 17:34 ET** · refreshes hourly_  
+_Updated: **2026-07-22 18:31 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **224 tickets** so far
 - **20** new tickets in last 24h · **14** solved in last 24h
 - **224** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (26 good / 0 bad)
+- **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 123.1h · mean 130.2h (proxy: updated_at − created_at, 157 solved tickets)
+- **Median AHT**: 123.3h · mean 130.9h (proxy: updated_at − created_at, 156 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -64,11 +64,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 157
-- **pending**: 46
-- **closed**: 9
+- **solved**: 156
+- **pending**: 45
+- **closed**: 10
 - **hold**: 7
-- **open**: 5
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -87,10 +87,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 13
 - **blocked** + **escalated**: 12
 - **blocked** + **investigated**: 12
-- **confused** + **explained**: 9
+- **confused** + **explained**: 10
 - **blocked** + **actioned**: 5
-- **blocked** + **—**: 4
 - **concerned** + **explained**: 4
+- **blocked** + **—**: 4
 - **request** + **actioned**: 3
 - **curious** + **informed**: 2
 - **request** + **explained**: 2
@@ -132,19 +132,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
   > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
 
-### Pricing — wanted free / monthly plan — 2 tickets
-
-- **[#7045](https://tbpro.zendesk.com/agent/tickets/7045)** · Service testing — why: **curious** · how: **explained**
-  > Is there possibility to test service without paying?
-- **[#7037](https://tbpro.zendesk.com/agent/tickets/7037)** · Re: Reminder: You're Invited to the Thundermail Early Bird — why: **curious** · how: **explained**
-  > Your support form is giving me CSRF errors. Not sure if this will react anyone though, but my feedback was that I'm not interested in paying €72 to see if a new production might…
-
 ### Account creation / signup confusion — 2 tickets
 
 - **[#7039](https://tbpro.zendesk.com/agent/tickets/7039)** · new paid subscriber for thundermail, but the thunderbird windows client wont sign in — why: **blocked** · how: **explained**
   > Hi, my user email is [email] but when I install the Thunderbird Windows-based client app (from the day I paid the $72 and also now with the 7/21 version 153.0 64-bit Windows), I…
 - **[#7030](https://tbpro.zendesk.com/agent/tickets/7030)** · Email Sign Up — why: **curious** · how: **explained**
   > I followed the link and it would not let me select [domain] as my domain. I signed up using [domain] thinking it was meant to change after but now I don't see how. I really would…
+
+### Pricing — wanted free / monthly plan — 2 tickets
+
+- **[#7045](https://tbpro.zendesk.com/agent/tickets/7045)** · Service testing — why: **curious** · how: **explained**
+  > Is there possibility to test service without paying?
+- **[#7037](https://tbpro.zendesk.com/agent/tickets/7037)** · Re: Reminder: You're Invited to the Thundermail Early Bird — why: **curious** · how: **explained**
+  > Your support form is giving me CSRF errors. Not sure if this will react anyone though, but my feedback was that I'm not interested in paying €72 to see if a new production might…
 
 ### Early bird / invite / waitlist — 2 tickets
 
@@ -212,7 +212,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [solved] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
 - [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [pending] · 2026-07-22T06:29 · email relaying
 - [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [pending] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
-- [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [pending] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
+- [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [open] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
 - [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [pending] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
 - [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [pending] · 2026-07-22T10:02 · JMAP support and other queries
 - [7045](https://tbpro.zendesk.com/agent/tickets/7045) · [pending] · 2026-07-22T13:00 · Service testing
