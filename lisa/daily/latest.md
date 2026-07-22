@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 11:44 ET** · refreshes hourly_  
+_Updated: **2026-07-22 12:40 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **221 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 122.8h · mean 128.2h (proxy: updated_at − created_at, 160 solved tickets)
+- **Median AHT**: 123.1h · mean 129.4h (proxy: updated_at − created_at, 158 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -64,15 +64,15 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 160
-- **pending**: 37
-- **open**: 14
-- **hold**: 5
-- **closed**: 5
+- **solved**: 158
+- **pending**: 40
+- **open**: 10
+- **closed**: 7
+- **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 104
+- **Thundermail**: 105
 - **Account Hub**: 93
 - **Appointment**: 10
 - **Send**: 7
@@ -82,7 +82,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 53
-- **blocked** + **explained**: 31
+- **blocked** + **explained**: 33
 - **request** + **redirected**: 17
 - **change request** + **actioned**: 13
 - **blocked** + **escalated**: 12
@@ -97,13 +97,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **change request** + **investigated**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
+- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
@@ -119,10 +119,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 4 tickets
 
-- **[#7051](https://tbpro.zendesk.com/agent/tickets/7051)** · Test Tickets
-  > Test test test test test
 - **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
   > Instlalation works automaticly but does not authenticate.
 - **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
@@ -153,25 +151,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7020](https://tbpro.zendesk.com/agent/tickets/7020)** · European servers — why: **curious** · how: **explained**
   > Hi, thank you for the invitation to join thundermail. I am minded to continue with the subscription but have a question I would value your opinion on. I note that your servers are…
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#7052](https://tbpro.zendesk.com/agent/tickets/7052)** · Please delete account
+  > Please delete account
+
 ### Webmail — 1 tickets
 
 - **[#7050](https://tbpro.zendesk.com/agent/tickets/7050)** · Folder showing in webmail but not Thunderbird
   > Tried to create a folder for my Thundermail account in Thunderbird v153.0. Nothing happened. When I open Thundermail webmail, the folder is there. Can't do anything yet in webmail…
-
-### Account access issues — account recovery — 1 tickets
-
-- **[#7049](https://tbpro.zendesk.com/agent/tickets/7049)** · changing the original gmail address to a different address — why: **blocked** · how: **actioned**
-  > Hello [name]. I just signed up a few hours ago and so far so good. How would I be able to change the gmail address that I signed up to receive the invite to my Proton address? Is…
 
 ### App setup / configuration — 1 tickets
 
 - **[#7031](https://tbpro.zendesk.com/agent/tickets/7031)** · forwarding
   > Hi. How can I set up forwarding from my new Thundermail account to another email address of mine?
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Account access issues — account recovery — 1 tickets
 
-- **[#7023](https://tbpro.zendesk.com/agent/tickets/7023)** · Issues mapping DNS entries to Go Daddy
-  > The DNS records provided don't contain all the information needed to set this up on Go Daddy. I've attached an example of what I'm being asking for on Go Daddy. _jmap doesn't seem…
+- **[#7049](https://tbpro.zendesk.com/agent/tickets/7049)** · changing the original gmail address to a different address — why: **blocked** · how: **actioned**
+  > Hello [name]. I just signed up a few hours ago and so far so good. How would I be able to change the gmail address that I signed up to receive the invite to my Proton address? Is…
 
 ### Security / hacked — 1 tickets
 
@@ -188,6 +186,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7025](https://tbpro.zendesk.com/agent/tickets/7025)** · tHUNDERBIRD FOR aNDROID — why: **curious** · how: **informed**
   > I added the account to my Android Thunderbird account (on a Pixel 9 Pro). I'm not able to send mail because it asked for a "sent folder" which I can't seem to find. There seems to…
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7023](https://tbpro.zendesk.com/agent/tickets/7023)** · Issues mapping DNS entries to Go Daddy — why: **blocked** · how: **explained**
+  > The DNS records provided don't contain all the information needed to set this up on Go Daddy. I've attached an example of what I'm being asking for on Go Daddy. _jmap doesn't seem…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#7022](https://tbpro.zendesk.com/agent/tickets/7022)** · Zoom meeting integration in Calendar — why: **curious** · how: **explained**
@@ -198,7 +201,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7019](https://tbpro.zendesk.com/agent/tickets/7019) · [pending] · 2026-07-21T20:21 · Thunderbird Pro (addon) Send problems
 - [7020](https://tbpro.zendesk.com/agent/tickets/7020) · [solved] · 2026-07-21T20:33 · European servers
 - [7022](https://tbpro.zendesk.com/agent/tickets/7022) · [pending] · 2026-07-21T21:33 · Zoom meeting integration in Calendar
-- [7023](https://tbpro.zendesk.com/agent/tickets/7023) · [open] · 2026-07-21T21:44 · Issues mapping DNS entries to Go Daddy
+- [7023](https://tbpro.zendesk.com/agent/tickets/7023) · [pending] · 2026-07-21T21:44 · Issues mapping DNS entries to Go Daddy
 - [7025](https://tbpro.zendesk.com/agent/tickets/7025) · [pending] · 2026-07-21T22:10 · tHUNDERBIRD FOR aNDROID
 - [7026](https://tbpro.zendesk.com/agent/tickets/7026) · [pending] · 2026-07-21T22:14 · Three-character restriction is unfortunate for custom domains
 - [7029](https://tbpro.zendesk.com/agent/tickets/7029) · [pending] · 2026-07-21T23:46 · Unable to signup to [domain] domain
@@ -211,9 +214,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [open] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
 - [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [pending] · 2026-07-22T10:02 · JMAP support and other queries
 - [7045](https://tbpro.zendesk.com/agent/tickets/7045) · [pending] · 2026-07-22T13:00 · Service testing
-- [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [open] · 2026-07-22T13:58 · changing the original gmail address to a different address
+- [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [pending] · 2026-07-22T13:58 · changing the original gmail address to a different address
 - [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [open] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
-- [7051](https://tbpro.zendesk.com/agent/tickets/7051) · [open] · 2026-07-22T15:17 · Test Tickets
+- [7052](https://tbpro.zendesk.com/agent/tickets/7052) · [open] · 2026-07-22T16:30 · Please delete account
 
 ## Solved — last 24h
 
