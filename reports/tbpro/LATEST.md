@@ -1,28 +1,28 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 19:29 ET** · refreshes hourly_  
+_Updated: **2026-07-21 20:50 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **211 tickets** so far (3.2% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **213 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **23** new tickets in last 24h · **16** solved in last 24h
-- **211** tickets total since launch · contact rate **3%** of 6500 invitees
+- **213** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 47
-- **Median AHT**: 122.8h · mean 128.9h (proxy: updated_at − created_at, 156 solved tickets)
+- **Median AHT**: 122.6h · mean 128.1h (proxy: updated_at − created_at, 157 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"click link"** — 2 tickets in 24h (new; baseline 0 cum) — [#6996](https://tbpro.zendesk.com/agent/tickets/6996), [#7015](https://tbpro.zendesk.com/agent/tickets/7015)
-- **"open blank"** — 2 tickets in 24h (new; baseline 0 cum) — [#7000](https://tbpro.zendesk.com/agent/tickets/7000), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
 - **"blank page"** — 2 tickets in 24h (new; baseline 0 cum) — [#7008](https://tbpro.zendesk.com/agent/tickets/7008), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
+- **"open blank"** — 2 tickets in 24h (new; baseline 0 cum) — [#7000](https://tbpro.zendesk.com/agent/tickets/7000), [#7014](https://tbpro.zendesk.com/agent/tickets/7014)
 - **"namecheap namecheap"** — 2 tickets in 24h (new; baseline 0 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#6978](https://tbpro.zendesk.com/agent/tickets/6978)
 - **"priority weight"** — 2 tickets in 24h (58.0× baseline; baseline 1 cum) — [#6977](https://tbpro.zendesk.com/agent/tickets/6977), [#7012](https://tbpro.zendesk.com/agent/tickets/7012)
 
@@ -58,9 +58,9 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 6
 
-- [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · _refund susbcription (14 days trial)_
+- [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [pending] · _refund susbcription (14 days trial)_
   > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
-- [6997](https://tbpro.zendesk.com/agent/tickets/6997) · [open] · _Cancel request 6992 and update my recovery email_
+- [6997](https://tbpro.zendesk.com/agent/tickets/6997) · [pending] · _Cancel request 6992 and update my recovery email_
   > Hello please cancel my request i keep the subcription, and please update my email into : [email] (old: [email]) thanks so much
 - [7006](https://tbpro.zendesk.com/agent/tickets/7006) · [pending] · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   > I am writing to formally request a full refund and permanent deletion of my account, along with all associated data. I subscribed to the Thundermail annual plan earlier today (July 22, 2026). However, after careful…
@@ -84,8 +84,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 156
-- **pending**: 29
+- **solved**: 157
+- **pending**: 30
 - **open**: 14
 - **hold**: 6
 - **new**: 3
@@ -94,7 +94,7 @@ _No negative ratings since launch._
 ## Service (cumulative)
 
 - **Thundermail**: 99
-- **Account Hub**: 89
+- **Account Hub**: 91
 - **Appointment**: 9
 - **Send**: 6
 
@@ -103,7 +103,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 46
-- **blocked** + **explained**: 30
+- **blocked** + **explained**: 31
 - **request** + **redirected**: 16
 - **change request** + **actioned**: 13
 - **blocked** + **investigated**: 12
@@ -118,12 +118,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **telling us** + **informed**: 1
+- **change request** + **investigated**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
-- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
@@ -164,7 +164,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 3 tickets
 
-- **[#7012](https://tbpro.zendesk.com/agent/tickets/7012)** · Minor DNS record hiccup
+- **[#7012](https://tbpro.zendesk.com/agent/tickets/7012)** · Minor DNS record hiccup — why: **blocked** · how: **explained**
   > My DNS provider (digitalocean) doesn't allow me to set the specific format that thundermail requests. It explicitly sets priority and weight which causes the verification to warn.…
 - **[#6978](https://tbpro.zendesk.com/agent/tickets/6978)** · DKIM and Jellyfish Spam filtering
   > Hello! I am happy to be supporting thunderbird! I currently have my domains with namecheap and I have email on one of them. I see that namecheap has DKIM and Jellyfish spam…
@@ -187,10 +187,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Refund / Cancel — 2 tickets
 
-- **[#6992](https://tbpro.zendesk.com/agent/tickets/6992)** · refund susbcription (14 days trial) — why: **change request** · how: **actioned**
-  > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
 - **[#7017](https://tbpro.zendesk.com/agent/tickets/7017)** · Please close my account — why: **change request** · how: **actioned**
   > I opened the account this morning but would now like to close it as i don;t think it meets my needs. I understand as i'm in the UK that i will receive a refund of my initial…
+- **[#6992](https://tbpro.zendesk.com/agent/tickets/6992)** · refund susbcription (14 days trial) — why: **change request** · how: **actioned**
+  > Hello, after reflexion, i ask a refund request for my subscription (and deletion request) ([email] paddle invoice) thanks very much txn_01ky21gqmv15cn7r87v7sgvmxt
 
 ### Pricing — annual-only inquiry — 2 tickets
 
@@ -230,7 +230,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [6982](https://tbpro.zendesk.com/agent/tickets/6982) · [pending] · 2026-07-21T05:13 · i have no idea what my login name is
 - [6987](https://tbpro.zendesk.com/agent/tickets/6987) · [pending] · 2026-07-21T08:05 · Importing eml
 - [6990](https://tbpro.zendesk.com/agent/tickets/6990) · [pending] · 2026-07-21T10:17 · Only yearly subscription? Not monthly?
-- [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [open] · 2026-07-21T12:13 · refund susbcription (14 days trial)
+- [6992](https://tbpro.zendesk.com/agent/tickets/6992) · [pending] · 2026-07-21T12:13 · refund susbcription (14 days trial)
 - [6996](https://tbpro.zendesk.com/agent/tickets/6996) · [pending] · 2026-07-21T14:54 · unable to update avaiilability. 
 - [6999](https://tbpro.zendesk.com/agent/tickets/6999) · [pending] · 2026-07-21T15:42 · Press plans
 - [7000](https://tbpro.zendesk.com/agent/tickets/7000) · [pending] · 2026-07-21T15:49 · Can't login in thunderbird
@@ -238,7 +238,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7008](https://tbpro.zendesk.com/agent/tickets/7008) · [open] · 2026-07-21T17:17 · cannot connect agenda and email account thunderbird show a blank page 
 - [7010](https://tbpro.zendesk.com/agent/tickets/7010) · [open] · 2026-07-21T17:27 · Cancel
 - [7011](https://tbpro.zendesk.com/agent/tickets/7011) · [open] · 2026-07-21T18:16 · Subdomain addressing
-- [7012](https://tbpro.zendesk.com/agent/tickets/7012) · [open] · 2026-07-21T18:23 · Minor DNS record hiccup
+- [7012](https://tbpro.zendesk.com/agent/tickets/7012) · [pending] · 2026-07-21T18:23 · Minor DNS record hiccup
 - [7014](https://tbpro.zendesk.com/agent/tickets/7014) · [open] · 2026-07-21T18:48 · Impossible to sync thundermail calendar with Thunderbird 140ESR AND 152
 - [7015](https://tbpro.zendesk.com/agent/tickets/7015) · [open] · 2026-07-21T19:01 · I'm unable to sign up for Thundermail with an invitation
 - [7016](https://tbpro.zendesk.com/agent/tickets/7016) · [pending] · 2026-07-21T19:14 · Monthly subscription
