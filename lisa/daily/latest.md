@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-21
 
-_Updated: **2026-07-21 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-21 23:14 ET** · refreshes hourly_  
 _24h window: 2026-07-20T16:00 → 2026-07-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 30** of rollout — **6,500 invitees**, **213 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 30** of rollout — **6,500 invitees**, **215 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **23** new tickets in last 24h · **16** solved in last 24h
-- **213** tickets total since launch · contact rate **3%** of 6500 invitees
+- **215** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 47
-- **Median AHT**: 122.6h · mean 128.1h (proxy: updated_at − created_at, 157 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 48
+- **Median AHT**: 122.6h · mean 127.3h (proxy: updated_at − created_at, 159 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -84,16 +84,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 157
-- **pending**: 31
-- **open**: 14
+- **solved**: 159
+- **pending**: 32
+- **open**: 13
 - **hold**: 6
 - **closed**: 3
 - **new**: 2
 
 ## Service (cumulative)
 
-- **Thundermail**: 99
+- **Thundermail**: 101
 - **Account Hub**: 91
 - **Appointment**: 9
 - **Send**: 6
@@ -102,7 +102,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 46
+- **curious** + **explained**: 49
 - **blocked** + **explained**: 31
 - **request** + **redirected**: 16
 - **change request** + **actioned**: 13
