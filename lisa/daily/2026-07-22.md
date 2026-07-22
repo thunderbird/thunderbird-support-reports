@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 14:35 ET** · refreshes hourly_  
+_Updated: **2026-07-22 15:39 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **222 tickets** so far
 
 ## At a glance
 
-- **20** new tickets in last 24h · **13** solved in last 24h
+- **20** new tickets in last 24h · **15** solved in last 24h
 - **222** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 123.3h · mean 130.6h (proxy: updated_at − created_at, 156 solved tickets)
+- **Median AHT**: 123.1h · mean 130.1h (proxy: updated_at − created_at, 157 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -64,8 +64,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 156
-- **pending**: 40
+- **solved**: 157
+- **pending**: 39
 - **open**: 10
 - **closed**: 9
 - **hold**: 7
@@ -168,6 +168,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7031](https://tbpro.zendesk.com/agent/tickets/7031)** · forwarding
   > Hi. How can I set up forwarding from my new Thundermail account to another email address of mine?
 
+### Appointment / calendar — 1 tickets
+
+- **[#7022](https://tbpro.zendesk.com/agent/tickets/7022)** · Zoom meeting integration in Calendar — why: **curious** · how: **explained**
+  > Zoom meeting integration in Calendar
+
 ### Account access issues — account recovery — 1 tickets
 
 - **[#7049](https://tbpro.zendesk.com/agent/tickets/7049)** · changing the original gmail address to a different address — why: **blocked** · how: **actioned**
@@ -193,23 +198,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7023](https://tbpro.zendesk.com/agent/tickets/7023)** · Issues mapping DNS entries to Go Daddy — why: **blocked** · how: **explained**
   > The DNS records provided don't contain all the information needed to set this up on Go Daddy. I've attached an example of what I'm being asking for on Go Daddy. _jmap doesn't seem…
 
-### Appointment / calendar — 1 tickets
-
-- **[#7022](https://tbpro.zendesk.com/agent/tickets/7022)** · Zoom meeting integration in Calendar — why: **curious** · how: **explained**
-  > Zoom meeting integration in Calendar
-
 ## New tickets — last 24h
 
 - [7019](https://tbpro.zendesk.com/agent/tickets/7019) · [pending] · 2026-07-21T20:21 · Thunderbird Pro (addon) Send problems
 - [7020](https://tbpro.zendesk.com/agent/tickets/7020) · [solved] · 2026-07-21T20:33 · European servers
-- [7022](https://tbpro.zendesk.com/agent/tickets/7022) · [pending] · 2026-07-21T21:33 · Zoom meeting integration in Calendar
+- [7022](https://tbpro.zendesk.com/agent/tickets/7022) · [open] · 2026-07-21T21:33 · Zoom meeting integration in Calendar
 - [7023](https://tbpro.zendesk.com/agent/tickets/7023) · [pending] · 2026-07-21T21:44 · Issues mapping DNS entries to Go Daddy
 - [7025](https://tbpro.zendesk.com/agent/tickets/7025) · [pending] · 2026-07-21T22:10 · tHUNDERBIRD FOR aNDROID
 - [7026](https://tbpro.zendesk.com/agent/tickets/7026) · [pending] · 2026-07-21T22:14 · Three-character restriction is unfortunate for custom domains
 - [7029](https://tbpro.zendesk.com/agent/tickets/7029) · [pending] · 2026-07-21T23:46 · Unable to signup to [domain] domain
 - [7030](https://tbpro.zendesk.com/agent/tickets/7030) · [solved] · 2026-07-22T00:40 · Email Sign Up
 - [7031](https://tbpro.zendesk.com/agent/tickets/7031) · [open] · 2026-07-22T02:26 · forwarding
-- [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [pending] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
+- [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [solved] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
 - [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [open] · 2026-07-22T06:29 · email relaying
 - [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [pending] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
 - [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [open] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
@@ -236,6 +236,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-07-22T15:01 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 - · [6922](https://tbpro.zendesk.com/agent/tickets/6922) · 2026-07-22T15:01 · domain name
 - · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-22T15:01 · My subscribe link is no longer working
+- · [6940](https://tbpro.zendesk.com/agent/tickets/6940) · 2026-07-22T19:02 · Help setting DNS records
+- · [7033](https://tbpro.zendesk.com/agent/tickets/7033) · 2026-07-22T19:02 · FEEDBACK: Sign in with username instead of email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
