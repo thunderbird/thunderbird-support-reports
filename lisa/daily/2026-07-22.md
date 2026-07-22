@@ -1,28 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 09:45 ET** · refreshes hourly_  
+_Updated: **2026-07-22 10:49 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **221 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **220 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **9** solved in last 24h
-- **221** tickets total since launch · contact rate **3%** of 6500 invitees
+- **18** new tickets in last 24h · **10** solved in last 24h
+- **220** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 122.8h · mean 127.2h (proxy: updated_at − created_at, 160 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"kind regards"** — 3 tickets in 24h (18.0× baseline; baseline 5 cum) — [#7041](https://tbpro.zendesk.com/agent/tickets/7041), [#7043](https://tbpro.zendesk.com/agent/tickets/7043), [#7046](https://tbpro.zendesk.com/agent/tickets/7046)
-- **"team cancel"** — 2 tickets in 24h (new; baseline 0 cum) — [#7035](https://tbpro.zendesk.com/agent/tickets/7035), [#7043](https://tbpro.zendesk.com/agent/tickets/7043)
-- **"early access"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#7035](https://tbpro.zendesk.com/agent/tickets/7035), [#7037](https://tbpro.zendesk.com/agent/tickets/7037)
+- **Median AHT**: 123.0h · mean 127.9h (proxy: updated_at − created_at, 159 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -56,9 +48,9 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [open] · _Cancellation and Refund Request – Thundermail Subscription_
+- [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [pending] · _Cancellation and Refund Request – Thundermail Subscription_
   > Hi [name], I would like to cancel my Thundermail Early Access subscription for the account [email] with immediate effect and request a full refund within my 14-day cancellation period. Please confirm the cancellation…
-- [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [open] · _Request for Cancellation and Refund_
+- [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [pending] · _Request for Cancellation and Refund_
   > Dear [name], I would like to cancel my subscription associated with the email address [email] and request a full refund. The reason for my request is that I am not satisfied with the features and options provided by the…
 
 ## New ideas on FeatureOS
@@ -72,17 +64,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 160
-- **pending**: 37
-- **open**: 14
+- **solved**: 159
+- **pending**: 38
+- **open**: 12
 - **hold**: 6
-- **closed**: 4
+- **closed**: 5
 
 ## Service (cumulative)
 
-- **Thundermail**: 103
+- **Thundermail**: 104
 - **Account Hub**: 93
-- **Appointment**: 11
+- **Appointment**: 10
 - **Send**: 7
 
 ## Why × How (cumulative)
@@ -96,8 +88,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 12
 - **blocked** + **escalated**: 12
 - **confused** + **explained**: 9
+- **blocked** + **actioned**: 5
 - **blocked** + **—**: 4
-- **blocked** + **actioned**: 4
 - **request** + **actioned**: 3
 - **concerned** + **explained**: 3
 - **curious** + **informed**: 2
@@ -138,22 +130,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
   > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
 
-### Early bird / invite / waitlist — 3 tickets
-
-- **[#7035](https://tbpro.zendesk.com/agent/tickets/7035)** · Cancellation and Refund Request – Thundermail Subscription
-  > Hi [name], I would like to cancel my Thundermail Early Access subscription for the account [email] with immediate effect and request a full refund within my 14-day cancellation…
-- **[#7029](https://tbpro.zendesk.com/agent/tickets/7029)** · Unable to signup to [domain] domain — why: **curious** · how: **explained**
-  > Hi team I received my invite to join the new thundermail service. When I create my address, the option for [domain] is missing. Is there a way to sign up for an account with that…
-- **[#7020](https://tbpro.zendesk.com/agent/tickets/7020)** · European servers — why: **curious** · how: **explained**
-  > Hi, thank you for the invitation to join thundermail. I am minded to continue with the subscription but have a question I would value your opinion on. I note that your servers are…
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#7046](https://tbpro.zendesk.com/agent/tickets/7046)** · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
-  > Dear [name] or Madam, I hereby withdraw, within the applicable withdrawal period, from the contract concluded on July 21, 2026 for the Thunderbird Pro subscription linked to the…
-- **[#7043](https://tbpro.zendesk.com/agent/tickets/7043)** · Request for Cancellation and Refund
-  > Dear [name], I would like to cancel my subscription associated with the email address [email] and request a full refund. The reason for my request is that I am not satisfied with…
-
 ### Account creation / signup confusion — 2 tickets
 
 - **[#7039](https://tbpro.zendesk.com/agent/tickets/7039)** · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
@@ -167,6 +143,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Is there possibility to test service without paying?
 - **[#7037](https://tbpro.zendesk.com/agent/tickets/7037)** · Re: Reminder: You're Invited to the Thundermail Early Bird — why: **curious** · how: **explained**
   > Your support form is giving me CSRF errors. Not sure if this will react anyone though, but my feedback was that I'm not interested in paying €72 to see if a new production might…
+
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#7029](https://tbpro.zendesk.com/agent/tickets/7029)** · Unable to signup to [domain] domain — why: **curious** · how: **explained**
+  > Hi team I received my invite to join the new thundermail service. When I create my address, the option for [domain] is missing. Is there a way to sign up for an account with that…
+- **[#7020](https://tbpro.zendesk.com/agent/tickets/7020)** · European servers — why: **curious** · how: **explained**
+  > Hi, thank you for the invitation to join thundermail. I am minded to continue with the subscription but have a question I would value your opinion on. I note that your servers are…
+
+### Webmail — 1 tickets
+
+- **[#7050](https://tbpro.zendesk.com/agent/tickets/7050)** · Folder showing in webmail but not Thunderbird
+  > Tried to create a folder for my Thundermail account in Thunderbird v153.0. Nothing happened. When I open Thundermail webmail, the folder is there. Can't do anything yet in webmail…
+
+### Account access issues — account recovery — 1 tickets
+
+- **[#7049](https://tbpro.zendesk.com/agent/tickets/7049)** · changing the original gmail address to a different address — why: **blocked** · how: **actioned**
+  > Hello [name]. I just signed up a few hours ago and so far so good. How would I be able to change the gmail address that I signed up to receive the invite to my Proton address? Is…
 
 ### App setup / configuration — 1 tickets
 
@@ -210,15 +203,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7030](https://tbpro.zendesk.com/agent/tickets/7030) · [solved] · 2026-07-22T00:40 · Email Sign Up
 - [7031](https://tbpro.zendesk.com/agent/tickets/7031) · [open] · 2026-07-22T02:26 · forwarding
 - [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [pending] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
-- [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [open] · 2026-07-22T06:13 · Cancellation and Refund Request – Thundermail Subscription
 - [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [open] · 2026-07-22T06:29 · email relaying
 - [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [pending] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
 - [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [open] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
 - [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [open] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
 - [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [pending] · 2026-07-22T10:02 · JMAP support and other queries
-- [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [open] · 2026-07-22T12:40 · Request for Cancellation and Refund
 - [7045](https://tbpro.zendesk.com/agent/tickets/7045) · [pending] · 2026-07-22T13:00 · Service testing
-- [7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22T13:00 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
+- [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [open] · 2026-07-22T13:58 · changing the original gmail address to a different address
+- [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [open] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
 
 ## Solved — last 24h
 
@@ -231,6 +223,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6911](https://tbpro.zendesk.com/agent/tickets/6911) · 2026-07-22T02:01 · IONOS DNS Records Assistance
 - · [6913](https://tbpro.zendesk.com/agent/tickets/6913) · 2026-07-22T04:01 · alias folder???
 - · [7018](https://tbpro.zendesk.com/agent/tickets/7018) · 2026-07-22T13:23 · Cost
+- · [6975](https://tbpro.zendesk.com/agent/tickets/6975) · 2026-07-22T14:01 · delete the account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
