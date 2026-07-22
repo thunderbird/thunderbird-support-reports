@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 07:45 ET** · refreshes hourly_  
+_Updated: **2026-07-22 08:43 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **218 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **219 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **8** solved in last 24h
-- **218** tickets total since launch · contact rate **3%** of 6500 invitees
+- **17** new tickets in last 24h · **8** solved in last 24h
+- **219** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
@@ -20,7 +20,9 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **218 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"confirm cancellation"** — 2 tickets in 24h (new; baseline 0 cum) — [#7035](https://tbpro.zendesk.com/agent/tickets/7035), [#7043](https://tbpro.zendesk.com/agent/tickets/7043)
 - **"early access"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#7035](https://tbpro.zendesk.com/agent/tickets/7035), [#7037](https://tbpro.zendesk.com/agent/tickets/7037)
+- **"kind regards"** — 2 tickets in 24h (12.0× baseline; baseline 5 cum) — [#7041](https://tbpro.zendesk.com/agent/tickets/7041), [#7043](https://tbpro.zendesk.com/agent/tickets/7043)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -52,10 +54,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [open] · _Cancellation and Refund Request – Thundermail Subscription_
   > Hi [name], I would like to cancel my Thundermail Early Access subscription for the account [email] with immediate effect and request a full refund within my 14-day cancellation period. Please confirm the cancellation…
+- [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [new] · _Request for Cancellation and Refund_
+  > Dear [name], I would like to cancel my subscription associated with the email address [email] and request a full refund. The reason for my request is that I am not satisfied with the features and options provided by the…
 
 ## New ideas on FeatureOS
 
@@ -69,17 +73,17 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 159
-- **pending**: 31
-- **open**: 14
+- **pending**: 30
+- **open**: 15
 - **hold**: 6
-- **new**: 4
+- **new**: 5
 - **closed**: 4
 
 ## Service (cumulative)
 
 - **Thundermail**: 104
 - **Account Hub**: 91
-- **Appointment**: 9
+- **Appointment**: 10
 - **Send**: 7
 
 ## Why × How (cumulative)
@@ -151,6 +155,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7030](https://tbpro.zendesk.com/agent/tickets/7030)** · Email Sign Up — why: **curious** · how: **explained**
   > I followed the link and it would not let me select [domain] as my domain. I signed up using [domain] thinking it was meant to change after but now I don't see how. I really would…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7043](https://tbpro.zendesk.com/agent/tickets/7043)** · Request for Cancellation and Refund
+  > Dear [name], I would like to cancel my subscription associated with the email address [email] and request a full refund. The reason for my request is that I am not satisfied with…
+
 ### Account access issues — 1 tickets
 
 - **[#7037](https://tbpro.zendesk.com/agent/tickets/7037)** · Re: Reminder: You're Invited to the Thundermail Early Bird
@@ -204,6 +213,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [new] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
 - [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [open] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
 - [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [new] · 2026-07-22T10:02 · JMAP support and other queries
+- [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [new] · 2026-07-22T12:40 · Request for Cancellation and Refund
 
 ## Solved — last 24h
 
