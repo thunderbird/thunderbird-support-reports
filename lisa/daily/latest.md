@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 06:00 ET** · refreshes hourly_  
+_Updated: **2026-07-22 06:51 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **217 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **218 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **8** solved in last 24h
-- **217** tickets total since launch · contact rate **3%** of 6500 invitees
+- **16** new tickets in last 24h · **8** solved in last 24h
+- **218** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
@@ -72,12 +72,12 @@ _No negative ratings since launch._
 - **pending**: 32
 - **open**: 13
 - **hold**: 6
+- **new**: 4
 - **closed**: 4
-- **new**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 103
+- **Thundermail**: 104
 - **Account Hub**: 91
 - **Appointment**: 9
 - **Send**: 7
@@ -124,8 +124,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#7041](https://tbpro.zendesk.com/agent/tickets/7041)** · JMAP support and other queries
+  > Hi, How do I configure Thunderbird to use JMAP with Thundermail? What options would I select in Thunderbird to configure this? In addition, is it possible to have self-filtering…
 - **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
   > Instlalation works automaticly but does not authenticate.
 - **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
@@ -201,6 +203,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [new] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
 - [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [new] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
 - [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [open] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
+- [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [new] · 2026-07-22T10:02 · JMAP support and other queries
 
 ## Solved — last 24h
 
