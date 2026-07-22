@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 18:31 ET** · refreshes hourly_  
+_Updated: **2026-07-22 19:29 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **224 tickets** so far (3.4% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **227 tickets** so far (3.5% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **14** solved in last 24h
-- **224** tickets total since launch · contact rate **3%** of 6500 invitees
+- **227** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
-- **Median AHT**: 123.3h · mean 130.9h (proxy: updated_at − created_at, 156 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 49
+- **Median AHT**: 123.1h · mean 132.3h (proxy: updated_at − created_at, 157 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -46,12 +46,14 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **224 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [pending] · _Cancellation and Refund Request – Thundermail Subscription_
   > Hi [name], I would like to cancel my Thundermail Early Access subscription for the account [email] with immediate effect and request a full refund within my 14-day cancellation period. Please confirm the cancellation…
 - [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [pending] · _Request for Cancellation and Refund_
   > Dear [name], I would like to cancel my subscription associated with the email address [email] and request a full refund. The reason for my request is that I am not satisfied with the features and options provided by the…
+- [7064](https://tbpro.zendesk.com/agent/tickets/7064) · [open] · _Account Refund_
+  > Hi! I purchased a thunderbird pro subscription about a week ago, but I've determined that it's too difficult for me to switch providers at the moment, so I have cancelled my subscription, and I would like a refund.…
 
 ## New ideas on FeatureOS
 
@@ -64,16 +66,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 156
-- **pending**: 45
+- **solved**: 157
+- **pending**: 44
+- **open**: 10
 - **closed**: 10
-- **hold**: 7
-- **open**: 6
+- **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 110
-- **Account Hub**: 94
+- **Thundermail**: 111
+- **Account Hub**: 96
 - **Appointment**: 8
 - **Send**: 6
 
@@ -81,7 +83,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 53
+- **curious** + **explained**: 52
 - **blocked** + **explained**: 34
 - **request** + **redirected**: 18
 - **change request** + **actioned**: 13
@@ -89,21 +91,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 12
 - **confused** + **explained**: 10
 - **blocked** + **actioned**: 5
-- **concerned** + **explained**: 4
 - **blocked** + **—**: 4
+- **concerned** + **explained**: 4
 - **request** + **actioned**: 3
 - **curious** + **informed**: 2
 - **request** + **explained**: 2
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **change request** + **investigated**: 1
+- **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
-- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
@@ -180,7 +183,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 1 tickets
 
-- **[#7026](https://tbpro.zendesk.com/agent/tickets/7026)** · Three-character restriction is unfortunate for custom domains — why: **curious** · how: **explained**
+- **[#7026](https://tbpro.zendesk.com/agent/tickets/7026)** · Three-character restriction is unfortunate for custom domains — why: **curious** · how: **redirected**
   > I was trying to set-up an alias to me@<my-domain>, I can't do it because of the thee-char limitation. I'm guessing the catch-all alias would work to receive email, though not sure…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
@@ -205,7 +208,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7022](https://tbpro.zendesk.com/agent/tickets/7022) · [pending] · 2026-07-21T21:33 · Zoom meeting integration in Calendar
 - [7023](https://tbpro.zendesk.com/agent/tickets/7023) · [pending] · 2026-07-21T21:44 · Issues mapping DNS entries to Go Daddy
 - [7025](https://tbpro.zendesk.com/agent/tickets/7025) · [pending] · 2026-07-21T22:10 · tHUNDERBIRD FOR aNDROID
-- [7026](https://tbpro.zendesk.com/agent/tickets/7026) · [pending] · 2026-07-21T22:14 · Three-character restriction is unfortunate for custom domains
+- [7026](https://tbpro.zendesk.com/agent/tickets/7026) · [solved] · 2026-07-21T22:14 · Three-character restriction is unfortunate for custom domains
 - [7029](https://tbpro.zendesk.com/agent/tickets/7029) · [pending] · 2026-07-21T23:46 · Unable to signup to [domain] domain
 - [7030](https://tbpro.zendesk.com/agent/tickets/7030) · [solved] · 2026-07-22T00:40 · Email Sign Up
 - [7031](https://tbpro.zendesk.com/agent/tickets/7031) · [pending] · 2026-07-22T02:26 · forwarding
