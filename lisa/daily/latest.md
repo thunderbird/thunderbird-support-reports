@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 05:03 ET** · refreshes hourly_  
+_Updated: **2026-07-22 06:00 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **215 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **217 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **8** solved in last 24h
-- **215** tickets total since launch · contact rate **3%** of 6500 invitees
+- **15** new tickets in last 24h · **8** solved in last 24h
+- **217** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
@@ -70,14 +70,14 @@ _No negative ratings since launch._
 
 - **solved**: 159
 - **pending**: 32
-- **open**: 12
+- **open**: 13
 - **hold**: 6
 - **closed**: 4
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Thundermail**: 101
+- **Thundermail**: 103
 - **Account Hub**: 91
 - **Appointment**: 9
 - **Send**: 7
@@ -124,6 +124,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
+  > Instlalation works automaticly but does not authenticate.
+- **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
+  > Hi, is there any way to use thundermail account as email realying? Currently I'm using my own email server with Mailjet sending service. I'd be interested in email relaying…
+- **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
+  > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
+
 ### Early bird / invite / waitlist — 3 tickets
 
 - **[#7035](https://tbpro.zendesk.com/agent/tickets/7035)** · Cancellation and Refund Request – Thundermail Subscription
@@ -133,12 +142,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7020](https://tbpro.zendesk.com/agent/tickets/7020)** · European servers — why: **curious** · how: **explained**
   > Hi, thank you for the invitation to join thundermail. I am minded to continue with the subscription but have a question I would value your opinion on. I note that your servers are…
 
-### Other / uncategorized — 2 tickets
+### Account creation / signup confusion — 2 tickets
 
-- **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying
-  > Hi, is there any way to use thundermail account as email realying? Currently I'm using my own email server with Mailjet sending service. I'd be interested in email relaying…
-- **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
-  > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
+- **[#7039](https://tbpro.zendesk.com/agent/tickets/7039)** · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
+  > Hi, my user email is [email] but when I install the Thunderbird Windows-based client app (from the day I paid the $72 and also now with the 7/21 version 153.0 64-bit Windows), I…
+- **[#7030](https://tbpro.zendesk.com/agent/tickets/7030)** · Email Sign Up — why: **curious** · how: **explained**
+  > I followed the link and it would not let me select [domain] as my domain. I signed up using [domain] thinking it was meant to change after but now I don't see how. I really would…
 
 ### Account access issues — 1 tickets
 
@@ -170,11 +179,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7022](https://tbpro.zendesk.com/agent/tickets/7022)** · Zoom meeting integration in Calendar
   > Zoom meeting integration in Calendar
 
-### Account creation / signup confusion — 1 tickets
-
-- **[#7030](https://tbpro.zendesk.com/agent/tickets/7030)** · Email Sign Up — why: **curious** · how: **explained**
-  > I followed the link and it would not let me select [domain] as my domain. I signed up using [domain] thinking it was meant to change after but now I don't see how. I really would…
-
 ### Aliases — 1 tickets
 
 - **[#7026](https://tbpro.zendesk.com/agent/tickets/7026)** · Three-character restriction is unfortunate for custom domains — why: **curious** · how: **explained**
@@ -195,6 +199,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [open] · 2026-07-22T06:13 · Cancellation and Refund Request – Thundermail Subscription
 - [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [open] · 2026-07-22T06:29 · email relaying
 - [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [new] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
+- [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [new] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
+- [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [open] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
 
 ## Solved — last 24h
 
