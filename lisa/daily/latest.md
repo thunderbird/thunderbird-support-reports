@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 03:57 ET** · refreshes hourly_  
+_Updated: **2026-07-22 05:03 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **214 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **215 tickets** so far (3.3% contact rate). CSAT since launch: **100%**. Top theme: **Account access issues**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **8** solved in last 24h
-- **214** tickets total since launch · contact rate **3%** of 6500 invitees
+- **13** new tickets in last 24h · **8** solved in last 24h
+- **215** tickets total since launch · contact rate **3%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 48
 - **Median AHT**: 123.0h · mean 127.8h (proxy: updated_at − created_at, 159 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"early access"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#7035](https://tbpro.zendesk.com/agent/tickets/7035), [#7037](https://tbpro.zendesk.com/agent/tickets/7037)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -67,7 +73,7 @@ _No negative ratings since launch._
 - **open**: 12
 - **hold**: 6
 - **closed**: 4
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -134,6 +140,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
   > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
 
+### Account access issues — 1 tickets
+
+- **[#7037](https://tbpro.zendesk.com/agent/tickets/7037)** · Re: Reminder: You're Invited to the Thundermail Early Bird
+  > Your support form is giving me CSRF errors. Not sure if this will react anyone though, but my feedback was that I'm not interested in paying €72 to see if a new production might…
+
 ### Security / hacked — 1 tickets
 
 - **[#7033](https://tbpro.zendesk.com/agent/tickets/7033)** · FEEDBACK: Sign in with username instead of email
@@ -183,6 +194,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [new] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
 - [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [open] · 2026-07-22T06:13 · Cancellation and Refund Request – Thundermail Subscription
 - [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [open] · 2026-07-22T06:29 · email relaying
+- [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [new] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
 
 ## Solved — last 24h
 
