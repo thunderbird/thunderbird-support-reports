@@ -1,20 +1,27 @@
-# Thundermail — Flight 3 Live Report · 2026-07-22
+# Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-22 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-23 01:16 ET** · refreshes hourly_  
+_24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **229 tickets** so far (3.5% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 32** of rollout — **6,500 invitees**, **232 tickets** so far (3.6% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **12** solved in last 24h
-- **229** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **11** new tickets in last 24h · **6** solved in last 24h
+- **232** tickets total since launch · contact rate **4%** of 6500 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
 - **Median AHT**: 123.3h · mean 132.8h (proxy: updated_at − created_at, 158 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"side able"** — 2 tickets in 24h (new; baseline 0 cum) — [#7071](https://tbpro.zendesk.com/agent/tickets/7071), [#7072](https://tbpro.zendesk.com/agent/tickets/7072)
+- **"early bird"** — 2 tickets in 24h (6.2× baseline; baseline 10 cum) — [#7061](https://tbpro.zendesk.com/agent/tickets/7061), [#7068](https://tbpro.zendesk.com/agent/tickets/7068)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -46,36 +53,31 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **229 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7035](https://tbpro.zendesk.com/agent/tickets/7035) · [pending] · _Cancellation and Refund Request – Thundermail Subscription_
-  > Hi [name], I would like to cancel my Thundermail Early Access subscription for the account [email] with immediate effect and request a full refund within my 14-day cancellation period. Please confirm the cancellation…
-- [7043](https://tbpro.zendesk.com/agent/tickets/7043) · [pending] · _Request for Cancellation and Refund_
-  > Dear [name], I would like to cancel my subscription associated with the email address [email] and request a full refund. The reason for my request is that I am not satisfied with the features and options provided by the…
-- [7064](https://tbpro.zendesk.com/agent/tickets/7064) · [open] · _Account Refund_
-  > Hi! I purchased a thunderbird pro subscription about a week ago, but I've determined that it's too difficult for me to switch providers at the moment, so I have cancelled my subscription, and I would like a refund.…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 2 new:
 
-- [Username as login instead of account email](https://ideas.tb.pro/p/username-as-login-instead-of-account-email) · 2 votes · _untagged_
-  > In the event of a data breach that reveals the account email, you should allow users to log in with a random username instead of using the email address as the main login.For example, the login would…
-- [Appointment: Dashboard calendars should honor colors in settings](https://ideas.tb.pro/p/appointment-dashboard-calendars-should-honor-colors-in-settings) · 2 votes · _untagged_
-  > What you’d like to seeThe dashboard at https://appointment.tb.pro/dashboard should use the CalDAV per-calendar colors set in the “Connected Applications” settings at…
+- [Subdomain addressing](https://ideas.tb.pro/p/subdomain-addressing) · 1 votes · _Thundermail, Privacy & Security, New Feature, Improvement_
+  > What you’d like to seeThe equivalent of this fastmail feature.Why it matters / Your use caseWhen considering migrating my primary domain from Fastmail, I realized that there’s no easy way to receive…
+- [Consider removing three character restrictions on alias for custom domains](https://ideas.tb.pro/p/consider-removing-three-character-restrictions-on-alias-for-custom-domains) · 1 votes · _Thundermail, Improvement_
+  > What you’d like to seeCurrently there’s a three-char restriction on email aliases, even for non-tb.pro/thundermail.com domains.That seems… unnecessary?Why it matters / use caseUsing me@domain.com…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 158
-- **pending**: 39
-- **open**: 16
+- **pending**: 43
+- **open**: 15
 - **closed**: 10
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 112
-- **Account Hub**: 97
+- **Thundermail**: 114
+- **Account Hub**: 98
 - **Appointment**: 8
 - **Send**: 6
 
@@ -122,122 +124,77 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
-
-- **[#7053](https://tbpro.zendesk.com/agent/tickets/7053)** · Thundermail: Account refunded and canceled, purge queue
-  > Add finalized Thundermail refunds and cancellations to this new KP.
-- **[#7041](https://tbpro.zendesk.com/agent/tickets/7041)** · JMAP support and other queries — why: **curious** · how: **explained**
-  > Hi, How do I configure Thunderbird to use JMAP with Thundermail? What options would I select in Thunderbird to configure this? In addition, is it possible to have self-filtering…
-- **[#7040](https://tbpro.zendesk.com/agent/tickets/7040)** · Authenticate new thundermail account in thunderbird
-  > Instlalation works automaticly but does not authenticate.
-- **[#7036](https://tbpro.zendesk.com/agent/tickets/7036)** · email relaying — why: **curious** · how: **explained**
-  > Hi, is there any way to use thundermail account as email realying? Currently I'm using my own email server with Mailjet sending service. I'd be interested in email relaying…
-- **[#7019](https://tbpro.zendesk.com/agent/tickets/7019)** · Thunderbird Pro (addon) Send problems — why: **blocked**
-  > The Thudnerbird Pro addon logs me out during usage when logged in, i cannot upload a file (like in the browser) I use: OS: Arch Linux x86_64 Kernel: Linux 7.1.4-arch1-1…
-
-### Account creation / signup confusion — 2 tickets
-
-- **[#7039](https://tbpro.zendesk.com/agent/tickets/7039)** · new paid subscriber for thundermail, but the thunderbird windows client wont sign in — why: **blocked** · how: **explained**
-  > Hi, my user email is [email] but when I install the Thunderbird Windows-based client app (from the day I paid the $72 and also now with the 7/21 version 153.0 64-bit Windows), I…
-- **[#7030](https://tbpro.zendesk.com/agent/tickets/7030)** · Email Sign Up — why: **curious** · how: **explained**
-  > I followed the link and it would not let me select [domain] as my domain. I signed up using [domain] thinking it was meant to change after but now I don't see how. I really would…
-
-### Pricing — wanted free / monthly plan — 2 tickets
-
-- **[#7045](https://tbpro.zendesk.com/agent/tickets/7045)** · Service testing — why: **curious** · how: **explained**
-  > Is there possibility to test service without paying?
-- **[#7037](https://tbpro.zendesk.com/agent/tickets/7037)** · Re: Reminder: You're Invited to the Thundermail Early Bird — why: **curious** · how: **explained**
-  > Your support form is giving me CSRF errors. Not sure if this will react anyone though, but my feedback was that I'm not interested in paying €72 to see if a new production might…
-
 ### Early bird / invite / waitlist — 2 tickets
 
-- **[#7029](https://tbpro.zendesk.com/agent/tickets/7029)** · Unable to signup to [domain] domain — why: **curious** · how: **explained**
-  > Hi team I received my invite to join the new thundermail service. When I create my address, the option for [domain] is missing. Is there a way to sign up for an account with that…
-- **[#7020](https://tbpro.zendesk.com/agent/tickets/7020)** · European servers — why: **curious** · how: **explained**
-  > Hi, thank you for the invitation to join thundermail. I am minded to continue with the subscription but have a question I would value your opinion on. I note that your servers are…
+- **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation
+  > Hello, In a recent discussion on the early bird matrix, there were a few comments regarding a second invitation. I've used my initial invitation for my personal email, but am…
+- **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
+  > Hi! When is the last day to buy the Early Bird offer? Thanks!
 
-### Privacy / data / jurisdiction concerns — 1 tickets
+### Account access issues — 2 tickets
 
-- **[#7052](https://tbpro.zendesk.com/agent/tickets/7052)** · Please delete account
-  > Please delete account
+- **[#7065](https://tbpro.zendesk.com/agent/tickets/7065)** · Unable to access through Thunderbird application on PC
+  > So I have Thunderbird on my laptop, it has been on it for quite awhile. At this point I am unable to access my new Thunderbird email account. Every time I log in, it wants me to…
+- **[#7063](https://tbpro.zendesk.com/agent/tickets/7063)** · Questions about Thundermail data handling for EEA customers
+  > Hi [name] team, I’m considering moving my primary email and custom domains from [domain] to Thundermail. I already use Thunderbird, and I particularly like the direction of…
 
-### Webmail — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#7050](https://tbpro.zendesk.com/agent/tickets/7050)** · Folder showing in webmail but not Thunderbird
-  > Tried to create a folder for my Thundermail account in Thunderbird v153.0. Nothing happened. When I open Thundermail webmail, the folder is there. Can't do anything yet in webmail…
+- **[#7072](https://tbpro.zendesk.com/agent/tickets/7072)** · wont able to create an account
+  > help me i get an email from your side but i wont able to crete an accouny
 
-### Account access issues — account recovery — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7049](https://tbpro.zendesk.com/agent/tickets/7049)** · changing the original gmail address to a different address — why: **blocked** · how: **actioned**
-  > Hello [name]. I just signed up a few hours ago and so far so good. How would I be able to change the gmail address that I signed up to receive the invite to my Proton address? Is…
+- **[#7071](https://tbpro.zendesk.com/agent/tickets/7071)** · wont able to signuo
+  > i get a email from your side but i wont able to signuo,please help me related to that
 
-### Security / hacked — 1 tickets
+### Email sending / receiving / SMTP / IMAP — 1 tickets
 
-- **[#7033](https://tbpro.zendesk.com/agent/tickets/7033)** · FEEDBACK: Sign in with username instead of email — why: **request** · how: **redirected**
-  > In the event of a data breach that reveals the account email, you should allow users to log in with a separate username instead of using the Thundermail email address as the main…
+- **[#7070](https://tbpro.zendesk.com/agent/tickets/7070)** · Setting up JMAP
+  > I just got my shiny new thundermail account and am setting things up. I had read about the JMAP protocol which is supported (or will be?) by the service.…
 
 ### App setup / configuration — 1 tickets
 
-- **[#7031](https://tbpro.zendesk.com/agent/tickets/7031)** · forwarding
-  > Hi. How can I set up forwarding from my new Thundermail account to another email address of mine?
+- **[#7069](https://tbpro.zendesk.com/agent/tickets/7069)** · Cannot add Thunderbird Pro add-on
+  > Hello, I am trying to install the Thunderbird Pro addon to the latest version of Thunderbird for Windows (153.0) and a dialog box will say it's added but nothing shows up in the…
 
-### Aliases — 1 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#7026](https://tbpro.zendesk.com/agent/tickets/7026)** · Three-character restriction is unfortunate for custom domains — why: **curious** · how: **redirected**
-  > I was trying to set-up an alias to me@<my-domain>, I can't do it because of the thee-char limitation. I'm guessing the catch-all alias would work to receive email, though not sure…
+- **[#7067](https://tbpro.zendesk.com/agent/tickets/7067)** · Importing my calendar ics to Thundermail fails with code 412
+  > Currently, when trying to import my calendar ICS file using Thunderbird, it will spit out this : ERROR CODE: MODIFICATION_FAILED Status Code: 2,147,500,037, null Server Replied…
 
-### Thunderbird for Android + Thundermail — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#7025](https://tbpro.zendesk.com/agent/tickets/7025)** · tHUNDERBIRD FOR aNDROID — why: **curious** · how: **informed**
-  > I added the account to my Android Thunderbird account (on a Pixel 9 Pro). I'm not able to send mail because it asked for a "sent folder" which I can't seem to find. There seems to…
+- **[#7064](https://tbpro.zendesk.com/agent/tickets/7064)** · Account Refund
+  > Hi! I purchased a thunderbird pro subscription about a week ago, but I've determined that it's too difficult for me to switch providers at the moment, so I have cancelled my…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#7023](https://tbpro.zendesk.com/agent/tickets/7023)** · Issues mapping DNS entries to Go Daddy — why: **blocked** · how: **explained**
-  > The DNS records provided don't contain all the information needed to set this up on Go Daddy. I've attached an example of what I'm being asking for on Go Daddy. _jmap doesn't seem…
-
-### Request or complaint — 1 tickets
-
-- **[#7022](https://tbpro.zendesk.com/agent/tickets/7022)** · Zoom meeting integration in Calendar — why: **request** · how: **redirected**
-  > Zoom meeting integration in Calendar
+- **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
+  > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
 
 ## New tickets — last 24h
 
-- [7019](https://tbpro.zendesk.com/agent/tickets/7019) · [pending] · 2026-07-21T20:21 · Thunderbird Pro (addon) Send problems
-- [7020](https://tbpro.zendesk.com/agent/tickets/7020) · [solved] · 2026-07-21T20:33 · European servers
-- [7022](https://tbpro.zendesk.com/agent/tickets/7022) · [pending] · 2026-07-21T21:33 · Zoom meeting integration in Calendar
-- [7023](https://tbpro.zendesk.com/agent/tickets/7023) · [pending] · 2026-07-21T21:44 · Issues mapping DNS entries to Go Daddy
-- [7025](https://tbpro.zendesk.com/agent/tickets/7025) · [pending] · 2026-07-21T22:10 · tHUNDERBIRD FOR aNDROID
-- [7026](https://tbpro.zendesk.com/agent/tickets/7026) · [solved] · 2026-07-21T22:14 · Three-character restriction is unfortunate for custom domains
-- [7029](https://tbpro.zendesk.com/agent/tickets/7029) · [pending] · 2026-07-21T23:46 · Unable to signup to [domain] domain
-- [7030](https://tbpro.zendesk.com/agent/tickets/7030) · [solved] · 2026-07-22T00:40 · Email Sign Up
-- [7031](https://tbpro.zendesk.com/agent/tickets/7031) · [pending] · 2026-07-22T02:26 · forwarding
-- [7033](https://tbpro.zendesk.com/agent/tickets/7033) · [solved] · 2026-07-22T02:35 · FEEDBACK: Sign in with username instead of email
-- [7036](https://tbpro.zendesk.com/agent/tickets/7036) · [pending] · 2026-07-22T06:29 · email relaying
-- [7037](https://tbpro.zendesk.com/agent/tickets/7037) · [pending] · 2026-07-22T08:35 · Re: Reminder: You're Invited to the Thundermail Early Bird
-- [7039](https://tbpro.zendesk.com/agent/tickets/7039) · [open] · 2026-07-22T09:41 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
-- [7040](https://tbpro.zendesk.com/agent/tickets/7040) · [pending] · 2026-07-22T09:57 · Authenticate new thundermail account in thunderbird
-- [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [pending] · 2026-07-22T10:02 · JMAP support and other queries
-- [7045](https://tbpro.zendesk.com/agent/tickets/7045) · [pending] · 2026-07-22T13:00 · Service testing
-- [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [pending] · 2026-07-22T13:58 · changing the original gmail address to a different address
-- [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [open] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
-- [7052](https://tbpro.zendesk.com/agent/tickets/7052) · [open] · 2026-07-22T16:30 · Please delete account
-- [7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · 2026-07-22T16:48 · Thundermail: Account refunded and canceled, purge queue
+- [7061](https://tbpro.zendesk.com/agent/tickets/7061) · [pending] · 2026-07-22T20:45 · Early Bird deadline 
+- [7062](https://tbpro.zendesk.com/agent/tickets/7062) · [pending] · 2026-07-22T20:46 · Adding Domain
+- [7063](https://tbpro.zendesk.com/agent/tickets/7063) · [open] · 2026-07-22T22:42 · Questions about Thundermail data handling for EEA customers
+- [7064](https://tbpro.zendesk.com/agent/tickets/7064) · [open] · 2026-07-22T22:59 · Account Refund
+- [7065](https://tbpro.zendesk.com/agent/tickets/7065) · [open] · 2026-07-22T23:16 · Unable to access through Thunderbird application on PC
+- [7067](https://tbpro.zendesk.com/agent/tickets/7067) · [open] · 2026-07-23T00:34 · Importing my calendar ics to Thundermail fails with code 412
+- [7068](https://tbpro.zendesk.com/agent/tickets/7068) · [open] · 2026-07-23T01:14 · Second invitation
+- [7069](https://tbpro.zendesk.com/agent/tickets/7069) · [open] · 2026-07-23T03:28 · Cannot add Thunderbird Pro add-on
+- [7070](https://tbpro.zendesk.com/agent/tickets/7070) · [open] · 2026-07-23T04:11 · Setting up JMAP
+- [7071](https://tbpro.zendesk.com/agent/tickets/7071) · [open] · 2026-07-23T04:55 · wont able to signuo
+- [7072](https://tbpro.zendesk.com/agent/tickets/7072) · [open] · 2026-07-23T04:56 · wont able to create an account
 
 ## Solved — last 24h
 
-- · [6891](https://tbpro.zendesk.com/agent/tickets/6891) · 2026-07-21T21:02 · Wo werden die Daten von Thundermail gespeichert
-- · [6733](https://tbpro.zendesk.com/agent/tickets/6733) · 2026-07-21T21:02 · Addressbook in Webmail
-- · [6894](https://tbpro.zendesk.com/agent/tickets/6894) · 2026-07-21T22:02 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
-- · [6911](https://tbpro.zendesk.com/agent/tickets/6911) · 2026-07-22T02:01 · IONOS DNS Records Assistance
-- · [6913](https://tbpro.zendesk.com/agent/tickets/6913) · 2026-07-22T04:01 · alias folder???
-- · [7018](https://tbpro.zendesk.com/agent/tickets/7018) · 2026-07-22T13:23 · Cost
-- · [6975](https://tbpro.zendesk.com/agent/tickets/6975) · 2026-07-22T14:01 · delete the account
-- · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-07-22T15:01 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
-- · [6922](https://tbpro.zendesk.com/agent/tickets/6922) · 2026-07-22T15:01 · domain name
-- · [6583](https://tbpro.zendesk.com/agent/tickets/6583) · 2026-07-22T15:01 · My subscribe link is no longer working
-- · [6940](https://tbpro.zendesk.com/agent/tickets/6940) · 2026-07-22T19:02 · Help setting DNS records
-- · [7033](https://tbpro.zendesk.com/agent/tickets/7033) · 2026-07-22T19:02 · FEEDBACK: Sign in with username instead of email
+- 👍 [6973](https://tbpro.zendesk.com/agent/tickets/6973) · 2026-07-22T21:30 · Domain settings
+- · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-07-22T23:19 · unconscionable ToS and (lack of) Privacy Policy.
+- · [7026](https://tbpro.zendesk.com/agent/tickets/7026) · 2026-07-22T23:26 · Three-character restriction is unfortunate for custom domains
+- · [7020](https://tbpro.zendesk.com/agent/tickets/7020) · 2026-07-23T00:01 · European servers
+- · [6883](https://tbpro.zendesk.com/agent/tickets/6883) · 2026-07-23T01:01 · Aliases
+- · [7030](https://tbpro.zendesk.com/agent/tickets/7030) · 2026-07-23T02:01 · Email Sign Up
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
