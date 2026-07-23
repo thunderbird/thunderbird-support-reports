@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 14:37 ET** · refreshes hourly_  
+_Updated: **2026-07-23 15:40 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 32** of rollout — **6,500 invitees**, **260 tickets** so far
 
 ## At a glance
 
-- **19** new tickets in last 24h · **20** solved in last 24h
+- **19** new tickets in last 24h · **22** solved in last 24h
 - **260** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
-- **Median AHT**: 125.9h · mean 150.8h (proxy: updated_at − created_at, 165 solved tickets)
+- **Median AHT**: 125.9h · mean 149.4h (proxy: updated_at − created_at, 167 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"early bird"** — 3 tickets in 24h (7.2× baseline; baseline 13 cum) — [#7061](https://tbpro.zendesk.com/agent/tickets/7061), [#7068](https://tbpro.zendesk.com/agent/tickets/7068), [#7096](https://tbpro.zendesk.com/agent/tickets/7096)
 - **"provider before"** — 2 tickets in 24h (new; baseline 0 cum) — [#7063](https://tbpro.zendesk.com/agent/tickets/7063), [#7096](https://tbpro.zendesk.com/agent/tickets/7096)
 - **"side able"** — 2 tickets in 24h (new; baseline 0 cum) — [#7071](https://tbpro.zendesk.com/agent/tickets/7071), [#7072](https://tbpro.zendesk.com/agent/tickets/7072)
-- **"attached screenshot"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
+- **"doesn seem"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 - **"sign link"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7075](https://tbpro.zendesk.com/agent/tickets/7075), [#7089](https://tbpro.zendesk.com/agent/tickets/7089)
 - **"annual subscription"** — 2 tickets in 24h (10.3× baseline; baseline 6 cum) — [#7089](https://tbpro.zendesk.com/agent/tickets/7089), [#7096](https://tbpro.zendesk.com/agent/tickets/7096)
 - **"custom domains"** — 2 tickets in 24h (6.9× baseline; baseline 9 cum) — [#7063](https://tbpro.zendesk.com/agent/tickets/7063), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
@@ -101,11 +101,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 165
-- **pending**: 61
+- **solved**: 167
+- **pending**: 62
 - **closed**: 16
-- **open**: 11
-- **hold**: 7
+- **hold**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -134,8 +134,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **telling us** + **informed**: 1
 - **curious** + **redirected**: 1
+- **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
@@ -173,19 +173,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
   > Hi! When is the last day to buy the Early Bird offer? Thanks!
 
-### Waitlist / onboarding inquiry — 2 tickets
-
-- **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation — why: **curious** · how: **explained**
-  > Hello, In a recent discussion on the early bird matrix, there were a few comments regarding a second invitation. I've used my initial invitation for my personal email, but am…
-- **[#7081](https://tbpro.zendesk.com/agent/tickets/7081)** · My donation refunded - No subject provided — why: **curious** · how: **explained**
-  > I paid $10.20 NZD thinking that i would get an email address, but there is a waitlist, which defeats the purpose.
-
 ### Pricing — payment issue — 2 tickets
 
 - **[#7082](https://tbpro.zendesk.com/agent/tickets/7082)** · Visa 3D secure failing payment — why: **blocked** · how: **explained**
   > I'm unable to subscribe due to a failure on the payment provider paddle Error message We are unable to take payment at this time. Please try again, or use a different payment…
 - **[#7072](https://tbpro.zendesk.com/agent/tickets/7072)** · wont able to create an account — why: **blocked**
   > help me i get an email from your side but i wont able to crete an accouny
+
+### Waitlist / onboarding inquiry — 2 tickets
+
+- **[#7081](https://tbpro.zendesk.com/agent/tickets/7081)** · My donation refunded - No subject provided — why: **curious** · how: **explained**
+  > I paid $10.20 NZD thinking that i would get an email address, but there is a waitlist, which defeats the purpose.
+- **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation — why: **curious** · how: **explained**
+  > Hello, In a recent discussion on the early bird matrix, there were a few comments regarding a second invitation. I've used my initial invitation for my personal email, but am…
 
 ### Account access issues — 2 tickets
 
@@ -242,7 +242,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7064](https://tbpro.zendesk.com/agent/tickets/7064) · [pending] · 2026-07-22T22:59 · Account Refund
 - [7065](https://tbpro.zendesk.com/agent/tickets/7065) · [pending] · 2026-07-22T23:16 · Unable to access through Thunderbird application on PC
 - [7067](https://tbpro.zendesk.com/agent/tickets/7067) · [pending] · 2026-07-23T00:34 · Importing my calendar ics to Thundermail fails with code 412
-- [7068](https://tbpro.zendesk.com/agent/tickets/7068) · [open] · 2026-07-23T01:14 · Second invitation
+- [7068](https://tbpro.zendesk.com/agent/tickets/7068) · [solved] · 2026-07-23T01:14 · Second invitation
 - [7069](https://tbpro.zendesk.com/agent/tickets/7069) · [open] · 2026-07-23T03:28 · Cannot add Thunderbird Pro add-on
 - [7070](https://tbpro.zendesk.com/agent/tickets/7070) · [pending] · 2026-07-23T04:11 · Setting up JMAP
 - [7071](https://tbpro.zendesk.com/agent/tickets/7071) · [pending] · 2026-07-23T04:55 · wont able to signuo
@@ -278,6 +278,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6943](https://tbpro.zendesk.com/agent/tickets/6943) · 2026-07-23T14:21 · how to set up the email address in thunderbird 115.18.0
 - · [6389](https://tbpro.zendesk.com/agent/tickets/6389) · 2026-07-23T17:01 · Forgot password
 - · [7052](https://tbpro.zendesk.com/agent/tickets/7052) · 2026-07-23T18:07 · Please delete account
+- · [7018](https://tbpro.zendesk.com/agent/tickets/7018) · 2026-07-23T19:09 · Cost
+- · [7068](https://tbpro.zendesk.com/agent/tickets/7068) · 2026-07-23T19:38 · Second invitation
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
