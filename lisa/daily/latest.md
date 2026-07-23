@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 01:16 ET** · refreshes hourly_  
+_Updated: **2026-07-23 03:02 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 32** of rollout — **6,500 invitees**, **232 tickets** so far (3.6% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 32** of rollout — **6,500 invitees**, **234 tickets** so far (3.6% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **6** solved in last 24h
-- **232** tickets total since launch · contact rate **4%** of 6500 invitees
+- **13** new tickets in last 24h · **6** solved in last 24h
+- **234** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
@@ -21,6 +21,8 @@ Flight 3 is **day 32** of rollout — **6,500 invitees**, **232 tickets** so far
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"side able"** — 2 tickets in 24h (new; baseline 0 cum) — [#7071](https://tbpro.zendesk.com/agent/tickets/7071), [#7072](https://tbpro.zendesk.com/agent/tickets/7072)
+- **"attached screenshot"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
+- **"custom domains"** — 2 tickets in 24h (6.9× baseline; baseline 9 cum) — [#7063](https://tbpro.zendesk.com/agent/tickets/7063), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 - **"early bird"** — 2 tickets in 24h (6.2× baseline; baseline 10 cum) — [#7061](https://tbpro.zendesk.com/agent/tickets/7061), [#7068](https://tbpro.zendesk.com/agent/tickets/7068)
 
 ## Known problems — 3 problem(s), 7 incident(s)
@@ -69,14 +71,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 158
-- **pending**: 43
-- **open**: 15
+- **pending**: 42
+- **open**: 18
 - **closed**: 10
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 114
+- **Thundermail**: 116
 - **Account Hub**: 98
 - **Appointment**: 8
 - **Send**: 6
@@ -86,19 +88,19 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 52
-- **blocked** + **explained**: 34
+- **blocked** + **explained**: 35
 - **request** + **redirected**: 18
 - **change request** + **actioned**: 13
 - **blocked** + **escalated**: 12
 - **blocked** + **investigated**: 12
 - **confused** + **explained**: 10
+- **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
-- **blocked** + **—**: 4
 - **concerned** + **explained**: 4
 - **request** + **actioned**: 3
+- **blocked** + **redirected**: 2
 - **curious** + **informed**: 2
 - **request** + **explained**: 2
-- **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **blocked** + **informed**: 1
@@ -124,12 +126,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Early bird / invite / waitlist — 3 tickets
 
+- **[#7073](https://tbpro.zendesk.com/agent/tickets/7073)** · Change recovery email
+  > Hi, i signed up for the waitlist twice once with my personal and once with my professional email. I signed up and paid now with my business email since this is where i…
 - **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation
   > Hello, In a recent discussion on the early bird matrix, there were a few comments regarding a second invitation. I've used my initial invitation for my personal email, but am…
 - **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
   > Hi! When is the last day to buy the Early Bird offer? Thanks!
+
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#7077](https://tbpro.zendesk.com/agent/tickets/7077)** · False error showing on account hub re: custom domain verification
+  > A while ago I setup 2 custom domains that worked fine. It seems there was a change in how thundermail decided to do DKIM records so I recently updated my DNS records for my…
+- **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
+  > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
 
 ### Account access issues — 2 tickets
 
@@ -140,18 +151,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account creation / signup confusion — 1 tickets
 
-- **[#7072](https://tbpro.zendesk.com/agent/tickets/7072)** · wont able to create an account
-  > help me i get an email from your side but i wont able to crete an accouny
+- **[#7075](https://tbpro.zendesk.com/agent/tickets/7075)** · Thundermail Sign Up
+  > I was having issues subscribing to Thundermail with my subscription method and now my chosen address has gone back into the pool. The subscription method issue should now be fixed…
 
 ### Other / uncategorized — 1 tickets
 
 - **[#7071](https://tbpro.zendesk.com/agent/tickets/7071)** · wont able to signuo
   > i get a email from your side but i wont able to signuo,please help me related to that
-
-### Email sending / receiving / SMTP / IMAP — 1 tickets
-
-- **[#7070](https://tbpro.zendesk.com/agent/tickets/7070)** · Setting up JMAP
-  > I just got my shiny new thundermail account and am setting things up. I had read about the JMAP protocol which is supported (or will be?) by the service.…
 
 ### App setup / configuration — 1 tickets
 
@@ -163,29 +169,31 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7067](https://tbpro.zendesk.com/agent/tickets/7067)** · Importing my calendar ics to Thundermail fails with code 412
   > Currently, when trying to import my calendar ICS file using Thunderbird, it will spit out this : ERROR CODE: MODIFICATION_FAILED Status Code: 2,147,500,037, null Server Replied…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Pricing — payment issue — 1 tickets
 
-- **[#7064](https://tbpro.zendesk.com/agent/tickets/7064)** · Account Refund
-  > Hi! I purchased a thunderbird pro subscription about a week ago, but I've determined that it's too difficult for me to switch providers at the moment, so I have cancelled my…
+- **[#7072](https://tbpro.zendesk.com/agent/tickets/7072)** · wont able to create an account — why: **blocked**
+  > help me i get an email from your side but i wont able to crete an accouny
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Email sending / receiving / SMTP / IMAP — 1 tickets
 
-- **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
-  > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
+- **[#7070](https://tbpro.zendesk.com/agent/tickets/7070)** · Setting up JMAP — why: **blocked** · how: **explained**
+  > I just got my shiny new thundermail account and am setting things up. I had read about the JMAP protocol which is supported (or will be?) by the service.…
 
 ## New tickets — last 24h
 
-- [7061](https://tbpro.zendesk.com/agent/tickets/7061) · [pending] · 2026-07-22T20:45 · Early Bird deadline 
+- [7061](https://tbpro.zendesk.com/agent/tickets/7061) · [open] · 2026-07-22T20:45 · Early Bird deadline 
 - [7062](https://tbpro.zendesk.com/agent/tickets/7062) · [pending] · 2026-07-22T20:46 · Adding Domain
 - [7063](https://tbpro.zendesk.com/agent/tickets/7063) · [open] · 2026-07-22T22:42 · Questions about Thundermail data handling for EEA customers
-- [7064](https://tbpro.zendesk.com/agent/tickets/7064) · [open] · 2026-07-22T22:59 · Account Refund
 - [7065](https://tbpro.zendesk.com/agent/tickets/7065) · [open] · 2026-07-22T23:16 · Unable to access through Thunderbird application on PC
 - [7067](https://tbpro.zendesk.com/agent/tickets/7067) · [open] · 2026-07-23T00:34 · Importing my calendar ics to Thundermail fails with code 412
 - [7068](https://tbpro.zendesk.com/agent/tickets/7068) · [open] · 2026-07-23T01:14 · Second invitation
 - [7069](https://tbpro.zendesk.com/agent/tickets/7069) · [open] · 2026-07-23T03:28 · Cannot add Thunderbird Pro add-on
-- [7070](https://tbpro.zendesk.com/agent/tickets/7070) · [open] · 2026-07-23T04:11 · Setting up JMAP
+- [7070](https://tbpro.zendesk.com/agent/tickets/7070) · [pending] · 2026-07-23T04:11 · Setting up JMAP
 - [7071](https://tbpro.zendesk.com/agent/tickets/7071) · [open] · 2026-07-23T04:55 · wont able to signuo
-- [7072](https://tbpro.zendesk.com/agent/tickets/7072) · [open] · 2026-07-23T04:56 · wont able to create an account
+- [7072](https://tbpro.zendesk.com/agent/tickets/7072) · [pending] · 2026-07-23T04:56 · wont able to create an account
+- [7073](https://tbpro.zendesk.com/agent/tickets/7073) · [open] · 2026-07-23T06:10 · Change recovery email
+- [7075](https://tbpro.zendesk.com/agent/tickets/7075) · [open] · 2026-07-23T06:36 · Thundermail Sign Up
+- [7077](https://tbpro.zendesk.com/agent/tickets/7077) · [open] · 2026-07-23T06:51 · False error showing on account hub re: custom domain verification
 
 ## Solved — last 24h
 
