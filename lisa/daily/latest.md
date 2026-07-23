@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 15:40 ET** · refreshes hourly_  
+_Updated: **2026-07-23 16:33 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 32** of rollout — **6,500 invitees**, **260 tickets** so far
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
-- **Median AHT**: 125.9h · mean 149.4h (proxy: updated_at − created_at, 167 solved tickets)
+- **Median AHT**: 125.9h · mean 149.5h (proxy: updated_at − created_at, 167 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -102,24 +102,24 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 167
-- **pending**: 62
+- **pending**: 63
 - **closed**: 16
 - **hold**: 8
-- **open**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 122
-- **Thundermail**: 116
+- **Thundermail**: 115
 - **Appointment**: 8
-- **Send**: 6
+- **Send**: 7
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 57
-- **blocked** + **explained**: 38
+- **blocked** + **explained**: 39
 - **change request** + **actioned**: 33
 - **request** + **redirected**: 19
 - **blocked** + **escalated**: 12
@@ -194,11 +194,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7063](https://tbpro.zendesk.com/agent/tickets/7063)** · Questions about Thundermail data handling for EEA customers — why: **curious** · how: **informed**
   > Hi [name] team, I’m considering moving my primary email and custom domains from [domain] to Thundermail. I already use Thunderbird, and I particularly like the direction of…
 
-### App setup / configuration — 1 tickets
-
-- **[#7069](https://tbpro.zendesk.com/agent/tickets/7069)** · Cannot add Thunderbird Pro add-on
-  > Hello, I am trying to install the Thunderbird Pro addon to the latest version of Thunderbird for Windows (153.0) and a dialog box will say it's added but nothing shows up in the…
-
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7089](https://tbpro.zendesk.com/agent/tickets/7089)** · Waited for ages only to encounter a paywall — why: **curious** · how: **explained**
@@ -224,6 +219,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7070](https://tbpro.zendesk.com/agent/tickets/7070)** · Setting up JMAP — why: **blocked** · how: **explained**
   > I just got my shiny new thundermail account and am setting things up. I had read about the JMAP protocol which is supported (or will be?) by the service.…
 
+### App setup / configuration — 1 tickets
+
+- **[#7069](https://tbpro.zendesk.com/agent/tickets/7069)** · Cannot add Thunderbird Pro add-on — why: **blocked** · how: **explained**
+  > Hello, I am trying to install the Thunderbird Pro addon to the latest version of Thunderbird for Windows (153.0) and a dialog box will say it's added but nothing shows up in the…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#7067](https://tbpro.zendesk.com/agent/tickets/7067)** · Importing my calendar ics to Thundermail fails with code 412
@@ -243,7 +243,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7065](https://tbpro.zendesk.com/agent/tickets/7065) · [pending] · 2026-07-22T23:16 · Unable to access through Thunderbird application on PC
 - [7067](https://tbpro.zendesk.com/agent/tickets/7067) · [pending] · 2026-07-23T00:34 · Importing my calendar ics to Thundermail fails with code 412
 - [7068](https://tbpro.zendesk.com/agent/tickets/7068) · [solved] · 2026-07-23T01:14 · Second invitation
-- [7069](https://tbpro.zendesk.com/agent/tickets/7069) · [open] · 2026-07-23T03:28 · Cannot add Thunderbird Pro add-on
+- [7069](https://tbpro.zendesk.com/agent/tickets/7069) · [pending] · 2026-07-23T03:28 · Cannot add Thunderbird Pro add-on
 - [7070](https://tbpro.zendesk.com/agent/tickets/7070) · [pending] · 2026-07-23T04:11 · Setting up JMAP
 - [7071](https://tbpro.zendesk.com/agent/tickets/7071) · [pending] · 2026-07-23T04:55 · wont able to signuo
 - [7072](https://tbpro.zendesk.com/agent/tickets/7072) · [pending] · 2026-07-23T04:56 · wont able to create an account
