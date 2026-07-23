@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 16:33 ET** · refreshes hourly_  
+_Updated: **2026-07-23 17:31 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 32** of rollout — **6,500 invitees**, **260 tickets** so far (4.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 32** of rollout — **6,500 invitees**, **261 tickets** so far (4.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
 - **19** new tickets in last 24h · **22** solved in last 24h
-- **260** tickets total since launch · contact rate **4%** of 6500 invitees
+- **261** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
@@ -23,8 +23,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"early bird"** — 3 tickets in 24h (7.2× baseline; baseline 13 cum) — [#7061](https://tbpro.zendesk.com/agent/tickets/7061), [#7068](https://tbpro.zendesk.com/agent/tickets/7068), [#7096](https://tbpro.zendesk.com/agent/tickets/7096)
 - **"provider before"** — 2 tickets in 24h (new; baseline 0 cum) — [#7063](https://tbpro.zendesk.com/agent/tickets/7063), [#7096](https://tbpro.zendesk.com/agent/tickets/7096)
 - **"side able"** — 2 tickets in 24h (new; baseline 0 cum) — [#7071](https://tbpro.zendesk.com/agent/tickets/7071), [#7072](https://tbpro.zendesk.com/agent/tickets/7072)
-- **"doesn seem"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 - **"sign link"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7075](https://tbpro.zendesk.com/agent/tickets/7075), [#7089](https://tbpro.zendesk.com/agent/tickets/7089)
+- **"attached screenshot"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 - **"annual subscription"** — 2 tickets in 24h (10.3× baseline; baseline 6 cum) — [#7089](https://tbpro.zendesk.com/agent/tickets/7089), [#7096](https://tbpro.zendesk.com/agent/tickets/7096)
 - **"custom domains"** — 2 tickets in 24h (6.9× baseline; baseline 9 cum) — [#7063](https://tbpro.zendesk.com/agent/tickets/7063), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 
@@ -102,15 +102,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 167
-- **pending**: 63
+- **pending**: 65
 - **closed**: 16
 - **hold**: 8
-- **open**: 6
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 122
-- **Thundermail**: 115
+- **Thundermail**: 116
 - **Appointment**: 8
 - **Send**: 7
 
@@ -249,10 +249,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7072](https://tbpro.zendesk.com/agent/tickets/7072) · [pending] · 2026-07-23T04:56 · wont able to create an account
 - [7073](https://tbpro.zendesk.com/agent/tickets/7073) · [pending] · 2026-07-23T06:10 · Change recovery email
 - [7075](https://tbpro.zendesk.com/agent/tickets/7075) · [pending] · 2026-07-23T06:36 · Thundermail Sign Up
-- [7077](https://tbpro.zendesk.com/agent/tickets/7077) · [open] · 2026-07-23T06:51 · False error showing on account hub re: custom domain verification
+- [7077](https://tbpro.zendesk.com/agent/tickets/7077) · [pending] · 2026-07-23T06:51 · False error showing on account hub re: custom domain verification
 - [7081](https://tbpro.zendesk.com/agent/tickets/7081) · [pending] · 2026-07-23T09:14 · My donation refunded - No subject provided
 - [7082](https://tbpro.zendesk.com/agent/tickets/7082) · [pending] · 2026-07-23T10:04 · Visa 3D secure failing payment
-- [7084](https://tbpro.zendesk.com/agent/tickets/7084) · [open] · 2026-07-23T10:20 · CONFIGURATION DNS anomaly
+- [7084](https://tbpro.zendesk.com/agent/tickets/7084) · [pending] · 2026-07-23T10:20 · CONFIGURATION DNS anomaly
 - [7089](https://tbpro.zendesk.com/agent/tickets/7089) · [pending] · 2026-07-23T13:44 · Waited for ages only to encounter a paywall
 - [7096](https://tbpro.zendesk.com/agent/tickets/7096) · [open] · 2026-07-23T18:17 · Early Bird plan costs
 
