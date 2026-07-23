@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 03:02 ET** · refreshes hourly_  
+_Updated: **2026-07-23 03:58 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -128,19 +128,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 3 tickets
 
-- **[#7073](https://tbpro.zendesk.com/agent/tickets/7073)** · Change recovery email
-  > Hi, i signed up for the waitlist twice once with my personal and once with my professional email. I signed up and paid now with my business email since this is where i…
 - **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation
   > Hello, In a recent discussion on the early bird matrix, there were a few comments regarding a second invitation. I've used my initial invitation for my personal email, but am…
 - **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
   > Hi! When is the last day to buy the Early Bird offer? Thanks!
-
-### Custom domain / DKIM / DNS — 2 tickets
-
-- **[#7077](https://tbpro.zendesk.com/agent/tickets/7077)** · False error showing on account hub re: custom domain verification
-  > A while ago I setup 2 custom domains that worked fine. It seems there was a change in how thundermail decided to do DKIM records so I recently updated my DNS records for my…
-- **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
-  > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
+- **[#7073](https://tbpro.zendesk.com/agent/tickets/7073)** · Change recovery email
+  > Hi, i signed up for the waitlist twice once with my personal and once with my professional email. I signed up and paid now with my business email since this is where i…
 
 ### Account access issues — 2 tickets
 
@@ -149,35 +142,42 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7063](https://tbpro.zendesk.com/agent/tickets/7063)** · Questions about Thundermail data handling for EEA customers
   > Hi [name] team, I’m considering moving my primary email and custom domains from [domain] to Thundermail. I already use Thunderbird, and I particularly like the direction of…
 
-### Account creation / signup confusion — 1 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#7075](https://tbpro.zendesk.com/agent/tickets/7075)** · Thundermail Sign Up
-  > I was having issues subscribing to Thundermail with my subscription method and now my chosen address has gone back into the pool. The subscription method issue should now be fixed…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7071](https://tbpro.zendesk.com/agent/tickets/7071)** · wont able to signuo
-  > i get a email from your side but i wont able to signuo,please help me related to that
-
-### App setup / configuration — 1 tickets
-
-- **[#7069](https://tbpro.zendesk.com/agent/tickets/7069)** · Cannot add Thunderbird Pro add-on
-  > Hello, I am trying to install the Thunderbird Pro addon to the latest version of Thunderbird for Windows (153.0) and a dialog box will say it's added but nothing shows up in the…
+- **[#7077](https://tbpro.zendesk.com/agent/tickets/7077)** · False error showing on account hub re: custom domain verification
+  > A while ago I setup 2 custom domains that worked fine. It seems there was a change in how thundermail decided to do DKIM records so I recently updated my DNS records for my…
+- **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
+  > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
 
 ### Appointment / calendar — 1 tickets
 
 - **[#7067](https://tbpro.zendesk.com/agent/tickets/7067)** · Importing my calendar ics to Thundermail fails with code 412
   > Currently, when trying to import my calendar ICS file using Thunderbird, it will spit out this : ERROR CODE: MODIFICATION_FAILED Status Code: 2,147,500,037, null Server Replied…
 
-### Pricing — payment issue — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#7072](https://tbpro.zendesk.com/agent/tickets/7072)** · wont able to create an account — why: **blocked**
-  > help me i get an email from your side but i wont able to crete an accouny
+- **[#7069](https://tbpro.zendesk.com/agent/tickets/7069)** · Cannot add Thunderbird Pro add-on
+  > Hello, I am trying to install the Thunderbird Pro addon to the latest version of Thunderbird for Windows (153.0) and a dialog box will say it's added but nothing shows up in the…
+
+### Other / uncategorized — 1 tickets
+
+- **[#7071](https://tbpro.zendesk.com/agent/tickets/7071)** · wont able to signuo
+  > i get a email from your side but i wont able to signuo,please help me related to that
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#7075](https://tbpro.zendesk.com/agent/tickets/7075)** · Thundermail Sign Up
+  > I was having issues subscribing to Thundermail with my subscription method and now my chosen address has gone back into the pool. The subscription method issue should now be fixed…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#7070](https://tbpro.zendesk.com/agent/tickets/7070)** · Setting up JMAP — why: **blocked** · how: **explained**
   > I just got my shiny new thundermail account and am setting things up. I had read about the JMAP protocol which is supported (or will be?) by the service.…
+
+### Pricing — payment issue — 1 tickets
+
+- **[#7072](https://tbpro.zendesk.com/agent/tickets/7072)** · wont able to create an account — why: **blocked**
+  > help me i get an email from your side but i wont able to crete an accouny
 
 ## New tickets — last 24h
 
