@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 10:53 ET** · refreshes hourly_  
+_Updated: **2026-07-23 11:47 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,15 +13,15 @@ Flight 3 is **day 32** of rollout — **6,500 invitees**, **260 tickets** so far
 - **260** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
-- **Median AHT**: 124.7h · mean 147.6h (proxy: updated_at − created_at, 170 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 52
+- **Median AHT**: 124.8h · mean 148.3h (proxy: updated_at − created_at, 169 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"side able"** — 2 tickets in 24h (new; baseline 0 cum) — [#7071](https://tbpro.zendesk.com/agent/tickets/7071), [#7072](https://tbpro.zendesk.com/agent/tickets/7072)
-- **"doesn seem"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
+- **"attached screenshot"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7062](https://tbpro.zendesk.com/agent/tickets/7062), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 - **"sign link"** — 2 tickets in 24h (31.0× baseline; baseline 2 cum) — [#7075](https://tbpro.zendesk.com/agent/tickets/7075), [#7089](https://tbpro.zendesk.com/agent/tickets/7089)
 - **"custom domains"** — 2 tickets in 24h (6.9× baseline; baseline 9 cum) — [#7063](https://tbpro.zendesk.com/agent/tickets/7063), [#7077](https://tbpro.zendesk.com/agent/tickets/7077)
 - **"early bird"** — 2 tickets in 24h (4.8× baseline; baseline 13 cum) — [#7061](https://tbpro.zendesk.com/agent/tickets/7061), [#7068](https://tbpro.zendesk.com/agent/tickets/7068)
@@ -88,9 +88,11 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 4 new:
 
-- [Let dots not count for a username](https://ideas.tb.pro/p/let-dots-not-count-for-a-username) · 1 votes · _untagged_
+- [Account Merging for Early Supporters](https://ideas.tb.pro/p/account-merging-for-early-supporters) · 1 votes · _untagged_
+  > What you'd like to seeAccount Merging for Early SupportersAllow users to merge multiple ThunderMail accounts into a single account while retaining all aliases from each account. This feature would…
+- [Let dots not count for a username](https://ideas.tb.pro/p/let-dots-not-count-for-a-username) · 1 votes · _Thundermail_
   > What you’d like to seeCurrently it looks like one person could register John.Smith@thundermail.com, and another one can register JohnSmith@thundermail.com.To me it would be nice if they automatically…
 - [Subdomain addressing](https://ideas.tb.pro/p/subdomain-addressing) · 1 votes · _Thundermail, Privacy & Security, New Feature, Improvement_
   > What you’d like to seeThe equivalent of this fastmail feature.Why it matters / Your use caseWhen considering migrating my primary domain from Fastmail, I realized that there’s no easy way to receive…
@@ -99,10 +101,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 170
+- **solved**: 169
 - **pending**: 54
 - **open**: 18
-- **closed**: 11
+- **closed**: 12
 - **hold**: 7
 
 ## Service (cumulative)
@@ -116,7 +118,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 56
+- **curious** + **explained**: 57
 - **blocked** + **explained**: 38
 - **change request** + **actioned**: 33
 - **request** + **redirected**: 18
@@ -164,12 +166,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
   > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
 
-### Early bird / invite / waitlist — 2 tickets
+### Waitlist / onboarding inquiry — 2 tickets
 
-- **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation
+- **[#7068](https://tbpro.zendesk.com/agent/tickets/7068)** · Second invitation — why: **curious** · how: **explained**
   > Hello, In a recent discussion on the early bird matrix, there were a few comments regarding a second invitation. I've used my initial invitation for my personal email, but am…
-- **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
-  > Hi! When is the last day to buy the Early Bird offer? Thanks!
+- **[#7081](https://tbpro.zendesk.com/agent/tickets/7081)** · My donation refunded - No subject provided — why: **curious** · how: **explained**
+  > I paid $10.20 NZD thinking that i would get an email address, but there is a waitlist, which defeats the purpose.
 
 ### Account access issues — 2 tickets
 
@@ -200,15 +202,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7067](https://tbpro.zendesk.com/agent/tickets/7067)** · Importing my calendar ics to Thundermail fails with code 412
   > Currently, when trying to import my calendar ICS file using Thunderbird, it will spit out this : ERROR CODE: MODIFICATION_FAILED Status Code: 2,147,500,037, null Server Replied…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
+  > Hi! When is the last day to buy the Early Bird offer? Thanks!
+
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7089](https://tbpro.zendesk.com/agent/tickets/7089)** · Waited for ages only to encounter a paywall — why: **curious** · how: **explained**
   > Had been waiting for so long that when I saw the invite in email, I could not believe it and ignored it assuming it was just another update but another mail was more clear and…
-
-### Waitlist / onboarding inquiry — 1 tickets
-
-- **[#7081](https://tbpro.zendesk.com/agent/tickets/7081)** · My donation refunded - No subject provided — why: **curious** · how: **explained**
-  > I paid $10.20 NZD thinking that i would get an email address, but there is a waitlist, which defeats the purpose.
 
 ### Early bird signup — 1 tickets
 
