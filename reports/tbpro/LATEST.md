@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-22 23:14 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 31** of rollout — **6,500 invitees**, **229 tickets** so far
 
 ## At a glance
 
-- **20** new tickets in last 24h · **13** solved in last 24h
+- **20** new tickets in last 24h · **12** solved in last 24h
 - **229** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
-- **Median AHT**: 123.3h · mean 132.7h (proxy: updated_at − created_at, 158 solved tickets)
+- **Median AHT**: 123.3h · mean 132.8h (proxy: updated_at − created_at, 158 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -67,8 +67,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 158
-- **pending**: 40
-- **open**: 15
+- **pending**: 39
+- **open**: 16
 - **closed**: 10
 - **hold**: 6
 
@@ -229,7 +229,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6891](https://tbpro.zendesk.com/agent/tickets/6891) · 2026-07-21T21:02 · Wo werden die Daten von Thundermail gespeichert
 - · [6733](https://tbpro.zendesk.com/agent/tickets/6733) · 2026-07-21T21:02 · Addressbook in Webmail
 - · [6894](https://tbpro.zendesk.com/agent/tickets/6894) · 2026-07-21T22:02 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
-- · [7030](https://tbpro.zendesk.com/agent/tickets/7030) · 2026-07-22T01:54 · Email Sign Up
 - · [6911](https://tbpro.zendesk.com/agent/tickets/6911) · 2026-07-22T02:01 · IONOS DNS Records Assistance
 - · [6913](https://tbpro.zendesk.com/agent/tickets/6913) · 2026-07-22T04:01 · alias folder???
 - · [7018](https://tbpro.zendesk.com/agent/tickets/7018) · 2026-07-22T13:23 · Cost
