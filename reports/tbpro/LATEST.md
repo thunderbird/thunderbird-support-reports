@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-22
 
-_Updated: **2026-07-22 19:29 ET** · refreshes hourly_  
+_Updated: **2026-07-22 20:52 ET** · refreshes hourly_  
 _24h window: 2026-07-21T16:00 → 2026-07-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 31** of rollout — **6,500 invitees**, **227 tickets** so far (3.5% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
+Flight 3 is **day 31** of rollout — **6,500 invitees**, **228 tickets** so far (3.5% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **14** solved in last 24h
-- **227** tickets total since launch · contact rate **3%** of 6500 invitees
+- **20** new tickets in last 24h · **13** solved in last 24h
+- **228** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 49
-- **Median AHT**: 123.1h · mean 132.3h (proxy: updated_at − created_at, 157 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
+- **Median AHT**: 123.1h · mean 132.4h (proxy: updated_at − created_at, 157 solved tickets)
 
 ## Known problems — 3 problem(s), 7 incident(s)
 
@@ -67,14 +67,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 157
-- **pending**: 44
-- **open**: 10
+- **pending**: 41
+- **open**: 14
 - **closed**: 10
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Thundermail**: 111
+- **Thundermail**: 112
 - **Account Hub**: 96
 - **Appointment**: 8
 - **Send**: 6
@@ -99,13 +99,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
-- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
@@ -220,7 +220,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7041](https://tbpro.zendesk.com/agent/tickets/7041) · [pending] · 2026-07-22T10:02 · JMAP support and other queries
 - [7045](https://tbpro.zendesk.com/agent/tickets/7045) · [pending] · 2026-07-22T13:00 · Service testing
 - [7049](https://tbpro.zendesk.com/agent/tickets/7049) · [pending] · 2026-07-22T13:58 · changing the original gmail address to a different address
-- [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [pending] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
+- [7050](https://tbpro.zendesk.com/agent/tickets/7050) · [open] · 2026-07-22T14:40 · Folder showing in webmail but not Thunderbird
 - [7052](https://tbpro.zendesk.com/agent/tickets/7052) · [open] · 2026-07-22T16:30 · Please delete account
 - [7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · 2026-07-22T16:48 · Thundermail: Account refunded and canceled, purge queue
 
@@ -229,7 +229,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6891](https://tbpro.zendesk.com/agent/tickets/6891) · 2026-07-21T21:02 · Wo werden die Daten von Thundermail gespeichert
 - · [6733](https://tbpro.zendesk.com/agent/tickets/6733) · 2026-07-21T21:02 · Addressbook in Webmail
 - · [6894](https://tbpro.zendesk.com/agent/tickets/6894) · 2026-07-21T22:02 · Question: Server-side (Sieve) filtering support for custom domain mailboxes?
-- · [7020](https://tbpro.zendesk.com/agent/tickets/7020) · 2026-07-21T23:31 · European servers
 - · [7030](https://tbpro.zendesk.com/agent/tickets/7030) · 2026-07-22T01:54 · Email Sign Up
 - · [6911](https://tbpro.zendesk.com/agent/tickets/6911) · 2026-07-22T02:01 · IONOS DNS Records Assistance
 - · [6913](https://tbpro.zendesk.com/agent/tickets/6913) · 2026-07-22T04:01 · alias folder???
