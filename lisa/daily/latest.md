@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 05:03 ET** · refreshes hourly_  
+_Updated: **2026-07-23 06:00 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 32** of rollout — **6,500 invitees**, **235 tickets** so far
 - **235** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
 - **Median AHT**: 123.3h · mean 132.8h (proxy: updated_at − created_at, 158 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -62,8 +62,10 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Let dots not count for a username](https://ideas.tb.pro/p/let-dots-not-count-for-a-username) · 1 votes · _untagged_
+  > What you’d like to seeCurrently it looks like one person could register John.Smith@thundermail.com, and another one can register JohnSmith@thundermail.com.To me it would be nice if they automatically…
 - [Subdomain addressing](https://ideas.tb.pro/p/subdomain-addressing) · 1 votes · _Thundermail, Privacy & Security, New Feature, Improvement_
   > What you’d like to seeThe equivalent of this fastmail feature.Why it matters / Your use caseWhen considering migrating my primary domain from Fastmail, I realized that there’s no easy way to receive…
 - [Consider removing three character restrictions on alias for custom domains](https://ideas.tb.pro/p/consider-removing-three-character-restrictions-on-alias-for-custom-domains) · 1 votes · _Thundermail, Improvement_
