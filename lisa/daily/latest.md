@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-23
 
-_Updated: **2026-07-23 20:49 ET** · refreshes hourly_  
+_Updated: **2026-07-23 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-22T16:00 → 2026-07-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 32** of rollout — **6,500 invitees**, **262 tickets** so far (4.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 32** of rollout — **6,500 invitees**, **263 tickets** so far (4.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
 - **19** new tickets in last 24h · **21** solved in last 24h
-- **262** tickets total since launch · contact rate **4%** of 6500 invitees
+- **263** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
-- **Median AHT**: 125.9h · mean 149.7h (proxy: updated_at − created_at, 167 solved tickets)
+- **Median AHT**: 124.8h · mean 148.3h (proxy: updated_at − created_at, 169 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -101,16 +101,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 167
-- **pending**: 62
+- **solved**: 169
+- **pending**: 64
 - **closed**: 16
-- **open**: 9
 - **hold**: 8
+- **open**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 123
-- **Thundermail**: 116
+- **Account Hub**: 125
+- **Thundermail**: 115
 - **Appointment**: 8
 - **Send**: 7
 
@@ -118,7 +119,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 57
+- **curious** + **explained**: 59
 - **blocked** + **explained**: 39
 - **change request** + **actioned**: 33
 - **request** + **redirected**: 19
@@ -130,6 +131,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 4
 - **curious** + **informed**: 3
 - **request** + **actioned**: 3
+- **other** + **n/a**: 2
 - **request** + **explained**: 2
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -144,7 +146,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
-- **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
@@ -166,12 +167,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7062](https://tbpro.zendesk.com/agent/tickets/7062)** · Adding Domain — why: **confused** · how: **explained**
   > I added a domain maybe 6 or 7 hours ago, it doesn't seem to be taking. Domain is [domain], I have attached a screenshot of my DNS records.
 
-### Early bird / invite / waitlist — 2 tickets
+### Pricing — wanted free / monthly plan — 2 tickets
 
-- **[#7096](https://tbpro.zendesk.com/agent/tickets/7096)** · Early Bird plan costs
+- **[#7096](https://tbpro.zendesk.com/agent/tickets/7096)** · Early Bird plan costs — why: **curious** · how: **explained**
   > Hello [name], I am interested in subscribing to the Thundermail Early Bird plan and potentially using it as my long-term email provider. Before subscribing, I would like to…
-- **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
-  > Hi! When is the last day to buy the Early Bird offer? Thanks!
+- **[#7089](https://tbpro.zendesk.com/agent/tickets/7089)** · Waited for ages only to encounter a paywall — why: **curious** · how: **explained**
+  > Had been waiting for so long that when I saw the invite in email, I could not believe it and ignored it assuming it was just another update but another mail was more clear and…
 
 ### Pricing — payment issue — 2 tickets
 
@@ -204,10 +205,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7067](https://tbpro.zendesk.com/agent/tickets/7067)** · Importing my calendar ics to Thundermail fails with code 412
   > Currently, when trying to import my calendar ICS file using Thunderbird, it will spit out this : ERROR CODE: MODIFICATION_FAILED Status Code: 2,147,500,037, null Server Replied…
 
-### Pricing — wanted free / monthly plan — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7089](https://tbpro.zendesk.com/agent/tickets/7089)** · Waited for ages only to encounter a paywall — why: **curious** · how: **explained**
-  > Had been waiting for so long that when I saw the invite in email, I could not believe it and ignored it assuming it was just another update but another mail was more clear and…
+- **[#7061](https://tbpro.zendesk.com/agent/tickets/7061)** · Early Bird deadline 
+  > Hi! When is the last day to buy the Early Bird offer? Thanks!
 
 ### Early bird signup — 1 tickets
 
@@ -254,7 +255,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7082](https://tbpro.zendesk.com/agent/tickets/7082) · [pending] · 2026-07-23T10:04 · Visa 3D secure failing payment
 - [7084](https://tbpro.zendesk.com/agent/tickets/7084) · [pending] · 2026-07-23T10:20 · CONFIGURATION DNS anomaly
 - [7089](https://tbpro.zendesk.com/agent/tickets/7089) · [pending] · 2026-07-23T13:44 · Waited for ages only to encounter a paywall
-- [7096](https://tbpro.zendesk.com/agent/tickets/7096) · [open] · 2026-07-23T18:17 · Early Bird plan costs
+- [7096](https://tbpro.zendesk.com/agent/tickets/7096) · [pending] · 2026-07-23T18:17 · Early Bird plan costs
 
 ## Solved — last 24h
 
