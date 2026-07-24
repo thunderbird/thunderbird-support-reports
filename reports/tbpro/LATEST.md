@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 03:56 ET** · refreshes hourly_  
+_Updated: **2026-07-24 05:01 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -11,8 +11,8 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **265 tickets** so far
 
 - **5** new tickets in last 24h · **4** solved in last 24h
 - **265** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (23 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 51
 - **Median AHT**: 124.8h · mean 148.3h (proxy: updated_at − created_at, 169 solved tickets)
 
@@ -83,11 +83,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 169
-- **pending**: 68
+- **pending**: 67
 - **closed**: 16
 - **hold**: 9
 - **new**: 2
-- **open**: 1
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -176,9 +176,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [7033](https://tbpro.zendesk.com/agent/tickets/7033) · 2026-07-23T20:02 · FEEDBACK: Sign in with username instead of email
-- · [7026](https://tbpro.zendesk.com/agent/tickets/7026) · 2026-07-24T00:01 · Three-character restriction is unfortunate for custom domains
 - · [7101](https://tbpro.zendesk.com/agent/tickets/7101) · 2026-07-24T00:52 · Hello [name]!
 - · [6990](https://tbpro.zendesk.com/agent/tickets/6990) · 2026-07-24T01:33 · Only yearly subscription? Not monthly?
+- 👍 [7026](https://tbpro.zendesk.com/agent/tickets/7026) · 2026-07-24T08:32 · Three-character restriction is unfortunate for custom domains
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
