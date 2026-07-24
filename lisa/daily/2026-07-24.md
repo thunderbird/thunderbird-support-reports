@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 10:46 ET** · refreshes hourly_  
+_Updated: **2026-07-24 11:40 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **266 tickets** so far
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
+- **6** new tickets in last 24h · **7** solved in last 24h
 - **266** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 51
-- **Median AHT**: 124.8h · mean 151.1h (proxy: updated_at − created_at, 169 solved tickets)
+- **Median AHT**: 124.7h · mean 150.3h (proxy: updated_at − created_at, 170 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -72,7 +72,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [open] · _Cancellation & refund_
+- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [solved] · _Cancellation & refund_
   > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
 
 ## New ideas on FeatureOS
@@ -83,8 +83,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 169
-- **pending**: 65
+- **solved**: 170
+- **pending**: 64
 - **closed**: 16
 - **hold**: 9
 - **open**: 5
@@ -177,7 +177,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7101](https://tbpro.zendesk.com/agent/tickets/7101) · [solved] · 2026-07-23T22:02 · Hello [name]!
 - [7103](https://tbpro.zendesk.com/agent/tickets/7103) · [pending] · 2026-07-24T01:42 · Thunderbird Pro coupon code
 - [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [new] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
-- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [pending] · 2026-07-24T06:55 · Cancellation & refund
+- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [solved] · 2026-07-24T06:55 · Cancellation & refund
 - [7127](https://tbpro.zendesk.com/agent/tickets/7127) · [new] · 2026-07-24T14:38 · Another account please
 
 ## Solved — last 24h
@@ -188,6 +188,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [7026](https://tbpro.zendesk.com/agent/tickets/7026) · 2026-07-24T08:32 · Three-character restriction is unfortunate for custom domains
 - · [6958](https://tbpro.zendesk.com/agent/tickets/6958) · 2026-07-24T11:01 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
 - 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-24T13:16 · Squarespace Custom Domain
+- · [7112](https://tbpro.zendesk.com/agent/tickets/7112) · 2026-07-24T15:32 · Cancellation & refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
