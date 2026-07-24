@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 17:32 ET** · refreshes hourly_  
+_Updated: **2026-07-24 18:32 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -87,23 +87,23 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 167
-- **pending**: 68
+- **pending**: 69
 - **closed**: 19
-- **hold**: 12
-- **open**: 6
+- **hold**: 13
+- **open**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 129
-- **Thundermail**: 117
-- **Appointment**: 10
+- **Thundermail**: 118
+- **Appointment**: 9
 - **Send**: 8
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 64
+- **curious** + **explained**: 65
 - **blocked** + **explained**: 41
 - **change request** + **actioned**: 33
 - **request** + **redirected**: 19
@@ -163,7 +163,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7140](https://tbpro.zendesk.com/agent/tickets/7140)** · CalDAV URL 
   > I want to setup an external desktop application (Kontact from KDE) to use it with Thundermail. I managed to setup IMAP and SMTP but have some problems with CalDAV. What URL should…
-- **[#7139](https://tbpro.zendesk.com/agent/tickets/7139)** · Calendar
+- **[#7139](https://tbpro.zendesk.com/agent/tickets/7139)** · Calendar — why: **curious** · how: **explained**
   > Hi, I was looking for the calendar access, but only found the appointment site. Is there any place where I can access and administrate the calendars? Thank you, [name]
 
 ### Account creation / signup confusion — 1 tickets
@@ -202,7 +202,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7132](https://tbpro.zendesk.com/agent/tickets/7132) · [open] · 2026-07-24T16:36 · Unable to sign up
 - [7134](https://tbpro.zendesk.com/agent/tickets/7134) · [hold] · 2026-07-24T16:50 · Aliases
 - [7138](https://tbpro.zendesk.com/agent/tickets/7138) · [open] · 2026-07-24T18:31 · I just signed up, question about longevity of thundermail?
-- [7139](https://tbpro.zendesk.com/agent/tickets/7139) · [open] · 2026-07-24T18:51 · Calendar
+- [7139](https://tbpro.zendesk.com/agent/tickets/7139) · [pending] · 2026-07-24T18:51 · Calendar
 - [7140](https://tbpro.zendesk.com/agent/tickets/7140) · [open] · 2026-07-24T19:28 · CalDAV URL 
 - [7141](https://tbpro.zendesk.com/agent/tickets/7141) · [open] · 2026-07-24T19:55 · Thunderbird Pro 1.9.1
 
