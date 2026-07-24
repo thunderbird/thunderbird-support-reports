@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 08:41 ET** · refreshes hourly_  
+_Updated: **2026-07-24 09:44 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 33** of rollout — **6,500 invitees**, **266 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 33** of rollout — **6,500 invitees**, **265 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **5** solved in last 24h
-- **266** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **5** new tickets in last 24h · **6** solved in last 24h
+- **265** tickets total since launch · contact rate **4%** of 6500 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 51
-- **Median AHT**: 124.8h · mean 148.5h (proxy: updated_at − created_at, 169 solved tickets)
+- **Median AHT**: 124.8h · mean 151.1h (proxy: updated_at − created_at, 169 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -58,12 +58,13 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **266 tickets** so far
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [pending] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [pending] · 2026-07-22 · _Account Refund_
 
-## Other tickets linked to GitHub — 4 ticket(s) → 4 issue(s)
+## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
 
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
 - ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
+- 🔧 [zd #6386](https://tbpro.zendesk.com/agent/tickets/6386) → [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
 
 ## Negative CSAT (since launch)
 
@@ -71,7 +72,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [new] · _Cancellation & refund_
+- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [pending] · _Cancellation & refund_
   > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
 
 ## New ideas on FeatureOS
@@ -86,13 +87,13 @@ _No negative ratings since launch._
 - **pending**: 65
 - **closed**: 16
 - **hold**: 9
-- **open**: 4
-- **new**: 3
+- **open**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 126
-- **Thundermail**: 116
+- **Account Hub**: 127
+- **Thundermail**: 115
 - **Appointment**: 8
 - **Send**: 7
 
@@ -100,7 +101,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 60
+- **curious** + **explained**: 61
 - **blocked** + **explained**: 39
 - **change request** + **actioned**: 33
 - **request** + **redirected**: 19
@@ -140,27 +141,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
-
-- **[#7119](https://tbpro.zendesk.com/agent/tickets/7119)** · Authenticate new thundermail account in thunderbird
-  > Hi [name] is no firewall,VPN,Antivirus or Add-ons. The attachments show the server settings. When I open the inbox in thundermail it tries to authenticate but fails. Thanks,…
-- **[#7101](https://tbpro.zendesk.com/agent/tickets/7101)** · Hello [name]! — why: **other** · how: **n/a**
-  > You cannot. This is a test message, apologies for spamming your queues.
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7112](https://tbpro.zendesk.com/agent/tickets/7112)** · Cancellation & refund
-  > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7104](https://tbpro.zendesk.com/agent/tickets/7104)** · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
   > I tried to add my [domain] domain and don't seem to be able to verify my domain. I already engaged Hover tech support and sent them your instructions. Can you guys take a look and…
 
+### Early bird signup — 1 tickets
+
+- **[#7112](https://tbpro.zendesk.com/agent/tickets/7112)** · Cancellation & refund — why: **curious** · how: **explained**
+  > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
+
 ### Waitlist / onboarding inquiry — 1 tickets
 
 - **[#7103](https://tbpro.zendesk.com/agent/tickets/7103)** · Thunderbird Pro coupon code — why: **curious** · how: **explained**
   > _I am interested in getting Thunderbird Pro. Do my recipients have to have Thunderbird Pro to receive large email? Also where do I get a Thunderbird Pro coupon code? _
+
+### Other / uncategorized — 1 tickets
+
+- **[#7101](https://tbpro.zendesk.com/agent/tickets/7101)** · Hello [name]! — why: **other** · how: **n/a**
+  > You cannot. This is a test message, apologies for spamming your queues.
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
@@ -173,8 +172,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7101](https://tbpro.zendesk.com/agent/tickets/7101) · [solved] · 2026-07-23T22:02 · Hello [name]!
 - [7103](https://tbpro.zendesk.com/agent/tickets/7103) · [pending] · 2026-07-24T01:42 · Thunderbird Pro coupon code
 - [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [new] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
-- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [new] · 2026-07-24T06:55 · Cancellation & refund
-- [7119](https://tbpro.zendesk.com/agent/tickets/7119) · [new] · 2026-07-24T10:20 · Authenticate new thundermail account in thunderbird
+- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [pending] · 2026-07-24T06:55 · Cancellation & refund
 
 ## Solved — last 24h
 
@@ -183,6 +181,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6990](https://tbpro.zendesk.com/agent/tickets/6990) · 2026-07-24T01:33 · Only yearly subscription? Not monthly?
 - 👍 [7026](https://tbpro.zendesk.com/agent/tickets/7026) · 2026-07-24T08:32 · Three-character restriction is unfortunate for custom domains
 - · [6958](https://tbpro.zendesk.com/agent/tickets/6958) · 2026-07-24T11:01 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
+- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-24T13:16 · Squarespace Custom Domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
