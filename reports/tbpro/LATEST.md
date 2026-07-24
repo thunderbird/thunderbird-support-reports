@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 05:58 ET** · refreshes hourly_  
+_Updated: **2026-07-24 06:49 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 33** of rollout — **6,500 invitees**, **265 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 33** of rollout — **6,500 invitees**, **266 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **265** tickets total since launch · contact rate **4%** of 6500 invitees
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **266** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 51
@@ -83,11 +83,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 169
-- **pending**: 67
+- **pending**: 66
 - **closed**: 16
 - **hold**: 9
-- **new**: 2
-- **open**: 2
+- **new**: 3
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -140,6 +140,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#7119](https://tbpro.zendesk.com/agent/tickets/7119)** · Authenticate new thundermail account in thunderbird
+  > Hi [name] is no firewall,VPN,Antivirus or Add-ons. The attachments show the server settings. When I open the inbox in thundermail it tries to authenticate but fails. Thanks,…
+- **[#7101](https://tbpro.zendesk.com/agent/tickets/7101)** · Hello [name]! — why: **other** · how: **n/a**
+  > You cannot. This is a test message, apologies for spamming your queues.
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7112](https://tbpro.zendesk.com/agent/tickets/7112)** · Cancellation & refund
@@ -155,11 +162,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7103](https://tbpro.zendesk.com/agent/tickets/7103)** · Thunderbird Pro coupon code — why: **curious** · how: **explained**
   > _I am interested in getting Thunderbird Pro. Do my recipients have to have Thunderbird Pro to receive large email? Also where do I get a Thunderbird Pro coupon code? _
 
-### Other / uncategorized — 1 tickets
-
-- **[#7101](https://tbpro.zendesk.com/agent/tickets/7101)** · Hello [name]! — why: **other** · how: **n/a**
-  > You cannot. This is a test message, apologies for spamming your queues.
-
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7100](https://tbpro.zendesk.com/agent/tickets/7100)** · paid version  — why: **curious** · how: **explained**
@@ -172,6 +174,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7103](https://tbpro.zendesk.com/agent/tickets/7103) · [pending] · 2026-07-24T01:42 · Thunderbird Pro coupon code
 - [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [new] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
 - [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [new] · 2026-07-24T06:55 · Cancellation & refund
+- [7119](https://tbpro.zendesk.com/agent/tickets/7119) · [new] · 2026-07-24T10:20 · Authenticate new thundermail account in thunderbird
 
 ## Solved — last 24h
 
