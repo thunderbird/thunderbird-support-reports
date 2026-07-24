@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 13:43 ET** · refreshes hourly_  
+_Updated: **2026-07-24 14:40 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 33** of rollout — **6,500 invitees**, **268 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 33** of rollout — **6,500 invitees**, **269 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **7** solved in last 24h
-- **268** tickets total since launch · contact rate **4%** of 6500 invitees
+- **9** new tickets in last 24h · **7** solved in last 24h
+- **269** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
@@ -87,15 +87,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 169
-- **pending**: 66
+- **pending**: 67
 - **closed**: 17
 - **hold**: 10
-- **open**: 6
+- **open**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 129
-- **Thundermail**: 115
+- **Account Hub**: 130
+- **Thundermail**: 116
 - **Appointment**: 8
 - **Send**: 7
 
@@ -103,7 +104,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 62
+- **curious** + **explained**: 63
 - **blocked** + **explained**: 40
 - **change request** + **actioned**: 33
 - **request** + **redirected**: 19
@@ -143,22 +144,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Waitlist / onboarding inquiry — 2 tickets
+### Waitlist / onboarding inquiry — 3 tickets
 
+- **[#7132](https://tbpro.zendesk.com/agent/tickets/7132)** · Unable to sign up — why: **curious** · how: **explained**
+  > Hi, I got an invitation about 3 months ago. I had a [domain] subscription prepaid so I waited before starting to pay for Thunderbird Pro. However, I did sign up to reserve my…
 - **[#7127](https://tbpro.zendesk.com/agent/tickets/7127)** · Another account please — why: **curious** · how: **explained**
   > Hello, Please can I have a third account setup with address [email] Thank you
 - **[#7103](https://tbpro.zendesk.com/agent/tickets/7103)** · Thunderbird Pro coupon code — why: **curious** · how: **explained**
   > _I am interested in getting Thunderbird Pro. Do my recipients have to have Thunderbird Pro to receive large email? Also where do I get a Thunderbird Pro coupon code? _
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#7138](https://tbpro.zendesk.com/agent/tickets/7138)** · I just signed up, question about longevity of thundermail?
+  > Hi [name], I signed-up, but I want to ensure that thundermail will stand the test of time. I'm worried if I switch my email address to thundermail, and then one day support ends,…
+
 ### Aliases — 1 tickets
 
 - **[#7134](https://tbpro.zendesk.com/agent/tickets/7134)** · Aliases
   > Hi, I am trying to set an alias (e.g., ⁠[email]⁠) on my account (e.g., ⁠[email]⁠), but I am receiving an error stating that it is not possible. I suspect this might be because the…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7132](https://tbpro.zendesk.com/agent/tickets/7132)** · Unable to sign up
-  > Hi, I got an invitation about 3 months ago. I had a [domain] subscription prepaid so I waited before starting to pay for Thunderbird Pro. However, I did sign up to reserve my…
 
 ### Early bird signup — 1 tickets
 
@@ -188,8 +191,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [pending] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
 - [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [solved] · 2026-07-24T06:55 · Cancellation & refund
 - [7127](https://tbpro.zendesk.com/agent/tickets/7127) · [pending] · 2026-07-24T14:38 · Another account please
-- [7132](https://tbpro.zendesk.com/agent/tickets/7132) · [open] · 2026-07-24T16:36 · Unable to sign up
+- [7132](https://tbpro.zendesk.com/agent/tickets/7132) · [pending] · 2026-07-24T16:36 · Unable to sign up
 - [7134](https://tbpro.zendesk.com/agent/tickets/7134) · [open] · 2026-07-24T16:50 · Aliases
+- [7138](https://tbpro.zendesk.com/agent/tickets/7138) · [new] · 2026-07-24T18:31 · I just signed up, question about longevity of thundermail?
 
 ## Solved — last 24h
 
