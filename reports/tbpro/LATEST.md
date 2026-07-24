@@ -1,20 +1,27 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 11:40 ET** · refreshes hourly_  
+_Updated: **2026-07-24 12:44 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 33** of rollout — **6,500 invitees**, **266 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 33** of rollout — **6,500 invitees**, **269 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **7** solved in last 24h
-- **266** tickets total since launch · contact rate **4%** of 6500 invitees
+- **9** new tickets in last 24h · **7** solved in last 24h
+- **269** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 51
-- **Median AHT**: 124.7h · mean 150.3h (proxy: updated_at − created_at, 170 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
+- **Median AHT**: 124.8h · mean 151.0h (proxy: updated_at − created_at, 169 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"cancellation refund"** — 2 tickets in 24h (21.3× baseline; baseline 3 cum) — [#7112](https://tbpro.zendesk.com/agent/tickets/7112), [#7129](https://tbpro.zendesk.com/agent/tickets/7129)
+- **"annual subscription"** — 2 tickets in 24h (8.0× baseline; baseline 8 cum) — [#7129](https://tbpro.zendesk.com/agent/tickets/7129), [#7130](https://tbpro.zendesk.com/agent/tickets/7130)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -70,29 +77,34 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **266 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 3
 
 - [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [solved] · _Cancellation & refund_
   > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
+- [7129](https://tbpro.zendesk.com/agent/tickets/7129) · [new] · _Cancel Pro and refund_
+  > Hi - I paid for an annual subscription, clicked around and realized it's not for me. Could I request cancellation and refund to original form of payment?
+- [7130](https://tbpro.zendesk.com/agent/tickets/7130) · [new] · _Cancel Thundermail subscription_
+  > Hi, I just cancelled the annual Pro subscription on paddle for my account [email] after realizing the service is not for me. How do I request a refund?
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Built in aliasing](https://ideas.tb.pro/p/built-in-aliasing) · 1 votes · _untagged_
+  > I would like to see Thundermail have aliasing built into the compose window.Aliasing would be built into and available in the compose window so user’s could easily create a new alias with a create…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 170
+- **solved**: 169
 - **pending**: 64
-- **closed**: 16
-- **hold**: 9
-- **open**: 5
-- **new**: 2
+- **closed**: 17
+- **hold**: 10
+- **open**: 6
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 128
+- **Account Hub**: 130
 - **Thundermail**: 115
 - **Appointment**: 8
 - **Send**: 7
@@ -141,6 +153,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#7130](https://tbpro.zendesk.com/agent/tickets/7130)** · Cancel Thundermail subscription
+  > Hi, I just cancelled the annual Pro subscription on paddle for my account [email] after realizing the service is not for me. How do I request a refund?
+- **[#7129](https://tbpro.zendesk.com/agent/tickets/7129)** · Cancel Pro and refund
+  > Hi - I paid for an annual subscription, clicked around and realized it's not for me. Could I request cancellation and refund to original form of payment?
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7132](https://tbpro.zendesk.com/agent/tickets/7132)** · Unable to sign up
+  > Hi, I got an invitation about 3 months ago. I had a [domain] subscription prepaid so I waited before starting to pay for Thunderbird Pro. However, I did sign up to reserve my…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7127](https://tbpro.zendesk.com/agent/tickets/7127)** · Another account please
@@ -176,9 +200,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7100](https://tbpro.zendesk.com/agent/tickets/7100) · [pending] · 2026-07-23T21:27 · paid version 
 - [7101](https://tbpro.zendesk.com/agent/tickets/7101) · [solved] · 2026-07-23T22:02 · Hello [name]!
 - [7103](https://tbpro.zendesk.com/agent/tickets/7103) · [pending] · 2026-07-24T01:42 · Thunderbird Pro coupon code
-- [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [new] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
+- [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [open] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
 - [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [solved] · 2026-07-24T06:55 · Cancellation & refund
-- [7127](https://tbpro.zendesk.com/agent/tickets/7127) · [new] · 2026-07-24T14:38 · Another account please
+- [7127](https://tbpro.zendesk.com/agent/tickets/7127) · [open] · 2026-07-24T14:38 · Another account please
+- [7129](https://tbpro.zendesk.com/agent/tickets/7129) · [new] · 2026-07-24T16:25 · Cancel Pro and refund
+- [7130](https://tbpro.zendesk.com/agent/tickets/7130) · [new] · 2026-07-24T16:29 · Cancel Thundermail subscription
+- [7132](https://tbpro.zendesk.com/agent/tickets/7132) · [new] · 2026-07-24T16:36 · Unable to sign up
 
 ## Solved — last 24h
 
