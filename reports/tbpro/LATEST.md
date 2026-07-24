@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 16:39 ET** · refreshes hourly_  
+_Updated: **2026-07-24 17:32 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **272 tickets** so far
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 125.4h · mean 152.0h (proxy: updated_at − created_at, 168 solved tickets)
+- **Median AHT**: 125.9h · mean 152.8h (proxy: updated_at − created_at, 167 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -86,11 +86,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 168
-- **pending**: 67
-- **closed**: 18
-- **hold**: 11
-- **open**: 8
+- **solved**: 167
+- **pending**: 68
+- **closed**: 19
+- **hold**: 12
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -201,7 +201,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7127](https://tbpro.zendesk.com/agent/tickets/7127) · [pending] · 2026-07-24T14:38 · Another account please
 - [7132](https://tbpro.zendesk.com/agent/tickets/7132) · [open] · 2026-07-24T16:36 · Unable to sign up
 - [7134](https://tbpro.zendesk.com/agent/tickets/7134) · [hold] · 2026-07-24T16:50 · Aliases
-- [7138](https://tbpro.zendesk.com/agent/tickets/7138) · [pending] · 2026-07-24T18:31 · I just signed up, question about longevity of thundermail?
+- [7138](https://tbpro.zendesk.com/agent/tickets/7138) · [open] · 2026-07-24T18:31 · I just signed up, question about longevity of thundermail?
 - [7139](https://tbpro.zendesk.com/agent/tickets/7139) · [open] · 2026-07-24T18:51 · Calendar
 - [7140](https://tbpro.zendesk.com/agent/tickets/7140) · [open] · 2026-07-24T19:28 · CalDAV URL 
 - [7141](https://tbpro.zendesk.com/agent/tickets/7141) · [open] · 2026-07-24T19:55 · Thunderbird Pro 1.9.1
