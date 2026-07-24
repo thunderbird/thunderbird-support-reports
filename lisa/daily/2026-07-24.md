@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 01:15 ET** · refreshes hourly_  
+_Updated: **2026-07-24 03:03 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 33** of rollout — **6,500 invitees**, **264 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 33** of rollout — **6,500 invitees**, **265 tickets** so far (4.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **264** tickets total since launch · contact rate **4%** of 6500 invitees
+- **5** new tickets in last 24h · **4** solved in last 24h
+- **265** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 51
@@ -69,9 +69,10 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **264 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [new] · _Cancellation & refund_
+  > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
 
 ## New ideas on FeatureOS
 
@@ -86,12 +87,12 @@ _(none in last 24h)_
 - **closed**: 16
 - **hold**: 8
 - **open**: 5
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 125
-- **Thundermail**: 116
+- **Thundermail**: 117
 - **Appointment**: 8
 - **Send**: 7
 
@@ -138,6 +139,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7112](https://tbpro.zendesk.com/agent/tickets/7112)** · Cancellation & refund
+  > Will cancellation of the early bird subscription get me refund? And, what happens to the [email] base email address? Can I re-use it at a later time when I subscribe again.
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7104](https://tbpro.zendesk.com/agent/tickets/7104)** · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
@@ -164,6 +170,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7101](https://tbpro.zendesk.com/agent/tickets/7101) · [solved] · 2026-07-23T22:02 · Hello [name]!
 - [7103](https://tbpro.zendesk.com/agent/tickets/7103) · [pending] · 2026-07-24T01:42 · Thunderbird Pro coupon code
 - [7104](https://tbpro.zendesk.com/agent/tickets/7104) · [new] · 2026-07-24T02:13 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
+- [7112](https://tbpro.zendesk.com/agent/tickets/7112) · [new] · 2026-07-24T06:55 · Cancellation & refund
 
 ## Solved — last 24h
 
