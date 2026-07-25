@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-25
 
-_Updated: **2026-07-25 11:32 ET** · refreshes hourly_  
+_Updated: **2026-07-25 12:27 ET** · refreshes hourly_  
 _24h window: 2026-07-24T16:00 → 2026-07-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 34** of rollout — **6,500 invitees**, **274 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 34** of rollout — **6,500 invitees**, **275 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
-- **274** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (26 good / 0 bad)
+- **3** new tickets in last 24h · **7** solved in last 24h
+- **275** tickets total since launch · contact rate **4%** of 6500 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 125.9h · mean 153.1h (proxy: updated_at − created_at, 168 solved tickets)
+- **Median AHT**: 125.9h · mean 154.0h (proxy: updated_at − created_at, 169 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,12 +82,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 168
-- **pending**: 65
+- **solved**: 169
+- **pending**: 64
 - **closed**: 19
 - **hold**: 11
 - **open**: 9
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -140,6 +140,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7159](https://tbpro.zendesk.com/agent/tickets/7159)** · Create folder
+  > I can't create folders in my thundermail account (android), is it possible? Cordiali Saluti, [name]. +39 335 373864
+
 ### Other / uncategorized — 1 tickets
 
 - **[#7151](https://tbpro.zendesk.com/agent/tickets/7151)** · Delayed emails appearing in my client
@@ -154,6 +159,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7146](https://tbpro.zendesk.com/agent/tickets/7146) · [new] · 2026-07-25T08:19 · Inquiry Regarding Thundermail Pricing
 - [7151](https://tbpro.zendesk.com/agent/tickets/7151) · [new] · 2026-07-25T11:06 · Delayed emails appearing in my client
+- [7159](https://tbpro.zendesk.com/agent/tickets/7159) · [new] · 2026-07-25T16:23 · Create folder
 
 ## Solved — last 24h
 
@@ -162,6 +168,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7101](https://tbpro.zendesk.com/agent/tickets/7101) · 2026-07-25T01:01 · Hello [name]!
 - · [6990](https://tbpro.zendesk.com/agent/tickets/6990) · 2026-07-25T02:01 · Only yearly subscription? Not monthly?
 - · [6948](https://tbpro.zendesk.com/agent/tickets/6948) · 2026-07-25T13:01 · [domain] as default
+- · [6826](https://tbpro.zendesk.com/agent/tickets/6826) · 2026-07-25T16:01 · My account does not work
+- 👍 [7112](https://tbpro.zendesk.com/agent/tickets/7112) · 2026-07-25T16:03 · Cancellation & refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
