@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-25
 
-_Updated: **2026-07-25 16:28 ET** · refreshes hourly_  
+_Updated: **2026-07-25 17:27 ET** · refreshes hourly_  
 _24h window: 2026-07-24T16:00 → 2026-07-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -85,9 +85,9 @@ _(none in last 24h)_
 - **solved**: 171
 - **pending**: 62
 - **closed**: 19
-- **open**: 10
+- **open**: 11
 - **hold**: 10
-- **new**: 4
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -165,7 +165,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7146](https://tbpro.zendesk.com/agent/tickets/7146) · [new] · 2026-07-25T08:19 · Inquiry Regarding Thundermail Pricing
 - [7151](https://tbpro.zendesk.com/agent/tickets/7151) · [new] · 2026-07-25T11:06 · Delayed emails appearing in my client
 - [7159](https://tbpro.zendesk.com/agent/tickets/7159) · [new] · 2026-07-25T16:23 · Create folder
-- [7160](https://tbpro.zendesk.com/agent/tickets/7160) · [new] · 2026-07-25T18:10 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
+- [7160](https://tbpro.zendesk.com/agent/tickets/7160) · [open] · 2026-07-25T18:10 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
 
 ## Solved — last 24h
 
