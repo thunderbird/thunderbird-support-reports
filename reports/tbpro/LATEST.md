@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-25
 
-_Updated: **2026-07-25 06:41 ET** · refreshes hourly_  
+_Updated: **2026-07-25 07:36 ET** · refreshes hourly_  
 _24h window: 2026-07-24T16:00 → 2026-07-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 34** of rollout — **6,500 invitees**, **273 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 34** of rollout — **6,500 invitees**, **274 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **273** tickets total since launch · contact rate **4%** of 6500 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **274** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -87,12 +87,12 @@ _(none in last 24h)_
 - **closed**: 19
 - **hold**: 12
 - **open**: 6
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 129
-- **Thundermail**: 118
+- **Thundermail**: 119
 - **Appointment**: 9
 - **Send**: 8
 
@@ -140,6 +140,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#7151](https://tbpro.zendesk.com/agent/tickets/7151)** · Delayed emails appearing in my client
+  > I am currently using Thunderbird version 153 and notice that all the messages from the "sle-updates" mailing list were arriving yesterday (delayed). These messages were from last…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#7146](https://tbpro.zendesk.com/agent/tickets/7146)** · Inquiry Regarding Thundermail Pricing
@@ -148,6 +153,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7146](https://tbpro.zendesk.com/agent/tickets/7146) · [new] · 2026-07-25T08:19 · Inquiry Regarding Thundermail Pricing
+- [7151](https://tbpro.zendesk.com/agent/tickets/7151) · [new] · 2026-07-25T11:06 · Delayed emails appearing in my client
 
 ## Solved — last 24h
 
