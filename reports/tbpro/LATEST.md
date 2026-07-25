@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-25
 
-_Updated: **2026-07-25 13:29 ET** · refreshes hourly_  
+_Updated: **2026-07-25 14:28 ET** · refreshes hourly_  
 _24h window: 2026-07-24T16:00 → 2026-07-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 34** of rollout — **6,500 invitees**, **275 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 34** of rollout — **6,500 invitees**, **276 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **275** tickets total since launch · contact rate **4%** of 6500 invitees
+- **4** new tickets in last 24h · **9** solved in last 24h
+- **276** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.0h · mean 155.9h (proxy: updated_at − created_at, 170 solved tickets)
+- **Median AHT**: 126.0h · mean 156.1h (proxy: updated_at − created_at, 171 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,17 +82,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 170
-- **pending**: 63
+- **solved**: 171
+- **pending**: 62
 - **closed**: 19
 - **hold**: 11
 - **open**: 9
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 129
-- **Thundermail**: 119
+- **Thundermail**: 120
 - **Appointment**: 9
 - **Send**: 8
 
@@ -140,6 +140,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#7160](https://tbpro.zendesk.com/agent/tickets/7160)** · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
+  > **Account Email:** `[email]` **Server Endpoint:** `[domain]` (Port 465 SSL / Port 993 SSL) **Daemon:** Stalwart ESMTP / IMAP Hello [name], I am experiencing a persistent…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#7159](https://tbpro.zendesk.com/agent/tickets/7159)** · Create folder
@@ -160,6 +165,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7146](https://tbpro.zendesk.com/agent/tickets/7146) · [new] · 2026-07-25T08:19 · Inquiry Regarding Thundermail Pricing
 - [7151](https://tbpro.zendesk.com/agent/tickets/7151) · [new] · 2026-07-25T11:06 · Delayed emails appearing in my client
 - [7159](https://tbpro.zendesk.com/agent/tickets/7159) · [new] · 2026-07-25T16:23 · Create folder
+- [7160](https://tbpro.zendesk.com/agent/tickets/7160) · [new] · 2026-07-25T18:10 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
 
 ## Solved — last 24h
 
@@ -171,6 +177,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6826](https://tbpro.zendesk.com/agent/tickets/6826) · 2026-07-25T16:01 · My account does not work
 - 👍 [7112](https://tbpro.zendesk.com/agent/tickets/7112) · 2026-07-25T16:03 · Cancellation & refund
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-25T17:02 · Add OAuth for Thundermail to FairEmail
+- · [6933](https://tbpro.zendesk.com/agent/tickets/6933) · 2026-07-25T18:01 · Change of email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
