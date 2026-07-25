@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-24
 
-_Updated: **2026-07-24 20:52 ET** · refreshes hourly_  
+_Updated: **2026-07-24 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-23T16:00 → 2026-07-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 33** of rollout — **6,500 invitees**, **272 tickets** so far
 
 ## At a glance
 
-- **12** new tickets in last 24h · **7** solved in last 24h
+- **12** new tickets in last 24h · **6** solved in last 24h
 - **272** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 125.9h · mean 152.8h (proxy: updated_at − created_at, 167 solved tickets)
+- **Median AHT**: 125.9h · mean 152.9h (proxy: updated_at − created_at, 167 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -208,7 +208,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [7101](https://tbpro.zendesk.com/agent/tickets/7101) · 2026-07-24T00:52 · Hello [name]!
 - · [6990](https://tbpro.zendesk.com/agent/tickets/6990) · 2026-07-24T01:33 · Only yearly subscription? Not monthly?
 - 👍 [7026](https://tbpro.zendesk.com/agent/tickets/7026) · 2026-07-24T08:32 · Three-character restriction is unfortunate for custom domains
 - · [6958](https://tbpro.zendesk.com/agent/tickets/6958) · 2026-07-24T11:01 · Subject: Performance Issues with Thunderbird + ProtonMail Bridge
