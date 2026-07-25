@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-25
 
-_Updated: **2026-07-25 03:46 ET** · refreshes hourly_  
+_Updated: **2026-07-25 04:52 ET** · refreshes hourly_  
 _24h window: 2026-07-24T16:00 → 2026-07-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 34** of rollout — **6,500 invitees**, **272 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 34** of rollout — **6,500 invitees**, **273 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **4** solved in last 24h
-- **272** tickets total since launch · contact rate **4%** of 6500 invitees
+- **1** new tickets in last 24h · **4** solved in last 24h
+- **273** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -85,8 +85,9 @@ _(none in last 24h)_
 - **solved**: 167
 - **pending**: 68
 - **closed**: 19
-- **hold**: 13
-- **open**: 5
+- **hold**: 12
+- **open**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -139,11 +140,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#7146](https://tbpro.zendesk.com/agent/tickets/7146)** · Inquiry Regarding Thundermail Pricing
+  > Hello, Before signing up for ThunderMail, the first page that appeared when I clicked the email link showed a price of 9.XX JPY. It was 9.XX JPY, not 900 JPY. However, on the page…
 
 ## New tickets — last 24h
 
-_(none)_
+- [7146](https://tbpro.zendesk.com/agent/tickets/7146) · [new] · 2026-07-25T08:19 · Inquiry Regarding Thundermail Pricing
 
 ## Solved — last 24h
 
