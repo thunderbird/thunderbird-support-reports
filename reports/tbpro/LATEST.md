@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-25
+# Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-25 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-24T16:00 → 2026-07-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-26 01:16 ET** · refreshes hourly_  
+_24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 34** of rollout — **6,500 invitees**, **276 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 35** of rollout — **6,500 invitees**, **276 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **9** solved in last 24h
+- **0** new tickets in last 24h · **3** solved in last 24h
 - **276** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.3h · mean 156.5h (proxy: updated_at − created_at, 171 solved tickets)
+- **Median AHT**: 126.3h · mean 156.4h (proxy: updated_at − created_at, 172 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,10 +82,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 171
-- **pending**: 60
+- **solved**: 172
+- **pending**: 57
 - **closed**: 21
-- **open**: 11
+- **open**: 13
 - **hold**: 10
 - **new**: 3
 
@@ -118,13 +118,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
+- **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
-- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
@@ -140,44 +140,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
-
-- **[#7160](https://tbpro.zendesk.com/agent/tickets/7160)** · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
-  > **Account Email:** `[email]` **Server Endpoint:** `[domain]` (Port 465 SSL / Port 993 SSL) **Daemon:** Stalwart ESMTP / IMAP Hello [name], I am experiencing a persistent…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#7159](https://tbpro.zendesk.com/agent/tickets/7159)** · Create folder
-  > I can't create folders in my thundermail account (android), is it possible? Cordiali Saluti, [name]. +39 335 373864
-
-### Other / uncategorized — 1 tickets
-
-- **[#7151](https://tbpro.zendesk.com/agent/tickets/7151)** · Delayed emails appearing in my client
-  > I am currently using Thunderbird version 153 and notice that all the messages from the "sle-updates" mailing list were arriving yesterday (delayed). These messages were from last…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#7146](https://tbpro.zendesk.com/agent/tickets/7146)** · Inquiry Regarding Thundermail Pricing
-  > Hello, Before signing up for ThunderMail, the first page that appeared when I clicked the email link showed a price of 9.XX JPY. It was 9.XX JPY, not 900 JPY. However, on the page…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7146](https://tbpro.zendesk.com/agent/tickets/7146) · [new] · 2026-07-25T08:19 · Inquiry Regarding Thundermail Pricing
-- [7151](https://tbpro.zendesk.com/agent/tickets/7151) · [new] · 2026-07-25T11:06 · Delayed emails appearing in my client
-- [7159](https://tbpro.zendesk.com/agent/tickets/7159) · [new] · 2026-07-25T16:23 · Create folder
-- [7160](https://tbpro.zendesk.com/agent/tickets/7160) · [open] · 2026-07-25T18:10 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
+_(none)_
 
 ## Solved — last 24h
 
-- · [7068](https://tbpro.zendesk.com/agent/tickets/7068) · 2026-07-24T20:02 · Second invitation
-- 👍 [7052](https://tbpro.zendesk.com/agent/tickets/7052) · 2026-07-24T20:30 · Please delete account
-- · [7101](https://tbpro.zendesk.com/agent/tickets/7101) · 2026-07-25T01:01 · Hello [name]!
-- · [6990](https://tbpro.zendesk.com/agent/tickets/6990) · 2026-07-25T02:01 · Only yearly subscription? Not monthly?
-- · [6948](https://tbpro.zendesk.com/agent/tickets/6948) · 2026-07-25T13:01 · [domain] as default
-- · [6826](https://tbpro.zendesk.com/agent/tickets/6826) · 2026-07-25T16:01 · My account does not work
-- 👍 [7112](https://tbpro.zendesk.com/agent/tickets/7112) · 2026-07-25T16:03 · Cancellation & refund
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-25T17:02 · Add OAuth for Thundermail to FairEmail
-- · [6933](https://tbpro.zendesk.com/agent/tickets/6933) · 2026-07-25T18:01 · Change of email
+- · [6951](https://tbpro.zendesk.com/agent/tickets/6951) · 2026-07-25T22:01 · forgot my password for the new thunderbird software
+- · [6944](https://tbpro.zendesk.com/agent/tickets/6944) · 2026-07-25T22:01 · Refund
+- · [6977](https://tbpro.zendesk.com/agent/tickets/6977) · 2026-07-26T05:01 · Unable to Setup Custom Domain on Namecheap 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
