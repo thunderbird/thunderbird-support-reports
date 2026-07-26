@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-26 14:30 ET** · refreshes hourly_  
+_Updated: **2026-07-26 15:35 ET** · refreshes hourly_  
 _24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 35** of rollout — **6,500 invitees**, **280 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **9** solved in last 24h
+- **4** new tickets in last 24h · **11** solved in last 24h
 - **280** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.9h · mean 156.2h (proxy: updated_at − created_at, 175 solved tickets)
+- **Median AHT**: 126.9h · mean 156.0h (proxy: updated_at − created_at, 177 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -50,7 +50,7 @@ Flight 3 is **day 35** of rollout — **6,500 invitees**, **280 tickets** so far
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [solved] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [solved] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [pending] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
-  - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [pending] · 2026-07-21 · _Refund due to poor service_
+  - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [solved] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [pending] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [pending] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [pending] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
@@ -82,8 +82,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 175
-- **pending**: 52
+- **solved**: 177
+- **pending**: 50
 - **closed**: 22
 - **open**: 15
 - **hold**: 9
@@ -178,6 +178,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-26T17:55 · Squarespace Custom Domain
 - · [6981](https://tbpro.zendesk.com/agent/tickets/6981) · 2026-07-26T18:01 · Push notifications for Thundermail
 - · [6978](https://tbpro.zendesk.com/agent/tickets/6978) · 2026-07-26T18:01 · DKIM and Jellyfish Spam filtering
+- · [7009](https://tbpro.zendesk.com/agent/tickets/7009) · 2026-07-26T19:01 · Refund due to poor service
+- · [6964](https://tbpro.zendesk.com/agent/tickets/6964) · 2026-07-26T19:01 · How to filter mails to be put in given folder? 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
