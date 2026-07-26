@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-26 11:33 ET** · refreshes hourly_  
+_Updated: **2026-07-26 12:29 ET** · refreshes hourly_  
 _24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 35** of rollout — **6,500 invitees**, **278 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
+- **2** new tickets in last 24h · **5** solved in last 24h
 - **278** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.3h · mean 156.4h (proxy: updated_at − created_at, 172 solved tickets)
+- **Median AHT**: 126.3h · mean 156.6h (proxy: updated_at − created_at, 173 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,10 +82,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 172
-- **pending**: 57
+- **solved**: 173
+- **pending**: 55
 - **closed**: 21
-- **open**: 13
+- **open**: 14
 - **hold**: 10
 - **new**: 5
 
@@ -160,6 +160,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6951](https://tbpro.zendesk.com/agent/tickets/6951) · 2026-07-25T22:01 · forgot my password for the new thunderbird software
 - · [6944](https://tbpro.zendesk.com/agent/tickets/6944) · 2026-07-25T22:01 · Refund
 - · [6977](https://tbpro.zendesk.com/agent/tickets/6977) · 2026-07-26T05:01 · Unable to Setup Custom Domain on Namecheap 
+- · [6962](https://tbpro.zendesk.com/agent/tickets/6962) · 2026-07-26T16:01 · Bug?
+- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-26T16:29 · Squarespace Custom Domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
