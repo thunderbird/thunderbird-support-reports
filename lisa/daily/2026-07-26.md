@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-26 13:32 ET** · refreshes hourly_  
+_Updated: **2026-07-26 14:30 ET** · refreshes hourly_  
 _24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 35** of rollout — **6,500 invitees**, **279 tickets** so far (4.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 35** of rollout — **6,500 invitees**, **280 tickets** so far (4.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
-- **279** tickets total since launch · contact rate **4%** of 6500 invitees
+- **4** new tickets in last 24h · **9** solved in last 24h
+- **280** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.3h · mean 156.3h (proxy: updated_at − created_at, 174 solved tickets)
+- **Median AHT**: 126.9h · mean 156.2h (proxy: updated_at − created_at, 175 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,12 +82,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 174
-- **pending**: 53
-- **closed**: 21
-- **open**: 16
+- **solved**: 175
+- **pending**: 52
+- **closed**: 22
+- **open**: 15
 - **hold**: 9
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -140,6 +140,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#7174](https://tbpro.zendesk.com/agent/tickets/7174)** · Appointment & Send
+  > Hello, I am reaching out because I am looking into both the Appointment and Send services you provide. Would it be possible to use one of my aliases with these services? Also,…
+
 ### Account access issues — 1 tickets
 
 - **[#7173](https://tbpro.zendesk.com/agent/tickets/7173)** · Does not subscribing delete my account?
@@ -160,6 +165,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7166](https://tbpro.zendesk.com/agent/tickets/7166) · [new] · 2026-07-26T09:20 · account removal
 - [7170](https://tbpro.zendesk.com/agent/tickets/7170) · [new] · 2026-07-26T13:52 · How to setUp thundermail with my own domain 
 - [7173](https://tbpro.zendesk.com/agent/tickets/7173) · [new] · 2026-07-26T17:12 · Does not subscribing delete my account?
+- [7174](https://tbpro.zendesk.com/agent/tickets/7174) · [new] · 2026-07-26T17:47 · Appointment & Send
 
 ## Solved — last 24h
 
@@ -167,9 +173,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6944](https://tbpro.zendesk.com/agent/tickets/6944) · 2026-07-25T22:01 · Refund
 - · [6977](https://tbpro.zendesk.com/agent/tickets/6977) · 2026-07-26T05:01 · Unable to Setup Custom Domain on Namecheap 
 - · [6962](https://tbpro.zendesk.com/agent/tickets/6962) · 2026-07-26T16:01 · Bug?
-- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-26T16:29 · Squarespace Custom Domain
 - · [6996](https://tbpro.zendesk.com/agent/tickets/6996) · 2026-07-26T17:01 · unable to update avaiilability. 
 - · [6982](https://tbpro.zendesk.com/agent/tickets/6982) · 2026-07-26T17:01 · i have no idea what my login name is
+- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-26T17:55 · Squarespace Custom Domain
+- · [6981](https://tbpro.zendesk.com/agent/tickets/6981) · 2026-07-26T18:01 · Push notifications for Thundermail
+- · [6978](https://tbpro.zendesk.com/agent/tickets/6978) · 2026-07-26T18:01 · DKIM and Jellyfish Spam filtering
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
