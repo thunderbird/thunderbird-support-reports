@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-26 12:29 ET** · refreshes hourly_  
+_Updated: **2026-07-26 13:32 ET** · refreshes hourly_  
 _24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 35** of rollout — **6,500 invitees**, **278 tickets** so far (4.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 35** of rollout — **6,500 invitees**, **279 tickets** so far (4.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
-- **278** tickets total since launch · contact rate **4%** of 6500 invitees
+- **3** new tickets in last 24h · **7** solved in last 24h
+- **279** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.3h · mean 156.6h (proxy: updated_at − created_at, 173 solved tickets)
+- **Median AHT**: 126.3h · mean 156.3h (proxy: updated_at − created_at, 174 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,16 +82,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 173
-- **pending**: 55
+- **solved**: 174
+- **pending**: 53
 - **closed**: 21
-- **open**: 14
-- **hold**: 10
-- **new**: 5
+- **open**: 16
+- **hold**: 9
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 131
+- **Account Hub**: 132
 - **Thundermail**: 120
 - **Appointment**: 9
 - **Send**: 8
@@ -120,6 +120,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **—**: 1
 - **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
+- **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -127,7 +128,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
@@ -139,6 +139,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **investigated**: 1
 
 ## Tickets in last 24h — by theme
+
+### Account access issues — 1 tickets
+
+- **[#7173](https://tbpro.zendesk.com/agent/tickets/7173)** · Does not subscribing delete my account?
+  > On 2026-07-22, I was informed that "We noticed you haven't finished setting up your subscription. No rush, and we get it if you need a little more time to decide. Just a heads-up:…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -154,6 +159,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7166](https://tbpro.zendesk.com/agent/tickets/7166) · [new] · 2026-07-26T09:20 · account removal
 - [7170](https://tbpro.zendesk.com/agent/tickets/7170) · [new] · 2026-07-26T13:52 · How to setUp thundermail with my own domain 
+- [7173](https://tbpro.zendesk.com/agent/tickets/7173) · [new] · 2026-07-26T17:12 · Does not subscribing delete my account?
 
 ## Solved — last 24h
 
@@ -162,6 +168,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6977](https://tbpro.zendesk.com/agent/tickets/6977) · 2026-07-26T05:01 · Unable to Setup Custom Domain on Namecheap 
 - · [6962](https://tbpro.zendesk.com/agent/tickets/6962) · 2026-07-26T16:01 · Bug?
 - 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-26T16:29 · Squarespace Custom Domain
+- · [6996](https://tbpro.zendesk.com/agent/tickets/6996) · 2026-07-26T17:01 · unable to update avaiilability. 
+- · [6982](https://tbpro.zendesk.com/agent/tickets/6982) · 2026-07-26T17:01 · i have no idea what my login name is
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
