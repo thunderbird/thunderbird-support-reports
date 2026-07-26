@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-26 04:58 ET** · refreshes hourly_  
+_Updated: **2026-07-26 05:47 ET** · refreshes hourly_  
 _24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 35** of rollout — **6,500 invitees**, **276 tickets** so far (4.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 35** of rollout — **6,500 invitees**, **277 tickets** so far (4.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **3** solved in last 24h
-- **276** tickets total since launch · contact rate **4%** of 6500 invitees
+- **1** new tickets in last 24h · **3** solved in last 24h
+- **277** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -87,11 +87,11 @@ _(none in last 24h)_
 - **closed**: 21
 - **open**: 13
 - **hold**: 10
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 129
+- **Account Hub**: 130
 - **Thundermail**: 120
 - **Appointment**: 9
 - **Send**: 8
@@ -140,11 +140,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7166](https://tbpro.zendesk.com/agent/tickets/7166)** · account removal
+  > Hello [name] could you just confirm that if I signed up to early access but then chose not to proceed with paying, after 5 days my account would have been completed removed? Kind…
 
 ## New tickets — last 24h
 
-_(none)_
+- [7166](https://tbpro.zendesk.com/agent/tickets/7166) · [new] · 2026-07-26T09:20 · account removal
 
 ## Solved — last 24h
 
