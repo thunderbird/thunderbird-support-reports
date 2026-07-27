@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 11:09 ET** · refreshes hourly_  
+_Updated: **2026-07-27 12:50 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **288 tickets** so far (4.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 36** of rollout — **6,500 invitees**, **290 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **18** solved in last 24h
-- **288** tickets total since launch · contact rate **4%** of 6500 invitees
+- **10** new tickets in last 24h · **20** solved in last 24h
+- **290** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 53
-- **Median AHT**: 126.2h · mean 156.1h (proxy: updated_at − created_at, 193 solved tickets)
+- **Median AHT**: 126.0h · mean 155.6h (proxy: updated_at − created_at, 195 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -91,16 +91,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 193
-- **pending**: 39
+- **solved**: 195
+- **pending**: 38
 - **closed**: 23
-- **open**: 16
+- **open**: 15
 - **hold**: 11
-- **new**: 6
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 136
+- **Account Hub**: 137
 - **Thundermail**: 122
 - **Appointment**: 10
 - **Send**: 9
@@ -109,8 +109,8 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 66
-- **blocked** + **explained**: 45
+- **curious** + **explained**: 67
+- **blocked** + **explained**: 47
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 20
 - **blocked** + **escalated**: 13
@@ -119,8 +119,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
-- **curious** + **informed**: 3
 - **request** + **actioned**: 3
+- **curious** + **informed**: 3
 - **other** + **n/a**: 2
 - **request** + **explained**: 2
 - **blocked** + **redirected**: 2
@@ -129,6 +129,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **—**: 1
 - **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
+- **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -136,7 +137,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
@@ -149,6 +149,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#7195](https://tbpro.zendesk.com/agent/tickets/7195)** · DEVOLUCIÓN
+  > Hola: una vez hecho el pago, ¿tengo un tiempo para desistir y conseguir la devolución del pago? Gracias
+- **[#7194](https://tbpro.zendesk.com/agent/tickets/7194)** · SRF Eintrag
+  > Hallo, ich habe die SRF Einträge auf Plesk bei Metanet gemacht. Relative Gewichtung für Einträge mit gleicher Priorität verlangt Thundermail 1, auf Metanet habe ich jedoch nur die…
+- **[#7186](https://tbpro.zendesk.com/agent/tickets/7186)** · Unable to upload file to Send in Firefox
+  > When I tried to upload a file to the Send, it consistently succeeded or failed, depending on the browser I used: 1. FreeBSD 15.1 + XFCE 4.20 + Firefox 153.0: always failed. it…
+
 ### Early bird signup — 3 tickets
 
 - **[#7184](https://tbpro.zendesk.com/agent/tickets/7184)** · Login not possible — why: **blocked** · how: **explained**
@@ -158,19 +167,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7180](https://tbpro.zendesk.com/agent/tickets/7180)** · Unable to complete registration — why: **blocked** · how: **explained**
   > I got accepted from the wait list and then went to join but my credit card had just been compromised and I was waiting for a new one. So I was unable to complete the registration…
 
-### Other / uncategorized — 2 tickets
-
-- **[#7194](https://tbpro.zendesk.com/agent/tickets/7194)** · SRF Eintrag
-  > Hallo, ich habe die SRF Einträge auf Plesk bei Metanet gemacht. Relative Gewichtung für Einträge mit gleicher Priorität verlangt Thundermail 1, auf Metanet habe ich jedoch nur die…
-- **[#7186](https://tbpro.zendesk.com/agent/tickets/7186)** · Unable to upload file to Send in Firefox
-  > When I tried to upload a file to the Send, it consistently succeeded or failed, depending on the browser I used: 1. FreeBSD 15.1 + XFCE 4.20 + Firefox 153.0: always failed. it…
-
 ### Appointment / calendar — 2 tickets
 
 - **[#7193](https://tbpro.zendesk.com/agent/tickets/7193)** · Ical subscription support — why: **request** · how: **redirected**
   > I love the Caldav and fully support it and where that is going. However, I want to include my work schedule in my availability, but that is only via ical subscription, can we…
 - **[#7187](https://tbpro.zendesk.com/agent/tickets/7187)** · Cannot sync calendar with iphone calendar — why: **blocked** · how: **explained**
   > I am trying to share Thundermail calendar to my iphone SE Ios 15. I can add the email account but no calendar were added doing this only email and notes. I tried to add caldav…
+
+### Webmail — 1 tickets
+
+- **[#7196](https://tbpro.zendesk.com/agent/tickets/7196)** · Create folder
+  > Is it possible to create email folders in a thundermail account, if so with what because with both thunderbird for android and the web interface (in alpha) I can't create folders…
 
 ### Refund / Cancel — 1 tickets
 
@@ -185,8 +192,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [new] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
 - [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [pending] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
 - [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27T11:49 · I want to request a refund for my account
-- [7193](https://tbpro.zendesk.com/agent/tickets/7193) · [pending] · 2026-07-27T14:38 · Ical subscription support
+- [7193](https://tbpro.zendesk.com/agent/tickets/7193) · [open] · 2026-07-27T14:38 · Ical subscription support
 - [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [new] · 2026-07-27T14:39 · SRF Eintrag
+- [7195](https://tbpro.zendesk.com/agent/tickets/7195) · [new] · 2026-07-27T15:29 · DEVOLUCIÓN
+- [7196](https://tbpro.zendesk.com/agent/tickets/7196) · [new] · 2026-07-27T16:03 · Create folder
 
 ## Solved — last 24h
 
@@ -208,6 +217,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7000](https://tbpro.zendesk.com/agent/tickets/7000) · 2026-07-27T14:23 · Can't login in thunderbird
 - · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-07-27T15:01 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
 - · [7043](https://tbpro.zendesk.com/agent/tickets/7043) · 2026-07-27T15:01 · Request for Cancellation and Refund
+- · [7077](https://tbpro.zendesk.com/agent/tickets/7077) · 2026-07-27T15:11 · False error showing on account hub re: custom domain verification
+- · [7069](https://tbpro.zendesk.com/agent/tickets/7069) · 2026-07-27T15:12 · Cannot add Thunderbird Pro add-on
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
