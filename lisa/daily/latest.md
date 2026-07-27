@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 01:28 ET** · refreshes hourly_  
+_Updated: **2026-07-27 03:24 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **282 tickets** so far (4.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 36** of rollout — **6,500 invitees**, **283 tickets** so far (4.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **11** solved in last 24h
-- **282** tickets total since launch · contact rate **4%** of 6500 invitees
+- **3** new tickets in last 24h · **11** solved in last 24h
+- **283** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -86,12 +86,12 @@ _(none in last 24h)_
 - **pending**: 38
 - **closed**: 23
 - **open**: 18
-- **new**: 9
+- **new**: 10
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 132
+- **Account Hub**: 133
 - **Thundermail**: 122
 - **Appointment**: 9
 - **Send**: 8
@@ -140,8 +140,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
+### Account access issues — 2 tickets
 
+- **[#7184](https://tbpro.zendesk.com/agent/tickets/7184)** · Login not possible
+  > I need urgent support because I can't sign in anymore
 - **[#7183](https://tbpro.zendesk.com/agent/tickets/7183)** · Registration Confusion
   > I got an email saying that I'm invited for early bird access, but I don't see a registration tab. Putting my email in the “forgot password” didn't send me to registration either.
 
@@ -154,6 +156,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7180](https://tbpro.zendesk.com/agent/tickets/7180) · [new] · 2026-07-27T02:29 · Unable to complete registration
 - [7183](https://tbpro.zendesk.com/agent/tickets/7183) · [new] · 2026-07-27T05:27 · Registration Confusion
+- [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [new] · 2026-07-27T07:19 · Login not possible
 
 ## Solved — last 24h
 
