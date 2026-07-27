@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 05:18 ET** · refreshes hourly_  
+_Updated: **2026-07-27 07:15 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **285 tickets** so far (4.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 36** of rollout — **6,500 invitees**, **286 tickets** so far (4.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **11** solved in last 24h
-- **285** tickets total since launch · contact rate **4%** of 6500 invitees
+- **6** new tickets in last 24h · **11** solved in last 24h
+- **286** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -86,7 +86,7 @@ _(none in last 24h)_
 - **pending**: 38
 - **closed**: 23
 - **open**: 19
-- **new**: 12
+- **new**: 13
 - **hold**: 7
 
 ## Service (cumulative)
@@ -147,6 +147,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7183](https://tbpro.zendesk.com/agent/tickets/7183)** · Registration Confusion
   > I got an email saying that I'm invited for early bird access, but I don't see a registration tab. Putting my email in the “forgot password” didn't send me to registration either.
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#7189](https://tbpro.zendesk.com/agent/tickets/7189)** · Ticket 7040 resolved
+  > A quick check in Thunderbird settings when I got an internet connection, I checked the 'Allow cookies' box,checked the inbox in Thundermail and logged into my account and away I…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#7187](https://tbpro.zendesk.com/agent/tickets/7187)** · Cannot sync calendar with iphone calendar
@@ -169,6 +174,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [new] · 2026-07-27T07:19 · Login not possible
 - [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [new] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
 - [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [new] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
+- [7189](https://tbpro.zendesk.com/agent/tickets/7189) · [new] · 2026-07-27T10:58 · Ticket 7040 resolved
 
 ## Solved — last 24h
 
