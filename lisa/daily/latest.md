@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 16:40 ET** · refreshes hourly_  
+_Updated: **2026-07-27 17:32 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **290 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 36** of rollout — **6,500 invitees**, **291 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **25** solved in last 24h
-- **290** tickets total since launch · contact rate **4%** of 6500 invitees
+- **291** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
-- **Median AHT**: 126.1h · mean 156.0h (proxy: updated_at − created_at, 200 solved tickets)
+- **Median AHT**: 126.2h · mean 155.8h (proxy: updated_at − created_at, 201 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -95,15 +95,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 200
-- **pending**: 48
+- **solved**: 201
+- **pending**: 47
 - **closed**: 23
 - **hold**: 11
 - **open**: 8
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 140
+- **Account Hub**: 141
 - **Thundermail**: 121
 - **Appointment**: 11
 - **Send**: 8
@@ -130,8 +131,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **change request** + **investigated**: 1
 - **curious** + **—**: 1
+- **change request** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -199,7 +200,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [solved] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
 - [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27T11:49 · I want to request a refund for my account
 - [7193](https://tbpro.zendesk.com/agent/tickets/7193) · [pending] · 2026-07-27T14:38 · Ical subscription support
-- [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [open] · 2026-07-27T14:39 · SRF Eintrag
+- [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [pending] · 2026-07-27T14:39 · SRF Eintrag
 - [7195](https://tbpro.zendesk.com/agent/tickets/7195) · [pending] · 2026-07-27T15:29 · DEVOLUCIÓN
 - [7196](https://tbpro.zendesk.com/agent/tickets/7196) · [open] · 2026-07-27T16:03 · Create folder
 
