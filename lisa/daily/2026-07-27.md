@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 03:24 ET** · refreshes hourly_  
+_Updated: **2026-07-27 05:18 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **283 tickets** so far (4.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 36** of rollout — **6,500 invitees**, **285 tickets** so far (4.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **11** solved in last 24h
-- **283** tickets total since launch · contact rate **4%** of 6500 invitees
+- **5** new tickets in last 24h · **11** solved in last 24h
+- **285** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -85,16 +85,16 @@ _(none in last 24h)_
 - **solved**: 186
 - **pending**: 38
 - **closed**: 23
-- **open**: 18
-- **new**: 10
-- **hold**: 8
+- **open**: 19
+- **new**: 12
+- **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 133
 - **Thundermail**: 122
-- **Appointment**: 9
-- **Send**: 8
+- **Appointment**: 10
+- **Send**: 9
 
 ## Why × How (cumulative)
 
@@ -147,6 +147,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7183](https://tbpro.zendesk.com/agent/tickets/7183)** · Registration Confusion
   > I got an email saying that I'm invited for early bird access, but I don't see a registration tab. Putting my email in the “forgot password” didn't send me to registration either.
 
+### Appointment / calendar — 1 tickets
+
+- **[#7187](https://tbpro.zendesk.com/agent/tickets/7187)** · Cannot sync calendar with iphone calendar
+  > I am trying to share Thundermail calendar to my iphone SE Ios 15. I can add the email account but no calendar were added doing this only email and notes. I tried to add caldav…
+
+### Other / uncategorized — 1 tickets
+
+- **[#7186](https://tbpro.zendesk.com/agent/tickets/7186)** · Unable to upload file to Send in Firefox
+  > When I tried to upload a file to the Send, it consistently succeeded or failed, depending on the browser I used: 1. FreeBSD 15.1 + XFCE 4.20 + Firefox 153.0: always failed. it…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7180](https://tbpro.zendesk.com/agent/tickets/7180)** · Unable to complete registration
@@ -157,6 +167,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7180](https://tbpro.zendesk.com/agent/tickets/7180) · [new] · 2026-07-27T02:29 · Unable to complete registration
 - [7183](https://tbpro.zendesk.com/agent/tickets/7183) · [new] · 2026-07-27T05:27 · Registration Confusion
 - [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [new] · 2026-07-27T07:19 · Login not possible
+- [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [new] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
+- [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [new] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
 
 ## Solved — last 24h
 
