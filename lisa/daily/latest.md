@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 14:42 ET** · refreshes hourly_  
+_Updated: **2026-07-27 15:43 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 36** of rollout — **6,500 invitees**, **290 tickets** so far
 
 ## At a glance
 
-- **10** new tickets in last 24h · **24** solved in last 24h
+- **10** new tickets in last 24h · **25** solved in last 24h
 - **290** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 54
-- **Median AHT**: 126.2h · mean 156.6h (proxy: updated_at − created_at, 199 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
+- **Median AHT**: 126.2h · mean 156.7h (proxy: updated_at − created_at, 199 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -84,8 +84,10 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Hola: ¿Cuándo se espera que Thundermail esté en español? Gracias](https://ideas.tb.pro/p/hola-cuando-se-espera-que-thundermail-este-en-espanol-gracias) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
 - [Support Ical Subscriptions in Appointments ](https://ideas.tb.pro/p/support-ical-subscriptions-in-appointments) · 1 votes · _untagged_
   > What you’d like to seeI would like to be able to use the appointment app to its fullest by being able to add my work schedule to my availability, which does change. However my work is not…
 - [Paid bookings](https://ideas.tb.pro/p/paid-bookings) · 1 votes · _untagged_
@@ -94,11 +96,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 199
-- **pending**: 43
+- **pending**: 44
 - **closed**: 23
 - **hold**: 11
 - **open**: 10
-- **new**: 4
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -111,18 +113,18 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 68
+- **curious** + **explained**: 69
 - **blocked** + **explained**: 48
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 21
 - **blocked** + **escalated**: 13
-- **blocked** + **investigated**: 12
+- **blocked** + **investigated**: 13
 - **confused** + **explained**: 10
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
-- **curious** + **informed**: 3
 - **concerned** + **investigated**: 3
+- **curious** + **informed**: 3
 - **request** + **actioned**: 3
 - **other** + **n/a**: 2
 - **request** + **explained**: 2
@@ -130,7 +132,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
-- **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
@@ -138,6 +139,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
+- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **concerned** + **—**: 1
@@ -228,6 +230,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7035](https://tbpro.zendesk.com/agent/tickets/7035) · 2026-07-27T17:01 · Cancellation and Refund Request – Thundermail Subscription
 - · [7023](https://tbpro.zendesk.com/agent/tickets/7023) · 2026-07-27T17:01 · Issues mapping DNS entries to Go Daddy
 - · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-27T17:33 · Refund request
+- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-27T18:47 · Squarespace Custom Domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
