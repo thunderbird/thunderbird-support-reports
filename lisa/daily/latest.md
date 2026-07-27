@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-26
 
-_Updated: **2026-07-26 19:29 ET** · refreshes hourly_  
+_Updated: **2026-07-26 20:56 ET** · refreshes hourly_  
 _24h window: 2026-07-25T16:00 → 2026-07-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 35** of rollout — **6,500 invitees**, **280 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 126.3h · mean 155.1h (proxy: updated_at − created_at, 182 solved tickets)
+- **Median AHT**: 126.3h · mean 155.0h (proxy: updated_at − created_at, 183 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
 
@@ -82,8 +82,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 182
-- **pending**: 43
+- **solved**: 183
+- **pending**: 42
 - **closed**: 23
 - **open**: 17
 - **hold**: 8
