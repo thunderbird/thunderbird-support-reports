@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 13:44 ET** · refreshes hourly_  
+_Updated: **2026-07-27 14:42 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -94,11 +94,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 199
-- **pending**: 38
+- **pending**: 43
 - **closed**: 23
-- **open**: 12
-- **hold**: 12
-- **new**: 6
+- **hold**: 11
+- **open**: 10
+- **new**: 4
 
 ## Service (cumulative)
 
@@ -114,7 +114,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 68
 - **blocked** + **explained**: 48
 - **change request** + **actioned**: 34
-- **request** + **redirected**: 20
+- **request** + **redirected**: 21
 - **blocked** + **escalated**: 13
 - **blocked** + **investigated**: 12
 - **confused** + **explained**: 10
@@ -122,8 +122,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
 - **curious** + **informed**: 3
+- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
-- **concerned** + **investigated**: 2
 - **other** + **n/a**: 2
 - **request** + **explained**: 2
 - **blocked** + **redirected**: 2
@@ -169,10 +169,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Appointment / calendar — 2 tickets
 
-- **[#7187](https://tbpro.zendesk.com/agent/tickets/7187)** · Cannot sync calendar with iphone calendar — why: **blocked** · how: **explained**
-  > I am trying to share Thundermail calendar to my iphone SE Ios 15. I can add the email account but no calendar were added doing this only email and notes. I tried to add caldav…
 - **[#7193](https://tbpro.zendesk.com/agent/tickets/7193)** · Ical subscription support — why: **request** · how: **redirected**
   > I love the Caldav and fully support it and where that is going. However, I want to include my work schedule in my availability, but that is only via ical subscription, can we…
+- **[#7187](https://tbpro.zendesk.com/agent/tickets/7187)** · Cannot sync calendar with iphone calendar — why: **blocked** · how: **explained**
+  > I am trying to share Thundermail calendar to my iphone SE Ios 15. I can add the email account but no calendar were added doing this only email and notes. I tried to add caldav…
 
 ### Webmail — 1 tickets
 
@@ -195,11 +195,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7183](https://tbpro.zendesk.com/agent/tickets/7183) · [pending] · 2026-07-27T05:27 · Registration Confusion
 - [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [pending] · 2026-07-27T07:19 · Login not possible
 - [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [new] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
-- [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [open] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
+- [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [pending] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
 - [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27T11:49 · I want to request a refund for my account
 - [7193](https://tbpro.zendesk.com/agent/tickets/7193) · [pending] · 2026-07-27T14:38 · Ical subscription support
 - [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [new] · 2026-07-27T14:39 · SRF Eintrag
-- [7195](https://tbpro.zendesk.com/agent/tickets/7195) · [open] · 2026-07-27T15:29 · DEVOLUCIÓN
+- [7195](https://tbpro.zendesk.com/agent/tickets/7195) · [pending] · 2026-07-27T15:29 · DEVOLUCIÓN
 - [7196](https://tbpro.zendesk.com/agent/tickets/7196) · [new] · 2026-07-27T16:03 · Create folder
 
 ## Solved — last 24h
