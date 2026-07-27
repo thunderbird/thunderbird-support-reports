@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 18:31 ET** · refreshes hourly_  
+_Updated: **2026-07-27 19:31 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **291 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 36** of rollout — **6,500 invitees**, **292 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **24** solved in last 24h
-- **291** tickets total since launch · contact rate **4%** of 6500 invitees
+- **292** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
@@ -86,7 +86,7 @@ _No negative ratings since launch._
 
 **Last 24h** — 3 new:
 
-- [Hola: ¿Cuándo se espera que Thundermail esté en español? Gracias](https://ideas.tb.pro/p/hola-cuando-se-espera-que-thundermail-este-en-espanol-gracias) · 1 votes · _untagged_
+- [Hello: When is Thundermail expected to be available in Spanish? Thanks. / Translated from: Hola: ¿Cuándo se espera que Thundermail esté en español? Gracias](https://ideas.tb.pro/p/hello-when-is-thundermail-expected-to-be-available-in-spanish-thanks-translated-from-hola-cuando-se-espera-que-thundermail-este-en-espanol-gracias) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
 - [Support Ical Subscriptions in Appointments ](https://ideas.tb.pro/p/support-ical-subscriptions-in-appointments) · 1 votes · _untagged_
   > What you’d like to seeI would like to be able to use the appointment app to its fullest by being able to add my work schedule to my availability, which does change. However my work is not…
@@ -96,15 +96,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 201
-- **pending**: 45
+- **pending**: 44
 - **closed**: 23
-- **open**: 11
+- **open**: 13
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 141
-- **Thundermail**: 121
+- **Thundermail**: 122
 - **Appointment**: 11
 - **Send**: 8
 
