@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 15:43 ET** · refreshes hourly_  
+_Updated: **2026-07-27 16:40 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 36** of rollout — **6,500 invitees**, **290 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
-- **Median AHT**: 126.2h · mean 156.7h (proxy: updated_at − created_at, 199 solved tickets)
+- **Median AHT**: 126.1h · mean 156.0h (proxy: updated_at − created_at, 200 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -95,18 +95,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 199
-- **pending**: 44
+- **solved**: 200
+- **pending**: 48
 - **closed**: 23
 - **hold**: 11
-- **open**: 10
-- **new**: 3
+- **open**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 140
 - **Thundermail**: 121
-- **Appointment**: 10
+- **Appointment**: 11
 - **Send**: 8
 
 ## Why × How (cumulative)
@@ -114,11 +113,11 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 69
-- **blocked** + **explained**: 48
+- **blocked** + **explained**: 49
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 21
+- **blocked** + **investigated**: 14
 - **blocked** + **escalated**: 13
-- **blocked** + **investigated**: 13
 - **confused** + **explained**: 10
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
@@ -131,9 +130,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **curious** + **—**: 1
 - **change request** + **investigated**: 1
-- **confused** + **investigated**: 1
+- **curious** + **—**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -142,6 +140,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
@@ -166,7 +165,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7194](https://tbpro.zendesk.com/agent/tickets/7194)** · SRF Eintrag
   > Hallo, ich habe die SRF Einträge auf Plesk bei Metanet gemacht. Relative Gewichtung für Einträge mit gleicher Priorität verlangt Thundermail 1, auf Metanet habe ich jedoch nur die…
-- **[#7186](https://tbpro.zendesk.com/agent/tickets/7186)** · Unable to upload file to Send in Firefox
+- **[#7186](https://tbpro.zendesk.com/agent/tickets/7186)** · Unable to upload file to Send in Firefox — why: **blocked** · how: **investigated**
   > When I tried to upload a file to the Send, it consistently succeeded or failed, depending on the browser I used: 1. FreeBSD 15.1 + XFCE 4.20 + Firefox 153.0: always failed. it…
 
 ### Appointment / calendar — 2 tickets
@@ -196,13 +195,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7180](https://tbpro.zendesk.com/agent/tickets/7180) · [pending] · 2026-07-27T02:29 · Unable to complete registration
 - [7183](https://tbpro.zendesk.com/agent/tickets/7183) · [pending] · 2026-07-27T05:27 · Registration Confusion
 - [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [pending] · 2026-07-27T07:19 · Login not possible
-- [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [new] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
-- [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [pending] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
+- [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [pending] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
+- [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [solved] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
 - [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27T11:49 · I want to request a refund for my account
 - [7193](https://tbpro.zendesk.com/agent/tickets/7193) · [pending] · 2026-07-27T14:38 · Ical subscription support
-- [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [new] · 2026-07-27T14:39 · SRF Eintrag
+- [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [open] · 2026-07-27T14:39 · SRF Eintrag
 - [7195](https://tbpro.zendesk.com/agent/tickets/7195) · [pending] · 2026-07-27T15:29 · DEVOLUCIÓN
-- [7196](https://tbpro.zendesk.com/agent/tickets/7196) · [new] · 2026-07-27T16:03 · Create folder
+- [7196](https://tbpro.zendesk.com/agent/tickets/7196) · [open] · 2026-07-27T16:03 · Create folder
 
 ## Solved — last 24h
 
