@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 07:15 ET** · refreshes hourly_  
+_Updated: **2026-07-27 09:14 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 36** of rollout — **6,500 invitees**, **286 tickets** so far
 - **286** tickets total since launch · contact rate **4%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 53
 - **Median AHT**: 126.4h · mean 157.1h (proxy: updated_at − created_at, 186 solved tickets)
 
 ## Known problems — 4 problem(s), 27 incident(s)
@@ -70,28 +70,30 @@ Flight 3 is **day 36** of rollout — **6,500 invitees**, **286 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [new] · _I want to request a refund for my account_
+  > Hi, I just subscribed to Thundermail and currently I am not able to use much of the platform and I'd like to request a refund for my account. I'll be keeping an eye on the project and hopefully will subscribe when the…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Paid bookings](https://ideas.tb.pro/p/paid-bookings) · 1 votes · _untagged_
+  > What you’d like to seeI’d love to see the option to charge for bookings, akin to [Cal.com’s Payments feature](https://cal.com/features/payments).I want to see this feature designed as a pluggable…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 186
-- **pending**: 38
+- **pending**: 37
 - **closed**: 23
-- **open**: 19
+- **open**: 20
 - **new**: 13
 - **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 133
+- **Account Hub**: 134
 - **Thundermail**: 122
 - **Appointment**: 10
 - **Send**: 9
@@ -147,10 +149,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7183](https://tbpro.zendesk.com/agent/tickets/7183)** · Registration Confusion
   > I got an email saying that I'm invited for early bird access, but I don't see a registration tab. Putting my email in the “forgot password” didn't send me to registration either.
 
-### Account creation / signup confusion — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#7189](https://tbpro.zendesk.com/agent/tickets/7189)** · Ticket 7040 resolved
-  > A quick check in Thunderbird settings when I got an internet connection, I checked the 'Allow cookies' box,checked the inbox in Thundermail and logged into my account and away I…
+- **[#7190](https://tbpro.zendesk.com/agent/tickets/7190)** · I want to request a refund for my account
+  > Hi, I just subscribed to Thundermail and currently I am not able to use much of the platform and I'd like to request a refund for my account. I'll be keeping an eye on the project…
 
 ### Appointment / calendar — 1 tickets
 
@@ -174,7 +176,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [new] · 2026-07-27T07:19 · Login not possible
 - [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [new] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
 - [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [new] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
-- [7189](https://tbpro.zendesk.com/agent/tickets/7189) · [new] · 2026-07-27T10:58 · Ticket 7040 resolved
+- [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [new] · 2026-07-27T11:49 · I want to request a refund for my account
 
 ## Solved — last 24h
 
