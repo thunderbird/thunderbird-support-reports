@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 07:47 ET** · refreshes hourly_  
+_Updated: **2026-07-28 08:47 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **293 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **294 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **11** solved in last 24h
-- **293** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **294** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
 - **Median AHT**: 126.2h · mean 155.1h (proxy: updated_at − created_at, 209 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"maxime baleydier"** — 2 tickets in 24h (new; baseline 0 cum) — [#7203](https://tbpro.zendesk.com/agent/tickets/7203), [#7230](https://tbpro.zendesk.com/agent/tickets/7230)
 
 ## Known problems — 4 problem(s), 28 incident(s)
 
@@ -73,7 +79,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [new] · _Cancel / Delete account_
+- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · _Cancel / Delete account_
   > I request the complete deletion of my Thundermail account and all stored data.
 
 ## New ideas on FeatureOS
@@ -87,14 +93,13 @@ _No negative ratings since launch._
 - **solved**: 209
 - **pending**: 31
 - **closed**: 23
-- **open**: 18
+- **open**: 20
 - **hold**: 11
-- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 142
-- **Thundermail**: 122
+- **Thundermail**: 123
 - **Appointment**: 11
 - **Send**: 8
 
@@ -142,8 +147,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#7230](https://tbpro.zendesk.com/agent/tickets/7230)** · Contacts on smartphone Android
+  > After trying Thundermail, I found that the Android app does not support contact sharing with the smartphone's address book. This feature—which is available in Outlook Office 365…
 - **[#7221](https://tbpro.zendesk.com/agent/tickets/7221)** · Cancel / Delete account
   > I request the complete deletion of my Thundermail account and all stored data.
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
@@ -158,7 +165,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [open] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
 - [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
-- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [new] · 2026-07-28T06:32 · Cancel / Delete account
+- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
+- [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
 
 ## Solved — last 24h
 
