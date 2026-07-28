@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 14:40 ET** · refreshes hourly_  
+_Updated: **2026-07-28 15:43 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **5 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **26** solved in last 24h
+- **7** new tickets in last 24h · **29** solved in last 24h
 - **296** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.3h · mean 154.5h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 126.4h · mean 157.6h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"maxime baleydier"** — 2 tickets in 24h (new; baseline 0 cum) — [#7203](https://tbpro.zendesk.com/agent/tickets/7203), [#7230](https://tbpro.zendesk.com/agent/tickets/7230)
 
-## Known problems — 5 problem(s), 30 incident(s)
+## Known problems — 6 problem(s), 32 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -71,14 +71,19 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6654](https://tbpro.zendesk.com/agent/tickets/6654) · [solved] · 2026-07-06 · _Can't add account in Thunderbird_
   - [#7000](https://tbpro.zendesk.com/agent/tickets/7000) · [solved] · 2026-07-21 · _Can't login in thunderbird_
 
-## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
+### [#7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?)
+- 🔧 GitHub: [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
+- 2 incident(s):
+  - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [solved] · 2026-06-24 · _Squarespace Custom Domain_
+  - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [solved] · 2026-07-01 · _Namecheap Custom Domains_
+
+## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
 
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
 - ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
-- 🔧 [zd #6386](https://tbpro.zendesk.com/agent/tickets/6386) → [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
 
 ## Negative CSAT (since launch)
 
@@ -97,11 +102,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
+- **solved**: 214
 - **pending**: 28
-- **closed**: 27
-- **open**: 14
-- **hold**: 12
+- **closed**: 28
+- **open**: 13
+- **hold**: 13
 
 ## Service (cumulative)
 
@@ -119,7 +124,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 21
 - **blocked** + **escalated**: 15
-- **blocked** + **investigated**: 14
+- **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
@@ -131,15 +136,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **curious** + **—**: 1
-- **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
+- **curious** + **—**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
+- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **other** + **n/a**: 1
@@ -163,15 +168,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
   > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7239](https://tbpro.zendesk.com/agent/tickets/7239)** · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?) — why: **blocked** · how: **escalated**
-  > https://github.com/thunderbird/thunderbird-accounts/issues/1151
-
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me — why: **blocked** · how: **explained**
   > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7239](https://tbpro.zendesk.com/agent/tickets/7239)** · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?) — why: **blocked** · how: **escalated**
+  > https://github.com/thunderbird/thunderbird-accounts/issues/1151
 
 ### Other / uncategorized — 1 tickets
 
@@ -190,7 +195,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
 - [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
 - [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
-- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [pending] · 2026-07-28T16:01 · help me
+- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [open] · 2026-07-28T16:01 · help me
 - [7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · 2026-07-28T16:57 · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (S
 
 ## Solved — last 24h
@@ -221,6 +226,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-07-28T17:23 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
 - · [7031](https://tbpro.zendesk.com/agent/tickets/7031) · 2026-07-28T18:02 · forwarding
 - · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-07-28T18:11 · Appointment & Send
+- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-28T19:05 · Squarespace Custom Domain
+- · [6551](https://tbpro.zendesk.com/agent/tickets/6551) · 2026-07-28T19:06 · Namecheap Custom Domains
+- · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-28T19:26 · Refund request
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
