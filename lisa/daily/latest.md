@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 01:14 ET** · refreshes hourly_  
+_Updated: **2026-07-28 03:05 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **292 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **293 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
-- **292** tickets total since launch · contact rate **4%** of 6500 invitees
+- **3** new tickets in last 24h · **8** solved in last 24h
+- **293** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.3h · mean 156.0h (proxy: updated_at − created_at, 203 solved tickets)
+- **Median AHT**: 126.4h · mean 155.6h (proxy: updated_at − created_at, 206 solved tickets)
 
 ## Known problems — 4 problem(s), 28 incident(s)
 
@@ -56,7 +56,7 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **292 tickets** so far
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
-  - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [pending] · 2026-07-22 · _Account Refund_
+  - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27 · _I want to request a refund for my account_
 
 ## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
@@ -71,9 +71,10 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **292 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [new] · _Cancel / Delete account_
+  > I request the complete deletion of my Thundermail account and all stored data.
 
 ## New ideas on FeatureOS
 
@@ -83,15 +84,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 203
-- **pending**: 38
+- **solved**: 206
+- **pending**: 34
 - **closed**: 23
-- **open**: 17
+- **open**: 18
 - **hold**: 11
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 141
+- **Account Hub**: 142
 - **Thundermail**: 122
 - **Appointment**: 11
 - **Send**: 8
@@ -140,8 +142,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
+- **[#7221](https://tbpro.zendesk.com/agent/tickets/7221)** · Cancel / Delete account
+  > I request the complete deletion of my Thundermail account and all stored data.
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
   > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
@@ -154,6 +158,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [open] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
 - [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
+- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [new] · 2026-07-28T06:32 · Cancel / Delete account
 
 ## Solved — last 24h
 
@@ -162,6 +167,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7022](https://tbpro.zendesk.com/agent/tickets/7022) · 2026-07-27T22:01 · Zoom meeting integration in Calendar
 - · [7015](https://tbpro.zendesk.com/agent/tickets/7015) · 2026-07-28T05:01 · I'm unable to sign up for Thundermail with an invitation
 - · [6979](https://tbpro.zendesk.com/agent/tickets/6979) · 2026-07-28T05:01 · CardDAV
+- · [7072](https://tbpro.zendesk.com/agent/tickets/7072) · 2026-07-28T06:01 · wont able to create an account
+- · [7064](https://tbpro.zendesk.com/agent/tickets/7064) · 2026-07-28T06:01 · Account Refund
+- · [7039](https://tbpro.zendesk.com/agent/tickets/7039) · 2026-07-28T06:01 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
