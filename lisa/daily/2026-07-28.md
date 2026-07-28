@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 11:53 ET** · refreshes hourly_  
+_Updated: **2026-07-28 12:43 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **295 tickets** so far
 
 ## At a glance
 
-- **5** new tickets in last 24h · **18** solved in last 24h
+- **6** new tickets in last 24h · **22** solved in last 24h
 - **295** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (27 good / 0 bad)
+- **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.2h · mean 154.7h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 126.7h · mean 155.1h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -96,16 +96,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
-- **pending**: 28
+- **solved**: 214
+- **pending**: 29
 - **closed**: 24
-- **open**: 18
-- **hold**: 12
+- **open**: 17
+- **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 142
-- **Thundermail**: 125
+- **Account Hub**: 141
+- **Thundermail**: 126
 - **Appointment**: 11
 - **Send**: 8
 
@@ -123,11 +123,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
-- **curious** + **informed**: 3
 - **concerned** + **investigated**: 3
+- **curious** + **informed**: 3
+- **request** + **explained**: 3
 - **request** + **actioned**: 3
-- **other** + **n/a**: 2
-- **request** + **explained**: 2
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
@@ -142,6 +141,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
+- **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
@@ -162,23 +162,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
   > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
-### Thunderbird for Android + Thundermail — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7203](https://tbpro.zendesk.com/agent/tickets/7203)** · Contacts Android <> Thundermail 
-  > Thundermail ne synchronise pas les contacts avec Android ce qui est un manque important. Comment faire pour résilier mon abonnement et être remboursé? Quelle procédure ? Merci…
+- **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me
+  > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
 
 ### Other / uncategorized — 1 tickets
 
 - **[#7235](https://tbpro.zendesk.com/agent/tickets/7235)** · Thunderbird blank screen with authenticating Thundermail — why: **blocked** · how: **escalated** · 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
   > This is to track users that reach a blank screen when authenticating Thundermail, and then solve it by allowing cookies. See related incidents for examples.
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7203](https://tbpro.zendesk.com/agent/tickets/7203)** · Contacts Android <> Thundermail  — why: **request** · how: **explained**
+  > Thundermail ne synchronise pas les contacts avec Android ce qui est un manque important. Comment faire pour résilier mon abonnement et être remboursé? Quelle procédure ? Merci…
+
 ## New tickets — last 24h
 
-- [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [open] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
+- [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [pending] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
 - [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
 - [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
 - [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
 - [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
+- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [open] · 2026-07-28T16:01 · help me
 
 ## Solved — last 24h
 
@@ -200,6 +206,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7089](https://tbpro.zendesk.com/agent/tickets/7089) · 2026-07-28T15:02 · Waited for ages only to encounter a paywall
 - · [7071](https://tbpro.zendesk.com/agent/tickets/7071) · 2026-07-28T15:02 · wont able to signuo
 - · [7006](https://tbpro.zendesk.com/agent/tickets/7006) · 2026-07-28T15:02 · Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc
+- · [7077](https://tbpro.zendesk.com/agent/tickets/7077) · 2026-07-28T16:02 · False error showing on account hub re: custom domain verification
+- · [7069](https://tbpro.zendesk.com/agent/tickets/7069) · 2026-07-28T16:02 · Cannot add Thunderbird Pro add-on
+- · [6969](https://tbpro.zendesk.com/agent/tickets/6969) · 2026-07-28T16:02 · Zoom Integration
+- · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-28T16:13 · Unable to upload file to Send in Firefox
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
