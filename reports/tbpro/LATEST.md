@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 17:34 ET** · refreshes hourly_  
+_Updated: **2026-07-28 18:31 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **295 tickets** so far
 - **6** new tickets in last 24h · **27** solved in last 24h
 - **295** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (26 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.7h · mean 158.0h (proxy: updated_at − created_at, 216 solved tickets)
+- **CSAT (since launch)**: 100%  (25 good / 0 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
+- **Median AHT**: 126.9h · mean 158.6h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -102,9 +102,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 216
+- **solved**: 215
 - **pending**: 32
-- **closed**: 28
+- **closed**: 29
 - **hold**: 13
 - **open**: 6
 
@@ -136,13 +136,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
+- **blocked** + **informed**: 1
 - **curious** + **—**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
-- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
@@ -161,10 +161,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
-  > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 - **[#7230](https://tbpro.zendesk.com/agent/tickets/7230)** · Contacts on smartphone Android — why: **blocked** · how: **explained**
   > After trying Thundermail, I found that the Android app does not support contact sharing with the smartphone's address book. This feature—which is available in Outlook Office 365…
+- **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
+  > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -189,7 +189,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [pending] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
-- [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
+- [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [pending] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
 - [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [pending] · 2026-07-28T11:52 · Contacts on smartphone Android
 - [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
 - [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [pending] · 2026-07-28T16:01 · help me
