@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-27
 
-_Updated: **2026-07-27 20:49 ET** · refreshes hourly_  
+_Updated: **2026-07-27 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -96,9 +96,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 201
-- **pending**: 44
+- **pending**: 43
 - **closed**: 23
-- **open**: 13
+- **open**: 14
 - **hold**: 11
 
 ## Service (cumulative)
@@ -131,6 +131,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
+- **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
@@ -138,7 +139,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
-- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **concerned** + **—**: 1
