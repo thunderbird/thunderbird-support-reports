@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-27
+# Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-27 23:13 ET** · refreshes hourly_  
-_24h window: 2026-07-26T16:00 → 2026-07-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-28 01:14 ET** · refreshes hourly_  
+_24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 36** of rollout — **6,500 invitees**, **292 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **292 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **24** solved in last 24h
+- **2** new tickets in last 24h · **5** solved in last 24h
 - **292** tickets total since launch · contact rate **4%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
-- **Median AHT**: 126.2h · mean 155.9h (proxy: updated_at − created_at, 201 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"nextcloud calendar"** — 2 tickets in 24h (new; baseline 0 cum) — [#7187](https://tbpro.zendesk.com/agent/tickets/7187), [#7193](https://tbpro.zendesk.com/agent/tickets/7193)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
+- **Median AHT**: 126.3h · mean 156.0h (proxy: updated_at − created_at, 203 solved tickets)
 
 ## Known problems — 4 problem(s), 28 incident(s)
 
@@ -77,28 +71,22 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · _I want to request a refund for my account_
-  > Hi, I just subscribed to Thundermail and currently I am not able to use much of the platform and I'd like to request a refund for my account. I'll be keeping an eye on the project and hopefully will subscribe when the…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 0 new:
 
-- [Hello: When is Thundermail expected to be available in Spanish? Thanks. / Translated from: Hola: ¿Cuándo se espera que Thundermail esté en español? Gracias](https://ideas.tb.pro/p/hello-when-is-thundermail-expected-to-be-available-in-spanish-thanks-translated-from-hola-cuando-se-espera-que-thundermail-este-en-espanol-gracias) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
-- [Support Ical Subscriptions in Appointments ](https://ideas.tb.pro/p/support-ical-subscriptions-in-appointments) · 1 votes · _untagged_
-  > What you’d like to seeI would like to be able to use the appointment app to its fullest by being able to add my work schedule to my availability, which does change. However my work is not…
-- [Paid bookings](https://ideas.tb.pro/p/paid-bookings) · 1 votes · _untagged_
-  > What you’d like to seeI’d love to see the option to charge for bookings, akin to [Cal.com’s Payments feature](https://cal.com/features/payments).I want to see this feature designed as a pluggable…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 201
-- **pending**: 42
+- **solved**: 203
+- **pending**: 38
 - **closed**: 23
-- **open**: 15
+- **open**: 17
 - **hold**: 11
 
 ## Service (cumulative)
@@ -152,83 +140,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird signup — 3 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#7184](https://tbpro.zendesk.com/agent/tickets/7184)** · Login not possible — why: **blocked** · how: **explained**
-  > I need urgent support because I can't sign in anymore
-- **[#7183](https://tbpro.zendesk.com/agent/tickets/7183)** · Registration Confusion — why: **blocked** · how: **explained**
-  > I got an email saying that I'm invited for early bird access, but I don't see a registration tab. Putting my email in the “forgot password” didn't send me to registration either.
-- **[#7180](https://tbpro.zendesk.com/agent/tickets/7180)** · Unable to complete registration — why: **blocked** · how: **explained**
-  > I got accepted from the wait list and then went to join but my credit card had just been compromised and I was waiting for a new one. So I was unable to complete the registration…
+- **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
+  > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
-### Other / uncategorized — 2 tickets
+### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#7194](https://tbpro.zendesk.com/agent/tickets/7194)** · SRF Eintrag
-  > Hallo, ich habe die SRF Einträge auf Plesk bei Metanet gemacht. Relative Gewichtung für Einträge mit gleicher Priorität verlangt Thundermail 1, auf Metanet habe ich jedoch nur die…
-- **[#7186](https://tbpro.zendesk.com/agent/tickets/7186)** · Unable to upload file to Send in Firefox — why: **blocked** · how: **investigated**
-  > When I tried to upload a file to the Send, it consistently succeeded or failed, depending on the browser I used: 1. FreeBSD 15.1 + XFCE 4.20 + Firefox 153.0: always failed. it…
-
-### Appointment / calendar — 2 tickets
-
-- **[#7193](https://tbpro.zendesk.com/agent/tickets/7193)** · Ical subscription support — why: **request** · how: **redirected**
-  > I love the Caldav and fully support it and where that is going. However, I want to include my work schedule in my availability, but that is only via ical subscription, can we…
-- **[#7187](https://tbpro.zendesk.com/agent/tickets/7187)** · Cannot sync calendar with iphone calendar — why: **blocked** · how: **explained**
-  > I am trying to share Thundermail calendar to my iphone SE Ios 15. I can add the email account but no calendar were added doing this only email and notes. I tried to add caldav…
-
-### Webmail — 1 tickets
-
-- **[#7196](https://tbpro.zendesk.com/agent/tickets/7196)** · Create folder
-  > Is it possible to create email folders in a thundermail account, if so with what because with both thunderbird for android and the web interface (in alpha) I can't create folders…
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7195](https://tbpro.zendesk.com/agent/tickets/7195)** · DEVOLUCIÓN — why: **curious** · how: **explained**
-  > Hola: una vez hecho el pago, ¿tengo un tiempo para desistir y conseguir la devolución del pago? Gracias
-
-### Refund / Cancel — 1 tickets
-
-- **[#7190](https://tbpro.zendesk.com/agent/tickets/7190)** · I want to request a refund for my account — why: **change request** · how: **actioned**
-  > Hi, I just subscribed to Thundermail and currently I am not able to use much of the platform and I'd like to request a refund for my account. I'll be keeping an eye on the project…
+- **[#7203](https://tbpro.zendesk.com/agent/tickets/7203)** · Contacts Android <> Thundermail 
+  > Thundermail ne synchronise pas les contacts avec Android ce qui est un manque important. Comment faire pour résilier mon abonnement et être remboursé? Quelle procédure ? Merci…
 
 ## New tickets — last 24h
 
-- [7180](https://tbpro.zendesk.com/agent/tickets/7180) · [pending] · 2026-07-27T02:29 · Unable to complete registration
-- [7183](https://tbpro.zendesk.com/agent/tickets/7183) · [pending] · 2026-07-27T05:27 · Registration Confusion
-- [7184](https://tbpro.zendesk.com/agent/tickets/7184) · [pending] · 2026-07-27T07:19 · Login not possible
-- [7186](https://tbpro.zendesk.com/agent/tickets/7186) · [pending] · 2026-07-27T08:30 · Unable to upload file to Send in Firefox
-- [7187](https://tbpro.zendesk.com/agent/tickets/7187) · [solved] · 2026-07-27T09:17 · Cannot sync calendar with iphone calendar
-- [7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27T11:49 · I want to request a refund for my account
-- [7193](https://tbpro.zendesk.com/agent/tickets/7193) · [pending] · 2026-07-27T14:38 · Ical subscription support
-- [7194](https://tbpro.zendesk.com/agent/tickets/7194) · [pending] · 2026-07-27T14:39 · SRF Eintrag
-- [7195](https://tbpro.zendesk.com/agent/tickets/7195) · [pending] · 2026-07-27T15:29 · DEVOLUCIÓN
-- [7196](https://tbpro.zendesk.com/agent/tickets/7196) · [open] · 2026-07-27T16:03 · Create folder
+- [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [open] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
+- [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
 
 ## Solved — last 24h
 
-- · [7016](https://tbpro.zendesk.com/agent/tickets/7016) · 2026-07-26T20:01 · Monthly subscription
-- · [7003](https://tbpro.zendesk.com/agent/tickets/7003) · 2026-07-26T20:01 · Thundermail labled as spam
-- · [6987](https://tbpro.zendesk.com/agent/tickets/6987) · 2026-07-26T20:01 · Importing eml
-- · [7017](https://tbpro.zendesk.com/agent/tickets/7017) · 2026-07-26T21:01 · Please close my account
-- · [6999](https://tbpro.zendesk.com/agent/tickets/6999) · 2026-07-26T21:01 · Press plans
-- · [7019](https://tbpro.zendesk.com/agent/tickets/7019) · 2026-07-26T22:01 · Thunderbird Pro (addon) Send problems
-- · [6992](https://tbpro.zendesk.com/agent/tickets/6992) · 2026-07-27T00:01 · refund susbcription (14 days trial)
-- · [6524](https://tbpro.zendesk.com/agent/tickets/6524) · 2026-07-27T01:01 · Unable to use my new email and configure Thunderbird
-- · [7029](https://tbpro.zendesk.com/agent/tickets/7029) · 2026-07-27T02:01 · Unable to signup to [domain] domain
-- · [7010](https://tbpro.zendesk.com/agent/tickets/7010) · 2026-07-27T04:01 · Cancel
-- · [7027](https://tbpro.zendesk.com/agent/tickets/7027) · 2026-07-27T05:01 · Closure of my account and refund
-- · [7045](https://tbpro.zendesk.com/agent/tickets/7045) · 2026-07-27T14:01 · Service testing
-- · [7041](https://tbpro.zendesk.com/agent/tickets/7041) · 2026-07-27T14:01 · JMAP support and other queries
-- · [7037](https://tbpro.zendesk.com/agent/tickets/7037) · 2026-07-27T14:01 · Re: Reminder: You're Invited to the Thundermail Early Bird
-- · [7000](https://tbpro.zendesk.com/agent/tickets/7000) · 2026-07-27T14:23 · Can't login in thunderbird
-- · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-07-27T15:01 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
-- · [7043](https://tbpro.zendesk.com/agent/tickets/7043) · 2026-07-27T15:01 · Request for Cancellation and Refund
-- · [7077](https://tbpro.zendesk.com/agent/tickets/7077) · 2026-07-27T15:11 · False error showing on account hub re: custom domain verification
-- · [7069](https://tbpro.zendesk.com/agent/tickets/7069) · 2026-07-27T15:12 · Cannot add Thunderbird Pro add-on
-- · [7049](https://tbpro.zendesk.com/agent/tickets/7049) · 2026-07-27T17:01 · changing the original gmail address to a different address
-- · [7035](https://tbpro.zendesk.com/agent/tickets/7035) · 2026-07-27T17:01 · Cancellation and Refund Request – Thundermail Subscription
-- · [7023](https://tbpro.zendesk.com/agent/tickets/7023) · 2026-07-27T17:01 · Issues mapping DNS entries to Go Daddy
-- · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-27T17:33 · Refund request
-- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-27T18:47 · Squarespace Custom Domain
+- · [7187](https://tbpro.zendesk.com/agent/tickets/7187) · 2026-07-27T20:18 · Cannot sync calendar with iphone calendar
+- · [7036](https://tbpro.zendesk.com/agent/tickets/7036) · 2026-07-27T21:02 · email relaying
+- · [7022](https://tbpro.zendesk.com/agent/tickets/7022) · 2026-07-27T22:01 · Zoom meeting integration in Calendar
+- · [7015](https://tbpro.zendesk.com/agent/tickets/7015) · 2026-07-28T05:01 · I'm unable to sign up for Thundermail with an invitation
+- · [6979](https://tbpro.zendesk.com/agent/tickets/6979) · 2026-07-28T05:01 · CardDAV
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
