@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 09:46 ET** · refreshes hourly_  
+_Updated: **2026-07-28 11:01 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **294 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **4 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **295 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
-- **294** tickets total since launch · contact rate **5%** of 6500 invitees
+- **5** new tickets in last 24h · **15** solved in last 24h
+- **295** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.2h · mean 155.1h (proxy: updated_at − created_at, 209 solved tickets)
+- **Median AHT**: 126.1h · mean 154.9h (proxy: updated_at − created_at, 210 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"maxime baleydier"** — 2 tickets in 24h (new; baseline 0 cum) — [#7203](https://tbpro.zendesk.com/agent/tickets/7203), [#7230](https://tbpro.zendesk.com/agent/tickets/7230)
 
-## Known problems — 4 problem(s), 28 incident(s)
+## Known problems — 5 problem(s), 30 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -44,7 +44,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
 - 21 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [solved] · 2026-06-24 · _Forgot password_
-  - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [solved] · 2026-06-30 · _Refund_
+  - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [solved] · 2026-06-30 · _Billed for trial period_
   - [#6535](https://tbpro.zendesk.com/agent/tickets/6535) · [solved] · 2026-07-01 · _Cancel Thundermail_
   - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [solved] · 2026-07-08 · _Refund_
@@ -64,6 +64,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27 · _I want to request a refund for my account_
+
+### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · Thunderbird blank screen with authenticating Thundermail
+- 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
+- 2 incident(s):
+  - [#6654](https://tbpro.zendesk.com/agent/tickets/6654) · [solved] · 2026-07-06 · _Can't add account in Thunderbird_
+  - [#7000](https://tbpro.zendesk.com/agent/tickets/7000) · [solved] · 2026-07-21 · _Can't login in thunderbird_
 
 ## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
 
@@ -90,16 +96,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 209
+- **solved**: 210
 - **pending**: 31
-- **closed**: 23
-- **open**: 20
-- **hold**: 11
+- **closed**: 24
+- **open**: 17
+- **hold**: 13
 
 ## Service (cumulative)
 
 - **Account Hub**: 142
-- **Thundermail**: 123
+- **Thundermail**: 125
 - **Appointment**: 11
 - **Send**: 8
 
@@ -112,13 +118,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 21
 - **blocked** + **investigated**: 14
-- **blocked** + **escalated**: 13
-- **confused** + **explained**: 10
+- **blocked** + **escalated**: 14
+- **confused** + **explained**: 11
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
-- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
+- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **other** + **n/a**: 2
 - **request** + **explained**: 2
@@ -161,12 +167,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7203](https://tbpro.zendesk.com/agent/tickets/7203)** · Contacts Android <> Thundermail 
   > Thundermail ne synchronise pas les contacts avec Android ce qui est un manque important. Comment faire pour résilier mon abonnement et être remboursé? Quelle procédure ? Merci…
 
+### Other / uncategorized — 1 tickets
+
+- **[#7235](https://tbpro.zendesk.com/agent/tickets/7235)** · Thunderbird blank screen with authenticating Thundermail — why: **blocked** · how: **escalated** · 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
+  > This is to track users that reach a blank screen when authenticating Thundermail, and then solve it by allowing cookies. See related incidents for examples.
+
 ## New tickets — last 24h
 
 - [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [open] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
 - [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
 - [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
 - [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
+- [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
 
 ## Solved — last 24h
 
@@ -181,6 +193,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7081](https://tbpro.zendesk.com/agent/tickets/7081) · 2026-07-28T11:01 · My donation refunded - No subject provided
 - · [7075](https://tbpro.zendesk.com/agent/tickets/7075) · 2026-07-28T11:01 · Thundermail Sign Up
 - · [7073](https://tbpro.zendesk.com/agent/tickets/7073) · 2026-07-28T11:01 · Change recovery email
+- · [7082](https://tbpro.zendesk.com/agent/tickets/7082) · 2026-07-28T14:02 · Visa 3D secure failing payment
+- · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-28T14:04 · Can't add account in Thunderbird
+- · [7000](https://tbpro.zendesk.com/agent/tickets/7000) · 2026-07-28T14:05 · Can't login in thunderbird
+- · [7159](https://tbpro.zendesk.com/agent/tickets/7159) · 2026-07-28T14:53 · Create folder
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
