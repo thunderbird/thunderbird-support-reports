@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 16:35 ET** · refreshes hourly_  
+_Updated: **2026-07-28 17:34 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **295 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **29** solved in last 24h
-- **296** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **6** new tickets in last 24h · **27** solved in last 24h
+- **295** tickets total since launch · contact rate **5%** of 6500 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.7h · mean 157.8h (proxy: updated_at − created_at, 216 solved tickets)
+- **Median AHT**: 126.7h · mean 158.0h (proxy: updated_at − created_at, 216 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -91,7 +91,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · _Cancel / Delete account_
+- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [pending] · _Cancel / Delete account_
   > I request the complete deletion of my Thundermail account and all stored data.
 
 ## New ideas on FeatureOS
@@ -103,14 +103,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 216
+- **pending**: 32
 - **closed**: 28
-- **pending**: 27
 - **hold**: 13
-- **open**: 12
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 141
+- **Account Hub**: 140
 - **Thundermail**: 127
 - **Appointment**: 11
 - **Send**: 8
@@ -120,24 +120,22 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 70
-- **blocked** + **explained**: 49
+- **blocked** + **explained**: 50
 - **change request** + **actioned**: 34
-- **request** + **redirected**: 21
+- **request** + **redirected**: 22
 - **blocked** + **escalated**: 15
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
-- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
+- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **change request** + **investigated**: 1
-- **confused** + **investigated**: 1
 - **curious** + **—**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
@@ -146,7 +144,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
+- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -159,14 +159,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 3 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#7230](https://tbpro.zendesk.com/agent/tickets/7230)** · Contacts on smartphone Android
-  > After trying Thundermail, I found that the Android app does not support contact sharing with the smartphone's address book. This feature—which is available in Outlook Office 365…
-- **[#7221](https://tbpro.zendesk.com/agent/tickets/7221)** · Cancel / Delete account
-  > I request the complete deletion of my Thundermail account and all stored data.
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
   > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
+- **[#7230](https://tbpro.zendesk.com/agent/tickets/7230)** · Contacts on smartphone Android — why: **blocked** · how: **explained**
+  > After trying Thundermail, I found that the Android app does not support contact sharing with the smartphone's address book. This feature—which is available in Outlook Office 365…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -192,15 +190,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [pending] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
 - [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [open] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
-- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
-- [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
+- [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [pending] · 2026-07-28T11:52 · Contacts on smartphone Android
 - [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
 - [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [pending] · 2026-07-28T16:01 · help me
 - [7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · 2026-07-28T16:57 · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (S
 
 ## Solved — last 24h
 
-- · [7187](https://tbpro.zendesk.com/agent/tickets/7187) · 2026-07-27T20:18 · Cannot sync calendar with iphone calendar
 - · [7036](https://tbpro.zendesk.com/agent/tickets/7036) · 2026-07-27T21:02 · email relaying
 - · [7022](https://tbpro.zendesk.com/agent/tickets/7022) · 2026-07-27T22:01 · Zoom meeting integration in Calendar
 - · [7015](https://tbpro.zendesk.com/agent/tickets/7015) · 2026-07-28T05:01 · I'm unable to sign up for Thundermail with an invitation
@@ -226,7 +222,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-07-28T17:23 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
 - · [7031](https://tbpro.zendesk.com/agent/tickets/7031) · 2026-07-28T18:02 · forwarding
 - · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-07-28T18:11 · Appointment & Send
-- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-28T19:05 · Squarespace Custom Domain
 - · [6551](https://tbpro.zendesk.com/agent/tickets/6551) · 2026-07-28T19:06 · Namecheap Custom Domains
 - · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-28T19:26 · Refund request
 
