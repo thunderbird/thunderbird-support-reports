@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 06:59 ET** · refreshes hourly_  
+_Updated: **2026-07-28 07:47 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **293 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
+- **3** new tickets in last 24h · **11** solved in last 24h
 - **293** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.4h · mean 155.6h (proxy: updated_at − created_at, 206 solved tickets)
+- **Median AHT**: 126.2h · mean 155.1h (proxy: updated_at − created_at, 209 solved tickets)
 
 ## Known problems — 4 problem(s), 28 incident(s)
 
@@ -84,8 +84,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 206
-- **pending**: 34
+- **solved**: 209
+- **pending**: 31
 - **closed**: 23
 - **open**: 18
 - **hold**: 11
@@ -170,6 +170,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7072](https://tbpro.zendesk.com/agent/tickets/7072) · 2026-07-28T06:01 · wont able to create an account
 - · [7064](https://tbpro.zendesk.com/agent/tickets/7064) · 2026-07-28T06:01 · Account Refund
 - · [7039](https://tbpro.zendesk.com/agent/tickets/7039) · 2026-07-28T06:01 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
+- · [7081](https://tbpro.zendesk.com/agent/tickets/7081) · 2026-07-28T11:01 · My donation refunded - No subject provided
+- · [7075](https://tbpro.zendesk.com/agent/tickets/7075) · 2026-07-28T11:01 · Thundermail Sign Up
+- · [7073](https://tbpro.zendesk.com/agent/tickets/7073) · 2026-07-28T11:01 · Change recovery email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
