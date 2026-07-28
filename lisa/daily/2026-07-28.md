@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 13:42 ET** · refreshes hourly_  
+_Updated: **2026-07-28 14:40 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **24** solved in last 24h
+- **7** new tickets in last 24h · **26** solved in last 24h
 - **296** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.4h · mean 154.9h (proxy: updated_at − created_at, 214 solved tickets)
+- **Median AHT**: 126.3h · mean 154.5h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -97,10 +97,10 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 214
-- **pending**: 29
-- **closed**: 26
-- **open**: 15
+- **solved**: 215
+- **pending**: 28
+- **closed**: 27
+- **open**: 14
 - **hold**: 12
 
 ## Service (cumulative)
@@ -115,7 +115,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 69
-- **blocked** + **explained**: 49
+- **blocked** + **explained**: 50
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 21
 - **blocked** + **escalated**: 15
@@ -163,15 +163,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
   > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me
-  > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7239](https://tbpro.zendesk.com/agent/tickets/7239)** · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?) — why: **blocked** · how: **escalated**
   > https://github.com/thunderbird/thunderbird-accounts/issues/1151
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me — why: **blocked** · how: **explained**
+  > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
 
 ### Other / uncategorized — 1 tickets
 
@@ -190,7 +190,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
 - [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
 - [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
-- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [open] · 2026-07-28T16:01 · help me
+- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [pending] · 2026-07-28T16:01 · help me
 - [7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · 2026-07-28T16:57 · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (S
 
 ## Solved — last 24h
@@ -219,6 +219,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-28T16:13 · Unable to upload file to Send in Firefox
 - · [7012](https://tbpro.zendesk.com/agent/tickets/7012) · 2026-07-28T17:01 · Minor DNS record hiccup
 - · [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-07-28T17:23 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
+- · [7031](https://tbpro.zendesk.com/agent/tickets/7031) · 2026-07-28T18:02 · forwarding
+- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-07-28T18:11 · Appointment & Send
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
