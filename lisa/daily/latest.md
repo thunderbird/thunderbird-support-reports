@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 11:01 ET** · refreshes hourly_  
+_Updated: **2026-07-28 11:53 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **295 tickets** so far
 
 ## At a glance
 
-- **5** new tickets in last 24h · **15** solved in last 24h
+- **5** new tickets in last 24h · **18** solved in last 24h
 - **295** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (27 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.1h · mean 154.9h (proxy: updated_at − created_at, 210 solved tickets)
+- **Median AHT**: 126.2h · mean 154.7h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -55,7 +55,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [solved] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [solved] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
-  - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [pending] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
+  - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [solved] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [solved] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
@@ -96,11 +96,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 210
-- **pending**: 31
+- **solved**: 213
+- **pending**: 28
 - **closed**: 24
-- **open**: 17
-- **hold**: 13
+- **open**: 18
+- **hold**: 12
 
 ## Service (cumulative)
 
@@ -195,8 +195,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7073](https://tbpro.zendesk.com/agent/tickets/7073) · 2026-07-28T11:01 · Change recovery email
 - · [7082](https://tbpro.zendesk.com/agent/tickets/7082) · 2026-07-28T14:02 · Visa 3D secure failing payment
 - · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-28T14:04 · Can't add account in Thunderbird
-- · [7000](https://tbpro.zendesk.com/agent/tickets/7000) · 2026-07-28T14:05 · Can't login in thunderbird
 - · [7159](https://tbpro.zendesk.com/agent/tickets/7159) · 2026-07-28T14:53 · Create folder
+- · [7000](https://tbpro.zendesk.com/agent/tickets/7000) · 2026-07-28T15:02 · Can't login in thunderbird
+- · [7089](https://tbpro.zendesk.com/agent/tickets/7089) · 2026-07-28T15:02 · Waited for ages only to encounter a paywall
+- · [7071](https://tbpro.zendesk.com/agent/tickets/7071) · 2026-07-28T15:02 · wont able to signuo
+- · [7006](https://tbpro.zendesk.com/agent/tickets/7006) · 2026-07-28T15:02 · Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
