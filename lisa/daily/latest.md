@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 15:43 ET** · refreshes hourly_  
+_Updated: **2026-07-28 16:35 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 126.4h · mean 157.6h (proxy: updated_at − created_at, 214 solved tickets)
+- **Median AHT**: 126.7h · mean 157.8h (proxy: updated_at − created_at, 216 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -102,11 +102,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 214
-- **pending**: 28
+- **solved**: 216
 - **closed**: 28
-- **open**: 13
+- **pending**: 27
 - **hold**: 13
+- **open**: 12
 
 ## Service (cumulative)
 
@@ -119,8 +119,8 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 69
-- **blocked** + **explained**: 50
+- **curious** + **explained**: 70
+- **blocked** + **explained**: 49
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 21
 - **blocked** + **escalated**: 15
@@ -168,15 +168,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
   > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me — why: **blocked** · how: **explained**
-  > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7239](https://tbpro.zendesk.com/agent/tickets/7239)** · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?) — why: **blocked** · how: **escalated**
   > https://github.com/thunderbird/thunderbird-accounts/issues/1151
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me — why: **curious** · how: **explained**
+  > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
 
 ### Other / uncategorized — 1 tickets
 
@@ -195,7 +195,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [open] · 2026-07-28T06:32 · Cancel / Delete account
 - [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [open] · 2026-07-28T11:52 · Contacts on smartphone Android
 - [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
-- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [open] · 2026-07-28T16:01 · help me
+- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [pending] · 2026-07-28T16:01 · help me
 - [7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · 2026-07-28T16:57 · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (S
 
 ## Solved — last 24h
