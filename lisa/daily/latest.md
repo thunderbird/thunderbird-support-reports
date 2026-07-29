@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 15:42 ET** · refreshes hourly_  
+_Updated: **2026-07-29 16:29 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 38** of rollout — **6,500 invitees**, **303 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **304 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **8** new tickets in last 24h · **19** solved in last 24h
-- **303** tickets total since launch · contact rate **5%** of 6500 invitees
+- **304** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 129.0h · mean 162.8h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 129.0h · mean 162.7h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -90,7 +90,7 @@ _No negative ratings since launch._
   > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription? Thank you in advance for your reply. Best…
 - [7265](https://tbpro.zendesk.com/agent/tickets/7265) · [pending] · _Refund_
   > Hello. I paid for the yearly service last week, but sadly it still feels unfinished. Might try it again at some point. But for now I'd like to have it cancelled and get the refund for the amount paid. Please confirm…
-- [7274](https://tbpro.zendesk.com/agent/tickets/7274) · [open] · _Refund Request - Early Bird Subscription_
+- [7274](https://tbpro.zendesk.com/agent/tickets/7274) · [solved] · _Refund Request - Early Bird Subscription_
   > Hi [name], I purchased an annual subscription to Thundermail on July 13th. After looking around a bit and checking the setup I planned with my specific custom domain needs, I've realized it isn't the right fit for my…
 
 ## New ideas on FeatureOS
@@ -103,7 +103,7 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 215
-- **closed**: 38
+- **closed**: 39
 - **pending**: 27
 - **hold**: 12
 - **open**: 10
@@ -113,7 +113,7 @@ _No negative ratings since launch._
 
 - **Account Hub**: 141
 - **Thundermail**: 134
-- **Appointment**: 11
+- **Appointment**: 12
 - **Send**: 8
 
 ## Why × How (cumulative)
@@ -179,11 +179,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7273](https://tbpro.zendesk.com/agent/tickets/7273)** · CalDav/CardDav issue with Sailfish OS — why: **blocked** · how: **explained**
   > I'm trying to setup the full thundermail stack on my freshly arrived Jolla Phone 2026 and while email worked without any issues, I cannot figure out the caldav/carddav setup. I've…
 
-### App setup / configuration — 1 tickets
-
-- **[#7263](https://tbpro.zendesk.com/agent/tickets/7263)** · PTR/HELO mismatch
-  > Hi, A message to an iCloud address was going to spam, so I ran it through a mail tester. It flagged a PTR/HELO mismatch: > IP: [ip] / HELO: [domain] / rDNS: [domain] Is this the…
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7249](https://tbpro.zendesk.com/agent/tickets/7249)** · I can't receive mail sent to a custom domain
@@ -194,6 +189,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7246](https://tbpro.zendesk.com/agent/tickets/7246)** · Can't use Send or Appointment from Thunderbird
   > I was able to install The TB Pro extension on my macOS system (Thunderbird 153.0), but it doesn't install on my Windows laptop using the same version of Thunderbird client.
 
+### App setup / configuration — 1 tickets
+
+- **[#7263](https://tbpro.zendesk.com/agent/tickets/7263)** · PTR/HELO mismatch
+  > Hi, A message to an iCloud address was going to spam, so I ran it through a mail tester. It flagged a PTR/HELO mismatch: > IP: [ip] / HELO: [domain] / rDNS: [domain] Is this the…
+
 ## New tickets — last 24h
 
 - [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
@@ -201,9 +201,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [pending] · 2026-07-29T04:04 · thundermail 
 - [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [pending] · 2026-07-29T09:24 · Domain Registration via TB?
 - [7262](https://tbpro.zendesk.com/agent/tickets/7262) · [pending] · 2026-07-29T11:57 · ATTACHMENTS
-- [7263](https://tbpro.zendesk.com/agent/tickets/7263) · [open] · 2026-07-29T11:59 · PTR/HELO mismatch
+- [7263](https://tbpro.zendesk.com/agent/tickets/7263) · [pending] · 2026-07-29T11:59 · PTR/HELO mismatch
 - [7273](https://tbpro.zendesk.com/agent/tickets/7273) · [open] · 2026-07-29T15:59 · CalDav/CardDav issue with Sailfish OS
-- [7282](https://tbpro.zendesk.com/agent/tickets/7282) · [new] · 2026-07-29T19:12 · Thunderbird Send fails
+- [7282](https://tbpro.zendesk.com/agent/tickets/7282) · [open] · 2026-07-29T19:12 · Thunderbird Send fails
 
 ## Solved — last 24h
 
