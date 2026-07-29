@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-28 23:13 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
-- **Median AHT**: 127.0h · mean 158.7h (proxy: updated_at − created_at, 214 solved tickets)
+- **Median AHT**: 127.0h · mean 158.4h (proxy: updated_at − created_at, 216 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -103,11 +103,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 214
-- **pending**: 31
+- **solved**: 216
 - **closed**: 29
+- **pending**: 28
 - **hold**: 14
-- **open**: 7
+- **open**: 8
 - **new**: 1
 
 ## Service (cumulative)
@@ -139,6 +139,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **blocked** + **informed**: 1
+- **change request** + **investigated**: 1
 - **curious** + **—**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
@@ -146,7 +147,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
-- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
