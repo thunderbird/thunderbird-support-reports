@@ -19,3 +19,6 @@ internal/
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Private capacity/performance dashboards — never commit, never publish.
+lisa/private/

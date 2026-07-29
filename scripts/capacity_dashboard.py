@@ -21,8 +21,8 @@ from collections import defaultdict
 sys.path.insert(0, str(Path(__file__).parent))
 from tbpro_daily import zd_creds
 
-LOOKBACK_WEEKS  = 8
-AHT_WEEKS       = 6
+LOOKBACK_WEEKS  = 4
+AHT_WEEKS       = 4
 OUT             = Path("lisa/daily/capacity_dashboard.html")
 
 # Assignee IDs to exclude from capacity view (eng seats, bots, etc.)
@@ -42,25 +42,6 @@ BRAND_COLORS = {
     "Donor":       "#10b981",
 }
 
-WAVES = [
-    {"date": "2026-05-04", "invites": 600,   "label": "Early Bird"},
-    {"date": "2026-06-03", "invites": 500,   "label": "Flight 2 W1"},
-    {"date": "2026-06-04", "invites": 1500,  "label": "Flight 2 W2"},
-    {"date": "2026-06-22", "invites": 1500,  "label": "Flight 3 W1"},
-    {"date": "2026-06-23", "invites": 3000,  "label": "Flight 3 W2"},
-    {"date": "2026-06-24", "invites": 2000,  "label": "Flight 3 W3"},
-    {"date": "2026-06-29", "invites": 5000,  "label": "Flight 4 W1"},
-    {"date": "2026-06-30", "invites": 5000,  "label": "Flight 4 W2"},
-    {"date": "2026-07-06", "invites": 4000,  "label": "Flight 5 W1"},
-    {"date": "2026-07-07", "invites": 3000,  "label": "Flight 5 W2"},
-    {"date": "2026-07-08", "invites": 3000,  "label": "Flight 5 W3"},
-    {"date": "2026-07-13", "invites": 4000,  "label": "Flight 6 W1"},
-    {"date": "2026-07-14", "invites": 4000,  "label": "Flight 6 W2"},
-    {"date": "2026-07-20", "invites": 4000,  "label": "Flight 7 W1"},
-    {"date": "2026-07-20", "invites": 10000, "label": "Re-engagement 1"},
-    {"date": "2026-07-21", "invites": 4000,  "label": "Flight 7 W2"},
-    {"date": "2026-07-21", "invites": 20000, "label": "Re-engagement 2"},
-]
 
 def zd_auth(creds):
     return "Basic " + base64.b64encode(
@@ -140,17 +121,6 @@ def anonymize_agents(tickets):
             seen[aid] = f"Agent {counter}"
             counter += 1
     return seen
-
-def days_since_wave(ticket_date):
-    """Return (wave_label, days_delta) for the nearest prior wave."""
-    wave_dates = [(dt.date.fromisoformat(w["date"]), w["label"]) for w in WAVES]
-    wave_dates.sort()
-    ticket_d = dt.date.fromisoformat(ticket_date[:10])
-    best = None
-    for wd, label in wave_dates:
-        if wd <= ticket_d:
-            best = (label, (ticket_d - wd).days)
-    return best  # None if ticket predates first wave
 
 
 def build_html(tickets, aht_by_id, agent_map, today):
@@ -250,27 +220,7 @@ def build_html(tickets, aht_by_id, agent_map, today):
         if agent_map.get(t.get("assignee_id")):
             dow_throughput[created_d.weekday()] += 1
 
-    # ── contact timeline (Thundermail only) ──────────────────────────────────
-    timeline_buckets = {"0–3 d": 0, "4–7 d": 0, "8–14 d": 0, "15–30 d": 0, "31+ d": 0}
-    wave_contacts    = defaultdict(int)  # wave_label → count
-
-    for t in tickets:
-        if brand_of(t) != "Thundermail":
-            continue
-        result = days_since_wave(t["created_at"])
-        if result is None:
-            continue
-        wave_label, days = result
-        wave_contacts[wave_label] += 1
-        if   days <= 3:  timeline_buckets["0–3 d"]  += 1
-        elif days <= 7:  timeline_buckets["4–7 d"]  += 1
-        elif days <= 14: timeline_buckets["8–14 d"] += 1
-        elif days <= 30: timeline_buckets["15–30 d"] += 1
-        else:            timeline_buckets["31+ d"]  += 1
-
-    timeline_total = sum(timeline_buckets.values()) or 1
-
-    # ── tickets/day figures ──────────────────────────────────────────────────
+# ── tickets/day figures ──────────────────────────────────────────────────
     days_in_range = LOOKBACK_WEEKS * 7 or 1
     work_days     = LOOKBACK_WEEKS * 5 or 1
 
@@ -395,21 +345,6 @@ def build_html(tickets, aht_by_id, agent_map, today):
           <thead><tr><th>Segment</th><th>Median FRT</th><th>Mean FRT</th><th>Tickets</th></tr></thead>
           <tbody>{rows}</tbody></table>"""
 
-    # Section 4: contact timeline bars
-    def timeline_bars():
-        bars = ""
-        max_pct = max((v / timeline_total * 100 for v in timeline_buckets.values()), default=1)
-        for label, count in timeline_buckets.items():
-            pct = round(count / timeline_total * 100)
-            bar_w = round(count / timeline_total * 100 / max_pct * 100)
-            bars += f"""
-        <div class="tl-row">
-          <div class="tl-label">{label}</div>
-          <div class="tl-bar-wrap"><div class="tl-bar" style="width:{bar_w}%"></div></div>
-          <div class="tl-val">{count} <span class="tl-pct">({pct}%)</span></div>
-        </div>"""
-        return bars
-
     def dow_section():
         max_inc = max((dow_incoming[d] for d in range(7)), default=1)
         rows = ""
@@ -456,14 +391,6 @@ def build_html(tickets, aht_by_id, agent_map, today):
           Gap rows (▼) = throughput under 70% of incoming that day.
         </p>"""
 
-    def wave_contact_rows():
-        rows = ""
-        wave_order = [w["label"] for w in WAVES]
-        for wl in wave_order:
-            cnt = wave_contacts.get(wl, 0)
-            rows += f"<tr><td>{wl}</td><td class='num'>{cnt}</td></tr>"
-        return rows
-
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -507,15 +434,6 @@ def build_html(tickets, aht_by_id, agent_map, today):
   .incoming-row {{ background: rgba(99,102,241,.08); }}
   .section-divider {{ color: var(--muted); font-style: italic; font-size: 0.8rem;
                       padding: 12px 12px 4px; border-top: 1px solid var(--border); }}
-  .tl-row {{ display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }}
-  .tl-label {{ width: 70px; font-size: 0.85rem; color: var(--muted); flex-shrink: 0; }}
-  .tl-bar-wrap {{ flex: 1; background: var(--surface); border-radius: 4px; height: 20px;
-                  border: 1px solid var(--border); overflow: hidden; }}
-  .tl-bar {{ height: 100%; background: var(--indigo); border-radius: 3px; }}
-  .tl-val {{ width: 90px; font-size: 0.85rem; text-align: right; flex-shrink: 0; }}
-  .tl-pct {{ color: var(--muted); }}
-  .two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }}
-  @media (max-width: 700px) {{ .two-col {{ grid-template-columns: 1fr; }} }}
 </style>
 </head>
 <body>
@@ -550,22 +468,6 @@ def build_html(tickets, aht_by_id, agent_map, today):
   is not used because the pending-first workflow (48h bump) inflates it to days.
 </p>
 {frt_table()}
-
-<h2>Contact Timeline — Days from Invite to First Thundermail Ticket</h2>
-<div class="two-col">
-  <div>
-    <p style="color:var(--muted);font-size:0.8rem;margin-bottom:12px">
-      Approximate — bucketed by nearest prior wave date.
-    </p>
-    {timeline_bars()}
-  </div>
-  <div>
-    <table>
-      <thead><tr><th>Wave</th><th>Contacts</th></tr></thead>
-      <tbody>{wave_contact_rows()}</tbody>
-    </table>
-  </div>
-</div>
 
 </body>
 </html>"""
