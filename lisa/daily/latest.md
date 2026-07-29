@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 03:07 ET** · refreshes hourly_  
+_Updated: **2026-07-29 04:06 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **299 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
+- **4** new tickets in last 24h · **9** solved in last 24h
 - **299** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 127.0h · mean 159.3h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 127.1h · mean 159.1h (proxy: updated_at − created_at, 219 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -98,9 +98,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 217
-- **pending**: 30
+- **solved**: 219
 - **closed**: 29
+- **pending**: 28
 - **hold**: 14
 - **open**: 8
 - **new**: 1
@@ -192,6 +192,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7103](https://tbpro.zendesk.com/agent/tickets/7103) · 2026-07-29T02:01 · Thunderbird Pro coupon code
 - · [7096](https://tbpro.zendesk.com/agent/tickets/7096) · 2026-07-29T02:01 · Early Bird plan costs
 - · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-07-29T04:01 · Checking if tax documents are available - needed for Thundermail subscription in India
+- · [7084](https://tbpro.zendesk.com/agent/tickets/7084) · 2026-07-29T08:01 · CONFIGURATION DNS anomaly
+- · [7070](https://tbpro.zendesk.com/agent/tickets/7070) · 2026-07-29T08:01 · Setting up JMAP
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
