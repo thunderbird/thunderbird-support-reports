@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 10:55 ET** · refreshes hourly_  
+_Updated: **2026-07-29 11:46 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **301 tickets** so far
 
 ## At a glance
 
-- **6** new tickets in last 24h · **11** solved in last 24h
+- **6** new tickets in last 24h · **12** solved in last 24h
 - **301** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (25 good / 0 bad)
+- **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 127.4h · mean 159.0h (proxy: updated_at − created_at, 220 solved tickets)
+- **Median AHT**: 128.3h · mean 160.9h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -100,8 +100,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 220
-- **closed**: 30
+- **solved**: 214
+- **closed**: 36
 - **pending**: 27
 - **open**: 13
 - **hold**: 11
@@ -203,6 +203,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7070](https://tbpro.zendesk.com/agent/tickets/7070) · 2026-07-29T08:01 · Setting up JMAP
 - · [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-29T14:07 · paid version 
 - · [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-29T14:52 · Login not possible
+- · [7159](https://tbpro.zendesk.com/agent/tickets/7159) · 2026-07-29T15:02 · Create folder
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
