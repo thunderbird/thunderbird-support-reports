@@ -211,7 +211,7 @@
             <tr><td><em>Incoming</em></td><td class='num incoming-row'>151</td><td class='num incoming-row'>147</td><td class='num incoming-row'>213</td><td class='num incoming-row'><strong>170.3</strong></td></tr>
             <tr><td><strong>Agent 1</strong></td><td class='num'>80</td><td class='num'>58</td><td class='num'>62</td><td class='num'><strong>66.7</strong></td></tr><tr><td><strong>Agent 2</strong></td><td class='num'>39</td><td class='num'>47</td><td class='num'>39</td><td class='num'><strong>41.7</strong></td></tr><tr><td><strong>Agent 3</strong></td><td class='num'>55</td><td class='num'>57</td><td class='num'>66</td><td class='num'><strong>59.3</strong></td></tr><tr><td><strong>Agent 4</strong></td><td class='num'>13</td><td class='num'>15</td><td class='num'>36</td><td class='num'><strong>21.3</strong></td></tr>
             <tr style='border-top:2px solid var(--border)'><td><strong>Team total</strong></td><td class='num'>187</td><td class='num'>177</td><td class='num'>203</td><td class='num'><strong>189.0</strong></td></tr>
-            <tr><td style='color:var(--green);font-size:0.8rem'>vs incoming</td><td class='num' style='color:var(--green)'>+36</td><td class='num' style='color:var(--green)'>+30</td><td class='num' style='color:var(--green)'>-10</td><td class='num' style='color:var(--green)'><strong>+18.7</strong></td></tr>
+            <tr><td style='color:var(--green);font-size:0.8rem'>vs incoming</td><td class='num' style='color:var(--green)'>+36</td><td class='num' style='color:var(--green)'>+30</td><td class='num' style='color:var(--red)'>-10</td><td class='num' style='color:var(--green)'><strong>+18.7</strong></td></tr>
           </tbody>
         </table>
         <p style="color:var(--muted);font-size:0.78rem;margin-top:6px">
@@ -243,6 +243,18 @@
 <table>
           <thead><tr><th>Segment</th><th>Median FRT</th><th>Mean FRT</th><th>Tickets</th></tr></thead>
           <tbody><tr><td style='color:#6366f1'><strong>Thundermail</strong></td><td>5.5h</td><td>10.6h</td><td>254</td></tr><tr><td style='color:#f97316'><strong>Mobile</strong></td><td>15.0h</td><td>23.6h</td><td>191</td></tr><tr><td style='color:#10b981'><strong>Donor</strong></td><td>13.2h</td><td>20.0h</td><td>169</td></tr><tr><td colspan='4' class='section-divider'>By agent (all brands)</td></tr><tr><td>Agent 1</td><td>10.6h</td><td>16.1h</td><td>193</td></tr><tr><td>Agent 2</td><td>6.5h</td><td>13.5h</td><td>126</td></tr><tr><td>Agent 3</td><td>12.2h</td><td>17.7h</td><td>192</td></tr><tr><td>Agent 4</td><td>6.7h</td><td>21.4h</td><td>96</td></tr></tbody></table>
+
+<h2>Next Reply Time by Agent</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Time between a customer's follow-up and the agent's next public response — for ongoing conversations (not first contact).
+</p>
+<table>
+          <thead><tr><th>Agent</th><th>Median NRT</th><th>Mean NRT</th><th>Samples</th></tr></thead>
+          <tbody><tr style='border-bottom:2px solid var(--border)'><td><strong>Team</strong></td><td>8.7h</td><td>16.1h</td><td>1034</td></tr><tr><td><strong>Agent 1</strong></td><td>12.5h</td><td>18.2h</td><td>299</td></tr><tr><td><strong>Agent 2</strong></td><td>5.8h</td><td>13.3h</td><td>243</td></tr><tr><td><strong>Agent 3</strong></td><td>9.8h</td><td>15.9h</td><td>328</td></tr><tr><td><strong>Agent 4</strong></td><td>3.6h</td><td>17.0h</td><td>164</td></tr></tbody></table>
+        <p style="color:var(--muted);font-size:0.78rem;margin-top:6px">
+          Time between a customer's public reply and the agent's next public response.
+          Outliers capped at 14 days. Does not include first-contact replies (see FRT above).
+        </p>
 
 </body>
 </html>

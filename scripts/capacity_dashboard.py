@@ -133,19 +133,31 @@ def anonymize_agents(tickets):
 
 
 def fetch_public_replies(auth, sub, since_date, agent_map):
-    """Return {agent_label: {week_iso: distinct_ticket_count}} using incremental ticket events.
-    Counts distinct tickets where the agent posted at least one public comment that week.
-    Matches Zendesk Explore 'Tickets updated w/public comment' metric.
+    """Return (reply_data, nrt_data) in one incremental-events pass.
 
-    In the incremental events API the commenter is updater_id on the PARENT event;
-    child_events of type 'Comment' (with public=True) confirm the update was a public reply.
+    reply_data: {agent_label: {week_iso: distinct_ticket_count}}
+      Distinct tickets where agent posted ≥1 public comment that week.
+      Matches Zendesk Explore 'Tickets updated w/public comment'.
+
+    nrt_data: {agent_label: [minutes]}
+      Next Reply Time — minutes between a customer's public comment and the
+      agent's next public reply, across all tickets in the window.
+
+    In the incremental events API: commenter = updater_id on the PARENT event;
+    child_events with event_type='Comment' + comment_public confirm a public reply.
     """
     start_ts = int(dt.datetime.combine(since_date, dt.time.min,
                                         tzinfo=dt.timezone.utc).timestamp())
     url = f"https://{sub}.zendesk.com/api/v2/incremental/ticket_events.json?start_time={start_ts}"
 
-    # (author_id, ticket_id, week_iso) → deduplicate to match Explore distinct-ticket count
+    # For reply volume: (author_id, ticket_id, week_iso) set
     touched = set()
+
+    # For next reply time: per-ticket public comment timeline
+    # ticket_id → sorted list of (unix_ts, agent_id_or_None)
+    ticket_timeline = defaultdict(list)
+
+    agent_ids = set(agent_map.keys())
 
     print("Fetching public reply events…", flush=True)
     page = 0
@@ -165,29 +177,58 @@ def fetch_public_replies(auth, sub, since_date, agent_map):
             updater_id = event.get("updater_id")
             w = week_start(created).isoformat()
 
-            # Use correct field names from API: event_type (not type), comment_public (not public)
-            has_public_comment = any(
+            has_public = any(
                 child.get("event_type") in ("Comment", "VoiceComment")
                 and child.get("comment_public", False)
                 for child in event.get("child_events", [])
             )
-            if has_public_comment and updater_id and updater_id in agent_map:
+            if not has_public:
+                continue
+
+            # Reply volume (agent public comments only)
+            if updater_id and updater_id in agent_ids:
                 touched.add((updater_id, ticket_id, w))
+
+            # Next reply time timeline (agents AND customers, public only)
+            author = updater_id if updater_id in agent_ids else None
+            ticket_timeline[ticket_id].append((ts, author, updater_id))
 
         print(f"  page {page}: {len(events)} events, {len(touched)} touches so far", flush=True)
         if d.get("end_of_stream"):
             break
         url = d.get("next_page")
 
-    # Aggregate: agent_label → week → distinct ticket count
-    result = defaultdict(lambda: defaultdict(int))
+    # ── Aggregate reply volume ────────────────────────────────────────────────
+    reply_data = defaultdict(lambda: defaultdict(int))
     for (author_id, _ticket_id, w) in touched:
-        label = agent_map[author_id]
-        result[label][w] += 1
-    return result
+        reply_data[agent_map[author_id]][w] += 1
+
+    # ── Compute next reply times ──────────────────────────────────────────────
+    # For each ticket: find customer comment → next agent public reply pairs.
+    # Only count agent's FIRST response to each customer message (skip same-author runs).
+    nrt_data = defaultdict(list)  # agent_label → [minutes]
+    for tid, timeline in ticket_timeline.items():
+        timeline.sort(key=lambda x: x[0])
+        i = 0
+        while i < len(timeline):
+            ts_cust, agent, uid = timeline[i]
+            if agent is not None:          # skip agent messages looking for customer
+                i += 1
+                continue
+            # Found a customer comment — find next agent reply
+            for j in range(i + 1, len(timeline)):
+                ts_next, next_agent, next_uid = timeline[j]
+                if next_agent is not None:
+                    wait_mins = (ts_next - ts_cust) / 60
+                    if 0 < wait_mins < 60 * 24 * 14:  # cap at 2 weeks (outlier guard)
+                        nrt_data[agent_map[next_agent]].append(wait_mins)
+                    break
+            i += 1
+
+    return reply_data, nrt_data
 
 
-def build_html(tickets, aht_by_id, agent_map, today, reply_data=None):
+def build_html(tickets, aht_by_id, agent_map, today, reply_data=None, nrt_data=None):
     brands     = list(BRAND_TAGS.values())
     all_agents = sorted(set(agent_map.values()))
     gen        = today.strftime("%Y-%m-%d")
@@ -409,6 +450,30 @@ def build_html(tickets, aht_by_id, agent_map, today, reply_data=None):
           <thead><tr><th>Segment</th><th>Median FRT</th><th>Mean FRT</th><th>Tickets</th></tr></thead>
           <tbody>{rows}</tbody></table>"""
 
+    def nrt_section():
+        if not nrt_data:
+            return "<p style='color:var(--muted);font-size:0.85rem'>Next reply time data unavailable.</p>"
+        rows = ""
+        all_vals = []
+        for agent in all_agents:
+            lst = nrt_data.get(agent, [])
+            all_vals.extend(lst)
+            med = f"{round(statistics.median(lst)/60, 1)}h" if lst else "—"
+            mn  = f"{round(sum(lst)/len(lst)/60, 1)}h"      if lst else "—"
+            rows += f"<tr><td><strong>{agent}</strong></td><td>{med}</td><td>{mn}</td><td>{len(lst)}</td></tr>"
+        # Team row
+        if all_vals:
+            t_med = f"{round(statistics.median(all_vals)/60, 1)}h"
+            t_mn  = f"{round(sum(all_vals)/len(all_vals)/60, 1)}h"
+            rows = f"<tr style='border-bottom:2px solid var(--border)'><td><strong>Team</strong></td><td>{t_med}</td><td>{t_mn}</td><td>{len(all_vals)}</td></tr>" + rows
+        return f"""<table>
+          <thead><tr><th>Agent</th><th>Median NRT</th><th>Mean NRT</th><th>Samples</th></tr></thead>
+          <tbody>{rows}</tbody></table>
+        <p style="color:var(--muted);font-size:0.78rem;margin-top:6px">
+          Time between a customer's public reply and the agent's next public response.
+          Outliers capped at 14 days. Does not include first-contact replies (see FRT above).
+        </p>"""
+
     def reply_section():
         if not reply_data:
             return "<p style='color:var(--muted);font-size:0.85rem'>Reply data unavailable.</p>"
@@ -627,6 +692,12 @@ def build_html(tickets, aht_by_id, agent_map, today, reply_data=None):
 </p>
 {frt_table()}
 
+<h2>Next Reply Time by Agent</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Time between a customer's follow-up and the agent's next public response — for ongoing conversations (not first contact).
+</p>
+{nrt_section()}
+
 </body>
 </html>"""
 
@@ -648,11 +719,12 @@ def main():
     for aid, label in sorted(agent_map.items(), key=lambda x: x[1]):
         print(f"  {label}: assignee_id={aid}")
 
-    reply_data = fetch_public_replies(auth, sub, since, agent_map)
+    reply_data, nrt_data = fetch_public_replies(auth, sub, since, agent_map)
     print(f"Reply data: {sum(sum(v.values()) for v in reply_data.values())} agent-week entries")
+    print(f"NRT samples: {sum(len(v) for v in nrt_data.values())}")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    html = build_html(tickets, aht_by_id, agent_map, today, reply_data=reply_data)
+    html = build_html(tickets, aht_by_id, agent_map, today, reply_data=reply_data, nrt_data=nrt_data)
     OUT.write_text(html)
     print(f"Written → {OUT.resolve()}")
 
