@@ -228,7 +228,32 @@ def fetch_public_replies(auth, sub, since_date, agent_map):
     return reply_data, nrt_data
 
 
-def build_html(tickets, aht_by_id, agent_map, today, reply_data=None, nrt_data=None):
+def fetch_backlog_flow(auth, sub, weeks, today):
+    """Return {week_iso: solved_count} and current_open count.
+    Uses search count queries — one per week, very fast."""
+    sub_url = f"https://{sub}.zendesk.com/api/v2/search/count.json"
+
+    solved_by_week = {}
+    print("Fetching solved counts per week…", flush=True)
+    for w in weeks:
+        w_start = dt.date.fromisoformat(w)
+        w_end   = min(w_start + dt.timedelta(weeks=1), today)
+        q = f"type:ticket+solved>={w_start.isoformat()}+solved<{w_end.isoformat()}"
+        d = zd_get(f"{sub_url}?query={q}", auth)
+        solved_by_week[w] = d.get("count", 0)
+        print(f"  {w}: {solved_by_week[w]} solved", flush=True)
+
+    # Current open = pending + open + hold (anything not solved/closed)
+    open_count = 0
+    for status in ("open", "pending", "hold"):
+        d = zd_get(f"{sub_url}?query=type:ticket+status:{status}", auth)
+        open_count += d.get("count", 0)
+    print(f"Current open: {open_count}", flush=True)
+
+    return solved_by_week, open_count
+
+
+def build_html(tickets, aht_by_id, agent_map, today, reply_data=None, nrt_data=None, backlog_data=None):
     brands     = list(BRAND_TAGS.values())
     all_agents = sorted(set(agent_map.values()))
     gen        = today.strftime("%Y-%m-%d")
@@ -450,6 +475,67 @@ def build_html(tickets, aht_by_id, agent_map, today, reply_data=None, nrt_data=N
           <thead><tr><th>Segment</th><th>Median FRT</th><th>Mean FRT</th><th>Tickets</th></tr></thead>
           <tbody>{rows}</tbody></table>"""
 
+    def backlog_section():
+        if not backlog_data:
+            return "<p style='color:var(--muted);font-size:0.85rem'>Backlog data unavailable.</p>"
+        solved_by_week, current_open = backlog_data
+
+        # Reconstruct weekly flow working backwards from current open
+        full_weeks = [w for w in weeks if w < week_start(today).isoformat()]
+        if not full_weeks:
+            full_weeks = weeks
+
+        # ending backlog of last full week = current_open (approximation — ignores partial current week)
+        ending = current_open
+        # build rows in reverse then flip
+        rows_data = []
+        for w in reversed(full_weeks):
+            new_cnt    = sum(incoming_by_week[w].values())
+            solved_cnt = solved_by_week.get(w, 0)
+            net        = new_cnt - solved_cnt
+            opening    = ending - net
+            rows_data.append((w, opening, new_cnt, solved_cnt, net, ending))
+            ending = opening
+        rows_data.reverse()
+
+        def wlabel(w):
+            d = dt.date.fromisoformat(w)
+            return f"W{d.isocalendar()[1]}"
+
+        rows_html = ""
+        for w, opening, new_cnt, solved_cnt, net, end in rows_data:
+            net_color = "var(--red)" if net > 0 else "var(--green)"
+            net_str   = f"+{net}" if net > 0 else str(net)
+            rows_html += f"""<tr>
+              <td>{wlabel(w)}</td>
+              <td class='num'>{opening}</td>
+              <td class='num'>{new_cnt}</td>
+              <td class='num'>{solved_cnt}</td>
+              <td class='num' style='color:{net_color}'>{net_str}</td>
+              <td class='num'><strong>{end}</strong></td>
+            </tr>"""
+
+        # Summary card row
+        total_new    = sum(sum(incoming_by_week[w].values()) for w in full_weeks)
+        total_solved = sum(solved_by_week.get(w, 0) for w in full_weeks)
+        total_net    = total_new - total_solved
+        net_color    = "var(--red)" if total_net > 0 else "var(--green)"
+        net_str      = f"+{total_net}" if total_net > 0 else str(total_net)
+
+        return f"""<table>
+          <thead><tr>
+            <th>Week</th><th>Opening</th><th>New</th><th>Closed</th>
+            <th>Net</th><th>Ending</th>
+          </tr></thead>
+          <tbody>{rows_html}</tbody>
+        </table>
+        <p style="color:var(--muted);font-size:0.78rem;margin-top:6px">
+          {len(full_weeks)}-week total: {total_new} new · {total_solved} closed ·
+          <span style="color:{net_color}">{net_str} net</span>.
+          Ending backlog anchored to current open ticket count ({current_open}).
+          "Closed" = tickets moved to solved status that week.
+        </p>"""
+
     def nrt_section():
         if not nrt_data:
             return "<p style='color:var(--muted);font-size:0.85rem'>Next reply time data unavailable.</p>"
@@ -660,6 +746,12 @@ def build_html(tickets, aht_by_id, agent_map, today, reply_data=None, nrt_data=N
   ⚠️ Agent data is anonymized — agents appear as capacity units only. Do not share agent ID mappings.
 </div>
 
+<h2>Backlog Flow — Opening + New − Closed = Ending</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Week-by-week queue health. Ending backlog anchored to current open count and reconstructed backwards.
+</p>
+{backlog_section()}
+
 <h2>Incoming Tickets / Day</h2>
 <div class="cards">{summary_cards()}</div>
 
@@ -723,8 +815,15 @@ def main():
     print(f"Reply data: {sum(sum(v.values()) for v in reply_data.values())} agent-week entries")
     print(f"NRT samples: {sum(len(v) for v in nrt_data.values())}")
 
+    # weeks list needed for backlog fetch (same calculation as in build_html)
+    this_week = week_start(today)
+    weeks = [(this_week - dt.timedelta(weeks=i)).isoformat()
+             for i in range(LOOKBACK_WEEKS - 1, -1, -1)]
+    backlog_data = fetch_backlog_flow(auth, sub, weeks, today)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    html = build_html(tickets, aht_by_id, agent_map, today, reply_data=reply_data, nrt_data=nrt_data)
+    html = build_html(tickets, aht_by_id, agent_map, today,
+                      reply_data=reply_data, nrt_data=nrt_data, backlog_data=backlog_data)
     OUT.write_text(html)
     print(f"Written → {OUT.resolve()}")
 
