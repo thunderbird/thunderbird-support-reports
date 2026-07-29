@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 13:37 ET** · refreshes hourly_  
+_Updated: **2026-07-29 14:30 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **302 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **17** solved in last 24h
+- **7** new tickets in last 24h · **18** solved in last 24h
 - **302** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (23 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 128.9h · mean 161.3h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 128.9h · mean 161.5h (proxy: updated_at − created_at, 217 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -90,7 +90,7 @@ _No negative ratings since launch._
   > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription? Thank you in advance for your reply. Best…
 - [7265](https://tbpro.zendesk.com/agent/tickets/7265) · [pending] · _Refund_
   > Hello. I paid for the yearly service last week, but sadly it still feels unfinished. Might try it again at some point. But for now I'd like to have it cancelled and get the refund for the amount paid. Please confirm…
-- [7274](https://tbpro.zendesk.com/agent/tickets/7274) · [pending] · _Refund Request - Early Bird Subscription_
+- [7274](https://tbpro.zendesk.com/agent/tickets/7274) · [open] · _Refund Request - Early Bird Subscription_
   > Hi [name], I purchased an annual subscription to Thundermail on July 13th. After looking around a bit and checking the setup I planned with my specific custom domain needs, I've realized it isn't the right fit for my…
 
 ## New ideas on FeatureOS
@@ -105,8 +105,8 @@ _No negative ratings since launch._
 - **solved**: 217
 - **closed**: 36
 - **pending**: 28
-- **hold**: 11
-- **open**: 10
+- **hold**: 12
+- **open**: 9
 
 ## Service (cumulative)
 
@@ -136,7 +136,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **change request** + **investigated**: 1
 - **curious** + **—**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
@@ -145,6 +144,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
+- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
@@ -217,6 +217,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7104](https://tbpro.zendesk.com/agent/tickets/7104) · 2026-07-29T17:01 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-29T17:25 · Add OAuth for Thundermail to FairEmail
 - · [7014](https://tbpro.zendesk.com/agent/tickets/7014) · 2026-07-29T17:30 · Impossible to sync thundermail calendar with Thunderbird 140ESR AND 152
+- 👍 [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-07-29T18:20 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
