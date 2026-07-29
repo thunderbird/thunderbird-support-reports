@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 11:46 ET** · refreshes hourly_  
+_Updated: **2026-07-29 12:38 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 38** of rollout — **6,500 invitees**, **301 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **303 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **12** solved in last 24h
-- **301** tickets total since launch · contact rate **5%** of 6500 invitees
+- **8** new tickets in last 24h · **12** solved in last 24h
+- **303** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
 - **Median AHT**: 128.3h · mean 160.9h (proxy: updated_at − created_at, 214 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domain"** — 2 tickets in 24h (3.2× baseline; baseline 23 cum) — [#7249](https://tbpro.zendesk.com/agent/tickets/7249), [#7274](https://tbpro.zendesk.com/agent/tickets/7274)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -84,12 +90,14 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **301 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [pending] · _cancel my account and refund_
   > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription? Thank you in advance for your reply. Best…
 - [7265](https://tbpro.zendesk.com/agent/tickets/7265) · [pending] · _Refund_
   > Hello. I paid for the yearly service last week, but sadly it still feels unfinished. Might try it again at some point. But for now I'd like to have it cancelled and get the refund for the amount paid. Please confirm…
+- [7274](https://tbpro.zendesk.com/agent/tickets/7274) · [new] · _Refund Request - Early Bird Subscription_
+  > Hi [name], I purchased an annual subscription to Thundermail on July 13th. After looking around a bit and checking the setup I planned with my specific custom domain needs, I've realized it isn't the right fit for my…
 
 ## New ideas on FeatureOS
 
@@ -102,13 +110,14 @@ _No negative ratings since launch._
 
 - **solved**: 214
 - **closed**: 36
-- **pending**: 27
-- **open**: 13
+- **pending**: 29
+- **open**: 12
 - **hold**: 11
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 141
+- **Account Hub**: 143
 - **Thundermail**: 132
 - **Appointment**: 11
 - **Send**: 8
@@ -134,7 +143,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
-- **blocked** + **informed**: 1
 - **change request** + **investigated**: 1
 - **curious** + **—**: 1
 - **curious** + **redirected**: 1
@@ -142,6 +150,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
 - **change request** + **informed**: 1
+- **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
@@ -166,6 +175,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail  — why: **curious** · how: **explained**
   > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7274](https://tbpro.zendesk.com/agent/tickets/7274)** · Refund Request - Early Bird Subscription
+  > Hi [name], I purchased an annual subscription to Thundermail on July 13th. After looking around a bit and checking the setup I planned with my specific custom domain needs, I've…
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7273](https://tbpro.zendesk.com/agent/tickets/7273)** · CalDav/CardDav issue with Sailfish OS
+  > I'm trying to setup the full thundermail stack on my freshly arrived Jolla Phone 2026 and while email worked without any issues, I cannot figure out the caldav/carddav setup. I've…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7263](https://tbpro.zendesk.com/agent/tickets/7263)** · PTR/HELO mismatch
@@ -189,6 +208,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [pending] · 2026-07-29T09:24 · Domain Registration via TB?
 - [7262](https://tbpro.zendesk.com/agent/tickets/7262) · [pending] · 2026-07-29T11:57 · ATTACHMENTS
 - [7263](https://tbpro.zendesk.com/agent/tickets/7263) · [open] · 2026-07-29T11:59 · PTR/HELO mismatch
+- [7273](https://tbpro.zendesk.com/agent/tickets/7273) · [open] · 2026-07-29T15:59 · CalDav/CardDav issue with Sailfish OS
+- [7274](https://tbpro.zendesk.com/agent/tickets/7274) · [new] · 2026-07-29T16:01 · Refund Request - Early Bird Subscription
 
 ## Solved — last 24h
 
