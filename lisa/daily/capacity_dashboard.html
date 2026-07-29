@@ -45,7 +45,7 @@
 </head>
 <body>
 <h1>Team Capacity Dashboard</h1>
-<div class="eyebrow">Generated 2026-07-29 · 4-week lookback · New tickets only (replies to existing tickets not counted) · Local only — do not share</div>
+<div class="eyebrow">Generated 2026-07-29 · 4-week lookback · Local only — do not share</div>
 
 <div class="warning">
   ⚠️ Agent data is anonymized — agents appear as capacity units only. Do not share agent ID mappings.
@@ -199,6 +199,25 @@
   Agent rows = tickets assigned to that agent (all statuses), by creation week. Matches Zendesk Analytics. Incoming = all tickets created. Work days = 5/wk.
 </p>
 <table class='cap-tbl'><thead><tr><th>Agent</th><th>Thundermail</th><th>Mobile</th><th>Donor</th><th>Total</th></tr></thead><tbody><tr><td><em>Incoming</em></td><td class='incoming-row'><span class='num'>60.2/wk</span><br><small>8.6/day</small></td><td class='incoming-row'><span class='num'>47.0/wk</span><br><small>6.7/day</small></td><td class='incoming-row'><span class='num'>35.2/wk</span><br><small>5.0/day</small></td><td class='incoming-row'><span class='num'>142.5/wk</span><br><small>20.4/day</small></td></tr><tr><td><strong>Agent 1</strong></td><td><span class='num'>16.8/wk</span><br><small>3.4/day</small></td><td><span class='num'>16.2/wk</span><br><small>3.2/day</small></td><td><span class='num'>7.5/wk</span><br><small>1.5/day</small></td><td><span class='num'>40.5/wk</span><br><small>8.1/day</small></td></tr><tr><td><strong>Agent 2</strong></td><td><span class='num'>14.8/wk</span><br><small>3.0/day</small></td><td><span class='num'>7.5/wk</span><br><small>1.5/day</small></td><td><span class='num'>5.2/wk</span><br><small>1.1/day</small></td><td><span class='num'>27.5/wk</span><br><small>5.5/day</small></td></tr><tr><td><strong>Agent 3</strong></td><td><span class='num'>18.2/wk</span><br><small>3.6/day</small></td><td><span class='num'>11.8/wk</span><br><small>2.4/day</small></td><td><span class='num'>9.2/wk</span><br><small>1.9/day</small></td><td><span class='num'>39.2/wk</span><br><small>7.8/day</small></td></tr><tr><td><strong>Agent 4</strong></td><td><span class='num'>10.2/wk</span><br><small>2.0/day</small></td><td><span class='num'>2.8/wk</span><br><small>0.6/day</small></td><td><span class='num'>12.2/wk</span><br><small>2.5/day</small></td><td><span class='num'>25.2/wk</span><br><small>5.0/day</small></td></tr></tbody></table>
+
+<h2>Actual Output — Tickets Worked (Public Replies)</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Distinct tickets where the agent posted at least one public reply that week. Includes new <em>and</em> backlog tickets — better measure of output than assigned-ticket count.
+  Partial current week excluded from averages.
+</p>
+<table>
+          <thead><tr><th>Agent</th><th>W28</th><th>W29</th><th>W30</th><th>Avg/wk</th></tr></thead>
+          <tbody>
+            <tr><td><em>Incoming</em></td><td class='num incoming-row'>151</td><td class='num incoming-row'>147</td><td class='num incoming-row'>213</td><td class='num incoming-row'><strong>170.3</strong></td></tr>
+            <tr><td><strong>Agent 1</strong></td><td class='num'>80</td><td class='num'>58</td><td class='num'>62</td><td class='num'><strong>66.7</strong></td></tr><tr><td><strong>Agent 2</strong></td><td class='num'>39</td><td class='num'>47</td><td class='num'>39</td><td class='num'><strong>41.7</strong></td></tr><tr><td><strong>Agent 3</strong></td><td class='num'>55</td><td class='num'>57</td><td class='num'>66</td><td class='num'><strong>59.3</strong></td></tr><tr><td><strong>Agent 4</strong></td><td class='num'>13</td><td class='num'>15</td><td class='num'>36</td><td class='num'><strong>21.3</strong></td></tr>
+            <tr style='border-top:2px solid var(--border)'><td><strong>Team total</strong></td><td class='num'>187</td><td class='num'>177</td><td class='num'>203</td><td class='num'><strong>189.0</strong></td></tr>
+            <tr><td style='color:var(--green);font-size:0.8rem'>vs incoming</td><td class='num' style='color:var(--green)'>+36</td><td class='num' style='color:var(--green)'>+30</td><td class='num' style='color:var(--green)'>-10</td><td class='num' style='color:var(--green)'><strong>+18.7</strong></td></tr>
+          </tbody>
+        </table>
+        <p style="color:var(--muted);font-size:0.78rem;margin-top:6px">
+          Public replies only — internal notes, sticky notes, and ticket overhead not counted.
+          A positive vs-incoming gap means the team is working down the backlog.
+        </p>
 
 <h2>Avg Time Spent / Ticket (Time Tracking app)</h2>
 <p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">

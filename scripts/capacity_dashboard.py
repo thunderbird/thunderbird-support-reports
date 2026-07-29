@@ -14,7 +14,7 @@ Sections:
   4. Contact timeline (days from wave invite to first Thundermail ticket)
 """
 
-import sys, json, base64, urllib.request, statistics, datetime as dt
+import sys, json, base64, urllib.request, statistics, datetime as dt, time
 from pathlib import Path
 from collections import defaultdict
 
@@ -47,10 +47,19 @@ def zd_auth(creds):
     return "Basic " + base64.b64encode(
         f"{creds['email']}/token:{creds['token']}".encode()).decode()
 
-def zd_get(url, auth):
+def zd_get(url, auth, retries=4):
     req = urllib.request.Request(url, headers={"Authorization": auth, "Accept": "application/json"})
-    with urllib.request.urlopen(req) as r:
-        return json.load(r)
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries - 1:
+                wait = int(e.headers.get("Retry-After", "10"))
+                print(f"  rate limited — sleeping {wait}s", flush=True)
+                time.sleep(wait)
+            else:
+                raise
 
 def week_start(d):
     return d - dt.timedelta(days=d.weekday())
@@ -123,7 +132,62 @@ def anonymize_agents(tickets):
     return seen
 
 
-def build_html(tickets, aht_by_id, agent_map, today):
+def fetch_public_replies(auth, sub, since_date, agent_map):
+    """Return {agent_label: {week_iso: distinct_ticket_count}} using incremental ticket events.
+    Counts distinct tickets where the agent posted at least one public comment that week.
+    Matches Zendesk Explore 'Tickets updated w/public comment' metric.
+
+    In the incremental events API the commenter is updater_id on the PARENT event;
+    child_events of type 'Comment' (with public=True) confirm the update was a public reply.
+    """
+    start_ts = int(dt.datetime.combine(since_date, dt.time.min,
+                                        tzinfo=dt.timezone.utc).timestamp())
+    url = f"https://{sub}.zendesk.com/api/v2/incremental/ticket_events.json?start_time={start_ts}"
+
+    # (author_id, ticket_id, week_iso) → deduplicate to match Explore distinct-ticket count
+    touched = set()
+
+    print("Fetching public reply events…", flush=True)
+    page = 0
+    while url:
+        d = zd_get(url, auth)
+        page += 1
+        events = d.get("ticket_events", [])
+
+        for event in events:
+            ts = event.get("timestamp")
+            if not ts:
+                continue
+            created = dt.datetime.fromtimestamp(ts, tz=dt.timezone.utc).date()
+            if created < since_date:
+                continue
+            ticket_id  = event.get("ticket_id")
+            updater_id = event.get("updater_id")
+            w = week_start(created).isoformat()
+
+            # Use correct field names from API: event_type (not type), comment_public (not public)
+            has_public_comment = any(
+                child.get("event_type") in ("Comment", "VoiceComment")
+                and child.get("comment_public", False)
+                for child in event.get("child_events", [])
+            )
+            if has_public_comment and updater_id and updater_id in agent_map:
+                touched.add((updater_id, ticket_id, w))
+
+        print(f"  page {page}: {len(events)} events, {len(touched)} touches so far", flush=True)
+        if d.get("end_of_stream"):
+            break
+        url = d.get("next_page")
+
+    # Aggregate: agent_label → week → distinct ticket count
+    result = defaultdict(lambda: defaultdict(int))
+    for (author_id, _ticket_id, w) in touched:
+        label = agent_map[author_id]
+        result[label][w] += 1
+    return result
+
+
+def build_html(tickets, aht_by_id, agent_map, today, reply_data=None):
     brands     = list(BRAND_TAGS.values())
     all_agents = sorted(set(agent_map.values()))
     gen        = today.strftime("%Y-%m-%d")
@@ -345,6 +409,93 @@ def build_html(tickets, aht_by_id, agent_map, today):
           <thead><tr><th>Segment</th><th>Median FRT</th><th>Mean FRT</th><th>Tickets</th></tr></thead>
           <tbody>{rows}</tbody></table>"""
 
+    def reply_section():
+        if not reply_data:
+            return "<p style='color:var(--muted);font-size:0.85rem'>Reply data unavailable.</p>"
+
+        # Only weeks fully within our lookback window
+        full_weeks = [w for w in weeks
+                      if w < week_start(today).isoformat()]  # exclude partial current week
+        if not full_weeks:
+            full_weeks = weeks
+
+        # Incoming totals per week
+        incoming_week = {w: sum(incoming_by_week[w].values()) for w in full_weeks}
+
+        # Team totals per week from reply data
+        team_week = defaultdict(int)
+        for agent_label, wdata in reply_data.items():
+            for w, cnt in wdata.items():
+                if w in set(full_weeks):
+                    team_week[w] += cnt
+
+        # Per-agent averages (full weeks only)
+        agent_avgs = {}
+        for agent_label in all_agents:
+            vals = [reply_data.get(agent_label, {}).get(w, 0) for w in full_weeks]
+            agent_avgs[agent_label] = round(sum(vals) / max(len(full_weeks), 1), 1)
+
+        inc_avg = round(sum(incoming_week.values()) / max(len(full_weeks), 1), 1)
+        team_avg = round(sum(team_week.values()) / max(len(full_weeks), 1), 1)
+        gap_avg = round(team_avg - inc_avg, 1)
+        gap_sign = "+" if gap_avg >= 0 else ""
+
+        # Header cols: week labels shortened
+        def wlabel(w):
+            d = dt.date.fromisoformat(w)
+            return f"W{d.isocalendar()[1]}"
+
+        th_weeks = "".join(f"<th>{wlabel(w)}</th>" for w in full_weeks)
+        th_weeks += "<th>Avg/wk</th>"
+
+        def agent_row(label, wdata):
+            cells = ""
+            for w in full_weeks:
+                v = wdata.get(w, 0)
+                cells += f"<td class='num'>{v}</td>"
+            avg = round(sum(wdata.get(w, 0) for w in full_weeks) / max(len(full_weeks), 1), 1)
+            cells += f"<td class='num'><strong>{avg}</strong></td>"
+            return f"<tr><td><strong>{label}</strong></td>{cells}</tr>"
+
+        # Incoming row
+        inc_cells = "".join(f"<td class='num incoming-row'>{incoming_week.get(w,0)}</td>" for w in full_weeks)
+        inc_cells += f"<td class='num incoming-row'><strong>{inc_avg}</strong></td>"
+        inc_row = f"<tr><td><em>Incoming</em></td>{inc_cells}</tr>"
+
+        agent_rows = "".join(
+            agent_row(label, reply_data.get(label, {}))
+            for label in all_agents
+        )
+
+        # Team totals row
+        team_cells = "".join(f"<td class='num'>{team_week.get(w,0)}</td>" for w in full_weeks)
+        team_cells += f"<td class='num'><strong>{team_avg}</strong></td>"
+        team_row = f"<tr style='border-top:2px solid var(--border)'><td><strong>Team total</strong></td>{team_cells}</tr>"
+
+        gap_color = "var(--green)" if gap_avg >= 0 else "var(--red)"
+        gap_label = "drawing down backlog" if gap_avg >= 0 else "falling behind"
+        gap_cells = "".join(
+            f"<td class='num' style='color:{'var(--green)' if team_week.get(w,0)-incoming_week.get(w,0)>=0 else 'var(--red)'}'>"
+            f"{'+' if team_week.get(w,0)-incoming_week.get(w,0)>=0 else ''}{team_week.get(w,0)-incoming_week.get(w,0)}</td>"
+            for w in full_weeks
+        )
+        gap_cells += f"<td class='num' style='color:{gap_color}'><strong>{gap_sign}{gap_avg}</strong></td>"
+        gap_row = f"<tr><td style='color:{gap_color};font-size:0.8rem'>vs incoming</td>{gap_cells}</tr>"
+
+        return f"""<table>
+          <thead><tr><th>Agent</th>{th_weeks}</tr></thead>
+          <tbody>
+            {inc_row}
+            {agent_rows}
+            {team_row}
+            {gap_row}
+          </tbody>
+        </table>
+        <p style="color:var(--muted);font-size:0.78rem;margin-top:6px">
+          Public replies only — internal notes, sticky notes, and ticket overhead not counted.
+          A positive vs-incoming gap means the team is working down the backlog.
+        </p>"""
+
     def dow_section():
         max_inc = max((dow_incoming[d] for d in range(7)), default=1)
         rows = ""
@@ -456,6 +607,13 @@ def build_html(tickets, aht_by_id, agent_map, today):
 </p>
 {agent_cap_table()}
 
+<h2>Actual Output — Tickets Worked (Public Replies)</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Distinct tickets where the agent posted at least one public reply that week. Includes new <em>and</em> backlog tickets — better measure of output than assigned-ticket count.
+  Partial current week excluded from averages.
+</p>
+{reply_section()}
+
 <h2>Avg Time Spent / Ticket (Time Tracking app)</h2>
 <p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
   Total agent time logged per ticket via the Time Tracking app. Averaged across all agents, by brand.
@@ -490,8 +648,11 @@ def main():
     for aid, label in sorted(agent_map.items(), key=lambda x: x[1]):
         print(f"  {label}: assignee_id={aid}")
 
+    reply_data = fetch_public_replies(auth, sub, since, agent_map)
+    print(f"Reply data: {sum(sum(v.values()) for v in reply_data.values())} agent-week entries")
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    html = build_html(tickets, aht_by_id, agent_map, today)
+    html = build_html(tickets, aht_by_id, agent_map, today, reply_data=reply_data)
     OUT.write_text(html)
     print(f"Written → {OUT.resolve()}")
 
