@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 20:49 ET** · refreshes hourly_  
+_Updated: **2026-07-28 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **295 tickets** so far (4.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **6** new tickets in last 24h · **27** solved in last 24h
-- **295** tickets total since launch · contact rate **5%** of 6500 invitees
+- **296** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
-- **Median AHT**: 126.9h · mean 158.6h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 127.0h · mean 158.7h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -103,16 +103,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
-- **pending**: 32
+- **solved**: 214
+- **pending**: 31
 - **closed**: 29
 - **hold**: 14
-- **open**: 5
+- **open**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 140
-- **Thundermail**: 127
+- **Thundermail**: 128
 - **Appointment**: 11
 - **Send**: 8
 
@@ -130,9 +131,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
+- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
-- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
