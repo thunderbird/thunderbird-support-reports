@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 05:10 ET** · refreshes hourly_  
+_Updated: **2026-07-29 07:01 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 38** of rollout — **6,500 invitees**, **299 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **300 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **9** solved in last 24h
-- **299** tickets total since launch · contact rate **5%** of 6500 invitees
+- **5** new tickets in last 24h · **9** solved in last 24h
+- **300** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
@@ -103,12 +103,12 @@ _No negative ratings since launch._
 - **pending**: 28
 - **hold**: 14
 - **open**: 8
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 140
-- **Thundermail**: 131
+- **Thundermail**: 132
 - **Appointment**: 11
 - **Send**: 8
 
@@ -156,15 +156,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#7258](https://tbpro.zendesk.com/agent/tickets/7258)** · Domain Registration via TB?
+  > Hi, Do you have the options to register domains for use with Thunderbird Pro? Kind Regards, [name]
+- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail 
+  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7251](https://tbpro.zendesk.com/agent/tickets/7251)** · cancel my account and refund
   > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription?…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail 
-  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -182,6 +184,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [open] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
 - [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [open] · 2026-07-29T04:04 · thundermail 
 - [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [new] · 2026-07-29T05:30 · cancel my account and refund
+- [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [new] · 2026-07-29T09:24 · Domain Registration via TB?
 
 ## Solved — last 24h
 
