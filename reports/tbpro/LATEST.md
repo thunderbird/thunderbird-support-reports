@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-28
+# Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-28 23:13 ET** · refreshes hourly_  
-_24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-29 01:16 ET** · refreshes hourly_  
+_24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 37** of rollout — **6,500 invitees**, **296 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **298 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **27** solved in last 24h
-- **296** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **3** new tickets in last 24h · **7** solved in last 24h
+- **298** tickets total since launch · contact rate **5%** of 6500 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
-- **Median AHT**: 127.0h · mean 158.4h (proxy: updated_at − created_at, 216 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"maxime baleydier"** — 2 tickets in 24h (new; baseline 0 cum) — [#7203](https://tbpro.zendesk.com/agent/tickets/7203), [#7230](https://tbpro.zendesk.com/agent/tickets/7230)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
+- **Median AHT**: 127.0h · mean 159.3h (proxy: updated_at − created_at, 217 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -90,30 +84,30 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7221](https://tbpro.zendesk.com/agent/tickets/7221) · [pending] · _Cancel / Delete account_
-  > I request the complete deletion of my Thundermail account and all stored data.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Multiple contact books](https://ideas.tb.pro/p/multiple-contact-books) · 1 votes · _untagged_
+  > What you’d like to seeMultiple address books, independent and different.Why it mattersPersonal address book and work address book. For example.Your use caseI have a personal address book and a…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 216
+- **solved**: 217
+- **pending**: 30
 - **closed**: 29
-- **pending**: 28
 - **hold**: 14
-- **open**: 8
-- **new**: 1
+- **open**: 6
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 140
-- **Thundermail**: 128
+- **Thundermail**: 130
 - **Appointment**: 11
 - **Send**: 8
 
@@ -131,9 +125,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **concerned** + **explained**: 4
-- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
+- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -161,71 +155,36 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7230](https://tbpro.zendesk.com/agent/tickets/7230)** · Contacts on smartphone Android — why: **blocked** · how: **explained**
-  > After trying Thundermail, I found that the Android app does not support contact sharing with the smartphone's address book. This feature—which is available in Outlook Office 365…
-- **[#7207](https://tbpro.zendesk.com/agent/tickets/7207)** · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Please document limits.
-  > I am trying to migrate about 100k emails from yahoomail via IMAP(imaps://[domain]) to thundermail via JMAP(https://[domain]). Downloading 100k from yahoomail went fine via…
+- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail 
+  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#7239](https://tbpro.zendesk.com/agent/tickets/7239)** · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?) — why: **blocked** · how: **escalated**
-  > https://github.com/thunderbird/thunderbird-accounts/issues/1151
+- **[#7249](https://tbpro.zendesk.com/agent/tickets/7249)** · I can't receive mail sent to a custom domain
+  > I've set up a custom domain `executivefunction.support` on Thundermail with all DNS records confirmed live via `dig` (MX, SPF, DKIM, DMARC, MTA-STS, TLS-RPT, SRV records). I can…
 
-### Early bird / invite / waitlist — 1 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#7238](https://tbpro.zendesk.com/agent/tickets/7238)** · help me — why: **curious** · how: **explained**
-  > I created an account using the invitation I received from Thunderbird; however, when trying to make the payment, I couldn't complete it due to issues with my payment card. Now,…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7235](https://tbpro.zendesk.com/agent/tickets/7235)** · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail — why: **blocked** · how: **escalated** · 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
-  > This is to track users that reach a blank screen when authenticating Thundermail, and then solve it by allowing cookies. See related incidents for examples.
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#7203](https://tbpro.zendesk.com/agent/tickets/7203)** · Contacts Android <> Thundermail  — why: **request** · how: **explained**
-  > Thundermail ne synchronise pas les contacts avec Android ce qui est un manque important. Comment faire pour résilier mon abonnement et être remboursé? Quelle procédure ? Merci…
+- **[#7246](https://tbpro.zendesk.com/agent/tickets/7246)** · Can't use Send or Appointment from Thunderbird
+  > I was able to install The TB Pro extension on my macOS system (Thunderbird 153.0), but it doesn't install on my Windows laptop using the same version of Thunderbird client.
 
 ## New tickets — last 24h
 
-- [7203](https://tbpro.zendesk.com/agent/tickets/7203) · [pending] · 2026-07-27T20:47 · Contacts Android <> Thundermail 
-- [7207](https://tbpro.zendesk.com/agent/tickets/7207) · [pending] · 2026-07-27T22:32 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
-- [7230](https://tbpro.zendesk.com/agent/tickets/7230) · [pending] · 2026-07-28T11:52 · Contacts on smartphone Android
-- [7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · 2026-07-28T14:01 · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail 🔗 [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154)
-- [7238](https://tbpro.zendesk.com/agent/tickets/7238) · [pending] · 2026-07-28T16:01 · help me
-- [7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · 2026-07-28T16:57 · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (S
+- [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
+- [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [new] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
+- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [new] · 2026-07-29T04:04 · thundermail 
 
 ## Solved — last 24h
 
-- · [7036](https://tbpro.zendesk.com/agent/tickets/7036) · 2026-07-27T21:02 · email relaying
-- · [7022](https://tbpro.zendesk.com/agent/tickets/7022) · 2026-07-27T22:01 · Zoom meeting integration in Calendar
-- · [7015](https://tbpro.zendesk.com/agent/tickets/7015) · 2026-07-28T05:01 · I'm unable to sign up for Thundermail with an invitation
-- · [6979](https://tbpro.zendesk.com/agent/tickets/6979) · 2026-07-28T05:01 · CardDAV
-- · [7072](https://tbpro.zendesk.com/agent/tickets/7072) · 2026-07-28T06:01 · wont able to create an account
-- · [7064](https://tbpro.zendesk.com/agent/tickets/7064) · 2026-07-28T06:01 · Account Refund
-- · [7039](https://tbpro.zendesk.com/agent/tickets/7039) · 2026-07-28T06:01 · new paid subscriber for thundermail, but the thunderbird windows client wont sign in
-- · [7081](https://tbpro.zendesk.com/agent/tickets/7081) · 2026-07-28T11:01 · My donation refunded - No subject provided
-- · [7075](https://tbpro.zendesk.com/agent/tickets/7075) · 2026-07-28T11:01 · Thundermail Sign Up
-- · [7073](https://tbpro.zendesk.com/agent/tickets/7073) · 2026-07-28T11:01 · Change recovery email
-- · [7082](https://tbpro.zendesk.com/agent/tickets/7082) · 2026-07-28T14:02 · Visa 3D secure failing payment
-- · [6654](https://tbpro.zendesk.com/agent/tickets/6654) · 2026-07-28T14:04 · Can't add account in Thunderbird
-- · [7159](https://tbpro.zendesk.com/agent/tickets/7159) · 2026-07-28T14:53 · Create folder
-- · [7000](https://tbpro.zendesk.com/agent/tickets/7000) · 2026-07-28T15:02 · Can't login in thunderbird
-- · [7089](https://tbpro.zendesk.com/agent/tickets/7089) · 2026-07-28T15:02 · Waited for ages only to encounter a paywall
-- · [7071](https://tbpro.zendesk.com/agent/tickets/7071) · 2026-07-28T15:02 · wont able to signuo
-- · [7006](https://tbpro.zendesk.com/agent/tickets/7006) · 2026-07-28T15:02 · Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc
-- · [7077](https://tbpro.zendesk.com/agent/tickets/7077) · 2026-07-28T16:02 · False error showing on account hub re: custom domain verification
-- · [7069](https://tbpro.zendesk.com/agent/tickets/7069) · 2026-07-28T16:02 · Cannot add Thunderbird Pro add-on
-- · [6969](https://tbpro.zendesk.com/agent/tickets/6969) · 2026-07-28T16:02 · Zoom Integration
-- · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-28T16:13 · Unable to upload file to Send in Firefox
-- · [7012](https://tbpro.zendesk.com/agent/tickets/7012) · 2026-07-28T17:01 · Minor DNS record hiccup
-- · [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-07-28T17:23 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
-- · [7031](https://tbpro.zendesk.com/agent/tickets/7031) · 2026-07-28T18:02 · forwarding
-- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-07-28T18:11 · Appointment & Send
-- · [6551](https://tbpro.zendesk.com/agent/tickets/6551) · 2026-07-28T19:06 · Namecheap Custom Domains
-- · [6749](https://tbpro.zendesk.com/agent/tickets/6749) · 2026-07-28T19:26 · Refund request
+- · [7011](https://tbpro.zendesk.com/agent/tickets/7011) · 2026-07-28T20:01 · Subdomain addressing
+- · [6972](https://tbpro.zendesk.com/agent/tickets/6972) · 2026-07-28T20:01 · Email aliases, catch all and general use of domain names
+- 👍 [6386](https://tbpro.zendesk.com/agent/tickets/6386) · 2026-07-28T20:55 · Squarespace Custom Domain
+- 👍 [7187](https://tbpro.zendesk.com/agent/tickets/7187) · 2026-07-28T23:14 · Cannot sync calendar with iphone calendar
+- · [7103](https://tbpro.zendesk.com/agent/tickets/7103) · 2026-07-29T02:01 · Thunderbird Pro coupon code
+- · [7096](https://tbpro.zendesk.com/agent/tickets/7096) · 2026-07-29T02:01 · Early Bird plan costs
+- · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-07-29T04:01 · Checking if tax documents are available - needed for Thundermail subscription in India
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
