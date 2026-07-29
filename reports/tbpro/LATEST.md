@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 01:16 ET** · refreshes hourly_  
+_Updated: **2026-07-29 03:07 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 38** of rollout — **6,500 invitees**, **298 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **299 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
-- **298** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **7** solved in last 24h
+- **299** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (26 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
@@ -84,9 +84,10 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **298 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [new] · _cancel my account and refund_
+  > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription? Thank you in advance for your reply. Best…
 
 ## New ideas on FeatureOS
 
@@ -101,13 +102,13 @@ _(none in last 24h)_
 - **pending**: 30
 - **closed**: 29
 - **hold**: 14
-- **open**: 6
-- **new**: 2
+- **open**: 8
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 140
-- **Thundermail**: 130
+- **Thundermail**: 131
 - **Appointment**: 11
 - **Send**: 8
 
@@ -155,6 +156,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7251](https://tbpro.zendesk.com/agent/tickets/7251)** · cancel my account and refund
+  > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription?…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail 
@@ -173,8 +179,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
-- [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [new] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
-- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [new] · 2026-07-29T04:04 · thundermail 
+- [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [open] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
+- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [open] · 2026-07-29T04:04 · thundermail 
+- [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [new] · 2026-07-29T05:30 · cancel my account and refund
 
 ## Solved — last 24h
 
