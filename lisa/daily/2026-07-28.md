@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-28
 
-_Updated: **2026-07-28 19:29 ET** · refreshes hourly_  
+_Updated: **2026-07-28 20:49 ET** · refreshes hourly_  
 _24h window: 2026-07-27T16:00 → 2026-07-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -77,9 +77,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [solved] · 2026-06-24 · _Squarespace Custom Domain_
   - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [solved] · 2026-07-01 · _Namecheap Custom Domains_
 
-## Other tickets linked to GitHub — 5 ticket(s) → 5 issue(s)
+## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
 
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
+- 🔧 [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
@@ -105,8 +106,8 @@ _No negative ratings since launch._
 - **solved**: 215
 - **pending**: 32
 - **closed**: 29
-- **hold**: 13
-- **open**: 6
+- **hold**: 14
+- **open**: 5
 
 ## Service (cumulative)
 
@@ -123,7 +124,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 50
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 22
-- **blocked** + **escalated**: 15
+- **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
 - **blocked** + **—**: 5
