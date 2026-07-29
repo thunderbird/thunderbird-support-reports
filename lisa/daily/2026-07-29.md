@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 09:46 ET** · refreshes hourly_  
+_Updated: **2026-07-29 10:55 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 38** of rollout — **6,500 invitees**, **303 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **301 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **9** solved in last 24h
-- **303** tickets total since launch · contact rate **5%** of 6500 invitees
+- **6** new tickets in last 24h · **11** solved in last 24h
+- **301** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (26 good / 0 bad)
+- **CSAT (since launch)**: 100%  (25 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 127.1h · mean 159.1h (proxy: updated_at − created_at, 219 solved tickets)
+- **Median AHT**: 127.4h · mean 159.0h (proxy: updated_at − created_at, 220 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -74,7 +74,7 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **303 tickets** so far
 ## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
 
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
-- 🔧 [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
+- ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - 🔧 [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
@@ -86,9 +86,9 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [new] · _cancel my account and refund_
+- [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [pending] · _cancel my account and refund_
   > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription? Thank you in advance for your reply. Best…
-- [7265](https://tbpro.zendesk.com/agent/tickets/7265) · [new] · _Refund_
+- [7265](https://tbpro.zendesk.com/agent/tickets/7265) · [pending] · _Refund_
   > Hello. I paid for the yearly service last week, but sadly it still feels unfinished. Might try it again at some point. But for now I'd like to have it cancelled and get the refund for the amount paid. Please confirm…
 
 ## New ideas on FeatureOS
@@ -100,17 +100,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 219
-- **closed**: 29
-- **pending**: 28
-- **hold**: 14
-- **open**: 11
-- **new**: 2
+- **solved**: 220
+- **closed**: 30
+- **pending**: 27
+- **open**: 13
+- **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 142
-- **Thundermail**: 133
+- **Account Hub**: 141
+- **Thundermail**: 132
 - **Appointment**: 11
 - **Send**: 8
 
@@ -167,13 +166,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail  — why: **curious** · how: **explained**
   > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#7265](https://tbpro.zendesk.com/agent/tickets/7265)** · Refund
-  > Hello. I paid for the yearly service last week, but sadly it still feels unfinished. Might try it again at some point. But for now I'd like to have it cancelled and get the refund…
-- **[#7251](https://tbpro.zendesk.com/agent/tickets/7251)** · cancel my account and refund
-  > Hello, As the product did not meet my expectations during the 14-day trial period, what is the procedure for cancelling my account and obtaining a refund for my subscription?…
-
 ### App setup / configuration — 1 tickets
 
 - **[#7263](https://tbpro.zendesk.com/agent/tickets/7263)** · PTR/HELO mismatch
@@ -194,11 +186,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
 - [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [open] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
 - [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [pending] · 2026-07-29T04:04 · thundermail 
-- [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [new] · 2026-07-29T05:30 · cancel my account and refund
 - [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [pending] · 2026-07-29T09:24 · Domain Registration via TB?
 - [7262](https://tbpro.zendesk.com/agent/tickets/7262) · [pending] · 2026-07-29T11:57 · ATTACHMENTS
 - [7263](https://tbpro.zendesk.com/agent/tickets/7263) · [open] · 2026-07-29T11:59 · PTR/HELO mismatch
-- [7265](https://tbpro.zendesk.com/agent/tickets/7265) · [new] · 2026-07-29T12:33 · Refund
 
 ## Solved — last 24h
 
@@ -211,6 +201,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-07-29T04:01 · Checking if tax documents are available - needed for Thundermail subscription in India
 - · [7084](https://tbpro.zendesk.com/agent/tickets/7084) · 2026-07-29T08:01 · CONFIGURATION DNS anomaly
 - · [7070](https://tbpro.zendesk.com/agent/tickets/7070) · 2026-07-29T08:01 · Setting up JMAP
+- · [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-29T14:07 · paid version 
+- · [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-29T14:52 · Login not possible
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
