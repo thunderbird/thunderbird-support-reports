@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 14:30 ET** · refreshes hourly_  
+_Updated: **2026-07-29 15:42 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 38** of rollout — **6,500 invitees**, **302 tickets** so far (4.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 38** of rollout — **6,500 invitees**, **303 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **18** solved in last 24h
-- **302** tickets total since launch · contact rate **5%** of 6500 invitees
+- **8** new tickets in last 24h · **19** solved in last 24h
+- **303** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (24 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 128.9h · mean 161.5h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 129.0h · mean 162.8h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -102,16 +102,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 217
-- **closed**: 36
-- **pending**: 28
+- **solved**: 215
+- **closed**: 38
+- **pending**: 27
 - **hold**: 12
-- **open**: 9
+- **open**: 10
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 141
-- **Thundermail**: 133
+- **Thundermail**: 134
 - **Appointment**: 11
 - **Send**: 8
 
@@ -168,6 +169,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail  — why: **curious** · how: **explained**
   > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
+### Send (file sharing) — 1 tickets
+
+- **[#7282](https://tbpro.zendesk.com/agent/tickets/7282)** · Thunderbird Send fails
+  > When trying to use Send, I'm presented with a dialog that states: "Finish setting up Send" "To continue your upload, please complete your passphrase setup/recovery." When I click…
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7273](https://tbpro.zendesk.com/agent/tickets/7273)** · CalDav/CardDav issue with Sailfish OS — why: **blocked** · how: **explained**
+  > I'm trying to setup the full thundermail stack on my freshly arrived Jolla Phone 2026 and while email worked without any issues, I cannot figure out the caldav/carddav setup. I've…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7263](https://tbpro.zendesk.com/agent/tickets/7263)** · PTR/HELO mismatch
@@ -183,11 +194,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7246](https://tbpro.zendesk.com/agent/tickets/7246)** · Can't use Send or Appointment from Thunderbird
   > I was able to install The TB Pro extension on my macOS system (Thunderbird 153.0), but it doesn't install on my Windows laptop using the same version of Thunderbird client.
 
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#7273](https://tbpro.zendesk.com/agent/tickets/7273)** · CalDav/CardDav issue with Sailfish OS — why: **blocked** · how: **explained**
-  > I'm trying to setup the full thundermail stack on my freshly arrived Jolla Phone 2026 and while email worked without any issues, I cannot figure out the caldav/carddav setup. I've…
-
 ## New tickets — last 24h
 
 - [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
@@ -196,7 +202,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [pending] · 2026-07-29T09:24 · Domain Registration via TB?
 - [7262](https://tbpro.zendesk.com/agent/tickets/7262) · [pending] · 2026-07-29T11:57 · ATTACHMENTS
 - [7263](https://tbpro.zendesk.com/agent/tickets/7263) · [open] · 2026-07-29T11:59 · PTR/HELO mismatch
-- [7273](https://tbpro.zendesk.com/agent/tickets/7273) · [pending] · 2026-07-29T15:59 · CalDav/CardDav issue with Sailfish OS
+- [7273](https://tbpro.zendesk.com/agent/tickets/7273) · [open] · 2026-07-29T15:59 · CalDav/CardDav issue with Sailfish OS
+- [7282](https://tbpro.zendesk.com/agent/tickets/7282) · [new] · 2026-07-29T19:12 · Thunderbird Send fails
 
 ## Solved — last 24h
 
@@ -218,6 +225,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-29T17:25 · Add OAuth for Thundermail to FairEmail
 - · [7014](https://tbpro.zendesk.com/agent/tickets/7014) · 2026-07-29T17:30 · Impossible to sync thundermail calendar with Thunderbird 140ESR AND 152
 - 👍 [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-07-29T18:20 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
+- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-07-29T19:02 · Appointment & Send
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
