@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 08:51 ET** · refreshes hourly_  
+_Updated: **2026-07-29 09:46 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -109,8 +109,8 @@ _No negative ratings since launch._
 
 ## Service (cumulative)
 
-- **Account Hub**: 141
-- **Thundermail**: 134
+- **Account Hub**: 142
+- **Thundermail**: 133
 - **Appointment**: 11
 - **Send**: 8
 
@@ -118,7 +118,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 70
+- **curious** + **explained**: 71
 - **blocked** + **explained**: 50
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 24
@@ -160,12 +160,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail 
-  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 - **[#7262](https://tbpro.zendesk.com/agent/tickets/7262)** · ATTACHMENTS — why: **request** · how: **redirected**
   > Al redactar desde la web de Thundermail un correo no encuentro la manera de adjuntar un archivo
 - **[#7258](https://tbpro.zendesk.com/agent/tickets/7258)** · Domain Registration via TB? — why: **request** · how: **redirected**
   > Hi, Do you have the options to register domains for use with Thunderbird Pro? Kind Regards, [name]
+- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail  — why: **curious** · how: **explained**
+  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
@@ -193,7 +193,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
 - [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [open] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
-- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [open] · 2026-07-29T04:04 · thundermail 
+- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [pending] · 2026-07-29T04:04 · thundermail 
 - [7251](https://tbpro.zendesk.com/agent/tickets/7251) · [new] · 2026-07-29T05:30 · cancel my account and refund
 - [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [pending] · 2026-07-29T09:24 · Domain Registration via TB?
 - [7262](https://tbpro.zendesk.com/agent/tickets/7262) · [pending] · 2026-07-29T11:57 · ATTACHMENTS
