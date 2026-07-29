@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Team Capacity — Private</title>
+<style>
+  :root {
+    --bg:      #0f172a;
+    --surface: #1e293b;
+    --border:  #334155;
+    --text:    #e2e8f0;
+    --muted:   #94a3b8;
+    --indigo:  #6366f1;
+    --orange:  #f97316;
+    --green:   #10b981;
+    --red:     #f43f5e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font: 14px/1.6 system-ui, sans-serif; padding: 24px; }
+  h1 { font-size: 1.3rem; margin-bottom: 4px; }
+  .eyebrow { color: var(--muted); font-size: 0.8rem; margin-bottom: 32px; }
+  .warning { background: #7c2d12; border: 1px solid #ea580c; border-radius: 6px;
+              padding: 10px 16px; margin-bottom: 28px; font-size: 0.85rem; color: #fed7aa; }
+  h2 { font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em;
+        margin: 32px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .cards { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+           padding: 14px 18px; min-width: 160px; flex: 1; }
+  .card__label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+                  letter-spacing: .05em; margin-bottom: 4px; }
+  .card__value { font-size: 1.8rem; font-weight: 700; line-height: 1; }
+  .card__sub { font-size: 0.75rem; color: var(--muted); margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+  th { text-align: left; padding: 8px 12px; background: var(--surface);
+        color: var(--muted); font-size: 0.75rem; text-transform: uppercase;
+        border-bottom: 1px solid var(--border); }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  .num { font-variant-numeric: tabular-nums; }
+  small { color: var(--muted); font-size: 0.75rem; }
+  .incoming-row { background: rgba(99,102,241,.08); }
+  .section-divider { color: var(--muted); font-style: italic; font-size: 0.8rem;
+                      padding: 12px 12px 4px; border-top: 1px solid var(--border); }
+  .tl-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .tl-label { width: 70px; font-size: 0.85rem; color: var(--muted); flex-shrink: 0; }
+  .tl-bar-wrap { flex: 1; background: var(--surface); border-radius: 4px; height: 20px;
+                  border: 1px solid var(--border); overflow: hidden; }
+  .tl-bar { height: 100%; background: var(--indigo); border-radius: 3px; }
+  .tl-val { width: 90px; font-size: 0.85rem; text-align: right; flex-shrink: 0; }
+  .tl-pct { color: var(--muted); }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<h1>Team Capacity Dashboard</h1>
+<div class="eyebrow">Generated 2026-07-29 · 8-week lookback · Local only — do not share</div>
+
+<div class="warning">
+  ⚠️ Agent data is anonymized — agents appear as capacity units only. Do not share agent ID mappings.
+</div>
+
+<h2>Incoming Tickets / Day</h2>
+<div class="cards">
+        <div class="card">
+          <div class="card__label" style="color:#6366f1">Thundermail</div>
+          <div class="card__value">6.2</div>
+          <div class="card__sub">tickets/day incoming · 348 total (8w)</div>
+        </div>
+        <div class="card">
+          <div class="card__label" style="color:#f97316">Mobile</div>
+          <div class="card__value">6.3</div>
+          <div class="card__sub">tickets/day incoming · 351 total (8w)</div>
+        </div>
+        <div class="card">
+          <div class="card__label" style="color:#10b981">Donor</div>
+          <div class="card__value">5.4</div>
+          <div class="card__sub">tickets/day incoming · 305 total (8w)</div>
+        </div>
+        <div class="card">
+          <div class="card__label" style="color:#94a3b8">All brands</div>
+          <div class="card__value">19.1</div>
+          <div class="card__sub">tickets/day incoming · 1069 total (8w)</div>
+        </div></div>
+
+<h2>Day-of-Week Pattern — Incoming vs Throughput</h2>
+<table>
+          <thead><tr>
+            <th>Day</th>
+            <th>Avg incoming/day (8w)</th>
+            <th>Avg solved/day</th>
+            <th>Balance</th>
+          </tr></thead>
+          <tbody><tr>
+              <td><strong>Mon</strong> <span style='color:var(--orange);font-size:0.75rem'>← weekend backlog lands here</span></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:78%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">21.2</span>
+                </div>
+              </td>
+              <td class="num">20.9</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr><tr>
+              <td><strong>Tue</strong></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:100%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">27.1</span>
+                </div>
+              </td>
+              <td class="num">26.2</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr><tr>
+              <td><strong>Wed</strong></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:86%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">23.4</span>
+                </div>
+              </td>
+              <td class="num">22.8</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr><tr>
+              <td><strong>Thu</strong></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:80%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">24.9</span>
+                </div>
+              </td>
+              <td class="num">24.4</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr><tr>
+              <td><strong>Fri</strong> <span style='color:var(--muted);font-size:0.75rem'>← lighter close day</span></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:66%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">20.6</span>
+                </div>
+              </td>
+              <td class="num">19.1</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr><tr>
+              <td><strong>Sat</strong></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:45%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">13.9</span>
+                </div>
+              </td>
+              <td class="num">12.7</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr><tr>
+              <td><strong>Sun</strong></td>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <div style="flex:1;background:var(--surface);border:1px solid var(--border);
+                              border-radius:3px;height:14px;overflow:hidden">
+                    <div style="width:37%;height:100%;background:var(--indigo)"></div>
+                  </div>
+                  <span class="num" style="min-width:28px">11.4</span>
+                </div>
+              </td>
+              <td class="num">10.3</td>
+              <td class="num" style="color:var(--green)">
+                ✓
+              </td>
+            </tr></tbody>
+        </table>
+        <p style="color:var(--muted);font-size:0.75rem;margin-top:4px">
+          Monday carries weekend inflow (Sat+Sun reviews + email replies queued overnight).
+          Gap rows (▼) = throughput under 70% of incoming that day.
+        </p>
+
+<h2>Agent Throughput vs Incoming — 8w (2026-07-29)</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Agent rows = tickets assigned to that agent (all statuses), by creation week. Matches Zendesk Analytics. Incoming = all tickets created. Work days = 5/wk.
+</p>
+<table class='cap-tbl'><thead><tr><th>Agent</th><th>Thundermail</th><th>Mobile</th><th>Donor</th><th>Total</th></tr></thead><tbody><tr><td><em>Incoming</em></td><td class='incoming-row'><span class='num'>43.5/wk</span><br><small>6.2/day</small></td><td class='incoming-row'><span class='num'>43.9/wk</span><br><small>6.3/day</small></td><td class='incoming-row'><span class='num'>38.1/wk</span><br><small>5.4/day</small></td><td class='incoming-row'><span class='num'>133.6/wk</span><br><small>19.1/day</small></td></tr><tr><td><strong>Agent 1</strong></td><td><span class='num'>12.2/wk</span><br><small>2.5/day</small></td><td><span class='num'>14.1/wk</span><br><small>2.8/day</small></td><td><span class='num'>12.0/wk</span><br><small>2.4/day</small></td><td><span class='num'>39.6/wk</span><br><small>7.9/day</small></td></tr><tr><td><strong>Agent 2</strong></td><td><span class='num'>11.6/wk</span><br><small>2.3/day</small></td><td><span class='num'>10.9/wk</span><br><small>2.2/day</small></td><td><span class='num'>7.8/wk</span><br><small>1.6/day</small></td><td><span class='num'>35.9/wk</span><br><small>7.2/day</small></td></tr><tr><td><strong>Agent 3</strong></td><td><span class='num'>13.8/wk</span><br><small>2.8/day</small></td><td><span class='num'>13.1/wk</span><br><small>2.6/day</small></td><td><span class='num'>10.6/wk</span><br><small>2.1/day</small></td><td><span class='num'>38.0/wk</span><br><small>7.6/day</small></td></tr><tr><td><strong>Agent 4</strong></td><td><span class='num'>5.5/wk</span><br><small>1.1/day</small></td><td><span class='num'>1.4/wk</span><br><small>0.3/day</small></td><td><span class='num'>7.2/wk</span><br><small>1.4/day</small></td><td><span class='num'>14.6/wk</span><br><small>2.9/day</small></td></tr></tbody></table>
+
+<h2>Avg Time Spent / Ticket (Time Tracking app)</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Total agent time logged per ticket via the Time Tracking app. Averaged across all agents, by brand.
+</p>
+
+        <p style="color:var(--muted);font-size:0.8rem;margin-bottom:8px">Team medians — long-tail means are sensitive to timers left running.</p>
+        <table>
+          <thead><tr><th>Brand</th><th>Median</th><th>Mean</th><th>Tickets with timer</th></tr></thead>
+          <tbody><tr><td style='color:#6366f1'><strong>Thundermail</strong></td><td>0.2h</td><td>0.5h</td><td>367</td></tr><tr><td style='color:#f97316'><strong>Mobile</strong></td><td>0.1h</td><td>0.2h</td><td>321</td></tr><tr><td style='color:#10b981'><strong>Donor</strong></td><td>0.1h</td><td>0.3h</td><td>294</td></tr></tbody>
+        </table>
+        <p style="color:var(--muted);font-size:0.8rem;margin:16px 0 8px">Per agent × brand — higher medians indicate ticket complexity, not just timer issues.</p>
+        <table>
+          <thead><tr><th>Agent</th><th>Brand</th><th>Median</th><th>Mean</th><th>Tickets with timer</th></tr></thead>
+          <tbody><tr><td rowspan='3'><strong>Agent 1</strong></td><td style='color:#6366f1'>Thundermail</td><td>0.2h</td><td>0.3h</td><td>103</td></tr><tr><td style='color:#f97316'>Mobile</td><td>0.0h</td><td>0.1h</td><td>113</td></tr><tr><td style='color:#10b981'>Donor</td><td>0.1h</td><td>0.2h</td><td>93</td></tr><tr><td></td><td><em>All brands</em></td><td>0.1h</td><td>0.2h</td><td>344</td></tr><tr><td rowspan='3'><strong>Agent 2</strong></td><td style='color:#6366f1'>Thundermail</td><td>0.3h</td><td>0.6h</td><td>103</td></tr><tr><td style='color:#f97316'>Mobile</td><td>0.1h</td><td>0.2h</td><td>87</td></tr><tr><td style='color:#10b981'>Donor</td><td>0.3h</td><td>0.4h</td><td>65</td></tr><tr><td></td><td><em>All brands</em></td><td>0.2h</td><td>0.3h</td><td>330</td></tr><tr><td rowspan='3'><strong>Agent 3</strong></td><td style='color:#6366f1'>Thundermail</td><td>0.4h</td><td>0.9h</td><td>114</td></tr><tr><td style='color:#f97316'>Mobile</td><td>0.1h</td><td>0.2h</td><td>105</td></tr><tr><td style='color:#10b981'>Donor</td><td>0.1h</td><td>0.4h</td><td>78</td></tr><tr><td></td><td><em>All brands</em></td><td>0.2h</td><td>0.5h</td><td>307</td></tr><tr><td rowspan='3'><strong>Agent 4</strong></td><td style='color:#6366f1'>Thundermail</td><td>0.1h</td><td>0.1h</td><td>44</td></tr><tr><td style='color:#f97316'>Mobile</td><td>0.0h</td><td>0.0h</td><td>11</td></tr><tr><td style='color:#10b981'>Donor</td><td>0.0h</td><td>0.1h</td><td>55</td></tr><tr><td></td><td><em>All brands</em></td><td>0.0h</td><td>0.1h</td><td>119</td></tr></tbody>
+        </table>
+
+<h2>First Reply Time by Brand & Agent</h2>
+<p style="color:var(--muted);font-size:0.8rem;margin-bottom:10px">
+  Calendar time from ticket creation to first agent reply. Not handle time — full resolution time
+  is not used because the pending-first workflow (48h bump) inflates it to days.
+</p>
+<table>
+          <thead><tr><th>Segment</th><th>Median FRT</th><th>Mean FRT</th><th>Tickets</th></tr></thead>
+          <tbody><tr><td style='color:#6366f1'><strong>Thundermail</strong></td><td>4.6h</td><td>9.8h</td><td>322</td></tr><tr><td style='color:#f97316'><strong>Mobile</strong></td><td>17.8h</td><td>31.3h</td><td>293</td></tr><tr><td style='color:#10b981'><strong>Donor</strong></td><td>12.1h</td><td>21.7h</td><td>262</td></tr><tr><td colspan='4' class='section-divider'>By agent (all brands)</td></tr><tr><td>Agent 1</td><td>11.2h</td><td>20.6h</td><td>289</td></tr><tr><td>Agent 2</td><td>8.1h</td><td>20.8h</td><td>214</td></tr><tr><td>Agent 3</td><td>11.8h</td><td>19.5h</td><td>271</td></tr><tr><td>Agent 4</td><td>7.3h</td><td>21.8h</td><td>98</td></tr></tbody></table>
+
+<h2>Contact Timeline — Days from Invite to First Thundermail Ticket</h2>
+<div class="two-col">
+  <div>
+    <p style="color:var(--muted);font-size:0.8rem;margin-bottom:12px">
+      Approximate — bucketed by nearest prior wave date.
+    </p>
+    
+        <div class="tl-row">
+          <div class="tl-label">0–3 d</div>
+          <div class="tl-bar-wrap"><div class="tl-bar" style="width:100%"></div></div>
+          <div class="tl-val">319 <span class="tl-pct">(85%)</span></div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-label">4–7 d</div>
+          <div class="tl-bar-wrap"><div class="tl-bar" style="width:13%"></div></div>
+          <div class="tl-val">42 <span class="tl-pct">(11%)</span></div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-label">8–14 d</div>
+          <div class="tl-bar-wrap"><div class="tl-bar" style="width:5%"></div></div>
+          <div class="tl-val">15 <span class="tl-pct">(4%)</span></div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-label">15–30 d</div>
+          <div class="tl-bar-wrap"><div class="tl-bar" style="width:0%"></div></div>
+          <div class="tl-val">0 <span class="tl-pct">(0%)</span></div>
+        </div>
+        <div class="tl-row">
+          <div class="tl-label">31+ d</div>
+          <div class="tl-bar-wrap"><div class="tl-bar" style="width:0%"></div></div>
+          <div class="tl-val">0 <span class="tl-pct">(0%)</span></div>
+        </div>
+  </div>
+  <div>
+    <table>
+      <thead><tr><th>Wave</th><th>Contacts</th></tr></thead>
+      <tbody><tr><td>Early Bird</td><td class='num'>0</td></tr><tr><td>Flight 2 W1</td><td class='num'>3</td></tr><tr><td>Flight 2 W2</td><td class='num'>43</td></tr><tr><td>Flight 3 W1</td><td class='num'>5</td></tr><tr><td>Flight 3 W2</td><td class='num'>10</td></tr><tr><td>Flight 3 W3</td><td class='num'>19</td></tr><tr><td>Flight 4 W1</td><td class='num'>8</td></tr><tr><td>Flight 4 W2</td><td class='num'>47</td></tr><tr><td>Flight 5 W1</td><td class='num'>12</td></tr><tr><td>Flight 5 W2</td><td class='num'>12</td></tr><tr><td>Flight 5 W3</td><td class='num'>40</td></tr><tr><td>Flight 6 W1</td><td class='num'>6</td></tr><tr><td>Flight 6 W2</td><td class='num'>46</td></tr><tr><td>Flight 7 W1</td><td class='num'>0</td></tr><tr><td>Re-engagement 1</td><td class='num'>9</td></tr><tr><td>Flight 7 W2</td><td class='num'>0</td></tr><tr><td>Re-engagement 2</td><td class='num'>116</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
