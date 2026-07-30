@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 12:42 ET** · refreshes hourly_  
+_Updated: **2026-07-30 13:42 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far
 - **305** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (21 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 58
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 60
 - **Median AHT**: 129.3h · mean 161.4h (proxy: updated_at − created_at, 210 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
@@ -90,8 +90,12 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 4 new:
 
+- [Yubikey / security key 2FA](https://ideas.tb.pro/p/yubikey-security-key-2fa) · 1 votes · _untagged_
+  > What you’d like to seeI would like to see Yubikey / Security Keys added as a 2FA method.Why it mattersIt’s important for me to use that method for 2FA instead of an authenticator app.Your use…
+- [Loading "Blocked Remote Content"](https://ideas.tb.pro/p/loading-blocked-remote-content) · 1 votes · _untagged_
+  > What you’d like to seeEnable Thunderbird Desktop and Mobile to load remote content (like images) in emails using a Mozilla/Thunderbird/self-hosted server.Consider making it available free but off by…
 - [TRACKING OF UPDATES / SEGUIMIENTO DE NOVEDADES](https://ideas.tb.pro/p/tracking-of-updates-seguimiento-de-novedades) · 1 votes · _Webmail_
   > Briefly describe the feature or improvement.AI translation of report:I’m a regular internet user and get by just fine. I signed up for Thundermail to support the community and benefit from a service…
 - [implement localisation for public pages (Appointment, Send)](https://ideas.tb.pro/p/implement-localisation-for-public-pages-appointment-send) · 1 votes · _untagged_
@@ -101,9 +105,9 @@ _(none in last 24h)_
 
 - **solved**: 210
 - **closed**: 45
-- **pending**: 26
-- **open**: 12
-- **hold**: 12
+- **pending**: 29
+- **hold**: 13
+- **open**: 8
 
 ## Service (cumulative)
 
