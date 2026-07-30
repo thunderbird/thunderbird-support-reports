@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 17:34 ET** · refreshes hourly_  
+_Updated: **2026-07-30 18:31 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,10 +9,10 @@ Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
+- **2** new tickets in last 24h · **7** solved in last 24h
 - **305** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (22 good / 0 bad)
+- **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 61
 - **Median AHT**: 129.3h · mean 161.7h (proxy: updated_at − created_at, 210 solved tickets)
 
@@ -105,9 +105,9 @@ _(none in last 24h)_
 
 - **solved**: 210
 - **closed**: 45
-- **pending**: 31
-- **hold**: 13
-- **open**: 6
+- **pending**: 34
+- **hold**: 12
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -120,19 +120,19 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 71
+- **curious** + **explained**: 70
 - **blocked** + **explained**: 52
 - **change request** + **actioned**: 34
-- **request** + **redirected**: 25
+- **request** + **redirected**: 26
 - **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
 - **blocked** + **—**: 6
 - **concerned** + **explained**: 5
 - **blocked** + **actioned**: 5
-- **concerned** + **investigated**: 3
-- **request** + **explained**: 3
 - **curious** + **informed**: 3
+- **request** + **explained**: 3
+- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -180,7 +180,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-30T04:37 · Unable to upload file to Send in Firefox
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-30T12:01 · Add OAuth for Thundermail to FairEmail
 - · [7250](https://tbpro.zendesk.com/agent/tickets/7250) · 2026-07-30T14:41 · thundermail 
-- · [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-30T15:01 · paid version 
 - 👍 [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-30T15:04 · Login not possible
 - · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-30T16:12 · Calendar
 - · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-07-30T16:12 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
