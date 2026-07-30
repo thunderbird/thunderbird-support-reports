@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 13:42 ET** · refreshes hourly_  
+_Updated: **2026-07-30 14:40 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
+- **2** new tickets in last 24h · **9** solved in last 24h
 - **305** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (21 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 60
-- **Median AHT**: 129.3h · mean 161.4h (proxy: updated_at − created_at, 210 solved tickets)
+- **Median AHT**: 129.3h · mean 161.5h (proxy: updated_at − created_at, 210 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -105,22 +105,22 @@ _(none in last 24h)_
 
 - **solved**: 210
 - **closed**: 45
-- **pending**: 29
+- **pending**: 30
 - **hold**: 13
-- **open**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 141
+- **Account Hub**: 142
 - **Thundermail**: 134
-- **Appointment**: 13
+- **Appointment**: 12
 - **Send**: 8
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 70
+- **curious** + **explained**: 71
 - **blocked** + **explained**: 52
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 25
@@ -162,7 +162,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account access issues — 1 tickets
 
-- **[#7308](https://tbpro.zendesk.com/agent/tickets/7308)** · i wont able to use appointment
+- **[#7308](https://tbpro.zendesk.com/agent/tickets/7308)** · i wont able to use appointment — why: **curious** · how: **explained**
   > i used this service and i have connect it to my gmail account,now i cant ,and i belive there will be some issues if i can able to login and if you guus provide my address to…
 
 ### Request or complaint — 1 tickets
@@ -173,7 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [pending] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
-- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [open] · 2026-07-30T13:43 · i wont able to use appointment
+- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [pending] · 2026-07-30T13:43 · i wont able to use appointment
 
 ## Solved — last 24h
 
@@ -185,6 +185,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-30T15:04 · Login not possible
 - · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-30T16:12 · Calendar
 - · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-07-30T16:12 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
+- 👍 [7014](https://tbpro.zendesk.com/agent/tickets/7014) · 2026-07-30T18:35 · Impossible to sync thundermail calendar with Thunderbird 140ESR AND 152
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
