@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 09:45 ET** · refreshes hourly_  
+_Updated: **2026-07-30 10:54 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
+- **2** new tickets in last 24h · **5** solved in last 24h
 - **305** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
@@ -100,10 +100,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 212
-- **closed**: 42
+- **closed**: 43
 - **pending**: 27
 - **hold**: 13
-- **open**: 10
+- **open**: 9
 - **new**: 1
 
 ## Service (cumulative)
@@ -117,10 +117,10 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 71
-- **blocked** + **explained**: 51
+- **curious** + **explained**: 70
+- **blocked** + **explained**: 52
 - **change request** + **actioned**: 34
-- **request** + **redirected**: 24
+- **request** + **redirected**: 25
 - **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
@@ -162,14 +162,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7308](https://tbpro.zendesk.com/agent/tickets/7308)** · i wont able to use appointment
   > i used this service and i have connect it to my gmail account,now i cant ,and i belive there will be some issues if i can able to login and if you guus provide my address to…
 
-### Appointment / calendar — 1 tickets
+### Request or complaint — 1 tickets
 
-- **[#7284](https://tbpro.zendesk.com/agent/tickets/7284)** · Appointment availability time format does not comply my time format preferences
+- **[#7284](https://tbpro.zendesk.com/agent/tickets/7284)** · Appointment availability time format does not comply my time format preferences — why: **request** · how: **redirected**
   > Please use my preferred and configured time format within 'Appointment' - 'Settings' for 'Appointment' - 'Availability'. I do not want to configure my time in base 12.
 
 ## New tickets — last 24h
 
-- [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [open] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
+- [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [pending] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
 - [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [new] · 2026-07-30T13:43 · i wont able to use appointment
 
 ## Solved — last 24h
@@ -178,6 +178,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-29T23:01 · Calendar
 - · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-30T04:37 · Unable to upload file to Send in Firefox
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-30T12:01 · Add OAuth for Thundermail to FairEmail
+- · [7250](https://tbpro.zendesk.com/agent/tickets/7250) · 2026-07-30T14:41 · thundermail 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
