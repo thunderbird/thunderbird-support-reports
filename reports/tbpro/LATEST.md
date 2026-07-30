@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 18:31 ET** · refreshes hourly_  
+_Updated: **2026-07-30 19:30 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 39** of rollout — **6,500 invitees**, **307 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **2** new tickets in last 24h · **7** solved in last 24h
-- **305** tickets total since launch · contact rate **5%** of 6500 invitees
+- **307** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 61
@@ -106,13 +106,14 @@ _(none in last 24h)_
 - **solved**: 210
 - **closed**: 45
 - **pending**: 34
-- **hold**: 12
-- **open**: 4
+- **hold**: 11
+- **open**: 5
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 142
-- **Thundermail**: 134
+- **Thundermail**: 136
 - **Appointment**: 12
 - **Send**: 8
 
@@ -138,6 +139,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
+- **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -147,7 +149,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
