@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 06:00 ET** · refreshes hourly_  
+_Updated: **2026-07-30 06:51 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 39** of rollout — **6,500 invitees**, **304 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
-- **Median AHT**: 128.3h · mean 159.4h (proxy: updated_at − created_at, 212 solved tickets)
+- **Median AHT**: 128.3h · mean 159.5h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -166,9 +166,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [7195](https://tbpro.zendesk.com/agent/tickets/7195) · 2026-07-29T20:24 · DEVOLUCIÓN
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-29T20:53 · Add OAuth for Thundermail to FairEmail
 - · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-29T23:01 · Calendar
 - · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-30T04:37 · Unable to upload file to Send in Firefox
+- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-30T10:11 · Add OAuth for Thundermail to FairEmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
