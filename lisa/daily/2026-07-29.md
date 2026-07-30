@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 20:47 ET** · refreshes hourly_  
+_Updated: **2026-07-29 21:46 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **304 tickets** so far
 - **8** new tickets in last 24h · **18** solved in last 24h
 - **304** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 100%  (23 good / 0 bad)
+- **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 128.9h · mean 160.9h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 128.9h · mean 159.5h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -39,7 +39,7 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **304 tickets** so far
 - 21 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [solved] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
-  - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [solved] · 2026-06-30 · _Billed for trial period_
+  - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
   - [#6535](https://tbpro.zendesk.com/agent/tickets/6535) · [closed] · 2026-07-01 · _Cancel Thundermail_
   - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [solved] · 2026-07-08 · _Refund_
   - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [solved] · 2026-07-09 · _Request Refund_
@@ -102,11 +102,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
-- **closed**: 40
+- **solved**: 213
+- **closed**: 42
 - **pending**: 27
-- **hold**: 14
-- **open**: 8
+- **hold**: 15
+- **open**: 7
 
 ## Service (cumulative)
 
