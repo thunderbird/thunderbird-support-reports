@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-29
 
-_Updated: **2026-07-29 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-29 23:13 ET** · refreshes hourly_  
 _24h window: 2026-07-28T16:00 → 2026-07-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 38** of rollout — **6,500 invitees**, **304 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **18** solved in last 24h
+- **8** new tickets in last 24h · **17** solved in last 24h
 - **304** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 56
-- **Median AHT**: 128.9h · mean 159.5h (proxy: updated_at − created_at, 213 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
+- **Median AHT**: 128.9h · mean 160.0h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -102,11 +102,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
+- **solved**: 212
 - **closed**: 42
-- **pending**: 27
+- **pending**: 25
 - **hold**: 15
-- **open**: 7
+- **open**: 10
 
 ## Service (cumulative)
 
@@ -161,12 +161,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
+- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail  — why: **curious** · how: **explained**
+  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 - **[#7262](https://tbpro.zendesk.com/agent/tickets/7262)** · ATTACHMENTS — why: **request** · how: **redirected**
   > Al redactar desde la web de Thundermail un correo no encuentro la manera de adjuntar un archivo
 - **[#7258](https://tbpro.zendesk.com/agent/tickets/7258)** · Domain Registration via TB? — why: **request** · how: **redirected**
   > Hi, Do you have the options to register domains for use with Thunderbird Pro? Kind Regards, [name]
-- **[#7250](https://tbpro.zendesk.com/agent/tickets/7250)** · thundermail  — why: **curious** · how: **explained**
-  > Hi there, I accidentally let my new thundermail email lapse without purchasing the subscription. I was under the impression I had more time before being required to purchase. Is…
 
 ### Send (file sharing) — 1 tickets
 
@@ -197,7 +197,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7246](https://tbpro.zendesk.com/agent/tickets/7246) · [open] · 2026-07-29T01:24 · Can't use Send or Appointment from Thunderbird
 - [7249](https://tbpro.zendesk.com/agent/tickets/7249) · [pending] · 2026-07-29T03:35 · I can't receive mail sent to a custom domain
-- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [pending] · 2026-07-29T04:04 · thundermail 
+- [7250](https://tbpro.zendesk.com/agent/tickets/7250) · [open] · 2026-07-29T04:04 · thundermail 
 - [7258](https://tbpro.zendesk.com/agent/tickets/7258) · [pending] · 2026-07-29T09:24 · Domain Registration via TB?
 - [7262](https://tbpro.zendesk.com/agent/tickets/7262) · [pending] · 2026-07-29T11:57 · ATTACHMENTS
 - [7263](https://tbpro.zendesk.com/agent/tickets/7263) · [open] · 2026-07-29T11:59 · PTR/HELO mismatch
@@ -218,7 +218,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-29T14:07 · paid version 
 - · [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-29T14:52 · Login not possible
 - · [7159](https://tbpro.zendesk.com/agent/tickets/7159) · 2026-07-29T15:02 · Create folder
-- · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-29T17:01 · Unable to upload file to Send in Firefox
 - · [7127](https://tbpro.zendesk.com/agent/tickets/7127) · 2026-07-29T17:01 · Another account please
 - · [7104](https://tbpro.zendesk.com/agent/tickets/7104) · 2026-07-29T17:01 · I tried to add my [domain] domain and don't seem to be able to verify my domain. 
 - · [7014](https://tbpro.zendesk.com/agent/tickets/7014) · 2026-07-29T17:30 · Impossible to sync thundermail calendar with Thunderbird 140ESR AND 152
