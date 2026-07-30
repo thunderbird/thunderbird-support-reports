@@ -1,19 +1,19 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 08:44 ET** · refreshes hourly_  
+_Updated: **2026-07-30 09:45 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 39** of rollout — **6,500 invitees**, **304 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **304** tickets total since launch · contact rate **5%** of 6500 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **305** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 58
 - **Median AHT**: 128.3h · mean 159.5h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
@@ -90,8 +90,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [TRACKING OF UPDATES / SEGUIMIENTO DE NOVEDADES](https://ideas.tb.pro/p/tracking-of-updates-seguimiento-de-novedades) · 1 votes · _Webmail_
+  > Briefly describe the feature or improvement.AI translation of report:I’m a regular internet user and get by just fine. I signed up for Thundermail to support the community and benefit from a service…
 - [implement localisation for public pages (Appointment, Send)](https://ideas.tb.pro/p/implement-localisation-for-public-pages-appointment-send) · 1 votes · _untagged_
   > What you’d like to seeTranslation in many languages for Appointment booking page. Why it mattersCompliance: Offering a localized booking interface is a prerequisite for professional usage in many…
 
@@ -102,12 +104,13 @@ _(none in last 24h)_
 - **pending**: 27
 - **hold**: 13
 - **open**: 10
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 141
 - **Thundermail**: 134
-- **Appointment**: 12
+- **Appointment**: 13
 - **Send**: 8
 
 ## Why × How (cumulative)
@@ -154,6 +157,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#7308](https://tbpro.zendesk.com/agent/tickets/7308)** · i wont able to use appointment
+  > i used this service and i have connect it to my gmail account,now i cant ,and i belive there will be some issues if i can able to login and if you guus provide my address to…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#7284](https://tbpro.zendesk.com/agent/tickets/7284)** · Appointment availability time format does not comply my time format preferences
@@ -162,6 +170,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [open] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
+- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [new] · 2026-07-30T13:43 · i wont able to use appointment
 
 ## Solved — last 24h
 
