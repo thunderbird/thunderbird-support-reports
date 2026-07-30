@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 11:46 ET** · refreshes hourly_  
+_Updated: **2026-07-30 12:42 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 39** of rollout — **6,500 invitees**, **305 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **2** new tickets in last 24h · **8** solved in last 24h
 - **305** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (22 good / 0 bad)
+- **CSAT (since launch)**: 100%  (21 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 58
-- **Median AHT**: 128.9h · mean 160.4h (proxy: updated_at − created_at, 211 solved tickets)
+- **Median AHT**: 129.3h · mean 161.4h (proxy: updated_at − created_at, 210 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -99,12 +99,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 211
-- **closed**: 44
-- **pending**: 27
+- **solved**: 210
+- **closed**: 45
+- **pending**: 26
+- **open**: 12
 - **hold**: 12
-- **open**: 10
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -170,17 +169,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [pending] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
-- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [new] · 2026-07-30T13:43 · i wont able to use appointment
+- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [open] · 2026-07-30T13:43 · i wont able to use appointment
 
 ## Solved — last 24h
 
 - · [7195](https://tbpro.zendesk.com/agent/tickets/7195) · 2026-07-29T20:24 · DEVOLUCIÓN
-- · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-29T23:01 · Calendar
 - · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-30T04:37 · Unable to upload file to Send in Firefox
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-30T12:01 · Add OAuth for Thundermail to FairEmail
 - · [7250](https://tbpro.zendesk.com/agent/tickets/7250) · 2026-07-30T14:41 · thundermail 
 - · [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-30T15:01 · paid version 
 - 👍 [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-30T15:04 · Login not possible
+- · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-30T16:12 · Calendar
+- · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-07-30T16:12 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
