@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 18:32 ET** · refreshes hourly_  
+_Updated: **2026-07-31 19:29 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 40** of rollout — **6,500 invitees**, **311 tickets** so far
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 63
-- **Median AHT**: 129.3h · mean 158.9h (proxy: updated_at − created_at, 208 solved tickets)
+- **Median AHT**: 129.7h · mean 159.9h (proxy: updated_at − created_at, 206 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -101,8 +101,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 208
-- **closed**: 48
+- **solved**: 206
+- **closed**: 50
 - **pending**: 37
 - **open**: 9
 - **hold**: 9
@@ -125,8 +125,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
-- **concerned** + **explained**: 6
 - **blocked** + **—**: 6
+- **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
@@ -153,15 +153,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **escalated**: 1
 - **curious** + **escalated**: 1
 - **request** + **informed**: 1
-- **telling us** + **—**: 1
 - **confused** + **escalated**: 1
+- **telling us** + **—**: 1
 
 ## Tickets in last 24h — by theme
-
-### Aliases — 1 tickets
-
-- **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
-  > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
 
 ### Send (file sharing) — 1 tickets
 
@@ -178,9 +173,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7324](https://tbpro.zendesk.com/agent/tickets/7324)** · change recovery email
   > i need to change my recovery email to one that is not paid so i can consolidate email service onto thundermail. i would like to change it to [email]. thanks in advance.
 
+### Aliases — 1 tickets
+
+- **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
+  > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
+
 ## New tickets — last 24h
 
-- [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [open] · 2026-07-30T22:38 · Custom Domain Issues
+- [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
 - [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [pending] · 2026-07-30T22:56 · change recovery email
 - [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [pending] · 2026-07-31T03:57 · Cannot finalize registration process
 - [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [pending] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
