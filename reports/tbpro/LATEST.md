@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-30
+# Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-30 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-07-31 01:18 ET** · refreshes hourly_  
+_24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 39** of rollout — **6,500 invitees**, **307 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 40** of rollout — **6,500 invitees**, **308 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
-- **307** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **3** new tickets in last 24h · **2** solved in last 24h
+- **308** tickets total since launch · contact rate **5%** of 6500 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 61
-- **Median AHT**: 129.4h · mean 162.2h (proxy: updated_at − created_at, 209 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 61
+- **Median AHT**: 129.7h · mean 162.4h (proxy: updated_at − created_at, 208 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -90,29 +90,24 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 4 new:
+**Last 24h** — 1 new:
 
-- [Yubikey / security key 2FA](https://ideas.tb.pro/p/yubikey-security-key-2fa) · 1 votes · _untagged_
-  > What you’d like to seeI would like to see Yubikey / Security Keys added as a 2FA method.Why it mattersIt’s important for me to use that method for 2FA instead of an authenticator app.Your use…
-- [Loading "Blocked Remote Content"](https://ideas.tb.pro/p/loading-blocked-remote-content) · 1 votes · _untagged_
-  > What you’d like to seeEnable Thunderbird Desktop and Mobile to load remote content (like images) in emails using a Mozilla/Thunderbird/self-hosted server.Consider making it available free but off by…
-- [TRACKING OF UPDATES / SEGUIMIENTO DE NOVEDADES](https://ideas.tb.pro/p/tracking-of-updates-seguimiento-de-novedades) · 1 votes · _Webmail_
-  > Briefly describe the feature or improvement.AI translation of report:I’m a regular internet user and get by just fine. I signed up for Thundermail to support the community and benefit from a service…
-- [implement localisation for public pages (Appointment, Send)](https://ideas.tb.pro/p/implement-localisation-for-public-pages-appointment-send) · 1 votes · _untagged_
-  > What you’d like to seeTranslation in many languages for Appointment booking page. Why it mattersCompliance: Offering a localized booking interface is a prerequisite for professional usage in many…
+- [[24 hour] time format for Appointment availability](https://ideas.tb.pro/p/24-hour-time-format-for-appointment-availability) · 1 votes · _untagged_
+  > I can specify my preferred time format (i.e. 24:00 hours) but it is not applied to the “Availability-Settings”. Please have a consistent time format in all pages/settings.Why it mattersAs a non…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 209
+- **solved**: 208
 - **closed**: 46
 - **pending**: 33
 - **hold**: 11
-- **open**: 8
+- **open**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 142
-- **Thundermail**: 136
+- **Thundermail**: 137
 - **Appointment**: 12
 - **Send**: 8
 
@@ -127,8 +122,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
-- **concerned** + **explained**: 6
 - **blocked** + **—**: 6
+- **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
@@ -160,30 +155,31 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#7308](https://tbpro.zendesk.com/agent/tickets/7308)** · i wont able to use appointment — why: **curious** · how: **explained**
-  > i used this service and i have connect it to my gmail account,now i cant ,and i belive there will be some issues if i can able to login and if you guus provide my address to…
+- **[#7326](https://tbpro.zendesk.com/agent/tickets/7326)** · Cannot finalize registration process
+  > Started account, went to pay today and couldn't log in. [email] is the recovery email address
 
-### Request or complaint — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#7284](https://tbpro.zendesk.com/agent/tickets/7284)** · Appointment availability time format does not comply my time format preferences — why: **request** · how: **redirected**
-  > Please use my preferred and configured time format within 'Appointment' - 'Settings' for 'Appointment' - 'Availability'. I do not want to configure my time in base 12.
+- **[#7324](https://tbpro.zendesk.com/agent/tickets/7324)** · change recovery email
+  > i need to change my recovery email to one that is not paid so i can consolidate email service onto thundermail. i would like to change it to [email]. thanks in advance.
+
+### Aliases — 1 tickets
+
+- **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
+  > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
 
 ## New tickets — last 24h
 
-- [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [pending] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
-- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [open] · 2026-07-30T13:43 · i wont able to use appointment
+- [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
+- [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [open] · 2026-07-30T22:56 · change recovery email
+- [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [new] · 2026-07-31T03:57 · Cannot finalize registration process
 
 ## Solved — last 24h
 
-- · [7186](https://tbpro.zendesk.com/agent/tickets/7186) · 2026-07-30T04:37 · Unable to upload file to Send in Firefox
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-07-30T12:01 · Add OAuth for Thundermail to FairEmail
-- · [7250](https://tbpro.zendesk.com/agent/tickets/7250) · 2026-07-30T14:41 · thundermail 
-- 👍 [7184](https://tbpro.zendesk.com/agent/tickets/7184) · 2026-07-30T15:04 · Login not possible
-- · [7139](https://tbpro.zendesk.com/agent/tickets/7139) · 2026-07-30T16:12 · Calendar
-- · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-07-30T16:12 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
-- 👍 [7014](https://tbpro.zendesk.com/agent/tickets/7014) · 2026-07-30T18:35 · Impossible to sync thundermail calendar with Thunderbird 140ESR AND 152
+- · [7195](https://tbpro.zendesk.com/agent/tickets/7195) · 2026-07-30T21:02 · DEVOLUCIÓN
+- 👍 [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-30T21:43 · paid version 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
