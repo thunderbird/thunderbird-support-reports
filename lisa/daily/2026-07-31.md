@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 09:46 ET** · refreshes hourly_  
+_Updated: **2026-07-31 10:59 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 40** of rollout — **6,500 invitees**, **308 tickets** so far (4.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 40** of rollout — **6,500 invitees**, **309 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
-- **308** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **2** solved in last 24h
+- **309** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 61
@@ -99,17 +99,17 @@ _(none in last 24h)_
 
 - **solved**: 207
 - **closed**: 47
-- **pending**: 27
-- **open**: 16
+- **pending**: 29
+- **open**: 14
 - **hold**: 10
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 142
 - **Thundermail**: 137
 - **Appointment**: 12
-- **Send**: 8
+- **Send**: 9
 
 ## Why × How (cumulative)
 
@@ -155,6 +155,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Send (file sharing) — 1 tickets
+
+- **[#7334](https://tbpro.zendesk.com/agent/tickets/7334)** · thunderbird send: uplodaing files fails
+  > I've tried to upload files at https://[domain]/send/ I can select files to upload from my local folder, but once I click "upload n file(s)", each file fails. I've tried this with…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7326](https://tbpro.zendesk.com/agent/tickets/7326)** · Cannot finalize registration process
@@ -175,6 +180,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
 - [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [open] · 2026-07-30T22:56 · change recovery email
 - [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [new] · 2026-07-31T03:57 · Cannot finalize registration process
+- [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [new] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
 
 ## Solved — last 24h
 
