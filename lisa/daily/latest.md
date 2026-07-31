@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 12:44 ET** · refreshes hourly_  
+_Updated: **2026-07-31 13:43 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 40** of rollout — **6,500 invitees**, **309 tickets** so far
 - **309** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 61
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 62
 - **Median AHT**: 129.7h · mean 162.5h (proxy: updated_at − created_at, 208 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
@@ -90,8 +90,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [link directly to messages in webmail ](https://ideas.tb.pro/p/link-directly-to-messages-in-webmail) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.I want to be able to copy a link to access directly a message in the webmail. Why it mattersWhat problem does this solve, or what…
 - [[24 hour] time format for Appointment availability](https://ideas.tb.pro/p/24-hour-time-format-for-appointment-availability) · 1 votes · _untagged_
   > I can specify my preferred time format (i.e. 24:00 hours) but it is not applied to the “Availability-Settings”. Please have a consistent time format in all pages/settings.Why it mattersAs a non…
 
