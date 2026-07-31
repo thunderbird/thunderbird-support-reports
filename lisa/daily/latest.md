@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 17:33 ET** · refreshes hourly_  
+_Updated: **2026-07-31 18:32 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -103,10 +103,9 @@ _(none in last 24h)_
 
 - **solved**: 208
 - **closed**: 48
-- **pending**: 36
+- **pending**: 37
 - **open**: 9
 - **hold**: 9
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -159,15 +158,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Send (file sharing) — 1 tickets
-
-- **[#7334](https://tbpro.zendesk.com/agent/tickets/7334)** · thunderbird send: uplodaing files fails
-  > I've tried to upload files at https://[domain]/send/ I can select files to upload from my local folder, but once I click "upload n file(s)", each file fails. I've tried this with…
-
 ### Aliases — 1 tickets
 
 - **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
   > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
+
+### Send (file sharing) — 1 tickets
+
+- **[#7334](https://tbpro.zendesk.com/agent/tickets/7334)** · thunderbird send: uplodaing files fails
+  > I've tried to upload files at https://[domain]/send/ I can select files to upload from my local folder, but once I click "upload n file(s)", each file fails. I've tried this with…
 
 ### App setup / configuration — 1 tickets
 
@@ -184,7 +183,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [open] · 2026-07-30T22:38 · Custom Domain Issues
 - [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [pending] · 2026-07-30T22:56 · change recovery email
 - [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [pending] · 2026-07-31T03:57 · Cannot finalize registration process
-- [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [open] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
+- [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [pending] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
 
 ## Solved — last 24h
 
