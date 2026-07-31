@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 11:49 ET** · refreshes hourly_  
+_Updated: **2026-07-31 12:44 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -99,10 +99,9 @@ _(none in last 24h)_
 
 - **solved**: 208
 - **closed**: 47
-- **pending**: 30
-- **open**: 12
-- **hold**: 10
-- **new**: 2
+- **pending**: 31
+- **open**: 14
+- **hold**: 9
 
 ## Service (cumulative)
 
@@ -179,8 +178,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
 - [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [open] · 2026-07-30T22:56 · change recovery email
-- [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [new] · 2026-07-31T03:57 · Cannot finalize registration process
-- [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [new] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
+- [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [open] · 2026-07-31T03:57 · Cannot finalize registration process
+- [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [open] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
 
 ## Solved — last 24h
 
