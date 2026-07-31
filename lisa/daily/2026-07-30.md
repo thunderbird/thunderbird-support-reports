@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-30
 
-_Updated: **2026-07-30 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-30 23:14 ET** · refreshes hourly_  
 _24h window: 2026-07-29T16:00 → 2026-07-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -105,9 +105,9 @@ _(none in last 24h)_
 
 - **solved**: 209
 - **closed**: 46
-- **pending**: 35
+- **pending**: 33
 - **hold**: 11
-- **open**: 6
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -173,7 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7284](https://tbpro.zendesk.com/agent/tickets/7284) · [pending] · 2026-07-29T20:24 · Appointment availability time format does not comply my time format preferences
-- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [pending] · 2026-07-30T13:43 · i wont able to use appointment
+- [7308](https://tbpro.zendesk.com/agent/tickets/7308) · [open] · 2026-07-30T13:43 · i wont able to use appointment
 
 ## Solved — last 24h
 
