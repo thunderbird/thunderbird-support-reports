@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 14:41 ET** · refreshes hourly_  
+_Updated: **2026-07-31 15:43 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 40** of rollout — **6,500 invitees**, **309 tickets** so far
 - **4** new tickets in last 24h · **4** solved in last 24h
 - **309** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (23 good / 0 bad)
+- **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 63
-- **Median AHT**: 129.7h · mean 162.5h (proxy: updated_at − created_at, 208 solved tickets)
+- **Median AHT**: 129.4h · mean 159.3h (proxy: updated_at − created_at, 207 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -68,7 +68,7 @@ Flight 3 is **day 40** of rollout — **6,500 invitees**, **309 tickets** so far
 ### [#7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?)
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
 - 2 incident(s):
-  - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [solved] · 2026-06-24 · _Squarespace Custom Domain_
+  - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [closed] · 2026-06-24 · _Squarespace Custom Domain_
   - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [solved] · 2026-07-01 · _Namecheap Custom Domains_
 
 ## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
@@ -101,10 +101,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 208
-- **closed**: 47
-- **pending**: 31
-- **open**: 14
+- **solved**: 207
+- **closed**: 48
+- **pending**: 33
+- **open**: 12
 - **hold**: 9
 
 ## Service (cumulative)
@@ -137,7 +137,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
 - **change request** + **investigated**: 1
-- **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -146,6 +145,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -181,7 +181,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
-- [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [open] · 2026-07-30T22:56 · change recovery email
+- [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [pending] · 2026-07-30T22:56 · change recovery email
 - [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [open] · 2026-07-31T03:57 · Cannot finalize registration process
 - [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [open] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
 
