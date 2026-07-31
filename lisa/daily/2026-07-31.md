@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 10:59 ET** · refreshes hourly_  
+_Updated: **2026-07-31 11:49 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 40** of rollout — **6,500 invitees**, **309 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **2** solved in last 24h
+- **4** new tickets in last 24h · **4** solved in last 24h
 - **309** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 61
-- **Median AHT**: 129.9h · mean 163.0h (proxy: updated_at − created_at, 207 solved tickets)
+- **Median AHT**: 129.7h · mean 162.5h (proxy: updated_at − created_at, 208 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -97,10 +97,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 207
+- **solved**: 208
 - **closed**: 47
-- **pending**: 29
-- **open**: 14
+- **pending**: 30
+- **open**: 12
 - **hold**: 10
 - **new**: 2
 
@@ -122,8 +122,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
-- **blocked** + **—**: 6
 - **concerned** + **explained**: 6
+- **blocked** + **—**: 6
 - **blocked** + **actioned**: 5
 - **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
@@ -186,6 +186,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-30T21:43 · paid version 
 - 👍 [7195](https://tbpro.zendesk.com/agent/tickets/7195) · 2026-07-31T11:39 · DEVOLUCIÓN
+- · [7250](https://tbpro.zendesk.com/agent/tickets/7250) · 2026-07-31T15:01 · thundermail 
+- · [7262](https://tbpro.zendesk.com/agent/tickets/7262) · 2026-07-31T15:06 · ATTACHMENTS
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
