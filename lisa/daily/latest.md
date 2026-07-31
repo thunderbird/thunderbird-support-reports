@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 16:36 ET** · refreshes hourly_  
+_Updated: **2026-07-31 17:33 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 40** of rollout — **6,500 invitees**, **309 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 40** of rollout — **6,500 invitees**, **311 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **4** new tickets in last 24h · **4** solved in last 24h
-- **309** tickets total since launch · contact rate **5%** of 6500 invitees
+- **311** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 63
-- **Median AHT**: 129.4h · mean 159.3h (proxy: updated_at − created_at, 207 solved tickets)
+- **Median AHT**: 129.3h · mean 158.9h (proxy: updated_at − created_at, 208 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -101,25 +101,26 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 207
+- **solved**: 208
 - **closed**: 48
-- **pending**: 34
-- **open**: 11
+- **pending**: 36
+- **open**: 9
 - **hold**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 142
-- **Thundermail**: 137
+- **Thundermail**: 138
 - **Appointment**: 12
-- **Send**: 9
+- **Send**: 10
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 70
-- **blocked** + **explained**: 52
+- **blocked** + **explained**: 53
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
 - **blocked** + **escalated**: 16
@@ -128,9 +129,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 6
 - **blocked** + **—**: 6
 - **blocked** + **actioned**: 5
-- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
+- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -163,6 +164,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7334](https://tbpro.zendesk.com/agent/tickets/7334)** · thunderbird send: uplodaing files fails
   > I've tried to upload files at https://[domain]/send/ I can select files to upload from my local folder, but once I click "upload n file(s)", each file fails. I've tried this with…
 
+### Aliases — 1 tickets
+
+- **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
+  > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7326](https://tbpro.zendesk.com/agent/tickets/7326)** · Cannot finalize registration process
@@ -173,16 +179,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7324](https://tbpro.zendesk.com/agent/tickets/7324)** · change recovery email
   > i need to change my recovery email to one that is not paid so i can consolidate email service onto thundermail. i would like to change it to [email]. thanks in advance.
 
-### Aliases — 1 tickets
-
-- **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
-  > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
-
 ## New tickets — last 24h
 
-- [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
+- [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [open] · 2026-07-30T22:38 · Custom Domain Issues
 - [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [pending] · 2026-07-30T22:56 · change recovery email
-- [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [open] · 2026-07-31T03:57 · Cannot finalize registration process
+- [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [pending] · 2026-07-31T03:57 · Cannot finalize registration process
 - [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [open] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
 
 ## Solved — last 24h
