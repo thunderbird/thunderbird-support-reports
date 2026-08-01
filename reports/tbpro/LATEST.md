@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-08-01 05:46 ET** · refreshes hourly_  
+_Updated: **2026-08-01 06:43 ET** · refreshes hourly_  
 _24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -98,8 +98,8 @@ _(none in last 24h)_
 
 - **solved**: 207
 - **closed**: 50
-- **pending**: 36
-- **open**: 9
+- **pending**: 35
+- **open**: 10
 - **hold**: 9
 
 ## Service (cumulative)
@@ -165,7 +165,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [pending] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
+- [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [open] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
 - [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [open] · 2026-07-31T20:47 · subscription
 
 ## Solved — last 24h
