@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-08-01 10:39 ET** · refreshes hourly_  
+_Updated: **2026-08-01 11:32 ET** · refreshes hourly_  
 _24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 41** of rollout — **6,500 invitees**, **311 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 41** of rollout — **6,500 invitees**, **312 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
-- **311** tickets total since launch · contact rate **5%** of 6500 invitees
+- **3** new tickets in last 24h · **6** solved in last 24h
+- **312** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 129.7h · mean 160.0h (proxy: updated_at − created_at, 210 solved tickets)
+- **Median AHT**: 129.9h · mean 159.9h (proxy: updated_at − created_at, 211 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,16 +96,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 210
+- **solved**: 211
 - **closed**: 50
-- **pending**: 32
+- **pending**: 31
 - **open**: 10
 - **hold**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 143
-- **Thundermail**: 137
+- **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
 
@@ -153,6 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#7346](https://tbpro.zendesk.com/agent/tickets/7346)** · Not receving verification email
+  > I am trying to accept the invitation for a new Thundermail account, but I never receive the verification email at [email]
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#7338](https://tbpro.zendesk.com/agent/tickets/7338)** · Issues with new mail client and my Thundermail account
@@ -167,6 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [open] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
 - [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [pending] · 2026-07-31T20:47 · subscription
+- [7346](https://tbpro.zendesk.com/agent/tickets/7346) · [new] · 2026-08-01T14:57 · Not receving verification email
 
 ## Solved — last 24h
 
@@ -175,6 +182,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7190](https://tbpro.zendesk.com/agent/tickets/7190) · 2026-08-01T14:01 · I want to request a refund for my account
 - · [7183](https://tbpro.zendesk.com/agent/tickets/7183) · 2026-08-01T14:01 · Registration Confusion
 - · [7180](https://tbpro.zendesk.com/agent/tickets/7180) · 2026-08-01T14:01 · Unable to complete registration
+- · [7166](https://tbpro.zendesk.com/agent/tickets/7166) · 2026-08-01T15:01 · account removal
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
