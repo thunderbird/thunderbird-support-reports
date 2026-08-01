@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-08-01 08:31 ET** · refreshes hourly_  
+_Updated: **2026-08-01 09:43 ET** · refreshes hourly_  
 _24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -98,14 +98,14 @@ _(none in last 24h)_
 
 - **solved**: 207
 - **closed**: 50
-- **pending**: 35
-- **open**: 10
+- **pending**: 36
+- **open**: 9
 - **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 142
-- **Thundermail**: 138
+- **Account Hub**: 143
+- **Thundermail**: 137
 - **Appointment**: 12
 - **Send**: 10
 
@@ -113,7 +113,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 70
+- **curious** + **explained**: 71
 - **blocked** + **explained**: 53
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
@@ -153,20 +153,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7339](https://tbpro.zendesk.com/agent/tickets/7339)** · subscription
-  > J'ai reçu l'invitation à me joindre à Thundermail, le plan annuel pour les “early birds”… J'ai malheureusement SUPPRIMER L'INVITATION :-( Est-ce que je peux à nouveau en recevoir…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#7338](https://tbpro.zendesk.com/agent/tickets/7338)** · Issues with new mail client and my Thundermail account
   > I connected and configured my Thundermail account to my work Mac, they use a different email client eM Client and don't allow me to use Thunderbird. Notice the client get's…
 
+### Early bird signup — 1 tickets
+
+- **[#7339](https://tbpro.zendesk.com/agent/tickets/7339)** · subscription — why: **curious** · how: **explained**
+  > J'ai reçu l'invitation à me joindre à Thundermail, le plan annuel pour les “early birds”… J'ai malheureusement SUPPRIMER L'INVITATION :-( Est-ce que je peux à nouveau en recevoir…
+
 ## New tickets — last 24h
 
 - [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [open] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
-- [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [open] · 2026-07-31T20:47 · subscription
+- [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [pending] · 2026-07-31T20:47 · subscription
 
 ## Solved — last 24h
 
