@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-08-01 15:36 ET** · refreshes hourly_  
+_Updated: **2026-08-01 16:28 ET** · refreshes hourly_  
 _24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 41** of rollout — **6,500 invitees**, **312 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 41** of rollout — **6,500 invitees**, **313 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **12** solved in last 24h
-- **312** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **12** solved in last 24h
+- **313** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 130.1h · mean 161.8h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 130.1h · mean 162.0h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,16 +96,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
-- **closed**: 50
+- **solved**: 214
+- **closed**: 51
 - **pending**: 27
 - **open**: 10
 - **hold**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 143
+- **Account Hub**: 144
 - **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
@@ -154,6 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#7350](https://tbpro.zendesk.com/agent/tickets/7350)** · Bad Request (400) error Brave browser 
+  > When I try to log into the thundermail dashboard I get the bad request 400 error. I have tried it on 2 Linux computers running Zorin os. When I try it on chrome it works fine.…
+
 ### Account access issues — 1 tickets
 
 - **[#7346](https://tbpro.zendesk.com/agent/tickets/7346)** · Not receving verification email
@@ -174,6 +179,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [open] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
 - [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [pending] · 2026-07-31T20:47 · subscription
 - [7346](https://tbpro.zendesk.com/agent/tickets/7346) · [new] · 2026-08-01T14:57 · Not receving verification email
+- [7350](https://tbpro.zendesk.com/agent/tickets/7350) · [new] · 2026-08-01T19:48 · Bad Request (400) error Brave browser 
 
 ## Solved — last 24h
 
