@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-08-01 11:32 ET** · refreshes hourly_  
+_Updated: **2026-08-01 12:28 ET** · refreshes hourly_  
 _24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 41** of rollout — **6,500 invitees**, **312 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **6** solved in last 24h
+- **3** new tickets in last 24h · **7** solved in last 24h
 - **312** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 129.9h · mean 159.9h (proxy: updated_at − created_at, 211 solved tickets)
+- **Median AHT**: 129.9h · mean 160.1h (proxy: updated_at − created_at, 211 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -183,6 +183,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7183](https://tbpro.zendesk.com/agent/tickets/7183) · 2026-08-01T14:01 · Registration Confusion
 - · [7180](https://tbpro.zendesk.com/agent/tickets/7180) · 2026-08-01T14:01 · Unable to complete registration
 - · [7166](https://tbpro.zendesk.com/agent/tickets/7166) · 2026-08-01T15:01 · account removal
+- · [7262](https://tbpro.zendesk.com/agent/tickets/7262) · 2026-08-01T16:02 · ATTACHMENTS
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
