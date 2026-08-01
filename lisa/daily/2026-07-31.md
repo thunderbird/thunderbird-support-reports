@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-07-31
 
-_Updated: **2026-07-31 21:46 ET** · refreshes hourly_  
+_Updated: **2026-07-31 23:14 ET** · refreshes hourly_  
 _24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -96,7 +96,7 @@ _(none in last 24h)_
   > What you’d like to seeAfter scrolling the “calendar” to different weeks/months I would like a method to center the calendar on the current date.Why it mattersBenefit is a faster way to return to the…
 - [link directly to messages in webmail ](https://ideas.tb.pro/p/link-directly-to-messages-in-webmail) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.I want to be able to copy a link to access directly a message in the webmail. Why it mattersWhat problem does this solve, or what…
-- [[24 hour] time format for Appointment availability](https://ideas.tb.pro/p/24-hour-time-format-for-appointment-availability) · 1 votes · _untagged_
+- [[24 hour] time format for Appointment availability](https://ideas.tb.pro/p/24-hour-time-format-for-appointment-availability) · 2 votes · _untagged_
   > I can specify my preferred time format (i.e. 24:00 hours) but it is not applied to the “Availability-Settings”. Please have a consistent time format in all pages/settings.Why it mattersAs a non…
 
 ## Status breakdown (cumulative)
