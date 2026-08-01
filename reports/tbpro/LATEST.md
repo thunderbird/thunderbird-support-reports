@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-07-31
+# Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-07-31 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-30T16:00 → 2026-07-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-01 01:16 ET** · refreshes hourly_  
+_24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 40** of rollout — **6,500 invitees**, **311 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 41** of rollout — **6,500 invitees**, **311 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **311** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 63
-- **Median AHT**: 129.7h · mean 159.9h (proxy: updated_at − created_at, 206 solved tickets)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
+- **Median AHT**: 129.9h · mean 160.5h (proxy: updated_at − created_at, 207 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -90,22 +90,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 0 new:
 
-- [Ability to center the Appointment Dashboard on the current date](https://ideas.tb.pro/p/ability-to-center-the-appointment-dashboard-on-the-current-date) · 1 votes · _untagged_
-  > What you’d like to seeAfter scrolling the “calendar” to different weeks/months I would like a method to center the calendar on the current date.Why it mattersBenefit is a faster way to return to the…
-- [link directly to messages in webmail ](https://ideas.tb.pro/p/link-directly-to-messages-in-webmail) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.I want to be able to copy a link to access directly a message in the webmail. Why it mattersWhat problem does this solve, or what…
-- [[24 hour] time format for Appointment availability](https://ideas.tb.pro/p/24-hour-time-format-for-appointment-availability) · 2 votes · _untagged_
-  > I can specify my preferred time format (i.e. 24:00 hours) but it is not applied to the “Availability-Settings”. Please have a consistent time format in all pages/settings.Why it mattersAs a non…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 206
+- **solved**: 207
 - **closed**: 50
-- **pending**: 36
-- **open**: 10
-- **hold**: 9
+- **pending**: 37
+- **hold**: 10
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -136,7 +131,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
-- **change request** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -144,6 +138,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
+- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
@@ -158,39 +153,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Send (file sharing) — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7334](https://tbpro.zendesk.com/agent/tickets/7334)** · thunderbird send: uplodaing files fails
-  > I've tried to upload files at https://[domain]/send/ I can select files to upload from my local folder, but once I click "upload n file(s)", each file fails. I've tried this with…
+- **[#7339](https://tbpro.zendesk.com/agent/tickets/7339)** · subscription
+  > J'ai reçu l'invitation à me joindre à Thundermail, le plan annuel pour les “early birds”… J'ai malheureusement SUPPRIMER L'INVITATION :-( Est-ce que je peux à nouveau en recevoir…
 
-### App setup / configuration — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#7326](https://tbpro.zendesk.com/agent/tickets/7326)** · Cannot finalize registration process
-  > Started account, went to pay today and couldn't log in. [email] is the recovery email address
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#7324](https://tbpro.zendesk.com/agent/tickets/7324)** · change recovery email
-  > i need to change my recovery email to one that is not paid so i can consolidate email service onto thundermail. i would like to change it to [email]. thanks in advance.
-
-### Aliases — 1 tickets
-
-- **[#7323](https://tbpro.zendesk.com/agent/tickets/7323)** · Custom Domain Issues — why: **concerned** · how: **explained**
-  > I have two issues: 1) I setup a custom domain through PorkBun. Although the important custom domain DNS records are working (the domain shows as verified in Thundermail), the SRV…
+- **[#7338](https://tbpro.zendesk.com/agent/tickets/7338)** · Issues with new mail client and my Thundermail account
+  > I connected and configured my Thundermail account to my work Mac, they use a different email client eM Client and don't allow me to use Thunderbird. Notice the client get's…
 
 ## New tickets — last 24h
 
-- [7323](https://tbpro.zendesk.com/agent/tickets/7323) · [pending] · 2026-07-30T22:38 · Custom Domain Issues
-- [7324](https://tbpro.zendesk.com/agent/tickets/7324) · [pending] · 2026-07-30T22:56 · change recovery email
-- [7326](https://tbpro.zendesk.com/agent/tickets/7326) · [pending] · 2026-07-31T03:57 · Cannot finalize registration process
-- [7334](https://tbpro.zendesk.com/agent/tickets/7334) · [pending] · 2026-07-31T14:58 · thunderbird send: uplodaing files fails
+- [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [pending] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
+- [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [open] · 2026-07-31T20:47 · subscription
 
 ## Solved — last 24h
 
-- 👍 [7100](https://tbpro.zendesk.com/agent/tickets/7100) · 2026-07-30T21:43 · paid version 
-- 👍 [7195](https://tbpro.zendesk.com/agent/tickets/7195) · 2026-07-31T11:39 · DEVOLUCIÓN
-- · [7250](https://tbpro.zendesk.com/agent/tickets/7250) · 2026-07-31T15:01 · thundermail 
-- · [7262](https://tbpro.zendesk.com/agent/tickets/7262) · 2026-07-31T15:06 · ATTACHMENTS
+- · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-07-31T20:39 · Can't use Send or Appointment from Thunderbird
+- · [6957](https://tbpro.zendesk.com/agent/tickets/6957) · 2026-08-01T03:50 · Thundermail drafts not deleting after final version sent
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
