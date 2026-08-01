@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-01
 
-_Updated: **2026-08-01 09:43 ET** · refreshes hourly_  
+_Updated: **2026-08-01 10:39 ET** · refreshes hourly_  
 _24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 41** of rollout — **6,500 invitees**, **311 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
+- **2** new tickets in last 24h · **5** solved in last 24h
 - **311** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 129.9h · mean 160.5h (proxy: updated_at − created_at, 207 solved tickets)
+- **Median AHT**: 129.7h · mean 160.0h (proxy: updated_at − created_at, 210 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -57,7 +57,7 @@ Flight 3 is **day 41** of rollout — **6,500 invitees**, **311 tickets** so far
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
-  - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [pending] · 2026-07-27 · _I want to request a refund for my account_
+  - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -96,10 +96,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 207
+- **solved**: 210
 - **closed**: 50
-- **pending**: 36
-- **open**: 9
+- **pending**: 32
+- **open**: 10
 - **hold**: 9
 
 ## Service (cumulative)
@@ -131,6 +131,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
+- **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -140,7 +141,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -172,6 +172,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-07-31T20:39 · Can't use Send or Appointment from Thunderbird
 - · [6957](https://tbpro.zendesk.com/agent/tickets/6957) · 2026-08-01T03:50 · Thundermail drafts not deleting after final version sent
+- · [7190](https://tbpro.zendesk.com/agent/tickets/7190) · 2026-08-01T14:01 · I want to request a refund for my account
+- · [7183](https://tbpro.zendesk.com/agent/tickets/7183) · 2026-08-01T14:01 · Registration Confusion
+- · [7180](https://tbpro.zendesk.com/agent/tickets/7180) · 2026-08-01T14:01 · Unable to complete registration
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
