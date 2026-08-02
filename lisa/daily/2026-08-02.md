@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-02 15:36 ET** · refreshes hourly_  
+_Updated: **2026-08-02 16:28 ET** · refreshes hourly_  
 _24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 42** of rollout — **6,500 invitees**, **317 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Other / uncategorized**. **6 known problem(s)** being tracked.
+Flight 3 is **day 42** of rollout — **6,500 invitees**, **317 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
+- **4** new tickets in last 24h · **8** solved in last 24h
 - **317** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 66
-- **Median AHT**: 130.8h · mean 163.4h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 130.8h · mean 163.6h (proxy: updated_at − created_at, 217 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -92,7 +92,7 @@ _(none in last 24h)_
 
 **Last 24h** — 3 new:
 
-- [Most email providers support multiple custom domains, but almost all of them route everything into one mailbox.](https://ideas.tb.pro/p/most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox) · 1 votes · _untagged_
+- [Most email providers support multiple custom domains, but almost all of them route everything into one mailbox.](https://ideas.tb.pro/p/most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox) · 1 votes · _Thundermail, Improvement_
   > What you’d like to seeBriefly describe the feature or improvement.I would like ThunderMail to support independent mailboxes for custom domains instead of routing every domain into a single…
 - [Allow custom domain identities to become the primary account identity](https://ideas.tb.pro/p/allow-custom-domain-identities-to-become-the-primary-account-identity) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.ThunderMail has the opportunity to become the first privacy-focused provider to offer truly independent mailboxes under one…
@@ -101,17 +101,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
+- **solved**: 217
 - **closed**: 54
-- **pending**: 21
-- **open**: 12
+- **pending**: 25
+- **open**: 9
 - **hold**: 9
-- **new**: 6
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 144
-- **Thundermail**: 141
+- **Account Hub**: 146
+- **Thundermail**: 140
 - **Appointment**: 12
 - **Send**: 10
 
@@ -119,26 +119,25 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 71
-- **blocked** + **explained**: 53
+- **curious** + **explained**: 74
+- **blocked** + **explained**: 54
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
 - **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 15
 - **confused** + **explained**: 11
-- **blocked** + **—**: 6
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
+- **blocked** + **—**: 4
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
+- **curious** + **redirected**: 2
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
-- **confused** + **investigated**: 1
-- **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
@@ -147,6 +146,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -159,14 +159,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Pricing — wanted free / monthly plan — 2 tickets
 
-- **[#7363](https://tbpro.zendesk.com/agent/tickets/7363)** · wJpYwWwxITAQuzWNB
-  > xOBJQakRwLstFXWRXeEDht
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#7357](https://tbpro.zendesk.com/agent/tickets/7357)** · No free or Basic version
+- **[#7367](https://tbpro.zendesk.com/agent/tickets/7367)** · sign up help — why: **curious** · how: **explained**
+  > Hi, I am trying to sign up for early access but seems I need to pay for the year of early access. I would like to confirm if I need to pay for early access. My understanding was…
+- **[#7357](https://tbpro.zendesk.com/agent/tickets/7357)** · No free or Basic version — why: **curious** · how: **explained**
   > Hi, It seems to me that there is no basic or free version and the only way to use thundermail is by paying whooping 72 bucks. If its true then thats the most un-mozilla thing I…
 
 ### Custom domain / DKIM / DNS — 1 tickets
@@ -174,17 +171,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7354](https://tbpro.zendesk.com/agent/tickets/7354)** · custom email domain won't verify
   > I carefully copy/pasted all the domain records as instructed. However, it seems like only the MX record has been verified, and all the others are failing. Attached are screenshots…
 
-### Early bird / invite / waitlist — 1 tickets
+### Waitlist / onboarding inquiry — 1 tickets
 
-- **[#7353](https://tbpro.zendesk.com/agent/tickets/7353)** · account access
+- **[#7353](https://tbpro.zendesk.com/agent/tickets/7353)** · account access — why: **curious** · how: **explained**
   > **BETA - Onboarding - Already registered** To the Thunderbird / Thundermail Support Team, I am writing to directly request manual onboarding into the **Thundermail beta program**.…
 
 ## New tickets — last 24h
 
-- [7353](https://tbpro.zendesk.com/agent/tickets/7353) · [new] · 2026-08-01T23:53 · account access
+- [7353](https://tbpro.zendesk.com/agent/tickets/7353) · [pending] · 2026-08-01T23:53 · account access
 - [7354](https://tbpro.zendesk.com/agent/tickets/7354) · [new] · 2026-08-02T02:13 · custom email domain won't verify
-- [7357](https://tbpro.zendesk.com/agent/tickets/7357) · [new] · 2026-08-02T06:27 · No free or Basic version
-- [7363](https://tbpro.zendesk.com/agent/tickets/7363) · [new] · 2026-08-02T16:17 · wJpYwWwxITAQuzWNB
+- [7357](https://tbpro.zendesk.com/agent/tickets/7357) · [pending] · 2026-08-02T06:27 · No free or Basic version
+- [7367](https://tbpro.zendesk.com/agent/tickets/7367) · [pending] · 2026-08-02T19:44 · sign up help
 
 ## Solved — last 24h
 
@@ -194,6 +191,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7196](https://tbpro.zendesk.com/agent/tickets/7196) · 2026-08-02T15:01 · Create folder
 - · [7203](https://tbpro.zendesk.com/agent/tickets/7203) · 2026-08-02T16:01 · Contacts Android <> Thundermail 
 - · [7025](https://tbpro.zendesk.com/agent/tickets/7025) · 2026-08-02T17:01 · tHUNDERBIRD FOR aNDROID
+- · [7249](https://tbpro.zendesk.com/agent/tickets/7249) · 2026-08-02T19:44 · I can't receive mail sent to a custom domain
+- · [7072](https://tbpro.zendesk.com/agent/tickets/7072) · 2026-08-02T19:50 · wont able to create an account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
