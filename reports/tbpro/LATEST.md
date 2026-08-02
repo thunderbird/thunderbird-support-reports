@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-01
+# Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-01 23:14 ET** · refreshes hourly_  
-_24h window: 2026-07-31T16:00 → 2026-08-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-02 01:16 ET** · refreshes hourly_  
+_24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 41** of rollout — **6,500 invitees**, **315 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 42** of rollout — **6,500 invitees**, **315 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
+- **2** new tickets in last 24h · **3** solved in last 24h
 - **315** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 130.1h · mean 162.8h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 130.1h · mean 162.9h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -98,8 +98,8 @@ _(none in last 24h)_
 
 - **solved**: 213
 - **closed**: 53
-- **pending**: 25
-- **open**: 11
+- **pending**: 24
+- **open**: 12
 - **hold**: 9
 - **new**: 4
 
@@ -132,6 +132,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
+- **confused** + **investigated**: 1
 - **curious** + **redirected**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -141,7 +142,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -154,46 +154,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#7350](https://tbpro.zendesk.com/agent/tickets/7350)** · Bad Request (400) error Brave browser 
-  > When I try to log into the thundermail dashboard I get the bad request 400 error. I have tried it on 2 Linux computers running Zorin os. When I try it on chrome it works fine.…
+- **[#7354](https://tbpro.zendesk.com/agent/tickets/7354)** · custom email domain won't verify
+  > I carefully copy/pasted all the domain records as instructed. However, it seems like only the MX record has been verified, and all the others are failing. Attached are screenshots…
 
-### Account access issues — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7346](https://tbpro.zendesk.com/agent/tickets/7346)** · Not receving verification email
-  > I am trying to accept the invitation for a new Thundermail account, but I never receive the verification email at [email]
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#7338](https://tbpro.zendesk.com/agent/tickets/7338)** · Issues with new mail client and my Thundermail account
-  > I connected and configured my Thundermail account to my work Mac, they use a different email client eM Client and don't allow me to use Thunderbird. Notice the client get's…
-
-### Early bird signup — 1 tickets
-
-- **[#7339](https://tbpro.zendesk.com/agent/tickets/7339)** · subscription — why: **curious** · how: **explained**
-  > J'ai reçu l'invitation à me joindre à Thundermail, le plan annuel pour les “early birds”… J'ai malheureusement SUPPRIMER L'INVITATION :-( Est-ce que je peux à nouveau en recevoir…
+- **[#7353](https://tbpro.zendesk.com/agent/tickets/7353)** · account access
+  > **BETA - Onboarding - Already registered** To the Thunderbird / Thundermail Support Team, I am writing to directly request manual onboarding into the **Thundermail beta program**.…
 
 ## New tickets — last 24h
 
-- [7338](https://tbpro.zendesk.com/agent/tickets/7338) · [open] · 2026-07-31T20:39 · Issues with new mail client and my Thundermail account
-- [7339](https://tbpro.zendesk.com/agent/tickets/7339) · [pending] · 2026-07-31T20:47 · subscription
-- [7346](https://tbpro.zendesk.com/agent/tickets/7346) · [new] · 2026-08-01T14:57 · Not receving verification email
-- [7350](https://tbpro.zendesk.com/agent/tickets/7350) · [new] · 2026-08-01T19:48 · Bad Request (400) error Brave browser 
+- [7353](https://tbpro.zendesk.com/agent/tickets/7353) · [new] · 2026-08-01T23:53 · account access
+- [7354](https://tbpro.zendesk.com/agent/tickets/7354) · [new] · 2026-08-02T02:13 · custom email domain won't verify
 
 ## Solved — last 24h
 
-- · [6957](https://tbpro.zendesk.com/agent/tickets/6957) · 2026-08-01T03:50 · Thundermail drafts not deleting after final version sent
-- · [7190](https://tbpro.zendesk.com/agent/tickets/7190) · 2026-08-01T14:01 · I want to request a refund for my account
-- · [7183](https://tbpro.zendesk.com/agent/tickets/7183) · 2026-08-01T14:01 · Registration Confusion
-- · [7180](https://tbpro.zendesk.com/agent/tickets/7180) · 2026-08-01T14:01 · Unable to complete registration
-- · [7166](https://tbpro.zendesk.com/agent/tickets/7166) · 2026-08-01T15:01 · account removal
-- · [6722](https://tbpro.zendesk.com/agent/tickets/6722) · 2026-08-01T16:45 · Webmail - no mail from own domain
-- · [7140](https://tbpro.zendesk.com/agent/tickets/7140) · 2026-08-01T17:01 · CalDAV URL 
-- · [7193](https://tbpro.zendesk.com/agent/tickets/7193) · 2026-08-01T18:02 · Ical subscription support
-- · [7146](https://tbpro.zendesk.com/agent/tickets/7146) · 2026-08-01T18:02 · Inquiry Regarding Thundermail Pricing
-- · [7141](https://tbpro.zendesk.com/agent/tickets/7141) · 2026-08-01T18:02 · Thunderbird Pro 1.9.1
-- 👍 [7262](https://tbpro.zendesk.com/agent/tickets/7262) · 2026-08-01T19:28 · ATTACHMENTS
+- · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-08-01T21:01 · Can't use Send or Appointment from Thunderbird
+- · [7062](https://tbpro.zendesk.com/agent/tickets/7062) · 2026-08-01T22:01 · Adding Domain
+- · [6957](https://tbpro.zendesk.com/agent/tickets/6957) · 2026-08-02T04:01 · Thundermail drafts not deleting after final version sent
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
