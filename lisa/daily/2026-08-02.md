@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-02 17:27 ET** · refreshes hourly_  
+_Updated: **2026-08-02 18:28 ET** · refreshes hourly_  
 _24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -102,9 +102,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 217
-- **closed**: 55
-- **pending**: 24
-- **open**: 9
+- **closed**: 56
+- **pending**: 21
+- **open**: 11
 - **hold**: 9
 - **new**: 3
 
@@ -129,15 +129,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
 - **blocked** + **—**: 4
+- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **request** + **explained**: 3
-- **concerned** + **investigated**: 3
 - **request** + **actioned**: 3
 - **curious** + **redirected**: 2
 - **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
+- **confused** + **investigated**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
@@ -146,7 +147,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
-- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
