@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-02 10:41 ET** · refreshes hourly_  
+_Updated: **2026-08-02 11:32 ET** · refreshes hourly_  
 _24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 42** of rollout — **6,500 invitees**, **316 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
+- **3** new tickets in last 24h · **4** solved in last 24h
 - **316** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 130.1h · mean 162.9h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 130.3h · mean 162.8h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,9 +96,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
+- **solved**: 214
 - **closed**: 53
-- **pending**: 24
+- **pending**: 23
 - **open**: 12
 - **hold**: 9
 - **new**: 5
@@ -180,6 +180,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-08-01T21:01 · Can't use Send or Appointment from Thunderbird
 - · [7062](https://tbpro.zendesk.com/agent/tickets/7062) · 2026-08-01T22:01 · Adding Domain
 - · [6957](https://tbpro.zendesk.com/agent/tickets/6957) · 2026-08-02T04:01 · Thundermail drafts not deleting after final version sent
+- · [7196](https://tbpro.zendesk.com/agent/tickets/7196) · 2026-08-02T15:01 · Create folder
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
