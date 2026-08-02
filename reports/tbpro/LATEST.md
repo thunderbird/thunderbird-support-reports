@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-02 14:29 ET** · refreshes hourly_  
+_Updated: **2026-08-02 15:36 ET** · refreshes hourly_  
 _24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,8 +13,8 @@ Flight 3 is **day 42** of rollout — **6,500 invitees**, **317 tickets** so far
 - **317** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
-- **Median AHT**: 130.7h · mean 163.2h (proxy: updated_at − created_at, 216 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 66
+- **Median AHT**: 130.8h · mean 163.4h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -90,14 +90,19 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 3 new:
 
-- _(none)_
+- [Most email providers support multiple custom domains, but almost all of them route everything into one mailbox.](https://ideas.tb.pro/p/most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.I would like ThunderMail to support independent mailboxes for custom domains instead of routing every domain into a single…
+- [Allow custom domain identities to become the primary account identity](https://ideas.tb.pro/p/allow-custom-domain-identities-to-become-the-primary-account-identity) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.ThunderMail has the opportunity to become the first privacy-focused provider to offer truly independent mailboxes under one…
+- [prize - verb - wolf - regret - energy - chat](https://ideas.tb.pro/p/prize-verb-wolf-regret-energy-chat) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 216
-- **closed**: 53
+- **solved**: 215
+- **closed**: 54
 - **pending**: 21
 - **open**: 12
 - **hold**: 9
