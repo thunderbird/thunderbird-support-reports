@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-02 01:16 ET** · refreshes hourly_  
+_Updated: **2026-08-02 03:03 ET** · refreshes hourly_  
 _24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 42** of rollout — **6,500 invitees**, **315 tickets** so far (4.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 42** of rollout — **6,500 invitees**, **316 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
-- **315** tickets total since launch · contact rate **5%** of 6500 invitees
+- **3** new tickets in last 24h · **3** solved in last 24h
+- **316** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 63
@@ -101,12 +101,12 @@ _(none in last 24h)_
 - **pending**: 24
 - **open**: 12
 - **hold**: 9
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 144
-- **Thundermail**: 140
+- **Thundermail**: 141
 - **Appointment**: 12
 - **Send**: 10
 
@@ -154,6 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#7357](https://tbpro.zendesk.com/agent/tickets/7357)** · No free or Basic version
+  > Hi, It seems to me that there is no basic or free version and the only way to use thundermail is by paying whooping 72 bucks. If its true then thats the most un-mozilla thing I…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7354](https://tbpro.zendesk.com/agent/tickets/7354)** · custom email domain won't verify
@@ -168,6 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7353](https://tbpro.zendesk.com/agent/tickets/7353) · [new] · 2026-08-01T23:53 · account access
 - [7354](https://tbpro.zendesk.com/agent/tickets/7354) · [new] · 2026-08-02T02:13 · custom email domain won't verify
+- [7357](https://tbpro.zendesk.com/agent/tickets/7357) · [new] · 2026-08-02T06:27 · No free or Basic version
 
 ## Solved — last 24h
 
