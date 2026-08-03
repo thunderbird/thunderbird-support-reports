@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-03
 
-_Updated: **2026-08-03 09:13 ET** · refreshes hourly_  
+_Updated: **2026-08-03 11:11 ET** · refreshes hourly_  
 _24h window: 2026-08-02T16:00 → 2026-08-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 43** of rollout — **6,500 invitees**, **318 tickets** so far
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
+- **1** new tickets in last 24h · **7** solved in last 24h
 - **318** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 131.2h · mean 164.2h (proxy: updated_at − created_at, 215 solved tickets)
+- **CSAT (since launch)**: 100%  (21 good / 0 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
+- **Median AHT**: 131.5h · mean 164.9h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -97,16 +97,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 215
-- **closed**: 58
-- **pending**: 23
-- **open**: 13
+- **closed**: 61
+- **pending**: 22
+- **open**: 12
 - **hold**: 8
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 148
-- **Thundermail**: 139
+- **Account Hub**: 149
+- **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
 
@@ -114,7 +113,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 74
+- **curious** + **explained**: 75
 - **blocked** + **explained**: 57
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
@@ -168,6 +167,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7238](https://tbpro.zendesk.com/agent/tickets/7238) · 2026-08-02T21:01 · help me
 - · [7230](https://tbpro.zendesk.com/agent/tickets/7230) · 2026-08-02T22:01 · Contacts on smartphone Android
 - · [7258](https://tbpro.zendesk.com/agent/tickets/7258) · 2026-08-03T13:01 · Domain Registration via TB?
+- · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-08-03T13:31 · Can't use Send or Appointment from Thunderbird
+- · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-08-03T13:48 · unconscionable ToS and (lack of) Privacy Policy.
+- · [7339](https://tbpro.zendesk.com/agent/tickets/7339) · 2026-08-03T15:00 · subscription
+- · [7173](https://tbpro.zendesk.com/agent/tickets/7173) · 2026-08-03T15:02 · Does not subscribing delete my account?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
