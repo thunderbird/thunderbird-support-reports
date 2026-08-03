@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-02
+# Thundermail — Flight 3 Live Report · 2026-08-03
 
-_Updated: **2026-08-02 23:14 ET** · refreshes hourly_  
-_24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-03 01:22 ET** · refreshes hourly_  
+_24h window: 2026-08-02T16:00 → 2026-08-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 42** of rollout — **6,500 invitees**, **318 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 43** of rollout — **6,500 invitees**, **318 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
+- **1** new tickets in last 24h · **2** solved in last 24h
 - **318** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 66
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
 - **Median AHT**: 131.2h · mean 164.0h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
@@ -90,22 +90,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 0 new:
 
-- [Most email providers support multiple custom domains, but almost all of them route everything into one mailbox.](https://ideas.tb.pro/p/most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox) · 1 votes · _Thundermail, Improvement_
-  > What you’d like to seeBriefly describe the feature or improvement.I would like ThunderMail to support independent mailboxes for custom domains instead of routing every domain into a single…
-- [Allow custom domain identities to become the primary account identity](https://ideas.tb.pro/p/allow-custom-domain-identities-to-become-the-primary-account-identity) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.ThunderMail has the opportunity to become the first privacy-focused provider to offer truly independent mailboxes under one…
-- [prize - verb - wolf - regret - energy - chat](https://ideas.tb.pro/p/prize-verb-wolf-regret-energy-chat) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 215
 - **closed**: 58
 - **pending**: 23
-- **open**: 10
-- **hold**: 9
+- **open**: 11
+- **hold**: 8
 - **new**: 3
 
 ## Service (cumulative)
@@ -159,40 +154,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing — wanted free / monthly plan — 2 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#7367](https://tbpro.zendesk.com/agent/tickets/7367)** · sign up help — why: **curious** · how: **explained**
-  > Hi, I am trying to sign up for early access but seems I need to pay for the year of early access. I would like to confirm if I need to pay for early access. My understanding was…
-- **[#7357](https://tbpro.zendesk.com/agent/tickets/7357)** · No free or Basic version — why: **curious** · how: **explained**
-  > Hi, It seems to me that there is no basic or free version and the only way to use thundermail is by paying whooping 72 bucks. If its true then thats the most un-mozilla thing I…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7354](https://tbpro.zendesk.com/agent/tickets/7354)** · custom email domain won't verify
-  > I carefully copy/pasted all the domain records as instructed. However, it seems like only the MX record has been verified, and all the others are failing. Attached are screenshots…
-
-### Waitlist / onboarding inquiry — 1 tickets
-
-- **[#7353](https://tbpro.zendesk.com/agent/tickets/7353)** · account access — why: **curious** · how: **explained**
-  > **BETA - Onboarding - Already registered** To the Thunderbird / Thundermail Support Team, I am writing to directly request manual onboarding into the **Thundermail beta program**.…
+- **[#7370](https://tbpro.zendesk.com/agent/tickets/7370)** · email not working — why: **blocked** · how: **explained**
+  > i signed up for Thundermail in early July and paid $72 for it. But it's not letting me log in. please help.
 
 ## New tickets — last 24h
 
-- [7353](https://tbpro.zendesk.com/agent/tickets/7353) · [pending] · 2026-08-01T23:53 · account access
-- [7354](https://tbpro.zendesk.com/agent/tickets/7354) · [new] · 2026-08-02T02:13 · custom email domain won't verify
-- [7357](https://tbpro.zendesk.com/agent/tickets/7357) · [pending] · 2026-08-02T06:27 · No free or Basic version
-- [7367](https://tbpro.zendesk.com/agent/tickets/7367) · [pending] · 2026-08-02T19:44 · sign up help
+- [7370](https://tbpro.zendesk.com/agent/tickets/7370) · [pending] · 2026-08-02T23:07 · email not working
 
 ## Solved — last 24h
 
-- · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-08-01T21:01 · Can't use Send or Appointment from Thunderbird
-- · [7062](https://tbpro.zendesk.com/agent/tickets/7062) · 2026-08-01T22:01 · Adding Domain
-- · [6957](https://tbpro.zendesk.com/agent/tickets/6957) · 2026-08-02T04:01 · Thundermail drafts not deleting after final version sent
-- · [7196](https://tbpro.zendesk.com/agent/tickets/7196) · 2026-08-02T15:01 · Create folder
-- · [7203](https://tbpro.zendesk.com/agent/tickets/7203) · 2026-08-02T16:01 · Contacts Android <> Thundermail 
-- · [7025](https://tbpro.zendesk.com/agent/tickets/7025) · 2026-08-02T17:01 · tHUNDERBIRD FOR aNDROID
-- · [7249](https://tbpro.zendesk.com/agent/tickets/7249) · 2026-08-02T19:44 · I can't receive mail sent to a custom domain
-- · [7072](https://tbpro.zendesk.com/agent/tickets/7072) · 2026-08-02T19:50 · wont able to create an account
+- · [7238](https://tbpro.zendesk.com/agent/tickets/7238) · 2026-08-02T21:01 · help me
+- · [7230](https://tbpro.zendesk.com/agent/tickets/7230) · 2026-08-02T22:01 · Contacts on smartphone Android
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
