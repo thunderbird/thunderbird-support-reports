@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-02
 
-_Updated: **2026-08-02 19:29 ET** · refreshes hourly_  
+_Updated: **2026-08-02 20:54 ET** · refreshes hourly_  
 _24h window: 2026-08-01T16:00 → 2026-08-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 42** of rollout — **6,500 invitees**, **318 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (23 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 66
-- **Median AHT**: 131.0h · mean 163.8h (proxy: updated_at − created_at, 216 solved tickets)
+- **Median AHT**: 131.2h · mean 164.0h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -101,17 +101,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 216
-- **closed**: 57
-- **pending**: 21
-- **open**: 11
+- **solved**: 215
+- **closed**: 58
+- **pending**: 23
+- **open**: 10
 - **hold**: 9
-- **new**: 4
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 146
-- **Thundermail**: 141
+- **Account Hub**: 147
+- **Thundermail**: 140
 - **Appointment**: 12
 - **Send**: 10
 
@@ -120,7 +120,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 74
-- **blocked** + **explained**: 54
+- **blocked** + **explained**: 55
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
 - **blocked** + **escalated**: 16
@@ -138,7 +138,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
-- **confused** + **investigated**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **curious** + **actioned**: 1
@@ -147,6 +146,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
+- **confused** + **investigated**: 1
 - **other** + **n/a**: 1
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
