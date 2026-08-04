@@ -1,15 +1,15 @@
-# Thundermail — Flight 3 Live Report · 2026-08-03
+# Thundermail — Flight 3 Live Report · 2026-08-04
 
-_Updated: **2026-08-03 23:13 ET** · refreshes hourly_  
-_24h window: 2026-08-02T16:00 → 2026-08-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-04 01:14 ET** · refreshes hourly_  
+_24h window: 2026-08-03T16:00 → 2026-08-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 43** of rollout — **6,500 invitees**, **320 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 44** of rollout — **6,500 invitees**, **320 tickets** so far (4.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **320** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (21 good / 0 bad)
@@ -153,31 +153,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing — wanted free / monthly plan — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#7383](https://tbpro.zendesk.com/agent/tickets/7383)** · I can’t seem to set up my account — why: **curious** · how: **explained**
-  > I need help setting up my account I’m looking for your email Service i’m a professional Santa Claus With limited amount of resources Need a free Mail server for now Trying to set…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#7370](https://tbpro.zendesk.com/agent/tickets/7370)** · email not working — why: **blocked** · how: **explained**
-  > i signed up for Thundermail in early July and paid $72 for it. But it's not letting me log in. please help.
+- **[#7396](https://tbpro.zendesk.com/agent/tickets/7396)** · My thindermail email account is gone — why: **curious** · how: **explained**
+  > My [email] is gone. Can you reinstate me, please?
 
 ## New tickets — last 24h
 
-- [7370](https://tbpro.zendesk.com/agent/tickets/7370) · [pending] · 2026-08-02T23:07 · email not working
-- [7383](https://tbpro.zendesk.com/agent/tickets/7383) · [pending] · 2026-08-03T14:43 · I can’t seem to set up my account
+- [7396](https://tbpro.zendesk.com/agent/tickets/7396) · [pending] · 2026-08-04T01:30 · My thindermail email account is gone
 
 ## Solved — last 24h
 
-- · [7238](https://tbpro.zendesk.com/agent/tickets/7238) · 2026-08-02T21:01 · help me
-- · [7230](https://tbpro.zendesk.com/agent/tickets/7230) · 2026-08-02T22:01 · Contacts on smartphone Android
-- · [7258](https://tbpro.zendesk.com/agent/tickets/7258) · 2026-08-03T13:01 · Domain Registration via TB?
-- · [7246](https://tbpro.zendesk.com/agent/tickets/7246) · 2026-08-03T13:31 · Can't use Send or Appointment from Thunderbird
-- · [6578](https://tbpro.zendesk.com/agent/tickets/6578) · 2026-08-03T13:48 · unconscionable ToS and (lack of) Privacy Policy.
-- · [7339](https://tbpro.zendesk.com/agent/tickets/7339) · 2026-08-03T15:00 · subscription
-- · [7173](https://tbpro.zendesk.com/agent/tickets/7173) · 2026-08-03T15:02 · Does not subscribing delete my account?
-- · [6980](https://tbpro.zendesk.com/agent/tickets/6980) · 2026-08-03T16:01 · filelink
+- · [7249](https://tbpro.zendesk.com/agent/tickets/7249) · 2026-08-03T20:01 · I can't receive mail sent to a custom domain
+- · [7207](https://tbpro.zendesk.com/agent/tickets/7207) · 2026-08-03T21:01 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
+- · [7353](https://tbpro.zendesk.com/agent/tickets/7353) · 2026-08-03T21:27 · account access
+- · [7134](https://tbpro.zendesk.com/agent/tickets/7134) · 2026-08-04T01:01 · Aliases
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
