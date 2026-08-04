@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-04
 
-_Updated: **2026-08-04 12:46 ET** · refreshes hourly_  
+_Updated: **2026-08-04 13:45 ET** · refreshes hourly_  
 _24h window: 2026-08-03T16:00 → 2026-08-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 44** of rollout — **6,500 invitees**, **321 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **2** new tickets in last 24h · **8** solved in last 24h
 - **321** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 65
-- **Median AHT**: 131.8h · mean 168.1h (proxy: updated_at − created_at, 216 solved tickets)
+- **Median AHT**: 131.9h · mean 166.1h (proxy: updated_at − created_at, 216 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -99,14 +99,14 @@ _(none in last 24h)_
 
 - **solved**: 216
 - **closed**: 65
-- **pending**: 22
-- **hold**: 11
+- **pending**: 23
+- **hold**: 10
 - **open**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 151
-- **Thundermail**: 139
+- **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
 
@@ -124,12 +124,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
 - **blocked** + **—**: 4
-- **curious** + **informed**: 3
+- **blocked** + **redirected**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
+- **curious** + **informed**: 3
 - **request** + **actioned**: 3
 - **curious** + **redirected**: 2
-- **blocked** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
@@ -154,9 +154,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
 
-- **[#7410](https://tbpro.zendesk.com/agent/tickets/7410)** · backup
+- **[#7410](https://tbpro.zendesk.com/agent/tickets/7410)** · backup — why: **blocked** · how: **redirected**
   > I want to export/print/backup contents of one folder, but can't find a way.
 
 ### Early bird signup — 1 tickets
@@ -167,7 +167,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7396](https://tbpro.zendesk.com/agent/tickets/7396) · [pending] · 2026-08-04T01:30 · My thindermail email account is gone
-- [7410](https://tbpro.zendesk.com/agent/tickets/7410) · [open] · 2026-08-04T16:06 · backup
+- [7410](https://tbpro.zendesk.com/agent/tickets/7410) · [pending] · 2026-08-04T16:06 · backup
 
 ## Solved — last 24h
 
@@ -177,7 +177,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7134](https://tbpro.zendesk.com/agent/tickets/7134) · 2026-08-04T01:01 · Aliases
 - · [7170](https://tbpro.zendesk.com/agent/tickets/7170) · 2026-08-04T13:01 · How to setUp thundermail with my own domain 
 - 👍 [7339](https://tbpro.zendesk.com/agent/tickets/7339) · 2026-08-04T16:38 · subscription
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-04T16:40 · Add OAuth for Thundermail to FairEmail
+- · [7263](https://tbpro.zendesk.com/agent/tickets/7263) · 2026-08-04T17:02 · PTR/HELO mismatch
+- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-08-04T17:20 · Appointment & Send
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
