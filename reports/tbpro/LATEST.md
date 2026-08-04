@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-04
 
-_Updated: **2026-08-04 18:32 ET** · refreshes hourly_  
+_Updated: **2026-08-04 19:30 ET** · refreshes hourly_  
 _24h window: 2026-08-03T16:00 → 2026-08-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 44** of rollout — **6,500 invitees**, **322 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 44** of rollout — **6,500 invitees**, **323 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **2** new tickets in last 24h · **8** solved in last 24h
-- **322** tickets total since launch · contact rate **5%** of 6500 invitees
+- **323** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 65
@@ -99,14 +99,15 @@ _(none in last 24h)_
 
 - **solved**: 218
 - **closed**: 66
-- **pending**: 27
+- **pending**: 26
 - **hold**: 7
-- **open**: 4
+- **open**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 152
-- **Thundermail**: 138
+- **Thundermail**: 139
 - **Appointment**: 12
 - **Send**: 10
 
@@ -118,8 +119,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 58
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
-- **blocked** + **investigated**: 16
 - **blocked** + **escalated**: 16
+- **blocked** + **investigated**: 16
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
