@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-04
 
-_Updated: **2026-08-04 16:39 ET** · refreshes hourly_  
+_Updated: **2026-08-04 17:36 ET** · refreshes hourly_  
 _24h window: 2026-08-03T16:00 → 2026-08-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 44** of rollout — **6,500 invitees**, **322 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 65
-- **Median AHT**: 131.9h · mean 167.3h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 132.0h · mean 169.9h (proxy: updated_at − created_at, 218 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -92,21 +92,20 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Better defaulting of "From" address](https://ideas.tb.pro/p/better-defaulting-of-from-address) · 1 votes · _Thundermail, Community, New Feature_
+- [Better defaulting of "From" address](https://ideas.tb.pro/p/better-defaulting-of-from-address) · 2 votes · _Thundermail, Community, New Feature_
   > What you’d like to seeBriefly describe the feature or improvement.When replying to a message, the “From” address should be defaulted to the receiving “To” (or “cc”) address where possible.Why it…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 217
-- **closed**: 65
-- **pending**: 23
-- **hold**: 10
+- **solved**: 218
+- **closed**: 66
+- **pending**: 25
+- **hold**: 7
 - **open**: 6
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 151
+- **Account Hub**: 152
 - **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
@@ -115,7 +114,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 77
+- **curious** + **explained**: 78
 - **blocked** + **explained**: 58
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 26
@@ -125,9 +124,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
 - **blocked** + **—**: 4
+- **concerned** + **investigated**: 3
 - **blocked** + **redirected**: 3
 - **request** + **explained**: 3
-- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **request** + **actioned**: 3
 - **curious** + **redirected**: 2
