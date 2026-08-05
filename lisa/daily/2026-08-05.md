@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 08:46 ET** · refreshes hourly_  
+_Updated: **2026-08-05 09:46 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
+- **3** new tickets in last 24h · **5** solved in last 24h
 - **324** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 131.9h · mean 165.5h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 131.8h · mean 164.8h (proxy: updated_at − created_at, 217 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,16 +96,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
+- **solved**: 217
 - **closed**: 68
-- **pending**: 22
-- **open**: 12
+- **pending**: 21
+- **open**: 11
 - **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 153
-- **Thundermail**: 139
+- **Account Hub**: 154
+- **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
 
@@ -122,12 +122,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
+- **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **concerned** + **investigated**: 3
 - **blocked** + **redirected**: 3
 - **request** + **explained**: 3
 - **curious** + **informed**: 3
-- **request** + **actioned**: 3
 - **curious** + **redirected**: 2
 - **blocked** + **n/a**: 2
 - **change request** + **escalated**: 2
@@ -153,15 +153,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
-
-- **[#7434](https://tbpro.zendesk.com/agent/tickets/7434)** · Update Recovery email
-  > How can I update see and update my recovery email ID?
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7430](https://tbpro.zendesk.com/agent/tickets/7430)** · DNS for custom domain
   > Your SRV records point to [domain], but this hostname is a CNAME. EasyDNS rejects SRV targets that are CNAMEs. Can you provide the canonical hostname to use as SRV target?
+
+### Account access issues — account recovery — 1 tickets
+
+- **[#7434](https://tbpro.zendesk.com/agent/tickets/7434)** · Update Recovery email — why: **request** · how: **actioned**
+  > How can I update see and update my recovery email ID?
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
@@ -172,13 +172,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [open] · 2026-08-04T22:47 · DNS for custom domain
-- [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [open] · 2026-08-05T03:14 · Update Recovery email
+- [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
 
 ## Solved — last 24h
 
 - · [7132](https://tbpro.zendesk.com/agent/tickets/7132) · 2026-08-04T20:02 · Unable to sign up
 - · [7284](https://tbpro.zendesk.com/agent/tickets/7284) · 2026-08-04T21:02 · Appointment availability time format does not comply my time format preferences
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-04T21:13 · Add OAuth for Thundermail to FairEmail
+- · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-05T13:09 · Bad Request (400) error Brave browser 
+- · [7353](https://tbpro.zendesk.com/agent/tickets/7353) · 2026-08-05T13:13 · account access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
