@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 17:35 ET** · refreshes hourly_  
+_Updated: **2026-08-05 18:32 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
+- **5** new tickets in last 24h · **6** solved in last 24h
 - **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
@@ -99,9 +99,9 @@ _No negative ratings since launch._
 
 - **solved**: 215
 - **closed**: 73
-- **pending**: 27
+- **pending**: 28
 - **hold**: 7
-- **open**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -185,7 +185,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [pending] · 2026-08-04T22:47 · DNS for custom domain
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
 - [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [pending] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
-- [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [open] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
+- [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [pending] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
 
 ## Solved — last 24h
 
@@ -195,7 +195,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7353](https://tbpro.zendesk.com/agent/tickets/7353) · 2026-08-05T13:13 · account access
 - · [7138](https://tbpro.zendesk.com/agent/tickets/7138) · 2026-08-05T15:02 · I just signed up, question about longevity of thundermail?
 - · [7324](https://tbpro.zendesk.com/agent/tickets/7324) · 2026-08-05T19:01 · change recovery email
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-05T19:27 · Add OAuth for Thundermail to FairEmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
