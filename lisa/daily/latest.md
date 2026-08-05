@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 14:42 ET** · refreshes hourly_  
+_Updated: **2026-08-05 15:43 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
-- **324** tickets total since launch · contact rate **5%** of 6500 invitees
+- **5** new tickets in last 24h · **7** solved in last 24h
+- **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (21 good / 0 bad)
+- **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 131.8h · mean 165.3h (proxy: updated_at − created_at, 215 solved tickets)
+- **Median AHT**: 132.0h · mean 165.9h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -26,7 +26,7 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
 - 4 incident(s):
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [closed] · 2026-06-30 · _Signup Issue_
-  - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
+  - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [closed] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [closed] · 2026-07-07 · _Stuck at email verifcation_
   - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [solved] · 2026-07-14 · _No confirmation email received on signup._
 
@@ -96,16 +96,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 215
-- **closed**: 71
-- **pending**: 26
+- **solved**: 214
+- **closed**: 73
+- **pending**: 24
 - **hold**: 7
-- **open**: 5
+- **open**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 138
+- **Thundermail**: 139
 - **Appointment**: 12
 - **Send**: 10
 
@@ -124,9 +125,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
+- **concerned** + **investigated**: 3
 - **blocked** + **redirected**: 3
 - **request** + **explained**: 3
-- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **curious** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -153,6 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 1 tickets
+
+- **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book
+  > I just set up my Thundermail account subscription. Everything is working well except for the address book sync. This is working using DAVx5 on Android, but my Thunderbird desktop…
+
 ### Aliases — 1 tickets
 
 - **[#7458](https://tbpro.zendesk.com/agent/tickets/7458)** · Unable to send email using alias service [domain]
@@ -178,7 +184,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [pending] · 2026-08-04T22:47 · DNS for custom domain
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
-- [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [open] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
+- [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [pending] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
+- [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [new] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
 
 ## Solved — last 24h
 
@@ -187,7 +194,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-05T13:09 · Bad Request (400) error Brave browser 
 - · [7353](https://tbpro.zendesk.com/agent/tickets/7353) · 2026-08-05T13:13 · account access
 - · [7138](https://tbpro.zendesk.com/agent/tickets/7138) · 2026-08-05T15:02 · I just signed up, question about longevity of thundermail?
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-05T16:10 · Add OAuth for Thundermail to FairEmail
+- · [7324](https://tbpro.zendesk.com/agent/tickets/7324) · 2026-08-05T19:01 · change recovery email
+- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-05T19:27 · Add OAuth for Thundermail to FairEmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
