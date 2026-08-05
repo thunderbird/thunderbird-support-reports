@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-04
+# Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-04 23:13 ET** · refreshes hourly_  
-_24h window: 2026-08-03T16:00 → 2026-08-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-05 01:14 ET** · refreshes hourly_  
+_24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 44** of rollout — **6,500 invitees**, **323 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
-- **323** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **3** new tickets in last 24h · **3** solved in last 24h
+- **324** tickets total since launch · contact rate **5%** of 6500 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 65
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
 - **Median AHT**: 132.1h · mean 170.5h (proxy: updated_at − created_at, 217 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
@@ -90,10 +90,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Better defaulting of "From" address](https://ideas.tb.pro/p/better-defaulting-of-from-address) · 2 votes · _Thundermail, Community, New Feature_
-  > What you’d like to seeBriefly describe the feature or improvement.When replying to a message, the “From” address should be defaulted to the receiving “To” (or “cc”) address where possible.Why it…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -102,10 +101,11 @@ _(none in last 24h)_
 - **pending**: 25
 - **open**: 8
 - **hold**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 152
+- **Account Hub**: 153
 - **Thundermail**: 139
 - **Appointment**: 12
 - **Send**: 10
@@ -154,31 +154,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — wrong product, redirected to SUMO — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7410](https://tbpro.zendesk.com/agent/tickets/7410)** · backup — why: **blocked** · how: **redirected**
-  > I want to export/print/backup contents of one folder, but can't find a way.
+- **[#7434](https://tbpro.zendesk.com/agent/tickets/7434)** · Update Recovery email
+  > How can I update see and update my recovery email ID?
 
-### Early bird signup — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#7396](https://tbpro.zendesk.com/agent/tickets/7396)** · My thindermail email account is gone — why: **curious** · how: **explained**
-  > My [email] is gone. Can you reinstate me, please?
+- **[#7430](https://tbpro.zendesk.com/agent/tickets/7430)** · DNS for custom domain
+  > Your SRV records point to [domain], but this hostname is a CNAME. EasyDNS rejects SRV targets that are CNAMEs. Can you provide the canonical hostname to use as SRV target?
+
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#7423](https://tbpro.zendesk.com/agent/tickets/7423)** · Trial account for tests possible — why: **curious** · how: **explained**
+  > Hi as early-bird tester of Thundermail, is it possible to get a trial account for a.e. 3 days to check UI and maybe some dedicated functionality instead of paying nearly 60 CHF…
 
 ## New tickets — last 24h
 
-- [7396](https://tbpro.zendesk.com/agent/tickets/7396) · [pending] · 2026-08-04T01:30 · My thindermail email account is gone
-- [7410](https://tbpro.zendesk.com/agent/tickets/7410) · [pending] · 2026-08-04T16:06 · backup
+- [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
+- [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [open] · 2026-08-04T22:47 · DNS for custom domain
+- [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [new] · 2026-08-05T03:14 · Update Recovery email
 
 ## Solved — last 24h
 
-- · [7249](https://tbpro.zendesk.com/agent/tickets/7249) · 2026-08-03T20:01 · I can't receive mail sent to a custom domain
-- · [7207](https://tbpro.zendesk.com/agent/tickets/7207) · 2026-08-03T21:01 · Error during jmap push "You have exceeded the blob upload quota of 1000 files or [number] bytes". Pl
-- · [7134](https://tbpro.zendesk.com/agent/tickets/7134) · 2026-08-04T01:01 · Aliases
-- · [7170](https://tbpro.zendesk.com/agent/tickets/7170) · 2026-08-04T13:01 · How to setUp thundermail with my own domain 
-- 👍 [7339](https://tbpro.zendesk.com/agent/tickets/7339) · 2026-08-04T16:38 · subscription
-- · [7263](https://tbpro.zendesk.com/agent/tickets/7263) · 2026-08-04T17:02 · PTR/HELO mismatch
-- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-08-04T17:20 · Appointment & Send
-- · [7065](https://tbpro.zendesk.com/agent/tickets/7065) · 2026-08-04T18:02 · Unable to access through Thunderbird application on PC
+- · [7132](https://tbpro.zendesk.com/agent/tickets/7132) · 2026-08-04T20:02 · Unable to sign up
+- · [7284](https://tbpro.zendesk.com/agent/tickets/7284) · 2026-08-04T21:02 · Appointment availability time format does not comply my time format preferences
+- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-04T21:13 · Add OAuth for Thundermail to FairEmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
