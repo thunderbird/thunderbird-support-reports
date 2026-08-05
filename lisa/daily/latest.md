@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 15:43 ET** · refreshes hourly_  
+_Updated: **2026-08-05 16:38 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 45** of rollout — **6,500 invitees**, **326 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
-- **325** tickets total since launch · contact rate **5%** of 6500 invitees
+- **6** new tickets in last 24h · **7** solved in last 24h
+- **326** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
@@ -84,9 +84,10 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7472](https://tbpro.zendesk.com/agent/tickets/7472) · [pending] · _Thundermail Refund_
+  > This is Monica from the Thundermail support team, and I just wanted to check in about your Thundermail subscription! One of our Finance team got in touch with the support team about a charge back you made on Paddle.…
 
 ## New ideas on FeatureOS
 
@@ -98,15 +99,15 @@ _(none in last 24h)_
 
 - **solved**: 214
 - **closed**: 73
-- **pending**: 24
+- **pending**: 26
 - **hold**: 7
-- **open**: 6
-- **new**: 1
+- **open**: 4
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 139
+- **Thundermail**: 140
 - **Appointment**: 12
 - **Send**: 10
 
@@ -154,6 +155,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7469](https://tbpro.zendesk.com/agent/tickets/7469)** · update payment information 
+  > Hello, I am helping our client, James Glover, with his debit card at the bank. He has a new debit card and would like to update his reoccuring payment information. Please let us…
+
 ### Webmail — 1 tickets
 
 - **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book
@@ -186,6 +192,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
 - [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [pending] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
 - [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [new] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
+- [7469](https://tbpro.zendesk.com/agent/tickets/7469) · [new] · 2026-08-05T19:50 · update payment information 
 
 ## Solved — last 24h
 
