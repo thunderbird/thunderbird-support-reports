@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 16:38 ET** · refreshes hourly_  
+_Updated: **2026-08-05 17:35 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 45** of rollout — **6,500 invitees**, **326 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **7** solved in last 24h
-- **326** tickets total since launch · contact rate **5%** of 6500 invitees
+- **5** new tickets in last 24h · **7** solved in last 24h
+- **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 132.0h · mean 165.9h (proxy: updated_at − created_at, 214 solved tickets)
+- **Median AHT**: 132.1h · mean 166.4h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -97,17 +97,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 214
+- **solved**: 215
 - **closed**: 73
-- **pending**: 26
+- **pending**: 27
 - **hold**: 7
-- **open**: 4
-- **new**: 2
+- **open**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 140
+- **Thundermail**: 139
 - **Appointment**: 12
 - **Send**: 10
 
@@ -116,7 +115,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 78
-- **blocked** + **explained**: 59
+- **blocked** + **explained**: 60
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 25
 - **blocked** + **investigated**: 16
@@ -126,9 +125,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
-- **concerned** + **investigated**: 3
 - **blocked** + **redirected**: 3
 - **request** + **explained**: 3
+- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **curious** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -155,14 +154,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#7469](https://tbpro.zendesk.com/agent/tickets/7469)** · update payment information 
-  > Hello, I am helping our client, James Glover, with his debit card at the bank. He has a new debit card and would like to update his reoccuring payment information. Please let us…
-
 ### Webmail — 1 tickets
 
-- **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book
+- **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book — why: **blocked** · how: **explained**
   > I just set up my Thundermail account subscription. Everything is working well except for the address book sync. This is working using DAVx5 on Android, but my Thunderbird desktop…
 
 ### Aliases — 1 tickets
@@ -191,8 +185,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [pending] · 2026-08-04T22:47 · DNS for custom domain
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
 - [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [pending] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
-- [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [new] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
-- [7469](https://tbpro.zendesk.com/agent/tickets/7469) · [new] · 2026-08-05T19:50 · update payment information 
+- [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [open] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
 
 ## Solved — last 24h
 
