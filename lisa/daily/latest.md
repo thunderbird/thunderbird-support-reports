@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 13:43 ET** · refreshes hourly_  
+_Updated: **2026-08-05 14:42 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -98,9 +98,9 @@ _(none in last 24h)_
 
 - **solved**: 215
 - **closed**: 71
-- **pending**: 25
+- **pending**: 26
 - **hold**: 7
-- **open**: 6
+- **open**: 5
 
 ## Service (cumulative)
 
