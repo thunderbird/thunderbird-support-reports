@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 07:48 ET** · refreshes hourly_  
+_Updated: **2026-08-05 08:46 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -99,9 +99,8 @@ _(none in last 24h)_
 - **solved**: 215
 - **closed**: 68
 - **pending**: 22
-- **open**: 11
+- **open**: 12
 - **hold**: 7
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -173,7 +172,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [open] · 2026-08-04T22:47 · DNS for custom domain
-- [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [new] · 2026-08-05T03:14 · Update Recovery email
+- [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [open] · 2026-08-05T03:14 · Update Recovery email
 
 ## Solved — last 24h
 
