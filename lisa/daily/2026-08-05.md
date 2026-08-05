@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 03:05 ET** · refreshes hourly_  
+_Updated: **2026-08-05 04:03 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 132.1h · mean 170.5h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 132.0h · mean 168.3h (proxy: updated_at − created_at, 216 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -69,7 +69,7 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
 - 2 incident(s):
   - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [closed] · 2026-06-24 · _Squarespace Custom Domain_
-  - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [solved] · 2026-07-01 · _Namecheap Custom Domains_
+  - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [closed] · 2026-07-01 · _Namecheap Custom Domains_
 
 ## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
 
@@ -96,8 +96,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 217
-- **closed**: 66
+- **solved**: 216
+- **closed**: 67
 - **pending**: 25
 - **open**: 8
 - **hold**: 7
