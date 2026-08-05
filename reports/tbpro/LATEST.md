@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 10:58 ET** · refreshes hourly_  
+_Updated: **2026-08-05 11:50 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **5** solved in last 24h
-- **324** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **6** solved in last 24h
+- **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (22 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 131.8h · mean 164.8h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 131.9h · mean 165.3h (proxy: updated_at − created_at, 218 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,16 +96,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 217
+- **solved**: 218
 - **closed**: 68
-- **pending**: 22
+- **pending**: 21
 - **open**: 10
 - **hold**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 138
+- **Thundermail**: 139
 - **Appointment**: 12
 - **Send**: 10
 
@@ -153,6 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#7458](https://tbpro.zendesk.com/agent/tickets/7458)** · Unable to send email using alias service [domain]
+  > Hi there, For some reason I am unable to send or respond to emails using my alias service [domain]. I am not getting any bounce backs or errors. Additionally [domain] support…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7430](https://tbpro.zendesk.com/agent/tickets/7430)** · DNS for custom domain
@@ -173,6 +179,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [open] · 2026-08-04T22:47 · DNS for custom domain
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
+- [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [new] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
 
 ## Solved — last 24h
 
@@ -181,6 +188,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-04T21:13 · Add OAuth for Thundermail to FairEmail
 - · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-05T13:09 · Bad Request (400) error Brave browser 
 - · [7353](https://tbpro.zendesk.com/agent/tickets/7353) · 2026-08-05T13:13 · account access
+- · [7138](https://tbpro.zendesk.com/agent/tickets/7138) · 2026-08-05T15:02 · I just signed up, question about longevity of thundermail?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
