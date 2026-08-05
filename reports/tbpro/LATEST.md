@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 12:44 ET** · refreshes hourly_  
+_Updated: **2026-08-05 13:43 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 45** of rollout — **6,500 invitees**, **324 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **4** new tickets in last 24h · **6** solved in last 24h
-- **325** tickets total since launch · contact rate **5%** of 6500 invitees
+- **324** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (21 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 131.8h · mean 165.2h (proxy: updated_at − created_at, 217 solved tickets)
+- **Median AHT**: 131.8h · mean 165.3h (proxy: updated_at − created_at, 215 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -27,7 +27,7 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far
 - 4 incident(s):
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [closed] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [solved] · 2026-07-07 · _no confirmation email_
-  - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [solved] · 2026-07-07 · _Stuck at email verifcation_
+  - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [closed] · 2026-07-07 · _Stuck at email verifcation_
   - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [solved] · 2026-07-14 · _No confirmation email received on signup._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
@@ -96,16 +96,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 217
-- **closed**: 69
-- **pending**: 21
-- **open**: 11
+- **solved**: 215
+- **closed**: 71
+- **pending**: 25
 - **hold**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 139
+- **Thundermail**: 138
 - **Appointment**: 12
 - **Send**: 10
 
@@ -114,9 +114,9 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 78
-- **blocked** + **explained**: 58
+- **blocked** + **explained**: 59
 - **change request** + **actioned**: 34
-- **request** + **redirected**: 26
+- **request** + **redirected**: 25
 - **blocked** + **investigated**: 16
 - **blocked** + **escalated**: 16
 - **confused** + **explained**: 11
@@ -124,9 +124,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
-- **concerned** + **investigated**: 3
 - **blocked** + **redirected**: 3
 - **request** + **explained**: 3
+- **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
 - **curious** + **redirected**: 2
 - **blocked** + **n/a**: 2
@@ -158,15 +158,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7458](https://tbpro.zendesk.com/agent/tickets/7458)** · Unable to send email using alias service [domain]
   > Hi there, For some reason I am unable to send or respond to emails using my alias service [domain]. I am not getting any bounce backs or errors. Additionally [domain] support…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7430](https://tbpro.zendesk.com/agent/tickets/7430)** · DNS for custom domain
-  > Your SRV records point to [domain], but this hostname is a CNAME. EasyDNS rejects SRV targets that are CNAMEs. Can you provide the canonical hostname to use as SRV target?
-
 ### Account access issues — account recovery — 1 tickets
 
 - **[#7434](https://tbpro.zendesk.com/agent/tickets/7434)** · Update Recovery email — why: **request** · how: **actioned**
   > How can I update see and update my recovery email ID?
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7430](https://tbpro.zendesk.com/agent/tickets/7430)** · DNS for custom domain — why: **blocked** · how: **explained**
+  > Your SRV records point to [domain], but this hostname is a CNAME. EasyDNS rejects SRV targets that are CNAMEs. Can you provide the canonical hostname to use as SRV target?
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
@@ -176,7 +176,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
-- [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [open] · 2026-08-04T22:47 · DNS for custom domain
+- [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [pending] · 2026-08-04T22:47 · DNS for custom domain
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
 - [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [open] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
 
