@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-06
 
-_Updated: **2026-08-06 09:46 ET** · refreshes hourly_  
+_Updated: **2026-08-06 10:57 ET** · refreshes hourly_  
 _24h window: 2026-08-05T16:00 → 2026-08-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far
 
 ## At a glance
 
-- **0** new tickets in last 24h · **5** solved in last 24h
+- **0** new tickets in last 24h · **6** solved in last 24h
 - **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 132.3h · mean 166.5h (proxy: updated_at − created_at, 218 solved tickets)
+- **Median AHT**: 132.3h · mean 166.7h (proxy: updated_at − created_at, 218 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -98,9 +98,9 @@ _(none in last 24h)_
 
 - **solved**: 218
 - **closed**: 73
-- **pending**: 25
+- **pending**: 24
 - **hold**: 7
-- **open**: 2
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -166,6 +166,7 @@ _(none)_
 - · [7040](https://tbpro.zendesk.com/agent/tickets/7040) · 2026-08-06T04:01 · Authenticate new thundermail account in thunderbird
 - · [7458](https://tbpro.zendesk.com/agent/tickets/7458) · 2026-08-06T06:28 · Unable to send email using alias service [domain]
 - · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-06T10:49 · Add OAuth for Thundermail to FairEmail
+- · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-06T14:02 · Bad Request (400) error Brave browser 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
