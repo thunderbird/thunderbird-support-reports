@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-05
 
-_Updated: **2026-08-05 19:29 ET** · refreshes hourly_  
+_Updated: **2026-08-05 20:45 ET** · refreshes hourly_  
 _24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -99,9 +99,9 @@ _No negative ratings since launch._
 
 - **solved**: 216
 - **closed**: 73
-- **pending**: 27
+- **pending**: 26
 - **hold**: 7
-- **open**: 2
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -154,15 +154,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 1 tickets
-
-- **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book — why: **blocked** · how: **explained**
-  > I just set up my Thundermail account subscription. Everything is working well except for the address book sync. This is working using DAVx5 on Android, but my Thunderbird desktop…
-
 ### Aliases — 1 tickets
 
 - **[#7458](https://tbpro.zendesk.com/agent/tickets/7458)** · Unable to send email using alias service [domain]
   > Hi there, For some reason I am unable to send or respond to emails using my alias service [domain]. I am not getting any bounce backs or errors. Additionally [domain] support…
+
+### Webmail — 1 tickets
+
+- **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book — why: **blocked** · how: **explained**
+  > I just set up my Thundermail account subscription. Everything is working well except for the address book sync. This is working using DAVx5 on Android, but my Thunderbird desktop…
 
 ### Account access issues — account recovery — 1 tickets
 
@@ -184,7 +184,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
 - [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [pending] · 2026-08-04T22:47 · DNS for custom domain
 - [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
-- [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [pending] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
+- [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [open] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
 - [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [pending] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
 
 ## Solved — last 24h
