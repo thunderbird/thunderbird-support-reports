@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-06
 
-_Updated: **2026-08-06 06:06 ET** · refreshes hourly_  
+_Updated: **2026-08-06 07:03 ET** · refreshes hourly_  
 _24h window: 2026-08-05T16:00 → 2026-08-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -162,10 +162,10 @@ _(none)_
 ## Solved — last 24h
 
 - · [7151](https://tbpro.zendesk.com/agent/tickets/7151) · 2026-08-05T20:56 · Delayed emails appearing in my client
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-05T22:29 · Add OAuth for Thundermail to FairEmail
 - · [7323](https://tbpro.zendesk.com/agent/tickets/7323) · 2026-08-05T23:01 · Custom Domain Issues
 - · [7040](https://tbpro.zendesk.com/agent/tickets/7040) · 2026-08-06T04:01 · Authenticate new thundermail account in thunderbird
 - · [7458](https://tbpro.zendesk.com/agent/tickets/7458) · 2026-08-06T06:28 · Unable to send email using alias service [domain]
+- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-06T10:49 · Add OAuth for Thundermail to FairEmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
