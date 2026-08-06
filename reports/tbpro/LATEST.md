@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-06
 
-_Updated: **2026-08-06 10:57 ET** · refreshes hourly_  
+_Updated: **2026-08-06 18:14 ET** · refreshes hourly_  
 _24h window: 2026-08-05T16:00 → 2026-08-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far
 - **0** new tickets in last 24h · **6** solved in last 24h
 - **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (20 good / 0 bad)
+- **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 132.3h · mean 166.7h (proxy: updated_at − created_at, 218 solved tickets)
+- **Median AHT**: 132.6h · mean 166.7h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -62,7 +62,7 @@ Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
 - 2 incident(s):
-  - [#6654](https://tbpro.zendesk.com/agent/tickets/6654) · [solved] · 2026-07-06 · _Can't add account in Thunderbird_
+  - [#6654](https://tbpro.zendesk.com/agent/tickets/6654) · [closed] · 2026-07-06 · _Can't add account in Thunderbird_
   - [#7000](https://tbpro.zendesk.com/agent/tickets/7000) · [solved] · 2026-07-21 · _Can't login in thunderbird_
 
 ### [#7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?)
@@ -77,16 +77,17 @@ Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far
 - ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
-- 🔧 [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
+- ✅ [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
 - ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
 ## Negative CSAT (since launch)
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7501](https://tbpro.zendesk.com/agent/tickets/7501) · [pending] · _Account Cancellation_
+  > Hi, I see a lot of promise in the Thundermail project, but unfortunately, in my view it still has a long road to go to catch up with other privacy-minded email providers, such as [domain], [domain], even Fastmail or…
 
 ## New ideas on FeatureOS
 
@@ -96,11 +97,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 218
-- **closed**: 73
+- **solved**: 213
+- **closed**: 79
 - **pending**: 24
 - **hold**: 7
-- **open**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -124,8 +125,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
-- **blocked** + **n/a**: 3
 - **blocked** + **redirected**: 3
+- **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
@@ -145,10 +146,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
-- **telling us** + **escalated**: 1
 - **curious** + **escalated**: 1
 - **request** + **informed**: 1
 - **confused** + **escalated**: 1
+- **telling us** + **escalated**: 1
 - **telling us** + **—**: 1
 
 ## Tickets in last 24h — by theme
@@ -161,12 +162,12 @@ _(none)_
 
 ## Solved — last 24h
 
-- · [7151](https://tbpro.zendesk.com/agent/tickets/7151) · 2026-08-05T20:56 · Delayed emails appearing in my client
 - · [7323](https://tbpro.zendesk.com/agent/tickets/7323) · 2026-08-05T23:01 · Custom Domain Issues
 - · [7040](https://tbpro.zendesk.com/agent/tickets/7040) · 2026-08-06T04:01 · Authenticate new thundermail account in thunderbird
 - · [7458](https://tbpro.zendesk.com/agent/tickets/7458) · 2026-08-06T06:28 · Unable to send email using alias service [domain]
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-06T10:49 · Add OAuth for Thundermail to FairEmail
 - · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-06T14:02 · Bad Request (400) error Brave browser 
+- · [7468](https://tbpro.zendesk.com/agent/tickets/7468) · 2026-08-06T16:56 · Contacts not working with Thunderbird address book
+- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-06T18:04 · Add OAuth for Thundermail to FairEmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
