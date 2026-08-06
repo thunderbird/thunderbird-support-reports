@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-05
+# Thundermail — Flight 3 Live Report · 2026-08-06
 
-_Updated: **2026-08-05 23:13 ET** · refreshes hourly_  
-_24h window: 2026-08-04T16:00 → 2026-08-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-06 01:15 ET** · refreshes hourly_  
+_24h window: 2026-08-05T16:00 → 2026-08-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
+- **0** new tickets in last 24h · **4** solved in last 24h
 - **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (20 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 132.3h · mean 166.3h (proxy: updated_at − created_at, 216 solved tickets)
+- **Median AHT**: 132.6h · mean 167.2h (proxy: updated_at − created_at, 217 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -84,10 +84,9 @@ Flight 3 is **day 45** of rollout — **6,500 invitees**, **325 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7472](https://tbpro.zendesk.com/agent/tickets/7472) · [pending] · _Thundermail Refund_
-  > This is Monica from the Thundermail support team, and I just wanted to check in about your Thundermail subscription! One of our Finance team got in touch with the support team about a charge back you made on Paddle.…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -97,9 +96,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 216
+- **solved**: 217
 - **closed**: 73
-- **pending**: 26
+- **pending**: 25
 - **hold**: 7
 - **open**: 3
 
@@ -154,47 +153,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 1 tickets
-
-- **[#7458](https://tbpro.zendesk.com/agent/tickets/7458)** · Unable to send email using alias service [domain]
-  > Hi there, For some reason I am unable to send or respond to emails using my alias service [domain]. I am not getting any bounce backs or errors. Additionally [domain] support…
-
-### Webmail — 1 tickets
-
-- **[#7468](https://tbpro.zendesk.com/agent/tickets/7468)** · Contacts not working with Thunderbird address book — why: **blocked** · how: **explained**
-  > I just set up my Thundermail account subscription. Everything is working well except for the address book sync. This is working using DAVx5 on Android, but my Thunderbird desktop…
-
-### Account access issues — account recovery — 1 tickets
-
-- **[#7434](https://tbpro.zendesk.com/agent/tickets/7434)** · Update Recovery email — why: **request** · how: **actioned**
-  > How can I update see and update my recovery email ID?
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7430](https://tbpro.zendesk.com/agent/tickets/7430)** · DNS for custom domain — why: **blocked** · how: **explained**
-  > Your SRV records point to [domain], but this hostname is a CNAME. EasyDNS rejects SRV targets that are CNAMEs. Can you provide the canonical hostname to use as SRV target?
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#7423](https://tbpro.zendesk.com/agent/tickets/7423)** · Trial account for tests possible — why: **curious** · how: **explained**
-  > Hi as early-bird tester of Thundermail, is it possible to get a trial account for a.e. 3 days to check UI and maybe some dedicated functionality instead of paying nearly 60 CHF…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7423](https://tbpro.zendesk.com/agent/tickets/7423) · [pending] · 2026-08-04T20:43 · Trial account for tests possible
-- [7430](https://tbpro.zendesk.com/agent/tickets/7430) · [pending] · 2026-08-04T22:47 · DNS for custom domain
-- [7434](https://tbpro.zendesk.com/agent/tickets/7434) · [pending] · 2026-08-05T03:14 · Update Recovery email
-- [7458](https://tbpro.zendesk.com/agent/tickets/7458) · [open] · 2026-08-05T15:04 · Unable to send email using alias service [domain]
-- [7468](https://tbpro.zendesk.com/agent/tickets/7468) · [pending] · 2026-08-05T19:38 · Contacts not working with Thunderbird address book
+_(none)_
 
 ## Solved — last 24h
 
-- · [7132](https://tbpro.zendesk.com/agent/tickets/7132) · 2026-08-04T20:02 · Unable to sign up
-- · [7284](https://tbpro.zendesk.com/agent/tickets/7284) · 2026-08-04T21:02 · Appointment availability time format does not comply my time format preferences
-- · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-05T13:09 · Bad Request (400) error Brave browser 
-- · [7353](https://tbpro.zendesk.com/agent/tickets/7353) · 2026-08-05T13:13 · account access
-- · [7138](https://tbpro.zendesk.com/agent/tickets/7138) · 2026-08-05T15:02 · I just signed up, question about longevity of thundermail?
-- · [7324](https://tbpro.zendesk.com/agent/tickets/7324) · 2026-08-05T19:01 · change recovery email
+- · [7151](https://tbpro.zendesk.com/agent/tickets/7151) · 2026-08-05T20:56 · Delayed emails appearing in my client
+- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-05T22:29 · Add OAuth for Thundermail to FairEmail
+- · [7323](https://tbpro.zendesk.com/agent/tickets/7323) · 2026-08-05T23:01 · Custom Domain Issues
+- · [7040](https://tbpro.zendesk.com/agent/tickets/7040) · 2026-08-06T04:01 · Authenticate new thundermail account in thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
