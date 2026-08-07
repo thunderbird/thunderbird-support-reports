@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-07
 
-_Updated: **2026-08-07 12:27 ET** · refreshes hourly_  
+_Updated: **2026-08-07 13:27 ET** · refreshes hourly_  
 _24h window: 2026-08-06T16:00 → 2026-08-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 47** of rollout — **6,500 invitees**, **326 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 47** of rollout — **6,500 invitees**, **327 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **2** solved in last 24h
-- **326** tickets total since launch · contact rate **5%** of 6500 invitees
+- **2** new tickets in last 24h · **3** solved in last 24h
+- **327** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 133.1h · mean 166.9h (proxy: updated_at − created_at, 210 solved tickets)
+- **Median AHT**: 133.1h · mean 167.0h (proxy: updated_at − created_at, 210 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -101,12 +101,12 @@ _(none in last 24h)_
 - **pending**: 24
 - **hold**: 7
 - **open**: 3
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 140
+- **Thundermail**: 141
 - **Appointment**: 12
 - **Send**: 10
 
@@ -154,6 +154,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#7520](https://tbpro.zendesk.com/agent/tickets/7520)** · No Verification Email
+  > Hi there! Excited to be a part of this new service - unfortunately I am not getting the verification emails when I sign up with my new email address [email]. I can get through the…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7519](https://tbpro.zendesk.com/agent/tickets/7519)** · DKIM signatures
@@ -162,11 +167,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7519](https://tbpro.zendesk.com/agent/tickets/7519) · [new] · 2026-08-07T15:04 · DKIM signatures
+- [7520](https://tbpro.zendesk.com/agent/tickets/7520) · [new] · 2026-08-07T16:51 · No Verification Email
 
 ## Solved — last 24h
 
 - · [7151](https://tbpro.zendesk.com/agent/tickets/7151) · 2026-08-06T21:02 · Delayed emails appearing in my client
 - · [7458](https://tbpro.zendesk.com/agent/tickets/7458) · 2026-08-07T07:01 · Unable to send email using alias service [domain]
+- · [7468](https://tbpro.zendesk.com/agent/tickets/7468) · 2026-08-07T17:02 · Contacts not working with Thunderbird address book
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
