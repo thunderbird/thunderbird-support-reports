@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-07
 
-_Updated: **2026-08-07 17:22 ET** · refreshes hourly_  
+_Updated: **2026-08-07 18:19 ET** · refreshes hourly_  
 _24h window: 2026-08-06T16:00 → 2026-08-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -98,9 +98,8 @@ _(none in last 24h)_
 
 - **solved**: 212
 - **closed**: 81
-- **pending**: 25
+- **pending**: 26
 - **hold**: 7
-- **new**: 1
 - **open**: 1
 
 ## Service (cumulative)
@@ -118,8 +117,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 60
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 25
-- **blocked** + **escalated**: 16
 - **blocked** + **investigated**: 16
+- **blocked** + **escalated**: 16
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
@@ -167,7 +166,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7519](https://tbpro.zendesk.com/agent/tickets/7519) · [pending] · 2026-08-07T15:04 · DKIM signatures
-- [7520](https://tbpro.zendesk.com/agent/tickets/7520) · [new] · 2026-08-07T16:51 · No Verification Email
+- [7520](https://tbpro.zendesk.com/agent/tickets/7520) · [open] · 2026-08-07T16:51 · No Verification Email
 
 ## Solved — last 24h
 
