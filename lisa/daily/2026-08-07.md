@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-07
 
-_Updated: **2026-08-07 15:29 ET** · refreshes hourly_  
+_Updated: **2026-08-07 16:21 ET** · refreshes hourly_  
 _24h window: 2026-08-06T16:00 → 2026-08-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 47** of rollout — **6,500 invitees**, **327 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 133.1h · mean 167.0h (proxy: updated_at − created_at, 210 solved tickets)
+- **Median AHT**: 133.6h · mean 166.8h (proxy: updated_at − created_at, 211 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,11 +96,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 210
+- **solved**: 211
 - **closed**: 81
 - **pending**: 26
 - **hold**: 7
-- **new**: 2
+- **new**: 1
 - **open**: 1
 
 ## Service (cumulative)
@@ -166,7 +166,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [7519](https://tbpro.zendesk.com/agent/tickets/7519) · [new] · 2026-08-07T15:04 · DKIM signatures
+- [7519](https://tbpro.zendesk.com/agent/tickets/7519) · [pending] · 2026-08-07T15:04 · DKIM signatures
 - [7520](https://tbpro.zendesk.com/agent/tickets/7520) · [new] · 2026-08-07T16:51 · No Verification Email
 
 ## Solved — last 24h
