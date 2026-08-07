@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-07
 
-_Updated: **2026-08-07 10:30 ET** · refreshes hourly_  
+_Updated: **2026-08-07 11:27 ET** · refreshes hourly_  
 _24h window: 2026-08-06T16:00 → 2026-08-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 47** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 47** of rollout — **6,500 invitees**, **326 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **2** solved in last 24h
-- **325** tickets total since launch · contact rate **5%** of 6500 invitees
+- **1** new tickets in last 24h · **2** solved in last 24h
+- **326** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
@@ -98,14 +98,15 @@ _(none in last 24h)_
 
 - **solved**: 210
 - **closed**: 81
-- **pending**: 24
+- **pending**: 23
 - **hold**: 7
-- **open**: 3
+- **open**: 4
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 139
+- **Thundermail**: 140
 - **Appointment**: 12
 - **Send**: 10
 
@@ -153,11 +154,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7519](https://tbpro.zendesk.com/agent/tickets/7519)** · DKIM signatures
+  > My domain [domain] is receiving two DKIM signatures from your servers. tm1 uses RSA-SHA256 and passes authentication correctly. tm2 uses Ed25519-SHA256, but Google reports…
 
 ## New tickets — last 24h
 
-_(none)_
+- [7519](https://tbpro.zendesk.com/agent/tickets/7519) · [new] · 2026-08-07T15:04 · DKIM signatures
 
 ## Solved — last 24h
 
