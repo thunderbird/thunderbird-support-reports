@@ -1,15 +1,15 @@
-# Thundermail — Flight 3 Live Report · 2026-08-06
+# Thundermail — Flight 3 Live Report · 2026-08-07
 
-_Updated: **2026-08-06 23:12 ET** · refreshes hourly_  
-_24h window: 2026-08-05T16:00 → 2026-08-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-07 00:46 ET** · refreshes hourly_  
+_24h window: 2026-08-06T16:00 → 2026-08-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 47** of rollout — **6,500 invitees**, **325 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **6** solved in last 24h
+- **0** new tickets in last 24h · **1** solved in last 24h
 - **325** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
@@ -84,10 +84,9 @@ Flight 3 is **day 46** of rollout — **6,500 invitees**, **325 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7501](https://tbpro.zendesk.com/agent/tickets/7501) · [pending] · _Account Cancellation_
-  > Hi, I see a lot of promise in the Thundermail project, but unfortunately, in my view it still has a long road to go to catch up with other privacy-minded email providers, such as [domain], [domain], even Fastmail or…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -99,9 +98,9 @@ _No negative ratings since launch._
 
 - **solved**: 212
 - **closed**: 80
-- **pending**: 25
+- **pending**: 24
 - **hold**: 7
-- **open**: 1
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -162,12 +161,7 @@ _(none)_
 
 ## Solved — last 24h
 
-- · [7323](https://tbpro.zendesk.com/agent/tickets/7323) · 2026-08-05T23:01 · Custom Domain Issues
-- · [7040](https://tbpro.zendesk.com/agent/tickets/7040) · 2026-08-06T04:01 · Authenticate new thundermail account in thunderbird
-- · [7458](https://tbpro.zendesk.com/agent/tickets/7458) · 2026-08-06T06:28 · Unable to send email using alias service [domain]
-- · [7350](https://tbpro.zendesk.com/agent/tickets/7350) · 2026-08-06T14:02 · Bad Request (400) error Brave browser 
-- · [7468](https://tbpro.zendesk.com/agent/tickets/7468) · 2026-08-06T16:56 · Contacts not working with Thunderbird address book
-- · [6635](https://tbpro.zendesk.com/agent/tickets/6635) · 2026-08-06T18:04 · Add OAuth for Thundermail to FairEmail
+- · [7151](https://tbpro.zendesk.com/agent/tickets/7151) · 2026-08-06T21:02 · Delayed emails appearing in my client
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
