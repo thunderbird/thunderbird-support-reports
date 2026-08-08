@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-08
 
-_Updated: **2026-08-08 09:28 ET** · refreshes hourly_  
+_Updated: **2026-08-08 10:19 ET** · refreshes hourly_  
 _24h window: 2026-08-07T16:00 → 2026-08-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 48** of rollout — **6,500 invitees**, **328 tickets** so far
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **328** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
-- **Median AHT**: 133.1h · mean 168.5h (proxy: updated_at − created_at, 212 solved tickets)
+- **Median AHT**: 133.6h · mean 168.7h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -96,9 +96,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 212
+- **solved**: 213
 - **closed**: 81
-- **pending**: 24
+- **pending**: 23
 - **hold**: 7
 - **open**: 3
 - **new**: 1
@@ -168,6 +168,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7357](https://tbpro.zendesk.com/agent/tickets/7357) · 2026-08-07T20:02 · No free or Basic version
 - · [7367](https://tbpro.zendesk.com/agent/tickets/7367) · 2026-08-07T21:02 · sign up help
 - · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-08-08T01:01 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
+- · [7326](https://tbpro.zendesk.com/agent/tickets/7326) · 2026-08-08T14:01 · Cannot finalize registration process
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
