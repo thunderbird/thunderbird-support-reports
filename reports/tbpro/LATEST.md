@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-08
 
-_Updated: **2026-08-08 06:17 ET** · refreshes hourly_  
+_Updated: **2026-08-08 07:17 ET** · refreshes hourly_  
 _24h window: 2026-08-07T16:00 → 2026-08-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 48** of rollout — **6,500 invitees**, **327 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 48** of rollout — **6,500 invitees**, **328 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **3** solved in last 24h
-- **327** tickets total since launch · contact rate **5%** of 6500 invitees
+- **1** new tickets in last 24h · **3** solved in last 24h
+- **328** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 65
@@ -101,11 +101,12 @@ _(none in last 24h)_
 - **pending**: 24
 - **hold**: 7
 - **open**: 2
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 154
-- **Thundermail**: 141
+- **Thundermail**: 142
 - **Appointment**: 12
 - **Send**: 10
 
@@ -153,11 +154,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Webmail — 1 tickets
+
+- **[#7529](https://tbpro.zendesk.com/agent/tickets/7529)** · menu overlaps compose window 
+  > UX Feedback, for webmail w latest Firefox on Android. When opening the compose window, the side menu still stays and covers it. Screenshot attached.
 
 ## New tickets — last 24h
 
-_(none)_
+- [7529](https://tbpro.zendesk.com/agent/tickets/7529) · [new] · 2026-08-08T11:01 · menu overlaps compose window 
 
 ## Solved — last 24h
 
