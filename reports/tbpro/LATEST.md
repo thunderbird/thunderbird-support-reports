@@ -1,15 +1,15 @@
-# Thundermail — Flight 3 Live Report · 2026-08-07
+# Thundermail — Flight 3 Live Report · 2026-08-08
 
-_Updated: **2026-08-07 23:40 ET** · refreshes hourly_  
-_24h window: 2026-08-06T16:00 → 2026-08-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-08 00:32 ET** · refreshes hourly_  
+_24h window: 2026-08-07T16:00 → 2026-08-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 47** of rollout — **6,500 invitees**, **327 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 48** of rollout — **6,500 invitees**, **327 tickets** so far (5.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
+- **0** new tickets in last 24h · **3** solved in last 24h
 - **327** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
@@ -153,26 +153,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
-
-- **[#7520](https://tbpro.zendesk.com/agent/tickets/7520)** · No Verification Email
-  > Hi there! Excited to be a part of this new service - unfortunately I am not getting the verification emails when I sign up with my new email address [email]. I can get through the…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7519](https://tbpro.zendesk.com/agent/tickets/7519)** · DKIM signatures
-  > My domain [domain] is receiving two DKIM signatures from your servers. tm1 uses RSA-SHA256 and passes authentication correctly. tm2 uses Ed25519-SHA256, but Google reports…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7519](https://tbpro.zendesk.com/agent/tickets/7519) · [pending] · 2026-08-07T15:04 · DKIM signatures
-- [7520](https://tbpro.zendesk.com/agent/tickets/7520) · [open] · 2026-08-07T16:51 · No Verification Email
+_(none)_
 
 ## Solved — last 24h
 
-- · [7151](https://tbpro.zendesk.com/agent/tickets/7151) · 2026-08-06T21:02 · Delayed emails appearing in my client
-- · [7458](https://tbpro.zendesk.com/agent/tickets/7458) · 2026-08-07T07:01 · Unable to send email using alias service [domain]
-- · [7468](https://tbpro.zendesk.com/agent/tickets/7468) · 2026-08-07T17:02 · Contacts not working with Thunderbird address book
+- · [7357](https://tbpro.zendesk.com/agent/tickets/7357) · 2026-08-07T20:02 · No free or Basic version
+- · [7367](https://tbpro.zendesk.com/agent/tickets/7367) · 2026-08-07T21:02 · sign up help
+- · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-08-08T01:01 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
