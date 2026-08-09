@@ -1,15 +1,15 @@
-# Thundermail — Flight 3 Live Report · 2026-08-08
+# Thundermail — Flight 3 Live Report · 2026-08-09
 
-_Updated: **2026-08-08 23:44 ET** · refreshes hourly_  
-_24h window: 2026-08-07T16:00 → 2026-08-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-09 00:36 ET** · refreshes hourly_  
+_24h window: 2026-08-08T16:00 → 2026-08-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 48** of rollout — **6,500 invitees**, **329 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 49** of rollout — **6,500 invitees**, **329 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **0** new tickets in last 24h · **1** solved in last 24h
 - **329** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
@@ -154,30 +154,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Appointment / calendar — 1 tickets
-
-- **[#7535](https://tbpro.zendesk.com/agent/tickets/7535)** · Card DAV support
-  > I have tried several times to import my Apple Contacts into Thunderbird 153.0.2 (Linux) via CardDAV. It works, but the contact photos dont make it over. Hoping you will fix this…
-
-### Webmail — 1 tickets
-
-- **[#7529](https://tbpro.zendesk.com/agent/tickets/7529)** · menu overlaps compose window 
-  > UX Feedback, for webmail w latest Firefox on Android. When opening the compose window, the side menu still stays and covers it. Screenshot attached.
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7529](https://tbpro.zendesk.com/agent/tickets/7529) · [new] · 2026-08-08T11:01 · menu overlaps compose window 
-- [7535](https://tbpro.zendesk.com/agent/tickets/7535) · [new] · 2026-08-08T14:45 · Card DAV support
+_(none)_
 
 ## Solved — last 24h
 
-- · [7357](https://tbpro.zendesk.com/agent/tickets/7357) · 2026-08-07T20:02 · No free or Basic version
-- · [7367](https://tbpro.zendesk.com/agent/tickets/7367) · 2026-08-07T21:02 · sign up help
-- · [6890](https://tbpro.zendesk.com/agent/tickets/6890) · 2026-08-08T01:01 · forgot full email address, esp domain: it's EcoQuant02090@<<something>>
-- · [7326](https://tbpro.zendesk.com/agent/tickets/7326) · 2026-08-08T14:01 · Cannot finalize registration process
-- · [7370](https://tbpro.zendesk.com/agent/tickets/7370) · 2026-08-08T15:01 · email not working
-- · [7383](https://tbpro.zendesk.com/agent/tickets/7383) · 2026-08-08T17:01 · I can’t seem to set up my account
-- · [7019](https://tbpro.zendesk.com/agent/tickets/7019) · 2026-08-08T17:01 · Thunderbird Pro (addon) Send problems
+- · [7396](https://tbpro.zendesk.com/agent/tickets/7396) · 2026-08-09T03:01 · My thindermail email account is gone
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
