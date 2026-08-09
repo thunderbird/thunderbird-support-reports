@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-09
 
-_Updated: **2026-08-09 13:17 ET** · refreshes hourly_  
+_Updated: **2026-08-09 14:17 ET** · refreshes hourly_  
 _24h window: 2026-08-08T16:00 → 2026-08-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 49** of rollout — **6,500 invitees**, **329 tickets** so far
 
 ## At a glance
 
-- **0** new tickets in last 24h · **2** solved in last 24h
+- **0** new tickets in last 24h · **3** solved in last 24h
 - **329** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
-- **Median AHT**: 134.7h · mean 170.5h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 134.7h · mean 171.7h (proxy: updated_at − created_at, 214 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -97,9 +97,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
+- **solved**: 214
 - **closed**: 86
-- **pending**: 16
+- **pending**: 15
 - **hold**: 7
 - **open**: 5
 - **new**: 2
@@ -165,6 +165,7 @@ _(none)_
 
 - · [7396](https://tbpro.zendesk.com/agent/tickets/7396) · 2026-08-09T03:01 · My thindermail email account is gone
 - · [7354](https://tbpro.zendesk.com/agent/tickets/7354) · 2026-08-09T17:01 · custom email domain won't verify
+- · [7063](https://tbpro.zendesk.com/agent/tickets/7063) · 2026-08-09T18:01 · Questions about Thundermail data handling for EEA customers
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
