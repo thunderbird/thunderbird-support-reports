@@ -1,11 +1,11 @@
-# Thundermail — Flight 3 Live Report · 2026-08-09
+# Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-09 23:45 ET** · refreshes hourly_  
-_24h window: 2026-08-08T16:00 → 2026-08-09T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-10 00:43 ET** · refreshes hourly_  
+_24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 49** of rollout — **6,500 invitees**, **329 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 50** of rollout — **6,500 invitees**, **329 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
@@ -13,7 +13,7 @@ Flight 3 is **day 49** of rollout — **6,500 invitees**, **329 tickets** so far
 - **329** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
 - **Median AHT**: 134.7h · mean 174.4h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
@@ -90,10 +90,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Accessibility Values](https://ideas.tb.pro/p/accessibility-values) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -163,9 +162,9 @@ _(none)_
 
 ## Solved — last 24h
 
-- · [7396](https://tbpro.zendesk.com/agent/tickets/7396) · 2026-08-09T03:01 · My thindermail email account is gone
-- · [7354](https://tbpro.zendesk.com/agent/tickets/7354) · 2026-08-09T17:01 · custom email domain won't verify
-- · [7063](https://tbpro.zendesk.com/agent/tickets/7063) · 2026-08-09T18:01 · Questions about Thundermail data handling for EEA customers
+- · [7423](https://tbpro.zendesk.com/agent/tickets/7423) · 2026-08-09T22:01 · Trial account for tests possible
+- · [7273](https://tbpro.zendesk.com/agent/tickets/7273) · 2026-08-09T22:01 · CalDav/CardDav issue with Sailfish OS
+- · [6828](https://tbpro.zendesk.com/agent/tickets/6828) · 2026-08-09T22:01 · cannot log in
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
