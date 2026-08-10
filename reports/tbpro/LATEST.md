@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 16:22 ET** · refreshes hourly_  
+_Updated: **2026-08-10 17:24 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 50** of rollout — **6,500 invitees**, **335 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 50** of rollout — **6,500 invitees**, **337 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **6** new tickets in last 24h · **6** solved in last 24h
-- **335** tickets total since launch · contact rate **5%** of 6500 invitees
+- **337** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
@@ -91,12 +91,14 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · _Delete Account and Refund Request_
   > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
 - [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · _Refund request_
   > I would like to receive a full refund for my subscription. I find the service still has a lot to improve upon and the price is simply not competitive. I decided to go with a different provider.
+- [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [open] · _Refund and account deletion_
+  > Hi [name] like to request at least a partial refund on the yearly subscription and to close my account.
 
 ## New ideas on FeatureOS
 
@@ -108,14 +110,14 @@ _No negative ratings since launch._
 
 - **solved**: 212
 - **closed**: 94
-- **open**: 11
+- **open**: 13
 - **hold**: 9
 - **pending**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 158
-- **Thundermail**: 145
+- **Account Hub**: 159
+- **Thundermail**: 146
 - **Appointment**: 12
 - **Send**: 10
 
