@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 11:30 ET** · refreshes hourly_  
+_Updated: **2026-08-10 12:26 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -15,6 +15,12 @@ Flight 3 is **day 50** of rollout — **6,500 invitees**, **332 tickets** so far
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
 - **Median AHT**: 134.7h · mean 174.4h (proxy: updated_at − created_at, 214 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"refund request"** — 2 tickets in 24h (14.0× baseline; baseline 7 cum) — [#7558](https://tbpro.zendesk.com/agent/tickets/7558), [#7572](https://tbpro.zendesk.com/agent/tickets/7572)
 
 ## Known problems — 6 problem(s), 33 incident(s)
 
@@ -85,10 +91,12 @@ Flight 3 is **day 50** of rollout — **6,500 invitees**, **332 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · _Delete Account and Refund Request_
   > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
+- [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · _Refund request_
+  > I would like to receive a full refund for my subscription. I find the service still has a lot to improve upon and the price is simply not competitive. I decided to go with a different provider.
 
 ## New ideas on FeatureOS
 
@@ -100,14 +108,13 @@ _No negative ratings since launch._
 
 - **solved**: 214
 - **closed**: 91
+- **pending**: 10
 - **open**: 9
-- **pending**: 9
 - **hold**: 8
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 156
+- **Account Hub**: 157
 - **Thundermail**: 143
 - **Appointment**: 12
 - **Send**: 10
@@ -156,15 +163,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7572](https://tbpro.zendesk.com/agent/tickets/7572)** · Refund request
+  > I would like to receive a full refund for my subscription. I find the service still has a lot to improve upon and the price is simply not competitive. I decided to go with a…
+
 ### Aliases — 1 tickets
 
 - **[#7569](https://tbpro.zendesk.com/agent/tickets/7569)** · DNS records slow to update
   > Greetings, I don't seem to be able to create a custom domain email alias before my domain's DNS records are verified through Thundermail's accounts hub. Since it takes time to…
-
-### App setup / configuration — 1 tickets
-
-- **[#7564](https://tbpro.zendesk.com/agent/tickets/7564)** · Karin Henn Kaiserslautern
-  > Sehr geehrte Damen und Herren, ich habe meine Passwörter bei [domain] und bei Gmail.com geändert und bei thunderbird jeweils eine Email Adresse . Seit Änderung der Passwörter kann…
 
 ### Refund / Cancel — 1 tickets
 
@@ -174,8 +181,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · 2026-08-10T04:44 · Delete Account and Refund Request
-- [7564](https://tbpro.zendesk.com/agent/tickets/7564) · [open] · 2026-08-10T12:34 · Karin Henn Kaiserslautern
-- [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [new] · 2026-08-10T14:57 · DNS records slow to update
+- [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [open] · 2026-08-10T14:57 · DNS records slow to update
+- [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · 2026-08-10T16:13 · Refund request
 
 ## Solved — last 24h
 
