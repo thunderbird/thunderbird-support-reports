@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 13:28 ET** · refreshes hourly_  
+_Updated: **2026-08-10 14:27 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 50** of rollout — **6,500 invitees**, **332 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 50** of rollout — **6,500 invitees**, **333 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **5** solved in last 24h
-- **332** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **6** solved in last 24h
+- **333** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 134.7h · mean 173.1h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 134.9h · mean 175.0h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -106,16 +106,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
-- **closed**: 92
-- **pending**: 11
+- **solved**: 212
+- **closed**: 94
+- **pending**: 10
 - **open**: 8
 - **hold**: 8
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 157
-- **Thundermail**: 143
+- **Thundermail**: 144
 - **Appointment**: 12
 - **Send**: 10
 
@@ -163,6 +164,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7575](https://tbpro.zendesk.com/agent/tickets/7575)** · Unable to complete my Signup anymore!
+  > I got my ThunderMail invite, and signed up for my account but did not complete the payment immediately. Now when I try to complete my log in to complete the process it's giving…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7572](https://tbpro.zendesk.com/agent/tickets/7572)** · Refund request
@@ -183,6 +189,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · 2026-08-10T04:44 · Delete Account and Refund Request
 - [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [open] · 2026-08-10T14:57 · DNS records slow to update
 - [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · 2026-08-10T16:13 · Refund request
+- [7575](https://tbpro.zendesk.com/agent/tickets/7575) · [new] · 2026-08-10T18:07 · Unable to complete my Signup anymore!
 
 ## Solved — last 24h
 
@@ -191,6 +198,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6828](https://tbpro.zendesk.com/agent/tickets/6828) · 2026-08-09T22:01 · cannot log in
 - · [7434](https://tbpro.zendesk.com/agent/tickets/7434) · 2026-08-10T14:01 · Update Recovery email
 - · [7346](https://tbpro.zendesk.com/agent/tickets/7346) · 2026-08-10T15:02 · Not receving verification email
+- · [7050](https://tbpro.zendesk.com/agent/tickets/7050) · 2026-08-10T18:02 · Folder showing in webmail but not Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
