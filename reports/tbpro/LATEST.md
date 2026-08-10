@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 14:27 ET** · refreshes hourly_  
+_Updated: **2026-08-10 15:29 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 50** of rollout — **6,500 invitees**, **333 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 50** of rollout — **6,500 invitees**, **335 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
-- **333** tickets total since launch · contact rate **5%** of 6500 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **335** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
@@ -108,15 +108,14 @@ _No negative ratings since launch._
 
 - **solved**: 212
 - **closed**: 94
+- **open**: 10
 - **pending**: 10
-- **open**: 8
-- **hold**: 8
-- **new**: 1
+- **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 157
-- **Thundermail**: 144
+- **Account Hub**: 158
+- **Thundermail**: 145
 - **Appointment**: 12
 - **Send**: 10
 
@@ -164,6 +163,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7579](https://tbpro.zendesk.com/agent/tickets/7579)** · Change Primary adress into my own domain
+  > Hello, (1) is it possible zu change primarly email adress into an email address with my own domainname? (2) is it possible to add an 2nd postbox for an second person under the…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7575](https://tbpro.zendesk.com/agent/tickets/7575)** · Unable to complete my Signup anymore!
@@ -179,6 +183,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7569](https://tbpro.zendesk.com/agent/tickets/7569)** · DNS records slow to update
   > Greetings, I don't seem to be able to create a custom domain email alias before my domain's DNS records are verified through Thundermail's accounts hub. Since it takes time to…
 
+### Other / uncategorized — 1 tickets
+
+- **[#7577](https://tbpro.zendesk.com/agent/tickets/7577)** · Integration with Firefox Relay
+  > Are there any plans to fold existing Relay services and mask emails (for those of us who have them) into Thundermail, which has its own mask email service?
+
 ### Refund / Cancel — 1 tickets
 
 - **[#7558](https://tbpro.zendesk.com/agent/tickets/7558)** · Delete Account and Refund Request — why: **change request** · how: **actioned**
@@ -189,7 +198,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · 2026-08-10T04:44 · Delete Account and Refund Request
 - [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [open] · 2026-08-10T14:57 · DNS records slow to update
 - [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · 2026-08-10T16:13 · Refund request
-- [7575](https://tbpro.zendesk.com/agent/tickets/7575) · [new] · 2026-08-10T18:07 · Unable to complete my Signup anymore!
+- [7575](https://tbpro.zendesk.com/agent/tickets/7575) · [open] · 2026-08-10T18:07 · Unable to complete my Signup anymore!
+- [7577](https://tbpro.zendesk.com/agent/tickets/7577) · [hold] · 2026-08-10T18:50 · Integration with Firefox Relay
+- [7579](https://tbpro.zendesk.com/agent/tickets/7579) · [open] · 2026-08-10T19:06 · Change Primary adress into my own domain
 
 ## Solved — last 24h
 
