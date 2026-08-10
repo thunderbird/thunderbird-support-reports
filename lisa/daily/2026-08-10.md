@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 17:24 ET** · refreshes hourly_  
+_Updated: **2026-08-10 18:20 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 50** of rollout — **6,500 invitees**, **337 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 134.9h · mean 175.0h (proxy: updated_at − created_at, 212 solved tickets)
+- **Median AHT**: 135.1h · mean 175.6h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -78,8 +78,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [closed] · 2026-06-24 · _Squarespace Custom Domain_
   - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [closed] · 2026-07-01 · _Namecheap Custom Domains_
 
-## Other tickets linked to GitHub — 6 ticket(s) → 6 issue(s)
+## Other tickets linked to GitHub — 7 ticket(s) → 7 issue(s)
 
+- 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
 - ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
 - 🔧 [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
@@ -109,15 +110,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 212
-- **closed**: 94
-- **open**: 13
+- **closed**: 95
+- **open**: 11
+- **pending**: 10
 - **hold**: 9
-- **pending**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 159
-- **Thundermail**: 146
+- **Account Hub**: 158
+- **Thundermail**: 147
 - **Appointment**: 12
 - **Send**: 10
 
@@ -129,15 +130,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 60
 - **change request** + **actioned**: 35
 - **request** + **redirected**: 25
-- **blocked** + **investigated**: 17
-- **blocked** + **escalated**: 16
+- **blocked** + **escalated**: 17
+- **blocked** + **investigated**: 16
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
+- **blocked** + **redirected**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **blocked** + **n/a**: 3
-- **blocked** + **redirected**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
@@ -180,15 +181,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7572](https://tbpro.zendesk.com/agent/tickets/7572)** · Refund request
   > I would like to receive a full refund for my subscription. I find the service still has a lot to improve upon and the price is simply not competitive. I decided to go with a…
 
-### Aliases — 1 tickets
-
-- **[#7569](https://tbpro.zendesk.com/agent/tickets/7569)** · DNS records slow to update
-  > Greetings, I don't seem to be able to create a custom domain email alias before my domain's DNS records are verified through Thundermail's accounts hub. Since it takes time to…
-
 ### Other / uncategorized — 1 tickets
 
 - **[#7577](https://tbpro.zendesk.com/agent/tickets/7577)** · Integration with Firefox Relay
   > Are there any plans to fold existing Relay services and mask emails (for those of us who have them) into Thundermail, which has its own mask email service?
+
+### Aliases — 1 tickets
+
+- **[#7569](https://tbpro.zendesk.com/agent/tickets/7569)** · DNS records slow to update — why: **blocked** · how: **redirected**
+  > Greetings, I don't seem to be able to create a custom domain email alias before my domain's DNS records are verified through Thundermail's accounts hub. Since it takes time to…
 
 ### Refund / Cancel — 1 tickets
 
@@ -198,7 +199,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · 2026-08-10T04:44 · Delete Account and Refund Request
-- [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [open] · 2026-08-10T14:57 · DNS records slow to update
+- [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [pending] · 2026-08-10T14:57 · DNS records slow to update
 - [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · 2026-08-10T16:13 · Refund request
 - [7575](https://tbpro.zendesk.com/agent/tickets/7575) · [open] · 2026-08-10T18:07 · Unable to complete my Signup anymore!
 - [7577](https://tbpro.zendesk.com/agent/tickets/7577) · [hold] · 2026-08-10T18:50 · Integration with Firefox Relay
