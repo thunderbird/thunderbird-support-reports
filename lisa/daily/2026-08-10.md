@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 10:33 ET** · refreshes hourly_  
+_Updated: **2026-08-10 11:30 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 50** of rollout — **6,500 invitees**, **331 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 50** of rollout — **6,500 invitees**, **332 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **331** tickets total since launch · contact rate **5%** of 6500 invitees
+- **3** new tickets in last 24h · **5** solved in last 24h
+- **332** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 134.7h · mean 174.2h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 134.7h · mean 174.4h (proxy: updated_at − created_at, 214 solved tickets)
 
-## Known problems — 6 problem(s), 32 incident(s)
+## Known problems — 6 problem(s), 33 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -36,7 +36,7 @@ Flight 3 is **day 50** of rollout — **6,500 invitees**, **331 tickets** so far
   - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [solved] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 21 incident(s):
+- 22 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [solved] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -58,6 +58,7 @@ Flight 3 is **day 50** of rollout — **6,500 invitees**, **331 tickets** so far
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
+  - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · 2026-08-10 · _Delete Account and Refund Request_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -86,7 +87,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [open] · _Delete Account and Refund Request_
+- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · _Delete Account and Refund Request_
   > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
 
 ## New ideas on FeatureOS
@@ -97,16 +98,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
+- **solved**: 214
 - **closed**: 91
+- **open**: 9
 - **pending**: 9
-- **hold**: 9
-- **open**: 8
+- **hold**: 8
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 155
+- **Account Hub**: 156
 - **Thundermail**: 143
 - **Appointment**: 12
 - **Send**: 10
@@ -117,7 +118,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 78
 - **blocked** + **explained**: 60
-- **change request** + **actioned**: 34
+- **change request** + **actioned**: 35
 - **request** + **redirected**: 25
 - **blocked** + **investigated**: 17
 - **blocked** + **escalated**: 16
@@ -155,20 +156,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#7569](https://tbpro.zendesk.com/agent/tickets/7569)** · DNS records slow to update
+  > Greetings, I don't seem to be able to create a custom domain email alias before my domain's DNS records are verified through Thundermail's accounts hub. Since it takes time to…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7564](https://tbpro.zendesk.com/agent/tickets/7564)** · Karin Henn Kaiserslautern
   > Sehr geehrte Damen und Herren, ich habe meine Passwörter bei [domain] und bei Gmail.com geändert und bei thunderbird jeweils eine Email Adresse . Seit Änderung der Passwörter kann…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Refund / Cancel — 1 tickets
 
-- **[#7558](https://tbpro.zendesk.com/agent/tickets/7558)** · Delete Account and Refund Request
+- **[#7558](https://tbpro.zendesk.com/agent/tickets/7558)** · Delete Account and Refund Request — why: **change request** · how: **actioned**
   > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
 
 ## New tickets — last 24h
 
-- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [open] · 2026-08-10T04:44 · Delete Account and Refund Request
-- [7564](https://tbpro.zendesk.com/agent/tickets/7564) · [new] · 2026-08-10T12:34 · Karin Henn Kaiserslautern
+- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [pending] · 2026-08-10T04:44 · Delete Account and Refund Request
+- [7564](https://tbpro.zendesk.com/agent/tickets/7564) · [open] · 2026-08-10T12:34 · Karin Henn Kaiserslautern
+- [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [new] · 2026-08-10T14:57 · DNS records slow to update
 
 ## Solved — last 24h
 
@@ -176,6 +183,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7273](https://tbpro.zendesk.com/agent/tickets/7273) · 2026-08-09T22:01 · CalDav/CardDav issue with Sailfish OS
 - · [6828](https://tbpro.zendesk.com/agent/tickets/6828) · 2026-08-09T22:01 · cannot log in
 - · [7434](https://tbpro.zendesk.com/agent/tickets/7434) · 2026-08-10T14:01 · Update Recovery email
+- · [7346](https://tbpro.zendesk.com/agent/tickets/7346) · 2026-08-10T15:02 · Not receving verification email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
