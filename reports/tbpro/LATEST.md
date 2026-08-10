@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 09:39 ET** · refreshes hourly_  
+_Updated: **2026-08-10 10:33 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 50** of rollout — **6,500 invitees**, **331 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
+- **2** new tickets in last 24h · **4** solved in last 24h
 - **331** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 134.7h · mean 174.4h (proxy: updated_at − created_at, 212 solved tickets)
+- **Median AHT**: 134.7h · mean 174.2h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## Known problems — 6 problem(s), 32 incident(s)
 
@@ -86,7 +86,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [new] · _Delete Account and Refund Request_
+- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [open] · _Delete Account and Refund Request_
   > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
 
 ## New ideas on FeatureOS
@@ -97,12 +97,12 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 212
+- **solved**: 213
 - **closed**: 91
 - **pending**: 9
+- **hold**: 9
 - **open**: 8
-- **hold**: 8
-- **new**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -119,7 +119,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 60
 - **change request** + **actioned**: 34
 - **request** + **redirected**: 25
-- **blocked** + **investigated**: 16
+- **blocked** + **investigated**: 17
 - **blocked** + **escalated**: 16
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
@@ -167,7 +167,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [new] · 2026-08-10T04:44 · Delete Account and Refund Request
+- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [open] · 2026-08-10T04:44 · Delete Account and Refund Request
 - [7564](https://tbpro.zendesk.com/agent/tickets/7564) · [new] · 2026-08-10T12:34 · Karin Henn Kaiserslautern
 
 ## Solved — last 24h
@@ -175,6 +175,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7423](https://tbpro.zendesk.com/agent/tickets/7423) · 2026-08-09T22:01 · Trial account for tests possible
 - · [7273](https://tbpro.zendesk.com/agent/tickets/7273) · 2026-08-09T22:01 · CalDav/CardDav issue with Sailfish OS
 - · [6828](https://tbpro.zendesk.com/agent/tickets/6828) · 2026-08-09T22:01 · cannot log in
+- · [7434](https://tbpro.zendesk.com/agent/tickets/7434) · 2026-08-10T14:01 · Update Recovery email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
