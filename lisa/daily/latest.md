@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-10
 
-_Updated: **2026-08-10 08:26 ET** · refreshes hourly_  
+_Updated: **2026-08-10 09:39 ET** · refreshes hourly_  
 _24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 50** of rollout — **6,500 invitees**, **330 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 50** of rollout — **6,500 invitees**, **331 tickets** so far (5.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
-- **330** tickets total since launch · contact rate **5%** of 6500 invitees
+- **2** new tickets in last 24h · **3** solved in last 24h
+- **331** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
@@ -100,8 +100,8 @@ _No negative ratings since launch._
 - **solved**: 212
 - **closed**: 91
 - **pending**: 9
+- **open**: 8
 - **hold**: 8
-- **open**: 7
 - **new**: 3
 
 ## Service (cumulative)
@@ -155,6 +155,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### App setup / configuration — 1 tickets
+
+- **[#7564](https://tbpro.zendesk.com/agent/tickets/7564)** · Karin Henn Kaiserslautern
+  > Sehr geehrte Damen und Herren, ich habe meine Passwörter bei [domain] und bei Gmail.com geändert und bei thunderbird jeweils eine Email Adresse . Seit Änderung der Passwörter kann…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7558](https://tbpro.zendesk.com/agent/tickets/7558)** · Delete Account and Refund Request
@@ -163,6 +168,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [new] · 2026-08-10T04:44 · Delete Account and Refund Request
+- [7564](https://tbpro.zendesk.com/agent/tickets/7564) · [new] · 2026-08-10T12:34 · Karin Henn Kaiserslautern
 
 ## Solved — last 24h
 
