@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 13:28 ET** · refreshes hourly_  
+_Updated: **2026-08-11 14:27 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -164,25 +164,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing — payment issue — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
-  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
+- **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль — why: **blocked** · how: **explained**
+  > Забыл пароль от почты и нет возможности зайти на почту
 
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
   > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
 
+### Pricing — payment issue — 1 tickets
+
+- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
+  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7596](https://tbpro.zendesk.com/agent/tickets/7596)** · Custom Domain settings with Godaddy — why: **blocked** · how: **explained**
   > Good day, thank you for your hard work on the new project. I'm not new to DNS setting. My domain worked with Tuta fine. I cut and pasted your settings and it is not recognizing…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль — why: **blocked** · how: **explained**
-  > Забыл пароль от почты и нет возможности зайти на почту
 
 ### Refund / Cancel — 1 tickets
 
@@ -193,9 +193,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
-- [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [pending] · 2026-08-11T05:58 · Забыл пароль
+- [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [pending] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
-- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [open] · 2026-08-11T11:08 · Need help changing subscription payment method
+- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [pending] · 2026-08-11T11:08 · Need help changing subscription payment method
 
 ## Solved — last 24h
 
