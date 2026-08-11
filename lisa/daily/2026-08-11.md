@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 05:30 ET** · refreshes hourly_  
+_Updated: **2026-08-11 06:27 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 51** of rollout — **6,500 invitees**, **338 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 51** of rollout — **6,500 invitees**, **339 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
-- **338** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **339** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
 - **Median AHT**: 135.2h · mean 175.9h (proxy: updated_at − created_at, 213 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domain"** — 2 tickets in 24h (3.6× baseline; baseline 28 cum) — [#7581](https://tbpro.zendesk.com/agent/tickets/7581), [#7596](https://tbpro.zendesk.com/agent/tickets/7596)
 
 ## Known problems — 6 problem(s), 34 incident(s)
 
@@ -104,12 +110,12 @@ _(none in last 24h)_
 - **open**: 10
 - **pending**: 9
 - **hold**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 157
-- **Thundermail**: 148
+- **Thundermail**: 149
 - **Appointment**: 12
 - **Send**: 10
 
@@ -157,6 +163,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7596](https://tbpro.zendesk.com/agent/tickets/7596)** · Custom Domain settings with Godaddy
+  > Good day, thank you for your hard work on the new project. I'm not new to DNS setting. My domain worked with Tuta fine. I cut and pasted your settings and it is not recognizing…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль
@@ -177,6 +188,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [new] · 2026-08-11T05:58 · Забыл пароль
+- [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [new] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
 
 ## Solved — last 24h
 
