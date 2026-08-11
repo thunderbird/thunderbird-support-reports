@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 06:27 ET** · refreshes hourly_  
+_Updated: **2026-08-11 07:25 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 51** of rollout — **6,500 invitees**, **339 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 51** of rollout — **6,500 invitees**, **340 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **339** tickets total since launch · contact rate **5%** of 6500 invitees
+- **5** new tickets in last 24h · **3** solved in last 24h
+- **340** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 135.2h · mean 175.9h (proxy: updated_at − created_at, 213 solved tickets)
+- **Median AHT**: 135.3h · mean 176.2h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -105,16 +105,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 213
-- **closed**: 96
+- **solved**: 212
+- **closed**: 97
 - **open**: 10
 - **pending**: 9
 - **hold**: 9
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 157
+- **Account Hub**: 158
 - **Thundermail**: 149
 - **Appointment**: 12
 - **Send**: 10
@@ -163,6 +163,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method
+  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7596](https://tbpro.zendesk.com/agent/tickets/7596)** · Custom Domain settings with Godaddy
@@ -189,6 +194,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [new] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [new] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
+- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [new] · 2026-08-11T11:08 · Need help changing subscription payment method
 
 ## Solved — last 24h
 
