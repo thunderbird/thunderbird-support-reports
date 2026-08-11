@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 07:25 ET** · refreshes hourly_  
+_Updated: **2026-08-11 08:26 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **340 tickets** so far
 - **340** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
 - **Median AHT**: 135.3h · mean 176.2h (proxy: updated_at − created_at, 212 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -99,18 +99,18 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Monthly Subscription for testing](https://ideas.tb.pro/p/monthly-subscription-for-testing) · 1 votes · _Accounts & Subscriptions_
+  > What you’d like to seeA chance to pay only for one month to take the service for a drive and then default to yearly. Don’t want to pay a year upfront.Why it mattersWhat problem does this solve, or…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 212
 - **closed**: 97
-- **open**: 10
+- **open**: 13
 - **pending**: 9
 - **hold**: 9
-- **new**: 3
 
 ## Service (cumulative)
 
@@ -192,9 +192,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
-- [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [new] · 2026-08-11T05:58 · Забыл пароль
-- [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [new] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
-- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [new] · 2026-08-11T11:08 · Need help changing subscription payment method
+- [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
+- [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [open] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
+- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [open] · 2026-08-11T11:08 · Need help changing subscription payment method
 
 ## Solved — last 24h
 
