@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 01:32 ET** · refreshes hourly_  
+_Updated: **2026-08-11 02:28 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 51** of rollout — **6,500 invitees**, **337 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 51** of rollout — **6,500 invitees**, **338 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
-- **337** tickets total since launch · contact rate **5%** of 6500 invitees
+- **3** new tickets in last 24h · **2** solved in last 24h
+- **338** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
@@ -104,6 +104,7 @@ _(none in last 24h)_
 - **open**: 10
 - **pending**: 10
 - **hold**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -156,6 +157,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль
+  > Забыл пароль от почты и нет возможности зайти на почту
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
@@ -170,6 +176,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
+- [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [new] · 2026-08-11T05:58 · Забыл пароль
 
 ## Solved — last 24h
 
