@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 18:23 ET** · refreshes hourly_  
+_Updated: **2026-08-11 19:22 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **341 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 134.7h · mean 178.6h (proxy: updated_at − created_at, 202 solved tickets)
+- **Median AHT**: 134.7h · mean 178.1h (proxy: updated_at − created_at, 200 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -50,7 +50,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6535](https://tbpro.zendesk.com/agent/tickets/6535) · [closed] · 2026-07-01 · _Cancel Thundermail_
   - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [closed] · 2026-07-08 · _Refund_
   - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [closed] · 2026-07-09 · _Request Refund_
-  - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [solved] · 2026-07-09 · _Cancel subscription and refund_
+  - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [closed] · 2026-07-09 · _Cancel subscription and refund_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [solved] · 2026-07-14 · _Declaration of Withdrawal_
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [solved] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
@@ -109,8 +109,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 202
-- **closed**: 107
+- **solved**: 200
+- **closed**: 109
 - **pending**: 21
 - **hold**: 8
 - **open**: 3
