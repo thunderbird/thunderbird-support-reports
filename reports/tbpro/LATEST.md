@@ -1,25 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 14:27 ET** · refreshes hourly_  
+_Updated: **2026-08-11 15:31 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 51** of rollout — **6,500 invitees**, **340 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 51** of rollout — **6,500 invitees**, **341 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
-- **340** tickets total since launch · contact rate **5%** of 6500 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **341** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 134.9h · mean 178.4h (proxy: updated_at − created_at, 206 solved tickets)
+- **Median AHT**: 135.1h · mean 178.6h (proxy: updated_at − created_at, 205 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"paid service"** — 2 tickets in 24h (50.0× baseline; baseline 2 cum) — [#7581](https://tbpro.zendesk.com/agent/tickets/7581), [#7608](https://tbpro.zendesk.com/agent/tickets/7608)
 - **"custom domain"** — 2 tickets in 24h (3.6× baseline; baseline 28 cum) — [#7581](https://tbpro.zendesk.com/agent/tickets/7581), [#7596](https://tbpro.zendesk.com/agent/tickets/7596)
 
 ## Known problems — 6 problem(s), 35 incident(s)
@@ -107,15 +108,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 206
-- **closed**: 104
-- **open**: 11
-- **pending**: 11
+- **solved**: 205
+- **closed**: 105
+- **pending**: 14
+- **open**: 9
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 159
+- **Account Hub**: 160
 - **Thundermail**: 149
 - **Appointment**: 12
 - **Send**: 10
@@ -164,15 +165,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues
+  > I’m trying to pay for the damn Early Bird annual fee for Thundermail. The payment in Reais (BRL) didn’t work. I contacted my card issuer, and they said the problem was on the…
+- **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
+  > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль — why: **blocked** · how: **explained**
   > Забыл пароль от почты и нет возможности зайти на почту
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
-  > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -196,6 +199,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [pending] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
 - [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [pending] · 2026-08-11T11:08 · Need help changing subscription payment method
+- [7608](https://tbpro.zendesk.com/agent/tickets/7608) · [open] · 2026-08-11T18:29 · payment issues
 
 ## Solved — last 24h
 
