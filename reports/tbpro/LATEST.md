@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 03:36 ET** · refreshes hourly_  
+_Updated: **2026-08-11 04:29 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **338 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
+- **3** new tickets in last 24h · **3** solved in last 24h
 - **338** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
-- **Median AHT**: 135.1h · mean 175.1h (proxy: updated_at − created_at, 212 solved tickets)
+- **Median AHT**: 135.2h · mean 175.9h (proxy: updated_at − created_at, 213 solved tickets)
 
 ## Known problems — 6 problem(s), 34 incident(s)
 
@@ -99,10 +99,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 212
+- **solved**: 213
 - **closed**: 96
 - **open**: 10
-- **pending**: 10
+- **pending**: 9
 - **hold**: 9
 - **new**: 1
 
@@ -182,6 +182,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7338](https://tbpro.zendesk.com/agent/tickets/7338) · 2026-08-10T22:01 · Issues with new mail client and my Thundermail account
 - · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-11T01:27 · Delete Account and Refund Request
+- · [7194](https://tbpro.zendesk.com/agent/tickets/7194) · 2026-08-11T08:01 · SRF Eintrag
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
