@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 16:23 ET** · refreshes hourly_  
+_Updated: **2026-08-11 17:26 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **341 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 134.9h · mean 178.4h (proxy: updated_at − created_at, 204 solved tickets)
+- **Median AHT**: 134.7h · mean 178.6h (proxy: updated_at − created_at, 202 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -81,8 +81,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [closed] · 2026-06-24 · _Squarespace Custom Domain_
   - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [closed] · 2026-07-01 · _Namecheap Custom Domains_
 
-## Other tickets linked to GitHub — 7 ticket(s) → 7 issue(s)
+## Other tickets linked to GitHub — 8 ticket(s) → 8 issue(s)
 
+- 🔧 [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
 - 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
 - ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
@@ -108,16 +109,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 204
-- **closed**: 105
-- **pending**: 17
-- **open**: 8
-- **hold**: 7
+- **solved**: 202
+- **closed**: 107
+- **pending**: 20
+- **hold**: 8
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 161
-- **Thundermail**: 148
+- **Account Hub**: 162
+- **Thundermail**: 147
 - **Appointment**: 12
 - **Send**: 10
 
@@ -126,11 +127,11 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 79
-- **blocked** + **explained**: 63
-- **change request** + **actioned**: 37
-- **request** + **redirected**: 25
+- **blocked** + **explained**: 64
+- **change request** + **actioned**: 38
+- **request** + **redirected**: 26
+- **blocked** + **investigated**: 17
 - **blocked** + **escalated**: 17
-- **blocked** + **investigated**: 16
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
 - **blocked** + **actioned**: 5
@@ -165,20 +166,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 1 tickets
+### Pricing — payment issue — 2 tickets
 
-- **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues
+- **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues — why: **blocked** · how: **investigated**
   > I’m trying to pay for the damn Early Bird annual fee for Thundermail. The payment in Reais (BRL) didn’t work. I contacted my card issuer, and they said the problem was on the…
+- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
+  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
 
 ### Other / uncategorized — 1 tickets
 
 - **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль — why: **blocked** · how: **explained**
   > Забыл пароль от почты и нет возможности зайти на почту
-
-### Pricing — payment issue — 1 tickets
-
-- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
-  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -202,7 +200,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [pending] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
 - [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [pending] · 2026-08-11T11:08 · Need help changing subscription payment method
-- [7608](https://tbpro.zendesk.com/agent/tickets/7608) · [open] · 2026-08-11T18:29 · payment issues
+- [7608](https://tbpro.zendesk.com/agent/tickets/7608) · [hold] · 2026-08-11T18:29 · payment issues
 
 ## Solved — last 24h
 
