@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-10
+# Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-10 23:44 ET** · refreshes hourly_  
-_24h window: 2026-08-09T16:00 → 2026-08-10T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-11 00:38 ET** · refreshes hourly_  
+_24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 50** of rollout — **6,500 invitees**, **337 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 51** of rollout — **6,500 invitees**, **337 tickets** so far (5.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **337** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 66
 - **Median AHT**: 135.1h · mean 175.1h (proxy: updated_at − created_at, 212 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"refund request"** — 2 tickets in 24h (14.0× baseline; baseline 7 cum) — [#7558](https://tbpro.zendesk.com/agent/tickets/7558), [#7572](https://tbpro.zendesk.com/agent/tickets/7572)
 
 ## Known problems — 6 problem(s), 34 incident(s)
 
@@ -93,14 +87,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · _Delete Account and Refund Request_
-  > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
-- [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · _Refund request_
-  > I would like to receive a full refund for my subscription. I find the service still has a lot to improve upon and the price is simply not competitive. I decided to go with a different provider.
-- [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · _Refund and account deletion_
-  > Hi [name] like to request at least a partial refund on the yearly subscription and to close my account.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -169,51 +158,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#7575](https://tbpro.zendesk.com/agent/tickets/7575)** · Unable to complete my Signup anymore!
-  > I got my ThunderMail invite, and signed up for my account but did not complete the payment immediately. Now when I try to complete my log in to complete the process it's giving…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#7572](https://tbpro.zendesk.com/agent/tickets/7572)** · Refund request
-  > I would like to receive a full refund for my subscription. I find the service still has a lot to improve upon and the price is simply not competitive. I decided to go with a…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7579](https://tbpro.zendesk.com/agent/tickets/7579)** · Change Primary adress into my own domain — why: **curious** · how: **explained**
-  > Hello, (1) is it possible zu change primarly email adress into an email address with my own domainname? (2) is it possible to add an 2nd postbox for an second person under the…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7577](https://tbpro.zendesk.com/agent/tickets/7577)** · Integration with Firefox Relay
-  > Are there any plans to fold existing Relay services and mask emails (for those of us who have them) into Thundermail, which has its own mask email service?
-
-### Aliases — 1 tickets
-
-- **[#7569](https://tbpro.zendesk.com/agent/tickets/7569)** · DNS records slow to update — why: **blocked** · how: **redirected**
-  > Greetings, I don't seem to be able to create a custom domain email alias before my domain's DNS records are verified through Thundermail's accounts hub. Since it takes time to…
+- **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
+  > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
 
 ### Refund / Cancel — 1 tickets
 
-- **[#7558](https://tbpro.zendesk.com/agent/tickets/7558)** · Delete Account and Refund Request — why: **change request** · how: **actioned**
-  > please delete the thundermail account and issue a refund. i think we'd prefer to not have to issue a charge back through my bank.
+- **[#7580](https://tbpro.zendesk.com/agent/tickets/7580)** · Refund and account deletion — why: **change request** · how: **actioned**
+  > Hi [name] like to request at least a partial refund on the yearly subscription and to close my account.
 
 ## New tickets — last 24h
 
-- [7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10T04:44 · Delete Account and Refund Request
-- [7569](https://tbpro.zendesk.com/agent/tickets/7569) · [pending] · 2026-08-10T14:57 · DNS records slow to update
-- [7572](https://tbpro.zendesk.com/agent/tickets/7572) · [open] · 2026-08-10T16:13 · Refund request
-- [7575](https://tbpro.zendesk.com/agent/tickets/7575) · [open] · 2026-08-10T18:07 · Unable to complete my Signup anymore!
-- [7577](https://tbpro.zendesk.com/agent/tickets/7577) · [hold] · 2026-08-10T18:50 · Integration with Firefox Relay
-- [7579](https://tbpro.zendesk.com/agent/tickets/7579) · [pending] · 2026-08-10T19:06 · Change Primary adress into my own domain
+- [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
+- [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 
 ## Solved — last 24h
 
-- · [7423](https://tbpro.zendesk.com/agent/tickets/7423) · 2026-08-09T22:01 · Trial account for tests possible
-- · [7273](https://tbpro.zendesk.com/agent/tickets/7273) · 2026-08-09T22:01 · CalDav/CardDav issue with Sailfish OS
-- · [6828](https://tbpro.zendesk.com/agent/tickets/6828) · 2026-08-09T22:01 · cannot log in
-- · [7434](https://tbpro.zendesk.com/agent/tickets/7434) · 2026-08-10T14:01 · Update Recovery email
-- · [7346](https://tbpro.zendesk.com/agent/tickets/7346) · 2026-08-10T15:02 · Not receving verification email
-- · [7050](https://tbpro.zendesk.com/agent/tickets/7050) · 2026-08-10T18:02 · Folder showing in webmail but not Thunderbird
+- · [7338](https://tbpro.zendesk.com/agent/tickets/7338) · 2026-08-10T22:01 · Issues with new mail client and my Thundermail account
+- · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-11T01:27 · Delete Account and Refund Request
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
