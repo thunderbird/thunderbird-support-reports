@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 09:38 ET** · refreshes hourly_  
+_Updated: **2026-08-11 10:32 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **340 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 135.3h · mean 176.2h (proxy: updated_at − created_at, 212 solved tickets)
+- **Median AHT**: 135.2h · mean 175.4h (proxy: updated_at − created_at, 211 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -47,7 +47,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
   - [#6535](https://tbpro.zendesk.com/agent/tickets/6535) · [closed] · 2026-07-01 · _Cancel Thundermail_
-  - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [solved] · 2026-07-08 · _Refund_
+  - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [closed] · 2026-07-08 · _Refund_
   - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [solved] · 2026-07-09 · _Request Refund_
   - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [solved] · 2026-07-09 · _Cancel subscription and refund_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [solved] · 2026-07-14 · _Declaration of Withdrawal_
@@ -107,10 +107,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 212
-- **closed**: 97
-- **pending**: 12
-- **open**: 10
+- **solved**: 211
+- **closed**: 98
+- **open**: 11
+- **pending**: 11
 - **hold**: 9
 
 ## Service (cumulative)
@@ -164,6 +164,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Pricing — payment issue — 1 tickets
+
+- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
+  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7596](https://tbpro.zendesk.com/agent/tickets/7596)** · Custom Domain settings with Godaddy — why: **blocked** · how: **explained**
@@ -173,11 +178,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
   > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
-
-### Pricing — payment issue — 1 tickets
-
-- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
-  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
 
 ### Other / uncategorized — 1 tickets
 
@@ -195,7 +195,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [pending] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [open] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
-- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [pending] · 2026-08-11T11:08 · Need help changing subscription payment method
+- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [open] · 2026-08-11T11:08 · Need help changing subscription payment method
 
 ## Solved — last 24h
 
