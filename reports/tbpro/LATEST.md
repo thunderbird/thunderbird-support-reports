@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 11:29 ET** · refreshes hourly_  
+_Updated: **2026-08-11 12:27 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **340 tickets** so far
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
+- **5** new tickets in last 24h · **6** solved in last 24h
 - **340** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (17 good / 0 bad)
+- **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 135.1h · mean 177.2h (proxy: updated_at − created_at, 209 solved tickets)
+- **Median AHT**: 135.1h · mean 177.9h (proxy: updated_at − created_at, 209 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -26,7 +26,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [solved] · 2026-06-30 · _Custom Domain DKIM not working_
+  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [closed] · 2026-06-30 · _Custom Domain DKIM not working_
   - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
@@ -108,9 +108,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 209
-- **closed**: 100
-- **pending**: 12
+- **closed**: 101
 - **open**: 11
+- **pending**: 11
 - **hold**: 8
 
 ## Service (cumulative)
@@ -202,7 +202,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7338](https://tbpro.zendesk.com/agent/tickets/7338) · 2026-08-10T22:01 · Issues with new mail client and my Thundermail account
 - · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-11T01:27 · Delete Account and Refund Request
 - · [7194](https://tbpro.zendesk.com/agent/tickets/7194) · 2026-08-11T08:01 · SRF Eintrag
-- · [6864](https://tbpro.zendesk.com/agent/tickets/6864) · 2026-08-11T15:15 · Email alias - potential security and privacy issues
+- · [7061](https://tbpro.zendesk.com/agent/tickets/7061) · 2026-08-11T16:01 · Early Bird deadline 
+- · [7134](https://tbpro.zendesk.com/agent/tickets/7134) · 2026-08-11T16:07 · Aliases
+- · [6864](https://tbpro.zendesk.com/agent/tickets/6864) · 2026-08-11T16:11 · Email alias - potential security and privacy issues
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
