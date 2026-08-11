@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 15:31 ET** · refreshes hourly_  
+_Updated: **2026-08-11 16:23 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 51** of rollout — **6,500 invitees**, **341 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 135.1h · mean 178.6h (proxy: updated_at − created_at, 205 solved tickets)
+- **Median AHT**: 134.9h · mean 178.4h (proxy: updated_at − created_at, 204 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -108,16 +108,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 205
+- **solved**: 204
 - **closed**: 105
-- **pending**: 14
-- **open**: 9
-- **hold**: 8
+- **pending**: 17
+- **open**: 8
+- **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 160
-- **Thundermail**: 149
+- **Account Hub**: 161
+- **Thundermail**: 148
 - **Appointment**: 12
 - **Send**: 10
 
@@ -141,6 +141,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
+- **concerned** + **—**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
@@ -154,7 +155,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **other** + **n/a**: 1
-- **concerned** + **—**: 1
 - **telling us** + **n/a**: 1
 - **curious** + **escalated**: 1
 - **confused** + **escalated**: 1
@@ -165,12 +165,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Early bird / invite / waitlist — 1 tickets
 
 - **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues
   > I’m trying to pay for the damn Early Bird annual fee for Thundermail. The payment in Reais (BRL) didn’t work. I contacted my card issuer, and they said the problem was on the…
-- **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing?
-  > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
 
 ### Other / uncategorized — 1 tickets
 
@@ -187,6 +185,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7596](https://tbpro.zendesk.com/agent/tickets/7596)** · Custom Domain settings with Godaddy — why: **blocked** · how: **explained**
   > Good day, thank you for your hard work on the new project. I'm not new to DNS setting. My domain worked with Tuta fine. I cut and pasted your settings and it is not recognizing…
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? — why: **concerned**
+  > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
+
 ### Refund / Cancel — 1 tickets
 
 - **[#7580](https://tbpro.zendesk.com/agent/tickets/7580)** · Refund and account deletion — why: **change request** · how: **actioned**
@@ -195,7 +198,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
-- [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [open] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
+- [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [pending] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [pending] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
 - [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [pending] · 2026-08-11T11:08 · Need help changing subscription payment method
