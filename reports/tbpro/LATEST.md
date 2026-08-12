@@ -1,27 +1,26 @@
-# Thundermail — Flight 3 Live Report · 2026-08-11
+# Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-11 23:51 ET** · refreshes hourly_  
-_24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-12 00:45 ET** · refreshes hourly_  
+_24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 51** of rollout — **6,500 invitees**, **343 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 52** of rollout — **6,500 invitees**, **343 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **5** solved in last 24h
+- **2** new tickets in last 24h · **1** solved in last 24h
 - **343** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
 - **Median AHT**: 134.8h · mean 179.0h (proxy: updated_at − created_at, 197 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"paid service"** — 2 tickets in 24h (50.0× baseline; baseline 2 cum) — [#7581](https://tbpro.zendesk.com/agent/tickets/7581), [#7608](https://tbpro.zendesk.com/agent/tickets/7608)
-- **"custom domain"** — 2 tickets in 24h (3.3× baseline; baseline 30 cum) — [#7581](https://tbpro.zendesk.com/agent/tickets/7581), [#7596](https://tbpro.zendesk.com/agent/tickets/7596)
+- **"errors permerror"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -102,18 +101,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Monthly Subscription for testing](https://ideas.tb.pro/p/monthly-subscription-for-testing) · 1 votes · _Accounts & Subscriptions_
-  > What you’d like to seeA chance to pay only for one month to take the service for a drive and then default to yearly. Don’t want to pay a year upfront.Why it mattersWhat problem does this solve, or…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 197
 - **closed**: 112
-- **pending**: 18
+- **pending**: 17
 - **hold**: 8
-- **open**: 6
+- **open**: 7
 - **new**: 2
 
 ## Service (cumulative)
@@ -167,49 +165,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing — payment issue — 2 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
-  > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
-- **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues — why: **blocked** · how: **investigated**
-  > I’m trying to pay for the damn Early Bird annual fee for Thundermail. The payment in Reais (BRL) didn’t work. I contacted my card issuer, and they said the problem was on the…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7587](https://tbpro.zendesk.com/agent/tickets/7587)** · Забыл пароль — why: **blocked** · how: **explained**
-  > Забыл пароль от почты и нет возможности зайти на почту
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7596](https://tbpro.zendesk.com/agent/tickets/7596)** · Custom Domain settings with Godaddy — why: **blocked** · how: **explained**
-  > Good day, thank you for your hard work on the new project. I'm not new to DNS setting. My domain worked with Tuta fine. I cut and pasted your settings and it is not recognizing…
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7581](https://tbpro.zendesk.com/agent/tickets/7581)** · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? — why: **concerned**
-  > Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren't you ashamed to suggest such a thing? -------- The wait is over: your invite…
-
-### Refund / Cancel — 1 tickets
-
-- **[#7580](https://tbpro.zendesk.com/agent/tickets/7580)** · Refund and account deletion — why: **change request** · how: **actioned**
-  > Hi [name] like to request at least a partial refund on the yearly subscription and to close my account.
+- **[#7613](https://tbpro.zendesk.com/agent/tickets/7613)** · DKIM is marked as FAIL in Gmail with custom domain
+  > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
+- **[#7614](https://tbpro.zendesk.com/agent/tickets/7614)** · DKIM is marked as FAIL in Gmail with custom domain
+  > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
 
 ## New tickets — last 24h
 
-- [7580](https://tbpro.zendesk.com/agent/tickets/7580) · [pending] · 2026-08-10T20:26 · Refund and account deletion
-- [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [pending] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
-- [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
-- [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [pending] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
-- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [open] · 2026-08-11T11:08 · Need help changing subscription payment method
-- [7608](https://tbpro.zendesk.com/agent/tickets/7608) · [hold] · 2026-08-11T18:29 · payment issues
+- [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
+- [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 
 ## Solved — last 24h
 
-- · [7338](https://tbpro.zendesk.com/agent/tickets/7338) · 2026-08-10T22:01 · Issues with new mail client and my Thundermail account
-- · [7194](https://tbpro.zendesk.com/agent/tickets/7194) · 2026-08-11T08:01 · SRF Eintrag
-- · [7061](https://tbpro.zendesk.com/agent/tickets/7061) · 2026-08-11T16:01 · Early Bird deadline 
-- · [7134](https://tbpro.zendesk.com/agent/tickets/7134) · 2026-08-11T16:07 · Aliases
-- · [6864](https://tbpro.zendesk.com/agent/tickets/6864) · 2026-08-11T16:11 · Email alias - potential security and privacy issues
+- · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-12T02:01 · Delete Account and Refund Request
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
