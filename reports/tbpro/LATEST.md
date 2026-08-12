@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 18:22 ET** · refreshes hourly_  
+_Updated: **2026-08-12 19:23 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **346 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.7h · mean 181.0h (proxy: updated_at − created_at, 196 solved tickets)
+- **Median AHT**: 134.8h · mean 181.8h (proxy: updated_at − created_at, 195 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"workspace after removing"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"outgoing custom domain"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -108,12 +108,12 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 196
-- **closed**: 118
-- **pending**: 19
+- **solved**: 195
+- **closed**: 119
+- **pending**: 17
 - **hold**: 8
+- **open**: 4
 - **new**: 3
-- **open**: 2
 
 ## Service (cumulative)
 
@@ -155,9 +155,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
-- **other** + **n/a**: 1
 - **telling us** + **n/a**: 1
 - **curious** + **escalated**: 1
+- **other** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **request** + **informed**: 1
@@ -173,21 +173,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7614](https://tbpro.zendesk.com/agent/tickets/7614)** · DKIM is marked as FAIL in Gmail with custom domain
   > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
 
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7628](https://tbpro.zendesk.com/agent/tickets/7628)** · I have been invited to join Thundermail, but no option for one month — why: **curious** · how: **explained**
-  > Hello, After a long waiting period, I finally received an invite to join **Thundermail**, and to register an account with you (the Company). However, upon completing my account…
-
 ### Other / uncategorized — 1 tickets
 
 - **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email — why: **curious** · how: **actioned**
   > I was wondering if it is possible to change my backup email?
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#7628](https://tbpro.zendesk.com/agent/tickets/7628)** · I have been invited to join Thundermail, but no option for one month — why: **curious** · how: **explained**
+  > Hello, After a long waiting period, I finally received an invite to join **Thundermail**, and to register an account with you (the Company). However, upon completing my account…
+
 ## New tickets — last 24h
 
 - [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
-- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [pending] · 2026-08-12T09:01 · Change backup email
+- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [open] · 2026-08-12T09:01 · Change backup email
 - [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [pending] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
 
 ## Solved — last 24h
