@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 16:22 ET** · refreshes hourly_  
+_Updated: **2026-08-12 17:24 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **347 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.5h · mean 177.8h (proxy: updated_at − created_at, 197 solved tickets)
+- **Median AHT**: 134.6h · mean 178.0h (proxy: updated_at − created_at, 196 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"personal after removing"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"workspace umich"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -108,11 +108,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 197
-- **closed**: 116
-- **pending**: 17
+- **solved**: 196
+- **closed**: 117
+- **pending**: 18
 - **hold**: 8
-- **open**: 6
+- **open**: 5
 - **new**: 3
 
 ## Service (cumulative)
