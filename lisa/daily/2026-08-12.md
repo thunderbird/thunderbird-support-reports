@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 09:39 ET** · refreshes hourly_  
+_Updated: **2026-08-12 10:33 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **345 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **2** solved in last 24h
+- **4** new tickets in last 24h · **3** solved in last 24h
 - **345** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.7h · mean 178.6h (proxy: updated_at − created_at, 198 solved tickets)
+- **Median AHT**: 134.6h · mean 177.1h (proxy: updated_at − created_at, 198 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"tested both personal"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"found reference attached"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -109,9 +109,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 198
-- **closed**: 112
+- **closed**: 113
 - **pending**: 16
-- **open**: 9
+- **open**: 8
 - **hold**: 8
 - **new**: 2
 
@@ -158,11 +158,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 1
 - **telling us** + **n/a**: 1
 - **curious** + **escalated**: 1
-- **confused** + **escalated**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **request** + **informed**: 1
 - **telling us** + **—**: 1
+- **confused** + **escalated**: 1
 
 ## Tickets in last 24h — by theme
 
@@ -194,6 +194,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-12T02:01 · Delete Account and Refund Request
 - · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-12T13:39 · menu overlaps compose window 
+- · [7575](https://tbpro.zendesk.com/agent/tickets/7575) · 2026-08-12T14:05 · Unable to complete my Signup anymore!
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
