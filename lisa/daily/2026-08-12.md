@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 12:28 ET** · refreshes hourly_  
+_Updated: **2026-08-12 13:29 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **345 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"fail gmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"custom domains outgoing"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -110,9 +110,9 @@ _No negative ratings since launch._
 
 - **solved**: 198
 - **closed**: 114
-- **pending**: 17
+- **pending**: 16
 - **hold**: 8
-- **open**: 6
+- **open**: 7
 - **new**: 2
 
 ## Service (cumulative)
@@ -128,7 +128,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 79
 - **blocked** + **explained**: 64
-- **change request** + **actioned**: 38
+- **change request** + **actioned**: 39
 - **request** + **redirected**: 26
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
@@ -178,9 +178,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email — why: **curious** · how: **actioned**
   > I was wondering if it is possible to change my backup email?
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Refund / Cancel — 1 tickets
 
-- **[#7617](https://tbpro.zendesk.com/agent/tickets/7617)** · request to cancel the plan and a refund
+- **[#7617](https://tbpro.zendesk.com/agent/tickets/7617)** · request to cancel the plan and a refund — why: **change request** · how: **actioned**
   > Hi there, I hope everything is doing well with you! After doing some test with thundermail, I still don't think it's a service that might be a good fit for me. Therefore, I would…
 
 ## New tickets — last 24h
