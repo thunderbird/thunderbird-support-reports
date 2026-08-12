@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 08:27 ET** · refreshes hourly_  
+_Updated: **2026-08-12 09:39 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **345 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **1** solved in last 24h
+- **4** new tickets in last 24h · **2** solved in last 24h
 - **345** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.8h · mean 179.0h (proxy: updated_at − created_at, 197 solved tickets)
+- **Median AHT**: 134.7h · mean 178.6h (proxy: updated_at − created_at, 198 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"still seems"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"tested both personal"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -97,7 +97,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [new] · _request to cancel the plan and a refund_
+- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [open] · _request to cancel the plan and a refund_
   > Hi there, I hope everything is doing well with you! After doing some test with thundermail, I still don't think it's a service that might be a good fit for me. Therefore, I would like to kindly request a cancelation of…
 
 ## New ideas on FeatureOS
@@ -108,12 +108,12 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 197
+- **solved**: 198
 - **closed**: 112
-- **pending**: 17
+- **pending**: 16
+- **open**: 9
 - **hold**: 8
-- **open**: 7
-- **new**: 4
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -187,12 +187,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
-- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [new] · 2026-08-12T07:28 · request to cancel the plan and a refund
-- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [new] · 2026-08-12T09:01 · Change backup email
+- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [open] · 2026-08-12T07:28 · request to cancel the plan and a refund
+- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [open] · 2026-08-12T09:01 · Change backup email
 
 ## Solved — last 24h
 
 - · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-12T02:01 · Delete Account and Refund Request
+- · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-12T13:39 · menu overlaps compose window 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
