@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-11
 
-_Updated: **2026-08-11 23:01 ET** · refreshes hourly_  
+_Updated: **2026-08-11 23:51 ET** · refreshes hourly_  
 _24h window: 2026-08-10T16:00 → 2026-08-11T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -111,9 +111,9 @@ _(none in last 24h)_
 
 - **solved**: 197
 - **closed**: 112
-- **pending**: 20
+- **pending**: 18
 - **hold**: 8
-- **open**: 4
+- **open**: 6
 - **new**: 2
 
 ## Service (cumulative)
@@ -169,10 +169,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Pricing — payment issue — 2 tickets
 
-- **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues — why: **blocked** · how: **investigated**
-  > I’m trying to pay for the damn Early Bird annual fee for Thundermail. The payment in Reais (BRL) didn’t work. I contacted my card issuer, and they said the problem was on the…
 - **[#7599](https://tbpro.zendesk.com/agent/tickets/7599)** · Need help changing subscription payment method — why: **blocked** · how: **explained**
   > hello! I currently have an active Thunderbird Pro subscription paid by Visa through Paddle. I'd like to change the payment method for future renewals from credit card to PayPal.…
+- **[#7608](https://tbpro.zendesk.com/agent/tickets/7608)** · payment issues — why: **blocked** · how: **investigated**
+  > I’m trying to pay for the damn Early Bird annual fee for Thundermail. The payment in Reais (BRL) didn’t work. I contacted my card issuer, and they said the problem was on the…
 
 ### Other / uncategorized — 1 tickets
 
@@ -200,7 +200,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7581](https://tbpro.zendesk.com/agent/tickets/7581) · [pending] · 2026-08-10T20:57 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 - [7587](https://tbpro.zendesk.com/agent/tickets/7587) · [open] · 2026-08-11T05:58 · Забыл пароль
 - [7596](https://tbpro.zendesk.com/agent/tickets/7596) · [pending] · 2026-08-11T09:41 · Custom Domain settings with Godaddy
-- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [pending] · 2026-08-11T11:08 · Need help changing subscription payment method
+- [7599](https://tbpro.zendesk.com/agent/tickets/7599) · [open] · 2026-08-11T11:08 · Need help changing subscription payment method
 - [7608](https://tbpro.zendesk.com/agent/tickets/7608) · [hold] · 2026-08-11T18:29 · payment issues
 
 ## Solved — last 24h
