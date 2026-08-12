@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 10:33 ET** · refreshes hourly_  
+_Updated: **2026-08-12 11:29 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **345 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"found reference attached"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"gmail custom"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -110,9 +110,9 @@ _No negative ratings since launch._
 
 - **solved**: 198
 - **closed**: 113
-- **pending**: 16
-- **open**: 8
+- **pending**: 17
 - **hold**: 8
+- **open**: 7
 - **new**: 2
 
 ## Service (cumulative)
@@ -142,13 +142,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
+- **curious** + **actioned**: 2
 - **concerned** + **—**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
 - **curious** + **—**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
-- **curious** + **actioned**: 1
 - **change request** + **informed**: 1
 - **blocked** + **informed**: 1
 - **telling us** + **redirected**: 1
@@ -175,7 +175,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 1 tickets
 
-- **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email
+- **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email — why: **curious** · how: **actioned**
   > I was wondering if it is possible to change my backup email?
 
 ### Subscription / billing / refund / cancel — 1 tickets
