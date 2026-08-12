@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 15:32 ET** · refreshes hourly_  
+_Updated: **2026-08-12 16:22 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 52** of rollout — **6,500 invitees**, **346 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 52** of rollout — **6,500 invitees**, **347 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **5** new tickets in last 24h · **4** solved in last 24h
-- **346** tickets total since launch · contact rate **5%** of 6500 invitees
+- **347** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.1h · mean 177.7h (proxy: updated_at − created_at, 196 solved tickets)
+- **Median AHT**: 134.5h · mean 177.8h (proxy: updated_at − created_at, 197 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"headers these"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"personal after removing"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -108,17 +108,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 196
+- **solved**: 197
 - **closed**: 116
-- **pending**: 16
+- **pending**: 17
 - **hold**: 8
-- **open**: 7
+- **open**: 6
 - **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 164
-- **Thundermail**: 149
+- **Thundermail**: 150
 - **Appointment**: 12
 - **Send**: 10
 
@@ -178,23 +178,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7628](https://tbpro.zendesk.com/agent/tickets/7628)** · I have been invited to join Thundermail, but no option for one month
   > Hello, After a long waiting period, I finally received an invite to join **Thundermail**, and to register an account with you (the Company). However, upon completing my account…
 
-### Other / uncategorized — 1 tickets
-
-- **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email — why: **curious** · how: **actioned**
-  > I was wondering if it is possible to change my backup email?
-
 ### Refund / Cancel — 1 tickets
 
 - **[#7617](https://tbpro.zendesk.com/agent/tickets/7617)** · request to cancel the plan and a refund — why: **change request** · how: **actioned**
   > Hi there, I hope everything is doing well with you! After doing some test with thundermail, I still don't think it's a service that might be a good fit for me. Therefore, I would…
+
+### Other / uncategorized — 1 tickets
+
+- **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email — why: **curious** · how: **actioned**
+  > I was wondering if it is possible to change my backup email?
 
 ## New tickets — last 24h
 
 - [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [open] · 2026-08-12T07:28 · request to cancel the plan and a refund
-- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [open] · 2026-08-12T09:01 · Change backup email
-- [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [new] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
+- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [pending] · 2026-08-12T09:01 · Change backup email
+- [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [open] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
 
 ## Solved — last 24h
 
