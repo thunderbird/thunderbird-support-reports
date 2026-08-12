@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 17:24 ET** · refreshes hourly_  
+_Updated: **2026-08-12 18:22 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 52** of rollout — **6,500 invitees**, **347 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 52** of rollout — **6,500 invitees**, **346 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **347** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **4** solved in last 24h
+- **346** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.6h · mean 178.0h (proxy: updated_at − created_at, 196 solved tickets)
+- **Median AHT**: 134.7h · mean 181.0h (proxy: updated_at − created_at, 196 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"workspace umich"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"workspace after removing"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -97,7 +97,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [open] · _request to cancel the plan and a refund_
+- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [pending] · _request to cancel the plan and a refund_
   > Hi there, I hope everything is doing well with you! After doing some test with thundermail, I still don't think it's a service that might be a good fit for me. Therefore, I would like to kindly request a cancelation of…
 
 ## New ideas on FeatureOS
@@ -109,11 +109,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 196
-- **closed**: 117
-- **pending**: 18
+- **closed**: 118
+- **pending**: 19
 - **hold**: 8
-- **open**: 5
 - **new**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -126,16 +126,16 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 79
-- **blocked** + **explained**: 64
-- **change request** + **actioned**: 39
+- **curious** + **explained**: 80
+- **blocked** + **explained**: 63
+- **change request** + **actioned**: 38
 - **request** + **redirected**: 26
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 6
+- **blocked** + **redirected**: 5
 - **blocked** + **actioned**: 5
-- **blocked** + **redirected**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **blocked** + **n/a**: 3
@@ -173,15 +173,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7614](https://tbpro.zendesk.com/agent/tickets/7614)** · DKIM is marked as FAIL in Gmail with custom domain
   > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
 
-### Early bird / invite / waitlist — 1 tickets
+### Pricing — general pricing concern — 1 tickets
 
-- **[#7628](https://tbpro.zendesk.com/agent/tickets/7628)** · I have been invited to join Thundermail, but no option for one month
+- **[#7628](https://tbpro.zendesk.com/agent/tickets/7628)** · I have been invited to join Thundermail, but no option for one month — why: **curious** · how: **explained**
   > Hello, After a long waiting period, I finally received an invite to join **Thundermail**, and to register an account with you (the Company). However, upon completing my account…
-
-### Refund / Cancel — 1 tickets
-
-- **[#7617](https://tbpro.zendesk.com/agent/tickets/7617)** · request to cancel the plan and a refund — why: **change request** · how: **actioned**
-  > Hi there, I hope everything is doing well with you! After doing some test with thundermail, I still don't think it's a service that might be a good fit for me. Therefore, I would…
 
 ### Other / uncategorized — 1 tickets
 
@@ -192,9 +187,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
-- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [open] · 2026-08-12T07:28 · request to cancel the plan and a refund
 - [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [pending] · 2026-08-12T09:01 · Change backup email
-- [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [open] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
+- [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [pending] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
 
 ## Solved — last 24h
 
