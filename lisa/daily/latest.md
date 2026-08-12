@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 04:38 ET** · refreshes hourly_  
+_Updated: **2026-08-12 05:33 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 52** of rollout — **6,500 invitees**, **344 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 52** of rollout — **6,500 invitees**, **345 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **1** solved in last 24h
-- **344** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **1** solved in last 24h
+- **345** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -20,7 +20,7 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **344 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"records added"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"present then"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -113,12 +113,12 @@ _No negative ratings since launch._
 - **pending**: 17
 - **hold**: 8
 - **open**: 7
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 164
-- **Thundermail**: 148
+- **Thundermail**: 149
 - **Appointment**: 12
 - **Send**: 10
 
@@ -173,6 +173,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7614](https://tbpro.zendesk.com/agent/tickets/7614)** · DKIM is marked as FAIL in Gmail with custom domain
   > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
 
+### Other / uncategorized — 1 tickets
+
+- **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email
+  > I was wondering if it is possible to change my backup email?
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7617](https://tbpro.zendesk.com/agent/tickets/7617)** · request to cancel the plan and a refund
@@ -183,6 +188,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [new] · 2026-08-12T07:28 · request to cancel the plan and a refund
+- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [new] · 2026-08-12T09:01 · Change backup email
 
 ## Solved — last 24h
 
