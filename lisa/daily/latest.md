@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-13 08:27 ET** · refreshes hourly_  
+_Updated: **2026-08-13 09:39 ET** · refreshes hourly_  
 _24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -106,8 +106,7 @@ _(none in last 24h)_
 - **closed**: 119
 - **pending**: 19
 - **hold**: 9
-- **open**: 5
-- **new**: 1
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -185,7 +184,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7631](https://tbpro.zendesk.com/agent/tickets/7631) · [pending] · 2026-08-12T20:11 · Why is my email going straight forward to the junk mail?
 - [7635](https://tbpro.zendesk.com/agent/tickets/7635) · [open] · 2026-08-13T02:35 · You're Invited: Thundermail Early Bird Access
 - [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [open] · 2026-08-13T02:46 · outgoing mail problem?
-- [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [new] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
+- [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [open] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
 
 ## Solved — last 24h
 
