@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-13 02:40 ET** · refreshes hourly_  
+_Updated: **2026-08-13 03:43 ET** · refreshes hourly_  
 _24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 53** of rollout — **6,500 invitees**, **347 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 53** of rollout — **6,500 invitees**, **348 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
-- **347** tickets total since launch · contact rate **5%** of 6500 invitees
+- **4** new tickets in last 24h · **2** solved in last 24h
+- **348** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -107,11 +107,12 @@ _(none in last 24h)_
 - **pending**: 19
 - **hold**: 9
 - **open**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 165
-- **Thundermail**: 149
+- **Thundermail**: 150
 - **Appointment**: 12
 - **Send**: 10
 
@@ -159,6 +160,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#7642](https://tbpro.zendesk.com/agent/tickets/7642)** · Error creating alias [email] – unclear/technical error message
+  > When I try to create another alias ([email]), I get the message shown in the attachment. I assume the alias is already taken, but the message looks more like a technical error;…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#7636](https://tbpro.zendesk.com/agent/tickets/7636)** · outgoing mail problem?
@@ -179,6 +185,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7631](https://tbpro.zendesk.com/agent/tickets/7631) · [pending] · 2026-08-12T20:11 · Why is my email going straight forward to the junk mail?
 - [7635](https://tbpro.zendesk.com/agent/tickets/7635) · [open] · 2026-08-13T02:35 · You're Invited: Thundermail Early Bird Access
 - [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [open] · 2026-08-13T02:46 · outgoing mail problem?
+- [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [new] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
 
 ## Solved — last 24h
 
