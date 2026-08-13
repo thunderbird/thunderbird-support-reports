@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-13 17:25 ET** · refreshes hourly_  
+_Updated: **2026-08-13 18:23 ET** · refreshes hourly_  
 _24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -104,9 +104,9 @@ _(none in last 24h)_
 
 - **solved**: 194
 - **closed**: 120
-- **pending**: 24
+- **pending**: 25
 - **hold**: 7
-- **open**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -120,7 +120,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 80
-- **blocked** + **explained**: 63
+- **blocked** + **explained**: 64
 - **change request** + **actioned**: 39
 - **request** + **redirected**: 27
 - **blocked** + **investigated**: 18
@@ -161,7 +161,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 1 tickets
 
-- **[#7642](https://tbpro.zendesk.com/agent/tickets/7642)** · Error creating alias [email] – unclear/technical error message
+- **[#7642](https://tbpro.zendesk.com/agent/tickets/7642)** · Error creating alias [email] – unclear/technical error message — why: **blocked** · how: **explained**
   > When I try to create another alias ([email]), I get the message shown in the attachment. I assume the alias is already taken, but the message looks more like a technical error;…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
@@ -184,7 +184,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7631](https://tbpro.zendesk.com/agent/tickets/7631) · [pending] · 2026-08-12T20:11 · Why is my email going straight forward to the junk mail?
 - [7635](https://tbpro.zendesk.com/agent/tickets/7635) · [pending] · 2026-08-13T02:35 · You're Invited: Thundermail Early Bird Access
 - [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [pending] · 2026-08-13T02:46 · outgoing mail problem?
-- [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [open] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
+- [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [pending] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
 
 ## Solved — last 24h
 
