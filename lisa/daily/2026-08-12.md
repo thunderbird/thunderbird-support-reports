@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 21:45 ET** · refreshes hourly_  
+_Updated: **2026-08-12 23:03 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 52** of rollout — **6,500 invitees**, **346 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 52** of rollout — **6,500 invitees**, **348 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **4** new tickets in last 24h · **4** solved in last 24h
-- **346** tickets total since launch · contact rate **5%** of 6500 invitees
+- **348** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -20,7 +20,7 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **346 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"newly listed"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"outgoing custom"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 35 incident(s)
 
@@ -112,13 +112,13 @@ _No negative ratings since launch._
 - **closed**: 119
 - **pending**: 17
 - **hold**: 8
+- **new**: 5
 - **open**: 4
-- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 164
-- **Thundermail**: 150
+- **Thundermail**: 151
 - **Appointment**: 12
 - **Send**: 10
 
