@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-12
 
-_Updated: **2026-08-12 23:03 ET** · refreshes hourly_  
+_Updated: **2026-08-12 23:53 ET** · refreshes hourly_  
 _24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,16 +13,16 @@ Flight 3 is **day 52** of rollout — **6,500 invitees**, **348 tickets** so far
 - **348** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
 - **Median AHT**: 134.8h · mean 181.8h (proxy: updated_at − created_at, 195 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"outgoing custom"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
+- **"domain registrar"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
-## Known problems — 6 problem(s), 35 incident(s)
+## Known problems — 6 problem(s), 36 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -42,7 +42,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [solved] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 24 incident(s):
+- 25 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [solved] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -50,6 +50,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [closed] · 2026-07-08 · _Refund_
   - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [closed] · 2026-07-09 · _Request Refund_
   - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [closed] · 2026-07-09 · _Cancel subscription and refund_
+  - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [pending] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [solved] · 2026-07-14 · _Declaration of Withdrawal_
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [solved] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
@@ -110,15 +111,15 @@ _No negative ratings since launch._
 
 - **solved**: 195
 - **closed**: 119
-- **pending**: 17
+- **pending**: 19
 - **hold**: 8
-- **new**: 5
-- **open**: 4
+- **new**: 4
+- **open**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 164
-- **Thundermail**: 151
+- **Account Hub**: 165
+- **Thundermail**: 150
 - **Appointment**: 12
 - **Send**: 10
 
@@ -128,11 +129,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 80
 - **blocked** + **explained**: 63
-- **change request** + **actioned**: 38
+- **change request** + **actioned**: 39
 - **request** + **redirected**: 26
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
-- **confused** + **explained**: 11
+- **confused** + **explained**: 10
 - **concerned** + **explained**: 6
 - **blocked** + **redirected**: 5
 - **blocked** + **actioned**: 5
@@ -185,7 +186,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
+- [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [open] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
 - [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [open] · 2026-08-12T09:01 · Change backup email
 - [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [pending] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
