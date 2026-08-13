@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-13 13:29 ET** · refreshes hourly_  
+_Updated: **2026-08-13 14:28 ET** · refreshes hourly_  
 _24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -104,9 +104,9 @@ _(none in last 24h)_
 
 - **solved**: 194
 - **closed**: 120
-- **pending**: 21
+- **pending**: 22
 - **hold**: 8
-- **open**: 5
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -126,7 +126,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
 - **confused** + **explained**: 10
-- **concerned** + **explained**: 7
+- **concerned** + **explained**: 8
 - **blocked** + **redirected**: 5
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
@@ -164,15 +164,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7642](https://tbpro.zendesk.com/agent/tickets/7642)** · Error creating alias [email] – unclear/technical error message
   > When I try to create another alias ([email]), I get the message shown in the attachment. I assume the alias is already taken, but the message looks more like a technical error;…
 
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#7636](https://tbpro.zendesk.com/agent/tickets/7636)** · outgoing mail problem?
-  > I've had several emails bounce back when I send from Thundermail. Is there an issue with your servers somehow getting identified as spam? (I edited the email address I sent to for…
-
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7635](https://tbpro.zendesk.com/agent/tickets/7635)** · You're Invited: Thundermail Early Bird Access
   > Hi [name], This is great news! I'm planning to sign up for the Early Bird beta. Just one thing, I avoid using credit cards or online payment systems, so can you please provide me…
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#7636](https://tbpro.zendesk.com/agent/tickets/7636)** · outgoing mail problem? — why: **concerned** · how: **explained**
+  > I've had several emails bounce back when I send from Thundermail. Is there an issue with your servers somehow getting identified as spam? (I edited the email address I sent to for…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -183,7 +183,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7631](https://tbpro.zendesk.com/agent/tickets/7631) · [pending] · 2026-08-12T20:11 · Why is my email going straight forward to the junk mail?
 - [7635](https://tbpro.zendesk.com/agent/tickets/7635) · [open] · 2026-08-13T02:35 · You're Invited: Thundermail Early Bird Access
-- [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [open] · 2026-08-13T02:46 · outgoing mail problem?
+- [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [pending] · 2026-08-13T02:46 · outgoing mail problem?
 - [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [open] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
 
 ## Solved — last 24h
