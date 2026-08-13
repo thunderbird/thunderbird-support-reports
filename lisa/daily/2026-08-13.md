@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-13 09:39 ET** · refreshes hourly_  
+_Updated: **2026-08-13 10:34 ET** · refreshes hourly_  
 _24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 53** of rollout — **6,500 invitees**, **348 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **2** solved in last 24h
+- **4** new tickets in last 24h · **3** solved in last 24h
 - **348** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.8h · mean 181.8h (proxy: updated_at − created_at, 195 solved tickets)
+- **Median AHT**: 134.8h · mean 181.9h (proxy: updated_at − created_at, 195 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -104,8 +104,8 @@ _(none in last 24h)_
 
 - **solved**: 195
 - **closed**: 119
-- **pending**: 19
-- **hold**: 9
+- **pending**: 20
+- **hold**: 8
 - **open**: 6
 
 ## Service (cumulative)
@@ -190,6 +190,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7430](https://tbpro.zendesk.com/agent/tickets/7430) · 2026-08-12T20:02 · DNS for custom domain
 - · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-08-12T22:02 · Checking if tax documents are available - needed for Thundermail subscription in India
+- · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-13T14:02 · menu overlaps compose window 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
