@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-12
+# Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-12 23:53 ET** · refreshes hourly_  
-_24h window: 2026-08-11T16:00 → 2026-08-12T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-13 00:45 ET** · refreshes hourly_  
+_24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 52** of rollout — **6,500 invitees**, **348 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 53** of rollout — **6,500 invitees**, **347 tickets** so far (5.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **348** tickets total since launch · contact rate **5%** of 6500 invitees
+- **3** new tickets in last 24h · **2** solved in last 24h
+- **347** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
 - **Median AHT**: 134.8h · mean 181.8h (proxy: updated_at − created_at, 195 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"domain registrar"** — 2 tickets in 24h (new; baseline 0 cum) — [#7613](https://tbpro.zendesk.com/agent/tickets/7613), [#7614](https://tbpro.zendesk.com/agent/tickets/7614)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -50,7 +44,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [closed] · 2026-07-08 · _Refund_
   - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [closed] · 2026-07-09 · _Request Refund_
   - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [closed] · 2026-07-09 · _Cancel subscription and refund_
-  - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [pending] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
+  - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [open] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [solved] · 2026-07-14 · _Declaration of Withdrawal_
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [solved] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
@@ -96,10 +90,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7617](https://tbpro.zendesk.com/agent/tickets/7617) · [pending] · _request to cancel the plan and a refund_
-  > Hi there, I hope everything is doing well with you! After doing some test with thundermail, I still don't think it's a service that might be a good fit for me. Therefore, I would like to kindly request a cancelation of…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -112,14 +105,13 @@ _No negative ratings since launch._
 - **solved**: 195
 - **closed**: 119
 - **pending**: 19
-- **hold**: 8
-- **new**: 4
-- **open**: 3
+- **hold**: 9
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 165
-- **Thundermail**: 150
+- **Thundermail**: 149
 - **Appointment**: 12
 - **Send**: 10
 
@@ -134,7 +126,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
 - **confused** + **explained**: 10
-- **concerned** + **explained**: 6
+- **concerned** + **explained**: 7
 - **blocked** + **redirected**: 5
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
@@ -167,36 +159,31 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 2 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#7613](https://tbpro.zendesk.com/agent/tickets/7613)** · DKIM is marked as FAIL in Gmail with custom domain
-  > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
-- **[#7614](https://tbpro.zendesk.com/agent/tickets/7614)** · DKIM is marked as FAIL in Gmail with custom domain
-  > Gmail shows DKIM authentication saying "'FAIL' with domain __domain__" when using custom domains. Outgoing custom-domain mail still seems to be signed with the older Ed25519…
+- **[#7636](https://tbpro.zendesk.com/agent/tickets/7636)** · outgoing mail problem?
+  > I've had several emails bounce back when I send from Thundermail. Is there an issue with your servers somehow getting identified as spam? (I edited the email address I sent to for…
 
-### Other / uncategorized — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7621](https://tbpro.zendesk.com/agent/tickets/7621)** · Change backup email — why: **curious** · how: **actioned**
-  > I was wondering if it is possible to change my backup email?
+- **[#7635](https://tbpro.zendesk.com/agent/tickets/7635)** · You're Invited: Thundermail Early Bird Access
+  > Hi [name], This is great news! I'm planning to sign up for the Early Bird beta. Just one thing, I avoid using credit cards or online payment systems, so can you please provide me…
 
-### Pricing — general pricing concern — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#7628](https://tbpro.zendesk.com/agent/tickets/7628)** · I have been invited to join Thundermail, but no option for one month — why: **curious** · how: **explained**
-  > Hello, After a long waiting period, I finally received an invite to join **Thundermail**, and to register an account with you (the Company). However, upon completing my account…
+- **[#7631](https://tbpro.zendesk.com/agent/tickets/7631)** · Why is my email going straight forward to the junk mail? — why: **concerned** · how: **explained**
+  > So, I am one of the Thunderbird beta testers and I am having an issue with my outgoing email. They all land in the junk email folder of several providers. Even when I use a custom…
 
 ## New tickets — last 24h
 
-- [7613](https://tbpro.zendesk.com/agent/tickets/7613) · [open] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
-- [7614](https://tbpro.zendesk.com/agent/tickets/7614) · [new] · 2026-08-12T01:10 · DKIM is marked as FAIL in Gmail with custom domain
-- [7621](https://tbpro.zendesk.com/agent/tickets/7621) · [open] · 2026-08-12T09:01 · Change backup email
-- [7628](https://tbpro.zendesk.com/agent/tickets/7628) · [pending] · 2026-08-12T18:42 · I have been invited to join Thundermail, but no option for one month
+- [7631](https://tbpro.zendesk.com/agent/tickets/7631) · [pending] · 2026-08-12T20:11 · Why is my email going straight forward to the junk mail?
+- [7635](https://tbpro.zendesk.com/agent/tickets/7635) · [open] · 2026-08-13T02:35 · You're Invited: Thundermail Early Bird Access
+- [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [open] · 2026-08-13T02:46 · outgoing mail problem?
 
 ## Solved — last 24h
 
-- · [7558](https://tbpro.zendesk.com/agent/tickets/7558) · 2026-08-12T02:01 · Delete Account and Refund Request
-- · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-12T13:39 · menu overlaps compose window 
-- · [7575](https://tbpro.zendesk.com/agent/tickets/7575) · 2026-08-12T14:05 · Unable to complete my Signup anymore!
-- · [7410](https://tbpro.zendesk.com/agent/tickets/7410) · 2026-08-12T16:02 · backup
+- · [7430](https://tbpro.zendesk.com/agent/tickets/7430) · 2026-08-12T20:02 · DNS for custom domain
+- · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-08-12T22:02 · Checking if tax documents are available - needed for Thundermail subscription in India
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
