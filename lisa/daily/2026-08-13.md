@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-13
 
-_Updated: **2026-08-13 12:28 ET** · refreshes hourly_  
+_Updated: **2026-08-13 13:29 ET** · refreshes hourly_  
 _24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 53** of rollout — **6,500 invitees**, **348 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
+- **4** new tickets in last 24h · **4** solved in last 24h
 - **348** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.8h · mean 182.6h (proxy: updated_at − created_at, 193 solved tickets)
+- **Median AHT**: 134.9h · mean 185.9h (proxy: updated_at − created_at, 194 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -44,7 +44,7 @@ Flight 3 is **day 53** of rollout — **6,500 invitees**, **348 tickets** so far
   - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [closed] · 2026-07-08 · _Refund_
   - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [closed] · 2026-07-09 · _Request Refund_
   - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [closed] · 2026-07-09 · _Cancel subscription and refund_
-  - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [open] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
+  - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [solved] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [solved] · 2026-07-14 · _Declaration of Withdrawal_
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [solved] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
@@ -102,11 +102,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 193
+- **solved**: 194
 - **closed**: 120
 - **pending**: 21
 - **hold**: 8
-- **open**: 6
+- **open**: 5
 
 ## Service (cumulative)
 
@@ -191,6 +191,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7430](https://tbpro.zendesk.com/agent/tickets/7430) · 2026-08-12T20:02 · DNS for custom domain
 - · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-08-12T22:02 · Checking if tax documents are available - needed for Thundermail subscription in India
 - · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-13T14:02 · menu overlaps compose window 
+- · [6752](https://tbpro.zendesk.com/agent/tickets/6752) · 2026-08-13T17:20 · How to use Thundermail as I used to do with Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
