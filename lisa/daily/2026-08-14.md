@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-14
 
-_Updated: **2026-08-14 09:38 ET** · refreshes hourly_  
+_Updated: **2026-08-14 10:30 ET** · refreshes hourly_  
 _24h window: 2026-08-13T16:00 → 2026-08-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 54** of rollout — **6,500 invitees**, **348 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.9h · mean 185.9h (proxy: updated_at − created_at, 194 solved tickets)
+- **Median AHT**: 134.8h · mean 183.9h (proxy: updated_at − created_at, 193 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -33,7 +33,7 @@ Flight 3 is **day 54** of rollout — **6,500 invitees**, **348 tickets** so far
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [solved] · 2026-07-08 · _Webmail - no mail from own domain_
+  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [closed] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
 - 25 incident(s):
@@ -102,8 +102,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 194
-- **closed**: 120
+- **solved**: 193
+- **closed**: 121
 - **pending**: 23
 - **hold**: 7
 - **open**: 4
