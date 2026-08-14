@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-14
 
-_Updated: **2026-08-14 11:25 ET** · refreshes hourly_  
+_Updated: **2026-08-14 12:26 ET** · refreshes hourly_  
 _24h window: 2026-08-13T16:00 → 2026-08-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 54** of rollout — **6,500 invitees**, **348 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 54** of rollout — **6,500 invitees**, **349 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **0** solved in last 24h
-- **348** tickets total since launch · contact rate **5%** of 6500 invitees
+- **1** new tickets in last 24h · **0** solved in last 24h
+- **349** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (15 good / 0 bad)
+- **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 134.8h · mean 183.9h (proxy: updated_at − created_at, 193 solved tickets)
+- **Median AHT**: 135.1h · mean 185.1h (proxy: updated_at − created_at, 191 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -102,18 +102,19 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 193
-- **closed**: 121
+- **solved**: 191
+- **closed**: 123
 - **pending**: 23
-- **hold**: 7
-- **open**: 4
+- **hold**: 8
+- **open**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 165
 - **Thundermail**: 150
 - **Appointment**: 12
-- **Send**: 10
+- **Send**: 11
 
 ## Why × How (cumulative)
 
@@ -159,11 +160,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7670](https://tbpro.zendesk.com/agent/tickets/7670)** · sender name  E-Mail
+  > How can I make sure that the email is sent with the custom domain name and not with the Thundermail account as the sender?
 
 ## New tickets — last 24h
 
-_(none)_
+- [7670](https://tbpro.zendesk.com/agent/tickets/7670) · [new] · 2026-08-14T15:39 · sender name  E-Mail
 
 ## Solved — last 24h
 
