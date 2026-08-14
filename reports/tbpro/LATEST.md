@@ -1,15 +1,15 @@
-# Thundermail — Flight 3 Live Report · 2026-08-13
+# Thundermail — Flight 3 Live Report · 2026-08-14
 
-_Updated: **2026-08-13 23:51 ET** · refreshes hourly_  
-_24h window: 2026-08-12T16:00 → 2026-08-13T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-14 00:45 ET** · refreshes hourly_  
+_24h window: 2026-08-13T16:00 → 2026-08-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 53** of rollout — **6,500 invitees**, **348 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 54** of rollout — **6,500 invitees**, **348 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
+- **0** new tickets in last 24h · **0** solved in last 24h
 - **348** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
@@ -159,39 +159,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#7636](https://tbpro.zendesk.com/agent/tickets/7636)** · outgoing mail problem? — why: **concerned** · how: **explained**
-  > I've had several emails bounce back when I send from Thundermail. Is there an issue with your servers somehow getting identified as spam? (I edited the email address I sent to for…
-
-### Aliases — 1 tickets
-
-- **[#7642](https://tbpro.zendesk.com/agent/tickets/7642)** · Error creating alias [email] – unclear/technical error message — why: **blocked** · how: **explained**
-  > When I try to create another alias ([email]), I get the message shown in the attachment. I assume the alias is already taken, but the message looks more like a technical error;…
-
-### Request or complaint — 1 tickets
-
-- **[#7635](https://tbpro.zendesk.com/agent/tickets/7635)** · You're Invited: Thundermail Early Bird Access — why: **request** · how: **redirected**
-  > Hi [name], This is great news! I'm planning to sign up for the Early Bird beta. Just one thing, I avoid using credit cards or online payment systems, so can you please provide me…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7631](https://tbpro.zendesk.com/agent/tickets/7631)** · Why is my email going straight forward to the junk mail? — why: **concerned** · how: **explained**
-  > So, I am one of the Thunderbird beta testers and I am having an issue with my outgoing email. They all land in the junk email folder of several providers. Even when I use a custom…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7631](https://tbpro.zendesk.com/agent/tickets/7631) · [pending] · 2026-08-12T20:11 · Why is my email going straight forward to the junk mail?
-- [7635](https://tbpro.zendesk.com/agent/tickets/7635) · [pending] · 2026-08-13T02:35 · You're Invited: Thundermail Early Bird Access
-- [7636](https://tbpro.zendesk.com/agent/tickets/7636) · [open] · 2026-08-13T02:46 · outgoing mail problem?
-- [7642](https://tbpro.zendesk.com/agent/tickets/7642) · [pending] · 2026-08-13T07:40 · Error creating alias [email] – unclear/technical error message
+_(none)_
 
 ## Solved — last 24h
 
-- · [7430](https://tbpro.zendesk.com/agent/tickets/7430) · 2026-08-12T20:02 · DNS for custom domain
-- · [6859](https://tbpro.zendesk.com/agent/tickets/6859) · 2026-08-12T22:02 · Checking if tax documents are available - needed for Thundermail subscription in India
-- · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-13T14:02 · menu overlaps compose window 
-- · [6752](https://tbpro.zendesk.com/agent/tickets/6752) · 2026-08-13T17:20 · How to use Thundermail as I used to do with Thunderbird
+_(none)_
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
