@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-15
 
-_Updated: **2026-08-15 12:15 ET** · refreshes hourly_  
+_Updated: **2026-08-15 13:15 ET** · refreshes hourly_  
 _24h window: 2026-08-14T16:00 → 2026-08-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 55** of rollout — **6,500 invitees**, **351 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **351** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
-- **Median AHT**: 135.3h · mean 187.6h (proxy: updated_at − created_at, 192 solved tickets)
+- **Median AHT**: 135.1h · mean 187.3h (proxy: updated_at − created_at, 190 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -102,12 +102,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 192
-- **closed**: 124
+- **solved**: 190
+- **closed**: 126
 - **pending**: 22
-- **hold**: 9
+- **hold**: 8
+- **open**: 3
 - **new**: 2
-- **open**: 2
 
 ## Service (cumulative)
 
@@ -178,6 +178,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [7308](https://tbpro.zendesk.com/agent/tickets/7308) · 2026-08-15T16:01 · i wont able to use appointment
+- · [7282](https://tbpro.zendesk.com/agent/tickets/7282) · 2026-08-15T17:02 · Thunderbird Send fails
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
