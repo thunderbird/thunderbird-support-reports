@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-15
 
-_Updated: **2026-08-15 01:16 ET** · refreshes hourly_  
+_Updated: **2026-08-15 02:16 ET** · refreshes hourly_  
 _24h window: 2026-08-14T16:00 → 2026-08-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 55** of rollout — **6,500 invitees**, **349 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 55** of rollout — **6,500 invitees**, **350 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **0** solved in last 24h
-- **349** tickets total since launch · contact rate **5%** of 6500 invitees
+- **1** new tickets in last 24h · **0** solved in last 24h
+- **350** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
@@ -106,11 +106,12 @@ _(none in last 24h)_
 - **closed**: 123
 - **pending**: 24
 - **hold**: 9
+- **new**: 1
 - **open**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 165
+- **Account Hub**: 166
 - **Thundermail**: 150
 - **Appointment**: 12
 - **Send**: 11
@@ -159,11 +160,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Email migration / import — 1 tickets
+
+- **[#7678](https://tbpro.zendesk.com/agent/tickets/7678)** · Pricing and Release
+  > Hi, I'm thinking about switching to Thundermail/TB Pro for myself and my girlfriend. As much as you may hate this question, when is an ETA for release (it just says 2026?) and how…
 
 ## New tickets — last 24h
 
-_(none)_
+- [7678](https://tbpro.zendesk.com/agent/tickets/7678) · [new] · 2026-08-15T05:47 · Pricing and Release
 
 ## Solved — last 24h
 
