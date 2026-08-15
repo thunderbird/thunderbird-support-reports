@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-14
+# Thundermail — Flight 3 Live Report · 2026-08-15
 
-_Updated: **2026-08-14 23:22 ET** · refreshes hourly_  
-_24h window: 2026-08-13T16:00 → 2026-08-14T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-15 00:16 ET** · refreshes hourly_  
+_24h window: 2026-08-14T16:00 → 2026-08-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 54** of rollout — **6,500 invitees**, **349 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 55** of rollout — **6,500 invitees**, **349 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **2** solved in last 24h
+- **0** new tickets in last 24h · **0** solved in last 24h
 - **349** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 68
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
 - **Median AHT**: 135.1h · mean 186.2h (proxy: updated_at − created_at, 192 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
@@ -96,10 +96,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [RSS Feed Access Missing from Spaces](https://ideas.tb.pro/p/rss-feed-access-missing-from-spaces) · 1 votes · _untagged_
-  > What you’d like to seePlease add the RSS Feeds to the SPACES Column. Why it mattersThe RSS Feed gets buried away at the bottom, even if it is favorited, or in a subdirectory. Your use caseWell it…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -160,19 +159,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7670](https://tbpro.zendesk.com/agent/tickets/7670)** · sender name  E-Mail — why: **blocked** · how: **informed**
-  > How can I make sure that the email is sent with the custom domain name and not with the Thundermail account as the sender?
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7670](https://tbpro.zendesk.com/agent/tickets/7670) · [pending] · 2026-08-14T15:39 · sender name  E-Mail
+_(none)_
 
 ## Solved — last 24h
 
-- · [7282](https://tbpro.zendesk.com/agent/tickets/7282) · 2026-08-14T16:55 · Thunderbird Send fails
-- · [6752](https://tbpro.zendesk.com/agent/tickets/6752) · 2026-08-14T18:01 · How to use Thundermail as I used to do with Thunderbird
+_(none)_
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
