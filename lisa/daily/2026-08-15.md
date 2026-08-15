@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-15
 
-_Updated: **2026-08-15 11:15 ET** · refreshes hourly_  
+_Updated: **2026-08-15 12:15 ET** · refreshes hourly_  
 _24h window: 2026-08-14T16:00 → 2026-08-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 55** of rollout — **6,500 invitees**, **350 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 55** of rollout — **6,500 invitees**, **351 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
-- **350** tickets total since launch · contact rate **5%** of 6500 invitees
+- **2** new tickets in last 24h · **1** solved in last 24h
+- **351** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
-- **Median AHT**: 135.1h · mean 186.2h (proxy: updated_at − created_at, 192 solved tickets)
+- **Median AHT**: 135.3h · mean 187.6h (proxy: updated_at − created_at, 192 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -103,16 +103,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 192
-- **closed**: 123
-- **pending**: 23
+- **closed**: 124
+- **pending**: 22
 - **hold**: 9
+- **new**: 2
 - **open**: 2
-- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 166
-- **Thundermail**: 150
+- **Thundermail**: 151
 - **Appointment**: 12
 - **Send**: 11
 
@@ -160,6 +160,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#7690](https://tbpro.zendesk.com/agent/tickets/7690)** · Account recovery
+  > Any other way to prove to get back access to my Thundermail? Forgotten details to my recovery mail [email] as I messed with my password manager and to restore access to it all…
+
 ### Email migration / import — 1 tickets
 
 - **[#7678](https://tbpro.zendesk.com/agent/tickets/7678)** · Pricing and Release
@@ -168,10 +173,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7678](https://tbpro.zendesk.com/agent/tickets/7678) · [new] · 2026-08-15T05:47 · Pricing and Release
+- [7690](https://tbpro.zendesk.com/agent/tickets/7690) · [new] · 2026-08-15T16:00 · Account recovery
 
 ## Solved — last 24h
 
-_(none)_
+- · [7308](https://tbpro.zendesk.com/agent/tickets/7308) · 2026-08-15T16:01 · i wont able to use appointment
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
