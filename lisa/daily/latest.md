@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-15
 
-_Updated: **2026-08-15 13:15 ET** · refreshes hourly_  
+_Updated: **2026-08-15 14:16 ET** · refreshes hourly_  
 _24h window: 2026-08-14T16:00 → 2026-08-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 55** of rollout — **6,500 invitees**, **351 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
+- **2** new tickets in last 24h · **1** solved in last 24h
 - **351** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
-- **Median AHT**: 135.1h · mean 187.3h (proxy: updated_at − created_at, 190 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
+- **Median AHT**: 134.7h · mean 186.5h (proxy: updated_at − created_at, 186 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -96,17 +96,18 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Coinciding appointment titles overlay and are unreadable](https://ideas.tb.pro/p/coinciding-appointment-titles-overlay-and-are-unreadable) · 1 votes · _untagged_
+  > What you’d like to seeAppointment dashboard does not show overlapping appointment text clearly when the appointment start times coincide.Why it mattersThe text at the top of the appointment vertical…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 190
-- **closed**: 126
+- **solved**: 186
+- **closed**: 129
 - **pending**: 22
-- **hold**: 8
-- **open**: 3
+- **hold**: 7
+- **open**: 5
 - **new**: 2
 
 ## Service (cumulative)
@@ -149,9 +150,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
-- **telling us** + **n/a**: 1
 - **curious** + **escalated**: 1
 - **other** + **n/a**: 1
+- **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **request** + **informed**: 1
@@ -178,7 +179,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [7308](https://tbpro.zendesk.com/agent/tickets/7308) · 2026-08-15T16:01 · i wont able to use appointment
-- · [7282](https://tbpro.zendesk.com/agent/tickets/7282) · 2026-08-15T17:02 · Thunderbird Send fails
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
