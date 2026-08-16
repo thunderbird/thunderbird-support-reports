@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-16
 
-_Updated: **2026-08-16 08:16 ET** · refreshes hourly_  
+_Updated: **2026-08-16 09:20 ET** · refreshes hourly_  
 _24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
+- **3** new tickets in last 24h · **4** solved in last 24h
 - **354** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
-- **Median AHT**: 134.6h · mean 187.7h (proxy: updated_at − created_at, 186 solved tickets)
+- **Median AHT**: 134.7h · mean 187.4h (proxy: updated_at − created_at, 187 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -60,7 +60,7 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
-  - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [pending] · 2026-08-10 · _Refund request_
+  - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
@@ -103,9 +103,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 186
+- **solved**: 187
 - **closed**: 132
-- **pending**: 19
+- **pending**: 18
 - **hold**: 7
 - **new**: 5
 - **open**: 5
@@ -187,6 +187,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7334](https://tbpro.zendesk.com/agent/tickets/7334) · 2026-08-15T22:01 · thunderbird send: uplodaing files fails
 - · [7569](https://tbpro.zendesk.com/agent/tickets/7569) · 2026-08-15T23:01 · DNS records slow to update
 - · [7580](https://tbpro.zendesk.com/agent/tickets/7580) · 2026-08-16T01:01 · Refund and account deletion
+- · [7572](https://tbpro.zendesk.com/agent/tickets/7572) · 2026-08-16T13:01 · Refund request
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
