@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-16
 
-_Updated: **2026-08-16 05:16 ET** · refreshes hourly_  
+_Updated: **2026-08-16 06:15 ET** · refreshes hourly_  
 _24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 56** of rollout — **6,500 invitees**, **353 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
-- **353** tickets total since launch · contact rate **5%** of 6500 invitees
+- **3** new tickets in last 24h · **3** solved in last 24h
+- **354** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
@@ -90,9 +90,10 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **353 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7703](https://tbpro.zendesk.com/agent/tickets/7703) · [new] · _Cancel_
+  > I'd like to cancel thundermail
 
 ## New ideas on FeatureOS
 
@@ -106,13 +107,13 @@ _(none in last 24h)_
 - **closed**: 132
 - **pending**: 19
 - **hold**: 7
+- **new**: 5
 - **open**: 5
-- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 166
-- **Thundermail**: 153
+- **Thundermail**: 154
 - **Appointment**: 12
 - **Send**: 11
 
@@ -160,6 +161,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7703](https://tbpro.zendesk.com/agent/tickets/7703)** · Cancel
+  > I'd like to cancel thundermail
+
 ### Aliases — 1 tickets
 
 - **[#7700](https://tbpro.zendesk.com/agent/tickets/7700)** · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
@@ -174,6 +180,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7699](https://tbpro.zendesk.com/agent/tickets/7699) · [new] · 2026-08-16T02:06 · suggesting easy DNS import 
 - [7700](https://tbpro.zendesk.com/agent/tickets/7700) · [new] · 2026-08-16T04:34 · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
+- [7703](https://tbpro.zendesk.com/agent/tickets/7703) · [new] · 2026-08-16T09:24 · Cancel
 
 ## Solved — last 24h
 
