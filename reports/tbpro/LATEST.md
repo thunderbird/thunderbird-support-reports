@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-15
+# Thundermail — Flight 3 Live Report · 2026-08-16
 
-_Updated: **2026-08-15 23:27 ET** · refreshes hourly_  
-_24h window: 2026-08-14T16:00 → 2026-08-15T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-16 00:21 ET** · refreshes hourly_  
+_24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 55** of rollout — **6,500 invitees**, **352 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 56** of rollout — **6,500 invitees**, **352 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
+- **1** new tickets in last 24h · **3** solved in last 24h
 - **352** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
 - **Median AHT**: 134.6h · mean 187.7h (proxy: updated_at − created_at, 186 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
@@ -96,10 +96,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Coinciding appointment titles overlay and are unreadable](https://ideas.tb.pro/p/coinciding-appointment-titles-overlay-and-are-unreadable) · 1 votes · _untagged_
-  > What you’d like to seeAppointment dashboard does not show overlapping appointment text clearly when the appointment start times coincide.Why it mattersThe text at the top of the appointment vertical…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -161,24 +160,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#7690](https://tbpro.zendesk.com/agent/tickets/7690)** · Account recovery
-  > Any other way to prove to get back access to my Thundermail? Forgotten details to my recovery mail [email] as I messed with my password manager and to restore access to it all…
-
-### Email migration / import — 1 tickets
-
-- **[#7678](https://tbpro.zendesk.com/agent/tickets/7678)** · Pricing and Release
-  > Hi, I'm thinking about switching to Thundermail/TB Pro for myself and my girlfriend. As much as you may hate this question, when is an ETA for release (it just says 2026?) and how…
+- **[#7699](https://tbpro.zendesk.com/agent/tickets/7699)** · suggesting easy DNS import 
+  > I am setting up DNS for Thundermail on cloudflare, and I did not enjoy the tedious copy/paste for 12 records. I would like to suggest providing some way to make this process…
 
 ## New tickets — last 24h
 
-- [7678](https://tbpro.zendesk.com/agent/tickets/7678) · [new] · 2026-08-15T05:47 · Pricing and Release
-- [7690](https://tbpro.zendesk.com/agent/tickets/7690) · [new] · 2026-08-15T16:00 · Account recovery
+- [7699](https://tbpro.zendesk.com/agent/tickets/7699) · [new] · 2026-08-16T02:06 · suggesting easy DNS import 
 
 ## Solved — last 24h
 
-- · [7308](https://tbpro.zendesk.com/agent/tickets/7308) · 2026-08-15T16:01 · i wont able to use appointment
+- · [7334](https://tbpro.zendesk.com/agent/tickets/7334) · 2026-08-15T22:01 · thunderbird send: uplodaing files fails
+- · [7569](https://tbpro.zendesk.com/agent/tickets/7569) · 2026-08-15T23:01 · DNS records slow to update
+- · [7580](https://tbpro.zendesk.com/agent/tickets/7580) · 2026-08-16T01:01 · Refund and account deletion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
