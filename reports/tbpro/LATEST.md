@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-16
 
-_Updated: **2026-08-16 11:15 ET** · refreshes hourly_  
+_Updated: **2026-08-16 12:15 ET** · refreshes hourly_  
 _24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
+- **3** new tickets in last 24h · **5** solved in last 24h
 - **354** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
@@ -104,8 +104,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **solved**: 187
-- **closed**: 132
-- **pending**: 18
+- **closed**: 133
+- **pending**: 17
 - **hold**: 7
 - **new**: 5
 - **open**: 5
@@ -188,6 +188,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7569](https://tbpro.zendesk.com/agent/tickets/7569) · 2026-08-15T23:01 · DNS records slow to update
 - · [7580](https://tbpro.zendesk.com/agent/tickets/7580) · 2026-08-16T01:01 · Refund and account deletion
 - · [7572](https://tbpro.zendesk.com/agent/tickets/7572) · 2026-08-16T13:01 · Refund request
+- · [7596](https://tbpro.zendesk.com/agent/tickets/7596) · 2026-08-16T16:01 · Custom Domain settings with Godaddy
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
