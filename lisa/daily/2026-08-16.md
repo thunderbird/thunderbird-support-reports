@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-16
 
-_Updated: **2026-08-16 00:21 ET** · refreshes hourly_  
+_Updated: **2026-08-16 01:16 ET** · refreshes hourly_  
 _24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 56** of rollout — **6,500 invitees**, **352 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 56** of rollout — **6,500 invitees**, **353 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
-- **352** tickets total since launch · contact rate **5%** of 6500 invitees
+- **2** new tickets in last 24h · **3** solved in last 24h
+- **353** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
@@ -107,12 +107,12 @@ _(none in last 24h)_
 - **pending**: 19
 - **hold**: 7
 - **open**: 5
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 166
-- **Thundermail**: 152
+- **Thundermail**: 153
 - **Appointment**: 12
 - **Send**: 11
 
@@ -160,6 +160,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#7700](https://tbpro.zendesk.com/agent/tickets/7700)** · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
+  > Hello, I’m submitting this request because messages sent through Thundermail are being placed in the spam folder by Yahoo! JAPAN Mail. This occurs both when sending from my…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7699](https://tbpro.zendesk.com/agent/tickets/7699)** · suggesting easy DNS import 
@@ -168,6 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7699](https://tbpro.zendesk.com/agent/tickets/7699) · [new] · 2026-08-16T02:06 · suggesting easy DNS import 
+- [7700](https://tbpro.zendesk.com/agent/tickets/7700) · [new] · 2026-08-16T04:34 · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
 
 ## Solved — last 24h
 
