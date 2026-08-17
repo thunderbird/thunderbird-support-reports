@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 15:17 ET** · refreshes hourly_  
+_Updated: **2026-08-17 16:15 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **361 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **364 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **6** solved in last 24h
-- **361** tickets total since launch · contact rate **6%** of 6500 invitees
+- **9** new tickets in last 24h · **6** solved in last 24h
+- **364** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 196.1h (proxy: updated_at − created_at, 178 solved tickets)
+- **Median AHT**: 135.9h · mean 195.8h (proxy: updated_at − created_at, 177 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -75,8 +75,9 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **361 tickets** so far
   - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [closed] · 2026-06-24 · _Squarespace Custom Domain_
   - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [closed] · 2026-07-01 · _Namecheap Custom Domains_
 
-## Other tickets linked to GitHub — 8 ticket(s) → 8 issue(s)
+## Other tickets linked to GitHub — 9 ticket(s) → 9 issue(s)
 
+- 🔧 [zd #7714](https://tbpro.zendesk.com/agent/tickets/7714) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 🔧 [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
 - 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
@@ -103,16 +104,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 178
-- **closed**: 149
-- **open**: 13
-- **pending**: 12
+- **solved**: 177
+- **closed**: 150
+- **open**: 15
+- **pending**: 13
 - **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 169
-- **Thundermail**: 156
+- **Account Hub**: 168
+- **Thundermail**: 160
 - **Appointment**: 13
 - **Send**: 12
 
@@ -121,17 +122,17 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 81
-- **blocked** + **explained**: 65
+- **blocked** + **explained**: 64
 - **change request** + **actioned**: 40
 - **request** + **redirected**: 27
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
+- **concerned** + **explained**: 10
 - **confused** + **explained**: 10
-- **concerned** + **explained**: 9
 - **blocked** + **redirected**: 6
+- **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
-- **blocked** + **—**: 4
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
@@ -179,20 +180,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i — why: **blocked** · how: **redirected**
   > Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my…
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7733](https://tbpro.zendesk.com/agent/tickets/7733)** · SRV DNS Settings
+  > Hi [name], I use GoDaddy tomanage all of my domains. I am trying to set up three custom domains in Thundermail but the SRV setup requires more info than you provide. I have…
+
+### Account access issues — 1 tickets
+
+- **[#7732](https://tbpro.zendesk.com/agent/tickets/7732)** · Problems with confirmation email
+  > I NEVER received the confirmation email for setting up my account so I abandoned the process.
+
 ### Email migration / import — 1 tickets
 
-- **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail
+- **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail — why: **blocked** · 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
   > I recently migrated completely from Gmail to Thunderbird/Thundermail and have already closed my Gmail account. Thundermail is now my primary email service. My custom domain is…
 
 ## New tickets — last 24h
 
-- [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail
+- [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
 - [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [pending] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [open] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
 - [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
 - [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [open] · 2026-08-17T16:25 · Trial period available without an annual subscription?
 - [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [open] · 2026-08-17T18:32 · add a google.com account
 - [7731](https://tbpro.zendesk.com/agent/tickets/7731) · [open] · 2026-08-17T19:07 · Fiyatı Yüksek
+- [7732](https://tbpro.zendesk.com/agent/tickets/7732) · [open] · 2026-08-17T19:20 · Problems with confirmation email
+- [7733](https://tbpro.zendesk.com/agent/tickets/7733) · [open] · 2026-08-17T19:22 · SRV DNS Settings
 
 ## Solved — last 24h
 
