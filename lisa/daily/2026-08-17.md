@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 01:21 ET** · refreshes hourly_  
+_Updated: **2026-08-17 02:20 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **354 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **355 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **5** solved in last 24h
-- **354** tickets total since launch · contact rate **5%** of 6500 invitees
+- **1** new tickets in last 24h · **5** solved in last 24h
+- **355** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
-- **Median AHT**: 135.5h · mean 194.5h (proxy: updated_at − created_at, 186 solved tickets)
+- **Median AHT**: 136.2h · mean 195.2h (proxy: updated_at − created_at, 184 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -102,17 +102,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 186
-- **closed**: 140
+- **solved**: 184
+- **closed**: 142
 - **pending**: 11
 - **open**: 7
 - **hold**: 7
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 166
-- **Thundermail**: 154
+- **Thundermail**: 155
 - **Appointment**: 12
 - **Send**: 11
 
@@ -160,11 +160,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Email migration / import — 1 tickets
+
+- **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail
+  > I recently migrated completely from Gmail to Thunderbird/Thundermail and have already closed my Gmail account. Thundermail is now my primary email service. My custom domain is…
 
 ## New tickets — last 24h
 
-_(none)_
+- [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [new] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail
 
 ## Solved — last 24h
 
