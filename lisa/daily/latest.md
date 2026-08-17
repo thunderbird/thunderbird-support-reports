@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 17:16 ET** · refreshes hourly_  
+_Updated: **2026-08-17 18:15 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **365 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **366 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **6** solved in last 24h
-- **365** tickets total since launch · contact rate **6%** of 6500 invitees
+- **366** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
@@ -106,15 +106,14 @@ _(none in last 24h)_
 
 - **solved**: 178
 - **closed**: 150
-- **pending**: 17
-- **open**: 10
+- **pending**: 20
+- **open**: 9
 - **hold**: 9
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 170
-- **Thundermail**: 160
+- **Account Hub**: 173
+- **Thundermail**: 158
 - **Appointment**: 13
 - **Send**: 12
 
@@ -122,18 +121,18 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 82
+- **curious** + **explained**: 83
 - **blocked** + **explained**: 64
-- **change request** + **actioned**: 40
+- **change request** + **actioned**: 41
 - **request** + **redirected**: 28
-- **blocked** + **investigated**: 18
+- **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 18
 - **concerned** + **explained**: 10
 - **confused** + **explained**: 10
 - **blocked** + **redirected**: 7
-- **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
+- **blocked** + **—**: 4
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
@@ -143,7 +142,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **other** + **—**: 1
+- **other** + **informed**: 1
 - **curious** + **—**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -165,10 +164,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### App setup / configuration — 3 tickets
 
-- **[#7730](https://tbpro.zendesk.com/agent/tickets/7730)** · add a google.com account — why: **other**
-  > How do I add a google.com account
 - **[#7726](https://tbpro.zendesk.com/agent/tickets/7726)** · adding thunderbird pro extension does not work
   > When trying to install https://[domain]/en-US/thunderbird/addon/pro/?src=ext-send-dashboard in thunderbird 153.0esr (64-bit) linux, it pretends to install the extension, but then…
+- **[#7730](https://tbpro.zendesk.com/agent/tickets/7730)** · add a google.com account — why: **other** · how: **informed**
+  > How do I add a google.com account
 - **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i — why: **blocked** · how: **redirected**
   > Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my…
 
@@ -182,14 +181,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7732](https://tbpro.zendesk.com/agent/tickets/7732)** · Problems with confirmation email
   > I NEVER received the confirmation email for setting up my account so I abandoned the process.
 
-### Other / uncategorized — 1 tickets
+### Pricing — general pricing concern — 1 tickets
 
-- **[#7731](https://tbpro.zendesk.com/agent/tickets/7731)** · Fiyatı Yüksek
+- **[#7731](https://tbpro.zendesk.com/agent/tickets/7731)** · Fiyatı Yüksek — why: **curious** · how: **explained**
   > Türkiye şartları için makul ücretli değil.
 
 ### Email migration / import — 1 tickets
 
-- **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail — why: **blocked** · 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
+- **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail — why: **blocked** · how: **investigated** · 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
   > I recently migrated completely from Gmail to Thunderbird/Thundermail and have already closed my Gmail account. Thundermail is now my primary email service. My custom domain is…
 
 ### Pricing — wanted free / monthly plan — 1 tickets
@@ -209,7 +208,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [pending] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
 - [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
 - [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [pending] · 2026-08-17T16:25 · Trial period available without an annual subscription?
-- [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [open] · 2026-08-17T18:32 · add a google.com account
+- [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [pending] · 2026-08-17T18:32 · add a google.com account
 - [7731](https://tbpro.zendesk.com/agent/tickets/7731) · [open] · 2026-08-17T19:07 · Fiyatı Yüksek
 - [7732](https://tbpro.zendesk.com/agent/tickets/7732) · [open] · 2026-08-17T19:20 · Problems with confirmation email
 - [7733](https://tbpro.zendesk.com/agent/tickets/7733) · [open] · 2026-08-17T19:22 · SRV DNS Settings
