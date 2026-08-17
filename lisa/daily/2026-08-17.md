@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 06:17 ET** · refreshes hourly_  
+_Updated: **2026-08-17 07:16 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **356 tickets** so far
 - **356** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
 - **Median AHT**: 136.2h · mean 195.2h (proxy: updated_at − created_at, 184 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
@@ -96,9 +96,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Visual server-side mail rules using JMAP Sieve](https://ideas.tb.pro/p/visual-server-side-mail-rules-using-jmap-sieve) · 1 votes · _untagged_
+  > What you’d like to seeAdd a visual Mail Rules editor to the Thundermail web UI.Users should be able to create ordered rules using:Conditions: From, To, To/Cc, Subject, and custom headersMatching: is,…
 
 ## Status breakdown (cumulative)
 
