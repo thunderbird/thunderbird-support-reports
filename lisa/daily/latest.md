@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 14:16 ET** · refreshes hourly_  
+_Updated: **2026-08-17 15:17 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **359 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **361 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
-- **359** tickets total since launch · contact rate **6%** of 6500 invitees
+- **7** new tickets in last 24h · **6** solved in last 24h
+- **361** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
@@ -105,14 +105,14 @@ _(none in last 24h)_
 
 - **solved**: 178
 - **closed**: 149
+- **open**: 13
 - **pending**: 12
-- **open**: 11
 - **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 168
-- **Thundermail**: 155
+- **Account Hub**: 169
+- **Thundermail**: 156
 - **Appointment**: 13
 - **Send**: 12
 
@@ -141,6 +141,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
+- **other** + **—**: 1
 - **curious** + **—**: 1
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
@@ -160,15 +161,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#7731](https://tbpro.zendesk.com/agent/tickets/7731)** · Fiyatı Yüksek
+  > Türkiye şartları için makul ücretli değil.
 - **[#7729](https://tbpro.zendesk.com/agent/tickets/7729)** · Trial period available without an annual subscription?
   > Is there a trial period available without an annual subscription? For example, just for one month to see how Thundermail works?
 - **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
   > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
 
-### App setup / configuration — 2 tickets
+### App setup / configuration — 3 tickets
 
+- **[#7730](https://tbpro.zendesk.com/agent/tickets/7730)** · add a google.com account — why: **other**
+  > How do I add a google.com account
 - **[#7726](https://tbpro.zendesk.com/agent/tickets/7726)** · adding thunderbird pro extension does not work
   > When trying to install https://[domain]/en-US/thunderbird/addon/pro/?src=ext-send-dashboard in thunderbird 153.0esr (64-bit) linux, it pretends to install the extension, but then…
 - **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i — why: **blocked** · how: **redirected**
@@ -186,6 +191,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [open] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
 - [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
 - [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [open] · 2026-08-17T16:25 · Trial period available without an annual subscription?
+- [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [open] · 2026-08-17T18:32 · add a google.com account
+- [7731](https://tbpro.zendesk.com/agent/tickets/7731) · [open] · 2026-08-17T19:07 · Fiyatı Yüksek
 
 ## Solved — last 24h
 
