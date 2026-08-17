@@ -1,20 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-16
+# Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-16 23:27 ET** · refreshes hourly_  
-_24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-17 00:24 ET** · refreshes hourly_  
+_24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **354 tickets** so far (5.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
+- **0** new tickets in last 24h · **5** solved in last 24h
 - **354** tickets total since launch · contact rate **5%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (14 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
-- **Median AHT**: 135.5h · mean 194.2h (proxy: updated_at − created_at, 186 solved tickets)
+- **Median AHT**: 135.5h · mean 194.5h (proxy: updated_at − created_at, 186 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -90,10 +90,9 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7703](https://tbpro.zendesk.com/agent/tickets/7703) · [new] · _Cancel_
-  > I'd like to cancel thundermail
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -161,36 +160,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#7703](https://tbpro.zendesk.com/agent/tickets/7703)** · Cancel
-  > I'd like to cancel thundermail
-
-### Aliases — 1 tickets
-
-- **[#7700](https://tbpro.zendesk.com/agent/tickets/7700)** · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
-  > Hello, I’m submitting this request because messages sent through Thundermail are being placed in the spam folder by Yahoo! JAPAN Mail. This occurs both when sending from my…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7699](https://tbpro.zendesk.com/agent/tickets/7699)** · suggesting easy DNS import 
-  > I am setting up DNS for Thundermail on cloudflare, and I did not enjoy the tedious copy/paste for 12 records. I would like to suggest providing some way to make this process…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7699](https://tbpro.zendesk.com/agent/tickets/7699) · [new] · 2026-08-16T02:06 · suggesting easy DNS import 
-- [7700](https://tbpro.zendesk.com/agent/tickets/7700) · [new] · 2026-08-16T04:34 · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
-- [7703](https://tbpro.zendesk.com/agent/tickets/7703) · [new] · 2026-08-16T09:24 · Cancel
+_(none)_
 
 ## Solved — last 24h
 
-- · [7334](https://tbpro.zendesk.com/agent/tickets/7334) · 2026-08-15T22:01 · thunderbird send: uplodaing files fails
-- · [7569](https://tbpro.zendesk.com/agent/tickets/7569) · 2026-08-15T23:01 · DNS records slow to update
-- · [7580](https://tbpro.zendesk.com/agent/tickets/7580) · 2026-08-16T01:01 · Refund and account deletion
-- · [7572](https://tbpro.zendesk.com/agent/tickets/7572) · 2026-08-16T13:01 · Refund request
-- · [7596](https://tbpro.zendesk.com/agent/tickets/7596) · 2026-08-16T16:01 · Custom Domain settings with Godaddy
-- · [7535](https://tbpro.zendesk.com/agent/tickets/7535) · 2026-08-16T19:01 · Card DAV support
-- · [6978](https://tbpro.zendesk.com/agent/tickets/6978) · 2026-08-16T19:01 · DKIM and Jellyfish Spam filtering
+- · [7519](https://tbpro.zendesk.com/agent/tickets/7519) · 2026-08-16T20:01 · DKIM signatures
+- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-08-16T20:01 · Appointment & Send
+- · [7581](https://tbpro.zendesk.com/agent/tickets/7581) · 2026-08-16T21:01 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
+- · [7067](https://tbpro.zendesk.com/agent/tickets/7067) · 2026-08-16T21:01 · Importing my calendar ics to Thundermail fails with code 412
+- 👍 [6752](https://tbpro.zendesk.com/agent/tickets/6752) · 2026-08-17T03:37 · How to use Thundermail as I used to do with Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
