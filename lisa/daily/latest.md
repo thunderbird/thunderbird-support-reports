@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 12:16 ET** · refreshes hourly_  
+_Updated: **2026-08-17 13:16 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **358 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **359 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **5** solved in last 24h
-- **358** tickets total since launch · contact rate **6%** of 6500 invitees
+- **5** new tickets in last 24h · **6** solved in last 24h
+- **359** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
-- **Median AHT**: 135.5h · mean 195.6h (proxy: updated_at − created_at, 180 solved tickets)
+- **Median AHT**: 135.9h · mean 195.5h (proxy: updated_at − created_at, 181 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -103,7 +103,7 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 180
+- **solved**: 181
 - **closed**: 146
 - **open**: 12
 - **pending**: 11
@@ -111,8 +111,8 @@ _(none in last 24h)_
 
 ## Service (cumulative)
 
-- **Account Hub**: 166
-- **Thundermail**: 156
+- **Account Hub**: 168
+- **Thundermail**: 155
 - **Appointment**: 13
 - **Send**: 12
 
@@ -120,15 +120,15 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 80
+- **curious** + **explained**: 81
 - **blocked** + **explained**: 65
-- **change request** + **actioned**: 39
+- **change request** + **actioned**: 40
 - **request** + **redirected**: 27
 - **blocked** + **investigated**: 18
 - **blocked** + **escalated**: 17
 - **confused** + **explained**: 10
 - **concerned** + **explained**: 9
-- **blocked** + **redirected**: 5
+- **blocked** + **redirected**: 6
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
@@ -160,17 +160,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#7729](https://tbpro.zendesk.com/agent/tickets/7729)** · Trial period available without an annual subscription?
+  > Is there a trial period available without an annual subscription? For example, just for one month to see how Thundermail works?
+- **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
+  > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
+
 ### App setup / configuration — 2 tickets
 
 - **[#7726](https://tbpro.zendesk.com/agent/tickets/7726)** · adding thunderbird pro extension does not work
   > When trying to install https://[domain]/en-US/thunderbird/addon/pro/?src=ext-send-dashboard in thunderbird 153.0esr (64-bit) linux, it pretends to install the extension, but then…
-- **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i
+- **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i — why: **blocked** · how: **redirected**
   > Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
-  > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
 
 ### Email migration / import — 1 tickets
 
@@ -183,6 +185,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [open] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [open] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
 - [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
+- [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [open] · 2026-08-17T16:25 · Trial period available without an annual subscription?
 
 ## Solved — last 24h
 
@@ -191,6 +194,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7581](https://tbpro.zendesk.com/agent/tickets/7581) · 2026-08-16T21:01 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
 - · [7067](https://tbpro.zendesk.com/agent/tickets/7067) · 2026-08-16T21:01 · Importing my calendar ics to Thundermail fails with code 412
 - 👍 [6752](https://tbpro.zendesk.com/agent/tickets/6752) · 2026-08-17T03:37 · How to use Thundermail as I used to do with Thunderbird
+- · [7579](https://tbpro.zendesk.com/agent/tickets/7579) · 2026-08-17T17:01 · Change Primary adress into my own domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
