@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 16:15 ET** · refreshes hourly_  
+_Updated: **2026-08-17 17:16 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **364 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **365 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **6** solved in last 24h
-- **364** tickets total since launch · contact rate **6%** of 6500 invitees
+- **365** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
-- **Median AHT**: 135.9h · mean 195.8h (proxy: updated_at − created_at, 177 solved tickets)
+- **Median AHT**: 136.2h · mean 195.7h (proxy: updated_at − created_at, 178 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -104,15 +104,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 177
+- **solved**: 178
 - **closed**: 150
-- **open**: 15
-- **pending**: 13
+- **pending**: 17
+- **open**: 10
 - **hold**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 168
+- **Account Hub**: 170
 - **Thundermail**: 160
 - **Appointment**: 13
 - **Send**: 12
@@ -121,15 +122,15 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 81
+- **curious** + **explained**: 82
 - **blocked** + **explained**: 64
 - **change request** + **actioned**: 40
-- **request** + **redirected**: 27
+- **request** + **redirected**: 28
 - **blocked** + **investigated**: 18
-- **blocked** + **escalated**: 17
+- **blocked** + **escalated**: 18
 - **concerned** + **explained**: 10
 - **confused** + **explained**: 10
-- **blocked** + **redirected**: 6
+- **blocked** + **redirected**: 7
 - **blocked** + **—**: 5
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
@@ -162,15 +163,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
-
-- **[#7731](https://tbpro.zendesk.com/agent/tickets/7731)** · Fiyatı Yüksek
-  > Türkiye şartları için makul ücretli değil.
-- **[#7729](https://tbpro.zendesk.com/agent/tickets/7729)** · Trial period available without an annual subscription?
-  > Is there a trial period available without an annual subscription? For example, just for one month to see how Thundermail works?
-- **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
-  > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
-
 ### App setup / configuration — 3 tickets
 
 - **[#7730](https://tbpro.zendesk.com/agent/tickets/7730)** · add a google.com account — why: **other**
@@ -190,18 +182,33 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7732](https://tbpro.zendesk.com/agent/tickets/7732)** · Problems with confirmation email
   > I NEVER received the confirmation email for setting up my account so I abandoned the process.
 
+### Other / uncategorized — 1 tickets
+
+- **[#7731](https://tbpro.zendesk.com/agent/tickets/7731)** · Fiyatı Yüksek
+  > Türkiye şartları için makul ücretli değil.
+
 ### Email migration / import — 1 tickets
 
 - **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail — why: **blocked** · 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
   > I recently migrated completely from Gmail to Thunderbird/Thundermail and have already closed my Gmail account. Thundermail is now my primary email service. My custom domain is…
 
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#7729](https://tbpro.zendesk.com/agent/tickets/7729)** · Trial period available without an annual subscription? — why: **curious** · how: **explained**
+  > Is there a trial period available without an annual subscription? For example, just for one month to see how Thundermail works?
+
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
+
+- **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda — why: **blocked** · how: **redirected**
+  > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
+
 ## New tickets — last 24h
 
 - [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
 - [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [pending] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
-- [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [open] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
+- [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [pending] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
 - [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
-- [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [open] · 2026-08-17T16:25 · Trial period available without an annual subscription?
+- [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [pending] · 2026-08-17T16:25 · Trial period available without an annual subscription?
 - [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [open] · 2026-08-17T18:32 · add a google.com account
 - [7731](https://tbpro.zendesk.com/agent/tickets/7731) · [open] · 2026-08-17T19:07 · Fiyatı Yüksek
 - [7732](https://tbpro.zendesk.com/agent/tickets/7732) · [open] · 2026-08-17T19:20 · Problems with confirmation email
