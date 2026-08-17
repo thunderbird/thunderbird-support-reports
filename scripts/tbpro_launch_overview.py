@@ -138,6 +138,10 @@ WAVES = [
     {"date": "2026-07-20", "end": "2026-07-20", "invites": 10000, "label": "Re-engagement 1",     "color": "#c084fc"},
     {"date": "2026-07-21", "end": "2026-07-21", "invites": 4000, "label": "Flight 7 Wave 2",      "color": "#4ade80"},
     {"date": "2026-07-21", "end": "2099-12-31", "invites": 20000, "label": "Re-engagement 2",     "color": "#38bdf8"},
+    # Jul 22 – Aug 9: invite pause to catch up on ticket backlog. No sends this window.
+    {"date": "2026-08-10", "end": "2026-08-10", "invites": 1000, "label": "Flight 8 Wave 1",      "color": "#f472b6"},
+    {"date": "2026-08-11", "end": "2026-08-11", "invites": 1000, "label": "Flight 8 Wave 2",      "color": "#facc15"},
+    {"date": "2026-08-17", "end": "2026-08-17", "invites": 2000, "label": "Flight 8 Wave 3",      "color": "#fb7185"},
     # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
     # Re-engagement waves = previously-waitlisted users re-invited; confirm whether to include in TOTAL_INVITEES.
 ]
