@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 09:24 ET** · refreshes hourly_  
+_Updated: **2026-08-17 10:16 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **358 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **357 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **5** solved in last 24h
-- **358** tickets total since launch · contact rate **6%** of 6500 invitees
+- **3** new tickets in last 24h · **5** solved in last 24h
+- **357** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
@@ -106,9 +106,8 @@ _(none in last 24h)_
 - **solved**: 183
 - **closed**: 143
 - **open**: 13
-- **pending**: 11
-- **hold**: 7
-- **new**: 1
+- **pending**: 10
+- **hold**: 8
 
 ## Service (cumulative)
 
@@ -161,10 +160,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7722](https://tbpro.zendesk.com/agent/tickets/7722)** · Re: Brazillian potential customer unable to pay
-  > Tell us how we did… Paddle made it easy for me to handle my issue. Strongly Disagree Strongly Agree
 - **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
   > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
 
@@ -183,7 +180,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail
 - [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [open] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [open] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
-- [7722](https://tbpro.zendesk.com/agent/tickets/7722) · [new] · 2026-08-17T13:00 · Re: Brazillian potential customer unable to pay
 
 ## Solved — last 24h
 
