@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 18:15 ET** · refreshes hourly_  
+_Updated: **2026-08-17 19:15 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **366 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **367 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **6** solved in last 24h
-- **366** tickets total since launch · contact rate **6%** of 6500 invitees
+- **367** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 195.7h (proxy: updated_at − created_at, 178 solved tickets)
+- **Median AHT**: 136.2h · mean 195.1h (proxy: updated_at − created_at, 180 solved tickets)
 
-## Known problems — 6 problem(s), 36 incident(s)
+## Known problems — 6 problem(s), 37 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -36,7 +36,7 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **366 tickets** so far
   - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [closed] · 2026-07-08 · _Webmail - no mail from own domain_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 25 incident(s):
+- 26 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [solved] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -62,6 +62,7 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **366 tickets** so far
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
+  - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [pending] · 2026-08-17 · _Thundermail_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -104,9 +105,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 178
+- **solved**: 180
 - **closed**: 150
-- **pending**: 20
+- **pending**: 19
 - **open**: 9
 - **hold**: 9
 
@@ -127,8 +128,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 18
+- **confused** + **explained**: 11
 - **concerned** + **explained**: 10
-- **confused** + **explained**: 10
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 5
 - **request** + **actioned**: 4
@@ -164,10 +165,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### App setup / configuration — 3 tickets
 
-- **[#7726](https://tbpro.zendesk.com/agent/tickets/7726)** · adding thunderbird pro extension does not work
-  > When trying to install https://[domain]/en-US/thunderbird/addon/pro/?src=ext-send-dashboard in thunderbird 153.0esr (64-bit) linux, it pretends to install the extension, but then…
 - **[#7730](https://tbpro.zendesk.com/agent/tickets/7730)** · add a google.com account — why: **other** · how: **informed**
   > How do I add a google.com account
+- **[#7726](https://tbpro.zendesk.com/agent/tickets/7726)** · adding thunderbird pro extension does not work — why: **confused** · how: **explained**
+  > When trying to install https://[domain]/en-US/thunderbird/addon/pro/?src=ext-send-dashboard in thunderbird 153.0esr (64-bit) linux, it pretends to install the extension, but then…
 - **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i — why: **blocked** · how: **redirected**
   > Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my…
 
@@ -206,7 +207,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
 - [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [pending] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [pending] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
-- [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
+- [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [pending] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
 - [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [pending] · 2026-08-17T16:25 · Trial period available without an annual subscription?
 - [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [pending] · 2026-08-17T18:32 · add a google.com account
 - [7731](https://tbpro.zendesk.com/agent/tickets/7731) · [open] · 2026-08-17T19:07 · Fiyatı Yüksek
