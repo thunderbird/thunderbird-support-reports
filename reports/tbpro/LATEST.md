@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-16
 
-_Updated: **2026-08-16 19:15 ET** · refreshes hourly_  
+_Updated: **2026-08-16 20:23 ET** · refreshes hourly_  
 _24h window: 2026-08-15T16:00 → 2026-08-16T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
-- **Median AHT**: 136.2h · mean 194.8h (proxy: updated_at − created_at, 188 solved tickets)
+- **Median AHT**: 135.5h · mean 194.2h (proxy: updated_at − created_at, 186 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -46,7 +46,7 @@ Flight 3 is **day 56** of rollout — **6,500 invitees**, **354 tickets** so far
   - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [closed] · 2026-07-09 · _Cancel subscription and refund_
   - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [solved] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [closed] · 2026-07-14 · _Declaration of Withdrawal_
-  - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [solved] · 2026-07-14 · _Unintended annual subscription_
+  - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [closed] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [solved] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [solved] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
@@ -103,8 +103,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 188
-- **closed**: 138
+- **solved**: 186
+- **closed**: 140
 - **pending**: 11
 - **hold**: 7
 - **new**: 5
