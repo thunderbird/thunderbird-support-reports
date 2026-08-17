@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 10:16 ET** · refreshes hourly_  
+_Updated: **2026-08-17 11:16 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **357 tickets** so far
 - **3** new tickets in last 24h · **5** solved in last 24h
 - **357** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (15 good / 0 bad)
+- **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
-- **Median AHT**: 135.9h · mean 194.6h (proxy: updated_at − created_at, 183 solved tickets)
+- **Median AHT**: 135.2h · mean 195.2h (proxy: updated_at − created_at, 181 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -28,7 +28,7 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **357 tickets** so far
   - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [closed] · 2026-06-30 · _Signup Issue_
   - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [closed] · 2026-07-07 · _no confirmation email_
   - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [closed] · 2026-07-07 · _Stuck at email verifcation_
-  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [solved] · 2026-07-14 · _No confirmation email received on signup._
+  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [closed] · 2026-07-14 · _No confirmation email received on signup._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -103,11 +103,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 183
-- **closed**: 143
-- **open**: 13
+- **solved**: 181
+- **closed**: 145
+- **open**: 12
 - **pending**: 10
-- **hold**: 8
+- **hold**: 9
 
 ## Service (cumulative)
 
