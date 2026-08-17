@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 04:23 ET** · refreshes hourly_  
+_Updated: **2026-08-17 05:23 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **355 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 57** of rollout — **6,500 invitees**, **356 tickets** so far (5.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **5** solved in last 24h
-- **355** tickets total since launch · contact rate **5%** of 6500 invitees
+- **2** new tickets in last 24h · **5** solved in last 24h
+- **356** tickets total since launch · contact rate **5%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 69
@@ -107,12 +107,12 @@ _(none in last 24h)_
 - **pending**: 11
 - **open**: 7
 - **hold**: 7
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 166
-- **Thundermail**: 155
+- **Thundermail**: 156
 - **Appointment**: 12
 - **Send**: 11
 
@@ -160,6 +160,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### App setup / configuration — 1 tickets
+
+- **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i
+  > Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my…
+
 ### Email migration / import — 1 tickets
 
 - **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail
@@ -168,6 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [new] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail
+- [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [new] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
 
 ## Solved — last 24h
 
