@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-17
 
-_Updated: **2026-08-17 13:16 ET** · refreshes hourly_  
+_Updated: **2026-08-17 14:16 ET** · refreshes hourly_  
 _24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **359 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
-- **Median AHT**: 135.9h · mean 195.5h (proxy: updated_at − created_at, 181 solved tickets)
+- **Median AHT**: 136.2h · mean 196.1h (proxy: updated_at − created_at, 178 solved tickets)
 
 ## Known problems — 6 problem(s), 36 incident(s)
 
@@ -47,7 +47,7 @@ Flight 3 is **day 57** of rollout — **6,500 invitees**, **359 tickets** so far
   - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [solved] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [closed] · 2026-07-14 · _Declaration of Withdrawal_
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [closed] · 2026-07-14 · _Unintended annual subscription_
-  - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [solved] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
+  - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [closed] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [solved] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [solved] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
@@ -103,10 +103,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 181
-- **closed**: 146
-- **open**: 12
-- **pending**: 11
+- **solved**: 178
+- **closed**: 149
+- **pending**: 12
+- **open**: 11
 - **hold**: 9
 
 ## Service (cumulative)
@@ -182,7 +182,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail
-- [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [open] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
+- [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [pending] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
 - [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [open] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
 - [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [open] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
 - [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [open] · 2026-08-17T16:25 · Trial period available without an annual subscription?
