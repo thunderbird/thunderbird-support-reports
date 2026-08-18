@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 16:15 ET** · refreshes hourly_  
+_Updated: **2026-08-18 17:15 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -66,7 +66,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [pending] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -116,8 +116,8 @@ _No negative ratings since launch._
 
 - **solved**: 171
 - **closed**: 163
-- **pending**: 19
-- **open**: 15
+- **pending**: 23
+- **open**: 11
 - **hold**: 7
 - **new**: 1
 
@@ -132,13 +132,13 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 84
+- **curious** + **explained**: 85
 - **blocked** + **explained**: 64
 - **change request** + **actioned**: 41
-- **request** + **redirected**: 28
+- **request** + **redirected**: 29
 - **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 19
-- **confused** + **explained**: 12
+- **confused** + **explained**: 13
 - **concerned** + **explained**: 10
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 5
@@ -187,7 +187,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7771](https://tbpro.zendesk.com/agent/tickets/7771)** · Move domain from another hoster to thundermail pro
   > Hi, I would like to move my existing domain from another web hoster to thundermail pro. How can I do this? Do I first have to subscribe to tb pro and then initiate the transfer?…
-- **[#7762](https://tbpro.zendesk.com/agent/tickets/7762)** · 1 inbox 15 emails
+- **[#7762](https://tbpro.zendesk.com/agent/tickets/7762)** · 1 inbox 15 emails — why: **curious** · how: **explained**
   > What does "1 Inbox, 15 Email Addresses" mean? Does that mean that 15 email addresses all combine into 1 single inbox or does it mean that all email addresses share the same…
 - **[#7749](https://tbpro.zendesk.com/agent/tickets/7749)** · Can't connect to Apple Mail — why: **blocked** · how: **investigated**
   > Using the settings provided and created an app password but it won't connect.
@@ -199,16 +199,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7758](https://tbpro.zendesk.com/agent/tickets/7758)** · Cancellation of subscription
   > I would like to cancel my subscription to Thunderbird Pro. Can you help. Kind Regards, [name]
 
-### Aliases — 2 tickets
-
-- **[#7759](https://tbpro.zendesk.com/agent/tickets/7759)** · Personnal domain doesnt receive mail
-  > I've setup my own domain 'lestrel.in' as a custom domain, added all the dns entries to it which, to the best of my knowledge, seem to be fine, verified it, added an alias [email]…
-- **[#7753](https://tbpro.zendesk.com/agent/tickets/7753)** · Ergänzende Bitte
-  > Könnten Sie bitte meinen Alias „ [email]“ in meine primäre E-Mail-Adresse umwandeln? Das wäre sehr wichtig für mich. Viele Grüße, [name]
-
 ### Account creation / signup confusion — 1 tickets
 
-- **[#7774](https://tbpro.zendesk.com/agent/tickets/7774)** · connection error using POP for incoming mails with SSL 995 (OAuth2)
+- **[#7774](https://tbpro.zendesk.com/agent/tickets/7774)** · connection error using POP for incoming mails with SSL 995 (OAuth2) — why: **confused** · how: **explained**
   > I set up Thunderbird Desktop on a Mac and created a Thundermail account in Thunderbird. I want to use POP3 for incoming mails. Initially it worked…but very slow. Now, it doesn't…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
@@ -216,10 +209,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7772](https://tbpro.zendesk.com/agent/tickets/7772)** · Send, no "back/home" button on page "print encryption key"
   > Maybe it is related to my Firefox ESR 140 configuration ... When going to the Security & Privacy/Encryption key page, and when clicking on the "Download key" button (~ 10 tests) :…
 
+### Aliases — 1 tickets
+
+- **[#7759](https://tbpro.zendesk.com/agent/tickets/7759)** · Personnal domain doesnt receive mail
+  > I've setup my own domain 'lestrel.in' as a custom domain, added all the dns entries to it which, to the best of my knowledge, seem to be fine, verified it, added an alias [email]…
+
 ### Early bird signup — 1 tickets
 
 - **[#7738](https://tbpro.zendesk.com/agent/tickets/7738)** · Thundermail invitation — why: **request** · how: **escalated**
   > Hello, I had been communicating on the Matrix chat and was referred here to submit a request for help, which I did back on July 22. The ticket was regarding getting a second…
+
+### Request or complaint — 1 tickets
+
+- **[#7753](https://tbpro.zendesk.com/agent/tickets/7753)** · Ergänzende Bitte — why: **request** · how: **redirected**
+  > Könnten Sie bitte meinen Alias „ [email]“ in meine primäre E-Mail-Adresse umwandeln? Das wäre sehr wichtig für mich. Viele Grüße, [name]
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -237,11 +240,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7738](https://tbpro.zendesk.com/agent/tickets/7738) · [open] · 2026-08-17T21:03 · Thundermail invitation
 - [7739](https://tbpro.zendesk.com/agent/tickets/7739) · [open] · 2026-08-17T22:01 · requirements.
 - [7741](https://tbpro.zendesk.com/agent/tickets/7741) · [pending] · 2026-08-17T22:52 · Thundermail Discounts?
-- [7749](https://tbpro.zendesk.com/agent/tickets/7749) · [open] · 2026-08-18T07:02 · Can't connect to Apple Mail
-- [7753](https://tbpro.zendesk.com/agent/tickets/7753) · [open] · 2026-08-18T10:30 · Ergänzende Bitte
+- [7749](https://tbpro.zendesk.com/agent/tickets/7749) · [pending] · 2026-08-18T07:02 · Can't connect to Apple Mail
+- [7753](https://tbpro.zendesk.com/agent/tickets/7753) · [pending] · 2026-08-18T10:30 · Ergänzende Bitte
 - [7758](https://tbpro.zendesk.com/agent/tickets/7758) · [open] · 2026-08-18T12:27 · Cancellation of subscription
 - [7759](https://tbpro.zendesk.com/agent/tickets/7759) · [open] · 2026-08-18T12:55 · Personnal domain doesnt receive mail
-- [7762](https://tbpro.zendesk.com/agent/tickets/7762) · [open] · 2026-08-18T14:29 · 1 inbox 15 emails
+- [7762](https://tbpro.zendesk.com/agent/tickets/7762) · [pending] · 2026-08-18T14:29 · 1 inbox 15 emails
 - [7764](https://tbpro.zendesk.com/agent/tickets/7764) · [open] · 2026-08-18T14:37 · Payment
 - [7767](https://tbpro.zendesk.com/agent/tickets/7767) · [open] · 2026-08-18T14:46 · Does the invitation expire?
 - [7771](https://tbpro.zendesk.com/agent/tickets/7771) · [open] · 2026-08-18T16:20 · Move domain from another hoster to thundermail pro
