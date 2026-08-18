@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 09:26 ET** · refreshes hourly_  
+_Updated: **2026-08-18 10:18 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 58** of rollout — **6,500 invitees**, **370 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **4** solved in last 24h
+- **8** new tickets in last 24h · **5** solved in last 24h
 - **370** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 135.0h · mean 190.9h (proxy: updated_at − created_at, 178 solved tickets)
+- **Median AHT**: 135.5h · mean 190.3h (proxy: updated_at − created_at, 176 solved tickets)
 
 ## Known problems — 6 problem(s), 37 incident(s)
 
@@ -49,7 +49,7 @@ Flight 3 is **day 58** of rollout — **6,500 invitees**, **370 tickets** so far
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [closed] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [closed] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [solved] · 2026-07-16 · _Refund Request_
-  - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [solved] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
+  - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [closed] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [solved] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [solved] · 2026-07-21 · _Cancel_
@@ -105,11 +105,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 178
-- **closed**: 152
-- **pending**: 17
-- **open**: 12
-- **hold**: 9
+- **solved**: 176
+- **closed**: 155
+- **pending**: 16
+- **open**: 13
+- **hold**: 8
 - **new**: 2
 
 ## Service (cumulative)
@@ -149,11 +149,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **change request** + **informed**: 1
-- **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **confused** + **investigated**: 1
 - **curious** + **escalated**: 1
+- **telling us** + **redirected**: 1
 - **other** + **n/a**: 1
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
@@ -215,6 +215,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7628](https://tbpro.zendesk.com/agent/tickets/7628) · 2026-08-17T23:01 · I have been invited to join Thundermail, but no option for one month
 - · [7599](https://tbpro.zendesk.com/agent/tickets/7599) · 2026-08-17T23:01 · Need help changing subscription payment method
 - · [7631](https://tbpro.zendesk.com/agent/tickets/7631) · 2026-08-18T05:01 · Why is my email going straight forward to the junk mail?
+- · [7621](https://tbpro.zendesk.com/agent/tickets/7621) · 2026-08-18T14:02 · Change backup email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
