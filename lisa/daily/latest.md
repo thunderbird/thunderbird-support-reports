@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 11:20 ET** · refreshes hourly_  
+_Updated: **2026-08-18 12:16 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -134,8 +134,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 64
 - **change request** + **actioned**: 41
 - **request** + **redirected**: 28
+- **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 19
-- **blocked** + **investigated**: 18
 - **confused** + **explained**: 11
 - **concerned** + **explained**: 10
 - **blocked** + **redirected**: 7
@@ -191,7 +191,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7762](https://tbpro.zendesk.com/agent/tickets/7762)** · 1 inbox 15 emails
   > What does "1 Inbox, 15 Email Addresses" mean? Does that mean that 15 email addresses all combine into 1 single inbox or does it mean that all email addresses share the same…
-- **[#7749](https://tbpro.zendesk.com/agent/tickets/7749)** · Can't connect to Apple Mail
+- **[#7749](https://tbpro.zendesk.com/agent/tickets/7749)** · Can't connect to Apple Mail — why: **blocked** · how: **investigated**
   > Using the settings provided and created an app password but it won't connect.
 
 ### Aliases — 2 tickets
