@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 14:17 ET** · refreshes hourly_  
+_Updated: **2026-08-18 15:17 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 58** of rollout — **6,500 invitees**, **376 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 135.9h · mean 190.4h (proxy: updated_at − created_at, 175 solved tickets)
+- **Median AHT**: 136.4h · mean 191.9h (proxy: updated_at − created_at, 171 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -58,7 +58,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [closed] · 2026-07-14 · _Declaration of Withdrawal_
   - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [closed] · 2026-07-14 · _Unintended annual subscription_
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [closed] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
-  - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [solved] · 2026-07-16 · _Refund Request_
+  - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [closed] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [closed] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [solved] · 2026-07-21 · _Refund due to poor service_
@@ -114,8 +114,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 175
-- **closed**: 159
+- **solved**: 171
+- **closed**: 163
 - **pending**: 17
 - **open**: 16
 - **hold**: 7
