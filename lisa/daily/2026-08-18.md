@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 15:17 ET** · refreshes hourly_  
+_Updated: **2026-08-18 16:15 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -72,7 +72,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
-  - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [open] · 2026-08-17 · _Thundermail_
+  - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [pending] · 2026-08-17 · _Thundermail_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -116,10 +116,10 @@ _No negative ratings since launch._
 
 - **solved**: 171
 - **closed**: 163
-- **pending**: 17
-- **open**: 16
+- **pending**: 19
+- **open**: 15
 - **hold**: 7
-- **new**: 2
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -138,7 +138,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 19
-- **confused** + **explained**: 11
+- **confused** + **explained**: 12
 - **concerned** + **explained**: 10
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 5
@@ -216,15 +216,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7772](https://tbpro.zendesk.com/agent/tickets/7772)** · Send, no "back/home" button on page "print encryption key"
   > Maybe it is related to my Firefox ESR 140 configuration ... When going to the Security & Privacy/Encryption key page, and when clicking on the "Download key" button (~ 10 tests) :…
 
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7741](https://tbpro.zendesk.com/agent/tickets/7741)** · Thundermail Discounts? — why: **curious** · how: **explained**
-  > Hi! I recently received access to Thundermail and am interested in subscribing to the Early Bird plan. Before I sign up, are there currently any promotional, Early Bird,…
-
 ### Early bird signup — 1 tickets
 
 - **[#7738](https://tbpro.zendesk.com/agent/tickets/7738)** · Thundermail invitation — why: **request** · how: **escalated**
   > Hello, I had been communicating on the Matrix chat and was referred here to submit a request for help, which I did back on July 22. The ticket was regarding getting a second…
+
+### Pricing — general pricing concern — 1 tickets
+
+- **[#7741](https://tbpro.zendesk.com/agent/tickets/7741)** · Thundermail Discounts? — why: **curious** · how: **explained**
+  > Hi! I recently received access to Thundermail and am interested in subscribing to the Early Bird plan. Before I sign up, are there currently any promotional, Early Bird,…
 
 ### Refund / Cancel — 1 tickets
 
@@ -233,10 +233,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [7735](https://tbpro.zendesk.com/agent/tickets/7735) · [open] · 2026-08-17T20:14 · Thundermail
+- [7735](https://tbpro.zendesk.com/agent/tickets/7735) · [pending] · 2026-08-17T20:14 · Thundermail
 - [7738](https://tbpro.zendesk.com/agent/tickets/7738) · [open] · 2026-08-17T21:03 · Thundermail invitation
 - [7739](https://tbpro.zendesk.com/agent/tickets/7739) · [open] · 2026-08-17T22:01 · requirements.
-- [7741](https://tbpro.zendesk.com/agent/tickets/7741) · [open] · 2026-08-17T22:52 · Thundermail Discounts?
+- [7741](https://tbpro.zendesk.com/agent/tickets/7741) · [pending] · 2026-08-17T22:52 · Thundermail Discounts?
 - [7749](https://tbpro.zendesk.com/agent/tickets/7749) · [open] · 2026-08-18T07:02 · Can't connect to Apple Mail
 - [7753](https://tbpro.zendesk.com/agent/tickets/7753) · [open] · 2026-08-18T10:30 · Ergänzende Bitte
 - [7758](https://tbpro.zendesk.com/agent/tickets/7758) · [open] · 2026-08-18T12:27 · Cancellation of subscription
@@ -246,7 +246,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7767](https://tbpro.zendesk.com/agent/tickets/7767) · [open] · 2026-08-18T14:46 · Does the invitation expire?
 - [7771](https://tbpro.zendesk.com/agent/tickets/7771) · [open] · 2026-08-18T16:20 · Move domain from another hoster to thundermail pro
 - [7772](https://tbpro.zendesk.com/agent/tickets/7772) · [open] · 2026-08-18T17:09 · Send, no "back/home" button on page "print encryption key"
-- [7774](https://tbpro.zendesk.com/agent/tickets/7774) · [new] · 2026-08-18T18:07 · connection error using POP for incoming mails with SSL 995 (OAuth2)
+- [7774](https://tbpro.zendesk.com/agent/tickets/7774) · [open] · 2026-08-18T18:07 · connection error using POP for incoming mails with SSL 995 (OAuth2)
 - [7775](https://tbpro.zendesk.com/agent/tickets/7775) · [new] · 2026-08-18T18:13 · Early Bird question
 
 ## Solved — last 24h
