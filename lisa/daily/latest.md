@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 00:20 ET** · refreshes hourly_  
+_Updated: **2026-08-18 01:17 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 58** of rollout — **6,500 invitees**, **366 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
+- **4** new tickets in last 24h · **4** solved in last 24h
 - **366** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 135.9h · mean 193.9h (proxy: updated_at − created_at, 179 solved tickets)
+- **Median AHT**: 135.5h · mean 193.5h (proxy: updated_at − created_at, 180 solved tickets)
 
 ## Known problems — 6 problem(s), 37 incident(s)
 
@@ -104,9 +104,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 179
+- **solved**: 180
 - **closed**: 151
-- **pending**: 18
+- **pending**: 17
 - **open**: 9
 - **hold**: 9
 
@@ -191,6 +191,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7577](https://tbpro.zendesk.com/agent/tickets/7577) · 2026-08-17T21:02 · Integration with Firefox Relay
 - · [7628](https://tbpro.zendesk.com/agent/tickets/7628) · 2026-08-17T23:01 · I have been invited to join Thundermail, but no option for one month
 - · [7599](https://tbpro.zendesk.com/agent/tickets/7599) · 2026-08-17T23:01 · Need help changing subscription payment method
+- · [7631](https://tbpro.zendesk.com/agent/tickets/7631) · 2026-08-18T05:01 · Why is my email going straight forward to the junk mail?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
