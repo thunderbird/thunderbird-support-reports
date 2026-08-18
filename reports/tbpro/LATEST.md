@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-17
+# Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-17 23:25 ET** · refreshes hourly_  
-_24h window: 2026-08-16T16:00 → 2026-08-17T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-18 00:20 ET** · refreshes hourly_  
+_24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 57** of rollout — **6,500 invitees**, **366 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 58** of rollout — **6,500 invitees**, **366 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **6** solved in last 24h
+- **4** new tickets in last 24h · **3** solved in last 24h
 - **366** tickets total since launch · contact rate **6%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 70
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
 - **Median AHT**: 135.9h · mean 193.9h (proxy: updated_at − created_at, 179 solved tickets)
 
 ## Known problems — 6 problem(s), 37 incident(s)
@@ -98,10 +98,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Visual server-side mail rules using JMAP Sieve](https://ideas.tb.pro/p/visual-server-side-mail-rules-using-jmap-sieve) · 1 votes · _untagged_
-  > What you’d like to seeAdd a visual Mail Rules editor to the Thundermail web UI.Users should be able to create ordered rules using:Conditions: From, To, To/Cc, Subject, and custom headersMatching: is,…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -163,65 +162,35 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### App setup / configuration — 3 tickets
+### Early bird / invite / waitlist — 2 tickets
 
-- **[#7730](https://tbpro.zendesk.com/agent/tickets/7730)** · add a google.com account — why: **other** · how: **informed**
-  > How do I add a google.com account
-- **[#7726](https://tbpro.zendesk.com/agent/tickets/7726)** · adding thunderbird pro extension does not work — why: **confused** · how: **explained**
-  > When trying to install https://[domain]/en-US/thunderbird/addon/pro/?src=ext-send-dashboard in thunderbird 153.0esr (64-bit) linux, it pretends to install the extension, but then…
-- **[#7717](https://tbpro.zendesk.com/agent/tickets/7717)** · Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my business email. Kind regards, [name]. Another email address you can contact me on i — why: **blocked** · how: **redirected**
-  > Hi, my emails are being bounced back. The person who set up my website and emails has closed her business and I cannot contact her. Can you please help with this as this is my…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7733](https://tbpro.zendesk.com/agent/tickets/7733)** · SRV DNS Settings
-  > Hi [name], I use GoDaddy tomanage all of my domains. I am trying to set up three custom domains in Thundermail but the SRV setup requires more info than you provide. I have…
-
-### Account access issues — 1 tickets
-
-- **[#7732](https://tbpro.zendesk.com/agent/tickets/7732)** · Problems with confirmation email
-  > I NEVER received the confirmation email for setting up my account so I abandoned the process.
+- **[#7739](https://tbpro.zendesk.com/agent/tickets/7739)** · requirements.
+  > I received the Thundermail invitation today. Before I lose a bunch of time and what little is left of my hair signing up for Thundermail, I'd like to check that I have what's…
+- **[#7738](https://tbpro.zendesk.com/agent/tickets/7738)** · Thundermail invitation
+  > Hello, I had been communicating on the Matrix chat and was referred here to submit a request for help, which I did back on July 22. The ticket was regarding getting a second…
 
 ### Pricing — general pricing concern — 1 tickets
 
-- **[#7731](https://tbpro.zendesk.com/agent/tickets/7731)** · Fiyatı Yüksek — why: **curious** · how: **explained**
-  > Türkiye şartları için makul ücretli değil.
+- **[#7741](https://tbpro.zendesk.com/agent/tickets/7741)** · Thundermail Discounts? — why: **curious** · how: **explained**
+  > Hi! I recently received access to Thundermail and am interested in subscribing to the Early Bird plan. Before I sign up, are there currently any promotional, Early Bird,…
 
-### Email migration / import — 1 tickets
+### Refund / Cancel — 1 tickets
 
-- **[#7714](https://tbpro.zendesk.com/agent/tickets/7714)** · Unable to Send From Custom Domain in Thundermail Webmail — why: **blocked** · how: **investigated** · 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
-  > I recently migrated completely from Gmail to Thunderbird/Thundermail and have already closed my Gmail account. Thundermail is now my primary email service. My custom domain is…
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#7729](https://tbpro.zendesk.com/agent/tickets/7729)** · Trial period available without an annual subscription? — why: **curious** · how: **explained**
-  > Is there a trial period available without an annual subscription? For example, just for one month to see how Thundermail works?
-
-### Account access issues — wrong product, redirected to SUMO — 1 tickets
-
-- **[#7719](https://tbpro.zendesk.com/agent/tickets/7719)** · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda — why: **blocked** · how: **redirected**
-  > il me demande un nom d'utilisateur qui est WB01097 mais je n'arrive pas à retrouver le mot de passe
+- **[#7735](https://tbpro.zendesk.com/agent/tickets/7735)** · Thundermail — why: **change request** · how: **actioned**
+  > Hello [name], I took a look at Thundermall and paid the $72 for a year. After further inspection and digging into it, this app does not appear to be anydifferent from The original…
 
 ## New tickets — last 24h
 
-- [7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17T06:14 · Unable to Send From Custom Domain in Thundermail Webmail 🔗 [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60)
-- [7717](https://tbpro.zendesk.com/agent/tickets/7717) · [pending] · 2026-08-17T08:35 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
-- [7719](https://tbpro.zendesk.com/agent/tickets/7719) · [pending] · 2026-08-17T11:57 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
-- [7726](https://tbpro.zendesk.com/agent/tickets/7726) · [pending] · 2026-08-17T15:59 · adding thunderbird pro extension does not work
-- [7729](https://tbpro.zendesk.com/agent/tickets/7729) · [pending] · 2026-08-17T16:25 · Trial period available without an annual subscription?
-- [7730](https://tbpro.zendesk.com/agent/tickets/7730) · [pending] · 2026-08-17T18:32 · add a google.com account
-- [7731](https://tbpro.zendesk.com/agent/tickets/7731) · [open] · 2026-08-17T19:07 · Fiyatı Yüksek
-- [7732](https://tbpro.zendesk.com/agent/tickets/7732) · [open] · 2026-08-17T19:20 · Problems with confirmation email
-- [7733](https://tbpro.zendesk.com/agent/tickets/7733) · [open] · 2026-08-17T19:22 · SRV DNS Settings
+- [7735](https://tbpro.zendesk.com/agent/tickets/7735) · [open] · 2026-08-17T20:14 · Thundermail
+- [7738](https://tbpro.zendesk.com/agent/tickets/7738) · [open] · 2026-08-17T21:03 · Thundermail invitation
+- [7739](https://tbpro.zendesk.com/agent/tickets/7739) · [open] · 2026-08-17T22:01 · requirements.
+- [7741](https://tbpro.zendesk.com/agent/tickets/7741) · [open] · 2026-08-17T22:52 · Thundermail Discounts?
 
 ## Solved — last 24h
 
-- · [7519](https://tbpro.zendesk.com/agent/tickets/7519) · 2026-08-16T20:01 · DKIM signatures
-- · [7174](https://tbpro.zendesk.com/agent/tickets/7174) · 2026-08-16T20:01 · Appointment & Send
-- · [7581](https://tbpro.zendesk.com/agent/tickets/7581) · 2026-08-16T21:01 · Instead of a free trial, you're asking me to pay you for a half-baked product? Are you insane? Aren'
-- · [7067](https://tbpro.zendesk.com/agent/tickets/7067) · 2026-08-16T21:01 · Importing my calendar ics to Thundermail fails with code 412
-- 👍 [6752](https://tbpro.zendesk.com/agent/tickets/6752) · 2026-08-17T03:37 · How to use Thundermail as I used to do with Thunderbird
-- · [7579](https://tbpro.zendesk.com/agent/tickets/7579) · 2026-08-17T17:01 · Change Primary adress into my own domain
+- · [7577](https://tbpro.zendesk.com/agent/tickets/7577) · 2026-08-17T21:02 · Integration with Firefox Relay
+- · [7628](https://tbpro.zendesk.com/agent/tickets/7628) · 2026-08-17T23:01 · I have been invited to join Thundermail, but no option for one month
+- · [7599](https://tbpro.zendesk.com/agent/tickets/7599) · 2026-08-17T23:01 · Need help changing subscription payment method
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
