@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 18:15 ET** · refreshes hourly_  
+_Updated: **2026-08-18 19:15 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 58** of rollout — **6,500 invitees**, **377 tickets** so far (5.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 58** of rollout — **6,500 invitees**, **378 tickets** so far (5.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **15** new tickets in last 24h · **8** solved in last 24h
-- **377** tickets total since launch · contact rate **6%** of 6500 invitees
+- **378** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 137.8h · mean 192.0h (proxy: updated_at − created_at, 170 solved tickets)
+- **Median AHT**: 139.2h · mean 192.4h (proxy: updated_at − created_at, 169 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -114,9 +114,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 170
-- **closed**: 166
-- **pending**: 24
+- **solved**: 169
+- **closed**: 167
+- **pending**: 25
 - **open**: 9
 - **hold**: 7
 - **new**: 1
@@ -124,7 +124,7 @@ _No negative ratings since launch._
 ## Service (cumulative)
 
 - **Account Hub**: 177
-- **Thundermail**: 163
+- **Thundermail**: 164
 - **Send**: 13
 - **Appointment**: 13
 
@@ -132,7 +132,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 87
+- **curious** + **explained**: 88
 - **blocked** + **explained**: 64
 - **change request** + **actioned**: 41
 - **request** + **redirected**: 29
@@ -176,7 +176,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 3 tickets
 
-- **[#7775](https://tbpro.zendesk.com/agent/tickets/7775)** · Early Bird question
+- **[#7775](https://tbpro.zendesk.com/agent/tickets/7775)** · Early Bird question — why: **curious** · how: **explained**
   > Is the lack of @[domain] selection during the sign-up process intentional? Is this invitation only available for Early Bird, or will I still be able to use it when I decide to…
 - **[#7739](https://tbpro.zendesk.com/agent/tickets/7739)** · requirements.
   > I received the Thundermail invitation today. Before I lose a bunch of time and what little is left of my hair signing up for Thundermail, I'd like to check that I have what's…
