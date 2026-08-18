@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 06:16 ET** · refreshes hourly_  
+_Updated: **2026-08-18 07:16 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 58** of rollout — **6,500 invitees**, **367 tickets** so far (5.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 58** of rollout — **6,500 invitees**, **368 tickets** so far (5.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **367** tickets total since launch · contact rate **6%** of 6500 invitees
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **368** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -109,12 +109,12 @@ _(none in last 24h)_
 - **pending**: 17
 - **open**: 10
 - **hold**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 174
-- **Thundermail**: 158
+- **Thundermail**: 159
 - **Appointment**: 13
 - **Send**: 12
 
@@ -170,6 +170,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7738](https://tbpro.zendesk.com/agent/tickets/7738)** · Thundermail invitation
   > Hello, I had been communicating on the Matrix chat and was referred here to submit a request for help, which I did back on July 22. The ticket was regarding getting a second…
 
+### Aliases — 1 tickets
+
+- **[#7753](https://tbpro.zendesk.com/agent/tickets/7753)** · Ergänzende Bitte
+  > Könnten Sie bitte meinen Alias „ [email]“ in meine primäre E-Mail-Adresse umwandeln? Das wäre sehr wichtig für mich. Viele Grüße, [name]
+
 ### Other / uncategorized — 1 tickets
 
 - **[#7749](https://tbpro.zendesk.com/agent/tickets/7749)** · Can't connect to Apple Mail
@@ -192,6 +197,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7739](https://tbpro.zendesk.com/agent/tickets/7739) · [open] · 2026-08-17T22:01 · requirements.
 - [7741](https://tbpro.zendesk.com/agent/tickets/7741) · [open] · 2026-08-17T22:52 · Thundermail Discounts?
 - [7749](https://tbpro.zendesk.com/agent/tickets/7749) · [new] · 2026-08-18T07:02 · Can't connect to Apple Mail
+- [7753](https://tbpro.zendesk.com/agent/tickets/7753) · [new] · 2026-08-18T10:30 · Ergänzende Bitte
 
 ## Solved — last 24h
 
