@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 07:16 ET** · refreshes hourly_  
+_Updated: **2026-08-18 08:17 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -107,9 +107,9 @@ _(none in last 24h)_
 - **solved**: 178
 - **closed**: 152
 - **pending**: 17
-- **open**: 10
+- **open**: 11
 - **hold**: 9
-- **new**: 2
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -197,7 +197,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7739](https://tbpro.zendesk.com/agent/tickets/7739) · [open] · 2026-08-17T22:01 · requirements.
 - [7741](https://tbpro.zendesk.com/agent/tickets/7741) · [open] · 2026-08-17T22:52 · Thundermail Discounts?
 - [7749](https://tbpro.zendesk.com/agent/tickets/7749) · [new] · 2026-08-18T07:02 · Can't connect to Apple Mail
-- [7753](https://tbpro.zendesk.com/agent/tickets/7753) · [new] · 2026-08-18T10:30 · Ergänzende Bitte
+- [7753](https://tbpro.zendesk.com/agent/tickets/7753) · [open] · 2026-08-18T10:30 · Ergänzende Bitte
 
 ## Solved — last 24h
 
