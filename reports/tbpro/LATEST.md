@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 15:16 ET** · refreshes hourly_  
+_Updated: **2026-08-19 16:16 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 3 is **day 59** of rollout — **6,500 invitees**, **385 tickets** so far
 - **10** new tickets in last 24h · **8** solved in last 24h
 - **385** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (13 good / 0 bad)
+- **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 74
-- **Median AHT**: 140.1h · mean 193.0h (proxy: updated_at − created_at, 167 solved tickets)
+- **Median AHT**: 140.2h · mean 193.8h (proxy: updated_at − created_at, 166 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -121,16 +121,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 173
-- **solved**: 167
-- **pending**: 24
-- **open**: 14
-- **hold**: 7
+- **closed**: 174
+- **solved**: 166
+- **pending**: 25
+- **open**: 12
+- **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 182
-- **Thundermail**: 164
+- **Account Hub**: 181
+- **Thundermail**: 165
 - **Send**: 14
 - **Appointment**: 14
 
@@ -138,8 +138,8 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 88
-- **blocked** + **explained**: 64
+- **curious** + **explained**: 89
+- **blocked** + **explained**: 65
 - **change request** + **actioned**: 41
 - **request** + **redirected**: 29
 - **blocked** + **investigated**: 19
@@ -180,11 +180,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **escalated**: 1
 
 ## Tickets in last 24h — by theme
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7800](https://tbpro.zendesk.com/agent/tickets/7800)** · MX records
-  > I'm trying to set up the correct DNS-records, but struggle with the first one: "MX @ [domain]. 10". @ is not allowed, nor blank.
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -231,6 +226,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7777](https://tbpro.zendesk.com/agent/tickets/7777)** · Madrid
   > Llenar de Agua
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7800](https://tbpro.zendesk.com/agent/tickets/7800)** · MX records — why: **blocked** · how: **explained**
+  > I'm trying to set up the correct DNS-records, but struggle with the first one: "MX @ [domain]. 10". @ is not allowed, nor blank.
+
 ## New tickets — last 24h
 
 - [7777](https://tbpro.zendesk.com/agent/tickets/7777) · [open] · 2026-08-18T22:08 · Madrid
@@ -242,7 +242,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7792](https://tbpro.zendesk.com/agent/tickets/7792) · [open] · 2026-08-19T11:13 · add additional email account
 - [7793](https://tbpro.zendesk.com/agent/tickets/7793) · [open] · 2026-08-19T11:14 · Signing up for the early bird
 - [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [open] · 2026-08-19T14:50 · Request a refund
-- [7800](https://tbpro.zendesk.com/agent/tickets/7800) · [open] · 2026-08-19T16:08 · MX records
+- [7800](https://tbpro.zendesk.com/agent/tickets/7800) · [pending] · 2026-08-19T16:08 · MX records
 
 ## Solved — last 24h
 
