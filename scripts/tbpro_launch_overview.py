@@ -141,7 +141,9 @@ WAVES = [
     # Jul 22 – Aug 9: invite pause to catch up on ticket backlog. No sends this window.
     {"date": "2026-08-10", "end": "2026-08-10", "invites": 1000, "label": "Flight 8 Wave 1",      "color": "#f472b6"},
     {"date": "2026-08-11", "end": "2026-08-11", "invites": 1000, "label": "Flight 8 Wave 2",      "color": "#facc15"},
-    {"date": "2026-08-17", "end": "2026-08-17", "invites": 2000, "label": "Flight 8 Wave 3",      "color": "#fb7185"},
+    {"date": "2026-08-17", "end": "2026-08-23", "invites": 2000, "label": "Flight 8 Wave 3",      "color": "#fb7185"},
+    {"date": "2026-08-24", "end": "2026-08-24", "invites": 2000, "label": "Flight 8 Wave 4",      "color": "#818cf8"},
+    {"date": "2026-08-25", "end": "2099-12-31", "invites": 2000, "label": "Flight 8 Wave 5",      "color": "#2dd4bf"},
     # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
     # Re-engagement waves = previously-waitlisted users re-invited; confirm whether to include in TOTAL_INVITEES.
 ]
@@ -240,29 +242,41 @@ def fetch_ideas():
         if api_key:
             creds_path.write_text(f"api_key: {api_key}\njwt: {jwt}\n")
 
-    q = f"board_id={FEATUREOS_BOARD_ID}&per_page=100&status=all"
-    try:
-        proc = subprocess.run(
-            ["featureos-cli", "posts", "list", "--query", q, "--json"],
-            capture_output=True, text=True)
-        # featureos-cli sometimes writes JSON to stderr instead of stdout
-        raw = proc.stdout or proc.stderr or ""
-        out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", raw).strip()
-        idx = out.find("{")
-        if idx < 0:
-            print(f"WARN: featureos-cli no JSON in output. rc={proc.returncode} raw={raw[:200]!r}", file=sys.stderr)
-            return [], []
-        out = out[idx:]
-        data = json.loads(out)
-        if not data.get("success", True):
-            print(f"WARN: featureos-cli error: {data.get('message')}", file=sys.stderr)
-            return [], []
-        posts = data.get("feature_requests", [])
-        if not posts:
-            print(f"WARN: featureos-cli returned 0 posts. Keys: {list(data.keys())}", file=sys.stderr)
-    except Exception as e:
-        print(f"WARN: featureos-cli fetch failed: {e}", file=sys.stderr)
-        return [], []
+    # Board has grown past 100 posts — a single per_page=100 call silently truncates
+    # (missed 59 posts / 37% of the board as of Aug 2026, including high-vote ideas).
+    # Paginate until a page returns fewer than per_page results.
+    posts = []
+    page = 1
+    while True:
+        q = f"board_id={FEATUREOS_BOARD_ID}&per_page=100&page={page}&status=all"
+        try:
+            proc = subprocess.run(
+                ["featureos-cli", "posts", "list", "--query", q, "--json"],
+                capture_output=True, text=True)
+            # featureos-cli sometimes writes JSON to stderr instead of stdout
+            raw = proc.stdout or proc.stderr or ""
+            out = re.sub(r"\x1b\[[0-9;]*[A-Za-z]", "", raw).strip()
+            idx = out.find("{")
+            if idx < 0:
+                print(f"WARN: featureos-cli no JSON in output (page {page}). rc={proc.returncode} raw={raw[:200]!r}", file=sys.stderr)
+                break
+            out = out[idx:]
+            data = json.loads(out)
+            if not data.get("success", True):
+                print(f"WARN: featureos-cli error (page {page}): {data.get('message')}", file=sys.stderr)
+                break
+            page_posts = data.get("feature_requests", [])
+            if not page_posts:
+                if page == 1:
+                    print(f"WARN: featureos-cli returned 0 posts. Keys: {list(data.keys())}", file=sys.stderr)
+                break
+            posts.extend(page_posts)
+            if len(page_posts) < 100 or page >= 10:  # 10-page backstop
+                break
+            page += 1
+        except Exception as e:
+            print(f"WARN: featureos-cli fetch failed (page {page}): {e}", file=sys.stderr)
+            break
     OMIT_STATUSES = {"Off-topic"}
     filtered = [p for p in posts
                 if (p.get("custom_status") or {}).get("title", p.get("status","")) not in OMIT_STATUSES]
