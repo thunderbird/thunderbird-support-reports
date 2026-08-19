@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 11:17 ET** · refreshes hourly_  
+_Updated: **2026-08-19 12:16 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 59** of rollout — **6,500 invitees**, **385 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 59** of rollout — **6,500 invitees**, **386 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **4** solved in last 24h
-- **385** tickets total since launch · contact rate **6%** of 6500 invitees
+- **10** new tickets in last 24h · **4** solved in last 24h
+- **386** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 74
-- **Median AHT**: 140.6h · mean 197.9h (proxy: updated_at − created_at, 166 solved tickets)
+- **Median AHT**: 140.8h · mean 198.4h (proxy: updated_at − created_at, 165 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -121,17 +121,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 171
-- **solved**: 166
+- **closed**: 172
+- **solved**: 165
 - **pending**: 21
 - **open**: 17
 - **hold**: 7
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 181
-- **Thundermail**: 164
+- **Thundermail**: 165
 - **Send**: 14
 - **Appointment**: 14
 
@@ -189,6 +189,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7788](https://tbpro.zendesk.com/agent/tickets/7788)** · Refund request
   > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7800](https://tbpro.zendesk.com/agent/tickets/7800)** · MX records
+  > I'm trying to set up the correct DNS-records, but struggle with the first one: "MX @ [domain]. 10". @ is not allowed, nor blank.
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7796](https://tbpro.zendesk.com/agent/tickets/7796)** · Request a refund
@@ -235,6 +240,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7792](https://tbpro.zendesk.com/agent/tickets/7792) · [open] · 2026-08-19T11:13 · add additional email account
 - [7793](https://tbpro.zendesk.com/agent/tickets/7793) · [open] · 2026-08-19T11:14 · Signing up for the early bird
 - [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [new] · 2026-08-19T14:50 · Request a refund
+- [7800](https://tbpro.zendesk.com/agent/tickets/7800) · [new] · 2026-08-19T16:08 · MX records
 
 ## Solved — last 24h
 
