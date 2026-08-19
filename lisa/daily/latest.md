@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 06:16 ET** · refreshes hourly_  
+_Updated: **2026-08-19 07:16 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 59** of rollout — **6,500 invitees**, **381 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 59** of rollout — **6,500 invitees**, **384 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
-- **381** tickets total since launch · contact rate **6%** of 6500 invitees
+- **8** new tickets in last 24h · **3** solved in last 24h
+- **384** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 73
@@ -98,9 +98,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [new] · _Refund request_
+  > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
 
 ## New ideas on FeatureOS
 
@@ -119,12 +120,12 @@ _(none in last 24h)_
 - **solved**: 166
 - **pending**: 20
 - **open**: 13
+- **new**: 7
 - **hold**: 7
-- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 178
+- **Account Hub**: 180
 - **Thundermail**: 164
 - **Send**: 14
 - **Appointment**: 14
@@ -175,6 +176,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#7793](https://tbpro.zendesk.com/agent/tickets/7793)** · Signing up for the early bird
+  > Hey, thanks for the invite but I don't want to pay 72 euros a year for a service I can't even trial. So feel free to cancel my invite and signup
+- **[#7788](https://tbpro.zendesk.com/agent/tickets/7788)** · Refund request
+  > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
+
+### App setup / configuration — 1 tickets
+
+- **[#7792](https://tbpro.zendesk.com/agent/tickets/7792)** · add additional email account
+  > I cannot see how to add another email account on thundermail
+
 ### Aliases — 1 tickets
 
 - **[#7787](https://tbpro.zendesk.com/agent/tickets/7787)** · send using alias
@@ -207,6 +220,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7781](https://tbpro.zendesk.com/agent/tickets/7781) · [new] · 2026-08-19T02:27 · CalDAV Failing on Import
 - [7784](https://tbpro.zendesk.com/agent/tickets/7784) · [new] · 2026-08-19T07:24 · can't set encryption password
 - [7787](https://tbpro.zendesk.com/agent/tickets/7787) · [new] · 2026-08-19T08:14 · send using alias
+- [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [new] · 2026-08-19T10:44 · Refund request
+- [7792](https://tbpro.zendesk.com/agent/tickets/7792) · [new] · 2026-08-19T11:13 · add additional email account
+- [7793](https://tbpro.zendesk.com/agent/tickets/7793) · [new] · 2026-08-19T11:14 · Signing up for the early bird
 
 ## Solved — last 24h
 
