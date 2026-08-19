@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-18
 
-_Updated: **2026-08-18 20:22 ET** · refreshes hourly_  
+_Updated: **2026-08-18 21:43 ET** · refreshes hourly_  
 _24h window: 2026-08-17T16:00 → 2026-08-18T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 58** of rollout — **6,500 invitees**, **378 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 73
-- **Median AHT**: 139.2h · mean 192.4h (proxy: updated_at − created_at, 169 solved tickets)
+- **Median AHT**: 139.3h · mean 193.4h (proxy: updated_at − created_at, 168 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -114,8 +114,8 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **solved**: 169
-- **closed**: 167
+- **solved**: 168
+- **closed**: 168
 - **pending**: 25
 - **open**: 9
 - **hold**: 7
@@ -123,8 +123,8 @@ _No negative ratings since launch._
 
 ## Service (cumulative)
 
-- **Account Hub**: 177
-- **Thundermail**: 164
+- **Account Hub**: 178
+- **Thundermail**: 163
 - **Send**: 13
 - **Appointment**: 13
 
@@ -174,15 +174,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 3 tickets
-
-- **[#7775](https://tbpro.zendesk.com/agent/tickets/7775)** · Early Bird question — why: **curious** · how: **explained**
-  > Is the lack of @[domain] selection during the sign-up process intentional? Is this invitation only available for Early Bird, or will I still be able to use it when I decide to…
-- **[#7739](https://tbpro.zendesk.com/agent/tickets/7739)** · requirements.
-  > I received the Thundermail invitation today. Before I lose a bunch of time and what little is left of my hair signing up for Thundermail, I'd like to check that I have what's…
-- **[#7767](https://tbpro.zendesk.com/agent/tickets/7767)** · Does the invitation expire? — why: **curious** · how: **explained**
-  > Hi, I finally received my invitation to Thundermail and I'm 100% sure that I'm gonna used it, but I prefer to wait until the end of the month to do the expense, does the…
-
 ### Other / uncategorized — 3 tickets
 
 - **[#7771](https://tbpro.zendesk.com/agent/tickets/7771)** · Move domain from another hoster to thundermail pro
@@ -191,6 +182,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > What does "1 Inbox, 15 Email Addresses" mean? Does that mean that 15 email addresses all combine into 1 single inbox or does it mean that all email addresses share the same…
 - **[#7749](https://tbpro.zendesk.com/agent/tickets/7749)** · Can't connect to Apple Mail — why: **blocked** · how: **investigated**
   > Using the settings provided and created an app password but it won't connect.
+
+### Early bird signup — 2 tickets
+
+- **[#7775](https://tbpro.zendesk.com/agent/tickets/7775)** · Early Bird question — why: **curious** · how: **explained**
+  > Is the lack of @[domain] selection during the sign-up process intentional? Is this invitation only available for Early Bird, or will I still be able to use it when I decide to…
+- **[#7738](https://tbpro.zendesk.com/agent/tickets/7738)** · Thundermail invitation — why: **request** · how: **escalated**
+  > Hello, I had been communicating on the Matrix chat and was referred here to submit a request for help, which I did back on July 22. The ticket was regarding getting a second…
+
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#7739](https://tbpro.zendesk.com/agent/tickets/7739)** · requirements.
+  > I received the Thundermail invitation today. Before I lose a bunch of time and what little is left of my hair signing up for Thundermail, I'd like to check that I have what's…
+- **[#7767](https://tbpro.zendesk.com/agent/tickets/7767)** · Does the invitation expire? — why: **curious** · how: **explained**
+  > Hi, I finally received my invitation to Thundermail and I'm 100% sure that I'm gonna used it, but I prefer to wait until the end of the month to do the expense, does the…
 
 ### Pricing — general pricing concern — 2 tickets
 
@@ -213,11 +218,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7758](https://tbpro.zendesk.com/agent/tickets/7758)** · Cancellation of subscription — why: **change request** · how: **explained**
   > I would like to cancel my subscription to Thunderbird Pro. Can you help. Kind Regards, [name]
-
-### Early bird signup — 1 tickets
-
-- **[#7738](https://tbpro.zendesk.com/agent/tickets/7738)** · Thundermail invitation — why: **request** · how: **escalated**
-  > Hello, I had been communicating on the Matrix chat and was referred here to submit a request for help, which I did back on July 22. The ticket was regarding getting a second…
 
 ### Aliases — 1 tickets
 
