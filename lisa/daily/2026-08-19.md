@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 13:16 ET** · refreshes hourly_  
+_Updated: **2026-08-19 14:16 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 59** of rollout — **6,500 invitees**, **386 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 59** of rollout — **6,500 invitees**, **385 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **5** solved in last 24h
-- **386** tickets total since launch · contact rate **6%** of 6500 invitees
+- **10** new tickets in last 24h · **8** solved in last 24h
+- **385** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 74
-- **Median AHT**: 140.6h · mean 197.3h (proxy: updated_at − created_at, 166 solved tickets)
+- **Median AHT**: 140.1h · mean 193.0h (proxy: updated_at − created_at, 167 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -45,7 +45,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
 - 26 incident(s):
-  - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [solved] · 2026-06-24 · _Forgot password_
+  - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
   - [#6535](https://tbpro.zendesk.com/agent/tickets/6535) · [closed] · 2026-07-01 · _Cancel Thundermail_
@@ -103,7 +103,7 @@ _No negative ratings since launch._
 
 - [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [open] · _Refund request_
   > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
-- [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [new] · _Request a refund_
+- [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [open] · _Request a refund_
   > Hello, I'd like to request a full refund for my Thundermail subscription. Emails I send from Thundermail to Gmail consistently go to spam, which is a serious problem for me, and I don't have confidence in the…
 
 ## New ideas on FeatureOS
@@ -121,16 +121,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 172
-- **solved**: 166
-- **pending**: 23
+- **closed**: 173
+- **solved**: 167
+- **pending**: 22
 - **open**: 15
 - **hold**: 7
-- **new**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 182
+- **Account Hub**: 181
 - **Thundermail**: 164
 - **Send**: 14
 - **Appointment**: 14
@@ -141,7 +141,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 88
 - **blocked** + **explained**: 64
-- **change request** + **actioned**: 42
+- **change request** + **actioned**: 41
 - **request** + **redirected**: 29
 - **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 19
@@ -234,12 +234,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7777](https://tbpro.zendesk.com/agent/tickets/7777) · [open] · 2026-08-18T22:08 · Madrid
 - [7778](https://tbpro.zendesk.com/agent/tickets/7778) · [open] · 2026-08-18T23:00 · Setting up accounts here before the MX switch
 - [7781](https://tbpro.zendesk.com/agent/tickets/7781) · [open] · 2026-08-19T02:27 · CalDAV Failing on Import
-- [7784](https://tbpro.zendesk.com/agent/tickets/7784) · [new] · 2026-08-19T07:24 · can't set encryption password
+- [7784](https://tbpro.zendesk.com/agent/tickets/7784) · [open] · 2026-08-19T07:24 · can't set encryption password
 - [7787](https://tbpro.zendesk.com/agent/tickets/7787) · [open] · 2026-08-19T08:14 · send using alias
 - [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [open] · 2026-08-19T10:44 · Refund request
 - [7792](https://tbpro.zendesk.com/agent/tickets/7792) · [open] · 2026-08-19T11:13 · add additional email account
 - [7793](https://tbpro.zendesk.com/agent/tickets/7793) · [open] · 2026-08-19T11:14 · Signing up for the early bird
-- [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [new] · 2026-08-19T14:50 · Request a refund
+- [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [open] · 2026-08-19T14:50 · Request a refund
 - [7800](https://tbpro.zendesk.com/agent/tickets/7800) · [new] · 2026-08-19T16:08 · MX records
 
 ## Solved — last 24h
@@ -249,6 +249,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7636](https://tbpro.zendesk.com/agent/tickets/7636) · 2026-08-19T05:01 · outgoing mail problem?
 - 👍 [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-08-19T14:06 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
 - · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-19T16:59 · Payment
+- · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-19T18:02 · payment issues
+- · [7670](https://tbpro.zendesk.com/agent/tickets/7670) · 2026-08-19T18:02 · sender name  E-Mail
+- · [7759](https://tbpro.zendesk.com/agent/tickets/7759) · 2026-08-19T18:12 · Personnal domain doesnt receive mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
