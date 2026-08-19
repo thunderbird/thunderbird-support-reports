@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 16:16 ET** · refreshes hourly_  
+_Updated: **2026-08-19 17:16 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 59** of rollout — **6,500 invitees**, **385 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 59** of rollout — **6,500 invitees**, **384 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **8** solved in last 24h
-- **385** tickets total since launch · contact rate **6%** of 6500 invitees
+- **384** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 74
@@ -64,7 +64,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [pending] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -101,7 +101,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [open] · _Refund request_
+- [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [pending] · _Refund request_
   > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
 - [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [open] · _Request a refund_
   > Hello, I'd like to request a full refund for my Thundermail subscription. Emails I send from Thundermail to Gmail consistently go to spam, which is a serious problem for me, and I don't have confidence in the…
@@ -123,14 +123,14 @@ _No negative ratings since launch._
 
 - **closed**: 174
 - **solved**: 166
-- **pending**: 25
-- **open**: 12
+- **pending**: 29
 - **hold**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 181
-- **Thundermail**: 165
+- **Account Hub**: 180
+- **Thundermail**: 166
 - **Send**: 14
 - **Appointment**: 14
 
@@ -138,24 +138,24 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 89
-- **blocked** + **explained**: 65
-- **change request** + **actioned**: 41
-- **request** + **redirected**: 29
+- **curious** + **explained**: 90
+- **blocked** + **explained**: 66
+- **change request** + **actioned**: 42
+- **request** + **redirected**: 28
 - **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 19
 - **confused** + **explained**: 13
 - **concerned** + **explained**: 11
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 5
+- **concerned** + **—**: 4
+- **curious** + **informed**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
-- **concerned** + **—**: 3
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
-- **curious** + **informed**: 3
-- **telling us** + **—**: 2
+- **telling us** + **n/a**: 2
 - **blocked** + **informed**: 2
 - **curious** + **actioned**: 2
 - **curious** + **redirected**: 2
@@ -172,34 +172,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
 - **other** + **n/a**: 1
-- **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **curious** + **escalated**: 1
 - **request** + **informed**: 1
+- **telling us** + **—**: 1
 - **confused** + **escalated**: 1
 
 ## Tickets in last 24h — by theme
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#7796](https://tbpro.zendesk.com/agent/tickets/7796)** · Request a refund
+- **[#7796](https://tbpro.zendesk.com/agent/tickets/7796)** · Request a refund — why: **concerned**
   > Hello, I'd like to request a full refund for my Thundermail subscription. Emails I send from Thundermail to Gmail consistently go to spam, which is a serious problem for me, and I…
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7793](https://tbpro.zendesk.com/agent/tickets/7793)** · Signing up for the early bird — why: **telling us**
-  > Hey, thanks for the invite but I don't want to pay 72 euros a year for a service I can't even trial. So feel free to cancel my invite and signup
 
 ### App setup / configuration — 1 tickets
 
-- **[#7792](https://tbpro.zendesk.com/agent/tickets/7792)** · add additional email account
+- **[#7792](https://tbpro.zendesk.com/agent/tickets/7792)** · add additional email account — why: **curious** · how: **informed**
   > I cannot see how to add another email account on thundermail
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7788](https://tbpro.zendesk.com/agent/tickets/7788)** · Refund request
-  > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
 
 ### Aliases — 1 tickets
 
@@ -218,29 +208,39 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Email migration / import — 1 tickets
 
-- **[#7778](https://tbpro.zendesk.com/agent/tickets/7778)** · Setting up accounts here before the MX switch
+- **[#7778](https://tbpro.zendesk.com/agent/tickets/7778)** · Setting up accounts here before the MX switch — why: **blocked** · how: **explained**
   > I want to move my email from Google Workspace. I want to set up my email addresses @[domain].nz here BEFORE the MX switch so NO mail goes missing. I don't seem to be able to…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7777](https://tbpro.zendesk.com/agent/tickets/7777)** · Madrid
-  > Llenar de Agua
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#7800](https://tbpro.zendesk.com/agent/tickets/7800)** · MX records — why: **blocked** · how: **explained**
   > I'm trying to set up the correct DNS-records, but struggle with the first one: "MX @ [domain]. 10". @ is not allowed, nor blank.
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#7793](https://tbpro.zendesk.com/agent/tickets/7793)** · Signing up for the early bird — why: **telling us** · how: **n/a**
+  > Hey, thanks for the invite but I don't want to pay 72 euros a year for a service I can't even trial. So feel free to cancel my invite and signup
+
+### Refund / Cancel — 1 tickets
+
+- **[#7788](https://tbpro.zendesk.com/agent/tickets/7788)** · Refund request — why: **change request** · how: **actioned**
+  > Hi, I subscribed yesterday after receiving my invite, but I've decided that I don't want to switch providers at this time. Please can I get this refunded?
+
+### Other / uncategorized — 1 tickets
+
+- **[#7777](https://tbpro.zendesk.com/agent/tickets/7777)** · Madrid — why: **curious** · how: **explained**
+  > Llenar de Agua
+
 ## New tickets — last 24h
 
-- [7777](https://tbpro.zendesk.com/agent/tickets/7777) · [open] · 2026-08-18T22:08 · Madrid
+- [7777](https://tbpro.zendesk.com/agent/tickets/7777) · [pending] · 2026-08-18T22:08 · Madrid
 - [7778](https://tbpro.zendesk.com/agent/tickets/7778) · [open] · 2026-08-18T23:00 · Setting up accounts here before the MX switch
 - [7781](https://tbpro.zendesk.com/agent/tickets/7781) · [open] · 2026-08-19T02:27 · CalDAV Failing on Import
 - [7784](https://tbpro.zendesk.com/agent/tickets/7784) · [open] · 2026-08-19T07:24 · can't set encryption password
 - [7787](https://tbpro.zendesk.com/agent/tickets/7787) · [open] · 2026-08-19T08:14 · send using alias
-- [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [open] · 2026-08-19T10:44 · Refund request
+- [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [pending] · 2026-08-19T10:44 · Refund request
 - [7792](https://tbpro.zendesk.com/agent/tickets/7792) · [open] · 2026-08-19T11:13 · add additional email account
-- [7793](https://tbpro.zendesk.com/agent/tickets/7793) · [open] · 2026-08-19T11:14 · Signing up for the early bird
+- [7793](https://tbpro.zendesk.com/agent/tickets/7793) · [pending] · 2026-08-19T11:14 · Signing up for the early bird
 - [7796](https://tbpro.zendesk.com/agent/tickets/7796) · [open] · 2026-08-19T14:50 · Request a refund
 - [7800](https://tbpro.zendesk.com/agent/tickets/7800) · [pending] · 2026-08-19T16:08 · MX records
 
