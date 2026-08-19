@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 12:16 ET** · refreshes hourly_  
+_Updated: **2026-08-19 13:16 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 59** of rollout — **6,500 invitees**, **386 tickets** so far
 
 ## At a glance
 
-- **10** new tickets in last 24h · **4** solved in last 24h
+- **10** new tickets in last 24h · **5** solved in last 24h
 - **386** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 74
-- **Median AHT**: 140.8h · mean 198.4h (proxy: updated_at − created_at, 165 solved tickets)
+- **Median AHT**: 140.6h · mean 197.3h (proxy: updated_at − created_at, 166 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -110,28 +110,28 @@ _No negative ratings since launch._
 
 **Last 24h** — 4 new:
 
-- [IP Whitelisting](https://ideas.tb.pro/p/ip-whitelisting) · 1 votes · _untagged_
+- [IP Whitelisting](https://ideas.tb.pro/p/ip-whitelisting) · 1 votes · _New Feature, Privacy & Security, Accounts & Subscriptions_
   > What you’d like to seeAllow whitelisting of IP address so only configured IP address can login to my account.Why it mattersPrevents bad actor from accessing the mailbox should the password be…
-- [Donation on subscription ](https://ideas.tb.pro/p/donation-on-subscription) · 1 votes · _untagged_
+- [Donation on subscription ](https://ideas.tb.pro/p/donation-on-subscription) · 1 votes · _Accounts & Subscriptions_
   > What you’d like to seeThe ability to add a small $1 or $2 donation onto to the monthly cost of your subscription, to help support Mozilla’s other products Why it mattersI would love to donate to…
 - [An idea to make Thunderbird unique with comments feature. ](https://ideas.tb.pro/p/an-idea-to-make-thunderbird-unique-with-comments-feature) · 1 votes · _untagged_
   > What you’d like seeBriefly describe the feature or improvement.What makes Thunderbird different from other email clients? For a casual user, it's the same as others. So why will he use TM? To make TM…
-- [@tmail.com](https://ideas.tb.pro/p/tmail-com) · 1 votes · _untagged_
+- [@tmail.com](https://ideas.tb.pro/p/tmail-com) · 1 votes · _Thundermail_
   > What you’d like to see@tmail.com as an option for addressesWhy it matters@thundermail.com is long and @tb.pro suffers form being unrecognizable and not being .com
 
 ## Status breakdown (cumulative)
 
 - **closed**: 172
-- **solved**: 165
-- **pending**: 21
-- **open**: 17
+- **solved**: 166
+- **pending**: 23
+- **open**: 15
 - **hold**: 7
-- **new**: 4
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 181
-- **Thundermail**: 165
+- **Account Hub**: 182
+- **Thundermail**: 164
 - **Send**: 14
 - **Appointment**: 14
 
@@ -141,7 +141,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 88
 - **blocked** + **explained**: 64
-- **change request** + **actioned**: 41
+- **change request** + **actioned**: 42
 - **request** + **redirected**: 29
 - **blocked** + **investigated**: 19
 - **blocked** + **escalated**: 19
@@ -155,7 +155,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
 - **curious** + **informed**: 3
-- **change request** + **explained**: 2
 - **blocked** + **informed**: 2
 - **curious** + **actioned**: 2
 - **concerned** + **—**: 2
@@ -166,6 +165,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **informed**: 1
 - **curious** + **—**: 1
 - **telling us** + **informed**: 1
+- **change request** + **explained**: 1
 - **change request** + **informed**: 1
 - **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
@@ -233,7 +233,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7777](https://tbpro.zendesk.com/agent/tickets/7777) · [open] · 2026-08-18T22:08 · Madrid
 - [7778](https://tbpro.zendesk.com/agent/tickets/7778) · [open] · 2026-08-18T23:00 · Setting up accounts here before the MX switch
-- [7781](https://tbpro.zendesk.com/agent/tickets/7781) · [new] · 2026-08-19T02:27 · CalDAV Failing on Import
+- [7781](https://tbpro.zendesk.com/agent/tickets/7781) · [open] · 2026-08-19T02:27 · CalDAV Failing on Import
 - [7784](https://tbpro.zendesk.com/agent/tickets/7784) · [new] · 2026-08-19T07:24 · can't set encryption password
 - [7787](https://tbpro.zendesk.com/agent/tickets/7787) · [open] · 2026-08-19T08:14 · send using alias
 - [7788](https://tbpro.zendesk.com/agent/tickets/7788) · [open] · 2026-08-19T10:44 · Refund request
@@ -248,6 +248,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7587](https://tbpro.zendesk.com/agent/tickets/7587) · 2026-08-18T22:01 · Забыл пароль
 - · [7636](https://tbpro.zendesk.com/agent/tickets/7636) · 2026-08-19T05:01 · outgoing mail problem?
 - 👍 [7160](https://tbpro.zendesk.com/agent/tickets/7160) · 2026-08-19T14:06 · ESMTP Authentication Failure (535 5.7.8 / AUTHENTICATIONFAILED) for Valid App Passwords
+- · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-19T16:59 · Payment
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
