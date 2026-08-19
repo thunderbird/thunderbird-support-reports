@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 17:16 ET** · refreshes hourly_  
+_Updated: **2026-08-19 18:15 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -130,8 +130,8 @@ _No negative ratings since launch._
 ## Service (cumulative)
 
 - **Account Hub**: 180
-- **Thundermail**: 166
-- **Send**: 14
+- **Thundermail**: 165
+- **Send**: 15
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -142,7 +142,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 66
 - **change request** + **actioned**: 42
 - **request** + **redirected**: 28
-- **blocked** + **investigated**: 19
+- **blocked** + **investigated**: 20
 - **blocked** + **escalated**: 19
 - **confused** + **explained**: 13
 - **concerned** + **explained**: 11
@@ -198,7 +198,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Bug report / app crash / not working — 1 tickets
 
-- **[#7784](https://tbpro.zendesk.com/agent/tickets/7784)** · can't set encryption password
+- **[#7784](https://tbpro.zendesk.com/agent/tickets/7784)** · can't set encryption password — why: **blocked** · how: **investigated**
   > the "Set encryption password" button in thunderbird doesn't work
 
 ### Appointment / calendar — 1 tickets
