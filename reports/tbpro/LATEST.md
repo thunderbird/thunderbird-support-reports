@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-19
 
-_Updated: **2026-08-19 03:23 ET** · refreshes hourly_  
+_Updated: **2026-08-19 04:18 ET** · refreshes hourly_  
 _24h window: 2026-08-18T16:00 → 2026-08-19T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 59** of rollout — **6,500 invitees**, **379 tickets** so far (5.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 59** of rollout — **6,500 invitees**, **381 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
-- **379** tickets total since launch · contact rate **6%** of 6500 invitees
+- **5** new tickets in last 24h · **3** solved in last 24h
+- **381** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 73
 - **Median AHT**: 140.2h · mean 194.9h (proxy: updated_at − created_at, 166 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"desktop client"** — 2 tickets in 24h (38.7× baseline; baseline 3 cum) — [#7781](https://tbpro.zendesk.com/agent/tickets/7781), [#7787](https://tbpro.zendesk.com/agent/tickets/7787)
 
 ## Known problems — 6 problem(s), 38 incident(s)
 
@@ -111,17 +117,17 @@ _(none in last 24h)_
 
 - **closed**: 171
 - **solved**: 166
-- **pending**: 22
-- **open**: 11
+- **pending**: 21
+- **open**: 12
 - **hold**: 7
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 178
-- **Thundermail**: 163
+- **Thundermail**: 164
+- **Send**: 14
 - **Appointment**: 14
-- **Send**: 13
 
 ## Why × How (cumulative)
 
@@ -169,6 +175,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#7787](https://tbpro.zendesk.com/agent/tickets/7787)** · send using alias
+  > when using the thunderbird desktop client I had to manually type in the "from" address to use one of the aliases. the mail arrived at its destination but is not shown in the…
+
+### Bug report / app crash / not working — 1 tickets
+
+- **[#7784](https://tbpro.zendesk.com/agent/tickets/7784)** · can't set encryption password
+  > the "Set encryption password" button in thunderbird doesn't work
+
 ### Appointment / calendar — 1 tickets
 
 - **[#7781](https://tbpro.zendesk.com/agent/tickets/7781)** · CalDAV Failing on Import
@@ -189,6 +205,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7777](https://tbpro.zendesk.com/agent/tickets/7777) · [open] · 2026-08-18T22:08 · Madrid
 - [7778](https://tbpro.zendesk.com/agent/tickets/7778) · [new] · 2026-08-18T23:00 · Setting up accounts here before the MX switch
 - [7781](https://tbpro.zendesk.com/agent/tickets/7781) · [new] · 2026-08-19T02:27 · CalDAV Failing on Import
+- [7784](https://tbpro.zendesk.com/agent/tickets/7784) · [new] · 2026-08-19T07:24 · can't set encryption password
+- [7787](https://tbpro.zendesk.com/agent/tickets/7787) · [new] · 2026-08-19T08:14 · send using alias
 
 ## Solved — last 24h
 
