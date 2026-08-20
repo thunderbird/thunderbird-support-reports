@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-20
 
-_Updated: **2026-08-20 16:16 ET** · refreshes hourly_  
+_Updated: **2026-08-20 17:16 ET** · refreshes hourly_  
 _24h window: 2026-08-19T16:00 → 2026-08-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
-- **Median AHT**: 141.1h · mean 197.5h (proxy: updated_at − created_at, 162 solved tickets)
+- **Median AHT**: 141.3h · mean 198.5h (proxy: updated_at − created_at, 161 solved tickets)
 
 ## Known problems — 6 problem(s), 38 incident(s)
 
@@ -105,16 +105,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 179
-- **solved**: 162
-- **pending**: 33
-- **hold**: 7
-- **open**: 5
+- **closed**: 180
+- **solved**: 161
+- **pending**: 36
+- **hold**: 8
+- **open**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 180
-- **Thundermail**: 167
+- **Account Hub**: 181
+- **Thundermail**: 166
 - **Appointment**: 15
 - **Send**: 14
 
@@ -124,7 +124,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 91
 - **blocked** + **explained**: 67
-- **change request** + **actioned**: 42
+- **change request** + **actioned**: 43
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 20
 - **blocked** + **escalated**: 19
@@ -132,11 +132,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 11
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 5
-- **concerned** + **—**: 4
 - **curious** + **informed**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **confused** + **informed**: 3
+- **concerned** + **—**: 3
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
@@ -165,19 +165,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Appointment / calendar — 1 tickets
-
-- **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application — why: **confused** · how: **informed**
-  > Using the article, https://[domain]/hc/en-us/articles/[number]-Connecting-Your-Thundermail-Calendar, I am trying to connect it to my iPhone. I entered all the information…
-
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#7825](https://tbpro.zendesk.com/agent/tickets/7825)** · Ailias — why: **blocked** · how: **explained**
   > Hi I have set up a couple of aliases in web browser for thundermail. When I use Thunderbird on android it going gives my primary thundermail but not any aliases Please advise
 
+### Appointment / calendar — 1 tickets
+
+- **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application — why: **confused** · how: **informed**
+  > Using the article, https://[domain]/hc/en-us/articles/[number]-Connecting-Your-Thundermail-Calendar, I am trying to connect it to my iPhone. I entered all the information…
+
 ## New tickets — last 24h
 
-- [7808](https://tbpro.zendesk.com/agent/tickets/7808) · [open] · 2026-08-19T23:37 · Issues connecting CALDEV to iOS Calendar Application
+- [7808](https://tbpro.zendesk.com/agent/tickets/7808) · [pending] · 2026-08-19T23:37 · Issues connecting CALDEV to iOS Calendar Application
 - [7825](https://tbpro.zendesk.com/agent/tickets/7825) · [pending] · 2026-08-20T13:30 · Ailias
 
 ## Solved — last 24h
