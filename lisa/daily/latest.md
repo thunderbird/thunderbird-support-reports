@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-20
 
-_Updated: **2026-08-20 13:17 ET** · refreshes hourly_  
+_Updated: **2026-08-20 14:17 ET** · refreshes hourly_  
 _24h window: 2026-08-19T16:00 → 2026-08-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **386** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 74
-- **Median AHT**: 140.2h · mean 195.5h (proxy: updated_at − created_at, 162 solved tickets)
+- **Median AHT**: 140.3h · mean 195.7h (proxy: updated_at − created_at, 163 solved tickets)
 
 ## Known problems — 6 problem(s), 38 incident(s)
 
@@ -105,10 +105,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 177
-- **solved**: 162
-- **pending**: 29
-- **open**: 10
+- **solved**: 163
+- **pending**: 31
 - **hold**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -121,11 +121,11 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 90
+- **curious** + **explained**: 91
 - **blocked** + **explained**: 66
 - **change request** + **actioned**: 42
 - **request** + **redirected**: 28
-- **blocked** + **investigated**: 21
+- **blocked** + **investigated**: 20
 - **blocked** + **escalated**: 19
 - **confused** + **explained**: 13
 - **concerned** + **explained**: 11
@@ -182,6 +182,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-20T17:02 · Payment
+- · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-20T17:52 · payment issues
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
