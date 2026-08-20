@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-20
 
-_Updated: **2026-08-20 09:28 ET** · refreshes hourly_  
+_Updated: **2026-08-20 10:20 ET** · refreshes hourly_  
 _24h window: 2026-08-19T16:00 → 2026-08-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 60** of rollout — **6,500 invitees**, **385 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
-- **385** tickets total since launch · contact rate **6%** of 6500 invitees
+- **2** new tickets in last 24h · **0** solved in last 24h
+- **386** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 74
@@ -107,7 +107,7 @@ _(none in last 24h)_
 - **closed**: 177
 - **solved**: 162
 - **pending**: 27
-- **open**: 11
+- **open**: 12
 - **hold**: 8
 
 ## Service (cumulative)
@@ -164,6 +164,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7825](https://tbpro.zendesk.com/agent/tickets/7825)** · Ailias
+  > Hi I have set up a couple of aliases in web browser for thundermail. When I use Thunderbird on android it going gives my primary thundermail but not any aliases Please advise
+
 ### Appointment / calendar — 1 tickets
 
 - **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application
@@ -172,6 +177,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7808](https://tbpro.zendesk.com/agent/tickets/7808) · [open] · 2026-08-19T23:37 · Issues connecting CALDEV to iOS Calendar Application
+- [7825](https://tbpro.zendesk.com/agent/tickets/7825) · [open] · 2026-08-20T13:30 · Ailias
 
 ## Solved — last 24h
 
