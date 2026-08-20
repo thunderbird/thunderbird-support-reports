@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-20
 
-_Updated: **2026-08-20 18:16 ET** · refreshes hourly_  
+_Updated: **2026-08-20 19:16 ET** · refreshes hourly_  
 _24h window: 2026-08-19T16:00 → 2026-08-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,10 +9,10 @@ Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
+- **2** new tickets in last 24h · **3** solved in last 24h
 - **386** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (10 good / 0 bad)
+- **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
 - **Median AHT**: 141.3h · mean 198.5h (proxy: updated_at − created_at, 163 solved tickets)
 
@@ -107,8 +107,9 @@ _(none in last 24h)_
 
 - **closed**: 180
 - **solved**: 163
-- **pending**: 35
+- **pending**: 33
 - **hold**: 8
+- **open**: 2
 
 ## Service (cumulative)
 
@@ -164,26 +165,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#7825](https://tbpro.zendesk.com/agent/tickets/7825)** · Ailias — why: **blocked** · how: **explained**
-  > Hi I have set up a couple of aliases in web browser for thundermail. When I use Thunderbird on android it going gives my primary thundermail but not any aliases Please advise
-
 ### Appointment / calendar — 1 tickets
 
 - **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application — why: **confused** · how: **informed**
   > Using the article, https://[domain]/hc/en-us/articles/[number]-Connecting-Your-Thundermail-Calendar, I am trying to connect it to my iPhone. I entered all the information…
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7825](https://tbpro.zendesk.com/agent/tickets/7825)** · Ailias — why: **blocked** · how: **explained**
+  > Hi I have set up a couple of aliases in web browser for thundermail. When I use Thunderbird on android it going gives my primary thundermail but not any aliases Please advise
+
 ## New tickets — last 24h
 
-- [7808](https://tbpro.zendesk.com/agent/tickets/7808) · [pending] · 2026-08-19T23:37 · Issues connecting CALDEV to iOS Calendar Application
+- [7808](https://tbpro.zendesk.com/agent/tickets/7808) · [open] · 2026-08-19T23:37 · Issues connecting CALDEV to iOS Calendar Application
 - [7825](https://tbpro.zendesk.com/agent/tickets/7825) · [pending] · 2026-08-20T13:30 · Ailias
 
 ## Solved — last 24h
 
 - · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-20T17:02 · Payment
 - · [7635](https://tbpro.zendesk.com/agent/tickets/7635) · 2026-08-20T19:00 · You're Invited: Thundermail Early Bird Access
-- · [7759](https://tbpro.zendesk.com/agent/tickets/7759) · 2026-08-20T19:02 · Personnal domain doesnt receive mail
 - · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-20T19:08 · payment issues
 
 ---
