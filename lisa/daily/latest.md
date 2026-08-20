@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-20
 
-_Updated: **2026-08-20 12:17 ET** · refreshes hourly_  
+_Updated: **2026-08-20 13:17 ET** · refreshes hourly_  
 _24h window: 2026-08-19T16:00 → 2026-08-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **0** solved in last 24h
+- **2** new tickets in last 24h · **1** solved in last 24h
 - **386** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 74
-- **Median AHT**: 140.2h · mean 195.4h (proxy: updated_at − created_at, 162 solved tickets)
+- **Median AHT**: 140.2h · mean 195.5h (proxy: updated_at − created_at, 162 solved tickets)
 
 ## Known problems — 6 problem(s), 38 incident(s)
 
@@ -57,7 +57,7 @@ Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [pending] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -106,16 +106,16 @@ _(none in last 24h)_
 
 - **closed**: 177
 - **solved**: 162
-- **pending**: 27
-- **open**: 12
+- **pending**: 29
+- **open**: 10
 - **hold**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 180
-- **Thundermail**: 165
+- **Thundermail**: 166
 - **Appointment**: 15
-- **Send**: 15
+- **Send**: 14
 
 ## Why × How (cumulative)
 
@@ -135,6 +135,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
+- **confused** + **informed**: 3
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
@@ -143,7 +144,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **confused** + **informed**: 1
 - **request** + **escalated**: 1
 - **other** + **informed**: 1
 - **curious** + **—**: 1
@@ -171,7 +171,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Appointment / calendar — 1 tickets
 
-- **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application
+- **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application — why: **confused** · how: **informed**
   > Using the article, https://[domain]/hc/en-us/articles/[number]-Connecting-Your-Thundermail-Calendar, I am trying to connect it to my iPhone. I entered all the information…
 
 ## New tickets — last 24h
@@ -181,7 +181,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-_(none)_
+- · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-20T17:02 · Payment
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
