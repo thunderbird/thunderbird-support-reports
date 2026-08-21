@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 01:18 ET** · refreshes hourly_  
+_Updated: **2026-08-21 02:19 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 61** of rollout — **6,500 invitees**, **386 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 61** of rollout — **6,500 invitees**, **387 tickets** so far (6.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **4** solved in last 24h
-- **386** tickets total since launch · contact rate **6%** of 6500 invitees
+- **1** new tickets in last 24h · **4** solved in last 24h
+- **387** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 75
-- **Median AHT**: 141.3h · mean 198.4h (proxy: updated_at − created_at, 163 solved tickets)
+- **Median AHT**: 141.1h · mean 198.5h (proxy: updated_at − created_at, 162 solved tickets)
 
 ## Known problems — 6 problem(s), 38 incident(s)
 
@@ -105,15 +105,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 181
-- **solved**: 163
+- **solved**: 162
 - **pending**: 33
 - **hold**: 7
-- **open**: 2
+- **open**: 3
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 181
-- **Thundermail**: 166
+- **Thundermail**: 167
 - **Appointment**: 15
 - **Send**: 14
 
@@ -164,11 +165,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Account access issues — 1 tickets
+
+- **[#7842](https://tbpro.zendesk.com/agent/tickets/7842)** · Can't login
+  > I am trying to login to my thundermail account and i can seem to find my username and password
 
 ## New tickets — last 24h
 
-_(none)_
+- [7842](https://tbpro.zendesk.com/agent/tickets/7842) · [new] · 2026-08-21T06:07 · Can't login
 
 ## Solved — last 24h
 
