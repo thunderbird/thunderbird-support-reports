@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 10:20 ET** · refreshes hourly_  
+_Updated: **2026-08-21 11:18 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -94,9 +94,9 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [new] · _Refund request_
+- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [open] · _Refund request_
   > Hello, I would like to request a refund for Thundermail. The main reason is that the emails I send end up in the spam folder. I understand it is a beta version, but I consider this to be an issue. Support suggested…
-- [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [new] · _refund subscription_
+- [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [open] · _refund subscription_
   > Hello, I want to have an refund of my subscription. I not satisfied in the possibilities for the price, maybe return later when there is more functionality but for now this is not good enough for me. I hope you can help…
 
 ## New ideas on FeatureOS
@@ -110,9 +110,8 @@ _No negative ratings since launch._
 - **closed**: 181
 - **solved**: 162
 - **pending**: 33
+- **open**: 7
 - **hold**: 7
-- **new**: 4
-- **open**: 3
 
 ## Service (cumulative)
 
@@ -187,10 +186,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [7842](https://tbpro.zendesk.com/agent/tickets/7842) · [new] · 2026-08-21T06:07 · Can't login
-- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [new] · 2026-08-21T07:08 · Refund request
-- [7848](https://tbpro.zendesk.com/agent/tickets/7848) · [new] · 2026-08-21T11:20 · Request to Change Recovery Email
-- [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [new] · 2026-08-21T13:33 · refund subscription
+- [7842](https://tbpro.zendesk.com/agent/tickets/7842) · [open] · 2026-08-21T06:07 · Can't login
+- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [open] · 2026-08-21T07:08 · Refund request
+- [7848](https://tbpro.zendesk.com/agent/tickets/7848) · [open] · 2026-08-21T11:20 · Request to Change Recovery Email
+- [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [open] · 2026-08-21T13:33 · refund subscription
 
 ## Solved — last 24h
 
