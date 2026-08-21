@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 02:19 ET** · refreshes hourly_  
+_Updated: **2026-08-21 03:26 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 61** of rollout — **6,500 invitees**, **387 tickets** so far (6.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 61** of rollout — **6,500 invitees**, **388 tickets** so far (6.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **387** tickets total since launch · contact rate **6%** of 6500 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **388** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 75
@@ -92,9 +92,10 @@ Flight 3 is **day 61** of rollout — **6,500 invitees**, **387 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [new] · _Refund request_
+  > Hello, I would like to request a refund for Thundermail. The main reason is that the emails I send end up in the spam folder. I understand it is a beta version, but I consider this to be an issue. Support suggested…
 
 ## New ideas on FeatureOS
 
@@ -109,12 +110,12 @@ _(none in last 24h)_
 - **pending**: 33
 - **hold**: 7
 - **open**: 3
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 181
-- **Thundermail**: 167
+- **Thundermail**: 168
 - **Appointment**: 15
 - **Send**: 14
 
@@ -165,6 +166,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7843](https://tbpro.zendesk.com/agent/tickets/7843)** · Refund request
+  > Hello, I would like to request a refund for Thundermail. The main reason is that the emails I send end up in the spam folder. I understand it is a beta version, but I consider…
+
 ### Account access issues — 1 tickets
 
 - **[#7842](https://tbpro.zendesk.com/agent/tickets/7842)** · Can't login
@@ -173,6 +179,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7842](https://tbpro.zendesk.com/agent/tickets/7842) · [new] · 2026-08-21T06:07 · Can't login
+- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [new] · 2026-08-21T07:08 · Refund request
 
 ## Solved — last 24h
 
