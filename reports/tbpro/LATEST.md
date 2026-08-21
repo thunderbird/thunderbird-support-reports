@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-20
+# Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-20 23:29 ET** · refreshes hourly_  
-_24h window: 2026-08-19T16:00 → 2026-08-20T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-21 00:22 ET** · refreshes hourly_  
+_24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 60** of rollout — **6,500 invitees**, **386 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 61** of rollout — **6,500 invitees**, **386 tickets** so far (5.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
+- **0** new tickets in last 24h · **4** solved in last 24h
 - **386** tickets total since launch · contact rate **6%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 75
 - **Median AHT**: 141.3h · mean 198.4h (proxy: updated_at − created_at, 163 solved tickets)
 
 ## Known problems — 6 problem(s), 38 incident(s)
@@ -98,10 +98,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Send later for emails in android app.](https://ideas.tb.pro/p/send-later-for-emails-in-android-app) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Add a feature to send an email at a schedule time later. Why it mattersWhat problem does this solve, or what benefit does it…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -165,26 +164,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Appointment / calendar — 1 tickets
-
-- **[#7808](https://tbpro.zendesk.com/agent/tickets/7808)** · Issues connecting CALDEV to iOS Calendar Application — why: **confused** · how: **informed**
-  > Using the article, https://[domain]/hc/en-us/articles/[number]-Connecting-Your-Thundermail-Calendar, I am trying to connect it to my iPhone. I entered all the information…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#7825](https://tbpro.zendesk.com/agent/tickets/7825)** · Ailias — why: **blocked** · how: **explained**
-  > Hi I have set up a couple of aliases in web browser for thundermail. When I use Thunderbird on android it going gives my primary thundermail but not any aliases Please advise
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7808](https://tbpro.zendesk.com/agent/tickets/7808) · [open] · 2026-08-19T23:37 · Issues connecting CALDEV to iOS Calendar Application
-- [7825](https://tbpro.zendesk.com/agent/tickets/7825) · [pending] · 2026-08-20T13:30 · Ailias
+_(none)_
 
 ## Solved — last 24h
 
-- · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-20T17:02 · Payment
-- · [7635](https://tbpro.zendesk.com/agent/tickets/7635) · 2026-08-20T19:00 · You're Invited: Thundermail Early Bird Access
-- · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-20T19:08 · payment issues
+- · [7735](https://tbpro.zendesk.com/agent/tickets/7735) · 2026-08-20T21:20 · Thundermail
+- · [7520](https://tbpro.zendesk.com/agent/tickets/7520) · 2026-08-20T21:32 · No Verification Email
+- 👍 [7759](https://tbpro.zendesk.com/agent/tickets/7759) · 2026-08-20T22:35 · Personnal domain doesnt receive mail
+- · [7732](https://tbpro.zendesk.com/agent/tickets/7732) · 2026-08-20T23:17 · Problems with confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
