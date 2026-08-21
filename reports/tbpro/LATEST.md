@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 16:16 ET** · refreshes hourly_  
+_Updated: **2026-08-21 17:15 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -115,8 +115,8 @@ _No negative ratings since launch._
 - **closed**: 182
 - **solved**: 160
 - **pending**: 37
-- **open**: 7
-- **hold**: 7
+- **hold**: 8
+- **open**: 6
 - **new**: 1
 
 ## Service (cumulative)
@@ -131,7 +131,7 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 93
-- **blocked** + **explained**: 68
+- **blocked** + **explained**: 69
 - **change request** + **actioned**: 45
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 20
@@ -180,15 +180,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7843](https://tbpro.zendesk.com/agent/tickets/7843)** · Refund request — why: **change request** · how: **actioned**
   > Hello, I would like to request a refund for Thundermail. The main reason is that the emails I send end up in the spam folder. I understand it is a beta version, but I consider…
 
-### Webmail — 1 tickets
-
-- **[#7860](https://tbpro.zendesk.com/agent/tickets/7860)** · Can't Download Attachments from Webmail?
-  > Hi there, I know the webmail portion of Thundermail is still in early development but today I discovered that you can't download an attachment, is this expected? Thanks, [name]
-
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7858](https://tbpro.zendesk.com/agent/tickets/7858)** · Thundermail Invite — why: **curious** · how: **explained**
   > I'm very sorry to have to ask for this, but I received an invite to Thundermail yesterday, but accidentally deleted it. Could that invitation be re-sent? No issue if not, I'll…
+
+### Webmail — 1 tickets
+
+- **[#7860](https://tbpro.zendesk.com/agent/tickets/7860)** · Can't Download Attachments from Webmail? — why: **blocked** · how: **explained**
+  > Hi there, I know the webmail portion of Thundermail is still in early development but today I discovered that you can't download an attachment, is this expected? Thanks, [name]
 
 ### Appointment / calendar — 1 tickets
 
@@ -213,7 +213,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21T13:33 · refund subscription
 - [7858](https://tbpro.zendesk.com/agent/tickets/7858) · [open] · 2026-08-21T16:11 · Thundermail Invite
 - [7859](https://tbpro.zendesk.com/agent/tickets/7859) · [pending] · 2026-08-21T16:16 · Error: “We couldn’t connect to the calendar” in booking page
-- [7860](https://tbpro.zendesk.com/agent/tickets/7860) · [open] · 2026-08-21T18:27 · Can't Download Attachments from Webmail?
+- [7860](https://tbpro.zendesk.com/agent/tickets/7860) · [hold] · 2026-08-21T18:27 · Can't Download Attachments from Webmail?
 
 ## Solved — last 24h
 
