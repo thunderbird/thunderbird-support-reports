@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 07:16 ET** · refreshes hourly_  
+_Updated: **2026-08-21 08:17 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 61** of rollout — **6,500 invitees**, **388 tickets** so far (6.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 61** of rollout — **6,500 invitees**, **389 tickets** so far (6.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **388** tickets total since launch · contact rate **6%** of 6500 invitees
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **389** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 75
@@ -109,12 +109,12 @@ _No negative ratings since launch._
 - **solved**: 162
 - **pending**: 33
 - **hold**: 7
+- **new**: 3
 - **open**: 3
-- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 181
+- **Account Hub**: 182
 - **Thundermail**: 168
 - **Appointment**: 15
 - **Send**: 14
@@ -166,6 +166,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#7848](https://tbpro.zendesk.com/agent/tickets/7848)** · Request to Change Recovery Email
+  > Hello there, I would like to change my recovery email for this account, but I am not able to locate where to do so.
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7843](https://tbpro.zendesk.com/agent/tickets/7843)** · Refund request
@@ -180,6 +185,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7842](https://tbpro.zendesk.com/agent/tickets/7842) · [new] · 2026-08-21T06:07 · Can't login
 - [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [new] · 2026-08-21T07:08 · Refund request
+- [7848](https://tbpro.zendesk.com/agent/tickets/7848) · [new] · 2026-08-21T11:20 · Request to Change Recovery Email
 
 ## Solved — last 24h
 
