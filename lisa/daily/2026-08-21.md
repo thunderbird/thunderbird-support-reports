@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 12:16 ET** · refreshes hourly_  
+_Updated: **2026-08-21 13:16 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -113,8 +113,7 @@ _No negative ratings since launch._
 - **solved**: 161
 - **pending**: 36
 - **hold**: 7
-- **open**: 4
-- **new**: 2
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -206,8 +205,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · 2026-08-21T07:08 · Refund request
 - [7848](https://tbpro.zendesk.com/agent/tickets/7848) · [pending] · 2026-08-21T11:20 · Request to Change Recovery Email
 - [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [open] · 2026-08-21T13:33 · refund subscription
-- [7858](https://tbpro.zendesk.com/agent/tickets/7858) · [new] · 2026-08-21T16:11 · Thundermail Invite
-- [7859](https://tbpro.zendesk.com/agent/tickets/7859) · [new] · 2026-08-21T16:16 · Error: “We couldn’t connect to the calendar” in booking page
+- [7858](https://tbpro.zendesk.com/agent/tickets/7858) · [open] · 2026-08-21T16:11 · Thundermail Invite
+- [7859](https://tbpro.zendesk.com/agent/tickets/7859) · [open] · 2026-08-21T16:16 · Error: “We couldn’t connect to the calendar” in booking page
 
 ## Solved — last 24h
 
