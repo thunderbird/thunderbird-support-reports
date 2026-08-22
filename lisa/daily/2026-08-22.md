@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-22
 
-_Updated: **2026-08-22 09:20 ET** · refreshes hourly_  
+_Updated: **2026-08-22 10:15 ET** · refreshes hourly_  
 _24h window: 2026-08-21T16:00 → 2026-08-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 62** of rollout — **6,500 invitees**, **394 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 62** of rollout — **6,500 invitees**, **395 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
-- **394** tickets total since launch · contact rate **6%** of 6500 invitees
+- **2** new tickets in last 24h · **3** solved in last 24h
+- **395** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 77
-- **Median AHT**: 141.5h · mean 200.9h (proxy: updated_at − created_at, 160 solved tickets)
+- **Median AHT**: 141.3h · mean 201.2h (proxy: updated_at − created_at, 159 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -107,16 +107,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 182
-- **solved**: 160
+- **closed**: 183
+- **solved**: 159
 - **pending**: 33
 - **open**: 10
 - **hold**: 8
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 186
+- **Account Hub**: 187
 - **Thundermail**: 168
 - **Appointment**: 16
 - **Send**: 14
@@ -168,14 +168,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
+- **[#7875](https://tbpro.zendesk.com/agent/tickets/7875)** · Payment Failure
+  > Fix the backend. Error message: We are unable to take payment at this time. \ Please try again, or use a different payment method.
 - **[#7863](https://tbpro.zendesk.com/agent/tickets/7863)** · Cancel & Refund
   > Can I cancel and get refunded?
 
 ## New tickets — last 24h
 
 - [7863](https://tbpro.zendesk.com/agent/tickets/7863) · [new] · 2026-08-21T20:04 · Cancel & Refund
+- [7875](https://tbpro.zendesk.com/agent/tickets/7875) · [new] · 2026-08-22T13:54 · Payment Failure
 
 ## Solved — last 24h
 
