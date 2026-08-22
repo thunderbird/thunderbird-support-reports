@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-22
 
-_Updated: **2026-08-22 18:15 ET** · refreshes hourly_  
+_Updated: **2026-08-22 19:15 ET** · refreshes hourly_  
 _24h window: 2026-08-21T16:00 → 2026-08-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 62** of rollout — **6,500 invitees**, **398 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 62** of rollout — **6,500 invitees**, **399 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **4** new tickets in last 24h · **6** solved in last 24h
-- **398** tickets total since launch · contact rate **6%** of 6500 invitees
+- **399** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 77
-- **Median AHT**: 140.8h · mean 198.8h (proxy: updated_at − created_at, 165 solved tickets)
+- **Median AHT**: 140.6h · mean 198.4h (proxy: updated_at − created_at, 166 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -94,10 +94,12 @@ Flight 3 is **day 62** of rollout — **6,500 invitees**, **398 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [7883](https://tbpro.zendesk.com/agent/tickets/7883) · [new] · _Refund on Thundermail_
   > Hi, I’d like to cancel and refund Thundermail under the 14-day terms here: https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations It’s a lot less “ready for prime time” than I expected. I want…
+- [7884](https://tbpro.zendesk.com/agent/tickets/7884) · [new] · _Request for Account Deletion and Refund of PayPal Payment_
+  > Dear [name], I am writing to request the deletion of my account, with the email address: [email] At the same time, I would like to request a refund for the payment made via PayPal on 23/08/2026, for Thundermail Pro…
 
 ## New ideas on FeatureOS
 
@@ -109,16 +111,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 186
-- **solved**: 165
-- **pending**: 24
+- **solved**: 166
+- **pending**: 23
 - **open**: 10
 - **hold**: 8
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 187
-- **Thundermail**: 171
+- **Thundermail**: 172
 - **Appointment**: 16
 - **Send**: 14
 
