@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-21
+# Thundermail — Flight 3 Live Report · 2026-08-22
 
-_Updated: **2026-08-21 23:23 ET** · refreshes hourly_  
-_24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-22 00:18 ET** · refreshes hourly_  
+_24h window: 2026-08-21T16:00 → 2026-08-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 61** of rollout — **6,500 invitees**, **394 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 62** of rollout — **6,500 invitees**, **394 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **1** solved in last 24h
+- **1** new tickets in last 24h · **3** solved in last 24h
 - **394** tickets total since launch · contact rate **6%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 76
 - **Median AHT**: 141.5h · mean 200.9h (proxy: updated_at − created_at, 160 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
@@ -94,21 +94,15 @@ Flight 3 is **day 61** of rollout — **6,500 invitees**, **394 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · _Refund request_
-  > Hello, I would like to request a refund for Thundermail. The main reason is that the emails I send end up in the spam folder. I understand it is a beta version, but I consider this to be an issue. Support suggested…
-- [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · _refund subscription_
-  > Hello, I want to have an refund of my subscription. I not satisfied in the possibilities for the price, maybe return later when there is more functionality but for now this is not good enough for me. I hope you can help…
-- [7863](https://tbpro.zendesk.com/agent/tickets/7863) · [new] · _Cancel & Refund_
-  > Can I cancel and get refunded?
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Using Send as Receiving Portal](https://ideas.tb.pro/p/using-send-as-receiving-portal) · 1 votes · _untagged_
-  > What you’d like to seeSend should generate a unique link that I can embed into outgoing emails to allow the recipient to send files to me. This would function as a generic intake portal, like CCH…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -173,51 +167,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Refund / Cancel — 2 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#7851](https://tbpro.zendesk.com/agent/tickets/7851)** · refund subscription — why: **change request** · how: **actioned**
-  > Hello, I want to have an refund of my subscription. I not satisfied in the possibilities for the price, maybe return later when there is more functionality but for now this is not…
-- **[#7843](https://tbpro.zendesk.com/agent/tickets/7843)** · Refund request — why: **change request** · how: **actioned**
-  > Hello, I would like to request a refund for Thundermail. The main reason is that the emails I send end up in the spam folder. I understand it is a beta version, but I consider…
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#7858](https://tbpro.zendesk.com/agent/tickets/7858)** · Thundermail Invite — why: **curious** · how: **explained**
-  > I'm very sorry to have to ask for this, but I received an invite to Thundermail yesterday, but accidentally deleted it. Could that invitation be re-sent? No issue if not, I'll…
-
-### Webmail — 1 tickets
-
-- **[#7860](https://tbpro.zendesk.com/agent/tickets/7860)** · Can't Download Attachments from Webmail? — why: **blocked** · how: **explained**
-  > Hi there, I know the webmail portion of Thundermail is still in early development but today I discovered that you can't download an attachment, is this expected? Thanks, [name]
-
-### Appointment / calendar — 1 tickets
-
-- **[#7859](https://tbpro.zendesk.com/agent/tickets/7859)** · Error: “We couldn’t connect to the calendar” in booking page — why: **blocked** · how: **explained**
-  > Even though I see no errors in my Appointment dashboard, my public link https://apt.mt/tommi/0/ is not working, as the screenshot shows.
-
-### Account access issues — account recovery — 1 tickets
-
-- **[#7848](https://tbpro.zendesk.com/agent/tickets/7848)** · Request to Change Recovery Email — why: **blocked** · how: **actioned**
-  > Hello there, I would like to change my recovery email for this account, but I am not able to locate where to do so.
-
-### Early bird signup — 1 tickets
-
-- **[#7842](https://tbpro.zendesk.com/agent/tickets/7842)** · Can't login — why: **curious** · how: **explained**
-  > I am trying to login to my thundermail account and i can seem to find my username and password
+- **[#7863](https://tbpro.zendesk.com/agent/tickets/7863)** · Cancel & Refund
+  > Can I cancel and get refunded?
 
 ## New tickets — last 24h
 
-- [7842](https://tbpro.zendesk.com/agent/tickets/7842) · [pending] · 2026-08-21T06:07 · Can't login
-- [7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · 2026-08-21T07:08 · Refund request
-- [7848](https://tbpro.zendesk.com/agent/tickets/7848) · [pending] · 2026-08-21T11:20 · Request to Change Recovery Email
-- [7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21T13:33 · refund subscription
-- [7858](https://tbpro.zendesk.com/agent/tickets/7858) · [open] · 2026-08-21T16:11 · Thundermail Invite
-- [7859](https://tbpro.zendesk.com/agent/tickets/7859) · [pending] · 2026-08-21T16:16 · Error: “We couldn’t connect to the calendar” in booking page
-- [7860](https://tbpro.zendesk.com/agent/tickets/7860) · [hold] · 2026-08-21T18:27 · Can't Download Attachments from Webmail?
+- [7863](https://tbpro.zendesk.com/agent/tickets/7863) · [new] · 2026-08-21T20:04 · Cancel & Refund
 
 ## Solved — last 24h
 
-- 👍 [7759](https://tbpro.zendesk.com/agent/tickets/7759) · 2026-08-20T22:35 · Personnal domain doesnt receive mail
+- · [7735](https://tbpro.zendesk.com/agent/tickets/7735) · 2026-08-21T22:01 · Thundermail
+- · [7520](https://tbpro.zendesk.com/agent/tickets/7520) · 2026-08-21T22:01 · No Verification Email
+- · [7732](https://tbpro.zendesk.com/agent/tickets/7732) · 2026-08-22T02:27 · Problems with confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
