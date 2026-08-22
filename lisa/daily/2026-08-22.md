@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-22
 
-_Updated: **2026-08-22 11:15 ET** · refreshes hourly_  
+_Updated: **2026-08-22 12:15 ET** · refreshes hourly_  
 _24h window: 2026-08-21T16:00 → 2026-08-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 62** of rollout — **6,500 invitees**, **396 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
+- **3** new tickets in last 24h · **4** solved in last 24h
 - **396** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 77
-- **Median AHT**: 141.3h · mean 201.2h (proxy: updated_at − created_at, 159 solved tickets)
+- **Median AHT**: 141.3h · mean 200.4h (proxy: updated_at − created_at, 159 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -107,9 +107,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 183
+- **closed**: 184
 - **solved**: 159
-- **pending**: 33
+- **pending**: 32
 - **open**: 10
 - **hold**: 8
 - **new**: 3
@@ -191,6 +191,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7735](https://tbpro.zendesk.com/agent/tickets/7735) · 2026-08-21T22:01 · Thundermail
 - · [7520](https://tbpro.zendesk.com/agent/tickets/7520) · 2026-08-21T22:01 · No Verification Email
 - · [7732](https://tbpro.zendesk.com/agent/tickets/7732) · 2026-08-22T02:27 · Problems with confirmation email
+- · [7700](https://tbpro.zendesk.com/agent/tickets/7700) · 2026-08-22T16:02 · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
