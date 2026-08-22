@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-21
 
-_Updated: **2026-08-21 19:15 ET** · refreshes hourly_  
+_Updated: **2026-08-21 20:23 ET** · refreshes hourly_  
 _24h window: 2026-08-20T16:00 → 2026-08-21T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 61** of rollout — **6,500 invitees**, **394 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **2** solved in last 24h
+- **7** new tickets in last 24h · **1** solved in last 24h
 - **394** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
-- **Median AHT**: 141.5h · mean 200.8h (proxy: updated_at − created_at, 160 solved tickets)
+- **Median AHT**: 141.5h · mean 200.9h (proxy: updated_at − created_at, 160 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -218,7 +218,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [7759](https://tbpro.zendesk.com/agent/tickets/7759) · 2026-08-20T22:35 · Personnal domain doesnt receive mail
-- · [7732](https://tbpro.zendesk.com/agent/tickets/7732) · 2026-08-20T23:17 · Problems with confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
