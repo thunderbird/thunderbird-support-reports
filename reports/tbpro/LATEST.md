@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-22
 
-_Updated: **2026-08-22 10:15 ET** · refreshes hourly_  
+_Updated: **2026-08-22 11:15 ET** · refreshes hourly_  
 _24h window: 2026-08-21T16:00 → 2026-08-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 62** of rollout — **6,500 invitees**, **395 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 62** of rollout — **6,500 invitees**, **396 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
-- **395** tickets total since launch · contact rate **6%** of 6500 invitees
+- **3** new tickets in last 24h · **3** solved in last 24h
+- **396** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 77
@@ -112,12 +112,12 @@ _(none in last 24h)_
 - **pending**: 33
 - **open**: 10
 - **hold**: 8
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 187
-- **Thundermail**: 168
+- **Thundermail**: 169
 - **Appointment**: 16
 - **Send**: 14
 
@@ -175,10 +175,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7863](https://tbpro.zendesk.com/agent/tickets/7863)** · Cancel & Refund
   > Can I cancel and get refunded?
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#7878](https://tbpro.zendesk.com/agent/tickets/7878)** · thunderbird sur mon pixel 8 sous e/OS
+  > J'ai voulu envoyer un mail depuis mon adresse [email] sur mon mobile et celui-ci est resté bloque dans ma boite d'envoi
+
 ## New tickets — last 24h
 
 - [7863](https://tbpro.zendesk.com/agent/tickets/7863) · [new] · 2026-08-21T20:04 · Cancel & Refund
 - [7875](https://tbpro.zendesk.com/agent/tickets/7875) · [new] · 2026-08-22T13:54 · Payment Failure
+- [7878](https://tbpro.zendesk.com/agent/tickets/7878) · [new] · 2026-08-22T14:39 · thunderbird sur mon pixel 8 sous e/OS
 
 ## Solved — last 24h
 
