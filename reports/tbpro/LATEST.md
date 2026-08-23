@@ -1,19 +1,19 @@
-# Thundermail — Flight 3 Live Report · 2026-08-22
+# Thundermail — Flight 3 Live Report · 2026-08-23
 
-_Updated: **2026-08-22 23:29 ET** · refreshes hourly_  
-_24h window: 2026-08-21T16:00 → 2026-08-22T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-23 00:22 ET** · refreshes hourly_  
+_24h window: 2026-08-22T16:00 → 2026-08-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 62** of rollout — **6,500 invitees**, **399 tickets** so far (6.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 63** of rollout — **6,500 invitees**, **401 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
-- **399** tickets total since launch · contact rate **6%** of 6500 invitees
+- **4** new tickets in last 24h · **7** solved in last 24h
+- **401** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 77
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 77
 - **Median AHT**: 140.6h · mean 198.4h (proxy: updated_at − created_at, 166 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
@@ -94,19 +94,15 @@ Flight 3 is **day 62** of rollout — **6,500 invitees**, **399 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7883](https://tbpro.zendesk.com/agent/tickets/7883) · [new] · _Refund on Thundermail_
-  > Hi, I’d like to cancel and refund Thundermail under the 14-day terms here: https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations It’s a lot less “ready for prime time” than I expected. I want…
-- [7884](https://tbpro.zendesk.com/agent/tickets/7884) · [new] · _Request for Account Deletion and Refund of PayPal Payment_
-  > Dear [name], I am writing to request the deletion of my account, with the email address: [email] At the same time, I would like to request a refund for the payment made via PayPal on 23/08/2026, for Thundermail Pro…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Payment](https://ideas.tb.pro/p/payment) · 1 votes · _untagged_
-  > Hallo,ich würde Thunderbird gerne finanziell unterstützen, in dem ich ein E-Mail-Konto bei Ihnen abonniere. Ich habe aber kein Paypal-Konto und auch keine Kreditkarte. Solange Sie nur diese beiden…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -114,13 +110,13 @@ _No negative ratings since launch._
 - **solved**: 166
 - **pending**: 21
 - **open**: 12
+- **new**: 8
 - **hold**: 8
-- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 187
-- **Thundermail**: 172
+- **Thundermail**: 174
 - **Appointment**: 16
 - **Send**: 14
 
@@ -171,38 +167,42 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#7875](https://tbpro.zendesk.com/agent/tickets/7875)** · Payment Failure
-  > Fix the backend. Error message: We are unable to take payment at this time. \ Please try again, or use a different payment method.
-- **[#7863](https://tbpro.zendesk.com/agent/tickets/7863)** · Cancel & Refund
-  > Can I cancel and get refunded?
+- **[#7888](https://tbpro.zendesk.com/agent/tickets/7888)** · Password has dropped out
+  > I want to reset my password to it's present one
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7881](https://tbpro.zendesk.com/agent/tickets/7881)** · Aggregate TLS report from Google
-  > I recently got an email from google that appears to be legitimate, but may be intended for your team instead of me. I believe it is because I have a catch-all setup on my custom…
+- **[#7887](https://tbpro.zendesk.com/agent/tickets/7887)** · Password Declined
+  > My password has been Ranger@283350
 
-### Thunderbird for Android + Thundermail — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7878](https://tbpro.zendesk.com/agent/tickets/7878)** · thunderbird sur mon pixel 8 sous e/OS
-  > J'ai voulu envoyer un mail depuis mon adresse [email] sur mon mobile et celui-ci est resté bloque dans ma boite d'envoi
+- **[#7884](https://tbpro.zendesk.com/agent/tickets/7884)** · Request for Account Deletion and Refund of PayPal Payment
+  > Dear [name], I am writing to request the deletion of my account, with the email address: [email] At the same time, I would like to request a refund for the payment made via PayPal…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7883](https://tbpro.zendesk.com/agent/tickets/7883)** · Refund on Thundermail
+  > Hi, I’d like to cancel and refund Thundermail under the 14-day terms here: https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations It’s a lot less “ready…
 
 ## New tickets — last 24h
 
-- [7863](https://tbpro.zendesk.com/agent/tickets/7863) · [new] · 2026-08-21T20:04 · Cancel & Refund
-- [7875](https://tbpro.zendesk.com/agent/tickets/7875) · [new] · 2026-08-22T13:54 · Payment Failure
-- [7878](https://tbpro.zendesk.com/agent/tickets/7878) · [new] · 2026-08-22T14:39 · thunderbird sur mon pixel 8 sous e/OS
-- [7881](https://tbpro.zendesk.com/agent/tickets/7881) · [new] · 2026-08-22T17:46 · Aggregate TLS report from Google
+- [7883](https://tbpro.zendesk.com/agent/tickets/7883) · [new] · 2026-08-22T20:19 · Refund on Thundermail
+- [7884](https://tbpro.zendesk.com/agent/tickets/7884) · [new] · 2026-08-22T22:36 · Request for Account Deletion and Refund of PayPal Payment
+- [7887](https://tbpro.zendesk.com/agent/tickets/7887) · [new] · 2026-08-23T04:11 · Password Declined
+- [7888](https://tbpro.zendesk.com/agent/tickets/7888) · [new] · 2026-08-23T04:13 · Password has dropped out
 
 ## Solved — last 24h
 
-- · [7735](https://tbpro.zendesk.com/agent/tickets/7735) · 2026-08-21T22:01 · Thundermail
-- · [7520](https://tbpro.zendesk.com/agent/tickets/7520) · 2026-08-21T22:01 · No Verification Email
-- · [7732](https://tbpro.zendesk.com/agent/tickets/7732) · 2026-08-22T02:27 · Problems with confirmation email
-- · [7700](https://tbpro.zendesk.com/agent/tickets/7700) · 2026-08-22T16:02 · Outgoing Thundermail messages marked as spam by Yahoo! JAPAN Mail
-- · [7703](https://tbpro.zendesk.com/agent/tickets/7703) · 2026-08-22T18:01 · Cancel
-- · [7717](https://tbpro.zendesk.com/agent/tickets/7717) · 2026-08-22T19:01 · Hi, my emails are being bounced back. The person who set up my website and emails has closed her bus
+- · [7729](https://tbpro.zendesk.com/agent/tickets/7729) · 2026-08-22T21:02 · Trial period available without an annual subscription?
+- · [7719](https://tbpro.zendesk.com/agent/tickets/7719) · 2026-08-22T21:02 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
+- · [7699](https://tbpro.zendesk.com/agent/tickets/7699) · 2026-08-22T21:02 · suggesting easy DNS import 
+- · [7678](https://tbpro.zendesk.com/agent/tickets/7678) · 2026-08-22T21:02 · Pricing and Release
+- · [7613](https://tbpro.zendesk.com/agent/tickets/7613) · 2026-08-22T21:02 · DKIM is marked as FAIL in Gmail with custom domain
+- · [7730](https://tbpro.zendesk.com/agent/tickets/7730) · 2026-08-22T22:01 · add a google.com account
+- · [7726](https://tbpro.zendesk.com/agent/tickets/7726) · 2026-08-22T23:01 · adding thunderbird pro extension does not work
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
