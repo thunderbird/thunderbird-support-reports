@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-23
 
-_Updated: **2026-08-23 15:15 ET** · refreshes hourly_  
+_Updated: **2026-08-23 16:15 ET** · refreshes hourly_  
 _24h window: 2026-08-22T16:00 → 2026-08-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 63** of rollout — **6,500 invitees**, **405 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 77
-- **Median AHT**: 141.3h · mean 200.1h (proxy: updated_at − created_at, 161 solved tickets)
+- **Median AHT**: 141.3h · mean 200.5h (proxy: updated_at − created_at, 160 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -58,7 +58,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [closed] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [closed] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
-  - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [solved] · 2026-07-21 · _Refund due to poor service_
+  - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [closed] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [solved] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
@@ -113,11 +113,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 191
-- **solved**: 161
-- **pending**: 22
+- **closed**: 193
+- **solved**: 160
+- **pending**: 20
 - **new**: 12
-- **open**: 11
+- **open**: 12
 - **hold**: 8
 
 ## Service (cumulative)
