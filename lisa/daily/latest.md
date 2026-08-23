@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-23
 
-_Updated: **2026-08-23 12:15 ET** · refreshes hourly_  
+_Updated: **2026-08-23 13:15 ET** · refreshes hourly_  
 _24h window: 2026-08-22T16:00 → 2026-08-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 63** of rollout — **6,500 invitees**, **402 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 63** of rollout — **6,500 invitees**, **403 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
-- **402** tickets total since launch · contact rate **6%** of 6500 invitees
+- **6** new tickets in last 24h · **8** solved in last 24h
+- **403** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 77
@@ -34,7 +34,7 @@ Flight 3 is **day 63** of rollout — **6,500 invitees**, **402 tickets** so far
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 2 incident(s):
   - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [closed] · 2026-07-08 · _Webmail - no mail from own domain_
-  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [pending] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
+  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
 - 28 incident(s):
@@ -107,11 +107,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 187
+- **closed**: 188
 - **solved**: 165
-- **pending**: 23
+- **pending**: 22
+- **new**: 10
 - **open**: 10
-- **new**: 9
 - **hold**: 8
 
 ## Service (cumulative)
@@ -119,7 +119,7 @@ _No negative ratings since launch._
 - **Account Hub**: 188
 - **Thundermail**: 174
 - **Appointment**: 16
-- **Send**: 14
+- **Send**: 15
 
 ## Why × How (cumulative)
 
@@ -168,6 +168,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#7897](https://tbpro.zendesk.com/agent/tickets/7897)** · Issues with uploading files to Send
+  > When I try to upload files to send, either through browse and upload or drag and drop, the progress just flashes and then looks like I never did anything. I am using Firefox on…
+- **[#7887](https://tbpro.zendesk.com/agent/tickets/7887)** · Password Declined
+  > My password has been Ranger@283350
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#7892](https://tbpro.zendesk.com/agent/tickets/7892)** · Cancel my subscription
@@ -179,11 +186,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7888](https://tbpro.zendesk.com/agent/tickets/7888)** · Password has dropped out
   > I want to reset my password to it's present one
-
-### Other / uncategorized — 1 tickets
-
-- **[#7887](https://tbpro.zendesk.com/agent/tickets/7887)** · Password Declined
-  > My password has been Ranger@283350
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -197,6 +199,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7887](https://tbpro.zendesk.com/agent/tickets/7887) · [new] · 2026-08-23T04:11 · Password Declined
 - [7888](https://tbpro.zendesk.com/agent/tickets/7888) · [new] · 2026-08-23T04:13 · Password has dropped out
 - [7892](https://tbpro.zendesk.com/agent/tickets/7892) · [new] · 2026-08-23T11:53 · Cancel my subscription
+- [7897](https://tbpro.zendesk.com/agent/tickets/7897) · [new] · 2026-08-23T16:21 · Issues with uploading files to Send
 
 ## Solved — last 24h
 
@@ -207,6 +210,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7613](https://tbpro.zendesk.com/agent/tickets/7613) · 2026-08-22T21:02 · DKIM is marked as FAIL in Gmail with custom domain
 - · [7730](https://tbpro.zendesk.com/agent/tickets/7730) · 2026-08-22T22:01 · add a google.com account
 - · [7726](https://tbpro.zendesk.com/agent/tickets/7726) · 2026-08-22T23:01 · adding thunderbird pro extension does not work
+- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-08-23T17:01 · Unable to Send From Custom Domain in Thundermail Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
