@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-23
 
-_Updated: **2026-08-23 14:16 ET** · refreshes hourly_  
+_Updated: **2026-08-23 15:15 ET** · refreshes hourly_  
 _24h window: 2026-08-22T16:00 → 2026-08-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 63** of rollout — **6,500 invitees**, **403 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 63** of rollout — **6,500 invitees**, **405 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **8** solved in last 24h
-- **403** tickets total since launch · contact rate **6%** of 6500 invitees
+- **8** new tickets in last 24h · **8** solved in last 24h
+- **405** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 77
-- **Median AHT**: 141.3h · mean 199.8h (proxy: updated_at − created_at, 163 solved tickets)
+- **Median AHT**: 141.3h · mean 200.1h (proxy: updated_at − created_at, 161 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"early bird"** — 2 tickets in 24h (5.0× baseline; baseline 25 cum) — [#7884](https://tbpro.zendesk.com/agent/tickets/7884), [#7901](https://tbpro.zendesk.com/agent/tickets/7901)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -107,17 +113,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 190
-- **solved**: 163
+- **closed**: 191
+- **solved**: 161
 - **pending**: 22
-- **new**: 10
-- **open**: 10
+- **new**: 12
+- **open**: 11
 - **hold**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 188
-- **Thundermail**: 174
+- **Thundermail**: 176
 - **Appointment**: 16
 - **Send**: 15
 
@@ -168,6 +174,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#7901](https://tbpro.zendesk.com/agent/tickets/7901)** · Curious about the early bird offer
+  > I do not understand the offer presented, not in comparison to sub-par services like Proton or Tuta, but with the excellent deal offered by Fastmail. Thunderbird offers, as per the…
+- **[#7884](https://tbpro.zendesk.com/agent/tickets/7884)** · Request for Account Deletion and Refund of PayPal Payment
+  > Dear [name], I am writing to request the deletion of my account, with the email address: [email] At the same time, I would like to request a refund for the payment made via PayPal…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#7897](https://tbpro.zendesk.com/agent/tickets/7897)** · Issues with uploading files to Send
@@ -182,15 +195,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7883](https://tbpro.zendesk.com/agent/tickets/7883)** · Refund on Thundermail
   > Hi, I’d like to cancel and refund Thundermail under the 14-day terms here: https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations It’s a lot less “ready…
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7903](https://tbpro.zendesk.com/agent/tickets/7903)** · Custom Domain with Godaddy 
+  > Hey there! This is probably just an issue with me not being super familiar with DNS settings but when I try to add Thundermail's DNS records to my domain registered with [domain]…
+
 ### Account access issues — 1 tickets
 
 - **[#7888](https://tbpro.zendesk.com/agent/tickets/7888)** · Password has dropped out
   > I want to reset my password to it's present one
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7884](https://tbpro.zendesk.com/agent/tickets/7884)** · Request for Account Deletion and Refund of PayPal Payment
-  > Dear [name], I am writing to request the deletion of my account, with the email address: [email] At the same time, I would like to request a refund for the payment made via PayPal…
 
 ## New tickets — last 24h
 
@@ -200,6 +213,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7888](https://tbpro.zendesk.com/agent/tickets/7888) · [new] · 2026-08-23T04:13 · Password has dropped out
 - [7892](https://tbpro.zendesk.com/agent/tickets/7892) · [new] · 2026-08-23T11:53 · Cancel my subscription
 - [7897](https://tbpro.zendesk.com/agent/tickets/7897) · [new] · 2026-08-23T16:21 · Issues with uploading files to Send
+- [7901](https://tbpro.zendesk.com/agent/tickets/7901) · [new] · 2026-08-23T18:24 · Curious about the early bird offer
+- [7903](https://tbpro.zendesk.com/agent/tickets/7903) · [new] · 2026-08-23T18:51 · Custom Domain with Godaddy 
 
 ## Solved — last 24h
 
