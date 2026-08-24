@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-23
+# Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-23 23:30 ET** · refreshes hourly_  
-_24h window: 2026-08-22T16:00 → 2026-08-23T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-24 00:25 ET** · refreshes hourly_  
+_24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 63** of rollout — **6,500 invitees**, **405 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **405 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **8** solved in last 24h
+- **0** new tickets in last 24h · **4** solved in last 24h
 - **405** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 78
-- **Median AHT**: 143.0h · mean 199.9h (proxy: updated_at − created_at, 155 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"early bird"** — 2 tickets in 24h (5.0× baseline; baseline 25 cum) — [#7884](https://tbpro.zendesk.com/agent/tickets/7884), [#7901](https://tbpro.zendesk.com/agent/tickets/7901)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
+- **Median AHT**: 143.5h · mean 200.3h (proxy: updated_at − created_at, 154 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -59,7 +53,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [closed] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [closed] · 2026-07-21 · _Refund due to poor service_
-  - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [solved] · 2026-07-21 · _Cancel_
+  - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [closed] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
@@ -100,24 +94,24 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7892](https://tbpro.zendesk.com/agent/tickets/7892) · [new] · _Cancel my subscription_
-  > Please cancel my subscription and delete all data. Refund the remainder if possible.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Multiple App Passwords](https://ideas.tb.pro/p/multiple-app-passwords) · 1 votes · _untagged_
+  > I would like to have the ability to generate multiple app passwords.If I have to setup a new email client that needs an app password, and I haven’t saved it I have to generate a new one and then go…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 201
-- **solved**: 155
+- **closed**: 202
+- **solved**: 154
 - **pending**: 17
-- **new**: 12
-- **open**: 12
+- **open**: 16
+- **new**: 8
 - **hold**: 8
 
 ## Service (cumulative)
@@ -174,58 +168,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#7901](https://tbpro.zendesk.com/agent/tickets/7901)** · Curious about the early bird offer
-  > I do not understand the offer presented, not in comparison to sub-par services like Proton or Tuta, but with the excellent deal offered by Fastmail. Thunderbird offers, as per the…
-- **[#7884](https://tbpro.zendesk.com/agent/tickets/7884)** · Request for Account Deletion and Refund of PayPal Payment
-  > Dear [name], I am writing to request the deletion of my account, with the email address: [email] At the same time, I would like to request a refund for the payment made via PayPal…
-
-### Other / uncategorized — 2 tickets
-
-- **[#7897](https://tbpro.zendesk.com/agent/tickets/7897)** · Issues with uploading files to Send
-  > When I try to upload files to send, either through browse and upload or drag and drop, the progress just flashes and then looks like I never did anything. I am using Firefox on…
-- **[#7887](https://tbpro.zendesk.com/agent/tickets/7887)** · Password Declined
-  > My password has been Ranger@283350
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#7892](https://tbpro.zendesk.com/agent/tickets/7892)** · Cancel my subscription
-  > Please cancel my subscription and delete all data. Refund the remainder if possible.
-- **[#7883](https://tbpro.zendesk.com/agent/tickets/7883)** · Refund on Thundermail
-  > Hi, I’d like to cancel and refund Thundermail under the 14-day terms here: https://[domain]/hc/en-us/articles/[number]-Thundermail-Refunds-and-Cancellations It’s a lot less “ready…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7903](https://tbpro.zendesk.com/agent/tickets/7903)** · Custom Domain with Godaddy 
-  > Hey there! This is probably just an issue with me not being super familiar with DNS settings but when I try to add Thundermail's DNS records to my domain registered with [domain]…
-
-### Account access issues — 1 tickets
-
-- **[#7888](https://tbpro.zendesk.com/agent/tickets/7888)** · Password has dropped out
-  > I want to reset my password to it's present one
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [7883](https://tbpro.zendesk.com/agent/tickets/7883) · [new] · 2026-08-22T20:19 · Refund on Thundermail
-- [7884](https://tbpro.zendesk.com/agent/tickets/7884) · [new] · 2026-08-22T22:36 · Request for Account Deletion and Refund of PayPal Payment
-- [7887](https://tbpro.zendesk.com/agent/tickets/7887) · [new] · 2026-08-23T04:11 · Password Declined
-- [7888](https://tbpro.zendesk.com/agent/tickets/7888) · [new] · 2026-08-23T04:13 · Password has dropped out
-- [7892](https://tbpro.zendesk.com/agent/tickets/7892) · [new] · 2026-08-23T11:53 · Cancel my subscription
-- [7897](https://tbpro.zendesk.com/agent/tickets/7897) · [new] · 2026-08-23T16:21 · Issues with uploading files to Send
-- [7901](https://tbpro.zendesk.com/agent/tickets/7901) · [new] · 2026-08-23T18:24 · Curious about the early bird offer
-- [7903](https://tbpro.zendesk.com/agent/tickets/7903) · [new] · 2026-08-23T18:51 · Custom Domain with Godaddy 
+_(none)_
 
 ## Solved — last 24h
 
-- · [7729](https://tbpro.zendesk.com/agent/tickets/7729) · 2026-08-22T21:02 · Trial period available without an annual subscription?
-- · [7719](https://tbpro.zendesk.com/agent/tickets/7719) · 2026-08-22T21:02 · je n'arrive pas a retrouver mon mot de passe pour la synchronisation avec mon agenda
-- · [7699](https://tbpro.zendesk.com/agent/tickets/7699) · 2026-08-22T21:02 · suggesting easy DNS import 
-- · [7678](https://tbpro.zendesk.com/agent/tickets/7678) · 2026-08-22T21:02 · Pricing and Release
-- · [7613](https://tbpro.zendesk.com/agent/tickets/7613) · 2026-08-22T21:02 · DKIM is marked as FAIL in Gmail with custom domain
-- · [7730](https://tbpro.zendesk.com/agent/tickets/7730) · 2026-08-22T22:01 · add a google.com account
-- · [7726](https://tbpro.zendesk.com/agent/tickets/7726) · 2026-08-22T23:01 · adding thunderbird pro extension does not work
-- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-08-23T17:01 · Unable to Send From Custom Domain in Thundermail Webmail
+- · [7741](https://tbpro.zendesk.com/agent/tickets/7741) · 2026-08-23T20:01 · Thundermail Discounts?
+- · [7767](https://tbpro.zendesk.com/agent/tickets/7767) · 2026-08-23T22:01 · Does the invitation expire?
+- · [7762](https://tbpro.zendesk.com/agent/tickets/7762) · 2026-08-23T22:01 · 1 inbox 15 emails
+- · [7731](https://tbpro.zendesk.com/agent/tickets/7731) · 2026-08-23T22:01 · Fiyatı Yüksek
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
