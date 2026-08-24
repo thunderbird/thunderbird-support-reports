@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 17:16 ET** · refreshes hourly_  
+_Updated: **2026-08-24 18:15 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **414 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **415 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **10** solved in last 24h
-- **414** tickets total since launch · contact rate **6%** of 6500 invitees
+- **415** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.6h · mean 203.1h (proxy: updated_at − created_at, 151 solved tickets)
+- **Median AHT**: 144.7h · mean 203.6h (proxy: updated_at − created_at, 150 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -103,9 +103,9 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [open] · _Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription_
+- [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [pending] · _Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription_
   > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was still active. I hope that is all right.…
-- [7926](https://tbpro.zendesk.com/agent/tickets/7926) · [open] · _Delete account / data / issue refund_
+- [7926](https://tbpro.zendesk.com/agent/tickets/7926) · [pending] · _Delete account / data / issue refund_
   > Hi please could you issue a refund and delete my account / data
 
 ## New ideas on FeatureOS
@@ -117,16 +117,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 214
-- **solved**: 151
-- **pending**: 33
-- **open**: 8
-- **hold**: 8
+- **closed**: 215
+- **solved**: 150
+- **pending**: 36
+- **hold**: 9
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 199
-- **Thundermail**: 174
+- **Thundermail**: 175
 - **Appointment**: 16
 - **Send**: 15
 
@@ -134,9 +134,9 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 96
+- **curious** + **explained**: 95
 - **blocked** + **explained**: 69
-- **change request** + **actioned**: 49
+- **change request** + **actioned**: 50
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 22
 - **blocked** + **escalated**: 20
@@ -152,13 +152,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
+- **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **informed**: 2
 - **curious** + **actioned**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **praise** + **n/a**: 1
+- **concerned** + **informed**: 1
 - **request** + **escalated**: 1
 - **other** + **informed**: 1
 - **curious** + **—**: 1
@@ -189,10 +190,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#7923](https://tbpro.zendesk.com/agent/tickets/7923)** · Time format
-  > I switched to 24 hours in settings but it still shows me am pm
 - **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name?
   > How can I sign in? I used [email] and it won't let me sign in.
+- **[#7923](https://tbpro.zendesk.com/agent/tickets/7923)** · Time format — why: **concerned** · how: **informed**
+  > I switched to 24 hours in settings but it still shows me am pm
 
 ### App setup / configuration — 2 tickets
 
@@ -201,15 +202,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail — why: **concerned** · how: **explained**
   > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
 
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#7924](https://tbpro.zendesk.com/agent/tickets/7924)** · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription — why: **curious** · how: **explained**
-  > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was…
-
 ### Account access issues — 1 tickets
 
 - **[#7922](https://tbpro.zendesk.com/agent/tickets/7922)** · Email verification
   > Hello, I received an invitation to the Thunderbird Pro Early Bird beta. Unfortunately, I can't register because I'm not receiving a confirmation email at my recovery email…
+
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#7924](https://tbpro.zendesk.com/agent/tickets/7924)** · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription — why: **praise** · how: **n/a**
+  > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was…
 
 ## New tickets — last 24h
 
@@ -220,8 +221,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24T16:55 · What is my use name?
 - [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [solved] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
 - [7922](https://tbpro.zendesk.com/agent/tickets/7922) · [open] · 2026-08-24T17:39 · Email verification
-- [7923](https://tbpro.zendesk.com/agent/tickets/7923) · [open] · 2026-08-24T17:54 · Time format
-- [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [open] · 2026-08-24T18:27 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
+- [7923](https://tbpro.zendesk.com/agent/tickets/7923) · [pending] · 2026-08-24T17:54 · Time format
+- [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [pending] · 2026-08-24T18:27 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
 
 ## Solved — last 24h
 
