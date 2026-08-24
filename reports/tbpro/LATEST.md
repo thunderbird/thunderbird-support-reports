@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 14:18 ET** · refreshes hourly_  
+_Updated: **2026-08-24 15:18 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **412 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **413 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **8** solved in last 24h
-- **412** tickets total since launch · contact rate **6%** of 6500 invitees
+- **9** new tickets in last 24h · **9** solved in last 24h
+- **413** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 146.2h · mean 205.2h (proxy: updated_at − created_at, 147 solved tickets)
+- **Median AHT**: 145.5h · mean 204.8h (proxy: updated_at − created_at, 148 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -101,9 +101,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [open] · _Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription_
+  > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was still active. I hope that is all right.…
 
 ## New ideas on FeatureOS
 
@@ -115,15 +116,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 213
-- **solved**: 147
-- **pending**: 26
-- **open**: 18
+- **solved**: 148
+- **pending**: 31
+- **open**: 13
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 195
-- **Thundermail**: 175
+- **Account Hub**: 197
+- **Thundermail**: 174
 - **Appointment**: 16
 - **Send**: 15
 
@@ -131,12 +132,12 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 94
+- **curious** + **explained**: 95
 - **blocked** + **explained**: 69
-- **change request** + **actioned**: 48
+- **change request** + **actioned**: 49
 - **request** + **redirected**: 28
+- **blocked** + **investigated**: 21
 - **blocked** + **escalated**: 20
-- **blocked** + **investigated**: 20
 - **confused** + **explained**: 15
 - **concerned** + **explained**: 11
 - **blocked** + **redirected**: 7
@@ -149,6 +150,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
+- **telling us** + **informed**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **informed**: 2
 - **curious** + **actioned**: 2
@@ -159,7 +161,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **—**: 1
 - **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
-- **telling us** + **informed**: 1
 - **change request** + **explained**: 1
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
@@ -195,6 +196,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail
   > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
 
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#7924](https://tbpro.zendesk.com/agent/tickets/7924)** · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was…
+
 ### Security / hacked — 1 tickets
 
 - **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access
@@ -215,6 +221,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [open] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
 - [7922](https://tbpro.zendesk.com/agent/tickets/7922) · [open] · 2026-08-24T17:39 · Email verification
 - [7923](https://tbpro.zendesk.com/agent/tickets/7923) · [open] · 2026-08-24T17:54 · Time format
+- [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [open] · 2026-08-24T18:27 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
 
 ## Solved — last 24h
 
@@ -226,6 +233,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-24T16:53 · can't set encryption password
 - · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-24T17:59 · payment issues
 - · [7774](https://tbpro.zendesk.com/agent/tickets/7774) · 2026-08-24T18:01 · connection error using POP for incoming mails with SSL 995 (OAuth2)
+- · [7775](https://tbpro.zendesk.com/agent/tickets/7775) · 2026-08-24T19:02 · Early Bird question
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
