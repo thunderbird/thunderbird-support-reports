@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 15:18 ET** · refreshes hourly_  
+_Updated: **2026-08-24 16:16 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **413 tickets** so far
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
+- **9** new tickets in last 24h · **10** solved in last 24h
 - **413** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 145.5h · mean 204.8h (proxy: updated_at − created_at, 148 solved tickets)
+- **Median AHT**: 144.8h · mean 203.4h (proxy: updated_at − created_at, 149 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -116,14 +116,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 213
-- **solved**: 148
-- **pending**: 31
-- **open**: 13
+- **solved**: 149
+- **pending**: 34
+- **open**: 9
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 197
+- **Account Hub**: 198
 - **Thundermail**: 174
 - **Appointment**: 16
 - **Send**: 15
@@ -138,8 +138,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 21
 - **blocked** + **escalated**: 20
-- **confused** + **explained**: 15
-- **concerned** + **explained**: 11
+- **confused** + **explained**: 16
+- **concerned** + **explained**: 12
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 6
 - **curious** + **informed**: 4
@@ -156,6 +156,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
+- **praise** + **n/a**: 1
 - **request** + **escalated**: 1
 - **other** + **informed**: 1
 - **curious** + **—**: 1
@@ -193,32 +194,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7919](https://tbpro.zendesk.com/agent/tickets/7919)** · Install failure code 0xc1f30001
   > When attempting to add my account tho thunderbird in Win11 I received this error: Component returned failure code 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMsgOutgoingServer.type]…
-- **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail
+- **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail — why: **concerned** · how: **explained**
   > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
+
+### Early bird signup — 2 tickets
+
+- **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access — why: **praise** · how: **n/a**
+  > [heart] Gianluca Mezzina reacted to your message: ________________________________ From: [sender] Sent: Monday, 24 August 2026 16:17:07 To: Gianluca Mezzina <[email]> Subject:…
+- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working — why: **curious** · how: **explained**
+  > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7924](https://tbpro.zendesk.com/agent/tickets/7924)** · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription — why: **curious** · how: **explained**
   > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was…
 
-### Security / hacked — 1 tickets
-
-- **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access
-  > [heart] Gianluca Mezzina reacted to your message: ________________________________ From: [sender] Sent: Monday, 24 August 2026 16:17:07 To: Gianluca Mezzina <[email]> Subject:…
-
-### Early bird signup — 1 tickets
-
-- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working — why: **curious** · how: **explained**
-  > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
-
 ## New tickets — last 24h
 
-- [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [open] · 2026-08-24T06:17 · Gmail
+- [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [pending] · 2026-08-24T06:17 · Gmail
 - [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [pending] · 2026-08-24T13:24 · waitlist invitation not working
 - [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [open] · 2026-08-24T14:41 · Cannot Login
 - [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [open] · 2026-08-24T16:55 · Install failure code 0xc1f30001
 - [7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24T16:55 · What is my use name?
-- [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [open] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
+- [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [solved] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
 - [7922](https://tbpro.zendesk.com/agent/tickets/7922) · [open] · 2026-08-24T17:39 · Email verification
 - [7923](https://tbpro.zendesk.com/agent/tickets/7923) · [open] · 2026-08-24T17:54 · Time format
 - [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [open] · 2026-08-24T18:27 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
@@ -234,6 +232,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-24T17:59 · payment issues
 - · [7774](https://tbpro.zendesk.com/agent/tickets/7774) · 2026-08-24T18:01 · connection error using POP for incoming mails with SSL 995 (OAuth2)
 - · [7775](https://tbpro.zendesk.com/agent/tickets/7775) · 2026-08-24T19:02 · Early Bird question
+- · [7921](https://tbpro.zendesk.com/agent/tickets/7921) · 2026-08-24T19:45 · RE: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
