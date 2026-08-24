@@ -1,20 +1,27 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 13:18 ET** · refreshes hourly_  
+_Updated: **2026-08-24 14:18 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **410 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **412 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
-- **410** tickets total since launch · contact rate **6%** of 6500 invitees
+- **8** new tickets in last 24h · **8** solved in last 24h
+- **412** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.5h · mean 203.4h (proxy: updated_at − created_at, 148 solved tickets)
+- **Median AHT**: 146.2h · mean 205.2h (proxy: updated_at − created_at, 147 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"early bird beta"** — 2 tickets in 24h (42.0× baseline; baseline 3 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
+- **"received invitation"** — 2 tickets in 24h (14.0× baseline; baseline 9 cum) — [#7915](https://tbpro.zendesk.com/agent/tickets/7915), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -55,9 +62,9 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **410 tickets** so far
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [closed] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [closed] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
-  - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
+  - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [pending] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -107,17 +114,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 210
-- **solved**: 148
-- **open**: 24
-- **pending**: 19
+- **closed**: 213
+- **solved**: 147
+- **pending**: 26
+- **open**: 18
 - **hold**: 8
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 191
-- **Thundermail**: 177
+- **Account Hub**: 195
+- **Thundermail**: 175
 - **Appointment**: 16
 - **Send**: 15
 
@@ -127,11 +133,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 94
 - **blocked** + **explained**: 69
-- **change request** + **actioned**: 45
+- **change request** + **actioned**: 48
 - **request** + **redirected**: 28
 - **blocked** + **escalated**: 20
 - **blocked** + **investigated**: 20
-- **confused** + **explained**: 14
+- **confused** + **explained**: 15
 - **concerned** + **explained**: 11
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 6
@@ -168,6 +174,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#7923](https://tbpro.zendesk.com/agent/tickets/7923)** · Time format
+  > I switched to 24 hours in settings but it still shows me am pm
+- **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name?
+  > How can I sign in? I used [email] and it won't let me sign in.
+
+### Account access issues — 2 tickets
+
+- **[#7922](https://tbpro.zendesk.com/agent/tickets/7922)** · Email verification
+  > Hello, I received an invitation to the Thunderbird Pro Early Bird beta. Unfortunately, I can't register because I'm not receiving a confirmation email at my recovery email…
+- **[#7917](https://tbpro.zendesk.com/agent/tickets/7917)** · Cannot Login
+  > I received an invite and started the signup process but had not yet paid. When I tried to login to finish the process I get the Invalid username or password error message. When I…
+
 ### App setup / configuration — 2 tickets
 
 - **[#7919](https://tbpro.zendesk.com/agent/tickets/7919)** · Install failure code 0xc1f30001
@@ -179,16 +199,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access
   > [heart] Gianluca Mezzina reacted to your message: ________________________________ From: [sender] Sent: Monday, 24 August 2026 16:17:07 To: Gianluca Mezzina <[email]> Subject:…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name?
-  > How can I sign in? I used [email] and it won't let me sign in.
-
-### Account access issues — 1 tickets
-
-- **[#7917](https://tbpro.zendesk.com/agent/tickets/7917)** · Cannot Login
-  > I received an invite and started the signup process but had not yet paid. When I tried to login to finish the process I get the Invalid username or password error message. When I…
 
 ### Early bird signup — 1 tickets
 
@@ -202,7 +212,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [open] · 2026-08-24T14:41 · Cannot Login
 - [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [open] · 2026-08-24T16:55 · Install failure code 0xc1f30001
 - [7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24T16:55 · What is my use name?
-- [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [new] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
+- [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [open] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
+- [7922](https://tbpro.zendesk.com/agent/tickets/7922) · [open] · 2026-08-24T17:39 · Email verification
+- [7923](https://tbpro.zendesk.com/agent/tickets/7923) · [open] · 2026-08-24T17:54 · Time format
 
 ## Solved — last 24h
 
@@ -212,6 +224,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7731](https://tbpro.zendesk.com/agent/tickets/7731) · 2026-08-23T22:01 · Fiyatı Yüksek
 - · [7738](https://tbpro.zendesk.com/agent/tickets/7738) · 2026-08-24T16:02 · Thundermail invitation
 - · [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-24T16:53 · can't set encryption password
+- · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-24T17:59 · payment issues
+- · [7774](https://tbpro.zendesk.com/agent/tickets/7774) · 2026-08-24T18:01 · connection error using POP for incoming mails with SSL 995 (OAuth2)
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
