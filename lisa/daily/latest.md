@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 18:15 ET** · refreshes hourly_  
+_Updated: **2026-08-24 19:15 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **415 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.7h · mean 203.6h (proxy: updated_at − created_at, 150 solved tickets)
+- **Median AHT**: 144.8h · mean 204.0h (proxy: updated_at − created_at, 149 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"early bird beta"** — 2 tickets in 24h (42.0× baseline; baseline 3 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
+- **"bird beta"** — 2 tickets in 24h (42.0× baseline; baseline 3 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 - **"received invitation"** — 2 tickets in 24h (14.0× baseline; baseline 9 cum) — [#7915](https://tbpro.zendesk.com/agent/tickets/7915), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 
 ## Known problems — 6 problem(s), 40 incident(s)
@@ -117,11 +117,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 215
-- **solved**: 150
-- **pending**: 36
-- **hold**: 9
-- **open**: 5
+- **closed**: 216
+- **solved**: 149
+- **pending**: 34
+- **open**: 8
+- **hold**: 8
 
 ## Service (cumulative)
 
@@ -217,7 +217,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [pending] · 2026-08-24T06:17 · Gmail
 - [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [pending] · 2026-08-24T13:24 · waitlist invitation not working
 - [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [pending] · 2026-08-24T14:41 · Cannot Login
-- [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [pending] · 2026-08-24T16:55 · Install failure code 0xc1f30001
+- [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [open] · 2026-08-24T16:55 · Install failure code 0xc1f30001
 - [7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24T16:55 · What is my use name?
 - [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [solved] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
 - [7922](https://tbpro.zendesk.com/agent/tickets/7922) · [open] · 2026-08-24T17:39 · Email verification
