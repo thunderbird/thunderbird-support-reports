@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 16:16 ET** · refreshes hourly_  
+_Updated: **2026-08-24 17:16 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **413 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **414 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **10** solved in last 24h
-- **413** tickets total since launch · contact rate **6%** of 6500 invitees
+- **414** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (10 good / 0 bad)
+- **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.8h · mean 203.4h (proxy: updated_at − created_at, 149 solved tickets)
+- **Median AHT**: 144.6h · mean 203.1h (proxy: updated_at − created_at, 151 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -101,29 +101,31 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [7924](https://tbpro.zendesk.com/agent/tickets/7924) · [open] · _Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription_
   > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was still active. I hope that is all right.…
+- [7926](https://tbpro.zendesk.com/agent/tickets/7926) · [open] · _Delete account / data / issue refund_
+  > Hi please could you issue a refund and delete my account / data
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 1 new:
 
-- [Multiple App Passwords](https://ideas.tb.pro/p/multiple-app-passwords) · 1 votes · _untagged_
+- [Multiple App Passwords](https://ideas.tb.pro/p/multiple-app-passwords) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, Improvement_
   > I would like to have the ability to generate multiple app passwords.If I have to setup a new email client that needs an app password, and I haven’t saved it I have to generate a new one and then go…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 213
-- **solved**: 149
-- **pending**: 34
-- **open**: 9
+- **closed**: 214
+- **solved**: 151
+- **pending**: 33
+- **open**: 8
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 198
+- **Account Hub**: 199
 - **Thundermail**: 174
 - **Appointment**: 16
 - **Send**: 15
@@ -132,11 +134,11 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 95
+- **curious** + **explained**: 96
 - **blocked** + **explained**: 69
 - **change request** + **actioned**: 49
 - **request** + **redirected**: 28
-- **blocked** + **investigated**: 21
+- **blocked** + **investigated**: 22
 - **blocked** + **escalated**: 20
 - **confused** + **explained**: 16
 - **concerned** + **explained**: 12
@@ -176,6 +178,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird signup — 3 tickets
+
+- **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access — why: **praise** · how: **n/a**
+  > [heart] Gianluca Mezzina reacted to your message: ________________________________ From: [sender] Sent: Monday, 24 August 2026 16:17:07 To: Gianluca Mezzina <[email]> Subject:…
+- **[#7917](https://tbpro.zendesk.com/agent/tickets/7917)** · Cannot Login — why: **curious** · how: **explained**
+  > I received an invite and started the signup process but had not yet paid. When I tried to login to finish the process I get the Invalid username or password error message. When I…
+- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working — why: **curious** · how: **explained**
+  > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#7923](https://tbpro.zendesk.com/agent/tickets/7923)** · Time format
@@ -183,38 +194,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name?
   > How can I sign in? I used [email] and it won't let me sign in.
 
-### Account access issues — 2 tickets
-
-- **[#7922](https://tbpro.zendesk.com/agent/tickets/7922)** · Email verification
-  > Hello, I received an invitation to the Thunderbird Pro Early Bird beta. Unfortunately, I can't register because I'm not receiving a confirmation email at my recovery email…
-- **[#7917](https://tbpro.zendesk.com/agent/tickets/7917)** · Cannot Login
-  > I received an invite and started the signup process but had not yet paid. When I tried to login to finish the process I get the Invalid username or password error message. When I…
-
 ### App setup / configuration — 2 tickets
 
-- **[#7919](https://tbpro.zendesk.com/agent/tickets/7919)** · Install failure code 0xc1f30001
+- **[#7919](https://tbpro.zendesk.com/agent/tickets/7919)** · Install failure code 0xc1f30001 — why: **blocked** · how: **investigated**
   > When attempting to add my account tho thunderbird in Win11 I received this error: Component returned failure code 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMsgOutgoingServer.type]…
 - **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail — why: **concerned** · how: **explained**
   > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
-
-### Early bird signup — 2 tickets
-
-- **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access — why: **praise** · how: **n/a**
-  > [heart] Gianluca Mezzina reacted to your message: ________________________________ From: [sender] Sent: Monday, 24 August 2026 16:17:07 To: Gianluca Mezzina <[email]> Subject:…
-- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working — why: **curious** · how: **explained**
-  > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7924](https://tbpro.zendesk.com/agent/tickets/7924)** · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription — why: **curious** · how: **explained**
   > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was…
 
+### Account access issues — 1 tickets
+
+- **[#7922](https://tbpro.zendesk.com/agent/tickets/7922)** · Email verification
+  > Hello, I received an invitation to the Thunderbird Pro Early Bird beta. Unfortunately, I can't register because I'm not receiving a confirmation email at my recovery email…
+
 ## New tickets — last 24h
 
 - [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [pending] · 2026-08-24T06:17 · Gmail
 - [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [pending] · 2026-08-24T13:24 · waitlist invitation not working
-- [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [open] · 2026-08-24T14:41 · Cannot Login
-- [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [open] · 2026-08-24T16:55 · Install failure code 0xc1f30001
+- [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [pending] · 2026-08-24T14:41 · Cannot Login
+- [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [pending] · 2026-08-24T16:55 · Install failure code 0xc1f30001
 - [7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24T16:55 · What is my use name?
 - [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [solved] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
 - [7922](https://tbpro.zendesk.com/agent/tickets/7922) · [open] · 2026-08-24T17:39 · Email verification
