@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 11:22 ET** · refreshes hourly_  
+_Updated: **2026-08-24 12:18 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **408 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
+- **3** new tickets in last 24h · **5** solved in last 24h
 - **408** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.4h · mean 202.6h (proxy: updated_at − created_at, 149 solved tickets)
+- **Median AHT**: 144.6h · mean 203.9h (proxy: updated_at − created_at, 147 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -56,7 +56,7 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **408 tickets** so far
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [closed] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
-  - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
+  - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
@@ -107,12 +107,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 207
-- **solved**: 149
+- **closed**: 210
+- **solved**: 147
+- **open**: 19
 - **pending**: 19
-- **open**: 18
 - **hold**: 8
-- **new**: 7
+- **new**: 5
 
 ## Service (cumulative)
 
@@ -129,8 +129,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 69
 - **change request** + **actioned**: 45
 - **request** + **redirected**: 28
+- **blocked** + **escalated**: 20
 - **blocked** + **investigated**: 20
-- **blocked** + **escalated**: 19
 - **confused** + **explained**: 13
 - **concerned** + **explained**: 11
 - **blocked** + **redirected**: 7
@@ -195,6 +195,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7767](https://tbpro.zendesk.com/agent/tickets/7767) · 2026-08-23T22:01 · Does the invitation expire?
 - · [7762](https://tbpro.zendesk.com/agent/tickets/7762) · 2026-08-23T22:01 · 1 inbox 15 emails
 - · [7731](https://tbpro.zendesk.com/agent/tickets/7731) · 2026-08-23T22:01 · Fiyatı Yüksek
+- · [7738](https://tbpro.zendesk.com/agent/tickets/7738) · 2026-08-24T16:02 · Thundermail invitation
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
