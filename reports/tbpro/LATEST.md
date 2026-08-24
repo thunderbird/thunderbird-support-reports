@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 10:23 ET** · refreshes hourly_  
+_Updated: **2026-08-24 11:22 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **407 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **408 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **407** tickets total since launch · contact rate **6%** of 6500 invitees
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **408** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.1h · mean 200.8h (proxy: updated_at − created_at, 153 solved tickets)
+- **Median AHT**: 144.4h · mean 202.6h (proxy: updated_at − created_at, 149 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -71,7 +71,7 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **407 tickets** so far
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
 - 2 incident(s):
   - [#6654](https://tbpro.zendesk.com/agent/tickets/6654) · [closed] · 2026-07-06 · _Can't add account in Thunderbird_
-  - [#7000](https://tbpro.zendesk.com/agent/tickets/7000) · [solved] · 2026-07-21 · _Can't login in thunderbird_
+  - [#7000](https://tbpro.zendesk.com/agent/tickets/7000) · [closed] · 2026-07-21 · _Can't login in thunderbird_
 
 ### [#7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?)
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
@@ -107,16 +107,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 203
-- **solved**: 153
+- **closed**: 207
+- **solved**: 149
+- **pending**: 19
 - **open**: 18
-- **pending**: 17
-- **new**: 8
 - **hold**: 8
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 189
+- **Account Hub**: 190
 - **Thundermail**: 177
 - **Appointment**: 16
 - **Send**: 15
@@ -168,6 +168,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#7917](https://tbpro.zendesk.com/agent/tickets/7917)** · Cannot Login
+  > I received an invite and started the signup process but had not yet paid. When I tried to login to finish the process I get the Invalid username or password error message. When I…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working
@@ -182,6 +187,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [new] · 2026-08-24T06:17 · Gmail
 - [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [new] · 2026-08-24T13:24 · waitlist invitation not working
+- [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [new] · 2026-08-24T14:41 · Cannot Login
 
 ## Solved — last 24h
 
