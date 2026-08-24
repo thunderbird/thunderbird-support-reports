@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 12:18 ET** · refreshes hourly_  
+_Updated: **2026-08-24 13:18 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **408 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **410 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **5** solved in last 24h
-- **408** tickets total since launch · contact rate **6%** of 6500 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **410** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 144.6h · mean 203.9h (proxy: updated_at − created_at, 147 solved tickets)
+- **Median AHT**: 144.5h · mean 203.4h (proxy: updated_at − created_at, 148 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -108,15 +108,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 210
-- **solved**: 147
-- **open**: 19
+- **solved**: 148
+- **open**: 24
 - **pending**: 19
 - **hold**: 8
-- **new**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 190
+- **Account Hub**: 191
 - **Thundermail**: 177
 - **Appointment**: 16
 - **Send**: 15
@@ -125,13 +125,13 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 93
+- **curious** + **explained**: 94
 - **blocked** + **explained**: 69
 - **change request** + **actioned**: 45
 - **request** + **redirected**: 28
 - **blocked** + **escalated**: 20
 - **blocked** + **investigated**: 20
-- **confused** + **explained**: 13
+- **confused** + **explained**: 14
 - **concerned** + **explained**: 11
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 6
@@ -168,26 +168,41 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### App setup / configuration — 2 tickets
+
+- **[#7919](https://tbpro.zendesk.com/agent/tickets/7919)** · Install failure code 0xc1f30001
+  > When attempting to add my account tho thunderbird in Win11 I received this error: Component returned failure code 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMsgOutgoingServer.type]…
+- **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail
+  > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
+
+### Security / hacked — 1 tickets
+
+- **[#7921](https://tbpro.zendesk.com/agent/tickets/7921)** · RE: You're Invited: Thundermail Early Bird Access
+  > [heart] Gianluca Mezzina reacted to your message: ________________________________ From: [sender] Sent: Monday, 24 August 2026 16:17:07 To: Gianluca Mezzina <[email]> Subject:…
+
+### Other / uncategorized — 1 tickets
+
+- **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name?
+  > How can I sign in? I used [email] and it won't let me sign in.
+
 ### Account access issues — 1 tickets
 
 - **[#7917](https://tbpro.zendesk.com/agent/tickets/7917)** · Cannot Login
   > I received an invite and started the signup process but had not yet paid. When I tried to login to finish the process I get the Invalid username or password error message. When I…
 
-### Early bird / invite / waitlist — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working
+- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working — why: **curious** · how: **explained**
   > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
-
-### App setup / configuration — 1 tickets
-
-- **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail
-  > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
 
 ## New tickets — last 24h
 
-- [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [new] · 2026-08-24T06:17 · Gmail
-- [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [new] · 2026-08-24T13:24 · waitlist invitation not working
-- [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [new] · 2026-08-24T14:41 · Cannot Login
+- [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [open] · 2026-08-24T06:17 · Gmail
+- [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [pending] · 2026-08-24T13:24 · waitlist invitation not working
+- [7917](https://tbpro.zendesk.com/agent/tickets/7917) · [open] · 2026-08-24T14:41 · Cannot Login
+- [7919](https://tbpro.zendesk.com/agent/tickets/7919) · [open] · 2026-08-24T16:55 · Install failure code 0xc1f30001
+- [7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24T16:55 · What is my use name?
+- [7921](https://tbpro.zendesk.com/agent/tickets/7921) · [new] · 2026-08-24T17:07 · RE: You're Invited: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
@@ -196,6 +211,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7762](https://tbpro.zendesk.com/agent/tickets/7762) · 2026-08-23T22:01 · 1 inbox 15 emails
 - · [7731](https://tbpro.zendesk.com/agent/tickets/7731) · 2026-08-23T22:01 · Fiyatı Yüksek
 - · [7738](https://tbpro.zendesk.com/agent/tickets/7738) · 2026-08-24T16:02 · Thundermail invitation
+- · [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-24T16:53 · can't set encryption password
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
