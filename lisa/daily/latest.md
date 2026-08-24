@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 01:23 ET** · refreshes hourly_  
+_Updated: **2026-08-24 02:23 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **405 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **406 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **4** solved in last 24h
-- **405** tickets total since launch · contact rate **6%** of 6500 invitees
+- **1** new tickets in last 24h · **4** solved in last 24h
+- **406** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
-- **Median AHT**: 143.5h · mean 200.3h (proxy: updated_at − created_at, 154 solved tickets)
+- **Median AHT**: 144.1h · mean 200.8h (proxy: updated_at − created_at, 153 solved tickets)
 
 ## Known problems — 6 problem(s), 40 incident(s)
 
@@ -54,7 +54,7 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **405 tickets** so far
   - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [closed] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [closed] · 2026-07-21 · _Cancel_
-  - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [solved] · 2026-07-21 · _Closure of my account and refund_
+  - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [solved] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [solved] · 2026-07-22 · _Request for Cancellation and Refund_
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
@@ -107,17 +107,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 202
-- **solved**: 154
+- **closed**: 203
+- **solved**: 153
 - **open**: 17
 - **pending**: 17
+- **new**: 8
 - **hold**: 8
-- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 188
-- **Thundermail**: 176
+- **Thundermail**: 177
 - **Appointment**: 16
 - **Send**: 15
 
@@ -168,11 +168,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### App setup / configuration — 1 tickets
+
+- **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail
+  > Hello, It seems that mail send by [email] is not arriving to gmail users, or it comes in spam.
 
 ## New tickets — last 24h
 
-_(none)_
+- [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [new] · 2026-08-24T06:17 · Gmail
 
 ## Solved — last 24h
 
