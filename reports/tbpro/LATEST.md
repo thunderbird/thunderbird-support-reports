@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 08:17 ET** · refreshes hourly_  
+_Updated: **2026-08-24 09:29 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **406 tickets** so far (6.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **407 tickets** so far (6.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **406** tickets total since launch · contact rate **6%** of 6500 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **407** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (10 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
@@ -111,12 +111,12 @@ _(none in last 24h)_
 - **solved**: 153
 - **open**: 17
 - **pending**: 17
-- **new**: 8
+- **new**: 9
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 188
+- **Account Hub**: 189
 - **Thundermail**: 177
 - **Appointment**: 16
 - **Send**: 15
@@ -168,6 +168,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working
+  > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
+
 ### App setup / configuration — 1 tickets
 
 - **[#7908](https://tbpro.zendesk.com/agent/tickets/7908)** · Gmail
@@ -176,6 +181,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7908](https://tbpro.zendesk.com/agent/tickets/7908) · [new] · 2026-08-24T06:17 · Gmail
+- [7915](https://tbpro.zendesk.com/agent/tickets/7915) · [new] · 2026-08-24T13:24 · waitlist invitation not working
 
 ## Solved — last 24h
 
