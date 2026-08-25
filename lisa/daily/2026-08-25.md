@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 13:18 ET** · refreshes hourly_  
+_Updated: **2026-08-25 14:18 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **421 tickets** so far (6.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 65** of rollout — **6,500 invitees**, **422 tickets** so far (6.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **7** solved in last 24h
-- **421** tickets total since launch · contact rate **6%** of 6500 invitees
+- **9** new tickets in last 24h · **8** solved in last 24h
+- **422** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (10 good / 0 bad)
+- **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
-- **Median AHT**: 149.0h · mean 209.8h (proxy: updated_at − created_at, 138 solved tickets)
+- **Median AHT**: 149.0h · mean 206.9h (proxy: updated_at − created_at, 137 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -118,15 +118,15 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 229
-- **solved**: 138
-- **pending**: 34
-- **open**: 12
+- **closed**: 231
+- **solved**: 137
+- **pending**: 35
+- **open**: 11
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 205
+- **Account Hub**: 206
 - **Thundermail**: 175
 - **Appointment**: 16
 - **Send**: 15
@@ -146,8 +146,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 7
 - **blocked** + **actioned**: 6
 - **request** + **actioned**: 5
+- **curious** + **informed**: 5
 - **confused** + **informed**: 4
-- **curious** + **informed**: 4
 - **blocked** + **—**: 4
 - **concerned** + **—**: 3
 - **blocked** + **n/a**: 3
@@ -187,6 +187,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7926](https://tbpro.zendesk.com/agent/tickets/7926)** · Delete account / data / issue refund — why: **change request** · how: **actioned**
   > Hi please could you issue a refund and delete my account / data
 
+### Account access issues — 1 tickets
+
+- **[#7958](https://tbpro.zendesk.com/agent/tickets/7958)** · lost password
+  > I just created my account but my password manager didn't save the new gerate password. It´s possible to send a reset link to [email] ? my new account is [email]
+
 ### App setup / configuration — 1 tickets
 
 - **[#7956](https://tbpro.zendesk.com/agent/tickets/7956)** · Recovery Email
@@ -197,36 +202,37 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7954](https://tbpro.zendesk.com/agent/tickets/7954)** · invalid Password
   > I just wanted to activate my account. But now it says invalid account. My Account is [email]
 
-### Early bird signup — 1 tickets
-
-- **[#7932](https://tbpro.zendesk.com/agent/tickets/7932)** · something is wrong with your sign-up page — why: **blocked** · how: **investigated**
-  > You could let me know when it's fixed. Hopefully the attached HAR dump will be of some use?
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#7928](https://tbpro.zendesk.com/agent/tickets/7928)** · How do I set up multiple accounts (inboxes) with a custom domain
-  > I see the instructions to set up custom aliases, but these all just redirect mail to my primary Thundermail inbox. I want to share my domain with other family members, and I want…
-
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7934](https://tbpro.zendesk.com/agent/tickets/7934)** · Monthly Subscription  — why: **curious** · how: **explained**
   > I can't afford a $72.00 payment if I don't know that this will work for me. I do know that Mail Merge is a definite plus and the main reason I use Thunderbird at this time. But,…
+
+### Early bird signup — 1 tickets
+
+- **[#7932](https://tbpro.zendesk.com/agent/tickets/7932)** · something is wrong with your sign-up page — why: **blocked** · how: **investigated**
+  > You could let me know when it's fixed. Hopefully the attached HAR dump will be of some use?
 
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#7931](https://tbpro.zendesk.com/agent/tickets/7931)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
   > Hi, is it possible to subscribe for a month or a few weeks? I would happily try it out, but subscribing for a whole year for 270PLN for a service I'm not sure if I'll use is way…
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#7928](https://tbpro.zendesk.com/agent/tickets/7928)** · How do I set up multiple accounts (inboxes) with a custom domain — why: **curious** · how: **informed**
+  > I see the instructions to set up custom aliases, but these all just redirect mail to my primary Thundermail inbox. I want to share my domain with other family members, and I want…
+
 ## New tickets — last 24h
 
 - [7926](https://tbpro.zendesk.com/agent/tickets/7926) · [pending] · 2026-08-24T21:13 · Delete account / data / issue refund
-- [7928](https://tbpro.zendesk.com/agent/tickets/7928) · [open] · 2026-08-24T22:03 · How do I set up multiple accounts (inboxes) with a custom domain
+- [7928](https://tbpro.zendesk.com/agent/tickets/7928) · [pending] · 2026-08-24T22:03 · How do I set up multiple accounts (inboxes) with a custom domain
 - [7931](https://tbpro.zendesk.com/agent/tickets/7931) · [pending] · 2026-08-24T23:38 · Re: You're Invited: Thundermail Early Bird Access
-- [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [open] · 2026-08-24T23:41 · something is wrong with your sign-up page
+- [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [pending] · 2026-08-24T23:41 · something is wrong with your sign-up page
 - [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [pending] · 2026-08-25T02:48 · Monthly Subscription 
 - [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25T08:18 · Refund 
 - [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [open] · 2026-08-25T15:58 · invalid Password
 - [7956](https://tbpro.zendesk.com/agent/tickets/7956) · [open] · 2026-08-25T16:23 · Recovery Email
+- [7958](https://tbpro.zendesk.com/agent/tickets/7958) · [open] · 2026-08-25T17:55 · lost password
 
 ## Solved — last 24h
 
@@ -237,6 +243,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7792](https://tbpro.zendesk.com/agent/tickets/7792) · 2026-08-25T17:02 · add additional email account
 - · [7787](https://tbpro.zendesk.com/agent/tickets/7787) · 2026-08-25T17:02 · send using alias
 - 👍 [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-25T17:10 · can't set encryption password
+- · [7778](https://tbpro.zendesk.com/agent/tickets/7778) · 2026-08-25T18:02 · Setting up accounts here before the MX switch
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
