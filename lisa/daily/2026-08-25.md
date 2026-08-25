@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 01:18 ET** · refreshes hourly_  
+_Updated: **2026-08-25 02:19 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 65** of rollout — **6,500 invitees**, **418 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 78
-- **Median AHT**: 144.6h · mean 204.6h (proxy: updated_at − created_at, 147 solved tickets)
+- **Median AHT**: 144.8h · mean 205.5h (proxy: updated_at − created_at, 145 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -64,7 +64,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [pending] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
-  - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [solved] · 2026-07-22 · _Account Refund_
+  - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
@@ -113,10 +113,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 218
-- **solved**: 147
-- **pending**: 34
-- **open**: 11
+- **closed**: 220
+- **solved**: 145
+- **pending**: 33
+- **open**: 12
 - **hold**: 8
 
 ## Service (cumulative)
