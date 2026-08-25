@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 02:19 ET** · refreshes hourly_  
+_Updated: **2026-08-25 03:26 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 65** of rollout — **6,500 invitees**, **418 tickets** so far
 - **418** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 78
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 79
 - **Median AHT**: 144.8h · mean 205.5h (proxy: updated_at − created_at, 145 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -107,9 +107,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Webmail Privacy Improvement: Block Remote Images By Default](https://ideas.tb.pro/p/webmail-privacy-improvement-block-remote-images-by-default) · 1 votes · _untagged_
+  > What you’d like to seePlease consider improving Webmail to block remote images by default, preferably ASAP.Why it mattersWebmail (as of writing this suggestion) immediately loads remote images direct…
 
 ## Status breakdown (cumulative)
 
