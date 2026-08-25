@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 15:18 ET** · refreshes hourly_  
+_Updated: **2026-08-25 16:16 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 65** of rollout — **6,500 invitees**, **422 tickets** so far
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
+- **9** new tickets in last 24h · **10** solved in last 24h
 - **422** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
-- **Median AHT**: 147.8h · mean 206.0h (proxy: updated_at − created_at, 137 solved tickets)
+- **Median AHT**: 148.4h · mean 206.3h (proxy: updated_at − created_at, 136 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -89,12 +89,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 8 issue(s)
 
-- 🔧 [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
+- ✅ [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
 - 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
 - ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
 - ✅ [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
-- 🔧 [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
+- ✅ [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
 - ✅ [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
 - ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
@@ -118,16 +118,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 232
-- **solved**: 137
-- **pending**: 36
-- **open**: 9
-- **hold**: 8
+- **closed**: 233
+- **solved**: 136
+- **pending**: 38
+- **hold**: 9
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 206
-- **Thundermail**: 175
+- **Account Hub**: 207
+- **Thundermail**: 174
 - **Appointment**: 16
 - **Send**: 15
 
@@ -135,7 +135,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 97
+- **curious** + **explained**: 98
 - **blocked** + **explained**: 69
 - **change request** + **actioned**: 51
 - **request** + **redirected**: 28
@@ -199,7 +199,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 1 tickets
 
-- **[#7954](https://tbpro.zendesk.com/agent/tickets/7954)** · invalid Password
+- **[#7954](https://tbpro.zendesk.com/agent/tickets/7954)** · invalid Password — why: **curious** · how: **explained**
   > I just wanted to activate my account. But now it says invalid account. My Account is [email]
 
 ### Pricing — wanted free / monthly plan — 1 tickets
@@ -230,7 +230,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [pending] · 2026-08-24T23:41 · something is wrong with your sign-up page
 - [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [pending] · 2026-08-25T02:48 · Monthly Subscription 
 - [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25T08:18 · Refund 
-- [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [open] · 2026-08-25T15:58 · invalid Password
+- [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [pending] · 2026-08-25T15:58 · invalid Password
 - [7956](https://tbpro.zendesk.com/agent/tickets/7956) · [open] · 2026-08-25T16:23 · Recovery Email
 - [7958](https://tbpro.zendesk.com/agent/tickets/7958) · [open] · 2026-08-25T17:55 · lost password
 
@@ -245,6 +245,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-25T17:10 · can't set encryption password
 - · [7778](https://tbpro.zendesk.com/agent/tickets/7778) · 2026-08-25T18:02 · Setting up accounts here before the MX switch
 - · [7920](https://tbpro.zendesk.com/agent/tickets/7920) · 2026-08-25T18:28 · What is my use name?
+- · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-25T19:33 · menu overlaps compose window 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
