@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 20:23 ET** · refreshes hourly_  
+_Updated: **2026-08-24 21:43 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -20,10 +20,10 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **417 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"bird beta"** — 2 tickets in 24h (31.5× baseline; baseline 4 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
+- **"early bird beta"** — 2 tickets in 24h (31.5× baseline; baseline 4 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 - **"received invitation"** — 2 tickets in 24h (14.0× baseline; baseline 9 cum) — [#7915](https://tbpro.zendesk.com/agent/tickets/7915), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 
-## Known problems — 6 problem(s), 40 incident(s)
+## Known problems — 6 problem(s), 41 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -44,7 +44,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 28 incident(s):
+- 29 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -73,6 +73,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21 · _refund subscription_
+  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24 · _What is my use name?_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -112,7 +113,7 @@ _No negative ratings since launch._
 
 **Last 24h** — 1 new:
 
-- [Multiple App Passwords](https://ideas.tb.pro/p/multiple-app-passwords) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, Improvement_
+- [Multiple App Passwords](https://ideas.tb.pro/p/multiple-app-passwords) · 2 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, Improvement_
   > I would like to have the ability to generate multiple app passwords.If I have to setup a new email client that needs an app password, and I haven’t saved it I have to generate a new one and then go…
 
 ## Status breakdown (cumulative)
@@ -120,14 +121,13 @@ _No negative ratings since launch._
 - **closed**: 216
 - **solved**: 149
 - **pending**: 34
-- **open**: 9
+- **open**: 10
 - **hold**: 8
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 200
-- **Thundermail**: 175
+- **Account Hub**: 201
+- **Thundermail**: 174
 - **Appointment**: 16
 - **Send**: 15
 
@@ -137,7 +137,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 95
 - **blocked** + **explained**: 69
-- **change request** + **actioned**: 50
+- **change request** + **actioned**: 51
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 22
 - **blocked** + **escalated**: 20
@@ -189,13 +189,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7915](https://tbpro.zendesk.com/agent/tickets/7915)** · waitlist invitation not working — why: **curious** · how: **explained**
   > Hi [name] team, I signed up for the Thundermail waitlist and recently received an invitation to join. However, I'm unable to actually use it — the invitation doesn't work as…
 
-### Other / uncategorized — 2 tickets
-
-- **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name?
-  > How can I sign in? I used [email] and it won't let me sign in.
-- **[#7923](https://tbpro.zendesk.com/agent/tickets/7923)** · Time format — why: **concerned** · how: **informed**
-  > I switched to 24 hours in settings but it still shows me am pm
-
 ### App setup / configuration — 2 tickets
 
 - **[#7919](https://tbpro.zendesk.com/agent/tickets/7919)** · Install failure code 0xc1f30001 — why: **blocked** · how: **investigated**
@@ -208,10 +201,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7922](https://tbpro.zendesk.com/agent/tickets/7922)** · Email verification
   > Hello, I received an invitation to the Thunderbird Pro Early Bird beta. Unfortunately, I can't register because I'm not receiving a confirmation email at my recovery email…
 
+### Refund / Cancel — 1 tickets
+
+- **[#7920](https://tbpro.zendesk.com/agent/tickets/7920)** · What is my use name? — why: **change request** · how: **actioned**
+  > How can I sign in? I used [email] and it won't let me sign in.
+
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7924](https://tbpro.zendesk.com/agent/tickets/7924)** · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription — why: **praise** · how: **n/a**
   > This is a follow-up to your previous request #7035 "Cancellation and Refund Req..." Hello [name], I have reactivated my account, or rather, I paid again since the account was…
+
+### Other / uncategorized — 1 tickets
+
+- **[#7923](https://tbpro.zendesk.com/agent/tickets/7923)** · Time format — why: **concerned** · how: **informed**
+  > I switched to 24 hours in settings but it still shows me am pm
 
 ## New tickets — last 24h
 
