@@ -1,19 +1,19 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 03:26 ET** · refreshes hourly_  
+_Updated: **2026-08-25 04:22 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **418 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 65** of rollout — **6,500 invitees**, **419 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
-- **418** tickets total since launch · contact rate **6%** of 6500 invitees
+- **6** new tickets in last 24h · **3** solved in last 24h
+- **419** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 79
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
 - **Median AHT**: 144.8h · mean 205.5h (proxy: updated_at − created_at, 145 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -101,14 +101,17 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [new] · _Refund _
+  > Hello, I am writing to request a refund for my recent purchase. At the moment, I do not feel the product is worth the $72 price tag. Additionally, is there any way to leave my account dormant so I can eventually come…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [oNe!qex.tab.ATaND.social](https://ideas.tb.pro/p/one-qex-tab-atand-social) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
 - [Webmail Privacy Improvement: Block Remote Images By Default](https://ideas.tb.pro/p/webmail-privacy-improvement-block-remote-images-by-default) · 1 votes · _untagged_
   > What you’d like to seePlease consider improving Webmail to block remote images by default, preferably ASAP.Why it mattersWebmail (as of writing this suggestion) immediately loads remote images direct…
 
@@ -119,10 +122,11 @@ _(none in last 24h)_
 - **pending**: 33
 - **open**: 12
 - **hold**: 8
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 201
+- **Account Hub**: 202
 - **Thundermail**: 175
 - **Appointment**: 16
 - **Send**: 15
@@ -176,6 +180,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#7943](https://tbpro.zendesk.com/agent/tickets/7943)** · Refund 
+  > Hello, I am writing to request a refund for my recent purchase. At the moment, I do not feel the product is worth the $72 price tag. Additionally, is there any way to leave my…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#7934](https://tbpro.zendesk.com/agent/tickets/7934)** · Monthly Subscription 
@@ -208,6 +217,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7931](https://tbpro.zendesk.com/agent/tickets/7931) · [open] · 2026-08-24T23:38 · Re: You're Invited: Thundermail Early Bird Access
 - [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [open] · 2026-08-24T23:41 · something is wrong with your sign-up page
 - [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [open] · 2026-08-25T02:48 · Monthly Subscription 
+- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [new] · 2026-08-25T08:18 · Refund 
 
 ## Solved — last 24h
 
