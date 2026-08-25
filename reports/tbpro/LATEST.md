@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 17:16 ET** · refreshes hourly_  
+_Updated: **2026-08-25 18:16 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **424 tickets** so far (6.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 65** of rollout — **6,500 invitees**, **426 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **10** solved in last 24h
-- **424** tickets total since launch · contact rate **7%** of 6500 invitees
+- **9** new tickets in last 24h · **9** solved in last 24h
+- **426** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
-- **Median AHT**: 147.8h · mean 206.3h (proxy: updated_at − created_at, 135 solved tickets)
+- **Median AHT**: 148.4h · mean 207.6h (proxy: updated_at − created_at, 134 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -73,7 +73,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21 · _refund subscription_
-  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
+  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24 · _What is my use name?_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -119,15 +119,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 235
-- **solved**: 135
+- **solved**: 134
 - **pending**: 38
-- **open**: 9
+- **open**: 11
 - **hold**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 207
-- **Thundermail**: 174
+- **Account Hub**: 208
+- **Thundermail**: 176
 - **Send**: 16
 - **Appointment**: 16
 
@@ -135,8 +136,8 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 98
-- **blocked** + **explained**: 69
+- **curious** + **explained**: 99
+- **blocked** + **explained**: 70
 - **change request** + **actioned**: 51
 - **request** + **redirected**: 28
 - **blocked** + **investigated**: 23
@@ -187,11 +188,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7926](https://tbpro.zendesk.com/agent/tickets/7926)** · Delete account / data / issue refund — why: **change request** · how: **actioned**
   > Hi please could you issue a refund and delete my account / data
 
-### Account access issues — 1 tickets
-
-- **[#7958](https://tbpro.zendesk.com/agent/tickets/7958)** · lost password
-  > I just created my account but my password manager didn't save the new gerate password. It´s possible to send a reset link to [email] ? my new account is [email]
-
 ### App setup / configuration — 1 tickets
 
 - **[#7956](https://tbpro.zendesk.com/agent/tickets/7956)** · Recovery Email
@@ -201,6 +197,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#7954](https://tbpro.zendesk.com/agent/tickets/7954)** · invalid Password — why: **curious** · how: **explained**
   > I just wanted to activate my account. But now it says invalid account. My Account is [email]
+
+### Account access issues — 1 tickets
+
+- **[#7958](https://tbpro.zendesk.com/agent/tickets/7958)** · lost password — why: **blocked** · how: **explained**
+  > I just created my account but my password manager didn't save the new gerate password. It´s possible to send a reset link to [email] ? my new account is [email]
 
 ### Pricing — wanted free / monthly plan — 1 tickets
 
@@ -232,7 +233,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25T08:18 · Refund 
 - [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [open] · 2026-08-25T15:58 · invalid Password
 - [7956](https://tbpro.zendesk.com/agent/tickets/7956) · [open] · 2026-08-25T16:23 · Recovery Email
-- [7958](https://tbpro.zendesk.com/agent/tickets/7958) · [open] · 2026-08-25T17:55 · lost password
+- [7958](https://tbpro.zendesk.com/agent/tickets/7958) · [pending] · 2026-08-25T17:55 · lost password
 
 ## Solved — last 24h
 
@@ -244,7 +245,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7787](https://tbpro.zendesk.com/agent/tickets/7787) · 2026-08-25T17:02 · send using alias
 - 👍 [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-25T17:10 · can't set encryption password
 - · [7778](https://tbpro.zendesk.com/agent/tickets/7778) · 2026-08-25T18:02 · Setting up accounts here before the MX switch
-- · [7920](https://tbpro.zendesk.com/agent/tickets/7920) · 2026-08-25T18:28 · What is my use name?
 - · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-25T19:33 · menu overlaps compose window 
 
 ---
