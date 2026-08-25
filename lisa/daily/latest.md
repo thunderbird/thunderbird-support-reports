@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-24
 
-_Updated: **2026-08-24 22:32 ET** · refreshes hourly_  
+_Updated: **2026-08-24 23:27 ET** · refreshes hourly_  
 _24h window: 2026-08-23T16:00 → 2026-08-24T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 64** of rollout — **6,500 invitees**, **417 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 64** of rollout — **6,500 invitees**, **418 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **10** solved in last 24h
-- **417** tickets total since launch · contact rate **6%** of 6500 invitees
+- **418** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
@@ -20,7 +20,7 @@ Flight 3 is **day 64** of rollout — **6,500 invitees**, **417 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"bird beta"** — 2 tickets in 24h (31.5× baseline; baseline 4 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
+- **"early bird beta"** — 2 tickets in 24h (31.5× baseline; baseline 4 cum) — [#7921](https://tbpro.zendesk.com/agent/tickets/7921), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 - **"received invitation"** — 2 tickets in 24h (14.0× baseline; baseline 9 cum) — [#7915](https://tbpro.zendesk.com/agent/tickets/7915), [#7922](https://tbpro.zendesk.com/agent/tickets/7922)
 
 ## Known problems — 6 problem(s), 41 incident(s)
@@ -121,13 +121,13 @@ _No negative ratings since launch._
 - **closed**: 216
 - **solved**: 149
 - **pending**: 34
-- **open**: 10
+- **open**: 11
 - **hold**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 201
-- **Thundermail**: 174
+- **Thundermail**: 175
 - **Appointment**: 16
 - **Send**: 15
 
