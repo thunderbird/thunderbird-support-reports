@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 10:24 ET** · refreshes hourly_  
+_Updated: **2026-08-25 11:25 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 65** of rollout — **6,500 invitees**, **419 tickets** so far
 
 ## At a glance
 
-- **6** new tickets in last 24h · **3** solved in last 24h
+- **6** new tickets in last 24h · **4** solved in last 24h
 - **419** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
-- **Median AHT**: 147.4h · mean 209.3h (proxy: updated_at − created_at, 140 solved tickets)
+- **Median AHT**: 146.9h · mean 208.0h (proxy: updated_at − created_at, 141 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -103,7 +103,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [new] · _Refund _
+- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [open] · _Refund _
   > Hello, I am writing to request a refund for my recent purchase. At the moment, I do not feel the product is worth the $72 price tag. Additionally, is there any way to leave my account dormant so I can eventually come…
 
 ## New ideas on FeatureOS
@@ -118,11 +118,10 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 224
-- **solved**: 140
+- **solved**: 141
 - **pending**: 34
 - **open**: 12
 - **hold**: 8
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -139,7 +138,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 69
 - **change request** + **actioned**: 51
 - **request** + **redirected**: 28
-- **blocked** + **investigated**: 22
+- **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 20
 - **confused** + **explained**: 16
 - **concerned** + **explained**: 12
@@ -190,9 +189,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7934](https://tbpro.zendesk.com/agent/tickets/7934)** · Monthly Subscription 
   > I can't afford a $72.00 payment if I don't know that this will work for me. I do know that Mail Merge is a definite plus and the main reason I use Thunderbird at this time. But,…
 
-### Other / uncategorized — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#7932](https://tbpro.zendesk.com/agent/tickets/7932)** · something is wrong with your sign-up page
+- **[#7932](https://tbpro.zendesk.com/agent/tickets/7932)** · something is wrong with your sign-up page — why: **blocked** · how: **investigated**
   > You could let me know when it's fixed. Hopefully the attached HAR dump will be of some use?
 
 ### Early bird / invite / waitlist — 1 tickets
@@ -217,13 +216,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7931](https://tbpro.zendesk.com/agent/tickets/7931) · [open] · 2026-08-24T23:38 · Re: You're Invited: Thundermail Early Bird Access
 - [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [open] · 2026-08-24T23:41 · something is wrong with your sign-up page
 - [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [open] · 2026-08-25T02:48 · Monthly Subscription 
-- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [new] · 2026-08-25T08:18 · Refund 
+- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [open] · 2026-08-25T08:18 · Refund 
 
 ## Solved — last 24h
 
 - · [7793](https://tbpro.zendesk.com/agent/tickets/7793) · 2026-08-24T21:02 · Signing up for the early bird
 - · [7788](https://tbpro.zendesk.com/agent/tickets/7788) · 2026-08-24T21:02 · Refund request
 - · [7777](https://tbpro.zendesk.com/agent/tickets/7777) · 2026-08-24T21:02 · Madrid
+- · [7921](https://tbpro.zendesk.com/agent/tickets/7921) · 2026-08-25T14:51 · RE: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
