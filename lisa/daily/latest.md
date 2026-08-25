@@ -1,27 +1,27 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 16:16 ET** · refreshes hourly_  
+_Updated: **2026-08-25 17:16 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **422 tickets** so far (6.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 65** of rollout — **6,500 invitees**, **424 tickets** so far (6.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **10** solved in last 24h
-- **422** tickets total since launch · contact rate **6%** of 6500 invitees
+- **424** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
-- **Median AHT**: 148.4h · mean 206.3h (proxy: updated_at − created_at, 136 solved tickets)
+- **Median AHT**: 147.8h · mean 206.3h (proxy: updated_at − created_at, 135 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"look forward"** — 2 tickets in 24h (42.7× baseline; baseline 3 cum) — [#7931](https://tbpro.zendesk.com/agent/tickets/7931), [#7956](https://tbpro.zendesk.com/agent/tickets/7956)
-- **"custom domains"** — 2 tickets in 24h (9.1× baseline; baseline 14 cum) — [#7928](https://tbpro.zendesk.com/agent/tickets/7928), [#7931](https://tbpro.zendesk.com/agent/tickets/7931)
+- **"look forward"** — 2 tickets in 24h (32.0× baseline; baseline 4 cum) — [#7931](https://tbpro.zendesk.com/agent/tickets/7931), [#7956](https://tbpro.zendesk.com/agent/tickets/7956)
+- **"custom domains"** — 2 tickets in 24h (8.5× baseline; baseline 15 cum) — [#7928](https://tbpro.zendesk.com/agent/tickets/7928), [#7931](https://tbpro.zendesk.com/agent/tickets/7931)
 
 ## Known problems — 6 problem(s), 41 incident(s)
 
@@ -118,18 +118,18 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 233
-- **solved**: 136
+- **closed**: 235
+- **solved**: 135
 - **pending**: 38
-- **hold**: 9
-- **open**: 6
+- **open**: 9
+- **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 207
 - **Thundermail**: 174
+- **Send**: 16
 - **Appointment**: 16
-- **Send**: 15
 
 ## Why × How (cumulative)
 
@@ -149,6 +149,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 5
 - **confused** + **informed**: 4
 - **blocked** + **—**: 4
+- **blocked** + **informed**: 3
 - **concerned** + **—**: 3
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
@@ -156,7 +157,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
 - **telling us** + **n/a**: 2
-- **blocked** + **informed**: 2
 - **curious** + **actioned**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
@@ -230,7 +230,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [pending] · 2026-08-24T23:41 · something is wrong with your sign-up page
 - [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [pending] · 2026-08-25T02:48 · Monthly Subscription 
 - [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25T08:18 · Refund 
-- [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [pending] · 2026-08-25T15:58 · invalid Password
+- [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [open] · 2026-08-25T15:58 · invalid Password
 - [7956](https://tbpro.zendesk.com/agent/tickets/7956) · [open] · 2026-08-25T16:23 · Recovery Email
 - [7958](https://tbpro.zendesk.com/agent/tickets/7958) · [open] · 2026-08-25T17:55 · lost password
 
