@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 11:25 ET** · refreshes hourly_  
+_Updated: **2026-08-25 12:19 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **419 tickets** so far (6.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 65** of rollout — **6,500 invitees**, **420 tickets** so far (6.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
-- **419** tickets total since launch · contact rate **6%** of 6500 invitees
+- **7** new tickets in last 24h · **4** solved in last 24h
+- **420** tickets total since launch · contact rate **6%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
-- **Median AHT**: 146.9h · mean 208.0h (proxy: updated_at − created_at, 141 solved tickets)
+- **Median AHT**: 147.8h · mean 210.3h (proxy: updated_at − created_at, 137 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -57,7 +57,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [closed] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
   - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [closed] · 2026-07-16 · _Refund Request_
   - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [closed] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
-  - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [solved] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
+  - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [closed] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
   - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [closed] · 2026-07-21 · _Refund due to poor service_
   - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [closed] · 2026-07-21 · _Cancel_
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
@@ -72,7 +72,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21 · _refund subscription_
-  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [pending] · 2026-08-24 · _What is my use name?_
+  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24 · _What is my use name?_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -117,16 +117,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 224
-- **solved**: 141
+- **closed**: 228
+- **solved**: 137
 - **pending**: 34
-- **open**: 12
+- **open**: 13
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 202
-- **Thundermail**: 175
+- **Account Hub**: 203
+- **Thundermail**: 176
 - **Appointment**: 16
 - **Send**: 15
 
@@ -134,7 +134,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 95
+- **curious** + **explained**: 96
 - **blocked** + **explained**: 69
 - **change request** + **actioned**: 51
 - **request** + **redirected**: 28
@@ -179,6 +179,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#7954](https://tbpro.zendesk.com/agent/tickets/7954)** · invalid Password
+  > I just wanted to activate my account. But now it says invalid account. My Account is [email]
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7943](https://tbpro.zendesk.com/agent/tickets/7943)** · Refund 
@@ -194,15 +199,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7932](https://tbpro.zendesk.com/agent/tickets/7932)** · something is wrong with your sign-up page — why: **blocked** · how: **investigated**
   > You could let me know when it's fixed. Hopefully the attached HAR dump will be of some use?
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#7931](https://tbpro.zendesk.com/agent/tickets/7931)** · Re: You're Invited: Thundermail Early Bird Access
-  > Hi, is it possible to subscribe for a month or a few weeks? I would happily try it out, but subscribing for a whole year for 270PLN for a service I'm not sure if I'll use is way…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#7928](https://tbpro.zendesk.com/agent/tickets/7928)** · How do I set up multiple accounts (inboxes) with a custom domain
   > I see the instructions to set up custom aliases, but these all just redirect mail to my primary Thundermail inbox. I want to share my domain with other family members, and I want…
+
+### Pricing — general pricing concern — 1 tickets
+
+- **[#7931](https://tbpro.zendesk.com/agent/tickets/7931)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
+  > Hi, is it possible to subscribe for a month or a few weeks? I would happily try it out, but subscribing for a whole year for 270PLN for a service I'm not sure if I'll use is way…
 
 ### Refund / Cancel — 1 tickets
 
@@ -213,10 +218,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [7926](https://tbpro.zendesk.com/agent/tickets/7926) · [pending] · 2026-08-24T21:13 · Delete account / data / issue refund
 - [7928](https://tbpro.zendesk.com/agent/tickets/7928) · [open] · 2026-08-24T22:03 · How do I set up multiple accounts (inboxes) with a custom domain
-- [7931](https://tbpro.zendesk.com/agent/tickets/7931) · [open] · 2026-08-24T23:38 · Re: You're Invited: Thundermail Early Bird Access
+- [7931](https://tbpro.zendesk.com/agent/tickets/7931) · [pending] · 2026-08-24T23:38 · Re: You're Invited: Thundermail Early Bird Access
 - [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [open] · 2026-08-24T23:41 · something is wrong with your sign-up page
 - [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [open] · 2026-08-25T02:48 · Monthly Subscription 
 - [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [open] · 2026-08-25T08:18 · Refund 
+- [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [open] · 2026-08-25T15:58 · invalid Password
 
 ## Solved — last 24h
 
