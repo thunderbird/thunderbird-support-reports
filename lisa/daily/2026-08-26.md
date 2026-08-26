@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 02:19 ET** · refreshes hourly_  
+_Updated: **2026-08-26 03:27 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **432 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **434 tickets** so far (6.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **4** solved in last 24h
-- **432** tickets total since launch · contact rate **7%** of 6500 invitees
+- **12** new tickets in last 24h · **4** solved in last 24h
+- **434** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
@@ -122,14 +122,14 @@ _No negative ratings since launch._
 - **pending**: 36
 - **open**: 16
 - **hold**: 7
-- **new**: 1
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 209
-- **Thundermail**: 181
+- **Thundermail**: 182
+- **Appointment**: 17
 - **Send**: 16
-- **Appointment**: 16
 
 ## Why × How (cumulative)
 
@@ -194,6 +194,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
   > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#7978](https://tbpro.zendesk.com/agent/tickets/7978)** · JMAP
+  > Hi, Is there a reason to use JMAP to connect to Thundermail from Thunderbird (I find the IMAP a bit slow, and when copying multiple mails it often disconnects and I have to…
+
+### Appointment / calendar — 1 tickets
+
+- **[#7977](https://tbpro.zendesk.com/agent/tickets/7977)** · Multiple calendars
+  > Hi, How do I set up multiple calendars on my Thundermail account? I don't mean how to link to other calendar sources. Thanks!
+
 ### Other / uncategorized — 1 tickets
 
 - **[#7976](https://tbpro.zendesk.com/agent/tickets/7976)** · $ vs €
@@ -236,6 +246,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7972](https://tbpro.zendesk.com/agent/tickets/7972) · [open] · 2026-08-26T04:41 · Refund
 - [7973](https://tbpro.zendesk.com/agent/tickets/7973) · [open] · 2026-08-26T05:05 · 1 month free trial
 - [7976](https://tbpro.zendesk.com/agent/tickets/7976) · [new] · 2026-08-26T06:17 · $ vs €
+- [7977](https://tbpro.zendesk.com/agent/tickets/7977) · [new] · 2026-08-26T07:03 · Multiple calendars
+- [7978](https://tbpro.zendesk.com/agent/tickets/7978) · [new] · 2026-08-26T07:13 · JMAP
 
 ## Solved — last 24h
 
