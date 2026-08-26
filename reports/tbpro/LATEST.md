@@ -1,27 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-25
+# Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-25 23:30 ET** · refreshes hourly_  
-_24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-26 00:23 ET** · refreshes hourly_  
+_24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **429 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **429 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
+- **7** new tickets in last 24h · **4** solved in last 24h
 - **429** tickets total since launch · contact rate **7%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 81
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 81
 - **Median AHT**: 149.0h · mean 205.8h (proxy: updated_at − created_at, 135 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"look forward"** — 2 tickets in 24h (32.0× baseline; baseline 4 cum) — [#7931](https://tbpro.zendesk.com/agent/tickets/7931), [#7956](https://tbpro.zendesk.com/agent/tickets/7956)
-- **"custom domains"** — 2 tickets in 24h (8.5× baseline; baseline 15 cum) — [#7928](https://tbpro.zendesk.com/agent/tickets/7928), [#7931](https://tbpro.zendesk.com/agent/tickets/7931)
 
 ## Known problems — 6 problem(s), 41 incident(s)
 
@@ -102,28 +95,23 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · _Refund _
-  > Hello, I am writing to request a refund for my recent purchase. At the moment, I do not feel the product is worth the $72 price tag. Additionally, is there any way to leave my account dormant so I can eventually come…
-- [7968](https://tbpro.zendesk.com/agent/tickets/7968) · [pending] · _Refund_
-  > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 1 new:
 
-- [oNe!qex.tab.ATaND.social](https://ideas.tb.pro/p/one-qex-tab-atand-social) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
-- [Webmail Privacy Improvement: Block Remote Images By Default](https://ideas.tb.pro/p/webmail-privacy-improvement-block-remote-images-by-default) · 1 votes · _untagged_
-  > What you’d like to seePlease consider improving Webmail to block remote images by default, preferably ASAP.Why it mattersWebmail (as of writing this suggestion) immediately loads remote images direct…
+- [Multiple user accounts for custom domains](https://ideas.tb.pro/p/multiple-user-accounts-for-custom-domains) · 1 votes · _untagged_
+  > For custom domains, it’s very constraining to force all email to share the same Inbox as the primary Thundermail account.I would like to propose allowing additional users to be set up under custom…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 237
 - **solved**: 135
-- **pending**: 37
-- **open**: 13
+- **pending**: 36
+- **open**: 14
 - **hold**: 7
 
 ## Service (cumulative)
@@ -182,71 +170,54 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Refund / Cancel — 2 tickets
+### Request or complaint — 2 tickets
 
-- **[#7943](https://tbpro.zendesk.com/agent/tickets/7943)** · Refund  — why: **request** · how: **actioned**
-  > Hello, I am writing to request a refund for my recent purchase. At the moment, I do not feel the product is worth the $72 price tag. Additionally, is there any way to leave my…
-- **[#7926](https://tbpro.zendesk.com/agent/tickets/7926)** · Delete account / data / issue refund — why: **change request** · how: **actioned**
-  > Hi please could you issue a refund and delete my account / data
+- **[#7969](https://tbpro.zendesk.com/agent/tickets/7969)** · Interview Request - Privacy Guides — why: **request** · how: **redirected**
+  > Hey [name] team, I'm reaching out from Privacy Guides (https://[domain]). We are a non-profit project with a mission to inform the public about the value of digital privacy. Our…
+- **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
+  > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
-### App setup / configuration — 1 tickets
+### Pricing / monthly plan / free tier — 1 tickets
 
-- **[#7956](https://tbpro.zendesk.com/agent/tickets/7956)** · Recovery Email
-  > I hope this message finds you well. I have this Thundermail account and would like to add or set up a recovery email address for it, in case I ever lose access to my account.…
-
-### Other / uncategorized — 1 tickets
-
-- **[#7954](https://tbpro.zendesk.com/agent/tickets/7954)** · invalid Password — why: **curious** · how: **explained**
-  > I just wanted to activate my account. But now it says invalid account. My Account is [email]
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#7928](https://tbpro.zendesk.com/agent/tickets/7928)** · How do I set up multiple accounts (inboxes) with a custom domain — why: **curious** · how: **informed**
-  > I see the instructions to set up custom aliases, but these all just redirect mail to my primary Thundermail inbox. I want to share my domain with other family members, and I want…
+- **[#7971](https://tbpro.zendesk.com/agent/tickets/7971)** · paid now?
+  > I'm a 10+ year fastmail user, fastmail provides 600 mail alias and as many as you want for you custmon domain, and jmap support. alas 30 free trial for new user, paid below $5 for…
 
 ### Account access issues — 1 tickets
 
-- **[#7958](https://tbpro.zendesk.com/agent/tickets/7958)** · lost password — why: **blocked** · how: **explained**
-  > I just created my account but my password manager didn't save the new gerate password. It´s possible to send a reset link to [email] ? my new account is [email]
+- **[#7966](https://tbpro.zendesk.com/agent/tickets/7966)** · Therms and Conditions
+  > Hello, at first I want to thank you for the opportunity to test Thundermail. Though, after creating the account and after the first login I encountered the first bug. I should…
 
-### Pricing — wanted free / monthly plan — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#7934](https://tbpro.zendesk.com/agent/tickets/7934)** · Monthly Subscription  — why: **curious** · how: **explained**
-  > I can't afford a $72.00 payment if I don't know that this will work for me. I do know that Mail Merge is a definite plus and the main reason I use Thunderbird at this time. But,…
+- **[#7963](https://tbpro.zendesk.com/agent/tickets/7963)** · [domain] question
+  > When I signed up for my account I was not provided with the option to select an email address @[domain], if I pay for the service will my email address allow mail to go to…
+
+### App setup / configuration — 1 tickets
+
+- **[#7962](https://tbpro.zendesk.com/agent/tickets/7962)** · Error encountered in Send feature
+  > Was testing the Send feature and encountered a rather strange error when trying to download the attached file from within my browser: 1. Attached file via Send to a PGP encrypted…
 
 ### Early bird signup — 1 tickets
 
-- **[#7932](https://tbpro.zendesk.com/agent/tickets/7932)** · something is wrong with your sign-up page — why: **blocked** · how: **investigated**
-  > You could let me know when it's fixed. Hopefully the attached HAR dump will be of some use?
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7931](https://tbpro.zendesk.com/agent/tickets/7931)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Hi, is it possible to subscribe for a month or a few weeks? I would happily try it out, but subscribing for a whole year for 270PLN for a service I'm not sure if I'll use is way…
+- **[#7960](https://tbpro.zendesk.com/agent/tickets/7960)** · Questions about Thundermail Early Bird Access — why: **curious** · how: **explained**
+  > Hello, I am interested in moving our email domain [domain] to Thundermail. My family currently has three email addresses on that domain. The "One Inbox" description has confused…
 
 ## New tickets — last 24h
 
-- [7926](https://tbpro.zendesk.com/agent/tickets/7926) · [pending] · 2026-08-24T21:13 · Delete account / data / issue refund
-- [7928](https://tbpro.zendesk.com/agent/tickets/7928) · [open] · 2026-08-24T22:03 · How do I set up multiple accounts (inboxes) with a custom domain
-- [7931](https://tbpro.zendesk.com/agent/tickets/7931) · [pending] · 2026-08-24T23:38 · Re: You're Invited: Thundermail Early Bird Access
-- [7932](https://tbpro.zendesk.com/agent/tickets/7932) · [pending] · 2026-08-24T23:41 · something is wrong with your sign-up page
-- [7934](https://tbpro.zendesk.com/agent/tickets/7934) · [pending] · 2026-08-25T02:48 · Monthly Subscription 
-- [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25T08:18 · Refund 
-- [7954](https://tbpro.zendesk.com/agent/tickets/7954) · [open] · 2026-08-25T15:58 · invalid Password
-- [7956](https://tbpro.zendesk.com/agent/tickets/7956) · [open] · 2026-08-25T16:23 · Recovery Email
-- [7958](https://tbpro.zendesk.com/agent/tickets/7958) · [pending] · 2026-08-25T17:55 · lost password
+- [7960](https://tbpro.zendesk.com/agent/tickets/7960) · [open] · 2026-08-25T20:18 · Questions about Thundermail Early Bird Access
+- [7962](https://tbpro.zendesk.com/agent/tickets/7962) · [open] · 2026-08-25T21:13 · Error encountered in Send feature
+- [7963](https://tbpro.zendesk.com/agent/tickets/7963) · [open] · 2026-08-25T21:24 · [domain] question
+- [7966](https://tbpro.zendesk.com/agent/tickets/7966) · [open] · 2026-08-25T22:08 · Therms and Conditions
+- [7968](https://tbpro.zendesk.com/agent/tickets/7968) · [pending] · 2026-08-25T23:24 · Refund
+- [7969](https://tbpro.zendesk.com/agent/tickets/7969) · [solved] · 2026-08-26T00:27 · Interview Request - Privacy Guides
+- [7971](https://tbpro.zendesk.com/agent/tickets/7971) · [open] · 2026-08-26T01:13 · paid now?
 
 ## Solved — last 24h
 
-- · [7793](https://tbpro.zendesk.com/agent/tickets/7793) · 2026-08-24T21:02 · Signing up for the early bird
-- · [7788](https://tbpro.zendesk.com/agent/tickets/7788) · 2026-08-24T21:02 · Refund request
-- · [7777](https://tbpro.zendesk.com/agent/tickets/7777) · 2026-08-24T21:02 · Madrid
-- · [7921](https://tbpro.zendesk.com/agent/tickets/7921) · 2026-08-25T14:51 · RE: You're Invited: Thundermail Early Bird Access
-- · [7792](https://tbpro.zendesk.com/agent/tickets/7792) · 2026-08-25T17:02 · add additional email account
-- · [7787](https://tbpro.zendesk.com/agent/tickets/7787) · 2026-08-25T17:02 · send using alias
-- 👍 [7784](https://tbpro.zendesk.com/agent/tickets/7784) · 2026-08-25T17:10 · can't set encryption password
-- · [7778](https://tbpro.zendesk.com/agent/tickets/7778) · 2026-08-25T18:02 · Setting up accounts here before the MX switch
-- · [7529](https://tbpro.zendesk.com/agent/tickets/7529) · 2026-08-25T19:33 · menu overlaps compose window 
+- · [7796](https://tbpro.zendesk.com/agent/tickets/7796) · 2026-08-25T21:02 · Request a refund
+- · [7772](https://tbpro.zendesk.com/agent/tickets/7772) · 2026-08-25T23:01 · Send, no "back/home" button on page "print encryption key"
+- · [7969](https://tbpro.zendesk.com/agent/tickets/7969) · 2026-08-26T01:23 · Interview Request - Privacy Guides
+- · [7920](https://tbpro.zendesk.com/agent/tickets/7920) · 2026-08-26T02:27 · What is my use name?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
