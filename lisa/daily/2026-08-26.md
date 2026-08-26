@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 18:06 ET** · refreshes hourly_  
+_Updated: **2026-08-26 19:18 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **442 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **443 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **18** new tickets in last 24h · **10** solved in last 24h
-- **442** tickets total since launch · contact rate **7%** of 6500 invitees
+- **443** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
@@ -110,7 +110,7 @@ _No negative ratings since launch._
   > Hey, sorry, I was so hyped to have a thundermail account that I instantly bought after receiving the invite. As I am living in Germany I want to support local business and will be staying with my current provider even…
 - [7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · _Delete account and refund_
   > Delete thundermail account and refund please
-- [7989](https://tbpro.zendesk.com/agent/tickets/7989) · [open] · _Cancel this account during the trial period_
+- [7989](https://tbpro.zendesk.com/agent/tickets/7989) · [pending] · _Cancel this account during the trial period_
   > Please cancel this account '[email]' during the seven-day trial period and pay back 72 EUR
 - [7997](https://tbpro.zendesk.com/agent/tickets/7997) · [open] · _refund_
   > Hello, I subscribed to the Thundermail Pro annual plan on 25 August 2026 and I would like to request a full refund under your 14-day refund policy. Account email: [email] Invoice reference: 9312-12823 Billing period: 25…
@@ -128,14 +128,14 @@ _No negative ratings since launch._
 
 - **closed**: 245
 - **solved**: 130
-- **pending**: 52
+- **pending**: 56
 - **hold**: 8
-- **open**: 7
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 218
-- **Thundermail**: 181
+- **Account Hub**: 219
+- **Thundermail**: 182
 - **Send**: 16
 - **Appointment**: 16
 
@@ -143,13 +143,13 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 103
+- **curious** + **explained**: 104
 - **blocked** + **explained**: 70
-- **change request** + **actioned**: 55
+- **change request** + **actioned**: 56
 - **request** + **redirected**: 31
 - **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 20
-- **confused** + **explained**: 16
+- **confused** + **explained**: 18
 - **concerned** + **explained**: 13
 - **blocked** + **redirected**: 7
 - **confused** + **informed**: 6
@@ -189,10 +189,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Refund / Cancel — 4 tickets
+### Refund / Cancel — 5 tickets
 
 - **[#7997](https://tbpro.zendesk.com/agent/tickets/7997)** · refund — why: **change request** · how: **actioned**
   > Hello, I subscribed to the Thundermail Pro annual plan on 25 August 2026 and I would like to request a full refund under your 14-day refund policy. Account email: [email] Invoice…
+- **[#7989](https://tbpro.zendesk.com/agent/tickets/7989)** · Cancel this account during the trial period — why: **change request** · how: **actioned**
+  > Please cancel this account '[email]' during the seven-day trial period and pay back 72 EUR
 - **[#7981](https://tbpro.zendesk.com/agent/tickets/7981)** · Delete account and refund — why: **change request** · how: **actioned**
   > Delete thundermail account and refund please
 - **[#7972](https://tbpro.zendesk.com/agent/tickets/7972)** · Refund — why: **change request** · how: **actioned**
@@ -214,20 +216,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
   > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#7989](https://tbpro.zendesk.com/agent/tickets/7989)** · Cancel this account during the trial period
-  > Please cancel this account '[email]' during the seven-day trial period and pay back 72 EUR
-
-### Other / uncategorized — 1 tickets
-
-- **[#7988](https://tbpro.zendesk.com/agent/tickets/7988)** · Spam messages
-  > I keep getting messages from senders I've marked as Spam. What's the use of marking these senders as Spam if I keep getting their messages in my Inbox???? I've brought this up…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#7985](https://tbpro.zendesk.com/agent/tickets/7985)** · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias. — why: **concerned** · how: **escalated**
   > Hi. I have [email] and [email] I can see some test emails sent by someones gmail to this email, AND in the sent folder i can see that someone has used my alias to send an email as…
+
+### Other / uncategorized — 1 tickets
+
+- **[#7988](https://tbpro.zendesk.com/agent/tickets/7988)** · Spam messages — why: **confused** · how: **explained**
+  > I keep getting messages from senders I've marked as Spam. What's the use of marking these senders as Spam if I keep getting their messages in my Inbox???? I've brought this up…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -281,8 +278,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26T09:36 · Delete account and refund
 - [7985](https://tbpro.zendesk.com/agent/tickets/7985) · [open] · 2026-08-26T11:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
 - [7987](https://tbpro.zendesk.com/agent/tickets/7987) · [pending] · 2026-08-26T12:38 · Second User
-- [7988](https://tbpro.zendesk.com/agent/tickets/7988) · [open] · 2026-08-26T12:52 · Spam messages
-- [7989](https://tbpro.zendesk.com/agent/tickets/7989) · [open] · 2026-08-26T13:16 · Cancel this account during the trial period
+- [7988](https://tbpro.zendesk.com/agent/tickets/7988) · [pending] · 2026-08-26T12:52 · Spam messages
+- [7989](https://tbpro.zendesk.com/agent/tickets/7989) · [pending] · 2026-08-26T13:16 · Cancel this account during the trial period
 - [7997](https://tbpro.zendesk.com/agent/tickets/7997) · [open] · 2026-08-26T18:04 · refund
 
 ## Solved — last 24h
