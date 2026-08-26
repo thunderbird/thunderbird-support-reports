@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 14:48 ET** · refreshes hourly_  
+_Updated: **2026-08-26 15:45 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 66** of rollout — **6,500 invitees**, **440 tickets** so far
 
 ## At a glance
 
-- **18** new tickets in last 24h · **9** solved in last 24h
+- **18** new tickets in last 24h · **10** solved in last 24h
 - **440** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (6 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 148.0h · mean 207.7h (proxy: updated_at − created_at, 130 solved tickets)
+- **Median AHT**: 146.9h · mean 207.0h (proxy: updated_at − created_at, 131 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"free trial"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7971](https://tbpro.zendesk.com/agent/tickets/7971), [#7973](https://tbpro.zendesk.com/agent/tickets/7973)
 - **"annual plan"** — 2 tickets in 24h (32.5× baseline; baseline 4 cum) — [#7960](https://tbpro.zendesk.com/agent/tickets/7960), [#7997](https://tbpro.zendesk.com/agent/tickets/7997)
 
-## Known problems — 6 problem(s), 42 incident(s)
+## Known problems — 6 problem(s), 43 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -44,7 +44,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 30 incident(s):
+- 31 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -72,9 +72,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
-  - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21 · _refund subscription_
+  - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
+  - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [open] · 2026-08-26 · _refund_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -126,15 +127,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 244
-- **solved**: 130
-- **pending**: 49
-- **open**: 10
+- **solved**: 131
+- **pending**: 47
+- **open**: 11
 - **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 216
-- **Thundermail**: 181
+- **Account Hub**: 217
+- **Thundermail**: 180
 - **Send**: 16
 - **Appointment**: 16
 
@@ -144,7 +145,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 103
 - **blocked** + **explained**: 70
-- **change request** + **actioned**: 54
+- **change request** + **actioned**: 55
 - **request** + **redirected**: 30
 - **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 20
@@ -154,10 +155,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 6
 - **blocked** + **actioned**: 6
 - **curious** + **informed**: 5
+- **concerned** + **—**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **blocked** + **informed**: 3
-- **concerned** + **—**: 3
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
@@ -187,8 +188,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Refund / Cancel — 3 tickets
+### Refund / Cancel — 4 tickets
 
+- **[#7997](https://tbpro.zendesk.com/agent/tickets/7997)** · refund — why: **change request** · how: **actioned**
+  > Hello, I subscribed to the Thundermail Pro annual plan on 25 August 2026 and I would like to request a full refund under your 14-day refund policy. Account email: [email] Invoice…
 - **[#7981](https://tbpro.zendesk.com/agent/tickets/7981)** · Delete account and refund — why: **change request** · how: **actioned**
   > Delete thundermail account and refund please
 - **[#7972](https://tbpro.zendesk.com/agent/tickets/7972)** · Refund — why: **change request** · how: **actioned**
@@ -210,11 +213,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
   > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#7997](https://tbpro.zendesk.com/agent/tickets/7997)** · refund
-  > Hello, I subscribed to the Thundermail Pro annual plan on 25 August 2026 and I would like to request a full refund under your 14-day refund policy. Account email: [email] Invoice…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7989](https://tbpro.zendesk.com/agent/tickets/7989)** · Cancel this account during the trial period
@@ -232,7 +230,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### App setup / configuration — 1 tickets
 
-- **[#7962](https://tbpro.zendesk.com/agent/tickets/7962)** · Error encountered in Send feature
+- **[#7962](https://tbpro.zendesk.com/agent/tickets/7962)** · Error encountered in Send feature — why: **concerned**
   > Was testing the Send feature and encountered a rather strange error when trying to download the attached file from within my browser: 1. Attached file via Send to a PGP encrypted…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
@@ -297,6 +295,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7843](https://tbpro.zendesk.com/agent/tickets/7843) · 2026-08-26T16:01 · Refund request
 - · [7842](https://tbpro.zendesk.com/agent/tickets/7842) · 2026-08-26T16:01 · Can't login
 - · [7919](https://tbpro.zendesk.com/agent/tickets/7919) · 2026-08-26T17:33 · Install failure code 0xc1f30001
+- · [7851](https://tbpro.zendesk.com/agent/tickets/7851) · 2026-08-26T19:02 · refund subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
