@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 19:16 ET** · refreshes hourly_  
+_Updated: **2026-08-25 20:24 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 65** of rollout — **6,500 invitees**, **426 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 65** of rollout — **6,500 invitees**, **427 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **9** solved in last 24h
-- **426** tickets total since launch · contact rate **7%** of 6500 invitees
+- **427** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 80
@@ -102,10 +102,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · _Refund _
   > Hello, I am writing to request a refund for my recent purchase. At the moment, I do not feel the product is worth the $72 price tag. Additionally, is there any way to leave my account dormant so I can eventually come…
+- [7968](https://tbpro.zendesk.com/agent/tickets/7968) · [new] · _Refund_
+  > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
 ## New ideas on FeatureOS
 
@@ -123,11 +125,11 @@ _No negative ratings since launch._
 - **pending**: 37
 - **open**: 11
 - **hold**: 7
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 208
+- **Account Hub**: 209
 - **Thundermail**: 176
 - **Send**: 16
 - **Appointment**: 16
