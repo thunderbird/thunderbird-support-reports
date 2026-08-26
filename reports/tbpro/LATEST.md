@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 01:18 ET** · refreshes hourly_  
+_Updated: **2026-08-26 02:19 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **431 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **432 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **4** solved in last 24h
-- **431** tickets total since launch · contact rate **7%** of 6500 invitees
+- **10** new tickets in last 24h · **4** solved in last 24h
+- **432** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
@@ -120,14 +120,14 @@ _No negative ratings since launch._
 - **closed**: 237
 - **solved**: 135
 - **pending**: 36
-- **open**: 15
+- **open**: 16
 - **hold**: 7
 - **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 209
-- **Thundermail**: 180
+- **Thundermail**: 181
 - **Send**: 16
 - **Appointment**: 16
 
@@ -194,6 +194,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
   > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
+### Other / uncategorized — 1 tickets
+
+- **[#7976](https://tbpro.zendesk.com/agent/tickets/7976)** · $ vs €
+  > Why charge €72,- price is $72,- which should be €62,-
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#7972](https://tbpro.zendesk.com/agent/tickets/7972)** · Refund
@@ -229,7 +234,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7969](https://tbpro.zendesk.com/agent/tickets/7969) · [solved] · 2026-08-26T00:27 · Interview Request - Privacy Guides
 - [7971](https://tbpro.zendesk.com/agent/tickets/7971) · [open] · 2026-08-26T01:13 · paid now?
 - [7972](https://tbpro.zendesk.com/agent/tickets/7972) · [open] · 2026-08-26T04:41 · Refund
-- [7973](https://tbpro.zendesk.com/agent/tickets/7973) · [new] · 2026-08-26T05:05 · 1 month free trial
+- [7973](https://tbpro.zendesk.com/agent/tickets/7973) · [open] · 2026-08-26T05:05 · 1 month free trial
+- [7976](https://tbpro.zendesk.com/agent/tickets/7976) · [new] · 2026-08-26T06:17 · $ vs €
 
 ## Solved — last 24h
 
