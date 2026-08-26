@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 09:31 ET** · refreshes hourly_  
+_Updated: **2026-08-26 10:23 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 3 is **day 66** of rollout — **6,500 invitees**, **440 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 149.0h · mean 206.7h (proxy: updated_at − created_at, 133 solved tickets)
+- **Median AHT**: 149.0h · mean 206.3h (proxy: updated_at − created_at, 131 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"sent received"** — 2 tickets in 24h (new; baseline 0 cum) — [#7983](https://tbpro.zendesk.com/agent/tickets/7983), [#7985](https://tbpro.zendesk.com/agent/tickets/7985)
+- **"alias basil"** — 2 tickets in 24h (new; baseline 0 cum) — [#7983](https://tbpro.zendesk.com/agent/tickets/7983), [#7985](https://tbpro.zendesk.com/agent/tickets/7985)
 - **"someone team"** — 2 tickets in 24h (new; baseline 0 cum) — [#7969](https://tbpro.zendesk.com/agent/tickets/7969), [#7983](https://tbpro.zendesk.com/agent/tickets/7983)
 - **"after creating"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7966](https://tbpro.zendesk.com/agent/tickets/7966), [#7983](https://tbpro.zendesk.com/agent/tickets/7983)
 - **"free trial"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7971](https://tbpro.zendesk.com/agent/tickets/7971), [#7973](https://tbpro.zendesk.com/agent/tickets/7973)
@@ -66,7 +66,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [hold] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -125,11 +125,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 239
-- **solved**: 133
+- **solved**: 131
 - **pending**: 35
-- **open**: 21
-- **hold**: 7
-- **new**: 5
+- **open**: 23
+- **hold**: 8
+- **new**: 4
 
 ## Service (cumulative)
 
@@ -276,7 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7971](https://tbpro.zendesk.com/agent/tickets/7971) · [open] · 2026-08-26T01:13 · paid now?
 - [7972](https://tbpro.zendesk.com/agent/tickets/7972) · [open] · 2026-08-26T04:41 · Refund
 - [7973](https://tbpro.zendesk.com/agent/tickets/7973) · [open] · 2026-08-26T05:05 · 1 month free trial
-- [7976](https://tbpro.zendesk.com/agent/tickets/7976) · [new] · 2026-08-26T06:17 · $ vs €
+- [7976](https://tbpro.zendesk.com/agent/tickets/7976) · [open] · 2026-08-26T06:17 · $ vs €
 - [7977](https://tbpro.zendesk.com/agent/tickets/7977) · [open] · 2026-08-26T07:03 · Multiple calendars
 - [7978](https://tbpro.zendesk.com/agent/tickets/7978) · [open] · 2026-08-26T07:13 · JMAP
 - [7981](https://tbpro.zendesk.com/agent/tickets/7981) · [new] · 2026-08-26T09:36 · Delete account and refund
