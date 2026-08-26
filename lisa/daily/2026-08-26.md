@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 15:45 ET** · refreshes hourly_  
+_Updated: **2026-08-26 16:58 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **440 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **441 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **18** new tickets in last 24h · **10** solved in last 24h
-- **440** tickets total since launch · contact rate **7%** of 6500 invitees
+- **441** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (6 good / 0 bad)
+- **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 146.9h · mean 207.0h (proxy: updated_at − created_at, 131 solved tickets)
+- **Median AHT**: 148.0h · mean 207.9h (proxy: updated_at − created_at, 130 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -126,16 +126,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 244
-- **solved**: 131
-- **pending**: 47
-- **open**: 11
-- **hold**: 7
+- **closed**: 245
+- **solved**: 130
+- **pending**: 49
+- **open**: 9
+- **hold**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 217
-- **Thundermail**: 180
+- **Thundermail**: 181
 - **Send**: 16
 - **Appointment**: 16
 
@@ -146,11 +146,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 103
 - **blocked** + **explained**: 70
 - **change request** + **actioned**: 55
-- **request** + **redirected**: 30
+- **request** + **redirected**: 31
 - **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 20
 - **confused** + **explained**: 16
-- **concerned** + **explained**: 12
+- **concerned** + **explained**: 13
 - **blocked** + **redirected**: 7
 - **confused** + **informed**: 6
 - **blocked** + **actioned**: 6
@@ -168,6 +168,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
+- **concerned** + **escalated**: 1
 - **concerned** + **informed**: 1
 - **request** + **escalated**: 1
 - **other** + **informed**: 1
@@ -218,20 +219,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7989](https://tbpro.zendesk.com/agent/tickets/7989)** · Cancel this account during the trial period
   > Please cancel this account '[email]' during the seven-day trial period and pay back 72 EUR
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7987](https://tbpro.zendesk.com/agent/tickets/7987)** · Second User
-  > Hello [name], Thank you for all the work. Things seem to be working well. Is there a way to add a second user? I'd like to add my wife to my domain (e.g. [email]), where she can…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#7985](https://tbpro.zendesk.com/agent/tickets/7985)** · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias.
-  > Hi. I have [email] and [email] I can see some test emails sent by someones gmail to this email, AND in the sent folder i can see that someone has used my alias to send an email as…
-
 ### App setup / configuration — 1 tickets
 
 - **[#7962](https://tbpro.zendesk.com/agent/tickets/7962)** · Error encountered in Send feature — why: **concerned**
   > Was testing the Send feature and encountered a rather strange error when trying to download the attached file from within my browser: 1. Attached file via Send to a PGP encrypted…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7987](https://tbpro.zendesk.com/agent/tickets/7987)** · Second User — why: **request** · how: **redirected**
+  > Hello [name], Thank you for all the work. Things seem to be working well. Is there a way to add a second user? I'd like to add my wife to my domain (e.g. [email]), where she can…
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#7985](https://tbpro.zendesk.com/agent/tickets/7985)** · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias. — why: **concerned** · how: **escalated**
+  > Hi. I have [email] and [email] I can see some test emails sent by someones gmail to this email, AND in the sent folder i can see that someone has used my alias to send an email as…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
@@ -278,8 +279,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7977](https://tbpro.zendesk.com/agent/tickets/7977) · [pending] · 2026-08-26T07:03 · Multiple calendars
 - [7978](https://tbpro.zendesk.com/agent/tickets/7978) · [pending] · 2026-08-26T07:13 · JMAP
 - [7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26T09:36 · Delete account and refund
-- [7985](https://tbpro.zendesk.com/agent/tickets/7985) · [open] · 2026-08-26T11:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
-- [7987](https://tbpro.zendesk.com/agent/tickets/7987) · [open] · 2026-08-26T12:38 · Second User
+- [7985](https://tbpro.zendesk.com/agent/tickets/7985) · [hold] · 2026-08-26T11:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
+- [7987](https://tbpro.zendesk.com/agent/tickets/7987) · [pending] · 2026-08-26T12:38 · Second User
 - [7988](https://tbpro.zendesk.com/agent/tickets/7988) · [open] · 2026-08-26T12:52 · Spam messages
 - [7989](https://tbpro.zendesk.com/agent/tickets/7989) · [open] · 2026-08-26T13:16 · Cancel this account during the trial period
 - [7997](https://tbpro.zendesk.com/agent/tickets/7997) · [open] · 2026-08-26T18:04 · refund
