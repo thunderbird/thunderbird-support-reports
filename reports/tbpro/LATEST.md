@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 12:34 ET** · refreshes hourly_  
+_Updated: **2026-08-26 14:02 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 66** of rollout — **6,500 invitees**, **440 tickets** so far
 
 ## At a glance
 
-- **18** new tickets in last 24h · **8** solved in last 24h
+- **18** new tickets in last 24h · **9** solved in last 24h
 - **440** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (7 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 148.0h · mean 207.7h (proxy: updated_at − created_at, 132 solved tickets)
+- **Median AHT**: 149.0h · mean 207.7h (proxy: updated_at − created_at, 131 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -124,18 +124,18 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 241
-- **solved**: 132
-- **pending**: 41
-- **open**: 18
+- **closed**: 243
+- **solved**: 131
+- **pending**: 44
+- **open**: 14
 - **hold**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 216
-- **Thundermail**: 180
-- **Appointment**: 17
+- **Thundermail**: 181
 - **Send**: 16
+- **Appointment**: 16
 
 ## Why × How (cumulative)
 
@@ -150,10 +150,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 16
 - **concerned** + **explained**: 12
 - **blocked** + **redirected**: 7
+- **confused** + **informed**: 6
 - **blocked** + **actioned**: 6
 - **request** + **actioned**: 5
 - **curious** + **informed**: 5
-- **confused** + **informed**: 4
 - **blocked** + **—**: 4
 - **blocked** + **informed**: 3
 - **concerned** + **—**: 3
@@ -231,12 +231,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
-- **[#7978](https://tbpro.zendesk.com/agent/tickets/7978)** · JMAP
+- **[#7978](https://tbpro.zendesk.com/agent/tickets/7978)** · JMAP — why: **confused** · how: **informed**
   > Hi, Is there a reason to use JMAP to connect to Thundermail from Thunderbird (I find the IMAP a bit slow, and when copying multiple mails it often disconnects and I have to…
 
 ### Appointment / calendar — 1 tickets
 
-- **[#7977](https://tbpro.zendesk.com/agent/tickets/7977)** · Multiple calendars
+- **[#7977](https://tbpro.zendesk.com/agent/tickets/7977)** · Multiple calendars — why: **confused** · how: **informed**
   > Hi, How do I set up multiple calendars on my Thundermail account? I don't mean how to link to other calendar sources. Thanks!
 
 ### App setup / configuration — 1 tickets
@@ -295,6 +295,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-26T15:34 · payment issues
 - · [7843](https://tbpro.zendesk.com/agent/tickets/7843) · 2026-08-26T16:01 · Refund request
 - · [7842](https://tbpro.zendesk.com/agent/tickets/7842) · 2026-08-26T16:01 · Can't login
+- · [7919](https://tbpro.zendesk.com/agent/tickets/7919) · 2026-08-26T17:33 · Install failure code 0xc1f30001
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
