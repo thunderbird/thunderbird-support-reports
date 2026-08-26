@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-25
 
-_Updated: **2026-08-25 21:43 ET** · refreshes hourly_  
+_Updated: **2026-08-25 22:38 ET** · refreshes hourly_  
 _24h window: 2026-08-24T16:00 → 2026-08-25T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 65** of rollout — **6,500 invitees**, **429 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 81
-- **Median AHT**: 148.4h · mean 205.8h (proxy: updated_at − created_at, 136 solved tickets)
+- **Median AHT**: 147.8h · mean 204.6h (proxy: updated_at − created_at, 137 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -73,7 +73,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [pending] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [pending] · 2026-08-21 · _refund subscription_
-  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24 · _What is my use name?_
+  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -121,9 +121,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 235
-- **solved**: 136
+- **solved**: 137
 - **pending**: 37
-- **open**: 14
+- **open**: 13
 - **hold**: 7
 
 ## Service (cumulative)
