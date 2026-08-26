@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 16:58 ET** · refreshes hourly_  
+_Updated: **2026-08-26 18:06 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **441 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **442 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **18** new tickets in last 24h · **10** solved in last 24h
-- **441** tickets total since launch · contact rate **7%** of 6500 invitees
+- **442** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
@@ -64,7 +64,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [hold] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -128,13 +128,13 @@ _No negative ratings since launch._
 
 - **closed**: 245
 - **solved**: 130
-- **pending**: 49
-- **open**: 9
+- **pending**: 52
 - **hold**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 217
+- **Account Hub**: 218
 - **Thundermail**: 181
 - **Send**: 16
 - **Appointment**: 16
@@ -162,6 +162,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
+- **change request** + **explained**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
 - **telling us** + **n/a**: 2
@@ -175,7 +176,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **—**: 1
 - **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
-- **change request** + **explained**: 1
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
 - **change request** + **redirected**: 1
@@ -200,12 +200,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7971](https://tbpro.zendesk.com/agent/tickets/7971)** · paid now? — why: **change request** · how: **actioned**
   > I'm a 10+ year fastmail user, fastmail provides 600 mail alias and as many as you want for you custmon domain, and jmap support. alas 30 free trial for new user, paid below $5 for…
 
-### Other / uncategorized — 2 tickets
+### Pricing — general pricing concern — 2 tickets
 
-- **[#7988](https://tbpro.zendesk.com/agent/tickets/7988)** · Spam messages
-  > I keep getting messages from senders I've marked as Spam. What's the use of marking these senders as Spam if I keep getting their messages in my Inbox???? I've brought this up…
-- **[#7976](https://tbpro.zendesk.com/agent/tickets/7976)** · $ vs €
+- **[#7976](https://tbpro.zendesk.com/agent/tickets/7976)** · $ vs € — why: **change request** · how: **explained**
   > Why charge €72,- price is $72,- which should be €62,-
+- **[#7973](https://tbpro.zendesk.com/agent/tickets/7973)** · 1 month free trial — why: **curious** · how: **explained**
+  > Hello, I would like to requeste 1 month free trial before commit to a annual subscription, since there is no option for a monthy subscription
 
 ### Request or complaint — 2 tickets
 
@@ -219,20 +219,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7989](https://tbpro.zendesk.com/agent/tickets/7989)** · Cancel this account during the trial period
   > Please cancel this account '[email]' during the seven-day trial period and pay back 72 EUR
 
-### App setup / configuration — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#7962](https://tbpro.zendesk.com/agent/tickets/7962)** · Error encountered in Send feature — why: **concerned**
-  > Was testing the Send feature and encountered a rather strange error when trying to download the attached file from within my browser: 1. Attached file via Send to a PGP encrypted…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#7987](https://tbpro.zendesk.com/agent/tickets/7987)** · Second User — why: **request** · how: **redirected**
-  > Hello [name], Thank you for all the work. Things seem to be working well. Is there a way to add a second user? I'd like to add my wife to my domain (e.g. [email]), where she can…
+- **[#7988](https://tbpro.zendesk.com/agent/tickets/7988)** · Spam messages
+  > I keep getting messages from senders I've marked as Spam. What's the use of marking these senders as Spam if I keep getting their messages in my Inbox???? I've brought this up…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#7985](https://tbpro.zendesk.com/agent/tickets/7985)** · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias. — why: **concerned** · how: **escalated**
   > Hi. I have [email] and [email] I can see some test emails sent by someones gmail to this email, AND in the sent folder i can see that someone has used my alias to send an email as…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#7987](https://tbpro.zendesk.com/agent/tickets/7987)** · Second User — why: **request** · how: **redirected**
+  > Hello [name], Thank you for all the work. Things seem to be working well. Is there a way to add a second user? I'd like to add my wife to my domain (e.g. [email]), where she can…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
@@ -244,11 +244,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7977](https://tbpro.zendesk.com/agent/tickets/7977)** · Multiple calendars — why: **confused** · how: **informed**
   > Hi, How do I set up multiple calendars on my Thundermail account? I don't mean how to link to other calendar sources. Thanks!
 
-### Pricing — general pricing concern — 1 tickets
-
-- **[#7973](https://tbpro.zendesk.com/agent/tickets/7973)** · 1 month free trial — why: **curious** · how: **explained**
-  > Hello, I would like to requeste 1 month free trial before commit to a annual subscription, since there is no option for a monthy subscription
-
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#7966](https://tbpro.zendesk.com/agent/tickets/7966)** · Therms and Conditions — why: **curious** · how: **explained**
@@ -259,6 +254,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7963](https://tbpro.zendesk.com/agent/tickets/7963)** · [domain] question — why: **curious** · how: **explained**
   > When I signed up for my account I was not provided with the option to select an email address @[domain], if I pay for the service will my email address allow mail to go to…
 
+### App setup / configuration — 1 tickets
+
+- **[#7962](https://tbpro.zendesk.com/agent/tickets/7962)** · Error encountered in Send feature — why: **concerned**
+  > Was testing the Send feature and encountered a rather strange error when trying to download the attached file from within my browser: 1. Attached file via Send to a PGP encrypted…
+
 ### Early bird signup — 1 tickets
 
 - **[#7960](https://tbpro.zendesk.com/agent/tickets/7960)** · Questions about Thundermail Early Bird Access — why: **curious** · how: **explained**
@@ -267,7 +267,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [7960](https://tbpro.zendesk.com/agent/tickets/7960) · [pending] · 2026-08-25T20:18 · Questions about Thundermail Early Bird Access
-- [7962](https://tbpro.zendesk.com/agent/tickets/7962) · [open] · 2026-08-25T21:13 · Error encountered in Send feature
+- [7962](https://tbpro.zendesk.com/agent/tickets/7962) · [pending] · 2026-08-25T21:13 · Error encountered in Send feature
 - [7963](https://tbpro.zendesk.com/agent/tickets/7963) · [pending] · 2026-08-25T21:24 · [domain] question
 - [7966](https://tbpro.zendesk.com/agent/tickets/7966) · [pending] · 2026-08-25T22:08 · Therms and Conditions
 - [7968](https://tbpro.zendesk.com/agent/tickets/7968) · [pending] · 2026-08-25T23:24 · Refund
@@ -275,11 +275,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7971](https://tbpro.zendesk.com/agent/tickets/7971) · [pending] · 2026-08-26T01:13 · paid now?
 - [7972](https://tbpro.zendesk.com/agent/tickets/7972) · [pending] · 2026-08-26T04:41 · Refund
 - [7973](https://tbpro.zendesk.com/agent/tickets/7973) · [pending] · 2026-08-26T05:05 · 1 month free trial
-- [7976](https://tbpro.zendesk.com/agent/tickets/7976) · [open] · 2026-08-26T06:17 · $ vs €
+- [7976](https://tbpro.zendesk.com/agent/tickets/7976) · [pending] · 2026-08-26T06:17 · $ vs €
 - [7977](https://tbpro.zendesk.com/agent/tickets/7977) · [pending] · 2026-08-26T07:03 · Multiple calendars
 - [7978](https://tbpro.zendesk.com/agent/tickets/7978) · [pending] · 2026-08-26T07:13 · JMAP
 - [7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26T09:36 · Delete account and refund
-- [7985](https://tbpro.zendesk.com/agent/tickets/7985) · [hold] · 2026-08-26T11:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
+- [7985](https://tbpro.zendesk.com/agent/tickets/7985) · [open] · 2026-08-26T11:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
 - [7987](https://tbpro.zendesk.com/agent/tickets/7987) · [pending] · 2026-08-26T12:38 · Second User
 - [7988](https://tbpro.zendesk.com/agent/tickets/7988) · [open] · 2026-08-26T12:52 · Spam messages
 - [7989](https://tbpro.zendesk.com/agent/tickets/7989) · [open] · 2026-08-26T13:16 · Cancel this account during the trial period
