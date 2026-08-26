@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 00:23 ET** · refreshes hourly_  
+_Updated: **2026-08-26 01:18 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **429 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **431 tickets** so far (6.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **4** solved in last 24h
-- **429** tickets total since launch · contact rate **7%** of 6500 invitees
+- **9** new tickets in last 24h · **4** solved in last 24h
+- **431** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 81
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
 - **Median AHT**: 149.0h · mean 205.8h (proxy: updated_at − created_at, 135 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"free trial"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7971](https://tbpro.zendesk.com/agent/tickets/7971), [#7973](https://tbpro.zendesk.com/agent/tickets/7973)
 
 ## Known problems — 6 problem(s), 41 incident(s)
 
@@ -95,14 +101,17 @@ Flight 3 is **day 66** of rollout — **6,500 invitees**, **429 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [7972](https://tbpro.zendesk.com/agent/tickets/7972) · [open] · _Refund_
+  > Hey, sorry, I was so hyped to have a thundermail account that I instantly bought after receiving the invite. As I am living in Germany I want to support local business and will be staying with my current provider even…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Schedule delete for emails I receive (Thundermail Web)](https://ideas.tb.pro/p/schedule-delete-for-emails-i-receive-thundermail-web) · 1 votes · _untagged_
+  > What you’d like to seeI would like to have the option to schedule when emails are going to be deleted regardless of the folder they are located in. Something similar to what Proton is doing here: How…
 - [Multiple user accounts for custom domains](https://ideas.tb.pro/p/multiple-user-accounts-for-custom-domains) · 1 votes · _untagged_
   > For custom domains, it’s very constraining to force all email to share the same Inbox as the primary Thundermail account.I would like to propose allowing additional users to be set up under custom…
 
@@ -111,13 +120,14 @@ _(none in last 24h)_
 - **closed**: 237
 - **solved**: 135
 - **pending**: 36
-- **open**: 14
+- **open**: 15
 - **hold**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 209
-- **Thundermail**: 178
+- **Thundermail**: 180
 - **Send**: 16
 - **Appointment**: 16
 
@@ -170,6 +180,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Pricing / monthly plan / free tier — 2 tickets
+
+- **[#7973](https://tbpro.zendesk.com/agent/tickets/7973)** · 1 month free trial
+  > Hello, I would like to requeste 1 month free trial before commit to a annual subscription, since there is no option for a monthy subscription
+- **[#7971](https://tbpro.zendesk.com/agent/tickets/7971)** · paid now?
+  > I'm a 10+ year fastmail user, fastmail provides 600 mail alias and as many as you want for you custmon domain, and jmap support. alas 30 free trial for new user, paid below $5 for…
+
 ### Request or complaint — 2 tickets
 
 - **[#7969](https://tbpro.zendesk.com/agent/tickets/7969)** · Interview Request - Privacy Guides — why: **request** · how: **redirected**
@@ -177,10 +194,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
   > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
-### Pricing / monthly plan / free tier — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#7971](https://tbpro.zendesk.com/agent/tickets/7971)** · paid now?
-  > I'm a 10+ year fastmail user, fastmail provides 600 mail alias and as many as you want for you custmon domain, and jmap support. alas 30 free trial for new user, paid below $5 for…
+- **[#7972](https://tbpro.zendesk.com/agent/tickets/7972)** · Refund
+  > Hey, sorry, I was so hyped to have a thundermail account that I instantly bought after receiving the invite. As I am living in Germany I want to support local business and will be…
 
 ### Account access issues — 1 tickets
 
@@ -211,6 +228,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7968](https://tbpro.zendesk.com/agent/tickets/7968) · [pending] · 2026-08-25T23:24 · Refund
 - [7969](https://tbpro.zendesk.com/agent/tickets/7969) · [solved] · 2026-08-26T00:27 · Interview Request - Privacy Guides
 - [7971](https://tbpro.zendesk.com/agent/tickets/7971) · [open] · 2026-08-26T01:13 · paid now?
+- [7972](https://tbpro.zendesk.com/agent/tickets/7972) · [open] · 2026-08-26T04:41 · Refund
+- [7973](https://tbpro.zendesk.com/agent/tickets/7973) · [new] · 2026-08-26T05:05 · 1 month free trial
 
 ## Solved — last 24h
 
