@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 06:19 ET** · refreshes hourly_  
+_Updated: **2026-08-26 07:17 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **435 tickets** so far (6.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **437 tickets** so far (6.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **4** solved in last 24h
-- **435** tickets total since launch · contact rate **7%** of 6500 invitees
+- **15** new tickets in last 24h · **4** solved in last 24h
+- **437** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (9 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
@@ -20,6 +20,9 @@ Flight 3 is **day 66** of rollout — **6,500 invitees**, **435 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"sent received"** — 2 tickets in 24h (new; baseline 0 cum) — [#7983](https://tbpro.zendesk.com/agent/tickets/7983), [#7985](https://tbpro.zendesk.com/agent/tickets/7985)
+- **"someone team"** — 2 tickets in 24h (new; baseline 0 cum) — [#7969](https://tbpro.zendesk.com/agent/tickets/7969), [#7983](https://tbpro.zendesk.com/agent/tickets/7983)
+- **"after creating"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7966](https://tbpro.zendesk.com/agent/tickets/7966), [#7983](https://tbpro.zendesk.com/agent/tickets/7983)
 - **"free trial"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7971](https://tbpro.zendesk.com/agent/tickets/7971), [#7973](https://tbpro.zendesk.com/agent/tickets/7973)
 
 ## Known problems — 6 problem(s), 41 incident(s)
@@ -124,12 +127,12 @@ _No negative ratings since launch._
 - **pending**: 35
 - **open**: 17
 - **hold**: 7
-- **new**: 4
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 210
-- **Thundermail**: 182
+- **Thundermail**: 184
 - **Appointment**: 17
 - **Send**: 16
 
@@ -196,6 +199,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#7968](https://tbpro.zendesk.com/agent/tickets/7968)** · Refund — why: **request** · how: **redirected**
   > Hello. I would like to receive a refund. After activation, I understand there is not an iOS application for access beyond the default Mail application.
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#7985](https://tbpro.zendesk.com/agent/tickets/7985)** · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias.
+  > Hi. I have [email] and [email] I can see some test emails sent by someones gmail to this email, AND in the sent folder i can see that someone has used my alias to send an email as…
+
+### Aliases — 1 tickets
+
+- **[#7983](https://tbpro.zendesk.com/agent/tickets/7983)** · Weird email with russian looking charachters sent to me
+  > Hi, I received this odd email with Russian looking characters shortly after creating my account. Is this an internal test or something from someone in the thunderbird team? Or has…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#7981](https://tbpro.zendesk.com/agent/tickets/7981)** · Delete account and refund
@@ -256,6 +269,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [7977](https://tbpro.zendesk.com/agent/tickets/7977) · [new] · 2026-08-26T07:03 · Multiple calendars
 - [7978](https://tbpro.zendesk.com/agent/tickets/7978) · [new] · 2026-08-26T07:13 · JMAP
 - [7981](https://tbpro.zendesk.com/agent/tickets/7981) · [new] · 2026-08-26T09:36 · Delete account and refund
+- [7983](https://tbpro.zendesk.com/agent/tickets/7983) · [new] · 2026-08-26T10:39 · Weird email with russian looking charachters sent to me
+- [7985](https://tbpro.zendesk.com/agent/tickets/7985) · [new] · 2026-08-26T11:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
 
 ## Solved — last 24h
 
