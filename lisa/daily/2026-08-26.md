@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 19:18 ET** · refreshes hourly_  
+_Updated: **2026-08-26 21:57 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **443 tickets** so far (6.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **446 tickets** so far (6.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **10** solved in last 24h
-- **443** tickets total since launch · contact rate **7%** of 6500 invitees
+- **18** new tickets in last 24h · **9** solved in last 24h
+- **446** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 148.0h · mean 207.9h (proxy: updated_at − created_at, 130 solved tickets)
+- **Median AHT**: 149.0h · mean 209.7h (proxy: updated_at − created_at, 128 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"free trial"** — 2 tickets in 24h (130.0× baseline; baseline 1 cum) — [#7971](https://tbpro.zendesk.com/agent/tickets/7971), [#7973](https://tbpro.zendesk.com/agent/tickets/7973)
+- **"free trial"** — 2 tickets in 24h (65.0× baseline; baseline 2 cum) — [#7971](https://tbpro.zendesk.com/agent/tickets/7971), [#7973](https://tbpro.zendesk.com/agent/tickets/7973)
 - **"annual plan"** — 2 tickets in 24h (32.5× baseline; baseline 4 cum) — [#7960](https://tbpro.zendesk.com/agent/tickets/7960), [#7997](https://tbpro.zendesk.com/agent/tickets/7997)
 
 ## Known problems — 6 problem(s), 43 incident(s)
@@ -126,16 +126,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 245
-- **solved**: 130
+- **closed**: 246
+- **solved**: 128
 - **pending**: 56
+- **open**: 8
 - **hold**: 8
-- **open**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 219
-- **Thundermail**: 182
+- **Thundermail**: 185
 - **Send**: 16
 - **Appointment**: 16
 
@@ -292,7 +292,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-26T15:34 · payment issues
 - · [7843](https://tbpro.zendesk.com/agent/tickets/7843) · 2026-08-26T16:01 · Refund request
 - · [7842](https://tbpro.zendesk.com/agent/tickets/7842) · 2026-08-26T16:01 · Can't login
-- · [7919](https://tbpro.zendesk.com/agent/tickets/7919) · 2026-08-26T17:33 · Install failure code 0xc1f30001
 - · [7851](https://tbpro.zendesk.com/agent/tickets/7851) · 2026-08-26T19:02 · refund subscription
 
 ---
