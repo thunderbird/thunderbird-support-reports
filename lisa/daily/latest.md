@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-26
 
-_Updated: **2026-08-26 21:57 ET** · refreshes hourly_  
+_Updated: **2026-08-26 23:57 ET** · refreshes hourly_  
 _24h window: 2026-08-25T16:00 → 2026-08-26T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 66** of rollout — **6,500 invitees**, **446 tickets** so far (6.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 66** of rollout — **6,500 invitees**, **449 tickets** so far (6.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **9** solved in last 24h
-- **446** tickets total since launch · contact rate **7%** of 6500 invitees
+- **18** new tickets in last 24h · **7** solved in last 24h
+- **449** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 149.0h · mean 209.7h (proxy: updated_at − created_at, 128 solved tickets)
+- **Median AHT**: 149.0h · mean 211.3h (proxy: updated_at − created_at, 127 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -73,7 +73,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
-  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
+  - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24 · _What is my use name?_
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [open] · 2026-08-26 · _refund_
 
@@ -127,14 +127,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 246
-- **solved**: 128
-- **pending**: 56
-- **open**: 8
+- **solved**: 127
+- **pending**: 55
+- **open**: 11
 - **hold**: 8
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 219
+- **Account Hub**: 222
 - **Thundermail**: 185
 - **Send**: 16
 - **Appointment**: 16
@@ -286,8 +287,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7796](https://tbpro.zendesk.com/agent/tickets/7796) · 2026-08-25T21:02 · Request a refund
 - · [7772](https://tbpro.zendesk.com/agent/tickets/7772) · 2026-08-25T23:01 · Send, no "back/home" button on page "print encryption key"
-- · [7969](https://tbpro.zendesk.com/agent/tickets/7969) · 2026-08-26T01:23 · Interview Request - Privacy Guides
-- · [7920](https://tbpro.zendesk.com/agent/tickets/7920) · 2026-08-26T02:27 · What is my use name?
 - · [7921](https://tbpro.zendesk.com/agent/tickets/7921) · 2026-08-26T15:02 · RE: You're Invited: Thundermail Early Bird Access
 - · [7608](https://tbpro.zendesk.com/agent/tickets/7608) · 2026-08-26T15:34 · payment issues
 - · [7843](https://tbpro.zendesk.com/agent/tickets/7843) · 2026-08-26T16:01 · Refund request
