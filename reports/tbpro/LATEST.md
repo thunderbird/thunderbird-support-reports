@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-27
 
-_Updated: **2026-08-27 02:17 ET** · refreshes hourly_  
+_Updated: **2026-08-27 06:26 ET** · refreshes hourly_  
 _24h window: 2026-08-26T16:00 → 2026-08-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 67** of rollout — **6,500 invitees**, **450 tickets** so far
 - **450** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 82
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 83
 - **Median AHT**: 149.4h · mean 212.4h (proxy: updated_at − created_at, 126 solved tickets)
 
 ## Known problems — 6 problem(s), 43 incident(s)
@@ -103,16 +103,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [DIGITAL LEGACY](https://ideas.tb.pro/p/digital-legacy) · 1 votes · _untagged_
+  > What you’d like to seeA setting that allows one or more people to take charge of your email after a period of no access.Why it mattersEnsuring that someone you trust can access your files in the…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 247
 - **solved**: 126
-- **pending**: 53
-- **open**: 14
+- **pending**: 51
+- **open**: 16
 - **hold**: 7
 - **new**: 3
 
@@ -120,8 +121,8 @@ _(none in last 24h)_
 
 - **Account Hub**: 223
 - **Thundermail**: 185
-- **Send**: 16
 - **Appointment**: 16
+- **Send**: 16
 
 ## Why × How (cumulative)
 
