@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-27
 
-_Updated: **2026-08-27 06:26 ET** · refreshes hourly_  
+_Updated: **2026-08-27 10:48 ET** · refreshes hourly_  
 _24h window: 2026-08-26T16:00 → 2026-08-27T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 67** of rollout — **6,500 invitees**, **450 tickets** so far (6.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 67** of rollout — **6,500 invitees**, **452 tickets** so far (7.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **1** solved in last 24h
-- **450** tickets total since launch · contact rate **7%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **12** new tickets in last 24h · **4** solved in last 24h
+- **452** tickets total since launch · contact rate **7%** of 6500 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 83
-- **Median AHT**: 149.4h · mean 212.4h (proxy: updated_at − created_at, 126 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 84
+- **Median AHT**: 149.7h · mean 211.9h (proxy: updated_at − created_at, 127 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domain"** — 2 tickets in 24h (3.1× baseline; baseline 42 cum) — [#8004](https://tbpro.zendesk.com/agent/tickets/8004), [#8019](https://tbpro.zendesk.com/agent/tickets/8019)
 
 ## Known problems — 6 problem(s), 43 incident(s)
 
@@ -68,7 +74,7 @@ Flight 3 is **day 67** of rollout — **6,500 invitees**, **450 tickets** so far
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [open] · 2026-08-24 · _What is my use name?_
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
-  - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [open] · 2026-08-26 · _refund_
+  - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -86,7 +92,7 @@ Flight 3 is **day 67** of rollout — **6,500 invitees**, **450 tickets** so far
 
 - ✅ [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
 - 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
-- 🔧 [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
+- ✅ [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
 - ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
 - ✅ [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
 - ✅ [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
@@ -103,24 +109,26 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Permission-based inbox: approve senders before they can reach you](https://ideas.tb.pro/p/permission-based-inbox-approve-senders-before-they-can-reach-you) · 1 votes · _untagged_
+  > Today every email service protects the content of messages. None of them protects the inbox itself. Anyone who learns my address can put something in front of me, and all I get is a spam filter…
 - [DIGITAL LEGACY](https://ideas.tb.pro/p/digital-legacy) · 1 votes · _untagged_
   > What you’d like to seeA setting that allows one or more people to take charge of your email after a period of no access.Why it mattersEnsuring that someone you trust can access your files in the…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 247
-- **solved**: 126
-- **pending**: 51
-- **open**: 16
+- **closed**: 248
+- **solved**: 127
+- **pending**: 49
+- **open**: 17
 - **hold**: 7
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 223
-- **Thundermail**: 185
+- **Thundermail**: 187
 - **Appointment**: 16
 - **Send**: 16
 
@@ -128,7 +136,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 104
+- **curious** + **explained**: 105
 - **blocked** + **explained**: 70
 - **change request** + **actioned**: 56
 - **request** + **redirected**: 31
@@ -147,8 +155,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 3
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
-- **change request** + **explained**: 2
 - **telling us** + **informed**: 2
+- **change request** + **explained**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **n/a**: 2
 - **curious** + **actioned**: 2
@@ -174,19 +182,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account creation / signup confusion — 2 tickets
+
+- **[#8018](https://tbpro.zendesk.com/agent/tickets/8018)** · Trying to give you my money, keep seeing an error message
+  > Hello there, I've been waiting for MOzzila's cloud client for ages, signed up to the waiting list, got invited, tried to pay but keep getting "We're experiencing connectivity…
+- **[#8010](https://tbpro.zendesk.com/agent/tickets/8010)** · Display name not carried through from sign up
+  > Hi [name] team! I included my display name (I think it was mandatory) during the sign-up process, but it hasn't been carried through to my account:…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#8012](https://tbpro.zendesk.com/agent/tickets/8012)** · company invoice and doubts of the service content
   > hello, we need more information. it is not clear if we can usa several email account, if the service has got tasks besides agenda, it is not clear if thunderbird app suports…
 - **[#8007](https://tbpro.zendesk.com/agent/tickets/8007)** · [domain] is a scam though?
   > The payment form disclosed that it was "processed by [domain]". Due diligence surfaced a remarkably poor 1.3/5 star rating at the BBB, and it is NOT an accredited business. It is…
-
-### Custom domain / DKIM / DNS — 2 tickets
-
-- **[#8009](https://tbpro.zendesk.com/agent/tickets/8009)** · DNS not working for swiftadvisoires on squarespace not working
-  > Please help check the DNS setting.
-- **[#8008](https://tbpro.zendesk.com/agent/tickets/8008)** · Dns record not working for squarespace
-  > Hi team , I have domain [domain] at squarespace . The dns records were added as per your specifications but when I verify it's says record not found . I have checked 3 times .
 
 ### Aliases — 2 tickets
 
@@ -195,10 +203,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8004](https://tbpro.zendesk.com/agent/tickets/8004)** · Can't add custom domain email with two character name.
   > I use many custom domain emails with a two character name portion ("me" in the following example): [email]. When I tried adding the email as an alias, the control panel states…
 
-### Account creation / signup confusion — 1 tickets
+### Waitlist / onboarding inquiry — 1 tickets
 
-- **[#8010](https://tbpro.zendesk.com/agent/tickets/8010)** · Display name not carried through from sign up
-  > Hi [name] team! I included my display name (I think it was mandatory) during the sign-up process, but it hasn't been carried through to my account:…
+- **[#8021](https://tbpro.zendesk.com/agent/tickets/8021)** · Re: [Thundermail] Re: Another account please — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #7127 "Another account please" Hello, I hear there have been more flights of invites, please can I have another account. Many thanks,…
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#8019](https://tbpro.zendesk.com/agent/tickets/8019)** · Aliases in JMAP
+  > Hello, using another email client via JMAP on Android (since Thunderbird doesn't support JMAP yet - https://[domain]/emon/sterna-mail/issues/172) it's now giving problem with…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8009](https://tbpro.zendesk.com/agent/tickets/8009)** · DNS not working for swiftadvisoires on squarespace not working
+  > Please help check the DNS setting.
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -223,14 +241,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8004](https://tbpro.zendesk.com/agent/tickets/8004) · [open] · 2026-08-27T00:24 · Can't add custom domain email with two character name.
 - [8005](https://tbpro.zendesk.com/agent/tickets/8005) · [open] · 2026-08-27T01:02 · Outbound email alias
 - [8007](https://tbpro.zendesk.com/agent/tickets/8007) · [open] · 2026-08-27T01:20 · [domain] is a scam though?
-- [8008](https://tbpro.zendesk.com/agent/tickets/8008) · [open] · 2026-08-27T02:29 · Dns record not working for squarespace
 - [8009](https://tbpro.zendesk.com/agent/tickets/8009) · [new] · 2026-08-27T03:42 · DNS not working for swiftadvisoires on squarespace not working
-- [8010](https://tbpro.zendesk.com/agent/tickets/8010) · [new] · 2026-08-27T03:51 · Display name not carried through from sign up
-- [8012](https://tbpro.zendesk.com/agent/tickets/8012) · [new] · 2026-08-27T06:06 · company invoice and doubts of the service content
+- [8010](https://tbpro.zendesk.com/agent/tickets/8010) · [open] · 2026-08-27T03:51 · Display name not carried through from sign up
+- [8012](https://tbpro.zendesk.com/agent/tickets/8012) · [open] · 2026-08-27T06:06 · company invoice and doubts of the service content
+- [8018](https://tbpro.zendesk.com/agent/tickets/8018) · [new] · 2026-08-27T11:56 · Trying to give you my money, keep seeing an error message
+- [8019](https://tbpro.zendesk.com/agent/tickets/8019) · [new] · 2026-08-27T12:46 · Aliases in JMAP
+- [8021](https://tbpro.zendesk.com/agent/tickets/8021) · [new] · 2026-08-27T13:26 · Re: [Thundermail] Re: Another account please
 
 ## Solved — last 24h
 
 - · [7969](https://tbpro.zendesk.com/agent/tickets/7969) · 2026-08-27T02:01 · Interview Request - Privacy Guides
+- 👍 [7759](https://tbpro.zendesk.com/agent/tickets/7759) · 2026-08-27T13:44 · Personnal domain doesnt receive mail
+- · [7997](https://tbpro.zendesk.com/agent/tickets/7997) · 2026-08-27T14:04 · refund
+- · [7976](https://tbpro.zendesk.com/agent/tickets/7976) · 2026-08-27T14:38 · $ vs €
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
