@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-28
 
-_Updated: **2026-08-28 08:03 ET** · refreshes hourly_  
+_Updated: **2026-08-28 12:21 ET** · refreshes hourly_  
 _24h window: 2026-08-27T16:00 → 2026-08-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 68** of rollout — **6,500 invitees**, **459 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 68** of rollout — **6,500 invitees**, **460 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **1** solved in last 24h
-- **459** tickets total since launch · contact rate **7%** of 6500 invitees
+- **5** new tickets in last 24h · **5** solved in last 24h
+- **460** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 85
-- **Median AHT**: 148.0h · mean 207.2h (proxy: updated_at − created_at, 132 solved tickets)
+- **Median AHT**: 149.0h · mean 209.9h (proxy: updated_at − created_at, 133 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -118,16 +118,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 248
-- **solved**: 132
-- **pending**: 55
+- **closed**: 249
+- **solved**: 133
+- **pending**: 53
 - **open**: 14
 - **hold**: 8
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 228
+- **Account Hub**: 229
 - **Thundermail**: 187
 - **Appointment**: 16
 - **Send**: 16
@@ -136,7 +136,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 108
+- **curious** + **explained**: 109
 - **blocked** + **explained**: 72
 - **change request** + **actioned**: 56
 - **request** + **redirected**: 32
@@ -182,6 +182,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8052](https://tbpro.zendesk.com/agent/tickets/8052)** · Re: [Thundermail] Re: European servers — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #7020 "European servers" Thanks for your reply Lisa and apologies for the delay in replying (I thought I had but it was sitting in…
+
 ### Aliases — 1 tickets
 
 - **[#8041](https://tbpro.zendesk.com/agent/tickets/8041)** · Thundermail custom domain setup process suggestion
@@ -208,10 +213,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8036](https://tbpro.zendesk.com/agent/tickets/8036) · [open] · 2026-08-27T22:35 · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
 - [8039](https://tbpro.zendesk.com/agent/tickets/8039) · [new] · 2026-08-27T23:40 · Refund
 - [8041](https://tbpro.zendesk.com/agent/tickets/8041) · [new] · 2026-08-28T00:35 · Thundermail custom domain setup process suggestion
+- [8052](https://tbpro.zendesk.com/agent/tickets/8052) · [new] · 2026-08-28T13:31 · Re: [Thundermail] Re: European servers
 
 ## Solved — last 24h
 
 - · [7934](https://tbpro.zendesk.com/agent/tickets/7934) · 2026-08-28T03:43 · Monthly Subscription 
+- · [7997](https://tbpro.zendesk.com/agent/tickets/7997) · 2026-08-28T15:02 · refund
+- · [7917](https://tbpro.zendesk.com/agent/tickets/7917) · 2026-08-28T15:02 · Cannot Login
+- · [7781](https://tbpro.zendesk.com/agent/tickets/7781) · 2026-08-28T15:02 · CalDAV Failing on Import
+- · [7635](https://tbpro.zendesk.com/agent/tickets/7635) · 2026-08-28T15:02 · You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
