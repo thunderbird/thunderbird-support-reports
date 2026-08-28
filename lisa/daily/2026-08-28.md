@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-28
 
-_Updated: **2026-08-28 12:21 ET** · refreshes hourly_  
+_Updated: **2026-08-28 16:58 ET** · refreshes hourly_  
 _24h window: 2026-08-27T16:00 → 2026-08-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 68** of rollout — **6,500 invitees**, **460 tickets** so far
 
 ## At a glance
 
-- **5** new tickets in last 24h · **5** solved in last 24h
+- **5** new tickets in last 24h · **7** solved in last 24h
 - **460** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 85
-- **Median AHT**: 149.0h · mean 209.9h (proxy: updated_at − created_at, 133 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 86
+- **Median AHT**: 149.4h · mean 211.8h (proxy: updated_at − created_at, 132 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -111,17 +111,19 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Direct Subscription Management in Accounts Page](https://ideas.tb.pro/p/direct-subscription-management-in-accounts-page) · 1 votes · _untagged_
+  > What you’d like to seeCurrently, Thundermail users must go to: https://accounts.tb.pro/dashboard then click on a button to go to Paddle to manage their subscription.The idea is to have a menu or tab…
 - [Email Processing Rules](https://ideas.tb.pro/p/email-processing-rules) · 1 votes · _untagged_
   > Modeling on Outlook there are a multitude of rules for processing emails.Starting with email received it would be nice to allow rules for organization the would take a newly received email and file…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 249
-- **solved**: 133
+- **solved**: 132
 - **pending**: 53
-- **open**: 14
+- **open**: 15
 - **hold**: 8
 - **new**: 3
 
@@ -222,6 +224,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7917](https://tbpro.zendesk.com/agent/tickets/7917) · 2026-08-28T15:02 · Cannot Login
 - · [7781](https://tbpro.zendesk.com/agent/tickets/7781) · 2026-08-28T15:02 · CalDAV Failing on Import
 - · [7635](https://tbpro.zendesk.com/agent/tickets/7635) · 2026-08-28T15:02 · You're Invited: Thundermail Early Bird Access
+- · [7881](https://tbpro.zendesk.com/agent/tickets/7881) · 2026-08-28T18:02 · Aggregate TLS report from Google
+- · [7878](https://tbpro.zendesk.com/agent/tickets/7878) · 2026-08-28T19:02 · thunderbird sur mon pixel 8 sous e/OS
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
