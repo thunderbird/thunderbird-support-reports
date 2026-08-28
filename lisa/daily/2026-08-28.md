@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-28
 
-_Updated: **2026-08-28 18:10 ET** · refreshes hourly_  
+_Updated: **2026-08-28 19:16 ET** · refreshes hourly_  
 _24h window: 2026-08-27T16:00 → 2026-08-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"terms service"** — 2 tickets in 24h (67.0× baseline; baseline 2 cum) — [#8035](https://tbpro.zendesk.com/agent/tickets/8035), [#8039](https://tbpro.zendesk.com/agent/tickets/8039)
 
-## Known problems — 6 problem(s), 43 incident(s)
+## Known problems — 6 problem(s), 44 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -43,7 +43,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 31 incident(s):
+- 32 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -63,7 +63,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [hold] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -75,6 +75,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
+  - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27 · _Refund_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -122,17 +123,17 @@ _(none in last 24h)_
 
 - **closed**: 249
 - **solved**: 132
-- **pending**: 53
-- **open**: 14
-- **hold**: 9
-- **new**: 3
+- **pending**: 57
+- **open**: 10
+- **hold**: 10
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 229
 - **Thundermail**: 187
-- **Appointment**: 16
 - **Send**: 16
+- **Appointment**: 16
 
 ## Why × How (cumulative)
 
@@ -140,7 +141,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 109
 - **blocked** + **explained**: 72
-- **change request** + **actioned**: 56
+- **change request** + **actioned**: 57
 - **request** + **redirected**: 32
 - **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 21
@@ -148,9 +149,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 13
 - **confused** + **informed**: 7
 - **blocked** + **redirected**: 7
+- **concerned** + **—**: 6
 - **curious** + **informed**: 6
 - **blocked** + **actioned**: 6
-- **concerned** + **—**: 5
 - **request** + **explained**: 4
 - **request** + **actioned**: 4
 - **blocked** + **—**: 4
@@ -194,26 +195,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8041](https://tbpro.zendesk.com/agent/tickets/8041)** · Thundermail custom domain setup process suggestion
   > While I'm going to migrate a domain over to Thundermail immediately after writing this, the migration process for a domain could be improved: When migrating a domain to…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8039](https://tbpro.zendesk.com/agent/tickets/8039)** · Refund
-  > I subscribed just two days ago. While it looks promising, it doesn't have all the features I need yet. The terms of service said I can get a refund if I cancel within 14 days.…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8036](https://tbpro.zendesk.com/agent/tickets/8036)** · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
-  > I recently transferred my personal domain, [domain], to Thundermail. I've been doing all kinds of tests to evaluate how often messages get delivered. I ran into a curious problem…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#8035](https://tbpro.zendesk.com/agent/tickets/8035)** · problem accepting "Terms of Service".
   > When I click the "Accept policies and continue" button on the "Terms of Service" window, I get the error message "Failed to record acceptance. Please try again.". The same thing…
 
+### Refund / Cancel — 1 tickets
+
+- **[#8039](https://tbpro.zendesk.com/agent/tickets/8039)** · Refund — why: **change request** · how: **actioned**
+  > I subscribed just two days ago. While it looks promising, it doesn't have all the features I need yet. The terms of service said I can get a refund if I cancel within 14 days.…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8036](https://tbpro.zendesk.com/agent/tickets/8036)** · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail — why: **concerned**
+  > I recently transferred my personal domain, [domain], to Thundermail. I've been doing all kinds of tests to evaluate how often messages get delivered. I ran into a curious problem…
+
 ## New tickets — last 24h
 
 - [8035](https://tbpro.zendesk.com/agent/tickets/8035) · [open] · 2026-08-27T21:39 · problem accepting "Terms of Service".
-- [8036](https://tbpro.zendesk.com/agent/tickets/8036) · [open] · 2026-08-27T22:35 · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
-- [8039](https://tbpro.zendesk.com/agent/tickets/8039) · [new] · 2026-08-27T23:40 · Refund
+- [8036](https://tbpro.zendesk.com/agent/tickets/8036) · [pending] · 2026-08-27T22:35 · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
+- [8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27T23:40 · Refund
 - [8041](https://tbpro.zendesk.com/agent/tickets/8041) · [new] · 2026-08-28T00:35 · Thundermail custom domain setup process suggestion
 - [8052](https://tbpro.zendesk.com/agent/tickets/8052) · [new] · 2026-08-28T13:31 · Re: [Thundermail] Re: European servers
 
