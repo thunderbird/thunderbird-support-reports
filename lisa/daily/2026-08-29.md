@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-29
 
-_Updated: **2026-08-29 14:23 ET** · refreshes hourly_  
+_Updated: **2026-08-29 15:15 ET** · refreshes hourly_  
 _24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 69** of rollout — **6,500 invitees**, **463 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 69** of rollout — **6,500 invitees**, **464 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
-- **463** tickets total since launch · contact rate **7%** of 6500 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **464** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 149.6h · mean 209.6h (proxy: updated_at − created_at, 128 solved tickets)
+- **Median AHT**: 152.6h · mean 210.4h (proxy: updated_at − created_at, 131 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"didn work"** — 2 tickets in 24h (45.3× baseline; baseline 3 cum) — [#8060](https://tbpro.zendesk.com/agent/tickets/8060), [#8071](https://tbpro.zendesk.com/agent/tickets/8071)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -114,15 +120,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 258
-- **solved**: 128
-- **pending**: 52
-- **open**: 12
+- **solved**: 131
+- **pending**: 48
+- **open**: 13
 - **hold**: 10
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 231
+- **Account Hub**: 232
 - **Thundermail**: 187
 - **Send**: 16
 - **Appointment**: 16
@@ -176,6 +182,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#8071](https://tbpro.zendesk.com/agent/tickets/8071)** · Can’t Log In, Can’t Send Mail
+  > hello. i just noticed that my alias [email] stopped sending messages sometime between July 27 and today. I tried logging into my Thunderbird account to see what was going on, and…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#8069](https://tbpro.zendesk.com/agent/tickets/8069)** · Can not access appointment or send - and mailbox quota not showing. 
@@ -196,6 +207,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8060](https://tbpro.zendesk.com/agent/tickets/8060) · [new] · 2026-08-29T00:53 · setup didn't work?
 - [8067](https://tbpro.zendesk.com/agent/tickets/8067) · [new] · 2026-08-29T12:49 · Re: You're Invited: Thundermail Early Bird Access
 - [8069](https://tbpro.zendesk.com/agent/tickets/8069) · [new] · 2026-08-29T13:44 · Can not access appointment or send - and mailbox quota not showing. 
+- [8071](https://tbpro.zendesk.com/agent/tickets/8071) · [new] · 2026-08-29T18:49 · Can’t Log In, Can’t Send Mail
 
 ## Solved — last 24h
 
@@ -206,6 +218,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7892](https://tbpro.zendesk.com/agent/tickets/7892) · 2026-08-29T18:01 · Cancel my subscription
 - · [7883](https://tbpro.zendesk.com/agent/tickets/7883) · 2026-08-29T18:01 · Refund on Thundermail
 - · [7863](https://tbpro.zendesk.com/agent/tickets/7863) · 2026-08-29T18:01 · Cancel & Refund
+- · [7858](https://tbpro.zendesk.com/agent/tickets/7858) · 2026-08-29T19:01 · Thundermail Invite
+- · [7848](https://tbpro.zendesk.com/agent/tickets/7848) · 2026-08-29T19:01 · Request to Change Recovery Email
+- · [7825](https://tbpro.zendesk.com/agent/tickets/7825) · 2026-08-29T19:01 · Ailias
+- · [7771](https://tbpro.zendesk.com/agent/tickets/7771) · 2026-08-29T19:01 · Move domain from another hoster to thundermail pro
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
