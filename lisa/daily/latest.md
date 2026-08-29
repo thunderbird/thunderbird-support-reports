@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-29
 
-_Updated: **2026-08-29 09:17 ET** · refreshes hourly_  
+_Updated: **2026-08-29 10:18 ET** · refreshes hourly_  
 _24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 69** of rollout — **6,500 invitees**, **462 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 69** of rollout — **6,500 invitees**, **463 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **1** solved in last 24h
-- **462** tickets total since launch · contact rate **7%** of 6500 invitees
+- **3** new tickets in last 24h · **1** solved in last 24h
+- **463** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 149.0h · mean 208.0h (proxy: updated_at − created_at, 130 solved tickets)
+- **Median AHT**: 149.7h · mean 209.9h (proxy: updated_at − created_at, 127 solved tickets)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -59,7 +59,7 @@ Flight 3 is **day 69** of rollout — **6,500 invitees**, **462 tickets** so far
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [hold] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
-  - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [solved] · 2026-07-27 · _I want to request a refund for my account_
+  - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [closed] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -113,16 +113,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 250
-- **solved**: 130
+- **closed**: 253
+- **solved**: 127
 - **pending**: 59
 - **open**: 11
 - **hold**: 10
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 230
+- **Account Hub**: 231
 - **Thundermail**: 187
 - **Send**: 16
 - **Appointment**: 16
@@ -176,6 +176,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Appointment / calendar — 1 tickets
+
+- **[#8069](https://tbpro.zendesk.com/agent/tickets/8069)** · Can not access appointment or send - and mailbox quota not showing. 
+  > Hi, basically what my subject says. Thunderbird appointment and send do not log in/open for me. Send also shows an error (see images) My mailbox quota also does not show , I have…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#8067](https://tbpro.zendesk.com/agent/tickets/8067)** · Re: You're Invited: Thundermail Early Bird Access
@@ -190,6 +195,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8060](https://tbpro.zendesk.com/agent/tickets/8060) · [new] · 2026-08-29T00:53 · setup didn't work?
 - [8067](https://tbpro.zendesk.com/agent/tickets/8067) · [new] · 2026-08-29T12:49 · Re: You're Invited: Thundermail Early Bird Access
+- [8069](https://tbpro.zendesk.com/agent/tickets/8069) · [new] · 2026-08-29T13:44 · Can not access appointment or send - and mailbox quota not showing. 
 
 ## Solved — last 24h
 
