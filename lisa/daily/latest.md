@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-29
 
-_Updated: **2026-08-29 08:27 ET** · refreshes hourly_  
+_Updated: **2026-08-29 09:17 ET** · refreshes hourly_  
 _24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 69** of rollout — **6,500 invitees**, **461 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 69** of rollout — **6,500 invitees**, **462 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **1** solved in last 24h
-- **461** tickets total since launch · contact rate **7%** of 6500 invitees
+- **2** new tickets in last 24h · **1** solved in last 24h
+- **462** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 149.0h · mean 211.3h (proxy: updated_at − created_at, 131 solved tickets)
+- **Median AHT**: 149.0h · mean 208.0h (proxy: updated_at − created_at, 130 solved tickets)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -114,11 +114,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 250
-- **solved**: 131
-- **pending**: 60
+- **solved**: 130
+- **pending**: 59
+- **open**: 11
 - **hold**: 10
-- **open**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -176,6 +176,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8067](https://tbpro.zendesk.com/agent/tickets/8067)** · Re: You're Invited: Thundermail Early Bird Access
+  > I signed up a long time ago to be on the list - but had to move to fastmail a couple months ago as my need was urgent [quoted message] > We’re excited to invite you to try…
+
 ### Account access issues — 1 tickets
 
 - **[#8060](https://tbpro.zendesk.com/agent/tickets/8060)** · setup didn't work?
@@ -184,6 +189,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8060](https://tbpro.zendesk.com/agent/tickets/8060) · [new] · 2026-08-29T00:53 · setup didn't work?
+- [8067](https://tbpro.zendesk.com/agent/tickets/8067) · [new] · 2026-08-29T12:49 · Re: You're Invited: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
