@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-08-28
 
-_Updated: **2026-08-28 20:49 ET** · refreshes hourly_  
+_Updated: **2026-08-28 21:21 ET** · refreshes hourly_  
 _24h window: 2026-08-27T16:00 → 2026-08-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 68** of rollout — **6,500 invitees**, **460 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 68** of rollout — **6,500 invitees**, **461 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **5** new tickets in last 24h · **7** solved in last 24h
-- **460** tickets total since launch · contact rate **7%** of 6500 invitees
+- **461** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 86
@@ -123,14 +123,14 @@ _(none in last 24h)_
 
 - **closed**: 249
 - **solved**: 132
-- **pending**: 61
+- **pending**: 63
 - **hold**: 11
-- **open**: 6
+- **open**: 5
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 229
+- **Account Hub**: 230
 - **Thundermail**: 187
 - **Send**: 16
 - **Appointment**: 16
@@ -184,15 +184,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8052](https://tbpro.zendesk.com/agent/tickets/8052)** · Re: [Thundermail] Re: European servers — why: **curious** · how: **explained**
-  > This is a follow-up to your previous request #7020 "European servers" Thanks for your reply Lisa and apologies for the delay in replying (I thought I had but it was sitting in…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#8035](https://tbpro.zendesk.com/agent/tickets/8035)** · problem accepting "Terms of Service".
   > When I click the "Accept policies and continue" button on the "Terms of Service" window, I get the error message "Failed to record acceptance. Please try again.". The same thing…
+
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#8052](https://tbpro.zendesk.com/agent/tickets/8052)** · Re: [Thundermail] Re: European servers — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #7020 "European servers" Thanks for your reply Lisa and apologies for the delay in replying (I thought I had but it was sitting in…
 
 ### Request or complaint — 1 tickets
 
@@ -215,7 +215,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8036](https://tbpro.zendesk.com/agent/tickets/8036) · [pending] · 2026-08-27T22:35 · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
 - [8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27T23:40 · Refund
 - [8041](https://tbpro.zendesk.com/agent/tickets/8041) · [pending] · 2026-08-28T00:35 · Thundermail custom domain setup process suggestion
-- [8052](https://tbpro.zendesk.com/agent/tickets/8052) · [new] · 2026-08-28T13:31 · Re: [Thundermail] Re: European servers
+- [8052](https://tbpro.zendesk.com/agent/tickets/8052) · [pending] · 2026-08-28T13:31 · Re: [Thundermail] Re: European servers
 
 ## Solved — last 24h
 
