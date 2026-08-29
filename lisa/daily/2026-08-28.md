@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-28
 
-_Updated: **2026-08-28 19:16 ET** · refreshes hourly_  
+_Updated: **2026-08-28 20:49 ET** · refreshes hourly_  
 _24h window: 2026-08-27T16:00 → 2026-08-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -123,10 +123,10 @@ _(none in last 24h)_
 
 - **closed**: 249
 - **solved**: 132
-- **pending**: 57
-- **open**: 10
-- **hold**: 10
-- **new**: 2
+- **pending**: 61
+- **hold**: 11
+- **open**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -142,7 +142,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 109
 - **blocked** + **explained**: 72
 - **change request** + **actioned**: 57
-- **request** + **redirected**: 32
+- **request** + **redirected**: 34
 - **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 21
 - **confused** + **explained**: 18
@@ -165,7 +165,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **n/a**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **concerned** + **escalated**: 1
 - **concerned** + **informed**: 1
 - **request** + **escalated**: 1
 - **other** + **informed**: 1
@@ -190,15 +189,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8052](https://tbpro.zendesk.com/agent/tickets/8052)** · Re: [Thundermail] Re: European servers — why: **curious** · how: **explained**
   > This is a follow-up to your previous request #7020 "European servers" Thanks for your reply Lisa and apologies for the delay in replying (I thought I had but it was sitting in…
 
-### Aliases — 1 tickets
-
-- **[#8041](https://tbpro.zendesk.com/agent/tickets/8041)** · Thundermail custom domain setup process suggestion
-  > While I'm going to migrate a domain over to Thundermail immediately after writing this, the migration process for a domain could be improved: When migrating a domain to…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#8035](https://tbpro.zendesk.com/agent/tickets/8035)** · problem accepting "Terms of Service".
   > When I click the "Accept policies and continue" button on the "Terms of Service" window, I get the error message "Failed to record acceptance. Please try again.". The same thing…
+
+### Request or complaint — 1 tickets
+
+- **[#8041](https://tbpro.zendesk.com/agent/tickets/8041)** · Thundermail custom domain setup process suggestion — why: **request** · how: **redirected**
+  > While I'm going to migrate a domain over to Thundermail immediately after writing this, the migration process for a domain could be improved: When migrating a domain to…
 
 ### Refund / Cancel — 1 tickets
 
@@ -215,7 +214,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8035](https://tbpro.zendesk.com/agent/tickets/8035) · [open] · 2026-08-27T21:39 · problem accepting "Terms of Service".
 - [8036](https://tbpro.zendesk.com/agent/tickets/8036) · [pending] · 2026-08-27T22:35 · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
 - [8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27T23:40 · Refund
-- [8041](https://tbpro.zendesk.com/agent/tickets/8041) · [new] · 2026-08-28T00:35 · Thundermail custom domain setup process suggestion
+- [8041](https://tbpro.zendesk.com/agent/tickets/8041) · [pending] · 2026-08-28T00:35 · Thundermail custom domain setup process suggestion
 - [8052](https://tbpro.zendesk.com/agent/tickets/8052) · [new] · 2026-08-28T13:31 · Re: [Thundermail] Re: European servers
 
 ## Solved — last 24h
