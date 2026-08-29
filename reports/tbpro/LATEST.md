@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-28
+# Thundermail — Flight 3 Live Report · 2026-08-29
 
-_Updated: **2026-08-28 23:23 ET** · refreshes hourly_  
-_24h window: 2026-08-27T16:00 → 2026-08-28T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-29 00:23 ET** · refreshes hourly_  
+_24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 68** of rollout — **6,500 invitees**, **461 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 69** of rollout — **6,500 invitees**, **461 tickets** so far (7.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
+- **1** new tickets in last 24h · **1** solved in last 24h
 - **461** tickets total since launch · contact rate **7%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (4 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 86
-- **Median AHT**: 149.4h · mean 211.8h (proxy: updated_at − created_at, 132 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"terms service"** — 2 tickets in 24h (67.0× baseline; baseline 2 cum) — [#8035](https://tbpro.zendesk.com/agent/tickets/8035), [#8039](https://tbpro.zendesk.com/agent/tickets/8039)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 100%  (5 good / 0 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
+- **Median AHT**: 149.0h · mean 211.3h (proxy: updated_at − created_at, 131 solved tickets)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -113,17 +107,14 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Direct Subscription Management in Accounts Page](https://ideas.tb.pro/p/direct-subscription-management-in-accounts-page) · 1 votes · _untagged_
-  > What you’d like to seeCurrently, Thundermail users must go to: https://accounts.tb.pro/dashboard then click on a button to go to Paddle to manage their subscription.The idea is to have a menu or tab…
-- [Email Processing Rules](https://ideas.tb.pro/p/email-processing-rules) · 1 votes · _untagged_
-  > Modeling on Outlook there are a multitude of rules for processing emails.Starting with email received it would be nice to allow rules for organization the would take a newly received email and file…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 249
-- **solved**: 132
+- **closed**: 250
+- **solved**: 131
 - **pending**: 63
 - **hold**: 11
 - **open**: 5
@@ -170,10 +161,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **escalated**: 1
 - **other** + **informed**: 1
 - **curious** + **—**: 1
-- **change request** + **investigated**: 1
 - **confused** + **investigated**: 1
 - **change request** + **informed**: 1
 - **telling us** + **redirected**: 1
+- **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **other** + **n/a**: 1
 - **request** + **—**: 1
@@ -185,48 +176,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Privacy / data / jurisdiction concerns — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#8035](https://tbpro.zendesk.com/agent/tickets/8035)** · problem accepting "Terms of Service".
-  > When I click the "Accept policies and continue" button on the "Terms of Service" window, I get the error message "Failed to record acceptance. Please try again.". The same thing…
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#8052](https://tbpro.zendesk.com/agent/tickets/8052)** · Re: [Thundermail] Re: European servers — why: **curious** · how: **explained**
-  > This is a follow-up to your previous request #7020 "European servers" Thanks for your reply Lisa and apologies for the delay in replying (I thought I had but it was sitting in…
-
-### Request or complaint — 1 tickets
-
-- **[#8041](https://tbpro.zendesk.com/agent/tickets/8041)** · Thundermail custom domain setup process suggestion — why: **request** · how: **redirected**
-  > While I'm going to migrate a domain over to Thundermail immediately after writing this, the migration process for a domain could be improved: When migrating a domain to…
-
-### Refund / Cancel — 1 tickets
-
-- **[#8039](https://tbpro.zendesk.com/agent/tickets/8039)** · Refund — why: **change request** · how: **actioned**
-  > I subscribed just two days ago. While it looks promising, it doesn't have all the features I need yet. The terms of service said I can get a refund if I cancel within 14 days.…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8036](https://tbpro.zendesk.com/agent/tickets/8036)** · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail — why: **concerned**
-  > I recently transferred my personal domain, [domain], to Thundermail. I've been doing all kinds of tests to evaluate how often messages get delivered. I ran into a curious problem…
+- **[#8060](https://tbpro.zendesk.com/agent/tickets/8060)** · setup didn't work?
+  > Hi there, I tried using my account setup link but the page failed to load and now I can't get in. I thought I had registered [email] but no idea if it actually fully registered.…
 
 ## New tickets — last 24h
 
-- [8035](https://tbpro.zendesk.com/agent/tickets/8035) · [open] · 2026-08-27T21:39 · problem accepting "Terms of Service".
-- [8036](https://tbpro.zendesk.com/agent/tickets/8036) · [pending] · 2026-08-27T22:35 · Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail
-- [8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27T23:40 · Refund
-- [8041](https://tbpro.zendesk.com/agent/tickets/8041) · [pending] · 2026-08-28T00:35 · Thundermail custom domain setup process suggestion
-- [8052](https://tbpro.zendesk.com/agent/tickets/8052) · [pending] · 2026-08-28T13:31 · Re: [Thundermail] Re: European servers
+- [8060](https://tbpro.zendesk.com/agent/tickets/8060) · [new] · 2026-08-29T00:53 · setup didn't work?
 
 ## Solved — last 24h
 
-- · [7934](https://tbpro.zendesk.com/agent/tickets/7934) · 2026-08-28T03:43 · Monthly Subscription 
-- · [7997](https://tbpro.zendesk.com/agent/tickets/7997) · 2026-08-28T15:02 · refund
-- · [7917](https://tbpro.zendesk.com/agent/tickets/7917) · 2026-08-28T15:02 · Cannot Login
-- · [7781](https://tbpro.zendesk.com/agent/tickets/7781) · 2026-08-28T15:02 · CalDAV Failing on Import
-- · [7635](https://tbpro.zendesk.com/agent/tickets/7635) · 2026-08-28T15:02 · You're Invited: Thundermail Early Bird Access
-- · [7881](https://tbpro.zendesk.com/agent/tickets/7881) · 2026-08-28T18:02 · Aggregate TLS report from Google
-- · [7878](https://tbpro.zendesk.com/agent/tickets/7878) · 2026-08-28T19:02 · thunderbird sur mon pixel 8 sous e/OS
+- 👍 [7934](https://tbpro.zendesk.com/agent/tickets/7934) · 2026-08-29T04:17 · Monthly Subscription 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
