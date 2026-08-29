@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-29
 
-_Updated: **2026-08-29 10:18 ET** · refreshes hourly_  
+_Updated: **2026-08-29 11:17 ET** · refreshes hourly_  
 _24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 69** of rollout — **6,500 invitees**, **463 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **1** solved in last 24h
+- **3** new tickets in last 24h · **2** solved in last 24h
 - **463** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 149.7h · mean 209.9h (proxy: updated_at − created_at, 127 solved tickets)
+- **Median AHT**: 150.2h · mean 210.6h (proxy: updated_at − created_at, 127 solved tickets)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -113,9 +113,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 253
+- **closed**: 254
 - **solved**: 127
-- **pending**: 59
+- **pending**: 58
 - **open**: 11
 - **hold**: 10
 - **new**: 3
@@ -200,6 +200,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [7934](https://tbpro.zendesk.com/agent/tickets/7934) · 2026-08-29T04:17 · Monthly Subscription 
+- · [7800](https://tbpro.zendesk.com/agent/tickets/7800) · 2026-08-29T15:01 · MX records
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
