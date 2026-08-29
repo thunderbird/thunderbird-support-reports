@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-29
 
-_Updated: **2026-08-29 13:17 ET** · refreshes hourly_  
+_Updated: **2026-08-29 14:23 ET** · refreshes hourly_  
 _24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 69** of rollout — **6,500 invitees**, **463 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
+- **3** new tickets in last 24h · **7** solved in last 24h
 - **463** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 149.6h · mean 210.7h (proxy: updated_at − created_at, 126 solved tickets)
+- **Median AHT**: 149.6h · mean 209.6h (proxy: updated_at − created_at, 128 solved tickets)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -113,9 +113,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 255
-- **solved**: 126
-- **pending**: 57
+- **closed**: 258
+- **solved**: 128
+- **pending**: 52
 - **open**: 12
 - **hold**: 10
 - **new**: 3
@@ -201,6 +201,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [7934](https://tbpro.zendesk.com/agent/tickets/7934) · 2026-08-29T04:17 · Monthly Subscription 
 - · [7800](https://tbpro.zendesk.com/agent/tickets/7800) · 2026-08-29T15:01 · MX records
+- · [7915](https://tbpro.zendesk.com/agent/tickets/7915) · 2026-08-29T18:01 · waitlist invitation not working
+- · [7901](https://tbpro.zendesk.com/agent/tickets/7901) · 2026-08-29T18:01 · Curious about the early bird offer
+- · [7892](https://tbpro.zendesk.com/agent/tickets/7892) · 2026-08-29T18:01 · Cancel my subscription
+- · [7883](https://tbpro.zendesk.com/agent/tickets/7883) · 2026-08-29T18:01 · Refund on Thundermail
+- · [7863](https://tbpro.zendesk.com/agent/tickets/7863) · 2026-08-29T18:01 · Cancel & Refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
