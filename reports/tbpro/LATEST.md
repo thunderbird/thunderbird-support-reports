@@ -1,26 +1,20 @@
-# Thundermail — Flight 3 Live Report · 2026-08-29
+# Thundermail — Flight 3 Live Report · 2026-08-30
 
-_Updated: **2026-08-29 23:25 ET** · refreshes hourly_  
-_24h window: 2026-08-28T16:00 → 2026-08-29T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-08-30 00:24 ET** · refreshes hourly_  
+_24h window: 2026-08-29T16:00 → 2026-08-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 69** of rollout — **6,500 invitees**, **467 tickets** so far (7.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 70** of rollout — **6,500 invitees**, **467 tickets** so far (7.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
+- **3** new tickets in last 24h · **7** solved in last 24h
 - **467** tickets total since launch · contact rate **7%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
 - **Median AHT**: 150.1h · mean 207.4h (proxy: updated_at − created_at, 137 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"didn work"** — 2 tickets in 24h (45.3× baseline; baseline 3 cum) — [#8060](https://tbpro.zendesk.com/agent/tickets/8060), [#8071](https://tbpro.zendesk.com/agent/tickets/8071)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -107,9 +101,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8075](https://tbpro.zendesk.com/agent/tickets/8075) · [new] · _Refund_
+  > Please could I request a refund for my Early Bird subscription purchased on 21 Aug 2026
 
 ## New ideas on FeatureOS
 
@@ -182,46 +177,36 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 1 tickets
+### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#8071](https://tbpro.zendesk.com/agent/tickets/8071)** · Can’t Log In, Can’t Send Mail
-  > hello. i just noticed that my alias [email] stopped sending messages sometime between July 27 and today. I tried logging into my Thunderbird account to see what was going on, and…
-
-### Appointment / calendar — 1 tickets
-
-- **[#8069](https://tbpro.zendesk.com/agent/tickets/8069)** · Can not access appointment or send - and mailbox quota not showing. 
-  > Hi, basically what my subject says. Thunderbird appointment and send do not log in/open for me. Send also shows an error (see images) My mailbox quota also does not show , I have…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#8067](https://tbpro.zendesk.com/agent/tickets/8067)** · Re: You're Invited: Thundermail Early Bird Access
-  > I signed up a long time ago to be on the list - but had to move to fastmail a couple months ago as my need was urgent [quoted message] > We’re excited to invite you to try…
+- **[#8077](https://tbpro.zendesk.com/agent/tickets/8077)** · TLS on mobile devices
+  > Just wanted to comment, I couldn't get a TLS IMAP connection to work on Altamail app on iOS. SSL appears to work fine, just thought to provide feedback that is all.
 
 ### Account access issues — 1 tickets
 
-- **[#8060](https://tbpro.zendesk.com/agent/tickets/8060)** · setup didn't work?
-  > Hi there, I tried using my account setup link but the page failed to load and now I can't get in. I thought I had registered [email] but no idea if it actually fully registered.…
+- **[#8076](https://tbpro.zendesk.com/agent/tickets/8076)** · login help
+  > Sometimes when attempting to log in the totp returns that it timed out, even though it's only been a few seconds. Then it starts from the start and sometimes rejects my…
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8075](https://tbpro.zendesk.com/agent/tickets/8075)** · Refund
+  > Please could I request a refund for my Early Bird subscription purchased on 21 Aug 2026
 
 ## New tickets — last 24h
 
-- [8060](https://tbpro.zendesk.com/agent/tickets/8060) · [new] · 2026-08-29T00:53 · setup didn't work?
-- [8067](https://tbpro.zendesk.com/agent/tickets/8067) · [new] · 2026-08-29T12:49 · Re: You're Invited: Thundermail Early Bird Access
-- [8069](https://tbpro.zendesk.com/agent/tickets/8069) · [new] · 2026-08-29T13:44 · Can not access appointment or send - and mailbox quota not showing. 
-- [8071](https://tbpro.zendesk.com/agent/tickets/8071) · [new] · 2026-08-29T18:49 · Can’t Log In, Can’t Send Mail
+- [8075](https://tbpro.zendesk.com/agent/tickets/8075) · [new] · 2026-08-30T00:08 · Refund
+- [8076](https://tbpro.zendesk.com/agent/tickets/8076) · [new] · 2026-08-30T00:23 · login help
+- [8077](https://tbpro.zendesk.com/agent/tickets/8077) · [new] · 2026-08-30T03:05 · TLS on mobile devices
 
 ## Solved — last 24h
 
-- 👍 [7934](https://tbpro.zendesk.com/agent/tickets/7934) · 2026-08-29T04:17 · Monthly Subscription 
-- · [7800](https://tbpro.zendesk.com/agent/tickets/7800) · 2026-08-29T15:01 · MX records
-- · [7915](https://tbpro.zendesk.com/agent/tickets/7915) · 2026-08-29T18:01 · waitlist invitation not working
-- · [7901](https://tbpro.zendesk.com/agent/tickets/7901) · 2026-08-29T18:01 · Curious about the early bird offer
-- · [7892](https://tbpro.zendesk.com/agent/tickets/7892) · 2026-08-29T18:01 · Cancel my subscription
-- · [7883](https://tbpro.zendesk.com/agent/tickets/7883) · 2026-08-29T18:01 · Refund on Thundermail
-- · [7863](https://tbpro.zendesk.com/agent/tickets/7863) · 2026-08-29T18:01 · Cancel & Refund
-- · [7858](https://tbpro.zendesk.com/agent/tickets/7858) · 2026-08-29T19:01 · Thundermail Invite
-- · [7848](https://tbpro.zendesk.com/agent/tickets/7848) · 2026-08-29T19:01 · Request to Change Recovery Email
-- · [7825](https://tbpro.zendesk.com/agent/tickets/7825) · 2026-08-29T19:01 · Ailias
-- · [7771](https://tbpro.zendesk.com/agent/tickets/7771) · 2026-08-29T19:01 · Move domain from another hoster to thundermail pro
+- · [7908](https://tbpro.zendesk.com/agent/tickets/7908) · 2026-08-29T20:01 · Gmail
+- · [7884](https://tbpro.zendesk.com/agent/tickets/7884) · 2026-08-29T20:01 · Request for Account Deletion and Refund of PayPal Payment
+- · [7764](https://tbpro.zendesk.com/agent/tickets/7764) · 2026-08-29T20:01 · Payment
+- · [7903](https://tbpro.zendesk.com/agent/tickets/7903) · 2026-08-29T21:01 · Custom Domain with Godaddy 
+- · [7926](https://tbpro.zendesk.com/agent/tickets/7926) · 2026-08-29T22:01 · Delete account / data / issue refund
+- · [7924](https://tbpro.zendesk.com/agent/tickets/7924) · 2026-08-29T22:01 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
+- · [7923](https://tbpro.zendesk.com/agent/tickets/7923) · 2026-08-29T23:01 · Time format
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
