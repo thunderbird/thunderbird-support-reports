@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-30
 
-_Updated: **2026-08-30 14:23 ET** · refreshes hourly_  
+_Updated: **2026-08-30 15:16 ET** · refreshes hourly_  
 _24h window: 2026-08-29T16:00 → 2026-08-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 70** of rollout — **6,500 invitees**, **468 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
+- **4** new tickets in last 24h · **10** solved in last 24h
 - **468** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 150.1h · mean 207.3h (proxy: updated_at − created_at, 135 solved tickets)
+- **Median AHT**: 150.1h · mean 207.5h (proxy: updated_at − created_at, 137 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -121,9 +121,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 262
-- **solved**: 135
-- **pending**: 36
-- **open**: 18
+- **solved**: 137
+- **pending**: 33
+- **open**: 19
 - **hold**: 9
 - **new**: 8
 
@@ -217,6 +217,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7924](https://tbpro.zendesk.com/agent/tickets/7924) · 2026-08-29T22:01 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
 - · [7923](https://tbpro.zendesk.com/agent/tickets/7923) · 2026-08-29T23:01 · Time format
 - · [7931](https://tbpro.zendesk.com/agent/tickets/7931) · 2026-08-30T17:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [7932](https://tbpro.zendesk.com/agent/tickets/7932) · 2026-08-30T19:01 · something is wrong with your sign-up page
+- · [7749](https://tbpro.zendesk.com/agent/tickets/7749) · 2026-08-30T19:01 · Can't connect to Apple Mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
