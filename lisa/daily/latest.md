@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-30
 
-_Updated: **2026-08-30 12:20 ET** · refreshes hourly_  
+_Updated: **2026-08-30 13:16 ET** · refreshes hourly_  
 _24h window: 2026-08-29T16:00 → 2026-08-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 70** of rollout — **6,500 invitees**, **467 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
+- **3** new tickets in last 24h · **8** solved in last 24h
 - **467** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 150.2h · mean 207.9h (proxy: updated_at − created_at, 136 solved tickets)
+- **Median AHT**: 150.2h · mean 207.8h (proxy: updated_at − created_at, 136 solved tickets)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -114,9 +114,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 260
+- **closed**: 261
 - **solved**: 136
-- **pending**: 37
+- **pending**: 36
 - **open**: 18
 - **hold**: 9
 - **new**: 7
@@ -207,6 +207,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7926](https://tbpro.zendesk.com/agent/tickets/7926) · 2026-08-29T22:01 · Delete account / data / issue refund
 - · [7924](https://tbpro.zendesk.com/agent/tickets/7924) · 2026-08-29T22:01 · Re: [Thundermail] Re: Cancellation and Refund Request – Thundermail Subscription
 - · [7923](https://tbpro.zendesk.com/agent/tickets/7923) · 2026-08-29T23:01 · Time format
+- · [7931](https://tbpro.zendesk.com/agent/tickets/7931) · 2026-08-30T17:01 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
