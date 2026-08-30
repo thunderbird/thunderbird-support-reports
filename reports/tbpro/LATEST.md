@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-08-30
 
-_Updated: **2026-08-30 13:16 ET** · refreshes hourly_  
+_Updated: **2026-08-30 14:23 ET** · refreshes hourly_  
 _24h window: 2026-08-29T16:00 → 2026-08-30T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 70** of rollout — **6,500 invitees**, **467 tickets** so far (7.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 70** of rollout — **6,500 invitees**, **468 tickets** so far (7.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **467** tickets total since launch · contact rate **7%** of 6500 invitees
+- **4** new tickets in last 24h · **8** solved in last 24h
+- **468** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 150.2h · mean 207.8h (proxy: updated_at − created_at, 136 solved tickets)
+- **Median AHT**: 150.1h · mean 207.3h (proxy: updated_at − created_at, 135 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"early bird"** — 2 tickets in 24h (4.2× baseline; baseline 33 cum) — [#8075](https://tbpro.zendesk.com/agent/tickets/8075), [#8086](https://tbpro.zendesk.com/agent/tickets/8086)
 
 ## Known problems — 6 problem(s), 44 incident(s)
 
@@ -114,16 +120,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 261
-- **solved**: 136
+- **closed**: 262
+- **solved**: 135
 - **pending**: 36
 - **open**: 18
 - **hold**: 9
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 232
+- **Account Hub**: 233
 - **Thundermail**: 190
 - **Send**: 16
 - **Appointment**: 16
@@ -177,6 +183,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#8086](https://tbpro.zendesk.com/agent/tickets/8086)** · Issues 
+  > Hi, I recently activated my early bird access. In the email settings, where I can create the password app, the app is displayed as the name at the top. However, I have to type the…
+- **[#8075](https://tbpro.zendesk.com/agent/tickets/8075)** · Refund
+  > Please could I request a refund for my Early Bird subscription purchased on 21 Aug 2026
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8077](https://tbpro.zendesk.com/agent/tickets/8077)** · TLS on mobile devices
@@ -187,16 +200,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8076](https://tbpro.zendesk.com/agent/tickets/8076)** · login help
   > Sometimes when attempting to log in the totp returns that it timed out, even though it's only been a few seconds. Then it starts from the start and sometimes rejects my…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#8075](https://tbpro.zendesk.com/agent/tickets/8075)** · Refund
-  > Please could I request a refund for my Early Bird subscription purchased on 21 Aug 2026
-
 ## New tickets — last 24h
 
 - [8075](https://tbpro.zendesk.com/agent/tickets/8075) · [new] · 2026-08-30T00:08 · Refund
 - [8076](https://tbpro.zendesk.com/agent/tickets/8076) · [new] · 2026-08-30T00:23 · login help
 - [8077](https://tbpro.zendesk.com/agent/tickets/8077) · [new] · 2026-08-30T03:05 · TLS on mobile devices
+- [8086](https://tbpro.zendesk.com/agent/tickets/8086) · [new] · 2026-08-30T18:18 · Issues 
 
 ## Solved — last 24h
 
