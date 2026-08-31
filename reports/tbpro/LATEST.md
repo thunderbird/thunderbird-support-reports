@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 09:24 ET** · refreshes hourly_  
+_Updated: **2026-08-31 10:24 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **470 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
+- **2** new tickets in last 24h · **4** solved in last 24h
 - **470** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 151.4h · mean 208.9h (proxy: updated_at − created_at, 134 solved tickets)
+- **Median AHT**: 153.8h · mean 212.6h (proxy: updated_at − created_at, 133 solved tickets)
 
-## Known problems — 6 problem(s), 44 incident(s)
+## Known problems — 6 problem(s), 46 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -37,7 +37,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **470 tickets** so far
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 32 incident(s):
+- 34 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -63,10 +63,12 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **470 tickets** so far
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
+  - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [solved] · 2026-08-16 · _Cancel_
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
+  - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27 · _Refund_
@@ -114,17 +116,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 267
-- **solved**: 134
-- **pending**: 31
-- **open**: 22
+- **closed**: 268
+- **solved**: 133
+- **pending**: 32
+- **open**: 21
 - **new**: 8
 - **hold**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 235
-- **Thundermail**: 189
+- **Account Hub**: 234
+- **Thundermail**: 190
 - **Send**: 16
 - **Appointment**: 16
 
@@ -134,7 +136,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 109
 - **blocked** + **explained**: 72
-- **change request** + **actioned**: 59
+- **change request** + **actioned**: 60
 - **request** + **redirected**: 34
 - **blocked** + **investigated**: 23
 - **blocked** + **escalated**: 21
@@ -160,7 +162,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **escalated**: 2
 - **concerned** + **informed**: 1
 - **request** + **escalated**: 1
-- **other** + **informed**: 1
 - **curious** + **—**: 1
 - **confused** + **investigated**: 1
 - **change request** + **informed**: 1
@@ -196,6 +197,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7958](https://tbpro.zendesk.com/agent/tickets/7958) · 2026-08-30T22:01 · lost password
 - · [7878](https://tbpro.zendesk.com/agent/tickets/7878) · 2026-08-31T12:33 · thunderbird sur mon pixel 8 sous e/OS
+- · [7703](https://tbpro.zendesk.com/agent/tickets/7703) · 2026-08-31T14:06 · Cancel
+- · [7730](https://tbpro.zendesk.com/agent/tickets/7730) · 2026-08-31T14:07 · add a google.com account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
