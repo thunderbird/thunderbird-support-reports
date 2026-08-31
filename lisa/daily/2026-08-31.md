@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 17:19 ET** · refreshes hourly_  
+_Updated: **2026-08-31 18:20 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 71** of rollout — **6,500 invitees**, **475 tickets** so far (7.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 71** of rollout — **6,500 invitees**, **476 tickets** so far (7.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **16** solved in last 24h
-- **475** tickets total since launch · contact rate **7%** of 6500 invitees
+- **7** new tickets in last 24h · **15** solved in last 24h
+- **476** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 148.0h · mean 210.2h (proxy: updated_at − created_at, 144 solved tickets)
+- **Median AHT**: 149.6h · mean 212.6h (proxy: updated_at − created_at, 144 solved tickets)
 
-## Known problems — 6 problem(s), 49 incident(s)
+## Known problems — 6 problem(s), 50 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -37,7 +37,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **475 tickets** so far
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 37 incident(s):
+- 38 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -65,6 +65,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **475 tickets** so far
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
   - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [solved] · 2026-08-16 · _Cancel_
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
+  - [#7788](https://tbpro.zendesk.com/agent/tickets/7788) · [solved] · 2026-08-19 · _Refund request_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
@@ -91,7 +92,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **475 tickets** so far
 ## Other tickets linked to GitHub — 11 ticket(s) → 11 issue(s)
 
 - 🔧 [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
-- 🔧 [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
+- ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
 - 🔧 [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
 - ✅ [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
 - 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
@@ -112,7 +113,7 @@ _No negative ratings since launch._
   > Dear [name], I am writing to formally request a refund for the payment made for ThunderMail. Unfortunately, the product is still in a very early stage of development and lacks several essential features that are vital…
 - [8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · _cancel substriction_
   > good day, i just made a supsriction to thunderbird pro. i take a look but it is not what i excepted. is it poosible to cancel this supsrriction with a refund ipayed with paypal greating wimjetten gennep netherlands…
-- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [open] · _Refund_
+- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [pending] · _Refund_
   > Hi there, I’m writing to request a refund for my account. I no longer need it and I feel Like I wont be able to give feedback to you for the Beta version. I have a quick question: will the names be available again for…
 
 ## New ideas on FeatureOS
@@ -123,16 +124,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 271
+- **closed**: 272
 - **solved**: 144
-- **pending**: 41
-- **open**: 10
+- **pending**: 40
+- **open**: 11
 - **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 237
-- **Thundermail**: 194
+- **Account Hub**: 240
+- **Thundermail**: 192
 - **Send**: 16
 - **Appointment**: 16
 
@@ -144,7 +145,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 74
 - **change request** + **actioned**: 61
 - **request** + **redirected**: 33
-- **blocked** + **investigated**: 25
+- **blocked** + **investigated**: 26
 - **blocked** + **escalated**: 21
 - **confused** + **explained**: 19
 - **concerned** + **explained**: 14
@@ -153,9 +154,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 7
 - **curious** + **informed**: 6
 - **blocked** + **actioned**: 6
+- **request** + **actioned**: 5
 - **blocked** + **informed**: 4
 - **request** + **explained**: 4
-- **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **curious** + **actioned**: 3
 - **blocked** + **n/a**: 3
@@ -164,11 +165,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
-- **telling us** + **n/a**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
 - **telling us** + **explained**: 1
 - **concerned** + **informed**: 1
+- **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 - **curious** + **—**: 1
 - **confused** + **investigated**: 1
@@ -176,6 +177,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
+- **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **curious** + **escalated**: 1
@@ -187,7 +189,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#8108](https://tbpro.zendesk.com/agent/tickets/8108)** · e-mail confirmation never arives
+- **[#8108](https://tbpro.zendesk.com/agent/tickets/8108)** · e-mail confirmation never arives — why: **blocked** · how: **investigated**
   > I've registered [email] but I never receive e-mail to confirm the e-mail address :-( Checked the spam too. I'd love to start using thundermail and be a paying costumer but I can't.
 - **[#8089](https://tbpro.zendesk.com/agent/tickets/8089)** · QFEXFdpzAnCvudVqUAmSUsr — why: **other** · how: **n/a**
   > nXpWaKDzhUIpEifo
@@ -219,7 +221,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8089](https://tbpro.zendesk.com/agent/tickets/8089) · [solved] · 2026-08-30T21:48 · QFEXFdpzAnCvudVqUAmSUsr
 - [8092](https://tbpro.zendesk.com/agent/tickets/8092) · [pending] · 2026-08-31T00:40 · Refund Request – ThunderMail
 - [8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31T15:43 · cancel substriction
-- [8108](https://tbpro.zendesk.com/agent/tickets/8108) · [open] · 2026-08-31T16:51 · e-mail confirmation never arives
+- [8108](https://tbpro.zendesk.com/agent/tickets/8108) · [pending] · 2026-08-31T16:51 · e-mail confirmation never arives
 - [8110](https://tbpro.zendesk.com/agent/tickets/8110) · [open] · 2026-08-31T17:25 · account deletion
 - [8111](https://tbpro.zendesk.com/agent/tickets/8111) · [pending] · 2026-08-31T18:24 · Mail server not working
 - [8112](https://tbpro.zendesk.com/agent/tickets/8112) · [pending] · 2026-08-31T19:55 · Re: help me: still need help?
@@ -228,7 +230,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [7958](https://tbpro.zendesk.com/agent/tickets/7958) · 2026-08-30T22:01 · lost password
 - · [7878](https://tbpro.zendesk.com/agent/tickets/7878) · 2026-08-31T12:33 · thunderbird sur mon pixel 8 sous e/OS
-- · [7703](https://tbpro.zendesk.com/agent/tickets/7703) · 2026-08-31T14:06 · Cancel
 - · [7730](https://tbpro.zendesk.com/agent/tickets/7730) · 2026-08-31T14:07 · add a google.com account
 - · [7954](https://tbpro.zendesk.com/agent/tickets/7954) · 2026-08-31T15:02 · invalid Password
 - · [8027](https://tbpro.zendesk.com/agent/tickets/8027) · 2026-08-31T15:08 · Thunderbird Question
