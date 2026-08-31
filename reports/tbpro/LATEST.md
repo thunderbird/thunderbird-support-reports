@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 12:23 ET** · refreshes hourly_  
+_Updated: **2026-08-31 13:19 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **471 tickets** so far
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
+- **4** new tickets in last 24h · **12** solved in last 24h
 - **471** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 150.2h · mean 211.2h (proxy: updated_at − created_at, 135 solved tickets)
+- **Median AHT**: 149.0h · mean 207.2h (proxy: updated_at − created_at, 138 solved tickets)
 
 ## Known problems — 6 problem(s), 47 incident(s)
 
@@ -119,16 +119,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 270
-- **solved**: 135
-- **pending**: 34
-- **open**: 24
+- **closed**: 271
+- **solved**: 138
+- **pending**: 36
+- **open**: 18
 - **hold**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 235
-- **Thundermail**: 191
+- **Thundermail**: 192
 - **Send**: 16
 - **Appointment**: 16
 
@@ -137,15 +137,15 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 109
-- **blocked** + **explained**: 72
+- **blocked** + **explained**: 73
 - **change request** + **actioned**: 61
-- **request** + **redirected**: 34
-- **blocked** + **investigated**: 24
+- **request** + **redirected**: 33
+- **blocked** + **investigated**: 25
 - **blocked** + **escalated**: 21
-- **confused** + **explained**: 18
+- **confused** + **explained**: 19
 - **concerned** + **explained**: 14
+- **blocked** + **redirected**: 8
 - **confused** + **informed**: 7
-- **blocked** + **redirected**: 7
 - **concerned** + **—**: 6
 - **curious** + **informed**: 6
 - **blocked** + **actioned**: 6
@@ -156,6 +156,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 3
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
+- **other** + **n/a**: 2
 - **change request** + **explained**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
@@ -171,7 +172,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **redirected**: 1
 - **change request** + **investigated**: 1
 - **change request** + **redirected**: 1
-- **other** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
 - **curious** + **escalated**: 1
@@ -181,6 +181,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#8108](https://tbpro.zendesk.com/agent/tickets/8108)** · e-mail confirmation never arives
+  > I've registered [email] but I never receive e-mail to confirm the e-mail address :-( Checked the spam too. I'd love to start using thundermail and be a paying costumer but I can't.
+- **[#8089](https://tbpro.zendesk.com/agent/tickets/8089)** · QFEXFdpzAnCvudVqUAmSUsr — why: **other** · how: **n/a**
+  > nXpWaKDzhUIpEifo
+
 ### Refund / Cancel — 2 tickets
 
 - **[#8092](https://tbpro.zendesk.com/agent/tickets/8092)** · Refund Request – ThunderMail — why: **change request** · how: **actioned**
@@ -188,16 +195,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8106](https://tbpro.zendesk.com/agent/tickets/8106)** · cancel substriction — why: **change request** · how: **actioned**
   > good day, i just made a supsriction to thunderbird pro. i take a look but it is not what i excepted. is it poosible to cancel this supsrriction with a refund ipayed with paypal…
 
-### Other / uncategorized — 1 tickets
-
-- **[#8089](https://tbpro.zendesk.com/agent/tickets/8089)** · QFEXFdpzAnCvudVqUAmSUsr
-  > nXpWaKDzhUIpEifo
-
 ## New tickets — last 24h
 
-- [8089](https://tbpro.zendesk.com/agent/tickets/8089) · [open] · 2026-08-30T21:48 · QFEXFdpzAnCvudVqUAmSUsr
+- [8089](https://tbpro.zendesk.com/agent/tickets/8089) · [solved] · 2026-08-30T21:48 · QFEXFdpzAnCvudVqUAmSUsr
 - [8092](https://tbpro.zendesk.com/agent/tickets/8092) · [open] · 2026-08-31T00:40 · Refund Request – ThunderMail
 - [8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31T15:43 · cancel substriction
+- [8108](https://tbpro.zendesk.com/agent/tickets/8108) · [open] · 2026-08-31T16:51 · e-mail confirmation never arives
 
 ## Solved — last 24h
 
@@ -208,7 +211,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7954](https://tbpro.zendesk.com/agent/tickets/7954) · 2026-08-31T15:02 · invalid Password
 - · [8027](https://tbpro.zendesk.com/agent/tickets/8027) · 2026-08-31T15:08 · Thunderbird Question
 - · [7971](https://tbpro.zendesk.com/agent/tickets/7971) · 2026-08-31T16:02 · paid now?
-- · [7966](https://tbpro.zendesk.com/agent/tickets/7966) · 2026-08-31T16:02 · Therms and Conditions
+- · [7976](https://tbpro.zendesk.com/agent/tickets/7976) · 2026-08-31T16:37 · $ vs €
+- · [8089](https://tbpro.zendesk.com/agent/tickets/8089) · 2026-08-31T16:51 · QFEXFdpzAnCvudVqUAmSUsr
+- · [7973](https://tbpro.zendesk.com/agent/tickets/7973) · 2026-08-31T17:01 · 1 month free trial
+- · [7972](https://tbpro.zendesk.com/agent/tickets/7972) · 2026-08-31T17:01 · Refund
+- · [7963](https://tbpro.zendesk.com/agent/tickets/7963) · 2026-08-31T17:01 · [domain] question
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
