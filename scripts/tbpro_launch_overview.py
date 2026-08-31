@@ -142,8 +142,10 @@ WAVES = [
     {"date": "2026-08-10", "end": "2026-08-10", "invites": 1000, "label": "Flight 8 Wave 1",      "color": "#f472b6"},
     {"date": "2026-08-11", "end": "2026-08-11", "invites": 1000, "label": "Flight 8 Wave 2",      "color": "#facc15"},
     {"date": "2026-08-17", "end": "2026-08-23", "invites": 2000, "label": "Flight 8 Wave 3",      "color": "#fb7185"},
-    {"date": "2026-08-24", "end": "2026-08-24", "invites": 2000, "label": "Flight 8 Wave 4",      "color": "#818cf8"},
-    {"date": "2026-08-25", "end": "2099-12-31", "invites": 2000, "label": "Flight 8 Wave 5",      "color": "#2dd4bf"},
+    {"date": "2026-08-24", "end": "2026-08-24", "invites": 4000, "label": "Flight 8 Wave 4",      "color": "#818cf8"},
+    {"date": "2026-08-25", "end": "2026-08-30", "invites": 3000, "label": "Flight 8 Wave 5",      "color": "#2dd4bf"},
+    {"date": "2026-08-31", "end": "2099-12-31", "invites": 5000, "label": "Flight 8 Wave 6",      "color": "#fdba74"},
+    # Wave 4/5 counts corrected 2026-08-31 (were recorded as 2k/2k; actual 4k/3k).
     # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
     # Re-engagement waves = previously-waitlisted users re-invited; confirm whether to include in TOTAL_INVITEES.
 ]
