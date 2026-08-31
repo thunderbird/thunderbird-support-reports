@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 14:27 ET** · refreshes hourly_  
+_Updated: **2026-08-31 15:16 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **473 tickets** so far
 
 ## At a glance
 
-- **6** new tickets in last 24h · **12** solved in last 24h
+- **6** new tickets in last 24h · **16** solved in last 24h
 - **473** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 149.0h · mean 207.2h (proxy: updated_at − created_at, 138 solved tickets)
+- **Median AHT**: 148.0h · mean 211.0h (proxy: updated_at − created_at, 142 solved tickets)
 
 ## Known problems — 6 problem(s), 49 incident(s)
 
@@ -57,7 +57,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **473 tickets** so far
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [closed] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -69,7 +69,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **473 tickets** so far
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25 · _Refund _
-  - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
+  - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27 · _Refund_
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [pending] · 2026-08-30 · _Refund_
@@ -122,9 +122,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 271
-- **solved**: 138
-- **pending**: 41
-- **open**: 14
+- **solved**: 142
+- **pending**: 40
+- **open**: 11
 - **hold**: 8
 - **new**: 1
 
@@ -231,6 +231,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7973](https://tbpro.zendesk.com/agent/tickets/7973) · 2026-08-31T17:01 · 1 month free trial
 - · [7972](https://tbpro.zendesk.com/agent/tickets/7972) · 2026-08-31T17:01 · Refund
 - · [7963](https://tbpro.zendesk.com/agent/tickets/7963) · 2026-08-31T17:01 · [domain] question
+- · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-08-31T18:34 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
+- · [7981](https://tbpro.zendesk.com/agent/tickets/7981) · 2026-08-31T19:01 · Delete account and refund
+- · [7978](https://tbpro.zendesk.com/agent/tickets/7978) · 2026-08-31T19:01 · JMAP
+- · [7960](https://tbpro.zendesk.com/agent/tickets/7960) · 2026-08-31T19:01 · Questions about Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
