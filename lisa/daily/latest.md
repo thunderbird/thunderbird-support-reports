@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 10:24 ET** · refreshes hourly_  
+_Updated: **2026-08-31 11:22 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **470 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **470** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 153.8h · mean 212.6h (proxy: updated_at − created_at, 133 solved tickets)
+- **Median AHT**: 152.8h · mean 211.2h (proxy: updated_at − created_at, 135 solved tickets)
 
 ## Known problems — 6 problem(s), 46 incident(s)
 
@@ -57,7 +57,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **470 tickets** so far
   - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
   - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
   - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [hold] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
+  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [open] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [closed] · 2026-07-27 · _I want to request a refund for my account_
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
@@ -117,11 +117,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 268
-- **solved**: 133
-- **pending**: 32
-- **open**: 21
-- **new**: 8
+- **solved**: 135
+- **pending**: 34
+- **open**: 19
 - **hold**: 8
+- **new**: 6
 
 ## Service (cumulative)
 
@@ -199,6 +199,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7878](https://tbpro.zendesk.com/agent/tickets/7878) · 2026-08-31T12:33 · thunderbird sur mon pixel 8 sous e/OS
 - · [7703](https://tbpro.zendesk.com/agent/tickets/7703) · 2026-08-31T14:06 · Cancel
 - · [7730](https://tbpro.zendesk.com/agent/tickets/7730) · 2026-08-31T14:07 · add a google.com account
+- · [7954](https://tbpro.zendesk.com/agent/tickets/7954) · 2026-08-31T15:02 · invalid Password
+- · [8027](https://tbpro.zendesk.com/agent/tickets/8027) · 2026-08-31T15:08 · Thunderbird Question
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
