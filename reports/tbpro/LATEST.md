@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 15:16 ET** · refreshes hourly_  
+_Updated: **2026-08-31 16:22 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 71** of rollout — **6,500 invitees**, **473 tickets** so far (7.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 71** of rollout — **6,500 invitees**, **474 tickets** so far (7.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **16** solved in last 24h
-- **473** tickets total since launch · contact rate **7%** of 6500 invitees
+- **7** new tickets in last 24h · **16** solved in last 24h
+- **474** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 148.0h · mean 211.0h (proxy: updated_at − created_at, 142 solved tickets)
+- **Median AHT**: 149.0h · mean 210.8h (proxy: updated_at − created_at, 143 solved tickets)
 
 ## Known problems — 6 problem(s), 49 incident(s)
 
@@ -122,15 +122,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 271
-- **solved**: 142
-- **pending**: 40
-- **open**: 11
-- **hold**: 8
-- **new**: 1
+- **solved**: 143
+- **pending**: 39
+- **open**: 12
+- **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 236
+- **Account Hub**: 237
 - **Thundermail**: 193
 - **Send**: 16
 - **Appointment**: 16
@@ -139,8 +138,8 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 109
-- **blocked** + **explained**: 73
+- **curious** + **explained**: 110
+- **blocked** + **explained**: 74
 - **change request** + **actioned**: 61
 - **request** + **redirected**: 33
 - **blocked** + **investigated**: 25
@@ -198,15 +197,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8092](https://tbpro.zendesk.com/agent/tickets/8092)** · Refund Request – ThunderMail — why: **change request** · how: **actioned**
   > Dear [name], I am writing to formally request a refund for the payment made for ThunderMail. Unfortunately, the product is still in a very early stage of development and lacks…
 
-### Early bird / invite / waitlist — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#8111](https://tbpro.zendesk.com/agent/tickets/8111)** · Mail server not working
-  > Hi, I signed up for an early bird beta tester and experience that your mail server does not seem to be operational (whilst all systems appear as operational on your status page).…
+- **[#8112](https://tbpro.zendesk.com/agent/tickets/8112)** · Re: help me: still need help? — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #7238 "help me" I was never able to register, and I could never access or create my Thundermail account. I keep getting an 'invalid…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#8110](https://tbpro.zendesk.com/agent/tickets/8110)** · account deletion
   > You can delete the account created since there's only a paid plan and I don't plan to use the service. Thanks
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8111](https://tbpro.zendesk.com/agent/tickets/8111)** · Mail server not working — why: **blocked** · how: **explained**
+  > Hi, I signed up for an early bird beta tester and experience that your mail server does not seem to be operational (whilst all systems appear as operational on your status page).…
 
 ## New tickets — last 24h
 
@@ -215,7 +219,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31T15:43 · cancel substriction
 - [8108](https://tbpro.zendesk.com/agent/tickets/8108) · [open] · 2026-08-31T16:51 · e-mail confirmation never arives
 - [8110](https://tbpro.zendesk.com/agent/tickets/8110) · [open] · 2026-08-31T17:25 · account deletion
-- [8111](https://tbpro.zendesk.com/agent/tickets/8111) · [new] · 2026-08-31T18:24 · Mail server not working
+- [8111](https://tbpro.zendesk.com/agent/tickets/8111) · [pending] · 2026-08-31T18:24 · Mail server not working
+- [8112](https://tbpro.zendesk.com/agent/tickets/8112) · [open] · 2026-08-31T19:55 · Re: help me: still need help?
 
 ## Solved — last 24h
 
