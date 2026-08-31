@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 13:19 ET** · refreshes hourly_  
+_Updated: **2026-08-31 14:27 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 71** of rollout — **6,500 invitees**, **471 tickets** so far (7.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 71** of rollout — **6,500 invitees**, **473 tickets** so far (7.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **12** solved in last 24h
-- **471** tickets total since launch · contact rate **7%** of 6500 invitees
+- **6** new tickets in last 24h · **12** solved in last 24h
+- **473** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
 - **Median AHT**: 149.0h · mean 207.2h (proxy: updated_at − created_at, 138 solved tickets)
 
-## Known problems — 6 problem(s), 47 incident(s)
+## Known problems — 6 problem(s), 49 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -37,7 +37,7 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **471 tickets** so far
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 35 incident(s):
+- 37 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -72,6 +72,8 @@ Flight 3 is **day 71** of rollout — **6,500 invitees**, **471 tickets** so far
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [pending] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27 · _Refund_
+  - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [pending] · 2026-08-30 · _Refund_
+  - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [pending] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31 · _cancel substriction_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
@@ -106,7 +108,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [8092](https://tbpro.zendesk.com/agent/tickets/8092) · [open] · _Refund Request – ThunderMail_
+- [8092](https://tbpro.zendesk.com/agent/tickets/8092) · [pending] · _Refund Request – ThunderMail_
   > Dear [name], I am writing to formally request a refund for the payment made for ThunderMail. Unfortunately, the product is still in a very early stage of development and lacks several essential features that are vital…
 - [8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · _cancel substriction_
   > good day, i just made a supsriction to thunderbird pro. i take a look but it is not what i excepted. is it poosible to cancel this supsrriction with a refund ipayed with paypal greating wimjetten gennep netherlands…
@@ -121,14 +123,15 @@ _No negative ratings since launch._
 
 - **closed**: 271
 - **solved**: 138
-- **pending**: 36
-- **open**: 18
+- **pending**: 41
+- **open**: 14
 - **hold**: 8
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 235
-- **Thundermail**: 192
+- **Account Hub**: 236
+- **Thundermail**: 193
 - **Send**: 16
 - **Appointment**: 16
 
@@ -146,7 +149,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 14
 - **blocked** + **redirected**: 8
 - **confused** + **informed**: 7
-- **concerned** + **—**: 6
+- **concerned** + **—**: 7
 - **curious** + **informed**: 6
 - **blocked** + **actioned**: 6
 - **blocked** + **informed**: 4
@@ -190,17 +193,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Refund / Cancel — 2 tickets
 
-- **[#8092](https://tbpro.zendesk.com/agent/tickets/8092)** · Refund Request – ThunderMail — why: **change request** · how: **actioned**
-  > Dear [name], I am writing to formally request a refund for the payment made for ThunderMail. Unfortunately, the product is still in a very early stage of development and lacks…
 - **[#8106](https://tbpro.zendesk.com/agent/tickets/8106)** · cancel substriction — why: **change request** · how: **actioned**
   > good day, i just made a supsriction to thunderbird pro. i take a look but it is not what i excepted. is it poosible to cancel this supsrriction with a refund ipayed with paypal…
+- **[#8092](https://tbpro.zendesk.com/agent/tickets/8092)** · Refund Request – ThunderMail — why: **change request** · how: **actioned**
+  > Dear [name], I am writing to formally request a refund for the payment made for ThunderMail. Unfortunately, the product is still in a very early stage of development and lacks…
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8111](https://tbpro.zendesk.com/agent/tickets/8111)** · Mail server not working
+  > Hi, I signed up for an early bird beta tester and experience that your mail server does not seem to be operational (whilst all systems appear as operational on your status page).…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8110](https://tbpro.zendesk.com/agent/tickets/8110)** · account deletion
+  > You can delete the account created since there's only a paid plan and I don't plan to use the service. Thanks
 
 ## New tickets — last 24h
 
 - [8089](https://tbpro.zendesk.com/agent/tickets/8089) · [solved] · 2026-08-30T21:48 · QFEXFdpzAnCvudVqUAmSUsr
-- [8092](https://tbpro.zendesk.com/agent/tickets/8092) · [open] · 2026-08-31T00:40 · Refund Request – ThunderMail
+- [8092](https://tbpro.zendesk.com/agent/tickets/8092) · [pending] · 2026-08-31T00:40 · Refund Request – ThunderMail
 - [8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31T15:43 · cancel substriction
 - [8108](https://tbpro.zendesk.com/agent/tickets/8108) · [open] · 2026-08-31T16:51 · e-mail confirmation never arives
+- [8110](https://tbpro.zendesk.com/agent/tickets/8110) · [open] · 2026-08-31T17:25 · account deletion
+- [8111](https://tbpro.zendesk.com/agent/tickets/8111) · [new] · 2026-08-31T18:24 · Mail server not working
 
 ## Solved — last 24h
 
