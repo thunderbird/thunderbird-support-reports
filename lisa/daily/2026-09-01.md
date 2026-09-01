@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 04:31 ET** · refreshes hourly_  
+_Updated: **2026-09-01 05:26 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 72** of rollout — **6,500 invitees**, **481 tickets** so far (7.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 72** of rollout — **6,500 invitees**, **483 tickets** so far (7.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **9** solved in last 24h
-- **481** tickets total since launch · contact rate **7%** of 6500 invitees
+- **9** new tickets in last 24h · **9** solved in last 24h
+- **483** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 89
@@ -130,12 +130,12 @@ _No negative ratings since launch._
 - **pending**: 39
 - **open**: 13
 - **hold**: 9
-- **new**: 1
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 242
-- **Thundermail**: 194
+- **Account Hub**: 243
+- **Thundermail**: 195
 - **Send**: 17
 - **Appointment**: 16
 
@@ -189,6 +189,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 2 tickets
+
+- **[#8132](https://tbpro.zendesk.com/agent/tickets/8132)** · Cannot send SMTP messages from Thundermail account
+  > I have tried to send emails from my Thundermail account to various gmail addresses. Thundermail 'Sent' show they have gone but they never show up in the gmail accounts. I have…
+- **[#8118](https://tbpro.zendesk.com/agent/tickets/8118)** · Accessing Alias — why: **curious** · how: **informed**
+  > So I see the web version of thundermail has alias that allow me to send from. I was wondering if there is a way to do the same on the Thunderbird app?
+
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP
+  > On the account page (https://[domain]/mail) the port number for SMTP is listed as 465. Using msmtp, i can only get it to work with port 587. (It hangs trying to get a connection…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#8128](https://tbpro.zendesk.com/agent/tickets/8128)** · Please refund my money
@@ -203,11 +215,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8119](https://tbpro.zendesk.com/agent/tickets/8119)** · ThunderMail Waitlist Invitation — why: **curious** · how: **actioned**
   > Hi [name], I joined the waitlist quite a while ago, I believe around four months ago, but I still haven’t received an invite. Could you please check my waitlist status and, if…
-
-### Webmail — 1 tickets
-
-- **[#8118](https://tbpro.zendesk.com/agent/tickets/8118)** · Accessing Alias — why: **curious** · how: **informed**
-  > So I see the web version of thundermail has alias that allow me to send from. I was wondering if there is a way to do the same on the Thunderbird app?
 
 ### MFA / two-factor — 1 tickets
 
@@ -233,6 +240,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8119](https://tbpro.zendesk.com/agent/tickets/8119) · [open] · 2026-08-31T22:51 · ThunderMail Waitlist Invitation
 - [8121](https://tbpro.zendesk.com/agent/tickets/8121) · [open] · 2026-09-01T00:24 · Pre-configure domain before transfer
 - [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [new] · 2026-09-01T08:07 · Please refund my money
+- [8129](https://tbpro.zendesk.com/agent/tickets/8129) · [new] · 2026-09-01T09:02 · Port number for SMTP
+- [8132](https://tbpro.zendesk.com/agent/tickets/8132) · [new] · 2026-09-01T09:16 · Cannot send SMTP messages from Thundermail account
 
 ## Solved — last 24h
 
