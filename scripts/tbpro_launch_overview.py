@@ -146,7 +146,8 @@ WAVES = [
     {"date": "2026-08-24", "end": "2026-08-24", "invites": 4000, "label": "Flight 8 Wave 4",      "color": "#818cf8"},
     {"date": "2026-08-25", "end": "2026-08-30", "invites": 3000, "label": "Flight 8 Wave 5",      "color": "#2dd4bf"},
     {"date": "2026-08-31", "end": "2026-08-31", "invites": 5000, "label": "Flight 8 Wave 6",      "color": "#fdba74"},
-    {"date": "2026-09-01", "end": "2099-12-31", "invites": 5000, "label": "Flight 8 Wave 7",      "color": "#c4b5fd"},
+    {"date": "2026-09-01", "end": "2099-12-31", "invites": 19000, "label": "Flight 8 Wave 7",      "color": "#c4b5fd",
+     "note": "Sent in error (19k vs planned 5k) — being tracked as an incident; invites are being honored, not revoked."},
     # Wave 4/5 counts corrected 2026-08-31 (were recorded as 2k/2k; actual 4k/3k).
     # Note: Jul 7 wave shipped at 3k (was the held 5k) after the email-confirmation bug (#6682) check.
     # Re-engagement waves = previously-waitlisted users re-invited; confirm whether to include in TOTAL_INVITEES.
@@ -1579,6 +1580,8 @@ def render_operational(data):
             note_html = '<br><span class="wave-note">just sent — tickets still arriving, rate not settled</span>'
         else:
             note_html = ""
+        if w.get("note"):
+            note_html += f'<br><span class="wave-note wave-note--incident">{w["note"]}</span>'
         csat     = w.get("csat_pct", "—")
         csat_n   = w.get("csat_n", 0)
         csat_note = f'<span class="wave-note">{csat_n} rated</span>' if csat_n else '<span class="wave-note">no ratings yet</span>'
@@ -2086,6 +2089,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .wave-tbl{{margin-bottom:var(--space-24)}}
 .wave-swatch{{width:4px;padding:0;border-right:none}}
 .wave-note{{font-size:.65rem;color:var(--color-text-muted);display:block;margin-top:2px}}
+.wave-note--incident{{color:var(--color-warning-text)}}
 .wave-rate--high{{color:var(--color-warning);font-weight:700}}
 .wave-rate--low{{color:var(--color-success);font-weight:700}}
 .bento{{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--space-12);margin-bottom:var(--space-24)}}
