@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 00:26 ET** · refreshes hourly_  
+_Updated: **2026-09-01 01:23 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -126,8 +126,8 @@ _(none in last 24h)_
 
 - **closed**: 273
 - **solved**: 146
-- **pending**: 40
-- **open**: 12
+- **pending**: 39
+- **open**: 13
 - **hold**: 9
 
 ## Service (cumulative)
@@ -207,19 +207,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8115](https://tbpro.zendesk.com/agent/tickets/8115)** · MFA setup on mobile
   > When trying to set up MFA via Safari on iOS I noticed that the pop-over displaying the code and more crucially the controls does not respond correctly making it impossible to…
 
-### Account access issues — 1 tickets
-
-- **[#8117](https://tbpro.zendesk.com/agent/tickets/8117)** · Send to thunderbird desktop app integration error — why: **blocked** · how: **explained**
-  > Hello there and forgive any disturb! After testing for a bit thunderbird linked to my thundermail account i sadly found out that when using the send integration directly from…
-
 ### Refund / Cancel — 1 tickets
 
 - **[#8114](https://tbpro.zendesk.com/agent/tickets/8114)** · Refund — why: **request** · how: **actioned**
   > Hi there, I’m writing to request a refund for my account. I no longer need it and I feel Like I wont be able to give feedback to you for the Beta version. I have a quick question:…
 
+### Account access issues — 1 tickets
+
+- **[#8117](https://tbpro.zendesk.com/agent/tickets/8117)** · Send to thunderbird desktop app integration error — why: **blocked** · how: **explained**
+  > Hello there and forgive any disturb! After testing for a bit thunderbird linked to my thundermail account i sadly found out that when using the send integration directly from…
+
 ## New tickets — last 24h
 
-- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [pending] · 2026-08-31T21:10 · Refund
+- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [open] · 2026-08-31T21:10 · Refund
 - [8115](https://tbpro.zendesk.com/agent/tickets/8115) · [open] · 2026-08-31T21:24 · MFA setup on mobile
 - [8117](https://tbpro.zendesk.com/agent/tickets/8117) · [pending] · 2026-08-31T22:47 · Send to thunderbird desktop app integration error
 - [8118](https://tbpro.zendesk.com/agent/tickets/8118) · [open] · 2026-08-31T22:48 · Accessing Alias
