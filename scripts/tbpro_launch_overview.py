@@ -42,6 +42,13 @@ TAG_THEMES = [
     ("macro_tbpro_request_or_complaint",    "Request or complaint"),
     ("pro_service_send",                    "Send (add-on)"),
     ("pro_service_appointment",             "Appointment"),
+    # Intelligent-triage entity-area tags — added where confidence is high
+    # (a direct, unambiguous product-area match). "filtering" and "addons"
+    # left unmapped: too ambiguous / too small a sample to commit to a label.
+    ("thundermail_entity_area_aliases",     "Aliases"),
+    ("thundermail_entity_area_webmail",     "Webmail"),
+    ("thundermail_entity_area_spam",        "Spam / Junk Filtering"),
+    ("thundermail_entity_area_protocols",   "Email Protocols (IMAP/SMTP/POP)"),
 ]
 MANUAL_THEMES = {
     6055: "Account access issues",
@@ -2386,15 +2393,6 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   </div>
 
   {csat_story_html}
-
-  <div class="insight">
-    <strong>Capacity projection — next flight</strong> — using the {avg_rate}% pooled contact rate of settled waves, {round(surge*100,0):.0f}% of weekly contacts land on day 2.
-    <div class="insight__nums">
-      <div class="insight__num"><div class="insight__num-val">~{per_1k}</div><div class="insight__num-lbl">contacts / 1k invites</div></div>
-      <div class="insight__num"><div class="insight__num-val">~{day2}</div><div class="insight__num-lbl">day-2 peak</div></div>
-      <div class="insight__num"><div class="insight__num-val">{aht_median}</div><div class="insight__num-lbl">median resolution</div></div>
-    </div>
-  </div>
 
   <div class="dual">
     <div class="panel">

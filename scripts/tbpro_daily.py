@@ -70,6 +70,14 @@ TAG_THEMES = [
 
     # ── General ──────────────────────────────────────────────────────────────
     ("macro_tbpro_request_or_complaint",    "Request or complaint"),
+
+    # ── Intelligent-triage entity-area tags — high confidence only ───────────
+    # "filtering" and "addons" left unmapped: too ambiguous / too small a
+    # sample to commit to a label.
+    ("thundermail_entity_area_aliases",     "Aliases"),
+    ("thundermail_entity_area_webmail",     "Webmail"),
+    ("thundermail_entity_area_spam",        "Spam / Junk Filtering"),
+    ("thundermail_entity_area_protocols",   "Email Protocols (IMAP/SMTP/POP)"),
 ]
 TAG_THEME_SET = {t for t, _ in TAG_THEMES}
 
