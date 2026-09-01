@@ -47,13 +47,15 @@ jobs:
           export ZENDESK_TOKEN="$(printf '%s' "$ZENDESK_TOKEN" | tr -d ' \t\r\n')"
           export FEATUREOS_API_KEY="$(printf '%s' "$FEATUREOS_API_KEY" | tr -d ' \t\r\n')"
           export FEATUREOS_JWT="$(printf '%s' "$FEATUREOS_JWT" | tr -d ' \t\r\n')"
-          python3 scripts/tbpro_launch_overview.py --out lisa/daily/launch_overview.html
+          python3 scripts/tbpro_launch_overview.py \
+            --out lisa/daily/launch_overview.html \
+            --out-operational lisa/daily/launch_overview_operational.html
 
       - name: Commit and push
         run: |
           git config user.name "Moment"
           git config user.email "lisajill@users.noreply.github.com"
-          git add lisa/daily/launch_overview.html
+          git add lisa/daily/launch_overview.html lisa/daily/launch_overview_operational.html
           if git diff --staged --quiet; then
             echo "No changes."
           else

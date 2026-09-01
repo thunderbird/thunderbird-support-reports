@@ -8,7 +8,7 @@ Usage:
   python3 scripts/tbpro_launch_overview.py
   python3 scripts/tbpro_launch_overview.py --out lisa/daily/launch_overview.html
 """
-import argparse, base64, datetime as dt, json, os, re, subprocess, sys, urllib.parse, urllib.request
+import argparse, base64, datetime as dt, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -119,6 +119,7 @@ def csat_score(t):
 
 LAUNCH_DATE = "2026-05-04"
 BRAND_ID = 38173138875795       # Zendesk brand ID for Thundermail (stable across renames)
+TIME_SPENT_FIELD_ID = 45345504704659  # Time Tracking app "Total time spent (sec)" — same field as capacity_dashboard.py
 
 WAVES = [
     {"date": "2026-05-04", "end": "2026-06-02", "invites": 600,  "label": "Early Bird",       "color": "#6366f1"},
@@ -168,10 +169,17 @@ def load_creds():
     return zd_creds()
 
 
-def zd_get(url, auth):
+def zd_get(url, auth, retries=4):
     req = urllib.request.Request(url, headers={"Authorization": auth, "Accept": "application/json"})
-    with urllib.request.urlopen(req) as r:
-        return json.load(r)
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries - 1:
+                time.sleep(int(e.headers.get("Retry-After", "10")))
+            else:
+                raise
 
 
 def fetch_tickets(creds):
@@ -199,9 +207,23 @@ def fetch_tickets(creds):
     return (auth, sub, filtered, raw_total)
 
 
+def _time_spent_mins(ticket):
+    """Time Tracking app 'Total time spent' custom field, in minutes (or None)."""
+    for cf in ticket.get("custom_fields", []):
+        if cf.get("id") == TIME_SPENT_FIELD_ID and cf.get("value"):
+            return int(cf["value"]) / 60
+    return None
+
+
 def fetch_aht(auth, sub, tickets, sample=None):
-    """Fetch ticket metrics for all solved tickets.
-    Returns (aht_calendar_mins, first_reply_mins, aht_by_id).
+    """AHT for all solved tickets, sourced from the Time Tracking app's
+    "Total time spent" field (active agent work time) rather than calendar
+    resolution time — the pending-first workflow's 48h bump inflates calendar
+    time to days and doesn't reflect actual handle time (same fix as
+    capacity_dashboard.py's AHT).
+    First reply time (frt) is unaffected — still from ticket metrics, calendar.
+
+    Returns (aht_mins, first_reply_mins, aht_by_id).
     aht_by_id: {str(ticket_id): {"mins": int, "week": str}}
     """
     solved = [t for t in tickets if t.get("status") == "solved"]
@@ -210,25 +232,140 @@ def fetch_aht(auth, sub, tickets, sample=None):
     frt_by_id = {}
     for t in solved:
         tid = str(t["id"])
+        mm = {}
         try:
             m = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{tid}/metrics.json", auth)
             mm = m.get("ticket_metric", {})
-            v = (mm.get("full_resolution_time_in_minutes") or {}).get("calendar")
-            r = (mm.get("reply_time_in_minutes") or {}).get("calendar")
-            if v and v > 0:
-                aht_list.append(v)
-                solved_at = mm.get("solved_at") or t.get("updated_at", "")
-                week = ""
-                if solved_at:
-                    d = dt.date.fromisoformat(solved_at[:10])
-                    week = (d - dt.timedelta(days=d.weekday())).isoformat()
-                aht_by_id[tid] = {"mins": v, "week": week}
-            if r is not None:
-                frt_list.append(r)
-                frt_by_id[tid] = r
         except Exception:
             pass
+
+        v = _time_spent_mins(t)
+        if v and v > 0:
+            solved_at = mm.get("solved_at") or t.get("updated_at", "")
+            week = ""
+            if solved_at:
+                d = dt.date.fromisoformat(solved_at[:10])
+                week = (d - dt.timedelta(days=d.weekday())).isoformat()
+            aht_list.append(v)
+            aht_by_id[tid] = {"mins": v, "week": week}
+
+        r = (mm.get("reply_time_in_minutes") or {}).get("calendar")
+        if r is not None:
+            frt_list.append(r)
+            frt_by_id[tid] = r
     return aht_list, frt_list, aht_by_id, frt_by_id
+
+
+# ── Ticket complexity & reply-gap wait time ─────────────────────────────────
+# "How long do users actually wait for help" — built from real public-comment
+# timestamps (customer comment → next agent public reply), not ticket status.
+# Status-based metrics (calendar resolution time, requester/agent_wait_time)
+# are distorted by the pending-first bump/solve/CSAT cadence (~48h+120h+24h)
+# and by legitimate hold-for-research cycling — this sidesteps both.
+#
+# Segments (confirmed against real ticket audit trails, Aug 2026):
+#   - Known problem:  type=incident, linked to a tracked Problem ticket
+#   - Research/repro: touched Hold status at least once, not a known problem —
+#     "hold" is used for investigation/reproduction, not customer-side waiting
+#   - Straightforward: never touched Hold
+# No duration threshold on the Hold flag — a quick hold-to-check-a-known-problem
+# is still real triage work, not noise. (Undocumented brief holds do exist;
+# the fix is agents noting the reason on the ticket, not filtering by duration.)
+
+def _ever_on_hold(auth, sub, ticket_id):
+    d = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{ticket_id}/audits.json?sort_order=asc", auth)
+    for audit in d.get("audits", []):
+        for ev in audit.get("events", []):
+            if ev.get("type") == "Change" and ev.get("field_name") == "status" and ev.get("value") == "hold":
+                return True
+    return False
+
+
+def _reply_gaps(auth, sub, ticket):
+    """(total_wait_mins, [gap_mins, ...]) for one ticket — sum/list of
+    customer-comment → next-agent-public-reply gaps."""
+    req_id = ticket.get("requester_id")
+    try:
+        d = zd_get(f"https://{sub}.zendesk.com/api/v2/tickets/{ticket['id']}/comments.json?sort_order=asc", auth)
+    except Exception:
+        return 0, []
+    pub = [(c["created_at"], c.get("author_id")) for c in d.get("comments", []) if c.get("public")]
+    pub.sort()
+    total_wait, gaps, i = 0, [], 0
+    parse = lambda ts: dt.datetime.fromisoformat(ts.replace("Z", "+00:00"))
+    while i < len(pub):
+        ts, author = pub[i]
+        if author != req_id:
+            i += 1
+            continue
+        t_cust = parse(ts)
+        for j in range(i + 1, len(pub)):
+            ts2, author2 = pub[j]
+            if author2 != req_id:
+                gap_mins = (parse(ts2) - t_cust).total_seconds() / 60
+                if gap_mins > 0:
+                    gaps.append(gap_mins)
+                    total_wait += gap_mins
+                break
+        i += 1
+    return total_wait, gaps
+
+
+def fetch_complexity(auth, sub, tickets):
+    """Segment tickets and compute wait-time stats per segment.
+    Returns {segment_key: {"n", "total_wait_median_h", "total_wait_mean_h",
+                            "gap_median_h", "gap_p75_h", "gap_n"}}.
+    """
+    kp = [t for t in tickets if t.get("type") == "incident" and t.get("problem_id")]
+    kp_ids = {t["id"] for t in kp}
+    rest = [t for t in tickets if t["id"] not in kp_ids]
+
+    hold_ids = {t["id"] for t in rest if _ever_on_hold(auth, sub, t["id"])}
+    research = [t for t in rest if t["id"] in hold_ids]
+    straightforward = [t for t in rest if t["id"] not in hold_ids]
+
+    def segment_stats(tlist):
+        totals, gaps = [], []
+        for t in tlist:
+            tw, g = _reply_gaps(auth, sub, t)
+            if tw > 0:
+                totals.append(tw)
+            gaps.extend(g)
+        stats = {"n": len(tlist)}
+        if totals:
+            stats["total_wait_median_h"] = round(statistics.median(totals) / 60, 1)
+            stats["total_wait_mean_h"] = round(statistics.mean(totals) / 60, 1)
+        if gaps:
+            stats["gap_median_h"] = round(statistics.median(gaps) / 60, 1)
+            stats["gap_p75_h"] = round(sorted(gaps)[int(len(gaps) * .75)] / 60, 1)
+            stats["gap_n"] = len(gaps)
+        # What subjects drive this segment — already-classified, no extra fetch.
+        stats["top_themes"] = Counter(classify_ticket(t) for t in tlist).most_common(4)
+        return stats
+
+    return {
+        "straightforward": segment_stats(straightforward),
+        "research_repro": segment_stats(research),
+        "known_problem": segment_stats(kp),
+    }
+
+
+def theme_bug_flags(tickets, gh_links, min_n=3, top_n=8):
+    """Themes ranked by share of tickets with a confirmed GitHub issue attached
+    — a real bug, not user confusion. High volume + low rate usually means a
+    documentation/KB gap instead."""
+    theme_tickets = defaultdict(list)
+    for t in tickets:
+        theme_tickets[classify_ticket(t)].append(t)
+    flags = []
+    for theme, tl in theme_tickets.items():
+        if len(tl) < min_n:
+            continue
+        linked = [t for t in tl if t["id"] in gh_links]
+        flags.append({"theme": theme, "n": len(tl), "gh_linked": len(linked),
+                      "pct": round(len(linked) / len(tl) * 100)})
+    flags.sort(key=lambda x: (-x["pct"], -x["n"]))
+    return flags[:top_n]
 
 
 # ── FeatureOS ─────────────────────────────────────────────────────────────────
@@ -869,7 +1006,323 @@ def _eng_card(t, sub, gh_links):
     )
 
 
-def render(data):
+def render_signal(tickets, raw_total, csat_all, blockers, ideas_top10, gh_links, complexity, flags):
+    """The Signal page — leads with UX + ticket complexity + product/KB-gap red
+    flags. Operational detail (waves, capacity, full theme/AHT tables) lives in
+    launch_overview_operational.html, linked from here. Ported from the
+    approved prototype (lisa/daily/launch_overview_sample.html, Aug 31 2026)."""
+    gen = dt.datetime.now().strftime("%Y-%m-%d %H:%M ET")
+    today = dt.date.today().isoformat()
+
+    theme_counts = Counter(classify_ticket(t) for t in tickets)
+    top_themes = theme_counts.most_common(9)
+
+    sf, rr, kp = complexity["straightforward"], complexity["research_repro"], complexity["known_problem"]
+    _drivers = lambda seg: ", ".join(f"{theme} ({n})" for theme, n in seg.get("top_themes", []))
+    multiplier = (round(rr.get("total_wait_median_h", 0) / sf["total_wait_median_h"], 1)
+                  if sf.get("total_wait_median_h") else None)
+    mult_str = f"{multiplier}×" if multiplier else "several times"
+
+    csat_eb, csat_f2, csat_week = csat_all.get("eb", {}), csat_all.get("f2", {}), csat_all.get("week", {})
+
+    active_blockers = [b for b in blockers
+                       if b.get("manual") or b.get("status") not in ("solved", "closed")]
+    blocker_html = ""
+    for b in active_blockers[:3]:
+        gh_html = ""
+        for link in b.get("static_gh_links", []):
+            gh_html += f' <a href="{link["url"]}" target="_blank">{link["repo"].split("/")[-1]}#{link["number"]}</a>'
+        blocker_html += (
+            f'<div class="insight insight--info">'
+            f'<strong>{"Watch item" if b.get("manual") else "Active blocker"}:</strong> '
+            f'{b.get("description") or b.get("subject","")}{gh_html}</div>\n'
+        )
+    if not blocker_html:
+        blocker_html = '<div class="insight insight--info"><strong>No active blockers.</strong></div>'
+
+    flag_rows = ""
+    for f in flags:
+        pct = f["pct"]
+        flag_rows += (
+            f'<tr><td>{f["theme"]}</td><td class="num">{f["n"]}</td>'
+            f'<td><span class="pct-bar-wrap"><span class="pct-bar" style="width:{pct}%"></span></span>'
+            f'{pct}% ({f["gh_linked"]} linked)</td></tr>\n'
+        )
+    top_flag = flags[0] if flags else None
+
+    theme_rows = "".join(
+        f'<li><span>{theme}</span><b>{n}</b></li>\n' for theme, n in top_themes
+    )
+
+    STATUS_BADGE = {"Landed!": "landed", "On the roadmap": "roadmap"}
+    idea_rows = ""
+    for p in (ideas_top10 or [])[:5]:
+        status = (p.get("custom_status") or {}).get("title", "")
+        cls = STATUS_BADGE.get(status, "open")
+        idea_rows += (
+            f'<tr><td>{p.get("title","")}</td><td class="num">{p.get("votes_count",0)}</td>'
+            f'<td><span class="badge badge--{cls}">{status}</span></td></tr>\n'
+        )
+
+    gh_link_total = sum(len(v) for v in gh_links.values())
+    gh_ticket_count = len(gh_links)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thundermail Launch — Support Signal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* CSS REGION: tokens — Bolt dark palette, same tokens as launch_overview_operational.html */
+:root {{
+  --color-surface-base:          #0d0c14;
+  --color-surface-lower:         #060618;
+  --color-surface-raised:        #15131e;
+  --color-surface-overlay:       #1c1a28;
+  --color-surface-border:        #2b2845;
+  --color-surface-border-strong: #3e3b62;
+  --color-primary:               #4d7bf8;
+  --color-primary-soft:          #0e1038;
+  --color-secondary:             #7c3aed;
+  --color-text-base:             #e2e0f0;
+  --color-text-secondary:        #b0aece;
+  --color-text-muted:            #9492b0;
+  --color-success:               #22c55e;
+  --color-success-soft:          #041d0e;
+  --color-warning:               #f59e0b;
+  --color-warning-soft:          #1c1200;
+  --color-warning-text:          #fcd34d;
+  --color-critical:              #ef4444;
+  --color-critical-soft:         #2a0808;
+  --color-teal:                  #00d4a0;
+  --color-orange:                #f97316;
+  --color-on-inverse:            #ffffff;
+  --space-4:  0.25rem;
+  --space-8:  0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --font-mono: 'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+}}
+*,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
+html{{scroll-behavior:smooth}}
+body{{background:var(--color-surface-base);color:var(--color-text-base);font-family:'Inter',system-ui,sans-serif;font-size:14px;line-height:1.55;min-height:100vh}}
+a{{color:var(--color-primary);text-decoration:none}}
+a:hover{{text-decoration:underline}}
+a:focus-visible,button:focus-visible,summary:focus-visible{{outline:2px solid var(--color-primary);outline-offset:2px}}
+code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surface-border);padding:.1em .35em;border-radius:4px}}
+.wrap{{max-width:920px;margin:0 auto;padding:var(--space-32) var(--space-16) var(--space-48)}}
+.crosslink{{font-size:.78rem;margin-bottom:var(--space-16)}}
+.masthead{{margin-bottom:var(--space-32)}}
+.masthead__eyebrow{{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-teal);margin-bottom:var(--space-8)}}
+.masthead__headline{{font-size:1.6rem;font-weight:800;line-height:1.25;margin-bottom:var(--space-12)}}
+.masthead__headline em{{color:var(--color-teal);font-style:normal}}
+.masthead__meta{{font-size:.78rem;color:var(--color-text-muted);margin-bottom:var(--space-16)}}
+.masthead__highlights{{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-12)}}
+@media(max-width:700px){{.masthead__highlights{{grid-template-columns:1fr}}}}
+.masthead__highlights li{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-12) var(--space-16)}}
+.hl__val{{font-size:1.3rem;font-weight:700;font-variant-numeric:tabular-nums}}
+.hl__lbl{{font-size:.72rem;color:var(--color-text-muted);margin-top:2px}}
+.hl--good .hl__val{{color:var(--color-success)}}
+.hl--warn .hl__val{{color:var(--color-warning-text)}}
+.hl--info .hl__val{{color:var(--color-teal)}}
+.section{{margin-bottom:var(--space-32)}}
+.section__head{{display:flex;align-items:baseline;gap:var(--space-8);margin-bottom:var(--space-16);border-bottom:1px solid var(--color-surface-border);padding-bottom:var(--space-8)}}
+.section__num{{font-family:var(--font-mono);font-size:.7rem;color:var(--color-text-muted)}}
+.section__title{{font-size:1.05rem;font-weight:700}}
+.section__sub{{font-size:.78rem;color:var(--color-text-muted);margin-top:-8px;margin-bottom:var(--space-16)}}
+.panel{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-lg);padding:var(--space-16)}}
+.panel--spaced{{margin-bottom:var(--space-16)}}
+.panel__title{{font-size:.85rem;font-weight:700;margin-bottom:var(--space-12)}}
+.panel__note{{font-size:.75rem;color:var(--color-text-muted);margin-top:var(--space-12);line-height:1.6}}
+.complexity-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-12);margin-bottom:var(--space-16)}}
+@media(max-width:760px){{.complexity-grid{{grid-template-columns:1fr}}}}
+.cx-card{{border-radius:var(--radius-lg);padding:var(--space-16);border:1px solid var(--color-surface-border);background:var(--color-surface-overlay)}}
+.cx-card--flag{{border-color:var(--color-warning);background:linear-gradient(180deg,var(--color-warning-soft),var(--color-surface-overlay))}}
+.cx-card__name{{font-size:.85rem;font-weight:700;margin-bottom:var(--space-4)}}
+.cx-card__n{{font-size:.7rem;color:var(--color-text-muted);margin-bottom:var(--space-12)}}
+.cx-card__stat{{display:flex;justify-content:space-between;font-size:.78rem;padding:6px 0;border-top:1px solid var(--color-surface-border)}}
+.cx-card__stat:first-of-type{{border-top:none}}
+.cx-card__stat b{{font-variant-numeric:tabular-nums}}
+.cx-card--flag .cx-card__stat b{{color:var(--color-warning-text)}}
+.cx-card__drivers{{font-size:.7rem;color:var(--color-text-muted);margin-top:var(--space-8);padding-top:var(--space-8);border-top:1px solid var(--color-surface-border)}}
+.insight{{border-radius:var(--radius-md);padding:var(--space-12) var(--space-16);font-size:.8rem;line-height:1.6;margin-top:var(--space-4)}}
+.insight--info{{background:var(--color-primary-soft);border:1px solid var(--color-primary)}}
+.insight--warn{{background:var(--color-warning-soft);border:1px solid var(--color-warning);color:var(--color-warning-text)}}
+.tbl{{width:100%;border-collapse:collapse;font-size:.8rem}}
+.tbl th{{text-align:left;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:var(--color-text-muted);padding:8px 10px;border-bottom:1px solid var(--color-surface-border-strong)}}
+.tbl td{{padding:9px 10px;border-bottom:1px solid var(--color-surface-border)}}
+.tbl tr:last-child td{{border-bottom:none}}
+.tbl .num{{text-align:right;font-variant-numeric:tabular-nums}}
+.tbl tbody tr:hover{{background:var(--color-surface-overlay)}}
+.pct-bar-wrap{{display:inline-block;width:60px;height:6px;background:var(--color-surface-border);border-radius:3px;overflow:hidden;vertical-align:middle;margin-right:6px}}
+.pct-bar{{height:100%;background:var(--color-warning)}}
+.badge{{display:inline-block;font-size:.65rem;font-weight:700;padding:2px 7px;border-radius:99px;text-transform:uppercase;letter-spacing:.03em}}
+.badge--landed{{background:var(--color-success-soft);color:var(--color-success)}}
+.badge--roadmap{{background:var(--color-primary-soft);color:var(--color-primary)}}
+.badge--open{{background:var(--color-surface-border);color:var(--color-text-secondary)}}
+.scan-list{{list-style:none;font-size:.8rem}}
+.scan-list li{{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--color-surface-border)}}
+.scan-list li:last-child{{border-bottom:none}}
+.scan-list b{{font-variant-numeric:tabular-nums;color:var(--color-text-secondary)}}
+details.appendix{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-lg);padding:var(--space-16);margin-bottom:var(--space-12)}}
+details.appendix summary{{cursor:pointer;font-weight:700;font-size:.85rem;list-style:none}}
+details.appendix summary::-webkit-details-marker{{display:none}}
+details.appendix summary::before{{content:"▸ ";color:var(--color-teal)}}
+details.appendix[open] summary::before{{content:"▾ "}}
+details.appendix .appendix__body{{margin-top:var(--space-16)}}
+footer{{border-top:1px solid var(--color-surface-border);padding-top:var(--space-16);font-size:.72rem;color:var(--color-text-muted);line-height:1.7}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="crosslink"><a href="launch_overview_operational.html">→ Operational detail (invite waves, capacity, full tables)</a></div>
+
+  <div class="masthead">
+    <div class="masthead__eyebrow">Thundermail Launch · Support Signal</div>
+    <h1 class="masthead__headline">CSAT holds at <em>{csat_eb.get('pct','—')}</em>, but complex tickets take <em>{mult_str} longer</em> to close than routine ones — that gap is where product and KB gaps live.</h1>
+    <div class="masthead__meta">Early Bird (May 4) → {today} · {len(tickets)} Thundermail-brand tickets — subscribers, waitlisted/mid-signup, and invite requests · generated {gen}</div>
+    <ul class="masthead__highlights">
+      <li class="hl--good"><div class="hl__val">{csat_eb.get('pct','—')}</div><div class="hl__lbl">CSAT since launch · {csat_eb.get('n',0)} rated</div></li>
+      <li class="hl--warn"><div class="hl__val">{rr['n']}</div><div class="hl__lbl">Research/repro tickets · {rr.get('total_wait_median_h','—')}h median total wait</div></li>
+      <li class="hl--info"><div class="hl__val">{len(flags)}</div><div class="hl__lbl">Themes with confirmed GitHub bugs (≥3 tickets)</div></li>
+    </ul>
+  </div>
+
+  <!-- SECTION: ux-signal -->
+  <section class="section" id="ux-signal">
+    <div class="section__head"><span class="section__num">01</span><h2 class="section__title">How are users doing?</h2></div>
+    <div class="panel panel--spaced">
+      <div class="panel__title">CSAT — good vs bad, by cohort</div>
+      <table class="tbl">
+        <thead><tr><th>Cohort</th><th class="num">Good</th><th class="num">Bad</th><th class="num">Rated</th><th class="num">CSAT</th></tr></thead>
+        <tbody>
+          <tr><td>Since launch (Early Bird+)</td><td class="num">{csat_eb.get('good',0)}</td><td class="num">{csat_eb.get('bad',0)}</td><td class="num">{csat_eb.get('n',0)}</td><td class="num" style="color:var(--color-success);font-weight:700">{csat_eb.get('pct','—')}</td></tr>
+          <tr><td>Flight 2 onward</td><td class="num">{csat_f2.get('good',0)}</td><td class="num">{csat_f2.get('bad',0)}</td><td class="num">{csat_f2.get('n',0)}</td><td class="num" style="color:var(--color-success);font-weight:700">{csat_f2.get('pct','—')}</td></tr>
+          <tr><td>This week</td><td class="num">{csat_week.get('good',0)}</td><td class="num">{csat_week.get('bad',0)}</td><td class="num">{csat_week.get('n',0)}</td><td class="num" style="color:var(--color-text-muted)">{csat_week.get('pct','—')} <span style="font-weight:400">(n={csat_week.get('n',0)}, may be too small to trend)</span></td></tr>
+        </tbody>
+      </table>
+      <p class="panel__note">The signal worth tracking isn't overall satisfaction — it's <strong>where effort goes before a customer even gets to rate us</strong> (see below).</p>
+    </div>
+  </section>
+
+  <!-- SECTION: complexity -->
+  <section class="section" id="complexity">
+    <div class="section__head"><span class="section__num">02</span><h2 class="section__title">Ticket complexity — the real signal</h2></div>
+    <p class="section__sub">Segmented by what actually happened on the ticket (hold history, Known Problem linkage), not by status bookkeeping. Wait times from actual public-reply timestamps — immune to bump/pending automation noise.</p>
+
+    <div class="complexity-grid">
+      <div class="cx-card">
+        <div class="cx-card__name">Straightforward</div>
+        <div class="cx-card__n">{sf['n']} tickets · never went on hold</div>
+        <div class="cx-card__stat"><span>Total wait (median)</span><b>{sf.get('total_wait_median_h','—')}h</b></div>
+        <div class="cx-card__stat"><span>Between replies (median)</span><b>{sf.get('gap_median_h','—')}h</b></div>
+        <div class="cx-card__drivers">Top: {_drivers(sf) or '—'}</div>
+      </div>
+      <div class="cx-card cx-card--flag">
+        <div class="cx-card__name">Research / repro</div>
+        <div class="cx-card__n">{rr['n']} tickets · held for investigation, no Known Problem</div>
+        <div class="cx-card__stat"><span>Total wait (median)</span><b>{rr.get('total_wait_median_h','—')}h</b></div>
+        <div class="cx-card__stat"><span>Between replies (median)</span><b>{rr.get('gap_median_h','—')}h</b></div>
+        <div class="cx-card__drivers">Top: {_drivers(rr) or '—'}</div>
+      </div>
+      <div class="cx-card">
+        <div class="cx-card__name">Known problem</div>
+        <div class="cx-card__n">{kp['n']} tickets · linked to a tracked incident</div>
+        <div class="cx-card__stat"><span>Total wait (median)</span><b>{kp.get('total_wait_median_h','—')}h</b></div>
+        <div class="cx-card__stat"><span>Between replies (median)</span><b>{kp.get('gap_median_h','—')}h</b></div>
+        <div class="cx-card__drivers">Top: {_drivers(kp) or '—'}</div>
+      </div>
+    </div>
+
+    <div class="insight insight--warn">
+      <strong>Research/repro tickets are the real cost center.</strong> Each individual reply isn't much slower than a routine ticket — the pain is <em>rounds</em>: users get bounced back and forth while we investigate. A ticket in this bucket waits roughly <strong>{mult_str} longer in total</strong> than a straightforward one. Known-problem tickets, by contrast, tend to resolve fastest per-reply because the answer is already templated — the fix belongs to engineering, not support capacity.
+    </div>
+  </section>
+
+  <!-- SECTION: red-flags -->
+  <section class="section" id="red-flags">
+    <div class="section__head"><span class="section__num">03</span><h2 class="section__title">Product &amp; KB gaps — where to act</h2></div>
+    <p class="section__sub">Themes ranked by share of tickets with a confirmed GitHub issue attached — a real bug, not user confusion. High volume + low bug rate usually means a documentation/KB gap instead.</p>
+
+    <div class="panel panel--spaced">
+      <table class="tbl">
+        <thead><tr><th>Theme</th><th class="num">Tickets</th><th>Confirmed bug rate</th></tr></thead>
+        <tbody>
+          {flag_rows}
+        </tbody>
+      </table>
+      <p class="panel__note">{f"<strong>{top_flag['theme']}</strong> stands out: {top_flag['pct']}% of its tickets have a confirmed engineering issue attached — that's product debt generating support load, not a training gap." if top_flag else "No themes with 3+ tickets have a confirmed GitHub-linked bug yet."} {gh_link_total} GitHub links across {gh_ticket_count} tickets total this launch.</p>
+    </div>
+
+    {blocker_html}
+  </section>
+
+  <!-- SECTION: volume -->
+  <section class="section" id="volume">
+    <div class="section__head"><span class="section__num">04</span><h2 class="section__title">What people ask about</h2></div>
+    <p class="section__sub">Top themes by volume — moved below complexity/red-flags since raw volume alone doesn't say where the risk is.</p>
+    <div class="panel">
+      <ul class="scan-list">
+        {theme_rows}
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTION: roadmap -->
+  <section class="section" id="roadmap">
+    <div class="section__head"><span class="section__num">05</span><h2 class="section__title">Roadmap connection</h2></div>
+    <div class="panel">
+      <table class="tbl">
+        <thead><tr><th>Idea</th><th class="num">Votes</th><th>Status</th></tr></thead>
+        <tbody>
+          {idea_rows}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SECTION: appendix -->
+  <section class="section" id="appendix">
+    <div class="section__head"><span class="section__num">06</span><h2 class="section__title">Operational detail</h2></div>
+    <details class="appendix">
+      <summary>Invite waves, capacity &amp; full tables</summary>
+      <div class="appendix__body">
+        <p class="panel__note" style="margin-top:0">Wave-by-wave history, contact-rate math, capacity projections, AHT internals, and the full theme table live on the <a href="launch_overview_operational.html">Operational detail page</a>.</p>
+      </div>
+    </details>
+    <details class="appendix">
+      <summary>Methodology &amp; glossary</summary>
+      <div class="appendix__body">
+        <p class="panel__note" style="margin-top:0"><strong>Complexity segments:</strong> Straightforward = never entered Hold status. Research/repro = entered Hold at least once, not linked to a tracked Problem. Known problem = ticket type Incident, linked to a Problem ticket.</p>
+        <p class="panel__note"><strong>Total wait / between-reply gap:</strong> computed from actual public comment timestamps (customer comment → next public agent reply), not ticket status — avoids the pending/hold/bump-macro distortion in calendar-time metrics.</p>
+        <p class="panel__note"><strong>Confirmed bug rate:</strong> % of a theme's tickets with a GitHub issue link (<code>zd-gh</code> tag) attached.</p>
+      </div>
+    </details>
+  </section>
+
+  <footer>
+    Ticket subjects and content are aggregated/categorized only — no raw customer text or PII in this report.
+    Raw Zendesk export may show ~{raw_total} tickets before exclusions (test/merged/misrouted tickets removed).
+  </footer>
+
+</div>
+</body>
+</html>
+"""
+
+
+def render_operational(data):
     gen = dt.datetime.now().strftime("%Y-%m-%d %H:%M ET")
     total = data["total"]
     raw_total = data.get("raw_total", total)
@@ -1233,7 +1686,19 @@ def render(data):
     # ── theme section HTML ─────────────────────────────────────────────────
     theme_tickets_map = data.get("theme_tickets", {})
     MISDIRECT_KEY = "Misdirected — wrong product / non-subscriber"
-    F2_START = "2026-06-03"  # start of active launch (Flight 2+3)
+    # "Current flight" baseline — derived from WAVES so this never goes stale.
+    # Was hardcoded to "2026-06-03" / "Flights 2 & 3" and silently accreted
+    # every later flight (through Flight 8) under a Flight-2/3 label.
+    _last_flight_m = re.match(r"Flight (\d+)", WAVES[-1]["label"])
+    if _last_flight_m:
+        _fn = _last_flight_m.group(1)
+        _current_flight_waves = [w for w in WAVES if w["label"].startswith(f"Flight {_fn} ")]
+        F2_START = _current_flight_waves[0]["date"]
+        CURRENT_FLIGHT_LABEL = f"Flight {_fn}"
+    else:
+        F2_START = WAVES[-1]["date"]
+        CURRENT_FLIGHT_LABEL = WAVES[-1]["label"]
+    F2_START_LABEL = dt.date.fromisoformat(F2_START).strftime("%b %-d")
 
     # Active launch tickets (Flight 2 + Flight 3, subscriber themes, no misdirects)
     f2_tickets = [t for t in (theme_tickets_map.get(MISDIRECT_KEY) or [])
@@ -1484,6 +1949,8 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 .rail__logo{{width:32px;height:32px}}
 .rail__title{{font-size:.88rem;font-weight:700;line-height:1.25}}
 .rail__tag{{font-size:.625rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-teal)}}
+.rail-crosslink{{margin:var(--space-12) 0;font-size:.72rem}}
+.rail-crosslink a{{color:var(--color-text-secondary)}}
 .rail__nav{{list-style:none;display:flex;flex-direction:column;gap:2px}}
 @media(max-width:960px){{.rail__nav{{flex-direction:row;flex-wrap:wrap;gap:var(--space-4)}}}}
 .rail__nav a{{
@@ -1785,10 +2252,11 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="rail__brand">
     <img class="rail__logo" src="https://tb.pro/media/img/thunderbird/thunderbird-256.png" alt="">
     <div>
-      <div class="rail__tag">Support Briefing</div>
+      <div class="rail__tag">Operational Detail</div>
       <div class="rail__title">Thundermail Launch</div>
     </div>
   </div>
+  <div class="rail-crosslink"><a href="launch_overview.html">← Support Signal</a></div>
   <nav aria-label="Sections">
     <ul class="rail__nav">
       <li><a href="#story" class="is-active">Story</a></li>
@@ -1850,7 +2318,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
     <div class="tile tile--span3 tile--warn">
       <div class="tile__val">{aht_median} {aht_delta}</div>
       <div class="tile__lbl">Median AHT</div>
-      <div class="tile__sub">calendar time to resolve · {aht_n} solved</div>
+      <div class="tile__sub">active work time (Time Tracking app) · {aht_n} solved</div>
     </div>
     <div class="tile tile--span3">
       <div class="tile__val">{frt_median} {frt_delta}</div>
@@ -1930,19 +2398,19 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 
 <!-- SECTION: aht -->
 <section class="section" id="aht">
-  <div class="section__head"><span class="section__num">02a</span><h2 class="section__title">Resolution time (AHT)</h2></div>
+  <div class="section__head"><span class="section__num">02a</span><h2 class="section__title">Handle time (AHT)</h2></div>
 
   <div class="aht-hero">
-    <div class="aht-stat"><div class="aht-stat__val">{aht_median}</div><div class="aht-stat__lbl">Median AHT · calendar hours</div></div>
-    <div class="aht-stat"><div class="aht-stat__val">{aht_mean}</div><div class="aht-stat__lbl">Mean AHT · calendar hours</div></div>
+    <div class="aht-stat"><div class="aht-stat__val">{aht_median}</div><div class="aht-stat__lbl">Median AHT · active work hours</div></div>
+    <div class="aht-stat"><div class="aht-stat__val">{aht_mean}</div><div class="aht-stat__lbl">Mean AHT · active work hours</div></div>
     <div class="aht-stat"><div class="aht-stat__val">{aht_p75}</div><div class="aht-stat__lbl">75th percentile</div></div>
     <div class="aht-stat"><div class="aht-stat__val">{frt_median}</div><div class="aht-stat__lbl">Median first reply · calendar</div></div>
   </div>
 
   <div class="panel panel--spaced">
-    <div class="panel__title">How long to close? ({aht_n} solved · calendar hours)</div>
+    <div class="panel__title">How long to close? ({aht_n} solved · active work hours)</div>
     {aht_dist_html}
-    <p class="panel__note">AHT measured in calendar time (creation → solved). Nights and weekends are included — business-hours figures run shorter. DNS setup and GH-linked bugs drive the long tail.</p>
+    <p class="panel__note">AHT measured from the Time Tracking app's logged work time, not calendar time — the pending-first workflow (bump 1 at 48h, solve-bump at 120h, CSAT survey 24h later) can push calendar resolution time past 130h without reflecting any actual agent work, so calendar time is not used here. DNS setup and GH-linked bugs still drive the long tail in active time.</p>
   </div>
 {aht_trend_html}
 {wdl_html}
@@ -1981,13 +2449,13 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
   <div class="panel">
     <div class="theme-block">
       <div class="theme-block__head">
-        <div class="theme-block__title">Thundermail themes · Flights 2 &amp; 3</div>
-        <div class="theme-block__meta">Jun 3+ · baseline for next flight</div>
+        <div class="theme-block__title">Thundermail themes · {CURRENT_FLIGHT_LABEL}</div>
+        <div class="theme-block__meta">{F2_START_LABEL}+ · baseline for next flight</div>
       </div>
       <div class="themes">
         {f2_theme_html}
       </div>
-      <p class="panel__note">Flight 2 + Flight 3 on-topic Thundermail tickets from invited users (excl. misdirected). Use this for staffing the next flight.</p>
+      <p class="panel__note">{CURRENT_FLIGHT_LABEL} on-topic Thundermail tickets from invited users (excl. misdirected). Use this for staffing the next flight.</p>
     </div>
 
     {misdirect_callout}
@@ -2058,7 +2526,7 @@ code{{font-family:var(--font-mono);font-size:.85em;background:var(--color-surfac
 <section class="section" id="glossary">
   <div class="section__head"><span class="section__num">07</span><h2 class="section__title">Glossary</h2></div>
   <div class="glossary">
-    <details><summary>AHT (Average Handle Time)</summary><div class="glossary__body">Calendar time from ticket creation to resolution (Solved status). Median is used rather than mean to reduce outlier impact. Based on {aht_n} solved tickets.</div></details>
+    <details><summary>AHT (Average Handle Time)</summary><div class="glossary__body">Active agent work time on solved tickets, from the Time Tracking app's "Total time spent" field — not calendar time. The pending-first workflow's bump/solve/CSAT cadence (48h + 120h + 24h) inflates calendar resolution time without reflecting actual work, so it isn't used. Median is used rather than mean to reduce outlier impact. Based on {aht_n} solved tickets.</div></details>
     <details><summary>First Reply Time</summary><div class="glossary__body">Time from ticket creation to the agent's first response. Reported in calendar hours.</div></details>
     <details><summary>Contact Rate</summary><div class="glossary__body">Percentage of invitees who made contact across any channel. Calculated as: (support tickets + FeatureOS idea submissions + customer comments on ideas) ÷ invitees in that wave. Staff/team comments are excluded. A lower rate indicates a smoother onboarding experience.</div></details>
     <details><summary>Day-2 Peak</summary><div class="glossary__body">Historically, ~40% of a wave's first-week tickets arrive on the second day after invites go out. Used to estimate staffing needs for a new batch.</div></details>
@@ -2323,9 +2791,15 @@ if (ahtTrendWeeks.length && document.getElementById('ahtTrendChart')) {{
 </html>"""
 
 
+DEFAULT_OUT_OPERATIONAL = Path("lisa/daily/launch_overview_operational.html")
+
+
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--out", default=str(DEFAULT_OUT))
+    p.add_argument("--out", default=str(DEFAULT_OUT),
+                    help="Signal page (leads with UX/complexity/red flags)")
+    p.add_argument("--out-operational", default=str(DEFAULT_OUT_OPERATIONAL),
+                    help="Operational page (waves, capacity, full tables)")
     args = p.parse_args()
 
     print("Fetching Zendesk tickets…", file=sys.stderr)
@@ -2357,13 +2831,27 @@ def main():
     csat_all = fetch_csat_stats(tickets)
     print(f"  Since launch: {csat_all['eb']['pct']} ({csat_all['eb']['n']} rated, {csat_all['eb']['bad']} bad)", file=sys.stderr)
 
-    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total, idea_comments=idea_comments, frt_by_id=frt_by_id)
-    html = render(data)
+    print("Segmenting ticket complexity & reply-gap wait time…", file=sys.stderr)
+    complexity = fetch_complexity(auth, sub, tickets)
+    print(f"  straightforward={complexity['straightforward']['n']} "
+          f"research/repro={complexity['research_repro']['n']} "
+          f"known_problem={complexity['known_problem']['n']}", file=sys.stderr)
 
+    flags = theme_bug_flags(tickets, gh_links)
+
+    data = build(tickets, aht_mins, frt_mins, ideas_all, ideas_top10, gh_links, blockers, csat_all, aht_by_id=aht_by_id, raw_total=raw_total, idea_comments=idea_comments, frt_by_id=frt_by_id)
+
+    signal_html = render_signal(tickets, raw_total, csat_all, blockers, ideas_top10, gh_links, complexity, flags)
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(html)
+    out.write_text(signal_html)
     print(f"Wrote {out}", file=sys.stderr)
+
+    operational_html = render_operational(data)
+    out_op = Path(args.out_operational)
+    out_op.parent.mkdir(parents=True, exist_ok=True)
+    out_op.write_text(operational_html)
+    print(f"Wrote {out_op}", file=sys.stderr)
 
 
 if __name__ == "__main__":
