@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-08-31
 
-_Updated: **2026-08-31 22:32 ET** · refreshes hourly_  
+_Updated: **2026-08-31 23:28 ET** · refreshes hourly_  
 _24h window: 2026-08-30T16:00 → 2026-08-31T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -126,15 +126,15 @@ _No negative ratings since launch._
 
 - **closed**: 273
 - **solved**: 146
-- **pending**: 37
-- **open**: 12
+- **pending**: 39
+- **open**: 11
 - **hold**: 9
-- **new**: 3
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 240
-- **Thundermail**: 195
+- **Account Hub**: 241
+- **Thundermail**: 194
 - **Send**: 17
 - **Appointment**: 16
 
@@ -142,9 +142,9 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 109
+- **curious** + **explained**: 108
 - **blocked** + **explained**: 74
-- **change request** + **actioned**: 61
+- **change request** + **actioned**: 62
 - **request** + **redirected**: 33
 - **blocked** + **investigated**: 26
 - **blocked** + **escalated**: 21
@@ -156,10 +156,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 7
 - **blocked** + **actioned**: 6
 - **request** + **actioned**: 5
+- **curious** + **actioned**: 4
 - **blocked** + **informed**: 4
 - **request** + **explained**: 4
 - **blocked** + **—**: 4
-- **curious** + **actioned**: 3
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
 - **other** + **n/a**: 2
