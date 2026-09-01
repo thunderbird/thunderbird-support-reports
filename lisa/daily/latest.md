@@ -1,32 +1,32 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 11:36 ET** · refreshes hourly_  
+_Updated: **2026-09-01 12:43 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 72** of rollout — **6,500 invitees**, **527 tickets** so far (8.1% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 72** of rollout — **6,500 invitees**, **533 tickets** so far (8.2% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **53** new tickets in last 24h · **9** solved in last 24h
-- **527** tickets total since launch · contact rate **8%** of 6500 invitees
+- **59** new tickets in last 24h · **10** solved in last 24h
+- **533** tickets total since launch · contact rate **8%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 89
-- **Median AHT**: 148.0h · mean 209.1h (proxy: updated_at − created_at, 144 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 90
+- **Median AHT**: 149.0h · mean 209.2h (proxy: updated_at − created_at, 145 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"bird access"** — 23 tickets in 24h (148.5× baseline; baseline 11 cum) — [#8138](https://tbpro.zendesk.com/agent/tickets/8138), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8179](https://tbpro.zendesk.com/agent/tickets/8179)
-- **"early access"** — 23 tickets in 24h (108.9× baseline; baseline 15 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8151](https://tbpro.zendesk.com/agent/tickets/8151), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8156](https://tbpro.zendesk.com/agent/tickets/8156), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8167](https://tbpro.zendesk.com/agent/tickets/8167), [#8168](https://tbpro.zendesk.com/agent/tickets/8168), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8171](https://tbpro.zendesk.com/agent/tickets/8171), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8177](https://tbpro.zendesk.com/agent/tickets/8177), [#8178](https://tbpro.zendesk.com/agent/tickets/8178)
-- **"invited early"** — 22 tickets in 24h (173.6× baseline; baseline 9 cum) — [#8138](https://tbpro.zendesk.com/agent/tickets/8138), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8151](https://tbpro.zendesk.com/agent/tickets/8151), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172)
-- **"custom domain"** — 19 tickets in 24h (28.7× baseline; baseline 47 cum) — [#8121](https://tbpro.zendesk.com/agent/tickets/8121), [#8133](https://tbpro.zendesk.com/agent/tickets/8133), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8176](https://tbpro.zendesk.com/agent/tickets/8176)
-- **"subscribe button"** — 9 tickets in 24h (new; baseline 0 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8171](https://tbpro.zendesk.com/agent/tickets/8171), [#8172](https://tbpro.zendesk.com/agent/tickets/8172)
+- **"early bird access"** — 25 tickets in 24h (161.4× baseline; baseline 11 cum) — [#8138](https://tbpro.zendesk.com/agent/tickets/8138), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8179](https://tbpro.zendesk.com/agent/tickets/8179), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184)
+- **"early access"** — 25 tickets in 24h (118.3× baseline; baseline 15 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8151](https://tbpro.zendesk.com/agent/tickets/8151), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8156](https://tbpro.zendesk.com/agent/tickets/8156), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8167](https://tbpro.zendesk.com/agent/tickets/8167), [#8168](https://tbpro.zendesk.com/agent/tickets/8168), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8171](https://tbpro.zendesk.com/agent/tickets/8171), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8177](https://tbpro.zendesk.com/agent/tickets/8177), [#8178](https://tbpro.zendesk.com/agent/tickets/8178), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184)
+- **"invited early"** — 24 tickets in 24h (189.3× baseline; baseline 9 cum) — [#8138](https://tbpro.zendesk.com/agent/tickets/8138), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8151](https://tbpro.zendesk.com/agent/tickets/8151), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184)
+- **"custom domain"** — 21 tickets in 24h (31.7× baseline; baseline 47 cum) — [#8121](https://tbpro.zendesk.com/agent/tickets/8121), [#8133](https://tbpro.zendesk.com/agent/tickets/8133), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8176](https://tbpro.zendesk.com/agent/tickets/8176), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184)
+- **"subscribe button"** — 10 tickets in 24h (new; baseline 0 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8171](https://tbpro.zendesk.com/agent/tickets/8171), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8183](https://tbpro.zendesk.com/agent/tickets/8183)
+- **"click subscribe"** — 6 tickets in 24h (new; baseline 0 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8146](https://tbpro.zendesk.com/agent/tickets/8146), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8183](https://tbpro.zendesk.com/agent/tickets/8183)
 - **"waitlist page"** — 6 tickets in 24h (new; baseline 0 cum) — [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8168](https://tbpro.zendesk.com/agent/tickets/8168), [#8169](https://tbpro.zendesk.com/agent/tickets/8169)
-- **"click subscribe"** — 5 tickets in 24h (new; baseline 0 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8146](https://tbpro.zendesk.com/agent/tickets/8146), [#8161](https://tbpro.zendesk.com/agent/tickets/8161)
 - **"received invite"** — 4 tickets in 24h (40.6× baseline; baseline 7 cum) — [#8119](https://tbpro.zendesk.com/agent/tickets/8119), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8169](https://tbpro.zendesk.com/agent/tickets/8169)
 
 ## Known problems — 6 problem(s), 52 incident(s)
@@ -131,8 +131,10 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 4 new:
 
+- [Auto categorize emails](https://ideas.tb.pro/p/auto-categorize-emails) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
 - [Limited Free Tier](https://ideas.tb.pro/p/limited-free-tier) · 1 votes · _Thundermail, New Feature, Improvement, Webmail_
   > What you’d like to seeA limited free tier that allows users to receive and reply to basic email communications and manage their accounts/subscriptions.Why it mattersIt would give people an…
 - [Allow mail sent to aliases to be auto-forwarded](https://ideas.tb.pro/p/allow-mail-sent-to-aliases-to-be-auto-forwarded) · 1 votes · _untagged_
@@ -143,16 +145,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 274
-- **solved**: 144
-- **pending**: 74
-- **open**: 24
-- **hold**: 9
+- **solved**: 145
+- **pending**: 79
+- **open**: 23
+- **hold**: 10
 - **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 280
-- **Thundermail**: 201
+- **Account Hub**: 282
+- **Thundermail**: 203
 - **Send**: 17
 - **Appointment**: 16
 
@@ -160,14 +162,14 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **blocked** + **explained**: 109
+- **blocked** + **explained**: 111
 - **curious** + **explained**: 108
-- **change request** + **actioned**: 65
+- **change request** + **actioned**: 66
 - **request** + **redirected**: 33
 - **blocked** + **investigated**: 26
 - **blocked** + **escalated**: 22
 - **confused** + **explained**: 19
-- **concerned** + **explained**: 15
+- **concerned** + **explained**: 16
 - **curious** + **informed**: 8
 - **blocked** + **redirected**: 8
 - **confused** + **informed**: 7
@@ -181,6 +183,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
 - **telling us** + **—**: 2
+- **curious** + **escalated**: 2
 - **other** + **n/a**: 2
 - **change request** + **explained**: 2
 - **praise** + **n/a**: 2
@@ -200,14 +203,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **n/a**: 1
 - **request** + **—**: 1
 - **telling us** + **escalated**: 1
-- **curious** + **escalated**: 1
 - **request** + **informed**: 1
 - **confused** + **escalated**: 1
 
 ## Tickets in last 24h — by theme
 
-### Early bird signup — 33 tickets
+### Early bird signup — 34 tickets
 
+- **[#8183](https://tbpro.zendesk.com/agent/tickets/8183)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
+  > How exactly do I sign up? When I click the subscribe button in this email I just get sent back to the waiting list signup. [quoted message] We’re excited to invite you to try…
 - **[#8159](https://tbpro.zendesk.com/agent/tickets/8159)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
   > Thank you, [name] trying to sign up, but it keep redirecting me to the waitlist. -Drew [quoted message] We’re excited to invite you to try Thundermail Early Bird. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌…
 - **[#8146](https://tbpro.zendesk.com/agent/tickets/8146)** · Can't sign up for Thundermail — why: **blocked** · how: **explained**
@@ -275,8 +279,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8139](https://tbpro.zendesk.com/agent/tickets/8139)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
   > Hi, if I click the subscribe button in the email below, which appears to be a link to https://[domain]/sign-up?email=[email] , it just redirects me to the join waitlist form.…
 
-### Early bird / invite / waitlist — 6 tickets
+### Early bird / invite / waitlist — 7 tickets
 
+- **[#8184](https://tbpro.zendesk.com/agent/tickets/8184)** · Re: You're Invited: Thundermail Early Bird Access
+  > Is there an iOS app? That’s much higher priority than a new email service… > [quoted message] > > DuckDuckGo removed one tracker. More…
 - **[#8179](https://tbpro.zendesk.com/agent/tickets/8179)** · @[domain], @[domain], how to select?
   > I am guided to @[domain] as my email address Thundermail Early Bird Access. How can I select @[domain]? I stopped my account setup waiting for this replay,
 - **[#8167](https://tbpro.zendesk.com/agent/tickets/8167)** · Discount
@@ -290,6 +296,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8144](https://tbpro.zendesk.com/agent/tickets/8144)** · Broken Invite Link - Thundermail Early Bird Access — why: **blocked** · how: **explained**
   > Hi [name], I received the "You're Invited: Thundermail Early Bird Access" email today, but when clicking the "Subscribe" button, it directs to a Mailchimp form stating "You have…
 
+### Email sending / receiving / SMTP / IMAP — 3 tickets
+
+- **[#8188](https://tbpro.zendesk.com/agent/tickets/8188)** · You've taken my money but not granted me access!???
+  > TOTALLY UNFAIR! Why should it take so long to grant access to a service not for any goods delivery?
+- **[#8185](https://tbpro.zendesk.com/agent/tickets/8185)** · mail delivery to gmail? — why: **concerned** · how: **explained**
+  > I sent several mails to a gmail address and it seems they either have not delivered or were classified as "spam"
+- **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP — why: **telling us**
+  > On the account page (https://[domain]/mail) the port number for SMTP is listed as 465. Using msmtp, i can only get it to work with port 587. (It hangs trying to get a connection…
+
+### Subscription / billing / refund / cancel — 3 tickets
+
+- **[#8186](https://tbpro.zendesk.com/agent/tickets/8186)** · Your payment is being processed
+  > I don't understand why I have to wait 48 hours when my payment was debited immediately. The error might be because I opened and paid for the account using the address [email].…
+- **[#8160](https://tbpro.zendesk.com/agent/tickets/8160)** · Can't get into account. Stuck on approving payment which already went through
+  > I want to start using my Thundermail account, which I've paid for, but all I get is that the payment is still waiting approval. I've already been notified by PayPal that the…
+- **[#8180](https://tbpro.zendesk.com/agent/tickets/8180)** · Subscribed, but in endless refresh loop — why: **blocked** · how: **explained**
+  > I subscribed, but am now in an endless refresh loop on https://[domain]/subscribe My bank statement shows money has been reserved for "[domain]* MZLATECHNA,London" so it seems…
+
 ### Refund / Cancel — 3 tickets
 
 - **[#8175](https://tbpro.zendesk.com/agent/tickets/8175)** · Refund — why: **change request** · how: **actioned**
@@ -299,19 +323,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8114](https://tbpro.zendesk.com/agent/tickets/8114)** · Refund — why: **change request** · how: **actioned**
   > Hi there, I’m writing to request a refund for my account. I no longer need it and I feel Like I wont be able to give feedback to you for the Beta version. I have a quick question:…
 
+### Account creation / signup confusion — 2 tickets
+
+- **[#8182](https://tbpro.zendesk.com/agent/tickets/8182)** · Waiting for thundermail signup, "Your payment is being processed" page to finish
+  > I've just signed up for thundermail, put in my CC info, page is the "your payment is being processed". It keeps flashing that page, then white, over and over. URL info at bottom…
+- **[#8176](https://tbpro.zendesk.com/agent/tickets/8176)** · Thundermail Question
+  > I got invited to sign up for Thundermail, but I'd like to confirm something first. I'd like to move mine and my wife's accounts over from Zoho. We have a custom domain and our own…
+
 ### Account access issues — 2 tickets
 
 - **[#8181](https://tbpro.zendesk.com/agent/tickets/8181)** · can't log in??
   > Just made an account and CAN'T log in???
 - **[#8117](https://tbpro.zendesk.com/agent/tickets/8117)** · Send to thunderbird desktop app integration error — why: **blocked** · how: **explained**
   > Hello there and forgive any disturb! After testing for a bit thunderbird linked to my thundermail account i sadly found out that when using the send integration directly from…
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#8180](https://tbpro.zendesk.com/agent/tickets/8180)** · Subscribed, but in endless refresh loop
-  > I subscribed, but am now in an endless refresh loop on https://[domain]/subscribe My bank statement shows money has been reserved for "[domain]* MZLATECHNA,London" so it seems…
-- **[#8160](https://tbpro.zendesk.com/agent/tickets/8160)** · Can't get into account. Stuck on approving payment which already went through
-  > I want to start using my Thundermail account, which I've paid for, but all I get is that the payment is still waiting approval. I've already been notified by PayPal that the…
 
 ### Webmail — 2 tickets
 
@@ -320,30 +344,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8132](https://tbpro.zendesk.com/agent/tickets/8132)** · Cannot send SMTP messages from Thundermail account — why: **concerned** · how: **explained**
   > I have tried to send emails from my Thundermail account to various gmail addresses. Thundermail 'Sent' show they have gone but they never show up in the gmail accounts. I have…
 
-### Account creation / signup confusion — 1 tickets
-
-- **[#8176](https://tbpro.zendesk.com/agent/tickets/8176)** · Thundermail Question
-  > I got invited to sign up for Thundermail, but I'd like to confirm something first. I'd like to move mine and my wife's accounts over from Zoho. We have a custom domain and our own…
-
 ### Email migration / import — 1 tickets
 
 - **[#8133](https://tbpro.zendesk.com/agent/tickets/8133)** · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller items)
   > Hello, I'm a Thundermail customer using the custom domain houard.ch. Three items below; the first one is blocking. 1. OUTBOUND RELAY [ip] IS LISTED ON ABUSIX Since migrating to…
-
-### Aliases — 1 tickets
-
-- **[#8121](https://tbpro.zendesk.com/agent/tickets/8121)** · Pre-configure domain before transfer
-  > Okay, here's another challenge for you, since your team is so helpful. :) I am preparing to transfer a (second) custom domain to Thundermail. This one has about 140 aliases set…
 
 ### MFA / two-factor — 1 tickets
 
 - **[#8115](https://tbpro.zendesk.com/agent/tickets/8115)** · MFA setup on mobile
   > When trying to set up MFA via Safari on iOS I noticed that the pop-over displaying the code and more crucially the controls does not respond correctly making it impossible to…
 
-### Email sending / receiving / SMTP / IMAP — 1 tickets
+### Aliases — 1 tickets
 
-- **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP — why: **telling us**
-  > On the account page (https://[domain]/mail) the port number for SMTP is listed as 465. Using msmtp, i can only get it to work with port 587. (It hangs trying to get a connection…
+- **[#8121](https://tbpro.zendesk.com/agent/tickets/8121)** · Pre-configure domain before transfer — why: **curious** · how: **escalated**
+  > Okay, here's another challenge for you, since your team is so helpful. :) I am preparing to transfer a (second) custom domain to Thundermail. This one has about 140 aliases set…
 
 ## New tickets — last 24h
 
@@ -352,7 +366,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8117](https://tbpro.zendesk.com/agent/tickets/8117) · [pending] · 2026-08-31T22:47 · Send to thunderbird desktop app integration error
 - [8118](https://tbpro.zendesk.com/agent/tickets/8118) · [open] · 2026-08-31T22:48 · Accessing Alias
 - [8119](https://tbpro.zendesk.com/agent/tickets/8119) · [open] · 2026-08-31T22:51 · ThunderMail Waitlist Invitation
-- [8121](https://tbpro.zendesk.com/agent/tickets/8121) · [open] · 2026-09-01T00:24 · Pre-configure domain before transfer
+- [8121](https://tbpro.zendesk.com/agent/tickets/8121) · [hold] · 2026-09-01T00:24 · Pre-configure domain before transfer
 - [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [pending] · 2026-09-01T08:07 · Please refund my money
 - [8129](https://tbpro.zendesk.com/agent/tickets/8129) · [pending] · 2026-09-01T09:02 · Port number for SMTP
 - [8132](https://tbpro.zendesk.com/agent/tickets/8132) · [pending] · 2026-09-01T09:16 · Cannot send SMTP messages from Thundermail account
@@ -398,8 +412,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8177](https://tbpro.zendesk.com/agent/tickets/8177) · [pending] · 2026-09-01T15:08 · Thundermail Invite
 - [8178](https://tbpro.zendesk.com/agent/tickets/8178) · [pending] · 2026-09-01T15:15 · Early Access
 - [8179](https://tbpro.zendesk.com/agent/tickets/8179) · [open] · 2026-09-01T15:23 · @[domain], @[domain], how to select?
-- [8180](https://tbpro.zendesk.com/agent/tickets/8180) · [new] · 2026-09-01T15:26 · Subscribed, but in endless refresh loop
+- [8180](https://tbpro.zendesk.com/agent/tickets/8180) · [pending] · 2026-09-01T15:26 · Subscribed, but in endless refresh loop
 - [8181](https://tbpro.zendesk.com/agent/tickets/8181) · [new] · 2026-09-01T15:28 · can't log in??
+- [8182](https://tbpro.zendesk.com/agent/tickets/8182) · [open] · 2026-09-01T15:38 · Waiting for thundermail signup, "Your payment is being processed" page to finish
+- [8183](https://tbpro.zendesk.com/agent/tickets/8183) · [open] · 2026-09-01T15:41 · Re: You're Invited: Thundermail Early Bird Access
+- [8184](https://tbpro.zendesk.com/agent/tickets/8184) · [open] · 2026-09-01T15:45 · Re: You're Invited: Thundermail Early Bird Access
+- [8185](https://tbpro.zendesk.com/agent/tickets/8185) · [pending] · 2026-09-01T15:45 · mail delivery to gmail?
+- [8186](https://tbpro.zendesk.com/agent/tickets/8186) · [open] · 2026-09-01T15:50 · Your payment is being processed
+- [8188](https://tbpro.zendesk.com/agent/tickets/8188) · [new] · 2026-09-01T16:22 · You've taken my money but not granted me access!???
 
 ## Solved — last 24h
 
@@ -412,6 +432,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7989](https://tbpro.zendesk.com/agent/tickets/7989) · 2026-08-31T23:01 · Cancel this account during the trial period
 - · [7860](https://tbpro.zendesk.com/agent/tickets/7860) · 2026-08-31T23:01 · Can't Download Attachments from Webmail?
 - · [8002](https://tbpro.zendesk.com/agent/tickets/8002) · 2026-08-31T23:41 · Request for Lower price
+- · [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-01T16:17 · Password has dropped out
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
