@@ -48,14 +48,14 @@ jobs:
           export FEATUREOS_API_KEY="$(printf '%s' "$FEATUREOS_API_KEY" | tr -d ' \t\r\n')"
           export FEATUREOS_JWT="$(printf '%s' "$FEATUREOS_JWT" | tr -d ' \t\r\n')"
           python3 scripts/tbpro_launch_overview.py \
-            --out lisa/daily/launch_overview.html \
-            --out-operational lisa/daily/launch_overview_operational.html
+            --out thundermail/daily/launch_overview.html \
+            --out-operational thundermail/daily/launch_overview_operational.html
 
       - name: Commit and push
         run: |
           git config user.name "Moment"
           git config user.email "lisajill@users.noreply.github.com"
-          git add lisa/daily/launch_overview.html lisa/daily/launch_overview_operational.html
+          git add thundermail/daily/launch_overview.html thundermail/daily/launch_overview_operational.html
           if git diff --staged --quiet; then
             echo "No changes."
           else

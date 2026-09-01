@@ -158,7 +158,7 @@ WAVE_SETTLE_DAYS = 14
 
 EXCLUDE_IDS = {5441, 5866}
 FEATUREOS_BOARD_ID = 17437
-DEFAULT_OUT = Path("lisa/daily/launch_overview.html")
+DEFAULT_OUT = Path("thundermail/daily/launch_overview.html")
 
 
 # ── Zendesk ──────────────────────────────────────────────────────────────────
@@ -1010,7 +1010,7 @@ def render_signal(tickets, raw_total, csat_all, blockers, ideas_top10, gh_links,
     """The Signal page — leads with UX + ticket complexity + product/KB-gap red
     flags. Operational detail (waves, capacity, full theme/AHT tables) lives in
     launch_overview_operational.html, linked from here. Ported from the
-    approved prototype (lisa/daily/launch_overview_sample.html, Aug 31 2026)."""
+    approved prototype (thundermail/daily/launch_overview_sample.html, Aug 31 2026)."""
     gen = dt.datetime.now().strftime("%Y-%m-%d %H:%M ET")
     today = dt.date.today().isoformat()
 
@@ -2805,7 +2805,7 @@ if (ahtTrendWeeks.length && document.getElementById('ahtTrendChart')) {{
 </html>"""
 
 
-DEFAULT_OUT_OPERATIONAL = Path("lisa/daily/launch_overview_operational.html")
+DEFAULT_OUT_OPERATIONAL = Path("thundermail/daily/launch_overview_operational.html")
 
 
 def main():
