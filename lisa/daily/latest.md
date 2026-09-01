@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 07:20 ET** · refreshes hourly_  
+_Updated: **2026-09-01 08:32 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -134,9 +134,9 @@ _No negative ratings since launch._
 - **closed**: 273
 - **solved**: 146
 - **pending**: 37
-- **open**: 15
+- **open**: 16
 - **hold**: 9
-- **new**: 4
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -253,7 +253,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [new] · 2026-09-01T08:07 · Please refund my money
 - [8129](https://tbpro.zendesk.com/agent/tickets/8129) · [new] · 2026-09-01T09:02 · Port number for SMTP
 - [8132](https://tbpro.zendesk.com/agent/tickets/8132) · [new] · 2026-09-01T09:16 · Cannot send SMTP messages from Thundermail account
-- [8133](https://tbpro.zendesk.com/agent/tickets/8133) · [new] · 2026-09-01T09:42 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
+- [8133](https://tbpro.zendesk.com/agent/tickets/8133) · [open] · 2026-09-01T09:42 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
 
 ## Solved — last 24h
 
