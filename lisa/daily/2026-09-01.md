@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 09:22 ET** · refreshes hourly_  
+_Updated: **2026-09-01 10:24 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 72** of rollout — **6,500 invitees**, **484 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 89
-- **Median AHT**: 149.0h · mean 210.1h (proxy: updated_at − created_at, 146 solved tickets)
+- **Median AHT**: 148.0h · mean 209.1h (proxy: updated_at − created_at, 144 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"custom domain"** — 2 tickets in 24h (3.0× baseline; baseline 47 cum) — [#8121](https://tbpro.zendesk.com/agent/tickets/8121), [#8133](https://tbpro.zendesk.com/agent/tickets/8133)
 
-## Known problems — 6 problem(s), 50 incident(s)
+## Known problems — 6 problem(s), 51 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -43,7 +43,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 38 incident(s):
+- 39 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -82,6 +82,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [pending] · 2026-08-30 · _Refund_
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [pending] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31 · _cancel substriction_
+  - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [pending] · 2026-08-31 · _Refund_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -115,7 +116,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [new] · _Please refund my money_
+- [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [open] · _Please refund my money_
   > I signed up for a paid account yesterday, but unfortunately, it doesn't meet my expectations; I want to cancel and get a refund. What do I need to do, and how?
 
 ## New ideas on FeatureOS
@@ -131,12 +132,12 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 273
-- **solved**: 146
-- **pending**: 37
-- **open**: 16
+- **closed**: 274
+- **solved**: 144
+- **pending**: 38
+- **open**: 17
 - **hold**: 9
-- **new**: 3
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -151,7 +152,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 108
 - **blocked** + **explained**: 75
-- **change request** + **actioned**: 62
+- **change request** + **actioned**: 63
 - **request** + **redirected**: 33
 - **blocked** + **investigated**: 26
 - **blocked** + **escalated**: 21
@@ -159,13 +160,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 14
 - **curious** + **informed**: 8
 - **blocked** + **redirected**: 8
-- **concerned** + **—**: 7
 - **confused** + **informed**: 7
+- **concerned** + **—**: 7
 - **blocked** + **actioned**: 6
-- **request** + **actioned**: 5
 - **curious** + **actioned**: 4
 - **blocked** + **informed**: 4
 - **request** + **explained**: 4
+- **request** + **actioned**: 4
 - **blocked** + **—**: 4
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
@@ -232,25 +233,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8115](https://tbpro.zendesk.com/agent/tickets/8115)** · MFA setup on mobile
   > When trying to set up MFA via Safari on iOS I noticed that the pop-over displaying the code and more crucially the controls does not respond correctly making it impossible to…
 
-### Refund / Cancel — 1 tickets
-
-- **[#8114](https://tbpro.zendesk.com/agent/tickets/8114)** · Refund — why: **request** · how: **actioned**
-  > Hi there, I’m writing to request a refund for my account. I no longer need it and I feel Like I wont be able to give feedback to you for the Beta version. I have a quick question:…
-
 ### Account access issues — 1 tickets
 
 - **[#8117](https://tbpro.zendesk.com/agent/tickets/8117)** · Send to thunderbird desktop app integration error — why: **blocked** · how: **explained**
   > Hello there and forgive any disturb! After testing for a bit thunderbird linked to my thundermail account i sadly found out that when using the send integration directly from…
 
+### Refund / Cancel — 1 tickets
+
+- **[#8114](https://tbpro.zendesk.com/agent/tickets/8114)** · Refund — why: **change request** · how: **actioned**
+  > Hi there, I’m writing to request a refund for my account. I no longer need it and I feel Like I wont be able to give feedback to you for the Beta version. I have a quick question:…
+
 ## New tickets — last 24h
 
-- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [open] · 2026-08-31T21:10 · Refund
+- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [pending] · 2026-08-31T21:10 · Refund
 - [8115](https://tbpro.zendesk.com/agent/tickets/8115) · [open] · 2026-08-31T21:24 · MFA setup on mobile
 - [8117](https://tbpro.zendesk.com/agent/tickets/8117) · [pending] · 2026-08-31T22:47 · Send to thunderbird desktop app integration error
 - [8118](https://tbpro.zendesk.com/agent/tickets/8118) · [open] · 2026-08-31T22:48 · Accessing Alias
 - [8119](https://tbpro.zendesk.com/agent/tickets/8119) · [open] · 2026-08-31T22:51 · ThunderMail Waitlist Invitation
 - [8121](https://tbpro.zendesk.com/agent/tickets/8121) · [open] · 2026-09-01T00:24 · Pre-configure domain before transfer
-- [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [new] · 2026-09-01T08:07 · Please refund my money
+- [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [open] · 2026-09-01T08:07 · Please refund my money
 - [8129](https://tbpro.zendesk.com/agent/tickets/8129) · [new] · 2026-09-01T09:02 · Port number for SMTP
 - [8132](https://tbpro.zendesk.com/agent/tickets/8132) · [new] · 2026-09-01T09:16 · Cannot send SMTP messages from Thundermail account
 - [8133](https://tbpro.zendesk.com/agent/tickets/8133) · [open] · 2026-09-01T09:42 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
