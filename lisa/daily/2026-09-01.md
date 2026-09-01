@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 05:26 ET** · refreshes hourly_  
+_Updated: **2026-09-01 06:26 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 72** of rollout — **6,500 invitees**, **483 tickets** so far (7.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 72** of rollout — **6,500 invitees**, **484 tickets** so far (7.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
-- **483** tickets total since launch · contact rate **7%** of 6500 invitees
+- **10** new tickets in last 24h · **9** solved in last 24h
+- **484** tickets total since launch · contact rate **7%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (4 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 89
 - **Median AHT**: 149.0h · mean 210.1h (proxy: updated_at − created_at, 146 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domain"** — 2 tickets in 24h (3.0× baseline; baseline 47 cum) — [#8121](https://tbpro.zendesk.com/agent/tickets/8121), [#8133](https://tbpro.zendesk.com/agent/tickets/8133)
 
 ## Known problems — 6 problem(s), 50 incident(s)
 
@@ -127,15 +133,15 @@ _No negative ratings since launch._
 
 - **closed**: 273
 - **solved**: 146
-- **pending**: 39
-- **open**: 13
+- **pending**: 38
+- **open**: 14
 - **hold**: 9
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 243
-- **Thundermail**: 195
+- **Thundermail**: 196
 - **Send**: 17
 - **Appointment**: 16
 
@@ -196,6 +202,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8118](https://tbpro.zendesk.com/agent/tickets/8118)** · Accessing Alias — why: **curious** · how: **informed**
   > So I see the web version of thundermail has alias that allow me to send from. I was wondering if there is a way to do the same on the Thunderbird app?
 
+### Email migration / import — 1 tickets
+
+- **[#8133](https://tbpro.zendesk.com/agent/tickets/8133)** · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller items)
+  > Hello, I'm a Thundermail customer using the custom domain houard.ch. Three items below; the first one is blocking. 1. OUTBOUND RELAY [ip] IS LISTED ON ABUSIX Since migrating to…
+
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP
@@ -242,6 +253,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [new] · 2026-09-01T08:07 · Please refund my money
 - [8129](https://tbpro.zendesk.com/agent/tickets/8129) · [new] · 2026-09-01T09:02 · Port number for SMTP
 - [8132](https://tbpro.zendesk.com/agent/tickets/8132) · [new] · 2026-09-01T09:16 · Cannot send SMTP messages from Thundermail account
+- [8133](https://tbpro.zendesk.com/agent/tickets/8133) · [new] · 2026-09-01T09:42 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
 
 ## Solved — last 24h
 
