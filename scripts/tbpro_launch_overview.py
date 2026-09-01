@@ -1019,6 +1019,19 @@ def render_signal(tickets, raw_total, csat_all, blockers, ideas_top10, gh_links,
 
     sf, rr, kp = complexity["straightforward"], complexity["research_repro"], complexity["known_problem"]
     _drivers = lambda seg: ", ".join(f"{theme} ({n})" for theme, n in seg.get("top_themes", []))
+    kp_top_theme = kp.get("top_themes", [(None, 0)])[0][0]
+    refund_insight_html = ""
+    if kp_top_theme == "Refund / Cancel":
+        refund_insight_html = (
+            '<div class="insight insight--info">'
+            '<strong>Refund/Cancel is a known gap, already tracked:</strong> canceling or refunding via '
+            'Paddle doesn\'t deactivate the Thundermail account, so support tracks these manually to know '
+            'who to delete. Real fix belongs in account sync, not support capacity — '
+            '<a href="https://github.com/thunderbird/thunderbird-accounts/issues/1167" target="_blank">thunderbird-accounts#1167</a> '
+            '(refunded subscriptions left active/usable, with example tickets) and the broader '
+            '<a href="https://github.com/thunderbird/thunderbird-accounts/issues/176" target="_blank">thunderbird-accounts#176</a> offboarding epic.'
+            '</div>\n'
+        )
     multiplier = (round(rr.get("total_wait_median_h", 0) / sf["total_wait_median_h"], 1)
                   if sf.get("total_wait_median_h") else None)
     mult_str = f"{multiplier}×" if multiplier else "several times"
@@ -1248,6 +1261,7 @@ footer{{border-top:1px solid var(--color-surface-border);padding-top:var(--space
     <div class="insight insight--warn">
       <strong>Research/repro tickets are the real cost center.</strong> Each individual reply isn't much slower than a routine ticket — the pain is <em>rounds</em>: users get bounced back and forth while we investigate. A ticket in this bucket waits roughly <strong>{mult_str} longer in total</strong> than a straightforward one. Known-problem tickets, by contrast, tend to resolve fastest per-reply because the answer is already templated — the fix belongs to engineering, not support capacity.
     </div>
+    {refund_insight_html}
   </section>
 
   <!-- SECTION: red-flags -->
