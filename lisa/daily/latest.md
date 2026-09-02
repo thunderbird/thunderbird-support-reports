@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 18:20 ET** · refreshes hourly_  
+_Updated: **2026-09-02 19:18 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 73** of rollout — **6,500 invitees**, **603 tickets** so far
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (7 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 98
-- **Median AHT**: 144.3h · mean 188.9h (proxy: updated_at − created_at, 162 solved tickets)
+- **Median AHT**: 144.3h · mean 188.6h (proxy: updated_at − created_at, 163 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -85,7 +85,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
-  - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [pending] · 2026-08-27 · _Refund_
+  - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [solved] · 2026-08-27 · _Refund_
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [pending] · 2026-08-30 · _Refund_
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [pending] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [pending] · 2026-08-31 · _cancel substriction_
@@ -115,7 +115,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
 - ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
 - ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
-- 🔧 [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
+- ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
 - ✅ [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
 - 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - ✅ [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
@@ -162,9 +162,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 284
-- **solved**: 162
-- **pending**: 137
-- **open**: 11
+- **solved**: 163
+- **pending**: 135
+- **open**: 12
 - **hold**: 9
 
 ## Service (cumulative)
@@ -411,7 +411,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8265](https://tbpro.zendesk.com/agent/tickets/8265) · [pending] · 2026-09-02T08:02 · Re: Correction: Thundermail Early Bird Access
 - [8266](https://tbpro.zendesk.com/agent/tickets/8266) · [pending] · 2026-09-02T09:36 · Re: Correction: Thundermail Early Bird Access
 - [8267](https://tbpro.zendesk.com/agent/tickets/8267) · [open] · 2026-09-02T09:48 · Bug when loading webmail on iOS - Safari
-- [8268](https://tbpro.zendesk.com/agent/tickets/8268) · [pending] · 2026-09-02T10:05 · Request for Thunderbird Early Access Consideration
+- [8268](https://tbpro.zendesk.com/agent/tickets/8268) · [open] · 2026-09-02T10:05 · Request for Thunderbird Early Access Consideration
 - [8269](https://tbpro.zendesk.com/agent/tickets/8269) · [open] · 2026-09-02T10:31 · Re: Correction: Thundermail Early Bird Access
 - [8270](https://tbpro.zendesk.com/agent/tickets/8270) · [pending] · 2026-09-02T10:35 · I forgot some information
 - [8271](https://tbpro.zendesk.com/agent/tickets/8271) · [pending] · 2026-09-02T10:42 · Connot chose [domain] domain
