@@ -1,19 +1,19 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 02:41 ET** · refreshes hourly_  
+_Updated: **2026-09-02 03:26 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **590 tickets** so far (9.1% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **591 tickets** so far (9.1% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **35** new tickets in last 24h · **9** solved in last 24h
-- **590** tickets total since launch · contact rate **9%** of 6500 invitees
+- **36** new tickets in last 24h · **9** solved in last 24h
+- **591** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 94
+- **New FeatureOS ideas (24h)**: 5 · **since launch**: 95
 - **Median AHT**: 145.0h · mean 196.7h (proxy: updated_at − created_at, 158 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -129,8 +129,10 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 4 new:
+**Last 24h** — 5 new:
 
+- [Move to button/search box](https://ideas.tb.pro/p/move-to-button-search-box) · 1 votes · _untagged_
+  > Would like to have “Move to” button to quickly move the selected email to specified folder.On desktop Thunderbird this can be solved with Quick folder move addon and on mobile Thinderbird the…
 - [Add Private-Cryptocurrency Payment Options | Monero (XMR)](https://ideas.tb.pro/p/add-private-cryptocurrency-payment-options-monero-xmr) · 1 votes · _untagged_
   > Summary Add support for privacy-focused cryptocurrencies as a payment method for subscriptions and account purchases, starting with Monero (XMR) as the primary and first option.Problem / Motivation A…
 - [ThunderDRIVE - Evolution from 'Send' to 'Drive'](https://ideas.tb.pro/p/thunderdrive-evolution-from-send-to-drive) · 1 votes · _Send, Accounts & Subscriptions, New Feature, Improvement_
@@ -146,13 +148,13 @@ _No negative ratings since launch._
 - **solved**: 158
 - **pending**: 100
 - **open**: 24
-- **new**: 19
+- **new**: 20
 - **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 311
-- **Thundermail**: 222
+- **Thundermail**: 223
 - **Appointment**: 17
 - **Send**: 17
 
@@ -207,8 +209,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 9 tickets
+### Early bird / invite / waitlist — 10 tickets
 
+- **[#8262](https://tbpro.zendesk.com/agent/tickets/8262)** · Cant get verification link
+  > I used the invite link it took me to `https://[domain]/sign-up?email=vlarfich%[domain]` (with %40 instead of @ for some reason) Then i went through all the steps, but still havent…
 - **[#8260](https://tbpro.zendesk.com/agent/tickets/8260)** · Re: Correction: Thundermail Early Bird Access
   > Le 1 septembre 2026 21:19:01 GMT+02:00, Thundermail <[email]> a écrit : >https://[domain]/ > >Hi there, > >You may have had trouble accessing your Thundermail invite earlier…
 - **[#8259](https://tbpro.zendesk.com/agent/tickets/8259)** · Re: Correction: Thundermail Early Bird Access
@@ -356,6 +360,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8258](https://tbpro.zendesk.com/agent/tickets/8258) · [new] · 2026-09-02T06:23 · Thundermail ID forgot
 - [8259](https://tbpro.zendesk.com/agent/tickets/8259) · [new] · 2026-09-02T06:37 · Re: Correction: Thundermail Early Bird Access
 - [8260](https://tbpro.zendesk.com/agent/tickets/8260) · [new] · 2026-09-02T06:39 · Re: Correction: Thundermail Early Bird Access
+- [8262](https://tbpro.zendesk.com/agent/tickets/8262) · [new] · 2026-09-02T06:59 · Cant get verification link
 
 ## Solved — last 24h
 
