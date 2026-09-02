@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 00:28 ET** · refreshes hourly_  
+_Updated: **2026-09-02 01:25 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **583 tickets** so far (9.0% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **584 tickets** so far (9.0% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **28** new tickets in last 24h · **9** solved in last 24h
-- **583** tickets total since launch · contact rate **9%** of 6500 invitees
+- **29** new tickets in last 24h · **9** solved in last 24h
+- **584** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 94
@@ -146,12 +146,12 @@ _No negative ratings since launch._
 - **solved**: 158
 - **pending**: 100
 - **open**: 24
-- **new**: 12
+- **new**: 13
 - **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 309
+- **Account Hub**: 310
 - **Thundermail**: 222
 - **Appointment**: 17
 - **Send**: 17
@@ -255,17 +255,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8225](https://tbpro.zendesk.com/agent/tickets/8225)** · Changing Primary Email — why: **curious** · how: **explained**
   > Hi, again! Sorry to bother - is there a way to change the primary email address for the account? I was able to link my domain, and was hoping to use my domail email account as my…
 
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#8252](https://tbpro.zendesk.com/agent/tickets/8252)** · account deletion
+  > i would like to delete my account at [email]
+- **[#8251](https://tbpro.zendesk.com/agent/tickets/8251)** · Email Encryption
+  > Does Thundermail provide encryption at rest? I.e are my emaills stored on Thundermail servers in an encryption form? I currently use a email provider who encrypts my email with my…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#8238](https://tbpro.zendesk.com/agent/tickets/8238)** · Custom domain
   > I was configuring the domain [domain]. the browser crashed, it's not fully configured, my control panel doesn't show the domain, but I get a message that it is configured. Please…
 - **[#8217](https://tbpro.zendesk.com/agent/tickets/8217)** · TXT and CNAME Records — why: **blocked** · how: **explained**
   > Hello! I created the TXT and CNAME records in my domain's DNS registry (GoDaddy does some of this differently than you described, but I was able to figure it out). However, there…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#8251](https://tbpro.zendesk.com/agent/tickets/8251)** · Email Encryption
-  > Does Thundermail provide encryption at rest? I.e are my emaills stored on Thundermail servers in an encryption form? I currently use a email provider who encrypts my email with my…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -332,6 +334,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8249](https://tbpro.zendesk.com/agent/tickets/8249) · [new] · 2026-09-02T03:42 · en pääse thundermailiin
 - [8250](https://tbpro.zendesk.com/agent/tickets/8250) · [new] · 2026-09-02T03:48 · Trying thundermail
 - [8251](https://tbpro.zendesk.com/agent/tickets/8251) · [new] · 2026-09-02T03:57 · Email Encryption
+- [8252](https://tbpro.zendesk.com/agent/tickets/8252) · [new] · 2026-09-02T04:41 · account deletion
 
 ## Solved — last 24h
 
