@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 21:31 ET** · refreshes hourly_  
+_Updated: **2026-09-01 22:45 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -134,7 +134,7 @@ _No negative ratings since launch._
   > I have tried Thundermail but I think it is not for me. At least, not yet. And I think it is way too early needing to sign up for the paid subscription for a service that is still in full development. Therefore, I'd like…
 - [8233](https://tbpro.zendesk.com/agent/tickets/8233) · [new] · _Refund Request — Thundermail Subscription_
   > Hello, I would like to request a full refund for my Thundermail subscription, in accordance with your 14-day refund policy. I registered within the last 14 days and would like to cancel my subscription and receive a…
-- [8232](https://tbpro.zendesk.com/agent/tickets/8232) · [new] · _Refund Request — Thundermail Subscription_
+- [8232](https://tbpro.zendesk.com/agent/tickets/8232) · [open] · _Refund Request — Thundermail Subscription_
   > Hello, I would like to request a full refund for my Thundermail subscription, in accordance with your 14-day refund policy. I registered within the last 14 days and would like to cancel my subscription and receive a…
 - [8236](https://tbpro.zendesk.com/agent/tickets/8236) · [new] · _Refund Subscription _
   > Very excited for your product. But I need multiple email/user support for my custom domain. I did not realize this feature is not available. Please cancel and refund. Thank you.
@@ -156,9 +156,9 @@ _No negative ratings since launch._
 
 - **closed**: 279
 - **solved**: 157
-- **pending**: 97
-- **open**: 25
-- **new**: 12
+- **pending**: 100
+- **open**: 24
+- **new**: 10
 - **hold**: 10
 
 ## Service (cumulative)
@@ -172,8 +172,8 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 129
-- **blocked** + **explained**: 114
+- **curious** + **explained**: 130
+- **blocked** + **explained**: 115
 - **change request** + **actioned**: 68
 - **request** + **redirected**: 33
 - **blocked** + **investigated**: 27
@@ -298,7 +298,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 10 tickets
 
-- **[#8214](https://tbpro.zendesk.com/agent/tickets/8214)** · Reply to mails as the alias the mail was sent to
+- **[#8214](https://tbpro.zendesk.com/agent/tickets/8214)** · Reply to mails as the alias the mail was sent to — why: **blocked** · how: **explained**
   > I was unable to find a way to always have Thunderbird send a mail as the Thundermail (or custom domain) alias it was sent to. I have a couple of aliases and I would like to make…
 - **[#8211](https://tbpro.zendesk.com/agent/tickets/8211)** · aliases in Thunderbird  — why: **curious** · how: **informed**
   > Cant really figure out how to get the aliases to work in the Thunderbird app. Do I have to add each alias as its own email adress? Did not find anything about it in the support…
@@ -393,11 +393,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8216](https://tbpro.zendesk.com/agent/tickets/8216)** · Import gmail mail
   > Hi! I have a gmail account that I would like to import here. Is it possible? Thanks.
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8215](https://tbpro.zendesk.com/agent/tickets/8215)** · Monthly billing?
-  > It seems that I am unable to test the service until I make payment for it. But, I only see an annual cost, which with tax too is $72. That's a lot to try out a new mail account.…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#8200](https://tbpro.zendesk.com/agent/tickets/8200)** · Cancel + Refund
@@ -412,6 +407,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP — why: **telling us**
   > On the account page (https://[domain]/mail) the port number for SMTP is listed as 465. Using msmtp, i can only get it to work with port 587. (It hangs trying to get a connection…
+
+### Pricing — annual-only inquiry — 1 tickets
+
+- **[#8215](https://tbpro.zendesk.com/agent/tickets/8215)** · Monthly billing? — why: **curious** · how: **explained**
+  > It seems that I am unable to test the service until I make payment for it. But, I only see an annual cost, which with tax too is $72. That's a lot to try out a new mail account.…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -518,8 +518,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8209](https://tbpro.zendesk.com/agent/tickets/8209) · [pending] · 2026-09-01T18:56 · Re: You're Invited: Thundermail Early Bird Access
 - [8211](https://tbpro.zendesk.com/agent/tickets/8211) · [pending] · 2026-09-01T18:59 · aliases in Thunderbird 
 - [8213](https://tbpro.zendesk.com/agent/tickets/8213) · [open] · 2026-09-01T19:35 · Alias Use in New E-Mails in Thundermail Webmail
-- [8214](https://tbpro.zendesk.com/agent/tickets/8214) · [open] · 2026-09-01T19:35 · Reply to mails as the alias the mail was sent to
-- [8215](https://tbpro.zendesk.com/agent/tickets/8215) · [open] · 2026-09-01T19:47 · Monthly billing?
+- [8214](https://tbpro.zendesk.com/agent/tickets/8214) · [pending] · 2026-09-01T19:35 · Reply to mails as the alias the mail was sent to
+- [8215](https://tbpro.zendesk.com/agent/tickets/8215) · [pending] · 2026-09-01T19:47 · Monthly billing?
 - [8216](https://tbpro.zendesk.com/agent/tickets/8216) · [open] · 2026-09-01T19:58 · Import gmail mail
 
 ## Solved — last 24h
