@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-01
 
-_Updated: **2026-09-01 22:45 ET** · refreshes hourly_  
+_Updated: **2026-09-01 23:27 ET** · refreshes hourly_  
 _24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 72** of rollout — **6,500 invitees**, **580 tickets** so far (8.9% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 72** of rollout — **6,500 invitees**, **578 tickets** so far (8.9% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **81** new tickets in last 24h · **22** solved in last 24h
-- **580** tickets total since launch · contact rate **9%** of 6500 invitees
+- **578** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 94
-- **Median AHT**: 145.2h · mean 197.9h (proxy: updated_at − created_at, 157 solved tickets)
+- **Median AHT**: 145.0h · mean 196.7h (proxy: updated_at − created_at, 158 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -122,7 +122,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 7
+## Refund & cancellation tickets (last 24h) — 6
 
 - [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [pending] · _Please refund my money_
   > I signed up for a paid account yesterday, but unfortunately, it doesn't meet my expectations; I want to cancel and get a refund. What do I need to do, and how?
@@ -132,9 +132,7 @@ _No negative ratings since launch._
   > Hi [name], I signed up for the subscription by mistake. However, on Paddle, I was only able to cancel the renewal after the first year (number 2 in the screenshot); I am still being charged for the first year (number 1…
 - [8200](https://tbpro.zendesk.com/agent/tickets/8200) · [open] · _Cancel + Refund_
   > I have tried Thundermail but I think it is not for me. At least, not yet. And I think it is way too early needing to sign up for the paid subscription for a service that is still in full development. Therefore, I'd like…
-- [8233](https://tbpro.zendesk.com/agent/tickets/8233) · [new] · _Refund Request — Thundermail Subscription_
-  > Hello, I would like to request a full refund for my Thundermail subscription, in accordance with your 14-day refund policy. I registered within the last 14 days and would like to cancel my subscription and receive a…
-- [8232](https://tbpro.zendesk.com/agent/tickets/8232) · [open] · _Refund Request — Thundermail Subscription_
+- [8232](https://tbpro.zendesk.com/agent/tickets/8232) · [pending] · _Refund Request — Thundermail Subscription_
   > Hello, I would like to request a full refund for my Thundermail subscription, in accordance with your 14-day refund policy. I registered within the last 14 days and would like to cancel my subscription and receive a…
 - [8236](https://tbpro.zendesk.com/agent/tickets/8236) · [new] · _Refund Subscription _
   > Very excited for your product. But I need multiple email/user support for my custom domain. I did not realize this feature is not available. Please cancel and refund. Thank you.
@@ -155,15 +153,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 279
-- **solved**: 157
+- **solved**: 158
 - **pending**: 100
 - **open**: 24
-- **new**: 10
 - **hold**: 10
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 310
+- **Account Hub**: 308
 - **Thundermail**: 218
 - **Appointment**: 17
 - **Send**: 17
@@ -175,7 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 130
 - **blocked** + **explained**: 115
 - **change request** + **actioned**: 68
-- **request** + **redirected**: 33
+- **request** + **redirected**: 34
 - **blocked** + **investigated**: 27
 - **blocked** + **escalated**: 21
 - **confused** + **explained**: 19
@@ -388,11 +386,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8160](https://tbpro.zendesk.com/agent/tickets/8160)** · Can't get into account. Stuck on approving payment which already went through — why: **curious** · how: **explained**
   > I want to start using my Thundermail account, which I've paid for, but all I get is that the payment is still waiting approval. I've already been notified by PayPal that the…
 
-### App setup / configuration — 1 tickets
-
-- **[#8216](https://tbpro.zendesk.com/agent/tickets/8216)** · Import gmail mail
-  > Hi! I have a gmail account that I would like to import here. Is it possible? Thanks.
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#8200](https://tbpro.zendesk.com/agent/tickets/8200)** · Cancel + Refund
@@ -407,6 +400,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP — why: **telling us**
   > On the account page (https://[domain]/mail) the port number for SMTP is listed as 465. Using msmtp, i can only get it to work with port 587. (It hangs trying to get a connection…
+
+### Request or complaint — 1 tickets
+
+- **[#8216](https://tbpro.zendesk.com/agent/tickets/8216)** · Import gmail mail — why: **request** · how: **redirected**
+  > Hi! I have a gmail account that I would like to import here. Is it possible? Thanks.
 
 ### Pricing — annual-only inquiry — 1 tickets
 
@@ -520,7 +518,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8213](https://tbpro.zendesk.com/agent/tickets/8213) · [open] · 2026-09-01T19:35 · Alias Use in New E-Mails in Thundermail Webmail
 - [8214](https://tbpro.zendesk.com/agent/tickets/8214) · [pending] · 2026-09-01T19:35 · Reply to mails as the alias the mail was sent to
 - [8215](https://tbpro.zendesk.com/agent/tickets/8215) · [pending] · 2026-09-01T19:47 · Monthly billing?
-- [8216](https://tbpro.zendesk.com/agent/tickets/8216) · [open] · 2026-09-01T19:58 · Import gmail mail
+- [8216](https://tbpro.zendesk.com/agent/tickets/8216) · [solved] · 2026-09-01T19:58 · Import gmail mail
 
 ## Solved — last 24h
 
