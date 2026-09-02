@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-02 05:25 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 73** of rollout — **6,500 invitees**, **592 tickets** so far
 - **592** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 5 · **since launch**: 95
+- **New FeatureOS ideas (24h)**: 6 · **since launch**: 96
 - **Median AHT**: 145.0h · mean 196.7h (proxy: updated_at − created_at, 158 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -129,8 +129,10 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 5 new:
+**Last 24h** — 6 new:
 
+- [Calender: Allow using custom domain alias for event invites](https://ideas.tb.pro/p/calender-allow-using-custom-domain-alias-for-event-invites) · 1 votes · _untagged_
+  > What you’d like to seeHave a server-side option to configure the “organizer” alias used for sending event invites.When I invite others to my event, it should show up in their email and calendar as…
 - [Move to button/search box](https://ideas.tb.pro/p/move-to-button-search-box) · 1 votes · _untagged_
   > Would like to have “Move to” button to quickly move the selected email to specified folder.On desktop Thunderbird this can be solved with Quick folder move addon and on mobile Thinderbird the…
 - [Add Private-Cryptocurrency Payment Options | Monero (XMR)](https://ideas.tb.pro/p/add-private-cryptocurrency-payment-options-monero-xmr) · 1 votes · _untagged_
@@ -146,8 +148,8 @@ _No negative ratings since launch._
 
 - **closed**: 279
 - **solved**: 158
-- **pending**: 97
-- **open**: 27
+- **pending**: 96
+- **open**: 28
 - **new**: 21
 - **hold**: 10
 
