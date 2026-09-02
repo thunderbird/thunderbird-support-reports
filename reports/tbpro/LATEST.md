@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-02 08:34 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **598 tickets** so far (9.2% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **597 tickets** so far (9.2% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **43** new tickets in last 24h · **9** solved in last 24h
-- **598** tickets total since launch · contact rate **9%** of 6500 invitees
+- **42** new tickets in last 24h · **9** solved in last 24h
+- **597** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 96
@@ -152,13 +152,13 @@ _No negative ratings since launch._
 - **solved**: 158
 - **pending**: 96
 - **open**: 28
-- **new**: 27
+- **new**: 26
 - **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 312
-- **Thundermail**: 226
+- **Thundermail**: 225
 - **Appointment**: 17
 - **Send**: 17
 
@@ -244,19 +244,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8224](https://tbpro.zendesk.com/agent/tickets/8224)** · Cannot sign in to new thundermail account
   > I am opening a new account by invitation and I proceeded through my email verification but I cannot sign in to my new account to pay the subscription fee because my password is…
 
-### Other / uncategorized — 5 tickets
-
-- **[#8250](https://tbpro.zendesk.com/agent/tickets/8250)** · Trying thundermail
-  > I would like to try Thundermail service first before I purchase a whole year and definitely at least a month because I've gone to many email systems and I've been under attack for…
-- **[#8249](https://tbpro.zendesk.com/agent/tickets/8249)** · en pääse thundermailiin
-  > väittää että käytän väärää tunnusta ja salasanaa, vaikka ne on oikein. en pääse suorittsmaan loppuun käyttäänottoa.
-- **[#8234](https://tbpro.zendesk.com/agent/tickets/8234)** · I need to give a try for a month, not one year
-  > I need to give a try for a month, not one year
-- **[#8231](https://tbpro.zendesk.com/agent/tickets/8231)** · Change mail 
-  > I want to chnage mail from chriskapa.... to error404
-- **[#8220](https://tbpro.zendesk.com/agent/tickets/8220)** · Need to change my email address
-  > Hi there, I wasn't aware until MUCH later that I typo'd my username when creating my account. Could I have it changed to "netopwibby" (two B's, not one)?
-
 ### Subscription / billing / refund / cancel — 5 tickets
 
 - **[#8246](https://tbpro.zendesk.com/agent/tickets/8246)** · Refund please
@@ -269,6 +256,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Very excited for your product. But I need multiple email/user support for my custom domain. I did not realize this feature is not available. Please cancel and refund. Thank you.
 - **[#8222](https://tbpro.zendesk.com/agent/tickets/8222)** · The payment page doesn’t open.
   > The payment page doesn’t open.
+
+### Other / uncategorized — 4 tickets
+
+- **[#8249](https://tbpro.zendesk.com/agent/tickets/8249)** · en pääse thundermailiin
+  > väittää että käytän väärää tunnusta ja salasanaa, vaikka ne on oikein. en pääse suorittsmaan loppuun käyttäänottoa.
+- **[#8234](https://tbpro.zendesk.com/agent/tickets/8234)** · I need to give a try for a month, not one year
+  > I need to give a try for a month, not one year
+- **[#8231](https://tbpro.zendesk.com/agent/tickets/8231)** · Change mail 
+  > I want to chnage mail from chriskapa.... to error404
+- **[#8220](https://tbpro.zendesk.com/agent/tickets/8220)** · Need to change my email address
+  > Hi there, I wasn't aware until MUCH later that I typo'd my username when creating my account. Could I have it changed to "netopwibby" (two B's, not one)?
 
 ### Webmail — 3 tickets
 
@@ -369,7 +367,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8246](https://tbpro.zendesk.com/agent/tickets/8246) · [new] · 2026-09-02T03:31 · Refund please
 - [8248](https://tbpro.zendesk.com/agent/tickets/8248) · [new] · 2026-09-02T03:42 · Payment
 - [8249](https://tbpro.zendesk.com/agent/tickets/8249) · [new] · 2026-09-02T03:42 · en pääse thundermailiin
-- [8250](https://tbpro.zendesk.com/agent/tickets/8250) · [new] · 2026-09-02T03:48 · Trying thundermail
 - [8251](https://tbpro.zendesk.com/agent/tickets/8251) · [new] · 2026-09-02T03:57 · Email Encryption
 - [8252](https://tbpro.zendesk.com/agent/tickets/8252) · [new] · 2026-09-02T04:41 · account deletion
 - [8255](https://tbpro.zendesk.com/agent/tickets/8255) · [new] · 2026-09-02T05:59 · AW: Correction: Thundermail Early Bird Access
