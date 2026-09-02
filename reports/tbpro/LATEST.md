@@ -1,17 +1,17 @@
-# Thundermail — Flight 3 Live Report · 2026-09-01
+# Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-01 23:27 ET** · refreshes hourly_  
-_24h window: 2026-08-31T16:00 → 2026-09-01T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-09-02 00:28 ET** · refreshes hourly_  
+_24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 72** of rollout — **6,500 invitees**, **578 tickets** so far (8.9% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **583 tickets** so far (9.0% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **81** new tickets in last 24h · **22** solved in last 24h
-- **578** tickets total since launch · contact rate **9%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **28** new tickets in last 24h · **9** solved in last 24h
+- **583** tickets total since launch · contact rate **9%** of 6500 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 94
 - **Median AHT**: 145.0h · mean 196.7h (proxy: updated_at − created_at, 158 solved tickets)
@@ -20,14 +20,12 @@ Flight 3 is **day 72** of rollout — **6,500 invitees**, **578 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"early bird"** — 33 tickets in 24h (57.1× baseline; baseline 41 cum) — [#8138](https://tbpro.zendesk.com/agent/tickets/8138), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8179](https://tbpro.zendesk.com/agent/tickets/8179), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184), [#8192](https://tbpro.zendesk.com/agent/tickets/8192), [#8196](https://tbpro.zendesk.com/agent/tickets/8196), [#8197](https://tbpro.zendesk.com/agent/tickets/8197), [#8199](https://tbpro.zendesk.com/agent/tickets/8199), [#8202](https://tbpro.zendesk.com/agent/tickets/8202), [#8203](https://tbpro.zendesk.com/agent/tickets/8203), [#8204](https://tbpro.zendesk.com/agent/tickets/8204), [#8209](https://tbpro.zendesk.com/agent/tickets/8209)
-- **"early access"** — 32 tickets in 24h (108.2× baseline; baseline 21 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8151](https://tbpro.zendesk.com/agent/tickets/8151), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8156](https://tbpro.zendesk.com/agent/tickets/8156), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8167](https://tbpro.zendesk.com/agent/tickets/8167), [#8168](https://tbpro.zendesk.com/agent/tickets/8168), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8171](https://tbpro.zendesk.com/agent/tickets/8171), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8177](https://tbpro.zendesk.com/agent/tickets/8177), [#8178](https://tbpro.zendesk.com/agent/tickets/8178), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184), [#8196](https://tbpro.zendesk.com/agent/tickets/8196), [#8197](https://tbpro.zendesk.com/agent/tickets/8197), [#8199](https://tbpro.zendesk.com/agent/tickets/8199), [#8202](https://tbpro.zendesk.com/agent/tickets/8202), [#8203](https://tbpro.zendesk.com/agent/tickets/8203), [#8204](https://tbpro.zendesk.com/agent/tickets/8204), [#8209](https://tbpro.zendesk.com/agent/tickets/8209)
-- **"invited early"** — 31 tickets in 24h (220.1× baseline; baseline 10 cum) — [#8138](https://tbpro.zendesk.com/agent/tickets/8138), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8151](https://tbpro.zendesk.com/agent/tickets/8151), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184), [#8196](https://tbpro.zendesk.com/agent/tickets/8196), [#8197](https://tbpro.zendesk.com/agent/tickets/8197), [#8199](https://tbpro.zendesk.com/agent/tickets/8199), [#8202](https://tbpro.zendesk.com/agent/tickets/8202), [#8203](https://tbpro.zendesk.com/agent/tickets/8203), [#8204](https://tbpro.zendesk.com/agent/tickets/8204), [#8209](https://tbpro.zendesk.com/agent/tickets/8209)
-- **"custom domain"** — 30 tickets in 24h (41.8× baseline; baseline 51 cum) — [#8121](https://tbpro.zendesk.com/agent/tickets/8121), [#8133](https://tbpro.zendesk.com/agent/tickets/8133), [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8141](https://tbpro.zendesk.com/agent/tickets/8141), [#8150](https://tbpro.zendesk.com/agent/tickets/8150), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8154](https://tbpro.zendesk.com/agent/tickets/8154), [#8155](https://tbpro.zendesk.com/agent/tickets/8155), [#8158](https://tbpro.zendesk.com/agent/tickets/8158), [#8159](https://tbpro.zendesk.com/agent/tickets/8159), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8163](https://tbpro.zendesk.com/agent/tickets/8163), [#8164](https://tbpro.zendesk.com/agent/tickets/8164), [#8165](https://tbpro.zendesk.com/agent/tickets/8165), [#8166](https://tbpro.zendesk.com/agent/tickets/8166), [#8170](https://tbpro.zendesk.com/agent/tickets/8170), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8176](https://tbpro.zendesk.com/agent/tickets/8176), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8184](https://tbpro.zendesk.com/agent/tickets/8184), [#8196](https://tbpro.zendesk.com/agent/tickets/8196), [#8197](https://tbpro.zendesk.com/agent/tickets/8197), [#8199](https://tbpro.zendesk.com/agent/tickets/8199), [#8202](https://tbpro.zendesk.com/agent/tickets/8202), [#8203](https://tbpro.zendesk.com/agent/tickets/8203), [#8204](https://tbpro.zendesk.com/agent/tickets/8204), [#8209](https://tbpro.zendesk.com/agent/tickets/8209), [#8213](https://tbpro.zendesk.com/agent/tickets/8213), [#8214](https://tbpro.zendesk.com/agent/tickets/8214)
-- **"subscribe button"** — 11 tickets in 24h (new; baseline 0 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8144](https://tbpro.zendesk.com/agent/tickets/8144), [#8148](https://tbpro.zendesk.com/agent/tickets/8148), [#8153](https://tbpro.zendesk.com/agent/tickets/8153), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8171](https://tbpro.zendesk.com/agent/tickets/8171), [#8172](https://tbpro.zendesk.com/agent/tickets/8172), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8202](https://tbpro.zendesk.com/agent/tickets/8202)
-- **"waitlist page"** — 7 tickets in 24h (new; baseline 0 cum) — [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8152](https://tbpro.zendesk.com/agent/tickets/8152), [#8157](https://tbpro.zendesk.com/agent/tickets/8157), [#8162](https://tbpro.zendesk.com/agent/tickets/8162), [#8168](https://tbpro.zendesk.com/agent/tickets/8168), [#8169](https://tbpro.zendesk.com/agent/tickets/8169), [#8202](https://tbpro.zendesk.com/agent/tickets/8202)
-- **"click subscribe"** — 6 tickets in 24h (new; baseline 0 cum) — [#8139](https://tbpro.zendesk.com/agent/tickets/8139), [#8140](https://tbpro.zendesk.com/agent/tickets/8140), [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8161](https://tbpro.zendesk.com/agent/tickets/8161), [#8183](https://tbpro.zendesk.com/agent/tickets/8183), [#8202](https://tbpro.zendesk.com/agent/tickets/8202)
-- **"page instead"** — 4 tickets in 24h (new; baseline 0 cum) — [#8143](https://tbpro.zendesk.com/agent/tickets/8143), [#8168](https://tbpro.zendesk.com/agent/tickets/8168), [#8173](https://tbpro.zendesk.com/agent/tickets/8173), [#8202](https://tbpro.zendesk.com/agent/tickets/8202)
+- **"early access"** — 6 tickets in 24h (9.2× baseline; baseline 47 cum) — [#8218](https://tbpro.zendesk.com/agent/tickets/8218), [#8226](https://tbpro.zendesk.com/agent/tickets/8226), [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8228](https://tbpro.zendesk.com/agent/tickets/8228), [#8229](https://tbpro.zendesk.com/agent/tickets/8229), [#8235](https://tbpro.zendesk.com/agent/tickets/8235)
+- **"custom domain"** — 4 tickets in 24h (3.7× baseline; baseline 77 cum) — [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8236](https://tbpro.zendesk.com/agent/tickets/8236), [#8237](https://tbpro.zendesk.com/agent/tickets/8237), [#8238](https://tbpro.zendesk.com/agent/tickets/8238)
+- **"however several"** — 2 tickets in 24h (new; baseline 0 cum) — [#8217](https://tbpro.zendesk.com/agent/tickets/8217), [#8223](https://tbpro.zendesk.com/agent/tickets/8223)
+- **"invitation sign"** — 2 tickets in 24h (144.0× baseline; baseline 1 cum) — [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8242](https://tbpro.zendesk.com/agent/tickets/8242)
+- **"refund subscription"** — 2 tickets in 24h (20.6× baseline; baseline 7 cum) — [#8236](https://tbpro.zendesk.com/agent/tickets/8236), [#8246](https://tbpro.zendesk.com/agent/tickets/8246)
+- **"custom domains"** — 2 tickets in 24h (3.2× baseline; baseline 45 cum) — [#8223](https://tbpro.zendesk.com/agent/tickets/8223), [#8235](https://tbpro.zendesk.com/agent/tickets/8235)
 
 ## Known problems — 6 problem(s), 52 incident(s)
 
@@ -122,33 +120,25 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 6
+## Refund & cancellation tickets (last 24h) — 2
 
-- [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [pending] · _Please refund my money_
-  > I signed up for a paid account yesterday, but unfortunately, it doesn't meet my expectations; I want to cancel and get a refund. What do I need to do, and how?
-- [8175](https://tbpro.zendesk.com/agent/tickets/8175) · [pending] · _Refund_
-  > I made a mistake when purchasing this service, would there be any chance of a refund please?
-- [8195](https://tbpro.zendesk.com/agent/tickets/8195) · [pending] · _Cancel Subscription & Refund _
-  > Hi [name], I signed up for the subscription by mistake. However, on Paddle, I was only able to cancel the renewal after the first year (number 2 in the screenshot); I am still being charged for the first year (number 1…
-- [8200](https://tbpro.zendesk.com/agent/tickets/8200) · [open] · _Cancel + Refund_
-  > I have tried Thundermail but I think it is not for me. At least, not yet. And I think it is way too early needing to sign up for the paid subscription for a service that is still in full development. Therefore, I'd like…
-- [8232](https://tbpro.zendesk.com/agent/tickets/8232) · [pending] · _Refund Request — Thundermail Subscription_
-  > Hello, I would like to request a full refund for my Thundermail subscription, in accordance with your 14-day refund policy. I registered within the last 14 days and would like to cancel my subscription and receive a…
-- [8236](https://tbpro.zendesk.com/agent/tickets/8236) · [new] · _Refund Subscription _
-  > Very excited for your product. But I need multiple email/user support for my custom domain. I did not realize this feature is not available. Please cancel and refund. Thank you.
+- [8240](https://tbpro.zendesk.com/agent/tickets/8240) · [new] · _Refund, please ?_
+  > Hello [name], It's all great and all, but I think I'll wait for it to be more mature and think about subbing again. Can I get a refund ?
+- [8246](https://tbpro.zendesk.com/agent/tickets/8246) · [new] · _Refund please_
+  > Hello , I would like a refund please for my subscription. Thank you
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 4 new:
 
-- [Auto categorize emails](https://ideas.tb.pro/p/auto-categorize-emails) · 1 votes · _untagged_
+- [Add Private-Cryptocurrency Payment Options | Monero (XMR)](https://ideas.tb.pro/p/add-private-cryptocurrency-payment-options-monero-xmr) · 1 votes · _untagged_
+  > Summary Add support for privacy-focused cryptocurrencies as a payment method for subscriptions and account purchases, starting with Monero (XMR) as the primary and first option.Problem / Motivation A…
+- [ThunderDRIVE - Evolution from 'Send' to 'Drive'](https://ideas.tb.pro/p/thunderdrive-evolution-from-send-to-drive) · 1 votes · _Send, Accounts & Subscriptions, New Feature, Improvement_
+  > The idea would be to offer a Drive : a cloud storage service, similar to OneDrive or Google Drive. The fact that Send currently offers 60 GB of storage is a good start. A small next step toward using…
+- [Quick Search](https://ideas.tb.pro/p/quick-search) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?Your use caseShare an example of how you’d use this feature…
-- [Limited Free Tier](https://ideas.tb.pro/p/limited-free-tier) · 1 votes · _Thundermail, New Feature, Improvement, Webmail_
-  > What you’d like to seeA limited free tier that allows users to receive and reply to basic email communications and manage their accounts/subscriptions.Why it mattersIt would give people an…
-- [Allow mail sent to aliases to be auto-forwarded](https://ideas.tb.pro/p/allow-mail-sent-to-aliases-to-be-auto-forwarded) · 1 votes · _untagged_
-  > While Thundermail lacks the ability to have separate user accounts/Inboxes for multiple people that own and operate a custom domain, a good (and easy) workaround would be to allow any messages sent…
-- [Connect autoresponders to aliases](https://ideas.tb.pro/p/connect-autoresponders-to-aliases) · 1 votes · _untagged_
-  > Add the ability to have any mail sent to an alias return a specific autoresponder message (configured in the Settings portal) and DO NOT deliver the email to the primary Inbox.Rationale/Use Cases:(1)…
+- [Gmail integration](https://ideas.tb.pro/p/gmail-integration) · 1 votes · _untagged_
+  > What you’d like to seeDirect Google Account (Gmail) integration, allowing users to send and receive emails using their @gmail.com address, as well as sync contacts and calendar.Why it mattersMany…
 
 ## Status breakdown (cumulative)
 
@@ -156,13 +146,13 @@ _No negative ratings since launch._
 - **solved**: 158
 - **pending**: 100
 - **open**: 24
+- **new**: 12
 - **hold**: 10
-- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 308
-- **Thundermail**: 218
+- **Account Hub**: 309
+- **Thundermail**: 222
 - **Appointment**: 17
 - **Send**: 17
 
@@ -217,333 +207,143 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird signup — 37 tickets
+### Other / uncategorized — 5 tickets
 
-- **[#8154](https://tbpro.zendesk.com/agent/tickets/8154)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Thanks guys but the link send me back to the joining list form and I can't subscribe to anything. Ermanno [quoted message] We’re excited to invite you to try Thundermail Early…
-- **[#8209](https://tbpro.zendesk.com/agent/tickets/8209)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Is there a time limit to signing up, like next month? Thanks -------- Original Message -------- From: [sender] Sent: September 1, 2026 9:20:52 a.m. CDT To: [email] Subject: You're…
-- **[#8202](https://tbpro.zendesk.com/agent/tickets/8202)** · R: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Hello, First of all, I would like to thank you for the valuable work you are doing, and for selecting me for Thundermail Early Access. I would like to report an issue: when I…
-- **[#8197](https://tbpro.zendesk.com/agent/tickets/8197)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hello, The link just takes me to join the waitlist again. Can the correct signup details be sent again? Thank you, [name] https://proton.me/mail/home -------- Original Message…
-- **[#8183](https://tbpro.zendesk.com/agent/tickets/8183)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > How exactly do I sign up? When I click the subscribe button in this email I just get sent back to the waiting list signup. [quoted message] We’re excited to invite you to try…
-- **[#8178](https://tbpro.zendesk.com/agent/tickets/8178)** · Early Access — why: **blocked** · how: **explained**
-  > Hello, I received an email saying i was approved for Thunder Mail early access. However, I'm unable to login, access the portal. I've tried clicking the link embedded in the email…
-- **[#8177](https://tbpro.zendesk.com/agent/tickets/8177)** · Thundermail Invite — why: **blocked** · how: **explained**
-  > I received an email stating "The wait is over: your invite to Thundermail Early Access is ready!". There doesn't seem to be a way to actually sign-up. Thanks in advance!
-- **[#8174](https://tbpro.zendesk.com/agent/tickets/8174)** · Was invited to join Thundermail, but sign up does not work — why: **blocked** · how: **explained**
-  > When I click the link in the signup email (https://[domain]/sign-up?email=[email]) it redirects me to the waitlist signup (https://[domain]/en-US/waitlist/?email=[email]). Filling…
-- **[#8173](https://tbpro.zendesk.com/agent/tickets/8173)** · Cannot sign up for Thundermail — why: **blocked** · how: **explained**
-  > Good day, Today I received an email that I've been invited to join Thundermail but the link in the email redirects me to the waitlist signup page, instead of letting me set up an…
-- **[#8172](https://tbpro.zendesk.com/agent/tickets/8172)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi. Thank you for the early access! Unfortunately it seems like I cannot sign up. Is there something else I have to do besides just clicking the “Subscribe” button? Thanks for the…
-- **[#8171](https://tbpro.zendesk.com/agent/tickets/8171)** · Need help SUBSCRIBING — why: **blocked** · how: **explained**
-  > I received a Thundermail Early Access email. When I clicked on the SUBSCRIBE button in the email, it keeps taking me back to the WAITLIST screen and cannot proceed further. Can…
-- **[#8170](https://tbpro.zendesk.com/agent/tickets/8170)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi, there is no link to sight up anywhere. How do I do? [quoted message] > You're Invited: Thundermail Early Bird Access We’re excited to invite > you to try Thundermail Early…
-- **[#8169](https://tbpro.zendesk.com/agent/tickets/8169)** · Invitation Not Working — why: **blocked** · how: **explained**
-  > Hello, I just received an invite to subscribe, but the link doesn't seem to be working. I just end up back on the waitlist page.
-- **[#8168](https://tbpro.zendesk.com/agent/tickets/8168)** · Unable to Sign Up for Thundermail Early Access — why: **blocked** · how: **explained**
-  > Hello [name], Today, I was excited to receive my invitation to Thundermail Early Access, which I’ve been looking forward to. I tried to sign up right away, but unfortunately, the…
-- **[#8166](https://tbpro.zendesk.com/agent/tickets/8166)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi, Sign up links redirect to the waitlist registration page, so I am unable to register as a new user is this a known bug? thanks, [name] [quoted message] We’re excited to invite…
-- **[#8165](https://tbpro.zendesk.com/agent/tickets/8165)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Subscribe takes me to the page to sign up for notifications. Contact support link takes me to the FAQ page. How do I access the early bird setup/payment? Thank you, [name] [quoted…
-- **[#8164](https://tbpro.zendesk.com/agent/tickets/8164)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > The SUBSCRIBE [https://[domain]/sign-up?email=[email]] link opens, but then immediately redirects me from signup to the "join waitlist" form. Thundermail wrote on 01/09/2026,…
-- **[#8163](https://tbpro.zendesk.com/agent/tickets/8163)** · Fwd: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hello [name], It doesn't seem to work. I keep getting sent back to Join Waitlist... -------- Forwarded Message -------- Subject: You're Invited: Thundermail Early Bird Access…
-- **[#8162](https://tbpro.zendesk.com/agent/tickets/8162)** · Can't create account : You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > It keeps sending me back to the Join Waitlist page.
-- **[#8161](https://tbpro.zendesk.com/agent/tickets/8161)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi, When I click the subscribe button it takes me to the waitlist signup. [email] Thank you, [name] [quoted message] We’re excited to invite you to try Thundermail Early Bird. ͏ ‌…
-- **[#8159](https://tbpro.zendesk.com/agent/tickets/8159)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Thank you, [name] trying to sign up, but it keep redirecting me to the waitlist. -Drew [quoted message] We’re excited to invite you to try Thundermail Early Bird. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌…
-- **[#8158](https://tbpro.zendesk.com/agent/tickets/8158)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > When I try to sign up, it just kicks me back to joining the waitlist! Bummer :( [quoted message] We’re excited to invite you to try Thundermail Early Bird. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌…
-- **[#8157](https://tbpro.zendesk.com/agent/tickets/8157)** · Sign Up Flow Broken — why: **blocked** · how: **explained**
-  > Hi, I received an email at Tue, 01 Sep 2026 10:23:10 AM -0400 witht he subject “You're Invited: Thundermail Early Bird Access”. When I tried to sign up with the hyperlink in the…
-- **[#8155](https://tbpro.zendesk.com/agent/tickets/8155)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > How do I register? Michael [quoted message] > You're Invited: Thundermail Early Bird Access We’re excited to invite > you to try Thundermail Early Bird. > ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌…
-- **[#8153](https://tbpro.zendesk.com/agent/tickets/8153)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hello, it seems the subscribe button on this email takes me to the waitlist perhaps the link was wrong? kennedy [quoted message] > We’re excited to invite you to try Thundermail…
-- **[#8152](https://tbpro.zendesk.com/agent/tickets/8152)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Was this notice sent in error? I received this at the e-mail address I registered, [email], but it just forwarded me to the waitlist page. [quoted message] > You're Invited:…
-- **[#8151](https://tbpro.zendesk.com/agent/tickets/8151)** · Unable to create account after receiving invite — why: **blocked** · how: **explained**
-  > I received the email that said I was invited to the early access but I am not able to register. It keeps looping me back to sign up for the waitlist again.
-- **[#8150](https://tbpro.zendesk.com/agent/tickets/8150)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > I have tried to use the link below to sign up but it just takes me to the wait list page. Am I doing something wrong? Regards, [name] [quoted message] > You're Invited:…
-- **[#8149](https://tbpro.zendesk.com/agent/tickets/8149)** · Thundermail Invitation Received — why: **blocked** · how: **explained**
-  > I received an iinvitation to join Thundermail but am still only allowed to join the wait list.
-- **[#8148](https://tbpro.zendesk.com/agent/tickets/8148)** · Broken Invite Link - Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi [name], I received the "You're Invited: Thundermail Early Bird Access" email today, but when clicking the "Subscribe" button, it directs to a Mailchimp form stating "You have…
-- **[#8147](https://tbpro.zendesk.com/agent/tickets/8147)** · Beta invite but can't sign up? — why: **blocked** · how: **explained**
-  > Just got in invite to sign up for the beta, but when I hit subscribe in the email, it takes me to a page to fill out my email and name, only to be told I've been added to the wait…
-- **[#8145](https://tbpro.zendesk.com/agent/tickets/8145)** · Sent a non-working invitation. — why: **blocked** · how: **explained**
-  > Hi, I was just sent an invitation for Thundermail (at the email address referred to on this request) but the link only directs me to the waitlist form. Any help is appreciated.
-- **[#8143](https://tbpro.zendesk.com/agent/tickets/8143)** · Unable to signup — why: **blocked** · how: **explained**
-  > Hello, I recently received my invite to join however when I click the subscribe button which has a link to here: https://[domain]/sign-up?email=[email] the page instead gets…
-- **[#8141](https://tbpro.zendesk.com/agent/tickets/8141)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > I received this invite but I am unable to set up only goes To subscribe Mr. Andrew Münden, GD. ART. C/O Andrew Münden Graphic Design Co. O/a MündenDesign™ Graphic Designer &…
-- **[#8140](https://tbpro.zendesk.com/agent/tickets/8140)** · Invite link doesn't work — why: **blocked** · how: **explained**
-  > I've received an invitation to test Thundermail Early Bird Access, but when I click Subscribe it goes to a waitlist page.
-- **[#8139](https://tbpro.zendesk.com/agent/tickets/8139)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi, if I click the subscribe button in the email below, which appears to be a link to https://[domain]/sign-up?email=[email] , it just redirects me to the join waitlist form.…
-- **[#8138](https://tbpro.zendesk.com/agent/tickets/8138)** · رد تلقائي: You're Invited: Thundermail Early Bird Access — why: **other** · how: **investigated**
-  > [No content]
+- **[#8250](https://tbpro.zendesk.com/agent/tickets/8250)** · Trying thundermail
+  > I would like to try Thundermail service first before I purchase a whole year and definitely at least a month because I've gone to many email systems and I've been under attack for…
+- **[#8249](https://tbpro.zendesk.com/agent/tickets/8249)** · en pääse thundermailiin
+  > väittää että käytän väärää tunnusta ja salasanaa, vaikka ne on oikein. en pääse suorittsmaan loppuun käyttäänottoa.
+- **[#8234](https://tbpro.zendesk.com/agent/tickets/8234)** · I need to give a try for a month, not one year
+  > I need to give a try for a month, not one year
+- **[#8231](https://tbpro.zendesk.com/agent/tickets/8231)** · Change mail 
+  > I want to chnage mail from chriskapa.... to error404
+- **[#8220](https://tbpro.zendesk.com/agent/tickets/8220)** · Need to change my email address
+  > Hi there, I wasn't aware until MUCH later that I typo'd my username when creating my account. Could I have it changed to "netopwibby" (two B's, not one)?
 
-### Aliases — 10 tickets
+### Subscription / billing / refund / cancel — 5 tickets
 
-- **[#8214](https://tbpro.zendesk.com/agent/tickets/8214)** · Reply to mails as the alias the mail was sent to — why: **blocked** · how: **explained**
-  > I was unable to find a way to always have Thunderbird send a mail as the Thundermail (or custom domain) alias it was sent to. I have a couple of aliases and I would like to make…
-- **[#8211](https://tbpro.zendesk.com/agent/tickets/8211)** · aliases in Thunderbird  — why: **curious** · how: **informed**
-  > Cant really figure out how to get the aliases to work in the Thunderbird app. Do I have to add each alias as its own email adress? Did not find anything about it in the support…
-- **[#8206](https://tbpro.zendesk.com/agent/tickets/8206)** · username — why: **curious** · how: **explained**
-  > Is it possible to change my account username? Is it possible to change my primary email address?
-- **[#8205](https://tbpro.zendesk.com/agent/tickets/8205)** · [domain] — why: **curious** · how: **explained**
-  > Wieso konnte ich meine hauptadresse nicht als [domain] auswählen, oder geht das später noch?
-- **[#8181](https://tbpro.zendesk.com/agent/tickets/8181)** · can't log in?? — why: **curious** · how: **explained**
-  > Just made an account and CAN'T log in???
-- **[#8179](https://tbpro.zendesk.com/agent/tickets/8179)** · @[domain], @[domain], how to select? — why: **curious** · how: **explained**
-  > I am guided to @[domain] as my email address Thundermail Early Bird Access. How can I select @[domain]? I stopped my account setup waiting for this replay,
-- **[#8176](https://tbpro.zendesk.com/agent/tickets/8176)** · Thundermail Question — why: **curious** · how: **explained**
-  > I got invited to sign up for Thundermail, but I'd like to confirm something first. I'd like to move mine and my wife's accounts over from Zoho. We have a custom domain and our own…
-- **[#8156](https://tbpro.zendesk.com/agent/tickets/8156)** · Reassignment of Email Addresses (Email Recycling) — why: **curious** · how: **explained**
-  > Hello, I have a question about Thundermail. Today I received an invitation to Thundermail Early Access. If I create an email address with @[domain] or @[domain], will that address…
-- **[#8121](https://tbpro.zendesk.com/agent/tickets/8121)** · Pre-configure domain before transfer — why: **curious** · how: **escalated**
-  > Okay, here's another challenge for you, since your team is so helpful. :) I am preparing to transfer a (second) custom domain to Thundermail. This one has about 140 aliases set…
-- **[#8118](https://tbpro.zendesk.com/agent/tickets/8118)** · Accessing Alias — why: **curious** · how: **informed**
-  > So I see the web version of thundermail has alias that allow me to send from. I was wondering if there is a way to do the same on the Thunderbird app?
+- **[#8246](https://tbpro.zendesk.com/agent/tickets/8246)** · Refund please
+  > Hello , I would like a refund please for my subscription. Thank you
+- **[#8244](https://tbpro.zendesk.com/agent/tickets/8244)** · Cost
+  > Hi. I appreciate the offer but am unwilling to pay to be a beta tester. If I’m providing free research for you that should suffice for a membership fee. If not, thanks anyway.…
+- **[#8240](https://tbpro.zendesk.com/agent/tickets/8240)** · Refund, please ?
+  > Hello [name], It's all great and all, but I think I'll wait for it to be more mature and think about subbing again. Can I get a refund ?
+- **[#8236](https://tbpro.zendesk.com/agent/tickets/8236)** · Refund Subscription 
+  > Very excited for your product. But I need multiple email/user support for my custom domain. I did not realize this feature is not available. Please cancel and refund. Thank you.
+- **[#8222](https://tbpro.zendesk.com/agent/tickets/8222)** · The payment page doesn’t open.
+  > The payment page doesn’t open.
 
-### Spam / Junk Filtering — 5 tickets
+### Early bird / invite / waitlist — 5 tickets
 
-- **[#8192](https://tbpro.zendesk.com/agent/tickets/8192)** · incoming email — why: **blocked** · how: **investigated**
-  > Team Thundermail, Just set up my early bird account. I sent myself two emails from my protonmail account to my primary and to my alias [email] - neither showed up. I sent myself…
-- **[#8190](https://tbpro.zendesk.com/agent/tickets/8190)** · All outgoing mail is going to recipients spam
-  > I am setting up thundermail and have noticed that all sent mail goes to recipients spam, but a reply to a received mail does not. I sent to my thundermail and that is received…
-- **[#8185](https://tbpro.zendesk.com/agent/tickets/8185)** · mail delivery to gmail? — why: **concerned** · how: **explained**
-  > I sent several mails to a gmail address and it seems they either have not delivered or were classified as "spam"
-- **[#8133](https://tbpro.zendesk.com/agent/tickets/8133)** · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller items) — why: **blocked** · how: **explained**
-  > Hello, I'm a Thundermail customer using the custom domain houard.ch. Three items below; the first one is blocking. 1. OUTBOUND RELAY [ip] IS LISTED ON ABUSIX Since migrating to…
-- **[#8132](https://tbpro.zendesk.com/agent/tickets/8132)** · Cannot send SMTP messages from Thundermail account — why: **concerned** · how: **explained**
-  > I have tried to send emails from my Thundermail account to various gmail addresses. Thundermail 'Sent' show they have gone but they never show up in the gmail accounts. I have…
+- **[#8242](https://tbpro.zendesk.com/agent/tickets/8242)** · thundermail email ID missed
+  > Hey, I just now opened up the invitation email to sign up from the joinlist. And I created my account. I wrote my password near but After confirming account registration by link I…
+- **[#8229](https://tbpro.zendesk.com/agent/tickets/8229)** · Re: Correction: Thundermail Early Bird Access
+  > I'm a broke student with a pregnant wife who is on bed rest.. Lost 75 percent of wages this week can't afford.. Sent from [Proton Mail](https://proton.me/mail/home) for Android.…
+- **[#8227](https://tbpro.zendesk.com/agent/tickets/8227)** · Bug report
+  > Hello, I'd like to flag a minor privacy issue with the Thunderbird Mail early access invitation. The email sign-up link points to: https://[domain]/sign-up?email=xxxxxx As you can…
+- **[#8226](https://tbpro.zendesk.com/agent/tickets/8226)** · Re: Correction: Thundermail Early Bird Access
+  > 2026年9月2日(水) 4:19 Thundermail <[email]>: We’re excited to invite you to try Thundermail Early Bird. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌…
+- **[#8224](https://tbpro.zendesk.com/agent/tickets/8224)** · Cannot sign in to new thundermail account
+  > I am opening a new account by invitation and I proceeded through my email verification but I cannot sign in to my new account to pay the subscription fee because my password is…
 
-### Refund / Cancel — 5 tickets
+### Aliases — 3 tickets
 
-- **[#8195](https://tbpro.zendesk.com/agent/tickets/8195)** · Cancel Subscription & Refund  — why: **change request** · how: **actioned**
-  > Hi [name], I signed up for the subscription by mistake. However, on Paddle, I was only able to cancel the renewal after the first year (number 2 in the screenshot); I am still…
-- **[#8188](https://tbpro.zendesk.com/agent/tickets/8188)** · You've taken my money but not granted me access!??? — why: **change request** · how: **actioned**
-  > TOTALLY UNFAIR! Why should it take so long to grant access to a service not for any goods delivery?
-- **[#8175](https://tbpro.zendesk.com/agent/tickets/8175)** · Refund — why: **change request** · how: **actioned**
-  > I made a mistake when purchasing this service, would there be any chance of a refund please?
-- **[#8128](https://tbpro.zendesk.com/agent/tickets/8128)** · Please refund my money — why: **change request** · how: **actioned**
-  > I signed up for a paid account yesterday, but unfortunately, it doesn't meet my expectations; I want to cancel and get a refund. What do I need to do, and how?
-- **[#8114](https://tbpro.zendesk.com/agent/tickets/8114)** · Refund — why: **change request** · how: **actioned**
-  > Hi there, I’m writing to request a refund for my account. I no longer need it and I feel Like I wont be able to give feedback to you for the Beta version. I have a quick question:…
+- **[#8237](https://tbpro.zendesk.com/agent/tickets/8237)** · Server-side email filtering via ManageSieve
+  > Hi, I recently set up Thundermail with my own custom domain and multiple email aliases. I would like to automatically sort incoming messages based on the recipient alias into…
+- **[#8223](https://tbpro.zendesk.com/agent/tickets/8223)** · Multiple email accounts
+  > Hello, I want to use the Custom Domains and DNS Configuration feature. I'm interested in email hosting and calendaring. However, I have several users at my domain. So, if I setup…
+- **[#8225](https://tbpro.zendesk.com/agent/tickets/8225)** · Changing Primary Email — why: **curious** · how: **explained**
+  > Hi, again! Sorry to bother - is there a way to change the primary email address for the account? I was able to link my domain, and was hoping to use my domail email account as my…
 
-### Pricing — wanted free / monthly plan — 4 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#8199](https://tbpro.zendesk.com/agent/tickets/8199)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Hello, thank you for the Thundermail invitation email, but there's a big problem: the account password wasn't set, and the password reset and recovery email I received contains…
-- **[#8207](https://tbpro.zendesk.com/agent/tickets/8207)** · pricing stricture — why: **curious** · how: **explained**
-  > Give opportunity to pay on monthly basis and it will be a viable investment. Otherwise thundermail is ridiculous and I won't pay for it.
-- **[#8204](https://tbpro.zendesk.com/agent/tickets/8204)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Vielen Dank. Ich möchte keine kostenpflichtige Emailaccount. Mir wurde Ihre Thundermail empfohlen, weil Sie kostenfrei ist! Ich möchte nichts KOSTENPFLICHTIGES. Danke Mit…
-- **[#8203](https://tbpro.zendesk.com/agent/tickets/8203)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Thank you for your message. If you have a free account I would love to subscribe. Unfortunately I cannot afford paid accounts, thank you. -------- Original Message --------…
+- **[#8238](https://tbpro.zendesk.com/agent/tickets/8238)** · Custom domain
+  > I was configuring the domain [domain]. the browser crashed, it's not fully configured, my control panel doesn't show the domain, but I get a message that it is configured. Please…
+- **[#8217](https://tbpro.zendesk.com/agent/tickets/8217)** · TXT and CNAME Records — why: **blocked** · how: **explained**
+  > Hello! I created the TXT and CNAME records in my domain's DNS registry (GoDaddy does some of this differently than you described, but I was able to figure it out). However, there…
 
-### Webmail — 3 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#8213](https://tbpro.zendesk.com/agent/tickets/8213)** · Alias Use in New E-Mails in Thundermail Webmail
-  > Can i use the Alias E-Mail with my custom Domain in the Webmail? This is a feature i would really like to see in the final release.
-- **[#8196](https://tbpro.zendesk.com/agent/tickets/8196)** · Re: You're Invited: Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > I don't see anywhere to actually utilize this, just to rejoin the wait-list. Sent from [Proton Mail](https://proton.me/mail/home) for Android. -------- Original Message --------…
-- **[#8193](https://tbpro.zendesk.com/agent/tickets/8193)** · Send folder in Thunderbird (154 Linux) not synced with thundermail — why: **confused** · how: **investigated**
-  > I have add my fresh [domain] account to thunderbird (autoconfig). IMAP / CardDAV /CalDAV was configured automaticly. IMAP Folders was not subscribed automaticly, its need to be…
+- **[#8251](https://tbpro.zendesk.com/agent/tickets/8251)** · Email Encryption
+  > Does Thundermail provide encryption at rest? I.e are my emaills stored on Thundermail servers in an encryption form? I currently use a email provider who encrypts my email with my…
 
-### Early bird / invite / waitlist — 3 tickets
+### Pricing / monthly plan / free tier — 1 tickets
 
-- **[#8184](https://tbpro.zendesk.com/agent/tickets/8184)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
-  > Is there an iOS app? That’s much higher priority than a new email service… > [quoted message] > > DuckDuckGo removed one tracker. More…
-- **[#8144](https://tbpro.zendesk.com/agent/tickets/8144)** · Broken Invite Link - Thundermail Early Bird Access — why: **blocked** · how: **explained**
-  > Hi [name], I received the "You're Invited: Thundermail Early Bird Access" email today, but when clicking the "Subscribe" button, it directs to a Mailchimp form stating "You have…
-- **[#8119](https://tbpro.zendesk.com/agent/tickets/8119)** · ThunderMail Waitlist Invitation — why: **curious** · how: **explained**
-  > Hi [name], I joined the waitlist quite a while ago, I believe around four months ago, but I still haven’t received an invite. Could you please check my waitlist status and, if…
-
-### Other / uncategorized — 2 tickets
-
-- **[#8201](https://tbpro.zendesk.com/agent/tickets/8201)** · Anmeldung nicht möglich 
-  > Meine E Mails sind auf dem Handy nicht mehr sichtbar. Meine Mail Adresse wird nicht erkannt.
-- **[#8198](https://tbpro.zendesk.com/agent/tickets/8198)** · adresse e-mail — why: **confused** · how: **investigated**
-  > comment retrouver mot de passe de thunderbird
-
-### Pricing — payment issue — 2 tickets
-
-- **[#8182](https://tbpro.zendesk.com/agent/tickets/8182)** · Waiting for thundermail signup, "Your payment is being processed" page to finish — why: **curious** · how: **explained**
-  > I've just signed up for thundermail, put in my CC info, page is the "your payment is being processed". It keeps flashing that page, then white, over and over. URL info at bottom…
-- **[#8160](https://tbpro.zendesk.com/agent/tickets/8160)** · Can't get into account. Stuck on approving payment which already went through — why: **curious** · how: **explained**
-  > I want to start using my Thundermail account, which I've paid for, but all I get is that the payment is still waiting approval. I've already been notified by PayPal that the…
+- **[#8248](https://tbpro.zendesk.com/agent/tickets/8248)** · Payment
+  > I'd like to pay monthly
 
 ### Account creation / signup confusion — 1 tickets
 
-- **[#8200](https://tbpro.zendesk.com/agent/tickets/8200)** · Cancel + Refund
-  > I have tried Thundermail but I think it is not for me. At least, not yet. And I think it is way too early needing to sign up for the paid subscription for a service that is still…
+- **[#8241](https://tbpro.zendesk.com/agent/tickets/8241)** · Can't receive email
+  > I just created this new account, and I'm not able to receive any email. Please respond to [email]
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#8191](https://tbpro.zendesk.com/agent/tickets/8191)** · No DKIM on outgoing mails
-  > There is no DKIM signature...outgoing mails landing in spam Testresult cab be checked here: https://[domain]/test-d4iqx6cye
+- **[#8239](https://tbpro.zendesk.com/agent/tickets/8239)** · Spam from [email]/[domain]
+  > Predatory publishing spammer. Full spam sample below. Joseph Tam <[email]> Received: from [domain] ([domain] [[ip]]) by viol.math.ubc.ca (8.17.1/8.17.1) with ESMTPS id…
 
-### Email sending / receiving / SMTP / IMAP — 1 tickets
+### Webmail — 1 tickets
 
-- **[#8129](https://tbpro.zendesk.com/agent/tickets/8129)** · Port number for SMTP — why: **telling us**
-  > On the account page (https://[domain]/mail) the port number for SMTP is listed as 465. Using msmtp, i can only get it to work with port 587. (It hangs trying to get a connection…
+- **[#8235](https://tbpro.zendesk.com/agent/tickets/8235)** · Re: You're Invited: Thundermail Early Bird Access
+  > Dear [name], I do not want to subscribe at this time. I selected Thunderbird because it was advertised as "free" but supported by donations. Accordingly I donated. Having been on…
 
-### Request or complaint — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#8216](https://tbpro.zendesk.com/agent/tickets/8216)** · Import gmail mail — why: **request** · how: **redirected**
-  > Hi! I have a gmail account that I would like to import here. Is it possible? Thanks.
+- **[#8228](https://tbpro.zendesk.com/agent/tickets/8228)** · Re: Correction: Thundermail Early Bird Access
+  > Subject: Thank you for the Early Bird access & Request for Pro Subscription Whitepaper Dear [name] and Thunderbird Team, I hope this email finds you well. I am writing to express…
 
-### Pricing — annual-only inquiry — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#8215](https://tbpro.zendesk.com/agent/tickets/8215)** · Monthly billing? — why: **curious** · how: **explained**
-  > It seems that I am unable to test the service until I make payment for it. But, I only see an annual cost, which with tax too is $72. That's a lot to try out a new mail account.…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#8186](https://tbpro.zendesk.com/agent/tickets/8186)** · Your payment is being processed — why: **curious** · how: **explained**
-  > I don't understand why I have to wait 48 hours when my payment was debited immediately. The error might be because I opened and paid for the account using the address [email].…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8180](https://tbpro.zendesk.com/agent/tickets/8180)** · Subscribed, but in endless refresh loop — why: **blocked** · how: **explained**
-  > I subscribed, but am now in an endless refresh loop on https://[domain]/subscribe My bank statement shows money has been reserved for "[domain]* MZLATECHNA,London" so it seems…
+- **[#8219](https://tbpro.zendesk.com/agent/tickets/8219)** · Thundermail Login — why: **curious** · how: **explained**
+  > I can’t login to my Thundermail that I’ve been invited too. The Thundermail address is [email] I think. I tried the forgot my password and it said it sent to my recovery email,…
 
 ### Pricing — general pricing concern — 1 tickets
 
-- **[#8167](https://tbpro.zendesk.com/agent/tickets/8167)** · Discount — why: **curious** · how: **explained**
-  > hi, I received invitation for early access to Thundermail, but I thought I would get a discount or at least an option for monthly payment instead of annual?
-
-### Account access issues — 1 tickets
-
-- **[#8117](https://tbpro.zendesk.com/agent/tickets/8117)** · Send to thunderbird desktop app integration error — why: **blocked** · how: **explained**
-  > Hello there and forgive any disturb! After testing for a bit thunderbird linked to my thundermail account i sadly found out that when using the send integration directly from…
-
-### MFA / two-factor — 1 tickets
-
-- **[#8115](https://tbpro.zendesk.com/agent/tickets/8115)** · MFA setup on mobile — why: **blocked**
-  > When trying to set up MFA via Safari on iOS I noticed that the pop-over displaying the code and more crucially the controls does not respond correctly making it impossible to…
+- **[#8218](https://tbpro.zendesk.com/agent/tickets/8218)** · Re: Correction: Thundermail Early Bird Access — why: **curious** · how: **explained**
+  > Is Thunderbird email a paid service only? [quoted message] Correction: Thundermail Early Bird Access#yiv2847755380 img{}#yiv2847755380 table, #yiv2847755380 td{}#yiv2847755380…
 
 ## New tickets — last 24h
 
-- [8114](https://tbpro.zendesk.com/agent/tickets/8114) · [pending] · 2026-08-31T21:10 · Refund
-- [8115](https://tbpro.zendesk.com/agent/tickets/8115) · [pending] · 2026-08-31T21:24 · MFA setup on mobile
-- [8117](https://tbpro.zendesk.com/agent/tickets/8117) · [pending] · 2026-08-31T22:47 · Send to thunderbird desktop app integration error
-- [8118](https://tbpro.zendesk.com/agent/tickets/8118) · [pending] · 2026-08-31T22:48 · Accessing Alias
-- [8119](https://tbpro.zendesk.com/agent/tickets/8119) · [pending] · 2026-08-31T22:51 · ThunderMail Waitlist Invitation
-- [8121](https://tbpro.zendesk.com/agent/tickets/8121) · [hold] · 2026-09-01T00:24 · Pre-configure domain before transfer
-- [8128](https://tbpro.zendesk.com/agent/tickets/8128) · [pending] · 2026-09-01T08:07 · Please refund my money
-- [8129](https://tbpro.zendesk.com/agent/tickets/8129) · [open] · 2026-09-01T09:02 · Port number for SMTP
-- [8132](https://tbpro.zendesk.com/agent/tickets/8132) · [pending] · 2026-09-01T09:16 · Cannot send SMTP messages from Thundermail account
-- [8133](https://tbpro.zendesk.com/agent/tickets/8133) · [pending] · 2026-09-01T09:42 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
-- [8138](https://tbpro.zendesk.com/agent/tickets/8138) · [pending] · 2026-09-01T14:24 · رد تلقائي: You're Invited: Thundermail Early Bird Access
-- [8139](https://tbpro.zendesk.com/agent/tickets/8139) · [pending] · 2026-09-01T14:32 · Re: You're Invited: Thundermail Early Bird Access
-- [8140](https://tbpro.zendesk.com/agent/tickets/8140) · [pending] · 2026-09-01T14:34 · Invite link doesn't work
-- [8141](https://tbpro.zendesk.com/agent/tickets/8141) · [pending] · 2026-09-01T14:35 · Re: You're Invited: Thundermail Early Bird Access
-- [8144](https://tbpro.zendesk.com/agent/tickets/8144) · [pending] · 2026-09-01T14:38 · Broken Invite Link - Thundermail Early Bird Access
-- [8143](https://tbpro.zendesk.com/agent/tickets/8143) · [pending] · 2026-09-01T14:38 · Unable to signup
-- [8145](https://tbpro.zendesk.com/agent/tickets/8145) · [pending] · 2026-09-01T14:40 · Sent a non-working invitation.
-- [8147](https://tbpro.zendesk.com/agent/tickets/8147) · [pending] · 2026-09-01T14:42 · Beta invite but can't sign up?
-- [8148](https://tbpro.zendesk.com/agent/tickets/8148) · [pending] · 2026-09-01T14:42 · Broken Invite Link - Thundermail Early Bird Access
-- [8149](https://tbpro.zendesk.com/agent/tickets/8149) · [pending] · 2026-09-01T14:43 · Thundermail Invitation Received
-- [8150](https://tbpro.zendesk.com/agent/tickets/8150) · [pending] · 2026-09-01T14:45 · Re: You're Invited: Thundermail Early Bird Access
-- [8151](https://tbpro.zendesk.com/agent/tickets/8151) · [pending] · 2026-09-01T14:45 · Unable to create account after receiving invite
-- [8152](https://tbpro.zendesk.com/agent/tickets/8152) · [pending] · 2026-09-01T14:47 · Re: You're Invited: Thundermail Early Bird Access
-- [8153](https://tbpro.zendesk.com/agent/tickets/8153) · [pending] · 2026-09-01T14:47 · Re: You're Invited: Thundermail Early Bird Access
-- [8154](https://tbpro.zendesk.com/agent/tickets/8154) · [open] · 2026-09-01T14:49 · Re: You're Invited: Thundermail Early Bird Access
-- [8155](https://tbpro.zendesk.com/agent/tickets/8155) · [pending] · 2026-09-01T14:49 · Re: You're Invited: Thundermail Early Bird Access
-- [8156](https://tbpro.zendesk.com/agent/tickets/8156) · [pending] · 2026-09-01T14:50 · Reassignment of Email Addresses (Email Recycling)
-- [8157](https://tbpro.zendesk.com/agent/tickets/8157) · [pending] · 2026-09-01T14:50 · Sign Up Flow Broken
-- [8158](https://tbpro.zendesk.com/agent/tickets/8158) · [pending] · 2026-09-01T14:51 · Re: You're Invited: Thundermail Early Bird Access
-- [8159](https://tbpro.zendesk.com/agent/tickets/8159) · [pending] · 2026-09-01T14:51 · Re: You're Invited: Thundermail Early Bird Access
-- [8160](https://tbpro.zendesk.com/agent/tickets/8160) · [solved] · 2026-09-01T14:52 · Can't get into account. Stuck on approving payment which already went through
-- [8161](https://tbpro.zendesk.com/agent/tickets/8161) · [pending] · 2026-09-01T14:53 · Re: You're Invited: Thundermail Early Bird Access
-- [8162](https://tbpro.zendesk.com/agent/tickets/8162) · [pending] · 2026-09-01T14:53 · Can't create account : You're Invited: Thundermail Early Bird Access
-- [8164](https://tbpro.zendesk.com/agent/tickets/8164) · [pending] · 2026-09-01T14:55 · Re: You're Invited: Thundermail Early Bird Access
-- [8163](https://tbpro.zendesk.com/agent/tickets/8163) · [pending] · 2026-09-01T14:55 · Fwd: You're Invited: Thundermail Early Bird Access
-- [8165](https://tbpro.zendesk.com/agent/tickets/8165) · [pending] · 2026-09-01T14:56 · Re: You're Invited: Thundermail Early Bird Access
-- [8166](https://tbpro.zendesk.com/agent/tickets/8166) · [pending] · 2026-09-01T14:56 · Re: You're Invited: Thundermail Early Bird Access
-- [8167](https://tbpro.zendesk.com/agent/tickets/8167) · [pending] · 2026-09-01T14:58 · Discount
-- [8168](https://tbpro.zendesk.com/agent/tickets/8168) · [pending] · 2026-09-01T15:00 · Unable to Sign Up for Thundermail Early Access
-- [8169](https://tbpro.zendesk.com/agent/tickets/8169) · [pending] · 2026-09-01T15:00 · Invitation Not Working
-- [8170](https://tbpro.zendesk.com/agent/tickets/8170) · [pending] · 2026-09-01T15:01 · Re: You're Invited: Thundermail Early Bird Access
-- [8171](https://tbpro.zendesk.com/agent/tickets/8171) · [pending] · 2026-09-01T15:02 · Need help SUBSCRIBING
-- [8172](https://tbpro.zendesk.com/agent/tickets/8172) · [pending] · 2026-09-01T15:03 · Re: You're Invited: Thundermail Early Bird Access
-- [8173](https://tbpro.zendesk.com/agent/tickets/8173) · [pending] · 2026-09-01T15:04 · Cannot sign up for Thundermail
-- [8174](https://tbpro.zendesk.com/agent/tickets/8174) · [pending] · 2026-09-01T15:05 · Was invited to join Thundermail, but sign up does not work
-- [8175](https://tbpro.zendesk.com/agent/tickets/8175) · [pending] · 2026-09-01T15:07 · Refund
-- [8176](https://tbpro.zendesk.com/agent/tickets/8176) · [pending] · 2026-09-01T15:07 · Thundermail Question
-- [8177](https://tbpro.zendesk.com/agent/tickets/8177) · [pending] · 2026-09-01T15:08 · Thundermail Invite
-- [8178](https://tbpro.zendesk.com/agent/tickets/8178) · [pending] · 2026-09-01T15:15 · Early Access
-- [8179](https://tbpro.zendesk.com/agent/tickets/8179) · [pending] · 2026-09-01T15:23 · @[domain], @[domain], how to select?
-- [8180](https://tbpro.zendesk.com/agent/tickets/8180) · [solved] · 2026-09-01T15:26 · Subscribed, but in endless refresh loop
-- [8181](https://tbpro.zendesk.com/agent/tickets/8181) · [pending] · 2026-09-01T15:28 · can't log in??
-- [8182](https://tbpro.zendesk.com/agent/tickets/8182) · [pending] · 2026-09-01T15:38 · Waiting for thundermail signup, "Your payment is being processed" page to finish
-- [8183](https://tbpro.zendesk.com/agent/tickets/8183) · [pending] · 2026-09-01T15:41 · Re: You're Invited: Thundermail Early Bird Access
-- [8184](https://tbpro.zendesk.com/agent/tickets/8184) · [pending] · 2026-09-01T15:45 · Re: You're Invited: Thundermail Early Bird Access
-- [8185](https://tbpro.zendesk.com/agent/tickets/8185) · [open] · 2026-09-01T15:45 · mail delivery to gmail?
-- [8186](https://tbpro.zendesk.com/agent/tickets/8186) · [solved] · 2026-09-01T15:50 · Your payment is being processed
-- [8188](https://tbpro.zendesk.com/agent/tickets/8188) · [pending] · 2026-09-01T16:22 · You've taken my money but not granted me access!???
-- [8190](https://tbpro.zendesk.com/agent/tickets/8190) · [open] · 2026-09-01T17:11 · All outgoing mail is going to recipients spam
-- [8191](https://tbpro.zendesk.com/agent/tickets/8191) · [open] · 2026-09-01T17:11 · No DKIM on outgoing mails
-- [8192](https://tbpro.zendesk.com/agent/tickets/8192) · [open] · 2026-09-01T17:17 · incoming email
-- [8193](https://tbpro.zendesk.com/agent/tickets/8193) · [pending] · 2026-09-01T17:23 · Send folder in Thunderbird (154 Linux) not synced with thundermail
-- [8195](https://tbpro.zendesk.com/agent/tickets/8195) · [pending] · 2026-09-01T17:51 · Cancel Subscription & Refund 
-- [8196](https://tbpro.zendesk.com/agent/tickets/8196) · [pending] · 2026-09-01T18:03 · Re: You're Invited: Thundermail Early Bird Access
-- [8197](https://tbpro.zendesk.com/agent/tickets/8197) · [pending] · 2026-09-01T18:06 · Re: You're Invited: Thundermail Early Bird Access
-- [8198](https://tbpro.zendesk.com/agent/tickets/8198) · [pending] · 2026-09-01T18:06 · adresse e-mail
-- [8199](https://tbpro.zendesk.com/agent/tickets/8199) · [open] · 2026-09-01T18:07 · Re: You're Invited: Thundermail Early Bird Access
-- [8200](https://tbpro.zendesk.com/agent/tickets/8200) · [open] · 2026-09-01T18:08 · Cancel + Refund
-- [8201](https://tbpro.zendesk.com/agent/tickets/8201) · [open] · 2026-09-01T18:14 · Anmeldung nicht möglich 
-- [8202](https://tbpro.zendesk.com/agent/tickets/8202) · [pending] · 2026-09-01T18:17 · R: You're Invited: Thundermail Early Bird Access
-- [8203](https://tbpro.zendesk.com/agent/tickets/8203) · [pending] · 2026-09-01T18:18 · Re: You're Invited: Thundermail Early Bird Access
-- [8204](https://tbpro.zendesk.com/agent/tickets/8204) · [pending] · 2026-09-01T18:18 · Re: You're Invited: Thundermail Early Bird Access
-- [8205](https://tbpro.zendesk.com/agent/tickets/8205) · [pending] · 2026-09-01T18:21 · [domain]
-- [8206](https://tbpro.zendesk.com/agent/tickets/8206) · [pending] · 2026-09-01T18:32 · username
-- [8207](https://tbpro.zendesk.com/agent/tickets/8207) · [pending] · 2026-09-01T18:54 · pricing stricture
-- [8209](https://tbpro.zendesk.com/agent/tickets/8209) · [pending] · 2026-09-01T18:56 · Re: You're Invited: Thundermail Early Bird Access
-- [8211](https://tbpro.zendesk.com/agent/tickets/8211) · [pending] · 2026-09-01T18:59 · aliases in Thunderbird 
-- [8213](https://tbpro.zendesk.com/agent/tickets/8213) · [open] · 2026-09-01T19:35 · Alias Use in New E-Mails in Thundermail Webmail
-- [8214](https://tbpro.zendesk.com/agent/tickets/8214) · [pending] · 2026-09-01T19:35 · Reply to mails as the alias the mail was sent to
-- [8215](https://tbpro.zendesk.com/agent/tickets/8215) · [pending] · 2026-09-01T19:47 · Monthly billing?
-- [8216](https://tbpro.zendesk.com/agent/tickets/8216) · [solved] · 2026-09-01T19:58 · Import gmail mail
+- [8217](https://tbpro.zendesk.com/agent/tickets/8217) · [open] · 2026-09-01T20:00 · TXT and CNAME Records
+- [8218](https://tbpro.zendesk.com/agent/tickets/8218) · [pending] · 2026-09-01T20:04 · Re: Correction: Thundermail Early Bird Access
+- [8219](https://tbpro.zendesk.com/agent/tickets/8219) · [pending] · 2026-09-01T20:14 · Thundermail Login
+- [8220](https://tbpro.zendesk.com/agent/tickets/8220) · [open] · 2026-09-01T20:20 · Need to change my email address
+- [8222](https://tbpro.zendesk.com/agent/tickets/8222) · [open] · 2026-09-01T20:43 · The payment page doesn’t open.
+- [8223](https://tbpro.zendesk.com/agent/tickets/8223) · [open] · 2026-09-01T20:50 · Multiple email accounts
+- [8224](https://tbpro.zendesk.com/agent/tickets/8224) · [open] · 2026-09-01T21:02 · Cannot sign in to new thundermail account
+- [8225](https://tbpro.zendesk.com/agent/tickets/8225) · [solved] · 2026-09-01T21:05 · Changing Primary Email
+- [8226](https://tbpro.zendesk.com/agent/tickets/8226) · [open] · 2026-09-01T21:19 · Re: Correction: Thundermail Early Bird Access
+- [8227](https://tbpro.zendesk.com/agent/tickets/8227) · [open] · 2026-09-01T21:26 · Bug report
+- [8228](https://tbpro.zendesk.com/agent/tickets/8228) · [open] · 2026-09-01T21:37 · Re: Correction: Thundermail Early Bird Access
+- [8229](https://tbpro.zendesk.com/agent/tickets/8229) · [open] · 2026-09-01T21:39 · Re: Correction: Thundermail Early Bird Access
+- [8231](https://tbpro.zendesk.com/agent/tickets/8231) · [open] · 2026-09-01T22:18 · Change mail 
+- [8234](https://tbpro.zendesk.com/agent/tickets/8234) · [open] · 2026-09-01T22:40 · I need to give a try for a month, not one year
+- [8235](https://tbpro.zendesk.com/agent/tickets/8235) · [open] · 2026-09-01T22:53 · Re: You're Invited: Thundermail Early Bird Access
+- [8236](https://tbpro.zendesk.com/agent/tickets/8236) · [new] · 2026-09-01T23:06 · Refund Subscription 
+- [8237](https://tbpro.zendesk.com/agent/tickets/8237) · [new] · 2026-09-01T23:07 · Server-side email filtering via ManageSieve
+- [8238](https://tbpro.zendesk.com/agent/tickets/8238) · [new] · 2026-09-01T23:09 · Custom domain
+- [8239](https://tbpro.zendesk.com/agent/tickets/8239) · [open] · 2026-09-01T23:57 · Spam from [email]/[domain]
+- [8240](https://tbpro.zendesk.com/agent/tickets/8240) · [new] · 2026-09-02T00:31 · Refund, please ?
+- [8241](https://tbpro.zendesk.com/agent/tickets/8241) · [new] · 2026-09-02T01:17 · Can't receive email
+- [8242](https://tbpro.zendesk.com/agent/tickets/8242) · [new] · 2026-09-02T01:20 · thundermail email ID missed
+- [8244](https://tbpro.zendesk.com/agent/tickets/8244) · [new] · 2026-09-02T01:30 · Cost
+- [8246](https://tbpro.zendesk.com/agent/tickets/8246) · [new] · 2026-09-02T03:31 · Refund please
+- [8248](https://tbpro.zendesk.com/agent/tickets/8248) · [new] · 2026-09-02T03:42 · Payment
+- [8249](https://tbpro.zendesk.com/agent/tickets/8249) · [new] · 2026-09-02T03:42 · en pääse thundermailiin
+- [8250](https://tbpro.zendesk.com/agent/tickets/8250) · [new] · 2026-09-02T03:48 · Trying thundermail
+- [8251](https://tbpro.zendesk.com/agent/tickets/8251) · [new] · 2026-09-02T03:57 · Email Encryption
 
 ## Solved — last 24h
 
-- · [7922](https://tbpro.zendesk.com/agent/tickets/7922) · 2026-08-31T20:01 · Email verification
-- · [7987](https://tbpro.zendesk.com/agent/tickets/7987) · 2026-08-31T21:02 · Second User
-- · [7788](https://tbpro.zendesk.com/agent/tickets/7788) · 2026-08-31T21:43 · Refund request
-- · [7703](https://tbpro.zendesk.com/agent/tickets/7703) · 2026-08-31T21:43 · Cancel
-- · [7793](https://tbpro.zendesk.com/agent/tickets/7793) · 2026-08-31T21:50 · Signing up for the early bird
-- · [7928](https://tbpro.zendesk.com/agent/tickets/7928) · 2026-08-31T22:02 · How do I set up multiple accounts (inboxes) with a custom domain
-- · [7989](https://tbpro.zendesk.com/agent/tickets/7989) · 2026-08-31T23:01 · Cancel this account during the trial period
-- · [7860](https://tbpro.zendesk.com/agent/tickets/7860) · 2026-08-31T23:01 · Can't Download Attachments from Webmail?
-- · [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-01T16:17 · Password has dropped out
-- · [8089](https://tbpro.zendesk.com/agent/tickets/8089) · 2026-09-01T17:02 · QFEXFdpzAnCvudVqUAmSUsr
-- · [7739](https://tbpro.zendesk.com/agent/tickets/7739) · 2026-09-01T17:31 · requirements.
-- · [8035](https://tbpro.zendesk.com/agent/tickets/8035) · 2026-09-01T17:52 · problem accepting "Terms of Service".
-- · [8186](https://tbpro.zendesk.com/agent/tickets/8186) · 2026-09-01T18:17 · Your payment is being processed
-- · [8180](https://tbpro.zendesk.com/agent/tickets/8180) · 2026-09-01T18:40 · Subscribed, but in endless refresh loop
-- · [8069](https://tbpro.zendesk.com/agent/tickets/8069) · 2026-09-01T18:47 · Can not access appointment or send - and mailbox quota not showing. 
-- · [8160](https://tbpro.zendesk.com/agent/tickets/8160) · 2026-09-01T18:56 · Can't get into account. Stuck on approving payment which already went through
-- 👍 [7976](https://tbpro.zendesk.com/agent/tickets/7976) · 2026-09-01T18:57 · $ vs €
-- · [7046](https://tbpro.zendesk.com/agent/tickets/7046) · 2026-09-01T19:01 · Withdrawal of my Thunderbird Pro subscription from July 21, 2026
-- · [8018](https://tbpro.zendesk.com/agent/tickets/8018) · 2026-09-01T19:01 · Trying to give you my money, keep seeing an error message
-- · [8001](https://tbpro.zendesk.com/agent/tickets/8001) · 2026-09-01T19:01 · Is there a "Thundermail LITE"?
-- · [7988](https://tbpro.zendesk.com/agent/tickets/7988) · 2026-09-01T19:01 · Spam messages
-- · [7859](https://tbpro.zendesk.com/agent/tickets/7859) · 2026-09-01T19:01 · Error: “We couldn’t connect to the calendar” in booking page
+- · [8021](https://tbpro.zendesk.com/agent/tickets/8021) · 2026-09-01T20:58 · Re: [Thundermail] Re: Another account please
+- · [8007](https://tbpro.zendesk.com/agent/tickets/8007) · 2026-09-01T21:01 · [domain] is a scam though?
+- · [8005](https://tbpro.zendesk.com/agent/tickets/8005) · 2026-09-01T21:01 · Outbound email alias
+- · [7792](https://tbpro.zendesk.com/agent/tickets/7792) · 2026-09-01T21:01 · add additional email account
+- · [8225](https://tbpro.zendesk.com/agent/tickets/8225) · 2026-09-01T21:30 · Changing Primary Email
+- · [8029](https://tbpro.zendesk.com/agent/tickets/8029) · 2026-09-01T22:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [7956](https://tbpro.zendesk.com/agent/tickets/7956) · 2026-09-01T23:01 · Recovery Email
+- · [8002](https://tbpro.zendesk.com/agent/tickets/8002) · 2026-09-02T00:01 · Request for Lower price
+- · [8216](https://tbpro.zendesk.com/agent/tickets/8216) · 2026-09-02T03:05 · Import gmail mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
