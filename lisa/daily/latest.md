@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 03:26 ET** · refreshes hourly_  
+_Updated: **2026-09-02 04:30 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **591 tickets** so far (9.1% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **592 tickets** so far (9.1% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **36** new tickets in last 24h · **9** solved in last 24h
-- **591** tickets total since launch · contact rate **9%** of 6500 invitees
+- **37** new tickets in last 24h · **9** solved in last 24h
+- **592** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 95
@@ -20,7 +20,7 @@ Flight 3 is **day 73** of rollout — **6,500 invitees**, **591 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"early access"** — 11 tickets in 24h (16.9× baseline; baseline 47 cum) — [#8218](https://tbpro.zendesk.com/agent/tickets/8218), [#8226](https://tbpro.zendesk.com/agent/tickets/8226), [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8228](https://tbpro.zendesk.com/agent/tickets/8228), [#8229](https://tbpro.zendesk.com/agent/tickets/8229), [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8255](https://tbpro.zendesk.com/agent/tickets/8255), [#8256](https://tbpro.zendesk.com/agent/tickets/8256), [#8257](https://tbpro.zendesk.com/agent/tickets/8257), [#8259](https://tbpro.zendesk.com/agent/tickets/8259), [#8260](https://tbpro.zendesk.com/agent/tickets/8260)
+- **"early access"** — 12 tickets in 24h (18.4× baseline; baseline 47 cum) — [#8218](https://tbpro.zendesk.com/agent/tickets/8218), [#8226](https://tbpro.zendesk.com/agent/tickets/8226), [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8228](https://tbpro.zendesk.com/agent/tickets/8228), [#8229](https://tbpro.zendesk.com/agent/tickets/8229), [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8255](https://tbpro.zendesk.com/agent/tickets/8255), [#8256](https://tbpro.zendesk.com/agent/tickets/8256), [#8257](https://tbpro.zendesk.com/agent/tickets/8257), [#8259](https://tbpro.zendesk.com/agent/tickets/8259), [#8260](https://tbpro.zendesk.com/agent/tickets/8260), [#8265](https://tbpro.zendesk.com/agent/tickets/8265)
 - **"custom domain"** — 4 tickets in 24h (3.7× baseline; baseline 77 cum) — [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8236](https://tbpro.zendesk.com/agent/tickets/8236), [#8237](https://tbpro.zendesk.com/agent/tickets/8237), [#8238](https://tbpro.zendesk.com/agent/tickets/8238)
 - **"invitation sign"** — 3 tickets in 24h (216.0× baseline; baseline 1 cum) — [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8242](https://tbpro.zendesk.com/agent/tickets/8242), [#8258](https://tbpro.zendesk.com/agent/tickets/8258)
 - **"however several"** — 2 tickets in 24h (new; baseline 0 cum) — [#8217](https://tbpro.zendesk.com/agent/tickets/8217), [#8223](https://tbpro.zendesk.com/agent/tickets/8223)
@@ -146,9 +146,9 @@ _No negative ratings since launch._
 
 - **closed**: 279
 - **solved**: 158
-- **pending**: 100
-- **open**: 24
-- **new**: 20
+- **pending**: 97
+- **open**: 27
+- **new**: 21
 - **hold**: 10
 
 ## Service (cumulative)
@@ -209,8 +209,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 10 tickets
+### Early bird / invite / waitlist — 11 tickets
 
+- **[#8265](https://tbpro.zendesk.com/agent/tickets/8265)** · Re: Correction: Thundermail Early Bird Access
+  > Hello [name] for your offer for to have Thunderbird mail. I’m unable to take your offer because of the price. I’m 72 years old and on my pension . The cost is the only thing that…
 - **[#8262](https://tbpro.zendesk.com/agent/tickets/8262)** · Cant get verification link
   > I used the invite link it took me to `https://[domain]/sign-up?email=vlarfich%[domain]` (with %40 instead of @ for some reason) Then i went through all the steps, but still havent…
 - **[#8260](https://tbpro.zendesk.com/agent/tickets/8260)** · Re: Correction: Thundermail Early Bird Access
@@ -361,6 +363,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8259](https://tbpro.zendesk.com/agent/tickets/8259) · [new] · 2026-09-02T06:37 · Re: Correction: Thundermail Early Bird Access
 - [8260](https://tbpro.zendesk.com/agent/tickets/8260) · [new] · 2026-09-02T06:39 · Re: Correction: Thundermail Early Bird Access
 - [8262](https://tbpro.zendesk.com/agent/tickets/8262) · [new] · 2026-09-02T06:59 · Cant get verification link
+- [8265](https://tbpro.zendesk.com/agent/tickets/8265) · [new] · 2026-09-02T08:02 · Re: Correction: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
