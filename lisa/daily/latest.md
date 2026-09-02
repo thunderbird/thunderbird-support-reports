@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 05:25 ET** · refreshes hourly_  
+_Updated: **2026-09-02 06:24 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **592 tickets** so far (9.1% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **595 tickets** so far (9.2% contact rate). CSAT since launch: **100%**. Top theme: **Early bird signup**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **37** new tickets in last 24h · **9** solved in last 24h
-- **592** tickets total since launch · contact rate **9%** of 6500 invitees
+- **40** new tickets in last 24h · **9** solved in last 24h
+- **595** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (5 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 96
@@ -20,11 +20,12 @@ Flight 3 is **day 73** of rollout — **6,500 invitees**, **592 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"early access"** — 12 tickets in 24h (18.4× baseline; baseline 47 cum) — [#8218](https://tbpro.zendesk.com/agent/tickets/8218), [#8226](https://tbpro.zendesk.com/agent/tickets/8226), [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8228](https://tbpro.zendesk.com/agent/tickets/8228), [#8229](https://tbpro.zendesk.com/agent/tickets/8229), [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8255](https://tbpro.zendesk.com/agent/tickets/8255), [#8256](https://tbpro.zendesk.com/agent/tickets/8256), [#8257](https://tbpro.zendesk.com/agent/tickets/8257), [#8259](https://tbpro.zendesk.com/agent/tickets/8259), [#8260](https://tbpro.zendesk.com/agent/tickets/8260), [#8265](https://tbpro.zendesk.com/agent/tickets/8265)
+- **"early access"** — 14 tickets in 24h (21.4× baseline; baseline 47 cum) — [#8218](https://tbpro.zendesk.com/agent/tickets/8218), [#8226](https://tbpro.zendesk.com/agent/tickets/8226), [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8228](https://tbpro.zendesk.com/agent/tickets/8228), [#8229](https://tbpro.zendesk.com/agent/tickets/8229), [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8255](https://tbpro.zendesk.com/agent/tickets/8255), [#8256](https://tbpro.zendesk.com/agent/tickets/8256), [#8257](https://tbpro.zendesk.com/agent/tickets/8257), [#8259](https://tbpro.zendesk.com/agent/tickets/8259), [#8260](https://tbpro.zendesk.com/agent/tickets/8260), [#8265](https://tbpro.zendesk.com/agent/tickets/8265), [#8266](https://tbpro.zendesk.com/agent/tickets/8266), [#8268](https://tbpro.zendesk.com/agent/tickets/8268)
 - **"custom domain"** — 4 tickets in 24h (3.7× baseline; baseline 77 cum) — [#8235](https://tbpro.zendesk.com/agent/tickets/8235), [#8236](https://tbpro.zendesk.com/agent/tickets/8236), [#8237](https://tbpro.zendesk.com/agent/tickets/8237), [#8238](https://tbpro.zendesk.com/agent/tickets/8238)
 - **"invitation sign"** — 3 tickets in 24h (216.0× baseline; baseline 1 cum) — [#8227](https://tbpro.zendesk.com/agent/tickets/8227), [#8242](https://tbpro.zendesk.com/agent/tickets/8242), [#8258](https://tbpro.zendesk.com/agent/tickets/8258)
 - **"however several"** — 2 tickets in 24h (new; baseline 0 cum) — [#8217](https://tbpro.zendesk.com/agent/tickets/8217), [#8223](https://tbpro.zendesk.com/agent/tickets/8223)
 - **"refund subscription"** — 2 tickets in 24h (20.6× baseline; baseline 7 cum) — [#8236](https://tbpro.zendesk.com/agent/tickets/8236), [#8246](https://tbpro.zendesk.com/agent/tickets/8246)
+- **"received invitation"** — 2 tickets in 24h (10.3× baseline; baseline 14 cum) — [#8258](https://tbpro.zendesk.com/agent/tickets/8258), [#8268](https://tbpro.zendesk.com/agent/tickets/8268)
 - **"custom domains"** — 2 tickets in 24h (3.2× baseline; baseline 45 cum) — [#8223](https://tbpro.zendesk.com/agent/tickets/8223), [#8235](https://tbpro.zendesk.com/agent/tickets/8235)
 
 ## Known problems — 6 problem(s), 52 incident(s)
@@ -150,13 +151,13 @@ _No negative ratings since launch._
 - **solved**: 158
 - **pending**: 96
 - **open**: 28
-- **new**: 21
+- **new**: 24
 - **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 311
-- **Thundermail**: 223
+- **Thundermail**: 225
 - **Appointment**: 17
 - **Send**: 17
 
@@ -211,8 +212,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 11 tickets
+### Early bird / invite / waitlist — 13 tickets
 
+- **[#8268](https://tbpro.zendesk.com/agent/tickets/8268)** · Request for Thunderbird Early Access Consideration
+  > Hello [name], I recently received an invitation to participate in Thunderbird Early Access. I’m excited about the opportunity to test the new email service while it is still under…
+- **[#8266](https://tbpro.zendesk.com/agent/tickets/8266)** · Re: Correction: Thundermail Early Bird Access
+  > Entschuldigung, aber danke. Sorry, but thank you. W dniu 1.09.2026 o 21:19, Thundermail pisze: > Correction: Thundermail Early Bird Access We’re excited to invite you > to try…
 - **[#8265](https://tbpro.zendesk.com/agent/tickets/8265)** · Re: Correction: Thundermail Early Bird Access
   > Hello [name] for your offer for to have Thunderbird mail. I’m unable to take your offer because of the price. I’m 72 years old and on my pension . The cost is the only thing that…
 - **[#8262](https://tbpro.zendesk.com/agent/tickets/8262)** · Cant get verification link
@@ -271,6 +276,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8225](https://tbpro.zendesk.com/agent/tickets/8225)** · Changing Primary Email — why: **curious** · how: **explained**
   > Hi, again! Sorry to bother - is there a way to change the primary email address for the account? I was able to link my domain, and was hoping to use my domail email account as my…
 
+### Webmail — 2 tickets
+
+- **[#8267](https://tbpro.zendesk.com/agent/tickets/8267)** · Bug when loading webmail on iOS - Safari
+  > Hi team, When I first load webmail on safari, it comes up with the quick shortcuts intro screen, however I’m unable to progress any further and can’t click anything on the page to…
+- **[#8235](https://tbpro.zendesk.com/agent/tickets/8235)** · Re: You're Invited: Thundermail Early Bird Access
+  > Dear [name], I do not want to subscribe at this time. I selected Thunderbird because it was advertised as "free" but supported by donations. Accordingly I donated. Having been on…
+
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
 - **[#8257](https://tbpro.zendesk.com/agent/tickets/8257)** · Re: Correction: Thundermail Early Bird Access
@@ -311,11 +323,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8239](https://tbpro.zendesk.com/agent/tickets/8239)** · Spam from [email]/[domain]
   > Predatory publishing spammer. Full spam sample below. Joseph Tam <[email]> Received: from [domain] ([domain] [[ip]]) by viol.math.ubc.ca (8.17.1/8.17.1) with ESMTPS id…
-
-### Webmail — 1 tickets
-
-- **[#8235](https://tbpro.zendesk.com/agent/tickets/8235)** · Re: You're Invited: Thundermail Early Bird Access
-  > Dear [name], I do not want to subscribe at this time. I selected Thunderbird because it was advertised as "free" but supported by donations. Accordingly I donated. Having been on…
 
 ### Early bird signup — 1 tickets
 
@@ -366,6 +373,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8260](https://tbpro.zendesk.com/agent/tickets/8260) · [new] · 2026-09-02T06:39 · Re: Correction: Thundermail Early Bird Access
 - [8262](https://tbpro.zendesk.com/agent/tickets/8262) · [new] · 2026-09-02T06:59 · Cant get verification link
 - [8265](https://tbpro.zendesk.com/agent/tickets/8265) · [new] · 2026-09-02T08:02 · Re: Correction: Thundermail Early Bird Access
+- [8266](https://tbpro.zendesk.com/agent/tickets/8266) · [new] · 2026-09-02T09:36 · Re: Correction: Thundermail Early Bird Access
+- [8267](https://tbpro.zendesk.com/agent/tickets/8267) · [new] · 2026-09-02T09:48 · Bug when loading webmail on iOS - Safari
+- [8268](https://tbpro.zendesk.com/agent/tickets/8268) · [new] · 2026-09-02T10:05 · Request for Thunderbird Early Access Consideration
 
 ## Solved — last 24h
 
