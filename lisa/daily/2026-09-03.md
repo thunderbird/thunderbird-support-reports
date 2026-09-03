@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 10:24 ET** · refreshes hourly_  
+_Updated: **2026-09-03 11:24 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **617 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **619 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **19** solved in last 24h
-- **617** tickets total since launch · contact rate **9%** of 6500 invitees
+- **17** new tickets in last 24h · **20** solved in last 24h
+- **619** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 97
-- **Median AHT**: 144.4h · mean 188.0h (proxy: updated_at − created_at, 165 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 96
+- **Median AHT**: 144.4h · mean 188.1h (proxy: updated_at − created_at, 165 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"create address"** — 2 tickets in 24h (73.0× baseline; baseline 2 cum) — [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8329](https://tbpro.zendesk.com/agent/tickets/8329)
 
 ## Known problems — 6 problem(s), 60 incident(s)
 
@@ -118,34 +124,37 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **617 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · _Refund_
   > Looking to cancel account and receive refund.
 - [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · _Refund request_
   > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there. Since it has been less than 14 days since…
+- [8328](https://tbpro.zendesk.com/agent/tickets/8328) · [open] · _Refund_
+  > Hello, I've decided I need a refund because I bought this without much thought and realized the service wasn't for me. As this is a yearly subscription I need a refund very soon.
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 2 new:
 
-- [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 1 votes · _untagged_
+- [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 1 votes · _Accounts & Subscriptions, Improvement, Community_
   > What you’d like to seeA single, unified username for each thundermail account, and the domain (tb.pro and thundermail.com) is just syntactic sugar.Why it mattersThe default user is @thundermail.com,…
-- [Clarify alias reuse](https://ideas.tb.pro/p/clarify-alias-reuse) · 1 votes · _untagged_
+- [Clarify alias reuse](https://ideas.tb.pro/p/clarify-alias-reuse) · 1 votes · _Thundermail, Improvement, Community_
   > What you’d like to seeFor privacy reasons, I’m wary of released aliases being claimed by others. There is currently no restriction on the number of different aliases I can claim and release, which…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 287
 - **solved**: 165
-- **pending**: 130
+- **pending**: 131
 - **open**: 26
 - **hold**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 335
-- **Thundermail**: 229
+- **Thundermail**: 230
 - **Send**: 18
 - **Appointment**: 16
 
@@ -231,6 +240,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8317](https://tbpro.zendesk.com/agent/tickets/8317)** · paYMENT PROBLEM — why: **curious** · how: **explained**
   > is their any free tier available for this email service??
 
+### Other / uncategorized — 1 tickets
+
+- **[#8329](https://tbpro.zendesk.com/agent/tickets/8329)** · Create new address book?
+  > Can I create a new address book, say used for Collected Addresses, on the server, so all of my TB clients can share it? Otherwise they each use their own separate local Collected…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8328](https://tbpro.zendesk.com/agent/tickets/8328)** · Refund
+  > Hello, I've decided I need a refund because I bought this without much thought and realized the service wasn't for me. As this is a yearly subscription I need a refund very soon.
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain
@@ -283,6 +302,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [open] · 2026-09-03T11:39 · Verifying Custom domain
 - [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [pending] · 2026-09-03T11:52 · not free?
 - [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [open] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
+- [8328](https://tbpro.zendesk.com/agent/tickets/8328) · [open] · 2026-09-03T15:00 · Refund
+- [8329](https://tbpro.zendesk.com/agent/tickets/8329) · [new] · 2026-09-03T15:07 · Create new address book?
 
 ## Solved — last 24h
 
@@ -305,6 +326,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8000](https://tbpro.zendesk.com/agent/tickets/8000) · 2026-09-03T01:01 · Receiving Emails
 - · [8216](https://tbpro.zendesk.com/agent/tickets/8216) · 2026-09-03T04:01 · Import gmail mail
 - · [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T14:01 · incoming email
+- · [8132](https://tbpro.zendesk.com/agent/tickets/8132) · 2026-09-03T15:02 · Cannot send SMTP messages from Thundermail account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
