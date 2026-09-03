@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-03 05:25 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **609 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **611 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **18** solved in last 24h
-- **609** tickets total since launch · contact rate **9%** of 6500 invitees
+- **9** new tickets in last 24h · **18** solved in last 24h
+- **611** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 97
@@ -117,10 +117,12 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **609 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · _Refund_
   > Looking to cancel account and receive refund.
+- [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [new] · _Refund request_
+  > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there. Since it has been less than 14 days since…
 
 ## New ideas on FeatureOS
 
@@ -135,15 +137,15 @@ _No negative ratings since launch._
 
 - **closed**: 287
 - **solved**: 165
-- **pending**: 126
-- **open**: 21
+- **pending**: 125
+- **open**: 22
 - **hold**: 9
-- **new**: 1
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 331
-- **Thundermail**: 225
+- **Account Hub**: 332
+- **Thundermail**: 226
 - **Send**: 18
 - **Appointment**: 16
 
@@ -201,6 +203,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#8316](https://tbpro.zendesk.com/agent/tickets/8316)** · MTA-STS Odd recomended DNS Settings
+  > In my custom domain DNS settings (The recommended ones on my Thunderbird Pro Dashboard) This record is shown: TXT _mta-[domain].za. v=STSv1; id=[number] I know mta-sts is not…
+- **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
+  > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8315](https://tbpro.zendesk.com/agent/tickets/8315)** · Refund request
+  > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there.…
+
 ### Account access issues — 1 tickets
 
 - **[#8310](https://tbpro.zendesk.com/agent/tickets/8310)** · Login 
@@ -221,11 +235,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates
   > Please issue S/MIME certificates for the account name and all aliases.
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
-  > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
-
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8301](https://tbpro.zendesk.com/agent/tickets/8301)** · Email Address + Reddit Problem
@@ -245,6 +254,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8306](https://tbpro.zendesk.com/agent/tickets/8306) · [open] · 2026-09-03T04:10 · Delete Account and remove data
 - [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03T05:08 · Refund
 - [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [new] · 2026-09-03T05:43 · Login 
+- [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [new] · 2026-09-03T08:42 · Refund request
+- [8316](https://tbpro.zendesk.com/agent/tickets/8316) · [new] · 2026-09-03T09:09 · MTA-STS Odd recomended DNS Settings
 
 ## Solved — last 24h
 
