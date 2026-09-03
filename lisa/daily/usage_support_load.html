@@ -33,6 +33,13 @@
   .num { font-variant-numeric: tabular-nums; }
   small { color: var(--muted); font-size: 0.75rem; }
   .incoming-row { background: rgba(99,102,241,.08); }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+           padding: 16px; margin-bottom: 14px; }
+  .panel__title { font-size: 0.78rem; color: var(--muted); margin-bottom: 8px; }
+  .panel__title strong { color: var(--text); }
+  svg { display: block; width: 100%; height: auto; }
+  .gridline { stroke: #2b3a55; stroke-width: 1; }
+  .axis-label { fill: var(--muted); font-size: 10px; font-family: system-ui, sans-serif; }
 </style>
 </head>
 <body>
@@ -43,32 +50,32 @@
 <div class="cards">
         <div class="card">
           <div class="card__label">Today</div>
-          <div class="card__value">10</div>
+          <div class="card__value">19</div>
           <div class="card__sub">
-            tickets · 9 unique submitters<br>
-            1854 unique active users (PostHog)<br>
-            <strong>0.005 (0.5%)</strong> tickets/active user ·
-            <strong>0.005 (0.5%)</strong> unique submitters/active user
+            tickets · 17 unique submitters<br>
+            2088 unique active users (PostHog)<br>
+            <strong>0.009 (0.9%)</strong> tickets/active user ·
+            <strong>0.008 (0.8%)</strong> unique submitters/active user
           </div>
         </div>
         <div class="card">
           <div class="card__label">Trailing 7d</div>
-          <div class="card__value">169</div>
+          <div class="card__value">178</div>
           <div class="card__sub">
-            tickets · 163 unique submitters<br>
-            3804 unique active users (PostHog)<br>
-            <strong>0.044 (4.4%)</strong> tickets/active user ·
-            <strong>0.043 (4.3%)</strong> unique submitters/active user
+            tickets · 171 unique submitters<br>
+            3851 unique active users (PostHog)<br>
+            <strong>0.046 (4.6%)</strong> tickets/active user ·
+            <strong>0.044 (4.4%)</strong> unique submitters/active user
           </div>
         </div>
         <div class="card">
           <div class="card__label">Trailing 30d</div>
-          <div class="card__value">297</div>
+          <div class="card__value">306</div>
           <div class="card__sub">
-            tickets · 277 unique submitters<br>
-            4844 unique active users (PostHog)<br>
-            <strong>0.061 (6.1%)</strong> tickets/active user ·
-            <strong>0.057 (5.7%)</strong> unique submitters/active user
+            tickets · 285 unique submitters<br>
+            4883 unique active users (PostHog)<br>
+            <strong>0.063 (6.3%)</strong> tickets/active user ·
+            <strong>0.058 (5.8%)</strong> unique submitters/active user
           </div>
         </div></div>
 <p style="color:var(--muted);font-size:0.78rem;margin:8px 0 0">
@@ -80,15 +87,46 @@
 </p>
 
 <h2>14-Day Trend</h2>
+<div class="panel">
+  <div class="panel__title">Active users (DAU) <strong>— PostHog, distinct people/day</strong></div>
+  <svg viewBox="0 0 640 160" preserveAspectRatio="none">
+      <line class="gridline" x1="8" y1="30" x2="632" y2="30"/>
+      <line class="gridline" x1="8" y1="152" x2="632" y2="152"/>
+      <text class="axis-label" x="12" y="42">2,585</text>
+      <text class="axis-label" x="12" y="148">1,269</text>
+      <path d="M 8.0,146.9 L 56.0,151.8 L 104.0,152.0 L 152.0,129.0 L 200.0,123.3 L 248.0,128.2 L 296.0,131.2 L 344.0,133.7 L 392.0,141.2 L 440.0,140.4 L 488.0,115.8 L 536.0,30.0 L 584.0,39.3 L 632.0,76.0" fill="none" stroke="#6366f1" stroke-width="2"
+            stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M 8.0,146.9 L 56.0,151.8 L 104.0,152.0 L 152.0,129.0 L 200.0,123.3 L 248.0,128.2 L 296.0,131.2 L 344.0,133.7 L 392.0,141.2 L 440.0,140.4 L 488.0,115.8 L 536.0,30.0 L 584.0,39.3 L 632.0,76.0 L 632.0,160 L 8.0,160 Z" fill="#6366f1" opacity="0.1" stroke="none"/>
+      <circle class="pt" cx="8.0" cy="146.9" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,324</title></circle><circle class="pt" cx="56.0" cy="151.8" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,271</title></circle><circle class="pt" cx="104.0" cy="152.0" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,269</title></circle><circle class="pt" cx="152.0" cy="129.0" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,517</title></circle><circle class="pt" cx="200.0" cy="123.3" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,579</title></circle><circle class="pt" cx="248.0" cy="128.2" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,526</title></circle><circle class="pt" cx="296.0" cy="131.2" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,493</title></circle><circle class="pt" cx="344.0" cy="133.7" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,466</title></circle><circle class="pt" cx="392.0" cy="141.2" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,385</title></circle><circle class="pt" cx="440.0" cy="140.4" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,394</title></circle><circle class="pt" cx="488.0" cy="115.8" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>1,660</title></circle><circle class="pt" cx="536.0" cy="30.0" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>2,585</title></circle><circle class="pt" cx="584.0" cy="39.3" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>2,485</title></circle><circle class="pt" cx="632.0" cy="76.0" r="3" fill="#6366f1" stroke="#1e293b" stroke-width="1.5"><title>2,089</title></circle>
+      <text x="628.0" y="68.0" text-anchor="end" font-size="11" font-weight="700"
+            fill="#6366f1" font-family="system-ui,sans-serif">2,089</text>
+    </svg>
+</div>
+<div class="panel">
+  <div class="panel__title">Tickets/day <strong>— Zendesk, Thundermail brand</strong></div>
+  <svg viewBox="0 0 640 160" preserveAspectRatio="none">
+      <line class="gridline" x1="8" y1="30" x2="632" y2="30"/>
+      <line class="gridline" x1="8" y1="152" x2="632" y2="152"/>
+      <text class="axis-label" x="12" y="42">95</text>
+      <text class="axis-label" x="12" y="148">2</text>
+      <path d="M 8.0,144.1 L 56.0,148.1 L 104.0,148.1 L 152.0,137.6 L 200.0,142.8 L 248.0,133.6 L 296.0,134.9 L 344.0,152.0 L 392.0,149.4 L 440.0,148.1 L 488.0,140.2 L 536.0,30.0 L 584.0,115.3 L 632.0,127.1" fill="none" stroke="#f97316" stroke-width="2"
+            stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M 8.0,144.1 L 56.0,148.1 L 104.0,148.1 L 152.0,137.6 L 200.0,142.8 L 248.0,133.6 L 296.0,134.9 L 344.0,152.0 L 392.0,149.4 L 440.0,148.1 L 488.0,140.2 L 536.0,30.0 L 584.0,115.3 L 632.0,127.1 L 632.0,160 L 8.0,160 Z" fill="#f97316" opacity="0.1" stroke="none"/>
+      <circle class="pt" cx="8.0" cy="144.1" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>8</title></circle><circle class="pt" cx="56.0" cy="148.1" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>5</title></circle><circle class="pt" cx="104.0" cy="148.1" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>5</title></circle><circle class="pt" cx="152.0" cy="137.6" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>13</title></circle><circle class="pt" cx="200.0" cy="142.8" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>9</title></circle><circle class="pt" cx="248.0" cy="133.6" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>16</title></circle><circle class="pt" cx="296.0" cy="134.9" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>15</title></circle><circle class="pt" cx="344.0" cy="152.0" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>2</title></circle><circle class="pt" cx="392.0" cy="149.4" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>4</title></circle><circle class="pt" cx="440.0" cy="148.1" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>5</title></circle><circle class="pt" cx="488.0" cy="140.2" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>11</title></circle><circle class="pt" cx="536.0" cy="30.0" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>95</title></circle><circle class="pt" cx="584.0" cy="115.3" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>30</title></circle><circle class="pt" cx="632.0" cy="127.1" r="3" fill="#f97316" stroke="#1e293b" stroke-width="1.5"><title>21</title></circle>
+      <text x="628.0" y="119.1" text-anchor="end" font-size="11" font-weight="700"
+            fill="#f97316" font-family="system-ui,sans-serif">21</text>
+    </svg>
+</div>
+<p style="color:var(--muted);font-size:0.78rem;margin:0 0 14px">2026-08-21 → 2026-09-03</p>
 <table>
   <thead><tr><th>Day</th><th>Unique active users (DAU)</th><th>Tickets</th>
   <th>Unique submitters</th><th>Tickets/active user</th></tr></thead>
   <tbody><tr>
           <td>2026-09-03</td>
-          <td class="num">1854</td>
-          <td class="num">12</td>
-          <td class="num">11</td>
-          <td class="num"><strong>0.6%</strong></td>
+          <td class="num">2089</td>
+          <td class="num">21</td>
+          <td class="num">19</td>
+          <td class="num"><strong>1.0%</strong></td>
         </tr><tr>
           <td>2026-09-02</td>
           <td class="num">2485</td>

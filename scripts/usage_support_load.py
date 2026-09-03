@@ -208,7 +208,48 @@ CSS = """
   .num { font-variant-numeric: tabular-nums; }
   small { color: var(--muted); font-size: 0.75rem; }
   .incoming-row { background: rgba(99,102,241,.08); }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+           padding: 16px; margin-bottom: 14px; }
+  .panel__title { font-size: 0.78rem; color: var(--muted); margin-bottom: 8px; }
+  .panel__title strong { color: var(--text); }
+  svg { display: block; width: 100%; height: auto; }
+  .gridline { stroke: #2b3a55; stroke-width: 1; }
+  .axis-label { fill: var(--muted); font-size: 10px; font-family: system-ui, sans-serif; }
 """
+
+
+def build_line_chart_svg(values, color, w=640, h=160, pad_x=8, pad_top=30, pad_bottom=8):
+    """Single-hue line+area chart from oldest->newest values. Top padding leaves
+    headroom for the peak's end-label so it doesn't clip against the chart edge."""
+    n = len(values)
+    lo, hi = min(values), max(values)
+    span = hi - lo or 1
+    usable = h - pad_top - pad_bottom
+    pts = []
+    for i, v in enumerate(values):
+        x = pad_x + (i * (w - 2 * pad_x) / (n - 1) if n > 1 else 0)
+        y = pad_top + usable * (1 - (v - lo) / span)
+        pts.append((round(x, 1), round(y, 1), v))
+    path_d = "M " + " L ".join(f"{x},{y}" for x, y, _ in pts)
+    area_d = path_d + f" L {pts[-1][0]},{h} L {pts[0][0]},{h} Z"
+    circles = "".join(
+        f'<circle class="pt" cx="{x}" cy="{y}" r="3" fill="{color}" '
+        f'stroke="#1e293b" stroke-width="1.5"><title>{v:,}</title></circle>'
+        for x, y, v in pts
+    )
+    end_x, end_y, end_v = pts[-1]
+    return f"""<svg viewBox="0 0 {w} {h}" preserveAspectRatio="none">
+      <line class="gridline" x1="{pad_x}" y1="{pad_top}" x2="{w-pad_x}" y2="{pad_top}"/>
+      <line class="gridline" x1="{pad_x}" y1="{h-pad_bottom}" x2="{w-pad_x}" y2="{h-pad_bottom}"/>
+      <text class="axis-label" x="{pad_x+4}" y="{pad_top+12}">{hi:,}</text>
+      <text class="axis-label" x="{pad_x+4}" y="{h-pad_bottom-4}">{lo:,}</text>
+      <path d="{path_d}" fill="none" stroke="{color}" stroke-width="2"
+            stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="{area_d}" fill="{color}" opacity="0.1" stroke="none"/>
+      {circles}
+      <text x="{end_x-4}" y="{end_y-8}" text-anchor="end" font-size="11" font-weight="700"
+            fill="{color}" font-family="system-ui,sans-serif">{end_v:,}</text>
+    </svg>"""
 
 
 def build_public_html(windows, trend, today):
@@ -248,6 +289,11 @@ def build_public_html(windows, trend, today):
           <td class="num"><strong>{r}</strong></td>
         </tr>"""
 
+    days_sorted = sorted(trend.keys())
+    dau_chart = build_line_chart_svg([trend[d]["dau"] for d in days_sorted], "#6366f1")
+    tix_chart = build_line_chart_svg([trend[d]["tickets"] for d in days_sorted], "#f97316")
+    span_note = f"{days_sorted[0].isoformat()} → {days_sorted[-1].isoformat()}"
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -270,6 +316,15 @@ def build_public_html(windows, trend, today):
 </p>
 
 <h2>14-Day Trend</h2>
+<div class="panel">
+  <div class="panel__title">Active users (DAU) <strong>— PostHog, distinct people/day</strong></div>
+  {dau_chart}
+</div>
+<div class="panel">
+  <div class="panel__title">Tickets/day <strong>— Zendesk, Thundermail brand</strong></div>
+  {tix_chart}
+</div>
+<p style="color:var(--muted);font-size:0.78rem;margin:0 0 14px">{span_note}</p>
 <table>
   <thead><tr><th>Day</th><th>Unique active users (DAU)</th><th>Tickets</th>
   <th>Unique submitters</th><th>Tickets/active user</th></tr></thead>
