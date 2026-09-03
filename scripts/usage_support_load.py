@@ -215,7 +215,10 @@ def build_public_html(windows, trend, today):
     gen = today.strftime("%Y-%m-%d")
 
     def ratio(n, d):
-        return f"{n/d:.3f}" if d else "—"
+        return f"{n/d:.3f} ({n/d*100:.1f}%)" if d else "—"
+
+    def pct(n, d):
+        return f"{n/d*100:.1f}%" if d else "—"
 
     cards = ""
     labels = {"today": "Today", "7d": "Trailing 7d", "30d": "Trailing 30d"}
@@ -236,7 +239,7 @@ def build_public_html(windows, trend, today):
     trend_rows = ""
     for day in sorted(trend.keys(), reverse=True):
         row = trend[day]
-        r = ratio(row['tickets'], row['dau'])
+        r = pct(row['tickets'], row['dau'])
         trend_rows += f"""<tr>
           <td>{day.isoformat()}</td>
           <td class="num">{row['dau']}</td>
