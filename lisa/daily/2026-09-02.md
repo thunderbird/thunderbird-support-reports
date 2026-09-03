@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 20:57 ET** · refreshes hourly_  
+_Updated: **2026-09-02 21:36 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **605 tickets** so far (9.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **606 tickets** so far (9.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **47** new tickets in last 24h · **16** solved in last 24h
-- **605** tickets total since launch · contact rate **9%** of 6500 invitees
+- **606** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 98
-- **Median AHT**: 144.3h · mean 188.1h (proxy: updated_at − created_at, 165 solved tickets)
+- **Median AHT**: 144.4h · mean 187.4h (proxy: updated_at − created_at, 168 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -162,15 +162,15 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 285
-- **solved**: 165
-- **pending**: 133
-- **open**: 13
+- **solved**: 168
+- **pending**: 130
+- **open**: 14
 - **hold**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 329
-- **Thundermail**: 224
+- **Thundermail**: 225
 - **Send**: 18
 - **Appointment**: 16
 
