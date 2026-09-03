@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 18:20 ET** · refreshes hourly_  
+_Updated: **2026-09-03 19:18 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **627 tickets** so far (9.6% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **628 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **23** new tickets in last 24h · **19** solved in last 24h
-- **627** tickets total since launch · contact rate **10%** of 6500 invitees
+- **23** new tickets in last 24h · **18** solved in last 24h
+- **628** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (9 good / 0 bad)
+- **CSAT (since launch)**: 100%  (11 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 98
-- **Median AHT**: 143.8h · mean 181.8h (proxy: updated_at − created_at, 176 solved tickets)
+- **Median AHT**: 143.6h · mean 181.1h (proxy: updated_at − created_at, 177 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"early access"** — 3 tickets in 24h (3.5× baseline; baseline 63 cum) — [#8318](https://tbpro.zendesk.com/agent/tickets/8318), [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8332](https://tbpro.zendesk.com/agent/tickets/8332)
+- **"early access"** — 3 tickets in 24h (3.4× baseline; baseline 64 cum) — [#8318](https://tbpro.zendesk.com/agent/tickets/8318), [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8332](https://tbpro.zendesk.com/agent/tickets/8332)
 - **"time user"** — 2 tickets in 24h (146.0× baseline; baseline 1 cum) — [#8333](https://tbpro.zendesk.com/agent/tickets/8333), [#8336](https://tbpro.zendesk.com/agent/tickets/8336)
 - **"create address"** — 2 tickets in 24h (73.0× baseline; baseline 2 cum) — [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8329](https://tbpro.zendesk.com/agent/tickets/8329)
 - **"paid plan"** — 2 tickets in 24h (73.0× baseline; baseline 2 cum) — [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8336](https://tbpro.zendesk.com/agent/tickets/8336)
@@ -153,10 +153,10 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 288
-- **solved**: 176
-- **pending**: 133
+- **solved**: 177
+- **pending**: 134
 - **open**: 16
-- **hold**: 14
+- **hold**: 13
 
 ## Service (cumulative)
 
@@ -175,12 +175,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 28
 - **blocked** + **escalated**: 22
+- **concerned** + **explained**: 21
 - **confused** + **explained**: 21
-- **concerned** + **explained**: 20
-- **curious** + **informed**: 10
+- **curious** + **informed**: 11
 - **blocked** + **redirected**: 9
-- **concerned** + **—**: 7
 - **confused** + **informed**: 7
+- **concerned** + **—**: 7
 - **blocked** + **actioned**: 6
 - **telling us** + **explained**: 5
 - **blocked** + **—**: 5
@@ -248,10 +248,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 2 tickets
 
-- **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates
-  > Please issue S/MIME certificates for the account name and all aliases.
 - **[#8324](https://tbpro.zendesk.com/agent/tickets/8324)** · Changing email adress and keep the former as an alias — why: **curious** · how: **explained**
   > Hello, I did rush a little bit while subscribing and choosing my email address the other day. I was excited by the invite and the whole project. My actual email address [email] is…
+- **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates — why: **curious** · how: **informed**
+  > Please issue S/MIME certificates for the account name and all aliases.
 
 ### Pricing — wanted free / monthly plan — 2 tickets
 
@@ -315,7 +315,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8298](https://tbpro.zendesk.com/agent/tickets/8298) · [pending] · 2026-09-02T20:11 · Calendar subscription URL
 - [8301](https://tbpro.zendesk.com/agent/tickets/8301) · [open] · 2026-09-02T23:34 · Email Address + Reddit Problem
 - [8302](https://tbpro.zendesk.com/agent/tickets/8302) · [open] · 2026-09-03T00:29 · Mailboxes for few users at single personal domain
-- [8304](https://tbpro.zendesk.com/agent/tickets/8304) · [open] · 2026-09-03T01:16 · Issue S/MIME certificates
+- [8304](https://tbpro.zendesk.com/agent/tickets/8304) · [pending] · 2026-09-03T01:16 · Issue S/MIME certificates
 - [8306](https://tbpro.zendesk.com/agent/tickets/8306) · [pending] · 2026-09-03T04:10 · Delete Account and remove data
 - [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [pending] · 2026-09-03T05:43 · Login 
 - [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03T08:42 · Refund request
@@ -351,7 +351,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8041](https://tbpro.zendesk.com/agent/tickets/8041) · 2026-09-03T01:01 · Thundermail custom domain setup process suggestion
 - · [8000](https://tbpro.zendesk.com/agent/tickets/8000) · 2026-09-03T01:01 · Receiving Emails
 - · [8216](https://tbpro.zendesk.com/agent/tickets/8216) · 2026-09-03T04:01 · Import gmail mail
-- · [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T14:01 · incoming email
 - · [8132](https://tbpro.zendesk.com/agent/tickets/8132) · 2026-09-03T15:02 · Cannot send SMTP messages from Thundermail account
 - · [8001](https://tbpro.zendesk.com/agent/tickets/8001) · 2026-09-03T17:01 · Is there a "Thundermail LITE"?
 - · [7962](https://tbpro.zendesk.com/agent/tickets/7962) · 2026-09-03T17:20 · Error encountered in Send feature
