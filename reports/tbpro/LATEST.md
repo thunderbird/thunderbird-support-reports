@@ -1,26 +1,28 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 12:24 ET** · refreshes hourly_  
+_Updated: **2026-09-03 13:20 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **619 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **620 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **20** solved in last 24h
-- **619** tickets total since launch · contact rate **10%** of 6500 invitees
+- **18** new tickets in last 24h · **23** solved in last 24h
+- **620** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 96
-- **Median AHT**: 144.4h · mean 188.1h (proxy: updated_at − created_at, 165 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 98
+- **Median AHT**: 145.2h · mean 189.7h (proxy: updated_at − created_at, 165 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"early access"** — 3 tickets in 24h (3.5× baseline; baseline 63 cum) — [#8318](https://tbpro.zendesk.com/agent/tickets/8318), [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8332](https://tbpro.zendesk.com/agent/tickets/8332)
 - **"create address"** — 2 tickets in 24h (73.0× baseline; baseline 2 cum) — [#8319](https://tbpro.zendesk.com/agent/tickets/8319), [#8329](https://tbpro.zendesk.com/agent/tickets/8329)
+- **"possible change"** — 2 tickets in 24h (20.9× baseline; baseline 7 cum) — [#8324](https://tbpro.zendesk.com/agent/tickets/8324), [#8331](https://tbpro.zendesk.com/agent/tickets/8331)
 
 ## Known problems — 6 problem(s), 60 incident(s)
 
@@ -90,7 +92,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [pending] · 2026-09-02 · _Please may i have a refund_
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [pending] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [pending] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
-  - [#8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03 · _Refund_
+  - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [open] · 2026-09-03 · _Delete Account and remove data_
   - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03 · _Refund request_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
@@ -124,10 +126,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 2
 
-- [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · _Refund_
-  > Looking to cancel account and receive refund.
 - [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · _Refund request_
   > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there. Since it has been less than 14 days since…
 - [8328](https://tbpro.zendesk.com/agent/tickets/8328) · [open] · _Refund_
@@ -135,8 +135,12 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 4 new:
 
+- [Additional address books](https://ideas.tb.pro/p/additional-address-books) · 1 votes · _untagged_
+  > What you’d like to seeAdd/manage address books other than the default one.Why it mattersI don’t want to co-mingle addresses from multiple sources.Your use caseI have more than one TB client running…
+- [Calendar management](https://ideas.tb.pro/p/calendar-management) · 1 votes · _untagged_
+  > What you’d like to seeAdd/del/modify additional calendars beyond the default one. Also ability to publish a URL for others to see (R/O) a calendar.Why it mattersBasic calendar functionality.Your use…
 - [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 1 votes · _Accounts & Subscriptions, Improvement, Community_
   > What you’d like to seeA single, unified username for each thundermail account, and the domain (tb.pro and thundermail.com) is just syntactic sugar.Why it mattersThe default user is @thundermail.com,…
 - [Clarify alias reuse](https://ideas.tb.pro/p/clarify-alias-reuse) · 1 votes · _Thundermail, Improvement, Community_
@@ -144,35 +148,36 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 287
+- **closed**: 288
 - **solved**: 165
 - **pending**: 127
-- **open**: 31
-- **hold**: 9
+- **open**: 29
+- **hold**: 10
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 335
-- **Thundermail**: 230
-- **Send**: 18
+- **Account Hub**: 334
+- **Thundermail**: 231
+- **Send**: 19
 - **Appointment**: 16
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 152
-- **blocked** + **explained**: 120
+- **curious** + **explained**: 150
+- **blocked** + **explained**: 121
 - **change request** + **actioned**: 76
-- **request** + **redirected**: 35
+- **request** + **redirected**: 36
 - **blocked** + **investigated**: 28
 - **blocked** + **escalated**: 22
 - **concerned** + **explained**: 20
 - **confused** + **explained**: 20
 - **curious** + **informed**: 10
 - **blocked** + **redirected**: 9
+- **concerned** + **—**: 8
 - **confused** + **informed**: 7
-- **concerned** + **—**: 7
 - **blocked** + **actioned**: 6
 - **blocked** + **—**: 5
 - **curious** + **actioned**: 4
@@ -211,6 +216,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 3 tickets
+
+- **[#8332](https://tbpro.zendesk.com/agent/tickets/8332)** · Payment for Thundermail Early Access
+  > Hello [name], I received an invite for early access to Thundermail. However, I had to cancel the registration when it asked for payment, which left me puzzled. Is it intentional…
+- **[#8331](https://tbpro.zendesk.com/agent/tickets/8331)** · Email change
+  > Hello! I accidentally created a thundermail early bird account with a name (as in [email]) with a typo. Is it possible for to change it? Thank you ^-^
+- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail) — why: **concerned** · how: **explained**
+  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#8316](https://tbpro.zendesk.com/agent/tickets/8316)** · MTA-STS Odd recomended DNS Settings
@@ -220,8 +234,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Refund / Cancel — 2 tickets
 
-- **[#8308](https://tbpro.zendesk.com/agent/tickets/8308)** · Refund — why: **change request** · how: **actioned**
-  > Looking to cancel account and receive refund.
+- **[#8306](https://tbpro.zendesk.com/agent/tickets/8306)** · Delete Account and remove data — why: **change request** · how: **actioned**
+  > Delete Account and remove data
 - **[#8315](https://tbpro.zendesk.com/agent/tickets/8315)** · Refund request — why: **change request** · how: **actioned**
   > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there.…
 
@@ -254,55 +268,46 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain
   > I just configure my custom domain for Thundermail, I have configured my Nameserver on Hetzner according to the displayed records in the Dashboard. The Dashboard warns me on…
 
-### Early bird / invite / waitlist — 1 tickets
+### Pricing — general pricing concern — 1 tickets
 
-- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail) — why: **concerned** · how: **explained**
-  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
-
-### Account access issues — 1 tickets
-
-- **[#8310](https://tbpro.zendesk.com/agent/tickets/8310)** · Login 
-  > My account
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#8306](https://tbpro.zendesk.com/agent/tickets/8306)** · Delete Account and remove data
-  > Delete Account and remove data
+- **[#8319](https://tbpro.zendesk.com/agent/tickets/8319)** · Press access to Thundermail — why: **curious** · how: **actioned**
+  > Hello, My name is [name], and I am a writer for the French tech website https://[domain]. I recently received early access to Thundermail and was able to create my account with…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8301](https://tbpro.zendesk.com/agent/tickets/8301)** · Email Address + Reddit Problem
   > Basically I tried to update my email address to my Thundermail one on Reddit but it just says invalid email address, just thought you should be aware. I have tried on the Reddit…
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#8310](https://tbpro.zendesk.com/agent/tickets/8310)** · Login  — why: **blocked** · how: **explained**
+  > My account
+
 ### Appointment / calendar — 1 tickets
 
-- **[#8298](https://tbpro.zendesk.com/agent/tickets/8298)** · Calendar subscription URL — why: **curious** · how: **explained**
+- **[#8298](https://tbpro.zendesk.com/agent/tickets/8298)** · Calendar subscription URL — why: **request** · how: **redirected**
   > I’d like to figure out how to add my Thundermail calendar to iOS, and also if there’s a private subscription URL so I can subscribe to it with other calendar software.
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#8319](https://tbpro.zendesk.com/agent/tickets/8319)** · Press access to Thundermail — why: **curious** · how: **actioned**
-  > Hello, My name is [name], and I am a writer for the French tech website https://[domain]. I recently received early access to Thundermail and was able to create my account with…
 
 ## New tickets — last 24h
 
-- [8298](https://tbpro.zendesk.com/agent/tickets/8298) · [open] · 2026-09-02T20:11 · Calendar subscription URL
+- [8298](https://tbpro.zendesk.com/agent/tickets/8298) · [pending] · 2026-09-02T20:11 · Calendar subscription URL
 - [8301](https://tbpro.zendesk.com/agent/tickets/8301) · [open] · 2026-09-02T23:34 · Email Address + Reddit Problem
 - [8302](https://tbpro.zendesk.com/agent/tickets/8302) · [open] · 2026-09-03T00:29 · Mailboxes for few users at single personal domain
 - [8304](https://tbpro.zendesk.com/agent/tickets/8304) · [open] · 2026-09-03T01:16 · Issue S/MIME certificates
 - [8306](https://tbpro.zendesk.com/agent/tickets/8306) · [open] · 2026-09-03T04:10 · Delete Account and remove data
-- [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03T05:08 · Refund
-- [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [open] · 2026-09-03T05:43 · Login 
+- [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [pending] · 2026-09-03T05:43 · Login 
 - [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03T08:42 · Refund request
 - [8316](https://tbpro.zendesk.com/agent/tickets/8316) · [open] · 2026-09-03T09:09 · MTA-STS Odd recomended DNS Settings
 - [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [pending] · 2026-09-03T10:02 · paYMENT PROBLEM
 - [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [open] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
-- [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [pending] · 2026-09-03T10:12 · Press access to Thundermail
+- [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [open] · 2026-09-03T10:12 · Press access to Thundermail
 - [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [open] · 2026-09-03T11:39 · Verifying Custom domain
 - [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [pending] · 2026-09-03T11:52 · not free?
 - [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [pending] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
 - [8328](https://tbpro.zendesk.com/agent/tickets/8328) · [open] · 2026-09-03T15:00 · Refund
 - [8329](https://tbpro.zendesk.com/agent/tickets/8329) · [open] · 2026-09-03T15:07 · Create new address book?
+- [8331](https://tbpro.zendesk.com/agent/tickets/8331) · [open] · 2026-09-03T17:01 · Email change
+- [8332](https://tbpro.zendesk.com/agent/tickets/8332) · [new] · 2026-09-03T17:04 · Payment for Thundermail Early Access
 
 ## Solved — last 24h
 
@@ -326,6 +331,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8216](https://tbpro.zendesk.com/agent/tickets/8216) · 2026-09-03T04:01 · Import gmail mail
 - · [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T14:01 · incoming email
 - · [8132](https://tbpro.zendesk.com/agent/tickets/8132) · 2026-09-03T15:02 · Cannot send SMTP messages from Thundermail account
+- · [8001](https://tbpro.zendesk.com/agent/tickets/8001) · 2026-09-03T17:01 · Is there a "Thundermail LITE"?
+- · [7962](https://tbpro.zendesk.com/agent/tickets/7962) · 2026-09-03T17:20 · Error encountered in Send feature
+- · [7962](https://tbpro.zendesk.com/agent/tickets/7962) · 2026-09-03T17:20 · Error encountered in Send feature
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
