@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 21:36 ET** · refreshes hourly_  
+_Updated: **2026-09-02 23:14 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 73** of rollout — **6,500 invitees**, **606 tickets** so far
 
 ## At a glance
 
-- **47** new tickets in last 24h · **16** solved in last 24h
+- **47** new tickets in last 24h · **15** solved in last 24h
 - **606** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 98
-- **Median AHT**: 144.4h · mean 187.4h (proxy: updated_at − created_at, 168 solved tickets)
+- **Median AHT**: 144.4h · mean 187.8h (proxy: updated_at − created_at, 167 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -162,9 +162,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 285
-- **solved**: 168
-- **pending**: 130
-- **open**: 14
+- **solved**: 167
+- **pending**: 128
+- **open**: 17
 - **hold**: 9
 
 ## Service (cumulative)
@@ -195,15 +195,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 4
 - **request** + **explained**: 4
 - **request** + **actioned**: 4
+- **curious** + **actioned**: 3
 - **change request** + **explained**: 3
 - **telling us** + **explained**: 3
 - **telling us** + **escalated**: 3
 - **confused** + **investigated**: 3
-- **curious** + **actioned**: 3
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
-- **telling us** + **—**: 2
 - **curious** + **escalated**: 2
+- **telling us** + **—**: 2
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
@@ -428,7 +428,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8007](https://tbpro.zendesk.com/agent/tickets/8007) · 2026-09-01T21:01 · [domain] is a scam though?
 - · [8005](https://tbpro.zendesk.com/agent/tickets/8005) · 2026-09-01T21:01 · Outbound email alias
 - · [7792](https://tbpro.zendesk.com/agent/tickets/7792) · 2026-09-01T21:01 · add additional email account
-- · [8029](https://tbpro.zendesk.com/agent/tickets/8029) · 2026-09-01T22:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [7956](https://tbpro.zendesk.com/agent/tickets/7956) · 2026-09-01T23:01 · Recovery Email
 - · [8002](https://tbpro.zendesk.com/agent/tickets/8002) · 2026-09-02T00:01 · Request for Lower price
 - · [8216](https://tbpro.zendesk.com/agent/tickets/8216) · 2026-09-02T03:05 · Import gmail mail
