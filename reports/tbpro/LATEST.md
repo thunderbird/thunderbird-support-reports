@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 07:19 ET** · refreshes hourly_  
+_Updated: **2026-09-03 08:34 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **614 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **616 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **18** solved in last 24h
-- **614** tickets total since launch · contact rate **9%** of 6500 invitees
+- **14** new tickets in last 24h · **18** solved in last 24h
+- **616** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 97
@@ -140,12 +140,12 @@ _No negative ratings since launch._
 - **pending**: 122
 - **open**: 25
 - **hold**: 9
-- **new**: 6
+- **new**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 333
-- **Thundermail**: 228
+- **Thundermail**: 230
 - **Send**: 18
 - **Appointment**: 16
 
@@ -209,6 +209,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > In my custom domain DNS settings (The recommended ones on my Thunderbird Pro Dashboard) This record is shown: TXT _mta-[domain].za. v=STSv1; id=[number] I know mta-sts is not…
 - **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
   > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
+
+### Other / uncategorized — 1 tickets
+
+- **[#8322](https://tbpro.zendesk.com/agent/tickets/8322)** · not free?
+  > if not? WHY?
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain
+  > I just configure my custom domain for Thundermail, I have configured my Nameserver on Hetzner according to the displayed records in the Dashboard. The Dashboard warns me on…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -274,6 +284,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [new] · 2026-09-03T10:02 · paYMENT PROBLEM
 - [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [new] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [new] · 2026-09-03T10:12 · Press access to Thundermail
+- [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [new] · 2026-09-03T11:39 · Verifying Custom domain
+- [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [new] · 2026-09-03T11:52 · not free?
 
 ## Solved — last 24h
 
