@@ -252,6 +252,69 @@ def build_line_chart_svg(values, color, w=640, h=160, pad_x=8, pad_top=30, pad_b
     </svg>"""
 
 
+def build_indexed_chart_svg(series, w=640, h=200, pad_x=8, pad_top=30, pad_bottom=24):
+    """series = [(label, color, values)], oldest->newest, same length.
+    Indexes each series to its own first-3-day average = 100, so two
+    differently-scaled metrics (DAU in the thousands, tickets in the tens)
+    can share one axis meaningfully -- a plain shared axis would flatten
+    the smaller series to a line at the bottom; a second y-axis lets two
+    unrelated lines cross wherever you want, so neither is used here.
+    Legend required since color is now the only series-identity channel."""
+    n = len(series[0][2])
+    indexed = []
+    for label, color, values in series:
+        base = sum(values[:3]) / min(3, len(values))
+        base = base or 1
+        indexed.append((label, color, [v / base * 100 for v in values]))
+
+    all_vals = [v for _, _, vals in indexed for v in vals]
+    lo, hi = min(all_vals), max(all_vals)
+    span = hi - lo or 1
+    usable = h - pad_top - pad_bottom
+
+    def xy(i, v):
+        x = pad_x + (i * (w - 2 * pad_x) / (n - 1) if n > 1 else 0)
+        y = pad_top + usable * (1 - (v - lo) / span)
+        return round(x, 1), round(y, 1)
+
+    paths, circles, end_labels, legend = "", "", "", ""
+    for label, color, vals in indexed:
+        pts = [xy(i, v) for i, v in enumerate(vals)]
+        path_d = "M " + " L ".join(f"{x},{y}" for x, y in pts)
+        paths += (f'<path d="{path_d}" fill="none" stroke="{color}" stroke-width="2" '
+                   f'stroke-linejoin="round" stroke-linecap="round"/>')
+        circles += "".join(
+            f'<circle class="pt" cx="{x}" cy="{y}" r="3" fill="{color}" '
+            f'stroke="#1e293b" stroke-width="1.5"><title>{label}: {v:,.0f} (index)</title></circle>'
+            for (x, y), v in zip(pts, vals)
+        )
+        end_x, end_y = pts[-1]
+        end_labels += (f'<text x="{end_x-4}" y="{end_y-8}" text-anchor="end" font-size="11" '
+                        f'font-weight="700" fill="{color}" font-family="system-ui,sans-serif">'
+                        f'{vals[-1]:,.0f}</text>')
+        legend += (f'<span style="display:inline-flex;align-items:center;gap:6px;margin-right:16px">'
+                    f'<span style="width:10px;height:10px;border-radius:50%;background:{color};'
+                    f'display:inline-block"></span>{label}</span>')
+
+    return f"""
+    <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">{legend}</div>
+    <svg viewBox="0 0 {w} {h}" preserveAspectRatio="none">
+      <line class="gridline" x1="{pad_x}" y1="{pad_top}" x2="{w-pad_x}" y2="{pad_top}"/>
+      <line class="gridline" x1="{pad_x}" y1="{h-pad_bottom}" x2="{w-pad_x}" y2="{h-pad_bottom}"/>
+      <text class="axis-label" x="{pad_x+4}" y="{pad_top+12}">{hi:,.0f}</text>
+      <text class="axis-label" x="{pad_x+4}" y="{h-pad_bottom-4}">{lo:,.0f}</text>
+      {paths}
+      {circles}
+      {end_labels}
+    </svg>
+    <p style="color:var(--muted);font-size:0.72rem;margin-top:4px">
+      Index = % of each series' own first-3-day average, not raw counts — the two metrics
+      have very different scales (DAU in the thousands, tickets in the tens), so this is the
+      only way to show them on one shared axis without a second y-axis. Use the table below
+      for exact values.
+    </p>"""
+
+
 def build_public_html(windows, trend, today):
     gen = today.strftime("%Y-%m-%d")
 
@@ -290,8 +353,10 @@ def build_public_html(windows, trend, today):
         </tr>"""
 
     days_sorted = sorted(trend.keys())
-    dau_chart = build_line_chart_svg([trend[d]["dau"] for d in days_sorted], "#6366f1")
-    tix_chart = build_line_chart_svg([trend[d]["tickets"] for d in days_sorted], "#f97316")
+    combined_chart = build_indexed_chart_svg([
+        ("Active users (DAU)", "#6366f1", [trend[d]["dau"] for d in days_sorted]),
+        ("Tickets/day", "#f97316", [trend[d]["tickets"] for d in days_sorted]),
+    ])
     span_note = f"{days_sorted[0].isoformat()} → {days_sorted[-1].isoformat()}"
 
     return f"""<!DOCTYPE html>
@@ -317,14 +382,9 @@ def build_public_html(windows, trend, today):
 
 <h2>14-Day Trend</h2>
 <div class="panel">
-  <div class="panel__title">Active users (DAU) <strong>— PostHog, distinct people/day</strong></div>
-  {dau_chart}
+  <div class="panel__title">Active users vs. tickets/day <strong>— indexed, {span_note}</strong></div>
+  {combined_chart}
 </div>
-<div class="panel">
-  <div class="panel__title">Tickets/day <strong>— Zendesk, Thundermail brand</strong></div>
-  {tix_chart}
-</div>
-<p style="color:var(--muted);font-size:0.78rem;margin:0 0 14px">{span_note}</p>
 <table>
   <thead><tr><th>Day</th><th>Unique active users (DAU)</th><th>Tickets</th>
   <th>Unique submitters</th><th>Tickets/active user</th></tr></thead>
