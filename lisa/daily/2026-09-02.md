@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-02
 
-_Updated: **2026-09-02 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-02 20:57 ET** · refreshes hourly_  
 _24h window: 2026-09-01T16:00 → 2026-09-02T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 73** of rollout — **6,500 invitees**, **603 tickets** so far (9.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 73** of rollout — **6,500 invitees**, **605 tickets** so far (9.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **47** new tickets in last 24h · **17** solved in last 24h
-- **603** tickets total since launch · contact rate **9%** of 6500 invitees
+- **47** new tickets in last 24h · **16** solved in last 24h
+- **605** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (7 good / 0 bad)
+- **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 98
-- **Median AHT**: 144.3h · mean 188.6h (proxy: updated_at − created_at, 163 solved tickets)
+- **Median AHT**: 144.3h · mean 188.1h (proxy: updated_at − created_at, 165 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -161,16 +161,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 284
-- **solved**: 163
-- **pending**: 135
-- **open**: 12
+- **closed**: 285
+- **solved**: 165
+- **pending**: 133
+- **open**: 13
 - **hold**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 329
-- **Thundermail**: 222
+- **Thundermail**: 224
 - **Send**: 18
 - **Appointment**: 16
 
@@ -209,8 +209,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **concerned** + **escalated**: 1
 - **other** + **—**: 1
+- **concerned** + **escalated**: 1
 - **other** + **investigated**: 1
 - **concerned** + **redirected**: 1
 - **concerned** + **informed**: 1
@@ -315,13 +315,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8217](https://tbpro.zendesk.com/agent/tickets/8217)** · TXT and CNAME Records — why: **blocked** · how: **explained**
   > Hello! I created the TXT and CNAME records in my domain's DNS registry (GoDaddy does some of this differently than you described, but I was able to figure it out). However, there…
 
-### Spam / Junk Filtering — 2 tickets
-
-- **[#8239](https://tbpro.zendesk.com/agent/tickets/8239)** · Spam from [email]/[domain] — why: **concerned** · how: **escalated**
-  > Predatory publishing spammer. Full spam sample below. Joseph Tam <[email]> Received: from [domain] ([domain] [[ip]]) by viol.math.ubc.ca (8.17.1/8.17.1) with ESMTPS id…
-- **[#8241](https://tbpro.zendesk.com/agent/tickets/8241)** · Can't receive email — why: **blocked** · how: **explained**
-  > I just created this new account, and I'm not able to receive any email. Please respond to [email]
-
 ### Privacy / data / jurisdiction concerns — 2 tickets
 
 - **[#8252](https://tbpro.zendesk.com/agent/tickets/8252)** · account deletion — why: **change request** · how: **explained**
@@ -342,6 +335,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hey, I just now opened up the invitation email to sign up from the joinlist. And I created my account. I wrote my password near but After confirming account registration by link I…
 - **[#8224](https://tbpro.zendesk.com/agent/tickets/8224)** · Cannot sign in to new thundermail account — why: **blocked** · how: **investigated**
   > I am opening a new account by invitation and I proceeded through my email verification but I cannot sign in to my new account to pay the subscription fee because my password is…
+
+### Spam / Junk Filtering — 2 tickets
+
+- **[#8241](https://tbpro.zendesk.com/agent/tickets/8241)** · Can't receive email — why: **blocked** · how: **explained**
+  > I just created this new account, and I'm not able to receive any email. Please respond to [email]
+- **[#8239](https://tbpro.zendesk.com/agent/tickets/8239)** · Spam from [email]/[domain] — why: **concerned** · how: **escalated**
+  > Predatory publishing spammer. Full spam sample below. Joseph Tam <[email]> Received: from [domain] ([domain] [[ip]]) by viol.math.ubc.ca (8.17.1/8.17.1) with ESMTPS id…
 
 ### Webmail — 1 tickets
 
@@ -393,7 +393,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8236](https://tbpro.zendesk.com/agent/tickets/8236) · [solved] · 2026-09-01T23:06 · Refund Subscription 
 - [8237](https://tbpro.zendesk.com/agent/tickets/8237) · [solved] · 2026-09-01T23:07 · Server-side email filtering via ManageSieve
 - [8238](https://tbpro.zendesk.com/agent/tickets/8238) · [pending] · 2026-09-01T23:09 · Custom domain
-- [8239](https://tbpro.zendesk.com/agent/tickets/8239) · [open] · 2026-09-01T23:57 · Spam from [email]/[domain]
+- [8239](https://tbpro.zendesk.com/agent/tickets/8239) · [solved] · 2026-09-01T23:57 · Spam from [email]/[domain]
 - [8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02T00:31 · Refund, please ?
 - [8241](https://tbpro.zendesk.com/agent/tickets/8241) · [pending] · 2026-09-02T01:17 · Can't receive email
 - [8242](https://tbpro.zendesk.com/agent/tickets/8242) · [pending] · 2026-09-02T01:20 · thundermail email ID missed
@@ -436,7 +436,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8132](https://tbpro.zendesk.com/agent/tickets/8132) · 2026-09-02T14:32 · Cannot send SMTP messages from Thundermail account
 - · [8001](https://tbpro.zendesk.com/agent/tickets/8001) · 2026-09-02T16:55 · Is there a "Thundermail LITE"?
 - · [8236](https://tbpro.zendesk.com/agent/tickets/8236) · 2026-09-02T17:00 · Refund Subscription 
-- · [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-02T17:02 · Password has dropped out
 - · [8035](https://tbpro.zendesk.com/agent/tickets/8035) · 2026-09-02T18:02 · problem accepting "Terms of Service".
 - · [7739](https://tbpro.zendesk.com/agent/tickets/7739) · 2026-09-02T18:02 · requirements.
 - · [8235](https://tbpro.zendesk.com/agent/tickets/8235) · 2026-09-02T18:25 · Re: You're Invited: Thundermail Early Bird Access
