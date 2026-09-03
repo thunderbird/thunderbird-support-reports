@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 09:23 ET** · refreshes hourly_  
+_Updated: **2026-09-03 10:24 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **616 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **617 tickets** so far (9.5% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **18** solved in last 24h
-- **616** tickets total since launch · contact rate **9%** of 6500 invitees
+- **15** new tickets in last 24h · **19** solved in last 24h
+- **617** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 97
-- **Median AHT**: 144.4h · mean 187.8h (proxy: updated_at − created_at, 165 solved tickets)
+- **Median AHT**: 144.4h · mean 188.0h (proxy: updated_at − created_at, 165 solved tickets)
 
-## Known problems — 6 problem(s), 59 incident(s)
+## Known problems — 6 problem(s), 60 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -37,7 +37,7 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **616 tickets** so far
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 47 incident(s):
+- 48 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -85,6 +85,7 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **616 tickets** so far
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [pending] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [pending] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
   - [#8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03 · _Refund_
+  - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03 · _Refund request_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -121,7 +122,7 @@ _No negative ratings since launch._
 
 - [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · _Refund_
   > Looking to cancel account and receive refund.
-- [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [new] · _Refund request_
+- [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · _Refund request_
   > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there. Since it has been less than 14 days since…
 
 ## New ideas on FeatureOS
@@ -137,15 +138,14 @@ _No negative ratings since launch._
 
 - **closed**: 287
 - **solved**: 165
-- **pending**: 123
-- **open**: 24
+- **pending**: 130
+- **open**: 26
 - **hold**: 9
-- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 333
-- **Thundermail**: 230
+- **Account Hub**: 335
+- **Thundermail**: 229
 - **Send**: 18
 - **Appointment**: 16
 
@@ -153,24 +153,24 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 149
+- **curious** + **explained**: 151
 - **blocked** + **explained**: 120
-- **change request** + **actioned**: 75
+- **change request** + **actioned**: 76
 - **request** + **redirected**: 35
 - **blocked** + **investigated**: 28
 - **blocked** + **escalated**: 22
+- **concerned** + **explained**: 20
 - **confused** + **explained**: 20
-- **concerned** + **explained**: 19
 - **curious** + **informed**: 10
 - **blocked** + **redirected**: 9
 - **confused** + **informed**: 7
 - **concerned** + **—**: 7
 - **blocked** + **actioned**: 6
 - **blocked** + **—**: 5
+- **curious** + **actioned**: 4
 - **blocked** + **informed**: 4
 - **request** + **explained**: 4
 - **request** + **actioned**: 4
-- **curious** + **actioned**: 3
 - **change request** + **explained**: 3
 - **telling us** + **explained**: 3
 - **telling us** + **escalated**: 3
@@ -203,6 +203,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#8324](https://tbpro.zendesk.com/agent/tickets/8324)** · Changing email adress and keep the former as an alias
+  > Hello, I did rush a little bit while subscribing and choosing my email address the other day. I was excited by the invite and the whole project. My actual email address [email] is…
+- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail) — why: **concerned** · how: **explained**
+  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#8316](https://tbpro.zendesk.com/agent/tickets/8316)** · MTA-STS Odd recomended DNS Settings
@@ -210,45 +217,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
   > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
 
-### Other / uncategorized — 1 tickets
+### Refund / Cancel — 2 tickets
 
-- **[#8322](https://tbpro.zendesk.com/agent/tickets/8322)** · not free?
+- **[#8308](https://tbpro.zendesk.com/agent/tickets/8308)** · Refund — why: **change request** · how: **actioned**
+  > Looking to cancel account and receive refund.
+- **[#8315](https://tbpro.zendesk.com/agent/tickets/8315)** · Refund request — why: **change request** · how: **actioned**
+  > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there.…
+
+### Pricing — wanted free / monthly plan — 2 tickets
+
+- **[#8322](https://tbpro.zendesk.com/agent/tickets/8322)** · not free? — why: **curious** · how: **explained**
   > if not? WHY?
+- **[#8317](https://tbpro.zendesk.com/agent/tickets/8317)** · paYMENT PROBLEM — why: **curious** · how: **explained**
+  > is their any free tier available for this email service??
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain
   > I just configure my custom domain for Thundermail, I have configured my Nameserver on Hetzner according to the displayed records in the Dashboard. The Dashboard warns me on…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#8319](https://tbpro.zendesk.com/agent/tickets/8319)** · Press access to Thundermail
-  > Hello, My name is [name], and I am a writer for the French tech website https://[domain]. I recently received early access to Thundermail and was able to create my account with…
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
-  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8317](https://tbpro.zendesk.com/agent/tickets/8317)** · paYMENT PROBLEM
-  > is their any free tier available for this email service??
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8315](https://tbpro.zendesk.com/agent/tickets/8315)** · Refund request
-  > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there.…
-
 ### Account access issues — 1 tickets
 
 - **[#8310](https://tbpro.zendesk.com/agent/tickets/8310)** · Login 
   > My account
-
-### Refund / Cancel — 1 tickets
-
-- **[#8308](https://tbpro.zendesk.com/agent/tickets/8308)** · Refund — why: **change request** · how: **actioned**
-  > Looking to cancel account and receive refund.
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -270,6 +261,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8298](https://tbpro.zendesk.com/agent/tickets/8298)** · Calendar subscription URL — why: **curious** · how: **explained**
   > I’d like to figure out how to add my Thundermail calendar to iOS, and also if there’s a private subscription URL so I can subscribe to it with other calendar software.
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#8319](https://tbpro.zendesk.com/agent/tickets/8319)** · Press access to Thundermail — why: **curious** · how: **actioned**
+  > Hello, My name is [name], and I am a writer for the French tech website https://[domain]. I recently received early access to Thundermail and was able to create my account with…
+
 ## New tickets — last 24h
 
 - [8298](https://tbpro.zendesk.com/agent/tickets/8298) · [open] · 2026-09-02T20:11 · Calendar subscription URL
@@ -278,14 +274,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8304](https://tbpro.zendesk.com/agent/tickets/8304) · [open] · 2026-09-03T01:16 · Issue S/MIME certificates
 - [8306](https://tbpro.zendesk.com/agent/tickets/8306) · [open] · 2026-09-03T04:10 · Delete Account and remove data
 - [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03T05:08 · Refund
-- [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [new] · 2026-09-03T05:43 · Login 
-- [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [new] · 2026-09-03T08:42 · Refund request
-- [8316](https://tbpro.zendesk.com/agent/tickets/8316) · [new] · 2026-09-03T09:09 · MTA-STS Odd recomended DNS Settings
-- [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [new] · 2026-09-03T10:02 · paYMENT PROBLEM
-- [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [new] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
-- [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [new] · 2026-09-03T10:12 · Press access to Thundermail
-- [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [new] · 2026-09-03T11:39 · Verifying Custom domain
-- [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [new] · 2026-09-03T11:52 · not free?
+- [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [open] · 2026-09-03T05:43 · Login 
+- [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03T08:42 · Refund request
+- [8316](https://tbpro.zendesk.com/agent/tickets/8316) · [open] · 2026-09-03T09:09 · MTA-STS Odd recomended DNS Settings
+- [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [pending] · 2026-09-03T10:02 · paYMENT PROBLEM
+- [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [pending] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
+- [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [pending] · 2026-09-03T10:12 · Press access to Thundermail
+- [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [open] · 2026-09-03T11:39 · Verifying Custom domain
+- [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [pending] · 2026-09-03T11:52 · not free?
+- [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [open] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
 
 ## Solved — last 24h
 
@@ -307,6 +304,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8041](https://tbpro.zendesk.com/agent/tickets/8041) · 2026-09-03T01:01 · Thundermail custom domain setup process suggestion
 - · [8000](https://tbpro.zendesk.com/agent/tickets/8000) · 2026-09-03T01:01 · Receiving Emails
 - · [8216](https://tbpro.zendesk.com/agent/tickets/8216) · 2026-09-03T04:01 · Import gmail mail
+- · [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T14:01 · incoming email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
