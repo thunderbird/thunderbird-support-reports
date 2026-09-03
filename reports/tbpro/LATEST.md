@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 15:17 ET** · refreshes hourly_  
+_Updated: **2026-09-03 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **626 tickets** so far
 
 ## At a glance
 
-- **24** new tickets in last 24h · **24** solved in last 24h
+- **23** new tickets in last 24h · **24** solved in last 24h
 - **626** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
@@ -143,7 +143,7 @@ _No negative ratings since launch._
 
 - [Additional address books](https://ideas.tb.pro/p/additional-address-books) · 1 votes · _untagged_
   > What you’d like to seeAdd/manage address books other than the default one.Why it mattersI don’t want to co-mingle addresses from multiple sources.Your use caseI have more than one TB client running…
-- [Calendar management](https://ideas.tb.pro/p/calendar-management) · 1 votes · _untagged_
+- [Calendar management](https://ideas.tb.pro/p/calendar-management) · 1 votes · _Thundermail, Improvement_
   > What you’d like to seeAdd/del/modify additional calendars beyond the default one. Also ability to publish a URL for others to see (R/O) a calendar.Why it mattersBasic calendar functionality.Your use…
 - [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 3 votes · _Accounts & Subscriptions, Improvement, Community_
   > What you’d like to seeA single, unified username for each thundermail account, and the domain (tb.pro and thundermail.com) is just syntactic sugar.Why it mattersThe default user is @thundermail.com,…
@@ -154,10 +154,10 @@ _No negative ratings since launch._
 
 - **closed**: 288
 - **solved**: 165
-- **pending**: 131
-- **open**: 30
-- **hold**: 10
-- **new**: 2
+- **pending**: 132
+- **open**: 28
+- **hold**: 12
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -171,15 +171,15 @@ _No negative ratings since launch._
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 151
-- **blocked** + **explained**: 121
+- **blocked** + **explained**: 122
 - **change request** + **actioned**: 77
-- **request** + **redirected**: 36
+- **request** + **redirected**: 37
 - **blocked** + **investigated**: 28
 - **blocked** + **escalated**: 22
 - **confused** + **explained**: 21
 - **concerned** + **explained**: 20
 - **curious** + **informed**: 10
-- **blocked** + **redirected**: 9
+- **blocked** + **redirected**: 8
 - **confused** + **informed**: 7
 - **concerned** + **—**: 7
 - **blocked** + **actioned**: 6
@@ -194,8 +194,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 3
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
-- **curious** + **escalated**: 2
 - **telling us** + **—**: 2
+- **curious** + **escalated**: 2
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
@@ -233,6 +233,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail) — why: **concerned** · how: **explained**
   > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
 
+### Custom domain / DKIM / DNS — 3 tickets
+
+- **[#8316](https://tbpro.zendesk.com/agent/tickets/8316)** · MTA-STS Odd recomended DNS Settings
+  > In my custom domain DNS settings (The recommended ones on my Thunderbird Pro Dashboard) This record is shown: TXT _mta-[domain].za. v=STSv1; id=[number] I know mta-sts is not…
+- **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
+  > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
+- **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain — why: **blocked** · how: **explained**
+  > I just configure my custom domain for Thundermail, I have configured my Nameserver on Hetzner according to the displayed records in the Dashboard. The Dashboard warns me on…
+
 ### Refund / Cancel — 3 tickets
 
 - **[#8328](https://tbpro.zendesk.com/agent/tickets/8328)** · Refund — why: **change request** · how: **actioned**
@@ -242,26 +251,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8306](https://tbpro.zendesk.com/agent/tickets/8306)** · Delete Account and remove data — why: **change request** · how: **actioned**
   > Delete Account and remove data
 
-### Account access issues — 2 tickets
-
-- **[#8338](https://tbpro.zendesk.com/agent/tickets/8338)** · [Abusix] Please verify your email address
-  > Hello! We just need to verify that [email] is your email address. Just click the link below and you'll be able to log in to abusix.ai. Confirm Email Address:…
-- **[#8333](https://tbpro.zendesk.com/agent/tickets/8333)** · Signing up for Thundermail
-  > I have done something incorrectly and don't know where to turn. I'm setting up my first Thundermail email account and I assumed I had to use my new new Thundermail account to…
-
-### Custom domain / DKIM / DNS — 2 tickets
-
-- **[#8316](https://tbpro.zendesk.com/agent/tickets/8316)** · MTA-STS Odd recomended DNS Settings
-  > In my custom domain DNS settings (The recommended ones on my Thunderbird Pro Dashboard) This record is shown: TXT _mta-[domain].za. v=STSv1; id=[number] I know mta-sts is not…
-- **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
-  > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
-
 ### Aliases — 2 tickets
 
-- **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates
-  > Please issue S/MIME certificates for the account name and all aliases.
 - **[#8324](https://tbpro.zendesk.com/agent/tickets/8324)** · Changing email adress and keep the former as an alias — why: **curious** · how: **explained**
   > Hello, I did rush a little bit while subscribing and choosing my email address the other day. I was excited by the invite and the whole project. My actual email address [email] is…
+- **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates
+  > Please issue S/MIME certificates for the account name and all aliases.
 
 ### Pricing — wanted free / monthly plan — 2 tickets
 
@@ -280,15 +275,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8335](https://tbpro.zendesk.com/agent/tickets/8335)** · Card payment
   > I am trying to pay the €72 fee and am advised that 'a payment cannot be taken now'.
 
+### Account access issues — 1 tickets
+
+- **[#8333](https://tbpro.zendesk.com/agent/tickets/8333)** · Signing up for Thundermail
+  > I have done something incorrectly and don't know where to turn. I'm setting up my first Thundermail email account and I assumed I had to use my new new Thundermail account to…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#8329](https://tbpro.zendesk.com/agent/tickets/8329)** · Create new address book?
   > Can I create a new address book, say used for Collected Addresses, on the server, so all of my TB clients can share it? Otherwise they each use their own separate local Collected…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain
-  > I just configure my custom domain for Thundermail, I have configured my Nameserver on Hetzner according to the displayed records in the Dashboard. The Dashboard warns me on…
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -323,18 +318,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [pending] · 2026-09-03T10:02 · paYMENT PROBLEM
 - [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [open] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [open] · 2026-09-03T10:12 · Press access to Thundermail
-- [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [open] · 2026-09-03T11:39 · Verifying Custom domain
+- [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [pending] · 2026-09-03T11:39 · Verifying Custom domain
 - [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [pending] · 2026-09-03T11:52 · not free?
-- [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [pending] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
+- [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [open] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
 - [8328](https://tbpro.zendesk.com/agent/tickets/8328) · [pending] · 2026-09-03T15:00 · Refund
 - [8329](https://tbpro.zendesk.com/agent/tickets/8329) · [open] · 2026-09-03T15:07 · Create new address book?
 - [8331](https://tbpro.zendesk.com/agent/tickets/8331) · [open] · 2026-09-03T17:01 · Email change
 - [8332](https://tbpro.zendesk.com/agent/tickets/8332) · [open] · 2026-09-03T17:04 · Payment for Thundermail Early Access
 - [8333](https://tbpro.zendesk.com/agent/tickets/8333) · [open] · 2026-09-03T17:28 · Signing up for Thundermail
-- [8334](https://tbpro.zendesk.com/agent/tickets/8334) · [new] · 2026-09-03T17:40 · Data storage
-- [8335](https://tbpro.zendesk.com/agent/tickets/8335) · [new] · 2026-09-03T18:00 · Card payment
+- [8334](https://tbpro.zendesk.com/agent/tickets/8334) · [open] · 2026-09-03T17:40 · Data storage
+- [8335](https://tbpro.zendesk.com/agent/tickets/8335) · [open] · 2026-09-03T18:00 · Card payment
 - [8336](https://tbpro.zendesk.com/agent/tickets/8336) · [open] · 2026-09-03T18:09 · Re: Your invitation to join Thundermail
-- [8338](https://tbpro.zendesk.com/agent/tickets/8338) · [open] · 2026-09-03T18:36 · [Abusix] Please verify your email address
 - [8339](https://tbpro.zendesk.com/agent/tickets/8339) · [open] · 2026-09-03T18:36 · Thundermail 2FA and security features
 
 ## Solved — last 24h
