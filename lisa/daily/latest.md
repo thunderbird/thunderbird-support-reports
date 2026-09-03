@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 05:25 ET** · refreshes hourly_  
+_Updated: **2026-09-03 06:23 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **611 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **614 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **18** solved in last 24h
-- **611** tickets total since launch · contact rate **9%** of 6500 invitees
+- **12** new tickets in last 24h · **18** solved in last 24h
+- **614** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 97
@@ -137,15 +137,15 @@ _No negative ratings since launch._
 
 - **closed**: 287
 - **solved**: 165
-- **pending**: 125
-- **open**: 22
+- **pending**: 123
+- **open**: 24
 - **hold**: 9
-- **new**: 3
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 332
-- **Thundermail**: 226
+- **Account Hub**: 333
+- **Thundermail**: 228
 - **Send**: 18
 - **Appointment**: 16
 
@@ -210,6 +210,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8302](https://tbpro.zendesk.com/agent/tickets/8302)** · Mailboxes for few users at single personal domain
   > User story: There are 2-10 users with own domain ([domain]). They want access to get email [email] and [email] separately without putting it into single inbox. They need this to…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8319](https://tbpro.zendesk.com/agent/tickets/8319)** · Press access to Thundermail
+  > Hello, My name is [name], and I am a writer for the French tech website https://[domain]. I recently received early access to Thundermail and was able to create my account with…
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
+  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8317](https://tbpro.zendesk.com/agent/tickets/8317)** · paYMENT PROBLEM
+  > is their any free tier available for this email service??
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#8315](https://tbpro.zendesk.com/agent/tickets/8315)** · Refund request
@@ -256,6 +271,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [new] · 2026-09-03T05:43 · Login 
 - [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [new] · 2026-09-03T08:42 · Refund request
 - [8316](https://tbpro.zendesk.com/agent/tickets/8316) · [new] · 2026-09-03T09:09 · MTA-STS Odd recomended DNS Settings
+- [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [new] · 2026-09-03T10:02 · paYMENT PROBLEM
+- [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [new] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
+- [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [new] · 2026-09-03T10:12 · Press access to Thundermail
 
 ## Solved — last 24h
 
