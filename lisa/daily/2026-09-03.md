@@ -1,22 +1,22 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 01:21 ET** · refreshes hourly_  
+_Updated: **2026-09-03 02:37 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 74** of rollout — **6,500 invitees**, **608 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 74** of rollout — **6,500 invitees**, **609 tickets** so far (9.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **18** solved in last 24h
-- **608** tickets total since launch · contact rate **9%** of 6500 invitees
+- **7** new tickets in last 24h · **18** solved in last 24h
+- **609** tickets total since launch · contact rate **9%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (8 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 98
 - **Median AHT**: 144.4h · mean 186.9h (proxy: updated_at − created_at, 166 solved tickets)
 
-## Known problems — 6 problem(s), 58 incident(s)
+## Known problems — 6 problem(s), 59 incident(s)
 
 ### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
 - 2 incident(s):
@@ -37,7 +37,7 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **608 tickets** so far
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 46 incident(s):
+- 47 incident(s):
   - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
   - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
   - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
@@ -84,6 +84,7 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **608 tickets** so far
   - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [pending] · 2026-09-02 · _Please may i have a refund_
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [pending] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [pending] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
+  - [#8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03 · _Refund_
 
 ### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
@@ -118,7 +119,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [new] · _Refund_
+- [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · _Refund_
   > Looking to cancel account and receive refund.
 
 ## New ideas on FeatureOS
@@ -134,14 +135,14 @@ _No negative ratings since launch._
 
 - **closed**: 286
 - **solved**: 166
-- **pending**: 129
-- **open**: 17
+- **pending**: 127
+- **open**: 20
 - **hold**: 9
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 330
+- **Account Hub**: 331
 - **Thundermail**: 225
 - **Send**: 18
 - **Appointment**: 16
@@ -152,7 +153,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 149
 - **blocked** + **explained**: 120
-- **change request** + **actioned**: 74
+- **change request** + **actioned**: 75
 - **request** + **redirected**: 35
 - **blocked** + **investigated**: 28
 - **blocked** + **escalated**: 22
@@ -200,9 +201,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#8308](https://tbpro.zendesk.com/agent/tickets/8308)** · Refund
+- **[#8310](https://tbpro.zendesk.com/agent/tickets/8310)** · Login 
+  > My account
+
+### Refund / Cancel — 1 tickets
+
+- **[#8308](https://tbpro.zendesk.com/agent/tickets/8308)** · Refund — why: **change request** · how: **actioned**
   > Looking to cancel account and receive refund.
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
@@ -237,7 +243,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8302](https://tbpro.zendesk.com/agent/tickets/8302) · [open] · 2026-09-03T00:29 · Mailboxes for few users at single personal domain
 - [8304](https://tbpro.zendesk.com/agent/tickets/8304) · [open] · 2026-09-03T01:16 · Issue S/MIME certificates
 - [8306](https://tbpro.zendesk.com/agent/tickets/8306) · [open] · 2026-09-03T04:10 · Delete Account and remove data
-- [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [new] · 2026-09-03T05:08 · Refund
+- [8308](https://tbpro.zendesk.com/agent/tickets/8308) · [open] · 2026-09-03T05:08 · Refund
+- [8310](https://tbpro.zendesk.com/agent/tickets/8310) · [new] · 2026-09-03T05:43 · Login 
 
 ## Solved — last 24h
 
