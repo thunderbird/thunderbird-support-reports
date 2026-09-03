@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 11:24 ET** · refreshes hourly_  
+_Updated: **2026-09-03 12:24 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -146,10 +146,9 @@ _No negative ratings since launch._
 
 - **closed**: 287
 - **solved**: 165
-- **pending**: 131
-- **open**: 26
+- **pending**: 127
+- **open**: 31
 - **hold**: 9
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -162,7 +161,7 @@ _No negative ratings since launch._
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 151
+- **curious** + **explained**: 152
 - **blocked** + **explained**: 120
 - **change request** + **actioned**: 76
 - **request** + **redirected**: 35
@@ -212,13 +211,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#8324](https://tbpro.zendesk.com/agent/tickets/8324)** · Changing email adress and keep the former as an alias
-  > Hello, I did rush a little bit while subscribing and choosing my email address the other day. I was excited by the invite and the whole project. My actual email address [email] is…
-- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail) — why: **concerned** · how: **explained**
-  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
-
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#8316](https://tbpro.zendesk.com/agent/tickets/8316)** · MTA-STS Odd recomended DNS Settings
@@ -232,6 +224,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Looking to cancel account and receive refund.
 - **[#8315](https://tbpro.zendesk.com/agent/tickets/8315)** · Refund request — why: **change request** · how: **actioned**
   > Hello, I am writing to request a full refund for my Thunderbird Pro subscription, which I purchased recently. I have attached my invoice, and all the details are included there.…
+
+### Aliases — 2 tickets
+
+- **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates
+  > Please issue S/MIME certificates for the account name and all aliases.
+- **[#8324](https://tbpro.zendesk.com/agent/tickets/8324)** · Changing email adress and keep the former as an alias — why: **curious** · how: **explained**
+  > Hello, I did rush a little bit while subscribing and choosing my email address the other day. I was excited by the invite and the whole project. My actual email address [email] is…
 
 ### Pricing — wanted free / monthly plan — 2 tickets
 
@@ -255,6 +254,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8321](https://tbpro.zendesk.com/agent/tickets/8321)** · Verifying Custom domain
   > I just configure my custom domain for Thundermail, I have configured my Nameserver on Hetzner according to the displayed records in the Dashboard. The Dashboard warns me on…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8318](https://tbpro.zendesk.com/agent/tickets/8318)** · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail) — why: **concerned** · how: **explained**
+  > Hi [name] team, I'm an early access subscriber. When sending emails from my @[domain] address to a Gmail account, the message landed in the Spam folder. Upon checking the message…
+
 ### Account access issues — 1 tickets
 
 - **[#8310](https://tbpro.zendesk.com/agent/tickets/8310)** · Login 
@@ -264,11 +268,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8306](https://tbpro.zendesk.com/agent/tickets/8306)** · Delete Account and remove data
   > Delete Account and remove data
-
-### Aliases — 1 tickets
-
-- **[#8304](https://tbpro.zendesk.com/agent/tickets/8304)** · Issue S/MIME certificates
-  > Please issue S/MIME certificates for the account name and all aliases.
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -297,13 +296,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03T08:42 · Refund request
 - [8316](https://tbpro.zendesk.com/agent/tickets/8316) · [open] · 2026-09-03T09:09 · MTA-STS Odd recomended DNS Settings
 - [8317](https://tbpro.zendesk.com/agent/tickets/8317) · [pending] · 2026-09-03T10:02 · paYMENT PROBLEM
-- [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [pending] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
+- [8318](https://tbpro.zendesk.com/agent/tickets/8318) · [open] · 2026-09-03T10:11 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - [8319](https://tbpro.zendesk.com/agent/tickets/8319) · [pending] · 2026-09-03T10:12 · Press access to Thundermail
 - [8321](https://tbpro.zendesk.com/agent/tickets/8321) · [open] · 2026-09-03T11:39 · Verifying Custom domain
 - [8322](https://tbpro.zendesk.com/agent/tickets/8322) · [pending] · 2026-09-03T11:52 · not free?
-- [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [open] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
+- [8324](https://tbpro.zendesk.com/agent/tickets/8324) · [pending] · 2026-09-03T13:47 · Changing email adress and keep the former as an alias
 - [8328](https://tbpro.zendesk.com/agent/tickets/8328) · [open] · 2026-09-03T15:00 · Refund
-- [8329](https://tbpro.zendesk.com/agent/tickets/8329) · [new] · 2026-09-03T15:07 · Create new address book?
+- [8329](https://tbpro.zendesk.com/agent/tickets/8329) · [open] · 2026-09-03T15:07 · Create new address book?
 
 ## Solved — last 24h
 
