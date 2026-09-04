@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 11:23 ET** · refreshes hourly_  
+_Updated: **2026-09-04 12:24 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 75** of rollout — **6,500 invitees**, **640 tickets** so far
 
 ## At a glance
 
-- **14** new tickets in last 24h · **22** solved in last 24h
+- **14** new tickets in last 24h · **25** solved in last 24h
 - **640** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
-- **Median AHT**: 143.5h · mean 180.1h (proxy: updated_at − created_at, 180 solved tickets)
+- **Median AHT**: 143.1h · mean 178.4h (proxy: updated_at − created_at, 183 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -141,11 +141,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 288
-- **solved**: 180
+- **solved**: 183
 - **pending**: 129
-- **open**: 25
+- **open**: 24
 - **hold**: 13
-- **new**: 5
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -274,11 +274,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8352](https://tbpro.zendesk.com/agent/tickets/8352) · [open] · 2026-09-04T10:19 · Cannot configure Thundermail address in Thunderbird
 - [8353](https://tbpro.zendesk.com/agent/tickets/8353) · [open] · 2026-09-04T10:28 · GMX Problem
 - [8356](https://tbpro.zendesk.com/agent/tickets/8356) · [open] · 2026-09-04T11:22 · Re: Correction: Thundermail Early Bird Access
-- [8358](https://tbpro.zendesk.com/agent/tickets/8358) · [new] · 2026-09-04T14:05 · Bug in calendar sync
+- [8358](https://tbpro.zendesk.com/agent/tickets/8358) · [open] · 2026-09-04T14:05 · Bug in calendar sync
 - [8359](https://tbpro.zendesk.com/agent/tickets/8359) · [new] · 2026-09-04T14:41 · Re: Correction: Thundermail Early Bird Access
 - [8360](https://tbpro.zendesk.com/agent/tickets/8360) · [new] · 2026-09-04T14:45 · Alias
 - [8362](https://tbpro.zendesk.com/agent/tickets/8362) · [new] · 2026-09-04T14:58 · Unable to set up account in Thundermail after receiving an invite to subscribe.
-- [8363](https://tbpro.zendesk.com/agent/tickets/8363) · [new] · 2026-09-04T15:21 · Mail
+- [8363](https://tbpro.zendesk.com/agent/tickets/8363) · [open] · 2026-09-04T15:21 · Mail
 
 ## Solved — last 24h
 
@@ -304,6 +304,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-04T10:40 · Re: You're Invited: Thundermail Early Bird Access
 - · [8239](https://tbpro.zendesk.com/agent/tickets/8239) · 2026-09-04T11:45 · Spam from [email]/[domain]
 - · [8009](https://tbpro.zendesk.com/agent/tickets/8009) · 2026-09-04T14:28 · DNS not working for swiftadvisoires on squarespace not working
+- · [8112](https://tbpro.zendesk.com/agent/tickets/8112) · 2026-09-04T15:27 · Re: help me: still need help?
+- · [8268](https://tbpro.zendesk.com/agent/tickets/8268) · 2026-09-04T16:06 · Request for Thunderbird Early Access Consideration
+- · [8185](https://tbpro.zendesk.com/agent/tickets/8185) · 2026-09-04T16:21 · mail delivery to gmail?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
