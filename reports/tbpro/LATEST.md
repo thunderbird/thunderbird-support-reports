@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 15:15 ET** · refreshes hourly_  
+_Updated: **2026-09-04 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **641 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **642 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **29** solved in last 24h
-- **641** tickets total since launch · contact rate **10%** of 6500 invitees
+- **17** new tickets in last 24h · **29** solved in last 24h
+- **642** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 143.0h · mean 177.4h (proxy: updated_at − created_at, 186 solved tickets)
+- **Median AHT**: 143.1h · mean 177.6h (proxy: updated_at − created_at, 185 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -146,16 +146,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 288
-- **solved**: 186
+- **closed**: 289
+- **solved**: 185
 - **pending**: 142
-- **hold**: 13
-- **open**: 12
+- **open**: 15
+- **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 346
-- **Thundermail**: 235
+- **Account Hub**: 345
+- **Thundermail**: 236
 - **Send**: 18
 - **Appointment**: 17
 
@@ -167,14 +167,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 122
 - **change request** + **actioned**: 79
 - **request** + **redirected**: 37
-- **blocked** + **investigated**: 28
+- **blocked** + **investigated**: 29
 - **confused** + **explained**: 22
 - **blocked** + **escalated**: 22
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 14
 - **blocked** + **redirected**: 9
-- **concerned** + **—**: 7
 - **confused** + **informed**: 7
+- **concerned** + **—**: 7
 - **blocked** + **—**: 6
 - **blocked** + **actioned**: 6
 - **blocked** + **informed**: 5
@@ -182,9 +182,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 4
 - **request** + **explained**: 4
 - **request** + **actioned**: 4
+- **telling us** + **escalated**: 3
 - **telling us** + **—**: 3
 - **change request** + **explained**: 3
-- **telling us** + **escalated**: 3
 - **confused** + **investigated**: 3
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
@@ -227,10 +227,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#8352](https://tbpro.zendesk.com/agent/tickets/8352)** · Cannot configure Thundermail address in Thunderbird
-  > I get this address repeatedly when I attempt to establish my Thundermail address in Thunderbird. What is wrong? What am I doing wrong?…
 - **[#8363](https://tbpro.zendesk.com/agent/tickets/8363)** · Mail — why: **curious** · how: **explained**
   > Hilfe!
+- **[#8352](https://tbpro.zendesk.com/agent/tickets/8352)** · Cannot configure Thundermail address in Thunderbird — why: **blocked** · how: **investigated**
+  > I get this address repeatedly when I attempt to establish my Thundermail address in Thunderbird. What is wrong? What am I doing wrong?…
 - **[#8346](https://tbpro.zendesk.com/agent/tickets/8346)** · display name keeps resetting — why: **concerned** · how: **informed**
   > when i change my display name at https://[domain]/mail it works for a while, but eventually always gets reset to the display name i used when first signing up
 
@@ -249,6 +249,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I would like to refund my purchase. Ive tested it out and It was not for me. Excellent service tough, but I found out it wasnt for me
 - **[#8342](https://tbpro.zendesk.com/agent/tickets/8342)** · Need to make my subscription payment — why: **curious** · how: **explained**
   > Hello, Can you please send me a link for me to pay for my email subscription renewal? Thank you, [name] [email]
+
+### MFA / two-factor — 1 tickets
+
+- **[#8371](https://tbpro.zendesk.com/agent/tickets/8371)** · 2FA
+  > If 2FA is turned on, when logging in and you click the "try another way" there should be an option for a one time code to be send via SMS. I believe Firefox added this option…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -278,7 +283,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8346](https://tbpro.zendesk.com/agent/tickets/8346) · [pending] · 2026-09-04T02:44 · display name keeps resetting
 - [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [pending] · 2026-09-04T08:20 · Cancellation and refund
 - [8350](https://tbpro.zendesk.com/agent/tickets/8350) · [pending] · 2026-09-04T08:58 · Re: Correction: Thundermail Early Bird Access
-- [8352](https://tbpro.zendesk.com/agent/tickets/8352) · [open] · 2026-09-04T10:19 · Cannot configure Thundermail address in Thunderbird
+- [8352](https://tbpro.zendesk.com/agent/tickets/8352) · [pending] · 2026-09-04T10:19 · Cannot configure Thundermail address in Thunderbird
 - [8353](https://tbpro.zendesk.com/agent/tickets/8353) · [open] · 2026-09-04T10:28 · GMX Problem
 - [8356](https://tbpro.zendesk.com/agent/tickets/8356) · [pending] · 2026-09-04T11:22 · Re: Correction: Thundermail Early Bird Access
 - [8358](https://tbpro.zendesk.com/agent/tickets/8358) · [pending] · 2026-09-04T14:05 · Bug in calendar sync 🔗 [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819), [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818)
@@ -288,6 +293,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8363](https://tbpro.zendesk.com/agent/tickets/8363) · [pending] · 2026-09-04T15:21 · Mail
 - [8366](https://tbpro.zendesk.com/agent/tickets/8366) · [open] · 2026-09-04T17:08 · Refund
 - [8367](https://tbpro.zendesk.com/agent/tickets/8367) · [open] · 2026-09-04T18:19 · Assistance with Order
+- [8371](https://tbpro.zendesk.com/agent/tickets/8371) · [open] · 2026-09-04T19:42 · 2FA
 
 ## Solved — last 24h
 
