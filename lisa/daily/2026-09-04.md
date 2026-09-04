@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 05:24 ET** · refreshes hourly_  
+_Updated: **2026-09-04 06:22 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **632 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **633 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **18** solved in last 24h
-- **632** tickets total since launch · contact rate **10%** of 6500 invitees
+- **7** new tickets in last 24h · **18** solved in last 24h
+- **633** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
@@ -141,15 +141,15 @@ _No negative ratings since launch._
 
 - **closed**: 288
 - **solved**: 176
-- **pending**: 130
-- **open**: 23
+- **pending**: 128
+- **open**: 25
 - **hold**: 13
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 339
-- **Thundermail**: 235
+- **Thundermail**: 236
 - **Send**: 18
 - **Appointment**: 16
 
@@ -170,8 +170,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 7
 - **concerned** + **—**: 7
 - **blocked** + **actioned**: 6
-- **blocked** + **—**: 5
 - **telling us** + **explained**: 5
+- **blocked** + **—**: 5
 - **curious** + **actioned**: 4
 - **blocked** + **informed**: 4
 - **request** + **explained**: 4
@@ -207,6 +207,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#8352](https://tbpro.zendesk.com/agent/tickets/8352)** · Cannot configure Thundermail address in Thunderbird
+  > I get this address repeatedly when I attempt to establish my Thundermail address in Thunderbird. What is wrong? What am I doing wrong?…
+- **[#8346](https://tbpro.zendesk.com/agent/tickets/8346)** · display name keeps resetting
+  > when i change my display name at https://[domain]/mail it works for a while, but eventually always gets reset to the display name i used when first signing up
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#8349](https://tbpro.zendesk.com/agent/tickets/8349)** · Cancellation and refund
@@ -218,11 +225,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8350](https://tbpro.zendesk.com/agent/tickets/8350)** · Re: Correction: Thundermail Early Bird Access
   > Dear [name], Thank you for the invite link to Thundermail EarlyBird. I have a few questions regarding how the service works, specifically around the limit of 3 domains and 15…
-
-### Other / uncategorized — 1 tickets
-
-- **[#8346](https://tbpro.zendesk.com/agent/tickets/8346)** · display name keeps resetting
-  > when i change my display name at https://[domain]/mail it works for a while, but eventually always gets reset to the display name i used when first signing up
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -242,6 +244,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8346](https://tbpro.zendesk.com/agent/tickets/8346) · [open] · 2026-09-04T02:44 · display name keeps resetting
 - [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [new] · 2026-09-04T08:20 · Cancellation and refund
 - [8350](https://tbpro.zendesk.com/agent/tickets/8350) · [new] · 2026-09-04T08:58 · Re: Correction: Thundermail Early Bird Access
+- [8352](https://tbpro.zendesk.com/agent/tickets/8352) · [new] · 2026-09-04T10:19 · Cannot configure Thundermail address in Thunderbird
 
 ## Solved — last 24h
 
