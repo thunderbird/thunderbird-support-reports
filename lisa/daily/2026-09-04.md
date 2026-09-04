@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 07:20 ET** · refreshes hourly_  
+_Updated: **2026-09-04 08:32 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **634 tickets** so far (9.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **635 tickets** so far (9.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **20** solved in last 24h
-- **634** tickets total since launch · contact rate **10%** of 6500 invitees
+- **9** new tickets in last 24h · **21** solved in last 24h
+- **635** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
-- **Median AHT**: 143.5h · mean 180.7h (proxy: updated_at − created_at, 178 solved tickets)
+- **Median AHT**: 143.4h · mean 180.0h (proxy: updated_at − created_at, 179 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"invite early bird"** — 3 tickets in 24h (5.8× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353)
+- **"excited invite early"** — 4 tickets in 24h (7.8× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356)
 
 ## Known problems — 6 problem(s), 61 incident(s)
 
@@ -140,11 +140,11 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 288
-- **solved**: 178
-- **pending**: 128
+- **solved**: 179
+- **pending**: 127
 - **open**: 23
 - **hold**: 13
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
@@ -188,8 +188,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **concerned** + **escalated**: 1
 - **other** + **—**: 1
+- **concerned** + **escalated**: 1
 - **other** + **investigated**: 1
 - **concerned** + **redirected**: 1
 - **concerned** + **informed**: 1
@@ -207,8 +207,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Early bird / invite / waitlist — 3 tickets
 
+- **[#8356](https://tbpro.zendesk.com/agent/tickets/8356)** · Re: Correction: Thundermail Early Bird Access
+  > Can bulk emails be sent out for example email marketing? [quoted message] We’re excited to invite you to try Thundermail Early Bird. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏…
 - **[#8353](https://tbpro.zendesk.com/agent/tickets/8353)** · GMX Problem
   > Dear [name], I am writing you because I got an Email from my present Email Provider GMX, see attachment below. Unfortunately the attachment is written in German but I assume you…
 - **[#8350](https://tbpro.zendesk.com/agent/tickets/8350)** · Re: Correction: Thundermail Early Bird Access
@@ -248,6 +250,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8350](https://tbpro.zendesk.com/agent/tickets/8350) · [new] · 2026-09-04T08:58 · Re: Correction: Thundermail Early Bird Access
 - [8352](https://tbpro.zendesk.com/agent/tickets/8352) · [new] · 2026-09-04T10:19 · Cannot configure Thundermail address in Thunderbird
 - [8353](https://tbpro.zendesk.com/agent/tickets/8353) · [new] · 2026-09-04T10:28 · GMX Problem
+- [8356](https://tbpro.zendesk.com/agent/tickets/8356) · [new] · 2026-09-04T11:22 · Re: Correction: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
@@ -271,6 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T23:13 · incoming email
 - · [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-04T10:40 · username
 - · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-04T10:40 · Re: You're Invited: Thundermail Early Bird Access
+- · [8239](https://tbpro.zendesk.com/agent/tickets/8239) · 2026-09-04T11:45 · Spam from [email]/[domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
