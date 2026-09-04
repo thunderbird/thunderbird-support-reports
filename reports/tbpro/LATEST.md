@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-03 20:54 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **628 tickets** so far
 
 ## At a glance
 
-- **23** new tickets in last 24h · **18** solved in last 24h
+- **23** new tickets in last 24h · **17** solved in last 24h
 - **628** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 98
-- **Median AHT**: 143.6h · mean 181.1h (proxy: updated_at − created_at, 177 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 99
+- **Median AHT**: 143.6h · mean 181.2h (proxy: updated_at − created_at, 177 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -145,7 +145,7 @@ _No negative ratings since launch._
   > What you’d like to seeAdd/manage address books other than the default one.Why it mattersI don’t want to co-mingle addresses from multiple sources.Your use caseI have more than one TB client running…
 - [Calendar management](https://ideas.tb.pro/p/calendar-management) · 1 votes · _Thundermail, Improvement_
   > What you’d like to seeAdd/del/modify additional calendars beyond the default one. Also ability to publish a URL for others to see (R/O) a calendar.Why it mattersBasic calendar functionality.Your use…
-- [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 4 votes · _Accounts & Subscriptions, Improvement, Community_
+- [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 5 votes · _Accounts & Subscriptions, Improvement, Community_
   > What you’d like to seeA single, unified username for each thundermail account, and the domain (tb.pro and thundermail.com) is just syntactic sugar.Why it mattersThe default user is @thundermail.com,…
 - [Clarify alias reuse](https://ideas.tb.pro/p/clarify-alias-reuse) · 1 votes · _Thundermail, Improvement, Community_
   > What you’d like to seeFor privacy reasons, I’m wary of released aliases being claimed by others. There is currently no restriction on the number of different aliases I can claim and release, which…
@@ -154,8 +154,8 @@ _No negative ratings since launch._
 
 - **closed**: 288
 - **solved**: 177
-- **pending**: 134
-- **open**: 16
+- **pending**: 133
+- **open**: 17
 - **hold**: 13
 
 ## Service (cumulative)
@@ -343,7 +343,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8021](https://tbpro.zendesk.com/agent/tickets/8021) · 2026-09-02T21:02 · Re: [Thundermail] Re: Another account please
 - · [8225](https://tbpro.zendesk.com/agent/tickets/8225) · 2026-09-02T22:01 · Changing Primary Email
 - · [8039](https://tbpro.zendesk.com/agent/tickets/8039) · 2026-09-02T23:01 · Refund
-- · [8239](https://tbpro.zendesk.com/agent/tickets/8239) · 2026-09-02T23:44 · Spam from [email]/[domain]
 - 👍 [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-02T23:58 · Password has dropped out
 - · [7985](https://tbpro.zendesk.com/agent/tickets/7985) · 2026-09-03T00:01 · Security Issue: Seeing sent and reieved mail associated with another users account/other users alias
 - · [7919](https://tbpro.zendesk.com/agent/tickets/7919) · 2026-09-03T00:01 · Install failure code 0xc1f30001
