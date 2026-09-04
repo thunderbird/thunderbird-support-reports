@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-03
 
-_Updated: **2026-09-03 21:27 ET** · refreshes hourly_  
+_Updated: **2026-09-03 22:30 ET** · refreshes hourly_  
 _24h window: 2026-09-02T16:00 → 2026-09-03T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 3 is **day 74** of rollout — **6,500 invitees**, **629 tickets** so far
 - **629** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (11 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 99
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 0
 - **Median AHT**: 143.6h · mean 181.2h (proxy: updated_at − created_at, 177 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -139,23 +139,16 @@ _No negative ratings since launch._
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 4 new:
+**Last 24h** — 0 new:
 
-- [Additional address books](https://ideas.tb.pro/p/additional-address-books) · 1 votes · _untagged_
-  > What you’d like to seeAdd/manage address books other than the default one.Why it mattersI don’t want to co-mingle addresses from multiple sources.Your use caseI have more than one TB client running…
-- [Calendar management](https://ideas.tb.pro/p/calendar-management) · 1 votes · _Thundermail, Improvement_
-  > What you’d like to seeAdd/del/modify additional calendars beyond the default one. Also ability to publish a URL for others to see (R/O) a calendar.Why it mattersBasic calendar functionality.Your use…
-- [Combine tb.pro and thundermail.com aliases](https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases) · 5 votes · _Accounts & Subscriptions, Improvement, Community_
-  > What you’d like to seeA single, unified username for each thundermail account, and the domain (tb.pro and thundermail.com) is just syntactic sugar.Why it mattersThe default user is @thundermail.com,…
-- [Clarify alias reuse](https://ideas.tb.pro/p/clarify-alias-reuse) · 1 votes · _Thundermail, Improvement, Community_
-  > What you’d like to seeFor privacy reasons, I’m wary of released aliases being claimed by others. There is currently no restriction on the number of different aliases I can claim and release, which…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **closed**: 288
 - **solved**: 177
-- **pending**: 133
-- **open**: 18
+- **pending**: 132
+- **open**: 19
 - **hold**: 13
 
 ## Service (cumulative)
