@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-04 05:24 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **631 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **632 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **18** solved in last 24h
-- **631** tickets total since launch · contact rate **10%** of 6500 invitees
+- **6** new tickets in last 24h · **18** solved in last 24h
+- **632** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
 - **Median AHT**: 143.8h · mean 182.0h (proxy: updated_at − created_at, 176 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"hear facebook linkedin"** — 2 tickets in 24h (6.7× baseline; baseline 22 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350)
 
 ## Known problems — 6 problem(s), 61 incident(s)
 
@@ -138,7 +144,7 @@ _No negative ratings since launch._
 - **pending**: 130
 - **open**: 23
 - **hold**: 13
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -208,6 +214,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8342](https://tbpro.zendesk.com/agent/tickets/8342)** · Need to make my subscription payment — why: **curious** · how: **explained**
   > Hello, Can you please send me a link for me to pay for my email subscription renewal? Thank you, [name] [email]
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8350](https://tbpro.zendesk.com/agent/tickets/8350)** · Re: Correction: Thundermail Early Bird Access
+  > Dear [name], Thank you for the invite link to Thundermail EarlyBird. I have a few questions regarding how the service works, specifically around the limit of 3 domains and 15…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#8346](https://tbpro.zendesk.com/agent/tickets/8346)** · display name keeps resetting
@@ -230,6 +241,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8345](https://tbpro.zendesk.com/agent/tickets/8345) · [open] · 2026-09-04T01:26 · Email accounts set up with a custom domain
 - [8346](https://tbpro.zendesk.com/agent/tickets/8346) · [open] · 2026-09-04T02:44 · display name keeps resetting
 - [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [new] · 2026-09-04T08:20 · Cancellation and refund
+- [8350](https://tbpro.zendesk.com/agent/tickets/8350) · [new] · 2026-09-04T08:58 · Re: Correction: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
