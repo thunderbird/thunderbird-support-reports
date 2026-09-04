@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 09:21 ET** · refreshes hourly_  
+_Updated: **2026-09-04 10:22 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **635 tickets** so far (9.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **636 tickets** so far (9.8% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **21** solved in last 24h
-- **635** tickets total since launch · contact rate **10%** of 6500 invitees
+- **10** new tickets in last 24h · **21** solved in last 24h
+- **636** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
@@ -20,7 +20,7 @@ Flight 3 is **day 75** of rollout — **6,500 invitees**, **635 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"excited invite early"** — 4 tickets in 24h (7.8× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356)
+- **"invite early bird"** — 4 tickets in 24h (7.8× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356)
 
 ## Known problems — 6 problem(s), 61 incident(s)
 
@@ -127,7 +127,7 @@ _No negative ratings since launch._
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [new] · _Cancellation and refund_
+- [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [open] · _Cancellation and refund_
   > Hello, I've tried the service and may well return as it's developed further, but for now I'd like to cancel and request a refund as per your 14 day policy please. Thank you.
 
 ## New ideas on FeatureOS
@@ -141,8 +141,8 @@ _No negative ratings since launch._
 
 - **closed**: 288
 - **solved**: 179
-- **pending**: 127
-- **open**: 23
+- **pending**: 126
+- **open**: 25
 - **hold**: 13
 - **new**: 5
 
@@ -151,7 +151,7 @@ _No negative ratings since launch._
 - **Account Hub**: 339
 - **Thundermail**: 236
 - **Send**: 18
-- **Appointment**: 16
+- **Appointment**: 17
 
 ## Why × How (cumulative)
 
@@ -230,6 +230,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8342](https://tbpro.zendesk.com/agent/tickets/8342)** · Need to make my subscription payment — why: **curious** · how: **explained**
   > Hello, Can you please send me a link for me to pay for my email subscription renewal? Thank you, [name] [email]
 
+### Appointment / calendar — 1 tickets
+
+- **[#8358](https://tbpro.zendesk.com/agent/tickets/8358)** · Bug in calendar sync
+  > I just wanted to report a bug I encountered in the appointment service. - I added a CalDAV server - selected the calendar to be used for appointment - deleted the calendar on the…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#8345](https://tbpro.zendesk.com/agent/tickets/8345)** · Email accounts set up with a custom domain
@@ -246,11 +251,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8344](https://tbpro.zendesk.com/agent/tickets/8344) · [open] · 2026-09-03T22:44 · Re: You're Invited: Thundermail Early Bird Access
 - [8345](https://tbpro.zendesk.com/agent/tickets/8345) · [open] · 2026-09-04T01:26 · Email accounts set up with a custom domain
 - [8346](https://tbpro.zendesk.com/agent/tickets/8346) · [open] · 2026-09-04T02:44 · display name keeps resetting
-- [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [new] · 2026-09-04T08:20 · Cancellation and refund
+- [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [open] · 2026-09-04T08:20 · Cancellation and refund
 - [8350](https://tbpro.zendesk.com/agent/tickets/8350) · [new] · 2026-09-04T08:58 · Re: Correction: Thundermail Early Bird Access
 - [8352](https://tbpro.zendesk.com/agent/tickets/8352) · [new] · 2026-09-04T10:19 · Cannot configure Thundermail address in Thunderbird
 - [8353](https://tbpro.zendesk.com/agent/tickets/8353) · [new] · 2026-09-04T10:28 · GMX Problem
 - [8356](https://tbpro.zendesk.com/agent/tickets/8356) · [new] · 2026-09-04T11:22 · Re: Correction: Thundermail Early Bird Access
+- [8358](https://tbpro.zendesk.com/agent/tickets/8358) · [new] · 2026-09-04T14:05 · Bug in calendar sync
 
 ## Solved — last 24h
 
