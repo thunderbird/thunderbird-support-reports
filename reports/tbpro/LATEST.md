@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 03:24 ET** · refreshes hourly_  
+_Updated: **2026-09-04 04:30 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **630 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **631 tickets** so far (9.7% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **19** solved in last 24h
-- **630** tickets total since launch · contact rate **10%** of 6500 invitees
+- **5** new tickets in last 24h · **18** solved in last 24h
+- **631** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (12 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
-- **Median AHT**: 143.6h · mean 181.2h (proxy: updated_at − created_at, 177 solved tickets)
+- **Median AHT**: 143.8h · mean 182.0h (proxy: updated_at − created_at, 176 solved tickets)
 
 ## Known problems — 6 problem(s), 61 incident(s)
 
@@ -119,9 +119,10 @@ Flight 3 is **day 75** of rollout — **6,500 invitees**, **630 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [new] · _Cancellation and refund_
+  > Hello, I've tried the service and may well return as it's developed further, but for now I'd like to cancel and request a refund as per your 14 day policy please. Thank you.
 
 ## New ideas on FeatureOS
 
@@ -133,14 +134,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 288
-- **solved**: 177
+- **solved**: 176
 - **pending**: 130
-- **open**: 22
+- **open**: 23
 - **hold**: 13
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 338
+- **Account Hub**: 339
 - **Thundermail**: 235
 - **Send**: 18
 - **Appointment**: 16
@@ -180,8 +182,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 2
 - **curious** + **redirected**: 2
 - **change request** + **escalated**: 2
-- **other** + **—**: 1
 - **concerned** + **escalated**: 1
+- **other** + **—**: 1
 - **other** + **investigated**: 1
 - **concerned** + **redirected**: 1
 - **concerned** + **informed**: 1
@@ -199,6 +201,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#8349](https://tbpro.zendesk.com/agent/tickets/8349)** · Cancellation and refund
+  > Hello, I've tried the service and may well return as it's developed further, but for now I'd like to cancel and request a refund as per your 14 day policy please. Thank you.
+- **[#8342](https://tbpro.zendesk.com/agent/tickets/8342)** · Need to make my subscription payment — why: **curious** · how: **explained**
+  > Hello, Can you please send me a link for me to pay for my email subscription renewal? Thank you, [name] [email]
+
 ### Other / uncategorized — 1 tickets
 
 - **[#8346](https://tbpro.zendesk.com/agent/tickets/8346)** · display name keeps resetting
@@ -214,17 +223,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8344](https://tbpro.zendesk.com/agent/tickets/8344)** · Re: You're Invited: Thundermail Early Bird Access
   > I'm very interested in your email plans. How can I create an account using Thunderbird domain information? I want to connect my other email accounts under Thunderbird. I want…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8342](https://tbpro.zendesk.com/agent/tickets/8342)** · Need to make my subscription payment — why: **curious** · how: **explained**
-  > Hello, Can you please send me a link for me to pay for my email subscription renewal? Thank you, [name] [email]
-
 ## New tickets — last 24h
 
 - [8342](https://tbpro.zendesk.com/agent/tickets/8342) · [pending] · 2026-09-03T20:20 · Need to make my subscription payment
 - [8344](https://tbpro.zendesk.com/agent/tickets/8344) · [open] · 2026-09-03T22:44 · Re: You're Invited: Thundermail Early Bird Access
 - [8345](https://tbpro.zendesk.com/agent/tickets/8345) · [open] · 2026-09-04T01:26 · Email accounts set up with a custom domain
 - [8346](https://tbpro.zendesk.com/agent/tickets/8346) · [open] · 2026-09-04T02:44 · display name keeps resetting
+- [8349](https://tbpro.zendesk.com/agent/tickets/8349) · [new] · 2026-09-04T08:20 · Cancellation and refund
 
 ## Solved — last 24h
 
@@ -246,7 +251,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8240](https://tbpro.zendesk.com/agent/tickets/8240) · 2026-09-03T22:29 · Refund, please ?
 - · [8196](https://tbpro.zendesk.com/agent/tickets/8196) · 2026-09-03T23:00 · Re: You're Invited: Thundermail Early Bird Access
 - 👍 [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T23:13 · incoming email
-- · [8239](https://tbpro.zendesk.com/agent/tickets/8239) · 2026-09-04T00:01 · Spam from [email]/[domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
