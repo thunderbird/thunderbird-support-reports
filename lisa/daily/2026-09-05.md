@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 08:27 ET** · refreshes hourly_  
+_Updated: **2026-09-05 09:18 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 76** of rollout — **6,500 invitees**, **648 tickets** so far (10.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 76** of rollout — **6,500 invitees**, **649 tickets** so far (10.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **17** solved in last 24h
-- **648** tickets total since launch · contact rate **10%** of 6500 invitees
+- **8** new tickets in last 24h · **17** solved in last 24h
+- **649** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -140,15 +140,15 @@ _No negative ratings since launch._
 
 - **closed**: 291
 - **solved**: 185
-- **pending**: 139
-- **open**: 19
+- **pending**: 138
+- **open**: 20
 - **hold**: 10
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 350
-- **Thundermail**: 239
+- **Thundermail**: 240
 - **Send**: 18
 - **Appointment**: 17
 
@@ -221,6 +221,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8383](https://tbpro.zendesk.com/agent/tickets/8383)** · Account email address rename
   > Hello, When creating my thundermail email address, I made a typo and wrote "[email]" instead of "[email]" as I intended (including the A after the B). Would it be possible to…
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#8396](https://tbpro.zendesk.com/agent/tickets/8396)** · HUMAN Customer support 
+  > I Am looking forward to signing up for your new service. want to see how hard it is to reach a HUMAN BEING for support BEFORE I sign up for your new service. I have over 40 years…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#8391](https://tbpro.zendesk.com/agent/tickets/8391)** · Cancel and refund within 14 days
@@ -245,6 +250,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8388](https://tbpro.zendesk.com/agent/tickets/8388) · [new] · 2026-09-05T05:54 · Abo Widerruf
 - [8391](https://tbpro.zendesk.com/agent/tickets/8391) · [new] · 2026-09-05T08:26 · Cancel and refund within 14 days
 - [8392](https://tbpro.zendesk.com/agent/tickets/8392) · [new] · 2026-09-05T08:28 · Cant verify email
+- [8396](https://tbpro.zendesk.com/agent/tickets/8396) · [new] · 2026-09-05T12:57 · HUMAN Customer support 
 
 ## Solved — last 24h
 
