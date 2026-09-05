@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 22:29 ET** · refreshes hourly_  
+_Updated: **2026-09-04 23:24 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 3 is **day 75** of rollout — **6,500 invitees**, **645 tickets** so far
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"invite early bird"** — 5 tickets in 24h (9.7× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356), [#8359](https://tbpro.zendesk.com/agent/tickets/8359)
+- **"excited invite early"** — 5 tickets in 24h (9.7× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356), [#8359](https://tbpro.zendesk.com/agent/tickets/8359)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
