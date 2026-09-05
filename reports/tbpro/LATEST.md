@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 15:15 ET** · refreshes hourly_  
+_Updated: **2026-09-05 16:19 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **654 tickets** so far
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 100%  (17 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.4h · mean 179.1h (proxy: updated_at − created_at, 187 solved tickets)
+- **Median AHT**: 143.5h · mean 179.3h (proxy: updated_at − created_at, 188 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -139,14 +139,14 @@ _No negative ratings since launch._
 
 **Last 24h** — 1 new:
 
-- [[Calendar] Server-side event updates ](https://ideas.tb.pro/p/calendar-server-side-event-updates) · 1 votes · _untagged_
+- [Calendar: Automatic event updates](https://ideas.tb.pro/p/calendar-automatic-event-updates) · 1 votes · _untagged_
   > What you’d like to seeWhen an invite arrives by email, the server should create the event in the calendar, set the RSVP status on it, and handle subsequent updates and deletions automatically.Today…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 295
-- **solved**: 187
-- **pending**: 132
+- **solved**: 188
+- **pending**: 131
 - **open**: 19
 - **hold**: 11
 - **new**: 10
