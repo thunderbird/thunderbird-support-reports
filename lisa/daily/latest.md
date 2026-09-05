@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 09:18 ET** · refreshes hourly_  
+_Updated: **2026-09-05 10:18 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **649 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **17** solved in last 24h
+- **8** new tickets in last 24h · **18** solved in last 24h
 - **649** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.1h · mean 178.0h (proxy: updated_at − created_at, 185 solved tickets)
+- **Median AHT**: 143.2h · mean 178.5h (proxy: updated_at − created_at, 186 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -69,7 +69,7 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **649 tickets** so far
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
-  - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [pending] · 2026-08-25 · _Refund _
+  - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [solved] · 2026-08-27 · _Refund_
@@ -139,9 +139,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 291
-- **solved**: 185
-- **pending**: 138
-- **open**: 20
+- **solved**: 186
+- **pending**: 136
+- **open**: 21
 - **hold**: 10
 - **new**: 5
 
@@ -271,6 +271,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8318](https://tbpro.zendesk.com/agent/tickets/8318) · 2026-09-05T10:31 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - · [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-05T11:01 · username
 - · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-05T11:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [7943](https://tbpro.zendesk.com/agent/tickets/7943) · 2026-09-05T14:01 · Refund 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
