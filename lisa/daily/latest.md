@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 11:18 ET** · refreshes hourly_  
+_Updated: **2026-09-05 12:20 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 76** of rollout — **6,500 invitees**, **650 tickets** so far (10.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 76** of rollout — **6,500 invitees**, **651 tickets** so far (10.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **19** solved in last 24h
-- **650** tickets total since launch · contact rate **10%** of 6500 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 100%  (15 good / 0 bad)
+- **10** new tickets in last 24h · **21** solved in last 24h
+- **651** tickets total since launch · contact rate **10%** of 6500 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 100%  (16 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.1h · mean 178.5h (proxy: updated_at − created_at, 185 solved tickets)
+- **Median AHT**: 143.4h · mean 180.1h (proxy: updated_at − created_at, 185 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"using same"** — 2 tickets in 24h (30.0× baseline; baseline 5 cum) — [#8377](https://tbpro.zendesk.com/agent/tickets/8377), [#8400](https://tbpro.zendesk.com/agent/tickets/8400)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -138,16 +144,16 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 292
+- **closed**: 293
 - **solved**: 185
-- **pending**: 136
+- **pending**: 135
 - **open**: 21
 - **hold**: 10
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 350
+- **Account Hub**: 351
 - **Thundermail**: 241
 - **Send**: 18
 - **Appointment**: 17
@@ -207,6 +213,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#8400](https://tbpro.zendesk.com/agent/tickets/8400)** · Email aliases seemingly unrestricted
+  > Hi there, I just created my account and it seems like email aliases do not check if the email already exists. I had tested turtle(at)thundermail(dot)com during sign-up and it said…
+- **[#8399](https://tbpro.zendesk.com/agent/tickets/8399)** · Alias and Pro Email Address
+  > As I was updating aliases I deleted my [email] alias (forgetting it was provided initially). Later I noticed it was in the webmail new message as a From selection. I was curious…
+
 ### Account access issues — 2 tickets
 
 - **[#8392](https://tbpro.zendesk.com/agent/tickets/8392)** · Cant verify email
@@ -220,11 +233,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Ich widerrufe das Abo, abgeschlossen am 2.9.26 und ersuche um Refundoerung von 72,-- an mein PayPal Konto.
 - **[#8383](https://tbpro.zendesk.com/agent/tickets/8383)** · Account email address rename
   > Hello, When creating my thundermail email address, I made a typo and wrote "[email]" instead of "[email]" as I intended (including the A after the B). Would it be possible to…
-
-### Aliases — 1 tickets
-
-- **[#8399](https://tbpro.zendesk.com/agent/tickets/8399)** · Alias and Pro Email Address
-  > As I was updating aliases I deleted my [email] alias (forgetting it was provided initially). Later I noticed it was in the webmail new message as a From selection. I was curious…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -257,6 +265,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8392](https://tbpro.zendesk.com/agent/tickets/8392) · [new] · 2026-09-05T08:28 · Cant verify email
 - [8396](https://tbpro.zendesk.com/agent/tickets/8396) · [new] · 2026-09-05T12:57 · HUMAN Customer support 
 - [8399](https://tbpro.zendesk.com/agent/tickets/8399) · [new] · 2026-09-05T14:55 · Alias and Pro Email Address
+- [8400](https://tbpro.zendesk.com/agent/tickets/8400) · [new] · 2026-09-05T15:52 · Email aliases seemingly unrestricted
 
 ## Solved — last 24h
 
@@ -275,10 +284,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8172](https://tbpro.zendesk.com/agent/tickets/8172) · 2026-09-05T02:11 · Re: You're Invited: Thundermail Early Bird Access
 - 👍 [8179](https://tbpro.zendesk.com/agent/tickets/8179) · 2026-09-05T07:24 · @[domain], @[domain], how to select?
 - 👍 [8318](https://tbpro.zendesk.com/agent/tickets/8318) · 2026-09-05T10:31 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
-- · [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-05T11:01 · username
 - · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-05T11:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [7943](https://tbpro.zendesk.com/agent/tickets/7943) · 2026-09-05T14:01 · Refund 
 - · [8009](https://tbpro.zendesk.com/agent/tickets/8009) · 2026-09-05T15:01 · DNS not working for swiftadvisoires on squarespace not working
+- 👍 [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-05T15:42 · username
+- · [8112](https://tbpro.zendesk.com/agent/tickets/8112) · 2026-09-05T16:02 · Re: help me: still need help?
+- · [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-05T16:02 · Issues connecting CALDEV to iOS Calendar Application
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
