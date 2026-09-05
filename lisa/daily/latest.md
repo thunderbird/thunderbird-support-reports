@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 06:19 ET** · refreshes hourly_  
+_Updated: **2026-09-05 07:17 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **648 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **15** solved in last 24h
+- **7** new tickets in last 24h · **17** solved in last 24h
 - **648** tickets total since launch · contact rate **10%** of 6500 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 100%  (14 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 100%  (15 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.1h · mean 177.7h (proxy: updated_at − created_at, 185 solved tickets)
+- **Median AHT**: 143.1h · mean 178.0h (proxy: updated_at − created_at, 185 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -140,8 +140,8 @@ _No negative ratings since launch._
 
 - **closed**: 291
 - **solved**: 185
-- **pending**: 141
-- **open**: 17
+- **pending**: 140
+- **open**: 18
 - **hold**: 10
 - **new**: 4
 
@@ -259,10 +259,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8174](https://tbpro.zendesk.com/agent/tickets/8174) · 2026-09-04T21:02 · Was invited to join Thundermail, but sign up does not work
 - · [8336](https://tbpro.zendesk.com/agent/tickets/8336) · 2026-09-04T22:01 · Re: Your invitation to join Thundermail
 - · [8319](https://tbpro.zendesk.com/agent/tickets/8319) · 2026-09-04T22:01 · Press access to Thundermail
-- · [8318](https://tbpro.zendesk.com/agent/tickets/8318) · 2026-09-04T22:01 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - · [8196](https://tbpro.zendesk.com/agent/tickets/8196) · 2026-09-05T01:44 · Re: You're Invited: Thundermail Early Bird Access
 - · [8172](https://tbpro.zendesk.com/agent/tickets/8172) · 2026-09-05T02:11 · Re: You're Invited: Thundermail Early Bird Access
 - 👍 [8179](https://tbpro.zendesk.com/agent/tickets/8179) · 2026-09-05T07:24 · @[domain], @[domain], how to select?
+- 👍 [8318](https://tbpro.zendesk.com/agent/tickets/8318) · 2026-09-05T10:31 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
+- · [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-05T11:01 · username
+- · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-05T11:01 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
