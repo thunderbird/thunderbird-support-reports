@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 01:20 ET** · refreshes hourly_  
+_Updated: **2026-09-05 02:32 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 76** of rollout — **6,500 invitees**, **645 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 76** of rollout — **6,500 invitees**, **646 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **15** solved in last 24h
-- **645** tickets total since launch · contact rate **10%** of 6500 invitees
+- **5** new tickets in last 24h · **15** solved in last 24h
+- **646** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 99
@@ -138,10 +138,10 @@ _(none in last 24h)_
 
 - **closed**: 291
 - **solved**: 185
-- **pending**: 146
-- **open**: 11
+- **pending**: 145
+- **open**: 12
 - **hold**: 11
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -205,8 +205,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#8388](https://tbpro.zendesk.com/agent/tickets/8388)** · Abo Widerruf
+  > Ich widerrufe das Abo, abgeschlossen am 2.9.26 und ersuche um Refundoerung von 72,-- an mein PayPal Konto.
 - **[#8383](https://tbpro.zendesk.com/agent/tickets/8383)** · Account email address rename
   > Hello, When creating my thundermail email address, I made a typo and wrote "[email]" instead of "[email]" as I intended (including the A after the B). Would it be possible to…
 
@@ -231,6 +233,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8376](https://tbpro.zendesk.com/agent/tickets/8376) · [open] · 2026-09-05T00:27 · I  cannot establish my Email in Thunderbird
 - [8377](https://tbpro.zendesk.com/agent/tickets/8377) · [open] · 2026-09-05T01:26 · Thunderbird Desktop Login Hangs
 - [8383](https://tbpro.zendesk.com/agent/tickets/8383) · [new] · 2026-09-05T02:22 · Account email address rename
+- [8388](https://tbpro.zendesk.com/agent/tickets/8388) · [new] · 2026-09-05T05:54 · Abo Widerruf
 
 ## Solved — last 24h
 
