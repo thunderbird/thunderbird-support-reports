@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 03:20 ET** · refreshes hourly_  
+_Updated: **2026-09-05 04:25 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **646 tickets** so far
 
 - **5** new tickets in last 24h · **15** solved in last 24h
 - **646** tickets total since launch · contact rate **10%** of 6500 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 100%  (13 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 99
-- **Median AHT**: 143.1h · mean 177.6h (proxy: updated_at − created_at, 185 solved tickets)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 100%  (14 good / 0 bad)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **Median AHT**: 143.1h · mean 177.7h (proxy: updated_at − created_at, 185 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -130,17 +130,18 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [[Calendar] Server-side event updates ](https://ideas.tb.pro/p/calendar-server-side-event-updates) · 1 votes · _untagged_
+  > What you’d like to seeWhen an invite arrives by email, the server should create the event in the calendar, set the RSVP status on it, and handle subsequent updates and deletions automatically.Today…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 291
 - **solved**: 185
-- **pending**: 144
-- **open**: 13
-- **hold**: 11
+- **pending**: 142
+- **open**: 16
+- **hold**: 10
 - **new**: 2
 
 ## Service (cumulative)
@@ -241,7 +242,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8268](https://tbpro.zendesk.com/agent/tickets/8268) · 2026-09-04T20:35 · Request for Thunderbird Early Access Consideration
 - · [7897](https://tbpro.zendesk.com/agent/tickets/7897) · 2026-09-04T20:52 · Issues with uploading files to Send
 - · [8214](https://tbpro.zendesk.com/agent/tickets/8214) · 2026-09-04T21:01 · Reply to mails as the alias the mail was sent to
-- · [8179](https://tbpro.zendesk.com/agent/tickets/8179) · 2026-09-04T21:01 · @[domain], @[domain], how to select?
 - · [8161](https://tbpro.zendesk.com/agent/tickets/8161) · 2026-09-04T21:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [8158](https://tbpro.zendesk.com/agent/tickets/8158) · 2026-09-04T21:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [8108](https://tbpro.zendesk.com/agent/tickets/8108) · 2026-09-04T21:01 · e-mail confirmation never arives
@@ -252,6 +252,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8318](https://tbpro.zendesk.com/agent/tickets/8318) · 2026-09-04T22:01 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - · [8196](https://tbpro.zendesk.com/agent/tickets/8196) · 2026-09-05T01:44 · Re: You're Invited: Thundermail Early Bird Access
 - · [8172](https://tbpro.zendesk.com/agent/tickets/8172) · 2026-09-05T02:11 · Re: You're Invited: Thundermail Early Bird Access
+- 👍 [8179](https://tbpro.zendesk.com/agent/tickets/8179) · 2026-09-05T07:24 · @[domain], @[domain], how to select?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
