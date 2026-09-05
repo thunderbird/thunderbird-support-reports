@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-04 20:54 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **642 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **643 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **17** solved in last 24h
-- **642** tickets total since launch · contact rate **10%** of 6500 invitees
+- **16** new tickets in last 24h · **16** solved in last 24h
+- **643** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 143.2h · mean 179.4h (proxy: updated_at − created_at, 186 solved tickets)
+- **Median AHT**: 143.5h · mean 180.7h (proxy: updated_at − created_at, 184 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"invite early bird"** — 5 tickets in 24h (9.7× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356), [#8359](https://tbpro.zendesk.com/agent/tickets/8359)
+- **"excited invite early"** — 5 tickets in 24h (9.7× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356), [#8359](https://tbpro.zendesk.com/agent/tickets/8359)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -148,14 +148,14 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 290
-- **solved**: 186
-- **pending**: 147
-- **open**: 10
+- **solved**: 184
+- **pending**: 146
+- **open**: 14
 - **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 349
+- **Account Hub**: 350
 - **Thundermail**: 235
 - **Send**: 18
 - **Appointment**: 17
@@ -306,7 +306,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8237](https://tbpro.zendesk.com/agent/tickets/8237) · 2026-09-03T22:01 · Server-side email filtering via ManageSieve
 - 👍 [8193](https://tbpro.zendesk.com/agent/tickets/8193) · 2026-09-03T22:02 · Send folder in Thunderbird (154 Linux) not synced with thundermail
 - 👍 [8240](https://tbpro.zendesk.com/agent/tickets/8240) · 2026-09-03T22:29 · Refund, please ?
-- · [8196](https://tbpro.zendesk.com/agent/tickets/8196) · 2026-09-03T23:00 · Re: You're Invited: Thundermail Early Bird Access
 - 👍 [8192](https://tbpro.zendesk.com/agent/tickets/8192) · 2026-09-03T23:13 · incoming email
 - · [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-04T10:40 · username
 - · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-04T10:40 · Re: You're Invited: Thundermail Early Bird Access
