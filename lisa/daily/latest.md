@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 16:19 ET** · refreshes hourly_  
+_Updated: **2026-09-05 17:17 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 76** of rollout — **6,500 invitees**, **654 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 76** of rollout — **6,500 invitees**, **655 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **29** solved in last 24h
-- **654** tickets total since launch · contact rate **10%** of 6500 invitees
+- **13** new tickets in last 24h · **26** solved in last 24h
+- **655** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
-- **CSAT (since launch)**: 100%  (17 good / 0 bad)
+- **CSAT (since launch)**: 100%  (18 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.5h · mean 179.3h (proxy: updated_at − created_at, 188 solved tickets)
+- **Median AHT**: 143.5h · mean 179.5h (proxy: updated_at − created_at, 188 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -148,12 +148,12 @@ _No negative ratings since launch._
 - **solved**: 188
 - **pending**: 131
 - **open**: 19
+- **new**: 11
 - **hold**: 11
-- **new**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 351
+- **Account Hub**: 352
 - **Thundermail**: 244
 - **Send**: 18
 - **Appointment**: 17
@@ -278,8 +278,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [8228](https://tbpro.zendesk.com/agent/tickets/8228) · 2026-09-04T20:25 · Re: Correction: Thundermail Early Bird Access
-- · [7897](https://tbpro.zendesk.com/agent/tickets/7897) · 2026-09-04T20:52 · Issues with uploading files to Send
 - · [8214](https://tbpro.zendesk.com/agent/tickets/8214) · 2026-09-04T21:01 · Reply to mails as the alias the mail was sent to
 - · [8161](https://tbpro.zendesk.com/agent/tickets/8161) · 2026-09-04T21:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [8158](https://tbpro.zendesk.com/agent/tickets/8158) · 2026-09-04T21:01 · Re: You're Invited: Thundermail Early Bird Access
@@ -306,7 +304,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-05T18:02 · Can't add custom domain email with two character name.
 - · [8092](https://tbpro.zendesk.com/agent/tickets/8092) · 2026-09-05T18:02 · Refund Request – ThunderMail
 - · [8075](https://tbpro.zendesk.com/agent/tickets/8075) · 2026-09-05T18:02 · Refund
-- · [8164](https://tbpro.zendesk.com/agent/tickets/8164) · 2026-09-05T19:01 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
