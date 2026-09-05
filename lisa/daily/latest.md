@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 04:25 ET** · refreshes hourly_  
+_Updated: **2026-09-05 05:20 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 76** of rollout — **6,500 invitees**, **646 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 76** of rollout — **6,500 invitees**, **648 tickets** so far (10.0% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **15** solved in last 24h
-- **646** tickets total since launch · contact rate **10%** of 6500 invitees
+- **7** new tickets in last 24h · **15** solved in last 24h
+- **648** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (14 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -124,9 +124,10 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **646 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8391](https://tbpro.zendesk.com/agent/tickets/8391) · [new] · _Cancel and refund within 14 days_
+  > Dear, I would cancel and obtain a refund, how can i do that ?
 
 ## New ideas on FeatureOS
 
@@ -142,12 +143,12 @@ _(none in last 24h)_
 - **pending**: 142
 - **open**: 16
 - **hold**: 10
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 350
-- **Thundermail**: 237
+- **Thundermail**: 239
 - **Send**: 18
 - **Appointment**: 17
 
@@ -206,6 +207,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#8392](https://tbpro.zendesk.com/agent/tickets/8392)** · Cant verify email
+  > I currently want to log into thundermail account, but have to verify the account first. I don't get an verify email to this mail [email]. So what i am missing or what did i wrong?
+- **[#8377](https://tbpro.zendesk.com/agent/tickets/8377)** · Thunderbird Desktop Login Hangs
+  > I'm trying to login to my thundermail on the Thunderbird desktop app and the enter account credentials page hangs and doesn't log me in. I've tried using an app password and I get…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#8388](https://tbpro.zendesk.com/agent/tickets/8388)** · Abo Widerruf
@@ -213,10 +221,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8383](https://tbpro.zendesk.com/agent/tickets/8383)** · Account email address rename
   > Hello, When creating my thundermail email address, I made a typo and wrote "[email]" instead of "[email]" as I intended (including the A after the B). Would it be possible to…
 
-### Account access issues — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#8377](https://tbpro.zendesk.com/agent/tickets/8377)** · Thunderbird Desktop Login Hangs
-  > I'm trying to login to my thundermail on the Thunderbird desktop app and the enter account credentials page hangs and doesn't log me in. I've tried using an app password and I get…
+- **[#8391](https://tbpro.zendesk.com/agent/tickets/8391)** · Cancel and refund within 14 days
+  > Dear, I would cancel and obtain a refund, how can i do that ?
 
 ### Bug report / app crash / not working — 1 tickets
 
@@ -235,6 +243,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8377](https://tbpro.zendesk.com/agent/tickets/8377) · [open] · 2026-09-05T01:26 · Thunderbird Desktop Login Hangs
 - [8383](https://tbpro.zendesk.com/agent/tickets/8383) · [new] · 2026-09-05T02:22 · Account email address rename
 - [8388](https://tbpro.zendesk.com/agent/tickets/8388) · [new] · 2026-09-05T05:54 · Abo Widerruf
+- [8391](https://tbpro.zendesk.com/agent/tickets/8391) · [new] · 2026-09-05T08:26 · Cancel and refund within 14 days
+- [8392](https://tbpro.zendesk.com/agent/tickets/8392) · [new] · 2026-09-05T08:28 · Cant verify email
 
 ## Solved — last 24h
 
