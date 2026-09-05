@@ -1,26 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-04
 
-_Updated: **2026-09-04 21:26 ET** · refreshes hourly_  
+_Updated: **2026-09-04 22:29 ET** · refreshes hourly_  
 _24h window: 2026-09-03T16:00 → 2026-09-04T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 75** of rollout — **6,500 invitees**, **643 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 75** of rollout — **6,500 invitees**, **645 tickets** so far (9.9% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **16** new tickets in last 24h · **16** solved in last 24h
-- **643** tickets total since launch · contact rate **10%** of 6500 invitees
+- **645** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 100%  (13 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 143.4h · mean 178.7h (proxy: updated_at − created_at, 183 solved tickets)
+- **Median AHT**: 143.1h · mean 177.6h (proxy: updated_at − created_at, 185 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"excited invite early"** — 5 tickets in 24h (9.7× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356), [#8359](https://tbpro.zendesk.com/agent/tickets/8359)
+- **"invite early bird"** — 5 tickets in 24h (9.7× baseline; baseline 38 cum) — [#8344](https://tbpro.zendesk.com/agent/tickets/8344), [#8350](https://tbpro.zendesk.com/agent/tickets/8350), [#8353](https://tbpro.zendesk.com/agent/tickets/8353), [#8356](https://tbpro.zendesk.com/agent/tickets/8356), [#8359](https://tbpro.zendesk.com/agent/tickets/8359)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -149,15 +149,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 291
-- **solved**: 183
-- **pending**: 146
-- **open**: 14
-- **hold**: 9
+- **solved**: 185
+- **pending**: 148
+- **hold**: 11
+- **open**: 9
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 350
-- **Thundermail**: 235
+- **Thundermail**: 237
 - **Send**: 18
 - **Appointment**: 17
 
@@ -170,8 +171,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 80
 - **request** + **redirected**: 36
 - **blocked** + **investigated**: 30
-- **blocked** + **escalated**: 22
 - **confused** + **explained**: 22
+- **blocked** + **escalated**: 22
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 14
 - **blocked** + **redirected**: 10
@@ -184,15 +185,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **request** + **actioned**: 4
-- **telling us** + **escalated**: 3
 - **telling us** + **—**: 3
 - **change request** + **explained**: 3
+- **telling us** + **escalated**: 3
 - **confused** + **investigated**: 3
 - **blocked** + **n/a**: 3
 - **concerned** + **investigated**: 3
 - **concerned** + **informed**: 2
-- **curious** + **escalated**: 2
 - **telling us** + **n/a**: 2
+- **curious** + **escalated**: 2
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
