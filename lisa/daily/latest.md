@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 09:18 ET** · refreshes hourly_  
+_Updated: **2026-09-06 10:18 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 77** of rollout — **6,500 invitees**, **661 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 77** of rollout — **6,500 invitees**, **656 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **10** solved in last 24h
-- **661** tickets total since launch · contact rate **10%** of 6500 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **656** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 143.9h · mean 185.0h (proxy: updated_at − created_at, 191 solved tickets)
+- **Median AHT**: 143.8h · mean 184.7h (proxy: updated_at − created_at, 192 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -76,7 +76,7 @@ Flight 3 is **day 77** of rollout — **6,500 invitees**, **661 tickets** so far
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [solved] · 2026-08-30 · _Refund_
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [solved] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [solved] · 2026-08-31 · _cancel substriction_
-  - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [pending] · 2026-08-31 · _Refund_
+  - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [solved] · 2026-08-31 · _Refund_
   - [#8128](https://tbpro.zendesk.com/agent/tickets/8128) · [pending] · 2026-09-01 · _Please refund my money_
   - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [pending] · 2026-09-01 · _Cancel + Refund_
   - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02 · _Refund, please ?_
@@ -138,16 +138,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 296
-- **solved**: 191
-- **pending**: 123
+- **solved**: 192
+- **pending**: 122
 - **open**: 23
-- **new**: 17
+- **new**: 12
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 353
-- **Thundermail**: 246
+- **Thundermail**: 243
 - **Send**: 18
 - **Appointment**: 17
 
@@ -206,14 +206,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#8422](https://tbpro.zendesk.com/agent/tickets/8422)** · password
-  > how to restore
-- **[#8421](https://tbpro.zendesk.com/agent/tickets/8421)** · password
-  > how to restore psw
-- **[#8420](https://tbpro.zendesk.com/agent/tickets/8420)** · user name and psw losted
-  > restore name & password ; tnx
 - **[#8419](https://tbpro.zendesk.com/agent/tickets/8419)** ·  password
   > how to restore address and psw
 - **[#8412](https://tbpro.zendesk.com/agent/tickets/8412)** · bYCQNHhpYMeuATxjE
@@ -234,9 +228,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8409](https://tbpro.zendesk.com/agent/tickets/8409) · [new] · 2026-09-05T20:45 · Change email address
 - [8412](https://tbpro.zendesk.com/agent/tickets/8412) · [new] · 2026-09-05T23:40 · bYCQNHhpYMeuATxjE
 - [8419](https://tbpro.zendesk.com/agent/tickets/8419) · [new] · 2026-09-06T07:23 ·  password
-- [8420](https://tbpro.zendesk.com/agent/tickets/8420) · [new] · 2026-09-06T07:26 · user name and psw losted
-- [8421](https://tbpro.zendesk.com/agent/tickets/8421) · [new] · 2026-09-06T07:27 · password
-- [8422](https://tbpro.zendesk.com/agent/tickets/8422) · [new] · 2026-09-06T07:29 · password
 - [8423](https://tbpro.zendesk.com/agent/tickets/8423) · [new] · 2026-09-06T08:46 · Cancel/Refund
 
 ## Solved — last 24h
@@ -251,6 +242,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7966](https://tbpro.zendesk.com/agent/tickets/7966) · 2026-09-06T03:01 · Therms and Conditions
 - · [6978](https://tbpro.zendesk.com/agent/tickets/6978) · 2026-09-06T04:01 · DKIM and Jellyfish Spam filtering
 - · [8117](https://tbpro.zendesk.com/agent/tickets/8117) · 2026-09-06T05:01 · Send to thunderbird desktop app integration error
+- · [8114](https://tbpro.zendesk.com/agent/tickets/8114) · 2026-09-06T14:01 · Refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
