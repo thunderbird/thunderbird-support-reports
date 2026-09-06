@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 04:26 ET** · refreshes hourly_  
+_Updated: **2026-09-06 05:20 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 77** of rollout — **6,500 invitees**, **660 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 77** of rollout — **6,500 invitees**, **661 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **10** solved in last 24h
-- **660** tickets total since launch · contact rate **10%** of 6500 invitees
+- **7** new tickets in last 24h · **10** solved in last 24h
+- **661** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -124,9 +124,10 @@ Flight 3 is **day 77** of rollout — **6,500 invitees**, **660 tickets** so far
 
 _No negative ratings since launch._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8423](https://tbpro.zendesk.com/agent/tickets/8423) · [new] · _Cancel/Refund_
+  > Hi. Thundermail is not for me. Please kindly cancel and refund payment of £55.00.
 
 ## New ideas on FeatureOS
 
@@ -140,13 +141,13 @@ _(none in last 24h)_
 - **solved**: 191
 - **pending**: 124
 - **open**: 22
-- **new**: 16
+- **new**: 17
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 353
-- **Thundermail**: 245
+- **Thundermail**: 246
 - **Send**: 18
 - **Appointment**: 17
 
@@ -218,6 +219,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8412](https://tbpro.zendesk.com/agent/tickets/8412)** · bYCQNHhpYMeuATxjE
   > dyHPzsoMebHaYvDlvz
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8423](https://tbpro.zendesk.com/agent/tickets/8423)** · Cancel/Refund
+  > Hi. Thundermail is not for me. Please kindly cancel and refund payment of £55.00.
+
 ### Aliases — 1 tickets
 
 - **[#8409](https://tbpro.zendesk.com/agent/tickets/8409)** · Change email address
@@ -231,6 +237,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8420](https://tbpro.zendesk.com/agent/tickets/8420) · [new] · 2026-09-06T07:26 · user name and psw losted
 - [8421](https://tbpro.zendesk.com/agent/tickets/8421) · [new] · 2026-09-06T07:27 · password
 - [8422](https://tbpro.zendesk.com/agent/tickets/8422) · [new] · 2026-09-06T07:29 · password
+- [8423](https://tbpro.zendesk.com/agent/tickets/8423) · [new] · 2026-09-06T08:46 · Cancel/Refund
 
 ## Solved — last 24h
 
