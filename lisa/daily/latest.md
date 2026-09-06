@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 03:21 ET** · refreshes hourly_  
+_Updated: **2026-09-06 04:26 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 77** of rollout — **6,500 invitees**, **656 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 77** of rollout — **6,500 invitees**, **660 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **10** solved in last 24h
-- **656** tickets total since launch · contact rate **10%** of 6500 invitees
+- **6** new tickets in last 24h · **10** solved in last 24h
+- **660** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -138,15 +138,15 @@ _(none in last 24h)_
 
 - **closed**: 296
 - **solved**: 191
-- **pending**: 125
-- **open**: 21
-- **new**: 12
+- **pending**: 124
+- **open**: 22
+- **new**: 16
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 352
-- **Thundermail**: 244
+- **Account Hub**: 353
+- **Thundermail**: 245
 - **Send**: 18
 - **Appointment**: 17
 
@@ -205,8 +205,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#8422](https://tbpro.zendesk.com/agent/tickets/8422)** · password
+  > how to restore
+- **[#8421](https://tbpro.zendesk.com/agent/tickets/8421)** · password
+  > how to restore psw
+- **[#8420](https://tbpro.zendesk.com/agent/tickets/8420)** · user name and psw losted
+  > restore name & password ; tnx
+- **[#8419](https://tbpro.zendesk.com/agent/tickets/8419)** ·  password
+  > how to restore address and psw
 - **[#8412](https://tbpro.zendesk.com/agent/tickets/8412)** · bYCQNHhpYMeuATxjE
   > dyHPzsoMebHaYvDlvz
 
@@ -219,6 +227,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8409](https://tbpro.zendesk.com/agent/tickets/8409) · [new] · 2026-09-05T20:45 · Change email address
 - [8412](https://tbpro.zendesk.com/agent/tickets/8412) · [new] · 2026-09-05T23:40 · bYCQNHhpYMeuATxjE
+- [8419](https://tbpro.zendesk.com/agent/tickets/8419) · [new] · 2026-09-06T07:23 ·  password
+- [8420](https://tbpro.zendesk.com/agent/tickets/8420) · [new] · 2026-09-06T07:26 · user name and psw losted
+- [8421](https://tbpro.zendesk.com/agent/tickets/8421) · [new] · 2026-09-06T07:27 · password
+- [8422](https://tbpro.zendesk.com/agent/tickets/8422) · [new] · 2026-09-06T07:29 · password
 
 ## Solved — last 24h
 
