@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-05
 
-_Updated: **2026-09-05 22:30 ET** · refreshes hourly_  
+_Updated: **2026-09-05 23:25 ET** · refreshes hourly_  
 _24h window: 2026-09-04T16:00 → 2026-09-05T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 76** of rollout — **6,500 invitees**, **656 tickets** so far
 
 ## At a glance
 
-- **13** new tickets in last 24h · **26** solved in last 24h
+- **13** new tickets in last 24h · **25** solved in last 24h
 - **656** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
-- **CSAT (since launch)**: 100%  (18 good / 0 bad)
+- **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.8h · mean 179.7h (proxy: updated_at − created_at, 190 solved tickets)
+- **Median AHT**: 143.9h · mean 180.3h (proxy: updated_at − created_at, 191 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -145,8 +145,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 295
-- **solved**: 190
-- **pending**: 128
+- **solved**: 191
+- **pending**: 127
 - **open**: 20
 - **new**: 12
 - **hold**: 11
@@ -292,7 +292,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8318](https://tbpro.zendesk.com/agent/tickets/8318) · 2026-09-05T10:31 · Missing DKIM-Signature on emails sent from @[domain] (marked as spam by Gmail)
 - · [8203](https://tbpro.zendesk.com/agent/tickets/8203) · 2026-09-05T11:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [7943](https://tbpro.zendesk.com/agent/tickets/7943) · 2026-09-05T14:01 · Refund 
-- · [8009](https://tbpro.zendesk.com/agent/tickets/8009) · 2026-09-05T15:01 · DNS not working for swiftadvisoires on squarespace not working
 - 👍 [8206](https://tbpro.zendesk.com/agent/tickets/8206) · 2026-09-05T15:42 · username
 - · [8112](https://tbpro.zendesk.com/agent/tickets/8112) · 2026-09-05T16:02 · Re: help me: still need help?
 - · [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-05T16:02 · Issues connecting CALDEV to iOS Calendar Application
