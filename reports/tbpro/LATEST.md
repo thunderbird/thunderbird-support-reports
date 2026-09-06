@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 10:18 ET** · refreshes hourly_  
+_Updated: **2026-09-06 11:18 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 77** of rollout — **6,500 invitees**, **656 tickets** so far
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
+- **4** new tickets in last 24h · **12** solved in last 24h
 - **656** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 143.8h · mean 184.7h (proxy: updated_at − created_at, 192 solved tickets)
+- **Median AHT**: 143.6h · mean 184.4h (proxy: updated_at − created_at, 193 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -77,7 +77,7 @@ Flight 3 is **day 77** of rollout — **6,500 invitees**, **656 tickets** so far
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [solved] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [solved] · 2026-08-31 · _cancel substriction_
   - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [solved] · 2026-08-31 · _Refund_
-  - [#8128](https://tbpro.zendesk.com/agent/tickets/8128) · [pending] · 2026-09-01 · _Please refund my money_
+  - [#8128](https://tbpro.zendesk.com/agent/tickets/8128) · [solved] · 2026-09-01 · _Please refund my money_
   - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [pending] · 2026-09-01 · _Cancel + Refund_
   - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02 · _Refund, please ?_
   - [#8246](https://tbpro.zendesk.com/agent/tickets/8246) · [pending] · 2026-09-02 · _Refund please_
@@ -138,8 +138,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 296
-- **solved**: 192
-- **pending**: 122
+- **solved**: 193
+- **pending**: 121
 - **open**: 23
 - **new**: 12
 - **hold**: 11
@@ -243,6 +243,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [6978](https://tbpro.zendesk.com/agent/tickets/6978) · 2026-09-06T04:01 · DKIM and Jellyfish Spam filtering
 - · [8117](https://tbpro.zendesk.com/agent/tickets/8117) · 2026-09-06T05:01 · Send to thunderbird desktop app integration error
 - · [8114](https://tbpro.zendesk.com/agent/tickets/8114) · 2026-09-06T14:01 · Refund
+- · [8128](https://tbpro.zendesk.com/agent/tickets/8128) · 2026-09-06T15:01 · Please refund my money
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
