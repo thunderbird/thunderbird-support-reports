@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 13:16 ET** · refreshes hourly_  
+_Updated: **2026-09-06 14:22 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 77** of rollout — **6,500 invitees**, **657 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 77** of rollout — **6,500 invitees**, **658 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **42** solved in last 24h
-- **657** tickets total since launch · contact rate **10%** of 6500 invitees
+- **6** new tickets in last 24h · **49** solved in last 24h
+- **658** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 137.1h · mean 176.3h (proxy: updated_at − created_at, 222 solved tickets)
+- **Median AHT**: 134.8h · mean 174.0h (proxy: updated_at − created_at, 227 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -137,17 +137,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 297
-- **solved**: 222
-- **pending**: 91
+- **closed**: 298
+- **solved**: 227
+- **pending**: 85
 - **open**: 23
-- **new**: 13
+- **new**: 14
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 353
-- **Thundermail**: 243
+- **Thundermail**: 244
 - **Send**: 18
 - **Appointment**: 17
 
@@ -206,6 +206,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#8432](https://tbpro.zendesk.com/agent/tickets/8432)** · Email Aliases
+  > If I permanently delete an alias, is it permanently reserved and unable to be registered by any other Thundermail user, or can it later be reassigned? If it can be reassigned,…
+- **[#8409](https://tbpro.zendesk.com/agent/tickets/8409)** · Change email address
+  > When I was setting up aliases I noticed njo@ is available. Can I make this my primary rather than nathano@ ?
+
 ### Other / uncategorized — 2 tickets
 
 - **[#8419](https://tbpro.zendesk.com/agent/tickets/8419)** ·  password
@@ -223,11 +230,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8423](https://tbpro.zendesk.com/agent/tickets/8423)** · Cancel/Refund
   > Hi. Thundermail is not for me. Please kindly cancel and refund payment of £55.00.
 
-### Aliases — 1 tickets
-
-- **[#8409](https://tbpro.zendesk.com/agent/tickets/8409)** · Change email address
-  > When I was setting up aliases I noticed njo@ is available. Can I make this my primary rather than nathano@ ?
-
 ## New tickets — last 24h
 
 - [8409](https://tbpro.zendesk.com/agent/tickets/8409) · [new] · 2026-09-05T20:45 · Change email address
@@ -235,6 +237,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8419](https://tbpro.zendesk.com/agent/tickets/8419) · [new] · 2026-09-06T07:23 ·  password
 - [8423](https://tbpro.zendesk.com/agent/tickets/8423) · [new] · 2026-09-06T08:46 · Cancel/Refund
 - [8428](https://tbpro.zendesk.com/agent/tickets/8428) · [new] · 2026-09-06T15:26 · Re: You're Invited: Thundermail Early Bird Access
+- [8432](https://tbpro.zendesk.com/agent/tickets/8432) · [new] · 2026-09-06T17:33 · Email Aliases
 
 ## Solved — last 24h
 
@@ -280,6 +283,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8110](https://tbpro.zendesk.com/agent/tickets/8110) · 2026-09-06T16:02 · account deletion
 - · [8159](https://tbpro.zendesk.com/agent/tickets/8159) · 2026-09-06T17:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [8076](https://tbpro.zendesk.com/agent/tickets/8076) · 2026-09-06T17:01 · login help
+- · [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-06T18:01 · Re: Correction: Thundermail Early Bird Access
+- · [8184](https://tbpro.zendesk.com/agent/tickets/8184) · 2026-09-06T18:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [8182](https://tbpro.zendesk.com/agent/tickets/8182) · 2026-09-06T18:01 · Waiting for thundermail signup, "Your payment is being processed" page to finish
+- · [8176](https://tbpro.zendesk.com/agent/tickets/8176) · 2026-09-06T18:01 · Thundermail Question
+- · [8167](https://tbpro.zendesk.com/agent/tickets/8167) · 2026-09-06T18:01 · Discount
+- · [8119](https://tbpro.zendesk.com/agent/tickets/8119) · 2026-09-06T18:01 · ThunderMail Waitlist Invitation
+- · [8118](https://tbpro.zendesk.com/agent/tickets/8118) · 2026-09-06T18:01 · Accessing Alias
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
