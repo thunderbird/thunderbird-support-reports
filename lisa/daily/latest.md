@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 12:21 ET** · refreshes hourly_  
+_Updated: **2026-09-06 13:16 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 77** of rollout — **6,500 invitees**, **658 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 77** of rollout — **6,500 invitees**, **657 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **40** solved in last 24h
-- **658** tickets total since launch · contact rate **10%** of 6500 invitees
+- **5** new tickets in last 24h · **42** solved in last 24h
+- **657** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 137.4h · mean 176.5h (proxy: updated_at − created_at, 221 solved tickets)
+- **Median AHT**: 137.1h · mean 176.3h (proxy: updated_at − created_at, 222 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -137,17 +137,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 296
-- **solved**: 221
-- **pending**: 93
+- **closed**: 297
+- **solved**: 222
+- **pending**: 91
 - **open**: 23
-- **new**: 14
+- **new**: 13
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 353
-- **Thundermail**: 244
+- **Thundermail**: 243
 - **Send**: 18
 - **Appointment**: 17
 
@@ -213,11 +213,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8412](https://tbpro.zendesk.com/agent/tickets/8412)** · bYCQNHhpYMeuATxjE
   > dyHPzsoMebHaYvDlvz
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8429](https://tbpro.zendesk.com/agent/tickets/8429)** · Use Thunderbird w/ FoxFire/Mozzila
-  > I have my own domain of "maesales" with Misk!
-
 ### Webmail — 1 tickets
 
 - **[#8428](https://tbpro.zendesk.com/agent/tickets/8428)** · Re: You're Invited: Thundermail Early Bird Access
@@ -240,7 +235,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8419](https://tbpro.zendesk.com/agent/tickets/8419) · [new] · 2026-09-06T07:23 ·  password
 - [8423](https://tbpro.zendesk.com/agent/tickets/8423) · [new] · 2026-09-06T08:46 · Cancel/Refund
 - [8428](https://tbpro.zendesk.com/agent/tickets/8428) · [new] · 2026-09-06T15:26 · Re: You're Invited: Thundermail Early Bird Access
-- [8429](https://tbpro.zendesk.com/agent/tickets/8429) · [new] · 2026-09-06T15:39 · Use Thunderbird w/ FoxFire/Mozzila
 
 ## Solved — last 24h
 
@@ -284,6 +278,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8140](https://tbpro.zendesk.com/agent/tickets/8140) · 2026-09-06T16:02 · Invite link doesn't work
 - · [8139](https://tbpro.zendesk.com/agent/tickets/8139) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
 - · [8110](https://tbpro.zendesk.com/agent/tickets/8110) · 2026-09-06T16:02 · account deletion
+- · [8159](https://tbpro.zendesk.com/agent/tickets/8159) · 2026-09-06T17:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [8076](https://tbpro.zendesk.com/agent/tickets/8076) · 2026-09-06T17:01 · login help
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
