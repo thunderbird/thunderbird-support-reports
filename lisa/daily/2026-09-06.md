@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 11:18 ET** · refreshes hourly_  
+_Updated: **2026-09-06 12:21 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 77** of rollout — **6,500 invitees**, **656 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 77** of rollout — **6,500 invitees**, **658 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **12** solved in last 24h
-- **656** tickets total since launch · contact rate **10%** of 6500 invitees
+- **6** new tickets in last 24h · **40** solved in last 24h
+- **658** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 143.6h · mean 184.4h (proxy: updated_at − created_at, 193 solved tickets)
+- **Median AHT**: 137.4h · mean 176.5h (proxy: updated_at − created_at, 221 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -138,16 +138,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 296
-- **solved**: 193
-- **pending**: 121
+- **solved**: 221
+- **pending**: 93
 - **open**: 23
-- **new**: 12
+- **new**: 14
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 353
-- **Thundermail**: 243
+- **Thundermail**: 244
 - **Send**: 18
 - **Appointment**: 17
 
@@ -213,6 +213,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8412](https://tbpro.zendesk.com/agent/tickets/8412)** · bYCQNHhpYMeuATxjE
   > dyHPzsoMebHaYvDlvz
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8429](https://tbpro.zendesk.com/agent/tickets/8429)** · Use Thunderbird w/ FoxFire/Mozzila
+  > I have my own domain of "maesales" with Misk!
+
+### Webmail — 1 tickets
+
+- **[#8428](https://tbpro.zendesk.com/agent/tickets/8428)** · Re: You're Invited: Thundermail Early Bird Access
+  > i could not be less interested in a *paid* email service. [quoted message] We’re excited to invite you to try Thundermail Early Bird. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#8423](https://tbpro.zendesk.com/agent/tickets/8423)** · Cancel/Refund
@@ -229,6 +239,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8412](https://tbpro.zendesk.com/agent/tickets/8412) · [new] · 2026-09-05T23:40 · bYCQNHhpYMeuATxjE
 - [8419](https://tbpro.zendesk.com/agent/tickets/8419) · [new] · 2026-09-06T07:23 ·  password
 - [8423](https://tbpro.zendesk.com/agent/tickets/8423) · [new] · 2026-09-06T08:46 · Cancel/Refund
+- [8428](https://tbpro.zendesk.com/agent/tickets/8428) · [new] · 2026-09-06T15:26 · Re: You're Invited: Thundermail Early Bird Access
+- [8429](https://tbpro.zendesk.com/agent/tickets/8429) · [new] · 2026-09-06T15:39 · Use Thunderbird w/ FoxFire/Mozzila
 
 ## Solved — last 24h
 
@@ -244,6 +256,34 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8117](https://tbpro.zendesk.com/agent/tickets/8117) · 2026-09-06T05:01 · Send to thunderbird desktop app integration error
 - · [8114](https://tbpro.zendesk.com/agent/tickets/8114) · 2026-09-06T14:01 · Refund
 - · [8128](https://tbpro.zendesk.com/agent/tickets/8128) · 2026-09-06T15:01 · Please refund my money
+- · [8178](https://tbpro.zendesk.com/agent/tickets/8178) · 2026-09-06T16:02 · Early Access
+- · [8177](https://tbpro.zendesk.com/agent/tickets/8177) · 2026-09-06T16:02 · Thundermail Invite
+- · [8175](https://tbpro.zendesk.com/agent/tickets/8175) · 2026-09-06T16:02 · Refund
+- · [8173](https://tbpro.zendesk.com/agent/tickets/8173) · 2026-09-06T16:02 · Cannot sign up for Thundermail
+- · [8171](https://tbpro.zendesk.com/agent/tickets/8171) · 2026-09-06T16:02 · Need help SUBSCRIBING
+- · [8170](https://tbpro.zendesk.com/agent/tickets/8170) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8169](https://tbpro.zendesk.com/agent/tickets/8169) · 2026-09-06T16:02 · Invitation Not Working
+- · [8168](https://tbpro.zendesk.com/agent/tickets/8168) · 2026-09-06T16:02 · Unable to Sign Up for Thundermail Early Access
+- · [8166](https://tbpro.zendesk.com/agent/tickets/8166) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8165](https://tbpro.zendesk.com/agent/tickets/8165) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8163](https://tbpro.zendesk.com/agent/tickets/8163) · 2026-09-06T16:02 · Fwd: You're Invited: Thundermail Early Bird Access
+- · [8162](https://tbpro.zendesk.com/agent/tickets/8162) · 2026-09-06T16:02 · Can't create account : You're Invited: Thundermail Early Bird Access
+- · [8157](https://tbpro.zendesk.com/agent/tickets/8157) · 2026-09-06T16:02 · Sign Up Flow Broken
+- · [8155](https://tbpro.zendesk.com/agent/tickets/8155) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8153](https://tbpro.zendesk.com/agent/tickets/8153) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8152](https://tbpro.zendesk.com/agent/tickets/8152) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8151](https://tbpro.zendesk.com/agent/tickets/8151) · 2026-09-06T16:02 · Unable to create account after receiving invite
+- · [8150](https://tbpro.zendesk.com/agent/tickets/8150) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8149](https://tbpro.zendesk.com/agent/tickets/8149) · 2026-09-06T16:02 · Thundermail Invitation Received
+- · [8148](https://tbpro.zendesk.com/agent/tickets/8148) · 2026-09-06T16:02 · Broken Invite Link - Thundermail Early Bird Access
+- · [8147](https://tbpro.zendesk.com/agent/tickets/8147) · 2026-09-06T16:02 · Beta invite but can't sign up?
+- · [8145](https://tbpro.zendesk.com/agent/tickets/8145) · 2026-09-06T16:02 · Sent a non-working invitation.
+- · [8144](https://tbpro.zendesk.com/agent/tickets/8144) · 2026-09-06T16:02 · Broken Invite Link - Thundermail Early Bird Access
+- · [8143](https://tbpro.zendesk.com/agent/tickets/8143) · 2026-09-06T16:02 · Unable to signup
+- · [8141](https://tbpro.zendesk.com/agent/tickets/8141) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8140](https://tbpro.zendesk.com/agent/tickets/8140) · 2026-09-06T16:02 · Invite link doesn't work
+- · [8139](https://tbpro.zendesk.com/agent/tickets/8139) · 2026-09-06T16:02 · Re: You're Invited: Thundermail Early Bird Access
+- · [8110](https://tbpro.zendesk.com/agent/tickets/8110) · 2026-09-06T16:02 · account deletion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
