@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 00:24 ET** · refreshes hourly_  
+_Updated: **2026-09-06 01:20 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 77** of rollout — **6,500 invitees**, **656 tickets** so far
 
 ## At a glance
 
-- **2** new tickets in last 24h · **9** solved in last 24h
+- **2** new tickets in last 24h · **10** solved in last 24h
 - **656** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 144.1h · mean 185.5h (proxy: updated_at − created_at, 191 solved tickets)
+- **Median AHT**: 143.9h · mean 185.0h (proxy: updated_at − created_at, 191 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -138,8 +138,8 @@ _(none in last 24h)_
 
 - **closed**: 296
 - **solved**: 191
-- **pending**: 126
-- **open**: 20
+- **pending**: 125
+- **open**: 21
 - **new**: 12
 - **hold**: 11
 
@@ -164,8 +164,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 14
 - **blocked** + **redirected**: 10
-- **concerned** + **—**: 7
 - **confused** + **informed**: 7
+- **concerned** + **—**: 7
 - **blocked** + **—**: 6
 - **blocked** + **actioned**: 6
 - **telling us** + **explained**: 5
@@ -231,6 +231,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8009](https://tbpro.zendesk.com/agent/tickets/8009) · 2026-09-06T02:40 · DNS not working for swiftadvisoires on squarespace not working
 - · [7966](https://tbpro.zendesk.com/agent/tickets/7966) · 2026-09-06T03:01 · Therms and Conditions
 - · [6978](https://tbpro.zendesk.com/agent/tickets/6978) · 2026-09-06T04:01 · DKIM and Jellyfish Spam filtering
+- · [8117](https://tbpro.zendesk.com/agent/tickets/8117) · 2026-09-06T05:01 · Send to thunderbird desktop app integration error
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
