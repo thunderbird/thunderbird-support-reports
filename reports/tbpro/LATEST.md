@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-06
 
-_Updated: **2026-09-06 14:22 ET** · refreshes hourly_  
+_Updated: **2026-09-06 15:16 ET** · refreshes hourly_  
 _24h window: 2026-09-05T16:00 → 2026-09-06T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 77** of rollout — **6,500 invitees**, **658 tickets** so far
 
 ## At a glance
 
-- **6** new tickets in last 24h · **49** solved in last 24h
+- **6** new tickets in last 24h · **51** solved in last 24h
 - **658** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 134.8h · mean 174.0h (proxy: updated_at − created_at, 227 solved tickets)
+- **Median AHT**: 134.4h · mean 173.6h (proxy: updated_at − created_at, 229 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -138,8 +138,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 298
-- **solved**: 227
-- **pending**: 85
+- **solved**: 229
+- **pending**: 83
 - **open**: 23
 - **new**: 14
 - **hold**: 11
@@ -290,6 +290,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8167](https://tbpro.zendesk.com/agent/tickets/8167) · 2026-09-06T18:01 · Discount
 - · [8119](https://tbpro.zendesk.com/agent/tickets/8119) · 2026-09-06T18:01 · ThunderMail Waitlist Invitation
 - · [8118](https://tbpro.zendesk.com/agent/tickets/8118) · 2026-09-06T18:01 · Accessing Alias
+- · [8188](https://tbpro.zendesk.com/agent/tickets/8188) · 2026-09-06T19:01 · You've taken my money but not granted me access!???
+- · [8138](https://tbpro.zendesk.com/agent/tickets/8138) · 2026-09-06T19:01 · رد تلقائي: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
