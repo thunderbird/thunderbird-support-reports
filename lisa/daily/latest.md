@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 03:31 ET** · refreshes hourly_  
+_Updated: **2026-09-07 04:34 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 78** of rollout — **6,500 invitees**, **661 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 78** of rollout — **6,500 invitees**, **663 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **14** solved in last 24h
-- **661** tickets total since launch · contact rate **10%** of 6500 invitees
+- **5** new tickets in last 24h · **14** solved in last 24h
+- **663** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -140,13 +140,13 @@ _(none in last 24h)_
 - **solved**: 240
 - **pending**: 68
 - **open**: 24
-- **new**: 17
+- **new**: 19
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 353
-- **Thundermail**: 246
+- **Account Hub**: 354
+- **Thundermail**: 247
 - **Appointment**: 18
 - **Send**: 18
 
@@ -205,6 +205,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#8448](https://tbpro.zendesk.com/agent/tickets/8448)** · How to change primary address with an alias
+  > I want to change the primary mail address to one of my alias Mail addresses. Or: How can I send mails with alias Addresses so receiver cannot so my primary address?
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8446](https://tbpro.zendesk.com/agent/tickets/8446)** · Subscribe and payment screen not loading
+  > Hi, after confirming my mail account subscribe & payment screen should be shown. Following link is missing any detailed information. https://[domain]/subscribe Can you help me to…
+
 ### Webmail — 1 tickets
 
 - **[#8445](https://tbpro.zendesk.com/agent/tickets/8445)** · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client — why: **change request** · how: **escalated**
@@ -225,6 +235,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8439](https://tbpro.zendesk.com/agent/tickets/8439) · [new] · 2026-09-07T00:31 · Public calendar link
 - [8444](https://tbpro.zendesk.com/agent/tickets/8444) · [new] · 2026-09-07T07:09 · Password
 - [8445](https://tbpro.zendesk.com/agent/tickets/8445) · [new] · 2026-09-07T07:16 · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client
+- [8446](https://tbpro.zendesk.com/agent/tickets/8446) · [new] · 2026-09-07T07:52 · Subscribe and payment screen not loading
+- [8448](https://tbpro.zendesk.com/agent/tickets/8448) · [new] · 2026-09-07T07:57 · How to change primary address with an alias
 
 ## Solved — last 24h
 
