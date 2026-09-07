@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 10:24 ET** · refreshes hourly_  
+_Updated: **2026-09-07 11:21 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 78** of rollout — **6,500 invitees**, **666 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **17** solved in last 24h
+- **8** new tickets in last 24h · **22** solved in last 24h
 - **666** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 131.8h · mean 169.0h (proxy: updated_at − created_at, 243 solved tickets)
+- **Median AHT**: 131.5h · mean 168.4h (proxy: updated_at − created_at, 247 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -143,9 +143,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 301
-- **solved**: 243
-- **pending**: 63
+- **closed**: 302
+- **solved**: 247
+- **pending**: 58
 - **open**: 26
 - **new**: 22
 - **hold**: 11
@@ -273,6 +273,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8229](https://tbpro.zendesk.com/agent/tickets/8229) · 2026-09-07T14:01 · Re: Correction: Thundermail Early Bird Access
 - · [8204](https://tbpro.zendesk.com/agent/tickets/8204) · 2026-09-07T14:01 · Re: You're Invited: Thundermail Early Bird Access
 - · [8199](https://tbpro.zendesk.com/agent/tickets/8199) · 2026-09-07T14:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [8271](https://tbpro.zendesk.com/agent/tickets/8271) · 2026-09-07T15:01 · Connot chose [domain] domain
+- · [8270](https://tbpro.zendesk.com/agent/tickets/8270) · 2026-09-07T15:01 · I forgot some information
+- · [8265](https://tbpro.zendesk.com/agent/tickets/8265) · 2026-09-07T15:01 · Re: Correction: Thundermail Early Bird Access
+- · [8260](https://tbpro.zendesk.com/agent/tickets/8260) · 2026-09-07T15:01 · Re: Correction: Thundermail Early Bird Access
+- · [8234](https://tbpro.zendesk.com/agent/tickets/8234) · 2026-09-07T15:01 · I need to give a try for a month, not one year
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
