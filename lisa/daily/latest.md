@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 09:24 ET** · refreshes hourly_  
+_Updated: **2026-09-07 10:24 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 78** of rollout — **6,500 invitees**, **666 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **14** solved in last 24h
+- **8** new tickets in last 24h · **17** solved in last 24h
 - **666** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 131.1h · mean 169.4h (proxy: updated_at − created_at, 240 solved tickets)
+- **Median AHT**: 131.8h · mean 169.0h (proxy: updated_at − created_at, 243 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -144,9 +144,9 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 301
-- **solved**: 240
-- **pending**: 67
-- **open**: 25
+- **solved**: 243
+- **pending**: 63
+- **open**: 26
 - **new**: 22
 - **hold**: 11
 
@@ -270,6 +270,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8195](https://tbpro.zendesk.com/agent/tickets/8195) · 2026-09-07T00:01 · Cancel Subscription & Refund 
 - · [8215](https://tbpro.zendesk.com/agent/tickets/8215) · 2026-09-07T03:01 · Monthly billing?
 - · [8019](https://tbpro.zendesk.com/agent/tickets/8019) · 2026-09-07T03:01 · Aliases in JMAP
+- · [8229](https://tbpro.zendesk.com/agent/tickets/8229) · 2026-09-07T14:01 · Re: Correction: Thundermail Early Bird Access
+- · [8204](https://tbpro.zendesk.com/agent/tickets/8204) · 2026-09-07T14:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [8199](https://tbpro.zendesk.com/agent/tickets/8199) · 2026-09-07T14:01 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
