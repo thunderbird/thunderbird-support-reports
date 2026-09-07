@@ -1,20 +1,26 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-07 08:33 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 78** of rollout — **6,500 invitees**, **664 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 78** of rollout — **6,500 invitees**, **666 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **14** solved in last 24h
-- **664** tickets total since launch · contact rate **10%** of 6500 invitees
+- **8** new tickets in last 24h · **14** solved in last 24h
+- **666** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 131.1h · mean 169.4h (proxy: updated_at − created_at, 240 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"subscription request refund"** — 2 tickets in 24h (new; baseline 0 cum) — [#8449](https://tbpro.zendesk.com/agent/tickets/8449), [#8456](https://tbpro.zendesk.com/agent/tickets/8456)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -141,14 +147,14 @@ _No negative ratings since launch._
 - **solved**: 240
 - **pending**: 67
 - **open**: 25
-- **new**: 20
+- **new**: 22
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 354
+- **Account Hub**: 355
 - **Thundermail**: 248
-- **Appointment**: 18
+- **Appointment**: 19
 - **Send**: 18
 
 ## Why × How (cumulative)
@@ -206,12 +212,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#8456](https://tbpro.zendesk.com/agent/tickets/8456)** · Delte my Account
+  > Hi there, please delete my account and cancel my subscription. I would also like to request a refund for my subscription. Thank you for your help. Best regards, [name]
 - **[#8449](https://tbpro.zendesk.com/agent/tickets/8449)** · Cancellation refund request
   > Hello, I have just cancelled my thundermail subscription and would like to request a refund as I'm within the first 14 days. The service looks promising, but it's not quite what I…
 - **[#8446](https://tbpro.zendesk.com/agent/tickets/8446)** · Subscribe and payment screen not loading
   > Hi, after confirming my mail account subscribe & payment screen should be shown. Following link is missing any detailed information. https://[domain]/subscribe Can you help me to…
+
+### Appointment / calendar — 2 tickets
+
+- **[#8454](https://tbpro.zendesk.com/agent/tickets/8454)** · Feq questions
+  > Hi, I had subscribed to TM Pro. I wonder appointment how does this work ? I'm a casual user can I have just a calendar with local holidays mentioned by url we used to add them.…
+- **[#8439](https://tbpro.zendesk.com/agent/tickets/8439)** · Public calendar link
+  > There is no non-authenticated sharing of the calendar. I can't subscribe to it from other systems, for sharing my calendar with my spouse, kids, etc. This is an absolute deal…
 
 ### Aliases — 1 tickets
 
@@ -228,11 +243,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8444](https://tbpro.zendesk.com/agent/tickets/8444)** · Password
   > I forget m'y passera...
 
-### Appointment / calendar — 1 tickets
-
-- **[#8439](https://tbpro.zendesk.com/agent/tickets/8439)** · Public calendar link
-  > There is no non-authenticated sharing of the calendar. I can't subscribe to it from other systems, for sharing my calendar with my spouse, kids, etc. This is an absolute deal…
-
 ## New tickets — last 24h
 
 - [8439](https://tbpro.zendesk.com/agent/tickets/8439) · [new] · 2026-09-07T00:31 · Public calendar link
@@ -241,6 +251,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8446](https://tbpro.zendesk.com/agent/tickets/8446) · [new] · 2026-09-07T07:52 · Subscribe and payment screen not loading
 - [8448](https://tbpro.zendesk.com/agent/tickets/8448) · [new] · 2026-09-07T07:57 · How to change primary address with an alias
 - [8449](https://tbpro.zendesk.com/agent/tickets/8449) · [new] · 2026-09-07T08:42 · Cancellation refund request
+- [8454](https://tbpro.zendesk.com/agent/tickets/8454) · [new] · 2026-09-07T11:33 · Feq questions
+- [8456](https://tbpro.zendesk.com/agent/tickets/8456) · [new] · 2026-09-07T12:26 · Delte my Account
 
 ## Solved — last 24h
 
