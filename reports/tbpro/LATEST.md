@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 12:23 ET** · refreshes hourly_  
+_Updated: **2026-09-07 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 78** of rollout — **6,500 invitees**, **666 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 78** of rollout — **6,500 invitees**, **667 tickets** so far (10.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **26** solved in last 24h
-- **666** tickets total since launch · contact rate **10%** of 6500 invitees
+- **9** new tickets in last 24h · **31** solved in last 24h
+- **667** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 131.9h · mean 167.7h (proxy: updated_at − created_at, 250 solved tickets)
+- **Median AHT**: 133.3h · mean 167.2h (proxy: updated_at − created_at, 255 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -144,16 +144,16 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 303
-- **solved**: 250
-- **pending**: 54
-- **open**: 26
-- **new**: 22
-- **hold**: 11
+- **solved**: 255
+- **pending**: 49
+- **open**: 27
+- **new**: 23
+- **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 355
-- **Thundermail**: 248
+- **Thundermail**: 249
 - **Appointment**: 19
 - **Send**: 18
 
@@ -221,17 +221,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8446](https://tbpro.zendesk.com/agent/tickets/8446)** · Subscribe and payment screen not loading
   > Hi, after confirming my mail account subscribe & payment screen should be shown. Following link is missing any detailed information. https://[domain]/subscribe Can you help me to…
 
+### Aliases — 2 tickets
+
+- **[#8464](https://tbpro.zendesk.com/agent/tickets/8464)** · Custom mailboxes for my domains
+  > Hello, I've added a new custom domain then i've noticed that i dont have any option to create direct mailboxes for my domain, but i only have the option to add aliases to my…
+- **[#8448](https://tbpro.zendesk.com/agent/tickets/8448)** · How to change primary address with an alias
+  > I want to change the primary mail address to one of my alias Mail addresses. Or: How can I send mails with alias Addresses so receiver cannot so my primary address?
+
 ### Appointment / calendar — 2 tickets
 
 - **[#8454](https://tbpro.zendesk.com/agent/tickets/8454)** · Feq questions
   > Hi, I had subscribed to TM Pro. I wonder appointment how does this work ? I'm a casual user can I have just a calendar with local holidays mentioned by url we used to add them.…
 - **[#8439](https://tbpro.zendesk.com/agent/tickets/8439)** · Public calendar link
   > There is no non-authenticated sharing of the calendar. I can't subscribe to it from other systems, for sharing my calendar with my spouse, kids, etc. This is an absolute deal…
-
-### Aliases — 1 tickets
-
-- **[#8448](https://tbpro.zendesk.com/agent/tickets/8448)** · How to change primary address with an alias
-  > I want to change the primary mail address to one of my alias Mail addresses. Or: How can I send mails with alias Addresses so receiver cannot so my primary address?
 
 ### Webmail — 1 tickets
 
@@ -253,6 +255,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8449](https://tbpro.zendesk.com/agent/tickets/8449) · [new] · 2026-09-07T08:42 · Cancellation refund request
 - [8454](https://tbpro.zendesk.com/agent/tickets/8454) · [new] · 2026-09-07T11:33 · Feq questions
 - [8456](https://tbpro.zendesk.com/agent/tickets/8456) · [new] · 2026-09-07T12:26 · Delte my Account
+- [8464](https://tbpro.zendesk.com/agent/tickets/8464) · [new] · 2026-09-07T16:32 · Custom mailboxes for my domains
 
 ## Solved — last 24h
 
@@ -282,6 +285,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8223](https://tbpro.zendesk.com/agent/tickets/8223) · 2026-09-07T16:01 · Multiple email accounts
 - · [8200](https://tbpro.zendesk.com/agent/tickets/8200) · 2026-09-07T16:01 · Cancel + Refund
 - · [8133](https://tbpro.zendesk.com/agent/tickets/8133) · 2026-09-07T16:01 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
+- · [8248](https://tbpro.zendesk.com/agent/tickets/8248) · 2026-09-07T17:01 · Payment
+- · [8238](https://tbpro.zendesk.com/agent/tickets/8238) · 2026-09-07T17:01 · Custom domain
+- · [8217](https://tbpro.zendesk.com/agent/tickets/8217) · 2026-09-07T17:01 · TXT and CNAME Records
+- · [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-07T17:01 · Alias Use in New E-Mails in Thundermail Webmail
+- · [8201](https://tbpro.zendesk.com/agent/tickets/8201) · 2026-09-07T17:01 · Anmeldung nicht möglich 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
