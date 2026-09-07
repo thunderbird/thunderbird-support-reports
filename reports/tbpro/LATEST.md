@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 02:46 ET** · refreshes hourly_  
+_Updated: **2026-09-07 03:31 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 78** of rollout — **6,500 invitees**, **659 tickets** so far (10.1% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 78** of rollout — **6,500 invitees**, **661 tickets** so far (10.2% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **14** solved in last 24h
-- **659** tickets total since launch · contact rate **10%** of 6500 invitees
+- **3** new tickets in last 24h · **14** solved in last 24h
+- **661** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -140,15 +140,15 @@ _(none in last 24h)_
 - **solved**: 240
 - **pending**: 68
 - **open**: 24
-- **new**: 15
+- **new**: 17
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 353
-- **Thundermail**: 245
+- **Thundermail**: 246
+- **Appointment**: 18
 - **Send**: 18
-- **Appointment**: 17
 
 ## Why × How (cumulative)
 
@@ -173,6 +173,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **request** + **actioned**: 4
+- **change request** + **escalated**: 3
 - **telling us** + **—**: 3
 - **change request** + **explained**: 3
 - **telling us** + **escalated**: 3
@@ -186,7 +187,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **telling us** + **informed**: 2
 - **curious** + **redirected**: 2
-- **change request** + **escalated**: 2
 - **concerned** + **actioned**: 1
 - **other** + **—**: 1
 - **concerned** + **escalated**: 1
@@ -205,6 +205,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 1 tickets
+
+- **[#8445](https://tbpro.zendesk.com/agent/tickets/8445)** · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client — why: **change request** · how: **escalated**
+  > This is a follow-up to your previous request #5516 "Set up [domain] Appointment c..." Hello [name], Just a quick one. I am now on 153.2.0esr and I added a calendar entry from my…
+
+### Other / uncategorized — 1 tickets
+
+- **[#8444](https://tbpro.zendesk.com/agent/tickets/8444)** · Password
+  > I forget m'y passera...
+
 ### Appointment / calendar — 1 tickets
 
 - **[#8439](https://tbpro.zendesk.com/agent/tickets/8439)** · Public calendar link
@@ -213,6 +223,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8439](https://tbpro.zendesk.com/agent/tickets/8439) · [new] · 2026-09-07T00:31 · Public calendar link
+- [8444](https://tbpro.zendesk.com/agent/tickets/8444) · [new] · 2026-09-07T07:09 · Password
+- [8445](https://tbpro.zendesk.com/agent/tickets/8445) · [new] · 2026-09-07T07:16 · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client
 
 ## Solved — last 24h
 
