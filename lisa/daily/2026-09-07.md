@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 11:21 ET** · refreshes hourly_  
+_Updated: **2026-09-07 12:23 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 78** of rollout — **6,500 invitees**, **666 tickets** so far
 
 ## At a glance
 
-- **8** new tickets in last 24h · **22** solved in last 24h
+- **8** new tickets in last 24h · **26** solved in last 24h
 - **666** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 131.5h · mean 168.4h (proxy: updated_at − created_at, 247 solved tickets)
+- **Median AHT**: 131.9h · mean 167.7h (proxy: updated_at − created_at, 250 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -84,7 +84,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [solved] · 2026-08-31 · _cancel substriction_
   - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [solved] · 2026-08-31 · _Refund_
   - [#8128](https://tbpro.zendesk.com/agent/tickets/8128) · [solved] · 2026-09-01 · _Please refund my money_
-  - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [pending] · 2026-09-01 · _Cancel + Refund_
+  - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [solved] · 2026-09-01 · _Cancel + Refund_
   - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02 · _Refund, please ?_
   - [#8246](https://tbpro.zendesk.com/agent/tickets/8246) · [pending] · 2026-09-02 · _Refund please_
   - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [pending] · 2026-09-02 · _Please may i have a refund_
@@ -143,9 +143,9 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 302
-- **solved**: 247
-- **pending**: 58
+- **closed**: 303
+- **solved**: 250
+- **pending**: 54
 - **open**: 26
 - **new**: 22
 - **hold**: 11
@@ -278,6 +278,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8265](https://tbpro.zendesk.com/agent/tickets/8265) · 2026-09-07T15:01 · Re: Correction: Thundermail Early Bird Access
 - · [8260](https://tbpro.zendesk.com/agent/tickets/8260) · 2026-09-07T15:01 · Re: Correction: Thundermail Early Bird Access
 - · [8234](https://tbpro.zendesk.com/agent/tickets/8234) · 2026-09-07T15:01 · I need to give a try for a month, not one year
+- · [8244](https://tbpro.zendesk.com/agent/tickets/8244) · 2026-09-07T16:01 · Cost
+- · [8223](https://tbpro.zendesk.com/agent/tickets/8223) · 2026-09-07T16:01 · Multiple email accounts
+- · [8200](https://tbpro.zendesk.com/agent/tickets/8200) · 2026-09-07T16:01 · Cancel + Refund
+- · [8133](https://tbpro.zendesk.com/agent/tickets/8133) · 2026-09-07T16:01 · Outbound relay [ip] listed on Abusix — mail to Infomaniak-hosted domains rejected (+ two smaller ite
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
