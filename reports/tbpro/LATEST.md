@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 17:19 ET** · refreshes hourly_  
+_Updated: **2026-09-07 18:19 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 3 is **day 78** of rollout — **6,500 invitees**, **669 tickets** so far
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 134.0h · mean 165.5h (proxy: updated_at − created_at, 267 solved tickets)
+- **Median AHT**: 133.9h · mean 165.2h (proxy: updated_at − created_at, 270 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -88,8 +88,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02 · _Refund, please ?_
   - [#8246](https://tbpro.zendesk.com/agent/tickets/8246) · [solved] · 2026-09-02 · _Refund please_
   - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [solved] · 2026-09-02 · _Please may i have a refund_
-  - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [pending] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
-  - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [pending] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
+  - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [solved] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
+  - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [solved] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
   - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [pending] · 2026-09-03 · _Delete Account and remove data_
   - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03 · _Refund request_
   - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [pending] · 2026-09-03 · _Refund_
@@ -144,8 +144,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 304
-- **solved**: 267
-- **pending**: 36
+- **solved**: 270
+- **pending**: 33
 - **open**: 28
 - **new**: 25
 - **hold**: 9
