@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 14:25 ET** · refreshes hourly_  
+_Updated: **2026-09-07 15:17 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 78** of rollout — **6,500 invitees**, **667 tickets** so far (10.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 78** of rollout — **6,500 invitees**, **668 tickets** so far (10.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **33** solved in last 24h
-- **667** tickets total since launch · contact rate **10%** of 6500 invitees
+- **10** new tickets in last 24h · **37** solved in last 24h
+- **668** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 133.3h · mean 166.9h (proxy: updated_at − created_at, 257 solved tickets)
+- **Median AHT**: 133.1h · mean 165.3h (proxy: updated_at − created_at, 260 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -143,11 +143,11 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 303
-- **solved**: 257
-- **pending**: 47
+- **closed**: 304
+- **solved**: 260
+- **pending**: 43
 - **open**: 27
-- **new**: 23
+- **new**: 24
 - **hold**: 10
 
 ## Service (cumulative)
@@ -235,6 +235,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8439](https://tbpro.zendesk.com/agent/tickets/8439)** · Public calendar link
   > There is no non-authenticated sharing of the calendar. I can't subscribe to it from other systems, for sharing my calendar with my spouse, kids, etc. This is an absolute deal…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8471](https://tbpro.zendesk.com/agent/tickets/8471)** · Re: Correction: Thundermail Early Bird Access
+  > Доброго времени суток, по ссылке ошибка. С уважением Дмитрий А. Животнюк ******************************* BR Dzmitry Zhyvatniuk +375 (29) 616-616-8 вт, 1 сент. 2026 г., 22:18…
+
 ### Webmail — 1 tickets
 
 - **[#8445](https://tbpro.zendesk.com/agent/tickets/8445)** · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client — why: **change request** · how: **escalated**
@@ -256,6 +261,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8454](https://tbpro.zendesk.com/agent/tickets/8454) · [new] · 2026-09-07T11:33 · Feq questions
 - [8456](https://tbpro.zendesk.com/agent/tickets/8456) · [new] · 2026-09-07T12:26 · Delte my Account
 - [8464](https://tbpro.zendesk.com/agent/tickets/8464) · [new] · 2026-09-07T16:32 · Custom mailboxes for my domains
+- [8471](https://tbpro.zendesk.com/agent/tickets/8471) · [new] · 2026-09-07T18:51 · Re: Correction: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
@@ -292,6 +298,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8201](https://tbpro.zendesk.com/agent/tickets/8201) · 2026-09-07T17:01 · Anmeldung nicht möglich 
 - · [8283](https://tbpro.zendesk.com/agent/tickets/8283) · 2026-09-07T18:01 · Please may i have a refund
 - · [8249](https://tbpro.zendesk.com/agent/tickets/8249) · 2026-09-07T18:01 · en pääse thundermailiin
+- · [8287](https://tbpro.zendesk.com/agent/tickets/8287) · 2026-09-07T19:01 · Cancel
+- · [8257](https://tbpro.zendesk.com/agent/tickets/8257) · 2026-09-07T19:01 · Re: Correction: Thundermail Early Bird Access
+- · [8231](https://tbpro.zendesk.com/agent/tickets/8231) · 2026-09-07T19:01 · Change mail 
+- · [8222](https://tbpro.zendesk.com/agent/tickets/8222) · 2026-09-07T19:01 · The payment page doesn’t open.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
