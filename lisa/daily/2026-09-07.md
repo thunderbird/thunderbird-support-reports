@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 13:19 ET** · refreshes hourly_  
+_Updated: **2026-09-07 14:25 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 78** of rollout — **6,500 invitees**, **667 tickets** so far
 
 ## At a glance
 
-- **9** new tickets in last 24h · **31** solved in last 24h
+- **9** new tickets in last 24h · **33** solved in last 24h
 - **667** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 133.3h · mean 167.2h (proxy: updated_at − created_at, 255 solved tickets)
+- **Median AHT**: 133.3h · mean 166.9h (proxy: updated_at − created_at, 257 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -87,7 +87,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [solved] · 2026-09-01 · _Cancel + Refund_
   - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02 · _Refund, please ?_
   - [#8246](https://tbpro.zendesk.com/agent/tickets/8246) · [pending] · 2026-09-02 · _Refund please_
-  - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [pending] · 2026-09-02 · _Please may i have a refund_
+  - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [solved] · 2026-09-02 · _Please may i have a refund_
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [pending] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [pending] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
   - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [pending] · 2026-09-03 · _Delete Account and remove data_
@@ -144,8 +144,8 @@ _No negative ratings since launch._
 ## Status breakdown (cumulative)
 
 - **closed**: 303
-- **solved**: 255
-- **pending**: 49
+- **solved**: 257
+- **pending**: 47
 - **open**: 27
 - **new**: 23
 - **hold**: 10
@@ -290,6 +290,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8217](https://tbpro.zendesk.com/agent/tickets/8217) · 2026-09-07T17:01 · TXT and CNAME Records
 - · [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-07T17:01 · Alias Use in New E-Mails in Thundermail Webmail
 - · [8201](https://tbpro.zendesk.com/agent/tickets/8201) · 2026-09-07T17:01 · Anmeldung nicht möglich 
+- · [8283](https://tbpro.zendesk.com/agent/tickets/8283) · 2026-09-07T18:01 · Please may i have a refund
+- · [8249](https://tbpro.zendesk.com/agent/tickets/8249) · 2026-09-07T18:01 · en pääse thundermailiin
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
