@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 03:24 ET** · refreshes hourly_  
+_Updated: **2026-09-08 04:30 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 79** of rollout — **6,500 invitees**, **675 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 79** of rollout — **6,500 invitees**, **676 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **10** solved in last 24h
-- **675** tickets total since launch · contact rate **10%** of 6500 invitees
+- **8** new tickets in last 24h · **10** solved in last 24h
+- **676** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -140,7 +140,7 @@ _(none in last 24h)_
 - **solved**: 267
 - **open**: 36
 - **pending**: 32
-- **new**: 25
+- **new**: 26
 - **hold**: 9
 
 ## Service (cumulative)
@@ -214,6 +214,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption
   > Was wondering if encryption was going to be implemented in the future
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#8488](https://tbpro.zendesk.com/agent/tickets/8488)** · Re: Correction: Thundermail Early Bird Access
+  > AVISO Esta dirección de correo electrónico ([email]) ya no se encuentra operativa, por lo que no será atendida ni se dará respuesta a los mensajes recibidos a través de la misma.…
+- **[#8477](https://tbpro.zendesk.com/agent/tickets/8477)** · Attempting to setup two secondary Thundermail email addresses 
+  > Hello, I have been in contact several times over the past couple of days in an attempt to unscramble my invite to join Thundermail. Its a work in progress but moving forward ……
+
 ### Webmail — 1 tickets
 
 - **[#8483](https://tbpro.zendesk.com/agent/tickets/8483)** · Custom domain send from, appointment location setting.
@@ -223,11 +230,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8481](https://tbpro.zendesk.com/agent/tickets/8481)** · LinkedIn unable to verify email
   > I'm not receiving verification codes from LinkedIn from the root@phoebeharris@xyz alias.
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#8477](https://tbpro.zendesk.com/agent/tickets/8477)** · Attempting to setup two secondary Thundermail email addresses 
-  > Hello, I have been in contact several times over the past couple of days in an attempt to unscramble my invite to join Thundermail. Its a work in progress but moving forward ……
 
 ### Aliases — 1 tickets
 
@@ -243,6 +245,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [open] · 2026-09-08T02:51 · Account encryption
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
 - [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [new] · 2026-09-08T07:12 · Keine Mails mehr
+- [8488](https://tbpro.zendesk.com/agent/tickets/8488) · [new] · 2026-09-08T07:51 · Re: Correction: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
