@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 18:19 ET** · refreshes hourly_  
+_Updated: **2026-09-08 19:19 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **349 tickets** so fa
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
-- **Median AHT**: 131.8h · mean 146.3h (proxy: updated_at − created_at, 269 solved tickets)
+- **Median AHT**: 131.9h · mean 145.9h (proxy: updated_at − created_at, 272 solved tickets)
 
 ## Known problems — 2 problem(s), 31 incident(s)
 
@@ -124,9 +124,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 269
-- **pending**: 56
-- **open**: 19
+- **solved**: 272
+- **pending**: 57
+- **open**: 15
 - **hold**: 4
 - **closed**: 1
 
@@ -141,20 +141,20 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 86
+- **curious** + **explained**: 87
 - **blocked** + **explained**: 62
 - **change request** + **actioned**: 50
 - **blocked** + **investigated**: 18
 - **concerned** + **explained**: 15
 - **curious** + **informed**: 14
-- **request** + **redirected**: 13
 - **confused** + **explained**: 13
+- **request** + **redirected**: 13
 - **blocked** + **redirected**: 7
 - **confused** + **informed**: 7
 - **telling us** + **explained**: 6
 - **blocked** + **escalated**: 6
 - **concerned** + **—**: 6
-- **blocked** + **informed**: 4
+- **blocked** + **informed**: 5
 - **curious** + **actioned**: 3
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
@@ -195,9 +195,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption — why: **request** · how: **redirected**
   > Was wondering if encryption was going to be implemented in the future
 
-### Webmail — 1 tickets
+### Aliases — 2 tickets
 
-- **[#8483](https://tbpro.zendesk.com/agent/tickets/8483)** · Custom domain send from, appointment location setting.
+- **[#8474](https://tbpro.zendesk.com/agent/tickets/8474)** · Aliases in Thunderbird — why: **confused** · how: **explained**
+  > Currently Thunderbird only show the "main" mail address (@[domain]). Setting the aliases every time is not really comfortable. Could all aliases set in account settings be shown ?…
+- **[#8483](https://tbpro.zendesk.com/agent/tickets/8483)** · Custom domain send from, appointment location setting. — why: **curious** · how: **explained**
   > I have successfully connected my custom domain, but am unable to reply to email from that domain in the web app. I am able to in the Thunderbird desktop. Also, I'd like to be able…
 
 ### Account access issues — 1 tickets
@@ -207,20 +209,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#8477](https://tbpro.zendesk.com/agent/tickets/8477)** · Attempting to setup two secondary Thundermail email addresses 
+- **[#8477](https://tbpro.zendesk.com/agent/tickets/8477)** · Attempting to setup two secondary Thundermail email addresses  — why: **blocked** · how: **informed**
   > Hello, I have been in contact several times over the past couple of days in an attempt to unscramble my invite to join Thundermail. Its a work in progress but moving forward ……
-
-### Aliases — 1 tickets
-
-- **[#8474](https://tbpro.zendesk.com/agent/tickets/8474)** · Aliases in Thunderbird — why: **confused** · how: **explained**
-  > Currently Thunderbird only show the "main" mail address (@[domain]). Setting the aliases every time is not really comfortable. Could all aliases set in account settings be shown ?…
 
 ## New tickets — last 24h
 
-- [8474](https://tbpro.zendesk.com/agent/tickets/8474) · [pending] · 2026-09-07T21:17 · Aliases in Thunderbird
-- [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [open] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
+- [8474](https://tbpro.zendesk.com/agent/tickets/8474) · [open] · 2026-09-07T21:17 · Aliases in Thunderbird
+- [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [solved] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
 - [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [open] · 2026-09-08T01:41 · LinkedIn unable to verify email
-- [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [open] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
+- [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [pending] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
 - [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [pending] · 2026-09-08T02:51 · Account encryption
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [open] · 2026-09-08T03:54 · Send takes forever to upload files
 - [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [pending] · 2026-09-08T07:12 · Keine Mails mehr
