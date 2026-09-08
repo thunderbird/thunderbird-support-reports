@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-07
 
-_Updated: **2026-09-07 21:31 ET** · refreshes hourly_  
+_Updated: **2026-09-07 22:30 ET** · refreshes hourly_  
 _24h window: 2026-09-06T16:00 → 2026-09-07T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 78** of rollout — **6,500 invitees**, **670 tickets** so far (10.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 78** of rollout — **6,500 invitees**, **672 tickets** so far (10.3% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **37** solved in last 24h
-- **670** tickets total since launch · contact rate **10%** of 6500 invitees
+- **672** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 133.7h · mean 164.9h (proxy: updated_at − created_at, 269 solved tickets)
+- **Median AHT**: 133.9h · mean 165.3h (proxy: updated_at − created_at, 268 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -66,7 +66,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
   - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
   - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [closed] · 2026-07-27 · _I want to request a refund for my account_
-  - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [solved] · 2026-08-10 · _Delete Account and Refund Request_
+  - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
   - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [solved] · 2026-08-16 · _Cancel_
@@ -143,17 +143,17 @@ _No negative ratings since launch._
 
 ## Status breakdown (cumulative)
 
-- **closed**: 305
-- **solved**: 269
+- **closed**: 306
+- **solved**: 268
 - **pending**: 33
+- **new**: 28
 - **open**: 28
-- **new**: 26
 - **hold**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 355
-- **Thundermail**: 251
+- **Thundermail**: 253
 - **Appointment**: 19
 - **Send**: 18
 
