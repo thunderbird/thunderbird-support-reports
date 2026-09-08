@@ -719,8 +719,8 @@ def render_weekly_html(d: dict, public: bool = False) -> str:
 <body>
 <div class="header">
   <div class="header-badge">Thundermail · Weekly</div>
-  <div class="header-title">Weekly Executive Summary — Flight 2</div>
-  <div class="header-meta">{_h(d["week_start"])} → {_h(d["week_end"])} &nbsp;·&nbsp; Flight 2 launch: {_h(daily.LAUNCH_DATE)} &nbsp;·&nbsp; {_h(str(daily.INVITEE_COUNT))} invitees &nbsp;·&nbsp; {contact_rate:.1f}% contact rate</div>
+  <div class="header-title">Weekly Executive Summary — {_h(daily.CURRENT_FLIGHT)}</div>
+  <div class="header-meta">{_h(d["week_start"])} → {_h(d["week_end"])} &nbsp;·&nbsp; {_h(daily.CURRENT_FLIGHT)} launch: {_h(daily.LAUNCH_DATE)} &nbsp;·&nbsp; {_h(str(daily.INVITEE_COUNT))} invitees &nbsp;·&nbsp; {contact_rate:.1f}% contact rate</div>
 </div>
 """)
 
