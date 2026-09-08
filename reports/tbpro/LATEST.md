@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 00:25 ET** · refreshes hourly_  
+_Updated: **2026-09-08 01:22 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -138,9 +138,9 @@ _(none in last 24h)_
 
 - **closed**: 306
 - **solved**: 268
+- **open**: 34
 - **pending**: 33
-- **new**: 30
-- **open**: 28
+- **new**: 24
 - **hold**: 9
 
 ## Service (cumulative)
@@ -238,7 +238,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [new] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
 - [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [new] · 2026-09-08T01:41 · LinkedIn unable to verify email
 - [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [new] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
-- [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [new] · 2026-09-08T02:51 · Account encryption
+- [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [open] · 2026-09-08T02:51 · Account encryption
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
 
 ## Solved — last 24h
