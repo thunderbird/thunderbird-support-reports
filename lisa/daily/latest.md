@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 14:27 ET** · refreshes hourly_  
+_Updated: **2026-09-08 15:18 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -123,16 +123,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 263
-- **pending**: 37
-- **open**: 27
-- **new**: 17
+- **pending**: 40
+- **open**: 26
+- **new**: 15
 - **hold**: 3
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 200
-- **Thundermail**: 116
+- **Account Hub**: 199
+- **Thundermail**: 117
 - **Send**: 8
 - **Appointment**: 7
 
@@ -140,13 +140,13 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 80
+- **curious** + **explained**: 81
 - **blocked** + **explained**: 61
 - **change request** + **actioned**: 45
 - **blocked** + **investigated**: 16
 - **concerned** + **explained**: 15
+- **request** + **redirected**: 13
 - **confused** + **explained**: 12
-- **request** + **redirected**: 12
 - **curious** + **informed**: 11
 - **confused** + **informed**: 7
 - **blocked** + **redirected**: 6
@@ -187,10 +187,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, I cannot open .pdf attached files. Thank you, [name]
 - **[#8485](https://tbpro.zendesk.com/agent/tickets/8485)** · Send takes forever to upload files
   > Please improve the performance of send. I beg you. Comparable services like [domain] do a much better job at streaming encryption and uploading them. It took me an hour to create…
-- **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption
-  > Was wondering if encryption was going to be implemented in the future
 - **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr — why: **blocked** · how: **explained**
   > Guten Tag Roland ich erhalte seit 6. Sepetember keine Mails mehr auf dieses Konto. Was ist da passiert? Besten Dank für deine Rückmeldung. Jakob
+- **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption — why: **request** · how: **redirected**
+  > Was wondering if encryption was going to be implemented in the future
 
 ### Webmail — 1 tickets
 
@@ -218,7 +218,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [new] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
 - [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [new] · 2026-09-08T01:41 · LinkedIn unable to verify email
 - [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [new] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
-- [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [open] · 2026-09-08T02:51 · Account encryption
+- [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [pending] · 2026-09-08T02:51 · Account encryption
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
 - [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [pending] · 2026-09-08T07:12 · Keine Mails mehr
 - [8498](https://tbpro.zendesk.com/agent/tickets/8498) · [new] · 2026-09-08T14:58 · Attached pdf file
