@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 09:23 ET** · refreshes hourly_  
+_Updated: **2026-09-08 10:24 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 79** of rollout — **6,500 invitees**, **675 tickets** so far
 
 ## At a glance
 
-- **7** new tickets in last 24h · **10** solved in last 24h
+- **7** new tickets in last 24h · **12** solved in last 24h
 - **675** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 134.0h · mean 165.5h (proxy: updated_at − created_at, 267 solved tickets)
+- **Median AHT**: 133.7h · mean 165.2h (proxy: updated_at − created_at, 269 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -85,7 +85,7 @@ Flight 3 is **day 79** of rollout — **6,500 invitees**, **675 tickets** so far
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [solved] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [solved] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
   - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [pending] · 2026-09-03 · _Delete Account and remove data_
-  - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [pending] · 2026-09-03 · _Refund request_
+  - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [solved] · 2026-09-03 · _Refund request_
   - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [pending] · 2026-09-03 · _Refund_
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [pending] · 2026-09-04 · _Cancellation and refund_
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [open] · 2026-09-04 · _Refund_
@@ -138,9 +138,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 306
-- **solved**: 267
+- **solved**: 269
 - **open**: 37
-- **pending**: 32
+- **pending**: 30
 - **new**: 24
 - **hold**: 9
 
@@ -257,6 +257,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8296](https://tbpro.zendesk.com/agent/tickets/8296) · 2026-09-07T22:01 · Fw: Your receipt from Thunderbird Pro
 - · [8285](https://tbpro.zendesk.com/agent/tickets/8285) · 2026-09-07T22:01 · Cancel Thunderbird Pro Subscription/Refund
 - · [8181](https://tbpro.zendesk.com/agent/tickets/8181) · 2026-09-07T22:01 · can't log in??
+- · [8317](https://tbpro.zendesk.com/agent/tickets/8317) · 2026-09-08T14:02 · paYMENT PROBLEM
+- · [8315](https://tbpro.zendesk.com/agent/tickets/8315) · 2026-09-08T14:02 · Refund request
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
