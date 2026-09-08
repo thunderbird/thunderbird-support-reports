@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 14:01 ET** · refreshes hourly_  
+_Updated: **2026-09-08 14:27 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **21** solved in last 24h
+- **9** new tickets in last 24h · **23** solved in last 24h
 - **348** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 35
-- **Median AHT**: 131.3h · mean 144.8h (proxy: updated_at − created_at, 261 solved tickets)
+- **Median AHT**: 131.5h · mean 144.8h (proxy: updated_at − created_at, 263 solved tickets)
 
 ## Known problems — 2 problem(s), 30 incident(s)
 
@@ -49,7 +49,7 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
   - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [solved] · 2026-09-02 · _Please may i have a refund_
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [solved] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [solved] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
-  - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [pending] · 2026-09-03 · _Delete Account and remove data_
+  - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [solved] · 2026-09-03 · _Delete Account and remove data_
   - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [solved] · 2026-09-03 · _Refund request_
   - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [pending] · 2026-09-03 · _Refund_
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [pending] · 2026-09-04 · _Cancellation and refund_
@@ -122,8 +122,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 261
-- **pending**: 39
+- **solved**: 263
+- **pending**: 37
 - **open**: 27
 - **new**: 17
 - **hold**: 3
@@ -247,6 +247,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8294](https://tbpro.zendesk.com/agent/tickets/8294) · 2026-09-08T17:02 · I can't redirect thundermail messages to my gmail account due to [domain]'s DNS configuration.
 - 👍 [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-08T17:02 · Can't add custom domain email with two character name.
 - 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-08T17:06 · Re: Correction: Thundermail Early Bird Access
+- · [8306](https://tbpro.zendesk.com/agent/tickets/8306) · 2026-09-08T18:02 · Delete Account and remove data
+- · [8298](https://tbpro.zendesk.com/agent/tickets/8298) · 2026-09-08T18:02 · Calendar subscription URL
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
