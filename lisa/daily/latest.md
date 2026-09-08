@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 16:21 ET** · refreshes hourly_  
+_Updated: **2026-09-08 17:18 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,8 +13,8 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
 - **348** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 35
-- **Median AHT**: 131.5h · mean 145.0h (proxy: updated_at − created_at, 267 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
+- **Median AHT**: 131.8h · mean 146.0h (proxy: updated_at − created_at, 269 solved tickets)
 
 ## Known problems — 2 problem(s), 31 incident(s)
 
@@ -53,7 +53,7 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
   - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [solved] · 2026-09-03 · _Refund request_
   - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [solved] · 2026-09-03 · _Refund_
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [pending] · 2026-09-04 · _Cancellation and refund_
-  - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [open] · 2026-09-04 · _Refund_
+  - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [pending] · 2026-09-04 · _Refund_
   - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [pending] · 2026-09-05 · _Abo Widerruf_
 
 ## Other tickets linked to GitHub — 5 ticket(s) → 6 issue(s)
@@ -123,17 +123,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 267
-- **pending**: 47
-- **open**: 25
-- **new**: 5
+- **solved**: 269
+- **pending**: 56
+- **open**: 19
 - **hold**: 3
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 206
-- **Thundermail**: 113
+- **Account Hub**: 210
+- **Thundermail**: 109
 - **Send**: 8
 - **Appointment**: 7
 
@@ -141,31 +140,32 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 85
-- **blocked** + **explained**: 61
-- **change request** + **actioned**: 49
-- **blocked** + **investigated**: 17
+- **curious** + **explained**: 86
+- **blocked** + **explained**: 62
+- **change request** + **actioned**: 50
+- **blocked** + **investigated**: 18
 - **concerned** + **explained**: 15
 - **request** + **redirected**: 13
+- **curious** + **informed**: 13
 - **confused** + **explained**: 12
-- **curious** + **informed**: 12
+- **blocked** + **redirected**: 7
 - **confused** + **informed**: 7
-- **blocked** + **redirected**: 6
+- **telling us** + **explained**: 6
 - **blocked** + **escalated**: 6
 - **concerned** + **—**: 6
-- **telling us** + **explained**: 5
 - **blocked** + **informed**: 4
 - **curious** + **actioned**: 3
-- **concerned** + **informed**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
+- **concerned** + **informed**: 2
 - **telling us** + **—**: 2
 - **change request** + **explained**: 2
 - **telling us** + **escalated**: 2
 - **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
 - **change request** + **escalated**: 1
+- **curious** + **—**: 1
 - **telling us** + **n/a**: 1
 - **concerned** + **actioned**: 1
 - **other** + **—**: 1
@@ -184,10 +184,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8501](https://tbpro.zendesk.com/agent/tickets/8501)** · Server
   > Quick question, where is the TB Mail Server physically located?
-- **[#8498](https://tbpro.zendesk.com/agent/tickets/8498)** · Attached pdf file
-  > Hello, I cannot open .pdf attached files. Thank you, [name]
 - **[#8485](https://tbpro.zendesk.com/agent/tickets/8485)** · Send takes forever to upload files
   > Please improve the performance of send. I beg you. Comparable services like [domain] do a much better job at streaming encryption and uploading them. It took me an hour to create…
+- **[#8498](https://tbpro.zendesk.com/agent/tickets/8498)** · Attached pdf file — why: **blocked** · how: **explained**
+  > Hello, I cannot open .pdf attached files. Thank you, [name]
 - **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr — why: **blocked** · how: **explained**
   > Guten Tag Roland ich erhalte seit 6. Sepetember keine Mails mehr auf dieses Konto. Was ist da passiert? Besten Dank für deine Rückmeldung. Jakob
 - **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption — why: **request** · how: **redirected**
@@ -217,13 +217,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8474](https://tbpro.zendesk.com/agent/tickets/8474) · [open] · 2026-09-07T21:17 · Aliases in Thunderbird
 - [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [open] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
-- [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [new] · 2026-09-08T01:41 · LinkedIn unable to verify email
-- [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [new] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
+- [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [open] · 2026-09-08T01:41 · LinkedIn unable to verify email
+- [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [open] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
 - [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [pending] · 2026-09-08T02:51 · Account encryption
-- [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
+- [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [open] · 2026-09-08T03:54 · Send takes forever to upload files
 - [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [pending] · 2026-09-08T07:12 · Keine Mails mehr
-- [8498](https://tbpro.zendesk.com/agent/tickets/8498) · [new] · 2026-09-08T14:58 · Attached pdf file
-- [8501](https://tbpro.zendesk.com/agent/tickets/8501) · [new] · 2026-09-08T16:15 · Server
+- [8498](https://tbpro.zendesk.com/agent/tickets/8498) · [pending] · 2026-09-08T14:58 · Attached pdf file
+- [8501](https://tbpro.zendesk.com/agent/tickets/8501) · [open] · 2026-09-08T16:15 · Server
 
 ## Solved — last 24h
 
