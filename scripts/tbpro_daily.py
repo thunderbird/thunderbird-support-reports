@@ -264,9 +264,10 @@ def urgency_for(ticket):
 
 BRAND = "Thunderbird Pro"       # legacy search name — use BRAND_ID for accurate counts
 BRAND_ID = 38173138875795       # Zendesk brand ID for Thundermail (stable across renames)
-LAUNCH_DATE     = "2026-06-22"   # Flight 3 Wave 1 start (ticket counts, themes, contact rate)
+CURRENT_FLIGHT  = "Flight 8"     # Update every flight — see WAVES in tbpro_launch_overview.py
+LAUNCH_DATE     = "2026-08-10"   # Flight 8 Wave 1 start (ticket counts, themes, contact rate)
 CSAT_START_DATE = "2026-05-04"   # Early Bird launch — CSAT tracks all-time from here
-INVITEE_COUNT = 6500         # Flight 3 · Wave 1 (2026-06-22) + Wave 2 (2026-06-23) + Wave 3 (2026-06-24)
+INVITEE_COUNT = 35000        # Flight 8 waves 1-7: 1000+1000+2000+4000+3000+5000+19000 (Wave 7 = Sep 1 accidental 19k send)
 FEATUREOS_BOARD_ID = 17437
 EXCLUDE_IDS = {5441, 5866}   # Known infrastructure problems — exclude from all counts
 WATCH_PROBLEMS = set()  # No active blockers (#6682 was reclassified — not a real KP; its incidents were separate underlying problems, removed)
@@ -718,8 +719,25 @@ def build(report_date_et):
             print(f"WARN: couldn't fetch incidents for watch problem #{pid}: {e}", file=sys.stderr)
 
     # CSAT — cumulative (since launch) and 24h
-    good_cum = zd_search_all(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:good created>={CSAT_START_DATE}')
-    bad_cum = zd_search_all(f'type:ticket brand_id:{BRAND_ID} status:solved satisfaction:bad created>={CSAT_START_DATE}')
+    # NOTE: `satisfaction:good`/`satisfaction:bad` is not a valid Zendesk search
+    # field — it silently matches nothing (0 results) rather than erroring, so
+    # bad_cum was always empty and every report showed ~100% CSAT. Fixed by
+    # reading each ticket's own live satisfaction_rating.score instead — same
+    # approach tbpro_launch_overview.py's csat_score() uses, which also avoids
+    # undercounting ratings that flip good->bad and reopen the ticket (status:solved
+    # would drop those) and ratings the search index doesn't surface.
+    csat_tickets = zd_search_all(f'type:ticket brand_id:{BRAND_ID} created>={CSAT_START_DATE}')
+    csat_tickets = [t for t in csat_tickets if "closed_by_merge" not in (t.get("tags") or [])]
+    csat_tickets = [t for t in csat_tickets if (t.get("subject") or "").strip().lower() != "test"]
+    csat_tickets = [t for t in csat_tickets if t.get("submitter_id") == t.get("requester_id")]
+    csat_tickets = [t for t in csat_tickets if int(t.get("id", 0)) not in EXCLUDE_IDS]
+    csat_tickets = [t for t in csat_tickets if int(t.get("problem_id") or 0) not in EXCLUDE_IDS]
+
+    def _csat_score(t):
+        return (t.get("satisfaction_rating") or {}).get("score")
+
+    good_cum = [t for t in csat_tickets if _csat_score(t) == "good"]
+    bad_cum = [t for t in csat_tickets if _csat_score(t) == "bad"]
     good_24h = [t for t in good_cum if window_start_utc <= parse_iso(t["updated_at"]) < window_end_utc]
     bad_24h = [t for t in bad_cum if window_start_utc <= parse_iso(t["updated_at"]) < window_end_utc]
 
@@ -818,10 +836,10 @@ def render_md(d, subdomain="tbpro", public=False):
     R = redact if public else (lambda s: s)
     o = []
     gen_time_et = dt.datetime.now(ET).strftime("%Y-%m-%d %H:%M ET")
-    o.append(f"# Thundermail — Flight 3 Live Report · {d['report_date']}")
+    o.append(f"# Thundermail — {CURRENT_FLIGHT} Live Report · {d['report_date']}")
     o.append("")
     o.append(f"_Updated: **{gen_time_et}** · refreshes hourly_  ")
-    o.append(f"_24h window: {d['window_start_et'][:16]} → {d['window_end_et'][:16]} ET · Flight 3 launch: {LAUNCH_DATE} · {INVITEE_COUNT} invitees_")
+    o.append(f"_24h window: {d['window_start_et'][:16]} → {d['window_end_et'][:16]} ET · {CURRENT_FLIGHT} launch: {LAUNCH_DATE} · {INVITEE_COUNT} invitees_")
     o.append("")
 
     # TL;DR — evergreen summary
@@ -833,7 +851,7 @@ def render_md(d, subdomain="tbpro", public=False):
     days_since = (dt.date.fromisoformat(str(d["report_date"])) - dt.date.fromisoformat(LAUNCH_DATE)).days + 1
     o.append("## TL;DR")
     o.append("")
-    o.append(f"Flight 3 is **day {days_since}** of rollout — **{INVITEE_COUNT:,} invitees**, "
+    o.append(f"{CURRENT_FLIGHT} is **day {days_since}** of rollout — **{INVITEE_COUNT:,} invitees**, "
              f"**{cum} tickets** so far ({contact_rate:.1f}% contact rate). "
              f"CSAT since launch: **{csat_str}**. "
              + (f"Top theme: **{top_theme}**. " if top_theme else "")
@@ -1195,7 +1213,7 @@ def render_html(d, subdomain="tbpro", public=False):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thundermail · Flight 3 Live Report · {_h(d['report_date'])}</title>
+<title>Thundermail · {CURRENT_FLIGHT} Live Report · {_h(d['report_date'])}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>{_BOLT_CSS}</style>
@@ -1208,9 +1226,9 @@ def render_html(d, subdomain="tbpro", public=False):
     window_end   = (d.get("window_end_et")   or "")[:16]
     p.append(f"""<div class="header">
   <div class="header-badge">&#9889; Thundermail</div>
-  <div class="header-title">Flight 3 &mdash; Live Support Report &middot; {_h(d['report_date'])}</div>
+  <div class="header-title">{CURRENT_FLIGHT} &mdash; Live Support Report &middot; {_h(d['report_date'])}</div>
   <div class="header-meta">Updated: <strong>{_h(dt.datetime.now(ET).strftime("%Y-%m-%d %H:%M ET"))}</strong> &nbsp;&middot;&nbsp; refreshes hourly &nbsp;&middot;&nbsp; 24h window: {_h(window_start)} &rarr; {_h(window_end)} ET
-    &nbsp;&middot;&nbsp; Flight 3 launch: {_h(LAUNCH_DATE)} &nbsp;&middot;&nbsp; {_h(INVITEE_COUNT)} invitees</div>
+    &nbsp;&middot;&nbsp; {CURRENT_FLIGHT} launch: {_h(LAUNCH_DATE)} &nbsp;&middot;&nbsp; {_h(INVITEE_COUNT)} invitees</div>
 </div>
 """)
 
@@ -1225,7 +1243,7 @@ def render_html(d, subdomain="tbpro", public=False):
     _theme_str = f" &nbsp;·&nbsp; Top theme: <strong>{_h(_top_theme)}</strong>" if _top_theme else ""
     p.append(f'<div style="background:var(--surface-2);border:1px solid var(--border);border-left:4px solid var(--primary);'
              f'border-radius:8px;padding:.9rem 1.25rem;margin-bottom:1.5rem;font-size:.88rem;line-height:1.6">'
-             f'<strong>Flight 3 · Day {_days}</strong> &nbsp;·&nbsp; '
+             f'<strong>{CURRENT_FLIGHT} · Day {_days}</strong> &nbsp;·&nbsp; '
              f'<strong>{INVITEE_COUNT:,}</strong> invitees &nbsp;·&nbsp; '
              f'<strong>{cum}</strong> tickets ({_cr} contact rate) &nbsp;·&nbsp; '
              f'CSAT: <strong>{_csat_tl}</strong>'
@@ -1619,7 +1637,7 @@ def main():
     (legacy_dir / "LATEST.md").write_text(md)
 
     if args.post_to_notion:
-        title = f"Thundermail · Flight 3 · {report_date.isoformat()}"
+        title = f"Thundermail · {CURRENT_FLIGHT} · {report_date.isoformat()}"
         url = post_to_notion(title, md)
         if url:
             print(f"Posted to Notion: {url}", file=sys.stderr)

@@ -1,65 +1,30 @@
-# Thundermail — Flight 3 Live Report · 2026-09-08
+# Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 13:21 ET** · refreshes hourly_  
-_24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
+_Updated: **2026-09-08 14:01 ET** · refreshes hourly_  
+_24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 79** of rollout — **6,500 invitees**, **677 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **21** solved in last 24h
-- **677** tickets total since launch · contact rate **10%** of 6500 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 100%  (19 good / 0 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 133.9h · mean 164.5h (proxy: updated_at − created_at, 276 solved tickets)
+- **348** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (since launch)**: 92%  (111 good / 9 bad)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 35
+- **Median AHT**: 131.3h · mean 144.8h (proxy: updated_at − created_at, 261 solved tickets)
 
-## Known problems — 6 problem(s), 63 incident(s)
-
-### [#6512](https://tbpro.zendesk.com/agent/tickets/6512) · [hold] · [Accounts PR1023] Custom-domain outbound mail not being DKIM-signed
-- 2 incident(s):
-  - [#6496](https://tbpro.zendesk.com/agent/tickets/6496) · [closed] · 2026-06-30 · _Custom Domain DKIM not working_
-  - [#6598](https://tbpro.zendesk.com/agent/tickets/6598) · [hold] · 2026-07-03 · _DKIM keys not published for lund.to — CNAME targets return NXDOMAIN_
-
-### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
-- 4 incident(s):
-  - [#6520](https://tbpro.zendesk.com/agent/tickets/6520) · [closed] · 2026-06-30 · _Signup Issue_
-  - [#6678](https://tbpro.zendesk.com/agent/tickets/6678) · [closed] · 2026-07-07 · _no confirmation email_
-  - [#6692](https://tbpro.zendesk.com/agent/tickets/6692) · [closed] · 2026-07-07 · _Stuck at email verifcation_
-  - [#6840](https://tbpro.zendesk.com/agent/tickets/6840) · [closed] · 2026-07-14 · _No confirmation email received on signup._
+## Known problems — 2 problem(s), 30 incident(s)
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
-- 2 incident(s):
-  - [#6722](https://tbpro.zendesk.com/agent/tickets/6722) · [closed] · 2026-07-08 · _Webmail - no mail from own domain_
+- 1 incident(s):
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 51 incident(s):
-  - [#6389](https://tbpro.zendesk.com/agent/tickets/6389) · [closed] · 2026-06-24 · _Forgot password_
-  - [#6493](https://tbpro.zendesk.com/agent/tickets/6493) · [closed] · 2026-06-30 · _Refund_
-  - [#6505](https://tbpro.zendesk.com/agent/tickets/6505) · [closed] · 2026-06-30 · _Billed for trial period_
-  - [#6535](https://tbpro.zendesk.com/agent/tickets/6535) · [closed] · 2026-07-01 · _Cancel Thundermail_
-  - [#6725](https://tbpro.zendesk.com/agent/tickets/6725) · [closed] · 2026-07-08 · _Refund_
-  - [#6730](https://tbpro.zendesk.com/agent/tickets/6730) · [closed] · 2026-07-09 · _Request Refund_
-  - [#6741](https://tbpro.zendesk.com/agent/tickets/6741) · [closed] · 2026-07-09 · _Cancel subscription and refund_
-  - [#6752](https://tbpro.zendesk.com/agent/tickets/6752) · [solved] · 2026-07-10 · _How to use Thundermail as I used to do with Thunderbird_
-  - [#6836](https://tbpro.zendesk.com/agent/tickets/6836) · [closed] · 2026-07-14 · _Declaration of Withdrawal_
-  - [#6853](https://tbpro.zendesk.com/agent/tickets/6853) · [closed] · 2026-07-14 · _Unintended annual subscription_
-  - [#6860](https://tbpro.zendesk.com/agent/tickets/6860) · [closed] · 2026-07-14 · _Immediate Contract Withdrawal & Refund Request - Account: [email]_
-  - [#6903](https://tbpro.zendesk.com/agent/tickets/6903) · [closed] · 2026-07-16 · _Refund Request_
-  - [#6943](https://tbpro.zendesk.com/agent/tickets/6943) · [closed] · 2026-07-18 · _how to set up the email address in thunderbird 115.18.0_
-  - [#7006](https://tbpro.zendesk.com/agent/tickets/7006) · [closed] · 2026-07-21 · _Cancellation Request & Account Deletion – Order txn_01ky2nb79szcfvffddmdprkjvc_
-  - [#7009](https://tbpro.zendesk.com/agent/tickets/7009) · [closed] · 2026-07-21 · _Refund due to poor service_
-  - [#7010](https://tbpro.zendesk.com/agent/tickets/7010) · [closed] · 2026-07-21 · _Cancel_
-  - [#7027](https://tbpro.zendesk.com/agent/tickets/7027) · [closed] · 2026-07-21 · _Closure of my account and refund_
-  - [#7035](https://tbpro.zendesk.com/agent/tickets/7035) · [closed] · 2026-07-22 · _Cancellation and Refund Request – Thundermail Subscription_
-  - [#7043](https://tbpro.zendesk.com/agent/tickets/7043) · [closed] · 2026-07-22 · _Request for Cancellation and Refund_
-  - [#7046](https://tbpro.zendesk.com/agent/tickets/7046) · [solved] · 2026-07-22 · _Withdrawal of my Thunderbird Pro subscription from July 21, 2026_
-  - [#7064](https://tbpro.zendesk.com/agent/tickets/7064) · [closed] · 2026-07-22 · _Account Refund_
-  - [#7190](https://tbpro.zendesk.com/agent/tickets/7190) · [closed] · 2026-07-27 · _I want to request a refund for my account_
+- 29 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -90,19 +55,7 @@ Flight 3 is **day 79** of rollout — **6,500 invitees**, **677 tickets** so far
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [pending] · 2026-09-04 · _Cancellation and refund_
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [open] · 2026-09-04 · _Refund_
 
-### [#7235](https://tbpro.zendesk.com/agent/tickets/7235) · [hold] · [thunderbird-accounts/1154] Thunderbird blank screen with authenticating Thundermail
-- 🔧 GitHub: [thunderbird/thunderbird-accounts#1154](https://github.com/thunderbird/thunderbird-accounts/issues/1154) · _Thunderbird blank screen with authenticating Thundermail_
-- 2 incident(s):
-  - [#6654](https://tbpro.zendesk.com/agent/tickets/6654) · [closed] · 2026-07-06 · _Can't add account in Thunderbird_
-  - [#7000](https://tbpro.zendesk.com/agent/tickets/7000) · [closed] · 2026-07-21 · _Can't login in thunderbird_
-
-### [#7239](https://tbpro.zendesk.com/agent/tickets/7239) · [hold] · thunderbird-accounts/1151] - Custom Domain won't verify, needs partial domain not fully qualified (Squarespace, Namecheap, others?)
-- 🔧 GitHub: [thunderbird/thunderbird-accounts#1151](https://github.com/thunderbird/thunderbird-accounts/issues/1151) · _FQDN vs PQDN - improve the verify tool in the dashboard_
-- 2 incident(s):
-  - [#6386](https://tbpro.zendesk.com/agent/tickets/6386) · [closed] · 2026-06-24 · _Squarespace Custom Domain_
-  - [#6551](https://tbpro.zendesk.com/agent/tickets/6551) · [closed] · 2026-07-01 · _Namecheap Custom Domains_
-
-## Other tickets linked to GitHub — 14 ticket(s) → 15 issue(s)
+## Other tickets linked to GitHub — 5 ticket(s) → 6 issue(s)
 
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
@@ -110,19 +63,51 @@ Flight 3 is **day 79** of rollout — **6,500 invitees**, **677 tickets** so far
 - ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
 - ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
 - ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
-- ✅ [zd #7529](https://tbpro.zendesk.com/agent/tickets/7529) → [thunderbird/stormbox#101](https://github.com/thunderbird/stormbox/issues/101) · _menu overlaps compose window in Firefox for Android_
-- 🔧 [zd #7334](https://tbpro.zendesk.com/agent/tickets/7334) → [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
-- 🔧 [zd #7194](https://tbpro.zendesk.com/agent/tickets/7194) → [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
-- ✅ [zd #7174](https://tbpro.zendesk.com/agent/tickets/7174) → [thunderbird/appointment#1772](https://github.com/thunderbird/appointment/issues/1772) · _Appointment & Send_
-- ✅ [zd #7050](https://tbpro.zendesk.com/agent/tickets/7050) → [thunderbird/thunderbird-accounts#1159](https://github.com/thunderbird/thunderbird-accounts/issues/1159) · _New folder showing in webmail but not Thunderbird_
-- ✅ [zd #6864](https://tbpro.zendesk.com/agent/tickets/6864) → [thunderbird/thunderbird-accounts#1119](https://github.com/thunderbird/thunderbird-accounts/issues/1119) · _Paper cut: Accounts should allow @thundermail.com to be setup as a primary email_
-- ✅ [zd #6733](https://tbpro.zendesk.com/agent/tickets/6733) → [thunderbird/stormbox#61](https://github.com/thunderbird/stormbox/issues/61) · _Autocomplete improvements_
-- ✅ [zd #6635](https://tbpro.zendesk.com/agent/tickets/6635) → [thunderbird/thunderbird-accounts#1124](https://github.com/thunderbird/thunderbird-accounts/issues/1124) · _Add OAuth for Thundermail to FairEmail_
-- ✅ [zd #6606](https://tbpro.zendesk.com/agent/tickets/6606) → [thunderbird/appointment#580](https://github.com/thunderbird/appointment/issues/580) · _All day events bleed into the next day _
 
 ## Negative CSAT (since launch)
 
-_No negative ratings since launch._
+- 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · _Re: Correction: Thundermail Early Bird Access_  
+  - Reason: **Other (please share more)** · Comment: _Je veux essayer thunder mail et bird
+I want try thunder mail and bird
+Regards, [name]_
+- 👎 [7764](https://tbpro.zendesk.com/agent/tickets/7764) · _Payment_  
+  - Reason: **The product did not work as expected** · Comment: _Can you advice when Thunderbird maiil will come live. On iphone 
+Many Thanks x_
+- 👎 [7353](https://tbpro.zendesk.com/agent/tickets/7353) · _account access_  
+  - Reason: **A feature I needed was missing or hard to use** · Comment: _Hello, I am so disapointed, not because i did not like thunderbird pro/ thundermail pro. It is simply adressing for a different crowd.
+
+I was so stoke and hype getting in. 
+
+I couldn't justify the 100CAD yearly, 
+
+this is why:
+The calendar is pointless, my work place is not on mozilla and I can't bring it with my android. 
+I have no use for the 60g files sharing (maybe once or twice a year)
+The appointment scheduler is not for me as well since my work place use a different eco system.
+I don't own any domains.
+
+I basically had a privacy oriented email with 15 aliases for 100CAD a year. Don't get me wrong it is exactly what I want... but I would be paying for too much unrelated to me premiums. 
+
+I had to cancel... I am so sad I have to get back to gmail :((((( i wish we could work soething out... I just screwed my entire so anticipated beta acess :(_
+- 👎 [7018](https://tbpro.zendesk.com/agent/tickets/7018) · _Cost_  
+  - Reason: **The answer I got was unclear or unhelpful** · Comment: _You have zero concern for the people who have made your products what they are today. You only care about money._
+- 👎 [6094](https://tbpro.zendesk.com/agent/tickets/6094) · _Email alias_  
+  - Reason: **The product did not work as expected** · Comment: _Allthough I can send now mail through an alias, I now receive any mail send to an alias, in all my alias in-box._
+- 👎 [6082](https://tbpro.zendesk.com/agent/tickets/6082) · _Delete data + account_  
+  - Reason: **My issue wasn't resolved** · Comment: _Hi,
+
+I noticed I can still login to my account. Could I please get an estimate as to when my account and data will be deleted?
+
+Regards, [name]_
+- 👎 [5715](https://tbpro.zendesk.com/agent/tickets/5715) · _Person_  
+  - Reason: **My issue wasn't resolved** · Comment: _I forgot the pasword of thunderbirdmail [email], when I try to rectores, demand the thunderbird mail. But if you ansew me in the mail that can't open. I can't resolve. And I give you another mail for try to resolve, but sayong
+ Is not ypurs. And I don't know how I can resolve. Please, help me. Thanks._
+- 👎 [5655](https://tbpro.zendesk.com/agent/tickets/5655) · _No DKIM signature for mails sent from custom domain_  
+  - Reason: **Other (please share more)** · Comment: _See my email to this matter. A DKIM signature is now added to messages from my custom domain, but is evaluated differently by different services._
+- 👎 [5587](https://tbpro.zendesk.com/agent/tickets/5587) · _inloggningsproblem_  
+  - Reason: **The product did not work as expected** · Comment: _Vore bra med tydlighet i vilken ordning man ska göra saker för att få Thunderbird att fungera på datorn
+Ladda ner appen först? Eller ?
+Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
 ## Refund & cancellation tickets (last 24h) — 0
 
@@ -137,72 +122,60 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 307
-- **solved**: 276
-- **pending**: 36
-- **open**: 29
-- **new**: 19
-- **hold**: 10
+- **solved**: 261
+- **pending**: 39
+- **open**: 27
+- **new**: 17
+- **hold**: 3
+- **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 355
-- **Thundermail**: 257
-- **Send**: 19
-- **Appointment**: 19
+- **Account Hub**: 200
+- **Thundermail**: 116
+- **Send**: 8
+- **Appointment**: 7
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 159
-- **blocked** + **explained**: 123
-- **change request** + **actioned**: 80
-- **request** + **redirected**: 37
-- **blocked** + **investigated**: 31
-- **blocked** + **escalated**: 23
-- **confused** + **explained**: 22
-- **concerned** + **explained**: 21
-- **curious** + **informed**: 14
-- **blocked** + **redirected**: 9
-- **concerned** + **—**: 7
+- **curious** + **explained**: 80
+- **blocked** + **explained**: 61
+- **change request** + **actioned**: 45
+- **blocked** + **investigated**: 16
+- **concerned** + **explained**: 15
+- **confused** + **explained**: 12
+- **request** + **redirected**: 12
+- **curious** + **informed**: 11
 - **confused** + **informed**: 7
-- **blocked** + **—**: 6
-- **blocked** + **actioned**: 6
-- **request** + **explained**: 5
+- **blocked** + **redirected**: 6
+- **blocked** + **escalated**: 6
+- **concerned** + **—**: 6
 - **telling us** + **explained**: 5
-- **blocked** + **informed**: 5
-- **curious** + **actioned**: 4
-- **request** + **actioned**: 4
-- **change request** + **escalated**: 3
-- **telling us** + **—**: 3
-- **change request** + **explained**: 3
-- **telling us** + **escalated**: 3
-- **confused** + **investigated**: 3
-- **blocked** + **n/a**: 3
-- **concerned** + **investigated**: 3
+- **blocked** + **informed**: 4
+- **curious** + **actioned**: 3
 - **concerned** + **informed**: 2
-- **telling us** + **n/a**: 2
-- **curious** + **escalated**: 2
-- **other** + **n/a**: 2
+- **blocked** + **—**: 2
+- **request** + **explained**: 2
+- **telling us** + **—**: 2
+- **change request** + **explained**: 2
+- **telling us** + **escalated**: 2
+- **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
-- **telling us** + **informed**: 2
-- **curious** + **redirected**: 2
+- **change request** + **escalated**: 1
+- **telling us** + **n/a**: 1
 - **concerned** + **actioned**: 1
 - **other** + **—**: 1
 - **concerned** + **escalated**: 1
 - **other** + **investigated**: 1
 - **concerned** + **redirected**: 1
+- **curious** + **escalated**: 1
+- **other** + **n/a**: 1
+- **telling us** + **informed**: 1
+- **blocked** + **actioned**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **curious** + **—**: 1
-- **change request** + **informed**: 1
-- **telling us** + **redirected**: 1
-- **change request** + **investigated**: 1
-- **change request** + **redirected**: 1
-- **request** + **—**: 1
-- **request** + **informed**: 1
-- **confused** + **escalated**: 1
 
 ## Tickets in last 24h — by theme
 
@@ -271,9 +244,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8115](https://tbpro.zendesk.com/agent/tickets/8115) · 2026-09-08T15:35 · MFA setup on mobile
 - · [8242](https://tbpro.zendesk.com/agent/tickets/8242) · 2026-09-08T15:43 · thundermail email ID missed
 - · [8310](https://tbpro.zendesk.com/agent/tickets/8310) · 2026-09-08T17:02 · Login 
-- · [8294](https://tbpro.zendesk.com/agent/tickets/8294) · 2026-09-08T17:02 · I can't redirect thundermail messages to my gmail account due to [domain]'s DNS configuration.
-- · [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-08T17:02 · Can't add custom domain email with two character name.
-- · [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-08T17:06 · Re: Correction: Thundermail Early Bird Access
+- 👍 [8294](https://tbpro.zendesk.com/agent/tickets/8294) · 2026-09-08T17:02 · I can't redirect thundermail messages to my gmail account due to [domain]'s DNS configuration.
+- 👍 [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-08T17:02 · Can't add custom domain email with two character name.
+- 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-08T17:06 · Re: Correction: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
