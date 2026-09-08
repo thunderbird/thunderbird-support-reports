@@ -1,6 +1,6 @@
 # Thundermail — Flight 3 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 12:25 ET** · refreshes hourly_  
+_Updated: **2026-09-08 13:21 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 3 is **day 79** of rollout — **6,500 invitees**, **677 tickets** so far
 
 ## At a glance
 
-- **9** new tickets in last 24h · **17** solved in last 24h
+- **9** new tickets in last 24h · **21** solved in last 24h
 - **677** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 133.5h · mean 164.3h (proxy: updated_at − created_at, 272 solved tickets)
+- **Median AHT**: 133.9h · mean 164.5h (proxy: updated_at − created_at, 276 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -138,16 +138,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 307
-- **solved**: 272
-- **open**: 35
-- **pending**: 33
-- **new**: 21
-- **hold**: 9
+- **solved**: 276
+- **pending**: 36
+- **open**: 29
+- **new**: 19
+- **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 356
-- **Thundermail**: 255
+- **Account Hub**: 355
+- **Thundermail**: 257
 - **Send**: 19
 - **Appointment**: 19
 
@@ -156,17 +156,17 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 159
-- **blocked** + **explained**: 122
+- **blocked** + **explained**: 123
 - **change request** + **actioned**: 80
 - **request** + **redirected**: 37
-- **blocked** + **investigated**: 30
+- **blocked** + **investigated**: 31
 - **blocked** + **escalated**: 23
 - **confused** + **explained**: 22
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 14
 - **blocked** + **redirected**: 9
-- **confused** + **informed**: 7
 - **concerned** + **—**: 7
+- **confused** + **informed**: 7
 - **blocked** + **—**: 6
 - **blocked** + **actioned**: 6
 - **request** + **explained**: 5
@@ -212,12 +212,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Quick question, where is the TB Mail Server physically located?
 - **[#8498](https://tbpro.zendesk.com/agent/tickets/8498)** · Attached pdf file
   > Hello, I cannot open .pdf attached files. Thank you, [name]
-- **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr
-  > Guten Tag Roland ich erhalte seit 6. Sepetember keine Mails mehr auf dieses Konto. Was ist da passiert? Besten Dank für deine Rückmeldung. Jakob
 - **[#8485](https://tbpro.zendesk.com/agent/tickets/8485)** · Send takes forever to upload files
   > Please improve the performance of send. I beg you. Comparable services like [domain] do a much better job at streaming encryption and uploading them. It took me an hour to create…
 - **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption
   > Was wondering if encryption was going to be implemented in the future
+- **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr — why: **blocked** · how: **explained**
+  > Guten Tag Roland ich erhalte seit 6. Sepetember keine Mails mehr auf dieses Konto. Was ist da passiert? Besten Dank für deine Rückmeldung. Jakob
 
 ### Webmail — 1 tickets
 
@@ -247,7 +247,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [new] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
 - [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [open] · 2026-09-08T02:51 · Account encryption
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
-- [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [open] · 2026-09-08T07:12 · Keine Mails mehr
+- [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [pending] · 2026-09-08T07:12 · Keine Mails mehr
 - [8498](https://tbpro.zendesk.com/agent/tickets/8498) · [new] · 2026-09-08T14:58 · Attached pdf file
 - [8501](https://tbpro.zendesk.com/agent/tickets/8501) · [new] · 2026-09-08T16:15 · Server
 
@@ -270,6 +270,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8358](https://tbpro.zendesk.com/agent/tickets/8358) · 2026-09-08T15:25 · Bug in calendar sync
 - · [8115](https://tbpro.zendesk.com/agent/tickets/8115) · 2026-09-08T15:35 · MFA setup on mobile
 - · [8242](https://tbpro.zendesk.com/agent/tickets/8242) · 2026-09-08T15:43 · thundermail email ID missed
+- · [8310](https://tbpro.zendesk.com/agent/tickets/8310) · 2026-09-08T17:02 · Login 
+- · [8294](https://tbpro.zendesk.com/agent/tickets/8294) · 2026-09-08T17:02 · I can't redirect thundermail messages to my gmail account due to [domain]'s DNS configuration.
+- · [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-08T17:02 · Can't add custom domain email with two character name.
+- · [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-08T17:06 · Re: Correction: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
