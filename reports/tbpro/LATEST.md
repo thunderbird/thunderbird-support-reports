@@ -1,16 +1,16 @@
 # Thundermail — Flight 3 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 02:36 ET** · refreshes hourly_  
+_Updated: **2026-09-08 03:24 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 79** of rollout — **6,500 invitees**, **674 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 79** of rollout — **6,500 invitees**, **675 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **10** solved in last 24h
-- **674** tickets total since launch · contact rate **10%** of 6500 invitees
+- **7** new tickets in last 24h · **10** solved in last 24h
+- **675** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -140,7 +140,7 @@ _(none in last 24h)_
 - **solved**: 267
 - **open**: 36
 - **pending**: 32
-- **new**: 24
+- **new**: 25
 - **hold**: 9
 
 ## Service (cumulative)
@@ -205,8 +205,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr
+  > Guten Tag Roland ich erhalte seit 6. Sepetember keine Mails mehr auf dieses Konto. Was ist da passiert? Besten Dank für deine Rückmeldung. Jakob
 - **[#8485](https://tbpro.zendesk.com/agent/tickets/8485)** · Send takes forever to upload files
   > Please improve the performance of send. I beg you. Comparable services like [domain] do a much better job at streaming encryption and uploading them. It took me an hour to create…
 - **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption
@@ -240,6 +242,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [new] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
 - [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [open] · 2026-09-08T02:51 · Account encryption
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
+- [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [new] · 2026-09-08T07:12 · Keine Mails mehr
 
 ## Solved — last 24h
 
