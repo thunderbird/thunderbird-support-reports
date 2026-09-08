@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 15:18 ET** · refreshes hourly_  
+_Updated: **2026-09-08 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **23** solved in last 24h
+- **9** new tickets in last 24h · **25** solved in last 24h
 - **348** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 35
-- **Median AHT**: 131.5h · mean 144.8h (proxy: updated_at − created_at, 263 solved tickets)
+- **Median AHT**: 131.5h · mean 145.0h (proxy: updated_at − created_at, 267 solved tickets)
 
-## Known problems — 2 problem(s), 30 incident(s)
+## Known problems — 2 problem(s), 31 incident(s)
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -24,7 +24,7 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 29 incident(s):
+- 30 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -51,9 +51,10 @@ Flight 8 is **day 30** of rollout — **35,000 invitees**, **348 tickets** so fa
   - [#8296](https://tbpro.zendesk.com/agent/tickets/8296) · [solved] · 2026-09-02 · _Fw: Your receipt from Thunderbird Pro_
   - [#8306](https://tbpro.zendesk.com/agent/tickets/8306) · [solved] · 2026-09-03 · _Delete Account and remove data_
   - [#8315](https://tbpro.zendesk.com/agent/tickets/8315) · [solved] · 2026-09-03 · _Refund request_
-  - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [pending] · 2026-09-03 · _Refund_
+  - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [solved] · 2026-09-03 · _Refund_
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [pending] · 2026-09-04 · _Cancellation and refund_
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [open] · 2026-09-04 · _Refund_
+  - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [pending] · 2026-09-05 · _Abo Widerruf_
 
 ## Other tickets linked to GitHub — 5 ticket(s) → 6 issue(s)
 
@@ -122,17 +123,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 263
-- **pending**: 40
-- **open**: 26
-- **new**: 15
+- **solved**: 267
+- **pending**: 47
+- **open**: 25
+- **new**: 5
 - **hold**: 3
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 199
-- **Thundermail**: 117
+- **Account Hub**: 206
+- **Thundermail**: 113
 - **Send**: 8
 - **Appointment**: 7
 
@@ -140,14 +141,14 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 81
+- **curious** + **explained**: 85
 - **blocked** + **explained**: 61
-- **change request** + **actioned**: 45
-- **blocked** + **investigated**: 16
+- **change request** + **actioned**: 49
+- **blocked** + **investigated**: 17
 - **concerned** + **explained**: 15
 - **request** + **redirected**: 13
 - **confused** + **explained**: 12
-- **curious** + **informed**: 11
+- **curious** + **informed**: 12
 - **confused** + **informed**: 7
 - **blocked** + **redirected**: 6
 - **blocked** + **escalated**: 6
@@ -156,6 +157,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 4
 - **curious** + **actioned**: 3
 - **concerned** + **informed**: 2
+- **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
 - **telling us** + **—**: 2
@@ -171,7 +173,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **investigated**: 1
 - **concerned** + **redirected**: 1
 - **curious** + **escalated**: 1
-- **other** + **n/a**: 1
 - **telling us** + **informed**: 1
 - **blocked** + **actioned**: 1
 - **curious** + **n/a**: 1
@@ -214,8 +215,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [8474](https://tbpro.zendesk.com/agent/tickets/8474) · [new] · 2026-09-07T21:17 · Aliases in Thunderbird
-- [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [new] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
+- [8474](https://tbpro.zendesk.com/agent/tickets/8474) · [open] · 2026-09-07T21:17 · Aliases in Thunderbird
+- [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [open] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
 - [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [new] · 2026-09-08T01:41 · LinkedIn unable to verify email
 - [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [new] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
 - [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [pending] · 2026-09-08T02:51 · Account encryption
@@ -249,6 +250,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-08T17:06 · Re: Correction: Thundermail Early Bird Access
 - · [8306](https://tbpro.zendesk.com/agent/tickets/8306) · 2026-09-08T18:02 · Delete Account and remove data
 - · [8298](https://tbpro.zendesk.com/agent/tickets/8298) · 2026-09-08T18:02 · Calendar subscription URL
+- · [8412](https://tbpro.zendesk.com/agent/tickets/8412) · 2026-09-08T19:28 · bYCQNHhpYMeuATxjE
+- · [8071](https://tbpro.zendesk.com/agent/tickets/8071) · 2026-09-08T19:34 · Can’t Log In, Can’t Send Mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
