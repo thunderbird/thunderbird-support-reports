@@ -1,20 +1,20 @@
 # Thundermail — Flight 3 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 11:30 ET** · refreshes hourly_  
+_Updated: **2026-09-08 12:25 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 3 launch: 2026-06-22 · 6500 invitees_
 
 ## TL;DR
 
-Flight 3 is **day 79** of rollout — **6,500 invitees**, **676 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
+Flight 3 is **day 79** of rollout — **6,500 invitees**, **677 tickets** so far (10.4% contact rate). CSAT since launch: **100%**. Top theme: **Refund / Cancel**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **15** solved in last 24h
-- **676** tickets total since launch · contact rate **10%** of 6500 invitees
+- **9** new tickets in last 24h · **17** solved in last 24h
+- **677** tickets total since launch · contact rate **10%** of 6500 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 100%  (19 good / 0 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 133.3h · mean 165.4h (proxy: updated_at − created_at, 271 solved tickets)
+- **Median AHT**: 133.5h · mean 164.3h (proxy: updated_at − created_at, 272 solved tickets)
 
 ## Known problems — 6 problem(s), 63 incident(s)
 
@@ -137,17 +137,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 306
-- **solved**: 271
-- **open**: 38
-- **pending**: 30
-- **new**: 22
+- **closed**: 307
+- **solved**: 272
+- **open**: 35
+- **pending**: 33
+- **new**: 21
 - **hold**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 356
-- **Thundermail**: 254
+- **Thundermail**: 255
 - **Send**: 19
 - **Appointment**: 19
 
@@ -160,17 +160,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 80
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 30
+- **blocked** + **escalated**: 23
 - **confused** + **explained**: 22
-- **blocked** + **escalated**: 22
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 14
 - **blocked** + **redirected**: 9
-- **blocked** + **—**: 7
 - **confused** + **informed**: 7
 - **concerned** + **—**: 7
+- **blocked** + **—**: 6
 - **blocked** + **actioned**: 6
-- **telling us** + **explained**: 5
 - **request** + **explained**: 5
+- **telling us** + **explained**: 5
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **request** + **actioned**: 4
@@ -206,8 +206,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#8501](https://tbpro.zendesk.com/agent/tickets/8501)** · Server
+  > Quick question, where is the TB Mail Server physically located?
 - **[#8498](https://tbpro.zendesk.com/agent/tickets/8498)** · Attached pdf file
   > Hello, I cannot open .pdf attached files. Thank you, [name]
 - **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr
@@ -247,6 +249,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [new] · 2026-09-08T03:54 · Send takes forever to upload files
 - [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [open] · 2026-09-08T07:12 · Keine Mails mehr
 - [8498](https://tbpro.zendesk.com/agent/tickets/8498) · [new] · 2026-09-08T14:58 · Attached pdf file
+- [8501](https://tbpro.zendesk.com/agent/tickets/8501) · [new] · 2026-09-08T16:15 · Server
 
 ## Solved — last 24h
 
@@ -265,6 +268,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8322](https://tbpro.zendesk.com/agent/tickets/8322) · 2026-09-08T15:01 · not free?
 - · [8025](https://tbpro.zendesk.com/agent/tickets/8025) · 2026-09-08T15:01 · Customer portal email change
 - · [8358](https://tbpro.zendesk.com/agent/tickets/8358) · 2026-09-08T15:25 · Bug in calendar sync
+- · [8115](https://tbpro.zendesk.com/agent/tickets/8115) · 2026-09-08T15:35 · MFA setup on mobile
+- · [8242](https://tbpro.zendesk.com/agent/tickets/8242) · 2026-09-08T15:43 · thundermail email ID missed
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
