@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 05:25 ET** · refreshes hourly_  
+_Updated: **2026-09-09 06:23 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **350 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **351 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
-- **350** tickets total since launch · contact rate **1%** of 35000 invitees
+- **3** new tickets in last 24h · **8** solved in last 24h
+- **351** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
 - **Median AHT**: 132.1h · mean 146.8h (proxy: updated_at − created_at, 272 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"kind regards"** — 2 tickets in 24h (7.5× baseline; baseline 8 cum) — [#8509](https://tbpro.zendesk.com/agent/tickets/8509), [#8516](https://tbpro.zendesk.com/agent/tickets/8516)
 
 ## Known problems — 2 problem(s), 31 incident(s)
 
@@ -125,14 +131,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 272
-- **pending**: 54
-- **open**: 21
+- **pending**: 53
+- **open**: 22
 - **hold**: 2
+- **new**: 1
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 209
+- **Account Hub**: 210
 - **Thundermail**: 111
 - **Send**: 8
 - **Appointment**: 7
@@ -182,6 +189,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Security / hacked — 1 tickets
+
+- **[#8516](https://tbpro.zendesk.com/agent/tickets/8516)** · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
+  > Dear [name], I am contacting you because I am unable to access my existing ThunderMail account and I am concerned that there may be an issue with the account or that it may have…
+
 ### Email migration / import — 1 tickets
 
 - **[#8509](https://tbpro.zendesk.com/agent/tickets/8509)** · Additional problems
@@ -196,6 +208,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8505](https://tbpro.zendesk.com/agent/tickets/8505) · [open] · 2026-09-08T21:24 · waitlist
 - [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
+- [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [new] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 
 ## Solved — last 24h
 
