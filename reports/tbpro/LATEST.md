@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 09:22 ET** · refreshes hourly_  
+_Updated: **2026-09-09 10:22 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **352 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **355 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
-- **352** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **8** solved in last 24h
+- **355** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 37
 - **Median AHT**: 132.3h · mean 146.9h (proxy: updated_at − created_at, 271 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -26,7 +26,6 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ## Known problems — 2 problem(s), 31 incident(s)
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
-- 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
@@ -63,12 +62,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [pending] · 2026-09-04 · _Refund_
   - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [pending] · 2026-09-05 · _Abo Widerruf_
 
-## Other tickets linked to GitHub — 6 ticket(s) → 7 issue(s)
+## Other tickets linked to GitHub — 4 ticket(s) → 5 issue(s)
 
-- 🔧 [zd #8399](https://tbpro.zendesk.com/agent/tickets/8399) → [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Alias and Pro Email Address_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
-- 🔧 [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
 - ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
 - ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
 - ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
@@ -124,23 +121,26 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [iOS Application](https://ideas.tb.pro/p/ios-application) · 1 votes · _untagged_
+  > What you’d like to seeThunderbird iOS application for iPhone/iPad. With JMAP support and OpenPGP capability Why it mattersAbility to email on mobile devices using ThunderbirdYour use caseCan…
 - [Folders in Send ](https://ideas.tb.pro/p/folders-in-send) · 1 votes · _Send, New Feature, Improvement_
   > What you’d like to seeUploaded files sit all at one list rather a folder management. Like we can upload some images in a folder “Image”. A set of pdfs in a folder “Docs”. A set of media playing files…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 271
-- **pending**: 53
-- **open**: 25
+- **pending**: 54
+- **open**: 24
+- **new**: 3
 - **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 210
-- **Thundermail**: 112
+- **Account Hub**: 212
+- **Thundermail**: 111
 - **Send**: 8
 - **Appointment**: 7
 
@@ -148,7 +148,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 87
+- **curious** + **explained**: 88
 - **blocked** + **explained**: 62
 - **change request** + **actioned**: 50
 - **blocked** + **investigated**: 18
@@ -189,6 +189,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#8531](https://tbpro.zendesk.com/agent/tickets/8531)** · Funktionen
+  > Hallo, wo finde ich den Kalender?
+- **[#8530](https://tbpro.zendesk.com/agent/tickets/8530)** · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that.
+  > I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. I want to free account pleeeeeaseeeeeeee
+- **[#8528](https://tbpro.zendesk.com/agent/tickets/8528)** · Оплата
+  > Прошу дать возможность оплатить за 3 (три) месяца для тестирования и проверки работы.
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#8520](https://tbpro.zendesk.com/agent/tickets/8520)** · Unable to log in to Thundermail – password reset email not received
@@ -215,6 +224,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
 - [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [open] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [open] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
+- [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [new] · 2026-09-09T13:47 · Оплата
+- [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [new] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
+- [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [new] · 2026-09-09T13:56 · Funktionen
 
 ## Solved — last 24h
 
