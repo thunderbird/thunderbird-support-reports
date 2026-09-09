@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Capacity Overview</title>
+<style>
+  :root {
+    --bg: #0f172a; --surface: #1e293b; --border: #334155;
+    --text: #e2e8f0; --muted: #94a3b8;
+    --indigo: #6366f1; --orange: #f97316; --green: #10b981; --red: #f43f5e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font: 14px/1.6 system-ui, sans-serif; padding: 24px; }
+  h1 { font-size: 1.3rem; margin-bottom: 4px; }
+  .eyebrow { color: var(--muted); font-size: 0.8rem; margin-bottom: 20px; }
+  h2 { font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em;
+       margin: 28px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .cards { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+          padding: 14px 18px; min-width: 160px; flex: 1; }
+  .card__label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+  .card__value { font-size: 1.8rem; font-weight: 700; line-height: 1; }
+  .card__sub { font-size: 0.75rem; color: var(--muted); margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+  th { text-align: left; padding: 8px 12px; background: var(--surface); color: var(--muted);
+       font-size: 0.75rem; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  .num { font-variant-numeric: tabular-nums; }
+  small { color: var(--muted); font-size: 0.75rem; }
+  .incoming-row { background: rgba(99,102,241,.08); }
+  .note { color: var(--muted); font-size: 0.8rem; margin-bottom: 10px; }
+  .caveat { background: #451a03; border: 1px solid #b45309; border-radius: 6px;
+            padding: 10px 14px; margin-bottom: 16px; font-size: 0.85rem; color: #fed7aa; }
+  .filter-btn { background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
+                padding: .4rem 1rem; font-size: .85rem; cursor: pointer; color: var(--muted);
+                transition: all .15s; margin-right: 8px; }
+  .filter-btn:hover { border-color: var(--text); color: var(--text); }
+  .filter-btn.active { color: #0f172a; font-weight: 600; }
+  .filter-tabs { margin-bottom: 24px; }
+  .tab-section { display: none; }
+  .tab-section.active { display: block; }
+</style>
+</head>
+<body>
+<h1>Capacity Overview</h1>
+<div class="eyebrow">Generated 2026-09-09 · 4-week lookback · Aggregated by team group — no individual agent data</div>
+
+<div class="filter-tabs"><button class="filter-btn active" data-color="#94a3b8" style="background:#94a3b8;border-color:#94a3b8" onclick="showTab('overview', this)">Overview</button><button class="filter-btn" data-color="#6366f1" style="" onclick="showTab('thundermail', this)">Thundermail</button><button class="filter-btn" data-color="#f97316" style="" onclick="showTab('play-store', this)">Play Store</button><button class="filter-btn" data-color="#10b981" style="" onclick="showTab('donor-support', this)">Donor Support</button></div>
+
+
+<div class="tab-section active" data-tab="overview">
+  <h2>Support Volume by Workstream</h2>
+  <div class="cards">
+        <div class="card"><div class="card__label" style="color:#6366f1">Thundermail</div>
+          <div class="card__value">12.6/day</div>
+          <div class="card__sub">353 incoming (4w) · 90 open now</div></div>
+        <div class="card"><div class="card__label" style="color:#f97316">Play Store</div>
+          <div class="card__value">5.4/day</div>
+          <div class="card__sub">151 incoming (4w) · 48 open now</div></div>
+        <div class="card"><div class="card__label" style="color:#10b981">Donor Support</div>
+          <div class="card__value">9.5/day</div>
+          <div class="card__sub">267 incoming (4w) · 44 open now</div></div></div>
+
+  <h2>Staffing Map — Group × Brand</h2>
+  <p class="note">Tier 2 covers Thundermail backup and Play Store primary — same three people, different roles per brand. That overlap is real, not a data error.</p>
+  <table><thead><tr><th>Group</th><th style='color:#6366f1'>Thundermail</th><th style='color:#f97316'>Play Store</th><th style='color:#10b981'>Donor Support</th></tr></thead><tbody><tr><td><strong>Specialists</strong><br><small>primary</small></td><td class='num'>43.5/wk</td><td class='num'>—</td><td class='num'>—</td></tr><tr><td><strong>Tier 2</strong><br><small>backup / Play Store primary</small></td><td class='num'>28.8/wk</td><td class='num'>29.8/wk</td><td class='num'>0.8/wk</td></tr><tr><td><strong>Donor Support</strong><br><small>primary</small></td><td class='num'>—</td><td class='num'>—</td><td class='num'>61.2/wk</td></tr></tbody></table>
+</div>
+
+<div class="tab-section" data-tab="thundermail">
+  <h2>Thundermail</h2>
+  <div class="cards">
+    <div class="card"><div class="card__label" style="color:#6366f1">Incoming/day</div>
+      <div class="card__value">12.6</div><div class="card__sub">353 total (4w)</div></div>
+    <div class="card"><div class="card__label" style="color:#6366f1">Current open</div>
+      <div class="card__value">90</div><div class="card__sub">open + pending + hold</div></div></div>
+
+  <h2>Capacity by Group</h2>
+  <table><thead><tr><th>Group</th><th>Tickets/wk</th><th>Tickets/day</th></tr></thead><tbody><tr class='incoming-row'><td><em>Incoming</em></td><td class='num'>88.2</td><td class='num'>12.6</td></tr><tr><td><strong>Specialists</strong></td><td class='num'>43.5</td><td class='num'>8.7</td></tr><tr><td><strong>Tier 2</strong></td><td class='num'>28.8</td><td class='num'>5.8</td></tr></tbody></table>
+
+  <h2>Backlog Flow</h2>
+  <table>
+      <thead><tr><th>Week</th><th>Opening</th><th>New</th><th>Closed</th><th>Net</th><th>Ending</th></tr></thead>
+      <tbody><tr><td>W34</td><td class='num'>35</td><td class='num'>57</td><td class='num'>35</td><td class='num' style='color:var(--red)'>+22</td><td class='num'><strong>57</strong></td></tr><tr><td>W35</td><td class='num'>57</td><td class='num'>68</td><td class='num'>51</td><td class='num' style='color:var(--red)'>+17</td><td class='num'><strong>74</strong></td></tr><tr><td>W36</td><td class='num'>74</td><td class='num'>206</td><td class='num'>157</td><td class='num' style='color:var(--red)'>+49</td><td class='num'><strong>123</strong></td></tr><tr><td>W37</td><td class='num'>123</td><td class='num'>22</td><td class='num'>55</td><td class='num' style='color:var(--green)'>-33</td><td class='num'><strong>90</strong></td></tr></tbody>
+    </table>
+    <p class="note">Ending backlog anchored to current open count (90); reconstructed backwards.</p>
+
+  <h2>Output — Public Replies / Week</h2>
+  <table>
+      <thead><tr><th>Group</th><th>W34</th><th>W35</th><th>W36</th><th>Avg/wk</th></tr></thead>
+      <tbody><tr><td><strong>Incoming</strong></td><td class='num incoming-row'>57</td><td class='num incoming-row'>68</td><td class='num incoming-row'>206</td><td class='num incoming-row'><strong>110.3</strong></td></tr><tr><td><strong>Specialists</strong></td><td class='num '>35</td><td class='num '>48</td><td class='num '>126</td><td class='num '><strong>69.7</strong></td></tr><tr><td><strong>Tier 2</strong></td><td class='num '>55</td><td class='num '>108</td><td class='num '>110</td><td class='num '><strong>91.0</strong></td></tr><tr><td><strong>Team total</strong></td><td class='num '>90</td><td class='num '>156</td><td class='num '>236</td><td class='num '><strong>160.7</strong></td></tr></tbody>
+    </table>
+    <p class="note">Distinct tickets with ≥1 public reply that week (new + backlog) — actual output, not just assignment count.</p>
+
+  <h2>Next Reply Time</h2>
+  <table>
+      <thead><tr><th>Group</th><th>Median NRT</th><th>Mean NRT</th><th>Samples</th></tr></thead>
+      <tbody><tr style='border-bottom:2px solid var(--border)'><td><strong>Team</strong></td><td>13.0h</td><td>36.1h</td><td>757</td></tr><tr><td><strong>Specialists</strong></td><td>14.6h</td><td>20.1h</td><td>345</td></tr><tr><td><strong>Tier 2</strong></td><td>12.4h</td><td>49.4h</td><td>412</td></tr></tbody></table>
+    <p class="note">Time between a customer's follow-up and the next agent public reply. Outliers capped at 14 days.</p>
+
+  <h2>Handle Time</h2>
+  <div class="caveat">⚠️ Time Tracking app disabled here (2026-09-09) — confirmed bug: timer doesn't stop when the laptop is locked with a ticket open, and found overlapping timers across tabs. Replacement handle-time metric (reply cadence + time-in-status) coming soon.</div>
+</div>
+<div class="tab-section" data-tab="play-store">
+  <h2>Play Store</h2>
+  <div class="cards">
+    <div class="card"><div class="card__label" style="color:#f97316">Incoming/day</div>
+      <div class="card__value">5.4</div><div class="card__sub">151 total (4w)</div></div>
+    <div class="card"><div class="card__label" style="color:#f97316">Current open</div>
+      <div class="card__value">48</div><div class="card__sub">open + pending + hold</div></div></div>
+
+  <h2>Capacity by Group</h2>
+  <table><thead><tr><th>Group</th><th>Tickets/wk</th><th>Tickets/day</th></tr></thead><tbody><tr class='incoming-row'><td><em>Incoming</em></td><td class='num'>37.8</td><td class='num'>5.4</td></tr><tr><td><strong>Tier 2</strong></td><td class='num'>29.8</td><td class='num'>6.0</td></tr></tbody></table>
+
+  <h2>Backlog Flow</h2>
+  <table>
+      <thead><tr><th>Week</th><th>Opening</th><th>New</th><th>Closed</th><th>Net</th><th>Ending</th></tr></thead>
+      <tbody><tr><td>W34</td><td class='num'>77</td><td class='num'>56</td><td class='num'>27</td><td class='num' style='color:var(--red)'>+29</td><td class='num'><strong>106</strong></td></tr><tr><td>W35</td><td class='num'>106</td><td class='num'>43</td><td class='num'>44</td><td class='num' style='color:var(--green)'>-1</td><td class='num'><strong>105</strong></td></tr><tr><td>W36</td><td class='num'>105</td><td class='num'>36</td><td class='num'>24</td><td class='num' style='color:var(--red)'>+12</td><td class='num'><strong>117</strong></td></tr><tr><td>W37</td><td class='num'>117</td><td class='num'>16</td><td class='num'>85</td><td class='num' style='color:var(--green)'>-69</td><td class='num'><strong>48</strong></td></tr></tbody>
+    </table>
+    <p class="note">Ending backlog anchored to current open count (48); reconstructed backwards.</p>
+
+  <h2>Output — Public Replies / Week</h2>
+  <table>
+      <thead><tr><th>Group</th><th>W34</th><th>W35</th><th>W36</th><th>Avg/wk</th></tr></thead>
+      <tbody><tr><td><strong>Incoming</strong></td><td class='num incoming-row'>56</td><td class='num incoming-row'>43</td><td class='num incoming-row'>36</td><td class='num incoming-row'><strong>45.0</strong></td></tr><tr><td><strong>Tier 2</strong></td><td class='num '>55</td><td class='num '>108</td><td class='num '>110</td><td class='num '><strong>91.0</strong></td></tr><tr><td><strong>Team total</strong></td><td class='num '>55</td><td class='num '>108</td><td class='num '>110</td><td class='num '><strong>91.0</strong></td></tr></tbody>
+    </table>
+    <p class="note">Distinct tickets with ≥1 public reply that week (new + backlog) — actual output, not just assignment count.</p>
+
+  <h2>Next Reply Time</h2>
+  <table>
+      <thead><tr><th>Group</th><th>Median NRT</th><th>Mean NRT</th><th>Samples</th></tr></thead>
+      <tbody><tr style='border-bottom:2px solid var(--border)'><td><strong>Team</strong></td><td>12.4h</td><td>49.4h</td><td>412</td></tr><tr><td><strong>Tier 2</strong></td><td>12.4h</td><td>49.4h</td><td>412</td></tr></tbody></table>
+    <p class="note">Time between a customer's follow-up and the next agent public reply. Outliers capped at 14 days.</p>
+
+  <h2>Handle Time</h2>
+  <div class="caveat">⚠️ Time Tracking app disabled here (2026-09-09) — confirmed bug: timer doesn't stop when the laptop is locked with a ticket open, and found overlapping timers across tabs. Replacement handle-time metric (reply cadence + time-in-status) coming soon.</div>
+</div>
+<div class="tab-section" data-tab="donor-support">
+  <h2>Donor Support</h2>
+  <div class="cards">
+    <div class="card"><div class="card__label" style="color:#10b981">Incoming/day</div>
+      <div class="card__value">9.5</div><div class="card__sub">267 total (4w)</div></div>
+    <div class="card"><div class="card__label" style="color:#10b981">Current open</div>
+      <div class="card__value">44</div><div class="card__sub">open + pending + hold</div></div></div>
+
+  <h2>Capacity by Group</h2>
+  <table><thead><tr><th>Group</th><th>Tickets/wk</th><th>Tickets/day</th></tr></thead><tbody><tr class='incoming-row'><td><em>Incoming</em></td><td class='num'>66.8</td><td class='num'>9.5</td></tr><tr><td><strong>Donor Support</strong></td><td class='num'>61.2</td><td class='num'>12.2</td></tr></tbody></table>
+
+  <h2>Backlog Flow</h2>
+  <table>
+      <thead><tr><th>Week</th><th>Opening</th><th>New</th><th>Closed</th><th>Net</th><th>Ending</th></tr></thead>
+      <tbody><tr><td>W34</td><td class='num'>54</td><td class='num'>74</td><td class='num'>95</td><td class='num' style='color:var(--green)'>-21</td><td class='num'><strong>33</strong></td></tr><tr><td>W35</td><td class='num'>33</td><td class='num'>70</td><td class='num'>63</td><td class='num' style='color:var(--red)'>+7</td><td class='num'><strong>40</strong></td></tr><tr><td>W36</td><td class='num'>40</td><td class='num'>94</td><td class='num'>92</td><td class='num' style='color:var(--red)'>+2</td><td class='num'><strong>42</strong></td></tr><tr><td>W37</td><td class='num'>42</td><td class='num'>29</td><td class='num'>27</td><td class='num' style='color:var(--red)'>+2</td><td class='num'><strong>44</strong></td></tr></tbody>
+    </table>
+    <p class="note">Ending backlog anchored to current open count (44); reconstructed backwards.</p>
+
+  <h2>Output — Public Replies / Week</h2>
+  <table>
+      <thead><tr><th>Group</th><th>W34</th><th>W35</th><th>W36</th><th>Avg/wk</th></tr></thead>
+      <tbody><tr><td><strong>Incoming</strong></td><td class='num incoming-row'>74</td><td class='num incoming-row'>70</td><td class='num incoming-row'>94</td><td class='num incoming-row'><strong>79.3</strong></td></tr><tr><td><strong>Donor Support</strong></td><td class='num '>76</td><td class='num '>67</td><td class='num '>88</td><td class='num '><strong>77.0</strong></td></tr><tr><td><strong>Team total</strong></td><td class='num '>76</td><td class='num '>67</td><td class='num '>88</td><td class='num '><strong>77.0</strong></td></tr></tbody>
+    </table>
+    <p class="note">Distinct tickets with ≥1 public reply that week (new + backlog) — actual output, not just assignment count.</p>
+
+  <h2>Next Reply Time</h2>
+  <table>
+      <thead><tr><th>Group</th><th>Median NRT</th><th>Mean NRT</th><th>Samples</th></tr></thead>
+      <tbody><tr style='border-bottom:2px solid var(--border)'><td><strong>Team</strong></td><td>25.8h</td><td>38.3h</td><td>326</td></tr><tr><td><strong>Donor Support</strong></td><td>25.8h</td><td>38.3h</td><td>326</td></tr></tbody></table>
+    <p class="note">Time between a customer's follow-up and the next agent public reply. Outliers capped at 14 days.</p>
+
+  <h2>Handle Time</h2>
+  <table>
+      <thead><tr><th>Group</th><th>Median AHT</th><th>Mean AHT</th><th>Tickets w/ timer</th></tr></thead>
+      <tbody><tr><td><strong>Donor Support</strong></td><td>0.2h</td><td>0.3h</td><td>274</td></tr></tbody></table>
+    <p class="note">Time Tracking app — kept for Donor Support only (BPO contracted-hours use case; verified clean).</p>
+</div>
+
+<script>
+function showTab(tab, btn) {
+  document.querySelectorAll('.tab-section').forEach(s => s.classList.toggle('active', s.dataset.tab === tab));
+  document.querySelectorAll('.filter-btn').forEach(b => { b.classList.remove('active'); b.style.background=''; b.style.borderColor=''; });
+  btn.classList.add('active');
+  btn.style.background = btn.dataset.color;
+  btn.style.borderColor = btn.dataset.color;
+  history.replaceState(null, '', '#' + tab);
+}
+(function() {
+  const hash = window.location.hash.replace('#', '');
+  if (hash) {
+    const btn = document.querySelector(`.filter-btn[onclick*="'${hash}'"]`);
+    if (btn) showTab(hash, btn);
+  }
+})();
+</script>
+</body>
+</html>
