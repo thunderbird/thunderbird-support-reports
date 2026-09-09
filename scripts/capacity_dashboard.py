@@ -169,12 +169,14 @@ def anonymize_agents(tickets):
     return seen
 
 
-def fetch_public_replies(auth, sub, since_date, agent_map):
+def fetch_public_replies(auth, sub, since_date, agent_map, ticket_brand_map):
     """Return (reply_data, nrt_data) in one incremental-events pass, keyed by whatever
-    agent_map maps assignee_id to (group label or per-agent label — caller's choice).
+    agent_map maps assignee_id to (group label or per-agent label — caller's choice), and
+    by brand (via ticket_brand_map) — a group active on multiple brands (Tier 2) must not
+    show the same all-brand total under every brand tab.
 
-    reply_data: {label: {week_iso: distinct_ticket_count}}
-    nrt_data:   {label: [minutes]}  — customer public comment → next agent public reply.
+    reply_data: {label: {brand: {week_iso: distinct_ticket_count}}}
+    nrt_data:   {label: {brand: [minutes]}}  — customer public comment → next agent reply.
     """
     start_ts = int(dt.datetime.combine(since_date, dt.time.min,
                                         tzinfo=dt.timezone.utc).timestamp())
@@ -216,12 +218,14 @@ def fetch_public_replies(auth, sub, since_date, agent_map):
             break
         url = d.get("next_page")
 
-    reply_data = defaultdict(lambda: defaultdict(int))
-    for (author_id, _ticket_id, w) in touched:
-        reply_data[agent_map[author_id]][w] += 1
+    reply_data = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
+    for (author_id, ticket_id, w) in touched:
+        brand = ticket_brand_map.get(ticket_id, "Other")
+        reply_data[agent_map[author_id]][brand][w] += 1
 
-    nrt_data = defaultdict(list)
+    nrt_data = defaultdict(lambda: defaultdict(list))
     for tid, timeline in ticket_timeline.items():
+        brand = ticket_brand_map.get(tid, "Other")
         timeline.sort(key=lambda x: x[0])
         i = 0
         while i < len(timeline):
@@ -234,7 +238,7 @@ def fetch_public_replies(auth, sub, since_date, agent_map):
                 if next_agent is not None:
                     wait_mins = (ts_next - ts_cust) / 60
                     if 0 < wait_mins < 60 * 24 * 14:
-                        nrt_data[agent_map[next_agent]].append(wait_mins)
+                        nrt_data[agent_map[next_agent]][brand].append(wait_mins)
                     break
             i += 1
 
@@ -423,7 +427,7 @@ def group_table(weeks_data, brand, groups_in_brand):
     return f"<table><thead><tr>{header}</tr></thead><tbody>{rows}</tbody></table>"
 
 
-def reply_trend_table(weeks, reply_data, groups_in_brand, incoming_by_week_brand):
+def reply_trend_table(weeks, reply_data, brand, groups_in_brand, incoming_by_week_brand):
     full_weeks = weeks[:-1] or weeks  # exclude partial current week
 
     def wlabel(w):
@@ -438,10 +442,10 @@ def reply_trend_table(weeks, reply_data, groups_in_brand, incoming_by_week_brand
         return f"<tr><td><strong>{label}</strong></td>{cells}</tr>"
 
     inc_row = row("Incoming", incoming_by_week_brand, "incoming-row")
-    group_rows = "".join(row(g, reply_data.get(g, {})) for g in groups_in_brand)
+    group_rows = "".join(row(g, reply_data.get(g, {}).get(brand, {})) for g in groups_in_brand)
     team_week = defaultdict(int)
     for g in groups_in_brand:
-        for w, c in reply_data.get(g, {}).items():
+        for w, c in reply_data.get(g, {}).get(brand, {}).items():
             team_week[w] += c
     team_row = row("Team total", team_week)
 
@@ -452,11 +456,11 @@ def reply_trend_table(weeks, reply_data, groups_in_brand, incoming_by_week_brand
     <p class="note">Distinct tickets with ≥1 public reply that week (new + backlog) — actual output, not just assignment count.</p>"""
 
 
-def nrt_table(nrt_data, groups_in_brand):
+def nrt_table(nrt_data, brand, groups_in_brand):
     rows = ""
     all_vals = []
     for g in groups_in_brand:
-        lst = nrt_data.get(g, [])
+        lst = nrt_data.get(g, {}).get(brand, [])
         all_vals.extend(lst)
         rows += f"<tr><td><strong>{g}</strong></td><td>{med_h(lst)}</td><td>{mean_h(lst)}</td><td>{len(lst)}</td></tr>"
     if all_vals:
@@ -498,6 +502,14 @@ def brand_tab(tab_id, brand, brand_tag, weeks_data, backlog, reply_data, nrt_dat
 
     incoming_by_week_brand = {w: weeks_data["incoming_by_week"][w].get(brand, 0) for w in weeks_data["weeks"]}
 
+    reply_caveat = ""
+    if brand == "Play Store":
+        reply_caveat = ('<div class="caveat">⚠️ Public-reply and NRT numbers below are not a real '
+                         'signal for Play Store — verified via ticket audit that developer replies '
+                         'to reviews post back through the Play Console integration, not as a '
+                         'Zendesk public comment. Use Capacity by Group / Backlog Flow above for '
+                         'Play Store instead.</div>')
+
     return f"""
 <div class="tab-section" data-tab="{tab_id}">
   <h2>{brand}</h2>
@@ -508,12 +520,13 @@ def brand_tab(tab_id, brand, brand_tag, weeks_data, backlog, reply_data, nrt_dat
 
   <h2>Backlog Flow</h2>
   {backlog_table(weeks_data["weeks"], incoming_by_week_brand, backlog[0], backlog[1])}
+  {reply_caveat}
 
   <h2>Output — Public Replies / Week</h2>
-  {reply_trend_table(weeks_data["weeks"], reply_data, groups_in_brand, incoming_by_week_brand)}
+  {reply_trend_table(weeks_data["weeks"], reply_data, brand, groups_in_brand, incoming_by_week_brand)}
 
   <h2>Next Reply Time</h2>
-  {nrt_table(nrt_data, groups_in_brand)}
+  {nrt_table(nrt_data, brand, groups_in_brand)}
 
   <h2>Handle Time</h2>
   {aht_section}
@@ -643,9 +656,10 @@ def main():
         for aid, label in sorted(agent_map.items(), key=lambda x: x[1]):
             print(f"  {label}: assignee_id={aid}")
 
-    reply_data, nrt_data = fetch_public_replies(auth, sub, since, agent_map)
-    print(f"Reply data: {sum(sum(v.values()) for v in reply_data.values())} agent/group-week entries")
-    print(f"NRT samples: {sum(len(v) for v in nrt_data.values())}")
+    ticket_brand_map = {t["id"]: brand_of(t) for t in tickets}
+    reply_data, nrt_data = fetch_public_replies(auth, sub, since, agent_map, ticket_brand_map)
+    print(f"Reply data: {sum(sum(sum(bv.values()) for bv in v.values()) for v in reply_data.values())} agent/group-brand-week entries")
+    print(f"NRT samples: {sum(len(lst) for v in nrt_data.values() for lst in v.values())}")
 
     weeks_data = aggregate(tickets, aht_by_id, agent_map, today)
 
