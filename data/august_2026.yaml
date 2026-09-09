@@ -1,0 +1,341 @@
+# August 2026 — Monthly Report Config
+# Scaffolded 2026-09-09. Full July dashboard skipped (onboardings, vacations, surgery;
+# August was 4-day weeks and Lisa was out a lot). Lisa sent an 8/31 KPI note instead —
+# those numbers ARE the July baseline. August MoM compares to July, not June.
+# Zendesk (current) filled from Lisa 2026-09-09. Play Store CSVs fetched 2026-09-09 after gcloud reauth.
+
+month: August
+year: 2026
+prev_month: July
+month_num: "08"
+
+csv_tb_stable: reviews_net.thunderbird.android_202608.csv
+csv_k9: reviews_com.fsck.k9_202608.csv
+csv_tb_beta: reviews_net.thunderbird.android.beta_202608.csv
+
+# Play Store GCS methodology still applies for any MoM that spans Jan–May (manual) vs June+ (GCS).
+methodology_approved_by: mobile manager
+methodology_notes:
+  - "Play Store (June 2026+): review CSVs fetched from the Play Console GCS export bucket via scripts/fetch_reviews.py — replacing manual Play Console UI downloads used Jan–May 2026. Approved operational improvement. MoM comparisons spanning that boundary carry a methodology caveat."
+  - "Full July dashboard skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). Lisa sent an 8/31 KPI note instead — that is the July baseline. No July HTML by design."
+  - "SUMO figures use Roland's concatenation method (the SUMO API was gated behind JS). SUMO MoM deltas are August vs July."
+  - "Roland LLM_INSIGHTS latest at fetch time (2026-09-09) is still June 2026 vs May 2026. August Android/desktop LLM cluster write-ups are not available yet — PROJECT1 desktop summary is current (Aug vs Jul)."
+
+# ── ZENDESK current — Lisa 2026-09-09 ──────────────────────────────────────
+# MoM vs July 8/31 KPI note: CSAT −0.8 / Donor +7.0 / Thundermail −9.8 pts;
+# volume 767→755 (−1.6%). Donor 212→350 (+65%) — July email spoiler was ~95% from ESR appeals.
+zendesk:
+  overall_csat: 90.9          # −0.8 pts vs July 91.7
+  donor_csat: 92.7            # +7.0 pts vs July 85.7
+  donor_csat_note: null
+  tbpro_csat: 85.7            # −9.8 pts vs July 95.5
+  tbpro_csat_note: "DSATs: no monthly plan, no à la carte, price too high (100 CAD). Support satisfaction excluding those: 100%."
+  total_tickets: 755          # Donor 350 + App Store 218 + Thundermail 187 (July 767)
+  replies_to_low_star: 218    # incoming Play Store review tickets (July 272)
+  donor_tickets: 350          # July 212
+  tbpro_tickets: 187          # July 283
+  appstore_tickets: 218       # July 272
+
+# ── PREV = July 2026 from Lisa's 8/31 KPI email (not June) ─────────────────
+# generate.py prefers history.json; a 2026-07 stub is there so this is not overwritten by June.
+prev:
+  overall_csat: 91.7
+  donor_csat: 85.7
+  tbpro_csat: 95.5
+  total_tickets: 767
+  donor_tickets: 212
+  tbpro_tickets: 283
+  replies_to_low_star: 272
+  tb_avg_rating: 3.58
+  k9_avg_rating: 3.64
+  desktop_solved_rate: 64
+  desktop_questions: 751
+  desktop_ignored_pct: 18     # Roland July CSV (email had solved + questions only)
+  desktop_tc_pct: 45          # Roland July CSV
+  android_solved_rate: 60
+  android_questions: 55
+  android_ignored_pct: 29     # Roland July CSV
+  android_tc_pct: 40          # Roland July CSV
+
+# 3-month friction window: June (history) → July (8/31 email). Other July themes not in the email.
+history_neg:
+  "Push / Notification Sync": [20, 31]
+  "QR / Settings Import": [4, 25]
+  "Spam Filter Absent": [13, 22]
+
+# ── SUMO (Roland CSV fetch 2026-09-09) ──────────────────────────────────────
+# Source: REPORTS/DESKTOP/2026-08-sumo-desktop-report.csv
+#         REPORTS/ANDROID/2026-08-sumo-android-report.csv
+# Mapping: overall_solved_rate = synthetic_solved_rate;
+#          ignored_pct = ignored-percentage;
+#          trusted_contributor_pct = synthetic_solved_by_trusted_contributors-percentage.
+# July email (8/31): desktop 751 qs / 64% solved; android 55 qs / 60% solved.
+# Ignored % / TC % for prev come from Roland's July CSVs (same question counts).
+sumo:
+  desktop:
+    total_questions: 955
+    spam: 0
+    overall_solved_rate: 58
+    ignored_pct: 22
+    trusted_contributor_pct: 37
+    trusted_contributors: null
+    top_signals: []  # see roland_insights.desktop.project1
+  android:
+    total_questions: 51
+    spam: 0
+    overall_solved_rate: 61
+    ignored_pct: 27
+    trusted_contributor_pct: 45
+    contributors: []
+    top_signals: []  # strings crash generate.py (expects name/questions dicts); signals live in narrative
+    sources:
+      - "https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-08-sumo-android-report.html"
+      - "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html"
+
+# ── ROLAND ENGINEERING INSIGHTS ────────────────────────────────────────────
+roland_insights:
+  android:
+    month: "2026-08"
+    last_updated: "2026-09-09"
+    questions: 51
+    questions_mom: "−4 vs July (55)"
+    new_clusters: null
+    methodology: "KPI from Roland SUMO CSV (concatenation method). LLM_INSIGHTS latest is still June 2026 — do not treat June clusters as August signal."
+    source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-08-sumo-android-report.html"
+    top_priorities: []
+  desktop:
+    project1:
+      month: "2026-08"
+      last_updated: "2026-09-09"
+      questions: 941
+      questions_mom: "+210 (+29%) vs July 731 (PROJECT1 load; SUMO CSV is 955 questions)"
+      methodology: "PROJECT1 — regex + traditional stats; version×cause spikes and release adoption. Non-AI engineering signal."
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html"
+      version_regressions:
+        - signal: "v153 × proto:pop"
+          date: "2026-08-10"
+          questions: 4
+          lift: 3.3
+          served_pct: 75
+        - signal: "v153 × m:microsoftemail"
+          date: "2026-08-04"
+          questions: 5
+          lift: 3.3
+          served_pct: 100
+        - signal: "v153 × proto:pop"
+          date: "2026-08-14"
+          questions: 4
+          lift: 3.4
+          served_pct: 100
+          status: recurring
+        - signal: "v153 × proto:pop"
+          date: "2026-08-13"
+          questions: 4
+          lift: 3.3
+          served_pct: 100
+          status: recurring
+        - signal: "v154 × m:spectrum"
+          date: "2026-08"
+          questions: 13
+          lift: 3.1
+          served_pct: 92
+          note: "monthly grain; Spectrum/Charter send/receive after v154"
+      cause_surges:
+        - signal: "m:spectrum"
+          questions: 34
+          served_pct: 82
+          rise: 3.24
+          note: "5 → 34 MoM vs July; 3.24× vs baseline 10.5"
+        - signal: "m:yahooemail"
+          questions: 55
+          note: "30 → 55 (+83%) MoM"
+        - signal: "m:microsoftemail"
+          questions: 53
+          note: "36 → 53 (+47%) MoM"
+    llm:
+      month: "2026-06"
+      last_updated: "2026-07-05"
+      stale: true
+      note: "LLM_INSIGHTS monthly-summary-latest is still June vs May. Do not use those clusters as August desktop signal."
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html"
+      top_priorities: []
+    actions:
+      - "Triage Spectrum/Charter send-receive cluster (34 qs, 3.24×) — continues the June cert/ISP pattern into v153/v154"
+      - "Watch v153 POP retrieval failures (recurring daily spikes mid-August)"
+      - "v153 × Microsoft/Outlook auth cluster (Aug 4) — well served (100%) but spreading"
+    engineering_priority: "TBD — Lisa / desktop eng triage"
+    cert_spike:
+      note: "Spectrum cause-level surge is the August headline: 5→34 questions; weekly spikes 10–11× mid/late August. Attachments topic mix also jumped 16→49 (+206%)."
+  eng_alignment:
+    source_month: "2026-08"
+    assessment: "Play Store friction not yet computed (GCS fetch blocked). Desktop SUMO load up sharply with Spectrum/Yahoo/Microsoft provider clusters and v153/v154 adoption. Android SUMO volume flat; LLM clusters pending Roland."
+
+# ── THUNDERMAIL IDEAS (FeatureOS board 17437 — live fetch 2026-09-09) ──────
+# 192 unique posts (page 1+2, per_page=100, status=all), client-side sort by votes_count.
+# August new = created_at in 2026-08; Off-topic + one spam-looking New idea omitted.
+# generate.py will snapshot FeatureOS and diff vs June (no July snapshot exists).
+tbpro_ideas:
+  new_this_month:
+    - title: "Most email providers support multiple custom domains, but almost all of them route everything into one mailbox."
+      votes: 50
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox"
+    - title: "Monthly Subscription for testing"
+      votes: 20
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/monthly-subscription-for-testing"
+    - title: "Multiple App Passwords"
+      votes: 17
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/multiple-app-passwords"
+    - title: "Better defaulting of \"From\" address"
+      votes: 15
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/better-defaulting-of-from-address"
+    - title: "Webmail Privacy Improvement: Block Remote Images By Default"
+      votes: 10
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/webmail-privacy-improvement-block-remote-images-by-default"
+    - title: "Permission-based inbox: approve senders before they can reach you"
+      votes: 8
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/permission-based-inbox-approve-senders-before-they-can-reach-you"
+    - title: "Send later for emails in android app."
+      votes: 7
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/send-later-for-emails-in-android-app"
+    - title: "Visual server-side mail rules using JMAP Sieve"
+      votes: 6
+      tag: "Other"
+      url: "https://ideas.tb.pro/p/visual-server-side-mail-rules-using-jmap-sieve"
+    - title: "DIGITAL LEGACY"
+      votes: 5
+      tag: "Privacy & Security"
+      url: "https://ideas.tb.pro/p/digital-legacy"
+    - title: "Using Send as Receiving Portal"
+      votes: 3
+      tag: "Send"
+      url: "https://ideas.tb.pro/p/using-send-as-receiving-portal"
+    - title: "Donation on subscription"
+      votes: 2
+      tag: "Accounts & Subscriptions"
+      url: "https://ideas.tb.pro/p/donation-on-subscription"
+    - title: "Direct Subscription Management in Accounts Page"
+      votes: 1
+      tag: "Other"
+      url: "https://ideas.tb.pro/p/direct-subscription-management-in-accounts-page"
+    - title: "Schedule delete for emails I receive (Thundermail Web)"
+      votes: 1
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/schedule-delete-for-emails-i-receive-thundermail-web"
+    - title: "IP Whitelisting"
+      votes: 1
+      tag: "Privacy & Security"
+      url: "https://ideas.tb.pro/p/ip-whitelisting"
+    - title: "An idea to make Thunderbird unique with comments feature."
+      votes: 1
+      tag: "Thundermail"
+      url: "https://ideas.tb.pro/p/an-idea-to-make-thunderbird-unique-with-comments-feature"
+  top_alltime:
+    - title: "A small permanent perk for early supporters (applied on top of any tier)"
+      votes: 155
+      tag: "Other"
+      status: "Exploring the Idea"
+      url: "https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier"
+    - title: "Prevent recycling of email addresses on Thundermail domains"
+      votes: 119
+      tag: "Thundermail"
+      status: "Open for discussion"
+      url: "https://ideas.tb.pro/p/prevent-recycling-of-email-addresses-on-thundermail-domains"
+    - title: "Additional pricing tiers"
+      votes: 98
+      tag: "Accounts & Subscriptions"
+      status: "On the roadmap"
+      url: "https://ideas.tb.pro/p/additional-pricing-tiers"
+    - title: "Server Side Email Filtering"
+      votes: 87
+      tag: "Thundermail"
+      status: "On the roadmap"
+      url: "https://ideas.tb.pro/p/server-side-email-filtering"
+    - title: "Webmail for Thundermail"
+      votes: 87
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/webmail-for-thundermail"
+  in_flight:
+    - title: "Dark Mode"
+      votes: 26
+      tag: "Send"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/dark-mode"
+    - title: "Show active login sessions"
+      votes: 13
+      tag: "Privacy & Security"
+      status: "In flight"
+      url: "https://ideas.tb.pro/p/show-active-login-sessions"
+  landed:
+    - title: "Webmail for Thundermail"
+      votes: 87
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/webmail-for-thundermail"
+    - title: "Multifactor Authentication"
+      votes: 70
+      tag: "Privacy & Security"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/multifactor-authentication"
+    - title: "Unlimited aliases"
+      votes: 26
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/unlimited-aliases"
+    - title: "Allow permission to send from \"any\" email"
+      votes: 11
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/allow-permission-to-send-from-any-email"
+    - title: "15 email adresses and not 15 aliases"
+      votes: 9
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases"
+    - title: "Consider removing three character restrictions on alias for custom domains"
+      votes: 5
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/consider-removing-three-character-restrictions-on-alias-for-custom-domains"
+    - title: "Emails appear multiple times if multiple aliases are configured in the client"
+      votes: 4
+      tag: "Thundermail"
+      status: "Landed!"
+      url: "https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client"
+
+# ── NARRATIVE ──────────────────────────────────────────────────────────────
+narrative:
+  lede: "Donor tickets jumped 212→350 (+65%) on ESR appeals — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) is pricing DSATs (no monthly / no à la carte / 100 CAD), not support — adjusted support satisfaction 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
+  report_note: "No full July dashboard — skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). Lisa's 8/31 KPI note is the July baseline; MoM is August vs July. Team: Amanda + Rocky (Technical Support Specialists) onboarded; CertainlyCX for donors (Natalia, Sofia, Mc Gyver) in Donor Support Matrix. July Thundermail was 283 tickets (+141.9%) from waitlist pushes + Wellness Fridays."
+  receive_resolve_resound: |
+    **🕊 Receive**
+    - 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
+    - 564 Play Store reviews across 27 languages; 218 incoming review tickets
+    - Push/sync still #1 friction (34 negative, 31→34 — rising, no fix shipped). July QR/Settings Import spike cooled (25→3 negative)
+    - 955 desktop forum questions (751 in July) — Spectrum/Charter cluster 34 qs
+
+    **🪽 Resolve**
+    - Donor CSAT 92.7% (+7.0 pts) on the ESR-appeal spike
+    - Thundermail CSAT 85.7% is product/pricing DSATs; support satisfaction excluding those 100%
+    - Android forum solved rate 61% (+1 pt) on 51 questions
+
+    **✨ Resound**
+    - **48% of TB reviews are 5★** (220 of 456) — TB monthly average 3.74★ (+0.16 vs July)
+    - July QR/Settings Import spike (25 neg, mostly 1★) dropped to 3 negative
+    - Spam-filter negative mentions 22→18 — fewer mentions, not a shipped junk filter
+    - Thundermail **Webmail** and **MFA** show as Landed on the ideas board
+  sumo_desktop_signal: "955 questions vs July 751; solved rate 58% (July 64%). Spectrum/Charter cause surge 34 qs (3.24×). Yahoo +83%, Microsoft +47%. v153 POP spikes recurring; v154 × Spectrum monthly cluster (13 qs, 3.1×). Attachments topic mix +206%."
+  sumo_android_signal: "51 questions vs July 55; 61% solved (July 60%). Ignored 27%. No August LLM cluster report yet."
+  goal_bullets: |
+    - **Push / Notification Sync — still #1, still rising:** 34 negative (31→34) · 51 mentions · avg 2.76★ · 3-mo 20→31→34 · no product fix in market
+    - **Spam Filter Absent — #2, fewer mentions:** 18 negative (22→18) · still no junk-filter build · July QR spike (25 neg) cooled to 3 — not a current 4★ lever
+    - **Rating gap:** TB 3.74★ needs +0.26★ to 4★ (K-9 3.60★, −0.04). Converting push 1–3★ reviewers is still the primary path
+  experiments: ""
+  whats_coming_up: null

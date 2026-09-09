@@ -421,6 +421,127 @@
       "https://connect.mozilla.org/t5/ideas/thunderbird-mobile-unified-folder-for-inbox-drafts-sent-spam/idi-p/95546": 48
     }
   },
+  "2026-07": {
+    "month": "July",
+    "year": 2026,
+    "source": "Lisa 8/31 KPI email \u2014 no full July dashboard",
+    "play_store": {
+      "tb_count": null,
+      "k9_count": null,
+      "total_count": 584,
+      "tb_avg_rating": 3.58,
+      "k9_avg_rating": 3.64,
+      "combined_avg_rating": 3.59,
+      "replies_to_low_star": 272,
+      "unique_languages": 28
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 31,
+      "QR / Settings Import": 25,
+      "Spam Filter Absent": 22
+    },
+    "zendesk": {
+      "overall_csat": 91.7,
+      "donor_csat": 85.7,
+      "tbpro_csat": 95.5,
+      "total_tickets": 767,
+      "donor_tickets": 212,
+      "tbpro_tickets": 283
+    },
+    "sumo": {
+      "desktop_solved_rate": 64,
+      "desktop_ignored_pct": 18,
+      "desktop_tc_pct": 45,
+      "desktop_questions": 751,
+      "android_solved_rate": 60,
+      "android_ignored_pct": 29,
+      "android_tc_pct": 40,
+      "android_questions": 55
+    }
+  },
+  "2026-08": {
+    "month": "August",
+    "year": 2026,
+    "play_store": {
+      "tb_count": 456,
+      "k9_count": 108,
+      "total_count": 564,
+      "tb_avg_rating": 3.74,
+      "k9_avg_rating": 3.6,
+      "replies_to_low_star": 218,
+      "unique_languages": 27
+    },
+    "friction_neg": {
+      "Push / Notification Sync": 34,
+      "Crashes & Freezes": 4,
+      "Stuck Outbox / Send Failure": 5,
+      "Spam Filter Absent": 18,
+      "Calendar Missing": 3,
+      "QR / Settings Import": 3,
+      "Email Headers / Print": 3
+    },
+    "zendesk": {
+      "overall_csat": 90.9,
+      "donor_csat": 92.7,
+      "tbpro_csat": 85.7,
+      "total_tickets": 755,
+      "donor_tickets": 350,
+      "tbpro_tickets": 187
+    },
+    "sumo": {
+      "desktop_solved_rate": 58,
+      "desktop_ignored_pct": 22,
+      "desktop_tc_pct": 37,
+      "desktop_questions": 955,
+      "android_solved_rate": 61,
+      "android_ignored_pct": 27,
+      "android_tc_pct": 45,
+      "android_questions": 51
+    },
+    "tbpro_ideas": {
+      "Most email providers support multiple custom domains, but almost all of them route everything into one mailbox.": 50,
+      "Monthly Subscription for testing": 20,
+      "Multiple App Passwords": 17,
+      "Better defaulting of \"From\" address": 15,
+      "Webmail Privacy Improvement: Block Remote Images By Default": 10,
+      "Permission-based inbox: approve senders before they can reach you": 8,
+      "Send later for emails in android app.": 7,
+      "Visual server-side mail rules using JMAP Sieve": 6,
+      "DIGITAL LEGACY": 5,
+      "Using Send as Receiving Portal": 3,
+      "Donation on subscription": 2,
+      "Direct Subscription Management in Accounts Page": 1,
+      "Schedule delete for emails I receive (Thundermail Web)": 1,
+      "IP Whitelisting": 1,
+      "An idea to make Thunderbird unique with comments feature.": 1,
+      "A small permanent perk for early supporters (applied on top of any tier)": 155,
+      "Prevent recycling of email addresses on Thundermail domains": 119,
+      "Additional pricing tiers": 98,
+      "Server Side Email Filtering": 87,
+      "Webmail for Thundermail": 87,
+      "Dark Mode": 26,
+      "Show active login sessions": 13,
+      "Multifactor Authentication": 70,
+      "Unlimited aliases": 26,
+      "Allow permission to send from \"any\" email": 11,
+      "15 email adresses and not 15 aliases": 9,
+      "Consider removing three character restrictions on alias for custom domains": 5,
+      "Emails appear multiple times if multiple aliases are configured in the client": 4
+    },
+    "k9_discourse": {
+      "total_topics": 40,
+      "solved_pct": 8,
+      "unanswered_pct": 60,
+      "themes": {
+        "Notifications": 5,
+        "Attachments": 3,
+        "Setup / Accounts": 3,
+        "Crashes & Freezes": 2,
+        "Sync / Fetch": 2,
+        "Update regression": 2
+      }
+    }
+  },
   "featureos_status": {
     "2026-06": {
       "captured_at": "2026-07-02T00:03:43Z",
@@ -1124,6 +1245,711 @@
           "votes": 0,
           "status": "Off-topic",
           "updated_at": "2026-03-11T19:57:08.013Z"
+        }
+      ]
+    },
+    "2026-08": {
+      "captured_at": "2026-09-09T15:55:18Z",
+      "ideas": [
+        {
+          "slug": "a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier",
+          "title": "A small permanent perk for early supporters (applied on top of any tier)",
+          "votes": 155,
+          "status": "Exploring the Idea",
+          "updated_at": "2026-09-03T22:16:19.955Z"
+        },
+        {
+          "slug": "prevent-recycling-of-email-addresses-on-thundermail-domains",
+          "title": "Prevent recycling of email addresses on Thundermail domains",
+          "votes": 119,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T16:02:30.626Z"
+        },
+        {
+          "slug": "family-plan",
+          "title": "Family plan",
+          "votes": 76,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-31T13:47:25.115Z"
+        },
+        {
+          "slug": "fido2-for-mfa",
+          "title": "FIDO2 for MFA",
+          "votes": 69,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-02T18:19:15.820Z"
+        },
+        {
+          "slug": "let-dots-not-count-for-a-username",
+          "title": "Let dots not count for a username",
+          "votes": 66,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-21T22:04:18.013Z"
+        },
+        {
+          "slug": "most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox",
+          "title": "Most email providers support multiple custom domains, but almost all of them route everything into one mailbox.",
+          "votes": 50,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:26:02.845Z"
+        },
+        {
+          "slug": "email-hosting-for-small-businesses",
+          "title": "Email hosting for small businesses",
+          "votes": 35,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-19T16:07:13.475Z"
+        },
+        {
+          "slug": "instant-synching-with-push-notifications",
+          "title": "Instant synching with Push notifications",
+          "votes": 29,
+          "status": "By design",
+          "updated_at": "2026-08-04T15:21:17.312Z"
+        },
+        {
+          "slug": "full-calendar-support-in-webmail",
+          "title": "Full calendar support in webmail",
+          "votes": 27,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-31T13:47:34.117Z"
+        },
+        {
+          "slug": "username-as-login-instead-of-account-email",
+          "title": "Username as login instead of account email",
+          "votes": 26,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T20:42:05.053Z"
+        },
+        {
+          "slug": "send-allow-use-of-alias-as-primary-identity",
+          "title": "Send: Allow use of alias as primary identity",
+          "votes": 25,
+          "status": "New idea",
+          "updated_at": "2026-09-03T01:33:44.595Z"
+        },
+        {
+          "slug": "nested-labels-or-tags-as-in-fastmail",
+          "title": "Nested Labels (or Tags), as in Fastmail",
+          "votes": 22,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-25T16:51:01.045Z"
+        },
+        {
+          "slug": "monthly-subscription-for-testing",
+          "title": "Monthly Subscription for testing",
+          "votes": 20,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:20:05.934Z"
+        },
+        {
+          "slug": "yubikey-security-key-2fa",
+          "title": "Yubikey / security key 2FA",
+          "votes": 19,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-24T14:37:07.300Z"
+        },
+        {
+          "slug": "multiple-app-passwords",
+          "title": "Multiple App Passwords",
+          "votes": 17,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-25T01:07:12.589Z"
+        },
+        {
+          "slug": "nextcloud-and-other-privacy-focused-cloud-providers-intgration",
+          "title": "Nextcloud and other privacy focused cloud providers intgration",
+          "votes": 16,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-04T12:52:13.656Z"
+        },
+        {
+          "slug": "better-defaulting-of-from-address",
+          "title": "Better defaulting of \"From\" address",
+          "votes": 15,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-23T03:47:19.493Z"
+        },
+        {
+          "slug": "per-app-passwords",
+          "title": "Per-app passwords",
+          "votes": 14,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-24T20:33:12.448Z"
+        },
+        {
+          "slug": "built-in-aliasing",
+          "title": "Built in aliasing",
+          "votes": 13,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T04:53:42.727Z"
+        },
+        {
+          "slug": "combine-tb-pro-and-thundermail-com-aliases",
+          "title": "Combine tb.pro and thundermail.com aliases",
+          "votes": 12,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-08T18:19:35.776Z"
+        },
+        {
+          "slug": "thunderdrive-evolution-from-send-to-drive",
+          "title": "ThunderDRIVE - Evolution from 'Send' to 'Drive'",
+          "votes": 11,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-07T17:10:05.844Z"
+        },
+        {
+          "slug": "alias-identities-support-in-webmail",
+          "title": "Alias/Identities support in Webmail",
+          "votes": 11,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-06T12:07:58.044Z"
+        },
+        {
+          "slug": "new-message-and-aliases",
+          "title": "New Message and Aliases",
+          "votes": 11,
+          "status": "New idea",
+          "updated_at": "2026-09-08T21:18:12.235Z"
+        },
+        {
+          "slug": "birthdays-calendar-populated-from-contacts",
+          "title": "Birthdays calendar populated from contacts",
+          "votes": 11,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-30T17:44:39.837Z"
+        },
+        {
+          "slug": "webmail-privacy-improvement-block-remote-images-by-default",
+          "title": "Webmail Privacy Improvement: Block Remote Images By Default",
+          "votes": 10,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-31T13:46:29.137Z"
+        },
+        {
+          "slug": "appointment-allow-use-of-alias-as-primary-identity",
+          "title": "Appointment: Allow use of alias as primary identity",
+          "votes": 10,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T04:44:50.335Z"
+        },
+        {
+          "slug": "isolated-inboxes",
+          "title": "Isolated inboxes",
+          "votes": 10,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T01:41:11.583Z"
+        },
+        {
+          "slug": "allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes",
+          "title": "Allow enabling catch-all on custom domains before having to complete and verify DNS changes",
+          "votes": 10,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-10T13:32:01.889Z"
+        },
+        {
+          "slug": "24-hour-time-format-for-appointment-availability",
+          "title": "[24 hour] time format for Appointment availability",
+          "votes": 9,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-30T21:06:50.316Z"
+        },
+        {
+          "slug": "permission-based-inbox-approve-senders-before-they-can-reach-you",
+          "title": "Permission-based inbox: approve senders before they can reach you",
+          "votes": 8,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-01T21:03:01.147Z"
+        },
+        {
+          "slug": "send-later-for-emails-in-android-app",
+          "title": "Send later for emails in android app.",
+          "votes": 7,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-24T22:06:10.122Z"
+        },
+        {
+          "slug": "multiple-contact-books",
+          "title": "Multiple contact books",
+          "votes": 7,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T04:26:43.057Z"
+        },
+        {
+          "slug": "auto-dark-mode-in-webmail",
+          "title": "Auto dark mode in webmail",
+          "votes": 7,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-15T16:54:41.154Z"
+        },
+        {
+          "slug": "linux-mint-online-accounts-support",
+          "title": "Linux Mint Online Accounts Support",
+          "votes": 7,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-02T18:20:33.126Z"
+        },
+        {
+          "slug": "display-name",
+          "title": "Display Name",
+          "votes": 6,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T04:31:39.361Z"
+        },
+        {
+          "slug": "visual-server-side-mail-rules-using-jmap-sieve",
+          "title": "Visual server-side mail rules using JMAP Sieve",
+          "votes": 6,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-31T13:39:52.814Z"
+        },
+        {
+          "slug": "sso-add-sign-in-with-thundermail-oauth-openid-connect",
+          "title": "SSO - Add \"Sign in with Thundermail\" (OAuth/OpenID Connect)",
+          "votes": 6,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-20T16:23:11.853Z"
+        },
+        {
+          "slug": "keep-it-simple",
+          "title": "Keep it simple",
+          "votes": 6,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-13T13:06:10.811Z"
+        },
+        {
+          "slug": "limited-free-tier",
+          "title": "Limited Free Tier",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-08T21:18:45.806Z"
+        },
+        {
+          "slug": "digital-legacy",
+          "title": "DIGITAL LEGACY",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-27T17:22:13.766Z"
+        },
+        {
+          "slug": "hello-when-is-thundermail-expected-to-be-available-in-spanish-thanks-translated-from-hola-cuando-se-espera-que-thundermail-este-en-espanol-gracias",
+          "title": "Hello: When is Thundermail expected to be available in Spanish? Thanks. / Translated from: Hola: \u00bfCu\u00e1ndo se espera que Thundermail est\u00e9 en espa\u00f1ol? Gracias",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-28T09:01:43.234Z"
+        },
+        {
+          "slug": "consider-removing-three-character-restrictions-on-alias-for-custom-domains",
+          "title": "Consider removing three character restrictions on alias for custom domains",
+          "votes": 5,
+          "status": "Landed!",
+          "updated_at": "2026-08-19T18:44:05.389Z"
+        },
+        {
+          "slug": "exit-settings-return-to-email",
+          "title": "Exit Settings > Return to Email",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-09T00:18:30.182Z"
+        },
+        {
+          "slug": "block-sender-and-block-domain-in-webmail-not-just-mark-as-junk",
+          "title": "Block sender and block domain in webmail, not just mark as junk",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-15T16:56:14.295Z"
+        },
+        {
+          "slug": "multiple-mfa-entries-for-each-type-and-rename-able",
+          "title": "Multiple MFA entries for each type (and rename-able)",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-20T22:38:09.326Z"
+        },
+        {
+          "slug": "sms-based-multifactor-authentication",
+          "title": "SMS-based Multifactor Authentication",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-13T13:08:55.722Z"
+        },
+        {
+          "slug": "tabs",
+          "title": "Tabs",
+          "votes": 5,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-13T13:07:44.076Z"
+        },
+        {
+          "slug": "implement-localisation-for-public-pages-appointment-send",
+          "title": "implement localisation for public pages (Appointment, Send)",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-30T21:53:33.342Z"
+        },
+        {
+          "slug": "support-ical-subscriptions-in-appointments",
+          "title": "Support Ical Subscriptions in Appointments ",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-27T17:19:43.079Z"
+        },
+        {
+          "slug": "appointment-dashboard-calendars-should-honor-colors-in-settings",
+          "title": "Appointment: Dashboard calendars should honor colors in settings",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-23T18:10:34.890Z"
+        },
+        {
+          "slug": "time-out-for-site",
+          "title": "Time Out for Site",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-15T17:12:40.871Z"
+        },
+        {
+          "slug": "missing-cname-record-_mta-sts",
+          "title": "Missing cname record!!!! _mta-sts",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-06T14:51:30.863Z"
+        },
+        {
+          "slug": "email-based-multifactor-authentication",
+          "title": "Email-based Multifactor Authentication",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-13T13:08:44.487Z"
+        },
+        {
+          "slug": "fast-user-switching-web-mail",
+          "title": "Fast User Switching (Web Mail)",
+          "votes": 4,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-08T03:50:01.834Z"
+        },
+        {
+          "slug": "clarify-alias-reuse",
+          "title": "Clarify alias reuse",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T04:52:10.173Z"
+        },
+        {
+          "slug": "calender-allow-using-custom-domain-alias-for-event-invites",
+          "title": "Calender: Allow using custom domain alias for event invites",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-02T20:21:35.094Z"
+        },
+        {
+          "slug": "gmail-integration",
+          "title": "Gmail integration",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:11:27.214Z"
+        },
+        {
+          "slug": "using-send-as-receiving-portal",
+          "title": "Using Send as Receiving Portal",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-24T20:35:17.507Z"
+        },
+        {
+          "slug": "link-directly-to-messages-in-webmail",
+          "title": "link directly to messages in webmail ",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-01T13:26:04.872Z"
+        },
+        {
+          "slug": "paid-bookings",
+          "title": "Paid bookings",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-28T01:20:53.797Z"
+        },
+        {
+          "slug": "account-merging-for-early-supporters",
+          "title": "Account Merging for Early Supporters",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-01T13:24:23.514Z"
+        },
+        {
+          "slug": "sign-send-extension",
+          "title": "Sign send extension",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-17T13:37:10.873Z"
+        },
+        {
+          "slug": "automatic-email-reminders-for-calendar-events",
+          "title": "Automatic email reminders for calendar events",
+          "votes": 3,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-24T20:54:13.568Z"
+        },
+        {
+          "slug": "calendar-automatic-event-updates",
+          "title": "Calendar: Automatic event updates",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-08T21:09:30.385Z"
+        },
+        {
+          "slug": "auto-categorize-emails",
+          "title": "Auto categorize emails",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T09:02:14.490Z"
+        },
+        {
+          "slug": "connect-autoresponders-to-aliases",
+          "title": "Connect autoresponders to aliases",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:03:37.486Z"
+        },
+        {
+          "slug": "donation-on-subscription",
+          "title": "Donation on subscription ",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-31T13:46:45.687Z"
+        },
+        {
+          "slug": "ability-to-center-the-appointment-dashboard-on-the-current-date",
+          "title": "Ability to center the Appointment Dashboard on the current date",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-20T09:33:32.394Z"
+        },
+        {
+          "slug": "collaborative-shared-accounts",
+          "title": "Collaborative / Shared accounts",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-20T12:18:02.380Z"
+        },
+        {
+          "slug": "ability-to-upload-folders-and-file-structures",
+          "title": "Ability to upload folders and file structures",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-18T13:39:00.356Z"
+        },
+        {
+          "slug": "calendar",
+          "title": "Calendar",
+          "votes": 2,
+          "status": "By design",
+          "updated_at": "2026-07-28T20:01:46.619Z"
+        },
+        {
+          "slug": "webmail-columns",
+          "title": "Webmail columns",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-13T15:59:09.884Z"
+        },
+        {
+          "slug": "auto-add-person-to-an-email",
+          "title": "Auto-add person to an email",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-08T03:57:57.636Z"
+        },
+        {
+          "slug": "dns-setup-and-monitoring-of-dmarc-spf-dkim-etc",
+          "title": "DNS setup and monitoring of: DMARC, SPF, DKIM, etc.",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-02T18:20:21.744Z"
+        },
+        {
+          "slug": "sync-notes-and-create-a-call-feature-voip",
+          "title": "Sync notes and create a call feature VOIP. ",
+          "votes": 2,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-10T07:07:32.808Z"
+        },
+        {
+          "slug": "pgp-encryption-support",
+          "title": "PGP encryption support",
+          "votes": 1,
+          "status": "New idea",
+          "updated_at": "2026-09-09T15:44:42.883Z"
+        },
+        {
+          "slug": "ios-application",
+          "title": "iOS Application",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-09-09T15:43:41.131Z"
+        },
+        {
+          "slug": "folders-in-send",
+          "title": "Folders in Send ",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-08T21:28:16.185Z"
+        },
+        {
+          "slug": "adding-other-mail-provider-with-pop3-smtp",
+          "title": "Adding other mail provider (with POP3/SMTP)",
+          "votes": 1,
+          "status": "New idea",
+          "updated_at": "2026-09-09T15:36:42.142Z"
+        },
+        {
+          "slug": "blocking-individual-alias-addresses",
+          "title": "Blocking individual alias addresses",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-08T21:20:00.605Z"
+        },
+        {
+          "slug": "additional-address-books",
+          "title": "Additional address books",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-05T04:28:44.879Z"
+        },
+        {
+          "slug": "move-to-button-search-box",
+          "title": "Move to button/search box",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T14:58:19.352Z"
+        },
+        {
+          "slug": "add-private-cryptocurrency-payment-options-monero-xmr",
+          "title": "Add Private-Cryptocurrency Payment Options | Monero (XMR)",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:18:28.547Z"
+        },
+        {
+          "slug": "quick-search-for-emails-from-the-same-sender",
+          "title": "Quick Search for emails from the same sender",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:13:15.621Z"
+        },
+        {
+          "slug": "allow-mail-sent-to-aliases-to-be-auto-forwarded",
+          "title": "Allow mail sent to aliases to be auto-forwarded",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:05:44.672Z"
+        },
+        {
+          "slug": "direct-subscription-management-in-accounts-page",
+          "title": "Direct Subscription Management in Accounts Page",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-09-03T07:01:41.885Z"
+        },
+        {
+          "slug": "schedule-delete-for-emails-i-receive-thundermail-web",
+          "title": "Schedule delete for emails I receive (Thundermail Web)",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-27T17:22:20.405Z"
+        },
+        {
+          "slug": "one-qex-tab-atand-social",
+          "title": "oNe!qex.tab.ATaND.social",
+          "votes": 1,
+          "status": "New idea",
+          "updated_at": "2026-08-25T17:59:57.993Z"
+        },
+        {
+          "slug": "payment",
+          "title": "Payment",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-08-24T20:53:55.962Z"
+        },
+        {
+          "slug": "ip-whitelisting",
+          "title": "IP Whitelisting",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-19T16:30:44.288Z"
+        },
+        {
+          "slug": "an-idea-to-make-thunderbird-unique-with-comments-feature",
+          "title": "An idea to make Thunderbird unique with comments feature. ",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-08-31T13:47:12.803Z"
+        },
+        {
+          "slug": "tmail-com",
+          "title": "@tmail.com",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-08-19T16:59:15.061Z"
+        },
+        {
+          "slug": "coinciding-appointment-titles-overlay-and-are-unreadable",
+          "title": "Coinciding appointment titles overlay and are unreadable",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-09-09T15:43:12.042Z"
+        },
+        {
+          "slug": "rss-feed-access-missing-from-spaces",
+          "title": "RSS Feed Access Missing from Spaces",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-08-19T16:13:03.829Z"
+        },
+        {
+          "slug": "accessibility-values",
+          "title": "Accessibility Values",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-08-19T18:22:29.019Z"
+        },
+        {
+          "slug": "loading-blocked-remote-content",
+          "title": "Loading \"Blocked Remote Content\"",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-09-02T18:22:21.395Z"
+        },
+        {
+          "slug": "tracking-of-updates-seguimiento-de-novedades",
+          "title": "TRACKING OF UPDATES / SEGUIMIENTO DE NOVEDADES",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-08-04T18:04:11.632Z"
+        },
+        {
+          "slug": "moving-the-window-dividers",
+          "title": "Moving the window dividers",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-21T19:06:16.851Z"
+        },
+        {
+          "slug": "implementazione-codice-app-procedures-cloud",
+          "title": "Implementazione Codice \"app.Procedures.Cloud\"",
+          "votes": 1,
+          "status": "Open for discussion",
+          "updated_at": "2026-07-02T23:37:14.351Z"
+        },
+        {
+          "slug": "enable-jmap-even-if-thunderbird-does-not-support-it-yet",
+          "title": "Enable JMAP even if Thunderbird does not support it yet.",
+          "votes": 1,
+          "status": "Off-topic",
+          "updated_at": "2026-07-02T23:35:13.418Z"
         }
       ]
     }
