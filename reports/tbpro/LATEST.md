@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-09-08
+# Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-08 23:26 ET** · refreshes hourly_  
-_24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-09 00:26 ET** · refreshes hourly_  
+_24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 30** of rollout — **35,000 invitees**, **350 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **350 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **24** solved in last 24h
+- **2** new tickets in last 24h · **9** solved in last 24h
 - **350** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
 - **Median AHT**: 131.9h · mean 146.3h (proxy: updated_at − created_at, 273 solved tickets)
@@ -119,8 +119,8 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Adding other mail provider (with POP3/SMTP)](https://ideas.tb.pro/p/adding-other-mail-provider-with-pop3-smtp) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvementUsing pop3/imap to fetch mails from other mail providersAnd smtp to send as with other mail address. Why it mattersWhat problem does…
+- [Folders in Send ](https://ideas.tb.pro/p/folders-in-send) · 1 votes · _Send, New Feature, Improvement_
+  > What you’d like to seeUploaded files sit all at one list rather a folder management. Like we can upload some images in a folder “Image”. A set of pdfs in a folder “Docs”. A set of media playing files…
 
 ## Status breakdown (cumulative)
 
@@ -182,74 +182,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Email migration / import — 1 tickets
 
-- **[#8501](https://tbpro.zendesk.com/agent/tickets/8501)** · Server
-  > Quick question, where is the TB Mail Server physically located?
-- **[#8485](https://tbpro.zendesk.com/agent/tickets/8485)** · Send takes forever to upload files
-  > Please improve the performance of send. I beg you. Comparable services like [domain] do a much better job at streaming encryption and uploading them. It took me an hour to create…
-- **[#8498](https://tbpro.zendesk.com/agent/tickets/8498)** · Attached pdf file — why: **blocked** · how: **explained**
-  > Hello, I cannot open .pdf attached files. Thank you, [name]
-- **[#8486](https://tbpro.zendesk.com/agent/tickets/8486)** · Keine Mails mehr — why: **blocked** · how: **explained**
-  > Guten Tag Roland ich erhalte seit 6. Sepetember keine Mails mehr auf dieses Konto. Was ist da passiert? Besten Dank für deine Rückmeldung. Jakob
-- **[#8484](https://tbpro.zendesk.com/agent/tickets/8484)** · Account encryption — why: **request** · how: **redirected**
-  > Was wondering if encryption was going to be implemented in the future
-
-### Aliases — 2 tickets
-
-- **[#8474](https://tbpro.zendesk.com/agent/tickets/8474)** · Aliases in Thunderbird — why: **confused** · how: **explained**
-  > Currently Thunderbird only show the "main" mail address (@[domain]). Setting the aliases every time is not really comfortable. Could all aliases set in account settings be shown ?…
-- **[#8483](https://tbpro.zendesk.com/agent/tickets/8483)** · Custom domain send from, appointment location setting. — why: **curious** · how: **explained**
-  > I have successfully connected my custom domain, but am unable to reply to email from that domain in the web app. I am able to in the Thunderbird desktop. Also, I'd like to be able…
-
-### Account access issues — 1 tickets
-
-- **[#8481](https://tbpro.zendesk.com/agent/tickets/8481)** · LinkedIn unable to verify email
-  > I'm not receiving verification codes from LinkedIn from the root@phoebeharris@xyz alias.
+- **[#8509](https://tbpro.zendesk.com/agent/tickets/8509)** · Additional problems
+  > Thanks for your message, Amanda. This is Nicholas Merolla, [email]. I received your message on my T-mail browser interface; but, I cannot send or receive messages on the browser…
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#8477](https://tbpro.zendesk.com/agent/tickets/8477)** · Attempting to setup two secondary Thundermail email addresses  — why: **blocked** · how: **informed**
-  > Hello, I have been in contact several times over the past couple of days in an attempt to unscramble my invite to join Thundermail. Its a work in progress but moving forward ……
+- **[#8505](https://tbpro.zendesk.com/agent/tickets/8505)** · waitlist
+  > How quickly is the waitlist moving? I read there was no waitlist as of sept 1. I signed up last week and anxiously awaiting an invite so that I can de-google my email and…
 
 ## New tickets — last 24h
 
-- [8474](https://tbpro.zendesk.com/agent/tickets/8474) · [open] · 2026-09-07T21:17 · Aliases in Thunderbird
-- [8477](https://tbpro.zendesk.com/agent/tickets/8477) · [solved] · 2026-09-07T22:49 · Attempting to setup two secondary Thundermail email addresses 
-- [8481](https://tbpro.zendesk.com/agent/tickets/8481) · [open] · 2026-09-08T01:41 · LinkedIn unable to verify email
-- [8483](https://tbpro.zendesk.com/agent/tickets/8483) · [pending] · 2026-09-08T02:23 · Custom domain send from, appointment location setting.
-- [8484](https://tbpro.zendesk.com/agent/tickets/8484) · [pending] · 2026-09-08T02:51 · Account encryption
-- [8485](https://tbpro.zendesk.com/agent/tickets/8485) · [open] · 2026-09-08T03:54 · Send takes forever to upload files
-- [8486](https://tbpro.zendesk.com/agent/tickets/8486) · [pending] · 2026-09-08T07:12 · Keine Mails mehr
-- [8498](https://tbpro.zendesk.com/agent/tickets/8498) · [pending] · 2026-09-08T14:58 · Attached pdf file
-- [8501](https://tbpro.zendesk.com/agent/tickets/8501) · [open] · 2026-09-08T16:15 · Server
+- [8505](https://tbpro.zendesk.com/agent/tickets/8505) · [open] · 2026-09-08T21:24 · waitlist
+- [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
 
 ## Solved — last 24h
 
-- · [8266](https://tbpro.zendesk.com/agent/tickets/8266) · 2026-09-07T20:01 · Re: Correction: Thundermail Early Bird Access
-- · [8255](https://tbpro.zendesk.com/agent/tickets/8255) · 2026-09-07T20:01 · AW: Correction: Thundermail Early Bird Access
-- · [8251](https://tbpro.zendesk.com/agent/tickets/8251) · 2026-09-07T20:01 · Email Encryption
-- · [8224](https://tbpro.zendesk.com/agent/tickets/8224) · 2026-09-07T20:01 · Cannot sign in to new thundermail account
-- · [8191](https://tbpro.zendesk.com/agent/tickets/8191) · 2026-09-07T20:01 · No DKIM on outgoing mails
-- · [8246](https://tbpro.zendesk.com/agent/tickets/8246) · 2026-09-07T21:01 · Refund please
-- · [7875](https://tbpro.zendesk.com/agent/tickets/7875) · 2026-09-07T21:01 · Payment Failure
-- · [8296](https://tbpro.zendesk.com/agent/tickets/8296) · 2026-09-07T22:01 · Fw: Your receipt from Thunderbird Pro
-- · [8285](https://tbpro.zendesk.com/agent/tickets/8285) · 2026-09-07T22:01 · Cancel Thunderbird Pro Subscription/Refund
-- · [8181](https://tbpro.zendesk.com/agent/tickets/8181) · 2026-09-07T22:01 · can't log in??
-- · [8317](https://tbpro.zendesk.com/agent/tickets/8317) · 2026-09-08T14:02 · paYMENT PROBLEM
-- · [8315](https://tbpro.zendesk.com/agent/tickets/8315) · 2026-09-08T14:02 · Refund request
-- · [8322](https://tbpro.zendesk.com/agent/tickets/8322) · 2026-09-08T15:01 · not free?
-- · [8025](https://tbpro.zendesk.com/agent/tickets/8025) · 2026-09-08T15:01 · Customer portal email change
-- · [8358](https://tbpro.zendesk.com/agent/tickets/8358) · 2026-09-08T15:25 · Bug in calendar sync
-- · [8115](https://tbpro.zendesk.com/agent/tickets/8115) · 2026-09-08T15:35 · MFA setup on mobile
-- · [8242](https://tbpro.zendesk.com/agent/tickets/8242) · 2026-09-08T15:43 · thundermail email ID missed
-- · [8310](https://tbpro.zendesk.com/agent/tickets/8310) · 2026-09-08T17:02 · Login 
-- 👍 [8294](https://tbpro.zendesk.com/agent/tickets/8294) · 2026-09-08T17:02 · I can't redirect thundermail messages to my gmail account due to [domain]'s DNS configuration.
-- 👍 [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-08T17:02 · Can't add custom domain email with two character name.
-- 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · 2026-09-08T17:06 · Re: Correction: Thundermail Early Bird Access
-- · [8306](https://tbpro.zendesk.com/agent/tickets/8306) · 2026-09-08T18:02 · Delete Account and remove data
-- · [8298](https://tbpro.zendesk.com/agent/tickets/8298) · 2026-09-08T18:02 · Calendar subscription URL
-- · [8412](https://tbpro.zendesk.com/agent/tickets/8412) · 2026-09-08T19:28 · bYCQNHhpYMeuATxjE
+- · [8328](https://tbpro.zendesk.com/agent/tickets/8328) · 2026-09-08T20:02 · Refund
+- · [8086](https://tbpro.zendesk.com/agent/tickets/8086) · 2026-09-08T20:02 · Issues 
+- · [8241](https://tbpro.zendesk.com/agent/tickets/8241) · 2026-09-08T21:01 · Can't receive email
+- · [7903](https://tbpro.zendesk.com/agent/tickets/7903) · 2026-09-08T21:17 · Custom Domain with Godaddy 
+- · [7977](https://tbpro.zendesk.com/agent/tickets/7977) · 2026-09-08T22:01 · Multiple calendars
+- · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-08T23:01 · Attempting to setup two secondary Thundermail email addresses 
+- · [8304](https://tbpro.zendesk.com/agent/tickets/8304) · 2026-09-08T23:01 · Issue S/MIME certificates
+- · [8219](https://tbpro.zendesk.com/agent/tickets/8219) · 2026-09-08T23:01 · Thundermail Login
+- · [8071](https://tbpro.zendesk.com/agent/tickets/8071) · 2026-09-09T01:54 · Can’t Log In, Can’t Send Mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
