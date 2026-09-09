@@ -60,5 +60,18 @@ jobs:
             echo "No changes."
           else
             git commit -m "Thundermail launch overview · $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            # Retry to absorb races with concurrent pushes (human or other scheduled runs).
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "Push failed after $attempt attempts." >&2
+                exit 1
+              fi
+              echo "Push attempt $attempt failed; rebasing on origin/main and retrying…"
+              git pull --rebase origin main
+              sleep $((attempt * 5))
+            done
           fi
