@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 18:19 ET** · refreshes hourly_  
+_Updated: **2026-09-09 19:20 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **362 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **363 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **20** solved in last 24h
-- **362** tickets total since launch · contact rate **1%** of 35000 invitees
+- **363** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
-- **Median AHT**: 133.3h · mean 147.4h (proxy: updated_at − created_at, 287 solved tickets)
+- **Median AHT**: 133.1h · mean 147.3h (proxy: updated_at − created_at, 288 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -127,12 +127,14 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · _Request for full refund – Thundermail subscription purchased by mistake_
   > Hello, I am writing to formally request the cancellation of my Thundermail Early Access subscription and a full refund of the €72 annual payment (€6/month billed annually). I subscribed because I was trying to obtain…
 - [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
   > Dear [name], I recently registered for a Thundermail account and paid €72 for the subscription. However, after signing up, I noticed that the option to integrate external email accounts (other postboxes) is not…
+- [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [open] · _Cancel subscription_
+  > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was evaluating Thundermail for, I'd like to…
 
 ## New ideas on FeatureOS
 
@@ -151,16 +153,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 287
-- **pending**: 58
-- **open**: 13
-- **hold**: 3
+- **solved**: 288
+- **pending**: 57
+- **open**: 15
+- **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 218
-- **Thundermail**: 113
+- **Thundermail**: 114
 - **Send**: 8
 - **Appointment**: 7
 
@@ -183,8 +185,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
-- **telling us** + **escalated**: 2
 - **change request** + **escalated**: 2
+- **telling us** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
