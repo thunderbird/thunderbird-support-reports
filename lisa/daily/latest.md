@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 12:24 ET** · refreshes hourly_  
+_Updated: **2026-09-09 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 31** of rollout — **35,000 invitees**, **358 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **14** solved in last 24h
+- **10** new tickets in last 24h · **15** solved in last 24h
 - **358** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 38
-- **Median AHT**: 132.3h · mean 147.2h (proxy: updated_at − created_at, 273 solved tickets)
+- **Median AHT**: 132.6h · mean 147.2h (proxy: updated_at − created_at, 274 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -25,7 +25,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"recovery address"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8520](https://tbpro.zendesk.com/agent/tickets/8520)
 - **"kind regards"** — 2 tickets in 24h (7.5× baseline; baseline 8 cum) — [#8509](https://tbpro.zendesk.com/agent/tickets/8509), [#8516](https://tbpro.zendesk.com/agent/tickets/8516)
 
-## Known problems — 2 problem(s), 31 incident(s)
+## Known problems — 2 problem(s), 35 incident(s)
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -33,7 +33,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 30 incident(s):
+- 34 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -64,6 +64,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [solved] · 2026-09-04 · _Cancellation and refund_
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [pending] · 2026-09-04 · _Refund_
   - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [pending] · 2026-09-05 · _Abo Widerruf_
+  - [#8391](https://tbpro.zendesk.com/agent/tickets/8391) · [pending] · 2026-09-05 · _Cancel and refund within 14 days_
+  - [#8423](https://tbpro.zendesk.com/agent/tickets/8423) · [pending] · 2026-09-06 · _Cancel/Refund_
+  - [#8449](https://tbpro.zendesk.com/agent/tickets/8449) · [pending] · 2026-09-07 · _Cancellation refund request_
+  - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [pending] · 2026-09-07 · _Delte my Account_
 
 ## Other tickets linked to GitHub — 6 ticket(s) → 7 issue(s)
 
@@ -140,10 +144,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 273
-- **pending**: 55
+- **solved**: 274
+- **pending**: 56
 - **open**: 25
-- **new**: 2
 - **hold**: 2
 - **closed**: 1
 
@@ -245,8 +248,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [open] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [open] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
 - [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [open] · 2026-09-09T13:47 · Оплата
-- [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [new] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
-- [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [new] · 2026-09-09T13:56 · Funktionen
+- [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [open] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
+- [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [open] · 2026-09-09T13:56 · Funktionen
 - [8532](https://tbpro.zendesk.com/agent/tickets/8532) · [open] · 2026-09-09T14:29 · Trial Account
 - [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [open] · 2026-09-09T14:31 · Request for full refund – Thundermail subscription purchased by mistake
 - [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [open] · 2026-09-09T14:35 · Cancellation & Refund Request / Feature Inquiry – [[email]]
@@ -267,6 +270,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8242](https://tbpro.zendesk.com/agent/tickets/8242) · 2026-09-09T16:02 · thundermail email ID missed
 - · [8115](https://tbpro.zendesk.com/agent/tickets/8115) · 2026-09-09T16:02 · MFA setup on mobile
 - · [8335](https://tbpro.zendesk.com/agent/tickets/8335) · 2026-09-09T16:02 · Card payment
+- · [8332](https://tbpro.zendesk.com/agent/tickets/8332) · 2026-09-09T17:02 · Payment for Thundermail Early Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
