@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 14:27 ET** · refreshes hourly_  
+_Updated: **2026-09-09 15:17 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **360 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **361 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **19** solved in last 24h
-- **360** tickets total since launch · contact rate **1%** of 35000 invitees
+- **13** new tickets in last 24h · **21** solved in last 24h
+- **361** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 38
-- **Median AHT**: 133.1h · mean 147.1h (proxy: updated_at − created_at, 278 solved tickets)
+- **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
+- **Median AHT**: 133.1h · mean 147.0h (proxy: updated_at − created_at, 280 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -135,27 +135,31 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 5 new:
 
+- [Resume uploads in send](https://ideas.tb.pro/p/resume-uploads-in-send) · 1 votes · _Send, New Feature, Improvement_
+  > What you’d like to seeWhen sharing large files or videos, sometimes my upload fails partway because of network instability or whatever other reason. Adding some checkpointing to allow resuming…
+- [Duplicate detection in Send](https://ideas.tb.pro/p/duplicate-detection-in-send) · 1 votes · _Send, New Feature, Improvement_
+  > What you’d like to seeIf I have previously uploaded a file to send, the file should not have to be encrypted and uploaded again when sharing with more people.You could use checksums to detect this.…
 - [PGP encryption support](https://ideas.tb.pro/p/pgp-encryption-support) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.I’d like to see implemented PGP encryption. Why it mattersWhat problem does this solve, or what benefit does it bring?PGP is the gold…
 - [iOS Application](https://ideas.tb.pro/p/ios-application) · 1 votes · _untagged_
   > What you’d like to seeThunderbird iOS application for iPhone/iPad. With JMAP support and OpenPGP capability Why it mattersAbility to email on mobile devices using ThunderbirdYour use caseCan…
-- [Folders in Send ](https://ideas.tb.pro/p/folders-in-send) · 1 votes · _Send, New Feature, Improvement_
+- [Folders in Send ](https://ideas.tb.pro/p/folders-in-send) · 2 votes · _Send, New Feature, Improvement_
   > What you’d like to seeUploaded files sit all at one list rather a folder management. Like we can upload some images in a folder “Image”. A set of pdfs in a folder “Docs”. A set of media playing files…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 278
-- **pending**: 60
+- **solved**: 280
+- **pending**: 59
 - **open**: 20
 - **hold**: 1
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 216
-- **Thundermail**: 112
+- **Account Hub**: 217
+- **Thundermail**: 113
 - **Send**: 8
 - **Appointment**: 7
 
@@ -168,14 +172,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 52
 - **blocked** + **investigated**: 18
 - **concerned** + **explained**: 15
-- **curious** + **informed**: 14
 - **request** + **redirected**: 14
-- **confused** + **explained**: 13
+- **curious** + **informed**: 14
+- **confused** + **explained**: 14
+- **confused** + **informed**: 7
 - **blocked** + **redirected**: 7
 - **blocked** + **escalated**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
-- **confused** + **informed**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **change request** + **escalated**: 2
@@ -207,11 +211,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#8540](https://tbpro.zendesk.com/agent/tickets/8540)** · Thunderbird email
-  > Think I had an issue i mistakingly hit the email mask and dried to clear it. The name i wanted was tayayr but seems like some of the mask characters didn't clear!
 - **[#8539](https://tbpro.zendesk.com/agent/tickets/8539)** · US soveriegnity
   > I am a EU citizen can my data be hosted in EU if i join
-- **[#8531](https://tbpro.zendesk.com/agent/tickets/8531)** · Funktionen
+- **[#8540](https://tbpro.zendesk.com/agent/tickets/8540)** · Thunderbird email — why: **confused** · how: **informed**
+  > Think I had an issue i mistakingly hit the email mask and dried to clear it. The name i wanted was tayayr but seems like some of the mask characters didn't clear!
+- **[#8531](https://tbpro.zendesk.com/agent/tickets/8531)** · Funktionen — why: **confused** · how: **explained**
   > Hallo, wo finde ich den Kalender?
 
 ### Spam / Junk Filtering — 2 tickets
@@ -234,6 +238,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello. thank you for the invitation. I have always used Thunderbird as my mail client on my desktop and mobile however before I pay I would like to get trial period of atleast…
 - **[#8530](https://tbpro.zendesk.com/agent/tickets/8530)** · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. — why: **curious** · how: **explained**
   > I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. I want to free account pleeeeeaseeeeeeee
+
+### Account access issues — 1 tickets
+
+- **[#8541](https://tbpro.zendesk.com/agent/tickets/8541)** · Multiuser plan
+  > Greetings. I would like to set up a Thundermail account but I would like to tie it with my custom domain, and also offer a login and a separate inbox to my father. Your plan does…
 
 ### Security / hacked — 1 tickets
 
@@ -258,12 +267,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [open] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
 - [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [pending] · 2026-09-09T13:47 · Оплата
 - [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [pending] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
-- [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [open] · 2026-09-09T13:56 · Funktionen
+- [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [pending] · 2026-09-09T13:56 · Funktionen
 - [8532](https://tbpro.zendesk.com/agent/tickets/8532) · [pending] · 2026-09-09T14:29 · Trial Account
 - [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09T14:31 · Request for full refund – Thundermail subscription purchased by mistake
 - [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09T14:35 · Cancellation & Refund Request / Feature Inquiry – [[email]]
 - [8539](https://tbpro.zendesk.com/agent/tickets/8539) · [open] · 2026-09-09T17:27 · US soveriegnity
-- [8540](https://tbpro.zendesk.com/agent/tickets/8540) · [open] · 2026-09-09T17:47 · Thunderbird email
+- [8540](https://tbpro.zendesk.com/agent/tickets/8540) · [pending] · 2026-09-09T17:47 · Thunderbird email
+- [8541](https://tbpro.zendesk.com/agent/tickets/8541) · [open] · 2026-09-09T18:40 · Multiuser plan
 
 ## Solved — last 24h
 
@@ -286,6 +296,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8333](https://tbpro.zendesk.com/agent/tickets/8333) · 2026-09-09T18:01 · Signing up for Thundermail
 - · [8331](https://tbpro.zendesk.com/agent/tickets/8331) · 2026-09-09T18:01 · Email change
 - · [8301](https://tbpro.zendesk.com/agent/tickets/8301) · 2026-09-09T18:01 · Email Address + Reddit Problem
+- · [8360](https://tbpro.zendesk.com/agent/tickets/8360) · 2026-09-09T19:02 · Alias
+- · [8344](https://tbpro.zendesk.com/agent/tickets/8344) · 2026-09-09T19:02 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
