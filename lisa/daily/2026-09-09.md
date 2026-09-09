@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 17:18 ET** · refreshes hourly_  
+_Updated: **2026-09-09 18:19 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **361 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **362 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **21** solved in last 24h
-- **361** tickets total since launch · contact rate **1%** of 35000 invitees
+- **13** new tickets in last 24h · **20** solved in last 24h
+- **362** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
-- **Median AHT**: 133.1h · mean 147.2h (proxy: updated_at − created_at, 284 solved tickets)
+- **Median AHT**: 133.3h · mean 147.4h (proxy: updated_at − created_at, 287 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -151,15 +151,15 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 284
-- **pending**: 60
-- **open**: 14
-- **hold**: 2
+- **solved**: 287
+- **pending**: 58
+- **open**: 13
+- **hold**: 3
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 217
+- **Account Hub**: 218
 - **Thundermail**: 113
 - **Send**: 8
 - **Appointment**: 7
@@ -183,10 +183,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
-- **blocked** + **—**: 2
 - **telling us** + **escalated**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
+- **blocked** + **—**: 2
 - **request** + **explained**: 2
 - **concerned** + **informed**: 2
 - **telling us** + **—**: 2
@@ -280,7 +280,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8328](https://tbpro.zendesk.com/agent/tickets/8328) · 2026-09-08T20:02 · Refund
 - · [8086](https://tbpro.zendesk.com/agent/tickets/8086) · 2026-09-08T20:02 · Issues 
 - · [8241](https://tbpro.zendesk.com/agent/tickets/8241) · 2026-09-08T21:01 · Can't receive email
-- · [7903](https://tbpro.zendesk.com/agent/tickets/7903) · 2026-09-08T21:17 · Custom Domain with Godaddy 
 - · [7977](https://tbpro.zendesk.com/agent/tickets/7977) · 2026-09-08T22:01 · Multiple calendars
 - · [8304](https://tbpro.zendesk.com/agent/tickets/8304) · 2026-09-08T23:01 · Issue S/MIME certificates
 - · [8219](https://tbpro.zendesk.com/agent/tickets/8219) · 2026-09-08T23:01 · Thundermail Login
