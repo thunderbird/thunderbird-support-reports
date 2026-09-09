@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 06:23 ET** · refreshes hourly_  
+_Updated: **2026-09-09 07:20 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **351 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **352 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **351** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **8** solved in last 24h
+- **352** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
@@ -20,6 +20,7 @@ Flight 8 is **day 31** of rollout — **35,000 invitees**, **351 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"recovery address"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8520](https://tbpro.zendesk.com/agent/tickets/8520)
 - **"kind regards"** — 2 tickets in 24h (7.5× baseline; baseline 8 cum) — [#8509](https://tbpro.zendesk.com/agent/tickets/8509), [#8516](https://tbpro.zendesk.com/agent/tickets/8516)
 
 ## Known problems — 2 problem(s), 31 incident(s)
@@ -132,15 +133,14 @@ _(none in last 24h)_
 
 - **solved**: 272
 - **pending**: 53
-- **open**: 22
+- **open**: 24
 - **hold**: 2
-- **new**: 1
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 210
-- **Thundermail**: 111
+- **Thundermail**: 112
 - **Send**: 8
 - **Appointment**: 7
 
@@ -189,6 +189,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#8520](https://tbpro.zendesk.com/agent/tickets/8520)** · Unable to log in to Thundermail – password reset email not received
+  > Hello! I’m an Early Bird user of Thundermail. Today Thunderbird asked me to sign in to my Thundermail account again, but my password is no longer accepted. I also tried signing in…
+
 ### Security / hacked — 1 tickets
 
 - **[#8516](https://tbpro.zendesk.com/agent/tickets/8516)** · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
@@ -208,7 +213,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8505](https://tbpro.zendesk.com/agent/tickets/8505) · [open] · 2026-09-08T21:24 · waitlist
 - [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
-- [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [new] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
+- [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [open] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
+- [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [open] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
 
 ## Solved — last 24h
 
