@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-08
 
-_Updated: **2026-09-08 22:31 ET** · refreshes hourly_  
+_Updated: **2026-09-08 23:26 ET** · refreshes hourly_  
 _24h window: 2026-09-07T16:00 → 2026-09-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -126,9 +126,8 @@ _(none in last 24h)_
 
 - **solved**: 273
 - **pending**: 57
-- **open**: 13
-- **hold**: 5
-- **new**: 1
+- **open**: 16
+- **hold**: 3
 - **closed**: 1
 
 ## Service (cumulative)
@@ -152,19 +151,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 13
 - **blocked** + **redirected**: 7
 - **confused** + **informed**: 7
-- **telling us** + **explained**: 6
 - **blocked** + **escalated**: 6
+- **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 3
 - **change request** + **escalated**: 2
+- **telling us** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
 - **concerned** + **informed**: 2
 - **telling us** + **—**: 2
 - **change request** + **explained**: 2
-- **telling us** + **escalated**: 2
 - **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **investigated**: 1
