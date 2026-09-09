@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 01:22 ET** · refreshes hourly_  
+_Updated: **2026-09-09 02:37 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 31** of rollout — **35,000 invitees**, **350 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **9** solved in last 24h
+- **2** new tickets in last 24h · **8** solved in last 24h
 - **350** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 36
-- **Median AHT**: 131.9h · mean 146.3h (proxy: updated_at − created_at, 273 solved tickets)
+- **Median AHT**: 132.1h · mean 146.8h (proxy: updated_at − created_at, 272 solved tickets)
 
 ## Known problems — 2 problem(s), 31 incident(s)
 
@@ -124,9 +124,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 273
-- **pending**: 56
-- **open**: 17
+- **solved**: 272
+- **pending**: 55
+- **open**: 19
 - **hold**: 3
 - **closed**: 1
 
@@ -204,7 +204,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8241](https://tbpro.zendesk.com/agent/tickets/8241) · 2026-09-08T21:01 · Can't receive email
 - · [7903](https://tbpro.zendesk.com/agent/tickets/7903) · 2026-09-08T21:17 · Custom Domain with Godaddy 
 - · [7977](https://tbpro.zendesk.com/agent/tickets/7977) · 2026-09-08T22:01 · Multiple calendars
-- · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-08T23:01 · Attempting to setup two secondary Thundermail email addresses 
 - · [8304](https://tbpro.zendesk.com/agent/tickets/8304) · 2026-09-08T23:01 · Issue S/MIME certificates
 - · [8219](https://tbpro.zendesk.com/agent/tickets/8219) · 2026-09-08T23:01 · Thundermail Login
 - · [8071](https://tbpro.zendesk.com/agent/tickets/8071) · 2026-09-09T01:54 · Can’t Log In, Can’t Send Mail
