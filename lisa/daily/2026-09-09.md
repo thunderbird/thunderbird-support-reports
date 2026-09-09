@@ -1,31 +1,31 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 13:19 ET** · refreshes hourly_  
+_Updated: **2026-09-09 14:27 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **358 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **360 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **15** solved in last 24h
-- **358** tickets total since launch · contact rate **1%** of 35000 invitees
+- **12** new tickets in last 24h · **19** solved in last 24h
+- **360** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 38
-- **Median AHT**: 132.6h · mean 147.2h (proxy: updated_at − created_at, 274 solved tickets)
+- **Median AHT**: 133.1h · mean 147.1h (proxy: updated_at − created_at, 278 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"cancellation refund"** — 2 tickets in 24h (20.0× baseline; baseline 3 cum) — [#8533](https://tbpro.zendesk.com/agent/tickets/8533), [#8534](https://tbpro.zendesk.com/agent/tickets/8534)
-- **"dear team"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8534](https://tbpro.zendesk.com/agent/tickets/8534)
 - **"recovery address"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8520](https://tbpro.zendesk.com/agent/tickets/8520)
+- **"dear team"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8534](https://tbpro.zendesk.com/agent/tickets/8534)
 - **"kind regards"** — 2 tickets in 24h (7.5× baseline; baseline 8 cum) — [#8509](https://tbpro.zendesk.com/agent/tickets/8509), [#8516](https://tbpro.zendesk.com/agent/tickets/8516)
 
-## Known problems — 2 problem(s), 35 incident(s)
+## Known problems — 2 problem(s), 37 incident(s)
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - 🔧 GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -33,7 +33,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 34 incident(s):
+- 36 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -68,6 +68,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8423](https://tbpro.zendesk.com/agent/tickets/8423) · [pending] · 2026-09-06 · _Cancel/Refund_
   - [#8449](https://tbpro.zendesk.com/agent/tickets/8449) · [pending] · 2026-09-07 · _Cancellation refund request_
   - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [pending] · 2026-09-07 · _Delte my Account_
+  - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
+  - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
 
 ## Other tickets linked to GitHub — 6 ticket(s) → 7 issue(s)
 
@@ -126,9 +128,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [open] · _Request for full refund – Thundermail subscription purchased by mistake_
+- [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · _Request for full refund – Thundermail subscription purchased by mistake_
   > Hello, I am writing to formally request the cancellation of my Thundermail Early Access subscription and a full refund of the €72 annual payment (€6/month billed annually). I subscribed because I was trying to obtain…
-- [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [open] · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
+- [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
   > Dear [name], I recently registered for a Thundermail account and paid €72 for the subscription. However, after signing up, I noticed that the option to integrate external email accounts (other postboxes) is not…
 
 ## New ideas on FeatureOS
@@ -144,16 +146,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 274
-- **pending**: 56
-- **open**: 25
-- **hold**: 2
+- **solved**: 278
+- **pending**: 60
+- **open**: 20
+- **hold**: 1
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 213
-- **Thundermail**: 113
+- **Account Hub**: 216
+- **Thundermail**: 112
 - **Send**: 8
 - **Appointment**: 7
 
@@ -161,9 +163,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 88
+- **curious** + **explained**: 91
 - **blocked** + **explained**: 63
-- **change request** + **actioned**: 50
+- **change request** + **actioned**: 52
 - **blocked** + **investigated**: 18
 - **concerned** + **explained**: 15
 - **curious** + **informed**: 14
@@ -205,19 +207,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
+- **[#8540](https://tbpro.zendesk.com/agent/tickets/8540)** · Thunderbird email
+  > Think I had an issue i mistakingly hit the email mask and dried to clear it. The name i wanted was tayayr but seems like some of the mask characters didn't clear!
+- **[#8539](https://tbpro.zendesk.com/agent/tickets/8539)** · US soveriegnity
+  > I am a EU citizen can my data be hosted in EU if i join
 - **[#8531](https://tbpro.zendesk.com/agent/tickets/8531)** · Funktionen
   > Hallo, wo finde ich den Kalender?
-- **[#8530](https://tbpro.zendesk.com/agent/tickets/8530)** · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that.
-  > I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. I want to free account pleeeeeaseeeeeeee
-- **[#8528](https://tbpro.zendesk.com/agent/tickets/8528)** · Оплата
-  > Прошу дать возможность оплатить за 3 (три) месяца для тестирования и проверки работы.
-
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#8533](https://tbpro.zendesk.com/agent/tickets/8533)** · Request for full refund – Thundermail subscription purchased by mistake
-  > Hello, I am writing to formally request the cancellation of my Thundermail Early Access subscription and a full refund of the €72 annual payment (€6/month billed annually). I…
-- **[#8532](https://tbpro.zendesk.com/agent/tickets/8532)** · Trial Account
-  > Hello. thank you for the invitation. I have always used Thunderbird as my mail client on my desktop and mobile however before I pay I would like to get trial period of atleast…
 
 ### Spam / Junk Filtering — 2 tickets
 
@@ -226,10 +221,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8505](https://tbpro.zendesk.com/agent/tickets/8505)** · waitlist — why: **curious** · how: **explained**
   > How quickly is the waitlist moving? I read there was no waitlist as of sept 1. I signed up last week and anxiously awaiting an invite so that I can de-google my email and…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Refund / Cancel — 2 tickets
 
-- **[#8534](https://tbpro.zendesk.com/agent/tickets/8534)** · Cancellation & Refund Request / Feature Inquiry – [[email]]
+- **[#8534](https://tbpro.zendesk.com/agent/tickets/8534)** · Cancellation & Refund Request / Feature Inquiry – [[email]] — why: **change request** · how: **actioned**
   > Dear [name], I recently registered for a Thundermail account and paid €72 for the subscription. However, after signing up, I noticed that the option to integrate external email…
+- **[#8533](https://tbpro.zendesk.com/agent/tickets/8533)** · Request for full refund – Thundermail subscription purchased by mistake — why: **change request** · how: **actioned**
+  > Hello, I am writing to formally request the cancellation of my Thundermail Early Access subscription and a full refund of the €72 annual payment (€6/month billed annually). I…
+
+### Pricing — general pricing concern — 2 tickets
+
+- **[#8532](https://tbpro.zendesk.com/agent/tickets/8532)** · Trial Account — why: **curious** · how: **explained**
+  > Hello. thank you for the invitation. I have always used Thunderbird as my mail client on my desktop and mobile however before I pay I would like to get trial period of atleast…
+- **[#8530](https://tbpro.zendesk.com/agent/tickets/8530)** · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. — why: **curious** · how: **explained**
+  > I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. I want to free account pleeeeeaseeeeeeee
 
 ### Security / hacked — 1 tickets
 
@@ -241,18 +245,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8509](https://tbpro.zendesk.com/agent/tickets/8509)** · Additional problems
   > Thanks for your message, Amanda. This is Nicholas Merolla, [email]. I received your message on my T-mail browser interface; but, I cannot send or receive messages on the browser…
 
+### Pricing — wanted free / monthly plan — 1 tickets
+
+- **[#8528](https://tbpro.zendesk.com/agent/tickets/8528)** · Оплата — why: **curious** · how: **explained**
+  > Прошу дать возможность оплатить за 3 (три) месяца для тестирования и проверки работы.
+
 ## New tickets — last 24h
 
 - [8505](https://tbpro.zendesk.com/agent/tickets/8505) · [pending] · 2026-09-08T21:24 · waitlist
 - [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
 - [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [open] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [open] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
-- [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [open] · 2026-09-09T13:47 · Оплата
-- [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [open] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
+- [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [pending] · 2026-09-09T13:47 · Оплата
+- [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [pending] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
 - [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [open] · 2026-09-09T13:56 · Funktionen
-- [8532](https://tbpro.zendesk.com/agent/tickets/8532) · [open] · 2026-09-09T14:29 · Trial Account
-- [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [open] · 2026-09-09T14:31 · Request for full refund – Thundermail subscription purchased by mistake
-- [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [open] · 2026-09-09T14:35 · Cancellation & Refund Request / Feature Inquiry – [[email]]
+- [8532](https://tbpro.zendesk.com/agent/tickets/8532) · [pending] · 2026-09-09T14:29 · Trial Account
+- [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09T14:31 · Request for full refund – Thundermail subscription purchased by mistake
+- [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09T14:35 · Cancellation & Refund Request / Feature Inquiry – [[email]]
+- [8539](https://tbpro.zendesk.com/agent/tickets/8539) · [open] · 2026-09-09T17:27 · US soveriegnity
+- [8540](https://tbpro.zendesk.com/agent/tickets/8540) · [open] · 2026-09-09T17:47 · Thunderbird email
 
 ## Solved — last 24h
 
@@ -271,6 +282,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8115](https://tbpro.zendesk.com/agent/tickets/8115) · 2026-09-09T16:02 · MFA setup on mobile
 - · [8335](https://tbpro.zendesk.com/agent/tickets/8335) · 2026-09-09T16:02 · Card payment
 - · [8332](https://tbpro.zendesk.com/agent/tickets/8332) · 2026-09-09T17:02 · Payment for Thundermail Early Access
+- · [8362](https://tbpro.zendesk.com/agent/tickets/8362) · 2026-09-09T18:01 · Unable to set up account in Thundermail after receiving an invite to subscribe.
+- · [8333](https://tbpro.zendesk.com/agent/tickets/8333) · 2026-09-09T18:01 · Signing up for Thundermail
+- · [8331](https://tbpro.zendesk.com/agent/tickets/8331) · 2026-09-09T18:01 · Email change
+- · [8301](https://tbpro.zendesk.com/agent/tickets/8301) · 2026-09-09T18:01 · Email Address + Reddit Problem
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
