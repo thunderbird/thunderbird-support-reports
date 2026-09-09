@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 16:22 ET** · refreshes hourly_  
+_Updated: **2026-09-09 17:18 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,15 +14,15 @@ Flight 8 is **day 31** of rollout — **35,000 invitees**, **361 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
-- **Median AHT**: 132.9h · mean 147.0h (proxy: updated_at − created_at, 281 solved tickets)
+- **Median AHT**: 133.1h · mean 147.2h (proxy: updated_at − created_at, 284 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"cancellation refund"** — 2 tickets in 24h (20.0× baseline; baseline 3 cum) — [#8533](https://tbpro.zendesk.com/agent/tickets/8533), [#8534](https://tbpro.zendesk.com/agent/tickets/8534)
-- **"recovery address"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8520](https://tbpro.zendesk.com/agent/tickets/8520)
 - **"dear team"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8534](https://tbpro.zendesk.com/agent/tickets/8534)
+- **"recovery address"** — 2 tickets in 24h (15.0× baseline; baseline 4 cum) — [#8516](https://tbpro.zendesk.com/agent/tickets/8516), [#8520](https://tbpro.zendesk.com/agent/tickets/8520)
 - **"kind regards"** — 2 tickets in 24h (7.5× baseline; baseline 8 cum) — [#8509](https://tbpro.zendesk.com/agent/tickets/8509), [#8516](https://tbpro.zendesk.com/agent/tickets/8516)
 
 ## Known problems — 2 problem(s), 37 incident(s)
@@ -71,8 +71,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
 
-## Other tickets linked to GitHub — 6 ticket(s) → 7 issue(s)
+## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
+- 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8399](https://tbpro.zendesk.com/agent/tickets/8399) → [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Alias and Pro Email Address_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
@@ -150,9 +151,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 281
-- **pending**: 58
-- **open**: 19
+- **solved**: 284
+- **pending**: 60
+- **open**: 14
 - **hold**: 2
 - **closed**: 1
 
@@ -168,16 +169,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 91
-- **blocked** + **explained**: 63
+- **blocked** + **explained**: 64
 - **change request** + **actioned**: 52
 - **blocked** + **investigated**: 18
 - **concerned** + **explained**: 15
+- **confused** + **explained**: 15
 - **request** + **redirected**: 14
 - **curious** + **informed**: 14
-- **confused** + **explained**: 14
 - **confused** + **informed**: 8
+- **blocked** + **escalated**: 7
 - **blocked** + **redirected**: 7
-- **blocked** + **escalated**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
@@ -192,7 +193,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 2
 - **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
-- **concerned** + **investigated**: 1
 - **curious** + **—**: 1
 - **telling us** + **n/a**: 1
 - **concerned** + **actioned**: 1
@@ -244,26 +244,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8541](https://tbpro.zendesk.com/agent/tickets/8541)** · Multiuser plan
   > Greetings. I would like to set up a Thundermail account but I would like to tie it with my custom domain, and also offer a login and a separate inbox to my father. Your plan does…
 
-### Security / hacked — 1 tickets
-
-- **[#8516](https://tbpro.zendesk.com/agent/tickets/8516)** · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
-  > Dear [name], I am contacting you because I am unable to access my existing ThunderMail account and I am concerned that there may be an issue with the account or that it may have…
-
-### Email migration / import — 1 tickets
-
-- **[#8509](https://tbpro.zendesk.com/agent/tickets/8509)** · Additional problems
-  > Thanks for your message, Amanda. This is Nicholas Merolla, [email]. I received your message on my T-mail browser interface; but, I cannot send or receive messages on the browser…
-
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#8528](https://tbpro.zendesk.com/agent/tickets/8528)** · Оплата — why: **curious** · how: **explained**
   > Прошу дать возможность оплатить за 3 (три) месяца для тестирования и проверки работы.
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#8516](https://tbpro.zendesk.com/agent/tickets/8516)** · Existing Thundermail Account No Longer Recognized – Possible Account Compromise — why: **confused** · how: **explained**
+  > Dear [name], I am contacting you because I am unable to access my existing ThunderMail account and I am concerned that there may be an issue with the account or that it may have…
+
+### Email migration / import — 1 tickets
+
+- **[#8509](https://tbpro.zendesk.com/agent/tickets/8509)** · Additional problems — why: **blocked** · how: **investigated**
+  > Thanks for your message, Amanda. This is Nicholas Merolla, [email]. I received your message on my T-mail browser interface; but, I cannot send or receive messages on the browser…
+
 ## New tickets — last 24h
 
 - [8505](https://tbpro.zendesk.com/agent/tickets/8505) · [pending] · 2026-09-08T21:24 · waitlist
-- [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
-- [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [open] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
+- [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [pending] · 2026-09-09T02:25 · Additional problems
+- [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [pending] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [pending] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
 - [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [pending] · 2026-09-09T13:47 · Оплата
 - [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [pending] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
