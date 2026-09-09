@@ -4,8 +4,10 @@
 # dependencies = ["requests"]
 # ///
 """
-Private capacity dashboard — output is gitignored, never commit.
-Generates lisa/private/capacity_dashboard.html.
+Capacity dashboard — anonymized (Agent 1/2/3…, no real names or IDs written to disk),
+approved for commit + GitHub Pages (finance-facing). Never add real agent names/IDs to
+the output; the ID→label mapping is printed to the terminal only, never written to a file.
+Generates lisa/daily/capacity_dashboard.html.
 
 Sections:
   1. Incoming vs throughput (tickets/day — team total and per brand)
