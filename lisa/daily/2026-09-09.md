@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 15:17 ET** · refreshes hourly_  
+_Updated: **2026-09-09 16:22 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 31** of rollout — **35,000 invitees**, **361 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
-- **Median AHT**: 133.1h · mean 147.0h (proxy: updated_at − created_at, 280 solved tickets)
+- **Median AHT**: 132.9h · mean 147.0h (proxy: updated_at − created_at, 281 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -150,10 +150,10 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 280
-- **pending**: 59
-- **open**: 20
-- **hold**: 1
+- **solved**: 281
+- **pending**: 58
+- **open**: 19
+- **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
@@ -175,16 +175,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 14
 - **curious** + **informed**: 14
 - **confused** + **explained**: 14
-- **confused** + **informed**: 7
+- **confused** + **informed**: 8
 - **blocked** + **redirected**: 7
 - **blocked** + **escalated**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
-- **change request** + **escalated**: 2
 - **blocked** + **—**: 2
 - **telling us** + **escalated**: 2
+- **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **request** + **explained**: 2
 - **concerned** + **informed**: 2
@@ -218,13 +218,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8531](https://tbpro.zendesk.com/agent/tickets/8531)** · Funktionen — why: **confused** · how: **explained**
   > Hallo, wo finde ich den Kalender?
 
-### Spam / Junk Filtering — 2 tickets
-
-- **[#8520](https://tbpro.zendesk.com/agent/tickets/8520)** · Unable to log in to Thundermail – password reset email not received
-  > Hello! I’m an Early Bird user of Thundermail. Today Thunderbird asked me to sign in to my Thundermail account again, but my password is no longer accepted. I also tried signing in…
-- **[#8505](https://tbpro.zendesk.com/agent/tickets/8505)** · waitlist — why: **curious** · how: **explained**
-  > How quickly is the waitlist moving? I read there was no waitlist as of sept 1. I signed up last week and anxiously awaiting an invite so that I can de-google my email and…
-
 ### Refund / Cancel — 2 tickets
 
 - **[#8534](https://tbpro.zendesk.com/agent/tickets/8534)** · Cancellation & Refund Request / Feature Inquiry – [[email]] — why: **change request** · how: **actioned**
@@ -238,6 +231,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello. thank you for the invitation. I have always used Thunderbird as my mail client on my desktop and mobile however before I pay I would like to get trial period of atleast…
 - **[#8530](https://tbpro.zendesk.com/agent/tickets/8530)** · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. — why: **curious** · how: **explained**
   > I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at that. I want to free account pleeeeeaseeeeeeee
+
+### Spam / Junk Filtering — 2 tickets
+
+- **[#8520](https://tbpro.zendesk.com/agent/tickets/8520)** · Unable to log in to Thundermail – password reset email not received — why: **confused** · how: **informed**
+  > Hello! I’m an Early Bird user of Thundermail. Today Thunderbird asked me to sign in to my Thundermail account again, but my password is no longer accepted. I also tried signing in…
+- **[#8505](https://tbpro.zendesk.com/agent/tickets/8505)** · waitlist — why: **curious** · how: **explained**
+  > How quickly is the waitlist moving? I read there was no waitlist as of sept 1. I signed up last week and anxiously awaiting an invite so that I can de-google my email and…
 
 ### Account access issues — 1 tickets
 
@@ -264,7 +264,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8505](https://tbpro.zendesk.com/agent/tickets/8505) · [pending] · 2026-09-08T21:24 · waitlist
 - [8509](https://tbpro.zendesk.com/agent/tickets/8509) · [open] · 2026-09-09T02:25 · Additional problems
 - [8516](https://tbpro.zendesk.com/agent/tickets/8516) · [open] · 2026-09-09T09:43 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
-- [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [open] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
+- [8520](https://tbpro.zendesk.com/agent/tickets/8520) · [pending] · 2026-09-09T11:15 · Unable to log in to Thundermail – password reset email not received
 - [8528](https://tbpro.zendesk.com/agent/tickets/8528) · [pending] · 2026-09-09T13:47 · Оплата
 - [8530](https://tbpro.zendesk.com/agent/tickets/8530) · [pending] · 2026-09-09T13:52 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
 - [8531](https://tbpro.zendesk.com/agent/tickets/8531) · [pending] · 2026-09-09T13:56 · Funktionen
