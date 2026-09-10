@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 07:20 ET** · refreshes hourly_  
+_Updated: **2026-09-10 08:32 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **369 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **370 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **13** solved in last 24h
-- **369** tickets total since launch · contact rate **1%** of 35000 invitees
+- **9** new tickets in last 24h · **13** solved in last 24h
+- **370** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 42
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 43
 - **Median AHT**: 133.7h · mean 149.8h (proxy: updated_at − created_at, 289 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -22,7 +22,11 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"searching messages which"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
-## Known problems — 2 problem(s), 37 incident(s)
+## Known problems — 3 problem(s), 38 incident(s)
+
+### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
+- 1 incident(s):
+  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [open] · 2026-09-02 · _Cant get verification link_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -130,8 +134,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Mail Archiv](https://ideas.tb.pro/p/mail-archiv) · 1 votes · _untagged_
+  > What problem does this solve, or what benefit does it bring? I wanted to integrate Thundermail into the mail archive, but it's not working; I keep getting an error message saying, “Unable to…
 - [Default reply-as should use receiving address (a.k.a. reverse aliasing)](https://ideas.tb.pro/p/default-reply-as-should-use-receiving-address-a-k-a-reverse-aliasing) · 1 votes · _untagged_
   > What you’d like to seeWhen I have a registered custom domain example.com and I get an email for any-alias@example.com, the default reply-as should use the same any-alias@example.com.I think this is…
 - [Fold the adress list in webmail when there's a lot of addresses](https://ideas.tb.pro/p/fold-the-adress-list-in-webmail-when-there-s-a-lot-of-addresses) · 1 votes · _untagged_
@@ -140,9 +146,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 289
-- **pending**: 53
-- **open**: 20
-- **new**: 4
+- **pending**: 52
+- **open**: 21
+- **new**: 5
 - **hold**: 2
 - **closed**: 1
 
@@ -150,8 +156,8 @@ _(none in last 24h)_
 
 - **Account Hub**: 219
 - **Thundermail**: 117
+- **Appointment**: 8
 - **Send**: 8
-- **Appointment**: 7
 
 ## Why × How (cumulative)
 
@@ -212,6 +218,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription
   > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was…
 
+### Appointment / calendar — 1 tickets
+
+- **[#8563](https://tbpro.zendesk.com/agent/tickets/8563)** · Kalender
+  > Wie kann ich einen Termin erstellen und warum funktioniert die Synchronisatuion mit dem Kalender im Thunderbird 153.2.0esr nicht? How can I create an appointment and why isn't the…
+
 ### Aliases — 1 tickets
 
 - **[#8558](https://tbpro.zendesk.com/agent/tickets/8558)** · custom email in iOS mail
@@ -242,6 +253,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8553](https://tbpro.zendesk.com/agent/tickets/8553) · [new] · 2026-09-10T05:10 · Searching inside Webmail not fuly configured
 - [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [new] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
 - [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [new] · 2026-09-10T08:43 · custom email in iOS mail
+- [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [new] · 2026-09-10T11:25 · Kalender
 
 ## Solved — last 24h
 
