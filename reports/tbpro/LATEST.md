@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 06:22 ET** · refreshes hourly_  
+_Updated: **2026-09-10 07:20 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,14 +13,14 @@ Flight 8 is **day 32** of rollout — **35,000 invitees**, **369 tickets** so fa
 - **369** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 41
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 42
 - **Median AHT**: 133.7h · mean 149.8h (proxy: updated_at − created_at, 289 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"messages which"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
+- **"searching messages which"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
 ## Known problems — 2 problem(s), 37 incident(s)
 
@@ -130,8 +130,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Default reply-as should use receiving address (a.k.a. reverse aliasing)](https://ideas.tb.pro/p/default-reply-as-should-use-receiving-address-a-k-a-reverse-aliasing) · 1 votes · _untagged_
+  > What you’d like to seeWhen I have a registered custom domain example.com and I get an email for any-alias@example.com, the default reply-as should use the same any-alias@example.com.I think this is…
 - [Fold the adress list in webmail when there's a lot of addresses](https://ideas.tb.pro/p/fold-the-adress-list-in-webmail-when-there-s-a-lot-of-addresses) · 1 votes · _untagged_
   > What you’d like to seeAs in the subject.Why it mattersWhat problem does this solve, or what benefit does it bring?I received a mail with 10+ CC addresses which made that section of the mail very high…
 
