@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 09:20 ET** · refreshes hourly_  
+_Updated: **2026-09-10 10:30 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -140,9 +140,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 289
-- **pending**: 52
-- **open**: 21
-- **new**: 4
+- **pending**: 53
+- **open**: 24
 - **hold**: 2
 - **closed**: 1
 
@@ -238,10 +237,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [open] · 2026-09-09T22:49 · Cancel subscription
 - [8547](https://tbpro.zendesk.com/agent/tickets/8547) · [open] · 2026-09-10T00:11 · Privacy claims
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [open] · 2026-09-10T01:48 · Delete my account please
-- [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [new] · 2026-09-10T05:08 · Email messages content search
-- [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [new] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
-- [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [new] · 2026-09-10T08:43 · custom email in iOS mail
-- [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [new] · 2026-09-10T11:25 · Kalender
+- [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [open] · 2026-09-10T05:08 · Email messages content search
+- [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [open] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
+- [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [open] · 2026-09-10T08:43 · custom email in iOS mail
+- [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [open] · 2026-09-10T11:25 · Kalender
 
 ## Solved — last 24h
 
