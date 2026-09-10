@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 02:36 ET** · refreshes hourly_  
+_Updated: **2026-09-10 03:25 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 32** of rollout — **35,000 invitees**, **367 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"messages found"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
+- **"username text"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
 ## Known problems — 2 problem(s), 37 incident(s)
 
@@ -137,8 +137,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 290
-- **pending**: 55
-- **open**: 17
+- **pending**: 57
+- **open**: 15
 - **new**: 2
 - **hold**: 2
 - **closed**: 1
@@ -169,8 +169,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
-- **change request** + **escalated**: 2
 - **telling us** + **escalated**: 2
+- **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
