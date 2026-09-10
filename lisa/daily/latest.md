@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 11:26 ET** · refreshes hourly_  
+_Updated: **2026-09-10 12:22 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 32** of rollout — **35,000 invitees**, **371 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **13** solved in last 24h
+- **10** new tickets in last 24h · **14** solved in last 24h
 - **371** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 43
-- **Median AHT**: 133.7h · mean 149.8h (proxy: updated_at − created_at, 289 solved tickets)
+- **Median AHT**: 133.7h · mean 150.5h (proxy: updated_at − created_at, 289 solved tickets)
 
 ## Known problems — 3 problem(s), 38 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
 - 1 incident(s):
-  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [open] · 2026-09-02 · _Cant get verification link_
+  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [pending] · 2026-09-02 · _Cant get verification link_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -140,8 +140,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 289
-- **pending**: 55
-- **open**: 24
+- **pending**: 58
+- **open**: 21
 - **hold**: 2
 - **closed**: 1
 
@@ -156,17 +156,17 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 93
-- **blocked** + **explained**: 64
+- **curious** + **explained**: 94
+- **blocked** + **explained**: 63
 - **change request** + **actioned**: 52
 - **blocked** + **investigated**: 18
 - **confused** + **explained**: 15
 - **concerned** + **explained**: 15
-- **request** + **redirected**: 14
 - **curious** + **informed**: 14
+- **request** + **redirected**: 14
 - **confused** + **informed**: 8
-- **blocked** + **redirected**: 7
 - **blocked** + **escalated**: 7
+- **blocked** + **redirected**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
@@ -263,6 +263,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8121](https://tbpro.zendesk.com/agent/tickets/8121) · 2026-09-10T02:01 · Pre-configure domain before transfer
 - · [8010](https://tbpro.zendesk.com/agent/tickets/8010) · 2026-09-10T03:27 · Display name not carried through from sign up
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-10T03:30 · Unable to Send From Custom Domain in Thundermail Webmail
+- · [7919](https://tbpro.zendesk.com/agent/tickets/7919) · 2026-09-10T15:57 · Install failure code 0xc1f30001
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
