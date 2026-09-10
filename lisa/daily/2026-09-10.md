@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 12:22 ET** · refreshes hourly_  
+_Updated: **2026-09-10 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 32** of rollout — **35,000 invitees**, **371 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **14** solved in last 24h
+- **10** new tickets in last 24h · **15** solved in last 24h
 - **371** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 43
-- **Median AHT**: 133.7h · mean 150.5h (proxy: updated_at − created_at, 289 solved tickets)
+- **Median AHT**: 133.5h · mean 150.0h (proxy: updated_at − created_at, 290 solved tickets)
 
-## Known problems — 3 problem(s), 38 incident(s)
+## Known problems — 3 problem(s), 39 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
 - 1 incident(s):
@@ -28,7 +28,7 @@ Flight 8 is **day 32** of rollout — **35,000 invitees**, **371 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 36 incident(s):
+- 37 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -65,6 +65,7 @@ Flight 8 is **day 32** of rollout — **35,000 invitees**, **371 tickets** so fa
   - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [pending] · 2026-09-07 · _Delte my Account_
   - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
+  - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09 · _Cancel subscription_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -139,16 +140,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 289
-- **pending**: 58
-- **open**: 21
+- **solved**: 290
+- **pending**: 61
+- **open**: 17
 - **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 219
-- **Thundermail**: 119
+- **Account Hub**: 220
+- **Thundermail**: 118
 - **Appointment**: 8
 - **Send**: 8
 
@@ -158,7 +159,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 94
 - **blocked** + **explained**: 63
-- **change request** + **actioned**: 52
+- **change request** + **actioned**: 53
 - **blocked** + **investigated**: 18
 - **confused** + **explained**: 15
 - **concerned** + **explained**: 15
@@ -222,7 +223,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8547](https://tbpro.zendesk.com/agent/tickets/8547)** · Privacy claims
   > This is a good point….can you explain why you claim to be privacy forward when you don't have any unique let alone standard privacy protocols?…
-- **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription
+- **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription — why: **change request** · how: **actioned**
   > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was…
 
 ### Appointment / calendar — 1 tickets
@@ -238,7 +239,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8545](https://tbpro.zendesk.com/agent/tickets/8545) · [open] · 2026-09-09T21:18 · trouble setting up DNS records on Godaddy
-- [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [open] · 2026-09-09T22:49 · Cancel subscription
+- [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09T22:49 · Cancel subscription
 - [8547](https://tbpro.zendesk.com/agent/tickets/8547) · [open] · 2026-09-10T00:11 · Privacy claims
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [open] · 2026-09-10T01:48 · Delete my account please
 - [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [open] · 2026-09-10T05:08 · Email messages content search
@@ -264,6 +265,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8010](https://tbpro.zendesk.com/agent/tickets/8010) · 2026-09-10T03:27 · Display name not carried through from sign up
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-10T03:30 · Unable to Send From Custom Domain in Thundermail Webmail
 - · [7919](https://tbpro.zendesk.com/agent/tickets/7919) · 2026-09-10T15:57 · Install failure code 0xc1f30001
+- · [8520](https://tbpro.zendesk.com/agent/tickets/8520) · 2026-09-10T16:56 · Unable to log in to Thundermail – password reset email not received
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
