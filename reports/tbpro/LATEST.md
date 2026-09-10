@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 17:18 ET** · refreshes hourly_  
+_Updated: **2026-09-10 18:19 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -152,9 +152,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 293
-- **pending**: 70
-- **open**: 7
+- **pending**: 74
 - **hold**: 5
+- **open**: 3
 - **closed**: 1
 
 ## Service (cumulative)
@@ -174,9 +174,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 18
 - **confused** + **explained**: 16
 - **concerned** + **explained**: 15
+- **curious** + **informed**: 15
 - **request** + **redirected**: 15
-- **curious** + **informed**: 14
-- **confused** + **informed**: 9
+- **confused** + **informed**: 10
 - **blocked** + **redirected**: 8
 - **blocked** + **escalated**: 7
 - **telling us** + **explained**: 6
@@ -184,6 +184,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **telling us** + **escalated**: 2
+- **blocked** + **actioned**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
@@ -204,7 +205,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **escalated**: 1
 - **confused** + **escalated**: 1
 - **telling us** + **informed**: 1
-- **blocked** + **actioned**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 
@@ -212,7 +212,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#8584](https://tbpro.zendesk.com/agent/tickets/8584)** · App Password
+- **[#8584](https://tbpro.zendesk.com/agent/tickets/8584)** · App Password — why: **confused** · how: **informed**
   > HI, I tried the app password and not able to get autentification system requires 16 passphrase and this is what i tried any suggestions?
 - **[#8580](https://tbpro.zendesk.com/agent/tickets/8580)** · OgoKAqfmFfNZBRLSWV — why: **curious** · how: **explained**
   > gUBUAhNObqBSOJlg
@@ -240,15 +240,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription — why: **change request** · how: **actioned**
   > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was…
 
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#8576](https://tbpro.zendesk.com/agent/tickets/8576)** · Impossible de me connecter sur thunderbird ou de supprimer mon compte sur ma tablette samsug tab A6 avec mon adresse émail orange
-  > Lors d'un téléchargement sur ma tablette android ( apparait l'icone thunderbird puis dossier introuvable ou déplacé
-
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#8577](https://tbpro.zendesk.com/agent/tickets/8577)** · Refund Thundermail — why: **change request** · how: **actioned**
   > Hello, I'd like to get a refund for my Thundermail Early Bird subscription, which is still within the 14-day window. I might return to a later time but right now this service does…
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#8576](https://tbpro.zendesk.com/agent/tickets/8576)** · Impossible de me connecter sur thunderbird ou de supprimer mon compte sur ma tablette samsug tab A6 avec mon adresse émail orange — why: **curious** · how: **informed**
+  > Lors d'un téléchargement sur ma tablette android ( apparait l'icone thunderbird puis dossier introuvable ou déplacé
 
 ### Appointment / calendar — 1 tickets
 
@@ -277,10 +277,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [pending] · 2026-09-10T11:25 · Kalender
 - [8568](https://tbpro.zendesk.com/agent/tickets/8568) · [pending] · 2026-09-10T14:44 · Not what I thought...
 - [8571](https://tbpro.zendesk.com/agent/tickets/8571) · [pending] · 2026-09-10T15:02 · Thundermail General Questions - 
-- [8576](https://tbpro.zendesk.com/agent/tickets/8576) · [open] · 2026-09-10T18:04 · Impossible de me connecter sur thunderbird ou de supprimer mon compte sur ma tablette samsug tab A6 
+- [8576](https://tbpro.zendesk.com/agent/tickets/8576) · [pending] · 2026-09-10T18:04 · Impossible de me connecter sur thunderbird ou de supprimer mon compte sur ma tablette samsug tab A6 
 - [8577](https://tbpro.zendesk.com/agent/tickets/8577) · [pending] · 2026-09-10T18:14 · Refund Thundermail
 - [8580](https://tbpro.zendesk.com/agent/tickets/8580) · [pending] · 2026-09-10T18:30 · OgoKAqfmFfNZBRLSWV
-- [8584](https://tbpro.zendesk.com/agent/tickets/8584) · [open] · 2026-09-10T19:32 · App Password
+- [8584](https://tbpro.zendesk.com/agent/tickets/8584) · [pending] · 2026-09-10T19:32 · App Password
 
 ## Solved — last 24h
 
