@@ -1,26 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 08:32 ET** · refreshes hourly_  
+_Updated: **2026-09-10 09:20 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **370 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **369 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **13** solved in last 24h
-- **370** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **13** solved in last 24h
+- **369** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 43
 - **Median AHT**: 133.7h · mean 149.8h (proxy: updated_at − created_at, 289 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"searching messages which"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
 ## Known problems — 3 problem(s), 38 incident(s)
 
@@ -148,7 +142,7 @@ _(none in last 24h)_
 - **solved**: 289
 - **pending**: 52
 - **open**: 21
-- **new**: 5
+- **new**: 4
 - **hold**: 2
 - **closed**: 1
 
@@ -228,11 +222,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8558](https://tbpro.zendesk.com/agent/tickets/8558)** · custom email in iOS mail
   > Hi there, I was wondering if you can help with this.... I'm trying to setup and send from my custom domain email ([email]). I can do it through the desktop app no problem. I'm…
 
-### Webmail — 1 tickets
-
-- **[#8553](https://tbpro.zendesk.com/agent/tickets/8553)** · Searching inside Webmail not fuly configured
-  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found, But when I search the sender name and all popup - but…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#8551](https://tbpro.zendesk.com/agent/tickets/8551)** · Delete my account please
@@ -250,7 +239,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8547](https://tbpro.zendesk.com/agent/tickets/8547) · [open] · 2026-09-10T00:11 · Privacy claims
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [open] · 2026-09-10T01:48 · Delete my account please
 - [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [new] · 2026-09-10T05:08 · Email messages content search
-- [8553](https://tbpro.zendesk.com/agent/tickets/8553) · [new] · 2026-09-10T05:10 · Searching inside Webmail not fuly configured
 - [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [new] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
 - [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [new] · 2026-09-10T08:43 · custom email in iOS mail
 - [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [new] · 2026-09-10T11:25 · Kalender
