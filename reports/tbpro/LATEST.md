@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 19:20 ET** · refreshes hourly_  
+_Updated: **2026-09-09 20:54 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **363 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **364 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **20** solved in last 24h
-- **363** tickets total since launch · contact rate **1%** of 35000 invitees
+- **364** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
@@ -154,15 +154,15 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 288
-- **pending**: 57
-- **open**: 15
+- **pending**: 55
+- **open**: 18
 - **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 218
-- **Thundermail**: 114
+- **Thundermail**: 115
 - **Send**: 8
 - **Appointment**: 7
 
@@ -213,10 +213,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#8539](https://tbpro.zendesk.com/agent/tickets/8539)** · US soveriegnity
-  > I am a EU citizen can my data be hosted in EU if i join
 - **[#8540](https://tbpro.zendesk.com/agent/tickets/8540)** · Thunderbird email — why: **confused** · how: **informed**
   > Think I had an issue i mistakingly hit the email mask and dried to clear it. The name i wanted was tayayr but seems like some of the mask characters didn't clear!
+- **[#8539](https://tbpro.zendesk.com/agent/tickets/8539)** · US soveriegnity
+  > I am a EU citizen can my data be hosted in EU if i join
 - **[#8531](https://tbpro.zendesk.com/agent/tickets/8531)** · Funktionen — why: **confused** · how: **explained**
   > Hallo, wo finde ich den Kalender?
 
@@ -274,7 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09T14:31 · Request for full refund – Thundermail subscription purchased by mistake
 - [8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09T14:35 · Cancellation & Refund Request / Feature Inquiry – [[email]]
 - [8539](https://tbpro.zendesk.com/agent/tickets/8539) · [open] · 2026-09-09T17:27 · US soveriegnity
-- [8540](https://tbpro.zendesk.com/agent/tickets/8540) · [pending] · 2026-09-09T17:47 · Thunderbird email
+- [8540](https://tbpro.zendesk.com/agent/tickets/8540) · [open] · 2026-09-09T17:47 · Thunderbird email
 - [8541](https://tbpro.zendesk.com/agent/tickets/8541) · [open] · 2026-09-09T18:40 · Multiuser plan
 
 ## Solved — last 24h
