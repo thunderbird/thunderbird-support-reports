@@ -19,10 +19,23 @@ Donor tickets jumped 212→350 (+65%) on ESR appeals — the 8/31 spoiler was ~9
 ## Community Support
 
 ### Desktop Forum
-- **Overall solved rate:** 58% (-6 pts MoM) · 955 questions · 955 questions vs July 751; solved rate 58% (July 64%). Spectrum/Charter cause surge 34 qs (3.24×). Yahoo +83%, Microsoft +47%. v153 POP spikes recurring; v154 × Spectrum monthly cluster (13 qs, 3.1×). Attachments topic mix +206%.
+- **Overall solved rate:** 58% (-6 pts MoM) · 955 questions (751 in July) · two headline clusters, and both of Roland's methods name the same pair
+- **Printing broke in 154:** 36 tagged questions at 8.0× normal, peaking 24.3× on Aug 20. Only 37% resolved while it was unfixed. **Fixed in Thunderbird 155, released Sept 1** ([Bugzilla 2065922](https://bugzilla.mozilla.org/show_bug.cgi?id=2065922)) — users still reporting it are on 154.
+- **Spectrum / Charter / Roadrunner:** 34 questions (3 in July), 3.2× baseline, weekly peak 11.0× in the week of Aug 17. 31 of the 34 lost mail access entirely. Provider-side, not a Thunderbird build issue — and Roland notes Spectrum has issues a few times a year, so this is recurring rather than new.
+- **Also up:** Yahoo 55 questions (+83%), Microsoft 53 (+47%), POP 46 with recurring v153 daily spikes, attachments drag-and-drop broken after 153 (1 → 16).
+- **Where the solved rate went:** Yahoo/AT&T/AOL app-specific passwords 29% resolved (worst of the month), printing 37%, repeated password prompts 42% (42% got no reply at all), blank message body 47%. Two of those are KB gaps we can close ourselves.
+- Desktop only — printing and Spectrum do not appear in Play Store reviews or the Android app backlog.
+- Sources: [August spikes, non-AI](https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html) · [LLM insights, engineering](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html)
 
 ### Android Forum
-- **Overall solved rate:** 61% (+1 pts MoM) · 51 questions · 51 questions vs July 55; 61% solved (July 60%). Ignored 27%. No August LLM cluster report yet.
+- **Overall solved rate:** 61% (+1 pts MoM) · 51 questions (55 in July) · ignored 27%
+- **Non-AI report is quiet because volume is too low, not because nothing happened.** Zero spikes cleared the threshold: the detectors need 8 questions of one kind in a month and Roland's 40-question August corpus averaged about one a day. Only 2% of Android questions record a Thunderbird version, so the version-and-cause detector cannot fire at all — that zero is missing data.
+- **Five new clusters, two questions each:** stored password reverts or cannot be updated (sev 4.0), crash when opening a downloaded email (sev 4.0), AOL/Yahoo login loop then mail stops arriving (sev 3.5), contact autocomplete not suggesting addresses (sev 2.0, **50% resolved — the only cluster support could not answer**), no OpenPGP/S-MIME on Android (sev 3.0). Imported account showing only an Outbox grew 1 → 3.
+- **Read as a list, not a trend:** 40 questions across 33 clusters means a change of one question is noise, and "new this month" can mean only that nobody worded it that way in July.
+- **Cross-channel:** the three credential/import clusters look like one shared credential or migration path, and they plus crash-on-open echo the Play Store send-path signal (Outbox, 5 mentions, all 1–3★) and crashes (4 negative) — same app, two entry points, small n on both. Encryption asks appear on the forum but not in Play Store reviews.
+- Sources: [August spikes, non-AI](https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html) · [LLM insights, engineering](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html)
+
+*Question counts differ by corpus: the SUMO KPI export holds 955 desktop / 51 Android; Roland's spike detector and AI read cover 941 / 940 desktop and 40 Android. Same month, different corpus filters — percentages are quoted against their own source.*
 
 ---
 ## Android Reviews
@@ -63,12 +76,13 @@ Donor tickets jumped 212→350 (+65%) on ESR appeals — the 8/31 spoiler was ~9
 - 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
 - 564 Play Store reviews across 27 languages; 218 incoming review tickets
 - Push/sync still #1 friction (34 negative, 31→34 — rising, no fix shipped). July QR/Settings Import spike cooled (25→3 negative)
-- 955 desktop forum questions (751 in July) — Spectrum/Charter cluster 34 qs
+- 955 desktop forum questions (751 in July) — printing broke in 154 (36 qs, 8× normal) and Spectrum/Charter mail access failed (34 qs)
 
 **🪽 Resolve**
 - Donor CSAT 92.7% (+7.0 pts) on the ESR-appeal spike
 - Thundermail CSAT 85.7% is product/pricing DSATs; support satisfaction excluding those 100%
 - Android forum solved rate 61% (+1 pt) on 51 questions
+- Desktop printing regression is fixed in Thunderbird 155 (Sept 1) — the one August desktop cluster where we have an answer to give
 
 **✨ Resound**
 - **48% of TB reviews are 5★** (220 of 456) — TB monthly average 3.74★ (+0.16 vs July)
@@ -82,6 +96,8 @@ Donor tickets jumped 212→350 (+65%) on ESR appeals — the 8/31 spoiler was ~9
 ## What's Coming Up
 
 [Lisa fills — experiments, iterations, what's launching next.]
+
+*Parked idea, not scoped: watch Zendesk volume against Roland's SUMO keyword spikes to see whether desktop provider and regression clusters show up in tickets first.*
 
 ---
 ## Data Access
@@ -99,5 +115,9 @@ Raw data (CSV): [august.csv](https://github.com/thunderbird/thunderbird-support-
 **Avg rating** — mean star rating across all reviews matching that topic (1–5 scale).
 
 **Overall solved rate (SUMO)** — percentage of questions that received any answer, including from the question creator, trusted contributors, and general members.
+
+**Resolved (Roland's AI read)** — a question counts as resolved when it has an accepted solution or a trusted contributor gave the last answer. Stricter than the SUMO solved rate above, so the two figures are not interchangeable.
+
+**Monthly rise (Roland's spike detector)** — the month's count for one cause tag divided by the normal count for that tag. A rise of 3.0× means three times as many questions as usual. Spike dates are when users posted, not when the problem began.
 
 **Trusted contributor %** — share of answered questions where the last (or only) answer came from a trusted contributor.

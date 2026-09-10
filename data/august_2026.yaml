@@ -19,7 +19,9 @@ methodology_notes:
   - "Play Store (June 2026+): review CSVs fetched from the Play Console GCS export bucket via scripts/fetch_reviews.py — replacing manual Play Console UI downloads used Jan–May 2026. Approved operational improvement. MoM comparisons spanning that boundary carry a methodology caveat."
   - "Full July dashboard skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). Lisa sent an 8/31 KPI note instead — that is the July baseline. No July HTML by design."
   - "SUMO figures use Roland's concatenation method (the SUMO API was gated behind JS). SUMO MoM deltas are August vs July."
-  - "Roland LLM_INSIGHTS latest at fetch time (2026-09-09) is still June 2026 vs May 2026. August Android/desktop LLM cluster write-ups are not available yet — PROJECT1 desktop summary is current (Aug vs Jul)."
+  - "Roland August validation re-fetch 2026-09-10: BOTH desktop and Android LLM_INSIGHTS monthly summaries now cover August 2026 vs July 2026 (pages regenerated 2026-09-10 07:38 / 07:54 UTC). The earlier 'LLM still June' caveat is resolved — August clusters below are genuinely August."
+  - "Desktop question counts differ by corpus: SUMO KPI CSV 955 (dashboard/MoM basis), PROJECT1 spike detector 941, LLM_INSIGHTS 940. Same month, slightly different corpus filters — do not present as a discrepancy or reconcile by picking one. KPI cards use 955."
+  - "Android question counts differ the same way: SUMO KPI CSV 51 (dashboard/MoM basis) vs 40 in both Roland August reports. Android is low-volume enough that this gap matters when quoting percentages — attribute each percentage to its own source."
 
 # ── ZENDESK current — Lisa 2026-09-09 ──────────────────────────────────────
 # MoM vs July 8/31 KPI note: CSAT −0.8 / Donor +7.0 / Thundermail −9.8 pts;
@@ -79,7 +81,10 @@ sumo:
     ignored_pct: 22
     trusted_contributor_pct: 37
     trusted_contributors: null
-    top_signals: []  # see roland_insights.desktop.project1
+    top_signals: []  # see roland_insights.desktop.project1 / .llm
+    sources:
+      - "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html"
+      - "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html"
   android:
     total_questions: 51
     spam: 0
@@ -90,27 +95,104 @@ sumo:
     top_signals: []  # strings crash generate.py (expects name/questions dicts); signals live in narrative
     sources:
       - "https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-08-sumo-android-report.html"
+      - "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html"
       - "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html"
 
 # ── ROLAND ENGINEERING INSIGHTS ────────────────────────────────────────────
 roland_insights:
   android:
     month: "2026-08"
-    last_updated: "2026-09-09"
+    last_updated: "2026-09-10"
     questions: 51
     questions_mom: "−4 vs July (55)"
-    new_clusters: null
-    methodology: "KPI from Roland SUMO CSV (concatenation method). LLM_INSIGHTS latest is still June 2026 — do not treat June clusters as August signal."
+    new_clusters: 5
+    methodology: "KPI from Roland SUMO CSV (concatenation method) = 51 questions. Both Roland August reports cover a 40-question corpus. Attribute percentages to their own source."
     source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-08-sumo-android-report.html"
-    top_priorities: []
+    project1:
+      month: "2026-08"
+      last_updated: "2026-09-10"
+      questions: 40
+      spikes_total: 0
+      answered_pct: 90            # 36 of 40
+      answered_median_hours: 5.3
+      cause_tagged_pct: 45
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html"
+      low_volume_caveat: "No spike cleared the threshold at any grain — and that is a volume artifact, not a clean month. Detectors need 8 questions of one kind in a day, 6 in a week, or 8 in a month; August held 40 questions (~1/day). Roland's own words: read a zero as 'nothing large enough to fire', not 'nothing happened'."
+      version_data_caveat: "Only 2% of August Android questions carry a Thunderbird version, so the version×cause detector cannot fire at all. Its zero is missing data, not a clean result."
+    llm:
+      month: "2026-08"
+      last_updated: "2026-09-10"
+      stale: false
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html"
+      questions: 40
+      questions_mom: "44 → 40 (−4, −9%)"
+      clusters: 33
+      new_clusters: 5
+      note: "Roland's own framing: read this page as a list of the month's problems, not a trend. 40 questions across 33 clusters means most clusters hold one or two questions, and a change of one question is noise. 'New this month' can mean only that nobody worded it that way in July. Severity and resolved carry the signal, not the counts."
+      top_priorities:
+        - rank: 1
+          cluster: "Stored password reverts or cannot be updated on Android"
+          jul: 0
+          aug: 2
+          severity: 4.0
+          resolved_pct: 100
+          new_this_month: true
+        - rank: 2
+          cluster: "Crash opening downloaded email on Android"
+          jul: 0
+          aug: 2
+          severity: 4.0
+          resolved_pct: 100
+          new_this_month: true
+        - rank: 3
+          cluster: "AOL/Yahoo account repeatedly prompts for login and stops receiving"
+          jul: 0
+          aug: 2
+          severity: 3.5
+          resolved_pct: 100
+          new_this_month: true
+        - rank: 4
+          cluster: "Contact autocomplete not suggesting addresses in To field"
+          jul: 0
+          aug: 2
+          severity: 2.0
+          resolved_pct: 50
+          new_this_month: true
+          note: "only cluster served below 100% — support has no working answer for autocomplete"
+        - rank: 5
+          cluster: "No OpenPGP/S-MIME encryption support on Android"
+          jul: 0
+          aug: 2
+          severity: 3.0
+          resolved_pct: 100
+          new_this_month: true
+          note: "feature-absence asks, not a defect — needs a public roadmap statement support can link"
+        - rank: 6
+          cluster: "Imported account shows only Outbox / missing passwords after import"
+          jul: 1
+          aug: 3
+          severity: 3.3
+          resolved_pct: 100
+      themes:
+        - "Three separate account/login clusters describe the same shape of failure — stored password reverts, AOL/Yahoo login loop, imported account with no password. Roland reads a shared credential storage or migration path as the likely root cause."
+        - "Crash reports rose 1 → 3; two of those are the new crash-on-opening-downloaded-mail cluster."
+        - "Encryption questions went 0 → 3 — users asking for OpenPGP/S-MIME the Android client does not offer."
+    cross_channel:
+      - "Android forum credential/import failures and crash-on-open echo the Play Store send-path and crash signals (Outbox 5 mentions, all 1–3★; Crashes 4 negative) — same app, two entry points, both small n."
+      - "Encryption asks appear on the forum but not in Play Store friction themes — forum users ask, review users just rate."
   desktop:
     project1:
       month: "2026-08"
-      last_updated: "2026-09-09"
+      last_updated: "2026-09-10"
       questions: 941
       questions_mom: "+210 (+29%) vs July 731 (PROJECT1 load; SUMO CSV is 955 questions)"
       methodology: "PROJECT1 — regex + traditional stats; version×cause spikes and release adoption. Non-AI engineering signal."
-      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/monthly-summary-latest.html"
+      source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html"
+      spikes_total: 27           # 17 version×cause + 10 cause-level
+      answered_pct: 75           # 708 of 941 answered by someone other than the asker
+      answered_median_hours: 2.8
+      cause_tagged_pct: 45
+      headline: "Printing and Spectrum — Roland's own 'What stands out' pair"
       version_regressions:
         - signal: "v153 × proto:pop"
           date: "2026-08-10"
@@ -140,35 +222,135 @@ roland_insights:
           lift: 3.1
           served_pct: 92
           note: "monthly grain; Spectrum/Charter send/receive after v154"
-      cause_surges:
-        - signal: "m:spectrum"
-          questions: 34
-          served_pct: 82
-          rise: 3.24
-          note: "5 → 34 MoM vs July; 3.24× vs baseline 10.5"
-        - signal: "m:yahooemail"
-          questions: 55
-          note: "30 → 55 (+83%) MoM"
-        - signal: "m:microsoftemail"
-          questions: 53
-          note: "36 → 53 (+47%) MoM"
+        - signal: "v154 × feat:printing"
+          date: "2026-08"
+          questions: 29
+          lift: 10.5
+          served_pct: 76
+          status: new
+          note: "monthly grain. Daily peak 2026-08-20 at 24.3× expected. Week of 2026-08-17 served only 43% — the worst-served desktop cluster of the month."
+    cause_surges:
+      - signal: "feat:printing"
+        questions: 36
+        served_pct: 75
+        rise: 8.0
+        spikes: 11
+        note: "8.0× vs baseline 4.5 — biggest cause-level rise of the month. Week of 2026-08-17 served only 38%. Roland's #1 'What stands out'."
+      - signal: "m:spectrum"
+        questions: 34
+        served_pct: 82
+        rise: 3.2
+        spikes: 8
+        note: "3→34 MoM (LLM July baseline); 3.2× vs baseline 10.5. Weekly peak 11.0× in the week of 2026-08-17. Roland: 'Spectrum seems to have issues a few times a year' — treat as recurring/seasonal provider-side, not a Thunderbird regression."
+      - signal: "m:yahooemail"
+        questions: 55
+        note: "30 → 55 (+83%) MoM; weekly peak 3.5× in the week of 2026-08-10"
+      - signal: "m:microsoftemail"
+        questions: 53
+        note: "36 → 53 (+47%) MoM"
+      - signal: "proto:pop"
+        questions: 46
+        note: "under the monthly bar; recurring v153 daily spikes 2026-08-10 / 08-13 / 08-14"
+      - signal: "feat:attachments"
+        questions: 27
+        note: "cause-tagged count; weekly spike 3.4× in the week of 2026-08-31"
     llm:
-      month: "2026-06"
-      last_updated: "2026-07-05"
-      stale: true
-      note: "LLM_INSIGHTS monthly-summary-latest is still June vs May. Do not use those clusters as August desktop signal."
+      month: "2026-08"
+      last_updated: "2026-09-10"
+      stale: false
+      questions: 940
+      questions_mom: "731 → 940 (+209, +29%)"
+      clusters: 117
+      new_clusters: 0
+      methodology: "Claude labels each question (problem, root-cause guess, severity 1–5), Python counts and ranks. Triage pointer, not proof. Agrees with PROJECT1 on the August pair — printing and Spectrum rank 1 and 2."
       source_url: "https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html"
-      top_priorities: []
+      note: "No new clusters in August — the surge came from existing clusters getting worse after the 153 and 154 releases."
+      top_priorities:
+        - rank: 1
+          cluster: "PDF/email attachments print as blank pages (154 regression)"
+          jul: 1
+          aug: 38
+          severity: 3.3
+          resolved_pct: 37
+          unanswered_pct: 21
+          known_status: "Fixed in Thunderbird 155, released 2026-09-01 (Bugzilla 2065922). Reports arriving after that date are users still on 154."
+          support_action: "Macro/KB: update to 155. This is the one August desktop cluster with a shipped fix."
+        - rank: 2
+          cluster: "Spectrum/Charter/Roadrunner mail download and connection failures"
+          jul: 3
+          aug: 34
+          severity: 4.3
+          severity_ge4_count: 31
+          resolved_pct: 62
+          unanswered_pct: 15
+          note: "31 of 34 at severity 4+ — users lost mail access outright. Roland reads it as provider-side auth/port/TLS change, not a Thunderbird build issue. Recurs a few times a year."
+        - rank: 3
+          cluster: "Compose window Send button / composition toolbar missing (Bugzilla 1989214)"
+          jul: 8
+          aug: 28
+          severity: 3.1
+          resolved_pct: 89
+        - rank: 4
+          cluster: "Thunderbird hangs or freezes at startup (System Integration dialog)"
+          jul: 8
+          aug: 22
+          severity: 4.2
+          resolved_pct: 59
+          unanswered_pct: 23
+        - rank: 5
+          cluster: "Thunderbird freezes/crashes during use or on message load"
+          jul: 14
+          aug: 25
+          severity: 4.1
+          resolved_pct: 60
+        - rank: 6
+          cluster: "Cannot send or receive at all / no connection to mail server"
+          jul: 11
+          aug: 21
+          severity: 4.5
+          resolved_pct: 52
+          unanswered_pct: 29
+          note: "highest mean severity of any cluster; Roland flags possible overlap with rank 2"
+        - rank: 7
+          cluster: "Drag-and-drop of messages/attachments to filesystem broken after 153"
+          jul: 1
+          aug: 16
+          severity: 3.2
+          resolved_pct: 56
+      worst_served:
+        - cluster: "Yahoo/AT&T/AOL password rejected; app-specific password required"
+          jul: 6
+          aug: 14
+          resolved_pct: 29
+          note: "worst resolved rate of any August desktop cluster — KB/macro gap on app-specific passwords"
+        - cluster: "Repeated password prompts despite saved credentials"
+          jul: 19
+          aug: 24
+          resolved_pct: 42
+          unanswered_pct: 42
+          note: "worst reply rate — 42% of askers got no answer at all"
+        - cluster: "PDF/email attachments print as blank pages (154 regression)"
+          aug: 38
+          resolved_pct: 37
+          note: "support had no working fix to give until 155 shipped 2026-09-01"
+        - cluster: "Message body blank / not rendering"
+          jul: 12
+          aug: 19
+          resolved_pct: 47
     actions:
-      - "Triage Spectrum/Charter send-receive cluster (34 qs, 3.24×) — continues the June cert/ISP pattern into v153/v154"
+      - "Printing (v154 regression): confirm 155 rollout messaging — 36 tagged questions, 8.0× baseline, only 37% resolved while unfixed. Fixed in 155 (2026-09-01)."
+      - "Spectrum/Charter/Roadrunner (34 qs, 3.2×, 31 of 34 at severity 4+): provider-side; publish standing guidance since Roland notes it recurs a few times a year"
+      - "KB gap — Yahoo/AT&T/AOL app-specific passwords: 29% resolved, the worst of any cluster"
+      - "KB gap — repeated password prompts despite saved credentials: 42% unanswered"
       - "Watch v153 POP retrieval failures (recurring daily spikes mid-August)"
-      - "v153 × Microsoft/Outlook auth cluster (Aug 4) — well served (100%) but spreading"
     engineering_priority: "TBD — Lisa / desktop eng triage"
-    cert_spike:
-      note: "Spectrum cause-level surge is the August headline: 5→34 questions; weekly spikes 10–11× mid/late August. Attachments topic mix also jumped 16→49 (+206%)."
+    validation:
+      note: "Both of Roland's methods independently name the same August desktop pair. Non-AI spike detector: printing 8.0× and Spectrum 3.2× are its two 'What stands out' entries. LLM cluster read: printing rank 1 and Spectrum rank 2. Agreement across methods is why these are the August desktop headline."
+      seasonal_spectrum: "Roland: 'Spectrum seems to have issues a few times a year!' — recurring provider-side pattern, so support should keep standing guidance rather than treat each occurrence as new."
+      scope: "Printing and Spectrum are DESKTOP Thunderbird only. Neither appears in Play Store review friction nor in the thunderbird-android backlog — do not cross-label as mobile."
   eng_alignment:
     source_month: "2026-08"
-    assessment: "Play Store friction not yet computed (GCS fetch blocked). Desktop SUMO load up sharply with Spectrum/Yahoo/Microsoft provider clusters and v153/v154 adoption. Android SUMO volume flat; LLM clusters pending Roland."
+    assessment: "Desktop: load up 29% with two validated headline clusters — printing (v154 regression, fixed in 155 on 2026-09-01) and Spectrum/Charter (provider-side, recurring). Both of Roland's methods agree. Solved rate fell 64%→58%, and the four worst-served clusters (printing 37%, Yahoo/AT&T/AOL passwords 29%, repeated password prompts 42%, blank message body 47%) are where it went. Android: volume too low for spike detection (40 questions, ~1/day, zero spikes fired by design); five new clusters of two questions each, credential/import and crash-on-open being the support-relevant ones. Play Store friction unchanged — push #1 (34 negative), spam #2 (18)."
 
 # ── THUNDERMAIL IDEAS (FeatureOS board 17437 — live fetch 2026-09-09) ──────
 # 192 unique posts (page 1+2, per_page=100, status=all), client-side sort by votes_count.
@@ -319,23 +501,24 @@ narrative:
     - 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
     - 564 Play Store reviews across 27 languages; 218 incoming review tickets
     - Push/sync still #1 friction (34 negative, 31→34 — rising, no fix shipped). July QR/Settings Import spike cooled (25→3 negative)
-    - 955 desktop forum questions (751 in July) — Spectrum/Charter cluster 34 qs
+    - 955 desktop forum questions (751 in July) — printing broke in v154 (36 qs, 8× normal) and Spectrum/Charter mail access failed (34 qs)
 
     **🪽 Resolve**
     - Donor CSAT 92.7% (+7.0 pts) on the ESR-appeal spike
     - Thundermail CSAT 85.7% is product/pricing DSATs; support satisfaction excluding those 100%
     - Android forum solved rate 61% (+1 pt) on 51 questions
+    - Desktop printing regression is fixed in Thunderbird 155 (Sept 1) — the one August desktop cluster with an answer to give
 
     **✨ Resound**
     - **48% of TB reviews are 5★** (220 of 456) — TB monthly average 3.74★ (+0.16 vs July)
     - July QR/Settings Import spike (25 neg, mostly 1★) dropped to 3 negative
     - Spam-filter negative mentions 22→18 — fewer mentions, not a shipped junk filter
     - Thundermail **Webmail** and **MFA** show as Landed on the ideas board
-  sumo_desktop_signal: "955 questions vs July 751; solved rate 58% (July 64%). Spectrum/Charter cause surge 34 qs (3.24×). Yahoo +83%, Microsoft +47%. v153 POP spikes recurring; v154 × Spectrum monthly cluster (13 qs, 3.1×). Attachments topic mix +206%."
-  sumo_android_signal: "51 questions vs July 55; 61% solved (July 60%). Ignored 27%. No August LLM cluster report yet."
+  sumo_desktop_signal: "955 questions vs July 751; solved rate 58% (July 64%). Two headline clusters, and both of Roland's methods name the same pair. Printing broke in v154 — 36 tagged questions at 8.0× baseline, peaking 24.3× on Aug 20, resolved only 37% while unfixed; fixed in Thunderbird 155 (Sept 1). Spectrum/Charter/Roadrunner mail access failed for 34 users (3→34 MoM, 3.2× baseline, 31 of 34 at severity 4+) — provider-side, and Roland notes Spectrum recurs a few times a year. Yahoo +83%, Microsoft +47%; v153 POP spikes recurring. The solved-rate drop sits in four badly-served clusters: printing 37%, Yahoo/AT&T/AOL app-specific passwords 29%, repeated password prompts 42% (42% unanswered), blank message body 47%. Desktop only — no Play Store or Android app overlap."
+  sumo_android_signal: "51 questions in the SUMO KPI export vs July 55; 61% solved (July 60%), ignored 27%. Roland's spike detector covers 40 questions and fired zero spikes — a volume artifact, not a clean month: it needs 8 questions of one kind in a month and August averaged ~1 question a day, and only 2% of questions record a Thunderbird version so the version×cause detector cannot fire at all. The AI read found 5 new clusters of two questions each; a change of one question is noise at this volume. Support-relevant: three credential/import clusters that look like one shared root cause, a new crash on opening downloaded mail, and contact autocomplete at 50% resolved — the only cluster support could not answer."
   goal_bullets: |
     - **Push / Notification Sync — still #1, still rising:** 34 negative (31→34) · 51 mentions · avg 2.76★ · 3-mo 20→31→34 · no product fix in market
     - **Spam Filter Absent — #2, fewer mentions:** 18 negative (22→18) · still no junk-filter build · July QR spike (25 neg) cooled to 3 — not a current 4★ lever
     - **Rating gap:** TB 3.74★ needs +0.26★ to 4★ (K-9 3.60★, −0.04). Converting push 1–3★ reviewers is still the primary path
-  experiments: ""
+  experiments: "Later (parked idea, not scoped): watch Zendesk volume against Roland's SUMO keyword spikes to see whether desktop provider/regression clusters show up in tickets first."
   whats_coming_up: null
