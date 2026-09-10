@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 00:25 ET** · refreshes hourly_  
+_Updated: **2026-09-10 01:22 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **365 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **367 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **14** solved in last 24h
-- **365** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **14** solved in last 24h
+- **367** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 40
 - **Median AHT**: 133.5h · mean 149.8h (proxy: updated_at − created_at, 290 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"scenario searching messages"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
 ## Known problems — 2 problem(s), 37 incident(s)
 
@@ -133,13 +139,14 @@ _(none in last 24h)_
 - **solved**: 290
 - **pending**: 52
 - **open**: 20
+- **new**: 2
 - **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 219
-- **Thundermail**: 115
+- **Thundermail**: 116
 - **Send**: 8
 - **Appointment**: 7
 
@@ -195,6 +202,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription
   > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was…
 
+### Webmail — 1 tickets
+
+- **[#8553](https://tbpro.zendesk.com/agent/tickets/8553)** · Searching inside Webmail not fuly configured
+  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found, But when I search the sender name and all popup - but…
+
+### Other / uncategorized — 1 tickets
+
+- **[#8552](https://tbpro.zendesk.com/agent/tickets/8552)** · Email messages content search
+  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#8551](https://tbpro.zendesk.com/agent/tickets/8551)** · Delete my account please
@@ -211,6 +228,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [open] · 2026-09-09T22:49 · Cancel subscription
 - [8547](https://tbpro.zendesk.com/agent/tickets/8547) · [open] · 2026-09-10T00:11 · Privacy claims
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [open] · 2026-09-10T01:48 · Delete my account please
+- [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [new] · 2026-09-10T05:08 · Email messages content search
+- [8553](https://tbpro.zendesk.com/agent/tickets/8553) · [new] · 2026-09-10T05:10 · Searching inside Webmail not fuly configured
 
 ## Solved — last 24h
 
