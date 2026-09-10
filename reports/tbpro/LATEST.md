@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 03:25 ET** · refreshes hourly_  
+_Updated: **2026-09-10 04:30 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **367 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **368 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **14** solved in last 24h
-- **367** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **14** solved in last 24h
+- **368** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 40
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 41
 - **Median AHT**: 133.5h · mean 149.8h (proxy: updated_at − created_at, 290 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"username text"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
+- **"found universal"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
 ## Known problems — 2 problem(s), 37 incident(s)
 
@@ -130,16 +130,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Fold the adress list in webmail when there's a lot of addresses](https://ideas.tb.pro/p/fold-the-adress-list-in-webmail-when-there-s-a-lot-of-addresses) · 1 votes · _untagged_
+  > What you’d like to seeAs in the subject.Why it mattersWhat problem does this solve, or what benefit does it bring?I received a mail with 10+ CC addresses which made that section of the mail very high…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 290
-- **pending**: 57
-- **open**: 15
-- **new**: 2
+- **pending**: 54
+- **open**: 18
+- **new**: 3
 - **hold**: 2
 - **closed**: 1
 
@@ -195,6 +196,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#8557](https://tbpro.zendesk.com/agent/tickets/8557)** · Gescheiterte Anmeldung 
+  > Sehr geehrte Damen und Herren, leider ist es mir nicht möglich, am Handy meine E-Mails über Thunderbird zu installieren und darauf zuzugreifen! Hinweise, warum eine Anmeldung…
+- **[#8552](https://tbpro.zendesk.com/agent/tickets/8552)** · Email messages content search
+  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found…
+
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
 - **[#8547](https://tbpro.zendesk.com/agent/tickets/8547)** · Privacy claims
@@ -206,11 +214,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8553](https://tbpro.zendesk.com/agent/tickets/8553)** · Searching inside Webmail not fuly configured
   > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found, But when I search the sender name and all popup - but…
-
-### Other / uncategorized — 1 tickets
-
-- **[#8552](https://tbpro.zendesk.com/agent/tickets/8552)** · Email messages content search
-  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -230,6 +233,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [open] · 2026-09-10T01:48 · Delete my account please
 - [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [new] · 2026-09-10T05:08 · Email messages content search
 - [8553](https://tbpro.zendesk.com/agent/tickets/8553) · [new] · 2026-09-10T05:10 · Searching inside Webmail not fuly configured
+- [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [new] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
 
 ## Solved — last 24h
 
