@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 15:16 ET** · refreshes hourly_  
+_Updated: **2026-09-10 16:20 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **374 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **375 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **16** solved in last 24h
-- **374** tickets total since launch · contact rate **1%** of 35000 invitees
+- **14** new tickets in last 24h · **16** solved in last 24h
+- **375** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 44
-- **Median AHT**: 133.3h · mean 148.5h (proxy: updated_at − created_at, 291 solved tickets)
+- **Median AHT**: 133.1h · mean 148.4h (proxy: updated_at − created_at, 292 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -143,23 +143,23 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
   > What you’d like to seeBriefly describe the feature or improvement.When reading a mail, being able to switch to next / former mail without going back to inboxWhy it mattersWhat problem does this…
 - [Mail Archiv](https://ideas.tb.pro/p/mail-archiv) · 1 votes · _untagged_
   > What problem does this solve, or what benefit does it bring? I wanted to integrate Thundermail into the mail archive, but it's not working; I keep getting an error message saying, “Unable to…
-- [Default reply-as should use receiving address (a.k.a. reverse aliasing)](https://ideas.tb.pro/p/default-reply-as-should-use-receiving-address-a-k-a-reverse-aliasing) · 1 votes · _untagged_
+- [Default reply-as should use receiving address (catch-all identity matching)](https://ideas.tb.pro/p/default-reply-as-should-use-receiving-address-catch-all-identity-matching) · 1 votes · _untagged_
   > What you’d like to seeWhen I have a registered custom domain example.com and I get an email for any-alias@example.com, the default reply-as should use the same any-alias@example.com.I think this is…
 - [Fold the adress list in webmail when there's a lot of addresses](https://ideas.tb.pro/p/fold-the-adress-list-in-webmail-when-there-s-a-lot-of-addresses) · 1 votes · _untagged_
   > What you’d like to seeAs in the subject.Why it mattersWhat problem does this solve, or what benefit does it bring?I received a mail with 10+ CC addresses which made that section of the mail very high…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 291
-- **pending**: 63
-- **open**: 14
+- **solved**: 292
+- **pending**: 65
+- **open**: 12
 - **hold**: 5
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 222
-- **Thundermail**: 118
+- **Account Hub**: 221
+- **Thundermail**: 120
 - **Appointment**: 8
 - **Send**: 8
 
@@ -168,16 +168,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 95
-- **blocked** + **explained**: 63
+- **blocked** + **explained**: 64
 - **change request** + **actioned**: 54
 - **blocked** + **investigated**: 18
 - **concerned** + **explained**: 15
 - **confused** + **explained**: 15
-- **request** + **redirected**: 14
 - **curious** + **informed**: 14
+- **request** + **redirected**: 14
 - **confused** + **informed**: 9
+- **blocked** + **redirected**: 8
 - **blocked** + **escalated**: 7
-- **blocked** + **redirected**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
@@ -192,6 +192,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 2
 - **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
+- **curious** + **investigated**: 1
 - **curious** + **—**: 1
 - **telling us** + **n/a**: 1
 - **concerned** + **actioned**: 1
@@ -208,14 +209,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#8584](https://tbpro.zendesk.com/agent/tickets/8584)** · App Password
+  > HI, I tried the app password and not able to get autentification system requires 16 passphrase and this is what i tried any suggestions?
 - **[#8580](https://tbpro.zendesk.com/agent/tickets/8580)** · OgoKAqfmFfNZBRLSWV
   > gUBUAhNObqBSOJlg
-- **[#8557](https://tbpro.zendesk.com/agent/tickets/8557)** · Gescheiterte Anmeldung 
-  > Sehr geehrte Damen und Herren, leider ist es mir nicht möglich, am Handy meine E-Mails über Thunderbird zu installieren und darauf zuzugreifen! Hinweise, warum eine Anmeldung…
 - **[#8552](https://tbpro.zendesk.com/agent/tickets/8552)** · Email messages content search
   > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found…
+- **[#8557](https://tbpro.zendesk.com/agent/tickets/8557)** · Gescheiterte Anmeldung  — why: **blocked** · how: **redirected**
+  > Sehr geehrte Damen und Herren, leider ist es mir nicht möglich, am Handy meine E-Mails über Thunderbird zu installieren und darauf zuzugreifen! Hinweise, warum eine Anmeldung…
 
 ### Aliases — 2 tickets
 
@@ -250,29 +253,30 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Appointment / calendar — 1 tickets
 
-- **[#8563](https://tbpro.zendesk.com/agent/tickets/8563)** · Kalender
+- **[#8563](https://tbpro.zendesk.com/agent/tickets/8563)** · Kalender — why: **curious** · how: **investigated**
   > Wie kann ich einen Termin erstellen und warum funktioniert die Synchronisatuion mit dem Kalender im Thunderbird 153.2.0esr nicht? How can I create an appointment and why isn't the…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#8545](https://tbpro.zendesk.com/agent/tickets/8545)** · trouble setting up DNS records on Godaddy
+- **[#8545](https://tbpro.zendesk.com/agent/tickets/8545)** · trouble setting up DNS records on Godaddy — why: **blocked** · how: **explained**
   > Hello, I was tring to set up the DNS records on Godaddy for a custom email, and GoDaddy reqwests Service, Protocol, Weight, Port, etc, but the instructions on Thundermail only…
 
 ## New tickets — last 24h
 
-- [8545](https://tbpro.zendesk.com/agent/tickets/8545) · [open] · 2026-09-09T21:18 · trouble setting up DNS records on Godaddy
+- [8545](https://tbpro.zendesk.com/agent/tickets/8545) · [pending] · 2026-09-09T21:18 · trouble setting up DNS records on Godaddy
 - [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09T22:49 · Cancel subscription
 - [8547](https://tbpro.zendesk.com/agent/tickets/8547) · [hold] · 2026-09-10T00:11 · Privacy claims
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [pending] · 2026-09-10T01:48 · Delete my account please
 - [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [open] · 2026-09-10T05:08 · Email messages content search
-- [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [open] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
+- [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [pending] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
 - [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [open] · 2026-09-10T08:43 · custom email in iOS mail
-- [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [open] · 2026-09-10T11:25 · Kalender
+- [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [pending] · 2026-09-10T11:25 · Kalender
 - [8568](https://tbpro.zendesk.com/agent/tickets/8568) · [pending] · 2026-09-10T14:44 · Not what I thought...
 - [8571](https://tbpro.zendesk.com/agent/tickets/8571) · [pending] · 2026-09-10T15:02 · Thundermail General Questions - 
 - [8576](https://tbpro.zendesk.com/agent/tickets/8576) · [open] · 2026-09-10T18:04 · Impossible de me connecter sur thunderbird ou de supprimer mon compte sur ma tablette samsug tab A6 
 - [8577](https://tbpro.zendesk.com/agent/tickets/8577) · [open] · 2026-09-10T18:14 · Refund Thundermail
 - [8580](https://tbpro.zendesk.com/agent/tickets/8580) · [open] · 2026-09-10T18:30 · OgoKAqfmFfNZBRLSWV
+- [8584](https://tbpro.zendesk.com/agent/tickets/8584) · [open] · 2026-09-10T19:32 · App Password
 
 ## Solved — last 24h
 
