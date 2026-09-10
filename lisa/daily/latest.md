@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 10:30 ET** · refreshes hourly_  
+_Updated: **2026-09-10 11:26 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **369 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **371 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **13** solved in last 24h
-- **369** tickets total since launch · contact rate **1%** of 35000 invitees
+- **10** new tickets in last 24h · **13** solved in last 24h
+- **371** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 43
@@ -140,7 +140,7 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 289
-- **pending**: 53
+- **pending**: 55
 - **open**: 24
 - **hold**: 2
 - **closed**: 1
@@ -148,7 +148,7 @@ _(none in last 24h)_
 ## Service (cumulative)
 
 - **Account Hub**: 219
-- **Thundermail**: 117
+- **Thundermail**: 119
 - **Appointment**: 8
 - **Send**: 8
 
@@ -156,7 +156,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 91
+- **curious** + **explained**: 93
 - **blocked** + **explained**: 64
 - **change request** + **actioned**: 52
 - **blocked** + **investigated**: 18
@@ -197,6 +197,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#8571](https://tbpro.zendesk.com/agent/tickets/8571)** · Thundermail General Questions - 
+  > 1) Difference between '[domain]' and '[domain]' and when should each be used if setting up a new alias? I couldn't find a reference when I searched online. 2) Can I test an alias…
+- **[#8558](https://tbpro.zendesk.com/agent/tickets/8558)** · custom email in iOS mail
+  > Hi there, I was wondering if you can help with this.... I'm trying to setup and send from my custom domain email ([email]). I can do it through the desktop app no problem. I'm…
+
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#8568](https://tbpro.zendesk.com/agent/tickets/8568)** · Not what I thought...
+  > I thought I had finally found a replacement for Google Workspace, at least for the mail/calendar/contacts, where I have my own "custom" domain with accounts for each of my family…
+- **[#8551](https://tbpro.zendesk.com/agent/tickets/8551)** · Delete my account please
+  > I would like to delete my account
+
 ### Other / uncategorized — 2 tickets
 
 - **[#8557](https://tbpro.zendesk.com/agent/tickets/8557)** · Gescheiterte Anmeldung 
@@ -216,16 +230,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8563](https://tbpro.zendesk.com/agent/tickets/8563)** · Kalender
   > Wie kann ich einen Termin erstellen und warum funktioniert die Synchronisatuion mit dem Kalender im Thunderbird 153.2.0esr nicht? How can I create an appointment and why isn't the…
 
-### Aliases — 1 tickets
-
-- **[#8558](https://tbpro.zendesk.com/agent/tickets/8558)** · custom email in iOS mail
-  > Hi there, I was wondering if you can help with this.... I'm trying to setup and send from my custom domain email ([email]). I can do it through the desktop app no problem. I'm…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#8551](https://tbpro.zendesk.com/agent/tickets/8551)** · Delete my account please
-  > I would like to delete my account
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#8545](https://tbpro.zendesk.com/agent/tickets/8545)** · trouble setting up DNS records on Godaddy
@@ -241,6 +245,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [open] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
 - [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [open] · 2026-09-10T08:43 · custom email in iOS mail
 - [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [open] · 2026-09-10T11:25 · Kalender
+- [8568](https://tbpro.zendesk.com/agent/tickets/8568) · [open] · 2026-09-10T14:44 · Not what I thought...
+- [8571](https://tbpro.zendesk.com/agent/tickets/8571) · [open] · 2026-09-10T15:02 · Thundermail General Questions - 
 
 ## Solved — last 24h
 
