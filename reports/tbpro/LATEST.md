@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-10 05:24 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **368 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **369 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **14** solved in last 24h
-- **368** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **13** solved in last 24h
+- **369** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 41
-- **Median AHT**: 133.5h · mean 149.8h (proxy: updated_at − created_at, 290 solved tickets)
+- **Median AHT**: 133.7h · mean 149.8h (proxy: updated_at − created_at, 289 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"found universal"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
+- **"found search sender"** — 2 tickets in 24h (new; baseline 0 cum) — [#8552](https://tbpro.zendesk.com/agent/tickets/8552), [#8553](https://tbpro.zendesk.com/agent/tickets/8553)
 
 ## Known problems — 2 problem(s), 37 incident(s)
 
@@ -137,17 +137,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 290
-- **pending**: 54
-- **open**: 18
-- **new**: 3
+- **solved**: 289
+- **pending**: 53
+- **open**: 20
+- **new**: 4
 - **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 219
-- **Thundermail**: 116
+- **Thundermail**: 117
 - **Send**: 8
 - **Appointment**: 7
 
@@ -210,6 +210,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription
   > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was…
 
+### Aliases — 1 tickets
+
+- **[#8558](https://tbpro.zendesk.com/agent/tickets/8558)** · custom email in iOS mail
+  > Hi there, I was wondering if you can help with this.... I'm trying to setup and send from my custom domain email ([email]). I can do it through the desktop app no problem. I'm…
+
 ### Webmail — 1 tickets
 
 - **[#8553](https://tbpro.zendesk.com/agent/tickets/8553)** · Searching inside Webmail not fuly configured
@@ -234,6 +239,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [new] · 2026-09-10T05:08 · Email messages content search
 - [8553](https://tbpro.zendesk.com/agent/tickets/8553) · [new] · 2026-09-10T05:10 · Searching inside Webmail not fuly configured
 - [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [new] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
+- [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [new] · 2026-09-10T08:43 · custom email in iOS mail
 
 ## Solved — last 24h
 
@@ -243,7 +249,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8334](https://tbpro.zendesk.com/agent/tickets/8334) · 2026-09-09T21:01 · Data storage
 - · [8108](https://tbpro.zendesk.com/agent/tickets/8108) · 2026-09-09T21:17 · e-mail confirmation never arives
 - · [7903](https://tbpro.zendesk.com/agent/tickets/7903) · 2026-09-09T22:01 · Custom Domain with Godaddy 
-- · [8353](https://tbpro.zendesk.com/agent/tickets/8353) · 2026-09-09T22:01 · GMX Problem
 - · [8316](https://tbpro.zendesk.com/agent/tickets/8316) · 2026-09-09T22:01 · MTA-STS Odd recomended DNS Settings
 - · [8252](https://tbpro.zendesk.com/agent/tickets/8252) · 2026-09-09T22:01 · account deletion
 - · [8371](https://tbpro.zendesk.com/agent/tickets/8371) · 2026-09-09T23:01 · 2FA
