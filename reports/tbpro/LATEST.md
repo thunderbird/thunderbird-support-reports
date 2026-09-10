@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-09
 
-_Updated: **2026-09-09 21:29 ET** · refreshes hourly_  
+_Updated: **2026-09-09 22:31 ET** · refreshes hourly_  
 _24h window: 2026-09-08T16:00 → 2026-09-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 31** of rollout — **35,000 invitees**, **364 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
+Flight 8 is **day 31** of rollout — **35,000 invitees**, **365 tickets** so far (1.0% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **2 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **20** solved in last 24h
-- **364** tickets total since launch · contact rate **1%** of 35000 invitees
+- **13** new tickets in last 24h · **19** solved in last 24h
+- **365** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 40
-- **Median AHT**: 133.1h · mean 147.3h (proxy: updated_at − created_at, 288 solved tickets)
+- **Median AHT**: 133.3h · mean 147.7h (proxy: updated_at − created_at, 289 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -153,15 +153,15 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 288
-- **pending**: 55
-- **open**: 18
+- **solved**: 289
+- **pending**: 53
+- **open**: 20
 - **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 218
+- **Account Hub**: 219
 - **Thundermail**: 115
 - **Send**: 8
 - **Appointment**: 7
@@ -285,7 +285,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7977](https://tbpro.zendesk.com/agent/tickets/7977) · 2026-09-08T22:01 · Multiple calendars
 - · [8304](https://tbpro.zendesk.com/agent/tickets/8304) · 2026-09-08T23:01 · Issue S/MIME certificates
 - · [8219](https://tbpro.zendesk.com/agent/tickets/8219) · 2026-09-08T23:01 · Thundermail Login
-- · [8071](https://tbpro.zendesk.com/agent/tickets/8071) · 2026-09-09T01:54 · Can’t Log In, Can’t Send Mail
 - 👍 [8004](https://tbpro.zendesk.com/agent/tickets/8004) · 2026-09-09T14:46 · Can't add custom domain email with two character name.
 - · [8349](https://tbpro.zendesk.com/agent/tickets/8349) · 2026-09-09T15:02 · Cancellation and refund
 - · [8358](https://tbpro.zendesk.com/agent/tickets/8358) · 2026-09-09T16:02 · Bug in calendar sync
