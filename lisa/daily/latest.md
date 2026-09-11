@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 17:18 ET** · refreshes hourly_  
+_Updated: **2026-09-11 18:20 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **387 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **8** solved in last 24h
+- **11** new tickets in last 24h · **7** solved in last 24h
 - **387** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (112 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
-- **Median AHT**: 132.9h · mean 148.1h (proxy: updated_at − created_at, 297 solved tickets)
+- **Median AHT**: 132.9h · mean 148.2h (proxy: updated_at − created_at, 297 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nouveaux mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -157,9 +157,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 297
-- **pending**: 80
-- **open**: 7
-- **hold**: 2
+- **pending**: 85
+- **hold**: 3
+- **open**: 1
 - **closed**: 1
 
 ## Service (cumulative)
@@ -177,20 +177,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 67
 - **change request** + **actioned**: 57
 - **blocked** + **investigated**: 19
+- **confused** + **explained**: 16
 - **curious** + **informed**: 16
 - **request** + **redirected**: 15
-- **confused** + **explained**: 15
 - **concerned** + **explained**: 15
-- **confused** + **informed**: 10
+- **confused** + **informed**: 13
 - **blocked** + **redirected**: 8
 - **blocked** + **escalated**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
-- **change request** + **escalated**: 2
+- **confused** + **investigated**: 3
 - **blocked** + **actioned**: 2
 - **curious** + **investigated**: 2
+- **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
@@ -198,7 +199,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **—**: 2
 - **change request** + **explained**: 2
 - **telling us** + **escalated**: 2
-- **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
 - **curious** + **—**: 1
 - **telling us** + **n/a**: 1
@@ -217,7 +217,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 2 tickets
 
-- **[#8608](https://tbpro.zendesk.com/agent/tickets/8608)** · mot de passe
+- **[#8608](https://tbpro.zendesk.com/agent/tickets/8608)** · mot de passe — why: **confused** · how: **explained**
   > nouveaux mots de passe
 - **[#8592](https://tbpro.zendesk.com/agent/tickets/8592)** · HmFLwJePWfkaXDjADGh — why: **curious** · how: **explained**
   > WqWpaBfvuSNcRVBJIQlfsmP
@@ -229,20 +229,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8599](https://tbpro.zendesk.com/agent/tickets/8599)** · Subscription cancellation — why: **change request** · how: **actioned**
   > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating…
 
-### Bug report / app crash / not working — 1 tickets
-
-- **[#8613](https://tbpro.zendesk.com/agent/tickets/8613)** · Checking Email with an Email Archiver
-  > Hello, I use the Mail Archiver to archive my emails. It works great with all my mailboxes, but unfortunately not with Thundermail—I always get an error message there. Unable to…
-
 ### Webmail — 1 tickets
 
-- **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail
+- **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail — why: **confused** · how: **informed**
   > Dear [name], under https://[domain]/ are shown two accounts, my own ([email]) and the account of my wife ([email]), please see attached screenshot 1. If I log in to my wifes…
 
-### Account access issues — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#8606](https://tbpro.zendesk.com/agent/tickets/8606)** · my e-mail address
-  > I can not access my e-mail address because my computer crashed and i have it working again but had to reinstall everything and now i would like to be able to access [email] I…
+- **[#8613](https://tbpro.zendesk.com/agent/tickets/8613)** · Checking Email with an Email Archiver — why: **confused** · how: **informed**
+  > Hello, I use the Mail Archiver to archive my emails. It works great with all my mailboxes, but unfortunately not with Thundermail—I always get an error message there. Unable to…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -253,6 +248,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8607](https://tbpro.zendesk.com/agent/tickets/8607)** · je me souvien plus du mots de passe principal — why: **blocked** · how: **explained**
   > nouveaux mots de passe
+
+### Account access issues — 1 tickets
+
+- **[#8606](https://tbpro.zendesk.com/agent/tickets/8606)** · my e-mail address — why: **confused** · how: **informed**
+  > I can not access my e-mail address because my computer crashed and i have it working again but had to reinstall everything and now i would like to be able to access [email] I…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -271,16 +271,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10T23:39 · Please help me to seek a refund and to cancel
 - [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11T08:13 · Subscription cancellation
 - [8605](https://tbpro.zendesk.com/agent/tickets/8605) · [pending] · 2026-09-11T14:40 · Problem with sending emails
-- [8606](https://tbpro.zendesk.com/agent/tickets/8606) · [open] · 2026-09-11T15:01 · my e-mail address
+- [8606](https://tbpro.zendesk.com/agent/tickets/8606) · [pending] · 2026-09-11T15:01 · my e-mail address
 - [8607](https://tbpro.zendesk.com/agent/tickets/8607) · [pending] · 2026-09-11T15:22 · je me souvien plus du mots de passe principal
-- [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [open] · 2026-09-11T15:26 · mot de passe
+- [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [pending] · 2026-09-11T15:26 · mot de passe
 - [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [open] · 2026-09-11T16:52 · Removal of account in webmail
 - [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [pending] · 2026-09-11T17:14 · can't verify custom domain
-- [8613](https://tbpro.zendesk.com/agent/tickets/8613) · [open] · 2026-09-11T17:43 · Checking Email with an Email Archiver
+- [8613](https://tbpro.zendesk.com/agent/tickets/8613) · [pending] · 2026-09-11T17:43 · Checking Email with an Email Archiver
 
 ## Solved — last 24h
 
-- · [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-10T21:13 · Create new address book?
 - · [8010](https://tbpro.zendesk.com/agent/tickets/8010) · 2026-09-11T04:01 · Display name not carried through from sign up
 - · [8501](https://tbpro.zendesk.com/agent/tickets/8501) · 2026-09-11T16:07 · Server
 - · [8520](https://tbpro.zendesk.com/agent/tickets/8520) · 2026-09-11T17:02 · Unable to log in to Thundermail – password reset email not received
