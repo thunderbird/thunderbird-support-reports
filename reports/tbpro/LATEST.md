@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 14:26 ET** · refreshes hourly_  
+_Updated: **2026-09-11 15:18 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **386 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **8** solved in last 24h
+- **11** new tickets in last 24h · **9** solved in last 24h
 - **386** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (112 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
-- **Median AHT**: 132.6h · mean 148.2h (proxy: updated_at − created_at, 296 solved tickets)
+- **Median AHT**: 132.6h · mean 148.3h (proxy: updated_at − created_at, 296 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"nouveaux mots"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -158,8 +158,8 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 - **solved**: 296
 - **pending**: 76
-- **open**: 9
-- **hold**: 4
+- **open**: 10
+- **hold**: 3
 - **closed**: 1
 
 ## Service (cumulative)
@@ -177,8 +177,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 66
 - **change request** + **actioned**: 57
 - **blocked** + **investigated**: 19
-- **request** + **redirected**: 16
 - **curious** + **informed**: 16
+- **request** + **redirected**: 15
 - **confused** + **explained**: 15
 - **concerned** + **explained**: 15
 - **confused** + **informed**: 10
@@ -188,6 +188,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
+- **curious** + **investigated**: 2
 - **blocked** + **actioned**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
@@ -199,7 +200,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **escalated**: 2
 - **confused** + **investigated**: 2
 - **praise** + **n/a**: 2
-- **curious** + **investigated**: 1
 - **curious** + **—**: 1
 - **telling us** + **n/a**: 1
 - **concerned** + **actioned**: 1
@@ -288,6 +288,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8577](https://tbpro.zendesk.com/agent/tickets/8577) · 2026-09-11T17:13 · Refund Thundermail
 - · [8484](https://tbpro.zendesk.com/agent/tickets/8484) · 2026-09-11T17:14 · Account encryption
 - 👍 [7897](https://tbpro.zendesk.com/agent/tickets/7897) · 2026-09-11T17:39 · Issues with uploading files to Send
+- · [8498](https://tbpro.zendesk.com/agent/tickets/8498) · 2026-09-11T19:01 · Attached pdf file
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
