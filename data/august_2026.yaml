@@ -13,6 +13,13 @@ csv_tb_stable: reviews_net.thunderbird.android_202608.csv
 csv_k9: reviews_com.fsck.k9_202608.csv
 csv_tb_beta: reviews_net.thunderbird.android.beta_202608.csv
 
+# Paired by Review Link against all available July exports (stable, K-9, and Beta).
+rating_changes:
+  improved: 0
+  unchanged: 0
+  decreased: 1
+  matched: 1
+
 # Play Store GCS methodology still applies for any MoM that spans Jan–May (manual) vs June+ (GCS).
 methodology_approved_by: mobile manager
 methodology_notes:

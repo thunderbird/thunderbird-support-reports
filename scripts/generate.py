@@ -13,7 +13,7 @@ Also writes redirect stubs at lisa/<year>/ so circulating old URLs keep working.
 # dependencies = ["pyyaml"]
 # ///
 
-import sys, json, csv, re, os, math, ssl, html, urllib.request, urllib.error, urllib.parse
+import sys, json, csv, re, os, math, ssl, html, subprocess, urllib.request, urllib.error, urllib.parse
 from pathlib import Path
 from collections import Counter, defaultdict
 
@@ -627,22 +627,19 @@ def analyze_replies(rows):
 def compare_rating_changes(current_rows, prev_csv_paths):
     """Cross-reference current rows against previous month CSVs by Review Link.
     Only reviews present in both exports are counted — these are reviews with
-    activity (reply or edit) in the current month. Returns None if no prev CSVs found.
+    activity (reply or edit) in the current month.
     """
     prev_ratings = {}
     for path in prev_csv_paths:
-        if not path or not path.exists():
+        if path is None:
             continue
-        try:
-            with open(path, encoding='utf-16') as f:
-                for row in csv.DictReader(f):
-                    link = row.get('Review Link', '').strip()
-                    if link:
-                        prev_ratings[link] = int(row.get('Star Rating', 0))
-        except Exception:
-            pass
+        with open(path, encoding='utf-16') as f:
+            for row in csv.DictReader(f):
+                link = row.get('Review Link', '').strip()
+                if link:
+                    prev_ratings[link] = int(row.get('Star Rating', 0))
     if not prev_ratings:
-        return None
+        raise RuntimeError("Previous-month Play Store CSVs contained no Review Links")
     improved = unchanged = decreased = 0
     for row in current_rows:
         link = row.get('Review Link', '').strip()
@@ -653,6 +650,58 @@ def compare_rating_changes(current_rows, prev_csv_paths):
             else:           unchanged += 1
     matched = improved + unchanged + decreased
     return {'improved': improved, 'unchanged': unchanged, 'decreased': decreased, 'matched': matched}
+
+
+def _review_csv_candidates(base, app, yyyymm):
+    """Return canonical and legacy Play export paths for one app/month."""
+    patterns = [
+        f"reviews_{app}_{yyyymm}*.csv",
+        f"reviews_reviews_{app}_{yyyymm}*.csv",
+    ]
+    matches = []
+    for directory in (base / 'data' / 'input', base):
+        for pattern in patterns:
+            matches.extend(sorted(directory.glob(pattern)))
+    return matches
+
+
+def ensure_play_store_csvs(base, month, year):
+    """Ensure required current and previous exports exist before analysis."""
+    month_num = MONTH_NUMS[month.lower()]
+    current = int(f"{year}{month_num}")
+    current_year, current_month = divmod(current, 100)
+    if current_month == 1:
+        prev_year, prev_month = current_year - 1, 12
+    else:
+        prev_year, prev_month = current_year, current_month - 1
+    periods = (f"{prev_year}{prev_month:02d}", f"{current_year}{current_month:02d}")
+    required_apps = ("net.thunderbird.android", "com.fsck.k9")
+
+    missing = [
+        (app, yyyymm)
+        for yyyymm in periods
+        for app in required_apps
+        if not _review_csv_candidates(base, app, yyyymm)
+    ]
+    if missing:
+        print("  Required Play Store CSVs missing; fetching report and previous month…")
+        result = subprocess.run(
+            [sys.executable, str(base / 'scripts' / 'fetch_reviews.py'), month, str(year)]
+        )
+        if result.returncode:
+            sys.exit("Play Store CSV fetch failed; rating changes cannot be computed.")
+
+    still_missing = [
+        f"reviews_{app}_{yyyymm}.csv"
+        for yyyymm in periods
+        for app in required_apps
+        if not _review_csv_candidates(base, app, yyyymm)
+    ]
+    if still_missing:
+        sys.exit(
+            "Required Play Store CSVs are still missing after fetch:\n  "
+            + "\n  ".join(still_missing)
+        )
 
 
 def analyze_csvs(base, config, month_prefix):
@@ -705,16 +754,16 @@ def analyze_csvs(base, config, month_prefix):
     m = int(config['month_num'])
     y = int(config['year'])
     prev_yyyymm = f"{y}{m-1:02d}" if m > 1 else f"{y-1}12"
-    def _find_csv(glob_pattern):
-        import glob as _glob
-        hits = _glob.glob(str(base / 'data' / 'input' / glob_pattern)) + \
-               _glob.glob(str(base / glob_pattern))
-        return Path(hits[0]) if hits else None
-    prev_tb_path = _find_csv(f"reviews_reviews_net.thunderbird.android_{prev_yyyymm}*.csv")
-    prev_k9_path = _find_csv(f"reviews_reviews_com.fsck.k9_{prev_yyyymm}*.csv")
-    rating_changes = compare_rating_changes(all_rows, [prev_tb_path, prev_k9_path])
-    if rating_changes:
-        print(f"  Rating changes vs {prev_yyyymm}: +{rating_changes['improved']} ↑  {rating_changes['unchanged']} → {rating_changes['decreased']} ↓  ({rating_changes['matched']} matched)")
+    prev_tb_path = _review_csv_candidates(base, "net.thunderbird.android", prev_yyyymm)[0]
+    prev_k9_path = _review_csv_candidates(base, "com.fsck.k9", prev_yyyymm)[0]
+    prev_beta_candidates = _review_csv_candidates(
+        base, "net.thunderbird.android.beta", prev_yyyymm
+    )
+    prev_beta_path = prev_beta_candidates[0] if prev_beta_candidates else None
+    rating_changes = compare_rating_changes(
+        all_rows, [prev_tb_path, prev_k9_path, prev_beta_path]
+    )
+    print(f"  Rating changes vs {prev_yyyymm}: +{rating_changes['improved']} ↑  {rating_changes['unchanged']} → {rating_changes['decreased']} ↓  ({rating_changes['matched']} matched)")
 
     return {
         'tb_count': len(tb), 'k9_count': len(k9), 'total_count': len(all_rows),
@@ -2040,6 +2089,10 @@ def main():
         print(f"✓ History loaded: prev month = {prev_entry['month']} {prev_entry['year']}")
     else:
         print("  No history found — using YAML prev values")
+
+    # A skipped report must not leave the next month without a pairing baseline.
+    # Ensure both the report month and its previous month are present before analysis.
+    ensure_play_store_csvs(BASE, month, year)
 
     # Analyze CSVs
     print(f"  Analyzing Play Store CSVs ({month_prefix})…")

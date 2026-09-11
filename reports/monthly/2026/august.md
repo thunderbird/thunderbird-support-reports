@@ -53,10 +53,10 @@ Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during 
 ---
 ## Android Reviews
 - **Engagement:** 218 incoming Play Store review tickets (down from 272 in July)
-- **Impact:** Improved / unchanged / decreased not available this month — July had no full Play Store export to pair by Review Link. Average monthly rating — TB 3.74★ (+0.16 from July ↑) · K-9 3.60★ (-0.04 from July ↓) · Combined 3.71★ *(simple weighted mean: each review counts once regardless of app)*
+- **Impact:** 0 improved · 0 unchanged · 1 decreased *(of 1 review active in both months — see footnote)*. Average monthly rating — TB 3.74★ (+0.16 from July ↑) · K-9 3.60★ (-0.04 from July ↓) · Combined 3.71★ *(simple weighted mean: each review counts once regardless of app)*
 - **Volume:** 564 total reviews — TB 456 (415 stable + 41 beta), K-9 108. 27 languages.
 
-*Methodology: June onward uses Play Console GCS exports (Jan–May were manual UI downloads). August vs July is GCS-to-GCS; July averages come from Lisa's 8/31 KPI snapshot, not a full July dashboard.*
+*Methodology: June onward uses Play Console GCS exports (Jan–May were manual UI downloads). August vs July rating changes pair Review Links across the full GCS exports; July headline averages still come from Lisa's 8/31 KPI snapshot because no July dashboard was produced.*
 
 ### Top 3 Friction Points
 *Sourced from 564 Play Store reviews (TB + Beta + K-9, same codebase). Analyzed with AI.*

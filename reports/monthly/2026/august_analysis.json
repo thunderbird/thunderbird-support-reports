@@ -190,5 +190,10 @@
       "k9_count": 0
     }
   },
-  "rating_changes": null
+  "rating_changes": {
+    "improved": 0,
+    "unchanged": 0,
+    "decreased": 1,
+    "matched": 1
+  }
 }

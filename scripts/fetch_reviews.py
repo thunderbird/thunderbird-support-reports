@@ -6,7 +6,7 @@ no more manual downloads from the Play Console web UI.
 
 Usage:
     uv run scripts/fetch_reviews.py                 # prior month (the usual case)
-    uv run scripts/fetch_reviews.py march 2026      # a specific month
+    uv run scripts/fetch_reviews.py march 2026      # month + preceding month
     uv run scripts/fetch_reviews.py --dry-run
 
 Prereqs (one-time):
@@ -60,6 +60,13 @@ def prior_month():
     return NUM_TO_NAME[f"{last_of_prior.month:02d}"], str(last_of_prior.year)
 
 
+def preceding_month(month_num, year):
+    """Return (month_name, year_str) immediately before a report month."""
+    first = dt.date(int(year), int(month_num), 1)
+    previous = first - dt.timedelta(days=1)
+    return NUM_TO_NAME[f"{previous.month:02d}"], str(previous.year)
+
+
 def copy_cmd(src, dst):
     """Prefer modern `gcloud storage cp`; fall back to legacy `gsutil cp`."""
     if _has("gcloud"):
@@ -89,12 +96,6 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Print commands without running them")
     args = parser.parse_args()
 
-    if not BUCKET:
-        sys.exit(
-            "PLAY_REVIEWS_BUCKET is not set. Export the Play Console review bucket first:\n"
-            '  export PLAY_REVIEWS_BUCKET="gs://pubsite_prod_XXXXXXXXXXXXXXXXX/reviews"'
-        )
-
     # Default to the prior calendar month (Play Console exports are complete once the
     # month has closed, so the usual run in month N pulls month N-1).
     if args.month is None:
@@ -109,40 +110,62 @@ def main():
     if not month_num:
         sys.exit(f"Unknown month: {month}")
 
-    yyyymm = f"{year}{month_num}"
     dest_dir = Path(__file__).parent.parent / "data" / "input"
     dest_dir.mkdir(parents=True, exist_ok=True)
 
     fetched, skipped, missing = [], [], []
+    prev_month, prev_year = preceding_month(month_num, year)
+    periods = [(prev_month, prev_year), (month.lower(), str(year))]
 
-    for app in APPS:
-        filename = f"reviews_{app}_{yyyymm}.csv"
-        src = f"{BUCKET}/{filename}"
-        dst = dest_dir / filename
+    required_missing = [
+        f"reviews_{app}_{period_year}{MONTH_NAMES[period_month]}.csv"
+        for period_month, period_year in periods
+        for app in APPS[:2]
+        if not (dest_dir / f"reviews_{app}_{period_year}{MONTH_NAMES[period_month]}.csv").exists()
+    ]
+    if required_missing and not BUCKET:
+        sys.exit(
+            "Required Play Store CSVs are missing and PLAY_REVIEWS_BUCKET is not set:\n"
+            + "\n".join(f"  {name}" for name in required_missing)
+            + '\nExport PLAY_REVIEWS_BUCKET="gs://pubsite_prod_XXXXXXXXXXXXXXXXX/reviews"'
+        )
 
-        if dst.exists():
-            print(f"  skip  {filename} (already exists)")
-            skipped.append(filename)
-            continue
+    for period_month, period_year in periods:
+        yyyymm = f"{period_year}{MONTH_NAMES[period_month]}"
+        print(f"{period_month.title()} {period_year}:")
+        for app in APPS:
+            filename = f"reviews_{app}_{yyyymm}.csv"
+            src = f"{BUCKET}/{filename}" if BUCKET else None
+            dst = dest_dir / filename
 
-        cmd = copy_cmd(src, str(dst))
-        print(f"  fetch {filename}")
-        if args.dry_run:
-            print(f"    would run: {' '.join(cmd)}")
-            continue
+            if dst.exists():
+                print(f"  skip  {filename} (already exists)")
+                skipped.append(filename)
+                continue
 
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        if result.returncode == 0:
-            fetched.append(filename)
-        else:
-            # Beta is optional — warn but don't fail
-            if "beta" in app:
-                print(f"  warn  {filename} not found (beta is optional)")
+            if not BUCKET and "beta" in app:
+                print(f"  skip  {filename} (beta is optional; bucket not configured)")
                 missing.append(filename)
+                continue
+
+            cmd = copy_cmd(src, str(dst))
+            print(f"  fetch {filename}")
+            if args.dry_run:
+                print(f"    would run: {' '.join(cmd)}")
+                continue
+
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            if result.returncode == 0:
+                fetched.append(filename)
             else:
-                print(f"  ERROR fetching {filename}: {result.stderr.strip()}"
-                      f"{_auth_hint(result.stderr)}", file=sys.stderr)
-                sys.exit(1)
+                # Beta is optional — warn but don't fail
+                if "beta" in app:
+                    print(f"  warn  {filename} not found (beta is optional)")
+                    missing.append(filename)
+                else:
+                    print(f"  ERROR fetching required {filename}: {result.stderr.strip()}"
+                          f"{_auth_hint(result.stderr)}", file=sys.stderr)
+                    sys.exit(1)
 
     if not args.dry_run:
         print()
@@ -154,7 +177,8 @@ def main():
             print(f"Not found (optional): {', '.join(missing)}")
         if not fetched and not skipped:
             print("Nothing fetched. Check the bucket name and that the export for this month exists.")
-        print(f"\nSource: {BUCKET}  (direct GCS pull — no manual download)")
+        if BUCKET:
+            print(f"\nSource: {BUCKET}  (direct GCS pull — no manual download)")
         print(f"FOOTNOTE: {METHODOLOGY_NOTE}")
 
 

@@ -31,16 +31,21 @@ Update both `new_this_month` and `top_alltime` in `data/$month_$year.yaml`.
 
 ---
 
-## Step 2 — Confirm Play Store CSVs are in place
+## Step 2 — Ensure current and previous Play Store CSVs are in place
 
-Required files in project root or `data/input/`:
-- `reviews_reviews_net.thunderbird.android_$year$month_num.csv`
-- `reviews_reviews_com.fsck.k9_$year$month_num.csv`
-- Optional beta: `reviews_reviews_net.thunderbird.android.beta_$year$month_num.csv`
+Run `uv run scripts/fetch_reviews.py $month $year`. It fetches both the report month and
+the preceding calendar month into `data/input/`; required stable and K-9 failures are fatal.
+This must run even when the preceding month's report was skipped, because improved /
+unchanged / decreased ratings are paired by Review Link against that preceding export.
+
+Required files for **both months**:
+- `reviews_net.thunderbird.android_YYYYMM.csv`
+- `reviews_com.fsck.k9_YYYYMM.csv`
+- Optional beta: `reviews_net.thunderbird.android.beta_YYYYMM.csv`
 
 CSVs are UTF-16 encoded. Use all rows — no date filtering. The export is scoped by last activity date, not submit date.
-
-If a file has a `(1)` suffix (macOS duplicate), update `csv_tb_stable` in the YAML.
+`generate.py` performs the same check and automatically runs the fetcher if a required file
+is missing. A fetch failure must stop generation; do not publish rating changes as unavailable.
 
 ---
 
@@ -88,7 +93,7 @@ Check the K-9 Discourse data and Play Store K-9 analysis for signals worth calli
 
 Open `reports/monthly/$year/$month.html` and check:
 - All stat cards show values (no `—` where data should be)
-- TB Pro note renders as small italic, not a heading
+- Thundermail note renders as small italic, not a heading
 - Quarter label on rating trend is correct (Q1=Jan-Mar, Q2=Apr-Jun, etc.)
 - K-9 Forum tab shows topics, resolved %, unanswered %, top themes with 3-month trends and NEW ↑ badges, top contributors
 - Theme count that more than doubles vs. the start of the 3-month window renders in red

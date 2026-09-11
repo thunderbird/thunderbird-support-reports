@@ -20,11 +20,15 @@ analyzes them and produces:
 1. Provide Zendesk metrics (CSAT, ticket counts, donor topic breakdown) from the MoM spreadsheet
 
 ### What Claude does (Play Store CSVs)
-Run `uv run scripts/fetch_reviews.py <month> <year>` — fetches all three apps from GCS into `data/input/` automatically.
+Run `uv run scripts/fetch_reviews.py <month> <year>` — fetches the requested month **and the preceding month** for all three apps from GCS into `data/input/` automatically.
 GCS bucket: read from `$PLAY_REVIEWS_BUCKET` (kept out of this public repo — it embeds our developer account ID).
 Requires gcloud CLI installed and authenticated (`gcloud auth login` with Lisa's Google account).
 Beta is optional — script warns but does not fail if missing.
 **Run this in the following month** (e.g. fetch May's CSVs in June) — Play Console exports are only complete once the month has closed.
+`generate.py` verifies both months before analysis and invokes the fetcher when either required
+export is missing. If a monthly report is skipped, the next report still fetches that skipped
+month: improved / unchanged / decreased pairing requires Review Links from the prior export.
+Missing required exports or a failed GCS fetch are fatal; never publish “not available.”
 
 ### What Claude does
 1. **Re-fetch all live data sources** before touching the YAML — do not rely on values from a prior session, which may be days or weeks stale:
@@ -59,7 +63,7 @@ Update `history_neg` by appending last month's negative mention counts.
 
 ### Planned — monthly report redesign *(direction chosen — sample gate still active)*
 
-**Lisa chose restrained (Jun 2026):** Inter-only operational dashboard layout — easier to scan than the editorial/magazine serif variant. Working prototype: `lisa/2026/june_sample_restrained.html`. When Fable starts, consolidate that file → `lisa/2026/june_sample.html` (single sample-gate file; review deadline **June 23** per `DESIGN.md`). Editorial compare files (`june_compare_editorial.html`, etc.) are **reference only**.
+**Lisa chose restrained (Jun 2026):** Inter-only operational dashboard layout — easier to scan than the editorial/magazine serif variant. Working prototype: `lisa/2026/june_sample_restrained.html`. August live newsletter (`reports/monthly/2026/august.html`) is the approved layout; do not regenerate it from `generate.py` until that template is ported without wiping qualitative copy.
 
 Same playbook as the launch overview sample (`lisa/daily/launch_overview_sample.html`):
 - **Bolt tokens**, dark mode, accessible hierarchy
@@ -67,18 +71,16 @@ Same playbook as the launch overview sample (`lisa/daily/launch_overview_sample.
 - **Scannable copy** — no essay blocks in masthead/lede; use `.masthead__highlights` + `.scan-list` (see `.cursor/rules/tbpro-copy-tone.mdc` → *Scannable copy*)
 - **Reimagined layout from scratch** — not an incremental patch on `generate.py` output
 
-**Sample gate:** edit **only** the `*_sample.html` file until Lisa approves. Do **not** modify `scripts/generate.py` or live output (`reports/monthly/YYYY/month.html`) until then. Path-only edits to `generate.py` (output directory) are an exception when Lisa relocates team-facing reports.
+**Sample gate:** the August newsletter is published by hand in `reports/monthly/`. Do **not** overwrite it with the old generator layout. `lisa/<year>/` is the frozen archive (March–June) plus redirect stubs for current-cycle reports.
 
 **Never modify archived monthly reports.** Prior months in `lisa/YYYY/` (March–June 2026) are frozen once published — read-only references for voice, layout, and drill-down patterns. Current-cycle reports live in `reports/monthly/<year>/` (matching `reports/tbpro/`). Do not edit:
 - Published dashboards: `march.html`, `april.html`, `may.html`, … (any month before the current reporting cycle)
 - Frozen deep dives and working docs: `march_push_deep_dive.html`, `march_push_followup.html`, `march_push_kb_recommendations.html`, `march_support_ops_index.html`, prior-month `*_sumo_trending.html`, etc.
 - Matching `.md`, `.csv`, and analysis JSON for those months
 
-When the current sample needs a drill-down link, create or link to **current-month** artifacts under `reports/monthly/<year>/` (`august_push_deep_dive.html`, …) — never patch archived HTML in `lisa/` to fix a broken link from the sample. See `DESIGN.md` scope. Going forward, leave a redirect stub at `lisa/<year>/<month>.html` so old shared links keep working.
+When the current newsletter needs a drill-down link, create or link to **current-month** artifacts under `reports/monthly/<year>/` (`september_push_deep_dive.html`, …) — never patch archived HTML in `lisa/`. Leave a redirect stub at `lisa/<year>/<month>.html` so old shared links keep working.
 
-**Pattern references:** `launch_overview_sample.html` + the five TB Pro Cursor rules (`tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`). Adapt for monthly dashboard sections: Donor Care, TB Pro, Android Reviews, Desktop/Android SUMO forums, K-9 Forum (see Dashboard structure below).
-
-**When Fable starts:** read `tbpro-sonnet-maintenance.mdc` principles (section comments, no `display:flex` on `th`, etc.) and create `.cursor/rules/monthly-report-sample.mdc` for ongoing maintenance.
+**Pattern references:** August newsletter output + `launch_overview_sample.html` and the shared report rules (`tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`). Monthly sections are Donor Care, Thundermail, Android Reviews, Desktop ESR, Desktop/Android SUMO forums, and K-9 Forum (see Dashboard structure below).
 
 ## Privacy — PII policy
 When showing any customer content, **never store PII in any repo file — committed or local.** This includes: email addresses, last names, domain names, aliases, IP addresses, phone numbers, Play Console developer account IDs, or any other personally identifiable information. This applies to all data sources: Zendesk tickets (subjects, excerpts, comments), Play Store reviews, FeatureOS, SUMO.
@@ -96,7 +98,9 @@ GIT_COMMITTER_EMAIL="lisajill@users.noreply.github.com" GIT_COMMITTER_NAME="Mome
 ## Data sources
 
 ### Play Store CSVs
-Fetched automatically via `uv run scripts/fetch_reviews.py <month> <year>`.
+Fetched automatically via `uv run scripts/fetch_reviews.py <month> <year>`. The command ensures
+both the requested month and its preceding calendar month are present; this preserves the rating
+pairing baseline even when the preceding month's report was skipped.
 GCS bucket: read from `$PLAY_REVIEWS_BUCKET` (see fetch step above).
 Two apps (required) + one optional:
 - Thunderbird Android: `reviews_net.thunderbird.android_YYYYMM.csv`
