@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>WIP — Monthly Support Report · Thunderbird · August 2026</title>
+<title>Monthly Support Report · Thunderbird · August 2026</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
   --color-success:#34d27b;--color-success-soft:#071f13;--color-warning:#f5a623;
   --color-warning-soft:#211600;--color-critical:#ff5a5a;--color-critical-soft:#2a0a0a;
   --c-donor:#55c98a;--c-tbpro:#8f7cff;--c-android:#ff8a3d;--c-desktop:#4fc3f7;
-  --c-sumoand:#31d2b3;--c-k9:#b794ff;--c-rrr:#f3c969;
+  --c-esr:#3aa9f0;--c-sumoand:#31d2b3;--c-k9:#b794ff;--c-rrr:#f3c969;
   --space-4:4px;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;
   --space-32:32px;--space-48:48px;--radius-sm:6px;--radius-md:10px;--radius-lg:16px;
   --font-sans:'Inter',sans-serif;--font-mono:'SFMono-Regular',Consolas,monospace;
@@ -34,11 +34,11 @@ a{color:var(--color-primary);text-decoration:none}a:hover{text-decoration:underl
 .topbar__brand{font-weight:700;color:var(--color-text-base);white-space:nowrap}.topbar__brand span{color:var(--color-text-muted);font-weight:500}
 .topbar__nav{display:flex;gap:var(--space-8);overflow:auto}.topbar__nav a{color:var(--color-text-muted);font-size:.75rem;padding:7px 8px;white-space:nowrap;border-radius:var(--radius-sm)}
 .topbar__nav a:hover,.topbar__nav a.is-active{color:var(--color-text-base);background:var(--color-surface-raised);text-decoration:none}
+/* Android (TfA) nav group — Play Store reviews + SUMO Android + K-9 forum share one codebase */
+.nav-group{display:flex;align-items:center;gap:2px;padding:2px 4px 2px 8px;border:1px solid color-mix(in srgb,var(--c-android) 45%,transparent);border-radius:99px;background:color-mix(in srgb,var(--c-android) 10%,transparent)}
+.nav-group__lbl{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--c-android);white-space:nowrap}
 .dot{width:7px;height:7px;display:inline-block;border-radius:50%;margin-right:5px}
 .masthead{padding:var(--space-48) 0 var(--space-32);border-bottom:1px solid var(--color-surface-border)}
-.wip-banner{margin-bottom:var(--space-24);padding:var(--space-12) var(--space-16);border:1px solid var(--color-warning);border-radius:var(--radius-md);background:var(--color-warning-soft)}
-.wip-banner__label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--color-warning);margin-bottom:var(--space-4)}
-.wip-banner p{margin:0;font-size:.88rem;color:var(--color-text-base);max-width:68ch}
 .nameplate{display:flex;justify-content:space-between;gap:var(--space-24);padding-bottom:var(--space-24);border-bottom:1px solid var(--color-surface-border)}
 .nameplate__title{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
 .nameplate__issue{font-family:var(--font-mono);font-size:.72rem;color:var(--color-text-muted);text-align:right;text-transform:uppercase}
@@ -63,7 +63,13 @@ a{color:var(--color-primary);text-decoration:none}a:hover{text-decoration:underl
 .filterbar{position:sticky;top:52px;z-index:15;display:flex;align-items:center;gap:var(--space-8);overflow:auto;padding:var(--space-12) 0;background:var(--color-surface-base);border-bottom:1px solid var(--color-surface-border)}
 .filterbar__label{font-size:.68rem;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.1em}.filter-btn{border:1px solid var(--color-surface-border);background:var(--color-surface-raised);color:var(--color-text-secondary);border-radius:99px;padding:6px 10px;white-space:nowrap;cursor:pointer}
 .filter-btn:hover,.filter-btn.is-active{border-color:var(--color-primary);color:var(--color-text-base)}
+/* Android (TfA) filter group — grouped chips, hashes stay independent */
+.filter-group{display:flex;align-items:center;gap:var(--space-8);padding:4px 8px 4px 10px;border:1px dashed color-mix(in srgb,var(--c-android) 55%,transparent);border-radius:99px;background:color-mix(in srgb,var(--c-android) 8%,transparent)}
+.filter-group__lbl{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--c-android);white-space:nowrap}
 .chapter{padding:var(--space-48) 0;border-bottom:1px solid var(--color-surface-border);scroll-margin-top:112px}.chapter__head{display:grid;grid-template-columns:56px 1fr;gap:var(--space-16);margin-bottom:var(--space-24)}
+/* Anchors inside a chapter clear the topbar + filterbar (#overlap and
+   #eng-priority-alignment now sit on .drill, which carries its own scroll margin) */
+.block-title[id],.takeaway[id]{scroll-margin-top:112px}
 .chapter__num{font-family:var(--font-mono);font-size:.8rem;color:var(--chapter-color)}.chapter__kicker{color:var(--chapter-color)}
 .chapter__title{font-size:clamp(1.55rem,3vw,2.5rem);line-height:1.1;letter-spacing:-.035em;margin:var(--space-8) 0}.chapter__standfirst{color:var(--color-text-secondary);max-width:850px}.chapter__meta{color:var(--color-text-muted);font-size:.75rem;margin-top:var(--space-12)}
 .block-title{color:var(--chapter-color);margin:var(--space-32) 0 var(--space-12)}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-16);margin-top:var(--space-16)}
@@ -78,21 +84,39 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
 .friction-item__meta{display:flex;flex-wrap:wrap;gap:4px 15px;font-size:.75rem;color:var(--color-text-secondary);margin-top:5px}.friction-item__neg{font-size:1.65rem;font-weight:700;text-align:right}.friction-item__neg-lbl{text-align:right;font-size:.65rem;color:var(--color-text-muted)}
 .goals{display:grid;gap:var(--space-8);padding-left:1.2rem}.rrr{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-16)}.rrr-card{padding:var(--space-16);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);background:var(--color-surface-raised)}
 .rrr-card__icon{font-size:1.4rem}.rrr-card__label{font-weight:700;margin:5px 0}.colophon{padding:var(--space-32) 0 64px}.colophon__title{font-weight:700;margin-bottom:var(--space-12)}
-@media(max-width:800px){.topbar__nav .lbl{display:none}.ribbon__grid,.stat-grid{grid-template-columns:repeat(2,1fr)}.lead__grid,.two-col,.rrr{grid-template-columns:1fr}.ideas{grid-template-columns:1fr 1fr}.masthead__headline{font-size:2.4rem}.chapter__head{grid-template-columns:34px 1fr}}
+/* CSS REGION: accordions — drill-down blocks; native <details>, state persisted per month */
+.drill{margin:var(--space-32) 0 var(--space-12);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);background:var(--color-surface-lower);scroll-margin-top:112px}
+.drill>summary{display:block;cursor:pointer;padding:var(--space-12) var(--space-16);border-radius:var(--radius-md);color:var(--chapter-color,var(--color-primary));font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;list-style:none}
+.drill>summary::-webkit-details-marker{display:none}
+.drill>summary::before{content:"\25B8";display:inline-block;width:1.1em;color:var(--color-text-muted)}
+.drill[open]>summary::before{content:"\25BE"}
+.drill>summary:hover{background:var(--color-surface-raised)}
+.drill>summary:focus-visible{outline:2px solid var(--color-primary);outline-offset:2px}
+.drill__hint{margin-left:var(--space-8);font-size:.72rem;font-weight:500;text-transform:none;letter-spacing:0;color:var(--color-text-muted)}
+.drill__body{padding:0 var(--space-16) var(--space-16)}
+.drill__body>:first-child{margin-top:0}
+.drill-toggle{margin-left:auto;color:var(--color-text-muted)}
+@media(prefers-reduced-motion:no-preference){.drill[open]>.drill__body{animation:drill-open .18s ease-out}}
+@keyframes drill-open{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media(max-width:800px){.topbar__nav .lbl,.nav-group__lbl{display:none}.ribbon__grid,.stat-grid{grid-template-columns:repeat(2,1fr)}.lead__grid,.two-col,.rrr{grid-template-columns:1fr}.ideas{grid-template-columns:1fr 1fr}.masthead__headline{font-size:2.4rem}.chapter__head{grid-template-columns:34px 1fr}}
 @media(max-width:480px){.wrap,.topbar__inner{width:min(100% - 24px,1180px)}.ribbon__grid,.stat-grid,.ideas{grid-template-columns:1fr}.friction-item{grid-template-columns:28px 1fr}.friction-item__fig{grid-column:2}.masthead{padding-top:32px}}
 </style>
 </head>
 <body>
 <!-- SECTION: topbar -->
 <div class="topbar"><div class="topbar__inner">
-  <a class="topbar__brand" href="#top">Briefing <span>August&nbsp;2026 · WIP</span></a>
+  <a class="topbar__brand" href="#top">Briefing <span>August&nbsp;2026</span></a>
   <nav class="topbar__nav" aria-label="Sections">
     <a href="#donor" data-nav="donor"><span class="dot" style="background:var(--c-donor)"></span><span class="lbl">Donor</span></a>
     <a href="#thundermail" data-nav="thundermail"><span class="dot" style="background:var(--c-tbpro)"></span><span class="lbl">Thundermail</span></a>
-    <a href="#android" data-nav="android"><span class="dot" style="background:var(--c-android)"></span><span class="lbl">Android</span></a>
+    <span class="nav-group" role="group" aria-label="Android · Thunderbird for Android: Play Store reviews, SUMO forum, K-9 forum">
+      <span class="nav-group__lbl">Android · TfA</span>
+      <a href="#android" data-nav="android"><span class="dot" style="background:var(--c-android)"></span><span class="lbl">Reviews</span></a>
+      <a href="#sumo-android" data-nav="sumo-android"><span class="dot" style="background:var(--c-sumoand)"></span><span class="lbl">SUMO</span></a>
+      <a href="#k9-forum" data-nav="k9-forum"><span class="dot" style="background:var(--c-k9)"></span><span class="lbl">K-9</span></a>
+    </span>
+    <a href="#esr" data-nav="esr"><span class="dot" style="background:var(--c-esr)"></span><span class="lbl">ESR</span></a>
     <a href="#sumo-desktop" data-nav="sumo-desktop"><span class="dot" style="background:var(--c-desktop)"></span><span class="lbl">Desktop</span></a>
-    <a href="#sumo-android" data-nav="sumo-android"><span class="dot" style="background:var(--c-sumoand)"></span><span class="lbl">Android Forum</span></a>
-    <a href="#k9-forum" data-nav="k9-forum"><span class="dot" style="background:var(--c-k9)"></span><span class="lbl">K-9</span></a>
     <a href="#rrr" data-nav="rrr"><span class="dot" style="background:var(--c-rrr)"></span><span class="lbl">RRR</span></a>
   </nav>
 </div></div>
@@ -100,16 +124,13 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
 <main>
 <!-- SECTION: masthead -->
 <header class="masthead"><div class="wrap">
-  <div class="wip-banner" role="status">
-    <div class="wip-banner__label">WIP</div>
-    <p><strong>WIP — numbers under team validation.</strong> July full dashboard skipped; MoM uses Lisa's 8/31 KPI baseline.</p>
-  </div>
-  <div class="nameplate"><div class="nameplate__title">Monthly Support Report</div><div class="nameplate__issue">Thunderbird Support<br>August 2026 · WIP</div></div>
+  <div class="nameplate"><div class="nameplate__title">Monthly Support Report</div><div class="nameplate__issue">Thunderbird Support<br>August 2026</div></div>
+  <p class="muted" style="margin:var(--space-16) 0 0;max-width:68ch">July full dashboard skipped; MoM uses Lisa's 8/31 KPI baseline.</p>
   <div class="masthead__quarter">
     <div class="eyebrow">August · July KPI baseline</div>
     <ul class="scan-list">
       <li><strong>Overall CSAT:</strong> 91.7% → 90.9% — essentially held while brand mix shifted</li>
-      <li><strong>Donor:</strong> 212 → 350 tickets (+65%) on ESR appeals · CSAT rose 7 points to 92.7%</li>
+      <li><strong>Donor:</strong> 212 → 350 tickets (+65%) on ESR-period donation appeals · CSAT rose 7 points to 92.7%</li>
       <li><strong>Thundermail:</strong> 283 → 187 tickets (−34%) · pricing objections drove the three DSAT themes</li>
       <li><strong>Play Store:</strong> TB 3.58★ → 3.74★ · K-9 3.64★ → 3.60★ · push remains #1 friction</li>
       <li><strong>Desktop forum:</strong> 751 → 955 questions · printing broke in 154 (fixed in 155) · Spectrum mail failed for 34 users</li>
@@ -126,15 +147,16 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
       <li>Push / Notification Sync rose to <strong>34 negative mentions</strong> (20→31→34) with no targeted fix merged in August</li>
       <li>Spam remained #2 at <strong>18 negative</strong>; the longstanding GitHub issues are still open</li>
       <li>QR pain cooled 25→3 while an August QR feedback fix merged — aligned work, but not proof of causation</li>
+      <li>Strongest Android signals are cross-channel: push (reviews + K-9 forum) and credentials/import (all three TfA channels) — <a href="#overlap">overlap table →</a></li>
     </ul></div>
   </div>
-  <p class="masthead__byline">Compiled by Support Operations · sample generated September 9, 2026 · *pricing DSAT note in §02</p>
+  <p class="masthead__byline">Compiled by Support Operations · generated September 9, 2026 · *pricing DSAT note in §02</p>
 </div></header>
 <!-- SECTION: ribbon -->
 <section class="ribbon"><div class="wrap"><div class="ribbon__label">August 2026 · By the numbers</div><div class="ribbon__grid">
   <div class="figure-stat"><div class="figure-stat__val">755</div><div class="figure-stat__lbl">Total tickets</div><div class="figure-stat__delta muted">▼ −1.6% MoM</div></div>
   <div class="figure-stat"><div class="figure-stat__val">90.9%</div><div class="figure-stat__lbl">Overall CSAT</div><div class="figure-stat__delta delta-down">−0.8 pts MoM</div></div>
-  <div class="figure-stat"><div class="figure-stat__val">350</div><div class="figure-stat__lbl">Donor tickets</div><div class="figure-stat__delta delta-down">▲ +65% · ESR appeals</div></div>
+  <div class="figure-stat"><div class="figure-stat__val">350</div><div class="figure-stat__lbl">Donor tickets</div><div class="figure-stat__delta delta-down">▲ +65% · donation appeals</div></div>
   <div class="figure-stat"><div class="figure-stat__val">564</div><div class="figure-stat__lbl">Play Store reviews</div><div class="figure-stat__delta muted">27 languages · 218 tickets</div></div>
 </div></div></section>
 <!-- SECTION: lead -->
@@ -149,26 +171,33 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
 <div class="wrap"><div class="filterbar"><span class="filterbar__label">Filter</span>
   <button class="filter-btn is-active" data-filter="all">All sections</button>
   <button class="filter-btn" data-filter="donor">Donor Care</button><button class="filter-btn" data-filter="thundermail">Thundermail</button>
-  <button class="filter-btn" data-filter="android">Android Reviews</button><button class="filter-btn" data-filter="sumo-desktop">Desktop Forum</button>
-  <button class="filter-btn" data-filter="sumo-android">Android Forum</button><button class="filter-btn" data-filter="k9-forum">K-9 Forum</button>
+  <span class="filter-group" role="group" aria-label="Android · Thunderbird for Android: Play Store reviews, SUMO forum, K-9 forum">
+    <span class="filter-group__lbl">Android · TfA</span>
+    <button class="filter-btn" data-filter="android-all">All Android</button><button class="filter-btn" data-filter="android">Play Store Reviews</button><button class="filter-btn" data-filter="sumo-android">SUMO Forum</button><button class="filter-btn" data-filter="k9-forum">K-9 Forum</button>
+  </span>
+  <button class="filter-btn" data-filter="esr">Desktop ESR</button><button class="filter-btn" data-filter="sumo-desktop">Desktop Forum</button>
+  <button class="filter-btn drill-toggle" id="drillToggleAll" type="button" aria-pressed="false">Expand all</button>
 </div></div>
 <div class="wrap">
 <!-- SECTION: donor -->
 <section class="chapter" id="donor" data-filter-target="donor" style="--chapter-color:var(--c-donor)">
-  <div class="chapter__head"><div class="chapter__num">01</div><div><div class="chapter__kicker">Donor Care</div><h2 class="chapter__title">ESR appeals drove a 65% volume surge — CSAT rose with it</h2><div class="chapter__standfirst"><ul class="scan-list"><li>350 tickets, up from 212 in July</li><li>92.7% CSAT, +7.0 points MoM</li><li>Lisa's 8/31 KPI note is the July baseline; no July dashboard was produced</li></ul></div><div class="chapter__meta">350 tickets · Zendesk</div></div></div>
+  <div class="chapter__head"><div class="chapter__num">01</div><div><div class="chapter__kicker">Donor Care</div><h2 class="chapter__title">Donation appeals during ESR drove a 65% volume surge — CSAT rose with it</h2><div class="chapter__standfirst"><ul class="scan-list"><li>350 tickets, up from 212 in July</li><li>92.7% CSAT, +7.0 points MoM</li><li>Lisa's 8/31 KPI note is the July baseline; no July dashboard was produced</li></ul></div><div class="chapter__meta">350 tickets · Zendesk · <a href="#esr">ESR summary →</a></div></div></div>
   <div class="stat-grid"><div class="stat-card"><div class="stat-card__lbl">Donor CSAT</div><div class="stat-card__val">92.7%</div><div class="stat-card__delta delta-up">+7.0 pts MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Donor Tickets</div><div class="stat-card__val">350</div><div class="stat-card__delta delta-down">+65.1% MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Share of volume</div><div class="stat-card__val">46%</div><div class="stat-card__delta">138 more tickets</div></div><div class="stat-card"><div class="stat-card__lbl">All-brand volume</div><div class="stat-card__val">755</div><div class="stat-card__delta">−1.6% MoM</div></div></div>
-  <div class="takeaway" style="margin-top:16px"><div class="takeaway__label">The read</div><p>Donor support absorbed the ESR appeal wave without a satisfaction penalty. The mix shift, not broad demand growth, explains August.</p></div>
+  <div class="takeaway" style="margin-top:16px"><div class="takeaway__label">The read</div><p>More donation appeals went out during the ESR period, so more donation questions arrived — and donor support absorbed them without a satisfaction penalty. The mix shift, not broad demand growth, explains August.</p></div>
 </section>
 <!-- SECTION: thundermail -->
 <section class="chapter" id="thundermail" data-filter-target="thundermail" style="--chapter-color:var(--c-tbpro)">
   <div class="chapter__head"><div class="chapter__num">02</div><div><div class="chapter__kicker">Thundermail</div><h2 class="chapter__title">Pricing objections, not support handling, explain the CSAT dip</h2><div class="chapter__standfirst"><ul class="scan-list"><li>187 tickets (−34% vs July's waitlist-push month)</li><li>85.7% raw CSAT; 100% after excluding pricing-policy DSATs</li><li>August ideas favor domains, app passwords, privacy, and subscription flexibility</li></ul></div><div class="chapter__meta">Zendesk · FeatureOS board 17437</div></div></div>
   <div class="stat-grid"><div class="stat-card"><div class="stat-card__lbl">Thundermail CSAT</div><div class="stat-card__val">85.7%*</div><div class="stat-card__delta delta-down">−9.8 pts MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Adjusted support satisfaction</div><div class="stat-card__val">100%</div><div class="stat-card__delta">excludes pricing DSAT</div></div><div class="stat-card"><div class="stat-card__lbl">Tickets</div><div class="stat-card__val">187</div><div class="stat-card__delta">−33.9% MoM</div></div><div class="stat-card"><div class="stat-card__lbl">New ideas</div><div class="stat-card__val">15</div><div class="stat-card__delta">August</div></div></div>
   <p class="footnote">*DSATs cited no monthly plan, no à la carte option, or the 100 CAD price point.</p>
-  <div class="block-title">Shipped &amp; in flight</div><div class="two-col">
+  <details class="drill" data-drill="tm-shipped" open><summary>Shipped &amp; in flight<span class="drill__hint">5 ideas</span></summary><div class="drill__body">
+  <div class="two-col">
     <div class="panel"><div class="panel__title">Landed</div><ul class="scan-list"><li><a href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank">Webmail for Thundermail</a> · 87 votes <span class="idea-status idea-status--landed">Landed</span></li><li><a href="https://ideas.tb.pro/p/multifactor-authentication" target="_blank">Multifactor Authentication</a> · 70 <span class="idea-status idea-status--landed">Landed</span></li><li><a href="https://ideas.tb.pro/p/unlimited-aliases" target="_blank">Unlimited aliases</a> · 26 <span class="idea-status idea-status--landed">Landed</span></li></ul></div>
     <div class="panel"><div class="panel__title">In flight</div><ul class="scan-list"><li><a href="https://ideas.tb.pro/p/dark-mode" target="_blank">Dark Mode</a> · 26 votes <span class="idea-status idea-status--flight">In flight</span></li><li><a href="https://ideas.tb.pro/p/show-active-login-sessions" target="_blank">Show active login sessions</a> · 13 <span class="idea-status idea-status--flight">In flight</span></li></ul></div>
   </div>
-  <div class="block-title">New ideas this month — top by votes</div><div class="ideas">
+  </div></details>
+  <details class="drill" data-drill="tm-ideas-new" open><summary>New ideas this month — top by votes<span class="drill__hint">6 of 15</span></summary><div class="drill__body">
+  <div class="ideas">
     <div class="idea-chip"><span class="idea-chip__votes">50▲</span><a href="https://ideas.tb.pro/p/most-email-providers-support-multiple-custom-domains-but-almost-all-of-them-route-everything-into-one-mailbox" target="_blank">Separate mailboxes for multiple domains</a><span class="idea-chip__tag">Thundermail</span></div>
     <div class="idea-chip"><span class="idea-chip__votes">20▲</span><a href="https://ideas.tb.pro/p/monthly-subscription-for-testing" target="_blank">Monthly subscription for testing</a><span class="idea-chip__tag">Accounts</span></div>
     <div class="idea-chip"><span class="idea-chip__votes">17▲</span><a href="https://ideas.tb.pro/p/multiple-app-passwords" target="_blank">Multiple app passwords</a><span class="idea-chip__tag">Thundermail</span></div>
@@ -176,30 +205,54 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
     <div class="idea-chip"><span class="idea-chip__votes">10▲</span><a href="https://ideas.tb.pro/p/webmail-privacy-improvement-block-remote-images-by-default" target="_blank">Block remote images by default</a><span class="idea-chip__tag">Privacy</span></div>
     <div class="idea-chip"><span class="idea-chip__votes">8▲</span><a href="https://ideas.tb.pro/p/permission-based-inbox-approve-senders-before-they-can-reach-you" target="_blank">Permission-based inbox</a><span class="idea-chip__tag">Thundermail</span></div>
   </div>
-  <div class="block-title">Top ideas — all time</div><div class="panel"><table><thead><tr><th>Idea</th><th class="num">Votes</th><th>Status</th></tr></thead><tbody>
+  </div></details>
+  <details class="drill" data-drill="tm-ideas-alltime"><summary>Top ideas — all time<span class="drill__hint">5 rows</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Idea</th><th class="num">Votes</th><th>Status</th></tr></thead><tbody>
     <tr><td><a href="https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier" target="_blank">Permanent early-supporter perk</a></td><td class="num tbl-strong">155</td><td>Exploring</td></tr>
     <tr><td><a href="https://ideas.tb.pro/p/prevent-recycling-of-email-addresses-on-thundermail-domains" target="_blank">Prevent address recycling</a></td><td class="num tbl-strong">119</td><td>Open for discussion</td></tr>
     <tr><td><a href="https://ideas.tb.pro/p/additional-pricing-tiers" target="_blank">Additional pricing tiers</a></td><td class="num tbl-strong">98</td><td><span class="idea-status idea-status--roadmap">Roadmap</span></td></tr>
     <tr><td><a href="https://ideas.tb.pro/p/server-side-email-filtering" target="_blank">Server-side email filtering</a></td><td class="num tbl-strong">87</td><td><span class="idea-status idea-status--roadmap">Roadmap</span></td></tr>
     <tr><td><a href="https://ideas.tb.pro/p/webmail-for-thundermail" target="_blank">Webmail for Thundermail</a></td><td class="num tbl-strong">87</td><td><span class="idea-status idea-status--landed">Landed</span></td></tr>
   </tbody></table></div>
+  </div></details>
 </section>
 <!-- SECTION: android -->
 <section class="chapter" id="android" data-filter-target="android" style="--chapter-color:var(--c-android)">
   <div class="chapter__head"><div class="chapter__num">03</div><div><div class="chapter__kicker">Android Reviews</div><h2 class="chapter__title">The rating recovered; the largest pain point did not</h2><div class="chapter__standfirst"><ul class="scan-list"><li>TB rose to 3.74★ (+0.16); K-9 slipped to 3.60★ (−0.04)</li><li>Push/sync accelerated to 34 negative mentions</li><li>QR cooled sharply; outbox emerged as a small, severe send-path signal</li></ul></div><div class="chapter__meta">564 reviews · TB 456 (415 stable + 41 beta) · K-9 108 · 27 languages · <a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/august.md#android-reviews" target="_blank">report section →</a></div></div></div>
-  <div class="method-panel"><div class="panel__title">Methodology</div><ul class="scan-list"><li>June onward uses Play Console GCS exports; Jan–May used manual exports</li><li>August MoM uses Lisa's July KPI snapshot, not a full July dashboard</li><li>Monthly ratings are weighted by review count; each review counts once</li></ul></div>
+  <details class="drill" data-drill="android-method"><summary>Methodology<span class="drill__hint">how these numbers were built</span></summary><div class="drill__body">
+  <div class="method-panel"><ul class="scan-list"><li>June onward uses Play Console GCS exports; Jan–May used manual exports</li><li>August MoM uses Lisa's July KPI snapshot, not a full July dashboard</li><li>Monthly ratings are weighted by review count; each review counts once</li></ul></div>
+  </div></details>
   <div class="stat-grid" style="margin-top:16px"><div class="stat-card"><div class="stat-card__lbl">TB Avg Rating</div><div class="stat-card__val">3.74★</div><div class="stat-card__delta delta-up">+0.16 · 0.26★ to goal</div></div><div class="stat-card"><div class="stat-card__lbl">K-9 Avg Rating</div><div class="stat-card__val">3.60★</div><div class="stat-card__delta delta-down">−0.04</div></div><div class="stat-card"><div class="stat-card__lbl">Combined</div><div class="stat-card__val">3.71★</div><div class="stat-card__delta">564 reviews</div></div><div class="stat-card"><div class="stat-card__lbl">Review tickets</div><div class="stat-card__val">218</div><div class="stat-card__delta">down from 272</div></div></div>
   <div class="two-col"><figure class="figure"><div class="figure__frame"><div class="chart-wrap"><canvas id="tbStarChart"></canvas></div></div><figcaption class="figure__caption">FIG. 2 · Thunderbird star distribution — 456 reviews; 220 were 5★.</figcaption></figure><figure class="figure"><div class="figure__frame"><div class="chart-wrap"><canvas id="k9StarChart"></canvas></div></div><figcaption class="figure__caption">FIG. 3 · K-9 distribution — 108 reviews; 44 were 1–3★.</figcaption></figure></div>
-  <div class="block-title">Top friction points · ranked by negative mentions</div><div class="friction">
+  <details class="drill" data-drill="android-friction" open><summary>Top friction points · ranked by negative mentions<span class="drill__hint">5 themes</span></summary><div class="drill__body">
+  <div class="friction">
     <div class="friction-item friction-item--lead"><div class="friction-item__rank">01</div><div><div class="friction-item__name"><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/august.md#top-3-friction-points" target="_blank">Push / Notification Sync</a><span class="friction-item__tag">top friction · rising</span></div><div class="friction-item__meta"><span><b>51</b> mentions</span><span>TB 44 · K-9 7</span><span>avg 2.76★</span><span>20→31→34 negative</span></div><p class="tbl-sub">Users report delayed or missing notifications; manual refresh is often required.</p></div><div class="friction-item__fig"><div class="friction-item__neg">34</div><div class="friction-item__neg-lbl">negative</div></div></div>
     <div class="friction-item"><div class="friction-item__rank">02</div><div><div class="friction-item__name"><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/august.md#top-3-friction-points" target="_blank">Spam Filter Absent</a><span class="friction-item__tag">fewer mentions · no fix</span></div><div class="friction-item__meta"><span><b>35</b> mentions</span><span>TB 28 · K-9 7</span><span>avg 3.26★</span><span>13→22→18 negative</span></div><p class="tbl-sub">Users report no way to mark messages as spam or junk.</p></div><div class="friction-item__fig"><div class="friction-item__neg">18</div><div class="friction-item__neg-lbl">negative</div></div></div>
     <div class="friction-item"><div class="friction-item__rank">03</div><div><div class="friction-item__name"><a href="https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/2026/august.md#top-3-friction-points" target="_blank">Stuck Outbox / Send Failure</a><span class="friction-item__tag">small n · severe</span></div><div class="friction-item__meta"><span><b>5</b> mentions</span><span>TB 4 · K-9 1</span><span>avg 1.20★</span><span>2→gap→5 negative</span></div><p class="tbl-sub">All five matching reviews were 1–3★; treat as send-path pain. July was not measured for this theme.</p></div><div class="friction-item__fig"><div class="friction-item__neg">5</div><div class="friction-item__neg-lbl">negative</div></div></div>
     <div class="friction-item"><div class="friction-item__rank">04</div><div><div class="friction-item__name">Crashes &amp; Freezes</div><div class="friction-item__meta"><span>5 mentions</span><span>4 negative</span><span>avg 2.00★</span></div></div><div class="friction-item__fig"><div class="friction-item__neg">4</div><div class="friction-item__neg-lbl">negative</div></div></div>
     <div class="friction-item"><div class="friction-item__rank">05</div><div><div class="friction-item__name">QR / Settings Import<span class="friction-item__tag">cooled</span></div><div class="friction-item__meta"><span>5 mentions</span><span>3 negative</span><span>4→25→3</span></div></div><div class="friction-item__fig"><div class="friction-item__neg">3</div><div class="friction-item__neg-lbl">negative</div></div></div>
   </div>
-  <div class="block-title">Meeting the ⭐⭐⭐⭐+ goal</div><ul class="goals"><li><strong>Push:</strong> 34 negative and rising; still the primary star-math lever</li><li><strong>Spam:</strong> 18 negative; fewer than July, but no product fix shipped</li><li><strong>Rating gap:</strong> TB needs +0.26★; converting 1–3★ push reviewers remains the shortest route</li></ul>
-  <div class="takeaway" id="eng-priority-alignment" style="margin-top:24px">
-    <div class="takeaway__label">Engineering priority alignment · feedback vs August GitHub work</div>
+  </div></details>
+  <!-- SECTION: android-overlap -->
+  <!-- #overlap is a hash target (masthead + SUMO cross references) — the id lives on the
+       <details> so the nav script can open the block before scrolling to it. -->
+  <details class="drill" data-drill="android-overlap" id="overlap" open><summary>Strongest signals · where Android channels overlap<span class="drill__hint">4 signals · 3 channels</span></summary><div class="drill__body">
+  <div class="panel">
+    <p class="tbl-sub">K-9 and Thunderbird Android are one codebase (TfA), so Play Store reviews, the SUMO Android forum and the K-9 Discourse forum are three entry points to the same product. A signal on more than one channel is stronger than a larger number on one. Desktop forum signals are never compared here.</p>
+    <table><thead><tr><th>Signal</th><th class="num">Play Store · TB+K-9</th><th class="num">SUMO Android</th><th class="num">K-9 forum</th><th>Overlap read</th></tr></thead><tbody>
+      <tr><td class="tbl-strong">Push / notification sync</td><td class="num tbl-strong">34 neg · 51 mentions</td><td class="num tbl-muted">—</td><td class="num tbl-strong">5 topics · 2→1→5</td><td><strong>Strongest · two of three channels.</strong> Largest review theme and the leading K-9 forum theme; sync/fetch adds 2 more forum topics. No SUMO Android cluster — at 51 questions that channel is too small to expect one.</td></tr>
+      <tr><td class="tbl-strong">Account credentials &amp; setup import</td><td class="num">5 mentions · 3 neg · 25→3</td><td class="num tbl-strong">7 questions · 3 clusters</td><td class="num">3 topics · 5→5→3</td><td><strong>All three channels · same gap, different entry point.</strong> QR and settings import in reviews, password reverts and login loops on SUMO, setup and accounts on the forum. Single-digit counts each.</td></tr>
+      <tr><td>Crash on open</td><td class="num">5 mentions · 4 neg · 2.00★</td><td class="num">2 questions · severity 4.0</td><td class="num">2 topics · 2→0→2</td><td><strong>All three channels, n too small to rank.</strong> Same shape everywhere, not a measured trend. PR <a href="https://github.com/thunderbird/thunderbird-android/pull/11309" target="_blank">#11309</a> fixed one camera/process-death path, not the theme.</td></tr>
+      <tr><td>Stuck outbox / send path</td><td class="num">5 mentions · all 1–3★</td><td class="num">3 questions</td><td class="num tbl-muted">—</td><td><strong>Two channels · read cautiously.</strong> The SUMO cluster is an imported account showing only an Outbox — an import artifact, not a confirmed send failure.</td></tr>
+    </tbody></table>
+    <p class="footnote">Play Store counts are mentions across 564 TB + K-9 reviews; SUMO Android holds 51 questions and the K-9 forum 40 topics, so any single-digit row is a shape to watch, not a ranked trend. Counts come from different systems and sit side by side, never summed. Single-channel signals — including spam — are listed in <a href="#sumo-android">Android Forum → one channel only</a>.</p>
+  </div>
+  </div></details>
+  <details class="drill" data-drill="android-goal" open><summary>Meeting the ⭐⭐⭐⭐+ goal<span class="drill__hint">0.26★ gap</span></summary><div class="drill__body">
+  <ul class="goals"><li><strong>Push:</strong> 34 negative and rising; still the primary star-math lever</li><li><strong>Spam:</strong> 18 negative; fewer than July, but no product fix shipped</li><li><strong>Rating gap:</strong> TB needs +0.26★; converting 1–3★ push reviewers remains the shortest route</li></ul>
+  </div></details>
+  <details class="drill" data-drill="android-eng" id="eng-priority-alignment" open><summary>Engineering priority alignment · feedback vs August GitHub work<span class="drill__hint">64 PRs · 19 reportable</span></summary><div class="drill__body">
+  <div class="takeaway">
     <p>Live cross-check: <a href="https://github.com/thunderbird/thunderbird-android-reports/blob/main/reports/merged-prs/merged-prs-2026-08.md" target="_blank">August merged-PR report</a> plus current issue states in <code>thunderbird-android</code>.</p>
     <ul class="scan-list">
       <li><strong>Work mix:</strong> 64 PRs merged across main/release; 2 Highlight + 17 Include are reportable. Most reportable work was composer, UI, localization, attachment, QR, and crash work.</li>
@@ -212,14 +265,46 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
     </ul>
     <p class="footnote">“Merged” is engineering activity, not proof that a fix reached stable Play users in August. The report records beta/release metadata separately.</p>
   </div>
+  </div></details>
   <div class="takeaway" style="--chapter-color:var(--c-k9);margin-top:16px"><div class="takeaway__label">K-9 churn watch</div><ul class="scan-list"><li>K-9 averaged 3.60★ (−0.04)</li><li>44 of 108 reviews (41%) were 1–3★</li><li>Notifications became the leading K-9 forum theme: 2→1→5 topics</li></ul></div>
+</section>
+<!-- SECTION: esr -->
+<section class="chapter" id="esr" data-filter-target="esr" style="--chapter-color:var(--c-esr)">
+  <div class="chapter__head"><div class="chapter__num">04</div><div><div class="chapter__kicker">Desktop ESR · Donors + Forum</div><h2 class="chapter__title">One ESR story, told in two places: appeal mail and a printing break</h2><div class="chapter__standfirst"><ul class="scan-list"><li>Donor tickets 212 → 350 (+65%) — extra donation appeals ran during the ESR period · CSAT rose 7 points to 92.7%</li><li>Desktop forum 751 → 955 questions · solved rate down six points to 58%</li><li>Printing broke in 154 and is fixed in 155 (September 1) — the one cluster where support has an answer to give</li><li>Spectrum is provider recurrence, not an ESR build problem</li></ul></div><div class="chapter__meta">Zendesk donor brand · Roland's SUMO desktop reports · desktop Thunderbird only</div></div></div>
+  <div class="stat-grid"><div class="stat-card"><div class="stat-card__lbl">Donor tickets</div><div class="stat-card__val">350</div><div class="stat-card__delta delta-down">+65% MoM · appeal period</div></div><div class="stat-card"><div class="stat-card__lbl">Donor CSAT</div><div class="stat-card__val">92.7%</div><div class="stat-card__delta delta-up">+7.0 pts MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Desktop questions</div><div class="stat-card__val">955</div><div class="stat-card__delta delta-down">+204 MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Desktop solved rate</div><div class="stat-card__val">58%</div><div class="stat-card__delta delta-down">−6 pts</div></div></div>
+  <details class="drill" data-drill="esr-howto"><summary>How to read these numbers<span class="drill__hint">scope of the 350</span></summary><div class="drill__body">
+  <div class="method-panel"><ul class="scan-list"><li><strong>350 is donor-brand ticket volume</strong>, not ESR-product tickets. More donation appeals ran during the ESR period, so more donors were asked to give and more donation-support questions arrived — the tickets themselves are not about ESR.</li><li><strong>Spoiler versus close:</strong> the 8/31 note previewed roughly 95% growth; the closed month came in at +65%.</li><li><strong>No ESR-tagged forum counts exist.</strong> Roland tags a Thunderbird major version (153, 154) with no channel column, so questions below are desktop-build signals, not a measured ESR slice.</li></ul></div>
+  </div></details>
+  <details class="drill" data-drill="esr-signals" open><summary>Desktop build signals · what ESR users hit<span class="drill__hint">5 signals</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Signal</th><th class="num">Questions</th><th class="num">Resolved</th><th>Standing or one-off</th><th>Read</th></tr></thead><tbody>
+    <tr><td class="tbl-strong">Printing blank pages · 154</td><td class="num tbl-strong">36</td><td class="num tbl-strong">37%</td><td>One-off regression</td><td>8.0× baseline, peaking 24.3× on Aug 20 · 38 in the AI read, which is where the 37% comes from · <strong>fixed in Thunderbird 155</strong> on Sept 1 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065922" target="_blank">Bugzilla 2065922</a>) · later reports are users still on 154</td></tr>
+    <tr><td class="tbl-strong">Compose Send button missing · after 153</td><td class="num tbl-strong">28</td><td class="num">89%</td><td>One-off regression</td><td>8 → 28 MoM · toolbar and Send control disappear after the update (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989214" target="_blank">Bugzilla 1989214</a>) · well served, so it costs volume rather than satisfaction</td></tr>
+    <tr><td>Drag-and-drop to the file system · after 153</td><td class="num">16</td><td class="num">56%</td><td>One-off regression</td><td>1 → 16 MoM · messages and attachments no longer drag out to folders</td></tr>
+    <tr><td>POP retrieval on 153</td><td class="num">46</td><td class="num tbl-muted">—</td><td>Recurring</td><td>under the monthly bar, but daily spikes repeated on Aug 10, 13 and 14 · all answered</td></tr>
+    <tr><td>Spectrum / Charter / Roadrunner</td><td class="num">34</td><td class="num">62%</td><td>Standing · provider</td><td>3 → 34 MoM at 3.2× baseline · 31 of the 34 lost mail access outright · provider-side auth or port change, <strong>not an ESR build issue</strong></td></tr>
+  </tbody></table><p class="footnote">Question counts come from Roland's spike detector and AI cluster read; resolved rates come from the AI read, which is stricter than the SUMO solved rate in the cards above. Question titles are paraphrased.</p></div>
+  </div></details>
+  <details class="drill" data-drill="esr-standing"><summary>Standing versus one-off<span class="drill__hint">build regressions vs provider recurrence</span></summary><div class="drill__body">
+  <div class="two-col">
+    <div class="panel"><div class="panel__title">Arrives and leaves with a build</div><ul class="scan-list"><li>Printing, the Send button and drag-and-drop all appeared with a 153 or 154 update</li><li>Printing already left with 155 — the fix shipped September 1</li><li>These are countable, fixable, and worth chasing in release notes</li></ul></div>
+    <div class="panel"><div class="panel__title">Comes back regardless of build</div><ul class="scan-list"><li>Spectrum has issues a few times a year, so standing guidance beats a fresh investigation each time</li><li>Provider password gaps sit underneath: Yahoo / AT&amp;T / AOL app-specific passwords at 29% resolved, repeated prompts 42% unanswered</li><li>Neither moves when the ESR version changes</li></ul></div>
+  </div>
+  </div></details>
+  <details class="drill" data-drill="esr-owners"><summary>Who owns what next<span class="drill__hint">support vs engineering</span></summary><div class="drill__body">
+  <div class="two-col">
+    <div class="panel"><div class="panel__title">Support can close these</div><ul class="scan-list"><li><strong>Printing macro and KB update</strong> — 155 shipped, so every remaining report has the same answer: update from 154</li><li><strong>Standing Spectrum article</strong> refreshed at each recurrence rather than rewritten</li><li><strong>App-specific password KB</strong> for Yahoo, AT&amp;T and AOL — worst-served cluster of the month</li></ul></div>
+    <div class="panel"><div class="panel__title">Engineering owns these</div><ul class="scan-list"><li>Printing — delivered in 155 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065922" target="_blank">Bugzilla 2065922</a>)</li><li>Compose Send button and toolbar (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1989214" target="_blank">Bugzilla 1989214</a>) — 8 → 28 questions</li><li>Drag-and-drop to the file system after 153 — 1 → 16</li><li>POP retrieval spikes on 153 — recurring mid-month</li></ul></div>
+  </div>
+  </div></details>
+  <div class="alert-panel" style="margin-top:16px"><div class="takeaway__label">Scope</div><ul class="scan-list"><li>Desktop only. Android reviews, the K-9 forum and Thundermail are a different codebase and release channel — their signals stay in their own sections.</li><li>Donor and forum figures come from separate systems and are placed side by side for context, not summed.</li></ul></div>
 </section>
 <!-- SECTION: sumo-desktop -->
 <section class="chapter" id="sumo-desktop" data-filter-target="sumo-desktop" style="--chapter-color:var(--c-desktop)">
-  <div class="chapter__head"><div class="chapter__num">04</div><div><div class="chapter__kicker">Desktop Forum · SUMO</div><h2 class="chapter__title">Printing broke in 154 and Spectrum mail failed again</h2><div class="chapter__standfirst"><ul class="scan-list"><li>Questions rose 751 → 955; solved rate fell six points to 58%</li><li><strong>Printing:</strong> 36 questions at eight times normal — a 154 regression, fixed in Thunderbird 155 on September 1</li><li><strong>Spectrum / Charter / Roadrunner:</strong> 34 users lost mail access outright — provider-side, and it recurs a few times a year</li><li>Both of Roland's methods name the same pair, which is why they lead here</li></ul></div><div class="chapter__meta"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html" target="_blank">Roland: August spikes, non-AI →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html" target="_blank">LLM insights, engineering →</a></div></div></div>
+  <div class="chapter__head"><div class="chapter__num">05</div><div><div class="chapter__kicker">Desktop Forum · SUMO</div><h2 class="chapter__title">Printing broke in 154 and Spectrum mail failed again</h2><div class="chapter__standfirst"><ul class="scan-list"><li>Questions rose 751 → 955; solved rate fell six points to 58%</li><li><strong>Printing:</strong> 36 questions at eight times normal — a 154 regression, fixed in Thunderbird 155 on September 1</li><li><strong>Spectrum / Charter / Roadrunner:</strong> 34 users lost mail access outright — provider-side, and it recurs a few times a year</li><li>Both of Roland's methods name the same pair, which is why they lead here</li></ul></div><div class="chapter__meta"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html" target="_blank">Roland: August spikes, non-AI →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html" target="_blank">LLM insights, engineering →</a> · <a href="#esr">ESR summary →</a></div></div></div>
   <div class="stat-grid"><div class="stat-card"><div class="stat-card__lbl">Questions</div><div class="stat-card__val">955</div><div class="stat-card__delta delta-down">+204 MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Solved Rate</div><div class="stat-card__val">58%</div><div class="stat-card__delta delta-down">−6 pts</div></div><div class="stat-card"><div class="stat-card__lbl">Ignored</div><div class="stat-card__val">22%</div><div class="stat-card__delta delta-down">+4 pts</div></div><div class="stat-card"><div class="stat-card__lbl">Trusted contributor</div><div class="stat-card__val">37%</div><div class="stat-card__delta delta-down">−8 pts</div></div></div>
   <div class="takeaway" style="margin-top:16px"><div class="takeaway__label">Validated two ways</div><ul class="scan-list"><li><strong>Non-AI spike detector</strong> — regex and statistics over 941 questions: 27 spikes fired, and printing and Spectrum are its two "what stands out" entries</li><li><strong>AI cluster read</strong> — 940 questions in 117 clusters, none of them new: printing ranks first, Spectrum second</li><li>The 29% rise came from existing clusters getting worse after the 153 and 154 releases, not from anything new appearing</li></ul></div>
-  <div class="block-title">August engineering signals</div><div class="panel"><table><thead><tr><th>Signal</th><th class="num">Questions</th><th class="num">Monthly rise</th><th>Read</th></tr></thead><tbody>
+  <details class="drill" data-drill="desktop-signals" open><summary>August engineering signals<span class="drill__hint">6 clusters</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Signal</th><th class="num">Questions</th><th class="num">Monthly rise</th><th>Read</th></tr></thead><tbody>
     <tr><td class="tbl-strong">Printing · 154 regression</td><td class="num tbl-strong">36</td><td class="num tbl-strong">8.0×</td><td>1 → 38 in the AI read · peaked at 24.3× on Aug 20 · only 37% resolved while unfixed · <strong>fixed in Thunderbird 155</strong>, Sept 1 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065922" target="_blank">Bugzilla 2065922</a>)</td></tr>
     <tr><td class="tbl-strong">Spectrum / Charter / Roadrunner</td><td class="num tbl-strong">34</td><td class="num tbl-strong">3.2×</td><td>3 → 34 MoM · 31 of the 34 lost mail access entirely (severity 4+) · weekly peak 11.0× in the week of Aug 17 · 62% resolved</td></tr>
     <tr><td>Yahoo Mail</td><td class="num">55</td><td class="num tbl-muted">—</td><td>+83% MoM · weekly peak 3.5× · app-specific-password confusion sits underneath (see below)</td></tr>
@@ -227,20 +312,24 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
     <tr><td>POP</td><td class="num">46</td><td class="num tbl-muted">—</td><td>recurring v153 daily spikes on Aug 10, 13 and 14 · all answered</td></tr>
     <tr><td>Attachments</td><td class="num">27</td><td class="num tbl-muted">—</td><td>the AI read groups attachments at 17 → 55 including printing · drag-and-drop to the file system broke after 153 (1 → 16)</td></tr>
   </tbody></table><p class="footnote">Monthly rise compares the month against the normal count for that tag; dashes mean the cluster peaked at weekly or daily grain instead. Question counts differ by corpus — the SUMO KPI export holds 955, the spike detector 941, the AI read 940. Same month, different corpus filters; the cards above use the KPI export.</p></div>
-  <div class="block-title">Where the solved rate went</div><div class="panel"><table><thead><tr><th>Cluster</th><th class="num">Questions</th><th class="num">Resolved</th><th>What was missing</th></tr></thead><tbody>
+  </div></details>
+  <details class="drill" data-drill="desktop-solved"><summary>Where the solved rate went<span class="drill__hint">4 worst-served clusters</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Cluster</th><th class="num">Questions</th><th class="num">Resolved</th><th>What was missing</th></tr></thead><tbody>
     <tr><td>Yahoo / AT&amp;T / AOL password rejected</td><td class="num">14</td><td class="num tbl-strong">29%</td><td>No clear path to app-specific passwords — worst-served cluster of the month</td></tr>
     <tr><td>Printing blank pages</td><td class="num">38</td><td class="num tbl-strong">37%</td><td>No fix existed to give until 155 shipped on September 1</td></tr>
     <tr><td>Repeated password prompts</td><td class="num">24</td><td class="num tbl-strong">42%</td><td>42% of askers got no reply at all — the worst reply rate on Roland's list</td></tr>
     <tr><td>Message body blank or not rendering</td><td class="num">19</td><td class="num tbl-strong">47%</td><td>No diagnostic path support can follow</td></tr>
   </tbody></table><p class="footnote">Two of the four are knowledge-base gaps we can close ourselves: provider password guidance. Printing needed engineering, and got it.</p></div>
+  </div></details>
   <div class="alert-panel" style="margin-top:16px"><div class="takeaway__label">Read these as desktop only</div><ul class="scan-list"><li>Printing and Spectrum are desktop Thunderbird. Neither appears in Play Store review friction or the Android app backlog.</li><li>Spectrum has issues a few times a year, so standing guidance beats treating each occurrence as new.</li><li>Spike dates are when users posted, not when the problem started — use them to find clusters of pain, not live incidents.</li></ul></div>
 </section>
 <!-- SECTION: sumo-android -->
 <section class="chapter" id="sumo-android" data-filter-target="sumo-android" style="--chapter-color:var(--c-sumoand)">
-  <div class="chapter__head"><div class="chapter__num">05</div><div><div class="chapter__kicker">Android Forum · SUMO</div><h2 class="chapter__title">Too quiet to measure — no spike fired, and that is a volume artifact</h2><div class="chapter__standfirst"><ul class="scan-list"><li>51 questions, down four from July; solved rate 61%, ignored 27%</li><li>Zero spikes cleared the threshold because the detector needs eight questions of one kind in a month and August averaged one a day</li><li>Five clusters are new this month, each holding two questions — a list of problems, not a trend</li></ul></div><div class="chapter__meta"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html" target="_blank">Roland: August spikes, non-AI →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html" target="_blank">LLM insights, engineering →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-08-sumo-android-report.html" target="_blank">SUMO KPI report →</a></div></div></div>
+  <div class="chapter__head"><div class="chapter__num">06</div><div><div class="chapter__kicker">Android Forum · SUMO</div><h2 class="chapter__title">Too quiet to measure — no spike fired, and that is a volume artifact</h2><div class="chapter__standfirst"><ul class="scan-list"><li>51 questions, down four from July; solved rate 61%, ignored 27%</li><li>Zero spikes cleared the threshold because the detector needs eight questions of one kind in a month and August averaged one a day</li><li>Five clusters are new this month, each holding two questions — a list of problems, not a trend</li></ul></div><div class="chapter__meta"><a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html" target="_blank">Roland: August spikes, non-AI →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html" target="_blank">LLM insights, engineering →</a> · <a href="https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-08-sumo-android-report.html" target="_blank">SUMO KPI report →</a></div></div></div>
   <div class="stat-grid"><div class="stat-card"><div class="stat-card__lbl">Questions</div><div class="stat-card__val">51</div><div class="stat-card__delta">−4 MoM</div></div><div class="stat-card"><div class="stat-card__lbl">Solved Rate</div><div class="stat-card__val">61%</div><div class="stat-card__delta delta-up">+1 pt</div></div><div class="stat-card"><div class="stat-card__lbl">Ignored</div><div class="stat-card__val">27%</div><div class="stat-card__delta delta-up">−2 pts</div></div><div class="stat-card"><div class="stat-card__lbl">Trusted contributor</div><div class="stat-card__val">45%</div><div class="stat-card__delta delta-up">+5 pts</div></div></div>
   <div class="alert-panel" style="margin-top:16px"><div class="takeaway__label">Why the non-AI report is quiet</div><ul class="scan-list"><li>The detector floors are eight questions of one kind in a day, six in a week, or eight in a month. Roland's August Android corpus holds 40 questions.</li><li>Only 2% of Android questions record a Thunderbird version, so the version-and-cause detector cannot fire at all — that zero is missing data.</li><li>Roland's own reading: a zero means "nothing large enough to fire", not "nothing happened".</li></ul></div>
-  <div class="block-title">Top clusters · AI read</div><div class="panel"><table><thead><tr><th>Cluster</th><th class="num">Questions</th><th class="num">Severity</th><th class="num">Resolved</th></tr></thead><tbody>
+  <details class="drill" data-drill="sumo-android-clusters" open><summary>Top clusters · AI read<span class="drill__hint">6 clusters</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Cluster</th><th class="num">Questions</th><th class="num">Severity</th><th class="num">Resolved</th></tr></thead><tbody>
     <tr><td>Stored password reverts or cannot be updated <span class="tbl-muted">· new</span></td><td class="num">2</td><td class="num tbl-strong">4.0</td><td class="num">100%</td></tr>
     <tr><td>Crash when opening a downloaded email <span class="tbl-muted">· new</span></td><td class="num">2</td><td class="num tbl-strong">4.0</td><td class="num">100%</td></tr>
     <tr><td>AOL or Yahoo login loop, then mail stops arriving <span class="tbl-muted">· new</span></td><td class="num">2</td><td class="num">3.5</td><td class="num">100%</td></tr>
@@ -248,45 +337,129 @@ td{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-ali
     <tr><td>No OpenPGP or S/MIME encryption on Android <span class="tbl-muted">· new</span></td><td class="num">2</td><td class="num">3.0</td><td class="num">100%</td></tr>
     <tr><td>Imported account shows only an Outbox, no password</td><td class="num">3</td><td class="num">3.3</td><td class="num">100%</td></tr>
   </tbody></table><p class="footnote">Severity runs 1 (cosmetic) to 5 (no mail at all), assigned per question by the AI pass. Autocomplete is the only cluster support could not answer. With 40 questions across 33 clusters, a change of one question is noise — and "new this month" can mean only that nobody worded it that way in July.</p></div>
-  <div class="panel" style="margin-top:16px"><table><thead><tr><th>Metric</th><th class="num">Jun</th><th class="num">Jul</th><th class="num">Aug</th></tr></thead><tbody><tr><td>Questions</td><td class="num">50</td><td class="num">55</td><td class="num tbl-strong">51</td></tr><tr><td>Solved rate</td><td class="num">68%</td><td class="num">60%</td><td class="num tbl-strong">61%</td></tr><tr><td>Ignored</td><td class="num">18%</td><td class="num">29%</td><td class="num tbl-strong">27%</td></tr><tr><td>Trusted contributor</td><td class="num">50%</td><td class="num">40%</td><td class="num tbl-strong">45%</td></tr></tbody></table><p class="footnote">KPI cards and this table use the SUMO export (51 questions). Both Roland reports cover a 40-question corpus, so percentages are quoted against their own source.</p></div>
-  <div class="takeaway" style="margin-top:16px"><div class="takeaway__label">Cross-channel</div><ul class="scan-list"><li>Three credential clusters describe one shape of failure — password reverts, login loop, imported account with no password. Roland reads a shared credential or migration path underneath.</li><li>Those and the crash-on-open echo the Play Store send-path signal (Outbox, five mentions, all 1–3★) and crashes (four negative): same app, two entry points, small numbers on both.</li><li>Encryption asks show up on the forum but not in Play Store reviews — forum users ask, review users just rate.</li></ul></div>
+  </div></details>
+  <details class="drill" data-drill="sumo-android-trend"><summary>Three-month trend<span class="drill__hint">Jun · Jul · Aug</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Metric</th><th class="num">Jun</th><th class="num">Jul</th><th class="num">Aug</th></tr></thead><tbody><tr><td>Questions</td><td class="num">50</td><td class="num">55</td><td class="num tbl-strong">51</td></tr><tr><td>Solved rate</td><td class="num">68%</td><td class="num">60%</td><td class="num tbl-strong">61%</td></tr><tr><td>Ignored</td><td class="num">18%</td><td class="num">29%</td><td class="num tbl-strong">27%</td></tr><tr><td>Trusted contributor</td><td class="num">50%</td><td class="num">40%</td><td class="num tbl-strong">45%</td></tr></tbody></table><p class="footnote">KPI cards and this table use the SUMO export (51 questions). Both Roland reports cover a 40-question corpus, so percentages are quoted against their own source.</p></div>
+  </div></details>
+  <div class="takeaway" style="margin-top:16px"><div class="takeaway__label">Cross-channel · one codebase, three channels</div><ul class="scan-list"><li>Three credential clusters describe one shape of failure — password reverts, login loop, imported account with no password. Roland reads a shared credential or migration path underneath.</li><li>Those plus crash-on-open also appear in Play Store reviews and K-9 forum topics — same app (TfA), three entry points, small numbers on each.</li><li>Full comparison: <a href="#overlap">strongest overlapping signals →</a></li></ul></div>
+  <!-- SECTION: single-channel-signals -->
+  <div class="alert-panel" style="margin-top:16px"><div class="takeaway__label">One channel only — the absence is the signal</div><ul class="scan-list"><li><strong>Spam filter absent · Play Store only:</strong> 18 negative of 35 mentions, zero SUMO Android questions and zero K-9 forum topics. Users are not asking for help — they rate and leave.</li><li><strong>Encryption · forum only:</strong> OpenPGP and S/MIME appear in 2 SUMO Android questions and no reviews. Forum users ask; review users rate.</li><li><strong>Attachments · K-9 forum only:</strong> 3 topics with no matching review theme this month.</li></ul></div>
 </section>
 <!-- SECTION: k9-forum -->
 <section class="chapter" id="k9-forum" data-filter-target="k9-forum" style="--chapter-color:var(--c-k9)">
-  <div class="chapter__head"><div class="chapter__num">06</div><div><div class="chapter__kicker">K-9 Mail Forum · Discourse</div><h2 class="chapter__title">Notifications became the top theme as unanswered topics reached 60%</h2><div class="chapter__standfirst"><ul class="scan-list"><li>40 new topics; only 8% had a marked accepted answer</li><li>24 topics received no reply</li><li>Notification topics rose from one to five — a cross-channel match with Play Store push pain</li></ul></div><div class="chapter__meta">forum.k9mail.app · all categories · August</div></div></div>
+  <div class="chapter__head"><div class="chapter__num">07</div><div><div class="chapter__kicker">K-9 Forum · Discourse · TfA codebase</div><h2 class="chapter__title">Notifications became the top theme as unanswered topics reached 60%</h2><div class="chapter__standfirst"><ul class="scan-list"><li>40 new topics; only 8% had a marked accepted answer</li><li>24 topics received no reply</li><li>Notification topics rose from one to five — the second channel confirming Play Store push pain</li><li>K-9 is Thunderbird for Android, so these topics read alongside reviews and SUMO, not as a separate product</li></ul></div><div class="chapter__meta">forum.k9mail.app · all categories · August · <a href="#overlap">overlapping signals →</a></div></div></div>
   <div class="stat-grid"><div class="stat-card"><div class="stat-card__lbl">New topics</div><div class="stat-card__val">40</div><div class="stat-card__delta">38→36→40</div></div><div class="stat-card"><div class="stat-card__lbl">Accepted answer</div><div class="stat-card__val">8%</div><div class="stat-card__delta delta-down">8→14→8%</div></div><div class="stat-card"><div class="stat-card__lbl">Unanswered</div><div class="stat-card__val">60%</div><div class="stat-card__delta delta-down">32→44→60%</div></div><div class="stat-card"><div class="stat-card__lbl">Notification topics</div><div class="stat-card__val">5</div><div class="stat-card__delta delta-down">2→1→5</div></div></div>
-  <div class="block-title">Top topic themes</div><div class="panel"><table><thead><tr><th>Theme</th><th class="num">Topics</th><th class="num">3-month trend</th></tr></thead><tbody><tr><td class="tbl-strong">Notifications</td><td class="num tbl-strong">5</td><td class="num tbl-mono">2→1→5</td></tr><tr><td>Attachments</td><td class="num">3</td><td class="num tbl-mono">0→4→3</td></tr><tr><td>Setup / Accounts</td><td class="num">3</td><td class="num tbl-mono">5→5→3</td></tr><tr><td>Crashes &amp; Freezes</td><td class="num">2</td><td class="num tbl-mono">2→0→2</td></tr><tr><td>Sync / Fetch</td><td class="num">2</td><td class="num tbl-mono">5→4→2</td></tr><tr><td>Update regression</td><td class="num">2</td><td class="num tbl-mono">2→3→2</td></tr></tbody></table></div>
+  <details class="drill" data-drill="k9-themes" open><summary>Top topic themes<span class="drill__hint">6 themes</span></summary><div class="drill__body">
+  <div class="panel"><table><thead><tr><th>Theme</th><th class="num">Topics</th><th class="num">3-month trend</th></tr></thead><tbody><tr><td class="tbl-strong">Notifications</td><td class="num tbl-strong">5</td><td class="num tbl-mono">2→1→5</td></tr><tr><td>Attachments</td><td class="num">3</td><td class="num tbl-mono">0→4→3</td></tr><tr><td>Setup / Accounts</td><td class="num">3</td><td class="num tbl-mono">5→5→3</td></tr><tr><td>Crashes &amp; Freezes</td><td class="num">2</td><td class="num tbl-mono">2→0→2</td></tr><tr><td>Sync / Fetch</td><td class="num">2</td><td class="num tbl-mono">5→4→2</td></tr><tr><td>Update regression</td><td class="num">2</td><td class="num tbl-mono">2→3→2</td></tr></tbody></table></div>
+  </div></details>
   <p class="footnote">Topics were fetched from the public Discourse search API across all categories. Accepted-answer rate undercounts resolution when no reply is formally marked.</p>
 </section>
 <!-- SECTION: rrr -->
 <section class="chapter" id="rrr" data-filter-target="all-only" style="--chapter-color:var(--c-rrr)">
-  <div class="chapter__head"><div class="chapter__num">07</div><div><div class="chapter__kicker">CX Framework</div><h2 class="chapter__title">Receive · Resolve · Resound</h2><p class="chapter__standfirst">How August maps to Thunderbird Support's action framework.</p></div></div>
+  <div class="chapter__head"><div class="chapter__num">08</div><div><div class="chapter__kicker">CX Framework</div><h2 class="chapter__title">Receive · Resolve · Resound</h2><p class="chapter__standfirst">How August maps to Thunderbird Support's action framework.</p></div></div>
   <div class="rrr"><div class="rrr-card"><div class="rrr-card__icon">🕊</div><div class="rrr-card__label">Receive</div><ul class="scan-list"><li>755 tickets; brand mix shifted sharply</li><li>564 Play reviews across 27 languages</li><li>955 desktop questions; printing and Spectrum</li><li>Push still #1 Android friction</li></ul></div><div class="rrr-card"><div class="rrr-card__icon">🪽</div><div class="rrr-card__label">Resolve</div><ul class="scan-list"><li>Donor CSAT 92.7% during ESR surge</li><li>Adjusted Thundermail support satisfaction 100%</li><li>Android SUMO solved rate 61%</li><li>Desktop printing fixed in Thunderbird 155</li><li>QR feedback fix merged</li></ul></div><div class="rrr-card"><div class="rrr-card__icon">✨</div><div class="rrr-card__label">Resound</div><ul class="scan-list"><li>TB rating rose to 3.74★</li><li>48% of TB reviews were 5★</li><li>QR negative mentions fell 25→3</li><li>Thundermail Webmail and MFA landed</li></ul></div></div>
   <p class="footnote">Receive / Resolve / Resound is Thunderbird Support's CX action framework. <a href="https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77" target="_blank">Support Vision →</a></p>
 </section>
 <!-- SECTION: colophon -->
-<footer class="colophon" data-filter-target="all-only"><div class="colophon__title">Definitions &amp; sources</div><div class="panel"><table><tbody>
+<footer class="colophon" data-filter-target="all-only">
+<details class="drill" data-drill="definitions"><summary>Definitions &amp; sources<span class="drill__hint">6 entries</span></summary><div class="drill__body">
+<div class="panel"><table><tbody>
   <tr><td class="tbl-muted" style="width:180px">Play Store rating</td><td>Monthly average calculated from that month's exported reviews, not the cumulative Console rating.</td></tr>
   <tr><td class="tbl-muted">Negative mention</td><td>A matching review rated 1–3★. Trend counts describe review frequency, not product progress.</td></tr>
   <tr><td class="tbl-muted">GitHub work</td><td><a href="https://github.com/thunderbird/thunderbird-android-reports/blob/main/reports/merged-prs/merged-prs-2026-08.md" target="_blank">August merged-PR report</a>, its CSV, and live <code>gh</code> issue queries fetched September 9, 2026.</td></tr>
   <tr><td class="tbl-muted">SUMO</td><td>KPI cards use Roland's August CSVs (concatenation method). Cluster and spike detail comes from his August 2026 desktop and Android reports — the non-AI spike detector and the AI cluster read — both re-fetched September 10, 2026 and both covering August against July.</td></tr>
   <tr><td class="tbl-muted">Resolved (SUMO)</td><td>Roland's AI read counts a question resolved when it has an accepted solution or a trusted contributor gave the last answer. That is a stricter test than the SUMO solved rate in the KPI cards.</td></tr>
   <tr><td class="tbl-muted">Privacy</td><td>Customer content is paraphrased; no raw ticket subjects or personally identifiable information are shown.</td></tr>
-</tbody></table></div><p class="footnote">Sources: Zendesk KPI inputs · Play Console GCS export · FeatureOS · Roland's Thunderbird metrics reports · K-9 Discourse · thunderbird-android GitHub. User-facing product name: Thundermail.</p></footer>
+</tbody></table></div>
+</div></details>
+<p class="footnote">Sources: Zendesk KPI inputs · Play Console GCS export · FeatureOS · Roland's Thunderbird metrics reports · K-9 Discourse · thunderbird-android GitHub. User-facing product name: Thundermail.</p></footer>
 </div></main>
 <script>
-/* Filter and hash navigation */
+/* SECTION SCRIPT: persistent accordions
+   Drill-down blocks are native <details class="drill">. Open/closed state is written to
+   localStorage under a month-scoped key, so August never inherits another month's state.
+   Must stay above the nav script: that script calls openDrillAncestors() on load. */
+(function(){
+  const KEY='tb-report-accordion:2026-08';
+  const drills=Array.from(document.querySelectorAll('details.drill[data-drill]'));
+  /* Storage is unavailable or throws in some file:// and private-mode contexts —
+     a bookkeeping failure must never stop a block from opening. */
+  function read(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+  function write(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+  const state=read();
+  drills.forEach(d=>{const v=state[d.dataset.drill];if(v===0||v===1)d.open=v===1});
+  const toggleAll=document.getElementById('drillToggleAll');
+  /* Snapshot the whole board rather than one block, so hand toggles, expand-all and
+     hash auto-opening all converge on the same stored shape. */
+  function persist(){
+    drills.forEach(d=>{state[d.dataset.drill]=d.open?1:0});
+    write();
+    if(!toggleAll)return;
+    const anyClosed=drills.some(d=>!d.open);
+    toggleAll.textContent=anyClosed?'Expand all':'Collapse all';
+    toggleAll.setAttribute('aria-pressed',String(!anyClosed));
+  }
+  drills.forEach(d=>d.addEventListener('toggle',persist));
+  if(toggleAll)toggleAll.addEventListener('click',()=>{const open=drills.some(d=>!d.open);drills.forEach(d=>{d.open=open});persist()});
+  persist();
+  /* A hash can point inside a collapsed block (#overlap, #eng-priority-alignment).
+     Open the target and its ancestors before scrolling so the link is never dead. */
+  window.openDrillAncestors=function(el){
+    let changed=false;
+    for(let n=el;n&&n!==document.body;n=n.parentElement){if(n.tagName==='DETAILS'&&!n.open){n.open=true;changed=true}}
+    if(changed)persist();
+  };
+})();
+/* SECTION SCRIPT: filter and hash navigation */
 (function(){
   const buttons=document.querySelectorAll('.filter-btn');
+  /* Grouped filters: Android is one codebase (TfA) across three channels */
+  const GROUPS={'android-all':['android','sumo-android','k9-forum']};
+  /* Group keys own no section of their own — deep links land on the first member */
+  const GROUP_ANCHOR={'android-all':'android'};
   function apply(key){
     buttons.forEach(b=>b.classList.toggle('is-active',b.dataset.filter===key));
-    document.querySelectorAll('[data-filter-target]').forEach(s=>{s.style.display=(key==='all'||s.dataset.filterTarget===key||s.dataset.filterTarget==='all-only'&&key==='all')?'':'none'});
+    const members=GROUPS[key];
+    document.querySelectorAll('[data-filter-target]').forEach(s=>{
+      const t=s.dataset.filterTarget;
+      /* 'all-only' blocks (RRR, colophon) are covered by key==='all' */
+      const show=key==='all'||t===key||(members&&members.indexOf(t)>-1);
+      s.style.display=show?'':'none';
+    });
   }
-  buttons.forEach(b=>b.addEventListener('click',()=>{apply(b.dataset.filter);history.replaceState(null,'',b.dataset.filter==='all'?'#':'#'+b.dataset.filter)}));
-  const hash=location.hash.slice(1);if(hash&&document.querySelector('[data-filter="'+hash+'"]'))apply(hash);
+  function isFiltered(el){for(let n=el;n&&n.nodeType===1;n=n.parentElement){if(n.style.display==='none')return true}return false}
+  /* Some browsers reject replaceState on file:// URLs — never let a bookkeeping
+     failure stop the filter or the scroll from happening. */
+  function setHash(h){try{history.replaceState(null,'',h)}catch(e){}}
+  buttons.forEach(b=>b.addEventListener('click',()=>{apply(b.dataset.filter);setHash(b.dataset.filter==='all'?'#':'#'+b.dataset.filter)}));
+  /* Delegated so the topbar nav and every in-content cross reference (#overlap, #esr …)
+     behave alike: a filtered-out target cannot be scrolled to, so clear the filter first. */
+  document.addEventListener('click',function(e){
+    const a=e.target.closest?e.target.closest('a[href^="#"]'):null;
+    if(!a)return;
+    const id=a.getAttribute('href').slice(1);
+    const el=id?document.getElementById(id):null;
+    if(!el)return;
+    e.preventDefault();
+    if(isFiltered(el))apply('all');
+    if(window.openDrillAncestors)window.openDrillAncestors(el);
+    el.scrollIntoView();
+    setHash('#'+id);
+  });
+  /* Deep link on load: a hash naming an element is an anchor (full view, then scroll);
+     a hash naming only a filter key applies that filter. Scroll explicitly because
+     apply() changes page height after the browser's own hash jump. */
+  function openHash(){
+    const h=location.hash.slice(1);
+    if(!h)return;
+    const el=document.getElementById(h);
+    if(el){apply('all');if(window.openDrillAncestors)window.openDrillAncestors(el);el.scrollIntoView();return}
+    if(GROUPS[h]){apply(h);const g=document.getElementById(GROUP_ANCHOR[h]);if(g)g.scrollIntoView()}
+  }
+  if(document.readyState==='loading')addEventListener('DOMContentLoaded',openHash);else openHash();
 })();
-/* Scroll-spy */
-(function(){const links=document.querySelectorAll('.topbar__nav a[data-nav]');const sections=Array.from(links).map(l=>document.getElementById(l.dataset.nav)).filter(Boolean);function setActive(){let active=null;for(const s of sections){if(s.style.display!=='none'&&s.getBoundingClientRect().top<=120)active=s}links.forEach(l=>l.classList.toggle('is-active',active&&l.dataset.nav===active.id))}addEventListener('scroll',setActive,{passive:true});setActive()})();
+/* SECTION SCRIPT: scroll-spy */
+(function(){const links=document.querySelectorAll('.topbar__nav a[data-nav]');const sections=Array.from(links).map(l=>document.getElementById(l.dataset.nav)).filter(Boolean);function setActive(){let active=null;for(const s of sections){if(s.style.display!=='none'&&s.getBoundingClientRect().top<=120)active=s}links.forEach(l=>l.classList.toggle('is-active',!!active&&l.dataset.nav===active.id))}addEventListener('scroll',setActive,{passive:true});setActive()})();
 /* Charts */
 const GRID='#2b2845',TICK='#8a87a6',FONT={family:"'Inter',sans-serif",size:11};
 new Chart(document.getElementById('ratingTrendChart'),{type:'line',data:{labels:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug'],datasets:[{label:'Thunderbird',data:[3.95,3.91,3.87,3.81,3.73,3.68,3.58,3.74],borderColor:'#ff8a3d',borderWidth:3,pointRadius:4,tension:.25},{label:'K-9 Mail',data:[null,null,3.52,2.96,3.53,3.55,3.64,3.60],borderColor:'#b794ff',borderWidth:3,pointRadius:4,tension:.25,borderDash:[5,3]},{label:'4★ goal',data:[4,4,4,4,4,4,4,4],borderColor:'rgba(52,210,123,.5)',borderWidth:1.5,pointRadius:0,borderDash:[6,5]}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:TICK,font:FONT}}},scales:{x:{ticks:{color:TICK,font:FONT},grid:{color:GRID}},y:{min:2.8,max:4.1,ticks:{color:TICK,font:FONT,callback:v=>v.toFixed(2)+'★'},grid:{color:GRID}}}}});

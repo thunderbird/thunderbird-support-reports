@@ -25,7 +25,7 @@ methodology_notes:
 
 # ── ZENDESK current — Lisa 2026-09-09 ──────────────────────────────────────
 # MoM vs July 8/31 KPI note: CSAT −0.8 / Donor +7.0 / Thundermail −9.8 pts;
-# volume 767→755 (−1.6%). Donor 212→350 (+65%) — July email spoiler was ~95% from ESR appeals.
+# volume 767→755 (−1.6%). Donor 212→350 (+65%) — ESR-period donation appeals; July email spoiler was ~95%.
 zendesk:
   overall_csat: 90.9          # −0.8 pts vs July 91.7
   donor_csat: 92.7            # +7.0 pts vs July 85.7
@@ -494,17 +494,17 @@ tbpro_ideas:
 
 # ── NARRATIVE ──────────────────────────────────────────────────────────────
 narrative:
-  lede: "Donor tickets jumped 212→350 (+65%) on ESR appeals — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) is pricing DSATs (no monthly / no à la carte / 100 CAD), not support — adjusted support satisfaction 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
+  lede: "Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during the ESR period — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) is pricing DSATs (no monthly / no à la carte / 100 CAD), not support — adjusted support satisfaction 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
   report_note: "No full July dashboard — skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). Lisa's 8/31 KPI note is the July baseline; MoM is August vs July. Team: Amanda + Rocky (Technical Support Specialists) onboarded; CertainlyCX for donors (Natalia, Sofia, Mc Gyver) in Donor Support Matrix. July Thundermail was 283 tickets (+141.9%) from waitlist pushes + Wellness Fridays."
   receive_resolve_resound: |
     **🕊 Receive**
-    - 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
+    - 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR-period donation appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
     - 564 Play Store reviews across 27 languages; 218 incoming review tickets
     - Push/sync still #1 friction (34 negative, 31→34 — rising, no fix shipped). July QR/Settings Import spike cooled (25→3 negative)
     - 955 desktop forum questions (751 in July) — printing broke in v154 (36 qs, 8× normal) and Spectrum/Charter mail access failed (34 qs)
 
     **🪽 Resolve**
-    - Donor CSAT 92.7% (+7.0 pts) on the ESR-appeal spike
+    - Donor CSAT 92.7% (+7.0 pts) through the donation-appeal spike
     - Thundermail CSAT 85.7% is product/pricing DSATs; support satisfaction excluding those 100%
     - Android forum solved rate 61% (+1 pt) on 51 questions
     - Desktop printing regression is fixed in Thunderbird 155 (Sept 1) — the one August desktop cluster with an answer to give
