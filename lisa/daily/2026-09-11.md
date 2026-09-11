@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 13:19 ET** · refreshes hourly_  
+_Updated: **2026-09-11 14:26 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 33** of rollout — **35,000 invitees**, **385 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 33** of rollout — **35,000 invitees**, **386 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **7** solved in last 24h
-- **385** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 45
-- **Median AHT**: 132.6h · mean 147.8h (proxy: updated_at − created_at, 296 solved tickets)
+- **11** new tickets in last 24h · **8** solved in last 24h
+- **386** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 93%  (112 good / 9 bad)
+- **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
+- **Median AHT**: 132.6h · mean 148.2h (proxy: updated_at − created_at, 296 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nouveaux mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -141,8 +141,12 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 5 new:
 
+- [Native iOS App](https://ideas.tb.pro/p/native-ios-app) · 1 votes · _Thundermail, New Feature_
+  > What you’d like to seeA native iOS and iPadOS mobile application available on the Apple App Store. While an Android application currently exists, Apple device users still require a dedicated, native…
+- [Username-Centric Account Identity for Enhanced Security and Asset Flexibility](https://ideas.tb.pro/p/username-centric-account-identity-for-enhanced-security-and-asset-flexibility) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions_
+  > What you’d like to seeThundermail should stop using email addresses as the master account identity and login credential. Instead, require users to create a unique, non-email username used exclusively…
 - [Minor privacy issue](https://ideas.tb.pro/p/minor-privacy-issue) · 1 votes · _Privacy & Security, Accounts & Subscriptions, Improvement_
   > What you’d like to seeBriefly describe the feature or improvement.Potentially move email into POST or a tocken instead of in a URL paramater (in relation to the early acces sign up link)Why it…
 - [button to easy Add to contacts or Copy to clipboard the *from email address*](https://ideas.tb.pro/p/button-to-easy-add-to-contacts-or-copy-to-clipboard-the-from-email-address) · 1 votes · _Thundermail, New Feature, Webmail_
@@ -153,14 +157,14 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 296
-- **pending**: 77
-- **open**: 7
+- **pending**: 76
+- **open**: 9
 - **hold**: 4
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 226
+- **Account Hub**: 227
 - **Thundermail**: 124
 - **Appointment**: 8
 - **Send**: 8
@@ -225,6 +229,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8599](https://tbpro.zendesk.com/agent/tickets/8599)** · Subscription cancellation — why: **change request** · how: **actioned**
   > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating…
 
+### Bug report / app crash / not working — 1 tickets
+
+- **[#8613](https://tbpro.zendesk.com/agent/tickets/8613)** · Checking Email with an Email Archiver
+  > Hello, I use the Mail Archiver to archive my emails. It works great with all my mailboxes, but unfortunately not with Thundermail—I always get an error message there. Unable to…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#8611](https://tbpro.zendesk.com/agent/tickets/8611)** · can't verify custom domain
@@ -267,6 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [open] · 2026-09-11T15:26 · mot de passe
 - [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [open] · 2026-09-11T16:52 · Removal of account in webmail
 - [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [open] · 2026-09-11T17:14 · can't verify custom domain
+- [8613](https://tbpro.zendesk.com/agent/tickets/8613) · [open] · 2026-09-11T17:43 · Checking Email with an Email Archiver
 
 ## Solved — last 24h
 
@@ -277,6 +287,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8520](https://tbpro.zendesk.com/agent/tickets/8520) · 2026-09-11T17:02 · Unable to log in to Thundermail – password reset email not received
 - · [8577](https://tbpro.zendesk.com/agent/tickets/8577) · 2026-09-11T17:13 · Refund Thundermail
 - · [8484](https://tbpro.zendesk.com/agent/tickets/8484) · 2026-09-11T17:14 · Account encryption
+- 👍 [7897](https://tbpro.zendesk.com/agent/tickets/7897) · 2026-09-11T17:39 · Issues with uploading files to Send
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
