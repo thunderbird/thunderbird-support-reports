@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 02:35 ET** · refreshes hourly_  
+_Updated: **2026-09-11 03:24 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **378 tickets** so fa
 - **378** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 45
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 46
 - **Median AHT**: 133.3h · mean 148.6h (proxy: updated_at − created_at, 293 solved tickets)
 
 ## Known problems — 3 problem(s), 41 incident(s)
@@ -131,8 +131,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [button to easy Add to contacts or Copy to clipboard the *from email address*](https://ideas.tb.pro/p/button-to-easy-add-to-contacts-or-copy-to-clipboard-the-from-email-address) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Add a button-icon copy , in the email view to easy copy email address into a contact or just copy to clipboardWhy it mattersWhat…
 - [Appointment Location](https://ideas.tb.pro/p/appointment-location) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.The ability to set a physical address for appointments. Why it mattersWhat problem does this solve, or what benefit does it bring?Not…
 
