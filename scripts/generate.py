@@ -2,6 +2,7 @@
 Monthly report generator — month-agnostic.
 Usage: uv run scripts/generate.py <month> <year>
 Example: uv run scripts/generate.py april 2026
+Safe HTML preview: uv run scripts/generate.py april 2026 --preview-html /tmp/april.html
 
 Reads data/<month>_<year>.yaml for manual inputs.
 Analyzes Play Store CSVs automatically.
@@ -33,6 +34,34 @@ PAGES_ORIGIN = 'https://thunderbird.github.io/thunderbird-support-reports'
 GH_BLOB_ORIGIN = 'https://github.com/thunderbird/thunderbird-support-reports/blob/main'
 MONTHLY_REL = 'reports/monthly'
 LEGACY_STUB_MARKER = 'This report moved'
+FROZEN_REPORTS = {('2026', 'august')}
+
+
+def validate_newsletter_config(config, strict=True):
+    """Keep future runs from publishing a structurally complete but generic newsletter."""
+    narrative = config.get('narrative') or {}
+    required = {
+        'narrative.lede': narrative.get('lede'),
+        'narrative.dashboard_headline': narrative.get('dashboard_headline'),
+        'narrative.masthead_highlights': narrative.get('masthead_highlights'),
+        'narrative.esr_framing': narrative.get('esr_framing'),
+        'narrative.overlap_notes': narrative.get('overlap_notes'),
+        'narrative.roland_desktop': narrative.get('roland_desktop') or narrative.get('sumo_desktop_signal'),
+        'narrative.roland_android': narrative.get('roland_android') or narrative.get('sumo_android_signal'),
+        'narrative.github_alignment': narrative.get('github_alignment'),
+        'methodology_notes': config.get('methodology_notes'),
+    }
+    missing = [name for name, value in required.items() if not value]
+    if not missing:
+        return
+    message = (
+        "Newsletter YAML is missing qualitative fields:\n  "
+        + "\n  ".join(missing)
+        + "\nFill these before publishing; see .claude/skills/report/SKILL.md."
+    )
+    if strict:
+        sys.exit(message)
+    print("  Preview warning: " + message.replace("\n", "\n  "))
 
 
 def monthly_out_dir(base, year):
@@ -161,7 +190,7 @@ DEVICE_MAP = {
 def _decode_device(codename):
     return DEVICE_MAP.get(codename, codename) if codename else None
 
-from pii_redact import paraphrase_review
+from pii_redact import paraphrase_review, redact, redact_sumo_title
 
 
 def _best_quote(rows, pattern, max_len=160):
@@ -665,7 +694,7 @@ def _review_csv_candidates(base, app, yyyymm):
     return matches
 
 
-def ensure_play_store_csvs(base, month, year):
+def ensure_play_store_csvs(base, month, year, fetch_missing=True):
     """Ensure required current and previous exports exist before analysis."""
     month_num = MONTH_NUMS[month.lower()]
     current = int(f"{year}{month_num}")
@@ -683,6 +712,12 @@ def ensure_play_store_csvs(base, month, year):
         for app in required_apps
         if not _review_csv_candidates(base, app, yyyymm)
     ]
+    if missing and not fetch_missing:
+        sys.exit(
+            "Preview requires existing current and previous Play Store CSVs; "
+            "it will not fetch or write them:\n  "
+            + "\n  ".join(f"{app} {yyyymm}" for app, yyyymm in missing)
+        )
     if missing:
         print("  Required Play Store CSVs missing; fetching report and previous month…")
         result = subprocess.run(
@@ -1014,7 +1049,69 @@ Raw data (CSV): [{month_cap.lower()}.csv]({csv_url})
 
 # ── Dashboard HTML ────────────────────────────────────────────────────────────
 
-def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot=None, k9_discourse=None, history=None, connect_android_ideas=None, sumo_contributors=None, status_moves_block=None, quarterly_review=None):
+def fetch_android_github_work(month_prefix):
+    """Fetch the report-month Android merge report and summarize user-visible work.
+
+    This intentionally runs at generation time. The newsletter must compare support
+    feedback with the current upstream merge report, never a copied list of August PRs.
+    """
+    report_name = f"merged-prs-{month_prefix}.md"
+    api_path = (
+        "repos/thunderbird/thunderbird-android-reports/contents/"
+        f"reports/merged-prs/{report_name}"
+    )
+    try:
+        result = subprocess.run(
+            ["gh", "api", api_path, "-H", "Accept: application/vnd.github.raw+json"],
+            capture_output=True, text=True, timeout=30,
+        )
+        if result.returncode:
+            raise RuntimeError(result.stderr.strip())
+        raw = result.stdout
+    except (OSError, subprocess.TimeoutExpired, RuntimeError) as exc:
+        print(f"  Android GitHub work fetch failed: {exc}")
+        return None
+
+    section = None
+    rows = []
+    counts = Counter()
+    for line in raw.splitlines():
+        heading = re.match(r"^### (Highlight|Include|Review)$", line)
+        if heading:
+            section = heading.group(1)
+            continue
+        if line.startswith("### ") or line.startswith("## "):
+            section = None
+        if section and re.match(r"^\| \[#\d+\]", line):
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            if len(cells) < 4:
+                continue
+            pr_match = re.search(r"#(\d+)", cells[0])
+            if not pr_match:
+                continue
+            counts[section] += 1
+            rows.append({
+                "number": int(pr_match.group(1)),
+                "title": redact(cells[3]),
+                "classification": section,
+                "beta": cells[5] != "-",
+                "release": cells[6] != "-",
+            })
+
+    total = len(re.findall(r"^\| \[#\d+\]", raw, flags=re.M))
+    return {
+        "total": total,
+        "reportable": counts["Highlight"] + counts["Include"],
+        "highlight": counts["Highlight"],
+        "include": counts["Include"],
+        "rows": [r for r in rows if r["classification"] in ("Highlight", "Include")],
+        "url": (
+            "https://github.com/thunderbird/thunderbird-android-reports/blob/main/"
+            f"reports/merged-prs/{report_name}"
+        ),
+    }
+
+def build_dashboard_legacy(config, analysis, month_cap, year, today, prev_idea_snapshot=None, k9_discourse=None, history=None, connect_android_ideas=None, sumo_contributors=None, status_moves_block=None, quarterly_review=None):
     z = config['zendesk']
     p = config['prev']
     history_neg = config.get('history_neg', {})
@@ -1891,6 +1988,448 @@ new Chart(k9Ctx, {{ ...chartDefaults, data: {{
     return html
 
 
+def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot=None,
+                    k9_discourse=None, history=None, connect_android_ideas=None,
+                    sumo_contributors=None, status_moves_block=None, quarterly_review=None):
+    """Build the approved monthly newsletter dashboard (August 2026 layout)."""
+    z, p = config["zendesk"], config["prev"]
+    narrative = config.get("narrative") or {}
+    sumo = config.get("sumo") or {}
+    d_sumo, a_sumo = sumo.get("desktop") or {}, sumo.get("android") or {}
+    roland = config.get("roland_insights") or {}
+    d_roland, a_roland = roland.get("desktop") or {}, roland.get("android") or {}
+    ideas = config.get("tbpro_ideas") or {}
+    methodology_notes = config.get("methodology_notes") or []
+    esr_framing = narrative.get("esr_framing") or {}
+    overlap_notes = narrative.get("overlap_notes") or {}
+    github_alignment = narrative.get("github_alignment") or {}
+    month_lower = month_cap.lower()
+    month_prefix = f"{year}-{config['month_num']}"
+    report_url = monthly_blob_url(year, f"{month_lower}.md")
+    github_work = fetch_android_github_work(month_prefix)
+
+    def pct_delta(cur, old):
+        if cur is None or old in (None, 0):
+            return "—"
+        value = (cur - old) / old * 100
+        return f"{value:+.1f}%"
+
+    def pts_delta(cur, old):
+        if cur is None or old is None:
+            return "—"
+        return f"{cur - old:+.1f} pts"
+
+    def safe(value):
+        return _esc(value if value not in (None, "") else "—")
+
+    def android_issue_links(value):
+        escaped = safe(value)
+        return re.sub(
+            r"(?<![\w/])#(\d{4,})",
+            lambda match: (
+                '<a href="https://github.com/thunderbird/thunderbird-android/issues/'
+                f'{match.group(1)}" target="_blank">#{match.group(1)}</a>'
+            ),
+            escaped,
+        )
+
+    def scan(items):
+        return '<ul class="scan-list">' + "".join(f"<li>{item}</li>" for item in items if item) + "</ul>"
+
+    def safe_scan(items):
+        return scan([safe(item) for item in (items or [])])
+
+    def drill(key, title, body, hint="", opened=False, element_id=""):
+        return (
+            f'<details class="drill" data-drill="{_esc(key)}"'
+            f'{" id=" + json.dumps(element_id) if element_id else ""}'
+            f'{" open" if opened else ""}><summary>{title}'
+            f'{f"<span class=\"drill__hint\">{hint}</span>" if hint else ""}'
+            f'</summary><div class="drill__body">{body}</div></details>'
+        )
+
+    def cards(rows):
+        return '<div class="stat-grid">' + "".join(
+            f'<div class="stat-card"><div class="stat-card__lbl">{label}</div>'
+            f'<div class="stat-card__val">{value}</div>'
+            f'<div class="stat-card__delta {cls}">{delta}</div></div>'
+            for label, value, delta, cls in rows
+        ) + "</div>"
+
+    def chapter(number, key, kicker, title, standfirst, meta, body):
+        return f'''<!-- SECTION: {key} -->
+<section class="chapter" id="{key}" data-filter-target="{key}" style="--chapter-color:var(--c-{key})">
+  <div class="chapter__head"><div class="chapter__num">{number:02d}</div><div>
+    <div class="chapter__kicker">{kicker}</div><h2 class="chapter__title">{title}</h2>
+    <div class="chapter__standfirst">{standfirst}</div><div class="chapter__meta">{meta}</div>
+  </div></div>{body}
+</section>'''
+
+    history_neg = config.get("history_neg") or {}
+    friction_ranked = sorted(
+        analysis["friction"].items(), key=lambda item: item[1]["negative"], reverse=True
+    )
+    friction_rows = []
+    for rank, (name, values) in enumerate(friction_ranked[:5], 1):
+        trend = list(history_neg.get(name, [])) + [values["negative"]]
+        friction_rows.append(
+            f'<div class="friction-item{" friction-item--lead" if rank == 1 else ""}">'
+            f'<div class="friction-item__rank">{rank:02d}</div><div>'
+            f'<div class="friction-item__name"><a href="{report_url}#top-3-friction-points" target="_blank">{safe(name)}</a></div>'
+            f'<div class="friction-item__meta"><span><b>{values["total"]}</b> mentions</span>'
+            f'<span>TB {values["tb_count"]} · K-9 {values["k9_count"]}</span>'
+            f'<span>avg {values["avg_rating"]:.2f}★</span>'
+            f'<span>{"→".join(map(str, trend))} negative</span></div></div>'
+            f'<div><div class="friction-item__neg">{values["negative"]}</div>'
+            f'<div class="friction-item__neg-lbl">negative</div></div></div>'
+        )
+
+    top_friction = friction_ranked[0] if friction_ranked else ("No measured theme", {"negative": 0})
+    second_friction = friction_ranked[1] if len(friction_ranked) > 1 else top_friction
+    tb_gap = max(0, round(4 - analysis["tb_avg_rating"], 2))
+    tb_delta = analysis["tb_avg_rating"] - (p.get("tb_avg_rating") or analysis["tb_avg_rating"])
+    k9_delta = analysis["k9_avg_rating"] - (p.get("k9_avg_rating") or analysis["k9_avg_rating"])
+
+    new_idea_chips = "".join(
+        f'<div class="idea-chip"><span class="idea-chip__votes">{idea["votes"]}</span>'
+        f'<a href="{safe(idea.get("url"))}" target="_blank">{safe(idea.get("title"))}</a>'
+        f'<span class="idea-chip__tag">{safe(idea.get("tag", ""))}</span></div>'
+        for idea in ideas.get("new_this_month", [])[:6]
+    ) or '<p class="muted">No new ideas loaded.</p>'
+    top_idea_rows = "".join(
+        f'<tr><td><a href="{safe(idea.get("url"))}" target="_blank">{safe(idea.get("title"))}</a></td>'
+        f'<td class="num tbl-strong">{idea.get("votes", 0)}</td><td>{safe(idea.get("status", "Open"))}</td></tr>'
+        for idea in ideas.get("top_alltime", [])[:5]
+    ) or '<tr><td colspan="3" class="muted">No all-time ideas loaded.</td></tr>'
+    shipped = (ideas.get("landed") or [])[:3]
+    inflight = (ideas.get("in_flight") or [])[:3]
+    shipped_body = '<div class="two-col"><div class="panel"><div class="panel__title">Landed</div>' + scan([
+        f'<a href="{safe(i.get("url"))}" target="_blank">{safe(i.get("title"))}</a> · {i.get("votes", 0)} votes'
+        for i in shipped
+    ]) + '</div><div class="panel"><div class="panel__title">In flight</div>' + scan([
+        f'<a href="{safe(i.get("url"))}" target="_blank">{safe(i.get("title"))}</a> · {i.get("votes", 0)} votes'
+        for i in inflight
+    ]) + "</div></div>"
+
+    thundermail_body = cards([
+        ("Thundermail CSAT", f'{safe(z.get("tbpro_csat"))}%', pts_delta(z.get("tbpro_csat"), p.get("tbpro_csat")), ""),
+        ("Tickets", safe(z.get("tbpro_tickets")), pct_delta(z.get("tbpro_tickets"), p.get("tbpro_tickets")), ""),
+        ("New ideas", len(ideas.get("new_this_month", [])), month_cap, ""),
+        ("Reportable status", "Live", "FeatureOS snapshot", ""),
+    ])
+    if z.get("tbpro_csat_note"):
+        thundermail_body += f'<p class="footnote">*{safe(z["tbpro_csat_note"])}</p>'
+    thundermail_body += drill("tm-shipped", "Shipped &amp; in flight", shipped_body, opened=True)
+    thundermail_body += drill(
+        "tm-new", "New ideas this month", f'<div class="ideas">{new_idea_chips}</div>',
+        f'{len(ideas.get("new_this_month", []))} total', True,
+    )
+    thundermail_body += drill(
+        "tm-alltime", "Top ideas · all time",
+        f'<div class="panel"><table><thead><tr><th>Idea</th><th class="num">Votes</th><th>Status</th></tr></thead><tbody>{top_idea_rows}</tbody></table></div>',
+        "5 rows",
+    )
+
+    k9_theme_map = dict((k9_discourse or {}).get("top_themes", []))
+    push = analysis["friction"].get("Push / Notification Sync", {})
+    qr = analysis["friction"].get("QR / Settings Import", {})
+    crashes = analysis["friction"].get("Crashes & Freezes", {})
+    outbox = analysis["friction"].get("Stuck Outbox / Send Failure", {})
+    a_priorities = ((a_roland.get("llm") or {}).get("top_priorities") or [])
+    credential_questions = sum(
+        int(row.get("aug", row.get("questions", 0)) or 0)
+        for row in a_priorities
+        if re.search(r"password|credential|login|import|account", str(row.get("cluster", "")), re.I)
+    )
+    crash_questions = sum(
+        int(row.get("aug", row.get("questions", 0)) or 0)
+        for row in a_priorities
+        if re.search(r"crash|freeze", str(row.get("cluster", "")), re.I)
+    )
+    overlap_rows = [
+        ("Push / notification sync", push, 0, k9_theme_map.get("Notifications", 0),
+         "Strongest when it appears in reviews and the K-9 forum; low SUMO volume can hide the cluster."),
+        ("Account credentials & setup import", qr, credential_questions, k9_theme_map.get("Setup / Accounts", 0),
+         "Same gap, different entry point across the Thunderbird for Android channels."),
+        ("Crashes & freezes", crashes, crash_questions, k9_theme_map.get("Crashes & Freezes", 0),
+         "Cross-channel severity signal; small counts should not be presented as a measured trend."),
+        ("Stuck outbox / send path", outbox, 0, 0,
+         "Review pain can be present without a matching help-seeking cluster."),
+    ]
+    if overlap_notes.get("rows"):
+        overlap_html = "".join(
+            f'<tr><td class="tbl-strong">{safe(row.get("signal"))}</td>'
+            f'<td class="num">{safe(row.get("play_store"))}</td>'
+            f'<td class="num">{safe(row.get("sumo_android"))}</td>'
+            f'<td class="num">{safe(row.get("k9_forum"))}</td>'
+            f'<td>{safe(row.get("read"))}</td></tr>'
+            for row in overlap_notes["rows"]
+        )
+    else:
+        overlap_html = "".join(
+            f'<tr><td class="tbl-strong">{name}</td><td class="num">{vals.get("negative", 0)} neg · {vals.get("total", 0)} mentions</td>'
+            f'<td class="num">{sumo_count or "—"}</td><td class="num">{k9_count or "—"}</td><td>{read}</td></tr>'
+            for name, vals, sumo_count, k9_count, read in overlap_rows
+        )
+
+    if github_work:
+        work_rows = "".join(
+            f'<tr><td><a href="https://github.com/thunderbird/thunderbird-android/pull/{row["number"]}" target="_blank">#{row["number"]}</a></td>'
+            f'<td>{android_issue_links(row["title"])}</td><td>{row["classification"]}</td>'
+            f'<td>{"stable/release" if row["release"] else ("beta" if row["beta"] else "merged")}</td></tr>'
+            for row in github_work["rows"][:12]
+        )
+        work_summary = (
+            f'{github_work["total"]} merged · {github_work["reportable"]} reportable '
+            f'({github_work["highlight"]} Highlight + {github_work["include"]} Include)'
+        )
+        work_source = f'<a href="{github_work["url"]}" target="_blank">live merged-PR report</a>'
+    else:
+        work_rows = '<tr><td colspan="4">Live GitHub report unavailable; generation did not substitute stale PRs.</td></tr>'
+        work_summary = "Live GitHub fetch unavailable"
+        work_source = "upstream report unavailable"
+    alignment_note = safe(
+        github_alignment.get("assessment")
+        or (roland.get("eng_alignment") or {}).get("assessment")
+        or "Compare the reportable work below with the ranked feedback above."
+    )
+    alignment_bullets = [
+        f"<strong>Work mix:</strong> {work_summary}",
+        alignment_note,
+    ] + [safe(item) for item in github_alignment.get("bullets", [])]
+    github_body = (
+        f'<div class="takeaway">{scan(alignment_bullets)}</div>'
+        f'<div class="panel"><table><thead><tr><th>PR</th><th>User-visible work</th><th>Class</th><th>Reach</th></tr></thead>'
+        f'<tbody>{work_rows}</tbody></table><p class="footnote">Source: {work_source}. Merged work is activity, not proof a fix reached stable users.</p></div>'
+    )
+
+    rating_changes = analysis.get("rating_changes") or {}
+    rating_change_value = (
+        f'{rating_changes.get("improved", 0)}↑ · {rating_changes.get("unchanged", 0)}→ · '
+        f'{rating_changes.get("decreased", 0)}↓'
+    )
+    android_body = cards([
+        ("TB Avg Rating", f'{analysis["tb_avg_rating"]:.2f}★', f"{tb_delta:+.2f} · {tb_gap:.2f}★ to goal", ""),
+        ("K-9 Avg Rating", f'{analysis["k9_avg_rating"]:.2f}★', f"{k9_delta:+.2f}", ""),
+        ("Combined", f'{analysis["overall_avg_rating"]:.2f}★', f'{analysis["total_count"]} reviews', ""),
+        ("Rating changes", rating_change_value, f'{rating_changes.get("matched", 0)} matched Review Links', ""),
+        ("Review tickets", analysis["replies_to_low_star"], f'down/up from {safe(p.get("replies_to_low_star"))}', ""),
+    ])
+    android_body += '<div class="two-col"><figure class="figure"><div class="figure__frame"><div class="chart-wrap"><canvas id="tbStarChart"></canvas></div></div><figcaption class="figure__caption">Thunderbird star distribution.</figcaption></figure><figure class="figure"><div class="figure__frame"><div class="chart-wrap"><canvas id="k9StarChart"></canvas></div></div><figcaption class="figure__caption">K-9 star distribution.</figcaption></figure></div>'
+    android_body += drill("android-friction", "Top friction points · ranked by negative mentions", '<div class="friction">' + "".join(friction_rows) + "</div>", "5 themes", True)
+    if methodology_notes:
+        android_body += drill(
+            "android-methodology", "Methodology",
+            f'<div class="method-panel">{safe_scan(methodology_notes)}</div>',
+            f"{len(methodology_notes)} notes",
+        )
+    android_body += drill(
+        "android-overlap", "Strongest signals · where Android channels overlap",
+        f'<div class="panel"><p class="tbl-sub">{safe(overlap_notes.get("intro") or "Play Store, SUMO Android and the K-9 forum are three entry points to the Thunderbird for Android codebase. Counts sit side by side and are never summed.")}</p><table><thead><tr><th>Signal</th><th class="num">Play Store · TB+K-9</th><th class="num">SUMO Android</th><th class="num">K-9 forum</th><th>Overlap read</th></tr></thead><tbody>{overlap_html}</tbody></table>{f"""<p class="footnote">{safe(overlap_notes.get("footnote"))}</p>""" if overlap_notes.get("footnote") else ""}</div>',
+        "three channels", True, "overlap",
+    )
+    android_body += drill(
+        "android-eng",
+        safe(github_alignment.get("headline") or f"Engineering priority alignment · feedback vs {month_cap} GitHub work"),
+        github_body, work_summary, True, "eng-priority-alignment",
+    )
+    android_body += drill(
+        "android-goal", "Meeting the ⭐⭐⭐⭐+ goal",
+        scan([
+            f'<strong>{safe(top_friction[0])}:</strong> {top_friction[1]["negative"]} negative mentions; first product lever.',
+            f'<strong>{safe(second_friction[0])}:</strong> {second_friction[1]["negative"]} negative mentions; second product lever.',
+            f"<strong>Rating gap:</strong> Thunderbird needs +{tb_gap:.2f}★ to reach 4★.",
+        ]), f"{tb_gap:.2f}★ gap", True,
+    )
+
+    d_questions = d_sumo.get("total_questions")
+    printing = next((x for x in ((d_roland.get("llm") or {}).get("top_priorities") or []) if re.search("print", str(x.get("cluster", "")), re.I)), None)
+    spectrum = next((x for x in ((d_roland.get("llm") or {}).get("top_priorities") or []) if re.search("spectrum|charter|roadrunner", str(x.get("cluster", "")), re.I)), None)
+    donor_appeal = esr_framing.get("donor_context") or (
+        "Donor volume reflects donation appeals sent during the ESR period; these are donor-brand questions, not ESR-topic tickets."
+    )
+    esr_signals = []
+    for item, kind in ((printing, "Build regression"), (spectrum, "Provider recurrence")):
+        if item:
+            esr_signals.append(
+                f'<tr><td class="tbl-strong">{safe(redact_sumo_title(item.get("cluster", "")))}</td>'
+                f'<td class="num">{item.get("aug", item.get("questions", "—"))}</td>'
+                f'<td class="num">{item.get("resolved_pct", "—")}%</td><td>{kind}</td>'
+                f'<td>{safe(item.get("known_status") or item.get("note") or "")}</td></tr>'
+            )
+    esr_body = cards([
+        ("Donor tickets", safe(z.get("donor_tickets")), pct_delta(z.get("donor_tickets"), p.get("donor_tickets")), ""),
+        ("Donor CSAT", f'{safe(z.get("donor_csat"))}%', pts_delta(z.get("donor_csat"), p.get("donor_csat")), ""),
+        ("Desktop questions", safe(d_questions), f'{(d_questions or 0) - (p.get("desktop_questions") or 0):+d} MoM', ""),
+        ("Desktop solved rate", f'{safe(d_sumo.get("overall_solved_rate"))}%', pts_delta(d_sumo.get("overall_solved_rate"), p.get("desktop_solved_rate")), ""),
+    ])
+    esr_scope = esr_framing.get("scope_notes") or [
+        donor_appeal,
+        "Roland’s desktop clusters are build/provider signals, not a measured ESR-tagged ticket slice.",
+        "No new Zendesk tag is required for this section.",
+    ]
+    esr_body += drill("esr-scope", "How to read these numbers", f'<div class="method-panel">{safe_scan(esr_scope)}</div>', "donor + desktop scope")
+    if esr_signals:
+        esr_body += drill("esr-signals", "Desktop build and provider signals", f'<div class="panel"><table><thead><tr><th>Signal</th><th class="num">Questions</th><th class="num">Resolved</th><th>Type</th><th>Read</th></tr></thead><tbody>{"".join(esr_signals)}</tbody></table></div>', f"{len(esr_signals)} signals", True)
+
+    def roland_table(items, columns):
+        rows = ""
+        for item in items:
+            cells = []
+            for key, label, numeric in columns:
+                value = item.get(key, "—")
+                if key == "cluster":
+                    value = redact_sumo_title(value)
+                cells.append(f'<td class="{"num" if numeric else ""}">{safe(value)}</td>')
+            rows += "<tr>" + "".join(cells) + "</tr>"
+        heads = "".join(f'<th class="{"num" if numeric else ""}">{label}</th>' for _, label, numeric in columns)
+        return f'<div class="panel"><table><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table></div>'
+
+    d_priorities = ((d_roland.get("llm") or {}).get("top_priorities") or [])[:6]
+    desktop_body = cards([
+        ("Questions", safe(d_questions), f'{(d_questions or 0) - (p.get("desktop_questions") or 0):+d} MoM', ""),
+        ("Solved Rate", f'{safe(d_sumo.get("overall_solved_rate"))}%', pts_delta(d_sumo.get("overall_solved_rate"), p.get("desktop_solved_rate")), ""),
+        ("Ignored", f'{safe(d_sumo.get("ignored_pct"))}%', pts_delta(d_sumo.get("ignored_pct"), p.get("desktop_ignored_pct")), ""),
+        ("Trusted contributor", f'{safe(d_sumo.get("trusted_contributor_pct"))}%', pts_delta(d_sumo.get("trusted_contributor_pct"), p.get("desktop_tc_pct")), ""),
+    ])
+    desktop_narrative = narrative.get("roland_desktop") or narrative.get("sumo_desktop_signal") or (d_roland.get("validation") or {}).get("note") or "Roland narrative not loaded."
+    desktop_body += f'<div class="takeaway">{safe_scan([desktop_narrative, (d_roland.get("validation") or {}).get("seasonal_spectrum", "")])}</div>'
+    if d_priorities:
+        desktop_body += drill("desktop-signals", f"{month_cap} engineering signals", roland_table(d_priorities, [("cluster", "Signal", False), ("aug", "Questions", True), ("resolved_pct", "Resolved %", True), ("known_status", "Read", False)]), f"{len(d_priorities)} clusters", True)
+
+    a_questions = a_sumo.get("total_questions")
+    android_forum_body = cards([
+        ("Questions", safe(a_questions), f'{(a_questions or 0) - (p.get("android_questions") or 0):+d} MoM', ""),
+        ("Solved Rate", f'{safe(a_sumo.get("overall_solved_rate"))}%', pts_delta(a_sumo.get("overall_solved_rate"), p.get("android_solved_rate")), ""),
+        ("Ignored", f'{safe(a_sumo.get("ignored_pct"))}%', pts_delta(a_sumo.get("ignored_pct"), p.get("android_ignored_pct")), ""),
+        ("Trusted contributor", f'{safe(a_sumo.get("trusted_contributor_pct"))}%', pts_delta(a_sumo.get("trusted_contributor_pct"), p.get("android_tc_pct")), ""),
+    ])
+    low_volume = (a_roland.get("project1") or {}).get("low_volume_caveat")
+    version_caveat = (a_roland.get("project1") or {}).get("version_data_caveat")
+    if low_volume or version_caveat:
+        android_forum_body += f'<div class="alert-panel">{scan([safe(low_volume), safe(version_caveat)])}</div>'
+    if narrative.get("roland_android") or narrative.get("sumo_android_signal"):
+        android_forum_body += f'<div class="takeaway">{safe_scan([narrative.get("roland_android") or narrative.get("sumo_android_signal")])}</div>'
+    if a_priorities:
+        android_forum_body += drill("sumo-android-clusters", "Top clusters · Roland AI read", roland_table(a_priorities[:6], [("cluster", "Cluster", False), ("aug", "Questions", True), ("severity", "Severity", True), ("resolved_pct", "Resolved %", True)]), f"{len(a_priorities[:6])} clusters", True)
+
+    if k9_discourse:
+        theme_rows = "".join(
+            f'<tr><td>{safe(name)}</td><td class="num">{count}</td></tr>'
+            for name, count in k9_discourse.get("top_themes", [])[:8]
+        )
+        k9_body = cards([
+            ("New topics", k9_discourse["total_topics"], month_cap, ""),
+            ("Accepted answer", f'{k9_discourse["solved_pct"]}%', "marked solutions", ""),
+            ("Unanswered", f'{k9_discourse["unanswered_pct"]}%', f'{k9_discourse.get("unanswered", "—")} topics', ""),
+            ("Top theme", safe(next(iter(k9_theme_map), "—")), safe(next(iter(k9_theme_map.values()), "—")), ""),
+        ])
+        k9_body += drill("k9-themes", "Top topic themes", f'<div class="panel"><table><thead><tr><th>Theme</th><th class="num">Topics</th></tr></thead><tbody>{theme_rows}</tbody></table></div>', f"{len(k9_theme_map)} themes", True)
+    else:
+        k9_body = '<div class="alert-panel">K-9 forum data unavailable for this run.</div>'
+
+    lede = narrative.get("lede") or f"{month_cap} support demand and product feedback, summarized across channels."
+    headline = narrative.get("dashboard_headline") or lede.split(". ")[0].rstrip(".")
+    masthead_highlights = safe_scan(narrative.get("masthead_highlights")) if narrative.get("masthead_highlights") else scan([
+        f'<strong>Overall CSAT:</strong> {safe(p.get("overall_csat"))}% → {safe(z.get("overall_csat"))}%',
+        f'<strong>Donor:</strong> {safe(p.get("donor_tickets"))} → {safe(z.get("donor_tickets"))} tickets · donation-appeal context is separated from ESR product signals',
+        f'<strong>Thundermail:</strong> {safe(p.get("tbpro_tickets"))} → {safe(z.get("tbpro_tickets"))} tickets',
+        f'<strong>Play Store:</strong> TB {analysis["tb_avg_rating"]:.2f}★ · K-9 {analysis["k9_avg_rating"]:.2f}★ · {safe(top_friction[0])} leads friction',
+        f'<strong>Desktop forum:</strong> {safe(d_questions)} questions · {safe(d_sumo.get("overall_solved_rate"))}% solved',
+        f'<strong>Engineering cross-check:</strong> {work_summary}',
+    ])
+
+    dist_tb = [analysis["rating_dist_tb"].get(str(i), 0) for i in range(1, 6)]
+    dist_k9 = [analysis["rating_dist_k9"].get(str(i), 0) for i in range(1, 6)]
+    sections = [
+        chapter(1, "donor", "Donor Care", "Donation demand and satisfaction", scan([
+            f'{safe(z.get("donor_tickets"))} tickets ({pct_delta(z.get("donor_tickets"), p.get("donor_tickets"))} MoM)',
+            f'{safe(z.get("donor_csat"))}% CSAT ({pts_delta(z.get("donor_csat"), p.get("donor_csat"))})',
+            donor_appeal,
+        ]), "Zendesk · donor brand", cards([
+            ("Donor CSAT", f'{safe(z.get("donor_csat"))}%', pts_delta(z.get("donor_csat"), p.get("donor_csat")), ""),
+            ("Donor tickets", safe(z.get("donor_tickets")), pct_delta(z.get("donor_tickets"), p.get("donor_tickets")), ""),
+            ("Share of volume", f'{round((z.get("donor_tickets") or 0)/(z.get("total_tickets") or 1)*100)}%', "all brands", ""),
+            ("All-brand volume", safe(z.get("total_tickets")), pct_delta(z.get("total_tickets"), p.get("total_tickets")), ""),
+        ]) + f'<div class="takeaway"><div class="takeaway__label">The read</div><p>{donor_appeal}</p></div>'),
+        chapter(2, "thundermail", "Thundermail", "Subscriber support and product ideas", scan([
+            f'{safe(z.get("tbpro_tickets"))} tickets ({pct_delta(z.get("tbpro_tickets"), p.get("tbpro_tickets"))} MoM)',
+            f'{safe(z.get("tbpro_csat"))}% CSAT',
+            f'{len(ideas.get("new_this_month", []))} new FeatureOS ideas',
+        ]), "Zendesk · FeatureOS board 17437", thundermail_body),
+        chapter(3, "android", "Android Reviews", "The rating and the pain behind it", scan([
+            f'Thunderbird {analysis["tb_avg_rating"]:.2f}★ ({tb_delta:+.2f}); K-9 {analysis["k9_avg_rating"]:.2f}★ ({k9_delta:+.2f})',
+            f'{safe(top_friction[0])} leads with {top_friction[1]["negative"]} negative mentions',
+            f'<a href="#overlap">Cross-channel overlap →</a>',
+        ]), f'{analysis["total_count"]} reviews · TB {analysis["tb_count"]} · K-9 {analysis["k9_count"]} · {analysis["unique_languages"]} languages', android_body),
+        chapter(4, "esr", "Desktop ESR · Donors + Forum", safe(esr_framing.get("headline") or "Donation appeals and desktop product signals need separate reads"), safe_scan(
+            esr_framing.get("bullets") or [
+                donor_appeal,
+                f'Desktop forum: {safe(d_questions)} questions; {safe(d_sumo.get("overall_solved_rate"))}% solved',
+                "Build regressions and provider recurrence are driven by Roland’s YAML slots.",
+            ]
+        ), "Zendesk donor brand · Roland SUMO desktop", esr_body),
+        chapter(5, "sumo-desktop", "Desktop Forum · SUMO", "Roland’s desktop engineering signals", scan([
+            safe(narrative.get("sumo_desktop_signal", "Desktop narrative is loaded from YAML.")),
+        ]), "Roland SUMO · desktop Thunderbird", desktop_body),
+        chapter(6, "sumo-android", "Android Forum · SUMO", "Small samples need explicit caveats", scan([
+            safe(narrative.get("sumo_android_signal", "Android narrative is loaded from YAML.")),
+        ]), "Roland SUMO · Thunderbird for Android", android_forum_body),
+        chapter(7, "k9-forum", "K-9 Forum · Discourse · TfA codebase", "A third entry point to Android support demand", scan([
+            f'{(k9_discourse or {}).get("total_topics", "—")} new topics',
+            "Read alongside Play Store and SUMO Android, not as a separate product.",
+        ]), f'forum.k9mail.app · all categories · {month_cap}', k9_body),
+    ]
+
+    rrr_raw = narrative.get("receive_resolve_resound") or ""
+    rrr_body = f'<div class="takeaway"><div class="takeaway__label">Monthly narrative</div><pre class="narrative-pre">{safe(rrr_raw)}</pre></div>'
+    sections.append(chapter(8, "rrr", "CX Framework", "Receive · Resolve · Resound", "How this month maps to Thunderbird Support’s action framework.", "Support Operations", rrr_body))
+
+    return f'''<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monthly Support Report · Thunderbird · {month_cap} {year}</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* CSS REGION: tokens — Bolt-aligned dark palette */
+:root{{--color-surface-base:#0d0c14;--color-surface-lower:#08070f;--color-surface-raised:#15131e;--color-surface-border:#2b2845;--color-text-base:#e8e6f2;--color-text-secondary:#b8b5ca;--color-text-muted:#8a87a6;--color-primary:#6d8bff;--color-success:#34d27b;--color-critical:#ff5a5a;--c-donor:#55c98a;--c-thundermail:#8f7cff;--c-android:#ff8a3d;--c-esr:#3aa9f0;--c-sumo-desktop:#4fc3f7;--c-sumo-android:#31d2b3;--c-k9-forum:#b794ff;--c-rrr:#f3c969;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--radius-sm:6px;--radius-md:10px;--font-sans:'Inter',sans-serif;--font-mono:'SFMono-Regular',Consolas,monospace}}
+*{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:var(--color-surface-base);color:var(--color-text-base);font:14px/1.55 var(--font-sans)}}a{{color:var(--color-primary);text-decoration:none}}a:hover{{text-decoration:underline}}button{{font:inherit}}.wrap{{width:min(1180px,calc(100% - 32px));margin:auto}}.muted,.tbl-muted,.footnote,.tbl-sub{{color:var(--color-text-muted)}}.num{{text-align:right;font-variant-numeric:tabular-nums}}.tbl-strong{{font-weight:700}}
+/* CSS REGION: layout */
+.topbar{{position:sticky;top:0;z-index:20;background:var(--color-surface-lower);border-bottom:1px solid var(--color-surface-border)}}.topbar__inner{{width:min(1180px,calc(100% - 32px));margin:auto;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px}}.topbar__brand{{font-weight:700;color:var(--color-text-base)}}.topbar__nav,.nav-group{{display:flex;align-items:center;gap:5px;overflow:auto}}.topbar__nav a{{color:var(--color-text-muted);font-size:.75rem;padding:7px;white-space:nowrap}}.topbar__nav a.is-active{{color:var(--color-text-base);background:var(--color-surface-raised)}}.nav-group{{border:1px solid var(--c-android);border-radius:99px;padding:2px 5px}}.nav-group__lbl,.filter-group__lbl{{font-size:.62rem;font-weight:700;text-transform:uppercase;color:var(--c-android);white-space:nowrap}}.dot{{width:7px;height:7px;display:inline-block;border-radius:50%;margin-right:5px}}
+.masthead{{padding:var(--space-48) 0 var(--space-32);border-bottom:1px solid var(--color-surface-border)}}.nameplate{{display:flex;justify-content:space-between;border-bottom:1px solid var(--color-surface-border);padding-bottom:24px}}.nameplate__title,.eyebrow,.chapter__kicker,.takeaway__label,.panel__title{{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}}.nameplate__issue{{font: .72rem var(--font-mono);color:var(--color-text-muted);text-align:right}}.masthead__quarter,.panel,.takeaway,.alert-panel,.method-panel,.figure__frame{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}.masthead__quarter{{margin:24px 0}}.eyebrow{{color:var(--color-primary)}}.masthead__headline{{font-size:clamp(2rem,5vw,4.15rem);line-height:1.02;letter-spacing:-.045em;max-width:980px}}.scan-list{{margin:0;padding-left:1.15rem;display:grid;gap:8px}}.ribbon{{background:var(--color-surface-lower);padding:24px 0}}.ribbon__grid,.stat-grid{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}.figure-stat,.stat-card{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-top:3px solid var(--chapter-color,var(--color-primary));border-radius:var(--radius-md);padding:16px}}.figure-stat__val,.stat-card__val{{font-size:1.7rem;font-weight:700}}.figure-stat__lbl,.stat-card__lbl,.figure-stat__delta,.stat-card__delta{{font-size:.7rem;color:var(--color-text-muted)}}.lead{{padding:32px 0}}.lead__grid,.two-col{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart-wrap{{height:260px}}
+.filterbar{{position:sticky;top:52px;z-index:15;display:flex;align-items:center;gap:8px;overflow:auto;padding:12px 0;background:var(--color-surface-base);border-bottom:1px solid var(--color-surface-border)}}.filter-btn{{border:1px solid var(--color-surface-border);background:var(--color-surface-raised);color:var(--color-text-secondary);border-radius:99px;padding:6px 10px;white-space:nowrap;cursor:pointer}}.filter-btn.is-active{{border-color:var(--color-primary);color:var(--color-text-base)}}.filter-group{{display:flex;align-items:center;gap:8px;border:1px dashed var(--c-android);border-radius:99px;padding:4px 8px}}.drill-toggle{{margin-left:auto}}.chapter{{padding:48px 0;border-bottom:1px solid var(--color-surface-border);scroll-margin-top:112px}}.chapter__head{{display:grid;grid-template-columns:56px 1fr;gap:16px;margin-bottom:24px}}.chapter__num{{font-family:var(--font-mono);color:var(--chapter-color)}}.chapter__kicker{{color:var(--chapter-color)}}.chapter__title{{font-size:clamp(1.55rem,3vw,2.5rem);line-height:1.1;margin:8px 0}}.chapter__standfirst{{color:var(--color-text-secondary);max-width:900px}}.panel{{overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:.82rem}}th{{text-align:left;color:var(--color-text-muted);font-size:.67rem;text-transform:uppercase;padding:9px 10px;border-bottom:1px solid var(--color-surface-border)}}td{{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-align:top}}.ideas{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}}.idea-chip{{display:grid;grid-template-columns:auto 1fr;gap:2px 9px;padding:12px;border:1px solid var(--color-surface-border);border-radius:6px}}.idea-chip__votes{{grid-row:1/3;color:var(--c-thundermail);font-family:var(--font-mono);font-weight:700}}.idea-chip__tag{{font-size:.67rem;color:var(--color-text-muted)}}
+.friction{{display:grid;gap:8px}}.friction-item{{display:grid;grid-template-columns:38px 1fr 72px;gap:12px;align-items:center;padding:16px;border:1px solid var(--color-surface-border);border-radius:10px;background:var(--color-surface-raised)}}.friction-item--lead{{border-color:var(--color-critical)}}.friction-item__meta{{display:flex;flex-wrap:wrap;gap:4px 15px;font-size:.75rem;color:var(--color-text-secondary)}}.friction-item__neg{{font-size:1.65rem;font-weight:700;text-align:right}}.friction-item__neg-lbl{{text-align:right;font-size:.65rem;color:var(--color-text-muted)}}.takeaway,.alert-panel,.method-panel{{border-left:3px solid var(--chapter-color,var(--color-primary));margin-top:16px}}.narrative-pre{{white-space:pre-wrap;font:inherit;color:var(--color-text-secondary)}}
+/* CSS REGION: accordions */
+.drill{{margin:32px 0 12px;border:1px solid var(--color-surface-border);border-radius:10px;background:var(--color-surface-lower);scroll-margin-top:112px}}.drill>summary{{cursor:pointer;padding:12px 16px;color:var(--chapter-color,var(--color-primary));font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;list-style:none}}.drill>summary::before{{content:"▸";display:inline-block;width:1.1em}}.drill[open]>summary::before{{content:"▾"}}.drill__hint{{margin-left:8px;font-weight:500;text-transform:none;letter-spacing:0;color:var(--color-text-muted)}}.drill__body{{padding:0 16px 16px}}.colophon{{padding:32px 0 64px}}
+@media(max-width:800px){{.topbar__nav .lbl,.nav-group__lbl{{display:none}}.ribbon__grid,.stat-grid{{grid-template-columns:repeat(2,1fr)}}.lead__grid,.two-col{{grid-template-columns:1fr}}.ideas{{grid-template-columns:1fr 1fr}}}}@media(max-width:480px){{.ribbon__grid,.stat-grid,.ideas{{grid-template-columns:1fr}}}}
+</style></head><body>
+<!-- SECTION: topbar --><div class="topbar"><div class="topbar__inner"><a class="topbar__brand" href="#top">Briefing · {month_cap} {year}</a><nav class="topbar__nav" aria-label="Sections">
+<a href="#donor" data-nav="donor"><span class="dot" style="background:var(--c-donor)"></span><span class="lbl">Donor</span></a><a href="#thundermail" data-nav="thundermail"><span class="dot" style="background:var(--c-thundermail)"></span><span class="lbl">Thundermail</span></a>
+<span class="nav-group"><span class="nav-group__lbl">Android · TfA</span><a href="#android" data-nav="android">Reviews</a><a href="#sumo-android" data-nav="sumo-android">SUMO</a><a href="#k9-forum" data-nav="k9-forum">K-9</a></span>
+<a href="#esr" data-nav="esr">ESR</a><a href="#sumo-desktop" data-nav="sumo-desktop">Desktop</a><a href="#rrr" data-nav="rrr">RRR</a></nav></div></div><a id="top"></a>
+<main><!-- SECTION: masthead --><header class="masthead"><div class="wrap"><div class="nameplate"><div class="nameplate__title">Monthly Support Report</div><div class="nameplate__issue">Thunderbird Support<br>{month_cap} {year}</div></div>
+<div class="masthead__quarter"><div class="eyebrow">{month_cap} · {safe(config.get("prev_month"))} baseline</div>{masthead_highlights}</div>
+<p class="eyebrow">Support Operations · Month in Review</p><h1 class="masthead__headline">{safe(headline)}</h1><p>{safe(lede)}</p><p><a href="{report_url}" target="_blank">Full report on GitHub →</a></p><p class="footnote">Generated {today} · customer content redacted or paraphrased before write</p></div></header>
+<!-- SECTION: ribbon --><section class="ribbon"><div class="wrap"><div class="ribbon__grid">
+<div class="figure-stat"><div class="figure-stat__val">{safe(z.get("total_tickets"))}</div><div class="figure-stat__lbl">Total tickets</div><div class="figure-stat__delta">{pct_delta(z.get("total_tickets"),p.get("total_tickets"))} MoM</div></div>
+<div class="figure-stat"><div class="figure-stat__val">{safe(z.get("overall_csat"))}%</div><div class="figure-stat__lbl">Overall CSAT</div><div class="figure-stat__delta">{pts_delta(z.get("overall_csat"),p.get("overall_csat"))}</div></div>
+<div class="figure-stat"><div class="figure-stat__val">{safe(z.get("donor_tickets"))}</div><div class="figure-stat__lbl">Donor tickets</div><div class="figure-stat__delta">{safe(donor_appeal)}</div></div>
+<div class="figure-stat"><div class="figure-stat__val">{analysis["total_count"]}</div><div class="figure-stat__lbl">Play Store reviews</div><div class="figure-stat__delta">{analysis["unique_languages"]} languages</div></div>
+</div></div></section>
+<!-- SECTION: lead --><section class="lead"><div class="wrap"><div class="lead__grid"><figure><div class="figure__frame"><div class="chart-wrap"><canvas id="ratingTrendChart"></canvas></div></div><figcaption class="footnote">Monthly Play Store averages; dashed line = 4★ goal.</figcaption></figure><div class="takeaway"><div class="takeaway__label">What we are asking for</div>{scan([f"Prioritize {safe(top_friction[0])}, the largest measured review pain.", f"Use the live GitHub cross-check: {work_summary}.", "Investigate cross-channel signals before isolated single-channel counts."])}</div></div></div></section>
+<!-- SECTION: filterbar --><div class="wrap"><div class="filterbar"><button class="filter-btn is-active" data-filter="all">All sections</button><button class="filter-btn" data-filter="donor">Donor Care</button><button class="filter-btn" data-filter="thundermail">Thundermail</button><span class="filter-group"><span class="filter-group__lbl">Android · TfA</span><button class="filter-btn" data-filter="android-all">All Android</button><button class="filter-btn" data-filter="android">Reviews</button><button class="filter-btn" data-filter="sumo-android">SUMO</button><button class="filter-btn" data-filter="k9-forum">K-9</button></span><button class="filter-btn" data-filter="esr">Desktop ESR</button><button class="filter-btn" data-filter="sumo-desktop">Desktop Forum</button><button class="filter-btn drill-toggle" id="drillToggleAll">Expand all</button></div></div>
+<div class="wrap">{"".join(sections)}<!-- SECTION: colophon --><footer class="colophon" data-filter-target="all-only"><p class="footnote">Sources: Zendesk KPI inputs · Play Console GCS export · FeatureOS · Roland SUMO reports · K-9 Discourse · live thunderbird-android GitHub merge report. User-facing product name: Thundermail.</p></footer></div></main>
+<script>
+/* SECTION SCRIPT: persistent accordions */
+(function(){{const KEY='tb-report-accordion:{month_prefix}';const drills=[...document.querySelectorAll('details.drill[data-drill]')];function read(){{try{{return JSON.parse(localStorage.getItem(KEY))||{{}}}}catch(e){{return {{}}}}}}const state=read();function persist(){{drills.forEach(d=>state[d.dataset.drill]=d.open?1:0);try{{localStorage.setItem(KEY,JSON.stringify(state))}}catch(e){{}}const b=document.getElementById('drillToggleAll');if(b)b.textContent=drills.some(d=>!d.open)?'Expand all':'Collapse all'}}drills.forEach(d=>{{if(state[d.dataset.drill]===0||state[d.dataset.drill]===1)d.open=state[d.dataset.drill]===1;d.addEventListener('toggle',persist)}});document.getElementById('drillToggleAll').addEventListener('click',()=>{{const open=drills.some(d=>!d.open);drills.forEach(d=>d.open=open);persist()}});window.openDrillAncestors=function(el){{for(let n=el;n&&n!==document.body;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;persist()}};persist()}})();
+/* SECTION SCRIPT: filter and hash navigation */
+(function(){{const buttons=[...document.querySelectorAll('.filter-btn[data-filter]')];const GROUPS={{'android-all':['android','sumo-android','k9-forum']}},GROUP_ANCHOR={{'android-all':'android'}};function apply(key){{buttons.forEach(b=>b.classList.toggle('is-active',b.dataset.filter===key));document.querySelectorAll('[data-filter-target]').forEach(s=>{{const t=s.dataset.filterTarget;s.style.display=key==='all'||t===key||(GROUPS[key]||[]).includes(t)?'':'none'}})}}function setHash(h){{try{{history.replaceState(null,'',h)}}catch(e){{}}}}buttons.forEach(b=>b.addEventListener('click',()=>{{apply(b.dataset.filter);setHash('#'+(b.dataset.filter==='all'?'':b.dataset.filter))}}));document.addEventListener('click',e=>{{const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;const el=document.getElementById(a.hash.slice(1));if(!el)return;e.preventDefault();apply('all');window.openDrillAncestors(el);el.scrollIntoView();setHash(a.hash)}});function openHash(){{const h=location.hash.slice(1);if(!h)return;const el=document.getElementById(h);if(el){{apply('all');window.openDrillAncestors(el);el.scrollIntoView()}}else if(GROUPS[h]){{apply(h);const first=document.getElementById(GROUP_ANCHOR[h]);if(first)first.scrollIntoView()}}}}openHash();addEventListener('hashchange',openHash)}})();
+/* Charts */
+const GRID='#2b2845',TICK='#8a87a6';new Chart(document.getElementById('ratingTrendChart'),{{type:'line',data:{{labels:['{safe(config.get("prev_month"))}','{month_cap}'],datasets:[{{label:'Thunderbird',data:[{p.get("tb_avg_rating") or "null"},{analysis["tb_avg_rating"]}],borderColor:'#ff8a3d'}},{{label:'K-9',data:[{p.get("k9_avg_rating") or "null"},{analysis["k9_avg_rating"]}],borderColor:'#b794ff'}},{{label:'4★ goal',data:[4,4],borderColor:'#34d27b',borderDash:[6,5]}}]}},options:{{responsive:true,maintainAspectRatio:false,scales:{{x:{{ticks:{{color:TICK}},grid:{{color:GRID}}}},y:{{min:2.8,max:4.1,ticks:{{color:TICK}},grid:{{color:GRID}}}}}}}}}});function star(id,data,color){{new Chart(document.getElementById(id),{{type:'bar',data:{{labels:['1★','2★','3★','4★','5★'],datasets:[{{data,backgroundColor:['#ff5a5a','#ff8a3d','#f5a623','#34d27b',color]}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{legend:{{display:false}}}}}}}})}}star('tbStarChart',{json.dumps(dist_tb)},'#6d8bff');star('k9StarChart',{json.dumps(dist_k9)},'#b794ff');
+</script></body></html>'''
+
+
 # ── CSV Export ────────────────────────────────────────────────────────────────
 
 def build_csv(config, analysis, month_cap, year):
@@ -2038,10 +2577,16 @@ def push_to_notion(config, analysis, month_cap, year):
 
 def main():
     if len(sys.argv) < 3:
-        sys.exit("Usage: uv run scripts/generate.py <month> <year>\nExample: uv run scripts/generate.py april 2026")
+        sys.exit("Usage: uv run scripts/generate.py <month> <year> [--preview-html /tmp/report.html]\nExample: uv run scripts/generate.py april 2026")
 
     month = sys.argv[1].lower()
     year  = sys.argv[2]
+    preview_html = None
+    if "--preview-html" in sys.argv[3:]:
+        try:
+            preview_html = Path(sys.argv[sys.argv.index("--preview-html") + 1]).expanduser()
+        except (ValueError, IndexError):
+            sys.exit("--preview-html requires an output path")
     month_cap = month.capitalize()
 
     if month not in MONTH_NUMS:
@@ -2060,6 +2605,12 @@ def main():
 
     config = yaml.safe_load(config_path.read_text())
     print(f"✓ Config loaded: {config_path}")
+    if (str(year), month) in FROZEN_REPORTS and not preview_html:
+        sys.exit(
+            f"{month_cap} {year} is frozen and cannot be regenerated. "
+            "Use --preview-html /tmp/report.html to test the template without touching it."
+        )
+    validate_newsletter_config(config, strict=not preview_html)
 
     # Load history and derive prev + history_neg automatically
     history = load_history(BASE)
@@ -2092,7 +2643,7 @@ def main():
 
     # A skipped report must not leave the next month without a pairing baseline.
     # Ensure both the report month and its previous month are present before analysis.
-    ensure_play_store_csvs(BASE, month, year)
+    ensure_play_store_csvs(BASE, month, year, fetch_missing=not preview_html)
 
     # Analyze CSVs
     print(f"  Analyzing Play Store CSVs ({month_prefix})…")
@@ -2101,6 +2652,32 @@ def main():
     if config.get('zendesk', {}).get('replies_to_low_star'):
         analysis['replies_to_low_star'] = config['zendesk']['replies_to_low_star']
     print(f"  TB: {analysis['tb_count']} reviews  K-9: {analysis['k9_count']} reviews")
+
+    # Preview mode is intentionally side-effect free inside the repository: it does not
+    # write monthly outputs, redirects, history, index.md, or Notion. It is the safe way
+    # to test a frozen month's YAML against a new layout.
+    if preview_html:
+        from datetime import date
+        cached = (history or {}).get(month_prefix, {}).get("k9_discourse") or {}
+        cached_k9 = None
+        if cached.get("total_topics"):
+            cached_k9 = {
+                "total_topics": cached["total_topics"],
+                "solved_pct": cached.get("solved_pct", 0),
+                "unanswered": round(cached["total_topics"] * cached.get("unanswered_pct", 0) / 100),
+                "unanswered_pct": cached.get("unanswered_pct", 0),
+                "top_themes": list((cached.get("themes") or {}).items()),
+            }
+        preview_html.parent.mkdir(parents=True, exist_ok=True)
+        preview_html.write_text(
+            build_dashboard(
+                config, analysis, month_cap, year, date.today().isoformat(),
+                prev_entry.get("tbpro_ideas", {}) if prev_entry else {},
+                cached_k9, history,
+            )
+        )
+        print(f"✓ Safe HTML preview: {preview_html}")
+        return
 
     # Save analysis JSON
     json_path = out_dir / f'{month}_analysis.json'

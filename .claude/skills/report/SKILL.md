@@ -63,29 +63,69 @@ Check for:
 
 ## Step 4 — Run the generator
 
+Before generation, put qualitative copy in `data/$month_$year.yaml`. The newsletter
+generator refuses to publish a future month when required narrative fields are absent:
+
+```yaml
+methodology_notes:
+  - "Source or comparison caveat."
+zendesk:
+  tbpro_csat_note: null  # or a short low-sample / product-policy note
+narrative:
+  dashboard_headline: "Short, specific newsletter headline."
+  lede: "Two or three sentences for the report and newsletter."
+  masthead_highlights:
+    - "One scannable monthly signal."
+  esr_framing:
+    headline: "How donor demand and desktop release signals relate."
+    donor_context: "Explain donor-brand volume without calling it ESR-topic volume."
+    bullets: ["ESR summary signal."]
+    scope_notes: ["What these numbers do and do not measure."]
+  overlap_notes:
+    intro: "How to compare the three Thunderbird for Android channels."
+    rows:
+      - signal: "Signal name"
+        play_store: "review count/read"
+        sumo_android: "question count/read"
+        k9_forum: "topic count/read"
+        read: "Interpretation; never sum channel counts."
+    footnote: "Sample-size or source caveat."
+  github_alignment:
+    headline: "Feedback vs this month's GitHub work"
+    assessment: "Overall alignment read."
+    bullets: ["Specific gap or aligned work."]
+  roland_desktop: "Desktop SUMO narrative from Roland's current reports."
+  roland_android: "Android SUMO narrative, including low-volume caveats."
+  receive_resolve_resound: |
+    Monthly RRR copy.
+```
+
 ```
 uv run scripts/generate.py $month $year
 ```
 
-This auto-populates:
+This emits the approved August-style newsletter and auto-populates:
 - Friction point quotes, devices, languages (from CSVs)
 - K-9 Discourse forum data (fetched live)
 - 3-month trends for friction points and SUMO metrics
+- Android · TfA grouping, ESR, overlap, and GitHub work-vs-feedback sections
+- Persistent month-scoped accordions and hash-aware filters
 - History updated in `data/history.json`
+
+For a side-effect-free HTML template test, including against frozen August:
+```
+uv run scripts/generate.py $month $year --preview-html /tmp/$month.html
+```
+Preview mode writes only the named path; it does not write reports, redirects, history,
+`index.md`, or Notion. Normal August generation is blocked because its send copy is frozen.
 
 ---
 
-## Step 5 — Fill in remaining narrative sections
+## Step 5 — Review qualitative output
 
-These cannot be auto-populated — fill in `reports/monthly/$year/$month.md`:
-
-1. **Lede** — 2-3 sentences. What's the headline story? CSAT trend, volume surge, K-9 signal, etc.
-2. **Community Support key signals** — `[Key signal from Roland's data]` and `[Key signal]` placeholders
-3. **Meeting 4★+ Goal bullets** — 3 priorities with stats, trends, and why they matter
-4. **Receive / Resolve / Resound** — what came in, what worked, what to celebrate
-5. **Experiments & Iterations** — Lisa fills in manually
-
-Check the K-9 Discourse data and Play Store K-9 analysis for signals worth calling out in the lede or K-9 Churn Watch section.
+Review the generated HTML and Markdown against the YAML. Fix qualitative copy in YAML and
+regenerate; do not hand-tune generated HTML. Check the K-9 Discourse and Play Store analysis
+for signals worth calling out in the lede, overlap notes, or K-9 churn watch.
 
 ---
 

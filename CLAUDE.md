@@ -61,17 +61,25 @@ Copy the previous month's YAML, update `month`, `year`, `month_num`, `prev_month
 CSV filenames, and move all `zendesk` values into `prev`. Leave `zendesk` fields as `null`.
 Update `history_neg` by appending last month's negative mention counts.
 
-### Planned — monthly report redesign *(direction chosen — sample gate still active)*
+### Monthly newsletter template *(layout gate closed)*
 
-**Lisa chose restrained (Jun 2026):** Inter-only operational dashboard layout — easier to scan than the editorial/magazine serif variant. Working prototype: `lisa/2026/june_sample_restrained.html`. August live newsletter (`reports/monthly/2026/august.html`) is the approved layout; do not regenerate it from `generate.py` until that template is ported without wiping qualitative copy.
+**Lisa chose restrained (Jun 2026), and the layout shipped in August:** `scripts/generate.py`
+now owns the Inter-only operational newsletter template. Future months use the generator;
+qualitative copy belongs in `data/<month>_<year>.yaml`, not hand-edited generated HTML.
+The August live newsletter (`reports/monthly/2026/august.html`) is the frozen send copy and
+must never be regenerated. The generator enforces that freeze.
 
 Same playbook as the launch overview sample (`lisa/daily/launch_overview_sample.html`):
 - **Bolt tokens**, dark mode, accessible hierarchy
 - **Paraphrase / redact PII** in all customer-facing quotes and ticket text
 - **Scannable copy** — no essay blocks in masthead/lede; use `.masthead__highlights` + `.scan-list` (see `.cursor/rules/tbpro-copy-tone.mdc` → *Scannable copy*)
-- **Reimagined layout from scratch** — not an incremental patch on `generate.py` output
+- **Generated layout** — masthead, Android · TfA group, ESR, cross-channel overlap,
+  GitHub work-vs-feedback, Roland SUMO slots, and persistent accordions live in `generate.py`
 
-**Sample gate:** the August newsletter is published by hand in `reports/monthly/`. Do **not** overwrite it with the old generator layout. `lisa/<year>/` is the frozen archive (March–June) plus redirect stubs for current-cycle reports.
+**Layout sample gate is closed.** Qualitative review still happens in YAML. Required fields
+are documented in `.claude/skills/report/SKILL.md`; generation fails when future-month
+qualitative fields are missing. To test the template against a frozen month without repo
+writes, use `uv run scripts/generate.py august 2026 --preview-html /tmp/august.html`.
 
 **Never modify archived monthly reports.** Prior months in `lisa/YYYY/` (March–June 2026) are frozen once published — read-only references for voice, layout, and drill-down patterns. Current-cycle reports live in `reports/monthly/<year>/` (matching `reports/tbpro/`). Do not edit:
 - Published dashboards: `march.html`, `april.html`, `may.html`, … (any month before the current reporting cycle)
