@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 12:24 ET** · refreshes hourly_  
+_Updated: **2026-09-11 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 33** of rollout — **35,000 invitees**, **383 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 33** of rollout — **35,000 invitees**, **385 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **4** solved in last 24h
-- **383** tickets total since launch · contact rate **1%** of 35000 invitees
+- **10** new tickets in last 24h · **7** solved in last 24h
+- **385** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 47
-- **Median AHT**: 133.1h · mean 148.3h (proxy: updated_at − created_at, 294 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 45
+- **Median AHT**: 132.6h · mean 147.8h (proxy: updated_at − created_at, 296 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nouveaux mots"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"nouveaux mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -73,16 +73,17 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
   - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09 · _Cancel subscription_
   - [#8568](https://tbpro.zendesk.com/agent/tickets/8568) · [pending] · 2026-09-10 · _Not what I thought..._
-  - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [open] · 2026-09-10 · _Refund Thundermail_
+  - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [solved] · 2026-09-10 · _Refund Thundermail_
   - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
   - [#8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11 · _Subscription cancellation_
 
-## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
+## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8399](https://tbpro.zendesk.com/agent/tickets/8399) → [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Alias and Pro Email Address_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
+- 🔧 [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
 - 🔧 [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
 - ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
 - ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
@@ -142,25 +143,25 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 **Last 24h** — 3 new:
 
-- [Minor privacy issue](https://ideas.tb.pro/p/minor-privacy-issue) · 1 votes · _untagged_
+- [Minor privacy issue](https://ideas.tb.pro/p/minor-privacy-issue) · 1 votes · _Privacy & Security, Accounts & Subscriptions, Improvement_
   > What you’d like to seeBriefly describe the feature or improvement.Potentially move email into POST or a tocken instead of in a URL paramater (in relation to the early acces sign up link)Why it…
-- [button to easy Add to contacts or Copy to clipboard the *from email address*](https://ideas.tb.pro/p/button-to-easy-add-to-contacts-or-copy-to-clipboard-the-from-email-address) · 1 votes · _untagged_
+- [button to easy Add to contacts or Copy to clipboard the *from email address*](https://ideas.tb.pro/p/button-to-easy-add-to-contacts-or-copy-to-clipboard-the-from-email-address) · 1 votes · _Thundermail, New Feature, Webmail_
   > What you’d like to seeBriefly describe the feature or improvement.Add a button-icon copy , in the email view to easy copy email address into a contact or just copy to clipboardWhy it mattersWhat…
-- [Appointment Location](https://ideas.tb.pro/p/appointment-location) · 1 votes · _untagged_
+- [Appointment Location](https://ideas.tb.pro/p/appointment-location) · 1 votes · _Appointment, New Feature_
   > What you’d like to seeBriefly describe the feature or improvement.The ability to set a physical address for appointments. Why it mattersWhat problem does this solve, or what benefit does it bring?Not…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 294
-- **pending**: 75
-- **open**: 9
+- **solved**: 296
+- **pending**: 77
+- **open**: 7
 - **hold**: 4
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 225
-- **Thundermail**: 122
+- **Account Hub**: 226
+- **Thundermail**: 124
 - **Appointment**: 8
 - **Send**: 8
 
@@ -169,9 +170,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 96
-- **blocked** + **explained**: 65
+- **blocked** + **explained**: 66
 - **change request** + **actioned**: 57
-- **blocked** + **investigated**: 18
+- **blocked** + **investigated**: 19
 - **request** + **redirected**: 16
 - **curious** + **informed**: 16
 - **confused** + **explained**: 15
@@ -210,26 +211,39 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 2 tickets
 
 - **[#8608](https://tbpro.zendesk.com/agent/tickets/8608)** · mot de passe
-  > nouveaux mots de passe
-- **[#8607](https://tbpro.zendesk.com/agent/tickets/8607)** · je me souvien plus du mots de passe principal
   > nouveaux mots de passe
 - **[#8592](https://tbpro.zendesk.com/agent/tickets/8592)** · HmFLwJePWfkaXDjADGh — why: **curious** · how: **explained**
   > WqWpaBfvuSNcRVBJIQlfsmP
 
 ### Aliases — 2 tickets
 
-- **[#8605](https://tbpro.zendesk.com/agent/tickets/8605)** · Problem with sending emails
+- **[#8605](https://tbpro.zendesk.com/agent/tickets/8605)** · Problem with sending emails — why: **blocked** · how: **investigated**
   > I tried to send some e mails from my thunderbird account and custom domain aliases to my thundermail accounts and to other accounts outside thundermail domain but the accounts i…
 - **[#8599](https://tbpro.zendesk.com/agent/tickets/8599)** · Subscription cancellation — why: **change request** · how: **actioned**
   > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8611](https://tbpro.zendesk.com/agent/tickets/8611)** · can't verify custom domain
+  > i have a custom domain with squarespace. When I go to enter the thundermail dns records with the registrar//host squarespace, It will not let me save any hostname that ends with a…
+
+### Webmail — 1 tickets
+
+- **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail
+  > Dear [name], under https://[domain]/ are shown two accounts, my own ([email]) and the account of my wife ([email]), please see attached screenshot 1. If I log in to my wifes…
 
 ### Account access issues — 1 tickets
 
 - **[#8606](https://tbpro.zendesk.com/agent/tickets/8606)** · my e-mail address
   > I can not access my e-mail address because my computer crashed and i have it working again but had to reinstall everything and now i would like to be able to access [email] I…
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#8607](https://tbpro.zendesk.com/agent/tickets/8607)** · je me souvien plus du mots de passe principal — why: **blocked** · how: **explained**
+  > nouveaux mots de passe
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -247,10 +261,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8592](https://tbpro.zendesk.com/agent/tickets/8592) · [pending] · 2026-09-10T23:30 · HmFLwJePWfkaXDjADGh
 - [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10T23:39 · Please help me to seek a refund and to cancel
 - [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11T08:13 · Subscription cancellation
-- [8605](https://tbpro.zendesk.com/agent/tickets/8605) · [open] · 2026-09-11T14:40 · Problem with sending emails
+- [8605](https://tbpro.zendesk.com/agent/tickets/8605) · [pending] · 2026-09-11T14:40 · Problem with sending emails
 - [8606](https://tbpro.zendesk.com/agent/tickets/8606) · [open] · 2026-09-11T15:01 · my e-mail address
-- [8607](https://tbpro.zendesk.com/agent/tickets/8607) · [open] · 2026-09-11T15:22 · je me souvien plus du mots de passe principal
+- [8607](https://tbpro.zendesk.com/agent/tickets/8607) · [pending] · 2026-09-11T15:22 · je me souvien plus du mots de passe principal
 - [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [open] · 2026-09-11T15:26 · mot de passe
+- [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [open] · 2026-09-11T16:52 · Removal of account in webmail
+- [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [open] · 2026-09-11T17:14 · can't verify custom domain
 
 ## Solved — last 24h
 
@@ -258,6 +274,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-10T21:13 · Create new address book?
 - · [8010](https://tbpro.zendesk.com/agent/tickets/8010) · 2026-09-11T04:01 · Display name not carried through from sign up
 - · [8501](https://tbpro.zendesk.com/agent/tickets/8501) · 2026-09-11T16:07 · Server
+- · [8520](https://tbpro.zendesk.com/agent/tickets/8520) · 2026-09-11T17:02 · Unable to log in to Thundermail – password reset email not received
+- · [8577](https://tbpro.zendesk.com/agent/tickets/8577) · 2026-09-11T17:13 · Refund Thundermail
+- · [8484](https://tbpro.zendesk.com/agent/tickets/8484) · 2026-09-11T17:14 · Account encryption
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
