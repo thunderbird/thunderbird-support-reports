@@ -82,12 +82,11 @@ July's QR / Settings Import spike cooled from 25 negative mentions to 3.
 ---
 ## What's Coming Up
 
-**Thunderbolt in the support workflow** — in progress with the Thunderbolt team, nothing in front of customers yet.
+**AI support, in progress — not in front of customers yet.**
 
-- **AI takes the research layer:** lookup, pulling context, and drafting the background a rep needs before they reply.
-- **Reps stay on the customer:** the conversation, the judgment, and the tone stay human. The win is less time assembling context, not fewer people answering.
-
-*Related thread, later: point the same work at Zendesk volume against Roland's SUMO keyword spikes, to see whether desktop provider and regression clusters show up in tickets first.*
+- **Reps stay on the customer.** Conversation, judgment, and tone stay human.
+- **AI takes the research layer:** lookup, context, and the background a rep needs before they reply.
+- **Thunderbolt is the notable piece:** it will use confidential compute for that research layer — privacy-preserving compute, so ticket context stays protected while AI does the lookup. Working with the Thunderbolt team.
 
 ---
 ## Data Access
