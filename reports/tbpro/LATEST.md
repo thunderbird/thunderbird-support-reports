@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 18:20 ET** · refreshes hourly_  
+_Updated: **2026-09-11 19:18 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **387 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"nouveaux mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -229,11 +229,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8599](https://tbpro.zendesk.com/agent/tickets/8599)** · Subscription cancellation — why: **change request** · how: **actioned**
   > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating…
 
-### Webmail — 1 tickets
-
-- **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail — why: **confused** · how: **informed**
-  > Dear [name], under https://[domain]/ are shown two accounts, my own ([email]) and the account of my wife ([email]), please see attached screenshot 1. If I log in to my wifes…
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8613](https://tbpro.zendesk.com/agent/tickets/8613)** · Checking Email with an Email Archiver — why: **confused** · how: **informed**
@@ -243,6 +238,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8611](https://tbpro.zendesk.com/agent/tickets/8611)** · can't verify custom domain — why: **blocked** · how: **explained**
   > i have a custom domain with squarespace. When I go to enter the thundermail dns records with the registrar//host squarespace, It will not let me save any hostname that ends with a…
+
+### Webmail — 1 tickets
+
+- **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail — why: **confused** · how: **informed**
+  > Dear [name], under https://[domain]/ are shown two accounts, my own ([email]) and the account of my wife ([email]), please see attached screenshot 1. If I log in to my wifes…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -274,7 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8606](https://tbpro.zendesk.com/agent/tickets/8606) · [pending] · 2026-09-11T15:01 · my e-mail address
 - [8607](https://tbpro.zendesk.com/agent/tickets/8607) · [pending] · 2026-09-11T15:22 · je me souvien plus du mots de passe principal
 - [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [pending] · 2026-09-11T15:26 · mot de passe
-- [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [open] · 2026-09-11T16:52 · Removal of account in webmail
+- [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [pending] · 2026-09-11T16:52 · Removal of account in webmail
 - [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [pending] · 2026-09-11T17:14 · can't verify custom domain
 - [8613](https://tbpro.zendesk.com/agent/tickets/8613) · [pending] · 2026-09-11T17:43 · Checking Email with an Email Archiver
 
