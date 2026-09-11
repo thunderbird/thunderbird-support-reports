@@ -1,132 +1,93 @@
 # August 2026 — Monthly Support Report
 
-> **[→ View dashboard](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html)**
+> **[→ View dashboard](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html)** — every table, per-cluster breakdown, and methodology note lives there.
 
-> July full dashboard skipped; MoM uses Lisa's 8/31 KPI baseline.
+> July's full dashboard was skipped; all MoM comparisons use Lisa's 8/31 KPI note as the July baseline.
 
-Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during the ESR period — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) is pricing DSATs (no monthly / no à la carte / 100 CAD), not support — adjusted support satisfaction 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising).
+Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+65%) — extra donation appeals ran during the ESR window, so more donors were asked to give. CSAT held at 90.9%. Push/sync is still the #1 Play Store friction at 34 negative mentions and rising, and August engineering shipped nothing that targets it.
 
 ---
 ## Support Metrics
-- **Overall CSAT:** 90.9% (-0.8 pts MoM) ↓
+- **Overall CSAT:** 90.9% (−0.8 pts MoM) ↓
 - **CSAT — Donor Support:** 92.7% (+7.0 pts MoM) ↑
-- **CSAT — Thundermail:** 85.7%*
-- **Volume:** 755 tickets (-1.6% MoM) — Donor Support 350, Thundermail 187, App Store Reviews 218
+- **CSAT — Thundermail:** 85.7% (−9.8 pts MoM)*
+- **Volume:** 755 tickets (−1.6% MoM) — Donor Support 350, Thundermail 187, App Store Reviews 218
 
-*DSATs: no monthly plan, no à la carte, price too high (100 CAD). Support satisfaction excluding those: 100%.*
+*Every Thundermail DSAT was about pricing — no monthly plan, no à la carte, 100 CAD too high. Satisfaction with support itself: 100%.*
 
 ---
-## Desktop ESR — donors and forum in one place
+## Desktop ESR
+> **[→ ESR tab](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#esr)** — cluster table, Bugzilla links, and who owns each fix.
 
-> **[→ ESR tab on the dashboard](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#esr)**
-
-- **Donor volume during the ESR period:** 350 tickets, up from 212 (+65%) · CSAT 92.7% (+7.0 pts). More donation appeals ran during ESR, so more donors were asked to give and more donation-support questions arrived. The 8/31 note previewed roughly 95% growth; the closed month landed at +65%.
-- **Labeling caveat:** 350 is donor-brand ticket volume, not ESR-product tickets — the tickets themselves are not about ESR. There is also no ESR-tagged SUMO figure — Roland tags a Thunderbird major version (153, 154) with no channel column, so the forum numbers below are desktop-build signals rather than a measured ESR slice.
-- **Build regressions (one-off, arrive and leave with a release):** printing blank pages on 154 — 36 questions at 8.0× baseline, 37% resolved, **fixed in Thunderbird 155 on Sept 1** ([Bugzilla 2065922](https://bugzilla.mozilla.org/show_bug.cgi?id=2065922)); Compose Send button and toolbar missing after 153 — 8 → 28 questions, 89% resolved ([Bugzilla 1989214](https://bugzilla.mozilla.org/show_bug.cgi?id=1989214)); drag-and-drop to the file system broken after 153 — 1 → 16, 56% resolved.
-- **Standing, not ESR:** Spectrum / Charter / Roadrunner — 34 questions, 3.2× baseline, 31 of the 34 lost mail access. Provider-side, and Roland notes it recurs a few times a year. Yahoo / AT&T / AOL app-specific passwords (29% resolved) and repeated password prompts (42% unanswered) are KB gaps that do not move with the ESR version.
-- **Support owns:** printing macro and KB update (155 shipped, so every remaining report has the same answer), a standing Spectrum article refreshed at each recurrence, and an app-specific-password KB. **Engineering owns:** the Send button, drag-and-drop, and recurring v153 POP retrieval spikes.
-- Desktop only — Android reviews, K-9 forum, and Thundermail are a different codebase and release channel.
+- **Donor 350 tickets (+65%), CSAT 92.7% (+7.0).** The lift is donation appeals that ran during the ESR window, **not** tickets about ESR — 350 is donor-brand volume, and no ESR-tagged forum figure exists to compare it against.
+- **Printing broke in 154 and is fixed in Thunderbird 155, released Sept 1** ([Bugzilla 2065922](https://bugzilla.mozilla.org/show_bug.cgi?id=2065922)). Anyone still reporting it is on 154, so every remaining ticket has the same answer.
+- **Spectrum / Charter is a recurrence, not an ESR regression** — 34 questions, and 31 of those users lost mail access entirely. Provider-side, and it comes back a few times a year, so we keep a standing article rather than writing a new one.
+- Desktop only — Android and Thundermail are a different codebase and release channel.
 
 ---
 ## Community Support
 
 ### Desktop Forum
-- **Overall solved rate:** 58% (-6 pts MoM) · 955 questions (751 in July) · two headline clusters, and both of Roland's methods name the same pair
-- **Printing broke in 154:** 36 tagged questions at 8.0× normal, peaking 24.3× on Aug 20. Only 37% resolved while it was unfixed. **Fixed in Thunderbird 155, released Sept 1** ([Bugzilla 2065922](https://bugzilla.mozilla.org/show_bug.cgi?id=2065922)) — users still reporting it are on 154.
-- **Spectrum / Charter / Roadrunner:** 34 questions (3 in July), 3.2× baseline, weekly peak 11.0× in the week of Aug 17. 31 of the 34 lost mail access entirely. Provider-side, not a Thunderbird build issue — and Roland notes Spectrum has issues a few times a year, so this is recurring rather than new.
-- **Also up:** Yahoo 55 questions (+83%), Microsoft 53 (+47%), POP 46 with recurring v153 daily spikes, attachments drag-and-drop broken after 153 (1 → 16).
-- **Where the solved rate went:** Yahoo/AT&T/AOL app-specific passwords 29% resolved (worst of the month), printing 37%, repeated password prompts 42% (42% got no reply at all), blank message body 47%. Two of those are KB gaps we can close ourselves.
-- Desktop only — printing and Spectrum do not appear in Play Store reviews or the Android app backlog.
-- Sources: [August spikes, non-AI](https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html) · [LLM insights, engineering](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html)
+> **[→ Desktop forum tab](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#sumo-desktop)** — full cluster table, spike math, and both of Roland's sources.
+
+- **Overall solved rate:** 58% (−6 pts MoM) · 955 questions (751 in July)
+- Two clusters carried the month: printing on 154 (36 questions, 8× the usual rate, now fixed in 155) and Spectrum/Charter mail access (34 questions). Yahoo, Microsoft, and POP setup questions rose behind them.
+- The solved rate fell where we have KB gaps, not where the build broke — app-specific passwords and repeated password prompts are ours to close.
 
 ### Android Forum
-- **Overall solved rate:** 61% (+1 pts MoM) · 51 questions (55 in July) · ignored 27%
-- **Non-AI report is quiet because volume is too low, not because nothing happened.** Zero spikes cleared the threshold: the detectors need 8 questions of one kind in a month and Roland's 40-question August corpus averaged about one a day. Only 2% of Android questions record a Thunderbird version, so the version-and-cause detector cannot fire at all — that zero is missing data.
-- **Five new clusters, two questions each:** stored password reverts or cannot be updated (sev 4.0), crash when opening a downloaded email (sev 4.0), AOL/Yahoo login loop then mail stops arriving (sev 3.5), contact autocomplete not suggesting addresses (sev 2.0, **50% resolved — the only cluster support could not answer**), no OpenPGP/S-MIME on Android (sev 3.0). Imported account showing only an Outbox grew 1 → 3.
-- **Read as a list, not a trend:** 40 questions across 33 clusters means a change of one question is noise, and "new this month" can mean only that nobody worded it that way in July.
-- **Cross-channel:** the three credential/import clusters look like one shared credential or migration path, and they plus crash-on-open also appear in Play Store reviews and K-9 forum topics — same app (K-9 is Thunderbird for Android), three entry points, small n on each. See [Cross-channel overlap](#cross-channel-overlap--strongest-signals).
-- **One channel only:** spam sits at 18 negative Play Store mentions with zero Android forum questions and zero K-9 forum topics — those users rate and leave rather than ask. Encryption asks appear on the forum but not in reviews.
-- Sources: [August spikes, non-AI](https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html) · [LLM insights, engineering](https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html)
+> **[→ Android forum tab](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#sumo-android)** · **[→ K-9 forum](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#k9-forum)**
 
-*Question counts differ by corpus: the SUMO KPI export holds 955 desktop / 51 Android; Roland's spike detector and AI read cover 941 / 940 desktop and 40 Android. Same month, different corpus filters — percentages are quoted against their own source.*
+- **Overall solved rate:** 61% (+1 pt MoM) · 51 questions · ignored 27%
+- **Quiet because volume is too low, not because the month was calm.** Roland's detectors need 8 questions of one kind before they fire, and August averaged about one Android question a day — zero spikes is missing signal, not good news.
+- Five new clusters at two questions each: credentials, crash on open, login loop, contact autocomplete, encryption. Read them as a list — at this size a change of one question is noise.
+
+**Cross-channel:** push/sync and credential/import pain show up in Play Store reviews, the Android forum, and the K-9 forum — one app, three entry points. Spam appears in reviews only, which is its own signal: those users rate and leave rather than ask. **[→ Overlap table](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#overlap)**
 
 ---
 ## Android Reviews
+> **[→ Android tab](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#android)** — star distributions, devices, languages, and the K-9 churn watch.
+
 - **Engagement:** 218 incoming Play Store review tickets (down from 272 in July)
-- **Impact:** 0 improved · 0 unchanged · 1 decreased *(of 1 review active in both months — see footnote)*. Average monthly rating — TB 3.74★ (+0.16 from July ↑) · K-9 3.60★ (-0.04 from July ↓) · Combined 3.71★ *(simple weighted mean: each review counts once regardless of app)*
+- **Impact:** 0 improved · 0 unchanged · 1 decreased — only one review was active in both months. Average monthly rating: TB 3.74★ (+0.16 ↑) · K-9 3.60★ (−0.04 ↓) · Combined 3.71★
 - **Volume:** 564 total reviews — TB 456 (415 stable + 41 beta), K-9 108. 27 languages.
 
-*Methodology: June onward uses Play Console GCS exports (Jan–May were manual UI downloads). August vs July rating changes pair Review Links across the full GCS exports; July headline averages still come from Lisa's 8/31 KPI snapshot because no July dashboard was produced.*
+*Methodology: June onward uses Play Console GCS exports; July's headline averages come from the 8/31 KPI snapshot because no July dashboard was produced.*
 
 ### Top 3 Friction Points
-*Sourced from 564 Play Store reviews (TB + Beta + K-9, same codebase). Analyzed with AI.*
+*Sourced from 564 Play Store reviews (TB + Beta + K-9, same codebase). Analyzed with AI. Devices, languages, and quotes on the [friction table](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#android).*
 
-**1. Push / Notification Sync**
-- 51 mentions · 34 negative · avg rating 2.76★ · **TB:** 44 reviews, **K-9:** 7 reviews
-- Reports delayed or missing notifications; sync often requires manual refresh.
-- Devices: tegu (2), pa1q (2), b5q (2) · Languages: English, German, French
-- 3-month trend: 20 → 31 → 34 negative mentions 🔴 Accelerating
+1. **Push / Notification Sync** — 34 negative of 51 mentions · avg 2.76★ · 3-month trend 20 → 31 → 34 🔴 rising. Delayed or missing notifications; sync often needs a manual refresh.
+2. **Spam Filter Absent** — 18 negative of 35 mentions · avg 3.26★ · 3-month trend 13 → 22 → 18 📉 fewer mentions, but no junk filter has shipped.
+3. **Stuck Outbox / Send Failure** — 5 negative of 5 mentions · avg 1.20★. Small n; read it as send-path pain, not a measured trend.
 
-**2. Spam Filter Absent**
-- 35 mentions · 18 negative · avg rating 3.26★ · **TB:** 28 reviews, **K-9:** 7 reviews
-- Reports no way to mark mail as spam or junk.
-- Devices: a53x (2), o1s (1), warhol (1) · Languages: English, German, Italian
-- 3-month trend: 13 → 22 → 18 negative mentions 📉 Improving
+July's QR / Settings Import spike cooled from 25 negative mentions to 3.
 
-**3. Stuck Outbox / Send Failure**
-- 5 mentions · 5 negative · avg rating 1.20★ · **TB:** 4 reviews, **K-9:** 1 reviews
-- Reports mail stuck in Outbox or send failures (small n — generator reused a push/sync paraphrase; treat as send-path pain, not notify).
-- Devices: OnePlus 11 (2), vienna (1), Google Pixel 6a (1) · Languages: English, Dutch
-- 3-month trend: 2 → 0 → 5 negative mentions 🔴 Accelerating *(July count not in the 8/31 email — middle 0 is a gap, not a measured zero)*
-
-### Cross-channel overlap — strongest signals
-*K-9 is Thunderbird for Android (same codebase), so Play Store reviews (TB + K-9), the Android SUMO forum, and the K-9 Discourse forum are three entry points to one product. A signal on more than one channel outranks a bigger number on one. Desktop forum signals are never compared here.*
-
-| Signal | Play Store (TB+K-9) | Android SUMO | K-9 forum | Overlap read |
-|---|---|---|---|---|
-| Push / notification sync | 34 neg · 51 mentions | — | 5 topics · 2→1→5 | **Strongest — two of three channels.** Biggest review theme and top K-9 forum theme; sync/fetch adds 2 more forum topics. No SUMO cluster, where 51 questions is too small to expect one. |
-| Account credentials & setup import | 5 mentions · 3 neg (25→3) | 7 questions · 3 clusters | 3 topics · 5→5→3 | **All three channels — same gap, different entry point.** Small n on each. |
-| Crash on open | 5 mentions · 4 neg · 2.00★ | 2 questions · sev 4.0 | 2 topics · 2→0→2 | **All three channels, n too small to rank.** Consistent shape, not a measured trend. |
-| Stuck outbox / send path | 5 mentions · all 1–3★ | 3 questions | — | **Two channels, read cautiously** — the SUMO cluster is an import artifact (imported account shows only an Outbox), not a confirmed send failure. |
-
-- **Play Store only (absence is the signal):** spam filter absent — 18 negative of 35 mentions, zero Android SUMO questions, zero K-9 forum topics.
-- **Forum only:** OpenPGP/S-MIME encryption (2 SUMO questions); attachments (3 K-9 topics).
-- Counts come from different systems and are compared side by side, never summed.
-
-### Meeting Our ⭐⭐⭐⭐+ Goal: What We Need to Do
-- **Push / Notification Sync — still #1, still rising:** 34 negative (31→34) · 51 mentions · avg 2.76★ · 3-mo 20→31→34 · no product fix in market
-- **Spam Filter Absent — #2, fewer mentions:** 18 negative (22→18) · still no junk-filter build · July QR spike (25 neg) cooled to 3 — not a current 4★ lever
-- **Rating gap:** TB 3.74★ needs +0.26★ to 4★ (K-9 3.60★, −0.04). Converting push 1–3★ reviewers is still the primary path
+### Meeting Our ⭐⭐⭐⭐+ Goal
+- **Push is the lever.** 34 negative and rising, no fix in market. TB needs +0.26★ to reach 4★, and converting push 1–3★ reviewers is the shortest path there.
+- **August engineering shipped QR feedback and a narrow camera-crash fix — nothing aimed at push, spam, or outbox.** [→ Engineering priority alignment](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#eng-priority-alignment)
+- Spam holds at #2 with no junk filter built; QR is no longer a 4★ lever.
 
 ---
 ## 🕊 Receive / 🪽 Resolve / ✨ Resound
+> **[→ Full panel](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#rrr)**
 
-**🕊 Receive**
-- 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR-period donation appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
-- 564 Play Store reviews across 27 languages; 218 incoming review tickets
-- Push/sync still #1 friction (34 negative, 31→34 — rising, no fix shipped). July QR/Settings Import spike cooled (25→3 negative)
-- 955 desktop forum questions (751 in July) — printing broke in 154 (36 qs, 8× normal) and Spectrum/Charter mail access failed (34 qs)
+**🕊 Receive** — 755 Zendesk tickets (Donor 350, Thundermail 187, App Store Reviews 218) · 564 Play Store reviews across 27 languages · 955 desktop forum questions.
 
-**🪽 Resolve**
-- Donor CSAT 92.7% (+7.0 pts) through the donation-appeal spike
-- Thundermail CSAT 85.7% is product/pricing DSATs; support satisfaction excluding those 100%
-- Android forum solved rate 61% (+1 pt) on 51 questions
-- Desktop printing regression is fixed in Thunderbird 155 (Sept 1) — the one August desktop cluster where we have an answer to give
+**🪽 Resolve** — Donor CSAT 92.7% (+7.0 pts) through the appeal spike · Thundermail's dip is pricing, with support satisfaction at 100% · desktop printing finally has a shipped answer in 155.
 
-**✨ Resound**
-- **48% of TB reviews are 5★** (220 of 456) — TB monthly average 3.74★ (+0.16 vs July)
-- July QR/Settings Import spike (25 neg, mostly 1★) dropped to 3 negative
-- Spam-filter negative mentions 22→18 — fewer mentions, not a shipped junk filter
-- Thundermail **Webmail** and **MFA** show as Landed on the ideas board
+**✨ Resound** — 48% of TB reviews are 5★ (220 of 456) and TB recovered to 3.74★ · QR negatives fell 25 → 3 · Thundermail **Webmail** and **MFA** both show as Landed on the ideas board.
 
 *Receive / Resolve / Resound is Thunderbird Support's CX action framework. [Support Vision →](https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77)*
 
 ---
 ## What's Coming Up
 
-[Lisa fills — experiments, iterations, what's launching next.]
+**Thunderbolt in the support workflow** — in progress with the Thunderbolt team, nothing in front of customers yet.
 
-*Parked idea, not scoped: watch Zendesk volume against Roland's SUMO keyword spikes to see whether desktop provider and regression clusters show up in tickets first.*
+- **AI takes the research layer:** lookup, pulling context, and drafting the background a rep needs before they reply.
+- **Reps stay on the customer:** the conversation, the judgment, and the tone stay human. The win is less time assembling context, not fewer people answering.
+
+*Related thread, later: point the same work at Zendesk volume against Roland's SUMO keyword spikes, to see whether desktop provider and regression clusters show up in tickets first.*
 
 ---
 ## Data Access
@@ -145,8 +106,6 @@ Raw data (CSV): [august.csv](https://github.com/thunderbird/thunderbird-support-
 
 **Overall solved rate (SUMO)** — percentage of questions that received any answer, including from the question creator, trusted contributors, and general members.
 
-**Resolved (Roland's AI read)** — a question counts as resolved when it has an accepted solution or a trusted contributor gave the last answer. Stricter than the SUMO solved rate above, so the two figures are not interchangeable.
-
-**Monthly rise (Roland's spike detector)** — the month's count for one cause tag divided by the normal count for that tag. A rise of 3.0× means three times as many questions as usual. Spike dates are when users posted, not when the problem began.
+**Monthly rise (Roland's spike detector)** — the month's count for one cause tag divided by the normal count for that tag. A rise of 8× means eight times as many questions as usual.
 
 **Trusted contributor %** — share of answered questions where the last (or only) answer came from a trusted contributor.
