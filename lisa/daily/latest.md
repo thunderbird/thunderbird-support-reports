@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 10:23 ET** · refreshes hourly_  
+_Updated: **2026-09-11 11:21 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 33** of rollout — **35,000 invitees**, **379 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 33** of rollout — **35,000 invitees**, **381 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **379** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **3** solved in last 24h
+- **381** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 46
 - **Median AHT**: 133.3h · mean 148.6h (proxy: updated_at − created_at, 293 solved tickets)
 
-## Known problems — 3 problem(s), 41 incident(s)
+## Known problems — 3 problem(s), 42 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
 - 1 incident(s):
@@ -28,7 +28,7 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **379 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [hold] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
-- 39 incident(s):
+- 40 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [solved] · 2026-08-10 · _Refund and account deletion_
@@ -67,7 +67,8 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **379 tickets** so fa
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
   - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09 · _Cancel subscription_
   - [#8568](https://tbpro.zendesk.com/agent/tickets/8568) · [pending] · 2026-09-10 · _Not what I thought..._
-  - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [pending] · 2026-09-10 · _Refund Thundermail_
+  - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [open] · 2026-09-10 · _Refund Thundermail_
+  - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -142,15 +143,15 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 293
-- **pending**: 67
-- **open**: 13
-- **hold**: 5
+- **pending**: 68
+- **open**: 15
+- **hold**: 4
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 224
-- **Thundermail**: 120
+- **Thundermail**: 122
 - **Appointment**: 8
 - **Send**: 8
 
@@ -160,12 +161,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 96
 - **blocked** + **explained**: 64
-- **change request** + **actioned**: 55
+- **change request** + **actioned**: 56
 - **blocked** + **investigated**: 18
 - **confused** + **explained**: 16
+- **curious** + **informed**: 16
 - **request** + **redirected**: 15
 - **concerned** + **explained**: 15
-- **curious** + **informed**: 15
 - **confused** + **informed**: 10
 - **blocked** + **redirected**: 8
 - **blocked** + **escalated**: 7
@@ -200,20 +201,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 1 tickets
+### Aliases — 2 tickets
 
+- **[#8605](https://tbpro.zendesk.com/agent/tickets/8605)** · Problem with sending emails
+  > I tried to send some e mails from my thunderbird account and custom domain aliases to my thundermail accounts and to other accounts outside thundermail domain but the accounts i…
 - **[#8599](https://tbpro.zendesk.com/agent/tickets/8599)** · Subscription cancellation
   > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating…
 
-### Account creation / signup confusion — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#8596](https://tbpro.zendesk.com/agent/tickets/8596)** · Please help me to seek a refund and to cancel
-  > Hi, After being signed up for over a week, I have changed my mind about Thundermail. May I please ask for a refund? Respectfully yours, Jonathan
+- **[#8606](https://tbpro.zendesk.com/agent/tickets/8606)** · my e-mail address
+  > I can not access my e-mail address because my computer crashed and i have it working again but had to reinstall everything and now i would like to be able to access [email] I…
 
 ### Other / uncategorized — 1 tickets
 
 - **[#8592](https://tbpro.zendesk.com/agent/tickets/8592)** · HmFLwJePWfkaXDjADGh
   > WqWpaBfvuSNcRVBJIQlfsmP
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#8596](https://tbpro.zendesk.com/agent/tickets/8596)** · Please help me to seek a refund and to cancel — why: **change request** · how: **actioned**
+  > Hi, After being signed up for over a week, I have changed my mind about Thundermail. May I please ask for a refund? Respectfully yours, Jonathan
 
 ### Account access issues — account recovery — 1 tickets
 
@@ -224,8 +232,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8588](https://tbpro.zendesk.com/agent/tickets/8588) · [pending] · 2026-09-10T20:30 · recovery mail address
 - [8592](https://tbpro.zendesk.com/agent/tickets/8592) · [open] · 2026-09-10T23:30 · HmFLwJePWfkaXDjADGh
-- [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [open] · 2026-09-10T23:39 · Please help me to seek a refund and to cancel
+- [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10T23:39 · Please help me to seek a refund and to cancel
 - [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [open] · 2026-09-11T08:13 · Subscription cancellation
+- [8605](https://tbpro.zendesk.com/agent/tickets/8605) · [open] · 2026-09-11T14:40 · Problem with sending emails
+- [8606](https://tbpro.zendesk.com/agent/tickets/8606) · [open] · 2026-09-11T15:01 · my e-mail address
 
 ## Solved — last 24h
 
