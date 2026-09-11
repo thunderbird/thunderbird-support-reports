@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 15:18 ET** · refreshes hourly_  
+_Updated: **2026-09-11 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -157,8 +157,8 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 296
-- **pending**: 76
-- **open**: 10
+- **pending**: 79
+- **open**: 7
 - **hold**: 3
 - **closed**: 1
 
@@ -174,7 +174,7 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 96
-- **blocked** + **explained**: 66
+- **blocked** + **explained**: 67
 - **change request** + **actioned**: 57
 - **blocked** + **investigated**: 19
 - **curious** + **informed**: 16
@@ -188,8 +188,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
-- **curious** + **investigated**: 2
 - **blocked** + **actioned**: 2
+- **curious** + **investigated**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
@@ -234,11 +234,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8613](https://tbpro.zendesk.com/agent/tickets/8613)** · Checking Email with an Email Archiver
   > Hello, I use the Mail Archiver to archive my emails. It works great with all my mailboxes, but unfortunately not with Thundermail—I always get an error message there. Unable to…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8611](https://tbpro.zendesk.com/agent/tickets/8611)** · can't verify custom domain
-  > i have a custom domain with squarespace. When I go to enter the thundermail dns records with the registrar//host squarespace, It will not let me save any hostname that ends with a…
-
 ### Webmail — 1 tickets
 
 - **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail
@@ -248,6 +243,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8606](https://tbpro.zendesk.com/agent/tickets/8606)** · my e-mail address
   > I can not access my e-mail address because my computer crashed and i have it working again but had to reinstall everything and now i would like to be able to access [email] I…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8611](https://tbpro.zendesk.com/agent/tickets/8611)** · can't verify custom domain — why: **blocked** · how: **explained**
+  > i have a custom domain with squarespace. When I go to enter the thundermail dns records with the registrar//host squarespace, It will not let me save any hostname that ends with a…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -275,7 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8607](https://tbpro.zendesk.com/agent/tickets/8607) · [pending] · 2026-09-11T15:22 · je me souvien plus du mots de passe principal
 - [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [open] · 2026-09-11T15:26 · mot de passe
 - [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [open] · 2026-09-11T16:52 · Removal of account in webmail
-- [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [open] · 2026-09-11T17:14 · can't verify custom domain
+- [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [pending] · 2026-09-11T17:14 · can't verify custom domain
 - [8613](https://tbpro.zendesk.com/agent/tickets/8613) · [open] · 2026-09-11T17:43 · Checking Email with an Email Archiver
 
 ## Solved — last 24h
