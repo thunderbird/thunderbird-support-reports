@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 09:22 ET** · refreshes hourly_  
+_Updated: **2026-09-11 10:23 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -127,7 +127,7 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [new] · _Subscription cancellation_
+- [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [open] · _Subscription cancellation_
   > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating separate profiles for multiple email…
 
 ## New ideas on FeatureOS
@@ -142,10 +142,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 293
-- **pending**: 68
-- **open**: 11
+- **pending**: 67
+- **open**: 13
 - **hold**: 5
-- **new**: 1
 - **closed**: 1
 
 ## Service (cumulative)
@@ -226,7 +225,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8588](https://tbpro.zendesk.com/agent/tickets/8588) · [pending] · 2026-09-10T20:30 · recovery mail address
 - [8592](https://tbpro.zendesk.com/agent/tickets/8592) · [open] · 2026-09-10T23:30 · HmFLwJePWfkaXDjADGh
 - [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [open] · 2026-09-10T23:39 · Please help me to seek a refund and to cancel
-- [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [new] · 2026-09-11T08:13 · Subscription cancellation
+- [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [open] · 2026-09-11T08:13 · Subscription cancellation
 
 ## Solved — last 24h
 
