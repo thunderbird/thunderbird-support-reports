@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 16:21 ET** · refreshes hourly_  
+_Updated: **2026-09-11 17:18 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 33** of rollout — **35,000 invitees**, **386 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 33** of rollout — **35,000 invitees**, **387 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **9** solved in last 24h
-- **386** tickets total since launch · contact rate **1%** of 35000 invitees
+- **11** new tickets in last 24h · **8** solved in last 24h
+- **387** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (112 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
-- **Median AHT**: 132.6h · mean 148.3h (proxy: updated_at − created_at, 296 solved tickets)
+- **Median AHT**: 132.9h · mean 148.1h (proxy: updated_at − created_at, 297 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nouveaux mots"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"nouveaux mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -156,16 +156,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 296
-- **pending**: 79
+- **solved**: 297
+- **pending**: 80
 - **open**: 7
-- **hold**: 3
+- **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 227
-- **Thundermail**: 124
+- **Thundermail**: 125
 - **Appointment**: 8
 - **Send**: 8
 
@@ -188,9 +188,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
+- **change request** + **escalated**: 2
 - **blocked** + **actioned**: 2
 - **curious** + **investigated**: 2
-- **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
@@ -280,7 +280,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-10T20:01 · Email aliases seemingly unrestricted
 - · [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-10T21:13 · Create new address book?
 - · [8010](https://tbpro.zendesk.com/agent/tickets/8010) · 2026-09-11T04:01 · Display name not carried through from sign up
 - · [8501](https://tbpro.zendesk.com/agent/tickets/8501) · 2026-09-11T16:07 · Server
