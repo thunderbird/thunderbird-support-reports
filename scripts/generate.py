@@ -5,7 +5,8 @@ Example: uv run scripts/generate.py april 2026
 
 Reads data/<month>_<year>.yaml for manual inputs.
 Analyzes Play Store CSVs automatically.
-Generates: lisa/<year>/<month>.md, .html, .csv, _analysis.json
+Generates: reports/monthly/<year>/<month>.md, .html, .csv, _analysis.json
+Also writes redirect stubs at lisa/<year>/ so circulating old URLs keep working.
 """
 # /// script
 # requires-python = ">=3.11"
@@ -27,6 +28,85 @@ try:
     import yaml
 except ImportError:
     sys.exit("PyYAML not found. Run: uv add pyyaml")
+
+PAGES_ORIGIN = 'https://thunderbird.github.io/thunderbird-support-reports'
+GH_BLOB_ORIGIN = 'https://github.com/thunderbird/thunderbird-support-reports/blob/main'
+MONTHLY_REL = 'reports/monthly'
+LEGACY_STUB_MARKER = 'This report moved'
+
+
+def monthly_out_dir(base, year):
+    return Path(base) / MONTHLY_REL / str(year)
+
+
+def monthly_pages_url(year, filename):
+    return f'{PAGES_ORIGIN}/{MONTHLY_REL}/{year}/{filename}'
+
+
+def monthly_blob_url(year, filename):
+    return f'{GH_BLOB_ORIGIN}/{MONTHLY_REL}/{year}/{filename}'
+
+
+def _extra_search_dirs(base, year):
+    """Current-cycle extras live under reports/monthly; archived extras stay in lisa/."""
+    y = str(year)
+    return [Path(base) / MONTHLY_REL / y, Path(base) / 'lisa' / y]
+
+
+def _find_extra(base, year, name):
+    for d in _extra_search_dirs(base, year):
+        path = d / name
+        if path.exists():
+            return path
+    return None
+
+
+def _extra_blob_url(base, year, name):
+    path = _find_extra(base, year, name)
+    if path is None:
+        return monthly_blob_url(year, name)
+    return f'{GH_BLOB_ORIGIN}/{path.relative_to(base).as_posix()}'
+
+
+def write_lisa_redirects(base, year, month, month_cap):
+    """Leave tiny stubs at the old lisa/<year>/ URLs without overwriting archives."""
+    lisa_dir = Path(base) / 'lisa' / str(year)
+    lisa_dir.mkdir(parents=True, exist_ok=True)
+    rel_html = f'../../{MONTHLY_REL}/{year}/{month}.html'
+    rel_md = f'../../{MONTHLY_REL}/{year}/{month}.md'
+    pages = monthly_pages_url(year, f'{month}.html')
+    html = (
+        '<!DOCTYPE html>\n'
+        '<html lang="en">\n'
+        '<head>\n'
+        '<meta charset="utf-8">\n'
+        f'<meta http-equiv="refresh" content="0;url={rel_html}">\n'
+        f'<link rel="canonical" href="{pages}">\n'
+        f'<title>{month_cap} {year} report moved</title>\n'
+        '</head>\n'
+        '<body>\n'
+        f'<p>{LEGACY_STUB_MARKER} to '
+        f'<a href="{rel_html}">{MONTHLY_REL}/{year}/{month}.html</a>.</p>\n'
+        '</body>\n'
+        '</html>\n'
+    )
+    md = (
+        f'# {month_cap} {year} — moved\n\n'
+        f'{LEGACY_STUB_MARKER} to [`{MONTHLY_REL}/{year}/{month}.md`]({rel_md}).\n\n'
+        f'Dashboard: {pages}\n'
+    )
+    for path, content in (
+        (lisa_dir / f'{month}.html', html),
+        (lisa_dir / f'{month}.md', md),
+    ):
+        if path.exists():
+            existing = path.read_text(encoding='utf-8', errors='replace')
+            if LEGACY_STUB_MARKER not in existing:
+                print(f'  skip legacy stub (existing full file): {path}')
+                continue
+        path.write_text(content)
+        print(f'✓ Legacy redirect: {path}')
+
 
 MONTH_NUMS = {
     'january':'01','february':'02','march':'03','april':'04',
@@ -819,9 +899,8 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
     lede = narrative.get('lede') or f"[Draft lede for {month_cap} {year} — fill in after analysis is complete.]"
     experiments = narrative.get('whats_coming_up') or narrative.get('experiments') or "[What's coming up — fill in manually.]"
 
-    report_url = f"https://thunderbird.github.io/thunderbird-support-reports/lisa/{year}/{month_cap.lower()}.html"
-    gh_base    = f"https://github.com/thunderbird/thunderbird-support-reports"
-    csv_url    = f"{gh_base}/blob/main/lisa/{year}/{month_cap.lower()}.csv"
+    report_url = monthly_pages_url(year, f"{month_cap.lower()}.html")
+    csv_url    = monthly_blob_url(year, f"{month_cap.lower()}.csv")
 
     md = f"""# {month_cap} {year} — Monthly Support Report
 
@@ -900,7 +979,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 
     # Friction rows
     friction_rows_html = ''
-    gh_report = f"https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/{year}/{month_cap.lower()}.md"
+    gh_report = monthly_blob_url(year, f"{month_cap.lower()}.md")
     for theme in friction_order:
         if theme not in analysis['friction']:
             continue
@@ -1010,15 +1089,18 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 
     # ── Desktop extras: SUMO trending, priorities, Connect ideas ──
     month_lower = month_cap.lower()
-    extras_dir = Path(__file__).parent.parent / 'lisa' / str(year)
-    gh_blob_base = f'https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/{year}'
+    extras_base = Path(__file__).parent.parent
 
     def _read_csv(name):
-        path = extras_dir / name
-        if not path.exists():
+        path = _find_extra(extras_base, year, name)
+        if path is None:
             return None
         with open(path, encoding='utf-8') as f:
             return list(csv.DictReader(f))
+
+    trending_blob = _extra_blob_url(extras_base, year, f'{month_lower}_sumo_trending.md')
+    priorities_blob = _extra_blob_url(extras_base, year, f'{month_lower}_desktop_priorities.md')
+    connect_blob = _extra_blob_url(extras_base, year, f'{month_lower}_connect_ideas.md')
 
     trending_rows = _read_csv(f'{month_lower}_sumo_trending.csv') or []
     priorities_rows = _read_csv(f'{month_lower}_desktop_priorities.csv') or []
@@ -1121,7 +1203,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             f'<div class="subsection-header" style="--sc: var(--sky)" id="top-trending-topics">'
             f'<h3><a href="#top-trending-topics">Top Trending Topics<span class="anchor">#</span></a></h3>'
             f'<span class="sh-meta">SUMO tag rollup · top 10 of {len(trending_rows)} · '
-            f'<a href="{gh_blob_base}/{month_lower}_sumo_trending.md" style="color:var(--sky)" target="_blank">full report →</a></span>'
+            f'<a href="{trending_blob}" style="color:var(--sky)" target="_blank">full report →</a></span>'
             f'</div>'
             f'<div class="box"><table>{thead}<tbody>{rows_html}</tbody></table></div>'
         )
@@ -1161,7 +1243,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             f'<div class="subsection-header" style="--sc: var(--sky)" id="recommended-priorities">'
             f'<h3><a href="#recommended-priorities">Recommended Priorities — Community Signal<span class="anchor">#</span></a></h3>'
             f'<span class="sh-meta">3 themes · '
-            f'<a href="{gh_blob_base}/{month_lower}_desktop_priorities.md" style="color:var(--sky)" target="_blank">full drill-down →</a></span>'
+            f'<a href="{priorities_blob}" style="color:var(--sky)" target="_blank">full drill-down →</a></span>'
             f'</div>'
             f'<div class="box"><table>'
             f'<thead><tr><th>Theme</th><th class="num">Questions</th><th class="num">% of total</th></tr></thead>'
@@ -1186,7 +1268,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             f'<h3><a href="#mozilla-connect">Mozilla Connect — Community Wishlist<span class="anchor">#</span></a></h3>'
             f'<span class="sh-meta">{len(connect_rows)} ideas · {total_kudos} kudos · '
             f'{total_views:,} views · '
-            f'<a href="{gh_blob_base}/{month_lower}_connect_ideas.md" style="color:var(--sky)" target="_blank">full report →</a></span>'
+            f'<a href="{connect_blob}" style="color:var(--sky)" target="_blank">full report →</a></span>'
             f'</div>'
             f'<div class="box"><table>'
             f'<thead><tr><th class="num">Kudos</th><th class="num">Views</th>'
@@ -1363,7 +1445,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     k9_dir = 'up' if k9_rc > 0 else ('down' if k9_rc < 0 else 'flat')
 
     prev_month = config['prev_month']
-    report_url = f"https://github.com/thunderbird/thunderbird-support-reports/blob/main/lisa/{year}/{month_cap.lower()}.md"
+    report_url = monthly_blob_url(year, f"{month_cap.lower()}.md")
 
     report_note = (config.get('narrative') or {}).get('report_note') or ''
     report_note_html = f'<div class="report-note"><strong>Note:</strong> {report_note}</div>' if report_note else ''
@@ -1826,7 +1908,7 @@ def push_to_notion(config, analysis, month_cap, year):
         return
 
     z = config['zendesk']
-    report_url = f"https://thunderbird.github.io/thunderbird-support-reports/lisa/{year}/{month_cap.lower()}.html"
+    report_url = monthly_pages_url(year, f"{month_cap.lower()}.html")
     row_title  = f"{month_cap} in Support ({year})"
 
     def to_pct(v):
@@ -1921,7 +2003,7 @@ def main():
 
     BASE        = Path(__file__).parent.parent
     config_path = BASE / 'data' / f'{month}_{year}.yaml'
-    out_dir     = BASE / 'lisa' / year
+    out_dir     = monthly_out_dir(BASE, year)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     if not config_path.exists():
@@ -2060,6 +2142,8 @@ def main():
         w.writerows(csv_rows)
     print(f"✓ CSV: {csv_path}")
 
+    write_lisa_redirects(BASE, year, month, month_cap)
+
     # Append to history, then patch in k9_discourse data
     updated_history = append_to_history(BASE, month_prefix, month_cap, year, analysis, config)
     needs_history_write = False
@@ -2087,7 +2171,7 @@ def main():
     # Update index.md
     index_path = BASE / 'index.md'
     index = index_path.read_text()
-    new_row = f"| {month_cap} | [{month_cap} {year}](lisa/{year}/{month}.md) | [Dashboard](https://thunderbird.github.io/thunderbird-support-reports/lisa/{year}/{month}.html) | [CSV](lisa/{year}/{month}.csv) |"
+    new_row = f"| {month_cap} | [{month_cap} {year}]({MONTHLY_REL}/{year}/{month}.md) | [Dashboard]({monthly_pages_url(year, f'{month}.html')}) | [CSV]({MONTHLY_REL}/{year}/{month}.csv) |"
     if month.lower() not in index:
         index = index.rstrip() + f"\n{new_row}\n"
         index_path.write_text(index)

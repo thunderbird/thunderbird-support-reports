@@ -1,6 +1,6 @@
 ---
 description: Safe maintenance guide for all TB Pro support reports — Sonnet and below
-globs: lisa/daily/*overview*.html,lisa/daily/latest.html,reports/tbpro/**/*.html,lisa/20*/*_sample.html,scripts/tbpro_launch_overview.py,scripts/tbpro_daily.py,scripts/tbpro_weekly.py
+globs: lisa/daily/*overview*.html,lisa/daily/latest.html,reports/tbpro/**/*.html,reports/monthly/**/*_sample.html,lisa/20*/*_sample.html,scripts/tbpro_launch_overview.py,scripts/tbpro_daily.py,scripts/tbpro_weekly.py
 alwaysApply: false
 ---
 
@@ -15,7 +15,7 @@ Read **before** editing any TB Pro report HTML or generator script. Also: `tbpro
 | Daily Flight 2 | `lisa/daily/latest.html` | `scripts/tbpro_daily.py` | After redesign sample approved (future) |
 | Launch overview | `launch_overview_sample.html` → `launch_overview.html` | `tbpro_launch_overview.py` | Sample in progress / playbook established |
 | Weekly | `reports/tbpro/LATEST_WEEKLY.html` | `tbpro_weekly.py` | After daily/launch samples done (`DESIGN.md` scope) |
-| Monthly | `lisa/YYYY/month_sample.html` → `month.html` | `generate.py` | Queued — see `monthly-report-planned.mdc` |
+| Monthly | `reports/monthly/YYYY/month_sample.html` → `month.html` | `generate.py` | Queued — see `monthly-report-planned.mdc` |
 
 **Principles apply to ALL reports:**
 
@@ -53,7 +53,7 @@ Read **before** editing any TB Pro report HTML or generator script. Also: `tbpro
 - Re-adding **Still open** panel or blocker-column pattern.
 - Editing `launch_overview.html`, `tbpro_launch_overview.py`, or `latest.html` before sample approval.
 - PII: emails, names, domains, raw ticket bodies.
-- **Archived monthly reports** — do not edit prior months' HTML, MD, or CSV in `lisa/YYYY/` (`march.html`, `april.html`, `may.html`, frozen `*_deep_dive.html`, `*_followup.html`, `*_kb_recommendations.html`, `*_sumo_trending.html`, etc.). Fix links in the current `*_sample.html` instead; create current-month drill-downs rather than patching archives.
+- **Archived monthly reports** — do not edit prior months' HTML, MD, or CSV in `lisa/YYYY/` (`march.html`, `april.html`, `may.html`, `june.html`, frozen `*_deep_dive.html`, `*_followup.html`, `*_kb_recommendations.html`, `*_sumo_trending.html`, etc.). Current-cycle files are under `reports/monthly/`. Fix links in the current `*_sample.html` instead; create current-month drill-downs rather than patching archives.
 
 ## File map — `launch_overview_sample.html`
 

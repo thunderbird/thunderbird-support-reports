@@ -18,7 +18,7 @@ Usage:
     python3 scripts/desktop_priorities.py april 2026
 
 Output:
-    lisa/<year>/<month>_desktop_priorities.md
+    reports/monthly/<year>/<month>_desktop_priorities.md
 """
 
 import base64
@@ -278,7 +278,7 @@ def main(argv):
 
     overlap_auth_update = [q for q in rows if matches_auth(q) and matches_update_regression(q)]
 
-    out_dir = Path('lisa') / str(year)
+    out_dir = Path('reports/monthly') / str(year)
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f'{month_name}_desktop_priorities.md'
     csv_path = out_dir / f'{month_name}_desktop_priorities.csv'

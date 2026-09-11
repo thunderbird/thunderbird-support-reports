@@ -44,10 +44,11 @@ When pointing Lisa to a report, sample, drill-down, or publish-readiness review,
 
 Templates (replace `YYYY` / `month` as needed):
 
-- Monthly sample: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/YYYY/month_sample.html`
+- Monthly sample: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/reports/monthly/YYYY/month_sample.html`
 - Launch overview sample: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/daily/launch_overview_sample.html`
-- Drill-downs: `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/YYYY/month_*.html` (e.g. `june_sumo_trending.html`, `june_push_deep_dive_sample.html`)
-- After publish: GitHub Pages — `https://thunderbird.github.io/thunderbird-support-reports/lisa/YYYY/month.html`
+- Drill-downs (current cycle): `file:///Users/lwess/Documents/Thunderbird-Support-Reports/reports/monthly/YYYY/month_*.html`
+- Archived months (frozen under Lisa's namespace): `file:///Users/lwess/Documents/Thunderbird-Support-Reports/lisa/YYYY/month.html` (e.g. June)
+- After publish: GitHub Pages — `https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/YYYY/month.html`
 
 Apply whenever the topic is monthly report review, publish readiness, "open locally", or Lisa asks for full links — do not wait for her to repeat the request.
 
@@ -66,14 +67,14 @@ Same playbook as the launch overview sample (`lisa/daily/launch_overview_sample.
 - **Scannable copy** — no essay blocks in masthead/lede; use `.masthead__highlights` + `.scan-list` (see `.cursor/rules/tbpro-copy-tone.mdc` → *Scannable copy*)
 - **Reimagined layout from scratch** — not an incremental patch on `generate.py` output
 
-**Sample gate:** edit **only** the `*_sample.html` file until Lisa approves. Do **not** modify `scripts/generate.py` or live output (`lisa/YYYY/month.html`, e.g. `june.html`) until then.
+**Sample gate:** edit **only** the `*_sample.html` file until Lisa approves. Do **not** modify `scripts/generate.py` or live output (`reports/monthly/YYYY/month.html`) until then. Path-only edits to `generate.py` (output directory) are an exception when Lisa relocates team-facing reports.
 
-**Never modify archived monthly reports.** Prior months in `lisa/YYYY/` are frozen once published — read-only references for voice, layout, and drill-down patterns. Do not edit:
+**Never modify archived monthly reports.** Prior months in `lisa/YYYY/` (March–June 2026) are frozen once published — read-only references for voice, layout, and drill-down patterns. Current-cycle reports live in `reports/monthly/<year>/` (matching `reports/tbpro/`). Do not edit:
 - Published dashboards: `march.html`, `april.html`, `may.html`, … (any month before the current reporting cycle)
 - Frozen deep dives and working docs: `march_push_deep_dive.html`, `march_push_followup.html`, `march_push_kb_recommendations.html`, `march_support_ops_index.html`, prior-month `*_sumo_trending.html`, etc.
 - Matching `.md`, `.csv`, and analysis JSON for those months
 
-When the current sample needs a drill-down link, create or link to **current-month** artifacts (`june_push_deep_dive.html`, `june_sumo_trending.html`, …) — never patch archived HTML to fix a broken link from the sample. See `DESIGN.md` scope.
+When the current sample needs a drill-down link, create or link to **current-month** artifacts under `reports/monthly/<year>/` (`august_push_deep_dive.html`, …) — never patch archived HTML in `lisa/` to fix a broken link from the sample. See `DESIGN.md` scope. Going forward, leave a redirect stub at `lisa/<year>/<month>.html` so old shared links keep working.
 
 **Pattern references:** `launch_overview_sample.html` + the five TB Pro Cursor rules (`tbpro-launch-sample.mdc`, `tbpro-theme-tickets.mdc`, `tbpro-table-patterns.mdc`, `tbpro-copy-tone.mdc`, `tbpro-sonnet-maintenance.mdc`). Adapt for monthly dashboard sections: Donor Care, TB Pro, Android Reviews, Desktop/Android SUMO forums, K-9 Forum (see Dashboard structure below).
 
@@ -82,7 +83,7 @@ When the current sample needs a drill-down link, create or link to **current-mon
 ## Privacy — PII policy
 When showing any customer content, **never store PII in any repo file — committed or local.** This includes: email addresses, last names, domain names, aliases, IP addresses, phone numbers, Play Console developer account IDs, or any other personally identifiable information. This applies to all data sources: Zendesk tickets (subjects, excerpts, comments), Play Store reviews, FeatureOS, SUMO.
 
-**All generators redact before write.** Import `scripts/pii_redact.py` (`redact`, `redact_sumo_title`, `paraphrase_review`) — never write raw customer text to `lisa/`, `data/`, or any tracked path. TB Pro daily/weekly scripts still accept `--public` for CI; local runs must also produce redacted output when writing into this repo.
+**All generators redact before write.** Import `scripts/pii_redact.py` (`redact`, `redact_sumo_title`, `paraphrase_review`) — never write raw customer text to `reports/`, `lisa/`, `data/`, or any tracked path. TB Pro daily/weekly scripts still accept `--public` for CI; local runs must also produce redacted output when writing into this repo.
 
 When in doubt, redact.
 
@@ -184,10 +185,11 @@ under each month key in `history.json` (written by `append_to_history`).
 
 ### `scripts/generate.py <month> <year>` — MAIN ENTRY POINT
 Reads `data/<month>_<year>.yaml`, analyzes Play Store CSVs, generates:
-- `lisa/<year>/<month>_analysis.json`
-- `lisa/<year>/<month>.md` (report draft)
-- `lisa/<year>/<month>.html` (dashboard)
-- `lisa/<year>/<month>.csv` (data export)
+- `reports/monthly/<year>/<month>_analysis.json`
+- `reports/monthly/<year>/<month>.md` (report draft)
+- `reports/monthly/<year>/<month>.html` (dashboard)
+- `reports/monthly/<year>/<month>.csv` (data export)
+- Redirect stubs at `lisa/<year>/<month>.html` and `.md` (does not overwrite archived full reports)
 - Updates `index.md`
 
 Friction point detail (representative quote, top devices, top languages) is
@@ -282,7 +284,7 @@ Also runs in GH Actions daily alongside `tbpro_daily.py`.
 
 **Update workflow:** fetch live data → paraphrase subjects → grep for PII (`@`, phone patterns) → edit **sample only** → Lisa approves → port to generator. See `DESIGN.md` for sample-gate pattern.
 
-**Monthly archives — never modify:** same rule as monthly sample gate — do not edit prior months' HTML, MD, CSV, or deep dives in `lisa/YYYY/` (`march.html`, `april.html`, `may.html`, frozen `*_deep_dive.html`, etc.). Fix links in the current `*_sample.html` instead; port new drill-downs via `generate.py` after approval.
+**Monthly archives — never modify:** same rule as monthly sample gate — do not edit prior months' HTML, MD, CSV, or deep dives in `lisa/YYYY/` (`march.html`, `april.html`, `may.html`, `june.html`, frozen `*_deep_dive.html`, etc.). Current-cycle files live in `reports/monthly/<year>/`. Fix links in the current `*_sample.html` instead; port new drill-downs via `generate.py` after approval.
 
 ### FeatureOS CLI caveats
 - `sort=votes_count` parameter is **unreliable** — always sort client-side after fetching
@@ -396,7 +398,7 @@ Five sections with colored filter buttons (linkable via URL hash):
   automatically. History is stored in `data/history.json` under `k9_discourse.themes`.
   Prior months can be backfilled retroactively via the Discourse search API using date ranges.
 
-Dashboard URL pattern: `https://thunderbird.github.io/thunderbird-support-reports/lisa/YYYY/month.html`
+Dashboard URL pattern: `https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/YYYY/month.html`
 
 ## Cross-channel analysis
 Each month, compare Play Store friction signals against Android Forum signals and call
@@ -460,7 +462,7 @@ When a friction point needs more investigation than the main dashboard provides,
 standalone deep-dive HTML file alongside the monthly dashboard.
 
 ### File naming and location
-`lisa/<year>/<month>_<theme>_deep_dive.html` — e.g. `lisa/2026/march_push_deep_dive.html`
+`reports/monthly/<year>/<month>_<theme>_deep_dive.html` — e.g. `reports/monthly/2026/august_push_deep_dive.html`. Archived deep dives stay at `lisa/2026/march_push_deep_dive.html`.
 
 ### What a deep dive contains
 1. **Overview stat cards** — total reviews, negative count, avg rating, reply rate, per-problem breakdown

@@ -39,7 +39,7 @@ Same URL pattern: `[#11056](https://github.com/thunderbird/thunderbird-android/i
 Grep the month's deliverables for bare `#\d{4,}` outside `href=` / `issues/`:
 
 ```bash
-rg '#\d{4,}' lisa/YYYY/<month>* --glob '!*compare*'
+rg '#\d{4,}' reports/monthly/YYYY/<month>* lisa/YYYY/<month>* --glob '!*compare*'
 ```
 
 Link any GitHub issue hits; leave ranking/SUMO/Zendesk/CSS hits alone.

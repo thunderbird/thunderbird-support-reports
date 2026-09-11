@@ -12,7 +12,7 @@ Usage:
     uv run scripts/sumo_trending.py <month-name> <year>
     uv run scripts/sumo_trending.py april 2026
 
-Outputs (written to lisa/<year>/):
+Outputs (written to reports/monthly/<year>/):
     <month>_sumo_trending.md
     <month>_sumo_trending.csv
 """
@@ -139,7 +139,7 @@ def write_reports(rows, year, month, month_name):
 
     ranked = sorted(bucket_qs.items(), key=lambda kv: len(kv[1]), reverse=True)
 
-    out_dir = Path('lisa') / str(year)
+    out_dir = Path('reports/monthly') / str(year)
     out_dir.mkdir(parents=True, exist_ok=True)
     md_path = out_dir / f'{month_name}_sumo_trending.md'
     csv_path = out_dir / f'{month_name}_sumo_trending.csv'

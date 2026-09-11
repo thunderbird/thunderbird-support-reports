@@ -72,7 +72,7 @@ This auto-populates:
 
 ## Step 5 — Fill in remaining narrative sections
 
-These cannot be auto-populated — fill in `lisa/$year/$month.md`:
+These cannot be auto-populated — fill in `reports/monthly/$year/$month.md`:
 
 1. **Lede** — 2-3 sentences. What's the headline story? CSAT trend, volume surge, K-9 signal, etc.
 2. **Community Support key signals** — `[Key signal from Roland's data]` and `[Key signal]` placeholders
@@ -86,7 +86,7 @@ Check the K-9 Discourse data and Play Store K-9 analysis for signals worth calli
 
 ## Step 6 — Verify dashboard
 
-Open `lisa/$year/$month.html` and check:
+Open `reports/monthly/$year/$month.html` and check:
 - All stat cards show values (no `—` where data should be)
 - TB Pro note renders as small italic, not a heading
 - Quarter label on rating trend is correct (Q1=Jan-Mar, Q2=Apr-Jun, etc.)
@@ -103,12 +103,12 @@ Stage only report files — never the raw CSV exports:
 GIT_COMMITTER_EMAIL="lisajill@users.noreply.github.com" GIT_COMMITTER_NAME="Moment" \
   git commit --author="Moment <lisajill@users.noreply.github.com>" \
   -m "Add $month $year support report" \
-  data/$month_$year.yaml lisa/$year/$month.md lisa/$year/$month.html \
-  lisa/$year/$month.csv data/history.json index.md
+  data/$month_$year.yaml reports/monthly/$year/$month.md reports/monthly/$year/$month.html \
+  reports/monthly/$year/$month.csv data/history.json index.md
 git push
 ```
 
-Verify live at: `https://thunderbird.github.io/thunderbird-support-reports/lisa/$year/$month.html`
+Verify live at: `https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/$year/$month.html`
 
 ---
 

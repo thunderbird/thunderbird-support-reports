@@ -4,7 +4,7 @@ Automated support operations reporting for Thunderbird and MZLA, maintained by t
 
 ## What's here
 
-**Monthly support dashboards** — published each month covering:
+**Monthly support dashboards** — published each month under `reports/monthly/` covering:
 - Android Play Store reviews (Thunderbird, K-9 Mail, Beta)
 - Zendesk CSAT and ticket volume (Donor Support, Thundermail)
 - SUMO forum health (Desktop and Android)

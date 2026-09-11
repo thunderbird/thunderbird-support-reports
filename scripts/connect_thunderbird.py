@@ -12,8 +12,8 @@ Usage:
     python3 scripts/connect_thunderbird.py april 2026
 
 Outputs:
-    lisa/<year>/<month>_connect_ideas.md
-    lisa/<year>/<month>_connect_ideas.csv
+    reports/monthly/<year>/<month>_connect_ideas.md
+    reports/monthly/<year>/<month>_connect_ideas.csv
 """
 
 import calendar
@@ -102,7 +102,7 @@ def write_reports(items, year, month, month_name):
         s = status_key(i)
         status_counts[s] = status_counts.get(s, 0) + 1
 
-    out_dir = Path('lisa') / str(year)
+    out_dir = Path('reports/monthly') / str(year)
     out_dir.mkdir(parents=True, exist_ok=True)
     md_path = out_dir / f'{month_name}_connect_ideas.md'
     csv_path = out_dir / f'{month_name}_connect_ideas.csv'
