@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 19:17 ET** · refreshes hourly_  
+_Updated: **2026-09-10 20:54 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 32** of rollout — **35,000 invitees**, **376 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 32** of rollout — **35,000 invitees**, **378 tickets** so far (1.1% contact rate). CSAT since launch: **92%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **16** solved in last 24h
-- **376** tickets total since launch · contact rate **1%** of 35000 invitees
+- **378** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 92%  (111 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 44
@@ -131,10 +131,12 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [8577](https://tbpro.zendesk.com/agent/tickets/8577) · [pending] · _Refund Thundermail_
   > Hello, I'd like to get a refund for my Thundermail Early Bird subscription, which is still within the 14-day window. I might return to a later time but right now this service does not meet my requirements and…
+- [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [open] · _Please help me to seek a refund and to cancel_
+  > Hi, After being signed up for over a week, I have changed my mind about Thundermail. May I please ask for a refund? Respectfully yours, Jonathan
 
 ## New ideas on FeatureOS
 
@@ -153,13 +155,13 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 - **solved**: 293
 - **pending**: 73
+- **open**: 6
 - **hold**: 5
-- **open**: 4
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 222
+- **Account Hub**: 223
 - **Thundermail**: 120
 - **Appointment**: 8
 - **Send**: 8
