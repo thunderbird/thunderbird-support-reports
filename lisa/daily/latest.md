@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-10
 
-_Updated: **2026-09-10 20:54 ET** · refreshes hourly_  
+_Updated: **2026-09-10 21:29 ET** · refreshes hourly_  
 _24h window: 2026-09-09T16:00 → 2026-09-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -154,8 +154,8 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 293
-- **pending**: 73
-- **open**: 6
+- **pending**: 72
+- **open**: 7
 - **hold**: 5
 - **closed**: 1
 
@@ -242,6 +242,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8546](https://tbpro.zendesk.com/agent/tickets/8546)** · Cancel subscription — why: **change request** · how: **actioned**
   > Hi - I misunderstood the available features in Thundermail, and hoped I could use it to view externally hosted email accounts in one place via IMAP. As that's the main thing I was…
 
+### Webmail — 1 tickets
+
+- **[#8552](https://tbpro.zendesk.com/agent/tickets/8552)** · Email messages content search — why: **confused** · how: **explained**
+  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#8577](https://tbpro.zendesk.com/agent/tickets/8577)** · Refund Thundermail — why: **change request** · how: **actioned**
@@ -257,11 +262,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8563](https://tbpro.zendesk.com/agent/tickets/8563)** · Kalender — why: **curious** · how: **investigated**
   > Wie kann ich einen Termin erstellen und warum funktioniert die Synchronisatuion mit dem Kalender im Thunderbird 153.2.0esr nicht? How can I create an appointment and why isn't the…
 
-### Webmail — 1 tickets
-
-- **[#8552](https://tbpro.zendesk.com/agent/tickets/8552)** · Email messages content search — why: **confused** · how: **explained**
-  > I had a scenario of searching of all messages which had a text [username] . But when i search it says no messages was found…
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#8545](https://tbpro.zendesk.com/agent/tickets/8545)** · trouble setting up DNS records on Godaddy — why: **blocked** · how: **explained**
@@ -273,7 +273,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09T22:49 · Cancel subscription
 - [8547](https://tbpro.zendesk.com/agent/tickets/8547) · [hold] · 2026-09-10T00:11 · Privacy claims
 - [8551](https://tbpro.zendesk.com/agent/tickets/8551) · [pending] · 2026-09-10T01:48 · Delete my account please
-- [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [pending] · 2026-09-10T05:08 · Email messages content search
+- [8552](https://tbpro.zendesk.com/agent/tickets/8552) · [open] · 2026-09-10T05:08 · Email messages content search
 - [8557](https://tbpro.zendesk.com/agent/tickets/8557) · [pending] · 2026-09-10T07:39 · Gescheiterte Anmeldung 
 - [8558](https://tbpro.zendesk.com/agent/tickets/8558) · [pending] · 2026-09-10T08:43 · custom email in iOS mail
 - [8563](https://tbpro.zendesk.com/agent/tickets/8563) · [pending] · 2026-09-10T11:25 · Kalender
