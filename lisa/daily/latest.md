@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 09:18 ET** · refreshes hourly_  
+_Updated: **2026-09-12 10:19 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 34** of rollout — **35,000 invitees**, **390 tickets** so fa
 
 - **4** new tickets in last 24h · **3** solved in last 24h
 - **390** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 93%  (114 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 47
-- **Median AHT**: 133.1h · mean 148.4h (proxy: updated_at − created_at, 296 solved tickets)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 93%  (115 good / 9 bad)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
+- **Median AHT**: 133.1h · mean 148.5h (proxy: updated_at − created_at, 296 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -134,9 +134,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Sync](https://ideas.tb.pro/p/sync) · 1 votes · _untagged_
+  > What you’d like to seeCategories are synchronizedWhy it mattersTo organize contacts into groups on your smartphoneYour use caseI sync my contacts from the “Cardbook” address book with DAVy5 on my…
 
 ## Status breakdown (cumulative)
 
@@ -227,8 +228,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [8530](https://tbpro.zendesk.com/agent/tickets/8530) · 2026-09-11T21:17 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
-- · [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-11T22:01 · Create new address book?
 - 👍 [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-12T01:01 · Email aliases seemingly unrestricted
+- 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-12T13:31 · Create new address book?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
