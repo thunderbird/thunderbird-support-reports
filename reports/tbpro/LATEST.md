@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-09-11
+# Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-11 23:24 ET** · refreshes hourly_  
-_24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-12 00:24 ET** · refreshes hourly_  
+_24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 33** of rollout — **35,000 invitees**, **389 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 34** of rollout — **35,000 invitees**, **389 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **7** solved in last 24h
+- **3** new tickets in last 24h · **3** solved in last 24h
 - **389** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (113 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 47
 - **Median AHT**: 132.9h · mean 148.2h (proxy: updated_at − created_at, 297 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"nouveaux mots"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -134,33 +128,23 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · _Subscription cancellation_
-  > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating separate profiles for multiple email…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 5 new:
+**Last 24h** — 0 new:
 
-- [Native iOS App](https://ideas.tb.pro/p/native-ios-app) · 1 votes · _Thundermail, New Feature_
-  > What you’d like to seeA native iOS and iPadOS mobile application available on the Apple App Store. While an Android application currently exists, Apple device users still require a dedicated, native…
-- [Username-Centric Account Identity for Enhanced Security and Asset Flexibility](https://ideas.tb.pro/p/username-centric-account-identity-for-enhanced-security-and-asset-flexibility) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions_
-  > What you’d like to seeThundermail should stop using email addresses as the master account identity and login credential. Instead, require users to create a unique, non-email username used exclusively…
-- [Minor privacy issue](https://ideas.tb.pro/p/minor-privacy-issue) · 1 votes · _Privacy & Security, Accounts & Subscriptions, Improvement_
-  > What you’d like to seeBriefly describe the feature or improvement.Potentially move email into POST or a tocken instead of in a URL paramater (in relation to the early acces sign up link)Why it…
-- [button to easy Add to contacts or Copy to clipboard the *from email address*](https://ideas.tb.pro/p/button-to-easy-add-to-contacts-or-copy-to-clipboard-the-from-email-address) · 1 votes · _Thundermail, New Feature, Webmail_
-  > What you’d like to seeBriefly describe the feature or improvement.Add a button-icon copy , in the email view to easy copy email address into a contact or just copy to clipboardWhy it mattersWhat…
-- [Appointment Location](https://ideas.tb.pro/p/appointment-location) · 1 votes · _Appointment, New Feature_
-  > What you’d like to seeBriefly describe the feature or improvement.The ability to set a physical address for appointments. Why it mattersWhat problem does this solve, or what benefit does it bring?Not…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 297
-- **pending**: 84
+- **pending**: 83
+- **open**: 3
 - **hold**: 3
 - **new**: 2
-- **open**: 2
 - **closed**: 1
 
 ## Service (cumulative)
@@ -190,9 +174,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **confused** + **investigated**: 3
+- **change request** + **escalated**: 2
 - **blocked** + **actioned**: 2
 - **curious** + **investigated**: 2
-- **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
 - **request** + **explained**: 2
@@ -216,78 +200,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
-
-- **[#8608](https://tbpro.zendesk.com/agent/tickets/8608)** · mot de passe — why: **confused** · how: **explained**
-  > nouveaux mots de passe
-- **[#8592](https://tbpro.zendesk.com/agent/tickets/8592)** · HmFLwJePWfkaXDjADGh — why: **curious** · how: **explained**
-  > WqWpaBfvuSNcRVBJIQlfsmP
-
-### Aliases — 2 tickets
-
-- **[#8605](https://tbpro.zendesk.com/agent/tickets/8605)** · Problem with sending emails — why: **blocked** · how: **investigated**
-  > I tried to send some e mails from my thunderbird account and custom domain aliases to my thundermail accounts and to other accounts outside thundermail domain but the accounts i…
-- **[#8599](https://tbpro.zendesk.com/agent/tickets/8599)** · Subscription cancellation — why: **change request** · how: **actioned**
-  > Hello, I’m writing to request the cancellation of my subscription, which I purchased on October 10, 2026. After trying the service, I realized that it doesn’t support creating…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#8613](https://tbpro.zendesk.com/agent/tickets/8613)** · Checking Email with an Email Archiver — why: **confused** · how: **informed**
-  > Hello, I use the Mail Archiver to archive my emails. It works great with all my mailboxes, but unfortunately not with Thundermail—I always get an error message there. Unable to…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8611](https://tbpro.zendesk.com/agent/tickets/8611)** · can't verify custom domain — why: **blocked** · how: **explained**
-  > i have a custom domain with squarespace. When I go to enter the thundermail dns records with the registrar//host squarespace, It will not let me save any hostname that ends with a…
-
-### Webmail — 1 tickets
-
-- **[#8610](https://tbpro.zendesk.com/agent/tickets/8610)** · Removal of account in webmail — why: **confused** · how: **informed**
-  > Dear [name], under https://[domain]/ are shown two accounts, my own ([email]) and the account of my wife ([email]), please see attached screenshot 1. If I log in to my wifes…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#8607](https://tbpro.zendesk.com/agent/tickets/8607)** · je me souvien plus du mots de passe principal — why: **blocked** · how: **explained**
-  > nouveaux mots de passe
-
-### Account access issues — 1 tickets
-
-- **[#8606](https://tbpro.zendesk.com/agent/tickets/8606)** · my e-mail address — why: **confused** · how: **informed**
-  > I can not access my e-mail address because my computer crashed and i have it working again but had to reinstall everything and now i would like to be able to access [email] I…
-
 ### Account creation / signup confusion — 1 tickets
 
-- **[#8596](https://tbpro.zendesk.com/agent/tickets/8596)** · Please help me to seek a refund and to cancel — why: **change request** · how: **actioned**
-  > Hi, After being signed up for over a week, I have changed my mind about Thundermail. May I please ask for a refund? Respectfully yours, Jonathan
+- **[#8622](https://tbpro.zendesk.com/agent/tickets/8622)** · Failed to load subscription information
+  > I just paid for a subscription, and email is working both from webmail and from Thunderbird. However I think something is wrong with my account. It might be because I previously…
 
-### Account access issues — account recovery — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#8588](https://tbpro.zendesk.com/agent/tickets/8588)** · recovery mail address — why: **blocked** · how: **actioned**
-  > Hello, How can I change the recovery mail address which I used during account setup? Thanks,
+- **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
+  > Hello, I made an account and made the recovery email my thunderbird email and cannot access it. I apologize for the mistake The email that I made is [email]
+
+### Appointment / calendar — 1 tickets
+
+- **[#8616](https://tbpro.zendesk.com/agent/tickets/8616)** · Making sub-calendars appear in [domain] — why: **confused** · how: **investigated**
+  > Hi! I recently set up my Thundermail account, and I'm running into a minor issue. I typically organize my events into subcalendars (i.e. Thundermail Calendar AND Flights AND…
 
 ## New tickets — last 24h
 
-- [8588](https://tbpro.zendesk.com/agent/tickets/8588) · [pending] · 2026-09-10T20:30 · recovery mail address
-- [8592](https://tbpro.zendesk.com/agent/tickets/8592) · [pending] · 2026-09-10T23:30 · HmFLwJePWfkaXDjADGh
-- [8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10T23:39 · Please help me to seek a refund and to cancel
-- [8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11T08:13 · Subscription cancellation
-- [8605](https://tbpro.zendesk.com/agent/tickets/8605) · [pending] · 2026-09-11T14:40 · Problem with sending emails
-- [8606](https://tbpro.zendesk.com/agent/tickets/8606) · [pending] · 2026-09-11T15:01 · my e-mail address
-- [8607](https://tbpro.zendesk.com/agent/tickets/8607) · [pending] · 2026-09-11T15:22 · je me souvien plus du mots de passe principal
-- [8608](https://tbpro.zendesk.com/agent/tickets/8608) · [pending] · 2026-09-11T15:26 · mot de passe
-- [8610](https://tbpro.zendesk.com/agent/tickets/8610) · [pending] · 2026-09-11T16:52 · Removal of account in webmail
-- [8611](https://tbpro.zendesk.com/agent/tickets/8611) · [pending] · 2026-09-11T17:14 · can't verify custom domain
-- [8613](https://tbpro.zendesk.com/agent/tickets/8613) · [pending] · 2026-09-11T17:43 · Checking Email with an Email Archiver
+- [8616](https://tbpro.zendesk.com/agent/tickets/8616) · [open] · 2026-09-11T20:41 · Making sub-calendars appear in [domain]
+- [8619](https://tbpro.zendesk.com/agent/tickets/8619) · [new] · 2026-09-12T00:23 · Account Creation
+- [8622](https://tbpro.zendesk.com/agent/tickets/8622) · [new] · 2026-09-12T03:01 · Failed to load subscription information
 
 ## Solved — last 24h
 
-- · [8010](https://tbpro.zendesk.com/agent/tickets/8010) · 2026-09-11T04:01 · Display name not carried through from sign up
-- · [8501](https://tbpro.zendesk.com/agent/tickets/8501) · 2026-09-11T16:07 · Server
-- · [8520](https://tbpro.zendesk.com/agent/tickets/8520) · 2026-09-11T17:02 · Unable to log in to Thundermail – password reset email not received
-- · [8577](https://tbpro.zendesk.com/agent/tickets/8577) · 2026-09-11T17:13 · Refund Thundermail
-- · [8484](https://tbpro.zendesk.com/agent/tickets/8484) · 2026-09-11T17:14 · Account encryption
-- 👍 [7897](https://tbpro.zendesk.com/agent/tickets/7897) · 2026-09-11T17:39 · Issues with uploading files to Send
-- · [8498](https://tbpro.zendesk.com/agent/tickets/8498) · 2026-09-11T19:01 · Attached pdf file
+- · [8530](https://tbpro.zendesk.com/agent/tickets/8530) · 2026-09-11T21:17 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
+- · [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-11T22:01 · Create new address book?
+- 👍 [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-12T01:01 · Email aliases seemingly unrestricted
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
