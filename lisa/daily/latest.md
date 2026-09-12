@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 13:17 ET** · refreshes hourly_  
+_Updated: **2026-09-12 14:23 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 34** of rollout — **35,000 invitees**, **392 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 34** of rollout — **35,000 invitees**, **393 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
-- **392** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **6** solved in last 24h
+- **393** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (116 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
-- **Median AHT**: 133.5h · mean 150.4h (proxy: updated_at − created_at, 296 solved tickets)
+- **Median AHT**: 133.5h · mean 150.5h (proxy: updated_at − created_at, 296 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -143,7 +143,7 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 **Last 24h** — 1 new:
 
-- [Sync](https://ideas.tb.pro/p/sync) · 1 votes · _untagged_
+- [Sync](https://ideas.tb.pro/p/sync) · 0 votes · _untagged_
   > What you’d like to seeCategories are synchronizedWhy it mattersTo organize contacts into groups on your smartphoneYour use caseI sync my contacts from the “Cardbook” address book with DAVy5 on my…
 
 ## Status breakdown (cumulative)
@@ -151,12 +151,12 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **solved**: 296
 - **pending**: 75
 - **open**: 15
-- **new**: 5
+- **new**: 6
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 230
+- **Account Hub**: 231
 - **Thundermail**: 126
 - **Appointment**: 8
 - **Send**: 8
@@ -214,6 +214,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
   > Hello, I made an account and made the recovery email my thunderbird email and cannot access it. I apologize for the mistake The email that I made is [email]
 
+### Aliases — 1 tickets
+
+- **[#8634](https://tbpro.zendesk.com/agent/tickets/8634)** · Lost Password - cannot access my account anymore
+  > Hi, I joined Thundermail on september 6th, but unfortunately lost my password, I used, when signing up. I already paid the yearly subscription fee but cannot login, as far as I…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#8633](https://tbpro.zendesk.com/agent/tickets/8633)** · cancel trial 
@@ -242,6 +247,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8624](https://tbpro.zendesk.com/agent/tickets/8624) · [new] · 2026-09-12T06:55 · eohIkZEajswdZlwyUVrFnsVU
 - [8632](https://tbpro.zendesk.com/agent/tickets/8632) · [new] · 2026-09-12T15:34 · Questions about Thundermail features
 - [8633](https://tbpro.zendesk.com/agent/tickets/8633) · [new] · 2026-09-12T17:11 · cancel trial 
+- [8634](https://tbpro.zendesk.com/agent/tickets/8634) · [new] · 2026-09-12T17:19 · Lost Password - cannot access my account anymore
 
 ## Solved — last 24h
 
@@ -249,6 +255,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-12T01:01 · Email aliases seemingly unrestricted
 - 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-12T13:31 · Create new address book?
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-12T15:05 · Unable to Send From Custom Domain in Thundermail Webmail
+- · [8577](https://tbpro.zendesk.com/agent/tickets/8577) · 2026-09-12T18:01 · Refund Thundermail
+- · [8484](https://tbpro.zendesk.com/agent/tickets/8484) · 2026-09-12T18:01 · Account encryption
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
