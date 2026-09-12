@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 10:19 ET** · refreshes hourly_  
+_Updated: **2026-09-12 11:18 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,25 +9,25 @@ Flight 8 is **day 34** of rollout — **35,000 invitees**, **390 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
+- **4** new tickets in last 24h · **4** solved in last 24h
 - **390** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (115 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
-- **Median AHT**: 133.1h · mean 148.5h (proxy: updated_at − created_at, 296 solved tickets)
+- **Median AHT**: 133.3h · mean 150.1h (proxy: updated_at − created_at, 297 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
-### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · Tracker: Who did we have to manually verify email for?
+### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [pending] · 2026-09-02 · _Cant get verification link_
 
-### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [hold] · [Stormbox Issue 60] Missing Custom Aliases from 'From' dropdown in Webmail
+### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [hold] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
+  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
-### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · Thundermail: Account refunded and canceled, purge queue
+### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
 - 41 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
@@ -141,11 +141,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 296
-- **pending**: 76
-- **open**: 11
+- **solved**: 297
+- **pending**: 75
+- **open**: 12
 - **new**: 3
-- **hold**: 3
+- **hold**: 2
 - **closed**: 1
 
 ## Service (cumulative)
@@ -230,6 +230,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8530](https://tbpro.zendesk.com/agent/tickets/8530) · 2026-09-11T21:17 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
 - 👍 [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-12T01:01 · Email aliases seemingly unrestricted
 - 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-12T13:31 · Create new address book?
+- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-12T15:05 · Unable to Send From Custom Domain in Thundermail Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
