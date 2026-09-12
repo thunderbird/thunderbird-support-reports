@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-11 20:53 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 33** of rollout — **35,000 invitees**, **387 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 33** of rollout — **35,000 invitees**, **388 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
 - **11** new tickets in last 24h · **7** solved in last 24h
-- **387** tickets total since launch · contact rate **1%** of 35000 invitees
+- **388** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (112 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
@@ -20,7 +20,7 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **387 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nouveaux mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"nouveaux mots"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -159,12 +159,13 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **solved**: 297
 - **pending**: 85
 - **hold**: 3
+- **new**: 1
 - **open**: 1
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 227
+- **Account Hub**: 228
 - **Thundermail**: 125
 - **Appointment**: 8
 - **Send**: 8
