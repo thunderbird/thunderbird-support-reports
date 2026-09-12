@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 17:19 ET** · refreshes hourly_  
+_Updated: **2026-09-12 18:19 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 34** of rollout — **35,000 invitees**, **394 tickets** so fa
 
 ## At a glance
 
-- **8** new tickets in last 24h · **6** solved in last 24h
+- **8** new tickets in last 24h · **5** solved in last 24h
 - **394** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 93%  (116 good / 9 bad)
+- **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
-- **Median AHT**: 133.5h · mean 150.5h (proxy: updated_at − created_at, 296 solved tickets)
+- **Median AHT**: 133.7h · mean 150.9h (proxy: updated_at − created_at, 295 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -148,9 +148,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 296
+- **solved**: 295
 - **pending**: 73
-- **open**: 17
+- **open**: 18
 - **new**: 7
 - **closed**: 1
 
@@ -254,7 +254,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [8530](https://tbpro.zendesk.com/agent/tickets/8530) · 2026-09-11T21:17 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
 - 👍 [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-12T01:01 · Email aliases seemingly unrestricted
 - 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-12T13:31 · Create new address book?
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-12T15:05 · Unable to Send From Custom Domain in Thundermail Webmail
