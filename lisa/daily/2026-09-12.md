@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 12:21 ET** · refreshes hourly_  
+_Updated: **2026-09-12 13:17 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 34** of rollout — **35,000 invitees**, **391 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 34** of rollout — **35,000 invitees**, **392 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **391** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 93%  (115 good / 9 bad)
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **392** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 93%  (116 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
-- **Median AHT**: 133.3h · mean 150.1h (proxy: updated_at − created_at, 297 solved tickets)
+- **Median AHT**: 133.5h · mean 150.4h (proxy: updated_at − created_at, 296 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -134,9 +134,10 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8633](https://tbpro.zendesk.com/agent/tickets/8633) · [new] · _cancel trial _
+  > I’m pretty disappointed in the trial. I thought it was monthly billing - and you have no mobile app for iOS? That’s a joke. Can you please refund me and cancel? I’ve only been on it sub two days and haven’t used it. You…
 
 ## New ideas on FeatureOS
 
@@ -147,16 +148,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 297
+- **solved**: 296
 - **pending**: 75
-- **open**: 12
-- **new**: 4
-- **hold**: 2
+- **open**: 15
+- **new**: 5
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 229
+- **Account Hub**: 230
 - **Thundermail**: 126
 - **Appointment**: 8
 - **Send**: 8
@@ -214,6 +214,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
   > Hello, I made an account and made the recovery email my thunderbird email and cannot access it. I apologize for the mistake The email that I made is [email]
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8633](https://tbpro.zendesk.com/agent/tickets/8633)** · cancel trial 
+  > I’m pretty disappointed in the trial. I thought it was monthly billing - and you have no mobile app for iOS? That’s a joke. Can you please refund me and cancel? I’ve only been on…
+
 ### Email migration / import — 1 tickets
 
 - **[#8632](https://tbpro.zendesk.com/agent/tickets/8632)** · Questions about Thundermail features
@@ -236,6 +241,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8622](https://tbpro.zendesk.com/agent/tickets/8622) · [new] · 2026-09-12T03:01 · Failed to load subscription information
 - [8624](https://tbpro.zendesk.com/agent/tickets/8624) · [new] · 2026-09-12T06:55 · eohIkZEajswdZlwyUVrFnsVU
 - [8632](https://tbpro.zendesk.com/agent/tickets/8632) · [new] · 2026-09-12T15:34 · Questions about Thundermail features
+- [8633](https://tbpro.zendesk.com/agent/tickets/8633) · [new] · 2026-09-12T17:11 · cancel trial 
 
 ## Solved — last 24h
 
