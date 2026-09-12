@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-11
 
-_Updated: **2026-09-11 20:53 ET** · refreshes hourly_  
+_Updated: **2026-09-11 21:26 ET** · refreshes hourly_  
 _24h window: 2026-09-10T16:00 → 2026-09-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -12,7 +12,7 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **388 tickets** so fa
 - **11** new tickets in last 24h · **7** solved in last 24h
 - **388** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 93%  (112 good / 9 bad)
+- **CSAT (since launch)**: 93%  (113 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 47
 - **Median AHT**: 132.9h · mean 148.2h (proxy: updated_at − created_at, 297 solved tickets)
 
@@ -20,7 +20,7 @@ Flight 8 is **day 33** of rollout — **35,000 invitees**, **388 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nouveaux mots"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
+- **"mots passe"** — 2 tickets in 24h (new; baseline 0 cum) — [#8607](https://tbpro.zendesk.com/agent/tickets/8607), [#8608](https://tbpro.zendesk.com/agent/tickets/8608)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
