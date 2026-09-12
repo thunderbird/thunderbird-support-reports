@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 15:16 ET** · refreshes hourly_  
+_Updated: **2026-09-12 16:20 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 34** of rollout — **35,000 invitees**, **393 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 34** of rollout — **35,000 invitees**, **394 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **6** solved in last 24h
-- **393** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **6** solved in last 24h
+- **394** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (116 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
@@ -151,12 +151,12 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **solved**: 296
 - **pending**: 74
 - **open**: 16
-- **new**: 6
+- **new**: 7
 - **closed**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 231
+- **Account Hub**: 232
 - **Thundermail**: 126
 - **Appointment**: 8
 - **Send**: 8
@@ -207,8 +207,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#8636](https://tbpro.zendesk.com/agent/tickets/8636)** · additional accounts
+  > how to add different accounts to the browser version of thundermail
 - **[#8624](https://tbpro.zendesk.com/agent/tickets/8624)** · eohIkZEajswdZlwyUVrFnsVU
   > TqKRESOhtTnrPOBr
 - **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
@@ -248,6 +250,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8632](https://tbpro.zendesk.com/agent/tickets/8632) · [new] · 2026-09-12T15:34 · Questions about Thundermail features
 - [8633](https://tbpro.zendesk.com/agent/tickets/8633) · [new] · 2026-09-12T17:11 · cancel trial 
 - [8634](https://tbpro.zendesk.com/agent/tickets/8634) · [new] · 2026-09-12T17:19 · Lost Password - cannot access my account anymore
+- [8636](https://tbpro.zendesk.com/agent/tickets/8636) · [new] · 2026-09-12T19:56 · additional accounts
 
 ## Solved — last 24h
 
