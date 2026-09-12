@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-12
 
-_Updated: **2026-09-12 02:32 ET** · refreshes hourly_  
+_Updated: **2026-09-12 03:21 ET** · refreshes hourly_  
 _24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 34** of rollout — **35,000 invitees**, **389 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 34** of rollout — **35,000 invitees**, **390 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
-- **389** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **390** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (113 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 47
@@ -63,7 +63,7 @@ Flight 8 is **day 34** of rollout — **35,000 invitees**, **389 tickets** so fa
   - [#8423](https://tbpro.zendesk.com/agent/tickets/8423) · [pending] · 2026-09-06 · _Cancel/Refund_
   - [#8449](https://tbpro.zendesk.com/agent/tickets/8449) · [pending] · 2026-09-07 · _Cancellation refund request_
   - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [pending] · 2026-09-07 · _Delte my Account_
-  - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [pending] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
+  - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [open] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
   - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09 · _Cancel subscription_
   - [#8568](https://tbpro.zendesk.com/agent/tickets/8568) · [pending] · 2026-09-10 · _Not what I thought..._
@@ -141,10 +141,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 297
-- **pending**: 81
-- **open**: 5
+- **pending**: 80
+- **open**: 6
+- **new**: 3
 - **hold**: 3
-- **new**: 2
 - **closed**: 1
 
 ## Service (cumulative)
@@ -200,15 +200,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#8624](https://tbpro.zendesk.com/agent/tickets/8624)** · eohIkZEajswdZlwyUVrFnsVU
+  > TqKRESOhtTnrPOBr
+- **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
+  > Hello, I made an account and made the recovery email my thunderbird email and cannot access it. I apologize for the mistake The email that I made is [email]
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#8622](https://tbpro.zendesk.com/agent/tickets/8622)** · Failed to load subscription information
   > I just paid for a subscription, and email is working both from webmail and from Thunderbird. However I think something is wrong with my account. It might be because I previously…
-
-### Other / uncategorized — 1 tickets
-
-- **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
-  > Hello, I made an account and made the recovery email my thunderbird email and cannot access it. I apologize for the mistake The email that I made is [email]
 
 ### Appointment / calendar — 1 tickets
 
@@ -220,6 +222,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8616](https://tbpro.zendesk.com/agent/tickets/8616) · [open] · 2026-09-11T20:41 · Making sub-calendars appear in [domain]
 - [8619](https://tbpro.zendesk.com/agent/tickets/8619) · [new] · 2026-09-12T00:23 · Account Creation
 - [8622](https://tbpro.zendesk.com/agent/tickets/8622) · [new] · 2026-09-12T03:01 · Failed to load subscription information
+- [8624](https://tbpro.zendesk.com/agent/tickets/8624) · [new] · 2026-09-12T06:55 · eohIkZEajswdZlwyUVrFnsVU
 
 ## Solved — last 24h
 
