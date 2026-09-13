@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-13
 
-_Updated: **2026-09-13 11:19 ET** · refreshes hourly_  
+_Updated: **2026-09-13 12:21 ET** · refreshes hourly_  
 _24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 35** of rollout — **35,000 invitees**, **395 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 35** of rollout — **35,000 invitees**, **396 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
-- **395** tickets total since launch · contact rate **1%** of 35000 invitees
+- **2** new tickets in last 24h · **2** solved in last 24h
+- **396** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 48
-- **Median AHT**: 133.7h · mean 151.1h (proxy: updated_at − created_at, 291 solved tickets)
+- **Median AHT**: 133.9h · mean 151.9h (proxy: updated_at − created_at, 293 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -140,15 +140,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 291
-- **pending**: 70
+- **solved**: 293
+- **pending**: 68
 - **open**: 22
-- **new**: 8
+- **new**: 9
 - **closed**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 233
+- **Account Hub**: 234
 - **Thundermail**: 126
 - **Appointment**: 8
 - **Send**: 8
@@ -199,6 +199,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### App setup / configuration — 1 tickets
+
+- **[#8649](https://tbpro.zendesk.com/agent/tickets/8649)** · Add my account
+  > Protocol please
+
 ### Aliases — 1 tickets
 
 - **[#8644](https://tbpro.zendesk.com/agent/tickets/8644)** · email alias not working
@@ -207,10 +212,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8644](https://tbpro.zendesk.com/agent/tickets/8644) · [new] · 2026-09-13T11:43 · email alias not working
+- [8649](https://tbpro.zendesk.com/agent/tickets/8649) · [new] · 2026-09-13T15:47 · Add my account
 
 ## Solved — last 24h
 
-_(none)_
+- · [8321](https://tbpro.zendesk.com/agent/tickets/8321) · 2026-09-13T16:01 · Verifying Custom domain
+- · [8226](https://tbpro.zendesk.com/agent/tickets/8226) · 2026-09-13T16:01 · Re: Correction: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
