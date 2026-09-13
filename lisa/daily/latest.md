@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-13
 
-_Updated: **2026-09-13 08:28 ET** · refreshes hourly_  
+_Updated: **2026-09-13 09:18 ET** · refreshes hourly_  
 _24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 35** of rollout — **35,000 invitees**, **395 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 48
-- **Median AHT**: 133.9h · mean 151.0h (proxy: updated_at − created_at, 293 solved tickets)
+- **Median AHT**: 133.7h · mean 151.1h (proxy: updated_at − created_at, 291 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -30,7 +30,7 @@ Flight 8 is **day 35** of rollout — **35,000 invitees**, **395 tickets** so fa
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
 - 41 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
-  - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [solved] · 2026-08-10 · _Refund request_
+  - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
   - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [solved] · 2026-08-16 · _Cancel_
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
@@ -140,11 +140,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 293
+- **solved**: 291
 - **pending**: 70
-- **open**: 21
+- **open**: 22
 - **new**: 8
-- **closed**: 3
+- **closed**: 4
 
 ## Service (cumulative)
 
