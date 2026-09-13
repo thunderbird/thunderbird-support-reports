@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-13
 
-_Updated: **2026-09-13 15:16 ET** · refreshes hourly_  
+_Updated: **2026-09-13 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 35** of rollout — **35,000 invitees**, **397 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 48
-- **Median AHT**: 134.4h · mean 153.6h (proxy: updated_at − created_at, 298 solved tickets)
+- **Median AHT**: 136.4h · mean 154.1h (proxy: updated_at − created_at, 305 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -58,11 +58,11 @@ Flight 8 is **day 35** of rollout — **35,000 invitees**, **397 tickets** so fa
   - [#8328](https://tbpro.zendesk.com/agent/tickets/8328) · [solved] · 2026-09-03 · _Refund_
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [solved] · 2026-09-04 · _Cancellation and refund_
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [pending] · 2026-09-04 · _Refund_
-  - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [pending] · 2026-09-05 · _Abo Widerruf_
+  - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [solved] · 2026-09-05 · _Abo Widerruf_
   - [#8391](https://tbpro.zendesk.com/agent/tickets/8391) · [solved] · 2026-09-05 · _Cancel and refund within 14 days_
   - [#8423](https://tbpro.zendesk.com/agent/tickets/8423) · [pending] · 2026-09-06 · _Cancel/Refund_
-  - [#8449](https://tbpro.zendesk.com/agent/tickets/8449) · [pending] · 2026-09-07 · _Cancellation refund request_
-  - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [pending] · 2026-09-07 · _Delte my Account_
+  - [#8449](https://tbpro.zendesk.com/agent/tickets/8449) · [solved] · 2026-09-07 · _Cancellation refund request_
+  - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [solved] · 2026-09-07 · _Delte my Account_
   - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [open] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [pending] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
   - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09 · _Cancel subscription_
@@ -140,8 +140,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 298
-- **pending**: 62
+- **solved**: 305
+- **pending**: 55
 - **open**: 22
 - **new**: 10
 - **closed**: 5
