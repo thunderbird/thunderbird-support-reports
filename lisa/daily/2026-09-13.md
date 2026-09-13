@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-13
 
-_Updated: **2026-09-13 13:17 ET** · refreshes hourly_  
+_Updated: **2026-09-13 14:24 ET** · refreshes hourly_  
 _24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 35** of rollout — **35,000 invitees**, **397 tickets** so fa
 
 ## At a glance
 
-- **3** new tickets in last 24h · **5** solved in last 24h
+- **3** new tickets in last 24h · **8** solved in last 24h
 - **397** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 48
-- **Median AHT**: 134.3h · mean 152.7h (proxy: updated_at − created_at, 295 solved tickets)
+- **Median AHT**: 134.4h · mean 153.6h (proxy: updated_at − created_at, 298 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -59,7 +59,7 @@ Flight 8 is **day 35** of rollout — **35,000 invitees**, **397 tickets** so fa
   - [#8349](https://tbpro.zendesk.com/agent/tickets/8349) · [solved] · 2026-09-04 · _Cancellation and refund_
   - [#8366](https://tbpro.zendesk.com/agent/tickets/8366) · [pending] · 2026-09-04 · _Refund_
   - [#8388](https://tbpro.zendesk.com/agent/tickets/8388) · [pending] · 2026-09-05 · _Abo Widerruf_
-  - [#8391](https://tbpro.zendesk.com/agent/tickets/8391) · [pending] · 2026-09-05 · _Cancel and refund within 14 days_
+  - [#8391](https://tbpro.zendesk.com/agent/tickets/8391) · [solved] · 2026-09-05 · _Cancel and refund within 14 days_
   - [#8423](https://tbpro.zendesk.com/agent/tickets/8423) · [pending] · 2026-09-06 · _Cancel/Refund_
   - [#8449](https://tbpro.zendesk.com/agent/tickets/8449) · [pending] · 2026-09-07 · _Cancellation refund request_
   - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [pending] · 2026-09-07 · _Delte my Account_
@@ -140,8 +140,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 295
-- **pending**: 65
+- **solved**: 298
+- **pending**: 62
 - **open**: 22
 - **new**: 10
 - **closed**: 5
@@ -224,6 +224,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8376](https://tbpro.zendesk.com/agent/tickets/8376) · 2026-09-13T17:01 · I  cannot establish my Email in Thunderbird
 - · [8352](https://tbpro.zendesk.com/agent/tickets/8352) · 2026-09-13T17:01 · Cannot configure Thundermail address in Thunderbird
 - · [8302](https://tbpro.zendesk.com/agent/tickets/8302) · 2026-09-13T17:01 · Mailboxes for few users at single personal domain
+- · [8391](https://tbpro.zendesk.com/agent/tickets/8391) · 2026-09-13T18:01 · Cancel and refund within 14 days
+- · [8377](https://tbpro.zendesk.com/agent/tickets/8377) · 2026-09-13T18:01 · Thunderbird Desktop Login Hangs
+- · [8111](https://tbpro.zendesk.com/agent/tickets/8111) · 2026-09-13T18:01 · Mail server not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
