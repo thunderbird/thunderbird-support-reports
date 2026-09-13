@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-13
 
-_Updated: **2026-09-13 07:17 ET** · refreshes hourly_  
+_Updated: **2026-09-13 08:28 ET** · refreshes hourly_  
 _24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 35** of rollout — **35,000 invitees**, **394 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 35** of rollout — **35,000 invitees**, **395 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **0** solved in last 24h
-- **394** tickets total since launch · contact rate **1%** of 35000 invitees
+- **1** new tickets in last 24h · **0** solved in last 24h
+- **395** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 48
@@ -143,12 +143,12 @@ _(none in last 24h)_
 - **solved**: 293
 - **pending**: 70
 - **open**: 21
-- **new**: 7
+- **new**: 8
 - **closed**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 232
+- **Account Hub**: 233
 - **Thundermail**: 126
 - **Appointment**: 8
 - **Send**: 8
@@ -199,11 +199,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Aliases — 1 tickets
+
+- **[#8644](https://tbpro.zendesk.com/agent/tickets/8644)** · email alias not working
+  > Hello! I just started configuring my first domain ([domain]), domain is verified and I set up an email alias [email]. But when I send an email to [email], I get an user unknown.…
 
 ## New tickets — last 24h
 
-_(none)_
+- [8644](https://tbpro.zendesk.com/agent/tickets/8644) · [new] · 2026-09-13T11:43 · email alias not working
 
 ## Solved — last 24h
 
