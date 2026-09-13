@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-09-12
+# Thundermail — Flight 8 Live Report · 2026-09-13
 
-_Updated: **2026-09-12 23:26 ET** · refreshes hourly_  
-_24h window: 2026-09-11T16:00 → 2026-09-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-13 00:28 ET** · refreshes hourly_  
+_24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 34** of rollout — **35,000 invitees**, **394 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
+Flight 8 is **day 35** of rollout — **35,000 invitees**, **394 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **5** solved in last 24h
+- **0** new tickets in last 24h · **0** solved in last 24h
 - **394** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 48
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 48
 - **Median AHT**: 133.9h · mean 151.0h (proxy: updated_at − created_at, 293 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"reserved address"** — 2 tickets in 24h (new; baseline 0 cum) — [#8622](https://tbpro.zendesk.com/agent/tickets/8622), [#8632](https://tbpro.zendesk.com/agent/tickets/8632)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -134,23 +128,21 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [8633](https://tbpro.zendesk.com/agent/tickets/8633) · [new] · _cancel trial _
-  > I’m pretty disappointed in the trial. I thought it was monthly billing - and you have no mobile app for iOS? That’s a joke. Can you please refund me and cancel? I’ve only been on it sub two days and haven’t used it. You…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Sync](https://ideas.tb.pro/p/sync) · 0 votes · _untagged_
-  > What you’d like to seeCategories are synchronizedWhy it mattersTo organize contacts into groups on your smartphoneYour use caseI sync my contacts from the “Cardbook” address book with DAVy5 on my…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 293
-- **pending**: 71
-- **open**: 20
+- **pending**: 70
+- **open**: 21
 - **new**: 7
 - **closed**: 3
 
@@ -207,58 +199,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
-
-- **[#8636](https://tbpro.zendesk.com/agent/tickets/8636)** · additional accounts
-  > how to add different accounts to the browser version of thundermail
-- **[#8624](https://tbpro.zendesk.com/agent/tickets/8624)** · eohIkZEajswdZlwyUVrFnsVU
-  > TqKRESOhtTnrPOBr
-- **[#8619](https://tbpro.zendesk.com/agent/tickets/8619)** · Account Creation
-  > Hello, I made an account and made the recovery email my thunderbird email and cannot access it. I apologize for the mistake The email that I made is [email]
-
-### Aliases — 1 tickets
-
-- **[#8634](https://tbpro.zendesk.com/agent/tickets/8634)** · Lost Password - cannot access my account anymore
-  > Hi, I joined Thundermail on september 6th, but unfortunately lost my password, I used, when signing up. I already paid the yearly subscription fee but cannot login, as far as I…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8633](https://tbpro.zendesk.com/agent/tickets/8633)** · cancel trial 
-  > I’m pretty disappointed in the trial. I thought it was monthly billing - and you have no mobile app for iOS? That’s a joke. Can you please refund me and cancel? I’ve only been on…
-
-### Email migration / import — 1 tickets
-
-- **[#8632](https://tbpro.zendesk.com/agent/tickets/8632)** · Questions about Thundermail features
-  > Hello [name], I recently received Early Bird access and created my Thundermail account, I was register the address <[email]>. Before purchasing the Early Bird subscription, I have…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#8622](https://tbpro.zendesk.com/agent/tickets/8622)** · Failed to load subscription information
-  > I just paid for a subscription, and email is working both from webmail and from Thunderbird. However I think something is wrong with my account. It might be because I previously…
-
-### Appointment / calendar — 1 tickets
-
-- **[#8616](https://tbpro.zendesk.com/agent/tickets/8616)** · Making sub-calendars appear in [domain] — why: **confused** · how: **investigated**
-  > Hi! I recently set up my Thundermail account, and I'm running into a minor issue. I typically organize my events into subcalendars (i.e. Thundermail Calendar AND Flights AND…
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [8616](https://tbpro.zendesk.com/agent/tickets/8616) · [open] · 2026-09-11T20:41 · Making sub-calendars appear in [domain]
-- [8619](https://tbpro.zendesk.com/agent/tickets/8619) · [new] · 2026-09-12T00:23 · Account Creation
-- [8622](https://tbpro.zendesk.com/agent/tickets/8622) · [new] · 2026-09-12T03:01 · Failed to load subscription information
-- [8624](https://tbpro.zendesk.com/agent/tickets/8624) · [new] · 2026-09-12T06:55 · eohIkZEajswdZlwyUVrFnsVU
-- [8632](https://tbpro.zendesk.com/agent/tickets/8632) · [new] · 2026-09-12T15:34 · Questions about Thundermail features
-- [8633](https://tbpro.zendesk.com/agent/tickets/8633) · [new] · 2026-09-12T17:11 · cancel trial 
-- [8634](https://tbpro.zendesk.com/agent/tickets/8634) · [new] · 2026-09-12T17:19 · Lost Password - cannot access my account anymore
-- [8636](https://tbpro.zendesk.com/agent/tickets/8636) · [new] · 2026-09-12T19:56 · additional accounts
+_(none)_
 
 ## Solved — last 24h
 
-- 👍 [8400](https://tbpro.zendesk.com/agent/tickets/8400) · 2026-09-12T01:01 · Email aliases seemingly unrestricted
-- 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-12T13:31 · Create new address book?
-- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-12T15:05 · Unable to Send From Custom Domain in Thundermail Webmail
-- · [8577](https://tbpro.zendesk.com/agent/tickets/8577) · 2026-09-12T18:01 · Refund Thundermail
-- · [8484](https://tbpro.zendesk.com/agent/tickets/8484) · 2026-09-12T18:01 · Account encryption
+_(none)_
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
