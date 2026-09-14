@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 17:18 ET** · refreshes hourly_  
+_Updated: **2026-09-14 18:21 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 36** of rollout — **35,000 invitees**, **411 tickets** so fa
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 52
-- **Median AHT**: 136.9h · mean 153.9h (proxy: updated_at − created_at, 331 solved tickets)
+- **Median AHT**: 136.9h · mean 154.1h (proxy: updated_at − created_at, 331 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -158,15 +158,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 331
-- **pending**: 55
-- **open**: 10
-- **hold**: 8
-- **closed**: 7
+- **pending**: 56
+- **open**: 9
+- **closed**: 8
+- **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 240
-- **Thundermail**: 134
+- **Account Hub**: 239
+- **Thundermail**: 136
 - **Send**: 9
 - **Appointment**: 8
 
@@ -177,14 +177,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 101
 - **blocked** + **explained**: 70
 - **change request** + **actioned**: 59
-- **blocked** + **investigated**: 21
+- **blocked** + **investigated**: 22
 - **concerned** + **explained**: 17
+- **confused** + **explained**: 17
 - **request** + **redirected**: 16
-- **confused** + **explained**: 16
 - **curious** + **informed**: 16
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 10
-- **blocked** + **escalated**: 8
+- **blocked** + **escalated**: 7
 - **blocked** + **informed**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
