@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 08:34 ET** · refreshes hourly_  
+_Updated: **2026-09-14 09:24 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **401 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **403 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **19** solved in last 24h
-- **401** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **6** new tickets in last 24h · **20** solved in last 24h
+- **403** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
-- **Median AHT**: 137.5h · mean 154.4h (proxy: updated_at − created_at, 315 solved tickets)
+- **Median AHT**: 137.5h · mean 154.5h (proxy: updated_at − created_at, 315 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"possible change"** — 2 tickets in 24h (10.0× baseline; baseline 7 cum) — [#8665](https://tbpro.zendesk.com/agent/tickets/8665), [#8672](https://tbpro.zendesk.com/agent/tickets/8672)
 
 ## Known problems — 3 problem(s), 43 incident(s)
 
@@ -146,13 +152,13 @@ _(none in last 24h)_
 - **solved**: 315
 - **pending**: 43
 - **open**: 23
-- **new**: 14
+- **new**: 16
 - **closed**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 235
-- **Thundermail**: 129
+- **Thundermail**: 131
 - **Appointment**: 8
 - **Send**: 8
 
@@ -202,12 +208,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#8673](https://tbpro.zendesk.com/agent/tickets/8673)** · forwrd this on
+  > need to let everyone know how things are going
 - **[#8665](https://tbpro.zendesk.com/agent/tickets/8665)** · Change Email address
   > Good day, Will it be possible to change the Email address for Thundermail from [email] to [email]
 - **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged.
   > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
+
+### Aliases — 1 tickets
+
+- **[#8672](https://tbpro.zendesk.com/agent/tickets/8672)** · Change Primary
+  > Is it possible to change my primary email address to an alias that I have? If so, could you please change my primary email address to [email]
 
 ### Bug report / app crash / not working — 1 tickets
 
@@ -225,6 +238,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [new] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
 - [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [new] · 2026-09-14T06:10 · Change Email address
 - [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [new] · 2026-09-14T12:07 · Print bug
+- [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [new] · 2026-09-14T12:36 · Change Primary
+- [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [new] · 2026-09-14T13:20 · forwrd this on
 
 ## Solved — last 24h
 
@@ -247,6 +262,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8342](https://tbpro.zendesk.com/agent/tickets/8342) · 2026-09-13T23:01 · Need to make my subscription payment
 - · [8267](https://tbpro.zendesk.com/agent/tickets/8267) · 2026-09-14T00:01 · Bug when loading webmail on iOS - Safari
 - · [8409](https://tbpro.zendesk.com/agent/tickets/8409) · 2026-09-14T03:01 · Change email address
+- 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-14T13:18 · Create new address book?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
