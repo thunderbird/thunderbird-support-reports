@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 16:21 ET** · refreshes hourly_  
+_Updated: **2026-09-14 17:18 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 36** of rollout — **35,000 invitees**, **411 tickets** so fa
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 52
-- **Median AHT**: 136.9h · mean 154.3h (proxy: updated_at − created_at, 329 solved tickets)
+- **Median AHT**: 136.9h · mean 153.9h (proxy: updated_at − created_at, 331 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -157,10 +157,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 329
-- **pending**: 57
-- **open**: 11
-- **hold**: 7
+- **solved**: 331
+- **pending**: 55
+- **open**: 10
+- **hold**: 8
 - **closed**: 7
 
 ## Service (cumulative)
@@ -192,9 +192,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 3
 - **confused** + **investigated**: 3
 - **request** + **explained**: 3
-- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **actioned**: 2
+- **curious** + **investigated**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
@@ -287,11 +287,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [pending] · 2026-09-14T13:20 · forwrd this on
 - [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [pending] · 2026-09-14T13:35 · Cannot Login to Desktop App
 - [8676](https://tbpro.zendesk.com/agent/tickets/8676) · [pending] · 2026-09-14T14:37 · Forgot Thunderbird Email ID
-- [8678](https://tbpro.zendesk.com/agent/tickets/8678) · [pending] · 2026-09-14T16:46 · Double messages on personal domain
+- [8678](https://tbpro.zendesk.com/agent/tickets/8678) · [open] · 2026-09-14T16:46 · Double messages on personal domain
 - [8679](https://tbpro.zendesk.com/agent/tickets/8679) · [pending] · 2026-09-14T17:01 · Support for session Managment
 - [8681](https://tbpro.zendesk.com/agent/tickets/8681) · [pending] · 2026-09-14T17:08 · Does a deleted mail get assigned to another user
 - [8683](https://tbpro.zendesk.com/agent/tickets/8683) · [pending] · 2026-09-14T17:54 · sign up/in issue
-- [8684](https://tbpro.zendesk.com/agent/tickets/8684) · [pending] · 2026-09-14T18:11 · Monthly subscription?
+- [8684](https://tbpro.zendesk.com/agent/tickets/8684) · [solved] · 2026-09-14T18:11 · Monthly subscription?
 - [8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · 2026-09-14T18:25 · [stormbox/131] Aliases are not tied to JMAP identities 🔗 [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131)
 - [8689](https://tbpro.zendesk.com/agent/tickets/8689) · [open] · 2026-09-14T19:36 · Slow and failing Send uploads
 
