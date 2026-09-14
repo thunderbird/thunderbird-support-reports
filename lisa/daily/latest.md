@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-14 08:34 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **400 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **401 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **19** solved in last 24h
-- **400** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **19** solved in last 24h
+- **401** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
@@ -146,7 +146,7 @@ _(none in last 24h)_
 - **solved**: 315
 - **pending**: 43
 - **open**: 23
-- **new**: 13
+- **new**: 14
 - **closed**: 6
 
 ## Service (cumulative)
@@ -209,6 +209,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged.
   > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
 
+### Bug report / app crash / not working — 1 tickets
+
+- **[#8670](https://tbpro.zendesk.com/agent/tickets/8670)** · Print bug
+  > When printing an attachment from my Thunderbird email, it prints a blank page. How do I fix that? Ron Francis,Butlers Auto Body,[phone],[email]
+
 ### Webmail — 1 tickets
 
 - **[#8658](https://tbpro.zendesk.com/agent/tickets/8658)** · Can't send or receive email
@@ -219,6 +224,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [new] · 2026-09-13T21:08 · Can't send or receive email
 - [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [new] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
 - [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [new] · 2026-09-14T06:10 · Change Email address
+- [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [new] · 2026-09-14T12:07 · Print bug
 
 ## Solved — last 24h
 
