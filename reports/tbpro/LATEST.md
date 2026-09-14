@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 15:19 ET** · refreshes hourly_  
+_Updated: **2026-09-14 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **410 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **411 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **37** solved in last 24h
-- **410** tickets total since launch · contact rate **1%** of 35000 invitees
+- **15** new tickets in last 24h · **37** solved in last 24h
+- **411** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
-- **Median AHT**: 137.4h · mean 154.7h (proxy: updated_at − created_at, 329 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 52
+- **Median AHT**: 136.9h · mean 154.3h (proxy: updated_at − created_at, 329 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -160,15 +160,15 @@ _(none in last 24h)_
 - **solved**: 329
 - **pending**: 57
 - **open**: 11
+- **hold**: 7
 - **closed**: 7
-- **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 240
 - **Thundermail**: 134
+- **Send**: 9
 - **Appointment**: 8
-- **Send**: 8
 
 ## Why × How (cumulative)
 
@@ -178,7 +178,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 70
 - **change request** + **actioned**: 59
 - **blocked** + **investigated**: 21
-- **concerned** + **explained**: 16
+- **concerned** + **explained**: 17
 - **request** + **redirected**: 16
 - **confused** + **explained**: 16
 - **curious** + **informed**: 16
@@ -188,16 +188,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
-- **confused** + **investigated**: 4
 - **curious** + **actioned**: 4
 - **change request** + **explained**: 3
+- **confused** + **investigated**: 3
+- **request** + **explained**: 3
 - **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **actioned**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
-- **request** + **explained**: 2
 - **concerned** + **informed**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
@@ -217,6 +217,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#8689](https://tbpro.zendesk.com/agent/tickets/8689)** · Slow and failing Send uploads — why: **concerned** · how: **explained**
+  > I tried to upload two files - 4.x GB and 7.x GB - last night. They uploaded very slowly and wouldn't make it past ~200mb before failing.
+- **[#8681](https://tbpro.zendesk.com/agent/tickets/8681)** · Does a deleted mail get assigned to another user — why: **curious** · how: **explained**
+  > Does a deleted mail get assigned to another user
+- **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged. — why: **blocked** · how: **investigated**
+  > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
+
 ### Aliases — 3 tickets
 
 - **[#8678](https://tbpro.zendesk.com/agent/tickets/8678)** · Double messages on personal domain — why: **concerned** · how: **explained**
@@ -232,13 +241,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > - **Summary:** When an email alias is deleted on the Thundermail dashboard, it remains selectable in the Webmail "From" address dropdown. - **Affected products/platforms:**…
 - **[#8658](https://tbpro.zendesk.com/agent/tickets/8658)** · Can't send or receive email — why: **blocked** · how: **explained**
   > I've been trying to send an email message, but I keep getting an error that Thunderbird can't connect. I'm also not receiving emails, as I had another site send me a verification…
-
-### Other / uncategorized — 2 tickets
-
-- **[#8681](https://tbpro.zendesk.com/agent/tickets/8681)** · Does a deleted mail get assigned to another user — why: **curious** · how: **explained**
-  > Does a deleted mail get assigned to another user
-- **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged. — why: **blocked** · how: **investigated**
-  > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
 
 ### Pricing — annual-only inquiry — 1 tickets
 
@@ -291,6 +293,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8683](https://tbpro.zendesk.com/agent/tickets/8683) · [pending] · 2026-09-14T17:54 · sign up/in issue
 - [8684](https://tbpro.zendesk.com/agent/tickets/8684) · [pending] · 2026-09-14T18:11 · Monthly subscription?
 - [8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · 2026-09-14T18:25 · [stormbox/131] Aliases are not tied to JMAP identities 🔗 [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131)
+- [8689](https://tbpro.zendesk.com/agent/tickets/8689) · [open] · 2026-09-14T19:36 · Slow and failing Send uploads
 
 ## Solved — last 24h
 
@@ -300,7 +303,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-13T20:01 · Public calendar link
 - · [8419](https://tbpro.zendesk.com/agent/tickets/8419) · 2026-09-13T20:01 ·  password
 - · [8388](https://tbpro.zendesk.com/agent/tickets/8388) · 2026-09-13T20:01 · Abo Widerruf
-- · [8383](https://tbpro.zendesk.com/agent/tickets/8383) · 2026-09-13T20:01 · Account email address rename
 - · [8448](https://tbpro.zendesk.com/agent/tickets/8448) · 2026-09-13T21:01 · How to change primary address with an alias
 - · [8423](https://tbpro.zendesk.com/agent/tickets/8423) · 2026-09-13T21:01 · Cancel/Refund
 - · [8405](https://tbpro.zendesk.com/agent/tickets/8405) · 2026-09-13T21:01 · Thunderbird sign-in
@@ -331,6 +333,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8474](https://tbpro.zendesk.com/agent/tickets/8474) · 2026-09-14T18:02 · Aliases in Thunderbird
 - · [8533](https://tbpro.zendesk.com/agent/tickets/8533) · 2026-09-14T18:11 · Request for full refund – Thundermail subscription purchased by mistake
 - · [8532](https://tbpro.zendesk.com/agent/tickets/8532) · 2026-09-14T19:02 · Trial Account
+- · [8610](https://tbpro.zendesk.com/agent/tickets/8610) · 2026-09-14T19:22 · Removal of account in webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
