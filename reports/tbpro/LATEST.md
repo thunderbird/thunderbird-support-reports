@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-09-13
+# Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-13 23:29 ET** · refreshes hourly_  
-_24h window: 2026-09-12T16:00 → 2026-09-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-14 00:28 ET** · refreshes hourly_  
+_24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 35** of rollout — **35,000 invitees**, **399 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **399 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
+- **2** new tickets in last 24h · **19** solved in last 24h
 - **399** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 49
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 49
 - **Median AHT**: 137.5h · mean 154.4h (proxy: updated_at − created_at, 315 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
@@ -134,9 +134,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [ThunderBackup](https://ideas.tb.pro/p/thunderbackup) · 1 votes · _Privacy & Security, Accounts & Subscriptions, New Feature_
+  > What you’d like to seeI would like to see Mozilla launch a premium subscription backup service called ThunderBackup to rival established solutions like iDrive and Backblaze. This service must encrypt…
 
 ## Status breakdown (cumulative)
 
@@ -199,34 +200,42 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#8650](https://tbpro.zendesk.com/agent/tickets/8650)** · thundermail, hover, and earthlink/mindspring with 5 aliases order of getting it all to thundermail
-  > I want to start using the thundermail dns but have a dns thru hover and 5 aliases provided by my long standing email provider eartlink/mindspring. I am unsure what to do first to…
-- **[#8644](https://tbpro.zendesk.com/agent/tickets/8644)** · email alias not working
-  > Hello! I just started configuring my first domain ([domain]), domain is verified and I set up an email alias [email]. But when I send an email to [email], I get an user unknown.…
+- **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged.
+  > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
 
-### App setup / configuration — 1 tickets
+### Webmail — 1 tickets
 
-- **[#8649](https://tbpro.zendesk.com/agent/tickets/8649)** · Add my account
-  > Protocol please
+- **[#8658](https://tbpro.zendesk.com/agent/tickets/8658)** · Can't send or receive email
+  > I've been trying to send an email message, but I keep getting an error that Thunderbird can't connect. I'm also not receiving emails, as I had another site send me a verification…
 
 ## New tickets — last 24h
 
-- [8644](https://tbpro.zendesk.com/agent/tickets/8644) · [new] · 2026-09-13T11:43 · email alias not working
-- [8649](https://tbpro.zendesk.com/agent/tickets/8649) · [new] · 2026-09-13T15:47 · Add my account
-- [8650](https://tbpro.zendesk.com/agent/tickets/8650) · [new] · 2026-09-13T16:24 · thundermail, hover, and earthlink/mindspring with 5 aliases order of getting it all to thundermail
+- [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [new] · 2026-09-13T21:08 · Can't send or receive email
+- [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [new] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
 
 ## Solved — last 24h
 
-- · [8321](https://tbpro.zendesk.com/agent/tickets/8321) · 2026-09-13T16:01 · Verifying Custom domain
-- · [8226](https://tbpro.zendesk.com/agent/tickets/8226) · 2026-09-13T16:01 · Re: Correction: Thundermail Early Bird Access
-- · [8376](https://tbpro.zendesk.com/agent/tickets/8376) · 2026-09-13T17:01 · I  cannot establish my Email in Thunderbird
-- · [8352](https://tbpro.zendesk.com/agent/tickets/8352) · 2026-09-13T17:01 · Cannot configure Thundermail address in Thunderbird
-- · [8302](https://tbpro.zendesk.com/agent/tickets/8302) · 2026-09-13T17:01 · Mailboxes for few users at single personal domain
-- · [8391](https://tbpro.zendesk.com/agent/tickets/8391) · 2026-09-13T18:01 · Cancel and refund within 14 days
-- · [8377](https://tbpro.zendesk.com/agent/tickets/8377) · 2026-09-13T18:01 · Thunderbird Desktop Login Hangs
-- · [8111](https://tbpro.zendesk.com/agent/tickets/8111) · 2026-09-13T18:01 · Mail server not working
+- · [8456](https://tbpro.zendesk.com/agent/tickets/8456) · 2026-09-13T20:01 · Delte my Account
+- · [8449](https://tbpro.zendesk.com/agent/tickets/8449) · 2026-09-13T20:01 · Cancellation refund request
+- · [8444](https://tbpro.zendesk.com/agent/tickets/8444) · 2026-09-13T20:01 · Password
+- · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-13T20:01 · Public calendar link
+- · [8419](https://tbpro.zendesk.com/agent/tickets/8419) · 2026-09-13T20:01 ·  password
+- · [8388](https://tbpro.zendesk.com/agent/tickets/8388) · 2026-09-13T20:01 · Abo Widerruf
+- · [8383](https://tbpro.zendesk.com/agent/tickets/8383) · 2026-09-13T20:01 · Account email address rename
+- · [8448](https://tbpro.zendesk.com/agent/tickets/8448) · 2026-09-13T21:01 · How to change primary address with an alias
+- · [8423](https://tbpro.zendesk.com/agent/tickets/8423) · 2026-09-13T21:01 · Cancel/Refund
+- · [8405](https://tbpro.zendesk.com/agent/tickets/8405) · 2026-09-13T21:01 · Thunderbird sign-in
+- · [8396](https://tbpro.zendesk.com/agent/tickets/8396) · 2026-09-13T21:01 · HUMAN Customer support 
+- · [8366](https://tbpro.zendesk.com/agent/tickets/8366) · 2026-09-13T21:01 · Refund
+- · [8346](https://tbpro.zendesk.com/agent/tickets/8346) · 2026-09-13T21:01 · display name keeps resetting
+- · [8428](https://tbpro.zendesk.com/agent/tickets/8428) · 2026-09-13T22:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [8483](https://tbpro.zendesk.com/agent/tickets/8483) · 2026-09-13T23:01 · Custom domain send from, appointment location setting.
+- · [8432](https://tbpro.zendesk.com/agent/tickets/8432) · 2026-09-13T23:01 · Email Aliases
+- · [8342](https://tbpro.zendesk.com/agent/tickets/8342) · 2026-09-13T23:01 · Need to make my subscription payment
+- · [8267](https://tbpro.zendesk.com/agent/tickets/8267) · 2026-09-14T00:01 · Bug when loading webmail on iOS - Safari
+- · [8409](https://tbpro.zendesk.com/agent/tickets/8409) · 2026-09-14T03:01 · Change email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
