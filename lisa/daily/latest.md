@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 10:25 ET** · refreshes hourly_  
+_Updated: **2026-09-14 11:23 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 36** of rollout — **35,000 invitees**, **404 tickets** so fa
 
 ## At a glance
 
-- **7** new tickets in last 24h · **28** solved in last 24h
+- **8** new tickets in last 24h · **29** solved in last 24h
 - **404** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
-- **Median AHT**: 137.5h · mean 155.3h (proxy: updated_at − created_at, 321 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
+- **Median AHT**: 137.4h · mean 155.0h (proxy: updated_at − created_at, 322 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -31,7 +31,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
+  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [pending] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
 - 41 incident(s):
@@ -140,8 +140,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Messages Dark Mode toggle switch remembers state](https://ideas.tb.pro/p/messages-dark-mode-toggle-switch-remembers-state) · 1 votes · _untagged_
+  > What you’d like to seeI would like for the Dark Mode toggle for messages to remember its state. Why it mattersEvery time I switch to a different email it goes back to dark mode and I have to toggle…
 - [Intermediate cheaper hosting option](https://ideas.tb.pro/p/intermediate-cheaper-hosting-option) · 1 votes · _Accounts & Subscriptions_
   > What you’d like to seeI truly believe that having a cheaper tier would indeed be beneficial for this service. There are some other mail hosting services that provide cheaper mail services. Some…
 - [ThunderBackup](https://ideas.tb.pro/p/thunderbackup) · 1 votes · _Privacy & Security, Accounts & Subscriptions, New Feature_
@@ -149,15 +151,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 321
-- **pending**: 43
-- **open**: 20
-- **new**: 14
+- **solved**: 322
+- **pending**: 45
+- **open**: 21
+- **new**: 10
 - **closed**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 236
+- **Account Hub**: 237
 - **Thundermail**: 130
 - **Appointment**: 8
 - **Send**: 8
@@ -167,8 +169,8 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 97
-- **blocked** + **explained**: 66
-- **change request** + **actioned**: 57
+- **blocked** + **explained**: 67
+- **change request** + **actioned**: 58
 - **blocked** + **investigated**: 19
 - **confused** + **explained**: 16
 - **curious** + **informed**: 16
@@ -222,6 +224,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8665](https://tbpro.zendesk.com/agent/tickets/8665)** · Change Email address — why: **curious** · how: **explained**
   > Good day, Will it be possible to change the Email address for Thundermail from [email] to [email]
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8676](https://tbpro.zendesk.com/agent/tickets/8676)** · Forgot Thunderbird Email ID — why: **change request** · how: **actioned**
+  > Hi, I have forgotten my thunderbird PRO email ID, and there is no way to retrieve it. Could you please help? I would also like to cancel my subscription, because I cannot use it…
+
 ### Account access issues — 1 tickets
 
 - **[#8675](https://tbpro.zendesk.com/agent/tickets/8675)** · Cannot Login to Desktop App
@@ -246,6 +253,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [solved] · 2026-09-14T12:36 · Change Primary
 - [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [new] · 2026-09-14T13:20 · forwrd this on
 - [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [new] · 2026-09-14T13:35 · Cannot Login to Desktop App
+- [8676](https://tbpro.zendesk.com/agent/tickets/8676) · [open] · 2026-09-14T14:37 · Forgot Thunderbird Email ID
 
 ## Solved — last 24h
 
@@ -277,6 +285,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8672](https://tbpro.zendesk.com/agent/tickets/8672) · 2026-09-14T14:18 · Change Primary
 - · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-14T14:20 · Thundermail General Questions - 
 - · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-14T14:24 · Attempting to setup two secondary Thundermail email addresses 
+- · [8613](https://tbpro.zendesk.com/agent/tickets/8613) · 2026-09-14T15:16 · Checking Email with an Email Archiver
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
