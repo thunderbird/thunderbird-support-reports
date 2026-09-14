@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 11:23 ET** · refreshes hourly_  
+_Updated: **2026-09-14 12:23 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"possible change"** — 2 tickets in 24h (10.0× baseline; baseline 7 cum) — [#8665](https://tbpro.zendesk.com/agent/tickets/8665), [#8672](https://tbpro.zendesk.com/agent/tickets/8672)
 
-## Known problems — 3 problem(s), 43 incident(s)
+## Known problems — 3 problem(s), 44 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -34,7 +34,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [pending] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 41 incident(s):
+- 42 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -76,6 +76,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [solved] · 2026-09-10 · _Refund Thundermail_
   - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
   - [#8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11 · _Subscription cancellation_
+  - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [open] · 2026-09-12 · _cancel trial _
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
@@ -152,15 +153,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 322
-- **pending**: 45
-- **open**: 21
-- **new**: 10
+- **pending**: 46
+- **open**: 28
 - **closed**: 6
+- **new**: 1
+- **hold**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 237
-- **Thundermail**: 130
+- **Account Hub**: 238
+- **Thundermail**: 129
 - **Appointment**: 8
 - **Send**: 8
 
@@ -168,9 +170,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 97
+- **curious** + **explained**: 98
 - **blocked** + **explained**: 67
-- **change request** + **actioned**: 58
+- **change request** + **actioned**: 59
 - **blocked** + **investigated**: 19
 - **confused** + **explained**: 16
 - **curious** + **informed**: 16
@@ -178,7 +180,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 15
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 10
-- **blocked** + **escalated**: 7
+- **blocked** + **escalated**: 8
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
@@ -246,12 +248,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [new] · 2026-09-13T21:08 · Can't send or receive email
-- [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [new] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
+- [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [open] · 2026-09-13T21:08 · Can't send or receive email
+- [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [open] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
 - [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [pending] · 2026-09-14T06:10 · Change Email address
 - [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [open] · 2026-09-14T12:07 · Print bug
 - [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [solved] · 2026-09-14T12:36 · Change Primary
-- [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [new] · 2026-09-14T13:20 · forwrd this on
+- [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [open] · 2026-09-14T13:20 · forwrd this on
 - [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [new] · 2026-09-14T13:35 · Cannot Login to Desktop App
 - [8676](https://tbpro.zendesk.com/agent/tickets/8676) · [open] · 2026-09-14T14:37 · Forgot Thunderbird Email ID
 
