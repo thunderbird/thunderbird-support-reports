@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 01:24 ET** · refreshes hourly_  
+_Updated: **2026-09-14 02:47 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **399 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **400 tickets** so far (1.1% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **19** solved in last 24h
-- **399** tickets total since launch · contact rate **1%** of 35000 invitees
+- **3** new tickets in last 24h · **19** solved in last 24h
+- **400** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 49
@@ -144,13 +144,13 @@ _(none in last 24h)_
 - **solved**: 315
 - **pending**: 43
 - **open**: 23
-- **new**: 12
+- **new**: 13
 - **closed**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 235
-- **Thundermail**: 128
+- **Thundermail**: 129
 - **Appointment**: 8
 - **Send**: 8
 
@@ -200,8 +200,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#8665](https://tbpro.zendesk.com/agent/tickets/8665)** · Change Email address
+  > Good day, Will it be possible to change the Email address for Thundermail from [email] to [email]
 - **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged.
   > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
 
@@ -214,6 +216,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [new] · 2026-09-13T21:08 · Can't send or receive email
 - [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [new] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
+- [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [new] · 2026-09-14T06:10 · Change Email address
 
 ## Solved — last 24h
 
