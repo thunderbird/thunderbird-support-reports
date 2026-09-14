@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 09:24 ET** · refreshes hourly_  
+_Updated: **2026-09-14 10:25 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **403 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **404 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **20** solved in last 24h
-- **403** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **7** new tickets in last 24h · **28** solved in last 24h
+- **404** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
-- **Median AHT**: 137.5h · mean 154.5h (proxy: updated_at − created_at, 315 solved tickets)
+- **Median AHT**: 137.5h · mean 155.3h (proxy: updated_at − created_at, 321 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -149,16 +149,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 315
+- **solved**: 321
 - **pending**: 43
-- **open**: 23
-- **new**: 16
+- **open**: 20
+- **new**: 14
 - **closed**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 235
-- **Thundermail**: 131
+- **Account Hub**: 236
+- **Thundermail**: 130
 - **Appointment**: 8
 - **Send**: 8
 
@@ -166,22 +166,23 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 96
-- **blocked** + **explained**: 67
+- **curious** + **explained**: 97
+- **blocked** + **explained**: 66
 - **change request** + **actioned**: 57
 - **blocked** + **investigated**: 19
-- **curious** + **informed**: 16
 - **confused** + **explained**: 16
-- **request** + **redirected**: 15
+- **curious** + **informed**: 16
 - **concerned** + **explained**: 15
+- **request** + **redirected**: 15
 - **confused** + **informed**: 13
-- **blocked** + **redirected**: 8
+- **blocked** + **redirected**: 10
 - **blocked** + **escalated**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **confused** + **investigated**: 3
+- **change request** + **explained**: 3
 - **curious** + **investigated**: 2
 - **change request** + **escalated**: 2
 - **blocked** + **actioned**: 2
@@ -190,7 +191,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **explained**: 2
 - **concerned** + **informed**: 2
 - **telling us** + **—**: 2
-- **change request** + **explained**: 2
 - **telling us** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **curious** + **—**: 1
@@ -208,23 +208,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 2 tickets
 
 - **[#8673](https://tbpro.zendesk.com/agent/tickets/8673)** · forwrd this on
   > need to let everyone know how things are going
-- **[#8665](https://tbpro.zendesk.com/agent/tickets/8665)** · Change Email address
-  > Good day, Will it be possible to change the Email address for Thundermail from [email] to [email]
 - **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged.
   > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
 
-### Aliases — 1 tickets
+### Aliases — 2 tickets
 
-- **[#8672](https://tbpro.zendesk.com/agent/tickets/8672)** · Change Primary
+- **[#8672](https://tbpro.zendesk.com/agent/tickets/8672)** · Change Primary — why: **change request** · how: **explained**
   > Is it possible to change my primary email address to an alias that I have? If so, could you please change my primary email address to [email]
+- **[#8665](https://tbpro.zendesk.com/agent/tickets/8665)** · Change Email address — why: **curious** · how: **explained**
+  > Good day, Will it be possible to change the Email address for Thundermail from [email] to [email]
 
-### Bug report / app crash / not working — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#8670](https://tbpro.zendesk.com/agent/tickets/8670)** · Print bug
+- **[#8675](https://tbpro.zendesk.com/agent/tickets/8675)** · Cannot Login to Desktop App
+  > Cannot login on the Thunderbird desktop app. I can login to the browser fine, but the app gives an "Error creating Account". It let me login previously but I could not send emails…
+
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
+
+- **[#8670](https://tbpro.zendesk.com/agent/tickets/8670)** · Print bug — why: **blocked** · how: **redirected**
   > When printing an attachment from my Thunderbird email, it prints a blank page. How do I fix that? Ron Francis,Butlers Auto Body,[phone],[email]
 
 ### Webmail — 1 tickets
@@ -236,10 +241,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [new] · 2026-09-13T21:08 · Can't send or receive email
 - [8659](https://tbpro.zendesk.com/agent/tickets/8659) · [new] · 2026-09-13T22:05 · I beleive my account was erroneously flagged.
-- [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [new] · 2026-09-14T06:10 · Change Email address
-- [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [new] · 2026-09-14T12:07 · Print bug
-- [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [new] · 2026-09-14T12:36 · Change Primary
+- [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [pending] · 2026-09-14T06:10 · Change Email address
+- [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [open] · 2026-09-14T12:07 · Print bug
+- [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [solved] · 2026-09-14T12:36 · Change Primary
 - [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [new] · 2026-09-14T13:20 · forwrd this on
+- [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [new] · 2026-09-14T13:35 · Cannot Login to Desktop App
 
 ## Solved — last 24h
 
@@ -263,6 +269,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8267](https://tbpro.zendesk.com/agent/tickets/8267) · 2026-09-14T00:01 · Bug when loading webmail on iOS - Safari
 - · [8409](https://tbpro.zendesk.com/agent/tickets/8409) · 2026-09-14T03:01 · Change email address
 - 👍 [8329](https://tbpro.zendesk.com/agent/tickets/8329) · 2026-09-14T13:18 · Create new address book?
+- 👍 [8498](https://tbpro.zendesk.com/agent/tickets/8498) · 2026-09-14T13:32 · Attached pdf file
+- 👍 [8530](https://tbpro.zendesk.com/agent/tickets/8530) · 2026-09-14T13:32 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
+- 👍 [8501](https://tbpro.zendesk.com/agent/tickets/8501) · 2026-09-14T13:35 · Server
+- · [8029](https://tbpro.zendesk.com/agent/tickets/8029) · 2026-09-14T13:42 · Re: You're Invited: Thundermail Early Bird Access
+- 👍 [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-14T13:59 · Password has dropped out
+- · [8672](https://tbpro.zendesk.com/agent/tickets/8672) · 2026-09-14T14:18 · Change Primary
+- · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-14T14:20 · Thundermail General Questions - 
+- · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-14T14:24 · Attempting to setup two secondary Thundermail email addresses 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
