@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 12:23 ET** · refreshes hourly_  
+_Updated: **2026-09-14 13:18 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **404 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **407 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **3 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **29** solved in last 24h
-- **404** tickets total since launch · contact rate **1%** of 35000 invitees
+- **11** new tickets in last 24h · **32** solved in last 24h
+- **407** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 51
-- **Median AHT**: 137.4h · mean 155.0h (proxy: updated_at − created_at, 322 solved tickets)
+- **Median AHT**: 137.5h · mean 155.1h (proxy: updated_at − created_at, 325 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -152,17 +152,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 322
-- **pending**: 46
-- **open**: 28
+- **solved**: 325
+- **pending**: 47
+- **open**: 24
 - **closed**: 6
-- **new**: 1
-- **hold**: 1
+- **hold**: 3
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 238
-- **Thundermail**: 129
+- **Account Hub**: 237
+- **Thundermail**: 132
 - **Appointment**: 8
 - **Send**: 8
 
@@ -171,7 +171,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 98
-- **blocked** + **explained**: 67
+- **blocked** + **explained**: 68
 - **change request** + **actioned**: 59
 - **blocked** + **investigated**: 19
 - **confused** + **explained**: 16
@@ -181,14 +181,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 10
 - **blocked** + **escalated**: 8
+- **blocked** + **informed**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
-- **blocked** + **informed**: 5
 - **curious** + **actioned**: 4
 - **confused** + **investigated**: 3
 - **change request** + **explained**: 3
 - **curious** + **investigated**: 2
 - **change request** + **escalated**: 2
+- **telling us** + **n/a**: 2
 - **blocked** + **actioned**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
@@ -198,7 +199,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **curious** + **—**: 1
-- **telling us** + **n/a**: 1
 - **concerned** + **actioned**: 1
 - **other** + **—**: 1
 - **concerned** + **escalated**: 1
@@ -212,12 +212,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#8681](https://tbpro.zendesk.com/agent/tickets/8681)** · Does a deleted mail get assigned to another user
+  > Does a deleted mail get assigned to another user
 - **[#8673](https://tbpro.zendesk.com/agent/tickets/8673)** · forwrd this on
   > need to let everyone know how things are going
 - **[#8659](https://tbpro.zendesk.com/agent/tickets/8659)** · I beleive my account was erroneously flagged.
   > Hi. My father recently died and the funeral home requested very spesifically to recive a series of emails with 60 inages atrached but no more than 10 per email. I was in the…
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#8679](https://tbpro.zendesk.com/agent/tickets/8679)** · Support for session Managment
+  > Hi [name] there any plan for support for session managment
+- **[#8676](https://tbpro.zendesk.com/agent/tickets/8676)** · Forgot Thunderbird Email ID — why: **change request** · how: **actioned**
+  > Hi, I have forgotten my thunderbird PRO email ID, and there is no way to retrieve it. Could you please help? I would also like to cancel my subscription, because I cannot use it…
 
 ### Aliases — 2 tickets
 
@@ -226,15 +235,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8665](https://tbpro.zendesk.com/agent/tickets/8665)** · Change Email address — why: **curious** · how: **explained**
   > Good day, Will it be possible to change the Email address for Thundermail from [email] to [email]
 
-### Subscription / billing / refund / cancel — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#8676](https://tbpro.zendesk.com/agent/tickets/8676)** · Forgot Thunderbird Email ID — why: **change request** · how: **actioned**
-  > Hi, I have forgotten my thunderbird PRO email ID, and there is no way to retrieve it. Could you please help? I would also like to cancel my subscription, because I cannot use it…
-
-### Account access issues — 1 tickets
-
-- **[#8675](https://tbpro.zendesk.com/agent/tickets/8675)** · Cannot Login to Desktop App
-  > Cannot login on the Thunderbird desktop app. I can login to the browser fine, but the app gives an "Error creating Account". It let me login previously but I could not send emails…
+- **[#8678](https://tbpro.zendesk.com/agent/tickets/8678)** · Double messages on personal domain
+  > Good morning, I brought in my personal domain then added the account in thunder mail. Now I'm getting the messages sent to the account and the same messages sent to my thundermail…
 
 ### Account access issues — wrong product, redirected to SUMO — 1 tickets
 
@@ -246,6 +250,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8658](https://tbpro.zendesk.com/agent/tickets/8658)** · Can't send or receive email
   > I've been trying to send an email message, but I keep getting an error that Thunderbird can't connect. I'm also not receiving emails, as I had another site send me a verification…
 
+### Account access issues — 1 tickets
+
+- **[#8675](https://tbpro.zendesk.com/agent/tickets/8675)** · Cannot Login to Desktop App — why: **blocked** · how: **explained**
+  > Cannot login on the Thunderbird desktop app. I can login to the browser fine, but the app gives an "Error creating Account". It let me login previously but I could not send emails…
+
 ## New tickets — last 24h
 
 - [8658](https://tbpro.zendesk.com/agent/tickets/8658) · [open] · 2026-09-13T21:08 · Can't send or receive email
@@ -254,8 +263,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [open] · 2026-09-14T12:07 · Print bug
 - [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [solved] · 2026-09-14T12:36 · Change Primary
 - [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [open] · 2026-09-14T13:20 · forwrd this on
-- [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [new] · 2026-09-14T13:35 · Cannot Login to Desktop App
+- [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [pending] · 2026-09-14T13:35 · Cannot Login to Desktop App
 - [8676](https://tbpro.zendesk.com/agent/tickets/8676) · [open] · 2026-09-14T14:37 · Forgot Thunderbird Email ID
+- [8678](https://tbpro.zendesk.com/agent/tickets/8678) · [open] · 2026-09-14T16:46 · Double messages on personal domain
+- [8679](https://tbpro.zendesk.com/agent/tickets/8679) · [new] · 2026-09-14T17:01 · Support for session Managment
+- [8681](https://tbpro.zendesk.com/agent/tickets/8681) · [new] · 2026-09-14T17:08 · Does a deleted mail get assigned to another user
 
 ## Solved — last 24h
 
@@ -283,11 +295,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8530](https://tbpro.zendesk.com/agent/tickets/8530) · 2026-09-14T13:32 · I had asked for a free account, but I'm being asked to pay a subscription fee—and an annual one at t
 - 👍 [8501](https://tbpro.zendesk.com/agent/tickets/8501) · 2026-09-14T13:35 · Server
 - · [8029](https://tbpro.zendesk.com/agent/tickets/8029) · 2026-09-14T13:42 · Re: You're Invited: Thundermail Early Bird Access
-- 👍 [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-14T13:59 · Password has dropped out
 - · [8672](https://tbpro.zendesk.com/agent/tickets/8672) · 2026-09-14T14:18 · Change Primary
 - · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-14T14:20 · Thundermail General Questions - 
 - · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-14T14:24 · Attempting to setup two secondary Thundermail email addresses 
 - · [8613](https://tbpro.zendesk.com/agent/tickets/8613) · 2026-09-14T15:16 · Checking Email with an Email Archiver
+- · [8634](https://tbpro.zendesk.com/agent/tickets/8634) · 2026-09-14T16:58 · Lost Password - cannot access my account anymore
+- · [8505](https://tbpro.zendesk.com/agent/tickets/8505) · 2026-09-14T17:02 · waitlist
+- · [8269](https://tbpro.zendesk.com/agent/tickets/8269) · 2026-09-14T17:02 · Re: Correction: Thundermail Early Bird Access
+- 👍 [7888](https://tbpro.zendesk.com/agent/tickets/7888) · 2026-09-14T17:17 · Password has dropped out
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
