@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 04:34 ET** · refreshes hourly_  
+_Updated: **2026-09-14 05:31 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 36** of rollout — **35,000 invitees**, **400 tickets** so fa
 - **400** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 49
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 50
 - **Median AHT**: 137.5h · mean 154.4h (proxy: updated_at − created_at, 315 solved tickets)
 
 ## Known problems — 3 problem(s), 43 incident(s)
@@ -134,8 +134,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Intermediate cheaper hosting option](https://ideas.tb.pro/p/intermediate-cheaper-hosting-option) · 1 votes · _Accounts & Subscriptions_
+  > What you’d like to seeI truly believe that having a cheaper tier would indeed be beneficial for this service. There are some other mail hosting services that provide cheaper mail services. Some…
 - [ThunderBackup](https://ideas.tb.pro/p/thunderbackup) · 1 votes · _Privacy & Security, Accounts & Subscriptions, New Feature_
   > What you’d like to seeI would like to see Mozilla launch a premium subscription backup service called ThunderBackup to rival established solutions like iDrive and Backblaze. This service must encrypt…
 
