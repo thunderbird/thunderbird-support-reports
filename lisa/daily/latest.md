@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 02:47 ET** · refreshes hourly_  
+_Updated: **2026-09-14 03:32 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -74,7 +74,7 @@ Flight 8 is **day 36** of rollout — **35,000 invitees**, **400 tickets** so fa
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
-- 🔧 [zd #8399](https://tbpro.zendesk.com/agent/tickets/8399) → [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Alias and Pro Email Address_
+- 🔧 [zd #8399](https://tbpro.zendesk.com/agent/tickets/8399) → [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
 - 🔧 [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
