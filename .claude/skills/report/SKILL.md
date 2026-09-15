@@ -145,6 +145,40 @@ Preview mode writes only the named path; it does not write reports, redirects, h
 
 ---
 
+## Step 5b — Post the month to Notion (do not wait for git push)
+
+As soon as `generate.py` has written this month's markdown and numbers, update
+**📊 Support Monthly Reporting** — do **not** wait for Lisa to publish, review, or
+`git push`. GitHub Pages can lag; Notion is the working copy.
+
+- Database: https://app.notion.com/p/mzthunderbird/3412df5d45ae80f7b05cf1924937f82d
+- Page / database id: `3412df5d-45ae-80f7-b05c-f1924937f82d`
+- Data source: `collection://3412df5d-45ae-80fd-a3f5-000b0bc3a2ba`
+- Path: Notion MCP (`plugin-notion-workspace-notion`) only. **Never** put Notion
+  tokens in this public repo. **Never** call Notion from `generate.py` or GitHub
+  Actions unless credentials already exist there (they do not today).
+- Never search/read/edit the Vault, Support Tasks, Support Milestones, or Support
+  Epics. Work only on this named database.
+
+**How:** fetch the database first. If a row titled `{Month} in Support ({year})`
+already exists, update that row only. Otherwise create **one** row. Match prior
+rows on this data source only.
+
+Properties (CSAT as 0–1 decimals, same as Overall CSAT percent columns):
+- `Name` — `{Month} in Support ({year})` (e.g. `August in Support (2026)`)
+- `Posted Date` — today (date, not datetime)
+- `Overall CSAT` — `zendesk.overall_csat` / 100
+- `Donor CSAT` — `zendesk.donor_csat` / 100
+- `Thundermail CSAT` — `zendesk.tbpro_csat` / 100
+- `TfA Rating` / `K-9 Rating` — monthly Play Store averages from generate
+
+Body: dashboard URL + GitHub `august.md`-style paste-ready markdown from
+`reports/monthly/$year/$month.md`. Do not dump the HTML dashboard. No PII.
+
+Preview mode (`--preview-html`) must **not** write Notion.
+
+---
+
 ## Step 6 — Review qualitative output
 
 Review the generated HTML and Markdown against the YAML. Fix qualitative copy in YAML and

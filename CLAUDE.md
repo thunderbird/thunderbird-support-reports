@@ -41,10 +41,11 @@ Missing required exports or a failed GCS fetch are fatal; never publish “not a
 3. Fill in `data/<month>_<year>.yaml` — Zendesk data, SUMO data (from Roland's repo), FeatureOS ideas
 4. Run `uv run scripts/generate.py <month> <year>` (e.g. `uv run scripts/generate.py april 2026`)
    — friction point quotes, devices, and languages are auto-populated from the CSVs
-5. Draft the narrative lede and qualitative sections (K-9 churn watch, goals, Receive/Resolve/Resound)
-6. Lisa reviews, edits, approves
-7. Optionally run `uv run scripts/deep_analysis.py` for fuller per-review detail if a theme warrants deeper investigation
-8. Commit and push to GitHub
+5. **Post to Notion immediately after generate has numbers** — do **not** wait for Lisa to publish or for `git push`. Update **📊 Support Monthly Reporting** (`3412df5d-45ae-80f7-b05c-f1924937f82d`, data source `collection://3412df5d-45ae-80fd-a3f5-000b0bc3a2ba`) via Notion MCP only. Fetch first; create or update the `{Month} in Support ({year})` row. Set `Overall CSAT`, `Donor CSAT`, and `Thundermail CSAT` as 0–1 percents, plus TfA/K-9 ratings; paste `reports/monthly/<year>/<month>.md` plus the dashboard URL. Never Vault / Support Tasks / Milestones / Epics. Never put Notion tokens in this repo. Never call Notion from `generate.py` or GitHub Actions unless credentials already exist (they do not today). `--preview-html` must not write Notion.
+6. Draft the narrative lede and qualitative sections (K-9 churn watch, goals, Receive/Resolve/Resound)
+7. Lisa reviews, edits, approves
+8. Optionally run `uv run scripts/deep_analysis.py` for fuller per-review detail if a theme warrants deeper investigation
+9. Commit and push to GitHub
 
 ### Local review links — always include full `file://` paths
 
