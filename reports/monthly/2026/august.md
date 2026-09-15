@@ -13,6 +13,7 @@ Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+6
 - **CSAT — Thundermail:** 85.7% (−9.8 pts MoM)*
 - **Volume:** 755 tickets (−1.6% MoM) — Donor Support 350, Thundermail 187, App Store Reviews 218
 - **Thundermail contact rate:** 156 unique requesters / 3,234 PostHog-visible people = 4.8% (−1.4 pts MoM) · 1.09 tickets per requester
+- **Repeat contactors:** 12 people wrote in twice or more — 7.7% of requesters, 26 of 170 eligible tickets (15.3%), down from 18 in July. Only 2 of those tickets were rated, both good, none negative
 - **Accounts:** 31% refund/cancel · 61% billing (refund + pricing), not login
 - **Webmail is the only Thundermail surface that grew:** 1,256 sign-ins (+8.7% MoM) at a flat 0.9% contact rate, while requesters fell 31.9%
 
@@ -87,11 +88,11 @@ July's QR / Settings Import spike cooled from 25 negative mentions to 3.
 ---
 ## What's Coming Up
 
-**AI support, in progress — not in front of customers yet.**
+**Coming to Support: a ticket researcher app, starting with Thundermail.** In progress, not in front of customers yet.
 
-- **Reps stay on the customer.** Conversation, judgment, and tone stay human.
-- **AI takes the research layer:** lookup, context, and the background a rep needs before they reply.
-- **Thunderbolt is the notable piece:** it will use confidential compute for that research layer — privacy-preserving compute, so ticket context stays protected while AI does the lookup. Working with the Thunderbolt team.
+- **Reps stay on the customer.** Conversation, judgment, and tone stay human; the app takes the research layer — lookup, context, and the background a rep needs before they reply.
+- **Thunderbolt is the notable piece:** it is the app's natural-language engine, and it runs on confidential compute, so ticket context stays protected while the AI does the lookup. Working with the Thunderbolt team.
+- **Where it goes:** a support layer that summarizes, researches, and pattern-matches across tickets — and, longer term, helps with voice-of-customer (VOC) reports.
 
 ---
 ## Data Access

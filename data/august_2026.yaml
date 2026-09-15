@@ -606,6 +606,41 @@ thundermail_load:
   zendesk_webmail:
     tickets: 11
     unique_requesters: 11
+  repeat_contactors:
+    count: 12
+    share_of_requesters_pct: 7.7
+    tickets: 26
+    share_of_tickets_pct: 15.3
+    three_plus_people: 2
+    three_plus_tickets: 6
+    max_tickets_one_person: 3
+    ratings_good: 2
+    ratings_bad: 0
+    notes:
+      count: Unique people with 2+ tickets in the month · 7.7% of requesters
+      tickets: 2 people wrote three times; nobody wrote more · all 26 solved or closed
+      sentiment: Only 2 of their 26 tickets were rated — read as “no negative signal,” not as a satisfaction score
+    multi_issue: "**11 of 12 wrote in about a new topic** — not a bounce after solve."
+    read: >-
+      Repeat contact is rare and getting rarer: 12 people in August against 18 in July, on a smaller
+      base of tickets either way. The group is too small to carry a percentage — the useful statement is
+      that coming back a second time did not mean a bad experience. Three of their tickets have ever been
+      rated since Early Bird launch, all positive, none negative.
+    method_scan:
+      - "**Repeat contactor** = one person (Zendesk requester) with two or more eligible tickets created inside the calendar month. People, not tickets — someone with three tickets counts once."
+      - "**Eligible tickets** use the same exclusions as the Thundermail demand metrics: merged duplicates, test tickets, agent-created tickets, and known infrastructure incidents are all dropped. That leaves 170 for August, which is why this base is smaller than the 187 brand ticket count in the newsletter."
+      - "**Small numbers.** Twelve people and two ratings will swing hard month to month. Track the direction across several months before treating a move as a trend."
+    prev:
+      month: 2026-07
+      count: 18
+      share_of_requesters_pct: 7.9
+      tickets: 42
+      share_of_tickets_pct: 16.6
+      three_plus_people: 4
+      three_plus_tickets: 14
+      max_tickets_one_person: 5
+      ratings_good: 7
+      ratings_bad: 0
   surface_contact_rate_visible_pct:
     accounts: 2.9
     mail: 2.1

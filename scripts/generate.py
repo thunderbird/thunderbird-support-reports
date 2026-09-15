@@ -995,6 +995,27 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
         hub_note = ((tm_load.get("zendesk_services") or {}).get("Account Hub") or {}).get("note")
         if hub_note:
             tm_load_md += f"- **Accounts:** {hub_note}\n"
+        repeat = tm_load.get("repeat_contactors") or {}
+        if repeat:
+            prev_repeat = repeat.get("prev") or {}
+            prev_label = _repeat_month_label(prev_repeat.get("month"))
+            good, bad = repeat.get("ratings_good") or 0, repeat.get("ratings_bad") or 0
+            rated = good + bad
+            sentiment = (
+                f"Only {rated} of those tickets were rated, {good} good, {bad} bad"
+                if rated else "None of those tickets were rated"
+            )
+            mom = ""
+            if prev_repeat.get("count") is not None and repeat.get("count") is not None:
+                direction = ("down from" if prev_repeat["count"] > repeat["count"]
+                             else "up from" if prev_repeat["count"] < repeat["count"] else "level with")
+                mom = f", {direction} {prev_repeat['count']} in {prev_label}"
+            tm_load_md += (
+                f"- **Repeat contactors:** {repeat.get('count', '—')} people wrote in twice or more — "
+                f"{repeat.get('share_of_requesters_pct', '—')}% of requesters, "
+                f"{repeat.get('tickets', '—')} of {tm_load.get('requester_eligible_tickets', '—')} eligible "
+                f"tickets ({repeat.get('share_of_tickets_pct', '—')}%){mom}. {sentiment}\n"
+            )
 
     report_url = monthly_pages_url(year, f"{month_cap.lower()}.html")
     csv_url    = monthly_blob_url(year, f"{month_cap.lower()}.csv")
@@ -2008,6 +2029,133 @@ new Chart(k9Ctx, {{ ...chartDefaults, data: {{
     return html
 
 
+def _emphasize(text):
+    """Escape, then allow **bold** from YAML copy."""
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", _esc(text))
+
+
+def _repeat_month_label(month_key):
+    """'2026-07' -> 'July'."""
+    if not month_key:
+        return ""
+    return {v: k.capitalize() for k, v in MONTH_NUMS.items()}.get(str(month_key).split("-")[-1], "")
+
+
+def repeat_contactor_hint(repeat):
+    bits = []
+    if repeat.get("count") is not None:
+        bits.append(f'{repeat["count"]} people')
+    if repeat.get("tickets") is not None:
+        bits.append(f'{repeat["tickets"]} tickets')
+    if repeat.get("ratings_bad") is not None:
+        bits.append(f'{repeat["ratings_bad"]} negative')
+    return " · ".join(bits)
+
+
+def repeat_contactor_body(repeat, load, month_cap, today, cards):
+    """Repeat-contactor cards, read, and MoM table.
+
+    Aggregate counts only — requester identities never enter the YAML or the page.
+    The sentiment card leads with the negative count because Thundermail tickets are
+    rarely rated; a percentage off two ratings would read as a CSAT figure it is not.
+    """
+    prev = repeat.get("prev") or {}
+    prev_label = _repeat_month_label(prev.get("month")) or "prior month"
+    notes = repeat.get("notes") or {}
+    good, bad = repeat.get("ratings_good") or 0, repeat.get("ratings_bad") or 0
+    rated = good + bad
+    count, prev_count = repeat.get("count"), prev.get("count")
+    share, tickets_share = repeat.get("share_of_requesters_pct"), repeat.get("share_of_tickets_pct")
+
+    if count is not None and prev_count is not None:
+        diff = count - prev_count
+        sign = "+" if diff > 0 else "−" if diff < 0 else "±"
+        count_delta = f"{sign}{abs(diff)} vs {prev_label} ({prev_count})"
+        count_cls = "delta-up" if diff < 0 else "delta-down" if diff > 0 else ""
+    else:
+        count_delta, count_cls = "MoM unavailable", ""
+
+    if rated == 0:
+        sentiment_delta = "no ratings returned"
+    elif bad == 0:
+        sentiment_delta = f"{good} ratings returned, {'both' if good == 2 else 'all'} positive"
+    else:
+        sentiment_delta = f"{rated} ratings returned · {good} good · {bad} bad"
+
+    count_sub = notes.get("count") or (
+        f"Unique people with 2+ tickets in the month · {share}% of requesters"
+        if share is not None else "Unique people with 2+ tickets in the month"
+    )
+    body = cards([
+        ("Repeat support contactors", _esc(count if count is not None else "—"),
+         _esc(count_delta), count_cls, _emphasize(count_sub)),
+        ("Tickets they account for", _esc(repeat.get("tickets") if repeat.get("tickets") is not None else "—"),
+         _esc(f"{tickets_share}% of {month_cap} tickets" if tickets_share is not None else "share unavailable"),
+         "", _emphasize(notes.get("tickets") or "")),
+        ("Sentiment among them", f"{bad} negative", _esc(sentiment_delta), "",
+         _emphasize(notes.get("sentiment") or "")),
+    ], grid_class="stat-grid--3")
+
+    if repeat.get("multi_issue"):
+        body += ('<p class="tbl-sub" style="margin-top:12px;margin-bottom:0">'
+                 f'{_emphasize(repeat["multi_issue"])}</p>')
+
+    if repeat.get("read"):
+        body += ('<div class="takeaway"><div class="takeaway__label">The read</div>'
+                 f'<p>{_esc(repeat["read"])}</p></div>')
+
+    def pct(value):
+        return f"{value}%" if value is not None else None
+
+    def people_tickets(block):
+        people, tickets = block.get("three_plus_people"), block.get("three_plus_tickets")
+        if people is None:
+            return None
+        return f"{people} people · {tickets} tickets" if tickets is not None else f"{people} people"
+
+    def ratings(block):
+        if block.get("ratings_good") is None and block.get("ratings_bad") is None:
+            return None
+        return f"{block.get('ratings_good') or 0} good · {block.get('ratings_bad') or 0} bad"
+
+    prev_load = load.get("previous") or {}
+    measures = [
+        ("Unique requesters", load.get("unique_requesters"), prev_load.get("unique_requesters"), False),
+        ("Repeat contactors (2+ tickets)", count, prev_count, True),
+        ("Share of requesters", pct(share), pct(prev.get("share_of_requesters_pct")), False),
+        ("Tickets from repeat contactors", repeat.get("tickets"), prev.get("tickets"), True),
+        ("Share of eligible tickets", pct(tickets_share), pct(prev.get("share_of_tickets_pct")), False),
+        ("Wrote in 3+ times", people_tickets(repeat), people_tickets(prev), False),
+        ("Most tickets from one person", repeat.get("max_tickets_one_person"),
+         prev.get("max_tickets_one_person"), False),
+        ("Ratings returned on their tickets", ratings(repeat), ratings(prev), False),
+    ]
+    measure_rows = ""
+    for label, current, previous, strong in measures:
+        if current is None and previous is None:
+            continue
+        measure_rows += (
+            f'<tr><td>{_esc(label)}</td>'
+            f'<td class="num{" tbl-strong" if strong else ""}">{_esc(current if current is not None else "—")}</td>'
+            f'<td class="num">{_esc(previous if previous is not None else "—")}</td></tr>'
+        )
+    body += (
+        f'<div class="panel"><div class="panel__title">{_esc(month_cap)} vs {_esc(prev_label)}</div>'
+        f'<table><thead><tr><th>Measure</th><th class="num">{_esc(month_cap)}</th>'
+        f'<th class="num">{_esc(prev_label)}</th></tr></thead><tbody>{measure_rows}</tbody></table>'
+        '<p class="tbl-sub">Ratings are live Zendesk <code>satisfaction_rating.score</code> values on those '
+        'tickets, good vs bad. Most Thundermail tickets are never rated, so the rated count is a floor, '
+        'not a sample of the group.</p></div>'
+    )
+    method_items = [item for item in (repeat.get("method_scan") or []) if item]
+    if method_items:
+        body += ('<div class="method-panel"><p class="tbl-sub">How this is counted</p><ul class="scan-list">'
+                 + "".join(f"<li>{_emphasize(item)}</li>" for item in method_items) + "</ul></div>")
+    body += ('<p class="footnote">Aggregate counts only — no requester identities, email addresses, or ticket '
+             f'subjects are stored or displayed. Source: Zendesk search API, Thundermail brand, fetched {_esc(today)}.</p>')
+    return body
+
+
 def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot=None,
                     k9_discourse=None, history=None, connect_android_ideas=None,
                     sumo_contributors=None, status_moves_block=None, quarterly_review=None):
@@ -2069,13 +2217,19 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             f'</summary><div class="drill__body">{body}</div></details>'
         )
 
-    def cards(rows):
-        return '<div class="stat-grid">' + "".join(
-            f'<div class="stat-card"><div class="stat-card__lbl">{label}</div>'
-            f'<div class="stat-card__val">{value}</div>'
-            f'<div class="stat-card__delta {cls}">{delta}</div></div>'
-            for label, value, delta, cls in rows
-        ) + "</div>"
+    def cards(rows, grid_class=""):
+        """Stat cards. Rows are (label, value, delta, cls) with an optional 5th sub line."""
+        out = f'<div class="stat-grid{" " + grid_class if grid_class else ""}">'
+        for row in rows:
+            label, value, delta, cls = row[:4]
+            sub = row[4] if len(row) > 4 else ""
+            out += (
+                f'<div class="stat-card"><div class="stat-card__lbl">{label}</div>'
+                f'<div class="stat-card__val">{value}</div>'
+                f'<div class="stat-card__delta {cls}">{delta}</div>'
+                f'{f"<div class=\"stat-card__sub\">{sub}</div>" if sub else ""}</div>'
+            )
+        return out + "</div>"
 
     def chapter(number, key, kicker, title, standfirst, meta, body):
         return f'''<!-- SECTION: {key} -->
@@ -2193,6 +2347,13 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             "tm-contact-rate", "Usage vs support demand", load_body,
             "Zendesk requesters · PostHog-visible users", True,
         )
+        repeat = thundermail_load.get("repeat_contactors") or {}
+        if repeat:
+            thundermail_body += drill(
+                "tm-repeat", "Repeat support contactors",
+                repeat_contactor_body(repeat, thundermail_load, month_cap, today, cards),
+                repeat_contactor_hint(repeat), True,
+            )
     thundermail_body += drill("tm-shipped", "Shipped &amp; in flight", shipped_body, opened=True)
     thundermail_body += drill(
         "tm-new", "New ideas this month", f'<div class="ideas">{new_idea_chips}</div>',
@@ -2471,7 +2632,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 *{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:var(--color-surface-base);color:var(--color-text-base);font:14px/1.55 var(--font-sans)}}a{{color:var(--color-primary);text-decoration:none}}a:hover{{text-decoration:underline}}button{{font:inherit}}.wrap{{width:min(1180px,calc(100% - 32px));margin:auto}}.muted,.tbl-muted,.footnote,.tbl-sub{{color:var(--color-text-muted)}}.num{{text-align:right;font-variant-numeric:tabular-nums}}.tbl-strong{{font-weight:700}}
 /* CSS REGION: layout */
 .topbar{{position:sticky;top:0;z-index:20;background:var(--color-surface-lower);border-bottom:1px solid var(--color-surface-border)}}.topbar__inner{{width:min(1180px,calc(100% - 32px));margin:auto;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px}}.topbar__brand{{font-weight:700;color:var(--color-text-base)}}.topbar__nav,.nav-group{{display:flex;align-items:center;gap:5px;overflow:auto}}.topbar__nav a{{color:var(--color-text-muted);font-size:.75rem;padding:7px;white-space:nowrap}}.topbar__nav a.is-active{{color:var(--color-text-base);background:var(--color-surface-raised)}}.nav-group{{border:1px solid var(--c-android);border-radius:99px;padding:2px 5px}}.nav-group__lbl,.filter-group__lbl{{font-size:.62rem;font-weight:700;text-transform:uppercase;color:var(--c-android);white-space:nowrap}}.dot{{width:7px;height:7px;display:inline-block;border-radius:50%;margin-right:5px}}
-.masthead{{padding:var(--space-48) 0 var(--space-32);border-bottom:1px solid var(--color-surface-border)}}.nameplate{{display:flex;justify-content:space-between;border-bottom:1px solid var(--color-surface-border);padding-bottom:24px}}.nameplate__title,.eyebrow,.chapter__kicker,.takeaway__label,.panel__title{{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}}.nameplate__issue{{font: .72rem var(--font-mono);color:var(--color-text-muted);text-align:right}}.masthead__quarter,.panel,.takeaway,.alert-panel,.method-panel,.figure__frame{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}.masthead__quarter{{margin:24px 0}}.eyebrow{{color:var(--color-primary)}}.masthead__headline{{font-size:clamp(2rem,5vw,4.15rem);line-height:1.02;letter-spacing:-.045em;max-width:980px}}.scan-list{{margin:0;padding-left:1.15rem;display:grid;gap:8px}}.ribbon{{background:var(--color-surface-lower);padding:24px 0}}.ribbon__grid,.stat-grid{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}.figure-stat,.stat-card{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-top:3px solid var(--chapter-color,var(--color-primary));border-radius:var(--radius-md);padding:16px}}.figure-stat__val,.stat-card__val{{font-size:1.7rem;font-weight:700}}.figure-stat__lbl,.stat-card__lbl,.figure-stat__delta,.stat-card__delta{{font-size:.7rem;color:var(--color-text-muted)}}.lead{{padding:32px 0}}.lead__grid,.two-col{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart-wrap{{height:260px}}
+.masthead{{padding:var(--space-48) 0 var(--space-32);border-bottom:1px solid var(--color-surface-border)}}.nameplate{{display:flex;justify-content:space-between;border-bottom:1px solid var(--color-surface-border);padding-bottom:24px}}.nameplate__title,.eyebrow,.chapter__kicker,.takeaway__label,.panel__title{{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}}.nameplate__issue{{font: .72rem var(--font-mono);color:var(--color-text-muted);text-align:right}}.masthead__quarter,.panel,.takeaway,.alert-panel,.method-panel,.figure__frame{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}.masthead__quarter{{margin:24px 0}}.eyebrow{{color:var(--color-primary)}}.masthead__headline{{font-size:clamp(2rem,5vw,4.15rem);line-height:1.02;letter-spacing:-.045em;max-width:980px}}.scan-list{{margin:0;padding-left:1.15rem;display:grid;gap:8px}}.ribbon{{background:var(--color-surface-lower);padding:24px 0}}.ribbon__grid,.stat-grid{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}.figure-stat,.stat-card{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-top:3px solid var(--chapter-color,var(--color-primary));border-radius:var(--radius-md);padding:16px}}.figure-stat__val,.stat-card__val{{font-size:1.7rem;font-weight:700}}.figure-stat__lbl,.stat-card__lbl,.figure-stat__delta,.stat-card__delta{{font-size:.7rem;color:var(--color-text-muted)}}.stat-card__sub{{font-size:.72rem;color:var(--color-text-muted);margin-top:var(--space-8)}}.stat-grid--3{{grid-template-columns:repeat(3,minmax(0,1fr))}}.lead{{padding:32px 0}}.lead__grid,.two-col{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart-wrap{{height:260px}}
 .filterbar{{position:sticky;top:52px;z-index:15;display:flex;align-items:center;gap:8px;overflow:auto;padding:12px 0;background:var(--color-surface-base);border-bottom:1px solid var(--color-surface-border)}}.filter-btn{{border:1px solid var(--color-surface-border);background:var(--color-surface-raised);color:var(--color-text-secondary);border-radius:99px;padding:6px 10px;white-space:nowrap;cursor:pointer}}.filter-btn.is-active{{border-color:var(--color-primary);color:var(--color-text-base)}}.filter-group{{display:flex;align-items:center;gap:8px;border:1px dashed var(--c-android);border-radius:99px;padding:4px 8px}}.drill-toggle{{margin-left:auto}}.chapter{{padding:48px 0;border-bottom:1px solid var(--color-surface-border);scroll-margin-top:112px}}.chapter__head{{display:grid;grid-template-columns:56px 1fr;gap:16px;margin-bottom:24px}}.chapter__num{{font-family:var(--font-mono);color:var(--chapter-color)}}.chapter__kicker{{color:var(--chapter-color)}}.chapter__title{{font-size:clamp(1.55rem,3vw,2.5rem);line-height:1.1;margin:8px 0}}.chapter__standfirst{{color:var(--color-text-secondary);max-width:900px}}.panel{{overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:.82rem}}th{{text-align:left;color:var(--color-text-muted);font-size:.67rem;text-transform:uppercase;padding:9px 10px;border-bottom:1px solid var(--color-surface-border)}}td{{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-align:top}}.ideas{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}}.idea-chip{{display:grid;grid-template-columns:auto 1fr;gap:2px 9px;padding:12px;border:1px solid var(--color-surface-border);border-radius:6px}}.idea-chip__votes{{grid-row:1/3;color:var(--c-thundermail);font-family:var(--font-mono);font-weight:700}}.idea-chip__tag{{font-size:.67rem;color:var(--color-text-muted)}}
 .friction{{display:grid;gap:8px}}.friction-item{{display:grid;grid-template-columns:38px 1fr 72px;gap:12px;align-items:center;padding:16px;border:1px solid var(--color-surface-border);border-radius:10px;background:var(--color-surface-raised)}}.friction-item--lead{{border-color:var(--color-critical)}}.friction-item__meta{{display:flex;flex-wrap:wrap;gap:4px 15px;font-size:.75rem;color:var(--color-text-secondary)}}.friction-item__neg{{font-size:1.65rem;font-weight:700;text-align:right}}.friction-item__neg-lbl{{text-align:right;font-size:.65rem;color:var(--color-text-muted)}}.takeaway,.alert-panel,.method-panel{{border-left:3px solid var(--chapter-color,var(--color-primary));margin-top:16px}}.narrative-pre{{white-space:pre-wrap;font:inherit;color:var(--color-text-secondary)}}
 /* CSS REGION: accordions */
