@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 16:22 ET** · refreshes hourly_  
+_Updated: **2026-09-15 17:19 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 37** of rollout — **35,000 invitees**, **420 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 37** of rollout — **35,000 invitees**, **423 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **22** solved in last 24h
-- **420** tickets total since launch · contact rate **1%** of 35000 invitees
+- **9** new tickets in last 24h · **21** solved in last 24h
+- **423** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.7h · mean 156.1h (proxy: updated_at − created_at, 342 solved tickets)
+- **Median AHT**: 137.9h · mean 156.7h (proxy: updated_at − created_at, 345 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"address because"** — 2 tickets in 24h (72.0× baseline; baseline 1 cum) — [#8697](https://tbpro.zendesk.com/agent/tickets/8697), [#8709](https://tbpro.zendesk.com/agent/tickets/8709)
 
-## Known problems — 5 problem(s), 48 incident(s)
+## Known problems — 5 problem(s), 49 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -86,8 +86,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8399](https://tbpro.zendesk.com/agent/tickets/8399) · [hold] · 2026-09-05 · _Alias and Pro Email Address_
 
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [hold] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
-- 1 incident(s):
+- 2 incident(s):
   - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [hold] · 2026-09-12 · _Failed to load subscription information_
+  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [hold] · 2026-09-12 · _Questions about Thundermail features_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -159,42 +160,41 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 342
-- **pending**: 52
+- **solved**: 345
+- **pending**: 51
 - **closed**: 13
-- **hold**: 8
-- **open**: 5
+- **open**: 7
+- **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 244
-- **Thundermail**: 140
+- **Account Hub**: 243
+- **Thundermail**: 141
+- **Appointment**: 9
 - **Send**: 9
-- **Appointment**: 8
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 102
-- **blocked** + **explained**: 73
+- **blocked** + **explained**: 75
 - **change request** + **actioned**: 60
 - **blocked** + **investigated**: 22
 - **concerned** + **explained**: 17
+- **request** + **redirected**: 17
 - **confused** + **explained**: 17
-- **request** + **redirected**: 16
 - **curious** + **informed**: 16
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 10
 - **blocked** + **escalated**: 8
-- **blocked** + **informed**: 7
+- **blocked** + **informed**: 8
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **confused** + **investigated**: 4
 - **curious** + **actioned**: 4
 - **change request** + **explained**: 3
 - **request** + **explained**: 3
-- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **actioned**: 2
 - **change request** + **escalated**: 2
@@ -205,6 +205,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **other** + **escalated**: 1
+- **curious** + **investigated**: 1
 - **curious** + **—**: 1
 - **concerned** + **actioned**: 1
 - **other** + **—**: 1
@@ -223,10 +224,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8711](https://tbpro.zendesk.com/agent/tickets/8711)** · domain ssl ? — why: **blocked** · how: **explained**
   > problems with my domain I have registered yesterday with FullHost a domain mroyer.ca the dns are transfered however attached the last message from fullHost...
-- **[#8704](https://tbpro.zendesk.com/agent/tickets/8704)** · Configuration custom domains
-  > My DNS provider returns the following error when I configure the zone with the parameters you provided: zone [domain]/IN: [domain]/MX '[domain]' (out of zone) is a CNAME…
 - **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward — why: **confused** · how: **investigated**
   > Thunderbird support team, Can you check this error message which came as Undeliverable. That was when I wrote a message to an Outlook account which has set auto forward to a…
+- **[#8704](https://tbpro.zendesk.com/agent/tickets/8704)** · Configuration custom domains — why: **blocked** · how: **informed**
+  > My DNS provider returns the following error when I configure the zone with the parameters you provided: zone [domain]/IN: [domain]/MX '[domain]' (out of zone) is a CNAME…
+
+### Other / uncategorized — 2 tickets
+
+- **[#8700](https://tbpro.zendesk.com/agent/tickets/8700)** · External Domain — why: **blocked** · how: **explained**
+  > Hello [name] is not realy working
+- **[#8707](https://tbpro.zendesk.com/agent/tickets/8707)** · Blocked email — why: **blocked** · how: **informed**
+  > Email failed to go through
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
@@ -234,13 +242,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > **Summary:** Customers have paid their subscription but do not have a Stalwart account set up. This is related to a bug where unsubscribed users can access Thundermail via…
 - **[#8698](https://tbpro.zendesk.com/agent/tickets/8698)** · Refund — why: **change request** · how: **actioned**
   > Please kindly refund my £55 within the 14 day cooling off period.
-
-### Other / uncategorized — 2 tickets
-
-- **[#8707](https://tbpro.zendesk.com/agent/tickets/8707)** · Blocked email — why: **blocked** · how: **informed**
-  > Email failed to go through
-- **[#8700](https://tbpro.zendesk.com/agent/tickets/8700)** · External Domain — why: **blocked** · how: **explained**
-  > Hello [name] is not realy working
 
 ### Aliases — 1 tickets
 
@@ -257,8 +258,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [pending] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
 - [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [pending] · 2026-09-15T04:44 · Refund
 - [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [pending] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
-- [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [pending] · 2026-09-15T07:03 · External Domain
-- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15T09:33 · Configuration custom domains
+- [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [open] · 2026-09-15T07:03 · External Domain
+- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [pending] · 2026-09-15T09:33 · Configuration custom domains
 - [8707](https://tbpro.zendesk.com/agent/tickets/8707) · [pending] · 2026-09-15T14:23 · Blocked email
 - [8709](https://tbpro.zendesk.com/agent/tickets/8709) · [pending] · 2026-09-15T14:51 · Regarding Gmail forward
 - [8711](https://tbpro.zendesk.com/agent/tickets/8711) · [open] · 2026-09-15T17:14 · domain ssl ?
@@ -266,7 +267,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [8684](https://tbpro.zendesk.com/agent/tickets/8684) · 2026-09-14T20:55 · Monthly subscription?
 - · [8446](https://tbpro.zendesk.com/agent/tickets/8446) · 2026-09-14T21:02 · Subscribe and payment screen not loading
 - · [8374](https://tbpro.zendesk.com/agent/tickets/8374) · 2026-09-14T22:01 · Custom domain entries not working
 - · [8633](https://tbpro.zendesk.com/agent/tickets/8633) · 2026-09-15T13:25 · cancel trial 
