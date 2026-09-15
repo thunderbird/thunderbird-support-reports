@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 00:26 ET** · refreshes hourly_  
+_Updated: **2026-09-15 01:23 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 37** of rollout — **35,000 invitees**, **413 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
+Flight 8 is **day 37** of rollout — **35,000 invitees**, **414 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
-- **413** tickets total since launch · contact rate **1%** of 35000 invitees
+- **3** new tickets in last 24h · **3** solved in last 24h
+- **414** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
@@ -134,9 +134,10 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [new] · _Refund_
+  > Please kindly refund my £55 within the 14 day cooling off period.
 
 ## New ideas on FeatureOS
 
@@ -152,12 +153,12 @@ _(none in last 24h)_
 - **closed**: 10
 - **open**: 9
 - **hold**: 8
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 240
-- **Thundermail**: 136
+- **Thundermail**: 137
 - **Send**: 9
 - **Appointment**: 8
 
@@ -208,6 +209,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8698](https://tbpro.zendesk.com/agent/tickets/8698)** · Refund
+  > Please kindly refund my £55 within the 14 day cooling off period.
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8697](https://tbpro.zendesk.com/agent/tickets/8697)** · Apparently my account doesn’t exist?
@@ -222,6 +228,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8693](https://tbpro.zendesk.com/agent/tickets/8693) · [new] · 2026-09-14T23:42 · jAoJamgwlmUIYTIi
 - [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [new] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
+- [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [new] · 2026-09-15T04:44 · Refund
 
 ## Solved — last 24h
 
