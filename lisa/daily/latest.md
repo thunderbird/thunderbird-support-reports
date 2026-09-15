@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 13:19 ET** · refreshes hourly_  
+_Updated: **2026-09-15 14:25 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **419 tickets** so fa
 
 ## At a glance
 
-- **8** new tickets in last 24h · **19** solved in last 24h
+- **8** new tickets in last 24h · **21** solved in last 24h
 - **419** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.7h · mean 156.0h (proxy: updated_at − created_at, 338 solved tickets)
+- **Median AHT**: 137.5h · mean 156.0h (proxy: updated_at − created_at, 339 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -154,10 +154,10 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 338
-- **pending**: 49
-- **open**: 13
-- **closed**: 12
+- **solved**: 339
+- **pending**: 48
+- **closed**: 13
+- **open**: 12
 - **hold**: 6
 - **new**: 1
 
@@ -173,7 +173,7 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 102
-- **blocked** + **explained**: 71
+- **blocked** + **explained**: 72
 - **change request** + **actioned**: 59
 - **blocked** + **investigated**: 22
 - **confused** + **explained**: 17
@@ -217,7 +217,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 3 tickets
 
-- **[#8711](https://tbpro.zendesk.com/agent/tickets/8711)** · domain ssl ?
+- **[#8711](https://tbpro.zendesk.com/agent/tickets/8711)** · domain ssl ? — why: **blocked** · how: **explained**
   > problems with my domain I have registered yesterday with FullHost a domain mroyer.ca the dns are transfered however attached the last message from fullHost...
 - **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward — why: **confused** · how: **investigated**
   > Thunderbird support team, Can you check this error message which came as Undeliverable. That was when I wrote a message to an Outlook account which has set auto forward to a…
@@ -236,19 +236,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8698](https://tbpro.zendesk.com/agent/tickets/8698)** · Refund
   > Please kindly refund my £55 within the 14 day cooling off period.
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#8697](https://tbpro.zendesk.com/agent/tickets/8697)** · Apparently my account doesn’t exist? — why: **blocked** · how: **explained**
-  > Hi there! I signed up for Thundermail a few weeks ago and haven’t gotten around to doing much of anything with it yet because my intent is to migrate an existing IMAP account to…
-
 ### Aliases — 1 tickets
 
 - **[#8699](https://tbpro.zendesk.com/agent/tickets/8699)** · Request to change email domain to @[domain] ([email]) — why: **curious** · how: **explained**
   > Hello, I recently signed up for Thundermail and created the address [email]. However, I originally intended to register [email] instead. Is it possible to change my domain/address…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#8697](https://tbpro.zendesk.com/agent/tickets/8697)** · Apparently my account doesn’t exist? — why: **blocked** · how: **explained**
+  > Hi there! I signed up for Thundermail a few weeks ago and haven’t gotten around to doing much of anything with it yet because my intent is to migrate an existing IMAP account to…
+
 ## New tickets — last 24h
 
-- [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [open] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
+- [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [pending] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
 - [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [open] · 2026-09-15T04:44 · Refund
 - [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [pending] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
 - [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [open] · 2026-09-15T07:03 · External Domain
@@ -278,6 +278,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8634](https://tbpro.zendesk.com/agent/tickets/8634) · 2026-09-15T17:01 · Lost Password - cannot access my account anymore
 - · [8546](https://tbpro.zendesk.com/agent/tickets/8546) · 2026-09-15T17:01 · Cancel subscription
 - · [8262](https://tbpro.zendesk.com/agent/tickets/8262) · 2026-09-15T17:01 · Cant get verification link
+- · [8551](https://tbpro.zendesk.com/agent/tickets/8551) · 2026-09-15T18:02 · Delete my account please
+- · [8454](https://tbpro.zendesk.com/agent/tickets/8454) · 2026-09-15T18:02 · Feq questions
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
