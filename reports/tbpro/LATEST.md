@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 01:23 ET** · refreshes hourly_  
+_Updated: **2026-09-15 02:38 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **414 tickets** so fa
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 136.9h · mean 154.2h (proxy: updated_at − created_at, 329 solved tickets)
+- **Median AHT**: 137.1h · mean 154.3h (proxy: updated_at − created_at, 328 solved tickets)
 
 ## Known problems — 4 problem(s), 46 incident(s)
 
@@ -136,7 +136,7 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [new] · _Refund_
+- [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [open] · _Refund_
   > Please kindly refund my £55 within the 14 day cooling off period.
 
 ## New ideas on FeatureOS
@@ -148,17 +148,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 329
-- **pending**: 55
-- **closed**: 10
-- **open**: 9
-- **hold**: 8
-- **new**: 3
+- **solved**: 328
+- **pending**: 54
+- **open**: 14
+- **closed**: 11
+- **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 240
-- **Thundermail**: 137
+- **Thundermail**: 138
 - **Send**: 9
 - **Appointment**: 8
 
@@ -209,6 +208,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#8699](https://tbpro.zendesk.com/agent/tickets/8699)** · Request to change email domain to @[domain] ([email])
+  > Hello, I recently signed up for Thundermail and created the address [email]. However, I originally intended to register [email] instead. Is it possible to change my domain/address…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#8698](https://tbpro.zendesk.com/agent/tickets/8698)** · Refund
@@ -219,16 +223,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8697](https://tbpro.zendesk.com/agent/tickets/8697)** · Apparently my account doesn’t exist?
   > Hi there! I signed up for Thundermail a few weeks ago and haven’t gotten around to doing much of anything with it yet because my intent is to migrate an existing IMAP account to…
 
-### Other / uncategorized — 1 tickets
-
-- **[#8693](https://tbpro.zendesk.com/agent/tickets/8693)** · jAoJamgwlmUIYTIi
-  > WMdigFarxYPfaHcljAgNmABB
-
 ## New tickets — last 24h
 
-- [8693](https://tbpro.zendesk.com/agent/tickets/8693) · [new] · 2026-09-14T23:42 · jAoJamgwlmUIYTIi
-- [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [new] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
-- [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [new] · 2026-09-15T04:44 · Refund
+- [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [open] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
+- [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [open] · 2026-09-15T04:44 · Refund
+- [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [open] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
 
 ## Solved — last 24h
 
