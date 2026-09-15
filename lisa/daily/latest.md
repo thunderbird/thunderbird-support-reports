@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 12:24 ET** · refreshes hourly_  
+_Updated: **2026-09-15 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 37** of rollout — **35,000 invitees**, **418 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
+Flight 8 is **day 37** of rollout — **35,000 invitees**, **419 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **16** solved in last 24h
-- **418** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 93%  (117 good / 9 bad)
+- **8** new tickets in last 24h · **19** solved in last 24h
+- **419** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.4h · mean 155.5h (proxy: updated_at − created_at, 336 solved tickets)
+- **Median AHT**: 137.7h · mean 156.0h (proxy: updated_at − created_at, 338 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -26,7 +26,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
-  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [pending] · 2026-09-02 · _Cant get verification link_
+  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -71,7 +71,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8456](https://tbpro.zendesk.com/agent/tickets/8456) · [solved] · 2026-09-07 · _Delte my Account_
   - [#8533](https://tbpro.zendesk.com/agent/tickets/8533) · [solved] · 2026-09-09 · _Request for full refund – Thundermail subscription purchased by mistake_
   - [#8534](https://tbpro.zendesk.com/agent/tickets/8534) · [solved] · 2026-09-09 · _Cancellation & Refund Request / Feature Inquiry – [[email]]_
-  - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [pending] · 2026-09-09 · _Cancel subscription_
+  - [#8546](https://tbpro.zendesk.com/agent/tickets/8546) · [solved] · 2026-09-09 · _Cancel subscription_
   - [#8568](https://tbpro.zendesk.com/agent/tickets/8568) · [pending] · 2026-09-10 · _Not what I thought..._
   - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [solved] · 2026-09-10 · _Refund Thundermail_
   - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
@@ -154,16 +154,17 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 336
+- **solved**: 338
 - **pending**: 49
-- **open**: 14
+- **open**: 13
 - **closed**: 12
-- **hold**: 7
+- **hold**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 242
-- **Thundermail**: 139
+- **Thundermail**: 141
 - **Send**: 9
 - **Appointment**: 8
 
@@ -175,8 +176,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 71
 - **change request** + **actioned**: 59
 - **blocked** + **investigated**: 22
-- **concerned** + **explained**: 17
 - **confused** + **explained**: 17
+- **concerned** + **explained**: 17
 - **request** + **redirected**: 16
 - **curious** + **informed**: 16
 - **confused** + **informed**: 13
@@ -185,9 +186,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 6
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
+- **confused** + **investigated**: 4
 - **curious** + **actioned**: 4
 - **change request** + **explained**: 3
-- **confused** + **investigated**: 3
 - **request** + **explained**: 3
 - **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
@@ -214,9 +215,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 2 tickets
+### Custom domain / DKIM / DNS — 3 tickets
 
-- **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward
+- **[#8711](https://tbpro.zendesk.com/agent/tickets/8711)** · domain ssl ?
+  > problems with my domain I have registered yesterday with FullHost a domain mroyer.ca the dns are transfered however attached the last message from fullHost...
+- **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward — why: **confused** · how: **investigated**
   > Thunderbird support team, Can you check this error message which came as Undeliverable. That was when I wrote a message to an Outlook account which has set auto forward to a…
 - **[#8704](https://tbpro.zendesk.com/agent/tickets/8704)** · Configuration custom domains
   > My DNS provider returns the following error when I configure the zone with the parameters you provided: zone [domain]/IN: [domain]/MX '[domain]' (out of zone) is a CNAME…
@@ -252,6 +255,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15T09:33 · Configuration custom domains
 - [8707](https://tbpro.zendesk.com/agent/tickets/8707) · [open] · 2026-09-15T14:23 · Blocked email
 - [8709](https://tbpro.zendesk.com/agent/tickets/8709) · [open] · 2026-09-15T14:51 · Regarding Gmail forward
+- [8711](https://tbpro.zendesk.com/agent/tickets/8711) · [new] · 2026-09-15T17:14 · domain ssl ?
 
 ## Solved — last 24h
 
@@ -266,11 +270,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-15T15:01 · Attempting to setup two secondary Thundermail email addresses 
 - · [8676](https://tbpro.zendesk.com/agent/tickets/8676) · 2026-09-15T15:39 · Forgot Thunderbird Email ID
 - · [8345](https://tbpro.zendesk.com/agent/tickets/8345) · 2026-09-15T15:54 · Email accounts set up with a custom domain
-- · [8613](https://tbpro.zendesk.com/agent/tickets/8613) · 2026-09-15T16:02 · Checking Email with an Email Archiver
 - · [8541](https://tbpro.zendesk.com/agent/tickets/8541) · 2026-09-15T16:02 · Multiuser plan
 - · [8539](https://tbpro.zendesk.com/agent/tickets/8539) · 2026-09-15T16:02 · US soveriegnity
 - · [8485](https://tbpro.zendesk.com/agent/tickets/8485) · 2026-09-15T16:02 · Send takes forever to upload files
 - · [8339](https://tbpro.zendesk.com/agent/tickets/8339) · 2026-09-15T16:02 · Thundermail 2FA and security features
+- 👍 [8613](https://tbpro.zendesk.com/agent/tickets/8613) · 2026-09-15T16:25 · Checking Email with an Email Archiver
+- · [8634](https://tbpro.zendesk.com/agent/tickets/8634) · 2026-09-15T17:01 · Lost Password - cannot access my account anymore
+- · [8546](https://tbpro.zendesk.com/agent/tickets/8546) · 2026-09-15T17:01 · Cancel subscription
+- · [8262](https://tbpro.zendesk.com/agent/tickets/8262) · 2026-09-15T17:01 · Cant get verification link
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
