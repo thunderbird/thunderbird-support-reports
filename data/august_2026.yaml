@@ -32,7 +32,7 @@ methodology_notes:
 
 # ── ZENDESK current — Lisa 2026-09-09 ──────────────────────────────────────
 # MoM vs July 8/31 KPI note: CSAT −0.8 / Donor +7.0 / Thundermail −9.8 pts;
-# volume 767→755 (−1.6%). Donor 212→350 (+65%) — ESR-period donation appeals; July email spoiler was ~95%.
+# volume 767→755 (−1.6%). Donor 212→350 (+65%) — ESR-period donation appeals; Zendesk showed ~95% growth in one of those weeks.
 zendesk:
   overall_csat: 90.9          # −0.8 pts vs July 91.7
   donor_csat: 92.7            # +7.0 pts vs July 85.7
@@ -501,34 +501,40 @@ tbpro_ideas:
 
 # ── NARRATIVE ──────────────────────────────────────────────────────────────
 narrative:
-  lede: "Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during the ESR period — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) includes product/pricing DSATs (no monthly / no à la carte / 100 CAD); support-interaction satisfaction was 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
-  report_note: "No full July dashboard — skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). Lisa's 8/31 KPI note is the July baseline; MoM is August vs July. Team: Amanda + Rocky (Technical Support Specialists) onboarded; CertainlyCX for donors (Natalia, Sofia, Mc Gyver) in Donor Support Matrix. July Thundermail was 283 tickets (+141.9%) from waitlist pushes + Wellness Fridays."
+  lede: "Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during the ESR period — Zendesk showed ~95% growth in one of those weeks; the closed month averaged +65% — so more donation questions arrived, and donor support absorbed them while increasing satisfaction. Overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) includes product/pricing DSATs (no monthly / no à la carte / 100 CAD); support-interaction satisfaction was 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
+  esr_framing:
+    donor_context: "More donation appeals went out during the ESR period, so more donation questions arrived — and donor support absorbed them while increasing satisfaction."
+  report_note: "No full July dashboard — skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). MoM is August vs July. Team: Amanda + Rocky (Technical Support Specialists) onboarded; CertainlyCX for donors (Natalia, Sofia, Mc Gyver) in Donor Support Matrix. July Thundermail was 283 tickets (+141.9%) from waitlist pushes + Wellness Fridays."
   receive_resolve_resound: |
     **🕊 Receive**
     - 755 Zendesk tickets (−1.6% vs July) — Donor 350 (+65%, ESR-period donation appeals), Thundermail 187 (−34%), App Store Reviews 218 (−20%)
     - 564 Play Store reviews across 27 languages; 218 incoming review tickets
-    - Push/sync still #1 friction (34 negative, 31→34 — rising, no fix shipped). July QR/Settings Import spike cooled (25→3 negative)
+    - Push/sync still #1 friction (34 negative, 31→34 — rising). July QR/Settings Import spike cooled (25→3 negative)
     - 955 desktop forum questions (751 in July) — printing broke in v154 (36 qs, 8× normal) and Spectrum/Charter mail access failed (34 qs)
 
     **🪽 Resolve**
     - Donor CSAT 92.7% (+7.0 pts) through the donation-appeal spike
     - Thundermail CSAT 85.7% includes product/pricing DSATs; support-interaction satisfaction excluding those 100%
     - Android forum solved rate 61% (+1 pt) on 51 questions
-    - Desktop printing regression is fixed in Thunderbird 155 (Sept 1) — the one August desktop cluster with an answer to give
+    - Desktop printing regression is fixed in Thunderbird 155 (Sept 1)
 
     **✨ Resound**
     - **48% of TB reviews are 5★** (220 of 456) — TB monthly average 3.74★ (+0.16 vs July)
     - July QR/Settings Import spike (25 neg, mostly 1★) dropped to 3 negative
     - Spam-filter negative mentions 22→18 — fewer mentions, not a shipped junk filter
-    - Thundermail **Webmail** and **MFA** show as Landed on the ideas board
   sumo_desktop_signal: "955 questions vs July 751; solved rate 58% (July 64%). Two headline clusters, and both of Roland's methods name the same pair. Printing broke in v154 — 36 tagged questions at 8.0× baseline, peaking 24.3× on Aug 20, resolved only 37% while unfixed; fixed in Thunderbird 155 (Sept 1). Spectrum/Charter/Roadrunner mail access failed for 34 users (3→34 MoM, 3.2× baseline, 31 of 34 at severity 4+) — provider-side, and Roland notes Spectrum recurs a few times a year. Yahoo +83%, Microsoft +47%; v153 POP spikes recurring. The solved-rate drop sits in four badly-served clusters: printing 37%, Yahoo/AT&T/AOL app-specific passwords 29%, repeated password prompts 42% (42% unanswered), blank message body 47%. Desktop only — no Play Store or Android app overlap."
   sumo_android_signal: "51 questions in the SUMO KPI export vs July 55; 61% solved (July 60%), ignored 27%. Roland's spike detector covers 40 questions and fired zero spikes — a volume artifact, not a clean month: it needs 8 questions of one kind in a month and August averaged ~1 question a day, and only 2% of questions record a Thunderbird version so the version×cause detector cannot fire at all. The AI read found 5 new clusters of two questions each; a change of one question is noise at this volume. Support-relevant: three credential/import clusters that look like one shared root cause, a new crash on opening downloaded mail, and contact autocomplete at 50% resolved — the only cluster support could not answer."
   goal_bullets: |
-    - **Push / Notification Sync — still #1, still rising:** 34 negative (31→34) · 51 mentions · avg 2.76★ · 3-mo 20→31→34 · no product fix in market
+    - **Push / Notification Sync — still #1, still rising:** 34 negative (31→34) · 51 mentions · avg 2.76★ · 3-mo 20→31→34
     - **Spam Filter Absent — #2, fewer mentions:** 18 negative (22→18) · still no junk-filter build · July QR spike (25 neg) cooled to 3 — not a current 4★ lever
     - **Rating gap:** TB 3.74★ needs +0.26★ to 4★ (K-9 3.60★, −0.04). Converting push 1–3★ reviewers is still the primary path
   experiments: "Later (parked idea, not scoped): watch Zendesk volume against Roland's SUMO keyword spikes to see whether desktop provider/regression clusters show up in tickets first."
-  whats_coming_up: null
+  whats_coming_up: |
+    **Coming to Support: a ticket researcher app, starting with Thundermail.** In progress, not in front of customers yet.
+
+    - **Reps stay on the customer.** Conversation, judgment, and tone stay human; the app takes the research layer — lookup, context, and the background a rep needs before they reply.
+    - **Thunderbolt is the notable piece:** it is the app's natural-language engine, and it runs on confidential compute, so ticket context stays protected while the AI does the lookup. Working with the Thunderbolt team.
+    - **Where it goes:** a support layer that summarizes, researches, and pattern-matches across tickets — and, longer term, helps with voice-of-customer (VOC) reports.
 
 # ── THUNDERMAIL LOAD (generated; aggregate-only) ──
 thundermail_load:
@@ -617,7 +623,7 @@ thundermail_load:
     ratings_good: 2
     ratings_bad: 0
     notes:
-      count: Unique people with 2+ tickets in the month · 7.7% of requesters
+      count: Unique Zendesk requester emails with 2+ tickets · 7.7% of requesters — not Thundermail accounts; two addresses count as two. We hope to join these in 2027.
       tickets: 2 people wrote three times; nobody wrote more · all 26 solved or closed
       sentiment: Only 2 of their 26 tickets were rated — read as “no negative signal,” not as a satisfaction score
     multi_issue: "**11 of 12 wrote in about a new topic** — not a bounce after solve."
@@ -628,6 +634,7 @@ thundermail_load:
       rated since Early Bird launch, all positive, none negative.
     method_scan:
       - "**Repeat contactor** = one person (Zendesk requester) with two or more eligible tickets created inside the calendar month. People, not tickets — someone with three tickets counts once."
+      - "Repeat contactors are unique Zendesk requester emails, not Thundermail accounts — one person on two addresses counts as two. We hope to join these in 2027."
       - "**Eligible tickets** use the same exclusions as the Thundermail demand metrics: merged duplicates, test tickets, agent-created tickets, and known infrastructure incidents are all dropped. That leaves 170 for August, which is why this base is smaller than the 187 brand ticket count in the newsletter."
       - "**Small numbers.** Twelve people and two ratings will swing hard month to month. Track the direction across several months before treating a move as a trend."
     prev:
@@ -731,7 +738,8 @@ thundermail_load:
     - "Overall contact-rate denominator: unique people on PostHog accounts.activity — PostHog-visible users, not all subscribers, not Stalwart-only IMAP users who never hit PostHog, and not the mail series."
     - "Mail people: unique people who fired ham ingest, spam ingest, or outbound sent (thundermail.message-ingest.ham, thundermail.message-ingest.spam, thundermail.message-sending.sent). Same events as the PostHog insight; Unique users, not Total count."
     - "Webmail people: unique people with accounts.login and clientId thunderbird-stormbox. Sign-ins in the month are a floor — long-lived sessions miss a re-auth."
-    - "Appointment / Send people: product events plus $pageview on appointment.tb.pro / send.tb.pro. Those rates are directional (anonymous visitors possible)."
+    - "Appointment people: apmt.* product events plus $pageview on appointment.tb.pro. Public bookers reach that page with no Thundermail account, so the 3,124 includes them — schedule-owner activity is account-side and far smaller (559 people on product events, 525 appointment-frontend logins). The 0.1% rate is directional because bookers sit in the denominator."
+    - "Send people: product events plus $pageview on send.tb.pro. Almost all of them show both send.tb.pro and send.*, so read Send as account-side use — not the public-booker pattern."
     - "Numerator: unique Zendesk requesters on the Thundermail brand after merge / test / agent-created / excluded-incident filters. Surface tickets from pro_service_* tags (Account Hub, Thundermail, Appointment, Send)."
     - "Webmail tickets: tagged Thundermail what: UI::Webmail (thundermail_what_ui__webmail) or intelligent-triage webmail (thundermail_entity_area_webmail) — union, counted once. They can also sit on Account Hub / Thundermail service tags."
     - "Internal users: we cannot omit staff the way the PostHog UI does. This project has 0 people with an email property and those events have no usable $host, so unique-people counts include staff."

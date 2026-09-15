@@ -1014,7 +1014,9 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
                 f"- **Repeat contactors:** {repeat.get('count', '—')} people wrote in twice or more — "
                 f"{repeat.get('share_of_requesters_pct', '—')}% of requesters, "
                 f"{repeat.get('tickets', '—')} of {tm_load.get('requester_eligible_tickets', '—')} eligible "
-                f"tickets ({repeat.get('share_of_tickets_pct', '—')}%){mom}. {sentiment}\n"
+                f"tickets ({repeat.get('share_of_tickets_pct', '—')}%){mom}. {sentiment}. "
+                "Counted by unique Zendesk requester emails, not Thundermail accounts — "
+                "one person on two addresses counts as two. We hope to join these in 2027.\n"
             )
 
     report_url = monthly_pages_url(year, f"{month_cap.lower()}.html")
@@ -2083,8 +2085,9 @@ def repeat_contactor_body(repeat, load, month_cap, today, cards):
         sentiment_delta = f"{rated} ratings returned · {good} good · {bad} bad"
 
     count_sub = notes.get("count") or (
-        f"Unique people with 2+ tickets in the month · {share}% of requesters"
-        if share is not None else "Unique people with 2+ tickets in the month"
+        f"Unique Zendesk requester emails with 2+ tickets · {share}% of requesters — not Thundermail accounts; two addresses count as two. We hope to join these in 2027."
+        if share is not None else
+        "Unique Zendesk requester emails, not Thundermail accounts — one person on two addresses counts as two. We hope to join these in 2027."
     )
     body = cards([
         ("Repeat support contactors", _esc(count if count is not None else "—"),
@@ -2147,7 +2150,13 @@ def repeat_contactor_body(repeat, load, month_cap, today, cards):
         'tickets, good vs bad. Most Thundermail tickets are never rated, so the rated count is a floor, '
         'not a sample of the group.</p></div>'
     )
+    email_caveat = (
+        "Repeat contactors are unique Zendesk requester emails, not Thundermail accounts "
+        "— one person on two addresses counts as two. We hope to join these in 2027."
+    )
     method_items = [item for item in (repeat.get("method_scan") or []) if item]
+    if not any("requester email" in item.lower() for item in method_items):
+        method_items = method_items[:1] + [email_caveat] + method_items[1:]
     if method_items:
         body += ('<div class="method-panel"><p class="tbl-sub">How this is counted</p><ul class="scan-list">'
                  + "".join(f"<li>{_emphasize(item)}</li>" for item in method_items) + "</ul></div>")

@@ -2,9 +2,7 @@
 
 > **[→ View dashboard](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html)** — every table, per-cluster breakdown, and methodology note lives there.
 
-> July's full dashboard was skipped; all MoM comparisons use Lisa's 8/31 KPI note as the July baseline.
-
-Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+65%) — extra donation appeals ran during the ESR window, so more donors were asked to give. CSAT held at 90.9%. Push/sync is still the #1 Play Store friction at 34 negative mentions and rising, and August engineering shipped nothing that targets it.
+Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+65%) — extra donation appeals ran during the ESR window, so more donation questions arrived, and donor support absorbed them while increasing satisfaction. CSAT held at 90.9%. Push/sync is still the #1 Play Store friction at 34 negative mentions and rising.
 
 ---
 ## Support Metrics
@@ -13,7 +11,7 @@ Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+6
 - **CSAT — Thundermail:** 85.7% (−9.8 pts MoM)*
 - **Volume:** 755 tickets (−1.6% MoM) — Donor Support 350, Thundermail 187, App Store Reviews 218
 - **Thundermail contact rate:** 156 unique requesters / 3,234 PostHog-visible people = 4.8% (−1.4 pts MoM) · 1.09 tickets per requester
-- **Repeat contactors:** 12 people wrote in twice or more — 7.7% of requesters, 26 of 170 eligible tickets (15.3%), down from 18 in July. Only 2 of those tickets were rated, both good, none negative
+- **Repeat contactors:** 12 people wrote in twice or more — 7.7% of requesters, 26 of 170 eligible tickets (15.3%), down from 18 in July. Only 2 of those tickets were rated, both good, none negative. Counted by unique Zendesk requester emails, not Thundermail accounts — one person on two addresses counts as two. We hope to join these in 2027.
 - **Accounts:** 31% refund/cancel · 61% billing (refund + pricing), not login
 - **Webmail is the only Thundermail surface that grew:** 1,256 sign-ins (+8.7% MoM) at a flat 0.9% contact rate, while requesters fell 31.9%
 
@@ -26,7 +24,7 @@ Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+6
 > **[→ ESR tab](https://thunderbird.github.io/thunderbird-support-reports/reports/monthly/2026/august.html#esr)** — cluster table, Bugzilla links, and who owns each fix.
 
 - **Donor 350 tickets (+65%), CSAT 92.7% (+7.0).** The lift is donation appeals that ran during the ESR window, **not** tickets about ESR — 350 is donor-brand volume, and no ESR-tagged forum figure exists to compare it against.
-- **Printing broke in 154 and is fixed in Thunderbird 155, released Sept 1** ([Bugzilla 2065922](https://bugzilla.mozilla.org/show_bug.cgi?id=2065922)). Anyone still reporting it is on 154, so every remaining ticket has the same answer.
+- **Printing broke in 154 and is fixed in Thunderbird 155, released Sept 1** ([Bugzilla 2065922](https://bugzilla.mozilla.org/show_bug.cgi?id=2065922)).
 - **Spectrum / Charter is a recurrence, not an ESR regression** — 34 questions, and 31 of those users lost mail access entirely. Provider-side, and it comes back a few times a year, so we keep a standing article rather than writing a new one.
 - Desktop only — Android and Thundermail are a different codebase and release channel.
 
@@ -81,7 +79,7 @@ July's QR / Settings Import spike cooled from 25 negative mentions to 3.
 
 **🪽 Resolve** — Donor CSAT 92.7% (+7.0 pts) through the appeal spike · Thundermail 85.7% includes product/pricing DSATs; support-interaction satisfaction was 100% · desktop printing finally has a shipped answer in 155.
 
-**✨ Resound** — 48% of TB reviews are 5★ (220 of 456) and TB recovered to 3.74★ · QR negatives fell 25 → 3 · Thundermail **Webmail** and **MFA** both show as Landed on the ideas board.
+**✨ Resound** — 48% of TB reviews are 5★ (220 of 456) and TB recovered to 3.74★ · QR negatives fell 25 → 3.
 
 *Receive / Resolve / Resound is Thunderbird Support's CX action framework. [Support Vision →](https://www.notion.so/mzthunderbird/Support-Vision-2392df5d45ae80b89e28fa02db27cd77)*
 
