@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 09:24 ET** · refreshes hourly_  
+_Updated: **2026-09-15 10:24 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **416 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
+- **5** new tickets in last 24h · **7** solved in last 24h
 - **416** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.1h · mean 154.3h (proxy: updated_at − created_at, 328 solved tickets)
+- **Median AHT**: 137.4h · mean 154.9h (proxy: updated_at − created_at, 331 solved tickets)
 
 ## Known problems — 4 problem(s), 46 incident(s)
 
@@ -70,7 +70,7 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **416 tickets** so fa
   - [#8577](https://tbpro.zendesk.com/agent/tickets/8577) · [solved] · 2026-09-10 · _Refund Thundermail_
   - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
   - [#8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11 · _Subscription cancellation_
-  - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [open] · 2026-09-12 · _cancel trial _
+  - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [solved] · 2026-09-12 · _cancel trial _
   - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [open] · 2026-09-14 · _Forgot Thunderbird Email ID_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -148,12 +148,11 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 328
+- **solved**: 331
 - **pending**: 51
-- **open**: 17
+- **open**: 16
 - **closed**: 11
 - **hold**: 7
-- **new**: 2
 
 ## Service (cumulative)
 
@@ -239,14 +238,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [open] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
 - [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [open] · 2026-09-15T04:44 · Refund
 - [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [pending] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
-- [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [new] · 2026-09-15T07:03 · External Domain
-- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [new] · 2026-09-15T09:33 · Configuration custom domains
+- [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [open] · 2026-09-15T07:03 · External Domain
+- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15T09:33 · Configuration custom domains
 
 ## Solved — last 24h
 
 - · [8684](https://tbpro.zendesk.com/agent/tickets/8684) · 2026-09-14T20:55 · Monthly subscription?
 - · [8446](https://tbpro.zendesk.com/agent/tickets/8446) · 2026-09-14T21:02 · Subscribe and payment screen not loading
 - · [8374](https://tbpro.zendesk.com/agent/tickets/8374) · 2026-09-14T22:01 · Custom domain entries not working
+- · [8633](https://tbpro.zendesk.com/agent/tickets/8633) · 2026-09-15T13:25 · cancel trial 
+- · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-15T13:37 · Thundermail General Questions - 
+- · [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-15T13:48 · Alias Use in New E-Mails in Thundermail Webmail
+- · [8392](https://tbpro.zendesk.com/agent/tickets/8392) · 2026-09-15T14:02 · Cant verify email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
