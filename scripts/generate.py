@@ -982,6 +982,19 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
 
     lede = narrative.get('lede') or f"[Draft lede for {month_cap} {year} — fill in after analysis is complete.]"
     experiments = narrative.get('whats_coming_up') or narrative.get('experiments') or "[What's coming up — fill in manually.]"
+    tm_load = config.get('thundermail_load') or {}
+    tm_load_md = ""
+    if tm_load:
+        tm_load_md = (
+            f"- **Thundermail contact rate:** {tm_load.get('unique_requesters', '—')} unique "
+            f"requesters / {tm_load.get('posthog_visible_users', '—')} PostHog-visible users "
+            f"= {tm_load.get('contact_rate_visible_pct', '—')}% · "
+            f"{tm_load.get('tickets_per_requester', '—')} requester-eligible tickets per requester. "
+            "*Unique people (`uniq(person_id)`), never event totals; not an all-subscriber rate.*\n"
+        )
+        hub_note = ((tm_load.get("zendesk_services") or {}).get("Account Hub") or {}).get("note")
+        if hub_note:
+            tm_load_md += f"- **Accounts:** {hub_note}\n"
 
     report_url = monthly_pages_url(year, f"{month_cap.lower()}.html")
     csv_url    = monthly_blob_url(year, f"{month_cap.lower()}.csv")
@@ -998,6 +1011,7 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
 - **CSAT — Donor Support:** {z['donor_csat'] or 'N/A'}% ({mom_pts(z['donor_csat'], p['donor_csat'])} pts MoM) {mom_arrow(z['donor_csat'], p['donor_csat'])}{'*' if z.get('donor_csat_note') else ''}
 - **CSAT — Thundermail:** {z['tbpro_csat'] or 'N/A'}%{'*' if z.get('tbpro_csat_note') else ' ✅'}
 - **Volume:** {z['total_tickets'] or 'N/A'} tickets ({mom_pct(z['total_tickets'], p['total_tickets'])} MoM) — Donor Support {z['donor_tickets'] or 'N/A'}, Thundermail {z['tbpro_tickets'] or 'N/A'}{(', App Store Reviews ' + str(z['appstore_tickets'])) if z.get('appstore_tickets') else ''}
+{tm_load_md.rstrip()}
 {donor_note_md}{tbpro_note_md}
 ---
 ## Community Support
@@ -1043,6 +1057,12 @@ Raw data (CSV): [{month_cap.lower()}.csv]({csv_url})
 **Overall solved rate (SUMO)** — percentage of questions that received any answer, including from the question creator, trusted contributors, and general members.
 
 **Trusted contributor %** — share of answered questions where the last (or only) answer came from a trusted contributor.
+
+**Thundermail contact rate** — unique Zendesk requesters divided by unique people (`uniq(person_id)`, never Total count of events) on PostHog `accounts.activity` in the calendar month. That denominator is PostHog-visible users, not all subscribers, not the mail series, and not Stalwart-only IMAP users who never hit PostHog. Mail people are unique people who fired ham ingest, spam ingest, or outbound sent. Surfaces overlap and are never summed.
+
+**Webmail sign-ins** — unique people with `accounts.login` and clientId `thunderbird-stormbox`. Long-lived sessions may not require a new sign-in, so this is a floor rather than a complete count of webmail users. Webmail tickets are tagged Thundermail what: UI::Webmail (`thundermail_what_ui__webmail`) or intelligent-triage webmail (`thundermail_entity_area_webmail`) — union, counted once. They can also sit on Account Hub / Thundermail service tags.
+
+**Internal users** — we cannot omit staff the way the PostHog UI does. This project has 0 people with an email property and those events have no usable `$host`, so unique-people counts include staff.
 """
     return md
 
@@ -1999,6 +2019,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     roland = config.get("roland_insights") or {}
     d_roland, a_roland = roland.get("desktop") or {}, roland.get("android") or {}
     ideas = config.get("tbpro_ideas") or {}
+    thundermail_load = config.get("thundermail_load") or {}
     methodology_notes = config.get("methodology_notes") or []
     esr_framing = narrative.get("esr_framing") or {}
     overlap_notes = narrative.get("overlap_notes") or {}
@@ -2119,6 +2140,59 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     ])
     if z.get("tbpro_csat_note"):
         thundermail_body += f'<p class="footnote">*{safe(z["tbpro_csat_note"])}</p>'
+    if thundermail_load:
+        surfaces = thundermail_load.get("posthog_surfaces") or {}
+        services = thundermail_load.get("zendesk_services") or {}
+        entity_areas = thundermail_load.get("zendesk_entity_areas") or {}
+        webmail_tickets = thundermail_load.get("zendesk_webmail") or entity_areas.get("webmail") or {}
+        surface_rates = thundermail_load.get("surface_contact_rate_visible_pct") or {}
+        load_mom = thundermail_load.get("mom") or {}
+        def load_delta(key, suffix):
+            value = load_mom.get(key)
+            return f"{value:+g}{suffix} MoM" if value is not None else "MoM unavailable"
+        surface_rows = [
+            ("Accounts", "accounts", services.get("Account Hub") or {}),
+            ("Thundermail", "mail", services.get("Thundermail") or {}),
+            ("Appointment", "appointment", services.get("Appointment") or {}),
+            ("Send", "send", services.get("Send") or {}),
+            ("Webmail", "webmail", webmail_tickets),
+        ]
+        load_rows = ""
+        for service_label, surface_key, service in surface_rows:
+            people = surfaces.get(surface_key)
+            note = (service.get("note") or "").strip()
+            label_html = safe(service_label)
+            if note:
+                label_html += f'<div class="tbl-sub">{safe(note)}</div>'
+            load_rows += (
+                f"<tr><td>{label_html}</td>"
+                f'<td class="num">{safe(people)}</td>'
+                f'<td class="num">{safe(service.get("tickets"))}</td>'
+                f'<td class="num">{safe(service.get("unique_requesters"))}</td>'
+                f'<td class="num">{safe(surface_rates.get(surface_key))}'
+                f'{"%" if surface_rates.get(surface_key) is not None else ""}</td></tr>'
+            )
+        load_body = cards([
+            ("PostHog-visible users", safe(thundermail_load.get("posthog_visible_users")), load_delta("posthog_visible_users_pct", "%"), ""),
+            ("Unique requesters", safe(thundermail_load.get("unique_requesters")), load_delta("unique_requesters_pct", "%"), ""),
+            ("Contact rate", f'{safe(thundermail_load.get("contact_rate_visible_pct"))}%', load_delta("contact_rate_visible_pts", " pts"), ""),
+            ("Tickets / requester", safe(thundermail_load.get("tickets_per_requester")), load_delta("tickets_per_requester", ""), ""),
+        ])
+        method_items = list(thundermail_load.get("methodology_scan") or [])
+        if not method_items and thundermail_load.get("methodology"):
+            method_items = [thundermail_load["methodology"]]
+        load_body += (
+            '<div class="panel"><table><thead><tr><th>Surface</th>'
+            '<th class="num">PostHog people</th><th class="num">Tickets</th>'
+            '<th class="num">Requesters</th><th class="num">Contact rate</th>'
+            f'</tr></thead><tbody>{load_rows}</tbody></table></div>'
+            f'<div class="method-panel"><p class="tbl-sub">Signals to validate · unique people, never event totals</p>'
+            f'{safe_scan(method_items)}</div>'
+        )
+        thundermail_body += drill(
+            "tm-contact-rate", "Usage vs support demand", load_body,
+            "Zendesk requesters · PostHog-visible users", True,
+        )
     thundermail_body += drill("tm-shipped", "Shipped &amp; in flight", shipped_body, opened=True)
     thundermail_body += drill(
         "tm-new", "New ideas this month", f'<div class="ideas">{new_idea_chips}</div>',

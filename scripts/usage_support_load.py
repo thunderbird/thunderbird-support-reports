@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["requests"]
+# dependencies = ["requests", "pyyaml"]
 # ///
 """
 Thundermail usage vs. support load — v1.
@@ -32,7 +32,10 @@ Private → lisa/private/thundermail_agent_load.html (gitignored — never commi
   *creation* date instead, which undercounted anyone working backlog/
   reopened/escalated tickets by 2-4x — don't reintroduce that.
 
-Usage: uv run scripts/usage_support_load.py
+Usage:
+  uv run scripts/usage_support_load.py
+  uv run scripts/usage_support_load.py --month august 2026
+  uv run scripts/usage_support_load.py --month august 2026 --write-yaml data/august_2026.yaml
 
 Requires a PostHog personal API key with query:read scope on the
 "TB Pro - Production" project (id 82711). Env var POSTHOG_API_KEY (CI), or
@@ -40,10 +43,14 @@ api_key=... in ~/.config/posthog/credentials (local), same shape as the
 Zendesk creds file.
 """
 
+import argparse
+import calendar
+import re
 import sys, os, json, urllib.request
 import datetime as dt
 from pathlib import Path
 from collections import defaultdict
+import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
 from tbpro_daily import zd_search_all, BRAND_ID, EXCLUDE_IDS
@@ -59,7 +66,55 @@ POSTHOG_BASE_URL     = "https://us.posthog.com"
 POSTHOG_ACTIVE_EVENT = "accounts.activity"
 PH_CREDS_PATH        = Path.home() / ".config" / "posthog" / "credentials"
 
+# Unique-person queries, not event totals. Product surfaces overlap and must
+# never be summed. Accounts activity is the contact-rate denominator because it
+# is the broadest stable identified signal. Stalwart mail telemetry is included
+# separately to show that mail-only activity can be visible in PostHog.
+POSTHOG_SURFACE_PREDICATES = {
+    "accounts": "event = 'accounts.activity'",
+    "mail": (
+        "event IN ('thundermail.message-ingest.ham', "
+        "'thundermail.message-ingest.spam', 'thundermail.message-sending.sent')"
+    ),
+    "appointment": (
+        "event LIKE 'apmt.%' OR "
+        "(event = '$pageview' AND properties.$host = 'appointment.tb.pro')"
+    ),
+    "send": (
+        "event LIKE 'send.%' OR event = 'download.size' OR "
+        "(event = '$pageview' AND properties.$host = 'send.tb.pro')"
+    ),
+}
+
+# Keycloak `accounts.login` carries the OIDC client that initiated the sign-in,
+# which separates webmail (stormbox) from Account Hub. Sign-in counts miss
+# anyone holding a long-lived session, so they are a floor, not a usage total.
+POSTHOG_LOGIN_CLIENTS = {
+    "webmail": ["thunderbird-stormbox"],
+    "accounts_web": ["thunderbird-accounts"],
+    "appointment_web": ["thunderbird-appointment-frontend"],
+}
+
+# Match PostHog project setting "Filter out internal and test users"
+# (test_account_filters on TB Pro - Production):
+#   person.email not_icontains @thunderbird.net
+#   event.$host not_regex ^(localhost|127\.0\.0\.1)($|:)
+# HogQL SQL insights have no UI toggle; {filters} + filterTestAccounts is the
+# same injection the insight toggle uses. Person email is currently unset on
+# this project (0 / 123k persons), so the clause is a no-op until emails exist.
+POSTHOG_OMIT_INTERNAL_SQL = (
+    "coalesce(person.properties.email, '') NOT ILIKE '%@thunderbird.net%' "
+    "AND NOT match(coalesce(toString(properties.$host), ''), "
+    "'^(localhost|127\\\\.0\\\\.0\\\\.1)($|:)')"
+)
+
 # --- Zendesk / capacity --------------------------------------------------------
+ENTITY_AREA_PREFIX = "thundermail_entity_area_"
+# Agent field Thundermail what: UI::Webmail (Zendesk nested-dropdown tag).
+WEBMAIL_WHAT_TAG = "thundermail_what_ui__webmail"
+WEBMAIL_ENTITY_TAG = "thundermail_entity_area_webmail"
+WEBMAIL_UNION_TAGS = frozenset({WEBMAIL_WHAT_TAG, WEBMAIL_ENTITY_TAG})
+
 TIME_SPENT_FIELD_ID = 45345504704659   # Time Tracking app "Total time spent (sec)"
 EXCLUDE_AGENT_IDS   = {51426647255187}  # eng seats, bots — matches capacity_dashboard.py
 PRIVATE_LOOKBACK_WEEKS = 4
@@ -80,10 +135,13 @@ def posthog_api_key():
     )
 
 
-def posthog_hogql(query):
+def posthog_hogql(query, filter_test_accounts=False):
     key = posthog_api_key()
     url = f"{POSTHOG_BASE_URL}/api/projects/{POSTHOG_PROJECT_ID}/query/"
-    body = json.dumps({"query": {"kind": "HogQLQuery", "query": query}}).encode()
+    qobj = {"kind": "HogQLQuery", "query": query}
+    if filter_test_accounts:
+        qobj["filters"] = {"filterTestAccounts": True}
+    body = json.dumps({"query": qobj}).encode()
     req = urllib.request.Request(url, data=body, headers={
         "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
@@ -124,6 +182,45 @@ def daily_active_users(start, end):
     return out
 
 
+def unique_people_for_predicate(predicate, start, end):
+    """Distinct PostHog people matching a reviewed product-surface predicate.
+
+    Always applies PostHog internal/test-user filters (email does not contain
+    @thunderbird.net; $host is not localhost). Login queries go through here too.
+    """
+    q = f"""
+        SELECT uniq(person_id)
+        FROM events
+        WHERE ({predicate})
+          AND timestamp >= toDateTime('{start.isoformat()}')
+          AND timestamp < toDateTime('{end.isoformat()}')
+          AND {POSTHOG_OMIT_INTERNAL_SQL}
+          AND {{filters}}
+    """
+    rows = posthog_hogql(q, filter_test_accounts=True).get("results", [])
+    return int(rows[0][0]) if rows else 0
+
+
+def monthly_posthog_people(start, end):
+    """Aggregate-only usage by surface. Counts overlap and are not additive."""
+    return {
+        key: unique_people_for_predicate(predicate, start, end)
+        for key, predicate in POSTHOG_SURFACE_PREDICATES.items()
+    }
+
+
+def login_people_by_client(start, end):
+    """Distinct people signing in through each Thundermail-brand OIDC client."""
+    surfaces = {}
+    for surface, clients in POSTHOG_LOGIN_CLIENTS.items():
+        in_list = ", ".join(f"'{client}'" for client in clients)
+        surfaces[surface] = unique_people_for_predicate(
+            f"event = 'accounts.login' AND properties.clientId IN ({in_list})",
+            start, end,
+        ) or None
+    return surfaces
+
+
 # --- Zendesk -------------------------------------------------------------------
 
 def clean_thundermail_tickets(tickets):
@@ -144,6 +241,207 @@ def fetch_window_tickets(start_date, end_date):
         f"created>={start_date.isoformat()} created<{end_date.isoformat()}"
     )
     return clean_thundermail_tickets(tickets)
+
+
+def _aggregate_ticket_rows(rows):
+    return {
+        "tickets": len(rows),
+        "unique_requesters": len({
+            row.get("requester_id") for row in rows if row.get("requester_id")
+        }),
+    }
+
+
+def webmail_union_tickets(tickets):
+    """Tickets tagged Thundermail what: UI::Webmail or intelligent-triage webmail."""
+    return [
+        ticket for ticket in tickets
+        if WEBMAIL_UNION_TAGS.intersection(ticket.get("tags") or [])
+    ]
+
+
+def monthly_zendesk_requesters(start, end):
+    """Requester-level demand, returned only as aggregate counts."""
+    from tbpro_daily import services_for
+
+    tickets = fetch_window_tickets(start, end)
+    by_service = defaultdict(list)
+    by_entity_area = defaultdict(list)
+    for ticket in tickets:
+        services = services_for(ticket) or ["Unclassified"]
+        for service in services:
+            by_service[service].append(ticket)
+        # Intelligent-triage area tags are finer-grained than pro_service_*.
+        # Webmail contact rate uses the UI::Webmail ∪ entity-area union below,
+        # not entity_areas["webmail"] alone.
+        for tag in ticket.get("tags") or []:
+            if tag.startswith(ENTITY_AREA_PREFIX):
+                by_entity_area[tag[len(ENTITY_AREA_PREFIX):]].append(ticket)
+
+    return {
+        "eligible_tickets": len(tickets),
+        "unique_requesters": len({
+            ticket.get("requester_id") for ticket in tickets
+            if ticket.get("requester_id")
+        }),
+        "services": {
+            service: _aggregate_ticket_rows(rows)
+            for service, rows in sorted(by_service.items())
+        },
+        "entity_areas": {
+            area: _aggregate_ticket_rows(rows)
+            for area, rows in sorted(by_entity_area.items())
+        },
+        "webmail": _aggregate_ticket_rows(webmail_union_tickets(tickets)),
+    }
+
+
+def month_bounds(month_num, year):
+    start = dt.datetime(year, month_num, 1, tzinfo=dt.timezone.utc)
+    if month_num == 12:
+        end = dt.datetime(year + 1, 1, 1, tzinfo=dt.timezone.utc)
+    else:
+        end = dt.datetime(year, month_num + 1, 1, tzinfo=dt.timezone.utc)
+    return start, end
+
+
+def period_load(start, end):
+    """Build one calendar month's aggregate numerator and denominator."""
+    posthog = monthly_posthog_people(start, end)
+    logins = login_people_by_client(start, end)
+    zendesk = monthly_zendesk_requesters(start.date(), end.date())
+    requesters = zendesk["unique_requesters"]
+    eligible = zendesk["eligible_tickets"]
+    visible = posthog["accounts"]
+    services = zendesk["services"]
+    entity_areas = zendesk["entity_areas"]
+    surface_service = {
+        "accounts": "Account Hub",
+        "mail": "Thundermail",
+        "appointment": "Appointment",
+        "send": "Send",
+    }
+    surface_contact_rate = {}
+    for surface, service in surface_service.items():
+        people = posthog.get(surface)
+        requesters_for_service = (services.get(service) or {}).get("unique_requesters")
+        surface_contact_rate[surface] = (
+            round(requesters_for_service / people * 100, 1)
+            if people and requesters_for_service is not None else None
+        )
+    webmail = zendesk.get("webmail") or {}
+    webmail_people = logins.get("webmail")
+    webmail_requesters = webmail.get("unique_requesters")
+    surface_contact_rate["webmail"] = (
+        round(webmail_requesters / webmail_people * 100, 1)
+        if webmail_people and webmail_requesters is not None else None
+    )
+
+    return {
+        "posthog_visible_users": visible,
+        "unique_requesters": requesters,
+        "requester_eligible_tickets": eligible,
+        "tickets_per_requester": round(eligible / requesters, 2) if requesters else None,
+        "contact_rate_visible_pct": round(requesters / visible * 100, 1) if visible else None,
+        "tickets_per_visible_user_pct": round(eligible / visible * 100, 1) if visible else None,
+        "posthog_surfaces": {
+            "accounts": posthog["accounts"],
+            "mail": posthog["mail"],
+            "appointment": posthog["appointment"],
+            "send": posthog["send"],
+            "webmail": logins.get("webmail"),
+        },
+        "posthog_signins": logins,
+        "zendesk_services": services,
+        "zendesk_entity_areas": entity_areas,
+        "zendesk_webmail": webmail,
+        "surface_contact_rate_visible_pct": surface_contact_rate,
+    }
+
+
+def build_monthly_load(month, year):
+    month_num = list(calendar.month_name).index(month.title())
+    start, end = month_bounds(month_num, year)
+    if month_num == 1:
+        prev_year, prev_month = year - 1, 12
+    else:
+        prev_year, prev_month = year, month_num - 1
+    prev_start, prev_end = month_bounds(prev_month, prev_year)
+
+    current = period_load(start, end)
+    previous = period_load(prev_start, prev_end)
+    result = {
+        "month": f"{year}-{month_num:02d}",
+        **current,
+        "previous": {
+            "month": f"{prev_year}-{prev_month:02d}",
+            **previous,
+        },
+        "methodology_scan": [
+            "Counts unique people, never raw events. One mailbox that sends 500 messages is still one person (uniq(person_id), not Total count).",
+            "Overall contact-rate denominator: unique people on PostHog accounts.activity — PostHog-visible users, not all subscribers, not Stalwart-only IMAP users who never hit PostHog, and not the mail series.",
+            "Mail people: unique people who fired ham ingest, spam ingest, or outbound sent (thundermail.message-ingest.ham, thundermail.message-ingest.spam, thundermail.message-sending.sent). Same events as the PostHog insight; Unique users, not Total count.",
+            "Webmail people: unique people with accounts.login and clientId thunderbird-stormbox. Sign-ins in the month are a floor — long-lived sessions miss a re-auth.",
+            "Appointment / Send people: product events plus $pageview on appointment.tb.pro / send.tb.pro. Those rates are directional (anonymous visitors possible).",
+            "Numerator: unique Zendesk requesters on the Thundermail brand after merge / test / agent-created / excluded-incident filters. Surface tickets from pro_service_* tags (Account Hub, Thundermail, Appointment, Send).",
+            "Webmail tickets: tagged Thundermail what: UI::Webmail (thundermail_what_ui__webmail) or intelligent-triage webmail (thundermail_entity_area_webmail) — union, counted once. They can also sit on Account Hub / Thundermail service tags.",
+            "Internal users: monthly unique-people queries use PostHog's Filter out internal and test users (person email does not contain @thunderbird.net; $host does not match localhost / 127.0.0.1). That currently excludes 0 people — person email is unset in this project and these events have no localhost $host — so counts still include staff. Zendesk requesters are not filtered the same way.",
+            "Surfaces overlap and are never summed. Not an all-subscriber rate.",
+        ],
+    }
+    result["methodology"] = " ".join(result["methodology_scan"])
+    result["mom"] = {
+        "posthog_visible_users_pct": pct_change(
+            current["posthog_visible_users"], previous["posthog_visible_users"]
+        ),
+        "unique_requesters_pct": pct_change(
+            current["unique_requesters"], previous["unique_requesters"]
+        ),
+        "contact_rate_visible_pts": point_change(
+            current["contact_rate_visible_pct"], previous["contact_rate_visible_pct"]
+        ),
+        "tickets_per_requester": point_change(
+            current["tickets_per_requester"], previous["tickets_per_requester"]
+        ),
+        "webmail_signins_pct": pct_change(
+            current["posthog_signins"].get("webmail"),
+            previous["posthog_signins"].get("webmail"),
+        ),
+    }
+    return result
+
+
+def pct_change(current, previous):
+    if current is None or previous in (None, 0):
+        return None
+    return round((current - previous) / previous * 100, 1)
+
+
+def point_change(current, previous):
+    if current is None or previous is None:
+        return None
+    return round(current - previous, 2)
+
+
+def write_monthly_yaml(path, data):
+    """Replace the generated aggregate block without disturbing hand-edited YAML."""
+    start_marker = "# ── THUNDERMAIL LOAD (generated; aggregate-only) ──"
+    end_marker = "# ── /THUNDERMAIL LOAD ──"
+    block = (
+        f"{start_marker}\n"
+        + yaml.safe_dump({"thundermail_load": data}, sort_keys=False).rstrip()
+        + f"\n{end_marker}\n"
+    )
+    text = path.read_text()
+    pattern = re.compile(
+        re.escape(start_marker) + r".*?" + re.escape(end_marker) + r"\n?",
+        re.S,
+    )
+    if pattern.search(text):
+        text = pattern.sub(block, text)
+    else:
+        text = text.rstrip() + "\n\n" + block
+    path.write_text(text)
 
 
 def anonymize_agents(tickets):
@@ -496,6 +794,28 @@ def build_private_html(tickets, agent_map, today):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--month", nargs=2, metavar=("MONTH", "YEAR"),
+        help="Build aggregate monthly Zendesk/PostHog metrics instead of rolling dashboards",
+    )
+    parser.add_argument(
+        "--write-yaml", type=Path,
+        help="Write/replace the generated thundermail_load block in this YAML file",
+    )
+    args = parser.parse_args()
+
+    if args.write_yaml and not args.month:
+        parser.error("--write-yaml requires --month MONTH YEAR")
+    if args.month:
+        month, year_raw = args.month
+        data = build_monthly_load(month, int(year_raw))
+        print(json.dumps({"thundermail_load": data}, indent=2))
+        if args.write_yaml:
+            write_monthly_yaml(args.write_yaml, data)
+            print(f"Written → {args.write_yaml.resolve()}")
+        return
+
     today = dt.date.today()
 
     print("Fetching PostHog active users…", flush=True)

@@ -38,7 +38,7 @@ zendesk:
   donor_csat: 92.7            # +7.0 pts vs July 85.7
   donor_csat_note: null
   tbpro_csat: 85.7            # −9.8 pts vs July 95.5
-  tbpro_csat_note: "DSATs: no monthly plan, no à la carte, price too high (100 CAD). Support satisfaction excluding those: 100%."
+  tbpro_csat_note: "The 85.7% includes product dissatisfaction: every DSAT was about pricing — no monthly plan, no à la carte, 100 CAD too high. Rated on the support interaction alone, satisfaction was 100%."
   total_tickets: 755          # Donor 350 + App Store 218 + Thundermail 187 (July 767)
   replies_to_low_star: 218    # incoming Play Store review tickets (July 272)
   donor_tickets: 350          # July 212
@@ -501,7 +501,7 @@ tbpro_ideas:
 
 # ── NARRATIVE ──────────────────────────────────────────────────────────────
 narrative:
-  lede: "Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during the ESR period — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) is pricing DSATs (no monthly / no à la carte / 100 CAD), not support — adjusted support satisfaction 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
+  lede: "Donor tickets jumped 212→350 (+65%) because extra donation appeals ran during the ESR period — the 8/31 spoiler was ~95% — while overall volume eased 767→755 (−1.6%). CSAT held at 90.9% (−0.8 vs July); Donor hit 92.7% (+7.0). Thundermail 85.7% (−9.8) includes product/pricing DSATs (no monthly / no à la carte / 100 CAD); support-interaction satisfaction was 100%. TB Play Store recovered to 3.74★ (+0.16); push/sync is still #1 friction (34 negative, rising)."
   report_note: "No full July dashboard — skipped (onboardings, vacations, surgery; 4-day August weeks / Lisa out). Lisa's 8/31 KPI note is the July baseline; MoM is August vs July. Team: Amanda + Rocky (Technical Support Specialists) onboarded; CertainlyCX for donors (Natalia, Sofia, Mc Gyver) in Donor Support Matrix. July Thundermail was 283 tickets (+141.9%) from waitlist pushes + Wellness Fridays."
   receive_resolve_resound: |
     **🕊 Receive**
@@ -512,7 +512,7 @@ narrative:
 
     **🪽 Resolve**
     - Donor CSAT 92.7% (+7.0 pts) through the donation-appeal spike
-    - Thundermail CSAT 85.7% is product/pricing DSATs; support satisfaction excluding those 100%
+    - Thundermail CSAT 85.7% includes product/pricing DSATs; support-interaction satisfaction excluding those 100%
     - Android forum solved rate 61% (+1 pt) on 51 questions
     - Desktop printing regression is fixed in Thunderbird 155 (Sept 1) — the one August desktop cluster with an answer to give
 
@@ -529,3 +529,182 @@ narrative:
     - **Rating gap:** TB 3.74★ needs +0.26★ to 4★ (K-9 3.60★, −0.04). Converting push 1–3★ reviewers is still the primary path
   experiments: "Later (parked idea, not scoped): watch Zendesk volume against Roland's SUMO keyword spikes to see whether desktop provider/regression clusters show up in tickets first."
   whats_coming_up: null
+
+# ── THUNDERMAIL LOAD (generated; aggregate-only) ──
+thundermail_load:
+  month: 2026-08
+  posthog_visible_users: 3234
+  unique_requesters: 156
+  requester_eligible_tickets: 170
+  tickets_per_requester: 1.09
+  contact_rate_visible_pct: 4.8
+  tickets_per_visible_user_pct: 5.3
+  posthog_surfaces:
+    accounts: 3234
+    mail: 2476
+    appointment: 3124
+    send: 939
+    webmail: 1256
+  posthog_signins:
+    webmail: 1256
+    accounts_web: 2431
+    appointment_web: 525
+  zendesk_services:
+    Account Hub:
+      tickets: 96
+      unique_requesters: 95
+      note: "31% refund/cancel · 61% billing (refund + pricing), not login"
+    Appointment:
+      tickets: 4
+      unique_requesters: 4
+    Send:
+      tickets: 6
+      unique_requesters: 6
+    Thundermail:
+      tickets: 62
+      unique_requesters: 52
+    Unclassified:
+      tickets: 2
+      unique_requesters: 2
+  zendesk_entity_areas:
+    addons:
+      tickets: 7
+      unique_requesters: 7
+    aliases:
+      tickets: 22
+      unique_requesters: 22
+    attachments:
+      tickets: 3
+      unique_requesters: 3
+    caldav:
+      tickets: 5
+      unique_requesters: 5
+    carddav:
+      tickets: 1
+      unique_requesters: 1
+    certificates_encryption:
+      tickets: 3
+      unique_requesters: 3
+    dns:
+      tickets: 13
+      unique_requesters: 12
+    mfa_security:
+      tickets: 2
+      unique_requesters: 2
+    performance:
+      tickets: 1
+      unique_requesters: 1
+    protocols:
+      tickets: 8
+      unique_requesters: 8
+    spam:
+      tickets: 16
+      unique_requesters: 16
+    webmail:
+      tickets: 11
+      unique_requesters: 11
+  zendesk_webmail:
+    tickets: 11
+    unique_requesters: 11
+  surface_contact_rate_visible_pct:
+    accounts: 2.9
+    mail: 2.1
+    appointment: 0.1
+    send: 0.6
+    webmail: 0.9
+  previous:
+    month: 2026-07
+    posthog_visible_users: 3706
+    unique_requesters: 229
+    requester_eligible_tickets: 253
+    tickets_per_requester: 1.1
+    contact_rate_visible_pct: 6.2
+    tickets_per_visible_user_pct: 6.8
+    posthog_surfaces:
+      accounts: 3706
+      mail: 2108
+      appointment: 3844
+      send: 2798
+      webmail: 1156
+    posthog_signins:
+      webmail: 1156
+      accounts_web: 3488
+      appointment_web: 730
+    zendesk_services:
+      Account Hub:
+        tickets: 115
+        unique_requesters: 113
+      Appointment:
+        tickets: 9
+        unique_requesters: 9
+      Send:
+        tickets: 10
+        unique_requesters: 10
+      Thundermail:
+        tickets: 111
+        unique_requesters: 98
+      Unclassified:
+        tickets: 8
+        unique_requesters: 8
+    zendesk_entity_areas:
+      addons:
+        tickets: 11
+        unique_requesters: 11
+      aliases:
+        tickets: 15
+        unique_requesters: 14
+      attachments:
+        tickets: 5
+        unique_requesters: 5
+      caldav:
+        tickets: 6
+        unique_requesters: 6
+      carddav:
+        tickets: 3
+        unique_requesters: 2
+      dns:
+        tickets: 13
+        unique_requesters: 13
+      filtering:
+        tickets: 3
+        unique_requesters: 3
+      protocols:
+        tickets: 8
+        unique_requesters: 8
+      spam:
+        tickets: 3
+        unique_requesters: 2
+      webmail:
+        tickets: 10
+        unique_requesters: 10
+    zendesk_webmail:
+      tickets: 13
+      unique_requesters: 12
+    surface_contact_rate_visible_pct:
+      accounts: 3.0
+      mail: 4.6
+      appointment: 0.2
+      send: 0.4
+      webmail: 1.0
+  methodology: Counts unique people, never raw events (uniq(person_id), not Total
+    count). Overall contact-rate denominator is unique people on PostHog accounts.activity,
+    not the mail series, not all subscribers, and not Stalwart-only IMAP users who
+    never hit PostHog. Mail people are unique people who fired ham ingest, spam ingest,
+    or outbound sent. Surfaces overlap and are never summed.
+  methodology_scan:
+    - Counts unique people, never raw events. One mailbox that sends 500 messages is still one person (uniq(person_id), not Total count).
+    - "Overall contact-rate denominator: unique people on PostHog accounts.activity — PostHog-visible users, not all subscribers, not Stalwart-only IMAP users who never hit PostHog, and not the mail series."
+    - "Mail people: unique people who fired ham ingest, spam ingest, or outbound sent (thundermail.message-ingest.ham, thundermail.message-ingest.spam, thundermail.message-sending.sent). Same events as the PostHog insight; Unique users, not Total count."
+    - "Webmail people: unique people with accounts.login and clientId thunderbird-stormbox. Sign-ins in the month are a floor — long-lived sessions miss a re-auth."
+    - "Appointment / Send people: product events plus $pageview on appointment.tb.pro / send.tb.pro. Those rates are directional (anonymous visitors possible)."
+    - "Numerator: unique Zendesk requesters on the Thundermail brand after merge / test / agent-created / excluded-incident filters. Surface tickets from pro_service_* tags (Account Hub, Thundermail, Appointment, Send)."
+    - "Webmail tickets: tagged Thundermail what: UI::Webmail (thundermail_what_ui__webmail) or intelligent-triage webmail (thundermail_entity_area_webmail) — union, counted once. They can also sit on Account Hub / Thundermail service tags."
+    - "Internal users: we cannot omit staff the way the PostHog UI does. This project has 0 people with an email property and those events have no usable $host, so unique-people counts include staff."
+    - Surfaces overlap and are never summed. Not an all-subscriber rate.
+  mom:
+    posthog_visible_users_pct: -12.7
+    unique_requesters_pct: -31.9
+    contact_rate_visible_pts: -1.4
+    tickets_per_requester: -0.01
+    webmail_signins_pct: 8.7
+# ── /THUNDERMAIL LOAD ──

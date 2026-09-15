@@ -12,8 +12,13 @@ Volume eased to 755 tickets (−1.6%) while donor tickets jumped 212 → 350 (+6
 - **CSAT — Donor Support:** 92.7% (+7.0 pts MoM) ↑
 - **CSAT — Thundermail:** 85.7% (−9.8 pts MoM)*
 - **Volume:** 755 tickets (−1.6% MoM) — Donor Support 350, Thundermail 187, App Store Reviews 218
+- **Thundermail contact rate:** 156 unique requesters / 3,234 PostHog-visible people = 4.8% (−1.4 pts MoM) · 1.09 tickets per requester
+- **Accounts:** 31% refund/cancel · 61% billing (refund + pricing), not login
+- **Webmail is the only Thundermail surface that grew:** 1,256 sign-ins (+8.7% MoM) at a flat 0.9% contact rate, while requesters fell 31.9%
 
-*Every Thundermail DSAT was about pricing — no monthly plan, no à la carte, 100 CAD too high. Satisfaction with support itself: 100%.*
+*The 85.7% includes product dissatisfaction: every DSAT was about pricing — no monthly plan, no à la carte, 100 CAD too high. Rated on the support interaction alone, satisfaction was 100%.*
+
+*Contact rate counts unique people (`uniq(person_id)`), never raw event totals. Denominator is PostHog `accounts.activity`, not the mail series. Mail people = unique people on ham ingest, spam ingest, or outbound sent. Webmail people = unique `accounts.login` with clientId `thunderbird-stormbox` (floor). Surfaces overlap and are never summed. Not an all-subscriber rate.*
 
 ---
 ## Desktop ESR
@@ -73,7 +78,7 @@ July's QR / Settings Import spike cooled from 25 negative mentions to 3.
 
 **🕊 Receive** — 755 Zendesk tickets (Donor 350, Thundermail 187, App Store Reviews 218) · 564 Play Store reviews across 27 languages · 955 desktop forum questions.
 
-**🪽 Resolve** — Donor CSAT 92.7% (+7.0 pts) through the appeal spike · Thundermail's dip is pricing, with support satisfaction at 100% · desktop printing finally has a shipped answer in 155.
+**🪽 Resolve** — Donor CSAT 92.7% (+7.0 pts) through the appeal spike · Thundermail 85.7% includes product/pricing DSATs; support-interaction satisfaction was 100% · desktop printing finally has a shipped answer in 155.
 
 **✨ Resound** — 48% of TB reviews are 5★ (220 of 456) and TB recovered to 3.74★ · QR negatives fell 25 → 3 · Thundermail **Webmail** and **MFA** both show as Landed on the ideas board.
 
@@ -108,3 +113,9 @@ Raw data (CSV): [august.csv](https://github.com/thunderbird/thunderbird-support-
 **Monthly rise (Roland's spike detector)** — the month's count for one cause tag divided by the normal count for that tag. A rise of 8× means eight times as many questions as usual.
 
 **Trusted contributor %** — share of answered questions where the last (or only) answer came from a trusted contributor.
+
+**Thundermail contact rate** — unique Zendesk requesters divided by unique people (`uniq(person_id)`, never Total count of events) on PostHog `accounts.activity` in the calendar month. That denominator is PostHog-visible people, not all subscribers, not the mail series, and not Stalwart-only IMAP users who never hit PostHog. Mail people are unique people who fired ham ingest, spam ingest, or outbound sent. Surfaces overlap and are never summed.
+
+**Webmail sign-ins** — unique people with `accounts.login` and clientId `thunderbird-stormbox`. Long-lived sessions do not require a new sign-in, so this is a floor rather than a complete count of webmail users. Webmail tickets are tagged Thundermail what: UI::Webmail (`thundermail_what_ui__webmail`) or intelligent-triage webmail (`thundermail_entity_area_webmail`) — union, counted once. They can also sit on Account Hub / Thundermail service tags.
+
+**Internal users** — we cannot omit staff the way the PostHog UI does. This project has 0 people with an email property and those events have no usable `$host`, so unique-people counts include staff.

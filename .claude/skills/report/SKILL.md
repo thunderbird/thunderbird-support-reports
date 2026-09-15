@@ -61,7 +61,31 @@ Check for:
 
 ---
 
-## Step 4 — Run the generator
+## Step 4 — Add Thundermail usage vs. support demand
+
+Run:
+
+```
+uv run scripts/usage_support_load.py --month $month $year \
+  --write-yaml data/$month_$year.yaml
+```
+
+This writes aggregate-only `thundermail_load` metrics: Zendesk unique
+requesters and requester-eligible tickets, tickets per requester, unique
+PostHog people by product surface, and contact rate.
+
+Always label it **contact rate among PostHog-visible users**, never all
+subscribers. `accounts.activity` is the broadest stable denominator; surface
+populations overlap and are never summed; requester identities are never
+joined across systems. Server-side Stalwart events make some mail-only use
+visible. Webmail stays unavailable until stormbox has distinct telemetry.
+
+If PostHog is unavailable, keep Zendesk KPIs and omit the contact-rate panel
+rather than treating missing usage as zero.
+
+---
+
+## Step 5 — Run the generator
 
 Before generation, put qualitative copy in `data/$month_$year.yaml`. The newsletter
 generator refuses to publish a future month when required narrative fields are absent:
@@ -121,7 +145,7 @@ Preview mode writes only the named path; it does not write reports, redirects, h
 
 ---
 
-## Step 5 — Review qualitative output
+## Step 6 — Review qualitative output
 
 Review the generated HTML and Markdown against the YAML. Fix qualitative copy in YAML and
 regenerate; do not hand-tune generated HTML. Check the K-9 Discourse and Play Store analysis
@@ -129,7 +153,7 @@ for signals worth calling out in the lede, overlap notes, or K-9 churn watch.
 
 ---
 
-## Step 6 — Verify dashboard
+## Step 7 — Verify dashboard
 
 Open `reports/monthly/$year/$month.html` and check:
 - All stat cards show values (no `—` where data should be)
@@ -138,10 +162,14 @@ Open `reports/monthly/$year/$month.html` and check:
 - K-9 Forum tab shows topics, resolved %, unanswered %, top themes with 3-month trends and NEW ↑ badges, top contributors
 - Theme count that more than doubles vs. the start of the 3-month window renders in red
 - SUMO tables show MoM deltas and 3-month trends
+- Thundermail shows requesters, tickets/requester, and contact rate explicitly
+  labeled “among PostHog-visible users”
+- Product-surface counts are not summed; unavailable Webmail telemetry renders
+  as unavailable, not zero
 
 ---
 
-## Step 7 — Commit and push
+## Step 8 — Commit and push
 
 Stage only report files — never the raw CSV exports:
 ```

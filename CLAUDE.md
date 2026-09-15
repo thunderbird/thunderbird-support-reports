@@ -34,13 +34,17 @@ Missing required exports or a failed GCS fetch are fatal; never publish “not a
 1. **Re-fetch all live data sources** before touching the YAML — do not rely on values from a prior session, which may be days or weeks stale:
    - FeatureOS: run `featureos-cli posts list --query "sort=votes_count&order=desc&per_page=25&status=all" --json` and update both `new_this_month` and `top_alltime`
    - SUMO: pull Roland's latest report via `gh api`
-2. Fill in `data/<month>_<year>.yaml` — Zendesk data, SUMO data (from Roland's repo), FeatureOS ideas
-3. Run `uv run scripts/generate.py <month> <year>` (e.g. `uv run scripts/generate.py april 2026`)
+2. Generate Thundermail demand metrics: `uv run scripts/usage_support_load.py --month <month> <year> --write-yaml data/<month>_<year>.yaml`
+   - Uses aggregate-only Zendesk requester counts and read-only PostHog queries.
+   - `accounts.activity` is the contact-rate denominator. Label the result **among PostHog-visible users**, never all subscribers.
+   - Product-surface people overlap and must not be summed. Server-side Stalwart mail events make some email-only use visible; Webmail remains unavailable until stormbox has distinct telemetry.
+3. Fill in `data/<month>_<year>.yaml` — Zendesk data, SUMO data (from Roland's repo), FeatureOS ideas
+4. Run `uv run scripts/generate.py <month> <year>` (e.g. `uv run scripts/generate.py april 2026`)
    — friction point quotes, devices, and languages are auto-populated from the CSVs
-4. Draft the narrative lede and qualitative sections (K-9 churn watch, goals, Receive/Resolve/Resound)
-5. Lisa reviews, edits, approves
-6. Optionally run `uv run scripts/deep_analysis.py` for fuller per-review detail if a theme warrants deeper investigation
-7. Commit and push to GitHub
+5. Draft the narrative lede and qualitative sections (K-9 churn watch, goals, Receive/Resolve/Resound)
+6. Lisa reviews, edits, approves
+7. Optionally run `uv run scripts/deep_analysis.py` for fuller per-review detail if a theme warrants deeper investigation
+8. Commit and push to GitHub
 
 ### Local review links — always include full `file://` paths
 
