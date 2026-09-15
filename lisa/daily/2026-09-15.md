@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 05:25 ET** · refreshes hourly_  
+_Updated: **2026-09-15 06:23 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 37** of rollout — **35,000 invitees**, **415 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
+Flight 8 is **day 37** of rollout — **35,000 invitees**, **416 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **415** tickets total since launch · contact rate **1%** of 35000 invitees
+- **5** new tickets in last 24h · **3** solved in last 24h
+- **416** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
@@ -153,11 +153,11 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **open**: 17
 - **closed**: 11
 - **hold**: 7
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 240
+- **Account Hub**: 241
 - **Thundermail**: 139
 - **Send**: 9
 - **Appointment**: 8
@@ -209,6 +209,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8704](https://tbpro.zendesk.com/agent/tickets/8704)** · Configuration custom domains
+  > My DNS provider returns the following error when I configure the zone with the parameters you provided: zone [domain]/IN: [domain]/MX '[domain]' (out of zone) is a CNAME…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#8700](https://tbpro.zendesk.com/agent/tickets/8700)** · External Domain
@@ -235,6 +240,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [open] · 2026-09-15T04:44 · Refund
 - [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [open] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
 - [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [new] · 2026-09-15T07:03 · External Domain
+- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [new] · 2026-09-15T09:33 · Configuration custom domains
 
 ## Solved — last 24h
 
