@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-15 08:32 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -149,8 +149,8 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 328
-- **pending**: 51
-- **open**: 17
+- **pending**: 50
+- **open**: 18
 - **closed**: 11
 - **hold**: 7
 - **new**: 2
