@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 18:21 ET** · refreshes hourly_  
+_Updated: **2026-09-15 19:19 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **423 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.9h · mean 156.7h (proxy: updated_at − created_at, 347 solved tickets)
+- **Median AHT**: 137.5h · mean 156.5h (proxy: updated_at − created_at, 347 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -161,10 +161,10 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 347
-- **pending**: 51
-- **closed**: 13
+- **pending**: 48
+- **closed**: 15
 - **hold**: 7
-- **open**: 5
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -262,7 +262,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [pending] · 2026-09-15T09:33 · Configuration custom domains
 - [8707](https://tbpro.zendesk.com/agent/tickets/8707) · [pending] · 2026-09-15T14:23 · Blocked email
 - [8709](https://tbpro.zendesk.com/agent/tickets/8709) · [pending] · 2026-09-15T14:51 · Regarding Gmail forward
-- [8711](https://tbpro.zendesk.com/agent/tickets/8711) · [pending] · 2026-09-15T17:14 · domain ssl ?
+- [8711](https://tbpro.zendesk.com/agent/tickets/8711) · [open] · 2026-09-15T17:14 · domain ssl ?
 - [8715](https://tbpro.zendesk.com/agent/tickets/8715) · [hold] · 2026-09-15T18:59 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 
 ## Solved — last 24h
