@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 11:24 ET** · refreshes hourly_  
+_Updated: **2026-09-15 12:24 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **418 tickets** so fa
 
 ## At a glance
 
-- **7** new tickets in last 24h · **9** solved in last 24h
+- **7** new tickets in last 24h · **16** solved in last 24h
 - **418** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.1h · mean 155.1h (proxy: updated_at − created_at, 330 solved tickets)
+- **Median AHT**: 137.4h · mean 155.5h (proxy: updated_at − created_at, 336 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -77,7 +77,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
   - [#8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11 · _Subscription cancellation_
   - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [solved] · 2026-09-12 · _cancel trial _
-  - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [open] · 2026-09-14 · _Forgot Thunderbird Email ID_
+  - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [solved] · 2026-09-14 · _Forgot Thunderbird Email ID_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -88,7 +88,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
-- 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
+- ✅ [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
 - 🔧 [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
 - ✅ [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
 - ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
@@ -154,9 +154,9 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 330
-- **pending**: 52
-- **open**: 17
+- **solved**: 336
+- **pending**: 49
+- **open**: 14
 - **closed**: 12
 - **hold**: 7
 
@@ -264,6 +264,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8672](https://tbpro.zendesk.com/agent/tickets/8672) · 2026-09-15T15:01 · Change Primary
 - · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-15T15:01 · Thundermail General Questions - 
 - · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-15T15:01 · Attempting to setup two secondary Thundermail email addresses 
+- · [8676](https://tbpro.zendesk.com/agent/tickets/8676) · 2026-09-15T15:39 · Forgot Thunderbird Email ID
+- · [8345](https://tbpro.zendesk.com/agent/tickets/8345) · 2026-09-15T15:54 · Email accounts set up with a custom domain
+- · [8613](https://tbpro.zendesk.com/agent/tickets/8613) · 2026-09-15T16:02 · Checking Email with an Email Archiver
+- · [8541](https://tbpro.zendesk.com/agent/tickets/8541) · 2026-09-15T16:02 · Multiuser plan
+- · [8539](https://tbpro.zendesk.com/agent/tickets/8539) · 2026-09-15T16:02 · US soveriegnity
+- · [8485](https://tbpro.zendesk.com/agent/tickets/8485) · 2026-09-15T16:02 · Send takes forever to upload files
+- · [8339](https://tbpro.zendesk.com/agent/tickets/8339) · 2026-09-15T16:02 · Thundermail 2FA and security features
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
