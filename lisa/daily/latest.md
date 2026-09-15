@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 10:24 ET** · refreshes hourly_  
+_Updated: **2026-09-15 11:24 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 37** of rollout — **35,000 invitees**, **416 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
+Flight 8 is **day 37** of rollout — **35,000 invitees**, **418 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
-- **416** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **9** solved in last 24h
+- **418** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
-- **Median AHT**: 137.4h · mean 154.9h (proxy: updated_at − created_at, 331 solved tickets)
+- **Median AHT**: 137.1h · mean 155.1h (proxy: updated_at − created_at, 330 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"address because"** — 2 tickets in 24h (72.0× baseline; baseline 1 cum) — [#8697](https://tbpro.zendesk.com/agent/tickets/8697), [#8709](https://tbpro.zendesk.com/agent/tickets/8709)
 
 ## Known problems — 4 problem(s), 46 incident(s)
 
@@ -148,16 +154,16 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 
 ## Status breakdown (cumulative)
 
-- **solved**: 331
-- **pending**: 51
-- **open**: 16
-- **closed**: 11
+- **solved**: 330
+- **pending**: 52
+- **open**: 17
+- **closed**: 12
 - **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 242
-- **Thundermail**: 138
+- **Thundermail**: 139
 - **Send**: 9
 - **Appointment**: 8
 
@@ -208,13 +214,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
+- **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward
+  > Thunderbird support team, Can you check this error message which came as Undeliverable. That was when I wrote a message to an Outlook account which has set auto forward to a…
 - **[#8704](https://tbpro.zendesk.com/agent/tickets/8704)** · Configuration custom domains
   > My DNS provider returns the following error when I configure the zone with the parameters you provided: zone [domain]/IN: [domain]/MX '[domain]' (out of zone) is a CNAME…
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#8707](https://tbpro.zendesk.com/agent/tickets/8707)** · Blocked email
+  > Email failed to go through
 - **[#8700](https://tbpro.zendesk.com/agent/tickets/8700)** · External Domain
   > Hello [name] is not realy working
 
@@ -240,6 +250,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [pending] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
 - [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [open] · 2026-09-15T07:03 · External Domain
 - [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15T09:33 · Configuration custom domains
+- [8707](https://tbpro.zendesk.com/agent/tickets/8707) · [open] · 2026-09-15T14:23 · Blocked email
+- [8709](https://tbpro.zendesk.com/agent/tickets/8709) · [open] · 2026-09-15T14:51 · Regarding Gmail forward
 
 ## Solved — last 24h
 
@@ -247,9 +259,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8446](https://tbpro.zendesk.com/agent/tickets/8446) · 2026-09-14T21:02 · Subscribe and payment screen not loading
 - · [8374](https://tbpro.zendesk.com/agent/tickets/8374) · 2026-09-14T22:01 · Custom domain entries not working
 - · [8633](https://tbpro.zendesk.com/agent/tickets/8633) · 2026-09-15T13:25 · cancel trial 
-- · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-15T13:37 · Thundermail General Questions - 
 - · [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-15T13:48 · Alias Use in New E-Mails in Thundermail Webmail
 - · [8392](https://tbpro.zendesk.com/agent/tickets/8392) · 2026-09-15T14:02 · Cant verify email
+- · [8672](https://tbpro.zendesk.com/agent/tickets/8672) · 2026-09-15T15:01 · Change Primary
+- · [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-15T15:01 · Thundermail General Questions - 
+- · [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-15T15:01 · Attempting to setup two secondary Thundermail email addresses 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
