@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-14
 
-_Updated: **2026-09-14 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-14 20:57 ET** · refreshes hourly_  
 _24h window: 2026-09-13T16:00 → 2026-09-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 36** of rollout — **35,000 invitees**, **411 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
+Flight 8 is **day 36** of rollout — **35,000 invitees**, **413 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **4 known problem(s)** being tracked.
 
 ## At a glance
 
 - **15** new tickets in last 24h · **37** solved in last 24h
-- **411** tickets total since launch · contact rate **1%** of 35000 invitees
+- **413** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (117 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 52
-- **Median AHT**: 136.9h · mean 154.1h (proxy: updated_at − created_at, 331 solved tickets)
+- **Median AHT**: 136.9h · mean 154.2h (proxy: updated_at − created_at, 329 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -90,7 +90,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
 - 🔧 [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
-- 🔧 [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
+- ✅ [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
 - ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
 - ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
 - ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
@@ -157,15 +157,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 331
-- **pending**: 57
+- **solved**: 329
+- **pending**: 56
+- **closed**: 10
+- **open**: 8
 - **hold**: 8
-- **closed**: 8
-- **open**: 7
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 239
+- **Account Hub**: 240
 - **Thundermail**: 136
 - **Send**: 9
 - **Appointment**: 8
@@ -242,6 +243,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8658](https://tbpro.zendesk.com/agent/tickets/8658)** · Can't send or receive email — why: **blocked** · how: **explained**
   > I've been trying to send an email message, but I keep getting an error that Thunderbird can't connect. I'm also not receiving emails, as I had another site send me a verification…
 
+### Early bird signup — 1 tickets
+
+- **[#8673](https://tbpro.zendesk.com/agent/tickets/8673)** · forwrd this on — why: **confused** · how: **explained**
+  > need to let everyone know how things are going
+
 ### Pricing — annual-only inquiry — 1 tickets
 
 - **[#8684](https://tbpro.zendesk.com/agent/tickets/8684)** · Monthly subscription? — why: **curious** · how: **explained**
@@ -267,11 +273,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8675](https://tbpro.zendesk.com/agent/tickets/8675)** · Cannot Login to Desktop App — why: **blocked** · how: **explained**
   > Cannot login on the Thunderbird desktop app. I can login to the browser fine, but the app gives an "Error creating Account". It let me login previously but I could not send emails…
 
-### Early bird signup — 1 tickets
-
-- **[#8673](https://tbpro.zendesk.com/agent/tickets/8673)** · forwrd this on — why: **confused** · how: **explained**
-  > need to let everyone know how things are going
-
 ### Account access issues — wrong product, redirected to SUMO — 1 tickets
 
 - **[#8670](https://tbpro.zendesk.com/agent/tickets/8670)** · Print bug — why: **blocked** · how: **redirected**
@@ -284,7 +285,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8665](https://tbpro.zendesk.com/agent/tickets/8665) · [pending] · 2026-09-14T06:10 · Change Email address
 - [8670](https://tbpro.zendesk.com/agent/tickets/8670) · [pending] · 2026-09-14T12:07 · Print bug
 - [8672](https://tbpro.zendesk.com/agent/tickets/8672) · [solved] · 2026-09-14T12:36 · Change Primary
-- [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [pending] · 2026-09-14T13:20 · forwrd this on
+- [8673](https://tbpro.zendesk.com/agent/tickets/8673) · [open] · 2026-09-14T13:20 · forwrd this on
 - [8675](https://tbpro.zendesk.com/agent/tickets/8675) · [pending] · 2026-09-14T13:35 · Cannot Login to Desktop App
 - [8676](https://tbpro.zendesk.com/agent/tickets/8676) · [pending] · 2026-09-14T14:37 · Forgot Thunderbird Email ID
 - [8678](https://tbpro.zendesk.com/agent/tickets/8678) · [open] · 2026-09-14T16:46 · Double messages on personal domain
