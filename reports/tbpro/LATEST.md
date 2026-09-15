@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-15 05:25 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -71,7 +71,7 @@ Flight 8 is **day 37** of rollout — **35,000 invitees**, **415 tickets** so fa
   - [#8596](https://tbpro.zendesk.com/agent/tickets/8596) · [pending] · 2026-09-10 · _Please help me to seek a refund and to cancel_
   - [#8599](https://tbpro.zendesk.com/agent/tickets/8599) · [pending] · 2026-09-11 · _Subscription cancellation_
   - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [open] · 2026-09-12 · _cancel trial _
-  - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [pending] · 2026-09-14 · _Forgot Thunderbird Email ID_
+  - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [open] · 2026-09-14 · _Forgot Thunderbird Email ID_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -149,8 +149,8 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 328
-- **pending**: 53
-- **open**: 15
+- **pending**: 51
+- **open**: 17
 - **closed**: 11
 - **hold**: 7
 - **new**: 1
@@ -184,9 +184,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 3
 - **confused** + **investigated**: 3
 - **request** + **explained**: 3
+- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **actioned**: 2
-- **curious** + **investigated**: 2
 - **change request** + **escalated**: 2
 - **other** + **n/a**: 2
 - **blocked** + **—**: 2
