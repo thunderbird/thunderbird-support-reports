@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 12:08 ET** · refreshes hourly_  
+_Updated: **2026-09-16 12:20 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -166,10 +166,9 @@ Regards, [name]_
 
 - **solved**: 356
 - **pending**: 37
-- **open**: 17
+- **open**: 18
 - **closed**: 16
 - **hold**: 6
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -271,20 +270,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8730](https://tbpro.zendesk.com/agent/tickets/8730)** · Thundermail's Future
   > At what point will Thundermail transition from testing to being live for regular email use? Should users start using Thundermail as a system of record? Thanks again.
 
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#8720](https://tbpro.zendesk.com/agent/tickets/8720)** · Enough is enough. — why: **blocked** · how: **explained**
-  > Hello, I keep encountering a configuration problem. I enter my password correctly, but it says "incorrect password". I'm also not receiving a recovery email. Can you please help…
-
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8721](https://tbpro.zendesk.com/agent/tickets/8721)** · calendar and contacts — why: **blocked** · how: **explained**
   > Hello, I'm trying to sync my calendar and contacts with DAVx5 on my android device, but I'm having trouble figuring out the credentials. If there's an officially supported app for…
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#8720](https://tbpro.zendesk.com/agent/tickets/8720)** · Enough is enough. — why: **blocked** · how: **explained**
+  > Hello, I keep encountering a configuration problem. I enter my password correctly, but it says "incorrect password". I'm also not receiving a recovery email. Can you please help…
+
 ## New tickets — last 24h
 
 - [8720](https://tbpro.zendesk.com/agent/tickets/8720) · [open] · 2026-09-15T20:29 · Enough is enough.
-- [8721](https://tbpro.zendesk.com/agent/tickets/8721) · [pending] · 2026-09-15T20:32 · calendar and contacts
+- [8721](https://tbpro.zendesk.com/agent/tickets/8721) · [open] · 2026-09-15T20:32 · calendar and contacts
 - [8730](https://tbpro.zendesk.com/agent/tickets/8730) · [open] · 2026-09-16T01:14 · Thundermail's Future
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [pending] · 2026-09-16T06:13 · Refund Request for Thundermail 
 - [8737](https://tbpro.zendesk.com/agent/tickets/8737) · [open] · 2026-09-16T09:16 · Marked as SPAM in Gmail
@@ -294,7 +293,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8747](https://tbpro.zendesk.com/agent/tickets/8747) · [open] · 2026-09-16T12:26 · IMAP 
 - [8748](https://tbpro.zendesk.com/agent/tickets/8748) · [open] · 2026-09-16T12:52 · How to ask for a refund?
 - [8753](https://tbpro.zendesk.com/agent/tickets/8753) · [open] · 2026-09-16T14:17 · Alias email 
-- [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [new] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
+- [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [open] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
 - [8755](https://tbpro.zendesk.com/agent/tickets/8755) · [pending] · 2026-09-16T14:44 · Thunderbird reply problem with [domain] aliases.
 
 ## Solved — last 24h
