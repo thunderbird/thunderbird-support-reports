@@ -1,18 +1,18 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 18:20 ET** · refreshes hourly_  
+_Updated: **2026-09-16 19:19 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 38** of rollout — **35,000 invitees**, **436 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 38** of rollout — **35,000 invitees**, **437 tickets** so far (1.2% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
 - **15** new tickets in last 24h · **29** solved in last 24h
-- **436** tickets total since launch · contact rate **1%** of 35000 invitees
+- **437** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 93%  (121 good / 9 bad)
+- **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
 - **Median AHT**: 137.4h · mean 157.7h (proxy: updated_at − created_at, 364 solved tickets)
 
@@ -118,6 +118,9 @@ I noticed I can still login to my account. Could I please get an estimate as to 
 Regards, [name]_
 - 👎 [7018](https://tbpro.zendesk.com/agent/tickets/7018) · _Cost_  
   - Reason: **The answer I got was unclear or unhelpful** · Comment: _You have zero concern for the people who have made your products what they are today. You only care about money._
+- 👎 [7933](https://tbpro.zendesk.com/agent/tickets/7933) · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._  
+  - Reason: **I'm still waiting for a response** · Comment: _I signed on to Thundermail assuming that it could work on my computer as it is.  I have a problem that stems from when I was a Thunderbird user which, after untold hours of work, have concluded that there is no
+immediate solution to.  It is a very long story - Mad Hatter, one of your support people, worked with me on it for a while until he decided it was a problem that was not fixable by Thunderbird.  I've tried everything I know to do for an unimaginable number of days and hours - again - to no avail.  I then was under the mistaken impression that I could switch to Thundermail and start fresh.  Not knowing that Thundermail needs a client to run on.... which naturally is Thunderbird.  In the meantime I signed up and donated for a year of Thundermail which I can't use so have asked for a refund of my donation.  I sent it to Mad Hatter and am assuming he sent it on to your department.  Please advise.      Lynne Rodney  [email] is the address I was planning on using with Thundermail.  YOUR RESPONSE SHOULD BE SENT TO: [email]     Thank you._
 - 👎 [7764](https://tbpro.zendesk.com/agent/tickets/7764) · _Payment_  
   - Reason: **The product did not work as expected** · Comment: _Can you advice when Thunderbird maiil will come live. On iphone 
 Many Thanks x_
@@ -165,9 +168,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 364
-- **pending**: 42
+- **pending**: 41
 - **closed**: 18
-- **open**: 6
+- **open**: 8
 - **hold**: 5
 - **new**: 1
 
@@ -186,9 +189,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 74
 - **change request** + **actioned**: 62
 - **blocked** + **investigated**: 22
+- **confused** + **explained**: 19
 - **concerned** + **explained**: 19
 - **curious** + **informed**: 18
-- **confused** + **explained**: 18
 - **request** + **redirected**: 17
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 11
@@ -304,7 +307,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [pending] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
 - [8755](https://tbpro.zendesk.com/agent/tickets/8755) · [solved] · 2026-09-16T14:44 · Thunderbird reply problem with [domain] aliases.
 - [8758](https://tbpro.zendesk.com/agent/tickets/8758) · [pending] · 2026-09-16T16:35 · I wanna Tage my Thunderbird 
-- [8761](https://tbpro.zendesk.com/agent/tickets/8761) · [pending] · 2026-09-16T18:36 · Did I read the offer wrong?
+- [8761](https://tbpro.zendesk.com/agent/tickets/8761) · [open] · 2026-09-16T18:36 · Did I read the offer wrong?
 
 ## Solved — last 24h
 
