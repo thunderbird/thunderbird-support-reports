@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 05:24 ET** · refreshes hourly_  
+_Updated: **2026-09-16 06:23 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 38** of rollout — **35,000 invitees**, **427 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 38** of rollout — **35,000 invitees**, **428 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **12** solved in last 24h
-- **427** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **12** solved in last 24h
+- **428** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 53
 - **Median AHT**: 137.4h · mean 156.5h (proxy: updated_at − created_at, 344 solved tickets)
 
 ## Known problems — 5 problem(s), 49 incident(s)
@@ -140,16 +140,19 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [new] · _Refund Request for Thundermail _
   > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I would appreciate it if you could cancel…
+- [8738](https://tbpro.zendesk.com/agent/tickets/8738) · [new] · _Cancel + Refund_
+  > Hello, I'm incredibly sorry but I no longer wish to proceed with Thundermail for the time being. Please may you process a refund if I am within the grace period and free up my address? I have not used the account.
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Create an email-linked task application](https://ideas.tb.pro/p/create-an-email-linked-task-application) · 1 votes · _Thundermail_
+  > What you’d like to seeAn option in the email app to copy/paste text into the tasks app.Why it mattersMakes personal organization easier.Your use caseAn email arrives asking you to do something on…
 
 ## Status breakdown (cumulative)
 
@@ -158,12 +161,12 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **closed**: 16
 - **open**: 15
 - **hold**: 6
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 243
-- **Thundermail**: 144
+- **Thundermail**: 145
 - **Appointment**: 9
 - **Send**: 9
 
@@ -223,15 +226,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8728](https://tbpro.zendesk.com/agent/tickets/8728)** · CfGkMuqbolUVRxtayhhchx
   > SGUhTWjrWDsjpQIwCpcJ
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#8738](https://tbpro.zendesk.com/agent/tickets/8738)** · Cancel + Refund
+  > Hello, I'm incredibly sorry but I no longer wish to proceed with Thundermail for the time being. Please may you process a refund if I am within the grace period and free up my…
+- **[#8734](https://tbpro.zendesk.com/agent/tickets/8734)** · Refund Request for Thundermail 
+  > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I…
+
 ### Aliases — 1 tickets
 
 - **[#8737](https://tbpro.zendesk.com/agent/tickets/8737)** · Marked as SPAM in Gmail
   > Hello, I am beeing flagged as spam and the help article stated I should report it or rather it could help. Not sure if its known but gmail flagges my mails no matter if they are…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8734](https://tbpro.zendesk.com/agent/tickets/8734)** · Refund Request for Thundermail 
-  > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -252,6 +257,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8731](https://tbpro.zendesk.com/agent/tickets/8731) · [new] · 2026-09-16T02:29 · SDqYRXzHPioURstpx
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [new] · 2026-09-16T06:13 · Refund Request for Thundermail 
 - [8737](https://tbpro.zendesk.com/agent/tickets/8737) · [new] · 2026-09-16T09:16 · Marked as SPAM in Gmail
+- [8738](https://tbpro.zendesk.com/agent/tickets/8738) · [new] · 2026-09-16T09:30 · Cancel + Refund
 
 ## Solved — last 24h
 
