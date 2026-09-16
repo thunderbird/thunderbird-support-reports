@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 01:22 ET** · refreshes hourly_  
+_Updated: **2026-09-16 02:37 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 38** of rollout — **35,000 invitees**, **425 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 38** of rollout — **35,000 invitees**, **426 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **12** solved in last 24h
-- **425** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **12** solved in last 24h
+- **426** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
-- **Median AHT**: 137.5h · mean 156.5h (proxy: updated_at − created_at, 345 solved tickets)
+- **Median AHT**: 137.4h · mean 156.5h (proxy: updated_at − created_at, 344 solved tickets)
 
 ## Known problems — 5 problem(s), 49 incident(s)
 
@@ -140,9 +140,10 @@ Regards, [name]_
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [new] · _Refund Request for Thundermail _
+  > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I would appreciate it if you could cancel…
 
 ## New ideas on FeatureOS
 
@@ -152,17 +153,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 345
-- **pending**: 43
-- **closed**: 15
-- **open**: 14
+- **solved**: 344
+- **pending**: 42
+- **closed**: 16
+- **open**: 15
 - **hold**: 6
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 243
-- **Thundermail**: 142
+- **Thundermail**: 143
 - **Appointment**: 9
 - **Send**: 9
 
@@ -222,6 +223,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8728](https://tbpro.zendesk.com/agent/tickets/8728)** · CfGkMuqbolUVRxtayhhchx
   > SGUhTWjrWDsjpQIwCpcJ
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8734](https://tbpro.zendesk.com/agent/tickets/8734)** · Refund Request for Thundermail 
+  > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8721](https://tbpro.zendesk.com/agent/tickets/8721)** · calendar and contacts — why: **blocked** · how: **explained**
@@ -239,6 +245,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8728](https://tbpro.zendesk.com/agent/tickets/8728) · [open] · 2026-09-15T21:13 · CfGkMuqbolUVRxtayhhchx
 - [8730](https://tbpro.zendesk.com/agent/tickets/8730) · [new] · 2026-09-16T01:14 · Thundermail's Future
 - [8731](https://tbpro.zendesk.com/agent/tickets/8731) · [new] · 2026-09-16T02:29 · SDqYRXzHPioURstpx
+- [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [new] · 2026-09-16T06:13 · Refund Request for Thundermail 
 
 ## Solved — last 24h
 
