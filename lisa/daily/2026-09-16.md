@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-16 05:24 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 38** of rollout — **35,000 invitees**, **426 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 38** of rollout — **35,000 invitees**, **427 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **12** solved in last 24h
-- **426** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **12** solved in last 24h
+- **427** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 52
@@ -158,12 +158,12 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **closed**: 16
 - **open**: 15
 - **hold**: 6
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 243
-- **Thundermail**: 143
+- **Thundermail**: 144
 - **Appointment**: 9
 - **Send**: 9
 
@@ -223,6 +223,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8728](https://tbpro.zendesk.com/agent/tickets/8728)** · CfGkMuqbolUVRxtayhhchx
   > SGUhTWjrWDsjpQIwCpcJ
 
+### Aliases — 1 tickets
+
+- **[#8737](https://tbpro.zendesk.com/agent/tickets/8737)** · Marked as SPAM in Gmail
+  > Hello, I am beeing flagged as spam and the help article stated I should report it or rather it could help. Not sure if its known but gmail flagges my mails no matter if they are…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#8734](https://tbpro.zendesk.com/agent/tickets/8734)** · Refund Request for Thundermail 
@@ -246,6 +251,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8730](https://tbpro.zendesk.com/agent/tickets/8730) · [new] · 2026-09-16T01:14 · Thundermail's Future
 - [8731](https://tbpro.zendesk.com/agent/tickets/8731) · [new] · 2026-09-16T02:29 · SDqYRXzHPioURstpx
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [new] · 2026-09-16T06:13 · Refund Request for Thundermail 
+- [8737](https://tbpro.zendesk.com/agent/tickets/8737) · [new] · 2026-09-16T09:16 · Marked as SPAM in Gmail
 
 ## Solved — last 24h
 
