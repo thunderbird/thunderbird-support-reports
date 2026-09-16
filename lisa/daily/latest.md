@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 20:56 ET** · refreshes hourly_  
+_Updated: **2026-09-15 21:31 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 37** of rollout — **35,000 invitees**, **423 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 37** of rollout — **35,000 invitees**, **424 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **21** solved in last 24h
-- **423** tickets total since launch · contact rate **1%** of 35000 invitees
+- **424** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (118 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 52
@@ -165,11 +165,12 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 - **closed**: 15
 - **open**: 11
 - **hold**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 243
-- **Thundermail**: 141
+- **Thundermail**: 142
 - **Appointment**: 9
 - **Send**: 9
 
