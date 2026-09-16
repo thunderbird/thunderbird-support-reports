@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 13:18 ET** · refreshes hourly_  
+_Updated: **2026-09-16 14:26 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -172,8 +172,8 @@ Regards, [name]_
 
 ## Service (cumulative)
 
-- **Account Hub**: 245
-- **Thundermail**: 151
+- **Account Hub**: 247
+- **Thundermail**: 150
 - **Send**: 9
 - **Appointment**: 8
 
@@ -181,8 +181,8 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 102
-- **blocked** + **explained**: 75
+- **curious** + **explained**: 104
+- **blocked** + **explained**: 74
 - **change request** + **actioned**: 62
 - **blocked** + **investigated**: 22
 - **confused** + **explained**: 18
@@ -247,11 +247,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8734](https://tbpro.zendesk.com/agent/tickets/8734)** · Refund Request for Thundermail  — why: **change request** · how: **actioned**
   > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I…
 
-### Webmail — 1 tickets
-
-- **[#8754](https://tbpro.zendesk.com/agent/tickets/8754)** · Unable to choose custom domain address ([email])
-  > Hi, I'm evaluating Thundermail with my custom domain, [domain]. I've completed the setup and I can receive messages at [email] via Webmail, but I can't send from that address: it…
-
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#8747](https://tbpro.zendesk.com/agent/tickets/8747)** · IMAP 
@@ -267,10 +262,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8744](https://tbpro.zendesk.com/agent/tickets/8744)** · how much thundermail blocks tracking urls...
   > Support team, I had used proton before and had wondered how much they were blocking these elements, now i just figured How much thunder-mail take action like this. Does tracking…
 
-### Account access issues — Account Hub trouble — 1 tickets
+### Webmail — 1 tickets
 
-- **[#8720](https://tbpro.zendesk.com/agent/tickets/8720)** · Enough is enough. — why: **blocked** · how: **explained**
-  > Hello, I keep encountering a configuration problem. I enter my password correctly, but it says "incorrect password". I'm also not receiving a recovery email. Can you please help…
+- **[#8754](https://tbpro.zendesk.com/agent/tickets/8754)** · Unable to choose custom domain address ([email]) — why: **curious** · how: **explained**
+  > Hi, I'm evaluating Thundermail with my custom domain, [domain]. I've completed the setup and I can receive messages at [email] via Webmail, but I can't send from that address: it…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -282,9 +277,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8721](https://tbpro.zendesk.com/agent/tickets/8721)** · calendar and contacts — why: **blocked** · how: **explained**
   > Hello, I'm trying to sync my calendar and contacts with DAVx5 on my android device, but I'm having trouble figuring out the credentials. If there's an officially supported app for…
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#8720](https://tbpro.zendesk.com/agent/tickets/8720)** · Enough is enough. — why: **curious** · how: **explained**
+  > Hello, I keep encountering a configuration problem. I enter my password correctly, but it says "incorrect password". I'm also not receiving a recovery email. Can you please help…
+
 ## New tickets — last 24h
 
-- [8720](https://tbpro.zendesk.com/agent/tickets/8720) · [open] · 2026-09-15T20:29 · Enough is enough.
+- [8720](https://tbpro.zendesk.com/agent/tickets/8720) · [pending] · 2026-09-15T20:29 · Enough is enough.
 - [8721](https://tbpro.zendesk.com/agent/tickets/8721) · [solved] · 2026-09-15T20:32 · calendar and contacts
 - [8730](https://tbpro.zendesk.com/agent/tickets/8730) · [open] · 2026-09-16T01:14 · Thundermail's Future
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [pending] · 2026-09-16T06:13 · Refund Request for Thundermail 
@@ -295,7 +295,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8747](https://tbpro.zendesk.com/agent/tickets/8747) · [open] · 2026-09-16T12:26 · IMAP 
 - [8748](https://tbpro.zendesk.com/agent/tickets/8748) · [pending] · 2026-09-16T12:52 · How to ask for a refund?
 - [8753](https://tbpro.zendesk.com/agent/tickets/8753) · [open] · 2026-09-16T14:17 · Alias email 
-- [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [open] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
+- [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [pending] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
 - [8755](https://tbpro.zendesk.com/agent/tickets/8755) · [pending] · 2026-09-16T14:44 · Thunderbird reply problem with [domain] aliases.
 - [8758](https://tbpro.zendesk.com/agent/tickets/8758) · [open] · 2026-09-16T16:35 · I wanna Tage my Thunderbird 
 
