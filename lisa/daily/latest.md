@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 12:20 ET** · refreshes hourly_  
+_Updated: **2026-09-16 12:27 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 38** of rollout — **35,000 invitees**, **433 tickets** so fa
 
 ## At a glance
 
-- **13** new tickets in last 24h · **28** solved in last 24h
+- **13** new tickets in last 24h · **29** solved in last 24h
 - **433** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (119 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
-- **Median AHT**: 137.7h · mean 157.5h (proxy: updated_at − created_at, 356 solved tickets)
+- **Median AHT**: 137.5h · mean 157.1h (proxy: updated_at − created_at, 357 solved tickets)
 
 ## Known problems — 5 problem(s), 51 incident(s)
 
@@ -164,9 +164,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 356
+- **solved**: 357
 - **pending**: 37
-- **open**: 18
+- **open**: 17
 - **closed**: 16
 - **hold**: 6
 
@@ -326,6 +326,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8471](https://tbpro.zendesk.com/agent/tickets/8471) · 2026-09-16T16:01 · Re: Correction: Thundermail Early Bird Access
 - · [8284](https://tbpro.zendesk.com/agent/tickets/8284) · 2026-09-16T16:01 · Send
 - · [8227](https://tbpro.zendesk.com/agent/tickets/8227) · 2026-09-16T16:01 · Bug report
+- · [8711](https://tbpro.zendesk.com/agent/tickets/8711) · 2026-09-16T16:26 · domain ssl ?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
