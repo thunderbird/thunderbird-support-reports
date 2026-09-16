@@ -111,5 +111,87 @@ class WindowedSearchTests(unittest.TestCase):
         self.assertEqual([t["id"] for t in got], [7, 8])
 
 
+class AdaptiveSubdivisionTests(unittest.TestCase):
+    """A calendar month can itself hold more than 1,000 tickets; the window
+    must narrow until each query fits rather than failing the report."""
+
+    @staticmethod
+    def _window_of(query):
+        lo = query.split("created>=")[1].split(" ")[0]
+        hi = query.split("created<")[1].split(" ")[0]
+        return lo, hi
+
+    def _fake_zd_get(self, per_day, asked):
+        """Serve `per_day` tickets for every day in the requested window, so a
+        window's size is proportional to its span -- exactly the condition that
+        makes wide windows overflow and narrow ones succeed.
+
+        Records {(lo, hi): total} in `asked` so a test can tell which windows
+        were servable (total <= the cap) rather than inferring it from span."""
+        def fake(path, params=None):
+            lo, hi = self._window_of(params["query"])
+            span = (dt.date.fromisoformat(hi) - dt.date.fromisoformat(lo)).days
+            total = span * per_day
+            asked[(lo, hi)] = total
+            ids = [f"{lo}:{i}" for i in range(total)]
+            page = params["page"]
+            start = (page - 1) * 100
+            chunk = ids[start:start + 100]
+            return {
+                "results": [{"id": i} for i in chunk],
+                "next_page": "..." if start + 100 < len(ids) else None,
+            }
+        return fake
+
+    def test_splits_an_overflowing_month_and_returns_everything(self):
+        # 50/day over a 31-day month = 1,550 -> one search cannot page it.
+        asked = {}
+        with patch.object(td, "zd_get", self._fake_zd_get(50, asked)):
+            got = td.zd_search_all_windowed(
+                "type:ticket", "2026-07-01", dt.date(2026, 7, 31))
+
+        self.assertEqual(len(got), 31 * 50)
+        self.assertEqual(len({t["id"] for t in got}), 31 * 50, "no duplicates")
+
+        # The full-month attempt happened, overflowed, and then narrowed.
+        self.assertIn(("2026-07-01", "2026-08-01"), asked)
+        spans = [(dt.date.fromisoformat(h) - dt.date.fromisoformat(l)).days
+                 for l, h in asked]
+        self.assertTrue(any(s < 31 for s in spans), "window never narrowed")
+
+    def test_subwindows_tile_the_month_without_gaps_or_overlap(self):
+        asked = {}
+        with patch.object(td, "zd_get", self._fake_zd_get(50, asked)):
+            td.zd_search_all_windowed(
+                "type:ticket", "2026-07-01", dt.date(2026, 7, 31))
+
+        # The leaves are the windows the fake could actually serve; they must
+        # tile July exactly -- no gap (lost tickets) and no overlap (double
+        # counting, which only the id de-dupe would be hiding).
+        leaves = sorted(w for w, total in asked.items()
+                        if total <= td.ZD_SEARCH_RESULT_LIMIT)
+        self.assertEqual(leaves[0][0], "2026-07-01")
+        self.assertEqual(leaves[-1][1], "2026-08-01")
+        for (_, prev_hi), (next_lo, _) in zip(leaves, leaves[1:]):
+            self.assertEqual(prev_hi, next_lo, "gap or overlap between windows")
+
+    def test_gives_up_with_a_clear_message_on_a_single_overflowing_day(self):
+        # 1,500 tickets created on one calendar day: unreachable by search.
+        def fake(path, params=None):
+            page = params["page"]
+            start = (page - 1) * 100
+            return {
+                "results": [{"id": i} for i in range(start, min(start + 100, 1500))],
+                "next_page": "..." if start + 100 < 1500 else None,
+            }
+
+        with patch.object(td, "zd_get", fake):
+            with self.assertRaises(td.ZendeskSearchTooBroad) as ctx:
+                td.zd_search_all_windowed(
+                    "type:ticket", "2026-07-01", dt.date(2026, 7, 10))
+        self.assertIn("incremental", str(ctx.exception),
+                      "should point at the endpoint that can actually do it")
+
+
 if __name__ == "__main__":
     unittest.main()

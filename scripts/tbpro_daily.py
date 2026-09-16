@@ -375,7 +375,8 @@ def zd_get(path, params=None):
 
 # Zendesk's Search API refuses to serve past 1,000 items (10 pages x 100) and
 # returns HTTP 422 for page 11 rather than an empty page. Any query whose match
-# set can outgrow 1,000 must be split into windows -- see zd_search_all_windowed.
+# set can outgrow 1,000 must be split into created-date windows, which narrow
+# themselves until each one fits -- see zd_search_all_windowed.
 ZD_SEARCH_PAGE_LIMIT = 10
 ZD_SEARCH_RESULT_LIMIT = ZD_SEARCH_PAGE_LIMIT * 100
 
@@ -418,6 +419,29 @@ def month_windows(start_date, end_date):
         cur = nxt
 
 
+def _zd_search_window(query, win_start, win_end):
+    """Fetch one half-open [win_start, win_end) created-date window.
+
+    Halves the window and retries if it turns out to hold more tickets than
+    Zendesk will paginate, so a single busy month can't fail the report."""
+    try:
+        return zd_search_all(f"{query} created>={win_start} created<{win_end}")
+    except ZendeskSearchTooBroad:
+        start = dt.date.fromisoformat(win_start)
+        end = dt.date.fromisoformat(win_end)
+        if (end - start).days <= 1:
+            # A single day is the finest this can slice: `created` has no
+            # sub-day granularity in search, so there is nothing left to split.
+            raise ZendeskSearchTooBroad(
+                f"more than {ZD_SEARCH_RESULT_LIMIT} tickets created on "
+                f"{win_start} alone -- search pagination cannot reach them; "
+                f"use the incremental exports API instead"
+            ) from None
+        mid = (start + (end - start) // 2).isoformat()
+        return (_zd_search_window(query, win_start, mid)
+                + _zd_search_window(query, mid, win_end))
+
+
 def zd_search_all_windowed(query, start_date, end_date):
     """Run `query` in monthly created-date windows and concatenate the results.
 
@@ -428,8 +452,7 @@ def zd_search_all_windowed(query, start_date, end_date):
     surface the same id twice."""
     out, seen = [], set()
     for win_start, win_end in month_windows(start_date, end_date):
-        chunk = zd_search_all(f"{query} created>={win_start} created<{win_end}")
-        for t in chunk:
+        for t in _zd_search_window(query, win_start, win_end):
             tid = t.get("id")
             if tid in seen:
                 continue
