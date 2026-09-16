@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-15
 
-_Updated: **2026-09-15 19:19 ET** · refreshes hourly_  
+_Updated: **2026-09-15 20:56 ET** · refreshes hourly_  
 _24h window: 2026-09-14T16:00 → 2026-09-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -88,7 +88,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [hold] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
   - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [hold] · 2026-09-12 · _Failed to load subscription information_
-  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [hold] · 2026-09-12 · _Questions about Thundermail features_
+  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [open] · 2026-09-12 · _Questions about Thundermail features_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -161,10 +161,10 @@ Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på m
 ## Status breakdown (cumulative)
 
 - **solved**: 347
-- **pending**: 48
+- **pending**: 44
 - **closed**: 15
-- **hold**: 7
-- **open**: 6
+- **open**: 11
+- **hold**: 6
 
 ## Service (cumulative)
 
@@ -187,8 +187,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 16
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 10
-- **blocked** + **escalated**: 8
 - **blocked** + **informed**: 8
+- **blocked** + **escalated**: 8
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **confused** + **investigated**: 4
@@ -224,10 +224,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8711](https://tbpro.zendesk.com/agent/tickets/8711)** · domain ssl ? — why: **blocked** · how: **explained**
   > problems with my domain I have registered yesterday with FullHost a domain mroyer.ca the dns are transfered however attached the last message from fullHost...
-- **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward — why: **confused** · how: **investigated**
-  > Thunderbird support team, Can you check this error message which came as Undeliverable. That was when I wrote a message to an Outlook account which has set auto forward to a…
 - **[#8704](https://tbpro.zendesk.com/agent/tickets/8704)** · Configuration custom domains — why: **blocked** · how: **informed**
   > My DNS provider returns the following error when I configure the zone with the parameters you provided: zone [domain]/IN: [domain]/MX '[domain]' (out of zone) is a CNAME…
+- **[#8709](https://tbpro.zendesk.com/agent/tickets/8709)** · Regarding Gmail forward — why: **confused** · how: **investigated**
+  > Thunderbird support team, Can you check this error message which came as Undeliverable. That was when I wrote a message to an Outlook account which has set auto forward to a…
 
 ### Other / uncategorized — 2 tickets
 
@@ -243,23 +243,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8698](https://tbpro.zendesk.com/agent/tickets/8698)** · Refund — why: **change request** · how: **actioned**
   > Please kindly refund my £55 within the 14 day cooling off period.
 
-### Aliases — 1 tickets
-
-- **[#8699](https://tbpro.zendesk.com/agent/tickets/8699)** · Request to change email domain to @[domain] ([email]) — why: **curious** · how: **explained**
-  > Hello, I recently signed up for Thundermail and created the address [email]. However, I originally intended to register [email] instead. Is it possible to change my domain/address…
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8697](https://tbpro.zendesk.com/agent/tickets/8697)** · Apparently my account doesn’t exist? — why: **blocked** · how: **explained**
   > Hi there! I signed up for Thundermail a few weeks ago and haven’t gotten around to doing much of anything with it yet because my intent is to migrate an existing IMAP account to…
 
+### Aliases — 1 tickets
+
+- **[#8699](https://tbpro.zendesk.com/agent/tickets/8699)** · Request to change email domain to @[domain] ([email]) — why: **curious** · how: **explained**
+  > Hello, I recently signed up for Thundermail and created the address [email]. However, I originally intended to register [email] instead. Is it possible to change my domain/address…
+
 ## New tickets — last 24h
 
-- [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [pending] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
+- [8697](https://tbpro.zendesk.com/agent/tickets/8697) · [open] · 2026-09-14T23:47 · Apparently my account doesn’t exist?
 - [8698](https://tbpro.zendesk.com/agent/tickets/8698) · [pending] · 2026-09-15T04:44 · Refund
 - [8699](https://tbpro.zendesk.com/agent/tickets/8699) · [pending] · 2026-09-15T05:58 · Request to change email domain to @[domain] ([email])
 - [8700](https://tbpro.zendesk.com/agent/tickets/8700) · [open] · 2026-09-15T07:03 · External Domain
-- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [pending] · 2026-09-15T09:33 · Configuration custom domains
+- [8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15T09:33 · Configuration custom domains
 - [8707](https://tbpro.zendesk.com/agent/tickets/8707) · [pending] · 2026-09-15T14:23 · Blocked email
 - [8709](https://tbpro.zendesk.com/agent/tickets/8709) · [pending] · 2026-09-15T14:51 · Regarding Gmail forward
 - [8711](https://tbpro.zendesk.com/agent/tickets/8711) · [open] · 2026-09-15T17:14 · domain ssl ?
