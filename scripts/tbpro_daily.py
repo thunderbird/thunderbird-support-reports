@@ -373,6 +373,18 @@ def zd_get(path, params=None):
         return json.loads(r.read().decode())
 
 
+# Zendesk's Search API refuses to serve past 1,000 items (10 pages x 100) and
+# returns HTTP 422 for page 11 rather than an empty page. Any query whose match
+# set can outgrow 1,000 must be split into created-date windows, which narrow
+# themselves until each one fits -- see zd_search_all_windowed.
+ZD_SEARCH_PAGE_LIMIT = 10
+ZD_SEARCH_RESULT_LIMIT = ZD_SEARCH_PAGE_LIMIT * 100
+
+
+class ZendeskSearchTooBroad(RuntimeError):
+    """A search matched more than the API will paginate (1,000 items)."""
+
+
 def zd_search_all(query):
     results = []
     page = 1
@@ -381,10 +393,72 @@ def zd_search_all(query):
         results.extend(d.get("results", []))
         if not d.get("next_page"):
             break
+        if page >= ZD_SEARCH_PAGE_LIMIT:
+            # Stop before the 422. Surface it as a named error so the failure
+            # names the real problem instead of a bare "HTTP Error 422".
+            raise ZendeskSearchTooBroad(
+                f"query matched more than {ZD_SEARCH_RESULT_LIMIT} tickets "
+                f"(Zendesk search pagination limit): {query!r} -- "
+                f"narrow it or fetch it via zd_search_all_windowed()"
+            )
         page += 1
-        if page > 20:
-            break
     return results
+
+
+def month_windows(start_date, end_date):
+    """Yield (start, end_exclusive) 'YYYY-MM-DD' pairs covering one calendar
+    month each, from start_date through end_date inclusive."""
+    if isinstance(start_date, str):
+        start_date = dt.date.fromisoformat(start_date)
+    if isinstance(end_date, str):
+        end_date = dt.date.fromisoformat(end_date)
+    cur = start_date
+    while cur <= end_date:
+        nxt = dt.date(cur.year + (cur.month == 12), cur.month % 12 + 1, 1)
+        yield cur.isoformat(), nxt.isoformat()
+        cur = nxt
+
+
+def _zd_search_window(query, win_start, win_end):
+    """Fetch one half-open [win_start, win_end) created-date window.
+
+    Halves the window and retries if it turns out to hold more tickets than
+    Zendesk will paginate, so a single busy month can't fail the report."""
+    try:
+        return zd_search_all(f"{query} created>={win_start} created<{win_end}")
+    except ZendeskSearchTooBroad:
+        start = dt.date.fromisoformat(win_start)
+        end = dt.date.fromisoformat(win_end)
+        if (end - start).days <= 1:
+            # A single day is the finest this can slice: `created` has no
+            # sub-day granularity in search, so there is nothing left to split.
+            raise ZendeskSearchTooBroad(
+                f"more than {ZD_SEARCH_RESULT_LIMIT} tickets created on "
+                f"{win_start} alone -- search pagination cannot reach them; "
+                f"use the incremental exports API instead"
+            ) from None
+        mid = (start + (end - start) // 2).isoformat()
+        return (_zd_search_window(query, win_start, mid)
+                + _zd_search_window(query, mid, win_end))
+
+
+def zd_search_all_windowed(query, start_date, end_date):
+    """Run `query` in monthly created-date windows and concatenate the results.
+
+    Keeps every individual search under the 1,000-item pagination limit, so the
+    total is unbounded. `query` must not already constrain `created`.
+    Results are de-duplicated by ticket id; windows are half-open on the upper
+    bound, so a ticket cannot land in two of them, but merges/moves can still
+    surface the same id twice."""
+    out, seen = [], set()
+    for win_start, win_end in month_windows(start_date, end_date):
+        for t in _zd_search_window(query, win_start, win_end):
+            tid = t.get("id")
+            if tid in seen:
+                continue
+            seen.add(tid)
+            out.append(t)
+    return out
 
 
 def zd_search_count(query):
@@ -622,7 +696,10 @@ def build(report_date_et):
     # Zendesk: all tickets since launch.
     # Exclude tickets merged into another (closed_by_merge tag) — they're
     # duplicates of a canonical ticket and would inflate every count.
-    cumulative = zd_search_all(f'type:ticket brand_id:{BRAND_ID} created>={LAUNCH_DATE}')
+    # Windowed for the same reason as csat_tickets below: a long-running flight
+    # will eventually push this past the 1,000-result search cap too.
+    cumulative = zd_search_all_windowed(
+        f'type:ticket brand_id:{BRAND_ID}', LAUNCH_DATE, report_date_et)
     merged_count = sum(1 for t in cumulative if "closed_by_merge" in (t.get("tags") or []))
     cumulative = [t for t in cumulative if "closed_by_merge" not in (t.get("tags") or [])]
     if merged_count:
@@ -726,7 +803,10 @@ def build(report_date_et):
     # approach tbpro_launch_overview.py's csat_score() uses, which also avoids
     # undercounting ratings that flip good->bad and reopen the ticket (status:solved
     # would drop those) and ratings the search index doesn't surface.
-    csat_tickets = zd_search_all(f'type:ticket brand_id:{BRAND_ID} created>={CSAT_START_DATE}')
+    # Windowed: this spans every ticket since Early Bird and crossed Zendesk's
+    # 1,000-result search cap on 2026-09-16, 422ing the whole report.
+    csat_tickets = zd_search_all_windowed(
+        f'type:ticket brand_id:{BRAND_ID}', CSAT_START_DATE, report_date_et)
     csat_tickets = [t for t in csat_tickets if "closed_by_merge" not in (t.get("tags") or [])]
     csat_tickets = [t for t in csat_tickets if (t.get("subject") or "").strip().lower() != "test"]
     csat_tickets = [t for t in csat_tickets if t.get("submitter_id") == t.get("requester_id")]
