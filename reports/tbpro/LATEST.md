@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 17:21 ET** · refreshes hourly_  
+_Updated: **2026-09-16 18:20 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 38** of rollout — **35,000 invitees**, **435 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 38** of rollout — **35,000 invitees**, **436 tickets** so far (1.2% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **30** solved in last 24h
-- **435** tickets total since launch · contact rate **1%** of 35000 invitees
+- **15** new tickets in last 24h · **29** solved in last 24h
+- **436** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (121 good / 9 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
-- **Median AHT**: 137.7h · mean 157.8h (proxy: updated_at − created_at, 360 solved tickets)
+- **Median AHT**: 137.4h · mean 157.7h (proxy: updated_at − created_at, 364 solved tickets)
 
 ## Known problems — 5 problem(s), 51 incident(s)
 
@@ -164,15 +164,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 360
-- **pending**: 40
+- **solved**: 364
+- **pending**: 42
 - **closed**: 18
-- **open**: 12
+- **open**: 6
 - **hold**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 249
+- **Account Hub**: 250
 - **Thundermail**: 150
 - **Send**: 9
 - **Appointment**: 8
@@ -181,18 +182,18 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 105
-- **blocked** + **explained**: 75
+- **curious** + **explained**: 106
+- **blocked** + **explained**: 74
 - **change request** + **actioned**: 62
 - **blocked** + **investigated**: 22
-- **confused** + **explained**: 19
 - **concerned** + **explained**: 19
 - **curious** + **informed**: 18
+- **confused** + **explained**: 18
 - **request** + **redirected**: 17
 - **confused** + **informed**: 13
-- **blocked** + **redirected**: 10
-- **blocked** + **escalated**: 8
-- **blocked** + **informed**: 8
+- **blocked** + **redirected**: 11
+- **blocked** + **escalated**: 9
+- **blocked** + **informed**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **—**: 6
 - **confused** + **investigated**: 5
@@ -249,18 +250,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 1 tickets
 
-- **[#8758](https://tbpro.zendesk.com/agent/tickets/8758)** · I wanna Tage my Thunderbird  — why: **confused** · how: **explained**
+- **[#8758](https://tbpro.zendesk.com/agent/tickets/8758)** · I wanna Tage my Thunderbird  — why: **blocked** · how: **redirected**
   > I have Thunderbird at my Laptop and i need IT also on my Smartphone.
 
 ### Webmail — 1 tickets
 
 - **[#8754](https://tbpro.zendesk.com/agent/tickets/8754)** · Unable to choose custom domain address ([email]) — why: **curious** · how: **explained**
   > Hi, I'm evaluating Thundermail with my custom domain, [domain]. I've completed the setup and I can receive messages at [email] via Webmail, but I can't send from that address: it…
-
-### Early bird signup — 1 tickets
-
-- **[#8730](https://tbpro.zendesk.com/agent/tickets/8730)** · Thundermail's Future — why: **curious** · how: **informed**
-  > At what point will Thundermail transition from testing to being live for regular email use? Should users start using Thundermail as a system of record? Thanks again.
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -277,6 +273,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8744](https://tbpro.zendesk.com/agent/tickets/8744)** · how much thundermail blocks tracking urls... — why: **curious** · how: **explained**
   > Support team, I had used proton before and had wondered how much they were blocking these elements, now i just figured How much thunder-mail take action like this. Does tracking…
 
+### Early bird signup — 1 tickets
+
+- **[#8730](https://tbpro.zendesk.com/agent/tickets/8730)** · Thundermail's Future — why: **curious** · how: **informed**
+  > At what point will Thundermail transition from testing to being live for regular email use? Should users start using Thundermail as a system of record? Thanks again.
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8721](https://tbpro.zendesk.com/agent/tickets/8721)** · calendar and contacts — why: **blocked** · how: **explained**
@@ -291,7 +292,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8720](https://tbpro.zendesk.com/agent/tickets/8720) · [pending] · 2026-09-15T20:29 · Enough is enough.
 - [8721](https://tbpro.zendesk.com/agent/tickets/8721) · [solved] · 2026-09-15T20:32 · calendar and contacts
-- [8730](https://tbpro.zendesk.com/agent/tickets/8730) · [open] · 2026-09-16T01:14 · Thundermail's Future
+- [8730](https://tbpro.zendesk.com/agent/tickets/8730) · [solved] · 2026-09-16T01:14 · Thundermail's Future
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [pending] · 2026-09-16T06:13 · Refund Request for Thundermail 
 - [8737](https://tbpro.zendesk.com/agent/tickets/8737) · [pending] · 2026-09-16T09:16 · Marked as SPAM in Gmail
 - [8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16T09:30 · Cancel + Refund
@@ -300,9 +301,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8747](https://tbpro.zendesk.com/agent/tickets/8747) · [pending] · 2026-09-16T12:26 · IMAP 
 - [8748](https://tbpro.zendesk.com/agent/tickets/8748) · [pending] · 2026-09-16T12:52 · How to ask for a refund?
 - [8753](https://tbpro.zendesk.com/agent/tickets/8753) · [pending] · 2026-09-16T14:17 · Alias email 
-- [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [open] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
+- [8754](https://tbpro.zendesk.com/agent/tickets/8754) · [pending] · 2026-09-16T14:27 · Unable to choose custom domain address ([email])
 - [8755](https://tbpro.zendesk.com/agent/tickets/8755) · [solved] · 2026-09-16T14:44 · Thunderbird reply problem with [domain] aliases.
-- [8758](https://tbpro.zendesk.com/agent/tickets/8758) · [open] · 2026-09-16T16:35 · I wanna Tage my Thunderbird 
+- [8758](https://tbpro.zendesk.com/agent/tickets/8758) · [pending] · 2026-09-16T16:35 · I wanna Tage my Thunderbird 
 - [8761](https://tbpro.zendesk.com/agent/tickets/8761) · [pending] · 2026-09-16T18:36 · Did I read the offer wrong?
 
 ## Solved — last 24h
@@ -314,7 +315,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8580](https://tbpro.zendesk.com/agent/tickets/8580) · 2026-09-15T21:02 · OgoKAqfmFfNZBRLSWV
 - · [8353](https://tbpro.zendesk.com/agent/tickets/8353) · 2026-09-15T21:02 · GMX Problem
 - · [8350](https://tbpro.zendesk.com/agent/tickets/8350) · 2026-09-15T21:02 · Re: Correction: Thundermail Early Bird Access
-- · [8481](https://tbpro.zendesk.com/agent/tickets/8481) · 2026-09-15T21:50 · LinkedIn unable to verify email
 - · [8588](https://tbpro.zendesk.com/agent/tickets/8588) · 2026-09-15T22:01 · recovery mail address
 - · [8584](https://tbpro.zendesk.com/agent/tickets/8584) · 2026-09-15T23:01 · App Password
 - · [8576](https://tbpro.zendesk.com/agent/tickets/8576) · 2026-09-15T23:01 · Impossible de me connecter sur thunderbird ou de supprimer mon compte sur ma tablette samsug tab A6 
