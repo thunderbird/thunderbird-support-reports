@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 01:23 ET** · refreshes hourly_  
+_Updated: **2026-09-17 02:38 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **439 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **440 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **14** solved in last 24h
-- **439** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **14** solved in last 24h
+- **440** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
@@ -160,16 +160,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 365
-- **pending**: 39
+- **pending**: 38
 - **closed**: 18
-- **open**: 11
-- **new**: 3
+- **open**: 12
+- **new**: 4
 - **hold**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 251
-- **Thundermail**: 150
+- **Thundermail**: 151
 - **Send**: 9
 - **Appointment**: 8
 
@@ -220,6 +220,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back.
+  > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
+
 ### Account access issues — 1 tickets
 
 - **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted)
@@ -240,6 +245,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [new] · 2026-09-16T22:08 · Custom Domain SRV Records
 - [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [new] · 2026-09-17T03:25 · Cancellation Request and refunds
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [new] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
+- [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [new] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 
 ## Solved — last 24h
 
