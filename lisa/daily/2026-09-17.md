@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 09:22 ET** · refreshes hourly_  
+_Updated: **2026-09-17 10:25 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **441 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **442 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **15** solved in last 24h
-- **441** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **17** solved in last 24h
+- **442** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 54
-- **Median AHT**: 137.1h · mean 157.1h (proxy: updated_at − created_at, 366 solved tickets)
+- **Median AHT**: 137.1h · mean 156.8h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## Known problems — 5 problem(s), 52 incident(s)
 
@@ -25,7 +25,7 @@ Flight 8 is **day 39** of rollout — **35,000 invitees**, **441 tickets** so fa
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
+  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [pending] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
 - 47 incident(s):
@@ -159,19 +159,19 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 366
-- **pending**: 36
+- **solved**: 368
+- **pending**: 38
 - **closed**: 18
-- **open**: 15
+- **open**: 12
 - **new**: 3
 - **hold**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 253
-- **Thundermail**: 151
+- **Thundermail**: 152
 - **Send**: 10
-- **Appointment**: 8
+- **Appointment**: 7
 
 ## Why × How (cumulative)
 
@@ -199,6 +199,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
+- **curious** + **n/a**: 2
 - **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **change request** + **escalated**: 2
@@ -208,7 +209,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **escalated**: 1
 - **confused** + **escalated**: 1
 - **telling us** + **informed**: 1
-- **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 - **other** + **escalated**: 1
 - **curious** + **—**: 1
@@ -219,6 +219,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 1
 
 ## Tickets in last 24h — by theme
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8801](https://tbpro.zendesk.com/agent/tickets/8801)** · how to pay monthly — why: **curious** · how: **n/a**
+  > can't afford 72
 
 ### Other / uncategorized — 1 tickets
 
@@ -247,11 +252,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [new] · 2026-09-16T22:08 · Custom Domain SRV Records
+- [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [open] · 2026-09-16T22:08 · Custom Domain SRV Records
 - [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · 2026-09-17T03:25 · Cancellation Request and refunds
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [new] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 - [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [new] · 2026-09-17T07:11 · hund
+- [8801](https://tbpro.zendesk.com/agent/tickets/8801) · [new] · 2026-09-17T14:24 · how to pay monthly
 
 ## Solved — last 24h
 
@@ -270,6 +276,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-17T00:34 · Failed to load subscription information
 - · [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-17T12:42 · Questions about Thundermail features
 - · [8715](https://tbpro.zendesk.com/agent/tickets/8715) · 2026-09-17T12:44 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
+- · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-17T13:54 · trouble setting up DNS records on Godaddy
+- · [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-17T13:55 · Unable to choose custom domain address ([email])
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
