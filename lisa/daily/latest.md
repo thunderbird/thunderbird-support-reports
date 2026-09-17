@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 11:22 ET** · refreshes hourly_  
+_Updated: **2026-09-17 12:25 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **442 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **443 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **17** solved in last 24h
-- **442** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **21** solved in last 24h
+- **443** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 54
-- **Median AHT**: 137.1h · mean 156.8h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 136.9h · mean 156.8h (proxy: updated_at − created_at, 369 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"domain records"** — 2 tickets in 24h (76.0× baseline; baseline 1 cum) — [#8767](https://tbpro.zendesk.com/agent/tickets/8767), [#8806](https://tbpro.zendesk.com/agent/tickets/8806)
 
 ## Known problems — 5 problem(s), 52 incident(s)
 
@@ -159,17 +165,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 368
+- **solved**: 369
 - **pending**: 39
 - **closed**: 18
-- **open**: 12
+- **open**: 14
 - **hold**: 3
-- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 253
-- **Thundermail**: 153
+- **Thundermail**: 154
 - **Send**: 10
 - **Appointment**: 7
 
@@ -220,6 +225,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#8806](https://tbpro.zendesk.com/agent/tickets/8806)** · Secure Email Gateway
+  > We are planning to use a custom domain hosted on Thundermail and would like to place a third-party Secure Email Gateway (Mesh Security) in front of Thundermail. The domain MX…
+- **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records
+  > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account
@@ -234,11 +246,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted) — why: **curious** · how: **explained**
   > Encrypted Message Notification [email] is using SecureMyEmail™ to encrypt their email and has sent you a message. https://[domain]/securemessage/6b1a9b3e5552fd8a3bd0d078eb819577…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records
-  > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
 
 ### Early bird signup — 1 tickets
 
@@ -256,8 +263,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · 2026-09-17T03:25 · Cancellation Request and refunds
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [open] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
-- [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [new] · 2026-09-17T07:11 · hund
-- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [new] · 2026-09-17T14:27 · Adding an imap account
+- [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [open] · 2026-09-17T07:11 · hund
+- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [open] · 2026-09-17T14:27 · Adding an imap account
+- [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
 
 ## Solved — last 24h
 
@@ -278,6 +286,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8715](https://tbpro.zendesk.com/agent/tickets/8715) · 2026-09-17T12:44 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-17T13:54 · trouble setting up DNS records on Godaddy
 - · [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-17T13:55 · Unable to choose custom domain address ([email])
+- · [8738](https://tbpro.zendesk.com/agent/tickets/8738) · 2026-09-17T16:02 · Cancel + Refund
+- · [8678](https://tbpro.zendesk.com/agent/tickets/8678) · 2026-09-17T16:02 · Double messages on personal domain
+- · [8516](https://tbpro.zendesk.com/agent/tickets/8516) · 2026-09-17T16:02 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
+- · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-17T16:11 · Apparently my account doesn’t exist?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
