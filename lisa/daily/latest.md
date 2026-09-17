@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 21:32 ET** · refreshes hourly_  
+_Updated: **2026-09-16 22:32 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -169,9 +169,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 365
-- **pending**: 40
+- **pending**: 39
 - **closed**: 18
-- **open**: 10
+- **open**: 11
 - **hold**: 3
 - **new**: 1
 
@@ -252,6 +252,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8734](https://tbpro.zendesk.com/agent/tickets/8734)** · Refund Request for Thundermail  — why: **change request** · how: **actioned**
   > Hello , I purchased a Thundermail subscription for $72. After trying the service and considering its current early-stage status, I’ve decided to move to another email provider. I…
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8744](https://tbpro.zendesk.com/agent/tickets/8744)** · how much thundermail blocks tracking urls... — why: **curious** · how: **explained**
+  > Support team, I had used proton before and had wondered how much they were blocking these elements, now i just figured How much thunder-mail take action like this. Does tracking…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#8758](https://tbpro.zendesk.com/agent/tickets/8758)** · I wanna Tage my Thunderbird  — why: **blocked** · how: **redirected**
@@ -271,11 +276,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8747](https://tbpro.zendesk.com/agent/tickets/8747)** · IMAP  — why: **curious** · how: **investigated**
   > Does Thundermail expose per-folder IMAP ACLs to end users, or only account-level credentials?
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8744](https://tbpro.zendesk.com/agent/tickets/8744)** · how much thundermail blocks tracking urls... — why: **curious** · how: **explained**
-  > Support team, I had used proton before and had wondered how much they were blocking these elements, now i just figured How much thunder-mail take action like this. Does tracking…
 
 ### Early bird signup — 1 tickets
 
@@ -300,7 +300,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8734](https://tbpro.zendesk.com/agent/tickets/8734) · [pending] · 2026-09-16T06:13 · Refund Request for Thundermail 
 - [8737](https://tbpro.zendesk.com/agent/tickets/8737) · [pending] · 2026-09-16T09:16 · Marked as SPAM in Gmail
 - [8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16T09:30 · Cancel + Refund
-- [8744](https://tbpro.zendesk.com/agent/tickets/8744) · [pending] · 2026-09-16T11:45 · how much thundermail blocks tracking urls...
+- [8744](https://tbpro.zendesk.com/agent/tickets/8744) · [open] · 2026-09-16T11:45 · how much thundermail blocks tracking urls...
 - [8745](https://tbpro.zendesk.com/agent/tickets/8745) · [pending] · 2026-09-16T11:58 · Not Recieving Emails from Google
 - [8747](https://tbpro.zendesk.com/agent/tickets/8747) · [pending] · 2026-09-16T12:26 · IMAP 
 - [8748](https://tbpro.zendesk.com/agent/tickets/8748) · [pending] · 2026-09-16T12:52 · How to ask for a refund?
