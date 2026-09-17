@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 10:25 ET** · refreshes hourly_  
+_Updated: **2026-09-17 11:22 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -160,16 +160,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 368
-- **pending**: 38
+- **pending**: 39
 - **closed**: 18
 - **open**: 12
-- **new**: 3
 - **hold**: 3
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 253
-- **Thundermail**: 152
+- **Thundermail**: 153
 - **Send**: 10
 - **Appointment**: 7
 
@@ -199,7 +199,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
-- **curious** + **n/a**: 2
 - **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **change request** + **escalated**: 2
@@ -209,6 +208,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **escalated**: 1
 - **confused** + **escalated**: 1
 - **telling us** + **informed**: 1
+- **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 - **other** + **escalated**: 1
 - **curious** + **—**: 1
@@ -220,10 +220,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing / monthly plan / free tier — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#8801](https://tbpro.zendesk.com/agent/tickets/8801)** · how to pay monthly — why: **curious** · how: **n/a**
-  > can't afford 72
+- **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account
+  > Hi have mail hosted on another service, I would like to keep it there, however I would like to add in the account to this interface, like I would gmail where I HAD the ability to…
 
 ### Other / uncategorized — 1 tickets
 
@@ -254,10 +254,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [open] · 2026-09-16T22:08 · Custom Domain SRV Records
 - [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · 2026-09-17T03:25 · Cancellation Request and refunds
-- [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [new] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
+- [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [open] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 - [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [new] · 2026-09-17T07:11 · hund
-- [8801](https://tbpro.zendesk.com/agent/tickets/8801) · [new] · 2026-09-17T14:24 · how to pay monthly
+- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [new] · 2026-09-17T14:27 · Adding an imap account
 
 ## Solved — last 24h
 
