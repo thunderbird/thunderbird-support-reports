@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 14:28 ET** · refreshes hourly_  
+_Updated: **2026-09-17 15:19 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -170,16 +170,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 43
+- **pending**: 45
 - **closed**: 18
-- **open**: 10
+- **open**: 8
 - **hold**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 254
+- **Account Hub**: 255
 - **Thundermail**: 155
-- **Send**: 10
+- **Send**: 9
 - **Appointment**: 7
 
 ## Why × How (cumulative)
@@ -189,7 +189,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 108
 - **blocked** + **explained**: 76
 - **change request** + **actioned**: 63
-- **blocked** + **investigated**: 22
+- **blocked** + **investigated**: 23
 - **confused** + **explained**: 19
 - **concerned** + **explained**: 19
 - **curious** + **informed**: 18
@@ -238,27 +238,30 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records — why: **blocked** · how: **explained**
   > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 1 tickets
 
 - **[#8811](https://tbpro.zendesk.com/agent/tickets/8811)** · Account Deletion — why: **change request** · how: **explained**
   > Request account deletion. Purpose was to explore new email service because our existing service was being deprecated. However, that has changed and Thundermail is no longer…
-- **[#8788](https://tbpro.zendesk.com/agent/tickets/8788)** · hund
-  > passwort
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account — why: **blocked** · how: **explained**
   > Hi have mail hosted on another service, I would like to keep it there, however I would like to add in the account to this interface, like I would gmail where I HAD the ability to…
 
-### Account access issues — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted) — why: **curious** · how: **explained**
-  > Encrypted Message Notification [email] is using SecureMyEmail™ to encrypt their email and has sent you a message. https://[domain]/securemessage/6b1a9b3e5552fd8a3bd0d078eb819577…
+- **[#8788](https://tbpro.zendesk.com/agent/tickets/8788)** · hund — why: **blocked** · how: **investigated**
+  > passwort
 
 ### Early bird signup — 1 tickets
 
 - **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back. — why: **curious** · how: **explained**
   > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
+
+### Account access issues — 1 tickets
+
+- **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted) — why: **curious** · how: **explained**
+  > Encrypted Message Notification [email] is using SecureMyEmail™ to encrypt their email and has sent you a message. https://[domain]/securemessage/6b1a9b3e5552fd8a3bd0d078eb819577…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -269,9 +272,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [pending] · 2026-09-16T22:08 · Custom Domain SRV Records
 - [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · 2026-09-17T03:25 · Cancellation Request and refunds
-- [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [open] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
+- [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [pending] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
-- [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [open] · 2026-09-17T07:11 · hund
+- [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [pending] · 2026-09-17T07:11 · hund
 - [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [open] · 2026-09-17T14:27 · Adding an imap account
 - [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
 - [8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · 2026-09-17T16:25 · [routing/8] [domain] needs to be A record not CNAME
