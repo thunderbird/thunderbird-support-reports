@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 15:19 ET** · refreshes hourly_  
+_Updated: **2026-09-17 16:23 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -170,9 +170,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 45
+- **pending**: 48
 - **closed**: 18
-- **open**: 8
+- **open**: 5
 - **hold**: 5
 
 ## Service (cumulative)
@@ -238,10 +238,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records — why: **blocked** · how: **explained**
   > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
 
-### Other / uncategorized — 1 tickets
+### Early bird signup — 2 tickets
 
 - **[#8811](https://tbpro.zendesk.com/agent/tickets/8811)** · Account Deletion — why: **change request** · how: **explained**
   > Request account deletion. Purpose was to explore new email service because our existing service was being deprecated. However, that has changed and Thundermail is no longer…
+- **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back. — why: **curious** · how: **explained**
+  > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -252,11 +254,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8788](https://tbpro.zendesk.com/agent/tickets/8788)** · hund — why: **blocked** · how: **investigated**
   > passwort
-
-### Early bird signup — 1 tickets
-
-- **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back. — why: **curious** · how: **explained**
-  > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
 
 ### Account access issues — 1 tickets
 
@@ -278,7 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [open] · 2026-09-17T14:27 · Adding an imap account
 - [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
 - [8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · 2026-09-17T16:25 · [routing/8] [domain] needs to be A record not CNAME
-- [8811](https://tbpro.zendesk.com/agent/tickets/8811) · [open] · 2026-09-17T17:35 · Account Deletion
+- [8811](https://tbpro.zendesk.com/agent/tickets/8811) · [pending] · 2026-09-17T17:35 · Account Deletion
 
 ## Solved — last 24h
 
