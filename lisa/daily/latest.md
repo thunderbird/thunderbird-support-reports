@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 12:25 ET** · refreshes hourly_  
+_Updated: **2026-09-17 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **443 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **444 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **21** solved in last 24h
-- **443** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **22** solved in last 24h
+- **444** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 54
-- **Median AHT**: 136.9h · mean 156.8h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 136.9h · mean 156.9h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"domain records"** — 2 tickets in 24h (76.0× baseline; baseline 1 cum) — [#8767](https://tbpro.zendesk.com/agent/tickets/8767), [#8806](https://tbpro.zendesk.com/agent/tickets/8806)
 
-## Known problems — 5 problem(s), 52 incident(s)
+## Known problems — 6 problem(s), 53 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -92,6 +92,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 2 incident(s):
   - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [solved] · 2026-09-12 · _Failed to load subscription information_
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
+
+### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
+- 1 incident(s):
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -166,15 +170,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 39
+- **pending**: 41
 - **closed**: 18
-- **open**: 14
-- **hold**: 3
+- **open**: 12
+- **hold**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 253
-- **Thundermail**: 154
+- **Thundermail**: 155
 - **Send**: 10
 - **Appointment**: 7
 
@@ -183,7 +187,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 108
-- **blocked** + **explained**: 74
+- **blocked** + **explained**: 75
 - **change request** + **actioned**: 63
 - **blocked** + **investigated**: 22
 - **confused** + **explained**: 19
@@ -200,13 +204,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 4
 - **request** + **explained**: 3
 - **change request** + **explained**: 3
+- **change request** + **escalated**: 3
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
 - **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
-- **change request** + **escalated**: 2
 - **blocked** + **—**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
@@ -225,17 +229,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 2 tickets
+### Custom domain / DKIM / DNS — 3 tickets
 
 - **[#8806](https://tbpro.zendesk.com/agent/tickets/8806)** · Secure Email Gateway
   > We are planning to use a custom domain hosted on Thundermail and would like to place a third-party Secure Email Gateway (Mesh Security) in front of Thundermail. The domain MX…
 - **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records
   > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account
-  > Hi have mail hosted on another service, I would like to keep it there, however I would like to add in the account to this interface, like I would gmail where I HAD the ability to…
+- **[#8807](https://tbpro.zendesk.com/agent/tickets/8807)** · [routing/8] [domain] needs to be A record not CNAME — why: **change request** · how: **escalated**
+  > **Summary:** Multiple RFCs requires that our MX record for `[domain]` points to hostname that has an "A" record, not a CNAME. Some DNS registrars are more flexible (especially…
 
 ### Other / uncategorized — 1 tickets
 
@@ -246,6 +247,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted) — why: **curious** · how: **explained**
   > Encrypted Message Notification [email] is using SecureMyEmail™ to encrypt their email and has sent you a message. https://[domain]/securemessage/6b1a9b3e5552fd8a3bd0d078eb819577…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account — why: **blocked** · how: **explained**
+  > Hi have mail hosted on another service, I would like to keep it there, however I would like to add in the account to this interface, like I would gmail where I HAD the ability to…
 
 ### Early bird signup — 1 tickets
 
@@ -264,8 +270,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [open] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 - [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [open] · 2026-09-17T07:11 · hund
-- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [open] · 2026-09-17T14:27 · Adding an imap account
+- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [pending] · 2026-09-17T14:27 · Adding an imap account
 - [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
+- [8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · 2026-09-17T16:25 · [routing/8] [domain] needs to be A record not CNAME
 
 ## Solved — last 24h
 
@@ -290,6 +297,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8678](https://tbpro.zendesk.com/agent/tickets/8678) · 2026-09-17T16:02 · Double messages on personal domain
 - · [8516](https://tbpro.zendesk.com/agent/tickets/8516) · 2026-09-17T16:02 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-17T16:11 · Apparently my account doesn’t exist?
+- · [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T17:01 · calendar and contacts
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
