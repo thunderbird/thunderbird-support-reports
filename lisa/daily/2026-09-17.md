@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 08:33 ET** · refreshes hourly_  
+_Updated: **2026-09-17 09:22 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 39** of rollout — **35,000 invitees**, **441 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **14** solved in last 24h
+- **5** new tickets in last 24h · **15** solved in last 24h
 - **441** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 54
-- **Median AHT**: 137.4h · mean 157.2h (proxy: updated_at − created_at, 365 solved tickets)
+- **Median AHT**: 137.1h · mean 157.1h (proxy: updated_at − created_at, 366 solved tickets)
 
 ## Known problems — 5 problem(s), 52 incident(s)
 
@@ -85,7 +85,7 @@ Flight 8 is **day 39** of rollout — **35,000 invitees**, **441 tickets** so fa
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
   - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [solved] · 2026-09-12 · _Failed to load subscription information_
-  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [open] · 2026-09-12 · _Questions about Thundermail features_
+  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -148,7 +148,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [new] · _Cancellation Request and refunds_
+- [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · _Cancellation Request and refunds_
   > Hello; i have tried the new thundermail and decided against using it. I am within the 14 days windows for a refund. please cancel my account and refund my subscription please. Thank, joseph dubonnet
 
 ## New ideas on FeatureOS
@@ -159,16 +159,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 365
-- **pending**: 34
+- **solved**: 366
+- **pending**: 36
 - **closed**: 18
-- **open**: 16
-- **new**: 5
+- **open**: 15
+- **new**: 3
 - **hold**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 251
+- **Account Hub**: 253
 - **Thundermail**: 151
 - **Send**: 10
 - **Appointment**: 8
@@ -177,9 +177,9 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 106
+- **curious** + **explained**: 108
 - **blocked** + **explained**: 74
-- **change request** + **actioned**: 62
+- **change request** + **actioned**: 63
 - **blocked** + **investigated**: 22
 - **confused** + **explained**: 19
 - **concerned** + **explained**: 19
@@ -225,32 +225,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8788](https://tbpro.zendesk.com/agent/tickets/8788)** · hund
   > passwort
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back.
-  > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
-
 ### Account access issues — 1 tickets
 
-- **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted)
+- **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted) — why: **curious** · how: **explained**
   > Encrypted Message Notification [email] is using SecureMyEmail™ to encrypt their email and has sent you a message. https://[domain]/securemessage/6b1a9b3e5552fd8a3bd0d078eb819577…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8779](https://tbpro.zendesk.com/agent/tickets/8779)** · Cancellation Request and refunds
-  > Hello; i have tried the new thundermail and decided against using it. I am within the 14 days windows for a refund. please cancel my account and refund my subscription please.…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records
   > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
 
+### Early bird signup — 1 tickets
+
+- **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back. — why: **curious** · how: **explained**
+  > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8779](https://tbpro.zendesk.com/agent/tickets/8779)** · Cancellation Request and refunds — why: **change request** · how: **actioned**
+  > Hello; i have tried the new thundermail and decided against using it. I am within the 14 days windows for a refund. please cancel my account and refund my subscription please.…
+
 ## New tickets — last 24h
 
 - [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [new] · 2026-09-16T22:08 · Custom Domain SRV Records
-- [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [new] · 2026-09-17T03:25 · Cancellation Request and refunds
+- [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · 2026-09-17T03:25 · Cancellation Request and refunds
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [new] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
-- [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [new] · 2026-09-17T05:40 · I lost my invitation. Need it back.
+- [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 - [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [new] · 2026-09-17T07:11 · hund
 
 ## Solved — last 24h
@@ -267,8 +267,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8608](https://tbpro.zendesk.com/agent/tickets/8608) · 2026-09-16T22:01 · mot de passe
 - · [8606](https://tbpro.zendesk.com/agent/tickets/8606) · 2026-09-16T22:01 · my e-mail address
 - · [8363](https://tbpro.zendesk.com/agent/tickets/8363) · 2026-09-16T22:01 · Mail
-- · [8715](https://tbpro.zendesk.com/agent/tickets/8715) · 2026-09-17T00:34 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-17T00:34 · Failed to load subscription information
+- · [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-17T12:42 · Questions about Thundermail features
+- · [8715](https://tbpro.zendesk.com/agent/tickets/8715) · 2026-09-17T12:44 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
