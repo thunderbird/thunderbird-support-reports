@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-16
 
-_Updated: **2026-09-16 19:19 ET** · refreshes hourly_  
+_Updated: **2026-09-16 20:56 ET** · refreshes hourly_  
 _24h window: 2026-09-15T16:00 → 2026-09-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,9 +14,9 @@ Flight 8 is **day 38** of rollout — **35,000 invitees**, **437 tickets** so fa
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 55
-- **Median AHT**: 137.4h · mean 157.7h (proxy: updated_at − created_at, 364 solved tickets)
+- **Median AHT**: 137.4h · mean 157.2h (proxy: updated_at − created_at, 366 solved tickets)
 
-## Known problems — 5 problem(s), 51 incident(s)
+## Known problems — 5 problem(s), 52 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -28,7 +28,7 @@ Flight 8 is **day 38** of rollout — **35,000 invitees**, **437 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [pending] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 46 incident(s):
+- 47 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -38,6 +38,7 @@ Flight 8 is **day 38** of rollout — **35,000 invitees**, **437 tickets** so fa
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
+  - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [pending] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
@@ -81,10 +82,10 @@ Flight 8 is **day 38** of rollout — **35,000 invitees**, **437 tickets** so fa
 - 1 incident(s):
   - [#8399](https://tbpro.zendesk.com/agent/tickets/8399) · [hold] · 2026-09-05 · _Alias and Pro Email Address_
 
-### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [hold] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
+### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
-  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [hold] · 2026-09-12 · _Failed to load subscription information_
-  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [pending] · 2026-09-12 · _Questions about Thundermail features_
+  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [solved] · 2026-09-12 · _Failed to load subscription information_
+  - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [open] · 2026-09-12 · _Questions about Thundermail features_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -167,16 +168,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 364
-- **pending**: 41
+- **solved**: 366
+- **pending**: 40
 - **closed**: 18
-- **open**: 8
-- **hold**: 5
+- **open**: 9
+- **hold**: 3
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 250
+- **Account Hub**: 251
 - **Thundermail**: 150
 - **Send**: 9
 - **Appointment**: 8
