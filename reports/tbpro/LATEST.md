@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 06:23 ET** · refreshes hourly_  
+_Updated: **2026-09-17 07:21 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **441 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **442 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **5 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **14** solved in last 24h
-- **441** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **14** solved in last 24h
+- **442** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (121 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
@@ -160,10 +160,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 365
-- **pending**: 37
+- **pending**: 36
 - **closed**: 18
-- **open**: 13
-- **new**: 5
+- **open**: 14
+- **new**: 6
 - **hold**: 3
 
 ## Service (cumulative)
@@ -220,8 +220,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#8791](https://tbpro.zendesk.com/agent/tickets/8791)** · ATFaHKzqUKWlFqmSqG
+  > obAdLrJohSHZZKDTdg
 - **[#8788](https://tbpro.zendesk.com/agent/tickets/8788)** · hund
   > passwort
 
@@ -252,6 +254,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [new] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [new] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 - [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [new] · 2026-09-17T07:11 · hund
+- [8791](https://tbpro.zendesk.com/agent/tickets/8791) · [new] · 2026-09-17T11:18 · ATFaHKzqUKWlFqmSqG
 
 ## Solved — last 24h
 
