@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 17:21 ET** · refreshes hourly_  
+_Updated: **2026-09-17 18:20 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **19** solved in last 24h
+- **9** new tickets in last 24h · **17** solved in last 24h
 - **446** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
-- **CSAT (since launch)**: 92%  (122 good / 10 bad)
+- **CSAT (since launch)**: 93%  (124 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
-- **Median AHT**: 136.9h · mean 157.0h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.4h · mean 157.9h (proxy: updated_at − created_at, 366 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -39,7 +39,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
   - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [solved] · 2026-08-16 · _Cancel_
-  - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [solved] · 2026-08-17 · _Thundermail_
+  - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [closed] · 2026-08-17 · _Thundermail_
   - [#7788](https://tbpro.zendesk.com/agent/tickets/7788) · [solved] · 2026-08-19 · _Refund request_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
@@ -169,11 +169,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
+- **solved**: 366
 - **pending**: 50
-- **closed**: 18
+- **closed**: 19
+- **open**: 6
 - **hold**: 5
-- **open**: 4
 
 ## Service (cumulative)
 
@@ -284,7 +284,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-16T20:40 · Thundermail General Questions - 
 - 👍 [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-16T20:41 · Attempting to setup two secondary Thundermail email addresses 
 - · [8324](https://tbpro.zendesk.com/agent/tickets/8324) · 2026-09-16T21:02 · Changing email adress and keep the former as an alias
-- · [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-16T21:53 · Thundermail's Future
 - · [8481](https://tbpro.zendesk.com/agent/tickets/8481) · 2026-09-16T22:01 · LinkedIn unable to verify email
 - · [8608](https://tbpro.zendesk.com/agent/tickets/8608) · 2026-09-16T22:01 · mot de passe
 - · [8606](https://tbpro.zendesk.com/agent/tickets/8606) · 2026-09-16T22:01 · my e-mail address
@@ -297,7 +296,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8738](https://tbpro.zendesk.com/agent/tickets/8738) · 2026-09-17T16:02 · Cancel + Refund
 - · [8678](https://tbpro.zendesk.com/agent/tickets/8678) · 2026-09-17T16:02 · Double messages on personal domain
 - · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-17T16:11 · Apparently my account doesn’t exist?
-- · [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T17:01 · calendar and contacts
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
