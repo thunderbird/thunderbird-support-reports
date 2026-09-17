@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 16:23 ET** · refreshes hourly_  
+_Updated: **2026-09-17 17:21 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **445 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so far (1.3% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **22** solved in last 24h
-- **445** tickets total since launch · contact rate **1%** of 35000 invitees
+- **9** new tickets in last 24h · **19** solved in last 24h
+- **446** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
-- **CSAT (since launch)**: 92%  (121 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 54
-- **Median AHT**: 136.9h · mean 156.9h (proxy: updated_at − created_at, 369 solved tickets)
+- **CSAT (since launch)**: 92%  (122 good / 10 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
+- **Median AHT**: 136.9h · mean 157.0h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -170,25 +170,25 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 48
+- **pending**: 50
 - **closed**: 18
-- **open**: 5
 - **hold**: 5
+- **open**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 255
 - **Thundermail**: 155
 - **Send**: 9
-- **Appointment**: 7
+- **Appointment**: 8
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 108
+- **curious** + **explained**: 107
 - **blocked** + **explained**: 76
-- **change request** + **actioned**: 63
+- **change request** + **actioned**: 64
 - **blocked** + **investigated**: 23
 - **confused** + **explained**: 19
 - **concerned** + **explained**: 19
@@ -283,8 +283,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8558](https://tbpro.zendesk.com/agent/tickets/8558) · 2026-09-16T20:02 · custom email in iOS mail
 - 👍 [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-16T20:40 · Thundermail General Questions - 
 - 👍 [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-16T20:41 · Attempting to setup two secondary Thundermail email addresses 
-- · [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-16T20:43 · Issues connecting CALDEV to iOS Calendar Application
-- · [8755](https://tbpro.zendesk.com/agent/tickets/8755) · 2026-09-16T20:55 · Thunderbird reply problem with [domain] aliases.
 - · [8324](https://tbpro.zendesk.com/agent/tickets/8324) · 2026-09-16T21:02 · Changing email adress and keep the former as an alias
 - · [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-16T21:53 · Thundermail's Future
 - · [8481](https://tbpro.zendesk.com/agent/tickets/8481) · 2026-09-16T22:01 · LinkedIn unable to verify email
@@ -298,7 +296,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-17T13:55 · Unable to choose custom domain address ([email])
 - · [8738](https://tbpro.zendesk.com/agent/tickets/8738) · 2026-09-17T16:02 · Cancel + Refund
 - · [8678](https://tbpro.zendesk.com/agent/tickets/8678) · 2026-09-17T16:02 · Double messages on personal domain
-- · [8516](https://tbpro.zendesk.com/agent/tickets/8516) · 2026-09-17T16:02 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-17T16:11 · Apparently my account doesn’t exist?
 - · [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T17:01 · calendar and contacts
 
