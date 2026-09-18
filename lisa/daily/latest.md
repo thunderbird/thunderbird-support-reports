@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 18:20 ET** · refreshes hourly_  
+_Updated: **2026-09-18 19:20 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -85,7 +85,7 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **453 tickets** so fa
 
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
-  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [hold] · 2026-09-12 · _Failed to load subscription information_
+  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [open] · 2026-09-12 · _Failed to load subscription information_
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
@@ -172,7 +172,8 @@ Regards, [name]_
 - **solved**: 370
 - **pending**: 57
 - **closed**: 19
-- **hold**: 7
+- **hold**: 6
+- **open**: 1
 
 ## Service (cumulative)
 
