@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-09-17
+# Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-17 23:25 ET** · refreshes hourly_  
-_24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-18 00:25 ET** · refreshes hourly_  
+_24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 40** of rollout — **35,000 invitees**, **446 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **16** solved in last 24h
+- **1** new tickets in last 24h · **6** solved in last 24h
 - **446** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (125 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
 - **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 368 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"domain records"** — 2 tickets in 24h (76.0× baseline; baseline 1 cum) — [#8767](https://tbpro.zendesk.com/agent/tickets/8767), [#8806](https://tbpro.zendesk.com/agent/tickets/8806)
 
 ## Known problems — 6 problem(s), 53 incident(s)
 
@@ -156,23 +150,27 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · _Cancellation Request and refunds_
-  > Hello; i have tried the new thundermail and decided against using it. I am within the 14 days windows for a refund. please cancel my account and refund my subscription please. Thank, joseph dubonnet
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 3 new:
 
-- _(none)_
+- [Calendar web based](https://ideas.tb.pro/p/calendar-web-based) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.I’d love to have access to the thundermail calendar and subscribed calendars on the web based siteWhy it mattersWhat problem does…
+- [Alias integration with 1Password](https://ideas.tb.pro/p/alias-integration-with-1password) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, New Feature, Webmail_
+  > What you’d like to seeBasically stealing an idea from Fastmail - the ability to integrate Thundermail with 1Password to generate/store email aliases. Why it mattersMakes it easier to generate and…
+- [ICS support in Appointment external calendar](https://ideas.tb.pro/p/ics-support-in-appointment-external-calendar) · 1 votes · _untagged_
+  > What you’d like to seeAppointments allows the population of the “busy period” with events from external calendar. This should support appointment. Why it mattersWebDAV is limited to specific services…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 368
-- **pending**: 47
+- **pending**: 46
 - **closed**: 19
-- **open**: 7
+- **open**: 8
 - **hold**: 5
 
 ## Service (cumulative)
@@ -229,72 +227,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 3 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#8806](https://tbpro.zendesk.com/agent/tickets/8806)** · Secure Email Gateway — why: **curious** · how: **investigated**
-  > We are planning to use a custom domain hosted on Thundermail and would like to place a third-party Secure Email Gateway (Mesh Security) in front of Thundermail. The domain MX…
-- **[#8807](https://tbpro.zendesk.com/agent/tickets/8807)** · [routing/8] [domain] needs to be A record not CNAME — why: **change request** · how: **escalated**
-  > **Summary:** Multiple RFCs requires that our MX record for `[domain]` points to hostname that has an "A" record, not a CNAME. Some DNS registrars are more flexible (especially…
-- **[#8767](https://tbpro.zendesk.com/agent/tickets/8767)** · Custom Domain SRV Records — why: **blocked** · how: **explained**
-  > I am attempting to connect my custom domain to Thundermail. The webpage states it has been verified but I cannot receive any emails at the address. When I select "re-verify" the…
-
-### Early bird signup — 2 tickets
-
-- **[#8811](https://tbpro.zendesk.com/agent/tickets/8811)** · Account Deletion — why: **change request** · how: **explained**
-  > Request account deletion. Purpose was to explore new email service because our existing service was being deprecated. However, that has changed and Thundermail is no longer…
-- **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back. — why: **curious** · how: **explained**
-  > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
-
-### Request or complaint — 1 tickets
-
-- **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account — why: **request** · how: **redirected**
-  > Hi have mail hosted on another service, I would like to keep it there, however I would like to add in the account to this interface, like I would gmail where I HAD the ability to…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#8788](https://tbpro.zendesk.com/agent/tickets/8788)** · hund — why: **blocked** · how: **investigated**
-  > passwort
-
-### Account access issues — 1 tickets
-
-- **[#8780](https://tbpro.zendesk.com/agent/tickets/8780)** · RE: [Thundermail] Re: Blocked email (encrypted) — why: **curious** · how: **explained**
-  > Encrypted Message Notification [email] is using SecureMyEmail™ to encrypt their email and has sent you a message. https://[domain]/securemessage/6b1a9b3e5552fd8a3bd0d078eb819577…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8779](https://tbpro.zendesk.com/agent/tickets/8779)** · Cancellation Request and refunds — why: **change request** · how: **actioned**
-  > Hello; i have tried the new thundermail and decided against using it. I am within the 14 days windows for a refund. please cancel my account and refund my subscription please.…
+- **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate
+  > In Appointment, adding multiple calendars to my thundermail account over CalDAV does not cause those calendars to appear in Appointment automatically
 
 ## New tickets — last 24h
 
-- [8767](https://tbpro.zendesk.com/agent/tickets/8767) · [pending] · 2026-09-16T22:08 · Custom Domain SRV Records
-- [8779](https://tbpro.zendesk.com/agent/tickets/8779) · [pending] · 2026-09-17T03:25 · Cancellation Request and refunds
-- [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [pending] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
-- [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
-- [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [pending] · 2026-09-17T07:11 · hund
-- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [pending] · 2026-09-17T14:27 · Adding an imap account
-- [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
-- [8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · 2026-09-17T16:25 · [routing/8] [domain] needs to be A record not CNAME
-- [8811](https://tbpro.zendesk.com/agent/tickets/8811) · [open] · 2026-09-17T17:35 · Account Deletion
+- [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
 
 ## Solved — last 24h
 
-- · [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-16T20:02 · can't verify custom domain
-- · [8558](https://tbpro.zendesk.com/agent/tickets/8558) · 2026-09-16T20:02 · custom email in iOS mail
-- 👍 [8571](https://tbpro.zendesk.com/agent/tickets/8571) · 2026-09-16T20:40 · Thundermail General Questions - 
-- 👍 [8477](https://tbpro.zendesk.com/agent/tickets/8477) · 2026-09-16T20:41 · Attempting to setup two secondary Thundermail email addresses 
-- · [8324](https://tbpro.zendesk.com/agent/tickets/8324) · 2026-09-16T21:02 · Changing email adress and keep the former as an alias
-- · [8481](https://tbpro.zendesk.com/agent/tickets/8481) · 2026-09-16T22:01 · LinkedIn unable to verify email
-- · [8608](https://tbpro.zendesk.com/agent/tickets/8608) · 2026-09-16T22:01 · mot de passe
-- · [8606](https://tbpro.zendesk.com/agent/tickets/8606) · 2026-09-16T22:01 · my e-mail address
-- · [8363](https://tbpro.zendesk.com/agent/tickets/8363) · 2026-09-16T22:01 · Mail
-- · [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-17T12:42 · Questions about Thundermail features
-- · [8715](https://tbpro.zendesk.com/agent/tickets/8715) · 2026-09-17T12:44 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
-- · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-17T13:54 · trouble setting up DNS records on Godaddy
-- · [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-17T13:55 · Unable to choose custom domain address ([email])
-- · [8738](https://tbpro.zendesk.com/agent/tickets/8738) · 2026-09-17T16:02 · Cancel + Refund
-- · [8678](https://tbpro.zendesk.com/agent/tickets/8678) · 2026-09-17T16:02 · Double messages on personal domain
-- · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-17T16:11 · Apparently my account doesn’t exist?
+- · [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-17T21:02 · Issues connecting CALDEV to iOS Calendar Application
+- 👍 [8516](https://tbpro.zendesk.com/agent/tickets/8516) · 2026-09-17T21:03 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
+- 👍 [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-17T22:36 · Thundermail's Future
+- 👍 [8755](https://tbpro.zendesk.com/agent/tickets/8755) · 2026-09-17T23:03 · Thunderbird reply problem with [domain] aliases.
+- 👍 [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T23:04 · calendar and contacts
+- · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-18T01:01 · Failed to load subscription information
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
