@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 12:22 ET** · refreshes hourly_  
+_Updated: **2026-09-18 13:18 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 40** of rollout — **35,000 invitees**, **450 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 40** of rollout — **35,000 invitees**, **451 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **12** solved in last 24h
-- **450** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **13** solved in last 24h
+- **451** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.4h · mean 157.4h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -172,13 +172,13 @@ Regards, [name]_
 - **solved**: 369
 - **pending**: 48
 - **closed**: 19
-- **open**: 7
+- **open**: 8
 - **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 258
-- **Thundermail**: 156
+- **Thundermail**: 157
 - **Send**: 9
 - **Appointment**: 8
 
@@ -190,10 +190,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 65
 - **blocked** + **investigated**: 24
+- **request** + **redirected**: 19
 - **confused** + **explained**: 19
 - **concerned** + **explained**: 19
 - **curious** + **informed**: 18
-- **request** + **redirected**: 18
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 11
 - **blocked** + **escalated**: 10
@@ -229,15 +229,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account creation / signup confusion — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible?
-  > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
+- **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts
+  > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
+
+### Aliases — 1 tickets
+
+- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
+  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
 
 ### Appointment / calendar — 1 tickets
 
 - **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate — why: **blocked** · how: **investigated**
   > In Appointment, adding multiple calendars to my thundermail account over CalDAV does not cause those calendars to appear in Appointment automatically
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible? — why: **request** · how: **redirected**
+  > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -249,18 +259,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8825](https://tbpro.zendesk.com/agent/tickets/8825)** · Refund — why: **change request** · how: **actioned**
   > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
-  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
-
 ## New tickets — last 24h
 
 - [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
-- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [pending] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
+- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [open] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
 - [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18T10:20 · Refund
 - [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [hold] · 2026-09-18T13:02 · Trouble making payment
-- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [open] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
+- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [pending] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
+- [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [open] · 2026-09-18T16:44 · setting up two gmail accounts
 
 ## Solved — last 24h
 
@@ -276,6 +282,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-18T14:01 · trouble setting up DNS records on Godaddy
 - 👍 [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-18T14:12 · Unable to choose custom domain address ([email])
 - · [8675](https://tbpro.zendesk.com/agent/tickets/8675) · 2026-09-18T15:42 · Cannot Login to Desktop App
+- · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-18T17:02 · Apparently my account doesn’t exist?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
