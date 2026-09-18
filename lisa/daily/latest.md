@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 00:25 ET** · refreshes hourly_  
+_Updated: **2026-09-18 01:21 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 40** of rollout — **35,000 invitees**, **446 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 40** of rollout — **35,000 invitees**, **447 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **6** solved in last 24h
-- **446** tickets total since launch · contact rate **1%** of 35000 invitees
+- **2** new tickets in last 24h · **6** solved in last 24h
+- **447** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (125 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
@@ -172,11 +172,12 @@ _(none in last 24h)_
 - **closed**: 19
 - **open**: 8
 - **hold**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 255
-- **Thundermail**: 155
+- **Thundermail**: 156
 - **Send**: 9
 - **Appointment**: 8
 
@@ -227,6 +228,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address
+  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
+
 ### Appointment / calendar — 1 tickets
 
 - **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate
@@ -235,6 +241,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
+- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [new] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
 
 ## Solved — last 24h
 
