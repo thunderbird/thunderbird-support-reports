@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 02:36 ET** · refreshes hourly_  
+_Updated: **2026-09-18 03:25 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **447 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
+- **2** new tickets in last 24h · **7** solved in last 24h
 - **447** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 93%  (125 good / 10 bad)
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 93%  (126 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 137.4h · mean 157.4h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## Known problems — 6 problem(s), 53 incident(s)
 
@@ -251,6 +251,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8755](https://tbpro.zendesk.com/agent/tickets/8755) · 2026-09-17T23:03 · Thunderbird reply problem with [domain] aliases.
 - 👍 [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T23:04 · calendar and contacts
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-18T01:01 · Failed to load subscription information
+- 👍 [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-18T07:18 · Alias Use in New E-Mails in Thundermail Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
