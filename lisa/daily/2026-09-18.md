@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 09:21 ET** · refreshes hourly_  
+_Updated: **2026-09-18 10:23 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **450 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **9** solved in last 24h
+- **5** new tickets in last 24h · **11** solved in last 24h
 - **450** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (7 good / 0 bad)
-- **CSAT (since launch)**: 93%  (128 good / 10 bad)
+- **CSAT (24h)**: 100%  (8 good / 0 bad)
+- **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.2h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.4h · mean 157.4h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 53 incident(s)
 
@@ -152,7 +152,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [new] · _Refund_
+- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [open] · _Refund_
   > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
 
 ## New ideas on FeatureOS
@@ -169,11 +169,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 46
+- **pending**: 45
 - **closed**: 19
-- **open**: 7
+- **open**: 12
 - **hold**: 5
-- **new**: 4
 
 ## Service (cumulative)
 
@@ -254,10 +253,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
-- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [new] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
-- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [new] · 2026-09-18T10:20 · Refund
-- [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [new] · 2026-09-18T13:02 · Trouble making payment
-- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [new] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
+- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [open] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
+- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [open] · 2026-09-18T10:20 · Refund
+- [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [open] · 2026-09-18T13:02 · Trouble making payment
+- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [open] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
 
 ## Solved — last 24h
 
@@ -270,6 +269,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-18T10:21 · Issues connecting CALDEV to iOS Calendar Application
 - · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-18T12:31 · Not Recieving Emails from Google
 - 👍 [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-18T13:04 · Questions about Thundermail features
+- · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-18T14:01 · trouble setting up DNS records on Godaddy
+- 👍 [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-18T14:12 · Unable to choose custom domain address ([email])
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
