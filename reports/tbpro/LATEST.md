@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 15:18 ET** · refreshes hourly_  
+_Updated: **2026-09-18 16:21 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 40** of rollout — **35,000 invitees**, **451 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 40** of rollout — **35,000 invitees**, **453 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **14** solved in last 24h
-- **451** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **13** solved in last 24h
+- **453** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.0h (proxy: updated_at − created_at, 370 solved tickets)
+- **Median AHT**: 137.4h · mean 157.0h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -85,7 +85,7 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **451 tickets** so fa
 
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
-  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [solved] · 2026-09-12 · _Failed to load subscription information_
+  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [open] · 2026-09-12 · _Failed to load subscription information_
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
@@ -169,16 +169,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 370
+- **solved**: 369
 - **pending**: 51
 - **closed**: 19
+- **open**: 8
 - **hold**: 6
-- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 258
-- **Thundermail**: 157
+- **Thundermail**: 159
 - **Send**: 9
 - **Appointment**: 8
 
@@ -229,6 +229,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#8836](https://tbpro.zendesk.com/agent/tickets/8836)** · Unable to send from iOS devices
+  > I keep getting messages stating sender cannot be verified when attempting to send email using the designated server settings
+- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
+  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#8835](https://tbpro.zendesk.com/agent/tickets/8835)** · confusion about confirmation email
+  > hi, my friend Derek sent me an invite (his email is soda@) i'm trying to create an account (bart_simpson@thundermail), it says i need to verify my email address. does this mean i…
+
 ### App setup / configuration — 1 tickets
 
 - **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts
@@ -249,11 +261,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8825](https://tbpro.zendesk.com/agent/tickets/8825)** · Refund — why: **change request** · how: **actioned**
   > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
 
-### Aliases — 1 tickets
-
-- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
-  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
-
 ### Webmail — 1 tickets
 
 - **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate — why: **blocked** · how: **investigated**
@@ -267,6 +274,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [pending] · 2026-09-18T13:02 · Trouble making payment
 - [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [open] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
 - [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [open] · 2026-09-18T16:44 · setting up two gmail accounts
+- [8835](https://tbpro.zendesk.com/agent/tickets/8835) · [open] · 2026-09-18T19:26 · confusion about confirmation email
+- [8836](https://tbpro.zendesk.com/agent/tickets/8836) · [open] · 2026-09-18T19:57 · Unable to send from iOS devices
 
 ## Solved — last 24h
 
@@ -274,7 +283,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-17T22:36 · Thundermail's Future
 - 👍 [8755](https://tbpro.zendesk.com/agent/tickets/8755) · 2026-09-17T23:03 · Thunderbird reply problem with [domain] aliases.
 - 👍 [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T23:04 · calendar and contacts
-- · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-18T01:01 · Failed to load subscription information
 - 👍 [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-18T07:18 · Alias Use in New E-Mails in Thundermail Webmail
 - 👍 [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-18T10:21 · Issues connecting CALDEV to iOS Calendar Application
 - · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-18T12:31 · Not Recieving Emails from Google
