@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 05:24 ET** · refreshes hourly_  
+_Updated: **2026-09-18 06:22 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 40** of rollout — **35,000 invitees**, **447 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 40** of rollout — **35,000 invitees**, **448 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
-- **447** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
-- **CSAT (since launch)**: 93%  (126 good / 10 bad)
+- **3** new tickets in last 24h · **7** solved in last 24h
+- **448** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (since launch)**: 93%  (127 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.4h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 137.4h · mean 157.5h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## Known problems — 6 problem(s), 53 incident(s)
 
@@ -150,9 +150,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [new] · _Refund_
+  > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
 
 ## New ideas on FeatureOS
 
@@ -172,12 +173,12 @@ _(none in last 24h)_
 - **closed**: 19
 - **open**: 8
 - **hold**: 5
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 255
-- **Thundermail**: 156
+- **Thundermail**: 157
 - **Send**: 9
 - **Appointment**: 8
 
@@ -228,6 +229,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8825](https://tbpro.zendesk.com/agent/tickets/8825)** · Refund
+  > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address
@@ -242,16 +248,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
 - [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [new] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
+- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [new] · 2026-09-18T10:20 · Refund
 
 ## Solved — last 24h
 
-- · [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-17T21:02 · Issues connecting CALDEV to iOS Calendar Application
 - 👍 [8516](https://tbpro.zendesk.com/agent/tickets/8516) · 2026-09-17T21:03 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
 - 👍 [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-17T22:36 · Thundermail's Future
 - 👍 [8755](https://tbpro.zendesk.com/agent/tickets/8755) · 2026-09-17T23:03 · Thunderbird reply problem with [domain] aliases.
 - 👍 [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T23:04 · calendar and contacts
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-18T01:01 · Failed to load subscription information
 - 👍 [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-18T07:18 · Alias Use in New E-Mails in Thundermail Webmail
+- 👍 [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-18T10:21 · Issues connecting CALDEV to iOS Calendar Application
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
