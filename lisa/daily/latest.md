@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 17:19 ET** · refreshes hourly_  
+_Updated: **2026-09-18 18:20 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **453 tickets** so fa
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.0h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.1h · mean 156.6h (proxy: updated_at − created_at, 370 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -169,11 +169,10 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
-- **pending**: 52
+- **solved**: 370
+- **pending**: 57
 - **closed**: 19
 - **hold**: 7
-- **open**: 6
 
 ## Service (cumulative)
 
@@ -190,8 +189,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 65
 - **blocked** + **investigated**: 24
+- **request** + **redirected**: 20
 - **concerned** + **explained**: 20
-- **request** + **redirected**: 19
 - **confused** + **explained**: 19
 - **curious** + **informed**: 18
 - **confused** + **informed**: 13
@@ -204,12 +203,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 4
 - **change request** + **explained**: 4
 - **request** + **explained**: 3
-- **curious** + **investigated**: 3
 - **change request** + **escalated**: 3
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
+- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **—**: 2
 - **telling us** + **—**: 2
@@ -241,15 +240,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8835](https://tbpro.zendesk.com/agent/tickets/8835)** · confusion about confirmation email — why: **curious** · how: **explained**
   > hi, my friend Derek sent me an invite (his email is soda@) i'm trying to create an account (bart_simpson@thundermail), it says i need to verify my email address. does this mean i…
 
-### Account creation / signup confusion — 1 tickets
-
-- **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible? — why: **request** · how: **redirected**
-  > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
-
 ### App setup / configuration — 1 tickets
 
 - **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts — why: **blocked** · how: **redirected**
   > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible? — why: **request** · how: **redirected**
+  > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -272,9 +271,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [solved] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
 - [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18T10:20 · Refund
 - [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [pending] · 2026-09-18T13:02 · Trouble making payment
-- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [open] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
+- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [pending] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
 - [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [pending] · 2026-09-18T16:44 · setting up two gmail accounts
-- [8835](https://tbpro.zendesk.com/agent/tickets/8835) · [open] · 2026-09-18T19:26 · confusion about confirmation email
+- [8835](https://tbpro.zendesk.com/agent/tickets/8835) · [solved] · 2026-09-18T19:26 · confusion about confirmation email
 - [8836](https://tbpro.zendesk.com/agent/tickets/8836) · [pending] · 2026-09-18T19:57 · Unable to send from iOS devices
 
 ## Solved — last 24h
