@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-17 20:56 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so fa
 - **446** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 93%  (125 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 55
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
 - **Median AHT**: 137.1h · mean 157.3h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -170,10 +170,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 368
-- **pending**: 50
+- **pending**: 47
 - **closed**: 19
+- **open**: 7
 - **hold**: 5
-- **open**: 4
 
 ## Service (cumulative)
 
@@ -275,7 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [open] · 2026-09-17T14:27 · Adding an imap account
 - [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
 - [8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · 2026-09-17T16:25 · [routing/8] [domain] needs to be A record not CNAME
-- [8811](https://tbpro.zendesk.com/agent/tickets/8811) · [pending] · 2026-09-17T17:35 · Account Deletion
+- [8811](https://tbpro.zendesk.com/agent/tickets/8811) · [open] · 2026-09-17T17:35 · Account Deletion
 
 ## Solved — last 24h
 
