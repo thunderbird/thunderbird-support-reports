@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 16:21 ET** · refreshes hourly_  
+_Updated: **2026-09-18 17:19 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -85,7 +85,7 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **453 tickets** so fa
 
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
-  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [open] · 2026-09-12 · _Failed to load subscription information_
+  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [hold] · 2026-09-12 · _Failed to load subscription information_
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
@@ -170,15 +170,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 51
+- **pending**: 52
 - **closed**: 19
-- **open**: 8
-- **hold**: 6
+- **hold**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 258
-- **Thundermail**: 159
+- **Account Hub**: 259
+- **Thundermail**: 158
 - **Send**: 9
 - **Appointment**: 8
 
@@ -186,16 +186,16 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 107
+- **curious** + **explained**: 108
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 65
 - **blocked** + **investigated**: 24
+- **concerned** + **explained**: 20
 - **request** + **redirected**: 19
 - **confused** + **explained**: 19
-- **concerned** + **explained**: 19
 - **curious** + **informed**: 18
 - **confused** + **informed**: 13
-- **blocked** + **redirected**: 11
+- **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 10
 - **blocked** + **informed**: 7
 - **concerned** + **—**: 7
@@ -231,25 +231,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 2 tickets
 
-- **[#8836](https://tbpro.zendesk.com/agent/tickets/8836)** · Unable to send from iOS devices
+- **[#8836](https://tbpro.zendesk.com/agent/tickets/8836)** · Unable to send from iOS devices — why: **concerned** · how: **explained**
   > I keep getting messages stating sender cannot be verified when attempting to send email using the designated server settings
 - **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
   > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
 
 ### Spam / Junk Filtering — 1 tickets
 
-- **[#8835](https://tbpro.zendesk.com/agent/tickets/8835)** · confusion about confirmation email
+- **[#8835](https://tbpro.zendesk.com/agent/tickets/8835)** · confusion about confirmation email — why: **curious** · how: **explained**
   > hi, my friend Derek sent me an invite (his email is soda@) i'm trying to create an account (bart_simpson@thundermail), it says i need to verify my email address. does this mean i…
-
-### App setup / configuration — 1 tickets
-
-- **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts
-  > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
 
 ### Account creation / signup confusion — 1 tickets
 
 - **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible? — why: **request** · how: **redirected**
   > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
+
+### App setup / configuration — 1 tickets
+
+- **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts — why: **blocked** · how: **redirected**
+  > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -273,9 +273,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18T10:20 · Refund
 - [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [pending] · 2026-09-18T13:02 · Trouble making payment
 - [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [open] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
-- [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [open] · 2026-09-18T16:44 · setting up two gmail accounts
+- [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [pending] · 2026-09-18T16:44 · setting up two gmail accounts
 - [8835](https://tbpro.zendesk.com/agent/tickets/8835) · [open] · 2026-09-18T19:26 · confusion about confirmation email
-- [8836](https://tbpro.zendesk.com/agent/tickets/8836) · [open] · 2026-09-18T19:57 · Unable to send from iOS devices
+- [8836](https://tbpro.zendesk.com/agent/tickets/8836) · [pending] · 2026-09-18T19:57 · Unable to send from iOS devices
 
 ## Solved — last 24h
 
