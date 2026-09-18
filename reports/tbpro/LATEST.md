@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 21:31 ET** · refreshes hourly_  
+_Updated: **2026-09-17 22:32 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so fa
 - **446** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 93%  (125 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
 - **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -187,13 +187,13 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 107
-- **blocked** + **explained**: 76
+- **blocked** + **explained**: 75
 - **change request** + **actioned**: 64
 - **blocked** + **investigated**: 23
 - **confused** + **explained**: 19
 - **concerned** + **explained**: 19
 - **curious** + **informed**: 18
-- **request** + **redirected**: 17
+- **request** + **redirected**: 18
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 11
 - **blocked** + **escalated**: 9
@@ -245,9 +245,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8786](https://tbpro.zendesk.com/agent/tickets/8786)** · I lost my invitation. Need it back. — why: **curious** · how: **explained**
   > Hello [name], I joined the waitlist and received the invite. But I think I have accidentally deleted it and is permanently lost. Would it be possible to send the invite again?
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Request or complaint — 1 tickets
 
-- **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account — why: **blocked** · how: **explained**
+- **[#8802](https://tbpro.zendesk.com/agent/tickets/8802)** · Adding an imap account — why: **request** · how: **redirected**
   > Hi have mail hosted on another service, I would like to keep it there, however I would like to add in the account to this interface, like I would gmail where I HAD the ability to…
 
 ### Account access issues — Account Hub trouble — 1 tickets
@@ -272,7 +272,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8780](https://tbpro.zendesk.com/agent/tickets/8780) · [pending] · 2026-09-17T04:19 · RE: [Thundermail] Re: Blocked email (encrypted)
 - [8786](https://tbpro.zendesk.com/agent/tickets/8786) · [pending] · 2026-09-17T05:40 · I lost my invitation. Need it back.
 - [8788](https://tbpro.zendesk.com/agent/tickets/8788) · [pending] · 2026-09-17T07:11 · hund
-- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [open] · 2026-09-17T14:27 · Adding an imap account
+- [8802](https://tbpro.zendesk.com/agent/tickets/8802) · [pending] · 2026-09-17T14:27 · Adding an imap account
 - [8806](https://tbpro.zendesk.com/agent/tickets/8806) · [open] · 2026-09-17T16:04 · Secure Email Gateway
 - [8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · 2026-09-17T16:25 · [routing/8] [domain] needs to be A record not CNAME
 - [8811](https://tbpro.zendesk.com/agent/tickets/8811) · [open] · 2026-09-17T17:35 · Account Deletion
