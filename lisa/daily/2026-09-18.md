@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 13:18 ET** · refreshes hourly_  
+_Updated: **2026-09-18 14:26 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 40** of rollout — **35,000 invitees**, **451 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **13** solved in last 24h
+- **6** new tickets in last 24h · **14** solved in last 24h
 - **451** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.4h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.4h · mean 157.0h (proxy: updated_at − created_at, 370 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -169,11 +169,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
-- **pending**: 48
+- **solved**: 370
+- **pending**: 51
 - **closed**: 19
-- **open**: 8
-- **hold**: 7
+- **hold**: 6
+- **open**: 5
 
 ## Service (cumulative)
 
@@ -234,11 +234,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts
   > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
 
-### Aliases — 1 tickets
-
-- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
-  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
-
 ### Appointment / calendar — 1 tickets
 
 - **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate — why: **blocked** · how: **investigated**
@@ -259,12 +254,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8825](https://tbpro.zendesk.com/agent/tickets/8825)** · Refund — why: **change request** · how: **actioned**
   > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
 
+### Aliases — 1 tickets
+
+- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
+  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
+
 ## New tickets — last 24h
 
 - [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
-- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [open] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
+- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [solved] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
 - [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18T10:20 · Refund
-- [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [hold] · 2026-09-18T13:02 · Trouble making payment
+- [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [pending] · 2026-09-18T13:02 · Trouble making payment
 - [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [pending] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
 - [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [open] · 2026-09-18T16:44 · setting up two gmail accounts
 
@@ -283,6 +283,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-18T14:12 · Unable to choose custom domain address ([email])
 - · [8675](https://tbpro.zendesk.com/agent/tickets/8675) · 2026-09-18T15:42 · Cannot Login to Desktop App
 - · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-18T17:02 · Apparently my account doesn’t exist?
+- · [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-18T18:17 · Changed Password, Doesn’t Recognize Address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
