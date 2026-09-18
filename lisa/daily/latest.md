@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 08:31 ET** · refreshes hourly_  
+_Updated: **2026-09-18 09:21 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 40** of rollout — **35,000 invitees**, **448 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 40** of rollout — **35,000 invitees**, **450 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
-- **448** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (6 good / 0 bad)
-- **CSAT (since launch)**: 93%  (127 good / 10 bad)
+- **5** new tickets in last 24h · **9** solved in last 24h
+- **450** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (7 good / 0 bad)
+- **CSAT (since launch)**: 93%  (128 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.5h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 137.4h · mean 157.2h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 53 incident(s)
 
@@ -168,16 +168,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 368
+- **solved**: 369
 - **pending**: 46
 - **closed**: 19
-- **open**: 8
+- **open**: 7
 - **hold**: 5
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 255
+- **Account Hub**: 257
 - **Thundermail**: 157
 - **Send**: 9
 - **Appointment**: 8
@@ -229,10 +229,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
+- **[#8827](https://tbpro.zendesk.com/agent/tickets/8827)** · Trouble making payment
+  > I've tried a Discover and a Visa to pay for subscription. Neither one will allow the transaction. I think they don't like paddle. Would like to resolve while jnuckols username is…
 - **[#8825](https://tbpro.zendesk.com/agent/tickets/8825)** · Refund
   > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible?
+  > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -249,6 +256,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
 - [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [new] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
 - [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [new] · 2026-09-18T10:20 · Refund
+- [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [new] · 2026-09-18T13:02 · Trouble making payment
+- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [new] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
 
 ## Solved — last 24h
 
@@ -259,6 +268,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-18T01:01 · Failed to load subscription information
 - 👍 [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-18T07:18 · Alias Use in New E-Mails in Thundermail Webmail
 - 👍 [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-18T10:21 · Issues connecting CALDEV to iOS Calendar Application
+- · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-18T12:31 · Not Recieving Emails from Google
+- 👍 [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-18T13:04 · Questions about Thundermail features
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
