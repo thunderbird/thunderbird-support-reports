@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-17
 
-_Updated: **2026-09-17 20:56 ET** · refreshes hourly_  
+_Updated: **2026-09-17 21:31 ET** · refreshes hourly_  
 _24h window: 2026-09-16T16:00 → 2026-09-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 39** of rollout — **35,000 invitees**, **446 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **17** solved in last 24h
+- **9** new tickets in last 24h · **16** solved in last 24h
 - **446** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 93%  (125 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 56
-- **Median AHT**: 137.1h · mean 157.3h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -204,12 +204,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 4
 - **change request** + **explained**: 4
 - **request** + **explained**: 3
+- **curious** + **investigated**: 3
 - **change request** + **escalated**: 3
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
-- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **—**: 2
 - **telling us** + **—**: 2
@@ -231,7 +231,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 3 tickets
 
-- **[#8806](https://tbpro.zendesk.com/agent/tickets/8806)** · Secure Email Gateway
+- **[#8806](https://tbpro.zendesk.com/agent/tickets/8806)** · Secure Email Gateway — why: **curious** · how: **investigated**
   > We are planning to use a custom domain hosted on Thundermail and would like to place a third-party Secure Email Gateway (Mesh Security) in front of Thundermail. The domain MX…
 - **[#8807](https://tbpro.zendesk.com/agent/tickets/8807)** · [routing/8] [domain] needs to be A record not CNAME — why: **change request** · how: **escalated**
   > **Summary:** Multiple RFCs requires that our MX record for `[domain]` points to hostname that has an "A" record, not a CNAME. Some DNS registrars are more flexible (especially…
@@ -288,7 +288,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8608](https://tbpro.zendesk.com/agent/tickets/8608) · 2026-09-16T22:01 · mot de passe
 - · [8606](https://tbpro.zendesk.com/agent/tickets/8606) · 2026-09-16T22:01 · my e-mail address
 - · [8363](https://tbpro.zendesk.com/agent/tickets/8363) · 2026-09-16T22:01 · Mail
-- · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-17T00:34 · Failed to load subscription information
 - · [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-17T12:42 · Questions about Thundermail features
 - · [8715](https://tbpro.zendesk.com/agent/tickets/8715) · 2026-09-17T12:44 · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-17T13:54 · trouble setting up DNS records on Godaddy
