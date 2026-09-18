@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 14:26 ET** · refreshes hourly_  
+_Updated: **2026-09-18 15:18 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -234,11 +234,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts
   > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
 
-### Appointment / calendar — 1 tickets
-
-- **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate — why: **blocked** · how: **investigated**
-  > In Appointment, adding multiple calendars to my thundermail account over CalDAV does not cause those calendars to appear in Appointment automatically
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible? — why: **request** · how: **redirected**
@@ -259,13 +254,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
   > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
 
+### Webmail — 1 tickets
+
+- **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate — why: **blocked** · how: **investigated**
+  > In Appointment, adding multiple calendars to my thundermail account over CalDAV does not cause those calendars to appear in Appointment automatically
+
 ## New tickets — last 24h
 
-- [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [open] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
+- [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [pending] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
 - [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [solved] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
 - [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18T10:20 · Refund
 - [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [pending] · 2026-09-18T13:02 · Trouble making payment
-- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [pending] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
+- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [open] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
 - [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [open] · 2026-09-18T16:44 · setting up two gmail accounts
 
 ## Solved — last 24h
