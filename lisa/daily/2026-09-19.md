@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 07:17 ET** · refreshes hourly_  
+_Updated: **2026-09-19 08:29 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 41** of rollout — **35,000 invitees**, **453 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 41** of rollout — **35,000 invitees**, **454 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **0** new tickets in last 24h · **1** solved in last 24h
-- **453** tickets total since launch · contact rate **1%** of 35000 invitees
+- **1** new tickets in last 24h · **1** solved in last 24h
+- **454** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
@@ -167,12 +167,12 @@ _(none in last 24h)_
 - **pending**: 54
 - **closed**: 20
 - **hold**: 6
-- **open**: 4
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 259
-- **Thundermail**: 158
+- **Thundermail**: 159
 - **Send**: 9
 - **Appointment**: 8
 
@@ -223,11 +223,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-_(no new tickets)_
+### Spam / Junk Filtering — 1 tickets
+
+- **[#8845](https://tbpro.zendesk.com/agent/tickets/8845)** · tm2 issue noted for outgoing email delivery
+  > Can you review these XML reports from email deliveries reaching spam regarding tm2 mismatches and advise? Also the Hotmail to Gmail mismatch is known email forwarding on my part.…
 
 ## New tickets — last 24h
 
-_(none)_
+- [8845](https://tbpro.zendesk.com/agent/tickets/8845) · [open] · 2026-09-19T12:19 · tm2 issue noted for outgoing email delivery
 
 ## Solved — last 24h
 
