@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 17:18 ET** · refreshes hourly_  
+_Updated: **2026-09-19 18:19 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 41** of rollout — **35,000 invitees**, **455 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 41** of rollout — **35,000 invitees**, **456 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **12** solved in last 24h
-- **455** tickets total since launch · contact rate **1%** of 35000 invitees
+- **2** new tickets in last 24h · **11** solved in last 24h
+- **456** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.2h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -151,9 +151,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8853](https://tbpro.zendesk.com/agent/tickets/8853) · [new] · _Refund please?_
+  > Hello! I want to cancel my account and want a refund please. Best Alexander.
 
 ## New ideas on FeatureOS
 
@@ -168,12 +169,12 @@ _(none in last 24h)_
 - **closed**: 28
 - **open**: 10
 - **hold**: 6
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 259
-- **Thundermail**: 160
+- **Thundermail**: 161
 - **Send**: 9
 - **Appointment**: 8
 
@@ -241,7 +242,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [8835](https://tbpro.zendesk.com/agent/tickets/8835) · 2026-09-18T21:25 · confusion about confirmation email
 - · [8665](https://tbpro.zendesk.com/agent/tickets/8665) · 2026-09-19T14:01 · Change Email address
 - · [8607](https://tbpro.zendesk.com/agent/tickets/8607) · 2026-09-19T14:01 · je me souvien plus du mots de passe principal
 - · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-19T15:46 · Not Recieving Emails from Google
