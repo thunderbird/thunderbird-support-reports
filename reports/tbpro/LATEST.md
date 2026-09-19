@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-09-18
+# Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-18 23:25 ET** · refreshes hourly_  
-_24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-19 00:24 ET** · refreshes hourly_  
+_24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 40** of rollout — **35,000 invitees**, **453 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 41** of rollout — **35,000 invitees**, **453 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **13** solved in last 24h
+- **0** new tickets in last 24h · **1** solved in last 24h
 - **453** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (8 good / 0 bad)
+- **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 57
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
 - **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
@@ -151,21 +151,15 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · _Refund_
-  > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 0 new:
 
-- [Calendar web based](https://ideas.tb.pro/p/calendar-web-based) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.I’d love to have access to the thundermail calendar and subscribed calendars on the web based siteWhy it mattersWhat problem does…
-- [Alias integration with 1Password](https://ideas.tb.pro/p/alias-integration-with-1password) · 2 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, New Feature, Webmail_
-  > What you’d like to seeBasically stealing an idea from Fastmail - the ability to integrate Thundermail with 1Password to generate/store email aliases. Why it mattersMakes it easier to generate and…
-- [ICS support in Appointment external calendar](https://ideas.tb.pro/p/ics-support-in-appointment-external-calendar) · 1 votes · _untagged_
-  > What you’d like to seeAppointments allows the population of the “busy period” with events from external calendar. This should support appointment. Why it mattersWebDAV is limited to specific services…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -229,69 +223,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
-
-- **[#8836](https://tbpro.zendesk.com/agent/tickets/8836)** · Unable to send from iOS devices — why: **concerned** · how: **explained**
-  > I keep getting messages stating sender cannot be verified when attempting to send email using the designated server settings
-- **[#8818](https://tbpro.zendesk.com/agent/tickets/8818)** · Changed Password, Doesn’t Recognize Address — why: **concerned**
-  > i just changed my password in my SMTP settings and now it won’t accept my email address as valid? i didn’t even touch the email address field, only the password.
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#8835](https://tbpro.zendesk.com/agent/tickets/8835)** · confusion about confirmation email — why: **curious** · how: **explained**
-  > hi, my friend Derek sent me an invite (his email is soda@) i'm trying to create an account (bart_simpson@thundermail), it says i need to verify my email address. does this mean i…
-
-### App setup / configuration — 1 tickets
-
-- **[#8833](https://tbpro.zendesk.com/agent/tickets/8833)** · setting up two gmail accounts — why: **blocked** · how: **redirected**
-  > I'm trying to set up two different gmail accounts, but when trying to add the second one I get the error that the incoming server already exists, and I don't know what to do next,…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#8829](https://tbpro.zendesk.com/agent/tickets/8829)** · Using our domain for multiple emails - is it possible? — why: **request** · how: **redirected**
-  > Hello! I was wondering: Is it possible to sign up a separate person for Thundermail but still have them use the same domain as me? The reason I ask is that I have another team…
-
-### Pricing — payment issue — 1 tickets
-
-- **[#8827](https://tbpro.zendesk.com/agent/tickets/8827)** · Trouble making payment — why: **blocked** · how: **escalated**
-  > I've tried a Discover and a Visa to pay for subscription. Neither one will allow the transaction. I think they don't like paddle. Would like to resolve while jnuckols username is…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8825](https://tbpro.zendesk.com/agent/tickets/8825)** · Refund — why: **change request** · how: **actioned**
-  > Please kindly refund within the 15-day cooling-off period. I have tried this a couple of times but it's just not for me.
-
-### Webmail — 1 tickets
-
-- **[#8815](https://tbpro.zendesk.com/agent/tickets/8815)** · Calendars in appointment do not auto-populate — why: **blocked** · how: **investigated**
-  > In Appointment, adding multiple calendars to my thundermail account over CalDAV does not cause those calendars to appear in Appointment automatically
+_(no new tickets)_
 
 ## New tickets — last 24h
 
-- [8815](https://tbpro.zendesk.com/agent/tickets/8815) · [pending] · 2026-09-17T20:51 · Calendars in appointment do not auto-populate
-- [8818](https://tbpro.zendesk.com/agent/tickets/8818) · [solved] · 2026-09-18T05:05 · Changed Password, Doesn’t Recognize Address
-- [8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18T10:20 · Refund
-- [8827](https://tbpro.zendesk.com/agent/tickets/8827) · [pending] · 2026-09-18T13:02 · Trouble making payment
-- [8829](https://tbpro.zendesk.com/agent/tickets/8829) · [pending] · 2026-09-18T13:17 · Using our domain for multiple emails - is it possible?
-- [8833](https://tbpro.zendesk.com/agent/tickets/8833) · [pending] · 2026-09-18T16:44 · setting up two gmail accounts
-- [8835](https://tbpro.zendesk.com/agent/tickets/8835) · [solved] · 2026-09-18T19:26 · confusion about confirmation email
-- [8836](https://tbpro.zendesk.com/agent/tickets/8836) · [pending] · 2026-09-18T19:57 · Unable to send from iOS devices
+_(none)_
 
 ## Solved — last 24h
 
-- 👍 [8516](https://tbpro.zendesk.com/agent/tickets/8516) · 2026-09-17T21:03 · Existing Thundermail Account No Longer Recognized – Possible Account Compromise
-- 👍 [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-17T22:36 · Thundermail's Future
-- 👍 [8755](https://tbpro.zendesk.com/agent/tickets/8755) · 2026-09-17T23:03 · Thunderbird reply problem with [domain] aliases.
-- 👍 [8721](https://tbpro.zendesk.com/agent/tickets/8721) · 2026-09-17T23:04 · calendar and contacts
-- 👍 [8213](https://tbpro.zendesk.com/agent/tickets/8213) · 2026-09-18T07:18 · Alias Use in New E-Mails in Thundermail Webmail
-- 👍 [7808](https://tbpro.zendesk.com/agent/tickets/7808) · 2026-09-18T10:21 · Issues connecting CALDEV to iOS Calendar Application
-- · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-18T12:31 · Not Recieving Emails from Google
-- 👍 [8632](https://tbpro.zendesk.com/agent/tickets/8632) · 2026-09-18T13:04 · Questions about Thundermail features
-- · [8545](https://tbpro.zendesk.com/agent/tickets/8545) · 2026-09-18T14:01 · trouble setting up DNS records on Godaddy
-- 👍 [8754](https://tbpro.zendesk.com/agent/tickets/8754) · 2026-09-18T14:12 · Unable to choose custom domain address ([email])
-- · [8675](https://tbpro.zendesk.com/agent/tickets/8675) · 2026-09-18T15:42 · Cannot Login to Desktop App
-- · [8697](https://tbpro.zendesk.com/agent/tickets/8697) · 2026-09-18T17:02 · Apparently my account doesn’t exist?
-- · [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-18T18:17 · Changed Password, Doesn’t Recognize Address
+- · [8835](https://tbpro.zendesk.com/agent/tickets/8835) · 2026-09-18T21:25 · confusion about confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
