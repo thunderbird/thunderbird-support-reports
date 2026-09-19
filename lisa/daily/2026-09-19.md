@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 03:22 ET** · refreshes hourly_  
+_Updated: **2026-09-19 04:26 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -25,7 +25,7 @@ Flight 8 is **day 41** of rollout — **35,000 invitees**, **453 tickets** so fa
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [pending] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
+  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
 - 48 incident(s):
@@ -164,10 +164,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 369
-- **pending**: 55
+- **pending**: 54
 - **closed**: 20
 - **hold**: 6
-- **open**: 3
+- **open**: 4
 
 ## Service (cumulative)
 
