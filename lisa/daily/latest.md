@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 14:23 ET** · refreshes hourly_  
+_Updated: **2026-09-19 15:16 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 41** of rollout — **35,000 invitees**, **455 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
+- **2** new tickets in last 24h · **13** solved in last 24h
 - **455** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.6h (proxy: updated_at − created_at, 372 solved tickets)
+- **Median AHT**: 137.4h · mean 156.9h (proxy: updated_at − created_at, 374 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -32,7 +32,7 @@ Flight 8 is **day 41** of rollout — **35,000 invitees**, **455 tickets** so fa
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
-  - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [solved] · 2026-08-16 · _Cancel_
+  - [#7703](https://tbpro.zendesk.com/agent/tickets/7703) · [closed] · 2026-08-16 · _Cancel_
   - [#7735](https://tbpro.zendesk.com/agent/tickets/7735) · [closed] · 2026-08-17 · _Thundermail_
   - [#7788](https://tbpro.zendesk.com/agent/tickets/7788) · [solved] · 2026-08-19 · _Refund request_
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
@@ -163,9 +163,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 372
-- **pending**: 46
-- **closed**: 21
+- **solved**: 374
+- **pending**: 42
+- **closed**: 23
 - **open**: 9
 - **hold**: 6
 - **new**: 1
@@ -249,6 +249,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8619](https://tbpro.zendesk.com/agent/tickets/8619) · 2026-09-19T16:01 · Account Creation
 - · [8649](https://tbpro.zendesk.com/agent/tickets/8649) · 2026-09-19T18:02 · Add my account
 - · [8445](https://tbpro.zendesk.com/agent/tickets/8445) · 2026-09-19T18:02 · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client
+- · [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-19T19:01 · Changed Password, Doesn’t Recognize Address
+- · [8683](https://tbpro.zendesk.com/agent/tickets/8683) · 2026-09-19T19:01 · sign up/in issue
+- · [8681](https://tbpro.zendesk.com/agent/tickets/8681) · 2026-09-19T19:02 · Does a deleted mail get assigned to another user
+- · [8679](https://tbpro.zendesk.com/agent/tickets/8679) · 2026-09-19T19:02 · Support for session Managment
+- · [8659](https://tbpro.zendesk.com/agent/tickets/8659) · 2026-09-19T19:02 · I beleive my account was erroneously flagged.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
