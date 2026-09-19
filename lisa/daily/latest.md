@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-18
 
-_Updated: **2026-09-18 19:20 ET** · refreshes hourly_  
+_Updated: **2026-09-18 20:54 ET** · refreshes hourly_  
 _24h window: 2026-09-17T16:00 → 2026-09-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -162,7 +162,7 @@ Regards, [name]_
 
 - [Calendar web based](https://ideas.tb.pro/p/calendar-web-based) · 1 votes · _untagged_
   > What you’d like to seeBriefly describe the feature or improvement.I’d love to have access to the thundermail calendar and subscribed calendars on the web based siteWhy it mattersWhat problem does…
-- [Alias integration with 1Password](https://ideas.tb.pro/p/alias-integration-with-1password) · 1 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, New Feature, Webmail_
+- [Alias integration with 1Password](https://ideas.tb.pro/p/alias-integration-with-1password) · 2 votes · _Thundermail, Privacy & Security, Accounts & Subscriptions, New Feature, Webmail_
   > What you’d like to seeBasically stealing an idea from Fastmail - the ability to integrate Thundermail with 1Password to generate/store email aliases. Why it mattersMakes it easier to generate and…
 - [ICS support in Appointment external calendar](https://ideas.tb.pro/p/ics-support-in-appointment-external-calendar) · 1 votes · _untagged_
   > What you’d like to seeAppointments allows the population of the “busy period” with events from external calendar. This should support appointment. Why it mattersWebDAV is limited to specific services…
@@ -170,10 +170,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 370
-- **pending**: 57
+- **pending**: 56
 - **closed**: 19
-- **hold**: 6
-- **open**: 1
+- **hold**: 5
+- **open**: 3
 
 ## Service (cumulative)
 
