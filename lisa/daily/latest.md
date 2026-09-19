@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 12:21 ET** · refreshes hourly_  
+_Updated: **2026-09-19 13:17 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 41** of rollout — **35,000 invitees**, **454 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 41** of rollout — **35,000 invitees**, **455 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **6** solved in last 24h
-- **454** tickets total since launch · contact rate **1%** of 35000 invitees
+- **2** new tickets in last 24h · **6** solved in last 24h
+- **455** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 371 solved tickets)
+- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 370 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -163,16 +163,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 371
+- **solved**: 370
 - **pending**: 48
-- **closed**: 20
+- **closed**: 21
 - **open**: 9
 - **hold**: 6
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 259
-- **Thundermail**: 159
+- **Thundermail**: 160
 - **Send**: 9
 - **Appointment**: 8
 
@@ -223,6 +224,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 1 tickets
+
+- **[#8852](https://tbpro.zendesk.com/agent/tickets/8852)** · Light mode toggle doesn’t remember state in message preview
+  > Hi there, I’d like to report a bug I’m experiencing with the webmail app: https://[domain]/ This is the scenario: I have dark mode enabled for the web app, I’m on a message, I…
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#8845](https://tbpro.zendesk.com/agent/tickets/8845)** · tm2 issue noted for outgoing email delivery
@@ -231,6 +237,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8845](https://tbpro.zendesk.com/agent/tickets/8845) · [open] · 2026-09-19T12:19 · tm2 issue noted for outgoing email delivery
+- [8852](https://tbpro.zendesk.com/agent/tickets/8852) · [new] · 2026-09-19T16:36 · Light mode toggle doesn’t remember state in message preview
 
 ## Solved — last 24h
 
