@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 13:17 ET** · refreshes hourly_  
+_Updated: **2026-09-19 14:23 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 41** of rollout — **35,000 invitees**, **455 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
+- **2** new tickets in last 24h · **8** solved in last 24h
 - **455** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 370 solved tickets)
+- **Median AHT**: 137.4h · mean 157.6h (proxy: updated_at − created_at, 372 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -163,8 +163,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 370
-- **pending**: 48
+- **solved**: 372
+- **pending**: 46
 - **closed**: 21
 - **open**: 9
 - **hold**: 6
@@ -247,6 +247,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-19T15:46 · Not Recieving Emails from Google
 - · [8675](https://tbpro.zendesk.com/agent/tickets/8675) · 2026-09-19T16:01 · Cannot Login to Desktop App
 - · [8619](https://tbpro.zendesk.com/agent/tickets/8619) · 2026-09-19T16:01 · Account Creation
+- · [8649](https://tbpro.zendesk.com/agent/tickets/8649) · 2026-09-19T18:02 · Add my account
+- · [8445](https://tbpro.zendesk.com/agent/tickets/8445) · 2026-09-19T18:02 · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
