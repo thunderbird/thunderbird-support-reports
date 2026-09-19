@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-19
 
-_Updated: **2026-09-19 11:18 ET** · refreshes hourly_  
+_Updated: **2026-09-19 12:21 ET** · refreshes hourly_  
 _24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 41** of rollout — **35,000 invitees**, **454 tickets** so fa
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
+- **1** new tickets in last 24h · **6** solved in last 24h
 - **454** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (129 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 157.4h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 137.4h · mean 157.3h (proxy: updated_at − created_at, 371 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -163,10 +163,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
-- **pending**: 49
+- **solved**: 371
+- **pending**: 48
 - **closed**: 20
-- **open**: 10
+- **open**: 9
 - **hold**: 6
 
 ## Service (cumulative)
@@ -237,6 +237,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8835](https://tbpro.zendesk.com/agent/tickets/8835) · 2026-09-18T21:25 · confusion about confirmation email
 - · [8665](https://tbpro.zendesk.com/agent/tickets/8665) · 2026-09-19T14:01 · Change Email address
 - · [8607](https://tbpro.zendesk.com/agent/tickets/8607) · 2026-09-19T14:01 · je me souvien plus du mots de passe principal
+- · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-19T15:46 · Not Recieving Emails from Google
+- · [8675](https://tbpro.zendesk.com/agent/tickets/8675) · 2026-09-19T16:01 · Cannot Login to Desktop App
+- · [8619](https://tbpro.zendesk.com/agent/tickets/8619) · 2026-09-19T16:01 · Account Creation
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
