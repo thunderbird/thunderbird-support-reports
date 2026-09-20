@@ -1,25 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-20
 
-_Updated: **2026-09-20 09:19 ET** · refreshes hourly_  
+_Updated: **2026-09-20 10:19 ET** · refreshes hourly_  
 _24h window: 2026-09-19T16:00 → 2026-09-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 42** of rollout — **35,000 invitees**, **459 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 42** of rollout — **35,000 invitees**, **461 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **459** tickets total since launch · contact rate **1%** of 35000 invitees
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **461** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"refund cancel"** — 2 tickets in 24h (13.7× baseline; baseline 6 cum) — [#8853](https://tbpro.zendesk.com/agent/tickets/8853), [#8864](https://tbpro.zendesk.com/agent/tickets/8864)
 - **"send receive"** — 2 tickets in 24h (13.7× baseline; baseline 6 cum) — [#8859](https://tbpro.zendesk.com/agent/tickets/8859), [#8860](https://tbpro.zendesk.com/agent/tickets/8860)
 
 ## Known problems — 6 problem(s), 54 incident(s)
@@ -157,9 +158,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8864](https://tbpro.zendesk.com/agent/tickets/8864) · [new] · _Cancellation and refund_
+  > I would like to cancel my subscription and refund the amount please
 
 ## New ideas on FeatureOS
 
@@ -170,16 +172,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 368
-- **pending**: 39
+- **solved**: 369
+- **pending**: 37
 - **closed**: 30
-- **open**: 11
+- **open**: 12
+- **new**: 7
 - **hold**: 6
-- **new**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 259
+- **Account Hub**: 260
 - **Thundermail**: 164
 - **Send**: 9
 - **Appointment**: 8
@@ -231,6 +233,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#8864](https://tbpro.zendesk.com/agent/tickets/8864)** · Cancellation and refund
+  > I would like to cancel my subscription and refund the amount please
+- **[#8853](https://tbpro.zendesk.com/agent/tickets/8853)** · Refund please?
+  > Hello! I want to cancel my account and want a refund please. Best Alexander.
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#8866](https://tbpro.zendesk.com/agent/tickets/8866)** · Delete Account
+  > Please delete account
+
 ### Account access issues — 1 tickets
 
 - **[#8860](https://tbpro.zendesk.com/agent/tickets/8860)** · Can't access thundermail anymore. 
@@ -246,23 +260,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8854](https://tbpro.zendesk.com/agent/tickets/8854)** · Mail aliases not updating in the webmail
   > After creating some mail aliases on https://[domain]/mail then removing some of them and creating new ones, i notice that the webmail hasn’t updated and still only lists the old…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#8853](https://tbpro.zendesk.com/agent/tickets/8853)** · Refund please?
-  > Hello! I want to cancel my account and want a refund please. Best Alexander.
-
 ## New tickets — last 24h
 
 - [8853](https://tbpro.zendesk.com/agent/tickets/8853) · [new] · 2026-09-19T21:55 · Refund please?
 - [8854](https://tbpro.zendesk.com/agent/tickets/8854) · [new] · 2026-09-20T01:30 · Mail aliases not updating in the webmail
 - [8859](https://tbpro.zendesk.com/agent/tickets/8859) · [new] · 2026-09-20T10:47 · missing custom domain send
 - [8860](https://tbpro.zendesk.com/agent/tickets/8860) · [new] · 2026-09-20T10:58 · Can't access thundermail anymore. 
+- [8864](https://tbpro.zendesk.com/agent/tickets/8864) · [new] · 2026-09-20T13:33 · Cancellation and refund
+- [8866](https://tbpro.zendesk.com/agent/tickets/8866) · [new] · 2026-09-20T14:04 · Delete Account
 
 ## Solved — last 24h
 
 - · [8540](https://tbpro.zendesk.com/agent/tickets/8540) · 2026-09-19T20:02 · Thunderbird email
 - · [8835](https://tbpro.zendesk.com/agent/tickets/8835) · 2026-09-19T22:01 · confusion about confirmation email
 - · [8673](https://tbpro.zendesk.com/agent/tickets/8673) · 2026-09-20T06:01 · forwrd this on
+- · [8699](https://tbpro.zendesk.com/agent/tickets/8699) · 2026-09-20T14:01 · Request to change email domain to @[domain] ([email])
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
