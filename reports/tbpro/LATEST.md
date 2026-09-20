@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-20
 
-_Updated: **2026-09-20 15:16 ET** · refreshes hourly_  
+_Updated: **2026-09-20 16:20 ET** · refreshes hourly_  
 _24h window: 2026-09-19T16:00 → 2026-09-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 42** of rollout — **35,000 invitees**, **462 tickets** so fa
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 58
-- **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 370 solved tickets)
+- **Median AHT**: 137.1h · mean 156.7h (proxy: updated_at − created_at, 372 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -80,7 +80,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8599](https://tbpro.zendesk.com/agent/tickets/8599) · [solved] · 2026-09-11 · _Subscription cancellation_
   - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [solved] · 2026-09-12 · _cancel trial _
   - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [solved] · 2026-09-14 · _Forgot Thunderbird Email ID_
-  - [#8698](https://tbpro.zendesk.com/agent/tickets/8698) · [pending] · 2026-09-15 · _Refund_
+  - [#8698](https://tbpro.zendesk.com/agent/tickets/8698) · [solved] · 2026-09-15 · _Refund_
   - [#8734](https://tbpro.zendesk.com/agent/tickets/8734) · [pending] · 2026-09-16 · _Refund Request for Thundermail _
   - [#8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16 · _Cancel + Refund_
   - [#8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18 · _Refund_
@@ -174,8 +174,8 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 370
-- **pending**: 36
+- **solved**: 372
+- **pending**: 34
 - **closed**: 30
 - **open**: 13
 - **new**: 8
