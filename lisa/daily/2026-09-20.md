@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-20
 
-_Updated: **2026-09-20 01:21 ET** · refreshes hourly_  
+_Updated: **2026-09-20 02:33 ET** · refreshes hourly_  
 _24h window: 2026-09-19T16:00 → 2026-09-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 42** of rollout — **35,000 invitees**, **457 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **2** solved in last 24h
+- **2** new tickets in last 24h · **3** solved in last 24h
 - **457** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
-- **Median AHT**: 137.4h · mean 156.9h (proxy: updated_at − created_at, 367 solved tickets)
+- **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -164,10 +164,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 367
-- **pending**: 41
+- **solved**: 368
+- **pending**: 39
 - **closed**: 30
-- **open**: 10
+- **open**: 11
 - **hold**: 6
 - **new**: 3
 
@@ -244,6 +244,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [8540](https://tbpro.zendesk.com/agent/tickets/8540) · 2026-09-19T20:02 · Thunderbird email
 - · [8835](https://tbpro.zendesk.com/agent/tickets/8835) · 2026-09-19T22:01 · confusion about confirmation email
+- · [8673](https://tbpro.zendesk.com/agent/tickets/8673) · 2026-09-20T06:01 · forwrd this on
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
