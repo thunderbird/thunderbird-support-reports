@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-09-19
+# Thundermail — Flight 8 Live Report · 2026-09-20
 
-_Updated: **2026-09-19 23:26 ET** · refreshes hourly_  
-_24h window: 2026-09-18T16:00 → 2026-09-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-20 00:25 ET** · refreshes hourly_  
+_24h window: 2026-09-19T16:00 → 2026-09-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 41** of rollout — **35,000 invitees**, **457 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 42** of rollout — **35,000 invitees**, **457 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **11** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **457** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 57
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
 - **Median AHT**: 137.4h · mean 156.9h (proxy: updated_at − created_at, 367 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
@@ -151,16 +151,16 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [8853](https://tbpro.zendesk.com/agent/tickets/8853) · [new] · _Refund please?_
-  > Hello! I want to cancel my account and want a refund please. Best Alexander.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Make use of bulwark](https://ideas.tb.pro/p/make-use-of-bulwark) · 1 votes · _untagged_
+  > What you’d like to seeServing bulwark as an alternative web client to the thundermail webmail until it gets fully featured.Why it mattersBulwark (https://bulwarkmail.org/) seems to be a nice webmail…
 
 ## Status breakdown (cumulative)
 
@@ -225,34 +225,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 1 tickets
+### Aliases — 1 tickets
 
-- **[#8852](https://tbpro.zendesk.com/agent/tickets/8852)** · Light mode toggle doesn’t remember state in message preview
-  > Hi there, I’d like to report a bug I’m experiencing with the webmail app: https://[domain]/ This is the scenario: I have dark mode enabled for the web app, I’m on a message, I…
+- **[#8854](https://tbpro.zendesk.com/agent/tickets/8854)** · Mail aliases not updating in the webmail
+  > After creating some mail aliases on https://[domain]/mail then removing some of them and creating new ones, i notice that the webmail hasn’t updated and still only lists the old…
 
-### Spam / Junk Filtering — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#8845](https://tbpro.zendesk.com/agent/tickets/8845)** · tm2 issue noted for outgoing email delivery
-  > Can you review these XML reports from email deliveries reaching spam regarding tm2 mismatches and advise? Also the Hotmail to Gmail mismatch is known email forwarding on my part.…
+- **[#8853](https://tbpro.zendesk.com/agent/tickets/8853)** · Refund please?
+  > Hello! I want to cancel my account and want a refund please. Best Alexander.
 
 ## New tickets — last 24h
 
-- [8845](https://tbpro.zendesk.com/agent/tickets/8845) · [open] · 2026-09-19T12:19 · tm2 issue noted for outgoing email delivery
-- [8852](https://tbpro.zendesk.com/agent/tickets/8852) · [new] · 2026-09-19T16:36 · Light mode toggle doesn’t remember state in message preview
+- [8853](https://tbpro.zendesk.com/agent/tickets/8853) · [new] · 2026-09-19T21:55 · Refund please?
+- [8854](https://tbpro.zendesk.com/agent/tickets/8854) · [new] · 2026-09-20T01:30 · Mail aliases not updating in the webmail
 
 ## Solved — last 24h
 
-- · [8665](https://tbpro.zendesk.com/agent/tickets/8665) · 2026-09-19T14:01 · Change Email address
-- · [8607](https://tbpro.zendesk.com/agent/tickets/8607) · 2026-09-19T14:01 · je me souvien plus du mots de passe principal
-- · [8745](https://tbpro.zendesk.com/agent/tickets/8745) · 2026-09-19T15:46 · Not Recieving Emails from Google
-- · [8675](https://tbpro.zendesk.com/agent/tickets/8675) · 2026-09-19T16:01 · Cannot Login to Desktop App
-- · [8619](https://tbpro.zendesk.com/agent/tickets/8619) · 2026-09-19T16:01 · Account Creation
-- · [8649](https://tbpro.zendesk.com/agent/tickets/8649) · 2026-09-19T18:02 · Add my account
-- · [8445](https://tbpro.zendesk.com/agent/tickets/8445) · 2026-09-19T18:02 · Re: [Thundermail] Re: Set up [domain] Appointment calendar on TB desktop client
-- · [8683](https://tbpro.zendesk.com/agent/tickets/8683) · 2026-09-19T19:01 · sign up/in issue
-- · [8681](https://tbpro.zendesk.com/agent/tickets/8681) · 2026-09-19T19:02 · Does a deleted mail get assigned to another user
-- · [8679](https://tbpro.zendesk.com/agent/tickets/8679) · 2026-09-19T19:02 · Support for session Managment
-- · [8659](https://tbpro.zendesk.com/agent/tickets/8659) · 2026-09-19T19:02 · I beleive my account was erroneously flagged.
+- · [8540](https://tbpro.zendesk.com/agent/tickets/8540) · 2026-09-19T20:02 · Thunderbird email
+- · [8835](https://tbpro.zendesk.com/agent/tickets/8835) · 2026-09-19T22:01 · confusion about confirmation email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
