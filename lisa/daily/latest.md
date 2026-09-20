@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-20
 
-_Updated: **2026-09-20 10:19 ET** · refreshes hourly_  
+_Updated: **2026-09-20 11:19 ET** · refreshes hourly_  
 _24h window: 2026-09-19T16:00 → 2026-09-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,9 +11,9 @@ Flight 8 is **day 42** of rollout — **35,000 invitees**, **461 tickets** so fa
 
 - **6** new tickets in last 24h · **4** solved in last 24h
 - **461** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 58
 - **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -165,9 +165,11 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
-- [Make use of bulwark](https://ideas.tb.pro/p/make-use-of-bulwark) · 1 votes · _untagged_
+- [Auto-populate Appointments from Thundermail calendars](https://ideas.tb.pro/p/auto-populate-appointments-from-thundermail-calendars) · 1 votes · _untagged_
+  > What you’d like to seeAs it stands, you can add multiple calendars to Thundermail through external services like DAVx5. This will soon be doable in the Webmail. Appointment supports adding multiple…
+- [Make use of bulwark](https://ideas.tb.pro/p/make-use-of-bulwark) · 1 votes · _Webmail_
   > What you’d like to seeServing bulwark as an alternative web client to the thundermail webmail until it gets fully featured.Why it mattersBulwark (https://bulwarkmail.org/) seems to be a nice webmail…
 
 ## Status breakdown (cumulative)
@@ -181,8 +183,8 @@ Regards, [name]_
 
 ## Service (cumulative)
 
-- **Account Hub**: 260
-- **Thundermail**: 164
+- **Account Hub**: 261
+- **Thundermail**: 163
 - **Send**: 9
 - **Appointment**: 8
 
@@ -194,18 +196,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 65
 - **blocked** + **investigated**: 24
+- **concerned** + **explained**: 21
 - **request** + **redirected**: 20
-- **concerned** + **explained**: 20
 - **confused** + **explained**: 19
 - **curious** + **informed**: 18
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 10
-- **blocked** + **informed**: 7
+- **blocked** + **informed**: 8
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
+- **curious** + **actioned**: 5
 - **confused** + **investigated**: 5
-- **curious** + **actioned**: 4
 - **change request** + **explained**: 4
 - **request** + **explained**: 3
 - **change request** + **escalated**: 3
@@ -235,7 +237,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#8864](https://tbpro.zendesk.com/agent/tickets/8864)** · Cancellation and refund
+- **[#8864](https://tbpro.zendesk.com/agent/tickets/8864)** · Cancellation and refund — why: **curious** · how: **actioned**
   > I would like to cancel my subscription and refund the amount please
 - **[#8853](https://tbpro.zendesk.com/agent/tickets/8853)** · Refund please?
   > Hello! I want to cancel my account and want a refund please. Best Alexander.
@@ -245,14 +247,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8866](https://tbpro.zendesk.com/agent/tickets/8866)** · Delete Account
   > Please delete account
 
-### Account access issues — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#8860](https://tbpro.zendesk.com/agent/tickets/8860)** · Can't access thundermail anymore. 
+- **[#8860](https://tbpro.zendesk.com/agent/tickets/8860)** · Can't access thundermail anymore.  — why: **concerned** · how: **explained**
   > I can't access my account anymore. I'm pretty sure it's my fault, I got the early bird invite but was procrastinating on paying for the plan, partially because it's very expensive…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#8859](https://tbpro.zendesk.com/agent/tickets/8859)** · missing custom domain send
+- **[#8859](https://tbpro.zendesk.com/agent/tickets/8859)** · missing custom domain send — why: **blocked** · how: **informed**
   > Hello! :) i can receive from my custom domain. but i cannot write in the name of my custom domain in Thundermail. Why? What is the feature ETA for this? If anyone pays for “3…
 
 ### Aliases — 1 tickets
