@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-20
 
-_Updated: **2026-09-20 06:20 ET** · refreshes hourly_  
+_Updated: **2026-09-20 07:18 ET** · refreshes hourly_  
 _24h window: 2026-09-19T16:00 → 2026-09-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 42** of rollout — **35,000 invitees**, **457 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 42** of rollout — **35,000 invitees**, **459 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **3** solved in last 24h
-- **457** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **459** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 57
 - **Median AHT**: 137.4h · mean 156.8h (proxy: updated_at − created_at, 368 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"send receive"** — 2 tickets in 24h (13.7× baseline; baseline 6 cum) — [#8859](https://tbpro.zendesk.com/agent/tickets/8859), [#8860](https://tbpro.zendesk.com/agent/tickets/8860)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -169,12 +175,12 @@ _(none in last 24h)_
 - **closed**: 30
 - **open**: 11
 - **hold**: 6
-- **new**: 3
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 259
-- **Thundermail**: 162
+- **Thundermail**: 164
 - **Send**: 9
 - **Appointment**: 8
 
@@ -225,6 +231,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#8860](https://tbpro.zendesk.com/agent/tickets/8860)** · Can't access thundermail anymore. 
+  > I can't access my account anymore. I'm pretty sure it's my fault, I got the early bird invite but was procrastinating on paying for the plan, partially because it's very expensive…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#8859](https://tbpro.zendesk.com/agent/tickets/8859)** · missing custom domain send
+  > Hello! :) i can receive from my custom domain. but i cannot write in the name of my custom domain in Thundermail. Why? What is the feature ETA for this? If anyone pays for “3…
+
 ### Aliases — 1 tickets
 
 - **[#8854](https://tbpro.zendesk.com/agent/tickets/8854)** · Mail aliases not updating in the webmail
@@ -239,6 +255,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8853](https://tbpro.zendesk.com/agent/tickets/8853) · [new] · 2026-09-19T21:55 · Refund please?
 - [8854](https://tbpro.zendesk.com/agent/tickets/8854) · [new] · 2026-09-20T01:30 · Mail aliases not updating in the webmail
+- [8859](https://tbpro.zendesk.com/agent/tickets/8859) · [new] · 2026-09-20T10:47 · missing custom domain send
+- [8860](https://tbpro.zendesk.com/agent/tickets/8860) · [new] · 2026-09-20T10:58 · Can't access thundermail anymore. 
 
 ## Solved — last 24h
 
