@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 18:21 ET** · refreshes hourly_  
+_Updated: **2026-09-21 19:20 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -166,10 +166,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 372
-- **pending**: 50
+- **pending**: 51
 - **closed**: 41
 - **hold**: 5
-- **open**: 4
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -182,14 +182,14 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 112
+- **curious** + **explained**: 113
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 22
 - **confused** + **explained**: 21
 - **concerned** + **explained**: 21
-- **curious** + **informed**: 18
+- **curious** + **informed**: 19
 - **confused** + **informed**: 15
 - **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 11
@@ -228,13 +228,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
-
-- **[#8904](https://tbpro.zendesk.com/agent/tickets/8904)** · [domain] email
-  > hi i wanted to register for the @[domain] email but wasn’t given the option at any stage, how to do it? thank you
-- **[#8899](https://tbpro.zendesk.com/agent/tickets/8899)** · burgers — why: **confused** · how: **informed**
-  > i tried to order burger through tunder mail itdont work
-
 ### Spam / Junk Filtering — 2 tickets
 
 - **[#8896](https://tbpro.zendesk.com/agent/tickets/8896)** · RBL checks hindered by open resolver — why: **confused** · how: **escalated**
@@ -242,15 +235,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO — why: **concerned** · how: **explained**
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#8912](https://tbpro.zendesk.com/agent/tickets/8912)** · Payment for the Mailaccount
+- **[#8912](https://tbpro.zendesk.com/agent/tickets/8912)** · Payment for the Mailaccount — why: **curious** · how: **explained**
   > Hello, I would like to set up an account—or rather, I have already done so. However, I can only transfer the fee on the first of next month. Will the account remain active until…
+
+### Aliases — 1 tickets
+
+- **[#8904](https://tbpro.zendesk.com/agent/tickets/8904)** · [domain] email — why: **curious** · how: **informed**
+  > hi i wanted to register for the @[domain] email but wasn’t given the option at any stage, how to do it? thank you
 
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly — why: **curious** · how: **explained**
   > Is there an option to pay monthly?
+
+### Other / uncategorized — 1 tickets
+
+- **[#8899](https://tbpro.zendesk.com/agent/tickets/8899)** · burgers — why: **confused** · how: **informed**
+  > i tried to order burger through tunder mail itdont work
 
 ### Webmail — 1 tickets
 
@@ -276,8 +279,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [solved] · 2026-09-21T13:01 · You cannot use this email it says?
 - [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [pending] · 2026-09-21T13:28 · burgers
 - [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [pending] · 2026-09-21T15:21 · Pay monthly
-- [8904](https://tbpro.zendesk.com/agent/tickets/8904) · [open] · 2026-09-21T16:38 · [domain] email
-- [8912](https://tbpro.zendesk.com/agent/tickets/8912) · [open] · 2026-09-21T19:55 · Payment for the Mailaccount
+- [8904](https://tbpro.zendesk.com/agent/tickets/8904) · [pending] · 2026-09-21T16:38 · [domain] email
+- [8912](https://tbpro.zendesk.com/agent/tickets/8912) · [pending] · 2026-09-21T19:55 · Payment for the Mailaccount
 
 ## Solved — last 24h
 
