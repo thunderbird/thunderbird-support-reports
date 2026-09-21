@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 16:22 ET** · refreshes hourly_  
+_Updated: **2026-09-21 17:20 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **472 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.4h · mean 157.9h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 136.5h · mean 159.3h (proxy: updated_at − created_at, 371 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -38,7 +38,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **472 tickets** so fa
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
-  - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [open] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
+  - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [solved] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
@@ -165,16 +165,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 368
-- **pending**: 50
+- **solved**: 371
+- **pending**: 51
 - **closed**: 38
-- **open**: 12
+- **open**: 8
 - **hold**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 264
-- **Thundermail**: 170
+- **Thundermail**: 169
 - **Send**: 9
 - **Appointment**: 8
 
@@ -186,19 +186,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
+- **request** + **redirected**: 22
 - **confused** + **explained**: 21
-- **request** + **redirected**: 21
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 18
-- **confused** + **informed**: 16
+- **confused** + **informed**: 17
 - **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 10
 - **blocked** + **informed**: 7
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
-- **confused** + **investigated**: 5
 - **curious** + **actioned**: 4
 - **change request** + **explained**: 4
+- **confused** + **investigated**: 4
 - **request** + **explained**: 3
 - **change request** + **escalated**: 3
 - **other** + **n/a**: 2
@@ -216,6 +216,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **escalated**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
+- **request** + **informed**: 1
 - **other** + **escalated**: 1
 - **curious** + **investigated**: 1
 - **curious** + **—**: 1
@@ -248,18 +249,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 1 tickets
 
-- **[#8898](https://tbpro.zendesk.com/agent/tickets/8898)** · You cannot use this email it says?
+- **[#8898](https://tbpro.zendesk.com/agent/tickets/8898)** · You cannot use this email it says? — why: **confused** · how: **informed**
   > Hello! I tried to add a alias. I know no one has that. I tought i had it, it was in my account the other day. at [domain] now its gone, need help. But when i try to add it its…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV — why: **confused** · how: **explained**
-  > Hi, I’m connecting to my ThunderMail calendar using CalDAV. Authentication works, but the server returns malformed XML. When logging in, CalenGoo (the android app I'm using)…
 
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly — why: **curious** · how: **explained**
   > Is there an option to pay monthly?
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV — why: **confused** · how: **explained**
+  > Hi, I’m connecting to my ThunderMail calendar using CalDAV. Authentication works, but the server returns malformed XML. When logging in, CalenGoo (the android app I'm using)…
 
 ### App setup / configuration — 1 tickets
 
@@ -269,7 +270,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [pending] · 2026-09-20T21:44 · address books
-- [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [open] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
+- [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [pending] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
 - [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [pending] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
 - [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [pending] · 2026-09-21T12:05 · RBL checks hindered by open resolver
 - [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [open] · 2026-09-21T13:01 · You cannot use this email it says?
