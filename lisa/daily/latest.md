@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 13:19 ET** · refreshes hourly_  
+_Updated: **2026-09-21 14:27 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so fa
 
 ## At a glance
 
-- **8** new tickets in last 24h · **7** solved in last 24h
+- **8** new tickets in last 24h · **8** solved in last 24h
 - **470** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (24h)**: 75%  (3 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.5h · mean 157.8h (proxy: updated_at − created_at, 371 solved tickets)
+- **Median AHT**: 136.6h · mean 157.9h (proxy: updated_at − created_at, 370 solved tickets)
 
-## Known problems — 6 problem(s), 55 incident(s)
+## Known problems — 6 problem(s), 56 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -28,7 +28,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 49 incident(s):
+- 50 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -78,6 +78,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so fa
   - [#8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16 · _Cancel + Refund_
   - [#8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18 · _Refund_
   - [#8864](https://tbpro.zendesk.com/agent/tickets/8864) · [pending] · 2026-09-20 · _Cancellation and refund_
+  - [#8866](https://tbpro.zendesk.com/agent/tickets/8866) · [pending] · 2026-09-20 · _Delete Account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -164,15 +165,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 371
-- **pending**: 36
-- **closed**: 35
-- **open**: 23
-- **hold**: 5
+- **solved**: 370
+- **pending**: 40
+- **closed**: 36
+- **open**: 20
+- **hold**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 262
+- **Account Hub**: 263
 - **Thundermail**: 169
 - **Send**: 10
 - **Appointment**: 8
@@ -181,9 +182,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 109
+- **curious** + **explained**: 110
 - **blocked** + **explained**: 75
-- **change request** + **actioned**: 66
+- **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 21
 - **concerned** + **explained**: 21
@@ -240,11 +241,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly
-  > Is there an option to pay monthly?
-
 ### Webmail — 1 tickets
 
 - **[#8898](https://tbpro.zendesk.com/agent/tickets/8898)** · You cannot use this email it says?
@@ -255,6 +251,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV
   > Hi, I’m connecting to my ThunderMail calendar using CalDAV. Authentication works, but the server returns malformed XML. When logging in, CalenGoo (the android app I'm using)…
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly — why: **curious** · how: **explained**
+  > Is there an option to pay monthly?
+
 ### App setup / configuration — 1 tickets
 
 - **[#8880](https://tbpro.zendesk.com/agent/tickets/8880)** · address books — why: **request**
@@ -262,13 +263,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [open] · 2026-09-20T21:44 · address books
+- [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [pending] · 2026-09-20T21:44 · address books
 - [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [open] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
 - [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [open] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
 - [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [open] · 2026-09-21T12:05 · RBL checks hindered by open resolver
 - [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [open] · 2026-09-21T13:01 · You cannot use this email it says?
 - [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [pending] · 2026-09-21T13:28 · burgers
-- [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [open] · 2026-09-21T15:21 · Pay monthly
+- [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [pending] · 2026-09-21T15:21 · Pay monthly
 - [8904](https://tbpro.zendesk.com/agent/tickets/8904) · [open] · 2026-09-21T16:38 · [domain] email
 
 ## Solved — last 24h
@@ -280,6 +281,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-21T14:53 · Changed Password, Doesn’t Recognize Address
 - · [8734](https://tbpro.zendesk.com/agent/tickets/8734) · 2026-09-21T15:02 · Refund Request for Thundermail 
 - · [8779](https://tbpro.zendesk.com/agent/tickets/8779) · 2026-09-21T15:54 · Cancellation Request and refunds
+- · [8720](https://tbpro.zendesk.com/agent/tickets/8720) · 2026-09-21T18:02 · Enough is enough.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
