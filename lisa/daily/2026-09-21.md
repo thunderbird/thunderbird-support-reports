@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 11:21 ET** · refreshes hourly_  
+_Updated: **2026-09-21 12:25 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **468 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 43** of rollout — **35,000 invitees**, **469 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
-- **468** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **7** solved in last 24h
+- **469** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.7h · mean 157.9h (proxy: updated_at − created_at, 371 solved tickets)
+- **Median AHT**: 136.6h · mean 157.8h (proxy: updated_at − created_at, 372 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -163,16 +163,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 371
+- **solved**: 372
 - **closed**: 34
-- **pending**: 29
-- **open**: 19
-- **new**: 11
+- **pending**: 32
+- **open**: 22
+- **new**: 5
 - **hold**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 262
+- **Account Hub**: 263
 - **Thundermail**: 168
 - **Send**: 10
 - **Appointment**: 8
@@ -185,9 +185,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
+- **request** + **redirected**: 21
 - **concerned** + **explained**: 21
-- **request** + **redirected**: 20
-- **confused** + **explained**: 19
+- **confused** + **explained**: 20
 - **curious** + **informed**: 18
 - **confused** + **informed**: 13
 - **blocked** + **redirected**: 12
@@ -204,7 +204,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
-- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **blocked** + **—**: 2
 - **telling us** + **—**: 2
@@ -216,6 +215,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **escalated**: 1
 - **request** + **—**: 1
 - **other** + **escalated**: 1
+- **curious** + **investigated**: 1
 - **curious** + **—**: 1
 - **concerned** + **actioned**: 1
 - **other** + **—**: 1
@@ -231,6 +231,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I'm getting some spam marked as ham. Some items of note in the report headers: RBL_SENDERSCORE_REPUT_BLOCKED (0.00), RBL_SPAMHAUS_BLOCKED_OPENRESOLVER (0.00),…
 - **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly
+  > Is there an option to pay monthly?
 
 ### Other / uncategorized — 1 tickets
 
@@ -255,11 +260,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [open] · 2026-09-20T21:44 · address books
-- [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [new] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
+- [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [open] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
 - [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [new] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
 - [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [new] · 2026-09-21T12:05 · RBL checks hindered by open resolver
 - [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [new] · 2026-09-21T13:01 · You cannot use this email it says?
 - [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [new] · 2026-09-21T13:28 · burgers
+- [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [new] · 2026-09-21T15:21 · Pay monthly
 
 ## Solved — last 24h
 
@@ -269,6 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-21T14:07 · Unable to Send From Custom Domain in Thundermail Webmail
 - 👍 [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-21T14:53 · Changed Password, Doesn’t Recognize Address
 - · [8734](https://tbpro.zendesk.com/agent/tickets/8734) · 2026-09-21T15:02 · Refund Request for Thundermail 
+- · [8779](https://tbpro.zendesk.com/agent/tickets/8779) · 2026-09-21T15:54 · Cancellation Request and refunds
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
