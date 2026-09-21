@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 08:31 ET** · refreshes hourly_  
+_Updated: **2026-09-21 09:23 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **466 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 43** of rollout — **35,000 invitees**, **467 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **466** tickets total since launch · contact rate **1%** of 35000 invitees
+- **5** new tickets in last 24h · **3** solved in last 24h
+- **467** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
@@ -165,15 +165,15 @@ _(none in last 24h)_
 
 - **solved**: 368
 - **closed**: 34
-- **pending**: 30
-- **open**: 20
-- **new**: 9
+- **pending**: 28
+- **open**: 22
+- **new**: 10
 - **hold**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 262
-- **Thundermail**: 166
+- **Thundermail**: 167
 - **Send**: 10
 - **Appointment**: 8
 
@@ -232,6 +232,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
 
+### Webmail — 1 tickets
+
+- **[#8898](https://tbpro.zendesk.com/agent/tickets/8898)** · You cannot use this email it says?
+  > Hello! I tried to add a alias. I know no one has that. I tought i had it, it was in my account the other day. at [domain] now its gone, need help. But when i try to add it its…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV
@@ -248,6 +253,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [new] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
 - [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [new] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
 - [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [new] · 2026-09-21T12:05 · RBL checks hindered by open resolver
+- [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [new] · 2026-09-21T13:01 · You cannot use this email it says?
 
 ## Solved — last 24h
 
