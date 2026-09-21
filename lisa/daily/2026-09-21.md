@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 10:25 ET** · refreshes hourly_  
+_Updated: **2026-09-21 11:21 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **468 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
+- **6** new tickets in last 24h · **6** solved in last 24h
 - **468** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.9h · mean 158.2h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 136.7h · mean 157.9h (proxy: updated_at − created_at, 371 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -74,7 +74,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **468 tickets** so fa
   - [#8633](https://tbpro.zendesk.com/agent/tickets/8633) · [solved] · 2026-09-12 · _cancel trial _
   - [#8676](https://tbpro.zendesk.com/agent/tickets/8676) · [solved] · 2026-09-14 · _Forgot Thunderbird Email ID_
   - [#8698](https://tbpro.zendesk.com/agent/tickets/8698) · [solved] · 2026-09-15 · _Refund_
-  - [#8734](https://tbpro.zendesk.com/agent/tickets/8734) · [pending] · 2026-09-16 · _Refund Request for Thundermail _
+  - [#8734](https://tbpro.zendesk.com/agent/tickets/8734) · [solved] · 2026-09-16 · _Refund Request for Thundermail _
   - [#8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16 · _Cancel + Refund_
   - [#8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18 · _Refund_
 
@@ -163,10 +163,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
+- **solved**: 371
 - **closed**: 34
-- **pending**: 30
-- **open**: 20
+- **pending**: 29
+- **open**: 19
 - **new**: 11
 - **hold**: 4
 
@@ -267,6 +267,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8698](https://tbpro.zendesk.com/agent/tickets/8698) · 2026-09-20T20:01 · Refund
 - · [8709](https://tbpro.zendesk.com/agent/tickets/8709) · 2026-09-20T21:01 · Regarding Gmail forward
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-21T14:07 · Unable to Send From Custom Domain in Thundermail Webmail
+- 👍 [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-21T14:53 · Changed Password, Doesn’t Recognize Address
+- · [8734](https://tbpro.zendesk.com/agent/tickets/8734) · 2026-09-21T15:02 · Refund Request for Thundermail 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
