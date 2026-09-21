@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 12:25 ET** · refreshes hourly_  
+_Updated: **2026-09-21 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **469 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **7** solved in last 24h
-- **469** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **8** new tickets in last 24h · **7** solved in last 24h
+- **470** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.6h · mean 157.8h (proxy: updated_at − created_at, 372 solved tickets)
+- **Median AHT**: 136.5h · mean 157.8h (proxy: updated_at − created_at, 371 solved tickets)
 
-## Known problems — 6 problem(s), 54 incident(s)
+## Known problems — 6 problem(s), 55 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
-  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [open] · 2026-09-02 · _Cant get verification link_
+  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [pending] · 2026-09-02 · _Cant get verification link_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -28,7 +28,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **469 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 48 incident(s):
+- 49 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -38,7 +38,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **469 tickets** so fa
   - [#7843](https://tbpro.zendesk.com/agent/tickets/7843) · [solved] · 2026-08-21 · _Refund request_
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [solved] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [solved] · 2026-08-24 · _What is my use name?_
-  - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [pending] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
+  - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [open] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
@@ -77,6 +77,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **469 tickets** so fa
   - [#8734](https://tbpro.zendesk.com/agent/tickets/8734) · [solved] · 2026-09-16 · _Refund Request for Thundermail _
   - [#8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16 · _Cancel + Refund_
   - [#8825](https://tbpro.zendesk.com/agent/tickets/8825) · [pending] · 2026-09-18 · _Refund_
+  - [#8864](https://tbpro.zendesk.com/agent/tickets/8864) · [pending] · 2026-09-20 · _Cancellation and refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -163,17 +164,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 372
-- **closed**: 34
-- **pending**: 32
-- **open**: 22
-- **new**: 5
-- **hold**: 4
+- **solved**: 371
+- **pending**: 36
+- **closed**: 35
+- **open**: 23
+- **hold**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 263
-- **Thundermail**: 168
+- **Account Hub**: 262
+- **Thundermail**: 169
 - **Send**: 10
 - **Appointment**: 8
 
@@ -181,15 +181,15 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 108
+- **curious** + **explained**: 109
 - **blocked** + **explained**: 75
-- **change request** + **actioned**: 67
+- **change request** + **actioned**: 66
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 21
 - **concerned** + **explained**: 21
 - **confused** + **explained**: 20
 - **curious** + **informed**: 18
-- **confused** + **informed**: 13
+- **confused** + **informed**: 14
 - **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 10
 - **blocked** + **informed**: 8
@@ -214,6 +214,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 - **request** + **—**: 1
+- **other** + **actioned**: 1
 - **other** + **escalated**: 1
 - **curious** + **investigated**: 1
 - **curious** + **—**: 1
@@ -224,6 +225,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 1
 
 ## Tickets in last 24h — by theme
+
+### Other / uncategorized — 2 tickets
+
+- **[#8904](https://tbpro.zendesk.com/agent/tickets/8904)** · [domain] email
+  > hi i wanted to register for the @[domain] email but wasn’t given the option at any stage, how to do it? thank you
+- **[#8899](https://tbpro.zendesk.com/agent/tickets/8899)** · burgers — why: **confused** · how: **informed**
+  > i tried to order burger through tunder mail itdont work
 
 ### Spam / Junk Filtering — 2 tickets
 
@@ -236,11 +244,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly
   > Is there an option to pay monthly?
-
-### Other / uncategorized — 1 tickets
-
-- **[#8899](https://tbpro.zendesk.com/agent/tickets/8899)** · burgers
-  > i tried to order burger through tunder mail itdont work
 
 ### Webmail — 1 tickets
 
@@ -261,11 +264,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [open] · 2026-09-20T21:44 · address books
 - [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [open] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
-- [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [new] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
-- [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [new] · 2026-09-21T12:05 · RBL checks hindered by open resolver
-- [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [new] · 2026-09-21T13:01 · You cannot use this email it says?
-- [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [new] · 2026-09-21T13:28 · burgers
-- [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [new] · 2026-09-21T15:21 · Pay monthly
+- [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [open] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
+- [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [open] · 2026-09-21T12:05 · RBL checks hindered by open resolver
+- [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [open] · 2026-09-21T13:01 · You cannot use this email it says?
+- [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [pending] · 2026-09-21T13:28 · burgers
+- [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [open] · 2026-09-21T15:21 · Pay monthly
+- [8904](https://tbpro.zendesk.com/agent/tickets/8904) · [open] · 2026-09-21T16:38 · [domain] email
 
 ## Solved — last 24h
 
