@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 14:27 ET** · refreshes hourly_  
+_Updated: **2026-09-21 15:19 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so fa
 - **CSAT (24h)**: 75%  (3 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.6h · mean 157.9h (proxy: updated_at − created_at, 370 solved tickets)
+- **Median AHT**: 136.5h · mean 157.9h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -165,10 +165,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 370
-- **pending**: 40
-- **closed**: 36
-- **open**: 20
+- **solved**: 369
+- **pending**: 41
+- **closed**: 37
+- **open**: 19
 - **hold**: 4
 
 ## Service (cumulative)
@@ -186,11 +186,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
+- **confused** + **explained**: 21
 - **request** + **redirected**: 21
 - **concerned** + **explained**: 21
-- **confused** + **explained**: 20
 - **curious** + **informed**: 18
-- **confused** + **informed**: 14
+- **confused** + **informed**: 15
 - **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 10
 - **blocked** + **informed**: 8
@@ -248,7 +248,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV
+- **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV — why: **confused** · how: **explained**
   > Hi, I’m connecting to my ThunderMail calendar using CalDAV. Authentication works, but the server returns malformed XML. When logging in, CalenGoo (the android app I'm using)…
 
 ### Pricing — general pricing concern — 1 tickets
