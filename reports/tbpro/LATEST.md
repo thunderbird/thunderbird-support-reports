@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 02:47 ET** · refreshes hourly_  
+_Updated: **2026-09-21 03:34 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **464 tickets** so fa
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.9h · mean 156.8h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 136.8h · mean 156.4h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
-  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
+  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [open] · 2026-09-02 · _Cant get verification link_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -163,10 +163,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
+- **solved**: 368
 - **closed**: 34
 - **pending**: 31
-- **open**: 18
+- **open**: 19
 - **new**: 7
 - **hold**: 5
 
