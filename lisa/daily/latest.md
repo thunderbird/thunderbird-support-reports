@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 09:23 ET** · refreshes hourly_  
+_Updated: **2026-09-21 10:25 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **467 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 43** of rollout — **35,000 invitees**, **468 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **3** solved in last 24h
-- **467** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **468** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.8h · mean 156.4h (proxy: updated_at − created_at, 368 solved tickets)
+- **Median AHT**: 136.9h · mean 158.2h (proxy: updated_at − created_at, 369 solved tickets)
 
 ## Known problems — 6 problem(s), 54 incident(s)
 
@@ -25,7 +25,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **467 tickets** so fa
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
-  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [open] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
+  - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
 - 48 incident(s):
@@ -90,7 +90,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **467 tickets** so fa
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -163,17 +163,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 368
+- **solved**: 369
 - **closed**: 34
-- **pending**: 28
-- **open**: 22
-- **new**: 10
-- **hold**: 5
+- **pending**: 30
+- **open**: 20
+- **new**: 11
+- **hold**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 262
-- **Thundermail**: 167
+- **Thundermail**: 168
 - **Send**: 10
 - **Appointment**: 8
 
@@ -232,6 +232,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
 
+### Other / uncategorized — 1 tickets
+
+- **[#8899](https://tbpro.zendesk.com/agent/tickets/8899)** · burgers
+  > i tried to order burger through tunder mail itdont work
+
 ### Webmail — 1 tickets
 
 - **[#8898](https://tbpro.zendesk.com/agent/tickets/8898)** · You cannot use this email it says?
@@ -254,12 +259,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [new] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
 - [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [new] · 2026-09-21T12:05 · RBL checks hindered by open resolver
 - [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [new] · 2026-09-21T13:01 · You cannot use this email it says?
+- [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [new] · 2026-09-21T13:28 · burgers
 
 ## Solved — last 24h
 
 - · [8707](https://tbpro.zendesk.com/agent/tickets/8707) · 2026-09-20T20:01 · Blocked email
 - · [8698](https://tbpro.zendesk.com/agent/tickets/8698) · 2026-09-20T20:01 · Refund
 - · [8709](https://tbpro.zendesk.com/agent/tickets/8709) · 2026-09-20T21:01 · Regarding Gmail forward
+- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-21T14:07 · Unable to Send From Custom Domain in Thundermail Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
