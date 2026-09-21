@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-21 08:31 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **465 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 43** of rollout — **35,000 invitees**, **466 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
-- **465** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **466** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
@@ -167,13 +167,13 @@ _(none in last 24h)_
 - **closed**: 34
 - **pending**: 30
 - **open**: 20
-- **new**: 8
+- **new**: 9
 - **hold**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 262
-- **Thundermail**: 165
+- **Thundermail**: 166
 - **Send**: 10
 - **Appointment**: 8
 
@@ -225,8 +225,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Spam / Junk Filtering — 1 tickets
+### Spam / Junk Filtering — 2 tickets
 
+- **[#8896](https://tbpro.zendesk.com/agent/tickets/8896)** · RBL checks hindered by open resolver
+  > I'm getting some spam marked as ham. Some items of note in the report headers: RBL_SENDERSCORE_REPUT_BLOCKED (0.00), RBL_SPAMHAUS_BLOCKED_OPENRESOLVER (0.00),…
 - **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
 
@@ -245,6 +247,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [open] · 2026-09-20T21:44 · address books
 - [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [new] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
 - [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [new] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
+- [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [new] · 2026-09-21T12:05 · RBL checks hindered by open resolver
 
 ## Solved — last 24h
 
