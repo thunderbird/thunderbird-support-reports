@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-21
 
-_Updated: **2026-09-21 15:19 ET** · refreshes hourly_  
+_Updated: **2026-09-21 16:22 ET** · refreshes hourly_  
 _24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 43** of rollout — **35,000 invitees**, **472 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **8** solved in last 24h
-- **470** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 75%  (3 good / 1 bad)
+- **9** new tickets in last 24h · **8** solved in last 24h
+- **472** tickets total since launch · contact rate **1%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
-- **Median AHT**: 136.5h · mean 157.9h (proxy: updated_at − created_at, 369 solved tickets)
+- **Median AHT**: 136.4h · mean 157.9h (proxy: updated_at − created_at, 368 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -87,7 +87,7 @@ Flight 8 is **day 43** of rollout — **35,000 invitees**, **470 tickets** so fa
 
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
-  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [open] · 2026-09-12 · _Failed to load subscription information_
+  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [pending] · 2026-09-12 · _Failed to load subscription information_
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
@@ -165,24 +165,24 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 369
-- **pending**: 41
-- **closed**: 37
-- **open**: 19
+- **solved**: 368
+- **pending**: 50
+- **closed**: 38
+- **open**: 12
 - **hold**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 263
-- **Thundermail**: 169
-- **Send**: 10
+- **Account Hub**: 264
+- **Thundermail**: 170
+- **Send**: 9
 - **Appointment**: 8
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 110
+- **curious** + **explained**: 112
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
@@ -190,10 +190,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 21
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 18
-- **confused** + **informed**: 15
+- **confused** + **informed**: 16
 - **blocked** + **redirected**: 12
 - **blocked** + **escalated**: 10
-- **blocked** + **informed**: 8
+- **blocked** + **informed**: 7
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
 - **confused** + **investigated**: 5
@@ -236,10 +236,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Spam / Junk Filtering — 2 tickets
 
-- **[#8896](https://tbpro.zendesk.com/agent/tickets/8896)** · RBL checks hindered by open resolver
+- **[#8896](https://tbpro.zendesk.com/agent/tickets/8896)** · RBL checks hindered by open resolver — why: **confused** · how: **informed**
   > I'm getting some spam marked as ham. Some items of note in the report headers: RBL_SENDERSCORE_REPUT_BLOCKED (0.00), RBL_SPAMHAUS_BLOCKED_OPENRESOLVER (0.00),…
-- **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO
+- **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO — why: **concerned** · how: **explained**
   > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#8912](https://tbpro.zendesk.com/agent/tickets/8912)** · Payment for the Mailaccount
+  > Hello, I would like to set up an account—or rather, I have already done so. However, I can only transfer the fee on the first of next month. Will the account remain active until…
 
 ### Webmail — 1 tickets
 
@@ -265,12 +270,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [pending] · 2026-09-20T21:44 · address books
 - [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [open] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
-- [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [open] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
-- [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [open] · 2026-09-21T12:05 · RBL checks hindered by open resolver
+- [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [pending] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
+- [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [pending] · 2026-09-21T12:05 · RBL checks hindered by open resolver
 - [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [open] · 2026-09-21T13:01 · You cannot use this email it says?
 - [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [pending] · 2026-09-21T13:28 · burgers
 - [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [pending] · 2026-09-21T15:21 · Pay monthly
 - [8904](https://tbpro.zendesk.com/agent/tickets/8904) · [open] · 2026-09-21T16:38 · [domain] email
+- [8912](https://tbpro.zendesk.com/agent/tickets/8912) · [open] · 2026-09-21T19:55 · Payment for the Mailaccount
 
 ## Solved — last 24h
 
