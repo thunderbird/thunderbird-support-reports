@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 10:24 ET** · refreshes hourly_  
+_Updated: **2026-09-22 11:31 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **473 tickets** so far (1.4% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **474 tickets** so far (1.4% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
-- **473** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **474** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 61
-- **Median AHT**: 136.3h · mean 158.8h (proxy: updated_at − created_at, 372 solved tickets)
+- **Median AHT**: 136.4h · mean 159.4h (proxy: updated_at − created_at, 374 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
-  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [open] · 2026-09-02 · _Cant get verification link_
+  - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [pending] · 2026-09-02 · _Cant get verification link_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -87,7 +87,7 @@ Flight 8 is **day 44** of rollout — **35,000 invitees**, **473 tickets** so fa
 
 ### [#8715](https://tbpro.zendesk.com/agent/tickets/8715) · [solved] · [private-issue-tracking/54] Unsubscribed users can access Thundermail via Thunderbird
 - 2 incident(s):
-  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [open] · 2026-09-12 · _Failed to load subscription information_
+  - [#8622](https://tbpro.zendesk.com/agent/tickets/8622) · [solved] · 2026-09-12 · _Failed to load subscription information_
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
@@ -170,15 +170,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 372
-- **pending**: 43
-- **closed**: 41
-- **open**: 12
+- **solved**: 374
+- **pending**: 44
+- **closed**: 42
+- **open**: 9
 - **hold**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 264
+- **Account Hub**: 265
 - **Thundermail**: 170
 - **Send**: 9
 - **Appointment**: 8
@@ -219,6 +219,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
+- **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **request** + **informed**: 1
@@ -233,26 +234,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#8936](https://tbpro.zendesk.com/agent/tickets/8936)** · Logging in to thunderbird mail!!!
+  > Answer's
 - **[#8935](https://tbpro.zendesk.com/agent/tickets/8935)** · Problems with checkout page
   > It seems im unable to pay thanks to the check out page suck on the Error code E-403.
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#8925](https://tbpro.zendesk.com/agent/tickets/8925)** · Please confirm whether my Thundermail waitlist signup was successful
-  > Hello [name], I submitted the Thundermail waitlist form on September 22, 2026, but the page redirected to a blank white screen instead of showing a confirmation message. The final…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
   > Thundermail Support, After encountering a problem during account setup, I filled the "Submit a request" form at https://[domain]/contact as instructed with the details below and…
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#8925](https://tbpro.zendesk.com/agent/tickets/8925)** · Please confirm whether my Thundermail waitlist signup was successful — why: **confused**
+  > Hello [name], I submitted the Thundermail waitlist form on September 22, 2026, but the page redirected to a blank white screen instead of showing a confirmation message. The final…
+
 ## New tickets — last 24h
 
 - [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
-- [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [open] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
+- [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [pending] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
 - [8935](https://tbpro.zendesk.com/agent/tickets/8935) · [open] · 2026-09-22T13:48 · Problems with checkout page
+- [8936](https://tbpro.zendesk.com/agent/tickets/8936) · [open] · 2026-09-22T14:54 · Logging in to thunderbird mail!!!
 
 ## Solved — last 24h
 
@@ -263,6 +267,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8758](https://tbpro.zendesk.com/agent/tickets/8758) · 2026-09-21T22:01 · I wanna Tage my Thunderbird 
 - · [8215](https://tbpro.zendesk.com/agent/tickets/8215) · 2026-09-21T22:01 · Monthly billing?
 - · [8786](https://tbpro.zendesk.com/agent/tickets/8786) · 2026-09-22T13:01 · I lost my invitation. Need it back.
+- · [8869](https://tbpro.zendesk.com/agent/tickets/8869) · 2026-09-22T14:48 · Thundermail Requests 
+- · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-22T14:49 · Failed to load subscription information
+- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-22T15:02 · Unable to Send From Custom Domain in Thundermail Webmail
+- · [8563](https://tbpro.zendesk.com/agent/tickets/8563) · 2026-09-22T15:02 · Kalender
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
