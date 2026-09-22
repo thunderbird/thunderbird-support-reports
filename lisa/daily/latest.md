@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 11:31 ET** · refreshes hourly_  
+_Updated: **2026-09-22 12:24 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 44** of rollout — **35,000 invitees**, **474 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
+- **4** new tickets in last 24h · **12** solved in last 24h
 - **474** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 61
-- **Median AHT**: 136.4h · mean 159.4h (proxy: updated_at − created_at, 374 solved tickets)
+- **Median AHT**: 136.4h · mean 159.5h (proxy: updated_at − created_at, 374 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -171,15 +171,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 374
-- **pending**: 44
+- **pending**: 45
 - **closed**: 42
-- **open**: 9
+- **open**: 8
 - **hold**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 265
-- **Thundermail**: 170
+- **Account Hub**: 267
+- **Thundermail**: 168
 - **Send**: 9
 - **Appointment**: 8
 
@@ -188,7 +188,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 113
-- **blocked** + **explained**: 74
+- **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 22
@@ -196,7 +196,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 19
 - **confused** + **informed**: 15
-- **blocked** + **redirected**: 12
+- **blocked** + **redirected**: 13
 - **blocked** + **escalated**: 11
 - **blocked** + **informed**: 7
 - **concerned** + **—**: 7
@@ -234,17 +234,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Pricing — payment issue — 1 tickets
 
-- **[#8936](https://tbpro.zendesk.com/agent/tickets/8936)** · Logging in to thunderbird mail!!!
-  > Answer's
-- **[#8935](https://tbpro.zendesk.com/agent/tickets/8935)** · Problems with checkout page
+- **[#8935](https://tbpro.zendesk.com/agent/tickets/8935)** · Problems with checkout page — why: **blocked** · how: **explained**
   > It seems im unable to pay thanks to the check out page suck on the Error code E-403.
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
   > Thundermail Support, After encountering a problem during account setup, I filled the "Submit a request" form at https://[domain]/contact as instructed with the details below and…
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#8936](https://tbpro.zendesk.com/agent/tickets/8936)** · Logging in to thunderbird mail!!! — why: **blocked** · how: **redirected**
+  > Answer's
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -256,7 +259,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
 - [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [pending] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
 - [8935](https://tbpro.zendesk.com/agent/tickets/8935) · [open] · 2026-09-22T13:48 · Problems with checkout page
-- [8936](https://tbpro.zendesk.com/agent/tickets/8936) · [open] · 2026-09-22T14:54 · Logging in to thunderbird mail!!!
+- [8936](https://tbpro.zendesk.com/agent/tickets/8936) · [pending] · 2026-09-22T14:54 · Logging in to thunderbird mail!!!
 
 ## Solved — last 24h
 
@@ -271,6 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-22T14:49 · Failed to load subscription information
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-22T15:02 · Unable to Send From Custom Domain in Thundermail Webmail
 - · [8563](https://tbpro.zendesk.com/agent/tickets/8563) · 2026-09-22T15:02 · Kalender
+- · [8779](https://tbpro.zendesk.com/agent/tickets/8779) · 2026-09-22T16:01 · Cancellation Request and refunds
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
