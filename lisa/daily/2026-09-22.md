@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 16:21 ET** · refreshes hourly_  
+_Updated: **2026-09-22 17:19 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **479 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **480 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **18** solved in last 24h
-- **479** tickets total since launch · contact rate **1%** of 35000 invitees
+- **480** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 33%  (1 good / 2 bad)
-- **CSAT (since launch)**: 92%  (130 good / 11 bad)
+- **CSAT (since launch)**: 92%  (131 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 62
-- **Median AHT**: 136.4h · mean 161.4h (proxy: updated_at − created_at, 379 solved tickets)
+- **Median AHT**: 136.7h · mean 162.9h (proxy: updated_at − created_at, 381 solved tickets)
 
 ## Known problems — 7 problem(s), 57 incident(s)
 
@@ -92,7 +92,7 @@ Flight 8 is **day 44** of rollout — **35,000 invitees**, **479 tickets** so fa
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -179,16 +179,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 379
-- **pending**: 45
+- **solved**: 381
 - **closed**: 43
+- **pending**: 43
+- **hold**: 7
 - **open**: 6
-- **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 271
-- **Thundermail**: 170
+- **Thundermail**: 171
 - **Send**: 9
 - **Appointment**: 8
 
