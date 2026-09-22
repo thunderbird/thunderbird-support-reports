@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 12:24 ET** · refreshes hourly_  
+_Updated: **2026-09-22 13:20 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **474 tickets** so far (1.4% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **474 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
 - **4** new tickets in last 24h · **12** solved in last 24h
 - **474** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 50%  (1 good / 1 bad)
-- **CSAT (since launch)**: 93%  (130 good / 10 bad)
+- **CSAT (24h)**: 33%  (1 good / 2 bad)
+- **CSAT (since launch)**: 92%  (130 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 61
-- **Median AHT**: 136.4h · mean 159.5h (proxy: updated_at − created_at, 374 solved tickets)
+- **Median AHT**: 136.4h · mean 159.7h (proxy: updated_at − created_at, 373 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -148,6 +148,8 @@ I don't own any domains.
 I basically had a privacy oriented email with 15 aliases for 100CAD a year. Don't get me wrong it is exactly what I want... but I would be paying for too much unrelated to me premiums. 
 
 I had to cancel... I am so sad I have to get back to gmail :((((( i wish we could work soething out... I just screwed my entire so anticipated beta acess :(_
+- 👎 [8779](https://tbpro.zendesk.com/agent/tickets/8779) · _Cancellation Request and refunds_  
+  - Reason: **Other (please share more)** · Comment: _I am really sorry but I don't think this is working for me. The transition to a new email would be too complex and time consuming for me. I wish to cancel after all. I do apologize for the inconvenience as I know you are trying to establish a new service but it is not for me right now. Please cancel my account and issue me a refund. Thanks, [name]_
 - 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · _Re: Correction: Thundermail Early Bird Access_  
   - Reason: **Other (please share more)** · Comment: _Je veux essayer thunder mail et bird
 I want try thunder mail and bird
@@ -170,9 +172,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 374
+- **solved**: 373
 - **pending**: 45
-- **closed**: 42
+- **closed**: 43
 - **open**: 8
 - **hold**: 5
 
@@ -274,7 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8622](https://tbpro.zendesk.com/agent/tickets/8622) · 2026-09-22T14:49 · Failed to load subscription information
 - · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-22T15:02 · Unable to Send From Custom Domain in Thundermail Webmail
 - · [8563](https://tbpro.zendesk.com/agent/tickets/8563) · 2026-09-22T15:02 · Kalender
-- · [8779](https://tbpro.zendesk.com/agent/tickets/8779) · 2026-09-22T16:01 · Cancellation Request and refunds
+- · [8670](https://tbpro.zendesk.com/agent/tickets/8670) · 2026-09-22T17:02 · Print bug
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
