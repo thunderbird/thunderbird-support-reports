@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 14:28 ET** · refreshes hourly_  
+_Updated: **2026-09-22 15:19 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **477 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **478 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **14** solved in last 24h
-- **477** tickets total since launch · contact rate **1%** of 35000 invitees
+- **8** new tickets in last 24h · **17** solved in last 24h
+- **478** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 33%  (1 good / 2 bad)
 - **CSAT (since launch)**: 92%  (130 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 61
-- **Median AHT**: 136.5h · mean 161.4h (proxy: updated_at − created_at, 375 solved tickets)
+- **Median AHT**: 136.4h · mean 161.5h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -155,9 +155,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8942](https://tbpro.zendesk.com/agent/tickets/8942) · [open] · _Delete account, and issue a refund_
+  > I decided not to go ahead with the Thundermail account after all. Please cancel the email account and issue a refund please. I started the account again yesterday and am within the cancellation period.
 
 ## New ideas on FeatureOS
 
@@ -172,15 +173,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 375
-- **pending**: 44
+- **solved**: 378
 - **closed**: 43
-- **open**: 10
+- **pending**: 41
+- **open**: 11
 - **hold**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 267
+- **Account Hub**: 269
 - **Thundermail**: 171
 - **Send**: 9
 - **Appointment**: 8
@@ -189,15 +190,15 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 113
+- **curious** + **explained**: 114
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 22
-- **confused** + **explained**: 21
+- **confused** + **explained**: 22
 - **concerned** + **explained**: 21
 - **curious** + **informed**: 19
-- **confused** + **informed**: 15
+- **confused** + **informed**: 16
 - **blocked** + **redirected**: 13
 - **blocked** + **escalated**: 11
 - **blocked** + **informed**: 7
@@ -221,6 +222,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
+- **change request** + **investigated**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
@@ -236,25 +238,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#8940](https://tbpro.zendesk.com/agent/tickets/8940)** · Subscription
+- **[#8942](https://tbpro.zendesk.com/agent/tickets/8942)** · Delete account, and issue a refund
+  > I decided not to go ahead with the Thundermail account after all. Please cancel the email account and issue a refund please. I started the account again yesterday and am within…
+- **[#8940](https://tbpro.zendesk.com/agent/tickets/8940)** · Subscription — why: **confused** · how: **explained**
   > As a person with a disability i have to watch money very carefully as possible i get paid on October 1st and 5th ,the 5th being the most likely date i can pay for the year. Is…
-
-### App setup / configuration — 1 tickets
-
-- **[#8939](https://tbpro.zendesk.com/agent/tickets/8939)** · No app password optiom
-  > I’m trying to setup the thunderbird email on my iphone and the support article said I should see an option to create an app password under email settings on my dashboard, but…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
-- **[#8938](https://tbpro.zendesk.com/agent/tickets/8938)** · Questions about Thundermail tiers
+- **[#8938](https://tbpro.zendesk.com/agent/tickets/8938)** · Questions about Thundermail tiers — why: **curious** · how: **explained**
   > I just have one question, I am interested in this email service. Will there be a free tier with just the email, kind of like google, where you just have the email and some default…
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
+- **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?) — why: **change request** · how: **investigated**
   > Thundermail Support, After encountering a problem during account setup, I filled the "Submit a request" form at https://[domain]/contact as instructed with the details below and…
+
+### App setup / configuration — 1 tickets
+
+- **[#8939](https://tbpro.zendesk.com/agent/tickets/8939)** · No app password optiom — why: **confused** · how: **informed**
+  > I’m trying to setup the thunderbird email on my iphone and the support article said I should see an option to create an app password under email settings on my dashboard, but…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -278,8 +282,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8935](https://tbpro.zendesk.com/agent/tickets/8935) · [pending] · 2026-09-22T13:48 · Problems with checkout page
 - [8936](https://tbpro.zendesk.com/agent/tickets/8936) · [pending] · 2026-09-22T14:54 · Logging in to thunderbird mail!!!
 - [8938](https://tbpro.zendesk.com/agent/tickets/8938) · [open] · 2026-09-22T17:43 · Questions about Thundermail tiers
-- [8939](https://tbpro.zendesk.com/agent/tickets/8939) · [open] · 2026-09-22T18:01 · No app password optiom
+- [8939](https://tbpro.zendesk.com/agent/tickets/8939) · [pending] · 2026-09-22T18:01 · No app password optiom
 - [8940](https://tbpro.zendesk.com/agent/tickets/8940) · [open] · 2026-09-22T18:19 · Subscription
+- [8942](https://tbpro.zendesk.com/agent/tickets/8942) · [open] · 2026-09-22T19:07 · Delete account, and issue a refund
 
 ## Solved — last 24h
 
@@ -297,6 +302,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8670](https://tbpro.zendesk.com/agent/tickets/8670) · 2026-09-22T17:02 · Print bug
 - · [8767](https://tbpro.zendesk.com/agent/tickets/8767) · 2026-09-22T18:02 · Custom Domain SRV Records
 - · [7778](https://tbpro.zendesk.com/agent/tickets/7778) · 2026-09-22T18:02 · Setting up accounts here before the MX switch
+- · [8788](https://tbpro.zendesk.com/agent/tickets/8788) · 2026-09-22T19:01 · hund
+- · [8780](https://tbpro.zendesk.com/agent/tickets/8780) · 2026-09-22T19:01 · RE: [Thundermail] Re: Blocked email (encrypted)
+- · [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-22T19:01 · additional accounts
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
