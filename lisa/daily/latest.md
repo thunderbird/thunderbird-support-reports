@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 09:23 ET** · refreshes hourly_  
+_Updated: **2026-09-22 10:24 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 8 is **day 44** of rollout — **35,000 invitees**, **473 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **3** new tickets in last 24h · **7** solved in last 24h
 - **473** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
@@ -188,7 +188,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 113
-- **blocked** + **explained**: 75
+- **blocked** + **explained**: 74
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 22
@@ -233,6 +233,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#8935](https://tbpro.zendesk.com/agent/tickets/8935)** · Problems with checkout page
+  > It seems im unable to pay thanks to the check out page suck on the Error code E-403.
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#8925](https://tbpro.zendesk.com/agent/tickets/8925)** · Please confirm whether my Thundermail waitlist signup was successful
@@ -247,6 +252,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
 - [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [open] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
+- [8935](https://tbpro.zendesk.com/agent/tickets/8935) · [open] · 2026-09-22T13:48 · Problems with checkout page
 
 ## Solved — last 24h
 
