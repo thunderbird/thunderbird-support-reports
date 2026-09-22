@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 18:20 ET** · refreshes hourly_  
+_Updated: **2026-09-22 19:19 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **481 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **482 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **16** solved in last 24h
-- **481** tickets total since launch · contact rate **1%** of 35000 invitees
+- **482** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 33%  (1 good / 2 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 62
@@ -98,7 +98,7 @@ Flight 8 is **day 44** of rollout — **35,000 invitees**, **481 tickets** so fa
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
 - 1 incident(s):
-  - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [pending] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
+  - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
 
 ## Other tickets linked to GitHub — 7 ticket(s) → 8 issue(s)
 
@@ -182,14 +182,14 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 381
-- **pending**: 46
 - **closed**: 44
+- **pending**: 44
 - **hold**: 7
-- **open**: 3
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 272
+- **Account Hub**: 273
 - **Thundermail**: 171
 - **Send**: 9
 - **Appointment**: 8
@@ -231,8 +231,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **confused** + **—**: 1
 - **change request** + **investigated**: 1
+- **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **request** + **informed**: 1
@@ -245,6 +245,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 1
 
 ## Tickets in last 24h — by theme
+
+### Early bird signup — 1 tickets
+
+- **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?) — why: **change request** · how: **investigated**
+  > Thundermail Support, After encountering a problem during account setup, I filled the "Submit a request" form at https://[domain]/contact as instructed with the details below and…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -276,14 +281,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8925](https://tbpro.zendesk.com/agent/tickets/8925)** · Please confirm whether my Thundermail waitlist signup was successful — why: **confused**
   > Hello [name], I submitted the Thundermail waitlist form on September 22, 2026, but the page redirected to a blank white screen instead of showing a confirmation message. The final…
 
-### Early bird signup — 1 tickets
-
-- **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?) — why: **change request** · how: **investigated**
-  > Thundermail Support, After encountering a problem during account setup, I filled the "Submit a request" form at https://[domain]/contact as instructed with the details below and…
-
 ## New tickets — last 24h
 
-- [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [pending] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
+- [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
 - [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [pending] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
 - [8935](https://tbpro.zendesk.com/agent/tickets/8935) · [pending] · 2026-09-22T13:48 · Problems with checkout page
 - [8936](https://tbpro.zendesk.com/agent/tickets/8936) · [pending] · 2026-09-22T14:54 · Logging in to thunderbird mail!!!
