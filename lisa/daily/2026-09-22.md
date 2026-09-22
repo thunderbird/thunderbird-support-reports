@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 06:24 ET** · refreshes hourly_  
+_Updated: **2026-09-22 07:21 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 44** of rollout — **35,000 invitees**, **472 tickets** so fa
 - **472** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 59
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 60
 - **Median AHT**: 136.4h · mean 158.9h (proxy: updated_at − created_at, 372 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
@@ -159,8 +159,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Show correct sender information for alias services (e.g., SimpleLogin)](https://ideas.tb.pro/p/show-correct-sender-information-for-alias-services-e-g-simplelogin) · 1 votes · _untagged_
+  > What you’d like to seeIt would be beneficial for Thundermail (Web, Desktop, and Mobile) to accurately display sender information for messages directed to an alias — linked to a Thundermail address —…
 - [Clarity on Mail Merge and E-mail Limits](https://ideas.tb.pro/p/clarity-on-mail-merge-and-e-mail-limits) · 1 votes · _untagged_
   > What I would like to seeI want more clarity on the Mail Merge capabilities and daily email limits, Similiar to what Gmail has declared in their terms of use, where they have an upper limit of 2000…
 
