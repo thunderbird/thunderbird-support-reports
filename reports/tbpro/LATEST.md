@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-09-21
+# Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-21 23:27 ET** · refreshes hourly_  
-_24h window: 2026-09-20T16:00 → 2026-09-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-22 00:26 ET** · refreshes hourly_  
+_24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 43** of rollout — **35,000 invitees**, **472 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **472 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **8** solved in last 24h
+- **1** new tickets in last 24h · **7** solved in last 24h
 - **472** tickets total since launch · contact rate **1%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 58
 - **Median AHT**: 136.4h · mean 158.9h (proxy: updated_at − created_at, 372 solved tickets)
@@ -166,9 +166,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 372
-- **pending**: 49
+- **pending**: 48
 - **closed**: 41
-- **open**: 5
+- **open**: 6
 - **hold**: 5
 
 ## Service (cumulative)
@@ -228,70 +228,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Spam / Junk Filtering — 2 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#8896](https://tbpro.zendesk.com/agent/tickets/8896)** · RBL checks hindered by open resolver — why: **confused** · how: **escalated**
-  > I'm getting some spam marked as ham. Some items of note in the report headers: RBL_SENDERSCORE_REPUT_BLOCKED (0.00), RBL_SPAMHAUS_BLOCKED_OPENRESOLVER (0.00),…
-- **[#8891](https://tbpro.zendesk.com/agent/tickets/8891)** · SPAM EN DESTINATARIO — why: **concerned** · how: **explained**
-  > Envío correos a personas cercanas que me comunican que van a su bandeja de spam. En concreto el destinatario usa gmail
-
-### Early bird signup — 1 tickets
-
-- **[#8912](https://tbpro.zendesk.com/agent/tickets/8912)** · Payment for the Mailaccount — why: **curious** · how: **explained**
-  > Hello, I would like to set up an account—or rather, I have already done so. However, I can only transfer the fee on the first of next month. Will the account remain active until…
-
-### Aliases — 1 tickets
-
-- **[#8904](https://tbpro.zendesk.com/agent/tickets/8904)** · [domain] email — why: **curious** · how: **informed**
-  > hi i wanted to register for the @[domain] email but wasn’t given the option at any stage, how to do it? thank you
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#8903](https://tbpro.zendesk.com/agent/tickets/8903)** · Pay monthly — why: **curious** · how: **explained**
-  > Is there an option to pay monthly?
-
-### Other / uncategorized — 1 tickets
-
-- **[#8899](https://tbpro.zendesk.com/agent/tickets/8899)** · burgers — why: **confused** · how: **informed**
-  > i tried to order burger through tunder mail itdont work
-
-### Webmail — 1 tickets
-
-- **[#8898](https://tbpro.zendesk.com/agent/tickets/8898)** · You cannot use this email it says? — why: **blocked** · how: **escalated**
-  > Hello! I tried to add a alias. I know no one has that. I tought i had it, it was in my account the other day. at [domain] now its gone, need help. But when i try to add it its…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#8882](https://tbpro.zendesk.com/agent/tickets/8882)** · Trying to set up ThunderMail calendar using CalDAV — why: **confused** · how: **explained**
-  > Hi, I’m connecting to my ThunderMail calendar using CalDAV. Authentication works, but the server returns malformed XML. When logging in, CalenGoo (the android app I'm using)…
-
-### App setup / configuration — 1 tickets
-
-- **[#8880](https://tbpro.zendesk.com/agent/tickets/8880)** · address books — why: **request**
-  > an import function for address books would be nice
+- **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
+  > Thundermail Support, After encountering a problem during account setup, I filled the "Submit a request" form at https://[domain]/contact as instructed with the details below and…
 
 ## New tickets — last 24h
 
-- [8880](https://tbpro.zendesk.com/agent/tickets/8880) · [pending] · 2026-09-20T21:44 · address books
-- [8882](https://tbpro.zendesk.com/agent/tickets/8882) · [pending] · 2026-09-21T00:23 · Trying to set up ThunderMail calendar using CalDAV
-- [8891](https://tbpro.zendesk.com/agent/tickets/8891) · [pending] · 2026-09-21T09:52 · SPAM EN DESTINATARIO
-- [8896](https://tbpro.zendesk.com/agent/tickets/8896) · [hold] · 2026-09-21T12:05 · RBL checks hindered by open resolver
-- [8898](https://tbpro.zendesk.com/agent/tickets/8898) · [solved] · 2026-09-21T13:01 · You cannot use this email it says?
-- [8899](https://tbpro.zendesk.com/agent/tickets/8899) · [pending] · 2026-09-21T13:28 · burgers
-- [8903](https://tbpro.zendesk.com/agent/tickets/8903) · [pending] · 2026-09-21T15:21 · Pay monthly
-- [8904](https://tbpro.zendesk.com/agent/tickets/8904) · [pending] · 2026-09-21T16:38 · [domain] email
-- [8912](https://tbpro.zendesk.com/agent/tickets/8912) · [pending] · 2026-09-21T19:55 · Payment for the Mailaccount
+- [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
 
 ## Solved — last 24h
 
-- · [8707](https://tbpro.zendesk.com/agent/tickets/8707) · 2026-09-20T20:01 · Blocked email
-- · [8698](https://tbpro.zendesk.com/agent/tickets/8698) · 2026-09-20T20:01 · Refund
-- · [8709](https://tbpro.zendesk.com/agent/tickets/8709) · 2026-09-20T21:01 · Regarding Gmail forward
-- · [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-21T14:07 · Unable to Send From Custom Domain in Thundermail Webmail
-- 👍 [8818](https://tbpro.zendesk.com/agent/tickets/8818) · 2026-09-21T14:53 · Changed Password, Doesn’t Recognize Address
-- · [8734](https://tbpro.zendesk.com/agent/tickets/8734) · 2026-09-21T15:02 · Refund Request for Thundermail 
-- · [8779](https://tbpro.zendesk.com/agent/tickets/8779) · 2026-09-21T15:54 · Cancellation Request and refunds
-- · [8720](https://tbpro.zendesk.com/agent/tickets/8720) · 2026-09-21T18:02 · Enough is enough.
+- 👎 [7933](https://tbpro.zendesk.com/agent/tickets/7933) · 2026-09-21T20:26 · Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download.
+- · [8737](https://tbpro.zendesk.com/agent/tickets/8737) · 2026-09-21T21:01 · Marked as SPAM in Gmail
+- · [8658](https://tbpro.zendesk.com/agent/tickets/8658) · 2026-09-21T21:01 · Can't send or receive email
+- 👍 [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-21T21:29 · Thundermail's Future
+- · [8898](https://tbpro.zendesk.com/agent/tickets/8898) · 2026-09-21T21:57 · You cannot use this email it says?
+- · [8758](https://tbpro.zendesk.com/agent/tickets/8758) · 2026-09-21T22:01 · I wanna Tage my Thunderbird 
+- · [8215](https://tbpro.zendesk.com/agent/tickets/8215) · 2026-09-21T22:01 · Monthly billing?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
