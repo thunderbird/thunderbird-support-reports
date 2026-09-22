@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 08:32 ET** · refreshes hourly_  
+_Updated: **2026-09-22 09:23 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **475 tickets** so far (1.4% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **473 tickets** so far (1.4% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **6** solved in last 24h
-- **475** tickets total since launch · contact rate **1%** of 35000 invitees
+- **2** new tickets in last 24h · **7** solved in last 24h
+- **473** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 60
-- **Median AHT**: 136.4h · mean 158.9h (proxy: updated_at − created_at, 371 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 61
+- **Median AHT**: 136.3h · mean 158.8h (proxy: updated_at − created_at, 372 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -159,8 +159,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Add IMAP from other accounts to TB pro account](https://ideas.tb.pro/p/add-imap-from-other-accounts-to-tb-pro-account) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Why it mattersWhat problem does this solve, or what benefit does it bring?It will allow me to fully replace Gmail, which is the only…
 - [Show correct sender information for alias services (e.g., SimpleLogin)](https://ideas.tb.pro/p/show-correct-sender-information-for-alias-services-e-g-simplelogin) · 1 votes · _untagged_
   > What you’d like to seeIt would be beneficial for Thundermail (Web, Desktop, and Mobile) to accurately display sender information for messages directed to an alias — linked to a Thundermail address —…
 - [Clarity on Mail Merge and E-mail Limits](https://ideas.tb.pro/p/clarity-on-mail-merge-and-e-mail-limits) · 1 votes · _untagged_
@@ -168,16 +170,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 371
-- **pending**: 45
+- **solved**: 372
+- **pending**: 43
 - **closed**: 41
 - **open**: 12
 - **hold**: 5
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 266
+- **Account Hub**: 264
 - **Thundermail**: 170
 - **Send**: 9
 - **Appointment**: 8
@@ -186,7 +187,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 115
+- **curious** + **explained**: 113
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
@@ -232,13 +233,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing — wanted free / monthly plan — 2 tickets
-
-- **[#8929](https://tbpro.zendesk.com/agent/tickets/8929)** · can i pay monthly? — why: **curious** · how: **explained**
-  > instead of annually?
-- **[#8928](https://tbpro.zendesk.com/agent/tickets/8928)** · is there monthly pricing? — why: **curious** · how: **explained**
-  > I don't want to pay annually
-
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#8925](https://tbpro.zendesk.com/agent/tickets/8925)** · Please confirm whether my Thundermail waitlist signup was successful
@@ -252,9 +246,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
-- [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [new] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
-- [8928](https://tbpro.zendesk.com/agent/tickets/8928) · [open] · 2026-09-22T12:29 · is there monthly pricing?
-- [8929](https://tbpro.zendesk.com/agent/tickets/8929) · [open] · 2026-09-22T12:31 · can i pay monthly?
+- [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [open] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
 
 ## Solved — last 24h
 
@@ -264,6 +256,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8898](https://tbpro.zendesk.com/agent/tickets/8898) · 2026-09-21T21:57 · You cannot use this email it says?
 - · [8758](https://tbpro.zendesk.com/agent/tickets/8758) · 2026-09-21T22:01 · I wanna Tage my Thunderbird 
 - · [8215](https://tbpro.zendesk.com/agent/tickets/8215) · 2026-09-21T22:01 · Monthly billing?
+- · [8786](https://tbpro.zendesk.com/agent/tickets/8786) · 2026-09-22T13:01 · I lost my invitation. Need it back.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
