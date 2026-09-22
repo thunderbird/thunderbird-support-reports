@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-22
 
-_Updated: **2026-09-22 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-22 08:32 ET** · refreshes hourly_  
 _24h window: 2026-09-21T16:00 → 2026-09-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 44** of rollout — **35,000 invitees**, **472 tickets** so far (1.3% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
+Flight 8 is **day 44** of rollout — **35,000 invitees**, **475 tickets** so far (1.4% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **6 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **7** solved in last 24h
-- **472** tickets total since launch · contact rate **1%** of 35000 invitees
+- **4** new tickets in last 24h · **6** solved in last 24h
+- **475** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (130 good / 10 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 60
-- **Median AHT**: 136.4h · mean 158.9h (proxy: updated_at − created_at, 372 solved tickets)
+- **Median AHT**: 136.4h · mean 158.9h (proxy: updated_at − created_at, 371 solved tickets)
 
 ## Known problems — 6 problem(s), 56 incident(s)
 
@@ -168,16 +168,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 372
+- **solved**: 371
 - **pending**: 45
 - **closed**: 41
-- **open**: 9
+- **open**: 12
 - **hold**: 5
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 264
-- **Thundermail**: 169
+- **Account Hub**: 266
+- **Thundermail**: 170
 - **Send**: 9
 - **Appointment**: 8
 
@@ -185,7 +186,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 113
+- **curious** + **explained**: 115
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 67
 - **blocked** + **investigated**: 24
@@ -231,6 +232,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Pricing — wanted free / monthly plan — 2 tickets
+
+- **[#8929](https://tbpro.zendesk.com/agent/tickets/8929)** · can i pay monthly? — why: **curious** · how: **explained**
+  > instead of annually?
+- **[#8928](https://tbpro.zendesk.com/agent/tickets/8928)** · is there monthly pricing? — why: **curious** · how: **explained**
+  > I don't want to pay annually
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#8925](https://tbpro.zendesk.com/agent/tickets/8925)** · Please confirm whether my Thundermail waitlist signup was successful
+  > Hello [name], I submitted the Thundermail waitlist form on September 22, 2026, but the page redirected to a blank white screen instead of showing a confirmation message. The final…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8913](https://tbpro.zendesk.com/agent/tickets/8913)** · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
@@ -239,12 +252,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21T20:00 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
+- [8925](https://tbpro.zendesk.com/agent/tickets/8925) · [new] · 2026-09-22T12:22 · Please confirm whether my Thundermail waitlist signup was successful
+- [8928](https://tbpro.zendesk.com/agent/tickets/8928) · [open] · 2026-09-22T12:29 · is there monthly pricing?
+- [8929](https://tbpro.zendesk.com/agent/tickets/8929) · [open] · 2026-09-22T12:31 · can i pay monthly?
 
 ## Solved — last 24h
 
 - 👎 [7933](https://tbpro.zendesk.com/agent/tickets/7933) · 2026-09-21T20:26 · Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download.
 - · [8737](https://tbpro.zendesk.com/agent/tickets/8737) · 2026-09-21T21:01 · Marked as SPAM in Gmail
-- · [8658](https://tbpro.zendesk.com/agent/tickets/8658) · 2026-09-21T21:01 · Can't send or receive email
 - 👍 [8730](https://tbpro.zendesk.com/agent/tickets/8730) · 2026-09-21T21:29 · Thundermail's Future
 - · [8898](https://tbpro.zendesk.com/agent/tickets/8898) · 2026-09-21T21:57 · You cannot use this email it says?
 - · [8758](https://tbpro.zendesk.com/agent/tickets/8758) · 2026-09-21T22:01 · I wanna Tage my Thunderbird 
