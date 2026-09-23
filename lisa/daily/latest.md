@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 10:27 ET** · refreshes hourly_  
+_Updated: **2026-09-23 11:23 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **503 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **504 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **26** new tickets in last 24h · **7** solved in last 24h
-- **503** tickets total since launch · contact rate **1%** of 35000 invitees
+- **27** new tickets in last 24h · **8** solved in last 24h
+- **504** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 65
-- **Median AHT**: 136.6h · mean 163.5h (proxy: updated_at − created_at, 378 solved tickets)
+- **Median AHT**: 136.6h · mean 163.6h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -191,15 +191,15 @@ Regards, [name]_
 
 - **solved**: 378
 - **closed**: 46
-- **pending**: 45
-- **open**: 18
-- **new**: 10
+- **pending**: 46
+- **open**: 17
+- **new**: 11
 - **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 283
-- **Thundermail**: 180
+- **Thundermail**: 181
 - **Send**: 10
 - **Appointment**: 8
 
@@ -207,7 +207,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 115
+- **curious** + **explained**: 116
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 68
 - **blocked** + **investigated**: 25
@@ -290,12 +290,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8973](https://tbpro.zendesk.com/agent/tickets/8973)** · Pricing
   > Hi, I just received an invite to sign up for Thundermail which I'm very excited about. However, before I pay, I was hoping to take a look around in order to judge whether…
 
-### Pricing / monthly plan / free tier — 2 tickets
+### App setup / configuration — 2 tickets
 
-- **[#8989](https://tbpro.zendesk.com/agent/tickets/8989)** · Custom domain email
-  > I own the domain [domain] and I would like to set up Thunder mail using that domain for my email addresses. Is this possible? What service do I need to select and how much does it…
-- **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
-  > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
+- **[#8997](https://tbpro.zendesk.com/agent/tickets/8997)** · Desktop Installation
+  > During the install process, a window popped up saying that the .ini and other objects were already installed and in use by Thunderbird. Should I overwrite or setup seperately?
+- **[#8976](https://tbpro.zendesk.com/agent/tickets/8976)** · compilla2
+  > MI CUENTA [email] NO SE K PASA NO PUEDO INICIAR SESIÓN Y AHI [name] DOCUMENTOS PARA DEGUIR TRABAJANDO
 
 ### Account creation / signup confusion — 2 tickets
 
@@ -310,6 +310,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > account security detailed view, Where we can see my account has logged-in sessions and previous logins - and remove some sessions if not recognized well.
 - **[#8967](https://tbpro.zendesk.com/agent/tickets/8967)** · General Questions
   > Hello ive been using thunderbird mail for 20 plus years - **i love it** - i would like to know the following to aide my decison in subscribing to webmail On thuderbird desktop i…
+
+### Pricing / monthly plan / free tier — 2 tickets
+
+- **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
+  > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
+- **[#8989](https://tbpro.zendesk.com/agent/tickets/8989)** · Custom domain email — why: **curious** · how: **explained**
+  > I own the domain [domain] and I would like to set up Thunder mail using that domain for my email addresses. Is this possible? What service do I need to select and how much does it…
 
 ### Account access issues — 2 tickets
 
@@ -327,11 +334,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8981](https://tbpro.zendesk.com/agent/tickets/8981)** · Thundermail question
   > Dear support,m I am a long-term supporter of Mozilla's work, and donate every year (and have create an extension called 'Tagged Notes' for Firefox). I am interested in…
-
-### App setup / configuration — 1 tickets
-
-- **[#8976](https://tbpro.zendesk.com/agent/tickets/8976)** · compilla2
-  > MI CUENTA [email] NO SE K PASA NO PUEDO INICIAR SESIÓN Y AHI [name] DOCUMENTOS PARA DEGUIR TRABAJANDO
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -367,10 +369,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8981](https://tbpro.zendesk.com/agent/tickets/8981) · [new] · 2026-09-23T10:15 · Thundermail question
 - [8984](https://tbpro.zendesk.com/agent/tickets/8984) · [new] · 2026-09-23T11:06 · Using Thundermail with other clients
 - [8988](https://tbpro.zendesk.com/agent/tickets/8988) · [new] · 2026-09-23T12:10 · forgot paassword
-- [8989](https://tbpro.zendesk.com/agent/tickets/8989) · [open] · 2026-09-23T13:04 · Custom domain email
+- [8989](https://tbpro.zendesk.com/agent/tickets/8989) · [pending] · 2026-09-23T13:04 · Custom domain email
 - [8992](https://tbpro.zendesk.com/agent/tickets/8992) · [new] · 2026-09-23T13:50 · Send storage only?
 - [8993](https://tbpro.zendesk.com/agent/tickets/8993) · [new] · 2026-09-23T14:11 · thundermail
 - [8996](https://tbpro.zendesk.com/agent/tickets/8996) · [new] · 2026-09-23T14:24 · Cannot  find option to create Password for ios mail
+- [8997](https://tbpro.zendesk.com/agent/tickets/8997) · [new] · 2026-09-23T14:28 · Desktop Installation
 
 ## Solved — last 24h
 
@@ -381,6 +384,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8898](https://tbpro.zendesk.com/agent/tickets/8898) · 2026-09-22T22:02 · You cannot use this email it says?
 - · [8711](https://tbpro.zendesk.com/agent/tickets/8711) · 2026-09-22T22:02 · domain ssl ?
 - 👍 [7714](https://tbpro.zendesk.com/agent/tickets/7714) · 2026-09-22T22:19 · Unable to Send From Custom Domain in Thundermail Webmail
+- · [8869](https://tbpro.zendesk.com/agent/tickets/8869) · 2026-09-23T15:02 · Thundermail Requests 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
