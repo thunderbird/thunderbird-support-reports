@@ -1,26 +1,25 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 09:28 ET** · refreshes hourly_  
+_Updated: **2026-09-23 10:27 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **501 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **503 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **24** new tickets in last 24h · **7** solved in last 24h
-- **501** tickets total since launch · contact rate **1%** of 35000 invitees
+- **26** new tickets in last 24h · **7** solved in last 24h
+- **503** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 64
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 65
 - **Median AHT**: 136.6h · mean 163.5h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"puedo iniciar"** — 2 tickets in 24h (new; baseline 0 cum) — [#8976](https://tbpro.zendesk.com/agent/tickets/8976), [#8977](https://tbpro.zendesk.com/agent/tickets/8977)
 - **"refund policy"** — 2 tickets in 24h (44.0× baseline; baseline 2 cum) — [#8965](https://tbpro.zendesk.com/agent/tickets/8965), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 - **"very much"** — 2 tickets in 24h (17.6× baseline; baseline 5 cum) — [#8958](https://tbpro.zendesk.com/agent/tickets/8958), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 
@@ -100,6 +99,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
+- 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
   - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
@@ -171,15 +171,17 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · _Cancellation and Refund_
+- [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [open] · _Cancellation and Refund_
   > Hi there, I recently purchased an early bird subscription to Thundermail and I do not believe that it is right for me. I would like to request a refund per the 14 day policy. If the team takes feedback, my main problem…
 - [8980](https://tbpro.zendesk.com/agent/tickets/8980) · [new] · _I want to cancel my plan as its not serving my purpose_
   > Good Day. I thought the thundermail is something where I can setup multiple email accounts and manage my multiple business but it seems its not suitable, I would like to cancel my plan if i get the refund ? Can you…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Block specific aliases from catch-all](https://ideas.tb.pro/p/block-specific-aliases-from-catch-all) · 1 votes · _untagged_
+  > What you’d like to seeWhile catch-all is useful to not bother setting up the aliases, when one of the addresses gets spammed I would love the option to reject mail from that address.So it should work…
 - [Read and delivery receipts (like in Exchange)](https://ideas.tb.pro/p/read-and-delivery-receipts-like-in-exchange) · 1 votes · _untagged_
   > What you’d like to seeFor reliable business email, these two are a must.Why it mattersHelps with audit trail re delivery receipts in particular.Your use caseI need to email a government agency or…
 - [Threaded Conversations and Email Signature](https://ideas.tb.pro/p/threaded-conversations-and-email-signature) · 1 votes · _untagged_
@@ -190,15 +192,15 @@ Regards, [name]_
 - **solved**: 378
 - **closed**: 46
 - **pending**: 45
-- **open**: 13
-- **new**: 13
+- **open**: 18
+- **new**: 10
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 284
-- **Thundermail**: 178
-- **Send**: 9
+- **Account Hub**: 283
+- **Thundermail**: 180
+- **Send**: 10
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -253,8 +255,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 5 tickets
+### Subscription / billing / refund / cancel — 6 tickets
 
+- **[#8993](https://tbpro.zendesk.com/agent/tickets/8993)** · thundermail
+  > Hi, is thundermail for home users also or for businesses? also another question, is there monthly sub or just annual sub ? subquestion for last one: if i cancel my subscriptions,…
 - **[#8980](https://tbpro.zendesk.com/agent/tickets/8980)** · I want to cancel my plan as its not serving my purpose
   > Good Day. I thought the thundermail is something where I can setup multiple email accounts and manage my multiple business but it seems its not suitable, I would like to cancel my…
 - **[#8969](https://tbpro.zendesk.com/agent/tickets/8969)** · Undo the Account, not interested in paid subscription
@@ -277,26 +281,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8958](https://tbpro.zendesk.com/agent/tickets/8958)** · Delete this account
   > Hello. I'd like to delete this account please. Thank you very much.
 
+### Early bird / invite / waitlist — 3 tickets
+
+- **[#8992](https://tbpro.zendesk.com/agent/tickets/8992)** · Send storage only?
+  > So this may be a weird ask, but I'm curious if there are any plans to just offer Send storage separately. Thing is, I already use Thunderbird extensively and already have my…
+- **[#8978](https://tbpro.zendesk.com/agent/tickets/8978)** · Cancellation and Refund
+  > Hi there, I recently purchased an early bird subscription to Thundermail and I do not believe that it is right for me. I would like to request a refund per the 14 day policy. If…
+- **[#8973](https://tbpro.zendesk.com/agent/tickets/8973)** · Pricing
+  > Hi, I just received an invite to sign up for Thundermail which I'm very excited about. However, before I pay, I was hoping to take a look around in order to judge whether…
+
 ### Pricing / monthly plan / free tier — 2 tickets
 
 - **[#8989](https://tbpro.zendesk.com/agent/tickets/8989)** · Custom domain email
   > I own the domain [domain] and I would like to set up Thunder mail using that domain for my email addresses. Is this possible? What service do I need to select and how much does it…
 - **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
   > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
-
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#8978](https://tbpro.zendesk.com/agent/tickets/8978)** · Cancellation and Refund
-  > Hi there, I recently purchased an early bird subscription to Thundermail and I do not believe that it is right for me. I would like to request a refund per the 14 day policy. If…
-- **[#8973](https://tbpro.zendesk.com/agent/tickets/8973)** · Pricing
-  > Hi, I just received an invite to sign up for Thundermail which I'm very excited about. However, before I pay, I was hoping to take a look around in order to judge whether…
-
-### App setup / configuration — 2 tickets
-
-- **[#8977](https://tbpro.zendesk.com/agent/tickets/8977)** · compilla2
-  > Mi cuents de correo es [email] Echame la mano lo k pssa es k no puedo iniciar sesion siento como k slguien Me hackeo la verdad no se pero no m deja iniciar sesión
-- **[#8976](https://tbpro.zendesk.com/agent/tickets/8976)** · compilla2
-  > MI CUENTA [email] NO SE K PASA NO PUEDO INICIAR SESIÓN Y AHI [name] DOCUMENTOS PARA DEGUIR TRABAJANDO
 
 ### Account creation / signup confusion — 2 tickets
 
@@ -319,10 +318,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
   > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
 
+### Aliases — 1 tickets
+
+- **[#8996](https://tbpro.zendesk.com/agent/tickets/8996)** · Cannot  find option to create Password for ios mail
+  > I have just subscribed to Thundermail and am trying to add it to my iphone. It says in your help page to go to the TB Hub - Email Settings and then Add Password. I do not see any…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#8981](https://tbpro.zendesk.com/agent/tickets/8981)** · Thundermail question
   > Dear support,m I am a long-term supporter of Mozilla's work, and donate every year (and have create an extension called 'Tagged Notes' for Firefox). I am interested in…
+
+### App setup / configuration — 1 tickets
+
+- **[#8976](https://tbpro.zendesk.com/agent/tickets/8976)** · compilla2
+  > MI CUENTA [email] NO SE K PASA NO PUEDO INICIAR SESIÓN Y AHI [name] DOCUMENTOS PARA DEGUIR TRABAJANDO
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -346,20 +355,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8965](https://tbpro.zendesk.com/agent/tickets/8965) · [open] · 2026-09-23T05:49 · Subscription in Error
 - [8966](https://tbpro.zendesk.com/agent/tickets/8966) · [open] · 2026-09-23T05:57 · Info
 - [8967](https://tbpro.zendesk.com/agent/tickets/8967) · [open] · 2026-09-23T05:58 · General Questions
-- [8968](https://tbpro.zendesk.com/agent/tickets/8968) · [new] · 2026-09-23T06:09 · Account setttings view in webmail
-- [8969](https://tbpro.zendesk.com/agent/tickets/8969) · [new] · 2026-09-23T06:19 · Undo the Account, not interested in paid subscription
-- [8970](https://tbpro.zendesk.com/agent/tickets/8970) · [new] · 2026-09-23T06:22 · Payment Amount
+- [8968](https://tbpro.zendesk.com/agent/tickets/8968) · [open] · 2026-09-23T06:09 · Account setttings view in webmail
+- [8969](https://tbpro.zendesk.com/agent/tickets/8969) · [open] · 2026-09-23T06:19 · Undo the Account, not interested in paid subscription
+- [8970](https://tbpro.zendesk.com/agent/tickets/8970) · [open] · 2026-09-23T06:22 · Payment Amount
 - [8971](https://tbpro.zendesk.com/agent/tickets/8971) · [new] · 2026-09-23T06:51 · Quite expensive
 - [8973](https://tbpro.zendesk.com/agent/tickets/8973) · [new] · 2026-09-23T07:29 · Pricing
 - [8975](https://tbpro.zendesk.com/agent/tickets/8975) · [new] · 2026-09-23T08:00 · Payments 
-- [8976](https://tbpro.zendesk.com/agent/tickets/8976) · [new] · 2026-09-23T08:41 · compilla2
-- [8977](https://tbpro.zendesk.com/agent/tickets/8977) · [new] · 2026-09-23T08:53 · compilla2
-- [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · 2026-09-23T09:22 · Cancellation and Refund
+- [8976](https://tbpro.zendesk.com/agent/tickets/8976) · [open] · 2026-09-23T08:41 · compilla2
+- [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [open] · 2026-09-23T09:22 · Cancellation and Refund
 - [8980](https://tbpro.zendesk.com/agent/tickets/8980) · [new] · 2026-09-23T09:36 · I want to cancel my plan as its not serving my purpose
 - [8981](https://tbpro.zendesk.com/agent/tickets/8981) · [new] · 2026-09-23T10:15 · Thundermail question
 - [8984](https://tbpro.zendesk.com/agent/tickets/8984) · [new] · 2026-09-23T11:06 · Using Thundermail with other clients
 - [8988](https://tbpro.zendesk.com/agent/tickets/8988) · [new] · 2026-09-23T12:10 · forgot paassword
 - [8989](https://tbpro.zendesk.com/agent/tickets/8989) · [open] · 2026-09-23T13:04 · Custom domain email
+- [8992](https://tbpro.zendesk.com/agent/tickets/8992) · [new] · 2026-09-23T13:50 · Send storage only?
+- [8993](https://tbpro.zendesk.com/agent/tickets/8993) · [new] · 2026-09-23T14:11 · thundermail
+- [8996](https://tbpro.zendesk.com/agent/tickets/8996) · [new] · 2026-09-23T14:24 · Cannot  find option to create Password for ios mail
 
 ## Solved — last 24h
 
