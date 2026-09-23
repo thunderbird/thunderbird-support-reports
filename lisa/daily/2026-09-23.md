@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 02:37 ET** · refreshes hourly_  
+_Updated: **2026-09-23 03:27 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **490 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **491 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **7** solved in last 24h
-- **490** tickets total since launch · contact rate **1%** of 35000 invitees
+- **14** new tickets in last 24h · **7** solved in last 24h
+- **491** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 62
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 63
 - **Median AHT**: 136.7h · mean 163.5h (proxy: updated_at − created_at, 379 solved tickets)
 
 ## Known problems — 7 problem(s), 58 incident(s)
@@ -167,22 +167,23 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Threaded Conversations and Email Signature](https://ideas.tb.pro/p/threaded-conversations-and-email-signature) · 1 votes · _untagged_
+  > Currently every email from an ongoing conversation shows up as a separate email in the inbox. How about showing up as a thread just like outlook or Gmail do for a cleaner inbox experience.Also, a way…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 379
 - **closed**: 46
 - **pending**: 45
-- **new**: 8
+- **new**: 9
 - **open**: 6
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 279
+- **Account Hub**: 280
 - **Thundermail**: 172
 - **Send**: 9
 - **Appointment**: 8
@@ -250,6 +251,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
   > missing features
 
+### Other / uncategorized — 2 tickets
+
+- **[#8971](https://tbpro.zendesk.com/agent/tickets/8971)** · Quite expensive
+  > Hi guys, I just wanted to say that it feels quite expensive to pay for a whole year in advance, though I believe the service will be good. I'm from Ukraine, and that amount of…
+- **[#8958](https://tbpro.zendesk.com/agent/tickets/8958)** · Delete this account
+  > Hello. I'd like to delete this account please. Thank you very much.
+
 ### Webmail — 2 tickets
 
 - **[#8968](https://tbpro.zendesk.com/agent/tickets/8968)** · Account setttings view in webmail
@@ -273,11 +281,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
   > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
-
-### Other / uncategorized — 1 tickets
-
-- **[#8958](https://tbpro.zendesk.com/agent/tickets/8958)** · Delete this account
-  > Hello. I'd like to delete this account please. Thank you very much.
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -304,6 +307,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8968](https://tbpro.zendesk.com/agent/tickets/8968) · [new] · 2026-09-23T06:09 · Account setttings view in webmail
 - [8969](https://tbpro.zendesk.com/agent/tickets/8969) · [new] · 2026-09-23T06:19 · Undo the Account, not interested in paid subscription
 - [8970](https://tbpro.zendesk.com/agent/tickets/8970) · [new] · 2026-09-23T06:22 · Payment Amount
+- [8971](https://tbpro.zendesk.com/agent/tickets/8971) · [new] · 2026-09-23T06:51 · Quite expensive
 
 ## Solved — last 24h
 
