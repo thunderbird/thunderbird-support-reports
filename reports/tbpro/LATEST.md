@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 05:25 ET** · refreshes hourly_  
+_Updated: **2026-09-23 06:23 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **496 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **498 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **7** solved in last 24h
-- **496** tickets total since launch · contact rate **1%** of 35000 invitees
+- **21** new tickets in last 24h · **7** solved in last 24h
+- **498** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 63
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 64
 - **Median AHT**: 136.7h · mean 163.5h (proxy: updated_at − created_at, 379 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -169,15 +169,19 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · _Cancellation and Refund_
   > Hi there, I recently purchased an early bird subscription to Thundermail and I do not believe that it is right for me. I would like to request a refund per the 14 day policy. If the team takes feedback, my main problem…
+- [8980](https://tbpro.zendesk.com/agent/tickets/8980) · [new] · _I want to cancel my plan as its not serving my purpose_
+  > Good Day. I thought the thundermail is something where I can setup multiple email accounts and manage my multiple business but it seems its not suitable, I would like to cancel my plan if i get the refund ? Can you…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Read and delivery receipts (like in Exchange)](https://ideas.tb.pro/p/read-and-delivery-receipts-like-in-exchange) · 1 votes · _untagged_
+  > What you’d like to seeFor reliable business email, these two are a must.Why it mattersHelps with audit trail re delivery receipts in particular.Your use caseI need to email a government agency or…
 - [Threaded Conversations and Email Signature](https://ideas.tb.pro/p/threaded-conversations-and-email-signature) · 1 votes · _untagged_
   > Currently every email from an ongoing conversation shows up as a separate email in the inbox. How about showing up as a thread just like outlook or Gmail do for a cleaner inbox experience.Also, a way…
 
@@ -186,14 +190,14 @@ Regards, [name]_
 - **solved**: 379
 - **closed**: 46
 - **pending**: 45
-- **new**: 14
+- **new**: 16
 - **open**: 6
 - **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 283
-- **Thundermail**: 174
+- **Thundermail**: 176
 - **Send**: 9
 - **Appointment**: 8
 
@@ -249,8 +253,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 4 tickets
+### Subscription / billing / refund / cancel — 5 tickets
 
+- **[#8980](https://tbpro.zendesk.com/agent/tickets/8980)** · I want to cancel my plan as its not serving my purpose
+  > Good Day. I thought the thundermail is something where I can setup multiple email accounts and manage my multiple business but it seems its not suitable, I would like to cancel my…
 - **[#8969](https://tbpro.zendesk.com/agent/tickets/8969)** · Undo the Account, not interested in paid subscription
   > Undo the Account, not interested in paid subscription
 - **[#8965](https://tbpro.zendesk.com/agent/tickets/8965)** · Subscription in Error
@@ -302,6 +308,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
   > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#8981](https://tbpro.zendesk.com/agent/tickets/8981)** · Thundermail question
+  > Dear support,m I am a long-term supporter of Mozilla's work, and donate every year (and have create an extension called 'Tagged Notes' for Firefox). I am interested in…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
@@ -338,6 +349,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8976](https://tbpro.zendesk.com/agent/tickets/8976) · [new] · 2026-09-23T08:41 · compilla2
 - [8977](https://tbpro.zendesk.com/agent/tickets/8977) · [new] · 2026-09-23T08:53 · compilla2
 - [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · 2026-09-23T09:22 · Cancellation and Refund
+- [8980](https://tbpro.zendesk.com/agent/tickets/8980) · [new] · 2026-09-23T09:36 · I want to cancel my plan as its not serving my purpose
+- [8981](https://tbpro.zendesk.com/agent/tickets/8981) · [new] · 2026-09-23T10:15 · Thundermail question
 
 ## Solved — last 24h
 
