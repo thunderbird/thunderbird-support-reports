@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 03:27 ET** · refreshes hourly_  
+_Updated: **2026-09-23 04:30 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **491 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **493 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **7** solved in last 24h
-- **491** tickets total since launch · contact rate **1%** of 35000 invitees
+- **16** new tickets in last 24h · **7** solved in last 24h
+- **493** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 63
@@ -177,14 +177,14 @@ _(none in last 24h)_
 - **solved**: 379
 - **closed**: 46
 - **pending**: 45
-- **new**: 9
+- **new**: 11
 - **open**: 6
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 280
-- **Thundermail**: 172
+- **Account Hub**: 281
+- **Thundermail**: 173
 - **Send**: 9
 - **Appointment**: 8
 
@@ -251,6 +251,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
   > missing features
 
+### Account creation / signup confusion — 2 tickets
+
+- **[#8975](https://tbpro.zendesk.com/agent/tickets/8975)** · Payments 
+  > Hi, I've created an account but wasn't able to see where to change the payment to monthly? I like the layout of the android app and the @[domain] email has a nice ring to it. I've…
+- **[#8970](https://tbpro.zendesk.com/agent/tickets/8970)** · Payment Amount
+  > Hi, the amount I was shown when I was signing up was different than the one I was shown at checkout. I might remember the exact amounts wrong, but I remember thinking "what a…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#8971](https://tbpro.zendesk.com/agent/tickets/8971)** · Quite expensive
@@ -272,10 +279,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
   > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
 
-### Account creation / signup confusion — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#8970](https://tbpro.zendesk.com/agent/tickets/8970)** · Payment Amount
-  > Hi, the amount I was shown when I was signing up was different than the one I was shown at checkout. I might remember the exact amounts wrong, but I remember thinking "what a…
+- **[#8973](https://tbpro.zendesk.com/agent/tickets/8973)** · Pricing
+  > Hi, I just received an invite to sign up for Thundermail which I'm very excited about. However, before I pay, I was hoping to take a look around in order to judge whether…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -308,6 +315,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8969](https://tbpro.zendesk.com/agent/tickets/8969) · [new] · 2026-09-23T06:19 · Undo the Account, not interested in paid subscription
 - [8970](https://tbpro.zendesk.com/agent/tickets/8970) · [new] · 2026-09-23T06:22 · Payment Amount
 - [8971](https://tbpro.zendesk.com/agent/tickets/8971) · [new] · 2026-09-23T06:51 · Quite expensive
+- [8973](https://tbpro.zendesk.com/agent/tickets/8973) · [new] · 2026-09-23T07:29 · Pricing
+- [8975](https://tbpro.zendesk.com/agent/tickets/8975) · [new] · 2026-09-23T08:00 · Payments 
 
 ## Solved — last 24h
 
