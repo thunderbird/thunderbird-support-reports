@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 06:23 ET** · refreshes hourly_  
+_Updated: **2026-09-23 07:23 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **498 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **499 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **21** new tickets in last 24h · **7** solved in last 24h
-- **498** tickets total since launch · contact rate **1%** of 35000 invitees
+- **22** new tickets in last 24h · **7** solved in last 24h
+- **499** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 64
-- **Median AHT**: 136.7h · mean 163.5h (proxy: updated_at − created_at, 379 solved tickets)
+- **Median AHT**: 136.6h · mean 163.5h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"compilla gmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#8976](https://tbpro.zendesk.com/agent/tickets/8976), [#8977](https://tbpro.zendesk.com/agent/tickets/8977)
+- **"puedo iniciar"** — 2 tickets in 24h (new; baseline 0 cum) — [#8976](https://tbpro.zendesk.com/agent/tickets/8976), [#8977](https://tbpro.zendesk.com/agent/tickets/8977)
 - **"refund policy"** — 2 tickets in 24h (44.0× baseline; baseline 2 cum) — [#8965](https://tbpro.zendesk.com/agent/tickets/8965), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 - **"very much"** — 2 tickets in 24h (17.6× baseline; baseline 5 cum) — [#8958](https://tbpro.zendesk.com/agent/tickets/8958), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 
@@ -187,17 +187,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 379
+- **solved**: 378
 - **closed**: 46
 - **pending**: 45
-- **new**: 16
-- **open**: 6
+- **new**: 17
+- **open**: 7
 - **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 283
-- **Thundermail**: 176
+- **Thundermail**: 177
 - **Send**: 9
 - **Appointment**: 8
 
@@ -266,6 +266,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
   > missing features
 
+### Other / uncategorized — 3 tickets
+
+- **[#8984](https://tbpro.zendesk.com/agent/tickets/8984)** · Using Thundermail with other clients
+  > Create New App Password, item 3, Click the “Create app password” button. There is no such button in the dashboard.
+- **[#8971](https://tbpro.zendesk.com/agent/tickets/8971)** · Quite expensive
+  > Hi guys, I just wanted to say that it feels quite expensive to pay for a whole year in advance, though I believe the service will be good. I'm from Ukraine, and that amount of…
+- **[#8958](https://tbpro.zendesk.com/agent/tickets/8958)** · Delete this account
+  > Hello. I'd like to delete this account please. Thank you very much.
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#8978](https://tbpro.zendesk.com/agent/tickets/8978)** · Cancellation and Refund
@@ -286,13 +295,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi, I've created an account but wasn't able to see where to change the payment to monthly? I like the layout of the android app and the @[domain] email has a nice ring to it. I've…
 - **[#8970](https://tbpro.zendesk.com/agent/tickets/8970)** · Payment Amount
   > Hi, the amount I was shown when I was signing up was different than the one I was shown at checkout. I might remember the exact amounts wrong, but I remember thinking "what a…
-
-### Other / uncategorized — 2 tickets
-
-- **[#8971](https://tbpro.zendesk.com/agent/tickets/8971)** · Quite expensive
-  > Hi guys, I just wanted to say that it feels quite expensive to pay for a whole year in advance, though I believe the service will be good. I'm from Ukraine, and that amount of…
-- **[#8958](https://tbpro.zendesk.com/agent/tickets/8958)** · Delete this account
-  > Hello. I'd like to delete this account please. Thank you very much.
 
 ### Webmail — 2 tickets
 
@@ -351,6 +353,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · 2026-09-23T09:22 · Cancellation and Refund
 - [8980](https://tbpro.zendesk.com/agent/tickets/8980) · [new] · 2026-09-23T09:36 · I want to cancel my plan as its not serving my purpose
 - [8981](https://tbpro.zendesk.com/agent/tickets/8981) · [new] · 2026-09-23T10:15 · Thundermail question
+- [8984](https://tbpro.zendesk.com/agent/tickets/8984) · [new] · 2026-09-23T11:06 · Using Thundermail with other clients
 
 ## Solved — last 24h
 
