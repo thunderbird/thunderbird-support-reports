@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 07:23 ET** · refreshes hourly_  
+_Updated: **2026-09-23 08:35 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **499 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **500 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **22** new tickets in last 24h · **7** solved in last 24h
-- **499** tickets total since launch · contact rate **1%** of 35000 invitees
+- **23** new tickets in last 24h · **7** solved in last 24h
+- **500** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 64
@@ -190,13 +190,13 @@ Regards, [name]_
 - **solved**: 378
 - **closed**: 46
 - **pending**: 45
-- **new**: 17
+- **new**: 18
 - **open**: 7
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 283
+- **Account Hub**: 284
 - **Thundermail**: 177
 - **Send**: 9
 - **Appointment**: 8
@@ -266,8 +266,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
   > missing features
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#8988](https://tbpro.zendesk.com/agent/tickets/8988)** · forgot paassword
+  > need to find it.
 - **[#8984](https://tbpro.zendesk.com/agent/tickets/8984)** · Using Thundermail with other clients
   > Create New App Password, item 3, Click the “Create app password” button. There is no such button in the dashboard.
 - **[#8971](https://tbpro.zendesk.com/agent/tickets/8971)** · Quite expensive
@@ -354,6 +356,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8980](https://tbpro.zendesk.com/agent/tickets/8980) · [new] · 2026-09-23T09:36 · I want to cancel my plan as its not serving my purpose
 - [8981](https://tbpro.zendesk.com/agent/tickets/8981) · [new] · 2026-09-23T10:15 · Thundermail question
 - [8984](https://tbpro.zendesk.com/agent/tickets/8984) · [new] · 2026-09-23T11:06 · Using Thundermail with other clients
+- [8988](https://tbpro.zendesk.com/agent/tickets/8988) · [new] · 2026-09-23T12:10 · forgot paassword
 
 ## Solved — last 24h
 
