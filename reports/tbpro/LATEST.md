@@ -1,20 +1,28 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 04:30 ET** · refreshes hourly_  
+_Updated: **2026-09-23 05:25 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **493 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **496 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **7** solved in last 24h
-- **493** tickets total since launch · contact rate **1%** of 35000 invitees
+- **19** new tickets in last 24h · **7** solved in last 24h
+- **496** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 63
 - **Median AHT**: 136.7h · mean 163.5h (proxy: updated_at − created_at, 379 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"compilla gmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#8976](https://tbpro.zendesk.com/agent/tickets/8976), [#8977](https://tbpro.zendesk.com/agent/tickets/8977)
+- **"refund policy"** — 2 tickets in 24h (44.0× baseline; baseline 2 cum) — [#8965](https://tbpro.zendesk.com/agent/tickets/8965), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
+- **"very much"** — 2 tickets in 24h (17.6× baseline; baseline 5 cum) — [#8958](https://tbpro.zendesk.com/agent/tickets/8958), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 
 ## Known problems — 7 problem(s), 58 incident(s)
 
@@ -161,9 +169,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · _Cancellation and Refund_
+  > Hi there, I recently purchased an early bird subscription to Thundermail and I do not believe that it is right for me. I would like to request a refund per the 14 day policy. If the team takes feedback, my main problem…
 
 ## New ideas on FeatureOS
 
@@ -177,14 +186,14 @@ _(none in last 24h)_
 - **solved**: 379
 - **closed**: 46
 - **pending**: 45
-- **new**: 11
+- **new**: 14
 - **open**: 6
 - **hold**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 281
-- **Thundermail**: 173
+- **Account Hub**: 283
+- **Thundermail**: 174
 - **Send**: 9
 - **Appointment**: 8
 
@@ -251,6 +260,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
   > missing features
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#8978](https://tbpro.zendesk.com/agent/tickets/8978)** · Cancellation and Refund
+  > Hi there, I recently purchased an early bird subscription to Thundermail and I do not believe that it is right for me. I would like to request a refund per the 14 day policy. If…
+- **[#8973](https://tbpro.zendesk.com/agent/tickets/8973)** · Pricing
+  > Hi, I just received an invite to sign up for Thundermail which I'm very excited about. However, before I pay, I was hoping to take a look around in order to judge whether…
+
+### App setup / configuration — 2 tickets
+
+- **[#8977](https://tbpro.zendesk.com/agent/tickets/8977)** · compilla2
+  > Mi cuents de correo es [email] Echame la mano lo k pssa es k no puedo iniciar sesion siento como k slguien Me hackeo la verdad no se pero no m deja iniciar sesión
+- **[#8976](https://tbpro.zendesk.com/agent/tickets/8976)** · compilla2
+  > MI CUENTA [email] NO SE K PASA NO PUEDO INICIAR SESIÓN Y AHI [name] DOCUMENTOS PARA DEGUIR TRABAJANDO
+
 ### Account creation / signup confusion — 2 tickets
 
 - **[#8975](https://tbpro.zendesk.com/agent/tickets/8975)** · Payments 
@@ -278,11 +301,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > please fix
 - **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
   > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#8973](https://tbpro.zendesk.com/agent/tickets/8973)** · Pricing
-  > Hi, I just received an invite to sign up for Thundermail which I'm very excited about. However, before I pay, I was hoping to take a look around in order to judge whether…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -317,6 +335,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8971](https://tbpro.zendesk.com/agent/tickets/8971) · [new] · 2026-09-23T06:51 · Quite expensive
 - [8973](https://tbpro.zendesk.com/agent/tickets/8973) · [new] · 2026-09-23T07:29 · Pricing
 - [8975](https://tbpro.zendesk.com/agent/tickets/8975) · [new] · 2026-09-23T08:00 · Payments 
+- [8976](https://tbpro.zendesk.com/agent/tickets/8976) · [new] · 2026-09-23T08:41 · compilla2
+- [8977](https://tbpro.zendesk.com/agent/tickets/8977) · [new] · 2026-09-23T08:53 · compilla2
+- [8978](https://tbpro.zendesk.com/agent/tickets/8978) · [new] · 2026-09-23T09:22 · Cancellation and Refund
 
 ## Solved — last 24h
 
