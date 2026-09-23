@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 08:35 ET** · refreshes hourly_  
+_Updated: **2026-09-23 09:28 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **500 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **501 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **23** new tickets in last 24h · **7** solved in last 24h
-- **500** tickets total since launch · contact rate **1%** of 35000 invitees
+- **24** new tickets in last 24h · **7** solved in last 24h
+- **501** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 64
@@ -190,14 +190,14 @@ Regards, [name]_
 - **solved**: 378
 - **closed**: 46
 - **pending**: 45
-- **new**: 18
-- **open**: 7
+- **open**: 13
+- **new**: 13
 - **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 284
-- **Thundermail**: 177
+- **Thundermail**: 178
 - **Send**: 9
 - **Appointment**: 8
 
@@ -277,6 +277,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8958](https://tbpro.zendesk.com/agent/tickets/8958)** · Delete this account
   > Hello. I'd like to delete this account please. Thank you very much.
 
+### Pricing / monthly plan / free tier — 2 tickets
+
+- **[#8989](https://tbpro.zendesk.com/agent/tickets/8989)** · Custom domain email
+  > I own the domain [domain] and I would like to set up Thunder mail using that domain for my email addresses. Is this possible? What service do I need to select and how much does it…
+- **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
+  > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#8978](https://tbpro.zendesk.com/agent/tickets/8978)** · Cancellation and Refund
@@ -317,11 +324,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8981](https://tbpro.zendesk.com/agent/tickets/8981)** · Thundermail question
   > Dear support,m I am a long-term supporter of Mozilla's work, and donate every year (and have create an extension called 'Tagged Notes' for Firefox). I am interested in…
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
-  > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#8951](https://tbpro.zendesk.com/agent/tickets/8951)** · Outgoing Mail (SMTP) — why: **blocked** · how: **investigated**
@@ -339,11 +341,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8951](https://tbpro.zendesk.com/agent/tickets/8951) · [open] · 2026-09-22T20:50 · Outgoing Mail (SMTP)
 - [8952](https://tbpro.zendesk.com/agent/tickets/8952) · [pending] · 2026-09-22T21:33 · cancel and refund 
 - [8954](https://tbpro.zendesk.com/agent/tickets/8954) · [open] · 2026-09-22T22:25 · Multiple accounts for family with shared domain
-- [8958](https://tbpro.zendesk.com/agent/tickets/8958) · [new] · 2026-09-23T03:27 · Delete this account
-- [8960](https://tbpro.zendesk.com/agent/tickets/8960) · [new] · 2026-09-23T04:58 · signin not working
-- [8965](https://tbpro.zendesk.com/agent/tickets/8965) · [new] · 2026-09-23T05:49 · Subscription in Error
-- [8966](https://tbpro.zendesk.com/agent/tickets/8966) · [new] · 2026-09-23T05:57 · Info
-- [8967](https://tbpro.zendesk.com/agent/tickets/8967) · [new] · 2026-09-23T05:58 · General Questions
+- [8958](https://tbpro.zendesk.com/agent/tickets/8958) · [open] · 2026-09-23T03:27 · Delete this account
+- [8960](https://tbpro.zendesk.com/agent/tickets/8960) · [open] · 2026-09-23T04:58 · signin not working
+- [8965](https://tbpro.zendesk.com/agent/tickets/8965) · [open] · 2026-09-23T05:49 · Subscription in Error
+- [8966](https://tbpro.zendesk.com/agent/tickets/8966) · [open] · 2026-09-23T05:57 · Info
+- [8967](https://tbpro.zendesk.com/agent/tickets/8967) · [open] · 2026-09-23T05:58 · General Questions
 - [8968](https://tbpro.zendesk.com/agent/tickets/8968) · [new] · 2026-09-23T06:09 · Account setttings view in webmail
 - [8969](https://tbpro.zendesk.com/agent/tickets/8969) · [new] · 2026-09-23T06:19 · Undo the Account, not interested in paid subscription
 - [8970](https://tbpro.zendesk.com/agent/tickets/8970) · [new] · 2026-09-23T06:22 · Payment Amount
@@ -357,6 +359,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8981](https://tbpro.zendesk.com/agent/tickets/8981) · [new] · 2026-09-23T10:15 · Thundermail question
 - [8984](https://tbpro.zendesk.com/agent/tickets/8984) · [new] · 2026-09-23T11:06 · Using Thundermail with other clients
 - [8988](https://tbpro.zendesk.com/agent/tickets/8988) · [new] · 2026-09-23T12:10 · forgot paassword
+- [8989](https://tbpro.zendesk.com/agent/tickets/8989) · [open] · 2026-09-23T13:04 · Custom domain email
 
 ## Solved — last 24h
 
