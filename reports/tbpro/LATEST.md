@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 00:27 ET** · refreshes hourly_  
+_Updated: **2026-09-23 01:23 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **483 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **484 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **7** solved in last 24h
-- **483** tickets total since launch · contact rate **1%** of 35000 invitees
+- **7** new tickets in last 24h · **7** solved in last 24h
+- **484** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 62
@@ -178,11 +178,11 @@ _(none in last 24h)_
 - **pending**: 45
 - **open**: 6
 - **hold**: 6
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 274
+- **Account Hub**: 275
 - **Thundermail**: 171
 - **Send**: 9
 - **Appointment**: 8
@@ -239,6 +239,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#8960](https://tbpro.zendesk.com/agent/tickets/8960)** · signin not working
+  > please fix
+- **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
+  > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#8954](https://tbpro.zendesk.com/agent/tickets/8954)** · Multiple accounts for family with shared domain
@@ -256,11 +263,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8951](https://tbpro.zendesk.com/agent/tickets/8951)** · Outgoing Mail (SMTP) — why: **blocked** · how: **investigated**
   > I am unable to connect to Thundermail's outgoing SMTP mail server for sending email. These are the settings I am using: - Server: [domain] - Port: 465 - Connection Security:…
 
-### Account access issues — 1 tickets
-
-- **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
-  > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
-
 ### Early bird signup — 1 tickets
 
 - **[#8949](https://tbpro.zendesk.com/agent/tickets/8949)** · [thunderbird-accounts/1335] CORS error on contact form submission — why: **other** · 🔗 [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335)
@@ -274,6 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8952](https://tbpro.zendesk.com/agent/tickets/8952) · [pending] · 2026-09-22T21:33 · cancel and refund 
 - [8954](https://tbpro.zendesk.com/agent/tickets/8954) · [open] · 2026-09-22T22:25 · Multiple accounts for family with shared domain
 - [8958](https://tbpro.zendesk.com/agent/tickets/8958) · [new] · 2026-09-23T03:27 · Delete this account
+- [8960](https://tbpro.zendesk.com/agent/tickets/8960) · [new] · 2026-09-23T04:58 · signin not working
 
 ## Solved — last 24h
 
