@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 01:23 ET** · refreshes hourly_  
+_Updated: **2026-09-23 02:37 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **484 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **490 tickets** so far (1.4% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **7 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **7** solved in last 24h
-- **484** tickets total since launch · contact rate **1%** of 35000 invitees
+- **13** new tickets in last 24h · **7** solved in last 24h
+- **490** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 62
@@ -176,14 +176,14 @@ _(none in last 24h)_
 - **solved**: 379
 - **closed**: 46
 - **pending**: 45
+- **new**: 8
 - **open**: 6
 - **hold**: 6
-- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 275
-- **Thundermail**: 171
+- **Account Hub**: 279
+- **Thundermail**: 172
 - **Send**: 9
 - **Appointment**: 8
 
@@ -239,6 +239,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 4 tickets
+
+- **[#8969](https://tbpro.zendesk.com/agent/tickets/8969)** · Undo the Account, not interested in paid subscription
+  > Undo the Account, not interested in paid subscription
+- **[#8965](https://tbpro.zendesk.com/agent/tickets/8965)** · Subscription in Error
+  > Dear [name], I made an error: given that the subscription is for a year, I wanted to try the product for 14 days before I could buy. I made the payment on 23rd September 2026 and…
+- **[#8954](https://tbpro.zendesk.com/agent/tickets/8954)** · Multiple accounts for family with shared domain
+  > As I read the support pages, it appears that I would need to pay for multiple Thundermail accounts for my family. Since we share a single domain, but all have seperate accounts…
+- **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
+  > missing features
+
+### Webmail — 2 tickets
+
+- **[#8968](https://tbpro.zendesk.com/agent/tickets/8968)** · Account setttings view in webmail
+  > account security detailed view, Where we can see my account has logged-in sessions and previous logins - and remove some sessions if not recognized well.
+- **[#8967](https://tbpro.zendesk.com/agent/tickets/8967)** · General Questions
+  > Hello ive been using thunderbird mail for 20 plus years - **i love it** - i would like to know the following to aide my decison in subscribing to webmail On thuderbird desktop i…
+
 ### Account access issues — 2 tickets
 
 - **[#8960](https://tbpro.zendesk.com/agent/tickets/8960)** · signin not working
@@ -246,12 +264,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#8948](https://tbpro.zendesk.com/agent/tickets/8948)** · Can't log in — why: **curious** · how: **explained**
   > heya! I was accepted off the waitlist and made an account just under 2 weeks ago, but _didn't_ pay (because I wasn't ready money-wise). I now am, but because of the wait my…
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#8954](https://tbpro.zendesk.com/agent/tickets/8954)** · Multiple accounts for family with shared domain
-  > As I read the support pages, it appears that I would need to pay for multiple Thundermail accounts for my family. Since we share a single domain, but all have seperate accounts…
-- **[#8952](https://tbpro.zendesk.com/agent/tickets/8952)** · cancel and refund  — why: **change request** · how: **actioned**
-  > missing features
+- **[#8970](https://tbpro.zendesk.com/agent/tickets/8970)** · Payment Amount
+  > Hi, the amount I was shown when I was signing up was different than the one I was shown at checkout. I might remember the exact amounts wrong, but I remember thinking "what a…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#8966](https://tbpro.zendesk.com/agent/tickets/8966)** · Info
+  > Hello, Do you have free version of new Thunderbird Pro or we can use only the old one?
 
 ### Other / uncategorized — 1 tickets
 
@@ -277,6 +298,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [8954](https://tbpro.zendesk.com/agent/tickets/8954) · [open] · 2026-09-22T22:25 · Multiple accounts for family with shared domain
 - [8958](https://tbpro.zendesk.com/agent/tickets/8958) · [new] · 2026-09-23T03:27 · Delete this account
 - [8960](https://tbpro.zendesk.com/agent/tickets/8960) · [new] · 2026-09-23T04:58 · signin not working
+- [8965](https://tbpro.zendesk.com/agent/tickets/8965) · [new] · 2026-09-23T05:49 · Subscription in Error
+- [8966](https://tbpro.zendesk.com/agent/tickets/8966) · [new] · 2026-09-23T05:57 · Info
+- [8967](https://tbpro.zendesk.com/agent/tickets/8967) · [new] · 2026-09-23T05:58 · General Questions
+- [8968](https://tbpro.zendesk.com/agent/tickets/8968) · [new] · 2026-09-23T06:09 · Account setttings view in webmail
+- [8969](https://tbpro.zendesk.com/agent/tickets/8969) · [new] · 2026-09-23T06:19 · Undo the Account, not interested in paid subscription
+- [8970](https://tbpro.zendesk.com/agent/tickets/8970) · [new] · 2026-09-23T06:22 · Payment Amount
 
 ## Solved — last 24h
 
