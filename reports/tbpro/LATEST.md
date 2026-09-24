@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 12:38 ET** · refreshes hourly_  
+_Updated: **2026-09-24 13:24 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **531 tickets** so fa
 - **531** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
 - **Median AHT**: 137.4h · mean 165.0h (proxy: updated_at − created_at, 376 solved tickets)
 
 ## Known problems — 8 problem(s), 63 incident(s)
@@ -180,17 +180,19 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Web interface for calendar](https://ideas.tb.pro/p/web-interface-for-calendar) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.Maybe I’m missing something, but where is the icon and interface for the Calendar? I know I can create and utilize Thundermail-hosted…
 - [Implement Tags](https://ideas.tb.pro/p/implement-tags) · 2 votes · _Thundermail, New Feature, Webmail_
   > What you’d like to seeWould like to see Tags that work like Thunderbird Why it mattersI use both Thunderbird Client and TB pro web interfaces. I think they should have close to the same…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 376
-- **pending**: 63
+- **pending**: 64
 - **closed**: 53
-- **open**: 29
+- **open**: 28
 - **hold**: 10
 
 ## Service (cumulative)
@@ -206,7 +208,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 119
 - **blocked** + **explained**: 75
-- **change request** + **actioned**: 73
+- **change request** + **actioned**: 74
 - **confused** + **explained**: 30
 - **curious** + **informed**: 27
 - **blocked** + **investigated**: 25
