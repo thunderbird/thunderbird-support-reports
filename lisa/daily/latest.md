@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 01:23 ET** · refreshes hourly_  
+_Updated: **2026-09-24 02:38 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **522 tickets** so fa
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
-- **Median AHT**: 136.9h · mean 164.3h (proxy: updated_at − created_at, 381 solved tickets)
+- **Median AHT**: 136.8h · mean 164.2h (proxy: updated_at − created_at, 380 solved tickets)
 
 ## Known problems — 8 problem(s), 63 incident(s)
 
@@ -82,7 +82,7 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **522 tickets** so fa
   - [#8952](https://tbpro.zendesk.com/agent/tickets/8952) · [pending] · 2026-09-22 · _cancel and refund _
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [pending] · 2026-09-23 · _Delete this account_
   - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [pending] · 2026-09-23 · _Subscription in Error_
-  - [#8969](https://tbpro.zendesk.com/agent/tickets/8969) · [pending] · 2026-09-23 · _Undo the Account, not interested in paid subscription_
+  - [#8969](https://tbpro.zendesk.com/agent/tickets/8969) · [open] · 2026-09-23 · _Undo the Account, not interested in paid subscription_
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [pending] · 2026-09-23 · _Cancellation and Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -187,12 +187,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 381
-- **pending**: 62
+- **solved**: 380
+- **pending**: 61
 - **closed**: 50
-- **open**: 13
+- **open**: 17
 - **hold**: 10
-- **new**: 6
+- **new**: 4
 
 ## Service (cumulative)
 
@@ -208,7 +208,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 118
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 73
-- **confused** + **explained**: 28
+- **confused** + **explained**: 30
 - **curious** + **informed**: 27
 - **blocked** + **investigated**: 24
 - **request** + **redirected**: 23
@@ -239,13 +239,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
+- **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **request** + **informed**: 1
 - **other** + **escalated**: 1
 - **curious** + **investigated**: 1
-- **curious** + **—**: 1
 - **concerned** + **actioned**: 1
 - **concerned** + **escalated**: 1
 - **other** + **investigated**: 1
@@ -261,7 +261,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
-- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync
+- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
   > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
 - **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings?
   > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
@@ -283,7 +283,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 1 tickets
 
-- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail
+- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
   > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
 
 ### Spam / Junk Filtering — 1 tickets
@@ -302,8 +302,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9019](https://tbpro.zendesk.com/agent/tickets/9019) · [open] · 2026-09-23T21:23 · imap/etc settings?
 - [9021](https://tbpro.zendesk.com/agent/tickets/9021) · [open] · 2026-09-23T22:51 · Thundermail signup
 - [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [open] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
-- [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [new] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
-- [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [new] · 2026-09-24T01:48 · My folders do not sync
+- [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
+- [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [open] · 2026-09-24T01:48 · My folders do not sync
 - [9027](https://tbpro.zendesk.com/agent/tickets/9027) · [new] · 2026-09-24T02:44 · Rust developer Job application
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [new] · 2026-09-24T03:00 · not allowing to log in bad password
 - [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [new] · 2026-09-24T03:08 · Alias fail
