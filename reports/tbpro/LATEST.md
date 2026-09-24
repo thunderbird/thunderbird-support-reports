@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 08:34 ET** · refreshes hourly_  
+_Updated: **2026-09-24 09:23 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **523 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **526 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **7** solved in last 24h
-- **523** tickets total since launch · contact rate **1%** of 35000 invitees
+- **14** new tickets in last 24h · **6** solved in last 24h
+- **526** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
-- **Median AHT**: 136.8h · mean 164.2h (proxy: updated_at − created_at, 380 solved tickets)
+- **Median AHT**: 136.9h · mean 164.3h (proxy: updated_at − created_at, 379 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"afford annual"** — 2 tickets in 24h (new; baseline 0 cum) — [#9042](https://tbpro.zendesk.com/agent/tickets/9042), [#9043](https://tbpro.zendesk.com/agent/tickets/9043)
 
 ## Known problems — 8 problem(s), 63 incident(s)
 
@@ -182,17 +188,17 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Implement Tags](https://ideas.tb.pro/p/implement-tags) · 1 votes · _Thundermail, New Feature, Webmail_
+- [Implement Tags](https://ideas.tb.pro/p/implement-tags) · 2 votes · _Thundermail, New Feature, Webmail_
   > What you’d like to seeWould like to see Tags that work like Thunderbird Why it mattersI use both Thunderbird Client and TB pro web interfaces. I think they should have close to the same…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 380
+- **solved**: 379
 - **pending**: 61
 - **closed**: 50
-- **open**: 18
+- **open**: 20
 - **hold**: 9
-- **new**: 5
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -252,8 +258,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing / monthly plan / free tier — 2 tickets
+### Pricing / monthly plan / free tier — 4 tickets
 
+- **[#9043](https://tbpro.zendesk.com/agent/tickets/9043)** · how do i pay monthly?
+  > i can't afford annual
+- **[#9042](https://tbpro.zendesk.com/agent/tickets/9042)** · Is there monthly pricing?
+  > i cann't afford annual
 - **[#9040](https://tbpro.zendesk.com/agent/tickets/9040)** · Monthly subscription
   > I am not ready to pay a whole year subscription for a product I can't even try. Please let Me try one month for free or due to a payment, but not a whole year.
 - **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
@@ -265,6 +275,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
 - **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings?
   > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9044](https://tbpro.zendesk.com/agent/tickets/9044)** · my custom domain isn't working
+  > help, my custom domain won't verify, squarespace requires a period at the end??
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -314,12 +329,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [new] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
 - [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [new] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [new] · 2026-09-24T12:21 · Monthly subscription
+- [9042](https://tbpro.zendesk.com/agent/tickets/9042) · [open] · 2026-09-24T12:47 · Is there monthly pricing?
+- [9043](https://tbpro.zendesk.com/agent/tickets/9043) · [new] · 2026-09-24T12:50 · how do i pay monthly?
+- [9044](https://tbpro.zendesk.com/agent/tickets/9044) · [new] · 2026-09-24T12:54 · my custom domain isn't working
 
 ## Solved — last 24h
 
 - · [8833](https://tbpro.zendesk.com/agent/tickets/8833) · 2026-09-23T21:02 · setting up two gmail accounts
 - · [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-23T22:02 · can't verify custom domain
-- · [8836](https://tbpro.zendesk.com/agent/tickets/8836) · 2026-09-23T22:02 · Unable to send from iOS devices
 - · [8829](https://tbpro.zendesk.com/agent/tickets/8829) · 2026-09-23T22:02 · Using our domain for multiple emails - is it possible?
 - · [8806](https://tbpro.zendesk.com/agent/tickets/8806) · 2026-09-23T22:02 · Secure Email Gateway
 - · [8700](https://tbpro.zendesk.com/agent/tickets/8700) · 2026-09-23T22:02 · External Domain
