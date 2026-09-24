@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 16:24 ET** · refreshes hourly_  
+_Updated: **2026-09-24 17:21 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **534 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **9** solved in last 24h
-- **533** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 67%  (2 good / 1 bad)
-- **CSAT (since launch)**: 92%  (133 good / 12 bad)
+- **534** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 92%  (133 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
-- **Median AHT**: 136.9h · mean 164.6h (proxy: updated_at − created_at, 377 solved tickets)
+- **Median AHT**: 136.8h · mean 164.2h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -164,8 +164,6 @@ I don't own any domains.
 I basically had a privacy oriented email with 15 aliases for 100CAD a year. Don't get me wrong it is exactly what I want... but I would be paying for too much unrelated to me premiums. 
 
 I had to cancel... I am so sad I have to get back to gmail :((((( i wish we could work soething out... I just screwed my entire so anticipated beta acess :(_
-- 👎 [8869](https://tbpro.zendesk.com/agent/tickets/8869) · _Thundermail Requests _  
-  - Reason: **My issue wasn't resolved** · Comment: _I cannot receive notufications when new email arravied to Thunderbird app for android_
 - 👎 [8779](https://tbpro.zendesk.com/agent/tickets/8779) · _Cancellation Request and refunds_  
   - Reason: **Other (please share more)** · Comment: _I am really sorry but I don't think this is working for me. The transition to a new email would be too complex and time consuming for me. I wish to cancel after all. I do apologize for the inconvenience as I know you are trying to establish a new service but it is not for me right now. Please cancel my account and issue me a refund. Thanks, [name]_
 - 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · _Re: Correction: Thundermail Early Bird Access_  
@@ -188,7 +186,7 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 377
+- **solved**: 378
 - **pending**: 71
 - **closed**: 54
 - **open**: 21
@@ -196,9 +194,9 @@ _(none in last 24h)_
 
 ## Service (cumulative)
 
-- **Account Hub**: 293
-- **Thundermail**: 189
-- **Send**: 11
+- **Account Hub**: 292
+- **Thundermail**: 190
+- **Send**: 12
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -209,9 +207,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 74
 - **confused** + **explained**: 31
-- **curious** + **informed**: 28
+- **curious** + **informed**: 29
 - **blocked** + **investigated**: 25
-- **request** + **redirected**: 23
+- **request** + **redirected**: 22
 - **concerned** + **explained**: 21
 - **confused** + **informed**: 18
 - **blocked** + **redirected**: 14
@@ -240,7 +238,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 - **concerned** + **investigated**: 1
-- **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
