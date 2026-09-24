@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 03:27 ET** · refreshes hourly_  
+_Updated: **2026-09-24 04:31 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **522 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **523 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **7** solved in last 24h
-- **522** tickets total since launch · contact rate **1%** of 35000 invitees
+- **11** new tickets in last 24h · **7** solved in last 24h
+- **523** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
@@ -192,7 +192,7 @@ _(none in last 24h)_
 - **closed**: 50
 - **open**: 17
 - **hold**: 10
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
@@ -266,6 +266,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings?
   > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
+  > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#9031](https://tbpro.zendesk.com/agent/tickets/9031)** · Cannot receive notification of new messages from thunderbird app for android
@@ -308,6 +313,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [new] · 2026-09-24T03:00 · not allowing to log in bad password
 - [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [new] · 2026-09-24T03:08 · Alias fail
 - [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [new] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
+- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [new] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 
 ## Solved — last 24h
 
