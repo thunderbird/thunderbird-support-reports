@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 17:21 ET** · refreshes hourly_  
+_Updated: **2026-09-24 18:21 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -187,15 +187,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 378
-- **pending**: 71
+- **pending**: 75
 - **closed**: 54
-- **open**: 21
-- **hold**: 10
+- **open**: 16
+- **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 292
-- **Thundermail**: 190
+- **Thundermail**: 191
 - **Send**: 12
 - **Appointment**: 8
 
@@ -208,11 +208,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 74
 - **confused** + **explained**: 31
 - **curious** + **informed**: 29
-- **blocked** + **investigated**: 25
-- **request** + **redirected**: 22
+- **blocked** + **investigated**: 26
+- **request** + **redirected**: 23
 - **concerned** + **explained**: 21
 - **confused** + **informed**: 18
-- **blocked** + **redirected**: 14
+- **blocked** + **redirected**: 15
 - **blocked** + **escalated**: 11
 - **blocked** + **informed**: 9
 - **concerned** + **—**: 7
@@ -228,7 +228,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
-- **concerned** + **redirected**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
@@ -237,8 +236,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **concerned** + **investigated**: 1
 - **confused** + **—**: 1
+- **concerned** + **investigated**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **request** + **informed**: 1
@@ -247,6 +246,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **actioned**: 1
 - **concerned** + **escalated**: 1
 - **other** + **investigated**: 1
+- **concerned** + **redirected**: 1
 
 ## Tickets in last 24h — by theme
 
@@ -263,12 +263,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Spam / Junk Filtering — 3 tickets
 
-- **[#9066](https://tbpro.zendesk.com/agent/tickets/9066)** · Didn't receive OTP email.
-  > I tried to sign up for the Garuda Linux forum - https://[domain]/signup - and their OTP email didn't ever make it to my thundermail inbox. I tried two times and neither worked.…
 - **[#9065](https://tbpro.zendesk.com/agent/tickets/9065)** · My email is going to spam
   > Hi there, My emails go into spam. Please give me help.
 - **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup — why: **confused** · how: **explained**
   > I am trying to complete the signup process. (1) I pressed 'Subscribe' in the invitation email you sent to my [email] account, (2) in my browser I entered my chosen Thundermail…
+- **[#9066](https://tbpro.zendesk.com/agent/tickets/9066)** · Didn't receive OTP email. — why: **blocked** · how: **investigated**
+  > I tried to sign up for the Garuda Linux forum - https://[domain]/signup - and their OTP email didn't ever make it to my thundermail inbox. I tried two times and neither worked.…
 
 ### Email Protocols (IMAP/SMTP/POP) — 3 tickets
 
@@ -329,9 +329,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9019](https://tbpro.zendesk.com/agent/tickets/9019) · [pending] · 2026-09-23T21:23 · imap/etc settings?
 - [9021](https://tbpro.zendesk.com/agent/tickets/9021) · [open] · 2026-09-23T22:51 · Thundermail signup
 - [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [pending] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
-- [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
+- [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [pending] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [pending] · 2026-09-24T01:48 · My folders do not sync
-- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [open] · 2026-09-24T03:00 · not allowing to log in bad password
+- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
 - [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [pending] · 2026-09-24T03:08 · Alias fail
 - [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
@@ -344,7 +344,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9063](https://tbpro.zendesk.com/agent/tickets/9063) · [open] · 2026-09-24T16:28 · Small Business Account?
 - [9064](https://tbpro.zendesk.com/agent/tickets/9064) · [open] · 2026-09-24T16:29 · Monthly pricing
 - [9065](https://tbpro.zendesk.com/agent/tickets/9065) · [open] · 2026-09-24T17:44 · My email is going to spam
-- [9066](https://tbpro.zendesk.com/agent/tickets/9066) · [open] · 2026-09-24T18:00 · Didn't receive OTP email.
+- [9066](https://tbpro.zendesk.com/agent/tickets/9066) · [hold] · 2026-09-24T18:00 · Didn't receive OTP email.
 
 ## Solved — last 24h
 
