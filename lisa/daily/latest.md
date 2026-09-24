@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 09:23 ET** · refreshes hourly_  
+_Updated: **2026-09-24 10:25 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **526 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **527 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **6** solved in last 24h
-- **526** tickets total since launch · contact rate **2%** of 35000 invitees
+- **15** new tickets in last 24h · **6** solved in last 24h
+- **527** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
-- **Median AHT**: 136.9h · mean 164.3h (proxy: updated_at − created_at, 379 solved tickets)
+- **Median AHT**: 137.1h · mean 164.6h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -47,7 +47,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [solved] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
-  - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [solved] · 2026-08-26 · _refund_
+  - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [closed] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [solved] · 2026-08-27 · _Refund_
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [solved] · 2026-08-30 · _Refund_
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [solved] · 2026-08-31 · _Refund Request – ThunderMail_
@@ -193,12 +193,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 379
+- **solved**: 378
 - **pending**: 61
-- **closed**: 50
-- **open**: 20
+- **closed**: 51
+- **open**: 24
 - **hold**: 9
-- **new**: 7
+- **new**: 4
 
 ## Service (cumulative)
 
@@ -276,6 +276,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings?
   > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
 
+### Other / uncategorized — 1 tickets
+
+- **[#9045](https://tbpro.zendesk.com/agent/tickets/9045)** · i want a burger
+  > with fries, and extra cheese.
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#9044](https://tbpro.zendesk.com/agent/tickets/9044)** · my custom domain isn't working
@@ -324,14 +329,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [open] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
 - [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [open] · 2026-09-24T01:48 · My folders do not sync
-- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [new] · 2026-09-24T03:00 · not allowing to log in bad password
-- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [new] · 2026-09-24T03:08 · Alias fail
-- [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [new] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
-- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [new] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
+- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [open] · 2026-09-24T03:00 · not allowing to log in bad password
+- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [open] · 2026-09-24T03:08 · Alias fail
+- [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [open] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
+- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [open] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [new] · 2026-09-24T12:21 · Monthly subscription
 - [9042](https://tbpro.zendesk.com/agent/tickets/9042) · [open] · 2026-09-24T12:47 · Is there monthly pricing?
 - [9043](https://tbpro.zendesk.com/agent/tickets/9043) · [new] · 2026-09-24T12:50 · how do i pay monthly?
 - [9044](https://tbpro.zendesk.com/agent/tickets/9044) · [new] · 2026-09-24T12:54 · my custom domain isn't working
+- [9045](https://tbpro.zendesk.com/agent/tickets/9045) · [new] · 2026-09-24T14:21 · i want a burger
 
 ## Solved — last 24h
 
