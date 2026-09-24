@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 07:30 ET** · refreshes hourly_  
+_Updated: **2026-09-24 08:34 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -197,7 +197,7 @@ _(none in last 24h)_
 ## Service (cumulative)
 
 - **Account Hub**: 288
-- **Thundermail**: 191
+- **Thundermail**: 192
 - **Send**: 11
 - **Appointment**: 8
 
@@ -252,12 +252,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### App setup / configuration — 2 tickets
+### Pricing / monthly plan / free tier — 2 tickets
 
-- **[#9027](https://tbpro.zendesk.com/agent/tickets/9027)** · Rust developer Job application
-  > Hello [name], Hope your day’s going smoothly — and if not, here’s a little email that might brighten things up (good news + great Rust developers tends to help ). I came across…
-- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini
-  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
+- **[#9040](https://tbpro.zendesk.com/agent/tickets/9040)** · Monthly subscription
+  > I am not ready to pay a whole year subscription for a product I can't even try. Please let Me try one month for free or due to a payment, but not a whole year.
+- **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
+  > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
@@ -265,11 +265,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
 - **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings?
   > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
-  > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -291,6 +286,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
   > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
 
+### App setup / configuration — 1 tickets
+
+- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini
+  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup
@@ -309,11 +309,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [open] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
 - [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [open] · 2026-09-24T01:48 · My folders do not sync
-- [9027](https://tbpro.zendesk.com/agent/tickets/9027) · [new] · 2026-09-24T02:44 · Rust developer Job application
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [new] · 2026-09-24T03:00 · not allowing to log in bad password
 - [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [new] · 2026-09-24T03:08 · Alias fail
 - [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [new] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
 - [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [new] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
+- [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [new] · 2026-09-24T12:21 · Monthly subscription
 
 ## Solved — last 24h
 
