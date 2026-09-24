@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 14:34 ET** · refreshes hourly_  
+_Updated: **2026-09-24 15:21 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so fa
 
 - **21** new tickets in last 24h · **7** solved in last 24h
 - **533** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 50%  (1 good / 1 bad)
-- **CSAT (since launch)**: 92%  (132 good / 12 bad)
+- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (since launch)**: 92%  (133 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
-- **Median AHT**: 137.4h · mean 165.2h (proxy: updated_at − created_at, 375 solved tickets)
+- **Median AHT**: 136.9h · mean 164.8h (proxy: updated_at − created_at, 375 solved tickets)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -189,9 +189,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 375
-- **pending**: 68
+- **pending**: 71
 - **closed**: 54
-- **open**: 26
+- **open**: 23
 - **hold**: 10
 
 ## Service (cumulative)
@@ -239,6 +239,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
+- **concerned** + **investigated**: 1
 - **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
@@ -260,7 +261,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello! I was hoping you could help me set up some aliases in Webmail. How does one do that? - Test McGee
 - **[#9059](https://tbpro.zendesk.com/agent/tickets/9059)** · Thundermail sux
   > I would sign up for Thundermail, but Reddit told me it sucks. Do you agree?
-- **[#9030](https://tbpro.zendesk.com/agent/tickets/9030)** · Alias fail
+- **[#9030](https://tbpro.zendesk.com/agent/tickets/9030)** · Alias fail — why: **concerned** · how: **investigated**
   > I created an alias [email] then it disappeared, then I tried creating it again and an error appears, what's up with that?
 
 ### Spam / Junk Filtering — 3 tickets
@@ -288,19 +289,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
   > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
 
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
-
-- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
-  > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
-- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini — why: **curious** · how: **explained**
-  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
-
 ### Pricing — general pricing concern — 2 tickets
 
 - **[#9040](https://tbpro.zendesk.com/agent/tickets/9040)** · Monthly subscription — why: **curious** · how: **explained**
   > I am not ready to pay a whole year subscription for a product I can't even try. Please let Me try one month for free or due to a payment, but not a whole year.
 - **[#9018](https://tbpro.zendesk.com/agent/tickets/9018)** · thundermail — why: **curious** · how: **explained**
   > I was a tbird user for years but moved to gmail. I still have tbird as a backup. I'm interested in how the new thundermail works but I will not pay anything until I see it in…
+
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+
+- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
+  > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
+- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini — why: **curious** · how: **explained**
+  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -334,9 +335,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9021](https://tbpro.zendesk.com/agent/tickets/9021) · [open] · 2026-09-23T22:51 · Thundermail signup
 - [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [pending] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
 - [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
-- [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [open] · 2026-09-24T01:48 · My folders do not sync
+- [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [pending] · 2026-09-24T01:48 · My folders do not sync
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
-- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [open] · 2026-09-24T03:08 · Alias fail
+- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [pending] · 2026-09-24T03:08 · Alias fail
 - [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [open] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
 - [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [open] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
@@ -359,7 +360,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8806](https://tbpro.zendesk.com/agent/tickets/8806) · 2026-09-23T22:02 · Secure Email Gateway
 - · [8700](https://tbpro.zendesk.com/agent/tickets/8700) · 2026-09-23T22:02 · External Domain
 - · [8190](https://tbpro.zendesk.com/agent/tickets/8190) · 2026-09-23T22:02 · All outgoing mail is going to recipients spam
-- · [8811](https://tbpro.zendesk.com/agent/tickets/8811) · 2026-09-24T18:01 · Account Deletion
+- · [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-24T19:01 · Missing Create App Password Option
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
