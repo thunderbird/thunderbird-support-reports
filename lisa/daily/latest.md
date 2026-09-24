@@ -1,26 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 11:33 ET** · refreshes hourly_  
+_Updated: **2026-09-24 12:38 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **531 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **21** new tickets in last 24h · **6** solved in last 24h
-- **533** tickets total since launch · contact rate **2%** of 35000 invitees
+- **19** new tickets in last 24h · **6** solved in last 24h
+- **531** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 66
 - **Median AHT**: 137.4h · mean 165.0h (proxy: updated_at − created_at, 376 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"afford annual"** — 2 tickets in 24h (new; baseline 0 cum) — [#9042](https://tbpro.zendesk.com/agent/tickets/9042), [#9043](https://tbpro.zendesk.com/agent/tickets/9043)
 
 ## Known problems — 8 problem(s), 63 incident(s)
 
@@ -194,9 +188,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 376
-- **pending**: 64
+- **pending**: 63
 - **closed**: 53
-- **open**: 30
+- **open**: 29
 - **hold**: 10
 
 ## Service (cumulative)
@@ -257,36 +251,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Aliases — 4 tickets
 
-- **[#9054](https://tbpro.zendesk.com/agent/tickets/9054)** · I want to go to the fair
-  > and eat fried dough and ride the ferris wheel
-- **[#9053](https://tbpro.zendesk.com/agent/tickets/9053)** · I like horseback riding
-  > and my horse's name is marley.
-- **[#9052](https://tbpro.zendesk.com/agent/tickets/9052)** · how about salmon?
-  > nigiri !
-- **[#9051](https://tbpro.zendesk.com/agent/tickets/9051)** · i like pizza
-  > with pepperoni. do you?
-- **[#9046](https://tbpro.zendesk.com/agent/tickets/9046)** · How about ice cream?
-  > mint chip
-- **[#9045](https://tbpro.zendesk.com/agent/tickets/9045)** · i want a burger
-  > with fries, and extra cheese.
+- **[#9063](https://tbpro.zendesk.com/agent/tickets/9063)** · Small Business Account?
+  > Hi all! I want to use Thundermail for my family's lemur rescue organization. I see that you can have up to 15 aliases, but what about separate accounts? Thanks!
+- **[#9060](https://tbpro.zendesk.com/agent/tickets/9060)** · Aliases
+  > Hello! I was hoping you could help me set up some aliases in Webmail. How does one do that? - Test McGee
+- **[#9059](https://tbpro.zendesk.com/agent/tickets/9059)** · Thundermail sux
+  > I would sign up for Thundermail, but Reddit told me it sucks. Do you agree?
+- **[#9030](https://tbpro.zendesk.com/agent/tickets/9030)** · Alias fail
+  > I created an alias [email] then it disappeared, then I tried creating it again and an error appears, what's up with that?
 
-### Pricing / monthly plan / free tier — 3 tickets
+### Thunderbird for Android + Thundermail — 3 tickets
 
-- **[#9043](https://tbpro.zendesk.com/agent/tickets/9043)** · how do i pay monthly?
-  > i can't afford annual
-- **[#9042](https://tbpro.zendesk.com/agent/tickets/9042)** · Is there monthly pricing?
-  > i cann't afford annual
+- **[#9062](https://tbpro.zendesk.com/agent/tickets/9062)** · where is my thundermail calendar?
+  > i can't find my thundermail calendar in thunderbird for Android!!! Help, please?!?
+- **[#9058](https://tbpro.zendesk.com/agent/tickets/9058)** · Thunderbird
+  > Hello there, how do I set up Outlook on my Thunderbirdo? I have an Apple phone - Beth
+- **[#9031](https://tbpro.zendesk.com/agent/tickets/9031)** · Cannot receive notification of new messages from thunderbird app for android
+  > Cannot receive notification of new messages from thunderbird app for android. Only when I open the app I can see them.
+
+### Pricing / monthly plan / free tier — 2 tickets
+
+- **[#9064](https://tbpro.zendesk.com/agent/tickets/9064)** · Monthly pricing
+  > I can't afford $72 for a year, but I can afford $6 a month. Do you guys offer Klarna or a similar pay-in-chunks service?
 - **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
   > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
-
-### Webmail — 2 tickets
-
-- **[#9055](https://tbpro.zendesk.com/agent/tickets/9055)** · can't sign up with [domain]
-  > I tried to sign up with [domain] and got thundermail. how do i change it?
-- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
-  > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
@@ -304,18 +294,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#9044](https://tbpro.zendesk.com/agent/tickets/9044)** · my custom domain isn't working
-  > help, my custom domain won't verify, squarespace requires a period at the end??
+- **[#9061](https://tbpro.zendesk.com/agent/tickets/9061)** · my domain [domain] doesn't work with Thundermail
+  > it won't verify, help!
 
-### Thunderbird for Android + Thundermail — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#9031](https://tbpro.zendesk.com/agent/tickets/9031)** · Cannot receive notification of new messages from thunderbird app for android
-  > Cannot receive notification of new messages from thunderbird app for android. Only when I open the app I can see them.
+- **[#9057](https://tbpro.zendesk.com/agent/tickets/9057)** · Thundernerd
+  > Hey nerd what is this product, nerd? Thunderhoopla - Jack
 
-### Aliases — 1 tickets
+### Webmail — 1 tickets
 
-- **[#9030](https://tbpro.zendesk.com/agent/tickets/9030)** · Alias fail
-  > I created an alias [email] then it disappeared, then I tried creating it again and an error appears, what's up with that?
+- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
+  > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
 
 ### App setup / configuration — 1 tickets
 
@@ -345,16 +335,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [open] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
 - [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [open] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
-- [9042](https://tbpro.zendesk.com/agent/tickets/9042) · [open] · 2026-09-24T12:47 · Is there monthly pricing?
-- [9043](https://tbpro.zendesk.com/agent/tickets/9043) · [open] · 2026-09-24T12:50 · how do i pay monthly?
-- [9044](https://tbpro.zendesk.com/agent/tickets/9044) · [open] · 2026-09-24T12:54 · my custom domain isn't working
-- [9045](https://tbpro.zendesk.com/agent/tickets/9045) · [open] · 2026-09-24T14:21 · i want a burger
-- [9046](https://tbpro.zendesk.com/agent/tickets/9046) · [open] · 2026-09-24T14:34 · How about ice cream?
-- [9051](https://tbpro.zendesk.com/agent/tickets/9051) · [open] · 2026-09-24T15:16 · i like pizza
-- [9052](https://tbpro.zendesk.com/agent/tickets/9052) · [open] · 2026-09-24T15:19 · how about salmon?
-- [9053](https://tbpro.zendesk.com/agent/tickets/9053) · [open] · 2026-09-24T15:24 · I like horseback riding
-- [9054](https://tbpro.zendesk.com/agent/tickets/9054) · [open] · 2026-09-24T15:26 · I want to go to the fair
-- [9055](https://tbpro.zendesk.com/agent/tickets/9055) · [open] · 2026-09-24T15:28 · can't sign up with [domain]
+- [9057](https://tbpro.zendesk.com/agent/tickets/9057) · [open] · 2026-09-24T15:43 · Thundernerd
+- [9058](https://tbpro.zendesk.com/agent/tickets/9058) · [open] · 2026-09-24T15:44 · Thunderbird
+- [9059](https://tbpro.zendesk.com/agent/tickets/9059) · [open] · 2026-09-24T15:44 · Thundermail sux
+- [9060](https://tbpro.zendesk.com/agent/tickets/9060) · [open] · 2026-09-24T15:45 · Aliases
+- [9061](https://tbpro.zendesk.com/agent/tickets/9061) · [open] · 2026-09-24T16:12 · my domain [domain] doesn't work with Thundermail
+- [9062](https://tbpro.zendesk.com/agent/tickets/9062) · [open] · 2026-09-24T16:17 · where is my thundermail calendar?
+- [9063](https://tbpro.zendesk.com/agent/tickets/9063) · [open] · 2026-09-24T16:28 · Small Business Account?
+- [9064](https://tbpro.zendesk.com/agent/tickets/9064) · [open] · 2026-09-24T16:29 · Monthly pricing
 
 ## Solved — last 24h
 
