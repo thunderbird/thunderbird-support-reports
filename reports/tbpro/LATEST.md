@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 13:24 ET** · refreshes hourly_  
+_Updated: **2026-09-24 14:34 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **531 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **6** solved in last 24h
-- **531** tickets total since launch · contact rate **2%** of 35000 invitees
+- **21** new tickets in last 24h · **7** solved in last 24h
+- **533** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
-- **Median AHT**: 137.4h · mean 165.0h (proxy: updated_at − created_at, 376 solved tickets)
+- **Median AHT**: 137.4h · mean 165.2h (proxy: updated_at − created_at, 375 solved tickets)
 
-## Known problems — 8 problem(s), 63 incident(s)
+## Known problems — 8 problem(s), 62 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -28,7 +28,7 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **531 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 55 incident(s):
+- 54 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -82,7 +82,6 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **531 tickets** so fa
   - [#8952](https://tbpro.zendesk.com/agent/tickets/8952) · [pending] · 2026-09-22 · _cancel and refund _
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [pending] · 2026-09-23 · _Delete this account_
   - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [pending] · 2026-09-23 · _Subscription in Error_
-  - [#8969](https://tbpro.zendesk.com/agent/tickets/8969) · [open] · 2026-09-23 · _Undo the Account, not interested in paid subscription_
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [pending] · 2026-09-23 · _Cancellation and Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -189,16 +188,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 376
-- **pending**: 64
-- **closed**: 53
-- **open**: 28
+- **solved**: 375
+- **pending**: 68
+- **closed**: 54
+- **open**: 26
 - **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 290
-- **Thundermail**: 190
+- **Thundermail**: 191
 - **Send**: 11
 - **Appointment**: 8
 
@@ -206,7 +205,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 119
+- **curious** + **explained**: 122
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 74
 - **confused** + **explained**: 30
@@ -264,6 +263,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9030](https://tbpro.zendesk.com/agent/tickets/9030)** · Alias fail
   > I created an alias [email] then it disappeared, then I tried creating it again and an error appears, what's up with that?
 
+### Spam / Junk Filtering — 3 tickets
+
+- **[#9066](https://tbpro.zendesk.com/agent/tickets/9066)** · Didn't receive OTP email.
+  > I tried to sign up for the Garuda Linux forum - https://[domain]/signup - and their OTP email didn't ever make it to my thundermail inbox. I tried two times and neither worked.…
+- **[#9065](https://tbpro.zendesk.com/agent/tickets/9065)** · My email is going to spam
+  > Hi there, My emails go into spam. Please give me help.
+- **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup
+  > I am trying to complete the signup process. (1) I pressed 'Subscribe' in the invitation email you sent to my [email] account, (2) in my browser I entered my chosen Thundermail…
+
 ### Thunderbird for Android + Thundermail — 3 tickets
 
 - **[#9062](https://tbpro.zendesk.com/agent/tickets/9062)** · where is my thundermail calendar?
@@ -284,8 +292,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
   > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
-- **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings?
-  > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
+- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini — why: **curious** · how: **explained**
+  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
 
 ### Pricing — general pricing concern — 2 tickets
 
@@ -309,27 +317,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
   > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
 
-### App setup / configuration — 1 tickets
-
-- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini
-  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup
-  > I am trying to complete the signup process. (1) I pressed 'Subscribe' in the invitation email you sent to my [email] account, (2) in my browser I entered my chosen Thundermail…
-
 ### Account access issues — 1 tickets
 
 - **[#9028](https://tbpro.zendesk.com/agent/tickets/9028)** · not allowing to log in bad password — why: **blocked** · how: **investigated**
   > what wrong? from login to login ? how do mess up a password!
 
+### MFA / two-factor — 1 tickets
+
+- **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings? — why: **curious** · how: **explained**
+  > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
+
 ## New tickets — last 24h
 
 - [9018](https://tbpro.zendesk.com/agent/tickets/9018) · [pending] · 2026-09-23T21:10 · thundermail
-- [9019](https://tbpro.zendesk.com/agent/tickets/9019) · [open] · 2026-09-23T21:23 · imap/etc settings?
+- [9019](https://tbpro.zendesk.com/agent/tickets/9019) · [pending] · 2026-09-23T21:23 · imap/etc settings?
 - [9021](https://tbpro.zendesk.com/agent/tickets/9021) · [open] · 2026-09-23T22:51 · Thundermail signup
-- [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [open] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
+- [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [pending] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
 - [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [open] · 2026-09-24T01:48 · My folders do not sync
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
@@ -345,6 +348,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9062](https://tbpro.zendesk.com/agent/tickets/9062) · [open] · 2026-09-24T16:17 · where is my thundermail calendar?
 - [9063](https://tbpro.zendesk.com/agent/tickets/9063) · [open] · 2026-09-24T16:28 · Small Business Account?
 - [9064](https://tbpro.zendesk.com/agent/tickets/9064) · [open] · 2026-09-24T16:29 · Monthly pricing
+- [9065](https://tbpro.zendesk.com/agent/tickets/9065) · [open] · 2026-09-24T17:44 · My email is going to spam
+- [9066](https://tbpro.zendesk.com/agent/tickets/9066) · [open] · 2026-09-24T18:00 · Didn't receive OTP email.
 
 ## Solved — last 24h
 
@@ -354,6 +359,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8806](https://tbpro.zendesk.com/agent/tickets/8806) · 2026-09-23T22:02 · Secure Email Gateway
 - · [8700](https://tbpro.zendesk.com/agent/tickets/8700) · 2026-09-23T22:02 · External Domain
 - · [8190](https://tbpro.zendesk.com/agent/tickets/8190) · 2026-09-23T22:02 · All outgoing mail is going to recipients spam
+- · [8811](https://tbpro.zendesk.com/agent/tickets/8811) · 2026-09-24T18:01 · Account Deletion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
