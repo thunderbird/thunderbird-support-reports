@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 22:32 ET** · refreshes hourly_  
+_Updated: **2026-09-23 23:26 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 45** of rollout — **35,000 invitees**, **518 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 45** of rollout — **35,000 invitees**, **521 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
 - **35** new tickets in last 24h · **8** solved in last 24h
-- **518** tickets total since launch · contact rate **1%** of 35000 invitees
+- **521** tickets total since launch · contact rate **1%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (132 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 66
@@ -21,7 +21,7 @@ Flight 8 is **day 45** of rollout — **35,000 invitees**, **518 tickets** so fa
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"very much"** — 3 tickets in 24h (26.4× baseline; baseline 5 cum) — [#8958](https://tbpro.zendesk.com/agent/tickets/8958), [#8978](https://tbpro.zendesk.com/agent/tickets/8978), [#9010](https://tbpro.zendesk.com/agent/tickets/9010)
-- **"reported date steps"** — 2 tickets in 24h (88.0× baseline; baseline 1 cum) — [#8949](https://tbpro.zendesk.com/agent/tickets/8949), [#9007](https://tbpro.zendesk.com/agent/tickets/9007)
+- **"status open"** — 2 tickets in 24h (88.0× baseline; baseline 1 cum) — [#8949](https://tbpro.zendesk.com/agent/tickets/8949), [#9007](https://tbpro.zendesk.com/agent/tickets/9007)
 - **"refund policy"** — 2 tickets in 24h (44.0× baseline; baseline 2 cum) — [#8965](https://tbpro.zendesk.com/agent/tickets/8965), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 
 ## Known problems — 8 problem(s), 63 incident(s)
@@ -193,7 +193,7 @@ Regards, [name]_
 
 **Last 24h** — 3 new:
 
-- [Block specific aliases from catch-all](https://ideas.tb.pro/p/block-specific-aliases-from-catch-all) · 1 votes · _Thundermail, New Feature_
+- [Block specific aliases from catch-all](https://ideas.tb.pro/p/block-specific-aliases-from-catch-all) · 2 votes · _Thundermail, New Feature_
   > What you’d like to seeWhile catch-all is useful to not bother setting up the aliases, when one of the addresses gets spammed I would love the option to reject mail from that address.So it should work…
 - [Read and delivery receipts (like in Exchange)](https://ideas.tb.pro/p/read-and-delivery-receipts-like-in-exchange) · 1 votes · _Thundermail, New Feature_
   > What you’d like to seeFor reliable business email, these two are a must.Why it mattersHelps with audit trail re delivery receipts in particular.Your use caseI need to email a government agency or…
@@ -207,12 +207,12 @@ Regards, [name]_
 - **closed**: 50
 - **open**: 13
 - **hold**: 10
-- **new**: 2
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 288
-- **Thundermail**: 188
+- **Thundermail**: 190
 - **Send**: 11
 - **Appointment**: 8
 
