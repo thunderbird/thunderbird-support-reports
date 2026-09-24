@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 15:21 ET** · refreshes hourly_  
+_Updated: **2026-09-24 16:24 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so fa
 
 ## At a glance
 
-- **21** new tickets in last 24h · **7** solved in last 24h
+- **20** new tickets in last 24h · **9** solved in last 24h
 - **533** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 92%  (133 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
-- **Median AHT**: 136.9h · mean 164.8h (proxy: updated_at − created_at, 375 solved tickets)
+- **Median AHT**: 136.9h · mean 164.6h (proxy: updated_at − created_at, 377 solved tickets)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -102,7 +102,7 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so fa
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
 - 1 incident(s):
-  - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
+  - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [solved] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
@@ -111,7 +111,7 @@ Flight 8 is **day 46** of rollout — **35,000 invitees**, **533 tickets** so fa
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
-- 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/mailstrom#260](https://github.com/thunderbird/mailstrom/issues/260) · _Light mode toggle doesn’t remember state in message preview_
+- 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
 - ✅ [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
@@ -188,16 +188,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 375
+- **solved**: 377
 - **pending**: 71
 - **closed**: 54
-- **open**: 23
+- **open**: 21
 - **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 290
-- **Thundermail**: 191
+- **Account Hub**: 293
+- **Thundermail**: 189
 - **Send**: 11
 - **Appointment**: 8
 
@@ -208,8 +208,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 122
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 74
-- **confused** + **explained**: 30
-- **curious** + **informed**: 27
+- **confused** + **explained**: 31
+- **curious** + **informed**: 28
 - **blocked** + **investigated**: 25
 - **request** + **redirected**: 23
 - **concerned** + **explained**: 21
@@ -270,24 +270,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I tried to sign up for the Garuda Linux forum - https://[domain]/signup - and their OTP email didn't ever make it to my thundermail inbox. I tried two times and neither worked.…
 - **[#9065](https://tbpro.zendesk.com/agent/tickets/9065)** · My email is going to spam
   > Hi there, My emails go into spam. Please give me help.
-- **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup
+- **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup — why: **confused** · how: **explained**
   > I am trying to complete the signup process. (1) I pressed 'Subscribe' in the invitation email you sent to my [email] account, (2) in my browser I entered my chosen Thundermail…
 
-### Thunderbird for Android + Thundermail — 3 tickets
+### Email Protocols (IMAP/SMTP/POP) — 3 tickets
+
+- **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning — why: **curious** · how: **informed**
+  > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
+- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
+  > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
+- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini — why: **curious** · how: **explained**
+  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
+
+### Thunderbird for Android + Thundermail — 2 tickets
 
 - **[#9062](https://tbpro.zendesk.com/agent/tickets/9062)** · where is my thundermail calendar?
   > i can't find my thundermail calendar in thunderbird for Android!!! Help, please?!?
 - **[#9058](https://tbpro.zendesk.com/agent/tickets/9058)** · Thunderbird
   > Hello there, how do I set up Outlook on my Thunderbirdo? I have an Apple phone - Beth
-- **[#9031](https://tbpro.zendesk.com/agent/tickets/9031)** · Cannot receive notification of new messages from thunderbird app for android
-  > Cannot receive notification of new messages from thunderbird app for android. Only when I open the app I can see them.
-
-### Pricing / monthly plan / free tier — 2 tickets
-
-- **[#9064](https://tbpro.zendesk.com/agent/tickets/9064)** · Monthly pricing
-  > I can't afford $72 for a year, but I can afford $6 a month. Do you guys offer Klarna or a similar pay-in-chunks service?
-- **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning
-  > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
 
 ### Pricing — general pricing concern — 2 tickets
 
@@ -296,12 +296,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9018](https://tbpro.zendesk.com/agent/tickets/9018)** · thundermail — why: **curious** · how: **explained**
   > I was a tbird user for years but moved to gmail. I still have tbird as a backup. I'm interested in how the new thundermail works but I will not pay anything until I see it in…
 
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+### Pricing / monthly plan / free tier — 1 tickets
 
-- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
-  > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
-- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini — why: **curious** · how: **explained**
-  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
+- **[#9064](https://tbpro.zendesk.com/agent/tickets/9064)** · Monthly pricing
+  > I can't afford $72 for a year, but I can afford $6 a month. Do you guys offer Klarna or a similar pay-in-chunks service?
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -313,15 +311,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9057](https://tbpro.zendesk.com/agent/tickets/9057)** · Thundernerd
   > Hey nerd what is this product, nerd? Thunderhoopla - Jack
 
-### Webmail — 1 tickets
-
-- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
-  > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
-
 ### Account access issues — 1 tickets
 
 - **[#9028](https://tbpro.zendesk.com/agent/tickets/9028)** · not allowing to log in bad password — why: **blocked** · how: **investigated**
   > what wrong? from login to login ? how do mess up a password!
+
+### Webmail — 1 tickets
+
+- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
+  > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
 
 ### MFA / two-factor — 1 tickets
 
@@ -336,10 +334,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [pending] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
 - [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [open] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [pending] · 2026-09-24T01:48 · My folders do not sync
-- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
+- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [open] · 2026-09-24T03:00 · not allowing to log in bad password
 - [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [pending] · 2026-09-24T03:08 · Alias fail
-- [9031](https://tbpro.zendesk.com/agent/tickets/9031) · [open] · 2026-09-24T04:15 · Cannot receive notification of new messages from thunderbird app for android
-- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [open] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
+- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
 - [9057](https://tbpro.zendesk.com/agent/tickets/9057) · [open] · 2026-09-24T15:43 · Thundernerd
 - [9058](https://tbpro.zendesk.com/agent/tickets/9058) · [open] · 2026-09-24T15:44 · Thunderbird
@@ -361,6 +358,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8700](https://tbpro.zendesk.com/agent/tickets/8700) · 2026-09-23T22:02 · External Domain
 - · [8190](https://tbpro.zendesk.com/agent/tickets/8190) · 2026-09-23T22:02 · All outgoing mail is going to recipients spam
 - · [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-24T19:01 · Missing Create App Password Option
+- · [8913](https://tbpro.zendesk.com/agent/tickets/8913) · 2026-09-24T19:23 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
+- 👍 [8811](https://tbpro.zendesk.com/agent/tickets/8811) · 2026-09-24T19:24 · Account Deletion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
