@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-23
 
-_Updated: **2026-09-23 19:18 ET** · refreshes hourly_  
+_Updated: **2026-09-23 20:55 ET** · refreshes hourly_  
 _24h window: 2026-09-22T16:00 → 2026-09-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -21,7 +21,7 @@ Flight 8 is **day 45** of rollout — **35,000 invitees**, **516 tickets** so fa
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"very much"** — 3 tickets in 24h (26.4× baseline; baseline 5 cum) — [#8958](https://tbpro.zendesk.com/agent/tickets/8958), [#8978](https://tbpro.zendesk.com/agent/tickets/8978), [#9010](https://tbpro.zendesk.com/agent/tickets/9010)
-- **"reported date steps"** — 2 tickets in 24h (88.0× baseline; baseline 1 cum) — [#8949](https://tbpro.zendesk.com/agent/tickets/8949), [#9007](https://tbpro.zendesk.com/agent/tickets/9007)
+- **"current status open"** — 2 tickets in 24h (88.0× baseline; baseline 1 cum) — [#8949](https://tbpro.zendesk.com/agent/tickets/8949), [#9007](https://tbpro.zendesk.com/agent/tickets/9007)
 - **"refund policy"** — 2 tickets in 24h (44.0× baseline; baseline 2 cum) — [#8965](https://tbpro.zendesk.com/agent/tickets/8965), [#8978](https://tbpro.zendesk.com/agent/tickets/8978)
 
 ## Known problems — 8 problem(s), 63 incident(s)
@@ -111,7 +111,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
 - 1 incident(s):
-  - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [pending] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
+  - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [open] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
@@ -193,19 +193,19 @@ Regards, [name]_
 
 **Last 24h** — 3 new:
 
-- [Block specific aliases from catch-all](https://ideas.tb.pro/p/block-specific-aliases-from-catch-all) · 1 votes · _untagged_
+- [Block specific aliases from catch-all](https://ideas.tb.pro/p/block-specific-aliases-from-catch-all) · 1 votes · _Thundermail, New Feature_
   > What you’d like to seeWhile catch-all is useful to not bother setting up the aliases, when one of the addresses gets spammed I would love the option to reject mail from that address.So it should work…
-- [Read and delivery receipts (like in Exchange)](https://ideas.tb.pro/p/read-and-delivery-receipts-like-in-exchange) · 1 votes · _untagged_
+- [Read and delivery receipts (like in Exchange)](https://ideas.tb.pro/p/read-and-delivery-receipts-like-in-exchange) · 1 votes · _Thundermail, New Feature_
   > What you’d like to seeFor reliable business email, these two are a must.Why it mattersHelps with audit trail re delivery receipts in particular.Your use caseI need to email a government agency or…
-- [Threaded Conversations and Email Signature](https://ideas.tb.pro/p/threaded-conversations-and-email-signature) · 1 votes · _untagged_
+- [Threaded Conversations](https://ideas.tb.pro/p/threaded-conversations) · 1 votes · _Thundermail, Improvement, Webmail_
   > Currently every email from an ongoing conversation shows up as a separate email in the inbox. How about showing up as a thread just like outlook or Gmail do for a cleaner inbox experience.Also, a way…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 381
-- **pending**: 64
+- **pending**: 62
 - **closed**: 50
-- **open**: 11
+- **open**: 13
 - **hold**: 10
 
 ## Service (cumulative)
@@ -418,7 +418,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9009](https://tbpro.zendesk.com/agent/tickets/9009) · [pending] · 2026-09-23T15:56 · Thundermail
 - [9010](https://tbpro.zendesk.com/agent/tickets/9010) · [pending] · 2026-09-23T16:00 · Use in my small business
 - [9011](https://tbpro.zendesk.com/agent/tickets/9011) · [open] · 2026-09-23T16:20 · I have seen some emails disappear from my accounts, what are the email backup size limitations,  are
-- [9014](https://tbpro.zendesk.com/agent/tickets/9014) · [pending] · 2026-09-23T17:03 · Missing Create App Password Option
+- [9014](https://tbpro.zendesk.com/agent/tickets/9014) · [open] · 2026-09-23T17:03 · Missing Create App Password Option
 - [9015](https://tbpro.zendesk.com/agent/tickets/9015) · [open] · 2026-09-23T17:42 · Change primary address
 - [9016](https://tbpro.zendesk.com/agent/tickets/9016) · [pending] · 2026-09-23T18:05 · set up forwarding from old email
 
