@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 14:26 ET** · refreshes hourly_  
+_Updated: **2026-09-25 15:18 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **546 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **547 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **24** new tickets in last 24h · **8** solved in last 24h
-- **546** tickets total since launch · contact rate **2%** of 35000 invitees
+- **25** new tickets in last 24h · **8** solved in last 24h
+- **547** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -21,7 +21,7 @@ Flight 8 is **day 47** of rollout — **35,000 invitees**, **546 tickets** so fa
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"test android"** — 2 tickets in 24h (new; baseline 0 cum) — [#9120](https://tbpro.zendesk.com/agent/tickets/9120), [#9127](https://tbpro.zendesk.com/agent/tickets/9127)
-- **"traditional territories muscogee"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
+- **"muscogee cherokee east"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
 
 ## Known problems — 8 problem(s), 64 incident(s)
 
@@ -196,16 +196,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 380
-- **pending**: 81
+- **pending**: 84
 - **closed**: 57
-- **open**: 17
+- **open**: 15
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 300
-- **Thundermail**: 195
-- **Send**: 12
+- **Thundermail**: 197
+- **Send**: 11
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -215,12 +215,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 123
 - **blocked** + **explained**: 76
 - **change request** + **actioned**: 76
-- **confused** + **explained**: 32
+- **confused** + **explained**: 33
 - **curious** + **informed**: 29
 - **blocked** + **investigated**: 26
 - **request** + **redirected**: 23
 - **concerned** + **explained**: 21
-- **confused** + **informed**: 18
+- **confused** + **informed**: 19
 - **blocked** + **redirected**: 15
 - **blocked** + **escalated**: 11
 - **blocked** + **informed**: 10
@@ -278,10 +278,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9080](https://tbpro.zendesk.com/agent/tickets/9080)** · cannot complete sign up — why: **blocked**
   > I am unable to complete my sigh up. I started with Kevin@thundermail and could not complete so I tried [email] and still get an error page.
 
+### Email Protocols (IMAP/SMTP/POP) — 3 tickets
+
+- **[#9131](https://tbpro.zendesk.com/agent/tickets/9131)** · Can not use Thundermail? — why: **confused** · how: **explained**
+  > Purchased Thundermail, the only thing I can login is the web interface? What is the problem!! Or should I request my money back and indicate to my contacts that Thundermail is…
+- **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
+  > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
+- **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients — why: **confused** · how: **informed**
+  > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
+
 ### Webmail — 2 tickets
 
-- **[#9131](https://tbpro.zendesk.com/agent/tickets/9131)** · Can not use Thundermail?
-  > Purchased Thundermail, the only thing I can login is the web interface? What is the problem!! Or should I request my money back and indicate to my contacts that Thundermail is…
+- **[#9138](https://tbpro.zendesk.com/agent/tickets/9138)** · Display name
+  > Hi I went into my account and changed my display name a couple of week ago, however when I am using webmail, it is still sending my old display name on emails. Not sure if there…
 - **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
   > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
 
@@ -312,13 +321,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hoobastank Hoobastank Hoobastank
 - **[#9082](https://tbpro.zendesk.com/agent/tickets/9082)** · パスワードを忘れた — why: **blocked**
   > パスワードの再設定
-
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
-
-- **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
-  > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
-- **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
-  > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -353,7 +355,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [open] · 2026-09-24T20:17 · second thundermail account login problem
-- [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [open] · 2026-09-24T20:32 · Cannot send to Gmail recipients
+- [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [pending] · 2026-09-24T20:32 · Cannot send to Gmail recipients
 - [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [solved] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
 - [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [pending] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
@@ -374,8 +376,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9127](https://tbpro.zendesk.com/agent/tickets/9127) · [open] · 2026-09-25T15:30 · [ai-test] Android issues
 - [9128](https://tbpro.zendesk.com/agent/tickets/9128) · [open] · 2026-09-25T15:31 · [ai-test] Calendar Appointment
 - [9129](https://tbpro.zendesk.com/agent/tickets/9129) · [open] · 2026-09-25T15:32 · [ai-test] Why purchase
-- [9131](https://tbpro.zendesk.com/agent/tickets/9131) · [open] · 2026-09-25T15:58 · Can not use Thundermail?
+- [9131](https://tbpro.zendesk.com/agent/tickets/9131) · [pending] · 2026-09-25T15:58 · Can not use Thundermail?
 - [9135](https://tbpro.zendesk.com/agent/tickets/9135) · [pending] · 2026-09-25T16:42 · Cancel my account
+- [9138](https://tbpro.zendesk.com/agent/tickets/9138) · [open] · 2026-09-25T18:58 · Display name
 
 ## Solved — last 24h
 
