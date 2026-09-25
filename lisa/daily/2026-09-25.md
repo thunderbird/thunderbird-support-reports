@@ -1,28 +1,29 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 11:24 ET** · refreshes hourly_  
+_Updated: **2026-09-25 12:26 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **540 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **545 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **4** solved in last 24h
-- **540** tickets total since launch · contact rate **2%** of 35000 invitees
+- **23** new tickets in last 24h · **7** solved in last 24h
+- **545** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 136.6h · mean 163.6h (proxy: updated_at − created_at, 378 solved tickets)
+- **Median AHT**: 136.5h · mean 162.9h (proxy: updated_at − created_at, 379 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"logo wordmark grateful"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
+- **"test android"** — 2 tickets in 24h (new; baseline 0 cum) — [#9120](https://tbpro.zendesk.com/agent/tickets/9120), [#9127](https://tbpro.zendesk.com/agent/tickets/9127)
+- **"east peoples atlanta"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
 
-## Known problems — 8 problem(s), 63 incident(s)
+## Known problems — 8 problem(s), 62 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 1 incident(s):
@@ -34,7 +35,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 55 incident(s):
+- 54 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -89,7 +90,6 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [pending] · 2026-09-23 · _Delete this account_
   - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [pending] · 2026-09-23 · _Subscription in Error_
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [pending] · 2026-09-23 · _Cancellation and Refund_
-  - [#9093](https://tbpro.zendesk.com/agent/tickets/9093) · [open] · 2026-09-25 · _Cancellation and refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -191,16 +191,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 378
-- **pending**: 71
-- **closed**: 55
+- **solved**: 379
+- **pending**: 73
+- **closed**: 57
 - **open**: 25
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 297
-- **Thundermail**: 195
+- **Account Hub**: 296
+- **Thundermail**: 196
 - **Send**: 12
 - **Appointment**: 8
 
@@ -210,7 +210,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 122
 - **blocked** + **explained**: 75
-- **change request** + **actioned**: 75
+- **change request** + **actioned**: 74
 - **confused** + **explained**: 32
 - **curious** + **informed**: 29
 - **blocked** + **investigated**: 26
@@ -243,6 +243,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
+- **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
@@ -255,12 +256,49 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Thunderbird for Android + Thundermail — 2 tickets
+### Thunderbird for Android + Thundermail — 3 tickets
 
+- **[#9127](https://tbpro.zendesk.com/agent/tickets/9127)** · [ai-test] Android issues
+  > No matter what I do, my Android keeps crashing every time I attach a file in Thunderbird. What do
 - **[#9124](https://tbpro.zendesk.com/agent/tickets/9124)** · [ai-test] How do I add my Thundermail account to iOS?
   > I don't see an iOS app and I want to have my Thundermail account on my phone. Help!
 - **[#9120](https://tbpro.zendesk.com/agent/tickets/9120)** · [ai-test] Thunderbird Android app notifications
   > Hi! I connected Thundermail to the Android app but I'm not getting any notifications. Can someone help? Also, any thoughts on your favorite pie? I'm partial to peach. -- *Monica…
+
+### Webmail — 2 tickets
+
+- **[#9131](https://tbpro.zendesk.com/agent/tickets/9131)** · Can not use Thundermail?
+  > Purchased Thundermail, the only thing I can login is the web interface? What is the problem!! Or should I request my money back and indicate to my contacts that Thundermail is…
+- **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
+  > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
+
+### Aliases — 2 tickets
+
+- **[#9129](https://tbpro.zendesk.com/agent/tickets/9129)** · [ai-test] Why purchase
+  > Why would I purchase a Thundermail plan if Thunderbird is already free?
+- **[#9085](https://tbpro.zendesk.com/agent/tickets/9085)** · custom domain and aliases
+  > Hello, I added a custom domain, seems verified OK. [domain] How do I re-add aliases I got previously setup on my past email provider? like [email] pointing to my thundermail INBOX
+
+### Appointment / calendar — 2 tickets
+
+- **[#9128](https://tbpro.zendesk.com/agent/tickets/9128)** · [ai-test] Calendar Appointment
+  > How do I add an additional calendar?
+- **[#9119](https://tbpro.zendesk.com/agent/tickets/9119)** · [ai-test]
+  > I am having trouble connecting my Thundermail calendar on my iPhone. Can anyone help me with that? Also, what kind of ice cream do you all like? My favorite is rocky road. --…
+
+### App setup / configuration — 2 tickets
+
+- **[#9126](https://tbpro.zendesk.com/agent/tickets/9126)** · [ai-test] How to set up Thunderbird
+  > Hello. How can I set up Gmail in Thunderbird?
+- **[#9109](https://tbpro.zendesk.com/agent/tickets/9109)** · How to get my thuderbird email account and access — why: **curious**
+  > I'm trying to log in and create a Thunderbird email account so I can back up all my accounts and emails, and maybe use it simultaneously on different devices. How do I get this…
+
+### Other / uncategorized — 2 tickets
+
+- **[#9125](https://tbpro.zendesk.com/agent/tickets/9125)** · [ai-test] Hoobastank
+  > Hoobastank Hoobastank Hoobastank
+- **[#9082](https://tbpro.zendesk.com/agent/tickets/9082)** · パスワードを忘れた
+  > パスワードの再設定
 
 ### Account access issues — 2 tickets
 
@@ -278,40 +316,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
-- **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
-  > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 - **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
   > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
+- **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
+  > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 
-### Appointment / calendar — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#9119](https://tbpro.zendesk.com/agent/tickets/9119)** · [ai-test]
-  > I am having trouble connecting my Thundermail calendar on my iPhone. Can anyone help me with that? Also, what kind of ice cream do you all like? My favorite is rocky road. --…
-
-### App setup / configuration — 1 tickets
-
-- **[#9109](https://tbpro.zendesk.com/agent/tickets/9109)** · How to get my thuderbird email account and access
-  > I'm trying to log in and create a Thunderbird email account so I can back up all my accounts and emails, and maybe use it simultaneously on different devices. How do I get this…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9093](https://tbpro.zendesk.com/agent/tickets/9093)** · Cancellation and refund — why: **change request** · how: **actioned**
-  > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
-
-### Aliases — 1 tickets
-
-- **[#9085](https://tbpro.zendesk.com/agent/tickets/9085)** · custom domain and aliases
-  > Hello, I added a custom domain, seems verified OK. [domain] How do I re-add aliases I got previously setup on my past email provider? like [email] pointing to my thundermail INBOX
+- **[#9092](https://tbpro.zendesk.com/agent/tickets/9092)** · Blocked Emails — why: **concerned** · how: **investigated**
+  > Hi my name is [name]. In my endeavours to filter spam I think I have blocked all incoming emails from @gmail, @outlook and @hotmail can you please tell me how I can unblock these…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#9083](https://tbpro.zendesk.com/agent/tickets/9083)** · Account deletion
   > I'd like to delete my account and all of the attached data.
-
-### Other / uncategorized — 1 tickets
-
-- **[#9082](https://tbpro.zendesk.com/agent/tickets/9082)** · パスワードを忘れた
-  > パスワードの再設定
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -323,21 +341,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
   > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
 
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9092](https://tbpro.zendesk.com/agent/tickets/9092)** · Blocked Emails — why: **concerned** · how: **investigated**
-  > Hi my name is [name]. In my endeavours to filter spam I think I have blocked all incoming emails from @gmail, @outlook and @hotmail can you please tell me how I can unblock these…
-
-### Webmail — 1 tickets
-
-- **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
-  > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
-
 ## New tickets — last 24h
 
 - [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [open] · 2026-09-24T20:17 · second thundermail account login problem
 - [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [open] · 2026-09-24T20:32 · Cannot send to Gmail recipients
-- [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [open] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
+- [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [solved] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
 - [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [open] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
 - [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [open] · 2026-09-25T00:31 · Question 
@@ -347,12 +355,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [open] · 2026-09-25T04:03 · Account deletion
 - [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [open] · 2026-09-25T05:09 · custom domain and aliases
 - [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [open] · 2026-09-25T05:46 · login issues
-- [9092](https://tbpro.zendesk.com/agent/tickets/9092) · [pending] · 2026-09-25T10:13 · Blocked Emails
-- [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [open] · 2026-09-25T11:18 · Cancellation and refund
-- [9109](https://tbpro.zendesk.com/agent/tickets/9109) · [open] · 2026-09-25T12:32 · How to get my thuderbird email account and access
+- [9092](https://tbpro.zendesk.com/agent/tickets/9092) · [open] · 2026-09-25T10:13 · Blocked Emails
+- [9109](https://tbpro.zendesk.com/agent/tickets/9109) · [pending] · 2026-09-25T12:32 · How to get my thuderbird email account and access
 - [9119](https://tbpro.zendesk.com/agent/tickets/9119) · [open] · 2026-09-25T13:19 · [ai-test]
 - [9120](https://tbpro.zendesk.com/agent/tickets/9120) · [open] · 2026-09-25T13:21 · [ai-test] Thunderbird Android app notifications
 - [9124](https://tbpro.zendesk.com/agent/tickets/9124) · [open] · 2026-09-25T14:19 · [ai-test] How do I add my Thundermail account to iOS?
+- [9125](https://tbpro.zendesk.com/agent/tickets/9125) · [open] · 2026-09-25T15:28 · [ai-test] Hoobastank
+- [9126](https://tbpro.zendesk.com/agent/tickets/9126) · [open] · 2026-09-25T15:29 · [ai-test] How to set up Thunderbird
+- [9127](https://tbpro.zendesk.com/agent/tickets/9127) · [open] · 2026-09-25T15:30 · [ai-test] Android issues
+- [9128](https://tbpro.zendesk.com/agent/tickets/9128) · [open] · 2026-09-25T15:31 · [ai-test] Calendar Appointment
+- [9129](https://tbpro.zendesk.com/agent/tickets/9129) · [open] · 2026-09-25T15:32 · [ai-test] Why purchase
+- [9131](https://tbpro.zendesk.com/agent/tickets/9131) · [open] · 2026-09-25T15:58 · Can not use Thundermail?
 
 ## Solved — last 24h
 
@@ -360,6 +373,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-24T23:41 · Please confirm whether my Thundermail waitlist signup was successful
 - · [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-25T00:46 · error: 525
 - 👍 [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-25T13:43 · can't verify custom domain
+- · [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-25T15:24 · additional accounts
+- · [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-25T15:49 · Thundermail web & mobile for Sailfish OS
+- · [8836](https://tbpro.zendesk.com/agent/tickets/8836) · 2026-09-25T15:58 · Unable to send from iOS devices
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
