@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 12:26 ET** · refreshes hourly_  
+_Updated: **2026-09-25 13:20 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **545 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **546 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **23** new tickets in last 24h · **7** solved in last 24h
-- **545** tickets total since launch · contact rate **2%** of 35000 invitees
+- **24** new tickets in last 24h · **7** solved in last 24h
+- **546** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -21,7 +21,7 @@ Flight 8 is **day 47** of rollout — **35,000 invitees**, **545 tickets** so fa
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"test android"** — 2 tickets in 24h (new; baseline 0 cum) — [#9120](https://tbpro.zendesk.com/agent/tickets/9120), [#9127](https://tbpro.zendesk.com/agent/tickets/9127)
-- **"east peoples atlanta"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
+- **"east peoples"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -178,10 +178,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
-- [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [open] · _Cancellation and refund_
+- [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [solved] · _Cancellation and refund_
   > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
+- [9135](https://tbpro.zendesk.com/agent/tickets/9135) · [open] · _Cancel my account_
+  > I have tried the service but do not wish to continue using it, and I am cancelling effective immediately. Please send a confirmation of cancellation to the email address I have on file.
 
 ## New ideas on FeatureOS
 
@@ -192,14 +194,14 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 379
-- **pending**: 73
+- **pending**: 74
 - **closed**: 57
 - **open**: 25
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 296
+- **Account Hub**: 297
 - **Thundermail**: 196
 - **Send**: 12
 - **Appointment**: 8
@@ -208,7 +210,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 122
+- **curious** + **explained**: 123
 - **blocked** + **explained**: 75
 - **change request** + **actioned**: 74
 - **confused** + **explained**: 32
@@ -321,6 +323,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
   > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9135](https://tbpro.zendesk.com/agent/tickets/9135)** · Cancel my account
+  > I have tried the service but do not wish to continue using it, and I am cancelling effective immediately. Please send a confirmation of cancellation to the email address I have on…
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#9092](https://tbpro.zendesk.com/agent/tickets/9092)** · Blocked Emails — why: **concerned** · how: **investigated**
@@ -331,15 +338,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9083](https://tbpro.zendesk.com/agent/tickets/9083)** · Account deletion
   > I'd like to delete my account and all of the attached data.
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9079](https://tbpro.zendesk.com/agent/tickets/9079)** · Question 
-  > Gentlemen, Moscow Non-profit organization uniting disabled people with locomotive system dysfunction would kindly ask you if it is possible to provide us a possibility of using…
-
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
   > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
+
+### Pricing — general pricing concern — 1 tickets
+
+- **[#9079](https://tbpro.zendesk.com/agent/tickets/9079)** · Question  — why: **curious** · how: **explained**
+  > Gentlemen, Moscow Non-profit organization uniting disabled people with locomotive system dysfunction would kindly ask you if it is possible to provide us a possibility of using…
 
 ## New tickets — last 24h
 
@@ -348,7 +355,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [solved] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
 - [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [open] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
-- [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [open] · 2026-09-25T00:31 · Question 
+- [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [pending] · 2026-09-25T00:31 · Question 
 - [9080](https://tbpro.zendesk.com/agent/tickets/9080) · [open] · 2026-09-25T00:46 · cannot complete sign up
 - [9081](https://tbpro.zendesk.com/agent/tickets/9081) · [open] · 2026-09-25T02:45 · error
 - [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [open] · 2026-09-25T02:50 · パスワードを忘れた
@@ -366,6 +373,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9128](https://tbpro.zendesk.com/agent/tickets/9128) · [open] · 2026-09-25T15:31 · [ai-test] Calendar Appointment
 - [9129](https://tbpro.zendesk.com/agent/tickets/9129) · [open] · 2026-09-25T15:32 · [ai-test] Why purchase
 - [9131](https://tbpro.zendesk.com/agent/tickets/9131) · [open] · 2026-09-25T15:58 · Can not use Thundermail?
+- [9135](https://tbpro.zendesk.com/agent/tickets/9135) · [open] · 2026-09-25T16:42 · Cancel my account
 
 ## Solved — last 24h
 
