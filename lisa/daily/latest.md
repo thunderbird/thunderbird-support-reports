@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 17:20 ET** · refreshes hourly_  
+_Updated: **2026-09-25 18:21 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 47** of rollout — **35,000 invitees**, **540 tickets** so fa
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
-- **Median AHT**: 136.4h · mean 162.7h (proxy: updated_at − created_at, 380 solved tickets)
+- **Median AHT**: 136.4h · mean 162.1h (proxy: updated_at − created_at, 382 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -189,8 +189,8 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 380
-- **pending**: 87
+- **solved**: 382
+- **pending**: 85
 - **closed**: 57
 - **hold**: 11
 - **open**: 5
@@ -254,6 +254,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — Account Hub trouble — 3 tickets
+
+- **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
+  > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
+- **[#9087](https://tbpro.zendesk.com/agent/tickets/9087)** · login issues — why: **blocked** · how: **explained**
+  > cannot log into my account ([email]); has this webaccess been blocked?
+- **[#9080](https://tbpro.zendesk.com/agent/tickets/9080)** · cannot complete sign up — why: **blocked**
+  > I am unable to complete my sigh up. I started with Kevin@thundermail and could not complete so I tried [email] and still get an error page.
+
 ### Email Protocols (IMAP/SMTP/POP) — 3 tickets
 
 - **[#9131](https://tbpro.zendesk.com/agent/tickets/9131)** · Can not use Thundermail? — why: **confused** · how: **explained**
@@ -263,21 +272,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients — why: **confused** · how: **informed**
   > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
 
-### Account access issues — Account Hub trouble — 3 tickets
-
-- **[#9087](https://tbpro.zendesk.com/agent/tickets/9087)** · login issues — why: **blocked** · how: **explained**
-  > cannot log into my account ([email]); has this webaccess been blocked?
-- **[#9080](https://tbpro.zendesk.com/agent/tickets/9080)** · cannot complete sign up — why: **blocked**
-  > I am unable to complete my sigh up. I started with Kevin@thundermail and could not complete so I tried [email] and still get an error page.
-- **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
-  > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
-
 ### Webmail — 2 tickets
 
 - **[#9138](https://tbpro.zendesk.com/agent/tickets/9138)** · Display name — why: **confused** · how: **informed**
   > Hi I went into my account and changed my display name a couple of week ago, however when I am using webmail, it is still sending my old display name on emails. Not sure if there…
 - **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
   > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
+
+### Other / uncategorized — 1 tickets
+
+- **[#9082](https://tbpro.zendesk.com/agent/tickets/9082)** · パスワードを忘れた — why: **blocked**
+  > パスワードの再設定
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -304,11 +309,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9083](https://tbpro.zendesk.com/agent/tickets/9083)** · Account deletion — why: **change request** · how: **actioned**
   > I'd like to delete my account and all of the attached data.
 
-### Other / uncategorized — 1 tickets
-
-- **[#9082](https://tbpro.zendesk.com/agent/tickets/9082)** · パスワードを忘れた — why: **blocked**
-  > パスワードの再設定
-
 ### Early bird signup — 1 tickets
 
 - **[#9081](https://tbpro.zendesk.com/agent/tickets/9081)** · error — why: **blocked** · how: **explained**
@@ -326,7 +326,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [pending] · 2026-09-24T20:17 · second thundermail account login problem
+- [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [open] · 2026-09-24T20:17 · second thundermail account login problem
 - [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [pending] · 2026-09-24T20:32 · Cannot send to Gmail recipients
 - [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [solved] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
@@ -334,7 +334,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [pending] · 2026-09-25T00:31 · Question 
 - [9080](https://tbpro.zendesk.com/agent/tickets/9080) · [pending] · 2026-09-25T00:46 · cannot complete sign up
 - [9081](https://tbpro.zendesk.com/agent/tickets/9081) · [pending] · 2026-09-25T02:45 · error
-- [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [pending] · 2026-09-25T02:50 · パスワードを忘れた
+- [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [open] · 2026-09-25T02:50 · パスワードを忘れた
 - [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [pending] · 2026-09-25T04:03 · Account deletion
 - [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [solved] · 2026-09-25T05:09 · custom domain and aliases
 - [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [pending] · 2026-09-25T05:46 · login issues
