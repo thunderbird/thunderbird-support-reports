@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 20:56 ET** · refreshes hourly_  
+_Updated: **2026-09-24 21:31 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -187,9 +187,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 379
-- **pending**: 75
+- **pending**: 74
 - **closed**: 54
-- **open**: 19
+- **open**: 20
 - **hold**: 11
 
 ## Service (cumulative)
@@ -332,7 +332,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [pending] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [pending] · 2026-09-24T01:48 · My folders do not sync
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
-- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [pending] · 2026-09-24T03:08 · Alias fail
+- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [open] · 2026-09-24T03:08 · Alias fail
 - [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
 - [9057](https://tbpro.zendesk.com/agent/tickets/9057) · [open] · 2026-09-24T15:43 · Thundernerd
