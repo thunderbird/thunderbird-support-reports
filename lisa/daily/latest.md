@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 00:27 ET** · refreshes hourly_  
+_Updated: **2026-09-25 01:23 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **541 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **542 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **3** solved in last 24h
-- **541** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **3** solved in last 24h
+- **542** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -188,12 +188,12 @@ _(none in last 24h)_
 - **closed**: 55
 - **open**: 23
 - **hold**: 11
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 295
-- **Thundermail**: 193
+- **Thundermail**: 194
 - **Send**: 12
 - **Appointment**: 8
 
@@ -262,6 +262,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
   > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 
+### Aliases — 1 tickets
+
+- **[#9085](https://tbpro.zendesk.com/agent/tickets/9085)** · custom domain and aliases
+  > Hello, I added a custom domain, seems verified OK. [domain] How do I re-add aliases I got previously setup on my past email provider? like [email] pointing to my thundermail INBOX
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#9083](https://tbpro.zendesk.com/agent/tickets/9083)** · Account deletion
@@ -304,6 +309,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9081](https://tbpro.zendesk.com/agent/tickets/9081) · [open] · 2026-09-25T02:45 · error
 - [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [open] · 2026-09-25T02:50 · パスワードを忘れた
 - [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [new] · 2026-09-25T04:03 · Account deletion
+- [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [new] · 2026-09-25T05:09 · custom domain and aliases
 
 ## Solved — last 24h
 
