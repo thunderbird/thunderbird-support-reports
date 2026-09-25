@@ -1,26 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 16:21 ET** · refreshes hourly_  
+_Updated: **2026-09-25 17:20 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **539 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **540 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **8** solved in last 24h
-- **539** tickets total since launch · contact rate **2%** of 35000 invitees
+- **17** new tickets in last 24h · **7** solved in last 24h
+- **540** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 136.4h · mean 162.6h (proxy: updated_at − created_at, 380 solved tickets)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
+- **Median AHT**: 136.4h · mean 162.7h (proxy: updated_at − created_at, 380 solved tickets)
 
-## Known problems — 8 problem(s), 64 incident(s)
+## Known problems — 8 problem(s), 65 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
-- 1 incident(s):
+- 2 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [pending] · 2026-09-02 · _Cant get verification link_
+  - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [pending] · 2026-09-25 · _Same issue with signup, no verification email is sent._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -189,7 +190,7 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 380
-- **pending**: 86
+- **pending**: 87
 - **closed**: 57
 - **hold**: 11
 - **open**: 5
@@ -278,11 +279,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
   > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
 
-### Account access issues — 1 tickets
-
-- **[#9078](https://tbpro.zendesk.com/agent/tickets/9078)** · Same issue with signup, no verification email is sent. — why: **blocked** · how: **actioned**
-  > This is the third time I have tried to sign up for an account, but I never receive the activation email at my email address of [email]...I assume that is where it is being sent,…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9135](https://tbpro.zendesk.com/agent/tickets/9135)** · Cancel my account — why: **change request** · how: **actioned**
@@ -323,13 +319,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9079](https://tbpro.zendesk.com/agent/tickets/9079)** · Question  — why: **curious** · how: **explained**
   > Gentlemen, Moscow Non-profit organization uniting disabled people with locomotive system dysfunction would kindly ask you if it is possible to provide us a possibility of using…
 
+### Account access issues — 1 tickets
+
+- **[#9078](https://tbpro.zendesk.com/agent/tickets/9078)** · Same issue with signup, no verification email is sent. — why: **blocked** · how: **actioned**
+  > This is the third time I have tried to sign up for an account, but I never receive the activation email at my email address of [email]...I assume that is where it is being sent,…
+
 ## New tickets — last 24h
 
 - [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [pending] · 2026-09-24T20:17 · second thundermail account login problem
 - [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [pending] · 2026-09-24T20:32 · Cannot send to Gmail recipients
 - [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [solved] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
-- [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [open] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
+- [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [pending] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
 - [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [pending] · 2026-09-25T00:31 · Question 
 - [9080](https://tbpro.zendesk.com/agent/tickets/9080) · [pending] · 2026-09-25T00:46 · cannot complete sign up
 - [9081](https://tbpro.zendesk.com/agent/tickets/9081) · [pending] · 2026-09-25T02:45 · error
@@ -345,7 +346,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-24T20:47 · Payment Amount
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-24T23:41 · Please confirm whether my Thundermail waitlist signup was successful
 - · [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-25T00:46 · error: 525
 - 👍 [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-25T13:43 · can't verify custom domain
