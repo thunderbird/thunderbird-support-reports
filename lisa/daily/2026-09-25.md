@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 06:23 ET** · refreshes hourly_  
+_Updated: **2026-09-25 07:21 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **544 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **545 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **3** solved in last 24h
-- **544** tickets total since launch · contact rate **2%** of 35000 invitees
+- **14** new tickets in last 24h · **3** solved in last 24h
+- **545** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -171,9 +171,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [new] · _Cancellation and refund_
+  > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
 
 ## New ideas on FeatureOS
 
@@ -188,11 +189,11 @@ _(none in last 24h)_
 - **closed**: 55
 - **open**: 26
 - **hold**: 11
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 295
+- **Account Hub**: 296
 - **Thundermail**: 195
 - **Send**: 12
 - **Appointment**: 8
@@ -269,6 +270,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
   > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9093](https://tbpro.zendesk.com/agent/tickets/9093)** · Cancellation and refund
+  > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#9092](https://tbpro.zendesk.com/agent/tickets/9092)** · Blocked Emails
@@ -319,6 +325,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [new] · 2026-09-25T05:09 · custom domain and aliases
 - [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [new] · 2026-09-25T05:46 · login issues
 - [9092](https://tbpro.zendesk.com/agent/tickets/9092) · [new] · 2026-09-25T10:13 · Blocked Emails
+- [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [new] · 2026-09-25T11:18 · Cancellation and refund
 
 ## Solved — last 24h
 
