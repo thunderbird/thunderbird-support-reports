@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 22:30 ET** · refreshes hourly_  
+_Updated: **2026-09-24 23:25 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **538 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **540 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **8** solved in last 24h
-- **538** tickets total since launch · contact rate **2%** of 35000 invitees
+- **540** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
@@ -187,14 +187,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 379
-- **pending**: 74
+- **pending**: 73
 - **closed**: 54
-- **open**: 20
+- **open**: 23
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 294
+- **Account Hub**: 295
 - **Thundermail**: 193
 - **Send**: 12
 - **Appointment**: 8
@@ -333,7 +333,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [pending] · 2026-09-24T01:48 · My folders do not sync
 - [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
 - [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [open] · 2026-09-24T03:08 · Alias fail
-- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
+- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [open] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
 - [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
 - [9057](https://tbpro.zendesk.com/agent/tickets/9057) · [open] · 2026-09-24T15:43 · Thundernerd
 - [9058](https://tbpro.zendesk.com/agent/tickets/9058) · [open] · 2026-09-24T15:44 · Thunderbird
