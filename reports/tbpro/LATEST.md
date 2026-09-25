@@ -1,20 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-09-24
+# Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-24 23:25 ET** · refreshes hourly_  
-_24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-25 00:27 ET** · refreshes hourly_  
+_24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **540 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **541 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **8** solved in last 24h
-- **540** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **3** solved in last 24h
+- **541** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
-- **Median AHT**: 136.5h · mean 163.2h (proxy: updated_at − created_at, 379 solved tickets)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
+- **Median AHT**: 136.6h · mean 163.3h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -177,20 +177,18 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Web interface for calendar](https://ideas.tb.pro/p/web-interface-for-calendar) · 1 votes · _untagged_
-  > What you’d like to seeBriefly describe the feature or improvement.Maybe I’m missing something, but where is the icon and interface for the Calendar? I know I can create and utilize Thundermail-hosted…
-- [Implement Tags](https://ideas.tb.pro/p/implement-tags) · 2 votes · _Thundermail, New Feature, Webmail_
-  > What you’d like to seeWould like to see Tags that work like Thunderbird Why it mattersI use both Thunderbird Client and TB pro web interfaces. I think they should have close to the same…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 379
+- **solved**: 378
 - **pending**: 73
-- **closed**: 54
+- **closed**: 55
 - **open**: 23
 - **hold**: 11
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -250,112 +248,68 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 4 tickets
+### Account creation / signup confusion — 2 tickets
 
-- **[#9063](https://tbpro.zendesk.com/agent/tickets/9063)** · Small Business Account?
-  > Hi all! I want to use Thundermail for my family's lemur rescue organization. I see that you can have up to 15 aliases, but what about separate accounts? Thanks!
-- **[#9060](https://tbpro.zendesk.com/agent/tickets/9060)** · Aliases
-  > Hello! I was hoping you could help me set up some aliases in Webmail. How does one do that? - Test McGee
-- **[#9059](https://tbpro.zendesk.com/agent/tickets/9059)** · Thundermail sux
-  > I would sign up for Thundermail, but Reddit told me it sucks. Do you agree?
-- **[#9030](https://tbpro.zendesk.com/agent/tickets/9030)** · Alias fail — why: **concerned** · how: **investigated**
-  > I created an alias [email] then it disappeared, then I tried creating it again and an error appears, what's up with that?
+- **[#9081](https://tbpro.zendesk.com/agent/tickets/9081)** · error
+  > Hi, I’m receiving the error message, “You cannot sign up with that email address,” when I try to activate or create my account. Could you please look into this issue and assist me…
+- **[#9080](https://tbpro.zendesk.com/agent/tickets/9080)** · cannot complete sign up
+  > I am unable to complete my sigh up. I started with Kevin@thundermail and could not complete so I tried [email] and still get an error page.
 
-### Spam / Junk Filtering — 3 tickets
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
-- **[#9065](https://tbpro.zendesk.com/agent/tickets/9065)** · My email is going to spam
-  > Hi there, My emails go into spam. Please give me help.
-- **[#9021](https://tbpro.zendesk.com/agent/tickets/9021)** · Thundermail signup — why: **confused** · how: **explained**
-  > I am trying to complete the signup process. (1) I pressed 'Subscribe' in the invitation email you sent to my [email] account, (2) in my browser I entered my chosen Thundermail…
-- **[#9066](https://tbpro.zendesk.com/agent/tickets/9066)** · Didn't receive OTP email. — why: **blocked** · how: **investigated**
-  > I tried to sign up for the Garuda Linux forum - https://[domain]/signup - and their OTP email didn't ever make it to my thundermail inbox. I tried two times and neither worked.…
+- **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
+  > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
+- **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
+  > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 
-### Email Protocols (IMAP/SMTP/POP) — 3 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#9035](https://tbpro.zendesk.com/agent/tickets/9035)** · Regarding subscription Fwd: Thinking of a new beginning — why: **curious** · how: **informed**
-  > Hi, I'm trying this mail about a month I think, and I'm really satisfied, and few things lacks just maybe without a proper knowledge of it - I say this - I'm thinking about…
-- **[#9026](https://tbpro.zendesk.com/agent/tickets/9026)** · My folders do not sync — why: **confused** · how: **explained**
-  > How do I set Thunderbird to sync my Thundermail account folders? With my POP3 accounts, I just clicked on _Get Messages_. I find that I have to shut down Thunderbird and restart…
-- **[#9022](https://tbpro.zendesk.com/agent/tickets/9022)** · email set up on iPhone, but can't seem to duplicate this on iPad mini — why: **curious** · how: **explained**
-  > an iOS app would be amazing! in the meantime, I'm trying to set this up on Apple's native iOS mail app. I somehow got this working on my iPhone 17 Pro by following your online…
-
-### Thunderbird for Android + Thundermail — 2 tickets
-
-- **[#9062](https://tbpro.zendesk.com/agent/tickets/9062)** · where is my thundermail calendar?
-  > i can't find my thundermail calendar in thunderbird for Android!!! Help, please?!?
-- **[#9058](https://tbpro.zendesk.com/agent/tickets/9058)** · Thunderbird
-  > Hello there, how do I set up Outlook on my Thunderbirdo? I have an Apple phone - Beth
-
-### Pricing — general pricing concern — 2 tickets
-
-- **[#9040](https://tbpro.zendesk.com/agent/tickets/9040)** · Monthly subscription — why: **curious** · how: **explained**
-  > I am not ready to pay a whole year subscription for a product I can't even try. Please let Me try one month for free or due to a payment, but not a whole year.
-- **[#9018](https://tbpro.zendesk.com/agent/tickets/9018)** · thundermail — why: **curious** · how: **explained**
-  > I was a tbird user for years but moved to gmail. I still have tbird as a backup. I'm interested in how the new thundermail works but I will not pay anything until I see it in…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#9064](https://tbpro.zendesk.com/agent/tickets/9064)** · Monthly pricing
-  > I can't afford $72 for a year, but I can afford $6 a month. Do you guys offer Klarna or a similar pay-in-chunks service?
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9061](https://tbpro.zendesk.com/agent/tickets/9061)** · my domain [domain] doesn't work with Thundermail
-  > it won't verify, help!
+- **[#9083](https://tbpro.zendesk.com/agent/tickets/9083)** · Account deletion
+  > I'd like to delete my account and all of the attached data.
 
 ### Other / uncategorized — 1 tickets
 
-- **[#9057](https://tbpro.zendesk.com/agent/tickets/9057)** · Thundernerd
-  > Hey nerd what is this product, nerd? Thunderhoopla - Jack
+- **[#9082](https://tbpro.zendesk.com/agent/tickets/9082)** · パスワードを忘れた
+  > パスワードの再設定
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9079](https://tbpro.zendesk.com/agent/tickets/9079)** · Question 
+  > Gentlemen, Moscow Non-profit organization uniting disabled people with locomotive system dysfunction would kindly ask you if it is possible to provide us a possibility of using…
 
 ### Account access issues — 1 tickets
 
-- **[#9028](https://tbpro.zendesk.com/agent/tickets/9028)** · not allowing to log in bad password — why: **blocked** · how: **investigated**
-  > what wrong? from login to login ? how do mess up a password!
+- **[#9078](https://tbpro.zendesk.com/agent/tickets/9078)** · Same issue with signup, no verification email is sent.
+  > This is the third time I have tried to sign up for an account, but I never receive the activation email at my email address of [email]...I assume that is where it is being sent,…
 
 ### Webmail — 1 tickets
 
-- **[#9024](https://tbpro.zendesk.com/agent/tickets/9024)** · Thunderbird Desktop and Thundermail — why: **confused** · how: **explained**
-  > When I attempt to add my Thundermail account to the Thunderbird Desktop platform, I repeatedly get “failed authentication”. I can log into Thundermail Web Mail. I have…
+- **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
+  > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
 
-### MFA / two-factor — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#9019](https://tbpro.zendesk.com/agent/tickets/9019)** · imap/etc settings? — why: **curious** · how: **explained**
-  > Hi, 1. I'm not understanding how to setup a Ubikey for a MFA method. 2. What are the imap/etc settings for Apple Mail? Thanks
+- **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
+  > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
 
 ## New tickets — last 24h
 
-- [9018](https://tbpro.zendesk.com/agent/tickets/9018) · [pending] · 2026-09-23T21:10 · thundermail
-- [9019](https://tbpro.zendesk.com/agent/tickets/9019) · [pending] · 2026-09-23T21:23 · imap/etc settings?
-- [9021](https://tbpro.zendesk.com/agent/tickets/9021) · [open] · 2026-09-23T22:51 · Thundermail signup
-- [9022](https://tbpro.zendesk.com/agent/tickets/9022) · [pending] · 2026-09-23T22:52 · email set up on iPhone, but can't seem to duplicate this on iPad mini
-- [9024](https://tbpro.zendesk.com/agent/tickets/9024) · [pending] · 2026-09-24T00:59 · Thunderbird Desktop and Thundermail
-- [9026](https://tbpro.zendesk.com/agent/tickets/9026) · [pending] · 2026-09-24T01:48 · My folders do not sync
-- [9028](https://tbpro.zendesk.com/agent/tickets/9028) · [pending] · 2026-09-24T03:00 · not allowing to log in bad password
-- [9030](https://tbpro.zendesk.com/agent/tickets/9030) · [open] · 2026-09-24T03:08 · Alias fail
-- [9035](https://tbpro.zendesk.com/agent/tickets/9035) · [open] · 2026-09-24T08:28 · Regarding subscription Fwd: Thinking of a new beginning
-- [9040](https://tbpro.zendesk.com/agent/tickets/9040) · [pending] · 2026-09-24T12:21 · Monthly subscription
-- [9057](https://tbpro.zendesk.com/agent/tickets/9057) · [open] · 2026-09-24T15:43 · Thundernerd
-- [9058](https://tbpro.zendesk.com/agent/tickets/9058) · [open] · 2026-09-24T15:44 · Thunderbird
-- [9059](https://tbpro.zendesk.com/agent/tickets/9059) · [open] · 2026-09-24T15:44 · Thundermail sux
-- [9060](https://tbpro.zendesk.com/agent/tickets/9060) · [open] · 2026-09-24T15:45 · Aliases
-- [9061](https://tbpro.zendesk.com/agent/tickets/9061) · [open] · 2026-09-24T16:12 · my domain [domain] doesn't work with Thundermail
-- [9062](https://tbpro.zendesk.com/agent/tickets/9062) · [open] · 2026-09-24T16:17 · where is my thundermail calendar?
-- [9063](https://tbpro.zendesk.com/agent/tickets/9063) · [open] · 2026-09-24T16:28 · Small Business Account?
-- [9064](https://tbpro.zendesk.com/agent/tickets/9064) · [open] · 2026-09-24T16:29 · Monthly pricing
-- [9065](https://tbpro.zendesk.com/agent/tickets/9065) · [open] · 2026-09-24T17:44 · My email is going to spam
-- [9066](https://tbpro.zendesk.com/agent/tickets/9066) · [hold] · 2026-09-24T18:00 · Didn't receive OTP email.
+- [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [pending] · 2026-09-24T20:17 · second thundermail account login problem
+- [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [open] · 2026-09-24T20:32 · Cannot send to Gmail recipients
+- [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [pending] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
+- [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
+- [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [open] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
+- [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [open] · 2026-09-25T00:31 · Question 
+- [9080](https://tbpro.zendesk.com/agent/tickets/9080) · [open] · 2026-09-25T00:46 · cannot complete sign up
+- [9081](https://tbpro.zendesk.com/agent/tickets/9081) · [open] · 2026-09-25T02:45 · error
+- [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [open] · 2026-09-25T02:50 · パスワードを忘れた
+- [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [new] · 2026-09-25T04:03 · Account deletion
 
 ## Solved — last 24h
 
-- · [8833](https://tbpro.zendesk.com/agent/tickets/8833) · 2026-09-23T21:02 · setting up two gmail accounts
-- · [8829](https://tbpro.zendesk.com/agent/tickets/8829) · 2026-09-23T22:02 · Using our domain for multiple emails - is it possible?
-- · [8806](https://tbpro.zendesk.com/agent/tickets/8806) · 2026-09-23T22:02 · Secure Email Gateway
-- · [8700](https://tbpro.zendesk.com/agent/tickets/8700) · 2026-09-23T22:02 · External Domain
-- · [8190](https://tbpro.zendesk.com/agent/tickets/8190) · 2026-09-23T22:02 · All outgoing mail is going to recipients spam
-- · [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-24T19:01 · Missing Create App Password Option
-- · [8913](https://tbpro.zendesk.com/agent/tickets/8913) · 2026-09-24T19:23 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
-- 👍 [8811](https://tbpro.zendesk.com/agent/tickets/8811) · 2026-09-24T19:24 · Account Deletion
+- · [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-24T20:47 · Payment Amount
+- · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-24T23:41 · Please confirm whether my Thundermail waitlist signup was successful
+- · [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-25T00:46 · error: 525
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
