@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 07:21 ET** · refreshes hourly_  
+_Updated: **2026-09-25 08:33 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **545 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **542 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **3** solved in last 24h
-- **545** tickets total since launch · contact rate **2%** of 35000 invitees
+- **20** new tickets in last 24h · **3** solved in last 24h
+- **542** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 136.6h · mean 163.3h (proxy: updated_at − created_at, 378 solved tickets)
+- **Median AHT**: 136.5h · mean 163.1h (proxy: updated_at − created_at, 377 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"cancel refund"** — 2 tickets in 24h (8.4× baseline; baseline 11 cum) — [#9093](https://tbpro.zendesk.com/agent/tickets/9093), [#9104](https://tbpro.zendesk.com/agent/tickets/9104)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -171,10 +177,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [new] · _Cancellation and refund_
   > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
+- [9104](https://tbpro.zendesk.com/agent/tickets/9104) · [open] · _[ai-test] Need to cancel my account and get a refund_
+  > Hi, Thundermail isn't working out for our team. Please cancel our subscription and issue a full refund back to the original card.
 
 ## New ideas on FeatureOS
 
@@ -184,16 +192,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 378
+- **solved**: 377
 - **pending**: 70
 - **closed**: 55
-- **open**: 26
+- **open**: 23
 - **hold**: 11
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 296
+- **Account Hub**: 297
 - **Thundermail**: 195
 - **Send**: 12
 - **Appointment**: 8
@@ -249,6 +257,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 2 tickets
+
+- **[#9105](https://tbpro.zendesk.com/agent/tickets/9105)** · [ai-test] Can I add my Yahoo account to webmail?
+  > Is there a way to connect my personal Yahoo or Gmail account so I can read those emails inside Thundermail webmail?
+- **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
+  > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#9104](https://tbpro.zendesk.com/agent/tickets/9104)** · [ai-test] Need to cancel my account and get a refund
+  > Hi, Thundermail isn't working out for our team. Please cancel our subscription and issue a full refund back to the original card.
+- **[#9093](https://tbpro.zendesk.com/agent/tickets/9093)** · Cancellation and refund
+  > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
+
 ### Account access issues — 2 tickets
 
 - **[#9087](https://tbpro.zendesk.com/agent/tickets/9087)** · login issues
@@ -270,10 +292,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
   > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#9093](https://tbpro.zendesk.com/agent/tickets/9093)** · Cancellation and refund
-  > I would like to cancel and get a refund of my Thundermail subscription. Unfortunately, there are several must-have features I need which is not yet supported by Thundermail.
+- **[#9109](https://tbpro.zendesk.com/agent/tickets/9109)** · How to get my thuderbird email account and access
+  > I'm trying to log in and create a Thunderbird email account so I can back up all my accounts and emails, and maybe use it simultaneously on different devices. How do I get this…
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#9108](https://tbpro.zendesk.com/agent/tickets/9108)** · [ai-test] When will you finally launch a mobile app?
+  > It's ridiculous that there is no iOS app yet. When is the iPhone app actually launching?
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9107](https://tbpro.zendesk.com/agent/tickets/9107)** · [ai-test] Custom domain MX record verification failing
+  > I added my domain records in Cloudflare, but the MX record still shows unverified in Thundermail. How long should I wait, and what should I check?
+
+### Appointment / calendar — 1 tickets
+
+- **[#9106](https://tbpro.zendesk.com/agent/tickets/9106)** · [ai-test] CalDAV URL for Apple Calendar sync
+  > What is the exact CalDAV server URL and path I should enter to connect my Thundermail calendar to Apple Calendar on Mac?
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -305,11 +342,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
   > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
 
-### Webmail — 1 tickets
-
-- **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
-  > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
-
 ## New tickets — last 24h
 
 - [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [open] · 2026-09-24T20:17 · second thundermail account login problem
@@ -326,6 +358,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [new] · 2026-09-25T05:46 · login issues
 - [9092](https://tbpro.zendesk.com/agent/tickets/9092) · [new] · 2026-09-25T10:13 · Blocked Emails
 - [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [new] · 2026-09-25T11:18 · Cancellation and refund
+- [9104](https://tbpro.zendesk.com/agent/tickets/9104) · [open] · 2026-09-25T12:22 · [ai-test] Need to cancel my account and get a refund
+- [9105](https://tbpro.zendesk.com/agent/tickets/9105) · [open] · 2026-09-25T12:22 · [ai-test] Can I add my Yahoo account to webmail?
+- [9106](https://tbpro.zendesk.com/agent/tickets/9106) · [open] · 2026-09-25T12:23 · [ai-test] CalDAV URL for Apple Calendar sync
+- [9107](https://tbpro.zendesk.com/agent/tickets/9107) · [open] · 2026-09-25T12:23 · [ai-test] Custom domain MX record verification failing
+- [9108](https://tbpro.zendesk.com/agent/tickets/9108) · [open] · 2026-09-25T12:23 · [ai-test] When will you finally launch a mobile app?
+- [9109](https://tbpro.zendesk.com/agent/tickets/9109) · [new] · 2026-09-25T12:32 · How to get my thuderbird email account and access
 
 ## Solved — last 24h
 
