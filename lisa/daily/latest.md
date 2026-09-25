@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-24
 
-_Updated: **2026-09-24 19:20 ET** · refreshes hourly_  
+_Updated: **2026-09-24 20:56 ET** · refreshes hourly_  
 _24h window: 2026-09-23T16:00 → 2026-09-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 46** of rollout — **35,000 invitees**, **534 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 46** of rollout — **35,000 invitees**, **538 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **9** solved in last 24h
-- **534** tickets total since launch · contact rate **2%** of 35000 invitees
+- **20** new tickets in last 24h · **8** solved in last 24h
+- **538** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 92%  (133 good / 11 bad)
+- **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 67
-- **Median AHT**: 136.8h · mean 164.2h (proxy: updated_at − created_at, 378 solved tickets)
+- **Median AHT**: 136.5h · mean 163.2h (proxy: updated_at − created_at, 379 solved tickets)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -186,16 +186,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 378
-- **pending**: 77
+- **solved**: 379
+- **pending**: 75
 - **closed**: 54
-- **open**: 14
+- **open**: 19
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 292
-- **Thundermail**: 191
+- **Account Hub**: 294
+- **Thundermail**: 193
 - **Send**: 12
 - **Appointment**: 8
 
@@ -228,6 +228,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **blocked** + **actioned**: 2
+- **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
@@ -236,15 +237,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **confused** + **—**: 1
 - **concerned** + **investigated**: 1
+- **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **request** + **informed**: 1
 - **other** + **escalated**: 1
 - **curious** + **investigated**: 1
 - **concerned** + **actioned**: 1
-- **concerned** + **escalated**: 1
 - **other** + **investigated**: 1
 - **concerned** + **redirected**: 1
 
@@ -349,7 +349,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [8833](https://tbpro.zendesk.com/agent/tickets/8833) · 2026-09-23T21:02 · setting up two gmail accounts
-- · [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-23T22:02 · can't verify custom domain
 - · [8829](https://tbpro.zendesk.com/agent/tickets/8829) · 2026-09-23T22:02 · Using our domain for multiple emails - is it possible?
 - · [8806](https://tbpro.zendesk.com/agent/tickets/8806) · 2026-09-23T22:02 · Secure Email Gateway
 - · [8700](https://tbpro.zendesk.com/agent/tickets/8700) · 2026-09-23T22:02 · External Domain
