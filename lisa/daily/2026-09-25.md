@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 09:23 ET** · refreshes hourly_  
+_Updated: **2026-09-25 10:25 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **539 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **540 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **3** solved in last 24h
-- **539** tickets total since launch · contact rate **2%** of 35000 invitees
+- **18** new tickets in last 24h · **4** solved in last 24h
+- **540** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
-- **Median AHT**: 136.5h · mean 163.1h (proxy: updated_at − created_at, 377 solved tickets)
+- **Median AHT**: 136.6h · mean 163.6h (proxy: updated_at − created_at, 378 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"wordmark grateful live"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
+- **"muscogee cherokee"** — 2 tickets in 24h (new; baseline 0 cum) — [#9119](https://tbpro.zendesk.com/agent/tickets/9119), [#9120](https://tbpro.zendesk.com/agent/tickets/9120)
 
 ## Known problems — 8 problem(s), 62 incident(s)
 
@@ -190,12 +190,12 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 377
+- **solved**: 378
 - **pending**: 70
 - **closed**: 55
-- **open**: 20
+- **open**: 23
 - **hold**: 11
-- **new**: 6
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -255,6 +255,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Thunderbird for Android + Thundermail — 2 tickets
+
+- **[#9124](https://tbpro.zendesk.com/agent/tickets/9124)** · [ai-test] How do I add my Thundermail account to iOS?
+  > I don't see an iOS app and I want to have my Thundermail account on my phone. Help!
+- **[#9120](https://tbpro.zendesk.com/agent/tickets/9120)** · [ai-test] Thunderbird Android app notifications
+  > Hi! I connected Thundermail to the Android app but I'm not getting any notifications. Can someone help? Also, any thoughts on your favorite pie? I'm partial to peach. -- *Monica…
+
 ### Account access issues — 2 tickets
 
 - **[#9087](https://tbpro.zendesk.com/agent/tickets/9087)** · login issues
@@ -275,11 +282,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
 - **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
   > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#9120](https://tbpro.zendesk.com/agent/tickets/9120)** · [ai-test] Thunderbird Android app notifications
-  > Hi! I connected Thundermail to the Android app but I'm not getting any notifications. Can someone help? Also, any thoughts on your favorite pie? I'm partial to peach. -- *Monica…
 
 ### Appointment / calendar — 1 tickets
 
@@ -342,20 +344,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9080](https://tbpro.zendesk.com/agent/tickets/9080) · [open] · 2026-09-25T00:46 · cannot complete sign up
 - [9081](https://tbpro.zendesk.com/agent/tickets/9081) · [open] · 2026-09-25T02:45 · error
 - [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [open] · 2026-09-25T02:50 · パスワードを忘れた
-- [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [new] · 2026-09-25T04:03 · Account deletion
-- [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [new] · 2026-09-25T05:09 · custom domain and aliases
-- [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [new] · 2026-09-25T05:46 · login issues
+- [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [open] · 2026-09-25T04:03 · Account deletion
+- [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [open] · 2026-09-25T05:09 · custom domain and aliases
+- [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [open] · 2026-09-25T05:46 · login issues
 - [9092](https://tbpro.zendesk.com/agent/tickets/9092) · [new] · 2026-09-25T10:13 · Blocked Emails
 - [9093](https://tbpro.zendesk.com/agent/tickets/9093) · [new] · 2026-09-25T11:18 · Cancellation and refund
 - [9109](https://tbpro.zendesk.com/agent/tickets/9109) · [new] · 2026-09-25T12:32 · How to get my thuderbird email account and access
 - [9119](https://tbpro.zendesk.com/agent/tickets/9119) · [open] · 2026-09-25T13:19 · [ai-test]
 - [9120](https://tbpro.zendesk.com/agent/tickets/9120) · [open] · 2026-09-25T13:21 · [ai-test] Thunderbird Android app notifications
+- [9124](https://tbpro.zendesk.com/agent/tickets/9124) · [open] · 2026-09-25T14:19 · [ai-test] How do I add my Thundermail account to iOS?
 
 ## Solved — last 24h
 
 - · [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-24T20:47 · Payment Amount
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-24T23:41 · Please confirm whether my Thundermail waitlist signup was successful
 - · [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-25T00:46 · error: 525
+- 👍 [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-25T13:43 · can't verify custom domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
