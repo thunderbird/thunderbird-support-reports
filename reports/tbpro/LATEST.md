@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 18:21 ET** · refreshes hourly_  
+_Updated: **2026-09-25 19:19 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **540 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **541 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
 - **17** new tickets in last 24h · **7** solved in last 24h
-- **540** tickets total since launch · contact rate **2%** of 35000 invitees
+- **541** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
@@ -190,15 +190,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **solved**: 382
-- **pending**: 85
+- **pending**: 84
 - **closed**: 57
 - **hold**: 11
-- **open**: 5
+- **open**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 300
-- **Thundermail**: 197
+- **Thundermail**: 198
 - **Send**: 11
 - **Appointment**: 8
 
@@ -342,7 +342,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9109](https://tbpro.zendesk.com/agent/tickets/9109) · [pending] · 2026-09-25T12:32 · How to get my thuderbird email account and access
 - [9131](https://tbpro.zendesk.com/agent/tickets/9131) · [pending] · 2026-09-25T15:58 · Can not use Thundermail?
 - [9135](https://tbpro.zendesk.com/agent/tickets/9135) · [pending] · 2026-09-25T16:42 · Cancel my account
-- [9138](https://tbpro.zendesk.com/agent/tickets/9138) · [pending] · 2026-09-25T18:58 · Display name
+- [9138](https://tbpro.zendesk.com/agent/tickets/9138) · [open] · 2026-09-25T18:58 · Display name
 
 ## Solved — last 24h
 
