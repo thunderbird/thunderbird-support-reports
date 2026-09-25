@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 03:28 ET** · refreshes hourly_  
+_Updated: **2026-09-25 04:31 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -184,9 +184,9 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 378
-- **pending**: 71
+- **pending**: 70
 - **closed**: 55
-- **open**: 25
+- **open**: 26
 - **hold**: 11
 - **new**: 3
 
@@ -264,10 +264,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
-- **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
-  > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
 - **[#9075](https://tbpro.zendesk.com/agent/tickets/9075)** · Thundermail web & mobile for Sailfish OS — why: **request** · how: **redirected**
   > Hi [name] I understand it, Thundermail / [domain] is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird…
+- **[#9073](https://tbpro.zendesk.com/agent/tickets/9073)** · Cannot send to Gmail recipients
+  > None of my emails are being sent to gmail type recipients. Despite thunderbird saying "sent", I tried with many of my contacts and even my own gmail accounts set under…
 
 ### Aliases — 1 tickets
 
@@ -303,7 +303,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [open] · 2026-09-24T20:17 · second thundermail account login problem
 - [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [open] · 2026-09-24T20:32 · Cannot send to Gmail recipients
-- [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [pending] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
+- [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [open] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
 - [9078](https://tbpro.zendesk.com/agent/tickets/9078) · [open] · 2026-09-25T00:09 · Same issue with signup, no verification email is sent.
 - [9079](https://tbpro.zendesk.com/agent/tickets/9079) · [open] · 2026-09-25T00:31 · Question 
