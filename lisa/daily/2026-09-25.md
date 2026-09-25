@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 01:23 ET** · refreshes hourly_  
+_Updated: **2026-09-25 02:38 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 47** of rollout — **35,000 invitees**, **542 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 47** of rollout — **35,000 invitees**, **543 tickets** so far (1.6% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **3** solved in last 24h
-- **542** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **3** solved in last 24h
+- **543** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 67
@@ -184,16 +184,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 378
-- **pending**: 73
+- **pending**: 71
 - **closed**: 55
-- **open**: 23
+- **open**: 25
 - **hold**: 11
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 295
-- **Thundermail**: 194
+- **Thundermail**: 195
 - **Send**: 12
 - **Appointment**: 8
 
@@ -248,6 +248,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#9087](https://tbpro.zendesk.com/agent/tickets/9087)** · login issues
+  > cannot log into my account ([email]); has this webaccess been blocked?
+- **[#9078](https://tbpro.zendesk.com/agent/tickets/9078)** · Same issue with signup, no verification email is sent.
+  > This is the third time I have tried to sign up for an account, but I never receive the activation email at my email address of [email]...I assume that is where it is being sent,…
+
 ### Account creation / signup confusion — 2 tickets
 
 - **[#9081](https://tbpro.zendesk.com/agent/tickets/9081)** · error
@@ -282,24 +289,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9079](https://tbpro.zendesk.com/agent/tickets/9079)** · Question 
   > Gentlemen, Moscow Non-profit organization uniting disabled people with locomotive system dysfunction would kindly ask you if it is possible to provide us a possibility of using…
 
-### Account access issues — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#9078](https://tbpro.zendesk.com/agent/tickets/9078)** · Same issue with signup, no verification email is sent.
-  > This is the third time I have tried to sign up for an account, but I never receive the activation email at my email address of [email]...I assume that is where it is being sent,…
+- **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
+  > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
 
 ### Webmail — 1 tickets
 
 - **[#9077](https://tbpro.zendesk.com/agent/tickets/9077)** · error: 525 — why: **concerned** · how: **escalated**
   > Received this error on the webmail interface at 5pm pacific time: JMAP request failed: 525…
 
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#9072](https://tbpro.zendesk.com/agent/tickets/9072)** · second thundermail account login problem — why: **confused** · how: **explained**
-  > Yesterday I purchased a second thundermail account and was cutoff before I could complete the setup in thunderbird. I did get a password and address: ([email]) I think but had a…
-
 ## New tickets — last 24h
 
-- [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [pending] · 2026-09-24T20:17 · second thundermail account login problem
+- [9072](https://tbpro.zendesk.com/agent/tickets/9072) · [open] · 2026-09-24T20:17 · second thundermail account login problem
 - [9073](https://tbpro.zendesk.com/agent/tickets/9073) · [open] · 2026-09-24T20:32 · Cannot send to Gmail recipients
 - [9075](https://tbpro.zendesk.com/agent/tickets/9075) · [pending] · 2026-09-24T21:20 · Thundermail web & mobile for Sailfish OS
 - [9077](https://tbpro.zendesk.com/agent/tickets/9077) · [solved] · 2026-09-25T00:03 · error: 525
@@ -310,6 +312,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9082](https://tbpro.zendesk.com/agent/tickets/9082) · [open] · 2026-09-25T02:50 · パスワードを忘れた
 - [9083](https://tbpro.zendesk.com/agent/tickets/9083) · [new] · 2026-09-25T04:03 · Account deletion
 - [9085](https://tbpro.zendesk.com/agent/tickets/9085) · [new] · 2026-09-25T05:09 · custom domain and aliases
+- [9087](https://tbpro.zendesk.com/agent/tickets/9087) · [new] · 2026-09-25T05:46 · login issues
 
 ## Solved — last 24h
 
