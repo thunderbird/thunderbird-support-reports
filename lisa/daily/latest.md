@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 07:18 ET** · refreshes hourly_  
+_Updated: **2026-09-26 08:29 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 48** of rollout — **35,000 invitees**, **542 tickets** so far (1.5% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 48** of rollout — **35,000 invitees**, **543 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **6** solved in last 24h
-- **542** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **7** solved in last 24h
+- **543** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (136 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
-- **Median AHT**: 136.4h · mean 162.6h (proxy: updated_at − created_at, 381 solved tickets)
+- **Median AHT**: 136.4h · mean 162.2h (proxy: updated_at − created_at, 382 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -174,9 +174,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [9165](https://tbpro.zendesk.com/agent/tickets/9165) · [open] · _Refund_
+  > Please can I request a refund within the 15-day cooling-off period, please.
 
 ## New ideas on FeatureOS
 
@@ -189,7 +190,7 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 381
+- **solved**: 382
 - **pending**: 81
 - **closed**: 57
 - **open**: 12
@@ -198,7 +199,7 @@ _(none in last 24h)_
 ## Service (cumulative)
 
 - **Account Hub**: 302
-- **Thundermail**: 197
+- **Thundermail**: 198
 - **Send**: 11
 - **Appointment**: 8
 
@@ -231,8 +232,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
-- **concerned** + **escalated**: 2
 - **concerned** + **investigated**: 2
+- **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
@@ -254,6 +255,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9165](https://tbpro.zendesk.com/agent/tickets/9165)** · Refund
+  > Please can I request a refund within the 15-day cooling-off period, please.
+
 ### Aliases — 1 tickets
 
 - **[#9159](https://tbpro.zendesk.com/agent/tickets/9159)** · Question regarding account closure and the recycling of aliases
@@ -274,6 +280,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9151](https://tbpro.zendesk.com/agent/tickets/9151) · [open] · 2026-09-25T20:24 · [ai-test] How do I setup a second Thundermail calendar using TB Desktop?
 - [9154](https://tbpro.zendesk.com/agent/tickets/9154) · [pending] · 2026-09-25T22:41 · No free option no iPhone app 
 - [9159](https://tbpro.zendesk.com/agent/tickets/9159) · [open] · 2026-09-26T10:48 · Question regarding account closure and the recycling of aliases
+- [9165](https://tbpro.zendesk.com/agent/tickets/9165) · [open] · 2026-09-26T11:51 · Refund
 
 ## Solved — last 24h
 
@@ -283,6 +290,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9008](https://tbpro.zendesk.com/agent/tickets/9008) · 2026-09-25T22:05 · account
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-26T00:01 · Please confirm whether my Thundermail waitlist signup was successful
 - 👍 [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-26T05:06 · Payment Amount
+- 👍 [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-26T12:10 · error: 525
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
