@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 09:19 ET** · refreshes hourly_  
+_Updated: **2026-09-26 10:21 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 48** of rollout — **35,000 invitees**, **543 tickets** so fa
 
 - **4** new tickets in last 24h · **7** solved in last 24h
 - **543** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 93%  (136 good / 11 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 93%  (137 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 70
-- **Median AHT**: 136.4h · mean 162.2h (proxy: updated_at − created_at, 382 solved tickets)
+- **Median AHT**: 136.4h · mean 162.3h (proxy: updated_at − created_at, 382 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -286,13 +286,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-25T20:02 · Missing Create App Password Option
 - · [8913](https://tbpro.zendesk.com/agent/tickets/8913) · 2026-09-25T20:02 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
 - · [9030](https://tbpro.zendesk.com/agent/tickets/9030) · 2026-09-25T21:44 · Alias fail
 - · [9008](https://tbpro.zendesk.com/agent/tickets/9008) · 2026-09-25T22:05 · account
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-26T00:01 · Please confirm whether my Thundermail waitlist signup was successful
 - 👍 [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-26T05:06 · Payment Amount
 - 👍 [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-26T12:10 · error: 525
+- 👍 [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-26T13:49 · Missing Create App Password Option
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
