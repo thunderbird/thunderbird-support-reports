@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 12:23 ET** · refreshes hourly_  
+_Updated: **2026-09-26 13:18 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 48** of rollout — **35,000 invitees**, **543 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 48** of rollout — **35,000 invitees**, **544 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **13** solved in last 24h
-- **543** tickets total since launch · contact rate **2%** of 35000 invitees
+- **5** new tickets in last 24h · **15** solved in last 24h
+- **544** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (137 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 70
-- **Median AHT**: 136.4h · mean 163.1h (proxy: updated_at − created_at, 384 solved tickets)
+- **Median AHT**: 136.6h · mean 163.0h (proxy: updated_at − created_at, 386 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -78,7 +78,7 @@ Flight 8 is **day 48** of rollout — **35,000 invitees**, **543 tickets** so fa
   - [#8734](https://tbpro.zendesk.com/agent/tickets/8734) · [solved] · 2026-09-16 · _Refund Request for Thundermail _
   - [#8738](https://tbpro.zendesk.com/agent/tickets/8738) · [solved] · 2026-09-16 · _Cancel + Refund_
   - [#8825](https://tbpro.zendesk.com/agent/tickets/8825) · [solved] · 2026-09-18 · _Refund_
-  - [#8864](https://tbpro.zendesk.com/agent/tickets/8864) · [pending] · 2026-09-20 · _Cancellation and refund_
+  - [#8864](https://tbpro.zendesk.com/agent/tickets/8864) · [solved] · 2026-09-20 · _Cancellation and refund_
   - [#8866](https://tbpro.zendesk.com/agent/tickets/8866) · [pending] · 2026-09-20 · _Delete Account_
   - [#8952](https://tbpro.zendesk.com/agent/tickets/8952) · [pending] · 2026-09-22 · _cancel and refund _
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [pending] · 2026-09-23 · _Delete this account_
@@ -192,16 +192,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 384
-- **pending**: 78
+- **solved**: 386
+- **pending**: 76
 - **closed**: 58
-- **open**: 14
+- **open**: 15
 - **hold**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 302
-- **Thundermail**: 198
+- **Thundermail**: 199
 - **Send**: 11
 - **Appointment**: 8
 
@@ -257,6 +257,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#9180](https://tbpro.zendesk.com/agent/tickets/9180)** · featured off-site messages
+  > Hello: When I mark a message as starred and there is no message body, the star appears in the correct position, but when I open the starred message, the star becomes misaligned.…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9165](https://tbpro.zendesk.com/agent/tickets/9165)** · Refund
@@ -283,6 +288,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9154](https://tbpro.zendesk.com/agent/tickets/9154) · [pending] · 2026-09-25T22:41 · No free option no iPhone app 
 - [9159](https://tbpro.zendesk.com/agent/tickets/9159) · [open] · 2026-09-26T10:48 · Question regarding account closure and the recycling of aliases
 - [9165](https://tbpro.zendesk.com/agent/tickets/9165) · [open] · 2026-09-26T11:51 · Refund
+- [9180](https://tbpro.zendesk.com/agent/tickets/9180) · [open] · 2026-09-26T17:14 · featured off-site messages
 
 ## Solved — last 24h
 
@@ -299,6 +305,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8827](https://tbpro.zendesk.com/agent/tickets/8827) · 2026-09-26T16:01 · Trouble making payment
 - · [8747](https://tbpro.zendesk.com/agent/tickets/8747) · 2026-09-26T16:01 · IMAP 
 - · [8616](https://tbpro.zendesk.com/agent/tickets/8616) · 2026-09-26T16:01 · Making sub-calendars appear in [domain]
+- · [8864](https://tbpro.zendesk.com/agent/tickets/8864) · 2026-09-26T17:02 · Cancellation and refund
+- · [8853](https://tbpro.zendesk.com/agent/tickets/8853) · 2026-09-26T17:02 · Refund please?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
