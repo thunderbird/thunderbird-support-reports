@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 11:20 ET** · refreshes hourly_  
+_Updated: **2026-09-26 12:23 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 48** of rollout — **35,000 invitees**, **543 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
+- **4** new tickets in last 24h · **13** solved in last 24h
 - **543** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (137 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 70
-- **Median AHT**: 136.4h · mean 162.3h (proxy: updated_at − created_at, 382 solved tickets)
+- **Median AHT**: 136.4h · mean 163.1h (proxy: updated_at − created_at, 384 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -192,11 +192,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 382
-- **pending**: 81
-- **closed**: 57
-- **open**: 13
-- **hold**: 10
+- **solved**: 384
+- **pending**: 78
+- **closed**: 58
+- **open**: 14
+- **hold**: 9
 
 ## Service (cumulative)
 
@@ -293,6 +293,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-26T05:06 · Payment Amount
 - 👍 [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-26T12:10 · error: 525
 - 👍 [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-26T13:49 · Missing Create App Password Option
+- · [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-26T16:01 · Thundermail web & mobile for Sailfish OS
+- · [8836](https://tbpro.zendesk.com/agent/tickets/8836) · 2026-09-26T16:01 · Unable to send from iOS devices
+- · [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-26T16:01 · additional accounts
+- · [8827](https://tbpro.zendesk.com/agent/tickets/8827) · 2026-09-26T16:01 · Trouble making payment
+- · [8747](https://tbpro.zendesk.com/agent/tickets/8747) · 2026-09-26T16:01 · IMAP 
+- · [8616](https://tbpro.zendesk.com/agent/tickets/8616) · 2026-09-26T16:01 · Making sub-calendars appear in [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
