@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 17:20 ET** · refreshes hourly_  
+_Updated: **2026-09-26 18:20 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 48** of rollout — **35,000 invitees**, **544 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **23** solved in last 24h
+- **5** new tickets in last 24h · **22** solved in last 24h
 - **544** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (137 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 70
-- **Median AHT**: 136.6h · mean 164.4h (proxy: updated_at − created_at, 386 solved tickets)
+- **Median AHT**: 136.9h · mean 165.0h (proxy: updated_at − created_at, 389 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -192,9 +192,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 386
+- **solved**: 389
 - **closed**: 70
-- **pending**: 63
+- **pending**: 60
 - **open**: 16
 - **hold**: 9
 
@@ -293,7 +293,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [8913](https://tbpro.zendesk.com/agent/tickets/8913) · 2026-09-25T20:02 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
-- · [9030](https://tbpro.zendesk.com/agent/tickets/9030) · 2026-09-25T21:44 · Alias fail
 - · [9008](https://tbpro.zendesk.com/agent/tickets/9008) · 2026-09-25T22:05 · account
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-26T00:01 · Please confirm whether my Thundermail waitlist signup was successful
 - 👍 [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-26T05:06 · Payment Amount
