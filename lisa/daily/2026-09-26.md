@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 08:29 ET** · refreshes hourly_  
+_Updated: **2026-09-26 09:19 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 48** of rollout — **35,000 invitees**, **543 tickets** so fa
 - **543** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (136 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 70
 - **Median AHT**: 136.4h · mean 162.2h (proxy: updated_at − created_at, 382 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
@@ -181,8 +181,10 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [integration Feature for Remote Work](https://ideas.tb.pro/p/integration-feature-for-remote-work) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.My goal for work is to replace Google or Microsoft email and calendarWhy it mattersWhat problem does this solve, or what benefit does…
 - [https://ideas.tb.pro add SSO With our thundermail.com account](https://ideas.tb.pro/p/https-ideas-tb-pro-add-sso-with-our-thundermail-com-account) · 1 votes · _untagged_
   > What you’d like to seeIf you want to post or comment on https://ideas.tb.pro you have to create (yet another) account. (If you don’t want to user one of those GAFAM for privacy for example)I would…
 - [Increased privacy? Create a Sailfish OS mobile app](https://ideas.tb.pro/p/increased-privacy-create-a-sailfish-os-mobile-app) · 1 votes · _untagged_
@@ -193,8 +195,8 @@ Regards, [name]_
 - **solved**: 382
 - **pending**: 81
 - **closed**: 57
-- **open**: 12
-- **hold**: 11
+- **open**: 13
+- **hold**: 10
 
 ## Service (cumulative)
 
