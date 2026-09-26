@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 06:20 ET** · refreshes hourly_  
+_Updated: **2026-09-26 07:18 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 48** of rollout — **35,000 invitees**, **541 tickets** so far (1.5% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 48** of rollout — **35,000 invitees**, **542 tickets** so far (1.5% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
-- **541** tickets total since launch · contact rate **2%** of 35000 invitees
+- **3** new tickets in last 24h · **6** solved in last 24h
+- **542** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (136 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
@@ -192,12 +192,12 @@ _(none in last 24h)_
 - **solved**: 381
 - **pending**: 81
 - **closed**: 57
-- **open**: 11
+- **open**: 12
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 301
+- **Account Hub**: 302
 - **Thundermail**: 197
 - **Send**: 11
 - **Appointment**: 8
@@ -254,6 +254,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#9159](https://tbpro.zendesk.com/agent/tickets/9159)** · Question regarding account closure and the recycling of aliases
+  > Dear [name], I have a question regarding your policies on account closure: If I decide to close my account, what happens to my primary email address and my associated email…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#9151](https://tbpro.zendesk.com/agent/tickets/9151)** · [ai-test] How do I setup a second Thundermail calendar using TB Desktop?
@@ -268,6 +273,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9151](https://tbpro.zendesk.com/agent/tickets/9151) · [open] · 2026-09-25T20:24 · [ai-test] How do I setup a second Thundermail calendar using TB Desktop?
 - [9154](https://tbpro.zendesk.com/agent/tickets/9154) · [pending] · 2026-09-25T22:41 · No free option no iPhone app 
+- [9159](https://tbpro.zendesk.com/agent/tickets/9159) · [open] · 2026-09-26T10:48 · Question regarding account closure and the recycling of aliases
 
 ## Solved — last 24h
 
