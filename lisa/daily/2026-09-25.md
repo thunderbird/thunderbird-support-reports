@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-25
 
-_Updated: **2026-09-25 20:55 ET** · refreshes hourly_  
+_Updated: **2026-09-25 21:30 ET** · refreshes hourly_  
 _24h window: 2026-09-24T16:00 → 2026-09-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 47** of rollout — **35,000 invitees**, **541 tickets** so fa
 
 ## At a glance
 
-- **17** new tickets in last 24h · **6** solved in last 24h
+- **17** new tickets in last 24h · **5** solved in last 24h
 - **541** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 92%  (134 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 68
-- **Median AHT**: 136.4h · mean 162.1h (proxy: updated_at − created_at, 382 solved tickets)
+- **Median AHT**: 136.4h · mean 162.2h (proxy: updated_at − created_at, 382 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -346,7 +346,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-25T00:46 · error: 525
 - 👍 [8611](https://tbpro.zendesk.com/agent/tickets/8611) · 2026-09-25T13:43 · can't verify custom domain
 - · [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-25T15:24 · additional accounts
 - · [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-25T15:49 · Thundermail web & mobile for Sailfish OS
