@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 01:21 ET** · refreshes hourly_  
+_Updated: **2026-09-26 02:34 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 48** of rollout — **35,000 invitees**, **541 tickets** so fa
 - **541** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (136 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 68
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
 - **Median AHT**: 136.4h · mean 162.6h (proxy: updated_at − created_at, 381 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
@@ -180,8 +180,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [https://ideas.tb.pro add SSO With our thundermail.com account](https://ideas.tb.pro/p/https-ideas-tb-pro-add-sso-with-our-thundermail-com-account) · 1 votes · _untagged_
+  > What you’d like to seeIf you want to post or comment on https://ideas.tb.pro you have to create (yet another) account. (If you don’t want to user one of those GAFAM for privacy for example)I would…
 - [Increased privacy? Create a Sailfish OS mobile app](https://ideas.tb.pro/p/increased-privacy-create-a-sailfish-os-mobile-app) · 1 votes · _untagged_
   > As I understand it, Thundermail / tb.pro is focused on user privacy. That's very applaudable. As you can see, I am a supporter of that decision. I have been a Thunderbird and Firefox (i.e. Mozilla)…
 
