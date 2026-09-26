@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-26
 
-_Updated: **2026-09-26 00:25 ET** · refreshes hourly_  
+_Updated: **2026-09-26 01:21 ET** · refreshes hourly_  
 _24h window: 2026-09-25T16:00 → 2026-09-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 48** of rollout — **35,000 invitees**, **541 tickets** so far (1.5% contact rate). CSAT since launch: **92%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 48** of rollout — **35,000 invitees**, **541 tickets** so far (1.5% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **541** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 92%  (134 good / 11 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 93%  (136 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 68
-- **Median AHT**: 136.4h · mean 162.2h (proxy: updated_at − created_at, 382 solved tickets)
+- **Median AHT**: 136.4h · mean 162.6h (proxy: updated_at − created_at, 381 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -187,11 +187,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 382
-- **pending**: 83
+- **solved**: 381
+- **pending**: 82
 - **closed**: 57
 - **hold**: 11
-- **open**: 8
+- **open**: 10
 
 ## Service (cumulative)
 
@@ -229,8 +229,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
-- **concerned** + **investigated**: 2
 - **concerned** + **escalated**: 2
+- **concerned** + **investigated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
@@ -271,11 +271,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [9014](https://tbpro.zendesk.com/agent/tickets/9014) · 2026-09-25T20:02 · Missing Create App Password Option
 - · [8913](https://tbpro.zendesk.com/agent/tickets/8913) · 2026-09-25T20:02 · Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)
-- · [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-25T21:02 · Payment Amount
 - · [9030](https://tbpro.zendesk.com/agent/tickets/9030) · 2026-09-25T21:44 · Alias fail
 - · [9008](https://tbpro.zendesk.com/agent/tickets/9008) · 2026-09-25T22:05 · account
 - · [8925](https://tbpro.zendesk.com/agent/tickets/8925) · 2026-09-26T00:01 · Please confirm whether my Thundermail waitlist signup was successful
-- · [9077](https://tbpro.zendesk.com/agent/tickets/9077) · 2026-09-26T01:01 · error: 525
+- 👍 [8970](https://tbpro.zendesk.com/agent/tickets/8970) · 2026-09-26T05:06 · Payment Amount
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
