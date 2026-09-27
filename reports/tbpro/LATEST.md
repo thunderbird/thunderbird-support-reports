@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-27
 
-_Updated: **2026-09-27 13:19 ET** · refreshes hourly_  
+_Updated: **2026-09-27 14:26 ET** · refreshes hourly_  
 _24h window: 2026-09-26T16:00 → 2026-09-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 49** of rollout — **35,000 invitees**, **550 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **13** solved in last 24h
+- **6** new tickets in last 24h · **16** solved in last 24h
 - **550** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (138 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 137.4h · mean 166.7h (proxy: updated_at − created_at, 387 solved tickets)
+- **Median AHT**: 137.4h · mean 166.5h (proxy: updated_at − created_at, 390 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -186,9 +186,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 387
+- **solved**: 390
 - **closed**: 74
-- **pending**: 55
+- **pending**: 52
 - **open**: 21
 - **hold**: 7
 - **new**: 6
@@ -300,6 +300,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8912](https://tbpro.zendesk.com/agent/tickets/8912) · 2026-09-26T23:01 · Payment for the Mailaccount
 - · [8262](https://tbpro.zendesk.com/agent/tickets/8262) · 2026-09-27T16:01 · Cant get verification link
 - · [8936](https://tbpro.zendesk.com/agent/tickets/8936) · 2026-09-27T17:02 · Logging in to thunderbird mail!!!
+- · [8935](https://tbpro.zendesk.com/agent/tickets/8935) · 2026-09-27T18:01 · Problems with checkout page
+- · [8904](https://tbpro.zendesk.com/agent/tickets/8904) · 2026-09-27T18:01 · [domain] email
+- · [8891](https://tbpro.zendesk.com/agent/tickets/8891) · 2026-09-27T18:01 · SPAM EN DESTINATARIO
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
