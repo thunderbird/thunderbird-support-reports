@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-27
 
-_Updated: **2026-09-27 00:27 ET** · refreshes hourly_  
+_Updated: **2026-09-27 01:22 ET** · refreshes hourly_  
 _24h window: 2026-09-26T16:00 → 2026-09-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 49** of rollout — **35,000 invitees**, **545 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 49** of rollout — **35,000 invitees**, **546 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **11** solved in last 24h
-- **545** tickets total since launch · contact rate **2%** of 35000 invitees
+- **2** new tickets in last 24h · **11** solved in last 24h
+- **546** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 93%  (137 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -191,12 +191,12 @@ _(none in last 24h)_
 - **pending**: 58
 - **open**: 17
 - **hold**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 302
-- **Thundermail**: 200
+- **Thundermail**: 201
 - **Send**: 11
 - **Appointment**: 8
 
@@ -252,6 +252,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#9184](https://tbpro.zendesk.com/agent/tickets/9184)** · Pre-enrollment privacy questions about Thundermail
+  > Dear [name], I am considering joining Thundermail during its early-access/beta period and would appreciate clarification on several privacy points before creating an account. 1.…
+
 ### Email migration / import — 1 tickets
 
 - **[#9182](https://tbpro.zendesk.com/agent/tickets/9182)** · Problem accessing Webmail
@@ -260,6 +265,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9182](https://tbpro.zendesk.com/agent/tickets/9182) · [new] · 2026-09-26T22:47 · Problem accessing Webmail
+- [9184](https://tbpro.zendesk.com/agent/tickets/9184) · [new] · 2026-09-27T04:51 · Pre-enrollment privacy questions about Thundermail
 
 ## Solved — last 24h
 
