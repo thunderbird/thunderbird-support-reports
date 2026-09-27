@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-27
 
-_Updated: **2026-09-27 08:31 ET** · refreshes hourly_  
+_Updated: **2026-09-27 09:20 ET** · refreshes hourly_  
 _24h window: 2026-09-26T16:00 → 2026-09-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 49** of rollout — **35,000 invitees**, **547 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 49** of rollout — **35,000 invitees**, **548 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **11** solved in last 24h
-- **547** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **548** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 93%  (137 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -191,11 +191,11 @@ _(none in last 24h)_
 - **pending**: 57
 - **open**: 18
 - **hold**: 9
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 302
+- **Account Hub**: 303
 - **Thundermail**: 201
 - **Send**: 11
 - **Appointment**: 8
@@ -252,8 +252,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
+### Account access issues — 2 tickets
 
+- **[#9187](https://tbpro.zendesk.com/agent/tickets/9187)** · N/A
+  > Best way to login in to my maesales.xxx accounts for all electronic mail
 - **[#9186](https://tbpro.zendesk.com/agent/tickets/9186)** · Unable to reset password
   > [email], Unable to reset passward, Please help and contact me [email]
 
@@ -272,6 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9182](https://tbpro.zendesk.com/agent/tickets/9182) · [new] · 2026-09-26T22:47 · Problem accessing Webmail
 - [9184](https://tbpro.zendesk.com/agent/tickets/9184) · [new] · 2026-09-27T04:51 · Pre-enrollment privacy questions about Thundermail
 - [9186](https://tbpro.zendesk.com/agent/tickets/9186) · [new] · 2026-09-27T12:22 · Unable to reset password
+- [9187](https://tbpro.zendesk.com/agent/tickets/9187) · [new] · 2026-09-27T12:37 · N/A
 
 ## Solved — last 24h
 
