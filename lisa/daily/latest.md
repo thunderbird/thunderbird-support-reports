@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-27
 
-_Updated: **2026-09-27 12:23 ET** · refreshes hourly_  
+_Updated: **2026-09-27 13:19 ET** · refreshes hourly_  
 _24h window: 2026-09-26T16:00 → 2026-09-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 49** of rollout — **35,000 invitees**, **549 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 49** of rollout — **35,000 invitees**, **550 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **12** solved in last 24h
-- **549** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **13** solved in last 24h
+- **550** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 93%  (138 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -187,16 +187,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 387
-- **closed**: 73
-- **pending**: 56
-- **open**: 20
-- **hold**: 8
-- **new**: 5
+- **closed**: 74
+- **pending**: 55
+- **open**: 21
+- **hold**: 7
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 304
-- **Thundermail**: 201
+- **Thundermail**: 202
 - **Send**: 11
 - **Appointment**: 8
 
@@ -252,17 +252,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#9190](https://tbpro.zendesk.com/agent/tickets/9190)** · My Thunderbird stops all the time
+  > My files (boxes) are quite full, but not any more so full that this would be the reason for that Thunderbird does not function
+- **[#9189](https://tbpro.zendesk.com/agent/tickets/9189)** · recovery email
+  > I cant see a place to add my recovery email. The email I was set said to use my registration email when setting up for beta [email]. If you can point me would be great.
+
 ### Account access issues — 2 tickets
 
 - **[#9187](https://tbpro.zendesk.com/agent/tickets/9187)** · N/A
   > Best way to login in to my maesales.xxx accounts for all electronic mail
 - **[#9186](https://tbpro.zendesk.com/agent/tickets/9186)** · Unable to reset password
   > [email], Unable to reset passward, Please help and contact me [email]
-
-### Other / uncategorized — 1 tickets
-
-- **[#9189](https://tbpro.zendesk.com/agent/tickets/9189)** · recovery email
-  > I cant see a place to add my recovery email. The email I was set said to use my registration email when setting up for beta [email]. If you can point me would be great.
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -281,6 +283,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9186](https://tbpro.zendesk.com/agent/tickets/9186) · [new] · 2026-09-27T12:22 · Unable to reset password
 - [9187](https://tbpro.zendesk.com/agent/tickets/9187) · [new] · 2026-09-27T12:37 · N/A
 - [9189](https://tbpro.zendesk.com/agent/tickets/9189) · [new] · 2026-09-27T14:19 · recovery email
+- [9190](https://tbpro.zendesk.com/agent/tickets/9190) · [new] · 2026-09-27T16:51 · My Thunderbird stops all the time
 
 ## Solved — last 24h
 
@@ -296,6 +299,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9008](https://tbpro.zendesk.com/agent/tickets/9008) · 2026-09-26T23:01 · account
 - · [8912](https://tbpro.zendesk.com/agent/tickets/8912) · 2026-09-26T23:01 · Payment for the Mailaccount
 - · [8262](https://tbpro.zendesk.com/agent/tickets/8262) · 2026-09-27T16:01 · Cant get verification link
+- · [8936](https://tbpro.zendesk.com/agent/tickets/8936) · 2026-09-27T17:02 · Logging in to thunderbird mail!!!
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
