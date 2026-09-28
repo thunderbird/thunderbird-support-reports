@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 14:31 ET** · refreshes hourly_  
+_Updated: **2026-09-28 15:20 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **555 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **20** solved in last 24h
-- **555** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **23** solved in last 24h
+- **556** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 68
-- **Median AHT**: 136.4h · mean 167.8h (proxy: updated_at − created_at, 396 solved tickets)
+- **Median AHT**: 136.4h · mean 167.5h (proxy: updated_at − created_at, 399 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -183,23 +183,23 @@ _(none in last 24h)_
 
 **Last 24h** — 2 new:
 
-- [Webmail browser notifications](https://ideas.tb.pro/p/webmail-browser-notifications) · 1 votes · _untagged_
+- [Webmail browser notifications](https://ideas.tb.pro/p/webmail-browser-notifications) · 1 votes · _New Feature, Webmail_
   > What you’d like to seeBriefly describe the feature or improvement.I’d like to see push notifications added to the webmail through the browser’s push notification system.Why it mattersWhat problem…
 - [Full Contact Sync for iOS and Android](https://ideas.tb.pro/p/full-contact-sync-for-ios-and-android) · 1 votes · _Appointment, New Feature_
   > Syncronise Contacts stored in Thundermail Mobile App to Contacts on iOS and AndroidTuta.com provides a feature in their mobile apps to syncronise contacts stored in their app to the device contacts…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 396
+- **solved**: 399
 - **closed**: 86
-- **pending**: 41
-- **open**: 25
+- **pending**: 38
+- **open**: 26
 - **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 309
-- **Thundermail**: 202
+- **Thundermail**: 203
 - **Send**: 12
 - **Appointment**: 8
 
@@ -264,6 +264,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9258](https://tbpro.zendesk.com/agent/tickets/9258)** · Can't login — why: **blocked** · how: **informed**
   > Hello I signed up a few days ago but havent paid yet, I was going to today and I can't login anymore. The account I created is [email] if you could help that would be a big plus.
 
+### App setup / configuration — 2 tickets
+
+- **[#9261](https://tbpro.zendesk.com/agent/tickets/9261)** · Emails sent from thundermail are not delivered to Gmail mailboxes
+  > Hi! I'm very happy that you delivered Thundermail:-) Unfortunately at this point I can't fully switch to it (from Gmail) as I've noticed that emails sent from my shiny new…
+- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
+  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#9260](https://tbpro.zendesk.com/agent/tickets/9260)** · فتح حساب بريد إلكتروني 
@@ -274,11 +281,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation
   > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
 
-### App setup / configuration — 1 tickets
-
-- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
-  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
-
 ## New tickets — last 24h
 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
@@ -287,6 +289,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [open] · 2026-09-28T16:29 · Homeserver Mail
 - [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [pending] · 2026-09-28T16:47 · Can't login
 - [9260](https://tbpro.zendesk.com/agent/tickets/9260) · [open] · 2026-09-28T18:26 · فتح حساب بريد إلكتروني 
+- [9261](https://tbpro.zendesk.com/agent/tickets/9261) · [open] · 2026-09-28T18:39 · Emails sent from thundermail are not delivered to Gmail mailboxes
 
 ## Solved — last 24h
 
@@ -310,6 +313,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-28T17:47 · Thundermail signup
 - · [8980](https://tbpro.zendesk.com/agent/tickets/8980) · 2026-09-28T18:01 · I want to cancel my plan as its not serving my purpose
 - · [8978](https://tbpro.zendesk.com/agent/tickets/8978) · 2026-09-28T18:01 · Cancellation and Refund
+- · [8992](https://tbpro.zendesk.com/agent/tickets/8992) · 2026-09-28T19:01 · Send storage only?
+- · [8988](https://tbpro.zendesk.com/agent/tickets/8988) · 2026-09-28T19:01 · forgot paassword
+- · [8984](https://tbpro.zendesk.com/agent/tickets/8984) · 2026-09-28T19:01 · Using Thundermail with other clients
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
