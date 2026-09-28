@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 07:26 ET** · refreshes hourly_  
+_Updated: **2026-09-28 08:40 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **551 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **552 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
-- **551** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **3** new tickets in last 24h · **9** solved in last 24h
+- **552** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (139 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 137.1h · mean 167.5h (proxy: updated_at − created_at, 392 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
+- **Median AHT**: 137.1h · mean 167.8h (proxy: updated_at − created_at, 394 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -180,23 +180,24 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Full Contact Sync for iOS and Android](https://ideas.tb.pro/p/full-contact-sync-for-ios-and-android) · 1 votes · _Appointment, New Feature_
+  > Syncronise Contacts stored in Thundermail Mobile App to Contacts on iOS and AndroidTuta.com provides a feature in their mobile apps to syncronise contacts stored in their app to the device contacts…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 392
+- **solved**: 394
 - **closed**: 77
 - **pending**: 42
-- **open**: 25
-- **new**: 8
+- **open**: 23
+- **new**: 9
 - **hold**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 305
-- **Thundermail**: 201
+- **Thundermail**: 202
 - **Send**: 12
 - **Appointment**: 8
 
@@ -251,6 +252,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 1 tickets
+
+- **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation
+  > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
+
 ### App setup / configuration — 1 tickets
 
 - **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
@@ -265,6 +271,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [new] · 2026-09-28T01:54 · Thundermail
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [new] · 2026-09-28T10:01 · FileLink
+- [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [new] · 2026-09-28T12:21 · Questions before accepting invitation
 
 ## Solved — last 24h
 
@@ -275,6 +282,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8938](https://tbpro.zendesk.com/agent/tickets/8938) · 2026-09-27T23:01 · Questions about Thundermail tiers
 - · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-28T01:01 · Public calendar link
 - · [8952](https://tbpro.zendesk.com/agent/tickets/8952) · 2026-09-28T11:04 · cancel and refund 
+- 👍 [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-28T12:19 · additional accounts
+- 👍 [9085](https://tbpro.zendesk.com/agent/tickets/9085) · 2026-09-28T12:19 · custom domain and aliases
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
