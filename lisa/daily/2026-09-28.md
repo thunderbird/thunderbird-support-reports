@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 08:40 ET** · refreshes hourly_  
+_Updated: **2026-09-28 09:27 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **552 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **553 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **9** solved in last 24h
-- **552** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **9** solved in last 24h
+- **553** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (139 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 68
 - **Median AHT**: 137.1h · mean 167.8h (proxy: updated_at − created_at, 394 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
@@ -190,7 +190,7 @@ _(none in last 24h)_
 - **solved**: 394
 - **closed**: 77
 - **pending**: 42
-- **open**: 23
+- **open**: 24
 - **new**: 9
 - **hold**: 7
 
@@ -252,8 +252,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 1 tickets
+### Webmail — 2 tickets
 
+- **[#9241](https://tbpro.zendesk.com/agent/tickets/9241)** · [cf-ai-test] How do I log in to Thundermail?
+  > How do I login to Thundermail with the account I created: [email]?
 - **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation
   > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
 
@@ -272,6 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [new] · 2026-09-28T01:54 · Thundermail
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [new] · 2026-09-28T10:01 · FileLink
 - [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [new] · 2026-09-28T12:21 · Questions before accepting invitation
+- [9241](https://tbpro.zendesk.com/agent/tickets/9241) · [open] · 2026-09-28T12:52 · [cf-ai-test] How do I log in to Thundermail?
 
 ## Solved — last 24h
 
