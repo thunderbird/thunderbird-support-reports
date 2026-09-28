@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-09-27
+# Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-27 23:33 ET** · refreshes hourly_  
-_24h window: 2026-09-26T16:00 → 2026-09-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-28 00:31 ET** · refreshes hourly_  
+_24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 49** of rollout — **35,000 invitees**, **551 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **551 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **16** solved in last 24h
+- **1** new tickets in last 24h · **7** solved in last 24h
 - **551** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 67%  (2 good / 1 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (139 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
 - **Median AHT**: 137.1h · mean 167.5h (proxy: updated_at − created_at, 392 solved tickets)
@@ -252,57 +252,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#9190](https://tbpro.zendesk.com/agent/tickets/9190)** · My Thunderbird stops all the time
-  > My files (boxes) are quite full, but not any more so full that this would be the reason for that Thunderbird does not function
-- **[#9189](https://tbpro.zendesk.com/agent/tickets/9189)** · recovery email
-  > I cant see a place to add my recovery email. The email I was set said to use my registration email when setting up for beta [email]. If you can point me would be great.
-
-### Account access issues — 2 tickets
-
-- **[#9187](https://tbpro.zendesk.com/agent/tickets/9187)** · N/A
-  > Best way to login in to my maesales.xxx accounts for all electronic mail
-- **[#9186](https://tbpro.zendesk.com/agent/tickets/9186)** · Unable to reset password
-  > [email], Unable to reset passward, Please help and contact me [email]
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#9184](https://tbpro.zendesk.com/agent/tickets/9184)** · Pre-enrollment privacy questions about Thundermail
-  > Dear [name], I am considering joining Thundermail during its early-access/beta period and would appreciate clarification on several privacy points before creating an account. 1.…
-
-### Email migration / import — 1 tickets
-
-- **[#9182](https://tbpro.zendesk.com/agent/tickets/9182)** · Problem accessing Webmail
-  > Hi, I just wanted to know if it's normal that I can access Webmail anymore. I just did a massive migration of 2 Gmail account to Thendermail, maybe that's because of this. I still…
+- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail
+  > How do I login to Thundermail I created: [email].
 
 ## New tickets — last 24h
 
-- [9182](https://tbpro.zendesk.com/agent/tickets/9182) · [new] · 2026-09-26T22:47 · Problem accessing Webmail
-- [9184](https://tbpro.zendesk.com/agent/tickets/9184) · [new] · 2026-09-27T04:51 · Pre-enrollment privacy questions about Thundermail
-- [9186](https://tbpro.zendesk.com/agent/tickets/9186) · [new] · 2026-09-27T12:22 · Unable to reset password
-- [9187](https://tbpro.zendesk.com/agent/tickets/9187) · [new] · 2026-09-27T12:37 · N/A
-- [9189](https://tbpro.zendesk.com/agent/tickets/9189) · [new] · 2026-09-27T14:19 · recovery email
-- [9190](https://tbpro.zendesk.com/agent/tickets/9190) · [new] · 2026-09-27T16:51 · My Thunderbird stops all the time
+- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [new] · 2026-09-28T01:54 · Thundermail
 
 ## Solved — last 24h
 
-- · [8744](https://tbpro.zendesk.com/agent/tickets/8744) · 2026-09-26T20:01 · how much thundermail blocks tracking urls...
-- · [8882](https://tbpro.zendesk.com/agent/tickets/8882) · 2026-09-26T21:01 · Trying to set up ThunderMail calendar using CalDAV
-- · [8860](https://tbpro.zendesk.com/agent/tickets/8860) · 2026-09-26T21:01 · Can't access thundermail anymore. 
-- · [8859](https://tbpro.zendesk.com/agent/tickets/8859) · 2026-09-26T21:01 · missing custom domain send
-- · [8605](https://tbpro.zendesk.com/agent/tickets/8605) · 2026-09-26T21:01 · Problem with sending emails
-- · [9030](https://tbpro.zendesk.com/agent/tickets/9030) · 2026-09-26T22:02 · Alias fail
-- · [8815](https://tbpro.zendesk.com/agent/tickets/8815) · 2026-09-26T22:02 · Calendars in appointment do not auto-populate
-- · [8753](https://tbpro.zendesk.com/agent/tickets/8753) · 2026-09-26T22:02 · Alias email 
-- · [8748](https://tbpro.zendesk.com/agent/tickets/8748) · 2026-09-26T22:02 · How to ask for a refund?
-- · [9008](https://tbpro.zendesk.com/agent/tickets/9008) · 2026-09-26T23:01 · account
-- · [8912](https://tbpro.zendesk.com/agent/tickets/8912) · 2026-09-26T23:01 · Payment for the Mailaccount
-- · [8262](https://tbpro.zendesk.com/agent/tickets/8262) · 2026-09-27T16:01 · Cant get verification link
-- · [8936](https://tbpro.zendesk.com/agent/tickets/8936) · 2026-09-27T17:02 · Logging in to thunderbird mail!!!
-- · [8935](https://tbpro.zendesk.com/agent/tickets/8935) · 2026-09-27T18:01 · Problems with checkout page
-- · [8904](https://tbpro.zendesk.com/agent/tickets/8904) · 2026-09-27T18:01 · [domain] email
-- · [8891](https://tbpro.zendesk.com/agent/tickets/8891) · 2026-09-27T18:01 · SPAM EN DESTINATARIO
+- · [8939](https://tbpro.zendesk.com/agent/tickets/8939) · 2026-09-27T21:01 · No app password optiom
+- · [8802](https://tbpro.zendesk.com/agent/tickets/8802) · 2026-09-27T21:01 · Adding an imap account
+- · [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-27T21:20 · Thundermail web & mobile for Sailfish OS
+- · [8952](https://tbpro.zendesk.com/agent/tickets/8952) · 2026-09-27T22:01 · cancel and refund 
+- · [8509](https://tbpro.zendesk.com/agent/tickets/8509) · 2026-09-27T22:01 · Additional problems
+- · [8938](https://tbpro.zendesk.com/agent/tickets/8938) · 2026-09-27T23:01 · Questions about Thundermail tiers
+- · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-28T01:01 · Public calendar link
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
