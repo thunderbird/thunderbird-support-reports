@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 13:22 ET** · refreshes hourly_  
+_Updated: **2026-09-28 14:31 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **554 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **555 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **17** solved in last 24h
-- **554** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **6** new tickets in last 24h · **20** solved in last 24h
+- **555** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 136.6h · mean 167.5h (proxy: updated_at − created_at, 398 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 68
+- **Median AHT**: 136.4h · mean 167.8h (proxy: updated_at − created_at, 396 solved tickets)
 
-## Known problems — 8 problem(s), 65 incident(s)
+## Known problems — 8 problem(s), 66 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 2 incident(s):
@@ -29,7 +29,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **554 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 56 incident(s):
+- 57 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -83,9 +83,10 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **554 tickets** so fa
   - [#8952](https://tbpro.zendesk.com/agent/tickets/8952) · [solved] · 2026-09-22 · _cancel and refund _
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [solved] · 2026-09-23 · _Delete this account_
   - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [solved] · 2026-09-23 · _Subscription in Error_
-  - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [pending] · 2026-09-23 · _Cancellation and Refund_
+  - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [solved] · 2026-09-23 · _Cancellation and Refund_
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [pending] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [pending] · 2026-09-25 · _Cancel my account_
+  - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [pending] · 2026-09-26 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -180,23 +181,25 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Webmail browser notifications](https://ideas.tb.pro/p/webmail-browser-notifications) · 1 votes · _untagged_
+  > What you’d like to seeBriefly describe the feature or improvement.I’d like to see push notifications added to the webmail through the browser’s push notification system.Why it mattersWhat problem…
 - [Full Contact Sync for iOS and Android](https://ideas.tb.pro/p/full-contact-sync-for-ios-and-android) · 1 votes · _Appointment, New Feature_
   > Syncronise Contacts stored in Thundermail Mobile App to Contacts on iOS and AndroidTuta.com provides a feature in their mobile apps to syncronise contacts stored in their app to the device contacts…
 
 ## Status breakdown (cumulative)
 
-- **solved**: 398
-- **closed**: 81
-- **pending**: 43
+- **solved**: 396
+- **closed**: 86
+- **pending**: 41
 - **open**: 25
 - **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 307
-- **Thundermail**: 203
+- **Account Hub**: 309
+- **Thundermail**: 202
 - **Send**: 12
 - **Appointment**: 8
 
@@ -206,7 +209,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 125
 - **blocked** + **explained**: 77
-- **change request** + **actioned**: 76
+- **change request** + **actioned**: 77
 - **confused** + **explained**: 33
 - **curious** + **informed**: 29
 - **blocked** + **investigated**: 28
@@ -215,7 +218,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 20
 - **blocked** + **redirected**: 15
 - **blocked** + **escalated**: 11
-- **blocked** + **informed**: 10
+- **blocked** + **informed**: 11
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
 - **blocked** + **—**: 6
@@ -225,8 +228,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **explained**: 3
 - **blocked** + **actioned**: 3
 - **change request** + **escalated**: 3
-- **other** + **n/a**: 2
 - **confused** + **escalated**: 2
+- **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **concerned** + **redirected**: 2
@@ -254,12 +257,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account access issues — 3 tickets
 
-- **[#9258](https://tbpro.zendesk.com/agent/tickets/9258)** · Can't login
-  > Hello I signed up a few days ago but havent paid yet, I was going to today and I can't login anymore. The account I created is [email] if you could help that would be a big plus.
 - **[#9256](https://tbpro.zendesk.com/agent/tickets/9256)** · Homeserver Mail
   > I was curious if it is against the ToS to use my ThunderMail account for sending password reset emails from my homeserver. I haven't configured anything yet, but currently…
 - **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail
   > How do I login to Thundermail I created: [email].
+- **[#9258](https://tbpro.zendesk.com/agent/tickets/9258)** · Can't login — why: **blocked** · how: **informed**
+  > Hello I signed up a few days ago but havent paid yet, I was going to today and I can't login anymore. The account I created is [email] if you could help that would be a big plus.
+
+### Other / uncategorized — 1 tickets
+
+- **[#9260](https://tbpro.zendesk.com/agent/tickets/9260)** · فتح حساب بريد إلكتروني 
+  > مساعده في إنشاء حساب بريد إلكتروني
 
 ### Webmail — 1 tickets
 
@@ -277,7 +285,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [open] · 2026-09-28T10:01 · FileLink
 - [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [open] · 2026-09-28T12:21 · Questions before accepting invitation
 - [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [open] · 2026-09-28T16:29 · Homeserver Mail
-- [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [open] · 2026-09-28T16:47 · Can't login
+- [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [pending] · 2026-09-28T16:47 · Can't login
+- [9260](https://tbpro.zendesk.com/agent/tickets/9260) · [open] · 2026-09-28T18:26 · فتح حساب بريد إلكتروني 
 
 ## Solved — last 24h
 
@@ -298,6 +307,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8958](https://tbpro.zendesk.com/agent/tickets/8958) · 2026-09-28T17:02 · Delete this account
 - · [8954](https://tbpro.zendesk.com/agent/tickets/8954) · 2026-09-28T17:02 · Multiple accounts for family with shared domain
 - · [8720](https://tbpro.zendesk.com/agent/tickets/8720) · 2026-09-28T17:02 · Enough is enough.
+- · [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-28T17:47 · Thundermail signup
+- · [8980](https://tbpro.zendesk.com/agent/tickets/8980) · 2026-09-28T18:01 · I want to cancel my plan as its not serving my purpose
+- · [8978](https://tbpro.zendesk.com/agent/tickets/8978) · 2026-09-28T18:01 · Cancellation and Refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
