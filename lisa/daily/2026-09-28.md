@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 12:28 ET** · refreshes hourly_  
+_Updated: **2026-09-28 13:22 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **552 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **554 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **11** solved in last 24h
-- **552** tickets total since launch · contact rate **2%** of 35000 invitees
+- **5** new tickets in last 24h · **17** solved in last 24h
+- **554** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 136.7h · mean 167.5h (proxy: updated_at − created_at, 393 solved tickets)
+- **Median AHT**: 136.6h · mean 167.5h (proxy: updated_at − created_at, 398 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -81,8 +81,8 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **552 tickets** so fa
   - [#8864](https://tbpro.zendesk.com/agent/tickets/8864) · [solved] · 2026-09-20 · _Cancellation and refund_
   - [#8866](https://tbpro.zendesk.com/agent/tickets/8866) · [solved] · 2026-09-20 · _Delete Account_
   - [#8952](https://tbpro.zendesk.com/agent/tickets/8952) · [solved] · 2026-09-22 · _cancel and refund _
-  - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [pending] · 2026-09-23 · _Delete this account_
-  - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [pending] · 2026-09-23 · _Subscription in Error_
+  - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [solved] · 2026-09-23 · _Delete this account_
+  - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [solved] · 2026-09-23 · _Subscription in Error_
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [pending] · 2026-09-23 · _Cancellation and Refund_
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [pending] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [pending] · 2026-09-25 · _Cancel my account_
@@ -187,16 +187,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 393
-- **closed**: 80
-- **pending**: 48
-- **open**: 24
+- **solved**: 398
+- **closed**: 81
+- **pending**: 43
+- **open**: 25
 - **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 306
-- **Thundermail**: 202
+- **Account Hub**: 307
+- **Thundermail**: 203
 - **Send**: 12
 - **Appointment**: 8
 
@@ -252,6 +252,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 3 tickets
+
+- **[#9258](https://tbpro.zendesk.com/agent/tickets/9258)** · Can't login
+  > Hello I signed up a few days ago but havent paid yet, I was going to today and I can't login anymore. The account I created is [email] if you could help that would be a big plus.
+- **[#9256](https://tbpro.zendesk.com/agent/tickets/9256)** · Homeserver Mail
+  > I was curious if it is against the ToS to use my ThunderMail account for sending password reset emails from my homeserver. I haven't configured anything yet, but currently…
+- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail
+  > How do I login to Thundermail I created: [email].
+
 ### Webmail — 1 tickets
 
 - **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation
@@ -262,16 +271,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
   > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
 
-### Account access issues — 1 tickets
-
-- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail
-  > How do I login to Thundermail I created: [email].
-
 ## New tickets — last 24h
 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [open] · 2026-09-28T10:01 · FileLink
 - [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [open] · 2026-09-28T12:21 · Questions before accepting invitation
+- [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [open] · 2026-09-28T16:29 · Homeserver Mail
+- [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [open] · 2026-09-28T16:47 · Can't login
 
 ## Solved — last 24h
 
@@ -286,6 +292,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-28T13:39 · Same issue with signup, no verification email is sent.
 - · [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-28T15:00 · Display name
 - 👍 [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-28T15:18 · Thundermail web & mobile for Sailfish OS
+- · [8976](https://tbpro.zendesk.com/agent/tickets/8976) · 2026-09-28T17:02 · compilla2
+- · [8965](https://tbpro.zendesk.com/agent/tickets/8965) · 2026-09-28T17:02 · Subscription in Error
+- · [8960](https://tbpro.zendesk.com/agent/tickets/8960) · 2026-09-28T17:02 · signin not working
+- · [8958](https://tbpro.zendesk.com/agent/tickets/8958) · 2026-09-28T17:02 · Delete this account
+- · [8954](https://tbpro.zendesk.com/agent/tickets/8954) · 2026-09-28T17:02 · Multiple accounts for family with shared domain
+- · [8720](https://tbpro.zendesk.com/agent/tickets/8720) · 2026-09-28T17:02 · Enough is enough.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
