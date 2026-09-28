@@ -1,27 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 09:27 ET** · refreshes hourly_  
+_Updated: **2026-09-28 11:13 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **553 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **552 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **9** solved in last 24h
-- **553** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 93%  (139 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 68
-- **Median AHT**: 137.1h · mean 167.8h (proxy: updated_at − created_at, 394 solved tickets)
+- **3** new tickets in last 24h · **10** solved in last 24h
+- **552** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 93%  (140 good / 11 bad)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
+- **Median AHT**: 136.8h · mean 167.5h (proxy: updated_at − created_at, 394 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 2 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
-  - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [open] · 2026-09-25 · _Same issue with signup, no verification email is sent._
+  - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -188,11 +188,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 394
-- **closed**: 77
-- **pending**: 42
+- **closed**: 78
+- **pending**: 43
 - **open**: 24
-- **new**: 9
 - **hold**: 7
+- **new**: 6
 
 ## Service (cumulative)
 
@@ -240,6 +240,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
+- **change request** + **investigated**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
@@ -252,10 +253,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 2 tickets
+### Webmail — 1 tickets
 
-- **[#9241](https://tbpro.zendesk.com/agent/tickets/9241)** · [cf-ai-test] How do I log in to Thundermail?
-  > How do I login to Thundermail with the account I created: [email]?
 - **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation
   > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
 
@@ -274,19 +273,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [new] · 2026-09-28T01:54 · Thundermail
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [new] · 2026-09-28T10:01 · FileLink
 - [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [new] · 2026-09-28T12:21 · Questions before accepting invitation
-- [9241](https://tbpro.zendesk.com/agent/tickets/9241) · [open] · 2026-09-28T12:52 · [cf-ai-test] How do I log in to Thundermail?
 
 ## Solved — last 24h
 
 - · [8939](https://tbpro.zendesk.com/agent/tickets/8939) · 2026-09-27T21:01 · No app password optiom
 - · [8802](https://tbpro.zendesk.com/agent/tickets/8802) · 2026-09-27T21:01 · Adding an imap account
-- · [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-27T21:20 · Thundermail web & mobile for Sailfish OS
 - · [8509](https://tbpro.zendesk.com/agent/tickets/8509) · 2026-09-27T22:01 · Additional problems
 - · [8938](https://tbpro.zendesk.com/agent/tickets/8938) · 2026-09-27T23:01 · Questions about Thundermail tiers
 - · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-28T01:01 · Public calendar link
 - · [8952](https://tbpro.zendesk.com/agent/tickets/8952) · 2026-09-28T11:04 · cancel and refund 
 - 👍 [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-28T12:19 · additional accounts
 - 👍 [9085](https://tbpro.zendesk.com/agent/tickets/9085) · 2026-09-28T12:19 · custom domain and aliases
+- · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-28T13:39 · Same issue with signup, no verification email is sent.
+- · [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-28T15:00 · Display name
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
