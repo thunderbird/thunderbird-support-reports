@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 16:24 ET** · refreshes hourly_  
+_Updated: **2026-09-28 17:21 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
-- **Median AHT**: 136.3h · mean 167.5h (proxy: updated_at − created_at, 398 solved tickets)
+- **Median AHT**: 136.1h · mean 167.2h (proxy: updated_at − created_at, 400 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -190,11 +190,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 398
-- **closed**: 89
-- **pending**: 42
-- **open**: 20
-- **hold**: 7
+- **solved**: 400
+- **closed**: 90
+- **pending**: 46
+- **open**: 10
+- **hold**: 10
 
 ## Service (cumulative)
 
@@ -207,10 +207,10 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 125
-- **blocked** + **explained**: 77
+- **curious** + **explained**: 124
+- **blocked** + **explained**: 79
 - **change request** + **actioned**: 77
-- **confused** + **explained**: 33
+- **confused** + **explained**: 34
 - **curious** + **informed**: 30
 - **blocked** + **investigated**: 29
 - **request** + **redirected**: 24
@@ -227,13 +227,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 4
 - **request** + **explained**: 3
 - **blocked** + **actioned**: 3
+- **concerned** + **investigated**: 3
 - **change request** + **escalated**: 3
 - **confused** + **escalated**: 2
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **concerned** + **redirected**: 2
-- **concerned** + **investigated**: 2
+- **curious** + **investigated**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
@@ -244,52 +245,58 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
 - **change request** + **investigated**: 1
+- **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **request** + **informed**: 1
 - **other** + **escalated**: 1
-- **curious** + **investigated**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 3 tickets
+### Account access issues — 2 tickets
 
-- **[#9256](https://tbpro.zendesk.com/agent/tickets/9256)** · Homeserver Mail
-  > I was curious if it is against the ToS to use my ThunderMail account for sending password reset emails from my homeserver. I haven't configured anything yet, but currently…
-- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail
-  > How do I login to Thundermail I created: [email].
 - **[#9258](https://tbpro.zendesk.com/agent/tickets/9258)** · Can't login — why: **blocked** · how: **informed**
   > Hello I signed up a few days ago but havent paid yet, I was going to today and I can't login anymore. The account I created is [email] if you could help that would be a big plus.
-
-### App setup / configuration — 2 tickets
-
-- **[#9261](https://tbpro.zendesk.com/agent/tickets/9261)** · Emails sent from thundermail are not delivered to Gmail mailboxes
-  > Hi! I'm very happy that you delivered Thundermail:-) Unfortunately at this point I can't fully switch to it (from Gmail) as I've noticed that emails sent from my shiny new…
-- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
-  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
+- **[#9256](https://tbpro.zendesk.com/agent/tickets/9256)** · Homeserver Mail — why: **curious**
+  > I was curious if it is against the ToS to use my ThunderMail account for sending password reset emails from my homeserver. I haven't configured anything yet, but currently…
 
 ### Other / uncategorized — 1 tickets
 
 - **[#9260](https://tbpro.zendesk.com/agent/tickets/9260)** · فتح حساب بريد إلكتروني 
   > مساعده في إنشاء حساب بريد إلكتروني
 
+### App setup / configuration — 1 tickets
+
+- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
+  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#9261](https://tbpro.zendesk.com/agent/tickets/9261)** · Emails sent from thundermail are not delivered to Gmail mailboxes — why: **concerned** · how: **investigated**
+  > Hi! I'm very happy that you delivered Thundermail:-) Unfortunately at this point I can't fully switch to it (from Gmail) as I've noticed that emails sent from my shiny new…
+
 ### Webmail — 1 tickets
 
 - **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation — why: **curious** · how: **informed**
   > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail — why: **blocked** · how: **explained**
+  > How do I login to Thundermail I created: [email].
+
 ## New tickets — last 24h
 
-- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
+- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28T01:54 · Thundermail
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [open] · 2026-09-28T10:01 · FileLink
 - [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [pending] · 2026-09-28T12:21 · Questions before accepting invitation
-- [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [open] · 2026-09-28T16:29 · Homeserver Mail
+- [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [pending] · 2026-09-28T16:29 · Homeserver Mail
 - [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [pending] · 2026-09-28T16:47 · Can't login
 - [9260](https://tbpro.zendesk.com/agent/tickets/9260) · [open] · 2026-09-28T18:26 · فتح حساب بريد إلكتروني 
-- [9261](https://tbpro.zendesk.com/agent/tickets/9261) · [open] · 2026-09-28T18:39 · Emails sent from thundermail are not delivered to Gmail mailboxes
+- [9261](https://tbpro.zendesk.com/agent/tickets/9261) · [pending] · 2026-09-28T18:39 · Emails sent from thundermail are not delivered to Gmail mailboxes
 
 ## Solved — last 24h
 
