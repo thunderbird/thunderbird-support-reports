@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 17:21 ET** · refreshes hourly_  
+_Updated: **2026-09-28 18:22 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **555 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **23** solved in last 24h
-- **556** tickets total since launch · contact rate **2%** of 35000 invitees
+- **555** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
-- **Median AHT**: 136.1h · mean 167.2h (proxy: updated_at − created_at, 400 solved tickets)
+- **Median AHT**: 136.1h · mean 167.1h (proxy: updated_at − created_at, 401 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -101,7 +101,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -190,15 +190,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 400
-- **closed**: 90
-- **pending**: 46
-- **open**: 10
-- **hold**: 10
+- **solved**: 401
+- **closed**: 91
+- **pending**: 47
+- **hold**: 11
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 309
+- **Account Hub**: 308
 - **Thundermail**: 203
 - **Send**: 12
 - **Appointment**: 8
@@ -207,7 +207,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 124
+- **curious** + **explained**: 123
 - **blocked** + **explained**: 79
 - **change request** + **actioned**: 77
 - **confused** + **explained**: 34
@@ -215,7 +215,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 29
 - **request** + **redirected**: 24
 - **concerned** + **explained**: 21
-- **confused** + **informed**: 20
+- **confused** + **informed**: 21
 - **blocked** + **redirected**: 15
 - **blocked** + **escalated**: 11
 - **blocked** + **informed**: 11
@@ -268,10 +268,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9260](https://tbpro.zendesk.com/agent/tickets/9260)** · فتح حساب بريد إلكتروني 
   > مساعده في إنشاء حساب بريد إلكتروني
 
-### App setup / configuration — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
-  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
+- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail — why: **blocked** · how: **explained**
+  > How do I login to Thundermail I created: [email].
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -283,15 +283,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation — why: **curious** · how: **informed**
   > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
 
-### Account access issues — Account Hub trouble — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail — why: **blocked** · how: **explained**
-  > How do I login to Thundermail I created: [email].
+- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink — why: **confused** · how: **informed**
+  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
 
 ## New tickets — last 24h
 
-- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28T01:54 · Thundermail
-- [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [open] · 2026-09-28T10:01 · FileLink
+- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
+- [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [pending] · 2026-09-28T10:01 · FileLink
 - [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [pending] · 2026-09-28T12:21 · Questions before accepting invitation
 - [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [pending] · 2026-09-28T16:29 · Homeserver Mail
 - [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [pending] · 2026-09-28T16:47 · Can't login
