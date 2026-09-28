@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 06:27 ET** · refreshes hourly_  
+_Updated: **2026-09-28 07:26 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -188,15 +188,15 @@ _(none in last 24h)_
 
 - **solved**: 392
 - **closed**: 77
-- **pending**: 43
+- **pending**: 42
 - **open**: 25
 - **new**: 8
-- **hold**: 6
+- **hold**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 304
-- **Thundermail**: 202
+- **Account Hub**: 305
+- **Thundermail**: 201
 - **Send**: 12
 - **Appointment**: 8
 
@@ -204,7 +204,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 124
+- **curious** + **explained**: 125
 - **blocked** + **explained**: 77
 - **change request** + **actioned**: 76
 - **confused** + **explained**: 33
@@ -239,7 +239,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
@@ -272,10 +271,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8939](https://tbpro.zendesk.com/agent/tickets/8939) · 2026-09-27T21:01 · No app password optiom
 - · [8802](https://tbpro.zendesk.com/agent/tickets/8802) · 2026-09-27T21:01 · Adding an imap account
 - · [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-27T21:20 · Thundermail web & mobile for Sailfish OS
-- · [8952](https://tbpro.zendesk.com/agent/tickets/8952) · 2026-09-27T22:01 · cancel and refund 
 - · [8509](https://tbpro.zendesk.com/agent/tickets/8509) · 2026-09-27T22:01 · Additional problems
 - · [8938](https://tbpro.zendesk.com/agent/tickets/8938) · 2026-09-27T23:01 · Questions about Thundermail tiers
 - · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-28T01:01 · Public calendar link
+- · [8952](https://tbpro.zendesk.com/agent/tickets/8952) · 2026-09-28T11:04 · cancel and refund 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
