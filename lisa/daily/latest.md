@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 15:20 ET** · refreshes hourly_  
+_Updated: **2026-09-28 16:24 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,8 +13,8 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
 - **556** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 68
-- **Median AHT**: 136.4h · mean 167.5h (proxy: updated_at − created_at, 399 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
+- **Median AHT**: 136.3h · mean 167.5h (proxy: updated_at − created_at, 398 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -41,7 +41,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [closed] · 2026-08-24 · _What is my use name?_
   - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [solved] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
-  - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [solved] · 2026-08-26 · _Delete account and refund_
+  - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [closed] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [closed] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [solved] · 2026-08-27 · _Refund_
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [solved] · 2026-08-30 · _Refund_
@@ -190,10 +190,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 399
-- **closed**: 86
-- **pending**: 38
-- **open**: 26
+- **solved**: 398
+- **closed**: 89
+- **pending**: 42
+- **open**: 20
 - **hold**: 7
 
 ## Service (cumulative)
@@ -211,9 +211,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 77
 - **change request** + **actioned**: 77
 - **confused** + **explained**: 33
-- **curious** + **informed**: 29
-- **blocked** + **investigated**: 28
-- **request** + **redirected**: 23
+- **curious** + **informed**: 30
+- **blocked** + **investigated**: 29
+- **request** + **redirected**: 24
 - **concerned** + **explained**: 21
 - **confused** + **informed**: 20
 - **blocked** + **redirected**: 15
@@ -278,14 +278,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 1 tickets
 
-- **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation
+- **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation — why: **curious** · how: **informed**
   > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
 
 ## New tickets — last 24h
 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
 - [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [open] · 2026-09-28T10:01 · FileLink
-- [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [open] · 2026-09-28T12:21 · Questions before accepting invitation
+- [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [pending] · 2026-09-28T12:21 · Questions before accepting invitation
 - [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [open] · 2026-09-28T16:29 · Homeserver Mail
 - [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [pending] · 2026-09-28T16:47 · Can't login
 - [9260](https://tbpro.zendesk.com/agent/tickets/9260) · [open] · 2026-09-28T18:26 · فتح حساب بريد إلكتروني 
