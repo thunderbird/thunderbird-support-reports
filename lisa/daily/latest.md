@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 11:13 ET** · refreshes hourly_  
+_Updated: **2026-09-28 11:49 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **552 tickets** so fa
 
 ## At a glance
 
-- **3** new tickets in last 24h · **10** solved in last 24h
+- **3** new tickets in last 24h · **11** solved in last 24h
 - **552** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 67
-- **Median AHT**: 136.8h · mean 167.5h (proxy: updated_at − created_at, 394 solved tickets)
+- **Median AHT**: 136.7h · mean 167.5h (proxy: updated_at − created_at, 393 solved tickets)
 
 ## Known problems — 8 problem(s), 65 incident(s)
 
@@ -187,16 +187,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 394
-- **closed**: 78
-- **pending**: 43
-- **open**: 24
+- **solved**: 393
+- **closed**: 80
+- **pending**: 45
+- **open**: 27
 - **hold**: 7
-- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 305
+- **Account Hub**: 306
 - **Thundermail**: 202
 - **Send**: 12
 - **Appointment**: 8
@@ -210,7 +209,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 76
 - **confused** + **explained**: 33
 - **curious** + **informed**: 29
-- **blocked** + **investigated**: 26
+- **blocked** + **investigated**: 28
 - **request** + **redirected**: 23
 - **concerned** + **explained**: 21
 - **confused** + **informed**: 20
@@ -270,9 +269,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [new] · 2026-09-28T01:54 · Thundermail
-- [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [new] · 2026-09-28T10:01 · FileLink
-- [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [new] · 2026-09-28T12:21 · Questions before accepting invitation
+- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
+- [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [open] · 2026-09-28T10:01 · FileLink
+- [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [open] · 2026-09-28T12:21 · Questions before accepting invitation
 
 ## Solved — last 24h
 
@@ -286,6 +285,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9085](https://tbpro.zendesk.com/agent/tickets/9085) · 2026-09-28T12:19 · custom domain and aliases
 - · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-28T13:39 · Same issue with signup, no verification email is sent.
 - · [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-28T15:00 · Display name
+- 👍 [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-28T15:18 · Thundermail web & mobile for Sailfish OS
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
