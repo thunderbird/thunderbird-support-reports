@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 05:36 ET** · refreshes hourly_  
+_Updated: **2026-09-28 06:27 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **551 tickets** so fa
 
 ## At a glance
 
-- **1** new tickets in last 24h · **7** solved in last 24h
+- **2** new tickets in last 24h · **7** solved in last 24h
 - **551** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (139 good / 11 bad)
@@ -100,7 +100,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **551 tickets** so fa
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -190,14 +190,14 @@ _(none in last 24h)_
 - **closed**: 77
 - **pending**: 43
 - **open**: 25
-- **new**: 7
-- **hold**: 7
+- **new**: 8
+- **hold**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 304
 - **Thundermail**: 202
-- **Send**: 11
+- **Send**: 12
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -252,6 +252,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### App setup / configuration — 1 tickets
+
+- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink
+  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
+
 ### Account access issues — 1 tickets
 
 - **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail
@@ -260,6 +265,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [new] · 2026-09-28T01:54 · Thundermail
+- [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [new] · 2026-09-28T10:01 · FileLink
 
 ## Solved — last 24h
 
