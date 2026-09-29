@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 14:30 ET** · refreshes hourly_  
+_Updated: **2026-09-29 15:22 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 51** of rollout — **35,000 invitees**, **566 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **21** solved in last 24h
+- **11** new tickets in last 24h · **25** solved in last 24h
 - **566** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (141 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.0h · mean 164.3h (proxy: updated_at − created_at, 404 solved tickets)
+- **Median AHT**: 136.0h · mean 164.6h (proxy: updated_at − created_at, 406 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -196,10 +196,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 404
-- **closed**: 98
-- **pending**: 42
-- **open**: 12
+- **solved**: 406
+- **closed**: 100
+- **pending**: 40
+- **open**: 10
 - **hold**: 10
 
 ## Service (cumulative)
@@ -342,6 +342,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-29T18:02 · Thundermail signup
 - · [9015](https://tbpro.zendesk.com/agent/tickets/9015) · 2026-09-29T18:02 · Change primary address
 - 👍 [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-29T18:12 · Display name
+- · [9022](https://tbpro.zendesk.com/agent/tickets/9022) · 2026-09-29T19:02 · email set up on iPhone, but can't seem to duplicate this on iPad mini
+- · [9019](https://tbpro.zendesk.com/agent/tickets/9019) · 2026-09-29T19:02 · imap/etc settings?
+- · [8975](https://tbpro.zendesk.com/agent/tickets/8975) · 2026-09-29T19:02 · Payments 
+- · [8969](https://tbpro.zendesk.com/agent/tickets/8969) · 2026-09-29T19:02 · Undo the Account, not interested in paid subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
