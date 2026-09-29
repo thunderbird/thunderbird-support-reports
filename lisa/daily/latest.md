@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 17:22 ET** · refreshes hourly_  
+_Updated: **2026-09-29 18:23 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **569 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **572 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **24** solved in last 24h
-- **569** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **22** solved in last 24h
+- **572** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 93%  (141 good / 11 bad)
+- **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.3h · mean 164.3h (proxy: updated_at − created_at, 399 solved tickets)
+- **Median AHT**: 136.1h · mean 164.6h (proxy: updated_at − created_at, 401 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"contacts contacts"** — 2 tickets in 24h (new; baseline 0 cum) — [#9284](https://tbpro.zendesk.com/agent/tickets/9284), [#9289](https://tbpro.zendesk.com/agent/tickets/9289)
 
-## Known problems — 8 problem(s), 68 incident(s)
+## Known problems — 9 problem(s), 69 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 3 incident(s):
@@ -121,6 +121,11 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 1 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
 
+### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · [stormbox] Stars misaligned in message list with blank message body
+- 🔧 GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
+- 1 incident(s):
+  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [pending] · 2026-09-26 · _featured off-site messages_
+
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
@@ -199,16 +204,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 399
-- **closed**: 107
-- **pending**: 43
-- **open**: 11
-- **hold**: 9
+- **solved**: 401
+- **closed**: 108
+- **pending**: 41
+- **open**: 12
+- **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 316
-- **Thundermail**: 207
+- **Thundermail**: 208
 - **Send**: 14
 - **Appointment**: 8
 
@@ -243,6 +248,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **concerned** + **redirected**: 2
+- **change request** + **investigated**: 2
 - **curious** + **investigated**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
@@ -253,7 +259,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **change request** + **investigated**: 1
 - **curious** + **—**: 1
 - **confused** + **—**: 1
 - **request** + **—**: 1
@@ -333,7 +338,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8996](https://tbpro.zendesk.com/agent/tickets/8996) · 2026-09-28T20:02 · Cannot  find option to create Password for ios mail
 - · [8966](https://tbpro.zendesk.com/agent/tickets/8966) · 2026-09-28T20:02 · Info
 - · [8971](https://tbpro.zendesk.com/agent/tickets/8971) · 2026-09-28T21:02 · Quite expensive
-- · [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-28T21:04 · set up forwarding from old email
 - · [8968](https://tbpro.zendesk.com/agent/tickets/8968) · 2026-09-28T22:01 · Account setttings view in webmail
 - · [8967](https://tbpro.zendesk.com/agent/tickets/8967) · 2026-09-28T22:01 · General Questions
 - · [9018](https://tbpro.zendesk.com/agent/tickets/9018) · 2026-09-28T23:01 · thundermail
@@ -347,7 +351,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9040](https://tbpro.zendesk.com/agent/tickets/9040) · 2026-09-29T16:01 · Monthly subscription
 - · [8854](https://tbpro.zendesk.com/agent/tickets/8854) · 2026-09-29T16:01 · Mail aliases not updating in the webmail
 - · [9072](https://tbpro.zendesk.com/agent/tickets/9072) · 2026-09-29T17:42 · second thundermail account login problem
-- · [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-29T18:02 · Thundermail signup
 - · [9015](https://tbpro.zendesk.com/agent/tickets/9015) · 2026-09-29T18:02 · Change primary address
 - 👍 [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-29T18:12 · Display name
 - · [9022](https://tbpro.zendesk.com/agent/tickets/9022) · 2026-09-29T19:02 · email set up on iPhone, but can't seem to duplicate this on iPad mini
