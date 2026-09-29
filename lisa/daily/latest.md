@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 16:26 ET** · refreshes hourly_  
+_Updated: **2026-09-29 17:22 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **568 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **569 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **25** solved in last 24h
-- **568** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **24** solved in last 24h
+- **569** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (141 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.9h · mean 164.5h (proxy: updated_at − created_at, 403 solved tickets)
+- **Median AHT**: 135.3h · mean 164.3h (proxy: updated_at − created_at, 399 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,12 +22,13 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"contacts contacts"** — 2 tickets in 24h (new; baseline 0 cum) — [#9284](https://tbpro.zendesk.com/agent/tickets/9284), [#9289](https://tbpro.zendesk.com/agent/tickets/9289)
 
-## Known problems — 8 problem(s), 67 incident(s)
+## Known problems — 8 problem(s), 68 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
-- 2 incident(s):
+- 3 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -108,7 +109,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [pending] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -198,15 +199,15 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 403
-- **closed**: 103
-- **pending**: 42
-- **open**: 10
-- **hold**: 10
+- **solved**: 399
+- **closed**: 107
+- **pending**: 43
+- **open**: 11
+- **hold**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 315
+- **Account Hub**: 316
 - **Thundermail**: 207
 - **Send**: 14
 - **Appointment**: 8
@@ -232,9 +233,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 6
 - **change request** + **explained**: 5
 - **curious** + **actioned**: 4
+- **blocked** + **actioned**: 4
 - **confused** + **investigated**: 4
 - **request** + **explained**: 3
-- **blocked** + **actioned**: 3
 - **concerned** + **investigated**: 3
 - **change request** + **escalated**: 3
 - **confused** + **escalated**: 2
@@ -331,7 +332,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [8996](https://tbpro.zendesk.com/agent/tickets/8996) · 2026-09-28T20:02 · Cannot  find option to create Password for ios mail
 - · [8966](https://tbpro.zendesk.com/agent/tickets/8966) · 2026-09-28T20:02 · Info
-- · [9035](https://tbpro.zendesk.com/agent/tickets/9035) · 2026-09-28T20:33 · Regarding subscription Fwd: Thinking of a new beginning
 - · [8971](https://tbpro.zendesk.com/agent/tickets/8971) · 2026-09-28T21:02 · Quite expensive
 - · [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-28T21:04 · set up forwarding from old email
 - · [8968](https://tbpro.zendesk.com/agent/tickets/8968) · 2026-09-28T22:01 · Account setttings view in webmail
