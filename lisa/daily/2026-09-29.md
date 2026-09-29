@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 08:37 ET** · refreshes hourly_  
+_Updated: **2026-09-29 09:48 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **562 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **563 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **12** solved in last 24h
-- **562** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **12** solved in last 24h
+- **563** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.6h · mean 166.6h (proxy: updated_at − created_at, 402 solved tickets)
+- **Median AHT**: 135.4h · mean 166.1h (proxy: updated_at − created_at, 401 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -190,17 +190,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 402
+- **solved**: 401
 - **closed**: 95
 - **pending**: 38
-- **open**: 12
+- **open**: 17
 - **hold**: 9
-- **new**: 6
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 308
-- **Thundermail**: 209
+- **Thundermail**: 210
 - **Send**: 13
 - **Appointment**: 8
 
@@ -208,12 +208,12 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 123
+- **curious** + **explained**: 124
 - **blocked** + **explained**: 79
 - **change request** + **actioned**: 77
 - **confused** + **explained**: 35
 - **curious** + **informed**: 30
-- **blocked** + **investigated**: 29
+- **blocked** + **investigated**: 28
 - **request** + **redirected**: 24
 - **concerned** + **explained**: 21
 - **confused** + **informed**: 21
@@ -257,15 +257,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#9284](https://tbpro.zendesk.com/agent/tickets/9284)** · Can't connect cardav to macOS
+  > I am trying to connect my contacts to the contacts app for macOS. I followed the guide to…
 - **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги.
   > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
 - **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account
   > Please delete my thundermail email account ([email]). Sorry.
 
-### Early bird / invite / waitlist — 1 tickets
+### Early bird / invite / waitlist — 2 tickets
 
+- **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription
+  > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
 - **[#9282](https://tbpro.zendesk.com/agent/tickets/9282)** · I was asked to join beta?
   > I was asked to join the beta of this and the first year is free. Why are you asking for payment?
 
@@ -284,20 +288,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure
   > I keep getting an smtp failure to send message and this pop up asking me to sign in. When I try to sign in it doesn't do anything. Please help.
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9265](https://tbpro.zendesk.com/agent/tickets/9265)** · problem changing DNS records when upgrading to Thundermail
-  > After upgrading to Thundermail and then changing the DNS entries in godaddy, I cannot add an SRV entry since godaddy has eight fields and you only provide four. See attached…
-
 ## New tickets — last 24h
 
-- [9265](https://tbpro.zendesk.com/agent/tickets/9265) · [open] · 2026-09-29T00:47 · problem changing DNS records when upgrading to Thundermail
-- [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [new] · 2026-09-29T03:46 · Send message failure
-- [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [new] · 2026-09-29T07:32 · Thundermail Account
-- [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [new] · 2026-09-29T09:43 · Создание и оплата услуги.
-- [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [new] · 2026-09-29T09:53 · Cannot receive email in ios
-- [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [new] · 2026-09-29T10:12 · Failed registration after server error
+- [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [open] · 2026-09-29T03:46 · Send message failure
+- [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [open] · 2026-09-29T07:32 · Thundermail Account
+- [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [open] · 2026-09-29T09:43 · Создание и оплата услуги.
+- [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [open] · 2026-09-29T09:53 · Cannot receive email in ios
+- [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [open] · 2026-09-29T10:12 · Failed registration after server error
 - [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [new] · 2026-09-29T11:52 · I was asked to join beta?
+- [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [new] · 2026-09-29T12:45 · Can't connect cardav to macOS
+- [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [new] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
 
 ## Solved — last 24h
 
