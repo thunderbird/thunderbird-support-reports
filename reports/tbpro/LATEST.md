@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 19:21 ET** · refreshes hourly_  
+_Updated: **2026-09-28 21:02 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **555 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **23** solved in last 24h
-- **555** tickets total since launch · contact rate **2%** of 35000 invitees
+- **556** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
-- **Median AHT**: 136.0h · mean 166.8h (proxy: updated_at − created_at, 404 solved tickets)
+- **Median AHT**: 135.6h · mean 166.6h (proxy: updated_at − created_at, 402 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -101,7 +101,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **555 tickets** so fa
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -190,16 +190,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 404
-- **closed**: 92
-- **pending**: 44
-- **hold**: 11
-- **open**: 4
+- **solved**: 402
+- **closed**: 95
+- **pending**: 42
+- **hold**: 10
+- **open**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 308
-- **Thundermail**: 203
+- **Thundermail**: 204
 - **Send**: 12
 - **Appointment**: 8
 
