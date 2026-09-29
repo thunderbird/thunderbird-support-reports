@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 07:22 ET** · refreshes hourly_  
+_Updated: **2026-09-29 08:37 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **561 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **562 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **12** solved in last 24h
-- **561** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **12** solved in last 24h
+- **562** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
@@ -192,15 +192,15 @@ _(none in last 24h)_
 
 - **solved**: 402
 - **closed**: 95
-- **pending**: 39
-- **open**: 11
+- **pending**: 38
+- **open**: 12
 - **hold**: 9
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 308
-- **Thundermail**: 208
+- **Thundermail**: 209
 - **Send**: 13
 - **Appointment**: 8
 
@@ -264,6 +264,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account
   > Please delete my thundermail email account ([email]). Sorry.
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9282](https://tbpro.zendesk.com/agent/tickets/9282)** · I was asked to join beta?
+  > I was asked to join the beta of this and the first year is free. Why are you asking for payment?
+
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#9279](https://tbpro.zendesk.com/agent/tickets/9279)** · Failed registration after server error
@@ -292,6 +297,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [new] · 2026-09-29T09:43 · Создание и оплата услуги.
 - [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [new] · 2026-09-29T09:53 · Cannot receive email in ios
 - [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [new] · 2026-09-29T10:12 · Failed registration after server error
+- [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [new] · 2026-09-29T11:52 · I was asked to join beta?
 
 ## Solved — last 24h
 
