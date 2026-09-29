@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 11:47 ET** · refreshes hourly_  
+_Updated: **2026-09-29 12:35 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 51** of rollout — **35,000 invitees**, **566 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **15** solved in last 24h
+- **11** new tickets in last 24h · **18** solved in last 24h
 - **566** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.3h · mean 165.7h (proxy: updated_at − created_at, 403 solved tickets)
+- **Median AHT**: 135.3h · mean 165.8h (proxy: updated_at − created_at, 405 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -196,17 +196,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 403
+- **solved**: 405
 - **closed**: 95
-- **pending**: 41
-- **open**: 18
-- **hold**: 9
+- **pending**: 40
+- **open**: 16
+- **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 312
-- **Thundermail**: 207
-- **Send**: 14
+- **Thundermail**: 208
+- **Send**: 13
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -214,9 +214,9 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 125
-- **blocked** + **explained**: 79
+- **blocked** + **explained**: 80
 - **change request** + **actioned**: 78
-- **confused** + **explained**: 35
+- **confused** + **explained**: 36
 - **curious** + **informed**: 30
 - **blocked** + **investigated**: 29
 - **request** + **redirected**: 24
@@ -266,7 +266,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9287](https://tbpro.zendesk.com/agent/tickets/9287)** · Uploading a .png does nothing
   > Tying to use [domain], when i drag and drop, or select my .png to upload, and then click upload, it flashes for a half second and goes back to nothing uploaded at all.
-- **[#9284](https://tbpro.zendesk.com/agent/tickets/9284)** · Can't connect cardav to macOS
+- **[#9284](https://tbpro.zendesk.com/agent/tickets/9284)** · Can't connect cardav to macOS — why: **confused** · how: **explained**
   > I am trying to connect my contacts to the contacts app for macOS. I followed the guide to…
 - **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account — why: **change request** · how: **actioned**
   > Please delete my thundermail email account ([email]). Sorry.
@@ -288,11 +288,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription
   > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure
-  > I keep getting an smtp failure to send message and this pop up asking me to sign in. When I try to sign in it doesn't do anything. Please help.
-
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#9282](https://tbpro.zendesk.com/agent/tickets/9282)** · I was asked to join beta? — why: **curious** · how: **explained**
@@ -308,15 +303,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
   > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure — why: **blocked** · how: **explained**
+  > I keep getting an smtp failure to send message and this pop up asking me to sign in. When I try to sign in it doesn't do anything. Please help.
+
 ## New tickets — last 24h
 
-- [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [open] · 2026-09-29T03:46 · Send message failure
+- [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [pending] · 2026-09-29T03:46 · Send message failure
 - [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [pending] · 2026-09-29T07:32 · Thundermail Account
 - [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [pending] · 2026-09-29T09:43 · Создание и оплата услуги.
 - [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [open] · 2026-09-29T09:53 · Cannot receive email in ios
 - [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [pending] · 2026-09-29T10:12 · Failed registration after server error
 - [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [solved] · 2026-09-29T11:52 · I was asked to join beta?
-- [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [open] · 2026-09-29T12:45 · Can't connect cardav to macOS
+- [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [pending] · 2026-09-29T12:45 · Can't connect cardav to macOS
 - [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [open] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
 - [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [open] · 2026-09-29T14:22 · Uploading a .png does nothing
 - [9288](https://tbpro.zendesk.com/agent/tickets/9288) · [open] · 2026-09-29T14:52 · Couldn’t pay.
@@ -339,6 +339,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-29T14:02 · Same issue with signup, no verification email is sent.
 - · [9066](https://tbpro.zendesk.com/agent/tickets/9066) · 2026-09-29T14:49 · Didn't receive OTP email.
 - · [9282](https://tbpro.zendesk.com/agent/tickets/9282) · 2026-09-29T15:21 · I was asked to join beta?
+- · [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-29T16:01 · Display name
+- · [9040](https://tbpro.zendesk.com/agent/tickets/9040) · 2026-09-29T16:01 · Monthly subscription
+- · [8854](https://tbpro.zendesk.com/agent/tickets/8854) · 2026-09-29T16:01 · Mail aliases not updating in the webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
