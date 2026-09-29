@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 09:48 ET** · refreshes hourly_  
+_Updated: **2026-09-29 10:25 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **563 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **564 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **12** solved in last 24h
-- **563** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **13** solved in last 24h
+- **564** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.4h · mean 166.1h (proxy: updated_at − created_at, 401 solved tickets)
+- **Median AHT**: 135.4h · mean 166.2h (proxy: updated_at − created_at, 401 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
 
@@ -192,16 +192,16 @@ _(none in last 24h)_
 
 - **solved**: 401
 - **closed**: 95
-- **pending**: 38
+- **pending**: 39
 - **open**: 17
 - **hold**: 9
 - **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 308
-- **Thundermail**: 210
-- **Send**: 13
+- **Account Hub**: 309
+- **Thundermail**: 209
+- **Send**: 14
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -210,7 +210,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 124
 - **blocked** + **explained**: 79
-- **change request** + **actioned**: 77
+- **change request** + **actioned**: 78
 - **confused** + **explained**: 35
 - **curious** + **informed**: 30
 - **blocked** + **investigated**: 28
@@ -257,13 +257,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#9287](https://tbpro.zendesk.com/agent/tickets/9287)** · Uploading a .png does nothing
+  > Tying to use [domain], when i drag and drop, or select my .png to upload, and then click upload, it flashes for a half second and goes back to nothing uploaded at all.
 - **[#9284](https://tbpro.zendesk.com/agent/tickets/9284)** · Can't connect cardav to macOS
   > I am trying to connect my contacts to the contacts app for macOS. I followed the guide to…
 - **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги.
   > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
-- **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account
+- **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account — why: **change request** · how: **actioned**
   > Please delete my thundermail email account ([email]). Sorry.
 
 ### Early bird / invite / waitlist — 2 tickets
@@ -291,13 +293,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [open] · 2026-09-29T03:46 · Send message failure
-- [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [open] · 2026-09-29T07:32 · Thundermail Account
+- [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [pending] · 2026-09-29T07:32 · Thundermail Account
 - [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [open] · 2026-09-29T09:43 · Создание и оплата услуги.
 - [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [open] · 2026-09-29T09:53 · Cannot receive email in ios
 - [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [open] · 2026-09-29T10:12 · Failed registration after server error
-- [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [new] · 2026-09-29T11:52 · I was asked to join beta?
+- [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [open] · 2026-09-29T11:52 · I was asked to join beta?
 - [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [new] · 2026-09-29T12:45 · Can't connect cardav to macOS
 - [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [new] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
+- [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [new] · 2026-09-29T14:22 · Uploading a .png does nothing
 
 ## Solved — last 24h
 
@@ -313,6 +316,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8981](https://tbpro.zendesk.com/agent/tickets/8981) · 2026-09-28T23:01 · Thundermail question
 - · [8948](https://tbpro.zendesk.com/agent/tickets/8948) · 2026-09-28T23:01 · Can't log in
 - · [9009](https://tbpro.zendesk.com/agent/tickets/9009) · 2026-09-29T00:01 · Thundermail
+- · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-29T14:02 · Same issue with signup, no verification email is sent.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
