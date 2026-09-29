@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 13:22 ET** · refreshes hourly_  
+_Updated: **2026-09-29 14:30 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 51** of rollout — **35,000 invitees**, **566 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **18** solved in last 24h
+- **11** new tickets in last 24h · **21** solved in last 24h
 - **566** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 93%  (140 good / 11 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 93%  (141 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.0h · mean 164.8h (proxy: updated_at − created_at, 404 solved tickets)
+- **Median AHT**: 135.0h · mean 164.3h (proxy: updated_at − created_at, 404 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -197,14 +197,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 404
-- **closed**: 96
-- **pending**: 41
-- **open**: 15
+- **closed**: 98
+- **pending**: 42
+- **open**: 12
 - **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 313
+- **Account Hub**: 314
 - **Thundermail**: 207
 - **Send**: 13
 - **Appointment**: 8
@@ -216,12 +216,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 126
 - **blocked** + **explained**: 80
 - **change request** + **actioned**: 78
-- **confused** + **explained**: 36
+- **confused** + **explained**: 37
 - **curious** + **informed**: 30
 - **blocked** + **investigated**: 29
 - **request** + **redirected**: 24
-- **concerned** + **explained**: 21
-- **confused** + **informed**: 21
+- **concerned** + **explained**: 22
+- **confused** + **informed**: 22
 - **blocked** + **redirected**: 15
 - **blocked** + **informed**: 12
 - **blocked** + **escalated**: 11
@@ -273,15 +273,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Thunderbird for Android + Thundermail — 2 tickets
 
-- **[#9289](https://tbpro.zendesk.com/agent/tickets/9289)** · calendar and contact sync between desktop and mobile app
+- **[#9289](https://tbpro.zendesk.com/agent/tickets/9289)** · calendar and contact sync between desktop and mobile app — why: **confused** · how: **informed**
   > I purchased Thundermail in hopes to sync my Thunderbird contacts and contacts between my Thunderbird desktop and Thunderbird app on my android mobile phone. Can you help me with…
-- **[#9278](https://tbpro.zendesk.com/agent/tickets/9278)** · Cannot receive email in ios
+- **[#9278](https://tbpro.zendesk.com/agent/tickets/9278)** · Cannot receive email in ios — why: **concerned** · how: **explained**
   > I moved from android to iPhone and only when I logged in to the mail app I can see new messages arriving. I don’t know why.
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Pricing — payment issue — 2 tickets
 
-- **[#9288](https://tbpro.zendesk.com/agent/tickets/9288)** · Couldn’t pay.
+- **[#9288](https://tbpro.zendesk.com/agent/tickets/9288)** · Couldn’t pay. — why: **confused** · how: **explained**
   > I went through the process but for some reason my card wouldn’t work. Some parts of your process didn’t seem as if it had been throughly trialled (I wrote some feedback about…
+- **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
+  > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -298,11 +300,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9279](https://tbpro.zendesk.com/agent/tickets/9279)** · Failed registration after server error — why: **blocked** · how: **investigated**
   > I didn't complete my thundermail registration because at the stage where the legal matter was to be printed for examination an internal error was displayed instead.
 
-### Pricing — payment issue — 1 tickets
-
-- **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
-  > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure — why: **blocked** · how: **explained**
@@ -313,14 +310,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [pending] · 2026-09-29T03:46 · Send message failure
 - [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [pending] · 2026-09-29T07:32 · Thundermail Account
 - [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [pending] · 2026-09-29T09:43 · Создание и оплата услуги.
-- [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [open] · 2026-09-29T09:53 · Cannot receive email in ios
+- [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [pending] · 2026-09-29T09:53 · Cannot receive email in ios
 - [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [pending] · 2026-09-29T10:12 · Failed registration after server error
 - [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [solved] · 2026-09-29T11:52 · I was asked to join beta?
 - [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [pending] · 2026-09-29T12:45 · Can't connect cardav to macOS
 - [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [open] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
 - [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [open] · 2026-09-29T14:22 · Uploading a .png does nothing
-- [9288](https://tbpro.zendesk.com/agent/tickets/9288) · [open] · 2026-09-29T14:52 · Couldn’t pay.
-- [9289](https://tbpro.zendesk.com/agent/tickets/9289) · [open] · 2026-09-29T14:55 · calendar and contact sync between desktop and mobile app
+- [9288](https://tbpro.zendesk.com/agent/tickets/9288) · [pending] · 2026-09-29T14:52 · Couldn’t pay.
+- [9289](https://tbpro.zendesk.com/agent/tickets/9289) · [pending] · 2026-09-29T14:55 · calendar and contact sync between desktop and mobile app
 
 ## Solved — last 24h
 
@@ -339,9 +336,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-29T14:02 · Same issue with signup, no verification email is sent.
 - · [9066](https://tbpro.zendesk.com/agent/tickets/9066) · 2026-09-29T14:49 · Didn't receive OTP email.
 - · [9282](https://tbpro.zendesk.com/agent/tickets/9282) · 2026-09-29T15:21 · I was asked to join beta?
-- · [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-29T16:01 · Display name
 - · [9040](https://tbpro.zendesk.com/agent/tickets/9040) · 2026-09-29T16:01 · Monthly subscription
 - · [8854](https://tbpro.zendesk.com/agent/tickets/8854) · 2026-09-29T16:01 · Mail aliases not updating in the webmail
+- · [9072](https://tbpro.zendesk.com/agent/tickets/9072) · 2026-09-29T17:42 · second thundermail account login problem
+- · [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-29T18:02 · Thundermail signup
+- · [9015](https://tbpro.zendesk.com/agent/tickets/9015) · 2026-09-29T18:02 · Change primary address
+- 👍 [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-29T18:12 · Display name
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
