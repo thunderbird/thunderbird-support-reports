@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 00:28 ET** · refreshes hourly_  
+_Updated: **2026-09-29 01:25 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **557 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **558 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **12** solved in last 24h
-- **557** tickets total since launch · contact rate **2%** of 35000 invitees
+- **3** new tickets in last 24h · **12** solved in last 24h
+- **558** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
@@ -193,7 +193,7 @@ _(none in last 24h)_
 - **pending**: 42
 - **hold**: 10
 - **open**: 7
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -255,6 +255,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#9268](https://tbpro.zendesk.com/agent/tickets/9268)** · 【重要】税務に関するお知らせ
+  > 国税電子申告・納税システム 通知：Mozilla-Anthony Enzor-DeMeo 日付：令和8年9月29日 【重要】税務に関するお知らせ（自動配信メール） いつもe-Taxをご利用いただき誠にありがとうございます。 本税務申告・納税システムにおいて、貴社宛ての重要な通知を受信いたしましたのでご連絡いたします。…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure
@@ -269,6 +274,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9265](https://tbpro.zendesk.com/agent/tickets/9265) · [open] · 2026-09-29T00:47 · problem changing DNS records when upgrading to Thundermail
 - [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [new] · 2026-09-29T03:46 · Send message failure
+- [9268](https://tbpro.zendesk.com/agent/tickets/9268) · [new] · 2026-09-29T04:31 · 【重要】税務に関するお知らせ
 
 ## Solved — last 24h
 
