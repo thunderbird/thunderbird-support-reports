@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 05:29 ET** · refreshes hourly_  
+_Updated: **2026-09-29 06:25 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **559 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **562 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **12** solved in last 24h
-- **559** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **12** solved in last 24h
+- **562** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
 - **Median AHT**: 135.6h · mean 166.6h (proxy: updated_at − created_at, 402 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
@@ -181,8 +181,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Support domains with Punycode](https://ideas.tb.pro/p/support-domains-with-punycode) · 1 votes · _untagged_
+  > Current situationI want to attach domain with national characters.Thundermail cannot pass verification of DNS entries in both situations:1. I set custom domain in national alphabet2. I set custom…
 - [Webcal ](https://ideas.tb.pro/p/webcal) · 1 votes · _New Feature, Webmail_
   > What you’d like to seeIn addition to calendar support on the web based Thundermail, I would like Webcal supportWhy it mattersVery nice and convenient for tracking calendars for sporting teams and…
 
@@ -190,15 +192,15 @@ _(none in last 24h)_
 
 - **solved**: 402
 - **closed**: 95
-- **pending**: 40
+- **pending**: 39
+- **open**: 10
 - **hold**: 10
-- **open**: 9
-- **new**: 3
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 308
-- **Thundermail**: 205
+- **Thundermail**: 208
 - **Send**: 13
 - **Appointment**: 8
 
@@ -255,12 +257,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги.
+  > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
 - **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account
   > Please delete my thundermail email account ([email]). Sorry.
 - **[#9268](https://tbpro.zendesk.com/agent/tickets/9268)** · 【重要】税務に関するお知らせ
   > 国税電子申告・納税システム 通知：Mozilla-Anthony Enzor-DeMeo 日付：令和8年9月29日 【重要】税務に関するお知らせ（自動配信メール） いつもe-Taxをご利用いただき誠にありがとうございます。 本税務申告・納税システムにおいて、貴社宛ての重要な通知を受信いたしましたのでご連絡いたします。…
+
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#9279](https://tbpro.zendesk.com/agent/tickets/9279)** · Failed registration after server error
+  > I didn't complete my thundermail registration because at the stage where the legal matter was to be printed for examination an internal error was displayed instead.
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#9278](https://tbpro.zendesk.com/agent/tickets/9278)** · Cannot receive email in ios
+  > I moved from android to iPhone and only when I logged in to the mail app I can see new messages arriving. I don’t know why.
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -278,6 +292,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [new] · 2026-09-29T03:46 · Send message failure
 - [9268](https://tbpro.zendesk.com/agent/tickets/9268) · [new] · 2026-09-29T04:31 · 【重要】税務に関するお知らせ
 - [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [new] · 2026-09-29T07:32 · Thundermail Account
+- [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [new] · 2026-09-29T09:43 · Создание и оплата услуги.
+- [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [new] · 2026-09-29T09:53 · Cannot receive email in ios
+- [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [new] · 2026-09-29T10:12 · Failed registration after server error
 
 ## Solved — last 24h
 
