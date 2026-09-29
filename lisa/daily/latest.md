@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 15:22 ET** · refreshes hourly_  
+_Updated: **2026-09-29 16:26 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **566 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **568 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **25** solved in last 24h
-- **566** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **25** solved in last 24h
+- **568** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (141 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 136.0h · mean 164.6h (proxy: updated_at − created_at, 406 solved tickets)
+- **Median AHT**: 135.9h · mean 164.5h (proxy: updated_at − created_at, 403 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"contacts contacts"** — 2 tickets in 24h (new; baseline 0 cum) — [#9284](https://tbpro.zendesk.com/agent/tickets/9284), [#9289](https://tbpro.zendesk.com/agent/tickets/9289)
 
-## Known problems — 8 problem(s), 66 incident(s)
+## Known problems — 8 problem(s), 67 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 2 incident(s):
@@ -35,7 +35,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 57 incident(s):
+- 58 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -93,6 +93,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [pending] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [pending] · 2026-09-25 · _Cancel my account_
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [pending] · 2026-09-26 · _Refund_
+  - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · 2026-09-29 · _Cancel Account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -181,9 +182,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · _Cancel Account_
+  > Please cancel account.
 
 ## New ideas on FeatureOS
 
@@ -196,17 +198,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 406
-- **closed**: 100
-- **pending**: 40
+- **solved**: 403
+- **closed**: 103
+- **pending**: 42
 - **open**: 10
 - **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 314
+- **Account Hub**: 315
 - **Thundermail**: 207
-- **Send**: 13
+- **Send**: 14
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -215,7 +217,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 126
 - **blocked** + **explained**: 80
-- **change request** + **actioned**: 78
+- **change request** + **actioned**: 79
 - **confused** + **explained**: 37
 - **curious** + **informed**: 30
 - **blocked** + **investigated**: 29
@@ -290,6 +292,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription — why: **curious** · how: **explained**
   > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9293](https://tbpro.zendesk.com/agent/tickets/9293)** · Cancel Account — why: **change request** · how: **actioned**
+  > Please cancel account.
+
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#9282](https://tbpro.zendesk.com/agent/tickets/9282)** · I was asked to join beta? — why: **curious** · how: **explained**
@@ -318,6 +325,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [open] · 2026-09-29T14:22 · Uploading a .png does nothing
 - [9288](https://tbpro.zendesk.com/agent/tickets/9288) · [pending] · 2026-09-29T14:52 · Couldn’t pay.
 - [9289](https://tbpro.zendesk.com/agent/tickets/9289) · [pending] · 2026-09-29T14:55 · calendar and contact sync between desktop and mobile app
+- [9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · 2026-09-29T19:33 · Cancel Account
 
 ## Solved — last 24h
 
