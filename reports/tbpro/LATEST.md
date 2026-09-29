@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 01:25 ET** · refreshes hourly_  
+_Updated: **2026-09-29 02:40 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -190,9 +190,9 @@ _(none in last 24h)_
 
 - **solved**: 402
 - **closed**: 95
-- **pending**: 42
+- **pending**: 41
 - **hold**: 10
-- **open**: 7
+- **open**: 8
 - **new**: 2
 
 ## Service (cumulative)
