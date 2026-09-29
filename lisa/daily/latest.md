@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-28
 
-_Updated: **2026-09-28 22:32 ET** · refreshes hourly_  
+_Updated: **2026-09-28 23:29 ET** · refreshes hourly_  
 _24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -24,7 +24,6 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
-- ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
@@ -89,7 +88,6 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [pending] · 2026-09-26 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
-- 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
 - 1 incident(s):
   - [#8399](https://tbpro.zendesk.com/agent/tickets/8399) · [hold] · 2026-09-05 · _Alias and Pro Email Address_
 
@@ -99,31 +97,16 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
-- 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
   - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
-- 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
 - 1 incident(s):
   - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [solved] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
-- 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 1 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
-
-## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
-
-- 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
-- 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
-- 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
-- ✅ [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
-- 🔧 [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
-- ✅ [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
-- ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
-- ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
-- ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
 
 ## Negative CSAT (since launch)
 
