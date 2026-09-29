@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 12:35 ET** · refreshes hourly_  
+_Updated: **2026-09-29 13:22 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 51** of rollout — **35,000 invitees**, **566 tickets** so fa
 
 - **11** new tickets in last 24h · **18** solved in last 24h
 - **566** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 135.3h · mean 165.8h (proxy: updated_at − created_at, 405 solved tickets)
+- **Median AHT**: 135.0h · mean 164.8h (proxy: updated_at − created_at, 404 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -196,16 +196,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 405
-- **closed**: 95
-- **pending**: 40
-- **open**: 16
+- **solved**: 404
+- **closed**: 96
+- **pending**: 41
+- **open**: 15
 - **hold**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 312
-- **Thundermail**: 208
+- **Account Hub**: 313
+- **Thundermail**: 207
 - **Send**: 13
 - **Appointment**: 8
 
@@ -213,7 +213,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 125
+- **curious** + **explained**: 126
 - **blocked** + **explained**: 80
 - **change request** + **actioned**: 78
 - **confused** + **explained**: 36
@@ -285,7 +285,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription
+- **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription — why: **curious** · how: **explained**
   > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
 
 ### Pricing — general pricing concern — 1 tickets
