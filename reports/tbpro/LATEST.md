@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-09-28
+# Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-28 23:29 ET** · refreshes hourly_  
-_24h window: 2026-09-27T16:00 → 2026-09-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-29 00:28 ET** · refreshes hourly_  
+_24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **557 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **23** solved in last 24h
-- **556** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **2** new tickets in last 24h · **12** solved in last 24h
+- **557** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 69
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
 - **Median AHT**: 135.6h · mean 166.6h (proxy: updated_at − created_at, 402 solved tickets)
 
 ## Known problems — 8 problem(s), 66 incident(s)
@@ -24,6 +24,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
+- ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
@@ -88,6 +89,7 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [pending] · 2026-09-26 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
+- 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
 - 1 incident(s):
   - [#8399](https://tbpro.zendesk.com/agent/tickets/8399) · [hold] · 2026-09-05 · _Alias and Pro Email Address_
 
@@ -97,16 +99,31 @@ Flight 8 is **day 50** of rollout — **35,000 invitees**, **556 tickets** so fa
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
+- 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
   - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
+- 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
 - 1 incident(s):
   - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [solved] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
+- 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 1 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
+
+## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
+
+- 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
+- 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
+- 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
+- ✅ [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
+- 🔧 [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
+- ✅ [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
+- ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
+- ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
+- ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
 
 ## Negative CSAT (since launch)
 
@@ -164,12 +181,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 1 new:
 
-- [Webmail browser notifications](https://ideas.tb.pro/p/webmail-browser-notifications) · 1 votes · _New Feature, Webmail_
-  > What you’d like to seeBriefly describe the feature or improvement.I’d like to see push notifications added to the webmail through the browser’s push notification system.Why it mattersWhat problem…
-- [Full Contact Sync for iOS and Android](https://ideas.tb.pro/p/full-contact-sync-for-ios-and-android) · 1 votes · _Appointment, New Feature_
-  > Syncronise Contacts stored in Thundermail Mobile App to Contacts on iOS and AndroidTuta.com provides a feature in their mobile apps to syncronise contacts stored in their app to the device contacts…
+- [Webcal ](https://ideas.tb.pro/p/webcal) · 1 votes · _New Feature, Webmail_
+  > What you’d like to seeIn addition to calendar support on the web based Thundermail, I would like Webcal supportWhy it mattersVery nice and convenient for tracking calendars for sporting teams and…
 
 ## Status breakdown (cumulative)
 
@@ -178,12 +193,13 @@ _(none in last 24h)_
 - **pending**: 42
 - **hold**: 10
 - **open**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 308
 - **Thundermail**: 204
-- **Send**: 12
+- **Send**: 13
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -239,73 +255,35 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 2 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#9258](https://tbpro.zendesk.com/agent/tickets/9258)** · Can't login — why: **blocked** · how: **informed**
-  > Hello I signed up a few days ago but havent paid yet, I was going to today and I can't login anymore. The account I created is [email] if you could help that would be a big plus.
-- **[#9256](https://tbpro.zendesk.com/agent/tickets/9256)** · Homeserver Mail — why: **curious**
-  > I was curious if it is against the ToS to use my ThunderMail account for sending password reset emails from my homeserver. I haven't configured anything yet, but currently…
+- **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure
+  > I keep getting an smtp failure to send message and this pop up asking me to sign in. When I try to sign in it doesn't do anything. Please help.
 
-### Account access issues — Account Hub trouble — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#9199](https://tbpro.zendesk.com/agent/tickets/9199)** · Thundermail — why: **blocked** · how: **explained**
-  > How do I login to Thundermail I created: [email].
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9261](https://tbpro.zendesk.com/agent/tickets/9261)** · Emails sent from thundermail are not delivered to Gmail mailboxes — why: **concerned** · how: **investigated**
-  > Hi! I'm very happy that you delivered Thundermail:-) Unfortunately at this point I can't fully switch to it (from Gmail) as I've noticed that emails sent from my shiny new…
-
-### Other / uncategorized — 1 tickets
-
-- **[#9260](https://tbpro.zendesk.com/agent/tickets/9260)** · فتح حساب بريد إلكتروني  — why: **confused** · how: **explained**
-  > مساعده في إنشاء حساب بريد إلكتروني
-
-### Webmail — 1 tickets
-
-- **[#9234](https://tbpro.zendesk.com/agent/tickets/9234)** · Questions before accepting invitation — why: **curious** · how: **informed**
-  > Hello, I received an email stating my invitation for thunderbird webmail is still active and the new features were stated. I currently use [domain] as my mail service for primary…
-
-### App setup / configuration — 1 tickets
-
-- **[#9214](https://tbpro.zendesk.com/agent/tickets/9214)** · FileLink — why: **confused** · how: **informed**
-  > How do I setup filelink for thunderbird desktop with [domain] send service? Trying to use a filelink on desktop leads to this: >…
+- **[#9265](https://tbpro.zendesk.com/agent/tickets/9265)** · problem changing DNS records when upgrading to Thundermail
+  > After upgrading to Thundermail and then changing the DNS entries in godaddy, I cannot add an SRV entry since godaddy has eight fields and you only provide four. See attached…
 
 ## New tickets — last 24h
 
-- [9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28T01:54 · Thundermail
-- [9214](https://tbpro.zendesk.com/agent/tickets/9214) · [pending] · 2026-09-28T10:01 · FileLink
-- [9234](https://tbpro.zendesk.com/agent/tickets/9234) · [pending] · 2026-09-28T12:21 · Questions before accepting invitation
-- [9256](https://tbpro.zendesk.com/agent/tickets/9256) · [pending] · 2026-09-28T16:29 · Homeserver Mail
-- [9258](https://tbpro.zendesk.com/agent/tickets/9258) · [pending] · 2026-09-28T16:47 · Can't login
-- [9260](https://tbpro.zendesk.com/agent/tickets/9260) · [pending] · 2026-09-28T18:26 · فتح حساب بريد إلكتروني 
-- [9261](https://tbpro.zendesk.com/agent/tickets/9261) · [pending] · 2026-09-28T18:39 · Emails sent from thundermail are not delivered to Gmail mailboxes
+- [9265](https://tbpro.zendesk.com/agent/tickets/9265) · [open] · 2026-09-29T00:47 · problem changing DNS records when upgrading to Thundermail
+- [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [new] · 2026-09-29T03:46 · Send message failure
 
 ## Solved — last 24h
 
-- · [8939](https://tbpro.zendesk.com/agent/tickets/8939) · 2026-09-27T21:01 · No app password optiom
-- · [8802](https://tbpro.zendesk.com/agent/tickets/8802) · 2026-09-27T21:01 · Adding an imap account
-- · [8509](https://tbpro.zendesk.com/agent/tickets/8509) · 2026-09-27T22:01 · Additional problems
-- · [8938](https://tbpro.zendesk.com/agent/tickets/8938) · 2026-09-27T23:01 · Questions about Thundermail tiers
-- · [8439](https://tbpro.zendesk.com/agent/tickets/8439) · 2026-09-28T01:01 · Public calendar link
-- · [8952](https://tbpro.zendesk.com/agent/tickets/8952) · 2026-09-28T11:04 · cancel and refund 
-- 👍 [8636](https://tbpro.zendesk.com/agent/tickets/8636) · 2026-09-28T12:19 · additional accounts
-- 👍 [9085](https://tbpro.zendesk.com/agent/tickets/9085) · 2026-09-28T12:19 · custom domain and aliases
-- · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-28T13:39 · Same issue with signup, no verification email is sent.
-- · [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-28T15:00 · Display name
-- 👍 [9075](https://tbpro.zendesk.com/agent/tickets/9075) · 2026-09-28T15:18 · Thundermail web & mobile for Sailfish OS
-- · [8976](https://tbpro.zendesk.com/agent/tickets/8976) · 2026-09-28T17:02 · compilla2
-- · [8965](https://tbpro.zendesk.com/agent/tickets/8965) · 2026-09-28T17:02 · Subscription in Error
-- · [8960](https://tbpro.zendesk.com/agent/tickets/8960) · 2026-09-28T17:02 · signin not working
-- · [8958](https://tbpro.zendesk.com/agent/tickets/8958) · 2026-09-28T17:02 · Delete this account
-- · [8954](https://tbpro.zendesk.com/agent/tickets/8954) · 2026-09-28T17:02 · Multiple accounts for family with shared domain
-- · [8720](https://tbpro.zendesk.com/agent/tickets/8720) · 2026-09-28T17:02 · Enough is enough.
-- · [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-28T17:47 · Thundermail signup
-- · [8980](https://tbpro.zendesk.com/agent/tickets/8980) · 2026-09-28T18:01 · I want to cancel my plan as its not serving my purpose
-- · [8978](https://tbpro.zendesk.com/agent/tickets/8978) · 2026-09-28T18:01 · Cancellation and Refund
-- · [8992](https://tbpro.zendesk.com/agent/tickets/8992) · 2026-09-28T19:01 · Send storage only?
-- · [8988](https://tbpro.zendesk.com/agent/tickets/8988) · 2026-09-28T19:01 · forgot paassword
-- · [8984](https://tbpro.zendesk.com/agent/tickets/8984) · 2026-09-28T19:01 · Using Thundermail with other clients
+- · [8996](https://tbpro.zendesk.com/agent/tickets/8996) · 2026-09-28T20:02 · Cannot  find option to create Password for ios mail
+- · [8966](https://tbpro.zendesk.com/agent/tickets/8966) · 2026-09-28T20:02 · Info
+- · [9035](https://tbpro.zendesk.com/agent/tickets/9035) · 2026-09-28T20:33 · Regarding subscription Fwd: Thinking of a new beginning
+- · [8971](https://tbpro.zendesk.com/agent/tickets/8971) · 2026-09-28T21:02 · Quite expensive
+- · [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-28T21:04 · set up forwarding from old email
+- · [8968](https://tbpro.zendesk.com/agent/tickets/8968) · 2026-09-28T22:01 · Account setttings view in webmail
+- · [8967](https://tbpro.zendesk.com/agent/tickets/8967) · 2026-09-28T22:01 · General Questions
+- · [9018](https://tbpro.zendesk.com/agent/tickets/9018) · 2026-09-28T23:01 · thundermail
+- · [8989](https://tbpro.zendesk.com/agent/tickets/8989) · 2026-09-28T23:01 · Custom domain email
+- · [8981](https://tbpro.zendesk.com/agent/tickets/8981) · 2026-09-28T23:01 · Thundermail question
+- · [8948](https://tbpro.zendesk.com/agent/tickets/8948) · 2026-09-28T23:01 · Can't log in
+- · [9009](https://tbpro.zendesk.com/agent/tickets/9009) · 2026-09-29T00:01 · Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
