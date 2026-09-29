@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 03:31 ET** · refreshes hourly_  
+_Updated: **2026-09-29 04:33 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **558 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
+Flight 8 is **day 51** of rollout — **35,000 invitees**, **559 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **8 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **12** solved in last 24h
-- **558** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **12** solved in last 24h
+- **559** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (140 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 69
@@ -190,15 +190,15 @@ _(none in last 24h)_
 
 - **solved**: 402
 - **closed**: 95
-- **pending**: 41
+- **pending**: 40
 - **hold**: 10
-- **open**: 8
-- **new**: 2
+- **open**: 9
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 308
-- **Thundermail**: 204
+- **Thundermail**: 205
 - **Send**: 13
 - **Appointment**: 8
 
@@ -255,8 +255,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account
+  > Please delete my thundermail email account ([email]). Sorry.
 - **[#9268](https://tbpro.zendesk.com/agent/tickets/9268)** · 【重要】税務に関するお知らせ
   > 国税電子申告・納税システム 通知：Mozilla-Anthony Enzor-DeMeo 日付：令和8年9月29日 【重要】税務に関するお知らせ（自動配信メール） いつもe-Taxをご利用いただき誠にありがとうございます。 本税務申告・納税システムにおいて、貴社宛ての重要な通知を受信いたしましたのでご連絡いたします。…
 
@@ -275,6 +277,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9265](https://tbpro.zendesk.com/agent/tickets/9265) · [open] · 2026-09-29T00:47 · problem changing DNS records when upgrading to Thundermail
 - [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [new] · 2026-09-29T03:46 · Send message failure
 - [9268](https://tbpro.zendesk.com/agent/tickets/9268) · [new] · 2026-09-29T04:31 · 【重要】税務に関するお知らせ
+- [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [new] · 2026-09-29T07:32 · Thundermail Account
 
 ## Solved — last 24h
 
