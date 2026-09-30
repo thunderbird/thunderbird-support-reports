@@ -1,26 +1,26 @@
-# Thundermail — Flight 8 Live Report · 2026-09-29
+# Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-29 23:30 ET** · refreshes hourly_  
-_24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-09-30 00:29 ET** · refreshes hourly_  
+_24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 51** of rollout — **35,000 invitees**, **573 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **573 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **22** solved in last 24h
+- **6** new tickets in last 24h · **9** solved in last 24h
 - **573** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
 - **Median AHT**: 136.1h · mean 164.6h (proxy: updated_at − created_at, 402 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"contacts contacts"** — 2 tickets in 24h (new; baseline 0 cum) — [#9284](https://tbpro.zendesk.com/agent/tickets/9284), [#9289](https://tbpro.zendesk.com/agent/tickets/9289)
+- **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
 ## Known problems — 9 problem(s), 69 incident(s)
 
@@ -188,27 +188,23 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · _Cancel Account_
-  > Please cancel account.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Support domains with Punycode](https://ideas.tb.pro/p/support-domains-with-punycode) · 1 votes · _untagged_
-  > Current situationI want to attach domain with national characters.Thundermail cannot pass verification of DNS entries in both situations:1. I set custom domain in national alphabet2. I set custom…
-- [Webcal ](https://ideas.tb.pro/p/webcal) · 1 votes · _New Feature, Webmail_
-  > What you’d like to seeIn addition to calendar support on the web based Thundermail, I would like Webcal supportWhy it mattersVery nice and convenient for tracking calendars for sporting teams and…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **solved**: 402
 - **closed**: 110
-- **pending**: 42
+- **pending**: 41
 - **hold**: 11
-- **open**: 8
+- **open**: 9
 
 ## Service (cumulative)
 
@@ -270,93 +266,56 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#9287](https://tbpro.zendesk.com/agent/tickets/9287)** · Uploading a .png does nothing — why: **blocked** · how: **informed**
-  > Tying to use [domain], when i drag and drop, or select my .png to upload, and then click upload, it flashes for a half second and goes back to nothing uploaded at all.
-- **[#9284](https://tbpro.zendesk.com/agent/tickets/9284)** · Can't connect cardav to macOS — why: **confused** · how: **explained**
-  > I am trying to connect my contacts to the contacts app for macOS. I followed the guide to…
-- **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account — why: **change request** · how: **actioned**
-  > Please delete my thundermail email account ([email]). Sorry.
+- **[#9300](https://tbpro.zendesk.com/agent/tickets/9300)** · [Incomplete DKIM customer-initiated fix]
+  > **Summary:** Incomplete DKIM and customer DNS prevents a thunderhosted-only fix (31) **Affected problems and platforms:** Select Thundermail users with custom domains **First…
 
-### Pricing — payment issue — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
-  > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
-- **[#9288](https://tbpro.zendesk.com/agent/tickets/9288)** · Couldn’t pay. — why: **confused** · how: **explained**
-  > I went through the process but for some reason my card wouldn’t work. Some parts of your process didn’t seem as if it had been throughly trialled (I wrote some feedback about…
-
-### Thunderbird for Android + Thundermail — 2 tickets
-
-- **[#9289](https://tbpro.zendesk.com/agent/tickets/9289)** · calendar and contact sync between desktop and mobile app — why: **confused** · how: **informed**
-  > I purchased Thundermail in hopes to sync my Thunderbird contacts and contacts between my Thunderbird desktop and Thunderbird app on my android mobile phone. Can you help me with…
-- **[#9278](https://tbpro.zendesk.com/agent/tickets/9278)** · Cannot receive email in ios — why: **concerned** · how: **explained**
-  > I moved from android to iPhone and only when I logged in to the mail app I can see new messages arriving. I don’t know why.
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9293](https://tbpro.zendesk.com/agent/tickets/9293)** · Cancel Account — why: **change request** · how: **actioned**
-  > Please cancel account.
+- **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
+  > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription — why: **curious** · how: **explained**
-  > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
+- **[#9295](https://tbpro.zendesk.com/agent/tickets/9295)** · I got your Join The Early Bird Beta email but no authentication email received — why: **blocked** · how: **actioned**
+  > I got your Join The Early Bird Beta email but no authentication email received My signup [email] but the authentication email to [email] never came.
 
-### Pricing — general pricing concern — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#9282](https://tbpro.zendesk.com/agent/tickets/9282)** · I was asked to join beta? — why: **curious** · how: **explained**
-  > I was asked to join the beta of this and the first year is free. Why are you asking for payment?
+- **[#9294](https://tbpro.zendesk.com/agent/tickets/9294)** · I am unable send out new emails. — why: **blocked** · how: **informed**
+  > My Thundermail account is set up and is accessible in Thunderbird. I can receive and read new incoming emails. However I am unable to send out emails. I have created some new…
 
 ### Early bird signup — 1 tickets
 
-- **[#9279](https://tbpro.zendesk.com/agent/tickets/9279)** · Failed registration after server error — why: **blocked** · how: **investigated**
-  > I didn't complete my thundermail registration because at the stage where the legal matter was to be printed for examination an internal error was displayed instead.
+- **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
+  > I am ready to use this. I thought I had it complete. I was working on my PW and then I got a popup to get on the waiting list?
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Webmail — 1 tickets
 
-- **[#9267](https://tbpro.zendesk.com/agent/tickets/9267)** · Send message failure — why: **blocked** · how: **explained**
-  > I keep getting an smtp failure to send message and this pop up asking me to sign in. When I try to sign in it doesn't do anything. Please help.
+- **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
+  > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
 
 ## New tickets — last 24h
 
-- [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [pending] · 2026-09-29T03:46 · Send message failure
-- [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [pending] · 2026-09-29T07:32 · Thundermail Account
-- [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [open] · 2026-09-29T09:43 · Создание и оплата услуги.
-- [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [pending] · 2026-09-29T09:53 · Cannot receive email in ios
-- [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [pending] · 2026-09-29T10:12 · Failed registration after server error
-- [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [solved] · 2026-09-29T11:52 · I was asked to join beta?
-- [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [pending] · 2026-09-29T12:45 · Can't connect cardav to macOS
-- [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [pending] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
-- [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [pending] · 2026-09-29T14:22 · Uploading a .png does nothing
-- [9288](https://tbpro.zendesk.com/agent/tickets/9288) · [pending] · 2026-09-29T14:52 · Couldn’t pay.
-- [9289](https://tbpro.zendesk.com/agent/tickets/9289) · [pending] · 2026-09-29T14:55 · calendar and contact sync between desktop and mobile app
-- [9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · 2026-09-29T19:33 · Cancel Account
+- [9294](https://tbpro.zendesk.com/agent/tickets/9294) · [open] · 2026-09-29T20:24 · I am unable send out new emails.
+- [9295](https://tbpro.zendesk.com/agent/tickets/9295) · [open] · 2026-09-29T20:52 · I got your Join The Early Bird Beta email but no authentication email received
+- [9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · 2026-09-29T21:30 · [stormbox] Stars misaligned in message list with blank message body 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
+- [9299](https://tbpro.zendesk.com/agent/tickets/9299) · [open] · 2026-09-29T21:39 · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
+- [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
+- [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [pending] · 2026-09-29T22:42 · Signing up and signing in snafus
 
 ## Solved — last 24h
 
-- · [8996](https://tbpro.zendesk.com/agent/tickets/8996) · 2026-09-28T20:02 · Cannot  find option to create Password for ios mail
-- · [8966](https://tbpro.zendesk.com/agent/tickets/8966) · 2026-09-28T20:02 · Info
-- · [8971](https://tbpro.zendesk.com/agent/tickets/8971) · 2026-09-28T21:02 · Quite expensive
-- · [8968](https://tbpro.zendesk.com/agent/tickets/8968) · 2026-09-28T22:01 · Account setttings view in webmail
-- · [8967](https://tbpro.zendesk.com/agent/tickets/8967) · 2026-09-28T22:01 · General Questions
-- · [9018](https://tbpro.zendesk.com/agent/tickets/9018) · 2026-09-28T23:01 · thundermail
-- · [8989](https://tbpro.zendesk.com/agent/tickets/8989) · 2026-09-28T23:01 · Custom domain email
-- · [8981](https://tbpro.zendesk.com/agent/tickets/8981) · 2026-09-28T23:01 · Thundermail question
-- · [8948](https://tbpro.zendesk.com/agent/tickets/8948) · 2026-09-28T23:01 · Can't log in
-- · [9009](https://tbpro.zendesk.com/agent/tickets/9009) · 2026-09-29T00:01 · Thundermail
-- · [9078](https://tbpro.zendesk.com/agent/tickets/9078) · 2026-09-29T14:02 · Same issue with signup, no verification email is sent.
-- · [9066](https://tbpro.zendesk.com/agent/tickets/9066) · 2026-09-29T14:49 · Didn't receive OTP email.
-- · [9282](https://tbpro.zendesk.com/agent/tickets/9282) · 2026-09-29T15:21 · I was asked to join beta?
-- · [9040](https://tbpro.zendesk.com/agent/tickets/9040) · 2026-09-29T16:01 · Monthly subscription
-- · [8854](https://tbpro.zendesk.com/agent/tickets/8854) · 2026-09-29T16:01 · Mail aliases not updating in the webmail
-- · [9072](https://tbpro.zendesk.com/agent/tickets/9072) · 2026-09-29T17:42 · second thundermail account login problem
-- · [9015](https://tbpro.zendesk.com/agent/tickets/9015) · 2026-09-29T18:02 · Change primary address
-- 👍 [9138](https://tbpro.zendesk.com/agent/tickets/9138) · 2026-09-29T18:12 · Display name
-- · [9022](https://tbpro.zendesk.com/agent/tickets/9022) · 2026-09-29T19:02 · email set up on iPhone, but can't seem to duplicate this on iPad mini
-- · [9019](https://tbpro.zendesk.com/agent/tickets/9019) · 2026-09-29T19:02 · imap/etc settings?
-- · [8975](https://tbpro.zendesk.com/agent/tickets/8975) · 2026-09-29T19:02 · Payments 
-- · [8969](https://tbpro.zendesk.com/agent/tickets/8969) · 2026-09-29T19:02 · Undo the Account, not interested in paid subscription
+- · [9035](https://tbpro.zendesk.com/agent/tickets/9035) · 2026-09-29T21:02 · Regarding subscription Fwd: Thinking of a new beginning
+- 👍 [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-29T21:29 · Thundermail signup
+- · [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-29T22:01 · set up forwarding from old email
+- · [9028](https://tbpro.zendesk.com/agent/tickets/9028) · 2026-09-29T22:01 · not allowing to log in bad password
+- · [9011](https://tbpro.zendesk.com/agent/tickets/9011) · 2026-09-29T22:01 · I have seen some emails disappear from my accounts, what are the email backup size limitations,  are
+- · [8993](https://tbpro.zendesk.com/agent/tickets/8993) · 2026-09-29T22:01 · thundermail
+- · [9190](https://tbpro.zendesk.com/agent/tickets/9190) · 2026-09-29T22:26 · My Thunderbird stops all the time
+- · [8940](https://tbpro.zendesk.com/agent/tickets/8940) · 2026-09-29T23:01 · Subscription
+- · [9010](https://tbpro.zendesk.com/agent/tickets/9010) · 2026-09-30T00:01 · Use in my small business
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
