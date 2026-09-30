@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 06:25 ET** · refreshes hourly_  
+_Updated: **2026-09-30 07:21 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **581 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **583 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **9** solved in last 24h
-- **581** tickets total since launch · contact rate **2%** of 35000 invitees
+- **16** new tickets in last 24h · **9** solved in last 24h
+- **583** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -20,7 +20,7 @@ Flight 8 is **day 52** of rollout — **35,000 invitees**, **581 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"after subscribing realized"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
+- **"refund policy assistance"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
 - **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
 ## Known problems — 9 problem(s), 69 incident(s)
@@ -189,7 +189,7 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 4
 
 - [9312](https://tbpro.zendesk.com/agent/tickets/9312) · [new] · _Request for cancellation and full refund_
   > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is the feature I needed. I have therefore…
@@ -197,6 +197,8 @@ Regards, [name]_
   > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is the feature I needed. (Transaction ID:…
 - [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [new] · _Refund_
   > Hello, I'd like to ask if it's possible to refund at least a part of the subscription (for example, 66 of the 72 USD - for one month) and cancel the rest of it. I found out that Thundermail doesn't really meet my needs.…
+- [9319](https://tbpro.zendesk.com/agent/tickets/9319) · [new] · _Refund_
+  > Hi, I'd like to cancel my account and request a refund. Nothing to do with the quality of Thundermail; I'm just unhappy with jurisdiction being in California rather than Germany.
 
 ## New ideas on FeatureOS
 
@@ -211,11 +213,11 @@ Regards, [name]_
 - **pending**: 35
 - **open**: 15
 - **hold**: 11
-- **new**: 8
+- **new**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 319
+- **Account Hub**: 321
 - **Thundermail**: 213
 - **Send**: 14
 - **Appointment**: 8
@@ -293,6 +295,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11
   > I have tried several times to download Thunderbird on my Windows 11 laptop. I never could get it to work. Been using Thunderbird for years and this is the first time I have had…
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#9319](https://tbpro.zendesk.com/agent/tickets/9319)** · Refund
+  > Hi, I'd like to cancel my account and request a refund. Nothing to do with the quality of Thundermail; I'm just unhappy with jurisdiction being in California rather than Germany.
+- **[#9318](https://tbpro.zendesk.com/agent/tickets/9318)** · Refund
+  > Hello, I'd like to ask if it's possible to refund at least a part of the subscription (for example, 66 of the 72 USD - for one month) and cancel the rest of it. I found out that…
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#9311](https://tbpro.zendesk.com/agent/tickets/9311)** · I dont find the first sign up, would like to create a mail access
@@ -338,6 +347,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9315](https://tbpro.zendesk.com/agent/tickets/9315) · [new] · 2026-09-30T08:00 · WINDOWS 11
 - [9316](https://tbpro.zendesk.com/agent/tickets/9316) · [new] · 2026-09-30T08:29 · https://[domain]/
 - [9317](https://tbpro.zendesk.com/agent/tickets/9317) · [new] · 2026-09-30T08:41 · I don`t have money to pay [domain]
+- [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [new] · 2026-09-30T10:25 · Refund
+- [9319](https://tbpro.zendesk.com/agent/tickets/9319) · [new] · 2026-09-30T11:20 · Refund
 
 ## Solved — last 24h
 
