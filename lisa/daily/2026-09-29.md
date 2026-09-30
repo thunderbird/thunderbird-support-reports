@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 19:21 ET** · refreshes hourly_  
+_Updated: **2026-09-29 21:03 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 51** of rollout — **35,000 invitees**, **573 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 70
-- **Median AHT**: 136.0h · mean 164.3h (proxy: updated_at − created_at, 402 solved tickets)
+- **Median AHT**: 136.1h · mean 164.3h (proxy: updated_at − created_at, 403 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -204,16 +204,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 402
+- **solved**: 403
 - **closed**: 109
-- **pending**: 39
-- **open**: 13
+- **pending**: 43
 - **hold**: 10
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 316
-- **Thundermail**: 209
+- **Account Hub**: 317
+- **Thundermail**: 208
 - **Send**: 14
 - **Appointment**: 8
 
@@ -222,7 +222,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 126
-- **blocked** + **explained**: 80
+- **blocked** + **explained**: 81
 - **change request** + **actioned**: 79
 - **confused** + **explained**: 37
 - **curious** + **informed**: 30
@@ -231,7 +231,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 22
 - **confused** + **informed**: 22
 - **blocked** + **redirected**: 15
-- **blocked** + **informed**: 12
+- **blocked** + **informed**: 14
 - **blocked** + **escalated**: 11
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
@@ -272,7 +272,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#9287](https://tbpro.zendesk.com/agent/tickets/9287)** · Uploading a .png does nothing
+- **[#9287](https://tbpro.zendesk.com/agent/tickets/9287)** · Uploading a .png does nothing — why: **blocked** · how: **informed**
   > Tying to use [domain], when i drag and drop, or select my .png to upload, and then click upload, it flashes for a half second and goes back to nothing uploaded at all.
 - **[#9284](https://tbpro.zendesk.com/agent/tickets/9284)** · Can't connect cardav to macOS — why: **confused** · how: **explained**
   > I am trying to connect my contacts to the contacts app for macOS. I followed the guide to…
@@ -293,15 +293,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
   > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription — why: **curious** · how: **explained**
-  > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9293](https://tbpro.zendesk.com/agent/tickets/9293)** · Cancel Account — why: **change request** · how: **actioned**
   > Please cancel account.
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9285](https://tbpro.zendesk.com/agent/tickets/9285)** · Couldn't finish the setup of my early bird subscription — why: **curious** · how: **explained**
+  > I started the process once I got the early bird link. I couldn't finish the payment at that moment :/ Can I continue where I left out? Or get a new link? (my chosen address was…
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -327,8 +327,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [pending] · 2026-09-29T10:12 · Failed registration after server error
 - [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [solved] · 2026-09-29T11:52 · I was asked to join beta?
 - [9284](https://tbpro.zendesk.com/agent/tickets/9284) · [pending] · 2026-09-29T12:45 · Can't connect cardav to macOS
-- [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [open] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
-- [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [open] · 2026-09-29T14:22 · Uploading a .png does nothing
+- [9285](https://tbpro.zendesk.com/agent/tickets/9285) · [pending] · 2026-09-29T13:30 · Couldn't finish the setup of my early bird subscription
+- [9287](https://tbpro.zendesk.com/agent/tickets/9287) · [pending] · 2026-09-29T14:22 · Uploading a .png does nothing
 - [9288](https://tbpro.zendesk.com/agent/tickets/9288) · [pending] · 2026-09-29T14:52 · Couldn’t pay.
 - [9289](https://tbpro.zendesk.com/agent/tickets/9289) · [pending] · 2026-09-29T14:55 · calendar and contact sync between desktop and mobile app
 - [9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · 2026-09-29T19:33 · Cancel Account
