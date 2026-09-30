@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 03:32 ET** · refreshes hourly_  
+_Updated: **2026-09-30 04:34 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **576 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **580 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
-- **576** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **9** solved in last 24h
+- **580** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -20,6 +20,7 @@ Flight 8 is **day 52** of rollout — **35,000 invitees**, **576 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"policy assistance"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
 - **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
 ## Known problems — 9 problem(s), 69 incident(s)
@@ -188,9 +189,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 2
 
-_(none in last 24h)_
+- [9312](https://tbpro.zendesk.com/agent/tickets/9312) · [new] · _Request for cancellation and full refund_
+  > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is the feature I needed. I have therefore…
+- [9314](https://tbpro.zendesk.com/agent/tickets/9314) · [new] · _Request for cancellation and full refund_
+  > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is the feature I needed. (Transaction ID:…
 
 ## New ideas on FeatureOS
 
@@ -205,12 +209,12 @@ _(none in last 24h)_
 - **pending**: 39
 - **open**: 11
 - **hold**: 11
-- **new**: 3
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 317
-- **Thundermail**: 210
+- **Account Hub**: 318
+- **Thundermail**: 213
 - **Send**: 14
 - **Appointment**: 8
 
@@ -267,6 +271,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 4 tickets
+
+- **[#9314](https://tbpro.zendesk.com/agent/tickets/9314)** · Request for cancellation and full refund
+  > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is…
+- **[#9312](https://tbpro.zendesk.com/agent/tickets/9312)** · Request for cancellation and full refund
+  > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is…
+- **[#9308](https://tbpro.zendesk.com/agent/tickets/9308)** · Webmail Login 2FA TOTP failed
+  > Trying to login to Webmail I get an error, Screenshot attached. Gui used is Hermit Lite App.
+- **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
+  > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
+
+### Other / uncategorized — 2 tickets
+
+- **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/
+  > i have not enough explanation to anderstand your new product ans offer. tell me more .
+- **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11
+  > I have tried several times to download Thunderbird on my Windows 11 laptop. I never could get it to work. Been using Thunderbird for years and this is the first time I have had…
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#9311](https://tbpro.zendesk.com/agent/tickets/9311)** · I dont find the first sign up, would like to create a mail access
@@ -280,13 +302,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Could you provide my user name and password please?
 - **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
   > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
-
-### Webmail — 2 tickets
-
-- **[#9308](https://tbpro.zendesk.com/agent/tickets/9308)** · Webmail Login 2FA TOTP failed
-  > Trying to login to Webmail I get an error, Screenshot attached. Gui used is Hermit Lite App.
-- **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
-  > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -314,6 +329,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [new] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
 - [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [new] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
 - [9311](https://tbpro.zendesk.com/agent/tickets/9311) · [new] · 2026-09-30T07:26 · I dont find the first sign up, would like to create a mail access
+- [9312](https://tbpro.zendesk.com/agent/tickets/9312) · [new] · 2026-09-30T07:56 · Request for cancellation and full refund
+- [9314](https://tbpro.zendesk.com/agent/tickets/9314) · [new] · 2026-09-30T07:59 · Request for cancellation and full refund
+- [9315](https://tbpro.zendesk.com/agent/tickets/9315) · [new] · 2026-09-30T08:00 · WINDOWS 11
+- [9316](https://tbpro.zendesk.com/agent/tickets/9316) · [new] · 2026-09-30T08:29 · https://[domain]/
 
 ## Solved — last 24h
 
