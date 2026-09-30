@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 14:29 ET** · refreshes hourly_  
+_Updated: **2026-09-30 15:22 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **593 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Early bird signup**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **594 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **26** new tickets in last 24h · **20** solved in last 24h
-- **593** tickets total since launch · contact rate **2%** of 35000 invitees
+- **27** new tickets in last 24h · **22** solved in last 24h
+- **594** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (144 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.1h · mean 164.1h (proxy: updated_at − created_at, 406 solved tickets)
+- **Median AHT**: 136.1h · mean 164.3h (proxy: updated_at − created_at, 407 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -28,7 +28,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 3 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
-  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [open] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [hold] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -207,15 +207,15 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 406
-- **closed**: 114
-- **pending**: 38
-- **open**: 22
-- **hold**: 13
+- **solved**: 407
+- **closed**: 115
+- **pending**: 36
+- **open**: 21
+- **hold**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 328
+- **Account Hub**: 329
 - **Thundermail**: 214
 - **Send**: 14
 - **Appointment**: 8
@@ -224,7 +224,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 128
+- **curious** + **explained**: 129
 - **blocked** + **explained**: 82
 - **change request** + **actioned**: 81
 - **confused** + **explained**: 38
@@ -273,7 +273,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 7 tickets
+### Other / uncategorized — 6 tickets
 
 - **[#9335](https://tbpro.zendesk.com/agent/tickets/9335)** · Adding current email [email] as Primary email
   > I need to: show current email [email] as my primary email address. How to bring Contact List from current email account over to Thundermail account?
@@ -281,8 +281,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > What is suffix of Thundermail address?
 - **[#9332](https://tbpro.zendesk.com/agent/tickets/9332)** · Adding Comcast email 
   > How to change main email to my comcast email and can contacts be moved over to my Thundermail account?
-- **[#9330](https://tbpro.zendesk.com/agent/tickets/9330)** · change account to [domain]
-  > I have a current account as [email] - can I change it to [email]? How do I do that? Don't see a way to do it in the dashboard. Thanks.
 - **[#9320](https://tbpro.zendesk.com/agent/tickets/9320)** · Servers and support
   > Hello [name] are your servers and what is your support promise?
 - **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11 — why: **blocked** · how: **redirected**
@@ -312,12 +310,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird signup — 3 tickets
 
+- **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
+  > I am ready to use this. I thought I had it complete. I was working on my PW and then I got a popup to get on the waiting list?
 - **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/ — why: **curious** · how: **informed**
   > i have not enough explanation to anderstand your new product ans offer. tell me more .
 - **[#9311](https://tbpro.zendesk.com/agent/tickets/9311)** · I dont find the first sign up, would like to create a mail access — why: **confused** · how: **explained**
   > how create a mail account invitation is already ok
-- **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
-  > I am ready to use this. I thought I had it complete. I was working on my PW and then I got a popup to get on the waiting list?
+
+### Aliases — 2 tickets
+
+- **[#9330](https://tbpro.zendesk.com/agent/tickets/9330)** · change account to [domain] — why: **curious** · how: **explained**
+  > I have a current account as [email] - can I change it to [email]? How do I do that? Don't see a way to do it in the dashboard. Thanks.
+- **[#9325](https://tbpro.zendesk.com/agent/tickets/9325)** · I cant log in intro my email [email] — why: **blocked** · how: **explained**
+  > I think I wrote the Password wrong for [email] on my Papers and can't log intro the email with it. I tried multiplical Versions of the Password but nothing works. Not only that,…
+
+### Appointment / calendar — 1 tickets
+
+- **[#9341](https://tbpro.zendesk.com/agent/tickets/9341)** · Migrating Google Calendar over
+  > I would be transferring our Google Workspace account over to Thundermail. Is there a simple way to migrate the Google calendar information? Any other suggestions with migrating a…
 
 ### Account access issues — 1 tickets
 
@@ -344,20 +354,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9300](https://tbpro.zendesk.com/agent/tickets/9300)** · [Incomplete DKIM customer-initiated fix]
   > **Summary:** Incomplete DKIM and customer DNS prevents a thunderhosted-only fix (31) **Affected problems and platforms:** Select Thundermail users with custom domains **First…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9295](https://tbpro.zendesk.com/agent/tickets/9295)** · I got your Join The Early Bird Beta email but no authentication email received — why: **blocked** · how: **actioned**
-  > I got your Join The Early Bird Beta email but no authentication email received My signup [email] but the authentication email to [email] never came.
-
-### Aliases — 1 tickets
-
-- **[#9325](https://tbpro.zendesk.com/agent/tickets/9325)** · I cant log in intro my email [email] — why: **blocked** · how: **explained**
-  > I think I wrote the Password wrong for [email] on my Papers and can't log intro the email with it. I tried multiplical Versions of the Password but nothing works. Not only that,…
-
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#9309](https://tbpro.zendesk.com/agent/tickets/9309)** · Cannot sign in.  Forgot user name and password. — why: **blocked** · how: **informed**
   > Could you provide my user name and password please?
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9295](https://tbpro.zendesk.com/agent/tickets/9295)** · I got your Join The Early Bird Beta email but no authentication email received — why: **blocked** · how: **actioned**
+  > I got your Join The Early Bird Beta email but no authentication email received My signup [email] but the authentication email to [email] never came.
 
 ### App setup / configuration — 1 tickets
 
@@ -367,10 +372,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9294](https://tbpro.zendesk.com/agent/tickets/9294) · [solved] · 2026-09-29T20:24 · I am unable send out new emails.
-- [9295](https://tbpro.zendesk.com/agent/tickets/9295) · [open] · 2026-09-29T20:52 · I got your Join The Early Bird Beta email but no authentication email received
+- [9295](https://tbpro.zendesk.com/agent/tickets/9295) · [hold] · 2026-09-29T20:52 · I got your Join The Early Bird Beta email but no authentication email received
 - [9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · 2026-09-29T21:30 · [stormbox] Stars misaligned in message list with blank message body 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
 - [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
-- [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [pending] · 2026-09-29T22:42 · Signing up and signing in snafus
+- [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [open] · 2026-09-29T22:42 · Signing up and signing in snafus
 - [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [pending] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
 - [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [pending] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
 - [9311](https://tbpro.zendesk.com/agent/tickets/9311) · [pending] · 2026-09-30T07:26 · I dont find the first sign up, would like to create a mail access
@@ -384,7 +389,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9325](https://tbpro.zendesk.com/agent/tickets/9325) · [pending] · 2026-09-30T13:00 · I cant log in intro my email [email]
 - [9326](https://tbpro.zendesk.com/agent/tickets/9326) · [open] · 2026-09-30T13:03 · logging in to thunderbird email
 - [9329](https://tbpro.zendesk.com/agent/tickets/9329) · [pending] · 2026-09-30T14:20 · 111
-- [9330](https://tbpro.zendesk.com/agent/tickets/9330) · [open] · 2026-09-30T15:13 · change account to [domain]
+- [9330](https://tbpro.zendesk.com/agent/tickets/9330) · [pending] · 2026-09-30T15:13 · change account to [domain]
 - [9331](https://tbpro.zendesk.com/agent/tickets/9331) · [open] · 2026-09-30T15:47 · Payment
 - [9332](https://tbpro.zendesk.com/agent/tickets/9332) · [open] · 2026-09-30T15:48 · Adding Comcast email 
 - [9333](https://tbpro.zendesk.com/agent/tickets/9333) · [open] · 2026-09-30T15:49 · Thundermail address format
@@ -392,6 +397,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9335](https://tbpro.zendesk.com/agent/tickets/9335) · [open] · 2026-09-30T15:55 · Adding current email [email] as Primary email
 - [9338](https://tbpro.zendesk.com/agent/tickets/9338) · [open] · 2026-09-30T18:11 · Trasnfer our domin to Thundermail
 - [9339](https://tbpro.zendesk.com/agent/tickets/9339) · [open] · 2026-09-30T18:12 · Sign up
+- [9341](https://tbpro.zendesk.com/agent/tickets/9341) · [open] · 2026-09-30T19:14 · Migrating Google Calendar over
 
 ## Solved — last 24h
 
@@ -415,6 +421,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9109](https://tbpro.zendesk.com/agent/tickets/9109) · 2026-09-30T17:01 · How to get my thuderbird email account and access
 - · [9092](https://tbpro.zendesk.com/agent/tickets/9092) · 2026-09-30T18:02 · Blocked Emails
 - · [9083](https://tbpro.zendesk.com/agent/tickets/9083) · 2026-09-30T18:02 · Account deletion
+- · [9131](https://tbpro.zendesk.com/agent/tickets/9131) · 2026-09-30T19:02 · Can not use Thundermail?
+- · [9073](https://tbpro.zendesk.com/agent/tickets/9073) · 2026-09-30T19:02 · Cannot send to Gmail recipients
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
