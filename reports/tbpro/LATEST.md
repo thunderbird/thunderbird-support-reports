@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 08:39 ET** · refreshes hourly_  
+_Updated: **2026-09-30 09:27 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **584 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **586 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **9** solved in last 24h
-- **584** tickets total since launch · contact rate **2%** of 35000 invitees
+- **19** new tickets in last 24h · **9** solved in last 24h
+- **586** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -20,7 +20,7 @@ Flight 8 is **day 52** of rollout — **35,000 invitees**, **584 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"webmail connecting existing"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
+- **"after subscribing realized"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
 - **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
 ## Known problems — 9 problem(s), 69 incident(s)
@@ -211,13 +211,13 @@ Regards, [name]_
 - **solved**: 402
 - **closed**: 110
 - **pending**: 33
-- **open**: 17
-- **new**: 11
+- **open**: 20
 - **hold**: 11
+- **new**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 322
+- **Account Hub**: 324
 - **Thundermail**: 213
 - **Send**: 14
 - **Appointment**: 8
@@ -275,6 +275,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 4 tickets
+
+- **[#9326](https://tbpro.zendesk.com/agent/tickets/9326)** · logging in to thunderbird email
+  > It's rejecting my password and I am unable to log in
+- **[#9325](https://tbpro.zendesk.com/agent/tickets/9325)** · I cant log in intro my email [email]
+  > I think I wrote the Password wrong for [email] on my Papers and can't log intro the email with it. I tried multiplical Versions of the Password but nothing works. Not only that,…
+- **[#9309](https://tbpro.zendesk.com/agent/tickets/9309)** · Cannot sign in.  Forgot user name and password.
+  > Could you provide my user name and password please?
+- **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
+  > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
+
 ### Other / uncategorized — 4 tickets
 
 - **[#9320](https://tbpro.zendesk.com/agent/tickets/9320)** · Servers and support
@@ -311,13 +322,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9295](https://tbpro.zendesk.com/agent/tickets/9295)** · I got your Join The Early Bird Beta email but no authentication email received — why: **blocked** · how: **actioned**
   > I got your Join The Early Bird Beta email but no authentication email received My signup [email] but the authentication email to [email] never came.
 
-### Account access issues — 2 tickets
-
-- **[#9309](https://tbpro.zendesk.com/agent/tickets/9309)** · Cannot sign in.  Forgot user name and password.
-  > Could you provide my user name and password please?
-- **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
-  > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
-
 ### Early bird signup — 1 tickets
 
 - **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
@@ -341,9 +345,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9299](https://tbpro.zendesk.com/agent/tickets/9299) · [open] · 2026-09-29T21:39 · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
 - [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
 - [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [open] · 2026-09-29T22:42 · Signing up and signing in snafus
-- [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [new] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
-- [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [new] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
-- [9311](https://tbpro.zendesk.com/agent/tickets/9311) · [new] · 2026-09-30T07:26 · I dont find the first sign up, would like to create a mail access
+- [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [open] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
+- [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [open] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
+- [9311](https://tbpro.zendesk.com/agent/tickets/9311) · [open] · 2026-09-30T07:26 · I dont find the first sign up, would like to create a mail access
 - [9312](https://tbpro.zendesk.com/agent/tickets/9312) · [new] · 2026-09-30T07:56 · Request for cancellation and full refund
 - [9314](https://tbpro.zendesk.com/agent/tickets/9314) · [new] · 2026-09-30T07:59 · Request for cancellation and full refund
 - [9315](https://tbpro.zendesk.com/agent/tickets/9315) · [new] · 2026-09-30T08:00 · WINDOWS 11
@@ -352,6 +356,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [new] · 2026-09-30T10:25 · Refund
 - [9319](https://tbpro.zendesk.com/agent/tickets/9319) · [new] · 2026-09-30T11:20 · Refund
 - [9320](https://tbpro.zendesk.com/agent/tickets/9320) · [new] · 2026-09-30T11:27 · Servers and support
+- [9325](https://tbpro.zendesk.com/agent/tickets/9325) · [new] · 2026-09-30T13:00 · I cant log in intro my email [email]
+- [9326](https://tbpro.zendesk.com/agent/tickets/9326) · [new] · 2026-09-30T13:03 · logging in to thunderbird email
 
 ## Solved — last 24h
 
