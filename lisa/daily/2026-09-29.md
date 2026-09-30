@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-29
 
-_Updated: **2026-09-29 21:42 ET** · refreshes hourly_  
+_Updated: **2026-09-29 22:35 ET** · refreshes hourly_  
 _24h window: 2026-09-28T16:00 → 2026-09-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -206,9 +206,9 @@ Regards, [name]_
 
 - **solved**: 403
 - **closed**: 109
-- **pending**: 43
+- **pending**: 42
 - **hold**: 11
-- **open**: 7
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -279,19 +279,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9270](https://tbpro.zendesk.com/agent/tickets/9270)** · Thundermail Account — why: **change request** · how: **actioned**
   > Please delete my thundermail email account ([email]). Sorry.
 
+### Pricing — payment issue — 2 tickets
+
+- **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
+  > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
+- **[#9288](https://tbpro.zendesk.com/agent/tickets/9288)** · Couldn’t pay. — why: **confused** · how: **explained**
+  > I went through the process but for some reason my card wouldn’t work. Some parts of your process didn’t seem as if it had been throughly trialled (I wrote some feedback about…
+
 ### Thunderbird for Android + Thundermail — 2 tickets
 
 - **[#9289](https://tbpro.zendesk.com/agent/tickets/9289)** · calendar and contact sync between desktop and mobile app — why: **confused** · how: **informed**
   > I purchased Thundermail in hopes to sync my Thunderbird contacts and contacts between my Thunderbird desktop and Thunderbird app on my android mobile phone. Can you help me with…
 - **[#9278](https://tbpro.zendesk.com/agent/tickets/9278)** · Cannot receive email in ios — why: **concerned** · how: **explained**
   > I moved from android to iPhone and only when I logged in to the mail app I can see new messages arriving. I don’t know why.
-
-### Pricing — payment issue — 2 tickets
-
-- **[#9288](https://tbpro.zendesk.com/agent/tickets/9288)** · Couldn’t pay. — why: **confused** · how: **explained**
-  > I went through the process but for some reason my card wouldn’t work. Some parts of your process didn’t seem as if it had been throughly trialled (I wrote some feedback about…
-- **[#9277](https://tbpro.zendesk.com/agent/tickets/9277)** · Создание и оплата услуги. — why: **blocked** · how: **informed**
-  > Меня пригласили для использования Thundermail, но возникла проблема прохождения оплаты, сейчас, я так думаю, эту проблему я решил. Но видимо потерял доступ. Прошу восстановить…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -322,7 +322,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9267](https://tbpro.zendesk.com/agent/tickets/9267) · [pending] · 2026-09-29T03:46 · Send message failure
 - [9270](https://tbpro.zendesk.com/agent/tickets/9270) · [pending] · 2026-09-29T07:32 · Thundermail Account
-- [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [pending] · 2026-09-29T09:43 · Создание и оплата услуги.
+- [9277](https://tbpro.zendesk.com/agent/tickets/9277) · [open] · 2026-09-29T09:43 · Создание и оплата услуги.
 - [9278](https://tbpro.zendesk.com/agent/tickets/9278) · [pending] · 2026-09-29T09:53 · Cannot receive email in ios
 - [9279](https://tbpro.zendesk.com/agent/tickets/9279) · [pending] · 2026-09-29T10:12 · Failed registration after server error
 - [9282](https://tbpro.zendesk.com/agent/tickets/9282) · [solved] · 2026-09-29T11:52 · I was asked to join beta?
