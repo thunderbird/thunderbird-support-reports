@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 04:34 ET** · refreshes hourly_  
+_Updated: **2026-09-30 05:27 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **580 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **581 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **9** solved in last 24h
-- **580** tickets total since launch · contact rate **2%** of 35000 invitees
+- **14** new tickets in last 24h · **9** solved in last 24h
+- **581** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -20,7 +20,7 @@ Flight 8 is **day 52** of rollout — **35,000 invitees**, **580 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"policy assistance"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
+- **"therefore cancelled subscription"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
 - **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
 ## Known problems — 9 problem(s), 69 incident(s)
@@ -125,7 +125,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · [stormbox] Stars misaligned in message list with blank message body
 - 🔧 GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
 - 1 incident(s):
-  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [pending] · 2026-09-26 · _featured off-site messages_
+  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [open] · 2026-09-26 · _featured off-site messages_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
@@ -206,14 +206,14 @@ Regards, [name]_
 
 - **solved**: 402
 - **closed**: 110
-- **pending**: 39
-- **open**: 11
+- **pending**: 37
+- **open**: 13
 - **hold**: 11
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 318
+- **Account Hub**: 319
 - **Thundermail**: 213
 - **Send**: 14
 - **Appointment**: 8
@@ -282,8 +282,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
   > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#9317](https://tbpro.zendesk.com/agent/tickets/9317)** · I don`t have money to pay [domain]
+  > Hi [name] for my english language but I dont have money to pay my account [email] ,can you wait to 15 november, then I will have money???
 - **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/
   > i have not enough explanation to anderstand your new product ans offer. tell me more .
 - **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11
@@ -333,6 +335,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9314](https://tbpro.zendesk.com/agent/tickets/9314) · [new] · 2026-09-30T07:59 · Request for cancellation and full refund
 - [9315](https://tbpro.zendesk.com/agent/tickets/9315) · [new] · 2026-09-30T08:00 · WINDOWS 11
 - [9316](https://tbpro.zendesk.com/agent/tickets/9316) · [new] · 2026-09-30T08:29 · https://[domain]/
+- [9317](https://tbpro.zendesk.com/agent/tickets/9317) · [new] · 2026-09-30T08:41 · I don`t have money to pay [domain]
 
 ## Solved — last 24h
 
