@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 15:22 ET** · refreshes hourly_  
+_Updated: **2026-09-30 16:25 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
-## Known problems — 9 problem(s), 71 incident(s)
+## Known problems — 9 problem(s), 72 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 3 incident(s):
@@ -36,7 +36,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 60 incident(s):
+- 61 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -96,6 +96,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [pending] · 2026-09-26 · _Refund_
   - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · 2026-09-29 · _Cancel Account_
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [pending] · 2026-09-30 · _Request for cancellation and full refund_
+  - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -194,7 +195,7 @@ Regards, [name]_
 
 - [9314](https://tbpro.zendesk.com/agent/tickets/9314) · [pending] · _Request for cancellation and full refund_
   > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is the feature I needed. (Transaction ID:…
-- [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [open] · _Refund_
+- [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · _Refund_
   > Hello, I'd like to ask if it's possible to refund at least a part of the subscription (for example, 66 of the 72 USD - for one month) and cancel the rest of it. I found out that Thundermail doesn't really meet my needs.…
 - [9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · _Refund_
   > Hi, I'd like to cancel my account and request a refund. Nothing to do with the quality of Thundermail; I'm just unhappy with jurisdiction being in California rather than Germany.
@@ -209,13 +210,13 @@ Regards, [name]_
 
 - **solved**: 407
 - **closed**: 115
-- **pending**: 36
-- **open**: 21
+- **pending**: 38
+- **open**: 19
 - **hold**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 329
+- **Account Hub**: 330
 - **Thundermail**: 214
 - **Send**: 14
 - **Appointment**: 8
@@ -224,12 +225,12 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 129
+- **curious** + **explained**: 130
 - **blocked** + **explained**: 82
-- **change request** + **actioned**: 81
+- **change request** + **actioned**: 82
 - **confused** + **explained**: 38
-- **curious** + **informed**: 31
-- **blocked** + **investigated**: 30
+- **curious** + **informed**: 32
+- **blocked** + **investigated**: 31
 - **request** + **redirected**: 24
 - **concerned** + **explained**: 23
 - **confused** + **informed**: 22
@@ -238,8 +239,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 11
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
-- **change request** + **explained**: 6
 - **blocked** + **—**: 6
+- **change request** + **explained**: 5
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
 - **confused** + **investigated**: 4
@@ -277,14 +278,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9335](https://tbpro.zendesk.com/agent/tickets/9335)** · Adding current email [email] as Primary email
   > I need to: show current email [email] as my primary email address. How to bring Contact List from current email account over to Thundermail account?
-- **[#9333](https://tbpro.zendesk.com/agent/tickets/9333)** · Thundermail address format
-  > What is suffix of Thundermail address?
-- **[#9332](https://tbpro.zendesk.com/agent/tickets/9332)** · Adding Comcast email 
-  > How to change main email to my comcast email and can contacts be moved over to my Thundermail account?
 - **[#9320](https://tbpro.zendesk.com/agent/tickets/9320)** · Servers and support
   > Hello [name] are your servers and what is your support promise?
 - **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11 — why: **blocked** · how: **redirected**
   > I have tried several times to download Thunderbird on my Windows 11 laptop. I never could get it to work. Been using Thunderbird for years and this is the first time I have had…
+- **[#9333](https://tbpro.zendesk.com/agent/tickets/9333)** · Thundermail address format — why: **curious** · how: **informed**
+  > What is suffix of Thundermail address?
+- **[#9332](https://tbpro.zendesk.com/agent/tickets/9332)** · Adding Comcast email  — why: **curious** · how: **explained**
+  > How to change main email to my comcast email and can contacts be moved over to my Thundermail account?
 - **[#9329](https://tbpro.zendesk.com/agent/tickets/9329)** · 111 — why: **curious** · how: **explained**
   > 111
 
@@ -303,10 +304,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9331](https://tbpro.zendesk.com/agent/tickets/9331)** · Payment
   > Can i get a thundermail for free, i mean without an subscription ?
-- **[#9318](https://tbpro.zendesk.com/agent/tickets/9318)** · Refund — why: **change request** · how: **explained**
-  > Hello, I'd like to ask if it's possible to refund at least a part of the subscription (for example, 66 of the 72 USD - for one month) and cancel the rest of it. I found out that…
 - **[#9319](https://tbpro.zendesk.com/agent/tickets/9319)** · Refund — why: **change request** · how: **actioned**
   > Hi, I'd like to cancel my account and request a refund. Nothing to do with the quality of Thundermail; I'm just unhappy with jurisdiction being in California rather than Germany.
+- **[#9318](https://tbpro.zendesk.com/agent/tickets/9318)** · Refund — why: **change request** · how: **actioned**
+  > Hello, I'd like to ask if it's possible to refund at least a part of the subscription (for example, 66 of the 72 USD - for one month) and cancel the rest of it. I found out that…
 
 ### Early bird signup — 3 tickets
 
@@ -329,9 +330,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9341](https://tbpro.zendesk.com/agent/tickets/9341)** · Migrating Google Calendar over
   > I would be transferring our Google Workspace account over to Thundermail. Is there a simple way to migrate the Google calendar information? Any other suggestions with migrating a…
 
-### Account access issues — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#9339](https://tbpro.zendesk.com/agent/tickets/9339)** · Sign up
+- **[#9339](https://tbpro.zendesk.com/agent/tickets/9339)** · Sign up — why: **blocked** · how: **investigated**
   > Hi, I'm on the waitlist and received an invitation to sign up. I made an email ([email]). It's says: You need to verify your email address to activate your account. I have to go…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
@@ -383,7 +384,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9315](https://tbpro.zendesk.com/agent/tickets/9315) · [open] · 2026-09-30T08:00 · WINDOWS 11
 - [9316](https://tbpro.zendesk.com/agent/tickets/9316) · [pending] · 2026-09-30T08:29 · https://[domain]/
 - [9317](https://tbpro.zendesk.com/agent/tickets/9317) · [open] · 2026-09-30T08:41 · I don`t have money to pay [domain]
-- [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [open] · 2026-09-30T10:25 · Refund
+- [9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30T10:25 · Refund
 - [9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30T11:20 · Refund
 - [9320](https://tbpro.zendesk.com/agent/tickets/9320) · [open] · 2026-09-30T11:27 · Servers and support
 - [9325](https://tbpro.zendesk.com/agent/tickets/9325) · [pending] · 2026-09-30T13:00 · I cant log in intro my email [email]
@@ -391,8 +392,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9329](https://tbpro.zendesk.com/agent/tickets/9329) · [pending] · 2026-09-30T14:20 · 111
 - [9330](https://tbpro.zendesk.com/agent/tickets/9330) · [pending] · 2026-09-30T15:13 · change account to [domain]
 - [9331](https://tbpro.zendesk.com/agent/tickets/9331) · [open] · 2026-09-30T15:47 · Payment
-- [9332](https://tbpro.zendesk.com/agent/tickets/9332) · [open] · 2026-09-30T15:48 · Adding Comcast email 
-- [9333](https://tbpro.zendesk.com/agent/tickets/9333) · [open] · 2026-09-30T15:49 · Thundermail address format
+- [9332](https://tbpro.zendesk.com/agent/tickets/9332) · [pending] · 2026-09-30T15:48 · Adding Comcast email 
+- [9333](https://tbpro.zendesk.com/agent/tickets/9333) · [pending] · 2026-09-30T15:49 · Thundermail address format
 - [9334](https://tbpro.zendesk.com/agent/tickets/9334) · [open] · 2026-09-30T15:50 · Thundermail
 - [9335](https://tbpro.zendesk.com/agent/tickets/9335) · [open] · 2026-09-30T15:55 · Adding current email [email] as Primary email
 - [9338](https://tbpro.zendesk.com/agent/tickets/9338) · [open] · 2026-09-30T18:11 · Trasnfer our domin to Thundermail
