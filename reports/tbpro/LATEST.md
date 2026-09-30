@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 18:24 ET** · refreshes hourly_  
+_Updated: **2026-09-30 19:22 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **595 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **596 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **26** new tickets in last 24h · **22** solved in last 24h
-- **595** tickets total since launch · contact rate **2%** of 35000 invitees
+- **26** new tickets in last 24h · **21** solved in last 24h
+- **596** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (144 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 165.5h (proxy: updated_at − created_at, 403 solved tickets)
+- **Median AHT**: 136.4h · mean 166.5h (proxy: updated_at − created_at, 400 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -57,7 +57,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [solved] · 2026-08-31 · _Refund_
   - [#8128](https://tbpro.zendesk.com/agent/tickets/8128) · [solved] · 2026-09-01 · _Please refund my money_
   - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [solved] · 2026-09-01 · _Cancel + Refund_
-  - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [solved] · 2026-09-02 · _Refund, please ?_
+  - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [closed] · 2026-09-02 · _Refund, please ?_
   - [#8246](https://tbpro.zendesk.com/agent/tickets/8246) · [solved] · 2026-09-02 · _Refund please_
   - [#8283](https://tbpro.zendesk.com/agent/tickets/8283) · [solved] · 2026-09-02 · _Please may i have a refund_
   - [#8285](https://tbpro.zendesk.com/agent/tickets/8285) · [solved] · 2026-09-02 · _Cancel Thunderbird Pro Subscription/Refund_
@@ -213,15 +213,15 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 403
-- **closed**: 119
-- **pending**: 48
+- **solved**: 400
+- **closed**: 122
+- **pending**: 50
 - **hold**: 17
-- **open**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 331
+- **Account Hub**: 332
 - **Thundermail**: 215
 - **Send**: 14
 - **Appointment**: 8
@@ -234,7 +234,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 84
 - **change request** + **actioned**: 82
 - **confused** + **explained**: 38
-- **curious** + **informed**: 33
+- **curious** + **informed**: 34
 - **blocked** + **investigated**: 30
 - **request** + **redirected**: 24
 - **confused** + **informed**: 24
@@ -303,15 +303,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
   > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
 
-### Early bird signup — 3 tickets
-
-- **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
-  > I am ready to use this. I thought I had it complete. I was working on my PW and then I got a popup to get on the waiting list?
-- **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/ — why: **curious** · how: **informed**
-  > i have not enough explanation to anderstand your new product ans offer. tell me more .
-- **[#9311](https://tbpro.zendesk.com/agent/tickets/9311)** · I dont find the first sign up, would like to create a mail access — why: **confused** · how: **explained**
-  > how create a mail account invitation is already ok
-
 ### Aliases — 3 tickets
 
 - **[#9338](https://tbpro.zendesk.com/agent/tickets/9338)** · Trasnfer our domin to Thundermail — why: **curious** · how: **explained**
@@ -320,6 +311,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I have a current account as [email] - can I change it to [email]? How do I do that? Don't see a way to do it in the dashboard. Thanks.
 - **[#9325](https://tbpro.zendesk.com/agent/tickets/9325)** · I cant log in intro my email [email] — why: **blocked** · how: **explained**
   > I think I wrote the Password wrong for [email] on my Papers and can't log intro the email with it. I tried multiplical Versions of the Password but nothing works. Not only that,…
+
+### Early bird signup — 3 tickets
+
+- **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/ — why: **curious** · how: **informed**
+  > i have not enough explanation to anderstand your new product ans offer. tell me more .
+- **[#9311](https://tbpro.zendesk.com/agent/tickets/9311)** · I dont find the first sign up, would like to create a mail access — why: **confused** · how: **explained**
+  > how create a mail account invitation is already ok
+- **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
+  > I am ready to use this. I thought I had it complete. I was working on my PW and then I got a popup to get on the waiting list?
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
@@ -379,7 +379,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9295](https://tbpro.zendesk.com/agent/tickets/9295) · [hold] · 2026-09-29T20:52 · I got your Join The Early Bird Beta email but no authentication email received
 - [9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · 2026-09-29T21:30 · [stormbox] Stars misaligned in message list with blank message body 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
 - [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
-- [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [open] · 2026-09-29T22:42 · Signing up and signing in snafus
+- [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [pending] · 2026-09-29T22:42 · Signing up and signing in snafus
 - [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [pending] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
 - [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [pending] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
 - [9311](https://tbpro.zendesk.com/agent/tickets/9311) · [pending] · 2026-09-30T07:26 · I dont find the first sign up, would like to create a mail access
@@ -409,7 +409,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9028](https://tbpro.zendesk.com/agent/tickets/9028) · 2026-09-29T22:01 · not allowing to log in bad password
 - · [9011](https://tbpro.zendesk.com/agent/tickets/9011) · 2026-09-29T22:01 · I have seen some emails disappear from my accounts, what are the email backup size limitations,  are
 - · [8993](https://tbpro.zendesk.com/agent/tickets/8993) · 2026-09-29T22:01 · thundermail
-- · [9190](https://tbpro.zendesk.com/agent/tickets/9190) · 2026-09-29T22:26 · My Thunderbird stops all the time
 - · [8940](https://tbpro.zendesk.com/agent/tickets/8940) · 2026-09-29T23:01 · Subscription
 - · [9010](https://tbpro.zendesk.com/agent/tickets/9010) · 2026-09-30T00:01 · Use in my small business
 - 👍 [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-30T13:43 · set up forwarding from old email
