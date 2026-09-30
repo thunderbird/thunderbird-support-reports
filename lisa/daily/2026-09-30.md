@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 01:25 ET** · refreshes hourly_  
+_Updated: **2026-09-30 02:40 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **574 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **575 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **9** solved in last 24h
-- **574** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **9** solved in last 24h
+- **575** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -205,12 +205,12 @@ _(none in last 24h)_
 - **pending**: 40
 - **hold**: 11
 - **open**: 10
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 317
-- **Thundermail**: 209
+- **Thundermail**: 210
 - **Send**: 14
 - **Appointment**: 8
 
@@ -267,6 +267,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#9309](https://tbpro.zendesk.com/agent/tickets/9309)** · Cannot sign in.  Forgot user name and password.
+  > Could you provide my user name and password please?
+- **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
+  > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
+
 ### Webmail — 2 tickets
 
 - **[#9308](https://tbpro.zendesk.com/agent/tickets/9308)** · Webmail Login 2FA TOTP failed
@@ -278,11 +285,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9300](https://tbpro.zendesk.com/agent/tickets/9300)** · [Incomplete DKIM customer-initiated fix]
   > **Summary:** Incomplete DKIM and customer DNS prevents a thunderhosted-only fix (31) **Affected problems and platforms:** Select Thundermail users with custom domains **First…
-
-### Account access issues — 1 tickets
-
-- **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
-  > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -308,6 +310,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
 - [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [pending] · 2026-09-29T22:42 · Signing up and signing in snafus
 - [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [new] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
+- [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [new] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
 
 ## Solved — last 24h
 
