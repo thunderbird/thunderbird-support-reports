@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 00:29 ET** · refreshes hourly_  
+_Updated: **2026-09-30 01:25 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **573 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **574 tickets** so far (1.6% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **9** solved in last 24h
-- **573** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **9** solved in last 24h
+- **574** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (142 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -202,14 +202,15 @@ _(none in last 24h)_
 
 - **solved**: 402
 - **closed**: 110
-- **pending**: 41
+- **pending**: 40
 - **hold**: 11
-- **open**: 9
+- **open**: 10
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 317
-- **Thundermail**: 208
+- **Thundermail**: 209
 - **Send**: 14
 - **Appointment**: 8
 
@@ -266,6 +267,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 2 tickets
+
+- **[#9308](https://tbpro.zendesk.com/agent/tickets/9308)** · Webmail Login 2FA TOTP failed
+  > Trying to login to Webmail I get an error, Screenshot attached. Gui used is Hermit Lite App.
+- **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
+  > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#9300](https://tbpro.zendesk.com/agent/tickets/9300)** · [Incomplete DKIM customer-initiated fix]
@@ -291,11 +299,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9301](https://tbpro.zendesk.com/agent/tickets/9301)** · Signing up and signing in snafus — why: **blocked** · how: **explained**
   > I am ready to use this. I thought I had it complete. I was working on my PW and then I got a popup to get on the waiting list?
 
-### Webmail — 1 tickets
-
-- **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
-  > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
-
 ## New tickets — last 24h
 
 - [9294](https://tbpro.zendesk.com/agent/tickets/9294) · [open] · 2026-09-29T20:24 · I am unable send out new emails.
@@ -304,6 +307,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9299](https://tbpro.zendesk.com/agent/tickets/9299) · [open] · 2026-09-29T21:39 · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
 - [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
 - [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [pending] · 2026-09-29T22:42 · Signing up and signing in snafus
+- [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [new] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
 
 ## Solved — last 24h
 
