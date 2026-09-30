@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 17:23 ET** · refreshes hourly_  
+_Updated: **2026-09-30 18:24 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **596 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **595 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **27** new tickets in last 24h · **22** solved in last 24h
-- **596** tickets total since launch · contact rate **2%** of 35000 invitees
+- **26** new tickets in last 24h · **22** solved in last 24h
+- **595** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (144 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.1h · mean 164.6h (proxy: updated_at − created_at, 406 solved tickets)
+- **Median AHT**: 136.2h · mean 165.5h (proxy: updated_at − created_at, 403 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -213,11 +213,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 406
-- **closed**: 116
-- **pending**: 46
+- **solved**: 403
+- **closed**: 119
+- **pending**: 48
 - **hold**: 17
-- **open**: 11
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -237,8 +237,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 33
 - **blocked** + **investigated**: 30
 - **request** + **redirected**: 24
+- **confused** + **informed**: 24
 - **concerned** + **explained**: 23
-- **confused** + **informed**: 22
 - **blocked** + **redirected**: 16
 - **blocked** + **informed**: 14
 - **blocked** + **escalated**: 11
@@ -279,10 +279,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 5 tickets
 
-- **[#9335](https://tbpro.zendesk.com/agent/tickets/9335)** · Adding current email [email] as Primary email
-  > I need to: show current email [email] as my primary email address. How to bring Contact List from current email account over to Thundermail account?
 - **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11 — why: **blocked** · how: **redirected**
   > I have tried several times to download Thunderbird on my Windows 11 laptop. I never could get it to work. Been using Thunderbird for years and this is the first time I have had…
 - **[#9333](https://tbpro.zendesk.com/agent/tickets/9333)** · Thundermail address format — why: **curious** · how: **informed**
@@ -296,7 +294,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 4 tickets
 
-- **[#9326](https://tbpro.zendesk.com/agent/tickets/9326)** · logging in to thunderbird email
+- **[#9326](https://tbpro.zendesk.com/agent/tickets/9326)** · logging in to thunderbird email — why: **confused** · how: **informed**
   > It's rejecting my password and I am unable to log in
 - **[#9314](https://tbpro.zendesk.com/agent/tickets/9314)** · Request for cancellation and full refund — why: **change request** · how: **actioned**
   > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is…
@@ -335,11 +333,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9341](https://tbpro.zendesk.com/agent/tickets/9341)** · Migrating Google Calendar over
   > I would be transferring our Google Workspace account over to Thundermail. Is there a simple way to migrate the Google calendar information? Any other suggestions with migrating a…
 
-### Account creation / signup confusion — 1 tickets
-
-- **[#9334](https://tbpro.zendesk.com/agent/tickets/9334)** · Thundermail
-  > I signed up for iso thundermail yesterday. I am a user of Thunderbird. Completely lost on how to set up Thundermail
-
 ### Pricing — payment issue — 1 tickets
 
 - **[#9317](https://tbpro.zendesk.com/agent/tickets/9317)** · I don`t have money to pay [domain] — why: **concerned** · how: **explained**
@@ -354,6 +347,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9339](https://tbpro.zendesk.com/agent/tickets/9339)** · Sign up — why: **blocked** · how: **explained**
   > Hi, I'm on the waitlist and received an invitation to sign up. I made an email ([email]). It's says: You need to verify your email address to activate your account. I have to go…
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#9334](https://tbpro.zendesk.com/agent/tickets/9334)** · Thundermail — why: **confused** · how: **informed**
+  > I signed up for iso thundermail yesterday. I am a user of Thunderbird. Completely lost on how to set up Thundermail
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -393,14 +391,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30T11:20 · Refund
 - [9320](https://tbpro.zendesk.com/agent/tickets/9320) · [pending] · 2026-09-30T11:27 · Servers and support
 - [9325](https://tbpro.zendesk.com/agent/tickets/9325) · [pending] · 2026-09-30T13:00 · I cant log in intro my email [email]
-- [9326](https://tbpro.zendesk.com/agent/tickets/9326) · [open] · 2026-09-30T13:03 · logging in to thunderbird email
+- [9326](https://tbpro.zendesk.com/agent/tickets/9326) · [pending] · 2026-09-30T13:03 · logging in to thunderbird email
 - [9329](https://tbpro.zendesk.com/agent/tickets/9329) · [pending] · 2026-09-30T14:20 · 111
 - [9330](https://tbpro.zendesk.com/agent/tickets/9330) · [pending] · 2026-09-30T15:13 · change account to [domain]
 - [9331](https://tbpro.zendesk.com/agent/tickets/9331) · [pending] · 2026-09-30T15:47 · Payment
 - [9332](https://tbpro.zendesk.com/agent/tickets/9332) · [pending] · 2026-09-30T15:48 · Adding Comcast email 
 - [9333](https://tbpro.zendesk.com/agent/tickets/9333) · [pending] · 2026-09-30T15:49 · Thundermail address format
-- [9334](https://tbpro.zendesk.com/agent/tickets/9334) · [open] · 2026-09-30T15:50 · Thundermail
-- [9335](https://tbpro.zendesk.com/agent/tickets/9335) · [open] · 2026-09-30T15:55 · Adding current email [email] as Primary email
+- [9334](https://tbpro.zendesk.com/agent/tickets/9334) · [pending] · 2026-09-30T15:50 · Thundermail
 - [9338](https://tbpro.zendesk.com/agent/tickets/9338) · [pending] · 2026-09-30T18:11 · Trasnfer our domin to Thundermail
 - [9339](https://tbpro.zendesk.com/agent/tickets/9339) · [pending] · 2026-09-30T18:12 · Sign up
 - [9341](https://tbpro.zendesk.com/agent/tickets/9341) · [open] · 2026-09-30T19:14 · Migrating Google Calendar over
