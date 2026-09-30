@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 09:27 ET** · refreshes hourly_  
+_Updated: **2026-09-30 10:27 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **586 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **587 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **9 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **9** solved in last 24h
-- **586** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 93%  (142 good / 11 bad)
+- **20** new tickets in last 24h · **9** solved in last 24h
+- **587** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 93%  (143 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.1h · mean 164.6h (proxy: updated_at − created_at, 402 solved tickets)
+- **Median AHT**: 136.1h · mean 164.9h (proxy: updated_at − created_at, 401 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"after subscribing realized"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
+- **"connecting existing smtp"** — 2 tickets in 24h (new; baseline 0 cum) — [#9312](https://tbpro.zendesk.com/agent/tickets/9312), [#9314](https://tbpro.zendesk.com/agent/tickets/9314)
 - **"steps reproduce"** — 2 tickets in 24h (25.5× baseline; baseline 4 cum) — [#9298](https://tbpro.zendesk.com/agent/tickets/9298), [#9300](https://tbpro.zendesk.com/agent/tickets/9300)
 
 ## Known problems — 9 problem(s), 69 incident(s)
@@ -125,7 +125,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · [stormbox] Stars misaligned in message list with blank message body
 - 🔧 GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
 - 1 incident(s):
-  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [open] · 2026-09-26 · _featured off-site messages_
+  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [hold] · 2026-09-26 · _featured off-site messages_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
@@ -208,16 +208,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 402
-- **closed**: 110
-- **pending**: 33
-- **open**: 20
-- **hold**: 11
-- **new**: 10
+- **solved**: 401
+- **closed**: 111
+- **pending**: 32
+- **open**: 19
+- **hold**: 13
+- **new**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 324
+- **Account Hub**: 325
 - **Thundermail**: 213
 - **Send**: 14
 - **Appointment**: 8
@@ -275,6 +275,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 5 tickets
+
+- **[#9329](https://tbpro.zendesk.com/agent/tickets/9329)** · 111
+  > 111
+- **[#9320](https://tbpro.zendesk.com/agent/tickets/9320)** · Servers and support
+  > Hello [name] are your servers and what is your support promise?
+- **[#9317](https://tbpro.zendesk.com/agent/tickets/9317)** · I don`t have money to pay [domain]
+  > Hi [name] for my english language but I dont have money to pay my account [email] ,can you wait to 15 november, then I will have money???
+- **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/
+  > i have not enough explanation to anderstand your new product ans offer. tell me more .
+- **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11
+  > I have tried several times to download Thunderbird on my Windows 11 laptop. I never could get it to work. Been using Thunderbird for years and this is the first time I have had…
+
 ### Account access issues — 4 tickets
 
 - **[#9326](https://tbpro.zendesk.com/agent/tickets/9326)** · logging in to thunderbird email
@@ -285,17 +298,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Could you provide my user name and password please?
 - **[#9299](https://tbpro.zendesk.com/agent/tickets/9299)** · Request for receipt/invoice - Thunderbird payment 6 Aug 2026
   > Hello, I made a payment that appears on my card statement as "THUNDERBIRD EMAIL, 447 Sutter St, Ste 405, San Francisco" on 8 August 2026, in the amount of 432 CZK. I need a formal…
-
-### Other / uncategorized — 4 tickets
-
-- **[#9320](https://tbpro.zendesk.com/agent/tickets/9320)** · Servers and support
-  > Hello [name] are your servers and what is your support promise?
-- **[#9317](https://tbpro.zendesk.com/agent/tickets/9317)** · I don`t have money to pay [domain]
-  > Hi [name] for my english language but I dont have money to pay my account [email] ,can you wait to 15 november, then I will have money???
-- **[#9316](https://tbpro.zendesk.com/agent/tickets/9316)** · https://[domain]/
-  > i have not enough explanation to anderstand your new product ans offer. tell me more .
-- **[#9315](https://tbpro.zendesk.com/agent/tickets/9315)** · WINDOWS 11
-  > I have tried several times to download Thunderbird on my Windows 11 laptop. I never could get it to work. Been using Thunderbird for years and this is the first time I have had…
 
 ### Webmail — 4 tickets
 
@@ -358,18 +360,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9320](https://tbpro.zendesk.com/agent/tickets/9320) · [new] · 2026-09-30T11:27 · Servers and support
 - [9325](https://tbpro.zendesk.com/agent/tickets/9325) · [new] · 2026-09-30T13:00 · I cant log in intro my email [email]
 - [9326](https://tbpro.zendesk.com/agent/tickets/9326) · [new] · 2026-09-30T13:03 · logging in to thunderbird email
+- [9329](https://tbpro.zendesk.com/agent/tickets/9329) · [new] · 2026-09-30T14:20 · 111
 
 ## Solved — last 24h
 
 - · [9035](https://tbpro.zendesk.com/agent/tickets/9035) · 2026-09-29T21:02 · Regarding subscription Fwd: Thinking of a new beginning
 - 👍 [9021](https://tbpro.zendesk.com/agent/tickets/9021) · 2026-09-29T21:29 · Thundermail signup
-- · [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-29T22:01 · set up forwarding from old email
 - · [9028](https://tbpro.zendesk.com/agent/tickets/9028) · 2026-09-29T22:01 · not allowing to log in bad password
 - · [9011](https://tbpro.zendesk.com/agent/tickets/9011) · 2026-09-29T22:01 · I have seen some emails disappear from my accounts, what are the email backup size limitations,  are
 - · [8993](https://tbpro.zendesk.com/agent/tickets/8993) · 2026-09-29T22:01 · thundermail
 - · [9190](https://tbpro.zendesk.com/agent/tickets/9190) · 2026-09-29T22:26 · My Thunderbird stops all the time
 - · [8940](https://tbpro.zendesk.com/agent/tickets/8940) · 2026-09-29T23:01 · Subscription
 - · [9010](https://tbpro.zendesk.com/agent/tickets/9010) · 2026-09-30T00:01 · Use in my small business
+- 👍 [9016](https://tbpro.zendesk.com/agent/tickets/9016) · 2026-09-30T13:43 · set up forwarding from old email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
