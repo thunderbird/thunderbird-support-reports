@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 12:25 ET** · refreshes hourly_  
+_Updated: **2026-10-01 13:22 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **610 tickets** so fa
 
 ## At a glance
 
-- **17** new tickets in last 24h · **7** solved in last 24h
+- **17** new tickets in last 24h · **11** solved in last 24h
 - **610** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (7 good / 0 bad)
 - **CSAT (since launch)**: 93%  (146 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 165.7h (proxy: updated_at − created_at, 398 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 71
+- **Median AHT**: 136.2h · mean 166.6h (proxy: updated_at − created_at, 398 solved tickets)
 
-## Known problems — 10 problem(s), 74 incident(s)
+## Known problems — 10 problem(s), 75 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 3 incident(s):
@@ -30,7 +30,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **610 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 61 incident(s):
+- 62 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -92,6 +92,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **610 tickets** so fa
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [pending] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30 · _Refund_
+  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [pending] · 2026-10-01 · _Delete account and subscription_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -195,22 +196,23 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Merge duplicate contacts](https://ideas.tb.pro/p/merge-duplicate-contacts) · 1 votes · _untagged_
+  > Ability to merge duplicate contactsI have three separate email addresses that belong to the same person. I request the ability to merge those addresses under the same person. Why it mattersI think it…
 
 ## Status breakdown (cumulative)
 
 - **solved**: 398
 - **closed**: 128
-- **pending**: 49
-- **open**: 20
-- **hold**: 15
+- **pending**: 54
+- **open**: 17
+- **hold**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 336
-- **Thundermail**: 222
+- **Account Hub**: 337
+- **Thundermail**: 221
 - **Send**: 14
 - **Appointment**: 8
 
@@ -218,16 +220,16 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 132
+- **curious** + **explained**: 133
 - **blocked** + **explained**: 84
-- **change request** + **actioned**: 82
+- **change request** + **actioned**: 83
 - **confused** + **explained**: 38
 - **curious** + **informed**: 35
 - **blocked** + **investigated**: 30
+- **confused** + **informed**: 25
 - **request** + **redirected**: 24
-- **confused** + **informed**: 24
 - **concerned** + **explained**: 23
-- **blocked** + **redirected**: 16
+- **blocked** + **redirected**: 17
 - **blocked** + **informed**: 14
 - **blocked** + **escalated**: 11
 - **concerned** + **—**: 7
@@ -244,10 +246,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
+- **curious** + **investigated**: 2
 - **confused** + **—**: 2
 - **change request** + **investigated**: 2
 - **concerned** + **redirected**: 2
-- **curious** + **investigated**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
@@ -268,7 +270,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 4 tickets
 
 - **[#9368](https://tbpro.zendesk.com/agent/tickets/9368)** · Precio 
   > El precio no era por 72 USD SI no de al rededor de 109 MXN
@@ -276,9 +278,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > How many accounts does one subscription allow me to have?
 - **[#9363](https://tbpro.zendesk.com/agent/tickets/9363)** · FW:Re: Morning crew at our property today
   > This is an email abuse report for an email message from [domain] on Tue, 29 Sep 2026 15:00:30 +0000
-- **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
-  > mots de passe oublier
-- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
+- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER — why: **blocked** · how: **redirected**
   > OUVRIR MON COURRIER SANS MOT DE PASSE
 
 ### Account access issues — 2 tickets
@@ -304,9 +304,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Privacy / data / jurisdiction concerns — 2 tickets
 
-- **[#9357](https://tbpro.zendesk.com/agent/tickets/9357)** · Money Back Option
+- **[#9357](https://tbpro.zendesk.com/agent/tickets/9357)** · Money Back Option — why: **curious** · how: **explained**
   > Is there money back option if I want to opt out after testing thunderbird pro for a few days? Unless we get a feel of the whole email system, I'm unable to decide. For me, email…
-- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription
+- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription — why: **change request** · how: **actioned**
   > I don´t need your service, please delete account and subscription.
 
 ### Pricing / monthly plan / free tier — 1 tickets
@@ -329,6 +329,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9342](https://tbpro.zendesk.com/agent/tickets/9342)** · Can't access Thundermail, but you have my money — why: **blocked** · how: **explained**
   > Please walk me through activating the new account.
 
+### Webmail — 1 tickets
+
+- **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe — why: **confused** · how: **informed**
+  > mots de passe oublier
+
 ## New tickets — last 24h
 
 - [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [pending] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
@@ -337,9 +342,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [open] · 2026-09-30T23:37 · Long term pricing and commitment
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [open] · 2026-10-01T00:26 · Account Deletion
 - [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
-- [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [open] · 2026-10-01T07:33 · ACCES A MON COURRIER
-- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [open] · 2026-10-01T09:00 · Delete account and subscription
-- [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [open] · 2026-10-01T09:08 · mots de passe
+- [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [pending] · 2026-10-01T07:33 · ACCES A MON COURRIER
+- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [pending] · 2026-10-01T09:00 · Delete account and subscription
+- [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [pending] · 2026-10-01T09:08 · mots de passe
 - [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [open] · 2026-10-01T09:32 · Additional year of the subscription
 - [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [open] · 2026-10-01T10:25 · Money Back Option
 - [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [pending] · 2026-10-01T11:15 · Email addresses
@@ -358,6 +363,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9261](https://tbpro.zendesk.com/agent/tickets/9261) · 2026-10-01T16:02 · Emails sent from thundermail are not delivered to Gmail mailboxes
 - · [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-01T16:12 · Thundermail Account
 - 👍 [9278](https://tbpro.zendesk.com/agent/tickets/9278) · 2026-10-01T16:22 · Cannot receive email in ios
+- · [8607](https://tbpro.zendesk.com/agent/tickets/8607) · 2026-10-01T16:57 · je me souvien plus du mots de passe principal
+- · [9294](https://tbpro.zendesk.com/agent/tickets/9294) · 2026-10-01T17:01 · I am unable send out new emails.
+- · [9285](https://tbpro.zendesk.com/agent/tickets/9285) · 2026-10-01T17:02 · Couldn't finish the setup of my early bird subscription
+- · [9024](https://tbpro.zendesk.com/agent/tickets/9024) · 2026-10-01T17:02 · Thunderbird Desktop and Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
