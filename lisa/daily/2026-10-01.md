@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 05:29 ET** · refreshes hourly_  
+_Updated: **2026-10-01 06:25 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **602 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **603 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **3** solved in last 24h
-- **602** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **3** solved in last 24h
+- **603** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -206,11 +206,11 @@ _(none in last 24h)_
 - **pending**: 44
 - **hold**: 16
 - **open**: 13
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 332
+- **Account Hub**: 333
 - **Thundermail**: 219
 - **Send**: 14
 - **Appointment**: 8
@@ -268,6 +268,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#9349](https://tbpro.zendesk.com/agent/tickets/9349)** · Account Deletion — why: **request** · how: **explained**
+  > I would like to cancel my subscription and delete my account.
+- **[#9355](https://tbpro.zendesk.com/agent/tickets/9355)** · Additional year of the subscription
+  > Hello, I’ve already paid for a year of Thundermail, but once I have the funds, can I purchase an additional year of the subscription?
+
 ### Other / uncategorized — 2 tickets
 
 - **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
@@ -279,11 +286,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9350](https://tbpro.zendesk.com/agent/tickets/9350)** · Subscriptpion stuck a verifying email address
   > I assume the email address to verify is the one noted above. If not, where do I look?
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9349](https://tbpro.zendesk.com/agent/tickets/9349)** · Account Deletion — why: **request** · how: **explained**
-  > I would like to cancel my subscription and delete my account.
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -321,6 +323,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [new] · 2026-10-01T07:33 · ACCES A MON COURRIER
 - [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [new] · 2026-10-01T09:00 · Delete account and subscription
 - [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [new] · 2026-10-01T09:08 · mots de passe
+- [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [new] · 2026-10-01T09:32 · Additional year of the subscription
 
 ## Solved — last 24h
 
