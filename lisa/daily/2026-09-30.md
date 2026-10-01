@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 21:10 ET** · refreshes hourly_  
+_Updated: **2026-09-30 22:40 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 52** of rollout — **35,000 invitees**, **599 tickets** so fa
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (144 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 165.9h (proxy: updated_at − created_at, 397 solved tickets)
+- **Median AHT**: 136.2h · mean 166.0h (proxy: updated_at − created_at, 394 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -212,11 +212,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 397
-- **closed**: 125
-- **pending**: 50
+- **solved**: 394
+- **closed**: 128
+- **pending**: 49
 - **hold**: 16
-- **open**: 8
+- **open**: 9
 - **new**: 3
 
 ## Service (cumulative)
@@ -294,12 +294,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 4 tickets
 
+- **[#9308](https://tbpro.zendesk.com/agent/tickets/9308)** · Webmail Login 2FA TOTP failed — why: **blocked** · how: **investigated**
+  > Trying to login to Webmail I get an error, Screenshot attached. Gui used is Hermit Lite App.
 - **[#9326](https://tbpro.zendesk.com/agent/tickets/9326)** · logging in to thunderbird email — why: **confused** · how: **informed**
   > It's rejecting my password and I am unable to log in
 - **[#9314](https://tbpro.zendesk.com/agent/tickets/9314)** · Request for cancellation and full refund — why: **change request** · how: **actioned**
   > Hello, I subscribed to Thundermail today, but after subscribing I realized that Thundermail Webmail does not support connecting my existing email account via POP3/SMTP, which is…
-- **[#9308](https://tbpro.zendesk.com/agent/tickets/9308)** · Webmail Login 2FA TOTP failed — why: **blocked** · how: **investigated**
-  > Trying to login to Webmail I get an error, Screenshot attached. Gui used is Hermit Lite App.
 - **[#9298](https://tbpro.zendesk.com/agent/tickets/9298)** · [stormbox] Stars misaligned in message list with blank message body — why: **change request** · how: **investigated** · 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
   > **Summary:** When marking a message in webmail as starred and there is no message body, the star appears in the correct position, but when opening the starred message, the star…
 
@@ -380,7 +380,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · 2026-09-29T21:30 · [stormbox] Stars misaligned in message list with blank message body 🔗 [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202)
 - [9300](https://tbpro.zendesk.com/agent/tickets/9300) · [open] · 2026-09-29T22:02 · [Incomplete DKIM customer-initiated fix]
 - [9301](https://tbpro.zendesk.com/agent/tickets/9301) · [pending] · 2026-09-29T22:42 · Signing up and signing in snafus
-- [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [pending] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
+- [9308](https://tbpro.zendesk.com/agent/tickets/9308) · [open] · 2026-09-30T05:04 · Webmail Login 2FA TOTP failed
 - [9309](https://tbpro.zendesk.com/agent/tickets/9309) · [pending] · 2026-09-30T06:38 · Cannot sign in.  Forgot user name and password.
 - [9311](https://tbpro.zendesk.com/agent/tickets/9311) · [pending] · 2026-09-30T07:26 · I dont find the first sign up, would like to create a mail access
 - [9314](https://tbpro.zendesk.com/agent/tickets/9314) · [pending] · 2026-09-30T07:59 · Request for cancellation and full refund
