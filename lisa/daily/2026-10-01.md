@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 15:22 ET** · refreshes hourly_  
+_Updated: **2026-10-01 16:26 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -129,7 +129,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **612 tickets** so fa
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 2 incident(s):
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
-  - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
+  - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
@@ -209,13 +209,13 @@ _(none in last 24h)_
 - **solved**: 397
 - **closed**: 129
 - **pending**: 62
-- **open**: 12
-- **hold**: 12
+- **hold**: 13
+- **open**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 340
-- **Thundermail**: 220
+- **Account Hub**: 341
+- **Thundermail**: 219
 - **Send**: 14
 - **Appointment**: 8
 
@@ -223,7 +223,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 135
+- **curious** + **explained**: 136
 - **blocked** + **explained**: 84
 - **change request** + **actioned**: 84
 - **confused** + **explained**: 40
@@ -273,8 +273,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Pricing — general pricing concern — 3 tickets
+### Pricing — general pricing concern — 4 tickets
 
+- **[#9346](https://tbpro.zendesk.com/agent/tickets/9346)** · Long term pricing and commitment — why: **curious** · how: **explained**
+  > I'm in the 14 day evaluation time period. I'm having difficulty deciding if I want to make the commitment and adjustment to thundermail if the beta of $6/mo is just introductory…
 - **[#9345](https://tbpro.zendesk.com/agent/tickets/9345)** · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo? — why: **curious** · how: **informed**
   > He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
 - **[#9371](https://tbpro.zendesk.com/agent/tickets/9371)** · try thunderbird — why: **curious** · how: **explained**
@@ -317,11 +319,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription — why: **change request** · how: **actioned**
   > I don´t need your service, please delete account and subscription.
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#9346](https://tbpro.zendesk.com/agent/tickets/9346)** · Long term pricing and commitment
-  > I'm in the 14 day evaluation time period. I'm having difficulty deciding if I want to make the commitment and adjustment to thundermail if the beta of $6/mo is just introductory…
-
 ### Early bird signup — 1 tickets
 
 - **[#9343](https://tbpro.zendesk.com/agent/tickets/9343)** · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup — why: **confused**
@@ -352,7 +349,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [pending] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
 - [9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · 2026-09-30T20:27 · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks 
 - [9345](https://tbpro.zendesk.com/agent/tickets/9345) · [pending] · 2026-09-30T22:25 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
-- [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [open] · 2026-09-30T23:37 · Long term pricing and commitment
+- [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [pending] · 2026-09-30T23:37 · Long term pricing and commitment
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01T00:26 · Account Deletion
 - [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [pending] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
 - [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [pending] · 2026-10-01T07:33 · ACCES A MON COURRIER
