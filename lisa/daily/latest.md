@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 17:22 ET** · refreshes hourly_  
+_Updated: **2026-10-01 18:22 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **613 tickets** so fa
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (147 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 71
-- **Median AHT**: 136.4h · mean 167.2h (proxy: updated_at − created_at, 390 solved tickets)
+- **Median AHT**: 136.4h · mean 167.9h (proxy: updated_at − created_at, 388 solved tickets)
 
 ## Known problems — 10 problem(s), 77 incident(s)
 
@@ -109,7 +109,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **613 tickets** so fa
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [pending] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -206,16 +206,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 390
-- **closed**: 136
-- **pending**: 63
-- **open**: 12
-- **hold**: 12
+- **solved**: 388
+- **closed**: 138
+- **pending**: 65
+- **hold**: 13
+- **open**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 342
-- **Thundermail**: 219
+- **Thundermail**: 218
 - **Send**: 14
 - **Appointment**: 8
 
@@ -223,7 +223,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 136
+- **curious** + **explained**: 137
 - **blocked** + **explained**: 84
 - **change request** + **actioned**: 84
 - **confused** + **explained**: 40
@@ -255,9 +255,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
+- **request** + **informed**: 2
 - **telling us** + **n/a**: 2
-- **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
+- **telling us** + **—**: 2
 - **curious** + **escalated**: 1
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
@@ -265,7 +266,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **—**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
-- **request** + **informed**: 1
 - **other** + **escalated**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
@@ -331,7 +331,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#9372](https://tbpro.zendesk.com/agent/tickets/9372)** · Hello
+- **[#9372](https://tbpro.zendesk.com/agent/tickets/9372)** · Hello — why: **curious** · how: **explained**
   > Hello i received my invite link and registered email but i didnt pay for subscription because i didnt have money so i recived another email that account will be deleted after 5…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
@@ -364,7 +364,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9367](https://tbpro.zendesk.com/agent/tickets/9367) · [pending] · 2026-10-01T15:18 · Failed to add a email aliase
 - [9368](https://tbpro.zendesk.com/agent/tickets/9368) · [pending] · 2026-10-01T15:51 · Precio 
 - [9371](https://tbpro.zendesk.com/agent/tickets/9371) · [pending] · 2026-10-01T17:34 · try thunderbird
-- [9372](https://tbpro.zendesk.com/agent/tickets/9372) · [open] · 2026-10-01T17:35 · Hello
+- [9372](https://tbpro.zendesk.com/agent/tickets/9372) · [pending] · 2026-10-01T17:35 · Hello
 
 ## Solved — last 24h
 
