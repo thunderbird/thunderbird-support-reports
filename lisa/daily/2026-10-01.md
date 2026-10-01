@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 03:33 ET** · refreshes hourly_  
+_Updated: **2026-10-01 04:34 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **599 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **600 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
-- **599** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
-- **CSAT (since launch)**: 93%  (144 good / 11 bad)
+- **7** new tickets in last 24h · **3** solved in last 24h
+- **600** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 165.8h (proxy: updated_at − created_at, 397 solved tickets)
+- **Median AHT**: 136.3h · mean 166.1h (proxy: updated_at − created_at, 396 solved tickets)
 
 ## Known problems — 10 problem(s), 74 incident(s)
 
@@ -201,12 +201,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 397
+- **solved**: 396
 - **closed**: 128
-- **pending**: 46
+- **pending**: 45
 - **hold**: 16
-- **open**: 10
-- **new**: 2
+- **open**: 12
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -245,10 +245,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
+- **concerned** + **redirected**: 2
 - **curious** + **investigated**: 2
 - **confused** + **—**: 2
 - **change request** + **investigated**: 2
-- **concerned** + **redirected**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
@@ -298,6 +298,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9343](https://tbpro.zendesk.com/agent/tickets/9343)** · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup — why: **confused**
   > - **Summary:** An account can get a mail principal created before it's fully provisioned. When that account is later removed, a leftover record can block a fresh signup with the…
 
+### Other / uncategorized — 1 tickets
+
+- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
+  > OUVRIR MON COURRIER SANS MOT DE PASSE
+
 ## New tickets — last 24h
 
 - [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [open] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
@@ -306,10 +311,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [new] · 2026-09-30T23:37 · Long term pricing and commitment
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [open] · 2026-10-01T00:26 · Account Deletion
 - [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [new] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
+- [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [new] · 2026-10-01T07:33 · ACCES A MON COURRIER
 
 ## Solved — last 24h
 
-- · [9190](https://tbpro.zendesk.com/agent/tickets/9190) · 2026-09-30T23:01 · My Thunderbird stops all the time
 - · [9154](https://tbpro.zendesk.com/agent/tickets/9154) · 2026-10-01T04:01 · No free option no iPhone app 
 - · [9082](https://tbpro.zendesk.com/agent/tickets/9082) · 2026-10-01T04:01 · パスワードを忘れた
 - 👍 [9072](https://tbpro.zendesk.com/agent/tickets/9072) · 2026-10-01T04:07 · second thundermail account login problem
