@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 10:27 ET** · refreshes hourly_  
+_Updated: **2026-10-01 11:24 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **608 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **609 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **4** solved in last 24h
-- **608** tickets total since launch · contact rate **2%** of 35000 invitees
+- **16** new tickets in last 24h · **4** solved in last 24h
+- **609** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -22,7 +22,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **608 tickets** so fa
 - 3 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
-  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [hold] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -203,15 +203,15 @@ _(none in last 24h)_
 
 - **solved**: 397
 - **closed**: 128
-- **pending**: 42
-- **open**: 19
-- **hold**: 16
-- **new**: 6
+- **pending**: 48
+- **open**: 17
+- **hold**: 15
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 335
-- **Thundermail**: 220
+- **Thundermail**: 221
 - **Send**: 14
 - **Appointment**: 8
 
@@ -223,7 +223,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 84
 - **change request** + **actioned**: 82
 - **confused** + **explained**: 38
-- **curious** + **informed**: 34
+- **curious** + **informed**: 35
 - **blocked** + **investigated**: 30
 - **request** + **redirected**: 24
 - **confused** + **informed**: 24
@@ -245,10 +245,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
-- **curious** + **investigated**: 2
 - **confused** + **—**: 2
 - **change request** + **investigated**: 2
 - **concerned** + **redirected**: 2
+- **curious** + **investigated**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
@@ -307,11 +307,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9346](https://tbpro.zendesk.com/agent/tickets/9346)** · Long term pricing and commitment
   > I'm in the 14 day evaluation time period. I'm having difficulty deciding if I want to make the commitment and adjustment to thundermail if the beta of $6/mo is just introductory…
 
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9342](https://tbpro.zendesk.com/agent/tickets/9342)** · Can't access Thundermail, but you have my money — why: **blocked** · how: **explained**
-  > Please walk me through activating the new account.
-
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#9345](https://tbpro.zendesk.com/agent/tickets/9345)** · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo? — why: **curious** · how: **informed**
@@ -322,9 +317,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9343](https://tbpro.zendesk.com/agent/tickets/9343)** · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup — why: **confused**
   > - **Summary:** An account can get a mail principal created before it's fully provisioned. When that account is later removed, a leftover record can block a fresh signup with the…
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#9342](https://tbpro.zendesk.com/agent/tickets/9342)** · Can't access Thundermail, but you have my money — why: **blocked** · how: **explained**
+  > Please walk me through activating the new account.
+
+### Aliases — 1 tickets
+
+- **[#9367](https://tbpro.zendesk.com/agent/tickets/9367)** · Failed to add a email aliase
+  > I tried to add an email alias and got stuck to the stage where DNS record must be added the domain information managed at Godaddy. For the SRV type records the Godaddy form…
+
 ## New tickets — last 24h
 
-- [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [open] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
+- [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [pending] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
 - [9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · 2026-09-30T20:27 · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks 
 - [9345](https://tbpro.zendesk.com/agent/tickets/9345) · [pending] · 2026-09-30T22:25 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
 - [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [new] · 2026-09-30T23:37 · Long term pricing and commitment
@@ -333,12 +338,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [open] · 2026-10-01T07:33 · ACCES A MON COURRIER
 - [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [open] · 2026-10-01T09:00 · Delete account and subscription
 - [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [open] · 2026-10-01T09:08 · mots de passe
-- [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [new] · 2026-10-01T09:32 · Additional year of the subscription
-- [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [new] · 2026-10-01T10:25 · Money Back Option
-- [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [new] · 2026-10-01T11:15 · Email addresses
+- [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [open] · 2026-10-01T09:32 · Additional year of the subscription
+- [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [open] · 2026-10-01T10:25 · Money Back Option
+- [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [open] · 2026-10-01T11:15 · Email addresses
 - [9361](https://tbpro.zendesk.com/agent/tickets/9361) · [new] · 2026-10-01T12:07 · fumbled password
 - [9363](https://tbpro.zendesk.com/agent/tickets/9363) · [open] · 2026-10-01T12:49 · FW:Re: Morning crew at our property today
 - [9366](https://tbpro.zendesk.com/agent/tickets/9366) · [new] · 2026-10-01T14:25 · Number of accounts
+- [9367](https://tbpro.zendesk.com/agent/tickets/9367) · [new] · 2026-10-01T15:18 · Failed to add a email aliase
 
 ## Solved — last 24h
 
