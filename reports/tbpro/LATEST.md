@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 09:29 ET** · refreshes hourly_  
+_Updated: **2026-10-01 10:27 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **607 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **608 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **3** solved in last 24h
-- **607** tickets total since launch · contact rate **2%** of 35000 invitees
+- **15** new tickets in last 24h · **4** solved in last 24h
+- **608** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.3h · mean 166.1h (proxy: updated_at − created_at, 396 solved tickets)
+- **Median AHT**: 136.2h · mean 165.9h (proxy: updated_at − created_at, 397 solved tickets)
 
 ## Known problems — 10 problem(s), 74 incident(s)
 
@@ -201,16 +201,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 396
+- **solved**: 397
 - **closed**: 128
-- **pending**: 44
-- **open**: 18
+- **pending**: 42
+- **open**: 19
 - **hold**: 16
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 334
+- **Account Hub**: 335
 - **Thundermail**: 220
 - **Send**: 14
 - **Appointment**: 8
@@ -245,10 +245,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
-- **concerned** + **redirected**: 2
 - **curious** + **investigated**: 2
 - **confused** + **—**: 2
 - **change request** + **investigated**: 2
+- **concerned** + **redirected**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **n/a**: 2
@@ -268,8 +268,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#9366](https://tbpro.zendesk.com/agent/tickets/9366)** · Number of accounts
+  > How many accounts does one subscription allow me to have?
 - **[#9363](https://tbpro.zendesk.com/agent/tickets/9363)** · FW:Re: Morning crew at our property today
   > This is an email abuse report for an email message from [domain] on Tue, 29 Sep 2026 15:00:30 +0000
 - **[#9359](https://tbpro.zendesk.com/agent/tickets/9359)** · Email addresses
@@ -336,12 +338,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [new] · 2026-10-01T11:15 · Email addresses
 - [9361](https://tbpro.zendesk.com/agent/tickets/9361) · [new] · 2026-10-01T12:07 · fumbled password
 - [9363](https://tbpro.zendesk.com/agent/tickets/9363) · [open] · 2026-10-01T12:49 · FW:Re: Morning crew at our property today
+- [9366](https://tbpro.zendesk.com/agent/tickets/9366) · [new] · 2026-10-01T14:25 · Number of accounts
 
 ## Solved — last 24h
 
 - · [9154](https://tbpro.zendesk.com/agent/tickets/9154) · 2026-10-01T04:01 · No free option no iPhone app 
 - · [9082](https://tbpro.zendesk.com/agent/tickets/9082) · 2026-10-01T04:01 · パスワードを忘れた
 - 👍 [9072](https://tbpro.zendesk.com/agent/tickets/9072) · 2026-10-01T04:07 · second thundermail account login problem
+- 👍 [9190](https://tbpro.zendesk.com/agent/tickets/9190) · 2026-10-01T14:13 · My Thunderbird stops all the time
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
