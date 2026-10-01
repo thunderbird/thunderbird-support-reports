@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 04:34 ET** · refreshes hourly_  
+_Updated: **2026-10-01 05:29 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **600 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **602 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **3** solved in last 24h
-- **600** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **3** solved in last 24h
+- **602** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -203,15 +203,15 @@ _(none in last 24h)_
 
 - **solved**: 396
 - **closed**: 128
-- **pending**: 45
+- **pending**: 44
 - **hold**: 16
-- **open**: 12
-- **new**: 3
+- **open**: 13
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 332
-- **Thundermail**: 218
+- **Thundermail**: 219
 - **Send**: 14
 - **Appointment**: 8
 
@@ -268,6 +268,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
+  > mots de passe oublier
+- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
+  > OUVRIR MON COURRIER SANS MOT DE PASSE
+
 ### Account access issues — 1 tickets
 
 - **[#9350](https://tbpro.zendesk.com/agent/tickets/9350)** · Subscriptpion stuck a verifying email address
@@ -298,10 +305,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9343](https://tbpro.zendesk.com/agent/tickets/9343)** · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup — why: **confused**
   > - **Summary:** An account can get a mail principal created before it's fully provisioned. When that account is later removed, a leftover record can block a fresh signup with the…
 
-### Other / uncategorized — 1 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
-  > OUVRIR MON COURRIER SANS MOT DE PASSE
+- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription
+  > I don´t need your service, please delete account and subscription.
 
 ## New tickets — last 24h
 
@@ -312,6 +319,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [open] · 2026-10-01T00:26 · Account Deletion
 - [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [new] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
 - [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [new] · 2026-10-01T07:33 · ACCES A MON COURRIER
+- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [new] · 2026-10-01T09:00 · Delete account and subscription
+- [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [new] · 2026-10-01T09:08 · mots de passe
 
 ## Solved — last 24h
 
