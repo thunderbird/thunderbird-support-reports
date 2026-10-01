@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 08:36 ET** · refreshes hourly_  
+_Updated: **2026-10-01 09:29 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **606 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **607 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **3** solved in last 24h
-- **606** tickets total since launch · contact rate **2%** of 35000 invitees
+- **14** new tickets in last 24h · **3** solved in last 24h
+- **607** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -204,9 +204,9 @@ _(none in last 24h)_
 - **solved**: 396
 - **closed**: 128
 - **pending**: 44
+- **open**: 18
 - **hold**: 16
-- **open**: 13
-- **new**: 9
+- **new**: 5
 
 ## Service (cumulative)
 
@@ -268,8 +268,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#9363](https://tbpro.zendesk.com/agent/tickets/9363)** · FW:Re: Morning crew at our property today
+  > This is an email abuse report for an email message from [domain] on Tue, 29 Sep 2026 15:00:30 +0000
 - **[#9359](https://tbpro.zendesk.com/agent/tickets/9359)** · Email addresses
   > Can the primary email address be changed?
 - **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
@@ -325,14 +327,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9345](https://tbpro.zendesk.com/agent/tickets/9345) · [pending] · 2026-09-30T22:25 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
 - [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [new] · 2026-09-30T23:37 · Long term pricing and commitment
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [open] · 2026-10-01T00:26 · Account Deletion
-- [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [new] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
-- [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [new] · 2026-10-01T07:33 · ACCES A MON COURRIER
-- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [new] · 2026-10-01T09:00 · Delete account and subscription
-- [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [new] · 2026-10-01T09:08 · mots de passe
+- [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
+- [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [open] · 2026-10-01T07:33 · ACCES A MON COURRIER
+- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [open] · 2026-10-01T09:00 · Delete account and subscription
+- [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [open] · 2026-10-01T09:08 · mots de passe
 - [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [new] · 2026-10-01T09:32 · Additional year of the subscription
 - [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [new] · 2026-10-01T10:25 · Money Back Option
 - [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [new] · 2026-10-01T11:15 · Email addresses
 - [9361](https://tbpro.zendesk.com/agent/tickets/9361) · [new] · 2026-10-01T12:07 · fumbled password
+- [9363](https://tbpro.zendesk.com/agent/tickets/9363) · [open] · 2026-10-01T12:49 · FW:Re: Morning crew at our property today
 
 ## Solved — last 24h
 
