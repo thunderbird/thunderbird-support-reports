@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 11:24 ET** · refreshes hourly_  
+_Updated: **2026-10-01 12:25 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **609 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **610 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **4** solved in last 24h
-- **609** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (6 good / 0 bad)
-- **CSAT (since launch)**: 93%  (145 good / 11 bad)
+- **17** new tickets in last 24h · **7** solved in last 24h
+- **610** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (7 good / 0 bad)
+- **CSAT (since launch)**: 93%  (146 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.2h · mean 165.9h (proxy: updated_at − created_at, 397 solved tickets)
+- **Median AHT**: 136.2h · mean 165.7h (proxy: updated_at − created_at, 398 solved tickets)
 
 ## Known problems — 10 problem(s), 74 incident(s)
 
@@ -201,17 +201,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 397
+- **solved**: 398
 - **closed**: 128
-- **pending**: 48
-- **open**: 17
+- **pending**: 49
+- **open**: 20
 - **hold**: 15
-- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 335
-- **Thundermail**: 221
+- **Account Hub**: 336
+- **Thundermail**: 222
 - **Send**: 14
 - **Appointment**: 8
 
@@ -265,17 +264,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **escalated**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
+- **change request** + **informed**: 1
 
 ## Tickets in last 24h — by theme
 
 ### Other / uncategorized — 5 tickets
 
+- **[#9368](https://tbpro.zendesk.com/agent/tickets/9368)** · Precio 
+  > El precio no era por 72 USD SI no de al rededor de 109 MXN
 - **[#9366](https://tbpro.zendesk.com/agent/tickets/9366)** · Number of accounts
   > How many accounts does one subscription allow me to have?
 - **[#9363](https://tbpro.zendesk.com/agent/tickets/9363)** · FW:Re: Morning crew at our property today
   > This is an email abuse report for an email message from [domain] on Tue, 29 Sep 2026 15:00:30 +0000
-- **[#9359](https://tbpro.zendesk.com/agent/tickets/9359)** · Email addresses
-  > Can the primary email address be changed?
 - **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
   > mots de passe oublier
 - **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
@@ -294,6 +294,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I would like to cancel my subscription and delete my account.
 - **[#9355](https://tbpro.zendesk.com/agent/tickets/9355)** · Additional year of the subscription
   > Hello, I’ve already paid for a year of Thundermail, but once I have the funds, can I purchase an additional year of the subscription?
+
+### Aliases — 2 tickets
+
+- **[#9367](https://tbpro.zendesk.com/agent/tickets/9367)** · Failed to add a email aliase
+  > I tried to add an email alias and got stuck to the stage where DNS record must be added the domain information managed at Godaddy. For the SRV type records the Godaddy form…
+- **[#9359](https://tbpro.zendesk.com/agent/tickets/9359)** · Email addresses — why: **change request** · how: **informed**
+  > Can the primary email address be changed?
 
 ### Privacy / data / jurisdiction concerns — 2 tickets
 
@@ -322,17 +329,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9342](https://tbpro.zendesk.com/agent/tickets/9342)** · Can't access Thundermail, but you have my money — why: **blocked** · how: **explained**
   > Please walk me through activating the new account.
 
-### Aliases — 1 tickets
-
-- **[#9367](https://tbpro.zendesk.com/agent/tickets/9367)** · Failed to add a email aliase
-  > I tried to add an email alias and got stuck to the stage where DNS record must be added the domain information managed at Godaddy. For the SRV type records the Godaddy form…
-
 ## New tickets — last 24h
 
 - [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [pending] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
 - [9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · 2026-09-30T20:27 · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks 
 - [9345](https://tbpro.zendesk.com/agent/tickets/9345) · [pending] · 2026-09-30T22:25 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
-- [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [new] · 2026-09-30T23:37 · Long term pricing and commitment
+- [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [open] · 2026-09-30T23:37 · Long term pricing and commitment
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [open] · 2026-10-01T00:26 · Account Deletion
 - [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
 - [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [open] · 2026-10-01T07:33 · ACCES A MON COURRIER
@@ -340,11 +342,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [open] · 2026-10-01T09:08 · mots de passe
 - [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [open] · 2026-10-01T09:32 · Additional year of the subscription
 - [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [open] · 2026-10-01T10:25 · Money Back Option
-- [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [open] · 2026-10-01T11:15 · Email addresses
-- [9361](https://tbpro.zendesk.com/agent/tickets/9361) · [new] · 2026-10-01T12:07 · fumbled password
+- [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [pending] · 2026-10-01T11:15 · Email addresses
+- [9361](https://tbpro.zendesk.com/agent/tickets/9361) · [open] · 2026-10-01T12:07 · fumbled password
 - [9363](https://tbpro.zendesk.com/agent/tickets/9363) · [open] · 2026-10-01T12:49 · FW:Re: Morning crew at our property today
-- [9366](https://tbpro.zendesk.com/agent/tickets/9366) · [new] · 2026-10-01T14:25 · Number of accounts
-- [9367](https://tbpro.zendesk.com/agent/tickets/9367) · [new] · 2026-10-01T15:18 · Failed to add a email aliase
+- [9366](https://tbpro.zendesk.com/agent/tickets/9366) · [open] · 2026-10-01T14:25 · Number of accounts
+- [9367](https://tbpro.zendesk.com/agent/tickets/9367) · [open] · 2026-10-01T15:18 · Failed to add a email aliase
+- [9368](https://tbpro.zendesk.com/agent/tickets/9368) · [open] · 2026-10-01T15:51 · Precio 
 
 ## Solved — last 24h
 
@@ -352,6 +355,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9082](https://tbpro.zendesk.com/agent/tickets/9082) · 2026-10-01T04:01 · パスワードを忘れた
 - 👍 [9072](https://tbpro.zendesk.com/agent/tickets/9072) · 2026-10-01T04:07 · second thundermail account login problem
 - 👍 [9190](https://tbpro.zendesk.com/agent/tickets/9190) · 2026-10-01T14:13 · My Thunderbird stops all the time
+- · [9261](https://tbpro.zendesk.com/agent/tickets/9261) · 2026-10-01T16:02 · Emails sent from thundermail are not delivered to Gmail mailboxes
+- · [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-01T16:12 · Thundermail Account
+- 👍 [9278](https://tbpro.zendesk.com/agent/tickets/9278) · 2026-10-01T16:22 · Cannot receive email in ios
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
