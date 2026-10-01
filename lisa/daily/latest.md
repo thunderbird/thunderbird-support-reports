@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 06:25 ET** · refreshes hourly_  
+_Updated: **2026-10-01 07:22 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **603 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **605 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **3** solved in last 24h
-- **603** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **3** solved in last 24h
+- **605** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -206,11 +206,11 @@ _(none in last 24h)_
 - **pending**: 44
 - **hold**: 16
 - **open**: 13
-- **new**: 6
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 333
+- **Account Hub**: 334
 - **Thundermail**: 219
 - **Send**: 14
 - **Appointment**: 8
@@ -268,6 +268,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#9359](https://tbpro.zendesk.com/agent/tickets/9359)** · Email addresses
+  > Can the primary email address be changed?
+- **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
+  > mots de passe oublier
+- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
+  > OUVRIR MON COURRIER SANS MOT DE PASSE
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#9349](https://tbpro.zendesk.com/agent/tickets/9349)** · Account Deletion — why: **request** · how: **explained**
@@ -275,12 +284,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9355](https://tbpro.zendesk.com/agent/tickets/9355)** · Additional year of the subscription
   > Hello, I’ve already paid for a year of Thundermail, but once I have the funds, can I purchase an additional year of the subscription?
 
-### Other / uncategorized — 2 tickets
+### Privacy / data / jurisdiction concerns — 2 tickets
 
-- **[#9353](https://tbpro.zendesk.com/agent/tickets/9353)** · mots de passe
-  > mots de passe oublier
-- **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
-  > OUVRIR MON COURRIER SANS MOT DE PASSE
+- **[#9357](https://tbpro.zendesk.com/agent/tickets/9357)** · Money Back Option
+  > Is there money back option if I want to opt out after testing thunderbird pro for a few days? Unless we get a feel of the whole email system, I'm unable to decide. For me, email…
+- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription
+  > I don´t need your service, please delete account and subscription.
 
 ### Account access issues — 1 tickets
 
@@ -307,11 +316,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9343](https://tbpro.zendesk.com/agent/tickets/9343)** · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup — why: **confused**
   > - **Summary:** An account can get a mail principal created before it's fully provisioned. When that account is later removed, a leftover record can block a fresh signup with the…
 
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription
-  > I don´t need your service, please delete account and subscription.
-
 ## New tickets — last 24h
 
 - [9342](https://tbpro.zendesk.com/agent/tickets/9342) · [open] · 2026-09-30T20:26 · Can't access Thundermail, but you have my money
@@ -324,6 +328,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [new] · 2026-10-01T09:00 · Delete account and subscription
 - [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [new] · 2026-10-01T09:08 · mots de passe
 - [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [new] · 2026-10-01T09:32 · Additional year of the subscription
+- [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [new] · 2026-10-01T10:25 · Money Back Option
+- [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [new] · 2026-10-01T11:15 · Email addresses
 
 ## Solved — last 24h
 
