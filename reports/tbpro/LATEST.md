@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-09-30
 
-_Updated: **2026-09-30 19:22 ET** · refreshes hourly_  
+_Updated: **2026-09-30 21:10 ET** · refreshes hourly_  
 _24h window: 2026-09-29T16:00 → 2026-09-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 52** of rollout — **35,000 invitees**, **596 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 52** of rollout — **35,000 invitees**, **599 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **26** new tickets in last 24h · **21** solved in last 24h
-- **596** tickets total since launch · contact rate **2%** of 35000 invitees
+- **599** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (144 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
-- **Median AHT**: 136.4h · mean 166.5h (proxy: updated_at − created_at, 400 solved tickets)
+- **Median AHT**: 136.2h · mean 165.9h (proxy: updated_at − created_at, 397 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -50,7 +50,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [closed] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [closed] · 2026-08-26 · _refund_
-  - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [solved] · 2026-08-27 · _Refund_
+  - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [closed] · 2026-08-27 · _Refund_
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [solved] · 2026-08-30 · _Refund_
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [solved] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [solved] · 2026-08-31 · _cancel substriction_
@@ -110,7 +110,6 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8632](https://tbpro.zendesk.com/agent/tickets/8632) · [solved] · 2026-09-12 · _Questions about Thundermail features_
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
-- 🔧 GitHub: [thunderbird/routing#8](https://github.com/thunderbird/routing/issues/8) · _mail.thundermail.com needs to be A record not CNAME_
 - 1 incident(s):
   - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
@@ -213,16 +212,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 400
-- **closed**: 122
+- **solved**: 397
+- **closed**: 125
 - **pending**: 50
-- **hold**: 17
-- **open**: 7
+- **hold**: 16
+- **open**: 8
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 332
-- **Thundermail**: 215
+- **Thundermail**: 218
 - **Send**: 14
 - **Appointment**: 8
 
