@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 07:22 ET** · refreshes hourly_  
+_Updated: **2026-10-01 08:36 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 53** of rollout — **35,000 invitees**, **605 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 53** of rollout — **35,000 invitees**, **606 tickets** so far (1.7% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **3** solved in last 24h
-- **605** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **3** solved in last 24h
+- **606** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (145 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 70
@@ -206,12 +206,12 @@ _(none in last 24h)_
 - **pending**: 44
 - **hold**: 16
 - **open**: 13
-- **new**: 8
+- **new**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 334
-- **Thundermail**: 219
+- **Thundermail**: 220
 - **Send**: 14
 - **Appointment**: 8
 
@@ -277,6 +277,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER
   > OUVRIR MON COURRIER SANS MOT DE PASSE
 
+### Account access issues — 2 tickets
+
+- **[#9350](https://tbpro.zendesk.com/agent/tickets/9350)** · Subscriptpion stuck a verifying email address
+  > I assume the email address to verify is the one noted above. If not, where do I look?
+- **[#9361](https://tbpro.zendesk.com/agent/tickets/9361)** · fumbled password
+  > I registered [email], I think. My password manager didn't save the password and the forgot password service isn't working. Thanks in advance.
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#9349](https://tbpro.zendesk.com/agent/tickets/9349)** · Account Deletion — why: **request** · how: **explained**
@@ -290,11 +297,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Is there money back option if I want to opt out after testing thunderbird pro for a few days? Unless we get a feel of the whole email system, I'm unable to decide. For me, email…
 - **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription
   > I don´t need your service, please delete account and subscription.
-
-### Account access issues — 1 tickets
-
-- **[#9350](https://tbpro.zendesk.com/agent/tickets/9350)** · Subscriptpion stuck a verifying email address
-  > I assume the email address to verify is the one noted above. If not, where do I look?
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -330,6 +332,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [new] · 2026-10-01T09:32 · Additional year of the subscription
 - [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [new] · 2026-10-01T10:25 · Money Back Option
 - [9359](https://tbpro.zendesk.com/agent/tickets/9359) · [new] · 2026-10-01T11:15 · Email addresses
+- [9361](https://tbpro.zendesk.com/agent/tickets/9361) · [new] · 2026-10-01T12:07 · fumbled password
 
 ## Solved — last 24h
 
