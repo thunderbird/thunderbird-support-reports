@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 15:21 ET** · refreshes hourly_  
+_Updated: **2026-10-02 16:23 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -194,9 +194,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [9409](https://tbpro.zendesk.com/agent/tickets/9409) · [solved] · _refund please_
+  > i want a refund
 
 ## New ideas on FeatureOS
 
@@ -208,14 +209,14 @@ _(none in last 24h)_
 
 - **solved**: 385
 - **closed**: 146
-- **pending**: 67
+- **pending**: 68
 - **hold**: 14
-- **open**: 3
+- **open**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 343
-- **Thundermail**: 219
+- **Thundermail**: 220
 - **Send**: 14
 - **Appointment**: 8
 
@@ -224,7 +225,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 137
-- **blocked** + **explained**: 84
+- **blocked** + **explained**: 85
 - **change request** + **actioned**: 84
 - **confused** + **explained**: 40
 - **curious** + **informed**: 36
@@ -276,7 +277,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account creation / signup confusion — 1 tickets
 
-- **[#9404](https://tbpro.zendesk.com/agent/tickets/9404)** · URGENT NEW ACCOUNT CONFIG ISSUES
+- **[#9404](https://tbpro.zendesk.com/agent/tickets/9404)** · URGENT NEW ACCOUNT CONFIG ISSUES — why: **blocked** · how: **explained**
   > Hello theer! This is the iissue I had spoke of earlier with one of your reps. No matter what I have used and knowledge base articles and video tutorials I get this error. I Am…
 
 ### Other / uncategorized — 1 tickets
@@ -293,7 +294,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9378](https://tbpro.zendesk.com/agent/tickets/9378) · [pending] · 2026-10-01T21:12 · Invoice
 - [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [solved] · 2026-10-02T14:59 · What happens after deletion?
-- [9404](https://tbpro.zendesk.com/agent/tickets/9404) · [open] · 2026-10-02T19:14 · URGENT NEW ACCOUNT CONFIG ISSUES
+- [9404](https://tbpro.zendesk.com/agent/tickets/9404) · [pending] · 2026-10-02T19:14 · URGENT NEW ACCOUNT CONFIG ISSUES
 
 ## Solved — last 24h
 
