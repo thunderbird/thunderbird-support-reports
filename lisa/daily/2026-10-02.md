@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 16:23 ET** · refreshes hourly_  
+_Updated: **2026-10-02 17:21 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 54** of rollout — **35,000 invitees**, **615 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 54** of rollout — **35,000 invitees**, **617 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **8** solved in last 24h
-- **615** tickets total since launch · contact rate **2%** of 35000 invitees
+- **617** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 136.9h · mean 167.8h (proxy: updated_at − created_at, 385 solved tickets)
+- **Median AHT**: 136.9h · mean 167.3h (proxy: updated_at − created_at, 383 solved tickets)
 
-## Known problems — 10 problem(s), 78 incident(s)
+## Known problems — 10 problem(s), 79 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **615 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [solved] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 63 incident(s):
+- 64 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -96,6 +96,7 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **615 tickets** so fa
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [solved] · 2026-10-01 · _Delete account and subscription_
+  - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · 2026-10-02 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -194,10 +195,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [9409](https://tbpro.zendesk.com/agent/tickets/9409) · [solved] · _refund please_
   > i want a refund
+- [9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · _Refund_
+  > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
 
 ## New ideas on FeatureOS
 
@@ -207,16 +210,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 385
-- **closed**: 146
-- **pending**: 68
+- **solved**: 383
+- **closed**: 148
+- **pending**: 71
 - **hold**: 14
-- **open**: 2
+- **open**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 343
-- **Thundermail**: 220
+- **Account Hub**: 344
+- **Thundermail**: 221
 - **Send**: 14
 - **Appointment**: 8
 
@@ -226,9 +229,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 137
 - **blocked** + **explained**: 85
-- **change request** + **actioned**: 84
+- **change request** + **actioned**: 85
 - **confused** + **explained**: 40
-- **curious** + **informed**: 36
+- **curious** + **informed**: 37
 - **blocked** + **investigated**: 29
 - **request** + **redirected**: 26
 - **confused** + **informed**: 26
