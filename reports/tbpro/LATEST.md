@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 13:22 ET** · refreshes hourly_  
+_Updated: **2026-10-02 14:30 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **614 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
+- **2** new tickets in last 24h · **8** solved in last 24h
 - **614** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (7 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 136.6h · mean 167.5h (proxy: updated_at − created_at, 386 solved tickets)
+- **Median AHT**: 136.7h · mean 167.6h (proxy: updated_at − created_at, 387 solved tickets)
 
-## Known problems — 10 problem(s), 77 incident(s)
+## Known problems — 10 problem(s), 78 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -127,8 +127,9 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **614 tickets** so fa
   - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [hold] · 2026-09-26 · _featured off-site messages_
 
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
-- 2 incident(s):
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
+- 3 incident(s):
+  - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
@@ -205,11 +206,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 386
+- **solved**: 387
 - **closed**: 145
-- **pending**: 65
+- **pending**: 67
 - **hold**: 14
-- **open**: 4
+- **open**: 1
 
 ## Service (cumulative)
 
@@ -297,6 +298,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9024](https://tbpro.zendesk.com/agent/tickets/9024) · 2026-10-02T15:26 · Thunderbird Desktop and Thundermail
 - · [9396](https://tbpro.zendesk.com/agent/tickets/9396) · 2026-10-02T15:52 · What happens after deletion?
 - · [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-02T17:02 · Thundermail Account
+- · [9081](https://tbpro.zendesk.com/agent/tickets/9081) · 2026-10-02T17:39 · error
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
