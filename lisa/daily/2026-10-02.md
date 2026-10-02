@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 14:30 ET** · refreshes hourly_  
+_Updated: **2026-10-02 15:21 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 54** of rollout — **35,000 invitees**, **614 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 54** of rollout — **35,000 invitees**, **615 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
-- **614** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (7 good / 0 bad)
+- **3** new tickets in last 24h · **8** solved in last 24h
+- **615** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 136.7h · mean 167.6h (proxy: updated_at − created_at, 387 solved tickets)
+- **Median AHT**: 136.9h · mean 167.8h (proxy: updated_at − created_at, 385 solved tickets)
 
 ## Known problems — 10 problem(s), 78 incident(s)
 
@@ -206,11 +206,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 387
-- **closed**: 145
+- **solved**: 385
+- **closed**: 146
 - **pending**: 67
 - **hold**: 14
-- **open**: 1
+- **open**: 3
 
 ## Service (cumulative)
 
@@ -274,6 +274,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#9404](https://tbpro.zendesk.com/agent/tickets/9404)** · URGENT NEW ACCOUNT CONFIG ISSUES
+  > Hello theer! This is the iissue I had spoke of earlier with one of your reps. No matter what I have used and knowledge base articles and video tutorials I get this error. I Am…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#9396](https://tbpro.zendesk.com/agent/tickets/9396)** · What happens after deletion? — why: **curious** · how: **informed**
@@ -288,6 +293,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9378](https://tbpro.zendesk.com/agent/tickets/9378) · [pending] · 2026-10-01T21:12 · Invoice
 - [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [solved] · 2026-10-02T14:59 · What happens after deletion?
+- [9404](https://tbpro.zendesk.com/agent/tickets/9404) · [open] · 2026-10-02T19:14 · URGENT NEW ACCOUNT CONFIG ISSUES
 
 ## Solved — last 24h
 
