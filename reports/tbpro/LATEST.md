@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 11:29 ET** · refreshes hourly_  
+_Updated: **2026-10-02 12:26 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **614 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **614** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 136.4h · mean 167.4h (proxy: updated_at − created_at, 388 solved tickets)
+- **Median AHT**: 136.4h · mean 167.1h (proxy: updated_at − created_at, 388 solved tickets)
 
 ## Known problems — 10 problem(s), 77 incident(s)
 
@@ -206,10 +206,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 388
-- **closed**: 142
+- **closed**: 143
 - **pending**: 64
 - **hold**: 13
-- **open**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -286,7 +286,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9378](https://tbpro.zendesk.com/agent/tickets/9378) · [pending] · 2026-10-01T21:12 · Invoice
-- [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [pending] · 2026-10-02T14:59 · What happens after deletion?
+- [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [solved] · 2026-10-02T14:59 · What happens after deletion?
 
 ## Solved — last 24h
 
@@ -295,6 +295,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9159](https://tbpro.zendesk.com/agent/tickets/9159) · 2026-10-02T14:06 · Question regarding account closure and the recycling of aliases
 - · [9341](https://tbpro.zendesk.com/agent/tickets/9341) · 2026-10-02T14:09 · Migrating Google Calendar over
 - 👍 [9024](https://tbpro.zendesk.com/agent/tickets/9024) · 2026-10-02T15:26 · Thunderbird Desktop and Thundermail
+- · [9396](https://tbpro.zendesk.com/agent/tickets/9396) · 2026-10-02T15:52 · What happens after deletion?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
