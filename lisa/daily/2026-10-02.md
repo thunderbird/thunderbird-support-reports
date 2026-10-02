@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 12:26 ET** · refreshes hourly_  
+_Updated: **2026-10-02 13:22 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **614 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
+- **2** new tickets in last 24h · **7** solved in last 24h
 - **614** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (24h)**: 100%  (7 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 136.4h · mean 167.1h (proxy: updated_at − created_at, 388 solved tickets)
+- **Median AHT**: 136.6h · mean 167.5h (proxy: updated_at − created_at, 386 solved tickets)
 
 ## Known problems — 10 problem(s), 77 incident(s)
 
@@ -205,11 +205,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 388
-- **closed**: 143
-- **pending**: 64
-- **hold**: 13
-- **open**: 6
+- **solved**: 386
+- **closed**: 145
+- **pending**: 65
+- **hold**: 14
+- **open**: 4
 
 ## Service (cumulative)
 
@@ -248,10 +248,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
-- **curious** + **investigated**: 2
 - **confused** + **—**: 2
 - **change request** + **investigated**: 2
 - **concerned** + **redirected**: 2
+- **curious** + **investigated**: 2
 - **concerned** + **escalated**: 2
 - **other** + **—**: 2
 - **request** + **informed**: 2
@@ -296,6 +296,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9341](https://tbpro.zendesk.com/agent/tickets/9341) · 2026-10-02T14:09 · Migrating Google Calendar over
 - 👍 [9024](https://tbpro.zendesk.com/agent/tickets/9024) · 2026-10-02T15:26 · Thunderbird Desktop and Thundermail
 - · [9396](https://tbpro.zendesk.com/agent/tickets/9396) · 2026-10-02T15:52 · What happens after deletion?
+- · [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-02T17:02 · Thundermail Account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
