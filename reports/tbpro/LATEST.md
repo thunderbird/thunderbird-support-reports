@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-01
 
-_Updated: **2026-10-01 19:20 ET** · refreshes hourly_  
+_Updated: **2026-10-01 21:00 ET** · refreshes hourly_  
 _24h window: 2026-09-30T16:00 → 2026-10-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -24,7 +24,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **613 tickets** so fa
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [open] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
-  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [pending] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
+  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -95,7 +95,7 @@ Flight 8 is **day 53** of rollout — **35,000 invitees**, **613 tickets** so fa
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01 · _Account Deletion_
-  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [pending] · 2026-10-01 · _Delete account and subscription_
+  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [open] · 2026-10-01 · _Delete account and subscription_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -208,9 +208,9 @@ _(none in last 24h)_
 
 - **solved**: 388
 - **closed**: 138
-- **pending**: 65
-- **hold**: 13
-- **open**: 9
+- **pending**: 63
+- **hold**: 14
+- **open**: 10
 
 ## Service (cumulative)
 
@@ -305,19 +305,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9351](https://tbpro.zendesk.com/agent/tickets/9351)** · ACCES A MON COURRIER — why: **blocked** · how: **redirected**
   > OUVRIR MON COURRIER SANS MOT DE PASSE
 
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription — why: **change request** · how: **actioned**
+  > I don´t need your service, please delete account and subscription.
+- **[#9357](https://tbpro.zendesk.com/agent/tickets/9357)** · Money Back Option — why: **curious** · how: **explained**
+  > Is there money back option if I want to opt out after testing thunderbird pro for a few days? Unless we get a feel of the whole email system, I'm unable to decide. For me, email…
+
 ### Aliases — 2 tickets
 
 - **[#9366](https://tbpro.zendesk.com/agent/tickets/9366)** · Number of accounts — why: **curious** · how: **explained**
   > How many accounts does one subscription allow me to have?
 - **[#9359](https://tbpro.zendesk.com/agent/tickets/9359)** · Email addresses — why: **change request** · how: **informed**
   > Can the primary email address be changed?
-
-### Privacy / data / jurisdiction concerns — 2 tickets
-
-- **[#9357](https://tbpro.zendesk.com/agent/tickets/9357)** · Money Back Option — why: **curious** · how: **explained**
-  > Is there money back option if I want to opt out after testing thunderbird pro for a few days? Unless we get a feel of the whole email system, I'm unable to decide. For me, email…
-- **[#9352](https://tbpro.zendesk.com/agent/tickets/9352)** · Delete account and subscription — why: **change request** · how: **actioned**
-  > I don´t need your service, please delete account and subscription.
 
 ### Early bird signup — 1 tickets
 
@@ -351,9 +351,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9345](https://tbpro.zendesk.com/agent/tickets/9345) · [pending] · 2026-09-30T22:25 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
 - [9346](https://tbpro.zendesk.com/agent/tickets/9346) · [pending] · 2026-09-30T23:37 · Long term pricing and commitment
 - [9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01T00:26 · Account Deletion
-- [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [pending] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
+- [9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01T00:58 · Subscriptpion stuck a verifying email address
 - [9351](https://tbpro.zendesk.com/agent/tickets/9351) · [pending] · 2026-10-01T07:33 · ACCES A MON COURRIER
-- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [pending] · 2026-10-01T09:00 · Delete account and subscription
+- [9352](https://tbpro.zendesk.com/agent/tickets/9352) · [open] · 2026-10-01T09:00 · Delete account and subscription
 - [9353](https://tbpro.zendesk.com/agent/tickets/9353) · [pending] · 2026-10-01T09:08 · mots de passe
 - [9355](https://tbpro.zendesk.com/agent/tickets/9355) · [pending] · 2026-10-01T09:32 · Additional year of the subscription
 - [9357](https://tbpro.zendesk.com/agent/tickets/9357) · [pending] · 2026-10-01T10:25 · Money Back Option
