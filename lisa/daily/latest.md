@@ -1,17 +1,17 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 10:26 ET** · refreshes hourly_  
+_Updated: **2026-10-02 11:29 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 54** of rollout — **35,000 invitees**, **613 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 54** of rollout — **35,000 invitees**, **614 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **613** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **2** new tickets in last 24h · **5** solved in last 24h
+- **614** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
 - **Median AHT**: 136.4h · mean 167.4h (proxy: updated_at − created_at, 388 solved tickets)
@@ -23,8 +23,8 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **613 tickets** so fa
 - 4 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
-  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [open] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
-  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
+  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [pending] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -206,14 +206,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 388
-- **closed**: 141
-- **pending**: 61
+- **closed**: 142
+- **pending**: 64
 - **hold**: 13
-- **open**: 10
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 342
+- **Account Hub**: 343
 - **Thundermail**: 219
 - **Send**: 14
 - **Appointment**: 8
@@ -226,20 +226,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 84
 - **change request** + **actioned**: 84
 - **confused** + **explained**: 40
-- **curious** + **informed**: 35
+- **curious** + **informed**: 36
 - **blocked** + **investigated**: 29
 - **request** + **redirected**: 26
 - **confused** + **informed**: 26
 - **concerned** + **explained**: 23
 - **blocked** + **redirected**: 17
 - **blocked** + **informed**: 14
-- **blocked** + **escalated**: 11
+- **blocked** + **escalated**: 12
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
 - **blocked** + **—**: 6
 - **change request** + **explained**: 5
-- **blocked** + **actioned**: 5
 - **curious** + **actioned**: 4
+- **blocked** + **actioned**: 4
 - **confused** + **investigated**: 4
 - **request** + **explained**: 3
 - **concerned** + **investigated**: 3
@@ -273,6 +273,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#9396](https://tbpro.zendesk.com/agent/tickets/9396)** · What happens after deletion? — why: **curious** · how: **informed**
+  > I want to use TB, but I'd like to understand what happens to deleted addresses? Are they freed back into the wild for people to use again?
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9378](https://tbpro.zendesk.com/agent/tickets/9378)** · Invoice — why: **request** · how: **informed**
@@ -281,6 +286,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9378](https://tbpro.zendesk.com/agent/tickets/9378) · [pending] · 2026-10-01T21:12 · Invoice
+- [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [pending] · 2026-10-02T14:59 · What happens after deletion?
 
 ## Solved — last 24h
 
@@ -288,6 +294,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9352](https://tbpro.zendesk.com/agent/tickets/9352) · 2026-10-02T13:47 · Delete account and subscription
 - · [9159](https://tbpro.zendesk.com/agent/tickets/9159) · 2026-10-02T14:06 · Question regarding account closure and the recycling of aliases
 - · [9341](https://tbpro.zendesk.com/agent/tickets/9341) · 2026-10-02T14:09 · Migrating Google Calendar over
+- 👍 [9024](https://tbpro.zendesk.com/agent/tickets/9024) · 2026-10-02T15:26 · Thunderbird Desktop and Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
