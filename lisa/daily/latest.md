@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 08:35 ET** · refreshes hourly_  
+_Updated: **2026-10-02 09:51 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **613 tickets** so fa
 
 ## At a glance
 
-- **1** new tickets in last 24h · **0** solved in last 24h
+- **1** new tickets in last 24h · **2** solved in last 24h
 - **613** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 93%  (147 good / 11 bad)
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 136.6h · mean 168.3h (proxy: updated_at − created_at, 386 solved tickets)
+- **Median AHT**: 136.4h · mean 167.8h (proxy: updated_at − created_at, 386 solved tickets)
 
 ## Known problems — 10 problem(s), 77 incident(s)
 
@@ -95,7 +95,7 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **613 tickets** so fa
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [pending] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01 · _Account Deletion_
-  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [open] · 2026-10-01 · _Delete account and subscription_
+  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [solved] · 2026-10-01 · _Delete account and subscription_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -128,7 +128,7 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **613 tickets** so fa
 
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 2 incident(s):
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
@@ -206,15 +206,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **solved**: 386
-- **closed**: 140
-- **pending**: 62
+- **closed**: 141
+- **pending**: 61
 - **hold**: 13
 - **open**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 342
-- **Thundermail**: 218
+- **Thundermail**: 219
 - **Send**: 14
 - **Appointment**: 8
 
@@ -268,6 +268,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **escalated**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
+- **concerned** + **n/a**: 1
 - **change request** + **informed**: 1
 
 ## Tickets in last 24h — by theme
@@ -283,7 +284,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-_(none)_
+- · [9363](https://tbpro.zendesk.com/agent/tickets/9363) · 2026-10-02T13:02 · FW:Re: Morning crew at our property today
+- · [9352](https://tbpro.zendesk.com/agent/tickets/9352) · 2026-10-02T13:47 · Delete account and subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
