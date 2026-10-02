@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 17:21 ET** · refreshes hourly_  
+_Updated: **2026-10-02 18:22 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 54** of rollout — **35,000 invitees**, **617 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 54** of rollout — **35,000 invitees**, **619 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **8** solved in last 24h
-- **617** tickets total since launch · contact rate **2%** of 35000 invitees
+- **619** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -131,7 +131,7 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **617 tickets** so fa
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
-  - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [open] · 2026-09-28 · _Thundermail_
+  - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
 
@@ -195,12 +195,16 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 4
 
 - [9409](https://tbpro.zendesk.com/agent/tickets/9409) · [solved] · _refund please_
   > i want a refund
 - [9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · _Refund_
   > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
+- [9412](https://tbpro.zendesk.com/agent/tickets/9412) · [open] · _would like to cancel thunderbird pro_
+  > AI says i can cancel my subscription and get refund for 15 days of the order date. If this is so I need to cancel soon. Please advise how to go about this
+- [9413](https://tbpro.zendesk.com/agent/tickets/9413) · [open] · _how to cancel thunderbird pro within 15 days of my payment for full refund_
+  > Please let me know how to do this (cancel). It is too complicated for me to figure out the install and ios connectioin
 
 ## New ideas on FeatureOS
 
@@ -213,13 +217,13 @@ Regards, [name]_
 - **solved**: 383
 - **closed**: 148
 - **pending**: 71
-- **hold**: 14
-- **open**: 1
+- **hold**: 13
+- **open**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 344
-- **Thundermail**: 221
+- **Account Hub**: 345
+- **Thundermail**: 222
 - **Send**: 14
 - **Appointment**: 8
 
@@ -227,9 +231,9 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 137
-- **blocked** + **explained**: 85
+- **curious** + **explained**: 138
 - **change request** + **actioned**: 85
+- **blocked** + **explained**: 84
 - **confused** + **explained**: 40
 - **curious** + **informed**: 37
 - **blocked** + **investigated**: 29
