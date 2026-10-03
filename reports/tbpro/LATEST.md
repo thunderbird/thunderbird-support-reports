@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 14:54 ET** · refreshes hourly_  
+_Updated: **2026-10-03 16:02 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 55** of rollout — **35,000 invitees**, **627 tickets** so fa
 
 ## At a glance
 
-- **12** new tickets in last 24h · **9** solved in last 24h
+- **12** new tickets in last 24h · **11** solved in last 24h
 - **627** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 137.5h · mean 169.4h (proxy: updated_at − created_at, 379 solved tickets)
+- **Median AHT**: 137.9h · mean 169.3h (proxy: updated_at − created_at, 383 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -89,7 +89,7 @@ Flight 8 is **day 55** of rollout — **35,000 invitees**, **627 tickets** so fa
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [solved] · 2026-09-23 · _Cancellation and Refund_
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [solved] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [solved] · 2026-09-25 · _Cancel my account_
-  - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [pending] · 2026-09-26 · _Refund_
+  - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [solved] · 2026-09-26 · _Refund_
   - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [pending] · 2026-09-29 · _Cancel Account_
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [pending] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30 · _Refund_
@@ -207,10 +207,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 379
+- **solved**: 383
 - **closed**: 155
-- **pending**: 58
-- **open**: 15
+- **pending**: 53
+- **open**: 16
 - **hold**: 13
 - **new**: 7
 
@@ -344,6 +344,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9135](https://tbpro.zendesk.com/agent/tickets/9135) · 2026-10-03T17:02 · Cancel my account
 - · [8396](https://tbpro.zendesk.com/agent/tickets/8396) · 2026-10-03T17:02 · HUMAN Customer support 
 - · [9081](https://tbpro.zendesk.com/agent/tickets/9081) · 2026-10-03T18:02 · error
+- · [9258](https://tbpro.zendesk.com/agent/tickets/9258) · 2026-10-03T19:01 · Can't login
+- · [9165](https://tbpro.zendesk.com/agent/tickets/9165) · 2026-10-03T19:01 · Refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
