@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 04:29 ET** · refreshes hourly_  
+_Updated: **2026-10-03 05:24 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 55** of rollout — **35,000 invitees**, **622 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 55** of rollout — **35,000 invitees**, **625 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **1** solved in last 24h
-- **622** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **1** solved in last 24h
+- **625** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (149 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -212,12 +212,12 @@ _(none in last 24h)_
 - **pending**: 65
 - **hold**: 13
 - **open**: 11
-- **new**: 2
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 345
-- **Thundermail**: 223
+- **Thundermail**: 224
 - **Send**: 14
 - **Appointment**: 8
 
@@ -276,6 +276,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 4 tickets
+
+- **[#9423](https://tbpro.zendesk.com/agent/tickets/9423)** · Freischalten
+  > Anmelden
+- **[#9422](https://tbpro.zendesk.com/agent/tickets/9422)** · Aktivieren
+  > Aktivieren auf neuem smartphone
+- **[#9421](https://tbpro.zendesk.com/agent/tickets/9421)** · Anmeldung nach Aktualisierung
+  > neues Passwort
+- **[#9419](https://tbpro.zendesk.com/agent/tickets/9419)** · PASSWORT
+  > PASSWORT THUNDERBIRT IMMER NICHT RICHTIG
+
 ### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#9413](https://tbpro.zendesk.com/agent/tickets/9413)** · how to cancel thunderbird pro within 15 days of my payment for full refund
@@ -284,11 +295,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > AI says i can cancel my subscription and get refund for 15 days of the order date. If this is so I need to cancel soon. Please advise how to go about this
 - **[#9411](https://tbpro.zendesk.com/agent/tickets/9411)** · Refund — why: **change request** · how: **actioned**
   > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
-
-### Other / uncategorized — 1 tickets
-
-- **[#9419](https://tbpro.zendesk.com/agent/tickets/9419)** · PASSWORT
-  > PASSWORT THUNDERBIRT IMMER NICHT RICHTIG
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -314,6 +320,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9414](https://tbpro.zendesk.com/agent/tickets/9414) · [open] · 2026-10-02T23:03 · remove my account and forget me
 - [9416](https://tbpro.zendesk.com/agent/tickets/9416) · [new] · 2026-10-03T00:16 · Separating business acct
 - [9419](https://tbpro.zendesk.com/agent/tickets/9419) · [new] · 2026-10-03T08:24 · PASSWORT
+- [9421](https://tbpro.zendesk.com/agent/tickets/9421) · [new] · 2026-10-03T08:34 · Anmeldung nach Aktualisierung
+- [9422](https://tbpro.zendesk.com/agent/tickets/9422) · [new] · 2026-10-03T08:34 · Aktivieren
+- [9423](https://tbpro.zendesk.com/agent/tickets/9423) · [new] · 2026-10-03T08:36 · Freischalten
 
 ## Solved — last 24h
 
