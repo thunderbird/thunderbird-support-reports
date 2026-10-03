@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-10-02
+# Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-02 23:35 ET** · refreshes hourly_  
-_24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-03 00:29 ET** · refreshes hourly_  
+_24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 54** of rollout — **35,000 invitees**, **621 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 55** of rollout — **35,000 invitees**, **621 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
+- **6** new tickets in last 24h · **0** solved in last 24h
 - **621** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (8 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
 - **Median AHT**: 137.4h · mean 167.7h (proxy: updated_at − created_at, 381 solved tickets)
@@ -195,16 +195,9 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 4
+## Refund & cancellation tickets (last 24h) — 0
 
-- [9409](https://tbpro.zendesk.com/agent/tickets/9409) · [solved] · _refund please_
-  > i want a refund
-- [9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · _Refund_
-  > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
-- [9412](https://tbpro.zendesk.com/agent/tickets/9412) · [open] · _would like to cancel thunderbird pro_
-  > AI says i can cancel my subscription and get refund for 15 days of the order date. If this is so I need to cancel soon. Please advise how to go about this
-- [9413](https://tbpro.zendesk.com/agent/tickets/9413) · [open] · _how to cancel thunderbird pro within 15 days of my payment for full refund_
-  > Please let me know how to do this (cancel). It is too complicated for me to figure out the install and ios connectioin
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -216,9 +209,9 @@ Regards, [name]_
 
 - **solved**: 381
 - **closed**: 150
-- **pending**: 68
+- **pending**: 67
 - **hold**: 13
-- **open**: 8
+- **open**: 9
 - **new**: 1
 
 ## Service (cumulative)
@@ -283,37 +276,42 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 1 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
-- **[#9404](https://tbpro.zendesk.com/agent/tickets/9404)** · URGENT NEW ACCOUNT CONFIG ISSUES — why: **blocked** · how: **explained**
-  > Hello theer! This is the iissue I had spoke of earlier with one of your reps. No matter what I have used and knowledge base articles and video tutorials I get this error. I Am…
+- **[#9413](https://tbpro.zendesk.com/agent/tickets/9413)** · how to cancel thunderbird pro within 15 days of my payment for full refund
+  > Please let me know how to do this (cancel). It is too complicated for me to figure out the install and ios connectioin
+- **[#9412](https://tbpro.zendesk.com/agent/tickets/9412)** · would like to cancel thunderbird pro
+  > AI says i can cancel my subscription and get refund for 15 days of the order date. If this is so I need to cancel soon. Please advise how to go about this
+- **[#9411](https://tbpro.zendesk.com/agent/tickets/9411)** · Refund — why: **change request** · how: **actioned**
+  > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
 
-### Other / uncategorized — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#9396](https://tbpro.zendesk.com/agent/tickets/9396)** · What happens after deletion? — why: **curious** · how: **informed**
-  > I want to use TB, but I'd like to understand what happens to deleted addresses? Are they freed back into the wild for people to use again?
+- **[#9416](https://tbpro.zendesk.com/agent/tickets/9416)** · Separating business acct
+  > So initially set up this acct and have added one of my business emails as a custom domain. After doing this, I think it might be better to set this up as two separate accounts.…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#9378](https://tbpro.zendesk.com/agent/tickets/9378)** · Invoice — why: **request** · how: **informed**
-  > Hey, i need an invoice for my purchase.
+- **[#9414](https://tbpro.zendesk.com/agent/tickets/9414)** · remove my account and forget me
+  > Please remove my account and forget me. I dont want to create a paid account.
+
+### Aliases — 1 tickets
+
+- **[#9410](https://tbpro.zendesk.com/agent/tickets/9410)** · 15 Email Addresses??? — why: **curious** · how: **informed**
+  > Hi I have a subscription of [domain] and I see that there is 15 Email Addresses??? What that is mean? I can have 15 Email Addresses? Sorry for my english.
 
 ## New tickets — last 24h
 
-- [9378](https://tbpro.zendesk.com/agent/tickets/9378) · [pending] · 2026-10-01T21:12 · Invoice
-- [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [solved] · 2026-10-02T14:59 · What happens after deletion?
-- [9404](https://tbpro.zendesk.com/agent/tickets/9404) · [open] · 2026-10-02T19:14 · URGENT NEW ACCOUNT CONFIG ISSUES
+- [9410](https://tbpro.zendesk.com/agent/tickets/9410) · [pending] · 2026-10-02T20:26 · 15 Email Addresses???
+- [9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · 2026-10-02T20:34 · Refund
+- [9412](https://tbpro.zendesk.com/agent/tickets/9412) · [open] · 2026-10-02T21:48 · would like to cancel thunderbird pro
+- [9413](https://tbpro.zendesk.com/agent/tickets/9413) · [open] · 2026-10-02T21:51 · how to cancel thunderbird pro within 15 days of my payment for full refund
+- [9414](https://tbpro.zendesk.com/agent/tickets/9414) · [open] · 2026-10-02T23:03 · remove my account and forget me
+- [9416](https://tbpro.zendesk.com/agent/tickets/9416) · [new] · 2026-10-03T00:16 · Separating business acct
 
 ## Solved — last 24h
 
-- · [9363](https://tbpro.zendesk.com/agent/tickets/9363) · 2026-10-02T13:02 · FW:Re: Morning crew at our property today
-- · [9352](https://tbpro.zendesk.com/agent/tickets/9352) · 2026-10-02T13:47 · Delete account and subscription
-- · [9159](https://tbpro.zendesk.com/agent/tickets/9159) · 2026-10-02T14:06 · Question regarding account closure and the recycling of aliases
-- · [9341](https://tbpro.zendesk.com/agent/tickets/9341) · 2026-10-02T14:09 · Migrating Google Calendar over
-- 👍 [9024](https://tbpro.zendesk.com/agent/tickets/9024) · 2026-10-02T15:26 · Thunderbird Desktop and Thundermail
-- · [9396](https://tbpro.zendesk.com/agent/tickets/9396) · 2026-10-02T15:52 · What happens after deletion?
-- · [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-02T17:02 · Thundermail Account
-- · [9081](https://tbpro.zendesk.com/agent/tickets/9081) · 2026-10-02T17:39 · error
+_(none)_
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
