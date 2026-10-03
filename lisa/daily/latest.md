@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-02
 
-_Updated: **2026-10-02 22:37 ET** · refreshes hourly_  
+_Updated: **2026-10-02 23:35 ET** · refreshes hourly_  
 _24h window: 2026-10-01T16:00 → 2026-10-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 54** of rollout — **35,000 invitees**, **621 tickets** so fa
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 93%  (148 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 137.1h · mean 167.5h (proxy: updated_at − created_at, 382 solved tickets)
+- **Median AHT**: 137.4h · mean 167.7h (proxy: updated_at − created_at, 381 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -214,11 +214,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 382
-- **closed**: 149
-- **pending**: 69
+- **solved**: 381
+- **closed**: 150
+- **pending**: 68
 - **hold**: 13
-- **open**: 7
+- **open**: 8
 - **new**: 1
 
 ## Service (cumulative)
@@ -283,7 +283,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account creation / signup confusion — 1 tickets
+### Webmail — 1 tickets
 
 - **[#9404](https://tbpro.zendesk.com/agent/tickets/9404)** · URGENT NEW ACCOUNT CONFIG ISSUES — why: **blocked** · how: **explained**
   > Hello theer! This is the iissue I had spoke of earlier with one of your reps. No matter what I have used and knowledge base articles and video tutorials I get this error. I Am…
@@ -302,7 +302,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9378](https://tbpro.zendesk.com/agent/tickets/9378) · [pending] · 2026-10-01T21:12 · Invoice
 - [9396](https://tbpro.zendesk.com/agent/tickets/9396) · [solved] · 2026-10-02T14:59 · What happens after deletion?
-- [9404](https://tbpro.zendesk.com/agent/tickets/9404) · [pending] · 2026-10-02T19:14 · URGENT NEW ACCOUNT CONFIG ISSUES
+- [9404](https://tbpro.zendesk.com/agent/tickets/9404) · [open] · 2026-10-02T19:14 · URGENT NEW ACCOUNT CONFIG ISSUES
 
 ## Solved — last 24h
 
