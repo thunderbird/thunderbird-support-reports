@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 06:21 ET** · refreshes hourly_  
+_Updated: **2026-10-03 08:04 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 55** of rollout — **35,000 invitees**, **625 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 55** of rollout — **35,000 invitees**, **626 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **1** solved in last 24h
-- **625** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **1** solved in last 24h
+- **626** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (149 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -212,11 +212,11 @@ _(none in last 24h)_
 - **pending**: 64
 - **hold**: 13
 - **open**: 12
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 345
+- **Account Hub**: 346
 - **Thundermail**: 224
 - **Send**: 14
 - **Appointment**: 8
@@ -296,15 +296,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9411](https://tbpro.zendesk.com/agent/tickets/9411)** · Refund — why: **change request** · how: **actioned**
   > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
 
+### Account creation / signup confusion — 2 tickets
+
+- **[#9425](https://tbpro.zendesk.com/agent/tickets/9425)** · move Alias to Account
+  > can I create a complete new Account (for a family member) and move an email alias to it?
+- **[#9414](https://tbpro.zendesk.com/agent/tickets/9414)** · remove my account and forget me
+  > Please remove my account and forget me. I dont want to create a paid account.
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#9416](https://tbpro.zendesk.com/agent/tickets/9416)** · Separating business acct
   > So initially set up this acct and have added one of my business emails as a custom domain. After doing this, I think it might be better to set this up as two separate accounts.…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#9414](https://tbpro.zendesk.com/agent/tickets/9414)** · remove my account and forget me
-  > Please remove my account and forget me. I dont want to create a paid account.
 
 ### Aliases — 1 tickets
 
@@ -323,6 +325,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9421](https://tbpro.zendesk.com/agent/tickets/9421) · [new] · 2026-10-03T08:34 · Anmeldung nach Aktualisierung
 - [9422](https://tbpro.zendesk.com/agent/tickets/9422) · [new] · 2026-10-03T08:34 · Aktivieren
 - [9423](https://tbpro.zendesk.com/agent/tickets/9423) · [new] · 2026-10-03T08:36 · Freischalten
+- [9425](https://tbpro.zendesk.com/agent/tickets/9425) · [new] · 2026-10-03T11:41 · move Alias to Account
 
 ## Solved — last 24h
 
