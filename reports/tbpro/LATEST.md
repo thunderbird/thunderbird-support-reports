@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 01:29 ET** · refreshes hourly_  
+_Updated: **2026-10-03 02:38 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,10 +9,10 @@ Flight 8 is **day 55** of rollout — **35,000 invitees**, **621 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **0** solved in last 24h
+- **6** new tickets in last 24h · **1** solved in last 24h
 - **621** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 93%  (148 good / 11 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 93%  (149 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
 - **Median AHT**: 137.4h · mean 167.7h (proxy: updated_at − created_at, 381 solved tickets)
 
@@ -311,7 +311,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-_(none)_
+- 👍 [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-03T05:55 · Thundermail Account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
