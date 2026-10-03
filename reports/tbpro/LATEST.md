@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 09:54 ET** · refreshes hourly_  
+_Updated: **2026-10-03 11:08 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 55** of rollout — **35,000 invitees**, **626 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **1** solved in last 24h
+- **11** new tickets in last 24h · **4** solved in last 24h
 - **626** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (149 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 137.4h · mean 167.7h (proxy: updated_at − created_at, 381 solved tickets)
+- **Median AHT**: 137.1h · mean 167.7h (proxy: updated_at − created_at, 380 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -43,7 +43,7 @@ Flight 8 is **day 55** of rollout — **35,000 invitees**, **626 tickets** so fa
   - [#7851](https://tbpro.zendesk.com/agent/tickets/7851) · [closed] · 2026-08-21 · _refund subscription_
   - [#7920](https://tbpro.zendesk.com/agent/tickets/7920) · [closed] · 2026-08-24 · _What is my use name?_
   - [#7933](https://tbpro.zendesk.com/agent/tickets/7933) · [solved] · 2026-08-25 · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._
-  - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [solved] · 2026-08-25 · _Refund _
+  - [#7943](https://tbpro.zendesk.com/agent/tickets/7943) · [closed] · 2026-08-25 · _Refund _
   - [#7981](https://tbpro.zendesk.com/agent/tickets/7981) · [closed] · 2026-08-26 · _Delete account and refund_
   - [#7997](https://tbpro.zendesk.com/agent/tickets/7997) · [closed] · 2026-08-26 · _refund_
   - [#8039](https://tbpro.zendesk.com/agent/tickets/8039) · [closed] · 2026-08-27 · _Refund_
@@ -207,11 +207,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 381
-- **closed**: 150
-- **pending**: 64
+- **solved**: 380
+- **closed**: 151
+- **pending**: 62
+- **open**: 14
 - **hold**: 13
-- **open**: 12
 - **new**: 6
 
 ## Service (cumulative)
@@ -330,6 +330,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-03T05:55 · Thundermail Account
+- · [9352](https://tbpro.zendesk.com/agent/tickets/9352) · 2026-10-03T14:02 · Delete account and subscription
+- · [9341](https://tbpro.zendesk.com/agent/tickets/9341) · 2026-10-03T15:02 · Migrating Google Calendar over
+- · [9159](https://tbpro.zendesk.com/agent/tickets/9159) · 2026-10-03T15:02 · Question regarding account closure and the recycling of aliases
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
