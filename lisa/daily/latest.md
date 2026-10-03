@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 03:28 ET** · refreshes hourly_  
+_Updated: **2026-10-03 04:29 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 55** of rollout — **35,000 invitees**, **621 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 55** of rollout — **35,000 invitees**, **622 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **1** solved in last 24h
-- **621** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **1** solved in last 24h
+- **622** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 93%  (149 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -209,15 +209,15 @@ _(none in last 24h)_
 
 - **solved**: 381
 - **closed**: 150
-- **pending**: 66
+- **pending**: 65
 - **hold**: 13
-- **open**: 10
-- **new**: 1
+- **open**: 11
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 345
-- **Thundermail**: 222
+- **Thundermail**: 223
 - **Send**: 14
 - **Appointment**: 8
 
@@ -285,6 +285,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9411](https://tbpro.zendesk.com/agent/tickets/9411)** · Refund — why: **change request** · how: **actioned**
   > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
 
+### Other / uncategorized — 1 tickets
+
+- **[#9419](https://tbpro.zendesk.com/agent/tickets/9419)** · PASSWORT
+  > PASSWORT THUNDERBIRT IMMER NICHT RICHTIG
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#9416](https://tbpro.zendesk.com/agent/tickets/9416)** · Separating business acct
@@ -308,6 +313,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9413](https://tbpro.zendesk.com/agent/tickets/9413) · [open] · 2026-10-02T21:51 · how to cancel thunderbird pro within 15 days of my payment for full refund
 - [9414](https://tbpro.zendesk.com/agent/tickets/9414) · [open] · 2026-10-02T23:03 · remove my account and forget me
 - [9416](https://tbpro.zendesk.com/agent/tickets/9416) · [new] · 2026-10-03T00:16 · Separating business acct
+- [9419](https://tbpro.zendesk.com/agent/tickets/9419) · [new] · 2026-10-03T08:24 · PASSWORT
 
 ## Solved — last 24h
 
