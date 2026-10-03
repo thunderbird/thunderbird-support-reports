@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-03
 
-_Updated: **2026-10-03 17:09 ET** · refreshes hourly_  
+_Updated: **2026-10-03 19:06 ET** · refreshes hourly_  
 _24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 55** of rollout — **35,000 invitees**, **628 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 55** of rollout — **35,000 invitees**, **627 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **11** solved in last 24h
-- **628** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **11** solved in last 24h
+- **627** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 138.0h · mean 169.5h (proxy: updated_at − created_at, 384 solved tickets)
+- **Median AHT**: 137.9h · mean 169.2h (proxy: updated_at − created_at, 387 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -207,17 +207,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 384
-- **closed**: 156
-- **pending**: 51
-- **open**: 16
-- **hold**: 13
-- **new**: 8
+- **solved**: 387
+- **closed**: 157
+- **pending**: 47
+- **open**: 17
+- **hold**: 12
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 347
-- **Thundermail**: 225
+- **Thundermail**: 224
 - **Send**: 14
 - **Appointment**: 8
 
@@ -276,10 +276,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 3 tickets
 
-- **[#9423](https://tbpro.zendesk.com/agent/tickets/9423)** · Freischalten
-  > Anmelden
 - **[#9422](https://tbpro.zendesk.com/agent/tickets/9422)** · Aktivieren
   > Aktivieren auf neuem smartphone
 - **[#9421](https://tbpro.zendesk.com/agent/tickets/9421)** · Anmeldung nach Aktualisierung
@@ -329,7 +327,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9419](https://tbpro.zendesk.com/agent/tickets/9419) · [new] · 2026-10-03T08:24 · PASSWORT
 - [9421](https://tbpro.zendesk.com/agent/tickets/9421) · [new] · 2026-10-03T08:34 · Anmeldung nach Aktualisierung
 - [9422](https://tbpro.zendesk.com/agent/tickets/9422) · [new] · 2026-10-03T08:34 · Aktivieren
-- [9423](https://tbpro.zendesk.com/agent/tickets/9423) · [new] · 2026-10-03T08:36 · Freischalten
 - [9425](https://tbpro.zendesk.com/agent/tickets/9425) · [new] · 2026-10-03T11:41 · move Alias to Account
 - [9429](https://tbpro.zendesk.com/agent/tickets/9429) · [new] · 2026-10-03T16:23 · Can I add thundermail to the regular thunderbird desktop?
 
