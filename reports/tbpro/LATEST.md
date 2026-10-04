@@ -1,20 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-10-03
+# Thundermail — Flight 8 Live Report · 2026-10-04
 
-_Updated: **2026-10-03 23:07 ET** · refreshes hourly_  
-_24h window: 2026-10-02T16:00 → 2026-10-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-04 00:30 ET** · refreshes hourly_  
+_24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 55** of rollout — **35,000 invitees**, **629 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 56** of rollout — **35,000 invitees**, **629 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **11** solved in last 24h
+- **3** new tickets in last 24h · **8** solved in last 24h
 - **629** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 137.7h · mean 169.2h (proxy: updated_at − created_at, 386 solved tickets)
+- **Median AHT**: 137.5h · mean 169.0h (proxy: updated_at − created_at, 385 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -207,8 +207,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 386
-- **closed**: 158
+- **solved**: 385
+- **closed**: 159
 - **pending**: 47
 - **open**: 18
 - **hold**: 11
@@ -276,73 +276,37 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#9422](https://tbpro.zendesk.com/agent/tickets/9422)** · Aktivieren
-  > Aktivieren auf neuem smartphone
-- **[#9421](https://tbpro.zendesk.com/agent/tickets/9421)** · Anmeldung nach Aktualisierung
-  > neues Passwort
-- **[#9419](https://tbpro.zendesk.com/agent/tickets/9419)** · PASSWORT
-  > PASSWORT THUNDERBIRT IMMER NICHT RICHTIG
+- **[#9438](https://tbpro.zendesk.com/agent/tickets/9438)** · POP Server
+  > Is there not a POP option for the outgoing server?
 
-### Subscription / billing / refund / cancel — 3 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#9413](https://tbpro.zendesk.com/agent/tickets/9413)** · how to cancel thunderbird pro within 15 days of my payment for full refund
-  > Please let me know how to do this (cancel). It is too complicated for me to figure out the install and ios connectioin
-- **[#9412](https://tbpro.zendesk.com/agent/tickets/9412)** · would like to cancel thunderbird pro
-  > AI says i can cancel my subscription and get refund for 15 days of the order date. If this is so I need to cancel soon. Please advise how to go about this
-- **[#9411](https://tbpro.zendesk.com/agent/tickets/9411)** · Refund — why: **change request** · how: **actioned**
-  > Sorry. Have tried this a few times but just can't get on with it and will stick with iCloud. Please refund.
-
-### Account creation / signup confusion — 2 tickets
-
-- **[#9425](https://tbpro.zendesk.com/agent/tickets/9425)** · move Alias to Account
-  > can I create a complete new Account (for a family member) and move an email alias to it?
-- **[#9414](https://tbpro.zendesk.com/agent/tickets/9414)** · remove my account and forget me
-  > Please remove my account and forget me. I dont want to create a paid account.
-
-### App setup / configuration — 1 tickets
-
-- **[#9429](https://tbpro.zendesk.com/agent/tickets/9429)** · Can I add thundermail to the regular thunderbird desktop?
-  > See question above
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9416](https://tbpro.zendesk.com/agent/tickets/9416)** · Separating business acct
-  > So initially set up this acct and have added one of my business emails as a custom domain. After doing this, I think it might be better to set this up as two separate accounts.…
+- **[#9437](https://tbpro.zendesk.com/agent/tickets/9437)** · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
+  > Hello [name], I am reporting a reproducible Gmail deliverability issue affecting messages sent through Thundermail SMTP when using app-password authentication. This does not…
 
 ### Aliases — 1 tickets
 
-- **[#9410](https://tbpro.zendesk.com/agent/tickets/9410)** · 15 Email Addresses??? — why: **curious** · how: **informed**
-  > Hi I have a subscription of [domain] and I see that there is 15 Email Addresses??? What that is mean? I can have 15 Email Addresses? Sorry for my english.
+- **[#9432](https://tbpro.zendesk.com/agent/tickets/9432)** · Swapping Primary e-mail with an alias
+  > Is it possible to swap my current primary/subscription e-mail address ([email]) with one of my aliases ([email])? Thanks, [name]
 
 ## New tickets — last 24h
 
-- [9410](https://tbpro.zendesk.com/agent/tickets/9410) · [pending] · 2026-10-02T20:26 · 15 Email Addresses???
-- [9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · 2026-10-02T20:34 · Refund
-- [9412](https://tbpro.zendesk.com/agent/tickets/9412) · [open] · 2026-10-02T21:48 · would like to cancel thunderbird pro
-- [9413](https://tbpro.zendesk.com/agent/tickets/9413) · [open] · 2026-10-02T21:51 · how to cancel thunderbird pro within 15 days of my payment for full refund
-- [9414](https://tbpro.zendesk.com/agent/tickets/9414) · [open] · 2026-10-02T23:03 · remove my account and forget me
-- [9416](https://tbpro.zendesk.com/agent/tickets/9416) · [new] · 2026-10-03T00:16 · Separating business acct
-- [9419](https://tbpro.zendesk.com/agent/tickets/9419) · [new] · 2026-10-03T08:24 · PASSWORT
-- [9421](https://tbpro.zendesk.com/agent/tickets/9421) · [new] · 2026-10-03T08:34 · Anmeldung nach Aktualisierung
-- [9422](https://tbpro.zendesk.com/agent/tickets/9422) · [new] · 2026-10-03T08:34 · Aktivieren
-- [9425](https://tbpro.zendesk.com/agent/tickets/9425) · [new] · 2026-10-03T11:41 · move Alias to Account
-- [9429](https://tbpro.zendesk.com/agent/tickets/9429) · [new] · 2026-10-03T16:23 · Can I add thundermail to the regular thunderbird desktop?
+- [9432](https://tbpro.zendesk.com/agent/tickets/9432) · [new] · 2026-10-03T21:00 · Swapping Primary e-mail with an alias
+- [9437](https://tbpro.zendesk.com/agent/tickets/9437) · [new] · 2026-10-04T00:48 · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
+- [9438](https://tbpro.zendesk.com/agent/tickets/9438) · [new] · 2026-10-04T01:18 · POP Server
 
 ## Solved — last 24h
 
-- 👍 [9270](https://tbpro.zendesk.com/agent/tickets/9270) · 2026-10-03T05:55 · Thundermail Account
-- · [9341](https://tbpro.zendesk.com/agent/tickets/9341) · 2026-10-03T15:02 · Migrating Google Calendar over
-- · [9159](https://tbpro.zendesk.com/agent/tickets/9159) · 2026-10-03T15:02 · Question regarding account closure and the recycling of aliases
-- 👍 [9352](https://tbpro.zendesk.com/agent/tickets/9352) · 2026-10-03T15:21 · Delete account and subscription
-- · [9396](https://tbpro.zendesk.com/agent/tickets/9396) · 2026-10-03T16:02 · What happens after deletion?
-- · [9182](https://tbpro.zendesk.com/agent/tickets/9182) · 2026-10-03T16:02 · Problem accessing Webmail
-- · [9135](https://tbpro.zendesk.com/agent/tickets/9135) · 2026-10-03T17:02 · Cancel my account
-- · [8396](https://tbpro.zendesk.com/agent/tickets/8396) · 2026-10-03T17:02 · HUMAN Customer support 
-- · [9081](https://tbpro.zendesk.com/agent/tickets/9081) · 2026-10-03T18:02 · error
-- · [9258](https://tbpro.zendesk.com/agent/tickets/9258) · 2026-10-03T19:01 · Can't login
-- · [9165](https://tbpro.zendesk.com/agent/tickets/9165) · 2026-10-03T19:01 · Refund
+- · [9187](https://tbpro.zendesk.com/agent/tickets/9187) · 2026-10-03T20:01 · N/A
+- · [9087](https://tbpro.zendesk.com/agent/tickets/9087) · 2026-10-03T20:01 · login issues
+- · [9080](https://tbpro.zendesk.com/agent/tickets/9080) · 2026-10-03T21:01 · cannot complete sign up
+- · [9079](https://tbpro.zendesk.com/agent/tickets/9079) · 2026-10-03T21:01 · Question 
+- · [9256](https://tbpro.zendesk.com/agent/tickets/9256) · 2026-10-03T22:01 · Homeserver Mail
+- · [9189](https://tbpro.zendesk.com/agent/tickets/9189) · 2026-10-03T22:01 · recovery email
+- · [8997](https://tbpro.zendesk.com/agent/tickets/8997) · 2026-10-03T22:01 · Desktop Installation
+- · [9260](https://tbpro.zendesk.com/agent/tickets/9260) · 2026-10-03T23:01 · فتح حساب بريد إلكتروني 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
