@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-04
 
-_Updated: **2026-10-04 13:35 ET** · refreshes hourly_  
+_Updated: **2026-10-04 15:14 ET** · refreshes hourly_  
 _24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 56** of rollout — **35,000 invitees**, **639 tickets** so fa
 
 ## At a glance
 
-- **13** new tickets in last 24h · **11** solved in last 24h
+- **13** new tickets in last 24h · **12** solved in last 24h
 - **639** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 140.3h · mean 173.9h (proxy: updated_at − created_at, 357 solved tickets)
+- **Median AHT**: 140.8h · mean 174.9h (proxy: updated_at − created_at, 348 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -214,9 +214,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 357
-- **closed**: 190
-- **pending**: 42
+- **solved**: 348
+- **closed**: 200
+- **pending**: 41
 - **open**: 21
 - **new**: 19
 - **hold**: 10
@@ -356,6 +356,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8605](https://tbpro.zendesk.com/agent/tickets/8605) · 2026-10-04T16:02 · Problem with sending emails
 - · [9267](https://tbpro.zendesk.com/agent/tickets/9267) · 2026-10-04T17:02 · Send message failure
 - · [9234](https://tbpro.zendesk.com/agent/tickets/9234) · 2026-10-04T17:02 · Questions before accepting invitation
+- · [9288](https://tbpro.zendesk.com/agent/tickets/9288) · 2026-10-04T18:01 · Couldn’t pay.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
