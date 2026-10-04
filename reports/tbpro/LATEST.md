@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-04
 
-_Updated: **2026-10-04 10:06 ET** · refreshes hourly_  
+_Updated: **2026-10-04 11:46 ET** · refreshes hourly_  
 _24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 56** of rollout — **35,000 invitees**, **636 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 56** of rollout — **35,000 invitees**, **637 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **8** solved in last 24h
-- **636** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **8** solved in last 24h
+- **637** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 137.7h · mean 169.1h (proxy: updated_at − created_at, 384 solved tickets)
+- **Median AHT**: 137.9h · mean 169.2h (proxy: updated_at − created_at, 383 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -56,7 +56,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8075](https://tbpro.zendesk.com/agent/tickets/8075) · [closed] · 2026-08-30 · _Refund_
   - [#8092](https://tbpro.zendesk.com/agent/tickets/8092) · [closed] · 2026-08-31 · _Refund Request – ThunderMail_
   - [#8106](https://tbpro.zendesk.com/agent/tickets/8106) · [closed] · 2026-08-31 · _cancel substriction_
-  - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [solved] · 2026-08-31 · _Refund_
+  - [#8114](https://tbpro.zendesk.com/agent/tickets/8114) · [closed] · 2026-08-31 · _Refund_
   - [#8128](https://tbpro.zendesk.com/agent/tickets/8128) · [solved] · 2026-09-01 · _Please refund my money_
   - [#8200](https://tbpro.zendesk.com/agent/tickets/8200) · [solved] · 2026-09-01 · _Cancel + Refund_
   - [#8240](https://tbpro.zendesk.com/agent/tickets/8240) · [closed] · 2026-09-02 · _Refund, please ?_
@@ -213,17 +213,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 384
-- **closed**: 160
+- **solved**: 383
+- **closed**: 161
 - **pending**: 46
 - **open**: 19
-- **new**: 16
+- **new**: 17
 - **hold**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 351
-- **Thundermail**: 227
+- **Thundermail**: 228
 - **Send**: 15
 - **Appointment**: 8
 
@@ -307,6 +307,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9437](https://tbpro.zendesk.com/agent/tickets/9437)** · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
   > Hello [name], I am reporting a reproducible Gmail deliverability issue affecting messages sent through Thundermail SMTP when using app-password authentication. This does not…
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9454](https://tbpro.zendesk.com/agent/tickets/9454)** · Custom Domain Not Working
+  > I have set the custom domain DNS settings as suggested at my domain provider (Namecheap) with a short TTL, but the verification step is still failing. SRV records seem OK, but TXT…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#9446](https://tbpro.zendesk.com/agent/tickets/9446)** · Monthly payments and discount 
@@ -329,6 +334,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9448](https://tbpro.zendesk.com/agent/tickets/9448) · [new] · 2026-10-04T11:33 · ricing feedback: Suggesting a softer entry point
 - [9449](https://tbpro.zendesk.com/agent/tickets/9449) · [new] · 2026-10-04T13:26 · Email Account versus Alias
 - [9450](https://tbpro.zendesk.com/agent/tickets/9450) · [new] · 2026-10-04T13:56 · Dotaz
+- [9454](https://tbpro.zendesk.com/agent/tickets/9454) · [new] · 2026-10-04T15:29 · Custom Domain Not Working
 
 ## Solved — last 24h
 
