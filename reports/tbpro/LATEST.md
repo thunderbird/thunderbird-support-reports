@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-04
 
-_Updated: **2026-10-04 05:13 ET** · refreshes hourly_  
+_Updated: **2026-10-04 07:35 ET** · refreshes hourly_  
 _24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 56** of rollout — **35,000 invitees**, **632 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 56** of rollout — **35,000 invitees**, **634 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **8** solved in last 24h
-- **632** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **8** solved in last 24h
+- **634** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -211,12 +211,12 @@ _(none in last 24h)_
 - **closed**: 160
 - **pending**: 46
 - **open**: 19
-- **new**: 12
+- **new**: 14
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 348
+- **Account Hub**: 350
 - **Thundermail**: 226
 - **Send**: 15
 - **Appointment**: 8
@@ -276,8 +276,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#9448](https://tbpro.zendesk.com/agent/tickets/9448)** · ricing feedback: Suggesting a softer entry point
+  > Hi team, I’m a big fan of your work and super curious about the new products. I totally get that free trials or monthly plans might not be the most sustainable route for you right…
 - **[#9444](https://tbpro.zendesk.com/agent/tickets/9444)** · E Mail account
   > ich kann mich nicht mehr anmelden
 - **[#9438](https://tbpro.zendesk.com/agent/tickets/9438)** · POP Server
@@ -289,6 +291,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > comment recuperer mes mail sur deb compte [email]
 - **[#9437](https://tbpro.zendesk.com/agent/tickets/9437)** · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
   > Hello [name], I am reporting a reproducible Gmail deliverability issue affecting messages sent through Thundermail SMTP when using app-password authentication. This does not…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#9446](https://tbpro.zendesk.com/agent/tickets/9446)** · Monthly payments and discount 
+  > Hi, Currently, the subscription monthly payment is not available. I'm hoping for it to be part of the roadmap at some point or at least cheaper subscription tiers to be present…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -308,6 +315,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9440](https://tbpro.zendesk.com/agent/tickets/9440) · [new] · 2026-10-04T07:07 · Refus de la plateforme [domain] sortant [domain]
 - [9442](https://tbpro.zendesk.com/agent/tickets/9442) · [new] · 2026-10-04T08:44 · All Firefox relay mails get marked as spam
 - [9444](https://tbpro.zendesk.com/agent/tickets/9444) · [new] · 2026-10-04T09:10 · E Mail account
+- [9446](https://tbpro.zendesk.com/agent/tickets/9446) · [new] · 2026-10-04T09:33 · Monthly payments and discount 
+- [9448](https://tbpro.zendesk.com/agent/tickets/9448) · [new] · 2026-10-04T11:33 · ricing feedback: Suggesting a softer entry point
 
 ## Solved — last 24h
 
