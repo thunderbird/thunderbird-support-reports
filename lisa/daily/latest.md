@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-04
 
-_Updated: **2026-10-04 03:02 ET** · refreshes hourly_  
+_Updated: **2026-10-04 05:13 ET** · refreshes hourly_  
 _24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 56** of rollout — **35,000 invitees**, **629 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 56** of rollout — **35,000 invitees**, **632 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **629** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **8** solved in last 24h
+- **632** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -211,13 +211,13 @@ _(none in last 24h)_
 - **closed**: 160
 - **pending**: 46
 - **open**: 19
+- **new**: 12
 - **hold**: 11
-- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 347
-- **Thundermail**: 225
+- **Account Hub**: 348
+- **Thundermail**: 226
 - **Send**: 15
 - **Appointment**: 8
 
@@ -276,15 +276,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#9444](https://tbpro.zendesk.com/agent/tickets/9444)** · E Mail account
+  > ich kann mich nicht mehr anmelden
 - **[#9438](https://tbpro.zendesk.com/agent/tickets/9438)** · POP Server
   > Is there not a POP option for the outgoing server?
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
+- **[#9440](https://tbpro.zendesk.com/agent/tickets/9440)** · Refus de la plateforme [domain] sortant [domain]
+  > comment recuperer mes mail sur deb compte [email]
 - **[#9437](https://tbpro.zendesk.com/agent/tickets/9437)** · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
   > Hello [name], I am reporting a reproducible Gmail deliverability issue affecting messages sent through Thundermail SMTP when using app-password authentication. This does not…
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#9442](https://tbpro.zendesk.com/agent/tickets/9442)** · All Firefox relay mails get marked as spam
+  > Hi team, could you please adjust the spam filter in a way that relay mails are not marked as spam. If I can change that myself. Please let me know. Thank you, [name]
 
 ### Aliases — 1 tickets
 
@@ -296,6 +305,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9432](https://tbpro.zendesk.com/agent/tickets/9432) · [new] · 2026-10-03T21:00 · Swapping Primary e-mail with an alias
 - [9437](https://tbpro.zendesk.com/agent/tickets/9437) · [new] · 2026-10-04T00:48 · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
 - [9438](https://tbpro.zendesk.com/agent/tickets/9438) · [new] · 2026-10-04T01:18 · POP Server
+- [9440](https://tbpro.zendesk.com/agent/tickets/9440) · [new] · 2026-10-04T07:07 · Refus de la plateforme [domain] sortant [domain]
+- [9442](https://tbpro.zendesk.com/agent/tickets/9442) · [new] · 2026-10-04T08:44 · All Firefox relay mails get marked as spam
+- [9444](https://tbpro.zendesk.com/agent/tickets/9444) · [new] · 2026-10-04T09:10 · E Mail account
 
 ## Solved — last 24h
 
