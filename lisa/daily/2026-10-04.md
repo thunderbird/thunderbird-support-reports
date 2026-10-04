@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-04
 
-_Updated: **2026-10-04 07:35 ET** · refreshes hourly_  
+_Updated: **2026-10-04 10:06 ET** · refreshes hourly_  
 _24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 56** of rollout — **35,000 invitees**, **634 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 56** of rollout — **35,000 invitees**, **636 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **8** solved in last 24h
-- **634** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **8** solved in last 24h
+- **636** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
 - **Median AHT**: 137.7h · mean 169.1h (proxy: updated_at − created_at, 384 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"only address"** — 2 tickets in 24h (new; baseline 0 cum) — [#9446](https://tbpro.zendesk.com/agent/tickets/9446), [#9449](https://tbpro.zendesk.com/agent/tickets/9449)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -211,13 +217,13 @@ _(none in last 24h)_
 - **closed**: 160
 - **pending**: 46
 - **open**: 19
-- **new**: 14
+- **new**: 16
 - **hold**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 350
-- **Thundermail**: 226
+- **Account Hub**: 351
+- **Thundermail**: 227
 - **Send**: 15
 - **Appointment**: 8
 
@@ -276,14 +282,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#9450](https://tbpro.zendesk.com/agent/tickets/9450)** · Dotaz
+  > Dobrý den, chtěla bych se zeptat, zda mohu platit pouze měsíčně... Chtěla bych si vyzkoušet, jak mně bude služba vůbec vyhovovat. Děkuji.
 - **[#9448](https://tbpro.zendesk.com/agent/tickets/9448)** · ricing feedback: Suggesting a softer entry point
   > Hi team, I’m a big fan of your work and super curious about the new products. I totally get that free trials or monthly plans might not be the most sustainable route for you right…
 - **[#9444](https://tbpro.zendesk.com/agent/tickets/9444)** · E Mail account
   > ich kann mich nicht mehr anmelden
 - **[#9438](https://tbpro.zendesk.com/agent/tickets/9438)** · POP Server
   > Is there not a POP option for the outgoing server?
+
+### Aliases — 2 tickets
+
+- **[#9449](https://tbpro.zendesk.com/agent/tickets/9449)** · Email Account versus Alias
+  > If I'm understanding everything I'm reading in the help articles, I can only have one EMAIL ADDRESS per annual subscription, but then can set up 15 ALIASES, or unlimited aliases…
+- **[#9432](https://tbpro.zendesk.com/agent/tickets/9432)** · Swapping Primary e-mail with an alias
+  > Is it possible to swap my current primary/subscription e-mail address ([email]) with one of my aliases ([email])? Thanks, [name]
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
@@ -302,11 +317,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9442](https://tbpro.zendesk.com/agent/tickets/9442)** · All Firefox relay mails get marked as spam
   > Hi team, could you please adjust the spam filter in a way that relay mails are not marked as spam. If I can change that myself. Please let me know. Thank you, [name]
 
-### Aliases — 1 tickets
-
-- **[#9432](https://tbpro.zendesk.com/agent/tickets/9432)** · Swapping Primary e-mail with an alias
-  > Is it possible to swap my current primary/subscription e-mail address ([email]) with one of my aliases ([email])? Thanks, [name]
-
 ## New tickets — last 24h
 
 - [9432](https://tbpro.zendesk.com/agent/tickets/9432) · [new] · 2026-10-03T21:00 · Swapping Primary e-mail with an alias
@@ -317,6 +327,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9444](https://tbpro.zendesk.com/agent/tickets/9444) · [new] · 2026-10-04T09:10 · E Mail account
 - [9446](https://tbpro.zendesk.com/agent/tickets/9446) · [new] · 2026-10-04T09:33 · Monthly payments and discount 
 - [9448](https://tbpro.zendesk.com/agent/tickets/9448) · [new] · 2026-10-04T11:33 · ricing feedback: Suggesting a softer entry point
+- [9449](https://tbpro.zendesk.com/agent/tickets/9449) · [new] · 2026-10-04T13:26 · Email Account versus Alias
+- [9450](https://tbpro.zendesk.com/agent/tickets/9450) · [new] · 2026-10-04T13:56 · Dotaz
 
 ## Solved — last 24h
 
