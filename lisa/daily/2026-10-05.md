@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 14:37 ET** · refreshes hourly_  
+_Updated: **2026-10-05 16:42 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **9** solved in last 24h
-- **641** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **13** solved in last 24h
+- **643** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 92%  (34 good / 3 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 128.1h · mean 161.4h (proxy: updated_at − created_at, 41 solved tickets)
+- **Median AHT**: 130.5h · mean 158.1h (proxy: updated_at − created_at, 43 solved tickets)
 
-## Known problems — 10 problem(s), 80 incident(s)
+## Known problems — 10 problem(s), 83 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 65 incident(s):
+- 68 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -87,6 +87,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so fa
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [closed] · 2026-09-23 · _Delete this account_
   - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [closed] · 2026-09-23 · _Subscription in Error_
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [closed] · 2026-09-23 · _Cancellation and Refund_
+  - [#9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24 · _Regarding subscription Fwd: Thinking of a new beginning_
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [closed] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [solved] · 2026-09-25 · _Cancel my account_
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [solved] · 2026-09-26 · _Refund_
@@ -98,6 +99,8 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so fa
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [solved] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [pending] · 2026-10-02 · _would like to cancel thunderbird pro_
+  - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05 · _Thundermail account cancellation and refund_
+  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -198,7 +201,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [open] · _Thundermail account cancellation and refund_
+- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · _Thundermail account cancellation and refund_
   > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail email address is: [email]. Please let me…
 
 ## New ideas on FeatureOS
@@ -209,17 +212,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 516
-- **pending**: 51
-- **solved**: 41
-- **open**: 20
-- **hold**: 13
+- **closed**: 518
+- **pending**: 58
+- **solved**: 43
+- **open**: 12
+- **hold**: 12
 
 ## Service (cumulative)
 
-- **Account Hub**: 358
-- **Thundermail**: 227
-- **Send**: 15
+- **Account Hub**: 359
+- **Thundermail**: 229
+- **Send**: 14
 - **Appointment**: 8
 
 ## Why × How (cumulative)
@@ -228,7 +231,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 141
 - **blocked** + **explained**: 90
-- **change request** + **actioned**: 86
+- **change request** + **actioned**: 90
 - **confused** + **explained**: 41
 - **curious** + **informed**: 37
 - **blocked** + **investigated**: 31
@@ -244,10 +247,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 5
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
+- **concerned** + **investigated**: 4
 - **confused** + **investigated**: 4
 - **request** + **explained**: 3
 - **change request** + **escalated**: 3
-- **concerned** + **investigated**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
@@ -277,10 +280,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#9467](https://tbpro.zendesk.com/agent/tickets/9467)** · Thundermail account cancellation and refund
-  > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail…
+- **[#9480](https://tbpro.zendesk.com/agent/tickets/9480)** · Domain blocked from receiving emails
+  > Hello, It seems that my domain “**[domain]”** is blocked from receiving emails on Thundermail / [domain]. Could you please check why the domain is being blocked and let me know…
+- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain — why: **blocked** · how: **explained**
+  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#9479](https://tbpro.zendesk.com/agent/tickets/9479)** · Account deletion — why: **change request** · how: **actioned**
+  > Please permanently delete my account and all associated data as soon as possible.
 
 ### Pricing — payment issue — 1 tickets
 
@@ -292,23 +302,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9473](https://tbpro.zendesk.com/agent/tickets/9473)** · Gnome and Evolution can't connect — why: **blocked** · how: **investigated**
   > Hi guys, I tried to set up Thundermail in my Fedora-Gnome set-up. Both Gnome-Online-Accounts (central account hub) and Evolution (e-mail program) auto-recognise the settings.…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9467](https://tbpro.zendesk.com/agent/tickets/9467)** · Thundermail account cancellation and refund — why: **change request** · how: **actioned**
+  > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail…
+
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail — why: **blocked** · how: **explained**
   > Es heisst immer, Name oder Passwort stimmt nicht
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain — why: **blocked** · how: **explained**
-  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
-
 ## New tickets — last 24h
 
 - [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [pending] · 2026-10-04T20:05 · Custom Domain
 - [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [pending] · 2026-10-05T04:56 · Einrichten E-Mail
-- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [open] · 2026-10-05T05:40 · Thundermail account cancellation and refund
+- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05T05:40 · Thundermail account cancellation and refund
 - [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [pending] · 2026-10-05T13:57 · Gnome and Evolution can't connect
 - [9478](https://tbpro.zendesk.com/agent/tickets/9478) · [pending] · 2026-10-05T16:30 · Direct Deposit  change
+- [9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05T18:56 · Account deletion
+- [9480](https://tbpro.zendesk.com/agent/tickets/9480) · [open] · 2026-10-05T19:26 · Domain blocked from receiving emails
 
 ## Solved — last 24h
 
@@ -321,6 +333,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9325](https://tbpro.zendesk.com/agent/tickets/9325) · 2026-10-05T17:02 · I cant log in intro my email [email]
 - · [9350](https://tbpro.zendesk.com/agent/tickets/9350) · 2026-10-05T17:45 · Subscriptpion stuck a verifying email address
 - · [9329](https://tbpro.zendesk.com/agent/tickets/9329) · 2026-10-05T18:02 · 111
+- · [9429](https://tbpro.zendesk.com/agent/tickets/9429) · 2026-10-05T19:00 · Can I add thundermail to the regular thunderbird desktop?
+- · [9316](https://tbpro.zendesk.com/agent/tickets/9316) · 2026-10-05T19:01 · https://[domain]/
+- · [9311](https://tbpro.zendesk.com/agent/tickets/9311) · 2026-10-05T19:01 · I dont find the first sign up, would like to create a mail access
+- · [9309](https://tbpro.zendesk.com/agent/tickets/9309) · 2026-10-05T19:01 · Cannot sign in.  Forgot user name and password.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
