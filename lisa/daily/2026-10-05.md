@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 05:38 ET** · refreshes hourly_  
+_Updated: **2026-10-05 06:28 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"pasted information"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
+- **"noticed bandzoogle"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -216,8 +216,8 @@ Regards, [name]_
 
 - **solved**: 337
 - **closed**: 213
-- **pending**: 37
-- **open**: 23
+- **pending**: 36
+- **open**: 24
 - **new**: 23
 - **hold**: 10
 
