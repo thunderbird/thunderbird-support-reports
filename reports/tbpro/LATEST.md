@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 10:33 ET** · refreshes hourly_  
+_Updated: **2026-10-05 11:26 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **2** solved in last 24h
+- **4** new tickets in last 24h · **4** solved in last 24h
 - **643** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 141.6h · mean 176.7h (proxy: updated_at − created_at, 334 solved tickets)
+- **Median AHT**: 141.4h · mean 176.3h (proxy: updated_at − created_at, 336 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -24,7 +24,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [solved] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [solved] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
-  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
+  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [pending] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [solved] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -197,7 +197,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [new] · _Thundermail account cancellation and refund_
+- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [open] · _Thundermail account cancellation and refund_
   > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail email address is: [email]. Please let me…
 
 ## New ideas on FeatureOS
@@ -208,12 +208,12 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 334
+- **solved**: 336
 - **closed**: 216
-- **pending**: 37
-- **open**: 26
-- **new**: 20
+- **pending**: 41
+- **open**: 33
 - **hold**: 10
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -227,11 +227,11 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 138
+- **blocked** + **explained**: 86
 - **change request** + **actioned**: 85
-- **blocked** + **explained**: 84
 - **confused** + **explained**: 40
 - **curious** + **informed**: 37
-- **blocked** + **investigated**: 29
+- **blocked** + **investigated**: 30
 - **request** + **redirected**: 26
 - **confused** + **informed**: 26
 - **concerned** + **explained**: 23
@@ -277,11 +277,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#9473](https://tbpro.zendesk.com/agent/tickets/9473)** · Gnome and Evolution can't connect
-  > Hi guys, I tried to set up Thundermail in my Fedora-Gnome set-up. Both Gnome-Online-Accounts (central account hub) and Evolution (e-mail program) auto-recognise the settings.…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9467](https://tbpro.zendesk.com/agent/tickets/9467)** · Thundermail account cancellation and refund
@@ -292,22 +287,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail
   > Es heisst immer, Name oder Passwort stimmt nicht
 
+### Account access issues — 1 tickets
+
+- **[#9473](https://tbpro.zendesk.com/agent/tickets/9473)** · Gnome and Evolution can't connect — why: **blocked** · how: **investigated**
+  > Hi guys, I tried to set up Thundermail in my Fedora-Gnome set-up. Both Gnome-Online-Accounts (central account hub) and Evolution (e-mail program) auto-recognise the settings.…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain
+- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain — why: **blocked** · how: **explained**
   > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
 
 ## New tickets — last 24h
 
-- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [open] · 2026-10-04T20:05 · Custom Domain
+- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [pending] · 2026-10-04T20:05 · Custom Domain
 - [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [new] · 2026-10-05T04:56 · Einrichten E-Mail
-- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [new] · 2026-10-05T05:40 · Thundermail account cancellation and refund
-- [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [open] · 2026-10-05T13:57 · Gnome and Evolution can't connect
+- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [open] · 2026-10-05T05:40 · Thundermail account cancellation and refund
+- [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [pending] · 2026-10-05T13:57 · Gnome and Evolution can't connect
 
 ## Solved — last 24h
 
 - · [9293](https://tbpro.zendesk.com/agent/tickets/9293) · 2026-10-04T20:02 · Cancel Account
 - · [9026](https://tbpro.zendesk.com/agent/tickets/9026) · 2026-10-04T20:02 · My folders do not sync
+- · [9355](https://tbpro.zendesk.com/agent/tickets/9355) · 2026-10-05T15:11 · Additional year of the subscription
+- · [9330](https://tbpro.zendesk.com/agent/tickets/9330) · 2026-10-05T15:12 · change account to [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
