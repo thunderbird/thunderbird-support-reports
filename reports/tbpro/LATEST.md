@@ -1,15 +1,15 @@
-# Thundermail — Flight 8 Live Report · 2026-10-04
+# Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-04 23:35 ET** · refreshes hourly_  
-_24h window: 2026-10-03T16:00 → 2026-10-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-05 00:34 ET** · refreshes hourly_  
+_24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 56** of rollout — **35,000 invitees**, **641 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **12** solved in last 24h
+- **2** new tickets in last 24h · **2** solved in last 24h
 - **641** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
@@ -20,8 +20,7 @@ Flight 8 is **day 56** of rollout — **35,000 invitees**, **641 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"only address"** — 2 tickets in 24h (new; baseline 0 cum) — [#9446](https://tbpro.zendesk.com/agent/tickets/9446), [#9449](https://tbpro.zendesk.com/agent/tickets/9449)
-- **"nicht mehr"** — 2 tickets in 24h (110.0× baseline; baseline 1 cum) — [#9444](https://tbpro.zendesk.com/agent/tickets/9444), [#9456](https://tbpro.zendesk.com/agent/tickets/9456)
+- **"information process advice"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -283,80 +282,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#9457](https://tbpro.zendesk.com/agent/tickets/9457)** · Einrichten E-Mail
-  > Das Thunderbird E-Mail einrichten. Ich kann keine E-Mails lesen. Ausser bei [email]
-- **[#9456](https://tbpro.zendesk.com/agent/tickets/9456)** · Ich kann das Thunderbird E-Mail nicht mehr einrichte,
-  > Ich weiss nicht, ob es am Server oder am Passwort- oder am Nahmen
-- **[#9450](https://tbpro.zendesk.com/agent/tickets/9450)** · Dotaz
-  > Dobrý den, chtěla bych se zeptat, zda mohu platit pouze měsíčně... Chtěla bych si vyzkoušet, jak mně bude služba vůbec vyhovovat. Děkuji.
-- **[#9448](https://tbpro.zendesk.com/agent/tickets/9448)** · ricing feedback: Suggesting a softer entry point
-  > Hi team, I’m a big fan of your work and super curious about the new products. I totally get that free trials or monthly plans might not be the most sustainable route for you right…
-- **[#9444](https://tbpro.zendesk.com/agent/tickets/9444)** · E Mail account
-  > ich kann mich nicht mehr anmelden
-- **[#9438](https://tbpro.zendesk.com/agent/tickets/9438)** · POP Server
-  > Is there not a POP option for the outgoing server?
-
-### Aliases — 2 tickets
-
-- **[#9449](https://tbpro.zendesk.com/agent/tickets/9449)** · Email Account versus Alias
-  > If I'm understanding everything I'm reading in the help articles, I can only have one EMAIL ADDRESS per annual subscription, but then can set up 15 ALIASES, or unlimited aliases…
-- **[#9432](https://tbpro.zendesk.com/agent/tickets/9432)** · Swapping Primary e-mail with an alias
-  > Is it possible to swap my current primary/subscription e-mail address ([email]) with one of my aliases ([email])? Thanks, [name]
-
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
-
-- **[#9440](https://tbpro.zendesk.com/agent/tickets/9440)** · Refus de la plateforme [domain] sortant [domain]
-  > comment recuperer mes mail sur deb compte [email]
-- **[#9437](https://tbpro.zendesk.com/agent/tickets/9437)** · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
-  > Hello [name], I am reporting a reproducible Gmail deliverability issue affecting messages sent through Thundermail SMTP when using app-password authentication. This does not…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9454](https://tbpro.zendesk.com/agent/tickets/9454)** · Custom Domain Not Working
-  > I have set the custom domain DNS settings as suggested at my domain provider (Namecheap) with a short TTL, but the verification step is still failing. SRV records seem OK, but TXT…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#9446](https://tbpro.zendesk.com/agent/tickets/9446)** · Monthly payments and discount 
-  > Hi, Currently, the subscription monthly payment is not available. I'm hoping for it to be part of the roadmap at some point or at least cheaper subscription tiers to be present…
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9442](https://tbpro.zendesk.com/agent/tickets/9442)** · All Firefox relay mails get marked as spam
-  > Hi team, could you please adjust the spam filter in a way that relay mails are not marked as spam. If I can change that myself. Please let me know. Thank you, [name]
+- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain
+  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
+- **[#9460](https://tbpro.zendesk.com/agent/tickets/9460)** · Custom Domain
+  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
 
 ## New tickets — last 24h
 
-- [9432](https://tbpro.zendesk.com/agent/tickets/9432) · [new] · 2026-10-03T21:00 · Swapping Primary e-mail with an alias
-- [9437](https://tbpro.zendesk.com/agent/tickets/9437) · [new] · 2026-10-04T00:48 · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
-- [9438](https://tbpro.zendesk.com/agent/tickets/9438) · [new] · 2026-10-04T01:18 · POP Server
-- [9440](https://tbpro.zendesk.com/agent/tickets/9440) · [new] · 2026-10-04T07:07 · Refus de la plateforme [domain] sortant [domain]
-- [9442](https://tbpro.zendesk.com/agent/tickets/9442) · [new] · 2026-10-04T08:44 · All Firefox relay mails get marked as spam
-- [9444](https://tbpro.zendesk.com/agent/tickets/9444) · [new] · 2026-10-04T09:10 · E Mail account
-- [9446](https://tbpro.zendesk.com/agent/tickets/9446) · [new] · 2026-10-04T09:33 · Monthly payments and discount 
-- [9448](https://tbpro.zendesk.com/agent/tickets/9448) · [new] · 2026-10-04T11:33 · ricing feedback: Suggesting a softer entry point
-- [9449](https://tbpro.zendesk.com/agent/tickets/9449) · [new] · 2026-10-04T13:26 · Email Account versus Alias
-- [9450](https://tbpro.zendesk.com/agent/tickets/9450) · [new] · 2026-10-04T13:56 · Dotaz
-- [9454](https://tbpro.zendesk.com/agent/tickets/9454) · [new] · 2026-10-04T15:29 · Custom Domain Not Working
-- [9456](https://tbpro.zendesk.com/agent/tickets/9456) · [new] · 2026-10-04T17:04 · Ich kann das Thunderbird E-Mail nicht mehr einrichte,
-- [9457](https://tbpro.zendesk.com/agent/tickets/9457) · [new] · 2026-10-04T17:15 · Einrichten E-Mail
+- [9460](https://tbpro.zendesk.com/agent/tickets/9460) · [new] · 2026-10-04T20:05 · Custom Domain
+- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [new] · 2026-10-04T20:05 · Custom Domain
 
 ## Solved — last 24h
 
-- · [9187](https://tbpro.zendesk.com/agent/tickets/9187) · 2026-10-03T20:01 · N/A
-- · [9087](https://tbpro.zendesk.com/agent/tickets/9087) · 2026-10-03T20:01 · login issues
-- · [9080](https://tbpro.zendesk.com/agent/tickets/9080) · 2026-10-03T21:01 · cannot complete sign up
-- · [9079](https://tbpro.zendesk.com/agent/tickets/9079) · 2026-10-03T21:01 · Question 
-- · [9256](https://tbpro.zendesk.com/agent/tickets/9256) · 2026-10-03T22:01 · Homeserver Mail
-- · [9189](https://tbpro.zendesk.com/agent/tickets/9189) · 2026-10-03T22:01 · recovery email
-- · [8997](https://tbpro.zendesk.com/agent/tickets/8997) · 2026-10-03T22:01 · Desktop Installation
-- · [9260](https://tbpro.zendesk.com/agent/tickets/9260) · 2026-10-03T23:01 · فتح حساب بريد إلكتروني 
-- · [8605](https://tbpro.zendesk.com/agent/tickets/8605) · 2026-10-04T16:02 · Problem with sending emails
-- · [9267](https://tbpro.zendesk.com/agent/tickets/9267) · 2026-10-04T17:02 · Send message failure
-- · [9234](https://tbpro.zendesk.com/agent/tickets/9234) · 2026-10-04T17:02 · Questions before accepting invitation
-- · [9288](https://tbpro.zendesk.com/agent/tickets/9288) · 2026-10-04T18:01 · Couldn’t pay.
+- · [9293](https://tbpro.zendesk.com/agent/tickets/9293) · 2026-10-04T20:02 · Cancel Account
+- · [9026](https://tbpro.zendesk.com/agent/tickets/9026) · 2026-10-04T20:02 · My folders do not sync
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
