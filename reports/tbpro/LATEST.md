@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 09:32 ET** · refreshes hourly_  
+_Updated: **2026-10-05 10:33 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 141.4h · mean 176.4h (proxy: updated_at − created_at, 337 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"hosted bottom"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
+- **Median AHT**: 141.6h · mean 176.7h (proxy: updated_at − created_at, 334 solved tickets)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -136,7 +130,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
@@ -214,11 +208,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **solved**: 337
-- **closed**: 213
-- **pending**: 36
-- **open**: 24
-- **new**: 23
+- **solved**: 334
+- **closed**: 216
+- **pending**: 37
+- **open**: 26
+- **new**: 20
 - **hold**: 10
 
 ## Service (cumulative)
@@ -283,12 +277,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 2 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain
-  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
-- **[#9460](https://tbpro.zendesk.com/agent/tickets/9460)** · Custom Domain
-  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
+- **[#9473](https://tbpro.zendesk.com/agent/tickets/9473)** · Gnome and Evolution can't connect
+  > Hi guys, I tried to set up Thundermail in my Fedora-Gnome set-up. Both Gnome-Online-Accounts (central account hub) and Evolution (e-mail program) auto-recognise the settings.…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -300,12 +292,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail
   > Es heisst immer, Name oder Passwort stimmt nicht
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain
+  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
+
 ## New tickets — last 24h
 
-- [9460](https://tbpro.zendesk.com/agent/tickets/9460) · [new] · 2026-10-04T20:05 · Custom Domain
-- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [new] · 2026-10-04T20:05 · Custom Domain
+- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [open] · 2026-10-04T20:05 · Custom Domain
 - [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [new] · 2026-10-05T04:56 · Einrichten E-Mail
 - [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [new] · 2026-10-05T05:40 · Thundermail account cancellation and refund
+- [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [open] · 2026-10-05T13:57 · Gnome and Evolution can't connect
 
 ## Solved — last 24h
 
