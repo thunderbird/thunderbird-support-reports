@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 16:42 ET** · refreshes hourly_  
+_Updated: **2026-10-05 17:29 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 57** of rollout — **35,000 invitees**, **645 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **13** solved in last 24h
-- **643** tickets total since launch · contact rate **2%** of 35000 invitees
+- **645** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 92%  (34 good / 3 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 130.5h · mean 158.1h (proxy: updated_at − created_at, 43 solved tickets)
+- **Median AHT**: 130.5h · mean 155.9h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## Known problems — 10 problem(s), 83 incident(s)
 
@@ -93,7 +93,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [solved] · 2026-09-26 · _Refund_
   - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [solved] · 2026-09-29 · _Cancel Account_
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [solved] · 2026-09-30 · _Request for cancellation and full refund_
-  - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [pending] · 2026-09-30 · _Refund_
+  - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [solved] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [solved] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [solved] · 2026-10-01 · _Delete account and subscription_
@@ -114,7 +114,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [pending] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -134,7 +134,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
@@ -199,10 +199,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · _Thundermail account cancellation and refund_
   > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail email address is: [email]. Please let me…
+- [9483](https://tbpro.zendesk.com/agent/tickets/9483) · [open] · _Account deletion and refund_
+  > Please cancel my subscription and issue me with a refund. Many thanks in advance.
 
 ## New ideas on FeatureOS
 
@@ -213,15 +215,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 518
-- **pending**: 58
-- **solved**: 43
-- **open**: 12
-- **hold**: 12
+- **pending**: 56
+- **solved**: 47
+- **hold**: 13
+- **open**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 359
-- **Thundermail**: 229
+- **Account Hub**: 361
+- **Thundermail**: 230
 - **Send**: 14
 - **Appointment**: 8
 
@@ -229,9 +231,9 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 141
+- **curious** + **explained**: 142
+- **change request** + **actioned**: 91
 - **blocked** + **explained**: 90
-- **change request** + **actioned**: 90
 - **confused** + **explained**: 41
 - **curious** + **informed**: 37
 - **blocked** + **investigated**: 31
