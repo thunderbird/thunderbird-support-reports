@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 01:35 ET** · refreshes hourly_  
+_Updated: **2026-10-05 02:55 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 57** of rollout — **35,000 invitees**, **642 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
-- **642** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **2** solved in last 24h
+- **643** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -20,7 +20,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **642 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"field seems"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
+- **"domain included screenshot"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
@@ -201,9 +201,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [new] · _Thundermail account cancellation and refund_
+  > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail email address is: [email]. Please let me…
 
 ## New ideas on FeatureOS
 
@@ -216,14 +217,14 @@ _(none in last 24h)_
 - **solved**: 337
 - **closed**: 213
 - **pending**: 38
+- **new**: 23
 - **open**: 22
-- **new**: 22
 - **hold**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 352
-- **Thundermail**: 232
+- **Thundermail**: 233
 - **Send**: 15
 - **Appointment**: 8
 
@@ -289,6 +290,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9460](https://tbpro.zendesk.com/agent/tickets/9460)** · Custom Domain
   > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9467](https://tbpro.zendesk.com/agent/tickets/9467)** · Thundermail account cancellation and refund
+  > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail
@@ -299,6 +305,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9460](https://tbpro.zendesk.com/agent/tickets/9460) · [new] · 2026-10-04T20:05 · Custom Domain
 - [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [new] · 2026-10-04T20:05 · Custom Domain
 - [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [new] · 2026-10-05T04:56 · Einrichten E-Mail
+- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [new] · 2026-10-05T05:40 · Thundermail account cancellation and refund
 
 ## Solved — last 24h
 
