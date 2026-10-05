@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 02:55 ET** · refreshes hourly_  
+_Updated: **2026-10-05 03:47 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **643 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"domain included screenshot"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
+- **"included screenshot custom"** — 2 tickets in 24h (new; baseline 0 cum) — [#9460](https://tbpro.zendesk.com/agent/tickets/9460), [#9461](https://tbpro.zendesk.com/agent/tickets/9461)
 
 ## Known problems — 10 problem(s), 79 incident(s)
 
