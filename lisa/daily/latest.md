@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 12:32 ET** · refreshes hourly_  
+_Updated: **2026-10-05 13:39 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
+- **5** new tickets in last 24h · **7** solved in last 24h
 - **641** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 92%  (33 good / 3 bad)
+- **CSAT (24h)**: 92%  (34 good / 3 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 128.1h · mean 156.8h (proxy: updated_at − created_at, 43 solved tickets)
+- **Median AHT**: 133.3h · mean 162.0h (proxy: updated_at − created_at, 41 solved tickets)
 
 ## Known problems — 10 problem(s), 80 incident(s)
 
@@ -24,7 +24,7 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **641 tickets** so fa
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
-  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [pending] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
+  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [open] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -209,16 +209,15 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 511
-- **pending**: 47
-- **solved**: 43
-- **open**: 28
+- **closed**: 514
+- **pending**: 48
+- **solved**: 41
+- **open**: 27
 - **hold**: 11
-- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 356
+- **Account Hub**: 357
 - **Thundermail**: 228
 - **Send**: 15
 - **Appointment**: 8
@@ -227,10 +226,10 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 139
+- **curious** + **explained**: 140
 - **blocked** + **explained**: 89
 - **change request** + **actioned**: 86
-- **confused** + **explained**: 40
+- **confused** + **explained**: 41
 - **curious** + **informed**: 37
 - **blocked** + **investigated**: 31
 - **request** + **redirected**: 26
@@ -278,17 +277,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
-
-- **[#9478](https://tbpro.zendesk.com/agent/tickets/9478)** · Direct Deposit  change
-  > I have opened a new bank account and I want to update my direct deposit information before the upcoming payroll. Please let me know when you can assist me with it, and I'll…
-- **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail
-  > Es heisst immer, Name oder Passwort stimmt nicht
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9467](https://tbpro.zendesk.com/agent/tickets/9467)** · Thundermail account cancellation and refund
   > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail…
+
+### Other / uncategorized — 1 tickets
+
+- **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail
+  > Es heisst immer, Name oder Passwort stimmt nicht
+
+### Pricing — payment issue — 1 tickets
+
+- **[#9478](https://tbpro.zendesk.com/agent/tickets/9478)** · Direct Deposit  change — why: **confused** · how: **explained**
+  > I have opened a new bank account and I want to update my direct deposit information before the upcoming payroll. Please let me know when you can assist me with it, and I'll…
 
 ### Account access issues — 1 tickets
 
@@ -306,7 +308,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [open] · 2026-10-05T04:56 · Einrichten E-Mail
 - [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [open] · 2026-10-05T05:40 · Thundermail account cancellation and refund
 - [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [pending] · 2026-10-05T13:57 · Gnome and Evolution can't connect
-- [9478](https://tbpro.zendesk.com/agent/tickets/9478) · [new] · 2026-10-05T16:30 · Direct Deposit  change
+- [9478](https://tbpro.zendesk.com/agent/tickets/9478) · [pending] · 2026-10-05T16:30 · Direct Deposit  change
 
 ## Solved — last 24h
 
@@ -316,6 +318,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9330](https://tbpro.zendesk.com/agent/tickets/9330) · 2026-10-05T15:12 · change account to [domain]
 - · [9319](https://tbpro.zendesk.com/agent/tickets/9319) · 2026-10-05T16:02 · Refund
 - · [9314](https://tbpro.zendesk.com/agent/tickets/9314) · 2026-10-05T16:02 · Request for cancellation and full refund
+- · [9325](https://tbpro.zendesk.com/agent/tickets/9325) · 2026-10-05T17:02 · I cant log in intro my email [email]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
