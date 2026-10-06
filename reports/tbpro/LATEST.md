@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-10-05
+# Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-05 23:29 ET** · refreshes hourly_  
-_24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-06 00:29 ET** · refreshes hourly_  
+_24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 57** of rollout — **35,000 invitees**, **648 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 58** of rollout — **35,000 invitees**, **649 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **13** solved in last 24h
-- **648** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 92%  (34 good / 3 bad)
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **649** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
 - **Median AHT**: 128.1h · mean 154.6h (proxy: updated_at − created_at, 49 solved tickets)
@@ -200,12 +200,9 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · _Thundermail account cancellation and refund_
-  > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail email address is: [email]. Please let me…
-- [9483](https://tbpro.zendesk.com/agent/tickets/9483) · [open] · _Account deletion and refund_
-  > Please cancel my subscription and issue me with a refund. Many thanks in advance.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -218,7 +215,7 @@ Regards, [name]_
 - **closed**: 518
 - **pending**: 51
 - **solved**: 49
-- **open**: 16
+- **open**: 17
 - **hold**: 14
 
 ## Service (cumulative)
@@ -283,63 +280,50 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 2 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#9480](https://tbpro.zendesk.com/agent/tickets/9480)** · Domain blocked from receiving emails
-  > Hello, It seems that my domain “**[domain]”** is blocked from receiving emails on Thundermail / [domain]. Could you please check why the domain is being blocked and let me know…
-- **[#9461](https://tbpro.zendesk.com/agent/tickets/9461)** · Custom Domain — why: **blocked** · how: **explained**
-  > I've included a screenshot of the items that get an error message when I verify my setup in Thundermail. I also included a screenshot of the "add custom DNS Record" in my…
+- **[#9486](https://tbpro.zendesk.com/agent/tickets/9486)** · Testing if external_id works
+  > Could you let me know if the external_id / payment status works?
+- **[#9483](https://tbpro.zendesk.com/agent/tickets/9483)** · Account deletion and refund
+  > Please cancel my subscription and issue me with a refund. Many thanks in advance.
 
-### Privacy / data / jurisdiction concerns — 1 tickets
+### Security / hacked — 1 tickets
 
-- **[#9479](https://tbpro.zendesk.com/agent/tickets/9479)** · Account deletion — why: **change request** · how: **actioned**
-  > Please permanently delete my account and all associated data as soon as possible.
+- **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
+  > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
 
-### Pricing — payment issue — 1 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#9478](https://tbpro.zendesk.com/agent/tickets/9478)** · Direct Deposit  change — why: **confused** · how: **explained**
-  > I have opened a new bank account and I want to update my direct deposit information before the upcoming payroll. Please let me know when you can assist me with it, and I'll…
+- **[#9488](https://tbpro.zendesk.com/agent/tickets/9488)** · hullo
+  > hi
 
-### Account access issues — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#9473](https://tbpro.zendesk.com/agent/tickets/9473)** · Gnome and Evolution can't connect — why: **blocked** · how: **investigated**
-  > Hi guys, I tried to set up Thundermail in my Fedora-Gnome set-up. Both Gnome-Online-Accounts (central account hub) and Evolution (e-mail program) auto-recognise the settings.…
+- **[#9487](https://tbpro.zendesk.com/agent/tickets/9487)** · mailstrom [[262]]: Spam filtering - DNS blocklist lookups return BLOCKED, spam delivered as ham · 🔗 [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262)
+  > Summary: A customer is getting spam in their inbox instead of having it flagged. Their headers, dated Sep 24, 2026, show the blocklist checks all coming back BLOCKED at 0.00:…
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#9467](https://tbpro.zendesk.com/agent/tickets/9467)** · Thundermail account cancellation and refund — why: **change request** · how: **actioned**
-  > Hello, I am within my 14-day initial window and would like to cancel my thundermail subscription and receive a refund. I have canceled my subscription already. My thundermail…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#9464](https://tbpro.zendesk.com/agent/tickets/9464)** · Einrichten E-Mail — why: **blocked** · how: **explained**
-  > Es heisst immer, Name oder Passwort stimmt nicht
+- **[#9482](https://tbpro.zendesk.com/agent/tickets/9482)** · Cannot varify new e-mail — why: **blocked** · how: **investigated**
+  > Hello. I attempted to create the new Thundermail and made mine at [email] I am tired and put the address above as my e-mail for my account but I cannot sign-in to the same address…
 
 ## New tickets — last 24h
 
-- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [open] · 2026-10-04T20:05 · Custom Domain
-- [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [pending] · 2026-10-05T04:56 · Einrichten E-Mail
-- [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05T05:40 · Thundermail account cancellation and refund
-- [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [pending] · 2026-10-05T13:57 · Gnome and Evolution can't connect
-- [9478](https://tbpro.zendesk.com/agent/tickets/9478) · [pending] · 2026-10-05T16:30 · Direct Deposit  change
-- [9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05T18:56 · Account deletion
-- [9480](https://tbpro.zendesk.com/agent/tickets/9480) · [open] · 2026-10-05T19:26 · Domain blocked from receiving emails
+- [9482](https://tbpro.zendesk.com/agent/tickets/9482) · [pending] · 2026-10-05T20:47 · Cannot varify new e-mail
+- [9483](https://tbpro.zendesk.com/agent/tickets/9483) · [open] · 2026-10-05T20:55 · Account deletion and refund
+- [9486](https://tbpro.zendesk.com/agent/tickets/9486) · [open] · 2026-10-05T23:18 · Testing if external_id works
+- [9487](https://tbpro.zendesk.com/agent/tickets/9487) · [hold] · 2026-10-05T23:23 · mailstrom [[262]]: Spam filtering - DNS blocklist lookups return BLOCKED, spam delivered as ham 🔗 [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262)
+- [9488](https://tbpro.zendesk.com/agent/tickets/9488) · [open] · 2026-10-06T00:07 · hullo
+- [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
 
 ## Solved — last 24h
 
-- · [9293](https://tbpro.zendesk.com/agent/tickets/9293) · 2026-10-04T20:02 · Cancel Account
-- · [9026](https://tbpro.zendesk.com/agent/tickets/9026) · 2026-10-04T20:02 · My folders do not sync
-- · [9355](https://tbpro.zendesk.com/agent/tickets/9355) · 2026-10-05T15:11 · Additional year of the subscription
-- · [9330](https://tbpro.zendesk.com/agent/tickets/9330) · 2026-10-05T15:12 · change account to [domain]
-- · [9319](https://tbpro.zendesk.com/agent/tickets/9319) · 2026-10-05T16:02 · Refund
-- · [9314](https://tbpro.zendesk.com/agent/tickets/9314) · 2026-10-05T16:02 · Request for cancellation and full refund
-- · [9325](https://tbpro.zendesk.com/agent/tickets/9325) · 2026-10-05T17:02 · I cant log in intro my email [email]
-- · [9350](https://tbpro.zendesk.com/agent/tickets/9350) · 2026-10-05T17:45 · Subscriptpion stuck a verifying email address
-- · [9329](https://tbpro.zendesk.com/agent/tickets/9329) · 2026-10-05T18:02 · 111
-- · [9429](https://tbpro.zendesk.com/agent/tickets/9429) · 2026-10-05T19:00 · Can I add thundermail to the regular thunderbird desktop?
-- · [9316](https://tbpro.zendesk.com/agent/tickets/9316) · 2026-10-05T19:01 · https://[domain]/
-- · [9311](https://tbpro.zendesk.com/agent/tickets/9311) · 2026-10-05T19:01 · I dont find the first sign up, would like to create a mail access
-- · [9309](https://tbpro.zendesk.com/agent/tickets/9309) · 2026-10-05T19:01 · Cannot sign in.  Forgot user name and password.
+- · [9339](https://tbpro.zendesk.com/agent/tickets/9339) · 2026-10-05T21:02 · Sign up
+- · [9332](https://tbpro.zendesk.com/agent/tickets/9332) · 2026-10-05T21:02 · Adding Comcast email 
+- · [9318](https://tbpro.zendesk.com/agent/tickets/9318) · 2026-10-05T21:02 · Refund
+- · [9287](https://tbpro.zendesk.com/agent/tickets/9287) · 2026-10-05T21:02 · Uploading a .png does nothing
+- · [9334](https://tbpro.zendesk.com/agent/tickets/9334) · 2026-10-05T22:01 · Thundermail
+- · [9345](https://tbpro.zendesk.com/agent/tickets/9345) · 2026-10-06T00:01 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
