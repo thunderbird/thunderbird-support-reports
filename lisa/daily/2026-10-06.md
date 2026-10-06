@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 06:25 ET** · refreshes hourly_  
+_Updated: **2026-10-06 07:23 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 58** of rollout — **35,000 invitees**, **648 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 58** of rollout — **35,000 invitees**, **649 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
-- **648** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **649** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -200,9 +200,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [new] · _Please cancel my Beta subscription and give a refund_
+  > I'm in the 14 day cancellation window. Please cancel this account and refund my $72 payment. Given not know the ongoing cost of this service, not knowing the final features nor it's release window, I can't transition…
 
 ## New ideas on FeatureOS
 
@@ -217,11 +218,12 @@ _(none in last 24h)_
 - **solved**: 46
 - **open**: 17
 - **hold**: 14
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 364
-- **Thundermail**: 229
+- **Thundermail**: 230
 - **Send**: 14
 - **Appointment**: 8
 
@@ -280,8 +282,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#9496](https://tbpro.zendesk.com/agent/tickets/9496)** · Please cancel my Beta subscription and give a refund
+  > I'm in the 14 day cancellation window. Please cancel this account and refund my $72 payment. Given not know the ongoing cost of this service, not knowing the final features nor…
 - **[#9486](https://tbpro.zendesk.com/agent/tickets/9486)** · Testing if external_id works
   > Could you let me know if the external_id / payment status works?
 - **[#9483](https://tbpro.zendesk.com/agent/tickets/9483)** · Account deletion and refund
@@ -309,6 +313,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9486](https://tbpro.zendesk.com/agent/tickets/9486) · [open] · 2026-10-05T23:18 · Testing if external_id works
 - [9487](https://tbpro.zendesk.com/agent/tickets/9487) · [hold] · 2026-10-05T23:23 · mailstrom [[262]]: Spam filtering - DNS blocklist lookups return BLOCKED, spam delivered as ham 🔗 [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262)
 - [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
+- [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [new] · 2026-10-06T10:42 · Please cancel my Beta subscription and give a refund
 
 ## Solved — last 24h
 
