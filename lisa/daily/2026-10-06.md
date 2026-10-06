@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 17:22 ET** · refreshes hourly_  
+_Updated: **2026-10-06 18:24 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -223,9 +223,9 @@ Regards, [name]_
 
 - **closed**: 524
 - **solved**: 59
-- **pending**: 50
-- **hold**: 15
-- **open**: 8
+- **pending**: 48
+- **hold**: 14
+- **open**: 11
 
 ## Service (cumulative)
 
@@ -357,7 +357,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9506](https://tbpro.zendesk.com/agent/tickets/9506) · [solved] · 2026-10-06T16:08 · MACOS installer for desktop connection issues
 - [9508](https://tbpro.zendesk.com/agent/tickets/9508) · [pending] · 2026-10-06T16:14 · Delete Account
 - [9509](https://tbpro.zendesk.com/agent/tickets/9509) · [pending] · 2026-10-06T17:04 · récupération messagerie
-- [9512](https://tbpro.zendesk.com/agent/tickets/9512) · [pending] · 2026-10-06T18:39 · [domain] - no way to fix a bad email address for subscription billing.
+- [9512](https://tbpro.zendesk.com/agent/tickets/9512) · [open] · 2026-10-06T18:39 · [domain] - no way to fix a bad email address for subscription billing.
 
 ## Solved — last 24h
 
