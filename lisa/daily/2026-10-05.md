@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 21:38 ET** · refreshes hourly_  
+_Updated: **2026-10-05 22:35 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -216,9 +216,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 518
-- **pending**: 53
+- **pending**: 51
 - **solved**: 49
-- **open**: 14
+- **open**: 16
 - **hold**: 14
 
 ## Service (cumulative)
@@ -317,7 +317,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [pending] · 2026-10-04T20:05 · Custom Domain
+- [9461](https://tbpro.zendesk.com/agent/tickets/9461) · [open] · 2026-10-04T20:05 · Custom Domain
 - [9464](https://tbpro.zendesk.com/agent/tickets/9464) · [pending] · 2026-10-05T04:56 · Einrichten E-Mail
 - [9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05T05:40 · Thundermail account cancellation and refund
 - [9473](https://tbpro.zendesk.com/agent/tickets/9473) · [pending] · 2026-10-05T13:57 · Gnome and Evolution can't connect
