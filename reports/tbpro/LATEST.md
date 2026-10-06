@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 13:21 ET** · refreshes hourly_  
+_Updated: **2026-10-06 14:29 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 58** of rollout — **35,000 invitees**, **656 tickets** so fa
 
 ## At a glance
 
-- **13** new tickets in last 24h · **15** solved in last 24h
+- **13** new tickets in last 24h · **18** solved in last 24h
 - **656** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (151 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 131.1h · mean 157.9h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 132.0h · mean 157.4h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -29,7 +29,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 4 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
-  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [open] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [solved] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
@@ -101,7 +101,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [solved] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [solved] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [solved] · 2026-09-30 · _Refund_
-  - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [pending] · 2026-10-01 · _Account Deletion_
+  - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [solved] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [solved] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [pending] · 2026-10-02 · _would like to cancel thunderbird pro_
@@ -122,7 +122,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -222,16 +222,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 524
-- **solved**: 50
-- **pending**: 47
-- **open**: 20
-- **hold**: 14
-- **new**: 1
+- **solved**: 52
+- **pending**: 48
+- **open**: 17
+- **hold**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 366
-- **Thundermail**: 232
+- **Thundermail**: 233
 - **Send**: 14
 - **Appointment**: 9
 
@@ -239,11 +238,11 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 143
+- **curious** + **explained**: 144
 - **change request** + **actioned**: 93
 - **blocked** + **explained**: 90
 - **confused** + **explained**: 42
-- **curious** + **informed**: 37
+- **curious** + **informed**: 38
 - **blocked** + **investigated**: 32
 - **request** + **redirected**: 27
 - **confused** + **informed**: 27
@@ -255,9 +254,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **explained**: 6
 - **blocked** + **—**: 6
 - **change request** + **explained**: 5
+- **concerned** + **investigated**: 5
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
-- **concerned** + **investigated**: 4
 - **confused** + **investigated**: 4
 - **request** + **explained**: 3
 - **change request** + **escalated**: 3
@@ -321,15 +320,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9505](https://tbpro.zendesk.com/agent/tickets/9505)** · Aliases not showing up
   > Unfortunately, the aliases I’ve set up aren’t showing up in the web interface. This means I can’t reply with the necessary emails because, for example, Amazon only responds if you…
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#9502](https://tbpro.zendesk.com/agent/tickets/9502)** · Adressbücher
-  > Dear [name] or Madam, I have a Fritz!Box 7590 and two FRITZ!Fon C6 phones! I use them to sync my contacts on the FRITZ!Fon C6. This worked without any problems with 1&1! Now that…
-
 ### Security / hacked — 1 tickets
 
 - **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
   > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#9502](https://tbpro.zendesk.com/agent/tickets/9502)** · Adressbücher — why: **concerned** · how: **investigated**
+  > Dear [name] or Madam, I have a Fritz!Box 7590 and two FRITZ!Fon C6 phones! I use them to sync my contacts on the FRITZ!Fon C6. This worked without any problems with 1&1! Now that…
 
 ### Appointment / calendar — 1 tickets
 
@@ -355,12 +354,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
 - [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06T10:42 · Please cancel my Beta subscription and give a refund
 - [9500](https://tbpro.zendesk.com/agent/tickets/9500) · [pending] · 2026-10-06T12:21 · use thunderbird app  appointment in linux thnderbird app
-- [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [open] · 2026-10-06T13:05 · Adressbücher
+- [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [pending] · 2026-10-06T13:05 · Adressbücher
 - [9504](https://tbpro.zendesk.com/agent/tickets/9504) · [open] · 2026-10-06T13:56 · langue
 - [9505](https://tbpro.zendesk.com/agent/tickets/9505) · [open] · 2026-10-06T14:07 · Aliases not showing up
 - [9506](https://tbpro.zendesk.com/agent/tickets/9506) · [open] · 2026-10-06T16:08 · MACOS installer for desktop connection issues
 - [9508](https://tbpro.zendesk.com/agent/tickets/9508) · [open] · 2026-10-06T16:14 · Delete Account
-- [9509](https://tbpro.zendesk.com/agent/tickets/9509) · [new] · 2026-10-06T17:04 · récupération messagerie
+- [9509](https://tbpro.zendesk.com/agent/tickets/9509) · [open] · 2026-10-06T17:04 · récupération messagerie
 
 ## Solved — last 24h
 
@@ -379,6 +378,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9333](https://tbpro.zendesk.com/agent/tickets/9333) · 2026-10-06T17:02 · Thundermail address format
 - · [9279](https://tbpro.zendesk.com/agent/tickets/9279) · 2026-10-06T17:02 · Failed registration after server error
 - · [9351](https://tbpro.zendesk.com/agent/tickets/9351) · 2026-10-06T17:02 · ACCES A MON COURRIER
+- · [9350](https://tbpro.zendesk.com/agent/tickets/9350) · 2026-10-06T18:02 · Subscriptpion stuck a verifying email address
+- · [9349](https://tbpro.zendesk.com/agent/tickets/9349) · 2026-10-06T18:02 · Account Deletion
+- · [9361](https://tbpro.zendesk.com/agent/tickets/9361) · 2026-10-06T18:09 · fumbled password
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
