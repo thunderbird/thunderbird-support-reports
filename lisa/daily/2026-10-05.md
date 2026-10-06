@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-05
 
-_Updated: **2026-10-05 19:21 ET** · refreshes hourly_  
+_Updated: **2026-10-05 20:59 ET** · refreshes hourly_  
 _24h window: 2026-10-04T16:00 → 2026-10-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 57** of rollout — **35,000 invitees**, **646 tickets** so far (1.8% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 57** of rollout — **35,000 invitees**, **648 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **13** solved in last 24h
-- **646** tickets total since launch · contact rate **2%** of 35000 invitees
+- **648** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 92%  (34 good / 3 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 129.3h · mean 155.3h (proxy: updated_at − created_at, 48 solved tickets)
+- **Median AHT**: 128.1h · mean 154.6h (proxy: updated_at − created_at, 49 solved tickets)
 
 ## Known problems — 10 problem(s), 83 incident(s)
 
@@ -137,8 +137,9 @@ Flight 8 is **day 57** of rollout — **35,000 invitees**, **646 tickets** so fa
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
-## Other tickets linked to GitHub — 8 ticket(s) → 9 issue(s)
+## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
 
+- 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
@@ -215,14 +216,14 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 518
-- **pending**: 57
-- **solved**: 48
-- **hold**: 13
-- **open**: 10
+- **pending**: 53
+- **solved**: 49
+- **open**: 14
+- **hold**: 14
 
 ## Service (cumulative)
 
-- **Account Hub**: 364
+- **Account Hub**: 365
 - **Thundermail**: 229
 - **Send**: 14
 - **Appointment**: 8
