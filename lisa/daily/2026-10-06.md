@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 11:30 ET** · refreshes hourly_  
+_Updated: **2026-10-06 12:28 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 58** of rollout — **35,000 invitees**, **653 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 58** of rollout — **35,000 invitees**, **655 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **7** solved in last 24h
-- **653** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **11** solved in last 24h
+- **655** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 129.3h · mean 156.7h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 131.1h · mean 157.8h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -221,15 +221,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 522
-- **pending**: 50
-- **solved**: 46
-- **open**: 21
+- **pending**: 49
+- **solved**: 48
+- **open**: 20
 - **hold**: 14
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 365
-- **Thundermail**: 230
+- **Thundermail**: 232
 - **Send**: 14
 - **Appointment**: 9
 
@@ -244,7 +245,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 37
 - **blocked** + **investigated**: 32
 - **request** + **redirected**: 27
-- **confused** + **informed**: 26
+- **confused** + **informed**: 27
 - **concerned** + **explained**: 23
 - **blocked** + **redirected**: 18
 - **blocked** + **informed**: 14
@@ -297,6 +298,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9496](https://tbpro.zendesk.com/agent/tickets/9496)** · Please cancel my Beta subscription and give a refund — why: **change request** · how: **actioned**
   > I'm in the 14 day cancellation window. Please cancel this account and refund my $72 payment. Given not know the ongoing cost of this service, not knowing the final features nor…
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#9508](https://tbpro.zendesk.com/agent/tickets/9508)** · Delete Account
+  > Hello, please delete my account - I don't want to pay but I created an account just to see what happens. But as long as I do not pay, I cannot delete the account myself. Thanks
+
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#9506](https://tbpro.zendesk.com/agent/tickets/9506)** · MACOS installer for desktop connection issues
+  > I have been communicating via email for quite some to to no avail! FASTER RESPONSES THAN I CURENTLY HAVE BEEN GETTING WILL BE MUCH APPRECIATED! Here is just a partial transcript…
+
 ### Aliases — 1 tickets
 
 - **[#9505](https://tbpro.zendesk.com/agent/tickets/9505)** · Aliases not showing up
@@ -344,6 +355,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [open] · 2026-10-06T13:05 · Adressbücher
 - [9504](https://tbpro.zendesk.com/agent/tickets/9504) · [open] · 2026-10-06T13:56 · langue
 - [9505](https://tbpro.zendesk.com/agent/tickets/9505) · [open] · 2026-10-06T14:07 · Aliases not showing up
+- [9506](https://tbpro.zendesk.com/agent/tickets/9506) · [new] · 2026-10-06T16:08 · MACOS installer for desktop connection issues
+- [9508](https://tbpro.zendesk.com/agent/tickets/9508) · [new] · 2026-10-06T16:14 · Delete Account
 
 ## Solved — last 24h
 
@@ -354,6 +367,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9334](https://tbpro.zendesk.com/agent/tickets/9334) · 2026-10-05T22:01 · Thundermail
 - · [9345](https://tbpro.zendesk.com/agent/tickets/9345) · 2026-10-06T00:01 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
 - · [9317](https://tbpro.zendesk.com/agent/tickets/9317) · 2026-10-06T15:02 · I don`t have money to pay [domain]
+- · [9355](https://tbpro.zendesk.com/agent/tickets/9355) · 2026-10-06T16:01 · Additional year of the subscription
+- · [9330](https://tbpro.zendesk.com/agent/tickets/9330) · 2026-10-06T16:01 · change account to [domain]
+- · [9342](https://tbpro.zendesk.com/agent/tickets/9342) · 2026-10-06T16:01 · Can't access Thundermail, but you have my money
+- · [9277](https://tbpro.zendesk.com/agent/tickets/9277) · 2026-10-06T16:26 · Создание и оплата услуги.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
