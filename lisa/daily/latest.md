@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 16:26 ET** · refreshes hourly_  
+_Updated: **2026-10-06 17:22 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 58** of rollout — **35,000 invitees**, **657 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 58** of rollout — **35,000 invitees**, **656 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **25** solved in last 24h
-- **657** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **25** solved in last 24h
+- **656** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (152 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 130.6h · mean 153.5h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 130.6h · mean 153.3h (proxy: updated_at − created_at, 59 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -222,15 +222,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 524
-- **solved**: 58
-- **pending**: 52
+- **solved**: 59
+- **pending**: 50
 - **hold**: 15
 - **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 369
-- **Thundermail**: 232
+- **Account Hub**: 368
+- **Thundermail**: 233
 - **Send**: 14
 - **Appointment**: 9
 
@@ -259,12 +259,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 4
 - **confused** + **investigated**: 4
 - **request** + **explained**: 3
+- **confused** + **—**: 3
 - **change request** + **escalated**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
-- **confused** + **—**: 2
 - **change request** + **investigated**: 2
 - **curious** + **investigated**: 2
 - **other** + **—**: 2
@@ -290,10 +290,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 5 tickets
+### Subscription / billing / refund / cancel — 4 tickets
 
-- **[#9486](https://tbpro.zendesk.com/agent/tickets/9486)** · Testing if external_id works
-  > Could you let me know if the external_id / payment status works?
 - **[#9512](https://tbpro.zendesk.com/agent/tickets/9512)** · [domain] - no way to fix a bad email address for subscription billing. — why: **request** · how: **actioned**
   > I entered an incorrect e-mail address for my Thundermail subscription. The billing is processed by [domain]. They have no customer support except for bots who will only…
 - **[#9505](https://tbpro.zendesk.com/agent/tickets/9505)** · Aliases not showing up — why: **curious** · how: **explained**
@@ -303,15 +301,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9483](https://tbpro.zendesk.com/agent/tickets/9483)** · Account deletion and refund — why: **change request** · how: **actioned**
   > Please cancel my subscription and issue me with a refund. Many thanks in advance.
 
-### Security / hacked — 1 tickets
-
-- **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
-  > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
-
-### Webmail — 1 tickets
+### Webmail — 2 tickets
 
 - **[#9509](https://tbpro.zendesk.com/agent/tickets/9509)** · récupération messagerie — why: **curious** · how: **informed**
   > J'aimerai paramètrer mon compte messagerie car je viens de changer de fournisseur internet et souhaite sauvegarder tous mes anciens messages et dossiers présents actuellement dans…
+- **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand — why: **confused**
+  > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -352,9 +347,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9482](https://tbpro.zendesk.com/agent/tickets/9482) · [pending] · 2026-10-05T20:47 · Cannot varify new e-mail
 - [9483](https://tbpro.zendesk.com/agent/tickets/9483) · [pending] · 2026-10-05T20:55 · Account deletion and refund
-- [9486](https://tbpro.zendesk.com/agent/tickets/9486) · [open] · 2026-10-05T23:18 · Testing if external_id works
 - [9487](https://tbpro.zendesk.com/agent/tickets/9487) · [hold] · 2026-10-05T23:23 · mailstrom [[262]]: Spam filtering - DNS blocklist lookups return BLOCKED, spam delivered as ham 🔗 [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262)
-- [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
+- [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [pending] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
 - [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06T10:42 · Please cancel my Beta subscription and give a refund
 - [9500](https://tbpro.zendesk.com/agent/tickets/9500) · [pending] · 2026-10-06T12:21 · use thunderbird app  appointment in linux thnderbird app
 - [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [pending] · 2026-10-06T13:05 · Adressbücher
