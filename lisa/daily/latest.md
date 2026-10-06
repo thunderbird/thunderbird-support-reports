@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 10:25 ET** · refreshes hourly_  
+_Updated: **2026-10-06 11:30 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 58** of rollout — **35,000 invitees**, **653 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **6** solved in last 24h
+- **10** new tickets in last 24h · **7** solved in last 24h
 - **653** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (150 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 127.1h · mean 155.5h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 129.3h · mean 156.7h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"cancel subscription"** — 2 tickets in 24h (8.1× baseline; baseline 14 cum) — [#9483](https://tbpro.zendesk.com/agent/tickets/9483), [#9505](https://tbpro.zendesk.com/agent/tickets/9505)
 
-## Known problems — 10 problem(s), 83 incident(s)
+## Known problems — 10 problem(s), 84 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -38,7 +38,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 68 incident(s):
+- 69 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -107,6 +107,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [pending] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05 · _Thundermail account cancellation and refund_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
+  - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -140,7 +141,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
@@ -208,7 +209,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [open] · _Please cancel my Beta subscription and give a refund_
+- [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · _Please cancel my Beta subscription and give a refund_
   > I'm in the 14 day cancellation window. Please cancel this account and refund my $72 payment. Given not know the ongoing cost of this service, not knowing the final features nor it's release window, I can't transition…
 
 ## New ideas on FeatureOS
@@ -219,17 +220,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 521
-- **pending**: 48
+- **closed**: 522
+- **pending**: 50
 - **solved**: 46
-- **open**: 20
+- **open**: 21
 - **hold**: 14
-- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 364
-- **Thundermail**: 231
+- **Account Hub**: 365
+- **Thundermail**: 230
 - **Send**: 14
 - **Appointment**: 9
 
@@ -238,9 +238,9 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 143
-- **change request** + **actioned**: 91
+- **change request** + **actioned**: 92
 - **blocked** + **explained**: 90
-- **confused** + **explained**: 41
+- **confused** + **explained**: 42
 - **curious** + **informed**: 37
 - **blocked** + **investigated**: 32
 - **request** + **redirected**: 27
@@ -265,9 +265,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **informed**: 2
 - **confused** + **—**: 2
 - **change request** + **investigated**: 2
-- **concerned** + **redirected**: 2
 - **curious** + **investigated**: 2
 - **other** + **—**: 2
+- **concerned** + **redirected**: 2
 - **concerned** + **escalated**: 2
 - **request** + **informed**: 2
 - **telling us** + **n/a**: 2
@@ -290,12 +290,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 3 tickets
 
-- **[#9496](https://tbpro.zendesk.com/agent/tickets/9496)** · Please cancel my Beta subscription and give a refund
-  > I'm in the 14 day cancellation window. Please cancel this account and refund my $72 payment. Given not know the ongoing cost of this service, not knowing the final features nor…
 - **[#9486](https://tbpro.zendesk.com/agent/tickets/9486)** · Testing if external_id works
   > Could you let me know if the external_id / payment status works?
 - **[#9483](https://tbpro.zendesk.com/agent/tickets/9483)** · Account deletion and refund
   > Please cancel my subscription and issue me with a refund. Many thanks in advance.
+- **[#9496](https://tbpro.zendesk.com/agent/tickets/9496)** · Please cancel my Beta subscription and give a refund — why: **change request** · how: **actioned**
+  > I'm in the 14 day cancellation window. Please cancel this account and refund my $72 payment. Given not know the ongoing cost of this service, not knowing the final features nor…
 
 ### Aliases — 1 tickets
 
@@ -312,15 +312,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9502](https://tbpro.zendesk.com/agent/tickets/9502)** · Adressbücher
   > Dear [name] or Madam, I have a Fritz!Box 7590 and two FRITZ!Fon C6 phones! I use them to sync my contacts on the FRITZ!Fon C6. This worked without any problems with 1&1! Now that…
 
-### Appointment / calendar — 1 tickets
-
-- **[#9500](https://tbpro.zendesk.com/agent/tickets/9500)** · use thunderbird app  appointment in linux thnderbird app
-  > hi there, can i use the caldev calendar from thunderbird app appointment (https://[domain]/) in my linux thunderbird application ? i tried to add the offered caldev calendar from…
-
 ### Security / hacked — 1 tickets
 
 - **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
   > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
+
+### Appointment / calendar — 1 tickets
+
+- **[#9500](https://tbpro.zendesk.com/agent/tickets/9500)** · use thunderbird app  appointment in linux thnderbird app — why: **confused** · how: **explained**
+  > hi there, can i use the caldev calendar from thunderbird app appointment (https://[domain]/) in my linux thunderbird application ? i tried to add the offered caldev calendar from…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -339,11 +339,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9486](https://tbpro.zendesk.com/agent/tickets/9486) · [open] · 2026-10-05T23:18 · Testing if external_id works
 - [9487](https://tbpro.zendesk.com/agent/tickets/9487) · [hold] · 2026-10-05T23:23 · mailstrom [[262]]: Spam filtering - DNS blocklist lookups return BLOCKED, spam delivered as ham 🔗 [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262)
 - [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
-- [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [open] · 2026-10-06T10:42 · Please cancel my Beta subscription and give a refund
-- [9500](https://tbpro.zendesk.com/agent/tickets/9500) · [new] · 2026-10-06T12:21 · use thunderbird app  appointment in linux thnderbird app
-- [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [new] · 2026-10-06T13:05 · Adressbücher
-- [9504](https://tbpro.zendesk.com/agent/tickets/9504) · [new] · 2026-10-06T13:56 · langue
-- [9505](https://tbpro.zendesk.com/agent/tickets/9505) · [new] · 2026-10-06T14:07 · Aliases not showing up
+- [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06T10:42 · Please cancel my Beta subscription and give a refund
+- [9500](https://tbpro.zendesk.com/agent/tickets/9500) · [pending] · 2026-10-06T12:21 · use thunderbird app  appointment in linux thnderbird app
+- [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [open] · 2026-10-06T13:05 · Adressbücher
+- [9504](https://tbpro.zendesk.com/agent/tickets/9504) · [open] · 2026-10-06T13:56 · langue
+- [9505](https://tbpro.zendesk.com/agent/tickets/9505) · [open] · 2026-10-06T14:07 · Aliases not showing up
 
 ## Solved — last 24h
 
@@ -353,6 +353,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9287](https://tbpro.zendesk.com/agent/tickets/9287) · 2026-10-05T21:02 · Uploading a .png does nothing
 - · [9334](https://tbpro.zendesk.com/agent/tickets/9334) · 2026-10-05T22:01 · Thundermail
 - · [9345](https://tbpro.zendesk.com/agent/tickets/9345) · 2026-10-06T00:01 · He creado una cuenta. pero ¿significa que para mantenerla tendré que pagar algo?
+- · [9317](https://tbpro.zendesk.com/agent/tickets/9317) · 2026-10-06T15:02 · I don`t have money to pay [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
