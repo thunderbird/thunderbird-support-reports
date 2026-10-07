@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 09:28 ET** · refreshes hourly_  
+_Updated: **2026-10-07 10:26 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **663 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 59** of rollout — **35,000 invitees**, **665 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **4** solved in last 24h
-- **663** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **7** solved in last 24h
+- **665** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (153 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 130.6h · mean 153.8h (proxy: updated_at − created_at, 61 solved tickets)
+- **Median AHT**: 130.6h · mean 153.7h (proxy: updated_at − created_at, 63 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"change primary"** — 2 tickets in 24h (19.3× baseline; baseline 6 cum) — [#9516](https://tbpro.zendesk.com/agent/tickets/9516), [#9527](https://tbpro.zendesk.com/agent/tickets/9527)
 
 ## Known problems — 10 problem(s), 85 incident(s)
 
@@ -217,17 +223,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 524
-- **solved**: 61
+- **closed**: 525
+- **solved**: 63
 - **pending**: 46
 - **hold**: 16
-- **open**: 13
-- **new**: 3
+- **open**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 371
-- **Thundermail**: 234
+- **Account Hub**: 372
+- **Thundermail**: 235
 - **Send**: 15
 - **Appointment**: 9
 
@@ -282,8 +287,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
 - **request** + **actioned**: 1
-- **concerned** + **n/a**: 1
 - **change request** + **informed**: 1
+- **concerned** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
@@ -293,6 +298,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > No comment provided
 - **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email
   > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9528](https://tbpro.zendesk.com/agent/tickets/9528)** · Shared custom domain
+  > Hi, I have my own custom domain and I want to use Thundermail together with my wife BUT with two separate mailboxes. Is that implemented yet?
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#9527](https://tbpro.zendesk.com/agent/tickets/9527)** · Want to rename my primary email address.  
+  > When I signed up, I was assigned [email]. I had typed in "kent" and it flashed something and then i proceeded. I did not notice the switch. It should have confirmed the changem…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -325,9 +340,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9516](https://tbpro.zendesk.com/agent/tickets/9516) · [open] · 2026-10-07T02:16 · Update Recovery/Main Account Email
 - [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
 - [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [open] · 2026-10-07T05:21 · cancel my subscription to start over
-- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [new] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
-- [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [new] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
-- [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [new] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
+- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [open] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
+- [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [open] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
+- [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [open] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
+- [9527](https://tbpro.zendesk.com/agent/tickets/9527) · [open] · 2026-10-07T13:39 · Want to rename my primary email address.  
+- [9528](https://tbpro.zendesk.com/agent/tickets/9528) · [open] · 2026-10-07T13:42 · Shared custom domain
 
 ## Solved — last 24h
 
@@ -335,6 +352,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9378](https://tbpro.zendesk.com/agent/tickets/9378) · 2026-10-06T23:01 · Invoice
 - · [9214](https://tbpro.zendesk.com/agent/tickets/9214) · 2026-10-06T23:07 · FileLink
 - 👍 [9350](https://tbpro.zendesk.com/agent/tickets/9350) · 2026-10-07T04:59 · Subscriptpion stuck a verifying email address
+- · [9438](https://tbpro.zendesk.com/agent/tickets/9438) · 2026-10-07T13:59 · POP Server
+- · [9353](https://tbpro.zendesk.com/agent/tickets/9353) · 2026-10-07T14:02 · mots de passe
+- 👍 [9429](https://tbpro.zendesk.com/agent/tickets/9429) · 2026-10-07T14:17 · Can I add thundermail to the regular thunderbird desktop?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
