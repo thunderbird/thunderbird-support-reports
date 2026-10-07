@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 15:23 ET** · refreshes hourly_  
+_Updated: **2026-10-07 16:26 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **673 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 59** of rollout — **35,000 invitees**, **674 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **13** solved in last 24h
-- **673** tickets total since launch · contact rate **2%** of 35000 invitees
+- **17** new tickets in last 24h · **14** solved in last 24h
+- **674** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (154 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
-- **Median AHT**: 132.0h · mean 163.2h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 131.6h · mean 161.1h (proxy: updated_at − created_at, 61 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -211,7 +211,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [open] · _Cancel + refund?_
+- [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [pending] · _Cancel + refund?_
   > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get a refund of my remaining credit.
 - [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [pending] · _cancel my subscription to start over_
   > cancel my subscription to start over
@@ -226,14 +226,14 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 531
-- **solved**: 60
+- **solved**: 61
 - **pending**: 52
-- **hold**: 16
-- **open**: 14
+- **hold**: 17
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 376
+- **Account Hub**: 377
 - **Thundermail**: 238
 - **Send**: 15
 - **Appointment**: 9
@@ -259,10 +259,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 6
 - **change request** + **explained**: 5
 - **concerned** + **investigated**: 5
+- **request** + **explained**: 4
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
 - **confused** + **investigated**: 4
-- **request** + **explained**: 3
 - **confused** + **—**: 3
 - **change request** + **escalated**: 3
 - **other** + **n/a**: 2
@@ -289,20 +289,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **actioned**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
-- **telling us** + **investigated**: 1
 - **request** + **actioned**: 1
+- **telling us** + **investigated**: 1
 - **concerned** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
-
-### Other / uncategorized — 3 tickets
-
-- **[#9541](https://tbpro.zendesk.com/agent/tickets/9541)** · varies
-  > logging in for my base email account
-- **[#9534](https://tbpro.zendesk.com/agent/tickets/9534)** · Non ricordo l'username per accedere 
-  > Come posso recuperarla?
-- **[#9522](https://tbpro.zendesk.com/agent/tickets/9522)** · Donation to Thunderbird_Mozilla — why: **curious**
-  > Guten Morgen! Heute erhielt ich per Newsletter das Angebot "Thundermail" (6 EUR / m). Der Unterschied zum aktuellen Thunderbird ist mir nicht ganz klar - vielleicht geht das…
 
 ### Aliases — 2 tickets
 
@@ -310,6 +301,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi, I've started actively configuring my email service and have a few suggestions and questions: Alias descriptions: It would be very convenient to have the option to add comments…
 - **[#9527](https://tbpro.zendesk.com/agent/tickets/9527)** · Want to rename my primary email address.   — why: **change request** · how: **actioned**
   > When I signed up, I was assigned [email]. I had typed in "kent" and it flashed something and then i proceeded. I did not notice the switch. It should have confirmed the changem…
+
+### Other / uncategorized — 2 tickets
+
+- **[#9541](https://tbpro.zendesk.com/agent/tickets/9541)** · varies
+  > logging in for my base email account
+- **[#9534](https://tbpro.zendesk.com/agent/tickets/9534)** · Non ricordo l'username per accedere 
+  > Come posso recuperarla?
 
 ### App setup / configuration — 1 tickets
 
@@ -330,11 +328,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9517](https://tbpro.zendesk.com/agent/tickets/9517)** · forgotten password
   > I need to reset my password
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9515](https://tbpro.zendesk.com/agent/tickets/9515)** · Cancel + refund?
-  > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -361,6 +354,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9524](https://tbpro.zendesk.com/agent/tickets/9524)** · Help with something else - je suis abonné à thunderbird bêta early bird — why: **telling us** · how: **investigated**
   > No comment provided
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#9522](https://tbpro.zendesk.com/agent/tickets/9522)** · Donation to Thunderbird_Mozilla — why: **curious**
+  > Guten Morgen! Heute erhielt ich per Newsletter das Angebot "Thundermail" (6 EUR / m). Der Unterschied zum aktuellen Thunderbird ist mir nicht ganz klar - vielleicht geht das…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9519](https://tbpro.zendesk.com/agent/tickets/9519)** · cancel my subscription to start over — why: **change request** · how: **actioned**
@@ -371,13 +369,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email — why: **confused** · how: **explained**
   > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#9515](https://tbpro.zendesk.com/agent/tickets/9515)** · Cancel + refund? — why: **request** · how: **explained**
+  > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get…
+
 ## New tickets — last 24h
 
-- [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [open] · 2026-10-07T02:15 · Cancel + refund?
+- [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [pending] · 2026-10-07T02:15 · Cancel + refund?
 - [9516](https://tbpro.zendesk.com/agent/tickets/9516) · [hold] · 2026-10-07T02:16 · Update Recovery/Main Account Email
 - [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
 - [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [pending] · 2026-10-07T05:21 · cancel my subscription to start over
-- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [open] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
+- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [solved] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
 - [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [pending] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
 - [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [pending] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
 - [9527](https://tbpro.zendesk.com/agent/tickets/9527) · [pending] · 2026-10-07T13:39 · Want to rename my primary email address.  
@@ -406,6 +409,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9461](https://tbpro.zendesk.com/agent/tickets/9461) · 2026-10-07T17:51 · Custom Domain
 - · [9184](https://tbpro.zendesk.com/agent/tickets/9184) · 2026-10-07T18:02 · Pre-enrollment privacy questions about Thundermail
 - · [9361](https://tbpro.zendesk.com/agent/tickets/9361) · 2026-10-07T19:02 · fumbled password
+- · [9522](https://tbpro.zendesk.com/agent/tickets/9522) · 2026-10-07T19:26 · Donation to Thunderbird_Mozilla
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
