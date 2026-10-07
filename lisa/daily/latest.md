@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 01:26 ET** · refreshes hourly_  
+_Updated: **2026-10-07 02:39 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -206,7 +206,7 @@ Regards, [name]_
 
 - [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [open] · _Cancel + refund?_
   > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get a refund of my remaining credit.
-- [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [new] · _cancel my subscription to start over_
+- [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [open] · _cancel my subscription to start over_
   > cancel my subscription to start over
 
 ## New ideas on FeatureOS
@@ -221,8 +221,7 @@ Regards, [name]_
 - **solved**: 61
 - **pending**: 47
 - **hold**: 16
-- **open**: 10
-- **new**: 2
+- **open**: 12
 
 ## Service (cumulative)
 
@@ -311,8 +310,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [open] · 2026-10-07T02:15 · Cancel + refund?
 - [9516](https://tbpro.zendesk.com/agent/tickets/9516) · [open] · 2026-10-07T02:16 · Update Recovery/Main Account Email
-- [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [new] · 2026-10-07T02:44 · forgotten password
-- [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [new] · 2026-10-07T05:21 · cancel my subscription to start over
+- [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
+- [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [open] · 2026-10-07T05:21 · cancel my subscription to start over
 
 ## Solved — last 24h
 
