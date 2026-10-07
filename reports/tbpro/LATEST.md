@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 13:25 ET** · refreshes hourly_  
+_Updated: **2026-10-07 14:31 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **669 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 59** of rollout — **35,000 invitees**, **671 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **11** solved in last 24h
-- **669** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 93%  (153 good / 11 bad)
+- **15** new tickets in last 24h · **12** solved in last 24h
+- **671** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 93%  (154 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
-- **Median AHT**: 131.1h · mean 162.0h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 131.1h · mean 162.8h (proxy: updated_at − created_at, 60 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -141,7 +141,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
-  - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
+  - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [closed] · 2026-09-25 · _error_
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
@@ -224,16 +224,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 530
+- **closed**: 531
 - **solved**: 60
-- **pending**: 51
-- **hold**: 17
-- **open**: 11
+- **pending**: 52
+- **hold**: 16
+- **open**: 12
 
 ## Service (cumulative)
 
-- **Account Hub**: 375
-- **Thundermail**: 235
+- **Account Hub**: 376
+- **Thundermail**: 236
 - **Send**: 15
 - **Appointment**: 9
 
@@ -243,7 +243,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 146
 - **change request** + **actioned**: 96
-- **blocked** + **explained**: 90
+- **blocked** + **explained**: 91
 - **confused** + **explained**: 43
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 32
@@ -269,6 +269,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **change request** + **investigated**: 2
+- **curious** + **—**: 2
 - **curious** + **investigated**: 2
 - **other** + **—**: 2
 - **concerned** + **redirected**: 2
@@ -282,7 +283,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **curious** + **—**: 1
 - **other** + **escalated**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
@@ -294,11 +294,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#9541](https://tbpro.zendesk.com/agent/tickets/9541)** · varies
+  > logging in for my base email account
 - **[#9534](https://tbpro.zendesk.com/agent/tickets/9534)** · Non ricordo l'username per accedere 
   > Come posso recuperarla?
-- **[#9522](https://tbpro.zendesk.com/agent/tickets/9522)** · Donation to Thunderbird_Mozilla
+- **[#9522](https://tbpro.zendesk.com/agent/tickets/9522)** · Donation to Thunderbird_Mozilla — why: **curious**
   > Guten Morgen! Heute erhielt ich per Newsletter das Angebot "Thundermail" (6 EUR / m). Der Unterschied zum aktuellen Thunderbird ist mir nicht ganz klar - vielleicht geht das…
 
 ### MFA / two-factor — 1 tickets
@@ -320,6 +322,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9515](https://tbpro.zendesk.com/agent/tickets/9515)** · Cancel + refund?
   > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get…
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#9539](https://tbpro.zendesk.com/agent/tickets/9539)** · Anmeldung — why: **blocked** · how: **explained**
+  > Authentifizierungsfehler
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -362,7 +369,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9516](https://tbpro.zendesk.com/agent/tickets/9516) · [hold] · 2026-10-07T02:16 · Update Recovery/Main Account Email
 - [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
 - [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [pending] · 2026-10-07T05:21 · cancel my subscription to start over
-- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [open] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
+- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [pending] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
 - [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [pending] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
 - [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [pending] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
 - [9527](https://tbpro.zendesk.com/agent/tickets/9527) · [pending] · 2026-10-07T13:39 · Want to rename my primary email address.  
@@ -371,6 +378,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9534](https://tbpro.zendesk.com/agent/tickets/9534) · [open] · 2026-10-07T16:03 · Non ricordo l'username per accedere 
 - [9537](https://tbpro.zendesk.com/agent/tickets/9537) · [open] · 2026-10-07T16:49 · Boite Reception mails
 - [9538](https://tbpro.zendesk.com/agent/tickets/9538) · [open] · 2026-10-07T17:14 · Confused
+- [9539](https://tbpro.zendesk.com/agent/tickets/9539) · [pending] · 2026-10-07T17:30 · Anmeldung
+- [9541](https://tbpro.zendesk.com/agent/tickets/9541) · [open] · 2026-10-07T17:54 · varies
 
 ## Solved — last 24h
 
@@ -383,8 +392,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9429](https://tbpro.zendesk.com/agent/tickets/9429) · 2026-10-07T14:17 · Can I add thundermail to the regular thunderbird desktop?
 - · [8852](https://tbpro.zendesk.com/agent/tickets/8852) · 2026-10-07T15:45 · Light mode toggle doesn’t remember state in message preview
 - · [9277](https://tbpro.zendesk.com/agent/tickets/9277) · 2026-10-07T17:01 · Создание и оплата услуги.
-- · [9461](https://tbpro.zendesk.com/agent/tickets/9461) · 2026-10-07T17:01 · Custom Domain
 - · [9444](https://tbpro.zendesk.com/agent/tickets/9444) · 2026-10-07T17:06 · E Mail account
+- 👍 [9461](https://tbpro.zendesk.com/agent/tickets/9461) · 2026-10-07T17:51 · Custom Domain
+- · [9184](https://tbpro.zendesk.com/agent/tickets/9184) · 2026-10-07T18:02 · Pre-enrollment privacy questions about Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
