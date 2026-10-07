@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 05:29 ET** · refreshes hourly_  
+_Updated: **2026-10-07 06:26 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -136,7 +136,7 @@ Flight 8 is **day 59** of rollout — **35,000 invitees**, **660 tickets** so fa
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [solved] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
@@ -219,9 +219,9 @@ Regards, [name]_
 
 - **closed**: 524
 - **solved**: 61
-- **pending**: 47
+- **pending**: 46
 - **hold**: 16
-- **open**: 12
+- **open**: 13
 
 ## Service (cumulative)
 
