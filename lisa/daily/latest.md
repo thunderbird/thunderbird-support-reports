@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 17:23 ET** · refreshes hourly_  
+_Updated: **2026-10-07 18:21 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 59** of rollout — **35,000 invitees**, **679 tickets** so fa
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (154 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
-- **Median AHT**: 130.6h · mean 158.3h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 131.1h · mean 159.5h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -144,7 +144,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [closed] · 2026-09-25 · _error_
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
-  - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [pending] · 2026-09-28 · _Thundermail_
+  - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [solved] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
 
@@ -226,15 +226,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 531
-- **solved**: 63
-- **pending**: 58
+- **solved**: 64
+- **pending**: 60
 - **hold**: 17
-- **open**: 10
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 382
-- **Thundermail**: 238
+- **Account Hub**: 383
+- **Thundermail**: 237
 - **Send**: 15
 - **Appointment**: 9
 
@@ -248,7 +248,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 44
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 33
-- **request** + **redirected**: 28
+- **request** + **redirected**: 29
 - **confused** + **informed**: 27
 - **concerned** + **explained**: 24
 - **blocked** + **redirected**: 21
