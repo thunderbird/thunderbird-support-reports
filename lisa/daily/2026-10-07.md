@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 08:37 ET** · refreshes hourly_  
+_Updated: **2026-10-07 09:28 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **660 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 59** of rollout — **35,000 invitees**, **663 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **660** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **4** solved in last 24h
+- **663** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (153 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -222,11 +222,12 @@ Regards, [name]_
 - **pending**: 46
 - **hold**: 16
 - **open**: 13
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 371
-- **Thundermail**: 233
+- **Thundermail**: 234
 - **Send**: 15
 - **Appointment**: 9
 
@@ -286,6 +287,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#9524](https://tbpro.zendesk.com/agent/tickets/9524)** · Help with something else - je suis abonné à thunderbird bêta early bird
+  > No comment provided
+- **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email
+  > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#9526](https://tbpro.zendesk.com/agent/tickets/9526)** · faire fonctionner IMAP sur thunderbird
+  > Pourquoi mon imap ne fonctionne pus pour recevoir mes mails
+
+### Other / uncategorized — 1 tickets
+
+- **[#9522](https://tbpro.zendesk.com/agent/tickets/9522)** · Donation to Thunderbird_Mozilla
+  > Guten Morgen! Heute erhielt ich per Newsletter das Angebot "Thundermail" (6 EUR / m). Der Unterschied zum aktuellen Thunderbird ist mir nicht ganz klar - vielleicht geht das…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9519](https://tbpro.zendesk.com/agent/tickets/9519)** · cancel my subscription to start over
@@ -295,11 +313,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9517](https://tbpro.zendesk.com/agent/tickets/9517)** · forgotten password
   > I need to reset my password
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email
-  > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -312,6 +325,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9516](https://tbpro.zendesk.com/agent/tickets/9516) · [open] · 2026-10-07T02:16 · Update Recovery/Main Account Email
 - [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
 - [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [open] · 2026-10-07T05:21 · cancel my subscription to start over
+- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [new] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
+- [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [new] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
+- [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [new] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
 
 ## Solved — last 24h
 
