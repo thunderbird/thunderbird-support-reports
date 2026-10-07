@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 10:26 ET** · refreshes hourly_  
+_Updated: **2026-10-07 11:34 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **665 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 59** of rollout — **35,000 invitees**, **666 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **7** solved in last 24h
-- **665** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **10** new tickets in last 24h · **7** solved in last 24h
+- **666** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (153 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
-- **Median AHT**: 130.6h · mean 153.7h (proxy: updated_at − created_at, 63 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
+- **Median AHT**: 131.1h · mean 156.5h (proxy: updated_at − created_at, 60 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -102,7 +102,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [solved] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [solved] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [solved] · 2026-10-01 · _Account Deletion_
-  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [solved] · 2026-10-01 · _Delete account and subscription_
+  - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [pending] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [pending] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05 · _Thundermail account cancellation and refund_
@@ -217,22 +217,23 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [alias labeling](https://ideas.tb.pro/p/alias-labeling) · 1 votes · _untagged_
+  > ability to ad a label to an alias address I createdI have three alias emails and I would like to add a label to each, so I know which alias refers to which websiteWhy it mattersprevent me from…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 525
-- **solved**: 63
-- **pending**: 46
+- **closed**: 528
+- **solved**: 60
+- **pending**: 50
 - **hold**: 16
-- **open**: 15
+- **open**: 12
 
 ## Service (cumulative)
 
-- **Account Hub**: 372
-- **Thundermail**: 235
+- **Account Hub**: 374
+- **Thundermail**: 234
 - **Send**: 15
 - **Appointment**: 9
 
@@ -241,15 +242,15 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 146
-- **change request** + **actioned**: 94
+- **change request** + **actioned**: 95
 - **blocked** + **explained**: 90
-- **confused** + **explained**: 42
+- **confused** + **explained**: 43
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 32
-- **request** + **redirected**: 27
+- **request** + **redirected**: 28
 - **confused** + **informed**: 27
 - **concerned** + **explained**: 24
-- **blocked** + **redirected**: 18
+- **blocked** + **redirected**: 19
 - **blocked** + **informed**: 14
 - **blocked** + **escalated**: 12
 - **concerned** + **—**: 7
@@ -286,33 +287,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **actioned**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
+- **telling us** + **investigated**: 1
 - **request** + **actioned**: 1
 - **change request** + **informed**: 1
 - **concerned** + **n/a**: 1
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#9524](https://tbpro.zendesk.com/agent/tickets/9524)** · Help with something else - je suis abonné à thunderbird bêta early bird
-  > No comment provided
-- **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email
-  > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9528](https://tbpro.zendesk.com/agent/tickets/9528)** · Shared custom domain
-  > Hi, I have my own custom domain and I want to use Thundermail together with my wife BUT with two separate mailboxes. Is that implemented yet?
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#9527](https://tbpro.zendesk.com/agent/tickets/9527)** · Want to rename my primary email address.  
-  > When I signed up, I was assigned [email]. I had typed in "kent" and it flashed something and then i proceeded. I did not notice the switch. It should have confirmed the changem…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#9526](https://tbpro.zendesk.com/agent/tickets/9526)** · faire fonctionner IMAP sur thunderbird
-  > Pourquoi mon imap ne fonctionne pus pour recevoir mes mails
+- **[#9530](https://tbpro.zendesk.com/agent/tickets/9530)** · Wanted to just Test
+  > I was not ready to pay for a year upfront. I am already using ProtonMail. I wanted to test this to see if it could replace Outlook for my partner. Can you delete my account.
 
 ### Other / uncategorized — 1 tickets
 
@@ -329,10 +314,35 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9517](https://tbpro.zendesk.com/agent/tickets/9517)** · forgotten password
   > I need to reset my password
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email — why: **confused** · how: **explained**
+  > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#9515](https://tbpro.zendesk.com/agent/tickets/9515)** · Cancel + refund?
   > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9528](https://tbpro.zendesk.com/agent/tickets/9528)** · Shared custom domain — why: **request** · how: **redirected**
+  > Hi, I have my own custom domain and I want to use Thundermail together with my wife BUT with two separate mailboxes. Is that implemented yet?
+
+### Aliases — 1 tickets
+
+- **[#9527](https://tbpro.zendesk.com/agent/tickets/9527)** · Want to rename my primary email address.   — why: **change request** · how: **actioned**
+  > When I signed up, I was assigned [email]. I had typed in "kent" and it flashed something and then i proceeded. I did not notice the switch. It should have confirmed the changem…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#9526](https://tbpro.zendesk.com/agent/tickets/9526)** · faire fonctionner IMAP sur thunderbird — why: **blocked** · how: **redirected**
+  > Pourquoi mon imap ne fonctionne pus pour recevoir mes mails
+
+### Early bird signup — 1 tickets
+
+- **[#9524](https://tbpro.zendesk.com/agent/tickets/9524)** · Help with something else - je suis abonné à thunderbird bêta early bird — why: **telling us** · how: **investigated**
+  > No comment provided
 
 ## New tickets — last 24h
 
@@ -341,10 +351,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
 - [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [open] · 2026-10-07T05:21 · cancel my subscription to start over
 - [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [open] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
-- [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [open] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
-- [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [open] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
-- [9527](https://tbpro.zendesk.com/agent/tickets/9527) · [open] · 2026-10-07T13:39 · Want to rename my primary email address.  
-- [9528](https://tbpro.zendesk.com/agent/tickets/9528) · [open] · 2026-10-07T13:42 · Shared custom domain
+- [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [pending] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
+- [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [pending] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
+- [9527](https://tbpro.zendesk.com/agent/tickets/9527) · [pending] · 2026-10-07T13:39 · Want to rename my primary email address.  
+- [9528](https://tbpro.zendesk.com/agent/tickets/9528) · [pending] · 2026-10-07T13:42 · Shared custom domain
+- [9530](https://tbpro.zendesk.com/agent/tickets/9530) · [open] · 2026-10-07T15:09 · Wanted to just Test
 
 ## Solved — last 24h
 
