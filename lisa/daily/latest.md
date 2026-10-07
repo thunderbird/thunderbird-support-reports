@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-06
 
-_Updated: **2026-10-06 22:38 ET** · refreshes hourly_  
+_Updated: **2026-10-06 23:31 ET** · refreshes hourly_  
 _24h window: 2026-10-05T16:00 → 2026-10-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 58** of rollout — **35,000 invitees**, **658 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 58** of rollout — **35,000 invitees**, **659 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **25** solved in last 24h
-- **658** tickets total since launch · contact rate **2%** of 35000 invitees
+- **659** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (152 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 71
@@ -223,15 +223,16 @@ Regards, [name]_
 
 - **closed**: 524
 - **solved**: 61
-- **pending**: 48
+- **pending**: 47
 - **hold**: 16
-- **open**: 9
+- **open**: 10
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 370
 - **Thundermail**: 233
-- **Send**: 14
+- **Send**: 15
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -301,12 +302,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9483](https://tbpro.zendesk.com/agent/tickets/9483)** · Account deletion and refund — why: **change request** · how: **actioned**
   > Please cancel my subscription and issue me with a refund. Many thanks in advance.
 
-### Webmail — 2 tickets
+### Aliases — 1 tickets
+
+- **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand — why: **confused**
+  > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
+
+### Webmail — 1 tickets
 
 - **[#9509](https://tbpro.zendesk.com/agent/tickets/9509)** · récupération messagerie — why: **curious** · how: **informed**
   > J'aimerai paramètrer mon compte messagerie car je viens de changer de fournisseur internet et souhaite sauvegarder tous mes anciens messages et dossiers présents actuellement dans…
-- **[#9489](https://tbpro.zendesk.com/agent/tickets/9489)** · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand — why: **confused**
-  > Hallo, Ich habe nun alles fertig eingerichtet und es funktioniert auch so weit super. Standartmäßig lese und versende ich Mails über den TH Client. Dort verschiebe ich zu…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -348,7 +352,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9482](https://tbpro.zendesk.com/agent/tickets/9482) · [pending] · 2026-10-05T20:47 · Cannot varify new e-mail
 - [9483](https://tbpro.zendesk.com/agent/tickets/9483) · [pending] · 2026-10-05T20:55 · Account deletion and refund
 - [9487](https://tbpro.zendesk.com/agent/tickets/9487) · [hold] · 2026-10-05T23:23 · mailstrom [[262]]: Spam filtering - DNS blocklist lookups return BLOCKED, spam delivered as ham 🔗 [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262)
-- [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [pending] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
+- [9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06T03:49 · Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand
 - [9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06T10:42 · Please cancel my Beta subscription and give a refund
 - [9500](https://tbpro.zendesk.com/agent/tickets/9500) · [pending] · 2026-10-06T12:21 · use thunderbird app  appointment in linux thnderbird app
 - [9502](https://tbpro.zendesk.com/agent/tickets/9502) · [pending] · 2026-10-06T13:05 · Adressbücher
