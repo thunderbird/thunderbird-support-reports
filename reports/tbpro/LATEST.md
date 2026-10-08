@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 07:24 ET** · refreshes hourly_  
+_Updated: **2026-10-08 08:37 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 60** of rollout — **35,000 invitees**, **688 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 60** of rollout — **35,000 invitees**, **689 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **6** solved in last 24h
-- **688** tickets total since launch · contact rate **2%** of 35000 invitees
+- **16** new tickets in last 24h · **6** solved in last 24h
+- **689** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (155 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 131.6h · mean 160.5h (proxy: updated_at − created_at, 65 solved tickets)
+- **Median AHT**: 131.1h · mean 159.9h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"request full refund"** — 3 tickets in 24h (35.4× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
+- **"request full refund"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
 - **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
@@ -210,7 +210,7 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 4
 
 - [9556](https://tbpro.zendesk.com/agent/tickets/9556) · [open] · _Refund Request Due to Ongoing Email Deliverability Issues_
   > Hello [name], I am a user who signed up for and has been using Thundermail during its beta period. I fully understand that, as the service is still in beta, there may be inconveniences, bugs, or instability in some…
@@ -218,6 +218,8 @@ Regards, [name]_
   > Hello, I purchased the Thunderbird Pro Early Bird subscription today, but I have decided that I no longer wish to continue with the subscription. I would like to cancel my subscription and request a full refund under…
 - [9559](https://tbpro.zendesk.com/agent/tickets/9559) · [new] · _Correction to refund request – Thunderbird Pro Early Bird_
   > Hello, I submitted a refund request earlier today, but I accidentally entered my newly created Thundermail address as the contact email. That mailbox is still being provisioned. Please use this email address for…
+- [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [new] · _Cancel and Refund_
+  > Hi, I'd like to cancel and request a full refund please. It's not for me unfortunately. Thanks, [name]
 
 ## New ideas on FeatureOS
 
@@ -228,16 +230,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 531
-- **solved**: 65
+- **solved**: 64
 - **pending**: 57
 - **hold**: 17
-- **open**: 12
-- **new**: 6
+- **open**: 13
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 384
-- **Thundermail**: 242
+- **Thundermail**: 243
 - **Send**: 15
 - **Appointment**: 9
 
@@ -298,6 +300,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#9569](https://tbpro.zendesk.com/agent/tickets/9569)** · Cancel and Refund
+  > Hi, I'd like to cancel and request a full refund please. It's not for me unfortunately. Thanks, [name]
+- **[#9560](https://tbpro.zendesk.com/agent/tickets/9560)** · Sticker / swag request from a student developer
+  > Hello [name], My name is [name], a high school student and junior developer from India. Thunderbird's open-source email client with modern redesign and calendar integration makes…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#9562](https://tbpro.zendesk.com/agent/tickets/9562)** · GoogleのG-mailに転送させたい
@@ -330,11 +339,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9567](https://tbpro.zendesk.com/agent/tickets/9567)** · Test Email – Delivery Issue with [domain]
   > Hi [name], This is the test email you requested. I would also like to clarify that the issue is not specific to my Thundermail email address. My domain, [domain], was previously…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9560](https://tbpro.zendesk.com/agent/tickets/9560)** · Sticker / swag request from a student developer
-  > Hello [name], My name is [name], a high school student and junior developer from India. Thunderbird's open-source email client with modern redesign and calendar integration makes…
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -378,6 +382,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9561](https://tbpro.zendesk.com/agent/tickets/9561) · [new] · 2026-10-08T06:24 · pomoc
 - [9562](https://tbpro.zendesk.com/agent/tickets/9562) · [new] · 2026-10-08T07:08 · GoogleのG-mailに転送させたい
 - [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [new] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
+- [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [new] · 2026-10-08T12:23 · Cancel and Refund
 
 ## Solved — last 24h
 
