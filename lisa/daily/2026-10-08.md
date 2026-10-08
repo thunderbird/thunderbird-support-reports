@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 08:37 ET** · refreshes hourly_  
+_Updated: **2026-10-08 09:29 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 60** of rollout — **35,000 invitees**, **689 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 60** of rollout — **35,000 invitees**, **690 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **6** solved in last 24h
-- **689** tickets total since launch · contact rate **2%** of 35000 invitees
+- **17** new tickets in last 24h · **6** solved in last 24h
+- **690** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (155 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -232,14 +232,14 @@ Regards, [name]_
 - **closed**: 531
 - **solved**: 64
 - **pending**: 57
-- **hold**: 17
+- **hold**: 18
 - **open**: 13
 - **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 384
-- **Thundermail**: 243
+- **Thundermail**: 244
 - **Send**: 15
 - **Appointment**: 9
 
@@ -300,6 +300,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 2 tickets
+
+- **[#9570](https://tbpro.zendesk.com/agent/tickets/9570)** · Webmail
+  > Hi, I'm trying to send an email via webmail but not working.
+- **[#9555](https://tbpro.zendesk.com/agent/tickets/9555)** · Mailbox setup
+  > Hello, How long does it take for a mailbox to be set up? I am getting this message when trying to setup the account in Thunderbird, or when trying to login to the webmail: Your…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#9569](https://tbpro.zendesk.com/agent/tickets/9569)** · Cancel and Refund
@@ -345,11 +352,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9556](https://tbpro.zendesk.com/agent/tickets/9556)** · Refund Request Due to Ongoing Email Deliverability Issues
   > Hello [name], I am a user who signed up for and has been using Thundermail during its beta period. I fully understand that, as the service is still in beta, there may be…
 
-### Webmail — 1 tickets
-
-- **[#9555](https://tbpro.zendesk.com/agent/tickets/9555)** · Mailbox setup
-  > Hello, How long does it take for a mailbox to be set up? I am getting this message when trying to setup the account in Thunderbird, or when trying to login to the webmail: Your…
-
 ### Account access issues — 1 tickets
 
 - **[#9553](https://tbpro.zendesk.com/agent/tickets/9553)** · How to update account profile
@@ -381,8 +383,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9560](https://tbpro.zendesk.com/agent/tickets/9560) · [new] · 2026-10-08T05:52 · Sticker / swag request from a student developer
 - [9561](https://tbpro.zendesk.com/agent/tickets/9561) · [new] · 2026-10-08T06:24 · pomoc
 - [9562](https://tbpro.zendesk.com/agent/tickets/9562) · [new] · 2026-10-08T07:08 · GoogleのG-mailに転送させたい
-- [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [new] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
+- [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [open] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
 - [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [new] · 2026-10-08T12:23 · Cancel and Refund
+- [9570](https://tbpro.zendesk.com/agent/tickets/9570) · [new] · 2026-10-08T12:57 · Webmail
 
 ## Solved — last 24h
 
