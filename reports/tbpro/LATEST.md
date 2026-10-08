@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 15:22 ET** · refreshes hourly_  
+_Updated: **2026-10-08 16:26 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 60** of rollout — **35,000 invitees**, **693 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (155 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 130.0h · mean 150.4h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 130.0h · mean 150.8h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -98,7 +98,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24 · _Regarding subscription Fwd: Thinking of a new beginning_
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [closed] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [closed] · 2026-09-25 · _Cancel my account_
-  - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [solved] · 2026-09-26 · _Refund_
+  - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [closed] · 2026-09-26 · _Refund_
   - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [solved] · 2026-09-29 · _Cancel Account_
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [solved] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [solved] · 2026-09-30 · _Refund_
@@ -230,11 +230,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 534
-- **pending**: 68
-- **solved**: 66
-- **hold**: 18
-- **open**: 7
+- **closed**: 536
+- **pending**: 67
+- **solved**: 64
+- **hold**: 17
+- **open**: 9
 
 ## Service (cumulative)
 
@@ -397,7 +397,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08T12:23 · Cancel and Refund
 - [9570](https://tbpro.zendesk.com/agent/tickets/9570) · [open] · 2026-10-08T12:57 · Webmail
 - [9571](https://tbpro.zendesk.com/agent/tickets/9571) · [open] · 2026-10-08T13:51 · Thunderbird Android
-- [9577](https://tbpro.zendesk.com/agent/tickets/9577) · [pending] · 2026-10-08T17:00 · Thundermail Waitlist
+- [9577](https://tbpro.zendesk.com/agent/tickets/9577) · [open] · 2026-10-08T17:00 · Thundermail Waitlist
 - [9588](https://tbpro.zendesk.com/agent/tickets/9588) · [open] · 2026-10-08T18:51 · Delete my data and unsubscribe from the service
 
 ## Solved — last 24h
