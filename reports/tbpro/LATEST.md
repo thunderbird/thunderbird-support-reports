@@ -1,27 +1,28 @@
-# Thundermail — Flight 8 Live Report · 2026-10-07
+# Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-07 23:31 ET** · refreshes hourly_  
-_24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-08 00:30 ET** · refreshes hourly_  
+_24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **682 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 60** of rollout — **35,000 invitees**, **684 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **13** solved in last 24h
-- **682** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **11** new tickets in last 24h · **6** solved in last 24h
+- **684** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 93%  (154 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
 - **Median AHT**: 131.6h · mean 160.4h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"change primary"** — 2 tickets in 24h (19.3× baseline; baseline 6 cum) — [#9516](https://tbpro.zendesk.com/agent/tickets/9516), [#9527](https://tbpro.zendesk.com/agent/tickets/9527)
-- **"best regards"** — 2 tickets in 24h (4.6× baseline; baseline 25 cum) — [#9522](https://tbpro.zendesk.com/agent/tickets/9522), [#9544](https://tbpro.zendesk.com/agent/tickets/9544)
+- **"request full"** — 3 tickets in 24h (35.4× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
+- **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
+- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
 ## Known problems — 10 problem(s), 85 incident(s)
 
@@ -209,32 +210,34 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
-- [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [pending] · _Cancel + refund?_
-  > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get a refund of my remaining credit.
-- [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [pending] · _cancel my subscription to start over_
-  > cancel my subscription to start over
+- [9556](https://tbpro.zendesk.com/agent/tickets/9556) · [open] · _Refund Request Due to Ongoing Email Deliverability Issues_
+  > Hello [name], I am a user who signed up for and has been using Thundermail during its beta period. I fully understand that, as the service is still in beta, there may be inconveniences, bugs, or instability in some…
+- [9558](https://tbpro.zendesk.com/agent/tickets/9558) · [new] · _Request for refund – Thunderbird Pro Early Bird_
+  > Hello, I purchased the Thunderbird Pro Early Bird subscription today, but I have decided that I no longer wish to continue with the subscription. I would like to cancel my subscription and request a full refund under…
+- [9559](https://tbpro.zendesk.com/agent/tickets/9559) · [new] · _Correction to refund request – Thunderbird Pro Early Bird_
+  > Hello, I submitted a refund request earlier today, but I accidentally entered my newly created Thundermail address as the contact email. That mailbox is still being provisioned. Please use this email address for…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [alias labeling](https://ideas.tb.pro/p/alias-labeling) · 1 votes · _untagged_
-  > ability to ad a label to an alias address I createdI have three alias emails and I would like to add a label to each, so I know which alias refers to which websiteWhy it mattersprevent me from…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **closed**: 531
 - **solved**: 65
-- **pending**: 59
+- **pending**: 58
 - **hold**: 17
-- **open**: 10
+- **open**: 11
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 384
-- **Thundermail**: 239
+- **Thundermail**: 241
 - **Send**: 15
 - **Appointment**: 9
 
@@ -295,120 +298,74 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#9559](https://tbpro.zendesk.com/agent/tickets/9559)** · Correction to refund request – Thunderbird Pro Early Bird
+  > Hello, I submitted a refund request earlier today, but I accidentally entered my newly created Thundermail address as the contact email. That mailbox is still being provisioned.…
+- **[#9558](https://tbpro.zendesk.com/agent/tickets/9558)** · Request for refund – Thunderbird Pro Early Bird
+  > Hello, I purchased the Thunderbird Pro Early Bird subscription today, but I have decided that I no longer wish to continue with the subscription. I would like to cancel my…
+
 ### Aliases — 2 tickets
 
-- **[#9544](https://tbpro.zendesk.com/agent/tickets/9544)** · Suggestion for Email aliases section — why: **curious** · how: **explained**
-  > Hi, I've started actively configuring my email service and have a few suggestions and questions: Alias descriptions: It would be very convenient to have the option to add comments…
-- **[#9527](https://tbpro.zendesk.com/agent/tickets/9527)** · Want to rename my primary email address.   — why: **change request** · how: **actioned**
-  > When I signed up, I was assigned [email]. I had typed in "kent" and it flashed something and then i proceeded. I did not notice the switch. It should have confirmed the changem…
+- **[#9557](https://tbpro.zendesk.com/agent/tickets/9557)** · Use of new service for new company
+  > As a long-time Thunderbird user, I would like to use the new Thundermail service for a company that I am purchasing. As such, I need answers to the following questions: 1. Can one…
+- **[#9554](https://tbpro.zendesk.com/agent/tickets/9554)** · just creating a new account - question about login to web UI — why: **request** · how: **redirected**
+  > Hello, Can I use any of my new thundermail aliases to log into the web UI? thanks.
 
-### Early bird signup — 2 tickets
+### Account access issues — Account Hub trouble — 2 tickets
 
-- **[#9534](https://tbpro.zendesk.com/agent/tickets/9534)** · Non ricordo l'username per accedere  — why: **curious** · how: **explained**
-  > Come posso recuperarla?
-- **[#9524](https://tbpro.zendesk.com/agent/tickets/9524)** · Help with something else - je suis abonné à thunderbird bêta early bird — why: **telling us** · how: **investigated**
-  > No comment provided
+- **[#9550](https://tbpro.zendesk.com/agent/tickets/9550)** · Payment screen freezes — why: **confused** · how: **explained**
+  > Help me finish creating my invited account.
+- **[#9552](https://tbpro.zendesk.com/agent/tickets/9552)** · Cannot sign in — why: **blocked** · how: **explained**
+  > I need a reset
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#9556](https://tbpro.zendesk.com/agent/tickets/9556)** · Refund Request Due to Ongoing Email Deliverability Issues
+  > Hello [name], I am a user who signed up for and has been using Thundermail during its beta period. I fully understand that, as the service is still in beta, there may be…
+
+### Webmail — 1 tickets
+
+- **[#9555](https://tbpro.zendesk.com/agent/tickets/9555)** · Mailbox setup
+  > Hello, How long does it take for a mailbox to be set up? I am getting this message when trying to setup the account in Thunderbird, or when trying to login to the webmail: Your…
 
 ### Account access issues — 1 tickets
 
-- **[#9517](https://tbpro.zendesk.com/agent/tickets/9517)** · forgotten password
-  > I need to reset my password
+- **[#9553](https://tbpro.zendesk.com/agent/tickets/9553)** · How to update account profile
+  > Hello, I received an email saying there was a request to change my profile account data but when I go to sign in and select forgot password, I don't get an email helping me create…
 
-### App setup / configuration — 1 tickets
+### Pricing — payment issue — 1 tickets
 
-- **[#9545](https://tbpro.zendesk.com/agent/tickets/9545)** · How to use early questions — why: **confused** · how: **explained**
-  > I started on my Windows 11 desktop Thunderbird Windows App which I initially and still do use to see my Yahoo email only until I understand how everything works best. I purchased…
-
-### Other / uncategorized — 1 tickets
-
-- **[#9541](https://tbpro.zendesk.com/agent/tickets/9541)** · varies — why: **blocked** · how: **redirected**
-  > logging in for my base email account
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#9539](https://tbpro.zendesk.com/agent/tickets/9539)** · Anmeldung — why: **blocked** · how: **explained**
-  > Authentifizierungsfehler
-
-### MFA / two-factor — 1 tickets
-
-- **[#9538](https://tbpro.zendesk.com/agent/tickets/9538)** · Confused — why: **confused** · how: **explained**
-  > I have Thunderbird started on my on my desktop computer, also from Google downloaded it on my Android. The problem is with the dang Authentication app Recovery codes where do I…
+- **[#9551](https://tbpro.zendesk.com/agent/tickets/9551)** · won't complete account setup — why: **blocked** · how: **investigated**
+  > Complete account setup -payment screen freezes
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#9537](https://tbpro.zendesk.com/agent/tickets/9537)** · Boite Reception mails — why: **blocked** · how: **redirected**
-  > The synchronisation of the email is not possible any more. I try to folow the instructions and desactivate push, active syncronization but nothing change, i can’t read the email…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#9530](https://tbpro.zendesk.com/agent/tickets/9530)** · Wanted to just Test — why: **change request** · how: **informed**
-  > I was not ready to pay for a year upfront. I am already using ProtonMail. I wanted to test this to see if it could replace Outlook for my partner. Can you delete my account.
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9528](https://tbpro.zendesk.com/agent/tickets/9528)** · Shared custom domain — why: **request** · how: **redirected**
-  > Hi, I have my own custom domain and I want to use Thundermail together with my wife BUT with two separate mailboxes. Is that implemented yet?
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#9526](https://tbpro.zendesk.com/agent/tickets/9526)** · faire fonctionner IMAP sur thunderbird — why: **blocked** · how: **redirected**
-  > Pourquoi mon imap ne fonctionne pus pour recevoir mes mails
-
-### Pricing — general pricing concern — 1 tickets
-
-- **[#9522](https://tbpro.zendesk.com/agent/tickets/9522)** · Donation to Thunderbird_Mozilla — why: **curious**
-  > Guten Morgen! Heute erhielt ich per Newsletter das Angebot "Thundermail" (6 EUR / m). Der Unterschied zum aktuellen Thunderbird ist mir nicht ganz klar - vielleicht geht das…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9519](https://tbpro.zendesk.com/agent/tickets/9519)** · cancel my subscription to start over — why: **change request** · how: **actioned**
-  > cancel my subscription to start over
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9516](https://tbpro.zendesk.com/agent/tickets/9516)** · Update Recovery/Main Account Email — why: **confused** · how: **explained**
-  > Hello, is it possible to change the primary recovery email for my account (the one which we received the initial invitation to)? I signed up and purchased the subscription with…
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9515](https://tbpro.zendesk.com/agent/tickets/9515)** · Cancel + refund? — why: **request** · how: **explained**
-  > Hi, I was trying out your service but it really isnt doing a great job for my use case. Unfortunately the spam filtering just makes it very unpleasant to use. I was hoping to get…
+- **[#9547](https://tbpro.zendesk.com/agent/tickets/9547)** · Installing Thunderbird on cell phone  — why: **blocked** · how: **redirected**
+  > How to install Thunderbird on Android phone
 
 ## New tickets — last 24h
 
-- [9515](https://tbpro.zendesk.com/agent/tickets/9515) · [pending] · 2026-10-07T02:15 · Cancel + refund?
-- [9516](https://tbpro.zendesk.com/agent/tickets/9516) · [hold] · 2026-10-07T02:16 · Update Recovery/Main Account Email
-- [9517](https://tbpro.zendesk.com/agent/tickets/9517) · [open] · 2026-10-07T02:44 · forgotten password
-- [9519](https://tbpro.zendesk.com/agent/tickets/9519) · [pending] · 2026-10-07T05:21 · cancel my subscription to start over
-- [9522](https://tbpro.zendesk.com/agent/tickets/9522) · [solved] · 2026-10-07T08:12 · Donation to Thunderbird_Mozilla
-- [9524](https://tbpro.zendesk.com/agent/tickets/9524) · [pending] · 2026-10-07T11:24 · Help with something else - je suis abonné à thunderbird bêta early bird
-- [9526](https://tbpro.zendesk.com/agent/tickets/9526) · [pending] · 2026-10-07T13:08 · faire fonctionner IMAP sur thunderbird
-- [9527](https://tbpro.zendesk.com/agent/tickets/9527) · [pending] · 2026-10-07T13:39 · Want to rename my primary email address.  
-- [9528](https://tbpro.zendesk.com/agent/tickets/9528) · [pending] · 2026-10-07T13:42 · Shared custom domain
-- [9530](https://tbpro.zendesk.com/agent/tickets/9530) · [pending] · 2026-10-07T15:09 · Wanted to just Test
-- [9534](https://tbpro.zendesk.com/agent/tickets/9534) · [pending] · 2026-10-07T16:03 · Non ricordo l'username per accedere 
-- [9537](https://tbpro.zendesk.com/agent/tickets/9537) · [pending] · 2026-10-07T16:49 · Boite Reception mails
-- [9538](https://tbpro.zendesk.com/agent/tickets/9538) · [pending] · 2026-10-07T17:14 · Confused
-- [9539](https://tbpro.zendesk.com/agent/tickets/9539) · [pending] · 2026-10-07T17:30 · Anmeldung
-- [9541](https://tbpro.zendesk.com/agent/tickets/9541) · [pending] · 2026-10-07T17:54 · varies
-- [9544](https://tbpro.zendesk.com/agent/tickets/9544) · [pending] · 2026-10-07T18:37 · Suggestion for Email aliases section
-- [9545](https://tbpro.zendesk.com/agent/tickets/9545) · [pending] · 2026-10-07T18:45 · How to use early questions
+- [9547](https://tbpro.zendesk.com/agent/tickets/9547) · [pending] · 2026-10-07T20:11 · Installing Thunderbird on cell phone 
+- [9550](https://tbpro.zendesk.com/agent/tickets/9550) · [open] · 2026-10-07T20:42 · Payment screen freezes
+- [9551](https://tbpro.zendesk.com/agent/tickets/9551) · [pending] · 2026-10-07T20:43 · won't complete account setup
+- [9552](https://tbpro.zendesk.com/agent/tickets/9552) · [pending] · 2026-10-07T20:45 · Cannot sign in
+- [9553](https://tbpro.zendesk.com/agent/tickets/9553) · [open] · 2026-10-07T21:01 · How to update account profile
+- [9554](https://tbpro.zendesk.com/agent/tickets/9554) · [pending] · 2026-10-07T21:14 · just creating a new account - question about login to web UI
+- [9555](https://tbpro.zendesk.com/agent/tickets/9555) · [open] · 2026-10-07T23:11 · Mailbox setup
+- [9556](https://tbpro.zendesk.com/agent/tickets/9556) · [open] · 2026-10-08T01:27 · Refund Request Due to Ongoing Email Deliverability Issues
+- [9557](https://tbpro.zendesk.com/agent/tickets/9557) · [open] · 2026-10-08T01:37 · Use of new service for new company
+- [9558](https://tbpro.zendesk.com/agent/tickets/9558) · [new] · 2026-10-08T03:43 · Request for refund – Thunderbird Pro Early Bird
+- [9559](https://tbpro.zendesk.com/agent/tickets/9559) · [new] · 2026-10-08T03:48 · Correction to refund request – Thunderbird Pro Early Bird
 
 ## Solved — last 24h
 
-- · [9346](https://tbpro.zendesk.com/agent/tickets/9346) · 2026-10-06T21:02 · Long term pricing and commitment
-- · [9378](https://tbpro.zendesk.com/agent/tickets/9378) · 2026-10-06T23:01 · Invoice
-- 👍 [9350](https://tbpro.zendesk.com/agent/tickets/9350) · 2026-10-07T04:59 · Subscriptpion stuck a verifying email address
-- · [9438](https://tbpro.zendesk.com/agent/tickets/9438) · 2026-10-07T13:59 · POP Server
-- · [9353](https://tbpro.zendesk.com/agent/tickets/9353) · 2026-10-07T14:02 · mots de passe
-- 👍 [9429](https://tbpro.zendesk.com/agent/tickets/9429) · 2026-10-07T14:17 · Can I add thundermail to the regular thunderbird desktop?
-- · [8852](https://tbpro.zendesk.com/agent/tickets/8852) · 2026-10-07T15:45 · Light mode toggle doesn’t remember state in message preview
-- · [9277](https://tbpro.zendesk.com/agent/tickets/9277) · 2026-10-07T17:01 · Создание и оплата услуги.
-- · [9444](https://tbpro.zendesk.com/agent/tickets/9444) · 2026-10-07T17:06 · E Mail account
-- 👍 [9461](https://tbpro.zendesk.com/agent/tickets/9461) · 2026-10-07T17:51 · Custom Domain
-- · [9184](https://tbpro.zendesk.com/agent/tickets/9184) · 2026-10-07T18:02 · Pre-enrollment privacy questions about Thundermail
-- · [9361](https://tbpro.zendesk.com/agent/tickets/9361) · 2026-10-07T19:02 · fumbled password
-- · [9522](https://tbpro.zendesk.com/agent/tickets/9522) · 2026-10-07T19:26 · Donation to Thunderbird_Mozilla
+- · [9506](https://tbpro.zendesk.com/agent/tickets/9506) · 2026-10-07T20:01 · MACOS installer for desktop connection issues
+- · [9512](https://tbpro.zendesk.com/agent/tickets/9512) · 2026-10-07T20:45 · [domain] - no way to fix a bad email address for subscription billing.
+- · [9411](https://tbpro.zendesk.com/agent/tickets/9411) · 2026-10-07T21:02 · Refund
+- · [9199](https://tbpro.zendesk.com/agent/tickets/9199) · 2026-10-07T22:01 · Thundermail
+- · [9214](https://tbpro.zendesk.com/agent/tickets/9214) · 2026-10-08T00:01 · FileLink
+- · [9301](https://tbpro.zendesk.com/agent/tickets/9301) · 2026-10-08T01:01 · Signing up and signing in snafus
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
