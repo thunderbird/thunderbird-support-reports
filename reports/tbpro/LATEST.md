@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 11:25 ET** · refreshes hourly_  
+_Updated: **2026-10-08 12:29 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 60** of rollout — **35,000 invitees**, **691 tickets** so fa
 
 ## At a glance
 
-- **18** new tickets in last 24h · **9** solved in last 24h
+- **18** new tickets in last 24h · **10** solved in last 24h
 - **691** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (155 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 131.1h · mean 159.6h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 130.6h · mean 160.0h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,9 +22,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"request full refund"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
-- **"screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
+- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
-## Known problems — 10 problem(s), 86 incident(s)
+## Known problems — 10 problem(s), 87 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -40,7 +40,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 71 incident(s):
+- 72 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -112,6 +112,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [pending] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [pending] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
+  - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08 · _Cancel and Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -219,7 +220,7 @@ Regards, [name]_
   > Hello, I purchased the Thunderbird Pro Early Bird subscription today, but I have decided that I no longer wish to continue with the subscription. I would like to cancel my subscription and request a full refund under…
 - [9559](https://tbpro.zendesk.com/agent/tickets/9559) · [pending] · _Correction to refund request – Thunderbird Pro Early Bird_
   > Hello, I submitted a refund request earlier today, but I accidentally entered my newly created Thundermail address as the contact email. That mailbox is still being provisioned. Please use this email address for…
-- [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [open] · _Cancel and Refund_
+- [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · _Cancel and Refund_
   > Hi, I'd like to cancel and request a full refund please. It's not for me unfortunately. Thanks, [name]
 
 ## New ideas on FeatureOS
@@ -230,16 +231,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 531
-- **solved**: 66
-- **pending**: 60
+- **closed**: 532
+- **solved**: 65
+- **pending**: 63
 - **hold**: 18
-- **open**: 16
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 387
-- **Thundermail**: 242
+- **Account Hub**: 388
+- **Thundermail**: 241
 - **Send**: 15
 - **Appointment**: 9
 
@@ -247,8 +248,8 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 148
-- **change request** + **actioned**: 98
+- **curious** + **explained**: 149
+- **change request** + **actioned**: 99
 - **blocked** + **explained**: 93
 - **confused** + **explained**: 46
 - **curious** + **informed**: 39
@@ -294,6 +295,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **actioned**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
+- **curious** + **redirected**: 1
 - **telling us** + **investigated**: 1
 - **request** + **actioned**: 1
 - **concerned** + **n/a**: 1
@@ -323,19 +325,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9555](https://tbpro.zendesk.com/agent/tickets/9555)** · Mailbox setup
   > Hello, How long does it take for a mailbox to be set up? I am getting this message when trying to setup the account in Thunderbird, or when trying to login to the webmail: Your…
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#9569](https://tbpro.zendesk.com/agent/tickets/9569)** · Cancel and Refund
-  > Hi, I'd like to cancel and request a full refund please. It's not for me unfortunately. Thanks, [name]
-- **[#9560](https://tbpro.zendesk.com/agent/tickets/9560)** · Sticker / swag request from a student developer
-  > Hello [name], My name is [name], a high school student and junior developer from India. Thunderbird's open-source email client with modern redesign and calendar integration makes…
-
 ### Aliases — 2 tickets
 
 - **[#9557](https://tbpro.zendesk.com/agent/tickets/9557)** · Use of new service for new company
   > As a long-time Thunderbird user, I would like to use the new Thundermail service for a company that I am purchasing. As such, I need answers to the following questions: 1. Can one…
 - **[#9554](https://tbpro.zendesk.com/agent/tickets/9554)** · just creating a new account - question about login to web UI — why: **request** · how: **redirected**
   > Hello, Can I use any of my new thundermail aliases to log into the web UI? thanks.
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#9569](https://tbpro.zendesk.com/agent/tickets/9569)** · Cancel and Refund — why: **change request** · how: **actioned**
+  > Hi, I'd like to cancel and request a full refund please. It's not for me unfortunately. Thanks, [name]
+- **[#9560](https://tbpro.zendesk.com/agent/tickets/9560)** · Sticker / swag request from a student developer — why: **curious** · how: **redirected**
+  > Hello [name], My name is [name], a high school student and junior developer from India. Thunderbird's open-source email client with modern redesign and calendar integration makes…
 
 ### Early bird / invite / waitlist — 2 tickets
 
@@ -354,15 +356,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9556](https://tbpro.zendesk.com/agent/tickets/9556)** · Refund Request Due to Ongoing Email Deliverability Issues
   > Hello [name], I am a user who signed up for and has been using Thundermail during its beta period. I fully understand that, as the service is still in beta, there may be…
 
-### Account access issues — 1 tickets
-
-- **[#9553](https://tbpro.zendesk.com/agent/tickets/9553)** · How to update account profile
-  > Hello, I received an email saying there was a request to change my profile account data but when I go to sign in and select forgot password, I don't get an email helping me create…
-
 ### Other / uncategorized — 1 tickets
 
 - **[#9562](https://tbpro.zendesk.com/agent/tickets/9562)** · GoogleのG-mailに転送させたい — why: **blocked** · how: **redirected**
   > chatGPTを会社で使っており、サンダーバード→GoogleのG-mail→chatGPTで、経由をさせていただきたく設定したいです。 ご教示お願いいたします。
+
+### Account access issues — 1 tickets
+
+- **[#9553](https://tbpro.zendesk.com/agent/tickets/9553)** · How to update account profile — why: **curious** · how: **explained**
+  > Hello, I received an email saying there was a request to change my profile account data but when I go to sign in and select forgot password, I don't get an email helping me create…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -375,18 +377,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9550](https://tbpro.zendesk.com/agent/tickets/9550) · [open] · 2026-10-07T20:42 · Payment screen freezes
 - [9551](https://tbpro.zendesk.com/agent/tickets/9551) · [pending] · 2026-10-07T20:43 · won't complete account setup
 - [9552](https://tbpro.zendesk.com/agent/tickets/9552) · [pending] · 2026-10-07T20:45 · Cannot sign in
-- [9553](https://tbpro.zendesk.com/agent/tickets/9553) · [open] · 2026-10-07T21:01 · How to update account profile
+- [9553](https://tbpro.zendesk.com/agent/tickets/9553) · [pending] · 2026-10-07T21:01 · How to update account profile
 - [9554](https://tbpro.zendesk.com/agent/tickets/9554) · [pending] · 2026-10-07T21:14 · just creating a new account - question about login to web UI
 - [9555](https://tbpro.zendesk.com/agent/tickets/9555) · [open] · 2026-10-07T23:11 · Mailbox setup
 - [9556](https://tbpro.zendesk.com/agent/tickets/9556) · [open] · 2026-10-08T01:27 · Refund Request Due to Ongoing Email Deliverability Issues
 - [9557](https://tbpro.zendesk.com/agent/tickets/9557) · [open] · 2026-10-08T01:37 · Use of new service for new company
 - [9558](https://tbpro.zendesk.com/agent/tickets/9558) · [solved] · 2026-10-08T03:43 · Request for refund – Thunderbird Pro Early Bird
 - [9559](https://tbpro.zendesk.com/agent/tickets/9559) · [pending] · 2026-10-08T03:48 · Correction to refund request – Thunderbird Pro Early Bird
-- [9560](https://tbpro.zendesk.com/agent/tickets/9560) · [open] · 2026-10-08T05:52 · Sticker / swag request from a student developer
+- [9560](https://tbpro.zendesk.com/agent/tickets/9560) · [pending] · 2026-10-08T05:52 · Sticker / swag request from a student developer
 - [9561](https://tbpro.zendesk.com/agent/tickets/9561) · [pending] · 2026-10-08T06:24 · pomoc
 - [9562](https://tbpro.zendesk.com/agent/tickets/9562) · [pending] · 2026-10-08T07:08 · GoogleのG-mailに転送させたい
 - [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [open] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
-- [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [open] · 2026-10-08T12:23 · Cancel and Refund
+- [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08T12:23 · Cancel and Refund
 - [9570](https://tbpro.zendesk.com/agent/tickets/9570) · [open] · 2026-10-08T12:57 · Webmail
 - [9571](https://tbpro.zendesk.com/agent/tickets/9571) · [open] · 2026-10-08T13:51 · Thunderbird Android
 
@@ -401,6 +403,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9438](https://tbpro.zendesk.com/agent/tickets/9438) · 2026-10-08T14:02 · POP Server
 - · [9558](https://tbpro.zendesk.com/agent/tickets/9558) · 2026-10-08T14:14 · Request for refund – Thunderbird Pro Early Bird
 - · [9186](https://tbpro.zendesk.com/agent/tickets/9186) · 2026-10-08T15:04 · Unable to reset password
+- · [8852](https://tbpro.zendesk.com/agent/tickets/8852) · 2026-10-08T16:01 · Light mode toggle doesn’t remember state in message preview
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
