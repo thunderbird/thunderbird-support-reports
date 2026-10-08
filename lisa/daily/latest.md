@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 21:02 ET** · refreshes hourly_  
+_Updated: **2026-10-07 21:43 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 59** of rollout — **35,000 invitees**, **680 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 59** of rollout — **35,000 invitees**, **682 tickets** so far (1.9% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **17** new tickets in last 24h · **13** solved in last 24h
-- **680** tickets total since launch · contact rate **2%** of 35000 invitees
+- **682** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (154 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
@@ -227,14 +227,14 @@ Regards, [name]_
 
 - **closed**: 531
 - **solved**: 65
-- **pending**: 60
+- **pending**: 61
 - **hold**: 17
-- **open**: 7
+- **open**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 384
-- **Thundermail**: 237
+- **Thundermail**: 239
 - **Send**: 15
 - **Appointment**: 9
 
@@ -245,7 +245,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 148
 - **change request** + **actioned**: 96
 - **blocked** + **explained**: 92
-- **confused** + **explained**: 44
+- **confused** + **explained**: 46
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 33
 - **request** + **redirected**: 29
@@ -309,15 +309,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9524](https://tbpro.zendesk.com/agent/tickets/9524)** · Help with something else - je suis abonné à thunderbird bêta early bird — why: **telling us** · how: **investigated**
   > No comment provided
 
-### App setup / configuration — 1 tickets
-
-- **[#9545](https://tbpro.zendesk.com/agent/tickets/9545)** · How to use early questions
-  > I started on my Windows 11 desktop Thunderbird Windows App which I initially and still do use to see my Yahoo email only until I understand how everything works best. I purchased…
-
 ### Account access issues — 1 tickets
 
 - **[#9517](https://tbpro.zendesk.com/agent/tickets/9517)** · forgotten password
   > I need to reset my password
+
+### App setup / configuration — 1 tickets
+
+- **[#9545](https://tbpro.zendesk.com/agent/tickets/9545)** · How to use early questions — why: **confused** · how: **explained**
+  > I started on my Windows 11 desktop Thunderbird Windows App which I initially and still do use to see my Yahoo email only until I understand how everything works best. I purchased…
 
 ### Other / uncategorized — 1 tickets
 
@@ -392,7 +392,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9539](https://tbpro.zendesk.com/agent/tickets/9539) · [pending] · 2026-10-07T17:30 · Anmeldung
 - [9541](https://tbpro.zendesk.com/agent/tickets/9541) · [pending] · 2026-10-07T17:54 · varies
 - [9544](https://tbpro.zendesk.com/agent/tickets/9544) · [pending] · 2026-10-07T18:37 · Suggestion for Email aliases section
-- [9545](https://tbpro.zendesk.com/agent/tickets/9545) · [open] · 2026-10-07T18:45 · How to use early questions
+- [9545](https://tbpro.zendesk.com/agent/tickets/9545) · [pending] · 2026-10-07T18:45 · How to use early questions
 
 ## Solved — last 24h
 
