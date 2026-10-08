@@ -21,15 +21,23 @@ jobs:
             const run = context.payload.workflow_run;
             const title = `⚠️ Workflow failed: ${run.name} (${run.created_at.slice(0,10)})`;
             const body = `**Workflow:** ${run.name}\n**Run:** ${run.html_url}\n**Branch:** ${run.head_branch}\n**Triggered by:** ${run.event}\n\nCheck the run logs for details.`;
-            // Check if a similar open issue already exists to avoid spam
+            // Reuse an open issue for the same workflow to avoid spam
             const issues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
               labels: 'workflow-failure',
             });
-            const alreadyOpen = issues.data.some(i => i.title.includes(run.name));
-            if (!alreadyOpen) {
+            const existing = issues.data.find(i => i.title.includes(run.name));
+            if (existing) {
+              // Comment instead of skipping so repeat failures stay visible
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: `Failed again: ${run.html_url} (${run.created_at})`,
+              });
+            } else {
               await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
