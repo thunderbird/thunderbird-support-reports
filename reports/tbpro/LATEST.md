@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 16:26 ET** · refreshes hourly_  
+_Updated: **2026-10-08 17:23 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 60** of rollout — **35,000 invitees**, **693 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 60** of rollout — **35,000 invitees**, **694 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **14** solved in last 24h
-- **693** tickets total since launch · contact rate **2%** of 35000 invitees
+- **20** new tickets in last 24h · **13** solved in last 24h
+- **694** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 93%  (155 good / 11 bad)
+- **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 130.0h · mean 150.8h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 128.6h · mean 149.6h (proxy: updated_at − created_at, 63 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"request full"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
-- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
+- **"screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
 ## Known problems — 10 problem(s), 86 incident(s)
 
@@ -230,16 +230,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 536
-- **pending**: 67
-- **solved**: 64
-- **hold**: 17
-- **open**: 9
+- **closed**: 538
+- **pending**: 66
+- **solved**: 63
+- **hold**: 15
+- **open**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 391
-- **Thundermail**: 241
+- **Thundermail**: 243
 - **Send**: 14
 - **Appointment**: 9
 
@@ -258,7 +258,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 24
 - **blocked** + **redirected**: 23
 - **blocked** + **informed**: 14
-- **blocked** + **escalated**: 12
+- **blocked** + **escalated**: 13
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
 - **blocked** + **—**: 6
@@ -269,13 +269,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **actioned**: 4
 - **confused** + **investigated**: 4
 - **confused** + **—**: 3
+- **curious** + **—**: 3
 - **change request** + **escalated**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **change request** + **investigated**: 2
-- **curious** + **—**: 2
 - **curious** + **investigated**: 2
 - **other** + **—**: 2
 - **concerned** + **redirected**: 2
@@ -303,10 +303,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Account access issues — Account Hub trouble — 4 tickets
 
-- **[#9561](https://tbpro.zendesk.com/agent/tickets/9561)** · pomoc — why: **blocked** · how: **explained**
-  > zapomniałem hasła
 - **[#9555](https://tbpro.zendesk.com/agent/tickets/9555)** · Mailbox setup — why: **confused** · how: **informed**
   > Hello, How long does it take for a mailbox to be set up? I am getting this message when trying to setup the account in Thunderbird, or when trying to login to the webmail: Your…
+- **[#9561](https://tbpro.zendesk.com/agent/tickets/9561)** · pomoc — why: **blocked** · how: **explained**
+  > zapomniałem hasła
 - **[#9552](https://tbpro.zendesk.com/agent/tickets/9552)** · Cannot sign in — why: **blocked** · how: **explained**
   > I need a reset
 - **[#9550](https://tbpro.zendesk.com/agent/tickets/9550)** · Payment screen freezes — why: **confused** · how: **explained**
@@ -354,7 +354,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#9567](https://tbpro.zendesk.com/agent/tickets/9567)** · Test Email – Delivery Issue with [domain]
+- **[#9567](https://tbpro.zendesk.com/agent/tickets/9567)** · Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
   > Hi [name], This is the test email you requested. I would also like to clarify that the issue is not specific to my Thundermail email address. My domain, [domain], was previously…
 
 ### Account creation / signup confusion — 1 tickets
@@ -385,7 +385,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9552](https://tbpro.zendesk.com/agent/tickets/9552) · [pending] · 2026-10-07T20:45 · Cannot sign in
 - [9553](https://tbpro.zendesk.com/agent/tickets/9553) · [pending] · 2026-10-07T21:01 · How to update account profile
 - [9554](https://tbpro.zendesk.com/agent/tickets/9554) · [pending] · 2026-10-07T21:14 · just creating a new account - question about login to web UI
-- [9555](https://tbpro.zendesk.com/agent/tickets/9555) · [pending] · 2026-10-07T23:11 · Mailbox setup
+- [9555](https://tbpro.zendesk.com/agent/tickets/9555) · [open] · 2026-10-07T23:11 · Mailbox setup
 - [9556](https://tbpro.zendesk.com/agent/tickets/9556) · [open] · 2026-10-08T01:27 · Refund Request Due to Ongoing Email Deliverability Issues
 - [9557](https://tbpro.zendesk.com/agent/tickets/9557) · [open] · 2026-10-08T01:37 · Use of new service for new company
 - [9558](https://tbpro.zendesk.com/agent/tickets/9558) · [solved] · 2026-10-08T03:43 · Request for refund – Thunderbird Pro Early Bird
@@ -403,7 +403,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [9506](https://tbpro.zendesk.com/agent/tickets/9506) · 2026-10-07T20:01 · MACOS installer for desktop connection issues
-- · [9512](https://tbpro.zendesk.com/agent/tickets/9512) · 2026-10-07T20:45 · [domain] - no way to fix a bad email address for subscription billing.
 - · [9411](https://tbpro.zendesk.com/agent/tickets/9411) · 2026-10-07T21:02 · Refund
 - · [9199](https://tbpro.zendesk.com/agent/tickets/9199) · 2026-10-07T22:01 · Thundermail
 - · [9301](https://tbpro.zendesk.com/agent/tickets/9301) · 2026-10-08T01:01 · Signing up and signing in snafus
