@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 02:41 ET** · refreshes hourly_  
+_Updated: **2026-10-08 03:33 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 60** of rollout — **35,000 invitees**, **686 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 60** of rollout — **35,000 invitees**, **687 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **6** solved in last 24h
-- **686** tickets total since launch · contact rate **2%** of 35000 invitees
+- **14** new tickets in last 24h · **6** solved in last 24h
+- **687** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (155 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"request full refund"** — 3 tickets in 24h (35.4× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
-- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
+- **"screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
 ## Known problems — 10 problem(s), 85 incident(s)
 
@@ -232,12 +232,12 @@ Regards, [name]_
 - **pending**: 58
 - **hold**: 17
 - **open**: 11
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 384
-- **Thundermail**: 241
+- **Thundermail**: 242
 - **Send**: 15
 - **Appointment**: 9
 
@@ -298,6 +298,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#9562](https://tbpro.zendesk.com/agent/tickets/9562)** · GoogleのG-mailに転送させたい
+  > chatGPTを会社で使っており、サンダーバード→GoogleのG-mail→chatGPTで、経由をさせていただきたく設定したいです。 ご教示お願いいたします。
+- **[#9561](https://tbpro.zendesk.com/agent/tickets/9561)** · pomoc
+  > zapomniałem hasła
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#9559](https://tbpro.zendesk.com/agent/tickets/9559)** · Correction to refund request – Thunderbird Pro Early Bird
@@ -318,11 +325,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Help me finish creating my invited account.
 - **[#9552](https://tbpro.zendesk.com/agent/tickets/9552)** · Cannot sign in — why: **blocked** · how: **explained**
   > I need a reset
-
-### Other / uncategorized — 1 tickets
-
-- **[#9561](https://tbpro.zendesk.com/agent/tickets/9561)** · pomoc
-  > zapomniałem hasła
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -369,6 +371,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9559](https://tbpro.zendesk.com/agent/tickets/9559) · [new] · 2026-10-08T03:48 · Correction to refund request – Thunderbird Pro Early Bird
 - [9560](https://tbpro.zendesk.com/agent/tickets/9560) · [new] · 2026-10-08T05:52 · Sticker / swag request from a student developer
 - [9561](https://tbpro.zendesk.com/agent/tickets/9561) · [new] · 2026-10-08T06:24 · pomoc
+- [9562](https://tbpro.zendesk.com/agent/tickets/9562) · [new] · 2026-10-08T07:08 · GoogleのG-mailに転送させたい
 
 ## Solved — last 24h
 
