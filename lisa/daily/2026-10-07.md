@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-07
 
-_Updated: **2026-10-07 19:20 ET** · refreshes hourly_  
+_Updated: **2026-10-07 21:02 ET** · refreshes hourly_  
 _24h window: 2026-10-06T16:00 → 2026-10-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 59** of rollout — **35,000 invitees**, **680 tickets** so fa
 
 ## At a glance
 
-- **17** new tickets in last 24h · **14** solved in last 24h
+- **17** new tickets in last 24h · **13** solved in last 24h
 - **680** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 93%  (154 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 72
-- **Median AHT**: 131.1h · mean 159.5h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 131.6h · mean 160.4h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -226,10 +226,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 531
-- **solved**: 64
-- **pending**: 59
+- **solved**: 65
+- **pending**: 60
 - **hold**: 17
-- **open**: 9
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -242,7 +242,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 147
+- **curious** + **explained**: 148
 - **change request** + **actioned**: 96
 - **blocked** + **explained**: 92
 - **confused** + **explained**: 44
@@ -251,7 +251,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 29
 - **confused** + **informed**: 27
 - **concerned** + **explained**: 24
-- **blocked** + **redirected**: 21
+- **blocked** + **redirected**: 22
 - **blocked** + **informed**: 14
 - **blocked** + **escalated**: 12
 - **concerned** + **—**: 7
@@ -297,7 +297,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 2 tickets
 
-- **[#9544](https://tbpro.zendesk.com/agent/tickets/9544)** · Suggestion for Email aliases section
+- **[#9544](https://tbpro.zendesk.com/agent/tickets/9544)** · Suggestion for Email aliases section — why: **curious** · how: **explained**
   > Hi, I've started actively configuring my email service and have a few suggestions and questions: Alias descriptions: It would be very convenient to have the option to add comments…
 - **[#9527](https://tbpro.zendesk.com/agent/tickets/9527)** · Want to rename my primary email address.   — why: **change request** · how: **actioned**
   > When I signed up, I was assigned [email]. I had typed in "kent" and it flashed something and then i proceeded. I did not notice the switch. It should have confirmed the changem…
@@ -314,15 +314,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9545](https://tbpro.zendesk.com/agent/tickets/9545)** · How to use early questions
   > I started on my Windows 11 desktop Thunderbird Windows App which I initially and still do use to see my Yahoo email only until I understand how everything works best. I purchased…
 
-### Other / uncategorized — 1 tickets
-
-- **[#9541](https://tbpro.zendesk.com/agent/tickets/9541)** · varies
-  > logging in for my base email account
-
 ### Account access issues — 1 tickets
 
 - **[#9517](https://tbpro.zendesk.com/agent/tickets/9517)** · forgotten password
   > I need to reset my password
+
+### Other / uncategorized — 1 tickets
+
+- **[#9541](https://tbpro.zendesk.com/agent/tickets/9541)** · varies — why: **blocked** · how: **redirected**
+  > logging in for my base email account
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -390,15 +390,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9537](https://tbpro.zendesk.com/agent/tickets/9537) · [pending] · 2026-10-07T16:49 · Boite Reception mails
 - [9538](https://tbpro.zendesk.com/agent/tickets/9538) · [pending] · 2026-10-07T17:14 · Confused
 - [9539](https://tbpro.zendesk.com/agent/tickets/9539) · [pending] · 2026-10-07T17:30 · Anmeldung
-- [9541](https://tbpro.zendesk.com/agent/tickets/9541) · [open] · 2026-10-07T17:54 · varies
-- [9544](https://tbpro.zendesk.com/agent/tickets/9544) · [open] · 2026-10-07T18:37 · Suggestion for Email aliases section
+- [9541](https://tbpro.zendesk.com/agent/tickets/9541) · [pending] · 2026-10-07T17:54 · varies
+- [9544](https://tbpro.zendesk.com/agent/tickets/9544) · [pending] · 2026-10-07T18:37 · Suggestion for Email aliases section
 - [9545](https://tbpro.zendesk.com/agent/tickets/9545) · [open] · 2026-10-07T18:45 · How to use early questions
 
 ## Solved — last 24h
 
 - · [9346](https://tbpro.zendesk.com/agent/tickets/9346) · 2026-10-06T21:02 · Long term pricing and commitment
 - · [9378](https://tbpro.zendesk.com/agent/tickets/9378) · 2026-10-06T23:01 · Invoice
-- · [9214](https://tbpro.zendesk.com/agent/tickets/9214) · 2026-10-06T23:07 · FileLink
 - 👍 [9350](https://tbpro.zendesk.com/agent/tickets/9350) · 2026-10-07T04:59 · Subscriptpion stuck a verifying email address
 - · [9438](https://tbpro.zendesk.com/agent/tickets/9438) · 2026-10-07T13:59 · POP Server
 - · [9353](https://tbpro.zendesk.com/agent/tickets/9353) · 2026-10-07T14:02 · mots de passe
