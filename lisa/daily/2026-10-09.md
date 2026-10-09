@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 10:29 ET** · refreshes hourly_  
+_Updated: **2026-10-09 11:23 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **700 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **4** solved in last 24h
-- **701** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **6** solved in last 24h
+- **700** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 126.5h · mean 143.6h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 126.3h · mean 142.3h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 10 problem(s), 87 incident(s)
 
@@ -217,11 +217,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 544
-- **pending**: 63
-- **solved**: 57
-- **open**: 16
-- **hold**: 16
-- **new**: 5
+- **pending**: 64
+- **solved**: 58
+- **hold**: 17
+- **open**: 13
+- **new**: 4
 
 ## Service (cumulative)
 
@@ -288,14 +288,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 3 tickets
 
 - **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache
   > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
 - **[#9602](https://tbpro.zendesk.com/agent/tickets/9602)** · メールの送受信ができません
   > メールの送受信を出来るように
-- **[#9600](https://tbpro.zendesk.com/agent/tickets/9600)** · 国税電子申告・納税システム
-  > 国税電子申告・納税システム 日付：令和8年10月9日 【重要】税務に関するお知らせ（自動配信メール） いつもe-Taxをご利用いただき誠にありがとうございます。 本税務申告・納税システムにおいて、貴社宛ての重要な通知を受信いたしましたのでご連絡いたします。…
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
 
@@ -324,7 +322,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
 - [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [open] · 2026-10-08T23:20 · message sent with alias shows real address also
 - [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [new] · 2026-10-09T12:10 · Wachtwoord kwijt
-- [9600](https://tbpro.zendesk.com/agent/tickets/9600) · [new] · 2026-10-09T12:54 · 国税電子申告・納税システム
 - [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
 - [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [new] · 2026-10-09T13:27 · メールの送受信ができません
 - [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [new] · 2026-10-09T13:35 · Sprache
@@ -336,6 +333,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9442](https://tbpro.zendesk.com/agent/tickets/9442) · 2026-10-08T20:47 · All Firefox relay mails get marked as spam
 - · [9512](https://tbpro.zendesk.com/agent/tickets/9512) · 2026-10-08T21:02 · [domain] - no way to fix a bad email address for subscription billing.
 - · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-08T22:09 · Email Account versus Alias
+- · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-09T14:37 · just creating a new account - question about login to web UI
+- · [9558](https://tbpro.zendesk.com/agent/tickets/9558) · 2026-10-09T15:01 · Request for refund – Thunderbird Pro Early Bird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
