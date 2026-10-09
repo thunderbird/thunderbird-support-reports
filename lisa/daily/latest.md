@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 12:26 ET** · refreshes hourly_  
+_Updated: **2026-10-09 13:21 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so fa
 
 ## At a glance
 
-- **8** new tickets in last 24h · **6** solved in last 24h
+- **8** new tickets in last 24h · **7** solved in last 24h
 - **701** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 126.3h · mean 142.3h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 126.5h · mean 135.5h (proxy: updated_at − created_at, 57 solved tickets)
 
-## Known problems — 10 problem(s), 87 incident(s)
+## Known problems — 10 problem(s), 88 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 72 incident(s):
+- 73 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -105,6 +105,7 @@ Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so fa
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [pending] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [pending] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08 · _Cancel and Refund_
+  - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [pending] · 2026-10-08 · _Delete my data and unsubscribe from the service_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -138,7 +139,7 @@ Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so fa
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [closed] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [pending] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [solved] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
@@ -216,17 +217,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 544
-- **pending**: 64
-- **solved**: 58
+- **closed**: 545
+- **pending**: 69
+- **solved**: 57
 - **hold**: 17
-- **open**: 14
-- **new**: 4
+- **open**: 12
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 392
-- **Thundermail**: 245
+- **Account Hub**: 393
+- **Thundermail**: 246
 - **Send**: 15
 - **Appointment**: 9
 
@@ -234,10 +235,10 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 151
+- **curious** + **explained**: 152
 - **change request** + **actioned**: 101
 - **blocked** + **explained**: 94
-- **confused** + **explained**: 47
+- **confused** + **explained**: 49
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 33
 - **request** + **redirected**: 30
@@ -288,33 +289,33 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache
-  > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
+- **[#9605](https://tbpro.zendesk.com/agent/tickets/9605)** · MTA-STA Policy not published
+  > Hello. I've configured my custom domain "[domain]" to the specifications provided, including setting up the _mta-sts policy TXT records. The problem is the actual policy file is…
+- **[#9604](https://tbpro.zendesk.com/agent/tickets/9604)** · SRV records for custom domain — why: **confused** · how: **explained**
+  > I'm trying to set up a custom domain through Thundermail, but I cannot get the SRV records to cooperate in Namecheap. I try to add the records as presented in Thundermail, but…
+
+### Other / uncategorized — 2 tickets
+
 - **[#9602](https://tbpro.zendesk.com/agent/tickets/9602)** · メールの送受信ができません
   > メールの送受信を出来るように
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9605](https://tbpro.zendesk.com/agent/tickets/9605)** · MTA-STA Policy not published
-  > Hello. I've configured my custom domain "[domain]" to the specifications provided, including setting up the _mta-sts policy TXT records. The problem is the actual policy file is…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#9604](https://tbpro.zendesk.com/agent/tickets/9604)** · SRV records for custom domain
-  > I'm trying to set up a custom domain through Thundermail, but I cannot get the SRV records to cooperate in Namecheap. I try to add the records as presented in Thundermail, but…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
   > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
 
-### Aliases — 1 tickets
+### Early bird signup — 1 tickets
 
-- **[#9594](https://tbpro.zendesk.com/agent/tickets/9594)** · message sent with alias shows real address also
+- **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache — why: **curious** · how: **explained**
+  > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
+
+### Webmail — 1 tickets
+
+- **[#9594](https://tbpro.zendesk.com/agent/tickets/9594)** · message sent with alias shows real address also — why: **confused** · how: **explained**
   > Hi [name], Two issues: 1) I sent a test email to myself at another email account. I chose one of my aliases as the "From" specification. When the email arrived on the other end it…
 
 ### Email migration / import — 1 tickets
@@ -325,13 +326,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
-- [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [open] · 2026-10-08T23:20 · message sent with alias shows real address also
+- [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [pending] · 2026-10-08T23:20 · message sent with alias shows real address also
 - [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [new] · 2026-10-09T12:10 · Wachtwoord kwijt
 - [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
-- [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [new] · 2026-10-09T13:27 · メールの送受信ができません
-- [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [new] · 2026-10-09T13:35 · Sprache
-- [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [open] · 2026-10-09T14:24 · SRV records for custom domain
-- [9605](https://tbpro.zendesk.com/agent/tickets/9605) · [new] · 2026-10-09T15:47 · MTA-STA Policy not published
+- [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [open] · 2026-10-09T13:27 · メールの送受信ができません
+- [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [pending] · 2026-10-09T13:35 · Sprache
+- [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [pending] · 2026-10-09T14:24 · SRV records for custom domain
+- [9605](https://tbpro.zendesk.com/agent/tickets/9605) · [open] · 2026-10-09T15:47 · MTA-STA Policy not published
 
 ## Solved — last 24h
 
@@ -341,6 +342,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-08T22:09 · Email Account versus Alias
 - · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-09T14:37 · just creating a new account - question about login to web UI
 - · [9558](https://tbpro.zendesk.com/agent/tickets/9558) · 2026-10-09T15:01 · Request for refund – Thunderbird Pro Early Bird
+- · [9432](https://tbpro.zendesk.com/agent/tickets/9432) · 2026-10-09T17:01 · Swapping Primary e-mail with an alias
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
