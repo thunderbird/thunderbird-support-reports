@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 08:34 ET** · refreshes hourly_  
+_Updated: **2026-10-09 09:28 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **696 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **699 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
-- **696** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **4** solved in last 24h
+- **699** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -219,15 +219,15 @@ _(none in last 24h)_
 - **closed**: 544
 - **pending**: 63
 - **solved**: 57
-- **open**: 16
+- **open**: 17
 - **hold**: 15
-- **new**: 1
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 392
-- **Thundermail**: 242
-- **Send**: 14
+- **Thundermail**: 243
+- **Send**: 15
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -258,6 +258,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **—**: 3
 - **change request** + **escalated**: 3
 - **curious** + **—**: 3
+- **request** + **informed**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
@@ -267,7 +268,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **—**: 2
 - **concerned** + **redirected**: 2
 - **concerned** + **escalated**: 2
-- **request** + **informed**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
@@ -288,10 +288,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#9602](https://tbpro.zendesk.com/agent/tickets/9602)** · メールの送受信ができません
+  > メールの送受信を出来るように
+- **[#9600](https://tbpro.zendesk.com/agent/tickets/9600)** · 国税電子申告・納税システム
+  > 国税電子申告・納税システム 日付：令和8年10月9日 【重要】税務に関するお知らせ（自動配信メール） いつもe-Taxをご利用いただき誠にありがとうございます。 本税務申告・納税システムにおいて、貴社宛ての重要な通知を受信いたしましたのでご連絡いたします。…
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
+  > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
 
 ### Aliases — 1 tickets
 
@@ -308,6 +317,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
 - [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [open] · 2026-10-08T23:20 · message sent with alias shows real address also
 - [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [new] · 2026-10-09T12:10 · Wachtwoord kwijt
+- [9600](https://tbpro.zendesk.com/agent/tickets/9600) · [new] · 2026-10-09T12:54 · 国税電子申告・納税システム
+- [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
+- [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [new] · 2026-10-09T13:27 · メールの送受信ができません
 
 ## Solved — last 24h
 
