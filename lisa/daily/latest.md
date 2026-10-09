@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 11:23 ET** · refreshes hourly_  
+_Updated: **2026-10-09 12:26 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **700 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **6** solved in last 24h
-- **700** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **6** solved in last 24h
+- **701** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -220,13 +220,13 @@ _(none in last 24h)_
 - **pending**: 64
 - **solved**: 58
 - **hold**: 17
-- **open**: 13
+- **open**: 14
 - **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 392
-- **Thundermail**: 244
+- **Thundermail**: 245
 - **Send**: 15
 - **Appointment**: 9
 
@@ -235,7 +235,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 151
-- **change request** + **actioned**: 100
+- **change request** + **actioned**: 101
 - **blocked** + **explained**: 94
 - **confused** + **explained**: 47
 - **curious** + **informed**: 39
@@ -297,6 +297,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
 
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#9605](https://tbpro.zendesk.com/agent/tickets/9605)** · MTA-STA Policy not published
+  > Hello. I've configured my custom domain "[domain]" to the specifications provided, including setting up the _mta-sts policy TXT records. The problem is the actual policy file is…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#9604](https://tbpro.zendesk.com/agent/tickets/9604)** · SRV records for custom domain
@@ -325,7 +330,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
 - [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [new] · 2026-10-09T13:27 · メールの送受信ができません
 - [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [new] · 2026-10-09T13:35 · Sprache
-- [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [new] · 2026-10-09T14:24 · SRV records for custom domain
+- [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [open] · 2026-10-09T14:24 · SRV records for custom domain
+- [9605](https://tbpro.zendesk.com/agent/tickets/9605) · [new] · 2026-10-09T15:47 · MTA-STA Policy not published
 
 ## Solved — last 24h
 
