@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 09:28 ET** · refreshes hourly_  
+_Updated: **2026-10-09 10:29 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **699 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **701 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
-- **699** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **4** solved in last 24h
+- **701** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -219,14 +219,14 @@ _(none in last 24h)_
 - **closed**: 544
 - **pending**: 63
 - **solved**: 57
-- **open**: 17
-- **hold**: 15
-- **new**: 3
+- **open**: 16
+- **hold**: 16
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 392
-- **Thundermail**: 243
+- **Thundermail**: 244
 - **Send**: 15
 - **Appointment**: 9
 
@@ -288,14 +288,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache
+  > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
 - **[#9602](https://tbpro.zendesk.com/agent/tickets/9602)** · メールの送受信ができません
   > メールの送受信を出来るように
 - **[#9600](https://tbpro.zendesk.com/agent/tickets/9600)** · 国税電子申告・納税システム
   > 国税電子申告・納税システム 日付：令和8年10月9日 【重要】税務に関するお知らせ（自動配信メール） いつもe-Taxをご利用いただき誠にありがとうございます。 本税務申告・納税システムにおいて、貴社宛ての重要な通知を受信いたしましたのでご連絡いたします。…
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#9604](https://tbpro.zendesk.com/agent/tickets/9604)** · SRV records for custom domain
+  > I'm trying to set up a custom domain through Thundermail, but I cannot get the SRV records to cooperate in Namecheap. I try to add the records as presented in Thundermail, but…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -320,6 +327,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9600](https://tbpro.zendesk.com/agent/tickets/9600) · [new] · 2026-10-09T12:54 · 国税電子申告・納税システム
 - [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
 - [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [new] · 2026-10-09T13:27 · メールの送受信ができません
+- [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [new] · 2026-10-09T13:35 · Sprache
+- [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [new] · 2026-10-09T14:24 · SRV records for custom domain
 
 ## Solved — last 24h
 
