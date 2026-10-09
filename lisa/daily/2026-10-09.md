@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 15:20 ET** · refreshes hourly_  
+_Updated: **2026-10-09 16:35 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -218,15 +218,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 548
-- **pending**: 71
+- **pending**: 73
 - **solved**: 54
-- **hold**: 18
-- **open**: 12
+- **hold**: 19
+- **open**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 394
-- **Thundermail**: 248
+- **Account Hub**: 395
+- **Thundermail**: 247
 - **Send**: 14
 - **Appointment**: 9
 
@@ -234,7 +234,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 152
+- **curious** + **explained**: 153
 - **change request** + **actioned**: 101
 - **blocked** + **explained**: 94
 - **confused** + **explained**: 51
@@ -295,15 +295,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt — why: **blocked** · how: **redirected**
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
 
-### Other / uncategorized — 1 tickets
+### Pricing — wanted free / monthly plan — 1 tickets
 
-- **[#9611](https://tbpro.zendesk.com/agent/tickets/9611)** · anonim life
+- **[#9611](https://tbpro.zendesk.com/agent/tickets/9611)** · anonim life — why: **curious** · how: **explained**
   > give try it for free
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
-  > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
 
 ### Aliases — 1 tickets
 
@@ -325,6 +320,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache — why: **curious** · how: **explained**
   > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
+  > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
+
 ### Webmail — 1 tickets
 
 - **[#9594](https://tbpro.zendesk.com/agent/tickets/9594)** · message sent with alias shows real address also — why: **confused** · how: **explained**
@@ -340,13 +340,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
 - [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [pending] · 2026-10-08T23:20 · message sent with alias shows real address also
 - [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [pending] · 2026-10-09T12:10 · Wachtwoord kwijt
-- [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
+- [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [pending] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
 - [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [pending] · 2026-10-09T13:27 · メールの送受信ができません
 - [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [pending] · 2026-10-09T13:35 · Sprache
 - [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [pending] · 2026-10-09T14:24 · SRV records for custom domain
 - [9605](https://tbpro.zendesk.com/agent/tickets/9605) · [pending] · 2026-10-09T15:47 · MTA-STA Policy not published
 - [9608](https://tbpro.zendesk.com/agent/tickets/9608) · [pending] · 2026-10-09T17:28 · creating more email addresses.  Have created my first, need more
-- [9611](https://tbpro.zendesk.com/agent/tickets/9611) · [open] · 2026-10-09T19:04 · anonim life
+- [9611](https://tbpro.zendesk.com/agent/tickets/9611) · [pending] · 2026-10-09T19:04 · anonim life
 
 ## Solved — last 24h
 
