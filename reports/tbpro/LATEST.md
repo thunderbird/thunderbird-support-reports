@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 07:23 ET** · refreshes hourly_  
+_Updated: **2026-10-09 08:34 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **695 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **696 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **695** tickets total since launch · contact rate **2%** of 35000 invitees
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **696** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -221,6 +221,7 @@ _(none in last 24h)_
 - **solved**: 57
 - **open**: 16
 - **hold**: 15
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -287,6 +288,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt
+  > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
+
 ### Aliases — 1 tickets
 
 - **[#9594](https://tbpro.zendesk.com/agent/tickets/9594)** · message sent with alias shows real address also
@@ -301,6 +307,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
 - [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [open] · 2026-10-08T23:20 · message sent with alias shows real address also
+- [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [new] · 2026-10-09T12:10 · Wachtwoord kwijt
 
 ## Solved — last 24h
 
