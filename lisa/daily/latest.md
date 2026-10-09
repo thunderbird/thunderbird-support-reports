@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 21:04 ET** · refreshes hourly_  
+_Updated: **2026-10-08 21:46 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,9 +20,9 @@ Flight 8 is **day 60** of rollout — **35,000 invitees**, **695 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"request full"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
+- **"request full refund"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
-- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
+- **"screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
 ## Known problems — 10 problem(s), 87 incident(s)
 
@@ -234,8 +234,8 @@ Regards, [name]_
 - **closed**: 544
 - **pending**: 69
 - **solved**: 58
-- **hold**: 16
-- **open**: 8
+- **hold**: 18
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -322,6 +322,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9558](https://tbpro.zendesk.com/agent/tickets/9558)** · Request for refund – Thunderbird Pro Early Bird — why: **change request** · how: **actioned**
   > Hello, I purchased the Thunderbird Pro Early Bird subscription today, but I have decided that I no longer wish to continue with the subscription. I would like to cancel my…
 
+### Aliases — 2 tickets
+
+- **[#9554](https://tbpro.zendesk.com/agent/tickets/9554)** · just creating a new account - question about login to web UI — why: **request** · how: **redirected**
+  > Hello, Can I use any of my new thundermail aliases to log into the web UI? thanks.
+- **[#9567](https://tbpro.zendesk.com/agent/tickets/9567)** · Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
+  > Hi [name], This is the test email you requested. I would also like to clarify that the issue is not specific to my Thundermail email address. My domain, [domain], was previously…
+
 ### Thunderbird for Android + Thundermail — 2 tickets
 
 - **[#9571](https://tbpro.zendesk.com/agent/tickets/9571)** · Thunderbird Android — why: **confused** · how: **explained**
@@ -345,16 +352,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9570](https://tbpro.zendesk.com/agent/tickets/9570)** · Webmail — why: **blocked** · how: **explained**
   > Hi, I'm trying to send an email via webmail but not working.
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#9567](https://tbpro.zendesk.com/agent/tickets/9567)** · Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
-  > Hi [name], This is the test email you requested. I would also like to clarify that the issue is not specific to my Thundermail email address. My domain, [domain], was previously…
-
-### Aliases — 1 tickets
-
-- **[#9554](https://tbpro.zendesk.com/agent/tickets/9554)** · just creating a new account - question about login to web UI — why: **request** · how: **redirected**
-  > Hello, Can I use any of my new thundermail aliases to log into the web UI? thanks.
 
 ### Other / uncategorized — 1 tickets
 
@@ -397,7 +394,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9560](https://tbpro.zendesk.com/agent/tickets/9560) · [pending] · 2026-10-08T05:52 · Sticker / swag request from a student developer
 - [9561](https://tbpro.zendesk.com/agent/tickets/9561) · [pending] · 2026-10-08T06:24 · pomoc
 - [9562](https://tbpro.zendesk.com/agent/tickets/9562) · [pending] · 2026-10-08T07:08 · GoogleのG-mailに転送させたい
-- [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [open] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
+- [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [hold] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
 - [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08T12:23 · Cancel and Refund
 - [9570](https://tbpro.zendesk.com/agent/tickets/9570) · [open] · 2026-10-08T12:57 · Webmail
 - [9571](https://tbpro.zendesk.com/agent/tickets/9571) · [pending] · 2026-10-08T13:51 · Thunderbird Android
