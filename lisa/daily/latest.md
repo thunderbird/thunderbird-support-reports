@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 19:23 ET** · refreshes hourly_  
+_Updated: **2026-10-08 21:04 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 60** of rollout — **35,000 invitees**, **695 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (156 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 126.5h · mean 145.5h (proxy: updated_at − created_at, 59 solved tickets)
+- **Median AHT**: 127.3h · mean 145.8h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"request full"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
-- **"screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
+- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
 ## Known problems — 10 problem(s), 87 incident(s)
 
@@ -231,11 +231,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 543
-- **pending**: 72
-- **solved**: 59
+- **closed**: 544
+- **pending**: 69
+- **solved**: 58
 - **hold**: 16
-- **open**: 5
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -341,6 +341,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9588](https://tbpro.zendesk.com/agent/tickets/9588)** · Delete my data and unsubscribe from the service
   > Delete my data and unsubscribe from the service
 
+### Webmail — 1 tickets
+
+- **[#9570](https://tbpro.zendesk.com/agent/tickets/9570)** · Webmail — why: **blocked** · how: **explained**
+  > Hi, I'm trying to send an email via webmail but not working.
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#9567](https://tbpro.zendesk.com/agent/tickets/9567)** · Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
@@ -350,11 +355,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9554](https://tbpro.zendesk.com/agent/tickets/9554)** · just creating a new account - question about login to web UI — why: **request** · how: **redirected**
   > Hello, Can I use any of my new thundermail aliases to log into the web UI? thanks.
-
-### Webmail — 1 tickets
-
-- **[#9570](https://tbpro.zendesk.com/agent/tickets/9570)** · Webmail — why: **blocked** · how: **explained**
-  > Hi, I'm trying to send an email via webmail but not working.
 
 ### Other / uncategorized — 1 tickets
 
@@ -399,7 +399,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9562](https://tbpro.zendesk.com/agent/tickets/9562) · [pending] · 2026-10-08T07:08 · GoogleのG-mailに転送させたい
 - [9567](https://tbpro.zendesk.com/agent/tickets/9567) · [open] · 2026-10-08T10:09 · Test Email – Delivery Issue with [domain]
 - [9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08T12:23 · Cancel and Refund
-- [9570](https://tbpro.zendesk.com/agent/tickets/9570) · [pending] · 2026-10-08T12:57 · Webmail
+- [9570](https://tbpro.zendesk.com/agent/tickets/9570) · [open] · 2026-10-08T12:57 · Webmail
 - [9571](https://tbpro.zendesk.com/agent/tickets/9571) · [pending] · 2026-10-08T13:51 · Thunderbird Android
 - [9577](https://tbpro.zendesk.com/agent/tickets/9577) · [pending] · 2026-10-08T17:00 · Thundermail Waitlist
 - [9588](https://tbpro.zendesk.com/agent/tickets/9588) · [open] · 2026-10-08T18:51 · Delete my data and unsubscribe from the service
