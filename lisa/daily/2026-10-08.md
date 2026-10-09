@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-08
 
-_Updated: **2026-10-08 22:38 ET** · refreshes hourly_  
+_Updated: **2026-10-08 23:31 ET** · refreshes hourly_  
 _24h window: 2026-10-07T16:00 → 2026-10-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"request full refund"** — 4 tickets in 24h (47.2× baseline; baseline 5 cum) — [#9556](https://tbpro.zendesk.com/agent/tickets/9556), [#9558](https://tbpro.zendesk.com/agent/tickets/9558), [#9559](https://tbpro.zendesk.com/agent/tickets/9559), [#9569](https://tbpro.zendesk.com/agent/tickets/9569)
 - **"mailbox still"** — 2 tickets in 24h (new; baseline 0 cum) — [#9555](https://tbpro.zendesk.com/agent/tickets/9555), [#9559](https://tbpro.zendesk.com/agent/tickets/9559)
-- **"screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
+- **"payment screen freezes"** — 2 tickets in 24h (new; baseline 0 cum) — [#9550](https://tbpro.zendesk.com/agent/tickets/9550), [#9551](https://tbpro.zendesk.com/agent/tickets/9551)
 
 ## Known problems — 10 problem(s), 87 incident(s)
 
