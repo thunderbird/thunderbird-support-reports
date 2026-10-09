@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 18:24 ET** · refreshes hourly_  
+_Updated: **2026-10-09 19:22 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **704 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **703 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **7** solved in last 24h
-- **704** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **6** solved in last 24h
+- **703** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 127.3h · mean 134.4h (proxy: updated_at − created_at, 52 solved tickets)
+- **Median AHT**: 127.3h · mean 131.5h (proxy: updated_at − created_at, 54 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -219,14 +219,14 @@ _(none in last 24h)_
 
 - **closed**: 550
 - **pending**: 74
-- **solved**: 52
+- **solved**: 54
 - **hold**: 19
-- **open**: 8
+- **open**: 5
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 395
+- **Account Hub**: 394
 - **Thundermail**: 247
 - **Send**: 14
 - **Appointment**: 9
@@ -235,7 +235,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 153
+- **curious** + **explained**: 152
 - **change request** + **actioned**: 101
 - **blocked** + **explained**: 94
 - **confused** + **explained**: 51
@@ -296,6 +296,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt — why: **blocked** · how: **redirected**
   > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
+  > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
+
 ### Pricing — wanted free / monthly plan — 1 tickets
 
 - **[#9611](https://tbpro.zendesk.com/agent/tickets/9611)** · anonim life — why: **curious** · how: **explained**
@@ -321,11 +326,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache — why: **curious** · how: **explained**
   > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
-  > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
-
 ### Webmail — 1 tickets
 
 - **[#9594](https://tbpro.zendesk.com/agent/tickets/9594)** · message sent with alias shows real address also — why: **confused** · how: **explained**
@@ -341,7 +341,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
 - [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [pending] · 2026-10-08T23:20 · message sent with alias shows real address also
 - [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [pending] · 2026-10-09T12:10 · Wachtwoord kwijt
-- [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [pending] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
+- [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
 - [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [pending] · 2026-10-09T13:27 · メールの送受信ができません
 - [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [pending] · 2026-10-09T13:35 · Sprache
 - [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [pending] · 2026-10-09T14:24 · SRV records for custom domain
@@ -353,7 +353,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [9522](https://tbpro.zendesk.com/agent/tickets/9522) · 2026-10-08T20:27 · Donation to Thunderbird_Mozilla
 - · [9512](https://tbpro.zendesk.com/agent/tickets/9512) · 2026-10-08T21:02 · [domain] - no way to fix a bad email address for subscription billing.
-- · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-08T22:09 · Email Account versus Alias
 - · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-09T14:37 · just creating a new account - question about login to web UI
 - · [9558](https://tbpro.zendesk.com/agent/tickets/9558) · 2026-10-09T15:01 · Request for refund – Thunderbird Pro Early Bird
 - · [9432](https://tbpro.zendesk.com/agent/tickets/9432) · 2026-10-09T17:01 · Swapping Primary e-mail with an alias
