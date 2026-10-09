@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 16:35 ET** · refreshes hourly_  
+_Updated: **2026-10-09 17:22 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 61** of rollout — **35,000 invitees**, **703 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **8** solved in last 24h
+- **10** new tickets in last 24h · **7** solved in last 24h
 - **703** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 93%  (156 good / 11 bad)
+- **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 126.3h · mean 136.0h (proxy: updated_at − created_at, 54 solved tickets)
+- **Median AHT**: 127.3h · mean 134.4h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -91,7 +91,7 @@ Flight 8 is **day 61** of rollout — **35,000 invitees**, **703 tickets** so fa
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [closed] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [closed] · 2026-09-25 · _Cancel my account_
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [closed] · 2026-09-26 · _Refund_
-  - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [solved] · 2026-09-29 · _Cancel Account_
+  - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [closed] · 2026-09-29 · _Cancel Account_
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [solved] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [solved] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [solved] · 2026-09-30 · _Refund_
@@ -217,11 +217,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 548
-- **pending**: 73
-- **solved**: 54
+- **closed**: 550
+- **pending**: 75
+- **solved**: 52
 - **hold**: 19
-- **open**: 9
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -351,7 +351,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [9522](https://tbpro.zendesk.com/agent/tickets/9522) · 2026-10-08T20:27 · Donation to Thunderbird_Mozilla
-- · [9442](https://tbpro.zendesk.com/agent/tickets/9442) · 2026-10-08T20:47 · All Firefox relay mails get marked as spam
 - · [9512](https://tbpro.zendesk.com/agent/tickets/9512) · 2026-10-08T21:02 · [domain] - no way to fix a bad email address for subscription billing.
 - · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-08T22:09 · Email Account versus Alias
 - · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-09T14:37 · just creating a new account - question about login to web UI
