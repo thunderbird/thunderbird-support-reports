@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 13:20 ET** · refreshes hourly_  
+_Updated: **2026-10-10 14:27 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 62** of rollout — **35,000 invitees**, **706 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 62** of rollout — **35,000 invitees**, **707 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **12** solved in last 24h
-- **706** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **5** new tickets in last 24h · **13** solved in last 24h
+- **707** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 129.6h · mean 137.5h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 129.6h · mean 137.5h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -30,7 +30,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
-  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [solved] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
+  - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -224,12 +224,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 554
-- **pending**: 65
-- **solved**: 57
+- **closed**: 557
+- **pending**: 64
+- **solved**: 55
 - **hold**: 19
 - **open**: 10
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -296,6 +296,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#9628](https://tbpro.zendesk.com/agent/tickets/9628)** · Risto Janković
+  > Kako da se prijavim na svoju mejl adresu
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#9621](https://tbpro.zendesk.com/agent/tickets/9621)** · Messed up registration? 
@@ -322,6 +327,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9618](https://tbpro.zendesk.com/agent/tickets/9618) · [open] · 2026-10-10T00:14 · Thundermail and Pop3
 - [9620](https://tbpro.zendesk.com/agent/tickets/9620) · [open] · 2026-10-10T01:36 · I received an invite to join the beta release of thundermail, but not working
 - [9621](https://tbpro.zendesk.com/agent/tickets/9621) · [new] · 2026-10-10T05:45 · Messed up registration? 
+- [9628](https://tbpro.zendesk.com/agent/tickets/9628) · [new] · 2026-10-10T17:36 · Risto Janković
 
 ## Solved — last 24h
 
@@ -337,6 +343,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9421](https://tbpro.zendesk.com/agent/tickets/9421) · 2026-10-10T17:02 · Anmeldung nach Aktualisierung
 - · [9326](https://tbpro.zendesk.com/agent/tickets/9326) · 2026-10-10T17:02 · logging in to thunderbird email
 - · [9412](https://tbpro.zendesk.com/agent/tickets/9412) · 2026-10-10T17:02 · would like to cancel thunderbird pro
+- · [9478](https://tbpro.zendesk.com/agent/tickets/9478) · 2026-10-10T18:01 · Direct Deposit  change
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
