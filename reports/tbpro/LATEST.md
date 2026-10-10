@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 14:27 ET** · refreshes hourly_  
+_Updated: **2026-10-10 15:19 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **707 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **13** solved in last 24h
+- **5** new tickets in last 24h · **16** solved in last 24h
 - **707** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 129.6h · mean 137.5h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 130.6h · mean 139.1h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -225,8 +225,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 557
-- **pending**: 64
-- **solved**: 55
+- **pending**: 61
+- **solved**: 58
 - **hold**: 19
 - **open**: 10
 - **new**: 2
@@ -344,6 +344,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9326](https://tbpro.zendesk.com/agent/tickets/9326) · 2026-10-10T17:02 · logging in to thunderbird email
 - · [9412](https://tbpro.zendesk.com/agent/tickets/9412) · 2026-10-10T17:02 · would like to cancel thunderbird pro
 - · [9478](https://tbpro.zendesk.com/agent/tickets/9478) · 2026-10-10T18:01 · Direct Deposit  change
+- · [9450](https://tbpro.zendesk.com/agent/tickets/9450) · 2026-10-10T19:02 · Dotaz
+- · [9437](https://tbpro.zendesk.com/agent/tickets/9437) · 2026-10-10T19:02 · Urgent: Reproducible Gmail deliverability issue with app-password SMTP authentication
+- · [9410](https://tbpro.zendesk.com/agent/tickets/9410) · 2026-10-10T19:02 · 15 Email Addresses???
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
