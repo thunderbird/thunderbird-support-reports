@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 10:22 ET** · refreshes hourly_  
+_Updated: **2026-10-10 11:22 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **706 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
+- **4** new tickets in last 24h · **5** solved in last 24h
 - **706** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 127.3h · mean 131.5h (proxy: updated_at − created_at, 54 solved tickets)
+- **Median AHT**: 127.1h · mean 131.9h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -224,9 +224,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 550
+- **closed**: 552
 - **pending**: 72
-- **solved**: 54
+- **solved**: 52
 - **hold**: 20
 - **open**: 9
 - **new**: 1
@@ -329,6 +329,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-09T23:01 · Email Account versus Alias
 - · [9534](https://tbpro.zendesk.com/agent/tickets/9534) · 2026-10-09T23:17 · Non ricordo l'username per accedere 
 - · [9570](https://tbpro.zendesk.com/agent/tickets/9570) · 2026-10-09T23:17 · Webmail
+- · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-10T15:02 · just creating a new account - question about login to web UI
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
