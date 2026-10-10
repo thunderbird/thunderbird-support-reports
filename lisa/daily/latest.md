@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 11:22 ET** · refreshes hourly_  
+_Updated: **2026-10-10 12:24 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **706 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **5** solved in last 24h
+- **4** new tickets in last 24h · **7** solved in last 24h
 - **706** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 127.1h · mean 131.9h (proxy: updated_at − created_at, 52 solved tickets)
+- **Median AHT**: 127.4h · mean 132.7h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -98,9 +98,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [closed] · 2026-09-25 · _Cancel my account_
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [closed] · 2026-09-26 · _Refund_
   - [#9293](https://tbpro.zendesk.com/agent/tickets/9293) · [closed] · 2026-09-29 · _Cancel Account_
-  - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [solved] · 2026-09-30 · _Request for cancellation and full refund_
+  - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [closed] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [solved] · 2026-09-30 · _Refund_
-  - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [solved] · 2026-09-30 · _Refund_
+  - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [closed] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [solved] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [solved] · 2026-10-02 · _Refund_
@@ -224,8 +224,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 552
-- **pending**: 72
+- **closed**: 554
+- **pending**: 70
 - **solved**: 52
 - **hold**: 20
 - **open**: 9
@@ -330,6 +330,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9534](https://tbpro.zendesk.com/agent/tickets/9534) · 2026-10-09T23:17 · Non ricordo l'username per accedere 
 - · [9570](https://tbpro.zendesk.com/agent/tickets/9570) · 2026-10-09T23:17 · Webmail
 - · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-10T15:02 · just creating a new account - question about login to web UI
+- · [9473](https://tbpro.zendesk.com/agent/tickets/9473) · 2026-10-10T16:02 · Gnome and Evolution can't connect
+- · [9419](https://tbpro.zendesk.com/agent/tickets/9419) · 2026-10-10T16:02 · PASSWORT
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
