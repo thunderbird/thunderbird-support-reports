@@ -1,15 +1,15 @@
-# Thundermail — Flight 8 Live Report · 2026-10-09
+# Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-09 23:30 ET** · refreshes hourly_  
-_24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-10 00:29 ET** · refreshes hourly_  
+_24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **705 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 62** of rollout — **35,000 invitees**, **705 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **6** solved in last 24h
+- **3** new tickets in last 24h · **4** solved in last 24h
 - **705** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
@@ -289,74 +289,33 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — wrong product, redirected to SUMO — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#9602](https://tbpro.zendesk.com/agent/tickets/9602)** · メールの送受信ができません — why: **blocked** · how: **redirected**
-  > メールの送受信を出来るように
-- **[#9598](https://tbpro.zendesk.com/agent/tickets/9598)** · Wachtwoord kwijt — why: **blocked** · how: **redirected**
-  > Ik wil mijn smartphone koppelen aan laptop voor e mail maar geen wachtwoord meer. Moet namelijk een foto aanleveren in een email kom er niet uit. Mvr. Jerry Kalverboer
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#9601](https://tbpro.zendesk.com/agent/tickets/9601)** · Adding a TM calendar to TB does not seem to offer it in TB — why: **request** · how: **informed**
-  > This is a follow-up to your previous request #8748 "How to ask for a refund?" Hello [name], Question on CalDav: Note: I do not wish to use any TM "apps" (EG appointments), I only…
-
-### Pricing — wanted free / monthly plan — 1 tickets
-
-- **[#9611](https://tbpro.zendesk.com/agent/tickets/9611)** · anonim life — why: **curious** · how: **explained**
-  > give try it for free
-
-### Aliases — 1 tickets
-
-- **[#9608](https://tbpro.zendesk.com/agent/tickets/9608)** · creating more email addresses.  Have created my first, need more — why: **confused** · how: **explained**
-  > I can't find where to add more email addresses, supposed to have up to 15, I believe. We are trying to decide if "one inbox" and "15 email addresses" will work for my Wife and I.
+- **[#9620](https://tbpro.zendesk.com/agent/tickets/9620)** · I received an invite to join the beta release of thundermail, but not working
+  > Hi [name], I received an email on 29 Sept to join the beta release of Thundermail. I attempted to do so today (9 Oct). I clicked on the button and it had me create an email name…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#9605](https://tbpro.zendesk.com/agent/tickets/9605)** · MTA-STA Policy not published — why: **confused** · how: **explained**
-  > Hello. I've configured my custom domain "[domain]" to the specifications provided, including setting up the _mta-sts policy TXT records. The problem is the actual policy file is…
+- **[#9618](https://tbpro.zendesk.com/agent/tickets/9618)** · Thundermail and Pop3
+  > I have to change my email account provider. Does thundermail work with Pop3 download. I live where there is no cell service, I frequently lose power and/or internet connection.…
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Aliases — 1 tickets
 
-- **[#9604](https://tbpro.zendesk.com/agent/tickets/9604)** · SRV records for custom domain — why: **confused** · how: **explained**
-  > I'm trying to set up a custom domain through Thundermail, but I cannot get the SRV records to cooperate in Namecheap. I try to add the records as presented in Thundermail, but…
-
-### Early bird signup — 1 tickets
-
-- **[#9603](https://tbpro.zendesk.com/agent/tickets/9603)** · Sprache — why: **curious** · how: **explained**
-  > Ich kann in Englisch nicht kommunizieren. Zur weiteren Nutzung und einer Zubucheung, kann ich nur in Deutsch kommunizieren. Ich bitte um Beachtung.
-
-### Webmail — 1 tickets
-
-- **[#9594](https://tbpro.zendesk.com/agent/tickets/9594)** · message sent with alias shows real address also — why: **confused** · how: **explained**
-  > Hi [name], Two issues: 1) I sent a test email to myself at another email account. I chose one of my aliases as the "From" specification. When the email arrived on the other end it…
-
-### Email migration / import — 1 tickets
-
-- **[#9592](https://tbpro.zendesk.com/agent/tickets/9592)** · Transferring Current Email Domain to Thundermail — why: **curious**
-  > I currently pay for Google Workspace, almost exclusively to have the custom [domain] email domain. I want to join Thundermail with the early bird sign up, but I can't lose that…
+- **[#9615](https://tbpro.zendesk.com/agent/tickets/9615)** · Re: You're Invited: Thundermail Early Bird Access — why: **curious** · how: **explained**
+  > I had a question, When I open my account I asked for @ [domain] I received received my address back it was @[domain] Why? Jim [quoted message] > You're Invited: Thundermail Early…
 
 ## New tickets — last 24h
 
-- [9592](https://tbpro.zendesk.com/agent/tickets/9592) · [pending] · 2026-10-08T20:34 · Transferring Current Email Domain to Thundermail
-- [9594](https://tbpro.zendesk.com/agent/tickets/9594) · [pending] · 2026-10-08T23:20 · message sent with alias shows real address also
-- [9598](https://tbpro.zendesk.com/agent/tickets/9598) · [pending] · 2026-10-09T12:10 · Wachtwoord kwijt
-- [9601](https://tbpro.zendesk.com/agent/tickets/9601) · [open] · 2026-10-09T13:26 · Adding a TM calendar to TB does not seem to offer it in TB
-- [9602](https://tbpro.zendesk.com/agent/tickets/9602) · [pending] · 2026-10-09T13:27 · メールの送受信ができません
-- [9603](https://tbpro.zendesk.com/agent/tickets/9603) · [pending] · 2026-10-09T13:35 · Sprache
-- [9604](https://tbpro.zendesk.com/agent/tickets/9604) · [pending] · 2026-10-09T14:24 · SRV records for custom domain
-- [9605](https://tbpro.zendesk.com/agent/tickets/9605) · [pending] · 2026-10-09T15:47 · MTA-STA Policy not published
-- [9608](https://tbpro.zendesk.com/agent/tickets/9608) · [pending] · 2026-10-09T17:28 · creating more email addresses.  Have created my first, need more
-- [9611](https://tbpro.zendesk.com/agent/tickets/9611) · [pending] · 2026-10-09T19:04 · anonim life
+- [9615](https://tbpro.zendesk.com/agent/tickets/9615) · [pending] · 2026-10-09T22:01 · Re: You're Invited: Thundermail Early Bird Access
+- [9618](https://tbpro.zendesk.com/agent/tickets/9618) · [new] · 2026-10-10T00:14 · Thundermail and Pop3
+- [9620](https://tbpro.zendesk.com/agent/tickets/9620) · [new] · 2026-10-10T01:36 · I received an invite to join the beta release of thundermail, but not working
 
 ## Solved — last 24h
 
-- 👍 [9522](https://tbpro.zendesk.com/agent/tickets/9522) · 2026-10-08T20:27 · Donation to Thunderbird_Mozilla
-- · [9512](https://tbpro.zendesk.com/agent/tickets/9512) · 2026-10-08T21:02 · [domain] - no way to fix a bad email address for subscription billing.
-- · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-09T14:37 · just creating a new account - question about login to web UI
-- · [9558](https://tbpro.zendesk.com/agent/tickets/9558) · 2026-10-09T15:01 · Request for refund – Thunderbird Pro Early Bird
-- · [9432](https://tbpro.zendesk.com/agent/tickets/9432) · 2026-10-09T17:01 · Swapping Primary e-mail with an alias
-- · [9530](https://tbpro.zendesk.com/agent/tickets/9530) · 2026-10-09T18:02 · Wanted to just Test
+- 👍 [9442](https://tbpro.zendesk.com/agent/tickets/9442) · 2026-10-09T21:03 · All Firefox relay mails get marked as spam
+- · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-09T23:01 · Email Account versus Alias
+- · [9534](https://tbpro.zendesk.com/agent/tickets/9534) · 2026-10-09T23:17 · Non ricordo l'username per accedere 
+- · [9570](https://tbpro.zendesk.com/agent/tickets/9570) · 2026-10-09T23:17 · Webmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
