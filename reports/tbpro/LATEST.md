@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 16:23 ET** · refreshes hourly_  
+_Updated: **2026-10-10 17:21 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **707 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 129.6h · mean 141.1h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 134.9h · mean 149.8h (proxy: updated_at − created_at, 62 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -93,7 +93,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8958](https://tbpro.zendesk.com/agent/tickets/8958) · [closed] · 2026-09-23 · _Delete this account_
   - [#8965](https://tbpro.zendesk.com/agent/tickets/8965) · [closed] · 2026-09-23 · _Subscription in Error_
   - [#8978](https://tbpro.zendesk.com/agent/tickets/8978) · [closed] · 2026-09-23 · _Cancellation and Refund_
-  - [#9035](https://tbpro.zendesk.com/agent/tickets/9035) · [pending] · 2026-09-24 · _Regarding subscription Fwd: Thinking of a new beginning_
+  - [#9035](https://tbpro.zendesk.com/agent/tickets/9035) · [solved] · 2026-09-24 · _Regarding subscription Fwd: Thinking of a new beginning_
   - [#9083](https://tbpro.zendesk.com/agent/tickets/9083) · [closed] · 2026-09-25 · _Account deletion_
   - [#9135](https://tbpro.zendesk.com/agent/tickets/9135) · [closed] · 2026-09-25 · _Cancel my account_
   - [#9165](https://tbpro.zendesk.com/agent/tickets/9165) · [closed] · 2026-09-26 · _Refund_
@@ -225,8 +225,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 560
-- **pending**: 59
-- **solved**: 57
+- **solved**: 62
+- **pending**: 54
 - **hold**: 19
 - **open**: 10
 - **new**: 2
