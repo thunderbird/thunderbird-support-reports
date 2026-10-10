@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 00:29 ET** · refreshes hourly_  
+_Updated: **2026-10-10 01:24 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -142,8 +142,9 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **705 tickets** so fa
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [solved] · 2026-09-28 · _Thundermail_
 
-## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
+## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
+- 🔧 [zd #9489](https://tbpro.zendesk.com/agent/tickets/9489) → [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
@@ -220,9 +221,8 @@ _(none in last 24h)_
 - **closed**: 550
 - **pending**: 73
 - **solved**: 54
-- **hold**: 19
-- **open**: 7
-- **new**: 2
+- **hold**: 20
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -307,8 +307,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9615](https://tbpro.zendesk.com/agent/tickets/9615) · [pending] · 2026-10-09T22:01 · Re: You're Invited: Thundermail Early Bird Access
-- [9618](https://tbpro.zendesk.com/agent/tickets/9618) · [new] · 2026-10-10T00:14 · Thundermail and Pop3
-- [9620](https://tbpro.zendesk.com/agent/tickets/9620) · [new] · 2026-10-10T01:36 · I received an invite to join the beta release of thundermail, but not working
+- [9618](https://tbpro.zendesk.com/agent/tickets/9618) · [open] · 2026-10-10T00:14 · Thundermail and Pop3
+- [9620](https://tbpro.zendesk.com/agent/tickets/9620) · [open] · 2026-10-10T01:36 · I received an invite to join the beta release of thundermail, but not working
 
 ## Solved — last 24h
 
