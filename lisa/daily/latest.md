@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 01:24 ET** · refreshes hourly_  
+_Updated: **2026-10-10 02:37 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 62** of rollout — **35,000 invitees**, **705 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 62** of rollout — **35,000 invitees**, **706 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
-- **705** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **4** solved in last 24h
+- **706** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
 - **Median AHT**: 127.3h · mean 131.5h (proxy: updated_at − created_at, 54 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"received invite"** — 2 tickets in 24h (12.2× baseline; baseline 10 cum) — [#9620](https://tbpro.zendesk.com/agent/tickets/9620), [#9621](https://tbpro.zendesk.com/agent/tickets/9621)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -223,10 +229,11 @@ _(none in last 24h)_
 - **solved**: 54
 - **hold**: 20
 - **open**: 8
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 395
+- **Account Hub**: 396
 - **Thundermail**: 249
 - **Send**: 14
 - **Appointment**: 9
@@ -289,6 +296,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9621](https://tbpro.zendesk.com/agent/tickets/9621)** · Messed up registration? 
+  > Hi there! When I received the invite I immediately signed up. I had used the gmail address for the waitlist. My welcome email from you is going to the gmail account. Did I not set…
+
 ### Account access issues — 1 tickets
 
 - **[#9620](https://tbpro.zendesk.com/agent/tickets/9620)** · I received an invite to join the beta release of thundermail, but not working
@@ -309,6 +321,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9615](https://tbpro.zendesk.com/agent/tickets/9615) · [pending] · 2026-10-09T22:01 · Re: You're Invited: Thundermail Early Bird Access
 - [9618](https://tbpro.zendesk.com/agent/tickets/9618) · [open] · 2026-10-10T00:14 · Thundermail and Pop3
 - [9620](https://tbpro.zendesk.com/agent/tickets/9620) · [open] · 2026-10-10T01:36 · I received an invite to join the beta release of thundermail, but not working
+- [9621](https://tbpro.zendesk.com/agent/tickets/9621) · [new] · 2026-10-10T05:45 · Messed up registration? 
 
 ## Solved — last 24h
 
