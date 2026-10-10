@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-09
 
-_Updated: **2026-10-09 19:22 ET** · refreshes hourly_  
+_Updated: **2026-10-09 21:02 ET** · refreshes hourly_  
 _24h window: 2026-10-08T16:00 → 2026-10-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 61** of rollout — **35,000 invitees**, **703 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 61** of rollout — **35,000 invitees**, **704 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **6** solved in last 24h
-- **703** tickets total since launch · contact rate **2%** of 35000 invitees
+- **704** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -221,13 +221,13 @@ _(none in last 24h)_
 - **pending**: 74
 - **solved**: 54
 - **hold**: 19
-- **open**: 5
+- **open**: 6
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 394
-- **Thundermail**: 247
+- **Account Hub**: 395
+- **Thundermail**: 248
 - **Send**: 14
 - **Appointment**: 9
 
@@ -235,7 +235,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 152
+- **curious** + **explained**: 153
 - **change request** + **actioned**: 101
 - **blocked** + **explained**: 94
 - **confused** + **explained**: 51
