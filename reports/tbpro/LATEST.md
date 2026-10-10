@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 12:24 ET** · refreshes hourly_  
+_Updated: **2026-10-10 13:20 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **706 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
+- **4** new tickets in last 24h · **12** solved in last 24h
 - **706** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 127.4h · mean 132.7h (proxy: updated_at − created_at, 52 solved tickets)
+- **Median AHT**: 129.6h · mean 137.5h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -104,7 +104,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [solved] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [solved] · 2026-10-02 · _Refund_
-  - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [pending] · 2026-10-02 · _would like to cancel thunderbird pro_
+  - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [pending] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
@@ -225,10 +225,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 554
-- **pending**: 70
-- **solved**: 52
-- **hold**: 20
-- **open**: 9
+- **pending**: 65
+- **solved**: 57
+- **hold**: 19
+- **open**: 10
 - **new**: 1
 
 ## Service (cumulative)
@@ -332,6 +332,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-10T15:02 · just creating a new account - question about login to web UI
 - · [9473](https://tbpro.zendesk.com/agent/tickets/9473) · 2026-10-10T16:02 · Gnome and Evolution can't connect
 - · [9419](https://tbpro.zendesk.com/agent/tickets/9419) · 2026-10-10T16:02 · PASSWORT
+- · [9440](https://tbpro.zendesk.com/agent/tickets/9440) · 2026-10-10T17:02 · Refus de la plateforme [domain] sortant [domain]
+- · [9422](https://tbpro.zendesk.com/agent/tickets/9422) · 2026-10-10T17:02 · Aktivieren
+- · [9421](https://tbpro.zendesk.com/agent/tickets/9421) · 2026-10-10T17:02 · Anmeldung nach Aktualisierung
+- · [9326](https://tbpro.zendesk.com/agent/tickets/9326) · 2026-10-10T17:02 · logging in to thunderbird email
+- · [9412](https://tbpro.zendesk.com/agent/tickets/9412) · 2026-10-10T17:02 · would like to cancel thunderbird pro
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
