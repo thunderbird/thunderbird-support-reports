@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 15:19 ET** · refreshes hourly_  
+_Updated: **2026-10-10 16:23 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 62** of rollout — **35,000 invitees**, **707 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 130.6h · mean 139.1h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 129.6h · mean 141.1h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -105,7 +105,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [solved] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
-  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
+  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [solved] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [pending] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [pending] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
@@ -224,9 +224,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 557
-- **pending**: 61
-- **solved**: 58
+- **closed**: 560
+- **pending**: 59
+- **solved**: 57
 - **hold**: 19
 - **open**: 10
 - **new**: 2
