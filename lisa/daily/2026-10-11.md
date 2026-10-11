@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 07:21 ET** · refreshes hourly_  
+_Updated: **2026-10-11 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -225,8 +225,8 @@ Regards, [name]_
 - **solved**: 57
 - **pending**: 52
 - **hold**: 18
-- **open**: 13
-- **new**: 9
+- **open**: 14
+- **new**: 8
 
 ## Service (cumulative)
 
@@ -333,7 +333,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [new] · 2026-10-11T07:51 · Refund
 - [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [new] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
 - [9642](https://tbpro.zendesk.com/agent/tickets/9642) · [new] · 2026-10-11T10:18 · Thundermail registration
-- [9643](https://tbpro.zendesk.com/agent/tickets/9643) · [new] · 2026-10-11T10:29 · Unable to add custom domain
+- [9643](https://tbpro.zendesk.com/agent/tickets/9643) · [open] · 2026-10-11T10:29 · Unable to add custom domain
 
 ## Solved — last 24h
 
