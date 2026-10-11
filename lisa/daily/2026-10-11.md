@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 08:33 ET** · refreshes hourly_  
+_Updated: **2026-10-11 09:23 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 63** of rollout — **35,000 invitees**, **714 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 63** of rollout — **35,000 invitees**, **715 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **9** solved in last 24h
-- **714** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **9** solved in last 24h
+- **715** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (158 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -226,11 +226,11 @@ Regards, [name]_
 - **pending**: 52
 - **hold**: 18
 - **open**: 14
-- **new**: 8
+- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 399
+- **Account Hub**: 400
 - **Thundermail**: 253
 - **Send**: 14
 - **Appointment**: 9
@@ -300,6 +300,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9639](https://tbpro.zendesk.com/agent/tickets/9639)** · Refund
   > Please refund, as decided to stay with Gmail for the time being.
 
+### Other / uncategorized — 1 tickets
+
+- **[#9650](https://tbpro.zendesk.com/agent/tickets/9650)** · Pagos 
+  > Me preguntaba si hay opciones de pago mensuales en lugar de pago anual
+
 ### Email migration / import — 1 tickets
 
 - **[#9643](https://tbpro.zendesk.com/agent/tickets/9643)** · Unable to add custom domain
@@ -334,6 +339,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [new] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
 - [9642](https://tbpro.zendesk.com/agent/tickets/9642) · [new] · 2026-10-11T10:18 · Thundermail registration
 - [9643](https://tbpro.zendesk.com/agent/tickets/9643) · [open] · 2026-10-11T10:29 · Unable to add custom domain
+- [9650](https://tbpro.zendesk.com/agent/tickets/9650) · [new] · 2026-10-11T12:50 · Pagos 
 
 ## Solved — last 24h
 
