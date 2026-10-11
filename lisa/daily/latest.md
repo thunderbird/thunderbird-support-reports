@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 14:28 ET** · refreshes hourly_  
+_Updated: **2026-10-11 15:20 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **11** solved in last 24h
+- **10** new tickets in last 24h · **14** solved in last 24h
 - **717** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 140.8h · mean 163.6h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 149.1h · mean 169.9h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -221,9 +221,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 573
-- **solved**: 50
-- **pending**: 48
+- **closed**: 579
+- **solved**: 47
+- **pending**: 45
 - **open**: 19
 - **hold**: 16
 - **new**: 11
@@ -363,6 +363,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9496](https://tbpro.zendesk.com/agent/tickets/9496) · 2026-10-11T16:01 · Please cancel my Beta subscription and give a refund
 - · [9483](https://tbpro.zendesk.com/agent/tickets/9483) · 2026-10-11T17:01 · Account deletion and refund
 - · [8896](https://tbpro.zendesk.com/agent/tickets/8896) · 2026-10-11T17:01 · RBL checks hindered by open resolver
+- · [9508](https://tbpro.zendesk.com/agent/tickets/9508) · 2026-10-11T19:01 · Delete Account
+- · [9464](https://tbpro.zendesk.com/agent/tickets/9464) · 2026-10-11T19:01 · Einrichten E-Mail
+- · [9289](https://tbpro.zendesk.com/agent/tickets/9289) · 2026-10-11T19:01 · calendar and contact sync between desktop and mobile app
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
