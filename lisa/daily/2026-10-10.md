@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-10
 
-_Updated: **2026-10-10 19:21 ET** · refreshes hourly_  
+_Updated: **2026-10-10 21:08 ET** · refreshes hourly_  
 _24h window: 2026-10-09T16:00 → 2026-10-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 62** of rollout — **35,000 invitees**, **708 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 62** of rollout — **35,000 invitees**, **709 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **16** solved in last 24h
-- **708** tickets total since launch · contact rate **2%** of 35000 invitees
+- **5** new tickets in last 24h · **14** solved in last 24h
+- **709** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 93%  (157 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 139.6h · mean 150.9h (proxy: updated_at − created_at, 59 solved tickets)
+- **Median AHT**: 139.8h · mean 152.2h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -224,17 +224,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 564
-- **solved**: 59
-- **pending**: 53
-- **hold**: 19
-- **open**: 10
-- **new**: 3
+- **closed**: 565
+- **solved**: 58
+- **pending**: 52
+- **hold**: 18
+- **open**: 12
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 397
-- **Thundermail**: 249
+- **Thundermail**: 250
 - **Send**: 14
 - **Appointment**: 9
 
@@ -333,8 +333,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [9442](https://tbpro.zendesk.com/agent/tickets/9442) · 2026-10-09T21:03 · All Firefox relay mails get marked as spam
 - · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-09T23:01 · Email Account versus Alias
-- · [9534](https://tbpro.zendesk.com/agent/tickets/9534) · 2026-10-09T23:17 · Non ricordo l'username per accedere 
-- · [9570](https://tbpro.zendesk.com/agent/tickets/9570) · 2026-10-09T23:17 · Webmail
 - · [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-10T15:02 · just creating a new account - question about login to web UI
 - · [9473](https://tbpro.zendesk.com/agent/tickets/9473) · 2026-10-10T16:02 · Gnome and Evolution can't connect
 - · [9419](https://tbpro.zendesk.com/agent/tickets/9419) · 2026-10-10T16:02 · PASSWORT
