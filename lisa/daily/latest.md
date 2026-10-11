@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 02:38 ET** · refreshes hourly_  
+_Updated: **2026-10-11 03:28 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 63** of rollout — **35,000 invitees**, **709 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 63** of rollout — **35,000 invitees**, **710 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **9** solved in last 24h
-- **709** tickets total since launch · contact rate **2%** of 35000 invitees
+- **3** new tickets in last 24h · **9** solved in last 24h
+- **710** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (158 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -223,12 +223,12 @@ _(none in last 24h)_
 - **pending**: 52
 - **hold**: 18
 - **open**: 13
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 397
-- **Thundermail**: 250
+- **Thundermail**: 251
 - **Send**: 14
 - **Appointment**: 9
 
@@ -290,6 +290,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#9638](https://tbpro.zendesk.com/agent/tickets/9638)** · Mails coming from Firefox Relax are always marked as Spam
+  > Hi, all mails, that reach me over an email-alias that I have created in Firefox Relay, are sent to the spam folder. I've often marked them as "Not Spam" in Thunderbird desktop,…
+
 ### Bug report / app crash / not working — 1 tickets
 
 - **[#9635](https://tbpro.zendesk.com/agent/tickets/9635)** · How do I add it to my other thunderbird clients, keep getting error
@@ -304,6 +309,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [9633](https://tbpro.zendesk.com/agent/tickets/9633) · [new] · 2026-10-10T21:59 · Convert Email Alias to Account
 - [9635](https://tbpro.zendesk.com/agent/tickets/9635) · [new] · 2026-10-10T23:56 · How do I add it to my other thunderbird clients, keep getting error
+- [9638](https://tbpro.zendesk.com/agent/tickets/9638) · [new] · 2026-10-11T07:27 · Mails coming from Firefox Relax are always marked as Spam
 
 ## Solved — last 24h
 
