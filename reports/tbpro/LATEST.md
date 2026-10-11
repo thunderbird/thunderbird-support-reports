@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 16:24 ET** · refreshes hourly_  
+_Updated: **2026-10-11 17:22 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 151.5h · mean 173.0h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 153.9h · mean 175.2h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -23,7 +23,7 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
 - 4 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
-  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [pending] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [solved] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
@@ -221,11 +221,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 580
-- **solved**: 46
-- **pending**: 45
-- **open**: 19
-- **hold**: 16
+- **closed**: 581
+- **solved**: 47
+- **pending**: 42
+- **open**: 21
+- **hold**: 15
 - **new**: 11
 
 ## Service (cumulative)
