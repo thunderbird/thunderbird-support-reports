@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 13:20 ET** · refreshes hourly_  
+_Updated: **2026-10-11 14:28 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **12** solved in last 24h
+- **10** new tickets in last 24h · **11** solved in last 24h
 - **717** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 140.1h · mean 162.1h (proxy: updated_at − created_at, 53 solved tickets)
+- **Median AHT**: 140.8h · mean 163.6h (proxy: updated_at − created_at, 50 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -95,11 +95,11 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
   - [#9314](https://tbpro.zendesk.com/agent/tickets/9314) · [closed] · 2026-09-30 · _Request for cancellation and full refund_
   - [#9318](https://tbpro.zendesk.com/agent/tickets/9318) · [closed] · 2026-09-30 · _Refund_
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [closed] · 2026-09-30 · _Refund_
-  - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [solved] · 2026-10-01 · _Account Deletion_
+  - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [closed] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [solved] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
-  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [solved] · 2026-10-05 · _Account deletion_
+  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [open] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [pending] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
@@ -221,11 +221,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 571
-- **solved**: 53
+- **closed**: 573
+- **solved**: 50
 - **pending**: 48
-- **open**: 17
-- **hold**: 17
+- **open**: 19
+- **hold**: 16
 - **new**: 11
 
 ## Service (cumulative)
@@ -353,7 +353,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [9320](https://tbpro.zendesk.com/agent/tickets/9320) · 2026-10-10T20:01 · Servers and support
-- · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-10-10T20:01 · Account deletion
 - · [9446](https://tbpro.zendesk.com/agent/tickets/9446) · 2026-10-10T21:01 · Monthly payments and discount 
 - · [9414](https://tbpro.zendesk.com/agent/tickets/9414) · 2026-10-10T21:01 · remove my account and forget me
 - · [9331](https://tbpro.zendesk.com/agent/tickets/9331) · 2026-10-10T21:01 · Payment
