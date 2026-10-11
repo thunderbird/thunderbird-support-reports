@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 11:21 ET** · refreshes hourly_  
+_Updated: **2026-10-11 12:25 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **9** solved in last 24h
+- **10** new tickets in last 24h · **10** solved in last 24h
 - **717** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 140.0h · mean 155.5h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 140.0h · mean 155.3h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -101,7 +101,7 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [solved] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [pending] · 2026-10-05 · _Account deletion and refund_
-  - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [pending] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
+  - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [pending] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [pending] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08 · _Cancel and Refund_
@@ -221,11 +221,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 566
+- **closed**: 567
 - **solved**: 55
-- **pending**: 51
-- **hold**: 18
-- **open**: 16
+- **pending**: 50
+- **open**: 17
+- **hold**: 17
 - **new**: 11
 
 ## Service (cumulative)
@@ -361,6 +361,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9035](https://tbpro.zendesk.com/agent/tickets/9035) · 2026-10-10T21:01 · Regarding subscription Fwd: Thinking of a new beginning
 - · [9482](https://tbpro.zendesk.com/agent/tickets/9482) · 2026-10-10T22:01 · Cannot varify new e-mail
 - · [9534](https://tbpro.zendesk.com/agent/tickets/9534) · 2026-10-11T00:01 · Non ricordo l'username per accedere 
+- · [9496](https://tbpro.zendesk.com/agent/tickets/9496) · 2026-10-11T16:01 · Please cancel my Beta subscription and give a refund
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
