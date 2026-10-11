@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 03:28 ET** · refreshes hourly_  
+_Updated: **2026-10-11 04:31 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 63** of rollout — **35,000 invitees**, **710 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 63** of rollout — **35,000 invitees**, **712 tickets** so far (2.0% contact rate). CSAT since launch: **93%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **9** solved in last 24h
-- **710** tickets total since launch · contact rate **2%** of 35000 invitees
+- **5** new tickets in last 24h · **9** solved in last 24h
+- **712** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 93%  (158 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
@@ -206,9 +206,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 2
 
-_(none in last 24h)_
+- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [new] · _Refund_
+  > Please refund, as decided to stay with Gmail for the time being.
+- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [new] · _New subscription - canceling, requesting refund_
+  > New subscription - canceling, requesting refund
 
 ## New ideas on FeatureOS
 
@@ -223,12 +226,12 @@ _(none in last 24h)_
 - **pending**: 52
 - **hold**: 18
 - **open**: 13
-- **new**: 5
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 397
-- **Thundermail**: 251
+- **Account Hub**: 398
+- **Thundermail**: 252
 - **Send**: 14
 - **Appointment**: 9
 
@@ -290,6 +293,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#9640](https://tbpro.zendesk.com/agent/tickets/9640)** · New subscription - canceling, requesting refund
+  > New subscription - canceling, requesting refund
+- **[#9639](https://tbpro.zendesk.com/agent/tickets/9639)** · Refund
+  > Please refund, as decided to stay with Gmail for the time being.
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#9638](https://tbpro.zendesk.com/agent/tickets/9638)** · Mails coming from Firefox Relax are always marked as Spam
@@ -310,6 +320,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9633](https://tbpro.zendesk.com/agent/tickets/9633) · [new] · 2026-10-10T21:59 · Convert Email Alias to Account
 - [9635](https://tbpro.zendesk.com/agent/tickets/9635) · [new] · 2026-10-10T23:56 · How do I add it to my other thunderbird clients, keep getting error
 - [9638](https://tbpro.zendesk.com/agent/tickets/9638) · [new] · 2026-10-11T07:27 · Mails coming from Firefox Relax are always marked as Spam
+- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [new] · 2026-10-11T07:51 · Refund
+- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [new] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
 
 ## Solved — last 24h
 
