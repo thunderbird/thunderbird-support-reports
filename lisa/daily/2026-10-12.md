@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 17:21 ET** · refreshes hourly_  
+_Updated: **2026-10-12 18:23 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,8 +13,8 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **724 tickets** so fa
 - **724** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 140.0h · mean 173.2h (proxy: updated_at − created_at, 57 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
+- **Median AHT**: 140.1h · mean 176.4h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -104,7 +104,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9319](https://tbpro.zendesk.com/agent/tickets/9319) · [closed] · 2026-09-30 · _Refund_
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [closed] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
-  - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [solved] · 2026-10-02 · _Refund_
+  - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [closed] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [hold] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
@@ -234,9 +234,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 591
+- **closed**: 593
 - **solved**: 57
-- **pending**: 53
+- **pending**: 51
 - **hold**: 17
 - **open**: 6
 
@@ -337,7 +337,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
-- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [pending] · 2026-10-12T03:26 · How to delete an alias?
+- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [open] · 2026-10-12T03:26 · How to delete an alias?
 - [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [pending] · 2026-10-12T09:13 · Mot de passe perdu
 - [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
 - [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [open] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
