@@ -1,20 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 13:24 ET** · refreshes hourly_  
+_Updated: **2026-10-12 14:31 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 64** of rollout — **35,000 invitees**, **723 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
-- **721** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **6** new tickets in last 24h · **15** solved in last 24h
+- **723** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 151.5h · mean 171.1h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 140.1h · mean 167.7h (proxy: updated_at − created_at, 53 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"send invitation"** — 2 tickets in 24h (126.0× baseline; baseline 1 cum) — [#9670](https://tbpro.zendesk.com/agent/tickets/9670), [#9806](https://tbpro.zendesk.com/agent/tickets/9806)
+- **"best regards"** — 2 tickets in 24h (4.5× baseline; baseline 28 cum) — [#9670](https://tbpro.zendesk.com/agent/tickets/9670), [#9807](https://tbpro.zendesk.com/agent/tickets/9807)
 
 ## Known problems — 10 problem(s), 89 incident(s)
 
@@ -220,16 +227,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 587
-- **solved**: 50
-- **pending**: 46
-- **open**: 25
-- **hold**: 13
+- **closed**: 588
+- **solved**: 53
+- **pending**: 47
+- **open**: 20
+- **hold**: 14
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 406
-- **Thundermail**: 254
+- **Account Hub**: 407
+- **Thundermail**: 255
 - **Send**: 14
 - **Appointment**: 9
 
@@ -237,10 +245,10 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 155
+- **curious** + **explained**: 156
 - **change request** + **actioned**: 102
 - **blocked** + **explained**: 96
-- **confused** + **explained**: 51
+- **confused** + **explained**: 52
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 34
 - **request** + **redirected**: 30
@@ -291,6 +299,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#9806](https://tbpro.zendesk.com/agent/tickets/9806)** · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current provider 11-16-2026.
+  > Hello, we are losing our current email service on 11-16-2026. So, I, Curtis Rice, followed up on an “invitation” email received from Thundermail back in June. Instead of her using…
+- **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias? — why: **confused** · how: **explained**
+  > How do I delete an e-mail alias? I did it in Thunderbird, but it still shows in my settings viewed in Firefox.
+
 ### Account access issues — Account Hub trouble — 2 tickets
 
 - **[#9670](https://tbpro.zendesk.com/agent/tickets/9670)** · Expired Thundermail beta invitation link – request for a new one — why: **curious** · how: **explained**
@@ -298,10 +313,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9668](https://tbpro.zendesk.com/agent/tickets/9668)** · Mot de passe perdu — why: **blocked** · how: **explained**
   > Mot de passe perdu et impossible à retrouver
 
-### Aliases — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias?
-  > How do I delete an e-mail alias? I did it in Thunderbird, but it still shows in my settings viewed in Firefox.
+- **[#9807](https://tbpro.zendesk.com/agent/tickets/9807)** · Re: [Thundermail] Re: Money Back Option — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #9357 "Money Back Option" Hi [name], Greetings from India. Hope you are doing great. I'm back from my holidays and was trying to use…
 
 ### Other / uncategorized — 1 tickets
 
@@ -311,9 +326,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
-- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [open] · 2026-10-12T03:26 · How to delete an alias?
+- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [pending] · 2026-10-12T03:26 · How to delete an alias?
 - [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [pending] · 2026-10-12T09:13 · Mot de passe perdu
 - [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
+- [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [new] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
+- [9807](https://tbpro.zendesk.com/agent/tickets/9807) · [open] · 2026-10-12T18:18 · Re: [Thundermail] Re: Money Back Option
 
 ## Solved — last 24h
 
@@ -323,11 +340,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9604](https://tbpro.zendesk.com/agent/tickets/9604) · 2026-10-12T13:21 · SRV records for custom domain
 - · [9186](https://tbpro.zendesk.com/agent/tickets/9186) · 2026-10-12T13:29 · Unable to reset password
 - 👍 [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-12T13:38 · just creating a new account - question about login to web UI
-- · [9524](https://tbpro.zendesk.com/agent/tickets/9524) · 2026-10-12T15:02 · Help with something else - je suis abonné à thunderbird bêta early bird
 - · [9528](https://tbpro.zendesk.com/agent/tickets/9528) · 2026-10-12T16:01 · Shared custom domain
 - · [9526](https://tbpro.zendesk.com/agent/tickets/9526) · 2026-10-12T16:01 · faire fonctionner IMAP sur thunderbird
 - · [9372](https://tbpro.zendesk.com/agent/tickets/9372) · 2026-10-12T16:27 · Hello
 - · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-12T17:01 · cancel my subscription to start over
+- 👍 [9570](https://tbpro.zendesk.com/agent/tickets/9570) · 2026-10-12T17:24 · Webmail
+- · [9524](https://tbpro.zendesk.com/agent/tickets/9524) · 2026-10-12T17:35 · Help with something else - je suis abonné à thunderbird bêta early bird
+- · [9539](https://tbpro.zendesk.com/agent/tickets/9539) · 2026-10-12T18:01 · Anmeldung
+- · [9555](https://tbpro.zendesk.com/agent/tickets/9555) · 2026-10-12T18:20 · Mailbox setup
+- · [9577](https://tbpro.zendesk.com/agent/tickets/9577) · 2026-10-12T18:23 · Thundermail Waitlist
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
