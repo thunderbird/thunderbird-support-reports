@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 09:44 ET** · refreshes hourly_  
+_Updated: **2026-10-12 10:32 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
 
 - **4** new tickets in last 24h · **6** solved in last 24h
 - **721** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 153.9h · mean 175.5h (proxy: updated_at − created_at, 49 solved tickets)
+- **Median AHT**: 156.8h · mean 179.3h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## Known problems — 10 problem(s), 89 incident(s)
 
@@ -220,12 +220,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 583
-- **solved**: 49
-- **pending**: 45
-- **open**: 30
-- **hold**: 13
-- **new**: 1
+- **closed**: 586
+- **pending**: 47
+- **solved**: 46
+- **open**: 28
+- **hold**: 14
 
 ## Service (cumulative)
 
@@ -238,9 +237,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 154
+- **curious** + **explained**: 155
 - **change request** + **actioned**: 102
-- **blocked** + **explained**: 95
+- **blocked** + **explained**: 96
 - **confused** + **explained**: 51
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 33
@@ -248,8 +247,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 29
 - **blocked** + **redirected**: 25
 - **concerned** + **explained**: 24
+- **blocked** + **escalated**: 14
 - **blocked** + **informed**: 14
-- **blocked** + **escalated**: 13
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
 - **blocked** + **—**: 6
@@ -292,29 +291,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Account access issues — Account Hub trouble — 2 tickets
 
-- **[#9668](https://tbpro.zendesk.com/agent/tickets/9668)** · Mot de passe perdu
-  > Mot de passe perdu et impossible à retrouver
-- **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account — why: **change request** · how: **actioned**
-  > Hi, I am requesting deletion of my Thunderbird Pro account
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9670](https://tbpro.zendesk.com/agent/tickets/9670)** · Expired Thundermail beta invitation link – request for a new one
+- **[#9670](https://tbpro.zendesk.com/agent/tickets/9670)** · Expired Thundermail beta invitation link – request for a new one — why: **curious** · how: **explained**
   > Hello, I joined the Thunderbird Pro waitlist and received an invitation to the Thundermail beta at this email address. Unfortunately, I did not complete the sign-up in time and…
+- **[#9668](https://tbpro.zendesk.com/agent/tickets/9668)** · Mot de passe perdu — why: **blocked** · how: **explained**
+  > Mot de passe perdu et impossible à retrouver
 
 ### Aliases — 1 tickets
 
 - **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias?
   > How do I delete an e-mail alias? I did it in Thunderbird, but it still shows in my settings viewed in Firefox.
 
+### Other / uncategorized — 1 tickets
+
+- **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account — why: **change request** · how: **actioned**
+  > Hi, I am requesting deletion of my Thunderbird Pro account
+
 ## New tickets — last 24h
 
 - [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
 - [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [open] · 2026-10-12T03:26 · How to delete an alias?
-- [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [open] · 2026-10-12T09:13 · Mot de passe perdu
-- [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [new] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
+- [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [pending] · 2026-10-12T09:13 · Mot de passe perdu
+- [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
 
 ## Solved — last 24h
 
