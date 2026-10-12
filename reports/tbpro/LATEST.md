@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 21:10 ET** · refreshes hourly_  
+_Updated: **2026-10-11 22:47 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so far (2.0% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 63** of rollout — **35,000 invitees**, **718 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **14** solved in last 24h
-- **717** tickets total since launch · contact rate **2%** of 35000 invitees
+- **718** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 73
@@ -224,13 +224,13 @@ Regards, [name]_
 - **closed**: 583
 - **solved**: 46
 - **pending**: 40
-- **open**: 25
+- **open**: 27
 - **hold**: 15
-- **new**: 8
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 401
+- **Account Hub**: 402
 - **Thundermail**: 254
 - **Send**: 14
 - **Appointment**: 9
@@ -346,8 +346,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
 - [9642](https://tbpro.zendesk.com/agent/tickets/9642) · [new] · 2026-10-11T10:18 · Thundermail registration
 - [9643](https://tbpro.zendesk.com/agent/tickets/9643) · [open] · 2026-10-11T10:29 · Unable to add custom domain
-- [9650](https://tbpro.zendesk.com/agent/tickets/9650) · [new] · 2026-10-11T12:50 · Pagos 
-- [9651](https://tbpro.zendesk.com/agent/tickets/9651) · [new] · 2026-10-11T14:28 · Password
+- [9650](https://tbpro.zendesk.com/agent/tickets/9650) · [open] · 2026-10-11T12:50 · Pagos 
+- [9651](https://tbpro.zendesk.com/agent/tickets/9651) · [open] · 2026-10-11T14:28 · Password
 - [9652](https://tbpro.zendesk.com/agent/tickets/9652) · [new] · 2026-10-11T14:39 · thunderbird android says unknown
 
 ## Solved — last 24h
