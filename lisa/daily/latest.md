@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-11
 
-_Updated: **2026-10-11 19:22 ET** · refreshes hourly_  
+_Updated: **2026-10-11 21:10 ET** · refreshes hourly_  
 _24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,8 +13,8 @@ Flight 8 is **day 63** of rollout — **35,000 invitees**, **717 tickets** so fa
 - **717** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 72
-- **Median AHT**: 153.9h · mean 175.0h (proxy: updated_at − created_at, 45 solved tickets)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 73
+- **Median AHT**: 154.7h · mean 175.1h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
 
@@ -208,9 +208,9 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [new] · _Refund_
+- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [open] · _Refund_
   > Please refund, as decided to stay with Gmail for the time being.
-- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [new] · _New subscription - canceling, requesting refund_
+- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · _New subscription - canceling, requesting refund_
   > New subscription - canceling, requesting refund
 
 ## New ideas on FeatureOS
@@ -222,11 +222,11 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 583
-- **solved**: 45
-- **pending**: 42
-- **open**: 21
+- **solved**: 46
+- **pending**: 40
+- **open**: 25
 - **hold**: 15
-- **new**: 11
+- **new**: 8
 
 ## Service (cumulative)
 
@@ -340,10 +340,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [9633](https://tbpro.zendesk.com/agent/tickets/9633) · [new] · 2026-10-10T21:59 · Convert Email Alias to Account
-- [9635](https://tbpro.zendesk.com/agent/tickets/9635) · [new] · 2026-10-10T23:56 · How do I add it to my other thunderbird clients, keep getting error
+- [9635](https://tbpro.zendesk.com/agent/tickets/9635) · [open] · 2026-10-10T23:56 · How do I add it to my other thunderbird clients, keep getting error
 - [9638](https://tbpro.zendesk.com/agent/tickets/9638) · [new] · 2026-10-11T07:27 · Mails coming from Firefox Relax are always marked as Spam
-- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [new] · 2026-10-11T07:51 · Refund
-- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [new] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
+- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [open] · 2026-10-11T07:51 · Refund
+- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
 - [9642](https://tbpro.zendesk.com/agent/tickets/9642) · [new] · 2026-10-11T10:18 · Thundermail registration
 - [9643](https://tbpro.zendesk.com/agent/tickets/9643) · [open] · 2026-10-11T10:29 · Unable to add custom domain
 - [9650](https://tbpro.zendesk.com/agent/tickets/9650) · [new] · 2026-10-11T12:50 · Pagos 
