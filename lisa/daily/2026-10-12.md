@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 05:41 ET** · refreshes hourly_  
+_Updated: **2026-10-12 06:30 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 64** of rollout — **35,000 invitees**, **720 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **3** solved in last 24h
-- **720** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **3** solved in last 24h
+- **721** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
@@ -224,11 +224,11 @@ _(none in last 24h)_
 - **pending**: 40
 - **open**: 28
 - **hold**: 14
-- **new**: 9
+- **new**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 403
+- **Account Hub**: 404
 - **Thundermail**: 255
 - **Send**: 14
 - **Appointment**: 9
@@ -298,6 +298,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account
   > Hi, I am requesting deletion of my Thunderbird Pro account
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9670](https://tbpro.zendesk.com/agent/tickets/9670)** · Expired Thundermail beta invitation link – request for a new one
+  > Hello, I joined the Thunderbird Pro waitlist and received an invitation to the Thundermail beta at this email address. Unfortunately, I did not complete the sign-up in time and…
+
 ### Aliases — 1 tickets
 
 - **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias?
@@ -308,6 +313,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [new] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
 - [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [new] · 2026-10-12T03:26 · How to delete an alias?
 - [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [new] · 2026-10-12T09:13 · Mot de passe perdu
+- [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [new] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
 
 ## Solved — last 24h
 
