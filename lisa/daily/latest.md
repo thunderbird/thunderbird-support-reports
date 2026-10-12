@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-10-11
+# Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-11 23:39 ET** · refreshes hourly_  
-_24h window: 2026-10-10T16:00 → 2026-10-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-12 00:36 ET** · refreshes hourly_  
+_24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 63** of rollout — **35,000 invitees**, **719 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 64** of rollout — **35,000 invitees**, **719 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **14** solved in last 24h
+- **2** new tickets in last 24h · **3** solved in last 24h
 - **719** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 73
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
 - **Median AHT**: 154.7h · mean 175.1h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## Known problems — 10 problem(s), 88 incident(s)
@@ -206,18 +206,16 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [open] · _Refund_
-  > Please refund, as decided to stay with Gmail for the time being.
-- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · _New subscription - canceling, requesting refund_
-  > New subscription - canceling, requesting refund
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Disposable Emails (Masked Aliases) with 1Password Integration](https://ideas.tb.pro/p/disposable-emails-masked-aliases-with-1password-integration) · 1 votes · _untagged_
+  > What you’d like to seeThe ability to generate unique, disposable email aliases that forward to my Thundermail inbox, and that I can create, pause, or delete at any time. Ideally these could be…
 
 ## Status breakdown (cumulative)
 
@@ -293,79 +291,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
-
-- **[#9651](https://tbpro.zendesk.com/agent/tickets/9651)** · Password
-  > I ned a New pasword
-- **[#9650](https://tbpro.zendesk.com/agent/tickets/9650)** · Pagos 
-  > Me preguntaba si hay opciones de pago mensuales en lugar de pago anual
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#9640](https://tbpro.zendesk.com/agent/tickets/9640)** · New subscription - canceling, requesting refund
-  > New subscription - canceling, requesting refund
-- **[#9639](https://tbpro.zendesk.com/agent/tickets/9639)** · Refund
-  > Please refund, as decided to stay with Gmail for the time being.
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#9652](https://tbpro.zendesk.com/agent/tickets/9652)** · thunderbird android says unknown
-  > howdy, thunderbird android app refuses my kogin info - says unknown. i configured the app with my other emails a few years ago…
-
-### Email migration / import — 1 tickets
-
-- **[#9643](https://tbpro.zendesk.com/agent/tickets/9643)** · Unable to add custom domain
-  > Hi, I'm trying to migrate from Proton Mail to Thunderbird Pro, but I can't add my custom domain ([domain]). I get the error: "This domain is already configured." Could you please…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9642](https://tbpro.zendesk.com/agent/tickets/9642)** · Thundermail registration
-  > Hello [name], I joined the Thundermail waitlist using my existing email address. Later, I received an invitation informing me that my wait was over and that I could register for…
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#9638](https://tbpro.zendesk.com/agent/tickets/9638)** · Mails coming from Firefox Relax are always marked as Spam
-  > Hi, all mails, that reach me over an email-alias that I have created in Firefox Relay, are sent to the spam folder. I've often marked them as "Not Spam" in Thunderbird desktop,…
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#9635](https://tbpro.zendesk.com/agent/tickets/9635)** · How do I add it to my other thunderbird clients, keep getting error
-  > I have installed thunderamail on my laptop, but cannot access it from desktop. I went to my Thunderbird client and typed n my email and password, but it does not work as the…
-
 ### Aliases — 1 tickets
 
-- **[#9633](https://tbpro.zendesk.com/agent/tickets/9633)** · Convert Email Alias to Account
-  > I want to claim a particular email alias under the [domain] domain, but what I hope to do in the future is convert it to an email account either under my current account (if that…
+- **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias?
+  > How do I delete an e-mail alias? I did it in Thunderbird, but it still shows in my settings viewed in Firefox.
+
+### Other / uncategorized — 1 tickets
+
+- **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account
+  > Hi, I am requesting deletion of my Thunderbird Pro account
 
 ## New tickets — last 24h
 
-- [9633](https://tbpro.zendesk.com/agent/tickets/9633) · [new] · 2026-10-10T21:59 · Convert Email Alias to Account
-- [9635](https://tbpro.zendesk.com/agent/tickets/9635) · [open] · 2026-10-10T23:56 · How do I add it to my other thunderbird clients, keep getting error
-- [9638](https://tbpro.zendesk.com/agent/tickets/9638) · [new] · 2026-10-11T07:27 · Mails coming from Firefox Relax are always marked as Spam
-- [9639](https://tbpro.zendesk.com/agent/tickets/9639) · [open] · 2026-10-11T07:51 · Refund
-- [9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · 2026-10-11T08:08 · New subscription - canceling, requesting refund
-- [9642](https://tbpro.zendesk.com/agent/tickets/9642) · [new] · 2026-10-11T10:18 · Thundermail registration
-- [9643](https://tbpro.zendesk.com/agent/tickets/9643) · [open] · 2026-10-11T10:29 · Unable to add custom domain
-- [9650](https://tbpro.zendesk.com/agent/tickets/9650) · [open] · 2026-10-11T12:50 · Pagos 
-- [9651](https://tbpro.zendesk.com/agent/tickets/9651) · [open] · 2026-10-11T14:28 · Password
-- [9652](https://tbpro.zendesk.com/agent/tickets/9652) · [new] · 2026-10-11T14:39 · thunderbird android says unknown
+- [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [new] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
+- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [new] · 2026-10-12T03:26 · How to delete an alias?
 
 ## Solved — last 24h
 
-- · [9320](https://tbpro.zendesk.com/agent/tickets/9320) · 2026-10-10T20:01 · Servers and support
-- · [9446](https://tbpro.zendesk.com/agent/tickets/9446) · 2026-10-10T21:01 · Monthly payments and discount 
-- · [9414](https://tbpro.zendesk.com/agent/tickets/9414) · 2026-10-10T21:01 · remove my account and forget me
-- · [9331](https://tbpro.zendesk.com/agent/tickets/9331) · 2026-10-10T21:01 · Payment
-- · [9308](https://tbpro.zendesk.com/agent/tickets/9308) · 2026-10-10T21:01 · Webmail Login 2FA TOTP failed
-- · [9035](https://tbpro.zendesk.com/agent/tickets/9035) · 2026-10-10T21:01 · Regarding subscription Fwd: Thinking of a new beginning
-- · [9482](https://tbpro.zendesk.com/agent/tickets/9482) · 2026-10-10T22:01 · Cannot varify new e-mail
-- · [9534](https://tbpro.zendesk.com/agent/tickets/9534) · 2026-10-11T00:01 · Non ricordo l'username per accedere 
-- · [9496](https://tbpro.zendesk.com/agent/tickets/9496) · 2026-10-11T16:01 · Please cancel my Beta subscription and give a refund
-- · [9483](https://tbpro.zendesk.com/agent/tickets/9483) · 2026-10-11T17:01 · Account deletion and refund
-- · [8896](https://tbpro.zendesk.com/agent/tickets/8896) · 2026-10-11T17:01 · RBL checks hindered by open resolver
-- · [9508](https://tbpro.zendesk.com/agent/tickets/9508) · 2026-10-11T19:01 · Delete Account
-- · [9464](https://tbpro.zendesk.com/agent/tickets/9464) · 2026-10-11T19:01 · Einrichten E-Mail
-- · [9289](https://tbpro.zendesk.com/agent/tickets/9289) · 2026-10-11T19:01 · calendar and contact sync between desktop and mobile app
+- · [9295](https://tbpro.zendesk.com/agent/tickets/9295) · 2026-10-11T21:01 · I got your Join The Early Bird Beta email but no authentication email received
+- · [9505](https://tbpro.zendesk.com/agent/tickets/9505) · 2026-10-11T21:01 · Aliases not showing up
+- · [9448](https://tbpro.zendesk.com/agent/tickets/9448) · 2026-10-12T00:01 · ricing feedback: Suggesting a softer entry point
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
