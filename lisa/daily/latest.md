@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 08:51 ET** · refreshes hourly_  
+_Updated: **2026-10-12 09:44 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
+- **4** new tickets in last 24h · **6** solved in last 24h
 - **721** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 154.7h · mean 175.1h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 153.9h · mean 175.5h (proxy: updated_at − created_at, 49 solved tickets)
 
-## Known problems — 10 problem(s), 88 incident(s)
+## Known problems — 10 problem(s), 89 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 73 incident(s):
+- 74 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -106,6 +106,7 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [pending] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [pending] · 2026-10-08 · _Delete my data and unsubscribe from the service_
+  - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -139,7 +140,7 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [closed] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [open] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [solved] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [solved] · 2026-09-28 · _Thundermail_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
@@ -220,15 +221,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 583
-- **solved**: 46
-- **pending**: 42
-- **open**: 28
-- **hold**: 12
-- **new**: 10
+- **solved**: 49
+- **pending**: 45
+- **open**: 30
+- **hold**: 13
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 404
+- **Account Hub**: 405
 - **Thundermail**: 255
 - **Send**: 14
 - **Appointment**: 9
@@ -237,9 +238,9 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 153
-- **change request** + **actioned**: 101
-- **blocked** + **explained**: 94
+- **curious** + **explained**: 154
+- **change request** + **actioned**: 102
+- **blocked** + **explained**: 95
 - **confused** + **explained**: 51
 - **curious** + **informed**: 39
 - **blocked** + **investigated**: 33
@@ -295,7 +296,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#9668](https://tbpro.zendesk.com/agent/tickets/9668)** · Mot de passe perdu
   > Mot de passe perdu et impossible à retrouver
-- **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account
+- **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account — why: **change request** · how: **actioned**
   > Hi, I am requesting deletion of my Thunderbird Pro account
 
 ### Early bird / invite / waitlist — 1 tickets
@@ -310,9 +311,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [new] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
-- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [new] · 2026-10-12T03:26 · How to delete an alias?
-- [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [new] · 2026-10-12T09:13 · Mot de passe perdu
+- [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
+- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [open] · 2026-10-12T03:26 · How to delete an alias?
+- [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [open] · 2026-10-12T09:13 · Mot de passe perdu
 - [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [new] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
 
 ## Solved — last 24h
@@ -320,6 +321,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9295](https://tbpro.zendesk.com/agent/tickets/9295) · 2026-10-11T21:01 · I got your Join The Early Bird Beta email but no authentication email received
 - · [9505](https://tbpro.zendesk.com/agent/tickets/9505) · 2026-10-11T21:01 · Aliases not showing up
 - · [9448](https://tbpro.zendesk.com/agent/tickets/9448) · 2026-10-12T00:01 · ricing feedback: Suggesting a softer entry point
+- · [9604](https://tbpro.zendesk.com/agent/tickets/9604) · 2026-10-12T13:21 · SRV records for custom domain
+- · [9186](https://tbpro.zendesk.com/agent/tickets/9186) · 2026-10-12T13:29 · Unable to reset password
+- 👍 [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-12T13:38 · just creating a new account - question about login to web UI
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
