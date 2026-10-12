@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 16:26 ET** · refreshes hourly_  
+_Updated: **2026-10-12 17:21 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **724 tickets** so fa
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 140.1h · mean 167.9h (proxy: updated_at − created_at, 53 solved tickets)
+- **Median AHT**: 140.0h · mean 173.2h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -235,10 +235,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 591
-- **pending**: 54
-- **solved**: 53
+- **solved**: 57
+- **pending**: 53
 - **hold**: 17
-- **open**: 9
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -319,15 +319,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9668](https://tbpro.zendesk.com/agent/tickets/9668)** · Mot de passe perdu — why: **blocked** · how: **explained**
   > Mot de passe perdu et impossible à retrouver
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9807](https://tbpro.zendesk.com/agent/tickets/9807)** · Re: [Thundermail] Re: Money Back Option — why: **curious** · how: **explained**
-  > This is a follow-up to your previous request #9357 "Money Back Option" Hi [name], Greetings from India. Hope you are doing great. I'm back from my holidays and was trying to use…
-
 ### Webmail — 1 tickets
 
 - **[#9810](https://tbpro.zendesk.com/agent/tickets/9810)** · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. — why: **other** · how: **escalated** · 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
   > **Summary:** All emails forwarded through Firefox Relay are going to spam, regardless of the content of the email or if the sender has tried to whitelist the message previously.…
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9807](https://tbpro.zendesk.com/agent/tickets/9807)** · Re: [Thundermail] Re: Money Back Option — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #9357 "Money Back Option" Hi [name], Greetings from India. Hope you are doing great. I'm back from my holidays and was trying to use…
 
 ### Other / uncategorized — 1 tickets
 
@@ -341,7 +341,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [pending] · 2026-10-12T09:13 · Mot de passe perdu
 - [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
 - [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [open] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
-- [9807](https://tbpro.zendesk.com/agent/tickets/9807) · [open] · 2026-10-12T18:18 · Re: [Thundermail] Re: Money Back Option
+- [9807](https://tbpro.zendesk.com/agent/tickets/9807) · [pending] · 2026-10-12T18:18 · Re: [Thundermail] Re: Money Back Option
 - [9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · 2026-10-12T19:54 · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
 
 ## Solved — last 24h
