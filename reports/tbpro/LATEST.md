@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 12:27 ET** · refreshes hourly_  
+_Updated: **2026-10-12 13:24 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **9** solved in last 24h
+- **4** new tickets in last 24h · **11** solved in last 24h
 - **721** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 153.9h · mean 175.8h (proxy: updated_at − created_at, 49 solved tickets)
+- **Median AHT**: 151.5h · mean 171.1h (proxy: updated_at − created_at, 50 solved tickets)
 
 ## Known problems — 10 problem(s), 89 incident(s)
 
@@ -220,10 +220,10 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 586
-- **solved**: 49
-- **pending**: 47
-- **open**: 26
+- **closed**: 587
+- **solved**: 50
+- **pending**: 46
+- **open**: 25
 - **hold**: 13
 
 ## Service (cumulative)
@@ -326,6 +326,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9524](https://tbpro.zendesk.com/agent/tickets/9524) · 2026-10-12T15:02 · Help with something else - je suis abonné à thunderbird bêta early bird
 - · [9528](https://tbpro.zendesk.com/agent/tickets/9528) · 2026-10-12T16:01 · Shared custom domain
 - · [9526](https://tbpro.zendesk.com/agent/tickets/9526) · 2026-10-12T16:01 · faire fonctionner IMAP sur thunderbird
+- · [9372](https://tbpro.zendesk.com/agent/tickets/9372) · 2026-10-12T16:27 · Hello
+- · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-12T17:01 · cancel my subscription to start over
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
