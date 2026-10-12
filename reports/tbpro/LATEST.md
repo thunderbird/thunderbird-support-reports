@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 11:27 ET** · refreshes hourly_  
+_Updated: **2026-10-12 12:27 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **721 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
+- **4** new tickets in last 24h · **9** solved in last 24h
 - **721** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 155.5h · mean 178.1h (proxy: updated_at − created_at, 47 solved tickets)
+- **Median AHT**: 153.9h · mean 175.8h (proxy: updated_at − created_at, 49 solved tickets)
 
 ## Known problems — 10 problem(s), 89 incident(s)
 
@@ -221,15 +221,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 586
-- **solved**: 47
+- **solved**: 49
 - **pending**: 47
-- **open**: 27
-- **hold**: 14
+- **open**: 26
+- **hold**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 405
-- **Thundermail**: 255
+- **Account Hub**: 406
+- **Thundermail**: 254
 - **Send**: 14
 - **Appointment**: 9
 
@@ -242,7 +242,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 96
 - **confused** + **explained**: 51
 - **curious** + **informed**: 39
-- **blocked** + **investigated**: 33
+- **blocked** + **investigated**: 34
 - **request** + **redirected**: 30
 - **confused** + **informed**: 29
 - **blocked** + **redirected**: 25
@@ -324,6 +324,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9186](https://tbpro.zendesk.com/agent/tickets/9186) · 2026-10-12T13:29 · Unable to reset password
 - 👍 [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-12T13:38 · just creating a new account - question about login to web UI
 - · [9524](https://tbpro.zendesk.com/agent/tickets/9524) · 2026-10-12T15:02 · Help with something else - je suis abonné à thunderbird bêta early bird
+- · [9528](https://tbpro.zendesk.com/agent/tickets/9528) · 2026-10-12T16:01 · Shared custom domain
+- · [9526](https://tbpro.zendesk.com/agent/tickets/9526) · 2026-10-12T16:01 · faire fonctionner IMAP sur thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
