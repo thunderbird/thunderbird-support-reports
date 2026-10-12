@@ -63,11 +63,11 @@ Overall CSAT 86% (−4.9 pts).
 ---
 ## What's Coming Up
 
-**What's new: Thundermail plan + External ID on /contact tickets.** Logged-in users who file via /contact now send plan data and External ID (Accounts UUID) into Zendesk, so we can triage, route, and report Thundermail customer vs non-customer tickets.
+**What's new: Thundermail plan + External ID on /contact tickets.** Logged-in users who file via /contact now send plan data and External ID into Zendesk, so we can triage, route, and report Thundermail customer vs non-customer tickets.
 
 - **Phase 2** is the same payload on every other intake path (email and unsigned forms), so we can segment customer vs non-customer everywhere.
 - **Donors:** the same approach is in progress.
-- **Constraints:** login is never required to file; email-direct stays; External ID is the Accounts UUID; no Paddle IDs in Zendesk.
+- **Constraints:** login is never required to file; email-direct stays.
 
 
 ---
