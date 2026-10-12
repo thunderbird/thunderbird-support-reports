@@ -1,0 +1,1121 @@
+# September 2026 — Monthly Report Config
+# Zendesk from Lisa 2026-10-06. Play Store CSVs in data/input/ (Aug+Sep, fetched 2026-10-06).
+# quarterly_review = Lisa's 23 Sep outcomes as she reported (chat 5194e5e7, email list 29 Sep).
+# Play Store 168 = 1–3★ tickets (see methodology_notes).
+# Donor CSAT from Zendesk ratings export (1–30 Sep): 48 ratings, 37 Good / 11 Bad. 344 is ticket volume.
+
+month: September
+year: 2026
+prev_month: August
+month_num: 09
+csv_tb_stable: reviews_net.thunderbird.android_202609.csv
+csv_k9: reviews_com.fsck.k9_202609.csv
+csv_tb_beta: reviews_net.thunderbird.android.beta_202609.csv
+rating_changes:
+  improved: null
+  unchanged: null
+  decreased: null
+  matched: null
+methodology_approved_by: mobile manager
+methodology_notes:
+- 'Play Store (June 2026+): review CSVs fetched from the Play Console GCS export bucket via scripts/fetch_reviews.py
+  — replacing manual Play Console UI downloads used Jan–May 2026. Approved operational improvement. MoM
+  comparisons spanning that boundary carry a methodology caveat.'
+- Zendesk volume 1,001 = Donor 344 + Thundermail 489 + App Store Reviews 168 (same three-brand sum as
+  August). Play Store 168 is not inside donor or Thundermail.
+- Play Store review tickets (168) count Zendesk tickets for 1–3★ reviews, not all star ratings. August’s
+  218 is on the same basis.
+- SUMO KPI from Roland CSV 2026-09-sumo-desktop/android-report.csv (concatenation method; desktop CSV
+  regenerated 2026-10-12). Desktop PROJECT1 corpus is 977 questions vs KPI 1002; Android PROJECT1 41 vs
+  KPI 47. Cluster reads cover 976 desktop questions and 41 Android questions; percentages stay with
+  their own source.
+- Cluster pages cover September vs August (refreshed 2026-10-08).
+- 'Quarterly ideas review 23 Sep 2026: statuses reflect FeatureOS as of 2026-10-06.'
+zendesk:
+  overall_csat: 86
+  donor_csat: 77.1
+  donor_csat_note: Donor CSAT 77.1% on 48 ratings (37 Good, 11 Bad), down 15.6 pts from August’s 92.7%.
+    The 11 Bad ratings were spread across topics with no single driver, consistent with normal variation
+    on a small sample.
+  tbpro_csat: 94.8
+  tbpro_csat_note: null
+  total_tickets: 1001
+  replies_to_low_star: 168
+  donor_tickets: 344
+  tbpro_tickets: 489
+  appstore_tickets: 168
+prev:
+  overall_csat: 90.9
+  donor_csat: 92.7
+  tbpro_csat: 85.7
+  total_tickets: 755
+  donor_tickets: 350
+  tbpro_tickets: 187
+  replies_to_low_star: 218
+  tb_avg_rating: 3.74
+  k9_avg_rating: 3.6
+  desktop_solved_rate: 58
+  desktop_questions: 955
+  desktop_ignored_pct: 22
+  desktop_tc_pct: 37
+  android_solved_rate: 61
+  android_questions: 51
+  android_ignored_pct: 27
+  android_tc_pct: 45
+history_neg:
+  Push / Notification Sync:
+  - 31
+  - 34
+  Spam Filter Absent:
+  - 22
+  - 18
+  QR / Settings Import:
+  - 25
+  - 3
+  Stuck Outbox / Send Failure:
+  - 5
+  Crashes & Freezes:
+  - 4
+sumo:
+  desktop:
+    total_questions: 1002
+    spam: 0
+    overall_solved_rate: 51
+    ignored_pct: 26
+    trusted_contributor_pct: 32
+    trusted_contributors: null
+    top_signals: []  # see roland_insights.desktop.llm / .project1
+    sources:
+    - https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/desktop/2026-09-sumo-desktop-report.html
+    - https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html
+    - https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html
+  android:
+    total_questions: 47
+    spam: 0
+    overall_solved_rate: 66
+    ignored_pct: 26
+    trusted_contributor_pct: 43
+    contributors: []
+    top_signals: []  # strings crash generate.py; signals live in roland_insights / narrative
+    sources:
+    - https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-09-sumo-android-report.html
+    - https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html
+    - https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html
+roland_insights:
+  android:
+    month: 2026-09
+    last_updated: '2026-10-12'
+    questions: 47
+    questions_mom: −4 vs August (51)
+    methodology: KPI from Roland SUMO CSV = 47 questions. PROJECT1 and LLM_INSIGHTS both cover 41.
+      Attribute percentages to their own source.
+    source_url: https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/2026-09-sumo-android-report.html
+    project1:
+      month: 2026-09
+      last_updated: '2026-10-12'
+      questions: 41
+      spikes_total: 0
+      answered_pct: 85
+      answered_median_hours: 4.5
+      cause_tagged_pct: 49
+      source_url: https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/android/exec-summary-latest.html
+      low_volume_caveat: No spike cleared the threshold at any grain — volume artifact (~1 question/day).
+        Detectors need 8/day, 6/week, or 8/month. Read a zero as 'nothing large enough to fire', not
+        'nothing happened'.
+      version_data_caveat: Only 15% of September Android questions carry a Thunderbird version, so the
+        version×cause detector cannot fire. Its zero is missing data, not a clean result.
+    llm:
+      month: 2026-09
+      last_updated: '2026-10-08'
+      stale: false
+      source_url: https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/android/monthly-summary-latest.html
+      questions: 41
+      questions_mom: 40 → 41 (+1, +2%)
+      clusters: 29
+      new_clusters: 6
+      note: Read as a list of the month's problems, not a trend. 41 questions across 29 clusters means
+        most clusters hold one or two questions. Severity and resolved carry the signal, not the counts.
+      top_priorities:
+      - rank: 1
+        cluster: Background sync and push notifications not working unless app opened
+        aug: 3
+        severity: 3.7
+        resolved_pct: 33
+        new_this_month: true
+      - rank: 2
+        cluster: Message body renders empty in Android message viewer
+        aug: 3
+        severity: 3.3
+        resolved_pct: 33
+        new_this_month: true
+        note: 67% unanswered
+      - rank: 3
+        cluster: QR code import button missing or non-functional at setup
+        aug: 3
+        severity: 3.3
+        resolved_pct: 67
+        new_this_month: true
+      - rank: 4
+        cluster: Push notification delays and re-enabling disabled notifications
+        aug: 2
+        severity: 3.0
+        resolved_pct: 50
+        new_this_month: true
+      - rank: 5
+        cluster: "Remote images: no 'always show' setting on Android"
+        aug: 2
+        severity: 2.0
+        resolved_pct: 100
+        new_this_month: true
+      - rank: 6
+        cluster: Cannot create folders or manage contacts in Thunderbird for Android
+        aug: 2
+        severity: 2.0
+        resolved_pct: 100
+        new_this_month: true
+      themes:
+      - Six new clusters this month; background sync/push and blank message bodies lead user pain (both
+        33% resolved).
+      - Category shifts: sync/OAuth 3→5, settings 3→6, migration/import 1→3, send/receive 5→7.
+    cross_channel:
+    - Android SUMO push/sync clusters echo Play Store Push / Notification Sync (25 negative) — same gap,
+      different entry point; counts are not additive.
+    - QR import friction appears on Android SUMO (3) and Play Store (8 negative) — setup path still loud.
+  desktop:
+    month: 2026-09
+    last_updated: '2026-10-12'
+    questions: 1002
+    questions_mom: +47 vs August (955)
+    methodology: KPI CSV 1002; PROJECT1 977; LLM_INSIGHTS 976. Each source is reported on its own basis.
+    source_url: https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/desktop/2026-09-sumo-desktop-report.html
+    project1:
+      month: 2026-09
+      last_updated: '2026-10-12'
+      questions: 977
+      questions_mom: +34 (+4%) vs August 943 (PROJECT1 load; SUMO CSV is 1002)
+      methodology: PROJECT1 — regex + traditional stats; version×cause spikes and release adoption. Non-AI
+        engineering signal.
+      source_url: https://thunderbird.github.io/thunderbird-metrics-and-reports/PROJECT1/REPORTS/desktop/exec-summary-latest.html
+      spikes_total: 28
+      answered_pct: 73
+      answered_median_hours: 3.8
+      cause_tagged_pct: 47
+      headline: Alice.it and residual printing — Roland's own 'What stands out' pair
+      what_stands_out:
+      - signal: m:alice_it
+        questions: 20
+        note: 8 spikes; 20.0× baseline of 1.0; peaked 2026-09-23 with 9 questions
+      - signal: feat:printing
+        questions: 8
+        note: 4 spikes; under monthly bar; peaked 2026-09-01 at 20.3× expected on Thunderbird 154 (users
+          still on pre-155)
+      - signal: m:virginmedia
+        questions: 6
+        note: 1 spike; week of 2026-09-07 at 19.3× expected on Thunderbird 155
+      - signal: m:shaw
+        questions: 5
+        note: 1 spike; week of 2026-09-28 at 18.0× baseline
+      - signal: m:microsoftemail
+        questions: 67
+        note: 2 spikes; under monthly bar; peaked 2026-09-16 at 9.0× baseline
+    llm:
+      month: 2026-09
+      last_updated: '2026-10-08'
+      stale: false
+      questions: 976
+      questions_mom: 940 → 976 (+36, +4%)
+      clusters: 161
+      new_clusters: 1
+      methodology: Claude labels each question (problem, root-cause guess, severity 1–5), Python counts
+        and ranks. Triage pointer, not proof. Agrees with PROJECT1 on Alice.it; adds TB 155 blank-filter
+        regression and generic receive-mail pain that PROJECT1 cause tags alone understate.
+      source_url: https://thunderbird.github.io/thunderbird-metrics-and-reports/LLM_INSIGHTS/REPORTS/desktop/monthly-summary-latest.html
+      note: Mail delivery failures drove support up; three connection clusters (Alice.it, Microsoft OAuth,
+        AOL/Yahoo) resolved below 50%. One new cluster — POP 'Unable to write the email to the mailbox'
+        (7 qs).
+      # "aug" key = current-month (September) count — generate.py Questions column still reads "aug"
+      top_priorities:
+      - rank: 1
+        cluster: Generic 'cannot receive mail' / mail stopped arriving
+        aug: 50
+        severity: 4.1
+        resolved_pct: 50
+        unanswered_pct: 30
+      - rank: 2
+        cluster: TB 155 message filters with blank conditions match everything and misroute mail
+        aug: 35
+        severity: 4.3
+        resolved_pct: 80
+        known_status: Fixed in Thunderbird 155.0.1, released 2026-09-09 (Bugzilla 2068847, duplicate
+          2068955). ESR 153 was never affected. Last report 2026-09-14.
+      - rank: 3
+        cluster: Alice.it/TIM POP/IMAP server connection refused (m:alice_it)
+        aug: 21
+        severity: 4.2
+        resolved_pct: 14
+        known_status: POP problem on TIM server in.alice.it (not IMAP). TIM fixed by 2026-09-24; pop.tim.it
+          was the interim workaround.
+      - rank: 4
+        cluster: Microsoft/Outlook OAuth2 authentication failures (m:microsoftemail)
+        aug: 22
+        severity: 3.8
+        resolved_pct: 18
+        unanswered_pct: 55
+      - rank: 5
+        cluster: AOL/Yahoo account cannot send or receive
+        aug: 21
+        severity: 4.1
+        resolved_pct: 33
+        unanswered_pct: 43
+      - rank: 6
+        cluster: Generic SMTP send failure while receiving works
+        aug: 28
+        severity: 4.0
+        resolved_pct: 61
+  eng_alignment:
+    source_month: 2026-09
+    assessment: Desktop volume up (1002 KPI / 977 PROJECT1 / 976 LLM). LLM top signals are generic receive
+      failures, TB 155 blank-filter regression (fixed 155.0.1), and Alice.it/TIM outage. PROJECT1 still
+      flags residual printing on v154. Android still too low for PROJECT1 spike detection (41); LLM names
+      push/sync and blank bodies. Play Store push/sync still leads negative mentions.
+tbpro_ideas:
+  new_this_month:
+  - title: ThunderDRIVE - Evolution from 'Send' to 'Drive'
+    votes: 39
+    tag: Send
+    url: https://ideas.tb.pro/p/thunderdrive-evolution-from-send-to-drive
+  - title: Combine tb.pro and thundermail.com aliases
+    votes: 27
+    tag: Accounts & Subscriptions
+    url: https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases
+  - title: Display Name
+    votes: 9
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/display-name
+  - title: Minor privacy issue
+    votes: 8
+    tag: Privacy & Security
+    url: https://ideas.tb.pro/p/minor-privacy-issue
+  - title: 'Calendar: Automatic event updates'
+    votes: 7
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/calendar-automatic-event-updates
+  - title: Limited Free Tier
+    votes: 7
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/limited-free-tier
+  - title: Auto-populate Appointments from Thundermail calendars
+    votes: 6
+    tag: Appointment
+    url: https://ideas.tb.pro/p/auto-populate-appointments-from-thundermail-calendars
+  - title: 'Calender: Allow using custom domain alias for event invites'
+    votes: 6
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/calender-allow-using-custom-domain-alias-for-event-invites
+  - title: TB.pro as s/mime certificat provider
+    votes: 6
+    tag: New Feature
+    url: https://ideas.tb.pro/p/tb-pro-as-s-mime-certificat-provider
+  - title: 'Folders in Send '
+    votes: 5
+    tag: Send
+    url: https://ideas.tb.pro/p/folders-in-send
+  - title: Implement Tags
+    votes: 5
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/implement-tags
+  - title: Increased privacy? Create a Sailfish OS mobile app
+    votes: 5
+    tag: New Feature
+    url: https://ideas.tb.pro/p/increased-privacy-create-a-sailfish-os-mobile-app
+  - title: Username-Centric Account Identity for Enhanced Security and Asset Flexibility
+    votes: 5
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/username-centric-account-identity-for-enhanced-security-and-asset-flexibility
+  - title: Alias integration with 1Password
+    votes: 4
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/alias-integration-with-1password
+  - title: Block specific aliases from catch-all
+    votes: 4
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/block-specific-aliases-from-catch-all
+  - title: Clarify alias reuse
+    votes: 4
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/clarify-alias-reuse
+  - title: Gmail integration
+    votes: 4
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/gmail-integration
+  - title: Show correct sender information for alias services (e.g., SimpleLogin)
+    votes: 4
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/show-correct-sender-information-for-alias-services-e-g-simplelogin
+  - title: Add an additional warning for alias suppression
+    votes: 3
+    tag: Improvement
+    url: https://ideas.tb.pro/p/add-an-additional-warning-for-alias-suppression
+  - title: Allow mail sent to aliases to be auto-forwarded
+    votes: 3
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/allow-mail-sent-to-aliases-to-be-auto-forwarded
+  - title: Threaded Conversations
+    votes: 3
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/threaded-conversations
+  - title: Appointment Location
+    votes: 2
+    tag: Appointment
+    url: https://ideas.tb.pro/p/appointment-location
+  - title: Auto categorize emails
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/auto-categorize-emails
+  - title: Connect autoresponders to aliases
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/connect-autoresponders-to-aliases
+  - title: Default reply-as should use receiving address (catch-all identity matching for custom domains)
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/default-reply-as-should-use-receiving-address-catch-all-identity-matching-for-custom-domains
+  - title: Duplicate detection in Send
+    votes: 2
+    tag: Send
+    url: https://ideas.tb.pro/p/duplicate-detection-in-send
+  - title: Fold the adress list in webmail when there's a lot of addresses
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/fold-the-adress-list-in-webmail-when-there-s-a-lot-of-addresses
+  - title: https://ideas.tb.pro add SSO With our thundermail.com account
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/https-ideas-tb-pro-add-sso-with-our-thundermail-com-account
+  - title: ICS support in Appointment external calendar
+    votes: 2
+    tag: Appointment
+    url: https://ideas.tb.pro/p/ics-support-in-appointment-external-calendar
+  - title: Move to button/search box
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/move-to-button-search-box
+  - title: 'Moving to next/former mail without having to go back to inbox '
+    votes: 2
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/moving-to-next-former-mail-without-having-to-go-back-to-inbox
+  - title: Resume uploads in send
+    votes: 2
+    tag: Send
+    url: https://ideas.tb.pro/p/resume-uploads-in-send
+  - title: Webmail browser notifications
+    votes: 2
+    tag: New Feature
+    url: https://ideas.tb.pro/p/webmail-browser-notifications
+  - title: Add button to turn off keyboard shortcuts
+    votes: 1
+    tag: Webmail
+    url: https://ideas.tb.pro/p/add-button-to-turn-off-keyboard-shortcuts
+  - title: Add Private-Cryptocurrency Payment Options | Monero (XMR)
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/add-private-cryptocurrency-payment-options-monero-xmr
+  - title: Additional address books
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/additional-address-books
+  - title: Blocking individual alias addresses
+    votes: 1
+    tag: New Feature
+    url: https://ideas.tb.pro/p/blocking-individual-alias-addresses
+  - title: button to easy Add to contacts or Copy to clipboard the *from email address*
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/button-to-easy-add-to-contacts-or-copy-to-clipboard-the-from-email-address
+  - title: Clarity on Mail Merge and E-mail Limits
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/clarity-on-mail-merge-and-e-mail-limits
+  - title: Create an email-linked task application
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/create-an-email-linked-task-application
+  - title: Full Contact Sync for iOS and Android
+    votes: 1
+    tag: Appointment
+    url: https://ideas.tb.pro/p/full-contact-sync-for-ios-and-android
+  - title: integration Feature for Remote Work
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/integration-feature-for-remote-work
+  - title: iOS Application
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/ios-application
+  - title: Mail Archiv
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/mail-archiv
+  - title: Make use of bulwark
+    votes: 1
+    tag: Webmail
+    url: https://ideas.tb.pro/p/make-use-of-bulwark
+  - title: 'Messages Preview: Dark/Light Mode toggle switch remembers state'
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/messages-preview-dark-light-mode-toggle-switch-remembers-state
+  - title: Native iOS App
+    votes: 1
+    tag: New Feature
+    url: https://ideas.tb.pro/p/native-ios-app
+  - title: Quick Search for emails from the same sender
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/quick-search-for-emails-from-the-same-sender
+  - title: Read and delivery receipts (like in Exchange)
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/read-and-delivery-receipts-like-in-exchange
+  - title: Support domains with Punycode
+    votes: 1
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/support-domains-with-punycode
+  - title: ThunderBackup
+    votes: 1
+    tag: Privacy & Security
+    url: https://ideas.tb.pro/p/thunderbackup
+  - title: 'Webcal '
+    votes: 1
+    tag: New Feature
+    url: https://ideas.tb.pro/p/webcal
+  - title: Sync Contact Categories
+    votes: 0
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/sync-contact-categories
+  top_alltime:
+  - title: A small permanent perk for early supporters (applied on top of any tier)
+    votes: 178
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/a-small-permanent-perk-for-early-supporters-applied-on-top-of-any-tier
+    status: Exploring the Idea
+  - title: Prevent recycling of email addresses on Thundermail domains
+    votes: 136
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/prevent-recycling-of-email-addresses-on-thundermail-domains
+    status: On the roadmap
+  - title: Additional pricing tiers
+    votes: 130
+    tag: Accounts & Subscriptions
+    url: https://ideas.tb.pro/p/additional-pricing-tiers
+    status: On the roadmap
+  - title: Server Side Email Filtering
+    votes: 102
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/server-side-email-filtering
+    status: On the roadmap
+  - title: Ability to change primary e-mail
+    votes: 94
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/ability-to-change-primary-e-mail
+    status: Exploring the Idea
+  in_flight:
+  - title: Full calendar support in webmail
+    votes: 44
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/full-calendar-support-in-webmail
+    status: In flight
+  - title: Dark Mode
+    votes: 30
+    tag: Send
+    url: https://ideas.tb.pro/p/dark-mode
+    status: In flight
+  - title: Show active login sessions
+    votes: 15
+    tag: Privacy & Security
+    url: https://ideas.tb.pro/p/show-active-login-sessions
+    status: In flight
+  - title: Implement Tags
+    votes: 5
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/implement-tags
+    status: In flight
+  landed:
+  - title: Webmail for Thundermail
+    votes: 87
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/webmail-for-thundermail
+    status: Landed!
+  - title: Multifactor Authentication
+    votes: 70
+    tag: Privacy & Security
+    url: https://ideas.tb.pro/p/multifactor-authentication
+    status: Landed!
+  - title: Unlimited aliases
+    votes: 26
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/unlimited-aliases
+    status: Landed!
+  - title: Allow permission to send from "any" email
+    votes: 12
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/allow-permission-to-send-from-any-email
+    status: Landed!
+  - title: New Message and Aliases
+    votes: 12
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/new-message-and-aliases
+    status: Landed!
+  - title: Alias/Identities support in Webmail
+    votes: 11
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/alias-identities-support-in-webmail
+    status: Landed!
+  - title: 15 email adresses and not 15 aliases
+    votes: 9
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/15-email-adresses-and-not-15-aliases
+    status: Landed!
+  - title: Auto dark mode in webmail
+    votes: 8
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/auto-dark-mode-in-webmail
+    status: Landed!
+  - title: Multiple contact books
+    votes: 7
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/multiple-contact-books
+    status: Landed!
+  - title: Consider removing three character restrictions on alias for custom domains
+    votes: 5
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/consider-removing-three-character-restrictions-on-alias-for-custom-domains
+    status: Landed!
+  - title: Exit Settings > Return to Email
+    votes: 5
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/exit-settings-return-to-email
+    status: Landed!
+  - title: Emails appear multiple times if multiple aliases are configured in the client
+    votes: 4
+    tag: Thundermail
+    url: https://ideas.tb.pro/p/emails-appear-multiple-times-if-multiple-aliases-are-configured-in-the-client
+    status: Landed!
+  quarterly_review:
+    date: "2026-09-23"
+    facilitator: "Lisa (LJ)"
+    footnote: "Public quarterly review; needs discussed and statuses updated per How We Handle Ideas."
+    intro: "Second public quarterly ideas review, 23 Sep 2026."
+    note: "Not reached in the hour: mail from elsewhere; reseller/agency. Monthly subscription for testing was discussed under Additional pricing tiers."
+    missing_from_board:
+      - monthly-subscription-for-testing
+    moves:
+      - &id001
+        date: "2026-09-23"
+        status: "On the roadmap"
+        title: "Prevent recycling of email addresses on Thundermail domains"
+        votes: 136
+        url: "https://ideas.tb.pro/p/prevent-recycling-of-email-addresses-on-thundermail-domains"
+        note: "quarterly review · from Open for discussion"
+      - date: "2026-09-23"
+        status: "On the roadmap"
+        title: "Additional pricing tiers"
+        votes: 130
+        url: "https://ideas.tb.pro/p/additional-pricing-tiers"
+        note: "quarterly review · discussed; family plan / 1st month trial sit here"
+      - &id002
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Family plan"
+        votes: 89
+        url: "https://ideas.tb.pro/p/family-plan"
+        note: "quarterly review · from Open for discussion · discussing under Additional pricing tiers"
+      - &id003
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Ability to change primary e-mail"
+        votes: 94
+        url: "https://ideas.tb.pro/p/ability-to-change-primary-e-mail"
+        note: "quarterly review · from Open for discussion"
+      - &id004
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "FIDO2 for MFA"
+        votes: 71
+        url: "https://ideas.tb.pro/p/fido2-for-mfa"
+        note: "quarterly review · from Open for discussion"
+      - &id005
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Regional Pricing for Thundermail"
+        votes: 31
+        url: "https://ideas.tb.pro/p/regional-pricing-for-thundermail"
+        note: "quarterly review · from Open for discussion"
+      - &id006
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Passkey"
+        votes: 30
+        url: "https://ideas.tb.pro/p/passkey"
+        note: "quarterly review · from Open for discussion"
+      - &id007
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Send: Allow use of alias as primary identity"
+        votes: 28
+        url: "https://ideas.tb.pro/p/send-allow-use-of-alias-as-primary-identity"
+        note: "quarterly review · from Open for discussion"
+      - &id008
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Yubikey / security key 2FA"
+        votes: 23
+        url: "https://ideas.tb.pro/p/yubikey-security-key-2fa"
+        note: "quarterly review · from Open for discussion"
+      - &id009
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Appointment: Allow use of alias as primary identity"
+        votes: 12
+        url: "https://ideas.tb.pro/p/appointment-allow-use-of-alias-as-primary-identity"
+        note: "quarterly review · from Open for discussion"
+      - &id010
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Allow enabling catch-all on custom domains before having to complete and verify DNS changes"
+        votes: 10
+        url: "https://ideas.tb.pro/p/allow-enabling-catch-all-on-custom-domains-before-having-to-complete-and-verify-dns-changes"
+        note: "quarterly review · from Open for discussion"
+      - &id011
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Send email alert when custom domain DNS verification fails"
+        votes: 8
+        url: "https://ideas.tb.pro/p/send-email-alert-when-custom-domain-dns-verification-fails"
+        note: "quarterly review · from Open for discussion"
+      - &id012
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Multiple MFA entries for each type (and rename-able)"
+        votes: 5
+        url: "https://ideas.tb.pro/p/multiple-mfa-entries-for-each-type-and-rename-able"
+        note: "quarterly review · from Open for discussion"
+      - &id013
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "Email-based Multifactor Authentication"
+        votes: 4
+        url: "https://ideas.tb.pro/p/email-based-multifactor-authentication"
+        note: "quarterly review · from Open for discussion"
+      - &id014
+        date: "2026-09-23"
+        status: "Exploring the Idea"
+        title: "DNS setup and monitoring of: DMARC, SPF, DKIM, etc."
+        votes: 3
+        url: "https://ideas.tb.pro/p/dns-setup-and-monitoring-of-dmarc-spf-dkim-etc"
+        note: "quarterly review · from Open for discussion"
+      - &id015
+        date: "2026-09-23"
+        status: "Great idea; not yet"
+        title: "Email hosting for small businesses"
+        votes: 37
+        url: "https://ideas.tb.pro/p/email-hosting-for-small-businesses"
+        note: "quarterly review · from Open for discussion · deferring to future business/enterprise scope"
+      - &id016
+        date: "2026-09-23"
+        status: "Great idea; not yet"
+        title: "Limited Free Tier"
+        votes: 7
+        url: "https://ideas.tb.pro/p/limited-free-tier"
+        note: "quarterly review · from Open for discussion"
+      - &id017
+        date: "2026-09-23"
+        status: "Landed!"
+        title: "New Message and Aliases"
+        votes: 12
+        url: "https://ideas.tb.pro/p/new-message-and-aliases"
+        note: "quarterly review · from New idea"
+      - &id018
+        date: "2026-09-23"
+        status: "No for now"
+        title: "Let dots not count for a username"
+        votes: 76
+        url: "https://ideas.tb.pro/p/let-dots-not-count-for-a-username"
+        note: "quarterly review · from Open for discussion"
+      - &id019
+        date: "2026-09-23"
+        status: "No for now"
+        title: "Username as login instead of account email"
+        votes: 35
+        url: "https://ideas.tb.pro/p/username-as-login-instead-of-account-email"
+        note: "quarterly review · from Open for discussion"
+      - &id020
+        date: "2026-09-23"
+        status: "No for now"
+        title: "Combine tb.pro and thundermail.com aliases"
+        votes: 27
+        url: "https://ideas.tb.pro/p/combine-tb-pro-and-thundermail-com-aliases"
+        note: "quarterly review · from Open for discussion"
+      - &id021
+        date: "2026-09-23"
+        status: "No for now"
+        title: "SMS-based Multifactor Authentication"
+        votes: 5
+        url: "https://ideas.tb.pro/p/sms-based-multifactor-authentication"
+        note: "quarterly review · from Open for discussion"
+  status_moves_manual:
+    moves:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - *id006
+      - *id007
+      - *id008
+      - *id009
+      - *id010
+      - *id011
+      - *id012
+      - *id013
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+
+narrative:
+  dashboard_headline: Donor CSAT dropped to 77.1%; Thundermail volume and CSAT both rose
+  lede: |
+    Overall CSAT 86% (−4.9 pts).
+    - Donor CSAT 77.1% (−15.6 pts)
+    - Thundermail CSAT 94.8% (+9.1 pts). Contact rate 7.3% among PostHog-visible users (400 of 5,509, +2.4 pts)
+    - Play Store review tickets (1–3 stars): 168
+    - Desktop forum: 1,002 questions, 51% solved (−7 pts). Receive-mail failures (50), TB 155 blank filters (35, fixed in 155.0.1), Alice.it/TIM (21)
+  masthead_highlights:
+  - Overall CSAT 86% (−4.9 pts).
+  - Donor CSAT 77.1% (−15.6 pts)
+  - Thundermail CSAT 94.8% (+9.1 pts). Contact rate 7.3% among PostHog-visible users (400 of 5,509, +2.4 pts)
+  - 'Play Store review tickets (1–3 stars): 168'
+  - 'Desktop forum: 1,002 questions, 51% solved (−7 pts). Receive-mail failures (50), TB 155 blank filters (35, fixed in 155.0.1), Alice.it/TIM (21)'
+  asks: []
+  donor_context: Donor CSAT 77.1% on 48 ratings (37 Good, 11 Bad), down 15.6 pts from August’s 92.7%. The
+    11 Bad ratings were spread across topics with no single driver, consistent with normal variation on a
+    small sample.
+  overlap_notes:
+    intro: Three Android · TfA channels, not one count — Play Store, Android SUMO, and K-9 Forum. Counts
+      are not additive.
+    rows:
+    - signal: Push / notifications
+      play_store: '38 mentions · 25 negative (Play Store #1; August 34 negative)'
+      sumo_android: 'Background sync/push unless the app is opened (3) and notification delays (2); no spike
+        on the 41-question set'
+      k9_forum: Notifications 7 topics (top K-9 Forum theme)
+      read: Same gap, louder on Play Store. Channel counts are not additive. Mention-count drop 34→25 is not a shipped
+        notification fix.
+    - signal: Spam filter absent
+      play_store: '12 mentions · 7 negative (Play Store #3; August 18 negative)'
+      sumo_android: One junk-filter question — too few to count as a spike
+      k9_forum: No headline spam/junk theme this month (32 topics, all categories)
+      read: Play Store–only pain can persist when forum volume is too low to fire. Fewer mentions ≠ a junk
+        filter shipped.
+    footnote: Play Store September + August CSVs from GCS (fetched 2026-10-06). Android SUMO remains low-volume;
+      LLM September clusters available 2026-10-08.
+  github_alignment:
+    headline: Feedback vs September GitHub work
+    assessment: Desktop LLM flags receive-mail failures, TB 155 blank filters (fixed 155.0.1), and Alice.it/TIM;
+      PROJECT1 still names residual printing on v154 (fixed in 155, 1 Sep). Android GitHub work vs Play Store
+      friction is listed below; push/sync remains the loudest Play Store signal and leads Android
+      SUMO LLM clusters.
+    bullets:
+    - 'Desktop: TB 155 blank-filter regression (35 qs, fixed 155.0.1) · Alice.it/TIM outage (21 LLM / 20
+      PROJECT1) · printing residual on v154.'
+    - 'Android: push/sync still leads Play Store negatives; Android SUMO LLM adds blank message bodies and
+      QR import — PROJECT1 too small for spike detection.'
+  roland_desktop:
+  - 1,002 questions (August 955). Solved 51% (August 58%). Ignored 26%. Trusted contributors 32% of solves.
+  - 'Receive-mail failures: 50'
+  - 'TB 155 blank filters: 35, fixed in 155.0.1 on 9 Sep'
+  - 'Alice.it/TIM: 21 (14% resolved; TIM fixed 24 Sep)'
+  - 'Microsoft OAuth: 22 (18% resolved)'
+  - 'AOL/Yahoo: 21'
+  - 'Still spiking: Alice.it 20 questions (20×); printing on v154, 8 questions (20.3×, peak 1 Sep)'
+  - 73% got a non-asker answer (median 3.8h)
+  roland_android:
+  - 47 questions (August 51). Solved 66% (August 61%). Ignored 26%. Trusted contributors 43%.
+  - 41 questions, zero spikes. 85% answered (median 4.5h).
+  - 'Background sync/push unless the app is opened: 3 (33% resolved)'
+  - 'Empty message bodies: 3'
+  - 'QR import broken at setup: 3'
+  - Only 15% carry a Thunderbird version, so a version-by-cause read is missing data.
+  sumo_desktop_signal: '1,002 desktop questions (August 955); synthetic solved rate 51% (August 58%). LLM
+    names receive-mail failures (50), TB 155 blank filters (35, fixed 155.0.1), and Alice.it/TIM (21).'
+  sumo_android_signal:
+  - 47 questions (August 51)
+  - 66% solved (+5 pts)
+  - 'Push/sync: 3'
+  - 'Blank bodies: 3'
+  - 'QR import: 3'
+  - No spikes in the 41-question set
+  receive_resolve_resound: '**🕊 Receive**
+
+    - 1,001 Zendesk tickets (+32.6% vs August 755) — Donor 344 (−2%), Thundermail 489 (+162%), App Store
+    Reviews 168 (1–3★ review tickets; August 218 on the same basis)
+
+    - Thundermail: 400 unique requesters · 447 eligible tickets · 7.3% contact rate among PostHog-visible
+    users (5,509 accounts.activity people)
+
+    - Desktop SUMO 1,002 questions; Android SUMO 47
+
+    - Play Store: push/sync still the loudest Android review friction
+
+
+    **🪽 Resolve**
+
+    - Thundermail CSAT 94.8% (+9.1 pts vs August 85.7)
+
+    - Android SUMO solved rate 66% (+5 pts)
+
+    - Desktop solved rate 51% (−7 pts) — receive failures · TB 155 filters · Alice.it
+
+    - Donor CSAT 77.1% (−15.6 pts)
+
+
+    **✨ Resound**
+
+    - Quarterly ideas review completed 23 Sep; updated FeatureOS statuses are in the Thundermail section
+
+    - Thundermail CSAT recovered after August’s pricing DSAT month
+
+    '
+  goal_bullets: |
+    - **Push / Notification Sync — still #1:** 25 negative (34→25) · 38 mentions · avg 2.58★ · 3-mo 31→34→25. Mention-count drop is not a shipped notification fix.
+    - **QR / Settings Import — back in the top 3:** 8 negative (3→8) · 11 mentions · avg 2.18★ · 3-mo 25→3→8
+    - **Rating gap:** TB 3.76★ needs +0.24★ to 4★ (K-9 3.63★, +0.03). Converting push 1–3★ reviewers is still the primary path.
+  experiments: ''
+  whats_coming_up: |
+    **What's new: Thundermail plan + External ID on /contact tickets.** Logged-in users who file via /contact now send plan data and External ID (Accounts UUID) into Zendesk, so we can triage, route, and report Thundermail customer vs non-customer tickets.
+
+    - **Phase 2** is the same payload on every other intake path (email and unsigned forms), so we can segment customer vs non-customer everywhere.
+    - **Donors:** the same approach is in progress.
+    - **Constraints:** login is never required to file; email-direct stays; External ID is the Accounts UUID; no Paddle IDs in Zendesk.
+thundermail_load:
+  month: 2026-09
+  posthog_visible_users: 5509
+  unique_requesters: 400
+  requester_eligible_tickets: 447
+  tickets_per_requester: 1.12
+  contact_rate_visible_pct: 7.3
+  tickets_per_visible_user_pct: 8.1
+  posthog_surfaces:
+    accounts: 5509
+    mail: 2265
+    appointment: 3649
+    send: 5148
+    webmail: 1843
+  posthog_signins:
+    webmail: 1843
+    accounts_web: 4027
+    appointment_web: 704
+  zendesk_services:
+    Account Hub:
+      tickets: 251
+      unique_requesters: 234
+    Appointment:
+      tickets: 4
+      unique_requesters: 4
+    Send:
+      tickets: 8
+      unique_requesters: 8
+    Thundermail:
+      tickets: 159
+      unique_requesters: 143
+    Unclassified:
+      tickets: 25
+      unique_requesters: 25
+  zendesk_entity_areas:
+    addons:
+      tickets: 17
+      unique_requesters: 17
+    aliases:
+      tickets: 64
+      unique_requesters: 63
+    attachments:
+      tickets: 8
+      unique_requesters: 8
+    caldav:
+      tickets: 6
+      unique_requesters: 6
+    carddav:
+      tickets: 3
+      unique_requesters: 3
+    certificates_encryption:
+      tickets: 6
+      unique_requesters: 6
+    dns:
+      tickets: 20
+      unique_requesters: 20
+    filtering:
+      tickets: 3
+      unique_requesters: 3
+    mfa_security:
+      tickets: 2
+      unique_requesters: 2
+    performance:
+      tickets: 2
+      unique_requesters: 2
+    protocols:
+      tickets: 25
+      unique_requesters: 25
+    spam:
+      tickets: 33
+      unique_requesters: 31
+    webmail:
+      tickets: 40
+      unique_requesters: 39
+  zendesk_webmail:
+    tickets: 46
+    unique_requesters: 45
+  surface_contact_rate_visible_pct:
+    accounts: 4.2
+    mail: 6.3
+    appointment: 0.1
+    send: 0.2
+    webmail: 2.4
+  previous:
+    month: 2026-08
+    posthog_visible_users: 3234
+    unique_requesters: 157
+    requester_eligible_tickets: 171
+    tickets_per_requester: 1.09
+    contact_rate_visible_pct: 4.9
+    tickets_per_visible_user_pct: 5.3
+    posthog_surfaces:
+      accounts: 3234
+      mail: 2476
+      appointment: 3124
+      send: 939
+      webmail: 1256
+    posthog_signins:
+      webmail: 1256
+      accounts_web: 2431
+      appointment_web: 525
+    zendesk_services:
+      Account Hub:
+        tickets: 96
+        unique_requesters: 95
+      Appointment:
+        tickets: 4
+        unique_requesters: 4
+      Send:
+        tickets: 6
+        unique_requesters: 6
+      Thundermail:
+        tickets: 62
+        unique_requesters: 52
+      Unclassified:
+        tickets: 3
+        unique_requesters: 3
+    zendesk_entity_areas:
+      addons:
+        tickets: 7
+        unique_requesters: 7
+      aliases:
+        tickets: 21
+        unique_requesters: 21
+      attachments:
+        tickets: 3
+        unique_requesters: 3
+      caldav:
+        tickets: 5
+        unique_requesters: 5
+      carddav:
+        tickets: 1
+        unique_requesters: 1
+      certificates_encryption:
+        tickets: 3
+        unique_requesters: 3
+      dns:
+        tickets: 12
+        unique_requesters: 11
+      mfa_security:
+        tickets: 2
+        unique_requesters: 2
+      performance:
+        tickets: 1
+        unique_requesters: 1
+      protocols:
+        tickets: 8
+        unique_requesters: 8
+      spam:
+        tickets: 17
+        unique_requesters: 17
+      webmail:
+        tickets: 12
+        unique_requesters: 12
+    zendesk_webmail:
+      tickets: 12
+      unique_requesters: 12
+    surface_contact_rate_visible_pct:
+      accounts: 2.9
+      mail: 2.1
+      appointment: 0.1
+      send: 0.6
+      webmail: 1.0
+  methodology_scan:
+  - Counts unique people, never raw events. One mailbox that sends 500 messages is still one person (uniq(person_id),
+    not Total count).
+  - 'Overall contact-rate denominator: unique people on PostHog accounts.activity — PostHog-visible users,
+    not all subscribers, not Stalwart-only IMAP users who never hit PostHog, and not the mail series.'
+  - 'Mail people: unique people who fired ham ingest, spam ingest, or outbound sent (thundermail.message-ingest.ham,
+    thundermail.message-ingest.spam, thundermail.message-sending.sent). Same events as the PostHog insight;
+    Unique users, not Total count.'
+  - 'Webmail people: unique people with accounts.login and clientId thunderbird-stormbox. Sign-ins in
+    the month are a floor — long-lived sessions miss a re-auth.'
+  - 'Appointment people: apmt.* product events plus $pageview on appointment.tb.pro. Public bookers reach
+    that page with no Thundermail account, so Appointment people include them — schedule-owner activity
+    is account-side and far smaller (product events and appointment-frontend logins). The Appointment
+    contact rate is directional because bookers sit in the denominator.'
+  - 'Send people: product events plus $pageview on send.tb.pro. Almost all of them show both send.tb.pro
+    and send.*, so read Send as account-side use — not the public-booker pattern.'
+  - 'Numerator: unique Zendesk requesters on the Thundermail brand after merge / test / agent-created
+    / excluded-incident filters. Surface tickets from pro_service_* tags (Account Hub, Thundermail, Appointment,
+    Send).'
+  - 'Webmail tickets: tagged Thundermail what: UI::Webmail (thundermail_what_ui__webmail) or intelligent-triage
+    webmail (thundermail_entity_area_webmail) — union, counted once. They can also sit on Account Hub
+    / Thundermail service tags.'
+  - 'Internal users: monthly unique-people queries use PostHog''s Filter out internal and test users (person
+    email does not contain @thunderbird.net; $host does not match localhost / 127.0.0.1). That currently
+    excludes 0 people — person email is unset in this project and these events have no localhost $host
+    — so counts still include staff. Zendesk requesters are not filtered the same way.'
+  - Surfaces overlap and are never summed. Not an all-subscriber rate.
+  methodology: 'Counts unique people, never raw events. One mailbox that sends 500 messages is still one
+    person (uniq(person_id), not Total count). Overall contact-rate denominator: unique people on PostHog
+    accounts.activity — PostHog-visible users, not all subscribers, not Stalwart-only IMAP users who never
+    hit PostHog, and not the mail series. Mail people: unique people who fired ham ingest, spam ingest,
+    or outbound sent (thundermail.message-ingest.ham, thundermail.message-ingest.spam, thundermail.message-sending.sent).
+    Same events as the PostHog insight; Unique users, not Total count. Webmail people: unique people with
+    accounts.login and clientId thunderbird-stormbox. Sign-ins in the month are a floor — long-lived sessions
+    miss a re-auth. Appointment people: apmt.* product events plus $pageview on appointment.tb.pro. Public
+    bookers reach that page with no Thundermail account, so Appointment people include them — schedule-owner
+    activity is account-side and far smaller (product events and appointment-frontend logins). The Appointment
+    contact rate is directional because bookers sit in the denominator. Send people: product events plus
+    $pageview on send.tb.pro. Almost all of them show both send.tb.pro and send.*, so read Send as account-side
+    use — not the public-booker pattern. Numerator: unique Zendesk requesters on the Thundermail brand
+    after merge / test / agent-created / excluded-incident filters. Surface tickets from pro_service_*
+    tags (Account Hub, Thundermail, Appointment, Send). Webmail tickets: tagged Thundermail what: UI::Webmail
+    (thundermail_what_ui__webmail) or intelligent-triage webmail (thundermail_entity_area_webmail) — union,
+    counted once. They can also sit on Account Hub / Thundermail service tags. Internal users: monthly
+    unique-people queries use PostHog''s Filter out internal and test users (person email does not contain
+    @thunderbird.net; $host does not match localhost / 127.0.0.1). That currently excludes 0 people —
+    person email is unset in this project and these events have no localhost $host — so counts still include
+    staff. Zendesk requesters are not filtered the same way. Surfaces overlap and are never summed. Not
+    an all-subscriber rate.'
+  mom:
+    posthog_visible_users_pct: 70.3
+    unique_requesters_pct: 154.8
+    contact_rate_visible_pts: 2.4
+    tickets_per_requester: 0.03
+    webmail_signins_pct: 46.7

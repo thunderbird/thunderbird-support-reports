@@ -1,0 +1,16 @@
+month,year,section,category,metric,value_number,value_percent,mom_change_number,mom_change_percent,mom_direction,avg_rating,tb_count,k9_count,source,notes
+September,2026,Support Metrics,Private Support,Overall CSAT,,86,,-4.9,down,,,,Zendesk,
+September,2026,Support Metrics,Private Support,CSAT Donor Support,,77.1,,-15.6,down,,,,Zendesk,
+September,2026,Support Metrics,Private Support,CSAT Thundermail,,94.8,,,flat,,,,Zendesk,
+September,2026,Support Metrics,Private Support,Total Tickets,1001,,246,32.6,up,,,,Zendesk,
+September,2026,Android Reviews,Overview,Total Reviews,402,,,,,3.74,335,67,Play Store,
+September,2026,Android Reviews,Overview,TB Reviews,335,,,,,3.76,335,,Play Store,
+September,2026,Android Reviews,Overview,K-9 Reviews,67,,,,,3.63,,67,Play Store,
+September,2026,Android Reviews,Overview,Play Store Tickets (incoming),168,,,,,,,,Play Store,
+September,2026,Android Reviews,Friction,Push / Notification Sync,38,,,,,2.58,32,6,Play Store,neg:25
+September,2026,Android Reviews,Friction,Spam Filter Absent,12,,,,,3.33,10,2,Play Store,neg:7
+September,2026,Android Reviews,Friction,Crashes & Freezes,6,,,,,1.67,6,0,Play Store,neg:6
+September,2026,Android Reviews,Friction,Calendar Missing,6,,,,,3.67,6,0,Play Store,neg:3
+September,2026,Android Reviews,Friction,Stuck Outbox / Send Failure,2,,,,,3.5,2,0,Play Store,neg:1
+September,2026,Android Reviews,Friction,QR / Settings Import,11,,,,,2.18,11,0,Play Store,neg:8
+September,2026,Android Reviews,Friction,Email Headers / Print,1,,,,,4.0,1,0,Play Store,neg:0
