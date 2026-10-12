@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 15:21 ET** · refreshes hourly_  
+_Updated: **2026-10-12 16:26 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 64** of rollout — **35,000 invitees**, **723 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **10 known problem(s)** being tracked.
+Flight 8 is **day 64** of rollout — **35,000 invitees**, **724 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **16** solved in last 24h
-- **723** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **7** new tickets in last 24h · **16** solved in last 24h
+- **724** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 73
-- **Median AHT**: 140.1h · mean 165.9h (proxy: updated_at − created_at, 52 solved tickets)
+- **Median AHT**: 140.1h · mean 167.9h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"send invitation"** — 2 tickets in 24h (126.0× baseline; baseline 1 cum) — [#9670](https://tbpro.zendesk.com/agent/tickets/9670), [#9806](https://tbpro.zendesk.com/agent/tickets/9806)
 - **"best regards"** — 2 tickets in 24h (4.5× baseline; baseline 28 cum) — [#9670](https://tbpro.zendesk.com/agent/tickets/9670), [#9807](https://tbpro.zendesk.com/agent/tickets/9807)
 
-## Known problems — 10 problem(s), 90 incident(s)
+## Known problems — 11 problem(s), 92 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -39,7 +39,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 75 incident(s):
+- 76 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -114,6 +114,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [pending] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [pending] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [pending] · 2026-10-11 · _Refund_
+  - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [pending] · 2026-10-11 · _New subscription - canceling, requesting refund_
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -150,6 +151,11 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [closed] · 2026-09-25 · _error_
   - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [solved] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [solved] · 2026-09-28 · _Thundermail_
+
+### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
+- 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
+- 1 incident(s):
+  - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [hold] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -228,16 +234,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 590
-- **solved**: 52
-- **pending**: 51
-- **open**: 15
-- **hold**: 15
+- **closed**: 591
+- **pending**: 54
+- **solved**: 53
+- **hold**: 17
+- **open**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 409
-- **Thundermail**: 253
+- **Thundermail**: 254
 - **Send**: 14
 - **Appointment**: 9
 
@@ -246,16 +252,16 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 156
-- **change request** + **actioned**: 103
+- **change request** + **actioned**: 104
 - **blocked** + **explained**: 96
 - **confused** + **explained**: 52
 - **curious** + **informed**: 40
 - **blocked** + **investigated**: 34
-- **request** + **redirected**: 30
+- **request** + **redirected**: 31
 - **confused** + **informed**: 30
-- **blocked** + **redirected**: 25
+- **blocked** + **redirected**: 26
 - **concerned** + **explained**: 24
-- **blocked** + **escalated**: 14
+- **blocked** + **escalated**: 15
 - **blocked** + **informed**: 14
 - **concerned** + **—**: 7
 - **telling us** + **explained**: 6
@@ -276,6 +282,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **informed**: 2
 - **change request** + **investigated**: 2
 - **other** + **—**: 2
+- **other** + **escalated**: 2
 - **concerned** + **redirected**: 2
 - **curious** + **investigated**: 2
 - **concerned** + **escalated**: 2
@@ -287,7 +294,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **curious** + **n/a**: 1
 - **request** + **escalated**: 1
-- **other** + **escalated**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **concerned** + **actioned**: 1
@@ -318,6 +324,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9807](https://tbpro.zendesk.com/agent/tickets/9807)** · Re: [Thundermail] Re: Money Back Option — why: **curious** · how: **explained**
   > This is a follow-up to your previous request #9357 "Money Back Option" Hi [name], Greetings from India. Hope you are doing great. I'm back from my holidays and was trying to use…
 
+### Webmail — 1 tickets
+
+- **[#9810](https://tbpro.zendesk.com/agent/tickets/9810)** · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. — why: **other** · how: **escalated** · 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
+  > **Summary:** All emails forwarded through Firefox Relay are going to spam, regardless of the content of the email or if the sender has tried to whitelist the message previously.…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account — why: **change request** · how: **actioned**
@@ -331,6 +342,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
 - [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [open] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
 - [9807](https://tbpro.zendesk.com/agent/tickets/9807) · [open] · 2026-10-12T18:18 · Re: [Thundermail] Re: Money Back Option
+- [9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · 2026-10-12T19:54 · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
 
 ## Solved — last 24h
 
