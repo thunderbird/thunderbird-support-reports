@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 11:27 ET** · refreshes hourly_  
+_Updated: **2026-10-13 12:28 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **734 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **735 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **21** solved in last 24h
-- **734** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **24** solved in last 24h
+- **735** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
-- **Median AHT**: 140.0h · mean 173.9h (proxy: updated_at − created_at, 61 solved tickets)
+- **Median AHT**: 138.9h · mean 173.6h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## Known problems — 11 problem(s), 92 incident(s)
 
@@ -230,16 +230,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 596
-- **solved**: 61
-- **pending**: 48
+- **solved**: 64
+- **pending**: 50
 - **hold**: 15
-- **open**: 13
-- **new**: 1
+- **open**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 414
-- **Thundermail**: 257
+- **Thundermail**: 258
 - **Send**: 15
 - **Appointment**: 9
 
@@ -250,7 +249,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 156
 - **change request** + **actioned**: 104
 - **blocked** + **explained**: 99
-- **confused** + **explained**: 52
+- **confused** + **explained**: 54
 - **curious** + **informed**: 40
 - **blocked** + **investigated**: 34
 - **request** + **redirected**: 31
@@ -312,6 +311,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9983](https://tbpro.zendesk.com/agent/tickets/9983)** · I forgot the password for my Thundermail account. — why: **blocked** · how: **explained**
   > Hello, I forgot the password for my Thundermail account. I used the “Forgot password” option and the website confirmed that recovery instructions were sent to my recovery email,…
 
+### Aliases — 2 tickets
+
+- **[#9998](https://tbpro.zendesk.com/agent/tickets/9998)** · couldn't add an alias
+  > Is there a reason why I could not add the alias [email]? It just says it is not allowed. Regardless, thank you!
+- **[#9996](https://tbpro.zendesk.com/agent/tickets/9996)** · Delete alias — why: **confused** · how: **explained**
+  > How to delete an alias. There doesn't seem to be a method to delete an alias ?
+
 ### Spam / Junk Filtering — 2 tickets
 
 - **[#9986](https://tbpro.zendesk.com/agent/tickets/9986)** · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
@@ -319,29 +325,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9982](https://tbpro.zendesk.com/agent/tickets/9982)** · verification of email does not work trying to sign up for your early bird thunderbird account — why: **blocked**
   > filled out all the fields but when it came to you must verify your email at the end which I suppose is the maria,taylor email above it did not give me a field to repeat that email
 
-### Aliases — 1 tickets
-
-- **[#9996](https://tbpro.zendesk.com/agent/tickets/9996)** · Delete alias
-  > How to delete an alias. There doesn't seem to be a method to delete an alias ?
-
 ### Send (file sharing) — 1 tickets
 
 - **[#9984](https://tbpro.zendesk.com/agent/tickets/9984)** · Re: [Thundermail] Re: Send — why: **concerned** · how: **explained**
   > This is a follow-up to your previous request #8284 "Send" Hi, Rocky, I hope you don't mind me contacting you again, but I notice I still cannot use the Send function. It still…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9960](https://tbpro.zendesk.com/agent/tickets/9960)** · Waitlist/create account
-  > Hi! I am migrating my Google and Microsoft apps to open source alternatives and I would like to create a Thundermail or enter the waitlist but the page is blank after entering my…
 
 ### Other / uncategorized — 1 tickets
 
 - **[#9980](https://tbpro.zendesk.com/agent/tickets/9980)** · メ－ルの設定 — why: **blocked** · how: **redirected**
   > 今まで使用していたｐｃが突然、作動しなくなり、最初からの設定で、従来使用していたＰＷを入力してもＰＷが違うと表示される。対処法を教えてください。
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#9960](https://tbpro.zendesk.com/agent/tickets/9960)** · Waitlist/create account — why: **confused** · how: **explained**
+  > Hi! I am migrating my Google and Microsoft apps to open source alternatives and I would like to create a Thundermail or enter the waitlist but the page is blank after entering my…
+
 ## New tickets — last 24h
 
-- [9960](https://tbpro.zendesk.com/agent/tickets/9960) · [open] · 2026-10-12T22:51 · Waitlist/create account
+- [9960](https://tbpro.zendesk.com/agent/tickets/9960) · [pending] · 2026-10-12T22:51 · Waitlist/create account
 - [9980](https://tbpro.zendesk.com/agent/tickets/9980) · [pending] · 2026-10-13T00:51 · メ－ルの設定
 - [9982](https://tbpro.zendesk.com/agent/tickets/9982) · [pending] · 2026-10-13T06:14 · verification of email does not work trying to sign up for your early bird thunderbird account
 - [9983](https://tbpro.zendesk.com/agent/tickets/9983) · [pending] · 2026-10-13T09:13 · I forgot the password for my Thundermail account.
@@ -350,7 +351,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9988](https://tbpro.zendesk.com/agent/tickets/9988) · [pending] · 2026-10-13T12:25 · password
 - [9989](https://tbpro.zendesk.com/agent/tickets/9989) · [open] · 2026-10-13T12:34 · Thunderbird email
 - [9993](https://tbpro.zendesk.com/agent/tickets/9993) · [pending] · 2026-10-13T14:16 · thundermail not set up or working properly.
-- [9996](https://tbpro.zendesk.com/agent/tickets/9996) · [new] · 2026-10-13T15:25 · Delete alias
+- [9996](https://tbpro.zendesk.com/agent/tickets/9996) · [pending] · 2026-10-13T15:25 · Delete alias
+- [9998](https://tbpro.zendesk.com/agent/tickets/9998) · [open] · 2026-10-13T16:24 · couldn't add an alias
 
 ## Solved — last 24h
 
@@ -375,6 +377,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9562](https://tbpro.zendesk.com/agent/tickets/9562) · 2026-10-13T15:02 · GoogleのG-mailに転送させたい
 - · [9561](https://tbpro.zendesk.com/agent/tickets/9561) · 2026-10-13T15:02 · pomoc
 - · [9559](https://tbpro.zendesk.com/agent/tickets/9559) · 2026-10-13T15:02 · Correction to refund request – Thunderbird Pro Early Bird
+- · [9287](https://tbpro.zendesk.com/agent/tickets/9287) · 2026-10-13T15:37 · Uploading a .png does nothing
+- · [9664](https://tbpro.zendesk.com/agent/tickets/9664) · 2026-10-13T15:37 · How to delete an alias?
+- · [9560](https://tbpro.zendesk.com/agent/tickets/9560) · 2026-10-13T16:02 · Sticker / swag request from a student developer
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
