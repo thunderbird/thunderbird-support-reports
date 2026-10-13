@@ -1,18 +1,18 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 15:20 ET** · refreshes hourly_  
+_Updated: **2026-10-13 16:24 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **735 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **33** solved in last 24h
-- **736** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 94%  (160 good / 11 bad)
+- **11** new tickets in last 24h · **33** solved in last 24h
+- **735** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 94%  (161 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
 - **Median AHT**: 140.0h · mean 172.2h (proxy: updated_at − created_at, 66 solved tickets)
 
@@ -151,10 +151,11 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so fa
 - 1 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [hold] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
 
-## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
+## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
 
 - 🔧 [zd #9489](https://tbpro.zendesk.com/agent/tickets/9489) → [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
+- 🔧 [zd #9284](https://tbpro.zendesk.com/agent/tickets/9284) → [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
@@ -232,14 +233,14 @@ _(none in last 24h)_
 
 - **closed**: 599
 - **solved**: 66
-- **pending**: 47
-- **hold**: 15
-- **open**: 9
+- **pending**: 49
+- **hold**: 14
+- **open**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 414
-- **Thundermail**: 259
+- **Thundermail**: 258
 - **Send**: 15
 - **Appointment**: 9
 
@@ -268,10 +269,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
 - **confused** + **—**: 4
-- **concerned** + **escalated**: 4
 - **confused** + **investigated**: 4
 - **change request** + **escalated**: 3
 - **curious** + **—**: 3
+- **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
@@ -312,10 +313,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9983](https://tbpro.zendesk.com/agent/tickets/9983)** · I forgot the password for my Thundermail account. — why: **blocked** · how: **explained**
   > Hello, I forgot the password for my Thundermail account. I used the “Forgot password” option and the website confirmed that recovery instructions were sent to my recovery email,…
 
-### Aliases — 3 tickets
+### Aliases — 2 tickets
 
-- **[#10005](https://tbpro.zendesk.com/agent/tickets/10005)** · [thunderbird-accounts/200] Deleted aliases come right back — why: **concerned** · how: **escalated**
-  > 1. go to [domain] 2. scroll to aliases 3. delete one 4. save 5. hard refresh 6. see it's back 7. no console errors noted
 - **[#9998](https://tbpro.zendesk.com/agent/tickets/9998)** · couldn't add an alias — why: **confused** · how: **informed**
   > Is there a reason why I could not add the alias [email]? It just says it is not allowed. Regardless, thank you!
 - **[#9996](https://tbpro.zendesk.com/agent/tickets/9996)** · Delete alias — why: **confused** · how: **explained**
@@ -350,13 +349,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9982](https://tbpro.zendesk.com/agent/tickets/9982) · [pending] · 2026-10-13T06:14 · verification of email does not work trying to sign up for your early bird thunderbird account
 - [9983](https://tbpro.zendesk.com/agent/tickets/9983) · [pending] · 2026-10-13T09:13 · I forgot the password for my Thundermail account.
 - [9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13T11:30 · Re: [Thundermail] Re: Send
-- [9986](https://tbpro.zendesk.com/agent/tickets/9986) · [open] · 2026-10-13T11:40 · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
+- [9986](https://tbpro.zendesk.com/agent/tickets/9986) · [pending] · 2026-10-13T11:40 · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
 - [9988](https://tbpro.zendesk.com/agent/tickets/9988) · [pending] · 2026-10-13T12:25 · password
 - [9989](https://tbpro.zendesk.com/agent/tickets/9989) · [pending] · 2026-10-13T12:34 · Thunderbird email
 - [9993](https://tbpro.zendesk.com/agent/tickets/9993) · [solved] · 2026-10-13T14:16 · thundermail not set up or working properly.
 - [9996](https://tbpro.zendesk.com/agent/tickets/9996) · [pending] · 2026-10-13T15:25 · Delete alias
 - [9998](https://tbpro.zendesk.com/agent/tickets/9998) · [pending] · 2026-10-13T16:24 · couldn't add an alias
-- [10005](https://tbpro.zendesk.com/agent/tickets/10005) · [hold] · 2026-10-13T17:23 · [thunderbird-accounts/200] Deleted aliases come right back
 
 ## Solved — last 24h
 
@@ -389,10 +387,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9553](https://tbpro.zendesk.com/agent/tickets/9553) · 2026-10-13T17:02 · How to update account profile
 - · [9517](https://tbpro.zendesk.com/agent/tickets/9517) · 2026-10-13T17:02 · forgotten password
 - · [9550](https://tbpro.zendesk.com/agent/tickets/9550) · 2026-10-13T18:02 · Payment screen freezes
-- · [9620](https://tbpro.zendesk.com/agent/tickets/9620) · 2026-10-13T19:02 · I received an invite to join the beta release of thundermail, but not working
 - · [9577](https://tbpro.zendesk.com/agent/tickets/9577) · 2026-10-13T19:02 · Thundermail Waitlist
 - 👍 [9555](https://tbpro.zendesk.com/agent/tickets/9555) · 2026-10-13T19:10 · Mailbox setup
 - · [9993](https://tbpro.zendesk.com/agent/tickets/9993) · 2026-10-13T19:19 · thundermail not set up or working properly.
+- 👍 [9620](https://tbpro.zendesk.com/agent/tickets/9620) · 2026-10-13T19:48 · I received an invite to join the beta release of thundermail, but not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
