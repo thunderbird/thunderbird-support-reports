@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 21:49 ET** · refreshes hourly_  
+_Updated: **2026-10-12 22:42 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **726 tickets** so fa
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
-- **Median AHT**: 137.8h · mean 172.0h (proxy: updated_at − created_at, 59 solved tickets)
+- **Median AHT**: 135.0h · mean 171.6h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -234,11 +234,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 594
-- **solved**: 59
-- **pending**: 48
+- **closed**: 595
+- **solved**: 58
+- **pending**: 47
 - **hold**: 17
-- **open**: 7
+- **open**: 8
 - **new**: 1
 
 ## Service (cumulative)
