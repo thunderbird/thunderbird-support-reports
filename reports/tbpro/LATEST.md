@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 02:44 ET** · refreshes hourly_  
+_Updated: **2026-10-13 03:36 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -301,7 +301,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
 - **[#9982](https://tbpro.zendesk.com/agent/tickets/9982)** · verification of email does not work trying to sign up for your early bird thunderbird account
   > filled out all the fields but when it came to you must verify your email at the end which I suppose is the maria,taylor email above it did not give me a field to repeat that email
