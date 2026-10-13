@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 16:24 ET** · refreshes hourly_  
+_Updated: **2026-10-13 17:19 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **735 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **33** solved in last 24h
-- **735** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **32** solved in last 24h
+- **736** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (161 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
-- **Median AHT**: 140.0h · mean 172.2h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 140.0h · mean 172.6h (proxy: updated_at − created_at, 66 solved tickets)
 
-## Known problems — 11 problem(s), 93 incident(s)
+## Known problems — 12 problem(s), 95 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -151,11 +151,16 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **735 tickets** so fa
 - 1 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [hold] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
 
-## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
+### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
+- 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
+- 2 incident(s):
+  - [#9284](https://tbpro.zendesk.com/agent/tickets/9284) · [hold] · 2026-09-29 · _Can't connect cardav to macOS_
+  - [#9502](https://tbpro.zendesk.com/agent/tickets/9502) · [hold] · 2026-10-06 · _Adressbücher_
+
+## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
 - 🔧 [zd #9489](https://tbpro.zendesk.com/agent/tickets/9489) → [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
-- 🔧 [zd #9284](https://tbpro.zendesk.com/agent/tickets/9284) → [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
 - 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
@@ -234,13 +239,13 @@ _(none in last 24h)_
 - **closed**: 599
 - **solved**: 66
 - **pending**: 49
-- **hold**: 14
-- **open**: 7
+- **hold**: 18
+- **open**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 414
-- **Thundermail**: 258
+- **Thundermail**: 259
 - **Send**: 15
 - **Appointment**: 9
 
@@ -248,14 +253,14 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 156
+- **curious** + **explained**: 157
 - **change request** + **actioned**: 104
 - **blocked** + **explained**: 98
 - **confused** + **explained**: 54
 - **curious** + **informed**: 40
 - **blocked** + **investigated**: 34
+- **confused** + **informed**: 32
 - **request** + **redirected**: 31
-- **confused** + **informed**: 31
 - **blocked** + **redirected**: 28
 - **concerned** + **explained**: 26
 - **blocked** + **escalated**: 15
@@ -360,7 +365,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [9515](https://tbpro.zendesk.com/agent/tickets/9515) · 2026-10-12T20:01 · Cancel + refund?
 - · [9480](https://tbpro.zendesk.com/agent/tickets/9480) · 2026-10-12T20:01 · Domain blocked from receiving emails
-- · [9643](https://tbpro.zendesk.com/agent/tickets/9643) · 2026-10-12T20:25 · Unable to add custom domain
 - · [9552](https://tbpro.zendesk.com/agent/tickets/9552) · 2026-10-12T21:01 · Cannot sign in
 - · [9551](https://tbpro.zendesk.com/agent/tickets/9551) · 2026-10-12T21:01 · won't complete account setup
 - · [8650](https://tbpro.zendesk.com/agent/tickets/8650) · 2026-10-12T21:01 · thundermail, hover, and earthlink/mindspring with 5 aliases order of getting it all to thundermail
