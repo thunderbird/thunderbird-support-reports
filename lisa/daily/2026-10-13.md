@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 07:25 ET** · refreshes hourly_  
+_Updated: **2026-10-13 08:39 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **728 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **732 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
-- **728** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **15** solved in last 24h
+- **732** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
-- **Median AHT**: 135.0h · mean 171.6h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 150.2h · mean 174.9h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 11 problem(s), 92 incident(s)
 
@@ -231,16 +231,16 @@ _(none in last 24h)_
 
 - **closed**: 595
 - **solved**: 58
-- **pending**: 46
+- **pending**: 45
 - **hold**: 17
-- **open**: 9
-- **new**: 3
+- **open**: 11
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 411
-- **Thundermail**: 255
-- **Send**: 14
+- **Thundermail**: 258
+- **Send**: 15
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -256,7 +256,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 31
 - **confused** + **informed**: 30
 - **blocked** + **redirected**: 26
-- **concerned** + **explained**: 24
+- **concerned** + **explained**: 25
 - **blocked** + **escalated**: 15
 - **blocked** + **informed**: 14
 - **concerned** + **—**: 7
@@ -301,17 +301,31 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Spam / Junk Filtering — 2 tickets
+### Spam / Junk Filtering — 3 tickets
 
+- **[#9986](https://tbpro.zendesk.com/agent/tickets/9986)** · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
+  > I’ve noticed that emails sent from a [domain] alias are still being filtered into the spam folder by Gmail. This makes me decide not to use this account for my business…
 - **[#9983](https://tbpro.zendesk.com/agent/tickets/9983)** · I forgot the password for my Thundermail account.
   > Hello, I forgot the password for my Thundermail account. I used the “Forgot password” option and the website confirmed that recovery instructions were sent to my recovery email,…
 - **[#9982](https://tbpro.zendesk.com/agent/tickets/9982)** · verification of email does not work trying to sign up for your early bird thunderbird account
   > filled out all the fields but when it came to you must verify your email at the end which I suppose is the maria,taylor email above it did not give me a field to repeat that email
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#9988](https://tbpro.zendesk.com/agent/tickets/9988)** · password
+  > vergotten
 - **[#9980](https://tbpro.zendesk.com/agent/tickets/9980)** · メ－ルの設定
   > 今まで使用していたｐｃが突然、作動しなくなり、最初からの設定で、従来使用していたＰＷを入力してもＰＷが違うと表示される。対処法を教えてください。
+
+### Account access issues — 1 tickets
+
+- **[#9989](https://tbpro.zendesk.com/agent/tickets/9989)** · Thunderbird email
+  > My password is not recognised. Reset email requested but fails to arrive so I remain unable to sign in.
+
+### Send (file sharing) — 1 tickets
+
+- **[#9984](https://tbpro.zendesk.com/agent/tickets/9984)** · Re: [Thundermail] Re: Send — why: **concerned** · how: **explained**
+  > This is a follow-up to your previous request #8284 "Send" Hi, Rocky, I hope you don't mind me contacting you again, but I notice I still cannot use the Send function. It still…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -324,6 +338,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9980](https://tbpro.zendesk.com/agent/tickets/9980) · [new] · 2026-10-13T00:51 · メ－ルの設定
 - [9982](https://tbpro.zendesk.com/agent/tickets/9982) · [new] · 2026-10-13T06:14 · verification of email does not work trying to sign up for your early bird thunderbird account
 - [9983](https://tbpro.zendesk.com/agent/tickets/9983) · [new] · 2026-10-13T09:13 · I forgot the password for my Thundermail account.
+- [9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13T11:30 · Re: [Thundermail] Re: Send
+- [9986](https://tbpro.zendesk.com/agent/tickets/9986) · [new] · 2026-10-13T11:40 · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
+- [9988](https://tbpro.zendesk.com/agent/tickets/9988) · [new] · 2026-10-13T12:25 · password
+- [9989](https://tbpro.zendesk.com/agent/tickets/9989) · [new] · 2026-10-13T12:34 · Thunderbird email
 
 ## Solved — last 24h
 
@@ -338,6 +356,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9541](https://tbpro.zendesk.com/agent/tickets/9541) · 2026-10-13T00:01 · varies
 - · [9544](https://tbpro.zendesk.com/agent/tickets/9544) · 2026-10-13T01:01 · Suggestion for Email aliases section
 - · [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-13T01:34 · Re: You're Invited: Thundermail Early Bird Access
+- · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-13T12:25 · Email Account versus Alias
+- · [9483](https://tbpro.zendesk.com/agent/tickets/9483) · 2026-10-13T12:32 · Account deletion and refund
+- · [9508](https://tbpro.zendesk.com/agent/tickets/9508) · 2026-10-13T12:35 · Delete Account
+- · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-13T12:36 · cancel my subscription to start over
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
