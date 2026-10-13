@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 18:20 ET** · refreshes hourly_  
+_Updated: **2026-10-13 19:18 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **737 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **32** solved in last 24h
+- **11** new tickets in last 24h · **31** solved in last 24h
 - **737** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
-- **Median AHT**: 140.0h · mean 172.4h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 140.0h · mean 170.3h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 12 problem(s), 95 incident(s)
 
@@ -103,7 +103,7 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **737 tickets** so fa
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
-  - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [pending] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
+  - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [solved] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [solved] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [pending] · 2026-10-08 · _Delete my data and unsubscribe from the service_
@@ -236,11 +236,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 600
-- **solved**: 66
-- **pending**: 48
+- **closed**: 601
+- **solved**: 68
+- **pending**: 44
 - **hold**: 17
-- **open**: 6
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -373,7 +373,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9541](https://tbpro.zendesk.com/agent/tickets/9541) · 2026-10-13T00:01 · varies
 - · [9544](https://tbpro.zendesk.com/agent/tickets/9544) · 2026-10-13T01:01 · Suggestion for Email aliases section
 - · [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-13T01:34 · Re: You're Invited: Thundermail Early Bird Access
-- · [9449](https://tbpro.zendesk.com/agent/tickets/9449) · 2026-10-13T12:25 · Email Account versus Alias
 - · [9483](https://tbpro.zendesk.com/agent/tickets/9483) · 2026-10-13T12:32 · Account deletion and refund
 - · [9508](https://tbpro.zendesk.com/agent/tickets/9508) · 2026-10-13T12:35 · Delete Account
 - · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-13T12:36 · cancel my subscription to start over
