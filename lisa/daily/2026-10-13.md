@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 04:37 ET** · refreshes hourly_  
+_Updated: **2026-10-13 05:31 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **727 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **728 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **11** solved in last 24h
-- **727** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **728** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
@@ -234,11 +234,11 @@ _(none in last 24h)_
 - **pending**: 46
 - **hold**: 17
 - **open**: 9
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 410
+- **Account Hub**: 411
 - **Thundermail**: 255
 - **Send**: 14
 - **Appointment**: 9
@@ -301,8 +301,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Spam / Junk Filtering — 1 tickets
+### Spam / Junk Filtering — 2 tickets
 
+- **[#9983](https://tbpro.zendesk.com/agent/tickets/9983)** · I forgot the password for my Thundermail account.
+  > Hello, I forgot the password for my Thundermail account. I used the “Forgot password” option and the website confirmed that recovery instructions were sent to my recovery email,…
 - **[#9982](https://tbpro.zendesk.com/agent/tickets/9982)** · verification of email does not work trying to sign up for your early bird thunderbird account
   > filled out all the fields but when it came to you must verify your email at the end which I suppose is the maria,taylor email above it did not give me a field to repeat that email
 
@@ -321,6 +323,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9960](https://tbpro.zendesk.com/agent/tickets/9960) · [open] · 2026-10-12T22:51 · Waitlist/create account
 - [9980](https://tbpro.zendesk.com/agent/tickets/9980) · [new] · 2026-10-13T00:51 · メ－ルの設定
 - [9982](https://tbpro.zendesk.com/agent/tickets/9982) · [new] · 2026-10-13T06:14 · verification of email does not work trying to sign up for your early bird thunderbird account
+- [9983](https://tbpro.zendesk.com/agent/tickets/9983) · [new] · 2026-10-13T09:13 · I forgot the password for my Thundermail account.
 
 ## Solved — last 24h
 
