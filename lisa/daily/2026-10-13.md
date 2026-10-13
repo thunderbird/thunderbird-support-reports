@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 13:23 ET** · refreshes hourly_  
+_Updated: **2026-10-13 14:32 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **737 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **28** solved in last 24h
-- **736** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **29** solved in last 24h
+- **737** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
-- **Median AHT**: 140.0h · mean 172.5h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 140.0h · mean 173.6h (proxy: updated_at − created_at, 65 solved tickets)
 
-## Known problems — 11 problem(s), 92 incident(s)
+## Known problems — 12 problem(s), 94 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 76 incident(s):
+- 77 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -99,6 +99,7 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so fa
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [closed] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
+  - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05 · _Thundermail account cancellation and refund_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
@@ -149,6 +150,10 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **736 tickets** so fa
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 1 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [hold] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
+
+### [#10005](https://tbpro.zendesk.com/agent/tickets/10005) · [hold] · [thunderbird-accounts/200] Deleted aliases come right back
+- 1 incident(s):
+  - [#10004](https://tbpro.zendesk.com/agent/tickets/10004) · [hold] · 2026-10-13 · _Help, this thing isn't working (sample bug report)_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -222,23 +227,23 @@ _(none in last 24h)_
 
 **Last 24h** — 2 new:
 
-- [Regular emails with tips on how to best use Thundermail in a browser](https://ideas.tb.pro/p/regular-emails-with-tips-on-how-to-best-use-thundermail-in-a-browser) · 1 votes · _untagged_
+- [Regular emails with tips on how to best use Thundermail in a browser](https://ideas.tb.pro/p/regular-emails-with-tips-on-how-to-best-use-thundermail-in-a-browser) · 1 votes · _Send, Thundermail, Appointment, Community_
   > What you’d like to seeI would like to receive regular emails with tips on how I can best use Thundermail in a browser.Why it mattersIt would speed up learning.Your use caseThese regular emails would…
-- [Tips when using Thundermail in a browser](https://ideas.tb.pro/p/tips-when-using-thundermail-in-a-browser) · 1 votes · _untagged_
+- [Tips when using Thundermail in a browser](https://ideas.tb.pro/p/tips-when-using-thundermail-in-a-browser) · 1 votes · _Send, Thundermail, Appointment, New Feature, Community, Webmail_
   > What you’d like to seeIt would be good to get appropriate Tips when using Thundermail in a browser that relate to how you are using it at that time.Why it mattersIt would speed up learning about…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 596
-- **solved**: 67
+- **closed**: 599
+- **solved**: 65
 - **pending**: 47
-- **hold**: 15
-- **open**: 11
+- **hold**: 16
+- **open**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 414
-- **Thundermail**: 258
+- **Thundermail**: 260
 - **Send**: 15
 - **Appointment**: 9
 
@@ -255,7 +260,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 31
 - **confused** + **informed**: 30
 - **blocked** + **redirected**: 28
-- **concerned** + **explained**: 25
+- **concerned** + **explained**: 26
 - **blocked** + **escalated**: 15
 - **blocked** + **informed**: 15
 - **concerned** + **—**: 7
@@ -263,6 +268,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **explained**: 6
 - **change request** + **explained**: 5
 - **concerned** + **investigated**: 5
+- **concerned** + **escalated**: 5
 - **request** + **explained**: 4
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
@@ -270,7 +276,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 4
 - **change request** + **escalated**: 3
 - **curious** + **—**: 3
-- **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
@@ -300,6 +305,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 4 tickets
+
+- **[#9998](https://tbpro.zendesk.com/agent/tickets/9998)** · couldn't add an alias
+  > Is there a reason why I could not add the alias [email]? It just says it is not allowed. Regardless, thank you!
+- **[#10005](https://tbpro.zendesk.com/agent/tickets/10005)** · [thunderbird-accounts/200] Deleted aliases come right back — why: **concerned** · how: **escalated**
+  > 1. go to [domain] 2. scroll to aliases 3. delete one 4. save 5. hard refresh 6. see it's back 7. no console errors noted
+- **[#10004](https://tbpro.zendesk.com/agent/tickets/10004)** · Help, this thing isn't working (sample bug report) — why: **concerned** · how: **escalated**
+  > ignore me
+- **[#9996](https://tbpro.zendesk.com/agent/tickets/9996)** · Delete alias — why: **confused** · how: **explained**
+  > How to delete an alias. There doesn't seem to be a method to delete an alias ?
+
 ### Account access issues — Account Hub trouble — 4 tickets
 
 - **[#9993](https://tbpro.zendesk.com/agent/tickets/9993)** · thundermail not set up or working properly. — why: **blocked** · how: **informed**
@@ -311,24 +327,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#9983](https://tbpro.zendesk.com/agent/tickets/9983)** · I forgot the password for my Thundermail account. — why: **blocked** · how: **explained**
   > Hello, I forgot the password for my Thundermail account. I used the “Forgot password” option and the website confirmed that recovery instructions were sent to my recovery email,…
 
-### Aliases — 2 tickets
-
-- **[#9998](https://tbpro.zendesk.com/agent/tickets/9998)** · couldn't add an alias
-  > Is there a reason why I could not add the alias [email]? It just says it is not allowed. Regardless, thank you!
-- **[#9996](https://tbpro.zendesk.com/agent/tickets/9996)** · Delete alias — why: **confused** · how: **explained**
-  > How to delete an alias. There doesn't seem to be a method to delete an alias ?
-
 ### Spam / Junk Filtering — 2 tickets
 
-- **[#9986](https://tbpro.zendesk.com/agent/tickets/9986)** · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
+- **[#9986](https://tbpro.zendesk.com/agent/tickets/9986)** · email sent from [domain] (and maybe [domain]) still goes to spam in gmail — why: **concerned** · how: **explained**
   > I’ve noticed that emails sent from a [domain] alias are still being filtered into the spam folder by Gmail. This makes me decide not to use this account for my business…
 - **[#9982](https://tbpro.zendesk.com/agent/tickets/9982)** · verification of email does not work trying to sign up for your early bird thunderbird account — why: **blocked**
   > filled out all the fields but when it came to you must verify your email at the end which I suppose is the maria,taylor email above it did not give me a field to repeat that email
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#10004](https://tbpro.zendesk.com/agent/tickets/10004)** · Help, this thing isn't working (sample bug report)
-  > ignore me
 
 ### Send (file sharing) — 1 tickets
 
@@ -358,7 +362,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9993](https://tbpro.zendesk.com/agent/tickets/9993) · [open] · 2026-10-13T14:16 · thundermail not set up or working properly.
 - [9996](https://tbpro.zendesk.com/agent/tickets/9996) · [pending] · 2026-10-13T15:25 · Delete alias
 - [9998](https://tbpro.zendesk.com/agent/tickets/9998) · [open] · 2026-10-13T16:24 · couldn't add an alias
-- [10004](https://tbpro.zendesk.com/agent/tickets/10004) · [open] · 2026-10-13T17:00 · Help, this thing isn't working (sample bug report)
+- [10004](https://tbpro.zendesk.com/agent/tickets/10004) · [hold] · 2026-10-13T17:00 · Help, this thing isn't working (sample bug report)
+- [10005](https://tbpro.zendesk.com/agent/tickets/10005) · [hold] · 2026-10-13T17:23 · [thunderbird-accounts/200] Deleted aliases come right back
 
 ## Solved — last 24h
 
@@ -390,6 +395,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9569](https://tbpro.zendesk.com/agent/tickets/9569) · 2026-10-13T17:02 · Cancel and Refund
 - · [9553](https://tbpro.zendesk.com/agent/tickets/9553) · 2026-10-13T17:02 · How to update account profile
 - · [9517](https://tbpro.zendesk.com/agent/tickets/9517) · 2026-10-13T17:02 · forgotten password
+- · [9550](https://tbpro.zendesk.com/agent/tickets/9550) · 2026-10-13T18:02 · Payment screen freezes
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
