@@ -1,27 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-10-12
+# Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-12 23:33 ET** · refreshes hourly_  
-_24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-13 00:33 ET** · refreshes hourly_  
+_24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 64** of rollout — **35,000 invitees**, **726 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
+Flight 8 is **day 65** of rollout — **35,000 invitees**, **726 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **11 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **16** solved in last 24h
+- **2** new tickets in last 24h · **11** solved in last 24h
 - **726** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
 - **Median AHT**: 135.0h · mean 171.6h (proxy: updated_at − created_at, 58 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"send invitation"** — 2 tickets in 24h (126.0× baseline; baseline 1 cum) — [#9670](https://tbpro.zendesk.com/agent/tickets/9670), [#9806](https://tbpro.zendesk.com/agent/tickets/9806)
-- **"best regards"** — 2 tickets in 24h (4.5× baseline; baseline 28 cum) — [#9670](https://tbpro.zendesk.com/agent/tickets/9670), [#9807](https://tbpro.zendesk.com/agent/tickets/9807)
 
 ## Known problems — 11 problem(s), 92 incident(s)
 
@@ -227,10 +220,12 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
-- [Disposable Emails (Masked Aliases) with 1Password Integration](https://ideas.tb.pro/p/disposable-emails-masked-aliases-with-1password-integration) · 1 votes · _untagged_
-  > What you’d like to seeThe ability to generate unique, disposable email aliases that forward to my Thundermail inbox, and that I can create, pause, or delete at any time. Ideally these could be…
+- [Regular emails with tips on how to best use Thundermail in a browser](https://ideas.tb.pro/p/regular-emails-with-tips-on-how-to-best-use-thundermail-in-a-browser) · 1 votes · _untagged_
+  > What you’d like to seeI would like to receive regular emails with tips on how I can best use Thundermail in a browser.Why it mattersIt would speed up learning.Your use caseThese regular emails would…
+- [Tips when using Thundermail in a browser](https://ideas.tb.pro/p/tips-when-using-thundermail-in-a-browser) · 1 votes · _untagged_
+  > What you’d like to seeIt would be good to get appropriate Tips when using Thundermail in a browser that relate to how you are using it at that time.Why it mattersIt would speed up learning about…
 
 ## Status breakdown (cumulative)
 
@@ -306,63 +301,34 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias? — why: **confused** · how: **explained**
-  > How do I delete an e-mail alias? I did it in Thunderbird, but it still shows in my settings viewed in Firefox.
-- **[#9806](https://tbpro.zendesk.com/agent/tickets/9806)** · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current provider 11-16-2026. — why: **concerned** · how: **escalated**
-  > Hello, we are losing our current email service on 11-16-2026. So, I, Curtis Rice, followed up on an “invitation” email received from Thundermail back in June. Instead of her using…
-
-### Account access issues — Account Hub trouble — 2 tickets
-
-- **[#9670](https://tbpro.zendesk.com/agent/tickets/9670)** · Expired Thundermail beta invitation link – request for a new one — why: **curious** · how: **explained**
-  > Hello, I joined the Thunderbird Pro waitlist and received an invitation to the Thundermail beta at this email address. Unfortunately, I did not complete the sign-up in time and…
-- **[#9668](https://tbpro.zendesk.com/agent/tickets/9668)** · Mot de passe perdu — why: **blocked** · how: **explained**
-  > Mot de passe perdu et impossible à retrouver
+- **[#9980](https://tbpro.zendesk.com/agent/tickets/9980)** · メ－ルの設定
+  > 今まで使用していたｐｃが突然、作動しなくなり、最初からの設定で、従来使用していたＰＷを入力してもＰＷが違うと表示される。対処法を教えてください。
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#9807](https://tbpro.zendesk.com/agent/tickets/9807)** · Re: [Thundermail] Re: Money Back Option — why: **curious** · how: **explained**
-  > This is a follow-up to your previous request #9357 "Money Back Option" Hi [name], Greetings from India. Hope you are doing great. I'm back from my holidays and was trying to use…
-
-### Webmail — 1 tickets
-
-- **[#9810](https://tbpro.zendesk.com/agent/tickets/9810)** · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. — why: **other** · how: **escalated** · 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
-  > **Summary:** All emails forwarded through Firefox Relay are going to spam, regardless of the content of the email or if the sender has tried to whitelist the message previously.…
-
-### Other / uncategorized — 1 tickets
-
-- **[#9661](https://tbpro.zendesk.com/agent/tickets/9661)** · Please delete my Thunderbird Pro Account — why: **change request** · how: **actioned**
-  > Hi, I am requesting deletion of my Thunderbird Pro account
+- **[#9960](https://tbpro.zendesk.com/agent/tickets/9960)** · Waitlist/create account
+  > Hi! I am migrating my Google and Microsoft apps to open source alternatives and I would like to create a Thundermail or enter the waitlist but the page is blank after entering my…
 
 ## New tickets — last 24h
 
-- [9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12T02:08 · Please delete my Thunderbird Pro Account
-- [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [open] · 2026-10-12T03:26 · How to delete an alias?
-- [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [pending] · 2026-10-12T09:13 · Mot de passe perdu
-- [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
-- [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [pending] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
-- [9807](https://tbpro.zendesk.com/agent/tickets/9807) · [open] · 2026-10-12T18:18 · Re: [Thundermail] Re: Money Back Option
-- [9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · 2026-10-12T19:54 · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
+- [9960](https://tbpro.zendesk.com/agent/tickets/9960) · [open] · 2026-10-12T22:51 · Waitlist/create account
+- [9980](https://tbpro.zendesk.com/agent/tickets/9980) · [new] · 2026-10-13T00:51 · メ－ルの設定
 
 ## Solved — last 24h
 
-- · [9295](https://tbpro.zendesk.com/agent/tickets/9295) · 2026-10-11T21:01 · I got your Join The Early Bird Beta email but no authentication email received
-- · [9505](https://tbpro.zendesk.com/agent/tickets/9505) · 2026-10-11T21:01 · Aliases not showing up
-- · [9448](https://tbpro.zendesk.com/agent/tickets/9448) · 2026-10-12T00:01 · ricing feedback: Suggesting a softer entry point
-- · [9604](https://tbpro.zendesk.com/agent/tickets/9604) · 2026-10-12T13:21 · SRV records for custom domain
-- · [9186](https://tbpro.zendesk.com/agent/tickets/9186) · 2026-10-12T13:29 · Unable to reset password
-- 👍 [9554](https://tbpro.zendesk.com/agent/tickets/9554) · 2026-10-12T13:38 · just creating a new account - question about login to web UI
-- · [9528](https://tbpro.zendesk.com/agent/tickets/9528) · 2026-10-12T16:01 · Shared custom domain
-- · [9526](https://tbpro.zendesk.com/agent/tickets/9526) · 2026-10-12T16:01 · faire fonctionner IMAP sur thunderbird
-- · [9372](https://tbpro.zendesk.com/agent/tickets/9372) · 2026-10-12T16:27 · Hello
-- · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-12T17:01 · cancel my subscription to start over
-- 👍 [9570](https://tbpro.zendesk.com/agent/tickets/9570) · 2026-10-12T17:24 · Webmail
-- · [9524](https://tbpro.zendesk.com/agent/tickets/9524) · 2026-10-12T17:35 · Help with something else - je suis abonné à thunderbird bêta early bird
-- · [9539](https://tbpro.zendesk.com/agent/tickets/9539) · 2026-10-12T18:01 · Anmeldung
-- · [9555](https://tbpro.zendesk.com/agent/tickets/9555) · 2026-10-12T18:20 · Mailbox setup
-- · [9577](https://tbpro.zendesk.com/agent/tickets/9577) · 2026-10-12T18:23 · Thundermail Waitlist
-- · [9620](https://tbpro.zendesk.com/agent/tickets/9620) · 2026-10-12T18:53 · I received an invite to join the beta release of thundermail, but not working
+- · [9515](https://tbpro.zendesk.com/agent/tickets/9515) · 2026-10-12T20:01 · Cancel + refund?
+- · [9480](https://tbpro.zendesk.com/agent/tickets/9480) · 2026-10-12T20:01 · Domain blocked from receiving emails
+- · [9643](https://tbpro.zendesk.com/agent/tickets/9643) · 2026-10-12T20:25 · Unable to add custom domain
+- · [9552](https://tbpro.zendesk.com/agent/tickets/9552) · 2026-10-12T21:01 · Cannot sign in
+- · [9551](https://tbpro.zendesk.com/agent/tickets/9551) · 2026-10-12T21:01 · won't complete account setup
+- · [8650](https://tbpro.zendesk.com/agent/tickets/8650) · 2026-10-12T21:01 · thundermail, hover, and earthlink/mindspring with 5 aliases order of getting it all to thundermail
+- · [9538](https://tbpro.zendesk.com/agent/tickets/9538) · 2026-10-12T22:01 · Confused
+- · [9425](https://tbpro.zendesk.com/agent/tickets/9425) · 2026-10-12T22:01 · move Alias to Account
+- · [9541](https://tbpro.zendesk.com/agent/tickets/9541) · 2026-10-13T00:01 · varies
+- · [9544](https://tbpro.zendesk.com/agent/tickets/9544) · 2026-10-13T01:01 · Suggestion for Email aliases section
+- · [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-13T01:34 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
