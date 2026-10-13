@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-12
 
-_Updated: **2026-10-12 21:06 ET** · refreshes hourly_  
+_Updated: **2026-10-12 21:49 ET** · refreshes hourly_  
 _24h window: 2026-10-11T16:00 → 2026-10-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 64** of rollout — **35,000 invitees**, **726 tickets** so fa
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (159 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 75
-- **Median AHT**: 138.9h · mean 173.6h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 137.8h · mean 172.0h (proxy: updated_at − created_at, 59 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -235,16 +235,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 594
-- **solved**: 58
-- **pending**: 46
+- **solved**: 59
+- **pending**: 48
 - **hold**: 17
-- **open**: 10
+- **open**: 7
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 409
-- **Thundermail**: 255
+- **Account Hub**: 410
+- **Thundermail**: 254
 - **Send**: 14
 - **Appointment**: 9
 
@@ -276,6 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 4
 - **change request** + **escalated**: 3
 - **curious** + **—**: 3
+- **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **other** + **n/a**: 2
 - **confused** + **escalated**: 2
@@ -286,7 +287,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **escalated**: 2
 - **concerned** + **redirected**: 2
 - **curious** + **investigated**: 2
-- **concerned** + **escalated**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
@@ -308,10 +308,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 2 tickets
 
-- **[#9806](https://tbpro.zendesk.com/agent/tickets/9806)** · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current provider 11-16-2026.
-  > Hello, we are losing our current email service on 11-16-2026. So, I, Curtis Rice, followed up on an “invitation” email received from Thundermail back in June. Instead of her using…
 - **[#9664](https://tbpro.zendesk.com/agent/tickets/9664)** · How to delete an alias? — why: **confused** · how: **explained**
   > How do I delete an e-mail alias? I did it in Thunderbird, but it still shows in my settings viewed in Firefox.
+- **[#9806](https://tbpro.zendesk.com/agent/tickets/9806)** · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current provider 11-16-2026. — why: **concerned** · how: **escalated**
+  > Hello, we are losing our current email service on 11-16-2026. So, I, Curtis Rice, followed up on an “invitation” email received from Thundermail back in June. Instead of her using…
 
 ### Account access issues — Account Hub trouble — 2 tickets
 
@@ -341,7 +341,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [9664](https://tbpro.zendesk.com/agent/tickets/9664) · [open] · 2026-10-12T03:26 · How to delete an alias?
 - [9668](https://tbpro.zendesk.com/agent/tickets/9668) · [pending] · 2026-10-12T09:13 · Mot de passe perdu
 - [9670](https://tbpro.zendesk.com/agent/tickets/9670) · [pending] · 2026-10-12T10:22 · Expired Thundermail beta invitation link – request for a new one
-- [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [open] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
+- [9806](https://tbpro.zendesk.com/agent/tickets/9806) · [pending] · 2026-10-12T18:09 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
 - [9807](https://tbpro.zendesk.com/agent/tickets/9807) · [pending] · 2026-10-12T18:18 · Re: [Thundermail] Re: Money Back Option
 - [9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · 2026-10-12T19:54 · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay. 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
 
