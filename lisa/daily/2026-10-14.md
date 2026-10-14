@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 09:22 ET** · refreshes hourly_  
+_Updated: **2026-10-14 10:23 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 66** of rollout — **35,000 invitees**, **744 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **747 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **6** solved in last 24h
-- **744** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **7** solved in last 24h
+- **747** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
-- **Median AHT**: 140.0h · mean 170.6h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 140.0h · mean 171.0h (proxy: updated_at − created_at, 68 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"went through"** — 2 tickets in 24h (26.0× baseline; baseline 5 cum) — [#10027](https://tbpro.zendesk.com/agent/tickets/10027), [#10029](https://tbpro.zendesk.com/agent/tickets/10029)
 
 ## Known problems — 12 problem(s), 95 incident(s)
 
@@ -236,16 +242,16 @@ _(none in last 24h)_
 
 - **closed**: 601
 - **solved**: 68
-- **pending**: 43
+- **pending**: 44
 - **hold**: 17
 - **open**: 10
-- **new**: 5
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 417
-- **Thundermail**: 264
-- **Send**: 15
+- **Thundermail**: 266
+- **Send**: 16
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -306,6 +312,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 4 tickets
+
+- **[#10032](https://tbpro.zendesk.com/agent/tickets/10032)** · Send files
+  > I am unable to upload files to "Send". I tried with Firefox and Chrome.
+- **[#10031](https://tbpro.zendesk.com/agent/tickets/10031)** · My Thundermail address is waiting
+  > I neither have a PayPal account nor do I own a credit card! How about a SEPA-Lastschrift?
+- **[#10026](https://tbpro.zendesk.com/agent/tickets/10026)** · email
+  > Need to update password to sign into my email a/c.
+- **[#10023](https://tbpro.zendesk.com/agent/tickets/10023)** · Close account
+  > I'd like to close/delete my email account please. I'm still within the 14 days will I be refunded my money back as well please
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10028](https://tbpro.zendesk.com/agent/tickets/10028)** · Payment
@@ -320,12 +337,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10022](https://tbpro.zendesk.com/agent/tickets/10022)** · Cost of Early Bird Beta
   > Dear [name], I would like to know whether I will be rejected from Thunderbird if I don't subscribe to Early Bird Beta. What is the cost of Early Bird Beta. Thanks for your help.…
 
-### Other / uncategorized — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#10026](https://tbpro.zendesk.com/agent/tickets/10026)** · email
-  > Need to update password to sign into my email a/c.
-- **[#10023](https://tbpro.zendesk.com/agent/tickets/10023)** · Close account
-  > I'd like to close/delete my email account please. I'm still within the 14 days will I be refunded my money back as well please
+- **[#10029](https://tbpro.zendesk.com/agent/tickets/10029)** · Invalid username or password after accepting invite
+  > I accepted my invite back in June, registered a username and password, and wanted to look into pricing today as my M365 renewal is coming around, and I've been on the fence about…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -348,11 +363,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [open] · 2026-10-13T21:23 · Switching to Thundermail
 - [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
 - [10022](https://tbpro.zendesk.com/agent/tickets/10022) · [new] · 2026-10-14T07:31 · Cost of Early Bird Beta
-- [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [new] · 2026-10-14T07:56 · Close account
+- [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [open] · 2026-10-14T07:56 · Close account
 - [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [open] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 - [10026](https://tbpro.zendesk.com/agent/tickets/10026) · [new] · 2026-10-14T10:20 · email
 - [10027](https://tbpro.zendesk.com/agent/tickets/10027) · [new] · 2026-10-14T11:10 · Waitlist registration confirmation
 - [10028](https://tbpro.zendesk.com/agent/tickets/10028) · [new] · 2026-10-14T12:18 · Payment
+- [10029](https://tbpro.zendesk.com/agent/tickets/10029) · [new] · 2026-10-14T13:28 · Invalid username or password after accepting invite
+- [10031](https://tbpro.zendesk.com/agent/tickets/10031) · [new] · 2026-10-14T14:09 · My Thundermail address is waiting
+- [10032](https://tbpro.zendesk.com/agent/tickets/10032) · [new] · 2026-10-14T14:15 · Send files
 
 ## Solved — last 24h
 
@@ -362,6 +380,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9557](https://tbpro.zendesk.com/agent/tickets/9557) · 2026-10-13T23:01 · Use of new service for new company
 - · [9556](https://tbpro.zendesk.com/agent/tickets/9556) · 2026-10-13T23:01 · Refund Request Due to Ongoing Email Deliverability Issues
 - · [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-14T02:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [9633](https://tbpro.zendesk.com/agent/tickets/9633) · 2026-10-14T14:01 · Convert Email Alias to Account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
