@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 13:20 ET** · refreshes hourly_  
+_Updated: **2026-10-14 14:32 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 66** of rollout — **35,000 invitees**, **751 tickets** so fa
 
 ## At a glance
 
-- **16** new tickets in last 24h · **13** solved in last 24h
+- **16** new tickets in last 24h · **17** solved in last 24h
 - **751** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (163 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
-- **Median AHT**: 140.7h · mean 169.7h (proxy: updated_at − created_at, 72 solved tickets)
+- **Median AHT**: 138.9h · mean 166.7h (proxy: updated_at − created_at, 76 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -242,11 +242,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 601
-- **solved**: 72
+- **solved**: 76
 - **pending**: 42
-- **hold**: 19
-- **open**: 16
-- **new**: 1
+- **hold**: 20
+- **open**: 12
 
 ## Service (cumulative)
 
@@ -261,12 +260,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 158
 - **change request** + **actioned**: 105
-- **blocked** + **explained**: 98
+- **blocked** + **explained**: 99
 - **confused** + **explained**: 54
 - **curious** + **informed**: 40
 - **blocked** + **investigated**: 35
+- **request** + **redirected**: 32
 - **confused** + **informed**: 32
-- **request** + **redirected**: 31
 - **blocked** + **redirected**: 28
 - **concerned** + **explained**: 26
 - **blocked** + **escalated**: 15
@@ -274,7 +273,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **—**: 7
 - **blocked** + **—**: 7
 - **telling us** + **explained**: 6
-- **change request** + **explained**: 5
+- **change request** + **explained**: 6
 - **concerned** + **investigated**: 5
 - **request** + **explained**: 4
 - **curious** + **actioned**: 4
@@ -319,21 +318,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Is there a way to create a signature block on the web based email. I check my mail at work and respond but don't see anywhere to create a signature block. Thanks
 - **[#10036](https://tbpro.zendesk.com/agent/tickets/10036)** · Changed email provider from icloud ([domain])  to thundermail has caused chaos
   > Your email bounced and I have now tried to make a separate account from my previous [domain] one, just for thundermaail. But am having little success
-- **[#10032](https://tbpro.zendesk.com/agent/tickets/10032)** · Send files
-  > I am unable to upload files to "Send". I tried with Firefox and Chrome.
 - **[#10031](https://tbpro.zendesk.com/agent/tickets/10031)** · My Thundermail address is waiting
   > I neither have a PayPal account nor do I own a credit card! How about a SEPA-Lastschrift?
+- **[#10032](https://tbpro.zendesk.com/agent/tickets/10032)** · Send files — why: **blocked** · how: **explained**
+  > I am unable to upload files to "Send". I tried with Firefox and Chrome.
 - **[#10023](https://tbpro.zendesk.com/agent/tickets/10023)** · Close account — why: **change request** · how: **actioned**
   > I'd like to close/delete my email account please. I'm still within the 14 days will I be refunded my money back as well please
 
-### Subscription / billing / refund / cancel — 4 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#10039](https://tbpro.zendesk.com/agent/tickets/10039)** · Rétractation abonnement.
   > I made an impulse decision to subscribe to a plan this morning, but I would like to cancel it and get a refund, as I won't have any use for this service. Could you let me know the…
 - **[#10033](https://tbpro.zendesk.com/agent/tickets/10033)** · payement
   > les cases du payment ne fonctionnent pas
-- **[#10028](https://tbpro.zendesk.com/agent/tickets/10028)** · Payment
-  > Do you accept Bitcoin payments? If not, please cancel and shut down this account and delete all data.
 - **[#10009](https://tbpro.zendesk.com/agent/tickets/10009)** · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts — why: **confused** · how: **informed** · 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
   > Summary Apple Contacts on macOS shows zero Thundermail contacts when syncing over CardDAV. Webmail shows the contacts. Root cause (engineering, Oct 12) Stalwart 0.15, which we run…
 
@@ -352,10 +349,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10018](https://tbpro.zendesk.com/agent/tickets/10018)** · Alias transfer
   > Hello, I've recently subscribed to Thundermail and have a question about email aliases. If I delete an alias, does that address become available for another user to register, or…
 
-### Email migration / import — 1 tickets
+### Pricing — payment issue — 1 tickets
 
-- **[#10012](https://tbpro.zendesk.com/agent/tickets/10012)** · Switching to Thundermail
-  > Hi [name] team, I received the invite and am definitely interested in switching from Fastmail / Protonmail to Thundermail but, upon quick glance I don’t see guidance on porting an…
+- **[#10028](https://tbpro.zendesk.com/agent/tickets/10028)** · Payment — why: **change request** · how: **explained**
+  > Do you accept Bitcoin payments? If not, please cancel and shut down this account and delete all data.
 
 ### Early bird signup — 1 tickets
 
@@ -372,23 +369,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10024](https://tbpro.zendesk.com/agent/tickets/10024)** · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail — why: **curious** · how: **investigated**
   > This is a follow-up to your previous request #9184 "Pre-enrollment privacy ques..." Hi [name], Thank you very much to you and the other staff members who helped answer my…
 
+### Email migration / import — 1 tickets
+
+- **[#10012](https://tbpro.zendesk.com/agent/tickets/10012)** · Switching to Thundermail — why: **request** · how: **redirected**
+  > Hi [name] team, I received the invite and am definitely interested in switching from Fastmail / Protonmail to Thundermail but, upon quick glance I don’t see guidance on porting an…
+
 ## New tickets — last 24h
 
 - [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
-- [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [open] · 2026-10-13T21:23 · Switching to Thundermail
+- [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [pending] · 2026-10-13T21:23 · Switching to Thundermail
 - [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
 - [10022](https://tbpro.zendesk.com/agent/tickets/10022) · [open] · 2026-10-14T07:31 · Cost of Early Bird Beta
 - [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [solved] · 2026-10-14T07:56 · Close account
 - [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [hold] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 - [10026](https://tbpro.zendesk.com/agent/tickets/10026) · [pending] · 2026-10-14T10:20 · email
 - [10027](https://tbpro.zendesk.com/agent/tickets/10027) · [pending] · 2026-10-14T11:10 · Waitlist registration confirmation
-- [10028](https://tbpro.zendesk.com/agent/tickets/10028) · [open] · 2026-10-14T12:18 · Payment
+- [10028](https://tbpro.zendesk.com/agent/tickets/10028) · [pending] · 2026-10-14T12:18 · Payment
 - [10029](https://tbpro.zendesk.com/agent/tickets/10029) · [open] · 2026-10-14T13:28 · Invalid username or password after accepting invite
 - [10031](https://tbpro.zendesk.com/agent/tickets/10031) · [open] · 2026-10-14T14:09 · My Thundermail address is waiting
-- [10032](https://tbpro.zendesk.com/agent/tickets/10032) · [open] · 2026-10-14T14:15 · Send files
+- [10032](https://tbpro.zendesk.com/agent/tickets/10032) · [hold] · 2026-10-14T14:15 · Send files
 - [10033](https://tbpro.zendesk.com/agent/tickets/10033) · [open] · 2026-10-14T14:47 · payement
 - [10036](https://tbpro.zendesk.com/agent/tickets/10036) · [open] · 2026-10-14T16:04 · Changed email provider from icloud ([domain])  to thundermail has caused chaos
-- [10038](https://tbpro.zendesk.com/agent/tickets/10038) · [new] · 2026-10-14T16:15 · Signature Block
+- [10038](https://tbpro.zendesk.com/agent/tickets/10038) · [open] · 2026-10-14T16:15 · Signature Block
 - [10039](https://tbpro.zendesk.com/agent/tickets/10039) · [open] · 2026-10-14T16:19 · Rétractation abonnement.
 
 ## Solved — last 24h
@@ -406,6 +408,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-14T16:33 · Re: You're Invited: Thundermail Early Bird Access
 - · [10023](https://tbpro.zendesk.com/agent/tickets/10023) · 2026-10-14T17:01 · Close account
 - · [9588](https://tbpro.zendesk.com/agent/tickets/9588) · 2026-10-14T17:02 · Delete my data and unsubscribe from the service
+- · [9642](https://tbpro.zendesk.com/agent/tickets/9642) · 2026-10-14T17:35 · Thundermail registration
+- · [9605](https://tbpro.zendesk.com/agent/tickets/9605) · 2026-10-14T18:02 · MTA-STA Policy not published
+- · [9603](https://tbpro.zendesk.com/agent/tickets/9603) · 2026-10-14T18:02 · Sprache
+- · [9602](https://tbpro.zendesk.com/agent/tickets/9602) · 2026-10-14T18:02 · メールの送受信ができません
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
