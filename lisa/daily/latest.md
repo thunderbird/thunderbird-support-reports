@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 15:33 ET** · refreshes hourly_  
+_Updated: **2026-10-14 16:22 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 66** of rollout — **35,000 invitees**, **754 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (163 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 77
-- **Median AHT**: 140.0h · mean 166.5h (proxy: updated_at − created_at, 77 solved tickets)
+- **Median AHT**: 134.5h · mean 164.8h (proxy: updated_at − created_at, 80 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -156,7 +156,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 1 incident(s):
-  - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [hold] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
+  - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [solved] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -244,10 +244,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 601
-- **solved**: 77
-- **pending**: 45
-- **hold**: 21
-- **open**: 10
+- **solved**: 80
+- **pending**: 44
+- **hold**: 20
+- **open**: 9
 
 ## Service (cumulative)
 
