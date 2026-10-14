@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 07:22 ET** · refreshes hourly_  
+_Updated: **2026-10-14 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 66** of rollout — **35,000 invitees**, **743 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **744 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **6** solved in last 24h
-- **743** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **6** solved in last 24h
+- **744** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
@@ -151,7 +151,7 @@ Flight 8 is **day 66** of rollout — **35,000 invitees**, **743 tickets** so fa
 - 1 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [hold] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
 
-### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
+### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
 - 2 incident(s):
   - [#9284](https://tbpro.zendesk.com/agent/tickets/9284) · [hold] · 2026-09-29 · _Can't connect cardav to macOS_
@@ -239,11 +239,11 @@ _(none in last 24h)_
 - **pending**: 45
 - **hold**: 18
 - **open**: 7
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 416
+- **Account Hub**: 417
 - **Thundermail**: 264
 - **Send**: 15
 - **Appointment**: 9
@@ -306,6 +306,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10028](https://tbpro.zendesk.com/agent/tickets/10028)** · Payment
+  > Do you accept Bitcoin payments? If not, please cancel and shut down this account and delete all data.
+- **[#10009](https://tbpro.zendesk.com/agent/tickets/10009)** · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts — why: **confused** · how: **informed** · 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
+  > Summary Apple Contacts on macOS shows zero Thundermail contacts when syncing over CardDAV. Webmail shows the contacts. Root cause (engineering, Oct 12) Stalwart 0.15, which we run…
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#10027](https://tbpro.zendesk.com/agent/tickets/10027)** · Waitlist registration confirmation
@@ -335,14 +342,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10012](https://tbpro.zendesk.com/agent/tickets/10012)** · Switching to Thundermail
   > Hi [name] team, I received the invite and am definitely interested in switching from Fastmail / Protonmail to Thundermail but, upon quick glance I don’t see guidance on porting an…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10009](https://tbpro.zendesk.com/agent/tickets/10009)** · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts — why: **confused** · how: **informed** · 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
-  > Summary Apple Contacts on macOS shows zero Thundermail contacts when syncing over CardDAV. Webmail shows the contacts. Root cause (engineering, Oct 12) Stalwart 0.15, which we run…
-
 ## New tickets — last 24h
 
-- [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
+- [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
 - [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [open] · 2026-10-13T21:23 · Switching to Thundermail
 - [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
 - [10022](https://tbpro.zendesk.com/agent/tickets/10022) · [new] · 2026-10-14T07:31 · Cost of Early Bird Beta
@@ -350,6 +352,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [open] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 - [10026](https://tbpro.zendesk.com/agent/tickets/10026) · [new] · 2026-10-14T10:20 · email
 - [10027](https://tbpro.zendesk.com/agent/tickets/10027) · [new] · 2026-10-14T11:10 · Waitlist registration confirmation
+- [10028](https://tbpro.zendesk.com/agent/tickets/10028) · [new] · 2026-10-14T12:18 · Payment
 
 ## Solved — last 24h
 
