@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 00:27 ET** · refreshes hourly_  
+_Updated: **2026-10-14 01:22 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 66** of rollout — **35,000 invitees**, **737 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **738 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
-- **737** tickets total since launch · contact rate **2%** of 35000 invitees
+- **3** new tickets in last 24h · **6** solved in last 24h
+- **738** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 75
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
 - **Median AHT**: 140.0h · mean 170.6h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 12 problem(s), 95 incident(s)
@@ -227,22 +227,23 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Add private notes to received emails](https://ideas.tb.pro/p/add-private-notes-to-received-emails) · 1 votes · _untagged_
+  > What you'd like to seeA way to attach a private note to any received email. The note is free text that only I can see, saved together with the message and shown automatically whenever I open or…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 601
 - **solved**: 68
 - **pending**: 45
-- **hold**: 17
+- **hold**: 18
 - **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 414
-- **Thundermail**: 260
+- **Thundermail**: 261
 - **Send**: 15
 - **Appointment**: 9
 
@@ -304,6 +305,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#10018](https://tbpro.zendesk.com/agent/tickets/10018)** · Alias transfer
+  > Hello, I've recently subscribed to Thundermail and have a question about email aliases. If I delete an alias, does that address become available for another user to register, or…
+
 ### Email migration / import — 1 tickets
 
 - **[#10012](https://tbpro.zendesk.com/agent/tickets/10012)** · Switching to Thundermail
@@ -318,6 +324,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
 - [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [open] · 2026-10-13T21:23 · Switching to Thundermail
+- [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
 
 ## Solved — last 24h
 
