@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 01:22 ET** · refreshes hourly_  
+_Updated: **2026-10-14 02:37 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -229,8 +229,8 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Add private notes to received emails](https://ideas.tb.pro/p/add-private-notes-to-received-emails) · 1 votes · _untagged_
-  > What you'd like to seeA way to attach a private note to any received email. The note is free text that only I can see, saved together with the message and shown automatically whenever I open or…
+- [Add private notes to emails](https://ideas.tb.pro/p/add-private-notes-to-emails) · 1 votes · _untagged_
+  > What you'd like to seeA way to attach a private note to any email. The note is free text that only I can see, saved together with the message, and shown automatically whenever I open or search for…
 
 ## Status breakdown (cumulative)
 
