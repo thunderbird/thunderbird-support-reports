@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 04:30 ET** · refreshes hourly_  
+_Updated: **2026-10-14 05:26 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 66** of rollout — **35,000 invitees**, **740 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **741 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
-- **740** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **741** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
@@ -238,13 +238,13 @@ _(none in last 24h)_
 - **solved**: 68
 - **pending**: 45
 - **hold**: 18
-- **open**: 6
+- **open**: 7
 - **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 416
-- **Thundermail**: 261
+- **Thundermail**: 262
 - **Send**: 15
 - **Appointment**: 9
 
@@ -276,6 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 4
 - **change request** + **escalated**: 3
 - **curious** + **—**: 3
+- **curious** + **investigated**: 3
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **other** + **n/a**: 2
@@ -286,7 +287,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **—**: 2
 - **other** + **escalated**: 2
 - **concerned** + **redirected**: 2
-- **curious** + **investigated**: 2
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
@@ -305,6 +305,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 1
 
 ## Tickets in last 24h — by theme
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10024](https://tbpro.zendesk.com/agent/tickets/10024)** · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail — why: **curious** · how: **investigated**
+  > This is a follow-up to your previous request #9184 "Pre-enrollment privacy ques..." Hi [name], Thank you very much to you and the other staff members who helped answer my…
 
 ### Other / uncategorized — 1 tickets
 
@@ -338,6 +343,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
 - [10022](https://tbpro.zendesk.com/agent/tickets/10022) · [new] · 2026-10-14T07:31 · Cost of Early Bird Beta
 - [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [new] · 2026-10-14T07:56 · Close account
+- [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [open] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 
 ## Solved — last 24h
 
