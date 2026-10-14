@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 10:23 ET** · refreshes hourly_  
+_Updated: **2026-10-14 11:24 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 66** of rollout — **35,000 invitees**, **747 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **748 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **7** solved in last 24h
-- **747** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **7** solved in last 24h
+- **748** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"went through"** — 2 tickets in 24h (26.0× baseline; baseline 5 cum) — [#10027](https://tbpro.zendesk.com/agent/tickets/10027), [#10029](https://tbpro.zendesk.com/agent/tickets/10029)
 
-## Known problems — 12 problem(s), 95 incident(s)
+## Known problems — 12 problem(s), 96 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -38,7 +38,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 77 incident(s):
+- 78 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -116,6 +116,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [pending] · 2026-10-11 · _Refund_
   - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [pending] · 2026-10-11 · _New subscription - canceling, requesting refund_
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
+  - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [pending] · 2026-10-14 · _Close account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -242,14 +243,14 @@ _(none in last 24h)_
 
 - **closed**: 601
 - **solved**: 68
-- **pending**: 44
-- **hold**: 17
+- **pending**: 45
+- **hold**: 18
 - **open**: 10
-- **new**: 7
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 417
+- **Account Hub**: 418
 - **Thundermail**: 266
 - **Send**: 16
 - **Appointment**: 9
@@ -259,7 +260,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 157
-- **change request** + **actioned**: 104
+- **change request** + **actioned**: 105
 - **blocked** + **explained**: 98
 - **confused** + **explained**: 54
 - **curious** + **informed**: 40
@@ -320,11 +321,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I neither have a PayPal account nor do I own a credit card! How about a SEPA-Lastschrift?
 - **[#10026](https://tbpro.zendesk.com/agent/tickets/10026)** · email
   > Need to update password to sign into my email a/c.
-- **[#10023](https://tbpro.zendesk.com/agent/tickets/10023)** · Close account
+- **[#10023](https://tbpro.zendesk.com/agent/tickets/10023)** · Close account — why: **change request** · how: **actioned**
   > I'd like to close/delete my email account please. I'm still within the 14 days will I be refunded my money back as well please
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#10033](https://tbpro.zendesk.com/agent/tickets/10033)** · payement
+  > les cases du payment ne fonctionnent pas
 - **[#10028](https://tbpro.zendesk.com/agent/tickets/10028)** · Payment
   > Do you accept Bitcoin payments? If not, please cancel and shut down this account and delete all data.
 - **[#10009](https://tbpro.zendesk.com/agent/tickets/10009)** · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts — why: **confused** · how: **informed** · 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
@@ -342,11 +345,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10029](https://tbpro.zendesk.com/agent/tickets/10029)** · Invalid username or password after accepting invite
   > I accepted my invite back in June, registered a username and password, and wanted to look into pricing today as my M365 renewal is coming around, and I've been on the fence about…
 
-### Spam / Junk Filtering — 1 tickets
-
-- **[#10024](https://tbpro.zendesk.com/agent/tickets/10024)** · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail — why: **curious** · how: **investigated**
-  > This is a follow-up to your previous request #9184 "Pre-enrollment privacy ques..." Hi [name], Thank you very much to you and the other staff members who helped answer my…
-
 ### Aliases — 1 tickets
 
 - **[#10018](https://tbpro.zendesk.com/agent/tickets/10018)** · Alias transfer
@@ -357,20 +355,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10012](https://tbpro.zendesk.com/agent/tickets/10012)** · Switching to Thundermail
   > Hi [name] team, I received the invite and am definitely interested in switching from Fastmail / Protonmail to Thundermail but, upon quick glance I don’t see guidance on porting an…
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10024](https://tbpro.zendesk.com/agent/tickets/10024)** · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail — why: **curious** · how: **investigated**
+  > This is a follow-up to your previous request #9184 "Pre-enrollment privacy ques..." Hi [name], Thank you very much to you and the other staff members who helped answer my…
+
 ## New tickets — last 24h
 
 - [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
 - [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [open] · 2026-10-13T21:23 · Switching to Thundermail
 - [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
 - [10022](https://tbpro.zendesk.com/agent/tickets/10022) · [new] · 2026-10-14T07:31 · Cost of Early Bird Beta
-- [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [open] · 2026-10-14T07:56 · Close account
-- [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [open] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
-- [10026](https://tbpro.zendesk.com/agent/tickets/10026) · [new] · 2026-10-14T10:20 · email
-- [10027](https://tbpro.zendesk.com/agent/tickets/10027) · [new] · 2026-10-14T11:10 · Waitlist registration confirmation
+- [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [pending] · 2026-10-14T07:56 · Close account
+- [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [hold] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
+- [10026](https://tbpro.zendesk.com/agent/tickets/10026) · [open] · 2026-10-14T10:20 · email
+- [10027](https://tbpro.zendesk.com/agent/tickets/10027) · [open] · 2026-10-14T11:10 · Waitlist registration confirmation
 - [10028](https://tbpro.zendesk.com/agent/tickets/10028) · [new] · 2026-10-14T12:18 · Payment
 - [10029](https://tbpro.zendesk.com/agent/tickets/10029) · [new] · 2026-10-14T13:28 · Invalid username or password after accepting invite
 - [10031](https://tbpro.zendesk.com/agent/tickets/10031) · [new] · 2026-10-14T14:09 · My Thundermail address is waiting
 - [10032](https://tbpro.zendesk.com/agent/tickets/10032) · [new] · 2026-10-14T14:15 · Send files
+- [10033](https://tbpro.zendesk.com/agent/tickets/10033) · [new] · 2026-10-14T14:47 · payement
 
 ## Solved — last 24h
 
