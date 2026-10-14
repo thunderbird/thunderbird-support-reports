@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 08:33 ET** · refreshes hourly_  
+_Updated: **2026-10-14 09:22 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -154,7 +154,7 @@ Flight 8 is **day 66** of rollout — **35,000 invitees**, **744 tickets** so fa
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
 - 2 incident(s):
-  - [#9284](https://tbpro.zendesk.com/agent/tickets/9284) · [hold] · 2026-09-29 · _Can't connect cardav to macOS_
+  - [#9284](https://tbpro.zendesk.com/agent/tickets/9284) · [open] · 2026-09-29 · _Can't connect cardav to macOS_
   - [#9502](https://tbpro.zendesk.com/agent/tickets/9502) · [hold] · 2026-10-06 · _Adressbücher_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
@@ -236,9 +236,9 @@ _(none in last 24h)_
 
 - **closed**: 601
 - **solved**: 68
-- **pending**: 45
-- **hold**: 18
-- **open**: 7
+- **pending**: 43
+- **hold**: 17
+- **open**: 10
 - **new**: 5
 
 ## Service (cumulative)
