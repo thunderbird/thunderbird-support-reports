@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-10-13
+# Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-13 23:26 ET** · refreshes hourly_  
-_24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-14 00:27 ET** · refreshes hourly_  
+_24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 65** of rollout — **35,000 invitees**, **737 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **737 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **30** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **737** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 75
 - **Median AHT**: 140.0h · mean 170.6h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 12 problem(s), 95 incident(s)
@@ -227,12 +227,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Regular emails with tips on how to best use Thundermail in a browser](https://ideas.tb.pro/p/regular-emails-with-tips-on-how-to-best-use-thundermail-in-a-browser) · 1 votes · _Send, Thundermail, Appointment, Community_
-  > What you’d like to seeI would like to receive regular emails with tips on how I can best use Thundermail in a browser.Why it mattersIt would speed up learning.Your use caseThese regular emails would…
-- [Tips when using Thundermail in a browser](https://ideas.tb.pro/p/tips-when-using-thundermail-in-a-browser) · 1 votes · _Send, Thundermail, Appointment, New Feature, Community, Webmail_
-  > What you’d like to seeIt would be good to get appropriate Tips when using Thundermail in a browser that relate to how you are using it at that time.Why it mattersIt would speed up learning about…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -307,92 +304,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — Account Hub trouble — 4 tickets
+### Email migration / import — 1 tickets
 
-- **[#9993](https://tbpro.zendesk.com/agent/tickets/9993)** · thundermail not set up or working properly. — why: **blocked** · how: **informed**
-  > hi [name] team. i had not completed setting up my custom email domain with thundermail, and i went away for a few days and now i can not login to [email] or [email] (custom…
-- **[#9989](https://tbpro.zendesk.com/agent/tickets/9989)** · Thunderbird email — why: **blocked** · how: **redirected**
-  > My password is not recognised. Reset email requested but fails to arrive so I remain unable to sign in.
-- **[#9988](https://tbpro.zendesk.com/agent/tickets/9988)** · password — why: **blocked** · how: **explained**
-  > vergotten
-- **[#9983](https://tbpro.zendesk.com/agent/tickets/9983)** · I forgot the password for my Thundermail account. — why: **blocked** · how: **explained**
-  > Hello, I forgot the password for my Thundermail account. I used the “Forgot password” option and the website confirmed that recovery instructions were sent to my recovery email,…
+- **[#10012](https://tbpro.zendesk.com/agent/tickets/10012)** · Switching to Thundermail
+  > Hi [name] team, I received the invite and am definitely interested in switching from Fastmail / Protonmail to Thundermail but, upon quick glance I don’t see guidance on porting an…
 
-### Aliases — 2 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#9998](https://tbpro.zendesk.com/agent/tickets/9998)** · couldn't add an alias — why: **confused** · how: **informed**
-  > Is there a reason why I could not add the alias [email]? It just says it is not allowed. Regardless, thank you!
-- **[#9996](https://tbpro.zendesk.com/agent/tickets/9996)** · Delete alias — why: **confused** · how: **explained**
-  > How to delete an alias. There doesn't seem to be a method to delete an alias ?
-
-### Spam / Junk Filtering — 2 tickets
-
-- **[#9986](https://tbpro.zendesk.com/agent/tickets/9986)** · email sent from [domain] (and maybe [domain]) still goes to spam in gmail — why: **concerned** · how: **explained**
-  > I’ve noticed that emails sent from a [domain] alias are still being filtered into the spam folder by Gmail. This makes me decide not to use this account for my business…
-- **[#9982](https://tbpro.zendesk.com/agent/tickets/9982)** · verification of email does not work trying to sign up for your early bird thunderbird account — why: **blocked**
-  > filled out all the fields but when it came to you must verify your email at the end which I suppose is the maria,taylor email above it did not give me a field to repeat that email
-
-### Send (file sharing) — 1 tickets
-
-- **[#9984](https://tbpro.zendesk.com/agent/tickets/9984)** · Re: [Thundermail] Re: Send — why: **concerned** · how: **explained**
-  > This is a follow-up to your previous request #8284 "Send" Hi, Rocky, I hope you don't mind me contacting you again, but I notice I still cannot use the Send function. It still…
-
-### Other / uncategorized — 1 tickets
-
-- **[#9980](https://tbpro.zendesk.com/agent/tickets/9980)** · メ－ルの設定 — why: **blocked** · how: **redirected**
-  > 今まで使用していたｐｃが突然、作動しなくなり、最初からの設定で、従来使用していたＰＷを入力してもＰＷが違うと表示される。対処法を教えてください。
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#9960](https://tbpro.zendesk.com/agent/tickets/9960)** · Waitlist/create account — why: **confused** · how: **explained**
-  > Hi! I am migrating my Google and Microsoft apps to open source alternatives and I would like to create a Thundermail or enter the waitlist but the page is blank after entering my…
+- **[#10009](https://tbpro.zendesk.com/agent/tickets/10009)** · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts — why: **confused** · how: **informed** · 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
+  > Summary Apple Contacts on macOS shows zero Thundermail contacts when syncing over CardDAV. Webmail shows the contacts. Root cause (engineering, Oct 12) Stalwart 0.15, which we run…
 
 ## New tickets — last 24h
 
-- [9960](https://tbpro.zendesk.com/agent/tickets/9960) · [pending] · 2026-10-12T22:51 · Waitlist/create account
-- [9980](https://tbpro.zendesk.com/agent/tickets/9980) · [pending] · 2026-10-13T00:51 · メ－ルの設定
-- [9982](https://tbpro.zendesk.com/agent/tickets/9982) · [pending] · 2026-10-13T06:14 · verification of email does not work trying to sign up for your early bird thunderbird account
-- [9983](https://tbpro.zendesk.com/agent/tickets/9983) · [pending] · 2026-10-13T09:13 · I forgot the password for my Thundermail account.
-- [9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13T11:30 · Re: [Thundermail] Re: Send
-- [9986](https://tbpro.zendesk.com/agent/tickets/9986) · [pending] · 2026-10-13T11:40 · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
-- [9988](https://tbpro.zendesk.com/agent/tickets/9988) · [pending] · 2026-10-13T12:25 · password
-- [9989](https://tbpro.zendesk.com/agent/tickets/9989) · [pending] · 2026-10-13T12:34 · Thunderbird email
-- [9993](https://tbpro.zendesk.com/agent/tickets/9993) · [solved] · 2026-10-13T14:16 · thundermail not set up or working properly.
-- [9996](https://tbpro.zendesk.com/agent/tickets/9996) · [pending] · 2026-10-13T15:25 · Delete alias
-- [9998](https://tbpro.zendesk.com/agent/tickets/9998) · [pending] · 2026-10-13T16:24 · couldn't add an alias
+- [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · mailstrom [[265]]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
+- [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [open] · 2026-10-13T21:23 · Switching to Thundermail
 
 ## Solved — last 24h
 
-- · [9515](https://tbpro.zendesk.com/agent/tickets/9515) · 2026-10-12T20:01 · Cancel + refund?
-- · [9480](https://tbpro.zendesk.com/agent/tickets/9480) · 2026-10-12T20:01 · Domain blocked from receiving emails
-- · [9552](https://tbpro.zendesk.com/agent/tickets/9552) · 2026-10-12T21:01 · Cannot sign in
-- · [9551](https://tbpro.zendesk.com/agent/tickets/9551) · 2026-10-12T21:01 · won't complete account setup
-- · [8650](https://tbpro.zendesk.com/agent/tickets/8650) · 2026-10-12T21:01 · thundermail, hover, and earthlink/mindspring with 5 aliases order of getting it all to thundermail
-- · [9538](https://tbpro.zendesk.com/agent/tickets/9538) · 2026-10-12T22:01 · Confused
-- · [9425](https://tbpro.zendesk.com/agent/tickets/9425) · 2026-10-12T22:01 · move Alias to Account
-- · [9541](https://tbpro.zendesk.com/agent/tickets/9541) · 2026-10-13T00:01 · varies
-- · [9544](https://tbpro.zendesk.com/agent/tickets/9544) · 2026-10-13T01:01 · Suggestion for Email aliases section
-- · [9483](https://tbpro.zendesk.com/agent/tickets/9483) · 2026-10-13T12:32 · Account deletion and refund
-- · [9508](https://tbpro.zendesk.com/agent/tickets/9508) · 2026-10-13T12:35 · Delete Account
-- · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-13T12:36 · cancel my subscription to start over
-- · [9633](https://tbpro.zendesk.com/agent/tickets/9633) · 2026-10-13T13:58 · Convert Email Alias to Account
-- · [9186](https://tbpro.zendesk.com/agent/tickets/9186) · 2026-10-13T14:02 · Unable to reset password
-- · [9604](https://tbpro.zendesk.com/agent/tickets/9604) · 2026-10-13T14:02 · SRV records for custom domain
-- · [9562](https://tbpro.zendesk.com/agent/tickets/9562) · 2026-10-13T15:02 · GoogleのG-mailに転送させたい
-- · [9561](https://tbpro.zendesk.com/agent/tickets/9561) · 2026-10-13T15:02 · pomoc
-- · [9559](https://tbpro.zendesk.com/agent/tickets/9559) · 2026-10-13T15:02 · Correction to refund request – Thunderbird Pro Early Bird
-- · [9287](https://tbpro.zendesk.com/agent/tickets/9287) · 2026-10-13T15:37 · Uploading a .png does nothing
-- · [9664](https://tbpro.zendesk.com/agent/tickets/9664) · 2026-10-13T15:37 · How to delete an alias?
-- · [9560](https://tbpro.zendesk.com/agent/tickets/9560) · 2026-10-13T16:02 · Sticker / swag request from a student developer
-- · [9372](https://tbpro.zendesk.com/agent/tickets/9372) · 2026-10-13T17:02 · Hello
-- · [9569](https://tbpro.zendesk.com/agent/tickets/9569) · 2026-10-13T17:02 · Cancel and Refund
-- · [9553](https://tbpro.zendesk.com/agent/tickets/9553) · 2026-10-13T17:02 · How to update account profile
-- · [9517](https://tbpro.zendesk.com/agent/tickets/9517) · 2026-10-13T17:02 · forgotten password
-- · [9550](https://tbpro.zendesk.com/agent/tickets/9550) · 2026-10-13T18:02 · Payment screen freezes
-- · [9577](https://tbpro.zendesk.com/agent/tickets/9577) · 2026-10-13T19:02 · Thundermail Waitlist
-- 👍 [9555](https://tbpro.zendesk.com/agent/tickets/9555) · 2026-10-13T19:10 · Mailbox setup
-- · [9993](https://tbpro.zendesk.com/agent/tickets/9993) · 2026-10-13T19:19 · thundermail not set up or working properly.
-- 👍 [9620](https://tbpro.zendesk.com/agent/tickets/9620) · 2026-10-13T19:48 · I received an invite to join the beta release of thundermail, but not working
+- 👍 [9643](https://tbpro.zendesk.com/agent/tickets/9643) · 2026-10-13T21:33 · Unable to add custom domain
+- · [9592](https://tbpro.zendesk.com/agent/tickets/9592) · 2026-10-13T22:01 · Transferring Current Email Domain to Thundermail
+- · [9571](https://tbpro.zendesk.com/agent/tickets/9571) · 2026-10-13T23:01 · Thunderbird Android
+- · [9557](https://tbpro.zendesk.com/agent/tickets/9557) · 2026-10-13T23:01 · Use of new service for new company
+- · [9556](https://tbpro.zendesk.com/agent/tickets/9556) · 2026-10-13T23:01 · Refund Request Due to Ongoing Email Deliverability Issues
+- · [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-14T02:01 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
