@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 17:20 ET** · refreshes hourly_  
+_Updated: **2026-10-14 18:20 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 66** of rollout — **35,000 invitees**, **754 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (163 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 77
-- **Median AHT**: 131.2h · mean 164.2h (proxy: updated_at − created_at, 81 solved tickets)
+- **Median AHT**: 137.8h · mean 165.3h (proxy: updated_at − created_at, 83 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -245,16 +245,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 601
-- **solved**: 81
-- **pending**: 46
+- **solved**: 83
+- **pending**: 48
 - **hold**: 20
-- **open**: 6
+- **open**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 421
 - **Thundermail**: 268
-- **Send**: 16
+- **Send**: 17
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -267,9 +267,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 55
 - **curious** + **informed**: 40
 - **blocked** + **investigated**: 35
-- **request** + **redirected**: 33
+- **request** + **redirected**: 34
 - **confused** + **informed**: 32
-- **blocked** + **redirected**: 29
+- **blocked** + **redirected**: 30
 - **concerned** + **explained**: 26
 - **blocked** + **escalated**: 15
 - **blocked** + **informed**: 15
@@ -278,11 +278,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **explained**: 6
 - **change request** + **explained**: 6
 - **concerned** + **investigated**: 5
+- **confused** + **investigated**: 5
 - **request** + **explained**: 4
 - **curious** + **actioned**: 4
 - **blocked** + **actioned**: 4
 - **confused** + **—**: 4
-- **confused** + **investigated**: 4
 - **change request** + **escalated**: 3
 - **curious** + **—**: 3
 - **curious** + **investigated**: 3
@@ -317,12 +317,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 5 tickets
 
-- **[#10050](https://tbpro.zendesk.com/agent/tickets/10050)** · Attention : Amanda (Thundermail Support) - Send Feature Issues
-  > Hi [name], Writing a separate email on the "Send" issue. I need to punch in recovery keys everytime I go to "Send" app. Wondering why? This is almost the 3rd or 4th time today…
-- **[#10048](https://tbpro.zendesk.com/agent/tickets/10048)** · system not working
-  > I need the account activated or fixed.
 - **[#10036](https://tbpro.zendesk.com/agent/tickets/10036)** · Changed email provider from icloud ([domain])  to thundermail has caused chaos
   > Your email bounced and I have now tried to make a separate account from my previous [domain] one, just for thundermaail. But am having little success
+- **[#10050](https://tbpro.zendesk.com/agent/tickets/10050)** · Attention : Amanda (Thundermail Support) - Send Feature Issues — why: **confused** · how: **investigated**
+  > Hi [name], Writing a separate email on the "Send" issue. I need to punch in recovery keys everytime I go to "Send" app. Wondering why? This is almost the 3rd or 4th time today…
+- **[#10048](https://tbpro.zendesk.com/agent/tickets/10048)** · system not working — why: **blocked** · how: **redirected**
+  > I need the account activated or fixed.
 - **[#10032](https://tbpro.zendesk.com/agent/tickets/10032)** · Send files — why: **blocked** · how: **explained**
   > I am unable to upload files to "Send". I tried with Firefox and Chrome.
 - **[#10023](https://tbpro.zendesk.com/agent/tickets/10023)** · Close account — why: **change request** · how: **actioned**
@@ -349,20 +349,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10028](https://tbpro.zendesk.com/agent/tickets/10028)** · Payment — why: **change request** · how: **explained**
   > Do you accept Bitcoin payments? If not, please cancel and shut down this account and delete all data.
 
-### Aliases — 1 tickets
+### Request or complaint — 2 tickets
 
-- **[#10018](https://tbpro.zendesk.com/agent/tickets/10018)** · Alias transfer
+- **[#10031](https://tbpro.zendesk.com/agent/tickets/10031)** · My Thundermail address is waiting — why: **request** · how: **redirected**
+  > I neither have a PayPal account nor do I own a credit card! How about a SEPA-Lastschrift?
+- **[#10018](https://tbpro.zendesk.com/agent/tickets/10018)** · Alias transfer — why: **request** · how: **redirected**
   > Hello, I've recently subscribed to Thundermail and have a question about email aliases. If I delete an alias, does that address become available for another user to register, or…
 
 ### Webmail — 1 tickets
 
 - **[#10038](https://tbpro.zendesk.com/agent/tickets/10038)** · Signature Block — why: **curious** · how: **explained**
   > Is there a way to create a signature block on the web based email. I check my mail at work and respond but don't see anywhere to create a signature block. Thanks
-
-### Request or complaint — 1 tickets
-
-- **[#10031](https://tbpro.zendesk.com/agent/tickets/10031)** · My Thundermail address is waiting — why: **request** · how: **redirected**
-  > I neither have a PayPal account nor do I own a credit card! How about a SEPA-Lastschrift?
 
 ### Early bird signup — 1 tickets
 
@@ -393,7 +390,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · 2026-10-13T20:34 · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts 🔗 [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265)
 - [10012](https://tbpro.zendesk.com/agent/tickets/10012) · [pending] · 2026-10-13T21:23 · Switching to Thundermail
-- [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [open] · 2026-10-14T04:43 · Alias transfer
+- [10018](https://tbpro.zendesk.com/agent/tickets/10018) · [pending] · 2026-10-14T04:43 · Alias transfer
 - [10022](https://tbpro.zendesk.com/agent/tickets/10022) · [pending] · 2026-10-14T07:31 · Cost of Early Bird Beta
 - [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [solved] · 2026-10-14T07:56 · Close account
 - [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [hold] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
@@ -407,9 +404,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10036](https://tbpro.zendesk.com/agent/tickets/10036) · [open] · 2026-10-14T16:04 · Changed email provider from icloud ([domain])  to thundermail has caused chaos
 - [10038](https://tbpro.zendesk.com/agent/tickets/10038) · [pending] · 2026-10-14T16:15 · Signature Block
 - [10039](https://tbpro.zendesk.com/agent/tickets/10039) · [pending] · 2026-10-14T16:19 · Rétractation abonnement.
-- [10048](https://tbpro.zendesk.com/agent/tickets/10048) · [open] · 2026-10-14T18:44 · system not working
+- [10048](https://tbpro.zendesk.com/agent/tickets/10048) · [pending] · 2026-10-14T18:44 · system not working
 - [10049](https://tbpro.zendesk.com/agent/tickets/10049) · [pending] · 2026-10-14T19:17 · Foregot password
-- [10050](https://tbpro.zendesk.com/agent/tickets/10050) · [open] · 2026-10-14T19:24 · Attention : Amanda (Thundermail Support) - Send Feature Issues
+- [10050](https://tbpro.zendesk.com/agent/tickets/10050) · [pending] · 2026-10-14T19:24 · Attention : Amanda (Thundermail Support) - Send Feature Issues
 
 ## Solved — last 24h
 
