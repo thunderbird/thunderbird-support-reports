@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-14
 
-_Updated: **2026-10-14 06:24 ET** · refreshes hourly_  
+_Updated: **2026-10-14 07:22 ET** · refreshes hourly_  
 _24h window: 2026-10-13T16:00 → 2026-10-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 66** of rollout — **35,000 invitees**, **742 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 66** of rollout — **35,000 invitees**, **743 tickets** so far (2.1% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **6** solved in last 24h
-- **742** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **6** solved in last 24h
+- **743** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 76
@@ -239,12 +239,12 @@ _(none in last 24h)_
 - **pending**: 45
 - **hold**: 18
 - **open**: 7
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 416
-- **Thundermail**: 263
+- **Thundermail**: 264
 - **Send**: 15
 - **Appointment**: 9
 
@@ -306,6 +306,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#10027](https://tbpro.zendesk.com/agent/tickets/10027)** · Waitlist registration confirmation
+  > Hello, I recently signed up for the Thundermail waitlist using the email **[email]**. I did not receive an automatic confirmation and wanted to double-check if my registration…
+- **[#10022](https://tbpro.zendesk.com/agent/tickets/10022)** · Cost of Early Bird Beta
+  > Dear [name], I would like to know whether I will be rejected from Thunderbird if I don't subscribe to Early Bird Beta. What is the cost of Early Bird Beta. Thanks for your help.…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10026](https://tbpro.zendesk.com/agent/tickets/10026)** · email
@@ -317,11 +324,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10024](https://tbpro.zendesk.com/agent/tickets/10024)** · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail — why: **curious** · how: **investigated**
   > This is a follow-up to your previous request #9184 "Pre-enrollment privacy ques..." Hi [name], Thank you very much to you and the other staff members who helped answer my…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#10022](https://tbpro.zendesk.com/agent/tickets/10022)** · Cost of Early Bird Beta
-  > Dear [name], I would like to know whether I will be rejected from Thunderbird if I don't subscribe to Early Bird Beta. What is the cost of Early Bird Beta. Thanks for your help.…
 
 ### Aliases — 1 tickets
 
@@ -347,6 +349,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10023](https://tbpro.zendesk.com/agent/tickets/10023) · [new] · 2026-10-14T07:56 · Close account
 - [10024](https://tbpro.zendesk.com/agent/tickets/10024) · [open] · 2026-10-14T08:54 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 - [10026](https://tbpro.zendesk.com/agent/tickets/10026) · [new] · 2026-10-14T10:20 · email
+- [10027](https://tbpro.zendesk.com/agent/tickets/10027) · [new] · 2026-10-14T11:10 · Waitlist registration confirmation
 
 ## Solved — last 24h
 
