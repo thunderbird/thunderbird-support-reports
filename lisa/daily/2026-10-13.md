@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-13
 
-_Updated: **2026-10-13 21:28 ET** · refreshes hourly_  
+_Updated: **2026-10-13 22:30 ET** · refreshes hourly_  
 _24h window: 2026-10-12T16:00 → 2026-10-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 65** of rollout — **35,000 invitees**, **737 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **31** solved in last 24h
+- **11** new tickets in last 24h · **30** solved in last 24h
 - **737** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (162 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 75
-- **Median AHT**: 140.0h · mean 170.3h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 140.0h · mean 170.6h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 12 problem(s), 95 incident(s)
 
@@ -372,7 +372,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9425](https://tbpro.zendesk.com/agent/tickets/9425) · 2026-10-12T22:01 · move Alias to Account
 - · [9541](https://tbpro.zendesk.com/agent/tickets/9541) · 2026-10-13T00:01 · varies
 - · [9544](https://tbpro.zendesk.com/agent/tickets/9544) · 2026-10-13T01:01 · Suggestion for Email aliases section
-- · [9615](https://tbpro.zendesk.com/agent/tickets/9615) · 2026-10-13T01:34 · Re: You're Invited: Thundermail Early Bird Access
 - · [9483](https://tbpro.zendesk.com/agent/tickets/9483) · 2026-10-13T12:32 · Account deletion and refund
 - · [9508](https://tbpro.zendesk.com/agent/tickets/9508) · 2026-10-13T12:35 · Delete Account
 - · [9519](https://tbpro.zendesk.com/agent/tickets/9519) · 2026-10-13T12:36 · cancel my subscription to start over
