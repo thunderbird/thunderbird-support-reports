@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 14:27 ET** · refreshes hourly_  
+_Updated: **2026-10-15 15:19 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 67** of rollout — **35,000 invitees**, **763 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 67** of rollout — **35,000 invitees**, **764 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **12** solved in last 24h
-- **763** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **14** solved in last 24h
+- **764** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (166 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
-- **Median AHT**: 137.8h · mean 170.1h (proxy: updated_at − created_at, 75 solved tickets)
+- **Median AHT**: 140.0h · mean 173.2h (proxy: updated_at − created_at, 76 solved tickets)
 
 ## Known problems — 12 problem(s), 99 incident(s)
 
@@ -103,7 +103,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **763 tickets** so fa
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
-  - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [open] · 2026-10-06 · _Aliases not showing up_
+  - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [solved] · 2026-10-06 · _Aliases not showing up_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [solved] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [solved] · 2026-10-08 · _Cancel and Refund_
@@ -245,16 +245,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 609
-- **solved**: 75
-- **pending**: 52
+- **closed**: 610
+- **solved**: 76
+- **pending**: 55
 - **hold**: 20
-- **open**: 7
+- **open**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 427
-- **Thundermail**: 271
+- **Thundermail**: 272
 - **Send**: 17
 - **Appointment**: 9
 
@@ -267,8 +267,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 101
 - **confused** + **explained**: 56
 - **curious** + **informed**: 41
+- **request** + **redirected**: 36
 - **blocked** + **investigated**: 35
-- **request** + **redirected**: 34
 - **confused** + **informed**: 32
 - **blocked** + **redirected**: 30
 - **concerned** + **explained**: 26
@@ -278,7 +278,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 7
 - **blocked** + **—**: 7
 - **telling us** + **explained**: 6
-- **concerned** + **investigated**: 5
+- **concerned** + **investigated**: 6
 - **confused** + **investigated**: 5
 - **request** + **explained**: 4
 - **curious** + **actioned**: 4
@@ -318,22 +318,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 3 tickets
 
-- **[#10071](https://tbpro.zendesk.com/agent/tickets/10071)** · alias management 
+- **[#10071](https://tbpro.zendesk.com/agent/tickets/10071)** · alias management  — why: **request** · how: **redirected**
   > Hello, could you please tell me if Ia have to create aliases for thunder [domain] and [domain]? For example If I crate alias [email] is it possible for someone else to create…
 - **[#10065](https://tbpro.zendesk.com/agent/tickets/10065)** · Please cancel so i can change my thundermail email address — why: **change request** · how: **explained**
   > Please cancel so i can change my thundermail email address
 - **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion  — why: **curious** · how: **informed**
   > When a subscriber deletes an @[domain] or @[domain] alias, is that address permanently retired, reserved for the original subscriber, or made available for another subscriber to…
 
-### Other / uncategorized — 1 tickets
+### Webmail — 2 tickets
 
-- **[#10073](https://tbpro.zendesk.com/agent/tickets/10073)** · Thundermail in my browser
+- **[#10073](https://tbpro.zendesk.com/agent/tickets/10073)** · Thundermail in my browser — why: **concerned** · how: **investigated**
   > With my other emails I can open up my browser and they are already open for me to use. With Thundermail I have to sign in every time which is painful. Will this be fixed?
-
-### Webmail — 1 tickets
-
-- **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail?
+- **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail? — why: **request** · how: **redirected**
   > Will I be able to sign in with a Passkey on a browser to access Thundermail in the near future?
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10076](https://tbpro.zendesk.com/agent/tickets/10076)** · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses 
+  > You guys are going to love this, the problem has been discussed in great detail by myself and the community before I realized where I should be looking for support (here). I'm a…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -363,9 +365,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [open] · 2026-10-15T03:09 · Lockdown mode
 - [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [pending] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
 - [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [pending] · 2026-10-15T11:45 · Kan niet inloggen
-- [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [open] · 2026-10-15T14:03 · alias management 
-- [10072](https://tbpro.zendesk.com/agent/tickets/10072) · [open] · 2026-10-15T15:39 · Passkey for website Thundermail?
-- [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [open] · 2026-10-15T15:41 · Thundermail in my browser
+- [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [pending] · 2026-10-15T14:03 · alias management 
+- [10072](https://tbpro.zendesk.com/agent/tickets/10072) · [pending] · 2026-10-15T15:39 · Passkey for website Thundermail?
+- [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [pending] · 2026-10-15T15:41 · Thundermail in my browser
+- [10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15T19:09 · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses 
 
 ## Solved — last 24h
 
@@ -381,6 +384,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10023](https://tbpro.zendesk.com/agent/tickets/10023) · 2026-10-15T18:02 · Close account
 - 👍 [9604](https://tbpro.zendesk.com/agent/tickets/9604) · 2026-10-15T18:05 · SRV records for custom domain
 - 👍 [9642](https://tbpro.zendesk.com/agent/tickets/9642) · 2026-10-15T18:21 · Thundermail registration
+- · [9505](https://tbpro.zendesk.com/agent/tickets/9505) · 2026-10-15T18:53 · Aliases not showing up
+- · [9416](https://tbpro.zendesk.com/agent/tickets/9416) · 2026-10-15T19:14 · Separating business acct
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
