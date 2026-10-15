@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 02:37 ET** · refreshes hourly_  
+_Updated: **2026-10-15 03:27 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -241,8 +241,7 @@ Regards, [name]_
 - **solved**: 83
 - **pending**: 47
 - **hold**: 20
-- **open**: 5
-- **new**: 1
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -334,7 +333,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10053](https://tbpro.zendesk.com/agent/tickets/10053) · [pending] · 2026-10-14T22:29 · Monthly payment for new mail
 - [10058](https://tbpro.zendesk.com/agent/tickets/10058) · [open] · 2026-10-15T00:47 · alias deletion 
 - [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [open] · 2026-10-15T01:55 · Refund Request for Thundermail Subscription
-- [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [new] · 2026-10-15T03:09 · Lockdown mode
+- [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [open] · 2026-10-15T03:09 · Lockdown mode
 
 ## Solved — last 24h
 
