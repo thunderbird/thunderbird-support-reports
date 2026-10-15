@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 13:21 ET** · refreshes hourly_  
+_Updated: **2026-10-15 14:27 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **763 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
+- **9** new tickets in last 24h · **12** solved in last 24h
 - **763** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 94%  (165 good / 11 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 94%  (166 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
-- **Median AHT**: 140.0h · mean 170.9h (proxy: updated_at − created_at, 79 solved tickets)
+- **Median AHT**: 137.8h · mean 170.1h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## Known problems — 12 problem(s), 99 incident(s)
 
@@ -98,7 +98,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **763 tickets** so fa
   - [#9349](https://tbpro.zendesk.com/agent/tickets/9349) · [closed] · 2026-10-01 · _Account Deletion_
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [closed] · 2026-10-02 · _Refund_
-  - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [solved] · 2026-10-02 · _would like to cancel thunderbird pro_
+  - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [closed] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05 · _Thundermail account cancellation and refund_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
@@ -245,9 +245,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 604
-- **solved**: 79
-- **pending**: 53
+- **closed**: 609
+- **solved**: 75
+- **pending**: 52
 - **hold**: 20
 - **open**: 7
 
@@ -378,6 +378,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9454](https://tbpro.zendesk.com/agent/tickets/9454) · 2026-10-14T22:01 · Custom Domain Not Working
 - · [9315](https://tbpro.zendesk.com/agent/tickets/9315) · 2026-10-15T00:01 · WINDOWS 11
 - · [9516](https://tbpro.zendesk.com/agent/tickets/9516) · 2026-10-15T17:02 · Update Recovery/Main Account Email
+- · [10023](https://tbpro.zendesk.com/agent/tickets/10023) · 2026-10-15T18:02 · Close account
+- 👍 [9604](https://tbpro.zendesk.com/agent/tickets/9604) · 2026-10-15T18:05 · SRV records for custom domain
+- 👍 [9642](https://tbpro.zendesk.com/agent/tickets/9642) · 2026-10-15T18:21 · Thundermail registration
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
