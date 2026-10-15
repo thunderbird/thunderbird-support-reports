@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 11:24 ET** · refreshes hourly_  
+_Updated: **2026-10-15 12:25 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 67** of rollout — **35,000 invitees**, **761 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 67** of rollout — **35,000 invitees**, **763 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **8** solved in last 24h
-- **761** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 94%  (164 good / 11 bad)
+- **9** new tickets in last 24h · **8** solved in last 24h
+- **763** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 94%  (165 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
-- **Median AHT**: 140.0h · mean 169.1h (proxy: updated_at − created_at, 82 solved tickets)
+- **Median AHT**: 140.0h · mean 170.5h (proxy: updated_at − created_at, 79 solved tickets)
 
 ## Known problems — 12 problem(s), 99 incident(s)
 
@@ -245,16 +245,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 602
-- **solved**: 82
-- **pending**: 48
+- **closed**: 604
+- **solved**: 79
+- **pending**: 49
 - **hold**: 20
-- **open**: 9
+- **open**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 425
-- **Thundermail**: 271
+- **Account Hub**: 426
+- **Thundermail**: 272
 - **Send**: 17
 - **Appointment**: 9
 
@@ -265,7 +265,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 160
 - **change request** + **actioned**: 108
 - **blocked** + **explained**: 101
-- **confused** + **explained**: 55
+- **confused** + **explained**: 56
 - **curious** + **informed**: 41
 - **blocked** + **investigated**: 35
 - **request** + **redirected**: 34
@@ -330,6 +330,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10059](https://tbpro.zendesk.com/agent/tickets/10059)** · Refund Request for Thundermail Subscription — why: **change request** · how: **actioned**
   > Hi [name], I would like to request a refund for my Thundermail subscription under the 30-day money-back guarantee policy. Here are my order details: - Account Email: [email] -…
 
+### Other / uncategorized — 1 tickets
+
+- **[#10073](https://tbpro.zendesk.com/agent/tickets/10073)** · Thundermail in my browser
+  > With my other emails I can open up my browser and they are already open for me to use. With Thundermail I have to sign in every time which is painful. Will this be fixed?
+
+### Webmail — 1 tickets
+
+- **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail?
+  > Will I be able to sign in with a Passkey on a browser to access Thundermail in the near future?
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode
@@ -354,6 +364,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [open] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
 - [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [pending] · 2026-10-15T11:45 · Kan niet inloggen
 - [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [open] · 2026-10-15T14:03 · alias management 
+- [10072](https://tbpro.zendesk.com/agent/tickets/10072) · [open] · 2026-10-15T15:39 · Passkey for website Thundermail?
+- [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [open] · 2026-10-15T15:41 · Thundermail in my browser
 
 ## Solved — last 24h
 
