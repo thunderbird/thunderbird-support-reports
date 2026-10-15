@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 15:19 ET** · refreshes hourly_  
+_Updated: **2026-10-15 16:21 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 67** of rollout — **35,000 invitees**, **764 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 67** of rollout — **35,000 invitees**, **765 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **14** solved in last 24h
-- **764** tickets total since launch · contact rate **2%** of 35000 invitees
+- **765** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (166 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
-- **Median AHT**: 140.0h · mean 173.2h (proxy: updated_at − created_at, 76 solved tickets)
+- **Median AHT**: 137.8h · mean 173.8h (proxy: updated_at − created_at, 73 solved tickets)
 
 ## Known problems — 12 problem(s), 99 incident(s)
 
@@ -245,16 +245,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 610
-- **solved**: 76
-- **pending**: 55
+- **closed**: 613
+- **solved**: 73
+- **pending**: 54
 - **hold**: 20
-- **open**: 3
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 427
-- **Thundermail**: 272
+- **Thundermail**: 273
 - **Send**: 17
 - **Appointment**: 9
 
@@ -272,7 +272,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 32
 - **blocked** + **redirected**: 30
 - **concerned** + **explained**: 26
-- **blocked** + **escalated**: 15
+- **blocked** + **escalated**: 16
 - **blocked** + **informed**: 15
 - **concerned** + **—**: 7
 - **change request** + **explained**: 7
@@ -325,22 +325,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion  — why: **curious** · how: **informed**
   > When a subscriber deletes an @[domain] or @[domain] alias, is that address permanently retired, reserved for the original subscriber, or made available for another subscriber to…
 
-### Webmail — 2 tickets
+### Webmail — 3 tickets
 
 - **[#10073](https://tbpro.zendesk.com/agent/tickets/10073)** · Thundermail in my browser — why: **concerned** · how: **investigated**
   > With my other emails I can open up my browser and they are already open for me to use. With Thundermail I have to sign in every time which is painful. Will this be fixed?
 - **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail? — why: **request** · how: **redirected**
   > Will I be able to sign in with a Passkey on a browser to access Thundermail in the near future?
+- **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode — why: **blocked** · how: **escalated**
+  > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
 
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#10076](https://tbpro.zendesk.com/agent/tickets/10076)** · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses 
   > You guys are going to love this, the problem has been discussed in great detail by myself and the community before I realized where I should be looking for support (here). I'm a…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode
-  > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -362,10 +359,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10053](https://tbpro.zendesk.com/agent/tickets/10053) · [pending] · 2026-10-14T22:29 · Monthly payment for new mail
 - [10058](https://tbpro.zendesk.com/agent/tickets/10058) · [pending] · 2026-10-15T00:47 · alias deletion 
 - [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15T01:55 · Refund Request for Thundermail Subscription
-- [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [open] · 2026-10-15T03:09 · Lockdown mode
+- [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [hold] · 2026-10-15T03:09 · Lockdown mode
 - [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [pending] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
 - [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [pending] · 2026-10-15T11:45 · Kan niet inloggen
-- [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [pending] · 2026-10-15T14:03 · alias management 
+- [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [open] · 2026-10-15T14:03 · alias management 
 - [10072](https://tbpro.zendesk.com/agent/tickets/10072) · [pending] · 2026-10-15T15:39 · Passkey for website Thundermail?
 - [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [pending] · 2026-10-15T15:41 · Thundermail in my browser
 - [10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15T19:09 · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses 
