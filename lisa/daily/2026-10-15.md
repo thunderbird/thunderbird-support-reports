@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 09:27 ET** · refreshes hourly_  
+_Updated: **2026-10-15 10:24 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 67** of rollout — **35,000 invitees**, **760 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 67** of rollout — **35,000 invitees**, **761 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **8** solved in last 24h
-- **760** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **8** solved in last 24h
+- **761** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (164 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
@@ -228,7 +228,7 @@ Regards, [name]_
 
 - [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · _Refund Request for Thundermail Subscription_
   > Hi [name], I would like to request a refund for my Thundermail subscription under the 30-day money-back guarantee policy. Here are my order details: - Account Email: [email] - Payment Platform: Paddle - Order /…
-- [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [new] · _Please cancel so i can change my thundermail email address_
+- [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [open] · _Please cancel so i can change my thundermail email address_
   > Please cancel so i can change my thundermail email address
 
 ## New ideas on FeatureOS
@@ -239,21 +239,20 @@ Regards, [name]_
   > What you’d like to seeThe option to collapse the labelsWhy it mattersThey wouldn’t take up as much space; it would be cleaner.Your use caseShare an example of how you’d use this feature in real…
 - [Label Bundling](https://ideas.tb.pro/p/label-bundling) · 1 votes · _untagged_
   > What you’d like to seeGroup emails with the same label (e.g., Receipts, Newsletters) into a single, collapsible row directly inside the main inbox, similar to Google Inbox and Simplify Gmail. Include…
-- [Accept Bitcoin Payments ](https://ideas.tb.pro/p/accept-bitcoin-payments) · 1 votes · _untagged_
+- [Accept Bitcoin Payments ](https://ideas.tb.pro/p/accept-bitcoin-payments) · 1 votes · _Privacy & Security, Accounts & Subscriptions, New Feature, Community_
   > What you’d like to seeAccept Bitcoin Payments in a non-kyc manner.Why it mattersSince you are offering a privacy focused service, accepting Bitcoin payment is a must otherwise there is nothing…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 602
 - **solved**: 82
-- **pending**: 46
+- **pending**: 47
 - **hold**: 20
-- **open**: 8
-- **new**: 2
+- **open**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 423
+- **Account Hub**: 424
 - **Thundermail**: 272
 - **Send**: 17
 - **Appointment**: 9
@@ -264,7 +263,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 161
 - **change request** + **actioned**: 107
-- **blocked** + **explained**: 100
+- **blocked** + **explained**: 101
 - **confused** + **explained**: 55
 - **curious** + **informed**: 41
 - **blocked** + **investigated**: 35
@@ -316,6 +315,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#10071](https://tbpro.zendesk.com/agent/tickets/10071)** · alias management 
+  > Hello, could you please tell me if Ia have to create aliases for thunder [domain] and [domain]? For example If I crate alias [email] is it possible for someone else to create…
+- **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion  — why: **curious** · how: **informed**
+  > When a subscriber deletes an @[domain] or @[domain] alias, is that address permanently retired, reserved for the original subscriber, or made available for another subscriber to…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10065](https://tbpro.zendesk.com/agent/tickets/10065)** · Please cancel so i can change my thundermail email address
@@ -323,20 +329,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10059](https://tbpro.zendesk.com/agent/tickets/10059)** · Refund Request for Thundermail Subscription — why: **change request** · how: **actioned**
   > Hi [name], I would like to request a refund for my Thundermail subscription under the 30-day money-back guarantee policy. Here are my order details: - Account Email: [email] -…
 
-### Other / uncategorized — 1 tickets
-
-- **[#10066](https://tbpro.zendesk.com/agent/tickets/10066)** · Kan niet inloggen
-  > mee helpen
-
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode
   > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
 
-### Aliases — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion  — why: **curious** · how: **informed**
-  > When a subscriber deletes an @[domain] or @[domain] alias, is that address permanently retired, reserved for the original subscriber, or made available for another subscriber to…
+- **[#10066](https://tbpro.zendesk.com/agent/tickets/10066)** · Kan niet inloggen — why: **blocked** · how: **explained**
+  > mee helpen
 
 ### Pricing — general pricing concern — 1 tickets
 
@@ -349,8 +350,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10058](https://tbpro.zendesk.com/agent/tickets/10058) · [pending] · 2026-10-15T00:47 · alias deletion 
 - [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15T01:55 · Refund Request for Thundermail Subscription
 - [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [open] · 2026-10-15T03:09 · Lockdown mode
-- [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [new] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
-- [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [new] · 2026-10-15T11:45 · Kan niet inloggen
+- [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [open] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
+- [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [pending] · 2026-10-15T11:45 · Kan niet inloggen
+- [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [open] · 2026-10-15T14:03 · alias management 
 
 ## Solved — last 24h
 
