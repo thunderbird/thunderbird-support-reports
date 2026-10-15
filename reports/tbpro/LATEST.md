@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 04:31 ET** · refreshes hourly_  
+_Updated: **2026-10-15 05:26 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **758 tickets** so fa
 - **758** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (163 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 78
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 79
 - **Median AHT**: 140.0h · mean 168.6h (proxy: updated_at − created_at, 83 solved tickets)
 
 ## Known problems — 12 problem(s), 97 incident(s)
@@ -230,8 +230,10 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Label Bundling](https://ideas.tb.pro/p/label-bundling) · 1 votes · _untagged_
+  > What you’d like to seeGroup emails with the same label (e.g., Receipts, Newsletters) into a single, collapsible row directly inside the main inbox, similar to Google Inbox and Simplify Gmail. Include…
 - [Accept Bitcoin Payments ](https://ideas.tb.pro/p/accept-bitcoin-payments) · 1 votes · _untagged_
   > What you’d like to seeAccept Bitcoin Payments in a non-kyc manner.Why it mattersSince you are offering a privacy focused service, accepting Bitcoin payment is a must otherwise there is nothing…
 
