@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 10:24 ET** · refreshes hourly_  
+_Updated: **2026-10-15 11:24 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -16,7 +16,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **761 tickets** so fa
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
 - **Median AHT**: 140.0h · mean 169.1h (proxy: updated_at − created_at, 82 solved tickets)
 
-## Known problems — 12 problem(s), 98 incident(s)
+## Known problems — 12 problem(s), 99 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **761 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 80 incident(s):
+- 81 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -103,6 +103,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **761 tickets** so fa
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [pending] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
+  - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [open] · 2026-10-06 · _Aliases not showing up_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [solved] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [solved] · 2026-10-08 · _Cancel and Refund_
@@ -235,9 +236,9 @@ Regards, [name]_
 
 **Last 24h** — 3 new:
 
-- [ Collapsible tags](https://ideas.tb.pro/p/collapsible-tags) · 1 votes · _untagged_
+- [ Collapsible tags](https://ideas.tb.pro/p/collapsible-tags) · 1 votes · _Thundermail, New Feature, Community_
   > What you’d like to seeThe option to collapse the labelsWhy it mattersThey wouldn’t take up as much space; it would be cleaner.Your use caseShare an example of how you’d use this feature in real…
-- [Label Bundling](https://ideas.tb.pro/p/label-bundling) · 1 votes · _untagged_
+- [Label Bundling](https://ideas.tb.pro/p/label-bundling) · 1 votes · _Thundermail, New Feature, Community_
   > What you’d like to seeGroup emails with the same label (e.g., Receipts, Newsletters) into a single, collapsible row directly inside the main inbox, similar to Google Inbox and Simplify Gmail. Include…
 - [Accept Bitcoin Payments ](https://ideas.tb.pro/p/accept-bitcoin-payments) · 1 votes · _Privacy & Security, Accounts & Subscriptions, New Feature, Community_
   > What you’d like to seeAccept Bitcoin Payments in a non-kyc manner.Why it mattersSince you are offering a privacy focused service, accepting Bitcoin payment is a must otherwise there is nothing…
@@ -246,14 +247,14 @@ Regards, [name]_
 
 - **closed**: 602
 - **solved**: 82
-- **pending**: 47
+- **pending**: 48
 - **hold**: 20
-- **open**: 10
+- **open**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 424
-- **Thundermail**: 272
+- **Account Hub**: 425
+- **Thundermail**: 271
 - **Send**: 17
 - **Appointment**: 9
 
@@ -261,8 +262,8 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 161
-- **change request** + **actioned**: 107
+- **curious** + **explained**: 160
+- **change request** + **actioned**: 108
 - **blocked** + **explained**: 101
 - **confused** + **explained**: 55
 - **curious** + **informed**: 41
