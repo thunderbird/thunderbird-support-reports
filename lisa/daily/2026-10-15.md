@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 07:21 ET** · refreshes hourly_  
+_Updated: **2026-10-15 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 67** of rollout — **35,000 invitees**, **758 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 67** of rollout — **35,000 invitees**, **760 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
-- **758** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **8** solved in last 24h
+- **760** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (164 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 80
 - **Median AHT**: 140.0h · mean 169.1h (proxy: updated_at − created_at, 82 solved tickets)
 
-## Known problems — 12 problem(s), 97 incident(s)
+## Known problems — 12 problem(s), 98 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **758 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 79 incident(s):
+- 80 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -112,6 +112,7 @@ Flight 8 is **day 67** of rollout — **35,000 invitees**, **758 tickets** so fa
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [solved] · 2026-10-14 · _Close account_
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [pending] · 2026-10-14 · _Rétractation abonnement._
+  - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15 · _Refund Request for Thundermail Subscription_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -223,10 +224,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
-- [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [open] · _Refund Request for Thundermail Subscription_
+- [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · _Refund Request for Thundermail Subscription_
   > Hi [name], I would like to request a refund for my Thundermail subscription under the 30-day money-back guarantee policy. Here are my order details: - Account Email: [email] - Payment Platform: Paddle - Order /…
+- [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [new] · _Please cancel so i can change my thundermail email address_
+  > Please cancel so i can change my thundermail email address
 
 ## New ideas on FeatureOS
 
@@ -243,14 +246,15 @@ Regards, [name]_
 
 - **closed**: 602
 - **solved**: 82
-- **pending**: 45
+- **pending**: 46
 - **hold**: 20
-- **open**: 9
+- **open**: 8
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 423
-- **Thundermail**: 270
+- **Thundermail**: 272
 - **Send**: 17
 - **Appointment**: 9
 
@@ -259,10 +263,10 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 161
-- **change request** + **actioned**: 106
+- **change request** + **actioned**: 107
 - **blocked** + **explained**: 100
 - **confused** + **explained**: 55
-- **curious** + **informed**: 40
+- **curious** + **informed**: 41
 - **blocked** + **investigated**: 35
 - **request** + **redirected**: 34
 - **confused** + **informed**: 32
@@ -312,19 +316,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10065](https://tbpro.zendesk.com/agent/tickets/10065)** · Please cancel so i can change my thundermail email address
+  > Please cancel so i can change my thundermail email address
+- **[#10059](https://tbpro.zendesk.com/agent/tickets/10059)** · Refund Request for Thundermail Subscription — why: **change request** · how: **actioned**
+  > Hi [name], I would like to request a refund for my Thundermail subscription under the 30-day money-back guarantee policy. Here are my order details: - Account Email: [email] -…
+
+### Other / uncategorized — 1 tickets
+
+- **[#10066](https://tbpro.zendesk.com/agent/tickets/10066)** · Kan niet inloggen
+  > mee helpen
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode
   > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10059](https://tbpro.zendesk.com/agent/tickets/10059)** · Refund Request for Thundermail Subscription
-  > Hi [name], I would like to request a refund for my Thundermail subscription under the 30-day money-back guarantee policy. Here are my order details: - Account Email: [email] -…
-
 ### Aliases — 1 tickets
 
-- **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion 
+- **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion  — why: **curious** · how: **informed**
   > When a subscriber deletes an @[domain] or @[domain] alias, is that address permanently retired, reserved for the original subscriber, or made available for another subscriber to…
 
 ### Pricing — general pricing concern — 1 tickets
@@ -335,9 +346,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10053](https://tbpro.zendesk.com/agent/tickets/10053) · [pending] · 2026-10-14T22:29 · Monthly payment for new mail
-- [10058](https://tbpro.zendesk.com/agent/tickets/10058) · [open] · 2026-10-15T00:47 · alias deletion 
-- [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [open] · 2026-10-15T01:55 · Refund Request for Thundermail Subscription
+- [10058](https://tbpro.zendesk.com/agent/tickets/10058) · [pending] · 2026-10-15T00:47 · alias deletion 
+- [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15T01:55 · Refund Request for Thundermail Subscription
 - [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [open] · 2026-10-15T03:09 · Lockdown mode
+- [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [new] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
+- [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [new] · 2026-10-15T11:45 · Kan niet inloggen
 
 ## Solved — last 24h
 
