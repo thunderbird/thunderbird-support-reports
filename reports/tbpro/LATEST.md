@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 20:52 ET** · refreshes hourly_  
+_Updated: **2026-10-15 21:28 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -251,9 +251,9 @@ Regards, [name]_
 
 - **closed**: 620
 - **solved**: 67
-- **pending**: 55
+- **pending**: 54
 - **hold**: 20
-- **open**: 7
+- **open**: 8
 - **new**: 1
 
 ## Service (cumulative)
@@ -321,15 +321,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Webmail — 3 tickets
-
-- **[#10073](https://tbpro.zendesk.com/agent/tickets/10073)** · Thundermail in my browser — why: **concerned** · how: **investigated**
-  > With my other emails I can open up my browser and they are already open for me to use. With Thundermail I have to sign in every time which is painful. Will this be fixed?
-- **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail? — why: **request** · how: **redirected**
-  > Will I be able to sign in with a Passkey on a browser to access Thundermail in the near future?
-- **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode — why: **blocked** · how: **escalated**
-  > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
-
 ### Aliases — 3 tickets
 
 - **[#10071](https://tbpro.zendesk.com/agent/tickets/10071)** · alias management  — why: **request** · how: **redirected**
@@ -338,6 +329,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Please cancel so i can change my thundermail email address
 - **[#10058](https://tbpro.zendesk.com/agent/tickets/10058)** · alias deletion  — why: **curious** · how: **informed**
   > When a subscriber deletes an @[domain] or @[domain] alias, is that address permanently retired, reserved for the original subscriber, or made available for another subscriber to…
+
+### Webmail — 2 tickets
+
+- **[#10073](https://tbpro.zendesk.com/agent/tickets/10073)** · Thundermail in my browser — why: **concerned** · how: **investigated**
+  > With my other emails I can open up my browser and they are already open for me to use. With Thundermail I have to sign in every time which is painful. Will this be fixed?
+- **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail? — why: **request** · how: **redirected**
+  > Will I be able to sign in with a Passkey on a browser to access Thundermail in the near future?
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode — why: **blocked** · how: **escalated**
+  > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -364,7 +367,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10053](https://tbpro.zendesk.com/agent/tickets/10053) · [pending] · 2026-10-14T22:29 · Monthly payment for new mail
 - [10058](https://tbpro.zendesk.com/agent/tickets/10058) · [pending] · 2026-10-15T00:47 · alias deletion 
 - [10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15T01:55 · Refund Request for Thundermail Subscription
-- [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [pending] · 2026-10-15T03:09 · Lockdown mode
+- [10060](https://tbpro.zendesk.com/agent/tickets/10060) · [open] · 2026-10-15T03:09 · Lockdown mode
 - [10065](https://tbpro.zendesk.com/agent/tickets/10065) · [pending] · 2026-10-15T11:40 · Please cancel so i can change my thundermail email address
 - [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [pending] · 2026-10-15T11:45 · Kan niet inloggen
 - [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [pending] · 2026-10-15T14:03 · alias management 
