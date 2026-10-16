@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 15:18 ET** · refreshes hourly_  
+_Updated: **2026-10-16 16:22 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 68** of rollout — **35,000 invitees**, **781 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
-- **Median AHT**: 127.9h · mean 157.7h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 127.1h · mean 156.7h (proxy: updated_at − created_at, 62 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"domain linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
+- **"linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
 - **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
 ## Known problems — 12 problem(s), 100 incident(s)
@@ -255,10 +255,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 626
-- **solved**: 63
-- **pending**: 63
+- **solved**: 62
+- **pending**: 60
 - **hold**: 19
-- **open**: 10
+- **open**: 14
 
 ## Service (cumulative)
 
@@ -354,15 +354,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird signup — 2 tickets
 
-- **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
-  > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
 - **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list — why: **confused** · how: **explained**
   > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
+- **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
+  > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#10106](https://tbpro.zendesk.com/agent/tickets/10106)** · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
   > Dear [name], Greetings from India. Hope you are doing well. Amanda, I'm facing two issues in my thundermail account for email id - [email] I'm getting multiple or repetitive…
+
+### Pricing — payment issue — 1 tickets
+
+- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
+  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -373,11 +378,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email] — why: **blocked** · how: **informed**
   > Želim da se prijavim na moju mejl adresu, ali bezuspešno
-
-### Pricing — payment issue — 1 tickets
-
-- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
-  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
 
 ### Webmail — 1 tickets
 
@@ -391,14 +391,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [pending] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
+- [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [open] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
 - [10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15T21:08 · Cancel my subscription
 - [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [pending] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
 - [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [pending] · 2026-10-15T23:04 · Sending from a custom domain
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [open] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [pending] · 2026-10-16T05:05 · I changed my mind
 - [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [open] · 2026-10-16T10:26 · Kalender
-- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [pending] · 2026-10-16T11:02 · Thundermail payment page
+- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [open] · 2026-10-16T11:02 · Thundermail payment page
 - [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [open] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
 - [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
 - [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [pending] · 2026-10-16T13:51 · [email]
