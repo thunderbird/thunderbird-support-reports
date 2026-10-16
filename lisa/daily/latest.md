@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 00:25 ET** · refreshes hourly_  
+_Updated: **2026-10-16 01:22 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **770 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **771 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
-- **770** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **4** solved in last 24h
+- **771** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 81
@@ -245,11 +245,11 @@ _(none in last 24h)_
 - **pending**: 54
 - **hold**: 18
 - **open**: 10
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 428
+- **Account Hub**: 429
 - **Thundermail**: 276
 - **Send**: 17
 - **Appointment**: 9
@@ -319,6 +319,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list
   > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind
+  > Cancel subscribsion.. Too expensive for me
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
@@ -347,6 +352,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [open] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
 - [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [open] · 2026-10-15T23:04 · Sending from a custom domain
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [new] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
+- [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [new] · 2026-10-16T05:05 · I changed my mind
 
 ## Solved — last 24h
 
