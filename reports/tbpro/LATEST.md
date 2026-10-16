@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 06:23 ET** · refreshes hourly_  
+_Updated: **2026-10-16 07:21 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **771 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **773 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **4** solved in last 24h
-- **771** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **4** solved in last 24h
+- **773** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 81
@@ -245,12 +245,12 @@ _(none in last 24h)_
 - **pending**: 53
 - **hold**: 18
 - **open**: 11
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 429
-- **Thundermail**: 276
+- **Thundermail**: 277
 - **Send**: 17
 - **Appointment**: 9
 
@@ -312,22 +312,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page
+  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
+- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind
+  > Cancel subscribsion.. Too expensive for me
+
+### Other / uncategorized — 2 tickets
+
+- **[#10093](https://tbpro.zendesk.com/agent/tickets/10093)** · Kalender
+  > Kalender auf der E-Mailseite
+- **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
+  > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
+
 ### Account access issues — 2 tickets
 
 - **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
   > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
 - **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list
   > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind
-  > Cancel subscribsion.. Too expensive for me
-
-### Other / uncategorized — 1 tickets
-
-- **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
-  > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
 
 ### Webmail — 1 tickets
 
@@ -353,6 +357,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [open] · 2026-10-15T23:04 · Sending from a custom domain
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [new] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [new] · 2026-10-16T05:05 · I changed my mind
+- [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [new] · 2026-10-16T10:26 · Kalender
+- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [new] · 2026-10-16T11:02 · Thundermail payment page
 
 ## Solved — last 24h
 
