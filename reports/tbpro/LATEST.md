@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 11:21 ET** · refreshes hourly_  
+_Updated: **2026-10-16 13:19 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **780 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **777 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **5** solved in last 24h
-- **780** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **5** solved in last 24h
+- **777** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 128.9h · mean 166.1h (proxy: updated_at − created_at, 68 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
+- **Median AHT**: 128.6h · mean 161.6h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -107,8 +107,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [closed] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [pending] · 2026-10-05 · _Thundermail account cancellation and refund_
   - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [hold] · 2026-10-05 · _Account deletion_
-  - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [solved] · 2026-10-05 · _Account deletion and refund_
-  - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [solved] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
+  - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [closed] · 2026-10-05 · _Account deletion and refund_
+  - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [closed] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [solved] · 2026-10-06 · _Aliases not showing up_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [solved] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
@@ -235,13 +235,15 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [open] · _cancel account thunderbird_
+- [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [pending] · _cancel account thunderbird_
   > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Multiple events in Appointment + confirmation email](https://ideas.tb.pro/p/multiple-events-in-appointment-confirmation-email) · 1 votes · _untagged_
+  > I would like to have the ability to create multiple events in Appointment. Multiple events would be for segmenting different use cases for those events. Why it mattersI have different uses for…
 - [Quick access to mails folders](https://ideas.tb.pro/p/quick-access-to-mails-folders) · 1 votes · _untagged_
   > When clicking on “inbox” or “sent mails” going directly to the content of “inbox” or “sent mails” instead of having to click on the bottom-left button to unfold the foler panelBriefly describe the…
 - [Passkeys](https://ideas.tb.pro/p/passkeys) · 1 votes · _untagged_
@@ -249,16 +251,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 620
-- **solved**: 68
-- **pending**: 57
+- **closed**: 623
+- **solved**: 65
+- **pending**: 59
 - **hold**: 18
-- **open**: 17
+- **open**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 433
-- **Thundermail**: 280
+- **Thundermail**: 277
 - **Send**: 17
 - **Appointment**: 9
 
@@ -270,14 +272,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 110
 - **blocked** + **explained**: 101
 - **confused** + **explained**: 56
-- **curious** + **informed**: 41
+- **curious** + **informed**: 42
 - **request** + **redirected**: 36
 - **blocked** + **investigated**: 36
 - **confused** + **informed**: 32
 - **blocked** + **redirected**: 30
 - **concerned** + **explained**: 27
 - **blocked** + **escalated**: 16
-- **blocked** + **informed**: 15
+- **blocked** + **informed**: 16
 - **change request** + **explained**: 8
 - **concerned** + **—**: 7
 - **blocked** + **—**: 7
@@ -304,6 +306,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
+- **change request** + **informed**: 2
 - **concerned** + **n/a**: 2
 - **curious** + **escalated**: 1
 - **telling us** + **informed**: 1
@@ -316,31 +319,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **redirected**: 1
 - **telling us** + **investigated**: 1
 - **request** + **actioned**: 1
-- **change request** + **informed**: 1
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 3 tickets
 
-- **[#10101](https://tbpro.zendesk.com/agent/tickets/10101)** · I can not get into my e mail
-  > Let me in my email
-- **[#10100](https://tbpro.zendesk.com/agent/tickets/10100)** · mail
-  > Thunderbird is no accepting my password, I already subscribed my donation which was already charge to my credit card
-- **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email]
-  > Želim da se prijavim na moju mejl adresu, ali bezuspešno
 - **[#10095](https://tbpro.zendesk.com/agent/tickets/10095)** · Mozilla Thunderbird Re-INSTALLING 
   > Good afternoon. I had to change my hard drive. When I tried to reinstall Mozilla Thunderbird it did not show my previous emails, folders or address book. I have checked the…
 - **[#10093](https://tbpro.zendesk.com/agent/tickets/10093)** · Kalender
   > Kalender auf der E-Mailseite
 - **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
   > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10102](https://tbpro.zendesk.com/agent/tickets/10102)** · cancel account thunderbird
-  > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
-- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
-  > Cancel subscribsion.. Too expensive for me
 
 ### Account access issues — 2 tickets
 
@@ -349,20 +338,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
   > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
 
-### Spam / Junk Filtering — 1 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#10098](https://tbpro.zendesk.com/agent/tickets/10098)** · Are messages in the Junk Mail folder automatically deleted after a while?
-  > As per the subject, I'd like to know whether Thundermail automatically deletes messages in the Junk Mail folder after a certain period. I'd prefer to keep them there indefinitely…
+- **[#10102](https://tbpro.zendesk.com/agent/tickets/10102)** · cancel account thunderbird — why: **change request** · how: **informed**
+  > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
+- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
+  > Cancel subscribsion.. Too expensive for me
 
 ### Webmail — 1 tickets
 
 - **[#10082](https://tbpro.zendesk.com/agent/tickets/10082)** · Sending from a custom domain
   > I set up a custom domain in Thundermail, and I can receive emails at it, but it doesn't show up as an option to send _from._ This article implies that it should work:…
 
-### App setup / configuration — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#10078](https://tbpro.zendesk.com/agent/tickets/10078)** · Firefox Relay Emails Consistently Being Sent to Junk in Thundermail
-  > All email forwarded from Firefox Relay to my Thundermail address is being classified as Junk. Direct email to `[email]` is delivered to Inbox normally. I tested this with a newly…
+- **[#10098](https://tbpro.zendesk.com/agent/tickets/10098)** · Are messages in the Junk Mail folder automatically deleted after a while? — why: **curious** · how: **informed**
+  > As per the subject, I'd like to know whether Thundermail automatically deletes messages in the Junk Mail folder after a certain period. I'd prefer to keep them there indefinitely…
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email] — why: **blocked** · how: **informed**
+  > Želim da se prijavim na moju mejl adresu, ali bezuspešno
 
 ### Early bird signup — 1 tickets
 
@@ -381,7 +377,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10078](https://tbpro.zendesk.com/agent/tickets/10078) · [open] · 2026-10-15T20:10 · Firefox Relay Emails Consistently Being Sent to Junk in Thundermail
 - [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [open] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
 - [10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15T21:08 · Cancel my subscription
 - [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [pending] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
@@ -392,11 +387,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [pending] · 2026-10-16T11:02 · Thundermail payment page
 - [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [open] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
 - [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
-- [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [open] · 2026-10-16T13:51 · [email]
-- [10098](https://tbpro.zendesk.com/agent/tickets/10098) · [open] · 2026-10-16T13:55 · Are messages in the Junk Mail folder automatically deleted after a while?
-- [10100](https://tbpro.zendesk.com/agent/tickets/10100) · [open] · 2026-10-16T14:46 · mail
-- [10101](https://tbpro.zendesk.com/agent/tickets/10101) · [open] · 2026-10-16T14:48 · I can not get into my e mail
-- [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [open] · 2026-10-16T14:50 · cancel account thunderbird
+- [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [pending] · 2026-10-16T13:51 · [email]
+- [10098](https://tbpro.zendesk.com/agent/tickets/10098) · [pending] · 2026-10-16T13:55 · Are messages in the Junk Mail folder automatically deleted after a while?
+- [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [pending] · 2026-10-16T14:50 · cancel account thunderbird
 
 ## Solved — last 24h
 
