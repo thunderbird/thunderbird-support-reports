@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 07:21 ET** · refreshes hourly_  
+_Updated: **2026-10-16 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **773 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **775 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **4** solved in last 24h
-- **773** tickets total since launch · contact rate **2%** of 35000 invitees
+- **11** new tickets in last 24h · **4** solved in last 24h
+- **775** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 81
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
 - **Median AHT**: 129.2h · mean 167.1h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## Known problems — 12 problem(s), 100 incident(s)
@@ -233,8 +233,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Quick access to mails folders](https://ideas.tb.pro/p/quick-access-to-mails-folders) · 1 votes · _untagged_
+  > When clicking on “inbox” or “sent mails” going directly to the content of “inbox” or “sent mails” instead of having to click on the bottom-left button to unfold the foler panelBriefly describe the…
 - [Passkeys](https://ideas.tb.pro/p/passkeys) · 1 votes · _untagged_
   > What you’d like to seePasskey login for in browser ThundermailWhy it mattersQuicker and simpler login processYour use caseI would use it most of the time to login
 
@@ -242,15 +244,15 @@ _(none in last 24h)_
 
 - **closed**: 620
 - **solved**: 67
-- **pending**: 53
+- **pending**: 55
 - **hold**: 18
-- **open**: 11
-- **new**: 4
+- **open**: 10
+- **new**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 429
-- **Thundermail**: 277
+- **Account Hub**: 430
+- **Thundermail**: 278
 - **Send**: 17
 - **Appointment**: 9
 
@@ -258,7 +260,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 160
+- **curious** + **explained**: 161
 - **change request** + **actioned**: 109
 - **blocked** + **explained**: 101
 - **confused** + **explained**: 56
@@ -312,6 +314,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10095](https://tbpro.zendesk.com/agent/tickets/10095)** · Mozilla Thunderbird Re-INSTALLING 
+  > Good afternoon. I had to change my hard drive. When I tried to reinstall Mozilla Thunderbird it did not show my previous emails, folders or address book. I have checked the…
+- **[#10093](https://tbpro.zendesk.com/agent/tickets/10093)** · Kalender
+  > Kalender auf der E-Mailseite
+- **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
+  > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page
@@ -319,19 +330,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind
   > Cancel subscribsion.. Too expensive for me
 
-### Other / uncategorized — 2 tickets
-
-- **[#10093](https://tbpro.zendesk.com/agent/tickets/10093)** · Kalender
-  > Kalender auf der E-Mailseite
-- **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
-  > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
-
 ### Account access issues — 2 tickets
 
-- **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
-  > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
 - **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list
   > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
+- **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
+  > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
 
 ### Webmail — 1 tickets
 
@@ -343,6 +347,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10078](https://tbpro.zendesk.com/agent/tickets/10078)** · Firefox Relay Emails Consistently Being Sent to Junk in Thundermail
   > All email forwarded from Firefox Relay to my Thundermail address is being classified as Junk. Direct email to `[email]` is delivered to Inbox normally. I tested this with a newly…
 
+### Early bird signup — 1 tickets
+
+- **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
+  > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10080](https://tbpro.zendesk.com/agent/tickets/10080)** · Cancel my subscription — why: **change request** · how: **actioned**
@@ -353,12 +362,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10078](https://tbpro.zendesk.com/agent/tickets/10078) · [open] · 2026-10-15T20:10 · Firefox Relay Emails Consistently Being Sent to Junk in Thundermail
 - [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [open] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
 - [10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15T21:08 · Cancel my subscription
-- [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [open] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
+- [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [pending] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
 - [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [open] · 2026-10-15T23:04 · Sending from a custom domain
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [new] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [new] · 2026-10-16T05:05 · I changed my mind
 - [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [new] · 2026-10-16T10:26 · Kalender
 - [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [new] · 2026-10-16T11:02 · Thundermail payment page
+- [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [new] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
+- [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
 
 ## Solved — last 24h
 
