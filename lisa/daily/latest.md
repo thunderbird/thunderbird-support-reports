@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 13:19 ET** · refreshes hourly_  
+_Updated: **2026-10-16 14:26 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 68** of rollout — **35,000 invitees**, **777 tickets** so fa
 
 ## At a glance
 
-- **13** new tickets in last 24h · **5** solved in last 24h
+- **13** new tickets in last 24h · **6** solved in last 24h
 - **777** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
-- **Median AHT**: 128.6h · mean 161.6h (proxy: updated_at − created_at, 65 solved tickets)
+- **Median AHT**: 128.3h · mean 159.5h (proxy: updated_at − created_at, 66 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -252,15 +252,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 623
-- **solved**: 65
-- **pending**: 59
-- **hold**: 18
-- **open**: 12
+- **solved**: 66
+- **pending**: 63
+- **hold**: 19
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 433
-- **Thundermail**: 277
+- **Account Hub**: 434
+- **Thundermail**: 276
 - **Send**: 17
 - **Appointment**: 9
 
@@ -268,18 +268,18 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 161
+- **curious** + **explained**: 162
 - **change request** + **actioned**: 110
 - **blocked** + **explained**: 101
-- **confused** + **explained**: 56
+- **confused** + **explained**: 57
 - **curious** + **informed**: 42
-- **request** + **redirected**: 36
+- **request** + **redirected**: 37
 - **blocked** + **investigated**: 36
 - **confused** + **informed**: 32
 - **blocked** + **redirected**: 30
 - **concerned** + **explained**: 27
-- **blocked** + **escalated**: 16
 - **blocked** + **informed**: 16
+- **blocked** + **escalated**: 15
 - **change request** + **explained**: 8
 - **concerned** + **—**: 7
 - **blocked** + **—**: 7
@@ -331,13 +331,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
   > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
 
-### Account access issues — 2 tickets
-
-- **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list
-  > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
-- **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
-  > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
-
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10102](https://tbpro.zendesk.com/agent/tickets/10102)** · cancel account thunderbird — why: **change request** · how: **informed**
@@ -345,10 +338,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
   > Cancel subscribsion.. Too expensive for me
 
-### Webmail — 1 tickets
+### Early bird signup — 2 tickets
 
-- **[#10082](https://tbpro.zendesk.com/agent/tickets/10082)** · Sending from a custom domain
-  > I set up a custom domain in Thundermail, and I can receive emails at it, but it doesn't show up as an option to send _from._ This article implies that it should work:…
+- **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
+  > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
+- **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list — why: **confused** · how: **explained**
+  > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -360,15 +355,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email] — why: **blocked** · how: **informed**
   > Želim da se prijavim na moju mejl adresu, ali bezuspešno
 
-### Early bird signup — 1 tickets
-
-- **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
-  > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
-
 ### Pricing — payment issue — 1 tickets
 
 - **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
   > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
+
+### Webmail — 1 tickets
+
+- **[#10082](https://tbpro.zendesk.com/agent/tickets/10082)** · Sending from a custom domain — why: **curious** · how: **explained**
+  > I set up a custom domain in Thundermail, and I can receive emails at it, but it doesn't show up as an option to send _from._ This article implies that it should work:…
+
+### Account access issues — 1 tickets
+
+- **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
+  > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -377,10 +377,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [open] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
+- [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [pending] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
 - [10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15T21:08 · Cancel my subscription
 - [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [pending] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
-- [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [open] · 2026-10-15T23:04 · Sending from a custom domain
+- [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [pending] · 2026-10-15T23:04 · Sending from a custom domain
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [open] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [pending] · 2026-10-16T05:05 · I changed my mind
 - [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [open] · 2026-10-16T10:26 · Kalender
@@ -398,6 +398,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9545](https://tbpro.zendesk.com/agent/tickets/9545) · 2026-10-15T23:34 · How to use early questions
 - 👍 [9638](https://tbpro.zendesk.com/agent/tickets/9638) · 2026-10-16T03:34 · Mails coming from Firefox Relax are always marked as Spam
 - · [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-16T13:47 · Expired Thundermail beta invitation link – request for a new one
+- · [10073](https://tbpro.zendesk.com/agent/tickets/10073) · 2026-10-16T17:24 · Thundermail in my browser
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
