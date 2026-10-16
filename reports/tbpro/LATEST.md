@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 09:24 ET** · refreshes hourly_  
+_Updated: **2026-10-16 10:24 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **775 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **777 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **4** solved in last 24h
-- **775** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **5** solved in last 24h
+- **777** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
-- **Median AHT**: 129.2h · mean 167.1h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 128.9h · mean 166.1h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 12 problem(s), 100 incident(s)
 
@@ -243,15 +243,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 620
-- **solved**: 67
-- **pending**: 55
+- **solved**: 68
+- **pending**: 58
 - **hold**: 18
-- **open**: 14
-- **new**: 1
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 430
+- **Account Hub**: 432
 - **Thundermail**: 278
 - **Send**: 17
 - **Appointment**: 9
@@ -261,12 +260,12 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 161
-- **change request** + **actioned**: 109
+- **change request** + **actioned**: 110
 - **blocked** + **explained**: 101
 - **confused** + **explained**: 56
 - **curious** + **informed**: 41
 - **request** + **redirected**: 36
-- **blocked** + **investigated**: 35
+- **blocked** + **investigated**: 36
 - **confused** + **informed**: 32
 - **blocked** + **redirected**: 30
 - **concerned** + **explained**: 27
@@ -314,8 +313,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email]
+  > Želim da se prijavim na moju mejl adresu, ali bezuspešno
 - **[#10095](https://tbpro.zendesk.com/agent/tickets/10095)** · Mozilla Thunderbird Re-INSTALLING 
   > Good afternoon. I had to change my hard drive. When I tried to reinstall Mozilla Thunderbird it did not show my previous emails, folders or address book. I have checked the…
 - **[#10093](https://tbpro.zendesk.com/agent/tickets/10093)** · Kalender
@@ -323,19 +324,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
   > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page
-  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
-- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind
-  > Cancel subscribsion.. Too expensive for me
-
 ### Account access issues — 2 tickets
 
 - **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list
   > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
 - **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
   > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10098](https://tbpro.zendesk.com/agent/tickets/10098)** · Are messages in the Junk Mail folder automatically deleted after a while?
+  > As per the subject, I'd like to know whether Thundermail automatically deletes messages in the Junk Mail folder after a certain period. I'd prefer to keep them there indefinitely…
 
 ### Webmail — 1 tickets
 
@@ -352,6 +351,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
   > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
 
+### Pricing — payment issue — 1 tickets
+
+- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
+  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
+  > Cancel subscribsion.. Too expensive for me
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10080](https://tbpro.zendesk.com/agent/tickets/10080)** · Cancel my subscription — why: **change request** · how: **actioned**
@@ -365,11 +374,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [pending] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
 - [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [open] · 2026-10-15T23:04 · Sending from a custom domain
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [open] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
-- [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [open] · 2026-10-16T05:05 · I changed my mind
+- [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [pending] · 2026-10-16T05:05 · I changed my mind
 - [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [open] · 2026-10-16T10:26 · Kalender
-- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [open] · 2026-10-16T11:02 · Thundermail payment page
-- [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [new] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
+- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [pending] · 2026-10-16T11:02 · Thundermail payment page
+- [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [open] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
 - [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
+- [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [open] · 2026-10-16T13:51 · [email]
+- [10098](https://tbpro.zendesk.com/agent/tickets/10098) · [open] · 2026-10-16T13:55 · Are messages in the Junk Mail folder automatically deleted after a while?
 
 ## Solved — last 24h
 
@@ -377,6 +388,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9982](https://tbpro.zendesk.com/agent/tickets/9982) · 2026-10-15T22:42 · verification of email does not work trying to sign up for your early bird thunderbird account
 - 👍 [9545](https://tbpro.zendesk.com/agent/tickets/9545) · 2026-10-15T23:34 · How to use early questions
 - 👍 [9638](https://tbpro.zendesk.com/agent/tickets/9638) · 2026-10-16T03:34 · Mails coming from Firefox Relax are always marked as Spam
+- · [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-16T13:47 · Expired Thundermail beta invitation link – request for a new one
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
