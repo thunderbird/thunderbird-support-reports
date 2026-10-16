@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 08:33 ET** · refreshes hourly_  
+_Updated: **2026-10-16 09:24 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -246,8 +246,8 @@ _(none in last 24h)_
 - **solved**: 67
 - **pending**: 55
 - **hold**: 18
-- **open**: 10
-- **new**: 5
+- **open**: 14
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -364,10 +364,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15T21:08 · Cancel my subscription
 - [10081](https://tbpro.zendesk.com/agent/tickets/10081) · [pending] · 2026-10-15T22:16 · Re: Support Feedback: MACOS installer for desktop connection issues?
 - [10082](https://tbpro.zendesk.com/agent/tickets/10082) · [open] · 2026-10-15T23:04 · Sending from a custom domain
-- [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [new] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
-- [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [new] · 2026-10-16T05:05 · I changed my mind
-- [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [new] · 2026-10-16T10:26 · Kalender
-- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [new] · 2026-10-16T11:02 · Thundermail payment page
+- [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [open] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
+- [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [open] · 2026-10-16T05:05 · I changed my mind
+- [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [open] · 2026-10-16T10:26 · Kalender
+- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [open] · 2026-10-16T11:02 · Thundermail payment page
 - [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [new] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
 - [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
 
