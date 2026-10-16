@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 17:19 ET** · refreshes hourly_  
+_Updated: **2026-10-16 18:20 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 68** of rollout — **35,000 invitees**, **781 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
-- **Median AHT**: 127.1h · mean 157.6h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 126.4h · mean 155.5h (proxy: updated_at − created_at, 63 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"domain linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
+- **"domain bpaaholdings"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
 - **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
 ## Known problems — 13 problem(s), 101 incident(s)
@@ -30,7 +30,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 4 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
-  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [solved] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
+  - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [closed] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
@@ -259,11 +259,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 626
-- **solved**: 64
-- **pending**: 63
+- **closed**: 627
+- **pending**: 65
+- **solved**: 63
 - **hold**: 20
-- **open**: 8
+- **open**: 6
 
 ## Service (cumulative)
 
@@ -355,11 +355,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10096](https://tbpro.zendesk.com/agent/tickets/10096)** · thundermail sign up — why: **curious** · how: **explained**
   > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
 
-### Pricing — payment issue — 1 tickets
-
-- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
-  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
-
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#10107](https://tbpro.zendesk.com/agent/tickets/10107)** · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com Report-ID: <[email]> — why: **confused** · how: **informed**
@@ -379,6 +374,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email] — why: **blocked** · how: **informed**
   > Želim da se prijavim na moju mejl adresu, ali bezuspešno
+
+### Pricing — payment issue — 1 tickets
+
+- **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
+  > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
 
 ### Webmail — 1 tickets
 
@@ -404,7 +404,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10083](https://tbpro.zendesk.com/agent/tickets/10083) · [open] · 2026-10-16T00:44 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - [10090](https://tbpro.zendesk.com/agent/tickets/10090) · [pending] · 2026-10-16T05:05 · I changed my mind
 - [10093](https://tbpro.zendesk.com/agent/tickets/10093) · [open] · 2026-10-16T10:26 · Kalender
-- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [open] · 2026-10-16T11:02 · Thundermail payment page
+- [10094](https://tbpro.zendesk.com/agent/tickets/10094) · [pending] · 2026-10-16T11:02 · Thundermail payment page
 - [10095](https://tbpro.zendesk.com/agent/tickets/10095) · [open] · 2026-10-16T11:34 · Mozilla Thunderbird Re-INSTALLING 
 - [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
 - [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [pending] · 2026-10-16T13:51 · [email]
