@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 21:28 ET** · refreshes hourly_  
+_Updated: **2026-10-15 22:30 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -252,8 +252,8 @@ Regards, [name]_
 - **closed**: 620
 - **solved**: 67
 - **pending**: 54
-- **hold**: 20
-- **open**: 8
+- **hold**: 19
+- **open**: 9
 - **new**: 1
 
 ## Service (cumulative)
@@ -337,15 +337,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10072](https://tbpro.zendesk.com/agent/tickets/10072)** · Passkey for website Thundermail? — why: **request** · how: **redirected**
   > Will I be able to sign in with a Passkey on a browser to access Thundermail in the near future?
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode — why: **blocked** · how: **escalated**
-  > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
-
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#10076](https://tbpro.zendesk.com/agent/tickets/10076)** · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses  — why: **change request** · how: **explained** · 🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
   > You guys are going to love this, the problem has been discussed in great detail by myself and the community before I realized where I should be looking for support (here). I'm a…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10060](https://tbpro.zendesk.com/agent/tickets/10060)** · Lockdown mode — why: **blocked** · how: **escalated**
+  > I just signed up for the Early Bird plan, but I can't use the webmail. Stormbox shows this error: "Stormbox cannot run in this browser. Missing: IndexedDB. Use Chrome 109+, Edge…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -373,7 +373,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [pending] · 2026-10-15T14:03 · alias management 
 - [10072](https://tbpro.zendesk.com/agent/tickets/10072) · [pending] · 2026-10-15T15:39 · Passkey for website Thundermail?
 - [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [open] · 2026-10-15T15:41 · Thundermail in my browser
-- [10076](https://tbpro.zendesk.com/agent/tickets/10076) · [hold] · 2026-10-15T19:09 · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses  🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
+- [10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15T19:09 · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses  🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
 
 ## Solved — last 24h
 
