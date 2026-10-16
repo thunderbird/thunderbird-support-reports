@@ -1,25 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 14:26 ET** · refreshes hourly_  
+_Updated: **2026-10-16 15:18 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **777 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **781 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **6** solved in last 24h
-- **777** tickets total since launch · contact rate **2%** of 35000 invitees
+- **17** new tickets in last 24h · **7** solved in last 24h
+- **781** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
-- **Median AHT**: 128.3h · mean 159.5h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 127.9h · mean 157.7h (proxy: updated_at − created_at, 63 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"domain linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
 - **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
 ## Known problems — 12 problem(s), 100 incident(s)
@@ -233,10 +234,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [pending] · _cancel account thunderbird_
   > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
+- [10109](https://tbpro.zendesk.com/agent/tickets/10109) · [open] · _Refund_
+  > Id like the a refund. The user experience is terrible.
 
 ## New ideas on FeatureOS
 
@@ -251,16 +254,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 623
-- **solved**: 66
+- **closed**: 626
+- **solved**: 63
 - **pending**: 63
 - **hold**: 19
-- **open**: 6
+- **open**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 434
-- **Thundermail**: 276
+- **Account Hub**: 435
+- **Thundermail**: 277
 - **Send**: 17
 - **Appointment**: 9
 
@@ -322,8 +325,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10108](https://tbpro.zendesk.com/agent/tickets/10108)** · password not working
+  > fix it
 - **[#10095](https://tbpro.zendesk.com/agent/tickets/10095)** · Mozilla Thunderbird Re-INSTALLING 
   > Good afternoon. I had to change my hard drive. When I tried to reinstall Mozilla Thunderbird it did not show my previous emails, folders or address book. I have checked the…
 - **[#10093](https://tbpro.zendesk.com/agent/tickets/10093)** · Kalender
@@ -331,12 +336,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
   > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#10109](https://tbpro.zendesk.com/agent/tickets/10109)** · Refund
+  > Id like the a refund. The user experience is terrible.
 - **[#10102](https://tbpro.zendesk.com/agent/tickets/10102)** · cancel account thunderbird — why: **change request** · how: **informed**
   > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
 - **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
   > Cancel subscribsion.. Too expensive for me
+
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+
+- **[#10107](https://tbpro.zendesk.com/agent/tickets/10107)** · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com Report-ID: <[email]>
+  > Hi [name], I have received this email and forwarding as it along with screenshot of the JSON note. I don't understand what this means. I have never received this kind of email…
+- **[#10080](https://tbpro.zendesk.com/agent/tickets/10080)** · Cancel my subscription — why: **change request** · how: **actioned**
+  > After an initial try out I thought would work out with my Windows 7, It appears y'all are not going to make the software solutions to be backward compatible with Win7. Our 4 year…
 
 ### Early bird signup — 2 tickets
 
@@ -344,6 +358,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I got an invitation to join the thundermail early bird. However, I'd love to know how I sign up without clicking a link in my mail, which I'd like to avoid on my work PC :)
 - **[#10079](https://tbpro.zendesk.com/agent/tickets/10079)** · Waitlist signup form loops - please confirm my email is on the list — why: **confused** · how: **explained**
   > Hi, I've been trying to sign up for the Thundermail waitlist from [domain] but it doesn't seem to go through. In Safari I just get a blank page after submitting. In Firefox the…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#10106](https://tbpro.zendesk.com/agent/tickets/10106)** · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
+  > Dear [name], Greetings from India. Hope you are doing well. Amanda, I'm facing two issues in my thundermail account for email id - [email] I'm getting multiple or repetitive…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -370,11 +389,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10081](https://tbpro.zendesk.com/agent/tickets/10081)** · Re: Support Feedback: MACOS installer for desktop connection issues? — why: **concerned** · how: **explained**
   > This is a follow-up to your previous request #9506 "MACOS installer for desktop..." I now have account setup and it went went smoothly after uninstalling and downloading…
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10080](https://tbpro.zendesk.com/agent/tickets/10080)** · Cancel my subscription — why: **change request** · how: **actioned**
-  > After an initial try out I thought would work out with my Windows 7, It appears y'all are not going to make the software solutions to be backward compatible with Win7. Our 4 year…
-
 ## New tickets — last 24h
 
 - [10079](https://tbpro.zendesk.com/agent/tickets/10079) · [pending] · 2026-10-15T20:36 · Waitlist signup form loops - please confirm my email is on the list
@@ -390,6 +404,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [pending] · 2026-10-16T13:51 · [email]
 - [10098](https://tbpro.zendesk.com/agent/tickets/10098) · [pending] · 2026-10-16T13:55 · Are messages in the Junk Mail folder automatically deleted after a while?
 - [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [pending] · 2026-10-16T14:50 · cancel account thunderbird
+- [10106](https://tbpro.zendesk.com/agent/tickets/10106) · [open] · 2026-10-16T18:46 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
+- [10107](https://tbpro.zendesk.com/agent/tickets/10107) · [open] · 2026-10-16T18:54 · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com 
+- [10108](https://tbpro.zendesk.com/agent/tickets/10108) · [open] · 2026-10-16T18:59 · password not working
+- [10109](https://tbpro.zendesk.com/agent/tickets/10109) · [open] · 2026-10-16T19:02 · Refund
 
 ## Solved — last 24h
 
@@ -399,6 +417,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9638](https://tbpro.zendesk.com/agent/tickets/9638) · 2026-10-16T03:34 · Mails coming from Firefox Relax are always marked as Spam
 - · [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-16T13:47 · Expired Thundermail beta invitation link – request for a new one
 - · [10073](https://tbpro.zendesk.com/agent/tickets/10073) · 2026-10-16T17:24 · Thundermail in my browser
+- · [9505](https://tbpro.zendesk.com/agent/tickets/9505) · 2026-10-16T19:02 · Aliases not showing up
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
