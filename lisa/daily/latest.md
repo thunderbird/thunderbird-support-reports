@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-15
 
-_Updated: **2026-10-15 19:18 ET** · refreshes hourly_  
+_Updated: **2026-10-15 20:52 ET** · refreshes hourly_  
 _24h window: 2026-10-14T16:00 → 2026-10-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 67** of rollout — **35,000 invitees**, **769 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 67** of rollout — **35,000 invitees**, **770 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **12** solved in last 24h
-- **769** tickets total since launch · contact rate **2%** of 35000 invitees
+- **770** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (168 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 81
-- **Median AHT**: 128.9h · mean 166.5h (proxy: updated_at − created_at, 66 solved tickets)
+- **Median AHT**: 129.2h · mean 167.0h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## Known problems — 12 problem(s), 100 incident(s)
 
@@ -250,10 +250,11 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 620
-- **solved**: 66
-- **pending**: 56
+- **solved**: 67
+- **pending**: 55
 - **hold**: 20
 - **open**: 7
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -368,7 +369,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10066](https://tbpro.zendesk.com/agent/tickets/10066) · [pending] · 2026-10-15T11:45 · Kan niet inloggen
 - [10071](https://tbpro.zendesk.com/agent/tickets/10071) · [pending] · 2026-10-15T14:03 · alias management 
 - [10072](https://tbpro.zendesk.com/agent/tickets/10072) · [pending] · 2026-10-15T15:39 · Passkey for website Thundermail?
-- [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [pending] · 2026-10-15T15:41 · Thundermail in my browser
+- [10073](https://tbpro.zendesk.com/agent/tickets/10073) · [open] · 2026-10-15T15:41 · Thundermail in my browser
 - [10076](https://tbpro.zendesk.com/agent/tickets/10076) · [hold] · 2026-10-15T19:09 · Thundermail Spam Filter Not Recognizing Firefox Relay Addresses  🔗 [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208)
 
 ## Solved — last 24h
