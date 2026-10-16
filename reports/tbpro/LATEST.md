@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 10:24 ET** · refreshes hourly_  
+_Updated: **2026-10-16 11:21 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **777 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **780 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **12 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **5** solved in last 24h
-- **777** tickets total since launch · contact rate **2%** of 35000 invitees
+- **16** new tickets in last 24h · **5** solved in last 24h
+- **780** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 82
 - **Median AHT**: 128.9h · mean 166.1h (proxy: updated_at − created_at, 68 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
 ## Known problems — 12 problem(s), 100 incident(s)
 
@@ -227,9 +233,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [open] · _cancel account thunderbird_
+  > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
 
 ## New ideas on FeatureOS
 
@@ -244,14 +251,14 @@ _(none in last 24h)_
 
 - **closed**: 620
 - **solved**: 68
-- **pending**: 58
+- **pending**: 57
 - **hold**: 18
-- **open**: 13
+- **open**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 432
-- **Thundermail**: 278
+- **Account Hub**: 433
+- **Thundermail**: 280
 - **Send**: 17
 - **Appointment**: 9
 
@@ -313,8 +320,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 6 tickets
 
+- **[#10101](https://tbpro.zendesk.com/agent/tickets/10101)** · I can not get into my e mail
+  > Let me in my email
+- **[#10100](https://tbpro.zendesk.com/agent/tickets/10100)** · mail
+  > Thunderbird is no accepting my password, I already subscribed my donation which was already charge to my credit card
 - **[#10097](https://tbpro.zendesk.com/agent/tickets/10097)** · [email]
   > Želim da se prijavim na moju mejl adresu, ali bezuspešno
 - **[#10095](https://tbpro.zendesk.com/agent/tickets/10095)** · Mozilla Thunderbird Re-INSTALLING 
@@ -323,6 +334,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Kalender auf der E-Mailseite
 - **[#10083](https://tbpro.zendesk.com/agent/tickets/10083)** · موبایل خاص منحصر بفرد هستم چطورر کجا......
   > سر تو منبع باز کردن از طریق منبع آزاد با ترفند سیم کارت رایتل ایرانسل و همراه اول و مخابرات هم که دارند تبدیلی سیم کارت منو می زنند با شل کن صفت کن وایفا از طریق تلفن ثابت تمام…
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10102](https://tbpro.zendesk.com/agent/tickets/10102)** · cancel account thunderbird
+  > I didn't know I had to pay for the thunderbird account. If so than I want to cancel my subscription/account
+- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
+  > Cancel subscribsion.. Too expensive for me
 
 ### Account access issues — 2 tickets
 
@@ -356,11 +374,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10094](https://tbpro.zendesk.com/agent/tickets/10094)** · Thundermail payment page — why: **blocked** · how: **investigated**
   > The payment page will not load completely. Just sits with pulsing shading in the information blanks.
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10090](https://tbpro.zendesk.com/agent/tickets/10090)** · I changed my mind — why: **change request** · how: **actioned**
-  > Cancel subscribsion.. Too expensive for me
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10080](https://tbpro.zendesk.com/agent/tickets/10080)** · Cancel my subscription — why: **change request** · how: **actioned**
@@ -381,6 +394,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10096](https://tbpro.zendesk.com/agent/tickets/10096) · [pending] · 2026-10-16T11:49 · thundermail sign up
 - [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [open] · 2026-10-16T13:51 · [email]
 - [10098](https://tbpro.zendesk.com/agent/tickets/10098) · [open] · 2026-10-16T13:55 · Are messages in the Junk Mail folder automatically deleted after a while?
+- [10100](https://tbpro.zendesk.com/agent/tickets/10100) · [open] · 2026-10-16T14:46 · mail
+- [10101](https://tbpro.zendesk.com/agent/tickets/10101) · [open] · 2026-10-16T14:48 · I can not get into my e mail
+- [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [open] · 2026-10-16T14:50 · cancel account thunderbird
 
 ## Solved — last 24h
 
