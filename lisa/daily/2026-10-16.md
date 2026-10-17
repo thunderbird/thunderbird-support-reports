@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 21:27 ET** · refreshes hourly_  
+_Updated: **2026-10-16 22:29 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 68** of rollout — **35,000 invitees**, **783 tickets** so fa
 
 ## At a glance
 
-- **16** new tickets in last 24h · **6** solved in last 24h
+- **16** new tickets in last 24h · **5** solved in last 24h
 - **783** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
-- **Median AHT**: 126.3h · mean 155.5h (proxy: updated_at − created_at, 62 solved tickets)
+- **Median AHT**: 126.4h · mean 157.6h (proxy: updated_at − created_at, 61 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
+- **"domain linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
 - **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
 ## Known problems — 13 problem(s), 103 incident(s)
@@ -263,10 +263,10 @@ Regards, [name]_
 
 - **closed**: 628
 - **pending**: 71
-- **solved**: 62
+- **solved**: 61
 - **hold**: 20
+- **open**: 2
 - **new**: 1
-- **open**: 1
 
 ## Service (cumulative)
 
@@ -423,7 +423,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [9545](https://tbpro.zendesk.com/agent/tickets/9545) · 2026-10-15T23:34 · How to use early questions
 - 👍 [9638](https://tbpro.zendesk.com/agent/tickets/9638) · 2026-10-16T03:34 · Mails coming from Firefox Relax are always marked as Spam
 - · [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-16T13:47 · Expired Thundermail beta invitation link – request for a new one
-- · [10073](https://tbpro.zendesk.com/agent/tickets/10073) · 2026-10-16T17:24 · Thundermail in my browser
 - · [9505](https://tbpro.zendesk.com/agent/tickets/9505) · 2026-10-16T19:02 · Aliases not showing up
 
 ---
