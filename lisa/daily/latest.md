@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-17
 
-_Updated: **2026-10-17 09:19 ET** · refreshes hourly_  
+_Updated: **2026-10-17 10:19 ET** · refreshes hourly_  
 _24h window: 2026-10-16T16:00 → 2026-10-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 69** of rollout — **35,000 invitees**, **785 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **5** solved in last 24h
+- **5** new tickets in last 24h · **9** solved in last 24h
 - **785** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 84
-- **Median AHT**: 127.1h · mean 160.8h (proxy: updated_at − created_at, 62 solved tickets)
+- **Median AHT**: 127.1h · mean 156.7h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -110,7 +110,7 @@ Flight 8 is **day 69** of rollout — **35,000 invitees**, **785 tickets** so fa
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [solved] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [pending] · 2026-10-11 · _Refund_
   - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [pending] · 2026-10-11 · _New subscription - canceling, requesting refund_
-  - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [pending] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
+  - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [solved] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [solved] · 2026-10-14 · _Close account_
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [pending] · 2026-10-14 · _Rétractation abonnement._
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15 · _Refund Request for Thundermail Subscription_
@@ -150,7 +150,7 @@ Flight 8 is **day 69** of rollout — **35,000 invitees**, **785 tickets** so fa
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
   - [#9081](https://tbpro.zendesk.com/agent/tickets/9081) · [closed] · 2026-09-25 · _error_
-  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [solved] · 2026-09-27 · _Unable to reset password_
+  - [#9186](https://tbpro.zendesk.com/agent/tickets/9186) · [closed] · 2026-09-27 · _Unable to reset password_
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [closed] · 2026-09-28 · _Thundermail_
 
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
@@ -247,9 +247,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 628
-- **pending**: 66
-- **solved**: 62
+- **closed**: 629
+- **solved**: 64
+- **pending**: 63
 - **hold**: 20
 - **open**: 6
 - **new**: 3
@@ -356,6 +356,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-16T20:47 · Delete alias
 - · [9982](https://tbpro.zendesk.com/agent/tickets/9982) · 2026-10-16T23:01 · verification of email does not work trying to sign up for your early bird thunderbird account
 - · [9404](https://tbpro.zendesk.com/agent/tickets/9404) · 2026-10-17T12:01 · URGENT NEW ACCOUNT CONFIG ISSUES
+- · [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-17T14:02 · Expired Thundermail beta invitation link – request for a new one
+- · [9668](https://tbpro.zendesk.com/agent/tickets/9668) · 2026-10-17T14:02 · Mot de passe perdu
+- · [9661](https://tbpro.zendesk.com/agent/tickets/9661) · 2026-10-17T14:02 · Please delete my Thunderbird Pro Account
+- · [9628](https://tbpro.zendesk.com/agent/tickets/9628) · 2026-10-17T14:02 · Risto Janković
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
