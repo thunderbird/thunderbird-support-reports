@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-17
 
-_Updated: **2026-10-17 17:18 ET** · refreshes hourly_  
+_Updated: **2026-10-17 18:18 ET** · refreshes hourly_  
 _24h window: 2026-10-16T16:00 → 2026-10-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 69** of rollout — **35,000 invitees**, **789 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 69** of rollout — **35,000 invitees**, **788 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **11** solved in last 24h
-- **789** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **11** solved in last 24h
+- **788** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 84
-- **Median AHT**: 140.7h · mean 169.0h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 141.4h · mean 163.1h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -142,7 +142,7 @@ Flight 8 is **day 69** of rollout — **35,000 invitees**, **789 tickets** so fa
 - 1 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
 
-### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · [stormbox] Stars misaligned in message list with blank message body
+### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [hold] · [stormbox/202] Stars misaligned in message list with blank message body
 - 🔧 GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
 - 1 incident(s):
   - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [hold] · 2026-09-26 · _featured off-site messages_
@@ -247,17 +247,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 643
-- **solved**: 58
-- **pending**: 53
-- **hold**: 20
-- **open**: 9
-- **new**: 6
+- **closed**: 646
+- **solved**: 56
+- **pending**: 51
+- **hold**: 19
+- **open**: 11
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 437
-- **Thundermail**: 284
+- **Thundermail**: 283
 - **Send**: 18
 - **Appointment**: 9
 
@@ -335,11 +335,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10129](https://tbpro.zendesk.com/agent/tickets/10129)** · Account deletion
   > I requested for my account deletion this past week. How long will it take for it get deleted and how long for refund to return
 
-### Account access issues — 1 tickets
-
-- **[#10127](https://tbpro.zendesk.com/agent/tickets/10127)** · Reset password in thunderbird mail account
-  > What drives the password, Spectrum account or Thunderbird account
-
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#10119](https://tbpro.zendesk.com/agent/tickets/10119)** · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB used
@@ -363,7 +358,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10116](https://tbpro.zendesk.com/agent/tickets/10116) · [new] · 2026-10-17T03:58 · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
 - [10119](https://tbpro.zendesk.com/agent/tickets/10119) · [new] · 2026-10-17T07:48 · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB
 - [10126](https://tbpro.zendesk.com/agent/tickets/10126) · [new] · 2026-10-17T17:18 · Can not set password after having to reconfigure my computer
-- [10127](https://tbpro.zendesk.com/agent/tickets/10127) · [new] · 2026-10-17T17:21 · Reset password in thunderbird mail account
 - [10129](https://tbpro.zendesk.com/agent/tickets/10129) · [new] · 2026-10-17T18:56 · Account deletion
 - [10130](https://tbpro.zendesk.com/agent/tickets/10130) · [open] · 2026-10-17T19:01 · Re: [Thundermail] Re: Account Deletion
 
