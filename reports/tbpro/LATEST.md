@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 22:29 ET** · refreshes hourly_  
+_Updated: **2026-10-16 23:24 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 68** of rollout — **35,000 invitees**, **783 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"domain linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
+- **"domain bpaaholdings"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
 - **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
 ## Known problems — 13 problem(s), 103 incident(s)
@@ -175,7 +175,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64) · _Mark or hide IMAP marked-as-deleted messages_
 - 🔧 GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 1 incident(s):
-  - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [pending] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
+  - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -262,10 +262,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 628
-- **pending**: 71
+- **pending**: 69
 - **solved**: 61
 - **hold**: 20
-- **open**: 2
+- **open**: 4
 - **new**: 1
 
 ## Service (cumulative)
@@ -363,15 +363,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10082](https://tbpro.zendesk.com/agent/tickets/10082)** · Sending from a custom domain — why: **curious** · how: **explained**
   > I set up a custom domain in Thundermail, and I can receive emails at it, but it doesn't show up as an option to send _from._ This article implies that it should work:…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#10107](https://tbpro.zendesk.com/agent/tickets/10107)** · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com Report-ID: <[email]> — why: **confused** · how: **informed**
-  > Hi [name], I have received this email and forwarding as it along with screenshot of the JSON note. I don't understand what this means. I have never received this kind of email…
-
 ### Aliases — 1 tickets
 
 - **[#10106](https://tbpro.zendesk.com/agent/tickets/10106)** · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails — why: **concerned** · how: **investigated**
   > Dear [name], Greetings from India. Hope you are doing well. Amanda, I'm facing two issues in my thundermail account for email id - [email] I'm getting multiple or repetitive…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#10107](https://tbpro.zendesk.com/agent/tickets/10107)** · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com Report-ID: <[email]> — why: **confused** · how: **informed**
+  > Hi [name], I have received this email and forwarding as it along with screenshot of the JSON note. I don't understand what this means. I have never received this kind of email…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -413,7 +413,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10097](https://tbpro.zendesk.com/agent/tickets/10097) · [pending] · 2026-10-16T13:51 · [email]
 - [10098](https://tbpro.zendesk.com/agent/tickets/10098) · [pending] · 2026-10-16T13:55 · Are messages in the Junk Mail folder automatically deleted after a while?
 - [10102](https://tbpro.zendesk.com/agent/tickets/10102) · [pending] · 2026-10-16T14:50 · cancel account thunderbird
-- [10106](https://tbpro.zendesk.com/agent/tickets/10106) · [pending] · 2026-10-16T18:46 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
+- [10106](https://tbpro.zendesk.com/agent/tickets/10106) · [open] · 2026-10-16T18:46 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
 - [10107](https://tbpro.zendesk.com/agent/tickets/10107) · [pending] · 2026-10-16T18:54 · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com 
 - [10109](https://tbpro.zendesk.com/agent/tickets/10109) · [pending] · 2026-10-16T19:02 · Refund
 
