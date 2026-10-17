@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-17
 
-_Updated: **2026-10-17 03:21 ET** · refreshes hourly_  
+_Updated: **2026-10-17 04:25 ET** · refreshes hourly_  
 _24h window: 2026-10-16T16:00 → 2026-10-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 69** of rollout — **35,000 invitees**, **784 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 69** of rollout — **35,000 invitees**, **785 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **784** tickets total since launch · contact rate **2%** of 35000 invitees
+- **5** new tickets in last 24h · **4** solved in last 24h
+- **785** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 83
@@ -251,13 +251,13 @@ _(none in last 24h)_
 - **solved**: 61
 - **hold**: 20
 - **open**: 4
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 436
 - **Thundermail**: 281
-- **Send**: 17
+- **Send**: 18
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -325,6 +325,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10114](https://tbpro.zendesk.com/agent/tickets/10114)** · can I use the above email address
   > above questiuion
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#10119](https://tbpro.zendesk.com/agent/tickets/10119)** · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB used
+  > Hello, I'd like to report a problem with Thunderbird Send. After I completed my Thundermail subscription, I started using Send on my computer. When I first set it up, I was asked…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10113](https://tbpro.zendesk.com/agent/tickets/10113)** · please delete account — why: **change request** · how: **actioned**
@@ -341,6 +346,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16T22:31 · please delete account
 - [10114](https://tbpro.zendesk.com/agent/tickets/10114) · [new] · 2026-10-16T23:42 · can I use the above email address
 - [10116](https://tbpro.zendesk.com/agent/tickets/10116) · [new] · 2026-10-17T03:58 · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
+- [10119](https://tbpro.zendesk.com/agent/tickets/10119) · [new] · 2026-10-17T07:48 · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB
 
 ## Solved — last 24h
 
