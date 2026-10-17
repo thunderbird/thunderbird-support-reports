@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-16
 
-_Updated: **2026-10-16 19:19 ET** · refreshes hourly_  
+_Updated: **2026-10-16 20:52 ET** · refreshes hourly_  
 _24h window: 2026-10-15T16:00 → 2026-10-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 68** of rollout — **35,000 invitees**, **782 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 68** of rollout — **35,000 invitees**, **783 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
 - **16** new tickets in last 24h · **6** solved in last 24h
-- **782** tickets total since launch · contact rate **2%** of 35000 invitees
+- **783** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (169 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 83
-- **Median AHT**: 126.4h · mean 155.9h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 126.3h · mean 155.5h (proxy: updated_at − created_at, 62 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"domain linked fastmail"** — 2 tickets in 24h (new; baseline 0 cum) — [#10106](https://tbpro.zendesk.com/agent/tickets/10106), [#10107](https://tbpro.zendesk.com/agent/tickets/10107)
 - **"cancel subscription"** — 2 tickets in 24h (6.7× baseline; baseline 20 cum) — [#10080](https://tbpro.zendesk.com/agent/tickets/10080), [#10102](https://tbpro.zendesk.com/agent/tickets/10102)
 
-## Known problems — 13 problem(s), 102 incident(s)
+## Known problems — 13 problem(s), 103 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -39,7 +39,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 83 incident(s):
+- 84 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -123,6 +123,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15 · _Cancel my subscription_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [pending] · 2026-10-16 · _Refund_
+  - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16 · _please delete account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -260,16 +261,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 627
-- **pending**: 70
-- **solved**: 63
+- **closed**: 628
+- **pending**: 71
+- **solved**: 62
 - **hold**: 20
-- **open**: 2
+- **new**: 1
+- **open**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 436
-- **Thundermail**: 280
+- **Thundermail**: 281
 - **Send**: 17
 - **Appointment**: 9
 
@@ -278,7 +280,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 162
-- **change request** + **actioned**: 111
+- **change request** + **actioned**: 112
 - **blocked** + **explained**: 101
 - **confused** + **explained**: 59
 - **curious** + **informed**: 42
