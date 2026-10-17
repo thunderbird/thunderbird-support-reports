@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-17
 
-_Updated: **2026-10-17 13:17 ET** · refreshes hourly_  
+_Updated: **2026-10-17 14:23 ET** · refreshes hourly_  
 _24h window: 2026-10-16T16:00 → 2026-10-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 69** of rollout — **35,000 invitees**, **785 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 69** of rollout — **35,000 invitees**, **787 tickets** so far (2.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **10** solved in last 24h
-- **785** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 94%  (169 good / 11 bad)
+- **7** new tickets in last 24h · **10** solved in last 24h
+- **787** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 94%  (170 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 84
-- **Median AHT**: 128.3h · mean 156.7h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 128.9h · mean 159.8h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -247,17 +247,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 634
-- **pending**: 62
-- **solved**: 60
+- **closed**: 636
+- **pending**: 61
+- **solved**: 58
 - **hold**: 20
-- **open**: 6
-- **new**: 3
+- **open**: 7
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 436
-- **Thundermail**: 281
+- **Thundermail**: 283
 - **Send**: 18
 - **Appointment**: 9
 
@@ -319,12 +319,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#10126](https://tbpro.zendesk.com/agent/tickets/10126)** · Can not set password after having to reconfigure my computer
+  > password
 - **[#10116](https://tbpro.zendesk.com/agent/tickets/10116)** · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
   > すぐに返事が欲しい
 - **[#10114](https://tbpro.zendesk.com/agent/tickets/10114)** · can I use the above email address
   > above questiuion
+
+### Account access issues — 1 tickets
+
+- **[#10127](https://tbpro.zendesk.com/agent/tickets/10127)** · Reset password in thunderbird mail account
+  > What drives the password, Spectrum account or Thunderbird account
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -348,6 +355,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10114](https://tbpro.zendesk.com/agent/tickets/10114) · [new] · 2026-10-16T23:42 · can I use the above email address
 - [10116](https://tbpro.zendesk.com/agent/tickets/10116) · [new] · 2026-10-17T03:58 · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
 - [10119](https://tbpro.zendesk.com/agent/tickets/10119) · [new] · 2026-10-17T07:48 · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB
+- [10126](https://tbpro.zendesk.com/agent/tickets/10126) · [new] · 2026-10-17T17:18 · Can not set password after having to reconfigure my computer
+- [10127](https://tbpro.zendesk.com/agent/tickets/10127) · [new] · 2026-10-17T17:21 · Reset password in thunderbird mail account
 
 ## Solved — last 24h
 
@@ -356,11 +365,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-16T20:47 · Delete alias
 - · [9982](https://tbpro.zendesk.com/agent/tickets/9982) · 2026-10-16T23:01 · verification of email does not work trying to sign up for your early bird thunderbird account
 - · [9404](https://tbpro.zendesk.com/agent/tickets/9404) · 2026-10-17T12:01 · URGENT NEW ACCOUNT CONFIG ISSUES
-- · [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-17T14:02 · Expired Thundermail beta invitation link – request for a new one
 - · [9668](https://tbpro.zendesk.com/agent/tickets/9668) · 2026-10-17T14:02 · Mot de passe perdu
 - · [9661](https://tbpro.zendesk.com/agent/tickets/9661) · 2026-10-17T14:02 · Please delete my Thunderbird Pro Account
 - · [9628](https://tbpro.zendesk.com/agent/tickets/9628) · 2026-10-17T14:02 · Risto Janković
 - · [9652](https://tbpro.zendesk.com/agent/tickets/9652) · 2026-10-17T16:01 · thunderbird android says unknown
+- · [9537](https://tbpro.zendesk.com/agent/tickets/9537) · 2026-10-17T18:01 · Boite Reception mails
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
