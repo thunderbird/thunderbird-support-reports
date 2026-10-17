@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-17
 
-_Updated: **2026-10-17 16:21 ET** · refreshes hourly_  
+_Updated: **2026-10-17 17:18 ET** · refreshes hourly_  
 _24h window: 2026-10-16T16:00 → 2026-10-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 69** of rollout — **35,000 invitees**, **789 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **13** solved in last 24h
+- **9** new tickets in last 24h · **11** solved in last 24h
 - **789** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 84
-- **Median AHT**: 131.6h · mean 164.1h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 140.7h · mean 169.0h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -109,7 +109,7 @@ Flight 8 is **day 69** of rollout — **35,000 invitees**, **789 tickets** so fa
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [solved] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [solved] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [solved] · 2026-10-11 · _Refund_
-  - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [pending] · 2026-10-11 · _New subscription - canceling, requesting refund_
+  - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [solved] · 2026-10-11 · _New subscription - canceling, requesting refund_
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [solved] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [solved] · 2026-10-14 · _Close account_
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [pending] · 2026-10-14 · _Rétractation abonnement._
@@ -247,9 +247,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 640
-- **pending**: 58
-- **solved**: 56
+- **closed**: 643
+- **solved**: 58
+- **pending**: 53
 - **hold**: 20
 - **open**: 9
 - **new**: 6
@@ -370,8 +370,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [9416](https://tbpro.zendesk.com/agent/tickets/9416) · 2026-10-16T20:02 · Separating business acct
-- · [9454](https://tbpro.zendesk.com/agent/tickets/9454) · 2026-10-16T20:41 · Custom Domain Not Working
-- · [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-16T20:47 · Delete alias
 - · [9982](https://tbpro.zendesk.com/agent/tickets/9982) · 2026-10-16T23:01 · verification of email does not work trying to sign up for your early bird thunderbird account
 - · [9404](https://tbpro.zendesk.com/agent/tickets/9404) · 2026-10-17T12:01 · URGENT NEW ACCOUNT CONFIG ISSUES
 - · [9668](https://tbpro.zendesk.com/agent/tickets/9668) · 2026-10-17T14:02 · Mot de passe perdu
