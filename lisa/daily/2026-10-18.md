@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-18 12:22 ET** · refreshes hourly_  
+_Updated: **2026-10-18 13:18 ET** · refreshes hourly_  
 _24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 70** of rollout — **35,000 invitees**, **792 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **12** solved in last 24h
-- **790** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **13** solved in last 24h
+- **792** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 87
-- **Median AHT**: 141.5h · mean 163.1h (proxy: updated_at − created_at, 48 solved tickets)
+- **Median AHT**: 141.6h · mean 166.1h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -106,7 +106,7 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so fa
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [solved] · 2026-10-06 · _Aliases not showing up_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [closed] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
-  - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [solved] · 2026-10-08 · _Cancel and Refund_
+  - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [closed] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [solved] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [solved] · 2026-10-11 · _Refund_
   - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [solved] · 2026-10-11 · _New subscription - canceling, requesting refund_
@@ -251,17 +251,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 658
-- **solved**: 48
+- **closed**: 661
+- **solved**: 45
 - **pending**: 45
 - **hold**: 19
 - **open**: 13
-- **new**: 7
+- **new**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 438
-- **Thundermail**: 284
+- **Thundermail**: 286
 - **Send**: 18
 - **Appointment**: 9
 
@@ -323,20 +323,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#10139](https://tbpro.zendesk.com/agent/tickets/10139)** · What happened to aliases?
+  > I no longer see the interface to create and destroy email aliases. Aliases are why I wanted the service. Were they removed?
+- **[#10132](https://tbpro.zendesk.com/agent/tickets/10132)** · email alias connected to imported domain is NOT receiving email
+  > Hello, I have transferred a domain ([domain]) into my thundermail account. One of the email alias linked to the imported domain: [email] is not receiving email messages sent from…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10138](https://tbpro.zendesk.com/agent/tickets/10138)** · the imap reception is blocked for 3 weeks, not the expedition
+  > What can i do ? reinstall thunderbird? one ddress in on windows11 and linux/ubuntu.
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#10133](https://tbpro.zendesk.com/agent/tickets/10133)** · deliverability
   > Almost all my thundermail emails are falling in spam of my recipients.
 
-### Aliases — 1 tickets
-
-- **[#10132](https://tbpro.zendesk.com/agent/tickets/10132)** · email alias connected to imported domain is NOT receiving email
-  > Hello, I have transferred a domain ([domain]) into my thundermail account. One of the email alias linked to the imported domain: [email] is not receiving email messages sent from…
-
 ## New tickets — last 24h
 
 - [10132](https://tbpro.zendesk.com/agent/tickets/10132) · [new] · 2026-10-17T23:34 · email alias connected to imported domain is NOT receiving email
 - [10133](https://tbpro.zendesk.com/agent/tickets/10133) · [new] · 2026-10-18T07:55 · deliverability
+- [10138](https://tbpro.zendesk.com/agent/tickets/10138) · [new] · 2026-10-18T16:31 · the imap reception is blocked for 3 weeks, not the expedition
+- [10139](https://tbpro.zendesk.com/agent/tickets/10139) · [new] · 2026-10-18T16:59 · What happened to aliases?
 
 ## Solved — last 24h
 
@@ -352,6 +361,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9983](https://tbpro.zendesk.com/agent/tickets/9983) · 2026-10-18T15:01 · I forgot the password for my Thundermail account.
 - · [9980](https://tbpro.zendesk.com/agent/tickets/9980) · 2026-10-18T15:01 · メ－ルの設定
 - · [9960](https://tbpro.zendesk.com/agent/tickets/9960) · 2026-10-18T16:01 · Waitlist/create account
+- · [10023](https://tbpro.zendesk.com/agent/tickets/10023) · 2026-10-18T16:24 · Close account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
