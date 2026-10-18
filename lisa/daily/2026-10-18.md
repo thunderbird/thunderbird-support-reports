@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-18 04:26 ET** · refreshes hourly_  
+_Updated: **2026-10-18 05:21 ET** · refreshes hourly_  
 _24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so fa
 - **790** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 84
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 85
 - **Median AHT**: 141.6h · mean 165.0h (proxy: updated_at − created_at, 51 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
@@ -240,9 +240,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Auto-Sorting](https://ideas.tb.pro/p/auto-sorting) · 1 votes · _untagged_
+  > What you’d like to seeI would like to see auto-sorting in the web-app. First iteration of basic "if from ___ then move to folder” more complex rules can be for later iterations.Why it mattersWhat…
 
 ## Status breakdown (cumulative)
 
