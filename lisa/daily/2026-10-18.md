@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-18 11:19 ET** · refreshes hourly_  
+_Updated: **2026-10-18 12:22 ET** · refreshes hourly_  
 _24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **11** solved in last 24h
+- **2** new tickets in last 24h · **12** solved in last 24h
 - **790** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 86
-- **Median AHT**: 141.5h · mean 164.9h (proxy: updated_at − created_at, 50 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 87
+- **Median AHT**: 141.5h · mean 163.1h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -240,8 +240,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Import .ics appointment directly from email](https://ideas.tb.pro/p/import-ics-appointment-directly-from-email) · 1 votes · _Thundermail, Appointment_
+  > What you’d like to seeWhen an .ics file is included as an attachment, I would like to be able to add the appointment to my calendar with a single click. Google Mail does this very well.Why it…
 - [Delete tagged emails from tag view](https://ideas.tb.pro/p/delete-tagged-emails-from-tag-view) · 1 votes · _untagged_
   > When viewing an email from the tag/folder option there is no delete option button or menu item.Additionally, deleting an email does not delete it from the tagged folder and since you can't delete…
 - [Auto-Sorting](https://ideas.tb.pro/p/auto-sorting) · 1 votes · _untagged_
@@ -249,9 +251,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 655
-- **solved**: 50
-- **pending**: 46
+- **closed**: 658
+- **solved**: 48
+- **pending**: 45
 - **hold**: 19
 - **open**: 13
 - **new**: 7
@@ -349,6 +351,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9988](https://tbpro.zendesk.com/agent/tickets/9988) · 2026-10-18T15:01 · password
 - · [9983](https://tbpro.zendesk.com/agent/tickets/9983) · 2026-10-18T15:01 · I forgot the password for my Thundermail account.
 - · [9980](https://tbpro.zendesk.com/agent/tickets/9980) · 2026-10-18T15:01 · メ－ルの設定
+- · [9960](https://tbpro.zendesk.com/agent/tickets/9960) · 2026-10-18T16:01 · Waitlist/create account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
