@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-18 10:20 ET** · refreshes hourly_  
+_Updated: **2026-10-18 11:19 ET** · refreshes hourly_  
 _24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so fa
 
 ## At a glance
 
-- **2** new tickets in last 24h · **8** solved in last 24h
+- **2** new tickets in last 24h · **11** solved in last 24h
 - **790** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 85
-- **Median AHT**: 141.5h · mean 165.0h (proxy: updated_at − created_at, 50 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 86
+- **Median AHT**: 141.5h · mean 164.9h (proxy: updated_at − created_at, 50 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -105,7 +105,7 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so fa
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [closed] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [solved] · 2026-10-06 · _Aliases not showing up_
   - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
-  - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [solved] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
+  - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [closed] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [solved] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [solved] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [solved] · 2026-10-11 · _Refund_
@@ -240,16 +240,18 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Delete tagged emails from tag view](https://ideas.tb.pro/p/delete-tagged-emails-from-tag-view) · 1 votes · _untagged_
+  > When viewing an email from the tag/folder option there is no delete option button or menu item.Additionally, deleting an email does not delete it from the tagged folder and since you can't delete…
 - [Auto-Sorting](https://ideas.tb.pro/p/auto-sorting) · 1 votes · _untagged_
   > What you’d like to seeI would like to see auto-sorting in the web-app. First iteration of basic "if from ___ then move to folder” more complex rules can be for later iterations.Why it mattersWhat…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 652
+- **closed**: 655
 - **solved**: 50
-- **pending**: 49
+- **pending**: 46
 - **hold**: 19
 - **open**: 13
 - **new**: 7
@@ -344,6 +346,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9601](https://tbpro.zendesk.com/agent/tickets/9601) · 2026-10-17T21:01 · Adding a TM calendar to TB does not seem to offer it in TB
 - · [9547](https://tbpro.zendesk.com/agent/tickets/9547) · 2026-10-17T21:01 · Installing Thunderbird on cell phone 
 - · [9509](https://tbpro.zendesk.com/agent/tickets/9509) · 2026-10-17T22:01 · récupération messagerie
+- · [9988](https://tbpro.zendesk.com/agent/tickets/9988) · 2026-10-18T15:01 · password
+- · [9983](https://tbpro.zendesk.com/agent/tickets/9983) · 2026-10-18T15:01 · I forgot the password for my Thundermail account.
+- · [9980](https://tbpro.zendesk.com/agent/tickets/9980) · 2026-10-18T15:01 · メ－ルの設定
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
