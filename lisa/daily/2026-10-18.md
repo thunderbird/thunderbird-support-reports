@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-18 03:22 ET** · refreshes hourly_  
+_Updated: **2026-10-18 04:26 ET** · refreshes hourly_  
 _24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 70** of rollout — **35,000 invitees**, **789 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 70** of rollout — **35,000 invitees**, **790 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **8** solved in last 24h
-- **789** tickets total since launch · contact rate **2%** of 35000 invitees
+- **2** new tickets in last 24h · **8** solved in last 24h
+- **790** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 84
@@ -251,12 +251,12 @@ _(none in last 24h)_
 - **pending**: 50
 - **hold**: 19
 - **open**: 12
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 438
-- **Thundermail**: 283
+- **Thundermail**: 284
 - **Send**: 18
 - **Appointment**: 9
 
@@ -318,6 +318,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10133](https://tbpro.zendesk.com/agent/tickets/10133)** · deliverability
+  > Almost all my thundermail emails are falling in spam of my recipients.
+
 ### Aliases — 1 tickets
 
 - **[#10132](https://tbpro.zendesk.com/agent/tickets/10132)** · email alias connected to imported domain is NOT receiving email
@@ -326,6 +331,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10132](https://tbpro.zendesk.com/agent/tickets/10132) · [new] · 2026-10-17T23:34 · email alias connected to imported domain is NOT receiving email
+- [10133](https://tbpro.zendesk.com/agent/tickets/10133) · [new] · 2026-10-18T07:55 · deliverability
 
 ## Solved — last 24h
 
