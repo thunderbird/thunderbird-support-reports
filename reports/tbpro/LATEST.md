@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-10-17
+# Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-17 23:25 ET** · refreshes hourly_  
-_24h window: 2026-10-16T16:00 → 2026-10-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-18 00:24 ET** · refreshes hourly_  
+_24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 69** of rollout — **35,000 invitees**, **789 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 70** of rollout — **35,000 invitees**, **789 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **11** solved in last 24h
+- **1** new tickets in last 24h · **8** solved in last 24h
 - **789** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 84
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 84
 - **Median AHT**: 141.6h · mean 165.0h (proxy: updated_at − created_at, 51 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
@@ -240,10 +240,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Passwordless login](https://ideas.tb.pro/p/passwordless-login) · 1 votes · _untagged_
-  > What you’d like to seeSupport passwordless login to webmail.thundermail.com using passkeys (WebAuthn/FIDO2), such as YubiKey or KeePassXC, similar to Nextcloud.Why it mattersMakes authentication…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -319,61 +318,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Aliases — 1 tickets
 
-- **[#10126](https://tbpro.zendesk.com/agent/tickets/10126)** · Can not set password after having to reconfigure my computer
-  > password
-- **[#10116](https://tbpro.zendesk.com/agent/tickets/10116)** · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
-  > すぐに返事が欲しい
-- **[#10114](https://tbpro.zendesk.com/agent/tickets/10114)** · can I use the above email address
-  > above questiuion
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10130](https://tbpro.zendesk.com/agent/tickets/10130)** · Re: [Thundermail] Re: Account Deletion — why: **change request** · how: **actioned**
-  > This is a follow-up to your previous request #9349 "Account Deletion" Hi [name] you for the help! The main reason for leaving is the cost. I am an inbox zero user, meaning I do…
-- **[#10129](https://tbpro.zendesk.com/agent/tickets/10129)** · Account deletion
-  > I requested for my account deletion this past week. How long will it take for it get deleted and how long for refund to return
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#10119](https://tbpro.zendesk.com/agent/tickets/10119)** · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB used
-  > Hello, I'd like to report a problem with Thunderbird Send. After I completed my Thundermail subscription, I started using Send on my computer. When I first set it up, I was asked…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10113](https://tbpro.zendesk.com/agent/tickets/10113)** · please delete account — why: **change request** · how: **actioned**
-  > please delete my account. I asked questions and sent screen shots etc as requested but it is not getting better so I maybe I just need to rejoin later. As a support person myself…
-
-### Email sending / receiving / SMTP / IMAP — 1 tickets
-
-- **[#10111](https://tbpro.zendesk.com/agent/tickets/10111)** · [stormbox/64] Mark or hide IMAP marked-as-deleted messages — why: **other** · how: **escalated** · 🔗 [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64)
-  > See following GitHub issue
+- **[#10132](https://tbpro.zendesk.com/agent/tickets/10132)** · email alias connected to imported domain is NOT receiving email
+  > Hello, I have transferred a domain ([domain]) into my thundermail account. One of the email alias linked to the imported domain: [email] is not receiving email messages sent from…
 
 ## New tickets — last 24h
 
-- [10111](https://tbpro.zendesk.com/agent/tickets/10111) · [hold] · 2026-10-16T20:34 · [stormbox/64] Mark or hide IMAP marked-as-deleted messages 🔗 [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64)
-- [10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16T22:31 · please delete account
-- [10114](https://tbpro.zendesk.com/agent/tickets/10114) · [new] · 2026-10-16T23:42 · can I use the above email address
-- [10116](https://tbpro.zendesk.com/agent/tickets/10116) · [new] · 2026-10-17T03:58 · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
-- [10119](https://tbpro.zendesk.com/agent/tickets/10119) · [new] · 2026-10-17T07:48 · Uploaded files disappeared after signing in on a second device, but Send Storage still shows 24.6 MB
-- [10126](https://tbpro.zendesk.com/agent/tickets/10126) · [new] · 2026-10-17T17:18 · Can not set password after having to reconfigure my computer
-- [10129](https://tbpro.zendesk.com/agent/tickets/10129) · [new] · 2026-10-17T18:56 · Account deletion
-- [10130](https://tbpro.zendesk.com/agent/tickets/10130) · [open] · 2026-10-17T19:01 · Re: [Thundermail] Re: Account Deletion
+- [10132](https://tbpro.zendesk.com/agent/tickets/10132) · [new] · 2026-10-17T23:34 · email alias connected to imported domain is NOT receiving email
 
 ## Solved — last 24h
 
-- · [9416](https://tbpro.zendesk.com/agent/tickets/9416) · 2026-10-16T20:02 · Separating business acct
-- · [9982](https://tbpro.zendesk.com/agent/tickets/9982) · 2026-10-16T23:01 · verification of email does not work trying to sign up for your early bird thunderbird account
-- · [9404](https://tbpro.zendesk.com/agent/tickets/9404) · 2026-10-17T12:01 · URGENT NEW ACCOUNT CONFIG ISSUES
-- · [9668](https://tbpro.zendesk.com/agent/tickets/9668) · 2026-10-17T14:02 · Mot de passe perdu
-- · [9661](https://tbpro.zendesk.com/agent/tickets/9661) · 2026-10-17T14:02 · Please delete my Thunderbird Pro Account
-- · [9628](https://tbpro.zendesk.com/agent/tickets/9628) · 2026-10-17T14:02 · Risto Janković
-- · [9652](https://tbpro.zendesk.com/agent/tickets/9652) · 2026-10-17T16:01 · thunderbird android says unknown
-- · [9537](https://tbpro.zendesk.com/agent/tickets/9537) · 2026-10-17T18:01 · Boite Reception mails
-- 👍 [9633](https://tbpro.zendesk.com/agent/tickets/9633) · 2026-10-17T18:42 · Convert Email Alias to Account
-- · [9639](https://tbpro.zendesk.com/agent/tickets/9639) · 2026-10-17T19:02 · Refund
-- · [9635](https://tbpro.zendesk.com/agent/tickets/9635) · 2026-10-17T19:02 · How do I add it to my other thunderbird clients, keep getting error
+- · [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-17T21:01 · Delete alias
+- · [9454](https://tbpro.zendesk.com/agent/tickets/9454) · 2026-10-17T21:01 · Custom Domain Not Working
+- · [9651](https://tbpro.zendesk.com/agent/tickets/9651) · 2026-10-17T21:01 · Password
+- · [9640](https://tbpro.zendesk.com/agent/tickets/9640) · 2026-10-17T21:01 · New subscription - canceling, requesting refund
+- · [9621](https://tbpro.zendesk.com/agent/tickets/9621) · 2026-10-17T21:01 · Messed up registration? 
+- · [9601](https://tbpro.zendesk.com/agent/tickets/9601) · 2026-10-17T21:01 · Adding a TM calendar to TB does not seem to offer it in TB
+- · [9547](https://tbpro.zendesk.com/agent/tickets/9547) · 2026-10-17T21:01 · Installing Thunderbird on cell phone 
+- · [9509](https://tbpro.zendesk.com/agent/tickets/9509) · 2026-10-17T22:01 · récupération messagerie
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
