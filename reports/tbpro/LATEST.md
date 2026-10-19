@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 16:25 ET** · refreshes hourly_  
+_Updated: **2026-10-19 17:20 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,9 +14,9 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 88
-- **Median AHT**: 141.6h · mean 185.2h (proxy: updated_at − created_at, 49 solved tickets)
+- **Median AHT**: 141.6h · mean 182.6h (proxy: updated_at − created_at, 50 solved tickets)
 
-## Known problems — 13 problem(s), 103 incident(s)
+## Known problems — 13 problem(s), 104 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 84 incident(s):
+- 85 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -112,11 +112,12 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so fa
   - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [solved] · 2026-10-11 · _New subscription - canceling, requesting refund_
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [solved] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [closed] · 2026-10-14 · _Close account_
-  - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [pending] · 2026-10-14 · _Rétractation abonnement._
+  - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [solved] · 2026-10-14 · _Rétractation abonnement._
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15 · _Cancel my subscription_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [pending] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16 · _please delete account_
+  - [#10129](https://tbpro.zendesk.com/agent/tickets/10129) · [pending] · 2026-10-17 · _Account deletion_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -156,7 +157,7 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so fa
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 1 incident(s):
-  - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [solved] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
+  - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -249,17 +250,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 675
-- **solved**: 49
+- **closed**: 678
+- **solved**: 50
 - **pending**: 34
-- **open**: 24
 - **hold**: 20
+- **open**: 20
 - **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 441
-- **Thundermail**: 292
+- **Account Hub**: 443
+- **Thundermail**: 291
 - **Send**: 18
 - **Appointment**: 9
 
@@ -268,15 +269,15 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 162
-- **change request** + **actioned**: 113
+- **change request** + **actioned**: 114
 - **blocked** + **explained**: 102
 - **confused** + **explained**: 61
-- **curious** + **informed**: 42
+- **curious** + **informed**: 43
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 36
 - **confused** + **informed**: 33
 - **blocked** + **redirected**: 32
-- **concerned** + **explained**: 27
+- **concerned** + **explained**: 28
 - **blocked** + **informed**: 16
 - **blocked** + **escalated**: 15
 - **change request** + **explained**: 8
@@ -366,7 +367,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10157](https://tbpro.zendesk.com/agent/tickets/10157) · [open] · 2026-10-19T14:39 · What is a Keyword Alert Notification?
 - [10158](https://tbpro.zendesk.com/agent/tickets/10158) · [open] · 2026-10-19T14:51 · Desktop Thundermail Gmail Problem
 - [10160](https://tbpro.zendesk.com/agent/tickets/10160) · [open] · 2026-10-19T16:27 · Re: [Thundermail] Re: My folders do not sync
-- [10164](https://tbpro.zendesk.com/agent/tickets/10164) · [new] · 2026-10-19T19:10 · Website Thundermail is more stable?
+- [10164](https://tbpro.zendesk.com/agent/tickets/10164) · [open] · 2026-10-19T19:10 · Website Thundermail is more stable?
 - [10165](https://tbpro.zendesk.com/agent/tickets/10165) · [open] · 2026-10-19T19:40 · member ship fee
 
 ## Solved — last 24h
