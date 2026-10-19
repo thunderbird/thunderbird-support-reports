@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 17:20 ET** · refreshes hourly_  
+_Updated: **2026-10-19 18:21 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 88
-- **Median AHT**: 141.6h · mean 182.6h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 141.5h · mean 181.5h (proxy: updated_at − created_at, 51 solved tickets)
 
 ## Known problems — 13 problem(s), 104 incident(s)
 
@@ -250,17 +250,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 678
-- **solved**: 50
-- **pending**: 34
+- **closed**: 679
+- **solved**: 51
+- **pending**: 33
 - **hold**: 20
-- **open**: 20
+- **open**: 19
 - **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 443
-- **Thundermail**: 291
+- **Account Hub**: 444
+- **Thundermail**: 290
 - **Send**: 18
 - **Appointment**: 9
 
@@ -276,7 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 36
 - **confused** + **informed**: 33
-- **blocked** + **redirected**: 32
+- **blocked** + **redirected**: 33
 - **concerned** + **explained**: 28
 - **blocked** + **informed**: 16
 - **blocked** + **escalated**: 15
@@ -339,7 +339,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I suspect that my Desktop Thundermail problems may have been triggered by the size of my 2 Gmail account and possibly especially by the large number of populated folders of…
 - **[#10151](https://tbpro.zendesk.com/agent/tickets/10151)** · Boîte de réception unifié 
   > Bonjour [name] n'arrive pas à comprendre pourquoi mes réponses à des mails apparaissent dans la boîte de réception unifiée (pas dans la boîte de réception de Gmail). Je n'utilise…
-- **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
+- **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password — why: **blocked** · how: **redirected**
   > Please send me my TB password to [email]
 
 ### Pricing / monthly plan / free tier — 1 tickets
@@ -359,7 +359,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
+- [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [pending] · 2026-10-18T21:45 · Forgotten TB Password
 - [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [open] · 2026-10-19T08:24 · Old Email
 - [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [open] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 - [10151](https://tbpro.zendesk.com/agent/tickets/10151) · [new] · 2026-10-19T10:35 · Boîte de réception unifié 
