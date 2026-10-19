@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 12:26 ET** · refreshes hourly_  
+_Updated: **2026-10-19 13:21 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **800 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **801 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **9** solved in last 24h
-- **800** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **10** solved in last 24h
+- **801** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
-- **Median AHT**: 147.7h · mean 189.2h (proxy: updated_at − created_at, 49 solved tickets)
+- **Median AHT**: 143.8h · mean 187.4h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -249,17 +249,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 667
-- **solved**: 49
-- **pending**: 39
-- **open**: 24
+- **closed**: 669
+- **solved**: 48
+- **pending**: 36
+- **open**: 27
 - **hold**: 19
 - **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 440
-- **Thundermail**: 290
+- **Thundermail**: 291
 - **Send**: 18
 - **Appointment**: 9
 
@@ -270,7 +270,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 162
 - **change request** + **actioned**: 113
 - **blocked** + **explained**: 101
-- **confused** + **explained**: 60
+- **confused** + **explained**: 61
 - **curious** + **informed**: 42
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 36
@@ -339,6 +339,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
   > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10160](https://tbpro.zendesk.com/agent/tickets/10160)** · Re: [Thundermail] Re: My folders do not sync — why: **confused** · how: **explained**
+  > This is a follow-up to your previous request #9026 "My folders do not sync" Hello [name], Apologies for the delay; things have been hectic on my end the past few weeks. I don't…
+
 ### Account access issues — account recovery — 1 tickets
 
 - **[#10147](https://tbpro.zendesk.com/agent/tickets/10147)** · Old Email — why: **curious** · how: **actioned**
@@ -347,12 +352,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
-- [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [pending] · 2026-10-19T08:24 · Old Email
+- [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [open] · 2026-10-19T08:24 · Old Email
 - [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [open] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 - [10151](https://tbpro.zendesk.com/agent/tickets/10151) · [new] · 2026-10-19T10:35 · Boîte de réception unifié 
 - [10153](https://tbpro.zendesk.com/agent/tickets/10153) · [new] · 2026-10-19T11:49 · Anmeldung
 - [10157](https://tbpro.zendesk.com/agent/tickets/10157) · [open] · 2026-10-19T14:39 · What is a Keyword Alert Notification?
 - [10158](https://tbpro.zendesk.com/agent/tickets/10158) · [open] · 2026-10-19T14:51 · Desktop Thundermail Gmail Problem
+- [10160](https://tbpro.zendesk.com/agent/tickets/10160) · [open] · 2026-10-19T16:27 · Re: [Thundermail] Re: My folders do not sync
 
 ## Solved — last 24h
 
@@ -365,6 +371,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10094](https://tbpro.zendesk.com/agent/tickets/10094) · 2026-10-19T13:56 · Thundermail payment page
 - · [10058](https://tbpro.zendesk.com/agent/tickets/10058) · 2026-10-19T14:41 · alias deletion 
 - · [10027](https://tbpro.zendesk.com/agent/tickets/10027) · 2026-10-19T16:01 · Waitlist registration confirmation
+- · [10026](https://tbpro.zendesk.com/agent/tickets/10026) · 2026-10-19T17:01 · email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
