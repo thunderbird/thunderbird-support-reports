@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-18
 
-_Updated: **2026-10-18 19:18 ET** · refreshes hourly_  
+_Updated: **2026-10-18 20:58 ET** · refreshes hourly_  
 _24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **794 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 87
-- **Median AHT**: 143.8h · mean 172.6h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 149.1h · mean 176.5h (proxy: updated_at − created_at, 44 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -104,7 +104,7 @@ Flight 8 is **day 70** of rollout — **35,000 invitees**, **794 tickets** so fa
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [closed] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [closed] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [solved] · 2026-10-06 · _Aliases not showing up_
-  - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [solved] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
+  - [#9556](https://tbpro.zendesk.com/agent/tickets/9556) · [closed] · 2026-10-08 · _Refund Request Due to Ongoing Email Deliverability Issues_
   - [#9559](https://tbpro.zendesk.com/agent/tickets/9559) · [closed] · 2026-10-08 · _Correction to refund request – Thunderbird Pro Early Bird_
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [closed] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [solved] · 2026-10-08 · _Delete my data and unsubscribe from the service_
@@ -251,12 +251,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 664
-- **solved**: 46
-- **pending**: 41
+- **closed**: 667
+- **solved**: 44
+- **pending**: 40
+- **open**: 19
 - **hold**: 18
-- **open**: 14
-- **new**: 11
+- **new**: 6
 
 ## Service (cumulative)
 
@@ -348,10 +348,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10132](https://tbpro.zendesk.com/agent/tickets/10132) · [new] · 2026-10-17T23:34 · email alias connected to imported domain is NOT receiving email
-- [10133](https://tbpro.zendesk.com/agent/tickets/10133) · [new] · 2026-10-18T07:55 · deliverability
+- [10133](https://tbpro.zendesk.com/agent/tickets/10133) · [open] · 2026-10-18T07:55 · deliverability
 - [10138](https://tbpro.zendesk.com/agent/tickets/10138) · [new] · 2026-10-18T16:31 · the imap reception is blocked for 3 weeks, not the expedition
 - [10139](https://tbpro.zendesk.com/agent/tickets/10139) · [new] · 2026-10-18T16:59 · What happened to aliases?
-- [10141](https://tbpro.zendesk.com/agent/tickets/10141) · [new] · 2026-10-18T18:15 · Re: You're Invited: Thundermail Early Bird Access
+- [10141](https://tbpro.zendesk.com/agent/tickets/10141) · [open] · 2026-10-18T18:15 · Re: You're Invited: Thundermail Early Bird Access
 
 ## Solved — last 24h
 
