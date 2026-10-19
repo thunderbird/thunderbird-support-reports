@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 05:34 ET** · refreshes hourly_  
+_Updated: **2026-10-19 06:24 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **796 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **797 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
-- **796** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **4** solved in last 24h
+- **797** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
@@ -254,7 +254,7 @@ _(none in last 24h)_
 - **pending**: 38
 - **open**: 20
 - **hold**: 18
-- **new**: 8
+- **new**: 9
 
 ## Service (cumulative)
 
@@ -328,6 +328,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
 
+### Other / uncategorized — 1 tickets
+
+- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
+  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
+
 ### Email migration / import — 1 tickets
 
 - **[#10147](https://tbpro.zendesk.com/agent/tickets/10147)** · Old Email
@@ -338,6 +343,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
 - [10144](https://tbpro.zendesk.com/agent/tickets/10144) · [new] · 2026-10-19T04:49 · Desktop Thundermail malfunctioning
 - [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [new] · 2026-10-19T08:24 · Old Email
+- [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [new] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 
 ## Solved — last 24h
 
