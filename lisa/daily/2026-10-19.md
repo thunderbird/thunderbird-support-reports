@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 06:24 ET** · refreshes hourly_  
+_Updated: **2026-10-19 07:22 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **797 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **798 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **797** tickets total since launch · contact rate **2%** of 35000 invitees
+- **5** new tickets in last 24h · **4** solved in last 24h
+- **798** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
@@ -254,12 +254,12 @@ _(none in last 24h)_
 - **pending**: 38
 - **open**: 20
 - **hold**: 18
-- **new**: 9
+- **new**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 439
-- **Thundermail**: 288
+- **Thundermail**: 289
 - **Send**: 18
 - **Appointment**: 9
 
@@ -321,8 +321,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### App setup / configuration — 2 tickets
+### App setup / configuration — 3 tickets
 
+- **[#10151](https://tbpro.zendesk.com/agent/tickets/10151)** · Boîte de réception unifié 
+  > Bonjour [name] n'arrive pas à comprendre pourquoi mes réponses à des mails apparaissent dans la boîte de réception unifiée (pas dans la boîte de réception de Gmail). Je n'utilise…
 - **[#10144](https://tbpro.zendesk.com/agent/tickets/10144)** · Desktop Thundermail malfunctioning
   > Since I tried to connect my 2nd gmail account I have been getting error messages when trying to open folders and have been unable to delete emails.
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
@@ -344,6 +346,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10144](https://tbpro.zendesk.com/agent/tickets/10144) · [new] · 2026-10-19T04:49 · Desktop Thundermail malfunctioning
 - [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [new] · 2026-10-19T08:24 · Old Email
 - [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [new] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
+- [10151](https://tbpro.zendesk.com/agent/tickets/10151) · [new] · 2026-10-19T10:35 · Boîte de réception unifié 
 
 ## Solved — last 24h
 
