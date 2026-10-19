@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-10-18
+# Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-18 23:29 ET** · refreshes hourly_  
-_24h window: 2026-10-17T16:00 → 2026-10-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-19 00:28 ET** · refreshes hourly_  
+_24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 70** of rollout — **35,000 invitees**, **794 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **794 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **15** solved in last 24h
+- **1** new tickets in last 24h · **3** solved in last 24h
 - **794** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 87
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
 - **Median AHT**: 149.1h · mean 176.5h (proxy: updated_at − created_at, 44 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
@@ -240,14 +240,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 0 new:
 
-- [Import .ics appointment directly from email](https://ideas.tb.pro/p/import-ics-appointment-directly-from-email) · 1 votes · _Thundermail, Appointment_
-  > What you’d like to seeWhen an .ics file is included as an attachment, I would like to be able to add the appointment to my calendar with a single click. Google Mail does this very well.Why it…
-- [Delete tagged emails from tag view](https://ideas.tb.pro/p/delete-tagged-emails-from-tag-view) · 1 votes · _untagged_
-  > When viewing an email from the tag/folder option there is no delete option button or menu item.Additionally, deleting an email does not delete it from the tagged folder and since you can't delete…
-- [Auto-Sorting](https://ideas.tb.pro/p/auto-sorting) · 1 votes · _untagged_
-  > What you’d like to seeI would like to see auto-sorting in the web-app. First iteration of basic "if from ___ then move to folder” more complex rules can be for later iterations.Why it mattersWhat…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -323,53 +318,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
+### App setup / configuration — 1 tickets
 
-- **[#10139](https://tbpro.zendesk.com/agent/tickets/10139)** · What happened to aliases?
-  > I no longer see the interface to create and destroy email aliases. Aliases are why I wanted the service. Were they removed?
-- **[#10132](https://tbpro.zendesk.com/agent/tickets/10132)** · email alias connected to imported domain is NOT receiving email
-  > Hello, I have transferred a domain ([domain]) into my thundermail account. One of the email alias linked to the imported domain: [email] is not receiving email messages sent from…
-
-### Webmail — 1 tickets
-
-- **[#10141](https://tbpro.zendesk.com/agent/tickets/10141)** · Re: You're Invited: Thundermail Early Bird Access
-  > Hi I got an offer to join the early subscription however I landed on waiting list of applicants - please advise how i subscribe as per your invite below? I had an incomplete…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10138](https://tbpro.zendesk.com/agent/tickets/10138)** · the imap reception is blocked for 3 weeks, not the expedition
-  > What can i do ? reinstall thunderbird? one ddress in on windows11 and linux/ubuntu.
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#10133](https://tbpro.zendesk.com/agent/tickets/10133)** · deliverability
-  > Almost all my thundermail emails are falling in spam of my recipients.
+- **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
+  > Please send me my TB password to [email]
 
 ## New tickets — last 24h
 
-- [10132](https://tbpro.zendesk.com/agent/tickets/10132) · [new] · 2026-10-17T23:34 · email alias connected to imported domain is NOT receiving email
-- [10133](https://tbpro.zendesk.com/agent/tickets/10133) · [open] · 2026-10-18T07:55 · deliverability
-- [10138](https://tbpro.zendesk.com/agent/tickets/10138) · [new] · 2026-10-18T16:31 · the imap reception is blocked for 3 weeks, not the expedition
-- [10139](https://tbpro.zendesk.com/agent/tickets/10139) · [new] · 2026-10-18T16:59 · What happened to aliases?
-- [10141](https://tbpro.zendesk.com/agent/tickets/10141) · [open] · 2026-10-18T18:15 · Re: You're Invited: Thundermail Early Bird Access
+- [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
 
 ## Solved — last 24h
 
-- · [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-17T21:01 · Delete alias
-- · [9454](https://tbpro.zendesk.com/agent/tickets/9454) · 2026-10-17T21:01 · Custom Domain Not Working
-- · [9651](https://tbpro.zendesk.com/agent/tickets/9651) · 2026-10-17T21:01 · Password
-- · [9640](https://tbpro.zendesk.com/agent/tickets/9640) · 2026-10-17T21:01 · New subscription - canceling, requesting refund
-- · [9621](https://tbpro.zendesk.com/agent/tickets/9621) · 2026-10-17T21:01 · Messed up registration? 
-- · [9601](https://tbpro.zendesk.com/agent/tickets/9601) · 2026-10-17T21:01 · Adding a TM calendar to TB does not seem to offer it in TB
-- · [9547](https://tbpro.zendesk.com/agent/tickets/9547) · 2026-10-17T21:01 · Installing Thunderbird on cell phone 
-- · [9509](https://tbpro.zendesk.com/agent/tickets/9509) · 2026-10-17T22:01 · récupération messagerie
-- · [9988](https://tbpro.zendesk.com/agent/tickets/9988) · 2026-10-18T15:01 · password
-- · [9983](https://tbpro.zendesk.com/agent/tickets/9983) · 2026-10-18T15:01 · I forgot the password for my Thundermail account.
-- · [9980](https://tbpro.zendesk.com/agent/tickets/9980) · 2026-10-18T15:01 · メ－ルの設定
-- · [9960](https://tbpro.zendesk.com/agent/tickets/9960) · 2026-10-18T16:01 · Waitlist/create account
-- · [10023](https://tbpro.zendesk.com/agent/tickets/10023) · 2026-10-18T16:24 · Close account
-- · [9989](https://tbpro.zendesk.com/agent/tickets/9989) · 2026-10-18T18:01 · Thunderbird email
-- · [9467](https://tbpro.zendesk.com/agent/tickets/9467) · 2026-10-18T18:01 · Thundermail account cancellation and refund
+- · [9986](https://tbpro.zendesk.com/agent/tickets/9986) · 2026-10-18T20:01 · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
+- · [9650](https://tbpro.zendesk.com/agent/tickets/9650) · 2026-10-18T22:01 · Pagos 
+- · [9594](https://tbpro.zendesk.com/agent/tickets/9594) · 2026-10-19T00:01 · message sent with alias shows real address also
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
