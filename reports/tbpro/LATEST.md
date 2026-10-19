@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 09:28 ET** · refreshes hourly_  
+_Updated: **2026-10-19 10:24 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **799 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
+- **6** new tickets in last 24h · **7** solved in last 24h
 - **799** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
-- **Median AHT**: 152.9h · mean 194.8h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 150.6h · mean 192.2h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -250,11 +250,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 667
-- **solved**: 46
-- **pending**: 38
+- **solved**: 47
+- **pending**: 39
 - **open**: 24
 - **hold**: 19
-- **new**: 5
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -359,6 +359,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [8486](https://tbpro.zendesk.com/agent/tickets/8486) · 2026-10-19T05:01 · Keine Mails mehr
 - 👍 [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-19T12:53 · Delete alias
 - 👍 [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-19T13:22 · Expired Thundermail beta invitation link – request for a new one
+- · [10094](https://tbpro.zendesk.com/agent/tickets/10094) · 2026-10-19T13:56 · Thundermail payment page
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
