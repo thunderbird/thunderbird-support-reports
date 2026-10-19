@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 00:28 ET** · refreshes hourly_  
+_Updated: **2026-10-19 01:24 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **794 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **795 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
-- **794** tickets total since launch · contact rate **2%** of 35000 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **795** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
-- **Median AHT**: 149.1h · mean 176.5h (proxy: updated_at − created_at, 44 solved tickets)
+- **Median AHT**: 150.6h · mean 194.4h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -247,16 +247,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 667
-- **solved**: 44
-- **pending**: 39
+- **solved**: 45
+- **pending**: 38
 - **open**: 20
 - **hold**: 18
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 438
-- **Thundermail**: 287
+- **Thundermail**: 288
 - **Send**: 18
 - **Appointment**: 9
 
@@ -318,20 +318,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### App setup / configuration — 1 tickets
+### App setup / configuration — 2 tickets
 
+- **[#10144](https://tbpro.zendesk.com/agent/tickets/10144)** · Desktop Thundermail malfunctioning
+  > Since I tried to connect my 2nd gmail account I have been getting error messages when trying to open folders and have been unable to delete emails.
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
 
 ## New tickets — last 24h
 
 - [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
+- [10144](https://tbpro.zendesk.com/agent/tickets/10144) · [new] · 2026-10-19T04:49 · Desktop Thundermail malfunctioning
 
 ## Solved — last 24h
 
 - · [9986](https://tbpro.zendesk.com/agent/tickets/9986) · 2026-10-18T20:01 · email sent from [domain] (and maybe [domain]) still goes to spam in gmail
 - · [9650](https://tbpro.zendesk.com/agent/tickets/9650) · 2026-10-18T22:01 · Pagos 
 - · [9594](https://tbpro.zendesk.com/agent/tickets/9594) · 2026-10-19T00:01 · message sent with alias shows real address also
+- · [8486](https://tbpro.zendesk.com/agent/tickets/8486) · 2026-10-19T05:01 · Keine Mails mehr
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
