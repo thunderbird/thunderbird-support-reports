@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 07:22 ET** · refreshes hourly_  
+_Updated: **2026-10-19 08:35 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **798 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **800 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **798** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **4** solved in last 24h
+- **800** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
@@ -252,13 +252,13 @@ _(none in last 24h)_
 - **closed**: 667
 - **solved**: 45
 - **pending**: 38
-- **open**: 20
+- **open**: 21
 - **hold**: 18
-- **new**: 10
+- **new**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 439
+- **Account Hub**: 441
 - **Thundermail**: 289
 - **Send**: 18
 - **Appointment**: 9
@@ -321,6 +321,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10154](https://tbpro.zendesk.com/agent/tickets/10154)** · testing email template
+  > howdy doo
+- **[#10153](https://tbpro.zendesk.com/agent/tickets/10153)** · Anmeldung
+  > Benötige ein neues Passwort,da mein altes angeblich nicht richtig ist
+- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
+  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
+
 ### App setup / configuration — 3 tickets
 
 - **[#10151](https://tbpro.zendesk.com/agent/tickets/10151)** · Boîte de réception unifié 
@@ -329,11 +338,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Since I tried to connect my 2nd gmail account I have been getting error messages when trying to open folders and have been unable to delete emails.
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
-
-### Other / uncategorized — 1 tickets
-
-- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
-  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
 
 ### Email migration / import — 1 tickets
 
@@ -347,6 +351,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [new] · 2026-10-19T08:24 · Old Email
 - [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [new] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 - [10151](https://tbpro.zendesk.com/agent/tickets/10151) · [new] · 2026-10-19T10:35 · Boîte de réception unifié 
+- [10153](https://tbpro.zendesk.com/agent/tickets/10153) · [new] · 2026-10-19T11:49 · Anmeldung
+- [10154](https://tbpro.zendesk.com/agent/tickets/10154) · [open] · 2026-10-19T12:17 · testing email template
 
 ## Solved — last 24h
 
