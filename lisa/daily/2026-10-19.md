@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 14:29 ET** · refreshes hourly_  
+_Updated: **2026-10-19 15:19 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **801 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **802 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **11** solved in last 24h
-- **801** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **15** solved in last 24h
+- **802** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
-- **Median AHT**: 145.4h · mean 188.8h (proxy: updated_at − created_at, 47 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 88
+- **Median AHT**: 143.5h · mean 186.7h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -249,17 +249,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 671
-- **solved**: 47
+- **closed**: 674
+- **solved**: 48
 - **pending**: 35
-- **open**: 27
+- **open**: 23
 - **hold**: 19
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 440
-- **Thundermail**: 291
+- **Thundermail**: 292
 - **Send**: 18
 - **Appointment**: 9
 
@@ -269,7 +269,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 162
 - **change request** + **actioned**: 113
-- **blocked** + **explained**: 101
+- **blocked** + **explained**: 102
 - **confused** + **explained**: 61
 - **curious** + **informed**: 42
 - **request** + **redirected**: 37
@@ -321,6 +321,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 4 tickets
+
+- **[#10164](https://tbpro.zendesk.com/agent/tickets/10164)** · Website Thundermail is more stable?
+  > It is clear that the website Thundermail is relatively stable, but the Desktop Thundermail is very unstable, malfunctioning a lot. Is there a reason for the difference, apart from…
+- **[#10157](https://tbpro.zendesk.com/agent/tickets/10157)** · What is a Keyword Alert Notification?
+  > I am getting them. I would like to know what they mean and what is triggering them.
+- **[#10153](https://tbpro.zendesk.com/agent/tickets/10153)** · Anmeldung
+  > Benötige ein neues Passwort,da mein altes angeblich nicht richtig ist
+- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
+  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
+
 ### App setup / configuration — 3 tickets
 
 - **[#10158](https://tbpro.zendesk.com/agent/tickets/10158)** · Desktop Thundermail Gmail Problem
@@ -329,15 +340,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Bonjour [name] n'arrive pas à comprendre pourquoi mes réponses à des mails apparaissent dans la boîte de réception unifiée (pas dans la boîte de réception de Gmail). Je n'utilise…
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
-
-### Other / uncategorized — 3 tickets
-
-- **[#10157](https://tbpro.zendesk.com/agent/tickets/10157)** · What is a Keyword Alert Notification?
-  > I am getting them. I would like to know what they mean and what is triggering them.
-- **[#10153](https://tbpro.zendesk.com/agent/tickets/10153)** · Anmeldung
-  > Benötige ein neues Passwort,da mein altes angeblich nicht richtig ist
-- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
-  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -359,6 +361,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10157](https://tbpro.zendesk.com/agent/tickets/10157) · [open] · 2026-10-19T14:39 · What is a Keyword Alert Notification?
 - [10158](https://tbpro.zendesk.com/agent/tickets/10158) · [open] · 2026-10-19T14:51 · Desktop Thundermail Gmail Problem
 - [10160](https://tbpro.zendesk.com/agent/tickets/10160) · [open] · 2026-10-19T16:27 · Re: [Thundermail] Re: My folders do not sync
+- [10164](https://tbpro.zendesk.com/agent/tickets/10164) · [new] · 2026-10-19T19:10 · Website Thundermail is more stable?
 
 ## Solved — last 24h
 
@@ -373,6 +376,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10027](https://tbpro.zendesk.com/agent/tickets/10027) · 2026-10-19T16:01 · Waitlist registration confirmation
 - · [10026](https://tbpro.zendesk.com/agent/tickets/10026) · 2026-10-19T17:01 · email
 - · [10028](https://tbpro.zendesk.com/agent/tickets/10028) · 2026-10-19T18:02 · Payment
+- · [10072](https://tbpro.zendesk.com/agent/tickets/10072) · 2026-10-19T18:57 · Passkey for website Thundermail?
+- · [10031](https://tbpro.zendesk.com/agent/tickets/10031) · 2026-10-19T19:02 · My Thundermail address is waiting
+- · [10012](https://tbpro.zendesk.com/agent/tickets/10012) · 2026-10-19T19:02 · Switching to Thundermail
+- · [10082](https://tbpro.zendesk.com/agent/tickets/10082) · 2026-10-19T19:13 · Sending from a custom domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
