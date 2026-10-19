@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 18:21 ET** · refreshes hourly_  
+_Updated: **2026-10-19 19:21 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **806 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **15** solved in last 24h
-- **804** tickets total since launch · contact rate **2%** of 35000 invitees
+- **806** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 88
-- **Median AHT**: 141.5h · mean 181.5h (proxy: updated_at − created_at, 51 solved tickets)
+- **Median AHT**: 139.9h · mean 180.6h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## Known problems — 13 problem(s), 104 incident(s)
 
@@ -251,15 +251,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 679
-- **solved**: 51
-- **pending**: 33
+- **solved**: 52
+- **pending**: 36
 - **hold**: 20
-- **open**: 19
-- **new**: 2
+- **open**: 16
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 444
+- **Account Hub**: 446
 - **Thundermail**: 290
 - **Send**: 18
 - **Appointment**: 9
@@ -268,10 +268,10 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 162
+- **curious** + **explained**: 163
 - **change request** + **actioned**: 114
 - **blocked** + **explained**: 102
-- **confused** + **explained**: 61
+- **confused** + **explained**: 62
 - **curious** + **informed**: 43
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 36
@@ -342,11 +342,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password — why: **blocked** · how: **redirected**
   > Please send me my TB password to [email]
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#10165](https://tbpro.zendesk.com/agent/tickets/10165)** · member ship fee
-  > why advertises 6.00 per month , and now i have a different fee
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10160](https://tbpro.zendesk.com/agent/tickets/10160)** · Re: [Thundermail] Re: My folders do not sync — why: **confused** · how: **explained**
@@ -356,6 +351,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10147](https://tbpro.zendesk.com/agent/tickets/10147)** · Old Email — why: **curious** · how: **actioned**
   > Guys When I registered for the early bird access I used an old email address that will become obsolete. This was a yahoo one. Having set up and subscribed to thundermail do I need…
+
+### Pricing — general pricing concern — 1 tickets
+
+- **[#10165](https://tbpro.zendesk.com/agent/tickets/10165)** · member ship fee — why: **confused** · how: **explained**
+  > why advertises 6.00 per month , and now i have a different fee
 
 ## New tickets — last 24h
 
@@ -368,7 +368,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10158](https://tbpro.zendesk.com/agent/tickets/10158) · [open] · 2026-10-19T14:51 · Desktop Thundermail Gmail Problem
 - [10160](https://tbpro.zendesk.com/agent/tickets/10160) · [open] · 2026-10-19T16:27 · Re: [Thundermail] Re: My folders do not sync
 - [10164](https://tbpro.zendesk.com/agent/tickets/10164) · [open] · 2026-10-19T19:10 · Website Thundermail is more stable?
-- [10165](https://tbpro.zendesk.com/agent/tickets/10165) · [open] · 2026-10-19T19:40 · member ship fee
+- [10165](https://tbpro.zendesk.com/agent/tickets/10165) · [pending] · 2026-10-19T19:40 · member ship fee
 
 ## Solved — last 24h
 
