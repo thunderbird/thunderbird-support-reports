@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 15:19 ET** · refreshes hourly_  
+_Updated: **2026-10-19 16:25 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **802 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **804 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **15** solved in last 24h
-- **802** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **10** new tickets in last 24h · **15** solved in last 24h
+- **804** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 88
-- **Median AHT**: 143.5h · mean 186.7h (proxy: updated_at − created_at, 48 solved tickets)
+- **Median AHT**: 141.6h · mean 185.2h (proxy: updated_at − created_at, 49 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -249,16 +249,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 674
-- **solved**: 48
-- **pending**: 35
-- **open**: 23
-- **hold**: 19
-- **new**: 3
+- **closed**: 675
+- **solved**: 49
+- **pending**: 34
+- **open**: 24
+- **hold**: 20
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 440
+- **Account Hub**: 441
 - **Thundermail**: 292
 - **Send**: 18
 - **Appointment**: 9
@@ -275,7 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 37
 - **blocked** + **investigated**: 36
 - **confused** + **informed**: 33
-- **blocked** + **redirected**: 31
+- **blocked** + **redirected**: 32
 - **concerned** + **explained**: 27
 - **blocked** + **informed**: 16
 - **blocked** + **escalated**: 15
@@ -341,6 +341,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
 
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#10165](https://tbpro.zendesk.com/agent/tickets/10165)** · member ship fee
+  > why advertises 6.00 per month , and now i have a different fee
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10160](https://tbpro.zendesk.com/agent/tickets/10160)** · Re: [Thundermail] Re: My folders do not sync — why: **confused** · how: **explained**
@@ -357,11 +362,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [open] · 2026-10-19T08:24 · Old Email
 - [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [open] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 - [10151](https://tbpro.zendesk.com/agent/tickets/10151) · [new] · 2026-10-19T10:35 · Boîte de réception unifié 
-- [10153](https://tbpro.zendesk.com/agent/tickets/10153) · [new] · 2026-10-19T11:49 · Anmeldung
+- [10153](https://tbpro.zendesk.com/agent/tickets/10153) · [open] · 2026-10-19T11:49 · Anmeldung
 - [10157](https://tbpro.zendesk.com/agent/tickets/10157) · [open] · 2026-10-19T14:39 · What is a Keyword Alert Notification?
 - [10158](https://tbpro.zendesk.com/agent/tickets/10158) · [open] · 2026-10-19T14:51 · Desktop Thundermail Gmail Problem
 - [10160](https://tbpro.zendesk.com/agent/tickets/10160) · [open] · 2026-10-19T16:27 · Re: [Thundermail] Re: My folders do not sync
 - [10164](https://tbpro.zendesk.com/agent/tickets/10164) · [new] · 2026-10-19T19:10 · Website Thundermail is more stable?
+- [10165](https://tbpro.zendesk.com/agent/tickets/10165) · [open] · 2026-10-19T19:40 · member ship fee
 
 ## Solved — last 24h
 
