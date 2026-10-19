@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 08:35 ET** · refreshes hourly_  
+_Updated: **2026-10-19 09:28 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **800 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **799 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **4** solved in last 24h
-- **800** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 94%  (171 good / 11 bad)
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **799** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
-- **Median AHT**: 150.6h · mean 194.4h (proxy: updated_at − created_at, 45 solved tickets)
+- **Median AHT**: 152.9h · mean 194.8h (proxy: updated_at − created_at, 46 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
 
@@ -168,7 +168,7 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **800 tickets** so fa
 - 🔧 GitHub: [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64) · _Mark or hide IMAP marked-as-deleted messages_
 - 🔧 GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 1 incident(s):
-  - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [open] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
+  - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -250,15 +250,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 667
-- **solved**: 45
+- **solved**: 46
 - **pending**: 38
-- **open**: 21
-- **hold**: 18
-- **new**: 11
+- **open**: 24
+- **hold**: 19
+- **new**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 441
+- **Account Hub**: 440
 - **Thundermail**: 289
 - **Send**: 18
 - **Appointment**: 9
@@ -321,15 +321,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
-
-- **[#10154](https://tbpro.zendesk.com/agent/tickets/10154)** · testing email template
-  > howdy doo
-- **[#10153](https://tbpro.zendesk.com/agent/tickets/10153)** · Anmeldung
-  > Benötige ein neues Passwort,da mein altes angeblich nicht richtig ist
-- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
-  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
-
 ### App setup / configuration — 3 tickets
 
 - **[#10151](https://tbpro.zendesk.com/agent/tickets/10151)** · Boîte de réception unifié 
@@ -339,6 +330,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
 
+### Other / uncategorized — 2 tickets
+
+- **[#10153](https://tbpro.zendesk.com/agent/tickets/10153)** · Anmeldung
+  > Benötige ein neues Passwort,da mein altes angeblich nicht richtig ist
+- **[#10150](https://tbpro.zendesk.com/agent/tickets/10150)** · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam die  Rückmeldung: Authentifizierung fehlgeschlagen. Was ist zu tun?
+  > Lenovo Tab P11 Pro (2nd Gen) Anwendungsspezifisches PW für Tablett in GMX erstellt. Nach der Änderung des bisherigen Passworts für den Posteingangsserver kam die Rückmeldung:…
+
 ### Email migration / import — 1 tickets
 
 - **[#10147](https://tbpro.zendesk.com/agent/tickets/10147)** · Old Email
@@ -347,12 +345,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
-- [10144](https://tbpro.zendesk.com/agent/tickets/10144) · [new] · 2026-10-19T04:49 · Desktop Thundermail malfunctioning
-- [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [new] · 2026-10-19T08:24 · Old Email
+- [10144](https://tbpro.zendesk.com/agent/tickets/10144) · [open] · 2026-10-19T04:49 · Desktop Thundermail malfunctioning
+- [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [open] · 2026-10-19T08:24 · Old Email
 - [10150](https://tbpro.zendesk.com/agent/tickets/10150) · [new] · 2026-10-19T10:21 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 - [10151](https://tbpro.zendesk.com/agent/tickets/10151) · [new] · 2026-10-19T10:35 · Boîte de réception unifié 
 - [10153](https://tbpro.zendesk.com/agent/tickets/10153) · [new] · 2026-10-19T11:49 · Anmeldung
-- [10154](https://tbpro.zendesk.com/agent/tickets/10154) · [open] · 2026-10-19T12:17 · testing email template
 
 ## Solved — last 24h
 
@@ -360,6 +357,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9650](https://tbpro.zendesk.com/agent/tickets/9650) · 2026-10-18T22:01 · Pagos 
 - · [9594](https://tbpro.zendesk.com/agent/tickets/9594) · 2026-10-19T00:01 · message sent with alias shows real address also
 - · [8486](https://tbpro.zendesk.com/agent/tickets/8486) · 2026-10-19T05:01 · Keine Mails mehr
+- 👍 [9996](https://tbpro.zendesk.com/agent/tickets/9996) · 2026-10-19T12:53 · Delete alias
+- 👍 [9670](https://tbpro.zendesk.com/agent/tickets/9670) · 2026-10-19T13:22 · Expired Thundermail beta invitation link – request for a new one
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
