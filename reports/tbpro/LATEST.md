@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 03:38 ET** · refreshes hourly_  
+_Updated: **2026-10-19 04:36 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **795 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **796 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **795** tickets total since launch · contact rate **2%** of 35000 invitees
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **796** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (171 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 89
 - **Median AHT**: 150.6h · mean 194.4h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 13 problem(s), 103 incident(s)
@@ -240,9 +240,12 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 2 new:
 
-- _(none)_
+- [Snooze Emails](https://ideas.tb.pro/p/snooze-emails-ZhYpuN0edS2YgNBe) · 1 votes · _Thundermail, New Feature, Webmail_
+  > What you’d like to seeI would like to have the option to snooze incoming emails until a specific date and time.When an email (or multiple selected emails) is snoozed, it should temporarily disappear…
+- [Schedule Email Sending](https://ideas.tb.pro/p/schedule-email-sending) · 1 votes · _Thundermail, New Feature, Webmail_
+  > What you’d like to seeI would like to be able to schedule emails to be sent at a specific date and time in the future.If this feature could be integrated with Thunderbird, that would be great.…
 
 ## Status breakdown (cumulative)
 
@@ -251,11 +254,11 @@ _(none in last 24h)_
 - **pending**: 38
 - **open**: 20
 - **hold**: 18
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 438
+- **Account Hub**: 439
 - **Thundermail**: 288
 - **Send**: 18
 - **Appointment**: 9
@@ -325,10 +328,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10143](https://tbpro.zendesk.com/agent/tickets/10143)** · Forgotten TB Password
   > Please send me my TB password to [email]
 
+### Email migration / import — 1 tickets
+
+- **[#10147](https://tbpro.zendesk.com/agent/tickets/10147)** · Old Email
+  > Guys When I registered for the early bird access I used an old email address that will become obsolete. This was a yahoo one. Having set up and subscribed to thundermail do I need…
+
 ## New tickets — last 24h
 
 - [10143](https://tbpro.zendesk.com/agent/tickets/10143) · [open] · 2026-10-18T21:45 · Forgotten TB Password
 - [10144](https://tbpro.zendesk.com/agent/tickets/10144) · [new] · 2026-10-19T04:49 · Desktop Thundermail malfunctioning
+- [10147](https://tbpro.zendesk.com/agent/tickets/10147) · [new] · 2026-10-19T08:24 · Old Email
 
 ## Solved — last 24h
 
