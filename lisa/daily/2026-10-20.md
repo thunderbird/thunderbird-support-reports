@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 17:22 ET** · refreshes hourly_  
+_Updated: **2026-10-20 18:21 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **823 tickets** so fa
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (173 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 87
-- **Median AHT**: 137.1h · mean 170.7h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 137.1h · mean 169.7h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -258,10 +258,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 684
-- **pending**: 57
-- **solved**: 55
+- **solved**: 57
+- **pending**: 54
 - **hold**: 20
-- **open**: 7
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -345,6 +345,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10182](https://tbpro.zendesk.com/agent/tickets/10182)** · I have forgotten if I have an email adress on Thunderbirds or thundermail — why: **confused** · how: **explained**
   > my main computer has failled. Send me please my id if I have. Suite à une panne d'ordinateur peu de temps après avoir commencé à tester et utiliser Thundermail je ne sais plus si…
 
+### Pricing — general pricing concern — 2 tickets
+
+- **[#10181](https://tbpro.zendesk.com/agent/tickets/10181)** · Transparency — why: **concerned**
+  > You expect me to sign up for something when you won't disclose the price?
+- **[#10194](https://tbpro.zendesk.com/agent/tickets/10194)** · Price — why: **curious** · how: **explained**
+  > I support Mozilla, and I really like the idea of Thundermail. However, CAD 96 is too expensive for me. In my view, an introductory price of CAD 35 would be reasonable.
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10170](https://tbpro.zendesk.com/agent/tickets/10170)** · Compacting Error
@@ -358,13 +365,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I want in today! TAKE MY MONEY PLEASE… how do I setup a [domain] email (instead of [domain]?
 - **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address — why: **request** · how: **redirected**
   > Hi, I use Thundermail with my custom domain [domain] (verified). My account is [email] and [email] is set up as an alias and as a mail sender identity. When I create a calendar…
-
-### Pricing — general pricing concern — 2 tickets
-
-- **[#10194](https://tbpro.zendesk.com/agent/tickets/10194)** · Price — why: **curious** · how: **explained**
-  > I support Mozilla, and I really like the idea of Thundermail. However, CAD 96 is too expensive for me. In my view, an introductory price of CAD 35 would be reasonable.
-- **[#10181](https://tbpro.zendesk.com/agent/tickets/10181)** · Transparency — why: **concerned**
-  > You expect me to sign up for something when you won't disclose the price?
 
 ### Pricing — annual-only inquiry — 2 tickets
 
@@ -410,7 +410,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10170](https://tbpro.zendesk.com/agent/tickets/10170) · [open] · 2026-10-19T23:12 · Compacting Error
 - [10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20T02:18 · Refund
 - [10177](https://tbpro.zendesk.com/agent/tickets/10177) · [pending] · 2026-10-20T04:44 · Per-alias display names
-- [10181](https://tbpro.zendesk.com/agent/tickets/10181) · [pending] · 2026-10-20T06:29 · Transparency
+- [10181](https://tbpro.zendesk.com/agent/tickets/10181) · [open] · 2026-10-20T06:29 · Transparency
 - [10182](https://tbpro.zendesk.com/agent/tickets/10182) · [pending] · 2026-10-20T06:31 · I have forgotten if I have an email adress on Thunderbirds or thundermail
 - [10183](https://tbpro.zendesk.com/agent/tickets/10183) · [pending] · 2026-10-20T06:37 · Monthly plans 
 - [10185](https://tbpro.zendesk.com/agent/tickets/10185) · [pending] · 2026-10-20T07:12 · Thundermail Account Recovery Assistance
