@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 09:25 ET** · refreshes hourly_  
+_Updated: **2026-10-20 10:23 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 72** of rollout — **35,000 invitees**, **817 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 72** of rollout — **35,000 invitees**, **818 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **11** solved in last 24h
-- **817** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 94%  (172 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 88
-- **Median AHT**: 137.2h · mean 175.3h (proxy: updated_at − created_at, 53 solved tickets)
+- **15** new tickets in last 24h · **12** solved in last 24h
+- **818** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 94%  (173 good / 11 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
+- **Median AHT**: 137.2h · mean 174.8h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -189,32 +189,32 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **817 tickets** so fa
 ## Negative CSAT (since launch)
 
 - 👎 [5715](https://tbpro.zendesk.com/agent/tickets/5715) · _Person_  
-  - Reason: **Mein Problem wurde nicht gelöst.** · Comment: _I forgot the pasword of thunderbirdmail [email], when I try to rectores, demand the thunderbird mail. But if you ansew me in the mail that can't open. I can't resolve. And I give you another mail for try to resolve, but sayong
+  - Reason: **My issue wasn't resolved** · Comment: _I forgot the pasword of thunderbirdmail [email], when I try to rectores, demand the thunderbird mail. But if you ansew me in the mail that can't open. I can't resolve. And I give you another mail for try to resolve, but sayong
  Is not ypurs. And I don't know how I can resolve. Please, help me. Thanks._
 - 👎 [5655](https://tbpro.zendesk.com/agent/tickets/5655) · _No DKIM signature for mails sent from custom domain_  
-  - Reason: **Sonstiges (bitte näher erläutern)** · Comment: _See my email to this matter. A DKIM signature is now added to messages from my custom domain, but is evaluated differently by different services._
+  - Reason: **Other (please share more)** · Comment: _See my email to this matter. A DKIM signature is now added to messages from my custom domain, but is evaluated differently by different services._
 - 👎 [5587](https://tbpro.zendesk.com/agent/tickets/5587) · _inloggningsproblem_  
-  - Reason: **Das Produkt hat nicht wie erwartet funktioniert.** · Comment: _Vore bra med tydlighet i vilken ordning man ska göra saker för att få Thunderbird att fungera på datorn
+  - Reason: **The product did not work as expected** · Comment: _Vore bra med tydlighet i vilken ordning man ska göra saker för att få Thunderbird att fungera på datorn
 Ladda ner appen först? Eller ?
 Har i och för sig inte vana vid liknande uppgifter, men jag hade funktion på mailen förra veckan och igår var det kört.._
 - 👎 [6094](https://tbpro.zendesk.com/agent/tickets/6094) · _Email alias_  
-  - Reason: **Das Produkt hat nicht wie erwartet funktioniert.** · Comment: _Allthough I can send now mail through an alias, I now receive any mail send to an alias, in all my alias in-box._
+  - Reason: **The product did not work as expected** · Comment: _Allthough I can send now mail through an alias, I now receive any mail send to an alias, in all my alias in-box._
 - 👎 [6082](https://tbpro.zendesk.com/agent/tickets/6082) · _Delete data + account_  
-  - Reason: **Mein Problem wurde nicht gelöst.** · Comment: _Hi,
+  - Reason: **My issue wasn't resolved** · Comment: _Hi,
 
 I noticed I can still login to my account. Could I please get an estimate as to when my account and data will be deleted?
 
 Regards, [name]_
 - 👎 [7018](https://tbpro.zendesk.com/agent/tickets/7018) · _Cost_  
-  - Reason: **Die Antwort, die ich erhielt, war unklar oder nicht hilfreich.** · Comment: _You have zero concern for the people who have made your products what they are today. You only care about money._
+  - Reason: **The answer I got was unclear or unhelpful** · Comment: _You have zero concern for the people who have made your products what they are today. You only care about money._
 - 👎 [7933](https://tbpro.zendesk.com/agent/tickets/7933) · _Re: [Donor Support] Re: Help with something else - My email suddenly doesn't download._  
-  - Reason: **Ich warte immer noch auf eine Antwort** · Comment: _I signed on to Thundermail assuming that it could work on my computer as it is.  I have a problem that stems from when I was a Thunderbird user which, after untold hours of work, have concluded that there is no
+  - Reason: **I'm still waiting for a response** · Comment: _I signed on to Thundermail assuming that it could work on my computer as it is.  I have a problem that stems from when I was a Thunderbird user which, after untold hours of work, have concluded that there is no
 immediate solution to.  It is a very long story - Mad Hatter, one of your support people, worked with me on it for a while until he decided it was a problem that was not fixable by Thunderbird.  I've tried everything I know to do for an unimaginable number of days and hours - again - to no avail.  I then was under the mistaken impression that I could switch to Thundermail and start fresh.  Not knowing that Thundermail needs a client to run on.... which naturally is Thunderbird.  In the meantime I signed up and donated for a year of Thundermail which I can't use so have asked for a refund of my donation.  I sent it to Mad Hatter and am assuming he sent it on to your department.  Please advise.      Lynne Rodney  [email] is the address I was planning on using with Thundermail.  YOUR RESPONSE SHOULD BE SENT TO: [email]     Thank you._
 - 👎 [7764](https://tbpro.zendesk.com/agent/tickets/7764) · _Payment_  
-  - Reason: **Das Produkt hat nicht wie erwartet funktioniert.** · Comment: _Can you advice when Thunderbird maiil will come live. On iphone 
+  - Reason: **The product did not work as expected** · Comment: _Can you advice when Thunderbird maiil will come live. On iphone 
 Many Thanks x_
 - 👎 [7353](https://tbpro.zendesk.com/agent/tickets/7353) · _account access_  
-  - Reason: **Eine Funktion, die ich benötigte, fehlte oder war schwer zu bedienen.** · Comment: _Hello, I am so disapointed, not because i did not like thunderbird pro/ thundermail pro. It is simply adressing for a different crowd.
+  - Reason: **A feature I needed was missing or hard to use** · Comment: _Hello, I am so disapointed, not because i did not like thunderbird pro/ thundermail pro. It is simply adressing for a different crowd.
 
 I was so stoke and hype getting in. 
 
@@ -230,9 +230,9 @@ I basically had a privacy oriented email with 15 aliases for 100CAD a year. Don'
 
 I had to cancel... I am so sad I have to get back to gmail :((((( i wish we could work soething out... I just screwed my entire so anticipated beta acess :(_
 - 👎 [8779](https://tbpro.zendesk.com/agent/tickets/8779) · _Cancellation Request and refunds_  
-  - Reason: **Sonstiges (bitte näher erläutern)** · Comment: _I am really sorry but I don't think this is working for me. The transition to a new email would be too complex and time consuming for me. I wish to cancel after all. I do apologize for the inconvenience as I know you are trying to establish a new service but it is not for me right now. Please cancel my account and issue me a refund. Thanks, [name]_
+  - Reason: **Other (please share more)** · Comment: _I am really sorry but I don't think this is working for me. The transition to a new email would be too complex and time consuming for me. I wish to cancel after all. I do apologize for the inconvenience as I know you are trying to establish a new service but it is not for me right now. Please cancel my account and issue me a refund. Thanks, [name]_
 - 👎 [8259](https://tbpro.zendesk.com/agent/tickets/8259) · _Re: Correction: Thundermail Early Bird Access_  
-  - Reason: **Sonstiges (bitte näher erläutern)** · Comment: _Je veux essayer thunder mail et bird
+  - Reason: **Other (please share more)** · Comment: _Je veux essayer thunder mail et bird
 I want try thunder mail and bird
 Regards, [name]_
 
@@ -251,15 +251,15 @@ Regards, [name]_
 
 - **closed**: 680
 - **solved**: 53
-- **pending**: 36
+- **pending**: 38
 - **hold**: 21
-- **open**: 19
-- **new**: 8
+- **open**: 20
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 449
-- **Thundermail**: 296
+- **Account Hub**: 451
+- **Thundermail**: 297
 - **Send**: 18
 - **Appointment**: 9
 
@@ -270,10 +270,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 163
 - **change request** + **actioned**: 115
 - **blocked** + **explained**: 103
-- **confused** + **explained**: 63
+- **confused** + **explained**: 64
 - **curious** + **informed**: 43
 - **request** + **redirected**: 37
-- **blocked** + **investigated**: 36
+- **blocked** + **investigated**: 37
 - **confused** + **informed**: 33
 - **blocked** + **redirected**: 33
 - **concerned** + **explained**: 28
@@ -321,19 +321,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
-
-- **[#10205](https://tbpro.zendesk.com/agent/tickets/10205)** · Proposta commerciale per le vostre spedizioni
-  > Buongiorno, sono Fabrizio, agente commerciale di E&A MultiExpress. Affianchiamo e-commerce, negozi e aziende nella gestione delle spedizioni nazionali e internazionali attraverso…
-- **[#10193](https://tbpro.zendesk.com/agent/tickets/10193)** · on page https://[domain]/subscribe, the page will not render, can you assist
-  > I am at the "Order Summary" page but it will not fully display or work. Can you assist?
-- **[#10182](https://tbpro.zendesk.com/agent/tickets/10182)** · I have forgotten if I have an email adress on Thunderbirds or thundermail
-  > my main computer has failled. Send me please my id if I have. Suite à une panne d'ordinateur peu de temps après avoir commencé à tester et utiliser Thundermail je ne sais plus si…
-- **[#10170](https://tbpro.zendesk.com/agent/tickets/10170)** · Compacting Error
-  > On Desktop Thundermail I have received a compacting error.
-- **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
-  > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
-
 ### Aliases — 2 tickets
 
 - **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address
@@ -362,10 +349,37 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10176](https://tbpro.zendesk.com/agent/tickets/10176)** · Refund — why: **change request** · how: **actioned**
   > Hi there, I subscribed and then realized it's not what I want, I need separate user management, so far on the market are few can do it can cost very little. Please help me cancel…
 
+### Other / uncategorized — 2 tickets
+
+- **[#10170](https://tbpro.zendesk.com/agent/tickets/10170)** · Compacting Error
+  > On Desktop Thundermail I have received a compacting error.
+- **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
+  > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
+
+### App setup / configuration — 1 tickets
+
+- **[#10212](https://tbpro.zendesk.com/agent/tickets/10212)** · How do I select: [domain]?
+  > I want in today! TAKE MY MONEY PLEASE… how do I setup a [domain] email (instead of [domain]?
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#10210](https://tbpro.zendesk.com/agent/tickets/10210)** · cannot access my Thunderbird email "[email]"
+  > I purchased the thunderbird email,"[email]" But i cannot configure my Thunderbird Desktop app to connect to my new thunderbird email. "Mozilla Thunderbird failed to find the…
+
+### Pricing — payment issue — 1 tickets
+
+- **[#10193](https://tbpro.zendesk.com/agent/tickets/10193)** · on page https://[domain]/subscribe, the page will not render, can you assist — why: **blocked** · how: **investigated**
+  > I am at the "Order Summary" page but it will not fully display or work. Can you assist?
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#10181](https://tbpro.zendesk.com/agent/tickets/10181)** · Transparency
   > You expect me to sign up for something when you won't disclose the price?
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#10182](https://tbpro.zendesk.com/agent/tickets/10182)** · I have forgotten if I have an email adress on Thunderbirds or thundermail — why: **confused** · how: **explained**
+  > my main computer has failled. Send me please my id if I have. Suite à une panne d'ordinateur peu de temps après avoir commencé à tester et utiliser Thundermail je ne sais plus si…
 
 ## New tickets — last 24h
 
@@ -375,14 +389,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20T02:18 · Refund
 - [10177](https://tbpro.zendesk.com/agent/tickets/10177) · [open] · 2026-10-20T04:44 · Per-alias display names
 - [10181](https://tbpro.zendesk.com/agent/tickets/10181) · [open] · 2026-10-20T06:29 · Transparency
-- [10182](https://tbpro.zendesk.com/agent/tickets/10182) · [open] · 2026-10-20T06:31 · I have forgotten if I have an email adress on Thunderbirds or thundermail
+- [10182](https://tbpro.zendesk.com/agent/tickets/10182) · [pending] · 2026-10-20T06:31 · I have forgotten if I have an email adress on Thunderbirds or thundermail
 - [10183](https://tbpro.zendesk.com/agent/tickets/10183) · [new] · 2026-10-20T06:37 · Monthly plans 
 - [10185](https://tbpro.zendesk.com/agent/tickets/10185) · [open] · 2026-10-20T07:12 · Thundermail Account Recovery Assistance
 - [10186](https://tbpro.zendesk.com/agent/tickets/10186) · [open] · 2026-10-20T07:16 · Account recovery
-- [10193](https://tbpro.zendesk.com/agent/tickets/10193) · [new] · 2026-10-20T08:56 · on page https://[domain]/subscribe, the page will not render, can you assist
+- [10193](https://tbpro.zendesk.com/agent/tickets/10193) · [open] · 2026-10-20T08:56 · on page https://[domain]/subscribe, the page will not render, can you assist
 - [10194](https://tbpro.zendesk.com/agent/tickets/10194) · [new] · 2026-10-20T09:01 · Price
-- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [new] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
-- [10205](https://tbpro.zendesk.com/agent/tickets/10205) · [new] · 2026-10-20T12:36 · Proposta commerciale per le vostre spedizioni
+- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [open] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
+- [10210](https://tbpro.zendesk.com/agent/tickets/10210) · [open] · 2026-10-20T13:42 · cannot access my Thunderbird email "[email]"
+- [10212](https://tbpro.zendesk.com/agent/tickets/10212) · [new] · 2026-10-20T13:52 · How do I select: [domain]?
 
 ## Solved — last 24h
 
@@ -397,6 +412,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10018](https://tbpro.zendesk.com/agent/tickets/10018) · 2026-10-19T23:01 · Alias transfer
 - · [10053](https://tbpro.zendesk.com/agent/tickets/10053) · 2026-10-20T00:02 · Monthly payment for new mail
 - · [10059](https://tbpro.zendesk.com/agent/tickets/10059) · 2026-10-20T12:01 · Refund Request for Thundermail Subscription
+- · [10139](https://tbpro.zendesk.com/agent/tickets/10139) · 2026-10-20T14:07 · What happened to aliases?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
