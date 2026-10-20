@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 02:36 ET** · refreshes hourly_  
+_Updated: **2026-10-20 03:28 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 72** of rollout — **35,000 invitees**, **810 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 72** of rollout — **35,000 invitees**, **813 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **10** solved in last 24h
-- **810** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **10** solved in last 24h
+- **813** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 88
@@ -254,12 +254,12 @@ Regards, [name]_
 - **pending**: 37
 - **hold**: 21
 - **open**: 14
-- **new**: 6
+- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 447
-- **Thundermail**: 292
+- **Account Hub**: 449
+- **Thundermail**: 293
 - **Send**: 18
 - **Appointment**: 9
 
@@ -330,6 +330,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
   > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
 
+### Account access issues — 2 tickets
+
+- **[#10186](https://tbpro.zendesk.com/agent/tickets/10186)** · Account recovery
+  > Hi. I think I made an error in the signup process and can't access my account, as I haven't logged in a single time. Can you help me sent a recovery email to my [email] account,…
+- **[#10185](https://tbpro.zendesk.com/agent/tickets/10185)** · Thundermail Account Recovery Assistance
+  > Hello [name], I recently reset my computer and lost access to my Thundermail account. Unfortunately, I cannot remember my login credentials. Could you please assist me with…
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10183](https://tbpro.zendesk.com/agent/tickets/10183)** · Monthly plans 
+  > Don’t you have monthly plans? Is payment refundable if I don’t like it?
+- **[#10176](https://tbpro.zendesk.com/agent/tickets/10176)** · Refund — why: **change request** · how: **actioned**
+  > Hi there, I subscribed and then realized it's not what I want, I need separate user management, so far on the market are few can do it can cost very little. Please help me cancel…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#10181](https://tbpro.zendesk.com/agent/tickets/10181)** · Transparency
@@ -345,11 +359,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10168](https://tbpro.zendesk.com/agent/tickets/10168)** · Monthly Plan?
   > Hello, I want to try thundermail, I notice that there is no monthly plan, Is this a bug or not yet implemented
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10176](https://tbpro.zendesk.com/agent/tickets/10176)** · Refund — why: **change request** · how: **actioned**
-  > Hi there, I subscribed and then realized it's not what I want, I need separate user management, so far on the market are few can do it can cost very little. Please help me cancel…
-
 ## New tickets — last 24h
 
 - [10168](https://tbpro.zendesk.com/agent/tickets/10168) · [new] · 2026-10-19T20:27 · Monthly Plan?
@@ -359,6 +368,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10177](https://tbpro.zendesk.com/agent/tickets/10177) · [new] · 2026-10-20T04:44 · Per-alias display names
 - [10181](https://tbpro.zendesk.com/agent/tickets/10181) · [new] · 2026-10-20T06:29 · Transparency
 - [10182](https://tbpro.zendesk.com/agent/tickets/10182) · [new] · 2026-10-20T06:31 · I have forgotten if I have an email adress on Thunderbirds or thundermail
+- [10183](https://tbpro.zendesk.com/agent/tickets/10183) · [new] · 2026-10-20T06:37 · Monthly plans 
+- [10185](https://tbpro.zendesk.com/agent/tickets/10185) · [new] · 2026-10-20T07:12 · Thundermail Account Recovery Assistance
+- [10186](https://tbpro.zendesk.com/agent/tickets/10186) · [new] · 2026-10-20T07:16 · Account recovery
 
 ## Solved — last 24h
 
