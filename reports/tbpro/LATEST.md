@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 04:30 ET** · refreshes hourly_  
+_Updated: **2026-10-20 05:25 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 72** of rollout — **35,000 invitees**, **813 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 72** of rollout — **35,000 invitees**, **815 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **10** solved in last 24h
-- **813** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **10** solved in last 24h
+- **815** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 88
@@ -117,7 +117,7 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **813 tickets** so fa
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15 · _Cancel my subscription_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [pending] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16 · _please delete account_
-  - [#10129](https://tbpro.zendesk.com/agent/tickets/10129) · [pending] · 2026-10-17 · _Account deletion_
+  - [#10129](https://tbpro.zendesk.com/agent/tickets/10129) · [open] · 2026-10-17 · _Account deletion_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -251,15 +251,15 @@ Regards, [name]_
 
 - **closed**: 680
 - **solved**: 52
-- **pending**: 37
+- **pending**: 36
 - **hold**: 21
-- **open**: 14
-- **new**: 9
+- **open**: 15
+- **new**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 449
-- **Thundermail**: 293
+- **Account Hub**: 450
+- **Thundermail**: 294
 - **Send**: 18
 - **Appointment**: 9
 
@@ -321,14 +321,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10193](https://tbpro.zendesk.com/agent/tickets/10193)** · on page https://[domain]/subscribe, the page will not render, can you assist
+  > I am at the "Order Summary" page but it will not fully display or work. Can you assist?
 - **[#10182](https://tbpro.zendesk.com/agent/tickets/10182)** · I have forgotten if I have an email adress on Thunderbirds or thundermail
   > my main computer has failled. Send me please my id if I have. Suite à une panne d'ordinateur peu de temps après avoir commencé à tester et utiliser Thundermail je ne sais plus si…
 - **[#10170](https://tbpro.zendesk.com/agent/tickets/10170)** · Compacting Error
   > On Desktop Thundermail I have received a compacting error.
 - **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
   > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
+
+### Pricing / monthly plan / free tier — 2 tickets
+
+- **[#10194](https://tbpro.zendesk.com/agent/tickets/10194)** · Price
+  > I support Mozilla, and I really like the idea of Thundermail. However, CAD 96 is too expensive for me. In my view, an introductory price of CAD 35 would be reasonable.
+- **[#10168](https://tbpro.zendesk.com/agent/tickets/10168)** · Monthly Plan?
+  > Hello, I want to try thundermail, I notice that there is no monthly plan, Is this a bug or not yet implemented
 
 ### Account access issues — 2 tickets
 
@@ -354,11 +363,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10177](https://tbpro.zendesk.com/agent/tickets/10177)** · Per-alias display names
   > I'd like to be able to set a display name per alias, rather than having one alias that is shared across all my display names. While some email aliases are associated with my…
 
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#10168](https://tbpro.zendesk.com/agent/tickets/10168)** · Monthly Plan?
-  > Hello, I want to try thundermail, I notice that there is no monthly plan, Is this a bug or not yet implemented
-
 ## New tickets — last 24h
 
 - [10168](https://tbpro.zendesk.com/agent/tickets/10168) · [new] · 2026-10-19T20:27 · Monthly Plan?
@@ -371,6 +375,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10183](https://tbpro.zendesk.com/agent/tickets/10183) · [new] · 2026-10-20T06:37 · Monthly plans 
 - [10185](https://tbpro.zendesk.com/agent/tickets/10185) · [new] · 2026-10-20T07:12 · Thundermail Account Recovery Assistance
 - [10186](https://tbpro.zendesk.com/agent/tickets/10186) · [new] · 2026-10-20T07:16 · Account recovery
+- [10193](https://tbpro.zendesk.com/agent/tickets/10193) · [new] · 2026-10-20T08:56 · on page https://[domain]/subscribe, the page will not render, can you assist
+- [10194](https://tbpro.zendesk.com/agent/tickets/10194) · [new] · 2026-10-20T09:01 · Price
 
 ## Solved — last 24h
 
