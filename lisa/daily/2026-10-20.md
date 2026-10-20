@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 10:23 ET** · refreshes hourly_  
+_Updated: **2026-10-20 11:34 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 72** of rollout — **35,000 invitees**, **818 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 72** of rollout — **35,000 invitees**, **820 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **12** solved in last 24h
-- **818** tickets total since launch · contact rate **2%** of 35000 invitees
+- **17** new tickets in last 24h · **17** solved in last 24h
+- **820** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (173 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 86
-- **Median AHT**: 137.2h · mean 174.8h (proxy: updated_at − created_at, 53 solved tickets)
+- **Median AHT**: 134.2h · mean 172.2h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -236,10 +236,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · _Refund_
   > Hi there, I subscribed and then realized it's not what I want, I need separate user management, so far on the market are few can do it can cost very little. Please help me cancel my service. Thanks.
+- [10217](https://tbpro.zendesk.com/agent/tickets/10217) · [open] · _Re: [Thundermail] Re: Cancel Account_
+  > This is a follow-up to your previous request #9293 "Cancel Account" Hi [name], Thank you so much for issuing the refund! I really wasn’t expecting that, and I genuinely appreciate it. As for why I canceled, I simply…
 
 ## New ideas on FeatureOS
 
@@ -250,15 +252,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 680
-- **solved**: 53
-- **pending**: 38
+- **solved**: 57
+- **pending**: 39
 - **hold**: 21
-- **open**: 20
+- **open**: 17
 - **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 451
+- **Account Hub**: 453
 - **Thundermail**: 297
 - **Send**: 18
 - **Appointment**: 9
@@ -268,7 +270,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 163
-- **change request** + **actioned**: 115
+- **change request** + **actioned**: 116
 - **blocked** + **explained**: 103
 - **confused** + **explained**: 64
 - **curious** + **informed**: 43
@@ -284,8 +286,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 7
 - **concerned** + **investigated**: 7
 - **telling us** + **explained**: 6
+- **confused** + **investigated**: 6
 - **curious** + **actioned**: 5
-- **confused** + **investigated**: 5
 - **request** + **explained**: 4
 - **blocked** + **actioned**: 4
 - **confused** + **—**: 4
@@ -356,6 +358,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
   > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10217](https://tbpro.zendesk.com/agent/tickets/10217)** · Re: [Thundermail] Re: Cancel Account — why: **change request** · how: **actioned**
+  > This is a follow-up to your previous request #9293 "Cancel Account" Hi [name], Thank you so much for issuing the refund! I really wasn’t expecting that, and I genuinely appreciate…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#10216](https://tbpro.zendesk.com/agent/tickets/10216)** · Subsciption for family .
+  > Hello, I have my own domain, used by family with 4 separate addresses in @[domain]. 72 € / user/year is quite expensive. Would you have a much cheaper offer for a family ? Kind…
+
 ### App setup / configuration — 1 tickets
 
 - **[#10212](https://tbpro.zendesk.com/agent/tickets/10212)** · How do I select: [domain]?
@@ -397,7 +409,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10194](https://tbpro.zendesk.com/agent/tickets/10194) · [new] · 2026-10-20T09:01 · Price
 - [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [open] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
 - [10210](https://tbpro.zendesk.com/agent/tickets/10210) · [open] · 2026-10-20T13:42 · cannot access my Thunderbird email "[email]"
-- [10212](https://tbpro.zendesk.com/agent/tickets/10212) · [new] · 2026-10-20T13:52 · How do I select: [domain]?
+- [10212](https://tbpro.zendesk.com/agent/tickets/10212) · [open] · 2026-10-20T13:52 · How do I select: [domain]?
+- [10216](https://tbpro.zendesk.com/agent/tickets/10216) · [new] · 2026-10-20T15:04 · Subsciption for family .
+- [10217](https://tbpro.zendesk.com/agent/tickets/10217) · [open] · 2026-10-20T15:07 · Re: [Thundermail] Re: Cancel Account
 
 ## Solved — last 24h
 
@@ -413,6 +427,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10053](https://tbpro.zendesk.com/agent/tickets/10053) · 2026-10-20T00:02 · Monthly payment for new mail
 - · [10059](https://tbpro.zendesk.com/agent/tickets/10059) · 2026-10-20T12:01 · Refund Request for Thundermail Subscription
 - · [10139](https://tbpro.zendesk.com/agent/tickets/10139) · 2026-10-20T14:07 · What happened to aliases?
+- 👍 [10094](https://tbpro.zendesk.com/agent/tickets/10094) · 2026-10-20T14:28 · Thundermail payment page
+- · [10058](https://tbpro.zendesk.com/agent/tickets/10058) · 2026-10-20T15:01 · alias deletion 
+- · [10066](https://tbpro.zendesk.com/agent/tickets/10066) · 2026-10-20T15:01 · Kan niet inloggen
+- · [9806](https://tbpro.zendesk.com/agent/tickets/9806) · 2026-10-20T15:01 · My Wife needs to create a Thundermail account.  Can you send an invitation to her?  Losing current p
+- · [10073](https://tbpro.zendesk.com/agent/tickets/10073) · 2026-10-20T15:03 · Thundermail in my browser
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
