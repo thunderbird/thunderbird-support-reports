@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 15:22 ET** · refreshes hourly_  
+_Updated: **2026-10-20 16:24 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **823 tickets** so fa
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (173 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 87
-- **Median AHT**: 137.2h · mean 172.8h (proxy: updated_at − created_at, 54 solved tickets)
+- **Median AHT**: 137.2h · mean 173.3h (proxy: updated_at − created_at, 54 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -258,14 +258,14 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 684
-- **pending**: 55
 - **solved**: 54
+- **pending**: 54
 - **hold**: 21
-- **open**: 9
+- **open**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 463
+- **Account Hub**: 462
 - **Thundermail**: 290
 - **Send**: 18
 - **Appointment**: 9
@@ -274,7 +274,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 167
+- **curious** + **explained**: 166
 - **change request** + **actioned**: 115
 - **blocked** + **explained**: 103
 - **confused** + **explained**: 67
@@ -350,19 +350,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10177](https://tbpro.zendesk.com/agent/tickets/10177)** · Per-alias display names — why: **curious** · how: **informed**
   > I'd like to be able to set a display name per alias, rather than having one alias that is shared across all my display names. While some email aliases are associated with my…
 
+### Aliases — 2 tickets
+
+- **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address — why: **request** · how: **redirected**
+  > Hi, I use Thundermail with my custom domain [domain] (verified). My account is [email] and [email] is set up as an alias and as a mail sender identity. When I create a calendar…
+- **[#10212](https://tbpro.zendesk.com/agent/tickets/10212)** · How do I select: [domain]? — why: **curious** · how: **explained**
+  > I want in today! TAKE MY MONEY PLEASE… how do I setup a [domain] email (instead of [domain]?
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10170](https://tbpro.zendesk.com/agent/tickets/10170)** · Compacting Error
   > On Desktop Thundermail I have received a compacting error.
 - **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
   > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
-
-### Aliases — 2 tickets
-
-- **[#10212](https://tbpro.zendesk.com/agent/tickets/10212)** · How do I select: [domain]? — why: **curious** · how: **explained**
-  > I want in today! TAKE MY MONEY PLEASE… how do I setup a [domain] email (instead of [domain]?
-- **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address — why: **request** · how: **redirected**
-  > Hi, I use Thundermail with my custom domain [domain] (verified). My account is [email] and [email] is set up as an alias and as a mail sender identity. When I create a calendar…
 
 ### Pricing — general pricing concern — 2 tickets
 
@@ -417,7 +417,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10186](https://tbpro.zendesk.com/agent/tickets/10186) · [open] · 2026-10-20T07:16 · Account recovery
 - [10193](https://tbpro.zendesk.com/agent/tickets/10193) · [pending] · 2026-10-20T08:56 · on page https://[domain]/subscribe, the page will not render, can you assist
 - [10194](https://tbpro.zendesk.com/agent/tickets/10194) · [pending] · 2026-10-20T09:01 · Price
-- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [pending] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
+- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [open] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
 - [10210](https://tbpro.zendesk.com/agent/tickets/10210) · [pending] · 2026-10-20T13:42 · cannot access my Thunderbird email "[email]"
 - [10212](https://tbpro.zendesk.com/agent/tickets/10212) · [pending] · 2026-10-20T13:52 · How do I select: [domain]?
 - [10216](https://tbpro.zendesk.com/agent/tickets/10216) · [open] · 2026-10-20T15:04 · Subsciption for family .
