@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 16:24 ET** · refreshes hourly_  
+_Updated: **2026-10-20 17:22 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **823 tickets** so fa
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (173 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 87
-- **Median AHT**: 137.2h · mean 173.3h (proxy: updated_at − created_at, 54 solved tickets)
+- **Median AHT**: 137.1h · mean 170.7h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -258,15 +258,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 684
-- **solved**: 54
-- **pending**: 54
-- **hold**: 21
-- **open**: 10
+- **pending**: 57
+- **solved**: 55
+- **hold**: 20
+- **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 462
-- **Thundermail**: 290
+- **Account Hub**: 463
+- **Thundermail**: 288
 - **Send**: 18
 - **Appointment**: 9
 
@@ -276,8 +276,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 166
 - **change request** + **actioned**: 115
-- **blocked** + **explained**: 103
-- **confused** + **explained**: 67
+- **blocked** + **explained**: 104
+- **confused** + **explained**: 68
 - **curious** + **informed**: 44
 - **blocked** + **investigated**: 38
 - **request** + **redirected**: 37
@@ -291,9 +291,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 7
 - **concerned** + **investigated**: 7
 - **telling us** + **explained**: 6
-- **confused** + **investigated**: 6
+- **confused** + **—**: 6
 - **curious** + **actioned**: 5
-- **confused** + **—**: 5
+- **confused** + **investigated**: 5
 - **request** + **explained**: 4
 - **blocked** + **actioned**: 4
 - **curious** + **escalated**: 3
@@ -328,12 +328,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — Account Hub trouble — 6 tickets
+### Account access issues — Account Hub trouble — 7 tickets
 
 - **[#10186](https://tbpro.zendesk.com/agent/tickets/10186)** · Account recovery — why: **blocked** · how: **informed**
   > Hi. I think I made an error in the signup process and can't access my account, as I haven't logged in a single time. Can you help me sent a recovery email to my [email] account,…
 - **[#10226](https://tbpro.zendesk.com/agent/tickets/10226)** · E-Mail  — why: **confused** · how: **explained**
   > I cannot sign in to my E-Mail-Adress "[email] "
+- **[#10219](https://tbpro.zendesk.com/agent/tickets/10219)** · Activation — why: **blocked** · how: **explained**
+  > Tried to use new thunderbirdmail username and password as entered on set up, but it has been rejected.
 - **[#10218](https://tbpro.zendesk.com/agent/tickets/10218)** · Sign in not available — why: **blocked** · how: **informed**
   > My registered Thunderbird-E-Mail Adress seems to be wrong, so I can't sign in to my new account. Please tell me my correct address, so I can sign in. Best regards, [name]
 - **[#10210](https://tbpro.zendesk.com/agent/tickets/10210)** · cannot access my Thunderbird email "[email]" — why: **confused**
@@ -343,26 +345,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10182](https://tbpro.zendesk.com/agent/tickets/10182)** · I have forgotten if I have an email adress on Thunderbirds or thundermail — why: **confused** · how: **explained**
   > my main computer has failled. Send me please my id if I have. Suite à une panne d'ordinateur peu de temps après avoir commencé à tester et utiliser Thundermail je ne sais plus si…
 
-### Webmail — 2 tickets
-
-- **[#10223](https://tbpro.zendesk.com/agent/tickets/10223)** · Access through a Bookmark in FIREFOX
-  > Hello, I just signed up for Thundermail, completed the process. In one of the original e-mails from MOZILLA regarding Thundermail, it describes what looks to be a direct access to…
-- **[#10177](https://tbpro.zendesk.com/agent/tickets/10177)** · Per-alias display names — why: **curious** · how: **informed**
-  > I'd like to be able to set a display name per alias, rather than having one alias that is shared across all my display names. While some email aliases are associated with my…
-
-### Aliases — 2 tickets
-
-- **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address — why: **request** · how: **redirected**
-  > Hi, I use Thundermail with my custom domain [domain] (verified). My account is [email] and [email] is set up as an alias and as a mail sender identity. When I create a calendar…
-- **[#10212](https://tbpro.zendesk.com/agent/tickets/10212)** · How do I select: [domain]? — why: **curious** · how: **explained**
-  > I want in today! TAKE MY MONEY PLEASE… how do I setup a [domain] email (instead of [domain]?
-
 ### Other / uncategorized — 2 tickets
 
 - **[#10170](https://tbpro.zendesk.com/agent/tickets/10170)** · Compacting Error
   > On Desktop Thundermail I have received a compacting error.
 - **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
   > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
+
+### Aliases — 2 tickets
+
+- **[#10212](https://tbpro.zendesk.com/agent/tickets/10212)** · How do I select: [domain]? — why: **curious** · how: **explained**
+  > I want in today! TAKE MY MONEY PLEASE… how do I setup a [domain] email (instead of [domain]?
+- **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address — why: **request** · how: **redirected**
+  > Hi, I use Thundermail with my custom domain [domain] (verified). My account is [email] and [email] is set up as an alias and as a mail sender identity. When I create a calendar…
 
 ### Pricing — general pricing concern — 2 tickets
 
@@ -378,10 +373,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10168](https://tbpro.zendesk.com/agent/tickets/10168)** · Monthly Plan? — why: **curious** · how: **explained**
   > Hello, I want to try thundermail, I notice that there is no monthly plan, Is this a bug or not yet implemented
 
-### App setup / configuration — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#10219](https://tbpro.zendesk.com/agent/tickets/10219)** · Activation
-  > Tried to use new thunderbirdmail username and password as entered on set up, but it has been rejected.
+- **[#10223](https://tbpro.zendesk.com/agent/tickets/10223)** · Access through a Bookmark in FIREFOX — why: **confused** · how: **explained**
+  > Hello, I just signed up for Thundermail, completed the process. In one of the original e-mails from MOZILLA regarding Thundermail, it describes what looks to be a direct access to…
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -397,6 +392,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10193](https://tbpro.zendesk.com/agent/tickets/10193)** · on page https://[domain]/subscribe, the page will not render, can you assist — why: **blocked** · how: **investigated**
   > I am at the "Order Summary" page but it will not fully display or work. Can you assist?
+
+### Webmail — 1 tickets
+
+- **[#10177](https://tbpro.zendesk.com/agent/tickets/10177)** · Per-alias display names — why: **curious** · how: **informed**
+  > I'd like to be able to set a display name per alias, rather than having one alias that is shared across all my display names. While some email aliases are associated with my…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -417,13 +417,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10186](https://tbpro.zendesk.com/agent/tickets/10186) · [open] · 2026-10-20T07:16 · Account recovery
 - [10193](https://tbpro.zendesk.com/agent/tickets/10193) · [pending] · 2026-10-20T08:56 · on page https://[domain]/subscribe, the page will not render, can you assist
 - [10194](https://tbpro.zendesk.com/agent/tickets/10194) · [pending] · 2026-10-20T09:01 · Price
-- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [open] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
+- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [pending] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
 - [10210](https://tbpro.zendesk.com/agent/tickets/10210) · [pending] · 2026-10-20T13:42 · cannot access my Thunderbird email "[email]"
 - [10212](https://tbpro.zendesk.com/agent/tickets/10212) · [pending] · 2026-10-20T13:52 · How do I select: [domain]?
 - [10216](https://tbpro.zendesk.com/agent/tickets/10216) · [open] · 2026-10-20T15:04 · Subsciption for family .
 - [10217](https://tbpro.zendesk.com/agent/tickets/10217) · [pending] · 2026-10-20T15:07 · Re: [Thundermail] Re: Cancel Account
 - [10218](https://tbpro.zendesk.com/agent/tickets/10218) · [pending] · 2026-10-20T15:48 · Sign in not available
-- [10219](https://tbpro.zendesk.com/agent/tickets/10219) · [open] · 2026-10-20T15:57 · Activation
+- [10219](https://tbpro.zendesk.com/agent/tickets/10219) · [pending] · 2026-10-20T15:57 · Activation
 - [10223](https://tbpro.zendesk.com/agent/tickets/10223) · [open] · 2026-10-20T17:07 · Access through a Bookmark in FIREFOX
 - [10226](https://tbpro.zendesk.com/agent/tickets/10226) · [pending] · 2026-10-20T18:39 · E-Mail 
 
