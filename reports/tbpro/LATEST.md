@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 07:22 ET** · refreshes hourly_  
+_Updated: **2026-10-20 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 72** of rollout — **35,000 invitees**, **815 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 72** of rollout — **35,000 invitees**, **816 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **10** solved in last 24h
-- **815** tickets total since launch · contact rate **2%** of 35000 invitees
+- **13** new tickets in last 24h · **11** solved in last 24h
+- **816** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 88
-- **Median AHT**: 137.7h · mean 176.2h (proxy: updated_at − created_at, 52 solved tickets)
+- **Median AHT**: 137.2h · mean 175.3h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -113,7 +113,7 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **815 tickets** so fa
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [solved] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [closed] · 2026-10-14 · _Close account_
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [solved] · 2026-10-14 · _Rétractation abonnement._
-  - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [pending] · 2026-10-15 · _Refund Request for Thundermail Subscription_
+  - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [solved] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [pending] · 2026-10-15 · _Cancel my subscription_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [pending] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16 · _please delete account_
@@ -250,16 +250,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 680
-- **solved**: 52
+- **solved**: 53
 - **pending**: 36
 - **hold**: 21
-- **open**: 15
-- **new**: 11
+- **open**: 14
+- **new**: 12
 
 ## Service (cumulative)
 
-- **Account Hub**: 450
-- **Thundermail**: 294
+- **Account Hub**: 449
+- **Thundermail**: 296
 - **Send**: 18
 - **Appointment**: 9
 
@@ -269,7 +269,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 163
 - **change request** + **actioned**: 115
-- **blocked** + **explained**: 102
+- **blocked** + **explained**: 103
 - **confused** + **explained**: 63
 - **curious** + **informed**: 43
 - **request** + **redirected**: 37
@@ -332,6 +332,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10169](https://tbpro.zendesk.com/agent/tickets/10169)** · Folders better if closed
   > When I open Desktop Thundermail and go to any of my email accounts all the folders and subfolders are open, stretching the list to the maximum. It would be much better if they…
 
+### Aliases — 2 tickets
+
+- **[#10203](https://tbpro.zendesk.com/agent/tickets/10203)** · Calendar invites sent from [domain] instead of my custom domain address
+  > Hi, I use Thundermail with my custom domain [domain] (verified). My account is [email] and [email] is set up as an alias and as a mail sender identity. When I create a calendar…
+- **[#10177](https://tbpro.zendesk.com/agent/tickets/10177)** · Per-alias display names
+  > I'd like to be able to set a display name per alias, rather than having one alias that is shared across all my display names. While some email aliases are associated with my…
+
 ### Pricing / monthly plan / free tier — 2 tickets
 
 - **[#10194](https://tbpro.zendesk.com/agent/tickets/10194)** · Price
@@ -358,11 +365,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10181](https://tbpro.zendesk.com/agent/tickets/10181)** · Transparency
   > You expect me to sign up for something when you won't disclose the price?
 
-### Aliases — 1 tickets
-
-- **[#10177](https://tbpro.zendesk.com/agent/tickets/10177)** · Per-alias display names
-  > I'd like to be able to set a display name per alias, rather than having one alias that is shared across all my display names. While some email aliases are associated with my…
-
 ## New tickets — last 24h
 
 - [10168](https://tbpro.zendesk.com/agent/tickets/10168) · [new] · 2026-10-19T20:27 · Monthly Plan?
@@ -377,6 +379,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10186](https://tbpro.zendesk.com/agent/tickets/10186) · [new] · 2026-10-20T07:16 · Account recovery
 - [10193](https://tbpro.zendesk.com/agent/tickets/10193) · [new] · 2026-10-20T08:56 · on page https://[domain]/subscribe, the page will not render, can you assist
 - [10194](https://tbpro.zendesk.com/agent/tickets/10194) · [new] · 2026-10-20T09:01 · Price
+- [10203](https://tbpro.zendesk.com/agent/tickets/10203) · [new] · 2026-10-20T12:22 · Calendar invites sent from [domain] instead of my custom domain address
 
 ## Solved — last 24h
 
@@ -390,6 +393,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10048](https://tbpro.zendesk.com/agent/tickets/10048) · 2026-10-19T22:02 · system not working
 - · [10018](https://tbpro.zendesk.com/agent/tickets/10018) · 2026-10-19T23:01 · Alias transfer
 - · [10053](https://tbpro.zendesk.com/agent/tickets/10053) · 2026-10-20T00:02 · Monthly payment for new mail
+- · [10059](https://tbpro.zendesk.com/agent/tickets/10059) · 2026-10-20T12:01 · Refund Request for Thundermail Subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
