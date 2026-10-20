@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-19
 
-_Updated: **2026-10-19 21:30 ET** · refreshes hourly_  
+_Updated: **2026-10-19 22:30 ET** · refreshes hourly_  
 _24h window: 2026-10-18T16:00 → 2026-10-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 71** of rollout — **35,000 invitees**, **806 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 71** of rollout — **35,000 invitees**, **807 tickets** so far (2.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **15** solved in last 24h
-- **806** tickets total since launch · contact rate **2%** of 35000 invitees
+- **807** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (172 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 88
 - **Median AHT**: 137.7h · mean 176.2h (proxy: updated_at − created_at, 52 solved tickets)
 
-## Known problems — 13 problem(s), 104 incident(s)
+## Known problems — 13 problem(s), 105 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -156,8 +156,9 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **806 tickets** so fa
 
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
-- 1 incident(s):
+- 2 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
+  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -171,9 +172,8 @@ Flight 8 is **day 71** of rollout — **35,000 invitees**, **806 tickets** so fa
 - 1 incident(s):
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
 
-## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
+## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
 
-- 🔧 [zd #10076](https://tbpro.zendesk.com/agent/tickets/10076) → [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
@@ -255,11 +255,11 @@ _(none in last 24h)_
 - **pending**: 35
 - **hold**: 20
 - **open**: 16
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 446
+- **Account Hub**: 447
 - **Thundermail**: 290
 - **Send**: 18
 - **Appointment**: 9
