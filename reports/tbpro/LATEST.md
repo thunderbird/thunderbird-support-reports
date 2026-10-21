@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 12:24 ET** · refreshes hourly_  
+_Updated: **2026-10-21 13:20 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **832 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **833 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **14** solved in last 24h
-- **832** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **16** solved in last 24h
+- **833** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 88
-- **Median AHT**: 133.8h · mean 161.7h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 131.9h · mean 158.7h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -250,15 +250,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 686
-- **solved**: 63
-- **pending**: 54
+- **solved**: 65
+- **pending**: 55
 - **hold**: 19
-- **open**: 10
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 467
-- **Thundermail**: 289
+- **Account Hub**: 468
+- **Thundermail**: 288
 - **Send**: 18
 - **Appointment**: 9
 
@@ -269,7 +269,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 165
 - **change request** + **actioned**: 116
 - **blocked** + **explained**: 104
-- **confused** + **explained**: 70
+- **confused** + **explained**: 71
 - **curious** + **informed**: 44
 - **blocked** + **investigated**: 39
 - **request** + **redirected**: 38
@@ -280,21 +280,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 15
 - **change request** + **explained**: 9
 - **concerned** + **—**: 8
+- **confused** + **—**: 7
 - **blocked** + **—**: 7
 - **concerned** + **investigated**: 7
 - **telling us** + **explained**: 6
-- **confused** + **—**: 6
 - **curious** + **actioned**: 5
 - **confused** + **investigated**: 5
 - **request** + **explained**: 4
 - **blocked** + **actioned**: 4
 - **curious** + **escalated**: 3
+- **other** + **n/a**: 3
 - **change request** + **escalated**: 3
 - **other** + **escalated**: 3
 - **curious** + **—**: 3
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
-- **other** + **n/a**: 2
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
@@ -326,19 +326,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10262](https://tbpro.zendesk.com/agent/tickets/10262)** · Fwd: Re: [Thundermail] Re: Thundermail in my browser
   > One of my Gmails still does not show the Deleted folder and it is empty.
-- **[#10261](https://tbpro.zendesk.com/agent/tickets/10261)** · kennwortänderung
-  > kann mein Kennwort nicht änderm
-- **[#10250](https://tbpro.zendesk.com/agent/tickets/10250)** · Hetero
-  > is not working
 - **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort
   > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
-- **[#10237](https://tbpro.zendesk.com/agent/tickets/10237)** · Add more 3 custum domain — why: **request** · how: **redirected**
-  > I want 5 custum domain.
 - **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address. — why: **blocked** · how: **investigated**
   > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
+- **[#10265](https://tbpro.zendesk.com/agent/tickets/10265)** · BS57 限时优惠 50% OFF — why: **other** · how: **n/a**
+  > BS57 限时优惠 50% OFF
+- **[#10250](https://tbpro.zendesk.com/agent/tickets/10250)** · Hetero — why: **confused**
+  > is not working
+- **[#10237](https://tbpro.zendesk.com/agent/tickets/10237)** · Add more 3 custum domain — why: **request** · how: **redirected**
+  > I want 5 custum domain.
 
-### Account access issues — Account Hub trouble — 3 tickets
+### Account access issues — Account Hub trouble — 4 tickets
 
+- **[#10261](https://tbpro.zendesk.com/agent/tickets/10261)** · kennwortänderung — why: **confused** · how: **explained**
+  > kann mein Kennwort nicht änderm
 - **[#10260](https://tbpro.zendesk.com/agent/tickets/10260)** · Forgot User Name and Password — why: **confused** · how: **explained**
   > Forgot User Name and Password.....its been a while since i got on this email server
 - **[#10236](https://tbpro.zendesk.com/agent/tickets/10236)** · Passwort — why: **confused** · how: **explained**
@@ -349,14 +351,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10232](https://tbpro.zendesk.com/agent/tickets/10232) · [pending] · 2026-10-21T02:15 · Cannot sign in 
-- [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [pending] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
+- [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [open] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
 - [10236](https://tbpro.zendesk.com/agent/tickets/10236) · [pending] · 2026-10-21T05:31 · Passwort
 - [10237](https://tbpro.zendesk.com/agent/tickets/10237) · [pending] · 2026-10-21T05:32 · Add more 3 custum domain
 - [10248](https://tbpro.zendesk.com/agent/tickets/10248) · [open] · 2026-10-21T09:04 · Passwort
-- [10250](https://tbpro.zendesk.com/agent/tickets/10250) · [open] · 2026-10-21T09:49 · Hetero
+- [10250](https://tbpro.zendesk.com/agent/tickets/10250) · [pending] · 2026-10-21T09:49 · Hetero
 - [10260](https://tbpro.zendesk.com/agent/tickets/10260) · [pending] · 2026-10-21T15:05 · Forgot User Name and Password
-- [10261](https://tbpro.zendesk.com/agent/tickets/10261) · [open] · 2026-10-21T15:25 · kennwortänderung
+- [10261](https://tbpro.zendesk.com/agent/tickets/10261) · [pending] · 2026-10-21T15:25 · kennwortänderung
 - [10262](https://tbpro.zendesk.com/agent/tickets/10262) · [open] · 2026-10-21T15:52 · Fwd: Re: [Thundermail] Re: Thundermail in my browser
+- [10265](https://tbpro.zendesk.com/agent/tickets/10265) · [solved] · 2026-10-21T16:36 · BS57 限时优惠 50% OFF
 
 ## Solved — last 24h
 
@@ -374,6 +377,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10139](https://tbpro.zendesk.com/agent/tickets/10139) · 2026-10-21T15:01 · What happened to aliases?
 - · [10090](https://tbpro.zendesk.com/agent/tickets/10090) · 2026-10-21T15:01 · I changed my mind
 - · [10098](https://tbpro.zendesk.com/agent/tickets/10098) · 2026-10-21T16:02 · Are messages in the Junk Mail folder automatically deleted after a while?
+- · [10265](https://tbpro.zendesk.com/agent/tickets/10265) · 2026-10-21T16:38 · BS57 限时优惠 50% OFF
+- · [10097](https://tbpro.zendesk.com/agent/tickets/10097) · 2026-10-21T17:02 · [email]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
