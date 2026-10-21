@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 16:25 ET** · refreshes hourly_  
+_Updated: **2026-10-21 17:20 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **837 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **838 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **18** solved in last 24h
-- **837** tickets total since launch · contact rate **2%** of 35000 invitees
+- **838** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
@@ -253,12 +253,12 @@ _(none in last 24h)_
 - **solved**: 67
 - **pending**: 57
 - **hold**: 19
-- **open**: 8
+- **open**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 470
-- **Thundermail**: 289
+- **Account Hub**: 471
+- **Thundermail**: 288
 - **Send**: 18
 - **Appointment**: 9
 
@@ -270,7 +270,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 116
 - **blocked** + **explained**: 105
 - **confused** + **explained**: 71
-- **curious** + **informed**: 44
+- **curious** + **informed**: 45
 - **request** + **redirected**: 38
 - **blocked** + **investigated**: 38
 - **blocked** + **redirected**: 38
@@ -351,20 +351,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort — why: **curious** · how: **redirected**
   > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
 
-### Early bird / invite / waitlist — 1 tickets
+### Account access issues — 1 tickets
 
-- **[#10280](https://tbpro.zendesk.com/agent/tickets/10280)** · ThunderMail Early Bird – Ready for everyday use?
+- **[#10269](https://tbpro.zendesk.com/agent/tickets/10269)** · Access Denied
+  > I get Access Denied when I try to submit a Question in Desktop Thunderbird Forums. Screenshot 2026-10-22 031613_Access Denied.png
+
+### Early bird signup — 1 tickets
+
+- **[#10280](https://tbpro.zendesk.com/agent/tickets/10280)** · ThunderMail Early Bird – Ready for everyday use? — why: **curious** · how: **informed**
   > Hi [name], I've recently subscribed to the ThunderMail Early Bird plan, and I'm excited to start using the service! I have a question about its current reliability and readiness…
 
 ### Webmail — 1 tickets
 
 - **[#10272](https://tbpro.zendesk.com/agent/tickets/10272)** · Custom domain is not working.  — why: **blocked** · how: **explained**
   > I set up my domain. I moved it here from fastmail. The DNS has been set up and verified, but I'm not getting any of my messages. I get this every time I send a message to myself.:…
-
-### Account access issues — 1 tickets
-
-- **[#10269](https://tbpro.zendesk.com/agent/tickets/10269)** · Access Denied
-  > I get Access Denied when I try to submit a Question in Desktop Thunderbird Forums. Screenshot 2026-10-22 031613_Access Denied.png
 
 ### Aliases — 1 tickets
 
@@ -384,9 +384,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10265](https://tbpro.zendesk.com/agent/tickets/10265) · [solved] · 2026-10-21T16:36 · BS57 限时优惠 50% OFF
 - [10268](https://tbpro.zendesk.com/agent/tickets/10268) · [open] · 2026-10-21T17:29 · Considering ending my Thundermail experiment
 - [10269](https://tbpro.zendesk.com/agent/tickets/10269) · [open] · 2026-10-21T17:44 · Access Denied
-- [10272](https://tbpro.zendesk.com/agent/tickets/10272) · [open] · 2026-10-21T17:54 · Custom domain is not working. 
-- [10279](https://tbpro.zendesk.com/agent/tickets/10279) · [pending] · 2026-10-21T19:42 · NEW ACCOUNT
-- [10280](https://tbpro.zendesk.com/agent/tickets/10280) · [open] · 2026-10-21T19:55 · ThunderMail Early Bird – Ready for everyday use?
+- [10272](https://tbpro.zendesk.com/agent/tickets/10272) · [pending] · 2026-10-21T17:54 · Custom domain is not working. 
+- [10279](https://tbpro.zendesk.com/agent/tickets/10279) · [open] · 2026-10-21T19:42 · NEW ACCOUNT
+- [10280](https://tbpro.zendesk.com/agent/tickets/10280) · [pending] · 2026-10-21T19:55 · ThunderMail Early Bird – Ready for everyday use?
 
 ## Solved — last 24h
 
