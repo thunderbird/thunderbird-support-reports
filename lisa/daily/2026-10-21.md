@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 05:26 ET** · refreshes hourly_  
+_Updated: **2026-10-21 06:23 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **829 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **830 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **5** solved in last 24h
-- **829** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **5** solved in last 24h
+- **830** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
@@ -252,7 +252,7 @@ _(none in last 24h)_
 - **pending**: 51
 - **hold**: 19
 - **open**: 12
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -319,8 +319,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 7 tickets
 
+- **[#10250](https://tbpro.zendesk.com/agent/tickets/10250)** · Hetero
+  > is not working
 - **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort
   > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
 - **[#10244](https://tbpro.zendesk.com/agent/tickets/10244)** · PX006 tbpro 限时优惠 50% OFF
@@ -342,6 +344,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10237](https://tbpro.zendesk.com/agent/tickets/10237) · [new] · 2026-10-21T05:32 · Add more 3 custum domain
 - [10244](https://tbpro.zendesk.com/agent/tickets/10244) · [new] · 2026-10-21T08:20 · PX006 tbpro 限时优惠 50% OFF
 - [10248](https://tbpro.zendesk.com/agent/tickets/10248) · [new] · 2026-10-21T09:04 · Passwort
+- [10250](https://tbpro.zendesk.com/agent/tickets/10250) · [new] · 2026-10-21T09:49 · Hetero
 
 ## Solved — last 24h
 
