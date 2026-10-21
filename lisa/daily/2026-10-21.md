@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 17:20 ET** · refreshes hourly_  
+_Updated: **2026-10-21 18:22 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **838 tickets** so fa
 
 ## At a glance
 
-- **14** new tickets in last 24h · **18** solved in last 24h
+- **14** new tickets in last 24h · **17** solved in last 24h
 - **838** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 94%  (174 good / 11 bad)
+- **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 131.9h · mean 158.1h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 128.0h · mean 149.0h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -249,15 +249,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 686
-- **solved**: 67
-- **pending**: 57
+- **closed**: 688
+- **solved**: 69
+- **pending**: 56
 - **hold**: 19
-- **open**: 9
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 471
+- **Account Hub**: 472
 - **Thundermail**: 288
 - **Send**: 18
 - **Appointment**: 9
@@ -268,7 +268,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 167
 - **change request** + **actioned**: 116
-- **blocked** + **explained**: 105
+- **blocked** + **explained**: 106
 - **confused** + **explained**: 71
 - **curious** + **informed**: 45
 - **request** + **redirected**: 38
@@ -288,20 +288,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 5
 - **request** + **explained**: 4
 - **blocked** + **actioned**: 4
+- **curious** + **—**: 4
 - **curious** + **escalated**: 3
 - **other** + **n/a**: 3
 - **change request** + **escalated**: 3
 - **other** + **escalated**: 3
-- **curious** + **—**: 3
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
+- **telling us** + **n/a**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
 - **change request** + **investigated**: 2
 - **other** + **—**: 2
 - **concerned** + **redirected**: 2
-- **telling us** + **n/a**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
@@ -324,7 +324,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 4 tickets
 
-- **[#10268](https://tbpro.zendesk.com/agent/tickets/10268)** · Considering ending my Thundermail experiment
+- **[#10268](https://tbpro.zendesk.com/agent/tickets/10268)** · Considering ending my Thundermail experiment — why: **curious**
   > For the first time the thought entered my head that maybe I should consider ending my Thundermail experiment. Website Thundermail and Support is good, but Desktop Thunderbird…
 - **[#10265](https://tbpro.zendesk.com/agent/tickets/10265)** · BS57 限时优惠 50% OFF — why: **other** · how: **n/a**
   > BS57 限时优惠 50% OFF
@@ -351,11 +351,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort — why: **curious** · how: **redirected**
   > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
 
-### Account access issues — 1 tickets
-
-- **[#10269](https://tbpro.zendesk.com/agent/tickets/10269)** · Access Denied
-  > I get Access Denied when I try to submit a Question in Desktop Thunderbird Forums. Screenshot 2026-10-22 031613_Access Denied.png
-
 ### Early bird signup — 1 tickets
 
 - **[#10280](https://tbpro.zendesk.com/agent/tickets/10280)** · ThunderMail Early Bird – Ready for everyday use? — why: **curious** · how: **informed**
@@ -365,6 +360,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10272](https://tbpro.zendesk.com/agent/tickets/10272)** · Custom domain is not working.  — why: **blocked** · how: **explained**
   > I set up my domain. I moved it here from fastmail. The DNS has been set up and verified, but I'm not getting any of my messages. I get this every time I send a message to myself.:…
+
+### Account access issues — 1 tickets
+
+- **[#10269](https://tbpro.zendesk.com/agent/tickets/10269)** · Access Denied — why: **blocked** · how: **explained**
+  > I get Access Denied when I try to submit a Question in Desktop Thunderbird Forums. Screenshot 2026-10-22 031613_Access Denied.png
 
 ### Aliases — 1 tickets
 
@@ -382,8 +382,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10260](https://tbpro.zendesk.com/agent/tickets/10260) · [pending] · 2026-10-21T15:05 · Forgot User Name and Password
 - [10261](https://tbpro.zendesk.com/agent/tickets/10261) · [pending] · 2026-10-21T15:25 · kennwortänderung
 - [10265](https://tbpro.zendesk.com/agent/tickets/10265) · [solved] · 2026-10-21T16:36 · BS57 限时优惠 50% OFF
-- [10268](https://tbpro.zendesk.com/agent/tickets/10268) · [open] · 2026-10-21T17:29 · Considering ending my Thundermail experiment
-- [10269](https://tbpro.zendesk.com/agent/tickets/10269) · [open] · 2026-10-21T17:44 · Access Denied
+- [10268](https://tbpro.zendesk.com/agent/tickets/10268) · [solved] · 2026-10-21T17:29 · Considering ending my Thundermail experiment
+- [10269](https://tbpro.zendesk.com/agent/tickets/10269) · [solved] · 2026-10-21T17:44 · Access Denied
 - [10272](https://tbpro.zendesk.com/agent/tickets/10272) · [pending] · 2026-10-21T17:54 · Custom domain is not working. 
 - [10279](https://tbpro.zendesk.com/agent/tickets/10279) · [open] · 2026-10-21T19:42 · NEW ACCOUNT
 - [10280](https://tbpro.zendesk.com/agent/tickets/10280) · [pending] · 2026-10-21T19:55 · ThunderMail Early Bird – Ready for everyday use?
@@ -391,7 +391,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [10082](https://tbpro.zendesk.com/agent/tickets/10082) · 2026-10-20T20:02 · Sending from a custom domain
-- · [10157](https://tbpro.zendesk.com/agent/tickets/10157) · 2026-10-20T21:02 · What is a Keyword Alert Notification?
 - · [10071](https://tbpro.zendesk.com/agent/tickets/10071) · 2026-10-20T22:02 · alias management 
 - · [10024](https://tbpro.zendesk.com/agent/tickets/10024) · 2026-10-20T22:02 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 - · [10080](https://tbpro.zendesk.com/agent/tickets/10080) · 2026-10-20T23:01 · Cancel my subscription
