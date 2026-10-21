@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-20
 
-_Updated: **2026-10-20 22:32 ET** · refreshes hourly_  
+_Updated: **2026-10-20 23:27 ET** · refreshes hourly_  
 _24h window: 2026-10-19T16:00 → 2026-10-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 72** of rollout — **35,000 invitees**, **824 tickets** so fa
 
 ## At a glance
 
-- **21** new tickets in last 24h · **19** solved in last 24h
+- **21** new tickets in last 24h · **18** solved in last 24h
 - **824** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 94%  (173 good / 11 bad)
+- **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 87
-- **Median AHT**: 135.7h · mean 169.8h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 137.1h · mean 170.7h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -258,10 +258,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 686
-- **solved**: 56
-- **pending**: 53
+- **solved**: 55
+- **pending**: 52
 - **hold**: 19
-- **open**: 9
+- **open**: 11
 - **new**: 1
 
 ## Service (cumulative)
@@ -447,7 +447,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10022](https://tbpro.zendesk.com/agent/tickets/10022) · 2026-10-20T17:02 · Cost of Early Bird Beta
 - · [9618](https://tbpro.zendesk.com/agent/tickets/9618) · 2026-10-20T18:02 · Thundermail and Pop3
 - · [10018](https://tbpro.zendesk.com/agent/tickets/10018) · 2026-10-20T18:53 · Alias transfer
-- · [10072](https://tbpro.zendesk.com/agent/tickets/10072) · 2026-10-20T19:02 · Passkey for website Thundermail?
 - · [10059](https://tbpro.zendesk.com/agent/tickets/10059) · 2026-10-20T19:02 · Refund Request for Thundermail Subscription
 
 ---
