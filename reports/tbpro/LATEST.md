@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 08:33 ET** · refreshes hourly_  
+_Updated: **2026-10-21 09:24 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,14 +9,14 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **829 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **7** solved in last 24h
+- **6** new tickets in last 24h · **8** solved in last 24h
 - **829** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 88
-- **Median AHT**: 137.1h · mean 169.5h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 135.7h · mean 168.6h (proxy: updated_at − created_at, 58 solved tickets)
 
-## Known problems — 13 problem(s), 105 incident(s)
+## Known problems — 13 problem(s), 106 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **829 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 85 incident(s):
+- 86 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -118,6 +118,7 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **829 tickets** so fa
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [pending] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20 · _Refund_
+  - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [pending] · 2026-10-20 · _Monthly plans _
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -249,10 +250,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 686
-- **solved**: 57
+- **solved**: 58
 - **pending**: 50
 - **hold**: 19
-- **open**: 11
+- **open**: 10
 - **new**: 6
 
 ## Service (cumulative)
@@ -266,8 +267,8 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 166
-- **change request** + **actioned**: 115
+- **curious** + **explained**: 165
+- **change request** + **actioned**: 116
 - **blocked** + **explained**: 104
 - **confused** + **explained**: 68
 - **curious** + **informed**: 44
@@ -353,6 +354,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10080](https://tbpro.zendesk.com/agent/tickets/10080) · 2026-10-20T23:01 · Cancel my subscription
 - · [10081](https://tbpro.zendesk.com/agent/tickets/10081) · 2026-10-21T12:01 · Re: Support Feedback: MACOS installer for desktop connection issues?
 - 👍 [10072](https://tbpro.zendesk.com/agent/tickets/10072) · 2026-10-21T12:24 · Passkey for website Thundermail?
+- · [10096](https://tbpro.zendesk.com/agent/tickets/10096) · 2026-10-21T13:01 · thundermail sign up
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
