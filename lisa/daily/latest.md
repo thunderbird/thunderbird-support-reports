@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 00:27 ET** · refreshes hourly_  
+_Updated: **2026-10-21 01:23 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **824 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **825 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **5** solved in last 24h
-- **824** tickets total since launch · contact rate **2%** of 35000 invitees
+- **2** new tickets in last 24h · **5** solved in last 24h
+- **825** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
@@ -252,12 +252,12 @@ _(none in last 24h)_
 - **pending**: 52
 - **hold**: 19
 - **open**: 11
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 463
-- **Thundermail**: 289
+- **Thundermail**: 290
 - **Send**: 18
 - **Appointment**: 9
 
@@ -319,14 +319,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address.
+  > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
 - **[#10232](https://tbpro.zendesk.com/agent/tickets/10232)** · Cannot sign in 
   > I have a thundermail account and cannot sign in
 
 ## New tickets — last 24h
 
 - [10232](https://tbpro.zendesk.com/agent/tickets/10232) · [new] · 2026-10-21T02:15 · Cannot sign in 
+- [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [new] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
 
 ## Solved — last 24h
 
