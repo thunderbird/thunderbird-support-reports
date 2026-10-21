@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 14:28 ET** · refreshes hourly_  
+_Updated: **2026-10-21 15:19 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **836 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **835 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **18** solved in last 24h
-- **836** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **18** solved in last 24h
+- **835** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 88
@@ -251,9 +251,9 @@ _(none in last 24h)_
 
 - **closed**: 686
 - **solved**: 67
-- **pending**: 53
+- **pending**: 54
 - **hold**: 19
-- **open**: 11
+- **open**: 9
 
 ## Service (cumulative)
 
@@ -268,7 +268,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 166
 - **change request** + **actioned**: 116
-- **blocked** + **explained**: 104
+- **blocked** + **explained**: 105
 - **confused** + **explained**: 71
 - **curious** + **informed**: 44
 - **blocked** + **investigated**: 39
@@ -322,12 +322,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 5 tickets
 
 - **[#10268](https://tbpro.zendesk.com/agent/tickets/10268)** · Considering ending my Thundermail experiment
   > For the first time the thought entered my head that maybe I should consider ending my Thundermail experiment. Website Thundermail and Support is good, but Desktop Thunderbird…
-- **[#10262](https://tbpro.zendesk.com/agent/tickets/10262)** · Fwd: Re: [Thundermail] Re: Thundermail in my browser
-  > One of my Gmails still does not show the Deleted folder and it is empty.
 - **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address. — why: **blocked** · how: **investigated**
   > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
 - **[#10265](https://tbpro.zendesk.com/agent/tickets/10265)** · BS57 限时优惠 50% OFF — why: **other** · how: **n/a**
@@ -348,9 +346,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10232](https://tbpro.zendesk.com/agent/tickets/10232)** · Cannot sign in  — why: **blocked** · how: **n/a**
   > I have a thundermail account and cannot sign in
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Webmail — 1 tickets
 
-- **[#10272](https://tbpro.zendesk.com/agent/tickets/10272)** · Custom domain is not working. 
+- **[#10272](https://tbpro.zendesk.com/agent/tickets/10272)** · Custom domain is not working.  — why: **blocked** · how: **explained**
   > I set up my domain. I moved it here from fastmail. The DNS has been set up and verified, but I'm not getting any of my messages. I get this every time I send a message to myself.:…
 
 ### Account access issues — 1 tickets
@@ -373,7 +371,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10250](https://tbpro.zendesk.com/agent/tickets/10250) · [pending] · 2026-10-21T09:49 · Hetero
 - [10260](https://tbpro.zendesk.com/agent/tickets/10260) · [pending] · 2026-10-21T15:05 · Forgot User Name and Password
 - [10261](https://tbpro.zendesk.com/agent/tickets/10261) · [pending] · 2026-10-21T15:25 · kennwortänderung
-- [10262](https://tbpro.zendesk.com/agent/tickets/10262) · [open] · 2026-10-21T15:52 · Fwd: Re: [Thundermail] Re: Thundermail in my browser
 - [10265](https://tbpro.zendesk.com/agent/tickets/10265) · [solved] · 2026-10-21T16:36 · BS57 限时优惠 50% OFF
 - [10268](https://tbpro.zendesk.com/agent/tickets/10268) · [open] · 2026-10-21T17:29 · Considering ending my Thundermail experiment
 - [10269](https://tbpro.zendesk.com/agent/tickets/10269) · [open] · 2026-10-21T17:44 · Access Denied
