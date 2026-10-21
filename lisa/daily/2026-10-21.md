@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 15:19 ET** · refreshes hourly_  
+_Updated: **2026-10-21 16:25 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **835 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **837 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **18** solved in last 24h
-- **835** tickets total since launch · contact rate **2%** of 35000 invitees
+- **14** new tickets in last 24h · **18** solved in last 24h
+- **837** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 88
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
 - **Median AHT**: 131.9h · mean 158.1h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
@@ -251,14 +251,14 @@ _(none in last 24h)_
 
 - **closed**: 686
 - **solved**: 67
-- **pending**: 54
+- **pending**: 57
 - **hold**: 19
-- **open**: 9
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 469
-- **Thundermail**: 288
+- **Account Hub**: 470
+- **Thundermail**: 289
 - **Send**: 18
 - **Appointment**: 9
 
@@ -266,13 +266,13 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 166
+- **curious** + **explained**: 167
 - **change request** + **actioned**: 116
 - **blocked** + **explained**: 105
 - **confused** + **explained**: 71
 - **curious** + **informed**: 44
-- **blocked** + **investigated**: 39
 - **request** + **redirected**: 38
+- **blocked** + **investigated**: 38
 - **blocked** + **redirected**: 38
 - **confused** + **informed**: 33
 - **concerned** + **explained**: 28
@@ -280,8 +280,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 15
 - **change request** + **explained**: 9
 - **concerned** + **—**: 8
+- **blocked** + **—**: 8
 - **confused** + **—**: 7
-- **blocked** + **—**: 7
 - **concerned** + **investigated**: 7
 - **telling us** + **explained**: 6
 - **curious** + **actioned**: 5
@@ -322,12 +322,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 4 tickets
 
 - **[#10268](https://tbpro.zendesk.com/agent/tickets/10268)** · Considering ending my Thundermail experiment
   > For the first time the thought entered my head that maybe I should consider ending my Thundermail experiment. Website Thundermail and Support is good, but Desktop Thunderbird…
-- **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address. — why: **blocked** · how: **investigated**
-  > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
 - **[#10265](https://tbpro.zendesk.com/agent/tickets/10265)** · BS57 限时优惠 50% OFF — why: **other** · how: **n/a**
   > BS57 限时优惠 50% OFF
 - **[#10250](https://tbpro.zendesk.com/agent/tickets/10250)** · Hetero — why: **confused**
@@ -346,6 +344,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10232](https://tbpro.zendesk.com/agent/tickets/10232)** · Cannot sign in  — why: **blocked** · how: **n/a**
   > I have a thundermail account and cannot sign in
 
+### Pricing — general pricing concern — 2 tickets
+
+- **[#10279](https://tbpro.zendesk.com/agent/tickets/10279)** · NEW ACCOUNT — why: **curious** · how: **explained**
+  > Monthly Subscription??? I dont want to pay a whole year in advance? If that is the only option is YEARLY - then why advertise 6$ a month at all? And why no discount for yearly --…
+- **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort — why: **curious** · how: **redirected**
+  > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#10280](https://tbpro.zendesk.com/agent/tickets/10280)** · ThunderMail Early Bird – Ready for everyday use?
+  > Hi [name], I've recently subscribed to the ThunderMail Early Bird plan, and I'm excited to start using the service! I have a question about its current reliability and readiness…
+
 ### Webmail — 1 tickets
 
 - **[#10272](https://tbpro.zendesk.com/agent/tickets/10272)** · Custom domain is not working.  — why: **blocked** · how: **explained**
@@ -356,15 +366,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10269](https://tbpro.zendesk.com/agent/tickets/10269)** · Access Denied
   > I get Access Denied when I try to submit a Question in Desktop Thunderbird Forums. Screenshot 2026-10-22 031613_Access Denied.png
 
-### Pricing — general pricing concern — 1 tickets
+### Aliases — 1 tickets
 
-- **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort — why: **curious** · how: **redirected**
-  > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
+- **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address. — why: **blocked**
+  > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
 
 ## New tickets — last 24h
 
 - [10232](https://tbpro.zendesk.com/agent/tickets/10232) · [pending] · 2026-10-21T02:15 · Cannot sign in 
-- [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [open] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
+- [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [pending] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
 - [10236](https://tbpro.zendesk.com/agent/tickets/10236) · [pending] · 2026-10-21T05:31 · Passwort
 - [10237](https://tbpro.zendesk.com/agent/tickets/10237) · [pending] · 2026-10-21T05:32 · Add more 3 custum domain
 - [10248](https://tbpro.zendesk.com/agent/tickets/10248) · [pending] · 2026-10-21T09:04 · Passwort
@@ -375,6 +385,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10268](https://tbpro.zendesk.com/agent/tickets/10268) · [open] · 2026-10-21T17:29 · Considering ending my Thundermail experiment
 - [10269](https://tbpro.zendesk.com/agent/tickets/10269) · [open] · 2026-10-21T17:44 · Access Denied
 - [10272](https://tbpro.zendesk.com/agent/tickets/10272) · [open] · 2026-10-21T17:54 · Custom domain is not working. 
+- [10279](https://tbpro.zendesk.com/agent/tickets/10279) · [pending] · 2026-10-21T19:42 · NEW ACCOUNT
+- [10280](https://tbpro.zendesk.com/agent/tickets/10280) · [open] · 2026-10-21T19:55 · ThunderMail Early Bird – Ready for everyday use?
 
 ## Solved — last 24h
 
