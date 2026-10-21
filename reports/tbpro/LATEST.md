@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 01:23 ET** · refreshes hourly_  
+_Updated: **2026-10-21 02:37 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **825 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **827 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **5** solved in last 24h
-- **825** tickets total since launch · contact rate **2%** of 35000 invitees
+- **4** new tickets in last 24h · **5** solved in last 24h
+- **827** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
@@ -249,15 +249,15 @@ _(none in last 24h)_
 
 - **closed**: 686
 - **solved**: 55
-- **pending**: 52
+- **pending**: 51
 - **hold**: 19
-- **open**: 11
-- **new**: 2
+- **open**: 12
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 463
-- **Thundermail**: 290
+- **Thundermail**: 291
 - **Send**: 18
 - **Appointment**: 9
 
@@ -319,8 +319,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10237](https://tbpro.zendesk.com/agent/tickets/10237)** · Add more 3 custum domain
+  > I want 5 custum domain.
+- **[#10236](https://tbpro.zendesk.com/agent/tickets/10236)** · Passwort
+  > Habe auf dem Laptop Thunderbird Möchte es auch aufs Handy weiß aber mein Passwort nicht mehr.
 - **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address.
   > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
 - **[#10232](https://tbpro.zendesk.com/agent/tickets/10232)** · Cannot sign in 
@@ -330,6 +334,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10232](https://tbpro.zendesk.com/agent/tickets/10232) · [new] · 2026-10-21T02:15 · Cannot sign in 
 - [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [new] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
+- [10236](https://tbpro.zendesk.com/agent/tickets/10236) · [new] · 2026-10-21T05:31 · Passwort
+- [10237](https://tbpro.zendesk.com/agent/tickets/10237) · [new] · 2026-10-21T05:32 · Add more 3 custum domain
 
 ## Solved — last 24h
 
