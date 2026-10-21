@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 07:25 ET** · refreshes hourly_  
+_Updated: **2026-10-21 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **830 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **829 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **5** solved in last 24h
-- **830** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **7** solved in last 24h
+- **829** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (174 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 87
-- **Median AHT**: 137.1h · mean 170.7h (proxy: updated_at − created_at, 55 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 88
+- **Median AHT**: 137.1h · mean 169.5h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## Known problems — 13 problem(s), 105 incident(s)
 
@@ -241,18 +241,19 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Reading Pane Layout](https://ideas.tb.pro/p/reading-pane-layout) · 1 votes · _untagged_
+  > What you’d like to see Briefly describe the feature or improvement. One of the most annoying features in any email client (looking primarily at Microsoft Outlook) is the ability to change how the…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 686
-- **solved**: 55
-- **pending**: 51
+- **solved**: 57
+- **pending**: 50
 - **hold**: 19
-- **open**: 12
-- **new**: 7
+- **open**: 11
+- **new**: 6
 
 ## Service (cumulative)
 
@@ -319,14 +320,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 7 tickets
+### Other / uncategorized — 6 tickets
 
 - **[#10250](https://tbpro.zendesk.com/agent/tickets/10250)** · Hetero
   > is not working
 - **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort
   > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
-- **[#10244](https://tbpro.zendesk.com/agent/tickets/10244)** · PX006 tbpro 限时优惠 50% OFF
-  > PX006 tbpro 限时优惠 50% OFF
 - **[#10237](https://tbpro.zendesk.com/agent/tickets/10237)** · Add more 3 custum domain
   > I want 5 custum domain.
 - **[#10236](https://tbpro.zendesk.com/agent/tickets/10236)** · Passwort
@@ -342,7 +341,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [new] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
 - [10236](https://tbpro.zendesk.com/agent/tickets/10236) · [new] · 2026-10-21T05:31 · Passwort
 - [10237](https://tbpro.zendesk.com/agent/tickets/10237) · [new] · 2026-10-21T05:32 · Add more 3 custum domain
-- [10244](https://tbpro.zendesk.com/agent/tickets/10244) · [new] · 2026-10-21T08:20 · PX006 tbpro 限时优惠 50% OFF
 - [10248](https://tbpro.zendesk.com/agent/tickets/10248) · [new] · 2026-10-21T09:04 · Passwort
 - [10250](https://tbpro.zendesk.com/agent/tickets/10250) · [new] · 2026-10-21T09:49 · Hetero
 
@@ -353,6 +351,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10071](https://tbpro.zendesk.com/agent/tickets/10071) · 2026-10-20T22:02 · alias management 
 - · [10024](https://tbpro.zendesk.com/agent/tickets/10024) · 2026-10-20T22:02 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
 - · [10080](https://tbpro.zendesk.com/agent/tickets/10080) · 2026-10-20T23:01 · Cancel my subscription
+- · [10081](https://tbpro.zendesk.com/agent/tickets/10081) · 2026-10-21T12:01 · Re: Support Feedback: MACOS installer for desktop connection issues?
+- 👍 [10072](https://tbpro.zendesk.com/agent/tickets/10072) · 2026-10-21T12:24 · Passkey for website Thundermail?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
