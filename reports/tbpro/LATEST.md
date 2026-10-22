@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-10-21
+# Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-21 23:26 ET** · refreshes hourly_  
-_24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-22 00:26 ET** · refreshes hourly_  
+_24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **845 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **845 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **17** solved in last 24h
+- **8** new tickets in last 24h · **12** solved in last 24h
 - **845** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
 - **Median AHT**: 128.0h · mean 145.7h (proxy: updated_at − created_at, 75 solved tickets)
@@ -236,16 +236,17 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [new] · _cancellation_
+  > I just signed up for this based on the online descriptions, and now that I paid, there's no instruction anywhere on how to create addresses. This is completely useless. Can I get my money back, please? I only paid about…
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 1 new:
 
-- [Reading Pane Layout](https://ideas.tb.pro/p/reading-pane-layout) · 1 votes · _untagged_
-  > What you’d like to see Briefly describe the feature or improvement. One of the most annoying features in any email client (looking primarily at Microsoft Outlook) is the ability to change how the…
+- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 1 votes · _untagged_
+  > What you’d like to see A button/icon at top right to do it Why it matters The default font is too small to read and you need to increase the whole page size using browser feature which is cumbersome.…
 
 ## Status breakdown (cumulative)
 
@@ -323,91 +324,62 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Custom domain / DKIM / DNS — 3 tickets
 
-- **[#10268](https://tbpro.zendesk.com/agent/tickets/10268)** · Considering ending my Thundermail experiment — why: **curious**
-  > For the first time the thought entered my head that maybe I should consider ending my Thundermail experiment. Website Thundermail and Support is good, but Desktop Thunderbird…
-- **[#10265](https://tbpro.zendesk.com/agent/tickets/10265)** · BS57 限时优惠 50% OFF — why: **other** · how: **n/a**
-  > BS57 限时优惠 50% OFF
-- **[#10250](https://tbpro.zendesk.com/agent/tickets/10250)** · Hetero — why: **confused**
-  > is not working
-- **[#10237](https://tbpro.zendesk.com/agent/tickets/10237)** · Add more 3 custum domain — why: **request** · how: **redirected**
-  > I want 5 custum domain.
+- **[#10300](https://tbpro.zendesk.com/agent/tickets/10300)** · domain setup issue
+  > I set up a new domain connection yesterday that has been verified, however I keep getting the error message 'Failed to connect to server [domain].' I already had this address in…
+- **[#10294](https://tbpro.zendesk.com/agent/tickets/10294)** · Custom domain setting issue
+  > Today I subscribed to Thundermail, and was trying to set up a custom domain. MX record and CNAME and TXT records were fine. But I have a problem with SRV. My domain registrar…
+- **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
+  > I want to start over and create a custom domain. how do I do that??
 
-### Account access issues — Account Hub trouble — 4 tickets
+### App setup / configuration — 2 tickets
 
-- **[#10261](https://tbpro.zendesk.com/agent/tickets/10261)** · kennwortänderung — why: **confused** · how: **explained**
-  > kann mein Kennwort nicht änderm
-- **[#10260](https://tbpro.zendesk.com/agent/tickets/10260)** · Forgot User Name and Password — why: **confused** · how: **explained**
-  > Forgot User Name and Password.....its been a while since i got on this email server
-- **[#10236](https://tbpro.zendesk.com/agent/tickets/10236)** · Passwort — why: **confused** · how: **explained**
-  > Habe auf dem Laptop Thunderbird Möchte es auch aufs Handy weiß aber mein Passwort nicht mehr.
-- **[#10232](https://tbpro.zendesk.com/agent/tickets/10232)** · Cannot sign in  — why: **blocked** · how: **n/a**
-  > I have a thundermail account and cannot sign in
+- **[#10293](https://tbpro.zendesk.com/agent/tickets/10293)** · Desistência de efetivar assinatura — why: **request** · how: **explained**
+  > Olá [name], solicito o cancelamento e a exclusão da minha conta de e-mail ([email]) dos seus servidores conforme a lei ne permite solicitar. Grato Francisco Carlos Lopes de…
+- **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
+  > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
 
-### Pricing — general pricing concern — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#10279](https://tbpro.zendesk.com/agent/tickets/10279)** · NEW ACCOUNT — why: **curious** · how: **explained**
-  > Monthly Subscription??? I dont want to pay a whole year in advance? If that is the only option is YEARLY - then why advertise 6$ a month at all? And why no discount for yearly --…
-- **[#10248](https://tbpro.zendesk.com/agent/tickets/10248)** · Passwort — why: **curious** · how: **redirected**
-  > Wie kann ich für Thunderbird ein Password erstellen. Was ist Thunderbird Pro, gibt es auch andere Thunderbird Angebote.
-
-### Early bird signup — 1 tickets
-
-- **[#10280](https://tbpro.zendesk.com/agent/tickets/10280)** · ThunderMail Early Bird – Ready for everyday use? — why: **curious** · how: **informed**
-  > Hi [name], I've recently subscribed to the ThunderMail Early Bird plan, and I'm excited to start using the service! I have a question about its current reliability and readiness…
-
-### Webmail — 1 tickets
-
-- **[#10272](https://tbpro.zendesk.com/agent/tickets/10272)** · Custom domain is not working.  — why: **blocked** · how: **explained**
-  > I set up my domain. I moved it here from fastmail. The DNS has been set up and verified, but I'm not getting any of my messages. I get this every time I send a message to myself.:…
+- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
+  > サンダーバードを使えるように
 
 ### Account access issues — 1 tickets
 
-- **[#10269](https://tbpro.zendesk.com/agent/tickets/10269)** · Access Denied — why: **blocked** · how: **explained**
-  > I get Access Denied when I try to submit a Question in Desktop Thunderbird Forums. Screenshot 2026-10-22 031613_Access Denied.png
+- **[#10298](https://tbpro.zendesk.com/agent/tickets/10298)** · Password reset
+  > I don't get the email to reset my password
 
-### Aliases — 1 tickets
+### Account creation / signup confusion — 1 tickets
 
-- **[#10234](https://tbpro.zendesk.com/agent/tickets/10234)** · Google not accepting [domain] as email address. — why: **blocked**
-  > Just letting you know that I tried to update my Google account with my [domain] address and they kicked it back and said "uses invalid word".
+- **[#10295](https://tbpro.zendesk.com/agent/tickets/10295)** · cancellation
+  > I just signed up for this based on the online descriptions, and now that I paid, there's no instruction anywhere on how to create addresses. This is completely useless. Can I get…
 
 ## New tickets — last 24h
 
-- [10232](https://tbpro.zendesk.com/agent/tickets/10232) · [pending] · 2026-10-21T02:15 · Cannot sign in 
-- [10234](https://tbpro.zendesk.com/agent/tickets/10234) · [pending] · 2026-10-21T04:34 · Google not accepting [domain] as email address.
-- [10236](https://tbpro.zendesk.com/agent/tickets/10236) · [pending] · 2026-10-21T05:31 · Passwort
-- [10237](https://tbpro.zendesk.com/agent/tickets/10237) · [pending] · 2026-10-21T05:32 · Add more 3 custum domain
-- [10248](https://tbpro.zendesk.com/agent/tickets/10248) · [pending] · 2026-10-21T09:04 · Passwort
-- [10250](https://tbpro.zendesk.com/agent/tickets/10250) · [pending] · 2026-10-21T09:49 · Hetero
-- [10260](https://tbpro.zendesk.com/agent/tickets/10260) · [pending] · 2026-10-21T15:05 · Forgot User Name and Password
-- [10261](https://tbpro.zendesk.com/agent/tickets/10261) · [pending] · 2026-10-21T15:25 · kennwortänderung
-- [10265](https://tbpro.zendesk.com/agent/tickets/10265) · [solved] · 2026-10-21T16:36 · BS57 限时优惠 50% OFF
-- [10268](https://tbpro.zendesk.com/agent/tickets/10268) · [solved] · 2026-10-21T17:29 · Considering ending my Thundermail experiment
-- [10269](https://tbpro.zendesk.com/agent/tickets/10269) · [solved] · 2026-10-21T17:44 · Access Denied
-- [10272](https://tbpro.zendesk.com/agent/tickets/10272) · [pending] · 2026-10-21T17:54 · Custom domain is not working. 
-- [10279](https://tbpro.zendesk.com/agent/tickets/10279) · [open] · 2026-10-21T19:42 · NEW ACCOUNT
-- [10280](https://tbpro.zendesk.com/agent/tickets/10280) · [pending] · 2026-10-21T19:55 · ThunderMail Early Bird – Ready for everyday use?
+- [10290](https://tbpro.zendesk.com/agent/tickets/10290) · [solved] · 2026-10-21T20:54 · Fwd: Considering ending my Thundermail experiment
+- [10292](https://tbpro.zendesk.com/agent/tickets/10292) · [pending] · 2026-10-21T22:36 · Email address
+- [10293](https://tbpro.zendesk.com/agent/tickets/10293) · [solved] · 2026-10-21T23:04 · Desistência de efetivar assinatura
+- [10294](https://tbpro.zendesk.com/agent/tickets/10294) · [new] · 2026-10-22T00:11 · Custom domain setting issue
+- [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [new] · 2026-10-22T00:26 · cancellation
+- [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [new] · 2026-10-22T01:47 · Password reset
+- [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [new] · 2026-10-22T01:48 · サンダーバードが動かない
+- [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [new] · 2026-10-22T02:53 · domain setup issue
 
 ## Solved — last 24h
 
-- · [10082](https://tbpro.zendesk.com/agent/tickets/10082) · 2026-10-20T20:02 · Sending from a custom domain
-- · [10071](https://tbpro.zendesk.com/agent/tickets/10071) · 2026-10-20T22:02 · alias management 
-- · [10024](https://tbpro.zendesk.com/agent/tickets/10024) · 2026-10-20T22:02 · Re: [Thundermail] Re: Pre-enrollment privacy questions about Thundermail
-- · [10080](https://tbpro.zendesk.com/agent/tickets/10080) · 2026-10-20T23:01 · Cancel my subscription
-- · [10081](https://tbpro.zendesk.com/agent/tickets/10081) · 2026-10-21T12:01 · Re: Support Feedback: MACOS installer for desktop connection issues?
-- 👍 [10072](https://tbpro.zendesk.com/agent/tickets/10072) · 2026-10-21T12:24 · Passkey for website Thundermail?
-- · [10096](https://tbpro.zendesk.com/agent/tickets/10096) · 2026-10-21T13:01 · thundermail sign up
-- · [10158](https://tbpro.zendesk.com/agent/tickets/10158) · 2026-10-21T14:34 · Desktop Thundermail Gmail Problem
-- · [10169](https://tbpro.zendesk.com/agent/tickets/10169) · 2026-10-21T14:36 · Folders better if closed
-- · [10164](https://tbpro.zendesk.com/agent/tickets/10164) · 2026-10-21T14:42 · Website Thundermail is more stable?
-- · [10139](https://tbpro.zendesk.com/agent/tickets/10139) · 2026-10-21T15:01 · What happened to aliases?
-- · [10090](https://tbpro.zendesk.com/agent/tickets/10090) · 2026-10-21T15:01 · I changed my mind
-- · [10098](https://tbpro.zendesk.com/agent/tickets/10098) · 2026-10-21T16:02 · Are messages in the Junk Mail folder automatically deleted after a while?
-- · [10265](https://tbpro.zendesk.com/agent/tickets/10265) · 2026-10-21T16:38 · BS57 限时优惠 50% OFF
-- · [10097](https://tbpro.zendesk.com/agent/tickets/10097) · 2026-10-21T17:02 · [email]
-- · [10102](https://tbpro.zendesk.com/agent/tickets/10102) · 2026-10-21T18:01 · cancel account thunderbird
-- · [10060](https://tbpro.zendesk.com/agent/tickets/10060) · 2026-10-21T18:01 · Lockdown mode
+- · [10269](https://tbpro.zendesk.com/agent/tickets/10269) · 2026-10-21T21:24 · Access Denied
+- · [10268](https://tbpro.zendesk.com/agent/tickets/10268) · 2026-10-21T21:25 · Considering ending my Thundermail experiment
+- · [10170](https://tbpro.zendesk.com/agent/tickets/10170) · 2026-10-21T21:25 · Compacting Error
+- · [10290](https://tbpro.zendesk.com/agent/tickets/10290) · 2026-10-21T21:30 · Fwd: Considering ending my Thundermail experiment
+- · [10107](https://tbpro.zendesk.com/agent/tickets/10107) · 2026-10-21T22:02 · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com 
+- · [10109](https://tbpro.zendesk.com/agent/tickets/10109) · 2026-10-21T23:02 · Refund
+- · [10095](https://tbpro.zendesk.com/agent/tickets/10095) · 2026-10-21T23:02 · Mozilla Thunderbird Re-INSTALLING 
+- · [10093](https://tbpro.zendesk.com/agent/tickets/10093) · 2026-10-21T23:02 · Kalender
+- · [10079](https://tbpro.zendesk.com/agent/tickets/10079) · 2026-10-21T23:02 · Waitlist signup form loops - please confirm my email is on the list
+- · [10293](https://tbpro.zendesk.com/agent/tickets/10293) · 2026-10-21T23:23 · Desistência de efetivar assinatura
+- · [10113](https://tbpro.zendesk.com/agent/tickets/10113) · 2026-10-22T00:02 · please delete account
+- · [10083](https://tbpro.zendesk.com/agent/tickets/10083) · 2026-10-22T00:02 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
