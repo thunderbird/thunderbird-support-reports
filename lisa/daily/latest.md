@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 13:20 ET** · refreshes hourly_  
+_Updated: **2026-10-22 14:26 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -154,7 +154,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [open] · [stormbox/202] Stars misaligned in message list with blank message body
 - ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
 - 1 incident(s):
-  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [pending] · 2026-09-26 · _featured off-site messages_
+  - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [open] · 2026-09-26 · _featured off-site messages_
 
 ### [#9343](https://tbpro.zendesk.com/agent/tickets/9343) · [hold] · [thunderbird-accounts/1318] Stalwart creates principal before provisioning, leftover account blocks re-signup
 - 3 incident(s):
@@ -247,7 +247,7 @@ Regards, [name]_
 
 - [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [open] · _cancellation_
   > I just signed up for this based on the online descriptions, and now that I paid, there's no instruction anywhere on how to create addresses. This is completely useless. Can I get my money back, please? I only paid about…
-- [10355](https://tbpro.zendesk.com/agent/tickets/10355) · [new] · _cancellation of the subscription_
+- [10355](https://tbpro.zendesk.com/agent/tickets/10355) · [open] · _cancellation of the subscription_
   > I want to cancel the yearly subscription. I am cancelling within 14 days or signing up, so I do not need to give any reason for the cancelation. Pls confirm with a mail to [email] TiA smo
 
 ## New ideas on FeatureOS
@@ -261,15 +261,14 @@ Regards, [name]_
 
 - **closed**: 693
 - **solved**: 72
-- **pending**: 51
-- **open**: 17
+- **pending**: 55
+- **open**: 18
 - **hold**: 17
-- **new**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 476
-- **Thundermail**: 295
+- **Account Hub**: 478
+- **Thundermail**: 293
 - **Send**: 18
 - **Appointment**: 9
 
@@ -280,14 +279,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 167
 - **change request** + **actioned**: 116
 - **blocked** + **explained**: 108
-- **confused** + **explained**: 71
+- **confused** + **explained**: 72
 - **curious** + **informed**: 45
 - **request** + **redirected**: 38
 - **blocked** + **investigated**: 38
 - **blocked** + **redirected**: 38
 - **confused** + **informed**: 34
 - **concerned** + **explained**: 29
-- **blocked** + **informed**: 18
+- **blocked** + **informed**: 19
 - **blocked** + **escalated**: 15
 - **change request** + **explained**: 9
 - **concerned** + **—**: 8
@@ -333,14 +332,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 4 tickets
 
 - **[#10341](https://tbpro.zendesk.com/agent/tickets/10341)** · (no subject)
   > I am not comfortable paying on line. please send your address so I can mail a check
 - **[#10336](https://tbpro.zendesk.com/agent/tickets/10336)** · i want a hamburger
   > and fries then ice cream
-- **[#10334](https://tbpro.zendesk.com/agent/tickets/10334)** · Paßwort für meinen Thundermailaccount
-  > Ich habe vor einiger Zeit eine thunderbird mailadresse eröffnet, leider war ich krank, ich wollte heute einsteigen und jetzt stimmt das passwort nicht, ich bitte um Hilfe
 - **[#10332](https://tbpro.zendesk.com/agent/tickets/10332)** · [test] Missing Addresses in Contacts
   > Unfortunately, I can't save addresses in my contacts. If I enter one using an external tool like Thunderbird, it doesn't show up in Thundermail. Unfortunately, I can't assign…
 - **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
@@ -366,11 +363,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
   > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
 
-### Account access issues — 2 tickets
+### Account access issues — Account Hub trouble — 2 tickets
 
-- **[#10301](https://tbpro.zendesk.com/agent/tickets/10301)** · forget password
-  > I want to restore my password.
-- **[#10298](https://tbpro.zendesk.com/agent/tickets/10298)** · Password reset
+- **[#10334](https://tbpro.zendesk.com/agent/tickets/10334)** · Paßwort für meinen Thundermailaccount — why: **blocked** · how: **informed**
+  > Ich habe vor einiger Zeit eine thunderbird mailadresse eröffnet, leider war ich krank, ich wollte heute einsteigen und jetzt stimmt das passwort nicht, ich bitte um Hilfe
+- **[#10298](https://tbpro.zendesk.com/agent/tickets/10298)** · Password reset — why: **confused** · how: **explained**
   > I don't get the email to reset my password
 
 ### Subscription / billing / refund / cancel — 1 tickets
@@ -382,6 +379,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10305](https://tbpro.zendesk.com/agent/tickets/10305)** · Quick Question About Thundrmail Address ...
   > Hello, Since I started using Thundermail I've read that "@[domain]" also works as a Thundermail address just as well as "@[domain]". If this is true (and I will try the alias…
+
+### Account access issues — 1 tickets
+
+- **[#10301](https://tbpro.zendesk.com/agent/tickets/10301)** · forget password
+  > I want to restore my password.
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -400,19 +402,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10293](https://tbpro.zendesk.com/agent/tickets/10293) · [solved] · 2026-10-21T23:04 · Desistência de efetivar assinatura
 - [10294](https://tbpro.zendesk.com/agent/tickets/10294) · [pending] · 2026-10-22T00:11 · Custom domain setting issue
 - [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [open] · 2026-10-22T00:26 · cancellation
-- [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [new] · 2026-10-22T01:47 · Password reset
-- [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [new] · 2026-10-22T01:48 · サンダーバードが動かない
+- [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [pending] · 2026-10-22T01:47 · Password reset
+- [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [open] · 2026-10-22T01:48 · サンダーバードが動かない
 - [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22T02:53 · domain setup issue
-- [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [new] · 2026-10-22T04:33 · forget password
+- [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [open] · 2026-10-22T04:33 · forget password
 - [10305](https://tbpro.zendesk.com/agent/tickets/10305) · [open] · 2026-10-22T05:31 · Quick Question About Thundrmail Address ...
-- [10306](https://tbpro.zendesk.com/agent/tickets/10306) · [new] · 2026-10-22T07:06 · Desktop Application
+- [10306](https://tbpro.zendesk.com/agent/tickets/10306) · [open] · 2026-10-22T07:06 · Desktop Application
 - [10309](https://tbpro.zendesk.com/agent/tickets/10309) · [open] · 2026-10-22T07:11 · DKIM Ed25519 verification error
 - [10331](https://tbpro.zendesk.com/agent/tickets/10331) · [open] · 2026-10-22T11:52 · Testing github connector
 - [10332](https://tbpro.zendesk.com/agent/tickets/10332) · [open] · 2026-10-22T12:00 · [test] Missing Addresses in Contacts
-- [10334](https://tbpro.zendesk.com/agent/tickets/10334) · [open] · 2026-10-22T12:34 · Paßwort für meinen Thundermailaccount
+- [10334](https://tbpro.zendesk.com/agent/tickets/10334) · [pending] · 2026-10-22T12:34 · Paßwort für meinen Thundermailaccount
 - [10336](https://tbpro.zendesk.com/agent/tickets/10336) · [open] · 2026-10-22T12:46 · i want a hamburger
 - [10341](https://tbpro.zendesk.com/agent/tickets/10341) · [open] · 2026-10-22T14:26 · 
-- [10355](https://tbpro.zendesk.com/agent/tickets/10355) · [new] · 2026-10-22T17:16 · cancellation of the subscription
+- [10355](https://tbpro.zendesk.com/agent/tickets/10355) · [open] · 2026-10-22T17:16 · cancellation of the subscription
 
 ## Solved — last 24h
 
