@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 08:33 ET** · refreshes hourly_  
+_Updated: **2026-10-22 09:26 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **851 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **853 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **12** solved in last 24h
-- **851** tickets total since launch · contact rate **2%** of 35000 invitees
+- **16** new tickets in last 24h · **12** solved in last 24h
+- **853** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 128.0h · mean 145.7h (proxy: updated_at − created_at, 75 solved tickets)
+- **Median AHT**: 127.3h · mean 142.9h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -257,17 +257,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 688
-- **solved**: 75
+- **closed**: 689
+- **solved**: 74
 - **pending**: 48
 - **hold**: 19
-- **open**: 12
-- **new**: 9
+- **open**: 13
+- **new**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 475
-- **Thundermail**: 294
+- **Thundermail**: 295
 - **Send**: 18
 - **Appointment**: 9
 
@@ -344,6 +344,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
   > I want to start over and create a custom domain. how do I do that??
 
+### Other / uncategorized — 4 tickets
+
+- **[#10336](https://tbpro.zendesk.com/agent/tickets/10336)** · i want a hamburger
+  > and fries then ice cream
+- **[#10334](https://tbpro.zendesk.com/agent/tickets/10334)** · Paßwort für meinen Thundermailaccount
+  > Ich habe vor einiger Zeit eine thunderbird mailadresse eröffnet, leider war ich krank, ich wollte heute einsteigen und jetzt stimmt das passwort nicht, ich bitte um Hilfe
+- **[#10332](https://tbpro.zendesk.com/agent/tickets/10332)** · [test] Missing Addresses in Contacts
+  > Unfortunately, I can't save addresses in my contacts. If I enter one using an external tool like Thunderbird, it doesn't show up in Thundermail. Unfortunately, I can't assign…
+- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
+  > サンダーバードを使えるように
+
 ### App setup / configuration — 3 tickets
 
 - **[#10306](https://tbpro.zendesk.com/agent/tickets/10306)** · Desktop Application
@@ -352,13 +363,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Olá [name], solicito o cancelamento e a exclusão da minha conta de e-mail ([email]) dos seus servidores conforme a lei ne permite solicitar. Grato Francisco Carlos Lopes de…
 - **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
   > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
-
-### Other / uncategorized — 2 tickets
-
-- **[#10332](https://tbpro.zendesk.com/agent/tickets/10332)** · [test] Missing Addresses in Contacts
-  > Unfortunately, I can't save addresses in my contacts. If I enter one using an external tool like Thunderbird, it doesn't show up in Thundermail. Unfortunately, I can't assign…
-- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
-  > サンダーバードを使えるように
 
 ### Account access issues — 2 tickets
 
@@ -393,6 +397,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10309](https://tbpro.zendesk.com/agent/tickets/10309) · [new] · 2026-10-22T07:11 · DKIM Ed25519 verification error
 - [10331](https://tbpro.zendesk.com/agent/tickets/10331) · [open] · 2026-10-22T11:52 · Testing github connector
 - [10332](https://tbpro.zendesk.com/agent/tickets/10332) · [open] · 2026-10-22T12:00 · [test] Missing Addresses in Contacts
+- [10334](https://tbpro.zendesk.com/agent/tickets/10334) · [new] · 2026-10-22T12:34 · Paßwort für meinen Thundermailaccount
+- [10336](https://tbpro.zendesk.com/agent/tickets/10336) · [open] · 2026-10-22T12:46 · i want a hamburger
 
 ## Solved — last 24h
 
