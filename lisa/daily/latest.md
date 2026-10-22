@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 19:19 ET** · refreshes hourly_  
+_Updated: **2026-10-21 20:52 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 73** of rollout — **35,000 invitees**, **840 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 73** of rollout — **35,000 invitees**, **842 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **17** solved in last 24h
-- **840** tickets total since launch · contact rate **2%** of 35000 invitees
+- **842** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 128.4h · mean 148.2h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 128.2h · mean 145.8h (proxy: updated_at − created_at, 76 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -116,7 +116,7 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **840 tickets** so fa
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [solved] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [solved] · 2026-10-15 · _Cancel my subscription_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [solved] · 2026-10-16 · _Refund_
-  - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [pending] · 2026-10-16 · _please delete account_
+  - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [solved] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [pending] · 2026-10-20 · _Monthly plans _
 
@@ -250,14 +250,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 688
-- **solved**: 73
-- **pending**: 52
+- **solved**: 76
+- **pending**: 51
 - **hold**: 19
-- **open**: 8
+- **open**: 6
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 472
+- **Account Hub**: 474
 - **Thundermail**: 290
 - **Send**: 18
 - **Appointment**: 9
@@ -274,7 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 38
 - **blocked** + **investigated**: 38
 - **blocked** + **redirected**: 38
-- **confused** + **informed**: 33
+- **confused** + **informed**: 34
 - **concerned** + **explained**: 28
 - **blocked** + **informed**: 18
 - **blocked** + **escalated**: 15
@@ -284,9 +285,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **—**: 7
 - **concerned** + **investigated**: 7
 - **telling us** + **explained**: 6
+- **request** + **explained**: 5
 - **curious** + **actioned**: 5
 - **confused** + **investigated**: 5
-- **request** + **explained**: 4
 - **blocked** + **actioned**: 4
 - **curious** + **—**: 4
 - **curious** + **escalated**: 3
