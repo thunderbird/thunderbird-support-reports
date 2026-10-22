@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 10:24 ET** · refreshes hourly_  
+_Updated: **2026-10-22 11:28 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **853 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **854 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **13** solved in last 24h
-- **853** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 94%  (175 good / 11 bad)
+- **17** new tickets in last 24h · **16** solved in last 24h
+- **854** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 94%  (178 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 126.7h · mean 141.9h (proxy: updated_at − created_at, 75 solved tickets)
+- **Median AHT**: 126.2h · mean 143.0h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -117,7 +117,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [closed] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [solved] · 2026-10-11 · _Refund_
   - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · 2026-10-11 · _New subscription - canceling, requesting refund_
-  - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [solved] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
+  - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [closed] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [closed] · 2026-10-14 · _Close account_
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [solved] · 2026-10-14 · _Rétractation abonnement._
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [solved] · 2026-10-15 · _Refund Request for Thundermail Subscription_
@@ -252,17 +252,17 @@ Regards, [name]_
 
 **Last 24h** — 1 new:
 
-- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 2 votes · _Thundermail, Webmail_
+- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 3 votes · _Thundermail, Webmail_
   > What you’d like to see A button/icon at top right to do it Why it matters The default font is too small to read and you need to increase the whole page size using browser feature which is cumbersome.…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 689
-- **solved**: 75
+- **closed**: 692
+- **solved**: 72
 - **pending**: 49
 - **hold**: 19
 - **open**: 14
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
@@ -331,6 +331,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 5 tickets
+
+- **[#10341](https://tbpro.zendesk.com/agent/tickets/10341)** · (no subject)
+  > I am not comfortable paying on line. please send your address so I can mail a check
+- **[#10336](https://tbpro.zendesk.com/agent/tickets/10336)** · i want a hamburger
+  > and fries then ice cream
+- **[#10334](https://tbpro.zendesk.com/agent/tickets/10334)** · Paßwort für meinen Thundermailaccount
+  > Ich habe vor einiger Zeit eine thunderbird mailadresse eröffnet, leider war ich krank, ich wollte heute einsteigen und jetzt stimmt das passwort nicht, ich bitte um Hilfe
+- **[#10332](https://tbpro.zendesk.com/agent/tickets/10332)** · [test] Missing Addresses in Contacts
+  > Unfortunately, I can't save addresses in my contacts. If I enter one using an external tool like Thunderbird, it doesn't show up in Thundermail. Unfortunately, I can't assign…
+- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
+  > サンダーバードを使えるように
+
 ### Custom domain / DKIM / DNS — 5 tickets
 
 - **[#10331](https://tbpro.zendesk.com/agent/tickets/10331)** · Testing github connector
@@ -343,17 +356,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Today I subscribed to Thundermail, and was trying to set up a custom domain. MX record and CNAME and TXT records were fine. But I have a problem with SRV. My domain registrar…
 - **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
   > I want to start over and create a custom domain. how do I do that??
-
-### Other / uncategorized — 4 tickets
-
-- **[#10336](https://tbpro.zendesk.com/agent/tickets/10336)** · i want a hamburger
-  > and fries then ice cream
-- **[#10334](https://tbpro.zendesk.com/agent/tickets/10334)** · Paßwort für meinen Thundermailaccount
-  > Ich habe vor einiger Zeit eine thunderbird mailadresse eröffnet, leider war ich krank, ich wollte heute einsteigen und jetzt stimmt das passwort nicht, ich bitte um Hilfe
-- **[#10332](https://tbpro.zendesk.com/agent/tickets/10332)** · [test] Missing Addresses in Contacts
-  > Unfortunately, I can't save addresses in my contacts. If I enter one using an external tool like Thunderbird, it doesn't show up in Thundermail. Unfortunately, I can't assign…
-- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
-  > サンダーバードを使えるように
 
 ### App setup / configuration — 3 tickets
 
@@ -399,6 +401,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10332](https://tbpro.zendesk.com/agent/tickets/10332) · [open] · 2026-10-22T12:00 · [test] Missing Addresses in Contacts
 - [10334](https://tbpro.zendesk.com/agent/tickets/10334) · [new] · 2026-10-22T12:34 · Paßwort für meinen Thundermailaccount
 - [10336](https://tbpro.zendesk.com/agent/tickets/10336) · [open] · 2026-10-22T12:46 · i want a hamburger
+- [10341](https://tbpro.zendesk.com/agent/tickets/10341) · [new] · 2026-10-22T14:26 · 
 
 ## Solved — last 24h
 
@@ -415,6 +418,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10113](https://tbpro.zendesk.com/agent/tickets/10113) · 2026-10-22T00:02 · please delete account
 - · [10083](https://tbpro.zendesk.com/agent/tickets/10083) · 2026-10-22T00:02 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - 👍 [10157](https://tbpro.zendesk.com/agent/tickets/10157) · 2026-10-22T13:46 · What is a Keyword Alert Notification?
+- 👍 [10169](https://tbpro.zendesk.com/agent/tickets/10169) · 2026-10-22T15:16 · Folders better if closed
+- 👍 [10158](https://tbpro.zendesk.com/agent/tickets/10158) · 2026-10-22T15:17 · Desktop Thundermail Gmail Problem
+- 👍 [10164](https://tbpro.zendesk.com/agent/tickets/10164) · 2026-10-22T15:17 · Website Thundermail is more stable?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
