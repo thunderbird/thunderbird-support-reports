@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 07:25 ET** · refreshes hourly_  
+_Updated: **2026-10-22 08:33 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **849 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **851 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **12** solved in last 24h
-- **849** tickets total since launch · contact rate **2%** of 35000 invitees
+- **14** new tickets in last 24h · **12** solved in last 24h
+- **851** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
@@ -20,6 +20,7 @@ Flight 8 is **day 74** of rollout — **35,000 invitees**, **849 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"custom domain"** — 4 tickets in 24h (3.1× baseline; baseline 94 cum) — [#10292](https://tbpro.zendesk.com/agent/tickets/10292), [#10294](https://tbpro.zendesk.com/agent/tickets/10294), [#10309](https://tbpro.zendesk.com/agent/tickets/10309), [#10331](https://tbpro.zendesk.com/agent/tickets/10331)
 - **"error message"** — 2 tickets in 24h (11.2× baseline; baseline 13 cum) — [#10300](https://tbpro.zendesk.com/agent/tickets/10300), [#10306](https://tbpro.zendesk.com/agent/tickets/10306)
 
 ## Known problems — 13 problem(s), 106 incident(s)
@@ -251,7 +252,7 @@ Regards, [name]_
 
 **Last 24h** — 1 new:
 
-- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 1 votes · _untagged_
+- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 1 votes · _Thundermail, Webmail_
   > What you’d like to see A button/icon at top right to do it Why it matters The default font is too small to read and you need to increase the whole page size using browser feature which is cumbersome.…
 
 ## Status breakdown (cumulative)
@@ -260,7 +261,7 @@ Regards, [name]_
 - **solved**: 75
 - **pending**: 48
 - **hold**: 19
-- **open**: 10
+- **open**: 12
 - **new**: 9
 
 ## Service (cumulative)
@@ -330,8 +331,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 4 tickets
+### Custom domain / DKIM / DNS — 5 tickets
 
+- **[#10331](https://tbpro.zendesk.com/agent/tickets/10331)** · Testing github connector
+  > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
 - **[#10309](https://tbpro.zendesk.com/agent/tickets/10309)** · DKIM Ed25519 verification error
   > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
 - **[#10300](https://tbpro.zendesk.com/agent/tickets/10300)** · domain setup issue
@@ -350,6 +353,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
   > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
 
+### Other / uncategorized — 2 tickets
+
+- **[#10332](https://tbpro.zendesk.com/agent/tickets/10332)** · [test] Missing Addresses in Contacts
+  > Unfortunately, I can't save addresses in my contacts. If I enter one using an external tool like Thunderbird, it doesn't show up in Thundermail. Unfortunately, I can't assign…
+- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
+  > サンダーバードを使えるように
+
 ### Account access issues — 2 tickets
 
 - **[#10301](https://tbpro.zendesk.com/agent/tickets/10301)** · forget password
@@ -361,11 +371,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10305](https://tbpro.zendesk.com/agent/tickets/10305)** · Quick Question About Thundrmail Address ...
   > Hello, Since I started using Thundermail I've read that "@[domain]" also works as a Thundermail address just as well as "@[domain]". If this is true (and I will try the alias…
-
-### Other / uncategorized — 1 tickets
-
-- **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
-  > サンダーバードを使えるように
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -386,6 +391,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10305](https://tbpro.zendesk.com/agent/tickets/10305) · [new] · 2026-10-22T05:31 · Quick Question About Thundrmail Address ...
 - [10306](https://tbpro.zendesk.com/agent/tickets/10306) · [new] · 2026-10-22T07:06 · Desktop Application
 - [10309](https://tbpro.zendesk.com/agent/tickets/10309) · [new] · 2026-10-22T07:11 · DKIM Ed25519 verification error
+- [10331](https://tbpro.zendesk.com/agent/tickets/10331) · [open] · 2026-10-22T11:52 · Testing github connector
+- [10332](https://tbpro.zendesk.com/agent/tickets/10332) · [open] · 2026-10-22T12:00 · [test] Missing Addresses in Contacts
 
 ## Solved — last 24h
 
