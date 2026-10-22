@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 01:23 ET** · refreshes hourly_  
+_Updated: **2026-10-22 02:37 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **846 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **847 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **12** solved in last 24h
-- **846** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **12** solved in last 24h
+- **847** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
@@ -255,7 +255,7 @@ Regards, [name]_
 - **pending**: 50
 - **hold**: 19
 - **open**: 8
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -347,6 +347,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
   > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
 
+### Aliases — 1 tickets
+
+- **[#10305](https://tbpro.zendesk.com/agent/tickets/10305)** · Quick Question About Thundrmail Address ...
+  > Hello, Since I started using Thundermail I've read that "@[domain]" also works as a Thundermail address just as well as "@[domain]". If this is true (and I will try the alias…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
@@ -368,6 +373,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [new] · 2026-10-22T01:48 · サンダーバードが動かない
 - [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [new] · 2026-10-22T02:53 · domain setup issue
 - [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [new] · 2026-10-22T04:33 · forget password
+- [10305](https://tbpro.zendesk.com/agent/tickets/10305) · [new] · 2026-10-22T05:31 · Quick Question About Thundrmail Address ...
 
 ## Solved — last 24h
 
