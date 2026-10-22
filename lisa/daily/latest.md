@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 17:21 ET** · refreshes hourly_  
+_Updated: **2026-10-22 18:20 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 74** of rollout — **35,000 invitees**, **859 tickets** so fa
 
 ## At a glance
 
-- **20** new tickets in last 24h · **23** solved in last 24h
+- **20** new tickets in last 24h · **19** solved in last 24h
 - **859** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
-- **CSAT (since launch)**: 94%  (179 good / 11 bad)
+- **CSAT (since launch)**: 94%  (183 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 125.8h · mean 153.4h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 125.5h · mean 152.5h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -108,7 +108,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [closed] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [closed] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [solved] · 2026-10-05 · _Thundermail account cancellation and refund_
-  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [hold] · 2026-10-05 · _Account deletion_
+  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [open] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [closed] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [closed] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [closed] · 2026-10-06 · _Aliases not showing up_
@@ -261,11 +261,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 696
-- **solved**: 73
-- **pending**: 62
-- **hold**: 17
-- **open**: 11
+- **closed**: 700
+- **solved**: 69
+- **pending**: 61
+- **hold**: 16
+- **open**: 13
 
 ## Service (cumulative)
 
@@ -426,10 +426,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [10269](https://tbpro.zendesk.com/agent/tickets/10269) · 2026-10-21T21:24 · Access Denied
-- · [10268](https://tbpro.zendesk.com/agent/tickets/10268) · 2026-10-21T21:25 · Considering ending my Thundermail experiment
-- · [10170](https://tbpro.zendesk.com/agent/tickets/10170) · 2026-10-21T21:25 · Compacting Error
-- · [10290](https://tbpro.zendesk.com/agent/tickets/10290) · 2026-10-21T21:30 · Fwd: Considering ending my Thundermail experiment
 - · [10107](https://tbpro.zendesk.com/agent/tickets/10107) · 2026-10-21T22:02 · Attention - Amanda(Thundermail Support) : Fwd: Report Domain: bpaaholdings.in Submitter: google.com 
 - · [10109](https://tbpro.zendesk.com/agent/tickets/10109) · 2026-10-21T23:02 · Refund
 - · [10095](https://tbpro.zendesk.com/agent/tickets/10095) · 2026-10-21T23:02 · Mozilla Thunderbird Re-INSTALLING 
