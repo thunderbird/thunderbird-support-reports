@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 00:26 ET** · refreshes hourly_  
+_Updated: **2026-10-22 01:23 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **845 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **846 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **12** solved in last 24h
-- **845** tickets total since launch · contact rate **2%** of 35000 invitees
+- **9** new tickets in last 24h · **12** solved in last 24h
+- **846** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
@@ -255,12 +255,12 @@ Regards, [name]_
 - **pending**: 50
 - **hold**: 19
 - **open**: 8
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 474
-- **Thundermail**: 292
+- **Thundermail**: 293
 - **Send**: 18
 - **Appointment**: 9
 
@@ -333,6 +333,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
   > I want to start over and create a custom domain. how do I do that??
 
+### Account access issues — 2 tickets
+
+- **[#10301](https://tbpro.zendesk.com/agent/tickets/10301)** · forget password
+  > I want to restore my password.
+- **[#10298](https://tbpro.zendesk.com/agent/tickets/10298)** · Password reset
+  > I don't get the email to reset my password
+
 ### App setup / configuration — 2 tickets
 
 - **[#10293](https://tbpro.zendesk.com/agent/tickets/10293)** · Desistência de efetivar assinatura — why: **request** · how: **explained**
@@ -344,11 +351,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10299](https://tbpro.zendesk.com/agent/tickets/10299)** · サンダーバードが動かない
   > サンダーバードを使えるように
-
-### Account access issues — 1 tickets
-
-- **[#10298](https://tbpro.zendesk.com/agent/tickets/10298)** · Password reset
-  > I don't get the email to reset my password
 
 ### Account creation / signup confusion — 1 tickets
 
@@ -365,6 +367,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [new] · 2026-10-22T01:47 · Password reset
 - [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [new] · 2026-10-22T01:48 · サンダーバードが動かない
 - [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [new] · 2026-10-22T02:53 · domain setup issue
+- [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [new] · 2026-10-22T04:33 · forget password
 
 ## Solved — last 24h
 
