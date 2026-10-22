@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 09:26 ET** · refreshes hourly_  
+_Updated: **2026-10-22 10:24 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 74** of rollout — **35,000 invitees**, **853 tickets** so fa
 
 ## At a glance
 
-- **16** new tickets in last 24h · **12** solved in last 24h
+- **16** new tickets in last 24h · **13** solved in last 24h
 - **853** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 127.3h · mean 142.9h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 126.7h · mean 141.9h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -252,17 +252,17 @@ Regards, [name]_
 
 **Last 24h** — 1 new:
 
-- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 1 votes · _Thundermail, Webmail_
+- [Increase/Decrease Font size](https://ideas.tb.pro/p/increase-decrease-font-size) · 2 votes · _Thundermail, Webmail_
   > What you’d like to see A button/icon at top right to do it Why it matters The default font is too small to read and you need to increase the whole page size using browser feature which is cumbersome.…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 689
-- **solved**: 74
-- **pending**: 48
+- **solved**: 75
+- **pending**: 49
 - **hold**: 19
-- **open**: 13
-- **new**: 10
+- **open**: 14
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -277,7 +277,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 167
 - **change request** + **actioned**: 116
-- **blocked** + **explained**: 106
+- **blocked** + **explained**: 107
 - **confused** + **explained**: 71
 - **curious** + **informed**: 45
 - **request** + **redirected**: 38
@@ -339,7 +339,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
 - **[#10300](https://tbpro.zendesk.com/agent/tickets/10300)** · domain setup issue
   > I set up a new domain connection yesterday that has been verified, however I keep getting the error message 'Failed to connect to server [domain].' I already had this address in…
-- **[#10294](https://tbpro.zendesk.com/agent/tickets/10294)** · Custom domain setting issue
+- **[#10294](https://tbpro.zendesk.com/agent/tickets/10294)** · Custom domain setting issue — why: **blocked** · how: **explained**
   > Today I subscribed to Thundermail, and was trying to set up a custom domain. MX record and CNAME and TXT records were fine. But I have a problem with SRV. My domain registrar…
 - **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
   > I want to start over and create a custom domain. how do I do that??
@@ -386,15 +386,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10290](https://tbpro.zendesk.com/agent/tickets/10290) · [solved] · 2026-10-21T20:54 · Fwd: Considering ending my Thundermail experiment
 - [10292](https://tbpro.zendesk.com/agent/tickets/10292) · [pending] · 2026-10-21T22:36 · Email address
 - [10293](https://tbpro.zendesk.com/agent/tickets/10293) · [solved] · 2026-10-21T23:04 · Desistência de efetivar assinatura
-- [10294](https://tbpro.zendesk.com/agent/tickets/10294) · [new] · 2026-10-22T00:11 · Custom domain setting issue
+- [10294](https://tbpro.zendesk.com/agent/tickets/10294) · [pending] · 2026-10-22T00:11 · Custom domain setting issue
 - [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [new] · 2026-10-22T00:26 · cancellation
 - [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [new] · 2026-10-22T01:47 · Password reset
 - [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [new] · 2026-10-22T01:48 · サンダーバードが動かない
-- [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [new] · 2026-10-22T02:53 · domain setup issue
+- [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [open] · 2026-10-22T02:53 · domain setup issue
 - [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [new] · 2026-10-22T04:33 · forget password
 - [10305](https://tbpro.zendesk.com/agent/tickets/10305) · [new] · 2026-10-22T05:31 · Quick Question About Thundrmail Address ...
 - [10306](https://tbpro.zendesk.com/agent/tickets/10306) · [new] · 2026-10-22T07:06 · Desktop Application
-- [10309](https://tbpro.zendesk.com/agent/tickets/10309) · [new] · 2026-10-22T07:11 · DKIM Ed25519 verification error
+- [10309](https://tbpro.zendesk.com/agent/tickets/10309) · [open] · 2026-10-22T07:11 · DKIM Ed25519 verification error
 - [10331](https://tbpro.zendesk.com/agent/tickets/10331) · [open] · 2026-10-22T11:52 · Testing github connector
 - [10332](https://tbpro.zendesk.com/agent/tickets/10332) · [open] · 2026-10-22T12:00 · [test] Missing Addresses in Contacts
 - [10334](https://tbpro.zendesk.com/agent/tickets/10334) · [new] · 2026-10-22T12:34 · Paßwort für meinen Thundermailaccount
@@ -414,6 +414,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10293](https://tbpro.zendesk.com/agent/tickets/10293) · 2026-10-21T23:23 · Desistência de efetivar assinatura
 - · [10113](https://tbpro.zendesk.com/agent/tickets/10113) · 2026-10-22T00:02 · please delete account
 - · [10083](https://tbpro.zendesk.com/agent/tickets/10083) · 2026-10-22T00:02 · موبایل خاص منحصر بفرد هستم چطورر کجا......
+- 👍 [10157](https://tbpro.zendesk.com/agent/tickets/10157) · 2026-10-22T13:46 · What is a Keyword Alert Notification?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
