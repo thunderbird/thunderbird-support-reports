@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 02:37 ET** · refreshes hourly_  
+_Updated: **2026-10-22 03:29 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **847 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **849 tickets** so far (2.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **12** solved in last 24h
-- **847** tickets total since launch · contact rate **2%** of 35000 invitees
+- **12** new tickets in last 24h · **12** solved in last 24h
+- **849** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
 - **Median AHT**: 128.0h · mean 145.7h (proxy: updated_at − created_at, 75 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"error message"** — 2 tickets in 24h (11.2× baseline; baseline 13 cum) — [#10300](https://tbpro.zendesk.com/agent/tickets/10300), [#10306](https://tbpro.zendesk.com/agent/tickets/10306)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -254,13 +260,13 @@ Regards, [name]_
 - **solved**: 75
 - **pending**: 50
 - **hold**: 19
+- **new**: 9
 - **open**: 8
-- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 474
-- **Thundermail**: 293
+- **Account Hub**: 475
+- **Thundermail**: 294
 - **Send**: 18
 - **Appointment**: 9
 
@@ -324,8 +330,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 3 tickets
+### Custom domain / DKIM / DNS — 4 tickets
 
+- **[#10309](https://tbpro.zendesk.com/agent/tickets/10309)** · DKIM Ed25519 verification error
+  > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
 - **[#10300](https://tbpro.zendesk.com/agent/tickets/10300)** · domain setup issue
   > I set up a new domain connection yesterday that has been verified, however I keep getting the error message 'Failed to connect to server [domain].' I already had this address in…
 - **[#10294](https://tbpro.zendesk.com/agent/tickets/10294)** · Custom domain setting issue
@@ -333,19 +341,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
   > I want to start over and create a custom domain. how do I do that??
 
+### App setup / configuration — 3 tickets
+
+- **[#10306](https://tbpro.zendesk.com/agent/tickets/10306)** · Desktop Application
+  > Thunderbird Desktop Application doesnt show the coming emails without any error message
+- **[#10293](https://tbpro.zendesk.com/agent/tickets/10293)** · Desistência de efetivar assinatura — why: **request** · how: **explained**
+  > Olá [name], solicito o cancelamento e a exclusão da minha conta de e-mail ([email]) dos seus servidores conforme a lei ne permite solicitar. Grato Francisco Carlos Lopes de…
+- **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
+  > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
+
 ### Account access issues — 2 tickets
 
 - **[#10301](https://tbpro.zendesk.com/agent/tickets/10301)** · forget password
   > I want to restore my password.
 - **[#10298](https://tbpro.zendesk.com/agent/tickets/10298)** · Password reset
   > I don't get the email to reset my password
-
-### App setup / configuration — 2 tickets
-
-- **[#10293](https://tbpro.zendesk.com/agent/tickets/10293)** · Desistência de efetivar assinatura — why: **request** · how: **explained**
-  > Olá [name], solicito o cancelamento e a exclusão da minha conta de e-mail ([email]) dos seus servidores conforme a lei ne permite solicitar. Grato Francisco Carlos Lopes de…
-- **[#10290](https://tbpro.zendesk.com/agent/tickets/10290)** · Fwd: Considering ending my Thundermail experiment — why: **telling us** · how: **n/a**
-  > I have abandoned my attempt to connect my 2 Gmail accounts and deleted both of them off Desktop Thunderbird. The #1 issue is that the process is all upside down; instead of being…
 
 ### Aliases — 1 tickets
 
@@ -374,6 +384,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [new] · 2026-10-22T02:53 · domain setup issue
 - [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [new] · 2026-10-22T04:33 · forget password
 - [10305](https://tbpro.zendesk.com/agent/tickets/10305) · [new] · 2026-10-22T05:31 · Quick Question About Thundrmail Address ...
+- [10306](https://tbpro.zendesk.com/agent/tickets/10306) · [new] · 2026-10-22T07:06 · Desktop Application
+- [10309](https://tbpro.zendesk.com/agent/tickets/10309) · [new] · 2026-10-22T07:11 · DKIM Ed25519 verification error
 
 ## Solved — last 24h
 
