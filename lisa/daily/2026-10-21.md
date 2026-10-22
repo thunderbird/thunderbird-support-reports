@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-21
 
-_Updated: **2026-10-21 20:52 ET** · refreshes hourly_  
+_Updated: **2026-10-21 21:32 ET** · refreshes hourly_  
 _24h window: 2026-10-20T16:00 → 2026-10-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **842 tickets** so fa
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (175 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 128.2h · mean 145.8h (proxy: updated_at − created_at, 76 solved tickets)
+- **Median AHT**: 128.0h · mean 145.7h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## Known problems — 13 problem(s), 106 incident(s)
 
@@ -109,7 +109,7 @@ Flight 8 is **day 73** of rollout — **35,000 invitees**, **842 tickets** so fa
   - [#9569](https://tbpro.zendesk.com/agent/tickets/9569) · [closed] · 2026-10-08 · _Cancel and Refund_
   - [#9588](https://tbpro.zendesk.com/agent/tickets/9588) · [closed] · 2026-10-08 · _Delete my data and unsubscribe from the service_
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [solved] · 2026-10-11 · _Refund_
-  - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [solved] · 2026-10-11 · _New subscription - canceling, requesting refund_
+  - [#9640](https://tbpro.zendesk.com/agent/tickets/9640) · [open] · 2026-10-11 · _New subscription - canceling, requesting refund_
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [solved] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [closed] · 2026-10-14 · _Close account_
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [solved] · 2026-10-14 · _Rétractation abonnement._
@@ -250,10 +250,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 688
-- **solved**: 76
+- **solved**: 75
 - **pending**: 51
 - **hold**: 19
-- **open**: 6
+- **open**: 7
 - **new**: 2
 
 ## Service (cumulative)
