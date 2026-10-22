@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 18:20 ET** · refreshes hourly_  
+_Updated: **2026-10-22 19:20 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 74** of rollout — **35,000 invitees**, **859 tickets** so fa
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (183 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 125.5h · mean 152.5h (proxy: updated_at − created_at, 69 solved tickets)
+- **Median AHT**: 125.4h · mean 150.8h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -256,16 +256,16 @@ Regards, [name]_
 
 **Last 24h** — 1 new:
 
-- [Ability to Set and Increase/Decrease Font size](https://ideas.tb.pro/p/ability-to-set-and-increase-decrease-font-size) · 3 votes · _Thundermail, Webmail_
+- [Ability to Set and Increase/Decrease Font size](https://ideas.tb.pro/p/ability-to-set-and-increase-decrease-font-size) · 4 votes · _Thundermail, Webmail_
   > What you’d like to see A button/icon at top right to do it Why it matters The default font is too small to read and you need to increase the whole page size using browser feature which is cumbersome.…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 700
-- **solved**: 69
-- **pending**: 61
+- **closed**: 701
+- **solved**: 68
+- **pending**: 60
 - **hold**: 16
-- **open**: 13
+- **open**: 14
 
 ## Service (cumulative)
 
@@ -338,10 +338,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10331](https://tbpro.zendesk.com/agent/tickets/10331)** · Testing github connector
   > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
-- **[#10309](https://tbpro.zendesk.com/agent/tickets/10309)** · DKIM Ed25519 verification error — why: **concerned** · how: **explained**
-  > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
 - **[#10294](https://tbpro.zendesk.com/agent/tickets/10294)** · Custom domain setting issue — why: **blocked** · how: **explained**
   > Today I subscribed to Thundermail, and was trying to set up a custom domain. MX record and CNAME and TXT records were fine. But I have a problem with SRV. My domain registrar…
+- **[#10309](https://tbpro.zendesk.com/agent/tickets/10309)** · DKIM Ed25519 verification error — why: **concerned** · how: **explained**
+  > Hello, I noticed that emails sent from my custom domain ([domain]) to externel provider pass SPF, DMARC, and RSA-DKIM checks, but the Ed25519 DKIM signature fails with:…
 - **[#10292](https://tbpro.zendesk.com/agent/tickets/10292)** · Email address — why: **confused** · how: **informed**
   > I want to start over and create a custom domain. how do I do that??
 
@@ -406,7 +406,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10290](https://tbpro.zendesk.com/agent/tickets/10290) · [solved] · 2026-10-21T20:54 · Fwd: Considering ending my Thundermail experiment
 - [10292](https://tbpro.zendesk.com/agent/tickets/10292) · [pending] · 2026-10-21T22:36 · Email address
 - [10293](https://tbpro.zendesk.com/agent/tickets/10293) · [solved] · 2026-10-21T23:04 · Desistência de efetivar assinatura
-- [10294](https://tbpro.zendesk.com/agent/tickets/10294) · [pending] · 2026-10-22T00:11 · Custom domain setting issue
+- [10294](https://tbpro.zendesk.com/agent/tickets/10294) · [open] · 2026-10-22T00:11 · Custom domain setting issue
 - [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [pending] · 2026-10-22T00:26 · cancellation
 - [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [pending] · 2026-10-22T01:47 · Password reset
 - [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [open] · 2026-10-22T01:48 · サンダーバードが動かない
