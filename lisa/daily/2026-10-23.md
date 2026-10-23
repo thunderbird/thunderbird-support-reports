@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 09:23 ET** · refreshes hourly_  
+_Updated: **2026-10-23 10:27 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 75** of rollout — **35,000 invitees**, **864 tickets** so fa
 
 ## At a glance
 
-- **7** new tickets in last 24h · **5** solved in last 24h
+- **7** new tickets in last 24h · **8** solved in last 24h
 - **864** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (183 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
-- **Median AHT**: 125.4h · mean 151.1h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 124.9h · mean 147.9h (proxy: updated_at − created_at, 71 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -257,10 +257,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 701
-- **solved**: 68
-- **pending**: 56
-- **open**: 19
+- **solved**: 71
+- **pending**: 58
 - **hold**: 15
+- **open**: 14
 - **new**: 5
 
 ## Service (cumulative)
@@ -279,8 +279,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 108
 - **confused** + **explained**: 74
 - **curious** + **informed**: 45
+- **blocked** + **redirected**: 40
 - **blocked** + **investigated**: 39
-- **blocked** + **redirected**: 39
 - **request** + **redirected**: 38
 - **confused** + **informed**: 34
 - **concerned** + **explained**: 29
@@ -379,6 +379,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [10268](https://tbpro.zendesk.com/agent/tickets/10268) · 2026-10-22T22:06 · Considering ending my Thundermail experiment
 - 👍 [10290](https://tbpro.zendesk.com/agent/tickets/10290) · 2026-10-22T22:06 · Fwd: Considering ending my Thundermail experiment
 - · [10293](https://tbpro.zendesk.com/agent/tickets/10293) · 2026-10-23T00:01 · Desistência de efetivar assinatura
+- · [10218](https://tbpro.zendesk.com/agent/tickets/10218) · 2026-10-23T13:50 · Sign in not available
+- · [10203](https://tbpro.zendesk.com/agent/tickets/10203) · 2026-10-23T14:01 · Calendar invites sent from [domain] instead of my custom domain address
+- · [10193](https://tbpro.zendesk.com/agent/tickets/10193) · 2026-10-23T14:16 · on page https://[domain]/subscribe, the page will not render, can you assist
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
