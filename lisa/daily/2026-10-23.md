@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 10:27 ET** · refreshes hourly_  
+_Updated: **2026-10-23 11:27 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -22,9 +22,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"other providers"** — 2 tickets in 24h (29.6× baseline; baseline 5 cum) — [#10364](https://tbpro.zendesk.com/agent/tickets/10364), [#10372](https://tbpro.zendesk.com/agent/tickets/10372)
 
-## Known problems — 13 problem(s), 107 incident(s)
+## Known problems — 13 problem(s), 106 incident(s)
 
-### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
+### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [?] · (no subject)
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
 - 4 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
@@ -38,7 +38,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 87 incident(s):
+- 86 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -106,7 +106,6 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [closed] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [closed] · 2026-10-02 · _would like to cancel thunderbird pro_
   - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [solved] · 2026-10-05 · _Thundermail account cancellation and refund_
-  - [#9479](https://tbpro.zendesk.com/agent/tickets/9479) · [open] · 2026-10-05 · _Account deletion_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [closed] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [closed] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [closed] · 2026-10-06 · _Aliases not showing up_
@@ -139,7 +138,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#8807](https://tbpro.zendesk.com/agent/tickets/8807) · [hold] · [routing/8] [domain] needs to be A record not CNAME
 - 1 incident(s):
-  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [open] · 2026-09-15 · _Configuration custom domains_
+  - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
@@ -259,9 +258,9 @@ _(none in last 24h)_
 - **closed**: 701
 - **solved**: 71
 - **pending**: 58
-- **hold**: 15
-- **open**: 14
-- **new**: 5
+- **hold**: 16
+- **open**: 16
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -293,8 +292,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **explained**: 6
 - **request** + **explained**: 6
 - **concerned** + **investigated**: 6
+- **confused** + **investigated**: 6
 - **curious** + **actioned**: 5
-- **confused** + **investigated**: 5
 - **blocked** + **actioned**: 4
 - **curious** + **—**: 4
 - **curious** + **escalated**: 3
@@ -366,10 +365,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10364](https://tbpro.zendesk.com/agent/tickets/10364) · [open] · 2026-10-22T20:08 · custom domain
 - [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [open] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
-- [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [new] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
+- [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [open] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
 - [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [new] · 2026-10-23T01:56 · einige Ordner wiederherstellen
-- [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [new] · 2026-10-23T05:52 · Charged an International Transaction Fee
-- [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [new] · 2026-10-23T06:05 · Send does not work in Firefox
+- [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [open] · 2026-10-23T05:52 · Charged an International Transaction Fee
+- [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23T06:05 · Send does not work in Firefox
 - [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [new] · 2026-10-23T12:51 · Custom domain email
 
 ## Solved — last 24h
