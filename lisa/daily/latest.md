@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-22
 
-_Updated: **2026-10-22 19:20 ET** · refreshes hourly_  
+_Updated: **2026-10-22 20:54 ET** · refreshes hourly_  
 _24h window: 2026-10-21T16:00 → 2026-10-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 74** of rollout — **35,000 invitees**, **859 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 74** of rollout — **35,000 invitees**, **860 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **19** solved in last 24h
-- **859** tickets total since launch · contact rate **2%** of 35000 invitees
+- **20** new tickets in last 24h · **18** solved in last 24h
+- **860** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (183 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 89
-- **Median AHT**: 125.4h · mean 150.8h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 125.4h · mean 151.1h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -263,14 +263,15 @@ Regards, [name]_
 
 - **closed**: 701
 - **solved**: 68
-- **pending**: 60
+- **pending**: 59
 - **hold**: 16
-- **open**: 14
+- **open**: 15
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 481
-- **Thundermail**: 295
+- **Thundermail**: 296
 - **Send**: 18
 - **Appointment**: 9
 
@@ -391,15 +392,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10355](https://tbpro.zendesk.com/agent/tickets/10355)** · cancellation of the subscription — why: **change request** · how: **actioned**
   > I want to cancel the yearly subscription. I am cancelling within 14 days or signing up, so I do not need to give any reason for the cancelation. Pls confirm with a mail to [email]…
 
+### Webmail — 1 tickets
+
+- **[#10300](https://tbpro.zendesk.com/agent/tickets/10300)** · domain setup issue — why: **blocked** · how: **explained**
+  > I set up a new domain connection yesterday that has been verified, however I keep getting the error message 'Failed to connect to server [domain].' I already had this address in…
+
 ### Pricing — payment issue — 1 tickets
 
 - **[#10341](https://tbpro.zendesk.com/agent/tickets/10341)** · (no subject) — why: **request** · how: **explained**
   > I am not comfortable paying on line. please send your address so I can mail a check
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10300](https://tbpro.zendesk.com/agent/tickets/10300)** · domain setup issue — why: **blocked** · how: **explained**
-  > I set up a new domain connection yesterday that has been verified, however I keep getting the error message 'Failed to connect to server [domain].' I already had this address in…
 
 ## New tickets — last 24h
 
@@ -410,7 +411,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10295](https://tbpro.zendesk.com/agent/tickets/10295) · [pending] · 2026-10-22T00:26 · cancellation
 - [10298](https://tbpro.zendesk.com/agent/tickets/10298) · [pending] · 2026-10-22T01:47 · Password reset
 - [10299](https://tbpro.zendesk.com/agent/tickets/10299) · [open] · 2026-10-22T01:48 · サンダーバードが動かない
-- [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22T02:53 · domain setup issue
+- [10300](https://tbpro.zendesk.com/agent/tickets/10300) · [open] · 2026-10-22T02:53 · domain setup issue
 - [10301](https://tbpro.zendesk.com/agent/tickets/10301) · [pending] · 2026-10-22T04:33 · forget password
 - [10305](https://tbpro.zendesk.com/agent/tickets/10305) · [open] · 2026-10-22T05:31 · Quick Question About Thundrmail Address ...
 - [10306](https://tbpro.zendesk.com/agent/tickets/10306) · [pending] · 2026-10-22T07:06 · Desktop Application
@@ -431,7 +432,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10095](https://tbpro.zendesk.com/agent/tickets/10095) · 2026-10-21T23:02 · Mozilla Thunderbird Re-INSTALLING 
 - · [10093](https://tbpro.zendesk.com/agent/tickets/10093) · 2026-10-21T23:02 · Kalender
 - · [10079](https://tbpro.zendesk.com/agent/tickets/10079) · 2026-10-21T23:02 · Waitlist signup form loops - please confirm my email is on the list
-- · [10293](https://tbpro.zendesk.com/agent/tickets/10293) · 2026-10-21T23:23 · Desistência de efetivar assinatura
 - · [10113](https://tbpro.zendesk.com/agent/tickets/10113) · 2026-10-22T00:02 · please delete account
 - · [10083](https://tbpro.zendesk.com/agent/tickets/10083) · 2026-10-22T00:02 · موبایل خاص منحصر بفرد هستم چطورر کجا......
 - 👍 [10157](https://tbpro.zendesk.com/agent/tickets/10157) · 2026-10-22T13:46 · What is a Keyword Alert Notification?
