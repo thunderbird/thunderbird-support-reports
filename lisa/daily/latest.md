@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 08:31 ET** · refreshes hourly_  
+_Updated: **2026-10-23 09:23 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 75** of rollout — **35,000 invitees**, **863 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 75** of rollout — **35,000 invitees**, **864 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **5** solved in last 24h
-- **863** tickets total since launch · contact rate **2%** of 35000 invitees
+- **7** new tickets in last 24h · **5** solved in last 24h
+- **864** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (183 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 89
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
 - **Median AHT**: 125.4h · mean 151.1h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -249,23 +249,24 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Compact mode](https://ideas.tb.pro/p/compact-mode) · 1 votes · _Thundermail, Improvement, Webmail_
+  > What you’d like to see The ability to switch between a Comfortable inbox view, with icons, more spacing between emails, and attachment previews, and a Compact view, with fewer visual elements,…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 701
 - **solved**: 68
-- **pending**: 57
-- **open**: 18
+- **pending**: 56
+- **open**: 19
 - **hold**: 15
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 482
-- **Thundermail**: 297
+- **Thundermail**: 298
 - **Send**: 19
 - **Appointment**: 9
 
@@ -336,6 +337,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10364](https://tbpro.zendesk.com/agent/tickets/10364)** · custom domain
   > hello, i recently setup my custom domain on thundermail. i added all the dns records as directed (with cloudflare) and verified. i am able to send and receive email OK, however…
 
+### Email migration / import — 1 tickets
+
+- **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email
+  > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox
@@ -364,6 +370,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [new] · 2026-10-23T01:56 · einige Ordner wiederherstellen
 - [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [new] · 2026-10-23T05:52 · Charged an International Transaction Fee
 - [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [new] · 2026-10-23T06:05 · Send does not work in Firefox
+- [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [new] · 2026-10-23T12:51 · Custom domain email
 
 ## Solved — last 24h
 
