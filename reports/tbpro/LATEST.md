@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 01:22 ET** · refreshes hourly_  
+_Updated: **2026-10-23 02:37 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 75** of rollout — **35,000 invitees**, **861 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 75** of rollout — **35,000 invitees**, **863 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **5** solved in last 24h
-- **861** tickets total since launch · contact rate **2%** of 35000 invitees
+- **6** new tickets in last 24h · **5** solved in last 24h
+- **863** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (183 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 89
 - **Median AHT**: 125.4h · mean 151.1h (proxy: updated_at − created_at, 68 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"other providers"** — 2 tickets in 24h (29.6× baseline; baseline 5 cum) — [#10364](https://tbpro.zendesk.com/agent/tickets/10364), [#10372](https://tbpro.zendesk.com/agent/tickets/10372)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -254,13 +260,13 @@ _(none in last 24h)_
 - **pending**: 59
 - **open**: 16
 - **hold**: 15
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 482
-- **Thundermail**: 296
-- **Send**: 18
+- **Thundermail**: 297
+- **Send**: 19
 - **Appointment**: 9
 
 ## Why × How (cumulative)
@@ -330,6 +336,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10364](https://tbpro.zendesk.com/agent/tickets/10364)** · custom domain
   > hello, i recently setup my custom domain on thundermail. i added all the dns records as directed (with cloudflare) and verified. i am able to send and receive email OK, however…
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox
+  > After selecting file, upload instantly finishes and file does not seem to get uploaded and neither shows up in the uploaded file list. I am using Firefox 158 on Gentoo Linux. The…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#10372](https://tbpro.zendesk.com/agent/tickets/10372)** · Charged an International Transaction Fee
+  > When I paid to join and receive a new [domain] email address, I was charged an international transaction fee by my bank. I don't normally get charged these for such payments to…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10369](https://tbpro.zendesk.com/agent/tickets/10369)** · einige Ordner wiederherstellen
@@ -346,6 +362,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [open] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
 - [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [new] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
 - [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [new] · 2026-10-23T01:56 · einige Ordner wiederherstellen
+- [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [new] · 2026-10-23T05:52 · Charged an International Transaction Fee
+- [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [new] · 2026-10-23T06:05 · Send does not work in Firefox
 
 ## Solved — last 24h
 
