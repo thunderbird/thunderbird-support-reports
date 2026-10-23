@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 13:20 ET** · refreshes hourly_  
+_Updated: **2026-10-23 14:27 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -257,9 +257,9 @@ _(none in last 24h)_
 
 - **closed**: 705
 - **solved**: 69
-- **pending**: 58
-- **hold**: 16
-- **open**: 16
+- **pending**: 59
+- **hold**: 17
+- **open**: 14
 
 ## Service (cumulative)
 
@@ -277,10 +277,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 108
 - **confused** + **explained**: 75
 - **curious** + **informed**: 45
+- **blocked** + **investigated**: 40
 - **blocked** + **redirected**: 40
-- **blocked** + **investigated**: 39
 - **request** + **redirected**: 38
-- **confused** + **informed**: 34
+- **confused** + **informed**: 35
 - **concerned** + **explained**: 30
 - **blocked** + **informed**: 19
 - **blocked** + **escalated**: 15
@@ -335,11 +335,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10364](https://tbpro.zendesk.com/agent/tickets/10364)** · custom domain — why: **concerned** · how: **explained**
   > hello, i recently setup my custom domain on thundermail. i added all the dns records as directed (with cloudflare) and verified. i am able to send and receive email OK, however…
 
-### Email migration / import — 1 tickets
-
-- **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email
-  > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox
@@ -347,8 +342,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#10368](https://tbpro.zendesk.com/agent/tickets/10368)** · POP3 transition from existing email account portfolio to JMAP
-  > I manage and have managed 3 POP3 domains (2 business, one personal) with a number of email accounts within each domain. How do I (is there a known pathway to) transition, say, the…
+- **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email — why: **confused** · how: **informed**
+  > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -360,15 +355,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10369](https://tbpro.zendesk.com/agent/tickets/10369)** · einige Ordner wiederherstellen — why: **confused** · how: **explained**
   > einige Ordner sollen wieder hergestellt werden
 
+### Aliases — 1 tickets
+
+- **[#10368](https://tbpro.zendesk.com/agent/tickets/10368)** · POP3 transition from existing email account portfolio to JMAP — why: **blocked** · how: **investigated**
+  > I manage and have managed 3 POP3 domains (2 business, one personal) with a number of email accounts within each domain. How do I (is there a known pathway to) transition, say, the…
+
 ## New tickets — last 24h
 
 - [10364](https://tbpro.zendesk.com/agent/tickets/10364) · [open] · 2026-10-22T20:08 · custom domain
 - [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [open] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
-- [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [open] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
+- [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [pending] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
 - [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [pending] · 2026-10-23T01:56 · einige Ordner wiederherstellen
 - [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [pending] · 2026-10-23T05:52 · Charged an International Transaction Fee
 - [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23T06:05 · Send does not work in Firefox
-- [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [open] · 2026-10-23T12:51 · Custom domain email
+- [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [pending] · 2026-10-23T12:51 · Custom domain email
 
 ## Solved — last 24h
 
