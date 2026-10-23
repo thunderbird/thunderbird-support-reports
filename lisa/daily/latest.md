@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 14:27 ET** · refreshes hourly_  
+_Updated: **2026-10-23 15:20 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 75** of rollout — **35,000 invitees**, **864 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 75** of rollout — **35,000 invitees**, **866 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **11** solved in last 24h
-- **864** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 94%  (183 good / 11 bad)
+- **9** new tickets in last 24h · **14** solved in last 24h
+- **866** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 94%  (184 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
-- **Median AHT**: 124.8h · mean 146.5h (proxy: updated_at − created_at, 69 solved tickets)
+- **Median AHT**: 124.3h · mean 144.0h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -105,7 +105,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9352](https://tbpro.zendesk.com/agent/tickets/9352) · [closed] · 2026-10-01 · _Delete account and subscription_
   - [#9411](https://tbpro.zendesk.com/agent/tickets/9411) · [closed] · 2026-10-02 · _Refund_
   - [#9412](https://tbpro.zendesk.com/agent/tickets/9412) · [closed] · 2026-10-02 · _would like to cancel thunderbird pro_
-  - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [solved] · 2026-10-05 · _Thundermail account cancellation and refund_
+  - [#9467](https://tbpro.zendesk.com/agent/tickets/9467) · [closed] · 2026-10-05 · _Thundermail account cancellation and refund_
   - [#9483](https://tbpro.zendesk.com/agent/tickets/9483) · [closed] · 2026-10-05 · _Account deletion and refund_
   - [#9496](https://tbpro.zendesk.com/agent/tickets/9496) · [closed] · 2026-10-06 · _Please cancel my Beta subscription and give a refund_
   - [#9505](https://tbpro.zendesk.com/agent/tickets/9505) · [closed] · 2026-10-06 · _Aliases not showing up_
@@ -242,9 +242,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [open] · _cancellation_
+  > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account is cancelled, nor a credit on the…
 
 ## New ideas on FeatureOS
 
@@ -255,15 +256,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 705
-- **solved**: 69
-- **pending**: 59
+- **closed**: 707
+- **solved**: 68
+- **pending**: 61
 - **hold**: 17
-- **open**: 14
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 482
+- **Account Hub**: 484
 - **Thundermail**: 297
 - **Send**: 19
 - **Appointment**: 9
@@ -275,7 +276,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 168
 - **change request** + **actioned**: 118
 - **blocked** + **explained**: 108
-- **confused** + **explained**: 75
+- **confused** + **explained**: 76
 - **curious** + **informed**: 45
 - **blocked** + **investigated**: 40
 - **blocked** + **redirected**: 40
@@ -335,10 +336,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10364](https://tbpro.zendesk.com/agent/tickets/10364)** · custom domain — why: **concerned** · how: **explained**
   > hello, i recently setup my custom domain on thundermail. i added all the dns records as directed (with cloudflare) and verified. i am able to send and receive email OK, however…
 
+### Bug report / app crash / not working — 1 tickets
+
+- **[#10399](https://tbpro.zendesk.com/agent/tickets/10399)** · cancellation
+  > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox
   > After selecting file, upload instantly finishes and file does not seem to get uploaded and neither shows up in the uploaded file list. I am using Firefox 158 on Gentoo Linux. The…
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#10397](https://tbpro.zendesk.com/agent/tickets/10397)** · loginkode — why: **confused** · how: **explained**
+  > I have forgoten my loginkode
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -369,6 +380,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [pending] · 2026-10-23T05:52 · Charged an International Transaction Fee
 - [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23T06:05 · Send does not work in Firefox
 - [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [pending] · 2026-10-23T12:51 · Custom domain email
+- [10397](https://tbpro.zendesk.com/agent/tickets/10397) · [pending] · 2026-10-23T18:34 · loginkode
+- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [open] · 2026-10-23T18:51 · cancellation
 
 ## Solved — last 24h
 
@@ -383,6 +396,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10305](https://tbpro.zendesk.com/agent/tickets/10305) · 2026-10-23T16:41 · Quick Question About Thundrmail Address ...
 - · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-23T16:56 · E-Mail 
 - · [10032](https://tbpro.zendesk.com/agent/tickets/10032) · 2026-10-23T17:02 · Send files
+- · [10309](https://tbpro.zendesk.com/agent/tickets/10309) · 2026-10-23T19:02 · DKIM Ed25519 verification error
+- · [10177](https://tbpro.zendesk.com/agent/tickets/10177) · 2026-10-23T19:09 · Per-alias display names
+- 👍 [9180](https://tbpro.zendesk.com/agent/tickets/9180) · 2026-10-23T19:14 · featured off-site messages
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
