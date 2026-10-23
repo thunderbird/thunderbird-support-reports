@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 16:23 ET** · refreshes hourly_  
+_Updated: **2026-10-23 17:20 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 75** of rollout — **35,000 invitees**, **866 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **14** solved in last 24h
+- **9** new tickets in last 24h · **13** solved in last 24h
 - **866** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
-- **CSAT (since launch)**: 94%  (184 good / 11 bad)
+- **CSAT (since launch)**: 94%  (186 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
-- **Median AHT**: 124.3h · mean 144.4h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 124.0h · mean 144.7h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"other providers"** — 2 tickets in 24h (29.6× baseline; baseline 5 cum) — [#10364](https://tbpro.zendesk.com/agent/tickets/10364), [#10372](https://tbpro.zendesk.com/agent/tickets/10372)
 
-## Known problems — 13 problem(s), 106 incident(s)
+## Known problems — 13 problem(s), 107 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -38,7 +38,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 86 incident(s):
+- 87 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -125,6 +125,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [pending] · 2026-10-20 · _Monthly plans _
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [pending] · 2026-10-22 · _cancellation of the subscription_
+  - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · 2026-10-23 · _cancellation_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -165,7 +166,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 2 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
-  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
+  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [hold] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -244,7 +245,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [open] · _cancellation_
+- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · _cancellation_
   > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account is cancelled, nor a credit on the…
 
 ## New ideas on FeatureOS
@@ -256,11 +257,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 707
-- **solved**: 68
-- **pending**: 64
-- **hold**: 17
-- **open**: 10
+- **closed**: 708
+- **solved**: 67
+- **pending**: 66
+- **hold**: 18
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -274,7 +275,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 168
-- **change request** + **actioned**: 118
+- **change request** + **actioned**: 119
 - **blocked** + **explained**: 108
 - **confused** + **explained**: 76
 - **curious** + **informed**: 45
@@ -331,20 +332,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#10365](https://tbpro.zendesk.com/agent/tickets/10365)** · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail — why: **concerned**
-  > This is a follow-up to your previous request #8036 "Some recipients showing DKI..." Hi [name] and team. I am reviving this old thread solely to provide a followup / epilogue. I…
 - **[#10364](https://tbpro.zendesk.com/agent/tickets/10364)** · custom domain — why: **concerned** · how: **explained**
   > hello, i recently setup my custom domain on thundermail. i added all the dns records as directed (with cloudflare) and verified. i am able to send and receive email OK, however…
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#10399](https://tbpro.zendesk.com/agent/tickets/10399)** · cancellation
-  > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account…
+- **[#10365](https://tbpro.zendesk.com/agent/tickets/10365)** · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail — why: **concerned**
+  > This is a follow-up to your previous request #8036 "Some recipients showing DKI..." Hi [name] and team. I am reviving this old thread solely to provide a followup / epilogue. I…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email — why: **confused** · how: **informed**
   > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
+
+### Bug report / app crash / not working — 1 tickets
+
+- **[#10399](https://tbpro.zendesk.com/agent/tickets/10399)** · cancellation — why: **change request** · how: **actioned**
+  > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
@@ -374,14 +375,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10364](https://tbpro.zendesk.com/agent/tickets/10364) · [open] · 2026-10-22T20:08 · custom domain
-- [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [open] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
+- [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [pending] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
 - [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [pending] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
 - [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [pending] · 2026-10-23T01:56 · einige Ordner wiederherstellen
 - [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [pending] · 2026-10-23T05:52 · Charged an International Transaction Fee
 - [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [pending] · 2026-10-23T06:05 · Send does not work in Firefox
 - [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [open] · 2026-10-23T12:51 · Custom domain email
 - [10397](https://tbpro.zendesk.com/agent/tickets/10397) · [pending] · 2026-10-23T18:34 · loginkode
-- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [open] · 2026-10-23T18:51 · cancellation
+- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · 2026-10-23T18:51 · cancellation
 
 ## Solved — last 24h
 
@@ -396,7 +397,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10305](https://tbpro.zendesk.com/agent/tickets/10305) · 2026-10-23T16:41 · Quick Question About Thundrmail Address ...
 - · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-23T16:56 · E-Mail 
 - · [10032](https://tbpro.zendesk.com/agent/tickets/10032) · 2026-10-23T17:02 · Send files
-- · [10309](https://tbpro.zendesk.com/agent/tickets/10309) · 2026-10-23T19:02 · DKIM Ed25519 verification error
 - · [10177](https://tbpro.zendesk.com/agent/tickets/10177) · 2026-10-23T19:09 · Per-alias display names
 - 👍 [9180](https://tbpro.zendesk.com/agent/tickets/9180) · 2026-10-23T19:14 · featured off-site messages
 
