@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 12:27 ET** · refreshes hourly_  
+_Updated: **2026-10-23 13:20 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 75** of rollout — **35,000 invitees**, **864 tickets** so fa
 
 ## At a glance
 
-- **7** new tickets in last 24h · **8** solved in last 24h
+- **7** new tickets in last 24h · **11** solved in last 24h
 - **864** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (183 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
-- **Median AHT**: 124.9h · mean 148.8h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 124.8h · mean 146.5h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -250,21 +250,21 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Compact mode](https://ideas.tb.pro/p/compact-mode) · 1 votes · _Thundermail, Improvement, Webmail_
+- [Compact mode with streamlined interface for webmail](https://ideas.tb.pro/p/compact-mode-with-streamlined-interface-for-webmail) · 1 votes · _Thundermail, Improvement, Webmail_
   > What you’d like to see The ability to switch between a Comfortable inbox view, with icons, more spacing between emails, and attachment previews, and a Compact view, with fewer visual elements,…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 704
-- **solved**: 68
-- **pending**: 57
-- **open**: 19
+- **closed**: 705
+- **solved**: 69
+- **pending**: 58
 - **hold**: 16
+- **open**: 16
 
 ## Service (cumulative)
 
 - **Account Hub**: 482
-- **Thundermail**: 298
+- **Thundermail**: 297
 - **Send**: 19
 - **Appointment**: 9
 
@@ -275,7 +275,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 168
 - **change request** + **actioned**: 118
 - **blocked** + **explained**: 108
-- **confused** + **explained**: 74
+- **confused** + **explained**: 75
 - **curious** + **informed**: 45
 - **blocked** + **redirected**: 40
 - **blocked** + **investigated**: 39
@@ -286,8 +286,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 15
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
+- **confused** + **—**: 8
 - **blocked** + **—**: 8
-- **confused** + **—**: 7
 - **telling us** + **explained**: 6
 - **request** + **explained**: 6
 - **concerned** + **investigated**: 6
@@ -345,28 +345,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox
   > After selecting file, upload instantly finishes and file does not seem to get uploaded and neither shows up in the uploaded file list. I am using Firefox 158 on Gentoo Linux. The…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10372](https://tbpro.zendesk.com/agent/tickets/10372)** · Charged an International Transaction Fee
-  > When I paid to join and receive a new [domain] email address, I was charged an international transaction fee by my bank. I don't normally get charged these for such payments to…
-
-### Other / uncategorized — 1 tickets
-
-- **[#10369](https://tbpro.zendesk.com/agent/tickets/10369)** · einige Ordner wiederherstellen
-  > einige Ordner sollen wieder hergestellt werden
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10368](https://tbpro.zendesk.com/agent/tickets/10368)** · POP3 transition from existing email account portfolio to JMAP
   > I manage and have managed 3 POP3 domains (2 business, one personal) with a number of email accounts within each domain. How do I (is there a known pathway to) transition, say, the…
+
+### Pricing — payment issue — 1 tickets
+
+- **[#10372](https://tbpro.zendesk.com/agent/tickets/10372)** · Charged an International Transaction Fee — why: **confused**
+  > When I paid to join and receive a new [domain] email address, I was charged an international transaction fee by my bank. I don't normally get charged these for such payments to…
+
+### Other / uncategorized — 1 tickets
+
+- **[#10369](https://tbpro.zendesk.com/agent/tickets/10369)** · einige Ordner wiederherstellen — why: **confused** · how: **explained**
+  > einige Ordner sollen wieder hergestellt werden
 
 ## New tickets — last 24h
 
 - [10364](https://tbpro.zendesk.com/agent/tickets/10364) · [open] · 2026-10-22T20:08 · custom domain
 - [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [open] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
 - [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [open] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
-- [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [open] · 2026-10-23T01:56 · einige Ordner wiederherstellen
-- [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [open] · 2026-10-23T05:52 · Charged an International Transaction Fee
+- [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [pending] · 2026-10-23T01:56 · einige Ordner wiederherstellen
+- [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [pending] · 2026-10-23T05:52 · Charged an International Transaction Fee
 - [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23T06:05 · Send does not work in Firefox
 - [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [open] · 2026-10-23T12:51 · Custom domain email
 
@@ -380,6 +380,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10218](https://tbpro.zendesk.com/agent/tickets/10218) · 2026-10-23T13:50 · Sign in not available
 - · [10203](https://tbpro.zendesk.com/agent/tickets/10203) · 2026-10-23T14:01 · Calendar invites sent from [domain] instead of my custom domain address
 - · [10193](https://tbpro.zendesk.com/agent/tickets/10193) · 2026-10-23T14:16 · on page https://[domain]/subscribe, the page will not render, can you assist
+- · [10305](https://tbpro.zendesk.com/agent/tickets/10305) · 2026-10-23T16:41 · Quick Question About Thundrmail Address ...
+- · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-23T16:56 · E-Mail 
+- · [10032](https://tbpro.zendesk.com/agent/tickets/10032) · 2026-10-23T17:02 · Send files
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
