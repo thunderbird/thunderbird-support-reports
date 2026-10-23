@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-23
 
-_Updated: **2026-10-23 15:20 ET** · refreshes hourly_  
+_Updated: **2026-10-23 16:23 ET** · refreshes hourly_  
 _24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 75** of rollout — **35,000 invitees**, **866 tickets** so fa
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 94%  (184 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
-- **Median AHT**: 124.3h · mean 144.0h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 124.3h · mean 144.4h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -124,7 +124,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [solved] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [pending] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [pending] · 2026-10-20 · _Monthly plans _
-  - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [open] · 2026-10-22 · _cancellation of the subscription_
+  - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [pending] · 2026-10-22 · _cancellation of the subscription_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -258,9 +258,9 @@ Regards, [name]_
 
 - **closed**: 707
 - **solved**: 68
-- **pending**: 61
+- **pending**: 64
 - **hold**: 17
-- **open**: 13
+- **open**: 10
 
 ## Service (cumulative)
 
@@ -278,7 +278,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 108
 - **confused** + **explained**: 76
 - **curious** + **informed**: 45
-- **blocked** + **investigated**: 40
+- **blocked** + **investigated**: 41
 - **blocked** + **redirected**: 40
 - **request** + **redirected**: 38
 - **confused** + **informed**: 35
@@ -341,20 +341,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10399](https://tbpro.zendesk.com/agent/tickets/10399)** · cancellation
   > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account…
 
-### Privacy / data / jurisdiction concerns — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox
-  > After selecting file, upload instantly finishes and file does not seem to get uploaded and neither shows up in the uploaded file list. I am using Firefox 158 on Gentoo Linux. The…
+- **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email — why: **confused** · how: **informed**
+  > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#10397](https://tbpro.zendesk.com/agent/tickets/10397)** · loginkode — why: **confused** · how: **explained**
   > I have forgoten my loginkode
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email — why: **confused** · how: **informed**
-  > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
+- **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox — why: **blocked** · how: **investigated**
+  > After selecting file, upload instantly finishes and file does not seem to get uploaded and neither shows up in the uploaded file list. I am using Firefox 158 on Gentoo Linux. The…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -378,8 +378,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [pending] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
 - [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [pending] · 2026-10-23T01:56 · einige Ordner wiederherstellen
 - [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [pending] · 2026-10-23T05:52 · Charged an International Transaction Fee
-- [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23T06:05 · Send does not work in Firefox
-- [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [pending] · 2026-10-23T12:51 · Custom domain email
+- [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [pending] · 2026-10-23T06:05 · Send does not work in Firefox
+- [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [open] · 2026-10-23T12:51 · Custom domain email
 - [10397](https://tbpro.zendesk.com/agent/tickets/10397) · [pending] · 2026-10-23T18:34 · loginkode
 - [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [open] · 2026-10-23T18:51 · cancellation
 
