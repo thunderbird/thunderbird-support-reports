@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 11:19 ET** · refreshes hourly_  
+_Updated: **2026-10-24 12:21 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 76** of rollout — **35,000 invitees**, **879 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **880 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **7** solved in last 24h
-- **879** tickets total since launch · contact rate **3%** of 35000 invitees
+- **14** new tickets in last 24h · **7** solved in last 24h
+- **880** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (186 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
@@ -260,12 +260,12 @@ _(none in last 24h)_
 - **pending**: 61
 - **hold**: 18
 - **open**: 14
-- **new**: 9
+- **new**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 486
-- **Thundermail**: 306
+- **Thundermail**: 307
 - **Send**: 19
 - **Appointment**: 9
 
@@ -329,8 +329,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10429](https://tbpro.zendesk.com/agent/tickets/10429)** · can't get email working 
+  > what is my password ? why can I read email but can't find contacts to write email ?
 - **[#10422](https://tbpro.zendesk.com/agent/tickets/10422)** · Sende e-mails sind verschwunden
   > Darstellung meiner gesendeten e-mails
 - **[#10417](https://tbpro.zendesk.com/agent/tickets/10417)** · verlorenes passwort
@@ -397,6 +399,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10422](https://tbpro.zendesk.com/agent/tickets/10422) · [new] · 2026-10-24T13:40 · Sende e-mails sind verschwunden
 - [10425](https://tbpro.zendesk.com/agent/tickets/10425) · [new] · 2026-10-24T14:26 · Domain setup with Namecheap
 - [10428](https://tbpro.zendesk.com/agent/tickets/10428) · [new] · 2026-10-24T15:15 · (1)Bitdefender flagged warning when I clicked on the Join the Early Bird Beta. (2) how do I chose  @
+- [10429](https://tbpro.zendesk.com/agent/tickets/10429) · [new] · 2026-10-24T15:53 · can't get email working 
 
 ## Solved — last 24h
 
