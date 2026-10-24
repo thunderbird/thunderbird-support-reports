@@ -1,26 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 15:16 ET** · refreshes hourly_  
+_Updated: **2026-10-24 16:20 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 76** of rollout — **35,000 invitees**, **885 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **889 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **9** solved in last 24h
-- **885** tickets total since launch · contact rate **3%** of 35000 invitees
+- **21** new tickets in last 24h · **9** solved in last 24h
+- **889** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (187 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 123.2h · mean 139.6h (proxy: updated_at − created_at, 59 solved tickets)
+- **Median AHT**: 123.2h · mean 140.2h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
+- **"dear team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
+- **"custom domains"** — 2 tickets in 24h (3.3× baseline; baseline 46 cum) — [#10436](https://tbpro.zendesk.com/agent/tickets/10436), [#10441](https://tbpro.zendesk.com/agent/tickets/10441)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -255,17 +256,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 718
+- **closed**: 721
 - **pending**: 60
-- **solved**: 59
+- **solved**: 56
+- **new**: 19
 - **hold**: 18
-- **new**: 15
 - **open**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 488
-- **Thundermail**: 308
+- **Thundermail**: 312
 - **Send**: 19
 - **Appointment**: 9
 
@@ -355,6 +356,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10409](https://tbpro.zendesk.com/agent/tickets/10409)** · auth email going to defunct address
   > Hi there I just signed up for the address [email] but it said there would be authorisation links sent to my email. It hasn't gone to my personal [email] so I assume it has gone to…
 
+### Email migration / import — 2 tickets
+
+- **[#10441](https://tbpro.zendesk.com/agent/tickets/10441)** · Thundermail
+  > I am using Office 365 with two individual domains and email accounts. In an effort to rely less on Microsoft, I have been contemplating moving my services to Proton Mail. I've…
+- **[#10439](https://tbpro.zendesk.com/agent/tickets/10439)** · Can I use my current email address?
+  > I have an old email address from a company that did not exist after 1997. It was taken over by a series of companies and is now controlled by Earthlink. Can I use that email…
+
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
 - **[#10436](https://tbpro.zendesk.com/agent/tickets/10436)** · DANE and DNSSEC support for a custom domain?
@@ -415,6 +423,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10434](https://tbpro.zendesk.com/agent/tickets/10434) · [new] · 2026-10-24T18:25 · login
 - [10435](https://tbpro.zendesk.com/agent/tickets/10435) · [new] · 2026-10-24T18:30 · Old Thuderbird app
 - [10436](https://tbpro.zendesk.com/agent/tickets/10436) · [new] · 2026-10-24T18:50 · DANE and DNSSEC support for a custom domain?
+- [10439](https://tbpro.zendesk.com/agent/tickets/10439) · [new] · 2026-10-24T19:20 · Can I use my current email address?
+- [10441](https://tbpro.zendesk.com/agent/tickets/10441) · [new] · 2026-10-24T19:29 · Thundermail
 
 ## Solved — last 24h
 
