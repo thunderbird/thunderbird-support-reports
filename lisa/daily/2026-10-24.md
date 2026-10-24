@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 13:18 ET** · refreshes hourly_  
+_Updated: **2026-10-24 14:24 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 76** of rollout — **35,000 invitees**, **881 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **882 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **9** solved in last 24h
-- **881** tickets total since launch · contact rate **3%** of 35000 invitees
+- **16** new tickets in last 24h · **9** solved in last 24h
+- **882** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (186 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 123.2h · mean 137.2h (proxy: updated_at − created_at, 62 solved tickets)
+- **Median AHT**: 123.2h · mean 137.4h (proxy: updated_at − created_at, 61 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"dear team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
+- **"team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -255,16 +255,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 715
-- **solved**: 62
+- **closed**: 716
+- **solved**: 61
 - **pending**: 61
 - **hold**: 18
 - **open**: 14
-- **new**: 11
+- **new**: 12
 
 ## Service (cumulative)
 
-- **Account Hub**: 486
+- **Account Hub**: 487
 - **Thundermail**: 308
 - **Send**: 19
 - **Appointment**: 9
@@ -329,8 +329,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 6 tickets
 
+- **[#10432](https://tbpro.zendesk.com/agent/tickets/10432)** · Remove completely Thunderbird and Thundermail  from my Linux / Zorin laptop
+  > I want to remove everything which is of Thunderbird and Thundermail, and then start from scratch again! But how to remove first the old versions and other files regarding…
 - **[#10431](https://tbpro.zendesk.com/agent/tickets/10431)** · Change adress email
   > Hello there I make a mistake when i creat my adress email .I want a choise [email] but i choice by mistake perfecpush,can i change ???
 - **[#10429](https://tbpro.zendesk.com/agent/tickets/10429)** · can't get email working 
@@ -403,6 +405,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10428](https://tbpro.zendesk.com/agent/tickets/10428) · [new] · 2026-10-24T15:15 · (1)Bitdefender flagged warning when I clicked on the Join the Early Bird Beta. (2) how do I chose  @
 - [10429](https://tbpro.zendesk.com/agent/tickets/10429) · [new] · 2026-10-24T15:53 · can't get email working 
 - [10431](https://tbpro.zendesk.com/agent/tickets/10431) · [new] · 2026-10-24T17:14 · Change adress email
+- [10432](https://tbpro.zendesk.com/agent/tickets/10432) · [new] · 2026-10-24T18:15 · Remove completely Thunderbird and Thundermail  from my Linux / Zorin laptop
 
 ## Solved — last 24h
 
