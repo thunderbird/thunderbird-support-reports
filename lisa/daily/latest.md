@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 07:18 ET** · refreshes hourly_  
+_Updated: **2026-10-24 08:28 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 76** of rollout — **35,000 invitees**, **874 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **876 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **2** solved in last 24h
-- **874** tickets total since launch · contact rate **2%** of 35000 invitees
+- **10** new tickets in last 24h · **2** solved in last 24h
+- **876** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (186 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
 - **Median AHT**: 123.3h · mean 129.6h (proxy: updated_at − created_at, 64 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"dear team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -254,12 +260,12 @@ _(none in last 24h)_
 - **pending**: 63
 - **hold**: 18
 - **open**: 14
-- **new**: 4
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 485
-- **Thundermail**: 303
+- **Thundermail**: 304
 - **Send**: 19
 - **Appointment**: 9
 
@@ -323,6 +329,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Thunderbird for Android + Thundermail — 2 tickets
+
+- **[#10419](https://tbpro.zendesk.com/agent/tickets/10419)** · I have forgotten my password for my email 
+  > Sen your anser as message to phone [phone]
+- **[#10405](https://tbpro.zendesk.com/agent/tickets/10405)** · can't send attachments?  Photos.
+  > I can not send attachments? Photos. I was trying to email a support team (not you guys) pictures of a phone problem and my email would NOT let me attach pictures? They were NOT…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10417](https://tbpro.zendesk.com/agent/tickets/10417)** · verlorenes passwort
@@ -337,15 +350,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10409](https://tbpro.zendesk.com/agent/tickets/10409)** · auth email going to defunct address
   > Hi there I just signed up for the address [email] but it said there would be authorisation links sent to my email. It hasn't gone to my personal [email] so I assume it has gone to…
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10418](https://tbpro.zendesk.com/agent/tickets/10418)** · Switching Email Providers to Thundermail for an Organization
+  > Dear [name], I am writing to you on behalf of the volunteer organization KjG St. Barbara in Oberhausen, Germany. We currently use SOGo as our email provider, but unfortunately…
+
 ### App setup / configuration — 1 tickets
 
 - **[#10412](https://tbpro.zendesk.com/agent/tickets/10412)** · Add Additional Account
   > Hi, Is it possible to add an additional email account? I know it’s possible to create an allies, but I’d like to be able to have separate inboxes for work and personal email.…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#10405](https://tbpro.zendesk.com/agent/tickets/10405)** · can't send attachments?  Photos.
-  > I can not send attachments? Photos. I was trying to email a support team (not you guys) pictures of a phone problem and my email would NOT let me attach pictures? They were NOT…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -367,6 +380,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10411](https://tbpro.zendesk.com/agent/tickets/10411) · [new] · 2026-10-24T04:59 · Email Verification Failing
 - [10412](https://tbpro.zendesk.com/agent/tickets/10412) · [new] · 2026-10-24T05:02 · Add Additional Account
 - [10417](https://tbpro.zendesk.com/agent/tickets/10417) · [new] · 2026-10-24T10:38 · verlorenes passwort
+- [10418](https://tbpro.zendesk.com/agent/tickets/10418) · [new] · 2026-10-24T11:38 · Switching Email Providers to Thundermail for an Organization
+- [10419](https://tbpro.zendesk.com/agent/tickets/10419) · [new] · 2026-10-24T11:48 · I have forgotten my password for my email 
 
 ## Solved — last 24h
 
