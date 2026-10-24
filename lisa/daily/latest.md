@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-10-23
+# Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-23 23:25 ET** · refreshes hourly_  
-_24h window: 2026-10-22T16:00 → 2026-10-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-24 00:24 ET** · refreshes hourly_  
+_24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 75** of rollout — **35,000 invitees**, **870 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **871 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **13** solved in last 24h
-- **870** tickets total since launch · contact rate **2%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **5** new tickets in last 24h · **2** solved in last 24h
+- **871** tickets total since launch · contact rate **2%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (186 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 90
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
 - **Median AHT**: 123.3h · mean 142.7h (proxy: updated_at − created_at, 65 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"other providers"** — 2 tickets in 24h (29.6× baseline; baseline 5 cum) — [#10364](https://tbpro.zendesk.com/agent/tickets/10364), [#10372](https://tbpro.zendesk.com/agent/tickets/10372)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -243,17 +237,15 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · _cancellation_
-  > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account is cancelled, nor a credit on the…
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Compact mode with streamlined interface for webmail](https://ideas.tb.pro/p/compact-mode-with-streamlined-interface-for-webmail) · 1 votes · _Thundermail, Improvement, Webmail_
-  > What you’d like to see The ability to switch between a Comfortable inbox view, with icons, more spacing between emails, and attachment previews, and a Compact view, with fewer visual elements,…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -262,11 +254,12 @@ Regards, [name]_
 - **pending**: 64
 - **hold**: 18
 - **open**: 13
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 484
-- **Thundermail**: 301
+- **Thundermail**: 302
 - **Send**: 19
 - **Appointment**: 9
 
@@ -330,75 +323,43 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Custom domain / DKIM / DNS — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#10364](https://tbpro.zendesk.com/agent/tickets/10364)** · custom domain — why: **concerned** · how: **explained**
-  > hello, i recently setup my custom domain on thundermail. i added all the dns records as directed (with cloudflare) and verified. i am able to send and receive email OK, however…
-- **[#10365](https://tbpro.zendesk.com/agent/tickets/10365)** · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent from Thundermail — why: **concerned**
-  > This is a follow-up to your previous request #8036 "Some recipients showing DKI..." Hi [name] and team. I am reviving this old thread solely to provide a followup / epilogue. I…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10384](https://tbpro.zendesk.com/agent/tickets/10384)** · Custom domain email — why: **confused** · how: **informed**
-  > I would like to move my custom domain to Thundermail, however, I am not sure how I would transfer my current messages to the service, and which account I would need to transfer…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10373](https://tbpro.zendesk.com/agent/tickets/10373)** · Send does not work in Firefox — why: **blocked** · how: **investigated**
-  > After selecting file, upload instantly finishes and file does not seem to get uploaded and neither shows up in the uploaded file list. I am using Firefox 158 on Gentoo Linux. The…
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#10399](https://tbpro.zendesk.com/agent/tickets/10399)** · cancellation — why: **change request** · how: **actioned**
-  > I cancelled this account on the Paddle account page within an hour of signing up because I realized it will not work for me. I have not received any confirmation that this account…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#10397](https://tbpro.zendesk.com/agent/tickets/10397)** · loginkode — why: **confused** · how: **explained**
-  > I have forgoten my loginkode
-
-### Pricing — payment issue — 1 tickets
-
-- **[#10372](https://tbpro.zendesk.com/agent/tickets/10372)** · Charged an International Transaction Fee — why: **confused**
-  > When I paid to join and receive a new [domain] email address, I was charged an international transaction fee by my bank. I don't normally get charged these for such payments to…
+- **[#10409](https://tbpro.zendesk.com/agent/tickets/10409)** · auth email going to defunct address
+  > Hi there I just signed up for the address [email] but it said there would be authorisation links sent to my email. It hasn't gone to my personal [email] so I assume it has gone to…
 
 ### Other / uncategorized — 1 tickets
 
-- **[#10369](https://tbpro.zendesk.com/agent/tickets/10369)** · einige Ordner wiederherstellen — why: **confused** · how: **explained**
-  > einige Ordner sollen wieder hergestellt werden
+- **[#10406](https://tbpro.zendesk.com/agent/tickets/10406)** · Tags
+  > can I get rid of this feature. It is a waste and unnecessary for me. It just clutters up my interface.
 
-### Aliases — 1 tickets
+### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#10368](https://tbpro.zendesk.com/agent/tickets/10368)** · POP3 transition from existing email account portfolio to JMAP — why: **blocked** · how: **investigated**
-  > I manage and have managed 3 POP3 domains (2 business, one personal) with a number of email accounts within each domain. How do I (is there a known pathway to) transition, say, the…
+- **[#10405](https://tbpro.zendesk.com/agent/tickets/10405)** · can't send attachments?  Photos.
+  > I can not send attachments? Photos. I was trying to email a support team (not you guys) pictures of a phone problem and my email would NOT let me attach pictures? They were NOT…
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10404](https://tbpro.zendesk.com/agent/tickets/10404)** · Request for Permanent Account Closure and Data Deletion
+  > Dear [name], I am writing to request the permanent closure of my ThunderMail account associated with my registered email address. Please permanently delete my account and remove…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10403](https://tbpro.zendesk.com/agent/tickets/10403)** · Thunderbird fails to find server for ThunderMail POP3 setup
+  > Hello! I set-up my paid ThunderMail account in ThunderBird successfully but incorrectly as IMAP. I need to set-up the account in POP3 and transfer the IMAP emails to it, as per…
 
 ## New tickets — last 24h
 
-- [10364](https://tbpro.zendesk.com/agent/tickets/10364) · [open] · 2026-10-22T20:08 · custom domain
-- [10365](https://tbpro.zendesk.com/agent/tickets/10365) · [pending] · 2026-10-22T20:33 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
-- [10368](https://tbpro.zendesk.com/agent/tickets/10368) · [pending] · 2026-10-23T00:15 · POP3 transition from existing email account portfolio to JMAP
-- [10369](https://tbpro.zendesk.com/agent/tickets/10369) · [pending] · 2026-10-23T01:56 · einige Ordner wiederherstellen
-- [10372](https://tbpro.zendesk.com/agent/tickets/10372) · [pending] · 2026-10-23T05:52 · Charged an International Transaction Fee
-- [10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23T06:05 · Send does not work in Firefox
-- [10384](https://tbpro.zendesk.com/agent/tickets/10384) · [open] · 2026-10-23T12:51 · Custom domain email
-- [10397](https://tbpro.zendesk.com/agent/tickets/10397) · [pending] · 2026-10-23T18:34 · loginkode
-- [10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · 2026-10-23T18:51 · cancellation
+- [10403](https://tbpro.zendesk.com/agent/tickets/10403) · [open] · 2026-10-23T21:51 · Thunderbird fails to find server for ThunderMail POP3 setup
+- [10404](https://tbpro.zendesk.com/agent/tickets/10404) · [open] · 2026-10-23T22:12 · Request for Permanent Account Closure and Data Deletion
+- [10405](https://tbpro.zendesk.com/agent/tickets/10405) · [open] · 2026-10-23T23:40 · can't send attachments?  Photos.
+- [10406](https://tbpro.zendesk.com/agent/tickets/10406) · [open] · 2026-10-23T23:44 · Tags
+- [10409](https://tbpro.zendesk.com/agent/tickets/10409) · [new] · 2026-10-24T04:11 · auth email going to defunct address
 
 ## Solved — last 24h
 
-- 👍 [10269](https://tbpro.zendesk.com/agent/tickets/10269) · 2026-10-22T22:06 · Access Denied
-- 👍 [10170](https://tbpro.zendesk.com/agent/tickets/10170) · 2026-10-22T22:06 · Compacting Error
-- 👍 [10268](https://tbpro.zendesk.com/agent/tickets/10268) · 2026-10-22T22:06 · Considering ending my Thundermail experiment
-- 👍 [10290](https://tbpro.zendesk.com/agent/tickets/10290) · 2026-10-22T22:06 · Fwd: Considering ending my Thundermail experiment
-- · [10293](https://tbpro.zendesk.com/agent/tickets/10293) · 2026-10-23T00:01 · Desistência de efetivar assinatura
-- · [10218](https://tbpro.zendesk.com/agent/tickets/10218) · 2026-10-23T13:50 · Sign in not available
-- · [10203](https://tbpro.zendesk.com/agent/tickets/10203) · 2026-10-23T14:01 · Calendar invites sent from [domain] instead of my custom domain address
-- · [10193](https://tbpro.zendesk.com/agent/tickets/10193) · 2026-10-23T14:16 · on page https://[domain]/subscribe, the page will not render, can you assist
-- · [10305](https://tbpro.zendesk.com/agent/tickets/10305) · 2026-10-23T16:41 · Quick Question About Thundrmail Address ...
-- · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-23T16:56 · E-Mail 
-- · [10032](https://tbpro.zendesk.com/agent/tickets/10032) · 2026-10-23T17:02 · Send files
-- · [10177](https://tbpro.zendesk.com/agent/tickets/10177) · 2026-10-23T19:09 · Per-alias display names
-- 👍 [9180](https://tbpro.zendesk.com/agent/tickets/9180) · 2026-10-23T19:14 · featured off-site messages
+- 👍 [10309](https://tbpro.zendesk.com/agent/tickets/10309) · 2026-10-23T20:28 · DKIM Ed25519 verification error
+- 👍 [10073](https://tbpro.zendesk.com/agent/tickets/10073) · 2026-10-23T20:34 · Thundermail in my browser
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
