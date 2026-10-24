@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 09:19 ET** · refreshes hourly_  
+_Updated: **2026-10-24 10:20 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 76** of rollout — **35,000 invitees**, **876 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **877 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **2** solved in last 24h
-- **876** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **11** new tickets in last 24h · **3** solved in last 24h
+- **877** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (186 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 123.3h · mean 129.6h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 123.3h · mean 129.3h (proxy: updated_at − created_at, 63 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -255,16 +255,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 711
-- **solved**: 64
+- **closed**: 712
+- **solved**: 63
 - **pending**: 63
 - **hold**: 18
 - **open**: 14
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 485
+- **Account Hub**: 486
 - **Thundermail**: 304
 - **Send**: 19
 - **Appointment**: 9
@@ -329,19 +329,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10422](https://tbpro.zendesk.com/agent/tickets/10422)** · Sende e-mails sind verschwunden
+  > Darstellung meiner gesendeten e-mails
+- **[#10417](https://tbpro.zendesk.com/agent/tickets/10417)** · verlorenes passwort
+  > passwort zurücksetzten
+- **[#10406](https://tbpro.zendesk.com/agent/tickets/10406)** · Tags
+  > can I get rid of this feature. It is a waste and unnecessary for me. It just clutters up my interface.
+
 ### Thunderbird for Android + Thundermail — 2 tickets
 
 - **[#10419](https://tbpro.zendesk.com/agent/tickets/10419)** · I have forgotten my password for my email 
   > Sen your anser as message to phone [phone]
 - **[#10405](https://tbpro.zendesk.com/agent/tickets/10405)** · can't send attachments?  Photos.
   > I can not send attachments? Photos. I was trying to email a support team (not you guys) pictures of a phone problem and my email would NOT let me attach pictures? They were NOT…
-
-### Other / uncategorized — 2 tickets
-
-- **[#10417](https://tbpro.zendesk.com/agent/tickets/10417)** · verlorenes passwort
-  > passwort zurücksetzten
-- **[#10406](https://tbpro.zendesk.com/agent/tickets/10406)** · Tags
-  > can I get rid of this feature. It is a waste and unnecessary for me. It just clutters up my interface.
 
 ### Account access issues — 2 tickets
 
@@ -382,11 +384,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10417](https://tbpro.zendesk.com/agent/tickets/10417) · [new] · 2026-10-24T10:38 · verlorenes passwort
 - [10418](https://tbpro.zendesk.com/agent/tickets/10418) · [new] · 2026-10-24T11:38 · Switching Email Providers to Thundermail for an Organization
 - [10419](https://tbpro.zendesk.com/agent/tickets/10419) · [new] · 2026-10-24T11:48 · I have forgotten my password for my email 
+- [10422](https://tbpro.zendesk.com/agent/tickets/10422) · [new] · 2026-10-24T13:40 · Sende e-mails sind verschwunden
 
 ## Solved — last 24h
 
 - 👍 [10309](https://tbpro.zendesk.com/agent/tickets/10309) · 2026-10-23T20:28 · DKIM Ed25519 verification error
 - 👍 [10073](https://tbpro.zendesk.com/agent/tickets/10073) · 2026-10-23T20:34 · Thundermail in my browser
+- · [10218](https://tbpro.zendesk.com/agent/tickets/10218) · 2026-10-24T14:02 · Sign in not available
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
