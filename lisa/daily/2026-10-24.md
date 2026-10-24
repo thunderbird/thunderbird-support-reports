@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 06:20 ET** · refreshes hourly_  
+_Updated: **2026-10-24 07:18 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 76** of rollout — **35,000 invitees**, **873 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 76** of rollout — **35,000 invitees**, **874 tickets** so far (2.5% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **2** solved in last 24h
-- **873** tickets total since launch · contact rate **2%** of 35000 invitees
+- **8** new tickets in last 24h · **2** solved in last 24h
+- **874** tickets total since launch · contact rate **2%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (186 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
@@ -254,7 +254,7 @@ _(none in last 24h)_
 - **pending**: 63
 - **hold**: 18
 - **open**: 14
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
@@ -323,6 +323,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#10417](https://tbpro.zendesk.com/agent/tickets/10417)** · verlorenes passwort
+  > passwort zurücksetzten
+- **[#10406](https://tbpro.zendesk.com/agent/tickets/10406)** · Tags
+  > can I get rid of this feature. It is a waste and unnecessary for me. It just clutters up my interface.
+
 ### Account access issues — 2 tickets
 
 - **[#10411](https://tbpro.zendesk.com/agent/tickets/10411)** · Email Verification Failing
@@ -334,11 +341,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10412](https://tbpro.zendesk.com/agent/tickets/10412)** · Add Additional Account
   > Hi, Is it possible to add an additional email account? I know it’s possible to create an allies, but I’d like to be able to have separate inboxes for work and personal email.…
-
-### Other / uncategorized — 1 tickets
-
-- **[#10406](https://tbpro.zendesk.com/agent/tickets/10406)** · Tags
-  > can I get rid of this feature. It is a waste and unnecessary for me. It just clutters up my interface.
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -364,6 +366,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10409](https://tbpro.zendesk.com/agent/tickets/10409) · [new] · 2026-10-24T04:11 · auth email going to defunct address
 - [10411](https://tbpro.zendesk.com/agent/tickets/10411) · [new] · 2026-10-24T04:59 · Email Verification Failing
 - [10412](https://tbpro.zendesk.com/agent/tickets/10412) · [new] · 2026-10-24T05:02 · Add Additional Account
+- [10417](https://tbpro.zendesk.com/agent/tickets/10417) · [new] · 2026-10-24T10:38 · verlorenes passwort
 
 ## Solved — last 24h
 
