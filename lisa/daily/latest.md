@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 16:20 ET** · refreshes hourly_  
+_Updated: **2026-10-24 17:19 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 76** of rollout — **35,000 invitees**, **889 tickets** so fa
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (187 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 123.2h · mean 140.2h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 123.2h · mean 143.4h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -117,7 +117,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9639](https://tbpro.zendesk.com/agent/tickets/9639) · [closed] · 2026-10-11 · _Refund_
   - [#9661](https://tbpro.zendesk.com/agent/tickets/9661) · [closed] · 2026-10-12 · _Please delete my Thunderbird Pro Account_
   - [#10023](https://tbpro.zendesk.com/agent/tickets/10023) · [closed] · 2026-10-14 · _Close account_
-  - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [solved] · 2026-10-14 · _Rétractation abonnement._
+  - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [closed] · 2026-10-14 · _Rétractation abonnement._
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [solved] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [solved] · 2026-10-15 · _Cancel my subscription_
   - [#10106](https://tbpro.zendesk.com/agent/tickets/10106) · [pending] · 2026-10-16 · _Urgent Attention : Amanda(Thundermail Support) - Multiple Emails_
@@ -256,9 +256,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 721
-- **pending**: 60
-- **solved**: 56
+- **closed**: 725
+- **pending**: 59
+- **solved**: 53
 - **new**: 19
 - **hold**: 18
 - **open**: 15
