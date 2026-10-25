@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-25
 
-_Updated: **2026-10-25 04:27 ET** · refreshes hourly_  
+_Updated: **2026-10-25 05:21 ET** · refreshes hourly_  
 _24h window: 2026-10-24T16:00 → 2026-10-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 77** of rollout — **35,000 invitees**, **895 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 77** of rollout — **35,000 invitees**, **896 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **12** solved in last 24h
-- **895** tickets total since launch · contact rate **3%** of 35000 invitees
+- **9** new tickets in last 24h · **12** solved in last 24h
+- **896** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
@@ -253,14 +253,14 @@ Regards, [name]_
 - **closed**: 729
 - **solved**: 58
 - **pending**: 50
-- **new**: 25
+- **new**: 26
 - **hold**: 18
 - **open**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 489
-- **Thundermail**: 314
+- **Thundermail**: 315
 - **Send**: 20
 - **Appointment**: 9
 
@@ -324,8 +324,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10456](https://tbpro.zendesk.com/agent/tickets/10456)** · Passord
+  > Trenger hjelp til å bekrefte riktig passord
 - **[#10448](https://tbpro.zendesk.com/agent/tickets/10448)** · Business Model
   > How will you differentiate Thundermail from the services offered through Proton?
 - **[#10446](https://tbpro.zendesk.com/agent/tickets/10446)** · keine Anmeldung
@@ -368,6 +370,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10451](https://tbpro.zendesk.com/agent/tickets/10451) · [new] · 2026-10-25T03:45 · account cancelation and refund request
 - [10452](https://tbpro.zendesk.com/agent/tickets/10452) · [new] · 2026-10-25T04:14 · Access to email on the mobile phone 
 - [10454](https://tbpro.zendesk.com/agent/tickets/10454) · [new] · 2026-10-25T07:34 · DNS Records Format for Custom Domains
+- [10456](https://tbpro.zendesk.com/agent/tickets/10456) · [new] · 2026-10-25T09:12 · Passord
 
 ## Solved — last 24h
 
