@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-25
 
-_Updated: **2026-10-25 13:18 ET** · refreshes hourly_  
+_Updated: **2026-10-25 14:24 ET** · refreshes hourly_  
 _24h window: 2026-10-24T16:00 → 2026-10-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 77** of rollout — **35,000 invitees**, **898 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **19** solved in last 24h
+- **11** new tickets in last 24h · **22** solved in last 24h
 - **898** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 126.0h · mean 149.3h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 128.2h · mean 150.5h (proxy: updated_at − created_at, 62 solved tickets)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -250,9 +250,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 734
-- **solved**: 60
-- **pending**: 42
+- **closed**: 735
+- **solved**: 62
+- **pending**: 39
 - **new**: 28
 - **hold**: 18
 - **open**: 16
@@ -402,6 +402,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10217](https://tbpro.zendesk.com/agent/tickets/10217) · 2026-10-25T17:01 · Re: [Thundermail] Re: Cancel Account
 - · [10212](https://tbpro.zendesk.com/agent/tickets/10212) · 2026-10-25T17:01 · How do I select: [domain]?
 - · [10210](https://tbpro.zendesk.com/agent/tickets/10210) · 2026-10-25T17:01 · cannot access my Thunderbird email "[email]"
+- · [10151](https://tbpro.zendesk.com/agent/tickets/10151) · 2026-10-25T18:01 · Boîte de réception unifié 
+- · [10138](https://tbpro.zendesk.com/agent/tickets/10138) · 2026-10-25T18:01 · the imap reception is blocked for 3 weeks, not the expedition
+- · [10116](https://tbpro.zendesk.com/agent/tickets/10116) · 2026-10-25T18:01 · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
