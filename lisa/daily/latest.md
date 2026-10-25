@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-25
 
-_Updated: **2026-10-25 05:21 ET** · refreshes hourly_  
+_Updated: **2026-10-25 06:20 ET** · refreshes hourly_  
 _24h window: 2026-10-24T16:00 → 2026-10-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 77** of rollout — **35,000 invitees**, **896 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 77** of rollout — **35,000 invitees**, **897 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **12** solved in last 24h
-- **896** tickets total since launch · contact rate **3%** of 35000 invitees
+- **10** new tickets in last 24h · **12** solved in last 24h
+- **897** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
@@ -253,14 +253,14 @@ Regards, [name]_
 - **closed**: 729
 - **solved**: 58
 - **pending**: 50
-- **new**: 26
+- **new**: 27
 - **hold**: 18
 - **open**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 489
-- **Thundermail**: 315
+- **Thundermail**: 316
 - **Send**: 20
 - **Appointment**: 9
 
@@ -335,6 +335,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10442](https://tbpro.zendesk.com/agent/tickets/10442)** · Thunderbird mail
   > You kindly sent email on my iPhone saying Thundebird mail had been added to my iPhone and open. However it keeps coming up crashed. Please advice Regards, [name]
 
+### Webmail — 1 tickets
+
+- **[#10457](https://tbpro.zendesk.com/agent/tickets/10457)** · Cannot create Thundermail account in Thunderbird 115.18.0
+  > I tried to set up a Thundermail account in Thunderbird (version 115.18.0, under Windows 7), but despite entering the correct settings, it reported "Unable to login at server.…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#10454](https://tbpro.zendesk.com/agent/tickets/10454)** · DNS Records Format for Custom Domains
@@ -371,6 +376,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10452](https://tbpro.zendesk.com/agent/tickets/10452) · [new] · 2026-10-25T04:14 · Access to email on the mobile phone 
 - [10454](https://tbpro.zendesk.com/agent/tickets/10454) · [new] · 2026-10-25T07:34 · DNS Records Format for Custom Domains
 - [10456](https://tbpro.zendesk.com/agent/tickets/10456) · [new] · 2026-10-25T09:12 · Passord
+- [10457](https://tbpro.zendesk.com/agent/tickets/10457) · [new] · 2026-10-25T09:52 · Cannot create Thundermail account in Thunderbird 115.18.0
 
 ## Solved — last 24h
 
