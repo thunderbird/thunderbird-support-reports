@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-25
 
-_Updated: **2026-10-25 14:24 ET** · refreshes hourly_  
+_Updated: **2026-10-25 15:16 ET** · refreshes hourly_  
 _24h window: 2026-10-24T16:00 → 2026-10-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 77** of rollout — **35,000 invitees**, **898 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 77** of rollout — **35,000 invitees**, **899 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **22** solved in last 24h
-- **898** tickets total since launch · contact rate **3%** of 35000 invitees
+- **12** new tickets in last 24h · **25** solved in last 24h
+- **899** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 128.2h · mean 150.5h (proxy: updated_at − created_at, 62 solved tickets)
+- **Median AHT**: 129.2h · mean 148.4h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -250,10 +250,10 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 735
-- **solved**: 62
-- **pending**: 39
-- **new**: 28
+- **closed**: 736
+- **solved**: 64
+- **pending**: 36
+- **new**: 29
 - **hold**: 18
 - **open**: 16
 
@@ -324,8 +324,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 6 tickets
 
+- **[#10471](https://tbpro.zendesk.com/agent/tickets/10471)** · ?
+  > sorry,but it,s not working,i didn,t know why??? eine antwort auf deutsch wäre sehr,sehr hilfreich,danke !!!
 - **[#10463](https://tbpro.zendesk.com/agent/tickets/10463)** · Email Printing Problem
   > I am unable to print a usable printout from my recent Telstra email.
 - **[#10456](https://tbpro.zendesk.com/agent/tickets/10456)** · Passord
@@ -380,6 +382,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10456](https://tbpro.zendesk.com/agent/tickets/10456) · [new] · 2026-10-25T09:12 · Passord
 - [10457](https://tbpro.zendesk.com/agent/tickets/10457) · [new] · 2026-10-25T09:52 · Cannot create Thundermail account in Thunderbird 115.18.0
 - [10463](https://tbpro.zendesk.com/agent/tickets/10463) · [new] · 2026-10-25T16:41 · Email Printing Problem
+- [10471](https://tbpro.zendesk.com/agent/tickets/10471) · [new] · 2026-10-25T18:24 · ?
 
 ## Solved — last 24h
 
@@ -405,6 +408,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10151](https://tbpro.zendesk.com/agent/tickets/10151) · 2026-10-25T18:01 · Boîte de réception unifié 
 - · [10138](https://tbpro.zendesk.com/agent/tickets/10138) · 2026-10-25T18:01 · the imap reception is blocked for 3 weeks, not the expedition
 - · [10116](https://tbpro.zendesk.com/agent/tickets/10116) · 2026-10-25T18:01 · アプリを自動更新したのち、以前に使用していたパスワードが使用できないのは何故なのか、パスワードを変更しなければならない理由がわからない
+- · [10194](https://tbpro.zendesk.com/agent/tickets/10194) · 2026-10-25T19:02 · Price
+- · [10168](https://tbpro.zendesk.com/agent/tickets/10168) · 2026-10-25T19:02 · Monthly Plan?
+- · [10150](https://tbpro.zendesk.com/agent/tickets/10150) · 2026-10-25T19:02 · Anwendungsspezifisches PW fNach der Änderung des bisherigen Passworts für den Posteingangsserver kam
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
