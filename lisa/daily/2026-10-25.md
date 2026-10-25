@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-25
 
-_Updated: **2026-10-25 10:20 ET** · refreshes hourly_  
+_Updated: **2026-10-25 11:19 ET** · refreshes hourly_  
 _24h window: 2026-10-24T16:00 → 2026-10-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 77** of rollout — **35,000 invitees**, **897 tickets** so fa
 
 ## At a glance
 
-- **10** new tickets in last 24h · **13** solved in last 24h
+- **10** new tickets in last 24h · **15** solved in last 24h
 - **897** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 123.7h · mean 147.1h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 128.2h · mean 148.5h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -250,9 +250,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 730
+- **closed**: 732
 - **solved**: 58
-- **pending**: 48
+- **pending**: 46
 - **new**: 27
 - **hold**: 18
 - **open**: 16
@@ -393,6 +393,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10176](https://tbpro.zendesk.com/agent/tickets/10176) · 2026-10-25T04:01 · Refund
 - · [10153](https://tbpro.zendesk.com/agent/tickets/10153) · 2026-10-25T05:01 · Anmeldung
 - · [10065](https://tbpro.zendesk.com/agent/tickets/10065) · 2026-10-25T14:01 · Please cancel so i can change my thundermail email address
+- · [10182](https://tbpro.zendesk.com/agent/tickets/10182) · 2026-10-25T15:02 · I have forgotten if I have an email adress on Thunderbirds or thundermail
+- · [10147](https://tbpro.zendesk.com/agent/tickets/10147) · 2026-10-25T15:02 · Old Email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
