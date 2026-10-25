@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-25
 
-_Updated: **2026-10-25 12:22 ET** · refreshes hourly_  
+_Updated: **2026-10-25 13:18 ET** · refreshes hourly_  
 _24h window: 2026-10-24T16:00 → 2026-10-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 77** of rollout — **35,000 invitees**, **897 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 77** of rollout — **35,000 invitees**, **898 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **16** solved in last 24h
-- **897** tickets total since launch · contact rate **3%** of 35000 invitees
+- **11** new tickets in last 24h · **19** solved in last 24h
+- **898** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 128.5h · mean 150.7h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 126.0h · mean 149.3h (proxy: updated_at − created_at, 60 solved tickets)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -251,16 +251,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 734
-- **solved**: 57
-- **pending**: 45
-- **new**: 27
+- **solved**: 60
+- **pending**: 42
+- **new**: 28
 - **hold**: 18
 - **open**: 16
 
 ## Service (cumulative)
 
 - **Account Hub**: 489
-- **Thundermail**: 316
+- **Thundermail**: 317
 - **Send**: 20
 - **Appointment**: 9
 
@@ -324,8 +324,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#10463](https://tbpro.zendesk.com/agent/tickets/10463)** · Email Printing Problem
+  > I am unable to print a usable printout from my recent Telstra email.
 - **[#10456](https://tbpro.zendesk.com/agent/tickets/10456)** · Passord
   > Trenger hjelp til å bekrefte riktig passord
 - **[#10448](https://tbpro.zendesk.com/agent/tickets/10448)** · Business Model
@@ -377,6 +379,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10454](https://tbpro.zendesk.com/agent/tickets/10454) · [new] · 2026-10-25T07:34 · DNS Records Format for Custom Domains
 - [10456](https://tbpro.zendesk.com/agent/tickets/10456) · [new] · 2026-10-25T09:12 · Passord
 - [10457](https://tbpro.zendesk.com/agent/tickets/10457) · [new] · 2026-10-25T09:52 · Cannot create Thundermail account in Thunderbird 115.18.0
+- [10463](https://tbpro.zendesk.com/agent/tickets/10463) · [new] · 2026-10-25T16:41 · Email Printing Problem
 
 ## Solved — last 24h
 
@@ -396,6 +399,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10182](https://tbpro.zendesk.com/agent/tickets/10182) · 2026-10-25T15:02 · I have forgotten if I have an email adress on Thunderbirds or thundermail
 - · [10147](https://tbpro.zendesk.com/agent/tickets/10147) · 2026-10-25T15:02 · Old Email
 - · [9998](https://tbpro.zendesk.com/agent/tickets/9998) · 2026-10-25T16:01 · couldn't add an alias
+- · [10217](https://tbpro.zendesk.com/agent/tickets/10217) · 2026-10-25T17:01 · Re: [Thundermail] Re: Cancel Account
+- · [10212](https://tbpro.zendesk.com/agent/tickets/10212) · 2026-10-25T17:01 · How do I select: [domain]?
+- · [10210](https://tbpro.zendesk.com/agent/tickets/10210) · 2026-10-25T17:01 · cannot access my Thunderbird email "[email]"
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
