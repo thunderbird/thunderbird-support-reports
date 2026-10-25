@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-24
 
-_Updated: **2026-10-24 20:57 ET** · refreshes hourly_  
+_Updated: **2026-10-24 21:33 ET** · refreshes hourly_  
 _24h window: 2026-10-23T16:00 → 2026-10-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,16 +11,16 @@ Flight 8 is **day 76** of rollout — **35,000 invitees**, **892 tickets** so fa
 
 - **21** new tickets in last 24h · **8** solved in last 24h
 - **892** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 126.0h · mean 148.0h (proxy: updated_at − created_at, 54 solved tickets)
+- **Median AHT**: 123.7h · mean 145.8h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"dear team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
+- **"team writing"** — 2 tickets in 24h (75.0× baseline; baseline 2 cum) — [#10404](https://tbpro.zendesk.com/agent/tickets/10404), [#10418](https://tbpro.zendesk.com/agent/tickets/10418)
 - **"custom domains"** — 2 tickets in 24h (3.3× baseline; baseline 46 cum) — [#10436](https://tbpro.zendesk.com/agent/tickets/10436), [#10441](https://tbpro.zendesk.com/agent/tickets/10441)
 
 ## Known problems — 13 problem(s), 107 incident(s)
@@ -257,11 +257,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 729
-- **solved**: 54
+- **solved**: 56
 - **pending**: 53
 - **new**: 22
 - **hold**: 18
-- **open**: 16
+- **open**: 14
 
 ## Service (cumulative)
 
