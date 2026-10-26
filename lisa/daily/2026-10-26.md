@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 07:27 ET** · refreshes hourly_  
+_Updated: **2026-10-26 09:57 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 78** of rollout — **35,000 invitees**, **903 tickets** so fa
 
 ## At a glance
 
-- **4** new tickets in last 24h · **1** solved in last 24h
+- **4** new tickets in last 24h · **3** solved in last 24h
 - **903** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 130.0h · mean 149.7h (proxy: updated_at − created_at, 62 solved tickets)
+- **Median AHT**: 129.2h · mean 149.4h (proxy: updated_at − created_at, 62 solved tickets)
 
 ## Known problems — 13 problem(s), 107 incident(s)
 
@@ -117,7 +117,7 @@ Flight 8 is **day 78** of rollout — **35,000 invitees**, **903 tickets** so fa
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [solved] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [solved] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [solved] · 2026-10-20 · _Refund_
-  - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [pending] · 2026-10-20 · _Monthly plans _
+  - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [solved] · 2026-10-20 · _Monthly plans _
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [pending] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · 2026-10-23 · _cancellation_
 
@@ -237,10 +237,9 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [10478](https://tbpro.zendesk.com/agent/tickets/10478) · [new] · _Cancel account closure request_
-  > I’d like to cancel my request to close my account. Please keep my account active. Thank you, [name]
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -250,11 +249,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 739
+- **closed**: 741
 - **solved**: 62
-- **pending**: 35
-- **open**: 27
-- **new**: 22
+- **pending**: 34
+- **open**: 29
+- **new**: 19
 - **hold**: 18
 
 ## Service (cumulative)
@@ -331,26 +330,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation
   > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird
+  > Hi, I've noticed a sync issue between Thundermail and Thunderbird. The Sent folder shows twice the actual number of messages (2 instead of 1). When I click on the folder,…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails
   > Passwort funktioniert nicht
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10478](https://tbpro.zendesk.com/agent/tickets/10478)** · Cancel account closure request
-  > I’d like to cancel my request to close my account. Please keep my account active. Thank you, [name]
-
 ## New tickets — last 24h
 
 - [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [new] · 2026-10-26T01:05 · invitation
 - [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [new] · 2026-10-26T09:18 · Beta invitation
-- [10478](https://tbpro.zendesk.com/agent/tickets/10478) · [new] · 2026-10-26T11:01 · Cancel account closure request
 - [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [new] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
+- [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [new] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
 
 ## Solved — last 24h
 
 - · [10132](https://tbpro.zendesk.com/agent/tickets/10132) · 2026-10-25T20:01 · email alias connected to imported domain is NOT receiving email
+- · [10183](https://tbpro.zendesk.com/agent/tickets/10183) · 2026-10-26T13:01 · Monthly plans 
+- · [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-26T13:48 · Custom domain setting issue
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
