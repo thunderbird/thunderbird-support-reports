@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 18:23 ET** · refreshes hourly_  
+_Updated: **2026-10-26 19:19 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 78** of rollout — **35,000 invitees**, **910 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 78** of rollout — **35,000 invitees**, **911 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **15** solved in last 24h
-- **910** tickets total since launch · contact rate **3%** of 35000 invitees
+- **911** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 133.2h · mean 157.3h (proxy: updated_at − created_at, 62 solved tickets)
+- **Median AHT**: 135.1h · mean 158.9h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"used sign"** — 2 tickets in 24h (new; baseline 0 cum) — [#10475](https://tbpro.zendesk.com/agent/tickets/10475), [#10486](https://tbpro.zendesk.com/agent/tickets/10486)
 
-## Known problems — 13 problem(s), 108 incident(s)
+## Known problems — 14 problem(s), 109 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -120,7 +120,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [closed] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [closed] · 2026-10-15 · _Cancel my subscription_
   - [#10106](https://tbpro.zendesk.com/agent/tickets/10106) · [pending] · 2026-10-16 · _Urgent Attention : Amanda(Thundermail Support) - Multiple Emails_
-  - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [solved] · 2026-10-16 · _Refund_
+  - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [closed] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [solved] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [solved] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [solved] · 2026-10-20 · _Monthly plans _
@@ -180,6 +180,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - ✅ GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 1 incident(s):
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
+
+### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
+- 1 incident(s):
+  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [hold] · 2026-10-13 · _Re: [Thundermail] Re: Send_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -257,24 +261,24 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 757
-- **solved**: 62
-- **pending**: 51
-- **open**: 21
-- **hold**: 19
+- **closed**: 761
+- **solved**: 58
+- **pending**: 50
+- **open**: 22
+- **hold**: 20
 
 ## Service (cumulative)
 
 - **Account Hub**: 506
 - **Thundermail**: 317
-- **Send**: 19
+- **Send**: 20
 - **Appointment**: 10
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 175
+- **curious** + **explained**: 176
 - **change request** + **actioned**: 122
 - **blocked** + **explained**: 110
 - **confused** + **explained**: 81
@@ -291,8 +295,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **—**: 8
 - **blocked** + **—**: 8
 - **request** + **explained**: 7
-- **concerned** + **investigated**: 7
 - **telling us** + **explained**: 6
+- **concerned** + **investigated**: 6
 - **confused** + **investigated**: 6
 - **curious** + **actioned**: 5
 - **blocked** + **actioned**: 5
@@ -305,6 +309,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 3
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
+- **curious** + **investigated**: 3
 - **change request** + **informed**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
@@ -312,7 +317,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **n/a**: 2
 - **change request** + **investigated**: 2
 - **other** + **—**: 2
-- **curious** + **investigated**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
@@ -360,9 +364,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10488](https://tbpro.zendesk.com/agent/tickets/10488)** · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
   > advice
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Email sending / receiving / SMTP / IMAP — 1 tickets
 
-- **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird — why: **concerned** · how: **investigated**
+- **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird — why: **curious** · how: **investigated**
   > Hi, I've noticed a sync issue between Thundermail and Thunderbird. The Sent folder shows twice the actual number of messages (2 instead of 1). When I click on the folder,…
 
 ### Account access issues — Account Hub trouble — 1 tickets
