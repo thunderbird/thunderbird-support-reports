@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 17:22 ET** · refreshes hourly_  
+_Updated: **2026-10-26 18:23 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 78** of rollout — **35,000 invitees**, **909 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 78** of rollout — **35,000 invitees**, **910 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **15** solved in last 24h
-- **909** tickets total since launch · contact rate **3%** of 35000 invitees
+- **910** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 131.5h · mean 149.6h (proxy: updated_at − created_at, 65 solved tickets)
+- **Median AHT**: 133.2h · mean 157.3h (proxy: updated_at − created_at, 62 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -257,16 +257,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 752
-- **solved**: 65
-- **pending**: 50
-- **open**: 23
+- **closed**: 757
+- **solved**: 62
+- **pending**: 51
+- **open**: 21
 - **hold**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 503
-- **Thundermail**: 318
+- **Account Hub**: 506
+- **Thundermail**: 317
 - **Send**: 19
 - **Appointment**: 10
 
@@ -274,7 +274,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 172
+- **curious** + **explained**: 175
 - **change request** + **actioned**: 122
 - **blocked** + **explained**: 110
 - **confused** + **explained**: 81
@@ -316,6 +316,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
+- **confused** + **redirected**: 2
 - **concerned** + **n/a**: 2
 - **telling us** + **informed**: 1
 - **request** + **escalated**: 1
@@ -325,21 +326,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **investigated**: 1
 - **request** + **n/a**: 1
 - **blocked** + **n/a**: 1
-- **confused** + **redirected**: 1
 - **telling us** + **investigated**: 1
 - **request** + **actioned**: 1
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 4 tickets
+### Early bird / invite / waitlist — 2 tickets
 
 - **[#10487](https://tbpro.zendesk.com/agent/tickets/10487)** · Caldav error
   > Hi, I have a problem trying to sync my Android calendar app "OneCalendar"with the Thunderbird Appointment calendar in my Thunderbird early bird account. I don't know if this is an…
 - **[#10486](https://tbpro.zendesk.com/agent/tickets/10486)** · Lost Invite
   > Is it possible you could re-send my invite code? Not sure how I managed to delete it, but I can't find it anywhere. The email I used to sign up to the waitlist is [email].
-- **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation
+
+### Early bird signup — 2 tickets
+
+- **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation — why: **curious** · how: **explained**
   > Good day I got a beta invitation and in the mail i wad yold to use [email] as a recovery mail. It does not work and i can not activate the account. Is it because there is no free…
-- **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation
+- **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation — why: **curious** · how: **explained**
   > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
 
 ### Send (file sharing) — 1 tickets
@@ -369,8 +372,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [open] · 2026-10-26T01:05 · invitation
-- [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [open] · 2026-10-26T09:18 · Beta invitation
+- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [pending] · 2026-10-26T01:05 · invitation
+- [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [pending] · 2026-10-26T09:18 · Beta invitation
 - [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [pending] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
 - [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [open] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
 - [10486](https://tbpro.zendesk.com/agent/tickets/10486) · [open] · 2026-10-26T15:31 · Lost Invite
