@@ -1,22 +1,28 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 11:08 ET** · refreshes hourly_  
+_Updated: **2026-10-26 12:27 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 78** of rollout — **35,000 invitees**, **903 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 78** of rollout — **35,000 invitees**, **905 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **903** tickets total since launch · contact rate **3%** of 35000 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **905** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 131.5h · mean 154.5h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 132.0h · mean 153.4h (proxy: updated_at − created_at, 58 solved tickets)
 
-## Known problems — 13 problem(s), 107 incident(s)
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"used sign"** — 2 tickets in 24h (new; baseline 0 cum) — [#10475](https://tbpro.zendesk.com/agent/tickets/10475), [#10486](https://tbpro.zendesk.com/agent/tickets/10486)
+
+## Known problems — 13 problem(s), 108 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +38,7 @@ Flight 8 is **day 78** of rollout — **35,000 invitees**, **903 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 87 incident(s):
+- 88 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -120,6 +126,7 @@ Flight 8 is **day 78** of rollout — **35,000 invitees**, **903 tickets** so fa
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [solved] · 2026-10-20 · _Monthly plans _
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [pending] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · 2026-10-23 · _cancellation_
+  - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [pending] · 2026-10-25 · _account cancelation and refund request_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -249,26 +256,26 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 746
-- **solved**: 57
-- **pending**: 34
-- **open**: 31
-- **new**: 18
+- **closed**: 747
+- **solved**: 58
+- **pending**: 36
+- **open**: 35
 - **hold**: 17
+- **new**: 12
 
 ## Service (cumulative)
 
-- **Account Hub**: 490
-- **Thundermail**: 319
+- **Account Hub**: 492
+- **Thundermail**: 318
 - **Send**: 20
-- **Appointment**: 9
+- **Appointment**: 10
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 168
-- **change request** + **actioned**: 119
+- **change request** + **actioned**: 121
 - **blocked** + **explained**: 108
 - **confused** + **explained**: 76
 - **curious** + **informed**: 45
@@ -323,8 +330,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Early bird / invite / waitlist — 4 tickets
 
+- **[#10487](https://tbpro.zendesk.com/agent/tickets/10487)** · Caldav error
+  > Hi, I have a problem trying to sync my Android calendar app "OneCalendar"with the Thunderbird Appointment calendar in my Thunderbird early bird account. I don't know if this is an…
+- **[#10486](https://tbpro.zendesk.com/agent/tickets/10486)** · Lost Invite
+  > Is it possible you could re-send my invite code? Not sure how I managed to delete it, but I can't find it anywhere. The email I used to sign up to the waitlist is [email].
 - **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation
   > Good day I got a beta invitation and in the mail i wad yold to use [email] as a recovery mail. It does not work and i can not activate the account. Is it because there is no free…
 - **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation
@@ -342,16 +353,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [new] · 2026-10-26T01:05 · invitation
-- [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [new] · 2026-10-26T09:18 · Beta invitation
+- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [open] · 2026-10-26T01:05 · invitation
+- [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [open] · 2026-10-26T09:18 · Beta invitation
 - [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [new] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
 - [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [new] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
+- [10486](https://tbpro.zendesk.com/agent/tickets/10486) · [open] · 2026-10-26T15:31 · Lost Invite
+- [10487](https://tbpro.zendesk.com/agent/tickets/10487) · [new] · 2026-10-26T15:48 · Caldav error
 
 ## Solved — last 24h
 
 - · [10132](https://tbpro.zendesk.com/agent/tickets/10132) · 2026-10-25T20:01 · email alias connected to imported domain is NOT receiving email
 - · [10183](https://tbpro.zendesk.com/agent/tickets/10183) · 2026-10-26T13:01 · Monthly plans 
 - · [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-26T13:48 · Custom domain setting issue
+- · [10384](https://tbpro.zendesk.com/agent/tickets/10384) · 2026-10-26T15:19 · Custom domain email
+- · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-26T16:02 · Cannot sign in 
+- · [10186](https://tbpro.zendesk.com/agent/tickets/10186) · 2026-10-26T16:02 · Account recovery
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
