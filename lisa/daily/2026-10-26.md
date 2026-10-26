@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 14:35 ET** · refreshes hourly_  
+_Updated: **2026-10-26 15:21 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 78** of rollout — **35,000 invitees**, **909 tickets** so fa
 
 ## At a glance
 
-- **9** new tickets in last 24h · **12** solved in last 24h
+- **9** new tickets in last 24h · **15** solved in last 24h
 - **909** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 130.7h · mean 152.5h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 130.0h · mean 149.7h (proxy: updated_at − created_at, 63 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -258,11 +258,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 752
-- **solved**: 60
-- **pending**: 37
-- **open**: 33
-- **hold**: 17
-- **new**: 10
+- **solved**: 63
+- **pending**: 38
+- **open**: 32
+- **hold**: 18
+- **new**: 6
 
 ## Service (cumulative)
 
@@ -280,10 +280,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 109
 - **confused** + **explained**: 76
 - **curious** + **informed**: 46
-- **blocked** + **investigated**: 41
+- **blocked** + **investigated**: 42
 - **blocked** + **redirected**: 40
 - **request** + **redirected**: 39
-- **confused** + **informed**: 35
+- **confused** + **informed**: 36
 - **concerned** + **explained**: 30
 - **blocked** + **informed**: 19
 - **blocked** + **escalated**: 15
@@ -306,6 +306,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 3
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
+- **change request** + **informed**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **concerned** + **informed**: 2
@@ -315,7 +316,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
-- **change request** + **informed**: 2
 - **concerned** + **n/a**: 2
 - **telling us** + **informed**: 1
 - **request** + **escalated**: 1
@@ -373,7 +373,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10486](https://tbpro.zendesk.com/agent/tickets/10486) · [open] · 2026-10-26T15:31 · Lost Invite
 - [10487](https://tbpro.zendesk.com/agent/tickets/10487) · [open] · 2026-10-26T15:48 · Caldav error
 - [10488](https://tbpro.zendesk.com/agent/tickets/10488) · [new] · 2026-10-26T16:28 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
-- [10489](https://tbpro.zendesk.com/agent/tickets/10489) · [pending] · 2026-10-26T17:21 · Changing Primary Email Address
+- [10489](https://tbpro.zendesk.com/agent/tickets/10489) · [open] · 2026-10-26T17:21 · Changing Primary Email Address
 - [10491](https://tbpro.zendesk.com/agent/tickets/10491) · [open] · 2026-10-26T17:41 · Bug report on Send file upload
 
 ## Solved — last 24h
@@ -390,6 +390,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10237](https://tbpro.zendesk.com/agent/tickets/10237) · 2026-10-26T17:02 · Add more 3 custum domain
 - · [10425](https://tbpro.zendesk.com/agent/tickets/10425) · 2026-10-26T17:41 · Domain setup with Namecheap
 - · [10248](https://tbpro.zendesk.com/agent/tickets/10248) · 2026-10-26T18:02 · Passwort
+- · [10445](https://tbpro.zendesk.com/agent/tickets/10445) · 2026-10-26T18:47 · Plume Mail & Thundermail
+- · [10216](https://tbpro.zendesk.com/agent/tickets/10216) · 2026-10-26T19:02 · Subsciption for family .
+- · [10372](https://tbpro.zendesk.com/agent/tickets/10372) · 2026-10-26T19:09 · Charged an International Transaction Fee
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
