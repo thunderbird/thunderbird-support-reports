@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 12:27 ET** · refreshes hourly_  
+_Updated: **2026-10-26 13:22 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 78** of rollout — **35,000 invitees**, **905 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 78** of rollout — **35,000 invitees**, **908 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
-- **905** tickets total since launch · contact rate **3%** of 35000 invitees
+- **8** new tickets in last 24h · **11** solved in last 24h
+- **908** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
-- **Median AHT**: 132.0h · mean 153.4h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 131.5h · mean 156.0h (proxy: updated_at − created_at, 61 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -177,12 +177,13 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#10111](https://tbpro.zendesk.com/agent/tickets/10111) · [hold] · [stormbox/64] Mark or hide IMAP marked-as-deleted messages
 - 🔧 GitHub: [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64) · _Mark or hide IMAP marked-as-deleted messages_
-- 🔧 GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
+- ✅ GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 1 incident(s):
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
 
-## Other tickets linked to GitHub — 9 ticket(s) → 10 issue(s)
+## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
+- 🔧 [zd #10078](https://tbpro.zendesk.com/agent/tickets/10078) → [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
 - 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
@@ -256,17 +257,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 747
-- **solved**: 58
-- **pending**: 36
-- **open**: 35
+- **closed**: 749
+- **solved**: 61
+- **open**: 36
+- **pending**: 31
 - **hold**: 17
-- **new**: 12
+- **new**: 14
 
 ## Service (cumulative)
 
-- **Account Hub**: 492
-- **Thundermail**: 318
+- **Account Hub**: 493
+- **Thundermail**: 320
 - **Send**: 20
 - **Appointment**: 10
 
@@ -301,6 +302,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **n/a**: 3
 - **change request** + **escalated**: 3
 - **other** + **escalated**: 3
+- **concerned** + **redirected**: 3
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **telling us** + **n/a**: 3
@@ -309,7 +311,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **informed**: 2
 - **change request** + **investigated**: 2
 - **other** + **—**: 2
-- **concerned** + **redirected**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
@@ -341,15 +342,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation
   > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
 
+### Other / uncategorized — 3 tickets
+
+- **[#10489](https://tbpro.zendesk.com/agent/tickets/10489)** · Changing Primary Email Address
+  > Hello, is there a way we can change our primary email address within Thundermail?
+- **[#10488](https://tbpro.zendesk.com/agent/tickets/10488)** · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
+  > advice
+- **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails
+  > Passwort funktioniert nicht
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird
   > Hi, I've noticed a sync issue between Thundermail and Thunderbird. The Sent folder shows twice the actual number of messages (2 instead of 1). When I click on the folder,…
-
-### Other / uncategorized — 1 tickets
-
-- **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails
-  > Passwort funktioniert nicht
 
 ## New tickets — last 24h
 
@@ -359,6 +364,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [new] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
 - [10486](https://tbpro.zendesk.com/agent/tickets/10486) · [open] · 2026-10-26T15:31 · Lost Invite
 - [10487](https://tbpro.zendesk.com/agent/tickets/10487) · [new] · 2026-10-26T15:48 · Caldav error
+- [10488](https://tbpro.zendesk.com/agent/tickets/10488) · [new] · 2026-10-26T16:28 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
+- [10489](https://tbpro.zendesk.com/agent/tickets/10489) · [new] · 2026-10-26T17:21 · Changing Primary Email Address
 
 ## Solved — last 24h
 
@@ -368,6 +375,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10384](https://tbpro.zendesk.com/agent/tickets/10384) · 2026-10-26T15:19 · Custom domain email
 - · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-26T16:02 · Cannot sign in 
 - · [10186](https://tbpro.zendesk.com/agent/tickets/10186) · 2026-10-26T16:02 · Account recovery
+- · [10078](https://tbpro.zendesk.com/agent/tickets/10078) · 2026-10-26T16:30 · Firefox Relay Emails Consistently Being Sent to Junk in Thundermail
+- · [10261](https://tbpro.zendesk.com/agent/tickets/10261) · 2026-10-26T17:02 · kennwortänderung
+- · [10260](https://tbpro.zendesk.com/agent/tickets/10260) · 2026-10-26T17:02 · Forgot User Name and Password
+- · [10250](https://tbpro.zendesk.com/agent/tickets/10250) · 2026-10-26T17:02 · Hetero
+- · [10237](https://tbpro.zendesk.com/agent/tickets/10237) · 2026-10-26T17:02 · Add more 3 custum domain
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
