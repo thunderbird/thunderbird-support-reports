@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 04:38 ET** · refreshes hourly_  
+_Updated: **2026-10-26 05:35 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 78** of rollout — **35,000 invitees**, **900 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
+Flight 8 is **day 78** of rollout — **35,000 invitees**, **901 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **13 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **1** solved in last 24h
-- **900** tickets total since launch · contact rate **3%** of 35000 invitees
+- **2** new tickets in last 24h · **1** solved in last 24h
+- **901** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
@@ -253,13 +253,13 @@ _(none in last 24h)_
 - **solved**: 62
 - **pending**: 35
 - **open**: 27
-- **new**: 19
+- **new**: 20
 - **hold**: 18
 
 ## Service (cumulative)
 
 - **Account Hub**: 490
-- **Thundermail**: 317
+- **Thundermail**: 318
 - **Send**: 20
 - **Appointment**: 9
 
@@ -323,14 +323,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 1 tickets
+### Early bird / invite / waitlist — 2 tickets
 
+- **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation
+  > Good day I got a beta invitation and in the mail i wad yold to use [email] as a recovery mail. It does not work and i can not activate the account. Is it because there is no free…
 - **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation
   > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
 
 ## New tickets — last 24h
 
 - [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [new] · 2026-10-26T01:05 · invitation
+- [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [new] · 2026-10-26T09:18 · Beta invitation
 
 ## Solved — last 24h
 
