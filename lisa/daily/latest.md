@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 15:21 ET** · refreshes hourly_  
+_Updated: **2026-10-26 16:24 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -259,27 +259,26 @@ _(none in last 24h)_
 
 - **closed**: 752
 - **solved**: 63
-- **pending**: 38
-- **open**: 32
+- **pending**: 47
+- **open**: 29
 - **hold**: 18
-- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 493
-- **Thundermail**: 323
-- **Send**: 20
+- **Account Hub**: 501
+- **Thundermail**: 318
+- **Send**: 19
 - **Appointment**: 10
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 168
+- **curious** + **explained**: 170
 - **change request** + **actioned**: 122
 - **blocked** + **explained**: 109
-- **confused** + **explained**: 76
-- **curious** + **informed**: 46
+- **confused** + **explained**: 80
+- **curious** + **informed**: 47
 - **blocked** + **investigated**: 42
 - **blocked** + **redirected**: 40
 - **request** + **redirected**: 39
@@ -296,7 +295,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **explained**: 6
 - **confused** + **investigated**: 6
 - **curious** + **actioned**: 5
-- **blocked** + **actioned**: 4
+- **blocked** + **actioned**: 5
 - **curious** + **—**: 4
 - **telling us** + **n/a**: 4
 - **curious** + **escalated**: 3
@@ -313,6 +312,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **n/a**: 2
 - **change request** + **investigated**: 2
 - **other** + **—**: 2
+- **curious** + **investigated**: 2
 - **telling us** + **—**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
@@ -321,9 +321,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **escalated**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
-- **curious** + **investigated**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
+- **request** + **n/a**: 1
 - **blocked** + **n/a**: 1
 - **confused** + **redirected**: 1
 - **telling us** + **investigated**: 1
@@ -342,13 +342,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation
   > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
 
-### Other / uncategorized — 2 tickets
-
-- **[#10488](https://tbpro.zendesk.com/agent/tickets/10488)** · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
-  > advice
-- **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails
-  > Passwort funktioniert nicht
-
 ### Send (file sharing) — 1 tickets
 
 - **[#10491](https://tbpro.zendesk.com/agent/tickets/10491)** · Bug report on Send file upload
@@ -359,20 +352,30 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10489](https://tbpro.zendesk.com/agent/tickets/10489)** · Changing Primary Email Address — why: **change request** · how: **actioned**
   > Hello, is there a way we can change our primary email address within Thundermail?
 
+### Other / uncategorized — 1 tickets
+
+- **[#10488](https://tbpro.zendesk.com/agent/tickets/10488)** · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
+  > advice
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird — why: **concerned** · how: **investigated**
   > Hi, I've noticed a sync issue between Thundermail and Thunderbird. The Sent folder shows twice the actual number of messages (2 instead of 1). When I click on the folder,…
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails — why: **confused** · how: **explained**
+  > Passwort funktioniert nicht
+
 ## New tickets — last 24h
 
 - [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [open] · 2026-10-26T01:05 · invitation
 - [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [open] · 2026-10-26T09:18 · Beta invitation
-- [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [new] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
-- [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [pending] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
+- [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [pending] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
+- [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [open] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
 - [10486](https://tbpro.zendesk.com/agent/tickets/10486) · [open] · 2026-10-26T15:31 · Lost Invite
 - [10487](https://tbpro.zendesk.com/agent/tickets/10487) · [open] · 2026-10-26T15:48 · Caldav error
-- [10488](https://tbpro.zendesk.com/agent/tickets/10488) · [new] · 2026-10-26T16:28 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
+- [10488](https://tbpro.zendesk.com/agent/tickets/10488) · [open] · 2026-10-26T16:28 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
 - [10489](https://tbpro.zendesk.com/agent/tickets/10489) · [open] · 2026-10-26T17:21 · Changing Primary Email Address
 - [10491](https://tbpro.zendesk.com/agent/tickets/10491) · [open] · 2026-10-26T17:41 · Bug report on Send file upload
 
@@ -390,9 +393,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10237](https://tbpro.zendesk.com/agent/tickets/10237) · 2026-10-26T17:02 · Add more 3 custum domain
 - · [10425](https://tbpro.zendesk.com/agent/tickets/10425) · 2026-10-26T17:41 · Domain setup with Namecheap
 - · [10248](https://tbpro.zendesk.com/agent/tickets/10248) · 2026-10-26T18:02 · Passwort
-- · [10445](https://tbpro.zendesk.com/agent/tickets/10445) · 2026-10-26T18:47 · Plume Mail & Thundermail
 - · [10216](https://tbpro.zendesk.com/agent/tickets/10216) · 2026-10-26T19:02 · Subsciption for family .
 - · [10372](https://tbpro.zendesk.com/agent/tickets/10372) · 2026-10-26T19:09 · Charged an International Transaction Fee
+- · [10445](https://tbpro.zendesk.com/agent/tickets/10445) · 2026-10-26T19:26 · Plume Mail & Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
