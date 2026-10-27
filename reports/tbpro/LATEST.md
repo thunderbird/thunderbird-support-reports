@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-27 12:05 ET** · refreshes hourly_  
+_Updated: **2026-10-27 13:22 ET** · refreshes hourly_  
 _24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 79** of rollout — **35,000 invitees**, **917 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 79** of rollout — **35,000 invitees**, **919 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **9** solved in last 24h
-- **917** tickets total since launch · contact rate **3%** of 35000 invitees
+- **10** new tickets in last 24h · **9** solved in last 24h
+- **919** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
-- **Median AHT**: 135.2h · mean 161.3h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 133.8h · mean 160.2h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## Known problems — 14 problem(s), 110 incident(s)
 
@@ -178,7 +178,7 @@ Flight 8 is **day 79** of rollout — **35,000 invitees**, **917 tickets** so fa
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [hold] · 2026-10-13 · _Re: [Thundermail] Re: Send_
-  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [hold] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -244,9 +244,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [open] · _delete and cancel_
+  > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
 
 ## New ideas on FeatureOS
 
@@ -257,17 +258,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 765
-- **solved**: 56
-- **pending**: 52
+- **closed**: 766
+- **solved**: 55
+- **pending**: 53
 - **open**: 23
-- **hold**: 20
+- **hold**: 21
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 508
-- **Thundermail**: 319
+- **Account Hub**: 509
+- **Thundermail**: 320
 - **Send**: 21
 - **Appointment**: 10
 
@@ -275,7 +276,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 177
+- **curious** + **explained**: 178
 - **change request** + **actioned**: 121
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
@@ -286,7 +287,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 36
 - **concerned** + **explained**: 30
 - **blocked** + **informed**: 19
-- **blocked** + **escalated**: 15
+- **blocked** + **escalated**: 16
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
 - **confused** + **—**: 8
@@ -332,6 +333,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10521](https://tbpro.zendesk.com/agent/tickets/10521)** · New version; can't find In-box
+  > I can't figure our how to access the inbox in the new version of T-bird
+- **[#10502](https://tbpro.zendesk.com/agent/tickets/10502)** · Change recovery email address
+  > I want to change the recovery email address to [email] . My thundermail id is - [email] .
+- **[#10503](https://tbpro.zendesk.com/agent/tickets/10503)** · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao — why: **telling us**
+  > This is an email abuse report for an email message from [domain] on Mon, 26 Oct 2026 16:32:49 +0000 -- Forwarded part --
+
 ### Appointment / calendar — 2 tickets
 
 - **[#10519](https://tbpro.zendesk.com/agent/tickets/10519)** · shared calendar
@@ -346,12 +356,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10499](https://tbpro.zendesk.com/agent/tickets/10499)** · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
   > Send uploads fail with "You don't have the key to decrypt this container". What customers see: uploads fail every time, any file size. In the web app the file disappears after…
 
-### Other / uncategorized — 2 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#10502](https://tbpro.zendesk.com/agent/tickets/10502)** · Change recovery email address
-  > I want to change the recovery email address to [email] . My thundermail id is - [email] .
-- **[#10503](https://tbpro.zendesk.com/agent/tickets/10503)** · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao — why: **telling us**
-  > This is an email abuse report for an email message from [domain] on Mon, 26 Oct 2026 16:32:49 +0000 -- Forwarded part --
+- **[#10524](https://tbpro.zendesk.com/agent/tickets/10524)** · delete and cancel
+  > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -360,7 +368,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 1 tickets
 
-- **[#10514](https://tbpro.zendesk.com/agent/tickets/10514)** · 501 5.5.4 You are not allowed to send from this address
+- **[#10514](https://tbpro.zendesk.com/agent/tickets/10514)** · 501 5.5.4 You are not allowed to send from this address — why: **blocked** · how: **escalated**
   > Sending from my custom-domain alias [email] (verified domain, alias exists on [email]) intermittently fails: after successful AUTH PLAIN, MAIL FROM:<[email]> returns 501 5.5.4 You…
 
 ## New tickets — last 24h
@@ -372,7 +380,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10510](https://tbpro.zendesk.com/agent/tickets/10510) · [open] · 2026-10-27T11:38 · Subscription Error
 - [10514](https://tbpro.zendesk.com/agent/tickets/10514) · [open] · 2026-10-27T13:37 · 501 5.5.4 You are not allowed to send from this address
 - [10516](https://tbpro.zendesk.com/agent/tickets/10516) · [open] · 2026-10-27T13:52 · delete my account
-- [10519](https://tbpro.zendesk.com/agent/tickets/10519) · [new] · 2026-10-27T15:03 · shared calendar
+- [10519](https://tbpro.zendesk.com/agent/tickets/10519) · [open] · 2026-10-27T15:03 · shared calendar
+- [10521](https://tbpro.zendesk.com/agent/tickets/10521) · [new] · 2026-10-27T16:07 · New version; can't find In-box
+- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [open] · 2026-10-27T16:34 · delete and cancel
 
 ## Solved — last 24h
 
