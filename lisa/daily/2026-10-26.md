@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-26
 
-_Updated: **2026-10-26 21:35 ET** · refreshes hourly_  
+_Updated: **2026-10-26 22:32 ET** · refreshes hourly_  
 _24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 78** of rollout — **35,000 invitees**, **911 tickets** so fa
 - **911** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 90
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 91
 - **Median AHT**: 135.1h · mean 161.5h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -270,8 +270,8 @@ _(none in last 24h)_
 ## Service (cumulative)
 
 - **Account Hub**: 506
-- **Thundermail**: 317
-- **Send**: 20
+- **Thundermail**: 316
+- **Send**: 21
 - **Appointment**: 10
 
 ## Why × How (cumulative)
@@ -280,7 +280,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 176
 - **change request** + **actioned**: 122
-- **blocked** + **explained**: 110
+- **blocked** + **explained**: 111
 - **confused** + **explained**: 81
 - **curious** + **informed**: 48
 - **blocked** + **investigated**: 42
@@ -344,15 +344,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird signup — 2 tickets
 
-- **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation — why: **curious** · how: **explained**
-  > Good day I got a beta invitation and in the mail i wad yold to use [email] as a recovery mail. It does not work and i can not activate the account. Is it because there is no free…
 - **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation — why: **curious** · how: **explained**
   > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
-
-### Send (file sharing) — 1 tickets
-
-- **[#10491](https://tbpro.zendesk.com/agent/tickets/10491)** · Bug report on Send file upload
-  > I was attempting to use Send for the first time using the Thunderbird desktop client, uploading a 93 MB zip file. However, the upload would get to 100%, then it would reset to 0%…
+- **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation — why: **curious** · how: **explained**
+  > Good day I got a beta invitation and in the mail i wad yold to use [email] as a recovery mail. It does not work and i can not activate the account. Is it because there is no free…
 
 ### Aliases — 1 tickets
 
@@ -369,6 +364,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird — why: **curious** · how: **investigated**
   > Hi, I've noticed a sync issue between Thundermail and Thunderbird. The Sent folder shows twice the actual number of messages (2 instead of 1). When I click on the folder,…
 
+### Send (file sharing) — 1 tickets
+
+- **[#10491](https://tbpro.zendesk.com/agent/tickets/10491)** · Bug report on Send file upload — why: **blocked** · how: **explained**
+  > I was attempting to use Send for the first time using the Thunderbird desktop client, uploading a 93 MB zip file. However, the upload would get to 100%, then it would reset to 0%…
+
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails — why: **confused** · how: **explained**
@@ -376,7 +376,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [pending] · 2026-10-26T01:05 · invitation
+- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [open] · 2026-10-26T01:05 · invitation
 - [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [pending] · 2026-10-26T09:18 · Beta invitation
 - [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [pending] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
 - [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [open] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
@@ -384,7 +384,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10487](https://tbpro.zendesk.com/agent/tickets/10487) · [open] · 2026-10-26T15:48 · Caldav error
 - [10488](https://tbpro.zendesk.com/agent/tickets/10488) · [open] · 2026-10-26T16:28 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
 - [10489](https://tbpro.zendesk.com/agent/tickets/10489) · [open] · 2026-10-26T17:21 · Changing Primary Email Address
-- [10491](https://tbpro.zendesk.com/agent/tickets/10491) · [open] · 2026-10-26T17:41 · Bug report on Send file upload
+- [10491](https://tbpro.zendesk.com/agent/tickets/10491) · [pending] · 2026-10-26T17:41 · Bug report on Send file upload
 
 ## Solved — last 24h
 
