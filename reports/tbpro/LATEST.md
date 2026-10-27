@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-10-26
+# Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-26 23:28 ET** · refreshes hourly_  
-_24h window: 2026-10-25T16:00 → 2026-10-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-27 00:26 ET** · refreshes hourly_  
+_24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 78** of rollout — **35,000 invitees**, **911 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 79** of rollout — **35,000 invitees**, **911 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **15** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **911** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 91
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
 - **Median AHT**: 135.1h · mean 161.5h (proxy: updated_at − created_at, 56 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"used sign"** — 2 tickets in 24h (new; baseline 0 cum) — [#10475](https://tbpro.zendesk.com/agent/tickets/10475), [#10486](https://tbpro.zendesk.com/agent/tickets/10486)
 
 ## Known problems — 14 problem(s), 109 incident(s)
 
@@ -255,16 +249,17 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Email aliases in thunderbird](https://ideas.tb.pro/p/email-aliases-in-thunderbird) · 1 votes · _untagged_
+  > Would like a way to copy aliases of thundermail in thunderbird instead of logging into the web portal. The only way I can see aliases made for thundermail is to create a new message, selecting the…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 764
 - **solved**: 56
-- **pending**: 49
-- **open**: 22
+- **pending**: 48
+- **open**: 23
 - **hold**: 20
 
 ## Service (cumulative)
@@ -278,8 +273,8 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 176
-- **change request** + **actioned**: 122
+- **curious** + **explained**: 177
+- **change request** + **actioned**: 121
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
 - **curious** + **informed**: 48
@@ -335,74 +330,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#10487](https://tbpro.zendesk.com/agent/tickets/10487)** · Caldav error
-  > Hi, I have a problem trying to sync my Android calendar app "OneCalendar"with the Thunderbird Appointment calendar in my Thunderbird early bird account. I don't know if this is an…
-- **[#10486](https://tbpro.zendesk.com/agent/tickets/10486)** · Lost Invite
-  > Is it possible you could re-send my invite code? Not sure how I managed to delete it, but I can't find it anywhere. The email I used to sign up to the waitlist is [email].
+- **[#10498](https://tbpro.zendesk.com/agent/tickets/10498)** · UX TEST/ Scenario: Export my data — why: **curious** · how: **explained**
+  > I am testing what would happen during off boarding. **Scenario: user wants to export their data as they are deleting their Thundermail account. This includes Thundermail, Send and…
 
-### Early bird signup — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#10475](https://tbpro.zendesk.com/agent/tickets/10475)** · invitation — why: **curious** · how: **explained**
-  > Hello! I had joined the wait list a while ago and got an invitation but unfortunately can't find the email. I am also not sure which email address I used to sign up for the wait…
-- **[#10477](https://tbpro.zendesk.com/agent/tickets/10477)** · Beta invitation — why: **curious** · how: **explained**
-  > Good day I got a beta invitation and in the mail i wad yold to use [email] as a recovery mail. It does not work and i can not activate the account. Is it because there is no free…
-
-### Aliases — 1 tickets
-
-- **[#10489](https://tbpro.zendesk.com/agent/tickets/10489)** · Changing Primary Email Address — why: **change request** · how: **actioned**
-  > Hello, is there a way we can change our primary email address within Thundermail?
-
-### Other / uncategorized — 1 tickets
-
-- **[#10488](https://tbpro.zendesk.com/agent/tickets/10488)** · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
-  > advice
-
-### Email sending / receiving / SMTP / IMAP — 1 tickets
-
-- **[#10480](https://tbpro.zendesk.com/agent/tickets/10480)** · Bug report: Incorrect Sent folder message count in Thunderbird — why: **curious** · how: **investigated**
-  > Hi, I've noticed a sync issue between Thundermail and Thunderbird. The Sent folder shows twice the actual number of messages (2 instead of 1). When I click on the folder,…
-
-### Send (file sharing) — 1 tickets
-
-- **[#10491](https://tbpro.zendesk.com/agent/tickets/10491)** · Bug report on Send file upload — why: **blocked** · how: **explained**
-  > I was attempting to use Send for the first time using the Thunderbird desktop client, uploading a 93 MB zip file. However, the upload would get to 100%, then it would reset to 0%…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#10479](https://tbpro.zendesk.com/agent/tickets/10479)** · Wiederherstellung meiner E-Mails — why: **confused** · how: **explained**
-  > Passwort funktioniert nicht
+- **[#10499](https://tbpro.zendesk.com/agent/tickets/10499)** · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
+  > Send uploads fail with "You don't have the key to decrypt this container". What customers see: uploads fail every time, any file size. In the web app the file disappears after…
 
 ## New tickets — last 24h
 
-- [10475](https://tbpro.zendesk.com/agent/tickets/10475) · [open] · 2026-10-26T01:05 · invitation
-- [10477](https://tbpro.zendesk.com/agent/tickets/10477) · [pending] · 2026-10-26T09:18 · Beta invitation
-- [10479](https://tbpro.zendesk.com/agent/tickets/10479) · [pending] · 2026-10-26T11:10 · Wiederherstellung meiner E-Mails
-- [10480](https://tbpro.zendesk.com/agent/tickets/10480) · [open] · 2026-10-26T12:01 · Bug report: Incorrect Sent folder message count in Thunderbird
-- [10486](https://tbpro.zendesk.com/agent/tickets/10486) · [open] · 2026-10-26T15:31 · Lost Invite
-- [10487](https://tbpro.zendesk.com/agent/tickets/10487) · [open] · 2026-10-26T15:48 · Caldav error
-- [10488](https://tbpro.zendesk.com/agent/tickets/10488) · [open] · 2026-10-26T16:28 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
-- [10489](https://tbpro.zendesk.com/agent/tickets/10489) · [open] · 2026-10-26T17:21 · Changing Primary Email Address
-- [10491](https://tbpro.zendesk.com/agent/tickets/10491) · [pending] · 2026-10-26T17:41 · Bug report on Send file upload
+- [10498](https://tbpro.zendesk.com/agent/tickets/10498) · [open] · 2026-10-26T22:14 · UX TEST/ Scenario: Export my data
+- [10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · 2026-10-26T22:29 · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 
 ## Solved — last 24h
 
-- · [10132](https://tbpro.zendesk.com/agent/tickets/10132) · 2026-10-25T20:01 · email alias connected to imported domain is NOT receiving email
-- · [10183](https://tbpro.zendesk.com/agent/tickets/10183) · 2026-10-26T13:01 · Monthly plans 
-- · [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-26T13:48 · Custom domain setting issue
-- · [10384](https://tbpro.zendesk.com/agent/tickets/10384) · 2026-10-26T15:19 · Custom domain email
-- · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-26T16:02 · Cannot sign in 
-- · [10186](https://tbpro.zendesk.com/agent/tickets/10186) · 2026-10-26T16:02 · Account recovery
-- · [10261](https://tbpro.zendesk.com/agent/tickets/10261) · 2026-10-26T17:02 · kennwortänderung
-- · [10260](https://tbpro.zendesk.com/agent/tickets/10260) · 2026-10-26T17:02 · Forgot User Name and Password
-- · [10250](https://tbpro.zendesk.com/agent/tickets/10250) · 2026-10-26T17:02 · Hetero
-- · [10237](https://tbpro.zendesk.com/agent/tickets/10237) · 2026-10-26T17:02 · Add more 3 custum domain
-- · [10425](https://tbpro.zendesk.com/agent/tickets/10425) · 2026-10-26T17:41 · Domain setup with Namecheap
-- · [10248](https://tbpro.zendesk.com/agent/tickets/10248) · 2026-10-26T18:02 · Passwort
-- · [10216](https://tbpro.zendesk.com/agent/tickets/10216) · 2026-10-26T19:02 · Subsciption for family .
-- · [10372](https://tbpro.zendesk.com/agent/tickets/10372) · 2026-10-26T19:09 · Charged an International Transaction Fee
-- · [10445](https://tbpro.zendesk.com/agent/tickets/10445) · 2026-10-26T19:26 · Plume Mail & Thundermail
+- · [10234](https://tbpro.zendesk.com/agent/tickets/10234) · 2026-10-26T21:02 · Google not accepting [domain] as email address.
+- · [10181](https://tbpro.zendesk.com/agent/tickets/10181) · 2026-10-26T21:02 · Transparency
+- · [10280](https://tbpro.zendesk.com/agent/tickets/10280) · 2026-10-26T22:02 · ThunderMail Early Bird – Ready for everyday use?
+- · [10272](https://tbpro.zendesk.com/agent/tickets/10272) · 2026-10-26T22:02 · Custom domain is not working. 
+- · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-26T22:12 · E-Mail 
+- · [10292](https://tbpro.zendesk.com/agent/tickets/10292) · 2026-10-27T00:01 · Email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
