@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-27 17:14 ET** · refreshes hourly_  
+_Updated: **2026-10-27 18:15 ET** · refreshes hourly_  
 _24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 79** of rollout — **35,000 invitees**, **923 tickets** so far (2.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 79** of rollout — **35,000 invitees**, **925 tickets** so far (2.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **15** solved in last 24h
-- **923** tickets total since launch · contact rate **3%** of 35000 invitees
+- **925** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (8 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
@@ -264,13 +264,13 @@ Regards, [name]_
 
 - **closed**: 769
 - **solved**: 63
-- **pending**: 58
-- **hold**: 20
-- **open**: 13
+- **pending**: 63
+- **hold**: 19
+- **open**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 515
+- **Account Hub**: 517
 - **Thundermail**: 318
 - **Send**: 21
 - **Appointment**: 11
@@ -279,7 +279,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 179
+- **curious** + **explained**: 181
 - **change request** + **actioned**: 123
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
@@ -365,11 +365,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10503](https://tbpro.zendesk.com/agent/tickets/10503)** · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao — why: **telling us**
   > This is an email abuse report for an email message from [domain] on Mon, 26 Oct 2026 16:32:49 +0000 -- Forwarded part --
 
-### Account access issues — account recovery — 1 tickets
-
-- **[#10502](https://tbpro.zendesk.com/agent/tickets/10502)** · Change recovery email address — why: **request** · how: **actioned**
-  > I want to change the recovery email address to [email] . My thundermail id is - [email] .
-
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#10527](https://tbpro.zendesk.com/agent/tickets/10527)** · Subscription — why: **curious** · how: **explained**
@@ -385,6 +380,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10510](https://tbpro.zendesk.com/agent/tickets/10510)** · Subscription Error — why: **confused** · how: **informed**
   > Hi I believe I got an invitation (sent to [email]) to subscribe to thundermail. I used the subscribe button in the email you sent to subscribe but I believe I may have made some…
 
+### Account access issues — account recovery — 1 tickets
+
+- **[#10502](https://tbpro.zendesk.com/agent/tickets/10502)** · Change recovery email address — why: **request** · how: **actioned**
+  > I want to change the recovery email address to [email] . My thundermail id is - [email] .
+
 ### Account access issues — 1 tickets
 
 - **[#10499](https://tbpro.zendesk.com/agent/tickets/10499)** · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
@@ -394,7 +394,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10498](https://tbpro.zendesk.com/agent/tickets/10498) · [open] · 2026-10-26T22:14 · UX TEST/ Scenario: Export my data
 - [10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · 2026-10-26T22:29 · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
-- [10502](https://tbpro.zendesk.com/agent/tickets/10502) · [open] · 2026-10-27T05:37 · Change recovery email address
+- [10502](https://tbpro.zendesk.com/agent/tickets/10502) · [pending] · 2026-10-27T05:37 · Change recovery email address
 - [10503](https://tbpro.zendesk.com/agent/tickets/10503) · [solved] · 2026-10-27T06:33 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
 - [10510](https://tbpro.zendesk.com/agent/tickets/10510) · [pending] · 2026-10-27T11:38 · Subscription Error
 - [10514](https://tbpro.zendesk.com/agent/tickets/10514) · [pending] · 2026-10-27T13:37 · 501 5.5.4 You are not allowed to send from this address
