@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-27 09:28 ET** · refreshes hourly_  
+_Updated: **2026-10-27 10:28 ET** · refreshes hourly_  
 _24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 79** of rollout — **35,000 invitees**, **914 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 79** of rollout — **35,000 invitees**, **916 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
-- **914** tickets total since launch · contact rate **3%** of 35000 invitees
+- **7** new tickets in last 24h · **8** solved in last 24h
+- **916** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
-- **Median AHT**: 133.8h · mean 158.8h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 133.8h · mean 159.2h (proxy: updated_at − created_at, 57 solved tickets)
 
-## Known problems — 14 problem(s), 109 incident(s)
+## Known problems — 14 problem(s), 110 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -176,8 +176,9 @@ Flight 8 is **day 79** of rollout — **35,000 invitees**, **914 tickets** so fa
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
 
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
-- 1 incident(s):
+- 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [hold] · 2026-10-13 · _Re: [Thundermail] Re: Send_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -261,12 +262,12 @@ _(none in last 24h)_
 - **pending**: 46
 - **open**: 25
 - **hold**: 20
-- **new**: 2
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 506
-- **Thundermail**: 318
+- **Account Hub**: 507
+- **Thundermail**: 319
 - **Send**: 21
 - **Appointment**: 10
 
@@ -345,6 +346,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10503](https://tbpro.zendesk.com/agent/tickets/10503)** · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao — why: **telling us**
   > This is an email abuse report for an email message from [domain] on Mon, 26 Oct 2026 16:32:49 +0000 -- Forwarded part --
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10516](https://tbpro.zendesk.com/agent/tickets/10516)** · delete my account
+  > please delete my account and confirm. thank you.
+
+### Aliases — 1 tickets
+
+- **[#10514](https://tbpro.zendesk.com/agent/tickets/10514)** · 501 5.5.4 You are not allowed to send from this address
+  > Sending from my custom-domain alias [email] (verified domain, alias exists on [email]) intermittently fails: after successful AUTH PLAIN, MAIL FROM:<[email]> returns 501 5.5.4 You…
+
 ### Appointment / calendar — 1 tickets
 
 - **[#10498](https://tbpro.zendesk.com/agent/tickets/10498)** · UX TEST/ Scenario: Export my data — why: **curious** · how: **explained**
@@ -357,6 +368,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10502](https://tbpro.zendesk.com/agent/tickets/10502) · [new] · 2026-10-27T05:37 · Change recovery email address
 - [10503](https://tbpro.zendesk.com/agent/tickets/10503) · [solved] · 2026-10-27T06:33 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
 - [10510](https://tbpro.zendesk.com/agent/tickets/10510) · [new] · 2026-10-27T11:38 · Subscription Error
+- [10514](https://tbpro.zendesk.com/agent/tickets/10514) · [new] · 2026-10-27T13:37 · 501 5.5.4 You are not allowed to send from this address
+- [10516](https://tbpro.zendesk.com/agent/tickets/10516) · [new] · 2026-10-27T13:52 · delete my account
 
 ## Solved — last 24h
 
@@ -367,6 +380,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-26T22:12 · E-Mail 
 - · [10292](https://tbpro.zendesk.com/agent/tickets/10292) · 2026-10-27T00:01 · Email address
 - · [10503](https://tbpro.zendesk.com/agent/tickets/10503) · 2026-10-27T12:16 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
+- · [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-27T14:01 · Custom domain setting issue
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
