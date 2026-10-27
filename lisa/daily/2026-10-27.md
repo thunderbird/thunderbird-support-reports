@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-27 13:22 ET** · refreshes hourly_  
+_Updated: **2026-10-27 14:19 ET** · refreshes hourly_  
 _24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 79** of rollout — **35,000 invitees**, **919 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 79** of rollout — **35,000 invitees**, **920 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **9** solved in last 24h
-- **919** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
-- **CSAT (since launch)**: 94%  (188 good / 11 bad)
+- **11** new tickets in last 24h · **13** solved in last 24h
+- **920** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (since launch)**: 94%  (189 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
-- **Median AHT**: 133.8h · mean 160.2h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 136.4h · mean 159.4h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 14 problem(s), 110 incident(s)
 
@@ -244,10 +244,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [open] · _delete and cancel_
   > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
+- [10528](https://tbpro.zendesk.com/agent/tickets/10528) · [new] · _Refund Request_
+  > Apologies - I can't use this service with a fully featured calendar. I'd like a refund. I'll potentially return in the future when the service is more complete.
 
 ## New ideas on FeatureOS
 
@@ -259,16 +261,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 766
-- **solved**: 55
-- **pending**: 53
-- **open**: 23
+- **solved**: 58
+- **pending**: 55
 - **hold**: 21
-- **new**: 1
+- **open**: 20
 
 ## Service (cumulative)
 
-- **Account Hub**: 509
-- **Thundermail**: 320
+- **Account Hub**: 514
+- **Thundermail**: 317
 - **Send**: 21
 - **Appointment**: 10
 
@@ -282,9 +283,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 81
 - **curious** + **informed**: 48
 - **blocked** + **investigated**: 43
-- **blocked** + **redirected**: 40
+- **blocked** + **redirected**: 41
 - **request** + **redirected**: 39
-- **confused** + **informed**: 36
+- **confused** + **informed**: 37
 - **concerned** + **explained**: 30
 - **blocked** + **informed**: 19
 - **blocked** + **escalated**: 16
@@ -293,9 +294,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **—**: 8
 - **blocked** + **—**: 8
 - **request** + **explained**: 7
+- **confused** + **investigated**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **investigated**: 6
-- **confused** + **investigated**: 6
+- **confused** + **redirected**: 6
 - **curious** + **actioned**: 5
 - **blocked** + **actioned**: 5
 - **curious** + **—**: 4
@@ -308,7 +310,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **telling us** + **—**: 3
-- **confused** + **redirected**: 3
 - **change request** + **informed**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
@@ -349,12 +350,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10498](https://tbpro.zendesk.com/agent/tickets/10498)** · UX TEST/ Scenario: Export my data — why: **curious** · how: **explained**
   > I am testing what would happen during off boarding. **Scenario: user wants to export their data as they are deleting their Thundermail account. This includes Thundermail, Send and…
 
-### Account access issues — 2 tickets
+### Pricing / monthly plan / free tier — 1 tickets
 
-- **[#10510](https://tbpro.zendesk.com/agent/tickets/10510)** · Subscription Error
-  > Hi I believe I got an invitation (sent to [email]) to subscribe to thundermail. I used the subscribe button in the email you sent to subscribe but I believe I may have made some…
-- **[#10499](https://tbpro.zendesk.com/agent/tickets/10499)** · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
-  > Send uploads fail with "You don't have the key to decrypt this container". What customers see: uploads fail every time, any file size. In the web app the file disappears after…
+- **[#10527](https://tbpro.zendesk.com/agent/tickets/10527)** · Subscription
+  > Hello, is there also a monthly plan? 1 Year subscription is pretty much, for a new service. Kind regards
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -371,18 +370,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10514](https://tbpro.zendesk.com/agent/tickets/10514)** · 501 5.5.4 You are not allowed to send from this address — why: **blocked** · how: **escalated**
   > Sending from my custom-domain alias [email] (verified domain, alias exists on [email]) intermittently fails: after successful AUTH PLAIN, MAIL FROM:<[email]> returns 501 5.5.4 You…
 
+### Early bird signup — 1 tickets
+
+- **[#10510](https://tbpro.zendesk.com/agent/tickets/10510)** · Subscription Error — why: **confused** · how: **informed**
+  > Hi I believe I got an invitation (sent to [email]) to subscribe to thundermail. I used the subscribe button in the email you sent to subscribe but I believe I may have made some…
+
+### Account access issues — 1 tickets
+
+- **[#10499](https://tbpro.zendesk.com/agent/tickets/10499)** · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
+  > Send uploads fail with "You don't have the key to decrypt this container". What customers see: uploads fail every time, any file size. In the web app the file disappears after…
+
 ## New tickets — last 24h
 
 - [10498](https://tbpro.zendesk.com/agent/tickets/10498) · [open] · 2026-10-26T22:14 · UX TEST/ Scenario: Export my data
 - [10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · 2026-10-26T22:29 · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - [10502](https://tbpro.zendesk.com/agent/tickets/10502) · [open] · 2026-10-27T05:37 · Change recovery email address
 - [10503](https://tbpro.zendesk.com/agent/tickets/10503) · [solved] · 2026-10-27T06:33 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
-- [10510](https://tbpro.zendesk.com/agent/tickets/10510) · [open] · 2026-10-27T11:38 · Subscription Error
+- [10510](https://tbpro.zendesk.com/agent/tickets/10510) · [pending] · 2026-10-27T11:38 · Subscription Error
 - [10514](https://tbpro.zendesk.com/agent/tickets/10514) · [open] · 2026-10-27T13:37 · 501 5.5.4 You are not allowed to send from this address
 - [10516](https://tbpro.zendesk.com/agent/tickets/10516) · [open] · 2026-10-27T13:52 · delete my account
 - [10519](https://tbpro.zendesk.com/agent/tickets/10519) · [open] · 2026-10-27T15:03 · shared calendar
-- [10521](https://tbpro.zendesk.com/agent/tickets/10521) · [new] · 2026-10-27T16:07 · New version; can't find In-box
+- [10521](https://tbpro.zendesk.com/agent/tickets/10521) · [open] · 2026-10-27T16:07 · New version; can't find In-box
 - [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [open] · 2026-10-27T16:34 · delete and cancel
+- [10527](https://tbpro.zendesk.com/agent/tickets/10527) · [open] · 2026-10-27T17:55 · Subscription
 
 ## Solved — last 24h
 
@@ -393,8 +403,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-26T22:12 · E-Mail 
 - · [10292](https://tbpro.zendesk.com/agent/tickets/10292) · 2026-10-27T00:01 · Email address
 - · [10503](https://tbpro.zendesk.com/agent/tickets/10503) · 2026-10-27T12:16 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
-- · [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-27T14:01 · Custom domain setting issue
 - · [10384](https://tbpro.zendesk.com/agent/tickets/10384) · 2026-10-27T16:02 · Custom domain email
+- 👍 [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-27T17:50 · Custom domain setting issue
+- · [10425](https://tbpro.zendesk.com/agent/tickets/10425) · 2026-10-27T18:01 · Domain setup with Namecheap
+- · [10334](https://tbpro.zendesk.com/agent/tickets/10334) · 2026-10-27T18:01 · Paßwort für meinen Thundermailaccount
+- · [10298](https://tbpro.zendesk.com/agent/tickets/10298) · 2026-10-27T18:01 · Password reset
+- · [10279](https://tbpro.zendesk.com/agent/tickets/10279) · 2026-10-27T18:01 · NEW ACCOUNT
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
