@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-27 01:24 ET** · refreshes hourly_  
+_Updated: **2026-10-27 02:38 ET** · refreshes hourly_  
 _24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 79** of rollout — **35,000 invitees**, **911 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 79** of rollout — **35,000 invitees**, **913 tickets** so far (2.6% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **6** solved in last 24h
-- **911** tickets total since launch · contact rate **3%** of 35000 invitees
+- **4** new tickets in last 24h · **6** solved in last 24h
+- **913** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 94%  (188 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
@@ -259,8 +259,9 @@ _(none in last 24h)_
 - **closed**: 764
 - **solved**: 56
 - **pending**: 47
-- **open**: 24
+- **open**: 25
 - **hold**: 20
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -330,6 +331,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#10503](https://tbpro.zendesk.com/agent/tickets/10503)** · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
+  > This is an email abuse report for an email message from [domain] on Mon, 26 Oct 2026 16:32:49 +0000 -- Forwarded part --
+- **[#10502](https://tbpro.zendesk.com/agent/tickets/10502)** · Change recovery email address
+  > I want to change the recovery email address to [email] . My thundermail id is - [email] .
+
 ### Appointment / calendar — 1 tickets
 
 - **[#10498](https://tbpro.zendesk.com/agent/tickets/10498)** · UX TEST/ Scenario: Export my data — why: **curious** · how: **explained**
@@ -344,6 +352,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10498](https://tbpro.zendesk.com/agent/tickets/10498) · [open] · 2026-10-26T22:14 · UX TEST/ Scenario: Export my data
 - [10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · 2026-10-26T22:29 · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
+- [10502](https://tbpro.zendesk.com/agent/tickets/10502) · [new] · 2026-10-27T05:37 · Change recovery email address
+- [10503](https://tbpro.zendesk.com/agent/tickets/10503) · [open] · 2026-10-27T06:33 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
 
 ## Solved — last 24h
 
