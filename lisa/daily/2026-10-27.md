@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-27
 
-_Updated: **2026-10-27 18:15 ET** · refreshes hourly_  
+_Updated: **2026-10-27 19:14 ET** · refreshes hourly_  
 _24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -16,7 +16,7 @@ Flight 8 is **day 79** of rollout — **35,000 invitees**, **925 tickets** so fa
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 91
 - **Median AHT**: 136.5h · mean 167.6h (proxy: updated_at − created_at, 63 solved tickets)
 
-## Known problems — 14 problem(s), 112 incident(s)
+## Known problems — 14 problem(s), 113 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 79** of rollout — **35,000 invitees**, **925 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 90 incident(s):
+- 91 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -122,6 +122,7 @@ Flight 8 is **day 79** of rollout — **35,000 invitees**, **925 tickets** so fa
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [pending] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [pending] · 2026-10-25 · _account cancelation and refund request_
   - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [pending] · 2026-10-27 · _delete my account_
+  - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27 · _Refund Request_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -248,7 +249,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [open] · _delete and cancel_
+- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · _delete and cancel_
   > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
 - [10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · _Refund Request_
   > Apologies - I can't use this service with a fully featured calendar. I'd like a refund. I'll potentially return in the future when the service is more complete.
@@ -263,15 +264,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 769
+- **pending**: 64
 - **solved**: 63
-- **pending**: 63
 - **hold**: 19
-- **open**: 11
+- **open**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 517
-- **Thundermail**: 318
+- **Account Hub**: 518
+- **Thundermail**: 317
 - **Send**: 21
 - **Appointment**: 11
 
@@ -280,7 +281,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 181
-- **change request** + **actioned**: 123
+- **change request** + **actioned**: 124
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
 - **curious** + **informed**: 49
@@ -344,19 +345,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10514](https://tbpro.zendesk.com/agent/tickets/10514)** · 501 5.5.4 You are not allowed to send from this address — why: **blocked** · how: **escalated**
   > Sending from my custom-domain alias [email] (verified domain, alias exists on [email]) intermittently fails: after successful AUTH PLAIN, MAIL FROM:<[email]> returns 501 5.5.4 You…
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10524](https://tbpro.zendesk.com/agent/tickets/10524)** · delete and cancel
-  > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
-- **[#10528](https://tbpro.zendesk.com/agent/tickets/10528)** · Refund Request — why: **change request** · how: **actioned**
-  > Apologies - I can't use this service with a fully featured calendar. I'd like a refund. I'll potentially return in the future when the service is more complete.
-
 ### Appointment / calendar — 2 tickets
 
 - **[#10498](https://tbpro.zendesk.com/agent/tickets/10498)** · UX TEST/ Scenario: Export my data — why: **curious** · how: **explained**
   > I am testing what would happen during off boarding. **Scenario: user wants to export their data as they are deleting their Thundermail account. This includes Thundermail, Send and…
 - **[#10519](https://tbpro.zendesk.com/agent/tickets/10519)** · shared calendar — why: **request** · how: **redirected**
   > I'm looking for a link that I can use to share my calendar with my wife. She uses gmail. And I'd also like to see my calendar on my work conputer using outlook.
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10528](https://tbpro.zendesk.com/agent/tickets/10528)** · Refund Request — why: **change request** · how: **actioned**
+  > Apologies - I can't use this service with a fully featured calendar. I'd like a refund. I'll potentially return in the future when the service is more complete.
+- **[#10524](https://tbpro.zendesk.com/agent/tickets/10524)** · delete and cancel — why: **change request** · how: **actioned**
+  > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
 
 ### Other / uncategorized — 2 tickets
 
@@ -401,7 +402,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10516](https://tbpro.zendesk.com/agent/tickets/10516) · [pending] · 2026-10-27T13:52 · delete my account
 - [10519](https://tbpro.zendesk.com/agent/tickets/10519) · [pending] · 2026-10-27T15:03 · shared calendar
 - [10521](https://tbpro.zendesk.com/agent/tickets/10521) · [pending] · 2026-10-27T16:07 · New version; can't find In-box
-- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [open] · 2026-10-27T16:34 · delete and cancel
+- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27T16:34 · delete and cancel
 - [10527](https://tbpro.zendesk.com/agent/tickets/10527) · [pending] · 2026-10-27T17:55 · Subscription
 - [10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27T18:19 · Refund Request
 - [10529](https://tbpro.zendesk.com/agent/tickets/10529) · [open] · 2026-10-27T19:21 · Re: [Thundermail] Re: move Alias to Account
