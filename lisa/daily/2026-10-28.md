@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-28
 
-_Updated: **2026-10-28 10:18 ET** · refreshes hourly_  
+_Updated: **2026-10-28 11:17 ET** · refreshes hourly_  
 _24h window: 2026-10-27T16:00 → 2026-10-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 80** of rollout — **35,000 invitees**, **928 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 80** of rollout — **35,000 invitees**, **929 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **10** solved in last 24h
-- **928** tickets total since launch · contact rate **3%** of 35000 invitees
+- **7** new tickets in last 24h · **11** solved in last 24h
+- **929** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
-- **Median AHT**: 136.8h · mean 167.1h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 137.4h · mean 167.7h (proxy: updated_at − created_at, 64 solved tickets)
 
-## Known problems — 14 problem(s), 113 incident(s)
+## Known problems — 14 problem(s), 114 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 80** of rollout — **35,000 invitees**, **928 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 91 incident(s):
+- 92 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -124,6 +124,7 @@ Flight 8 is **day 80** of rollout — **35,000 invitees**, **928 tickets** so fa
   - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [pending] · 2026-10-27 · _delete my account_
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27 · _Refund Request_
+  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28 · _Delete acount_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -260,7 +261,7 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 770
+- **closed**: 771
 - **solved**: 64
 - **pending**: 62
 - **hold**: 20
@@ -268,7 +269,7 @@ _(none in last 24h)_
 
 ## Service (cumulative)
 
-- **Account Hub**: 520
+- **Account Hub**: 521
 - **Thundermail**: 318
 - **Send**: 21
 - **Appointment**: 11
@@ -278,7 +279,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 181
-- **change request** + **actioned**: 124
+- **change request** + **actioned**: 125
 - **blocked** + **explained**: 112
 - **confused** + **explained**: 81
 - **curious** + **informed**: 49
@@ -350,6 +351,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10536](https://tbpro.zendesk.com/agent/tickets/10536)** · Delete account
   > Please delete my email account as I do not use it.....please delete any payment subscriptions too
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10549](https://tbpro.zendesk.com/agent/tickets/10549)** · Delete acount — why: **change request** · how: **actioned**
+  > please delete my account
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10535](https://tbpro.zendesk.com/agent/tickets/10535)** · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help? — why: **concerned** · how: **explained**
@@ -373,6 +379,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10536](https://tbpro.zendesk.com/agent/tickets/10536) · [open] · 2026-10-28T00:53 · Delete account
 - [10537](https://tbpro.zendesk.com/agent/tickets/10537) · [open] · 2026-10-28T01:09 · Using my new email with you now but question
 - [10538](https://tbpro.zendesk.com/agent/tickets/10538) · [open] · 2026-10-28T01:54 · Can't pay for amnual subscription yet
+- [10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28T14:49 · Delete acount
 
 ## Solved — last 24h
 
@@ -386,6 +393,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10106](https://tbpro.zendesk.com/agent/tickets/10106) · 2026-10-27T21:02 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
 - · [10432](https://tbpro.zendesk.com/agent/tickets/10432) · 2026-10-28T01:37 · Remove completely Thunderbird and Thundermail  from my Linux / Zorin laptop
 - · [10299](https://tbpro.zendesk.com/agent/tickets/10299) · 2026-10-28T14:01 · サンダーバードが動かない
+- · [10360](https://tbpro.zendesk.com/agent/tickets/10360) · 2026-10-28T15:01 · new account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
