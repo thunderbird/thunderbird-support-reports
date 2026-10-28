@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-28
 
-_Updated: **2026-10-28 13:18 ET** · refreshes hourly_  
+_Updated: **2026-10-28 14:21 ET** · refreshes hourly_  
 _24h window: 2026-10-27T16:00 → 2026-10-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 80** of rollout — **35,000 invitees**, **928 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 80** of rollout — **35,000 invitees**, **931 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **11** solved in last 24h
-- **928** tickets total since launch · contact rate **3%** of 35000 invitees
+- **10** new tickets in last 24h · **13** solved in last 24h
+- **931** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
-- **Median AHT**: 137.2h · mean 168.0h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 137.2h · mean 167.1h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## Known problems — 14 problem(s), 114 incident(s)
 
@@ -248,9 +248,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10556](https://tbpro.zendesk.com/agent/tickets/10556) · [open] · _Cancel / refund_
+  > Hello, I would like to cancel my Thundermail account and request a refund. I understand I can do this without issue within 14 days. Thank you, [name]
 
 ## New ideas on FeatureOS
 
@@ -262,15 +263,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 772
-- **solved**: 63
-- **pending**: 62
+- **solved**: 65
+- **pending**: 61
 - **hold**: 20
-- **open**: 11
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 521
-- **Thundermail**: 317
+- **Account Hub**: 522
+- **Thundermail**: 319
 - **Send**: 21
 - **Appointment**: 11
 
@@ -294,9 +295,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 9
 - **confused** + **—**: 8
 - **blocked** + **—**: 8
+- **confused** + **redirected**: 8
 - **request** + **explained**: 7
 - **confused** + **investigated**: 7
-- **confused** + **redirected**: 7
 - **telling us** + **explained**: 6
 - **concerned** + **investigated**: 6
 - **curious** + **actioned**: 5
@@ -336,6 +337,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10556](https://tbpro.zendesk.com/agent/tickets/10556)** · Cancel / refund
+  > Hello, I would like to cancel my Thundermail account and request a refund. I understand I can do this without issue within 14 days. Thank you, [name]
+- **[#10536](https://tbpro.zendesk.com/agent/tickets/10536)** · Delete account
+  > Please delete my email account as I do not use it.....please delete any payment subscriptions too
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#10558](https://tbpro.zendesk.com/agent/tickets/10558)** · Security Inquiry – DNSSEC and Ed25519 DKIM Verification for [domain] and [domain]
+  > Dear [name] / Thundermail Security Team, I am a Thundermail user with the following email addresses: - [email] - [email] As part of a personal security assessment, I conducted…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#10538](https://tbpro.zendesk.com/agent/tickets/10538)** · Can't pay for amnual subscription yet
@@ -346,10 +359,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10537](https://tbpro.zendesk.com/agent/tickets/10537)** · Using my new email with you now but question
   > I'm using the app on my phone with my new email. Problem is I'm not seeing the calendar, is there a different app I am missing?
 
-### Subscription / billing / refund / cancel — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#10536](https://tbpro.zendesk.com/agent/tickets/10536)** · Delete account
-  > Please delete my email account as I do not use it.....please delete any payment subscriptions too
+- **[#10557](https://tbpro.zendesk.com/agent/tickets/10557)** · thunderbird — why: **confused** · how: **redirected**
+  > comment creer le symbole envoye ?
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -380,6 +393,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10537](https://tbpro.zendesk.com/agent/tickets/10537) · [open] · 2026-10-28T01:09 · Using my new email with you now but question
 - [10538](https://tbpro.zendesk.com/agent/tickets/10538) · [open] · 2026-10-28T01:54 · Can't pay for amnual subscription yet
 - [10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28T14:49 · Delete acount
+- [10556](https://tbpro.zendesk.com/agent/tickets/10556) · [open] · 2026-10-28T17:48 · Cancel / refund
+- [10557](https://tbpro.zendesk.com/agent/tickets/10557) · [pending] · 2026-10-28T18:11 · thunderbird
+- [10558](https://tbpro.zendesk.com/agent/tickets/10558) · [open] · 2026-10-28T18:14 · Security Inquiry – DNSSEC and Ed25519 DKIM Verification for [domain] and [domain]
 
 ## Solved — last 24h
 
@@ -394,6 +410,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10432](https://tbpro.zendesk.com/agent/tickets/10432) · 2026-10-28T01:37 · Remove completely Thunderbird and Thundermail  from my Linux / Zorin laptop
 - · [10299](https://tbpro.zendesk.com/agent/tickets/10299) · 2026-10-28T14:01 · サンダーバードが動かない
 - · [10360](https://tbpro.zendesk.com/agent/tickets/10360) · 2026-10-28T15:01 · new account
+- · [10369](https://tbpro.zendesk.com/agent/tickets/10369) · 2026-10-28T18:02 · einige Ordner wiederherstellen
+- · [10368](https://tbpro.zendesk.com/agent/tickets/10368) · 2026-10-28T18:02 · POP3 transition from existing email account portfolio to JMAP
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
