@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-28
 
-_Updated: **2026-10-28 09:17 ET** · refreshes hourly_  
+_Updated: **2026-10-28 10:18 ET** · refreshes hourly_  
 _24h window: 2026-10-27T16:00 → 2026-10-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 80** of rollout — **35,000 invitees**, **928 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **9** solved in last 24h
+- **6** new tickets in last 24h · **10** solved in last 24h
 - **928** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
-- **Median AHT**: 136.5h · mean 166.2h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 136.8h · mean 167.1h (proxy: updated_at − created_at, 64 solved tickets)
 
 ## Known problems — 14 problem(s), 113 incident(s)
 
@@ -260,11 +260,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 769
+- **closed**: 770
 - **solved**: 64
 - **pending**: 62
 - **hold**: 20
-- **open**: 13
+- **open**: 12
 
 ## Service (cumulative)
 
@@ -279,7 +279,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 181
 - **change request** + **actioned**: 124
-- **blocked** + **explained**: 111
+- **blocked** + **explained**: 112
 - **confused** + **explained**: 81
 - **curious** + **informed**: 49
 - **blocked** + **investigated**: 43
@@ -350,11 +350,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10536](https://tbpro.zendesk.com/agent/tickets/10536)** · Delete account
   > Please delete my email account as I do not use it.....please delete any payment subscriptions too
 
-### Webmail — 1 tickets
-
-- **[#10531](https://tbpro.zendesk.com/agent/tickets/10531)** · Webmail trash restore
-  > Hi, is it possible to restore emails deleted from trash in webmail? I deleted an email I shouldn't have in the last 48 hours. ;-;
-
 ### Other / uncategorized — 1 tickets
 
 - **[#10535](https://tbpro.zendesk.com/agent/tickets/10535)** · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help? — why: **concerned** · how: **explained**
@@ -365,9 +360,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10532](https://tbpro.zendesk.com/agent/tickets/10532)** · annual to monthly? — why: **curious** · how: **explained**
   > Can I do this monthly? and 72? for annually thats a great deal if I knew what I was getting into specifically. Your site says I could do this monthly. I am only getting annual…
 
+### Webmail — 1 tickets
+
+- **[#10531](https://tbpro.zendesk.com/agent/tickets/10531)** · Webmail trash restore — why: **blocked** · how: **explained**
+  > Hi, is it possible to restore emails deleted from trash in webmail? I deleted an email I shouldn't have in the last 48 hours. ;-;
+
 ## New tickets — last 24h
 
-- [10531](https://tbpro.zendesk.com/agent/tickets/10531) · [open] · 2026-10-27T21:00 · Webmail trash restore
+- [10531](https://tbpro.zendesk.com/agent/tickets/10531) · [pending] · 2026-10-27T21:00 · Webmail trash restore
 - [10532](https://tbpro.zendesk.com/agent/tickets/10532) · [pending] · 2026-10-27T21:21 · annual to monthly?
 - [10535](https://tbpro.zendesk.com/agent/tickets/10535) · [hold] · 2026-10-28T00:12 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
 - [10536](https://tbpro.zendesk.com/agent/tickets/10536) · [open] · 2026-10-28T00:53 · Delete account
@@ -385,6 +385,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10185](https://tbpro.zendesk.com/agent/tickets/10185) · 2026-10-27T21:02 · Thundermail Account Recovery Assistance
 - · [10106](https://tbpro.zendesk.com/agent/tickets/10106) · 2026-10-27T21:02 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
 - · [10432](https://tbpro.zendesk.com/agent/tickets/10432) · 2026-10-28T01:37 · Remove completely Thunderbird and Thundermail  from my Linux / Zorin laptop
+- · [10299](https://tbpro.zendesk.com/agent/tickets/10299) · 2026-10-28T14:01 · サンダーバードが動かない
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
