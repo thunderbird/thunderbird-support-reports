@@ -1,17 +1,17 @@
-# Thundermail — Flight 8 Live Report · 2026-10-27
+# Thundermail — Flight 8 Live Report · 2026-10-28
 
-_Updated: **2026-10-27 23:20 ET** · refreshes hourly_  
-_24h window: 2026-10-26T16:00 → 2026-10-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-28 00:20 ET** · refreshes hourly_  
+_24h window: 2026-10-27T16:00 → 2026-10-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 79** of rollout — **35,000 invitees**, **928 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 80** of rollout — **35,000 invitees**, **928 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **15** solved in last 24h
+- **6** new tickets in last 24h · **9** solved in last 24h
 - **928** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (8 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
 - **Median AHT**: 136.5h · mean 166.2h (proxy: updated_at − created_at, 64 solved tickets)
@@ -247,19 +247,16 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · _delete and cancel_
-  > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
-- [10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · _Refund Request_
-  > Apologies - I can't use this service with a fully featured calendar. I'd like a refund. I'll potentially return in the future when the service is more complete.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 1 new:
 
-- [Email aliases in thunderbird](https://ideas.tb.pro/p/email-aliases-in-thunderbird) · 1 votes · _untagged_
-  > Would like a way to copy aliases of thundermail in thunderbird instead of logging into the web portal. The only way I can see aliases made for thundermail is to create a new message, selecting the…
+- [usage of the email, and apps](https://ideas.tb.pro/p/usage-of-the-email-and-apps) · 1 votes · _untagged_
+  > What you’d like to see Briefly describe the feature or improvement. Why it matters What problem does this solve, or what benefit does it bring? Your use case Share an example of how you’d use this…
 
 ## Status breakdown (cumulative)
 
@@ -338,92 +335,56 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
+### Pricing / monthly plan / free tier — 1 tickets
 
-- **[#10529](https://tbpro.zendesk.com/agent/tickets/10529)** · Re: [Thundermail] Re: move Alias to Account — why: **curious** · how: **informed**
-  > This is a follow-up to your previous request #9425 "move Alias to Account" Hi, I got now a new inviitation and tried moving an alias for a second new registration/subscription. On…
-- **[#10514](https://tbpro.zendesk.com/agent/tickets/10514)** · 501 5.5.4 You are not allowed to send from this address — why: **blocked** · how: **escalated**
-  > Sending from my custom-domain alias [email] (verified domain, alias exists on [email]) intermittently fails: after successful AUTH PLAIN, MAIL FROM:<[email]> returns 501 5.5.4 You…
+- **[#10538](https://tbpro.zendesk.com/agent/tickets/10538)** · Can't pay for amnual subscription yet
+  > If either you can wait until November 5th or set up a way for me to pay monthly fees it would be great. Thamks in advance.
 
-### Appointment / calendar — 2 tickets
+### Thunderbird for Android + Thundermail — 1 tickets
 
-- **[#10498](https://tbpro.zendesk.com/agent/tickets/10498)** · UX TEST/ Scenario: Export my data — why: **curious** · how: **explained**
-  > I am testing what would happen during off boarding. **Scenario: user wants to export their data as they are deleting their Thundermail account. This includes Thundermail, Send and…
-- **[#10519](https://tbpro.zendesk.com/agent/tickets/10519)** · shared calendar — why: **request** · how: **redirected**
-  > I'm looking for a link that I can use to share my calendar with my wife. She uses gmail. And I'd also like to see my calendar on my work conputer using outlook.
+- **[#10537](https://tbpro.zendesk.com/agent/tickets/10537)** · Using my new email with you now but question
+  > I'm using the app on my phone with my new email. Problem is I'm not seeing the calendar, is there a different app I am missing?
 
-### Subscription / billing / refund / cancel — 2 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#10528](https://tbpro.zendesk.com/agent/tickets/10528)** · Refund Request — why: **change request** · how: **actioned**
-  > Apologies - I can't use this service with a fully featured calendar. I'd like a refund. I'll potentially return in the future when the service is more complete.
-- **[#10524](https://tbpro.zendesk.com/agent/tickets/10524)** · delete and cancel — why: **change request** · how: **actioned**
-  > Can you please delete my account? I tried this service but have decided it won't work for me. Thanks.
+- **[#10536](https://tbpro.zendesk.com/agent/tickets/10536)** · Delete account
+  > Please delete my email account as I do not use it.....please delete any payment subscriptions too
 
-### Other / uncategorized — 2 tickets
+### Webmail — 1 tickets
 
-- **[#10521](https://tbpro.zendesk.com/agent/tickets/10521)** · New version; can't find In-box — why: **blocked** · how: **redirected**
-  > I can't figure our how to access the inbox in the new version of T-bird
-- **[#10503](https://tbpro.zendesk.com/agent/tickets/10503)** · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao — why: **telling us**
-  > This is an email abuse report for an email message from [domain] on Mon, 26 Oct 2026 16:32:49 +0000 -- Forwarded part --
+- **[#10531](https://tbpro.zendesk.com/agent/tickets/10531)** · Webmail trash restore
+  > Hi, is it possible to restore emails deleted from trash in webmail? I deleted an email I shouldn't have in the last 48 hours. ;-;
+
+### Other / uncategorized — 1 tickets
+
+- **[#10535](https://tbpro.zendesk.com/agent/tickets/10535)** · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help? — why: **concerned** · how: **explained**
+  > This is a follow-up to your previous request #10081 "Re: Support Feedback: MACOS..." YES still need help.I Am off gris and dealing with multiple issues. Please keep support ticket…
 
 ### Pricing — general pricing concern — 1 tickets
 
-- **[#10527](https://tbpro.zendesk.com/agent/tickets/10527)** · Subscription — why: **curious** · how: **explained**
-  > Hello, is there also a monthly plan? 1 Year subscription is pretty much, for a new service. Kind regards
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10516](https://tbpro.zendesk.com/agent/tickets/10516)** · delete my account — why: **change request** · how: **actioned**
-  > please delete my account and confirm. thank you.
-
-### Early bird signup — 1 tickets
-
-- **[#10510](https://tbpro.zendesk.com/agent/tickets/10510)** · Subscription Error — why: **confused** · how: **informed**
-  > Hi I believe I got an invitation (sent to [email]) to subscribe to thundermail. I used the subscribe button in the email you sent to subscribe but I believe I may have made some…
-
-### Account access issues — account recovery — 1 tickets
-
-- **[#10502](https://tbpro.zendesk.com/agent/tickets/10502)** · Change recovery email address — why: **request** · how: **actioned**
-  > I want to change the recovery email address to [email] . My thundermail id is - [email] .
-
-### Account access issues — 1 tickets
-
-- **[#10499](https://tbpro.zendesk.com/agent/tickets/10499)** · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
-  > Send uploads fail with "You don't have the key to decrypt this container". What customers see: uploads fail every time, any file size. In the web app the file disappears after…
+- **[#10532](https://tbpro.zendesk.com/agent/tickets/10532)** · annual to monthly? — why: **curious** · how: **explained**
+  > Can I do this monthly? and 72? for annually thats a great deal if I knew what I was getting into specifically. Your site says I could do this monthly. I am only getting annual…
 
 ## New tickets — last 24h
 
-- [10498](https://tbpro.zendesk.com/agent/tickets/10498) · [open] · 2026-10-26T22:14 · UX TEST/ Scenario: Export my data
-- [10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · 2026-10-26T22:29 · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
-- [10502](https://tbpro.zendesk.com/agent/tickets/10502) · [pending] · 2026-10-27T05:37 · Change recovery email address
-- [10503](https://tbpro.zendesk.com/agent/tickets/10503) · [solved] · 2026-10-27T06:33 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
-- [10510](https://tbpro.zendesk.com/agent/tickets/10510) · [pending] · 2026-10-27T11:38 · Subscription Error
-- [10514](https://tbpro.zendesk.com/agent/tickets/10514) · [pending] · 2026-10-27T13:37 · 501 5.5.4 You are not allowed to send from this address
-- [10516](https://tbpro.zendesk.com/agent/tickets/10516) · [pending] · 2026-10-27T13:52 · delete my account
-- [10519](https://tbpro.zendesk.com/agent/tickets/10519) · [pending] · 2026-10-27T15:03 · shared calendar
-- [10521](https://tbpro.zendesk.com/agent/tickets/10521) · [pending] · 2026-10-27T16:07 · New version; can't find In-box
-- [10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27T16:34 · delete and cancel
-- [10527](https://tbpro.zendesk.com/agent/tickets/10527) · [pending] · 2026-10-27T17:55 · Subscription
-- [10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27T18:19 · Refund Request
-- [10529](https://tbpro.zendesk.com/agent/tickets/10529) · [open] · 2026-10-27T19:21 · Re: [Thundermail] Re: move Alias to Account
+- [10531](https://tbpro.zendesk.com/agent/tickets/10531) · [open] · 2026-10-27T21:00 · Webmail trash restore
+- [10532](https://tbpro.zendesk.com/agent/tickets/10532) · [pending] · 2026-10-27T21:21 · annual to monthly?
+- [10535](https://tbpro.zendesk.com/agent/tickets/10535) · [hold] · 2026-10-28T00:12 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
+- [10536](https://tbpro.zendesk.com/agent/tickets/10536) · [open] · 2026-10-28T00:53 · Delete account
+- [10537](https://tbpro.zendesk.com/agent/tickets/10537) · [open] · 2026-10-28T01:09 · Using my new email with you now but question
+- [10538](https://tbpro.zendesk.com/agent/tickets/10538) · [open] · 2026-10-28T01:54 · Can't pay for amnual subscription yet
 
 ## Solved — last 24h
 
-- · [10234](https://tbpro.zendesk.com/agent/tickets/10234) · 2026-10-26T21:02 · Google not accepting [domain] as email address.
-- · [10181](https://tbpro.zendesk.com/agent/tickets/10181) · 2026-10-26T21:02 · Transparency
-- · [10280](https://tbpro.zendesk.com/agent/tickets/10280) · 2026-10-26T22:02 · ThunderMail Early Bird – Ready for everyday use?
-- · [10272](https://tbpro.zendesk.com/agent/tickets/10272) · 2026-10-26T22:02 · Custom domain is not working. 
-- · [10226](https://tbpro.zendesk.com/agent/tickets/10226) · 2026-10-26T22:12 · E-Mail 
-- · [10292](https://tbpro.zendesk.com/agent/tickets/10292) · 2026-10-27T00:01 · Email address
-- · [10503](https://tbpro.zendesk.com/agent/tickets/10503) · 2026-10-27T12:16 · FW:Fwd: ERINNERUNG: Dein Bring-A-Friend-Ticket für ALBA BERLIN vs. Surne Bilbao
-- · [10384](https://tbpro.zendesk.com/agent/tickets/10384) · 2026-10-27T16:02 · Custom domain email
-- 👍 [10294](https://tbpro.zendesk.com/agent/tickets/10294) · 2026-10-27T17:50 · Custom domain setting issue
-- · [10425](https://tbpro.zendesk.com/agent/tickets/10425) · 2026-10-27T18:01 · Domain setup with Namecheap
-- · [10334](https://tbpro.zendesk.com/agent/tickets/10334) · 2026-10-27T18:01 · Paßwort für meinen Thundermailaccount
-- · [10298](https://tbpro.zendesk.com/agent/tickets/10298) · 2026-10-27T18:01 · Password reset
-- · [10279](https://tbpro.zendesk.com/agent/tickets/10279) · 2026-10-27T18:01 · NEW ACCOUNT
-- · [9300](https://tbpro.zendesk.com/agent/tickets/9300) · 2026-10-27T18:26 · [Tracker] Incomplete DKIM customer-initiated fix
-- · [10295](https://tbpro.zendesk.com/agent/tickets/10295) · 2026-10-27T19:02 · cancellation
+- · [9640](https://tbpro.zendesk.com/agent/tickets/9640) · 2026-10-27T20:02 · New subscription - canceling, requesting refund
+- 👍 [10445](https://tbpro.zendesk.com/agent/tickets/10445) · 2026-10-27T20:09 · Plume Mail & Thundermail
+- 👍 [10372](https://tbpro.zendesk.com/agent/tickets/10372) · 2026-10-27T20:50 · Charged an International Transaction Fee
+- · [10341](https://tbpro.zendesk.com/agent/tickets/10341) · 2026-10-27T21:02 · 
+- · [10306](https://tbpro.zendesk.com/agent/tickets/10306) · 2026-10-27T21:02 · Desktop Application
+- · [10301](https://tbpro.zendesk.com/agent/tickets/10301) · 2026-10-27T21:02 · forget password
+- · [10185](https://tbpro.zendesk.com/agent/tickets/10185) · 2026-10-27T21:02 · Thundermail Account Recovery Assistance
+- · [10106](https://tbpro.zendesk.com/agent/tickets/10106) · 2026-10-27T21:02 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
+- · [10432](https://tbpro.zendesk.com/agent/tickets/10432) · 2026-10-28T01:37 · Remove completely Thunderbird and Thundermail  from my Linux / Zorin laptop
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
