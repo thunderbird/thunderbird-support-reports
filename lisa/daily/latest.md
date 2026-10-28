@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-28
 
-_Updated: **2026-10-28 18:16 ET** · refreshes hourly_  
+_Updated: **2026-10-28 19:15 ET** · refreshes hourly_  
 _24h window: 2026-10-27T16:00 → 2026-10-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 80** of rollout — **35,000 invitees**, **933 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 80** of rollout — **35,000 invitees**, **934 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **11** new tickets in last 24h · **12** solved in last 24h
-- **933** tickets total since launch · contact rate **3%** of 35000 invitees
+- **934** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
@@ -20,7 +20,7 @@ Flight 8 is **day 80** of rollout — **35,000 invitees**, **933 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"request refund understand"** — 2 tickets in 24h (new; baseline 0 cum) — [#10556](https://tbpro.zendesk.com/agent/tickets/10556), [#10562](https://tbpro.zendesk.com/agent/tickets/10562)
+- **"refund understand"** — 2 tickets in 24h (new; baseline 0 cum) — [#10556](https://tbpro.zendesk.com/agent/tickets/10556), [#10562](https://tbpro.zendesk.com/agent/tickets/10562)
 
 ## Known problems — 14 problem(s), 117 incident(s)
 
@@ -275,13 +275,13 @@ Regards, [name]_
 
 - **closed**: 774
 - **solved**: 69
-- **pending**: 60
+- **pending**: 58
 - **hold**: 19
-- **open**: 11
+- **open**: 14
 
 ## Service (cumulative)
 
-- **Account Hub**: 524
+- **Account Hub**: 525
 - **Thundermail**: 319
 - **Send**: 21
 - **Appointment**: 11
