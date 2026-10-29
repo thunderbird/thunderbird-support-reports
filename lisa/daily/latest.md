@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 14:21 ET** · refreshes hourly_  
+_Updated: **2026-10-29 15:15 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **943 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **945 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **8** solved in last 24h
-- **943** tickets total since launch · contact rate **3%** of 35000 invitees
+- **13** new tickets in last 24h · **8** solved in last 24h
+- **945** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
@@ -273,14 +273,14 @@ _(none in last 24h)_
 
 - **closed**: 776
 - **solved**: 68
-- **pending**: 66
-- **hold**: 18
-- **open**: 15
+- **pending**: 68
+- **hold**: 19
+- **open**: 14
 
 ## Service (cumulative)
 
-- **Account Hub**: 532
-- **Thundermail**: 320
+- **Account Hub**: 533
+- **Thundermail**: 321
 - **Send**: 22
 - **Appointment**: 11
 
@@ -292,7 +292,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
-- **curious** + **informed**: 48
+- **curious** + **informed**: 49
 - **blocked** + **investigated**: 43
 - **blocked** + **redirected**: 43
 - **request** + **redirected**: 41
@@ -346,12 +346,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Privacy / data / jurisdiction concerns — 2 tickets
+### Account access issues — 2 tickets
 
-- **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
-  > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
-- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
-  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
+- **[#10586](https://tbpro.zendesk.com/agent/tickets/10586)** · Lost access to [email]
+  > Hi, i am the owner of [email] and i lost my password cause it was on a bitwarden instance that i shut down by mistake, but when i click on recover it is not sending to any of my…
+- **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding
+  > I recently signed up for Thundermail and have connected the account to Thunderbird. Once I did that I got the ‘Welcome to Thundermail! Account added.’ tab in Thunderbird, where I…
 
 ### Other / uncategorized — 2 tickets
 
@@ -360,6 +360,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits? — why: **curious** · how: **informed**
   > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
 
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
+  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
+- **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
+  > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
+
 ### Account access issues — Account Hub trouble — 2 tickets
 
 - **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
@@ -367,10 +374,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
   > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
 
-### Account access issues — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding
-  > I recently signed up for Thundermail and have connected the account to Thunderbird. Once I did that I got the ‘Welcome to Thundermail! Account added.’ tab in Thunderbird, where I…
+- **[#10587](https://tbpro.zendesk.com/agent/tickets/10587)** · setting up mail on my phone using POP — why: **curious** · how: **informed**
+  > I paid for the year in advance as a Beta user, and was able to add the thundermail account to my laptop on Thunderbird. I've been using Crocker email on Thunderbird on my desktop…
 
 ### Aliases — 1 tickets
 
@@ -402,9 +409,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
 - [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [pending] · 2026-10-29T17:01 · Thudermail Invitation
 - [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [open] · 2026-10-29T17:01 · Recovery Email Change
-- [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [open] · 2026-10-29T17:27 · Request for Complete Account Deletion
+- [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [hold] · 2026-10-29T17:27 · Request for Complete Account Deletion
 - [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [open] · 2026-10-29T17:35 · send setup is not responding
 - [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
+- [10586](https://tbpro.zendesk.com/agent/tickets/10586) · [open] · 2026-10-29T18:32 · Lost access to [email]
+- [10587](https://tbpro.zendesk.com/agent/tickets/10587) · [pending] · 2026-10-29T18:46 · setting up mail on my phone using POP
 
 ## Solved — last 24h
 
