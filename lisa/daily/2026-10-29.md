@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 02:27 ET** · refreshes hourly_  
+_Updated: **2026-10-29 03:19 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **935 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **936 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
-- **935** tickets total since launch · contact rate **3%** of 35000 invitees
+- **4** new tickets in last 24h · **7** solved in last 24h
+- **936** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
@@ -125,7 +125,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **935 tickets** so fa
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [pending] · 2026-10-28 · _Delete account_
-  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28 · _Delete acount_
+  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [open] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
 
@@ -266,13 +266,14 @@ _(none in last 24h)_
 
 - **closed**: 774
 - **solved**: 69
-- **pending**: 56
+- **pending**: 55
 - **hold**: 19
-- **open**: 17
+- **open**: 18
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 526
+- **Account Hub**: 527
 - **Thundermail**: 319
 - **Send**: 21
 - **Appointment**: 11
@@ -339,6 +340,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Email migration / import — 1 tickets
+
+- **[#10569](https://tbpro.zendesk.com/agent/tickets/10569)** · How long after registration should I subscribe?
+  > I'm considering migrating to Thundermail, but it will take some time, and I'm wondering if I can wait a few days after registering before deciding to pay or cancel my account. For…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
@@ -359,6 +365,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
 - [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [open] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
 - [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
+- [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [new] · 2026-10-29T07:00 · How long after registration should I subscribe?
 
 ## Solved — last 24h
 
