@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 13:16 ET** · refreshes hourly_  
+_Updated: **2026-10-29 14:21 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **940 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **943 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **8** solved in last 24h
-- **940** tickets total since launch · contact rate **3%** of 35000 invitees
+- **11** new tickets in last 24h · **8** solved in last 24h
+- **943** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
 - **Median AHT**: 137.4h · mean 155.4h (proxy: updated_at − created_at, 68 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"dear team"** — 2 tickets in 24h (14.5× baseline; baseline 11 cum) — [#10565](https://tbpro.zendesk.com/agent/tickets/10565), [#10582](https://tbpro.zendesk.com/agent/tickets/10582)
 
 ## Known problems — 14 problem(s), 118 incident(s)
 
@@ -267,29 +273,29 @@ _(none in last 24h)_
 
 - **closed**: 776
 - **solved**: 68
-- **pending**: 63
+- **pending**: 66
 - **hold**: 18
 - **open**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 530
-- **Thundermail**: 319
-- **Send**: 21
+- **Account Hub**: 532
+- **Thundermail**: 320
+- **Send**: 22
 - **Appointment**: 11
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 184
+- **curious** + **explained**: 185
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
-- **curious** + **informed**: 47
+- **curious** + **informed**: 48
 - **blocked** + **investigated**: 43
 - **blocked** + **redirected**: 43
-- **request** + **redirected**: 40
+- **request** + **redirected**: 41
 - **confused** + **informed**: 38
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 19
@@ -315,6 +321,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **telling us** + **—**: 3
+- **request** + **actioned**: 3
 - **change request** + **informed**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
@@ -324,7 +331,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **investigated**: 2
 - **curious** + **investigated**: 2
 - **telling us** + **escalated**: 2
-- **request** + **actioned**: 2
 - **curious** + **redirected**: 2
 - **concerned** + **n/a**: 2
 - **telling us** + **informed**: 1
@@ -340,11 +346,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
+  > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
+- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
+  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10581](https://tbpro.zendesk.com/agent/tickets/10581)** · Recovery Email Change
   > Hello! Please change my recovery email. OLD: [email] NEW: [email] Thanks!
-- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits?
+- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits? — why: **curious** · how: **informed**
   > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
 
 ### Account access issues — Account Hub trouble — 2 tickets
@@ -354,15 +367,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
   > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
 
+### Account access issues — 1 tickets
+
+- **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding
+  > I recently signed up for Thundermail and have connected the account to Thunderbird. Once I did that I got the ‘Welcome to Thundermail! Account added.’ tab in Thunderbird, where I…
+
+### Aliases — 1 tickets
+
+- **[#10584](https://tbpro.zendesk.com/agent/tickets/10584)** · How to choose @[domain] domain instead of @[domain] ? — why: **curious** · how: **explained**
+  > I'd like to setup an email account using @[domain] domain instead of @[domain], how can I do it?
+
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#10580](https://tbpro.zendesk.com/agent/tickets/10580)** · Thudermail Invitation
+- **[#10580](https://tbpro.zendesk.com/agent/tickets/10580)** · Thudermail Invitation — why: **request** · how: **redirected**
   > Thanks for the Thundermail invitation. I have a domain and can adjust the DNS records, but I am concerned about how the email intended for other users on my domain will be…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
-  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
 
 ### Email migration / import — 1 tickets
 
@@ -380,10 +398,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [pending] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
 - [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
 - [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [pending] · 2026-10-29T07:00 · How long after registration should I subscribe?
-- [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [open] · 2026-10-29T08:53 · Sending limits?
+- [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [pending] · 2026-10-29T08:53 · Sending limits?
 - [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
-- [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [open] · 2026-10-29T17:01 · Thudermail Invitation
+- [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [pending] · 2026-10-29T17:01 · Thudermail Invitation
 - [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [open] · 2026-10-29T17:01 · Recovery Email Change
+- [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [open] · 2026-10-29T17:27 · Request for Complete Account Deletion
+- [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [open] · 2026-10-29T17:35 · send setup is not responding
+- [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
 
 ## Solved — last 24h
 
