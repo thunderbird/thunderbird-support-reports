@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 09:18 ET** · refreshes hourly_  
+_Updated: **2026-10-29 10:19 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **937 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **938 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
-- **937** tickets total since launch · contact rate **3%** of 35000 invitees
+- **6** new tickets in last 24h · **7** solved in last 24h
+- **938** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
 - **Median AHT**: 137.8h · mean 160.9h (proxy: updated_at − created_at, 69 solved tickets)
 
-## Known problems — 14 problem(s), 117 incident(s)
+## Known problems — 14 problem(s), 118 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **937 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 95 incident(s):
+- 96 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -118,6 +118,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **937 tickets** so fa
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [closed] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [solved] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [solved] · 2026-10-20 · _Monthly plans _
+  - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22 · _domain setup issue_
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [solved] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [solved] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [pending] · 2026-10-25 · _account cancelation and refund request_
@@ -266,15 +267,14 @@ _(none in last 24h)_
 
 - **closed**: 774
 - **solved**: 69
-- **pending**: 54
+- **pending**: 57
 - **hold**: 19
 - **open**: 19
-- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 527
-- **Thundermail**: 319
+- **Account Hub**: 529
+- **Thundermail**: 318
 - **Send**: 21
 - **Appointment**: 11
 
@@ -282,21 +282,21 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 182
-- **change request** + **actioned**: 128
-- **blocked** + **explained**: 112
+- **curious** + **explained**: 183
+- **change request** + **actioned**: 129
+- **blocked** + **explained**: 111
 - **confused** + **explained**: 81
 - **curious** + **informed**: 48
 - **blocked** + **investigated**: 43
-- **blocked** + **redirected**: 43
+- **blocked** + **redirected**: 42
 - **request** + **redirected**: 40
 - **confused** + **informed**: 38
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 19
 - **blocked** + **escalated**: 16
+- **confused** + **redirected**: 10
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
-- **confused** + **redirected**: 9
 - **confused** + **—**: 8
 - **blocked** + **—**: 8
 - **request** + **explained**: 7
@@ -340,6 +340,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — Account Hub trouble — 2 tickets
+
+- **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
+  > Es kommen keine E-Mails an, denke mein Account muss verlängert werden
+- **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
+  > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits?
@@ -360,18 +367,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10565](https://tbpro.zendesk.com/agent/tickets/10565)** · Reissue | Invitation "info@n****.de"
   > Dear [name], I lost the Mail for the [domain]-Beta. I had reissue a request for the E-Mail. Is there any change your can resend the Invite? Thanks in advance, Tizen
 
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
-  > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
-
 ## New tickets — last 24h
 
 - [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
 - [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [open] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
 - [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
-- [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [new] · 2026-10-29T07:00 · How long after registration should I subscribe?
-- [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [new] · 2026-10-29T08:53 · Sending limits?
+- [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [open] · 2026-10-29T07:00 · How long after registration should I subscribe?
+- [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [open] · 2026-10-29T08:53 · Sending limits?
+- [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
 
 ## Solved — last 24h
 
