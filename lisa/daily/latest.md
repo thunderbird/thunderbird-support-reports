@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 04:22 ET** · refreshes hourly_  
+_Updated: **2026-10-29 05:19 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **936 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **937 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
-- **936** tickets total since launch · contact rate **3%** of 35000 invitees
+- **5** new tickets in last 24h · **7** solved in last 24h
+- **937** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
@@ -269,7 +269,7 @@ _(none in last 24h)_
 - **pending**: 54
 - **hold**: 19
 - **open**: 19
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -340,6 +340,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits?
+  > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
+
 ### Email migration / import — 1 tickets
 
 - **[#10569](https://tbpro.zendesk.com/agent/tickets/10569)** · How long after registration should I subscribe?
@@ -366,6 +371,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [open] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
 - [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
 - [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [new] · 2026-10-29T07:00 · How long after registration should I subscribe?
+- [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [new] · 2026-10-29T08:53 · Sending limits?
 
 ## Solved — last 24h
 
