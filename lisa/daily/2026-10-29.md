@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 11:18 ET** · refreshes hourly_  
+_Updated: **2026-10-29 12:20 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **938 tickets** so fa
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 137.8h · mean 160.9h (proxy: updated_at − created_at, 69 solved tickets)
+- **Median AHT**: 137.6h · mean 156.0h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## Known problems — 14 problem(s), 118 incident(s)
 
@@ -126,7 +126,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **938 tickets** so fa
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [pending] · 2026-10-28 · _Delete account_
-  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [open] · 2026-10-28 · _Delete acount_
+  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
 
@@ -185,7 +185,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **938 tickets** so fa
 
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
-  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [hold] · 2026-10-13 · _Re: [Thundermail] Re: Send_
+  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [pending] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
@@ -265,11 +265,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 774
-- **solved**: 69
-- **pending**: 59
-- **hold**: 19
-- **open**: 17
+- **closed**: 776
+- **solved**: 67
+- **pending**: 63
+- **hold**: 18
+- **open**: 14
 
 ## Service (cumulative)
 
@@ -282,7 +282,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 183
+- **curious** + **explained**: 184
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
@@ -301,11 +301,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **—**: 8
 - **request** + **explained**: 7
 - **telling us** + **explained**: 6
+- **blocked** + **actioned**: 6
 - **concerned** + **investigated**: 6
 - **confused** + **investigated**: 6
 - **curious** + **actioned**: 5
-- **blocked** + **actioned**: 5
-- **curious** + **—**: 4
+- **curious** + **—**: 5
 - **telling us** + **n/a**: 4
 - **curious** + **escalated**: 3
 - **other** + **n/a**: 3
@@ -352,27 +352,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits?
   > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
 
-### Email migration / import — 1 tickets
-
-- **[#10569](https://tbpro.zendesk.com/agent/tickets/10569)** · How long after registration should I subscribe?
-  > I'm considering migrating to Thundermail, but it will take some time, and I'm wondering if I can wait a few days after registering before deciding to pay or cancel my account. For…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
   > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
 
-### Early bird / invite / waitlist — 1 tickets
+### Email migration / import — 1 tickets
 
-- **[#10565](https://tbpro.zendesk.com/agent/tickets/10565)** · Reissue | Invitation "info@n****.de"
+- **[#10569](https://tbpro.zendesk.com/agent/tickets/10569)** · How long after registration should I subscribe? — why: **curious**
+  > I'm considering migrating to Thundermail, but it will take some time, and I'm wondering if I can wait a few days after registering before deciding to pay or cancel my account. For…
+
+### Early bird signup — 1 tickets
+
+- **[#10565](https://tbpro.zendesk.com/agent/tickets/10565)** · Reissue | Invitation "info@n****.de" — why: **curious** · how: **explained**
   > Dear [name], I lost the Mail for the [domain]-Beta. I had reissue a request for the E-Mail. Is there any change your can resend the Invite? Thanks in advance, Tizen
 
 ## New tickets — last 24h
 
 - [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
-- [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [open] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
+- [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [pending] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
 - [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
-- [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [open] · 2026-10-29T07:00 · How long after registration should I subscribe?
+- [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [pending] · 2026-10-29T07:00 · How long after registration should I subscribe?
 - [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [open] · 2026-10-29T08:53 · Sending limits?
 - [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
 
