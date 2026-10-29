@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 17:15 ET** · refreshes hourly_  
+_Updated: **2026-10-29 18:16 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **949 tickets** so fa
 
 ## At a glance
 
-- **14** new tickets in last 24h · **8** solved in last 24h
+- **14** new tickets in last 24h · **7** solved in last 24h
 - **949** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
-- **Median AHT**: 136.5h · mean 154.1h (proxy: updated_at − created_at, 67 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
+- **Median AHT**: 136.5h · mean 154.4h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -260,7 +260,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [open] · _Request for refund – Thundermail Early Bird subscription_
+- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [pending] · _Request for refund – Thundermail Early Bird subscription_
   > Hello [name], I purchased the Thundermail Early Bird subscription on July 20, 2026, for $70. After more than three months of testing the service, I have unfortunately come to the conclusion that the current features and…
 
 ## New ideas on FeatureOS
@@ -272,17 +272,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 777
-- **pending**: 70
-- **solved**: 67
+- **closed**: 778
+- **pending**: 73
+- **solved**: 65
 - **hold**: 20
-- **open**: 15
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 533
-- **Thundermail**: 324
-- **Send**: 22
+- **Account Hub**: 535
+- **Thundermail**: 323
+- **Send**: 21
 - **Appointment**: 11
 
 ## Why × How (cumulative)
@@ -293,11 +293,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 82
-- **curious** + **informed**: 49
+- **curious** + **informed**: 50
 - **blocked** + **redirected**: 44
 - **blocked** + **investigated**: 43
 - **request** + **redirected**: 41
-- **confused** + **informed**: 38
+- **confused** + **informed**: 39
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 19
 - **blocked** + **escalated**: 16
@@ -347,12 +347,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 2 tickets
+### Account access issues — Account Hub trouble — 3 tickets
 
-- **[#10586](https://tbpro.zendesk.com/agent/tickets/10586)** · Lost access to [email]
-  > Hi, i am the owner of [email] and i lost my password cause it was on a bitwarden instance that i shut down by mistake, but when i click on recover it is not sending to any of my…
-- **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding
+- **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding — why: **confused** · how: **informed**
   > I recently signed up for Thundermail and have connected the account to Thunderbird. Once I did that I got the ‘Welcome to Thundermail! Account added.’ tab in Thunderbird, where I…
+- **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
+  > Es kommen keine E-Mails an, denke mein Account muss verlängert werden
+- **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
+  > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
 
 ### Privacy / data / jurisdiction concerns — 2 tickets
 
@@ -375,12 +377,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits? — why: **curious** · how: **informed**
   > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
 
-### Account access issues — Account Hub trouble — 2 tickets
+### Account access issues — 1 tickets
 
-- **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
-  > Es kommen keine E-Mails an, denke mein Account muss verlängert werden
-- **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
-  > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
+- **[#10586](https://tbpro.zendesk.com/agent/tickets/10586)** · Lost access to [email]
+  > Hi, i am the owner of [email] and i lost my password cause it was on a bitwarden instance that i shut down by mistake, but when i click on recover it is not sending to any of my…
 
 ### Aliases — 1 tickets
 
@@ -413,7 +413,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [pending] · 2026-10-29T17:01 · Thudermail Invitation
 - [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [pending] · 2026-10-29T17:01 · Recovery Email Change
 - [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [hold] · 2026-10-29T17:27 · Request for Complete Account Deletion
-- [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [open] · 2026-10-29T17:35 · send setup is not responding
+- [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [pending] · 2026-10-29T17:35 · send setup is not responding
 - [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
 - [10586](https://tbpro.zendesk.com/agent/tickets/10586) · [open] · 2026-10-29T18:32 · Lost access to [email]
 - [10587](https://tbpro.zendesk.com/agent/tickets/10587) · [pending] · 2026-10-29T18:46 · setting up mail on my phone using POP
@@ -427,7 +427,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-10-28T20:02 · Re: [Thundermail] Re: My folders do not sync
 - · [10365](https://tbpro.zendesk.com/agent/tickets/10365) · 2026-10-28T21:02 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
 - · [10399](https://tbpro.zendesk.com/agent/tickets/10399) · 2026-10-28T22:02 · cancellation
-- · [10439](https://tbpro.zendesk.com/agent/tickets/10439) · 2026-10-29T16:32 · Can I use my current email address?
 - · [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-29T19:31 · Bug report: Incorrect Sent folder message count in Thunderbird
 
 ---
