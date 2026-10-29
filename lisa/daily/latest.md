@@ -1,30 +1,25 @@
-# Thundermail — Flight 8 Live Report · 2026-10-28
+# Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-28 23:20 ET** · refreshes hourly_  
-_24h window: 2026-10-27T16:00 → 2026-10-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-29 00:20 ET** · refreshes hourly_  
+_24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 80** of rollout — **35,000 invitees**, **935 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **935 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **12** solved in last 24h
+- **3** new tickets in last 24h · **7** solved in last 24h
 - **935** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
 - **Median AHT**: 137.8h · mean 160.9h (proxy: updated_at − created_at, 69 solved tickets)
 
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"refund understand"** — 2 tickets in 24h (new; baseline 0 cum) — [#10556](https://tbpro.zendesk.com/agent/tickets/10556), [#10562](https://tbpro.zendesk.com/agent/tickets/10562)
-
 ## Known problems — 14 problem(s), 117 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
+- 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
 - 4 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
@@ -32,6 +27,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
+- ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
 - 1 incident(s):
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
@@ -134,6 +130,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
+- 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
 - 1 incident(s):
   - [#8399](https://tbpro.zendesk.com/agent/tickets/8399) · [hold] · 2026-09-05 · _Alias and Pro Email Address_
 
@@ -147,14 +144,17 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#8704](https://tbpro.zendesk.com/agent/tickets/8704) · [hold] · 2026-09-15 · _Configuration custom domains_
 
 ### [#8949](https://tbpro.zendesk.com/agent/tickets/8949) · [hold] · [thunderbird-accounts/1335] CORS error on contact form submission
+- 🔧 GitHub: [thunderbird/thunderbird-accounts#1335](https://github.com/thunderbird/thunderbird-accounts/issues/1335) · _[thunderbird-accounts/CORS error on contact form submission]_
 - 1 incident(s):
   - [#8913](https://tbpro.zendesk.com/agent/tickets/8913) · [closed] · 2026-09-21 · _Dark pattern for Terms of Service and Privacy Policy (or is it Statement?)_
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
+- 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 1 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
 
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [closed] · [stormbox/202] Stars misaligned in message list with blank message body
+- ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
 - 1 incident(s):
   - [#9180](https://tbpro.zendesk.com/agent/tickets/9180) · [closed] · 2026-09-26 · _featured off-site messages_
 
@@ -165,16 +165,20 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9199](https://tbpro.zendesk.com/agent/tickets/9199) · [closed] · 2026-09-28 · _Thundermail_
 
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
+- 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 2 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [hold] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
+- 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
 - 2 incident(s):
   - [#9284](https://tbpro.zendesk.com/agent/tickets/9284) · [hold] · 2026-09-29 · _Can't connect cardav to macOS_
   - [#9502](https://tbpro.zendesk.com/agent/tickets/9502) · [hold] · 2026-10-06 · _Adressbücher_
 
 ### [#10111](https://tbpro.zendesk.com/agent/tickets/10111) · [hold] · [stormbox/64] Mark or hide IMAP marked-as-deleted messages
+- 🔧 GitHub: [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64) · _Mark or hide IMAP marked-as-deleted messages_
+- ✅ GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
 - 1 incident(s):
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
 
@@ -182,6 +186,20 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [hold] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
+
+## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
+
+- 🔧 [zd #10078](https://tbpro.zendesk.com/agent/tickets/10078) → [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
+- 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
+- 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
+- 🔧 [zd #8400](https://tbpro.zendesk.com/agent/tickets/8400) → [thunderbird/thunderbird-accounts#1155](https://github.com/thunderbird/thunderbird-accounts/issues/1155) · _Disable thundermail/tbpro alias parity._
+- 🔧 [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1819](https://github.com/thunderbird/appointment/issues/1819) · _Bug in calendar sync with deleted calendars_
+- ✅ [zd #8358](https://tbpro.zendesk.com/agent/tickets/8358) → [thunderbird/appointment#1818](https://github.com/thunderbird/appointment/issues/1818) · _Bug in calendar sync_
+- ✅ [zd #8284](https://tbpro.zendesk.com/agent/tickets/8284) → [thunderbird/tbpro-add-on#1116](https://github.com/thunderbird/tbpro-add-on/issues/1116) · _Provisioning can orphan a root container from the keychain, making all uploads f_
+- ✅ [zd #8213](https://tbpro.zendesk.com/agent/tickets/8213) → [thunderbird/stormbox#110](https://github.com/thunderbird/stormbox/issues/110) · _Cannot choose to select custom domain as a "send" option_
+- ✅ [zd #8010](https://tbpro.zendesk.com/agent/tickets/8010) → [thunderbird/thunderbird-accounts#1242](https://github.com/thunderbird/thunderbird-accounts/issues/1242) · _Connect the sign-ups display name with account's user display name_
+- ✅ [zd #8004](https://tbpro.zendesk.com/agent/tickets/8004) → [thunderbird/thunderbird-accounts#1244](https://github.com/thunderbird/thunderbird-accounts/issues/1244) · _Fix address char limit for custom domains with catch alls_
+- ✅ [zd #7985](https://tbpro.zendesk.com/agent/tickets/7985) → [thunderbird/thunderbird-accounts#1239](https://github.com/thunderbird/thunderbird-accounts/issues/1239) · _Ensure that orphaned/existing Stalwart principals cannot be linked to new user c_
 
 ## Negative CSAT (since launch)
 
@@ -233,19 +251,16 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · _Cancel / refund_
-  > Hello, I would like to cancel my Thundermail account and request a refund. I understand I can do this without issue within 14 days. Thank you, [name]
-- [10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · _just cancelled my subscription - please let me know how to request a refund_
-  > Hello, I just cancelled my subscription - please let me know how to request a refund. I understand I could do so within 14 days. Thank you.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 1 new:
 
-- [usage of the email, and apps](https://ideas.tb.pro/p/usage-of-the-email-and-apps) · 1 votes · _untagged_
-  > What you’d like to see Briefly describe the feature or improvement. Why it matters What problem does this solve, or what benefit does it bring? Your use case Share an example of how you’d use this…
+- [AI-driven filter for incoming mail](https://ideas.tb.pro/p/ai-driven-filter-for-incoming-mail) · 1 votes · _untagged_
+  > What you’d like to see Let AI pre-read incoming messages and sort them into broad categories, with a prompt line that I can use to guide its choices. I don’t need AI to craft responses for me, but I…
 
 ## Status breakdown (cumulative)
 
@@ -325,80 +340,36 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 3 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#10562](https://tbpro.zendesk.com/agent/tickets/10562)** · just cancelled my subscription - please let me know how to request a refund — why: **change request** · how: **actioned**
-  > Hello, I just cancelled my subscription - please let me know how to request a refund. I understand I could do so within 14 days. Thank you.
-- **[#10556](https://tbpro.zendesk.com/agent/tickets/10556)** · Cancel / refund — why: **change request** · how: **actioned**
-  > Hello, I would like to cancel my Thundermail account and request a refund. I understand I can do this without issue within 14 days. Thank you, [name]
-- **[#10536](https://tbpro.zendesk.com/agent/tickets/10536)** · Delete account — why: **change request** · how: **actioned**
-  > Please delete my email account as I do not use it.....please delete any payment subscriptions too
+- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
+  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
 
-### Pricing — general pricing concern — 2 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#10538](https://tbpro.zendesk.com/agent/tickets/10538)** · Can't pay for amnual subscription yet — why: **curious** · how: **explained**
-  > If either you can wait until November 5th or set up a way for me to pay monthly fees it would be great. Thamks in advance.
-- **[#10532](https://tbpro.zendesk.com/agent/tickets/10532)** · annual to monthly? — why: **curious** · how: **explained**
-  > Can I do this monthly? and 72? for annually thats a great deal if I knew what I was getting into specifically. Your site says I could do this monthly. I am only getting annual…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#10558](https://tbpro.zendesk.com/agent/tickets/10558)** · Security Inquiry – DNSSEC and Ed25519 DKIM Verification for [domain] and [domain]
-  > Dear [name] / Thundermail Security Team, I am a Thundermail user with the following email addresses: - [email] - [email] As part of a personal security assessment, I conducted…
+- **[#10565](https://tbpro.zendesk.com/agent/tickets/10565)** · Reissue | Invitation "info@n****.de"
+  > Dear [name], I lost the Mail for the [domain]-Beta. I had reissue a request for the E-Mail. Is there any change your can resend the Invite? Thanks in advance, Tizen
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#10557](https://tbpro.zendesk.com/agent/tickets/10557)** · thunderbird — why: **confused** · how: **redirected**
-  > comment creer le symbole envoye ?
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10549](https://tbpro.zendesk.com/agent/tickets/10549)** · Delete acount — why: **change request** · how: **actioned**
-  > please delete my account
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#10537](https://tbpro.zendesk.com/agent/tickets/10537)** · Using my new email with you now but question — why: **confused** · how: **informed**
-  > I'm using the app on my phone with my new email. Problem is I'm not seeing the calendar, is there a different app I am missing?
-
-### Other / uncategorized — 1 tickets
-
-- **[#10535](https://tbpro.zendesk.com/agent/tickets/10535)** · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help? — why: **concerned** · how: **explained**
-  > This is a follow-up to your previous request #10081 "Re: Support Feedback: MACOS..." YES still need help.I Am off gris and dealing with multiple issues. Please keep support ticket…
-
-### Webmail — 1 tickets
-
-- **[#10531](https://tbpro.zendesk.com/agent/tickets/10531)** · Webmail trash restore — why: **blocked** · how: **explained**
-  > Hi, is it possible to restore emails deleted from trash in webmail? I deleted an email I shouldn't have in the last 48 hours. ;-;
+- **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
+  > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
 
 ## New tickets — last 24h
 
-- [10531](https://tbpro.zendesk.com/agent/tickets/10531) · [pending] · 2026-10-27T21:00 · Webmail trash restore
-- [10532](https://tbpro.zendesk.com/agent/tickets/10532) · [pending] · 2026-10-27T21:21 · annual to monthly?
-- [10535](https://tbpro.zendesk.com/agent/tickets/10535) · [hold] · 2026-10-28T00:12 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
-- [10536](https://tbpro.zendesk.com/agent/tickets/10536) · [pending] · 2026-10-28T00:53 · Delete account
-- [10537](https://tbpro.zendesk.com/agent/tickets/10537) · [pending] · 2026-10-28T01:09 · Using my new email with you now but question
-- [10538](https://tbpro.zendesk.com/agent/tickets/10538) · [pending] · 2026-10-28T01:54 · Can't pay for amnual subscription yet
-- [10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28T14:49 · Delete acount
-- [10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · 2026-10-28T17:48 · Cancel / refund
-- [10557](https://tbpro.zendesk.com/agent/tickets/10557) · [pending] · 2026-10-28T18:11 · thunderbird
-- [10558](https://tbpro.zendesk.com/agent/tickets/10558) · [open] · 2026-10-28T18:14 · Security Inquiry – DNSSEC and Ed25519 DKIM Verification for [domain] and [domain]
-- [10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · 2026-10-28T19:57 · just cancelled my subscription - please let me know how to request a refund
+- [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
+- [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [open] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
+- [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [new] · 2026-10-29T00:49 · Want to delete my account
 
 ## Solved — last 24h
 
-- · [9640](https://tbpro.zendesk.com/agent/tickets/9640) · 2026-10-27T20:02 · New subscription - canceling, requesting refund
-- 👍 [10445](https://tbpro.zendesk.com/agent/tickets/10445) · 2026-10-27T20:09 · Plume Mail & Thundermail
-- 👍 [10372](https://tbpro.zendesk.com/agent/tickets/10372) · 2026-10-27T20:50 · Charged an International Transaction Fee
-- · [10341](https://tbpro.zendesk.com/agent/tickets/10341) · 2026-10-27T21:02 · 
-- · [10306](https://tbpro.zendesk.com/agent/tickets/10306) · 2026-10-27T21:02 · Desktop Application
-- · [10301](https://tbpro.zendesk.com/agent/tickets/10301) · 2026-10-27T21:02 · forget password
-- · [10185](https://tbpro.zendesk.com/agent/tickets/10185) · 2026-10-27T21:02 · Thundermail Account Recovery Assistance
-- · [10106](https://tbpro.zendesk.com/agent/tickets/10106) · 2026-10-27T21:02 · Urgent Attention : Amanda(Thundermail Support) - Multiple Emails
-- · [10299](https://tbpro.zendesk.com/agent/tickets/10299) · 2026-10-28T14:01 · サンダーバードが動かない
-- · [10360](https://tbpro.zendesk.com/agent/tickets/10360) · 2026-10-28T15:01 · new account
-- · [10369](https://tbpro.zendesk.com/agent/tickets/10369) · 2026-10-28T18:02 · einige Ordner wiederherstellen
-- · [10368](https://tbpro.zendesk.com/agent/tickets/10368) · 2026-10-28T18:02 · POP3 transition from existing email account portfolio to JMAP
+- · [10397](https://tbpro.zendesk.com/agent/tickets/10397) · 2026-10-28T20:02 · loginkode
+- · [10363](https://tbpro.zendesk.com/agent/tickets/10363) · 2026-10-28T20:02 · problem logging in with Android phone 
+- · [10355](https://tbpro.zendesk.com/agent/tickets/10355) · 2026-10-28T20:02 · cancellation of the subscription
+- · [10236](https://tbpro.zendesk.com/agent/tickets/10236) · 2026-10-28T20:02 · Passwort
+- · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-10-28T20:02 · Re: [Thundermail] Re: My folders do not sync
+- · [10365](https://tbpro.zendesk.com/agent/tickets/10365) · 2026-10-28T21:02 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
+- · [10399](https://tbpro.zendesk.com/agent/tickets/10399) · 2026-10-28T22:02 · cancellation
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
