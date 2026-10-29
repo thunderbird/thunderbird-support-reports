@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 00:20 ET** · refreshes hourly_  
+_Updated: **2026-10-29 01:17 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -266,10 +266,9 @@ _(none in last 24h)_
 
 - **closed**: 774
 - **solved**: 69
-- **pending**: 54
+- **pending**: 56
 - **hold**: 19
-- **open**: 18
-- **new**: 1
+- **open**: 17
 
 ## Service (cumulative)
 
@@ -359,7 +358,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
 - [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [open] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
-- [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [new] · 2026-10-29T00:49 · Want to delete my account
+- [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
 
 ## Solved — last 24h
 
