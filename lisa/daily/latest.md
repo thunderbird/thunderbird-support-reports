@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 12:20 ET** · refreshes hourly_  
+_Updated: **2026-10-29 13:16 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **938 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **940 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **7** solved in last 24h
-- **938** tickets total since launch · contact rate **3%** of 35000 invitees
+- **8** new tickets in last 24h · **8** solved in last 24h
+- **940** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 137.6h · mean 156.0h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 137.4h · mean 155.4h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 14 problem(s), 118 incident(s)
 
@@ -266,15 +266,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 776
-- **solved**: 67
+- **solved**: 68
 - **pending**: 63
 - **hold**: 18
-- **open**: 14
+- **open**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 529
-- **Thundermail**: 318
+- **Account Hub**: 530
+- **Thundermail**: 319
 - **Send**: 21
 - **Appointment**: 11
 
@@ -286,9 +286,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 81
-- **curious** + **informed**: 48
+- **curious** + **informed**: 47
 - **blocked** + **investigated**: 43
-- **blocked** + **redirected**: 42
+- **blocked** + **redirected**: 43
 - **request** + **redirected**: 40
 - **confused** + **informed**: 38
 - **concerned** + **explained**: 31
@@ -340,6 +340,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#10581](https://tbpro.zendesk.com/agent/tickets/10581)** · Recovery Email Change
+  > Hello! Please change my recovery email. OLD: [email] NEW: [email] Thanks!
+- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits?
+  > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
+
 ### Account access issues — Account Hub trouble — 2 tickets
 
 - **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
@@ -347,10 +354,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
   > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
 
-### Other / uncategorized — 1 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits?
-  > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
+- **[#10580](https://tbpro.zendesk.com/agent/tickets/10580)** · Thudermail Invitation
+  > Thanks for the Thundermail invitation. I have a domain and can adjust the DNS records, but I am concerned about how the email intended for other users on my domain will be…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -375,6 +382,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [pending] · 2026-10-29T07:00 · How long after registration should I subscribe?
 - [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [open] · 2026-10-29T08:53 · Sending limits?
 - [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
+- [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [open] · 2026-10-29T17:01 · Thudermail Invitation
+- [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [open] · 2026-10-29T17:01 · Recovery Email Change
 
 ## Solved — last 24h
 
@@ -385,6 +394,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-10-28T20:02 · Re: [Thundermail] Re: My folders do not sync
 - · [10365](https://tbpro.zendesk.com/agent/tickets/10365) · 2026-10-28T21:02 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
 - · [10399](https://tbpro.zendesk.com/agent/tickets/10399) · 2026-10-28T22:02 · cancellation
+- · [10439](https://tbpro.zendesk.com/agent/tickets/10439) · 2026-10-29T16:32 · Can I use my current email address?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
