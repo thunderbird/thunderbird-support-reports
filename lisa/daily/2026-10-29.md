@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 16:18 ET** · refreshes hourly_  
+_Updated: **2026-10-29 17:15 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **948 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **949 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **9** solved in last 24h
-- **948** tickets total since launch · contact rate **3%** of 35000 invitees
+- **14** new tickets in last 24h · **8** solved in last 24h
+- **949** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
-- **Median AHT**: 136.8h · mean 153.9h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 136.5h · mean 154.1h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -191,7 +191,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
-  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13 · _Re: [Thundermail] Re: Send_
+  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [pending] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [pending] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
@@ -274,14 +274,14 @@ Regards, [name]_
 
 - **closed**: 777
 - **pending**: 70
-- **solved**: 68
-- **hold**: 19
-- **open**: 14
+- **solved**: 67
+- **hold**: 20
+- **open**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 533
-- **Thundermail**: 323
+- **Thundermail**: 324
 - **Send**: 22
 - **Appointment**: 11
 
@@ -289,7 +289,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 185
+- **curious** + **explained**: 186
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 82
@@ -354,13 +354,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding
   > I recently signed up for Thundermail and have connected the account to Thunderbird. Once I did that I got the ‘Welcome to Thundermail! Account added.’ tab in Thunderbird, where I…
 
-### Other / uncategorized — 2 tickets
-
-- **[#10581](https://tbpro.zendesk.com/agent/tickets/10581)** · Recovery Email Change
-  > Hello! Please change my recovery email. OLD: [email] NEW: [email] Thanks!
-- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits? — why: **curious** · how: **informed**
-  > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
-
 ### Privacy / data / jurisdiction concerns — 2 tickets
 
 - **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
@@ -374,6 +367,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Not sure if this is a Thundermail or Thunderbird issues, but … I have added a subscribed calendar to Thunderbird Calendar using an URL. It is a public calendar. It shows in my…
 - **[#10587](https://tbpro.zendesk.com/agent/tickets/10587)** · setting up mail on my phone using POP — why: **curious** · how: **informed**
   > I paid for the year in advance as a Beta user, and was able to add the thundermail account to my laptop on Thunderbird. I've been using Crocker email on Thunderbird on my desktop…
+
+### Other / uncategorized — 2 tickets
+
+- **[#10581](https://tbpro.zendesk.com/agent/tickets/10581)** · Recovery Email Change — why: **curious** · how: **explained**
+  > Hello! Please change my recovery email. OLD: [email] NEW: [email] Thanks!
+- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits? — why: **curious** · how: **informed**
+  > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
 
 ### Account access issues — Account Hub trouble — 2 tickets
 
@@ -411,7 +411,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [pending] · 2026-10-29T08:53 · Sending limits?
 - [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
 - [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [pending] · 2026-10-29T17:01 · Thudermail Invitation
-- [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [open] · 2026-10-29T17:01 · Recovery Email Change
+- [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [pending] · 2026-10-29T17:01 · Recovery Email Change
 - [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [hold] · 2026-10-29T17:27 · Request for Complete Account Deletion
 - [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [open] · 2026-10-29T17:35 · send setup is not responding
 - [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
@@ -422,7 +422,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [10397](https://tbpro.zendesk.com/agent/tickets/10397) · 2026-10-28T20:02 · loginkode
-- · [10363](https://tbpro.zendesk.com/agent/tickets/10363) · 2026-10-28T20:02 · problem logging in with Android phone 
 - · [10355](https://tbpro.zendesk.com/agent/tickets/10355) · 2026-10-28T20:02 · cancellation of the subscription
 - · [10236](https://tbpro.zendesk.com/agent/tickets/10236) · 2026-10-28T20:02 · Passwort
 - · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-10-28T20:02 · Re: [Thundermail] Re: My folders do not sync
