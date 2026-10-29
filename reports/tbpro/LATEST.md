@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 15:15 ET** · refreshes hourly_  
+_Updated: **2026-10-29 16:18 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **945 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **948 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **8** solved in last 24h
-- **945** tickets total since launch · contact rate **3%** of 35000 invitees
+- **14** new tickets in last 24h · **9** solved in last 24h
+- **948** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 92
-- **Median AHT**: 137.4h · mean 155.4h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 136.8h · mean 153.9h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -258,9 +258,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [open] · _Request for refund – Thundermail Early Bird subscription_
+  > Hello [name], I purchased the Thundermail Early Bird subscription on July 20, 2026, for $70. After more than three months of testing the service, I have unfortunately come to the conclusion that the current features and…
 
 ## New ideas on FeatureOS
 
@@ -271,16 +272,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 776
+- **closed**: 777
+- **pending**: 70
 - **solved**: 68
-- **pending**: 68
 - **hold**: 19
 - **open**: 14
 
 ## Service (cumulative)
 
 - **Account Hub**: 533
-- **Thundermail**: 321
+- **Thundermail**: 323
 - **Send**: 22
 - **Appointment**: 11
 
@@ -291,10 +292,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 185
 - **change request** + **actioned**: 129
 - **blocked** + **explained**: 111
-- **confused** + **explained**: 81
+- **confused** + **explained**: 82
 - **curious** + **informed**: 49
+- **blocked** + **redirected**: 44
 - **blocked** + **investigated**: 43
-- **blocked** + **redirected**: 43
 - **request** + **redirected**: 41
 - **confused** + **informed**: 38
 - **concerned** + **explained**: 31
@@ -367,17 +368,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
   > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
 
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+
+- **[#10590](https://tbpro.zendesk.com/agent/tickets/10590)** · Subscribed Calendars — why: **blocked** · how: **redirected**
+  > Not sure if this is a Thundermail or Thunderbird issues, but … I have added a subscribed calendar to Thunderbird Calendar using an URL. It is a public calendar. It shows in my…
+- **[#10587](https://tbpro.zendesk.com/agent/tickets/10587)** · setting up mail on my phone using POP — why: **curious** · how: **informed**
+  > I paid for the year in advance as a Beta user, and was able to add the thundermail account to my laptop on Thunderbird. I've been using Crocker email on Thunderbird on my desktop…
+
 ### Account access issues — Account Hub trouble — 2 tickets
 
 - **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
   > Es kommen keine E-Mails an, denke mein Account muss verlängert werden
 - **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
   > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10587](https://tbpro.zendesk.com/agent/tickets/10587)** · setting up mail on my phone using POP — why: **curious** · how: **informed**
-  > I paid for the year in advance as a Beta user, and was able to add the thundermail account to my laptop on Thunderbird. I've been using Crocker email on Thunderbird on my desktop…
 
 ### Aliases — 1 tickets
 
@@ -414,6 +417,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
 - [10586](https://tbpro.zendesk.com/agent/tickets/10586) · [open] · 2026-10-29T18:32 · Lost access to [email]
 - [10587](https://tbpro.zendesk.com/agent/tickets/10587) · [pending] · 2026-10-29T18:46 · setting up mail on my phone using POP
+- [10590](https://tbpro.zendesk.com/agent/tickets/10590) · [pending] · 2026-10-29T19:25 · Subscribed Calendars
 
 ## Solved — last 24h
 
@@ -425,6 +429,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10365](https://tbpro.zendesk.com/agent/tickets/10365) · 2026-10-28T21:02 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
 - · [10399](https://tbpro.zendesk.com/agent/tickets/10399) · 2026-10-28T22:02 · cancellation
 - · [10439](https://tbpro.zendesk.com/agent/tickets/10439) · 2026-10-29T16:32 · Can I use my current email address?
+- · [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-29T19:31 · Bug report: Incorrect Sent folder message count in Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
