@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 03:18 ET** · refreshes hourly_  
+_Updated: **2026-10-30 04:22 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **952 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **954 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **0** solved in last 24h
-- **952** tickets total since launch · contact rate **3%** of 35000 invitees
+- **8** new tickets in last 24h · **0** solved in last 24h
+- **954** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
@@ -271,13 +271,13 @@ Regards, [name]_
 - **pending**: 68
 - **solved**: 56
 - **hold**: 20
-- **open**: 19
-- **new**: 2
+- **open**: 20
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 536
-- **Thundermail**: 325
+- **Account Hub**: 537
+- **Thundermail**: 326
 - **Send**: 21
 - **Appointment**: 11
 
@@ -300,7 +300,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **redirected**: 10
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
-- **confused** + **—**: 8
+- **confused** + **—**: 9
 - **blocked** + **—**: 8
 - **request** + **explained**: 7
 - **telling us** + **explained**: 6
@@ -343,6 +343,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons
+  > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
+- **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
+  > perhaps fix this?
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund
@@ -350,15 +357,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
   > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 
+### Aliases — 1 tickets
+
+- **[#10606](https://tbpro.zendesk.com/agent/tickets/10606)** · Re: Messed up registration?: still need help? — why: **confused**
+  > This is a follow-up to your previous request #9621 "Messed up registration?" Hi! I'm good. I got it to work. Thanks!
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP
   > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
-
-### Other / uncategorized — 1 tickets
-
-- **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
-  > perhaps fix this?
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -378,6 +385,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · 2026-10-30T01:39 · Refund
 - [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [new] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
+- [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [new] · 2026-10-30T08:09 · Option to have text labels on buttons
+- [10606](https://tbpro.zendesk.com/agent/tickets/10606) · [open] · 2026-10-30T08:20 · Re: Messed up registration?: still need help?
 
 ## Solved — last 24h
 
