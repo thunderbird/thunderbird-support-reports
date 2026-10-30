@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 06:17 ET** · refreshes hourly_  
+_Updated: **2026-10-30 07:14 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -186,7 +186,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **954 tickets** so fa
 
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
-  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [pending] · 2026-10-13 · _Re: [Thundermail] Re: Send_
+  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
@@ -268,10 +268,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 787
-- **pending**: 68
+- **pending**: 66
 - **solved**: 56
+- **open**: 22
 - **hold**: 20
-- **open**: 20
 - **new**: 3
 
 ## Service (cumulative)
