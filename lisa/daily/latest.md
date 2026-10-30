@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 17:12 ET** · refreshes hourly_  
+_Updated: **2026-10-30 18:13 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **958 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **959 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **15** new tickets in last 24h · **6** solved in last 24h
-- **958** tickets total since launch · contact rate **3%** of 35000 invitees
+- **959** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (193 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 95
 - **Median AHT**: 136.5h · mean 151.4h (proxy: updated_at − created_at, 47 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -279,15 +279,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 801
-- **pending**: 80
+- **pending**: 78
 - **solved**: 47
 - **hold**: 22
-- **open**: 8
+- **open**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 542
-- **Thundermail**: 327
+- **Thundermail**: 328
 - **Send**: 21
 - **Appointment**: 11
 
@@ -322,6 +322,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **n/a**: 4
 - **curious** + **escalated**: 3
 - **other** + **n/a**: 3
+- **concerned** + **informed**: 3
 - **change request** + **escalated**: 3
 - **other** + **escalated**: 3
 - **concerned** + **redirected**: 3
@@ -332,7 +333,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **informed**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
-- **concerned** + **informed**: 2
 - **curious** + **n/a**: 2
 - **other** + **—**: 2
 - **change request** + **investigated**: 2
