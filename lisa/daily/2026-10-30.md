@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 09:17 ET** · refreshes hourly_  
+_Updated: **2026-10-30 10:18 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **954 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **0** solved in last 24h
-- **954** tickets total since launch · contact rate **3%** of 35000 invitees
+- **10** new tickets in last 24h · **2** solved in last 24h
+- **956** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 156.0h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 136.5h · mean 153.1h (proxy: updated_at − created_at, 58 solved tickets)
 
-## Known problems — 14 problem(s), 119 incident(s)
+## Known problems — 14 problem(s), 120 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -32,7 +32,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **954 tickets** so fa
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 97 incident(s):
+- 98 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -130,6 +130,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **954 tickets** so fa
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [pending] · 2026-10-29 · _Want to delete my account_
+  - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -255,7 +256,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · _Refund_
+- [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · _Refund_
   > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 
 ## New ideas on FeatureOS
@@ -268,17 +269,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 787
-- **pending**: 66
-- **solved**: 56
-- **open**: 22
+- **pending**: 67
+- **solved**: 58
+- **open**: 24
 - **hold**: 20
-- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 537
-- **Thundermail**: 326
-- **Send**: 21
+- **Account Hub**: 539
+- **Thundermail**: 325
+- **Send**: 22
 - **Appointment**: 11
 
 ## Why × How (cumulative)
@@ -286,18 +286,18 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 187
-- **change request** + **actioned**: 130
+- **change request** + **actioned**: 131
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 82
 - **curious** + **informed**: 50
-- **blocked** + **redirected**: 44
 - **blocked** + **investigated**: 43
+- **blocked** + **redirected**: 43
 - **request** + **redirected**: 41
 - **confused** + **informed**: 39
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 19
 - **blocked** + **escalated**: 16
-- **confused** + **redirected**: 10
+- **confused** + **redirected**: 11
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
 - **confused** + **—**: 9
@@ -343,8 +343,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10609](https://tbpro.zendesk.com/agent/tickets/10609)** · No se guardan los correos enviados
+  > Cada vez que envío un correo, se abre una pantalla que indica que se está copiando dicho correo pero no avanza y luego aparece un mensaje:…
+- **[#10608](https://tbpro.zendesk.com/agent/tickets/10608)** · Sperre um in meine E Mails zu kommen ?
+  > Gibt es die Möglichkeit Mozilla Thunderrbird über meine Telefonnummer 0162 67 07 464 mich freizuschalten ??
 - **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons
   > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
 - **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
@@ -352,15 +356,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund
-  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 - **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
   > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
-
-### Aliases — 1 tickets
-
-- **[#10606](https://tbpro.zendesk.com/agent/tickets/10606)** · Re: Messed up registration?: still need help? — why: **confused**
-  > This is a follow-up to your previous request #9621 "Messed up registration?" Hi! I'm good. I got it to work. Thanks!
+- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund — why: **change request** · how: **actioned**
+  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -371,6 +370,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10594](https://tbpro.zendesk.com/agent/tickets/10594)** · Request for refund – Thundermail Early Bird subscription — why: **curious** · how: **informed**
   > Hello [name], I purchased the Thundermail Early Bird subscription on July 20, 2026, for $70. After more than three months of testing the service, I have unfortunately come to the…
+
+### Aliases — 1 tickets
+
+- **[#10606](https://tbpro.zendesk.com/agent/tickets/10606)** · Re: Messed up registration?: still need help? — why: **confused**
+  > This is a follow-up to your previous request #9621 "Messed up registration?" Hi! I'm good. I got it to work. Thanks!
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -383,14 +387,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [open] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
 - [10596](https://tbpro.zendesk.com/agent/tickets/10596) · [open] · 2026-10-29T21:12 · Cannot sign in
 - [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
-- [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · 2026-10-30T01:39 · Refund
-- [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [new] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
-- [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [new] · 2026-10-30T08:09 · Option to have text labels on buttons
-- [10606](https://tbpro.zendesk.com/agent/tickets/10606) · [open] · 2026-10-30T08:20 · Re: Messed up registration?: still need help?
+- [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30T01:39 · Refund
+- [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [open] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
+- [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [open] · 2026-10-30T08:09 · Option to have text labels on buttons
+- [10606](https://tbpro.zendesk.com/agent/tickets/10606) · [solved] · 2026-10-30T08:20 · Re: Messed up registration?: still need help?
+- [10608](https://tbpro.zendesk.com/agent/tickets/10608) · [open] · 2026-10-30T13:22 · Sperre um in meine E Mails zu kommen ?
+- [10609](https://tbpro.zendesk.com/agent/tickets/10609) · [open] · 2026-10-30T13:37 · No se guardan los correos enviados
 
 ## Solved — last 24h
 
-_(none)_
+- · [10606](https://tbpro.zendesk.com/agent/tickets/10606) · 2026-10-30T13:35 · Re: Messed up registration?: still need help?
+- · [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-10-30T13:45 · Difficulty setting up new [domain] domain email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
