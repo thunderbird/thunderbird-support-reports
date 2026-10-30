@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 21:19 ET** · refreshes hourly_  
+_Updated: **2026-10-29 22:23 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **950 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **951 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **7** solved in last 24h
-- **950** tickets total since launch · contact rate **3%** of 35000 invitees
+- **951** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.4h · mean 152.8h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 136.5h · mean 155.1h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -273,16 +273,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 783
+- **closed**: 785
 - **pending**: 70
-- **solved**: 60
+- **solved**: 58
 - **hold**: 20
 - **open**: 17
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 536
-- **Thundermail**: 323
+- **Thundermail**: 324
 - **Send**: 21
 - **Appointment**: 11
 
