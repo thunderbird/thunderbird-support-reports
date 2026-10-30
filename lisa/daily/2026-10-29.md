@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 20:42 ET** · refreshes hourly_  
+_Updated: **2026-10-29 21:19 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 81** of rollout — **35,000 invitees**, **950 tickets** so fa
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 153.5h (proxy: updated_at − created_at, 61 solved tickets)
+- **Median AHT**: 136.4h · mean 152.8h (proxy: updated_at − created_at, 60 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -273,11 +273,11 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 782
-- **pending**: 72
-- **solved**: 61
+- **closed**: 783
+- **pending**: 70
+- **solved**: 60
 - **hold**: 20
-- **open**: 15
+- **open**: 17
 
 ## Service (cumulative)
 
@@ -414,7 +414,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [pending] · 2026-10-29T17:01 · Thudermail Invitation
 - [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [pending] · 2026-10-29T17:01 · Recovery Email Change
 - [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [hold] · 2026-10-29T17:27 · Request for Complete Account Deletion
-- [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [pending] · 2026-10-29T17:35 · send setup is not responding
+- [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [open] · 2026-10-29T17:35 · send setup is not responding
 - [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
 - [10586](https://tbpro.zendesk.com/agent/tickets/10586) · [open] · 2026-10-29T18:32 · Lost access to [email]
 - [10587](https://tbpro.zendesk.com/agent/tickets/10587) · [pending] · 2026-10-29T18:46 · setting up mail on my phone using POP
