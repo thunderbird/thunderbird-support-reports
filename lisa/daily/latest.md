@@ -1,20 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 14:18 ET** · refreshes hourly_  
+_Updated: **2026-10-30 15:13 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **957 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **5** solved in last 24h
-- **956** tickets total since launch · contact rate **3%** of 35000 invitees
+- **14** new tickets in last 24h · **5** solved in last 24h
+- **957** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 137.6h · mean 152.6h (proxy: updated_at − created_at, 53 solved tickets)
+- **Median AHT**: 136.5h · mean 151.2h (proxy: updated_at − created_at, 50 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"server side filtering"** — 2 tickets in 24h (81.0× baseline; baseline 2 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
+- **"kind regards"** — 2 tickets in 24h (9.0× baseline; baseline 18 cum) — [#10613](https://tbpro.zendesk.com/agent/tickets/10613), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -187,7 +194,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so fa
 
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
-  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13 · _Re: [Thundermail] Re: Send_
+  - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [pending] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [solved] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
@@ -268,16 +275,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 794
-- **pending**: 77
-- **solved**: 53
+- **closed**: 797
+- **pending**: 79
+- **solved**: 50
 - **hold**: 21
-- **open**: 11
+- **open**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 542
-- **Thundermail**: 325
+- **Thundermail**: 326
 - **Send**: 21
 - **Appointment**: 11
 
@@ -343,6 +350,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Email Protocols (IMAP/SMTP/POP) — 3 tickets
+
+- **[#10617](https://tbpro.zendesk.com/agent/tickets/10617)** · Pre-sales questions: IMAP, filtering, and forwarded-mail handling
+  > Hello, I have an invitation to Thundermail and am evaluating it as a single-user mailbox. Mail would arrive by forwarding from an external alias service ([domain]), and I'd send…
+- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP — why: **blocked** · how: **informed**
+  > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
+- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund — why: **change request** · how: **actioned**
+  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
+
 ### Account access issues — Account Hub trouble — 3 tickets
 
 - **[#10611](https://tbpro.zendesk.com/agent/tickets/10611)** · Main Email Adress forgotten — why: **blocked** · how: **informed**
@@ -358,13 +374,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, I have an issue with Thundermail where it creates yearly (e.g. 2026) subfolders for the Deleted folder. Is there a way to to put all deleted emails in the Deleted folder…
 - **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons — why: **request** · how: **redirected**
   > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
-
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
-
-- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP — why: **blocked** · how: **informed**
-  > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
-- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund — why: **change request** · how: **actioned**
-  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 
 ### Account access issues — 1 tickets
 
@@ -411,6 +420,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10611](https://tbpro.zendesk.com/agent/tickets/10611) · [pending] · 2026-10-30T14:25 · Main Email Adress forgotten
 - [10612](https://tbpro.zendesk.com/agent/tickets/10612) · [open] · 2026-10-30T15:04 · Forgot password 
 - [10613](https://tbpro.zendesk.com/agent/tickets/10613) · [open] · 2026-10-30T16:02 · Thundermail Subfolders
+- [10617](https://tbpro.zendesk.com/agent/tickets/10617) · [open] · 2026-10-30T19:11 · Pre-sales questions: IMAP, filtering, and forwarded-mail handling
 
 ## Solved — last 24h
 
