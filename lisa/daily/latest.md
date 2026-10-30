@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-10-29
+# Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-29 23:20 ET** · refreshes hourly_  
-_24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-10-30 00:19 ET** · refreshes hourly_  
+_24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **951 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **951 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **7** solved in last 24h
+- **5** new tickets in last 24h · **0** solved in last 24h
 - **951** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 155.1h (proxy: updated_at − created_at, 58 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"dear team"** — 2 tickets in 24h (14.5× baseline; baseline 11 cum) — [#10565](https://tbpro.zendesk.com/agent/tickets/10565), [#10582](https://tbpro.zendesk.com/agent/tickets/10582)
+- **Median AHT**: 136.5h · mean 155.7h (proxy: updated_at − created_at, 57 solved tickets)
 
 ## Known problems — 14 problem(s), 119 incident(s)
 
@@ -122,7 +116,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10106](https://tbpro.zendesk.com/agent/tickets/10106) · [solved] · 2026-10-16 · _Urgent Attention : Amanda(Thundermail Support) - Multiple Emails_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [closed] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [closed] · 2026-10-16 · _please delete account_
-  - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [solved] · 2026-10-20 · _Refund_
+  - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [closed] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [solved] · 2026-10-20 · _Monthly plans _
   - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22 · _domain setup issue_
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [solved] · 2026-10-22 · _cancellation of the subscription_
@@ -261,21 +255,21 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [pending] · _Request for refund – Thundermail Early Bird subscription_
-  > Hello [name], I purchased the Thundermail Early Bird subscription on July 20, 2026, for $70. After more than three months of testing the service, I have unfortunately come to the conclusion that the current features and…
+- [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · _Refund_
+  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 1 new:
 
-- [AI-driven filter for incoming mail](https://ideas.tb.pro/p/ai-driven-filter-for-incoming-mail) · 1 votes · _untagged_
-  > What you’d like to see Let AI pre-read incoming messages and sort them into broad categories, with a prompt line that I can use to guide its choices. I don’t need AI to craft responses for me, but I…
+- [Simplify DNS setup](https://ideas.tb.pro/p/simplify-dns-setup) · 1 votes · _Accounts & Subscriptions, New Feature, Improvement_
+  > What you’d like to see Briefly describe the feature or improvement. When adding a custom domain, the list of DNS entries that need to be created is quite lenghty. I’d love to see some improvement in…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 785
+- **closed**: 786
 - **pending**: 70
-- **solved**: 58
+- **solved**: 57
 - **hold**: 20
 - **open**: 17
 - **new**: 1
@@ -349,87 +343,39 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — Account Hub trouble — 3 tickets
+### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#10583](https://tbpro.zendesk.com/agent/tickets/10583)** · send setup is not responding — why: **confused** · how: **informed**
-  > I recently signed up for Thundermail and have connected the account to Thunderbird. Once I did that I got the ‘Welcome to Thundermail! Account added.’ tab in Thunderbird, where I…
-- **[#10575](https://tbpro.zendesk.com/agent/tickets/10575)** · Bitte freischalten — why: **confused** · how: **redirected**
-  > Es kommen keine E-Mails an, denke mein Account muss verlängert werden
-- **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
-  > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
+- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund
+  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
+- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
+  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#10590](https://tbpro.zendesk.com/agent/tickets/10590)** · Subscribed Calendars — why: **blocked** · how: **redirected**
-  > Not sure if this is a Thundermail or Thunderbird issues, but … I have added a subscribed calendar to Thunderbird Calendar using an URL. It is a public calendar. It shows in my…
-- **[#10587](https://tbpro.zendesk.com/agent/tickets/10587)** · setting up mail on my phone using POP — why: **curious** · how: **informed**
-  > I paid for the year in advance as a Beta user, and was able to add the thundermail account to my laptop on Thunderbird. I've been using Crocker email on Thunderbird on my desktop…
-
-### Privacy / data / jurisdiction concerns — 2 tickets
-
-- **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
-  > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
-- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account — why: **change request** · how: **actioned**
-  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
-
-### Other / uncategorized — 2 tickets
-
-- **[#10581](https://tbpro.zendesk.com/agent/tickets/10581)** · Recovery Email Change — why: **curious** · how: **explained**
-  > Hello! Please change my recovery email. OLD: [email] NEW: [email] Thanks!
-- **[#10570](https://tbpro.zendesk.com/agent/tickets/10570)** · Sending limits? — why: **curious** · how: **informed**
-  > Hi, What are the sending limits? Most hosters have 100/h, which is hardly enough even for a small company … Thanks, [name]
-
-### Account access issues — 1 tickets
-
-- **[#10586](https://tbpro.zendesk.com/agent/tickets/10586)** · Lost access to [email]
-  > Hi, i am the owner of [email] and i lost my password cause it was on a bitwarden instance that i shut down by mistake, but when i click on recover it is not sending to any of my…
-
-### Aliases — 1 tickets
-
-- **[#10584](https://tbpro.zendesk.com/agent/tickets/10584)** · How to choose @[domain] domain instead of @[domain] ? — why: **curious** · how: **explained**
-  > I'd like to setup an email account using @[domain] domain instead of @[domain], how can I do it?
+- **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
+  > perhaps fix this?
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#10580](https://tbpro.zendesk.com/agent/tickets/10580)** · Thudermail Invitation — why: **request** · how: **redirected**
-  > Thanks for the Thundermail invitation. I have a domain and can adjust the DNS records, but I am concerned about how the email intended for other users on my domain will be…
+- **[#10594](https://tbpro.zendesk.com/agent/tickets/10594)** · Request for refund – Thundermail Early Bird subscription — why: **curious** · how: **informed**
+  > Hello [name], I purchased the Thundermail Early Bird subscription on July 20, 2026, for $70. After more than three months of testing the service, I have unfortunately come to the…
 
-### Email migration / import — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#10569](https://tbpro.zendesk.com/agent/tickets/10569)** · How long after registration should I subscribe? — why: **curious**
-  > I'm considering migrating to Thundermail, but it will take some time, and I'm wondering if I can wait a few days after registering before deciding to pay or cancel my account. For…
-
-### Early bird signup — 1 tickets
-
-- **[#10565](https://tbpro.zendesk.com/agent/tickets/10565)** · Reissue | Invitation "info@n****.de" — why: **curious** · how: **explained**
-  > Dear [name], I lost the Mail for the [domain]-Beta. I had reissue a request for the E-Mail. Is there any change your can resend the Invite? Thanks in advance, Tizen
+- **[#10593](https://tbpro.zendesk.com/agent/tickets/10593)** · Using private domain name — why: **confused** · how: **explained**
+  > Need to know more about using my own domain name, and the offer for 15 email addresses
 
 ## New tickets — last 24h
 
-- [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
-- [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [pending] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
-- [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [pending] · 2026-10-29T00:49 · Want to delete my account
-- [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [pending] · 2026-10-29T07:00 · How long after registration should I subscribe?
-- [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [pending] · 2026-10-29T08:53 · Sending limits?
-- [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
-- [10580](https://tbpro.zendesk.com/agent/tickets/10580) · [pending] · 2026-10-29T17:01 · Thudermail Invitation
-- [10581](https://tbpro.zendesk.com/agent/tickets/10581) · [pending] · 2026-10-29T17:01 · Recovery Email Change
-- [10582](https://tbpro.zendesk.com/agent/tickets/10582) · [hold] · 2026-10-29T17:27 · Request for Complete Account Deletion
-- [10583](https://tbpro.zendesk.com/agent/tickets/10583) · [open] · 2026-10-29T17:35 · send setup is not responding
-- [10584](https://tbpro.zendesk.com/agent/tickets/10584) · [pending] · 2026-10-29T17:52 · How to choose @[domain] domain instead of @[domain] ?
-- [10586](https://tbpro.zendesk.com/agent/tickets/10586) · [open] · 2026-10-29T18:32 · Lost access to [email]
-- [10587](https://tbpro.zendesk.com/agent/tickets/10587) · [pending] · 2026-10-29T18:46 · setting up mail on my phone using POP
-- [10590](https://tbpro.zendesk.com/agent/tickets/10590) · [pending] · 2026-10-29T19:25 · Subscribed Calendars
+- [10593](https://tbpro.zendesk.com/agent/tickets/10593) · [pending] · 2026-10-29T20:08 · Using private domain name
+- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [pending] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
+- [10596](https://tbpro.zendesk.com/agent/tickets/10596) · [open] · 2026-10-29T21:12 · Cannot sign in
+- [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
+- [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · 2026-10-30T01:39 · Refund
 
 ## Solved — last 24h
 
-- · [10397](https://tbpro.zendesk.com/agent/tickets/10397) · 2026-10-28T20:02 · loginkode
-- · [10355](https://tbpro.zendesk.com/agent/tickets/10355) · 2026-10-28T20:02 · cancellation of the subscription
-- · [10236](https://tbpro.zendesk.com/agent/tickets/10236) · 2026-10-28T20:02 · Passwort
-- · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-10-28T20:02 · Re: [Thundermail] Re: My folders do not sync
-- · [10365](https://tbpro.zendesk.com/agent/tickets/10365) · 2026-10-28T21:02 · Re: [Thundermail] Re: Some recipients showing DKIM failures (bodyhash_mismatch) on messages sent fro
-- · [10399](https://tbpro.zendesk.com/agent/tickets/10399) · 2026-10-28T22:02 · cancellation
-- · [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-29T19:31 · Bug report: Incorrect Sent folder message count in Thunderbird
+_(none)_
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
