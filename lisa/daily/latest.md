@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 00:19 ET** · refreshes hourly_  
+_Updated: **2026-10-30 01:17 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **951 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **952 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **0** solved in last 24h
-- **951** tickets total since launch · contact rate **3%** of 35000 invitees
+- **6** new tickets in last 24h · **0** solved in last 24h
+- **952** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 155.7h (proxy: updated_at − created_at, 57 solved tickets)
+- **Median AHT**: 136.5h · mean 156.0h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## Known problems — 14 problem(s), 119 incident(s)
 
@@ -267,17 +267,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 786
+- **closed**: 787
 - **pending**: 70
-- **solved**: 57
+- **solved**: 56
 - **hold**: 20
 - **open**: 17
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 536
-- **Thundermail**: 324
+- **Thundermail**: 325
 - **Send**: 21
 - **Appointment**: 11
 
@@ -350,6 +350,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
   > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP
+  > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
@@ -372,6 +377,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10596](https://tbpro.zendesk.com/agent/tickets/10596) · [open] · 2026-10-29T21:12 · Cannot sign in
 - [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · 2026-10-30T01:39 · Refund
+- [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [new] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
 
 ## Solved — last 24h
 
