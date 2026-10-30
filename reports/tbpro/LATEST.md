@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-29
 
-_Updated: **2026-10-29 19:15 ET** · refreshes hourly_  
+_Updated: **2026-10-29 20:42 ET** · refreshes hourly_  
 _24h window: 2026-10-28T16:00 → 2026-10-29T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 81** of rollout — **35,000 invitees**, **949 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 81** of rollout — **35,000 invitees**, **950 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **7** solved in last 24h
-- **949** tickets total since launch · contact rate **3%** of 35000 invitees
+- **950** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (191 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 154.3h (proxy: updated_at − created_at, 64 solved tickets)
+- **Median AHT**: 136.5h · mean 153.5h (proxy: updated_at − created_at, 61 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"dear team"** — 2 tickets in 24h (14.5× baseline; baseline 11 cum) — [#10565](https://tbpro.zendesk.com/agent/tickets/10565), [#10582](https://tbpro.zendesk.com/agent/tickets/10582)
 
-## Known problems — 14 problem(s), 118 incident(s)
+## Known problems — 14 problem(s), 119 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -38,7 +38,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 96 incident(s):
+- 97 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -135,6 +135,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [pending] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
+  - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [pending] · 2026-10-29 · _Want to delete my account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -192,7 +193,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [pending] · 2026-10-13 · _Re: [Thundermail] Re: Send_
-  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [pending] · 2026-10-23 · _Send does not work in Firefox_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -272,15 +273,15 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 779
-- **pending**: 73
-- **solved**: 64
+- **closed**: 782
+- **pending**: 72
+- **solved**: 61
 - **hold**: 20
-- **open**: 13
+- **open**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 535
+- **Account Hub**: 536
 - **Thundermail**: 323
 - **Send**: 21
 - **Appointment**: 11
@@ -290,7 +291,7 @@ Regards, [name]_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 187
-- **change request** + **actioned**: 129
+- **change request** + **actioned**: 130
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 82
 - **curious** + **informed**: 50
@@ -356,19 +357,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10564](https://tbpro.zendesk.com/agent/tickets/10564)** · New Thunderbird App? — why: **confused** · how: **redirected**
   > If I don't have numerous email addresses and I don't use my cell phone for much, how would this new service help me? Please explain. Thanks!
 
-### Privacy / data / jurisdiction concerns — 2 tickets
-
-- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account
-  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
-- **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
-  > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
-
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
 - **[#10590](https://tbpro.zendesk.com/agent/tickets/10590)** · Subscribed Calendars — why: **blocked** · how: **redirected**
   > Not sure if this is a Thundermail or Thunderbird issues, but … I have added a subscribed calendar to Thunderbird Calendar using an URL. It is a public calendar. It shows in my…
 - **[#10587](https://tbpro.zendesk.com/agent/tickets/10587)** · setting up mail on my phone using POP — why: **curious** · how: **informed**
   > I paid for the year in advance as a Beta user, and was able to add the thundermail account to my laptop on Thunderbird. I've been using Crocker email on Thunderbird on my desktop…
+
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#10582](https://tbpro.zendesk.com/agent/tickets/10582)** · Request for Complete Account Deletion — why: **request** · how: **actioned**
+  > Dear [name], I would like to request the permanent deletion of my ThunderMail account, as I no longer need the service. Please delete my account and all associated personal data…
+- **[#10566](https://tbpro.zendesk.com/agent/tickets/10566)** · Want to delete my account — why: **change request** · how: **actioned**
+  > It's my fault that I didn't researched a lot about it, but I wanted to use my previously-used mail account such as gmail.
 
 ### Other / uncategorized — 2 tickets
 
@@ -406,7 +407,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10564](https://tbpro.zendesk.com/agent/tickets/10564) · [pending] · 2026-10-28T21:10 · New Thunderbird App?
 - [10565](https://tbpro.zendesk.com/agent/tickets/10565) · [pending] · 2026-10-28T22:58 · Reissue | Invitation "info@n****.de"
-- [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [open] · 2026-10-29T00:49 · Want to delete my account
+- [10566](https://tbpro.zendesk.com/agent/tickets/10566) · [pending] · 2026-10-29T00:49 · Want to delete my account
 - [10569](https://tbpro.zendesk.com/agent/tickets/10569) · [pending] · 2026-10-29T07:00 · How long after registration should I subscribe?
 - [10570](https://tbpro.zendesk.com/agent/tickets/10570) · [pending] · 2026-10-29T08:53 · Sending limits?
 - [10575](https://tbpro.zendesk.com/agent/tickets/10575) · [pending] · 2026-10-29T13:50 · Bitte freischalten
