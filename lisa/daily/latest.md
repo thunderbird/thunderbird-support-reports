@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 15:13 ET** · refreshes hourly_  
+_Updated: **2026-10-30 16:14 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **957 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **958 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **5** solved in last 24h
-- **957** tickets total since launch · contact rate **3%** of 35000 invitees
+- **15** new tickets in last 24h · **6** solved in last 24h
+- **958** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 151.2h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 136.5h · mean 152.2h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,6 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"server side filtering"** — 2 tickets in 24h (81.0× baseline; baseline 2 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
 - **"kind regards"** — 2 tickets in 24h (9.0× baseline; baseline 18 cum) — [#10613](https://tbpro.zendesk.com/agent/tickets/10613), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
+- **"cancel subscription"** — 2 tickets in 24h (7.4× baseline; baseline 22 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10618](https://tbpro.zendesk.com/agent/tickets/10618)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -261,10 +262,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · _Refund_
   > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
+- [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [open] · _New Subscription Cancellation Information_
+  > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future time. I just need to know if I do cancel in…
 
 ## New ideas on FeatureOS
 
@@ -275,16 +278,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 797
-- **pending**: 79
-- **solved**: 50
+- **closed**: 800
+- **pending**: 80
+- **solved**: 48
 - **hold**: 21
-- **open**: 10
+- **open**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 542
-- **Thundermail**: 326
+- **Thundermail**: 327
 - **Send**: 21
 - **Appointment**: 11
 
@@ -368,6 +371,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10608](https://tbpro.zendesk.com/agent/tickets/10608)** · Sperre um in meine E Mails zu kommen ? — why: **confused** · how: **redirected**
   > Gibt es die Möglichkeit Mozilla Thunderrbird über meine Telefonnummer 0162 67 07 464 mich freizuschalten ??
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10618](https://tbpro.zendesk.com/agent/tickets/10618)** · New Subscription Cancellation Information
+  > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future…
+- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
+  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10613](https://tbpro.zendesk.com/agent/tickets/10613)** · Thundermail Subfolders
@@ -379,11 +389,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10612](https://tbpro.zendesk.com/agent/tickets/10612)** · Forgot password 
   > Hi, I’m disabled and out of house right now. Realised I’ve forgotten my password, and it’s saying details of how to reset have been sent to my recovery email. I don’t appear to…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
-  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 
 ### Aliases — 1 tickets
 
@@ -421,6 +426,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10612](https://tbpro.zendesk.com/agent/tickets/10612) · [open] · 2026-10-30T15:04 · Forgot password 
 - [10613](https://tbpro.zendesk.com/agent/tickets/10613) · [open] · 2026-10-30T16:02 · Thundermail Subfolders
 - [10617](https://tbpro.zendesk.com/agent/tickets/10617) · [open] · 2026-10-30T19:11 · Pre-sales questions: IMAP, filtering, and forwarded-mail handling
+- [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [open] · 2026-10-30T19:57 · New Subscription Cancellation Information
 
 ## Solved — last 24h
 
@@ -429,6 +435,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-30T14:50 · Send does not work in Firefox
 - · [10475](https://tbpro.zendesk.com/agent/tickets/10475) · 2026-10-30T16:59 · invitation
 - · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-30T17:59 · Cannot sign in 
+- · [10439](https://tbpro.zendesk.com/agent/tickets/10439) · 2026-10-30T19:49 · Can I use my current email address?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
