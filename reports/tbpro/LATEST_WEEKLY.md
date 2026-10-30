@@ -1,15 +1,15 @@
-# TB Pro — Weekly Executive Summary · 2026-10-19 → 2026-10-23
+# TB Pro — Weekly Executive Summary · 2026-10-26 → 2026-10-30
 
-_2026-08-10 launch · 35000 invitees · 0.2% contact rate · generated 2026-10-23_
+_2026-08-10 launch · 35000 invitees · 0.1% contact rate · generated 2026-10-30_
 
 ## 🟡 Wave invite status: **WATCH**
 
 **Watch signals:**
-- 🟡 1 known problem with 86 linked reports (4 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
+- 🟡 1 unresolved escalated ticket(s) this week: [#10514](https://tbpro.zendesk.com/agent/tickets/10514) 501 5.5.4 You are not allowed to send from this address
+- 🟡 1 known problem with 98 linked reports (11 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
 - 🟡 1 known problem with 2 open reports — [[mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts](https://tbpro.zendesk.com/agent/tickets/10009)
-- 🟡 Refund/cancel rate 9% of real subscriber tickets (5 / 56)
-- 🟡 6 ticket(s) with user urgency: critical still open: [#10399](https://tbpro.zendesk.com/agent/tickets/10399) cancellation; [#10295](https://tbpro.zendesk.com/agent/tickets/10295) cancellation; [#10272](https://tbpro.zendesk.com/agent/tickets/10272) Custom domain is not working.; [#10212](https://tbpro.zendesk.com/agent/tickets/10212) How do I select: [domain]?; [#10210](https://tbpro.zendesk.com/agent/tickets/10210) cannot access my Thunderbird email "[email]"; [#10183](https://tbpro.zendesk.com/agent/tickets/10183) Monthly plans
-- 🟡 Other-brand queue: 29 open/new tickets this week — team capacity may be stretched
+- 🟡 Refund/cancel rate 14% of real subscriber tickets (7 / 49)
+- 🟡 8 ticket(s) with user urgency: critical still open: [#10586](https://tbpro.zendesk.com/agent/tickets/10586) Lost access to [email]; [#10565](https://tbpro.zendesk.com/agent/tickets/10565) Reissue | Invitation "info@n****.de"; [#10536](https://tbpro.zendesk.com/agent/tickets/10536) Delete account; [#10535](https://tbpro.zendesk.com/agent/tickets/10535) Re: Re: Support Feedback: MACOS installer for desktop…; [#10532](https://tbpro.zendesk.com/agent/tickets/10532) annual to monthly?; [#10521](https://tbpro.zendesk.com/agent/tickets/10521) New version; can't find In-box; [#10516](https://tbpro.zendesk.com/agent/tickets/10516) delete my account; [#10479](https://tbpro.zendesk.com/agent/tickets/10479) Wiederherstellung meiner E-Mails
 
 ---
 
@@ -17,48 +17,48 @@ _2026-08-10 launch · 35000 invitees · 0.2% contact rate · generated 2026-10-2
 
 | Metric | Value |
 |--------|-------|
-| New tickets | **73** (-1, -1% WoW) |
-| Real subscriber issues | **56** |
-| Misdirected (non-subscribers) | **17** |
-| Solved this week | **113** |
-| CSAT | **100% (20 responses)** |
-| Refunds / cancels | **5** |
-| Other-brand open/new tickets | **29** |
-| New ideas this week | **4** |
+| New tickets | **60** (-44, -42% WoW) |
+| Real subscriber issues | **49** |
+| Misdirected (non-subscribers) | **11** |
+| Solved this week | **109** |
+| CSAT | **100% (18 responses)** |
+| Refunds / cancels | **7** |
+| Other-brand open/new tickets | **6 (+50% WoW)** |
+| New ideas this week | **3** |
 
 **Daily ticket volume:**
-- `2026-10-19` ████████████ 12
-- `2026-10-20` ██████████████████ 18
-- `2026-10-21` █████████████████ 17
-- `2026-10-22` ███████████████████ 19
-- `2026-10-23` ███████ 7
+- `2026-10-26` ██████████ 10
+- `2026-10-27` ████████████ 12
+- `2026-10-28` ███████████ 11
+- `2026-10-29` ███████████████ 15
+- `2026-10-30` ████████████ 12
 
 ## What we heard
 
-- **Account access issues**: 18 (25%) (+5 WoW)
-- **Other / uncategorized**: 13 (18%) (+3 WoW)
-- **Pricing**: 11 (15%) (+6 WoW)
-- **Aliases**: 9 (12%) (+3 WoW)
-- **Custom domain / DKIM / DNS**: 5 (7%) (+3 WoW)
-- **App setup / configuration**: 5 (7%) (+4 WoW)
-- **Email Protocols (IMAP/SMTP/POP)**: 3 (4%) (-3 WoW)
-- **Subscription / billing / refund / cancel**: 2 (3%) (-4 WoW)
+- **Account access issues**: 12 (20%) (-17 WoW)
+- **Other / uncategorized**: 8 (13%) (-6 WoW)
+- **Subscription / billing / refund / cancel**: 7 (12%) (+4 WoW)
+- **Email Protocols (IMAP/SMTP/POP)**: 5 (8%) (+0 WoW)
+- **Aliases**: 4 (7%) (-8 WoW)
+- **Webmail**: 4 (7%) (+1 WoW)
+- **Early bird signup**: 4 (7%) (+1 WoW)
+- **Early bird / invite / waitlist**: 3 (5%) (+3 WoW)
 
 ## Known problems
 
-- **[Tracker] Account refunded and canceled, purge queue** — 86 linked reports (4 open) (-4 new this wk)
+- **[Tracker] Account refunded and canceled, purge queue** — 98 linked reports (11 open) (+3 new this wk)
 - **[mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts** — 2 open reports
-- **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 2 linked reports (1 open) (-1 new this wk)
+- **tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to…** — 2 linked reports (1 open) (-1 new this wk)
+- **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 2 linked reports (1 open)
 - **[routing/8] [domain] needs to be A record not CNAME** — 1 open report
 - **[send/1068] Uploading files fails with CORS and POST errors** — 1 open report
 - **[stormbox/131] Aliases are not tied to JMAP identities** — 1 open report
 - **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 1 open report
 ## New ideas this week
 
-- [Compact mode with streamlined interface for webmail](https://ideas.tb.pro/p/compact-mode-with-streamlined-interface-for-webmail) · 1 vote(s)
-- [Ability to Set and Increase/Decrease Font size. (Optionally sticky preference)](https://ideas.tb.pro/p/ability-to-set-and-increase-decrease-font-size-optionally-sticky-preference) · 5 vote(s)
-- [Reading Pane Layout](https://ideas.tb.pro/p/reading-pane-layout) · 1 vote(s)
-- [Catchall improvments](https://ideas.tb.pro/p/catchall-improvments) · 1 vote(s)
+- [Simplify DNS setup](https://ideas.tb.pro/p/simplify-dns-setup) · 1 vote(s)
+- [Use AI as personal assistant to managemy mail - let AI pre-read incoming messages, to sort them into broad categories, with a prompt line to guide its choices](https://ideas.tb.pro/p/use-ai-as-personal-assistant-to-managemy-mail-let-ai-pre-read-incoming-messages-to-sort-them-into-broad-categories-with-a-prompt-line-to-guide-its-choices) · 1 vote(s)
+- [usage of the email, and apps](https://ideas.tb.pro/p/usage-of-the-email-and-apps) · 1 vote(s)
 
 ---
 _**Legend:** ✅ CLEAR — no blockers, proceed · 🟡 WATCH — monitor before acting · 🔴 BLOCK — hold invites_
