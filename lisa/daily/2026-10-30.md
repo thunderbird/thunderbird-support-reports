@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 18:13 ET** · refreshes hourly_  
+_Updated: **2026-10-30 19:17 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **959 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"server side filtering"** — 2 tickets in 24h (81.0× baseline; baseline 2 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
+- **"side filtering"** — 2 tickets in 24h (81.0× baseline; baseline 2 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
 - **"kind regards"** — 2 tickets in 24h (9.0× baseline; baseline 18 cum) — [#10613](https://tbpro.zendesk.com/agent/tickets/10613), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
 - **"cancel subscription"** — 2 tickets in 24h (7.4× baseline; baseline 22 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10618](https://tbpro.zendesk.com/agent/tickets/10618)
 
@@ -266,7 +266,7 @@ Regards, [name]_
 
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · _Refund_
   > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
-- [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [open] · _New Subscription Cancellation Information_
+- [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · _New Subscription Cancellation Information_
   > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future time. I just need to know if I do cancel in…
 
 ## New ideas on FeatureOS
@@ -279,15 +279,15 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 801
-- **pending**: 78
+- **pending**: 81
 - **solved**: 47
 - **hold**: 22
-- **open**: 11
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 542
-- **Thundermail**: 328
+- **Account Hub**: 543
+- **Thundermail**: 327
 - **Send**: 21
 - **Appointment**: 11
 
@@ -295,7 +295,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 187
+- **curious** + **explained**: 188
 - **change request** + **actioned**: 132
 - **blocked** + **explained**: 111
 - **confused** + **explained**: 82
@@ -371,19 +371,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10608](https://tbpro.zendesk.com/agent/tickets/10608)** · Sperre um in meine E Mails zu kommen ? — why: **confused** · how: **redirected**
   > Gibt es die Möglichkeit Mozilla Thunderrbird über meine Telefonnummer 0162 67 07 464 mich freizuschalten ??
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10618](https://tbpro.zendesk.com/agent/tickets/10618)** · New Subscription Cancellation Information
-  > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future…
-- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
-  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
-
 ### Other / uncategorized — 2 tickets
 
 - **[#10613](https://tbpro.zendesk.com/agent/tickets/10613)** · Thundermail Subfolders
   > Hello, I have an issue with Thundermail where it creates yearly (e.g. 2026) subfolders for the Deleted folder. Is there a way to to put all deleted emails in the Deleted folder…
 - **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons — why: **request** · how: **redirected**
   > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
+  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
+- **[#10618](https://tbpro.zendesk.com/agent/tickets/10618)** · New Subscription Cancellation Information — why: **curious** · how: **explained**
+  > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future…
 
 ### Account access issues — 1 tickets
 
@@ -426,7 +426,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10612](https://tbpro.zendesk.com/agent/tickets/10612) · [open] · 2026-10-30T15:04 · Forgot password 
 - [10613](https://tbpro.zendesk.com/agent/tickets/10613) · [open] · 2026-10-30T16:02 · Thundermail Subfolders
 - [10617](https://tbpro.zendesk.com/agent/tickets/10617) · [open] · 2026-10-30T19:11 · Pre-sales questions: IMAP, filtering, and forwarded-mail handling
-- [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [open] · 2026-10-30T19:57 · New Subscription Cancellation Information
+- [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30T19:57 · New Subscription Cancellation Information
 
 ## Solved — last 24h
 
