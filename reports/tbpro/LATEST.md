@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 11:16 ET** · refreshes hourly_  
+_Updated: **2026-10-30 12:18 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **958 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **3** solved in last 24h
-- **958** tickets total since launch · contact rate **3%** of 35000 invitees
+- **13** new tickets in last 24h · **3** solved in last 24h
+- **956** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 152.0h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 136.5h · mean 152.4h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -268,17 +268,16 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 788
-- **pending**: 71
-- **solved**: 58
-- **hold**: 20
-- **open**: 20
-- **new**: 1
+- **closed**: 790
+- **pending**: 72
+- **solved**: 56
+- **hold**: 21
+- **open**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 542
-- **Thundermail**: 325
+- **Account Hub**: 541
+- **Thundermail**: 326
 - **Send**: 21
 - **Appointment**: 11
 
@@ -293,7 +292,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 50
 - **blocked** + **investigated**: 43
 - **blocked** + **redirected**: 43
-- **request** + **redirected**: 41
+- **request** + **redirected**: 42
 - **confused** + **informed**: 39
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 20
@@ -344,26 +343,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10613](https://tbpro.zendesk.com/agent/tickets/10613)** · Thundermail Subfolders
+  > Hello, I have an issue with Thundermail where it creates yearly (e.g. 2026) subfolders for the Deleted folder. Is there a way to to put all deleted emails in the Deleted folder…
+- **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
+  > perhaps fix this?
+- **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons — why: **request** · how: **redirected**
+  > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
+
 ### Aliases — 2 tickets
 
 - **[#10611](https://tbpro.zendesk.com/agent/tickets/10611)** · Main Email Adress forgotten
   > I have my email Adress made as a Backup the [email]. My main email on thundermail I dont remember - my alias email is [email]. Ist there any chance to send me a recovery email for…
 - **[#10606](https://tbpro.zendesk.com/agent/tickets/10606)** · Re: Messed up registration?: still need help? — why: **confused**
   > This is a follow-up to your previous request #9621 "Messed up registration?" Hi! I'm good. I got it to work. Thanks!
-
-### Other / uncategorized — 2 tickets
-
-- **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons
-  > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
-- **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
-  > perhaps fix this?
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
-  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
-- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund — why: **change request** · how: **actioned**
-  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 
 ### Account access issues — Account Hub trouble — 2 tickets
 
@@ -372,15 +366,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10608](https://tbpro.zendesk.com/agent/tickets/10608)** · Sperre um in meine E Mails zu kommen ? — why: **confused** · how: **redirected**
   > Gibt es die Möglichkeit Mozilla Thunderrbird über meine Telefonnummer 0162 67 07 464 mich freizuschalten ??
 
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+
+- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP — why: **blocked** · how: **informed**
+  > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
+- **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund — why: **change request** · how: **actioned**
+  > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
+
 ### Account access issues — 1 tickets
 
 - **[#10612](https://tbpro.zendesk.com/agent/tickets/10612)** · Forgot password 
   > Hi, I’m disabled and out of house right now. Realised I’ve forgotten my password, and it’s saying details of how to reset have been sent to my recovery email. I don’t appear to…
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP — why: **blocked** · how: **informed**
-  > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
+- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
+  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -400,12 +401,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30T01:39 · Refund
 - [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [pending] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
-- [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [open] · 2026-10-30T08:09 · Option to have text labels on buttons
+- [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [pending] · 2026-10-30T08:09 · Option to have text labels on buttons
 - [10606](https://tbpro.zendesk.com/agent/tickets/10606) · [solved] · 2026-10-30T08:20 · Re: Messed up registration?: still need help?
 - [10608](https://tbpro.zendesk.com/agent/tickets/10608) · [pending] · 2026-10-30T13:22 · Sperre um in meine E Mails zu kommen ?
 - [10609](https://tbpro.zendesk.com/agent/tickets/10609) · [pending] · 2026-10-30T13:37 · No se guardan los correos enviados
 - [10611](https://tbpro.zendesk.com/agent/tickets/10611) · [open] · 2026-10-30T14:25 · Main Email Adress forgotten
-- [10612](https://tbpro.zendesk.com/agent/tickets/10612) · [new] · 2026-10-30T15:04 · Forgot password 
+- [10612](https://tbpro.zendesk.com/agent/tickets/10612) · [open] · 2026-10-30T15:04 · Forgot password 
+- [10613](https://tbpro.zendesk.com/agent/tickets/10613) · [open] · 2026-10-30T16:02 · Thundermail Subfolders
 
 ## Solved — last 24h
 
