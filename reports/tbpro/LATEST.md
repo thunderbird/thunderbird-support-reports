@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 10:18 ET** · refreshes hourly_  
+_Updated: **2026-10-30 11:16 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **958 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **2** solved in last 24h
-- **956** tickets total since launch · contact rate **3%** of 35000 invitees
+- **12** new tickets in last 24h · **3** solved in last 24h
+- **958** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.5h · mean 153.1h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 136.5h · mean 152.0h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -188,7 +188,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so fa
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [open] · 2026-10-13 · _Re: [Thundermail] Re: Send_
-  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [solved] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -268,17 +268,18 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 787
-- **pending**: 67
+- **closed**: 788
+- **pending**: 71
 - **solved**: 58
-- **open**: 24
 - **hold**: 20
+- **open**: 20
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 539
+- **Account Hub**: 542
 - **Thundermail**: 325
-- **Send**: 22
+- **Send**: 21
 - **Appointment**: 11
 
 ## Why × How (cumulative)
@@ -295,9 +296,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 41
 - **confused** + **informed**: 39
 - **concerned** + **explained**: 31
-- **blocked** + **informed**: 19
+- **blocked** + **informed**: 20
 - **blocked** + **escalated**: 16
-- **confused** + **redirected**: 11
+- **confused** + **redirected**: 13
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
 - **confused** + **—**: 9
@@ -343,12 +344,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Aliases — 2 tickets
 
-- **[#10609](https://tbpro.zendesk.com/agent/tickets/10609)** · No se guardan los correos enviados
-  > Cada vez que envío un correo, se abre una pantalla que indica que se está copiando dicho correo pero no avanza y luego aparece un mensaje:…
-- **[#10608](https://tbpro.zendesk.com/agent/tickets/10608)** · Sperre um in meine E Mails zu kommen ?
-  > Gibt es die Möglichkeit Mozilla Thunderrbird über meine Telefonnummer 0162 67 07 464 mich freizuschalten ??
+- **[#10611](https://tbpro.zendesk.com/agent/tickets/10611)** · Main Email Adress forgotten
+  > I have my email Adress made as a Backup the [email]. My main email on thundermail I dont remember - my alias email is [email]. Ist there any chance to send me a recovery email for…
+- **[#10606](https://tbpro.zendesk.com/agent/tickets/10606)** · Re: Messed up registration?: still need help? — why: **confused**
+  > This is a follow-up to your previous request #9621 "Messed up registration?" Hi! I'm good. I got it to work. Thanks!
+
+### Other / uncategorized — 2 tickets
+
 - **[#10605](https://tbpro.zendesk.com/agent/tickets/10605)** · Option to have text labels on buttons
   > It would be great if there was a setting that turned on text labels for the buttons, rather than having only the icons
 - **[#10596](https://tbpro.zendesk.com/agent/tickets/10596)** · Cannot sign in
@@ -361,20 +365,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10600](https://tbpro.zendesk.com/agent/tickets/10600)** · Refund — why: **change request** · how: **actioned**
   > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 
+### Account access issues — Account Hub trouble — 2 tickets
+
+- **[#10609](https://tbpro.zendesk.com/agent/tickets/10609)** · No se guardan los correos enviados — why: **confused** · how: **redirected**
+  > Cada vez que envío un correo, se abre una pantalla que indica que se está copiando dicho correo pero no avanza y luego aparece un mensaje:…
+- **[#10608](https://tbpro.zendesk.com/agent/tickets/10608)** · Sperre um in meine E Mails zu kommen ? — why: **confused** · how: **redirected**
+  > Gibt es die Möglichkeit Mozilla Thunderrbird über meine Telefonnummer 0162 67 07 464 mich freizuschalten ??
+
+### Account access issues — 1 tickets
+
+- **[#10612](https://tbpro.zendesk.com/agent/tickets/10612)** · Forgot password 
+  > Hi, I’m disabled and out of house right now. Realised I’ve forgotten my password, and it’s saying details of how to reset have been sent to my recovery email. I don’t appear to…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
-- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP
+- **[#10602](https://tbpro.zendesk.com/agent/tickets/10602)** · Unable to add account to any email client using IMAP — why: **blocked** · how: **informed**
   > I followed your instructions to add my new account using IMAP to no avail. I keep getting “incorrect username and password”. I removed MFA in case that was the issue, and still,…
 
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10594](https://tbpro.zendesk.com/agent/tickets/10594)** · Request for refund – Thundermail Early Bird subscription — why: **curious** · how: **informed**
   > Hello [name], I purchased the Thundermail Early Bird subscription on July 20, 2026, for $70. After more than three months of testing the service, I have unfortunately come to the…
-
-### Aliases — 1 tickets
-
-- **[#10606](https://tbpro.zendesk.com/agent/tickets/10606)** · Re: Messed up registration?: still need help? — why: **confused**
-  > This is a follow-up to your previous request #9621 "Messed up registration?" Hi! I'm good. I got it to work. Thanks!
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -384,20 +395,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10593](https://tbpro.zendesk.com/agent/tickets/10593) · [pending] · 2026-10-29T20:08 · Using private domain name
-- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [open] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
+- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [pending] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
 - [10596](https://tbpro.zendesk.com/agent/tickets/10596) · [open] · 2026-10-29T21:12 · Cannot sign in
 - [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30T01:39 · Refund
-- [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [open] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
+- [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [pending] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
 - [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [open] · 2026-10-30T08:09 · Option to have text labels on buttons
 - [10606](https://tbpro.zendesk.com/agent/tickets/10606) · [solved] · 2026-10-30T08:20 · Re: Messed up registration?: still need help?
-- [10608](https://tbpro.zendesk.com/agent/tickets/10608) · [open] · 2026-10-30T13:22 · Sperre um in meine E Mails zu kommen ?
-- [10609](https://tbpro.zendesk.com/agent/tickets/10609) · [open] · 2026-10-30T13:37 · No se guardan los correos enviados
+- [10608](https://tbpro.zendesk.com/agent/tickets/10608) · [pending] · 2026-10-30T13:22 · Sperre um in meine E Mails zu kommen ?
+- [10609](https://tbpro.zendesk.com/agent/tickets/10609) · [pending] · 2026-10-30T13:37 · No se guardan los correos enviados
+- [10611](https://tbpro.zendesk.com/agent/tickets/10611) · [open] · 2026-10-30T14:25 · Main Email Adress forgotten
+- [10612](https://tbpro.zendesk.com/agent/tickets/10612) · [new] · 2026-10-30T15:04 · Forgot password 
 
 ## Solved — last 24h
 
 - · [10606](https://tbpro.zendesk.com/agent/tickets/10606) · 2026-10-30T13:35 · Re: Messed up registration?: still need help?
 - · [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-10-30T13:45 · Difficulty setting up new [domain] domain email address
+- · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-30T14:50 · Send does not work in Firefox
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
