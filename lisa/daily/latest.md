@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 13:14 ET** · refreshes hourly_  
+_Updated: **2026-10-30 14:18 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **956 tickets** so fa
 
 ## At a glance
 
-- **13** new tickets in last 24h · **4** solved in last 24h
+- **13** new tickets in last 24h · **5** solved in last 24h
 - **956** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (192 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 93
-- **Median AHT**: 136.4h · mean 149.3h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 137.6h · mean 152.6h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -268,9 +268,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 791
+- **closed**: 794
 - **pending**: 77
-- **solved**: 56
+- **solved**: 53
 - **hold**: 21
 - **open**: 11
 
@@ -418,6 +418,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-10-30T13:45 · Difficulty setting up new [domain] domain email address
 - · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-30T14:50 · Send does not work in Firefox
 - · [10475](https://tbpro.zendesk.com/agent/tickets/10475) · 2026-10-30T16:59 · invitation
+- · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-30T17:59 · Cannot sign in 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
