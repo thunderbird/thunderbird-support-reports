@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 01:17 ET** · refreshes hourly_  
+_Updated: **2026-10-30 02:27 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -268,10 +268,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 787
-- **pending**: 70
+- **pending**: 69
 - **solved**: 56
 - **hold**: 20
-- **open**: 17
+- **open**: 18
 - **new**: 2
 
 ## Service (cumulative)
@@ -373,7 +373,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10593](https://tbpro.zendesk.com/agent/tickets/10593) · [pending] · 2026-10-29T20:08 · Using private domain name
-- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [pending] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
+- [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [open] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
 - [10596](https://tbpro.zendesk.com/agent/tickets/10596) · [open] · 2026-10-29T21:12 · Cannot sign in
 - [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [new] · 2026-10-30T01:39 · Refund
