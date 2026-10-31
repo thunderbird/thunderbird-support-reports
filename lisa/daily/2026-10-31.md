@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 11:12 ET** · refreshes hourly_  
+_Updated: **2026-10-31 12:14 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 83** of rollout — **35,000 invitees**, **964 tickets** so fa
 
 ## At a glance
 
-- **6** new tickets in last 24h · **2** solved in last 24h
+- **6** new tickets in last 24h · **3** solved in last 24h
 - **964** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (194 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
-- **Median AHT**: 136.2h · mean 152.6h (proxy: updated_at − created_at, 44 solved tickets)
+- **Median AHT**: 136.2h · mean 157.5h (proxy: updated_at − created_at, 43 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -262,16 +262,16 @@ _(none in last 24h)_
 
 **Last 24h** — 2 new:
 
-- [Option to have text labels on buttons in web interface](https://ideas.tb.pro/p/option-to-have-text-labels-on-buttons-in-web-interface) · 1 votes · _untagged_
+- [Option to have text labels on buttons in web interface](https://ideas.tb.pro/p/option-to-have-text-labels-on-buttons-in-web-interface) · 1 votes · _Thundermail, Webmail_
   > What you’d like to see It would be great to have a configurable setting to change the icon-only buttons to either text-only or text+icon. Icon only buttons can be cryptic and make it difficult to…
 - [Integration with password managers](https://ideas.tb.pro/p/integration-with-password-managers) · 1 votes · _untagged_
   > What you’d like to see Briefly describe the feature or improvement. Currently, when you go to webmail.thundermail.com, you get redirected to auth.tb.pro, and the URL has a code_challenge embedded…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 803
-- **pending**: 79
-- **solved**: 44
+- **closed**: 805
+- **pending**: 78
+- **solved**: 43
 - **hold**: 23
 - **open**: 12
 - **new**: 3
@@ -388,6 +388,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-30T20:19 · Bug report: Incorrect Sent folder message count in Thunderbird
 - · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-31T15:02 · Send does not work in Firefox
+- · [10141](https://tbpro.zendesk.com/agent/tickets/10141) · 2026-10-31T16:01 · Re: You're Invited: Thundermail Early Bird Access
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
