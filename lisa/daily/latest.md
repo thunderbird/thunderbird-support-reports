@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 21:15 ET** · refreshes hourly_  
+_Updated: **2026-10-30 22:18 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 82** of rollout — **35,000 invitees**, **960 tickets** so fa
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"side filtering"** — 2 tickets in 24h (81.0× baseline; baseline 2 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
+- **"server side filtering"** — 2 tickets in 24h (81.0× baseline; baseline 2 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
 - **"kind regards"** — 2 tickets in 24h (9.0× baseline; baseline 18 cum) — [#10613](https://tbpro.zendesk.com/agent/tickets/10613), [#10617](https://tbpro.zendesk.com/agent/tickets/10617)
 - **"cancel subscription"** — 2 tickets in 24h (7.4× baseline; baseline 22 cum) — [#10598](https://tbpro.zendesk.com/agent/tickets/10598), [#10618](https://tbpro.zendesk.com/agent/tickets/10618)
 
