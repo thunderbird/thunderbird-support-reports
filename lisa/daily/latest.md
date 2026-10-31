@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 12:14 ET** · refreshes hourly_  
+_Updated: **2026-10-31 13:11 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 83** of rollout — **35,000 invitees**, **964 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 83** of rollout — **35,000 invitees**, **967 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **3** solved in last 24h
-- **964** tickets total since launch · contact rate **3%** of 35000 invitees
+- **9** new tickets in last 24h · **6** solved in last 24h
+- **967** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (194 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
-- **Median AHT**: 136.2h · mean 157.5h (proxy: updated_at − created_at, 43 solved tickets)
+- **Median AHT**: 137.8h · mean 161.5h (proxy: updated_at − created_at, 41 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -121,7 +121,7 @@ Flight 8 is **day 83** of rollout — **35,000 invitees**, **964 tickets** so fa
   - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22 · _domain setup issue_
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [solved] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [solved] · 2026-10-23 · _cancellation_
-  - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [pending] · 2026-10-25 · _account cancelation and refund request_
+  - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [solved] · 2026-10-25 · _account cancelation and refund request_
   - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [pending] · 2026-10-27 · _delete my account_
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27 · _Refund Request_
@@ -269,17 +269,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 805
-- **pending**: 78
-- **solved**: 43
+- **closed**: 809
+- **pending**: 75
+- **solved**: 41
 - **hold**: 23
-- **open**: 12
-- **new**: 3
+- **open**: 13
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 543
-- **Thundermail**: 331
+- **Account Hub**: 544
+- **Thundermail**: 333
 - **Send**: 21
 - **Appointment**: 11
 
@@ -345,6 +345,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10639](https://tbpro.zendesk.com/agent/tickets/10639)** · Methods of payment
+  > I live in Brazil, and I would like to know if the annual payment for a Thundermail account can be done via a bank invoice, in Brazilian reals, and payable through the Brazilian…
+- **[#10622](https://tbpro.zendesk.com/agent/tickets/10622)** · Cancelled Subscription - Requesting Refund
+  > Discovered That I Could on add my Outlook.com email to Thundermail like you can in regular Thunderbird - Paid $72.00 Cancelled a few minutes later!
+
+### Other / uncategorized — 1 tickets
+
+- **[#10640](https://tbpro.zendesk.com/agent/tickets/10640)** · Transferring from existing host through Thunderbird (to Thundermail)
+  > Can existing use of Thunderbird facilitate the migration of content host-to-host? Is there an app or extension that might automate processes?
+
+### Account access issues — 1 tickets
+
+- **[#10638](https://tbpro.zendesk.com/agent/tickets/10638)** · Forgotten login credentials
+  > I signed up for Thundermail pro in September. I failed to write down my login credentials. Can you help me retreive my email address? Attached is my welcome email that was sent to…
+
 ### Aliases — 1 tickets
 
 - **[#10637](https://tbpro.zendesk.com/agent/tickets/10637)** · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
@@ -365,11 +382,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10623](https://tbpro.zendesk.com/agent/tickets/10623)** · QUERIES not in FAQ
   > I have Thunderbird on my PC and my phone. I have the calendar extension on my PC but cannot add it to my phone version. Will this new service give me access to a synchronised…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10622](https://tbpro.zendesk.com/agent/tickets/10622)** · Cancelled Subscription - Requesting Refund
-  > Discovered That I Could on add my Outlook.com email to Thundermail like you can in regular Thunderbird - Paid $72.00 Cancelled a few minutes later!
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10620](https://tbpro.zendesk.com/agent/tickets/10620)** · Synchronization between Thundermail IMAP and Thundermail Webmail — why: **concerned** · how: **informed**
@@ -383,12 +395,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10624](https://tbpro.zendesk.com/agent/tickets/10624) · [new] · 2026-10-31T05:29 · Cost of early bird subscription
 - [10632](https://tbpro.zendesk.com/agent/tickets/10632) · [new] · 2026-10-31T12:43 · 
 - [10637](https://tbpro.zendesk.com/agent/tickets/10637) · [open] · 2026-10-31T13:54 · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain]
+- [10638](https://tbpro.zendesk.com/agent/tickets/10638) · [new] · 2026-10-31T16:22 · Forgotten login credentials
+- [10639](https://tbpro.zendesk.com/agent/tickets/10639) · [new] · 2026-10-31T16:53 · Methods of payment
+- [10640](https://tbpro.zendesk.com/agent/tickets/10640) · [new] · 2026-10-31T16:57 · Transferring from existing host through Thunderbird (to Thundermail)
 
 ## Solved — last 24h
 
 - 👍 [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-30T20:19 · Bug report: Incorrect Sent folder message count in Thunderbird
 - · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-31T15:02 · Send does not work in Firefox
 - · [10141](https://tbpro.zendesk.com/agent/tickets/10141) · 2026-10-31T16:01 · Re: You're Invited: Thundermail Early Bird Access
+- · [10475](https://tbpro.zendesk.com/agent/tickets/10475) · 2026-10-31T17:01 · invitation
+- · [10451](https://tbpro.zendesk.com/agent/tickets/10451) · 2026-10-31T17:01 · account cancelation and refund request
+- · [10431](https://tbpro.zendesk.com/agent/tickets/10431) · 2026-10-31T17:01 · Change adress email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
