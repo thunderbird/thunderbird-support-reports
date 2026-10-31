@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 14:15 ET** · refreshes hourly_  
+_Updated: **2026-10-31 15:11 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 83** of rollout — **35,000 invitees**, **969 tickets** so fa
 
 ## At a glance
 
-- **11** new tickets in last 24h · **5** solved in last 24h
+- **11** new tickets in last 24h · **10** solved in last 24h
 - **969** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
-- **Median AHT**: 138.6h · mean 164.9h (proxy: updated_at − created_at, 37 solved tickets)
+- **Median AHT**: 143.4h · mean 168.2h (proxy: updated_at − created_at, 42 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -268,7 +268,7 @@ _(none in last 24h)_
 
 **Last 24h** — 2 new:
 
-- [Option to have text labels on buttons in web interface](https://ideas.tb.pro/p/option-to-have-text-labels-on-buttons-in-web-interface) · 1 votes · _Thundermail, Webmail_
+- [Option to have text labels on buttons in web interface](https://ideas.tb.pro/p/option-to-have-text-labels-on-buttons-in-web-interface) · 2 votes · _Thundermail, Webmail_
   > What you’d like to see It would be great to have a configurable setting to change the icon-only buttons to either text-only or text+icon. Icon only buttons can be cryptic and make it difficult to…
 - [Integration with password managers](https://ideas.tb.pro/p/integration-with-password-managers) · 1 votes · _untagged_
   > What you’d like to see Briefly describe the feature or improvement. Currently, when you go to webmail.thundermail.com, you get redirected to auth.tb.pro, and the URL has a code_challenge embedded…
@@ -276,8 +276,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 811
-- **pending**: 75
-- **solved**: 37
+- **pending**: 70
+- **solved**: 42
 - **hold**: 23
 - **open**: 15
 - **new**: 8
@@ -418,6 +418,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10451](https://tbpro.zendesk.com/agent/tickets/10451) · 2026-10-31T17:01 · account cancelation and refund request
 - · [10431](https://tbpro.zendesk.com/agent/tickets/10431) · 2026-10-31T17:01 · Change adress email
 - · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-31T18:02 · Cannot sign in 
+- · [10457](https://tbpro.zendesk.com/agent/tickets/10457) · 2026-10-31T19:02 · Cannot create Thundermail account in Thunderbird 115.18.0
+- · [10436](https://tbpro.zendesk.com/agent/tickets/10436) · 2026-10-31T19:02 · DANE and DNSSEC support for a custom domain?
+- · [10406](https://tbpro.zendesk.com/agent/tickets/10406) · 2026-10-31T19:02 · Tags
+- · [10405](https://tbpro.zendesk.com/agent/tickets/10405) · 2026-10-31T19:02 · can't send attachments?  Photos.
+- · [10219](https://tbpro.zendesk.com/agent/tickets/10219) · 2026-10-31T19:02 · Activation
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
