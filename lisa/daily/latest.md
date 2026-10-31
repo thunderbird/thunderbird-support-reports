@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 13:11 ET** · refreshes hourly_  
+_Updated: **2026-10-31 14:15 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 83** of rollout — **35,000 invitees**, **967 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 83** of rollout — **35,000 invitees**, **969 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **6** solved in last 24h
-- **967** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (194 good / 11 bad)
+- **11** new tickets in last 24h · **5** solved in last 24h
+- **969** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
-- **Median AHT**: 137.8h · mean 161.5h (proxy: updated_at − created_at, 41 solved tickets)
+- **Median AHT**: 138.6h · mean 164.9h (proxy: updated_at − created_at, 37 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"haven received"** — 2 tickets in 24h (82.0× baseline; baseline 2 cum) — [#10624](https://tbpro.zendesk.com/agent/tickets/10624), [#10641](https://tbpro.zendesk.com/agent/tickets/10641)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -188,7 +194,7 @@ Flight 8 is **day 83** of rollout — **35,000 invitees**, **967 tickets** so fa
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [pending] · 2026-10-13 · _Re: [Thundermail] Re: Send_
-  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [solved] · 2026-10-23 · _Send does not work in Firefox_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -269,17 +275,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 809
+- **closed**: 811
 - **pending**: 75
-- **solved**: 41
+- **solved**: 37
 - **hold**: 23
-- **open**: 13
-- **new**: 6
+- **open**: 15
+- **new**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 544
-- **Thundermail**: 333
+- **Thundermail**: 334
 - **Send**: 21
 - **Appointment**: 11
 
@@ -345,6 +351,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#10642](https://tbpro.zendesk.com/agent/tickets/10642)** · Sign in
+  > Can't sign in
+- **[#10638](https://tbpro.zendesk.com/agent/tickets/10638)** · Forgotten login credentials
+  > I signed up for Thundermail pro in September. I failed to write down my login credentials. Can you help me retreive my email address? Attached is my welcome email that was sent to…
+
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#10641](https://tbpro.zendesk.com/agent/tickets/10641)** · Thundermail acces
+  > I clicked on the invitation link for the Early Bird Beta, created my account and entered the email address ([email]), but I don’t know how to verify it. When it asks me to verify,…
+- **[#10624](https://tbpro.zendesk.com/agent/tickets/10624)** · Cost of early bird subscription
+  > I'm signing up for an early bird subscription, but the $72 charge doesn't match the $6/month offer and I haven't received a discount code. I'm going to sign up, but I'd like to…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10639](https://tbpro.zendesk.com/agent/tickets/10639)** · Methods of payment
@@ -357,11 +377,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10640](https://tbpro.zendesk.com/agent/tickets/10640)** · Transferring from existing host through Thunderbird (to Thundermail)
   > Can existing use of Thunderbird facilitate the migration of content host-to-host? Is there an app or extension that might automate processes?
 
-### Account access issues — 1 tickets
-
-- **[#10638](https://tbpro.zendesk.com/agent/tickets/10638)** · Forgotten login credentials
-  > I signed up for Thundermail pro in September. I failed to write down my login credentials. Can you help me retreive my email address? Attached is my welcome email that was sent to…
-
 ### Aliases — 1 tickets
 
 - **[#10637](https://tbpro.zendesk.com/agent/tickets/10637)** · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
@@ -371,11 +386,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10632](https://tbpro.zendesk.com/agent/tickets/10632)** · (no subject)
   > Allgemeine Informationen Name Thunderbird Version 159.0 Build-ID [number] Distributions-ID Update-Kanal release User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:159.0)…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#10624](https://tbpro.zendesk.com/agent/tickets/10624)** · Cost of early bird subscription
-  > I'm signing up for an early bird subscription, but the $72 charge doesn't match the $6/month offer and I haven't received a discount code. I'm going to sign up, but I'd like to…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -398,15 +408,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10638](https://tbpro.zendesk.com/agent/tickets/10638) · [new] · 2026-10-31T16:22 · Forgotten login credentials
 - [10639](https://tbpro.zendesk.com/agent/tickets/10639) · [new] · 2026-10-31T16:53 · Methods of payment
 - [10640](https://tbpro.zendesk.com/agent/tickets/10640) · [new] · 2026-10-31T16:57 · Transferring from existing host through Thunderbird (to Thundermail)
+- [10641](https://tbpro.zendesk.com/agent/tickets/10641) · [new] · 2026-10-31T17:41 · Thundermail acces
+- [10642](https://tbpro.zendesk.com/agent/tickets/10642) · [new] · 2026-10-31T17:46 · Sign in
 
 ## Solved — last 24h
 
 - 👍 [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-30T20:19 · Bug report: Incorrect Sent folder message count in Thunderbird
-- · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-31T15:02 · Send does not work in Firefox
 - · [10141](https://tbpro.zendesk.com/agent/tickets/10141) · 2026-10-31T16:01 · Re: You're Invited: Thundermail Early Bird Access
-- · [10475](https://tbpro.zendesk.com/agent/tickets/10475) · 2026-10-31T17:01 · invitation
 - · [10451](https://tbpro.zendesk.com/agent/tickets/10451) · 2026-10-31T17:01 · account cancelation and refund request
 - · [10431](https://tbpro.zendesk.com/agent/tickets/10431) · 2026-10-31T17:01 · Change adress email
+- · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-31T18:02 · Cannot sign in 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
