@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-30
 
-_Updated: **2026-10-30 19:17 ET** · refreshes hourly_  
+_Updated: **2026-10-30 20:34 ET** · refreshes hourly_  
 _24h window: 2026-10-29T16:00 → 2026-10-30T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 82** of rollout — **35,000 invitees**, **959 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 82** of rollout — **35,000 invitees**, **960 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **15** new tickets in last 24h · **6** solved in last 24h
-- **959** tickets total since launch · contact rate **3%** of 35000 invitees
+- **960** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (193 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 95
@@ -262,12 +262,14 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · _Refund_
   > Hi, I was wondering if I could refund my Thundermail subscription? Thanks
 - [10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · _New Subscription Cancellation Information_
   > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future time. I just need to know if I do cancel in…
+- [10622](https://tbpro.zendesk.com/agent/tickets/10622) · [open] · _Cancelled Subscription - Requesting Refund_
+  > Discovered That I Could on add my Outlook.com email to Thundermail like you can in regular Thunderbird - Paid $72.00 Cancelled a few minutes later!
 
 ## New ideas on FeatureOS
 
@@ -281,13 +283,13 @@ Regards, [name]_
 - **closed**: 801
 - **pending**: 81
 - **solved**: 47
-- **hold**: 22
+- **hold**: 23
 - **open**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 543
-- **Thundermail**: 327
+- **Thundermail**: 328
 - **Send**: 21
 - **Appointment**: 11
 
@@ -320,6 +322,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 5
 - **curious** + **—**: 5
 - **telling us** + **n/a**: 4
+- **request** + **actioned**: 4
 - **curious** + **escalated**: 3
 - **other** + **n/a**: 3
 - **concerned** + **informed**: 3
@@ -329,7 +332,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **escalated**: 3
 - **request** + **informed**: 3
 - **telling us** + **—**: 3
-- **request** + **actioned**: 3
 - **change request** + **informed**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
@@ -380,10 +382,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account
-  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 - **[#10618](https://tbpro.zendesk.com/agent/tickets/10618)** · New Subscription Cancellation Information — why: **curious** · how: **explained**
   > Hello, I have been subscribed to Thundermail since October 24th, and I may be deciding to cancel my subscription prior to 14 days since purchase, and come back at some future…
+- **[#10598](https://tbpro.zendesk.com/agent/tickets/10598)** · Delete Account — why: **request** · how: **actioned**
+  > I've finished checking out what Thundermail is, and I do like the service. It is something that I would recommend to everyday people, and the additional products that are offered…
 
 ### Account access issues — 1 tickets
 
@@ -415,7 +417,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10593](https://tbpro.zendesk.com/agent/tickets/10593) · [pending] · 2026-10-29T20:08 · Using private domain name
 - [10594](https://tbpro.zendesk.com/agent/tickets/10594) · [pending] · 2026-10-29T20:12 · Request for refund – Thundermail Early Bird subscription
 - [10596](https://tbpro.zendesk.com/agent/tickets/10596) · [pending] · 2026-10-29T21:12 · Cannot sign in
-- [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [open] · 2026-10-30T00:30 · Delete Account
+- [10598](https://tbpro.zendesk.com/agent/tickets/10598) · [hold] · 2026-10-30T00:30 · Delete Account
 - [10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30T01:39 · Refund
 - [10602](https://tbpro.zendesk.com/agent/tickets/10602) · [pending] · 2026-10-30T04:31 · Unable to add account to any email client using IMAP
 - [10605](https://tbpro.zendesk.com/agent/tickets/10605) · [pending] · 2026-10-30T08:09 · Option to have text labels on buttons
