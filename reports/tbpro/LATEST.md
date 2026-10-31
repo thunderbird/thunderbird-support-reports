@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 10:13 ET** · refreshes hourly_  
+_Updated: **2026-10-31 11:12 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 83** of rollout — **35,000 invitees**, **964 tickets** so fa
 
 - **6** new tickets in last 24h · **2** solved in last 24h
 - **964** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (193 good / 11 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 95%  (194 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
-- **Median AHT**: 136.2h · mean 152.3h (proxy: updated_at − created_at, 45 solved tickets)
+- **Median AHT**: 136.2h · mean 152.6h (proxy: updated_at − created_at, 44 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -271,9 +271,9 @@ _(none in last 24h)_
 
 - **closed**: 803
 - **pending**: 79
-- **solved**: 45
+- **solved**: 44
 - **hold**: 23
-- **open**: 11
+- **open**: 12
 - **new**: 3
 
 ## Service (cumulative)
@@ -387,7 +387,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-30T20:19 · Bug report: Incorrect Sent folder message count in Thunderbird
-- · [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-10-31T14:02 · Difficulty setting up new [domain] domain email address
+- · [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-10-31T15:02 · Send does not work in Firefox
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
