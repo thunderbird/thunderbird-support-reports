@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 01:14 ET** · refreshes hourly_  
+_Updated: **2026-10-31 02:20 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 83** of rollout — **35,000 invitees**, **961 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 83** of rollout — **35,000 invitees**, **962 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **1** solved in last 24h
-- **961** tickets total since launch · contact rate **3%** of 35000 invitees
+- **4** new tickets in last 24h · **1** solved in last 24h
+- **962** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (193 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
@@ -274,12 +274,12 @@ _(none in last 24h)_
 - **solved**: 47
 - **hold**: 23
 - **open**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 543
-- **Thundermail**: 329
+- **Thundermail**: 330
 - **Send**: 21
 - **Appointment**: 11
 
@@ -345,6 +345,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#10624](https://tbpro.zendesk.com/agent/tickets/10624)** · Cost of early bird subscription
+  > I'm signing up for an early bird subscription, but the $72 charge doesn't match the $6/month offer and I haven't received a discount code. I'm going to sign up, but I'd like to…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#10623](https://tbpro.zendesk.com/agent/tickets/10623)** · QUERIES not in FAQ
@@ -365,6 +370,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10620](https://tbpro.zendesk.com/agent/tickets/10620) · [open] · 2026-10-30T21:27 · Synchronization between Thundermail IMAP and Thundermail Webmail
 - [10622](https://tbpro.zendesk.com/agent/tickets/10622) · [open] · 2026-10-30T23:55 · Cancelled Subscription - Requesting Refund
 - [10623](https://tbpro.zendesk.com/agent/tickets/10623) · [new] · 2026-10-31T03:29 · QUERIES not in FAQ
+- [10624](https://tbpro.zendesk.com/agent/tickets/10624) · [new] · 2026-10-31T05:29 · Cost of early bird subscription
 
 ## Solved — last 24h
 
