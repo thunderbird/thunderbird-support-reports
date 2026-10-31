@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 09:12 ET** · refreshes hourly_  
+_Updated: **2026-10-31 10:13 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 83** of rollout — **35,000 invitees**, **963 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 83** of rollout — **35,000 invitees**, **964 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **1** solved in last 24h
-- **963** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **6** new tickets in last 24h · **2** solved in last 24h
+- **964** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (193 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
-- **Median AHT**: 136.5h · mean 151.4h (proxy: updated_at − created_at, 47 solved tickets)
+- **Median AHT**: 136.2h · mean 152.3h (proxy: updated_at − created_at, 45 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -117,7 +117,7 @@ Flight 8 is **day 83** of rollout — **35,000 invitees**, **963 tickets** so fa
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [closed] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [closed] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [closed] · 2026-10-20 · _Refund_
-  - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [solved] · 2026-10-20 · _Monthly plans _
+  - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [closed] · 2026-10-20 · _Monthly plans _
   - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22 · _domain setup issue_
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [solved] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [solved] · 2026-10-23 · _cancellation_
@@ -269,17 +269,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 801
+- **closed**: 803
 - **pending**: 79
-- **solved**: 47
+- **solved**: 45
 - **hold**: 23
-- **open**: 10
+- **open**: 11
 - **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 543
-- **Thundermail**: 330
+- **Thundermail**: 331
 - **Send**: 21
 - **Appointment**: 11
 
@@ -298,7 +298,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **informed**: 39
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 22
-- **blocked** + **escalated**: 16
+- **blocked** + **escalated**: 17
 - **confused** + **redirected**: 13
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
@@ -345,6 +345,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#10637](https://tbpro.zendesk.com/agent/tickets/10637)** · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
+  > This is a follow-up to your previous request #9567 "Test Email – Delivery Issue..." Hi [name], Just following up. After reinstalling Thunderbird on my laptop, I can still see…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10632](https://tbpro.zendesk.com/agent/tickets/10632)** · (no subject)
@@ -377,10 +382,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10623](https://tbpro.zendesk.com/agent/tickets/10623) · [new] · 2026-10-31T03:29 · QUERIES not in FAQ
 - [10624](https://tbpro.zendesk.com/agent/tickets/10624) · [new] · 2026-10-31T05:29 · Cost of early bird subscription
 - [10632](https://tbpro.zendesk.com/agent/tickets/10632) · [new] · 2026-10-31T12:43 · 
+- [10637](https://tbpro.zendesk.com/agent/tickets/10637) · [open] · 2026-10-31T13:54 · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain]
 
 ## Solved — last 24h
 
 - 👍 [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-30T20:19 · Bug report: Incorrect Sent folder message count in Thunderbird
+- · [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-10-31T14:02 · Difficulty setting up new [domain] domain email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
