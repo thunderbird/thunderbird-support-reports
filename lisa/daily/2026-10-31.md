@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-10-31
 
-_Updated: **2026-10-31 08:18 ET** · refreshes hourly_  
+_Updated: **2026-10-31 09:12 ET** · refreshes hourly_  
 _24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 83** of rollout — **35,000 invitees**, **962 tickets** so far (2.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 83** of rollout — **35,000 invitees**, **963 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **1** solved in last 24h
-- **962** tickets total since launch · contact rate **3%** of 35000 invitees
+- **5** new tickets in last 24h · **1** solved in last 24h
+- **963** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (193 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 95
@@ -274,7 +274,7 @@ _(none in last 24h)_
 - **solved**: 47
 - **hold**: 23
 - **open**: 10
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
@@ -345,6 +345,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10632](https://tbpro.zendesk.com/agent/tickets/10632)** · (no subject)
+  > Allgemeine Informationen Name Thunderbird Version 159.0 Build-ID [number] Distributions-ID Update-Kanal release User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:159.0)…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10624](https://tbpro.zendesk.com/agent/tickets/10624)** · Cost of early bird subscription
@@ -371,6 +376,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10622](https://tbpro.zendesk.com/agent/tickets/10622) · [open] · 2026-10-30T23:55 · Cancelled Subscription - Requesting Refund
 - [10623](https://tbpro.zendesk.com/agent/tickets/10623) · [new] · 2026-10-31T03:29 · QUERIES not in FAQ
 - [10624](https://tbpro.zendesk.com/agent/tickets/10624) · [new] · 2026-10-31T05:29 · Cost of early bird subscription
+- [10632](https://tbpro.zendesk.com/agent/tickets/10632) · [new] · 2026-10-31T12:43 · 
 
 ## Solved — last 24h
 
