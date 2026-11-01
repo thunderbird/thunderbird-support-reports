@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 07:18 ET** · refreshes hourly_  
+_Updated: **2026-11-01 08:12 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 84** of rollout — **35,000 invitees**, **973 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 84** of rollout — **35,000 invitees**, **974 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **11** solved in last 24h
-- **973** tickets total since launch · contact rate **3%** of 35000 invitees
+- **5** new tickets in last 24h · **11** solved in last 24h
+- **974** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
-- **Median AHT**: 154.8h · mean 173.4h (proxy: updated_at − created_at, 45 solved tickets)
+- **Median AHT**: 155.5h · mean 177.2h (proxy: updated_at − created_at, 44 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -267,17 +267,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 818
+- **closed**: 819
 - **pending**: 60
-- **solved**: 45
+- **solved**: 44
 - **hold**: 21
 - **open**: 17
-- **new**: 12
+- **new**: 13
 
 ## Service (cumulative)
 
 - **Account Hub**: 546
-- **Thundermail**: 335
+- **Thundermail**: 336
 - **Send**: 22
 - **Appointment**: 11
 
@@ -357,12 +357,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10645](https://tbpro.zendesk.com/agent/tickets/10645)** · Delete account
   > I am already using the free app with Netzero, Outlook, and Yahoo accounts and I like it. I thought my existing messages and files would import to this beta one but apparently not.…
 
+### Email migration / import — 1 tickets
+
+- **[#10654](https://tbpro.zendesk.com/agent/tickets/10654)** · Question about signing up
+  > Hello, I received a beta invite back in June. As excited as I’ve been to try Thundermail, I’ve been hesitant to make the commitment due to the price and no ability to test…
+
 ## New tickets — last 24h
 
 - [10644](https://tbpro.zendesk.com/agent/tickets/10644) · [new] · 2026-10-31T23:26 · [domain] addresses
 - [10645](https://tbpro.zendesk.com/agent/tickets/10645) · [new] · 2026-11-01T00:59 · Delete account
 - [10646](https://tbpro.zendesk.com/agent/tickets/10646) · [new] · 2026-11-01T05:26 · Kein Einloggen von einem anderen Rechner möglich
 - [10648](https://tbpro.zendesk.com/agent/tickets/10648) · [new] · 2026-11-01T06:15 · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
+- [10654](https://tbpro.zendesk.com/agent/tickets/10654) · [new] · 2026-11-01T12:25 · Question about signing up
 
 ## Solved — last 24h
 
