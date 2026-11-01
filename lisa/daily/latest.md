@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-10-31
+# Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-10-31 23:18 ET** · refreshes hourly_  
-_24h window: 2026-10-30T16:00 → 2026-10-31T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-01 00:16 ET** · refreshes hourly_  
+_24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 83** of rollout — **35,000 invitees**, **971 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 84** of rollout — **35,000 invitees**, **971 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **10** solved in last 24h
+- **2** new tickets in last 24h · **11** solved in last 24h
 - **971** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 96
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
 - **Median AHT**: 154.8h · mean 173.4h (proxy: updated_at − created_at, 45 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"haven received"** — 2 tickets in 24h (82.0× baseline; baseline 2 cum) — [#10624](https://tbpro.zendesk.com/agent/tickets/10624), [#10641](https://tbpro.zendesk.com/agent/tickets/10641)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -266,12 +260,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 1 new:
 
-- [Option to have text labels on buttons in web interface](https://ideas.tb.pro/p/option-to-have-text-labels-on-buttons-in-web-interface) · 2 votes · _Thundermail, Webmail_
-  > What you’d like to see It would be great to have a configurable setting to change the icon-only buttons to either text-only or text+icon. Icon only buttons can be cryptic and make it difficult to…
-- [Integration with password managers](https://ideas.tb.pro/p/integration-with-password-managers) · 1 votes · _untagged_
-  > What you’d like to see Briefly describe the feature or improvement. Currently, when you go to webmail.thundermail.com, you get redirected to auth.tb.pro, and the URL has a code_challenge embedded…
+- [Syncing between Web and Thunderbird applications](https://ideas.tb.pro/p/syncing-between-web-and-thunderbird-applications) · 1 votes · _untagged_
+  > What you’d like to see I would like to see identities, tags, filter rules, and similar settings/customizations to sync (both ways) between the website and Thunderbird (Mac, Windows, Android, iOS, and…
 
 ## Status breakdown (cumulative)
 
@@ -351,78 +343,34 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 2 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#10642](https://tbpro.zendesk.com/agent/tickets/10642)** · Sign in
-  > Can't sign in
-- **[#10638](https://tbpro.zendesk.com/agent/tickets/10638)** · Forgotten login credentials
-  > I signed up for Thundermail pro in September. I failed to write down my login credentials. Can you help me retreive my email address? Attached is my welcome email that was sent to…
-
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#10641](https://tbpro.zendesk.com/agent/tickets/10641)** · Thundermail acces
-  > I clicked on the invitation link for the Early Bird Beta, created my account and entered the email address ([email]), but I don’t know how to verify it. When it asks me to verify,…
-- **[#10624](https://tbpro.zendesk.com/agent/tickets/10624)** · Cost of early bird subscription
-  > I'm signing up for an early bird subscription, but the $72 charge doesn't match the $6/month offer and I haven't received a discount code. I'm going to sign up, but I'd like to…
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10639](https://tbpro.zendesk.com/agent/tickets/10639)** · Methods of payment
-  > I live in Brazil, and I would like to know if the annual payment for a Thundermail account can be done via a bank invoice, in Brazilian reals, and payable through the Brazilian…
-- **[#10622](https://tbpro.zendesk.com/agent/tickets/10622)** · Cancelled Subscription - Requesting Refund
-  > Discovered That I Could on add my Outlook.com email to Thundermail like you can in regular Thunderbird - Paid $72.00 Cancelled a few minutes later!
+- **[#10645](https://tbpro.zendesk.com/agent/tickets/10645)** · Delete account
+  > I am already using the free app with Netzero, Outlook, and Yahoo accounts and I like it. I thought my existing messages and files would import to this beta one but apparently not.…
 
 ### Other / uncategorized — 1 tickets
 
-- **[#10640](https://tbpro.zendesk.com/agent/tickets/10640)** · Transferring from existing host through Thunderbird (to Thundermail)
-  > Can existing use of Thunderbird facilitate the migration of content host-to-host? Is there an app or extension that might automate processes?
-
-### Aliases — 1 tickets
-
-- **[#10637](https://tbpro.zendesk.com/agent/tickets/10637)** · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain] — why: **blocked** · how: **escalated**
-  > This is a follow-up to your previous request #9567 "Test Email – Delivery Issue..." Hi [name], Just following up. After reinstalling Thunderbird on my laptop, I can still see…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10632](https://tbpro.zendesk.com/agent/tickets/10632)** · (no subject)
-  > Allgemeine Informationen Name Thunderbird Version 159.0 Build-ID [number] Distributions-ID Update-Kanal release User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:159.0)…
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#10623](https://tbpro.zendesk.com/agent/tickets/10623)** · QUERIES not in FAQ
-  > I have Thunderbird on my PC and my phone. I have the calendar extension on my PC but cannot add it to my phone version. Will this new service give me access to a synchronised…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#10620](https://tbpro.zendesk.com/agent/tickets/10620)** · Synchronization between Thundermail IMAP and Thundermail Webmail — why: **concerned** · how: **informed**
-  > Noticed that what is current on my IMAP and not the same on WebMail. IMAP deletion of messages have not been transferred to Webmail. Thoughts? Thanks, [name]
+- **[#10644](https://tbpro.zendesk.com/agent/tickets/10644)** · [domain] addresses
+  > Are [domain] addresses no longer available? I didn't have the option to select one on account creation. Thank you.
 
 ## New tickets — last 24h
 
-- [10620](https://tbpro.zendesk.com/agent/tickets/10620) · [open] · 2026-10-30T21:27 · Synchronization between Thundermail IMAP and Thundermail Webmail
-- [10622](https://tbpro.zendesk.com/agent/tickets/10622) · [open] · 2026-10-30T23:55 · Cancelled Subscription - Requesting Refund
-- [10623](https://tbpro.zendesk.com/agent/tickets/10623) · [new] · 2026-10-31T03:29 · QUERIES not in FAQ
-- [10624](https://tbpro.zendesk.com/agent/tickets/10624) · [new] · 2026-10-31T05:29 · Cost of early bird subscription
-- [10632](https://tbpro.zendesk.com/agent/tickets/10632) · [new] · 2026-10-31T12:43 · 
-- [10637](https://tbpro.zendesk.com/agent/tickets/10637) · [open] · 2026-10-31T13:54 · Re: [Thundermail] Re: Test Email – Delivery Issue with [domain]
-- [10638](https://tbpro.zendesk.com/agent/tickets/10638) · [new] · 2026-10-31T16:22 · Forgotten login credentials
-- [10639](https://tbpro.zendesk.com/agent/tickets/10639) · [new] · 2026-10-31T16:53 · Methods of payment
-- [10640](https://tbpro.zendesk.com/agent/tickets/10640) · [new] · 2026-10-31T16:57 · Transferring from existing host through Thunderbird (to Thundermail)
-- [10641](https://tbpro.zendesk.com/agent/tickets/10641) · [new] · 2026-10-31T17:41 · Thundermail acces
-- [10642](https://tbpro.zendesk.com/agent/tickets/10642) · [new] · 2026-10-31T17:46 · Sign in
+- [10644](https://tbpro.zendesk.com/agent/tickets/10644) · [new] · 2026-10-31T23:26 · [domain] addresses
+- [10645](https://tbpro.zendesk.com/agent/tickets/10645) · [new] · 2026-11-01T00:59 · Delete account
 
 ## Solved — last 24h
 
-- 👍 [10480](https://tbpro.zendesk.com/agent/tickets/10480) · 2026-10-30T20:19 · Bug report: Incorrect Sent folder message count in Thunderbird
-- · [10141](https://tbpro.zendesk.com/agent/tickets/10141) · 2026-10-31T16:01 · Re: You're Invited: Thundermail Early Bird Access
-- · [10451](https://tbpro.zendesk.com/agent/tickets/10451) · 2026-10-31T17:01 · account cancelation and refund request
-- · [10431](https://tbpro.zendesk.com/agent/tickets/10431) · 2026-10-31T17:01 · Change adress email
-- · [10232](https://tbpro.zendesk.com/agent/tickets/10232) · 2026-10-31T18:02 · Cannot sign in 
-- · [10457](https://tbpro.zendesk.com/agent/tickets/10457) · 2026-10-31T19:02 · Cannot create Thundermail account in Thunderbird 115.18.0
-- · [10436](https://tbpro.zendesk.com/agent/tickets/10436) · 2026-10-31T19:02 · DANE and DNSSEC support for a custom domain?
-- · [10406](https://tbpro.zendesk.com/agent/tickets/10406) · 2026-10-31T19:02 · Tags
-- · [10405](https://tbpro.zendesk.com/agent/tickets/10405) · 2026-10-31T19:02 · can't send attachments?  Photos.
-- · [10219](https://tbpro.zendesk.com/agent/tickets/10219) · 2026-10-31T19:02 · Activation
+- · [10456](https://tbpro.zendesk.com/agent/tickets/10456) · 2026-10-31T20:02 · Passord
+- · [10446](https://tbpro.zendesk.com/agent/tickets/10446) · 2026-10-31T20:02 · keine Anmeldung
+- · [10439](https://tbpro.zendesk.com/agent/tickets/10439) · 2026-10-31T20:02 · Can I use my current email address?
+- · [10479](https://tbpro.zendesk.com/agent/tickets/10479) · 2026-10-31T21:01 · Wiederherstellung meiner E-Mails
+- · [10471](https://tbpro.zendesk.com/agent/tickets/10471) · 2026-10-31T21:01 · ?
+- · [10452](https://tbpro.zendesk.com/agent/tickets/10452) · 2026-10-31T21:01 · Access to email on the mobile phone 
+- · [10441](https://tbpro.zendesk.com/agent/tickets/10441) · 2026-10-31T21:01 · Thundermail
+- · [10412](https://tbpro.zendesk.com/agent/tickets/10412) · 2026-10-31T21:01 · Add Additional Account
+- · [10477](https://tbpro.zendesk.com/agent/tickets/10477) · 2026-10-31T22:01 · Beta invitation
+- · [10435](https://tbpro.zendesk.com/agent/tickets/10435) · 2026-10-31T22:01 · Old Thuderbird app
+- · [10417](https://tbpro.zendesk.com/agent/tickets/10417) · 2026-10-31T22:01 · verlorenes passwort
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
