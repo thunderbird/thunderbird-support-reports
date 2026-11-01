@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 12:11 ET** · refreshes hourly_  
+_Updated: **2026-11-01 13:15 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 84** of rollout — **35,000 invitees**, **974 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **13** solved in last 24h
+- **5** new tickets in last 24h · **17** solved in last 24h
 - **974** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
-- **Median AHT**: 155.5h · mean 177.8h (proxy: updated_at − created_at, 46 solved tickets)
+- **Median AHT**: 155.5h · mean 176.9h (proxy: updated_at − created_at, 50 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -268,8 +268,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 819
-- **pending**: 58
-- **solved**: 46
+- **pending**: 54
+- **solved**: 50
 - **hold**: 21
 - **open**: 17
 - **new**: 13
@@ -385,6 +385,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10417](https://tbpro.zendesk.com/agent/tickets/10417) · 2026-10-31T22:01 · verlorenes passwort
 - · [10364](https://tbpro.zendesk.com/agent/tickets/10364) · 2026-11-01T16:01 · custom domain
 - · [10486](https://tbpro.zendesk.com/agent/tickets/10486) · 2026-11-01T17:01 · Lost Invite
+- · [10510](https://tbpro.zendesk.com/agent/tickets/10510) · 2026-11-01T18:01 · Subscription Error
+- · [10488](https://tbpro.zendesk.com/agent/tickets/10488) · 2026-11-01T18:01 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
+- · [10422](https://tbpro.zendesk.com/agent/tickets/10422) · 2026-11-01T18:01 · Sende e-mails sind verschwunden
+- · [10419](https://tbpro.zendesk.com/agent/tickets/10419) · 2026-11-01T18:01 · I have forgotten my password for my email 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
