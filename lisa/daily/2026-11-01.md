@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 16:12 ET** · refreshes hourly_  
+_Updated: **2026-11-01 17:12 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 84** of rollout — **35,000 invitees**, **978 tickets** so fa
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
-- **Median AHT**: 153.2h · mean 160.7h (proxy: updated_at − created_at, 53 solved tickets)
+- **Median AHT**: 153.2h · mean 159.6h (proxy: updated_at − created_at, 49 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -113,7 +113,7 @@ Flight 8 is **day 84** of rollout — **35,000 invitees**, **978 tickets** so fa
   - [#10039](https://tbpro.zendesk.com/agent/tickets/10039) · [closed] · 2026-10-14 · _Rétractation abonnement._
   - [#10059](https://tbpro.zendesk.com/agent/tickets/10059) · [closed] · 2026-10-15 · _Refund Request for Thundermail Subscription_
   - [#10080](https://tbpro.zendesk.com/agent/tickets/10080) · [closed] · 2026-10-15 · _Cancel my subscription_
-  - [#10106](https://tbpro.zendesk.com/agent/tickets/10106) · [solved] · 2026-10-16 · _Urgent Attention : Amanda(Thundermail Support) - Multiple Emails_
+  - [#10106](https://tbpro.zendesk.com/agent/tickets/10106) · [closed] · 2026-10-16 · _Urgent Attention : Amanda(Thundermail Support) - Multiple Emails_
   - [#10109](https://tbpro.zendesk.com/agent/tickets/10109) · [closed] · 2026-10-16 · _Refund_
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [closed] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [closed] · 2026-10-20 · _Refund_
@@ -268,9 +268,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 825
-- **solved**: 53
-- **pending**: 45
+- **closed**: 831
+- **solved**: 49
+- **pending**: 43
 - **hold**: 20
 - **open**: 18
 - **new**: 17
