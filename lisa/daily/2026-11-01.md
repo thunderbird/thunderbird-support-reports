@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 15:14 ET** · refreshes hourly_  
+_Updated: **2026-11-01 16:12 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 84** of rollout — **35,000 invitees**, **976 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 84** of rollout — **35,000 invitees**, **978 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **25** solved in last 24h
-- **976** tickets total since launch · contact rate **3%** of 35000 invitees
+- **9** new tickets in last 24h · **25** solved in last 24h
+- **978** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
-- **Median AHT**: 154.8h · mean 165.8h (proxy: updated_at − created_at, 53 solved tickets)
+- **Median AHT**: 153.2h · mean 160.7h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -268,17 +268,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 824
+- **closed**: 825
 - **solved**: 53
-- **pending**: 46
-- **hold**: 21
-- **open**: 17
-- **new**: 15
+- **pending**: 45
+- **hold**: 20
+- **open**: 18
+- **new**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 547
-- **Thundermail**: 337
+- **Account Hub**: 548
+- **Thundermail**: 338
 - **Send**: 22
 - **Appointment**: 11
 
@@ -358,6 +358,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10645](https://tbpro.zendesk.com/agent/tickets/10645)** · Delete account
   > I am already using the free app with Netzero, Outlook, and Yahoo accounts and I like it. I thought my existing messages and files would import to this beta one but apparently not.…
 
+### Webmail — 1 tickets
+
+- **[#10665](https://tbpro.zendesk.com/agent/tickets/10665)** · cant access emails on thundermail web
+  > i get the error message "database disk image is malformed" when i try to reach the webmail site.
+
+### Aliases — 1 tickets
+
+- **[#10664](https://tbpro.zendesk.com/agent/tickets/10664)** · Aliases 
+  > I know we can add aliases to our accounts, however, is there a way we can setup that up in Thunderbird or another email client? For example, [email] is my primary, [email] is my…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#10662](https://tbpro.zendesk.com/agent/tickets/10662)** · refund
@@ -382,6 +392,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10654](https://tbpro.zendesk.com/agent/tickets/10654) · [new] · 2026-11-01T12:25 · Question about signing up
 - [10661](https://tbpro.zendesk.com/agent/tickets/10661) · [new] · 2026-11-01T19:14 · app for android and download for Linux, 
 - [10662](https://tbpro.zendesk.com/agent/tickets/10662) · [new] · 2026-11-01T19:17 · refund
+- [10664](https://tbpro.zendesk.com/agent/tickets/10664) · [new] · 2026-11-01T20:38 · Aliases 
+- [10665](https://tbpro.zendesk.com/agent/tickets/10665) · [new] · 2026-11-01T20:58 · cant access emails on thundermail web
 
 ## Solved — last 24h
 
