@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 14:11 ET** · refreshes hourly_  
+_Updated: **2026-11-01 15:14 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 84** of rollout — **35,000 invitees**, **974 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 84** of rollout — **35,000 invitees**, **976 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **20** solved in last 24h
-- **974** tickets total since launch · contact rate **3%** of 35000 invitees
+- **7** new tickets in last 24h · **25** solved in last 24h
+- **976** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
-- **Median AHT**: 156.2h · mean 167.6h (proxy: updated_at − created_at, 49 solved tickets)
+- **Median AHT**: 154.8h · mean 165.8h (proxy: updated_at − created_at, 53 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -122,9 +122,9 @@ Flight 8 is **day 84** of rollout — **35,000 invitees**, **974 tickets** so fa
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [solved] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [solved] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [solved] · 2026-10-25 · _account cancelation and refund request_
-  - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [pending] · 2026-10-27 · _delete my account_
+  - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [solved] · 2026-10-27 · _delete my account_
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [pending] · 2026-10-27 · _delete and cancel_
-  - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [pending] · 2026-10-27 · _Refund Request_
+  - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [solved] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [pending] · 2026-10-28 · _Delete account_
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [pending] · 2026-10-28 · _Cancel / refund_
@@ -254,9 +254,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10662](https://tbpro.zendesk.com/agent/tickets/10662) · [new] · _refund_
+  > I tried Thundermail but it wasn't right for me, since it was less than 24 hours, can I get a refund?
 
 ## New ideas on FeatureOS
 
@@ -267,17 +268,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 823
-- **pending**: 51
-- **solved**: 49
+- **closed**: 824
+- **solved**: 53
+- **pending**: 46
 - **hold**: 21
 - **open**: 17
-- **new**: 13
+- **new**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 546
-- **Thundermail**: 336
+- **Account Hub**: 547
+- **Thundermail**: 337
 - **Send**: 22
 - **Appointment**: 11
 
@@ -357,6 +358,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10645](https://tbpro.zendesk.com/agent/tickets/10645)** · Delete account
   > I am already using the free app with Netzero, Outlook, and Yahoo accounts and I like it. I thought my existing messages and files would import to this beta one but apparently not.…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#10662](https://tbpro.zendesk.com/agent/tickets/10662)** · refund
+  > I tried Thundermail but it wasn't right for me, since it was less than 24 hours, can I get a refund?
+
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#10661](https://tbpro.zendesk.com/agent/tickets/10661)** · app for android and download for Linux, 
+  > I run K9 on my andoid and thunderbird mail client on my linux. my question is, can I install thundermail clients parallel or will there be conflicts. I can imagine there could be…
+
 ### Email migration / import — 1 tickets
 
 - **[#10654](https://tbpro.zendesk.com/agent/tickets/10654)** · Question about signing up
@@ -369,6 +380,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10646](https://tbpro.zendesk.com/agent/tickets/10646) · [new] · 2026-11-01T05:26 · Kein Einloggen von einem anderen Rechner möglich
 - [10648](https://tbpro.zendesk.com/agent/tickets/10648) · [new] · 2026-11-01T06:15 · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
 - [10654](https://tbpro.zendesk.com/agent/tickets/10654) · [new] · 2026-11-01T12:25 · Question about signing up
+- [10661](https://tbpro.zendesk.com/agent/tickets/10661) · [new] · 2026-11-01T19:14 · app for android and download for Linux, 
+- [10662](https://tbpro.zendesk.com/agent/tickets/10662) · [new] · 2026-11-01T19:17 · refund
 
 ## Solved — last 24h
 
@@ -392,6 +405,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10527](https://tbpro.zendesk.com/agent/tickets/10527) · 2026-11-01T19:01 · Subscription
 - · [10521](https://tbpro.zendesk.com/agent/tickets/10521) · 2026-11-01T19:01 · New version; can't find In-box
 - · [10429](https://tbpro.zendesk.com/agent/tickets/10429) · 2026-11-01T19:01 · can't get email working 
+- · [10528](https://tbpro.zendesk.com/agent/tickets/10528) · 2026-11-01T20:01 · Refund Request
+- · [10516](https://tbpro.zendesk.com/agent/tickets/10516) · 2026-11-01T20:01 · delete my account
+- · [10514](https://tbpro.zendesk.com/agent/tickets/10514) · 2026-11-01T20:01 · 501 5.5.4 You are not allowed to send from this address
+- · [10489](https://tbpro.zendesk.com/agent/tickets/10489) · 2026-11-01T20:01 · Changing Primary Email Address
+- · [10434](https://tbpro.zendesk.com/agent/tickets/10434) · 2026-11-01T20:01 · login
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
