@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 01:14 ET** · refreshes hourly_  
+_Updated: **2026-11-01 01:22 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 84** of rollout — **35,000 invitees**, **971 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 84** of rollout — **35,000 invitees**, **973 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **11** solved in last 24h
-- **971** tickets total since launch · contact rate **3%** of 35000 invitees
+- **4** new tickets in last 24h · **11** solved in last 24h
+- **973** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
@@ -272,13 +272,13 @@ _(none in last 24h)_
 - **solved**: 45
 - **hold**: 21
 - **open**: 17
-- **new**: 10
+- **new**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 546
-- **Thundermail**: 334
-- **Send**: 21
+- **Thundermail**: 335
+- **Send**: 22
 - **Appointment**: 11
 
 ## Why × How (cumulative)
@@ -343,20 +343,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10644](https://tbpro.zendesk.com/agent/tickets/10644)** · [domain] addresses
+  > Are [domain] addresses no longer available? I didn't have the option to select one on account creation. Thank you.
+- **[#10648](https://tbpro.zendesk.com/agent/tickets/10648)** · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
+  > もう2か月も解決出来ないで困っている。サンダーバードは説明が不親切である。ネットの記事を見てもよくわからない。
+- **[#10646](https://tbpro.zendesk.com/agent/tickets/10646)** · Kein Einloggen von einem anderen Rechner möglich
+  > Hallo, ich wollte mich schon öfter von meinem Arbeitsrechner im Büro einloggen, bekomme aber immer nur diese Meldung: Siehe Anhang. Zugangsdaten sind korrekt eingegeben. Auf dem…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10645](https://tbpro.zendesk.com/agent/tickets/10645)** · Delete account
   > I am already using the free app with Netzero, Outlook, and Yahoo accounts and I like it. I thought my existing messages and files would import to this beta one but apparently not.…
 
-### Other / uncategorized — 1 tickets
-
-- **[#10644](https://tbpro.zendesk.com/agent/tickets/10644)** · [domain] addresses
-  > Are [domain] addresses no longer available? I didn't have the option to select one on account creation. Thank you.
-
 ## New tickets — last 24h
 
 - [10644](https://tbpro.zendesk.com/agent/tickets/10644) · [new] · 2026-10-31T23:26 · [domain] addresses
 - [10645](https://tbpro.zendesk.com/agent/tickets/10645) · [new] · 2026-11-01T00:59 · Delete account
+- [10646](https://tbpro.zendesk.com/agent/tickets/10646) · [new] · 2026-11-01T05:26 · Kein Einloggen von einem anderen Rechner möglich
+- [10648](https://tbpro.zendesk.com/agent/tickets/10648) · [new] · 2026-11-01T06:15 · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
 
 ## Solved — last 24h
 
