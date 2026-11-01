@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-01
 
-_Updated: **2026-11-01 13:15 ET** · refreshes hourly_  
+_Updated: **2026-11-01 14:11 ET** · refreshes hourly_  
 _24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 84** of rollout — **35,000 invitees**, **974 tickets** so fa
 
 ## At a glance
 
-- **5** new tickets in last 24h · **17** solved in last 24h
+- **5** new tickets in last 24h · **20** solved in last 24h
 - **974** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
-- **Median AHT**: 155.5h · mean 176.9h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 156.2h · mean 167.6h (proxy: updated_at − created_at, 49 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -267,9 +267,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 819
-- **pending**: 54
-- **solved**: 50
+- **closed**: 823
+- **pending**: 51
+- **solved**: 49
 - **hold**: 21
 - **open**: 17
 - **new**: 13
@@ -389,6 +389,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10488](https://tbpro.zendesk.com/agent/tickets/10488) · 2026-11-01T18:01 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
 - · [10422](https://tbpro.zendesk.com/agent/tickets/10422) · 2026-11-01T18:01 · Sende e-mails sind verschwunden
 - · [10419](https://tbpro.zendesk.com/agent/tickets/10419) · 2026-11-01T18:01 · I have forgotten my password for my email 
+- · [10527](https://tbpro.zendesk.com/agent/tickets/10527) · 2026-11-01T19:01 · Subscription
+- · [10521](https://tbpro.zendesk.com/agent/tickets/10521) · 2026-11-01T19:01 · New version; can't find In-box
+- · [10429](https://tbpro.zendesk.com/agent/tickets/10429) · 2026-11-01T19:01 · can't get email working 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
