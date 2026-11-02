@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-02 13:21 ET** · refreshes hourly_  
+_Updated: **2026-11-02 14:12 ET** · refreshes hourly_  
 _24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 85** of rollout — **35,000 invitees**, **996 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 85** of rollout — **35,000 invitees**, **998 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **21** solved in last 24h
-- **996** tickets total since launch · contact rate **3%** of 35000 invitees
+- **20** new tickets in last 24h · **23** solved in last 24h
+- **998** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
-- **Median AHT**: 168.0h · mean 179.8h (proxy: updated_at − created_at, 50 solved tickets)
+- **Median AHT**: 168.0h · mean 179.5h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"apps send appointments"** — 2 tickets in 24h (new; baseline 0 cum) — [#10686](https://tbpro.zendesk.com/agent/tickets/10686), [#10687](https://tbpro.zendesk.com/agent/tickets/10687)
+- **"apps apps"** — 2 tickets in 24h (new; baseline 0 cum) — [#10686](https://tbpro.zendesk.com/agent/tickets/10686), [#10687](https://tbpro.zendesk.com/agent/tickets/10687)
 
 ## Known problems — 14 problem(s), 122 incident(s)
 
@@ -262,10 +262,12 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [10685](https://tbpro.zendesk.com/agent/tickets/10685) · [open] · _Cancel_
   > I didn’t realize there isn’t an iOS app and I don’t want to use a third party app at the moment. I just signed up and haven’t used the service and would like to cancel
+- [10697](https://tbpro.zendesk.com/agent/tickets/10697) · [new] · _Disregard last request for a refund_
+  > I decided to leave Proton after the mess with the CEO and will stick with Thundermail. Cheers
 
 ## New ideas on FeatureOS
 
@@ -276,16 +278,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 835
-- **solved**: 50
-- **pending**: 40
-- **open**: 33
-- **hold**: 21
-- **new**: 17
+- **solved**: 52
+- **pending**: 41
+- **open**: 30
+- **hold**: 22
+- **new**: 18
 
 ## Service (cumulative)
 
 - **Account Hub**: 554
-- **Thundermail**: 349
+- **Thundermail**: 351
 - **Send**: 22
 - **Appointment**: 11
 
@@ -351,6 +353,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 4 tickets
+
+- **[#10697](https://tbpro.zendesk.com/agent/tickets/10697)** · Disregard last request for a refund
+  > I decided to leave Proton after the mess with the CEO and will stick with Thundermail. Cheers
+- **[#10682](https://tbpro.zendesk.com/agent/tickets/10682)** · installation 
+  > I've paid, but I can't install
+- **[#10680](https://tbpro.zendesk.com/agent/tickets/10680)** · Financial hardship discount 
+  > Hey [name] team, I'm a power user and nerd. I want to use thundermail as my primary and get you all some good data. I just can't afford any subscription fees right now. Is there…
+- **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
+  > Dear [name] team, do you plan to support inbound OpenPGP public-key encryption so that all incoming mails get encrypted with a public key I upload?
+
 ### Other / uncategorized — 3 tickets
 
 - **[#10691](https://tbpro.zendesk.com/agent/tickets/10691)** · email
@@ -360,14 +373,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10686](https://tbpro.zendesk.com/agent/tickets/10686)** · Thunderbird Apps
   > how to add Thunderbird Apps(send, mail, appointments ) to Thunderbird app
 
-### Subscription / billing / refund / cancel — 3 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#10682](https://tbpro.zendesk.com/agent/tickets/10682)** · installation 
-  > I've paid, but I can't install
-- **[#10680](https://tbpro.zendesk.com/agent/tickets/10680)** · Financial hardship discount 
-  > Hey [name] team, I'm a power user and nerd. I want to use thundermail as my primary and get you all some good data. I just can't afford any subscription fees right now. Is there…
-- **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
-  > Dear [name] team, do you plan to support inbound OpenPGP public-key encryption so that all incoming mails get encrypted with a public key I upload?
+- **[#10695](https://tbpro.zendesk.com/agent/tickets/10695)** · Missing emails from Gmail
+  > After moving my custom domain over, I am not getting any emails from Gmail or any google-hosted email to my [domain] domain Can you please double check my config/dns to see why…
+- **[#10681](https://tbpro.zendesk.com/agent/tickets/10681)** · Custom Domain
+  > Is there a way to make my custom domain my primary sending address?
 
 ### Pricing / monthly plan / free tier — 2 tickets
 
@@ -388,11 +399,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10692](https://tbpro.zendesk.com/agent/tickets/10692)** · Access to Thunderbird Beta on iOS
   > Hey, i jsut subscribed for the early bird. Would it also be possible to get access to the thunderbird beta on iOS? I see the official testflight link says beta is full, but would…
 
-### Webmail — 1 tickets
-
-- **[#10690](https://tbpro.zendesk.com/agent/tickets/10690)** · DNS settings — why: **blocked**
-  > I am trying to set up a custom domain, but the DNS configuration lists errors for all SRV settings: "This record conflicts. Assign Thundermail the lowest priority number.".…
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10689](https://tbpro.zendesk.com/agent/tickets/10689)** · Why I declined
@@ -408,11 +414,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10684](https://tbpro.zendesk.com/agent/tickets/10684)** · gmail data transfer
   > I would like to import my existing gmail profile (~14GB) to thundermail I can set up filters/rules again manually, but I don't see an obvious way to import the old messages. I…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#10681](https://tbpro.zendesk.com/agent/tickets/10681)** · Custom Domain
-  > Is there a way to make my custom domain my primary sending address?
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10676](https://tbpro.zendesk.com/agent/tickets/10676)** · I cant move mailbox to local folders in tb, because its imap
@@ -422,6 +423,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10670](https://tbpro.zendesk.com/agent/tickets/10670)** · Change Login/Primary
   > Hello, Would it be possible to change my primary email address from X to Y? The new address is cooler, shorter, and looks better. Of course, I've already added it to my aliases.
+
+### Webmail — 1 tickets
+
+- **[#10690](https://tbpro.zendesk.com/agent/tickets/10690)** · DNS settings — why: **blocked**
+  > I am trying to set up a custom domain, but the DNS configuration lists errors for all SRV settings: "This record conflicts. Assign Thundermail the lowest priority number.".…
 
 ## New tickets — last 24h
 
@@ -439,10 +445,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10687](https://tbpro.zendesk.com/agent/tickets/10687) · [new] · 2026-11-02T16:53 · Thunderbird Apps
 - [10688](https://tbpro.zendesk.com/agent/tickets/10688) · [new] · 2026-11-02T16:54 · Spam
 - [10689](https://tbpro.zendesk.com/agent/tickets/10689) · [new] · 2026-11-02T16:58 · Why I declined
-- [10690](https://tbpro.zendesk.com/agent/tickets/10690) · [open] · 2026-11-02T16:59 · DNS settings
+- [10690](https://tbpro.zendesk.com/agent/tickets/10690) · [pending] · 2026-11-02T16:59 · DNS settings
 - [10691](https://tbpro.zendesk.com/agent/tickets/10691) · [new] · 2026-11-02T17:06 · email
 - [10692](https://tbpro.zendesk.com/agent/tickets/10692) · [new] · 2026-11-02T17:45 · Access to Thunderbird Beta on iOS
 - [10693](https://tbpro.zendesk.com/agent/tickets/10693) · [open] · 2026-11-02T18:06 · Is monthly subscription option available?
+- [10695](https://tbpro.zendesk.com/agent/tickets/10695) · [open] · 2026-11-02T18:47 · Missing emails from Gmail
+- [10697](https://tbpro.zendesk.com/agent/tickets/10697) · [new] · 2026-11-02T18:54 · Disregard last request for a refund
 
 ## Solved — last 24h
 
@@ -467,6 +475,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10471](https://tbpro.zendesk.com/agent/tickets/10471) · 2026-11-02T16:19 · ?
 - · [10479](https://tbpro.zendesk.com/agent/tickets/10479) · 2026-11-02T16:19 · Wiederherstellung meiner E-Mails
 - · [10565](https://tbpro.zendesk.com/agent/tickets/10565) · 2026-11-02T18:13 · Reissue | Invitation "info@n****.de"
+- · [10557](https://tbpro.zendesk.com/agent/tickets/10557) · 2026-11-02T19:02 · thunderbird
+- · [10418](https://tbpro.zendesk.com/agent/tickets/10418) · 2026-11-02T19:05 · Switching Email Providers to Thundermail for an Organization
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
