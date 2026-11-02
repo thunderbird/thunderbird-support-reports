@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-02 10:17 ET** · refreshes hourly_  
+_Updated: **2026-11-02 11:17 ET** · refreshes hourly_  
 _24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 85** of rollout — **35,000 invitees**, **981 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 85** of rollout — **35,000 invitees**, **986 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **8** solved in last 24h
-- **981** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **8** new tickets in last 24h · **9** solved in last 24h
+- **986** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
-- **Median AHT**: 146.8h · mean 169.0h (proxy: updated_at − created_at, 51 solved tickets)
+- **Median AHT**: 150.8h · mean 169.9h (proxy: updated_at − created_at, 52 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -267,16 +267,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 833
-- **solved**: 51
-- **pending**: 37
-- **open**: 28
+- **solved**: 52
+- **pending**: 38
+- **open**: 31
 - **hold**: 21
 - **new**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 549
-- **Thundermail**: 340
+- **Account Hub**: 546
+- **Thundermail**: 343
 - **Send**: 22
 - **Appointment**: 11
 
@@ -296,11 +296,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 22
 - **blocked** + **escalated**: 17
-- **confused** + **redirected**: 13
+- **confused** + **—**: 10
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
-- **confused** + **—**: 9
 - **blocked** + **—**: 8
+- **confused** + **redirected**: 8
 - **request** + **explained**: 7
 - **telling us** + **explained**: 6
 - **blocked** + **actioned**: 6
@@ -342,6 +342,30 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Subscription / billing / refund / cancel — 3 tickets
+
+- **[#10682](https://tbpro.zendesk.com/agent/tickets/10682)** · installation 
+  > I've paid, but I can't install
+- **[#10680](https://tbpro.zendesk.com/agent/tickets/10680)** · Financial hardship discount 
+  > Hey [name] team, I'm a power user and nerd. I want to use thundermail as my primary and get you all some good data. I just can't afford any subscription fees right now. Is there…
+- **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
+  > Dear [name] team, do you plan to support inbound OpenPGP public-key encryption so that all incoming mails get encrypted with a public key I upload?
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#10683](https://tbpro.zendesk.com/agent/tickets/10683)** · There was no option to select the desired domain
+  > Hello, I just signed up for an account [email] However, there was no option to choose the [domain] domain, and my account was created with the [domain] domain. Or do I get…
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#10681](https://tbpro.zendesk.com/agent/tickets/10681)** · Custom Domain
+  > Is there a way to make my custom domain my primary sending address?
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#10679](https://tbpro.zendesk.com/agent/tickets/10679)** · Pay Monthly Option - Help?
+  > Hello it wont let me oay Monthly, only Yearly plan $100 which i cannot afford, i can only pay *Monthly. Would Love too use ThunderMail, please help and can you also do me a…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#10676](https://tbpro.zendesk.com/agent/tickets/10676)** · I cant move mailbox to local folders in tb, because its imap
@@ -352,16 +376,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10670](https://tbpro.zendesk.com/agent/tickets/10670)** · Change Login/Primary
   > Hello, Would it be possible to change my primary email address from X to Y? The new address is cooler, shorter, and looks better. Of course, I've already added it to my aliases.
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
-  > Dear [name] team, do you plan to support inbound OpenPGP public-key encryption so that all incoming mails get encrypted with a public key I upload?
-
 ## New tickets — last 24h
 
 - [10667](https://tbpro.zendesk.com/agent/tickets/10667) · [new] · 2026-11-01T22:37 · inbound public-key encryption
 - [10670](https://tbpro.zendesk.com/agent/tickets/10670) · [new] · 2026-11-02T08:40 · Change Login/Primary
 - [10676](https://tbpro.zendesk.com/agent/tickets/10676) · [new] · 2026-11-02T13:44 · I cant move mailbox to local folders in tb, because its imap
+- [10679](https://tbpro.zendesk.com/agent/tickets/10679) · [open] · 2026-11-02T15:40 · Pay Monthly Option - Help?
+- [10680](https://tbpro.zendesk.com/agent/tickets/10680) · [open] · 2026-11-02T15:41 · Financial hardship discount 
+- [10681](https://tbpro.zendesk.com/agent/tickets/10681) · [open] · 2026-11-02T15:55 · Custom Domain
+- [10682](https://tbpro.zendesk.com/agent/tickets/10682) · [new] · 2026-11-02T16:00 · installation 
+- [10683](https://tbpro.zendesk.com/agent/tickets/10683) · [new] · 2026-11-02T16:04 · There was no option to select the desired domain
 
 ## Solved — last 24h
 
@@ -373,6 +397,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-11-02T14:08 · Account deletion
 - 👍 [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-11-02T14:09 · Send does not work in Firefox
 - · [10611](https://tbpro.zendesk.com/agent/tickets/10611) · 2026-11-02T14:30 · Main Email Adress forgotten
+- 👍 [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-11-02T15:36 · Difficulty setting up new [domain] domain email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
