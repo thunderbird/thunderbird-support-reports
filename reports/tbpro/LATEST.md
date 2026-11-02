@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-02 08:17 ET** · refreshes hourly_  
+_Updated: **2026-11-02 09:18 ET** · refreshes hourly_  
 _24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 85** of rollout — **35,000 invitees**, **980 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 85** of rollout — **35,000 invitees**, **981 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **980** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **3** new tickets in last 24h · **7** solved in last 24h
+- **981** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
-- **Median AHT**: 146.8h · mean 159.0h (proxy: updated_at − created_at, 49 solved tickets)
+- **Median AHT**: 146.8h · mean 170.4h (proxy: updated_at − created_at, 51 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -188,7 +188,7 @@ Flight 8 is **day 85** of rollout — **35,000 invitees**, **980 tickets** so fa
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · [tbpro-add-on/1116]: Send: Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [pending] · 2026-10-13 · _Re: [Thundermail] Re: Send_
-  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [open] · 2026-10-23 · _Send does not work in Firefox_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [solved] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -266,17 +266,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 831
-- **solved**: 49
-- **pending**: 39
-- **open**: 26
+- **closed**: 832
+- **solved**: 51
+- **pending**: 37
+- **open**: 27
 - **hold**: 21
-- **new**: 14
+- **new**: 13
 
 ## Service (cumulative)
 
 - **Account Hub**: 549
-- **Thundermail**: 339
+- **Thundermail**: 340
 - **Send**: 22
 - **Appointment**: 11
 
@@ -342,6 +342,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#10676](https://tbpro.zendesk.com/agent/tickets/10676)** · I cant move mailbox to local folders in tb, because its imap
+  > Hi team, How I can use standard mail in desktop tb? I want yo put all my mails in local folders, but tb mail service not allow pop3 to download mails. so is not convenient. I want…
+
 ### Aliases — 1 tickets
 
 - **[#10670](https://tbpro.zendesk.com/agent/tickets/10670)** · Change Login/Primary
@@ -356,6 +361,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10667](https://tbpro.zendesk.com/agent/tickets/10667) · [new] · 2026-11-01T22:37 · inbound public-key encryption
 - [10670](https://tbpro.zendesk.com/agent/tickets/10670) · [new] · 2026-11-02T08:40 · Change Login/Primary
+- [10676](https://tbpro.zendesk.com/agent/tickets/10676) · [new] · 2026-11-02T13:44 · I cant move mailbox to local folders in tb, because its imap
 
 ## Solved — last 24h
 
@@ -363,6 +369,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10532](https://tbpro.zendesk.com/agent/tickets/10532) · 2026-11-01T22:01 · annual to monthly?
 - · [10502](https://tbpro.zendesk.com/agent/tickets/10502) · 2026-11-01T22:01 · Change recovery email address
 - · [10524](https://tbpro.zendesk.com/agent/tickets/10524) · 2026-11-01T23:01 · delete and cancel
+- · [10531](https://tbpro.zendesk.com/agent/tickets/10531) · 2026-11-02T14:02 · Webmail trash restore
+- · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-11-02T14:08 · Account deletion
+- 👍 [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-11-02T14:09 · Send does not work in Firefox
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
