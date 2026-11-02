@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-11-01
+# Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-01 23:18 ET** · refreshes hourly_  
-_24h window: 2026-10-31T16:00 → 2026-11-01T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-02 00:16 ET** · refreshes hourly_  
+_24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 84** of rollout — **35,000 invitees**, **979 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 85** of rollout — **35,000 invitees**, **979 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **25** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **979** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 96
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
 - **Median AHT**: 146.8h · mean 159.0h (proxy: updated_at − created_at, 49 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
@@ -254,26 +254,24 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [10662](https://tbpro.zendesk.com/agent/tickets/10662) · [new] · _refund_
-  > I tried Thundermail but it wasn't right for me, since it was less than 24 hours, can I get a refund?
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 0 new:
 
-- [Syncing between Web and Thunderbird applications](https://ideas.tb.pro/p/syncing-between-web-and-thunderbird-applications) · 1 votes · _untagged_
-  > What you’d like to see I would like to see identities, tags, filter rules, and similar settings/customizations to sync (both ways) between the website and Thunderbird (Mac, Windows, Android, iOS, and…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
 - **closed**: 831
 - **solved**: 49
 - **pending**: 40
-- **open**: 21
-- **hold**: 20
-- **new**: 18
+- **open**: 25
+- **hold**: 21
+- **new**: 13
 
 ## Service (cumulative)
 
@@ -344,84 +342,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
-
-- **[#10644](https://tbpro.zendesk.com/agent/tickets/10644)** · [domain] addresses
-  > Are [domain] addresses no longer available? I didn't have the option to select one on account creation. Thank you.
-- **[#10648](https://tbpro.zendesk.com/agent/tickets/10648)** · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
-  > もう2か月も解決出来ないで困っている。サンダーバードは説明が不親切である。ネットの記事を見てもよくわからない。
-- **[#10646](https://tbpro.zendesk.com/agent/tickets/10646)** · Kein Einloggen von einem anderen Rechner möglich
-  > Hallo, ich wollte mich schon öfter von meinem Arbeitsrechner im Büro einloggen, bekomme aber immer nur diese Meldung: Siehe Anhang. Zugangsdaten sind korrekt eingegeben. Auf dem…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#10645](https://tbpro.zendesk.com/agent/tickets/10645)** · Delete account
-  > I am already using the free app with Netzero, Outlook, and Yahoo accounts and I like it. I thought my existing messages and files would import to this beta one but apparently not.…
-
-### Webmail — 1 tickets
-
-- **[#10665](https://tbpro.zendesk.com/agent/tickets/10665)** · cant access emails on thundermail web
-  > i get the error message "database disk image is malformed" when i try to reach the webmail site.
-
-### Aliases — 1 tickets
-
-- **[#10664](https://tbpro.zendesk.com/agent/tickets/10664)** · Aliases 
-  > I know we can add aliases to our accounts, however, is there a way we can setup that up in Thunderbird or another email client? For example, [email] is my primary, [email] is my…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#10662](https://tbpro.zendesk.com/agent/tickets/10662)** · refund
-  > I tried Thundermail but it wasn't right for me, since it was less than 24 hours, can I get a refund?
-
-### Thunderbird for Android + Thundermail — 1 tickets
-
-- **[#10661](https://tbpro.zendesk.com/agent/tickets/10661)** · app for android and download for Linux, 
-  > I run K9 on my andoid and thunderbird mail client on my linux. my question is, can I install thundermail clients parallel or will there be conflicts. I can imagine there could be…
-
-### Email migration / import — 1 tickets
-
-- **[#10654](https://tbpro.zendesk.com/agent/tickets/10654)** · Question about signing up
-  > Hello, I received a beta invite back in June. As excited as I’ve been to try Thundermail, I’ve been hesitant to make the commitment due to the price and no ability to test…
+- **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
+  > Dear [name] team, do you plan to support inbound OpenPGP public-key encryption so that all incoming mails get encrypted with a public key I upload?
 
 ## New tickets — last 24h
 
-- [10644](https://tbpro.zendesk.com/agent/tickets/10644) · [new] · 2026-10-31T23:26 · [domain] addresses
-- [10645](https://tbpro.zendesk.com/agent/tickets/10645) · [new] · 2026-11-01T00:59 · Delete account
-- [10646](https://tbpro.zendesk.com/agent/tickets/10646) · [new] · 2026-11-01T05:26 · Kein Einloggen von einem anderen Rechner möglich
-- [10648](https://tbpro.zendesk.com/agent/tickets/10648) · [new] · 2026-11-01T06:15 · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
-- [10654](https://tbpro.zendesk.com/agent/tickets/10654) · [new] · 2026-11-01T12:25 · Question about signing up
-- [10661](https://tbpro.zendesk.com/agent/tickets/10661) · [new] · 2026-11-01T19:14 · app for android and download for Linux, 
-- [10662](https://tbpro.zendesk.com/agent/tickets/10662) · [new] · 2026-11-01T19:17 · refund
-- [10664](https://tbpro.zendesk.com/agent/tickets/10664) · [new] · 2026-11-01T20:38 · Aliases 
-- [10665](https://tbpro.zendesk.com/agent/tickets/10665) · [new] · 2026-11-01T20:58 · cant access emails on thundermail web
+- [10667](https://tbpro.zendesk.com/agent/tickets/10667) · [new] · 2026-11-01T22:37 · inbound public-key encryption
 
 ## Solved — last 24h
 
-- · [10456](https://tbpro.zendesk.com/agent/tickets/10456) · 2026-10-31T20:02 · Passord
-- · [10446](https://tbpro.zendesk.com/agent/tickets/10446) · 2026-10-31T20:02 · keine Anmeldung
-- · [10439](https://tbpro.zendesk.com/agent/tickets/10439) · 2026-10-31T20:02 · Can I use my current email address?
-- · [10479](https://tbpro.zendesk.com/agent/tickets/10479) · 2026-10-31T21:01 · Wiederherstellung meiner E-Mails
-- · [10471](https://tbpro.zendesk.com/agent/tickets/10471) · 2026-10-31T21:01 · ?
-- · [10452](https://tbpro.zendesk.com/agent/tickets/10452) · 2026-10-31T21:01 · Access to email on the mobile phone 
-- · [10441](https://tbpro.zendesk.com/agent/tickets/10441) · 2026-10-31T21:01 · Thundermail
-- · [10412](https://tbpro.zendesk.com/agent/tickets/10412) · 2026-10-31T21:01 · Add Additional Account
-- · [10477](https://tbpro.zendesk.com/agent/tickets/10477) · 2026-10-31T22:01 · Beta invitation
-- · [10435](https://tbpro.zendesk.com/agent/tickets/10435) · 2026-10-31T22:01 · Old Thuderbird app
-- · [10417](https://tbpro.zendesk.com/agent/tickets/10417) · 2026-10-31T22:01 · verlorenes passwort
-- · [10364](https://tbpro.zendesk.com/agent/tickets/10364) · 2026-11-01T16:01 · custom domain
-- · [10486](https://tbpro.zendesk.com/agent/tickets/10486) · 2026-11-01T17:01 · Lost Invite
-- · [10510](https://tbpro.zendesk.com/agent/tickets/10510) · 2026-11-01T18:01 · Subscription Error
-- · [10488](https://tbpro.zendesk.com/agent/tickets/10488) · 2026-11-01T18:01 · Cannot get ito my emails on my desktop. I can do so on a laptop. both running windows 11
-- · [10422](https://tbpro.zendesk.com/agent/tickets/10422) · 2026-11-01T18:01 · Sende e-mails sind verschwunden
-- · [10419](https://tbpro.zendesk.com/agent/tickets/10419) · 2026-11-01T18:01 · I have forgotten my password for my email 
-- · [10527](https://tbpro.zendesk.com/agent/tickets/10527) · 2026-11-01T19:01 · Subscription
-- · [10521](https://tbpro.zendesk.com/agent/tickets/10521) · 2026-11-01T19:01 · New version; can't find In-box
-- · [10429](https://tbpro.zendesk.com/agent/tickets/10429) · 2026-11-01T19:01 · can't get email working 
-- · [10528](https://tbpro.zendesk.com/agent/tickets/10528) · 2026-11-01T20:01 · Refund Request
-- · [10516](https://tbpro.zendesk.com/agent/tickets/10516) · 2026-11-01T20:01 · delete my account
-- · [10514](https://tbpro.zendesk.com/agent/tickets/10514) · 2026-11-01T20:01 · 501 5.5.4 You are not allowed to send from this address
-- · [10489](https://tbpro.zendesk.com/agent/tickets/10489) · 2026-11-01T20:01 · Changing Primary Email Address
-- · [10434](https://tbpro.zendesk.com/agent/tickets/10434) · 2026-11-01T20:01 · login
+- · [10519](https://tbpro.zendesk.com/agent/tickets/10519) · 2026-11-01T21:01 · shared calendar
+- · [10532](https://tbpro.zendesk.com/agent/tickets/10532) · 2026-11-01T22:01 · annual to monthly?
+- · [10502](https://tbpro.zendesk.com/agent/tickets/10502) · 2026-11-01T22:01 · Change recovery email address
+- · [10524](https://tbpro.zendesk.com/agent/tickets/10524) · 2026-11-01T23:01 · delete and cancel
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
