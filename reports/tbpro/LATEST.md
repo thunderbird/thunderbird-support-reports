@@ -1,30 +1,37 @@
 # Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-02 11:17 ET** · refreshes hourly_  
+_Updated: **2026-11-02 12:32 ET** · refreshes hourly_  
 _24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 85** of rollout — **35,000 invitees**, **986 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 85** of rollout — **35,000 invitees**, **994 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **9** solved in last 24h
-- **986** tickets total since launch · contact rate **3%** of 35000 invitees
+- **16** new tickets in last 24h · **20** solved in last 24h
+- **994** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
-- **Median AHT**: 150.8h · mean 169.9h (proxy: updated_at − created_at, 52 solved tickets)
+- **Median AHT**: 167.8h · mean 179.4h (proxy: updated_at − created_at, 51 solved tickets)
 
-## Known problems — 14 problem(s), 120 incident(s)
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"apps send appointments"** — 2 tickets in 24h (new; baseline 0 cum) — [#10686](https://tbpro.zendesk.com/agent/tickets/10686), [#10687](https://tbpro.zendesk.com/agent/tickets/10687)
+
+## Known problems — 14 problem(s), 122 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
-- 4 incident(s):
+- 5 incident(s):
   - [#8262](https://tbpro.zendesk.com/agent/tickets/8262) · [closed] · 2026-09-02 · _Cant get verification link_
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [closed] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
+  - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [open] · 2026-10-31 · _Thundermail acces_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -182,8 +189,9 @@ Flight 8 is **day 85** of rollout — **35,000 invitees**, **986 tickets** so fa
 ### [#10111](https://tbpro.zendesk.com/agent/tickets/10111) · [hold] · [stormbox/64] Mark or hide IMAP marked-as-deleted messages
 - 🔧 GitHub: [thunderbird/stormbox#64](https://github.com/thunderbird/stormbox/issues/64) · _Mark or hide IMAP marked-as-deleted messages_
 - ✅ GitHub: [thunderbird/stormbox#207](https://github.com/thunderbird/stormbox/issues/207) · _Moving an imap email from Thundermail to another IMAP provider e.g. gmail works _
-- 1 incident(s):
+- 2 incident(s):
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
+  - [#10620](https://tbpro.zendesk.com/agent/tickets/10620) · [pending] · 2026-10-30 · _Synchronization between Thundermail IMAP and Thundermail Webmail_
 
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · [tbpro-add-on/1116]: Send: Uploads fail with "You don't have the key to decrypt this container"
 - 2 incident(s):
@@ -254,9 +262,10 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10685](https://tbpro.zendesk.com/agent/tickets/10685) · [new] · _Cancel_
+  > I didn’t realize there isn’t an iOS app and I don’t want to use a third party app at the moment. I just signed up and haven’t used the service and would like to cancel
 
 ## New ideas on FeatureOS
 
@@ -267,16 +276,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 833
-- **solved**: 52
-- **pending**: 38
-- **open**: 31
+- **solved**: 51
+- **pending**: 39
+- **open**: 33
 - **hold**: 21
-- **new**: 11
+- **new**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 546
-- **Thundermail**: 343
+- **Account Hub**: 554
+- **Thundermail**: 348
 - **Send**: 22
 - **Appointment**: 11
 
@@ -296,14 +305,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 22
 - **blocked** + **escalated**: 17
+- **confused** + **redirected**: 13
 - **confused** + **—**: 10
 - **concerned** + **—**: 9
 - **change request** + **explained**: 9
-- **blocked** + **—**: 8
-- **confused** + **redirected**: 8
+- **blocked** + **—**: 9
 - **request** + **explained**: 7
+- **blocked** + **actioned**: 7
 - **telling us** + **explained**: 6
-- **blocked** + **actioned**: 6
 - **concerned** + **investigated**: 6
 - **confused** + **investigated**: 6
 - **curious** + **actioned**: 5
@@ -342,6 +351,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10691](https://tbpro.zendesk.com/agent/tickets/10691)** · email
+  > ich kann mich nicht mehr anmelden
+- **[#10687](https://tbpro.zendesk.com/agent/tickets/10687)** · Thunderbird Apps
+  > how to add Thunderbird Apps(send, mail, appointments ) to Thunderbird app
+- **[#10686](https://tbpro.zendesk.com/agent/tickets/10686)** · Thunderbird Apps
+  > how to add Thunderbird Apps(send, mail, appointments ) to Thunderbird app
+
 ### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#10682](https://tbpro.zendesk.com/agent/tickets/10682)** · installation 
@@ -351,15 +369,34 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
   > Dear [name] team, do you plan to support inbound OpenPGP public-key encryption so that all incoming mails get encrypted with a public key I upload?
 
-### Account creation / signup confusion — 1 tickets
+### Account creation / signup confusion — 2 tickets
 
+- **[#10685](https://tbpro.zendesk.com/agent/tickets/10685)** · Cancel
+  > I didn’t realize there isn’t an iOS app and I don’t want to use a third party app at the moment. I just signed up and haven’t used the service and would like to cancel
 - **[#10683](https://tbpro.zendesk.com/agent/tickets/10683)** · There was no option to select the desired domain
   > Hello, I just signed up for an account [email] However, there was no option to choose the [domain] domain, and my account was created with the [domain] domain. Or do I get…
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#10681](https://tbpro.zendesk.com/agent/tickets/10681)** · Custom Domain
   > Is there a way to make my custom domain my primary sending address?
+- **[#10690](https://tbpro.zendesk.com/agent/tickets/10690)** · DNS settings — why: **blocked**
+  > I am trying to set up a custom domain, but the DNS configuration lists errors for all SRV settings: "This record conflicts. Assign Thundermail the lowest priority number.".…
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10689](https://tbpro.zendesk.com/agent/tickets/10689)** · Why I declined
+  > Hi, I just wanted to give my feedback. I was really excited about this email service but upon reading the privacy terms I declined. The reason for that is this line in particular:…
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#10688](https://tbpro.zendesk.com/agent/tickets/10688)** · Spam
+  > I sent a test message to myself at work ([email]) from [email], and it went to the spam folder. I don't know if it is because of "bits", or the newness of the thundermail domain,…
+
+### App setup / configuration — 1 tickets
+
+- **[#10684](https://tbpro.zendesk.com/agent/tickets/10684)** · gmail data transfer
+  > I would like to import my existing gmail profile (~14GB) to thundermail I can set up filters/rules again manually, but I don't see an obvious way to import the old messages. I…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -386,6 +423,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10681](https://tbpro.zendesk.com/agent/tickets/10681) · [open] · 2026-11-02T15:55 · Custom Domain
 - [10682](https://tbpro.zendesk.com/agent/tickets/10682) · [new] · 2026-11-02T16:00 · installation 
 - [10683](https://tbpro.zendesk.com/agent/tickets/10683) · [new] · 2026-11-02T16:04 · There was no option to select the desired domain
+- [10684](https://tbpro.zendesk.com/agent/tickets/10684) · [new] · 2026-11-02T16:46 · gmail data transfer
+- [10685](https://tbpro.zendesk.com/agent/tickets/10685) · [new] · 2026-11-02T16:52 · Cancel
+- [10686](https://tbpro.zendesk.com/agent/tickets/10686) · [new] · 2026-11-02T16:53 · Thunderbird Apps
+- [10687](https://tbpro.zendesk.com/agent/tickets/10687) · [new] · 2026-11-02T16:53 · Thunderbird Apps
+- [10688](https://tbpro.zendesk.com/agent/tickets/10688) · [new] · 2026-11-02T16:54 · Spam
+- [10689](https://tbpro.zendesk.com/agent/tickets/10689) · [new] · 2026-11-02T16:58 · Why I declined
+- [10690](https://tbpro.zendesk.com/agent/tickets/10690) · [pending] · 2026-11-02T16:59 · DNS settings
+- [10691](https://tbpro.zendesk.com/agent/tickets/10691) · [new] · 2026-11-02T17:06 · email
 
 ## Solved — last 24h
 
@@ -398,6 +443,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-11-02T14:09 · Send does not work in Firefox
 - · [10611](https://tbpro.zendesk.com/agent/tickets/10611) · 2026-11-02T14:30 · Main Email Adress forgotten
 - 👍 [10443](https://tbpro.zendesk.com/agent/tickets/10443) · 2026-11-02T15:36 · Difficulty setting up new [domain] domain email address
+- · [10236](https://tbpro.zendesk.com/agent/tickets/10236) · 2026-11-02T16:19 · Passwort
+- · [10397](https://tbpro.zendesk.com/agent/tickets/10397) · 2026-11-02T16:19 · loginkode
+- · [10417](https://tbpro.zendesk.com/agent/tickets/10417) · 2026-11-02T16:19 · verlorenes passwort
+- · [10419](https://tbpro.zendesk.com/agent/tickets/10419) · 2026-11-02T16:19 · I have forgotten my password for my email 
+- · [10422](https://tbpro.zendesk.com/agent/tickets/10422) · 2026-11-02T16:19 · Sende e-mails sind verschwunden
+- · [10429](https://tbpro.zendesk.com/agent/tickets/10429) · 2026-11-02T16:19 · can't get email working 
+- · [10434](https://tbpro.zendesk.com/agent/tickets/10434) · 2026-11-02T16:19 · login
+- · [10446](https://tbpro.zendesk.com/agent/tickets/10446) · 2026-11-02T16:19 · keine Anmeldung
+- · [10456](https://tbpro.zendesk.com/agent/tickets/10456) · 2026-11-02T16:19 · Passord
+- · [10471](https://tbpro.zendesk.com/agent/tickets/10471) · 2026-11-02T16:19 · ?
+- · [10479](https://tbpro.zendesk.com/agent/tickets/10479) · 2026-11-02T16:19 · Wiederherstellung meiner E-Mails
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
