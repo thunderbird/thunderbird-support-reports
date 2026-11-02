@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-02 09:18 ET** · refreshes hourly_  
+_Updated: **2026-11-02 10:17 ET** · refreshes hourly_  
 _24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 85** of rollout — **35,000 invitees**, **981 tickets** so fa
 
 ## At a glance
 
-- **3** new tickets in last 24h · **7** solved in last 24h
+- **3** new tickets in last 24h · **8** solved in last 24h
 - **981** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
-- **Median AHT**: 146.8h · mean 170.4h (proxy: updated_at − created_at, 51 solved tickets)
+- **Median AHT**: 146.8h · mean 169.0h (proxy: updated_at − created_at, 51 solved tickets)
 
 ## Known problems — 14 problem(s), 120 incident(s)
 
@@ -266,12 +266,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 832
+- **closed**: 833
 - **solved**: 51
 - **pending**: 37
-- **open**: 27
+- **open**: 28
 - **hold**: 21
-- **new**: 13
+- **new**: 11
 
 ## Service (cumulative)
 
@@ -372,6 +372,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10531](https://tbpro.zendesk.com/agent/tickets/10531) · 2026-11-02T14:02 · Webmail trash restore
 - · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-11-02T14:08 · Account deletion
 - 👍 [10373](https://tbpro.zendesk.com/agent/tickets/10373) · 2026-11-02T14:09 · Send does not work in Firefox
+- · [10611](https://tbpro.zendesk.com/agent/tickets/10611) · 2026-11-02T14:30 · Main Email Adress forgotten
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
