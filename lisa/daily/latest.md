@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-02
 
-_Updated: **2026-11-02 03:21 ET** · refreshes hourly_  
+_Updated: **2026-11-02 04:20 ET** · refreshes hourly_  
 _24h window: 2026-11-01T16:00 → 2026-11-02T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 85** of rollout — **35,000 invitees**, **979 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 85** of rollout — **35,000 invitees**, **980 tickets** so far (2.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **979** tickets total since launch · contact rate **3%** of 35000 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **980** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
@@ -271,11 +271,11 @@ _(none in last 24h)_
 - **pending**: 39
 - **open**: 26
 - **hold**: 21
-- **new**: 13
+- **new**: 14
 
 ## Service (cumulative)
 
-- **Account Hub**: 548
+- **Account Hub**: 549
 - **Thundermail**: 339
 - **Send**: 22
 - **Appointment**: 11
@@ -342,6 +342,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#10670](https://tbpro.zendesk.com/agent/tickets/10670)** · Change Login/Primary
+  > Hello, Would it be possible to change my primary email address from X to Y? The new address is cooler, shorter, and looks better. Of course, I've already added it to my aliases.
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#10667](https://tbpro.zendesk.com/agent/tickets/10667)** · inbound public-key encryption
@@ -350,6 +355,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [10667](https://tbpro.zendesk.com/agent/tickets/10667) · [new] · 2026-11-01T22:37 · inbound public-key encryption
+- [10670](https://tbpro.zendesk.com/agent/tickets/10670) · [new] · 2026-11-02T08:40 · Change Login/Primary
 
 ## Solved — last 24h
 
