@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 14:12 ET** · refreshes hourly_  
+_Updated: **2026-11-03 15:15 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1024 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1026 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **24** new tickets in last 24h · **22** solved in last 24h
-- **1024** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
-- **CSAT (since launch)**: 95%  (196 good / 11 bad)
+- **26** new tickets in last 24h · **24** solved in last 24h
+- **1026** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
-- **Median AHT**: 152.0h · mean 173.2h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 152.0h · mean 167.2h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -284,9 +284,9 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 840
+- **closed**: 841
 - **solved**: 68
-- **pending**: 64
+- **pending**: 65
 - **open**: 30
 - **hold**: 20
 - **new**: 2
@@ -294,7 +294,7 @@ Regards, [name]_
 ## Service (cumulative)
 
 - **Account Hub**: 574
-- **Thundermail**: 356
+- **Thundermail**: 358
 - **Send**: 22
 - **Appointment**: 11
 
@@ -360,8 +360,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 7 tickets
 
+- **[#10746](https://tbpro.zendesk.com/agent/tickets/10746)** · I cant load Thunderbird
+  > Please help me
 - **[#10743](https://tbpro.zendesk.com/agent/tickets/10743)** · Funcionamiento del correo. 
   > Ya les he escrito antes respecto de la gran dificultad que tengo para entender Thunderbird. Desde octubre de 2025, cuando cambié Windows por Linux, tengo con Vds. mi correo de…
 - **[#10741](https://tbpro.zendesk.com/agent/tickets/10741)** · thunderbird mail
@@ -395,6 +397,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10711](https://tbpro.zendesk.com/agent/tickets/10711)** · Bug report
   > I know this is very early days. Sending comments so you can calibrate progress. Unable to send an email from webmail on firefox browser on an iphone device that is wifi only. also…
 
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#10744](https://tbpro.zendesk.com/agent/tickets/10744)** · Can I have separate mailboxes for each of my family members, all on one account?  I have my own domain
+  > I am looking to switch from my current email hosting provider and Thundermail looks like it will be a perfect fit for me when it comes fully available, if it can meet the…
+- **[#10738](https://tbpro.zendesk.com/agent/tickets/10738)** · Custom domain setup DNS issue — why: **confused** · how: **informed**
+  > I am trying to setup my custom domains and run into an error with priority. Error below: "This record conflicts. Assign Thundermail the lowest priority number." I set the SRV…
+
 ### Aliases — 2 tickets
 
 - **[#10737](https://tbpro.zendesk.com/agent/tickets/10737)** · Need guidance on applying coupon for account renewal
@@ -423,11 +432,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10718](https://tbpro.zendesk.com/agent/tickets/10718)** · Trial?
   > I am interested in Thundermail, and I am willing to pay for a subscription. I find it a little frustrating that a beta trial is making me pay for a year upfront. Also at this…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#10738](https://tbpro.zendesk.com/agent/tickets/10738)** · Custom domain setup DNS issue — why: **confused** · how: **informed**
-  > I am trying to setup my custom domains and run into an error with priority. Error below: "This record conflicts. Assign Thundermail the lowest priority number." I set the SRV…
 
 ### Pricing — payment issue — 1 tickets
 
@@ -468,8 +472,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10738](https://tbpro.zendesk.com/agent/tickets/10738) · [pending] · 2026-11-03T17:06 · Custom domain setup DNS issue
 - [10739](https://tbpro.zendesk.com/agent/tickets/10739) · [open] · 2026-11-03T17:24 · cannot receive e-mails
 - [10740](https://tbpro.zendesk.com/agent/tickets/10740) · [open] · 2026-11-03T17:42 · Delete account
-- [10741](https://tbpro.zendesk.com/agent/tickets/10741) · [new] · 2026-11-03T17:47 · thunderbird mail
+- [10741](https://tbpro.zendesk.com/agent/tickets/10741) · [open] · 2026-11-03T17:47 · thunderbird mail
 - [10743](https://tbpro.zendesk.com/agent/tickets/10743) · [new] · 2026-11-03T18:16 · Funcionamiento del correo. 
+- [10744](https://tbpro.zendesk.com/agent/tickets/10744) · [new] · 2026-11-03T19:26 · Can I have separate mailboxes for each of my family members, all on one account?  I have my own doma
+- [10746](https://tbpro.zendesk.com/agent/tickets/10746) · [open] · 2026-11-03T19:51 · I cant load Thunderbird
 
 ## Solved — last 24h
 
@@ -481,7 +487,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10448](https://tbpro.zendesk.com/agent/tickets/10448) · 2026-11-03T05:01 · Business Model
 - · [10442](https://tbpro.zendesk.com/agent/tickets/10442) · 2026-11-03T14:01 · Thunderbird mail
 - · [10611](https://tbpro.zendesk.com/agent/tickets/10611) · 2026-11-03T15:02 · Main Email Adress forgotten
-- · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-11-03T15:02 · Account deletion
 - · [10575](https://tbpro.zendesk.com/agent/tickets/10575) · 2026-11-03T15:02 · Bitte freischalten
 - · [10300](https://tbpro.zendesk.com/agent/tickets/10300) · 2026-11-03T15:02 · domain setup issue
 - · [10569](https://tbpro.zendesk.com/agent/tickets/10569) · 2026-11-03T16:02 · How long after registration should I subscribe?
@@ -495,6 +500,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10580](https://tbpro.zendesk.com/agent/tickets/10580) · 2026-11-03T18:02 · Thudermail Invitation
 - · [10565](https://tbpro.zendesk.com/agent/tickets/10565) · 2026-11-03T19:02 · Reissue | Invitation "info@n****.de"
 - · [10570](https://tbpro.zendesk.com/agent/tickets/10570) · 2026-11-03T19:02 · Sending limits?
+- · [10418](https://tbpro.zendesk.com/agent/tickets/10418) · 2026-11-03T20:01 · Switching Email Providers to Thundermail for an Organization
+- · [10223](https://tbpro.zendesk.com/agent/tickets/10223) · 2026-11-03T20:02 · Access through a Bookmark in FIREFOX
+- · [10690](https://tbpro.zendesk.com/agent/tickets/10690) · 2026-11-03T20:05 · DNS settings
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
