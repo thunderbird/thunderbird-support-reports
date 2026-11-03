@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 08:15 ET** · refreshes hourly_  
+_Updated: **2026-11-03 09:15 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1017 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1018 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **6** solved in last 24h
-- **1017** tickets total since launch · contact rate **3%** of 35000 invitees
+- **18** new tickets in last 24h · **7** solved in last 24h
+- **1018** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
-- **Median AHT**: 160.8h · mean 174.1h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 164.3h · mean 175.2h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"entered wrong"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
+- **"best regards zilu"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
 
 ## Known problems — 14 problem(s), 124 incident(s)
 
@@ -281,9 +281,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 840
-- **pending**: 57
-- **solved**: 55
-- **open**: 26
+- **pending**: 56
+- **solved**: 56
+- **open**: 27
 - **hold**: 20
 - **new**: 19
 
@@ -291,7 +291,7 @@ Regards, [name]_
 
 - **Account Hub**: 570
 - **Thundermail**: 355
-- **Send**: 21
+- **Send**: 22
 - **Appointment**: 11
 
 ## Why × How (cumulative)
@@ -356,8 +356,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#10734](https://tbpro.zendesk.com/agent/tickets/10734)** · Configuration d'un compte supplémentaire
+  > Je n'arrive pas à configurer le compte: [email]
 - **[#10729](https://tbpro.zendesk.com/agent/tickets/10729)** · Remove my Account
   > Please Remove my Account
 - **[#10724](https://tbpro.zendesk.com/agent/tickets/10724)** · mail
@@ -433,6 +435,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10723](https://tbpro.zendesk.com/agent/tickets/10723) · [new] · 2026-11-03T09:00 · Delete account
 - [10724](https://tbpro.zendesk.com/agent/tickets/10724) · [new] · 2026-11-03T09:04 · mail
 - [10729](https://tbpro.zendesk.com/agent/tickets/10729) · [new] · 2026-11-03T11:02 · Remove my Account
+- [10734](https://tbpro.zendesk.com/agent/tickets/10734) · [new] · 2026-11-03T14:06 · Configuration d'un compte supplémentaire
 
 ## Solved — last 24h
 
@@ -442,6 +445,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10564](https://tbpro.zendesk.com/agent/tickets/10564) · 2026-11-02T22:01 · New Thunderbird App?
 - · [10556](https://tbpro.zendesk.com/agent/tickets/10556) · 2026-11-02T22:01 · Cancel / refund
 - · [10448](https://tbpro.zendesk.com/agent/tickets/10448) · 2026-11-03T05:01 · Business Model
+- · [10442](https://tbpro.zendesk.com/agent/tickets/10442) · 2026-11-03T14:01 · Thunderbird mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
