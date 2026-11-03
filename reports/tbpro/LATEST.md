@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 05:14 ET** · refreshes hourly_  
+_Updated: **2026-11-03 06:14 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1016 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1017 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **6** solved in last 24h
-- **1016** tickets total since launch · contact rate **3%** of 35000 invitees
+- **17** new tickets in last 24h · **6** solved in last 24h
+- **1017** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
@@ -20,7 +20,7 @@ Flight 8 is **day 86** of rollout — **35,000 invitees**, **1016 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"zilu zhao"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
+- **"regards zilu"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
 
 ## Known problems — 14 problem(s), 124 incident(s)
 
@@ -285,7 +285,7 @@ Regards, [name]_
 - **solved**: 55
 - **open**: 25
 - **hold**: 20
-- **new**: 18
+- **new**: 19
 
 ## Service (cumulative)
 
@@ -356,8 +356,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#10729](https://tbpro.zendesk.com/agent/tickets/10729)** · Remove my Account
+  > Please Remove my Account
 - **[#10724](https://tbpro.zendesk.com/agent/tickets/10724)** · mail
   > mijn mailinstellingen werken niet
 - **[#10719](https://tbpro.zendesk.com/agent/tickets/10719)** · thunderbird
@@ -430,6 +432,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10722](https://tbpro.zendesk.com/agent/tickets/10722) · [new] · 2026-11-03T08:53 · New Thunderbird
 - [10723](https://tbpro.zendesk.com/agent/tickets/10723) · [new] · 2026-11-03T09:00 · Delete account
 - [10724](https://tbpro.zendesk.com/agent/tickets/10724) · [new] · 2026-11-03T09:04 · mail
+- [10729](https://tbpro.zendesk.com/agent/tickets/10729) · [new] · 2026-11-03T11:02 · Remove my Account
 
 ## Solved — last 24h
 
