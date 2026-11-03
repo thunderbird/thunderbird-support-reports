@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 03:19 ET** · refreshes hourly_  
+_Updated: **2026-11-03 04:16 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1013 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1016 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **6** solved in last 24h
-- **1013** tickets total since launch · contact rate **3%** of 35000 invitees
+- **16** new tickets in last 24h · **6** solved in last 24h
+- **1016** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 96
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
 - **Median AHT**: 160.8h · mean 174.1h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"zilu zhao"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
+- **"entered wrong"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
 
 ## Known problems — 14 problem(s), 124 incident(s)
 
@@ -273,9 +273,10 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Disparity in Financial Capacity between Nationalities](https://ideas.tb.pro/p/disparity-in-financial-capacity-between-nationalities) · 1 votes · _untagged_
+  > Either a pricing system that is different for nationalities based on their financial capacity. Or rebates for those from poorer nations. Make it basis local currency, paid vide local bank accounts.…
 
 ## Status breakdown (cumulative)
 
@@ -284,12 +285,12 @@ Regards, [name]_
 - **solved**: 55
 - **open**: 25
 - **hold**: 20
-- **new**: 15
+- **new**: 18
 
 ## Service (cumulative)
 
-- **Account Hub**: 569
-- **Thundermail**: 353
+- **Account Hub**: 570
+- **Thundermail**: 355
 - **Send**: 21
 - **Appointment**: 11
 
@@ -355,6 +356,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10724](https://tbpro.zendesk.com/agent/tickets/10724)** · mail
+  > mijn mailinstellingen werken niet
+- **[#10719](https://tbpro.zendesk.com/agent/tickets/10719)** · thunderbird
+  > Will the existing thunderbird be phrased out with the new thundermail? I like what I have.
+- **[#10713](https://tbpro.zendesk.com/agent/tickets/10713)** · Email trackers
+  > Will Thundermail block email trackers/beacons like Proton Mail does?
+
+### Account access issues — 3 tickets
+
+- **[#10722](https://tbpro.zendesk.com/agent/tickets/10722)** · New Thunderbird
+  > Hi team, I'm trying to understand the new thunderbird. My use case is this, I have multiple email addresses across different domains. My goal is to use thunderbird to login once…
+- **[#10708](https://tbpro.zendesk.com/agent/tickets/10708)** · Changing Paddle Account
+  > Hi, I submitted a support request ticket (10705) some minutes ago claiming that I may use the wrong backup email address. After some searching, it turned out that I may actually…
+- **[#10705](https://tbpro.zendesk.com/agent/tickets/10705)** · Backup email Mistake
+  > Hi, I think that I may made a mistake in setting the backup email. I use my invitation link which can be seen in the attachment. However, the customer portal shows a wrong email…
+
 ### Webmail — 3 tickets
 
 - **[#10720](https://tbpro.zendesk.com/agent/tickets/10720)** · Cannot seem to send email from verified domain alias
@@ -373,19 +392,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10710](https://tbpro.zendesk.com/agent/tickets/10710)** · Data security information request
   > Hello [name], I am extremely excited to be joining the beta but would like some more information before committing. 1) It's stated that Thundermail data is hosted on…
 
-### Other / uncategorized — 2 tickets
+### Privacy / data / jurisdiction concerns — 1 tickets
 
-- **[#10719](https://tbpro.zendesk.com/agent/tickets/10719)** · thunderbird
-  > Will the existing thunderbird be phrased out with the new thundermail? I like what I have.
-- **[#10713](https://tbpro.zendesk.com/agent/tickets/10713)** · Email trackers
-  > Will Thundermail block email trackers/beacons like Proton Mail does?
-
-### Account access issues — 2 tickets
-
-- **[#10708](https://tbpro.zendesk.com/agent/tickets/10708)** · Changing Paddle Account
-  > Hi, I submitted a support request ticket (10705) some minutes ago claiming that I may use the wrong backup email address. After some searching, it turned out that I may actually…
-- **[#10705](https://tbpro.zendesk.com/agent/tickets/10705)** · Backup email Mistake
-  > Hi, I think that I may made a mistake in setting the backup email. I use my invitation link which can be seen in the attachment. However, the customer portal shows a wrong email…
+- **[#10723](https://tbpro.zendesk.com/agent/tickets/10723)** · Delete account
+  > Hello, Please delete my account on Thundermail pro because I don't need it anymore. It doesn't work for me.
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -417,6 +427,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10718](https://tbpro.zendesk.com/agent/tickets/10718) · [new] · 2026-11-03T02:30 · Trial?
 - [10719](https://tbpro.zendesk.com/agent/tickets/10719) · [new] · 2026-11-03T02:51 · thunderbird
 - [10720](https://tbpro.zendesk.com/agent/tickets/10720) · [new] · 2026-11-03T03:11 · Cannot seem to send email from verified domain alias
+- [10722](https://tbpro.zendesk.com/agent/tickets/10722) · [new] · 2026-11-03T08:53 · New Thunderbird
+- [10723](https://tbpro.zendesk.com/agent/tickets/10723) · [new] · 2026-11-03T09:00 · Delete account
+- [10724](https://tbpro.zendesk.com/agent/tickets/10724) · [new] · 2026-11-03T09:04 · mail
 
 ## Solved — last 24h
 
