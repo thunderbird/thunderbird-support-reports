@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 06:14 ET** · refreshes hourly_  
+_Updated: **2026-11-03 07:21 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 86** of rollout — **35,000 invitees**, **1017 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"regards zilu"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
+- **"wrong backup"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
 
 ## Known problems — 14 problem(s), 124 incident(s)
 
@@ -281,9 +281,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 840
-- **pending**: 58
+- **pending**: 57
 - **solved**: 55
-- **open**: 25
+- **open**: 26
 - **hold**: 20
 - **new**: 19
 
