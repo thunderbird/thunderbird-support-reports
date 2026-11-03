@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 10:25 ET** · refreshes hourly_  
+_Updated: **2026-11-03 11:16 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1019 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1020 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **11** solved in last 24h
-- **1019** tickets total since launch · contact rate **3%** of 35000 invitees
+- **20** new tickets in last 24h · **14** solved in last 24h
+- **1020** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
-- **Median AHT**: 164.3h · mean 177.3h (proxy: updated_at − created_at, 58 solved tickets)
+- **Median AHT**: 160.8h · mean 177.0h (proxy: updated_at − created_at, 61 solved tickets)
 
-## Known problems — 14 problem(s), 124 incident(s)
+## Known problems — 14 problem(s), 125 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -33,7 +33,7 @@ Flight 8 is **day 86** of rollout — **35,000 invitees**, **1019 tickets** so f
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 100 incident(s):
+- 101 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -127,11 +127,12 @@ Flight 8 is **day 86** of rollout — **35,000 invitees**, **1019 tickets** so f
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [solved] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [solved] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [solved] · 2026-10-28 · _Delete account_
-  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [pending] · 2026-10-28 · _Delete acount_
+  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [solved] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [solved] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [pending] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30 · _Refund_
+  - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [pending] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
 
@@ -260,9 +261,9 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 2
 
-- [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [new] · _Cancel subscription_
+- [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [open] · _Cancel subscription_
   > Hello, I subscribed to Thundermail earlier today and realized it didn't meet my needs. I would like to cancel my subscription. Thank you, [name].
-- [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [new] · _Cancel/Refund_
+- [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [open] · _Cancel/Refund_
   > Hi there! I have decided that I don't believe this is needed for me at this time and would like to cancel/get my refund. Please let me know what you need from me to complete this. If it is better to provide an…
 
 ## New ideas on FeatureOS
@@ -275,16 +276,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 840
-- **solved**: 58
-- **pending**: 57
-- **open**: 28
-- **hold**: 20
-- **new**: 16
+- **solved**: 61
+- **pending**: 59
+- **open**: 32
+- **hold**: 19
+- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 570
-- **Thundermail**: 356
+- **Account Hub**: 571
+- **Thundermail**: 355
 - **Send**: 22
 - **Appointment**: 11
 
@@ -292,23 +293,23 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 196
-- **change request** + **actioned**: 135
+- **curious** + **explained**: 195
+- **change request** + **actioned**: 136
 - **blocked** + **explained**: 112
 - **confused** + **explained**: 83
 - **curious** + **informed**: 53
 - **blocked** + **investigated**: 46
-- **request** + **redirected**: 44
+- **request** + **redirected**: 45
 - **blocked** + **redirected**: 44
 - **confused** + **informed**: 41
-- **concerned** + **explained**: 31
+- **concerned** + **explained**: 32
 - **blocked** + **informed**: 23
 - **blocked** + **escalated**: 18
 - **confused** + **redirected**: 16
+- **change request** + **explained**: 10
 - **confused** + **—**: 10
 - **blocked** + **—**: 10
 - **concerned** + **—**: 9
-- **change request** + **explained**: 9
 - **telling us** + **explained**: 7
 - **request** + **explained**: 7
 - **blocked** + **actioned**: 7
@@ -333,6 +334,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **n/a**: 2
 - **other** + **—**: 2
 - **change request** + **investigated**: 2
+- **request** + **—**: 2
 - **curious** + **investigated**: 2
 - **telling us** + **escalated**: 2
 - **curious** + **redirected**: 2
@@ -340,7 +342,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **informed**: 1
 - **request** + **escalated**: 1
 - **other** + **explained**: 1
-- **request** + **—**: 1
 - **other** + **actioned**: 1
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
@@ -397,6 +398,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10708](https://tbpro.zendesk.com/agent/tickets/10708)** · Changing Paddle Account — why: **change request** · how: **actioned**
   > Hi, I submitted a support request ticket (10705) some minutes ago claiming that I may use the wrong backup email address. After some searching, it turned out that I may actually…
 
+### Aliases — 1 tickets
+
+- **[#10737](https://tbpro.zendesk.com/agent/tickets/10737)** · Need guidance on applying coupon for account renewal
+  > Hi [name], When I first set up my Pro account, I entered a coupon code retroactively (which triggered a refund). That has created confusion around renewal logic. I now have an…
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10723](https://tbpro.zendesk.com/agent/tickets/10723)** · Delete account
@@ -409,30 +415,31 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 1 tickets
 
-- **[#10709](https://tbpro.zendesk.com/agent/tickets/10709)** · Refund question
+- **[#10709](https://tbpro.zendesk.com/agent/tickets/10709)** · Refund question — why: **request**
   > Hi, I just activated for the Early Bird access today but have come to the conclusion after swapping the email on one of my Discord accounts and immediately getting suspended that…
 
 ## New tickets — last 24h
 
 - [10707](https://tbpro.zendesk.com/agent/tickets/10707) · [open] · 2026-11-02T21:30 · Question About @[domain] and @[domain] Email Addresses
 - [10708](https://tbpro.zendesk.com/agent/tickets/10708) · [pending] · 2026-11-02T22:06 · Changing Paddle Account
-- [10709](https://tbpro.zendesk.com/agent/tickets/10709) · [open] · 2026-11-02T23:22 · Refund question
+- [10709](https://tbpro.zendesk.com/agent/tickets/10709) · [pending] · 2026-11-02T23:22 · Refund question
 - [10710](https://tbpro.zendesk.com/agent/tickets/10710) · [open] · 2026-11-02T23:43 · Data security information request
-- [10711](https://tbpro.zendesk.com/agent/tickets/10711) · [new] · 2026-11-03T00:52 · Bug report
-- [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [new] · 2026-11-03T00:53 · Cancel subscription
-- [10713](https://tbpro.zendesk.com/agent/tickets/10713) · [new] · 2026-11-03T01:02 · Email trackers
-- [10716](https://tbpro.zendesk.com/agent/tickets/10716) · [new] · 2026-11-03T01:29 · Folder cannot be deleted
-- [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [new] · 2026-11-03T01:41 · Cancel/Refund
-- [10718](https://tbpro.zendesk.com/agent/tickets/10718) · [new] · 2026-11-03T02:30 · Trial?
-- [10719](https://tbpro.zendesk.com/agent/tickets/10719) · [new] · 2026-11-03T02:51 · thunderbird
+- [10711](https://tbpro.zendesk.com/agent/tickets/10711) · [open] · 2026-11-03T00:52 · Bug report
+- [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [open] · 2026-11-03T00:53 · Cancel subscription
+- [10713](https://tbpro.zendesk.com/agent/tickets/10713) · [open] · 2026-11-03T01:02 · Email trackers
+- [10716](https://tbpro.zendesk.com/agent/tickets/10716) · [open] · 2026-11-03T01:29 · Folder cannot be deleted
+- [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [open] · 2026-11-03T01:41 · Cancel/Refund
+- [10718](https://tbpro.zendesk.com/agent/tickets/10718) · [open] · 2026-11-03T02:30 · Trial?
+- [10719](https://tbpro.zendesk.com/agent/tickets/10719) · [open] · 2026-11-03T02:51 · thunderbird
 - [10720](https://tbpro.zendesk.com/agent/tickets/10720) · [new] · 2026-11-03T03:11 · Cannot seem to send email from verified domain alias
-- [10722](https://tbpro.zendesk.com/agent/tickets/10722) · [new] · 2026-11-03T08:53 · New Thunderbird
+- [10722](https://tbpro.zendesk.com/agent/tickets/10722) · [open] · 2026-11-03T08:53 · New Thunderbird
 - [10723](https://tbpro.zendesk.com/agent/tickets/10723) · [new] · 2026-11-03T09:00 · Delete account
 - [10724](https://tbpro.zendesk.com/agent/tickets/10724) · [new] · 2026-11-03T09:04 · mail
 - [10729](https://tbpro.zendesk.com/agent/tickets/10729) · [new] · 2026-11-03T11:02 · Remove my Account
 - [10734](https://tbpro.zendesk.com/agent/tickets/10734) · [new] · 2026-11-03T14:06 · Configuration d'un compte supplémentaire
 - [10735](https://tbpro.zendesk.com/agent/tickets/10735) · [new] · 2026-11-03T14:28 · Correct account details for thundermail
 - [10736](https://tbpro.zendesk.com/agent/tickets/10736) · [new] · 2026-11-03T14:57 · How do I request a [domain] address pls
+- [10737](https://tbpro.zendesk.com/agent/tickets/10737) · [new] · 2026-11-03T15:43 · Need guidance on applying coupon for account renewal
 
 ## Solved — last 24h
 
@@ -447,6 +454,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-11-03T15:02 · Account deletion
 - · [10575](https://tbpro.zendesk.com/agent/tickets/10575) · 2026-11-03T15:02 · Bitte freischalten
 - · [10300](https://tbpro.zendesk.com/agent/tickets/10300) · 2026-11-03T15:02 · domain setup issue
+- · [10569](https://tbpro.zendesk.com/agent/tickets/10569) · 2026-11-03T16:02 · How long after registration should I subscribe?
+- · [10549](https://tbpro.zendesk.com/agent/tickets/10549) · 2026-11-03T16:02 · Delete acount
+- · [10428](https://tbpro.zendesk.com/agent/tickets/10428) · 2026-11-03T16:02 · (1)Bitdefender flagged warning when I clicked on the Join the Early Bird Beta. (2) how do I chose  @
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
