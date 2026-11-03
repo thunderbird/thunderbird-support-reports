@@ -1,26 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 09:15 ET** · refreshes hourly_  
+_Updated: **2026-11-03 10:25 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1018 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1019 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **7** solved in last 24h
-- **1018** tickets total since launch · contact rate **3%** of 35000 invitees
+- **19** new tickets in last 24h · **11** solved in last 24h
+- **1019** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (196 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
-- **Median AHT**: 164.3h · mean 175.2h (proxy: updated_at − created_at, 56 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"best regards zilu"** — 2 tickets in 24h (new; baseline 0 cum) — [#10705](https://tbpro.zendesk.com/agent/tickets/10705), [#10708](https://tbpro.zendesk.com/agent/tickets/10708)
+- **Median AHT**: 164.3h · mean 177.3h (proxy: updated_at − created_at, 58 solved tickets)
 
 ## Known problems — 14 problem(s), 124 incident(s)
 
@@ -125,7 +119,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [closed] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [closed] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [closed] · 2026-10-20 · _Monthly plans _
-  - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [pending] · 2026-10-22 · _domain setup issue_
+  - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [solved] · 2026-10-22 · _domain setup issue_
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [closed] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [closed] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [solved] · 2026-10-25 · _account cancelation and refund request_
@@ -281,16 +275,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 840
-- **pending**: 56
-- **solved**: 56
-- **open**: 27
+- **solved**: 58
+- **pending**: 57
+- **open**: 28
 - **hold**: 20
-- **new**: 19
+- **new**: 16
 
 ## Service (cumulative)
 
 - **Account Hub**: 570
-- **Thundermail**: 355
+- **Thundermail**: 356
 - **Send**: 22
 - **Appointment**: 11
 
@@ -298,15 +292,15 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 195
-- **change request** + **actioned**: 134
+- **curious** + **explained**: 196
+- **change request** + **actioned**: 135
 - **blocked** + **explained**: 112
 - **confused** + **explained**: 83
 - **curious** + **informed**: 53
-- **blocked** + **investigated**: 45
+- **blocked** + **investigated**: 46
 - **request** + **redirected**: 44
 - **blocked** + **redirected**: 44
-- **confused** + **informed**: 40
+- **confused** + **informed**: 41
 - **concerned** + **explained**: 31
 - **blocked** + **informed**: 23
 - **blocked** + **escalated**: 18
@@ -369,14 +363,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10713](https://tbpro.zendesk.com/agent/tickets/10713)** · Email trackers
   > Will Thundermail block email trackers/beacons like Proton Mail does?
 
-### Account access issues — 3 tickets
+### Subscription / billing / refund / cancel — 4 tickets
 
-- **[#10722](https://tbpro.zendesk.com/agent/tickets/10722)** · New Thunderbird
-  > Hi team, I'm trying to understand the new thunderbird. My use case is this, I have multiple email addresses across different domains. My goal is to use thunderbird to login once…
-- **[#10708](https://tbpro.zendesk.com/agent/tickets/10708)** · Changing Paddle Account
-  > Hi, I submitted a support request ticket (10705) some minutes ago claiming that I may use the wrong backup email address. After some searching, it turned out that I may actually…
-- **[#10705](https://tbpro.zendesk.com/agent/tickets/10705)** · Backup email Mistake
-  > Hi, I think that I may made a mistake in setting the backup email. I use my invitation link which can be seen in the attachment. However, the customer portal shows a wrong email…
+- **[#10735](https://tbpro.zendesk.com/agent/tickets/10735)** · Correct account details for thundermail
+  > Payment account displays as [domain]*MZLATECHNO I am concerned this is not the correct account. Can you confirm correct account please ? I am in UK.
+- **[#10717](https://tbpro.zendesk.com/agent/tickets/10717)** · Cancel/Refund
+  > Hi there! I have decided that I don't believe this is needed for me at this time and would like to cancel/get my refund. Please let me know what you need from me to complete this.…
+- **[#10712](https://tbpro.zendesk.com/agent/tickets/10712)** · Cancel subscription
+  > Hello, I subscribed to Thundermail earlier today and realized it didn't meet my needs. I would like to cancel my subscription. Thank you, [name].
+- **[#10710](https://tbpro.zendesk.com/agent/tickets/10710)** · Data security information request
+  > Hello [name], I am extremely excited to be joining the beta but would like some more information before committing. 1) It's stated that Thundermail data is hosted on…
 
 ### Webmail — 3 tickets
 
@@ -387,14 +383,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10711](https://tbpro.zendesk.com/agent/tickets/10711)** · Bug report
   > I know this is very early days. Sending comments so you can calibrate progress. Unable to send an email from webmail on firefox browser on an iphone device that is wifi only. also…
 
-### Subscription / billing / refund / cancel — 3 tickets
+### Account creation / signup confusion — 2 tickets
 
-- **[#10717](https://tbpro.zendesk.com/agent/tickets/10717)** · Cancel/Refund
-  > Hi there! I have decided that I don't believe this is needed for me at this time and would like to cancel/get my refund. Please let me know what you need from me to complete this.…
-- **[#10712](https://tbpro.zendesk.com/agent/tickets/10712)** · Cancel subscription
-  > Hello, I subscribed to Thundermail earlier today and realized it didn't meet my needs. I would like to cancel my subscription. Thank you, [name].
-- **[#10710](https://tbpro.zendesk.com/agent/tickets/10710)** · Data security information request
-  > Hello [name], I am extremely excited to be joining the beta but would like some more information before committing. 1) It's stated that Thundermail data is hosted on…
+- **[#10736](https://tbpro.zendesk.com/agent/tickets/10736)** · How do I request a [domain] address pls
+  > Hi, when trying to sign up, I was only offered a [domain] address. How could I request a [domain] one please? Many thanks, [name]
+- **[#10707](https://tbpro.zendesk.com/agent/tickets/10707)** · Question About @[domain] and @[domain] Email Addresses
+  > Hello [name], I recently created a Thundermail account with the email address [email], but I haven’t completed the payment yet. During registration, the system automatically…
+
+### Account access issues — 2 tickets
+
+- **[#10722](https://tbpro.zendesk.com/agent/tickets/10722)** · New Thunderbird
+  > Hi team, I'm trying to understand the new thunderbird. My use case is this, I have multiple email addresses across different domains. My goal is to use thunderbird to login once…
+- **[#10708](https://tbpro.zendesk.com/agent/tickets/10708)** · Changing Paddle Account — why: **change request** · how: **actioned**
+  > Hi, I submitted a support request ticket (10705) some minutes ago claiming that I may use the wrong backup email address. After some searching, it turned out that I may actually…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -411,18 +412,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10709](https://tbpro.zendesk.com/agent/tickets/10709)** · Refund question
   > Hi, I just activated for the Early Bird access today but have come to the conclusion after swapping the email on one of my Discord accounts and immediately getting suspended that…
 
-### Account creation / signup confusion — 1 tickets
-
-- **[#10707](https://tbpro.zendesk.com/agent/tickets/10707)** · Question About @[domain] and @[domain] Email Addresses
-  > Hello [name], I recently created a Thundermail account with the email address [email], but I haven’t completed the payment yet. During registration, the system automatically…
-
 ## New tickets — last 24h
 
-- [10705](https://tbpro.zendesk.com/agent/tickets/10705) · [new] · 2026-11-02T21:21 · Backup email Mistake
-- [10707](https://tbpro.zendesk.com/agent/tickets/10707) · [new] · 2026-11-02T21:30 · Question About @[domain] and @[domain] Email Addresses
-- [10708](https://tbpro.zendesk.com/agent/tickets/10708) · [new] · 2026-11-02T22:06 · Changing Paddle Account
-- [10709](https://tbpro.zendesk.com/agent/tickets/10709) · [new] · 2026-11-02T23:22 · Refund question
-- [10710](https://tbpro.zendesk.com/agent/tickets/10710) · [new] · 2026-11-02T23:43 · Data security information request
+- [10707](https://tbpro.zendesk.com/agent/tickets/10707) · [open] · 2026-11-02T21:30 · Question About @[domain] and @[domain] Email Addresses
+- [10708](https://tbpro.zendesk.com/agent/tickets/10708) · [pending] · 2026-11-02T22:06 · Changing Paddle Account
+- [10709](https://tbpro.zendesk.com/agent/tickets/10709) · [open] · 2026-11-02T23:22 · Refund question
+- [10710](https://tbpro.zendesk.com/agent/tickets/10710) · [open] · 2026-11-02T23:43 · Data security information request
 - [10711](https://tbpro.zendesk.com/agent/tickets/10711) · [new] · 2026-11-03T00:52 · Bug report
 - [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [new] · 2026-11-03T00:53 · Cancel subscription
 - [10713](https://tbpro.zendesk.com/agent/tickets/10713) · [new] · 2026-11-03T01:02 · Email trackers
@@ -436,6 +431,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10724](https://tbpro.zendesk.com/agent/tickets/10724) · [new] · 2026-11-03T09:04 · mail
 - [10729](https://tbpro.zendesk.com/agent/tickets/10729) · [new] · 2026-11-03T11:02 · Remove my Account
 - [10734](https://tbpro.zendesk.com/agent/tickets/10734) · [new] · 2026-11-03T14:06 · Configuration d'un compte supplémentaire
+- [10735](https://tbpro.zendesk.com/agent/tickets/10735) · [new] · 2026-11-03T14:28 · Correct account details for thundermail
+- [10736](https://tbpro.zendesk.com/agent/tickets/10736) · [new] · 2026-11-03T14:57 · How do I request a [domain] address pls
 
 ## Solved — last 24h
 
@@ -446,6 +443,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10556](https://tbpro.zendesk.com/agent/tickets/10556) · 2026-11-02T22:01 · Cancel / refund
 - · [10448](https://tbpro.zendesk.com/agent/tickets/10448) · 2026-11-03T05:01 · Business Model
 - · [10442](https://tbpro.zendesk.com/agent/tickets/10442) · 2026-11-03T14:01 · Thunderbird mail
+- · [10611](https://tbpro.zendesk.com/agent/tickets/10611) · 2026-11-03T15:02 · Main Email Adress forgotten
+- · [9479](https://tbpro.zendesk.com/agent/tickets/9479) · 2026-11-03T15:02 · Account deletion
+- · [10575](https://tbpro.zendesk.com/agent/tickets/10575) · 2026-11-03T15:02 · Bitte freischalten
+- · [10300](https://tbpro.zendesk.com/agent/tickets/10300) · 2026-11-03T15:02 · domain setup issue
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
