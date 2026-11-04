@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 20:14 ET** · refreshes hourly_  
+_Updated: **2026-11-03 21:18 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1035 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1039 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **28** new tickets in last 24h · **25** solved in last 24h
-- **1035** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1039** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
@@ -290,17 +290,17 @@ Regards, [name]_
 
 - **closed**: 841
 - **solved**: 76
-- **pending**: 75
+- **pending**: 74
+- **open**: 21
 - **hold**: 20
-- **open**: 19
-- **new**: 4
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 587
-- **Thundermail**: 357
+- **Account Hub**: 589
+- **Thundermail**: 358
 - **Send**: 21
-- **Appointment**: 11
+- **Appointment**: 12
 
 ## Why × How (cumulative)
 
@@ -475,7 +475,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [open] · 2026-11-03T01:41 · Cancel/Refund
 - [10718](https://tbpro.zendesk.com/agent/tickets/10718) · [open] · 2026-11-03T02:30 · Trial?
 - [10719](https://tbpro.zendesk.com/agent/tickets/10719) · [pending] · 2026-11-03T02:51 · thunderbird
-- [10720](https://tbpro.zendesk.com/agent/tickets/10720) · [pending] · 2026-11-03T03:11 · Cannot seem to send email from verified domain alias
+- [10720](https://tbpro.zendesk.com/agent/tickets/10720) · [open] · 2026-11-03T03:11 · Cannot seem to send email from verified domain alias
 - [10722](https://tbpro.zendesk.com/agent/tickets/10722) · [open] · 2026-11-03T08:53 · New Thunderbird
 - [10723](https://tbpro.zendesk.com/agent/tickets/10723) · [pending] · 2026-11-03T09:00 · Delete account
 - [10729](https://tbpro.zendesk.com/agent/tickets/10729) · [solved] · 2026-11-03T11:02 · Remove my Account
