@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-03
 
-_Updated: **2026-11-03 18:12 ET** · refreshes hourly_  
+_Updated: **2026-11-03 19:34 ET** · refreshes hourly_  
 _24h window: 2026-11-02T16:00 → 2026-11-03T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 86** of rollout — **35,000 invitees**, **1030 tickets** so far (2.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 86** of rollout — **35,000 invitees**, **1034 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **28** new tickets in last 24h · **25** solved in last 24h
-- **1030** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1034** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 97
-- **Median AHT**: 146.1h · mean 169.7h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 146.1h · mean 169.1h (proxy: updated_at − created_at, 76 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -136,9 +136,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [solved] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [solved] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
-  - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [pending] · 2026-10-29 · _Want to delete my account_
+  - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [solved] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [pending] · 2026-10-30 · _Refund_
-  - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [open] · 2026-10-30 · _New Subscription Cancellation Information_
+  - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [pending] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [pending] · 2026-11-02 · _cancel account_
@@ -270,12 +270,14 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [pending] · _Cancel subscription_
   > Hello, I subscribed to Thundermail earlier today and realized it didn't meet my needs. I would like to cancel my subscription. Thank you, [name].
 - [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [open] · _Cancel/Refund_
   > Hi there! I have decided that I don't believe this is needed for me at this time and would like to cancel/get my refund. Please let me know what you need from me to complete this. If it is better to provide an…
+- [10756](https://tbpro.zendesk.com/agent/tickets/10756) · [open] · _Deletion and refund_
+  > Hi! Nothing personal but I think I will go with Purelymail instead. It has far better deliverability, which I really need for my business. I wish this service well though and I love what you're doing. I'm still within…
 
 ## New ideas on FeatureOS
 
@@ -287,16 +289,16 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 841
-- **pending**: 74
-- **solved**: 74
+- **solved**: 76
+- **pending**: 75
 - **hold**: 20
-- **open**: 20
-- **new**: 1
+- **open**: 19
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 583
-- **Thundermail**: 355
+- **Account Hub**: 586
+- **Thundermail**: 357
 - **Send**: 21
 - **Appointment**: 11
 
@@ -304,7 +306,7 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 197
+- **curious** + **explained**: 200
 - **change request** + **actioned**: 142
 - **blocked** + **explained**: 112
 - **confused** + **explained**: 83
@@ -468,7 +470,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10710](https://tbpro.zendesk.com/agent/tickets/10710) · [pending] · 2026-11-02T23:43 · Data security information request
 - [10711](https://tbpro.zendesk.com/agent/tickets/10711) · [pending] · 2026-11-03T00:52 · Bug report
 - [10712](https://tbpro.zendesk.com/agent/tickets/10712) · [pending] · 2026-11-03T00:53 · Cancel subscription
-- [10713](https://tbpro.zendesk.com/agent/tickets/10713) · [pending] · 2026-11-03T01:02 · Email trackers
+- [10713](https://tbpro.zendesk.com/agent/tickets/10713) · [open] · 2026-11-03T01:02 · Email trackers
 - [10716](https://tbpro.zendesk.com/agent/tickets/10716) · [pending] · 2026-11-03T01:29 · Folder cannot be deleted
 - [10717](https://tbpro.zendesk.com/agent/tickets/10717) · [open] · 2026-11-03T01:41 · Cancel/Refund
 - [10718](https://tbpro.zendesk.com/agent/tickets/10718) · [open] · 2026-11-03T02:30 · Trial?
