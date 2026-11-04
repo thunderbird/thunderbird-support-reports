@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 05:16 ET** · refreshes hourly_  
+_Updated: **2026-11-04 06:15 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 87** of rollout — **35,000 invitees**, **1045 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 87** of rollout — **35,000 invitees**, **1047 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **7** solved in last 24h
-- **1045** tickets total since launch · contact rate **3%** of 35000 invitees
+- **19** new tickets in last 24h · **7** solved in last 24h
+- **1047** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 99
@@ -298,12 +298,12 @@ Regards, [name]_
 - **pending**: 72
 - **open**: 28
 - **hold**: 20
-- **new**: 8
+- **new**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 593
-- **Thundermail**: 359
+- **Thundermail**: 360
 - **Send**: 21
 - **Appointment**: 12
 
@@ -384,12 +384,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10756](https://tbpro.zendesk.com/agent/tickets/10756)** · Deletion and refund
   > Hi! Nothing personal but I think I will go with Purelymail instead. It has far better deliverability, which I really need for my business. I wish this service well though and I…
 
-### App setup / configuration — 2 tickets
+### App setup / configuration — 3 tickets
 
+- **[#10780](https://tbpro.zendesk.com/agent/tickets/10780)** · moving other email address in 
+  > good morning im trying to get my other emails into the thunderbird i have a [email] [email] [email] [email] [email] [email]
 - **[#10772](https://tbpro.zendesk.com/agent/tickets/10772)** · account
   > Hi i made an account a month ago but i can't remember of the email was [email] or [email] . I can not log in for the moment. can you help me or can ik call to someone? thx Bjorn
 - **[#10766](https://tbpro.zendesk.com/agent/tickets/10766)** · I only want to keep this if I can import my Eudora addresses
   > You should have better help availability
+
+### Other / uncategorized — 2 tickets
+
+- **[#10778](https://tbpro.zendesk.com/agent/tickets/10778)** · Potential Keycloak security vulnerability
+  > Hello, I came across this recently disclosed Keycloak vulnerability: https://github.com/abraxas/keycloak-saml-redirect-param-split Since Thundermail uses Keycloak for…
+- **[#10760](https://tbpro.zendesk.com/agent/tickets/10760)** · なまえの記入ができません
+  > 赤枠なっています
 
 ### Account access issues — 2 tickets
 
@@ -404,11 +413,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I set up a custom domain for thundermail and entered all the records but it keeps saying that records that are there are missing. Each time I verify it says a different record is…
 - **[#10752](https://tbpro.zendesk.com/agent/tickets/10752)** · Custom domain DNS settings not working
   > I setup DNS settings for my custom domain and after a day it still doesn't seem to be working.
-
-### Other / uncategorized — 1 tickets
-
-- **[#10760](https://tbpro.zendesk.com/agent/tickets/10760)** · なまえの記入ができません
-  > 赤枠なっています
 
 ### Appointment / calendar — 1 tickets
 
@@ -449,6 +453,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10769](https://tbpro.zendesk.com/agent/tickets/10769) · [new] · 2026-11-04T06:48 · subscription not completed, not able to login
 - [10771](https://tbpro.zendesk.com/agent/tickets/10771) · [new] · 2026-11-04T08:14 · Please cancel
 - [10772](https://tbpro.zendesk.com/agent/tickets/10772) · [new] · 2026-11-04T08:40 · account
+- [10778](https://tbpro.zendesk.com/agent/tickets/10778) · [new] · 2026-11-04T10:44 · Potential Keycloak security vulnerability
+- [10780](https://tbpro.zendesk.com/agent/tickets/10780) · [new] · 2026-11-04T11:13 · moving other email address in 
 
 ## Solved — last 24h
 
