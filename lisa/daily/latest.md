@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 02:17 ET** · refreshes hourly_  
+_Updated: **2026-11-04 03:19 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 87** of rollout — **35,000 invitees**, **1043 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 87** of rollout — **35,000 invitees**, **1044 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **8** solved in last 24h
-- **1043** tickets total since launch · contact rate **3%** of 35000 invitees
+- **16** new tickets in last 24h · **8** solved in last 24h
+- **1044** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 98
@@ -271,7 +271,7 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
 I want try thunder mail and bird
 Regards, [name]_
 
-## Refund & cancellation tickets (last 24h) — 3
+## Refund & cancellation tickets (last 24h) — 4
 
 - [10758](https://tbpro.zendesk.com/agent/tickets/10758) · [open] · _Refund_
   > Can I get a refund for Thundermail purchase? It's not what I was hoping it would be.
@@ -279,6 +279,8 @@ Regards, [name]_
   > Hello, I would like to cancel and refund my subscription.
 - [10765](https://tbpro.zendesk.com/agent/tickets/10765) · [new] · _Can I import a CSV contacts file from my Eudora? If not, cancel my account now_
   > Can I import a CSV contacts file from my Eudora? If not, cancel my account now
+- [10771](https://tbpro.zendesk.com/agent/tickets/10771) · [new] · _Please cancel_
+  > This isn't what I thought it was. I thought it was a web-based version of Thunderbird, exactly as it is on my desktop. So sorry! Please refund. List-ID:f8051cc8637cf3ff79661f382mc list <[domain]>
 
 ## New ideas on FeatureOS
 
@@ -291,15 +293,15 @@ Regards, [name]_
 
 - **closed**: 841
 - **solved**: 77
-- **pending**: 74
-- **open**: 25
+- **pending**: 73
+- **open**: 26
 - **hold**: 20
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 593
-- **Thundermail**: 357
+- **Thundermail**: 358
 - **Send**: 21
 - **Appointment**: 12
 
@@ -365,8 +367,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 5 tickets
+### Subscription / billing / refund / cancel — 6 tickets
 
+- **[#10771](https://tbpro.zendesk.com/agent/tickets/10771)** · Please cancel
+  > This isn't what I thought it was. I thought it was a web-based version of Thunderbird, exactly as it is on my desktop. So sorry! Please refund. List-ID:f8051cc8637cf3ff79661f382mc…
 - **[#10768](https://tbpro.zendesk.com/agent/tickets/10768)** · Is this a subscription-only service?
   > Does the offer/provision require a payment? Thanks
 - **[#10765](https://tbpro.zendesk.com/agent/tickets/10765)** · Can I import a CSV contacts file from my Eudora? If not, cancel my account now
@@ -439,6 +443,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10766](https://tbpro.zendesk.com/agent/tickets/10766) · [new] · 2026-11-04T02:37 · I only want to keep this if I can import my Eudora addresses
 - [10768](https://tbpro.zendesk.com/agent/tickets/10768) · [open] · 2026-11-04T03:07 · Is this a subscription-only service?
 - [10769](https://tbpro.zendesk.com/agent/tickets/10769) · [new] · 2026-11-04T06:48 · subscription not completed, not able to login
+- [10771](https://tbpro.zendesk.com/agent/tickets/10771) · [new] · 2026-11-04T08:14 · Please cancel
 
 ## Solved — last 24h
 
