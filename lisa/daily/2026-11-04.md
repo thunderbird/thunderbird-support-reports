@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 04:16 ET** · refreshes hourly_  
+_Updated: **2026-11-04 05:16 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 87** of rollout — **35,000 invitees**, **1045 tickets** so f
 - **1045** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 98
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 99
 - **Median AHT**: 146.1h · mean 169.3h (proxy: updated_at − created_at, 76 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -284,8 +284,10 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Compete with Fastmail.com](https://ideas.tb.pro/p/compete-with-fastmail-com) · 1 votes · _untagged_
+  > What you’d like to see: Compare and then compete with FastMail.com for features and price. Offer ability to send mail from web sites so we don’t have to use two services like Mailgun.com Why it…
 - [Delay delivery of emails](https://ideas.tb.pro/p/delay-delivery-of-emails) · 1 votes · _untagged_
   > What you’d like to see An option to toggle delaying of outgoing emails. Why it matters Prevents accidental sending of emails. Your use case After you send an email, you often remember something you…
 
