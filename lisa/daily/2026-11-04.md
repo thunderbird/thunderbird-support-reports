@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 01:23 ET** · refreshes hourly_  
+_Updated: **2026-11-04 02:17 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 87** of rollout — **35,000 invitees**, **1042 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 87** of rollout — **35,000 invitees**, **1043 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **8** solved in last 24h
-- **1042** tickets total since launch · contact rate **3%** of 35000 invitees
+- **15** new tickets in last 24h · **8** solved in last 24h
+- **1043** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 98
@@ -294,11 +294,11 @@ Regards, [name]_
 - **pending**: 74
 - **open**: 25
 - **hold**: 20
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 592
+- **Account Hub**: 593
 - **Thundermail**: 357
 - **Send**: 21
 - **Appointment**: 12
@@ -378,6 +378,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10756](https://tbpro.zendesk.com/agent/tickets/10756)** · Deletion and refund
   > Hi! Nothing personal but I think I will go with Purelymail instead. It has far better deliverability, which I really need for my business. I wish this service well though and I…
 
+### Account access issues — 2 tickets
+
+- **[#10769](https://tbpro.zendesk.com/agent/tickets/10769)** · subscription not completed, not able to login
+  > Hi, very much interested to subscribe, and have defined my preferred email ([email]) but was not able to complete subscription and not able to login, even as I use the password I…
+- **[#10761](https://tbpro.zendesk.com/agent/tickets/10761)** · Password reset
+  > I am not receiving the password reset e-mail! I've tried several times but nothing. I've been trying to resolve this for about 2 weeks and have no help other than the suggestions…
+
 ### Custom domain / DKIM / DNS — 2 tickets
 
 - **[#10763](https://tbpro.zendesk.com/agent/tickets/10763)** · Custom domain not configuring
@@ -389,11 +396,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10766](https://tbpro.zendesk.com/agent/tickets/10766)** · I only want to keep this if I can import my Eudora addresses
   > You should have better help availability
-
-### Account access issues — 1 tickets
-
-- **[#10761](https://tbpro.zendesk.com/agent/tickets/10761)** · Password reset
-  > I am not receiving the password reset e-mail! I've tried several times but nothing. I've been trying to resolve this for about 2 weeks and have no help other than the suggestions…
 
 ### Other / uncategorized — 1 tickets
 
@@ -436,6 +438,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10765](https://tbpro.zendesk.com/agent/tickets/10765) · [new] · 2026-11-04T02:35 · Can I import a CSV contacts file from my Eudora? If not, cancel my account now
 - [10766](https://tbpro.zendesk.com/agent/tickets/10766) · [new] · 2026-11-04T02:37 · I only want to keep this if I can import my Eudora addresses
 - [10768](https://tbpro.zendesk.com/agent/tickets/10768) · [open] · 2026-11-04T03:07 · Is this a subscription-only service?
+- [10769](https://tbpro.zendesk.com/agent/tickets/10769) · [new] · 2026-11-04T06:48 · subscription not completed, not able to login
 
 ## Solved — last 24h
 
