@@ -508,6 +508,18 @@ _QUARTERLY_STATUS_ORDER = (
     'Open for discussion',
 )
 
+def build_kb_articles_html(articles):
+    """New Thundermail help-center articles, linked on support.tb.pro. Entries need a title and url."""
+    rows = [a for a in (articles or []) if a.get('title') and a.get('url')]
+    if not rows:
+        return ''
+    items = ''.join(
+        f'<li><a href="{_esc(a["url"])}" target="_blank" rel="noopener">{_esc(a["title"])}</a></li>'
+        for a in rows
+    )
+    return f'<div class="panel"><ul class="scan-list">{items}</ul></div>'
+
+
 def build_quarterly_review_html(quarterly_review):
     """Jul quarterly review status moves — separate from inferrable monthly moves."""
     if not quarterly_review or not quarterly_review.get('moves'):
@@ -2489,6 +2501,13 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
         f'<div class="panel"><table><thead><tr><th>Idea</th><th class="num">Votes</th><th>Status</th></tr></thead><tbody>{top_idea_rows}</tbody></table></div>',
         "5 rows",
     )
+    kb_articles = config.get("thundermail_kb_articles") or []
+    kb_html = build_kb_articles_html(kb_articles)
+    if kb_html:
+        thundermail_body += drill(
+            "tm-kb", "New KB articles", kb_html,
+            f'{len([a for a in kb_articles if a.get("url")])} published', True,
+        )
 
     k9_theme_map = dict((k9_discourse or {}).get("top_themes", []))
     push = analysis["friction"].get("Push / Notification Sync", {})

@@ -355,6 +355,21 @@ narrative:
   experiments: ''
   whats_coming_up: ''
 
+# ── NEW THUNDERMAIL KB ARTICLES (support.tb.pro help center) ──
+thundermail_kb_articles:
+  - title: "Can I change my primary account email address?"
+    url: "https://support.tb.pro/hc/en-us/articles/56027885434003-Can-I-change-my-primary-account-email-address"
+  - title: "How do Early Bird invitations and sign-ups work?"
+    url: "https://support.tb.pro/hc/en-us/articles/56244603904275-How-do-Early-Bird-invitations-and-sign-ups-work"
+  - title: "How do I delete an alias?"
+    url: "https://support.tb.pro/hc/en-us/articles/56343900427667-How-do-I-delete-an-alias"
+  - title: "How do I import email from a Proton backup .eml file into Thundermail?"
+    url: "https://support.tb.pro/hc/en-us/articles/57103097411475-How-do-I-import-email-from-a-Proton-backup-eml-file-into-Thundermail"
+  - title: "How do I set up a server-level signature in webmail?"
+    url: "https://support.tb.pro/hc/en-us/articles/56425358963219-How-do-I-set-up-a-server-level-signature-in-webmail"
+  - title: "Which payment methods are accepted for Thundermail?"
+    url: "https://support.tb.pro/hc/en-us/articles/56464134947091-Which-payment-methods-are-accepted-for-Thundermail"
+
 # ── THUNDERMAIL LOAD (generated; aggregate-only) ──
 thundermail_load:
   month: 2026-10
