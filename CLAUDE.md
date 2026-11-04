@@ -24,7 +24,7 @@ Run `uv run scripts/fetch_reviews.py <month> <year>` — fetches the requested m
 GCS bucket: read from `$PLAY_REVIEWS_BUCKET` (kept out of this public repo — it embeds our developer account ID).
 Requires gcloud CLI installed and authenticated (`gcloud auth login` with Lisa's Google account).
 Beta is optional — script warns but does not fail if missing.
-**Run this in the following month** (e.g. fetch May's CSVs in June) — Play Console exports are only complete once the month has closed.
+**Run this in the following month** (e.g. fetch May's CSVs in June) — Play Console exports are only complete once the month has closed. October 2026 shipped on 4 Nov, so the cycle can start on day 4 once Roland's SUMO report is in (it landed on the 2nd).
 `generate.py` verifies both months before analysis and invokes the fetcher when either required
 export is missing. If a monthly report is skipped, the next report still fetches that skipped
 month: improved / unchanged / decreased pairing requires Review Links from the prior export.
