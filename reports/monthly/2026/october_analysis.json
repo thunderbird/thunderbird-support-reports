@@ -1,0 +1,199 @@
+{
+  "tb_count": 444,
+  "k9_count": 86,
+  "total_count": 530,
+  "beta_count": 35,
+  "tb_avg_rating": 4.07,
+  "k9_avg_rating": 3.58,
+  "overall_avg_rating": 3.99,
+  "replies_to_low_star": 153,
+  "total_low_star": 142,
+  "unique_languages": 33,
+  "rating_dist_tb": {
+    "1": 46,
+    "2": 22,
+    "3": 37,
+    "4": 89,
+    "5": 250
+  },
+  "rating_dist_k9": {
+    "1": 16,
+    "2": 7,
+    "3": 14,
+    "4": 9,
+    "5": 40
+  },
+  "top_languages": [
+    [
+      "en",
+      165
+    ],
+    [
+      "de",
+      105
+    ],
+    [
+      "es",
+      44
+    ],
+    [
+      "fr",
+      34
+    ],
+    [
+      "ja",
+      25
+    ],
+    [
+      "it",
+      25
+    ],
+    [
+      "ru",
+      23
+    ],
+    [
+      "pt",
+      15
+    ],
+    [
+      "pl",
+      15
+    ],
+    [
+      "nl",
+      11
+    ]
+  ],
+  "friction": {
+    "Push / Notification Sync": {
+      "total": 29,
+      "negative": 17,
+      "avg_rating": 2.97,
+      "tb_count": 28,
+      "k9_count": 1
+    },
+    "Crashes & Freezes": {
+      "total": 10,
+      "negative": 6,
+      "avg_rating": 2.8,
+      "tb_count": 7,
+      "k9_count": 3
+    },
+    "Stuck Outbox / Send Failure": {
+      "total": 4,
+      "negative": 4,
+      "avg_rating": 2.0,
+      "tb_count": 3,
+      "k9_count": 1
+    },
+    "Spam Filter Absent": {
+      "total": 16,
+      "negative": 5,
+      "avg_rating": 3.69,
+      "tb_count": 12,
+      "k9_count": 4
+    },
+    "Calendar Missing": {
+      "total": 4,
+      "negative": 2,
+      "avg_rating": 3.5,
+      "tb_count": 4,
+      "k9_count": 0
+    },
+    "QR / Settings Import": {
+      "total": 6,
+      "negative": 3,
+      "avg_rating": 2.83,
+      "tb_count": 3,
+      "k9_count": 3
+    },
+    "Email Headers / Print": {
+      "total": 0,
+      "negative": 0,
+      "avg_rating": 0,
+      "tb_count": 0,
+      "k9_count": 0
+    }
+  },
+  "friction_detail": {
+    "Push / Notification Sync": {
+      "quote": "Reports delayed or missing notifications; sync often requires manual refresh.",
+      "devices": "p3s (1), pa1q (1), a32 (1)",
+      "languages": "English, Italian, Spanish"
+    },
+    "Crashes & Freezes": {
+      "quote": "Reports app crashes or freezes, especially on startup or when deleting mail.",
+      "devices": "venice (1), dm3q (1), j4primelte (1)",
+      "languages": "English, German"
+    },
+    "Stuck Outbox / Send Failure": {
+      "quote": "Reports outgoing mail stuck in outbox or send failures.",
+      "devices": "q7q (1), r13s (1), Samsung Galaxy S25 Ultra (1)",
+      "languages": "English"
+    },
+    "Spam Filter Absent": {
+      "quote": "Reports no way to mark mail as spam or junk.",
+      "devices": "Google Pixel 7 (1), OP5D3BL1 (1), Motorola Moto G52 (1)",
+      "languages": "English, German"
+    },
+    "Calendar Missing": {
+      "quote": "Reports missing calendar support or calendar sync issues.",
+      "devices": "blanc (1), garnet (1)",
+      "languages": "English, cs"
+    },
+    "QR / Settings Import": {
+      "quote": "Reports app crashes or freezes, especially on startup or when deleting mail.",
+      "devices": "spinel (1), xcoverpro2 (1), ASUS_I01WD (1)",
+      "languages": "English, German"
+    },
+    "Email Headers / Print": {
+      "quote": null,
+      "devices": null,
+      "languages": null
+    }
+  },
+  "wins": {
+    "UI / Design Praise": {
+      "total": 39,
+      "negative": 0,
+      "avg_rating": 4.54,
+      "tb_count": 33,
+      "k9_count": 6
+    },
+    "Speed / Performance": {
+      "total": 10,
+      "negative": 0,
+      "avg_rating": 4.6,
+      "tb_count": 9,
+      "k9_count": 1
+    },
+    "Privacy / Open Source": {
+      "total": 9,
+      "negative": 0,
+      "avg_rating": 4.78,
+      "tb_count": 8,
+      "k9_count": 1
+    },
+    "Setup / Ease of Use": {
+      "total": 1,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 0,
+      "k9_count": 1
+    },
+    "Reliability / Stability": {
+      "total": 4,
+      "negative": 0,
+      "avg_rating": 5.0,
+      "tb_count": 3,
+      "k9_count": 1
+    }
+  },
+  "rating_changes": {
+    "improved": 3,
+    "unchanged": 5,
+    "decreased": 1,
+    "matched": 9
+  }
+}
