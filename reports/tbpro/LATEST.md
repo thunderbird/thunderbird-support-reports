@@ -1,26 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 08:14 ET** · refreshes hourly_  
+_Updated: **2026-11-04 09:16 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 87** of rollout — **35,000 invitees**, **1047 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 87** of rollout — **35,000 invitees**, **1048 tickets** so far (3.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **7** solved in last 24h
-- **1047** tickets total since launch · contact rate **3%** of 35000 invitees
+- **20** new tickets in last 24h · **7** solved in last 24h
+- **1048** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (197 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 99
-- **Median AHT**: 146.1h · mean 169.3h (proxy: updated_at − created_at, 76 solved tickets)
+- **Median AHT**: 146.7h · mean 171.5h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"import contacts"** — 2 tickets in 24h (new; baseline 0 cum) — [#10754](https://tbpro.zendesk.com/agent/tickets/10754), [#10765](https://tbpro.zendesk.com/agent/tickets/10765)
+- **"custom domain"** — 4 tickets in 24h (3.2× baseline; baseline 109 cum) — [#10750](https://tbpro.zendesk.com/agent/tickets/10750), [#10752](https://tbpro.zendesk.com/agent/tickets/10752), [#10763](https://tbpro.zendesk.com/agent/tickets/10763), [#10787](https://tbpro.zendesk.com/agent/tickets/10787)
+- **"cancel refund"** — 2 tickets in 24h (10.1× baseline; baseline 17 cum) — [#10762](https://tbpro.zendesk.com/agent/tickets/10762), [#10786](https://tbpro.zendesk.com/agent/tickets/10786)
 
 ## Known problems — 14 problem(s), 131 incident(s)
 
@@ -277,10 +278,10 @@ Regards, [name]_
   > Can I get a refund for Thundermail purchase? It's not what I was hoping it would be.
 - [10762](https://tbpro.zendesk.com/agent/tickets/10762) · [open] · _Refund and Cancellation_
   > Hello, I would like to cancel and refund my subscription.
-- [10765](https://tbpro.zendesk.com/agent/tickets/10765) · [new] · _Can I import a CSV contacts file from my Eudora? If not, cancel my account now_
-  > Can I import a CSV contacts file from my Eudora? If not, cancel my account now
 - [10771](https://tbpro.zendesk.com/agent/tickets/10771) · [new] · _Please cancel_
   > This isn't what I thought it was. I thought it was a web-based version of Thunderbird, exactly as it is on my desktop. So sorry! Please refund. List-ID:f8051cc8637cf3ff79661f382mc list <[domain]>
+- [10786](https://tbpro.zendesk.com/agent/tickets/10786) · [new] · _Cancel Account_
+  > I've had "buyer's remorse" and would like to cancel for a refund. Possible?
 
 ## New ideas on FeatureOS
 
@@ -293,17 +294,17 @@ Regards, [name]_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 841
-- **solved**: 76
-- **pending**: 71
-- **open**: 29
+- **closed**: 842
+- **solved**: 75
+- **pending**: 70
+- **open**: 30
 - **hold**: 20
-- **new**: 10
+- **new**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 593
-- **Thundermail**: 360
+- **Thundermail**: 361
 - **Send**: 21
 - **Appointment**: 12
 
@@ -371,12 +372,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 6 tickets
 
+- **[#10786](https://tbpro.zendesk.com/agent/tickets/10786)** · Cancel Account
+  > I've had "buyer's remorse" and would like to cancel for a refund. Possible?
 - **[#10771](https://tbpro.zendesk.com/agent/tickets/10771)** · Please cancel
   > This isn't what I thought it was. I thought it was a web-based version of Thunderbird, exactly as it is on my desktop. So sorry! Please refund. List-ID:f8051cc8637cf3ff79661f382mc…
 - **[#10768](https://tbpro.zendesk.com/agent/tickets/10768)** · Is this a subscription-only service?
   > Does the offer/provision require a payment? Thanks
-- **[#10765](https://tbpro.zendesk.com/agent/tickets/10765)** · Can I import a CSV contacts file from my Eudora? If not, cancel my account now
-  > Can I import a CSV contacts file from my Eudora? If not, cancel my account now
 - **[#10762](https://tbpro.zendesk.com/agent/tickets/10762)** · Refund and Cancellation
   > Hello, I would like to cancel and refund my subscription.
 - **[#10758](https://tbpro.zendesk.com/agent/tickets/10758)** · Refund
@@ -392,6 +393,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi i made an account a month ago but i can't remember of the email was [email] or [email] . I can not log in for the moment. can you help me or can ik call to someone? thx Bjorn
 - **[#10766](https://tbpro.zendesk.com/agent/tickets/10766)** · I only want to keep this if I can import my Eudora addresses
   > You should have better help availability
+
+### Aliases — 2 tickets
+
+- **[#10787](https://tbpro.zendesk.com/agent/tickets/10787)** · Question about features
+  > Hi! I have a few questions: 1. Do you plan getting more domains, especially short ones like @[domain] (for paid plans)? 2. Do you have or plan to have a feature like Apple's…
+- **[#10750](https://tbpro.zendesk.com/agent/tickets/10750)** · Alias management
+  > Hi, I'm a new subscriber, and glad to be part of this new adventure of the Mozilla foundation. I hope this will be the beginning of a great collaboration and usage of your…
 
 ### Other / uncategorized — 2 tickets
 
@@ -429,11 +437,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10751](https://tbpro.zendesk.com/agent/tickets/10751)** · Payment email
   > Hello, I put my old email ([email]) and not my new email [email] when signing up for the subscription, i live in the UK. In the invoice it says i will be paying £55.00 a year when…
 
-### Aliases — 1 tickets
-
-- **[#10750](https://tbpro.zendesk.com/agent/tickets/10750)** · Alias management
-  > Hi, I'm a new subscriber, and glad to be part of this new adventure of the Mozilla foundation. I hope this will be the beginning of a great collaboration and usage of your…
-
 ## New tickets — last 24h
 
 - [10750](https://tbpro.zendesk.com/agent/tickets/10750) · [open] · 2026-11-03T21:24 · Alias management
@@ -447,7 +450,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10761](https://tbpro.zendesk.com/agent/tickets/10761) · [new] · 2026-11-04T01:40 · Password reset
 - [10762](https://tbpro.zendesk.com/agent/tickets/10762) · [open] · 2026-11-04T01:45 · Refund and Cancellation
 - [10763](https://tbpro.zendesk.com/agent/tickets/10763) · [open] · 2026-11-04T02:00 · Custom domain not configuring
-- [10765](https://tbpro.zendesk.com/agent/tickets/10765) · [new] · 2026-11-04T02:35 · Can I import a CSV contacts file from my Eudora? If not, cancel my account now
 - [10766](https://tbpro.zendesk.com/agent/tickets/10766) · [new] · 2026-11-04T02:37 · I only want to keep this if I can import my Eudora addresses
 - [10768](https://tbpro.zendesk.com/agent/tickets/10768) · [open] · 2026-11-04T03:07 · Is this a subscription-only service?
 - [10769](https://tbpro.zendesk.com/agent/tickets/10769) · [new] · 2026-11-04T06:48 · subscription not completed, not able to login
@@ -455,6 +457,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10772](https://tbpro.zendesk.com/agent/tickets/10772) · [new] · 2026-11-04T08:40 · account
 - [10778](https://tbpro.zendesk.com/agent/tickets/10778) · [new] · 2026-11-04T10:44 · Potential Keycloak security vulnerability
 - [10780](https://tbpro.zendesk.com/agent/tickets/10780) · [new] · 2026-11-04T11:13 · moving other email address in 
+- [10786](https://tbpro.zendesk.com/agent/tickets/10786) · [new] · 2026-11-04T13:46 · Cancel Account
+- [10787](https://tbpro.zendesk.com/agent/tickets/10787) · [new] · 2026-11-04T14:12 · Question about features
 
 ## Solved — last 24h
 
