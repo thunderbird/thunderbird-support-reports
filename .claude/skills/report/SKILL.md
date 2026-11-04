@@ -24,6 +24,41 @@ Update both `new_this_month` and `top_alltime` in `data/$month_$year.yaml`.
 - JSON key is `feature_requests`, not `posts`
 - Ideas can be removed from the board between sessions — verify all entries still exist
 
+**Quarterly ideas review** (when that month’s meeting has already happened — e.g. 23 Sep 2026
+for September): write outcomes into `tbpro_ideas.quarterly_review` in `data/$month_$year.yaml`
+**before** `generate.py`, using the same shape as `data/june_2026.yaml`. Do this in the same
+cycle as numbers (do not wait for Lisa to publish). `generate.py` renders the block in the
+Thundermail dashboard section. Also append the same moves under `status_moves_manual` so the
+snapshot diff picks them up (June did both).
+
+Shape (copy from June; every **discussed** idea, not only status changes — FeatureOS has no
+attendance log, so next quarter’s exclusion list is this YAML):
+
+```yaml
+tbpro_ideas:
+  quarterly_review:
+    date: "2026-09-23"          # meeting date
+    facilitator: "Lisa (LJ)"
+    footnote: "Public quarterly review; needs discussed and statuses updated per How We Handle Ideas."
+    moves:
+      - date: "2026-09-23"
+        status: "Exploring the Idea"   # FeatureOS status after the meeting
+        title: "Idea title"
+        votes: 121
+        url: "https://ideas.tb.pro/p/slug"
+        note: "quarterly review · from Open for discussion"  # public-facing; no internal Doc text
+```
+
+Include ideas that stayed *Open for discussion* if they were in the hour (status field = current
+status; `note` should say they were discussed). Public status notes belong on FeatureOS and in
+this short `note` — **not** a dump of Google Doc comments.
+
+**Do not mix:** the Commenter-only Google Doc (async employee comments on **needs**) stays
+internal, off GitHub, and is **not** copied into 📊 Support Monthly Reporting / the monthly
+Notion row. That Notion DB still gets the usual monthly report paste; quarterly outcomes reach
+it only as part of the generated September (or later quarter-month) report, not as a separate
+Doc import.
+
 **SUMO data** (Roland's reports):
 - Desktop: `https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/desktop/$year-$month_num-sumo-desktop-report.html`
 - Android: `https://thunderbird.github.io/thunderbird-metrics-and-reports/html_reports/android/$year-$month_num-sumo-android-report.html`
@@ -97,14 +132,14 @@ zendesk:
   tbpro_csat_note: null  # or a short low-sample / product-policy note
 narrative:
   dashboard_headline: "Short, specific newsletter headline."
-  lede: "Two or three sentences for the report and newsletter."
+  lede: |
+    One headline sentence.
+    - One scannable line with the numbers.
+    - Another scannable line.
   masthead_highlights:
     - "One scannable monthly signal."
-  esr_framing:
-    headline: "How donor demand and desktop release signals relate."
-    donor_context: "Explain donor-brand volume without calling it ESR-topic volume."
-    bullets: ["ESR summary signal."]
-    scope_notes: ["What these numbers do and do not measure."]
+  donor_context: "Donor CSAT on N ratings (Good/Bad) plus a factual read. Ticket volume is never the CSAT denominator."
+  asks: []  # optional; empty omits "What we are asking for"
   overlap_notes:
     intro: "How to compare the three Thunderbird for Android channels."
     rows:
@@ -200,6 +235,8 @@ Open `reports/monthly/$year/$month.html` and check:
   labeled “among PostHog-visible users”
 - Product-surface counts are not summed; unavailable Webmail telemetry renders
   as unavailable, not zero
+- If this month has `tbpro_ideas.quarterly_review`, Thundermail shows that block
+  (discussed needs / status groups / public footnote) — never Google Doc comments
 
 ---
 

@@ -285,7 +285,7 @@ def deep_analyze_themes(all_rows, themes):
 # ── Mozilla Connect Android ideas ────────────────────────────────────────────
 
 def fetch_connect_android_ideas():
-    """Scrape top Thunderbird Android ideas from Mozilla Connect (sorted by kudos)."""
+    """Scrape top Thunderbird for Android ideas from Mozilla Connect (sorted by kudos)."""
     import re as _re
     url = ('https://connect.mozilla.org/t5/ideas/idb-p/ideas/'
            'label-name/thunderbird%20android/tab/most-kudoed')
@@ -464,6 +464,18 @@ def idea_status_html(status):
     cls = idea_status_class(status)
     return f'<span class="{cls}">{_esc(status)}</span>'
 
+# Display-only titles for FeatureOS ideas whose raw title reads badly. Keyed by URL slug.
+IDEA_TITLE_OVERRIDES = {
+    'https-ideas-tb-pro-add-sso-with-our-thundermail-com-account':
+        'SSO for Ideas board with Thundermail account',
+}
+
+
+def _display_idea_title(m):
+    slug = str(m.get('url') or '').rstrip('/').rsplit('/', 1)[-1]
+    return IDEA_TITLE_OVERRIDES.get(slug, m.get('title') or '')
+
+
 def build_status_moves_html(status_moves_block, month_cap):
     """Thundermail status moves — YAML manual, auto snapshot diff, or both."""
     if not status_moves_block or not status_moves_block.get('moves'):
@@ -476,7 +488,7 @@ def build_status_moves_html(status_moves_block, month_cap):
         rows.append(
             f'<li><span class="tbl-muted" style="font-variant-numeric:tabular-nums">{_esc(m.get("date", ""))}</span>'
             f' · {status_span} · <a href="{_esc(m["url"])}" target="_blank" style="color:var(--text)">'
-            f'{_esc(m["title"])}</a> · <strong>{m.get("votes", "")}</strong> votes{note}</li>'
+            f'{_esc(_display_idea_title(m))}</a> · <strong>{m.get("votes", "")}</strong> votes{note}</li>'
         )
     # FeatureOS has no status-change audit log. Keep that note in code only; do not print it.
     return f'''
@@ -1038,7 +1050,8 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
     k9_change_str = f"+{k9_rating_change}" if k9_rating_change >= 0 else str(k9_rating_change)
 
     lede = lede_markdown(narrative.get('lede')) or f"[Draft lede for {month_cap} {year} — fill in after analysis is complete.]"
-    experiments = narrative.get('whats_coming_up') or narrative.get('experiments') or "[What's coming up — fill in manually.]"
+    experiments = (narrative.get('whats_coming_up') or narrative.get('experiments') or '').strip()
+    coming_section = f"\n## What's Coming Up\n\n{experiments}\n" if experiments else ""
     tm_load = config.get('thundermail_load') or {}
     tm_load_md = ""
     if tm_load:
@@ -1076,6 +1089,26 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
                 "one person on two addresses counts as two. We hope to join these in 2027.\n"
             )
 
+    _desktop_notes = narrative.get("roland_desktop") or []
+    if not isinstance(_desktop_notes, list):
+        _desktop_notes = []
+
+    def _note_md(items, indent=""):
+        lines = []
+        for item in items:
+            if isinstance(item, dict):
+                text = str(item.get("text") or "").strip()
+                if text:
+                    lines.append(f"{indent}- {text}\n")
+                lines.append(_note_md(item.get("children") or [], indent + "  "))
+            else:
+                text = str(item).strip()
+                if text and text not in ("—", "-"):
+                    lines.append(f"{indent}- {text}\n")
+        return "".join(lines)
+
+    desktop_notes_md = _note_md(_desktop_notes[1:])
+
     report_url = monthly_pages_url(year, f"{month_cap.lower()}.html")
     csv_url    = monthly_blob_url(year, f"{month_cap.lower()}.csv")
 
@@ -1098,7 +1131,7 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
 
 ### Desktop Forum
 - **Overall solved rate:** {d_solved or 'N/A'}% ({d_mom} pts MoM) · {d_real if d_sumo.get('spam') else d_total} questions · {(' '.join(narrative.get('sumo_desktop_signal')) if isinstance(narrative.get('sumo_desktop_signal'), list) else narrative.get('sumo_desktop_signal')) or '[Key signal from Roland\'s data]'}
-
+{desktop_notes_md}
 ### Android Forum
 - **Overall solved rate:** {a_solved or 'N/A'}% ({a_mom} pts MoM) · {a_sumo.get('total_questions', '—')} questions · {(' '.join(narrative.get('sumo_android_signal')) if isinstance(narrative.get('sumo_android_signal'), list) else narrative.get('sumo_android_signal')) or '[Key signal]'}
 
@@ -1115,10 +1148,7 @@ def build_report(config, analysis, month_cap, year, prev_idea_snapshot=None):
 {narrative.get('goal_bullets') or "- [Priority 1]: [stat] · [trend] · [why it matters]\n- [Priority 2]: [stat] · [trend] · [why it matters]\n- [Priority 3]: [stat] · [trend] · [why it matters]"}
 
 ---
-## What's Coming Up
-
-{experiments}
-
+{coming_section}
 ---
 ## Data Access
 Dashboard: [{month_cap.lower()}.html]({report_url})
@@ -1137,6 +1167,10 @@ Raw data (CSV): [{month_cap.lower()}.csv]({csv_url})
 **Overall solved rate (SUMO)** — percentage of questions that received any answer, including from the question creator, trusted contributors, and general members.
 
 **Trusted contributor %** — share of answered questions where the last (or only) answer came from a trusted contributor.
+
+**CSAT** — share of rated tickets marked Good. Measured on tickets solved in the previous month (October for this report), not tickets created. After a ticket is solved, the customer answers "Did you get the help you needed?" with Good or Bad. A follow-up asks, "Please tell us more about your support experience." Comments are optional. CSAT = Good ÷ (Good + Bad). Donor 13 Good ÷ 17 ratings = 76.5%.
+
+**CSAT response rate** — ratings received ÷ solved tickets surveyed. Low response rates mean a few ratings carry the whole percentage.
 
 **Thundermail contact rate** — unique Zendesk requesters divided by unique people (`uniq(person_id)`, never Total count of events) on PostHog `accounts.activity` in the calendar month. That denominator is PostHog-visible users, not all subscribers, not the mail series, and not Stalwart-only IMAP users who never hit PostHog. Mail people are unique people who fired ham ingest, spam ingest, or outbound sent. Surfaces overlap and are never summed.
 
@@ -2270,6 +2304,17 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     def scan(items):
         return '<ul class="scan-list">' + "".join(f"<li>{item}</li>" for item in items if item) + "</ul>"
 
+    def with_links(value):
+        """Escape text, then turn [label](https://...) into a link. https only."""
+        escaped = safe(value)
+        return re.sub(
+            r"\[([^\]\n]+)\]\((https://[^)\s]+)\)",
+            lambda match: (
+                f'<a href="{match.group(2)}" target="_blank" rel="noopener">{match.group(1)}</a>'
+            ),
+            escaped,
+        )
+
     def safe_scan(items):
         return scan([safe(item) for item in (items or [])])
 
@@ -2327,6 +2372,8 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     top_friction = friction_ranked[0] if friction_ranked else ("No measured theme", {"negative": 0})
     second_friction = friction_ranked[1] if len(friction_ranked) > 1 else top_friction
     tb_gap = max(0, round(4 - analysis["tb_avg_rating"], 2))
+    at_goal = analysis["tb_avg_rating"] >= 4
+    tb_goal_label = "at the 4★ goal" if at_goal else f"{tb_gap:.2f}★ to goal"
     tb_delta = analysis["tb_avg_rating"] - (p.get("tb_avg_rating") or analysis["tb_avg_rating"])
     k9_delta = analysis["k9_avg_rating"] - (p.get("k9_avg_rating") or analysis["k9_avg_rating"])
 
@@ -2344,10 +2391,10 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     shipped = (ideas.get("landed") or [])[:3]
     inflight = (ideas.get("in_flight") or [])[:3]
     shipped_body = '<div class="two-col"><div class="panel"><div class="panel__title">Landed</div>' + scan([
-        f'<a href="{safe(i.get("url"))}" target="_blank">{safe(i.get("title"))}</a> · {i.get("votes", 0)} votes'
+        f'<a href="{safe(i.get("url"))}" target="_blank">{safe(_display_idea_title(i))}</a> · {i.get("votes", 0)} votes'
         for i in shipped
     ]) + '</div><div class="panel"><div class="panel__title">In flight</div>' + scan([
-        f'<a href="{safe(i.get("url"))}" target="_blank">{safe(i.get("title"))}</a> · {i.get("votes", 0)} votes'
+        f'<a href="{safe(i.get("url"))}" target="_blank">{safe(_display_idea_title(i))}</a> · {i.get("votes", 0)} votes'
         for i in inflight
     ]) + "</div></div>"
 
@@ -2432,7 +2479,6 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     if status_moves_html:
         thundermail_body += drill(
             "tm-status-moves", "Status moves this month", status_moves_html,
-            "snapshot diff + quarterly",
         )
     thundermail_body += drill(
         "tm-new", "New ideas this month", f'<div class="ideas">{new_idea_chips}</div>',
@@ -2520,12 +2566,28 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
         f'{rating_changes.get("decreased", 0)}↓'
     )
     android_body = cards([
-        ("TB Avg Rating", f'{analysis["tb_avg_rating"]:.2f}★', f"{tb_delta:+.2f} · {tb_gap:.2f}★ to goal", ""),
+        ("TB Avg Rating", f'{analysis["tb_avg_rating"]:.2f}★',
+         (f"{tb_delta:+.2f} · ★ first month at the 4★ goal" if at_goal else f"{tb_delta:+.2f} · {tb_goal_label}"),
+         "up" if at_goal else ""),
         ("K-9 Avg Rating", f'{analysis["k9_avg_rating"]:.2f}★', f"{k9_delta:+.2f}", ""),
         ("Combined", f'{analysis["overall_avg_rating"]:.2f}★', f'{analysis["total_count"]} reviews', ""),
         ("Rating changes", rating_change_value, f'{rating_changes.get("matched", 0)} matched Review Links', ""),
         ("Review tickets", analysis["replies_to_low_star"], f'down/up from {safe(p.get("replies_to_low_star"))}', ""),
     ])
+    play_shots = []
+    for fig in config.get("play_listing_figures") or []:
+        src = str((fig or {}).get("src") or "").strip()
+        if not re.fullmatch(r"[A-Za-z0-9._-]+\.(png|webp|jpe?g)", src):
+            continue
+        caption = safe(fig.get("caption") or "Play Store")
+        alt = safe(fig.get("alt") or fig.get("caption") or "Play Store")
+        play_shots.append(
+            f'<figure class="figure play-shot"><div class="figure__frame">'
+            f'<img src="{src}" alt="{alt}"></div>'
+            f'<figcaption class="figure__caption">{caption}. Thunderbird for Android only.</figcaption></figure>'
+        )
+    if play_shots:
+        android_body += f'<div class="two-col play-shots">{"".join(play_shots)}</div>'
     android_body += '<div class="two-col"><figure class="figure"><div class="figure__frame"><div class="chart-wrap"><canvas id="tbStarChart"></canvas></div></div><figcaption class="figure__caption">Thunderbird star distribution.</figcaption></figure><figure class="figure"><div class="figure__frame"><div class="chart-wrap"><canvas id="k9StarChart"></canvas></div></div><figcaption class="figure__caption">K-9 star distribution.</figcaption></figure></div>'
     android_body += drill("android-friction", "Top friction points · ranked by negative mentions", '<div class="friction">' + "".join(friction_rows) + "</div>", "5 themes", True)
     if methodology_notes:
@@ -2544,13 +2606,30 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
         safe(github_alignment.get("headline") or f"Engineering priority alignment · feedback vs {month_cap} GitHub work"),
         github_body, work_summary, True, "eng-priority-alignment",
     )
-    android_body += drill(
-        "android-goal", "Meeting the ⭐⭐⭐⭐+ goal",
-        scan([
+    if at_goal:
+        prev_tb = p.get("tb_avg_rating")
+        from_goal = f"Up from {prev_tb:.2f}★. " if isinstance(prev_tb, (int, float)) else ""
+        milestone_line = str(narrative.get("play_milestone") or "").strip()
+        goal_scan = scan([
+            (
+                f"<strong>Thunderbird for Android {analysis['tb_avg_rating']:.2f}★:</strong> "
+                f"{safe(milestone_line) if milestone_line else 'At the 4★ goal.'} "
+                f"{from_goal}{analysis['rating_dist_tb'].get('5', 0)} of {analysis['tb_count']} reviews are 5★."
+            ),
+            f"<strong>{safe(top_friction[0])}:</strong> {top_friction[1]['negative']} negative mentions. Later lever.",
+            f"<strong>{safe(second_friction[0])}:</strong> {second_friction[1]['negative']} negative mentions. Later lever.",
+        ])
+        goal_hint = "Thunderbird for Android"
+    else:
+        goal_scan = scan([
             f'<strong>{safe(top_friction[0])}:</strong> {top_friction[1]["negative"]} negative mentions; first product lever.',
             f'<strong>{safe(second_friction[0])}:</strong> {second_friction[1]["negative"]} negative mentions; second product lever.',
             f"<strong>Rating gap:</strong> Thunderbird needs +{tb_gap:.2f}★ to reach 4★.",
-        ]), f"{tb_gap:.2f}★ gap", True,
+        ])
+        goal_hint = f"{tb_gap:.2f}★ gap"
+    android_body += drill(
+        "android-goal", "Meeting the ⭐⭐⭐⭐+ goal",
+        goal_scan, goal_hint, True,
     )
 
     d_questions = d_sumo.get("total_questions")
@@ -2589,7 +2668,26 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             lines += [str(item).strip() for item in items if str(item).strip() not in ("", "—", "-")]
         return lines
 
-    desktop_lines = narrative_lines(narrative.get("roland_desktop") or narrative.get("sumo_desktop_signal"))
+    desktop_source = narrative.get("roland_desktop") or narrative.get("sumo_desktop_signal") or []
+    if isinstance(desktop_source, str):
+        desktop_source = [desktop_source]
+    elif not isinstance(desktop_source, list):
+        desktop_source = []
+
+    def scan_rich(items):
+        parts = []
+        for item in items:
+            if isinstance(item, dict):
+                text = str(item.get("text") or "").strip()
+                nested = scan_rich(item.get("children") or [])
+                body = with_links(text) if text else ""
+                if body or nested:
+                    parts.append(f"<li>{body}{nested}</li>")
+            else:
+                text = str(item).strip()
+                if text and text not in ("—", "-"):
+                    parts.append(f"<li>{with_links(text)}</li>")
+        return '<ul class="scan-list">' + "".join(parts) + "</ul>" if parts else ""
     android_lines = narrative_lines(narrative.get("sumo_android_signal") or narrative.get("roland_android"))
     if d_priorities:
         desktop_body += drill("desktop-signals", f"{month_cap} engineering signals", roland_table(d_priorities, [("cluster", "Signal", False), ("aug", "Questions", True), ("resolved_pct", "Resolved", True), ("known_status", "Read", False)]), f"{len(d_priorities)} clusters", True)
@@ -2627,6 +2725,50 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     lede_headline, _lede_lines = lede_parts(lede_raw)
     headline = narrative.get("dashboard_headline") or (lede_headline.split(". ")[0].rstrip(".") if lede_headline else "")
     lede_block = lede_html(lede_raw)
+    def milestone_hero():
+        """Party-hat hero only when this month's Thunderbird CSV average is at the 4★ goal."""
+        line = str(narrative.get("play_milestone") or "").strip()
+        if analysis["tb_avg_rating"] < 4 or not line:
+            return f'<h1 class="masthead__headline">{safe(headline)}</h1>'
+        prev_tb = p.get("tb_avg_rating")
+        from_bit = f"From {prev_tb:.2f}★. " if isinstance(prev_tb, (int, float)) else ""
+        fives = analysis["rating_dist_tb"].get("5", 0)
+        def star(left, top, size, delay):
+            return (
+                f'<svg class="milestone__bit milestone__bit--star" style="left:{left};top:{top};animation-delay:{delay}" '
+                f'viewBox="0 0 24 24" width="{size}" height="{size}" aria-hidden="true">'
+                f'<path fill="currentColor" d="M12 1.6 14.7 8l6.7.5-5.1 4.2 1.7 6.6L12 15.8 6 19.3l1.7-6.6L2.6 8.5 9.3 8z"/>'
+                f'</svg>'
+            )
+        def hat(left, top, size, delay, fill):
+            return (
+                f'<svg class="milestone__bit milestone__bit--hat" style="left:{left};top:{top};animation-delay:{delay}" '
+                f'viewBox="0 0 32 32" width="{size}" height="{size}" aria-hidden="true">'
+                f'<path fill="{fill}" d="M16 2 29 26H3Z"/>'
+                f'<ellipse cx="16" cy="26" rx="14" ry="3.2" fill="#6d8bff"/>'
+                f'<circle cx="16" cy="3.2" r="2.2" fill="#e8e6f2"/>'
+                f'</svg>'
+            )
+        sky = "".join([
+            star("4%", "6px", 18, "0s"),
+            star("22%", "0", 12, ".12s"),
+            star("78%", "4px", 16, ".22s"),
+            star("90%", "28px", 11, ".34s"),
+            star("62%", "0", 14, ".08s"),
+            hat("70%", "18px", 28, ".18s", "#ff8a3d"),
+            hat("38%", "2px", 22, ".28s", "#34d27b"),
+            hat("86%", "8px", 24, ".4s", "#b794ff"),
+        ])
+        return (
+            f'<div class="milestone">'
+            f'<div class="milestone__sky" aria-hidden="true">{sky}</div>'
+            f'<p class="milestone__kicker">Annual goal · Thunderbird for Android · 4.0★</p>'
+            f'<h1 class="milestone__score">{analysis["tb_avg_rating"]:.2f}★</h1>'
+            f'<p class="milestone__line">{safe(line)}</p>'
+            f'<p class="milestone__sub">{from_bit}{fives} of {analysis["tb_count"]} reviews are 5★.</p>'
+            f'</div>'
+        )
+    hero_html = milestone_hero()
     masthead_highlights = safe_scan(narrative.get("masthead_highlights")) if narrative.get("masthead_highlights") else scan([
         f'<strong>Overall CSAT:</strong> {safe(p.get("overall_csat"))}% → {safe(z.get("overall_csat"))}%',
         f'<strong>Donor:</strong> {safe(p.get("donor_tickets"))} → {safe(z.get("donor_tickets"))} tickets',
@@ -2638,7 +2780,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     dist_tb = [analysis["rating_dist_tb"].get(str(i), 0) for i in range(1, 6)]
     dist_k9 = [analysis["rating_dist_k9"].get(str(i), 0) for i in range(1, 6)]
     sections = [
-        chapter(1, "donor", "Donor Care", "Donation demand and satisfaction", scan([
+        chapter(1, "donor", "Donor Support", "Donor support and satisfaction", scan([
             f'{safe(z.get("donor_tickets"))} tickets ({pct_delta(z.get("donor_tickets"), p.get("donor_tickets"))} MoM)',
             f'{safe(z.get("donor_csat"))}% CSAT ({pts_delta(z.get("donor_csat"), p.get("donor_csat"))})',
         ]), cards([
@@ -2653,11 +2795,14 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
             f'{len(ideas.get("new_this_month", []))} new FeatureOS ideas',
         ]), thundermail_body),
         chapter(3, "android", "Android Reviews", "The rating", scan([
-            f'Thunderbird {analysis["tb_avg_rating"]:.2f}★ ({tb_delta:+.2f}); K-9 {analysis["k9_avg_rating"]:.2f}★ ({k9_delta:+.2f})',
+            (f'Thunderbird {analysis["tb_avg_rating"]:.2f}★ ({tb_delta:+.2f}), the first month at the 4★ goal.'
+             if at_goal else f'Thunderbird {analysis["tb_avg_rating"]:.2f}★ ({tb_delta:+.2f}).'),
+            *[safe(line) for line in (narrative.get("android_context") or []) if str(line).strip()],
+            f'K-9 {analysis["k9_avg_rating"]:.2f}★ ({k9_delta:+.2f}).',
             f'{safe(top_friction[0])} leads with {top_friction[1]["negative"]} negative mentions',
             f'<a href="#overlap">Cross-channel overlap →</a>',
         ]), android_body),
-        chapter(4, "sumo-desktop", "Desktop Forum · SUMO", "Desktop engineering signals", safe_scan(desktop_lines), desktop_body),
+        chapter(4, "sumo-desktop", "Desktop Forum · SUMO", "Desktop engineering signals", scan_rich(desktop_source), desktop_body),
         chapter(5, "sumo-android", "Android Forum · SUMO", "Small samples need explicit caveats", safe_scan(android_lines), android_forum_body),
         chapter(6, "k9-forum", "K-9 Forum · Discourse · TfA codebase", "A third entry point to Android support demand", scan([
             f'{(k9_discourse or {}).get("total_topics", "—")} new topics',
@@ -2689,8 +2834,9 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
                 if heading in icons:
                     heading = f"{icons[heading]} {heading}"
                 heading = heading or "Section"
-                items = "".join(f"<li>{safe(item)}</li>" for item in bullets)
-                blocks.append(f'<h3>{safe(heading)}</h3><ul class="scan-list">{items}</ul>')
+                items = "".join(f"<li>{android_issue_links(item)}</li>" for item in bullets)
+                slug = re.sub(r"[^a-z]", "", heading.lower())
+                blocks.append(f'<h3 id="{slug}">{safe(heading)}</h3><ul class="scan-list">{items}</ul>')
             title, bullets = None, []
         for line in str(raw or "").splitlines():
             text = line.strip()
@@ -2716,24 +2862,79 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* CSS REGION: tokens — Bolt-aligned dark palette */
-:root{{--color-surface-base:#0d0c14;--color-surface-lower:#08070f;--color-surface-raised:#15131e;--color-surface-border:#2b2845;--color-text-base:#e8e6f2;--color-text-secondary:#b8b5ca;--color-text-muted:#8a87a6;--color-primary:#6d8bff;--color-success:#34d27b;--color-critical:#ff5a5a;--c-donor:#55c98a;--c-thundermail:#8f7cff;--c-android:#ff8a3d;--c-sumo-desktop:#4fc3f7;--c-sumo-android:#31d2b3;--c-k9-forum:#b794ff;--c-rrr:#f3c969;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--radius-sm:6px;--radius-md:10px;--font-sans:'Inter',sans-serif;--font-mono:'SFMono-Regular',Consolas,monospace}}
+:root,[data-theme="dark"]{{--color-surface-base:#0d0c14;--color-surface-lower:#08070f;--color-surface-raised:#15131e;--color-surface-border:#2b2845;--color-text-base:#e8e6f2;--color-text-secondary:#b8b5ca;--color-text-muted:#8a87a6;--color-primary:#6d8bff;--color-success:#34d27b;--color-critical:#ff5a5a;--c-donor:#55c98a;--c-thundermail:#8f7cff;--c-android:#ff8a3d;--c-sumo-desktop:#4fc3f7;--c-sumo-android:#31d2b3;--c-k9-forum:#b794ff;--c-rrr:#f3c969;--space-8:8px;--space-12:12px;--space-16:16px;--space-24:24px;--space-32:32px;--space-48:48px;--radius-sm:6px;--radius-md:10px;--font-sans:'Inter',sans-serif;--font-mono:'SFMono-Regular',Consolas,monospace}}
+[data-theme="light"]{{--color-surface-base:#f6f5fb;--color-surface-lower:#ffffff;--color-surface-raised:#ffffff;--color-surface-border:#dcd9ea;--color-text-base:#1c1a27;--color-text-secondary:#4a4760;--color-text-muted:#6b6880;--color-primary:#3358d4;--color-success:#157a3e;--color-critical:#c81e1e;--c-donor:#2f9e66;--c-thundermail:#6a55d9;--c-android:#d9641b;--c-sumo-desktop:#1f83b8;--c-sumo-android:#1c9c86;--c-k9-forum:#8a5cd6;--c-rrr:#b07d1a}}
+.theme-toggle{{display:flex;align-items:center;justify-content:center;margin:0 0 16px;width:36px;height:36px;padding:0;border:1px solid var(--color-surface-border);background:var(--color-surface-raised);color:var(--color-text-secondary);border-radius:8px;cursor:pointer}}.theme-toggle svg{{display:block}}.topbar .theme-toggle{{margin:0 0 0 8px}}.sidebar__foot{{margin-top:auto;padding:16px 10px 0}}.sidebar .theme-toggle{{margin:0}}
 *{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:var(--color-surface-base);color:var(--color-text-base);font:14px/1.55 var(--font-sans)}}a{{color:var(--color-primary);text-decoration:none}}a:hover{{text-decoration:underline}}button{{font:inherit}}.wrap{{width:min(1180px,calc(100% - 32px));margin:auto}}.muted,.tbl-muted,.footnote,.tbl-sub{{color:var(--color-text-muted)}}.num{{text-align:right;font-variant-numeric:tabular-nums}}.tbl-strong{{font-weight:700}}
 /* CSS REGION: layout */
 .topbar{{position:sticky;top:0;z-index:20;background:var(--color-surface-lower);border-bottom:1px solid var(--color-surface-border)}}.topbar__inner{{width:min(1180px,calc(100% - 32px));margin:auto;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px}}.topbar__brand{{font-weight:700;color:var(--color-text-base)}}.topbar__nav,.nav-group{{display:flex;align-items:center;gap:5px;overflow:auto}}.topbar__nav a{{color:var(--color-text-muted);font-size:.75rem;padding:7px;white-space:nowrap}}.topbar__nav a.is-active{{color:var(--color-text-base);background:var(--color-surface-raised)}}.nav-group{{border:1px solid var(--c-android);border-radius:99px;padding:2px 5px}}.nav-group__lbl,.filter-group__lbl{{font-size:.62rem;font-weight:700;text-transform:uppercase;color:var(--c-android);white-space:nowrap}}.dot{{width:7px;height:7px;display:inline-block;border-radius:50%;margin-right:5px}}
-.masthead{{padding:var(--space-48) 0 var(--space-32);border-bottom:1px solid var(--color-surface-border)}}.nameplate{{display:flex;justify-content:space-between;border-bottom:1px solid var(--color-surface-border);padding-bottom:24px}}.nameplate__title,.eyebrow,.chapter__kicker,.takeaway__label,.panel__title{{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}}.nameplate__issue{{font: .72rem var(--font-mono);color:var(--color-text-muted);text-align:right}}.masthead__quarter,.panel,.takeaway,.alert-panel,.method-panel,.figure__frame{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}.masthead__quarter{{margin:24px 0}}.eyebrow{{color:var(--color-primary)}}.masthead__headline{{font-size:clamp(2rem,5vw,4.15rem);line-height:1.02;letter-spacing:-.045em;max-width:980px}}.scan-list{{margin:0;padding-left:1.15rem;display:grid;gap:8px}}.ribbon{{background:var(--color-surface-lower);padding:24px 0}}.ribbon__grid,.stat-grid{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}.figure-stat,.stat-card{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-top:3px solid var(--chapter-color,var(--color-primary));border-radius:var(--radius-md);padding:16px}}.figure-stat__val,.stat-card__val{{font-size:1.7rem;font-weight:700}}.figure-stat__lbl,.stat-card__lbl,.figure-stat__delta,.stat-card__delta{{font-size:.7rem;color:var(--color-text-muted)}}.stat-card__sub{{font-size:.72rem;color:var(--color-text-muted);margin-top:var(--space-8)}}.stat-grid--3{{grid-template-columns:repeat(3,minmax(0,1fr))}}.lead{{padding:32px 0}}.lead__grid,.two-col{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart-wrap{{height:260px}}
+.masthead{{padding:var(--space-48) 0 var(--space-32);border-bottom:1px solid var(--color-surface-border)}}.nameplate{{display:flex;justify-content:space-between;border-bottom:1px solid var(--color-surface-border);padding-bottom:24px}}.nameplate__title,.eyebrow,.chapter__kicker,.takeaway__label,.panel__title{{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}}.nameplate__issue{{font: .72rem var(--font-mono);color:var(--color-text-muted);text-align:right}}.masthead__quarter,.panel,.takeaway,.alert-panel,.method-panel,.figure__frame{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-radius:var(--radius-md);padding:var(--space-16)}}.masthead__quarter{{margin:24px 0}}.eyebrow{{color:var(--color-primary)}}.masthead__headline{{font-size:clamp(2rem,5vw,4.15rem);line-height:1.02;letter-spacing:-.045em;max-width:980px}}.scan-list{{margin:0;padding-left:1.15rem;display:grid;gap:8px}}.scan-list .scan-list{{margin-top:8px}}.ribbon{{background:var(--color-surface-lower);padding:24px 0}}.ribbon__grid,.stat-grid{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}.figure-stat,.stat-card{{background:var(--color-surface-raised);border:1px solid var(--color-surface-border);border-top:3px solid var(--chapter-color,var(--color-primary));border-radius:var(--radius-md);padding:16px}}.figure-stat__val,.stat-card__val{{font-size:1.7rem;font-weight:700}}.figure-stat__lbl,.stat-card__lbl,.figure-stat__delta,.stat-card__delta{{font-size:.7rem;color:var(--color-text-muted)}}.stat-card__sub{{font-size:.72rem;color:var(--color-text-muted);margin-top:var(--space-8)}}.stat-grid--3{{grid-template-columns:repeat(3,minmax(0,1fr))}}.lead{{padding:32px 0}}.lead__grid,.two-col{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart-wrap{{height:260px}}
 .filterbar{{position:sticky;top:52px;z-index:15;display:flex;align-items:center;gap:8px;overflow:auto;padding:12px 0;background:var(--color-surface-base);border-bottom:1px solid var(--color-surface-border)}}.filter-btn{{border:1px solid var(--color-surface-border);background:var(--color-surface-raised);color:var(--color-text-secondary);border-radius:99px;padding:6px 10px;white-space:nowrap;cursor:pointer}}.filter-btn.is-active{{border-color:var(--color-primary);color:var(--color-text-base)}}.filter-group{{display:flex;align-items:center;gap:8px;border:1px dashed var(--c-android);border-radius:99px;padding:4px 8px}}.drill-toggle{{margin-left:auto}}.chapter{{padding:48px 0;border-bottom:1px solid var(--color-surface-border);scroll-margin-top:112px}}.chapter__head{{display:grid;grid-template-columns:56px 1fr;gap:16px;margin-bottom:24px}}.chapter__num{{font-family:var(--font-mono);color:var(--chapter-color)}}.chapter__kicker{{color:var(--chapter-color)}}.chapter__title{{font-size:clamp(1.55rem,3vw,2.5rem);line-height:1.1;margin:8px 0}}.chapter__standfirst{{color:var(--color-text-secondary);max-width:900px}}.panel{{overflow:auto}}table{{width:100%;border-collapse:collapse;font-size:.82rem}}th{{text-align:left;color:var(--color-text-muted);font-size:.67rem;text-transform:uppercase;padding:9px 10px;border-bottom:1px solid var(--color-surface-border);white-space:nowrap}}td{{padding:10px;border-bottom:1px solid var(--color-surface-border);vertical-align:top}}th.num,td.num{{width:1%;white-space:nowrap}}td.tbl-label,.overlap-table td,.overlap-table th{{white-space:normal;overflow:visible;height:auto;vertical-align:top}}.overlap-table{{table-layout:auto;height:auto;width:100%}}.overlap-table tr{{height:auto}}.overlap-table td:first-child{{min-width:12rem}}.ideas{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}}.idea-chip{{display:grid;grid-template-columns:auto 1fr;gap:2px 9px;padding:12px;border:1px solid var(--color-surface-border);border-radius:6px}}.idea-chip__votes{{grid-row:1/3;color:var(--c-thundermail);font-family:var(--font-mono);font-weight:700}}.idea-chip__tag{{font-size:.67rem;color:var(--color-text-muted)}}
 .friction{{display:grid;gap:8px}}.friction-item{{display:grid;grid-template-columns:38px 1fr 72px;gap:12px;align-items:center;padding:16px;border:1px solid var(--color-surface-border);border-radius:10px;background:var(--color-surface-raised)}}.friction-item--lead{{border-color:var(--color-critical)}}.friction-item__meta{{display:flex;flex-wrap:wrap;gap:4px 15px;font-size:.75rem;color:var(--color-text-secondary)}}.friction-item__neg{{font-size:1.65rem;font-weight:700;text-align:right}}.friction-item__neg-lbl{{text-align:right;font-size:.65rem;color:var(--color-text-muted)}}.takeaway,.alert-panel,.method-panel{{border-left:3px solid var(--chapter-color,var(--color-primary));margin-top:16px}}.narrative-pre{{white-space:pre-wrap;font:inherit;color:var(--color-text-secondary)}}
 /* CSS REGION: accordions */
 .drill{{margin:32px 0 12px;border:1px solid var(--color-surface-border);border-radius:10px;background:var(--color-surface-lower);scroll-margin-top:112px}}.drill>summary{{cursor:pointer;padding:12px 16px;color:var(--chapter-color,var(--color-primary));font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;list-style:none}}.drill>summary::before{{content:"▸";display:inline-block;width:1.1em}}.drill[open]>summary::before{{content:"▾"}}.drill__hint{{margin-left:8px;font-weight:500;text-transform:none;letter-spacing:0;color:var(--color-text-muted)}}.drill__body{{padding:0 16px 16px}}.colophon{{padding:32px 0 64px}}
+/* CSS REGION: sidebar nav */
+.sidebar{{display:flex;flex-direction:column;position:fixed;top:0;left:0;bottom:0;width:220px;padding:20px 16px;background:var(--color-surface-lower);border-right:1px solid var(--color-surface-border);overflow:auto;scrollbar-width:none;z-index:30}}.sidebar::-webkit-scrollbar{{display:none}}
+.sidebar__brand{{display:block;font-weight:700;color:var(--color-text-base);margin-bottom:4px}}
+.sidebar__meta{{font:.72rem var(--font-mono);color:var(--color-text-muted);margin-bottom:12px;padding:0 10px}}.sidebar__foot{{margin-top:auto;padding:16px 10px 0}}.sidebar .theme-toggle{{margin:0}}
+.sidebar a{{display:flex;align-items:center;gap:8px;padding:5px 10px;border-radius:8px;color:var(--color-text-secondary);font-size:.82rem}}
+.sidebar a.is-active{{background:var(--color-surface-raised);color:var(--color-text-base)}}
+h3[id]{{scroll-margin-top:120px}}.sidebar__group--top{{border-top:1px solid var(--color-surface-border);margin-top:8px;padding-top:10px}}.sidebar__list{{list-style:none;margin:0;padding:0}}.sidebar__icon{{width:1.1em;text-align:center}}.sidebar__group{{margin:10px 10px 4px;font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted)}}
+body{{padding-left:220px}}
+.topbar{{display:none}}
+.sidebar__tools{{display:flex;justify-content:space-between}}
+.nav-toggle{{position:fixed;top:12px;left:12px;z-index:40;display:none;align-items:center;justify-content:center;width:36px;height:36px;padding:0;border:1px solid var(--color-surface-border);background:var(--color-surface-raised);color:var(--color-text-secondary);border-radius:8px;cursor:pointer}}
+body.nav-collapsed{{padding-left:0}}
+body.nav-collapsed .sidebar{{display:none}}
+body.nav-collapsed .nav-toggle{{display:flex}}
+@media(max-width:1100px){{body{{padding-left:0}}.sidebar,.nav-toggle{{display:none}}.topbar{{display:block}}}}
 @media(max-width:800px){{.topbar__nav .lbl,.nav-group__lbl{{display:none}}.ribbon__grid,.stat-grid{{grid-template-columns:repeat(2,1fr)}}.lead__grid,.two-col{{grid-template-columns:1fr}}.ideas{{grid-template-columns:1fr 1fr}}}}@media(max-width:480px){{.ribbon__grid,.stat-grid,.ideas{{grid-template-columns:1fr}}}}
+/* CSS REGION: 4★ milestone celebration */
+.milestone{{position:relative;margin:8px 0 20px;padding:42px 0 0;max-width:760px}}
+.milestone__sky{{position:absolute;left:0;right:0;top:0;height:78px;pointer-events:none}}
+.milestone__bit{{position:absolute;transform-origin:center;animation:milestone-burst .7s ease both, milestone-drift 3s ease-in-out .7s infinite}}
+.milestone__bit--star{{color:var(--color-success);animation:milestone-burst .7s ease both, milestone-twinkle 1.5s ease-in-out .7s infinite}}
+.milestone__kicker{{position:relative;z-index:1;margin:0 0 4px;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--color-success)}}
+.milestone__score{{position:relative;z-index:1;margin:0;font-size:clamp(4.2rem,11vw,7.2rem);line-height:.88;letter-spacing:-.055em;font-weight:700;color:var(--color-success)}}
+.milestone__line,.milestone__sub{{position:relative;z-index:1;max-width:38rem}}
+.milestone__line{{margin:.35rem 0 0;font-size:1.2rem}}
+.milestone__sub{{margin:.25rem 0 0;color:var(--color-text-secondary)}}
+@keyframes milestone-burst{{0%{{opacity:0;transform:translateY(12px) scale(.45)}}100%{{opacity:1;transform:none}}}}
+@keyframes milestone-twinkle{{0%,100%{{opacity:1;transform:scale(1)}}50%{{opacity:.35;transform:scale(.82)}}}}
+@keyframes milestone-drift{{0%,100%{{transform:translateY(0)}}50%{{transform:translateY(-8px)}}}}
+@media (prefers-reduced-motion: reduce){{.milestone__bit{{animation:none;opacity:1;transform:none}}}}
+.play-shots{{margin-top:16px}}.play-shot img{{display:block;width:100%;height:auto;background:#fff;border-radius:6px}}.figure__caption{{display:block;margin-top:8px;font-size:.75rem;color:var(--color-text-muted)}}
 </style></head><body>
+<!-- SECTION: sidebar --><nav class="sidebar" aria-label="Sections">
+<a class="sidebar__brand" href="#top">{month_cap} {year}</a>
+<div class="sidebar__meta">Monthly Support Report</div>
+<a href="#top" data-nav="top">Support Ops</a>
+<a href="#donor" data-nav="donor"><span class="dot" style="background:var(--c-donor)"></span>Donor Support</a>
+<a href="#thundermail" data-nav="thundermail"><span class="dot" style="background:var(--c-thundermail)"></span>Thundermail</a>
+<div class="sidebar__group">Android · TfA</div>
+<a href="#android" data-nav="android"><span class="dot" style="background:var(--c-android)"></span>Reviews</a>
+<a href="#sumo-android" data-nav="sumo-android"><span class="dot" style="background:var(--c-sumo-android)"></span>SUMO</a>
+<a href="#k9-forum" data-nav="k9-forum"><span class="dot" style="background:var(--c-k9-forum)"></span>K-9 Forum</a>
+<div class="sidebar__group">Desktop</div>
+<a href="#sumo-desktop" data-nav="sumo-desktop"><span class="dot" style="background:var(--c-sumo-desktop)"></span>SUMO</a>
+<div class="sidebar__group sidebar__group--top">Support Vision</div>
+<ul class="sidebar__list">
+<li><a href="#receive" data-nav="receive"><span class="sidebar__icon" aria-hidden="true">🕊</span>Receive</a></li>
+<li><a href="#resolve" data-nav="resolve"><span class="sidebar__icon" aria-hidden="true">🪽</span>Resolve</a></li>
+<li><a href="#resound" data-nav="resound"><span class="sidebar__icon" aria-hidden="true">✨</span>Resound</a></li>
+</ul>
+<a href="{report_url}#definitions" target="_blank">Definitions</a>
+<a href="{report_url}">Full report</a>
+<div class="sidebar__foot"><div class="sidebar__tools"><button class="theme-toggle" type="button" aria-label="Toggle light and dark mode"></button><button class="theme-toggle nav-collapse" type="button" aria-label="Hide sidebar"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M15 6l-6 6 6 6"/></svg></button></div></div>
+</nav>
+<button class="nav-toggle" type="button" aria-label="Show sidebar"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 <!-- SECTION: topbar --><div class="topbar"><div class="topbar__inner"><a class="topbar__brand" href="#top">Briefing · {month_cap} {year}</a><nav class="topbar__nav" aria-label="Sections">
 <a href="#donor" data-nav="donor"><span class="dot" style="background:var(--c-donor)"></span><span class="lbl">Donor</span></a><a href="#thundermail" data-nav="thundermail"><span class="dot" style="background:var(--c-thundermail)"></span><span class="lbl">Thundermail</span></a>
 <span class="nav-group"><span class="nav-group__lbl">Android · TfA</span><a href="#android" data-nav="android">Reviews</a><a href="#sumo-android" data-nav="sumo-android">SUMO</a><a href="#k9-forum" data-nav="k9-forum">K-9</a></span>
-<a href="#sumo-desktop" data-nav="sumo-desktop">Desktop</a><a href="#rrr" data-nav="rrr">RRR</a></nav></div></div><a id="top"></a>
-<main><!-- SECTION: masthead --><header class="masthead"><div class="wrap"><div class="nameplate"><div class="nameplate__title">Monthly Support Report</div><div class="nameplate__issue">Thunderbird Support<br>{month_cap} {year}</div></div>
-<div class="masthead__quarter"><div class="eyebrow">Quarterly snapshot</div>{masthead_highlights}</div>
-<p class="eyebrow">Support Operations · Month in Review</p><h1 class="masthead__headline">{safe(headline)}</h1>{lede_block}<p><a href="{report_url}" target="_blank">Full report on GitHub →</a></p><p class="footnote">Generated {today} · customer content redacted or paraphrased before write</p></div></header>
+<a href="#sumo-desktop" data-nav="sumo-desktop">Desktop</a><a href="#rrr" data-nav="rrr">RRR</a></nav><button class="theme-toggle" type="button" aria-label="Toggle light and dark mode"></button></div></div><a id="top"></a>
+<main><!-- SECTION: masthead --><header class="masthead"><div class="wrap"><div class="nameplate"><div class="nameplate__title">Monthly Support Report</div><div class="nameplate__issue">Thunderbird Support<br>{month_cap} {year}<br><a href="{report_url}">Full report →</a></div></div>
+<div class="masthead__quarter">{'<div class="eyebrow">Quarterly snapshot</div>' if quarterly_review else ''}{masthead_highlights}</div>
+<p class="eyebrow">Support Operations · Month in Review</p>{hero_html}{lede_block}<p class="footnote">Generated {today} · customer content redacted or paraphrased before write</p></div></header>
 <!-- SECTION: ribbon --><section class="ribbon"><div class="wrap"><div class="ribbon__grid">
 <div class="figure-stat"><div class="figure-stat__val">{safe(z.get("total_tickets"))}</div><div class="figure-stat__lbl">Total tickets</div><div class="figure-stat__delta">{pct_delta(z.get("total_tickets"),p.get("total_tickets"))} MoM</div></div>
 <div class="figure-stat"><div class="figure-stat__val">{safe(z.get("overall_csat"))}%</div><div class="figure-stat__lbl">Overall CSAT</div><div class="figure-stat__delta">{pts_delta(z.get("overall_csat"),p.get("overall_csat"))}</div></div>
@@ -2741,12 +2942,17 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
 <div class="figure-stat"><div class="figure-stat__val">{analysis["total_count"]}</div><div class="figure-stat__lbl">Play Store reviews</div><div class="figure-stat__delta">{analysis["unique_languages"]} languages</div></div>
 </div></div></section>
 <!-- SECTION: lead --><section class="lead"><div class="wrap">{lead_inner}</div></section>
-<!-- SECTION: filterbar --><div class="wrap"><div class="filterbar"><button class="filter-btn is-active" data-filter="all">All sections</button><button class="filter-btn" data-filter="donor">Donor Care</button><button class="filter-btn" data-filter="thundermail">Thundermail</button><span class="filter-group"><span class="filter-group__lbl">Android · TfA</span><button class="filter-btn" data-filter="android-all">All Android</button><button class="filter-btn" data-filter="android">Reviews</button><button class="filter-btn" data-filter="sumo-android">SUMO</button><button class="filter-btn" data-filter="k9-forum">K-9</button></span><button class="filter-btn" data-filter="sumo-desktop">Desktop Forum</button><button class="filter-btn drill-toggle" id="drillToggleAll">Expand all</button></div></div>
-<div class="wrap">{"".join(sections)}<!-- SECTION: colophon --><footer class="colophon" data-filter-target="all-only"><p class="footnote">Sources: Zendesk KPI inputs · Play Console GCS export · FeatureOS · SUMO reports · K-9 Discourse · live thunderbird-android GitHub merge report. User-facing product name: Thundermail.</p></footer></div></main>
+<!-- SECTION: filterbar --><div class="wrap"><div class="filterbar"><button class="filter-btn is-active" data-filter="all">All sections</button><button class="filter-btn" data-filter="donor">Donor Support</button><button class="filter-btn" data-filter="thundermail">Thundermail</button><span class="filter-group"><span class="filter-group__lbl">Android · TfA</span><button class="filter-btn" data-filter="android-all">All Android</button><button class="filter-btn" data-filter="android">Reviews</button><button class="filter-btn" data-filter="sumo-android">SUMO</button><button class="filter-btn" data-filter="k9-forum">K-9</button></span><button class="filter-btn" data-filter="sumo-desktop">SUMO</button><button class="filter-btn drill-toggle" id="drillToggleAll">Expand all</button></div></div>
+<div class="wrap">{"".join(sections)}<!-- SECTION: colophon --><footer class="colophon" data-filter-target="all-only"><p class="footnote">Sources: Zendesk KPI inputs · Play Console GCS export · FeatureOS · SUMO reports · K-9 Discourse · live thunderbird-android GitHub merge report. User-facing product name: Thundermail. <a href="{report_url}#definitions" target="_blank">Definitions →</a></p></footer></div></main>
 <script>
+/* SECTION SCRIPT: light and dark theme */
+(function(){{const KEY='tb-report-theme';const root=document.documentElement;const btns=[...document.querySelectorAll('.theme-toggle:not(.nav-collapse)')];const SUN='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></g></svg>';const MOON='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.5 14.4A8 8 0 1 1 9.6 3.5a7 7 0 0 0 10.9 10.9z"/></svg>';function label(t){{btns.forEach(b=>{{b.innerHTML=t==='light'?MOON:SUN;b.setAttribute('aria-label',t==='light'?'Switch to dark mode':'Switch to light mode')}})}}function apply(t){{root.setAttribute('data-theme',t);label(t)}}let saved=null;try{{saved=localStorage.getItem(KEY)}}catch(e){{}}apply(saved||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'));btns.forEach(b=>b.addEventListener('click',()=>{{const next=root.getAttribute('data-theme')==='light'?'dark':'light';try{{localStorage.setItem(KEY,next)}}catch(e){{}}apply(next)}}))}})();
+/* SECTION SCRIPT: collapsible sidebar */
+(function(){{const KEY='tb-report-nav';const body=document.body;function set(collapsed){{body.classList.toggle('nav-collapsed',collapsed);try{{localStorage.setItem(KEY,collapsed?'0':'1')}}catch(e){{}}}}let saved=null;try{{saved=localStorage.getItem(KEY)}}catch(e){{}}if(saved==='0')set(true);const hide=document.querySelector('.nav-collapse');if(hide)hide.addEventListener('click',()=>set(true));const show=document.querySelector('.nav-toggle');if(show)show.addEventListener('click',()=>set(false))}})();
 /* SECTION SCRIPT: persistent accordions */
 (function(){{const KEY='tb-report-accordion:{month_prefix}';const drills=[...document.querySelectorAll('details.drill[data-drill]')];function read(){{try{{return JSON.parse(localStorage.getItem(KEY))||{{}}}}catch(e){{return {{}}}}}}const state=read();function persist(){{drills.forEach(d=>state[d.dataset.drill]=d.open?1:0);try{{localStorage.setItem(KEY,JSON.stringify(state))}}catch(e){{}}const b=document.getElementById('drillToggleAll');if(b)b.textContent=drills.some(d=>!d.open)?'Expand all':'Collapse all'}}drills.forEach(d=>{{if(state[d.dataset.drill]===0||state[d.dataset.drill]===1)d.open=state[d.dataset.drill]===1;d.addEventListener('toggle',persist)}});document.getElementById('drillToggleAll').addEventListener('click',()=>{{const open=drills.some(d=>!d.open);drills.forEach(d=>d.open=open);persist()}});window.openDrillAncestors=function(el){{for(let n=el;n&&n!==document.body;n=n.parentElement)if(n.tagName==='DETAILS')n.open=true;persist()}};persist()}})();
 /* SECTION SCRIPT: filter and hash navigation */
+(function(){{const links=[...document.querySelectorAll('.sidebar a[data-nav]')];const ids=['top','donor','thundermail','android','sumo-android','k9-forum','sumo-desktop','receive','resolve','resound'];const obs=new IntersectionObserver(entries=>{{entries.forEach(en=>{{if(!en.isIntersecting)return;links.forEach(a=>a.classList.toggle('is-active',a.dataset.nav===en.target.id))}})}},{{rootMargin:'-20% 0px -70% 0px'}});ids.forEach(id=>{{const el=document.getElementById(id);if(el)obs.observe(el)}})}})();
 (function(){{const buttons=[...document.querySelectorAll('.filter-btn[data-filter]')];const GROUPS={{'android-all':['android','sumo-android','k9-forum']}},GROUP_ANCHOR={{'android-all':'android'}};function apply(key){{buttons.forEach(b=>b.classList.toggle('is-active',b.dataset.filter===key));document.querySelectorAll('[data-filter-target]').forEach(s=>{{const t=s.dataset.filterTarget;s.style.display=key==='all'||t===key||(GROUPS[key]||[]).includes(t)?'':'none'}})}}function setHash(h){{try{{history.replaceState(null,'',h)}}catch(e){{}}}}buttons.forEach(b=>b.addEventListener('click',()=>{{apply(b.dataset.filter);setHash('#'+(b.dataset.filter==='all'?'':b.dataset.filter))}}));document.addEventListener('click',e=>{{const a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;const el=document.getElementById(a.hash.slice(1));if(!el)return;e.preventDefault();apply('all');window.openDrillAncestors(el);el.scrollIntoView();setHash(a.hash)}});function openHash(){{const h=location.hash.slice(1);if(!h)return;const el=document.getElementById(h);if(el){{apply('all');window.openDrillAncestors(el);el.scrollIntoView()}}else if(GROUPS[h]){{apply(h);const first=document.getElementById(GROUP_ANCHOR[h]);if(first)first.scrollIntoView()}}}}openHash();addEventListener('hashchange',openHash)}})();
 /* Charts */
 const GRID='#2b2845',TICK='#8a87a6';new Chart(document.getElementById('ratingTrendChart'),{{type:'line',data:{{labels:['{safe(config.get("prev_month"))}','{month_cap}'],datasets:[{{label:'Thunderbird',data:[{p.get("tb_avg_rating") or "null"},{analysis["tb_avg_rating"]}],borderColor:'#ff8a3d'}},{{label:'K-9',data:[{p.get("k9_avg_rating") or "null"},{analysis["k9_avg_rating"]}],borderColor:'#b794ff'}},{{label:'4★ goal',data:[4,4],borderColor:'#34d27b',borderDash:[6,5]}}]}},options:{{responsive:true,maintainAspectRatio:false,scales:{{x:{{ticks:{{color:TICK}},grid:{{color:GRID}}}},y:{{min:2.8,max:4.1,ticks:{{color:TICK}},grid:{{color:GRID}}}}}}}}}});function star(id,data,color){{new Chart(document.getElementById(id),{{type:'bar',data:{{labels:['1★','2★','3★','4★','5★'],datasets:[{{data,backgroundColor:['#ff5a5a','#ff8a3d','#f5a623','#34d27b',color]}}]}},options:{{responsive:true,maintainAspectRatio:false,plugins:{{legend:{{display:false}}}}}}}})}}star('tbStarChart',{json.dumps(dist_tb)},'#6d8bff');star('k9StarChart',{json.dumps(dist_k9)},'#b794ff');

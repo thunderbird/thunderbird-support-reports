@@ -95,7 +95,7 @@ def diff_status_moves(current, prior):
             'title': idea.get('title') or slug,
             'votes': idea.get('votes', 0),
             'url': IDEA_URL.format(slug=slug),
-            'note': f'was {old.get("status") or "—"} (snapshot diff)',
+            'note': f'was {old.get("status") or "—"}',
         })
     moves.sort(key=lambda m: m.get('date', ''), reverse=True)
     return moves
@@ -129,6 +129,9 @@ def resolve_status_moves(ideas_config, auto_moves, has_prior_snapshot):
     for m in manual_block.get('moves', []):
         if not _move_duplicate(m, moves):
             moves.append(m)
+
+    # Monthly status moves list only ideas that shipped or entered flight this month.
+    moves = [m for m in moves if m.get('status') in ('Landed!', 'In flight')]
 
     if not moves:
         return None
