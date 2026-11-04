@@ -513,11 +513,13 @@ def build_kb_articles_html(articles):
     rows = [a for a in (articles or []) if a.get('title') and a.get('url')]
     if not rows:
         return ''
-    items = ''.join(
-        f'<li><a href="{_esc(a["url"])}" target="_blank" rel="noopener">{_esc(a["title"])}</a></li>'
-        for a in rows
-    )
-    return f'<div class="panel"><ul class="scan-list">{items}</ul></div>'
+    def _item(a):
+        mark = '*' if a.get('note') else ''
+        return f'<li><a href="{_esc(a["url"])}" target="_blank" rel="noopener">{_esc(a["title"])}</a>{mark}</li>'
+    items = ''.join(_item(a) for a in rows)
+    notes = list(dict.fromkeys(a['note'] for a in rows if a.get('note')))
+    foot = ''.join(f'<p class="footnote">*{_esc(n)}</p>' for n in notes)
+    return f'<div class="panel"><ul class="scan-list">{items}</ul>{foot}</div>'
 
 
 def build_quarterly_review_html(quarterly_review):
