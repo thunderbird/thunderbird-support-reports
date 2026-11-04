@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 07:22 ET** · refreshes hourly_  
+_Updated: **2026-11-04 08:14 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -146,7 +146,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [pending] · 2026-11-03 · _Cancel subscription_
   - [#10717](https://tbpro.zendesk.com/agent/tickets/10717) · [solved] · 2026-11-03 · _Cancel/Refund_
   - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [pending] · 2026-11-03 · _Delete account_
-  - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [pending] · 2026-11-03 · _Delete account_
+  - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [open] · 2026-11-03 · _Delete account_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -295,8 +295,8 @@ Regards, [name]_
 
 - **closed**: 841
 - **solved**: 76
-- **pending**: 72
-- **open**: 28
+- **pending**: 71
+- **open**: 29
 - **hold**: 20
 - **new**: 10
 
