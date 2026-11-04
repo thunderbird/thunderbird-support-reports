@@ -2505,7 +2505,7 @@ def build_dashboard(config, analysis, month_cap, year, today, prev_idea_snapshot
     kb_articles = config.get("thundermail_kb_articles") or []
     kb_html = build_kb_articles_html(kb_articles)
     if kb_html:
-        thundermail_body += '<h3 class="tm-subhead" id="tm-help">Help center</h3>'
+        thundermail_body += '<h3 class="tm-subhead" id="tm-help">Knowledge Base</h3>'
         thundermail_body += drill(
             "tm-kb", "New KB articles", kb_html,
             f'{len([a for a in kb_articles if a.get("url")])} published', True,
