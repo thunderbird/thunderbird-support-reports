@@ -147,6 +147,9 @@ Pull via GitHub API — no local clone needed:
 gh api repos/thunderbird/thunderbird-metrics-and-reports/contents/REPORTS/<filename>
 ```
 
+### SUMO knowledge base (from December 2026)
+Desktop and Mobile sections list new knowledge-base articles and substantial rewrites. Substantial means 50% or more of the words changed. Roland is improving the change report so December has this: https://thunderbird.github.io/knowledgebase-issues/reports/rtanglao_changed_since_2026-06-01.html. That page currently flags 20% as substantial; the monthly report uses 50%. Thundermail articles stay the support.tb.pro list.
+
 ### Thundermail Ideas (FeatureOS)
 Board ID: 17437 on FeatureOS. Pull via featureos-cli (credentials in ~/.featureos.yaml).
 Need: new ideas this month + top 5 all-time by votes.
