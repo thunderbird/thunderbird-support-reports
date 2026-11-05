@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 22:17 ET** · refreshes hourly_  
+_Updated: **2026-11-04 23:17 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -21,7 +21,7 @@ Flight 8 is **day 87** of rollout — **35,000 invitees**, **1070 tickets** so f
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"custom domain"** — 4 tickets in 24h (3.1× baseline; baseline 110 cum) — [#10750](https://tbpro.zendesk.com/agent/tickets/10750), [#10752](https://tbpro.zendesk.com/agent/tickets/10752), [#10763](https://tbpro.zendesk.com/agent/tickets/10763), [#10787](https://tbpro.zendesk.com/agent/tickets/10787)
-- **"trying other"** — 2 tickets in 24h (new; baseline 0 cum) — [#10780](https://tbpro.zendesk.com/agent/tickets/10780), [#10805](https://tbpro.zendesk.com/agent/tickets/10805)
+- **"other address"** — 2 tickets in 24h (new; baseline 0 cum) — [#10780](https://tbpro.zendesk.com/agent/tickets/10780), [#10805](https://tbpro.zendesk.com/agent/tickets/10805)
 - **"refund subscription"** — 2 tickets in 24h (14.3× baseline; baseline 12 cum) — [#10762](https://tbpro.zendesk.com/agent/tickets/10762), [#10789](https://tbpro.zendesk.com/agent/tickets/10789)
 - **"cancel refund"** — 2 tickets in 24h (10.1× baseline; baseline 17 cum) — [#10762](https://tbpro.zendesk.com/agent/tickets/10762), [#10786](https://tbpro.zendesk.com/agent/tickets/10786)
 - **"best regards"** — 2 tickets in 24h (4.0× baseline; baseline 43 cum) — [#10778](https://tbpro.zendesk.com/agent/tickets/10778), [#10809](https://tbpro.zendesk.com/agent/tickets/10809)
@@ -309,8 +309,8 @@ Regards, [name]_
 
 - **closed**: 844
 - **solved**: 95
-- **pending**: 90
-- **open**: 21
+- **pending**: 89
+- **open**: 22
 - **hold**: 19
 - **new**: 1
 
