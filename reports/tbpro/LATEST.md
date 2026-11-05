@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-05
 
-_Updated: **2026-11-05 02:16 ET** · refreshes hourly_  
+_Updated: **2026-11-05 03:20 ET** · refreshes hourly_  
 _24h window: 2026-11-04T16:00 → 2026-11-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 88** of rollout — **35,000 invitees**, **1071 tickets** so far (3.1% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 88** of rollout — **35,000 invitees**, **1072 tickets** so far (3.1% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **5** solved in last 24h
-- **1071** tickets total since launch · contact rate **3%** of 35000 invitees
+- **8** new tickets in last 24h · **5** solved in last 24h
+- **1072** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (199 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 98
@@ -286,11 +286,11 @@ _(none in last 24h)_
 - **pending**: 89
 - **open**: 22
 - **hold**: 19
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 613
+- **Account Hub**: 614
 - **Thundermail**: 362
 - **Send**: 21
 - **Appointment**: 12
@@ -357,6 +357,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#10828](https://tbpro.zendesk.com/agent/tickets/10828)** · Change Primary Email
+  > Hello, I was wondering if it was possible to change the primary email on the account to another alias? I realized that I probably prefer [email] rather than [email]. Thank you!
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#10825](https://tbpro.zendesk.com/agent/tickets/10825)** · "I don't need Thundermail" but lots of my customers might and Thunderbird is wonderful
@@ -401,6 +406,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10819](https://tbpro.zendesk.com/agent/tickets/10819) · [open] · 2026-11-04T22:41 · Please remove my account
 - [10822](https://tbpro.zendesk.com/agent/tickets/10822) · [new] · 2026-11-04T23:47 · new account can't login
 - [10825](https://tbpro.zendesk.com/agent/tickets/10825) · [new] · 2026-11-05T05:03 · "I don't need Thundermail" but lots of my customers might and Thunderbird is wonderful
+- [10828](https://tbpro.zendesk.com/agent/tickets/10828) · [new] · 2026-11-05T08:09 · Change Primary Email
 
 ## Solved — last 24h
 
