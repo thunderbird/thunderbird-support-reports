@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-05
 
-_Updated: **2026-11-05 15:14 ET** · refreshes hourly_  
+_Updated: **2026-11-05 16:12 ET** · refreshes hourly_  
 _24h window: 2026-11-04T16:00 → 2026-11-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 88** of rollout — **35,000 invitees**, **1091 tickets** so far (3.1% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 88** of rollout — **35,000 invitees**, **1094 tickets** so far (3.1% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **27** new tickets in last 24h · **20** solved in last 24h
-- **1091** tickets total since launch · contact rate **3%** of 35000 invitees
+- **30** new tickets in last 24h · **21** solved in last 24h
+- **1094** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (202 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 137.9h · mean 160.4h (proxy: updated_at − created_at, 90 solved tickets)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
+- **Median AHT**: 138.8h · mean 160.5h (proxy: updated_at − created_at, 91 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -287,28 +287,26 @@ Regards, [name]_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 4 new:
+**Last 24h** — 3 new:
 
 - [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 1 votes · _untagged_
   > Yahoo provides a lot of disposable addresses of format: primaryaddress-disposable suffix. Google does not. With Google, to have separate email addresses under the same domain is not possible. I make…
 - [Pithier Domain Option](https://ideas.tb.pro/p/pithier-domain-option) · 1 votes · _Thundermail_
   > Thundermail is both a mouthful and faintly twee. tb.pro is at best aloof. What’s wrong with tmail.com? The domain is important because it conveys a degree of personality and identity. Given the…
-- [Email aliasing directly integrated with mail client](https://ideas.tb.pro/p/email-aliasing-directly-integrated-with-mail-client) · 1 votes · _untagged_
-  > I would love to see email aliasing built directly into the mail client similar to what Fastmail does. Currently, having Firefox Relay separate from email feels really clunky to me. Why it matters It…
 - [Make Thundermail a serious privacy competitor to Proton and Tuta](https://ideas.tb.pro/p/make-thundermail-a-serious-privacy-competitor-to-proton-and-tuta) · 1 votes · _Thundermail, Privacy & Security_
   > What you’d like to see Add zero-access encryption for stored email bodies, attachments and subject lines, including backups, using keys that only the user can access. Clearly document which metadata…
 
 ## Status breakdown (cumulative)
 
 - **closed**: 853
-- **pending**: 109
-- **solved**: 90
-- **open**: 20
+- **pending**: 112
+- **solved**: 91
 - **hold**: 19
+- **open**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 625
+- **Account Hub**: 629
 - **Thundermail**: 368
 - **Send**: 22
 - **Appointment**: 13
@@ -317,15 +315,15 @@ Regards, [name]_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 211
+- **curious** + **explained**: 213
 - **change request** + **actioned**: 156
 - **blocked** + **explained**: 114
-- **confused** + **explained**: 90
+- **confused** + **explained**: 91
 - **curious** + **informed**: 57
 - **blocked** + **investigated**: 48
 - **request** + **redirected**: 47
 - **blocked** + **redirected**: 46
-- **confused** + **informed**: 44
+- **confused** + **informed**: 45
 - **concerned** + **explained**: 32
 - **confused** + **redirected**: 32
 - **blocked** + **informed**: 23
@@ -376,22 +374,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 7 tickets
+### Other / uncategorized — 6 tickets
 
-- **[#10859](https://tbpro.zendesk.com/agent/tickets/10859)** · Getting connected
-  > What is the mail server for thunderbird mail
-- **[#10857](https://tbpro.zendesk.com/agent/tickets/10857)** · Stymied as to how to proceed
-  > I had written, the other day, my user name is ikbierer and the password is ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇, but it isn't working to use them to sign in today.
 - **[#10847](https://tbpro.zendesk.com/agent/tickets/10847)** · Need clarification on the benefits of Thundermail
   > I've started getting promotions for Thundermail. The main supposed benefits are that there are no ads and you don't sell my data. I don't get ads in Thunderbird and you better not…
 - **[#10842](https://tbpro.zendesk.com/agent/tickets/10842)** · Mail Merge
   > I use mail merge and my current email provider allows up to 250 emails to be sent using mail merge. What does this new thunderbird service offer in relation to sending out bulk…
-- **[#10837](https://tbpro.zendesk.com/agent/tickets/10837)** · logging in
-  > i'm being asked for a user name....it says invalid username or password, i don't have a username
+- **[#10859](https://tbpro.zendesk.com/agent/tickets/10859)** · Getting connected — why: **confused** · how: **informed**
+  > What is the mail server for thunderbird mail
 - **[#10854](https://tbpro.zendesk.com/agent/tickets/10854)** · EMAIL ADDRESS — why: **curious** · how: **explained**
   > Before signing up for email, I noticed that I could choose an email address of @[domain] or @[domain]. When I went choose an email address, the only option I got was @[domain]. I…
 - **[#10843](https://tbpro.zendesk.com/agent/tickets/10843)** · how do you add domains to the email account — why: **confused** · how: **informed**
   > how do you add domains to the email account
+- **[#10837](https://tbpro.zendesk.com/agent/tickets/10837)** · logging in — why: **confused** · how: **explained**
+  > i'm being asked for a user name....it says invalid username or password, i don't have a username
 
 ### Account access issues — Account Hub trouble — 4 tickets
 
@@ -404,14 +400,37 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10816](https://tbpro.zendesk.com/agent/tickets/10816)** · forgotten password — why: **confused** · how: **redirected**
   > i wan to make a new password
 
+### Subscription / billing / refund / cancel — 3 tickets
+
+- **[#10862](https://tbpro.zendesk.com/agent/tickets/10862)** · account deletion
+  > Thank you for the refund; I would also like to ask if it is possible to permanently delete my account. Thanks, [name] : [email]
+- **[#10858](https://tbpro.zendesk.com/agent/tickets/10858)** · Duplicate billing — why: **change request** · how: **actioned**
+  > My initial request supposedly was declined by Amex so I provided Citi MC. You have billed me twice for $72. I need one of those charges canceled
+- **[#10845](https://tbpro.zendesk.com/agent/tickets/10845)** · Delete account and refund  — why: **change request** · how: **actioned**
+  > I would like to request the deletion of my account; also, if possible, I would like to receive a refund.
+
 ### Aliases — 3 tickets
 
-- **[#10828](https://tbpro.zendesk.com/agent/tickets/10828)** · Change Primary Email
-  > Hello, I was wondering if it was possible to change the primary email on the account to another alias? I realized that I probably prefer [email] rather than [email]. Thank you!
 - **[#10850](https://tbpro.zendesk.com/agent/tickets/10850)** · Sending emails through custom domain — why: **curious** · how: **explained**
   > L.S. I have seen an advertisement for this email service and was very enthusiastic, partly by the fact that you allow adding custom domains for the email service. I have since…
 - **[#10844](https://tbpro.zendesk.com/agent/tickets/10844)** · Changing the domain — why: **curious** · how: **explained**
   > I have subscribed to thundermail and chosen [email] as my email ID. I didnt realize that i could have chosen [domain]. Could you please change my email id to [email]?
+- **[#10828](https://tbpro.zendesk.com/agent/tickets/10828)** · Change Primary Email — why: **curious** · how: **explained**
+  > Hello, I was wondering if it was possible to change the primary email on the account to another alias? I realized that I probably prefer [email] rather than [email]. Thank you!
+
+### App setup / configuration — 2 tickets
+
+- **[#10863](https://tbpro.zendesk.com/agent/tickets/10863)** · OOPS
+  > I set up my primary as tirekicker on accident; can it be changed to stopmoving? sorry
+- **[#10849](https://tbpro.zendesk.com/agent/tickets/10849)** · add additional email?
+  > How do I add other email addresses? I have private domain emails that I want to add as well as gmail.
+
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#10861](https://tbpro.zendesk.com/agent/tickets/10861)** · Deliverability
+  > I currently pay $72/yr for AuthSMTP so emails from my own domain name won't be rejected because of my spammy hosting company. Will Thundermail allow me to use my own return…
+- **[#10817](https://tbpro.zendesk.com/agent/tickets/10817)** · Help document on custom mail domain? — why: **confused** · how: **informed**
+  > Do you have some instructions available that describe the process for directing a custom mail domain to Thundermail? I'd like to familiarize myself with the process before taking…
 
 ### Account access issues — 2 tickets
 
@@ -419,13 +438,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Got lost during signup for Thundermail. need to reset password
 - **[#10836](https://tbpro.zendesk.com/agent/tickets/10836)** · Thunderbird Pro Charge — why: **telling us** · how: **actioned**
   > Hi team, I'm forwarding this Thunderbird-related ticket. Let me know if there's anything else needed from us, and thanks in advance! From: [sender] Date: Wed, Nov 4, 2026 at 12:15…
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10858](https://tbpro.zendesk.com/agent/tickets/10858)** · Duplicate billing — why: **change request** · how: **actioned**
-  > My initial request supposedly was declined by Amex so I provided Citi MC. You have billed me twice for $72. I need one of those charges canceled
-- **[#10845](https://tbpro.zendesk.com/agent/tickets/10845)** · Delete account and refund  — why: **change request** · how: **actioned**
-  > I would like to request the deletion of my account; also, if possible, I would like to receive a refund.
 
 ### Refund / Cancel — unpaid — 2 tickets
 
@@ -439,15 +451,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10856](https://tbpro.zendesk.com/agent/tickets/10856)** · Calendar - Zoom Schedule
   > I am looking at https://[domain]/dashboard. How do I populate the calendar with my existing zoom bookings? I have zoom as the linked app. but nothing is showing up.
 
-### App setup / configuration — 1 tickets
-
-- **[#10849](https://tbpro.zendesk.com/agent/tickets/10849)** · add additional email?
-  > How do I add other email addresses? I have private domain emails that I want to add as well as gmail.
-
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10838](https://tbpro.zendesk.com/agent/tickets/10838)** · Early Bird Discount or Trial Coupon for Thundermail
   > Hello [name], I recently received my Early Bird invitation and I'm interested in trying Thundermail. However, the current plan requires a full annual payment upfront, and I'd like…
+
+### Early bird signup — 1 tickets
+
+- **[#10857](https://tbpro.zendesk.com/agent/tickets/10857)** · Stymied as to how to proceed — why: **curious** · how: **explained**
+  > I had written, the other day, my user name is ikbierer and the password is ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇, but it isn't working to use them to sign in today.
 
 ### Webmail — 1 tickets
 
@@ -458,11 +470,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10825](https://tbpro.zendesk.com/agent/tickets/10825)** · "I don't need Thundermail" but lots of my customers might and Thunderbird is wonderful — why: **curious** · how: **explained**
   > My subject line said “I don't need Thundermail” - that's because I already manage my own two domains ([domain] and [domain]), created around 2013. I learned a lot in the meantime…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#10817](https://tbpro.zendesk.com/agent/tickets/10817)** · Help document on custom mail domain? — why: **confused** · how: **informed**
-  > Do you have some instructions available that describe the process for directing a custom mail domain to Thundermail? I'd like to familiarize myself with the process before taking…
 
 ### Request or complaint — 1 tickets
 
@@ -478,9 +485,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10819](https://tbpro.zendesk.com/agent/tickets/10819) · [pending] · 2026-11-04T22:41 · Please remove my account
 - [10822](https://tbpro.zendesk.com/agent/tickets/10822) · [pending] · 2026-11-04T23:47 · new account can't login
 - [10825](https://tbpro.zendesk.com/agent/tickets/10825) · [pending] · 2026-11-05T05:03 · "I don't need Thundermail" but lots of my customers might and Thunderbird is wonderful
-- [10828](https://tbpro.zendesk.com/agent/tickets/10828) · [open] · 2026-11-05T08:09 · Change Primary Email
+- [10828](https://tbpro.zendesk.com/agent/tickets/10828) · [pending] · 2026-11-05T08:09 · Change Primary Email
 - [10836](https://tbpro.zendesk.com/agent/tickets/10836) · [solved] · 2026-11-05T14:34 · Thunderbird Pro Charge
-- [10837](https://tbpro.zendesk.com/agent/tickets/10837) · [open] · 2026-11-05T14:47 · logging in
+- [10837](https://tbpro.zendesk.com/agent/tickets/10837) · [pending] · 2026-11-05T14:47 · logging in
 - [10838](https://tbpro.zendesk.com/agent/tickets/10838) · [open] · 2026-11-05T14:47 · Early Bird Discount or Trial Coupon for Thundermail
 - [10840](https://tbpro.zendesk.com/agent/tickets/10840) · [pending] · 2026-11-05T15:04 · Desktop App for Thundermail
 - [10841](https://tbpro.zendesk.com/agent/tickets/10841) · [pending] · 2026-11-05T15:07 · Delete my account
@@ -495,9 +502,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10853](https://tbpro.zendesk.com/agent/tickets/10853) · [pending] · 2026-11-05T18:01 · My Thundermail seem to be blocked
 - [10854](https://tbpro.zendesk.com/agent/tickets/10854) · [pending] · 2026-11-05T18:22 · EMAIL ADDRESS
 - [10856](https://tbpro.zendesk.com/agent/tickets/10856) · [open] · 2026-11-05T18:33 · Calendar - Zoom Schedule
-- [10857](https://tbpro.zendesk.com/agent/tickets/10857) · [open] · 2026-11-05T18:39 · Stymied as to how to proceed
+- [10857](https://tbpro.zendesk.com/agent/tickets/10857) · [pending] · 2026-11-05T18:39 · Stymied as to how to proceed
 - [10858](https://tbpro.zendesk.com/agent/tickets/10858) · [pending] · 2026-11-05T19:00 · Duplicate billing
-- [10859](https://tbpro.zendesk.com/agent/tickets/10859) · [open] · 2026-11-05T19:23 · Getting connected
+- [10859](https://tbpro.zendesk.com/agent/tickets/10859) · [pending] · 2026-11-05T19:23 · Getting connected
+- [10861](https://tbpro.zendesk.com/agent/tickets/10861) · [open] · 2026-11-05T20:22 · Deliverability
+- [10862](https://tbpro.zendesk.com/agent/tickets/10862) · [open] · 2026-11-05T20:36 · account deletion
+- [10863](https://tbpro.zendesk.com/agent/tickets/10863) · [open] · 2026-11-05T20:37 · OOPS
 
 ## Solved — last 24h
 
@@ -524,6 +534,7 @@ Versi…
 - · [10654](https://tbpro.zendesk.com/agent/tickets/10654) · 2026-11-05T19:02 · Question about signing up
 - · [10638](https://tbpro.zendesk.com/agent/tickets/10638) · 2026-11-05T19:46 · Forgotten login credentials
 - · [10795](https://tbpro.zendesk.com/agent/tickets/10795) · 2026-11-05T20:01 · How does any of this work?
+- · [10587](https://tbpro.zendesk.com/agent/tickets/10587) · 2026-11-05T20:15 · setting up mail on my phone using POP
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
