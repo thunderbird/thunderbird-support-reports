@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-05
 
-_Updated: **2026-11-05 01:24 ET** · refreshes hourly_  
+_Updated: **2026-11-05 02:16 ET** · refreshes hourly_  
 _24h window: 2026-11-04T16:00 → 2026-11-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -382,19 +382,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10817](https://tbpro.zendesk.com/agent/tickets/10817)** · Help document on custom mail domain?
   > Do you have some instructions available that describe the process for directing a custom mail domain to Thundermail? I'd like to familiarize myself with the process before taking…
 
-### Request or complaint — 1 tickets
-
-- **[#10815](https://tbpro.zendesk.com/agent/tickets/10815)** · Re: [Thundermail] Re: Adding an imap account — why: **request** · how: **redirected**
-  > This is a follow-up to your previous request #8802 "Adding an imap account" so to be clear I would like to be able to use thundermail with filters and online NOT thunderbird…
-
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#10816](https://tbpro.zendesk.com/agent/tickets/10816)** · forgotten password — why: **confused** · how: **redirected**
   > i wan to make a new password
 
+### Request or complaint — 1 tickets
+
+- **[#10815](https://tbpro.zendesk.com/agent/tickets/10815)** · Re: [Thundermail] Re: Adding an imap account — why: **request** · how: **redirected**
+  > This is a follow-up to your previous request #8802 "Adding an imap account" so to be clear I would like to be able to use thundermail with filters and online NOT thunderbird…
+
 ## New tickets — last 24h
 
-- [10815](https://tbpro.zendesk.com/agent/tickets/10815) · [open] · 2026-11-04T21:59 · Re: [Thundermail] Re: Adding an imap account
+- [10815](https://tbpro.zendesk.com/agent/tickets/10815) · [pending] · 2026-11-04T21:59 · Re: [Thundermail] Re: Adding an imap account
 - [10816](https://tbpro.zendesk.com/agent/tickets/10816) · [pending] · 2026-11-04T22:09 · forgotten password
 - [10817](https://tbpro.zendesk.com/agent/tickets/10817) · [open] · 2026-11-04T22:26 · Help document on custom mail domain?
 - [10818](https://tbpro.zendesk.com/agent/tickets/10818) · [open] · 2026-11-04T22:30 · I saved my email address and password since 31/08/24.
