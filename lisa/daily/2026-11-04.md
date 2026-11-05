@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-04
 
-_Updated: **2026-11-04 19:35 ET** · refreshes hourly_  
+_Updated: **2026-11-04 20:17 ET** · refreshes hourly_  
 _24h window: 2026-11-03T16:00 → 2026-11-04T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -21,7 +21,7 @@ Flight 8 is **day 87** of rollout — **35,000 invitees**, **1070 tickets** so f
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"custom domain"** — 4 tickets in 24h (3.1× baseline; baseline 110 cum) — [#10750](https://tbpro.zendesk.com/agent/tickets/10750), [#10752](https://tbpro.zendesk.com/agent/tickets/10752), [#10763](https://tbpro.zendesk.com/agent/tickets/10763), [#10787](https://tbpro.zendesk.com/agent/tickets/10787)
-- **"other address"** — 2 tickets in 24h (new; baseline 0 cum) — [#10780](https://tbpro.zendesk.com/agent/tickets/10780), [#10805](https://tbpro.zendesk.com/agent/tickets/10805)
+- **"trying other"** — 2 tickets in 24h (new; baseline 0 cum) — [#10780](https://tbpro.zendesk.com/agent/tickets/10780), [#10805](https://tbpro.zendesk.com/agent/tickets/10805)
 - **"refund subscription"** — 2 tickets in 24h (14.3× baseline; baseline 12 cum) — [#10762](https://tbpro.zendesk.com/agent/tickets/10762), [#10789](https://tbpro.zendesk.com/agent/tickets/10789)
 - **"cancel refund"** — 2 tickets in 24h (10.1× baseline; baseline 17 cum) — [#10762](https://tbpro.zendesk.com/agent/tickets/10762), [#10786](https://tbpro.zendesk.com/agent/tickets/10786)
 - **"best regards"** — 2 tickets in 24h (4.0× baseline; baseline 43 cum) — [#10778](https://tbpro.zendesk.com/agent/tickets/10778), [#10809](https://tbpro.zendesk.com/agent/tickets/10809)
@@ -309,9 +309,9 @@ Regards, [name]_
 
 - **closed**: 844
 - **solved**: 95
-- **pending**: 93
+- **pending**: 90
+- **open**: 21
 - **hold**: 19
-- **open**: 18
 - **new**: 1
 
 ## Service (cumulative)
@@ -432,10 +432,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10814](https://tbpro.zendesk.com/agent/tickets/10814)** · Early lost password
   > I got the signup invite, I signed up as [email] but immediately lost my password. I have not been able to login with what I thought was my password, and the lost password emails…
-- **[#10794](https://tbpro.zendesk.com/agent/tickets/10794)** · activating Pro-accoung — why: **confused**
-  > I need to activate my new thunderbird mail account. I've written down the password and the prefix (the part in front of @) but forgot to note the generL part (after the @).…
 - **[#10769](https://tbpro.zendesk.com/agent/tickets/10769)** · subscription not completed, not able to login — why: **confused** · how: **explained**
   > Hi, very much interested to subscribe, and have defined my preferred email ([email]) but was not able to complete subscription and not able to login, even as I use the password I…
+- **[#10794](https://tbpro.zendesk.com/agent/tickets/10794)** · activating Pro-accoung — why: **confused**
+  > I need to activate my new thunderbird mail account. I've written down the password and the prefix (the part in front of @) but forgot to note the generL part (after the @).…
 
 ### Pricing / monthly plan / free tier — 2 tickets
 
@@ -446,10 +446,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
-- **[#10763](https://tbpro.zendesk.com/agent/tickets/10763)** · Custom domain not configuring — why: **confused** · how: **explained**
-  > I set up a custom domain for thundermail and entered all the records but it keeps saying that records that are there are missing. Each time I verify it says a different record is…
 - **[#10752](https://tbpro.zendesk.com/agent/tickets/10752)** · Custom domain DNS settings not working — why: **confused** · how: **explained**
   > I setup DNS settings for my custom domain and after a day it still doesn't seem to be working.
+- **[#10763](https://tbpro.zendesk.com/agent/tickets/10763)** · Custom domain not configuring — why: **confused** · how: **explained**
+  > I set up a custom domain for thundermail and entered all the records but it keeps saying that records that are there are missing. Each time I verify it says a different record is…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -510,7 +510,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10750](https://tbpro.zendesk.com/agent/tickets/10750) · [pending] · 2026-11-03T21:24 · Alias management
 - [10751](https://tbpro.zendesk.com/agent/tickets/10751) · [open] · 2026-11-03T22:54 · Payment email
-- [10752](https://tbpro.zendesk.com/agent/tickets/10752) · [pending] · 2026-11-03T23:14 · Custom domain DNS settings not working
+- [10752](https://tbpro.zendesk.com/agent/tickets/10752) · [open] · 2026-11-03T23:14 · Custom domain DNS settings not working
 - [10753](https://tbpro.zendesk.com/agent/tickets/10753) · [open] · 2026-11-03T23:22 · Multiple devices
 - [10754](https://tbpro.zendesk.com/agent/tickets/10754) · [pending] · 2026-11-03T23:29 · Import/Export?
 - [10756](https://tbpro.zendesk.com/agent/tickets/10756) · [pending] · 2026-11-03T23:56 · Deletion and refund
@@ -521,7 +521,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10763](https://tbpro.zendesk.com/agent/tickets/10763) · [pending] · 2026-11-04T02:00 · Custom domain not configuring
 - [10766](https://tbpro.zendesk.com/agent/tickets/10766) · [pending] · 2026-11-04T02:37 · I only want to keep this if I can import my Eudora addresses
 - [10768](https://tbpro.zendesk.com/agent/tickets/10768) · [open] · 2026-11-04T03:07 · Is this a subscription-only service?
-- [10769](https://tbpro.zendesk.com/agent/tickets/10769) · [pending] · 2026-11-04T06:48 · subscription not completed, not able to login
+- [10769](https://tbpro.zendesk.com/agent/tickets/10769) · [open] · 2026-11-04T06:48 · subscription not completed, not able to login
 - [10771](https://tbpro.zendesk.com/agent/tickets/10771) · [pending] · 2026-11-04T08:14 · Please cancel
 - [10772](https://tbpro.zendesk.com/agent/tickets/10772) · [pending] · 2026-11-04T08:40 · account
 - [10778](https://tbpro.zendesk.com/agent/tickets/10778) · [solved] · 2026-11-04T10:44 · Potential Keycloak security vulnerability
