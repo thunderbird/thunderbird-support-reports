@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-05
 
-_Updated: **2026-11-05 04:17 ET** · refreshes hourly_  
+_Updated: **2026-11-05 05:15 ET** · refreshes hourly_  
 _24h window: 2026-11-04T16:00 → 2026-11-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 88** of rollout — **35,000 invitees**, **1072 tickets** so f
 - **1072** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (199 good / 11 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 98
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 99
 - **Median AHT**: 141.6h · mean 168.2h (proxy: updated_at − created_at, 95 solved tickets)
 
 ## Known problems — 14 problem(s), 135 incident(s)
@@ -275,9 +275,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Make Thundermail a serious privacy competitor to Proton and Tuta](https://ideas.tb.pro/p/make-thundermail-a-serious-privacy-competitor-to-proton-and-tuta) · 1 votes · _Thundermail, Privacy & Security_
+  > What you’d like to see Add zero-access encryption for stored email bodies, attachments and subject lines, including backups, using keys that only the user can access. Clearly document which metadata…
 
 ## Status breakdown (cumulative)
 
