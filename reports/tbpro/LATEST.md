@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-05
 
-_Updated: **2026-11-05 18:13 ET** · refreshes hourly_  
+_Updated: **2026-11-05 19:35 ET** · refreshes hourly_  
 _24h window: 2026-11-04T16:00 → 2026-11-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -21,7 +21,7 @@ Flight 8 is **day 88** of rollout — **35,000 invitees**, **1100 tickets** so f
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"user name"** — 2 tickets in 24h (34.8× baseline; baseline 5 cum) — [#10837](https://tbpro.zendesk.com/agent/tickets/10837), [#10857](https://tbpro.zendesk.com/agent/tickets/10857)
-- **"follow previous request"** — 2 tickets in 24h (9.7× baseline; baseline 18 cum) — [#10815](https://tbpro.zendesk.com/agent/tickets/10815), [#10836](https://tbpro.zendesk.com/agent/tickets/10836)
+- **"follow previous"** — 2 tickets in 24h (9.7× baseline; baseline 18 cum) — [#10815](https://tbpro.zendesk.com/agent/tickets/10815), [#10836](https://tbpro.zendesk.com/agent/tickets/10836)
 - **"look forward"** — 2 tickets in 24h (4.0× baseline; baseline 43 cum) — [#10825](https://tbpro.zendesk.com/agent/tickets/10825), [#10850](https://tbpro.zendesk.com/agent/tickets/10850)
 - **"best regards"** — 2 tickets in 24h (4.0× baseline; baseline 44 cum) — [#10819](https://tbpro.zendesk.com/agent/tickets/10819), [#10836](https://tbpro.zendesk.com/agent/tickets/10836)
 
@@ -284,14 +284,14 @@ Regards, [name]_
 
 - [10845](https://tbpro.zendesk.com/agent/tickets/10845) · [pending] · _Delete account and refund _
   > I would like to request the deletion of my account; also, if possible, I would like to receive a refund.
-- [10871](https://tbpro.zendesk.com/agent/tickets/10871) · [new] · _cancel my whole account_
+- [10871](https://tbpro.zendesk.com/agent/tickets/10871) · [open] · _cancel my whole account_
   > I just found out I cannot have multiple separate email addresses each with their own login. This will not work for me. I will cancel my whole account.
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 3 new:
 
-- [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 1 votes · _untagged_
+- [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 1 votes · _Thundermail_
   > Yahoo provides a lot of disposable addresses of format: primaryaddress-disposable suffix. Google does not. With Google, to have separate email addresses under the same domain is not possible. I make…
 - [Pithier Domain Option](https://ideas.tb.pro/p/pithier-domain-option) · 1 votes · _Thundermail_
   > Thundermail is both a mouthful and faintly twee. tb.pro is at best aloof. What’s wrong with tmail.com? The domain is important because it conveys a degree of personality and identity. Given the…
@@ -301,11 +301,10 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 861
-- **pending**: 115
+- **pending**: 114
 - **solved**: 85
+- **open**: 21
 - **hold**: 19
-- **open**: 19
-- **new**: 1
 
 ## Service (cumulative)
 
