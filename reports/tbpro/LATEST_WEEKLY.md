@@ -1,15 +1,16 @@
-# TB Pro — Weekly Executive Summary · 2026-10-26 → 2026-10-30
+# TB Pro — Weekly Executive Summary · 2026-11-02 → 2026-11-06
 
-_2026-08-10 launch · 35000 invitees · 0.1% contact rate · generated 2026-10-30_
+_2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-06_
 
 ## 🟡 Wave invite status: **WATCH**
 
 **Watch signals:**
-- 🟡 1 unresolved escalated ticket(s) this week: [#10514](https://tbpro.zendesk.com/agent/tickets/10514) 501 5.5.4 You are not allowed to send from this address
-- 🟡 1 known problem with 98 linked reports (11 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
-- 🟡 1 known problem with 2 open reports — [[mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts](https://tbpro.zendesk.com/agent/tickets/10009)
-- 🟡 Refund/cancel rate 14% of real subscriber tickets (7 / 49)
-- 🟡 8 ticket(s) with user urgency: critical still open: [#10586](https://tbpro.zendesk.com/agent/tickets/10586) Lost access to [email]; [#10565](https://tbpro.zendesk.com/agent/tickets/10565) Reissue | Invitation "info@n****.de"; [#10536](https://tbpro.zendesk.com/agent/tickets/10536) Delete account; [#10535](https://tbpro.zendesk.com/agent/tickets/10535) Re: Re: Support Feedback: MACOS installer for desktop…; [#10532](https://tbpro.zendesk.com/agent/tickets/10532) annual to monthly?; [#10521](https://tbpro.zendesk.com/agent/tickets/10521) New version; can't find In-box; [#10516](https://tbpro.zendesk.com/agent/tickets/10516) delete my account; [#10479](https://tbpro.zendesk.com/agent/tickets/10479) Wiederherstellung meiner E-Mails
+- 🟡 2 unresolved escalated ticket(s) this week: [#10896](https://tbpro.zendesk.com/agent/tickets/10896) Webmail is down for me; [#10874](https://tbpro.zendesk.com/agent/tickets/10874) Recurring JMAP 525 SSL Handshake Errors – Webmail…
+- 🟡 1 known problem with 118 linked reports (17 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
+- 🟡 1 known problem with 2 open reports — [[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV](https://tbpro.zendesk.com/agent/tickets/10009)
+- 🟡 Refund/cancel rate 15% of real subscriber tickets (18 / 118)
+- 🟡 Volume 144 tickets this week vs 80 prior week (+64, +80% WoW)
+- 🟡 14 ticket(s) with user urgency: critical still open: [#10886](https://tbpro.zendesk.com/agent/tickets/10886) Added custom domain (via catch-all alias), but it is…; [#10871](https://tbpro.zendesk.com/agent/tickets/10871) cancel my whole account; [#10870](https://tbpro.zendesk.com/agent/tickets/10870) change default account email; [#10865](https://tbpro.zendesk.com/agent/tickets/10865) I'm looking for help reviving Thunderbird installs on…; [#10842](https://tbpro.zendesk.com/agent/tickets/10842) Mail Merge; [#10841](https://tbpro.zendesk.com/agent/tickets/10841) Delete my account; [#10838](https://tbpro.zendesk.com/agent/tickets/10838) Early Bird Discount or Trial Coupon for Thundermail; [#10816](https://tbpro.zendesk.com/agent/tickets/10816) forgotten password; [#10766](https://tbpro.zendesk.com/agent/tickets/10766) I only want to keep this if I can import my Eudora…; [#10749](https://tbpro.zendesk.com/agent/tickets/10749) recuperaçao de senha; [#10746](https://tbpro.zendesk.com/agent/tickets/10746) I cant load Thunderbird; [#10697](https://tbpro.zendesk.com/agent/tickets/10697) Disregard last request for a refund; [#10683](https://tbpro.zendesk.com/agent/tickets/10683) There was no option to select the desired domain; [#10679](https://tbpro.zendesk.com/agent/tickets/10679) Pay Monthly Option - Help?
 
 ---
 
@@ -17,48 +18,54 @@ _2026-08-10 launch · 35000 invitees · 0.1% contact rate · generated 2026-10-3
 
 | Metric | Value |
 |--------|-------|
-| New tickets | **60** (-44, -42% WoW) |
-| Real subscriber issues | **49** |
-| Misdirected (non-subscribers) | **11** |
-| Solved this week | **109** |
-| CSAT | **100% (18 responses)** |
-| Refunds / cancels | **7** |
-| Other-brand open/new tickets | **6 (+50% WoW)** |
-| New ideas this week | **3** |
+| New tickets | **144** (+64, +80% WoW) |
+| Real subscriber issues | **118** |
+| Misdirected (non-subscribers) | **26** |
+| Solved this week | **111** |
+| CSAT | **91% (11 responses)** |
+| Refunds / cancels | **18** |
+| Other-brand open/new tickets | **6** |
+| New ideas this week | **9** |
 
 **Daily ticket volume:**
-- `2026-10-26` ██████████ 10
-- `2026-10-27` ████████████ 12
-- `2026-10-28` ███████████ 11
-- `2026-10-29` ███████████████ 15
-- `2026-10-30` ████████████ 12
+- `2026-11-02` ██████████████████████████ 26
+- `2026-11-03` ██████████████████████████████ 30
+- `2026-11-04` ██████████████████████████████ 36
+- `2026-11-05` ██████████████████████████████ 30
+- `2026-11-06` ██████████████████████ 22
 
 ## What we heard
 
-- **Account access issues**: 12 (20%) (-17 WoW)
-- **Other / uncategorized**: 8 (13%) (-6 WoW)
-- **Subscription / billing / refund / cancel**: 7 (12%) (+4 WoW)
-- **Email Protocols (IMAP/SMTP/POP)**: 5 (8%) (+0 WoW)
-- **Aliases**: 4 (7%) (-8 WoW)
-- **Webmail**: 4 (7%) (+1 WoW)
-- **Early bird signup**: 4 (7%) (+1 WoW)
-- **Early bird / invite / waitlist**: 3 (5%) (+3 WoW)
+- **Account access issues**: 27 (19%) (+11 WoW)
+- **Subscription / billing / refund / cancel**: 20 (14%) (+12 WoW)
+- **Other / uncategorized**: 16 (11%) (+7 WoW)
+- **Aliases**: 15 (10%) (+9 WoW)
+- **Pricing**: 11 (8%) (+5 WoW)
+- **Webmail**: 10 (7%) (+6 WoW)
+- **Custom domain / DKIM / DNS**: 8 (6%) (+6 WoW)
+- **Request or complaint**: 5 (3%) (+3 WoW)
 
 ## Known problems
 
-- **[Tracker] Account refunded and canceled, purge queue** — 98 linked reports (11 open) (+3 new this wk)
-- **[mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts** — 2 open reports
-- **tbpro-add-on [1116]: Send - Uploads fail with "You don't have the key to…** — 2 linked reports (1 open) (-1 new this wk)
+- **[Tracker] Account refunded and canceled, purge queue** — 118 linked reports (17 open) (+7 new this wk)
+- **[Tracker] Who did we have to manually verify email for?** — 5 linked reports (1 open) (-1 new this wk)
+- **[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV** — 2 open reports
+- **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 2 linked reports (1 open) (-1 new this wk)
 - **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 2 linked reports (1 open)
 - **[routing/8] [domain] needs to be A record not CNAME** — 1 open report
 - **[send/1068] Uploading files fails with CORS and POST errors** — 1 open report
 - **[stormbox/131] Aliases are not tied to JMAP identities** — 1 open report
-- **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 1 open report
 ## New ideas this week
 
-- [Simplify DNS setup](https://ideas.tb.pro/p/simplify-dns-setup) · 1 vote(s)
-- [Use AI as personal assistant to managemy mail - let AI pre-read incoming messages, to sort them into broad categories, with a prompt line to guide its choices](https://ideas.tb.pro/p/use-ai-as-personal-assistant-to-managemy-mail-let-ai-pre-read-incoming-messages-to-sort-them-into-broad-categories-with-a-prompt-line-to-guide-its-choices) · 1 vote(s)
-- [usage of the email, and apps](https://ideas.tb.pro/p/usage-of-the-email-and-apps) · 1 vote(s)
+- [Server-side email filtering](https://ideas.tb.pro/p/server-side-email-filtering-52c61ffb-3a88-48bc-9861-40863f60f8a8) · 1 vote(s)
+- [Until you provide a way to contact Support, this is the only way to contact you](https://ideas.tb.pro/p/until-you-provide-a-way-to-contact-support-this-is-the-only-way-to-contact-you) · 1 vote(s)
+- [Can the new service replace an Outlook server?](https://ideas.tb.pro/p/can-the-new-service-replace-an-outlook-server) · 1 vote(s)
+- [Open Winmail.dat Files](https://ideas.tb.pro/p/open-winmail-dat-files) · 1 vote(s)
+- [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 2 vote(s)
+- [Pithier Domain Option](https://ideas.tb.pro/p/pithier-domain-option) · 1 vote(s)
+- [Make Thundermail a serious privacy competitor to Proton and Tuta](https://ideas.tb.pro/p/make-thundermail-a-serious-privacy-competitor-to-proton-and-tuta) · 1 vote(s)
+- [Compete with Fastmail.com](https://ideas.tb.pro/p/compete-with-fastmail-com) · 1 vote(s)
+- [Delay delivery of emails](https://ideas.tb.pro/p/delay-delivery-of-emails) · 1 vote(s)
 
 ---
 _**Legend:** ✅ CLEAR — no blockers, proceed · 🟡 WATCH — monitor before acting · 🔴 BLOCK — hold invites_
