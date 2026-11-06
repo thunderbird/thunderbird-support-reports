@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 15:14 ET** · refreshes hourly_  
+_Updated: **2026-11-06 16:16 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 89** of rollout — **35,000 invitees**, **1122 tickets** so f
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 94%  (202 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 130.8h · mean 155.5h (proxy: updated_at − created_at, 80 solved tickets)
+- **Median AHT**: 131.5h · mean 156.4h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -134,9 +134,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [closed] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [closed] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [closed] · 2026-10-25 · _account cancelation and refund request_
-  - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [solved] · 2026-10-27 · _delete my account_
+  - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [closed] · 2026-10-27 · _delete my account_
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [solved] · 2026-10-27 · _delete and cancel_
-  - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [solved] · 2026-10-27 · _Refund Request_
+  - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [closed] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [solved] · 2026-10-28 · _Delete account_
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [solved] · 2026-10-28 · _Cancel / refund_
@@ -146,7 +146,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [pending] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
-  - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [pending] · 2026-11-02 · _Spam_
+  - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [open] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [pending] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [solved] · 2026-11-02 · _Refund question_
   - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [pending] · 2026-11-03 · _Cancel subscription_
@@ -318,17 +318,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 870
-- **pending**: 135
-- **solved**: 80
-- **hold**: 21
-- **open**: 12
+- **closed**: 875
+- **pending**: 139
+- **solved**: 75
+- **hold**: 19
+- **open**: 10
 - **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 642
-- **Thundermail**: 382
+- **Account Hub**: 641
+- **Thundermail**: 383
 - **Send**: 22
 - **Appointment**: 14
 
@@ -341,8 +341,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 117
 - **confused** + **explained**: 92
 - **curious** + **informed**: 57
+- **confused** + **informed**: 50
 - **request** + **redirected**: 49
-- **confused** + **informed**: 49
 - **blocked** + **investigated**: 48
 - **blocked** + **redirected**: 48
 - **concerned** + **explained**: 31
@@ -468,11 +468,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10891](https://tbpro.zendesk.com/agent/tickets/10891)** · thundermail vs [domain]
   > Dear [name], I have been using TB for a couple of years and I like it. Now TB is pointing me to Thundermail. I have been reading the announcement info and have a question. We have…
 
-### Webmail — 1 tickets
-
-- **[#10886](https://tbpro.zendesk.com/agent/tickets/10886)** · Added custom domain (via catch-all alias), but it is unavailable in from field
-  > I tried it initially on webmail, and it isn't working. I then added my account to Thunderbird, and it still isn't available.
-
 ### Account access issues — wrong product, redirected to SUMO — 1 tickets
 
 - **[#10884](https://tbpro.zendesk.com/agent/tickets/10884)** · Send encryption  — why: **blocked** · how: **redirected**
@@ -482,6 +477,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10879](https://tbpro.zendesk.com/agent/tickets/10879)** · How to transfer my private domain users from [domain]
   > Hi, I am a big fan of Mozilla! As soon as I heard that you have a email service, I subscribed to it. Now, recently, I moved my domain email accounts with 3 users from Google…
+
+### Webmail — 1 tickets
+
+- **[#10886](https://tbpro.zendesk.com/agent/tickets/10886)** · Added custom domain (via catch-all alias), but it is unavailable in from field — why: **confused** · how: **informed**
+  > I tried it initially on webmail, and it isn't working. I then added my account to Thunderbird, and it still isn't available.
 
 ### Request or complaint — 1 tickets
 
@@ -503,7 +503,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05T23:11 · cancel my whole account
 - [10872](https://tbpro.zendesk.com/agent/tickets/10872) · [pending] · 2026-11-06T00:41 · Moving a domain w/ multiple users to thundermail
 - [10873](https://tbpro.zendesk.com/agent/tickets/10873) · [pending] · 2026-11-06T00:42 · Custom domain name not working
-- [10874](https://tbpro.zendesk.com/agent/tickets/10874) · [hold] · 2026-11-06T01:38 · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
+- [10874](https://tbpro.zendesk.com/agent/tickets/10874) · [pending] · 2026-11-06T01:38 · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
 - [10876](https://tbpro.zendesk.com/agent/tickets/10876) · [pending] · 2026-11-06T03:17 · DNS Records & Namecheap
 - [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06T03:58 · Cancellation + refund
 - [10878](https://tbpro.zendesk.com/agent/tickets/10878) · [pending] · 2026-11-06T04:01 · I can't even spell my own name - how to change account name if mis-spelled at setup.
@@ -511,12 +511,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10880](https://tbpro.zendesk.com/agent/tickets/10880) · [pending] · 2026-11-06T04:33 · krijg geen mail
 - [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [pending] · 2026-11-06T04:55 · Earlybird Discount?
 - [10884](https://tbpro.zendesk.com/agent/tickets/10884) · [open] · 2026-11-06T06:37 · Send encryption 
-- [10886](https://tbpro.zendesk.com/agent/tickets/10886) · [open] · 2026-11-06T07:59 · Added custom domain (via catch-all alias), but it is unavailable in from field
+- [10886](https://tbpro.zendesk.com/agent/tickets/10886) · [pending] · 2026-11-06T07:59 · Added custom domain (via catch-all alias), but it is unavailable in from field
 - [10887](https://tbpro.zendesk.com/agent/tickets/10887) · [pending] · 2026-11-06T08:32 · サンダーバードの設定
 - [10891](https://tbpro.zendesk.com/agent/tickets/10891) · [new] · 2026-11-06T11:04 · thundermail vs [domain]
 - [10893](https://tbpro.zendesk.com/agent/tickets/10893) · [open] · 2026-11-06T12:00 · Re: [Thundermail] imap/etc settings?
 - [10895](https://tbpro.zendesk.com/agent/tickets/10895) · [open] · 2026-11-06T14:24 · Folders
-- [10896](https://tbpro.zendesk.com/agent/tickets/10896) · [hold] · 2026-11-06T14:34 · Webmail is down for me
+- [10896](https://tbpro.zendesk.com/agent/tickets/10896) · [pending] · 2026-11-06T14:34 · Webmail is down for me
 - [10898](https://tbpro.zendesk.com/agent/tickets/10898) · [pending] · 2026-11-06T15:34 · Refund
 - [10900](https://tbpro.zendesk.com/agent/tickets/10900) · [open] · 2026-11-06T16:57 · Bookings
 - [10901](https://tbpro.zendesk.com/agent/tickets/10901) · [pending] · 2026-11-06T17:45 · Military Discount for Thundermail
