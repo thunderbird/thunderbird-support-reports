@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 10:15 ET** · refreshes hourly_  
+_Updated: **2026-11-06 11:16 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 89** of rollout — **35,000 invitees**, **1116 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 89** of rollout — **35,000 invitees**, **1117 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **22** new tickets in last 24h · **4** solved in last 24h
-- **1116** tickets total since launch · contact rate **3%** of 35000 invitees
+- **23** new tickets in last 24h · **7** solved in last 24h
+- **1117** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 94%  (202 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 133.4h · mean 157.8h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 133.4h · mean 156.8h (proxy: updated_at − created_at, 88 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -290,10 +290,12 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [open] · _Cancellation + refund_
   > Good evening! I bought a subscription to give it a try, but I don't think Thundermail is going to meet my needs. I would like the cancel my subscription and get a refund, if possible.
+- [10898](https://tbpro.zendesk.com/agent/tickets/10898) · [new] · _Refund_
+  > Hello, can I please have a refund for my subscription? While I love the idea of Thundermail, the price has me hesitating because I can get more from Fastmail for less with similar privacy terms.
 
 ## New ideas on FeatureOS
 
@@ -305,16 +307,16 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 861
-- **pending**: 111
-- **solved**: 86
-- **open**: 29
-- **hold**: 19
-- **new**: 10
+- **pending**: 114
+- **solved**: 88
+- **open**: 28
+- **hold**: 18
+- **new**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 639
-- **Thundermail**: 380
+- **Thundermail**: 381
 - **Send**: 22
 - **Appointment**: 13
 
@@ -325,12 +327,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 215
 - **change request** + **actioned**: 156
 - **blocked** + **explained**: 115
-- **confused** + **explained**: 91
+- **confused** + **explained**: 92
 - **curious** + **informed**: 57
 - **request** + **redirected**: 48
 - **blocked** + **investigated**: 48
 - **blocked** + **redirected**: 47
-- **confused** + **informed**: 45
+- **confused** + **informed**: 46
 - **concerned** + **explained**: 32
 - **confused** + **redirected**: 31
 - **blocked** + **informed**: 23
@@ -342,8 +344,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 9
 - **telling us** + **explained**: 8
 - **blocked** + **actioned**: 8
+- **concerned** + **investigated**: 8
 - **request** + **explained**: 7
-- **concerned** + **investigated**: 7
 - **curious** + **—**: 6
 - **curious** + **actioned**: 5
 - **concerned** + **escalated**: 4
@@ -392,6 +394,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10864](https://tbpro.zendesk.com/agent/tickets/10864)** · Question about migrating to Thundermail
   > Hi. I'm a long time Thunderbird user, and I'm thrilled to see that you are rolling out this hosted mail service. My question concerns migrating from my existing IMAP provider…
 
+### Subscription / billing / refund / cancel — 3 tickets
+
+- **[#10898](https://tbpro.zendesk.com/agent/tickets/10898)** · Refund
+  > Hello, can I please have a refund for my subscription? While I love the idea of Thundermail, the price has me hesitating because I can get more from Fastmail for less with similar…
+- **[#10881](https://tbpro.zendesk.com/agent/tickets/10881)** · Earlybird Discount?
+  > When I go to subscribe, the annual fee is $100, not the $72 I was promised. What has happened to the Earlybird discount?
+- **[#10877](https://tbpro.zendesk.com/agent/tickets/10877)** · Cancellation + refund
+  > Good evening! I bought a subscription to give it a try, but I don't think Thundermail is going to meet my needs. I would like the cancel my subscription and get a refund, if…
+
 ### Webmail — 3 tickets
 
 - **[#10896](https://tbpro.zendesk.com/agent/tickets/10896)** · Webmail is down for me
@@ -407,7 +418,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Is there currently any way for folders to automatically put emails from certain domains into them? Also, is there a way for emails received by email aliases to be put directly…
 - **[#10873](https://tbpro.zendesk.com/agent/tickets/10873)** · Custom domain name not working
   > Several people in my family want to setup a thundermail email address and use the same custom domain to set an email alias. We all want to use the custom domain "[domain]". One…
-- **[#10868](https://tbpro.zendesk.com/agent/tickets/10868)** · my custom domain email alias disappeared
+- **[#10868](https://tbpro.zendesk.com/agent/tickets/10868)** · my custom domain email alias disappeared — why: **concerned** · how: **investigated**
   > it was [email] it's gone from the aliases list
 
 ### Other / uncategorized — 3 tickets
@@ -418,13 +429,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > boor thunderbird
 - **[#10865](https://tbpro.zendesk.com/agent/tickets/10865)** · I'm looking for help reviving Thunderbird installs on my laptop and my wife's
   > I would like technical help restoring our Thunderbird emails
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#10881](https://tbpro.zendesk.com/agent/tickets/10881)** · Earlybird Discount?
-  > When I go to subscribe, the annual fee is $100, not the $72 I was promised. What has happened to the Earlybird discount?
-- **[#10877](https://tbpro.zendesk.com/agent/tickets/10877)** · Cancellation + refund
-  > Good evening! I bought a subscription to give it a try, but I don't think Thundermail is going to meet my needs. I would like the cancel my subscription and get a refund, if…
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
@@ -437,7 +441,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10870](https://tbpro.zendesk.com/agent/tickets/10870)** · change default account email
   > Stupidly I set up an account that goes to my wife as the primary account, not good. I did not understand how the process works. I need to purge and start again and change the…
-- **[#10866](https://tbpro.zendesk.com/agent/tickets/10866)** · Transferring Thundermail to my current Thunderbird install
+- **[#10866](https://tbpro.zendesk.com/agent/tickets/10866)** · Transferring Thundermail to my current Thunderbird install — why: **confused** · how: **informed**
   > I need to restore function to current Thunderbird installations - on my Win 11 laptop and my wife's Win7 laptop
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
@@ -459,8 +463,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10864](https://tbpro.zendesk.com/agent/tickets/10864) · [open] · 2026-11-05T21:26 · Question about migrating to Thundermail
 - [10865](https://tbpro.zendesk.com/agent/tickets/10865) · [open] · 2026-11-05T21:27 · I'm looking for help reviving Thunderbird installs on my laptop and my wife's
-- [10866](https://tbpro.zendesk.com/agent/tickets/10866) · [open] · 2026-11-05T21:48 · Transferring Thundermail to my current Thunderbird install
-- [10868](https://tbpro.zendesk.com/agent/tickets/10868) · [open] · 2026-11-05T22:42 · my custom domain email alias disappeared
+- [10866](https://tbpro.zendesk.com/agent/tickets/10866) · [pending] · 2026-11-05T21:48 · Transferring Thundermail to my current Thunderbird install
+- [10868](https://tbpro.zendesk.com/agent/tickets/10868) · [pending] · 2026-11-05T22:42 · my custom domain email alias disappeared
 - [10870](https://tbpro.zendesk.com/agent/tickets/10870) · [open] · 2026-11-05T22:59 · change default account email
 - [10871](https://tbpro.zendesk.com/agent/tickets/10871) · [open] · 2026-11-05T23:11 · cancel my whole account
 - [10872](https://tbpro.zendesk.com/agent/tickets/10872) · [new] · 2026-11-06T00:41 · Moving a domain w/ multiple users to thundermail
@@ -468,17 +472,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10874](https://tbpro.zendesk.com/agent/tickets/10874) · [open] · 2026-11-06T01:38 · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
 - [10876](https://tbpro.zendesk.com/agent/tickets/10876) · [open] · 2026-11-06T03:17 · DNS Records & Namecheap
 - [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [open] · 2026-11-06T03:58 · Cancellation + refund
-- [10878](https://tbpro.zendesk.com/agent/tickets/10878) · [new] · 2026-11-06T04:01 · I can't even spell my own name - how to change account name if mis-spelled at setup.
-- [10879](https://tbpro.zendesk.com/agent/tickets/10879) · [new] · 2026-11-06T04:20 · How to transfer my private domain users from [domain]
+- [10878](https://tbpro.zendesk.com/agent/tickets/10878) · [open] · 2026-11-06T04:01 · I can't even spell my own name - how to change account name if mis-spelled at setup.
+- [10879](https://tbpro.zendesk.com/agent/tickets/10879) · [open] · 2026-11-06T04:20 · How to transfer my private domain users from [domain]
 - [10880](https://tbpro.zendesk.com/agent/tickets/10880) · [new] · 2026-11-06T04:33 · krijg geen mail
 - [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [open] · 2026-11-06T04:55 · Earlybird Discount?
-- [10884](https://tbpro.zendesk.com/agent/tickets/10884) · [new] · 2026-11-06T06:37 · Send encryption 
+- [10884](https://tbpro.zendesk.com/agent/tickets/10884) · [open] · 2026-11-06T06:37 · Send encryption 
 - [10886](https://tbpro.zendesk.com/agent/tickets/10886) · [new] · 2026-11-06T07:59 · Added custom domain (via catch-all alias), but it is unavailable in from field
 - [10887](https://tbpro.zendesk.com/agent/tickets/10887) · [new] · 2026-11-06T08:32 · サンダーバードの設定
 - [10891](https://tbpro.zendesk.com/agent/tickets/10891) · [new] · 2026-11-06T11:04 · thundermail vs [domain]
 - [10893](https://tbpro.zendesk.com/agent/tickets/10893) · [open] · 2026-11-06T12:00 · Re: [Thundermail] imap/etc settings?
 - [10895](https://tbpro.zendesk.com/agent/tickets/10895) · [new] · 2026-11-06T14:24 · Folders
 - [10896](https://tbpro.zendesk.com/agent/tickets/10896) · [new] · 2026-11-06T14:34 · Webmail is down for me
+- [10898](https://tbpro.zendesk.com/agent/tickets/10898) · [new] · 2026-11-06T15:34 · Refund
 
 ## Solved — last 24h
 
@@ -486,6 +491,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-05T21:58 · gmail data transfer
 - · [10499](https://tbpro.zendesk.com/agent/tickets/10499) · 2026-11-06T06:41 · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-06T15:13 · ThunderMail Custom Domain Setup for Dreamhost
+- · [10582](https://tbpro.zendesk.com/agent/tickets/10582) · 2026-11-06T16:02 · Request for Complete Account Deletion
+- · [10623](https://tbpro.zendesk.com/agent/tickets/10623) · 2026-11-06T16:04 · QUERIES not in FAQ
+- · [10793](https://tbpro.zendesk.com/agent/tickets/10793) · 2026-11-06T16:06 · Remove my account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
