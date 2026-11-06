@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-05
 
-_Updated: **2026-11-05 21:20 ET** · refreshes hourly_  
+_Updated: **2026-11-05 22:17 ET** · refreshes hourly_  
 _24h window: 2026-11-04T16:00 → 2026-11-05T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -21,7 +21,7 @@ Flight 8 is **day 88** of rollout — **35,000 invitees**, **1103 tickets** so f
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"user name"** — 2 tickets in 24h (34.8× baseline; baseline 5 cum) — [#10837](https://tbpro.zendesk.com/agent/tickets/10837), [#10857](https://tbpro.zendesk.com/agent/tickets/10857)
-- **"previous request"** — 2 tickets in 24h (9.7× baseline; baseline 18 cum) — [#10815](https://tbpro.zendesk.com/agent/tickets/10815), [#10836](https://tbpro.zendesk.com/agent/tickets/10836)
+- **"follow previous request"** — 2 tickets in 24h (9.7× baseline; baseline 18 cum) — [#10815](https://tbpro.zendesk.com/agent/tickets/10815), [#10836](https://tbpro.zendesk.com/agent/tickets/10836)
 - **"look forward"** — 2 tickets in 24h (4.0× baseline; baseline 43 cum) — [#10825](https://tbpro.zendesk.com/agent/tickets/10825), [#10850](https://tbpro.zendesk.com/agent/tickets/10850)
 - **"best regards"** — 2 tickets in 24h (4.0× baseline; baseline 44 cum) — [#10819](https://tbpro.zendesk.com/agent/tickets/10819), [#10836](https://tbpro.zendesk.com/agent/tickets/10836)
 
@@ -301,9 +301,9 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 861
-- **pending**: 112
+- **pending**: 111
 - **solved**: 85
-- **open**: 23
+- **open**: 24
 - **hold**: 19
 - **new**: 3
 
