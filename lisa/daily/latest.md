@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 06:14 ET** · refreshes hourly_  
+_Updated: **2026-11-06 07:24 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 89** of rollout — **35,000 invitees**, **1113 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 89** of rollout — **35,000 invitees**, **1114 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **3** solved in last 24h
-- **1113** tickets total since launch · contact rate **3%** of 35000 invitees
+- **20** new tickets in last 24h · **3** solved in last 24h
+- **1114** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 94%  (202 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -306,14 +306,14 @@ Henning Gerken_
 - **closed**: 861
 - **pending**: 110
 - **solved**: 85
-- **open**: 30
+- **open**: 31
 - **hold**: 18
 - **new**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 639
-- **Thundermail**: 377
+- **Thundermail**: 378
 - **Send**: 22
 - **Appointment**: 13
 
@@ -321,7 +321,7 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 214
+- **curious** + **explained**: 215
 - **change request** + **actioned**: 156
 - **blocked** + **explained**: 115
 - **confused** + **explained**: 91
@@ -380,6 +380,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Email Protocols (IMAP/SMTP/POP) — 4 tickets
+
+- **[#10893](https://tbpro.zendesk.com/agent/tickets/10893)** · Re: [Thundermail] imap/etc settings? — why: **curious** · how: **explained**
+  > This is a follow-up to your previous request #9019 "imap/etc settings?" Hello, Do you know if Thundermail will be offering server side rules/filters? This would be incredibly…
+- **[#10874](https://tbpro.zendesk.com/agent/tickets/10874)** · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
+  > Hello sorry to bother you, I'm experiencing recurring problems accessing my mailbox through Thundermail's webmail interface, I haven't tried with other apps yet. The mailbox…
+- **[#10872](https://tbpro.zendesk.com/agent/tickets/10872)** · Moving a domain w/ multiple users to thundermail
+  > Hi- I currently host my own postfix / dovecot imap server for mail for my domains. My family each have an account [email] and [email] etc. I'm wondering if thundermail could…
+- **[#10864](https://tbpro.zendesk.com/agent/tickets/10864)** · Question about migrating to Thundermail
+  > Hi. I'm a long time Thunderbird user, and I'm thrilled to see that you are rolling out this hosted mail service. My question concerns migrating from my existing IMAP provider…
+
 ### Other / uncategorized — 3 tickets
 
 - **[#10887](https://tbpro.zendesk.com/agent/tickets/10887)** · サンダーバードの設定
@@ -388,15 +399,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > boor thunderbird
 - **[#10865](https://tbpro.zendesk.com/agent/tickets/10865)** · I'm looking for help reviving Thunderbird installs on my laptop and my wife's
   > I would like technical help restoring our Thunderbird emails
-
-### Email Protocols (IMAP/SMTP/POP) — 3 tickets
-
-- **[#10874](https://tbpro.zendesk.com/agent/tickets/10874)** · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
-  > Hello sorry to bother you, I'm experiencing recurring problems accessing my mailbox through Thundermail's webmail interface, I haven't tried with other apps yet. The mailbox…
-- **[#10872](https://tbpro.zendesk.com/agent/tickets/10872)** · Moving a domain w/ multiple users to thundermail
-  > Hi- I currently host my own postfix / dovecot imap server for mail for my domains. My family each have an account [email] and [email] etc. I'm wondering if thundermail could…
-- **[#10864](https://tbpro.zendesk.com/agent/tickets/10864)** · Question about migrating to Thundermail
-  > Hi. I'm a long time Thunderbird user, and I'm thrilled to see that you are rolling out this hosted mail service. My question concerns migrating from my existing IMAP provider…
 
 ### Webmail — 2 tickets
 
@@ -469,6 +471,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10886](https://tbpro.zendesk.com/agent/tickets/10886) · [new] · 2026-11-06T07:59 · Added custom domain (via catch-all alias), but it is unavailable in from field
 - [10887](https://tbpro.zendesk.com/agent/tickets/10887) · [new] · 2026-11-06T08:32 · サンダーバードの設定
 - [10891](https://tbpro.zendesk.com/agent/tickets/10891) · [new] · 2026-11-06T11:04 · thundermail vs [domain]
+- [10893](https://tbpro.zendesk.com/agent/tickets/10893) · [open] · 2026-11-06T12:00 · Re: [Thundermail] imap/etc settings?
 
 ## Solved — last 24h
 
