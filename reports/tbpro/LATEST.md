@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 16:16 ET** · refreshes hourly_  
+_Updated: **2026-11-06 17:21 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 89** of rollout — **35,000 invitees**, **1122 tickets** so f
 
 ## At a glance
 
-- **28** new tickets in last 24h · **12** solved in last 24h
+- **28** new tickets in last 24h · **10** solved in last 24h
 - **1122** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
-- **CSAT (since launch)**: 94%  (202 good / 12 bad)
+- **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 131.5h · mean 156.4h (proxy: updated_at − created_at, 75 solved tickets)
+- **Median AHT**: 131.5h · mean 156.7h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -146,7 +146,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [pending] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
-  - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [open] · 2026-11-02 · _Spam_
+  - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [pending] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [solved] · 2026-11-02 · _Refund question_
   - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [pending] · 2026-11-03 · _Cancel subscription_
@@ -318,11 +318,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 875
-- **pending**: 139
+- **closed**: 876
+- **pending**: 137
 - **solved**: 75
 - **hold**: 19
-- **open**: 10
+- **open**: 11
 - **new**: 4
 
 ## Service (cumulative)
@@ -395,14 +395,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 5 tickets
+### Aliases — 4 tickets
 
 - **[#10907](https://tbpro.zendesk.com/agent/tickets/10907)** · alias email doesn't appear in Send From list
   > Hi, I've created two alias 1. [email] 2. [email] I can send emails using the first one as it appears on the list in webmail, however, the second doesn't appear anywhere. How can I…
 - **[#10895](https://tbpro.zendesk.com/agent/tickets/10895)** · Folders
   > Is there currently any way for folders to automatically put emails from certain domains into them? Also, is there a way for emails received by email aliases to be put directly…
-- **[#10878](https://tbpro.zendesk.com/agent/tickets/10878)** · I can't even spell my own name - how to change account name if mis-spelled at setup. — why: **change request** · how: **actioned**
-  > I got my Thundermail working, paid my $76 for the year, for "[email]". Unfortunately, my name is [name] "Vanderlip", not "Kelvin Vanderlup". I need to change this account name.…
 - **[#10873](https://tbpro.zendesk.com/agent/tickets/10873)** · Custom domain name not working — why: **curious** · how: **explained**
   > Several people in my family want to setup a thundermail email address and use the same custom domain to set an email alias. We all want to use the custom domain "[domain]". One…
 - **[#10868](https://tbpro.zendesk.com/agent/tickets/10868)** · my custom domain email alias disappeared — why: **concerned** · how: **investigated**
@@ -423,10 +421,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10893](https://tbpro.zendesk.com/agent/tickets/10893)** · Re: [Thundermail] imap/etc settings? — why: **curious** · how: **explained**
   > This is a follow-up to your previous request #9019 "imap/etc settings?" Hello, Do you know if Thundermail will be offering server side rules/filters? This would be incredibly…
+- **[#10878](https://tbpro.zendesk.com/agent/tickets/10878)** · I can't even spell my own name - how to change account name if mis-spelled at setup. — why: **change request** · how: **actioned**
+  > I got my Thundermail working, paid my $76 for the year, for "[email]". Unfortunately, my name is [name] "Vanderlip", not "Kelvin Vanderlup". I need to change this account name.…
 - **[#10896](https://tbpro.zendesk.com/agent/tickets/10896)** · Webmail is down for me — why: **blocked** · how: **escalated**
   > When attempting to log into webmail, I get an error message: "Could not connect. JMAP session fetch failed: 525 " This happens on multiple computers and browsers. I have cleared…
-- **[#10876](https://tbpro.zendesk.com/agent/tickets/10876)** · DNS Records & Namecheap — why: **confused** · how: **informed**
-  > I am having difficulty adding the correct DNS records to Namecheap. Firstly, it is unclear to me what goes where. Under [domain]/settings/ Custom Domain Settings 4 fields are…
 - **[#10874](https://tbpro.zendesk.com/agent/tickets/10874)** · Recurring JMAP 525 SSL Handshake Errors – Webmail Access — why: **blocked** · how: **escalated**
   > Hello sorry to bother you, I'm experiencing recurring problems accessing my mailbox through Thundermail's webmail interface, I haven't tried with other apps yet. The mailbox…
 
@@ -436,6 +434,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Setting up Thundermail in existing Thunderbird Mail installation (updated). I get to the page as in subject above. I am not sure what email account this refers to. I have tried…
 - **[#10871](https://tbpro.zendesk.com/agent/tickets/10871)** · cancel my whole account — why: **change request** · how: **actioned**
   > I just found out I cannot have multiple separate email addresses each with their own login. This will not work for me. I will cancel my whole account.
+
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#10879](https://tbpro.zendesk.com/agent/tickets/10879)** · How to transfer my private domain users from [domain]
+  > Hi, I am a big fan of Mozilla! As soon as I heard that you have a email service, I subscribed to it. Now, recently, I moved my domain email accounts with 3 users from Google…
+- **[#10876](https://tbpro.zendesk.com/agent/tickets/10876)** · DNS Records & Namecheap — why: **confused** · how: **informed**
+  > I am having difficulty adding the correct DNS records to Namecheap. Firstly, it is unclear to me what goes where. Under [domain]/settings/ Custom Domain Settings 4 fields are…
 
 ### Pricing — general pricing concern — 2 tickets
 
@@ -473,11 +478,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10884](https://tbpro.zendesk.com/agent/tickets/10884)** · Send encryption  — why: **blocked** · how: **redirected**
   > Having set up send encryption at least for webmail, and having had a flash screen pop up on Thunderbird desktop on MacOS, and having had thunderbird then freeze and need to be…
 
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#10879](https://tbpro.zendesk.com/agent/tickets/10879)** · How to transfer my private domain users from [domain]
-  > Hi, I am a big fan of Mozilla! As soon as I heard that you have a email service, I subscribed to it. Now, recently, I moved my domain email accounts with 3 users from Google…
-
 ### Webmail — 1 tickets
 
 - **[#10886](https://tbpro.zendesk.com/agent/tickets/10886)** · Added custom domain (via catch-all alias), but it is unavailable in from field — why: **confused** · how: **informed**
@@ -504,9 +504,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10872](https://tbpro.zendesk.com/agent/tickets/10872) · [pending] · 2026-11-06T00:41 · Moving a domain w/ multiple users to thundermail
 - [10873](https://tbpro.zendesk.com/agent/tickets/10873) · [pending] · 2026-11-06T00:42 · Custom domain name not working
 - [10874](https://tbpro.zendesk.com/agent/tickets/10874) · [pending] · 2026-11-06T01:38 · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
-- [10876](https://tbpro.zendesk.com/agent/tickets/10876) · [pending] · 2026-11-06T03:17 · DNS Records & Namecheap
+- [10876](https://tbpro.zendesk.com/agent/tickets/10876) · [open] · 2026-11-06T03:17 · DNS Records & Namecheap
 - [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06T03:58 · Cancellation + refund
-- [10878](https://tbpro.zendesk.com/agent/tickets/10878) · [pending] · 2026-11-06T04:01 · I can't even spell my own name - how to change account name if mis-spelled at setup.
+- [10878](https://tbpro.zendesk.com/agent/tickets/10878) · [open] · 2026-11-06T04:01 · I can't even spell my own name - how to change account name if mis-spelled at setup.
 - [10879](https://tbpro.zendesk.com/agent/tickets/10879) · [open] · 2026-11-06T04:20 · How to transfer my private domain users from [domain]
 - [10880](https://tbpro.zendesk.com/agent/tickets/10880) · [pending] · 2026-11-06T04:33 · krijg geen mail
 - [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [pending] · 2026-11-06T04:55 · Earlybird Discount?
@@ -526,8 +526,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [10701](https://tbpro.zendesk.com/agent/tickets/10701) · 2026-11-05T21:20 · custom domain DNS SPF record
-- · [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-05T21:58 · gmail data transfer
 - · [10499](https://tbpro.zendesk.com/agent/tickets/10499) · 2026-11-06T06:41 · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-06T15:13 · ThunderMail Custom Domain Setup for Dreamhost
 - · [10582](https://tbpro.zendesk.com/agent/tickets/10582) · 2026-11-06T16:02 · Request for Complete Account Deletion
