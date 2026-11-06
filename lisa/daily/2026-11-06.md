@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 00:15 ET** · refreshes hourly_  
+_Updated: **2026-11-06 01:24 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -282,7 +282,7 @@ Regards, [name]_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [new] · _Cancellation + refund_
+- [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [open] · _Cancellation + refund_
   > Good evening! I bought a subscription to give it a try, but I don't think Thundermail is going to meet my needs. I would like the cancel my subscription and get a refund, if possible.
 
 ## New ideas on FeatureOS
@@ -297,9 +297,9 @@ Regards, [name]_
 - **closed**: 861
 - **pending**: 112
 - **solved**: 85
-- **open**: 25
+- **open**: 27
 - **hold**: 19
-- **new**: 7
+- **new**: 5
 
 ## Service (cumulative)
 
@@ -437,11 +437,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10873](https://tbpro.zendesk.com/agent/tickets/10873) · [open] · 2026-11-06T00:42 · Custom domain name not working
 - [10874](https://tbpro.zendesk.com/agent/tickets/10874) · [new] · 2026-11-06T01:38 · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
 - [10876](https://tbpro.zendesk.com/agent/tickets/10876) · [open] · 2026-11-06T03:17 · DNS Records & Namecheap
-- [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [new] · 2026-11-06T03:58 · Cancellation + refund
+- [10877](https://tbpro.zendesk.com/agent/tickets/10877) · [open] · 2026-11-06T03:58 · Cancellation + refund
 - [10878](https://tbpro.zendesk.com/agent/tickets/10878) · [new] · 2026-11-06T04:01 · I can't even spell my own name - how to change account name if mis-spelled at setup.
 - [10879](https://tbpro.zendesk.com/agent/tickets/10879) · [new] · 2026-11-06T04:20 · How to transfer my private domain users from [domain]
 - [10880](https://tbpro.zendesk.com/agent/tickets/10880) · [new] · 2026-11-06T04:33 · krijg geen mail
-- [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [new] · 2026-11-06T04:55 · Earlybird Discount?
+- [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [open] · 2026-11-06T04:55 · Earlybird Discount?
 
 ## Solved — last 24h
 
