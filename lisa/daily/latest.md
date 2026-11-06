@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 03:19 ET** · refreshes hourly_  
+_Updated: **2026-11-06 04:16 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 89** of rollout — **35,000 invitees**, **1111 tickets** so far (3.2% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 89** of rollout — **35,000 invitees**, **1112 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **3** solved in last 24h
-- **1111** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 95%  (202 good / 11 bad)
+- **18** new tickets in last 24h · **3** solved in last 24h
+- **1112** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 0%  (0 good / 1 bad)
+- **CSAT (since launch)**: 94%  (202 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 133.4h · mean 158.2h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 135.4h · mean 158.6h (proxy: updated_at − created_at, 85 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -279,6 +279,15 @@ I had to cancel... I am so sad I have to get back to gmail :((((( i wish we coul
   - Reason: **Other (please share more)** · Comment: _Je veux essayer thunder mail et bird
 I want try thunder mail and bird
 Regards, [name]_
+- 👎 [10632](https://tbpro.zendesk.com/agent/tickets/10632) · _Allgemeine Informationen
+
+Name 	Thunderbird
+Versi…_  
+  - Reason: **My issue wasn't resolved** · Comment: _Ich habe Thunderbird auch auf meinem Laptop und Smartphone und von beiden Geräten kann ich nicht mehr meine Mails bei t-online ([email]) anrufen.  Den Fehler habe ich nioch nicht gefunden.
+Wenn ich da das gleiche Passwort verwenden, wie bei Thunderbird auf dem Mac-PC, heißt es, falsches Passwort.
+Danke für Ihr Hilfe. 
+Mfg
+Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
@@ -296,15 +305,15 @@ Regards, [name]_
 
 - **closed**: 861
 - **pending**: 111
-- **solved**: 86
-- **open**: 28
+- **solved**: 85
+- **open**: 29
 - **hold**: 18
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 639
-- **Thundermail**: 375
+- **Thundermail**: 376
 - **Send**: 22
 - **Appointment**: 13
 
@@ -371,6 +380,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10887](https://tbpro.zendesk.com/agent/tickets/10887)** · サンダーバードの設定
+  > 初期設定に戻す方法を教えてください
+- **[#10880](https://tbpro.zendesk.com/agent/tickets/10880)** · krijg geen mail
+  > boor thunderbird
+- **[#10865](https://tbpro.zendesk.com/agent/tickets/10865)** · I'm looking for help reviving Thunderbird installs on my laptop and my wife's
+  > I would like technical help restoring our Thunderbird emails
+
 ### Email Protocols (IMAP/SMTP/POP) — 3 tickets
 
 - **[#10874](https://tbpro.zendesk.com/agent/tickets/10874)** · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
@@ -393,13 +411,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > When I go to subscribe, the annual fee is $100, not the $72 I was promised. What has happened to the Earlybird discount?
 - **[#10877](https://tbpro.zendesk.com/agent/tickets/10877)** · Cancellation + refund
   > Good evening! I bought a subscription to give it a try, but I don't think Thundermail is going to meet my needs. I would like the cancel my subscription and get a refund, if…
-
-### Other / uncategorized — 2 tickets
-
-- **[#10880](https://tbpro.zendesk.com/agent/tickets/10880)** · krijg geen mail
-  > boor thunderbird
-- **[#10865](https://tbpro.zendesk.com/agent/tickets/10865)** · I'm looking for help reviving Thunderbird installs on my laptop and my wife's
-  > I would like technical help restoring our Thunderbird emails
 
 ### Custom domain / DKIM / DNS — 2 tickets
 
@@ -451,6 +462,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [open] · 2026-11-06T04:55 · Earlybird Discount?
 - [10884](https://tbpro.zendesk.com/agent/tickets/10884) · [new] · 2026-11-06T06:37 · Send encryption 
 - [10886](https://tbpro.zendesk.com/agent/tickets/10886) · [new] · 2026-11-06T07:59 · Added custom domain (via catch-all alias), but it is unavailable in from field
+- [10887](https://tbpro.zendesk.com/agent/tickets/10887) · [new] · 2026-11-06T08:32 · サンダーバードの設定
 
 ## Solved — last 24h
 
