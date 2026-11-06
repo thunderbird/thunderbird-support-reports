@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 02:16 ET** · refreshes hourly_  
+_Updated: **2026-11-06 03:19 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 89** of rollout — **35,000 invitees**, **1110 tickets** so far (3.2% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 89** of rollout — **35,000 invitees**, **1111 tickets** so far (3.2% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **3** solved in last 24h
-- **1110** tickets total since launch · contact rate **3%** of 35000 invitees
+- **17** new tickets in last 24h · **3** solved in last 24h
+- **1111** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (202 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -20,7 +20,7 @@ Flight 8 is **day 89** of rollout — **35,000 invitees**, **1110 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"custom domain"** — 4 tickets in 24h (3.1× baseline; baseline 115 cum) — [#10868](https://tbpro.zendesk.com/agent/tickets/10868), [#10872](https://tbpro.zendesk.com/agent/tickets/10872), [#10873](https://tbpro.zendesk.com/agent/tickets/10873), [#10876](https://tbpro.zendesk.com/agent/tickets/10876)
+- **"custom domain"** — 5 tickets in 24h (3.8× baseline; baseline 115 cum) — [#10868](https://tbpro.zendesk.com/agent/tickets/10868), [#10872](https://tbpro.zendesk.com/agent/tickets/10872), [#10873](https://tbpro.zendesk.com/agent/tickets/10873), [#10876](https://tbpro.zendesk.com/agent/tickets/10876), [#10886](https://tbpro.zendesk.com/agent/tickets/10886)
 - **"change name"** — 2 tickets in 24h (new; baseline 0 cum) — [#10874](https://tbpro.zendesk.com/agent/tickets/10874), [#10878](https://tbpro.zendesk.com/agent/tickets/10878)
 - **"service jmap"** — 2 tickets in 24h (new; baseline 0 cum) — [#10874](https://tbpro.zendesk.com/agent/tickets/10874), [#10876](https://tbpro.zendesk.com/agent/tickets/10876)
 - **"laptop wife"** — 2 tickets in 24h (new; baseline 0 cum) — [#10865](https://tbpro.zendesk.com/agent/tickets/10865), [#10866](https://tbpro.zendesk.com/agent/tickets/10866)
@@ -299,11 +299,11 @@ Regards, [name]_
 - **solved**: 86
 - **open**: 28
 - **hold**: 18
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 638
+- **Account Hub**: 639
 - **Thundermail**: 375
 - **Send**: 22
 - **Appointment**: 13
@@ -380,6 +380,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10864](https://tbpro.zendesk.com/agent/tickets/10864)** · Question about migrating to Thundermail
   > Hi. I'm a long time Thunderbird user, and I'm thrilled to see that you are rolling out this hosted mail service. My question concerns migrating from my existing IMAP provider…
 
+### Webmail — 2 tickets
+
+- **[#10886](https://tbpro.zendesk.com/agent/tickets/10886)** · Added custom domain (via catch-all alias), but it is unavailable in from field
+  > I tried it initially on webmail, and it isn't working. I then added my account to Thunderbird, and it still isn't available.
+- **[#10884](https://tbpro.zendesk.com/agent/tickets/10884)** · Send encryption 
+  > Having set up send encryption at least for webmail, and having had a flash screen pop up on Thunderbird desktop on MacOS, and having had thunderbird then freeze and need to be…
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#10881](https://tbpro.zendesk.com/agent/tickets/10881)** · Earlybird Discount?
@@ -415,11 +422,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10866](https://tbpro.zendesk.com/agent/tickets/10866)** · Transferring Thundermail to my current Thunderbird install
   > I need to restore function to current Thunderbird installations - on my Win 11 laptop and my wife's Win7 laptop
 
-### Webmail — 1 tickets
-
-- **[#10884](https://tbpro.zendesk.com/agent/tickets/10884)** · Send encryption 
-  > Having set up send encryption at least for webmail, and having had a flash screen pop up on Thunderbird desktop on MacOS, and having had thunderbird then freeze and need to be…
-
 ### Account creation / signup confusion — 1 tickets
 
 - **[#10878](https://tbpro.zendesk.com/agent/tickets/10878)** · I can't even spell my own name - how to change account name if mis-spelled at setup.
@@ -448,6 +450,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10880](https://tbpro.zendesk.com/agent/tickets/10880) · [new] · 2026-11-06T04:33 · krijg geen mail
 - [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [open] · 2026-11-06T04:55 · Earlybird Discount?
 - [10884](https://tbpro.zendesk.com/agent/tickets/10884) · [new] · 2026-11-06T06:37 · Send encryption 
+- [10886](https://tbpro.zendesk.com/agent/tickets/10886) · [new] · 2026-11-06T07:59 · Added custom domain (via catch-all alias), but it is unavailable in from field
 
 ## Solved — last 24h
 
