@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 01:24 ET** · refreshes hourly_  
+_Updated: **2026-11-06 02:16 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 89** of rollout — **35,000 invitees**, **1109 tickets** so far (3.2% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 89** of rollout — **35,000 invitees**, **1110 tickets** so far (3.2% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **2** solved in last 24h
-- **1109** tickets total since launch · contact rate **3%** of 35000 invitees
+- **16** new tickets in last 24h · **3** solved in last 24h
+- **1110** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (202 good / 11 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 131.5h · mean 157.1h (proxy: updated_at − created_at, 85 solved tickets)
+- **Median AHT**: 133.4h · mean 158.2h (proxy: updated_at − created_at, 86 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -198,7 +198,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [hold] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
 
-### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265]: Contacts/CardDAV - Apple Contacts ignores vCard 4 contacts
+### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
 - 2 incident(s):
   - [#9284](https://tbpro.zendesk.com/agent/tickets/9284) · [hold] · 2026-09-29 · _Can't connect cardav to macOS_
@@ -211,7 +211,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
   - [#10620](https://tbpro.zendesk.com/agent/tickets/10620) · [solved] · 2026-10-30 · _Synchronization between Thundermail IMAP and Thundermail Webmail_
 
-### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [hold] · [tbpro-add-on/1116]: Send: Uploads fail with "You don't have the key to decrypt this container"
+### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [solved] · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [solved] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [solved] · 2026-10-23 · _Send does not work in Firefox_
@@ -295,17 +295,17 @@ Regards, [name]_
 ## Status breakdown (cumulative)
 
 - **closed**: 861
-- **pending**: 112
-- **solved**: 85
-- **open**: 27
-- **hold**: 19
-- **new**: 5
+- **pending**: 111
+- **solved**: 86
+- **open**: 28
+- **hold**: 18
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 638
 - **Thundermail**: 375
-- **Send**: 21
+- **Send**: 22
 - **Appointment**: 13
 
 ## Why × How (cumulative)
@@ -415,6 +415,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10866](https://tbpro.zendesk.com/agent/tickets/10866)** · Transferring Thundermail to my current Thunderbird install
   > I need to restore function to current Thunderbird installations - on my Win 11 laptop and my wife's Win7 laptop
 
+### Webmail — 1 tickets
+
+- **[#10884](https://tbpro.zendesk.com/agent/tickets/10884)** · Send encryption 
+  > Having set up send encryption at least for webmail, and having had a flash screen pop up on Thunderbird desktop on MacOS, and having had thunderbird then freeze and need to be…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#10878](https://tbpro.zendesk.com/agent/tickets/10878)** · I can't even spell my own name - how to change account name if mis-spelled at setup.
@@ -442,11 +447,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10879](https://tbpro.zendesk.com/agent/tickets/10879) · [new] · 2026-11-06T04:20 · How to transfer my private domain users from [domain]
 - [10880](https://tbpro.zendesk.com/agent/tickets/10880) · [new] · 2026-11-06T04:33 · krijg geen mail
 - [10881](https://tbpro.zendesk.com/agent/tickets/10881) · [open] · 2026-11-06T04:55 · Earlybird Discount?
+- [10884](https://tbpro.zendesk.com/agent/tickets/10884) · [new] · 2026-11-06T06:37 · Send encryption 
 
 ## Solved — last 24h
 
 - · [10701](https://tbpro.zendesk.com/agent/tickets/10701) · 2026-11-05T21:20 · custom domain DNS SPF record
 - · [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-05T21:58 · gmail data transfer
+- · [10499](https://tbpro.zendesk.com/agent/tickets/10499) · 2026-11-06T06:41 · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
