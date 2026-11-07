@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 01:21 ET** · refreshes hourly_  
+_Updated: **2026-11-07 02:13 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1124 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1125 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
-- **1124** tickets total since launch · contact rate **3%** of 35000 invitees
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **1125** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -302,10 +302,11 @@ _(none in last 24h)_
 - **solved**: 71
 - **hold**: 19
 - **open**: 12
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 641
+- **Account Hub**: 642
 - **Thundermail**: 385
 - **Send**: 22
 - **Appointment**: 14
@@ -373,8 +374,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account creation / signup confusion — 1 tickets
+### Account creation / signup confusion — 2 tickets
 
+- **[#10913](https://tbpro.zendesk.com/agent/tickets/10913)** · Account termination
+  > I want to cancel my subscription and get a refund right away. Thundermail service is not finished. Many features of a basic email service are not there. I set up to forward my…
 - **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
   > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
 
@@ -387,6 +390,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [10909](https://tbpro.zendesk.com/agent/tickets/10909) · [open] · 2026-11-06T22:30 · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
 - [10910](https://tbpro.zendesk.com/agent/tickets/10910) · [open] · 2026-11-06T22:31 · Setting up on Iphone Mail
+- [10913](https://tbpro.zendesk.com/agent/tickets/10913) · [new] · 2026-11-07T06:29 · Account termination
 
 ## Solved — last 24h
 
