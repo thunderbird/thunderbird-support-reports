@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 14:11 ET** · refreshes hourly_  
+_Updated: **2026-11-07 15:13 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1133 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1134 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **9** solved in last 24h
-- **1133** tickets total since launch · contact rate **3%** of 35000 invitees
+- **12** new tickets in last 24h · **16** solved in last 24h
+- **1134** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 130.8h · mean 161.5h (proxy: updated_at − created_at, 68 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **Median AHT**: 138.8h · mean 160.9h (proxy: updated_at − created_at, 73 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -291,23 +291,24 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [message source](https://ideas.tb.pro/p/message-source) · 1 votes · _Thundermail, Webmail_
+  > What you’d like to see Briefly describe the feature or improvement. full message source Why it matters What problem does this solve, or what benefit does it bring? I am a cyber security analyst and…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 884
-- **pending**: 135
-- **solved**: 68
+- **closed**: 886
+- **pending**: 128
+- **solved**: 73
 - **hold**: 19
 - **open**: 18
-- **new**: 9
+- **new**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 645
-- **Thundermail**: 387
+- **Thundermail**: 388
 - **Send**: 23
 - **Appointment**: 14
 
@@ -374,6 +375,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account creation / signup confusion — 3 tickets
+
+- **[#10933](https://tbpro.zendesk.com/agent/tickets/10933)** · Delete account
+  > I made an error in the spelling of this account's email name. I am kelvinvanderlip, not kelvinvanderlup. I started this process by logging in to Thundermail as [email]. Please…
+- **[#10913](https://tbpro.zendesk.com/agent/tickets/10913)** · Account termination
+  > I want to cancel my subscription and get a refund right away. Thundermail service is not finished. Many features of a basic email service are not there. I set up to forward my…
+- **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
+  > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#10924](https://tbpro.zendesk.com/agent/tickets/10924)** · Thunderbird Early access
@@ -387,13 +397,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Mein Passwort vergessen.
 - **[#10915](https://tbpro.zendesk.com/agent/tickets/10915)** · adresse
   > retouver mon adresse émail
-
-### Account creation / signup confusion — 2 tickets
-
-- **[#10913](https://tbpro.zendesk.com/agent/tickets/10913)** · Account termination
-  > I want to cancel my subscription and get a refund right away. Thundermail service is not finished. Many features of a basic email service are not there. I set up to forward my…
-- **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
-  > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
 
 ### Aliases — 1 tickets
 
@@ -433,6 +436,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10926](https://tbpro.zendesk.com/agent/tickets/10926) · [new] · 2026-11-07T17:20 · Delete Account
 - [10927](https://tbpro.zendesk.com/agent/tickets/10927) · [new] · 2026-11-07T17:29 · custom domain
 - [10928](https://tbpro.zendesk.com/agent/tickets/10928) · [new] · 2026-11-07T17:48 · Email Alias
+- [10933](https://tbpro.zendesk.com/agent/tickets/10933) · [new] · 2026-11-07T19:31 · Delete account
 
 ## Solved — last 24h
 
@@ -445,6 +449,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10704](https://tbpro.zendesk.com/agent/tickets/10704) · 2026-11-07T18:01 · Unable to choose email address
 - · [10639](https://tbpro.zendesk.com/agent/tickets/10639) · 2026-11-07T19:01 · Methods of payment
 - · [10403](https://tbpro.zendesk.com/agent/tickets/10403) · 2026-11-07T19:01 · Thunderbird fails to find server for ThunderMail POP3 setup
+- · [10697](https://tbpro.zendesk.com/agent/tickets/10697) · 2026-11-07T20:01 · Disregard last request for a refund
+- · [10662](https://tbpro.zendesk.com/agent/tickets/10662) · 2026-11-07T20:01 · refund
+- · [10661](https://tbpro.zendesk.com/agent/tickets/10661) · 2026-11-07T20:01 · app for android and download for Linux, 
+- · [10642](https://tbpro.zendesk.com/agent/tickets/10642) · 2026-11-07T20:01 · Sign in
+- · [10617](https://tbpro.zendesk.com/agent/tickets/10617) · 2026-11-07T20:01 · Pre-sales questions: IMAP, filtering, and forwarded-mail handling
+- · [10646](https://tbpro.zendesk.com/agent/tickets/10646) · 2026-11-07T20:01 · Kein Einloggen von einem anderen Rechner möglich
+- · [10605](https://tbpro.zendesk.com/agent/tickets/10605) · 2026-11-07T20:02 · Option to have text labels on buttons
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
