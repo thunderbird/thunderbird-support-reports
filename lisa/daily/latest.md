@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 16:12 ET** · refreshes hourly_  
+_Updated: **2026-11-07 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1135 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1137 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **16** solved in last 24h
-- **1135** tickets total since launch · contact rate **3%** of 35000 invitees
+- **13** new tickets in last 24h · **15** solved in last 24h
+- **1137** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.5h · mean 161.1h (proxy: updated_at − created_at, 78 solved tickets)
+- **Median AHT**: 140.7h · mean 162.3h (proxy: updated_at − created_at, 76 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -129,7 +129,7 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1135 tickets** so f
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [closed] · 2026-10-28 · _Delete account_
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [solved] · 2026-10-28 · _Cancel / refund_
-  - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [solved] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
+  - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [closed] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [solved] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [solved] · 2026-10-30 · _Refund_
   - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
@@ -299,17 +299,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 888
-- **pending**: 120
-- **solved**: 78
-- **hold**: 19
-- **open**: 19
-- **new**: 11
+- **closed**: 890
+- **pending**: 119
+- **solved**: 76
+- **open**: 21
+- **hold**: 18
+- **new**: 13
 
 ## Service (cumulative)
 
 - **Account Hub**: 646
-- **Thundermail**: 388
+- **Thundermail**: 390
 - **Send**: 23
 - **Appointment**: 14
 
@@ -445,7 +445,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [10587](https://tbpro.zendesk.com/agent/tickets/10587) · 2026-11-06T21:02 · setting up mail on my phone using POP
-- · [10688](https://tbpro.zendesk.com/agent/tickets/10688) · 2026-11-06T21:27 · Spam
 - · [10701](https://tbpro.zendesk.com/agent/tickets/10701) · 2026-11-06T22:02 · custom domain DNS SPF record
 - 👍 [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-06T22:11 · gmail data transfer
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-07T16:01 · ThunderMail Custom Domain Setup for Dreamhost
