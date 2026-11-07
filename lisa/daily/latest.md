@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 13:15 ET** · refreshes hourly_  
+_Updated: **2026-11-07 14:11 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1133 tickets** so f
 
 ## At a glance
 
-- **11** new tickets in last 24h · **7** solved in last 24h
+- **11** new tickets in last 24h · **9** solved in last 24h
 - **1133** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 130.2h · mean 158.1h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 130.8h · mean 161.5h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -297,9 +297,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 883
-- **pending**: 137
-- **solved**: 67
+- **closed**: 884
+- **pending**: 135
+- **solved**: 68
 - **hold**: 19
 - **open**: 18
 - **new**: 9
@@ -443,6 +443,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-07T16:01 · ThunderMail Custom Domain Setup for Dreamhost
 - · [10793](https://tbpro.zendesk.com/agent/tickets/10793) · 2026-11-07T17:01 · Remove my account
 - · [10704](https://tbpro.zendesk.com/agent/tickets/10704) · 2026-11-07T18:01 · Unable to choose email address
+- · [10639](https://tbpro.zendesk.com/agent/tickets/10639) · 2026-11-07T19:01 · Methods of payment
+- · [10403](https://tbpro.zendesk.com/agent/tickets/10403) · 2026-11-07T19:01 · Thunderbird fails to find server for ThunderMail POP3 setup
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
