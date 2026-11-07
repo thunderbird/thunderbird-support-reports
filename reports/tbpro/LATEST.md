@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 07:18 ET** · refreshes hourly_  
+_Updated: **2026-11-07 08:12 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1126 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1127 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **1126** tickets total since launch · contact rate **3%** of 35000 invitees
+- **5** new tickets in last 24h · **4** solved in last 24h
+- **1127** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -298,15 +298,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 879
-- **pending**: 143
+- **pending**: 142
 - **solved**: 71
 - **hold**: 19
-- **open**: 12
-- **new**: 2
+- **open**: 13
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 643
+- **Account Hub**: 644
 - **Thundermail**: 385
 - **Send**: 22
 - **Appointment**: 14
@@ -381,6 +381,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
   > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
 
+### Account access issues — 1 tickets
+
+- **[#10919](https://tbpro.zendesk.com/agent/tickets/10919)** · Need to reset my thundermail account
+  > I cannot remember my thundermail account and when I was trying to reset it the reset password email instruction is sending through my thundermail which i don't have access right…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#10915](https://tbpro.zendesk.com/agent/tickets/10915)** · adresse
@@ -397,6 +402,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10910](https://tbpro.zendesk.com/agent/tickets/10910) · [open] · 2026-11-06T22:31 · Setting up on Iphone Mail
 - [10913](https://tbpro.zendesk.com/agent/tickets/10913) · [new] · 2026-11-07T06:29 · Account termination
 - [10915](https://tbpro.zendesk.com/agent/tickets/10915) · [new] · 2026-11-07T10:24 · adresse
+- [10919](https://tbpro.zendesk.com/agent/tickets/10919) · [new] · 2026-11-07T12:25 · Need to reset my thundermail account
 
 ## Solved — last 24h
 
