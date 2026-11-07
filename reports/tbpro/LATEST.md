@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 18:39 ET** · refreshes hourly_  
+_Updated: **2026-11-06 20:06 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 89** of rollout — **35,000 invitees**, **1124 tickets** so f
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 131.5h · mean 157.5h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 133.4h · mean 157.9h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -135,7 +135,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [closed] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [closed] · 2026-10-25 · _account cancelation and refund request_
   - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [closed] · 2026-10-27 · _delete my account_
-  - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [solved] · 2026-10-27 · _delete and cancel_
+  - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [closed] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [closed] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [solved] · 2026-10-28 · _Delete account_
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
@@ -318,11 +318,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 878
-- **pending**: 143
-- **solved**: 73
+- **closed**: 879
+- **pending**: 144
+- **solved**: 72
 - **hold**: 19
-- **open**: 11
+- **open**: 10
 
 ## Service (cumulative)
 
@@ -340,7 +340,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 117
 - **confused** + **explained**: 92
 - **curious** + **informed**: 58
-- **confused** + **informed**: 50
+- **confused** + **informed**: 51
 - **request** + **redirected**: 49
 - **blocked** + **investigated**: 48
 - **blocked** + **redirected**: 48
@@ -462,11 +462,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10866](https://tbpro.zendesk.com/agent/tickets/10866)** · Transferring Thundermail to my current Thunderbird install — why: **confused** · how: **informed**
   > I need to restore function to current Thunderbird installations - on my Win 11 laptop and my wife's Win7 laptop
 
-### Appointment / calendar — 1 tickets
-
-- **[#10900](https://tbpro.zendesk.com/agent/tickets/10900)** · Bookings
-  > Zoom is my linked app. However the calendar does not show my Zoom bookings. It looks like I am available when I am not. How do I sync?
-
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#10891](https://tbpro.zendesk.com/agent/tickets/10891)** · thundermail vs [domain]
@@ -476,6 +471,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#10884](https://tbpro.zendesk.com/agent/tickets/10884)** · Send encryption  — why: **blocked** · how: **redirected**
   > Having set up send encryption at least for webmail, and having had a flash screen pop up on Thunderbird desktop on MacOS, and having had thunderbird then freeze and need to be…
+
+### Appointment / calendar — 1 tickets
+
+- **[#10900](https://tbpro.zendesk.com/agent/tickets/10900)** · Bookings — why: **confused** · how: **informed**
+  > Zoom is my linked app. However the calendar does not show my Zoom bookings. It looks like I am available when I am not. How do I sync?
 
 ### Webmail — 1 tickets
 
@@ -517,7 +517,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10895](https://tbpro.zendesk.com/agent/tickets/10895) · [pending] · 2026-11-06T14:24 · Folders
 - [10896](https://tbpro.zendesk.com/agent/tickets/10896) · [pending] · 2026-11-06T14:34 · Webmail is down for me
 - [10898](https://tbpro.zendesk.com/agent/tickets/10898) · [pending] · 2026-11-06T15:34 · Refund
-- [10900](https://tbpro.zendesk.com/agent/tickets/10900) · [open] · 2026-11-06T16:57 · Bookings
+- [10900](https://tbpro.zendesk.com/agent/tickets/10900) · [pending] · 2026-11-06T16:57 · Bookings
 - [10901](https://tbpro.zendesk.com/agent/tickets/10901) · [pending] · 2026-11-06T17:45 · Military Discount for Thundermail
 - [10903](https://tbpro.zendesk.com/agent/tickets/10903) · [open] · 2026-11-06T17:51 · I have an account, at least 10 years old.
 - [10906](https://tbpro.zendesk.com/agent/tickets/10906) · [open] · 2026-11-06T19:33 · Enter your email account password?
