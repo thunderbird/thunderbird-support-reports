@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-06
 
-_Updated: **2026-11-06 21:21 ET** · refreshes hourly_  
+_Updated: **2026-11-06 22:16 ET** · refreshes hourly_  
 _24h window: 2026-11-05T16:00 → 2026-11-06T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 89** of rollout — **35,000 invitees**, **1124 tickets** so f
 
 ## At a glance
 
-- **28** new tickets in last 24h · **10** solved in last 24h
+- **28** new tickets in last 24h · **9** solved in last 24h
 - **1124** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 0%  (0 good / 1 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 133.4h · mean 157.9h (proxy: updated_at − created_at, 72 solved tickets)
+- **Median AHT**: 131.5h · mean 157.9h (proxy: updated_at − created_at, 71 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -320,9 +320,9 @@ Henning Gerken_
 
 - **closed**: 879
 - **pending**: 144
-- **solved**: 72
+- **solved**: 71
 - **hold**: 19
-- **open**: 10
+- **open**: 11
 
 ## Service (cumulative)
 
@@ -528,7 +528,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10499](https://tbpro.zendesk.com/agent/tickets/10499) · 2026-11-06T06:41 · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-06T15:13 · ThunderMail Custom Domain Setup for Dreamhost
 - · [10582](https://tbpro.zendesk.com/agent/tickets/10582) · 2026-11-06T16:02 · Request for Complete Account Deletion
-- · [10623](https://tbpro.zendesk.com/agent/tickets/10623) · 2026-11-06T16:04 · QUERIES not in FAQ
 - · [10793](https://tbpro.zendesk.com/agent/tickets/10793) · 2026-11-06T16:06 · Remove my account
 - · [10704](https://tbpro.zendesk.com/agent/tickets/10704) · 2026-11-06T17:39 · Unable to choose email address
 - · [10836](https://tbpro.zendesk.com/agent/tickets/10836) · 2026-11-06T18:01 · Thunderbird Pro Charge
