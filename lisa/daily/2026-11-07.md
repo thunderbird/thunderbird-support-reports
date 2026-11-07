@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 15:13 ET** · refreshes hourly_  
+_Updated: **2026-11-07 16:12 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1134 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1135 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **16** solved in last 24h
-- **1134** tickets total since launch · contact rate **3%** of 35000 invitees
+- **13** new tickets in last 24h · **16** solved in last 24h
+- **1135** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 138.8h · mean 160.9h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 139.5h · mean 161.1h (proxy: updated_at − created_at, 78 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -126,14 +126,14 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1134 tickets** so f
   - [#10516](https://tbpro.zendesk.com/agent/tickets/10516) · [closed] · 2026-10-27 · _delete my account_
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [closed] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [closed] · 2026-10-27 · _Refund Request_
-  - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [solved] · 2026-10-28 · _Delete account_
+  - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [closed] · 2026-10-28 · _Delete account_
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [solved] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [solved] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [solved] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [solved] · 2026-10-30 · _Refund_
   - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
-  - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [pending] · 2026-11-01 · _Delete account_
+  - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [solved] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [open] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [pending] · 2026-11-02 · _cancel account_
@@ -285,9 +285,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10935](https://tbpro.zendesk.com/agent/tickets/10935) · [new] · _Account cancellation_
+  > Hi, I like Mozilla products and I immediately signed up for ThunderMail account, hoping that I could bring my domain where we have three users to ThnderMail. However, it appears that currently, you have only aliases and…
 
 ## New ideas on FeatureOS
 
@@ -298,16 +299,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 886
-- **pending**: 128
-- **solved**: 73
+- **closed**: 888
+- **pending**: 120
+- **solved**: 78
 - **hold**: 19
-- **open**: 18
-- **new**: 10
+- **open**: 19
+- **new**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 645
+- **Account Hub**: 646
 - **Thundermail**: 388
 - **Send**: 23
 - **Appointment**: 14
@@ -384,6 +385,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
   > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
 
+### Aliases — 2 tickets
+
+- **[#10935](https://tbpro.zendesk.com/agent/tickets/10935)** · Account cancellation
+  > Hi, I like Mozilla products and I immediately signed up for ThunderMail account, hoping that I could bring my domain where we have three users to ThnderMail. However, it appears…
+- **[#10928](https://tbpro.zendesk.com/agent/tickets/10928)** · Email Alias
+  > Why can I not use discord as a name with my custom domain but something like steam?
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#10924](https://tbpro.zendesk.com/agent/tickets/10924)** · Thunderbird Early access
@@ -397,11 +405,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Mein Passwort vergessen.
 - **[#10915](https://tbpro.zendesk.com/agent/tickets/10915)** · adresse
   > retouver mon adresse émail
-
-### Aliases — 1 tickets
-
-- **[#10928](https://tbpro.zendesk.com/agent/tickets/10928)** · Email Alias
-  > Why can I not use discord as a name with my custom domain but something like steam?
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -437,6 +440,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10927](https://tbpro.zendesk.com/agent/tickets/10927) · [new] · 2026-11-07T17:29 · custom domain
 - [10928](https://tbpro.zendesk.com/agent/tickets/10928) · [new] · 2026-11-07T17:48 · Email Alias
 - [10933](https://tbpro.zendesk.com/agent/tickets/10933) · [new] · 2026-11-07T19:31 · Delete account
+- [10935](https://tbpro.zendesk.com/agent/tickets/10935) · [new] · 2026-11-07T20:31 · Account cancellation
 
 ## Solved — last 24h
 
