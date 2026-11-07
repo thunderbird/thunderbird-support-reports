@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 12:12 ET** · refreshes hourly_  
+_Updated: **2026-11-07 13:15 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1130 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1133 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **6** solved in last 24h
-- **1130** tickets total since launch · contact rate **3%** of 35000 invitees
+- **11** new tickets in last 24h · **7** solved in last 24h
+- **1133** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 130.2h · mean 157.8h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 130.2h · mean 158.1h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -134,7 +134,7 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1130 tickets** so f
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [solved] · 2026-10-30 · _Refund_
   - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [pending] · 2026-10-30 · _New Subscription Cancellation Information_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [pending] · 2026-11-01 · _Delete account_
-  - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
+  - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [open] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [pending] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [solved] · 2026-11-02 · _Refund question_
@@ -298,16 +298,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 883
-- **pending**: 139
+- **pending**: 137
 - **solved**: 67
 - **hold**: 19
-- **open**: 16
-- **new**: 6
+- **open**: 18
+- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 644
-- **Thundermail**: 386
+- **Account Hub**: 645
+- **Thundermail**: 387
 - **Send**: 23
 - **Appointment**: 14
 
@@ -395,6 +395,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
   > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
 
+### Aliases — 1 tickets
+
+- **[#10928](https://tbpro.zendesk.com/agent/tickets/10928)** · Email Alias
+  > Why can I not use discord as a name with my custom domain but something like steam?
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#10927](https://tbpro.zendesk.com/agent/tickets/10927)** · custom domain
+  > I am getting ready to set up [domain], which has several email addresses like john and Nancy. Will those be able to be set up? How many emails at [domain] can be used
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#10926](https://tbpro.zendesk.com/agent/tickets/10926)** · Delete Account
+  > I would like to delete my account
+
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
 - **[#10921](https://tbpro.zendesk.com/agent/tickets/10921)** · not sending
@@ -415,6 +430,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10920](https://tbpro.zendesk.com/agent/tickets/10920) · [new] · 2026-11-07T14:24 · Passwort 
 - [10921](https://tbpro.zendesk.com/agent/tickets/10921) · [new] · 2026-11-07T14:29 · not sending
 - [10924](https://tbpro.zendesk.com/agent/tickets/10924) · [new] · 2026-11-07T17:04 · Thunderbird Early access
+- [10926](https://tbpro.zendesk.com/agent/tickets/10926) · [new] · 2026-11-07T17:20 · Delete Account
+- [10927](https://tbpro.zendesk.com/agent/tickets/10927) · [new] · 2026-11-07T17:29 · custom domain
+- [10928](https://tbpro.zendesk.com/agent/tickets/10928) · [new] · 2026-11-07T17:48 · Email Alias
 
 ## Solved — last 24h
 
@@ -424,6 +442,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-06T22:11 · gmail data transfer
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-07T16:01 · ThunderMail Custom Domain Setup for Dreamhost
 - · [10793](https://tbpro.zendesk.com/agent/tickets/10793) · 2026-11-07T17:01 · Remove my account
+- · [10704](https://tbpro.zendesk.com/agent/tickets/10704) · 2026-11-07T18:01 · Unable to choose email address
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
