@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 10:12 ET** · refreshes hourly_  
+_Updated: **2026-11-07 11:14 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1129 tickets** so f
 
 ## At a glance
 
-- **7** new tickets in last 24h · **4** solved in last 24h
+- **7** new tickets in last 24h · **5** solved in last 24h
 - **1129** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 130.2h · mean 156.9h (proxy: updated_at − created_at, 69 solved tickets)
+- **Median AHT**: 130.8h · mean 158.2h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -297,11 +297,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 881
-- **pending**: 142
-- **solved**: 69
+- **closed**: 882
+- **pending**: 140
+- **solved**: 68
 - **hold**: 19
-- **open**: 13
+- **open**: 15
 - **new**: 5
 
 ## Service (cumulative)
@@ -419,6 +419,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10688](https://tbpro.zendesk.com/agent/tickets/10688) · 2026-11-06T21:27 · Spam
 - · [10701](https://tbpro.zendesk.com/agent/tickets/10701) · 2026-11-06T22:02 · custom domain DNS SPF record
 - 👍 [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-06T22:11 · gmail data transfer
+- · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-07T16:01 · ThunderMail Custom Domain Setup for Dreamhost
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
