@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 09:13 ET** · refreshes hourly_  
+_Updated: **2026-11-07 10:12 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1127 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1129 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **4** solved in last 24h
-- **1127** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **7** new tickets in last 24h · **4** solved in last 24h
+- **1129** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 131.5h · mean 157.9h (proxy: updated_at − created_at, 71 solved tickets)
+- **Median AHT**: 130.2h · mean 156.9h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -210,7 +210,7 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1127 tickets** so f
 ### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [solved] · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [solved] · 2026-10-13 · _Re: [Thundermail] Re: Send_
-  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [solved] · 2026-10-23 · _Send does not work in Firefox_
+  - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [closed] · 2026-10-23 · _Send does not work in Firefox_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -297,18 +297,18 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 879
+- **closed**: 881
 - **pending**: 142
-- **solved**: 71
+- **solved**: 69
 - **hold**: 19
 - **open**: 13
-- **new**: 3
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 644
 - **Thundermail**: 385
-- **Send**: 22
+- **Send**: 23
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -374,6 +374,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#10920](https://tbpro.zendesk.com/agent/tickets/10920)** · Passwort 
+  > Mein Passwort vergessen.
+- **[#10915](https://tbpro.zendesk.com/agent/tickets/10915)** · adresse
+  > retouver mon adresse émail
+
 ### Account creation / signup confusion — 2 tickets
 
 - **[#10913](https://tbpro.zendesk.com/agent/tickets/10913)** · Account termination
@@ -381,15 +388,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10910](https://tbpro.zendesk.com/agent/tickets/10910)** · Setting up on Iphone Mail
   > Can't seem to get my new account set up on Iphone 13 Pro and not sure what setting should be used in Outgoing Mail Server Authentication.... I have the "Use SSL" button turned on…
 
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#10921](https://tbpro.zendesk.com/agent/tickets/10921)** · not sending
+  > I finished adding my thundermail account and sent several test emails to my connected gmail account but none have been received. Mail sent from my gmail account to thundermail…
+
 ### Account access issues — 1 tickets
 
 - **[#10919](https://tbpro.zendesk.com/agent/tickets/10919)** · Need to reset my thundermail account
   > I cannot remember my thundermail account and when I was trying to reset it the reset password email instruction is sending through my thundermail which i don't have access right…
-
-### Other / uncategorized — 1 tickets
-
-- **[#10915](https://tbpro.zendesk.com/agent/tickets/10915)** · adresse
-  > retouver mon adresse émail
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -403,6 +410,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10913](https://tbpro.zendesk.com/agent/tickets/10913) · [new] · 2026-11-07T06:29 · Account termination
 - [10915](https://tbpro.zendesk.com/agent/tickets/10915) · [new] · 2026-11-07T10:24 · adresse
 - [10919](https://tbpro.zendesk.com/agent/tickets/10919) · [new] · 2026-11-07T12:25 · Need to reset my thundermail account
+- [10920](https://tbpro.zendesk.com/agent/tickets/10920) · [new] · 2026-11-07T14:24 · Passwort 
+- [10921](https://tbpro.zendesk.com/agent/tickets/10921) · [new] · 2026-11-07T14:29 · not sending
 
 ## Solved — last 24h
 
