@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-07 18:12 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1137 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1139 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **15** solved in last 24h
-- **1137** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1139** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 140.7h · mean 162.3h (proxy: updated_at − created_at, 76 solved tickets)
+- **Median AHT**: 139.8h · mean 162.0h (proxy: updated_at − created_at, 75 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -128,7 +128,7 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1137 tickets** so f
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [closed] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [closed] · 2026-10-28 · _Delete account_
   - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
-  - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [solved] · 2026-10-28 · _Cancel / refund_
+  - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [closed] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [closed] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [solved] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [solved] · 2026-10-30 · _Refund_
@@ -299,17 +299,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 890
-- **pending**: 119
-- **solved**: 76
+- **closed**: 893
+- **pending**: 117
+- **solved**: 75
 - **open**: 21
 - **hold**: 18
-- **new**: 13
+- **new**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 646
-- **Thundermail**: 390
+- **Account Hub**: 647
+- **Thundermail**: 391
 - **Send**: 23
 - **Appointment**: 14
 
