@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 11:14 ET** · refreshes hourly_  
+_Updated: **2026-11-07 12:12 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1129 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1130 tickets** so far (3.2% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **5** solved in last 24h
-- **1129** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **8** new tickets in last 24h · **6** solved in last 24h
+- **1130** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 130.8h · mean 158.2h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 130.2h · mean 157.8h (proxy: updated_at − created_at, 67 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -297,17 +297,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 882
-- **pending**: 140
-- **solved**: 68
+- **closed**: 883
+- **pending**: 139
+- **solved**: 67
 - **hold**: 19
-- **open**: 15
-- **new**: 5
+- **open**: 16
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 644
-- **Thundermail**: 385
+- **Thundermail**: 386
 - **Send**: 23
 - **Appointment**: 14
 
@@ -374,6 +374,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#10924](https://tbpro.zendesk.com/agent/tickets/10924)** · Thunderbird Early access
+  > How much mail storage does this paid one offer vs the current free version I have now? If I sign up, do I need to set up all my email boxes over again in the paid version?
+- **[#10909](https://tbpro.zendesk.com/agent/tickets/10909)** · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
+  > I have just subscribed to Thundermail Early Bird. Are the 15 Email Addresses and 3 Custom Domains already available? How would I get access to them?
+
 ### Other / uncategorized — 2 tickets
 
 - **[#10920](https://tbpro.zendesk.com/agent/tickets/10920)** · Passwort 
@@ -398,11 +405,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10919](https://tbpro.zendesk.com/agent/tickets/10919)** · Need to reset my thundermail account
   > I cannot remember my thundermail account and when I was trying to reset it the reset password email instruction is sending through my thundermail which i don't have access right…
 
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#10909](https://tbpro.zendesk.com/agent/tickets/10909)** · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
-  > I have just subscribed to Thundermail Early Bird. Are the 15 Email Addresses and 3 Custom Domains already available? How would I get access to them?
-
 ## New tickets — last 24h
 
 - [10909](https://tbpro.zendesk.com/agent/tickets/10909) · [open] · 2026-11-06T22:30 · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
@@ -412,6 +414,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10919](https://tbpro.zendesk.com/agent/tickets/10919) · [new] · 2026-11-07T12:25 · Need to reset my thundermail account
 - [10920](https://tbpro.zendesk.com/agent/tickets/10920) · [new] · 2026-11-07T14:24 · Passwort 
 - [10921](https://tbpro.zendesk.com/agent/tickets/10921) · [new] · 2026-11-07T14:29 · not sending
+- [10924](https://tbpro.zendesk.com/agent/tickets/10924) · [new] · 2026-11-07T17:04 · Thunderbird Early access
 
 ## Solved — last 24h
 
@@ -420,6 +423,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10701](https://tbpro.zendesk.com/agent/tickets/10701) · 2026-11-06T22:02 · custom domain DNS SPF record
 - 👍 [10684](https://tbpro.zendesk.com/agent/tickets/10684) · 2026-11-06T22:11 · gmail data transfer
 - · [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-07T16:01 · ThunderMail Custom Domain Setup for Dreamhost
+- · [10793](https://tbpro.zendesk.com/agent/tickets/10793) · 2026-11-07T17:01 · Remove my account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
