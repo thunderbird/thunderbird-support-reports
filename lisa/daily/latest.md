@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-07
 
-_Updated: **2026-11-07 18:12 ET** · refreshes hourly_  
+_Updated: **2026-11-07 19:38 ET** · refreshes hourly_  
 _24h window: 2026-11-06T16:00 → 2026-11-07T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 90** of rollout — **35,000 invitees**, **1139 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 90** of rollout — **35,000 invitees**, **1140 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
 - **13** new tickets in last 24h · **15** solved in last 24h
-- **1139** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1140** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (203 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 162.0h (proxy: updated_at − created_at, 75 solved tickets)
+- **Median AHT**: 139.8h · mean 161.8h (proxy: updated_at − created_at, 77 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -25,7 +25,7 @@ Flight 8 is **day 90** of rollout — **35,000 invitees**, **1139 tickets** so f
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [closed] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
-  - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [pending] · 2026-10-31 · _Thundermail acces_
+  - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [solved] · 2026-10-31 · _Thundermail acces_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -300,15 +300,15 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 893
-- **pending**: 117
-- **solved**: 75
+- **pending**: 115
+- **solved**: 77
 - **open**: 21
 - **hold**: 18
-- **new**: 15
+- **new**: 16
 
 ## Service (cumulative)
 
-- **Account Hub**: 647
+- **Account Hub**: 648
 - **Thundermail**: 391
 - **Send**: 23
 - **Appointment**: 14
