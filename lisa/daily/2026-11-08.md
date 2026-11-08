@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-08
 
-_Updated: **2026-11-08 11:13 ET** · refreshes hourly_  
+_Updated: **2026-11-08 12:11 ET** · refreshes hourly_  
 _24h window: 2026-11-07T16:00 → 2026-11-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 91** of rollout — **35,000 invitees**, **1145 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 91** of rollout — **35,000 invitees**, **1146 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **13** solved in last 24h
-- **1145** tickets total since launch · contact rate **3%** of 35000 invitees
+- **11** new tickets in last 24h · **15** solved in last 24h
+- **1146** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 75%  (3 good / 1 bad)
 - **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 139.3h · mean 158.4h (proxy: updated_at − created_at, 72 solved tickets)
+- **Median AHT**: 139.8h · mean 157.5h (proxy: updated_at − created_at, 71 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -127,7 +127,7 @@ Flight 8 is **day 91** of rollout — **35,000 invitees**, **1145 tickets** so f
   - [#10524](https://tbpro.zendesk.com/agent/tickets/10524) · [closed] · 2026-10-27 · _delete and cancel_
   - [#10528](https://tbpro.zendesk.com/agent/tickets/10528) · [closed] · 2026-10-27 · _Refund Request_
   - [#10536](https://tbpro.zendesk.com/agent/tickets/10536) · [closed] · 2026-10-28 · _Delete account_
-  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [solved] · 2026-10-28 · _Delete acount_
+  - [#10549](https://tbpro.zendesk.com/agent/tickets/10549) · [closed] · 2026-10-28 · _Delete acount_
   - [#10556](https://tbpro.zendesk.com/agent/tickets/10556) · [closed] · 2026-10-28 · _Cancel / refund_
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [closed] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [solved] · 2026-10-29 · _Want to delete my account_
@@ -297,17 +297,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 897
-- **pending**: 110
-- **solved**: 72
-- **open**: 28
-- **new**: 21
+- **closed**: 900
+- **pending**: 107
+- **solved**: 71
+- **open**: 29
+- **new**: 22
 - **hold**: 17
 
 ## Service (cumulative)
 
 - **Account Hub**: 650
-- **Thundermail**: 392
+- **Thundermail**: 393
 - **Send**: 23
 - **Appointment**: 14
 
@@ -397,6 +397,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10948](https://tbpro.zendesk.com/agent/tickets/10948)** · Trying to feel better than Gmail..gmail
   > Patricia Diehl [quoted message] Hi, An account already exists for Thundermail using this email address. To access it, you can sign in (https://[domain]) or reset your password…
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#10959](https://tbpro.zendesk.com/agent/tickets/10959)** · confused
+  > I got on the waiting list and wanted to sign up for a email account. I created a account and used an email that I though was going to be the new email address. So now I am not…
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#10945](https://tbpro.zendesk.com/agent/tickets/10945)** · Error configuring SRV record at [domain]
@@ -424,6 +429,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10948](https://tbpro.zendesk.com/agent/tickets/10948) · [new] · 2026-11-08T04:14 · Trying to feel better than Gmail..gmail
 - [10956](https://tbpro.zendesk.com/agent/tickets/10956) · [new] · 2026-11-08T14:14 · login to my thundermail account requested
 - [10957](https://tbpro.zendesk.com/agent/tickets/10957) · [new] · 2026-11-08T14:14 · je n'arrive pas à écrire un mot de passe
+- [10959](https://tbpro.zendesk.com/agent/tickets/10959) · [new] · 2026-11-08T16:51 · confused
 
 ## Solved — last 24h
 
@@ -440,6 +446,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10641](https://tbpro.zendesk.com/agent/tickets/10641) · 2026-11-08T00:01 · Thundermail acces
 - · [10676](https://tbpro.zendesk.com/agent/tickets/10676) · 2026-11-08T00:01 · I cant move mailbox to local folders in tb, because its imap
 - · [10682](https://tbpro.zendesk.com/agent/tickets/10682) · 2026-11-08T15:01 · installation 
+- · [10691](https://tbpro.zendesk.com/agent/tickets/10691) · 2026-11-08T17:01 · email
+- · [10689](https://tbpro.zendesk.com/agent/tickets/10689) · 2026-11-08T17:01 · Why I declined
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
