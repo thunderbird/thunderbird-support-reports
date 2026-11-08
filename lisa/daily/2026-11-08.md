@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-08
 
-_Updated: **2026-11-08 13:15 ET** · refreshes hourly_  
+_Updated: **2026-11-08 14:11 ET** · refreshes hourly_  
 _24h window: 2026-11-07T16:00 → 2026-11-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 91** of rollout — **35,000 invitees**, **1147 tickets** so f
 
 ## At a glance
 
-- **12** new tickets in last 24h · **19** solved in last 24h
+- **12** new tickets in last 24h · **23** solved in last 24h
 - **1147** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 75%  (3 good / 1 bad)
 - **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 141.6h · mean 158.6h (proxy: updated_at − created_at, 71 solved tickets)
+- **Median AHT**: 142.0h · mean 161.5h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -297,9 +297,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 904
-- **pending**: 103
-- **solved**: 71
+- **closed**: 905
+- **pending**: 99
+- **solved**: 74
 - **open**: 29
 - **new**: 23
 - **hold**: 17
@@ -455,6 +455,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10624](https://tbpro.zendesk.com/agent/tickets/10624) · 2026-11-08T18:01 · Cost of early bird subscription
 - · [10707](https://tbpro.zendesk.com/agent/tickets/10707) · 2026-11-08T18:01 · Question About @[domain] and @[domain] Email Addresses
 - · [10700](https://tbpro.zendesk.com/agent/tickets/10700) · 2026-11-08T18:01 · cancel account
+- · [10735](https://tbpro.zendesk.com/agent/tickets/10735) · 2026-11-08T19:01 · Correct account details for thundermail
+- · [10719](https://tbpro.zendesk.com/agent/tickets/10719) · 2026-11-08T19:01 · thunderbird
+- · [10411](https://tbpro.zendesk.com/agent/tickets/10411) · 2026-11-08T19:01 · Email Verification Failing
+- · [10648](https://tbpro.zendesk.com/agent/tickets/10648) · 2026-11-08T19:01 · 従来から使用していたパスワードが使用できない。サーバーにログインできないとの理由で何回入力してもキャンセルされてしまう。サンダーバードに届け出している認証認証パスワードが何なのか調べる方法がわからない
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
