@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-08
 
-_Updated: **2026-11-08 09:12 ET** · refreshes hourly_  
+_Updated: **2026-11-08 10:12 ET** · refreshes hourly_  
 _24h window: 2026-11-07T16:00 → 2026-11-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 91** of rollout — **35,000 invitees**, **1143 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 91** of rollout — **35,000 invitees**, **1145 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **12** solved in last 24h
-- **1143** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 94%  (203 good / 12 bad)
+- **10** new tickets in last 24h · **13** solved in last 24h
+- **1145** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 75%  (3 good / 1 bad)
+- **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 161.5h (proxy: updated_at − created_at, 75 solved tickets)
+- **Median AHT**: 139.3h · mean 159.8h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -297,16 +297,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 894
-- **pending**: 111
-- **solved**: 75
-- **open**: 26
-- **new**: 19
+- **closed**: 895
+- **pending**: 110
+- **solved**: 74
+- **open**: 27
+- **new**: 21
 - **hold**: 18
 
 ## Service (cumulative)
 
-- **Account Hub**: 649
+- **Account Hub**: 650
 - **Thundermail**: 392
 - **Send**: 23
 - **Appointment**: 14
@@ -383,8 +383,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10938](https://tbpro.zendesk.com/agent/tickets/10938)** · Error
   > Why do I all of a sudden see this error on the webmail and no messages ??!
 
-### Account access issues — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#10957](https://tbpro.zendesk.com/agent/tickets/10957)** · je n'arrive pas à écrire un mot de passe
+  > j'ai essayé avec des chiffres ,mais je n'y suis pas arrivé
+- **[#10941](https://tbpro.zendesk.com/agent/tickets/10941)** · password
+  > I can't remember PW for my Everymail account.
+
+### Account access issues — 2 tickets
+
+- **[#10956](https://tbpro.zendesk.com/agent/tickets/10956)** · login to my thundermail account requested
+  > Hello, I bought a pro account (as early bird) It is related to my recovery address [email] However I didnot note my login settings. neither my new created thundermail account nor…
 - **[#10948](https://tbpro.zendesk.com/agent/tickets/10948)** · Trying to feel better than Gmail..gmail
   > Patricia Diehl [quoted message] Hi, An account already exists for Thundermail using this email address. To access it, you can sign in (https://[domain]) or reset your password…
 
@@ -403,11 +412,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10942](https://tbpro.zendesk.com/agent/tickets/10942)** · Having trouble with a custom domain
   > Set up one custom domain and it works fine. Emails sent to the alias go to my inbox and sent mail goes out. Second custom domain is giving me trouble though. The domain is hosted…
 
-### Other / uncategorized — 1 tickets
-
-- **[#10941](https://tbpro.zendesk.com/agent/tickets/10941)** · password
-  > I can't remember PW for my Everymail account.
-
 ## New tickets — last 24h
 
 - [10938](https://tbpro.zendesk.com/agent/tickets/10938) · [new] · 2026-11-07T21:39 · Error
@@ -418,6 +422,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10945](https://tbpro.zendesk.com/agent/tickets/10945) · [new] · 2026-11-08T01:09 · Error configuring SRV record at [domain]
 - [10947](https://tbpro.zendesk.com/agent/tickets/10947) · [new] · 2026-11-08T04:12 · error on loading webmail
 - [10948](https://tbpro.zendesk.com/agent/tickets/10948) · [new] · 2026-11-08T04:14 · Trying to feel better than Gmail..gmail
+- [10956](https://tbpro.zendesk.com/agent/tickets/10956) · [new] · 2026-11-08T14:14 · login to my thundermail account requested
+- [10957](https://tbpro.zendesk.com/agent/tickets/10957) · [new] · 2026-11-08T14:14 · je n'arrive pas à écrire un mot de passe
 
 ## Solved — last 24h
 
@@ -433,6 +439,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10681](https://tbpro.zendesk.com/agent/tickets/10681) · 2026-11-07T23:01 · Custom Domain
 - · [10641](https://tbpro.zendesk.com/agent/tickets/10641) · 2026-11-08T00:01 · Thundermail acces
 - · [10676](https://tbpro.zendesk.com/agent/tickets/10676) · 2026-11-08T00:01 · I cant move mailbox to local folders in tb, because its imap
+- · [10682](https://tbpro.zendesk.com/agent/tickets/10682) · 2026-11-08T15:01 · installation 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
