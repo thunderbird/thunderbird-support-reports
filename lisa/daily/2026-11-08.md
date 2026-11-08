@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-08
 
-_Updated: **2026-11-08 10:12 ET** · refreshes hourly_  
+_Updated: **2026-11-08 11:13 ET** · refreshes hourly_  
 _24h window: 2026-11-07T16:00 → 2026-11-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 91** of rollout — **35,000 invitees**, **1145 tickets** so f
 - **CSAT (24h)**: 75%  (3 good / 1 bad)
 - **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 139.3h · mean 159.8h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 139.3h · mean 158.4h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -119,7 +119,7 @@ Flight 8 is **day 91** of rollout — **35,000 invitees**, **1145 tickets** so f
   - [#10113](https://tbpro.zendesk.com/agent/tickets/10113) · [closed] · 2026-10-16 · _please delete account_
   - [#10176](https://tbpro.zendesk.com/agent/tickets/10176) · [closed] · 2026-10-20 · _Refund_
   - [#10183](https://tbpro.zendesk.com/agent/tickets/10183) · [closed] · 2026-10-20 · _Monthly plans _
-  - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [solved] · 2026-10-22 · _domain setup issue_
+  - [#10300](https://tbpro.zendesk.com/agent/tickets/10300) · [closed] · 2026-10-22 · _domain setup issue_
   - [#10355](https://tbpro.zendesk.com/agent/tickets/10355) · [closed] · 2026-10-22 · _cancellation of the subscription_
   - [#10399](https://tbpro.zendesk.com/agent/tickets/10399) · [closed] · 2026-10-23 · _cancellation_
   - [#10451](https://tbpro.zendesk.com/agent/tickets/10451) · [closed] · 2026-10-25 · _account cancelation and refund request_
@@ -297,12 +297,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 895
+- **closed**: 897
 - **pending**: 110
-- **solved**: 74
-- **open**: 27
+- **solved**: 72
+- **open**: 28
 - **new**: 21
-- **hold**: 18
+- **hold**: 17
 
 ## Service (cumulative)
 
