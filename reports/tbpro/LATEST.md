@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-08
 
-_Updated: **2026-11-08 12:11 ET** · refreshes hourly_  
+_Updated: **2026-11-08 13:15 ET** · refreshes hourly_  
 _24h window: 2026-11-07T16:00 → 2026-11-08T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 91** of rollout — **35,000 invitees**, **1146 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 91** of rollout — **35,000 invitees**, **1147 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **15** solved in last 24h
-- **1146** tickets total since launch · contact rate **3%** of 35000 invitees
+- **12** new tickets in last 24h · **19** solved in last 24h
+- **1147** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 75%  (3 good / 1 bad)
 - **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 157.5h (proxy: updated_at − created_at, 71 solved tickets)
+- **Median AHT**: 141.6h · mean 158.6h (proxy: updated_at − created_at, 71 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -136,9 +136,9 @@ Flight 8 is **day 91** of rollout — **35,000 invitees**, **1146 tickets** so f
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [solved] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [open] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
-  - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [pending] · 2026-11-02 · _cancel account_
+  - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [solved] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [solved] · 2026-11-02 · _Refund question_
-  - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [pending] · 2026-11-03 · _Cancel subscription_
+  - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [solved] · 2026-11-03 · _Cancel subscription_
   - [#10717](https://tbpro.zendesk.com/agent/tickets/10717) · [solved] · 2026-11-03 · _Cancel/Refund_
   - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [pending] · 2026-11-03 · _Delete account_
   - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [pending] · 2026-11-03 · _Delete account_
@@ -297,17 +297,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 900
-- **pending**: 107
+- **closed**: 904
+- **pending**: 103
 - **solved**: 71
 - **open**: 29
-- **new**: 22
+- **new**: 23
 - **hold**: 17
 
 ## Service (cumulative)
 
 - **Account Hub**: 650
-- **Thundermail**: 393
+- **Thundermail**: 394
 - **Send**: 23
 - **Appointment**: 14
 
@@ -374,6 +374,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#10960](https://tbpro.zendesk.com/agent/tickets/10960)** · Passwort vergessen 
+  > Wie bekomme ich mein Passwort wieder
+- **[#10957](https://tbpro.zendesk.com/agent/tickets/10957)** · je n'arrive pas à écrire un mot de passe
+  > j'ai essayé avec des chiffres ,mais je n'y suis pas arrivé
+- **[#10941](https://tbpro.zendesk.com/agent/tickets/10941)** · password
+  > I can't remember PW for my Everymail account.
+
 ### Webmail — 3 tickets
 
 - **[#10947](https://tbpro.zendesk.com/agent/tickets/10947)** · error on loading webmail
@@ -382,13 +391,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Is there a danish translation of the webmail - or could I help translate it ?
 - **[#10938](https://tbpro.zendesk.com/agent/tickets/10938)** · Error
   > Why do I all of a sudden see this error on the webmail and no messages ??!
-
-### Other / uncategorized — 2 tickets
-
-- **[#10957](https://tbpro.zendesk.com/agent/tickets/10957)** · je n'arrive pas à écrire un mot de passe
-  > j'ai essayé avec des chiffres ,mais je n'y suis pas arrivé
-- **[#10941](https://tbpro.zendesk.com/agent/tickets/10941)** · password
-  > I can't remember PW for my Everymail account.
 
 ### Account access issues — 2 tickets
 
@@ -430,6 +432,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10956](https://tbpro.zendesk.com/agent/tickets/10956) · [new] · 2026-11-08T14:14 · login to my thundermail account requested
 - [10957](https://tbpro.zendesk.com/agent/tickets/10957) · [new] · 2026-11-08T14:14 · je n'arrive pas à écrire un mot de passe
 - [10959](https://tbpro.zendesk.com/agent/tickets/10959) · [new] · 2026-11-08T16:51 · confused
+- [10960](https://tbpro.zendesk.com/agent/tickets/10960) · [new] · 2026-11-08T18:11 · Passwort vergessen 
 
 ## Solved — last 24h
 
@@ -448,6 +451,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10682](https://tbpro.zendesk.com/agent/tickets/10682) · 2026-11-08T15:01 · installation 
 - · [10691](https://tbpro.zendesk.com/agent/tickets/10691) · 2026-11-08T17:01 · email
 - · [10689](https://tbpro.zendesk.com/agent/tickets/10689) · 2026-11-08T17:01 · Why I declined
+- · [10712](https://tbpro.zendesk.com/agent/tickets/10712) · 2026-11-08T18:01 · Cancel subscription
+- · [10624](https://tbpro.zendesk.com/agent/tickets/10624) · 2026-11-08T18:01 · Cost of early bird subscription
+- · [10707](https://tbpro.zendesk.com/agent/tickets/10707) · 2026-11-08T18:01 · Question About @[domain] and @[domain] Email Addresses
+- · [10700](https://tbpro.zendesk.com/agent/tickets/10700) · 2026-11-08T18:01 · cancel account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
