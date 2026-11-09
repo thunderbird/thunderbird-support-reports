@@ -46,6 +46,20 @@ VOLUME_SURGE_WATCH     = 150   # TB Pro week volume > this % of prior week = WAT
 OTHER_BRAND_SURGE_PCT  = 40    # Other-brand open/new tickets > this % above prior week = WATCH
 OTHER_BRAND_MIN_OPEN   = 15    # Minimum count before the other-brand signal fires
 
+# Lisa reviewed these on 2026-11-09: customers said they were fine, and the
+# tickets stayed open only because agents had not closed them yet. Kept out of
+# the critical-urgency watch and out of What we heard, so both stay a source
+# of truth for NEW tickets. Add an ID here only after the same review.
+CRITICAL_URGENCY_REVIEWED = {
+    10679, 10683, 10697, 10746, 10749, 10766, 10816,
+    10838, 10841, 10842, 10865, 10870, 10871, 10886,
+}
+
+# Thunderbird-help login misdirects. Checked before the account-access tags,
+# which would otherwise swallow these tickets.
+MISDIRECT_CONTACT_TAG = "macro_tm_login_misdirect_thunderbird-help"
+MISDIRECT_CONTACT_THEME = "Misdirected contacts"
+
 # ── Theme rollup for executive summary ────────────────────────────────────────
 # Fine-grained daily themes → coarser weekly labels.
 # All login-attempt sub-themes (SUMO redirect, email lookup, allowlist) are the
@@ -77,6 +91,26 @@ def week_bounds(anchor: dt.date):
 
 
 # ── Blocker assessment ────────────────────────────────────────────────────────
+
+def critical_still_open(tickets):
+    """Open critical-urgency tickets, minus ones already reviewed as fine."""
+    return [
+        t for t in tickets
+        if daily.urgency_for(t) == "critical"
+        and t.get("status") not in ("solved", "closed")
+        and int(t.get("id") or 0) not in CRITICAL_URGENCY_REVIEWED
+    ]
+
+
+def heard_theme(ticket, rollup_map):
+    """(raw, rolled) label for What we heard, or None to leave the ticket out."""
+    if int(ticket.get("id") or 0) in CRITICAL_URGENCY_REVIEWED:
+        return None
+    if MISDIRECT_CONTACT_TAG in (ticket.get("tags") or []):
+        return MISDIRECT_CONTACT_THEME, MISDIRECT_CONTACT_THEME
+    raw, _ = daily.classify_ticket(ticket)
+    return raw, rollup_map.get(raw, raw)
+
 
 def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
                     refunds_week, incidents_by_problem, problems,
@@ -155,11 +189,7 @@ def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
             )
 
     # 6. Critical-urgency tickets still open
-    critical_open = [
-        t for t in week_tickets
-        if daily.urgency_for(t) == "critical"
-        and t.get("status") not in ("solved", "closed")
-    ]
+    critical_open = critical_still_open(week_tickets)
     if critical_open:
         cautions.append(f"{len(critical_open)} ticket(s) with user urgency: critical still open")
 
@@ -233,6 +263,10 @@ def build_weekly(week_end_et: dt.date) -> dict:
     def _build_rollup():
         raw_counts: Counter = Counter()
         for t in week_tickets:
+            if int(t.get("id") or 0) in CRITICAL_URGENCY_REVIEWED:
+                continue
+            if MISDIRECT_CONTACT_TAG in (t.get("tags") or []):
+                continue
             raw, _ = daily.classify_ticket(t)
             raw_counts[raw] += 1
         prefix_groups: dict[str, list[str]] = defaultdict(list)
@@ -249,16 +283,15 @@ def build_weekly(week_end_et: dt.date) -> dict:
 
     rollup_map = _build_rollup()
 
-    def _rollup(raw_theme: str) -> str:
-        return rollup_map.get(raw_theme, raw_theme)
-
     # Theme breakdown: counter, tickets, and sub-theme counts for drilldown
     theme_counter: Counter = Counter()
     theme_tickets: dict[str, list] = defaultdict(list)
     theme_subs: dict[str, Counter] = defaultdict(Counter)   # rolled → {raw: n}
     for t in week_tickets:
-        raw, _ = daily.classify_ticket(t)
-        theme  = _rollup(raw)
+        heard = heard_theme(t, rollup_map)
+        if heard is None:
+            continue
+        raw, theme = heard
         theme_counter[theme] += 1
         theme_tickets[theme].append(t)
         if raw != theme:
@@ -267,8 +300,10 @@ def build_weekly(week_end_et: dt.date) -> dict:
     # Prior-week theme counts for WoW delta in drilldown
     prior_theme_counter: Counter = Counter()
     for t in prior_tickets:
-        raw, _ = daily.classify_ticket(t)
-        prior_theme_counter[_rollup(raw)] += 1
+        heard = heard_theme(t, rollup_map)
+        if heard is None:
+            continue
+        prior_theme_counter[heard[1]] += 1
 
     # GitHub-linked tickets this week (product bugs — surface regardless of volume)
     gh_links     = d.get("gh_links") or {}
@@ -366,11 +401,7 @@ def build_weekly(week_end_et: dt.date) -> dict:
         gh_linked_open=gh_linked_open,
     )
 
-    critical_open = [
-        t for t in week_tickets
-        if daily.urgency_for(t) == "critical"
-        and t.get("status") not in ("solved", "closed")
-    ]
+    critical_open = critical_still_open(week_tickets)
 
     escalated_open = [
         t for t in week_tickets

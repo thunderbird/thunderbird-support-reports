@@ -1,28 +1,30 @@
 # TB Pro — Weekly Executive Summary · 2026-11-02 → 2026-11-06
 
-_2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-06_
+_2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-09_
 
 ## 🟡 Wave invite status: **WATCH**
 
 **Watch signals:**
 - 🟡 2 unresolved escalated ticket(s) this week: [#10896](https://tbpro.zendesk.com/agent/tickets/10896) Webmail is down for me; [#10874](https://tbpro.zendesk.com/agent/tickets/10874) Recurring JMAP 525 SSL Handshake Errors – Webmail…
-- 🟡 1 known problem with 118 linked reports (17 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
+- 🟡 1 known problem with 118 linked reports (11 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
 - 🟡 1 known problem with 2 open reports — [[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV](https://tbpro.zendesk.com/agent/tickets/10009)
-- 🟡 Refund/cancel rate 15% of real subscriber tickets (18 / 118)
-- 🟡 Volume 144 tickets this week vs 80 prior week (+64, +80% WoW)
+- 🟡 Refund/cancel rate 15% of real subscriber tickets (18 / 120)
+- 🟡 Volume 146 tickets this week vs 80 prior week (+66, +82% WoW)
+- 🟡 Other-brand queue high: 17 open/new tickets (+325% vs prior week) — team capacity may be stretched
+
 ---
 
 ## Week at a glance
 
 | Metric | Value |
 |--------|-------|
-| New tickets | **144** (+64, +80% WoW) |
-| Real subscriber issues | **118** |
+| New tickets | **146** (+66, +82% WoW) |
+| Real subscriber issues | **120** |
 | Misdirected (non-subscribers) | **26** |
-| Solved this week | **111** |
-| CSAT | **91% (11 responses)** |
+| Solved this week | **78** |
+| CSAT | **100% (6 responses)** |
 | Refunds / cancels | **18** |
-| Other-brand open/new tickets | **6** |
+| Other-brand open/new tickets | **17 (+325% WoW)** |
 | New ideas this week | **9** |
 
 **Daily ticket volume:**
@@ -30,23 +32,22 @@ _2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-0
 - `2026-11-03` ██████████████████████████████ 30
 - `2026-11-04` ██████████████████████████████ 36
 - `2026-11-05` ██████████████████████████████ 30
-- `2026-11-06` ██████████████████████ 22
+- `2026-11-06` ████████████████████████ 24
 
 ## What we heard
 
-- **Account access issues**: 27 (19%) (+11 WoW)
-- **Subscription / billing / refund / cancel**: 20 (14%) (+12 WoW)
-- **Other / uncategorized**: 16 (11%) (+7 WoW)
-- **Aliases**: 15 (10%) (+9 WoW)
-- **Pricing**: 11 (8%) (+5 WoW)
-- **Webmail**: 10 (7%) (+6 WoW)
-- **Custom domain / DKIM / DNS**: 8 (6%) (+6 WoW)
-- **Request or complaint**: 5 (3%) (+3 WoW)
+- **Subscription / billing / refund / cancel**: 18 (14%) (+10 WoW)
+- **Other / uncategorized**: 15 (11%) (+6 WoW)
+- **Aliases**: 14 (11%) (+8 WoW)
+- **Misdirected contacts**: 14 (11%) (+4 WoW)
+- **Webmail**: 10 (8%) (+6 WoW)
+- **Pricing**: 10 (8%) (+4 WoW)
+- **Account access issues**: 9 (7%) (+3 WoW)
+- **Custom domain / DKIM / DNS**: 9 (7%) (+7 WoW)
 
 ## Known problems
 
-- **[Tracker] Account refunded and canceled, purge queue** — 118 linked reports (17 open) (+7 new this wk)
-- **[Tracker] Who did we have to manually verify email for?** — 5 linked reports (1 open) (-1 new this wk)
+- **[Tracker] Account refunded and canceled, purge queue** — 118 linked reports (11 open) (+7 new this wk)
 - **[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV** — 2 open reports
 - **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 2 linked reports (1 open) (-1 new this wk)
 - **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 2 linked reports (1 open)
@@ -59,7 +60,7 @@ _2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-0
 - [Until you provide a way to contact Support, this is the only way to contact you](https://ideas.tb.pro/p/until-you-provide-a-way-to-contact-support-this-is-the-only-way-to-contact-you) · 1 vote(s)
 - [Can the new service replace an Outlook server?](https://ideas.tb.pro/p/can-the-new-service-replace-an-outlook-server) · 1 vote(s)
 - [Open Winmail.dat Files](https://ideas.tb.pro/p/open-winmail-dat-files) · 1 vote(s)
-- [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 2 vote(s)
+- [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 10 vote(s)
 - [Pithier Domain Option](https://ideas.tb.pro/p/pithier-domain-option) · 1 vote(s)
 - [Make Thundermail a serious privacy competitor to Proton and Tuta](https://ideas.tb.pro/p/make-thundermail-a-serious-privacy-competitor-to-proton-and-tuta) · 1 vote(s)
 - [Compete with Fastmail.com](https://ideas.tb.pro/p/compete-with-fastmail-com) · 1 vote(s)
