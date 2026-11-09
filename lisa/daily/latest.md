@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-09 10:15 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1154 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1156 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **13** solved in last 24h
-- **1154** tickets total since launch · contact rate **3%** of 35000 invitees
+- **9** new tickets in last 24h · **13** solved in last 24h
+- **1156** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -285,9 +285,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [10984](https://tbpro.zendesk.com/agent/tickets/10984) · [new] · _Cancel my subscription and my email account_
+  > I would like to cancel my yearly subscription, then when that has been done, and I have been informed, I would like to delete my email account. I have run it in tandem with another email account and found it is just a…
 
 ## New ideas on FeatureOS
 
@@ -298,15 +299,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 914
-- **pending**: 84
+- **pending**: 83
 - **solved**: 78
-- **open**: 34
-- **new**: 26
+- **open**: 35
+- **new**: 28
 - **hold**: 18
 
 ## Service (cumulative)
 
-- **Account Hub**: 650
+- **Account Hub**: 652
 - **Thundermail**: 397
 - **Send**: 23
 - **Appointment**: 14
@@ -383,15 +384,22 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10965](https://tbpro.zendesk.com/agent/tickets/10965)** · Delete thread
   > Hello, is it possible to delete a while thread at once, including sent messages with one click? If not i think it would be a good thing to add as a lot of the time if you delete a…
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#10984](https://tbpro.zendesk.com/agent/tickets/10984)** · Cancel my subscription and my email account
+  > I would like to cancel my yearly subscription, then when that has been done, and I have been informed, I would like to delete my email account. I have run it in tandem with…
+- **[#10964](https://tbpro.zendesk.com/agent/tickets/10964)** · Unable to make a payment
+  > I am unable to make a payment. On the payment page: Unexpected Application Error! invalid language tag: "chrome://global/locale/intl.properties"…
+
+### Pricing / monthly plan / free tier — 1 tickets
+
+- **[#10983](https://tbpro.zendesk.com/agent/tickets/10983)** · Request for monthly subscription option
+  > Hello [name], I’m interested in subscribing to your new paid online service, and I’m glad to see it available. However, the only option I can see requires paying for a full year…
+
 ### Account access issues — 1 tickets
 
 - **[#10971](https://tbpro.zendesk.com/agent/tickets/10971)** · new password
   > Need help setting new password please send directions to [email]. This is the only email we have
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#10964](https://tbpro.zendesk.com/agent/tickets/10964)** · Unable to make a payment
-  > I am unable to make a payment. On the payment page: Unexpected Application Error! invalid language tag: "chrome://global/locale/intl.properties"…
 
 ### Email migration / import — 1 tickets
 
@@ -412,6 +420,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10967](https://tbpro.zendesk.com/agent/tickets/10967) · [new] · 2026-11-08T22:38 · Reply to Support email - how do we add thundermail to a Thunderbird installation?
 - [10971](https://tbpro.zendesk.com/agent/tickets/10971) · [new] · 2026-11-09T02:39 · new password
 - [10981](https://tbpro.zendesk.com/agent/tickets/10981) · [new] · 2026-11-09T13:05 · My emails
+- [10983](https://tbpro.zendesk.com/agent/tickets/10983) · [new] · 2026-11-09T14:22 · Request for monthly subscription option
+- [10984](https://tbpro.zendesk.com/agent/tickets/10984) · [new] · 2026-11-09T14:33 · Cancel my subscription and my email account
 
 ## Solved — last 24h
 
