@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 07:21 ET** · refreshes hourly_  
+_Updated: **2026-11-09 08:16 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1153 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1154 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **13** solved in last 24h
-- **1153** tickets total since launch · contact rate **3%** of 35000 invitees
+- **7** new tickets in last 24h · **13** solved in last 24h
+- **1154** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (204 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -301,13 +301,13 @@ _(none in last 24h)_
 - **pending**: 85
 - **solved**: 78
 - **open**: 33
-- **new**: 25
+- **new**: 26
 - **hold**: 18
 
 ## Service (cumulative)
 
 - **Account Hub**: 650
-- **Thundermail**: 396
+- **Thundermail**: 397
 - **Send**: 23
 - **Appointment**: 14
 
@@ -374,8 +374,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#10981](https://tbpro.zendesk.com/agent/tickets/10981)** · My emails
+  > My emails don't come up when tap Thunderbird Logo
 - **[#10967](https://tbpro.zendesk.com/agent/tickets/10967)** · Reply to Support email - how do we add thundermail to a Thunderbird installation?
   > We wanted to check in on ticket 10866 — do you still need a hand? If we don't hear back in a few days, we'll go ahead and close this out. You're always welcome to reply and we'll…
 - **[#10965](https://tbpro.zendesk.com/agent/tickets/10965)** · Delete thread
@@ -409,6 +411,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10965](https://tbpro.zendesk.com/agent/tickets/10965) · [new] · 2026-11-08T22:36 · Delete thread
 - [10967](https://tbpro.zendesk.com/agent/tickets/10967) · [new] · 2026-11-08T22:38 · Reply to Support email - how do we add thundermail to a Thunderbird installation?
 - [10971](https://tbpro.zendesk.com/agent/tickets/10971) · [new] · 2026-11-09T02:39 · new password
+- [10981](https://tbpro.zendesk.com/agent/tickets/10981) · [new] · 2026-11-09T13:05 · My emails
 
 ## Solved — last 24h
 
