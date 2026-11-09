@@ -43,7 +43,7 @@ OPEN_INCIDENTS_BLOCK   = 3     # ≥ open incidents on one known problem = BLOCK
 OPEN_INCIDENTS_WATCH   = 2     # ≥ 2 = WATCH
 REFUND_WATCH_PCT       = 8.0   # Refunds > this % of real subscriber tickets = WATCH
 VOLUME_SURGE_WATCH     = 150   # TB Pro week volume > this % of prior week = WATCH
-OTHER_BRAND_MIN_OPEN   = 15    # Minimum count before the other-brand signal fires
+OTHER_BRAND_MIN_OPEN   = 40    # Minimum count before the other-brand signal fires
 
 # Lisa reviewed these on 2026-11-09: customers said they were fine, and the
 # tickets stayed open only because agents had not closed them yet. Kept out of
