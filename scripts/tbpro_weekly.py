@@ -46,6 +46,15 @@ VOLUME_SURGE_WATCH     = 150   # TB Pro week volume > this % of prior week = WAT
 OTHER_BRAND_SURGE_PCT  = 40    # Other-brand open/new tickets > this % above prior week = WATCH
 OTHER_BRAND_MIN_OPEN   = 15    # Minimum count before the other-brand signal fires
 
+# Lisa reviewed these on 2026-11-09: customers said they were fine, and the
+# tickets stayed open only because agents had not closed them yet. Kept out of
+# the critical-urgency watch so that line stays a source of truth for NEW open
+# critical tickets. Add an ID here only after the same review.
+CRITICAL_URGENCY_REVIEWED = {
+    10679, 10683, 10697, 10746, 10749, 10766, 10816,
+    10838, 10841, 10842, 10865, 10870, 10871, 10886,
+}
+
 # ── Theme rollup for executive summary ────────────────────────────────────────
 # Fine-grained daily themes → coarser weekly labels.
 # All login-attempt sub-themes (SUMO redirect, email lookup, allowlist) are the
@@ -77,6 +86,16 @@ def week_bounds(anchor: dt.date):
 
 
 # ── Blocker assessment ────────────────────────────────────────────────────────
+
+def critical_still_open(tickets):
+    """Open critical-urgency tickets, minus ones already reviewed as fine."""
+    return [
+        t for t in tickets
+        if daily.urgency_for(t) == "critical"
+        and t.get("status") not in ("solved", "closed")
+        and int(t.get("id") or 0) not in CRITICAL_URGENCY_REVIEWED
+    ]
+
 
 def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
                     refunds_week, incidents_by_problem, problems,
@@ -155,11 +174,7 @@ def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
             )
 
     # 6. Critical-urgency tickets still open
-    critical_open = [
-        t for t in week_tickets
-        if daily.urgency_for(t) == "critical"
-        and t.get("status") not in ("solved", "closed")
-    ]
+    critical_open = critical_still_open(week_tickets)
     if critical_open:
         cautions.append(f"{len(critical_open)} ticket(s) with user urgency: critical still open")
 
@@ -366,11 +381,7 @@ def build_weekly(week_end_et: dt.date) -> dict:
         gh_linked_open=gh_linked_open,
     )
 
-    critical_open = [
-        t for t in week_tickets
-        if daily.urgency_for(t) == "critical"
-        and t.get("status") not in ("solved", "closed")
-    ]
+    critical_open = critical_still_open(week_tickets)
 
     escalated_open = [
         t for t in week_tickets
