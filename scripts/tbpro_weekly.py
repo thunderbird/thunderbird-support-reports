@@ -43,8 +43,7 @@ OPEN_INCIDENTS_BLOCK   = 3     # ≥ open incidents on one known problem = BLOCK
 OPEN_INCIDENTS_WATCH   = 2     # ≥ 2 = WATCH
 REFUND_WATCH_PCT       = 8.0   # Refunds > this % of real subscriber tickets = WATCH
 VOLUME_SURGE_WATCH     = 150   # TB Pro week volume > this % of prior week = WATCH
-OTHER_BRAND_SURGE_PCT  = 40    # Other-brand open/new tickets > this % above prior week = WATCH
-OTHER_BRAND_MIN_OPEN   = 15    # Minimum count before the other-brand signal fires
+OTHER_BRAND_MIN_OPEN   = 40    # Minimum count before the other-brand signal fires
 
 # Lisa reviewed these on 2026-11-09: customers said they were fine, and the
 # tickets stayed open only because agents had not closed them yet. Kept out of
@@ -201,20 +200,13 @@ def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
     if critical_open:
         cautions.append(f"{len(critical_open)} ticket(s) with user urgency: critical still open")
 
-    # 7. Other-brand open/new ticket volume — high queue = reduced capacity for wave expansion
+    # 7. Other-brand queue right now — high queue = reduced capacity for wave expansion.
+    # A level, not a week-over-week surge: there is no prior-week snapshot.
     if other_open_week >= OTHER_BRAND_MIN_OPEN:
-        if other_open_prior > 0:
-            surge = (other_open_week / other_open_prior - 1) * 100
-            if surge > OTHER_BRAND_SURGE_PCT:
-                cautions.append(
-                    f"Other-brand queue high: {other_open_week} open/new tickets"
-                    f" (+{surge:.0f}% vs prior week) — team capacity may be stretched"
-                )
-        else:
-            cautions.append(
-                f"Other-brand queue: {other_open_week} open/new tickets this week"
-                f" — team capacity may be stretched"
-            )
+        cautions.append(
+            f"Other-brand queue: {other_open_week} open/new tickets right now"
+            f" — team capacity may be stretched"
+        )
 
     # 8. Open tickets linked to GitHub issues — product bugs regardless of volume
     # Skip issues already surfaced in a known-problem signal (avoids duplicate entries)
@@ -371,22 +363,22 @@ def build_weekly(week_end_et: dt.date) -> dict:
         if day:
             daily_vol[day] += 1
 
-    # Other-brand open/new ticket counts (2 API calls each week/prior).
+    # Other-brand queue right now (2 API calls).
     # Strategy: count all-brand new+open, then subtract TB Pro's open/new from
     # the same window so we don't need Zendesk's -brand: negation syntax.
     week_start_iso  = week_start_et.isoformat()
     week_end_iso    = week_end_et.isoformat()
-    prior_start_iso = (window_start_utc - dt.timedelta(days=7)).astimezone(ET).date().isoformat()
-    prior_end_iso   = (window_start_utc - dt.timedelta(seconds=1)).astimezone(ET).date().isoformat()
+    # Other-brand queue right now: new + open tickets outside Thundermail.
+    # A live count, not tickets created in the week: the old created-date query
+    # missed older open tickets. No prior-week figure, because Zendesk keeps no
+    # snapshot of last week's queue.
+    def _other_queue_now():
+        new = daily.zd_search_count(f"type:ticket status:new -brand_id:{daily.BRAND_ID}")
+        opn = daily.zd_search_count(f"type:ticket status:open -brand_id:{daily.BRAND_ID}")
+        return new + opn
 
-    def _other_open(start_iso, end_iso, tbpro_tickets):
-        all_new  = daily.zd_search_count(f"type:ticket status:new  created>={start_iso} created<={end_iso}")
-        all_open = daily.zd_search_count(f"type:ticket status:open created>={start_iso} created<={end_iso}")
-        tbpro_open_new = sum(1 for t in tbpro_tickets if t.get("status") in ("new", "open"))
-        return max(0, all_new + all_open - tbpro_open_new)
-
-    other_open_week  = _other_open(week_start_iso, week_end_iso, week_tickets)
-    other_open_prior = _other_open(prior_start_iso, prior_end_iso, prior_tickets)
+    other_open_week  = _other_queue_now()
+    other_open_prior = None
 
     # Per-problem incident counts for this week and prior week (new incidents only, for WoW trend)
     week_incidents_by_problem:  dict[int, int] = {}
@@ -581,7 +573,7 @@ def render_weekly_md(d: dict, public: bool = False) -> str:
     if other_prior:
         surge = (other_open / other_prior - 1) * 100
         other_str += f" ({'+' if surge >= 0 else ''}{surge:.0f}% WoW)"
-    o.append(f"| Other-brand open/new tickets | **{other_str}** |")
+    o.append(f"| Other-brand queue (now) | **{other_str}** |")
     o.append(f"| New ideas this week | **{len(d['fos_week'])}** |")
     o.append("")
 
@@ -833,7 +825,7 @@ def render_weekly_html(d: dict, public: bool = False) -> str:
         ("green",  str(n_solved),           "Solved",                   ""),
         ("green",  csat_str,                "CSAT",                     csat_sub),
         ("orange", str(n_refund),           "Refunds / cancels",        ""),
-        ("orange", str(other_open),         "Other-brand open/new",     other_wow),
+        ("orange", str(other_open),         "Other-brand queue (now)",  other_wow),
         ("teal",   str(len(d["fos_week"])), "New ideas this week",      ""),
     ]:
         p.append(
