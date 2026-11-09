@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-09 18:12 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1168 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1169 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **31** solved in last 24h
-- **1168** tickets total since launch · contact rate **3%** of 35000 invitees
+- **20** new tickets in last 24h · **30** solved in last 24h
+- **1169** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (7 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
-- **Median AHT**: 141.5h · mean 150.4h (proxy: updated_at − created_at, 84 solved tickets)
+- **Median AHT**: 140.2h · mean 148.4h (proxy: updated_at − created_at, 89 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -23,7 +23,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - **"sent messages"** — 2 tickets in 24h (182.0× baseline; baseline 1 cum) — [#10965](https://tbpro.zendesk.com/agent/tickets/10965), [#11009](https://tbpro.zendesk.com/agent/tickets/11009)
 - **"look forward"** — 2 tickets in 24h (4.0× baseline; baseline 45 cum) — [#10983](https://tbpro.zendesk.com/agent/tickets/10983), [#11009](https://tbpro.zendesk.com/agent/tickets/11009)
 
-## Known problems — 15 problem(s), 145 incident(s)
+## Known problems — 15 problem(s), 146 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -40,7 +40,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 120 incident(s):
+- 121 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -139,7 +139,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [closed] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [closed] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [closed] · 2026-10-30 · _Refund_
-  - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [solved] · 2026-10-30 · _New Subscription Cancellation Information_
+  - [#10618](https://tbpro.zendesk.com/agent/tickets/10618) · [open] · 2026-10-30 · _New Subscription Cancellation Information_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [solved] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [open] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
@@ -161,6 +161,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06 · _Cancellation + refund_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [pending] · 2026-11-06 · _Refund_
+  - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -299,16 +300,18 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 4
+## Refund & cancellation tickets (last 24h) — 5
 
 - [10984](https://tbpro.zendesk.com/agent/tickets/10984) · [open] · _Cancel my subscription and my email account_
   > I would like to cancel my yearly subscription, then when that has been done, and I have been informed, I would like to delete my email account. I have run it in tandem with another email account and found it is just a…
 - [10999](https://tbpro.zendesk.com/agent/tickets/10999) · [open] · _please refund my payment._
   > As I have cancelled my subscription in the 14 day refund window, please refund my payment.
-- [11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · _cancel and refund_
+- [11003](https://tbpro.zendesk.com/agent/tickets/11003) · [open] · _cancel and refund_
   > Was under the impression from the [domain] page that there would be a calendar included and there is not one listed anywhere. Moreover, Appointment doesn't even load on Firefox ironically (could be an extension) so I…
 - [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [new] · _Cancel + Refund_
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
+- [11017](https://tbpro.zendesk.com/agent/tickets/11017) · [new] · _I want to cancel subscription_
+  > I want to cancel subscription and get money back. This service does not provide the features I hoped to get.
 
 ## New ideas on FeatureOS
 
@@ -324,16 +327,16 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 933
-- **pending**: 92
-- **solved**: 84
-- **open**: 22
+- **pending**: 90
+- **solved**: 89
+- **open**: 21
 - **hold**: 20
-- **new**: 17
+- **new**: 16
 
 ## Service (cumulative)
 
-- **Account Hub**: 658
-- **Thundermail**: 403
+- **Account Hub**: 660
+- **Thundermail**: 402
 - **Send**: 23
 - **Appointment**: 14
 
@@ -341,10 +344,10 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 223
-- **change request** + **actioned**: 164
+- **curious** + **explained**: 226
+- **change request** + **actioned**: 165
 - **blocked** + **explained**: 119
-- **confused** + **explained**: 93
+- **confused** + **explained**: 94
 - **curious** + **informed**: 58
 - **confused** + **informed**: 54
 - **request** + **redirected**: 50
@@ -424,12 +427,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 3 tickets
 
+- **[#11003](https://tbpro.zendesk.com/agent/tickets/11003)** · cancel and refund — why: **change request** · how: **actioned**
+  > Was under the impression from the [domain] page that there would be a calendar included and there is not one listed anywhere. Moreover, Appointment doesn't even load on Firefox…
 - **[#10999](https://tbpro.zendesk.com/agent/tickets/10999)** · please refund my payment.
   > As I have cancelled my subscription in the 14 day refund window, please refund my payment.
 - **[#10984](https://tbpro.zendesk.com/agent/tickets/10984)** · Cancel my subscription and my email account
   > I would like to cancel my yearly subscription, then when that has been done, and I have been informed, I would like to delete my email account. I have run it in tandem with…
-- **[#11003](https://tbpro.zendesk.com/agent/tickets/11003)** · cancel and refund — why: **change request** · how: **actioned**
-  > Was under the impression from the [domain] page that there would be a calendar included and there is not one listed anywhere. Moreover, Appointment doesn't even load on Firefox…
 
 ### Early bird signup — 2 tickets
 
@@ -489,11 +492,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10998](https://tbpro.zendesk.com/agent/tickets/10998) · [new] · 2026-11-09T17:57 · Thunderbird Konto
 - [10999](https://tbpro.zendesk.com/agent/tickets/10999) · [open] · 2026-11-09T18:04 · please refund my payment.
 - [11000](https://tbpro.zendesk.com/agent/tickets/11000) · [open] · 2026-11-09T18:13 · Question about the product
-- [11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09T18:45 · cancel and refund
+- [11003](https://tbpro.zendesk.com/agent/tickets/11003) · [open] · 2026-11-09T18:45 · cancel and refund
 - [11005](https://tbpro.zendesk.com/agent/tickets/11005) · [open] · 2026-11-09T19:06 · can I try the new mail client for free to start
 - [11006](https://tbpro.zendesk.com/agent/tickets/11006) · [open] · 2026-11-09T19:39 · Fwd: Survey URL
-- [11008](https://tbpro.zendesk.com/agent/tickets/11008) · [new] · 2026-11-09T19:57 · Delete Account
-- [11009](https://tbpro.zendesk.com/agent/tickets/11009) · [new] · 2026-11-09T20:08 · New ticket request
+- [11008](https://tbpro.zendesk.com/agent/tickets/11008) · [open] · 2026-11-09T19:57 · Delete Account
+- [11009](https://tbpro.zendesk.com/agent/tickets/11009) · [open] · 2026-11-09T20:08 · New ticket request
 - [11011](https://tbpro.zendesk.com/agent/tickets/11011) · [new] · 2026-11-09T20:56 · Thunderbird Web app
 
 ## Solved — last 24h
@@ -507,7 +510,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10734](https://tbpro.zendesk.com/agent/tickets/10734) · 2026-11-08T22:01 · Configuration d'un compte supplémentaire
 - · [10723](https://tbpro.zendesk.com/agent/tickets/10723) · 2026-11-08T22:01 · Delete account
 - · [10693](https://tbpro.zendesk.com/agent/tickets/10693) · 2026-11-09T01:01 · Is monthly subscription option available?
-- · [10618](https://tbpro.zendesk.com/agent/tickets/10618) · 2026-11-09T01:01 · New Subscription Cancellation Information
 - · [10680](https://tbpro.zendesk.com/agent/tickets/10680) · 2026-11-09T01:01 · Financial hardship discount 
 - · [10679](https://tbpro.zendesk.com/agent/tickets/10679) · 2026-11-09T01:01 · Pay Monthly Option - Help?
 - · [10692](https://tbpro.zendesk.com/agent/tickets/10692) · 2026-11-09T05:01 · Access to Thunderbird Beta on iOS
