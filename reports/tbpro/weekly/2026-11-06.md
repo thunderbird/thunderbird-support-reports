@@ -10,8 +10,6 @@ _2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-0
 - 🟡 1 known problem with 2 open reports — [[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV](https://tbpro.zendesk.com/agent/tickets/10009)
 - 🟡 Refund/cancel rate 15% of real subscriber tickets (18 / 118)
 - 🟡 Volume 144 tickets this week vs 80 prior week (+64, +80% WoW)
-- 🟡 14 ticket(s) with user urgency: critical still open: [#10886](https://tbpro.zendesk.com/agent/tickets/10886) Added custom domain (via catch-all alias), but it is…; [#10871](https://tbpro.zendesk.com/agent/tickets/10871) cancel my whole account; [#10870](https://tbpro.zendesk.com/agent/tickets/10870) change default account email; [#10865](https://tbpro.zendesk.com/agent/tickets/10865) I'm looking for help reviving Thunderbird installs on…; [#10842](https://tbpro.zendesk.com/agent/tickets/10842) Mail Merge; [#10841](https://tbpro.zendesk.com/agent/tickets/10841) Delete my account; [#10838](https://tbpro.zendesk.com/agent/tickets/10838) Early Bird Discount or Trial Coupon for Thundermail; [#10816](https://tbpro.zendesk.com/agent/tickets/10816) forgotten password; [#10766](https://tbpro.zendesk.com/agent/tickets/10766) I only want to keep this if I can import my Eudora…; [#10749](https://tbpro.zendesk.com/agent/tickets/10749) recuperaçao de senha; [#10746](https://tbpro.zendesk.com/agent/tickets/10746) I cant load Thunderbird; [#10697](https://tbpro.zendesk.com/agent/tickets/10697) Disregard last request for a refund; [#10683](https://tbpro.zendesk.com/agent/tickets/10683) There was no option to select the desired domain; [#10679](https://tbpro.zendesk.com/agent/tickets/10679) Pay Monthly Option - Help?
-
 ---
 
 ## Week at a glance
