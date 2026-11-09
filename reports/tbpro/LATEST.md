@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 11:17 ET** · refreshes hourly_  
+_Updated: **2026-11-09 12:15 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1157 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1158 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **14** solved in last 24h
-- **1157** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **11** new tickets in last 24h · **17** solved in last 24h
+- **1158** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 143.3h · mean 157.7h (proxy: updated_at − created_at, 70 solved tickets)
+- **Median AHT**: 143.7h · mean 160.5h (proxy: updated_at − created_at, 70 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -298,16 +298,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 921
-- **pending**: 86
+- **closed**: 924
+- **pending**: 83
 - **solved**: 70
-- **open**: 36
-- **new**: 26
-- **hold**: 18
+- **open**: 35
+- **new**: 27
+- **hold**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 652
+- **Account Hub**: 653
 - **Thundermail**: 397
 - **Send**: 23
 - **Appointment**: 14
@@ -321,7 +321,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 118
 - **confused** + **explained**: 92
 - **curious** + **informed**: 58
-- **confused** + **informed**: 51
+- **confused** + **informed**: 53
 - **request** + **redirected**: 49
 - **blocked** + **investigated**: 49
 - **blocked** + **redirected**: 48
@@ -391,6 +391,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10964](https://tbpro.zendesk.com/agent/tickets/10964)** · Unable to make a payment
   > I am unable to make a payment. On the payment page: Unexpected Application Error! invalid language tag: "chrome://global/locale/intl.properties"…
 
+### Webmail — 1 tickets
+
+- **[#10994](https://tbpro.zendesk.com/agent/tickets/10994)** · Thunderbird for Android
+  > This is just a heads up. You suggested the Thunderbird for Android as a solution for Thundermail on Androids, but I actually downloaded this, and for me it is unusable. I like…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#10991](https://tbpro.zendesk.com/agent/tickets/10991)** · got invitation, cant sign up
@@ -428,6 +433,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10983](https://tbpro.zendesk.com/agent/tickets/10983) · [new] · 2026-11-09T14:22 · Request for monthly subscription option
 - [10984](https://tbpro.zendesk.com/agent/tickets/10984) · [new] · 2026-11-09T14:33 · Cancel my subscription and my email account
 - [10991](https://tbpro.zendesk.com/agent/tickets/10991) · [new] · 2026-11-09T15:42 · got invitation, cant sign up
+- [10994](https://tbpro.zendesk.com/agent/tickets/10994) · [new] · 2026-11-09T16:29 · Thunderbird for Android
 
 ## Solved — last 24h
 
@@ -445,6 +451,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10679](https://tbpro.zendesk.com/agent/tickets/10679) · 2026-11-09T01:01 · Pay Monthly Option - Help?
 - · [10692](https://tbpro.zendesk.com/agent/tickets/10692) · 2026-11-09T05:01 · Access to Thunderbird Beta on iOS
 - 👍 [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-09T15:25 · ThunderMail Custom Domain Setup for Dreamhost
+- · [10772](https://tbpro.zendesk.com/agent/tickets/10772) · 2026-11-09T17:02 · account
+- · [10766](https://tbpro.zendesk.com/agent/tickets/10766) · 2026-11-09T17:02 · I only want to keep this if I can import my Eudora addresses
+- · [10736](https://tbpro.zendesk.com/agent/tickets/10736) · 2026-11-09T17:02 · How do I request a [domain] address pls
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
