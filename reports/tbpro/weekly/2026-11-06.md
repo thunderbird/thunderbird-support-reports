@@ -7,7 +7,7 @@ _2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-0
 **Watch signals:**
 - 🟡 Refund/cancel rate 15% of real subscriber tickets (18 / 120)
 - 🟡 Volume 146 tickets this week vs 80 prior week (+66, +82% WoW)
-- 🟡 Other-brand queue high: 17 open/new tickets (+325% vs prior week) — team capacity may be stretched
+- 🟡 Other-brand queue: 60 open/new tickets right now — team capacity may be stretched
 
 ---
 
@@ -21,7 +21,7 @@ _2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-0
 | Solved this week | **78** |
 | CSAT | **100% (6 responses)** |
 | Refunds / cancels | **18** |
-| Other-brand open/new tickets | **17 (+325% WoW)** |
+| Other-brand queue (now) | **60** |
 | New ideas this week | **9** |
 
 **Daily ticket volume:**
