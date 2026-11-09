@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 10:15 ET** · refreshes hourly_  
+_Updated: **2026-11-09 11:17 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1156 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1157 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **14 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **13** solved in last 24h
-- **1156** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 94%  (204 good / 12 bad)
+- **10** new tickets in last 24h · **14** solved in last 24h
+- **1157** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 142.0h · mean 156.1h (proxy: updated_at − created_at, 78 solved tickets)
+- **Median AHT**: 143.3h · mean 157.7h (proxy: updated_at − created_at, 70 solved tickets)
 
 ## Known problems — 14 problem(s), 142 incident(s)
 
@@ -137,7 +137,7 @@ Flight 8 is **day 92** of rollout — **35,000 invitees**, **1156 tickets** so f
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [open] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [solved] · 2026-11-02 · _cancel account_
-  - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [solved] · 2026-11-02 · _Refund question_
+  - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [closed] · 2026-11-02 · _Refund question_
   - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [solved] · 2026-11-03 · _Cancel subscription_
   - [#10717](https://tbpro.zendesk.com/agent/tickets/10717) · [closed] · 2026-11-03 · _Cancel/Refund_
   - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [solved] · 2026-11-03 · _Delete account_
@@ -298,11 +298,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 914
-- **pending**: 83
-- **solved**: 78
-- **open**: 35
-- **new**: 28
+- **closed**: 921
+- **pending**: 86
+- **solved**: 70
+- **open**: 36
+- **new**: 26
 - **hold**: 18
 
 ## Service (cumulative)
@@ -318,12 +318,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 219
 - **change request** + **actioned**: 162
-- **blocked** + **explained**: 117
+- **blocked** + **explained**: 118
 - **confused** + **explained**: 92
 - **curious** + **informed**: 58
 - **confused** + **informed**: 51
 - **request** + **redirected**: 49
-- **blocked** + **investigated**: 48
+- **blocked** + **investigated**: 49
 - **blocked** + **redirected**: 48
 - **concerned** + **explained**: 31
 - **confused** + **redirected**: 31
@@ -391,6 +391,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#10964](https://tbpro.zendesk.com/agent/tickets/10964)** · Unable to make a payment
   > I am unable to make a payment. On the payment page: Unexpected Application Error! invalid language tag: "chrome://global/locale/intl.properties"…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#10991](https://tbpro.zendesk.com/agent/tickets/10991)** · got invitation, cant sign up
+  > got an invitation but i cant sign up
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#10983](https://tbpro.zendesk.com/agent/tickets/10983)** · Request for monthly subscription option
@@ -422,6 +427,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [10981](https://tbpro.zendesk.com/agent/tickets/10981) · [new] · 2026-11-09T13:05 · My emails
 - [10983](https://tbpro.zendesk.com/agent/tickets/10983) · [new] · 2026-11-09T14:22 · Request for monthly subscription option
 - [10984](https://tbpro.zendesk.com/agent/tickets/10984) · [new] · 2026-11-09T14:33 · Cancel my subscription and my email account
+- [10991](https://tbpro.zendesk.com/agent/tickets/10991) · [new] · 2026-11-09T15:42 · got invitation, cant sign up
 
 ## Solved — last 24h
 
@@ -438,6 +444,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10680](https://tbpro.zendesk.com/agent/tickets/10680) · 2026-11-09T01:01 · Financial hardship discount 
 - · [10679](https://tbpro.zendesk.com/agent/tickets/10679) · 2026-11-09T01:01 · Pay Monthly Option - Help?
 - · [10692](https://tbpro.zendesk.com/agent/tickets/10692) · 2026-11-09T05:01 · Access to Thunderbird Beta on iOS
+- 👍 [10699](https://tbpro.zendesk.com/agent/tickets/10699) · 2026-11-09T15:25 · ThunderMail Custom Domain Setup for Dreamhost
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
