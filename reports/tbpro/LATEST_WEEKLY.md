@@ -5,16 +5,13 @@ _2026-08-10 launch · 35000 invitees · 0.3% contact rate · generated 2026-11-0
 ## 🟡 Wave invite status: **WATCH**
 
 **Watch signals:**
-- 🟡 2 unresolved escalated ticket(s) this week: [#10896](https://tbpro.zendesk.com/agent/tickets/10896) Webmail is down for me; [#10874](https://tbpro.zendesk.com/agent/tickets/10874) Recurring JMAP 525 SSL Handshake Errors – Webmail…
-- 🟡 1 known problem with 118 linked reports (11 open) — [[Tracker] Account refunded and canceled, purge queue](https://tbpro.zendesk.com/agent/tickets/7053)
-- 🟡 1 known problem with 2 open reports — [[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV](https://tbpro.zendesk.com/agent/tickets/10009)
 - 🟡 Refund/cancel rate 15% of real subscriber tickets (18 / 120)
 - 🟡 Volume 146 tickets this week vs 80 prior week (+66, +82% WoW)
 - 🟡 Other-brand queue high: 17 open/new tickets (+325% vs prior week) — team capacity may be stretched
 
 ---
 
-## Week at a glance
+## Last week at a glance
 
 | Metric | Value |
 |--------|-------|

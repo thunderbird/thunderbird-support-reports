@@ -55,6 +55,11 @@ CRITICAL_URGENCY_REVIEWED = {
     10838, 10841, 10842, 10865, 10870, 10871, 10886,
 }
 
+# Verdict-box items Lisa took out of the alert on 2026-11-09. Only the alert
+# line is suppressed; the tickets and problems stay in the report body.
+ALERT_REVIEWED_ESCALATIONS = {10896, 10874}   # "unresolved escalated" line
+ALERT_REVIEWED_PROBLEMS    = {7053, 10009}    # "known problem" lines
+
 # Thunderbird-help login misdirects. Checked before the account-access tags,
 # which would otherwise swallow these tickets.
 MISDIRECT_CONTACT_TAG = "macro_tm_login_misdirect_thunderbird-help"
@@ -141,6 +146,7 @@ def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
         t for t in week_tickets
         if "how_escalated" in (t.get("tags") or [])
         and t.get("status") not in ("solved", "closed")
+        and int(t.get("id") or 0) not in ALERT_REVIEWED_ESCALATIONS
     ]
     if len(escalated_open) >= ESCALATION_BLOCK:
         blockers.append(f"{len(escalated_open)} unresolved escalated tickets this week")
@@ -151,6 +157,8 @@ def assess_blockers(week_tickets, prior_tickets, csat_pct, csat_n,
     for pid, incidents in incidents_by_problem.items():
         open_inc = [i for i in incidents if i.get("status") not in ("solved", "closed")]
         if not open_inc:
+            continue
+        if pid in ALERT_REVIEWED_PROBLEMS:
             continue
         prob = problems.get(pid, {})
         prob_resolved = prob.get("status", "open") in ("solved", "closed")
@@ -407,6 +415,7 @@ def build_weekly(week_end_et: dt.date) -> dict:
         t for t in week_tickets
         if "how_escalated" in (t.get("tags") or [])
         and t.get("status") not in ("solved", "closed")
+        and int(t.get("id") or 0) not in ALERT_REVIEWED_ESCALATIONS
     ]
 
     # Map caution string → problem ticket ID so renders can inject Zendesk links
@@ -556,7 +565,7 @@ def render_weekly_md(d: dict, public: bool = False) -> str:
         else f"— ({d['csat_n']} responses)"
     )
 
-    o.append("## Week at a glance")
+    o.append("## Last week at a glance")
     o.append("")
     o.append("| Metric | Value |")
     o.append("|--------|-------|")
@@ -816,7 +825,7 @@ def render_weekly_html(d: dict, public: bool = False) -> str:
         surge = (other_open / other_prior - 1) * 100
         other_wow = f"{'+' if surge >= 0 else ''}{surge:.0f}% WoW"
 
-    p.append('<h2>Week at a glance</h2>\n<div class="metrics">')
+    p.append('<h2>Last week at a glance</h2>\n<div class="metrics">')
     for cls, val, label, sub in [
         ("blue",   str(n_week),             "New tickets",              wow_str),
         ("blue",   str(n_real),             "Real subscriber issues",   ""),
