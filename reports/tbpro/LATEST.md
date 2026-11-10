@@ -1,28 +1,29 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 10:19 ET** · refreshes hourly_  
+_Updated: **2026-11-10 11:18 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1179 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1181 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **18** solved in last 24h
-- **1179** tickets total since launch · contact rate **3%** of 35000 invitees
+- **17** new tickets in last 24h · **21** solved in last 24h
+- **1181** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 140.0h · mean 145.8h (proxy: updated_at − created_at, 90 solved tickets)
+- **Median AHT**: 139.7h · mean 145.3h (proxy: updated_at − created_at, 92 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"firefox user"** — 2 tickets in 24h (92.0× baseline; baseline 2 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11039](https://tbpro.zendesk.com/agent/tickets/11039)
 - **"long time"** — 2 tickets in 24h (30.7× baseline; baseline 6 cum) — [#11015](https://tbpro.zendesk.com/agent/tickets/11015), [#11025](https://tbpro.zendesk.com/agent/tickets/11025)
 
-## Known problems — 15 problem(s), 146 incident(s)
+## Known problems — 15 problem(s), 147 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -39,7 +40,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 121 incident(s):
+- 122 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -159,6 +160,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [pending] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06 · _Cancellation + refund_
+  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [pending] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [pending] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
 
@@ -224,7 +226,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#10997](https://tbpro.zendesk.com/agent/tickets/10997) · [hold] · [tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow (1.5 Mega bits / second or slower) internet connections for f_
 - 1 incident(s):
-  - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [open] · 2026-10-26 · _Bug report on Send file upload_
+  - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [pending] · 2026-10-26 · _Bug report on Send file upload_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -314,17 +316,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 935
-- **solved**: 90
-- **pending**: 85
-- **open**: 32
+- **closed**: 936
+- **solved**: 92
+- **pending**: 87
+- **open**: 29
 - **hold**: 19
 - **new**: 18
 
 ## Service (cumulative)
 
-- **Account Hub**: 664
-- **Thundermail**: 406
+- **Account Hub**: 665
+- **Thundermail**: 407
 - **Send**: 23
 - **Appointment**: 14
 
@@ -333,7 +335,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 227
-- **change request** + **actioned**: 165
+- **change request** + **actioned**: 166
 - **blocked** + **explained**: 119
 - **confused** + **explained**: 94
 - **curious** + **informed**: 58
@@ -354,8 +356,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **explained**: 8
 - **concerned** + **investigated**: 8
 - **request** + **explained**: 7
-- **curious** + **—**: 6
 - **curious** + **actioned**: 5
+- **curious** + **—**: 5
 - **other** + **n/a**: 4
 - **concerned** + **escalated**: 4
 - **telling us** + **n/a**: 4
@@ -391,8 +393,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 6 tickets
 
+- **[#11043](https://tbpro.zendesk.com/agent/tickets/11043)** · entrar
+  > Não consigo acessar trocar a senha para entrar por outro computador
 - **[#11035](https://tbpro.zendesk.com/agent/tickets/11035)** · Subscription Page
   > When I sign in I am taken to the subscription page but everything is greyed out so unable to do anything. Thanks,
 - **[#11033](https://tbpro.zendesk.com/agent/tickets/11033)** · Subscription termination
@@ -412,6 +416,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I want to cancel subscription and get money back. This service does not provide the features I hoped to get.
 - **[#11016](https://tbpro.zendesk.com/agent/tickets/11016)** · Cancel + Refund
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
+
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+
+- **[#11039](https://tbpro.zendesk.com/agent/tickets/11039)** · Missing features and questions
+  > Hi, When will JMAP be ready to use? The website for Thundermail says it is used already (the wording)...No JMAP app I tried (Sterna, Bulwark Mobile, on Android 17) worked with…
+- **[#11013](https://tbpro.zendesk.com/agent/tickets/11013)** · Replacing Outlook Server
+  > I used an SMTP server for many years, but a few years ago, GoDaddy insisted that SMTP was not secure, so they moved me over to an Outlook server. I have no love for Microsoft or…
 
 ### App setup / configuration — 2 tickets
 
@@ -437,28 +448,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11023](https://tbpro.zendesk.com/agent/tickets/11023)** · Change main email address
   > Can I keep [email] but switch the main login email account to [email]?
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#11013](https://tbpro.zendesk.com/agent/tickets/11013)** · Replacing Outlook Server
-  > I used an SMTP server for many years, but a few years ago, GoDaddy insisted that SMTP was not secure, so they moved me over to an Outlook server. I have no love for Microsoft or…
-
 ## New tickets — last 24h
 
 - [11013](https://tbpro.zendesk.com/agent/tickets/11013) · [open] · 2026-11-09T21:33 · Replacing Outlook Server
 - [11014](https://tbpro.zendesk.com/agent/tickets/11014) · [open] · 2026-11-09T21:42 · Early Access
-- [11015](https://tbpro.zendesk.com/agent/tickets/11015) · [new] · 2026-11-09T21:50 · Takes a Minute
+- [11015](https://tbpro.zendesk.com/agent/tickets/11015) · [open] · 2026-11-09T21:50 · Takes a Minute
 - [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [open] · 2026-11-09T21:52 · Cancel + Refund
 - [11017](https://tbpro.zendesk.com/agent/tickets/11017) · [open] · 2026-11-09T22:38 · I want to cancel subscription
 - [11018](https://tbpro.zendesk.com/agent/tickets/11018) · [new] · 2026-11-09T23:30 · Email messages
 - [11019](https://tbpro.zendesk.com/agent/tickets/11019) · [open] · 2026-11-09T23:34 · cancel & delete
 - [11021](https://tbpro.zendesk.com/agent/tickets/11021) · [new] · 2026-11-10T00:54 · Account problems
-- [11023](https://tbpro.zendesk.com/agent/tickets/11023) · [new] · 2026-11-10T02:58 · Change main email address
+- [11023](https://tbpro.zendesk.com/agent/tickets/11023) · [open] · 2026-11-10T02:58 · Change main email address
 - [11024](https://tbpro.zendesk.com/agent/tickets/11024) · [new] · 2026-11-10T04:16 ·  Thundermail Early Access
 - [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [open] · 2026-11-10T04:24 · Setting up thunderbird 
 - [11031](https://tbpro.zendesk.com/agent/tickets/11031) · [new] · 2026-11-10T07:53 · パスワードを忘れた
 - [11033](https://tbpro.zendesk.com/agent/tickets/11033) · [new] · 2026-11-10T10:51 · Subscription termination
 - [11034](https://tbpro.zendesk.com/agent/tickets/11034) · [new] · 2026-11-10T11:40 · Thundermail upload stopped on 24 October 2026
 - [11035](https://tbpro.zendesk.com/agent/tickets/11035) · [new] · 2026-11-10T11:57 · Subscription Page
+- [11039](https://tbpro.zendesk.com/agent/tickets/11039) · [new] · 2026-11-10T15:34 · Missing features and questions
+- [11043](https://tbpro.zendesk.com/agent/tickets/11043) · [new] · 2026-11-10T16:13 · entrar
 
 ## Solved — last 24h
 
@@ -480,6 +488,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10812](https://tbpro.zendesk.com/agent/tickets/10812) · 2026-11-10T00:01 · wachtwoord verstrekken of de mogelijkheid bieden om deze opnieuw aan te maken
 - · [10744](https://tbpro.zendesk.com/agent/tickets/10744) · 2026-11-10T00:01 · Can I have separate mailboxes for each of my family members, all on one account?  I have my own doma
 - · [10805](https://tbpro.zendesk.com/agent/tickets/10805) · 2026-11-10T15:02 · Terms of Service
+- · [10822](https://tbpro.zendesk.com/agent/tickets/10822) · 2026-11-10T16:02 · new account can't login
+- · [10818](https://tbpro.zendesk.com/agent/tickets/10818) · 2026-11-10T16:02 · I saved my email address and password since 31/08/24.
+- · [10747](https://tbpro.zendesk.com/agent/tickets/10747) · 2026-11-10T16:02 · Cannot sign in to new thundermail 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
