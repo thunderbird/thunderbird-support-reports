@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-10 10:19 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 93** of rollout — **35,000 invitees**, **1179 tickets** so f
 
 ## At a glance
 
-- **15** new tickets in last 24h · **17** solved in last 24h
+- **15** new tickets in last 24h · **18** solved in last 24h
 - **1179** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 145.8h (proxy: updated_at − created_at, 89 solved tickets)
+- **Median AHT**: 140.0h · mean 145.8h (proxy: updated_at − created_at, 90 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -224,7 +224,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#10997](https://tbpro.zendesk.com/agent/tickets/10997) · [hold] · [tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow (1.5 Mega bits / second or slower) internet connections for f_
 - 1 incident(s):
-  - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [hold] · 2026-10-26 · _Bug report on Send file upload_
+  - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [open] · 2026-10-26 · _Bug report on Send file upload_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -315,11 +315,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 935
-- **solved**: 89
-- **pending**: 88
-- **open**: 28
-- **hold**: 20
-- **new**: 19
+- **solved**: 90
+- **pending**: 85
+- **open**: 32
+- **hold**: 19
+- **new**: 18
 
 ## Service (cumulative)
 
@@ -444,7 +444,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [11013](https://tbpro.zendesk.com/agent/tickets/11013) · [new] · 2026-11-09T21:33 · Replacing Outlook Server
+- [11013](https://tbpro.zendesk.com/agent/tickets/11013) · [open] · 2026-11-09T21:33 · Replacing Outlook Server
 - [11014](https://tbpro.zendesk.com/agent/tickets/11014) · [open] · 2026-11-09T21:42 · Early Access
 - [11015](https://tbpro.zendesk.com/agent/tickets/11015) · [new] · 2026-11-09T21:50 · Takes a Minute
 - [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [open] · 2026-11-09T21:52 · Cancel + Refund
@@ -479,6 +479,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10743](https://tbpro.zendesk.com/agent/tickets/10743) · 2026-11-09T23:02 · Funcionamiento del correo. 
 - · [10812](https://tbpro.zendesk.com/agent/tickets/10812) · 2026-11-10T00:01 · wachtwoord verstrekken of de mogelijkheid bieden om deze opnieuw aan te maken
 - · [10744](https://tbpro.zendesk.com/agent/tickets/10744) · 2026-11-10T00:01 · Can I have separate mailboxes for each of my family members, all on one account?  I have my own doma
+- · [10805](https://tbpro.zendesk.com/agent/tickets/10805) · 2026-11-10T15:02 · Terms of Service
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
