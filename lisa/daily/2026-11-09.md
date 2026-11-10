@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 21:19 ET** · refreshes hourly_  
+_Updated: **2026-11-09 22:17 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1172 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1173 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **30** solved in last 24h
-- **1172** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1173** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (7 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
@@ -333,11 +333,11 @@ Henning Gerken_
 - **solved**: 89
 - **open**: 24
 - **hold**: 20
-- **new**: 14
+- **new**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 662
+- **Account Hub**: 663
 - **Thundermail**: 403
 - **Send**: 23
 - **Appointment**: 14
