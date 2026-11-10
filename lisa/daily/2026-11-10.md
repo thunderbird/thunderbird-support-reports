@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 01:23 ET** · refreshes hourly_  
+_Updated: **2026-11-10 02:15 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -317,9 +317,9 @@ _(none in last 24h)_
 - **closed**: 935
 - **pending**: 91
 - **solved**: 89
-- **open**: 23
+- **open**: 25
 - **hold**: 20
-- **new**: 17
+- **new**: 15
 
 ## Service (cumulative)
 
@@ -446,7 +446,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11021](https://tbpro.zendesk.com/agent/tickets/11021) · [new] · 2026-11-10T00:54 · Account problems
 - [11023](https://tbpro.zendesk.com/agent/tickets/11023) · [new] · 2026-11-10T02:58 · Change main email address
 - [11024](https://tbpro.zendesk.com/agent/tickets/11024) · [new] · 2026-11-10T04:16 ·  Thundermail Early Access
-- [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [new] · 2026-11-10T04:24 · Setting up thunderbird 
+- [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [open] · 2026-11-10T04:24 · Setting up thunderbird 
 
 ## Solved — last 24h
 
