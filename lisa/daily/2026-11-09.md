@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 20:15 ET** · refreshes hourly_  
+_Updated: **2026-11-09 21:19 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -312,14 +312,14 @@ Henning Gerken_
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
 - [11017](https://tbpro.zendesk.com/agent/tickets/11017) · [open] · _I want to cancel subscription_
   > I want to cancel subscription and get money back. This service does not provide the features I hoped to get.
-- [11019](https://tbpro.zendesk.com/agent/tickets/11019) · [new] · _cancel & delete_
+- [11019](https://tbpro.zendesk.com/agent/tickets/11019) · [open] · _cancel & delete_
   > i like the idea but i don't see value for my needs. may i cancel and receive a refund?
 
 ## New ideas on FeatureOS
 
 **Last 24h** — 3 new:
 
-- [Email Forwarding for custom domains](https://ideas.tb.pro/p/email-forwarding-for-custom-domains) · 1 votes · _Thundermail_
+- [Email Forwarding for custom domains](https://ideas.tb.pro/p/email-forwarding-for-custom-domains) · 2 votes · _Thundermail_
   > What I require When using a custom domain it would be useful to be able to forward emails of that domain to email accounts that are not on Thundermail. These email aliases would not be stored in the…
 - [Payment via Bank Transfer](https://ideas.tb.pro/p/payment-via-bank-transfer) · 1 votes · _Accounts & Subscriptions, Improvement_
   > What you’d like to see Currently, I can only pay for Thunderbird Pro with PayPal or bank card. However, Thunderbird’s payment processor, Paddle, advertises support for bank transfers via wire, SEPA,…
@@ -331,9 +331,9 @@ Henning Gerken_
 - **closed**: 935
 - **pending**: 90
 - **solved**: 89
-- **open**: 22
+- **open**: 24
 - **hold**: 20
-- **new**: 16
+- **new**: 14
 
 ## Service (cumulative)
 
