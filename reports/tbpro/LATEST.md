@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 02:15 ET** · refreshes hourly_  
+_Updated: **2026-11-10 03:19 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1175 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1176 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **17** solved in last 24h
-- **1175** tickets total since launch · contact rate **3%** of 35000 invitees
+- **12** new tickets in last 24h · **17** solved in last 24h
+- **1176** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -315,11 +315,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 935
-- **pending**: 91
+- **pending**: 90
 - **solved**: 89
-- **open**: 25
+- **open**: 26
 - **hold**: 20
-- **new**: 15
+- **new**: 16
 
 ## Service (cumulative)
 
@@ -391,6 +391,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#11031](https://tbpro.zendesk.com/agent/tickets/11031)** · パスワードを忘れた
+  > 電話でサポートおねがいします。
+- **[#11018](https://tbpro.zendesk.com/agent/tickets/11018)** · Email messages
+  > How do I print messages?
+- **[#11015](https://tbpro.zendesk.com/agent/tickets/11015)** · Takes a Minute
+  > Sorry I'm slow but the email comes into my old Thunderbird but can only be sent from thundermail. I was/am using 159.0 (64-bit) Release notes Thunderbird codename Meadow badge…
+
 ### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#11019](https://tbpro.zendesk.com/agent/tickets/11019)** · cancel & delete
@@ -406,13 +415,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi, The new Thundermail as only the option to be with @[domain]? Can't use my business @ ?
 - **[#11014](https://tbpro.zendesk.com/agent/tickets/11014)** · Early Access
   > Hi there, I've been fortunate enough to receive an early-access invitation to Thundermail, and I'd really love to sign up! I've been a longtime Thunderbird and Firefox user, so…
-
-### Other / uncategorized — 2 tickets
-
-- **[#11018](https://tbpro.zendesk.com/agent/tickets/11018)** · Email messages
-  > How do I print messages?
-- **[#11015](https://tbpro.zendesk.com/agent/tickets/11015)** · Takes a Minute
-  > Sorry I'm slow but the email comes into my old Thunderbird but can only be sent from thundermail. I was/am using 159.0 (64-bit) Release notes Thunderbird codename Meadow badge…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -447,6 +449,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11023](https://tbpro.zendesk.com/agent/tickets/11023) · [new] · 2026-11-10T02:58 · Change main email address
 - [11024](https://tbpro.zendesk.com/agent/tickets/11024) · [new] · 2026-11-10T04:16 ·  Thundermail Early Access
 - [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [open] · 2026-11-10T04:24 · Setting up thunderbird 
+- [11031](https://tbpro.zendesk.com/agent/tickets/11031) · [new] · 2026-11-10T07:53 · パスワードを忘れた
 
 ## Solved — last 24h
 
