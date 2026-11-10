@@ -45,6 +45,19 @@ REFUND_WATCH_PCT       = 8.0   # Refunds > this % of real subscriber tickets = W
 VOLUME_SURGE_WATCH     = 150   # TB Pro week volume > this % of prior week = WATCH
 OTHER_BRAND_MIN_OPEN   = 40    # Minimum count before the other-brand signal fires
 
+# Accounts What (tagger) and the free-text Refund Reason agents type beside it.
+ACCOUNTS_WHAT_FIELD = 46101724112787
+REFUND_REASON_TEXT_FIELD = 51445043980051
+REFUND_REASON_LABELS = {
+    "tbpro_hub_what_refunds_general": "General",
+    "tbpro_hub_what_refunds_immature_product/not_yet_ready": "Immature product / not yet ready",
+    "tbpro_hub_what_refunds_missing_features__vague_": "Missing features",
+    "tbpro_hub_what_refunds_no_mailboxes/smb/family_plan": "No mailboxes / SMB / family plan",
+    "tbpro_hub_what_refunds_refunds__pricing": "Pricing",
+    "tbpro_hub_what_refunds_refunds_reason_not_shared": "Reason not shared",
+    "tbpro_hub_what_refunds_us_company": "US company",
+}
+
 # Lisa reviewed these on 2026-11-09: customers said they were fine, and the
 # tickets stayed open only because agents had not closed them yet. Kept out of
 # the critical-urgency watch and out of What we heard, so both stay a source
@@ -342,6 +355,10 @@ def build_weekly(week_end_et: dt.date) -> dict:
         t for t in d["refunds"]
         if window_start_utc <= daily.parse_iso(t["created_at"]) < window_end_utc
     ]
+    # Accounts What refund reasons, plus the free-text note, on this week's tickets.
+    refund_reasons = refund_reason_entries(week_tickets)
+    coded_ids = {e["id"] for e in refund_reasons}
+    refunds_uncoded = [t for t in refunds_week if t.get("id") not in coded_ids]
 
     # Solved this week
     solved_week = [
@@ -443,6 +460,8 @@ def build_weekly(week_end_et: dt.date) -> dict:
         "csat_pct":             csat_pct,
         "csat_n":               csat_n,
         "refunds_week":         refunds_week,
+        "refund_reasons":       refund_reasons,
+        "refunds_uncoded":      refunds_uncoded,
         "fos_week":             fos_week,
         "fos_since_launch":     d["fos_since_launch"],
         "daily_vol":            daily_vol,
@@ -469,6 +488,113 @@ def build_weekly(week_end_et: dt.date) -> dict:
 
 
 # ── Shared text helpers ───────────────────────────────────────────────────────
+
+def _custom_field(ticket, field_id):
+    for cf in ticket.get("custom_fields") or []:
+        if cf.get("id") == field_id:
+            return cf.get("value") or None
+    return None
+
+
+def refund_reason_entries(tickets):
+    """Tickets whose Accounts What value is one of the refund reasons.
+
+    Each entry is the dropdown label plus the free-text Refund Reason, when
+    an agent typed one. Tickets are whatever set the caller passes (this week).
+    """
+    entries = []
+    for t in tickets:
+        value = _custom_field(t, ACCOUNTS_WHAT_FIELD)
+        if value not in REFUND_REASON_LABELS:
+            continue
+        note = _custom_field(t, REFUND_REASON_TEXT_FIELD) or ""
+        entries.append({
+            "id": t.get("id"),
+            "requester_id": t.get("requester_id"),
+            "reason": REFUND_REASON_LABELS[value],
+            "note": str(note).strip(),
+        })
+    return entries
+
+
+def _append_refund_reasons_md(o, d, R):
+    entries = d.get("refund_reasons") or []
+    uncoded = d.get("refunds_uncoded") or []
+    o.append("## Refund reasons")
+    o.append("")
+    o.append("_Accounts What dropdown, plus the free-text Refund Reason. "
+             "Counts are tickets created this week._")
+    o.append("")
+    if not entries and not uncoded:
+        o.append("_None recorded this week._")
+        o.append("")
+        return
+    counts = Counter(e["reason"] for e in entries)
+    people = len({e["requester_id"] for e in entries if e.get("requester_id")})
+    if entries:
+        o.append(f"{len(entries)} ticket(s), {people} people.")
+        o.append("")
+        o.append("| Reason | Tickets |")
+        o.append("|--------|--------:|")
+        for reason, n in counts.most_common():
+            o.append(f"| {reason} | {n} |")
+        o.append("")
+    notes = [e for e in entries if e.get("note")]
+    if notes:
+        o.append("**What agents wrote:**")
+        o.append("")
+        for e in notes:
+            note = _trunc(R(e["note"]).replace("\n", " "), 180)
+            o.append(f"- #{e['id']} {e['reason']} — {note}")
+        o.append("")
+    if uncoded:
+        ids = ", ".join(f"#{t.get('id')}" for t in uncoded if t.get("id"))
+        o.append(f"**Refund or cancel tickets with no reason set:** {len(uncoded)} ({ids})")
+        o.append("")
+
+
+def _append_refund_reasons_html(p, d, R, subdomain):
+    from tbpro_daily import _h  # noqa: PLC0415
+    entries = d.get("refund_reasons") or []
+    uncoded = d.get("refunds_uncoded") or []
+    p.append("<h2>Refund reasons</h2>\n")
+    p.append('<p class="theme-drill-meta">Accounts What dropdown, plus the free-text Refund Reason. Tickets created this week.</p>')
+    if not entries and not uncoded:
+        p.append("<p><em>None recorded this week.</em></p>\n")
+        return
+    counts = Counter(e["reason"] for e in entries)
+    if entries:
+        people = len({e["requester_id"] for e in entries if e.get("requester_id")})
+        p.append(f'<p>{len(entries)} ticket(s), {people} people.</p>')
+        for reason, n in counts.most_common():
+            p.append(
+                f'<div class="theme-sample">'
+                f'<span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">{n}</span>'
+                f'{_h(reason)}</div>'
+            )
+    notes = [e for e in entries if e.get("note")]
+    if notes:
+        p.append('<p class="theme-drill-meta">What agents wrote</p>')
+        for e in notes:
+            note = _trunc(R(e["note"]).replace("\n", " "), 180)
+            tid = e.get("id")
+            link = (
+                f'<a href="https://{subdomain}.zendesk.com/agent/tickets/{tid}">#{tid}</a> '
+                if tid else ""
+            )
+            p.append(
+                f'<div class="theme-sample">{link}{_h(e["reason"])} — {_h(note)}</div>'
+            )
+    if uncoded:
+        links = " ".join(
+            f'<a href="https://{subdomain}.zendesk.com/agent/tickets/{t.get("id")}">#{t.get("id")}</a>'
+            for t in uncoded if t.get("id")
+        )
+        p.append(
+            f'<p class="theme-drill-meta">Refund or cancel tickets with no reason set: {len(uncoded)} {links}</p>'
+        )
+    p.append("\n")
+
 
 def _trunc(s: str, n: int = 80) -> str:
     """Truncate at a word boundary, appending ellipsis, so we never cut mid-word."""
@@ -576,6 +702,8 @@ def render_weekly_md(d: dict, public: bool = False) -> str:
     o.append(f"| Other-brand queue (now) | **{other_str}** |")
     o.append(f"| New ideas this week | **{len(d['fos_week'])}** |")
     o.append("")
+
+    _append_refund_reasons_md(o, d, R)
 
     # Daily sparkline
     if d["daily_vol"]:
@@ -836,6 +964,8 @@ def render_weekly_html(d: dict, public: bool = False) -> str:
             + "</div>"
         )
     p.append("</div>\n")
+
+    _append_refund_reasons_html(p, d, R, subdomain)
 
     # CSAT bar
     if d["csat_pct"] is not None and d["csat_n"] >= MIN_CSAT_SAMPLE:
