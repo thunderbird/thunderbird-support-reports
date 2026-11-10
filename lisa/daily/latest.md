@@ -1,25 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-10 16:13 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1188 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1190 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **24** new tickets in last 24h · **38** solved in last 24h
-- **1188** tickets total since launch · contact rate **3%** of 35000 invitees
+- **26** new tickets in last 24h · **38** solved in last 24h
+- **1190** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 94%  (206 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 148.3h (proxy: updated_at − created_at, 103 solved tickets)
+- **CSAT (since launch)**: 95%  (207 good / 12 bad)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **Median AHT**: 140.0h · mean 149.3h (proxy: updated_at − created_at, 104 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"kann nicht"** — 2 tickets in 24h (new; baseline 0 cum) — [#11058](https://tbpro.zendesk.com/agent/tickets/11058), [#11059](https://tbpro.zendesk.com/agent/tickets/11059)
 - **"user excited"** — 2 tickets in 24h (new; baseline 0 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11044](https://tbpro.zendesk.com/agent/tickets/11044)
 - **"firefox user"** — 2 tickets in 24h (92.0× baseline; baseline 2 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11039](https://tbpro.zendesk.com/agent/tickets/11039)
 - **"long time"** — 2 tickets in 24h (30.7× baseline; baseline 6 cum) — [#11015](https://tbpro.zendesk.com/agent/tickets/11015), [#11025](https://tbpro.zendesk.com/agent/tickets/11025)
@@ -308,24 +309,26 @@ Henning Gerken_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Better URL for Surveys](https://ideas.tb.pro/p/better-url-for-surveys) · 1 votes · _Community_
+  > Please consider using an alternative url for the Thundermail surveys, since something like usabi.li doesn't seem like a trustworthy link.
 - [Block Spy Pixels/Trackers/Clean Links.](https://ideas.tb.pro/p/block-spy-pixels-trackers-clean-links) · 1 votes · _untagged_
   > What you’d like to see Similar to what Proton/Aster Mail does, please add spy pixel blocking, tracker blocking, and clean links on received emails. Why it matters Privacy. Your use case Privacy.
 
 ## Status breakdown (cumulative)
 
 - **closed**: 941
-- **solved**: 103
-- **pending**: 81
-- **new**: 23
-- **open**: 21
+- **solved**: 104
+- **pending**: 84
+- **new**: 24
 - **hold**: 19
+- **open**: 18
 
 ## Service (cumulative)
 
-- **Account Hub**: 673
-- **Thundermail**: 406
+- **Account Hub**: 674
+- **Thundermail**: 408
 - **Send**: 24
 - **Appointment**: 14
 
@@ -333,10 +336,10 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 230
+- **curious** + **explained**: 231
 - **change request** + **actioned**: 169
 - **blocked** + **explained**: 119
-- **confused** + **explained**: 94
+- **confused** + **explained**: 95
 - **curious** + **informed**: 59
 - **confused** + **informed**: 54
 - **request** + **redirected**: 50
@@ -388,12 +391,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **n/a**: 1
 - **blocked** + **n/a**: 1
 - **telling us** + **investigated**: 1
+- **change request** + **redirected**: 1
 - **telling us** + **actioned**: 1
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 10 tickets
+### Other / uncategorized — 12 tickets
 
+- **[#11059](https://tbpro.zendesk.com/agent/tickets/11059)** · Password funktioniert nicht
+  > Thunderbird kann nicht aktiviert werden
+- **[#11058](https://tbpro.zendesk.com/agent/tickets/11058)** · Password funktioniert nicht
+  > Thunderbird kann nicht aktiviert werden
 - **[#11053](https://tbpro.zendesk.com/agent/tickets/11053)** · Send large files
   > How can I send large files?
 - **[#11050](https://tbpro.zendesk.com/agent/tickets/11050)** · Account Deletion
@@ -415,15 +423,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11015](https://tbpro.zendesk.com/agent/tickets/11015)** · Takes a Minute
   > Sorry I'm slow but the email comes into my old Thunderbird but can only be sent from thundermail. I was/am using 159.0 (64-bit) Release notes Thunderbird codename Meadow badge…
 
-### Email Protocols (IMAP/SMTP/POP) — 3 tickets
-
-- **[#11044](https://tbpro.zendesk.com/agent/tickets/11044)** · cancelation
-  > Hello, Thanks for making this product. I'm a longtime Thunderbird user and am excited to see these developments. Unfortunately, the key feature I need right now is the ability to…
-- **[#11039](https://tbpro.zendesk.com/agent/tickets/11039)** · Missing features and questions
-  > Hi, When will JMAP be ready to use? The website for Thundermail says it is used already (the wording)...No JMAP app I tried (Sterna, Bulwark Mobile, on Android 17) worked with…
-- **[#11013](https://tbpro.zendesk.com/agent/tickets/11013)** · Replacing Outlook Server
-  > I used an SMTP server for many years, but a few years ago, GoDaddy insisted that SMTP was not secure, so they moved me over to an Outlook server. I have no love for Microsoft or…
-
 ### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#11019](https://tbpro.zendesk.com/agent/tickets/11019)** · cancel & delete — why: **change request** · how: **actioned**
@@ -432,6 +431,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I want to cancel subscription and get money back. This service does not provide the features I hoped to get.
 - **[#11016](https://tbpro.zendesk.com/agent/tickets/11016)** · Cancel + Refund — why: **change request** · how: **actioned**
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
+
+### Email sending / receiving / SMTP / IMAP — 2 tickets
+
+- **[#11049](https://tbpro.zendesk.com/agent/tickets/11049)** · Unable to send messages 
+  > Can receive messages but can't send, looks like a ser up problem
+- **[#11013](https://tbpro.zendesk.com/agent/tickets/11013)** · Replacing Outlook Server — why: **curious** · how: **explained**
+  > I used an SMTP server for many years, but a few years ago, GoDaddy insisted that SMTP was not secure, so they moved me over to an Outlook server. I have no love for Microsoft or…
+
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
+
+- **[#11044](https://tbpro.zendesk.com/agent/tickets/11044)** · cancelation
+  > Hello, Thanks for making this product. I'm a longtime Thunderbird user and am excited to see these developments. Unfortunately, the key feature I need right now is the ability to…
+- **[#11039](https://tbpro.zendesk.com/agent/tickets/11039)** · Missing features and questions
+  > Hi, When will JMAP be ready to use? The website for Thundermail says it is used already (the wording)...No JMAP app I tried (Sterna, Bulwark Mobile, on Android 17) worked with…
 
 ### App setup / configuration — 2 tickets
 
@@ -444,11 +457,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11052](https://tbpro.zendesk.com/agent/tickets/11052)** · srv records service field
   > I am using siteground hosting. when attempting to create the srv records to use thundermail for my custom domain, there is a service field that it will not allow empty and seems…
-
-### Email sending / receiving / SMTP / IMAP — 1 tickets
-
-- **[#11049](https://tbpro.zendesk.com/agent/tickets/11049)** · Unable to send messages 
-  > Can receive messages but can't send, looks like a ser up problem
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -472,7 +480,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [11013](https://tbpro.zendesk.com/agent/tickets/11013) · [open] · 2026-11-09T21:33 · Replacing Outlook Server
+- [11013](https://tbpro.zendesk.com/agent/tickets/11013) · [pending] · 2026-11-09T21:33 · Replacing Outlook Server
 - [11014](https://tbpro.zendesk.com/agent/tickets/11014) · [pending] · 2026-11-09T21:42 · Early Access
 - [11015](https://tbpro.zendesk.com/agent/tickets/11015) · [open] · 2026-11-09T21:50 · Takes a Minute
 - [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [pending] · 2026-11-09T21:52 · Cancel + Refund
@@ -484,7 +492,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11024](https://tbpro.zendesk.com/agent/tickets/11024) · [new] · 2026-11-10T04:16 ·  Thundermail Early Access
 - [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [open] · 2026-11-10T04:24 · Setting up thunderbird 
 - [11031](https://tbpro.zendesk.com/agent/tickets/11031) · [new] · 2026-11-10T07:53 · パスワードを忘れた
-- [11033](https://tbpro.zendesk.com/agent/tickets/11033) · [new] · 2026-11-10T10:51 · Subscription termination
+- [11033](https://tbpro.zendesk.com/agent/tickets/11033) · [open] · 2026-11-10T10:51 · Subscription termination
 - [11034](https://tbpro.zendesk.com/agent/tickets/11034) · [new] · 2026-11-10T11:40 · Thundermail upload stopped on 24 October 2026
 - [11035](https://tbpro.zendesk.com/agent/tickets/11035) · [new] · 2026-11-10T11:57 · Subscription Page
 - [11039](https://tbpro.zendesk.com/agent/tickets/11039) · [new] · 2026-11-10T15:34 · Missing features and questions
@@ -496,6 +504,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11050](https://tbpro.zendesk.com/agent/tickets/11050) · [new] · 2026-11-10T18:50 · Account Deletion
 - [11052](https://tbpro.zendesk.com/agent/tickets/11052) · [new] · 2026-11-10T19:34 · srv records service field
 - [11053](https://tbpro.zendesk.com/agent/tickets/11053) · [new] · 2026-11-10T19:38 · Send large files
+- [11058](https://tbpro.zendesk.com/agent/tickets/11058) · [new] · 2026-11-10T20:31 · Password funktioniert nicht
+- [11059](https://tbpro.zendesk.com/agent/tickets/11059) · [new] · 2026-11-10T20:31 · Password funktioniert nicht
 
 ## Solved — last 24h
 
