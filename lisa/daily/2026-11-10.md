@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 05:15 ET** · refreshes hourly_  
+_Updated: **2026-11-10 06:13 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1176 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1177 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **17** solved in last 24h
-- **1176** tickets total since launch · contact rate **3%** of 35000 invitees
+- **13** new tickets in last 24h · **17** solved in last 24h
+- **1177** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -319,11 +319,11 @@ _(none in last 24h)_
 - **pending**: 89
 - **open**: 27
 - **hold**: 20
-- **new**: 16
+- **new**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 663
+- **Account Hub**: 664
 - **Thundermail**: 405
 - **Send**: 23
 - **Appointment**: 14
@@ -391,8 +391,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#11033](https://tbpro.zendesk.com/agent/tickets/11033)** · Subscription termination
+  > Hi, I can't recall any submission for subscription for your services. Please terminate any such asap! Thanks!
 - **[#11031](https://tbpro.zendesk.com/agent/tickets/11031)** · パスワードを忘れた
   > 電話でサポートおねがいします。
 - **[#11018](https://tbpro.zendesk.com/agent/tickets/11018)** · Email messages
@@ -450,6 +452,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11024](https://tbpro.zendesk.com/agent/tickets/11024) · [new] · 2026-11-10T04:16 ·  Thundermail Early Access
 - [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [open] · 2026-11-10T04:24 · Setting up thunderbird 
 - [11031](https://tbpro.zendesk.com/agent/tickets/11031) · [new] · 2026-11-10T07:53 · パスワードを忘れた
+- [11033](https://tbpro.zendesk.com/agent/tickets/11033) · [new] · 2026-11-10T10:51 · Subscription termination
 
 ## Solved — last 24h
 
