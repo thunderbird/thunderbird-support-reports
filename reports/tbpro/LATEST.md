@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 13:16 ET** · refreshes hourly_  
+_Updated: **2026-11-10 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1185 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1186 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **21** new tickets in last 24h · **27** solved in last 24h
-- **1185** tickets total since launch · contact rate **3%** of 35000 invitees
+- **22** new tickets in last 24h · **27** solved in last 24h
+- **1186** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -318,15 +318,15 @@ Henning Gerken_
 
 - **closed**: 940
 - **solved**: 93
-- **pending**: 85
-- **open**: 27
-- **new**: 21
+- **pending**: 89
+- **open**: 23
+- **new**: 22
 - **hold**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 670
-- **Thundermail**: 406
+- **Account Hub**: 673
+- **Thundermail**: 404
 - **Send**: 23
 - **Appointment**: 14
 
@@ -334,8 +334,8 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 227
-- **change request** + **actioned**: 167
+- **curious** + **explained**: 229
+- **change request** + **actioned**: 169
 - **blocked** + **explained**: 119
 - **confused** + **explained**: 94
 - **curious** + **informed**: 59
@@ -393,8 +393,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 8 tickets
+### Other / uncategorized — 9 tickets
 
+- **[#11050](https://tbpro.zendesk.com/agent/tickets/11050)** · Account Deletion
+  > I would like to delete the account, but I cannot access account options currently. Account name is [email].
 - **[#11046](https://tbpro.zendesk.com/agent/tickets/11046)** · subscription
   > I haven't finished setting up your subscription and I did not save successfully chosen password. Could you please restart whole process for marcin.waligorski@
 - **[#11045](https://tbpro.zendesk.com/agent/tickets/11045)** · Password entry
@@ -425,9 +427,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11019](https://tbpro.zendesk.com/agent/tickets/11019)** · cancel & delete
   > i like the idea but i don't see value for my needs. may i cancel and receive a refund?
-- **[#11017](https://tbpro.zendesk.com/agent/tickets/11017)** · I want to cancel subscription
+- **[#11017](https://tbpro.zendesk.com/agent/tickets/11017)** · I want to cancel subscription — why: **change request** · how: **actioned**
   > I want to cancel subscription and get money back. This service does not provide the features I hoped to get.
-- **[#11016](https://tbpro.zendesk.com/agent/tickets/11016)** · Cancel + Refund
+- **[#11016](https://tbpro.zendesk.com/agent/tickets/11016)** · Cancel + Refund — why: **change request** · how: **actioned**
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
 
 ### App setup / configuration — 2 tickets
@@ -436,13 +438,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Since 24 October 26 at 22:12, no more emails have been uploaded to Thundermail from my Yahoo account! This isn’t the first time this has happened. Previously, I went straight back…
 - **[#11021](https://tbpro.zendesk.com/agent/tickets/11021)** · Account problems
   > I can not to add account my Thunderbird program. AND I forward an email gmail.com to [email]. My email forward return 'no account'.
-
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#11024](https://tbpro.zendesk.com/agent/tickets/11024)** ·  Thundermail Early Access
-  > Hi, The new Thundermail as only the option to be with @[domain]? Can't use my business @ ?
-- **[#11014](https://tbpro.zendesk.com/agent/tickets/11014)** · Early Access
-  > Hi there, I've been fortunate enough to receive an early-access invitation to Thundermail, and I'd really love to sign up! I've been a longtime Thunderbird and Firefox user, so…
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
@@ -454,18 +449,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11025](https://tbpro.zendesk.com/agent/tickets/11025)** · Setting up thunderbird 
   > I am a long time user of thunderbird email. I am trying to set it up on my phone.
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#11024](https://tbpro.zendesk.com/agent/tickets/11024)** ·  Thundermail Early Access
+  > Hi, The new Thundermail as only the option to be with @[domain]? Can't use my business @ ?
+
 ### Account access issues — 1 tickets
 
 - **[#11023](https://tbpro.zendesk.com/agent/tickets/11023)** · Change main email address
   > Can I keep [email] but switch the main login email account to [email]?
 
+### Pricing — general pricing concern — 1 tickets
+
+- **[#11014](https://tbpro.zendesk.com/agent/tickets/11014)** · Early Access — why: **curious** · how: **explained**
+  > Hi there, I've been fortunate enough to receive an early-access invitation to Thundermail, and I'd really love to sign up! I've been a longtime Thunderbird and Firefox user, so…
+
 ## New tickets — last 24h
 
 - [11013](https://tbpro.zendesk.com/agent/tickets/11013) · [open] · 2026-11-09T21:33 · Replacing Outlook Server
-- [11014](https://tbpro.zendesk.com/agent/tickets/11014) · [open] · 2026-11-09T21:42 · Early Access
+- [11014](https://tbpro.zendesk.com/agent/tickets/11014) · [pending] · 2026-11-09T21:42 · Early Access
 - [11015](https://tbpro.zendesk.com/agent/tickets/11015) · [open] · 2026-11-09T21:50 · Takes a Minute
-- [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [open] · 2026-11-09T21:52 · Cancel + Refund
-- [11017](https://tbpro.zendesk.com/agent/tickets/11017) · [open] · 2026-11-09T22:38 · I want to cancel subscription
+- [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [pending] · 2026-11-09T21:52 · Cancel + Refund
+- [11017](https://tbpro.zendesk.com/agent/tickets/11017) · [pending] · 2026-11-09T22:38 · I want to cancel subscription
 - [11018](https://tbpro.zendesk.com/agent/tickets/11018) · [new] · 2026-11-09T23:30 · Email messages
 - [11019](https://tbpro.zendesk.com/agent/tickets/11019) · [open] · 2026-11-09T23:34 · cancel & delete
 - [11021](https://tbpro.zendesk.com/agent/tickets/11021) · [new] · 2026-11-10T00:54 · Account problems
@@ -482,6 +487,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11045](https://tbpro.zendesk.com/agent/tickets/11045) · [new] · 2026-11-10T16:42 · Password entry
 - [11046](https://tbpro.zendesk.com/agent/tickets/11046) · [new] · 2026-11-10T16:57 · subscription
 - [11049](https://tbpro.zendesk.com/agent/tickets/11049) · [new] · 2026-11-10T18:04 · Unable to send messages 
+- [11050](https://tbpro.zendesk.com/agent/tickets/11050) · [new] · 2026-11-10T18:50 · Account Deletion
 
 ## Solved — last 24h
 
