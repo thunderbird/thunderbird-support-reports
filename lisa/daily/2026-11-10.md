@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 12:13 ET** · refreshes hourly_  
+_Updated: **2026-11-10 13:16 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1184 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1185 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **21** solved in last 24h
-- **1184** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **21** new tickets in last 24h · **27** solved in last 24h
+- **1185** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.7h · mean 145.3h (proxy: updated_at − created_at, 92 solved tickets)
+- **Median AHT**: 140.5h · mean 146.2h (proxy: updated_at − created_at, 93 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -152,11 +152,11 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [pending] · 2026-11-03 · _Delete account_
   - [#10756](https://tbpro.zendesk.com/agent/tickets/10756) · [solved] · 2026-11-03 · _Deletion and refund_
   - [#10771](https://tbpro.zendesk.com/agent/tickets/10771) · [solved] · 2026-11-04 · _Please cancel_
-  - [#10789](https://tbpro.zendesk.com/agent/tickets/10789) · [solved] · 2026-11-04 · _Refund Thunderbird Pro subscription_
+  - [#10789](https://tbpro.zendesk.com/agent/tickets/10789) · [closed] · 2026-11-04 · _Refund Thunderbird Pro subscription_
   - [#10791](https://tbpro.zendesk.com/agent/tickets/10791) · [pending] · 2026-11-04 · _Refund Request_
-  - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [open] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
+  - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [pending] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [solved] · 2026-11-04 · _Delete thundermail _
-  - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [pending] · 2026-11-04 · _Cancel, sorry!_
+  - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [solved] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [pending] · 2026-11-05 · _Delete account and refund _
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [pending] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05 · _cancel my whole account_
@@ -316,16 +316,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 936
-- **solved**: 92
-- **pending**: 88
-- **open**: 29
-- **new**: 20
+- **closed**: 940
+- **solved**: 93
+- **pending**: 85
+- **open**: 27
+- **new**: 21
 - **hold**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 669
+- **Account Hub**: 670
 - **Thundermail**: 406
 - **Send**: 23
 - **Appointment**: 14
@@ -338,7 +338,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 167
 - **blocked** + **explained**: 119
 - **confused** + **explained**: 94
-- **curious** + **informed**: 58
+- **curious** + **informed**: 59
 - **confused** + **informed**: 54
 - **request** + **redirected**: 50
 - **blocked** + **redirected**: 50
@@ -444,6 +444,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11014](https://tbpro.zendesk.com/agent/tickets/11014)** · Early Access
   > Hi there, I've been fortunate enough to receive an early-access invitation to Thundermail, and I'd really love to sign up! I've been a longtime Thunderbird and Firefox user, so…
 
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#11049](https://tbpro.zendesk.com/agent/tickets/11049)** · Unable to send messages 
+  > Can receive messages but can't send, looks like a ser up problem
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#11025](https://tbpro.zendesk.com/agent/tickets/11025)** · Setting up thunderbird 
@@ -476,6 +481,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11044](https://tbpro.zendesk.com/agent/tickets/11044) · [open] · 2026-11-10T16:33 · cancelation
 - [11045](https://tbpro.zendesk.com/agent/tickets/11045) · [new] · 2026-11-10T16:42 · Password entry
 - [11046](https://tbpro.zendesk.com/agent/tickets/11046) · [new] · 2026-11-10T16:57 · subscription
+- [11049](https://tbpro.zendesk.com/agent/tickets/11049) · [new] · 2026-11-10T18:04 · Unable to send messages 
 
 ## Solved — last 24h
 
@@ -500,6 +506,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10822](https://tbpro.zendesk.com/agent/tickets/10822) · 2026-11-10T16:02 · new account can't login
 - · [10818](https://tbpro.zendesk.com/agent/tickets/10818) · 2026-11-10T16:02 · I saved my email address and password since 31/08/24.
 - · [10747](https://tbpro.zendesk.com/agent/tickets/10747) · 2026-11-10T16:02 · Cannot sign in to new thundermail 
+- · [10814](https://tbpro.zendesk.com/agent/tickets/10814) · 2026-11-10T18:01 · Early lost password
+- · [10843](https://tbpro.zendesk.com/agent/tickets/10843) · 2026-11-10T18:01 · how do you add domains to the email account
+- · [10817](https://tbpro.zendesk.com/agent/tickets/10817) · 2026-11-10T18:01 · Help document on custom mail domain?
+- · [10809](https://tbpro.zendesk.com/agent/tickets/10809) · 2026-11-10T18:01 · Cancel, sorry!
+- · [10753](https://tbpro.zendesk.com/agent/tickets/10753) · 2026-11-10T18:01 · Multiple devices
+- · [10752](https://tbpro.zendesk.com/agent/tickets/10752) · 2026-11-10T18:01 · Custom domain DNS settings not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
