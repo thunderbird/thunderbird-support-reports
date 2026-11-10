@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 06:13 ET** · refreshes hourly_  
+_Updated: **2026-11-10 07:20 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1177 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1179 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **17** solved in last 24h
-- **1177** tickets total since launch · contact rate **3%** of 35000 invitees
+- **15** new tickets in last 24h · **17** solved in last 24h
+- **1179** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -316,15 +316,15 @@ _(none in last 24h)_
 
 - **closed**: 935
 - **solved**: 89
-- **pending**: 89
-- **open**: 27
+- **pending**: 88
+- **open**: 28
 - **hold**: 20
-- **new**: 17
+- **new**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 664
-- **Thundermail**: 405
+- **Thundermail**: 406
 - **Send**: 23
 - **Appointment**: 14
 
@@ -391,8 +391,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#11035](https://tbpro.zendesk.com/agent/tickets/11035)** · Subscription Page
+  > When I sign in I am taken to the subscription page but everything is greyed out so unable to do anything. Thanks,
 - **[#11033](https://tbpro.zendesk.com/agent/tickets/11033)** · Subscription termination
   > Hi, I can't recall any submission for subscription for your services. Please terminate any such asap! Thanks!
 - **[#11031](https://tbpro.zendesk.com/agent/tickets/11031)** · パスワードを忘れた
@@ -411,6 +413,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11016](https://tbpro.zendesk.com/agent/tickets/11016)** · Cancel + Refund
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
 
+### App setup / configuration — 2 tickets
+
+- **[#11034](https://tbpro.zendesk.com/agent/tickets/11034)** · Thundermail upload stopped on 24 October 2026
+  > Since 24 October 26 at 22:12, no more emails have been uploaded to Thundermail from my Yahoo account! This isn’t the first time this has happened. Previously, I went straight back…
+- **[#11021](https://tbpro.zendesk.com/agent/tickets/11021)** · Account problems
+  > I can not to add account my Thunderbird program. AND I forward an email gmail.com to [email]. My email forward return 'no account'.
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#11024](https://tbpro.zendesk.com/agent/tickets/11024)** ·  Thundermail Early Access
@@ -427,11 +436,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11023](https://tbpro.zendesk.com/agent/tickets/11023)** · Change main email address
   > Can I keep [email] but switch the main login email account to [email]?
-
-### App setup / configuration — 1 tickets
-
-- **[#11021](https://tbpro.zendesk.com/agent/tickets/11021)** · Account problems
-  > I can not to add account my Thunderbird program. AND I forward an email gmail.com to [email]. My email forward return 'no account'.
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -453,6 +457,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11025](https://tbpro.zendesk.com/agent/tickets/11025) · [open] · 2026-11-10T04:24 · Setting up thunderbird 
 - [11031](https://tbpro.zendesk.com/agent/tickets/11031) · [new] · 2026-11-10T07:53 · パスワードを忘れた
 - [11033](https://tbpro.zendesk.com/agent/tickets/11033) · [new] · 2026-11-10T10:51 · Subscription termination
+- [11034](https://tbpro.zendesk.com/agent/tickets/11034) · [new] · 2026-11-10T11:40 · Thundermail upload stopped on 24 October 2026
+- [11035](https://tbpro.zendesk.com/agent/tickets/11035) · [new] · 2026-11-10T11:57 · Subscription Page
 
 ## Solved — last 24h
 
