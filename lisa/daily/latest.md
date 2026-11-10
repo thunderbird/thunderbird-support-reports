@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 17:14 ET** · refreshes hourly_  
+_Updated: **2026-11-10 18:12 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1190 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1192 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **26** new tickets in last 24h · **37** solved in last 24h
-- **1190** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1192** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (207 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -20,7 +20,7 @@ Flight 8 is **day 93** of rollout — **35,000 invitees**, **1190 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"funktioniert nicht kann"** — 2 tickets in 24h (new; baseline 0 cum) — [#11058](https://tbpro.zendesk.com/agent/tickets/11058), [#11059](https://tbpro.zendesk.com/agent/tickets/11059)
+- **"kann nicht"** — 2 tickets in 24h (new; baseline 0 cum) — [#11058](https://tbpro.zendesk.com/agent/tickets/11058), [#11059](https://tbpro.zendesk.com/agent/tickets/11059)
 - **"user excited"** — 2 tickets in 24h (new; baseline 0 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11044](https://tbpro.zendesk.com/agent/tickets/11044)
 - **"firefox user"** — 2 tickets in 24h (92.0× baseline; baseline 2 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11039](https://tbpro.zendesk.com/agent/tickets/11039)
 - **"long time"** — 2 tickets in 24h (30.7× baseline; baseline 6 cum) — [#11015](https://tbpro.zendesk.com/agent/tickets/11015), [#11025](https://tbpro.zendesk.com/agent/tickets/11025)
@@ -321,15 +321,15 @@ Henning Gerken_
 
 - **closed**: 941
 - **solved**: 109
-- **pending**: 80
-- **new**: 23
+- **pending**: 81
+- **new**: 25
 - **hold**: 19
-- **open**: 18
+- **open**: 17
 
 ## Service (cumulative)
 
 - **Account Hub**: 674
-- **Thundermail**: 409
+- **Thundermail**: 411
 - **Send**: 24
 - **Appointment**: 14
 
@@ -337,7 +337,7 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 231
+- **curious** + **explained**: 232
 - **change request** + **actioned**: 169
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 95
@@ -397,7 +397,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 12 tickets
+### Other / uncategorized — 11 tickets
 
 - **[#11059](https://tbpro.zendesk.com/agent/tickets/11059)** · Password funktioniert nicht
   > Thunderbird kann nicht aktiviert werden
@@ -419,8 +419,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi, I can't recall any submission for subscription for your services. Please terminate any such asap! Thanks!
 - **[#11031](https://tbpro.zendesk.com/agent/tickets/11031)** · パスワードを忘れた
   > 電話でサポートおねがいします。
-- **[#11018](https://tbpro.zendesk.com/agent/tickets/11018)** · Email messages
-  > How do I print messages?
 - **[#11015](https://tbpro.zendesk.com/agent/tickets/11015)** · Takes a Minute — why: **blocked** · how: **explained**
   > Sorry I'm slow but the email comes into my old Thunderbird but can only be sent from thundermail. I was/am using 159.0 (64-bit) Release notes Thunderbird codename Meadow badge…
 
@@ -474,6 +472,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11023](https://tbpro.zendesk.com/agent/tickets/11023)** · Change main email address
   > Can I keep [email] but switch the main login email account to [email]?
 
+### Webmail — 1 tickets
+
+- **[#11018](https://tbpro.zendesk.com/agent/tickets/11018)** · Email messages — why: **curious** · how: **explained**
+  > How do I print messages?
+
 ### Pricing — general pricing concern — 1 tickets
 
 - **[#11014](https://tbpro.zendesk.com/agent/tickets/11014)** · Early Access — why: **curious** · how: **explained**
@@ -486,7 +489,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11015](https://tbpro.zendesk.com/agent/tickets/11015) · [pending] · 2026-11-09T21:50 · Takes a Minute
 - [11016](https://tbpro.zendesk.com/agent/tickets/11016) · [pending] · 2026-11-09T21:52 · Cancel + Refund
 - [11017](https://tbpro.zendesk.com/agent/tickets/11017) · [pending] · 2026-11-09T22:38 · I want to cancel subscription
-- [11018](https://tbpro.zendesk.com/agent/tickets/11018) · [open] · 2026-11-09T23:30 · Email messages
+- [11018](https://tbpro.zendesk.com/agent/tickets/11018) · [pending] · 2026-11-09T23:30 · Email messages
 - [11019](https://tbpro.zendesk.com/agent/tickets/11019) · [pending] · 2026-11-09T23:34 · cancel & delete
 - [11021](https://tbpro.zendesk.com/agent/tickets/11021) · [open] · 2026-11-10T00:54 · Account problems
 - [11023](https://tbpro.zendesk.com/agent/tickets/11023) · [open] · 2026-11-10T02:58 · Change main email address
