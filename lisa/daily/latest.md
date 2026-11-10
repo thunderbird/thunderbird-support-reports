@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-09
 
-_Updated: **2026-11-09 19:35 ET** · refreshes hourly_  
+_Updated: **2026-11-09 20:15 ET** · refreshes hourly_  
 _24h window: 2026-11-08T16:00 → 2026-11-09T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 92** of rollout — **35,000 invitees**, **1171 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 92** of rollout — **35,000 invitees**, **1172 tickets** so far (3.3% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **30** solved in last 24h
-- **1171** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1172** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (7 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
-- **Median AHT**: 140.0h · mean 147.1h (proxy: updated_at − created_at, 90 solved tickets)
+- **Median AHT**: 139.8h · mean 145.8h (proxy: updated_at − created_at, 89 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -223,7 +223,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [closed] · 2026-10-23 · _Send does not work in Firefox_
 
 ### [#10997](https://tbpro.zendesk.com/agent/tickets/10997) · [hold] · [tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB
-- 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow internet connections for files larger than 100MB_
+- 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow (1.5 Mega bits / second or slower) internet connections for f_
 - 1 incident(s):
   - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [hold] · 2026-10-26 · _Bug report on Send file upload_
 
@@ -328,16 +328,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 934
-- **solved**: 90
+- **closed**: 935
 - **pending**: 90
+- **solved**: 89
 - **open**: 22
 - **hold**: 20
-- **new**: 15
+- **new**: 16
 
 ## Service (cumulative)
 
-- **Account Hub**: 661
+- **Account Hub**: 662
 - **Thundermail**: 403
 - **Send**: 23
 - **Appointment**: 14
