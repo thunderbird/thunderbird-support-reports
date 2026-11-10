@@ -1,25 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 11:18 ET** · refreshes hourly_  
+_Updated: **2026-11-10 12:13 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 93** of rollout — **35,000 invitees**, **1181 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 93** of rollout — **35,000 invitees**, **1184 tickets** so far (3.4% contact rate). CSAT since launch: **94%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **17** new tickets in last 24h · **21** solved in last 24h
-- **1181** tickets total since launch · contact rate **3%** of 35000 invitees
+- **20** new tickets in last 24h · **21** solved in last 24h
+- **1184** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 94%  (206 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
 - **Median AHT**: 139.7h · mean 145.3h (proxy: updated_at − created_at, 92 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"user excited"** — 2 tickets in 24h (new; baseline 0 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11044](https://tbpro.zendesk.com/agent/tickets/11044)
 - **"firefox user"** — 2 tickets in 24h (92.0× baseline; baseline 2 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11039](https://tbpro.zendesk.com/agent/tickets/11039)
 - **"long time"** — 2 tickets in 24h (30.7× baseline; baseline 6 cum) — [#11015](https://tbpro.zendesk.com/agent/tickets/11015), [#11025](https://tbpro.zendesk.com/agent/tickets/11025)
 
@@ -301,16 +302,15 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [11044](https://tbpro.zendesk.com/agent/tickets/11044) · [open] · _cancelation_
+  > Hello, Thanks for making this product. I'm a longtime Thunderbird user and am excited to see these developments. Unfortunately, the key feature I need right now is the ability to use Thunderbird in the browser (with a…
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 1 new:
 
-- [Add notes to Aliases created](https://ideas.tb.pro/p/add-notes-to-aliases-created) · 1 votes · _untagged_
-  > What you’d like to see Add an optional Note to display next to an alias. Why it matters A note for what the alias is used for. Your use case I’m forgetful.
 - [Block Spy Pixels/Trackers/Clean Links.](https://ideas.tb.pro/p/block-spy-pixels-trackers-clean-links) · 1 votes · _untagged_
   > What you’d like to see Similar to what Proton/Aster Mail does, please add spy pixel blocking, tracker blocking, and clean links on received emails. Why it matters Privacy. Your use case Privacy.
 
@@ -318,15 +318,15 @@ _(none in last 24h)_
 
 - **closed**: 936
 - **solved**: 92
-- **pending**: 87
+- **pending**: 88
 - **open**: 29
+- **new**: 20
 - **hold**: 19
-- **new**: 18
 
 ## Service (cumulative)
 
-- **Account Hub**: 665
-- **Thundermail**: 407
+- **Account Hub**: 669
+- **Thundermail**: 406
 - **Send**: 23
 - **Appointment**: 14
 
@@ -335,7 +335,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 227
-- **change request** + **actioned**: 166
+- **change request** + **actioned**: 167
 - **blocked** + **explained**: 119
 - **confused** + **explained**: 94
 - **curious** + **informed**: 58
@@ -343,8 +343,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 50
 - **blocked** + **redirected**: 50
 - **blocked** + **investigated**: 49
+- **confused** + **redirected**: 34
 - **concerned** + **explained**: 32
-- **confused** + **redirected**: 32
 - **blocked** + **informed**: 23
 - **blocked** + **escalated**: 20
 - **change request** + **explained**: 13
@@ -393,8 +393,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 8 tickets
 
+- **[#11046](https://tbpro.zendesk.com/agent/tickets/11046)** · subscription
+  > I haven't finished setting up your subscription and I did not save successfully chosen password. Could you please restart whole process for marcin.waligorski@
+- **[#11045](https://tbpro.zendesk.com/agent/tickets/11045)** · Password entry
+  > Password not valid
 - **[#11043](https://tbpro.zendesk.com/agent/tickets/11043)** · entrar
   > Não consigo acessar trocar a senha para entrar por outro computador
 - **[#11035](https://tbpro.zendesk.com/agent/tickets/11035)** · Subscription Page
@@ -408,6 +412,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11015](https://tbpro.zendesk.com/agent/tickets/11015)** · Takes a Minute
   > Sorry I'm slow but the email comes into my old Thunderbird but can only be sent from thundermail. I was/am using 159.0 (64-bit) Release notes Thunderbird codename Meadow badge…
 
+### Email Protocols (IMAP/SMTP/POP) — 3 tickets
+
+- **[#11044](https://tbpro.zendesk.com/agent/tickets/11044)** · cancelation
+  > Hello, Thanks for making this product. I'm a longtime Thunderbird user and am excited to see these developments. Unfortunately, the key feature I need right now is the ability to…
+- **[#11039](https://tbpro.zendesk.com/agent/tickets/11039)** · Missing features and questions
+  > Hi, When will JMAP be ready to use? The website for Thundermail says it is used already (the wording)...No JMAP app I tried (Sterna, Bulwark Mobile, on Android 17) worked with…
+- **[#11013](https://tbpro.zendesk.com/agent/tickets/11013)** · Replacing Outlook Server
+  > I used an SMTP server for many years, but a few years ago, GoDaddy insisted that SMTP was not secure, so they moved me over to an Outlook server. I have no love for Microsoft or…
+
 ### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#11019](https://tbpro.zendesk.com/agent/tickets/11019)** · cancel & delete
@@ -416,13 +429,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I want to cancel subscription and get money back. This service does not provide the features I hoped to get.
 - **[#11016](https://tbpro.zendesk.com/agent/tickets/11016)** · Cancel + Refund
   > Hello, I would like to Cancel and refund my service. Thank you for allowing me to test it out!
-
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
-
-- **[#11039](https://tbpro.zendesk.com/agent/tickets/11039)** · Missing features and questions
-  > Hi, When will JMAP be ready to use? The website for Thundermail says it is used already (the wording)...No JMAP app I tried (Sterna, Bulwark Mobile, on Android 17) worked with…
-- **[#11013](https://tbpro.zendesk.com/agent/tickets/11013)** · Replacing Outlook Server
-  > I used an SMTP server for many years, but a few years ago, GoDaddy insisted that SMTP was not secure, so they moved me over to an Outlook server. I have no love for Microsoft or…
 
 ### App setup / configuration — 2 tickets
 
@@ -467,6 +473,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11035](https://tbpro.zendesk.com/agent/tickets/11035) · [new] · 2026-11-10T11:57 · Subscription Page
 - [11039](https://tbpro.zendesk.com/agent/tickets/11039) · [new] · 2026-11-10T15:34 · Missing features and questions
 - [11043](https://tbpro.zendesk.com/agent/tickets/11043) · [new] · 2026-11-10T16:13 · entrar
+- [11044](https://tbpro.zendesk.com/agent/tickets/11044) · [open] · 2026-11-10T16:33 · cancelation
+- [11045](https://tbpro.zendesk.com/agent/tickets/11045) · [new] · 2026-11-10T16:42 · Password entry
+- [11046](https://tbpro.zendesk.com/agent/tickets/11046) · [new] · 2026-11-10T16:57 · subscription
 
 ## Solved — last 24h
 
