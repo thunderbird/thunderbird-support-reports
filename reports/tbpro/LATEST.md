@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 05:15 ET** · refreshes hourly_  
+_Updated: **2026-11-11 06:14 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 94** of rollout — **35,000 invitees**, **1194 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 94** of rollout — **35,000 invitees**, **1195 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **12** solved in last 24h
-- **1194** tickets total since launch · contact rate **3%** of 35000 invitees
+- **6** new tickets in last 24h · **12** solved in last 24h
+- **1195** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (209 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -313,7 +313,7 @@ _(none in last 24h)_
 - **solved**: 108
 - **pending**: 96
 - **hold**: 19
-- **new**: 16
+- **new**: 17
 - **open**: 13
 
 ## Service (cumulative)
@@ -394,6 +394,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11064](https://tbpro.zendesk.com/agent/tickets/11064)** · do you have an account 
   > my memory is failing to remember the thundermail betta that had been set aside for my future usage and it is certain that it was all set up as we had agreed then and do you make…
 
+### Other / uncategorized — 1 tickets
+
+- **[#11100](https://tbpro.zendesk.com/agent/tickets/11100)** · impossible de crer un compte
+  > je joins à nouveau , j'espère le zip M lemonde Thunderbird dossier2.zip
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#11075](https://tbpro.zendesk.com/agent/tickets/11075)** · Please delete my account.
@@ -416,6 +421,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11067](https://tbpro.zendesk.com/agent/tickets/11067) · [open] · 2026-11-11T00:11 · Re: [Thundermail] Re: can't send attachments? Photos.
 - [11071](https://tbpro.zendesk.com/agent/tickets/11071) · [new] · 2026-11-11T00:46 · Importing stuff from other email clients
 - [11075](https://tbpro.zendesk.com/agent/tickets/11075) · [new] · 2026-11-11T02:54 · Please delete my account.
+- [11100](https://tbpro.zendesk.com/agent/tickets/11100) · [new] · 2026-11-11T10:15 · impossible de crer un compte
 
 ## Solved — last 24h
 
