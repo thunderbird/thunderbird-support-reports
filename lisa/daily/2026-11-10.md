@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-10
 
-_Updated: **2026-11-10 22:17 ET** · refreshes hourly_  
+_Updated: **2026-11-10 23:17 ET** · refreshes hourly_  
 _24h window: 2026-11-09T16:00 → 2026-11-10T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 93** of rollout — **35,000 invitees**, **1194 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"nicht aktiviert werden"** — 2 tickets in 24h (new; baseline 0 cum) — [#11058](https://tbpro.zendesk.com/agent/tickets/11058), [#11059](https://tbpro.zendesk.com/agent/tickets/11059)
+- **"funktioniert nicht kann"** — 2 tickets in 24h (new; baseline 0 cum) — [#11058](https://tbpro.zendesk.com/agent/tickets/11058), [#11059](https://tbpro.zendesk.com/agent/tickets/11059)
 - **"user excited"** — 2 tickets in 24h (new; baseline 0 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11044](https://tbpro.zendesk.com/agent/tickets/11044)
 - **"firefox user"** — 2 tickets in 24h (92.0× baseline; baseline 2 cum) — [#11014](https://tbpro.zendesk.com/agent/tickets/11014), [#11039](https://tbpro.zendesk.com/agent/tickets/11039)
 - **"long time"** — 2 tickets in 24h (30.7× baseline; baseline 6 cum) — [#11015](https://tbpro.zendesk.com/agent/tickets/11015), [#11025](https://tbpro.zendesk.com/agent/tickets/11025)
@@ -321,10 +321,10 @@ Henning Gerken_
 
 - **closed**: 941
 - **solved**: 109
-- **pending**: 98
+- **pending**: 97
 - **hold**: 19
 - **new**: 16
-- **open**: 11
+- **open**: 12
 
 ## Service (cumulative)
 
