@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-11 10:14 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 94** of rollout — **35,000 invitees**, **1195 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 94** of rollout — **35,000 invitees**, **1198 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **12** solved in last 24h
-- **1195** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **9** new tickets in last 24h · **13** solved in last 24h
+- **1198** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 80%  (4 good / 1 bad)
 - **CSAT (since launch)**: 95%  (209 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
-- **Median AHT**: 139.7h · mean 148.9h (proxy: updated_at − created_at, 108 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
+- **Median AHT**: 139.8h · mean 149.9h (proxy: updated_at − created_at, 109 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -152,7 +152,7 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1195 tickets** so f
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [pending] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06 · _Cancellation + refund_
-  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [pending] · 2026-11-06 · _How to transfer my private domain users from [domain]_
+  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [open] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [pending] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09 · _cancel and refund_
@@ -300,8 +300,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 4 new:
 
+- [sync calender Desktop to Android](https://ideas.tb.pro/p/sync-calender-desktop-to-android) · 1 votes · _untagged_
+  > What you’d like to see Briefly describe the feature or improvement. Why it matters What problem does this solve, or what benefit does it bring? Your use case Share an example of how you’d use this…
 - [SPF, DKIM, DMARC... Configuration](https://ideas.tb.pro/p/spf-dkim-dmarc-configuration) · 1 votes · _untagged_
   > This is alluded here: https://ideas.tb.pro/p/dns-setup-and-monitoring-of-dmarc-spf-dkim-etc So, please feel free to merge if appropriate (no need to request, just confirm if/ when done). Clearly,…
 - [I use gmail because they black spam](https://ideas.tb.pro/p/i-use-gmail-because-they-black-spam) · 1 votes · _untagged_
@@ -312,17 +314,17 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 942
-- **solved**: 108
-- **pending**: 96
+- **solved**: 109
+- **pending**: 94
+- **new**: 20
 - **hold**: 19
-- **new**: 17
-- **open**: 13
+- **open**: 14
 
 ## Service (cumulative)
 
-- **Account Hub**: 678
-- **Thundermail**: 412
-- **Send**: 24
+- **Account Hub**: 679
+- **Thundermail**: 413
+- **Send**: 25
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -389,6 +391,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#11115](https://tbpro.zendesk.com/agent/tickets/11115)** · Ich kann keine E-mails lesen
+  > Meine E-mails anzeigen
+- **[#11100](https://tbpro.zendesk.com/agent/tickets/11100)** · impossible de crer un compte
+  > je joins à nouveau , j'espère le zip M lemonde Thunderbird dossier2.zip
+
+### Privacy / data / jurisdiction concerns — 2 tickets
+
+- **[#11114](https://tbpro.zendesk.com/agent/tickets/11114)** · Account Deletion
+  > Can you please delete my account and remove all of my data?
+- **[#11075](https://tbpro.zendesk.com/agent/tickets/11075)** · Please delete my account.
+  > Please delete my account. No longer need this service.
+
 ### App setup / configuration — 2 tickets
 
 - **[#11071](https://tbpro.zendesk.com/agent/tickets/11071)** · Importing stuff from other email clients
@@ -396,15 +412,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11064](https://tbpro.zendesk.com/agent/tickets/11064)** · do you have an account 
   > my memory is failing to remember the thundermail betta that had been set aside for my future usage and it is certain that it was all set up as we had agreed then and do you make…
 
-### Other / uncategorized — 1 tickets
+### Custom domain / DKIM / DNS — 1 tickets
 
-- **[#11100](https://tbpro.zendesk.com/agent/tickets/11100)** · impossible de crer un compte
-  > je joins à nouveau , j'espère le zip M lemonde Thunderbird dossier2.zip
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#11075](https://tbpro.zendesk.com/agent/tickets/11075)** · Please delete my account.
-  > Please delete my account. No longer need this service.
+- **[#11116](https://tbpro.zendesk.com/agent/tickets/11116)** · Bug Report: periods at the end of Name/Host for SRV
+  > Squarspace domains will not allow a period at the end of NAME/HOST for several custom DNS record types, including SRV and TXT - this prevents mapping custom domains from this…
 
 ### Webmail — 1 tickets
 
@@ -424,6 +435,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11071](https://tbpro.zendesk.com/agent/tickets/11071) · [new] · 2026-11-11T00:46 · Importing stuff from other email clients
 - [11075](https://tbpro.zendesk.com/agent/tickets/11075) · [new] · 2026-11-11T02:54 · Please delete my account.
 - [11100](https://tbpro.zendesk.com/agent/tickets/11100) · [new] · 2026-11-11T10:15 · impossible de crer un compte
+- [11114](https://tbpro.zendesk.com/agent/tickets/11114) · [new] · 2026-11-11T14:32 · Account Deletion
+- [11115](https://tbpro.zendesk.com/agent/tickets/11115) · [new] · 2026-11-11T14:43 · Ich kann keine E-mails lesen
+- [11116](https://tbpro.zendesk.com/agent/tickets/11116) · [new] · 2026-11-11T15:05 · Bug Report: periods at the end of Name/Host for SRV
 
 ## Solved — last 24h
 
@@ -439,6 +453,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10740](https://tbpro.zendesk.com/agent/tickets/10740) · 2026-11-10T22:02 · Delete account
 - · [10613](https://tbpro.zendesk.com/agent/tickets/10613) · 2026-11-10T22:02 · Thundermail Subfolders
 - 👍 [10716](https://tbpro.zendesk.com/agent/tickets/10716) · 2026-11-11T00:46 · Folder cannot be deleted
+- 👎 [10632](https://tbpro.zendesk.com/agent/tickets/10632) · 2026-11-11T15:01 · Allgemeine Informationen
+
+Name 	Thunderbird
+Versi…
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
