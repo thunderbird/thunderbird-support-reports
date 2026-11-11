@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 06:14 ET** · refreshes hourly_  
+_Updated: **2026-11-11 07:21 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1195 tickets** so f
 - **1195** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (209 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
 - **Median AHT**: 139.7h · mean 148.9h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
@@ -300,8 +300,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [SPF, DKIM, DMARC... Configuration](https://ideas.tb.pro/p/spf-dkim-dmarc-configuration) · 1 votes · _untagged_
+  > This is alluded here: https://ideas.tb.pro/p/dns-setup-and-monitoring-of-dmarc-spf-dkim-etc So, please feel free to merge if appropriate (no need to request, just confirm if/ when done). Clearly,…
 - [I use gmail because they black spam](https://ideas.tb.pro/p/i-use-gmail-because-they-black-spam) · 1 votes · _untagged_
   > What you’d like to see Briefly describe the feature or improvement. Building you own mail list for allow and spam is time consuming, with gmail this is over 100 spam email get blocked with out me…
 - [Thundermail MCP Server](https://ideas.tb.pro/p/thundermail-mcp-server) · 1 votes · _untagged_
