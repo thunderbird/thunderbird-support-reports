@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 02:16 ET** · refreshes hourly_  
+_Updated: **2026-11-11 03:19 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1194 tickets** so f
 
 - **5** new tickets in last 24h · **12** solved in last 24h
 - **1194** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (208 good / 12 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (209 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 149.8h (proxy: updated_at − created_at, 109 solved tickets)
+- **Median AHT**: 139.7h · mean 148.9h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -211,7 +211,7 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1194 tickets** so f
   - [#9489](https://tbpro.zendesk.com/agent/tickets/9489) · [hold] · 2026-10-06 · _Mail sind zwischen Webversion und Thunderbird Client nicht auf den gleichen Stand_
   - [#10620](https://tbpro.zendesk.com/agent/tickets/10620) · [closed] · 2026-10-30 · _Synchronization between Thundermail IMAP and Thundermail Webmail_
 
-### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [solved] · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
+### [#10499](https://tbpro.zendesk.com/agent/tickets/10499) · [closed] · [tbpro-add-on/1116] Send uploads fail with "You don't have the key to decrypt this container
 - 2 incident(s):
   - [#9984](https://tbpro.zendesk.com/agent/tickets/9984) · [closed] · 2026-10-13 · _Re: [Thundermail] Re: Send_
   - [#10373](https://tbpro.zendesk.com/agent/tickets/10373) · [closed] · 2026-10-23 · _Send does not work in Firefox_
@@ -307,8 +307,8 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 941
-- **solved**: 109
+- **closed**: 942
+- **solved**: 108
 - **pending**: 97
 - **hold**: 19
 - **new**: 16
