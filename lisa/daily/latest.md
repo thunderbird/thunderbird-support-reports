@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 13:16 ET** · refreshes hourly_  
+_Updated: **2026-11-11 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 94** of rollout — **35,000 invitees**, **1201 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 94** of rollout — **35,000 invitees**, **1202 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **20** solved in last 24h
-- **1201** tickets total since launch · contact rate **3%** of 35000 invitees
+- **13** new tickets in last 24h · **24** solved in last 24h
+- **1202** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 86%  (6 good / 1 bad)
 - **CSAT (since launch)**: 95%  (210 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 139.7h · mean 153.6h (proxy: updated_at − created_at, 114 solved tickets)
+- **Median AHT**: 139.8h · mean 153.5h (proxy: updated_at − created_at, 117 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -149,7 +149,7 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1201 tickets** so f
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [solved] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [solved] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [solved] · 2026-11-05 · _Delete account and refund _
-  - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [pending] · 2026-11-05 · _change default account email_
+  - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [solved] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06 · _Cancellation + refund_
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [open] · 2026-11-06 · _How to transfer my private domain users from [domain]_
@@ -313,17 +313,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 944
-- **solved**: 114
-- **pending**: 82
-- **new**: 23
+- **closed**: 945
+- **solved**: 117
+- **pending**: 78
+- **new**: 24
 - **hold**: 19
 - **open**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 680
-- **Thundermail**: 414
+- **Thundermail**: 415
 - **Send**: 25
 - **Appointment**: 14
 
@@ -391,6 +391,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Privacy / data / jurisdiction concerns — 3 tickets
+
+- **[#11135](https://tbpro.zendesk.com/agent/tickets/11135)** · Permanently delete my account
+  > I apparently can't do this but you can.
+- **[#11114](https://tbpro.zendesk.com/agent/tickets/11114)** · Account Deletion
+  > Can you please delete my account and remove all of my data?
+- **[#11075](https://tbpro.zendesk.com/agent/tickets/11075)** · Please delete my account.
+  > Please delete my account. No longer need this service.
+
 ### Other / uncategorized — 3 tickets
 
 - **[#11123](https://tbpro.zendesk.com/agent/tickets/11123)** · Disable Loading Remote Images
@@ -406,13 +415,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hi, I've been troubleshooting my DKIM records since my mail from Thundermail is going straight to spam. It looks like there is a problem with my DKIM records. Can you help me…
 - **[#11116](https://tbpro.zendesk.com/agent/tickets/11116)** · Bug Report: periods at the end of Name/Host for SRV
   > Squarspace domains will not allow a period at the end of NAME/HOST for several custom DNS record types, including SRV and TXT - this prevents mapping custom domains from this…
-
-### Privacy / data / jurisdiction concerns — 2 tickets
-
-- **[#11114](https://tbpro.zendesk.com/agent/tickets/11114)** · Account Deletion
-  > Can you please delete my account and remove all of my data?
-- **[#11075](https://tbpro.zendesk.com/agent/tickets/11075)** · Please delete my account.
-  > Please delete my account. No longer need this service.
 
 ### App setup / configuration — 2 tickets
 
@@ -450,6 +452,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11123](https://tbpro.zendesk.com/agent/tickets/11123) · [new] · 2026-11-11T15:36 · Disable Loading Remote Images
 - [11125](https://tbpro.zendesk.com/agent/tickets/11125) · [new] · 2026-11-11T15:44 · Account Deletion
 - [11127](https://tbpro.zendesk.com/agent/tickets/11127) · [new] · 2026-11-11T15:51 · DKIM Misalignment
+- [11135](https://tbpro.zendesk.com/agent/tickets/11135) · [new] · 2026-11-11T19:12 · Permanently delete my account
 
 ## Solved — last 24h
 
@@ -476,6 +479,10 @@ Versi…
 - · [10898](https://tbpro.zendesk.com/agent/tickets/10898) · 2026-11-11T18:02 · Refund
 - · [10887](https://tbpro.zendesk.com/agent/tickets/10887) · 2026-11-11T18:02 · サンダーバードの設定
 - · [10751](https://tbpro.zendesk.com/agent/tickets/10751) · 2026-11-11T18:02 · Payment email
+- · [10873](https://tbpro.zendesk.com/agent/tickets/10873) · 2026-11-11T19:02 · Custom domain name not working
+- · [10872](https://tbpro.zendesk.com/agent/tickets/10872) · 2026-11-11T19:02 · Moving a domain w/ multiple users to thundermail
+- · [10870](https://tbpro.zendesk.com/agent/tickets/10870) · 2026-11-11T19:02 · change default account email
+- · [10864](https://tbpro.zendesk.com/agent/tickets/10864) · 2026-11-11T19:02 · Question about migrating to Thundermail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
