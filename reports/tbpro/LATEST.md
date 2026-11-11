@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 11:16 ET** · refreshes hourly_  
+_Updated: **2026-11-11 12:14 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1201 tickets** so f
 
 ## At a glance
 
-- **12** new tickets in last 24h · **14** solved in last 24h
+- **12** new tickets in last 24h · **16** solved in last 24h
 - **1201** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 86%  (6 good / 1 bad)
 - **CSAT (since launch)**: 95%  (210 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 139.6h · mean 149.8h (proxy: updated_at − created_at, 109 solved tickets)
+- **Median AHT**: 140.0h · mean 154.1h (proxy: updated_at − created_at, 110 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -313,9 +313,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 943
-- **solved**: 109
-- **pending**: 90
+- **closed**: 944
+- **solved**: 110
+- **pending**: 88
 - **new**: 23
 - **hold**: 19
 - **open**: 17
@@ -470,6 +470,8 @@ Name 	Thunderbird
 Versi…
 - · [10866](https://tbpro.zendesk.com/agent/tickets/10866) · 2026-11-11T16:02 · Transferring Thundermail to my current Thunderbird install
 - · [10863](https://tbpro.zendesk.com/agent/tickets/10863) · 2026-11-11T16:02 · OOPS
+- · [10849](https://tbpro.zendesk.com/agent/tickets/10849) · 2026-11-11T17:02 · add additional email?
+- · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-11-11T17:02 · Re: [Thundermail] Re: My folders do not sync
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
