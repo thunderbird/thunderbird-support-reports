@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 10:14 ET** · refreshes hourly_  
+_Updated: **2026-11-11 11:16 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 94** of rollout — **35,000 invitees**, **1198 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 94** of rollout — **35,000 invitees**, **1201 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **13** solved in last 24h
-- **1198** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 80%  (4 good / 1 bad)
-- **CSAT (since launch)**: 95%  (209 good / 12 bad)
+- **12** new tickets in last 24h · **14** solved in last 24h
+- **1201** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 86%  (6 good / 1 bad)
+- **CSAT (since launch)**: 95%  (210 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 139.8h · mean 149.9h (proxy: updated_at − created_at, 109 solved tickets)
+- **Median AHT**: 139.6h · mean 149.8h (proxy: updated_at − created_at, 109 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -313,17 +313,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 942
+- **closed**: 943
 - **solved**: 109
-- **pending**: 94
-- **new**: 20
+- **pending**: 90
+- **new**: 23
 - **hold**: 19
-- **open**: 14
+- **open**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 679
-- **Thundermail**: 413
+- **Account Hub**: 680
+- **Thundermail**: 414
 - **Send**: 25
 - **Appointment**: 14
 
@@ -391,12 +391,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#11123](https://tbpro.zendesk.com/agent/tickets/11123)** · Disable Loading Remote Images
+  > How do I disable Loading of remote images by default using the [domain] interface web UI?
 - **[#11115](https://tbpro.zendesk.com/agent/tickets/11115)** · Ich kann keine E-mails lesen
   > Meine E-mails anzeigen
 - **[#11100](https://tbpro.zendesk.com/agent/tickets/11100)** · impossible de crer un compte
   > je joins à nouveau , j'espère le zip M lemonde Thunderbird dossier2.zip
+
+### Custom domain / DKIM / DNS — 2 tickets
+
+- **[#11127](https://tbpro.zendesk.com/agent/tickets/11127)** · DKIM Misalignment
+  > Hi, I've been troubleshooting my DKIM records since my mail from Thundermail is going straight to spam. It looks like there is a problem with my DKIM records. Can you help me…
+- **[#11116](https://tbpro.zendesk.com/agent/tickets/11116)** · Bug Report: periods at the end of Name/Host for SRV
+  > Squarspace domains will not allow a period at the end of NAME/HOST for several custom DNS record types, including SRV and TXT - this prevents mapping custom domains from this…
 
 ### Privacy / data / jurisdiction concerns — 2 tickets
 
@@ -412,10 +421,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11064](https://tbpro.zendesk.com/agent/tickets/11064)** · do you have an account 
   > my memory is failing to remember the thundermail betta that had been set aside for my future usage and it is certain that it was all set up as we had agreed then and do you make…
 
-### Custom domain / DKIM / DNS — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#11116](https://tbpro.zendesk.com/agent/tickets/11116)** · Bug Report: periods at the end of Name/Host for SRV
-  > Squarspace domains will not allow a period at the end of NAME/HOST for several custom DNS record types, including SRV and TXT - this prevents mapping custom domains from this…
+- **[#11125](https://tbpro.zendesk.com/agent/tickets/11125)** · Account Deletion
+  > Hello, I'd like to close my account ([email]), cancel my subscription and collect a refund, please. As the account was created four days ago, I should still be eligible for my…
 
 ### Webmail — 1 tickets
 
@@ -438,10 +447,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11114](https://tbpro.zendesk.com/agent/tickets/11114) · [new] · 2026-11-11T14:32 · Account Deletion
 - [11115](https://tbpro.zendesk.com/agent/tickets/11115) · [new] · 2026-11-11T14:43 · Ich kann keine E-mails lesen
 - [11116](https://tbpro.zendesk.com/agent/tickets/11116) · [new] · 2026-11-11T15:05 · Bug Report: periods at the end of Name/Host for SRV
+- [11123](https://tbpro.zendesk.com/agent/tickets/11123) · [new] · 2026-11-11T15:36 · Disable Loading Remote Images
+- [11125](https://tbpro.zendesk.com/agent/tickets/11125) · [new] · 2026-11-11T15:44 · Account Deletion
+- [11127](https://tbpro.zendesk.com/agent/tickets/11127) · [new] · 2026-11-11T15:51 · DKIM Misalignment
 
 ## Solved — last 24h
 
-- · [10842](https://tbpro.zendesk.com/agent/tickets/10842) · 2026-11-10T21:01 · Mail Merge
 - · [10825](https://tbpro.zendesk.com/agent/tickets/10825) · 2026-11-10T21:01 · "I don't need Thundermail" but lots of my customers might and Thunderbird is wonderful
 - · [10794](https://tbpro.zendesk.com/agent/tickets/10794) · 2026-11-10T21:01 · activating Pro-accoung
 - · [10858](https://tbpro.zendesk.com/agent/tickets/10858) · 2026-11-10T21:01 · Duplicate billing
@@ -457,6 +468,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 Name 	Thunderbird
 Versi…
+- · [10866](https://tbpro.zendesk.com/agent/tickets/10866) · 2026-11-11T16:02 · Transferring Thundermail to my current Thunderbird install
+- · [10863](https://tbpro.zendesk.com/agent/tickets/10863) · 2026-11-11T16:02 · OOPS
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
