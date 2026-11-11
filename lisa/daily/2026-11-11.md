@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 12:14 ET** · refreshes hourly_  
+_Updated: **2026-11-11 13:16 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1201 tickets** so f
 
 ## At a glance
 
-- **12** new tickets in last 24h · **16** solved in last 24h
+- **12** new tickets in last 24h · **20** solved in last 24h
 - **1201** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 86%  (6 good / 1 bad)
 - **CSAT (since launch)**: 95%  (210 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 140.0h · mean 154.1h (proxy: updated_at − created_at, 110 solved tickets)
+- **Median AHT**: 139.7h · mean 153.6h (proxy: updated_at − created_at, 114 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -153,7 +153,7 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1201 tickets** so f
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [pending] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [pending] · 2026-11-06 · _Cancellation + refund_
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [open] · 2026-11-06 · _How to transfer my private domain users from [domain]_
-  - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [pending] · 2026-11-06 · _Refund_
+  - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [solved] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09 · _cancel and refund_
 
@@ -314,11 +314,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 944
-- **solved**: 110
-- **pending**: 88
+- **solved**: 114
+- **pending**: 82
 - **new**: 23
 - **hold**: 19
-- **open**: 17
+- **open**: 19
 
 ## Service (cumulative)
 
@@ -472,6 +472,10 @@ Versi…
 - · [10863](https://tbpro.zendesk.com/agent/tickets/10863) · 2026-11-11T16:02 · OOPS
 - · [10849](https://tbpro.zendesk.com/agent/tickets/10849) · 2026-11-11T17:02 · add additional email?
 - · [10160](https://tbpro.zendesk.com/agent/tickets/10160) · 2026-11-11T17:02 · Re: [Thundermail] Re: My folders do not sync
+- · [10901](https://tbpro.zendesk.com/agent/tickets/10901) · 2026-11-11T18:02 · Military Discount for Thundermail
+- · [10898](https://tbpro.zendesk.com/agent/tickets/10898) · 2026-11-11T18:02 · Refund
+- · [10887](https://tbpro.zendesk.com/agent/tickets/10887) · 2026-11-11T18:02 · サンダーバードの設定
+- · [10751](https://tbpro.zendesk.com/agent/tickets/10751) · 2026-11-11T18:02 · Payment email
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
