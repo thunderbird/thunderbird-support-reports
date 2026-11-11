@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-11
 
-_Updated: **2026-11-11 16:17 ET** · refreshes hourly_  
+_Updated: **2026-11-11 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-10T16:00 → 2026-11-11T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 94** of rollout — **35,000 invitees**, **1204 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 94** of rollout — **35,000 invitees**, **1205 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **31** solved in last 24h
-- **1204** tickets total since launch · contact rate **3%** of 35000 invitees
+- **14** new tickets in last 24h · **30** solved in last 24h
+- **1205** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 86%  (6 good / 1 bad)
 - **CSAT (since launch)**: 95%  (210 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 140.3h · mean 154.1h (proxy: updated_at − created_at, 128 solved tickets)
+- **Median AHT**: 140.5h · mean 154.6h (proxy: updated_at − created_at, 127 solved tickets)
 
 ## Known problems — 15 problem(s), 147 incident(s)
 
@@ -134,7 +134,7 @@ Flight 8 is **day 94** of rollout — **35,000 invitees**, **1204 tickets** so f
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [closed] · 2026-10-30 · _Refund_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [solved] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
-  - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [solved] · 2026-11-02 · _Spam_
+  - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [closed] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [solved] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [closed] · 2026-11-02 · _Refund question_
   - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [solved] · 2026-11-03 · _Cancel subscription_
@@ -313,17 +313,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 945
-- **solved**: 128
+- **closed**: 946
+- **solved**: 127
 - **pending**: 66
-- **new**: 26
+- **new**: 27
 - **open**: 20
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 680
-- **Thundermail**: 415
+- **Thundermail**: 416
 - **Send**: 26
 - **Appointment**: 14
 
@@ -466,7 +466,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10794](https://tbpro.zendesk.com/agent/tickets/10794) · 2026-11-10T21:01 · activating Pro-accoung
 - · [10858](https://tbpro.zendesk.com/agent/tickets/10858) · 2026-11-10T21:01 · Duplicate billing
 - 👍 [10896](https://tbpro.zendesk.com/agent/tickets/10896) · 2026-11-10T21:10 · Webmail is down for me
-- · [10928](https://tbpro.zendesk.com/agent/tickets/10928) · 2026-11-10T21:14 · Email Alias
 - · [10967](https://tbpro.zendesk.com/agent/tickets/10967) · 2026-11-10T22:02 · Reply to Support email - how do we add thundermail to a Thunderbird installation?
 - · [10861](https://tbpro.zendesk.com/agent/tickets/10861) · 2026-11-10T22:02 · Deliverability
 - · [10828](https://tbpro.zendesk.com/agent/tickets/10828) · 2026-11-10T22:02 · Change Primary Email
