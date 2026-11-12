@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 05:15 ET** · refreshes hourly_  
+_Updated: **2026-11-12 06:14 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1209 tickets** so f
 - **1209** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
 - **Median AHT**: 140.6h · mean 155.6h (proxy: updated_at − created_at, 132 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -307,8 +307,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Favicon](https://ideas.tb.pro/p/favicon) · 1 votes · _untagged_
+  > The Appointments and Send webpages have favicons reflecting the respective applications. The Mail webpage (webmail) does not. It is currently the same as the Thunderbird favicon. As I already keep…
 - [Better URL for Bugs](https://ideas.tb.pro/p/better-url-for-bugs) · 1 votes · _untagged_
   > I tried to report a (minor) bug. I have to create a Github account (for which I created a new Disposable Address). Despite having done so successfully once, I now cannot login to Github. This smells…
 
