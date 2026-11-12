@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 04:16 ET** · refreshes hourly_  
+_Updated: **2026-11-12 05:15 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1208 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1209 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **12** solved in last 24h
-- **1208** tickets total since launch · contact rate **3%** of 35000 invitees
+- **6** new tickets in last 24h · **12** solved in last 24h
+- **1209** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
 - **Median AHT**: 140.6h · mean 155.6h (proxy: updated_at − created_at, 132 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"identities button"** — 2 tickets in 24h (new; baseline 0 cum) — [#11161](https://tbpro.zendesk.com/agent/tickets/11161), [#11178](https://tbpro.zendesk.com/agent/tickets/11178)
 
 ## Known problems — 15 problem(s), 148 incident(s)
 
@@ -312,13 +318,13 @@ _(none in last 24h)_
 - **solved**: 132
 - **pending**: 63
 - **open**: 26
-- **new**: 21
+- **new**: 22
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 685
-- **Thundermail**: 415
+- **Thundermail**: 416
 - **Send**: 26
 - **Appointment**: 14
 
@@ -393,6 +399,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
   > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
 
+### Webmail — 1 tickets
+
+- **[#11178](https://tbpro.zendesk.com/agent/tickets/11178)** · Adding Identity
+  > Having now discovered the Add Identities button on the webmail page, I have tried to add a new one. I receive an error: "You can't send from this email address. Add it to your…
+
 ### App setup / configuration — 1 tickets
 
 - **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
@@ -415,6 +426,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11161](https://tbpro.zendesk.com/agent/tickets/11161) · [new] · 2026-11-12T06:52 · Managing Identities
 - [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [new] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
 - [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [new] · 2026-11-12T08:50 · email
+- [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [new] · 2026-11-12T10:08 · Adding Identity
 
 ## Solved — last 24h
 
