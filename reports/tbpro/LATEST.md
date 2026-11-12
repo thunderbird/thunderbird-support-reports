@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 11:17 ET** · refreshes hourly_  
+_Updated: **2026-11-12 12:14 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1212 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1214 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **13** solved in last 24h
-- **1212** tickets total since launch · contact rate **3%** of 35000 invitees
+- **12** new tickets in last 24h · **13** solved in last 24h
+- **1214** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
 - **Median AHT**: 140.7h · mean 155.7h (proxy: updated_at − created_at, 133 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -308,8 +308,10 @@ Henning Gerken_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Thunderbird on Android](https://ideas.tb.pro/p/thunderbird-on-android) · 1 votes · _untagged_
+  > What you’d like to see The same as the Outlook Android app. One button for Mail, Calendar (Appointments), and Contacts (Address Book). (I care less about Send but it’s nice to have.) Having just…
 - [Favicon](https://ideas.tb.pro/p/favicon) · 1 votes · _untagged_
   > The Appointments and Send webpages have favicons reflecting the respective applications. The Mail webpage (webmail) does not. It is currently the same as the Thunderbird favicon. As I already keep…
 - [Better URL for Bugs](https://ideas.tb.pro/p/better-url-for-bugs) · 1 votes · _untagged_
@@ -319,15 +321,15 @@ Henning Gerken_
 
 - **closed**: 947
 - **solved**: 133
-- **pending**: 68
-- **open**: 38
-- **hold**: 19
-- **new**: 7
+- **pending**: 73
+- **open**: 33
+- **hold**: 20
+- **new**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 690
-- **Thundermail**: 414
+- **Thundermail**: 416
 - **Send**: 26
 - **Appointment**: 14
 
@@ -340,7 +342,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 97
 - **curious** + **informed**: 59
-- **confused** + **informed**: 58
+- **confused** + **informed**: 59
 - **blocked** + **redirected**: 54
 - **request** + **redirected**: 50
 - **blocked** + **investigated**: 49
@@ -348,8 +350,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 25
 - **blocked** + **escalated**: 20
+- **confused** + **—**: 14
 - **change request** + **explained**: 13
-- **confused** + **—**: 13
 - **blocked** + **—**: 11
 - **concerned** + **—**: 9
 - **blocked** + **actioned**: 9
@@ -404,12 +406,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
   > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
 
+### App setup / configuration — 2 tickets
+
+- **[#11201](https://tbpro.zendesk.com/agent/tickets/11201)** · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:02:01 +0000
+  > Mesdames, Messieurs, J'ai pu reconfigurer 2 comptes: [email] et [email] mais je n'arrive pas à reconfigurer le compte [email] ? Pour le nom: André Gromier ([email]), faut-il pour…
+- **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
+  > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error
   > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
 - **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
   > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
+
+### Bug report / app crash / not working — 1 tickets
+
+- **[#11202](https://tbpro.zendesk.com/agent/tickets/11202)** · Unable to load Thundermail in Apple Mail
+  > I followed instructions for how to link my Thundermail account to Apple Mail, but it doesn't appear to be working correctly. The error message indicates that my password is…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -426,11 +440,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11178](https://tbpro.zendesk.com/agent/tickets/11178)** · Adding Identity
   > Having now discovered the Add Identities button on the webmail page, I have tried to add a new one. I receive an error: "You can't send from this email address. Add it to your…
 
-### App setup / configuration — 1 tickets
-
-- **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
-  > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
-
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account. — why: **confused** · how: **redirected**
@@ -444,10 +453,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [open] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
 - [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [open] · 2026-11-12T08:50 · email
 - [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [open] · 2026-11-12T10:08 · Adding Identity
-- [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [new] · 2026-11-12T14:18 · thundermail invite error
+- [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [open] · 2026-11-12T14:18 · thundermail invite error
 - [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [new] · 2026-11-12T14:40 · Zero-Access and Post Quantum
 - [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · 2026-11-12T14:53 · Refund
 - [11198](https://tbpro.zendesk.com/agent/tickets/11198) · [new] · 2026-11-12T15:35 · Creating a new folder
+- [11201](https://tbpro.zendesk.com/agent/tickets/11201) · [new] · 2026-11-12T16:31 · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:0
+- [11202](https://tbpro.zendesk.com/agent/tickets/11202) · [new] · 2026-11-12T16:38 · Unable to load Thundermail in Apple Mail
 
 ## Solved — last 24h
 
