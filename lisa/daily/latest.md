@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-12 16:13 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1218 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1219 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **16** new tickets in last 24h · **15** solved in last 24h
-- **1218** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1219** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 139.9h · mean 152.4h (proxy: updated_at − created_at, 126 solved tickets)
+- **Median AHT**: 139.6h · mean 152.1h (proxy: updated_at − created_at, 119 solved tickets)
 
 ## Known problems — 15 problem(s), 150 incident(s)
 
@@ -132,7 +132,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1218 tickets** so f
   - [#10562](https://tbpro.zendesk.com/agent/tickets/10562) · [closed] · 2026-10-28 · _just cancelled my subscription - please let me know how to request a refund_
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [closed] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [closed] · 2026-10-30 · _Refund_
-  - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [solved] · 2026-11-01 · _Delete account_
+  - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [closed] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [closed] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [solved] · 2026-11-02 · _cancel account_
@@ -317,17 +317,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 956
-- **solved**: 126
-- **pending**: 86
-- **open**: 29
+- **closed**: 963
+- **solved**: 119
+- **pending**: 93
+- **open**: 23
 - **hold**: 20
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 694
-- **Thundermail**: 417
+- **Account Hub**: 696
+- **Thundermail**: 416
 - **Send**: 26
 - **Appointment**: 14
 
@@ -335,16 +335,16 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 236
+- **curious** + **explained**: 237
 - **change request** + **actioned**: 173
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
+- **confused** + **informed**: 61
 - **curious** + **informed**: 60
-- **confused** + **informed**: 60
 - **blocked** + **redirected**: 54
 - **blocked** + **investigated**: 51
+- **confused** + **redirected**: 51
 - **request** + **redirected**: 50
-- **confused** + **redirected**: 48
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 25
 - **blocked** + **escalated**: 20
@@ -400,30 +400,32 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11215](https://tbpro.zendesk.com/agent/tickets/11215)** · Re: Important Notification - Planned Thundermail Outage November 19, 2026
   > Hi, Thanks for the update! Can I reuse my current app password after the migration, or is there a password history restriction? If so, how many changes are required before I can…
-- **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error — why: **concerned**
-  > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
-- **[#11204](https://tbpro.zendesk.com/agent/tickets/11204)** · Browser pop up — why: **telling us** · how: **explained**
-  > Hi, I recently paid to join the beta for Thundermail. First time the Thunderbird app updates *it opens a browser to display a webpage asking for donations*. Come on, man. Pop-ups…
 - **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked — why: **blocked** · how: **investigated**
   > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
+- **[#11204](https://tbpro.zendesk.com/agent/tickets/11204)** · Browser pop up — why: **telling us** · how: **explained**
+  > Hi, I recently paid to join the beta for Thundermail. First time the Thunderbird app updates *it opens a browser to display a webpage asking for donations*. Come on, man. Pop-ups…
+- **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error — why: **concerned**
+  > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
 
-### Other / uncategorized — 4 tickets
+### Account access issues — Account Hub trouble — 4 tickets
 
-- **[#11214](https://tbpro.zendesk.com/agent/tickets/11214)** · reliability
-  > I'm curious as how to use this for testing purposes. Are you confident in it enough to start switching all my email addresses to it? Or should I just be trying a few while helping…
-- **[#11206](https://tbpro.zendesk.com/agent/tickets/11206)** · outgoing email will not send
+- **[#11213](https://tbpro.zendesk.com/agent/tickets/11213)** · cant connect to mail on my mac — why: **confused** · how: **redirected**
+  > i need to reset y password but the thunderbird mail doesnt work for e to get instructions to reset my password
+- **[#11206](https://tbpro.zendesk.com/agent/tickets/11206)** · outgoing email will not send — why: **confused** · how: **redirected**
   > reset? troubleshoot
-- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
-  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
-- **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder — why: **confused** · how: **n/a**
-  > I have created a folder before but I can't remember how I did it and can't find how to do it.
-
-### Account access issues — Account Hub trouble — 2 tickets
-
 - **[#11201](https://tbpro.zendesk.com/agent/tickets/11201)** · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:02:01 +0000 — why: **confused** · how: **redirected**
   > Mesdames, Messieurs, J'ai pu reconfigurer 2 comptes: [email] et [email] mais je n'arrive pas à reconfigurer le compte [email] ? Pour le nom: André Gromier ([email]), faut-il pour…
 - **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account. — why: **confused** · how: **redirected**
   > Hello [name], I urgently need help with an account security incident. Someone hacked my Microsoft account and used it to create a Thundermail account without my permission.…
+
+### Other / uncategorized — 3 tickets
+
+- **[#11214](https://tbpro.zendesk.com/agent/tickets/11214)** · reliability
+  > I'm curious as how to use this for testing purposes. Are you confident in it enough to start switching all my email addresses to it? Or should I just be trying a few while helping…
+- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
+  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
+- **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder — why: **confused** · how: **n/a**
+  > I have created a folder before but I can't remember how I did it and can't find how to do it.
 
 ### Aliases — 2 tickets
 
@@ -432,20 +434,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email — why: **curious** · how: **informed**
   > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
 
-### Account access issues — 1 tickets
-
-- **[#11213](https://tbpro.zendesk.com/agent/tickets/11213)** · cant connect to mail on my mac
-  > i need to reset y password but the thunderbird mail doesnt work for e to get instructions to reset my password
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#11202](https://tbpro.zendesk.com/agent/tickets/11202)** · Unable to load Thundermail in Apple Mail
-  > I followed instructions for how to link my Thundermail account to Apple Mail, but it doesn't appear to be working correctly. The error message indicates that my password is…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#11196](https://tbpro.zendesk.com/agent/tickets/11196)** · Refund
   > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
+
+### Bug report / app crash / not working — 1 tickets
+
+- **[#11202](https://tbpro.zendesk.com/agent/tickets/11202)** · Unable to load Thundermail in Apple Mail — why: **confused** · how: **informed**
+  > I followed instructions for how to link my Thundermail account to Apple Mail, but it doesn't appear to be working correctly. The error message indicates that my password is…
 
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
@@ -456,20 +453,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [11142](https://tbpro.zendesk.com/agent/tickets/11142) · [open] · 2026-11-11T21:08 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
 - [11144](https://tbpro.zendesk.com/agent/tickets/11144) · [pending] · 2026-11-11T22:03 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
-- [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [pending] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
+- [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [open] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
 - [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [pending] · 2026-11-12T08:50 · email
 - [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [pending] · 2026-11-12T10:08 · Adding Identity
-- [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [open] · 2026-11-12T14:18 · thundermail invite error
+- [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [pending] · 2026-11-12T14:18 · thundermail invite error
 - [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [pending] · 2026-11-12T14:40 · Zero-Access and Post Quantum
 - [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · 2026-11-12T14:53 · Refund
 - [11198](https://tbpro.zendesk.com/agent/tickets/11198) · [solved] · 2026-11-12T15:35 · Creating a new folder
 - [11201](https://tbpro.zendesk.com/agent/tickets/11201) · [pending] · 2026-11-12T16:31 · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:0
-- [11202](https://tbpro.zendesk.com/agent/tickets/11202) · [open] · 2026-11-12T16:38 · Unable to load Thundermail in Apple Mail
+- [11202](https://tbpro.zendesk.com/agent/tickets/11202) · [pending] · 2026-11-12T16:38 · Unable to load Thundermail in Apple Mail
 - [11204](https://tbpro.zendesk.com/agent/tickets/11204) · [pending] · 2026-11-12T17:18 · Browser pop up
-- [11206](https://tbpro.zendesk.com/agent/tickets/11206) · [open] · 2026-11-12T17:53 · outgoing email will not send
-- [11213](https://tbpro.zendesk.com/agent/tickets/11213) · [open] · 2026-11-12T19:21 · cant connect to mail on my mac
+- [11206](https://tbpro.zendesk.com/agent/tickets/11206) · [pending] · 2026-11-12T17:53 · outgoing email will not send
+- [11213](https://tbpro.zendesk.com/agent/tickets/11213) · [pending] · 2026-11-12T19:21 · cant connect to mail on my mac
 - [11214](https://tbpro.zendesk.com/agent/tickets/11214) · [open] · 2026-11-12T19:21 · reliability
-- [11215](https://tbpro.zendesk.com/agent/tickets/11215) · [new] · 2026-11-12T20:00 · Re: Important Notification - Planned Thundermail Outage November 19, 2026
+- [11215](https://tbpro.zendesk.com/agent/tickets/11215) · [open] · 2026-11-12T20:00 · Re: Important Notification - Planned Thundermail Outage November 19, 2026
 
 ## Solved — last 24h
 
