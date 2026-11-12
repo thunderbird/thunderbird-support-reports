@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 10:15 ET** · refreshes hourly_  
+_Updated: **2026-11-12 11:17 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,7 +9,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1212 tickets** so f
 
 ## At a glance
 
-- **9** new tickets in last 24h · **13** solved in last 24h
+- **10** new tickets in last 24h · **13** solved in last 24h
 - **1212** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
@@ -303,7 +303,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [new] · _Refund_
+- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · _Refund_
   > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
 
 ## New ideas on FeatureOS
@@ -319,15 +319,15 @@ Henning Gerken_
 
 - **closed**: 947
 - **solved**: 133
-- **pending**: 60
+- **pending**: 68
 - **open**: 38
 - **hold**: 19
-- **new**: 15
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 687
-- **Thundermail**: 417
+- **Account Hub**: 690
+- **Thundermail**: 414
 - **Send**: 26
 - **Appointment**: 14
 
@@ -336,17 +336,17 @@ Henning Gerken_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 236
-- **change request** + **actioned**: 170
+- **change request** + **actioned**: 171
 - **blocked** + **explained**: 120
-- **confused** + **explained**: 96
+- **confused** + **explained**: 97
 - **curious** + **informed**: 59
 - **confused** + **informed**: 58
 - **blocked** + **redirected**: 54
 - **request** + **redirected**: 50
 - **blocked** + **investigated**: 49
-- **confused** + **redirected**: 40
+- **confused** + **redirected**: 43
 - **concerned** + **explained**: 32
-- **blocked** + **informed**: 23
+- **blocked** + **informed**: 25
 - **blocked** + **escalated**: 20
 - **change request** + **explained**: 13
 - **confused** + **—**: 13
@@ -395,19 +395,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder
+  > I have created a folder before but I can't remember how I did it and can't find how to do it.
+- **[#11161](https://tbpro.zendesk.com/agent/tickets/11161)** · Managing Identities
+  > This article https://[domain]/en-US/kb/using-identities details how to manage identities. Unfortunately, I do not see a "Manage Identities" button/ link under my Account Settings…
+- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
+  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error
   > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
 - **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
   > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
-
-### Other / uncategorized — 2 tickets
-
-- **[#11161](https://tbpro.zendesk.com/agent/tickets/11161)** · Managing Identities
-  > This article https://[domain]/en-US/kb/using-identities details how to manage identities. Unfortunately, I do not see a "Manage Identities" button/ link under my Account Settings…
-- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
-  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -429,22 +431,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
   > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
 
-### Security / hacked — 1 tickets
+### Account access issues — Account Hub trouble — 1 tickets
 
-- **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
+- **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account. — why: **confused** · how: **redirected**
   > Hello [name], I urgently need help with an account security incident. Someone hacked my Microsoft account and used it to create a Thundermail account without my permission.…
 
 ## New tickets — last 24h
 
 - [11142](https://tbpro.zendesk.com/agent/tickets/11142) · [open] · 2026-11-11T21:08 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
-- [11144](https://tbpro.zendesk.com/agent/tickets/11144) · [new] · 2026-11-11T22:03 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
-- [11161](https://tbpro.zendesk.com/agent/tickets/11161) · [new] · 2026-11-12T06:52 · Managing Identities
-- [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [new] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
-- [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [new] · 2026-11-12T08:50 · email
-- [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [new] · 2026-11-12T10:08 · Adding Identity
+- [11144](https://tbpro.zendesk.com/agent/tickets/11144) · [pending] · 2026-11-11T22:03 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
+- [11161](https://tbpro.zendesk.com/agent/tickets/11161) · [open] · 2026-11-12T06:52 · Managing Identities
+- [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [open] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
+- [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [open] · 2026-11-12T08:50 · email
+- [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [open] · 2026-11-12T10:08 · Adding Identity
 - [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [new] · 2026-11-12T14:18 · thundermail invite error
 - [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [new] · 2026-11-12T14:40 · Zero-Access and Post Quantum
-- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [new] · 2026-11-12T14:53 · Refund
+- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · 2026-11-12T14:53 · Refund
+- [11198](https://tbpro.zendesk.com/agent/tickets/11198) · [new] · 2026-11-12T15:35 · Creating a new folder
 
 ## Solved — last 24h
 
