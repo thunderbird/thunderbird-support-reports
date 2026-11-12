@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 01:24 ET** · refreshes hourly_  
+_Updated: **2026-11-12 02:16 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1205 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1206 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **12** solved in last 24h
-- **1205** tickets total since launch · contact rate **3%** of 35000 invitees
+- **3** new tickets in last 24h · **12** solved in last 24h
+- **1206** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -311,12 +311,12 @@ _(none in last 24h)_
 - **solved**: 132
 - **pending**: 63
 - **open**: 24
-- **new**: 20
+- **new**: 21
 - **hold**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 682
+- **Account Hub**: 683
 - **Thundermail**: 415
 - **Send**: 26
 - **Appointment**: 14
@@ -385,20 +385,23 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#11161](https://tbpro.zendesk.com/agent/tickets/11161)** · Managing Identities
+  > This article https://[domain]/en-US/kb/using-identities details how to manage identities. Unfortunately, I do not see a "Manage Identities" button/ link under my Account Settings…
+- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
+  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
+
 ### Security / hacked — 1 tickets
 
 - **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
   > Hello [name], I urgently need help with an account security incident. Someone hacked my Microsoft account and used it to create a Thundermail account without my permission.…
 
-### Other / uncategorized — 1 tickets
-
-- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
-  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
-
 ## New tickets — last 24h
 
 - [11142](https://tbpro.zendesk.com/agent/tickets/11142) · [open] · 2026-11-11T21:08 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
 - [11144](https://tbpro.zendesk.com/agent/tickets/11144) · [new] · 2026-11-11T22:03 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
+- [11161](https://tbpro.zendesk.com/agent/tickets/11161) · [new] · 2026-11-12T06:52 · Managing Identities
 
 ## Solved — last 24h
 
