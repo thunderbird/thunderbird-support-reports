@@ -1,17 +1,17 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 16:13 ET** · refreshes hourly_  
+_Updated: **2026-11-12 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1219 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1218 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **16** new tickets in last 24h · **15** solved in last 24h
-- **1219** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (5 good / 0 bad)
+- **1218** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
 - **Median AHT**: 139.6h · mean 152.1h (proxy: updated_at − created_at, 119 solved tickets)
@@ -319,10 +319,9 @@ Henning Gerken_
 
 - **closed**: 963
 - **solved**: 119
-- **pending**: 93
-- **open**: 23
+- **pending**: 97
 - **hold**: 20
-- **new**: 1
+- **open**: 19
 
 ## Service (cumulative)
 
@@ -339,8 +338,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 173
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
+- **curious** + **informed**: 61
 - **confused** + **informed**: 61
-- **curious** + **informed**: 60
 - **blocked** + **redirected**: 54
 - **blocked** + **investigated**: 51
 - **confused** + **redirected**: 51
@@ -358,7 +357,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 9
 - **request** + **explained**: 7
 - **curious** + **actioned**: 6
-- **curious** + **—**: 5
+- **curious** + **—**: 6
 - **other** + **n/a**: 4
 - **concerned** + **escalated**: 4
 - **telling us** + **n/a**: 4
@@ -398,10 +397,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Early bird / invite / waitlist — 4 tickets
 
-- **[#11215](https://tbpro.zendesk.com/agent/tickets/11215)** · Re: Important Notification - Planned Thundermail Outage November 19, 2026
-  > Hi, Thanks for the update! Can I reuse my current app password after the migration, or is there a password history restriction? If so, how many changes are required before I can…
 - **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked — why: **blocked** · how: **investigated**
   > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
+- **[#11215](https://tbpro.zendesk.com/agent/tickets/11215)** · Re: Important Notification - Planned Thundermail Outage November 19, 2026 — why: **curious** · how: **informed**
+  > Hi, Thanks for the update! Can I reuse my current app password after the migration, or is there a password history restriction? If so, how many changes are required before I can…
 - **[#11204](https://tbpro.zendesk.com/agent/tickets/11204)** · Browser pop up — why: **telling us** · how: **explained**
   > Hi, I recently paid to join the beta for Thundermail. First time the Thunderbird app updates *it opens a browser to display a webpage asking for donations*. Come on, man. Pop-ups…
 - **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error — why: **concerned**
@@ -418,10 +417,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account. — why: **confused** · how: **redirected**
   > Hello [name], I urgently need help with an account security incident. Someone hacked my Microsoft account and used it to create a Thundermail account without my permission.…
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#11214](https://tbpro.zendesk.com/agent/tickets/11214)** · reliability
-  > I'm curious as how to use this for testing purposes. Are you confident in it enough to start switching all my email addresses to it? Or should I just be trying a few while helping…
 - **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
   > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
 - **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder — why: **confused** · how: **n/a**
@@ -438,6 +435,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11196](https://tbpro.zendesk.com/agent/tickets/11196)** · Refund
   > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#11214](https://tbpro.zendesk.com/agent/tickets/11214)** · reliability — why: **curious**
+  > I'm curious as how to use this for testing purposes. Are you confident in it enough to start switching all my email addresses to it? Or should I just be trying a few while helping…
 
 ### Bug report / app crash / not working — 1 tickets
 
@@ -465,8 +467,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11204](https://tbpro.zendesk.com/agent/tickets/11204) · [pending] · 2026-11-12T17:18 · Browser pop up
 - [11206](https://tbpro.zendesk.com/agent/tickets/11206) · [pending] · 2026-11-12T17:53 · outgoing email will not send
 - [11213](https://tbpro.zendesk.com/agent/tickets/11213) · [pending] · 2026-11-12T19:21 · cant connect to mail on my mac
-- [11214](https://tbpro.zendesk.com/agent/tickets/11214) · [open] · 2026-11-12T19:21 · reliability
-- [11215](https://tbpro.zendesk.com/agent/tickets/11215) · [open] · 2026-11-12T20:00 · Re: Important Notification - Planned Thundermail Outage November 19, 2026
+- [11214](https://tbpro.zendesk.com/agent/tickets/11214) · [pending] · 2026-11-12T19:21 · reliability
+- [11215](https://tbpro.zendesk.com/agent/tickets/11215) · [pending] · 2026-11-12T20:00 · Re: Important Notification - Planned Thundermail Outage November 19, 2026
 
 ## Solved — last 24h
 
