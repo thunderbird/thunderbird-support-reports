@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 12:14 ET** · refreshes hourly_  
+_Updated: **2026-11-12 13:18 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1214 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1216 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **13** solved in last 24h
-- **1214** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **14** new tickets in last 24h · **14** solved in last 24h
+- **1216** tickets total since launch · contact rate **3%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
-- **Median AHT**: 140.7h · mean 155.7h (proxy: updated_at − created_at, 133 solved tickets)
+- **Median AHT**: 140.7h · mean 155.7h (proxy: updated_at − created_at, 134 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -158,7 +158,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [solved] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [solved] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [solved] · 2026-11-06 · _Cancellation + refund_
-  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [open] · 2026-11-06 · _How to transfer my private domain users from [domain]_
+  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [solved] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [solved] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09 · _cancel and refund_
@@ -320,16 +320,16 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 947
-- **solved**: 133
-- **pending**: 73
-- **open**: 33
+- **solved**: 134
+- **pending**: 75
+- **open**: 32
 - **hold**: 20
 - **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 690
-- **Thundermail**: 416
+- **Account Hub**: 692
+- **Thundermail**: 417
 - **Send**: 26
 - **Appointment**: 14
 
@@ -346,14 +346,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 54
 - **request** + **redirected**: 50
 - **blocked** + **investigated**: 49
-- **confused** + **redirected**: 43
+- **confused** + **redirected**: 45
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 25
 - **blocked** + **escalated**: 20
 - **confused** + **—**: 14
 - **change request** + **explained**: 13
 - **blocked** + **—**: 11
-- **concerned** + **—**: 9
+- **concerned** + **—**: 10
 - **blocked** + **actioned**: 9
 - **concerned** + **investigated**: 9
 - **confused** + **investigated**: 9
@@ -397,8 +397,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#11206](https://tbpro.zendesk.com/agent/tickets/11206)** · outgoing email will not send
+  > reset? troubleshoot
 - **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder
   > I have created a folder before but I can't remember how I did it and can't find how to do it.
 - **[#11161](https://tbpro.zendesk.com/agent/tickets/11161)** · Managing Identities
@@ -406,19 +408,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
   > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
 
+### Early bird / invite / waitlist — 3 tickets
+
+- **[#11204](https://tbpro.zendesk.com/agent/tickets/11204)** · Browser pop up
+  > Hi, I recently paid to join the beta for Thundermail. First time the Thunderbird app updates *it opens a browser to display a webpage asking for donations*. Come on, man. Pop-ups…
+- **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error — why: **concerned**
+  > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
+- **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
+  > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
+
 ### App setup / configuration — 2 tickets
 
 - **[#11201](https://tbpro.zendesk.com/agent/tickets/11201)** · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:02:01 +0000
   > Mesdames, Messieurs, J'ai pu reconfigurer 2 comptes: [email] et [email] mais je n'arrive pas à reconfigurer le compte [email] ? Pour le nom: André Gromier ([email]), faut-il pour…
 - **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
   > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
-
-### Early bird / invite / waitlist — 2 tickets
-
-- **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error
-  > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
-- **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
-  > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
 
 ### Bug report / app crash / not working — 1 tickets
 
@@ -454,11 +458,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [open] · 2026-11-12T08:50 · email
 - [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [open] · 2026-11-12T10:08 · Adding Identity
 - [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [open] · 2026-11-12T14:18 · thundermail invite error
-- [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [new] · 2026-11-12T14:40 · Zero-Access and Post Quantum
+- [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [open] · 2026-11-12T14:40 · Zero-Access and Post Quantum
 - [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · 2026-11-12T14:53 · Refund
 - [11198](https://tbpro.zendesk.com/agent/tickets/11198) · [new] · 2026-11-12T15:35 · Creating a new folder
 - [11201](https://tbpro.zendesk.com/agent/tickets/11201) · [new] · 2026-11-12T16:31 · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:0
 - [11202](https://tbpro.zendesk.com/agent/tickets/11202) · [new] · 2026-11-12T16:38 · Unable to load Thundermail in Apple Mail
+- [11204](https://tbpro.zendesk.com/agent/tickets/11204) · [new] · 2026-11-12T17:18 · Browser pop up
+- [11206](https://tbpro.zendesk.com/agent/tickets/11206) · [new] · 2026-11-12T17:53 · outgoing email will not send
 
 ## Solved — last 24h
 
@@ -475,6 +481,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [10928](https://tbpro.zendesk.com/agent/tickets/10928) · 2026-11-12T00:16 · Email Alias
 - 👍 [10720](https://tbpro.zendesk.com/agent/tickets/10720) · 2026-11-12T03:39 · Cannot seem to send email from verified domain alias
 - 👍 [10842](https://tbpro.zendesk.com/agent/tickets/10842) · 2026-11-12T14:06 · Mail Merge
+- · [10879](https://tbpro.zendesk.com/agent/tickets/10879) · 2026-11-12T17:54 · How to transfer my private domain users from [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
