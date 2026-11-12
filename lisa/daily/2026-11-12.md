@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-12 18:16 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1218 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1220 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **16** new tickets in last 24h · **15** solved in last 24h
-- **1218** tickets total since launch · contact rate **3%** of 35000 invitees
+- **1220** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 139.6h · mean 152.1h (proxy: updated_at − created_at, 119 solved tickets)
+- **Median AHT**: 139.6h · mean 152.6h (proxy: updated_at − created_at, 117 solved tickets)
 
-## Known problems — 15 problem(s), 150 incident(s)
+## Known problems — 15 problem(s), 151 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -33,7 +33,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1218 tickets** so f
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 125 incident(s):
+- 126 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -155,6 +155,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1218 tickets** so f
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [solved] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [solved] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
+  - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [pending] · 2026-11-07 · _Delete Account_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [pending] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [pending] · 2026-11-11 · _Account Deletion_
@@ -317,15 +318,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 963
-- **solved**: 119
-- **pending**: 97
+- **closed**: 965
+- **solved**: 117
+- **pending**: 100
 - **hold**: 20
-- **open**: 19
+- **open**: 17
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 696
+- **Account Hub**: 697
 - **Thundermail**: 416
 - **Send**: 26
 - **Appointment**: 14
@@ -334,7 +336,7 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 237
+- **curious** + **explained**: 238
 - **change request** + **actioned**: 173
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
