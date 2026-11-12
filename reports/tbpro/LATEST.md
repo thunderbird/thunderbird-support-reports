@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 08:15 ET** · refreshes hourly_  
+_Updated: **2026-11-12 09:16 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1209 tickets** so f
 
 ## At a glance
 
-- **6** new tickets in last 24h · **12** solved in last 24h
+- **6** new tickets in last 24h · **13** solved in last 24h
 - **1209** tickets total since launch · contact rate **3%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 140.6h · mean 155.6h (proxy: updated_at − created_at, 132 solved tickets)
+- **Median AHT**: 140.7h · mean 155.7h (proxy: updated_at − created_at, 133 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -317,11 +317,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 947
-- **solved**: 132
-- **pending**: 63
-- **open**: 26
-- **new**: 22
+- **solved**: 133
+- **pending**: 61
+- **open**: 36
 - **hold**: 19
+- **new**: 13
 
 ## Service (cumulative)
 
@@ -444,6 +444,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10583](https://tbpro.zendesk.com/agent/tickets/10583) · 2026-11-12T00:02 · send setup is not responding
 - 👍 [10928](https://tbpro.zendesk.com/agent/tickets/10928) · 2026-11-12T00:16 · Email Alias
 - 👍 [10720](https://tbpro.zendesk.com/agent/tickets/10720) · 2026-11-12T03:39 · Cannot seem to send email from verified domain alias
+- 👍 [10842](https://tbpro.zendesk.com/agent/tickets/10842) · 2026-11-12T14:06 · Mail Merge
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
