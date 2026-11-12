@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 03:19 ET** · refreshes hourly_  
+_Updated: **2026-11-12 04:16 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1206 tickets** so far (3.4% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1208 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **12** solved in last 24h
-- **1206** tickets total since launch · contact rate **3%** of 35000 invitees
+- **5** new tickets in last 24h · **12** solved in last 24h
+- **1208** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
 - **Median AHT**: 140.6h · mean 155.6h (proxy: updated_at − created_at, 132 solved tickets)
 
 ## Known problems — 15 problem(s), 148 incident(s)
@@ -301,9 +301,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Better URL for Bugs](https://ideas.tb.pro/p/better-url-for-bugs) · 1 votes · _untagged_
+  > I tried to report a (minor) bug. I have to create a Github account (for which I created a new Disposable Address). Despite having done so successfully once, I now cannot login to Github. This smells…
 
 ## Status breakdown (cumulative)
 
@@ -311,12 +312,12 @@ _(none in last 24h)_
 - **solved**: 132
 - **pending**: 63
 - **open**: 26
+- **new**: 21
 - **hold**: 19
-- **new**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 683
+- **Account Hub**: 685
 - **Thundermail**: 415
 - **Send**: 26
 - **Appointment**: 14
@@ -392,6 +393,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
   > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
 
+### App setup / configuration — 1 tickets
+
+- **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
+  > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
+
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
+  > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
+
 ### Security / hacked — 1 tickets
 
 - **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
@@ -402,6 +413,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11142](https://tbpro.zendesk.com/agent/tickets/11142) · [open] · 2026-11-11T21:08 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
 - [11144](https://tbpro.zendesk.com/agent/tickets/11144) · [new] · 2026-11-11T22:03 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 - [11161](https://tbpro.zendesk.com/agent/tickets/11161) · [new] · 2026-11-12T06:52 · Managing Identities
+- [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [new] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
+- [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [new] · 2026-11-12T08:50 · email
 
 ## Solved — last 24h
 
