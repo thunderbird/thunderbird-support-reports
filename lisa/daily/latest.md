@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-12 10:15 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 95** of rollout — **35,000 invitees**, **1209 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 95** of rollout — **35,000 invitees**, **1212 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **13** solved in last 24h
-- **1209** tickets total since launch · contact rate **3%** of 35000 invitees
+- **9** new tickets in last 24h · **13** solved in last 24h
+- **1212** tickets total since launch · contact rate **3%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -301,9 +301,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [new] · _Refund_
+  > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
 
 ## New ideas on FeatureOS
 
@@ -318,15 +319,15 @@ _(none in last 24h)_
 
 - **closed**: 947
 - **solved**: 133
-- **pending**: 61
-- **open**: 36
+- **pending**: 60
+- **open**: 38
 - **hold**: 19
-- **new**: 13
+- **new**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 685
-- **Thundermail**: 416
+- **Account Hub**: 687
+- **Thundermail**: 417
 - **Send**: 26
 - **Appointment**: 14
 
@@ -334,7 +335,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 235
+- **curious** + **explained**: 236
 - **change request** + **actioned**: 170
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 96
@@ -394,12 +395,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error
+  > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
+- **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
+  > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#11161](https://tbpro.zendesk.com/agent/tickets/11161)** · Managing Identities
   > This article https://[domain]/en-US/kb/using-identities details how to manage identities. Unfortunately, I do not see a "Manage Identities" button/ link under my Account Settings…
 - **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
   > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#11196](https://tbpro.zendesk.com/agent/tickets/11196)** · Refund
+  > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
+
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#11193](https://tbpro.zendesk.com/agent/tickets/11193)** · Zero-Access and Post Quantum
+  > Dear support, at the moment I'm looking for an alternative to my current Proton Mail account. I like the overall design of Thundermail but I'm not sure if it will be the right…
 
 ### Webmail — 1 tickets
 
@@ -410,11 +428,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email
   > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked
-  > Join the Waitlist ## Request Blocked We blocked your request because the IP address you’re using looks suspicious. This issue will usually resolve itself after a short period of…
 
 ### Security / hacked — 1 tickets
 
@@ -429,6 +442,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [new] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
 - [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [new] · 2026-11-12T08:50 · email
 - [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [new] · 2026-11-12T10:08 · Adding Identity
+- [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [new] · 2026-11-12T14:18 · thundermail invite error
+- [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [new] · 2026-11-12T14:40 · Zero-Access and Post Quantum
+- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [new] · 2026-11-12T14:53 · Refund
 
 ## Solved — last 24h
 
