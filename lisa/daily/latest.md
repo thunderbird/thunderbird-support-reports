@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 15:16 ET** · refreshes hourly_  
+_Updated: **2026-11-13 16:12 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 96** of rollout — **35,000 invitees**, **1238 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"paddle team privacy"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"privacy reasons update"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
 - **"using custom domain"** — 2 tickets in 24h (31.7× baseline; baseline 6 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11279](https://tbpro.zendesk.com/agent/tickets/11279)
 - **"error message"** — 2 tickets in 24h (9.0× baseline; baseline 21 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
@@ -333,16 +333,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 978
-- **pending**: 108
+- **pending**: 112
 - **solved**: 104
-- **open**: 28
-- **hold**: 19
-- **new**: 1
+- **open**: 24
+- **hold**: 20
 
 ## Service (cumulative)
 
-- **Account Hub**: 708
-- **Thundermail**: 424
+- **Account Hub**: 707
+- **Thundermail**: 425
 - **Send**: 26
 - **Appointment**: 14
 
@@ -356,20 +355,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 98
 - **curious** + **informed**: 61
 - **confused** + **informed**: 61
-- **blocked** + **redirected**: 54
+- **blocked** + **redirected**: 55
 - **confused** + **redirected**: 54
 - **blocked** + **investigated**: 53
-- **request** + **redirected**: 50
+- **request** + **redirected**: 51
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 26
 - **blocked** + **escalated**: 20
 - **confused** + **—**: 15
-- **change request** + **explained**: 13
+- **change request** + **explained**: 14
 - **blocked** + **—**: 12
 - **concerned** + **—**: 10
+- **concerned** + **investigated**: 10
 - **telling us** + **explained**: 9
 - **blocked** + **actioned**: 9
-- **concerned** + **investigated**: 9
 - **confused** + **investigated**: 9
 - **request** + **explained**: 7
 - **curious** + **actioned**: 6
@@ -391,12 +390,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **curious** + **n/a**: 2
+- **request** + **escalated**: 2
 - **other** + **—**: 2
 - **change request** + **investigated**: 2
 - **telling us** + **escalated**: 2
 - **concerned** + **n/a**: 2
 - **telling us** + **informed**: 1
-- **request** + **escalated**: 1
 - **other** + **explained**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
@@ -417,7 +416,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > never received the verify email
 - **[#11255](https://tbpro.zendesk.com/agent/tickets/11255)** · Setting Up Custom Domain
   > I am using a custom domain [email] . I have made the appropriate DNS entries and the portal says I am verified. But, when I send email from the address, set up on Thunderbird mail…
-- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion
+- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion — why: **request** · how: **escalated**
   > My tb pro account was [email] I canceled my subsription and withdrew all stuffs. I still see can login to account. but for security it asks for one-time generated passcode from…
 - **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert — why: **blocked** · how: **informed**
   > I need to either retrieve my password, or reset it.
@@ -426,10 +425,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11280](https://tbpro.zendesk.com/agent/tickets/11280)** · Thunderbird Sent not uploading from Thunderbird Desktop App
   > Explain how to set up so it doesn't throw errors. I've tried with large and small files of various types.
-- **[#11269](https://tbpro.zendesk.com/agent/tickets/11269)** · Duplication acount
-  > Hi, I'm not sure whether my issue is a ThunderMail issue or a Thunderbird issue, but my ThunderMail account has been duplicated twice already in the Thunderbird desktop program.…
 - **[#11261](https://tbpro.zendesk.com/agent/tickets/11261)** · Thundermail not working — why: **blocked** · how: **investigated**
   > I have tried to send an email to my gmail address twice. I have also tried to send an email from my gmail account to my Thundermail address. Neither have gone through. The error…
+- **[#11269](https://tbpro.zendesk.com/agent/tickets/11269)** · Duplication acount — why: **concerned** · how: **investigated**
+  > Hi, I'm not sure whether my issue is a ThunderMail issue or a Thunderbird issue, but my ThunderMail account has been duplicated twice already in the Thunderbird desktop program.…
 
 ### Other / uncategorized — 3 tickets
 
@@ -442,7 +441,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Spam / Junk Filtering — 2 tickets
 
-- **[#11279](https://tbpro.zendesk.com/agent/tickets/11279)** · Firefox Relay Emails always go to Spam
+- **[#11279](https://tbpro.zendesk.com/agent/tickets/11279)** · Firefox Relay Emails always go to Spam — why: **change request** · how: **explained**
   > When ever I use a Firefox Relay address (I am using a custom domain one in most cases) and receive an email to it, it is always marked as Junk/Spam so I have to go and retrieve it…
 - **[#11230](https://tbpro.zendesk.com/agent/tickets/11230)** · Unable to contine sign-up — why: **blocked**
   > I signed up with [email] and have not received the verification email I need to activate the account after initial sign in. Not sure if it's because Microsoft are having issues…
@@ -464,20 +463,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
   > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
 
-### Aliases — 1 tickets
+### Request or complaint — 1 tickets
 
-- **[#11241](https://tbpro.zendesk.com/agent/tickets/11241)** · Custom domains and calendar invites
+- **[#11241](https://tbpro.zendesk.com/agent/tickets/11241)** · Custom domains and calendar invites — why: **request** · how: **redirected**
   > I am looking for a way to configure calendar so that I can receive calendar invites on iOS on a custom domain. Setup: tmail account: [email] custom domain [domain] (verified)…
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#11229](https://tbpro.zendesk.com/agent/tickets/11229)** · error message
-  > I keep getting an error message when running filters. it is happening on all of my email accounts.
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11235](https://tbpro.zendesk.com/agent/tickets/11235)** · Upcoming Thundermail Outage — why: **confused**
   > Quick question, this outage doesn't impact Thunderbird (where other IMAP and POP3 Accounts may be), just Thundermail?
+
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
+
+- **[#11229](https://tbpro.zendesk.com/agent/tickets/11229)** · error message — why: **blocked** · how: **redirected**
+  > I keep getting an error message when running filters. it is happening on all of my email accounts.
 
 ### Webmail — 1 tickets
 
@@ -488,24 +487,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [11225](https://tbpro.zendesk.com/agent/tickets/11225) · [pending] · 2026-11-12T22:18 · CardDAV contacts not syncing
 - [11226](https://tbpro.zendesk.com/agent/tickets/11226) · [pending] · 2026-11-12T22:31 · Update billing email in Paddle
-- [11229](https://tbpro.zendesk.com/agent/tickets/11229) · [open] · 2026-11-13T00:46 · error message
+- [11229](https://tbpro.zendesk.com/agent/tickets/11229) · [pending] · 2026-11-13T00:46 · error message
 - [11230](https://tbpro.zendesk.com/agent/tickets/11230) · [pending] · 2026-11-13T01:12 · Unable to contine sign-up
 - [11233](https://tbpro.zendesk.com/agent/tickets/11233) · [pending] · 2026-11-13T03:03 · Forgot password, email response does not provide code to insert
 - [11235](https://tbpro.zendesk.com/agent/tickets/11235) · [pending] · 2026-11-13T04:44 · Upcoming Thundermail Outage
 - [11236](https://tbpro.zendesk.com/agent/tickets/11236) · [pending] · 2026-11-13T05:27 · Planned Outage
-- [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [open] · 2026-11-13T05:58 · Account deletion
-- [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [open] · 2026-11-13T06:07 · Custom domains and calendar invites
+- [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [hold] · 2026-11-13T05:58 · Account deletion
+- [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [pending] · 2026-11-13T06:07 · Custom domains and calendar invites
 - [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [open] · 2026-11-13T10:24 · e mails
 - [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [open] · 2026-11-13T12:48 · Setting Up Custom Domain
 - [11258](https://tbpro.zendesk.com/agent/tickets/11258) · [open] · 2026-11-13T13:43 · You need to verify your email address to activate your account.
 - [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [open] · 2026-11-13T14:13 · Thundermail not working
 - [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [pending] · 2026-11-13T15:28 · Update billing email in Paddle
-- [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [open] · 2026-11-13T16:15 · Duplication acount
+- [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [pending] · 2026-11-13T16:15 · Duplication acount
 - [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [open] · 2026-11-13T18:06 · New TB email & subscription
 - [11279](https://tbpro.zendesk.com/agent/tickets/11279) · [open] · 2026-11-13T18:24 · Firefox Relay Emails always go to Spam
 - [11280](https://tbpro.zendesk.com/agent/tickets/11280) · [open] · 2026-11-13T18:39 · Thunderbird Sent not uploading from Thunderbird Desktop App
 - [11284](https://tbpro.zendesk.com/agent/tickets/11284) · [open] · 2026-11-13T19:54 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
-- [11285](https://tbpro.zendesk.com/agent/tickets/11285) · [new] · 2026-11-13T19:57 · I want to delete my account
+- [11285](https://tbpro.zendesk.com/agent/tickets/11285) · [open] · 2026-11-13T19:57 · I want to delete my account
 
 ## Solved — last 24h
 
