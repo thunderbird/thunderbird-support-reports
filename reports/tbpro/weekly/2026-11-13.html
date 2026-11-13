@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thundermail · Weekly Summary · 2026-11-09 → 2026-11-13</title>
+<style>
+
+:root {
+  --bg:          #0d0c14;
+  --bg-lower:    #060618;
+  --bg-card:     #15131e;
+  --border:      #2b2845;
+  --border-ia:   #3e3b62;
+  --primary:     #4d7bf8;
+  --primary-bg:  #0e1038;
+  --secondary:   #7c3aed;
+  --text:        #e2e0f0;
+  --text-2:      #b0aece;
+  --text-3:      #7a7898;
+  --success:     #22c55e;
+  --success-bg:  #041d0e;
+  --warning:     #f59e0b;
+  --warning-bg:  #1c1200;
+  --critical:    #ef4444;
+  --critical-bg: #2a0808;
+  --teal:        #00d4a0;
+  --orange:      #f97316;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:15px;line-height:1.5;padding:2rem;max-width:920px;margin:0 auto;}
+a{color:var(--primary);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.header{padding-bottom:1.25rem;border-bottom:1px solid var(--border);margin-bottom:1.75rem;}
+.header-badge{display:inline-flex;align-items:center;gap:.35rem;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--primary);background:var(--primary-bg);border:1px solid var(--border-ia);border-radius:5px;padding:.2rem .55rem;margin-bottom:.65rem;}
+.header-title{font-size:1.4rem;font-weight:700;margin-bottom:.3rem;}
+.header-meta{font-size:.8rem;color:var(--text-2);}
+h2{font-size:.9rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-3);margin:1.75rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border);}
+h3{font-size:.875rem;font-weight:600;color:var(--text-2);margin:.9rem 0 .35rem;}
+.metrics{display:grid;grid-template-columns:repeat(auto-fill,minmax(152px,1fr));gap:.65rem;margin-bottom:1.5rem;}
+.metric{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:.875rem 1rem;}
+.metric.blue{border-left:3px solid var(--primary);}
+.metric.green{border-left:3px solid var(--success);}
+.metric.teal{border-left:3px solid var(--teal);}
+.metric.orange{border-left:3px solid var(--orange);}
+.metric-val{font-size:1.55rem;font-weight:700;line-height:1;margin-bottom:.15rem;}
+.metric-label{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text-3);}
+.metric-sub{font-size:.7rem;color:var(--text-2);margin-top:.15rem;}
+.csat-bar{height:5px;border-radius:3px;background:var(--border);overflow:hidden;margin:.35rem 0;}
+.csat-fill{height:100%;background:var(--success);border-radius:3px;}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:1.1rem 1.35rem;margin-bottom:.75rem;}
+.fix-card{background:var(--bg-lower);border:1px solid var(--border-ia);border-left:3px solid var(--warning);border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem;}
+.fix-card-header{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;margin-bottom:.4rem;}
+.fix-card-title{font-size:.875rem;font-weight:600;}
+.fix-counts{font-size:.75rem;color:var(--text-2);}
+.fix-status{font-size:.75rem;color:var(--text-2);font-style:italic;margin-bottom:.45rem;padding:.3rem .6rem;background:var(--border);border-radius:4px;display:inline-block;}
+.fix-blurb{font-size:.78rem;color:var(--text-3);line-height:1.65;margin:.45rem 0;}
+.chart{font-family:'JetBrains Mono','Fira Mono',monospace;font-size:.75rem;line-height:1.8;margin:.6rem 0;}
+.chart-row{display:flex;align-items:center;gap:.5rem;flex-wrap:nowrap;}
+.chart-d{width:5.5rem;color:var(--text-3);flex-shrink:0;}
+.chart-n{width:3.5rem;font-size:.68rem;color:var(--text-2);flex-shrink:0;text-align:right;}
+.chart-b{flex:1;white-space:pre;}
+.chart-note{color:var(--primary);font-size:.7rem;font-style:italic;}
+.chart-legend{font-size:.72rem;color:var(--text-3);margin-bottom:.3rem;}
+.pattern-item{background:var(--bg-lower);border-left:2px solid var(--teal);border-radius:5px;padding:.5rem .75rem;margin-bottom:.4rem;}
+.pattern-phrase{font-weight:700;color:var(--teal);font-size:.82rem;}
+.pattern-meta{font-size:.72rem;color:var(--text-2);margin-top:.15rem;}
+.badge{display:inline-block;font-size:.62rem;font-weight:700;padding:.1rem .4rem;border-radius:4px;letter-spacing:.04em;}
+.badge-blue{background:var(--primary-bg);color:var(--primary);border:1px solid var(--border-ia);}
+.badge-green{background:var(--success-bg);color:var(--success);}
+.badge-red{background:var(--critical-bg);color:var(--critical);}
+.badge-yellow{background:var(--warning-bg);color:var(--warning);}
+.badge-muted{background:var(--border);color:var(--text-2);}
+.ideas-list{list-style:none;padding:0;}
+.idea-item{display:flex;justify-content:space-between;align-items:flex-start;gap:.75rem;padding:.4rem 0;border-bottom:1px solid var(--border);}
+.idea-item:last-child{border-bottom:none;}
+.idea-title{font-size:.82rem;}
+.idea-meta{font-size:.68rem;color:var(--text-3);white-space:nowrap;margin-top:.1rem;}
+.neg-item{background:var(--critical-bg);border:1px solid #4a1010;border-radius:6px;padding:.6rem .8rem;margin-bottom:.4rem;}
+.neg-reason{font-size:.72rem;font-weight:700;color:var(--critical);}
+.neg-comment{font-size:.77rem;color:var(--text-2);margin-top:.2rem;}
+.refund-item{padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.8rem;}
+.refund-excerpt{font-size:.73rem;color:var(--text-3);margin-top:.2rem;padding-left:.65rem;border-left:2px solid var(--border-ia);line-height:1.55;}
+.theme-row{display:block;padding:.3rem 0;border-bottom:1px solid var(--border);}
+.theme-row summary{display:flex;align-items:center;gap:.75rem;}
+.theme-name{flex:1;font-size:.8rem;}
+.theme-count{font-size:.78rem;font-weight:600;color:var(--primary);width:2rem;text-align:right;flex-shrink:0;}
+.theme-bar-wrap{width:6rem;height:4px;background:var(--border);border-radius:2px;overflow:hidden;flex-shrink:0;}
+.theme-bar-fill{height:100%;background:var(--primary);border-radius:2px;}
+.footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.72rem;color:var(--text-3);}
+ul.report-list{list-style:none;padding:0;}
+ul.report-list li{font-size:.82rem;padding:.2rem 0;border-bottom:1px solid var(--border);}
+ul.report-list li:last-child{border-bottom:none;}
+
+/* ── Verdict banner ── */
+.verdict-banner{border-radius:10px;overflow:hidden;margin-bottom:1.5rem;border:1px solid var(--warning);}
+.verdict-head{background:var(--warning);padding:.8rem 1.25rem;display:flex;align-items:center;gap:.9rem;}
+.verdict-pill{font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#0d0c14;flex-shrink:0;}
+.verdict-title{font-size:.82rem;color:#0d0c14;opacity:.8;font-weight:500;}
+.verdict-body{background:var(--bg-card);padding:.65rem 1.25rem;}
+.verdict-signal{display:flex;align-items:baseline;gap:.5rem;font-size:.8rem;color:var(--text-2);padding:.2rem 0;}
+.verdict-signal-arrow{color:var(--warning);font-weight:700;flex-shrink:0;font-size:.75rem;}
+.verdict-clear{font-size:.8rem;color:var(--text-3);font-style:italic;padding:.25rem 0;}
+/* ── Theme drilldown ── */
+.theme-details{border-bottom:1px solid var(--border);}
+.theme-details:last-child{border-bottom:none;}
+.theme-summary{display:flex;align-items:center;gap:.75rem;padding:.35rem .25rem;cursor:pointer;list-style:none;user-select:none;}
+.theme-summary::-webkit-details-marker{display:none;}
+.theme-summary::before{content:"›";color:var(--text-3);font-size:.8rem;width:.75rem;flex-shrink:0;transition:transform .15s;}
+.theme-details[open] .theme-summary::before{transform:rotate(90deg);}
+.theme-drill{padding:.45rem .25rem .65rem 1.5rem;border-top:1px solid var(--border);background:var(--bg-lower);}
+.theme-drill-meta{font-size:.7rem;color:var(--text-3);margin-bottom:.3rem;}
+.theme-sample{font-size:.73rem;color:var(--text-2);padding:.1rem 0;}
+.theme-sample::before{content:"·";margin-right:.4rem;color:var(--text-3);}
+/* ── Bug reports ── */
+.bug-item{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem .65rem;padding:.4rem 0;border-bottom:1px solid var(--border);font-size:.82rem;}
+.bug-item:last-child{border-bottom:none;}
+.bug-ref{font-weight:600;color:var(--warning);white-space:nowrap;flex-shrink:0;}
+.bug-title{color:var(--text-2);flex:1 1 auto;min-width:0;word-break:break-word;}
+.bug-state{font-size:.68rem;color:var(--text-3);white-space:nowrap;flex-shrink:0;}
+/* ── Sparkline ── */
+.spark{font-family:'JetBrains Mono','Fira Mono',monospace;font-size:.72rem;line-height:1.9;}
+.spark-row{display:flex;align-items:center;gap:.5rem;}
+.spark-date{width:5.5rem;color:var(--text-3);flex-shrink:0;}
+.spark-bar{color:var(--primary);}
+.spark-n{color:var(--text-2);font-size:.68rem;}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-badge">Thundermail · Weekly</div>
+  <div class="header-title">Weekly Executive Summary — Flight 8</div>
+  <div class="header-meta">2026-11-09 → 2026-11-13 &nbsp;·&nbsp; Flight 8 launch: 2026-08-10 &nbsp;·&nbsp; 35000 invitees &nbsp;·&nbsp; 0.2% contact rate</div>
+</div>
+
+<div class="verdict-banner"><div class="verdict-head"><span class="verdict-pill">WATCH</span><span class="verdict-title">Wave invite status</span></div>
+<div class="verdict-body">
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>Refund/cancel rate 12% of real subscriber tickets (8 / 67)</span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>7 ticket(s) with user urgency: critical still open: <a href="https://tbpro.zendesk.com/agent/tickets/11285">#11285</a> <em style="color:var(--text-2)">I want to delete my account</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11261">#11261</a> <em style="color:var(--text-2)">Thundermail not working</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11233">#11233</a> <em style="color:var(--text-2)">Forgot password, email response does not provide code…</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11213">#11213</a> <em style="color:var(--text-2)">cant connect to mail on my mac</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11059">#11059</a> <em style="color:var(--text-2)">Password funktioniert nicht</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11019">#11019</a> <em style="color:var(--text-2)">cancel &amp; delete</em>; <a href="https://tbpro.zendesk.com/agent/tickets/10981">#10981</a> <em style="color:var(--text-2)">My emails</em></span></div>
+</div>
+</div>
+
+<h2>Last week at a glance</h2>
+<div class="metrics">
+<div class="metric blue"><div class="metric-val">89</div><div class="metric-label">New tickets</div><div class="metric-sub">-82 (-48% WoW)</div></div>
+<div class="metric blue"><div class="metric-val">67</div><div class="metric-label">Real subscriber issues</div></div>
+<div class="metric blue"><div class="metric-val">22</div><div class="metric-label">Misdirected</div><div class="metric-sub">non-subscribers</div></div>
+<div class="metric green"><div class="metric-val">158</div><div class="metric-label">Solved</div></div>
+<div class="metric green"><div class="metric-val">94%</div><div class="metric-label">CSAT</div><div class="metric-sub">16 responses</div></div>
+<div class="metric orange"><div class="metric-val">8</div><div class="metric-label">Refunds / cancels</div></div>
+<div class="metric orange"><div class="metric-val">29</div><div class="metric-label">Other-brand queue (now)</div></div>
+<div class="metric teal"><div class="metric-val">19</div><div class="metric-label">New ideas this week</div></div>
+</div>
+
+<h2>Refund reasons</h2>
+
+<p class="theme-drill-meta">Accounts What dropdown, plus the free-text Refund Reason. Tickets created this week.</p>
+<p>4 ticket(s), 4 people.</p>
+<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">2</span>Reason not shared</div>
+<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">2</span>Immature product / not yet ready</div>
+<p class="theme-drill-meta">What agents wrote</p>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11044">#11044</a> Immature product / not yet ready — using Thunderbird in the browser with your IMAP accounts</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11003">#11003</a> Immature product / not yet ready — Having trouble getting things set up and working.</div>
+<p class="theme-drill-meta">Refund or cancel tickets with no reason set: 6 <a href="https://tbpro.zendesk.com/agent/tickets/11196">#11196</a> <a href="https://tbpro.zendesk.com/agent/tickets/11016">#11016</a> <a href="https://tbpro.zendesk.com/agent/tickets/10999">#10999</a> <a href="https://tbpro.zendesk.com/agent/tickets/11019">#11019</a> <a href="https://tbpro.zendesk.com/agent/tickets/11017">#11017</a> <a href="https://tbpro.zendesk.com/agent/tickets/10984">#10984</a></p>
+
+
+<div class="csat-bar"><div class="csat-fill" style="width:93%"></div></div>
+
+<h2>Daily volume</h2>
+<div class="spark">
+<div class="spark-row"><span class="spark-date">2026-11-09</span><span class="spark-bar">██████████</span><span class="spark-n">21</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-10</span><span class="spark-bar">██████████</span><span class="spark-n">20</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-11</span><span class="spark-bar">███████</span><span class="spark-n">14</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-12</span><span class="spark-bar">████████</span><span class="spark-n">16</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-13</span><span class="spark-bar">█████████</span><span class="spark-n">18</span></div>
+</div>
+
+<h2>What we heard</h2>
+
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Misdirected contacts<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-4 WoW</span></span><span class="theme-count">17</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:100%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">17 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11284">#11284</a> Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11024">#11024</a>  Thundermail Early Access</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11213">#11213</a> cant connect to mail on my mac</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11206">#11206</a> outgoing email will not send</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11201">#11201</a> Re : Configuration d&#x27;un compte supplémentaire : toujours besoin d&#x27;aide ? Date :Thu, 05 Nov 2026 22:02:01 +0000</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Other / uncategorized<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-2 WoW</span></span><span class="theme-count">11</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:64%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">11 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11277">#11277</a> New TB email &amp; subscription</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11252">#11252</a> e mails</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11053">#11053</a> Send large files</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11035">#11035</a> Subscription Page</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11236">#11236</a> Planned Outage</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Subscription / billing / refund / cancel<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-9 WoW</span></span><span class="theme-count">9</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:52%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">9 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11266">#11266</a> Update billing email in Paddle</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11226">#11226</a> Update billing email in Paddle</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11196">#11196</a> Refund</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11125">#11125</a> Account Deletion</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11019">#11019</a> cancel &amp; delete</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Webmail<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-5 WoW</span></span><span class="theme-count">7</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:41%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">7 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11039">#11039</a> Missing features and questions</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11018">#11018</a> Email messages</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11225">#11225</a> CardDAV contacts not syncing</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11123">#11123</a> Disable Loading Remote Images</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11067">#11067</a> Re: [Thundermail] Re: can&#x27;t send attachments? Photos.</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">App setup / configuration<span style="font-size:.68rem;color:var(--success);margin-left:.35rem">+5 WoW</span></span><span class="theme-count">6</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:35%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">6 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11280">#11280</a> Thunderbird Sent not uploading from Thunderbird Desktop App</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11269">#11269</a> Duplication acount</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11261">#11261</a> Thundermail not working</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11071">#11071</a> Importing stuff from other email clients</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11064">#11064</a> do you have an account </div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Account access issues<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-7 WoW</span></span><span class="theme-count">6</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:35%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">6 ticket(s) this theme</div>
+<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">1</span>Account hub trouble</div>
+<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">1</span>Wrong product, redirected to sumo</div>
+<div style="font-size:.65rem;color:var(--text-3);padding:.25rem 0 0 .3rem"><a href="https://tbpro.zendesk.com/agent/tickets/11258">#11258</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11255">#11255</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11238">#11238</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11233">#11233</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11046">#11046</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11025">#11025</a></div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Privacy / data / jurisdiction concerns<span style="font-size:.68rem;color:var(--success);margin-left:.35rem">+1 WoW</span></span><span class="theme-count">5</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:29%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">5 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11285">#11285</a> I want to delete my account</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11193">#11193</a> Zero-Access and Post Quantum</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11135">#11135</a> Permanently delete my account</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11114">#11114</a> Account Deletion</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11075">#11075</a> Please delete my account.</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Spam / Junk Filtering<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-1 WoW</span></span><span class="theme-count">4</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:23%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">4 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11279">#11279</a> Firefox Relay Emails always go to Spam</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11127">#11127</a> DKIM Misalignment</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11230">#11230</a> Unable to contine sign-up</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11214">#11214</a> reliability</div>
+</div>
+</details>
+
+
+<h2>Known problems</h2>
+
+<div class="card" style="border-left:3px solid var(--critical);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/7053" style="color:inherit">[Tracker] Account refunded and canceled, purge queue</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">128 linked reports (11 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-17 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/10009" style="color:inherit">[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 open reports</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/9810" style="color:inherit">[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 linked reports (1 open)</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/10111" style="color:inherit">[stormbox/64] Mark or hide IMAP marked-as-deleted messages</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 linked reports (1 open)</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/8807" style="color:inherit">[routing/8] [domain] needs to be A record not CNAME</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/9007" style="color:inherit">[send/1068] Uploading files fails with CORS and POST errors</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/8686" style="color:inherit">[stormbox/131] Aliases are not tied to JMAP identities</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/10997" style="color:inherit">[tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB</a></strong> &mdash; <a href="https://github.com/thunderbird/tbpro-add-on/issues/1397" style="color:var(--warning);font-size:.8rem">thunderbird/tbpro-add-on#1397</a> <span style="font-size:.68rem;color:var(--text-3)">open</span> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
+
+
+<h2>New ideas this week</h2>
+<ul class="ideas-list">
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/add-all-added-aliases-emails-to-a-dropdown-in-identities">Add all added Aliases/emails to a dropdown in Identities</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/a-minimalist-home-dashboard-i-can-check-first">A minimalist home dashboard I can check first </a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/seamless-integration-with-other-open-source-privacy-focused-apps">Seamless integration with other open-source, privacy-focused apps</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/let-us-move-the-compose-window-on-webmail">Let us move the compose window on Webmail</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/make-alias-management-more-accessible">Make alias management more accessible</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/tags-showing-which-alias-received-an-email-like-sterna-does-it">Tags showing which alias received an email (like Sterna does it)</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/link-email-aliases-to-folders-and-or-tags">Link Email Aliases to Folders and/or Tags</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/thunderbird-on-android">Thunderbird on Android</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/favicon">Favicon</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/better-url-for-bugs">Better URL for Bugs</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/sync-calender-desktop-to-android">sync calender Desktop to Android</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/spf-dkim-dmarc-configuration">SPF, DKIM, DMARC... Configuration</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/i-use-gmail-because-they-black-spam">I use gmail because they black spam</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/thundermail-mcp-server">Thundermail MCP Server</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/better-url-for-surveys">Better URL for Surveys</a></div><div class="idea-meta">2 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/block-spy-pixels-trackers-clean-links">Block Spy Pixels/Trackers/Clean Links.</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/email-forwarding-for-custom-domains">Email Forwarding for custom domains</a></div><div class="idea-meta">3 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/payment-via-bank-transfer">Payment via Bank Transfer</a></div><div class="idea-meta">2 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/automatic-encryption-and-key-exchange">Automatic encryption and key exchange</a></div><div class="idea-meta">2 &#9651;</div></li>
+</ul>
+
+<div style="font-size:.72rem;color:var(--text-3);margin:1.5rem 0 .5rem;padding-top:.75rem;border-top:1px solid var(--border)"><strong>Legend:</strong> ✅ CLEAR — no blockers, proceed &nbsp;&middot;&nbsp; 🟡 WATCH — monitor before acting &nbsp;&middot;&nbsp; 🔴 BLOCK — hold invites</div>
+
+<div class="footer">Auto-generated &nbsp;·&nbsp; 35000 TB Pro Wave 1 invitees &nbsp;·&nbsp; <a href="LATEST.html">Latest daily &rarr;</a></div>
+</body>
+</html>

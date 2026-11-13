@@ -1,13 +1,12 @@
-# TB Pro — Weekly Executive Summary · 2026-11-02 → 2026-11-08
+# TB Pro — Weekly Executive Summary · 2026-11-09 → 2026-11-13
 
-_2026-08-10 launch · 35000 invitees · 0.4% contact rate · generated 2026-11-10_
+_2026-08-10 launch · 35000 invitees · 0.2% contact rate · generated 2026-11-13_
 
 ## 🟡 Wave invite status: **WATCH**
 
 **Watch signals:**
-- 🟡 Refund/cancel rate 13% of real subscriber tickets (18 / 136)
-- 🟡 Volume 171 tickets this week vs 80 prior week (+91, +114% WoW)
-- 🟡 5 ticket(s) with user urgency: critical still open: [#10941](https://tbpro.zendesk.com/agent/tickets/10941) password; [#10964](https://tbpro.zendesk.com/agent/tickets/10964) Unable to make a payment; [#10938](https://tbpro.zendesk.com/agent/tickets/10938) Error; [#10919](https://tbpro.zendesk.com/agent/tickets/10919) Need to reset my thundermail account; [#10913](https://tbpro.zendesk.com/agent/tickets/10913) Account termination
+- 🟡 Refund/cancel rate 12% of real subscriber tickets (8 / 67)
+- 🟡 7 ticket(s) with user urgency: critical still open: [#11285](https://tbpro.zendesk.com/agent/tickets/11285) I want to delete my account; [#11261](https://tbpro.zendesk.com/agent/tickets/11261) Thundermail not working; [#11233](https://tbpro.zendesk.com/agent/tickets/11233) Forgot password, email response does not provide code…; [#11213](https://tbpro.zendesk.com/agent/tickets/11213) cant connect to mail on my mac; [#11059](https://tbpro.zendesk.com/agent/tickets/11059) Password funktioniert nicht; [#11019](https://tbpro.zendesk.com/agent/tickets/11019) cancel & delete; [#10981](https://tbpro.zendesk.com/agent/tickets/10981) My emails
 
 ---
 
@@ -15,87 +14,82 @@ _2026-08-10 launch · 35000 invitees · 0.4% contact rate · generated 2026-11-1
 
 | Metric | Value |
 |--------|-------|
-| New tickets | **171** (+91, +114% WoW) |
-| Real subscriber issues | **136** |
-| Misdirected (non-subscribers) | **35** |
-| Solved this week | **134** |
-| CSAT | **88% (8 responses)** |
-| Refunds / cancels | **18** |
-| Other-brand queue (now) | **39** |
-| New ideas this week | **9** |
+| New tickets | **89** (-82, -48% WoW) |
+| Real subscriber issues | **67** |
+| Misdirected (non-subscribers) | **22** |
+| Solved this week | **158** |
+| CSAT | **94% (16 responses)** |
+| Refunds / cancels | **8** |
+| Other-brand queue (now) | **29** |
+| New ideas this week | **19** |
 
 ## Refund reasons
 
 _Accounts What dropdown, plus the free-text Refund Reason. Counts are tickets created this week._
 
-17 ticket(s), 17 people.
+4 ticket(s), 4 people.
 
 | Reason | Tickets |
 |--------|--------:|
-| Immature product / not yet ready | 9 |
-| Reason not shared | 3 |
-| No mailboxes / SMB / family plan | 2 |
-| General | 2 |
-| Pricing | 1 |
+| Reason not shared | 2 |
+| Immature product / not yet ready | 2 |
 
 **What agents wrote:**
 
-- #10913 Immature product / not yet ready — User mentioned that the forwarding feature is not working as he want.
-- #10879 No mailboxes / SMB / family plan — wanted 3 inboxes for clients in 1 subscription
-- #10871 No mailboxes / SMB / family plan — I cannot have multiple separate email addresses each with their own login. This will not work for me.
-- #10845 Immature product / not yet ready — Indicates wanting to come back after beta has passed
-- #10789 Immature product / not yet ready — I couldn't figure out a way to handle filters and folders effectively.
-- #10756 Immature product / not yet ready — Purelymail has far better deliverability
-- #10740 Immature product / not yet ready — I currently use Fastmail as my primary provider and the built in email aliasing is hard to beat. I tried using Firefox relay for a while, but the lack of integration felt clunky…
-- #10712 Immature product / not yet ready — Product didnt meet his needs
-- #10688 Immature product / not yet ready — Deliverability challenges
-- #10685 Immature product / not yet ready — No iOS app
-- #10717 Immature product / not yet ready — jumped the gun with subscribing too quickly without reviewing all his options
+- #11044 Immature product / not yet ready — using Thunderbird in the browser with your IMAP accounts
+- #11003 Immature product / not yet ready — Having trouble getting things set up and working.
 
-**Refund or cancel tickets with no reason set:** 8 (#10877, #10762, #10758, #10709, #10809, #10786, #10771, #10700)
+**Refund or cancel tickets with no reason set:** 6 (#11196, #11016, #10999, #11019, #11017, #10984)
 
 **Daily ticket volume:**
-- `2026-11-02` ██████████████████████████ 26
-- `2026-11-03` ██████████████████████████████ 30
-- `2026-11-04` ██████████████████████████████ 36
-- `2026-11-05` ██████████████████████████████ 30
-- `2026-11-06` ███████████████████████ 23
-- `2026-11-07` ██████████████ 14
-- `2026-11-08` ███████████ 11
-- `2026-11-09` █ 1
+- `2026-11-09` █████████████████████ 21
+- `2026-11-10` ████████████████████ 20
+- `2026-11-11` ██████████████ 14
+- `2026-11-12` ████████████████ 16
+- `2026-11-13` ██████████████████ 18
 
 ## What we heard
 
-- **Other / uncategorized**: 19 (12%) (+10 WoW)
-- **Aliases**: 18 (11%) (+13 WoW)
-- **Subscription / billing / refund / cancel**: 18 (11%) (+10 WoW)
-- **Misdirected contacts**: 16 (10%) (+6 WoW)
-- **Account access issues**: 14 (9%) (+8 WoW)
-- **Webmail**: 12 (8%) (+7 WoW)
-- **Custom domain / DKIM / DNS**: 10 (6%) (+8 WoW)
-- **Pricing**: 10 (6%) (+4 WoW)
+- **Misdirected contacts**: 17 (19%) (-4 WoW)
+- **Other / uncategorized**: 11 (12%) (-2 WoW)
+- **Subscription / billing / refund / cancel**: 9 (10%) (-9 WoW)
+- **Webmail**: 7 (8%) (-5 WoW)
+- **App setup / configuration**: 6 (7%) (+5 WoW)
+- **Account access issues**: 6 (7%) (-7 WoW)
+- **Privacy / data / jurisdiction concerns**: 5 (6%) (+1 WoW)
+- **Spam / Junk Filtering**: 4 (4%) (-1 WoW)
 
 ## Known problems
 
-- **[Tracker] Account refunded and canceled, purge queue** — 122 linked reports (13 open) (+11 new this wk)
+- **[Tracker] Account refunded and canceled, purge queue** — 128 linked reports (11 open) (-17 new this wk)
 - **[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV** — 2 open reports
 - **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 2 linked reports (1 open)
-- **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 2 linked reports (1 open) (-1 new this wk)
+- **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 2 linked reports (1 open)
 - **[routing/8] [domain] needs to be A record not CNAME** — 1 open report
 - **[send/1068] Uploading files fails with CORS and POST errors** — 1 open report
 - **[stormbox/131] Aliases are not tied to JMAP identities** — 1 open report
-- **[tbpro-add-on/1397] SEND fails on slow internet connections for files larger…** — 1 open report (-1 new this wk)
+- **[tbpro-add-on/1397] SEND fails on slow internet connections for files larger…** — 1 open report · [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) _open_
 ## New ideas this week
 
-- [message source](https://ideas.tb.pro/p/message-source) · 1 vote(s)
-- [Server-side email filtering](https://ideas.tb.pro/p/server-side-email-filtering-52c61ffb-3a88-48bc-9861-40863f60f8a8) · 1 vote(s)
-- [Until you provide a way to contact Support, this is the only way to contact you](https://ideas.tb.pro/p/until-you-provide-a-way-to-contact-support-this-is-the-only-way-to-contact-you) · 1 vote(s)
-- [Can the new service replace an Outlook server?](https://ideas.tb.pro/p/can-the-new-service-replace-an-outlook-server) · 1 vote(s)
-- [Open Winmail.dat Files](https://ideas.tb.pro/p/open-winmail-dat-files) · 1 vote(s)
-- [Disposable Addresses](https://ideas.tb.pro/p/disposable-addresses) · 11 vote(s)
-- [Make Thundermail a serious privacy competitor to Proton and Tuta](https://ideas.tb.pro/p/make-thundermail-a-serious-privacy-competitor-to-proton-and-tuta) · 1 vote(s)
-- [Compete with Fastmail.com](https://ideas.tb.pro/p/compete-with-fastmail-com) · 1 vote(s)
-- [Delay delivery of emails](https://ideas.tb.pro/p/delay-delivery-of-emails) · 1 vote(s)
+- [Add all added Aliases/emails to a dropdown in Identities](https://ideas.tb.pro/p/add-all-added-aliases-emails-to-a-dropdown-in-identities) · 1 vote(s)
+- [A minimalist home dashboard I can check first ](https://ideas.tb.pro/p/a-minimalist-home-dashboard-i-can-check-first) · 1 vote(s)
+- [Seamless integration with other open-source, privacy-focused apps](https://ideas.tb.pro/p/seamless-integration-with-other-open-source-privacy-focused-apps) · 1 vote(s)
+- [Let us move the compose window on Webmail](https://ideas.tb.pro/p/let-us-move-the-compose-window-on-webmail) · 1 vote(s)
+- [Make alias management more accessible](https://ideas.tb.pro/p/make-alias-management-more-accessible) · 1 vote(s)
+- [Tags showing which alias received an email (like Sterna does it)](https://ideas.tb.pro/p/tags-showing-which-alias-received-an-email-like-sterna-does-it) · 1 vote(s)
+- [Link Email Aliases to Folders and/or Tags](https://ideas.tb.pro/p/link-email-aliases-to-folders-and-or-tags) · 1 vote(s)
+- [Thunderbird on Android](https://ideas.tb.pro/p/thunderbird-on-android) · 1 vote(s)
+- [Favicon](https://ideas.tb.pro/p/favicon) · 1 vote(s)
+- [Better URL for Bugs](https://ideas.tb.pro/p/better-url-for-bugs) · 1 vote(s)
+- [sync calender Desktop to Android](https://ideas.tb.pro/p/sync-calender-desktop-to-android) · 1 vote(s)
+- [SPF, DKIM, DMARC... Configuration](https://ideas.tb.pro/p/spf-dkim-dmarc-configuration) · 1 vote(s)
+- [I use gmail because they black spam](https://ideas.tb.pro/p/i-use-gmail-because-they-black-spam) · 1 vote(s)
+- [Thundermail MCP Server](https://ideas.tb.pro/p/thundermail-mcp-server) · 1 vote(s)
+- [Better URL for Surveys](https://ideas.tb.pro/p/better-url-for-surveys) · 2 vote(s)
+- [Block Spy Pixels/Trackers/Clean Links.](https://ideas.tb.pro/p/block-spy-pixels-trackers-clean-links) · 1 vote(s)
+- [Email Forwarding for custom domains](https://ideas.tb.pro/p/email-forwarding-for-custom-domains) · 3 vote(s)
+- [Payment via Bank Transfer](https://ideas.tb.pro/p/payment-via-bank-transfer) · 2 vote(s)
+- [Automatic encryption and key exchange](https://ideas.tb.pro/p/automatic-encryption-and-key-exchange) · 2 vote(s)
 
 ---
 _**Legend:** ✅ CLEAR — no blockers, proceed · 🟡 WATCH — monitor before acting · 🔴 BLOCK — hold invites_
