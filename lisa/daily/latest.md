@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 14:15 ET** · refreshes hourly_  
+_Updated: **2026-11-13 15:16 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1236 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1238 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **3** solved in last 24h
-- **1236** tickets total since launch · contact rate **4%** of 35000 invitees
+- **20** new tickets in last 24h · **4** solved in last 24h
+- **1238** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
-- **Median AHT**: 139.2h · mean 152.1h (proxy: updated_at − created_at, 108 solved tickets)
+- **Median AHT**: 139.2h · mean 150.4h (proxy: updated_at − created_at, 104 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"update billing paddle"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"paddle team privacy"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
 - **"using custom domain"** — 2 tickets in 24h (31.7× baseline; baseline 6 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11279](https://tbpro.zendesk.com/agent/tickets/11279)
 - **"error message"** — 2 tickets in 24h (9.0× baseline; baseline 21 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
@@ -332,16 +332,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 974
-- **pending**: 109
-- **solved**: 108
-- **open**: 25
+- **closed**: 978
+- **pending**: 108
+- **solved**: 104
+- **open**: 28
 - **hold**: 19
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 706
+- **Account Hub**: 708
 - **Thundermail**: 424
 - **Send**: 26
 - **Appointment**: 14
@@ -357,8 +357,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 61
 - **confused** + **informed**: 61
 - **blocked** + **redirected**: 54
+- **confused** + **redirected**: 54
 - **blocked** + **investigated**: 53
-- **confused** + **redirected**: 53
 - **request** + **redirected**: 50
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 26
@@ -454,6 +454,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11226](https://tbpro.zendesk.com/agent/tickets/11226)** · Update billing email in Paddle — why: **change request** · how: **actioned**
   > Hello [name] team, For privacy reasons, can you help me update the billing email in Paddle to [email] ? It is currently [email] and it is grayed out on my side. Thank you!
 
+### Privacy / data / jurisdiction concerns — 1 tickets
+
+- **[#11285](https://tbpro.zendesk.com/agent/tickets/11285)** · I want to delete my account
+  > Hi [name], delete my account on thundermail.
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
+  > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
+
 ### Aliases — 1 tickets
 
 - **[#11241](https://tbpro.zendesk.com/agent/tickets/11241)** · Custom domains and calendar invites
@@ -488,18 +498,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [open] · 2026-11-13T10:24 · e mails
 - [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [open] · 2026-11-13T12:48 · Setting Up Custom Domain
 - [11258](https://tbpro.zendesk.com/agent/tickets/11258) · [open] · 2026-11-13T13:43 · You need to verify your email address to activate your account.
-- [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [pending] · 2026-11-13T14:13 · Thundermail not working
+- [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [open] · 2026-11-13T14:13 · Thundermail not working
 - [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [pending] · 2026-11-13T15:28 · Update billing email in Paddle
 - [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [open] · 2026-11-13T16:15 · Duplication acount
 - [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [open] · 2026-11-13T18:06 · New TB email & subscription
 - [11279](https://tbpro.zendesk.com/agent/tickets/11279) · [open] · 2026-11-13T18:24 · Firefox Relay Emails always go to Spam
-- [11280](https://tbpro.zendesk.com/agent/tickets/11280) · [new] · 2026-11-13T18:39 · Thunderbird Sent not uploading from Thunderbird Desktop App
+- [11280](https://tbpro.zendesk.com/agent/tickets/11280) · [open] · 2026-11-13T18:39 · Thunderbird Sent not uploading from Thunderbird Desktop App
+- [11284](https://tbpro.zendesk.com/agent/tickets/11284) · [open] · 2026-11-13T19:54 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
+- [11285](https://tbpro.zendesk.com/agent/tickets/11285) · [new] · 2026-11-13T19:57 · I want to delete my account
 
 ## Solved — last 24h
 
 - · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-13T14:49 · Account Deletion
 - · [10942](https://tbpro.zendesk.com/agent/tickets/10942) · 2026-11-13T15:53 · Having trouble with a custom domain
 - · [10879](https://tbpro.zendesk.com/agent/tickets/10879) · 2026-11-13T18:02 · How to transfer my private domain users from [domain]
+- · [11198](https://tbpro.zendesk.com/agent/tickets/11198) · 2026-11-13T20:01 · Creating a new folder
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
