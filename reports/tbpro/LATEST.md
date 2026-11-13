@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 02:15 ET** · refreshes hourly_  
+_Updated: **2026-11-13 03:18 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 96** of rollout — **35,000 invitees**, **1227 tickets** so f
 - **1227** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 5 · **since launch**: 100
 - **Median AHT**: 139.6h · mean 152.4h (proxy: updated_at − created_at, 114 solved tickets)
 
 ## Known problems — 15 problem(s), 153 incident(s)
@@ -306,8 +306,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 4 new:
+**Last 24h** — 5 new:
 
+- [A minimalist home dashboard I can check first ](https://ideas.tb.pro/p/a-minimalist-home-dashboard-i-can-check-first) · 1 votes · _untagged_
+  > What you’d like to see A simple start page on the web that shows what matters at a glance: unread mail, today’s calendar, recent files and storage used, with one click into each. Account settings…
 - [Seamless integration with other open-source, privacy-focused apps](https://ideas.tb.pro/p/seamless-integration-with-other-open-source-privacy-focused-apps) · 1 votes · _untagged_
   > What you’d like to see Thunderbird is one of the pioneers of open-source culture. Thundermail already covers mail, calendar and files. I’d love it to become the hub for the rest of the open-source…
 - [Let us move the compose window on Webmail](https://ideas.tb.pro/p/let-us-move-the-compose-window-on-webmail) · 1 votes · _untagged_
