@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 18:16 ET** · refreshes hourly_  
+_Updated: **2026-11-12 19:37 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,9 +14,9 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1220 tickets** so f
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 139.6h · mean 152.6h (proxy: updated_at − created_at, 117 solved tickets)
+- **Median AHT**: 139.6h · mean 152.4h (proxy: updated_at − created_at, 114 solved tickets)
 
-## Known problems — 15 problem(s), 151 incident(s)
+## Known problems — 15 problem(s), 153 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -25,7 +25,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1220 tickets** so f
   - [#9078](https://tbpro.zendesk.com/agent/tickets/9078) · [closed] · 2026-09-25 · _Same issue with signup, no verification email is sent._
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [closed] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
-  - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [solved] · 2026-10-31 · _Thundermail acces_
+  - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [closed] · 2026-10-31 · _Thundermail acces_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -33,7 +33,7 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1220 tickets** so f
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 126 incident(s):
+- 128 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -159,7 +159,9 @@ Flight 8 is **day 95** of rollout — **35,000 invitees**, **1220 tickets** so f
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [pending] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [pending] · 2026-11-11 · _Account Deletion_
+  - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [pending] · 2026-11-11 · _Account Deletion_
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [pending] · 2026-11-11 · _Permanently delete my account_
+  - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [pending] · 2026-11-12 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -300,7 +302,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · _Refund_
+- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [pending] · _Refund_
   > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
 
 ## New ideas on FeatureOS
@@ -318,33 +320,33 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 965
-- **solved**: 117
-- **pending**: 100
+- **closed**: 967
+- **solved**: 114
+- **pending**: 104
 - **hold**: 20
-- **open**: 17
+- **open**: 14
 - **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 697
+- **Account Hub**: 699
 - **Thundermail**: 416
-- **Send**: 26
+- **Send**: 25
 - **Appointment**: 14
 
 ## Why × How (cumulative)
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 238
-- **change request** + **actioned**: 173
+- **curious** + **explained**: 239
+- **change request** + **actioned**: 175
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
 - **curious** + **informed**: 61
 - **confused** + **informed**: 61
 - **blocked** + **redirected**: 54
+- **confused** + **redirected**: 53
 - **blocked** + **investigated**: 51
-- **confused** + **redirected**: 51
 - **request** + **redirected**: 50
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 25
@@ -397,6 +399,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — Account Hub trouble — 5 tickets
+
+- **[#11213](https://tbpro.zendesk.com/agent/tickets/11213)** · cant connect to mail on my mac — why: **confused** · how: **redirected**
+  > i need to reset y password but the thunderbird mail doesnt work for e to get instructions to reset my password
+- **[#11206](https://tbpro.zendesk.com/agent/tickets/11206)** · outgoing email will not send — why: **confused** · how: **redirected**
+  > reset? troubleshoot
+- **[#11201](https://tbpro.zendesk.com/agent/tickets/11201)** · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:02:01 +0000 — why: **confused** · how: **redirected**
+  > Mesdames, Messieurs, J'ai pu reconfigurer 2 comptes: [email] et [email] mais je n'arrive pas à reconfigurer le compte [email] ? Pour le nom: André Gromier ([email]), faut-il pour…
+- **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account. — why: **confused** · how: **redirected**
+  > Hello [name], I urgently need help with an account security incident. Someone hacked my Microsoft account and used it to create a Thundermail account without my permission.…
+- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen? — why: **confused** · how: **redirected**
+  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
+
 ### Early bird / invite / waitlist — 4 tickets
 
 - **[#11167](https://tbpro.zendesk.com/agent/tickets/11167)** · Join the Waitlist Request Blocked — why: **blocked** · how: **investigated**
@@ -408,35 +423,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11192](https://tbpro.zendesk.com/agent/tickets/11192)** · thundermail invite error — why: **concerned**
   > I received an invite to activate my thundermail account but didn't finish the process. When I came back to it the next day, it looks like everything had expired, and I can't sign…
 
-### Account access issues — Account Hub trouble — 4 tickets
-
-- **[#11213](https://tbpro.zendesk.com/agent/tickets/11213)** · cant connect to mail on my mac — why: **confused** · how: **redirected**
-  > i need to reset y password but the thunderbird mail doesnt work for e to get instructions to reset my password
-- **[#11206](https://tbpro.zendesk.com/agent/tickets/11206)** · outgoing email will not send — why: **confused** · how: **redirected**
-  > reset? troubleshoot
-- **[#11201](https://tbpro.zendesk.com/agent/tickets/11201)** · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:02:01 +0000 — why: **confused** · how: **redirected**
-  > Mesdames, Messieurs, J'ai pu reconfigurer 2 comptes: [email] et [email] mais je n'arrive pas à reconfigurer le compte [email] ? Pour le nom: André Gromier ([email]), faut-il pour…
-- **[#11144](https://tbpro.zendesk.com/agent/tickets/11144)** · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account. — why: **confused** · how: **redirected**
-  > Hello [name], I urgently need help with an account security incident. Someone hacked my Microsoft account and used it to create a Thundermail account without my permission.…
-
-### Other / uncategorized — 2 tickets
-
-- **[#11142](https://tbpro.zendesk.com/agent/tickets/11142)** · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
-  > arum kann ich mein E-Mailkonto nicht mehr aufrufen?
-- **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder — why: **confused** · how: **n/a**
-  > I have created a folder before but I can't remember how I did it and can't find how to do it.
-
 ### Aliases — 2 tickets
 
 - **[#11178](https://tbpro.zendesk.com/agent/tickets/11178)** · Adding Identity — why: **confused** · how: **informed**
   > Having now discovered the Add Identities button on the webmail page, I have tried to add a new one. I receive an error: "You can't send from this email address. Add it to your…
 - **[#11168](https://tbpro.zendesk.com/agent/tickets/11168)** · email — why: **curious** · how: **informed**
   > I have set up new email for [email] and I cannot set it up on Thunderbird or outlook I have changed the app password and still not luck
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#11196](https://tbpro.zendesk.com/agent/tickets/11196)** · Refund
-  > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -448,6 +440,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11202](https://tbpro.zendesk.com/agent/tickets/11202)** · Unable to load Thundermail in Apple Mail — why: **confused** · how: **informed**
   > I followed instructions for how to link my Thundermail account to Apple Mail, but it doesn't appear to be working correctly. The error message indicates that my password is…
 
+### Other / uncategorized — 1 tickets
+
+- **[#11198](https://tbpro.zendesk.com/agent/tickets/11198)** · Creating a new folder — why: **confused** · how: **n/a**
+  > I have created a folder before but I can't remember how I did it and can't find how to do it.
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#11196](https://tbpro.zendesk.com/agent/tickets/11196)** · Refund — why: **change request** · how: **actioned**
+  > I believe im within the 14 day window to request a refund as i do not plan to use thundermail at this time so can that please be initated?
+
 ### Privacy / data / jurisdiction concerns — 1 tickets
 
 - **[#11193](https://tbpro.zendesk.com/agent/tickets/11193)** · Zero-Access and Post Quantum — why: **curious** · how: **redirected**
@@ -455,14 +457,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [11142](https://tbpro.zendesk.com/agent/tickets/11142) · [open] · 2026-11-11T21:08 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
+- [11142](https://tbpro.zendesk.com/agent/tickets/11142) · [pending] · 2026-11-11T21:08 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
 - [11144](https://tbpro.zendesk.com/agent/tickets/11144) · [pending] · 2026-11-11T22:03 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 - [11167](https://tbpro.zendesk.com/agent/tickets/11167) · [open] · 2026-11-12T08:43 · Join the Waitlist Request Blocked
 - [11168](https://tbpro.zendesk.com/agent/tickets/11168) · [pending] · 2026-11-12T08:50 · email
 - [11178](https://tbpro.zendesk.com/agent/tickets/11178) · [pending] · 2026-11-12T10:08 · Adding Identity
 - [11192](https://tbpro.zendesk.com/agent/tickets/11192) · [pending] · 2026-11-12T14:18 · thundermail invite error
 - [11193](https://tbpro.zendesk.com/agent/tickets/11193) · [pending] · 2026-11-12T14:40 · Zero-Access and Post Quantum
-- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [open] · 2026-11-12T14:53 · Refund
+- [11196](https://tbpro.zendesk.com/agent/tickets/11196) · [pending] · 2026-11-12T14:53 · Refund
 - [11198](https://tbpro.zendesk.com/agent/tickets/11198) · [solved] · 2026-11-12T15:35 · Creating a new folder
 - [11201](https://tbpro.zendesk.com/agent/tickets/11201) · [pending] · 2026-11-12T16:31 · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:0
 - [11202](https://tbpro.zendesk.com/agent/tickets/11202) · [pending] · 2026-11-12T16:38 · Unable to load Thundermail in Apple Mail
