@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 00:18 ET** · refreshes hourly_  
+_Updated: **2026-11-13 01:24 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1224 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1227 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **0** solved in last 24h
-- **1224** tickets total since launch · contact rate **3%** of 35000 invitees
+- **9** new tickets in last 24h · **0** solved in last 24h
+- **1227** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
@@ -322,12 +322,12 @@ _(none in last 24h)_
 - **pending**: 103
 - **hold**: 20
 - **open**: 15
-- **new**: 5
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 701
-- **Thundermail**: 418
+- **Account Hub**: 702
+- **Thundermail**: 419
 - **Send**: 25
 - **Appointment**: 14
 
@@ -396,15 +396,27 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion
+  > My tb pro account was [email] I canceled my subsription and withdrew all stuffs. I still see can login to account. but for security it asks for one-time generated passcode from…
+- **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert
+  > I need to either retrieve my password, or reset it.
+
+### Aliases — 1 tickets
+
+- **[#11241](https://tbpro.zendesk.com/agent/tickets/11241)** · Custom domains and calendar invites
+  > I am looking for a way to configure calendar so that I can receive calendar invites on iOS on a custom domain. Setup: tmail account: [email] custom domain [domain] (verified)…
+
+### Other / uncategorized — 1 tickets
+
+- **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage
+  > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11235](https://tbpro.zendesk.com/agent/tickets/11235)** · Upcoming Thundermail Outage
   > Quick question, this outage doesn't impact Thunderbird (where other IMAP and POP3 Accounts may be), just Thundermail?
-
-### Account access issues — 1 tickets
-
-- **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert
-  > I need to either retrieve my password, or reset it.
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -434,6 +446,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11230](https://tbpro.zendesk.com/agent/tickets/11230) · [new] · 2026-11-13T01:12 · Unable to contine sign-up
 - [11233](https://tbpro.zendesk.com/agent/tickets/11233) · [new] · 2026-11-13T03:03 · Forgot password, email response does not provide code to insert
 - [11235](https://tbpro.zendesk.com/agent/tickets/11235) · [new] · 2026-11-13T04:44 · Upcoming Thundermail Outage
+- [11236](https://tbpro.zendesk.com/agent/tickets/11236) · [new] · 2026-11-13T05:27 · Planned Outage
+- [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [new] · 2026-11-13T05:58 · Account deletion
+- [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [new] · 2026-11-13T06:07 · Custom domains and calendar invites
 
 ## Solved — last 24h
 
