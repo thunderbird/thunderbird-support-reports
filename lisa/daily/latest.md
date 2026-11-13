@@ -1,20 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 08:15 ET** · refreshes hourly_  
+_Updated: **2026-11-13 09:21 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1229 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1231 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **0** solved in last 24h
-- **1229** tickets total since launch · contact rate **4%** of 35000 invitees
+- **13** new tickets in last 24h · **0** solved in last 24h
+- **1231** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 100
 - **Median AHT**: 139.6h · mean 152.7h (proxy: updated_at − created_at, 113 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
+- **"error message"** — 2 tickets in 24h (9.0× baseline; baseline 21 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
 
 ## Known problems — 15 problem(s), 153 incident(s)
 
@@ -323,15 +330,15 @@ _(none in last 24h)_
 
 - **closed**: 967
 - **solved**: 113
-- **pending**: 101
+- **pending**: 100
+- **open**: 20
 - **hold**: 19
-- **open**: 19
-- **new**: 10
+- **new**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 703
-- **Thundermail**: 420
+- **Thundermail**: 421
 - **Send**: 25
 - **Appointment**: 14
 
@@ -400,8 +407,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 3 tickets
+### Account access issues — 4 tickets
 
+- **[#11258](https://tbpro.zendesk.com/agent/tickets/11258)** · You need to verify your email address to activate your account.
+  > never received the verify email
 - **[#11255](https://tbpro.zendesk.com/agent/tickets/11255)** · Setting Up Custom Domain
   > I am using a custom domain [email] . I have made the appropriate DNS entries and the portal says I am verified. But, when I send email from the address, set up on Thunderbird mail…
 - **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion
@@ -415,6 +424,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > how can I view my e-mails I have two accounts
 - **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage
   > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
+
+### App setup / configuration — 1 tickets
+
+- **[#11261](https://tbpro.zendesk.com/agent/tickets/11261)** · Thundermail not working
+  > I have tried to send an email to my gmail address twice. I have also tried to send an email from my gmail account to my Thundermail address. Neither have gone through. The error…
 
 ### Aliases — 1 tickets
 
@@ -459,6 +473,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [new] · 2026-11-13T06:07 · Custom domains and calendar invites
 - [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [new] · 2026-11-13T10:24 · e mails
 - [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [new] · 2026-11-13T12:48 · Setting Up Custom Domain
+- [11258](https://tbpro.zendesk.com/agent/tickets/11258) · [new] · 2026-11-13T13:43 · You need to verify your email address to activate your account.
+- [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [new] · 2026-11-13T14:13 · Thundermail not working
 
 ## Solved — last 24h
 
