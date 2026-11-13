@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-12
 
-_Updated: **2026-11-12 22:17 ET** · refreshes hourly_  
+_Updated: **2026-11-12 23:17 ET** · refreshes hourly_  
 _24h window: 2026-11-11T16:00 → 2026-11-12T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -322,9 +322,9 @@ Henning Gerken_
 
 - **closed**: 967
 - **solved**: 114
-- **pending**: 104
+- **pending**: 103
 - **hold**: 20
-- **open**: 14
+- **open**: 15
 - **new**: 4
 
 ## Service (cumulative)
