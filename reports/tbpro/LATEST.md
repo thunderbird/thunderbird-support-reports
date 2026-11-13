@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-13 18:14 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1240 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1241 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **4** solved in last 24h
-- **1240** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **1241** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
-- **Median AHT**: 138.7h · mean 150.5h (proxy: updated_at − created_at, 102 solved tickets)
+- **Median AHT**: 139.3h · mean 150.0h (proxy: updated_at − created_at, 98 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -148,7 +148,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [closed] · 2026-11-02 · _Refund question_
   - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [closed] · 2026-11-03 · _Cancel subscription_
   - [#10717](https://tbpro.zendesk.com/agent/tickets/10717) · [closed] · 2026-11-03 · _Cancel/Refund_
-  - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [solved] · 2026-11-03 · _Delete account_
+  - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [closed] · 2026-11-03 · _Delete account_
   - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [solved] · 2026-11-03 · _Delete account_
   - [#10756](https://tbpro.zendesk.com/agent/tickets/10756) · [solved] · 2026-11-03 · _Deletion and refund_
   - [#10771](https://tbpro.zendesk.com/agent/tickets/10771) · [solved] · 2026-11-04 · _Please cancel_
@@ -195,7 +195,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 2 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
-  - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [hold] · 2026-11-10 · _Send large files_
+  - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [open] · 2026-11-10 · _Send large files_
 
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [closed] · [stormbox/202] Stars misaligned in message list with blank message body
 - ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
@@ -333,17 +333,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 980
-- **pending**: 110
-- **solved**: 102
-- **open**: 26
-- **hold**: 20
-- **new**: 2
+- **closed**: 986
+- **pending**: 111
+- **solved**: 98
+- **open**: 24
+- **hold**: 19
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 708
-- **Thundermail**: 426
+- **Thundermail**: 427
 - **Send**: 26
 - **Appointment**: 14
 
@@ -465,6 +465,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
   > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
 
+### Webmail — 1 tickets
+
+- **[#11225](https://tbpro.zendesk.com/agent/tickets/11225)** · CardDAV contacts not syncing — why: **blocked** · how: **investigated**
+  > Hi [name], I imported around 2,900 contacts from a .vcf file into my Thundermail CardDAV address book using Thunderbird. Thunderbird shows all 2,914 contacts, but only 176 appear…
+
 ### Request or complaint — 1 tickets
 
 - **[#11241](https://tbpro.zendesk.com/agent/tickets/11241)** · Custom domains and calendar invites — why: **request** · how: **redirected**
@@ -480,14 +485,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11229](https://tbpro.zendesk.com/agent/tickets/11229)** · error message — why: **blocked** · how: **redirected**
   > I keep getting an error message when running filters. it is happening on all of my email accounts.
 
-### Webmail — 1 tickets
-
-- **[#11225](https://tbpro.zendesk.com/agent/tickets/11225)** · CardDAV contacts not syncing — why: **blocked** · how: **investigated**
-  > Hi [name], I imported around 2,900 contacts from a .vcf file into my Thundermail CardDAV address book using Thunderbird. Thunderbird shows all 2,914 contacts, but only 176 appear…
-
 ## New tickets — last 24h
 
-- [11225](https://tbpro.zendesk.com/agent/tickets/11225) · [pending] · 2026-11-12T22:18 · CardDAV contacts not syncing
+- [11225](https://tbpro.zendesk.com/agent/tickets/11225) · [open] · 2026-11-12T22:18 · CardDAV contacts not syncing
 - [11226](https://tbpro.zendesk.com/agent/tickets/11226) · [pending] · 2026-11-12T22:31 · Update billing email in Paddle
 - [11229](https://tbpro.zendesk.com/agent/tickets/11229) · [pending] · 2026-11-13T00:46 · error message
 - [11230](https://tbpro.zendesk.com/agent/tickets/11230) · [pending] · 2026-11-13T01:12 · Unable to contine sign-up
@@ -503,7 +503,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [pending] · 2026-11-13T15:28 · Update billing email in Paddle
 - [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [pending] · 2026-11-13T16:15 · Duplication acount
 - [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [open] · 2026-11-13T18:06 · New TB email & subscription
-- [11279](https://tbpro.zendesk.com/agent/tickets/11279) · [open] · 2026-11-13T18:24 · Firefox Relay Emails always go to Spam
+- [11279](https://tbpro.zendesk.com/agent/tickets/11279) · [solved] · 2026-11-13T18:24 · Firefox Relay Emails always go to Spam
 - [11280](https://tbpro.zendesk.com/agent/tickets/11280) · [open] · 2026-11-13T18:39 · Thunderbird Sent not uploading from Thunderbird Desktop App
 - [11284](https://tbpro.zendesk.com/agent/tickets/11284) · [open] · 2026-11-13T19:54 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
 - [11285](https://tbpro.zendesk.com/agent/tickets/11285) · [open] · 2026-11-13T19:57 · I want to delete my account
