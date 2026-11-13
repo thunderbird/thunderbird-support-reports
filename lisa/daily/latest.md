@@ -1,27 +1,28 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 13:16 ET** · refreshes hourly_  
+_Updated: **2026-11-13 14:15 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1234 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1236 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **16** new tickets in last 24h · **3** solved in last 24h
-- **1234** tickets total since launch · contact rate **4%** of 35000 invitees
+- **18** new tickets in last 24h · **3** solved in last 24h
+- **1236** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
-- **Median AHT**: 139.3h · mean 152.3h (proxy: updated_at − created_at, 112 solved tickets)
+- **Median AHT**: 139.2h · mean 152.1h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"privacy reasons update"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"update billing paddle"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
+- **"using custom domain"** — 2 tickets in 24h (31.7× baseline; baseline 6 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11279](https://tbpro.zendesk.com/agent/tickets/11279)
 - **"error message"** — 2 tickets in 24h (9.0× baseline; baseline 21 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
 
 ## Known problems — 15 problem(s), 153 incident(s)
@@ -143,9 +144,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [closed] · 2026-11-01 · _Delete account_
   - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [closed] · 2026-11-02 · _Spam_
-  - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [solved] · 2026-11-02 · _cancel account_
+  - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [closed] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [closed] · 2026-11-02 · _Refund question_
-  - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [solved] · 2026-11-03 · _Cancel subscription_
+  - [#10712](https://tbpro.zendesk.com/agent/tickets/10712) · [closed] · 2026-11-03 · _Cancel subscription_
   - [#10717](https://tbpro.zendesk.com/agent/tickets/10717) · [closed] · 2026-11-03 · _Cancel/Refund_
   - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [solved] · 2026-11-03 · _Delete account_
   - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [solved] · 2026-11-03 · _Delete account_
@@ -331,18 +332,18 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 970
-- **solved**: 112
+- **closed**: 974
 - **pending**: 109
-- **open**: 24
-- **hold**: 18
+- **solved**: 108
+- **open**: 25
+- **hold**: 19
 - **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 706
-- **Thundermail**: 423
-- **Send**: 25
+- **Thundermail**: 424
+- **Send**: 26
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -421,6 +422,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert — why: **blocked** · how: **informed**
   > I need to either retrieve my password, or reset it.
 
+### App setup / configuration — 3 tickets
+
+- **[#11280](https://tbpro.zendesk.com/agent/tickets/11280)** · Thunderbird Sent not uploading from Thunderbird Desktop App
+  > Explain how to set up so it doesn't throw errors. I've tried with large and small files of various types.
+- **[#11269](https://tbpro.zendesk.com/agent/tickets/11269)** · Duplication acount
+  > Hi, I'm not sure whether my issue is a ThunderMail issue or a Thunderbird issue, but my ThunderMail account has been duplicated twice already in the Thunderbird desktop program.…
+- **[#11261](https://tbpro.zendesk.com/agent/tickets/11261)** · Thundermail not working — why: **blocked** · how: **investigated**
+  > I have tried to send an email to my gmail address twice. I have also tried to send an email from my gmail account to my Thundermail address. Neither have gone through. The error…
+
 ### Other / uncategorized — 3 tickets
 
 - **[#11277](https://tbpro.zendesk.com/agent/tickets/11277)** · New TB email & subscription
@@ -430,12 +440,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage — why: **request** · how: **informed**
   > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
 
-### App setup / configuration — 2 tickets
+### Spam / Junk Filtering — 2 tickets
 
-- **[#11269](https://tbpro.zendesk.com/agent/tickets/11269)** · Duplication acount
-  > Hi, I'm not sure whether my issue is a ThunderMail issue or a Thunderbird issue, but my ThunderMail account has been duplicated twice already in the Thunderbird desktop program.…
-- **[#11261](https://tbpro.zendesk.com/agent/tickets/11261)** · Thundermail not working — why: **blocked** · how: **investigated**
-  > I have tried to send an email to my gmail address twice. I have also tried to send an email from my gmail account to my Thundermail address. Neither have gone through. The error…
+- **[#11279](https://tbpro.zendesk.com/agent/tickets/11279)** · Firefox Relay Emails always go to Spam
+  > When ever I use a Firefox Relay address (I am using a custom domain one in most cases) and receive an email to it, it is always marked as Junk/Spam so I have to go and retrieve it…
+- **[#11230](https://tbpro.zendesk.com/agent/tickets/11230)** · Unable to contine sign-up — why: **blocked**
+  > I signed up with [email] and have not received the verification email I need to activate the account after initial sign in. Not sure if it's because Microsoft are having issues…
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
@@ -459,11 +469,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11235](https://tbpro.zendesk.com/agent/tickets/11235)** · Upcoming Thundermail Outage — why: **confused**
   > Quick question, this outage doesn't impact Thunderbird (where other IMAP and POP3 Accounts may be), just Thundermail?
 
-### Spam / Junk Filtering — 1 tickets
-
-- **[#11230](https://tbpro.zendesk.com/agent/tickets/11230)** · Unable to contine sign-up — why: **blocked**
-  > I signed up with [email] and have not received the verification email I need to activate the account after initial sign in. Not sure if it's because Microsoft are having issues…
-
 ### Webmail — 1 tickets
 
 - **[#11225](https://tbpro.zendesk.com/agent/tickets/11225)** · CardDAV contacts not syncing — why: **blocked** · how: **investigated**
@@ -486,7 +491,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [pending] · 2026-11-13T14:13 · Thundermail not working
 - [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [pending] · 2026-11-13T15:28 · Update billing email in Paddle
 - [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [open] · 2026-11-13T16:15 · Duplication acount
-- [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [new] · 2026-11-13T18:06 · New TB email & subscription
+- [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [open] · 2026-11-13T18:06 · New TB email & subscription
+- [11279](https://tbpro.zendesk.com/agent/tickets/11279) · [open] · 2026-11-13T18:24 · Firefox Relay Emails always go to Spam
+- [11280](https://tbpro.zendesk.com/agent/tickets/11280) · [new] · 2026-11-13T18:39 · Thunderbird Sent not uploading from Thunderbird Desktop App
 
 ## Solved — last 24h
 
