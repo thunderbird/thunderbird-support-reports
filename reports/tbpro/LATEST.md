@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 09:21 ET** · refreshes hourly_  
+_Updated: **2026-11-13 10:14 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 96** of rollout — **35,000 invitees**, **1231 tickets** so f
 
 ## At a glance
 
-- **13** new tickets in last 24h · **0** solved in last 24h
+- **13** new tickets in last 24h · **1** solved in last 24h
 - **1231** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 100
-- **Median AHT**: 139.6h · mean 152.7h (proxy: updated_at − created_at, 113 solved tickets)
+- **Median AHT**: 139.6h · mean 152.0h (proxy: updated_at − created_at, 114 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -329,11 +329,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 967
-- **solved**: 113
-- **pending**: 100
-- **open**: 20
+- **solved**: 114
+- **pending**: 99
+- **open**: 22
 - **hold**: 19
-- **new**: 12
+- **new**: 10
 
 ## Service (cumulative)
 
@@ -347,7 +347,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 239
-- **change request** + **actioned**: 175
+- **change request** + **actioned**: 176
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
 - **curious** + **informed**: 61
@@ -450,21 +450,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11229](https://tbpro.zendesk.com/agent/tickets/11229)** · error message
   > I keep getting an error message when running filters. it is happening on all of my email accounts.
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#11226](https://tbpro.zendesk.com/agent/tickets/11226)** · Update billing email in Paddle
-  > Hello [name] team, For privacy reasons, can you help me update the billing email in Paddle to [email] ? It is currently [email] and it is grayed out on my side. Thank you!
-
 ### Webmail — 1 tickets
 
 - **[#11225](https://tbpro.zendesk.com/agent/tickets/11225)** · CardDAV contacts not syncing
   > Hi [name], I imported around 2,900 contacts from a .vcf file into my Thundermail CardDAV address book using Thunderbird. Thunderbird shows all 2,914 contacts, but only 176 appear…
 
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#11226](https://tbpro.zendesk.com/agent/tickets/11226)** · Update billing email in Paddle — why: **change request** · how: **actioned**
+  > Hello [name] team, For privacy reasons, can you help me update the billing email in Paddle to [email] ? It is currently [email] and it is grayed out on my side. Thank you!
+
 ## New tickets — last 24h
 
 - [11225](https://tbpro.zendesk.com/agent/tickets/11225) · [open] · 2026-11-12T22:18 · CardDAV contacts not syncing
-- [11226](https://tbpro.zendesk.com/agent/tickets/11226) · [new] · 2026-11-12T22:31 · Update billing email in Paddle
-- [11229](https://tbpro.zendesk.com/agent/tickets/11229) · [new] · 2026-11-13T00:46 · error message
+- [11226](https://tbpro.zendesk.com/agent/tickets/11226) · [pending] · 2026-11-12T22:31 · Update billing email in Paddle
+- [11229](https://tbpro.zendesk.com/agent/tickets/11229) · [open] · 2026-11-13T00:46 · error message
 - [11230](https://tbpro.zendesk.com/agent/tickets/11230) · [new] · 2026-11-13T01:12 · Unable to contine sign-up
 - [11233](https://tbpro.zendesk.com/agent/tickets/11233) · [new] · 2026-11-13T03:03 · Forgot password, email response does not provide code to insert
 - [11235](https://tbpro.zendesk.com/agent/tickets/11235) · [new] · 2026-11-13T04:44 · Upcoming Thundermail Outage
@@ -478,7 +478,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-_(none)_
+- · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-13T14:49 · Account Deletion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
