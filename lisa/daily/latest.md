@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 12:13 ET** · refreshes hourly_  
+_Updated: **2026-11-13 13:16 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1233 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1234 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **2** solved in last 24h
-- **1233** tickets total since launch · contact rate **4%** of 35000 invitees
+- **16** new tickets in last 24h · **3** solved in last 24h
+- **1234** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
-- **Median AHT**: 139.5h · mean 151.9h (proxy: updated_at − created_at, 114 solved tickets)
+- **Median AHT**: 139.3h · mean 152.3h (proxy: updated_at − created_at, 112 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"reasons update"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"privacy reasons update"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
 - **"error message"** — 2 tickets in 24h (9.0× baseline; baseline 21 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
 
@@ -331,9 +331,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 968
-- **solved**: 114
-- **pending**: 108
+- **closed**: 970
+- **solved**: 112
+- **pending**: 109
 - **open**: 24
 - **hold**: 18
 - **new**: 1
@@ -341,7 +341,7 @@ _(none in last 24h)_
 ## Service (cumulative)
 
 - **Account Hub**: 706
-- **Thundermail**: 422
+- **Thundermail**: 423
 - **Send**: 25
 - **Appointment**: 14
 
@@ -350,7 +350,7 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 239
-- **change request** + **actioned**: 176
+- **change request** + **actioned**: 177
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
 - **curious** + **informed**: 61
@@ -421,6 +421,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert — why: **blocked** · how: **informed**
   > I need to either retrieve my password, or reset it.
 
+### Other / uncategorized — 3 tickets
+
+- **[#11277](https://tbpro.zendesk.com/agent/tickets/11277)** · New TB email & subscription
+  > Hello, Thank you for inviting me to subscribe. I worked through the steps on my iPhone yesterday and seem to have caused an issue. I was able to pick an email, and am not sure it…
+- **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails
+  > how can I view my e-mails I have two accounts
+- **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage — why: **request** · how: **informed**
+  > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
+
 ### App setup / configuration — 2 tickets
 
 - **[#11269](https://tbpro.zendesk.com/agent/tickets/11269)** · Duplication acount
@@ -430,17 +439,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
-- **[#11266](https://tbpro.zendesk.com/agent/tickets/11266)** · Update billing email in Paddle
+- **[#11266](https://tbpro.zendesk.com/agent/tickets/11266)** · Update billing email in Paddle — why: **change request** · how: **actioned**
   > Hello team, For privacy reasons, could you please help me update the billing email address in Paddle from [email] to [email] ? Appreciate your help!
 - **[#11226](https://tbpro.zendesk.com/agent/tickets/11226)** · Update billing email in Paddle — why: **change request** · how: **actioned**
   > Hello [name] team, For privacy reasons, can you help me update the billing email in Paddle to [email] ? It is currently [email] and it is grayed out on my side. Thank you!
-
-### Other / uncategorized — 2 tickets
-
-- **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails
-  > how can I view my e-mails I have two accounts
-- **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage — why: **request** · how: **informed**
-  > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
 
 ### Aliases — 1 tickets
 
@@ -482,13 +484,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [open] · 2026-11-13T12:48 · Setting Up Custom Domain
 - [11258](https://tbpro.zendesk.com/agent/tickets/11258) · [open] · 2026-11-13T13:43 · You need to verify your email address to activate your account.
 - [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [pending] · 2026-11-13T14:13 · Thundermail not working
-- [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [open] · 2026-11-13T15:28 · Update billing email in Paddle
-- [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [new] · 2026-11-13T16:15 · Duplication acount
+- [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [pending] · 2026-11-13T15:28 · Update billing email in Paddle
+- [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [open] · 2026-11-13T16:15 · Duplication acount
+- [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [new] · 2026-11-13T18:06 · New TB email & subscription
 
 ## Solved — last 24h
 
 - · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-13T14:49 · Account Deletion
 - · [10942](https://tbpro.zendesk.com/agent/tickets/10942) · 2026-11-13T15:53 · Having trouble with a custom domain
+- · [10879](https://tbpro.zendesk.com/agent/tickets/10879) · 2026-11-13T18:02 · How to transfer my private domain users from [domain]
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
