@@ -1,31 +1,31 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 16:12 ET** · refreshes hourly_  
+_Updated: **2026-11-13 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1238 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1240 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **4** solved in last 24h
-- **1238** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1240** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
-- **Median AHT**: 139.2h · mean 150.4h (proxy: updated_at − created_at, 104 solved tickets)
+- **Median AHT**: 138.7h · mean 150.5h (proxy: updated_at − created_at, 102 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"privacy reasons update"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"billing paddle team"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
 - **"using custom domain"** — 2 tickets in 24h (31.7× baseline; baseline 6 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11279](https://tbpro.zendesk.com/agent/tickets/11279)
-- **"error message"** — 2 tickets in 24h (9.0× baseline; baseline 21 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
+- **"error message"** — 2 tickets in 24h (8.6× baseline; baseline 22 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
 
-## Known problems — 15 problem(s), 153 incident(s)
+## Known problems — 15 problem(s), 154 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -193,8 +193,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
-- 1 incident(s):
+- 2 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
+  - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [hold] · 2026-11-10 · _Send large files_
 
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [closed] · [stormbox/202] Stars misaligned in message list with blank message body
 - ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
@@ -332,16 +333,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 978
-- **pending**: 112
-- **solved**: 104
-- **open**: 24
+- **closed**: 980
+- **pending**: 110
+- **solved**: 102
+- **open**: 26
 - **hold**: 20
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 707
-- **Thundermail**: 425
+- **Account Hub**: 708
+- **Thundermail**: 426
 - **Send**: 26
 - **Appointment**: 14
 
@@ -492,7 +494,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11233](https://tbpro.zendesk.com/agent/tickets/11233) · [pending] · 2026-11-13T03:03 · Forgot password, email response does not provide code to insert
 - [11235](https://tbpro.zendesk.com/agent/tickets/11235) · [pending] · 2026-11-13T04:44 · Upcoming Thundermail Outage
 - [11236](https://tbpro.zendesk.com/agent/tickets/11236) · [pending] · 2026-11-13T05:27 · Planned Outage
-- [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [hold] · 2026-11-13T05:58 · Account deletion
+- [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [pending] · 2026-11-13T05:58 · Account deletion
 - [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [pending] · 2026-11-13T06:07 · Custom domains and calendar invites
 - [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [open] · 2026-11-13T10:24 · e mails
 - [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [open] · 2026-11-13T12:48 · Setting Up Custom Domain
