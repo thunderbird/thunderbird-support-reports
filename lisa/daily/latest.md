@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 07:20 ET** · refreshes hourly_  
+_Updated: **2026-11-13 08:15 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1228 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1229 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **0** solved in last 24h
-- **1228** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **0** solved in last 24h
+- **1229** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (212 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 5 · **since launch**: 100
-- **Median AHT**: 139.6h · mean 152.4h (proxy: updated_at − created_at, 114 solved tickets)
+- **Median AHT**: 139.6h · mean 152.7h (proxy: updated_at − created_at, 113 solved tickets)
 
 ## Known problems — 15 problem(s), 153 incident(s)
 
@@ -322,15 +322,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 967
-- **solved**: 114
+- **solved**: 113
 - **pending**: 101
-- **hold**: 20
-- **open**: 17
-- **new**: 9
+- **hold**: 19
+- **open**: 19
+- **new**: 10
 
 ## Service (cumulative)
 
-- **Account Hub**: 702
+- **Account Hub**: 703
 - **Thundermail**: 420
 - **Send**: 25
 - **Appointment**: 14
@@ -400,19 +400,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 3 tickets
+
+- **[#11255](https://tbpro.zendesk.com/agent/tickets/11255)** · Setting Up Custom Domain
+  > I am using a custom domain [email] . I have made the appropriate DNS entries and the portal says I am verified. But, when I send email from the address, set up on Thunderbird mail…
+- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion
+  > My tb pro account was [email] I canceled my subsription and withdrew all stuffs. I still see can login to account. but for security it asks for one-time generated passcode from…
+- **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert
+  > I need to either retrieve my password, or reset it.
+
 ### Other / uncategorized — 2 tickets
 
 - **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails
   > how can I view my e-mails I have two accounts
 - **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage
   > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
-
-### Account access issues — 2 tickets
-
-- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion
-  > My tb pro account was [email] I canceled my subsription and withdrew all stuffs. I still see can login to account. but for security it asks for one-time generated passcode from…
-- **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert
-  > I need to either retrieve my password, or reset it.
 
 ### Aliases — 1 tickets
 
@@ -456,6 +458,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [new] · 2026-11-13T05:58 · Account deletion
 - [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [new] · 2026-11-13T06:07 · Custom domains and calendar invites
 - [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [new] · 2026-11-13T10:24 · e mails
+- [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [new] · 2026-11-13T12:48 · Setting Up Custom Domain
 
 ## Solved — last 24h
 
