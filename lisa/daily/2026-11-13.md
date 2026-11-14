@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 21:19 ET** · refreshes hourly_  
+_Updated: **2026-11-13 22:16 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1244 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1247 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **3** solved in last 24h
-- **1244** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1247** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
@@ -334,16 +334,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 989
-- **pending**: 115
+- **pending**: 116
 - **solved**: 95
-- **open**: 20
 - **hold**: 19
-- **new**: 6
+- **open**: 19
+- **new**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 709
-- **Thundermail**: 430
+- **Thundermail**: 433
 - **Send**: 26
 - **Appointment**: 14
 
@@ -430,19 +430,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert — why: **blocked** · how: **informed**
   > I need to either retrieve my password, or reset it.
 
-### Account access issues — Account Hub trouble — 2 tickets
-
-- **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
-  > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
-- **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails — why: **confused** · how: **redirected**
-  > how can I view my e-mails I have two accounts
-
 ### Other / uncategorized — 2 tickets
 
 - **[#11277](https://tbpro.zendesk.com/agent/tickets/11277)** · New TB email & subscription
   > Hello, Thank you for inviting me to subscribe. I worked through the steps on my iPhone yesterday and seem to have caused an issue. I was able to pick an email, and am not sure it…
 - **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage — why: **request** · how: **informed**
   > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
+
+### Account access issues — Account Hub trouble — 2 tickets
+
+- **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
+  > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
+- **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails — why: **confused** · how: **redirected**
+  > how can I view my e-mails I have two accounts
 
 ### Spam / Junk Filtering — 2 tickets
 
@@ -508,7 +508,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11277](https://tbpro.zendesk.com/agent/tickets/11277) · [open] · 2026-11-13T18:06 · New TB email & subscription
 - [11279](https://tbpro.zendesk.com/agent/tickets/11279) · [solved] · 2026-11-13T18:24 · Firefox Relay Emails always go to Spam
 - [11280](https://tbpro.zendesk.com/agent/tickets/11280) · [open] · 2026-11-13T18:39 · Thunderbird Sent not uploading from Thunderbird Desktop App
-- [11284](https://tbpro.zendesk.com/agent/tickets/11284) · [open] · 2026-11-13T19:54 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
+- [11284](https://tbpro.zendesk.com/agent/tickets/11284) · [pending] · 2026-11-13T19:54 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
 - [11285](https://tbpro.zendesk.com/agent/tickets/11285) · [open] · 2026-11-13T19:57 · I want to delete my account
 
 ## Solved — last 24h
