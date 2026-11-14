@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 15:13 ET** · refreshes hourly_  
+_Updated: **2026-11-14 16:13 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1257 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1258 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **8** solved in last 24h
-- **1257** tickets total since launch · contact rate **4%** of 35000 invitees
+- **20** new tickets in last 24h · **8** solved in last 24h
+- **1258** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.7h · mean 157.9h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 140.7h · mean 160.7h (proxy: updated_at − created_at, 95 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -327,16 +327,16 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1001
-- **pending**: 105
-- **solved**: 86
+- **pending**: 96
+- **solved**: 95
 - **open**: 27
+- **new**: 20
 - **hold**: 19
-- **new**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 438
+- **Thundermail**: 439
 - **Send**: 28
 - **Appointment**: 14
 
@@ -418,6 +418,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11296](https://tbpro.zendesk.com/agent/tickets/11296)** · username
   > I thought I reserved [email], do I still have access to that if I subscribe? Thanks.
 
+### App setup / configuration — 3 tickets
+
+- **[#11322](https://tbpro.zendesk.com/agent/tickets/11322)** · set up filter for a folder
+  > Hi. I was looking for a way to set up a filter so that emails from a particular sender, like a news service, went into a separate folder.
+- **[#11293](https://tbpro.zendesk.com/agent/tickets/11293)** · email - [email]
+  > I have set up a new domain email [email] and the system will not work can you help me please
+- **[#11290](https://tbpro.zendesk.com/agent/tickets/11290)** · Can't get Thunderbird back
+  > I DO have an account I am <[email]>...I could not access email yesterday and messed up by deleting and trying to re-install...now I can't re-install and use my email...lI have had…
+
 ### Subscription / billing / refund / cancel — 3 tickets
 
 - **[#11315](https://tbpro.zendesk.com/agent/tickets/11315)** · Refund
@@ -433,13 +442,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Attempting account creation. Username and password seemed accepted. Received link via email. Attempted first login to pay, received invalid username or password.
 - **[#11299](https://tbpro.zendesk.com/agent/tickets/11299)** · login credentials please 
   > my laptop has thundermail what are my lost credentials
-
-### App setup / configuration — 2 tickets
-
-- **[#11293](https://tbpro.zendesk.com/agent/tickets/11293)** · email - [email]
-  > I have set up a new domain email [email] and the system will not work can you help me please
-- **[#11290](https://tbpro.zendesk.com/agent/tickets/11290)** · Can't get Thunderbird back
-  > I DO have an account I am <[email]>...I could not access email yesterday and messed up by deleting and trying to re-install...now I can't re-install and use my email...lI have had…
 
 ### Early bird / invite / waitlist — 1 tickets
 
@@ -497,6 +499,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11316](https://tbpro.zendesk.com/agent/tickets/11316) · [new] · 2026-11-14T14:48 · donation vs email account subscription
 - [11317](https://tbpro.zendesk.com/agent/tickets/11317) · [new] · 2026-11-14T15:35 · mail account assistance
 - [11318](https://tbpro.zendesk.com/agent/tickets/11318) · [new] · 2026-11-14T17:15 · Failed thundermail account creation
+- [11322](https://tbpro.zendesk.com/agent/tickets/11322) · [new] · 2026-11-14T20:33 · set up filter for a folder
 
 ## Solved — last 24h
 
