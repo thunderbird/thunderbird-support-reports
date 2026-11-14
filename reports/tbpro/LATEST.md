@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 16:13 ET** · refreshes hourly_  
+_Updated: **2026-11-14 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1258 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1259 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **20** new tickets in last 24h · **8** solved in last 24h
-- **1258** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1259** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 140.7h · mean 160.7h (proxy: updated_at − created_at, 95 solved tickets)
+- **Median AHT**: 142.1h · mean 165.2h (proxy: updated_at − created_at, 90 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -151,7 +151,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10756](https://tbpro.zendesk.com/agent/tickets/10756) · [closed] · 2026-11-03 · _Deletion and refund_
   - [#10771](https://tbpro.zendesk.com/agent/tickets/10771) · [closed] · 2026-11-04 · _Please cancel_
   - [#10789](https://tbpro.zendesk.com/agent/tickets/10789) · [closed] · 2026-11-04 · _Refund Thunderbird Pro subscription_
-  - [#10791](https://tbpro.zendesk.com/agent/tickets/10791) · [pending] · 2026-11-04 · _Refund Request_
+  - [#10791](https://tbpro.zendesk.com/agent/tickets/10791) · [solved] · 2026-11-04 · _Refund Request_
   - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [pending] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [closed] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [solved] · 2026-11-04 · _Cancel, sorry!_
@@ -326,17 +326,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1001
-- **pending**: 96
-- **solved**: 95
-- **open**: 27
-- **new**: 20
+- **closed**: 1013
+- **solved**: 90
+- **pending**: 88
+- **open**: 28
+- **new**: 21
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 439
+- **Thundermail**: 440
 - **Send**: 28
 - **Appointment**: 14
 
