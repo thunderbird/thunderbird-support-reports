@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 06:12 ET** · refreshes hourly_  
+_Updated: **2026-11-14 07:18 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1251 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1252 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **3** solved in last 24h
-- **1251** tickets total since launch · contact rate **4%** of 35000 invitees
+- **14** new tickets in last 24h · **3** solved in last 24h
+- **1252** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -329,13 +329,13 @@ Henning Gerken_
 - **solved**: 94
 - **open**: 22
 - **hold**: 19
-- **new**: 13
+- **new**: 14
 
 ## Service (cumulative)
 
 - **Account Hub**: 709
 - **Thundermail**: 436
-- **Send**: 27
+- **Send**: 28
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -430,6 +430,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11290](https://tbpro.zendesk.com/agent/tickets/11290)** · Can't get Thunderbird back
   > I DO have an account I am <[email]>...I could not access email yesterday and messed up by deleting and trying to re-install...now I can't re-install and use my email...lI have had…
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#11312](https://tbpro.zendesk.com/agent/tickets/11312)** · Message marked as spam
+  > I set up a new account in Thundermail and (using Thunderbird) sent a first message to my existing mail account. This was marked as spam by Thunderbird.
+
 ### Webmail — 1 tickets
 
 - **[#11301](https://tbpro.zendesk.com/agent/tickets/11301)** · Webmail speeds
@@ -465,6 +470,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11303](https://tbpro.zendesk.com/agent/tickets/11303) · [new] · 2026-11-14T06:59 · ログイン出来ない
 - [11308](https://tbpro.zendesk.com/agent/tickets/11308) · [new] · 2026-11-14T09:28 · Kontolöschung
 - [11309](https://tbpro.zendesk.com/agent/tickets/11309) · [new] · 2026-11-14T09:42 · cancelation subscribe within 14 days
+- [11312](https://tbpro.zendesk.com/agent/tickets/11312) · [new] · 2026-11-14T11:42 · Message marked as spam
 
 ## Solved — last 24h
 
