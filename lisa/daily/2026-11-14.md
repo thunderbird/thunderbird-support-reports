@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 01:21 ET** · refreshes hourly_  
+_Updated: **2026-11-14 02:14 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1247 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1249 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **3** solved in last 24h
-- **1247** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **3** solved in last 24h
+- **1249** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -326,13 +326,13 @@ Henning Gerken_
 - **solved**: 94
 - **hold**: 19
 - **open**: 19
-- **new**: 9
+- **new**: 11
 
 ## Service (cumulative)
 
 - **Account Hub**: 709
-- **Thundermail**: 433
-- **Send**: 26
+- **Thundermail**: 434
+- **Send**: 27
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -400,8 +400,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#11303](https://tbpro.zendesk.com/agent/tickets/11303)** · ログイン出来ない
+  > 当初のログイン名とパスワードを入力して居るのにログイン出来ない。
+- **[#11302](https://tbpro.zendesk.com/agent/tickets/11302)** · Unsubscribe from Thunderbird Pro
+  > Hello, I would like to unsubscribe from Thunderbird pro
 - **[#11300](https://tbpro.zendesk.com/agent/tickets/11300)** · lost my credentials 
   > update
 - **[#11296](https://tbpro.zendesk.com/agent/tickets/11296)** · username
@@ -450,6 +454,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11299](https://tbpro.zendesk.com/agent/tickets/11299) · [new] · 2026-11-14T02:34 · login credentials please 
 - [11300](https://tbpro.zendesk.com/agent/tickets/11300) · [new] · 2026-11-14T02:35 · lost my credentials 
 - [11301](https://tbpro.zendesk.com/agent/tickets/11301) · [new] · 2026-11-14T03:10 · Webmail speeds
+- [11302](https://tbpro.zendesk.com/agent/tickets/11302) · [new] · 2026-11-14T06:39 · Unsubscribe from Thunderbird Pro
+- [11303](https://tbpro.zendesk.com/agent/tickets/11303) · [new] · 2026-11-14T06:59 · ログイン出来ない
 
 ## Solved — last 24h
 
