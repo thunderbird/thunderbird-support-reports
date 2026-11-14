@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 18:14 ET** · refreshes hourly_  
+_Updated: **2026-11-13 19:34 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 96** of rollout — **35,000 invitees**, **1241 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"billing paddle team"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"team privacy reasons"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
 - **"using custom domain"** — 2 tickets in 24h (31.7× baseline; baseline 6 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11279](https://tbpro.zendesk.com/agent/tickets/11279)
 - **"error message"** — 2 tickets in 24h (8.6× baseline; baseline 22 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
@@ -334,15 +334,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 986
-- **pending**: 111
+- **pending**: 115
 - **solved**: 98
-- **open**: 24
+- **open**: 20
 - **hold**: 19
 - **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 708
+- **Account Hub**: 709
 - **Thundermail**: 427
 - **Send**: 26
 - **Appointment**: 14
@@ -352,13 +352,13 @@ _(none in last 24h)_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 239
-- **change request** + **actioned**: 177
+- **change request** + **actioned**: 178
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 98
+- **confused** + **informed**: 62
 - **curious** + **informed**: 61
-- **confused** + **informed**: 61
 - **blocked** + **redirected**: 55
-- **confused** + **redirected**: 54
+- **confused** + **redirected**: 55
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
 - **concerned** + **explained**: 32
@@ -412,17 +412,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — 4 tickets
-
-- **[#11258](https://tbpro.zendesk.com/agent/tickets/11258)** · You need to verify your email address to activate your account.
-  > never received the verify email
-- **[#11255](https://tbpro.zendesk.com/agent/tickets/11255)** · Setting Up Custom Domain
-  > I am using a custom domain [email] . I have made the appropriate DNS entries and the portal says I am verified. But, when I send email from the address, set up on Thunderbird mail…
-- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion — why: **request** · how: **escalated**
-  > My tb pro account was [email] I canceled my subsription and withdrew all stuffs. I still see can login to account. but for security it asks for one-time generated passcode from…
-- **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert — why: **blocked** · how: **informed**
-  > I need to either retrieve my password, or reset it.
-
 ### App setup / configuration — 3 tickets
 
 - **[#11280](https://tbpro.zendesk.com/agent/tickets/11280)** · Thunderbird Sent not uploading from Thunderbird Desktop App
@@ -432,12 +421,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11269](https://tbpro.zendesk.com/agent/tickets/11269)** · Duplication acount — why: **concerned** · how: **investigated**
   > Hi, I'm not sure whether my issue is a ThunderMail issue or a Thunderbird issue, but my ThunderMail account has been duplicated twice already in the Thunderbird desktop program.…
 
-### Other / uncategorized — 3 tickets
+### Account access issues — 3 tickets
+
+- **[#11255](https://tbpro.zendesk.com/agent/tickets/11255)** · Setting Up Custom Domain — why: **confused** · how: **informed**
+  > I am using a custom domain [email] . I have made the appropriate DNS entries and the portal says I am verified. But, when I send email from the address, set up on Thunderbird mail…
+- **[#11238](https://tbpro.zendesk.com/agent/tickets/11238)** · Account deletion — why: **request** · how: **escalated**
+  > My tb pro account was [email] I canceled my subsription and withdrew all stuffs. I still see can login to account. but for security it asks for one-time generated passcode from…
+- **[#11233](https://tbpro.zendesk.com/agent/tickets/11233)** · Forgot password, email response does not provide code to insert — why: **blocked** · how: **informed**
+  > I need to either retrieve my password, or reset it.
+
+### Account access issues — Account Hub trouble — 2 tickets
+
+- **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
+  > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
+- **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails — why: **confused** · how: **redirected**
+  > how can I view my e-mails I have two accounts
+
+### Other / uncategorized — 2 tickets
 
 - **[#11277](https://tbpro.zendesk.com/agent/tickets/11277)** · New TB email & subscription
   > Hello, Thank you for inviting me to subscribe. I worked through the steps on my iPhone yesterday and seem to have caused an issue. I was able to pick an email, and am not sure it…
-- **[#11252](https://tbpro.zendesk.com/agent/tickets/11252)** · e mails
-  > how can I view my e-mails I have two accounts
 - **[#11236](https://tbpro.zendesk.com/agent/tickets/11236)** · Planned Outage — why: **request** · how: **informed**
   > Hi, just got the email informing me of your planned Outage - thanks. I am outside the US so announcing that services will be unavailable 5pm-9pm PST says absolutely nothing to me,…
 
@@ -460,15 +463,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11285](https://tbpro.zendesk.com/agent/tickets/11285)** · I want to delete my account
   > Hi [name], delete my account on thundermail.
 
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#11284](https://tbpro.zendesk.com/agent/tickets/11284)** · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop — why: **confused** · how: **redirected**
-  > Dit is een follow-up naar aanleiding van uw eerdere aanvraag met ticketnummer #10432 "Remove completely Thunderbi..." Dear [name], It took me a bit of time to reply. I am sorry…
-
 ### Webmail — 1 tickets
 
 - **[#11225](https://tbpro.zendesk.com/agent/tickets/11225)** · CardDAV contacts not syncing — why: **blocked** · how: **investigated**
   > Hi [name], I imported around 2,900 contacts from a .vcf file into my Thundermail CardDAV address book using Thunderbird. Thunderbird shows all 2,914 contacts, but only 176 appear…
+
+### Refund / Cancel — unpaid — 1 tickets
+
+- **[#11258](https://tbpro.zendesk.com/agent/tickets/11258)** · You need to verify your email address to activate your account. — why: **change request** · how: **actioned**
+  > never received the verify email
 
 ### Request or complaint — 1 tickets
 
@@ -496,9 +499,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11236](https://tbpro.zendesk.com/agent/tickets/11236) · [pending] · 2026-11-13T05:27 · Planned Outage
 - [11238](https://tbpro.zendesk.com/agent/tickets/11238) · [pending] · 2026-11-13T05:58 · Account deletion
 - [11241](https://tbpro.zendesk.com/agent/tickets/11241) · [pending] · 2026-11-13T06:07 · Custom domains and calendar invites
-- [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [open] · 2026-11-13T10:24 · e mails
-- [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [open] · 2026-11-13T12:48 · Setting Up Custom Domain
-- [11258](https://tbpro.zendesk.com/agent/tickets/11258) · [open] · 2026-11-13T13:43 · You need to verify your email address to activate your account.
+- [11252](https://tbpro.zendesk.com/agent/tickets/11252) · [pending] · 2026-11-13T10:24 · e mails
+- [11255](https://tbpro.zendesk.com/agent/tickets/11255) · [pending] · 2026-11-13T12:48 · Setting Up Custom Domain
+- [11258](https://tbpro.zendesk.com/agent/tickets/11258) · [pending] · 2026-11-13T13:43 · You need to verify your email address to activate your account.
 - [11261](https://tbpro.zendesk.com/agent/tickets/11261) · [open] · 2026-11-13T14:13 · Thundermail not working
 - [11266](https://tbpro.zendesk.com/agent/tickets/11266) · [pending] · 2026-11-13T15:28 · Update billing email in Paddle
 - [11269](https://tbpro.zendesk.com/agent/tickets/11269) · [pending] · 2026-11-13T16:15 · Duplication acount
