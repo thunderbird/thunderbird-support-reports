@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 14:11 ET** · refreshes hourly_  
+_Updated: **2026-11-14 15:13 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 97** of rollout — **35,000 invitees**, **1257 tickets** so f
 
 ## At a glance
 
-- **19** new tickets in last 24h · **6** solved in last 24h
+- **19** new tickets in last 24h · **8** solved in last 24h
 - **1257** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.5h · mean 152.6h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 139.7h · mean 157.9h (proxy: updated_at − created_at, 86 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -148,7 +148,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10717](https://tbpro.zendesk.com/agent/tickets/10717) · [closed] · 2026-11-03 · _Cancel/Refund_
   - [#10723](https://tbpro.zendesk.com/agent/tickets/10723) · [closed] · 2026-11-03 · _Delete account_
   - [#10740](https://tbpro.zendesk.com/agent/tickets/10740) · [solved] · 2026-11-03 · _Delete account_
-  - [#10756](https://tbpro.zendesk.com/agent/tickets/10756) · [solved] · 2026-11-03 · _Deletion and refund_
+  - [#10756](https://tbpro.zendesk.com/agent/tickets/10756) · [closed] · 2026-11-03 · _Deletion and refund_
   - [#10771](https://tbpro.zendesk.com/agent/tickets/10771) · [closed] · 2026-11-04 · _Please cancel_
   - [#10789](https://tbpro.zendesk.com/agent/tickets/10789) · [closed] · 2026-11-04 · _Refund Thunderbird Pro subscription_
   - [#10791](https://tbpro.zendesk.com/agent/tickets/10791) · [pending] · 2026-11-04 · _Refund Request_
@@ -326,10 +326,10 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 999
-- **pending**: 110
+- **closed**: 1001
+- **pending**: 105
 - **solved**: 86
-- **open**: 24
+- **open**: 27
 - **hold**: 19
 - **new**: 19
 
@@ -506,6 +506,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-14T15:01 · Account Deletion
 - · [10942](https://tbpro.zendesk.com/agent/tickets/10942) · 2026-11-14T16:02 · Having trouble with a custom domain
 - · [10907](https://tbpro.zendesk.com/agent/tickets/10907) · 2026-11-14T18:02 · alias email doesn't appear in Send From list
+- · [10623](https://tbpro.zendesk.com/agent/tickets/10623) · 2026-11-14T20:02 · QUERIES not in FAQ
+- 👍 [10587](https://tbpro.zendesk.com/agent/tickets/10587) · 2026-11-14T20:02 · setting up mail on my phone using POP
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
