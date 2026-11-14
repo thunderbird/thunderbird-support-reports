@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 04:14 ET** · refreshes hourly_  
+_Updated: **2026-11-14 05:13 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1249 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1251 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **3** solved in last 24h
-- **1249** tickets total since launch · contact rate **4%** of 35000 invitees
+- **13** new tickets in last 24h · **3** solved in last 24h
+- **1251** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -21,6 +21,7 @@ Flight 8 is **day 97** of rollout — **35,000 invitees**, **1249 tickets** so f
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"lost credentials"** — 2 tickets in 24h (new; baseline 0 cum) — [#11299](https://tbpro.zendesk.com/agent/tickets/11299), [#11300](https://tbpro.zendesk.com/agent/tickets/11300)
+- **"cancel subscription"** — 2 tickets in 24h (6.4× baseline; baseline 30 cum) — [#11297](https://tbpro.zendesk.com/agent/tickets/11297), [#11309](https://tbpro.zendesk.com/agent/tickets/11309)
 
 ## Known problems — 15 problem(s), 154 incident(s)
 
@@ -307,10 +308,12 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [11297](https://tbpro.zendesk.com/agent/tickets/11297) · [new] · _cancel subscription_
   > I would like to cancel being in the Thundermail beta, thanks
+- [11309](https://tbpro.zendesk.com/agent/tickets/11309) · [new] · _cancelation subscribe within 14 days_
+  > I have decided to unsubscribe the Thundermail services and have done so at Padle Buyer. This happens whitin 14 days from subscribe. On Thunderbird Pro dashboard I see that this subscription is scheduled to be canceled…
 
 ## New ideas on FeatureOS
 
@@ -326,12 +329,12 @@ Henning Gerken_
 - **solved**: 94
 - **open**: 21
 - **hold**: 19
-- **new**: 11
+- **new**: 13
 
 ## Service (cumulative)
 
 - **Account Hub**: 709
-- **Thundermail**: 434
+- **Thundermail**: 436
 - **Send**: 27
 - **Appointment**: 14
 
@@ -400,8 +403,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#11308](https://tbpro.zendesk.com/agent/tickets/11308)** · Kontolöschung
+  > Bitte mein konto löschen, ich enötige thunderbird nicht
 - **[#11303](https://tbpro.zendesk.com/agent/tickets/11303)** · ログイン出来ない
   > 当初のログイン名とパスワードを入力して居るのにログイン出来ない。
 - **[#11302](https://tbpro.zendesk.com/agent/tickets/11302)** · Unsubscribe from Thunderbird Pro
@@ -410,6 +415,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > update
 - **[#11296](https://tbpro.zendesk.com/agent/tickets/11296)** · username
   > I thought I reserved [email], do I still have access to that if I subscribe? Thanks.
+
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#11309](https://tbpro.zendesk.com/agent/tickets/11309)** · cancelation subscribe within 14 days
+  > I have decided to unsubscribe the Thundermail services and have done so at Padle Buyer. This happens whitin 14 days from subscribe. On Thunderbird Pro dashboard I see that this…
+- **[#11297](https://tbpro.zendesk.com/agent/tickets/11297)** · cancel subscription
+  > I would like to cancel being in the Thundermail beta, thanks
 
 ### App setup / configuration — 2 tickets
 
@@ -427,11 +439,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11299](https://tbpro.zendesk.com/agent/tickets/11299)** · login credentials please 
   > my laptop has thundermail what are my lost credentials
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#11297](https://tbpro.zendesk.com/agent/tickets/11297)** · cancel subscription
-  > I would like to cancel being in the Thundermail beta, thanks
 
 ### Email migration / import — 1 tickets
 
@@ -456,6 +463,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11301](https://tbpro.zendesk.com/agent/tickets/11301) · [new] · 2026-11-14T03:10 · Webmail speeds
 - [11302](https://tbpro.zendesk.com/agent/tickets/11302) · [new] · 2026-11-14T06:39 · Unsubscribe from Thunderbird Pro
 - [11303](https://tbpro.zendesk.com/agent/tickets/11303) · [new] · 2026-11-14T06:59 · ログイン出来ない
+- [11308](https://tbpro.zendesk.com/agent/tickets/11308) · [new] · 2026-11-14T09:28 · Kontolöschung
+- [11309](https://tbpro.zendesk.com/agent/tickets/11309) · [new] · 2026-11-14T09:42 · cancelation subscribe within 14 days
 
 ## Solved — last 24h
 
