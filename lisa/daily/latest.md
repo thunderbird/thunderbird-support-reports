@@ -1,18 +1,18 @@
 # Thundermail — Flight 8 Live Report · 2026-11-13
 
-_Updated: **2026-11-13 19:34 ET** · refreshes hourly_  
+_Updated: **2026-11-13 20:15 ET** · refreshes hourly_  
 _24h window: 2026-11-12T16:00 → 2026-11-13T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 96** of rollout — **35,000 invitees**, **1241 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 96** of rollout — **35,000 invitees**, **1242 tickets** so far (3.5% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **4** solved in last 24h
-- **1241** tickets total since launch · contact rate **4%** of 35000 invitees
+- **20** new tickets in last 24h · **3** solved in last 24h
+- **1242** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 95%  (212 good / 12 bad)
+- **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 6 · **since launch**: 100
 - **Median AHT**: 139.3h · mean 150.0h (proxy: updated_at − created_at, 98 solved tickets)
 
@@ -20,7 +20,7 @@ Flight 8 is **day 96** of rollout — **35,000 invitees**, **1241 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"team privacy reasons"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
+- **"update billing paddle"** — 2 tickets in 24h (new; baseline 0 cum) — [#11226](https://tbpro.zendesk.com/agent/tickets/11226), [#11266](https://tbpro.zendesk.com/agent/tickets/11266)
 - **"verify address"** — 2 tickets in 24h (38.0× baseline; baseline 5 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11258](https://tbpro.zendesk.com/agent/tickets/11258)
 - **"using custom domain"** — 2 tickets in 24h (31.7× baseline; baseline 6 cum) — [#11255](https://tbpro.zendesk.com/agent/tickets/11255), [#11279](https://tbpro.zendesk.com/agent/tickets/11279)
 - **"error message"** — 2 tickets in 24h (8.6× baseline; baseline 22 cum) — [#11229](https://tbpro.zendesk.com/agent/tickets/11229), [#11261](https://tbpro.zendesk.com/agent/tickets/11261)
@@ -338,12 +338,12 @@ _(none in last 24h)_
 - **solved**: 98
 - **open**: 20
 - **hold**: 19
-- **new**: 3
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 709
-- **Thundermail**: 427
+- **Thundermail**: 428
 - **Send**: 26
 - **Appointment**: 14
 
@@ -516,7 +516,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-13T14:49 · Account Deletion
 - · [10942](https://tbpro.zendesk.com/agent/tickets/10942) · 2026-11-13T15:53 · Having trouble with a custom domain
 - · [10879](https://tbpro.zendesk.com/agent/tickets/10879) · 2026-11-13T18:02 · How to transfer my private domain users from [domain]
-- · [11198](https://tbpro.zendesk.com/agent/tickets/11198) · 2026-11-13T20:01 · Creating a new folder
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
