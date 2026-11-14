@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 09:13 ET** · refreshes hourly_  
+_Updated: **2026-11-14 10:12 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1253 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1255 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **3** solved in last 24h
-- **1253** tickets total since launch · contact rate **4%** of 35000 invitees
+- **17** new tickets in last 24h · **4** solved in last 24h
+- **1255** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 138.7h · mean 149.9h (proxy: updated_at − created_at, 94 solved tickets)
+- **Median AHT**: 138.7h · mean 150.2h (proxy: updated_at − created_at, 94 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -308,12 +308,14 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 3
 
 - [11297](https://tbpro.zendesk.com/agent/tickets/11297) · [new] · _cancel subscription_
   > I would like to cancel being in the Thundermail beta, thanks
 - [11309](https://tbpro.zendesk.com/agent/tickets/11309) · [new] · _cancelation subscribe within 14 days_
   > I have decided to unsubscribe the Thundermail services and have done so at Padle Buyer. This happens whitin 14 days from subscribe. On Thunderbird Pro dashboard I see that this subscription is scheduled to be canceled…
+- [11315](https://tbpro.zendesk.com/agent/tickets/11315) · [new] · _Refund_
+  > Hi! I started using your service yesterday but am not satisfied with it and therefore want to cancel and get a refund. Thanks!
 
 ## New ideas on FeatureOS
 
@@ -329,11 +331,11 @@ Henning Gerken_
 - **solved**: 94
 - **open**: 23
 - **hold**: 19
-- **new**: 15
+- **new**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 709
+- **Account Hub**: 710
 - **Thundermail**: 437
 - **Send**: 28
 - **Appointment**: 14
@@ -416,6 +418,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11296](https://tbpro.zendesk.com/agent/tickets/11296)** · username
   > I thought I reserved [email], do I still have access to that if I subscribe? Thanks.
 
+### Subscription / billing / refund / cancel — 3 tickets
+
+- **[#11315](https://tbpro.zendesk.com/agent/tickets/11315)** · Refund
+  > Hi! I started using your service yesterday but am not satisfied with it and therefore want to cancel and get a refund. Thanks!
+- **[#11309](https://tbpro.zendesk.com/agent/tickets/11309)** · cancelation subscribe within 14 days
+  > I have decided to unsubscribe the Thundermail services and have done so at Padle Buyer. This happens whitin 14 days from subscribe. On Thunderbird Pro dashboard I see that this…
+- **[#11297](https://tbpro.zendesk.com/agent/tickets/11297)** · cancel subscription
+  > I would like to cancel being in the Thundermail beta, thanks
+
 ### Account access issues — 2 tickets
 
 - **[#11314](https://tbpro.zendesk.com/agent/tickets/11314)** · Invited and attempting to create account
@@ -423,19 +434,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11299](https://tbpro.zendesk.com/agent/tickets/11299)** · login credentials please 
   > my laptop has thundermail what are my lost credentials
 
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#11309](https://tbpro.zendesk.com/agent/tickets/11309)** · cancelation subscribe within 14 days
-  > I have decided to unsubscribe the Thundermail services and have done so at Padle Buyer. This happens whitin 14 days from subscribe. On Thunderbird Pro dashboard I see that this…
-- **[#11297](https://tbpro.zendesk.com/agent/tickets/11297)** · cancel subscription
-  > I would like to cancel being in the Thundermail beta, thanks
-
 ### App setup / configuration — 2 tickets
 
 - **[#11293](https://tbpro.zendesk.com/agent/tickets/11293)** · email - [email]
   > I have set up a new domain email [email] and the system will not work can you help me please
 - **[#11290](https://tbpro.zendesk.com/agent/tickets/11290)** · Can't get Thunderbird back
   > I DO have an account I am <[email]>...I could not access email yesterday and messed up by deleting and trying to re-install...now I can't re-install and use my email...lI have had…
+
+### Account creation / signup confusion — 1 tickets
+
+- **[#11316](https://tbpro.zendesk.com/agent/tickets/11316)** · donation vs email account subscription
+  > Hello, I just signed up for a thundermail account. Will my monthly sustaining donation (via paypal) end now or does it fund something that is ongoing? Thanks, [name]
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -474,12 +483,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11309](https://tbpro.zendesk.com/agent/tickets/11309) · [new] · 2026-11-14T09:42 · cancelation subscribe within 14 days
 - [11312](https://tbpro.zendesk.com/agent/tickets/11312) · [new] · 2026-11-14T11:42 · Message marked as spam
 - [11314](https://tbpro.zendesk.com/agent/tickets/11314) · [new] · 2026-11-14T13:28 · Invited and attempting to create account
+- [11315](https://tbpro.zendesk.com/agent/tickets/11315) · [new] · 2026-11-14T14:17 · Refund
+- [11316](https://tbpro.zendesk.com/agent/tickets/11316) · [new] · 2026-11-14T14:48 · donation vs email account subscription
 
 ## Solved — last 24h
 
 - · [11279](https://tbpro.zendesk.com/agent/tickets/11279) · 2026-11-13T22:14 · Firefox Relay Emails always go to Spam
 - · [11000](https://tbpro.zendesk.com/agent/tickets/11000) · 2026-11-13T22:29 · Question about the product
 - 👍 [11198](https://tbpro.zendesk.com/agent/tickets/11198) · 2026-11-14T00:34 · Creating a new folder
+- · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-14T15:01 · Account Deletion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
