@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 08:13 ET** · refreshes hourly_  
+_Updated: **2026-11-14 09:13 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1252 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1253 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **3** solved in last 24h
-- **1252** tickets total since launch · contact rate **4%** of 35000 invitees
+- **15** new tickets in last 24h · **3** solved in last 24h
+- **1253** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -329,12 +329,12 @@ Henning Gerken_
 - **solved**: 94
 - **open**: 23
 - **hold**: 19
-- **new**: 14
+- **new**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 709
-- **Thundermail**: 436
+- **Thundermail**: 437
 - **Send**: 28
 - **Appointment**: 14
 
@@ -416,6 +416,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11296](https://tbpro.zendesk.com/agent/tickets/11296)** · username
   > I thought I reserved [email], do I still have access to that if I subscribe? Thanks.
 
+### Account access issues — 2 tickets
+
+- **[#11314](https://tbpro.zendesk.com/agent/tickets/11314)** · Invited and attempting to create account
+  > Attempting account creation. Username and password seemed accepted. Received link via email. Attempted first login to pay, received invalid username or password.
+- **[#11299](https://tbpro.zendesk.com/agent/tickets/11299)** · login credentials please 
+  > my laptop has thundermail what are my lost credentials
+
 ### Subscription / billing / refund / cancel — 2 tickets
 
 - **[#11309](https://tbpro.zendesk.com/agent/tickets/11309)** · cancelation subscribe within 14 days
@@ -439,11 +446,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11301](https://tbpro.zendesk.com/agent/tickets/11301)** · Webmail speeds
   > I’ve noticed that speeds on thundermail webmail are really slow when opening some emails. It doesn’t happen with all of them, but with some it takes considerably long. Is this on…
-
-### Account access issues — 1 tickets
-
-- **[#11299](https://tbpro.zendesk.com/agent/tickets/11299)** · login credentials please 
-  > my laptop has thundermail what are my lost credentials
 
 ### Email migration / import — 1 tickets
 
@@ -471,6 +473,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11308](https://tbpro.zendesk.com/agent/tickets/11308) · [new] · 2026-11-14T09:28 · Kontolöschung
 - [11309](https://tbpro.zendesk.com/agent/tickets/11309) · [new] · 2026-11-14T09:42 · cancelation subscribe within 14 days
 - [11312](https://tbpro.zendesk.com/agent/tickets/11312) · [new] · 2026-11-14T11:42 · Message marked as spam
+- [11314](https://tbpro.zendesk.com/agent/tickets/11314) · [new] · 2026-11-14T13:28 · Invited and attempting to create account
 
 ## Solved — last 24h
 
