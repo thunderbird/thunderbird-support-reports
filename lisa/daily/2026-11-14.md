@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-14 18:13 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1259 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1260 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **8** solved in last 24h
-- **1259** tickets total since launch · contact rate **4%** of 35000 invitees
+- **20** new tickets in last 24h · **6** solved in last 24h
+- **1260** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (213 good / 12 bad)
+- **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 142.1h · mean 165.2h (proxy: updated_at − created_at, 90 solved tickets)
+- **Median AHT**: 142.6h · mean 167.0h (proxy: updated_at − created_at, 91 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -161,7 +161,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [solved] · 2026-11-06 · _Cancellation + refund_
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [solved] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [solved] · 2026-11-06 · _Refund_
-  - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [pending] · 2026-11-07 · _Account termination_
+  - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [solved] · 2026-11-07 · _Account termination_
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [pending] · 2026-11-07 · _Delete Account_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [pending] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [pending] · 2026-11-10 · _cancelation_
@@ -326,17 +326,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1013
-- **solved**: 90
-- **pending**: 88
+- **closed**: 1015
+- **solved**: 91
+- **pending**: 85
 - **open**: 28
-- **new**: 21
+- **new**: 22
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 440
+- **Thundermail**: 441
 - **Send**: 28
 - **Appointment**: 14
 
@@ -503,8 +503,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Solved — last 24h
 
-- · [11279](https://tbpro.zendesk.com/agent/tickets/11279) · 2026-11-13T22:14 · Firefox Relay Emails always go to Spam
-- · [11000](https://tbpro.zendesk.com/agent/tickets/11000) · 2026-11-13T22:29 · Question about the product
 - 👍 [11198](https://tbpro.zendesk.com/agent/tickets/11198) · 2026-11-14T00:34 · Creating a new folder
 - · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-14T15:01 · Account Deletion
 - · [10942](https://tbpro.zendesk.com/agent/tickets/10942) · 2026-11-14T16:02 · Having trouble with a custom domain
