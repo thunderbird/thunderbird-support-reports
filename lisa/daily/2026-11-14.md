@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 12:11 ET** · refreshes hourly_  
+_Updated: **2026-11-14 13:15 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 97** of rollout — **35,000 invitees**, **1256 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 97** of rollout — **35,000 invitees**, **1257 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **18** new tickets in last 24h · **5** solved in last 24h
-- **1256** tickets total since launch · contact rate **4%** of 35000 invitees
+- **19** new tickets in last 24h · **6** solved in last 24h
+- **1257** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (213 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 139.2h · mean 150.4h (proxy: updated_at − created_at, 94 solved tickets)
+- **Median AHT**: 139.3h · mean 151.4h (proxy: updated_at − created_at, 91 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -326,16 +326,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 990
-- **pending**: 112
-- **solved**: 94
+- **closed**: 994
+- **pending**: 111
+- **solved**: 91
 - **open**: 23
 - **hold**: 19
-- **new**: 18
+- **new**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 710
+- **Account Hub**: 711
 - **Thundermail**: 438
 - **Send**: 28
 - **Appointment**: 14
@@ -441,6 +441,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11290](https://tbpro.zendesk.com/agent/tickets/11290)** · Can't get Thunderbird back
   > I DO have an account I am <[email]>...I could not access email yesterday and messed up by deleting and trying to re-install...now I can't re-install and use my email...lI have had…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#11318](https://tbpro.zendesk.com/agent/tickets/11318)** · Failed thundermail account creation
+  > I was trying to setup thundermail account and it failed to accept a password. Please resend the invite email to [email] so I can move it to thundermail beta.
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#11317](https://tbpro.zendesk.com/agent/tickets/11317)** · mail account assistance
@@ -491,6 +496,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11315](https://tbpro.zendesk.com/agent/tickets/11315) · [new] · 2026-11-14T14:17 · Refund
 - [11316](https://tbpro.zendesk.com/agent/tickets/11316) · [new] · 2026-11-14T14:48 · donation vs email account subscription
 - [11317](https://tbpro.zendesk.com/agent/tickets/11317) · [new] · 2026-11-14T15:35 · mail account assistance
+- [11318](https://tbpro.zendesk.com/agent/tickets/11318) · [new] · 2026-11-14T17:15 · Failed thundermail account creation
 
 ## Solved — last 24h
 
@@ -499,6 +505,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [11198](https://tbpro.zendesk.com/agent/tickets/11198) · 2026-11-14T00:34 · Creating a new folder
 - · [11050](https://tbpro.zendesk.com/agent/tickets/11050) · 2026-11-14T15:01 · Account Deletion
 - · [10942](https://tbpro.zendesk.com/agent/tickets/10942) · 2026-11-14T16:02 · Having trouble with a custom domain
+- · [10907](https://tbpro.zendesk.com/agent/tickets/10907) · 2026-11-14T18:02 · alias email doesn't appear in Send From list
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
