@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-15
 
-_Updated: **2026-11-15 10:12 ET** · refreshes hourly_  
+_Updated: **2026-11-15 11:15 ET** · refreshes hourly_  
 _24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 98** of rollout — **35,000 invitees**, **1263 tickets** so f
 
 ## At a glance
 
-- **5** new tickets in last 24h · **23** solved in last 24h
+- **5** new tickets in last 24h · **24** solved in last 24h
 - **1263** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 144.3h · mean 171.5h (proxy: updated_at − created_at, 85 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **Median AHT**: 149.3h · mean 175.5h (proxy: updated_at − created_at, 85 solved tickets)
 
 ## Known problems — 15 problem(s), 154 incident(s)
 
@@ -226,7 +226,7 @@ Flight 8 is **day 98** of rollout — **35,000 invitees**, **1263 tickets** so f
 ### [#10997](https://tbpro.zendesk.com/agent/tickets/10997) · [hold] · [tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow (1.5 Mega bits / second or slower) internet connections for f_
 - 1 incident(s):
-  - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [pending] · 2026-10-26 · _Bug report on Send file upload_
+  - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [solved] · 2026-10-26 · _Bug report on Send file upload_
 
 ## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
 
@@ -307,15 +307,16 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Add keyboard shortcuts to navigate between inboxes](https://ideas.tb.pro/p/add-keyboard-shortcuts-to-navigate-between-inboxes) · 1 votes · _untagged_
+  > What you’d like to see Possibility to set keyboard shortcuts to switch between each inbox, including custom folders (that we create to filter aliases incoming messages). Why it matters It would…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1023
+- **closed**: 1024
 - **solved**: 85
-- **pending**: 80
+- **pending**: 79
 - **open**: 31
 - **new**: 25
 - **hold**: 19
@@ -447,6 +448,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [11279](https://tbpro.zendesk.com/agent/tickets/11279) · 2026-11-14T23:02 · Firefox Relay Emails always go to Spam
 - · [10959](https://tbpro.zendesk.com/agent/tickets/10959) · 2026-11-15T00:01 · confused
 - · [10685](https://tbpro.zendesk.com/agent/tickets/10685) · 2026-11-15T01:01 · Cancel
+- · [10491](https://tbpro.zendesk.com/agent/tickets/10491) · 2026-11-15T16:01 · Bug report on Send file upload
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
