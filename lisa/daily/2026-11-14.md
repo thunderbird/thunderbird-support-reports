@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-14
 
-_Updated: **2026-11-14 19:38 ET** · refreshes hourly_  
+_Updated: **2026-11-14 20:15 ET** · refreshes hourly_  
 _24h window: 2026-11-13T16:00 → 2026-11-14T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 97** of rollout — **35,000 invitees**, **1260 tickets** so f
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.9h · mean 170.0h (proxy: updated_at − created_at, 84 solved tickets)
+- **Median AHT**: 144.3h · mean 171.5h (proxy: updated_at − created_at, 85 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -140,7 +140,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [closed] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [closed] · 2026-10-30 · _Refund_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [closed] · 2026-11-01 · _Delete account_
-  - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [pending] · 2026-11-02 · _Cancel_
+  - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [solved] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [closed] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [closed] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [closed] · 2026-11-02 · _Refund question_
@@ -327,8 +327,8 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1023
-- **solved**: 84
-- **pending**: 84
+- **solved**: 85
+- **pending**: 83
 - **open**: 28
 - **new**: 22
 - **hold**: 19
