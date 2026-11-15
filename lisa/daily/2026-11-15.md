@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-15
 
-_Updated: **2026-11-15 12:11 ET** · refreshes hourly_  
+_Updated: **2026-11-15 13:15 ET** · refreshes hourly_  
 _24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 98** of rollout — **35,000 invitees**, **1263 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 98** of rollout — **35,000 invitees**, **1264 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **25** solved in last 24h
-- **1263** tickets total since launch · contact rate **4%** of 35000 invitees
+- **6** new tickets in last 24h · **27** solved in last 24h
+- **1264** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 149.3h · mean 176.1h (proxy: updated_at − created_at, 83 solved tickets)
+- **Median AHT**: 149.3h · mean 176.8h (proxy: updated_at − created_at, 85 solved tickets)
 
 ## Known problems — 15 problem(s), 154 incident(s)
 
@@ -145,7 +145,7 @@ Flight 8 is **day 98** of rollout — **35,000 invitees**, **1263 tickets** so f
   - [#10771](https://tbpro.zendesk.com/agent/tickets/10771) · [closed] · 2026-11-04 · _Please cancel_
   - [#10789](https://tbpro.zendesk.com/agent/tickets/10789) · [closed] · 2026-11-04 · _Refund Thunderbird Pro subscription_
   - [#10791](https://tbpro.zendesk.com/agent/tickets/10791) · [solved] · 2026-11-04 · _Refund Request_
-  - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [pending] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
+  - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [solved] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [closed] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [solved] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [solved] · 2026-11-05 · _Delete account and refund _
@@ -315,17 +315,17 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1027
-- **solved**: 83
-- **pending**: 78
+- **solved**: 85
+- **pending**: 76
 - **open**: 31
-- **new**: 25
+- **new**: 26
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
 - **Thundermail**: 443
-- **Send**: 28
+- **Send**: 29
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -400,6 +400,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11327](https://tbpro.zendesk.com/agent/tickets/11327)** · Reset Account
   > Can you remove any information I entered when I started setting up my account a let me start all over?
 
+### Bug report / app crash / not working — 1 tickets
+
+- **[#11337](https://tbpro.zendesk.com/agent/tickets/11337)** · Can't upload file with SEND
+  > Help me to understand if it's a bug or i'm doing something wrong
+
 ### Custom domain / DKIM / DNS — 1 tickets
 
 - **[#11326](https://tbpro.zendesk.com/agent/tickets/11326)** · DNS Records for Custom Domain
@@ -422,6 +427,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11326](https://tbpro.zendesk.com/agent/tickets/11326) · [new] · 2026-11-15T03:28 · DNS Records for Custom Domain
 - [11327](https://tbpro.zendesk.com/agent/tickets/11327) · [new] · 2026-11-15T05:18 · Reset Account
 - [11328](https://tbpro.zendesk.com/agent/tickets/11328) · [new] · 2026-11-15T05:38 · Thunderbird & Thundermail
+- [11337](https://tbpro.zendesk.com/agent/tickets/11337) · [new] · 2026-11-15T17:17 · Can't upload file with SEND
 
 ## Solved — last 24h
 
@@ -450,6 +456,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10685](https://tbpro.zendesk.com/agent/tickets/10685) · 2026-11-15T01:01 · Cancel
 - · [10491](https://tbpro.zendesk.com/agent/tickets/10491) · 2026-11-15T16:01 · Bug report on Send file upload
 - · [10999](https://tbpro.zendesk.com/agent/tickets/10999) · 2026-11-15T17:01 · please refund my payment.
+- · [11011](https://tbpro.zendesk.com/agent/tickets/11011) · 2026-11-15T18:01 · Thunderbird Web app
+- · [10799](https://tbpro.zendesk.com/agent/tickets/10799) · 2026-11-15T18:02 · How do I get my email from the Free Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
