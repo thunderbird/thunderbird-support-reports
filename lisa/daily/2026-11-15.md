@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-15
 
-_Updated: **2026-11-15 15:13 ET** · refreshes hourly_  
+_Updated: **2026-11-15 16:12 ET** · refreshes hourly_  
 _24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 98** of rollout — **35,000 invitees**, **1267 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 98** of rollout — **35,000 invitees**, **1268 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **30** solved in last 24h
-- **1267** tickets total since launch · contact rate **4%** of 35000 invitees
+- **10** new tickets in last 24h · **30** solved in last 24h
+- **1268** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 143.9h · mean 176.7h (proxy: updated_at − created_at, 84 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **Median AHT**: 148.9h · mean 176.8h (proxy: updated_at − created_at, 78 solved tickets)
 
 ## Known problems — 15 problem(s), 154 incident(s)
 
@@ -148,7 +148,7 @@ Flight 8 is **day 98** of rollout — **35,000 invitees**, **1267 tickets** so f
   - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [solved] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [closed] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [closed] · 2026-11-04 · _Cancel, sorry!_
-  - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [solved] · 2026-11-05 · _Delete account and refund _
+  - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [closed] · 2026-11-05 · _Delete account and refund _
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [solved] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [solved] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [solved] · 2026-11-06 · _Cancellation + refund_
@@ -307,24 +307,26 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Separate SMTP accounts per alias](https://ideas.tb.pro/p/separate-smtp-accounts-per-alias) · 1 votes · _Thundermail_
+  > What you’d like to see Possibility to generate separate SMTP accounts per alias (with the alias as the login name and having an option to set different passwords per alias). Why it matters Many…
 - [Add keyboard shortcuts to navigate between inboxes](https://ideas.tb.pro/p/add-keyboard-shortcuts-to-navigate-between-inboxes) · 1 votes · _untagged_
   > What you’d like to see Possibility to set keyboard shortcuts to switch between each inbox, including custom folders (that we create to filter aliases incoming messages). Why it matters It would…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1031
-- **solved**: 84
-- **pending**: 73
+- **closed**: 1040
+- **solved**: 78
+- **pending**: 70
 - **open**: 31
-- **new**: 29
+- **new**: 30
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 445
+- **Thundermail**: 446
 - **Send**: 29
 - **Appointment**: 14
 
@@ -393,8 +395,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#11346](https://tbpro.zendesk.com/agent/tickets/11346)** · How Can I create a Contact List like for a mailing list for a club?
+  > Tell me how to create a group mailing list.
 - **[#11342](https://tbpro.zendesk.com/agent/tickets/11342)** · Domains and Email accounts
   > Please provide instructions for adding custom domains and creating new email accounts. Thank you, [name]
 - **[#11328](https://tbpro.zendesk.com/agent/tickets/11328)** · Thunderbird & Thundermail
@@ -443,6 +447,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11342](https://tbpro.zendesk.com/agent/tickets/11342) · [new] · 2026-11-15T19:18 · Domains and Email accounts
 - [11343](https://tbpro.zendesk.com/agent/tickets/11343) · [new] · 2026-11-15T19:36 · set up account on new android device
 - [11344](https://tbpro.zendesk.com/agent/tickets/11344) · [new] · 2026-11-15T19:55 · IP unban request + custom domain verified but refusing mail
+- [11346](https://tbpro.zendesk.com/agent/tickets/11346) · [new] · 2026-11-15T20:23 · How Can I create a Contact List like for a mailing list for a club?
 
 ## Solved — last 24h
 
