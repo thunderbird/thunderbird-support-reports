@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-15
 
-_Updated: **2026-11-15 16:12 ET** · refreshes hourly_  
+_Updated: **2026-11-15 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 98** of rollout — **35,000 invitees**, **1268 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 98** of rollout — **35,000 invitees**, **1270 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **30** solved in last 24h
-- **1268** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1270** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 148.9h · mean 176.8h (proxy: updated_at − created_at, 78 solved tickets)
+- **Median AHT**: 149.3h · mean 178.1h (proxy: updated_at − created_at, 77 solved tickets)
 
 ## Known problems — 15 problem(s), 154 incident(s)
 
@@ -301,9 +301,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [new] · _Cancellation And Refund_
+  > I would like to cancel my subscription to Thundermail and receive a refund. It's urgent because I have to cancel before four more days, 11/15/26.
 
 ## New ideas on FeatureOS
 
@@ -316,17 +317,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1040
-- **solved**: 78
-- **pending**: 70
+- **closed**: 1042
+- **solved**: 77
+- **pending**: 69
+- **new**: 32
 - **open**: 31
-- **new**: 30
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 446
+- **Thundermail**: 447
 - **Send**: 29
 - **Appointment**: 14
 
