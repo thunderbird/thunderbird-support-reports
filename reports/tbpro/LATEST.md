@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-15
 
-_Updated: **2026-11-15 14:11 ET** · refreshes hourly_  
+_Updated: **2026-11-15 15:13 ET** · refreshes hourly_  
 _24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 98** of rollout — **35,000 invitees**, **1264 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 98** of rollout — **35,000 invitees**, **1267 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **30** solved in last 24h
-- **1264** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **30** solved in last 24h
+- **1267** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -318,13 +318,13 @@ _(none in last 24h)_
 - **solved**: 84
 - **pending**: 73
 - **open**: 31
-- **new**: 26
+- **new**: 29
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 443
+- **Thundermail**: 445
 - **Send**: 29
 - **Appointment**: 14
 
@@ -393,12 +393,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#11342](https://tbpro.zendesk.com/agent/tickets/11342)** · Domains and Email accounts
+  > Please provide instructions for adding custom domains and creating new email accounts. Thank you, [name]
 - **[#11328](https://tbpro.zendesk.com/agent/tickets/11328)** · Thunderbird & Thundermail
   > Hello, I see that an iOS app for Thunderbird is in active development and that a TestFlight version of the app is available. It seems the beta is full. As an early user of…
 - **[#11327](https://tbpro.zendesk.com/agent/tickets/11327)** · Reset Account
   > Can you remove any information I entered when I started setting up my account a let me start all over?
+
+### Aliases — 1 tickets
+
+- **[#11344](https://tbpro.zendesk.com/agent/tickets/11344)** · IP unban request + custom domain verified but refusing mail
+  > Account: [email] 1. My home IP [ip] was auto-banned around 16:56 UTC on 2026-11-15, after repeated RCPT TO checks while I set up a custom domain. That was my mistake, not abuse.…
+
+### Account access issues — 1 tickets
+
+- **[#11343](https://tbpro.zendesk.com/agent/tickets/11343)** · set up account on new android device
+  > I am having difficulties setting up my account on my new android tablet. I have looked on my computer to find a qr code but am unable to find it. I cannot remember my password for…
 
 ### Bug report / app crash / not working — 1 tickets
 
@@ -428,6 +440,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11327](https://tbpro.zendesk.com/agent/tickets/11327) · [new] · 2026-11-15T05:18 · Reset Account
 - [11328](https://tbpro.zendesk.com/agent/tickets/11328) · [new] · 2026-11-15T05:38 · Thunderbird & Thundermail
 - [11337](https://tbpro.zendesk.com/agent/tickets/11337) · [new] · 2026-11-15T17:17 · Can't upload file with SEND
+- [11342](https://tbpro.zendesk.com/agent/tickets/11342) · [new] · 2026-11-15T19:18 · Domains and Email accounts
+- [11343](https://tbpro.zendesk.com/agent/tickets/11343) · [new] · 2026-11-15T19:36 · set up account on new android device
+- [11344](https://tbpro.zendesk.com/agent/tickets/11344) · [new] · 2026-11-15T19:55 · IP unban request + custom domain verified but refusing mail
 
 ## Solved — last 24h
 
