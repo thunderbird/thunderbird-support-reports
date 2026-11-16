@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-15
 
-_Updated: **2026-11-15 22:20 ET** · refreshes hourly_  
+_Updated: **2026-11-15 23:18 ET** · refreshes hourly_  
 _24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 98** of rollout — **35,000 invitees**, **1272 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 98** of rollout — **35,000 invitees**, **1273 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
 - **10** new tickets in last 24h · **30** solved in last 24h
-- **1272** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1273** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -303,7 +303,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [new] · _Cancellation And Refund_
+- [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [open] · _Cancellation And Refund_
   > I would like to cancel my subscription to Thundermail and receive a refund. It's urgent because I have to cancel before four more days, 11/15/26.
 
 ## New ideas on FeatureOS
@@ -320,14 +320,14 @@ Henning Gerken_
 - **closed**: 1046
 - **solved**: 88
 - **pending**: 51
-- **open**: 34
-- **new**: 34
+- **open**: 46
+- **new**: 23
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 711
-- **Thundermail**: 449
+- **Thundermail**: 450
 - **Send**: 29
 - **Appointment**: 14
 
@@ -439,16 +439,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [11324](https://tbpro.zendesk.com/agent/tickets/11324) · [new] · 2026-11-14T21:13 · Please delete my account
-- [11325](https://tbpro.zendesk.com/agent/tickets/11325) · [new] · 2026-11-14T22:38 · Thundermail.  
-- [11326](https://tbpro.zendesk.com/agent/tickets/11326) · [new] · 2026-11-15T03:28 · DNS Records for Custom Domain
+- [11324](https://tbpro.zendesk.com/agent/tickets/11324) · [open] · 2026-11-14T21:13 · Please delete my account
+- [11325](https://tbpro.zendesk.com/agent/tickets/11325) · [open] · 2026-11-14T22:38 · Thundermail.  
+- [11326](https://tbpro.zendesk.com/agent/tickets/11326) · [open] · 2026-11-15T03:28 · DNS Records for Custom Domain
 - [11327](https://tbpro.zendesk.com/agent/tickets/11327) · [new] · 2026-11-15T05:18 · Reset Account
 - [11328](https://tbpro.zendesk.com/agent/tickets/11328) · [new] · 2026-11-15T05:38 · Thunderbird & Thundermail
-- [11337](https://tbpro.zendesk.com/agent/tickets/11337) · [new] · 2026-11-15T17:17 · Can't upload file with SEND
+- [11337](https://tbpro.zendesk.com/agent/tickets/11337) · [open] · 2026-11-15T17:17 · Can't upload file with SEND
 - [11342](https://tbpro.zendesk.com/agent/tickets/11342) · [new] · 2026-11-15T19:18 · Domains and Email accounts
 - [11343](https://tbpro.zendesk.com/agent/tickets/11343) · [new] · 2026-11-15T19:36 · set up account on new android device
 - [11344](https://tbpro.zendesk.com/agent/tickets/11344) · [new] · 2026-11-15T19:55 · IP unban request + custom domain verified but refusing mail
-- [11346](https://tbpro.zendesk.com/agent/tickets/11346) · [new] · 2026-11-15T20:23 · How Can I create a Contact List like for a mailing list for a club?
+- [11346](https://tbpro.zendesk.com/agent/tickets/11346) · [open] · 2026-11-15T20:23 · How Can I create a Contact List like for a mailing list for a club?
 
 ## Solved — last 24h
 
