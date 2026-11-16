@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 08:34 ET** · refreshes hourly_  
+_Updated: **2026-11-16 09:33 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 99** of rollout — **35,000 invitees**, **1278 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 99** of rollout — **35,000 invitees**, **1279 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **19** solved in last 24h
-- **1278** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **19** solved in last 24h
+- **1279** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -324,14 +324,14 @@ _(none in last 24h)_
 - **solved**: 88
 - **pending**: 51
 - **open**: 46
-- **new**: 28
+- **new**: 29
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 712
 - **Thundermail**: 453
-- **Send**: 30
+- **Send**: 31
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -399,8 +399,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 8 tickets
+### Other / uncategorized — 9 tickets
 
+- **[#11377](https://tbpro.zendesk.com/agent/tickets/11377)** · mail senden
+  > mmmmmmm
 - **[#11374](https://tbpro.zendesk.com/agent/tickets/11374)** · Gratis gebruik gedurende een bepaalde periode
   > Graag melden of een dergelijk abonnement beschikbaar is
 - **[#11373](https://tbpro.zendesk.com/agent/tickets/11373)** · Abonnement
@@ -440,6 +442,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11371](https://tbpro.zendesk.com/agent/tickets/11371) · [new] · 2026-11-16T12:48 · Passwort vergessen 
 - [11373](https://tbpro.zendesk.com/agent/tickets/11373) · [new] · 2026-11-16T13:30 · Abonnement
 - [11374](https://tbpro.zendesk.com/agent/tickets/11374) · [new] · 2026-11-16T13:32 · Gratis gebruik gedurende een bepaalde periode
+- [11377](https://tbpro.zendesk.com/agent/tickets/11377) · [new] · 2026-11-16T14:28 · mail senden
 
 ## Solved — last 24h
 
