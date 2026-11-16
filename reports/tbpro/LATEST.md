@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 10:25 ET** · refreshes hourly_  
+_Updated: **2026-11-16 11:17 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 99** of rollout — **35,000 invitees**, **1279 tickets** so f
 
 ## At a glance
 
-- **11** new tickets in last 24h · **20** solved in last 24h
+- **11** new tickets in last 24h · **21** solved in last 24h
 - **1279** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 50%  (1 good / 1 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 150.2h · mean 175.7h (proxy: updated_at − created_at, 88 solved tickets)
+- **Median AHT**: 149.3h · mean 175.0h (proxy: updated_at − created_at, 89 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -322,10 +322,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1047
-- **solved**: 88
-- **pending**: 55
-- **open**: 41
-- **new**: 29
+- **solved**: 89
+- **pending**: 59
+- **open**: 37
+- **new**: 28
 - **hold**: 19
 
 ## Service (cumulative)
@@ -347,7 +347,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 61
 - **blocked** + **redirected**: 55
 - **confused** + **redirected**: 55
-- **blocked** + **investigated**: 53
+- **blocked** + **investigated**: 54
 - **request** + **redirected**: 51
 - **concerned** + **explained**: 32
 - **blocked** + **informed**: 27
@@ -467,6 +467,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10957](https://tbpro.zendesk.com/agent/tickets/10957) · 2026-11-16T01:01 · je n'arrive pas à écrire un mot de passe
 - · [10815](https://tbpro.zendesk.com/agent/tickets/10815) · 2026-11-16T01:01 · Re: [Thundermail] Re: Adding an imap account
 - · [11284](https://tbpro.zendesk.com/agent/tickets/11284) · 2026-11-16T15:19 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
+- · [11144](https://tbpro.zendesk.com/agent/tickets/11144) · 2026-11-16T16:06 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
