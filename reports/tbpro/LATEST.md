@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 03:34 ET** · refreshes hourly_  
+_Updated: **2026-11-16 04:23 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 99** of rollout — **35,000 invitees**, **1273 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 99** of rollout — **35,000 invitees**, **1275 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **19** solved in last 24h
-- **1273** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **19** solved in last 24h
+- **1275** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -318,14 +318,14 @@ _(none in last 24h)_
 - **solved**: 88
 - **pending**: 51
 - **open**: 46
-- **new**: 23
+- **new**: 25
 - **hold**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 711
+- **Account Hub**: 712
 - **Thundermail**: 450
-- **Send**: 29
+- **Send**: 30
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -393,8 +393,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#11361](https://tbpro.zendesk.com/agent/tickets/11361)** · ログインできない
+  > ログインできるようにして欲しい
+- **[#11359](https://tbpro.zendesk.com/agent/tickets/11359)** · neues Thunderbird unfortunedly needs new profiles
+  > Der ganze Vorgang ist sehr schwierig.
 - **[#11355](https://tbpro.zendesk.com/agent/tickets/11355)** · User name/password
   > My computer failed on 11/15/26 and had to be restored (?) I can't locate the correct user/pass word..
 - **[#11354](https://tbpro.zendesk.com/agent/tickets/11354)** · Change main adress
@@ -419,6 +423,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [new] · 2026-11-15T23:11 · Email Deletions
 - [11354](https://tbpro.zendesk.com/agent/tickets/11354) · [new] · 2026-11-16T02:14 · Change main adress
 - [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [new] · 2026-11-16T03:57 · User name/password
+- [11359](https://tbpro.zendesk.com/agent/tickets/11359) · [new] · 2026-11-16T08:51 · neues Thunderbird unfortunedly needs new profiles
+- [11361](https://tbpro.zendesk.com/agent/tickets/11361) · [new] · 2026-11-16T09:07 · ログインできない
 
 ## Solved — last 24h
 
