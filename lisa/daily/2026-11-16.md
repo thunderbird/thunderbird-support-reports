@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 13:18 ET** · refreshes hourly_  
+_Updated: **2026-11-16 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 99** of rollout — **35,000 invitees**, **1279 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 99** of rollout — **35,000 invitees**, **1278 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **22** solved in last 24h
-- **1279** tickets total since launch · contact rate **4%** of 35000 invitees
+- **12** new tickets in last 24h · **23** solved in last 24h
+- **1278** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 150.2h · mean 171.4h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 151.2h · mean 172.0h (proxy: updated_at − created_at, 83 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"abonnement beschikbaar"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
+- **"bepaalde periode"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
 
 ## Known problems — 15 problem(s), 157 incident(s)
 
@@ -159,7 +159,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [solved] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [solved] · 2026-11-06 · _Cancellation + refund_
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [solved] · 2026-11-06 · _How to transfer my private domain users from [domain]_
-  - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [solved] · 2026-11-06 · _Refund_
+  - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [solved] · 2026-11-07 · _Account termination_
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [pending] · 2026-11-07 · _Delete Account_
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
@@ -195,7 +195,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 2 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
-  - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [open] · 2026-11-10 · _Send large files_
+  - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [hold] · 2026-11-10 · _Send large files_
 
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [closed] · [stormbox/202] Stars misaligned in message list with blank message body
 - ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
@@ -323,18 +323,18 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1051
-- **solved**: 86
-- **pending**: 69
+- **closed**: 1055
+- **solved**: 83
+- **pending**: 76
 - **open**: 36
-- **hold**: 19
-- **new**: 18
+- **hold**: 20
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 717
-- **Thundermail**: 448
-- **Send**: 31
+- **Account Hub**: 719
+- **Thundermail**: 447
+- **Send**: 30
 - **Appointment**: 14
 
 ## Why × How (cumulative)
@@ -343,28 +343,28 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 240
 - **change request** + **actioned**: 181
-- **blocked** + **explained**: 119
+- **blocked** + **explained**: 120
 - **confused** + **explained**: 100
 - **confused** + **informed**: 63
 - **curious** + **informed**: 62
 - **blocked** + **redirected**: 56
-- **confused** + **redirected**: 55
+- **confused** + **redirected**: 56
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
-- **concerned** + **explained**: 32
+- **concerned** + **explained**: 33
 - **blocked** + **informed**: 27
 - **blocked** + **escalated**: 20
 - **confused** + **—**: 15
 - **change request** + **explained**: 14
-- **blocked** + **—**: 12
+- **blocked** + **—**: 13
 - **concerned** + **—**: 10
 - **concerned** + **investigated**: 10
 - **telling us** + **explained**: 9
 - **blocked** + **actioned**: 9
 - **confused** + **investigated**: 9
 - **request** + **explained**: 7
+- **curious** + **—**: 7
 - **curious** + **actioned**: 6
-- **curious** + **—**: 6
 - **other** + **n/a**: 4
 - **concerned** + **escalated**: 4
 - **request** + **informed**: 4
@@ -440,17 +440,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [11349](https://tbpro.zendesk.com/agent/tickets/11349) · [new] · 2026-11-15T21:28 · Setting up identity etc
+- [11349](https://tbpro.zendesk.com/agent/tickets/11349) · [open] · 2026-11-15T21:28 · Setting up identity etc
 - [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [open] · 2026-11-15T21:43 · Cancellation And Refund
 - [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [new] · 2026-11-15T23:11 · Email Deletions
 - [11354](https://tbpro.zendesk.com/agent/tickets/11354) · [new] · 2026-11-16T02:14 · Change main adress
-- [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [new] · 2026-11-16T03:57 · User name/password
+- [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [open] · 2026-11-16T03:57 · User name/password
 - [11359](https://tbpro.zendesk.com/agent/tickets/11359) · [new] · 2026-11-16T08:51 · neues Thunderbird unfortunedly needs new profiles
-- [11361](https://tbpro.zendesk.com/agent/tickets/11361) · [new] · 2026-11-16T09:07 · ログインできない
+- [11361](https://tbpro.zendesk.com/agent/tickets/11361) · [open] · 2026-11-16T09:07 · ログインできない
 - [11371](https://tbpro.zendesk.com/agent/tickets/11371) · [new] · 2026-11-16T12:48 · Passwort vergessen 
 - [11373](https://tbpro.zendesk.com/agent/tickets/11373) · [new] · 2026-11-16T13:30 · Abonnement
 - [11374](https://tbpro.zendesk.com/agent/tickets/11374) · [new] · 2026-11-16T13:32 · Gratis gebruik gedurende een bepaalde periode
-- [11377](https://tbpro.zendesk.com/agent/tickets/11377) · [new] · 2026-11-16T14:28 · mail senden
+- [11377](https://tbpro.zendesk.com/agent/tickets/11377) · [open] · 2026-11-16T14:28 · mail senden
 - [11384](https://tbpro.zendesk.com/agent/tickets/11384) · [new] · 2026-11-16T17:37 · Thunderbird Pro Charge
 
 ## Solved — last 24h
@@ -477,6 +477,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11284](https://tbpro.zendesk.com/agent/tickets/11284) · 2026-11-16T15:19 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
 - · [11144](https://tbpro.zendesk.com/agent/tickets/11144) · 2026-11-16T16:06 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 - · [11049](https://tbpro.zendesk.com/agent/tickets/11049) · 2026-11-16T16:44 · Unable to send messages 
+- · [11225](https://tbpro.zendesk.com/agent/tickets/11225) · 2026-11-16T18:58 · CardDAV contacts not syncing
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
