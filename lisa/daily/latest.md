@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 07:28 ET** · refreshes hourly_  
+_Updated: **2026-11-16 08:34 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 99** of rollout — **35,000 invitees**, **1275 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 99** of rollout — **35,000 invitees**, **1278 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **19** solved in last 24h
-- **1275** tickets total since launch · contact rate **4%** of 35000 invitees
+- **10** new tickets in last 24h · **19** solved in last 24h
+- **1278** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
 - **Median AHT**: 151.4h · mean 177.9h (proxy: updated_at − created_at, 88 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"abonnement beschikbaar"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
 
 ## Known problems — 15 problem(s), 154 incident(s)
 
@@ -318,13 +324,13 @@ _(none in last 24h)_
 - **solved**: 88
 - **pending**: 51
 - **open**: 46
-- **new**: 25
+- **new**: 28
 - **hold**: 19
 
 ## Service (cumulative)
 
 - **Account Hub**: 712
-- **Thundermail**: 450
+- **Thundermail**: 453
 - **Send**: 30
 - **Appointment**: 14
 
@@ -393,8 +399,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 8 tickets
 
+- **[#11374](https://tbpro.zendesk.com/agent/tickets/11374)** · Gratis gebruik gedurende een bepaalde periode
+  > Graag melden of een dergelijk abonnement beschikbaar is
+- **[#11373](https://tbpro.zendesk.com/agent/tickets/11373)** · Abonnement
+  > Is er een gratis abonnement beschikbaar. Als ik uw mail wil gebruiken word ik ahw. geacht een abonnement van 72 euro te nemen. Mijn bedoeling is echter om een bepaalde periode te…
+- **[#11371](https://tbpro.zendesk.com/agent/tickets/11371)** · Passwort vergessen 
+  > Ich habe mein Haupasswort vergessen
 - **[#11361](https://tbpro.zendesk.com/agent/tickets/11361)** · ログインできない
   > ログインできるようにして欲しい
 - **[#11359](https://tbpro.zendesk.com/agent/tickets/11359)** · neues Thunderbird unfortunedly needs new profiles
@@ -425,6 +437,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [new] · 2026-11-16T03:57 · User name/password
 - [11359](https://tbpro.zendesk.com/agent/tickets/11359) · [new] · 2026-11-16T08:51 · neues Thunderbird unfortunedly needs new profiles
 - [11361](https://tbpro.zendesk.com/agent/tickets/11361) · [new] · 2026-11-16T09:07 · ログインできない
+- [11371](https://tbpro.zendesk.com/agent/tickets/11371) · [new] · 2026-11-16T12:48 · Passwort vergessen 
+- [11373](https://tbpro.zendesk.com/agent/tickets/11373) · [new] · 2026-11-16T13:30 · Abonnement
+- [11374](https://tbpro.zendesk.com/agent/tickets/11374) · [new] · 2026-11-16T13:32 · Gratis gebruik gedurende een bepaalde periode
 
 ## Solved — last 24h
 
