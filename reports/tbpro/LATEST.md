@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 16:14 ET** · refreshes hourly_  
+_Updated: **2026-11-16 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 99** of rollout — **35,000 invitees**, **1278 tickets** so f
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 161.1h · mean 174.5h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 161.1h · mean 174.9h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"abonnement beschikbaar"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
 
-## Known problems — 15 problem(s), 158 incident(s)
+## Known problems — 15 problem(s), 159 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -39,7 +39,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 132 incident(s):
+- 133 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -172,6 +172,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [pending] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [pending] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
+  - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [pending] · 2026-11-14 · _Refund_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -324,16 +325,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1066
-- **pending**: 91
-- **solved**: 73
-- **open**: 28
+- **closed**: 1070
+- **pending**: 98
+- **solved**: 69
+- **open**: 21
 - **hold**: 20
 
 ## Service (cumulative)
 
-- **Account Hub**: 722
-- **Thundermail**: 446
+- **Account Hub**: 724
+- **Thundermail**: 445
 - **Send**: 30
 - **Appointment**: 14
 
@@ -341,12 +342,12 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 241
-- **change request** + **actioned**: 183
+- **curious** + **explained**: 243
+- **change request** + **actioned**: 184
 - **blocked** + **explained**: 120
-- **confused** + **explained**: 101
+- **confused** + **explained**: 103
+- **curious** + **informed**: 63
 - **confused** + **informed**: 63
-- **curious** + **informed**: 62
 - **blocked** + **redirected**: 57
 - **confused** + **redirected**: 57
 - **blocked** + **investigated**: 53
@@ -354,15 +355,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **explained**: 33
 - **blocked** + **informed**: 27
 - **blocked** + **escalated**: 21
+- **confused** + **—**: 16
 - **change request** + **explained**: 15
-- **confused** + **—**: 15
 - **blocked** + **—**: 13
 - **concerned** + **investigated**: 11
 - **concerned** + **—**: 10
 - **telling us** + **explained**: 9
+- **request** + **explained**: 9
 - **blocked** + **actioned**: 9
 - **confused** + **investigated**: 9
-- **request** + **explained**: 8
 - **curious** + **—**: 7
 - **curious** + **actioned**: 6
 - **request** + **informed**: 5
@@ -402,10 +403,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 8 tickets
+### Other / uncategorized — 7 tickets
 
-- **[#11391](https://tbpro.zendesk.com/agent/tickets/11391)** · Suggestion
-  > May I suggest that for future development you consider allowing the user to determine the order that folders are listed rather than just the default of alphabetic. For example, I…
 - **[#11377](https://tbpro.zendesk.com/agent/tickets/11377)** · mail senden
   > mmmmmmm
 - **[#11374](https://tbpro.zendesk.com/agent/tickets/11374)** · Gratis gebruik gedurende een bepaalde periode
@@ -421,6 +420,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11354](https://tbpro.zendesk.com/agent/tickets/11354)** · Change main adress
   > Hi, how are you? I'm looking for where I can change my primary email. I'm currently using shelton.ribeiro, but as a rule I don't use the "." for personal emails. I was going to…
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#11353](https://tbpro.zendesk.com/agent/tickets/11353)** · Email Deletions — why: **change request** · how: **explained**
+  > I've noticed that emails seem to take about 5 seconds to delete. Reading about the solutions, both are not adequate (exclude AV action or use Shift+Delete). I don't think…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#11350](https://tbpro.zendesk.com/agent/tickets/11350)** · Cancellation And Refund
@@ -428,24 +432,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 1 tickets
 
-- **[#11349](https://tbpro.zendesk.com/agent/tickets/11349)** · Setting up identity etc
+- **[#11349](https://tbpro.zendesk.com/agent/tickets/11349)** · Setting up identity etc — why: **confused**
   > I am stumped. I am unable to create an identity for my custom domain. I set up the domain [domain] and the email alias [email] but I cannot see how to set up the identity, or even…
+
+### Webmail — 1 tickets
+
+- **[#11391](https://tbpro.zendesk.com/agent/tickets/11391)** · Suggestion — why: **request** · how: **explained**
+  > May I suggest that for future development you consider allowing the user to determine the order that folders are listed rather than just the default of alphabetic. For example, I…
 
 ### Account access issues — Account Hub trouble — 1 tickets
 
 - **[#11359](https://tbpro.zendesk.com/agent/tickets/11359)** · neues Thunderbird unfortunedly needs new profiles — why: **confused** · how: **redirected**
   > Der ganze Vorgang ist sehr schwierig.
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#11353](https://tbpro.zendesk.com/agent/tickets/11353)** · Email Deletions — why: **change request** · how: **explained**
-  > I've noticed that emails seem to take about 5 seconds to delete. Reading about the solutions, both are not adequate (exclude AV action or use Shift+Delete). I don't think…
-
 ## New tickets — last 24h
 
 - [11349](https://tbpro.zendesk.com/agent/tickets/11349) · [open] · 2026-11-15T21:28 · Setting up identity etc
 - [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [open] · 2026-11-15T21:43 · Cancellation And Refund
-- [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [pending] · 2026-11-15T23:11 · Email Deletions
+- [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [open] · 2026-11-15T23:11 · Email Deletions
 - [11354](https://tbpro.zendesk.com/agent/tickets/11354) · [open] · 2026-11-16T02:14 · Change main adress
 - [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [open] · 2026-11-16T03:57 · User name/password
 - [11359](https://tbpro.zendesk.com/agent/tickets/11359) · [pending] · 2026-11-16T08:51 · neues Thunderbird unfortunedly needs new profiles
@@ -454,7 +458,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11373](https://tbpro.zendesk.com/agent/tickets/11373) · [open] · 2026-11-16T13:30 · Abonnement
 - [11374](https://tbpro.zendesk.com/agent/tickets/11374) · [open] · 2026-11-16T13:32 · Gratis gebruik gedurende een bepaalde periode
 - [11377](https://tbpro.zendesk.com/agent/tickets/11377) · [open] · 2026-11-16T14:28 · mail senden
-- [11391](https://tbpro.zendesk.com/agent/tickets/11391) · [open] · 2026-11-16T20:32 · Suggestion
+- [11391](https://tbpro.zendesk.com/agent/tickets/11391) · [pending] · 2026-11-16T20:32 · Suggestion
 
 ## Solved — last 24h
 
