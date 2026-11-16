@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 15:16 ET** · refreshes hourly_  
+_Updated: **2026-11-16 16:14 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 99** of rollout — **35,000 invitees**, **1278 tickets** so f
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 153.8h · mean 172.8h (proxy: updated_at − created_at, 80 solved tickets)
+- **Median AHT**: 161.1h · mean 174.5h (proxy: updated_at − created_at, 73 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"bepaalde periode"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
+- **"abonnement beschikbaar"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
 
 ## Known problems — 15 problem(s), 158 incident(s)
 
@@ -156,8 +156,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [closed] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [closed] · 2026-11-05 · _Delete account and refund _
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [closed] · 2026-11-05 · _change default account email_
-  - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [solved] · 2026-11-05 · _cancel my whole account_
-  - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [solved] · 2026-11-06 · _Cancellation + refund_
+  - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [closed] · 2026-11-05 · _cancel my whole account_
+  - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [closed] · 2026-11-06 · _Cancellation + refund_
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [solved] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [solved] · 2026-11-07 · _Account termination_
@@ -324,15 +324,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1059
-- **pending**: 87
-- **solved**: 80
-- **open**: 32
+- **closed**: 1066
+- **pending**: 91
+- **solved**: 73
+- **open**: 28
 - **hold**: 20
 
 ## Service (cumulative)
 
-- **Account Hub**: 721
+- **Account Hub**: 722
 - **Thundermail**: 446
 - **Send**: 30
 - **Appointment**: 14
@@ -341,7 +341,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 240
+- **curious** + **explained**: 241
 - **change request** + **actioned**: 183
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 101
@@ -353,7 +353,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **redirected**: 51
 - **concerned** + **explained**: 33
 - **blocked** + **informed**: 27
-- **blocked** + **escalated**: 20
+- **blocked** + **escalated**: 21
 - **change request** + **explained**: 15
 - **confused** + **—**: 15
 - **blocked** + **—**: 13
@@ -402,8 +402,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 7 tickets
+### Other / uncategorized — 8 tickets
 
+- **[#11391](https://tbpro.zendesk.com/agent/tickets/11391)** · Suggestion
+  > May I suggest that for future development you consider allowing the user to determine the order that folders are listed rather than just the default of alphabetic. For example, I…
 - **[#11377](https://tbpro.zendesk.com/agent/tickets/11377)** · mail senden
   > mmmmmmm
 - **[#11374](https://tbpro.zendesk.com/agent/tickets/11374)** · Gratis gebruik gedurende een bepaalde periode
@@ -418,16 +420,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > My computer failed on 11/15/26 and had to be restored (?) I can't locate the correct user/pass word..
 - **[#11354](https://tbpro.zendesk.com/agent/tickets/11354)** · Change main adress
   > Hi, how are you? I'm looking for where I can change my primary email. I'm currently using shelton.ribeiro, but as a rule I don't use the "." for personal emails. I was going to…
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#11384](https://tbpro.zendesk.com/agent/tickets/11384)** · Thunderbird Pro Charge
-  > Hi team, I'm forwarding this Thunderbird-related ticket. Let me know if there's anything else needed from us, and thanks in advance! From: [sender] Date: Mon, Nov 16, 2026 at 1:21…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#11353](https://tbpro.zendesk.com/agent/tickets/11353)** · Email Deletions — why: **change request** · how: **explained**
-  > I've noticed that emails seem to take about 5 seconds to delete. Reading about the solutions, both are not adequate (exclude AV action or use Shift+Delete). I don't think…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -444,11 +436,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11359](https://tbpro.zendesk.com/agent/tickets/11359)** · neues Thunderbird unfortunedly needs new profiles — why: **confused** · how: **redirected**
   > Der ganze Vorgang ist sehr schwierig.
 
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#11353](https://tbpro.zendesk.com/agent/tickets/11353)** · Email Deletions — why: **change request** · how: **explained**
+  > I've noticed that emails seem to take about 5 seconds to delete. Reading about the solutions, both are not adequate (exclude AV action or use Shift+Delete). I don't think…
+
 ## New tickets — last 24h
 
 - [11349](https://tbpro.zendesk.com/agent/tickets/11349) · [open] · 2026-11-15T21:28 · Setting up identity etc
 - [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [open] · 2026-11-15T21:43 · Cancellation And Refund
-- [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [open] · 2026-11-15T23:11 · Email Deletions
+- [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [pending] · 2026-11-15T23:11 · Email Deletions
 - [11354](https://tbpro.zendesk.com/agent/tickets/11354) · [open] · 2026-11-16T02:14 · Change main adress
 - [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [open] · 2026-11-16T03:57 · User name/password
 - [11359](https://tbpro.zendesk.com/agent/tickets/11359) · [pending] · 2026-11-16T08:51 · neues Thunderbird unfortunedly needs new profiles
@@ -457,7 +454,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11373](https://tbpro.zendesk.com/agent/tickets/11373) · [open] · 2026-11-16T13:30 · Abonnement
 - [11374](https://tbpro.zendesk.com/agent/tickets/11374) · [open] · 2026-11-16T13:32 · Gratis gebruik gedurende een bepaalde periode
 - [11377](https://tbpro.zendesk.com/agent/tickets/11377) · [open] · 2026-11-16T14:28 · mail senden
-- [11384](https://tbpro.zendesk.com/agent/tickets/11384) · [open] · 2026-11-16T17:37 · Thunderbird Pro Charge
+- [11391](https://tbpro.zendesk.com/agent/tickets/11391) · [open] · 2026-11-16T20:32 · Suggestion
 
 ## Solved — last 24h
 
