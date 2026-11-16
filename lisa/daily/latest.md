@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 01:37 ET** · refreshes hourly_  
+_Updated: **2026-11-16 02:24 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 99** of rollout — **35,000 invitees**, **1273 tickets** so f
 - **1273** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
 - **Median AHT**: 151.4h · mean 177.9h (proxy: updated_at − created_at, 88 solved tickets)
 
 ## Known problems — 15 problem(s), 154 incident(s)
@@ -307,9 +307,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Delete Drafts](https://ideas.tb.pro/p/delete-drafts) · 1 votes · _untagged_
+  > What you’d like to see Thundermail (observed on Desktop) appears to save work-in-progress draft emails every 5 minutes or so. These drafts accumulate. They are never deleted upon sending the finished…
 
 ## Status breakdown (cumulative)
 
