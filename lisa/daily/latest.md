@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-11-15
+# Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-15 23:18 ET** · refreshes hourly_  
-_24h window: 2026-11-14T16:00 → 2026-11-15T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-16 00:17 ET** · refreshes hourly_  
+_24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 98** of rollout — **35,000 invitees**, **1273 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 99** of rollout — **35,000 invitees**, **1273 tickets** so far (3.6% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **30** solved in last 24h
+- **5** new tickets in last 24h · **19** solved in last 24h
 - **1273** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 151.4h · mean 177.9h (proxy: updated_at − created_at, 88 solved tickets)
 
 ## Known problems — 15 problem(s), 154 incident(s)
@@ -301,19 +301,15 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [open] · _Cancellation And Refund_
-  > I would like to cancel my subscription to Thundermail and receive a refund. It's urgent because I have to cancel before four more days, 11/15/26.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Separate SMTP accounts per alias](https://ideas.tb.pro/p/separate-smtp-accounts-per-alias) · 1 votes · _Thundermail_
-  > What you’d like to see Possibility to generate separate SMTP accounts per alias (with the alias as the login name and having an option to set different passwords per alias). Why it matters Many…
-- [Add keyboard shortcuts to navigate between inboxes](https://ideas.tb.pro/p/add-keyboard-shortcuts-to-navigate-between-inboxes) · 1 votes · _untagged_
-  > What you’d like to see Possibility to set keyboard shortcuts to switch between each inbox, including custom folders (that we create to filter aliases incoming messages). Why it matters It would…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -396,92 +392,54 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 3 tickets
 
-- **[#11346](https://tbpro.zendesk.com/agent/tickets/11346)** · How Can I create a Contact List like for a mailing list for a club?
-  > Tell me how to create a group mailing list.
-- **[#11342](https://tbpro.zendesk.com/agent/tickets/11342)** · Domains and Email accounts
-  > Please provide instructions for adding custom domains and creating new email accounts. Thank you, [name]
-- **[#11328](https://tbpro.zendesk.com/agent/tickets/11328)** · Thunderbird & Thundermail
-  > Hello, I see that an iOS app for Thunderbird is in active development and that a TestFlight version of the app is available. It seems the beta is full. As an early user of…
-- **[#11327](https://tbpro.zendesk.com/agent/tickets/11327)** · Reset Account
-  > Can you remove any information I entered when I started setting up my account a let me start all over?
+- **[#11355](https://tbpro.zendesk.com/agent/tickets/11355)** · User name/password
+  > My computer failed on 11/15/26 and had to be restored (?) I can't locate the correct user/pass word..
+- **[#11354](https://tbpro.zendesk.com/agent/tickets/11354)** · Change main adress
+  > Hi, how are you? I'm looking for where I can change my primary email. I'm currently using shelton.ribeiro, but as a rule I don't use the "." for personal emails. I was going to…
+- **[#11353](https://tbpro.zendesk.com/agent/tickets/11353)** · Email Deletions
+  > I've noticed that emails seem to take about 5 seconds to delete. Reading about the solutions, both are not adequate (exclude AV action or use Shift+Delete). I don't think…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#11350](https://tbpro.zendesk.com/agent/tickets/11350)** · Cancellation And Refund
+  > I would like to cancel my subscription to Thundermail and receive a refund. It's urgent because I have to cancel before four more days, 11/15/26.
 
 ### Aliases — 1 tickets
 
-- **[#11344](https://tbpro.zendesk.com/agent/tickets/11344)** · IP unban request + custom domain verified but refusing mail
-  > Account: [email] 1. My home IP [ip] was auto-banned around 16:56 UTC on 2026-11-15, after repeated RCPT TO checks while I set up a custom domain. That was my mistake, not abuse.…
-
-### Account access issues — 1 tickets
-
-- **[#11343](https://tbpro.zendesk.com/agent/tickets/11343)** · set up account on new android device
-  > I am having difficulties setting up my account on my new android tablet. I have looked on my computer to find a qr code but am unable to find it. I cannot remember my password for…
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#11337](https://tbpro.zendesk.com/agent/tickets/11337)** · Can't upload file with SEND
-  > Help me to understand if it's a bug or i'm doing something wrong
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#11326](https://tbpro.zendesk.com/agent/tickets/11326)** · DNS Records for Custom Domain
-  > Hello! I am trying to setup a custom domain email, however it appears that a lot of my records are showing as conflicting and I am unsure why. I am noticing there is a period…
-
-### Account creation / signup confusion — 1 tickets
-
-- **[#11325](https://tbpro.zendesk.com/agent/tickets/11325)** · Thundermail.  
-  > I just signed up on your waiting list. I have been using the Thunderbird application for my email for years and am looking forward to getting away from my current Spectrum…
-
-### Privacy / data / jurisdiction concerns — 1 tickets
-
-- **[#11324](https://tbpro.zendesk.com/agent/tickets/11324)** · Please delete my account
-  > First, sorry for my english. Please delete my account on the thundermail. It`s to much expensive to me. So, please delete.
+- **[#11349](https://tbpro.zendesk.com/agent/tickets/11349)** · Setting up identity etc
+  > I am stumped. I am unable to create an identity for my custom domain. I set up the domain [domain] and the email alias [email] but I cannot see how to set up the identity, or even…
 
 ## New tickets — last 24h
 
-- [11324](https://tbpro.zendesk.com/agent/tickets/11324) · [open] · 2026-11-14T21:13 · Please delete my account
-- [11325](https://tbpro.zendesk.com/agent/tickets/11325) · [open] · 2026-11-14T22:38 · Thundermail.  
-- [11326](https://tbpro.zendesk.com/agent/tickets/11326) · [open] · 2026-11-15T03:28 · DNS Records for Custom Domain
-- [11327](https://tbpro.zendesk.com/agent/tickets/11327) · [new] · 2026-11-15T05:18 · Reset Account
-- [11328](https://tbpro.zendesk.com/agent/tickets/11328) · [new] · 2026-11-15T05:38 · Thunderbird & Thundermail
-- [11337](https://tbpro.zendesk.com/agent/tickets/11337) · [open] · 2026-11-15T17:17 · Can't upload file with SEND
-- [11342](https://tbpro.zendesk.com/agent/tickets/11342) · [new] · 2026-11-15T19:18 · Domains and Email accounts
-- [11343](https://tbpro.zendesk.com/agent/tickets/11343) · [new] · 2026-11-15T19:36 · set up account on new android device
-- [11344](https://tbpro.zendesk.com/agent/tickets/11344) · [new] · 2026-11-15T19:55 · IP unban request + custom domain verified but refusing mail
-- [11346](https://tbpro.zendesk.com/agent/tickets/11346) · [open] · 2026-11-15T20:23 · How Can I create a Contact List like for a mailing list for a club?
+- [11349](https://tbpro.zendesk.com/agent/tickets/11349) · [new] · 2026-11-15T21:28 · Setting up identity etc
+- [11350](https://tbpro.zendesk.com/agent/tickets/11350) · [open] · 2026-11-15T21:43 · Cancellation And Refund
+- [11353](https://tbpro.zendesk.com/agent/tickets/11353) · [new] · 2026-11-15T23:11 · Email Deletions
+- [11354](https://tbpro.zendesk.com/agent/tickets/11354) · [new] · 2026-11-16T02:14 · Change main adress
+- [11355](https://tbpro.zendesk.com/agent/tickets/11355) · [new] · 2026-11-16T03:57 · User name/password
 
 ## Solved — last 24h
 
-- · [10983](https://tbpro.zendesk.com/agent/tickets/10983) · 2026-11-14T21:01 · Request for monthly subscription option
-- · [10943](https://tbpro.zendesk.com/agent/tickets/10943) · 2026-11-14T21:01 · Request for expedited Thundermail Early Bird invitation
-- · [10939](https://tbpro.zendesk.com/agent/tickets/10939) · 2026-11-14T21:01 · Danish translation
-- · [10921](https://tbpro.zendesk.com/agent/tickets/10921) · 2026-11-14T21:01 · not sending
-- · [10919](https://tbpro.zendesk.com/agent/tickets/10919) · 2026-11-14T21:01 · Need to reset my thundermail account
-- · [10884](https://tbpro.zendesk.com/agent/tickets/10884) · 2026-11-14T21:01 · Send encryption 
-- · [10880](https://tbpro.zendesk.com/agent/tickets/10880) · 2026-11-14T21:01 · krijg geen mail
-- · [10857](https://tbpro.zendesk.com/agent/tickets/10857) · 2026-11-14T21:01 · Stymied as to how to proceed
-- · [10801](https://tbpro.zendesk.com/agent/tickets/10801) · 2026-11-14T21:02 · impossibilité de me commuter à mon serveur de messagerie [domain] avec les bons documents
-- · [10991](https://tbpro.zendesk.com/agent/tickets/10991) · 2026-11-14T22:01 · got invitation, cant sign up
-- · [10965](https://tbpro.zendesk.com/agent/tickets/10965) · 2026-11-14T22:01 · Delete thread
-- · [10964](https://tbpro.zendesk.com/agent/tickets/10964) · 2026-11-14T22:01 · Unable to make a payment
-- · [10927](https://tbpro.zendesk.com/agent/tickets/10927) · 2026-11-14T22:01 · custom domain
-- · [10874](https://tbpro.zendesk.com/agent/tickets/10874) · 2026-11-14T22:01 · Recurring JMAP 525 SSL Handshake Errors – Webmail Access
-- · [10868](https://tbpro.zendesk.com/agent/tickets/10868) · 2026-11-14T22:01 · my custom domain email alias disappeared
-- · [10791](https://tbpro.zendesk.com/agent/tickets/10791) · 2026-11-14T22:01 · Refund Request
-- · [11000](https://tbpro.zendesk.com/agent/tickets/11000) · 2026-11-14T23:01 · Question about the product
-- · [10947](https://tbpro.zendesk.com/agent/tickets/10947) · 2026-11-14T23:01 · error on loading webmail
-- · [10913](https://tbpro.zendesk.com/agent/tickets/10913) · 2026-11-14T23:01 · Account termination
-- · [10891](https://tbpro.zendesk.com/agent/tickets/10891) · 2026-11-14T23:01 · thundermail vs [domain]
-- 👍 [11279](https://tbpro.zendesk.com/agent/tickets/11279) · 2026-11-14T23:02 · Firefox Relay Emails always go to Spam
-- · [10959](https://tbpro.zendesk.com/agent/tickets/10959) · 2026-11-15T00:01 · confused
-- · [10685](https://tbpro.zendesk.com/agent/tickets/10685) · 2026-11-15T01:01 · Cancel
-- · [10491](https://tbpro.zendesk.com/agent/tickets/10491) · 2026-11-15T16:01 · Bug report on Send file upload
-- · [10999](https://tbpro.zendesk.com/agent/tickets/10999) · 2026-11-15T17:01 · please refund my payment.
-- · [11011](https://tbpro.zendesk.com/agent/tickets/11011) · 2026-11-15T18:01 · Thunderbird Web app
-- · [10799](https://tbpro.zendesk.com/agent/tickets/10799) · 2026-11-15T18:02 · How do I get my email from the Free Thunderbird
-- · [11017](https://tbpro.zendesk.com/agent/tickets/11017) · 2026-11-15T19:01 · I want to cancel subscription
-- · [11016](https://tbpro.zendesk.com/agent/tickets/11016) · 2026-11-15T19:01 · Cancel + Refund
-- · [11014](https://tbpro.zendesk.com/agent/tickets/11014) · 2026-11-15T19:01 · Early Access
+- · [11019](https://tbpro.zendesk.com/agent/tickets/11019) · 2026-11-15T21:01 · cancel & delete
+- · [11013](https://tbpro.zendesk.com/agent/tickets/11013) · 2026-11-15T21:01 · Replacing Outlook Server
+- · [10994](https://tbpro.zendesk.com/agent/tickets/10994) · 2026-11-15T21:01 · Thunderbird for Android
+- · [11006](https://tbpro.zendesk.com/agent/tickets/11006) · 2026-11-15T22:01 · Fwd: Survey URL
+- · [11015](https://tbpro.zendesk.com/agent/tickets/11015) · 2026-11-15T23:01 · Takes a Minute
+- · [11003](https://tbpro.zendesk.com/agent/tickets/11003) · 2026-11-15T23:01 · cancel and refund
+- · [11023](https://tbpro.zendesk.com/agent/tickets/11023) · 2026-11-16T00:01 · Change main email address
+- · [11021](https://tbpro.zendesk.com/agent/tickets/11021) · 2026-11-16T00:01 · Account problems
+- · [10971](https://tbpro.zendesk.com/agent/tickets/10971) · 2026-11-16T00:01 · new password
+- · [10960](https://tbpro.zendesk.com/agent/tickets/10960) · 2026-11-16T00:01 · Passwort vergessen 
+- · [10948](https://tbpro.zendesk.com/agent/tickets/10948) · 2026-11-16T00:01 · Trying to feel better than Gmail..gmail
+- · [10941](https://tbpro.zendesk.com/agent/tickets/10941) · 2026-11-16T00:01 · password
+- · [10924](https://tbpro.zendesk.com/agent/tickets/10924) · 2026-11-16T00:01 · Thunderbird Early access
+- · [10920](https://tbpro.zendesk.com/agent/tickets/10920) · 2026-11-16T00:01 · Passwort 
+- · [10915](https://tbpro.zendesk.com/agent/tickets/10915) · 2026-11-16T00:01 · adresse
+- · [11033](https://tbpro.zendesk.com/agent/tickets/11033) · 2026-11-16T01:01 · Subscription termination
+- · [10981](https://tbpro.zendesk.com/agent/tickets/10981) · 2026-11-16T01:01 · My emails
+- · [10957](https://tbpro.zendesk.com/agent/tickets/10957) · 2026-11-16T01:01 · je n'arrive pas à écrire un mot de passe
+- · [10815](https://tbpro.zendesk.com/agent/tickets/10815) · 2026-11-16T01:01 · Re: [Thundermail] Re: Adding an imap account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
