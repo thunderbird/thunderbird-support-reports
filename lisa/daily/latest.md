@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 17:14 ET** · refreshes hourly_  
+_Updated: **2026-11-17 18:14 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 95%  (216 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 163.4h · mean 174.5h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 164.3h · mean 176.7h (proxy: updated_at − created_at, 91 solved tickets)
 
 ## Known problems — 15 problem(s), 163 incident(s)
 
@@ -157,7 +157,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [closed] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [solved] · 2026-11-07 · _Account termination_
-  - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [pending] · 2026-11-07 · _Delete Account_
+  - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [solved] · 2026-11-07 · _Delete Account_
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [solved] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [solved] · 2026-11-10 · _cancelation_
@@ -331,15 +331,15 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1080
-- **pending**: 93
-- **solved**: 86
+- **solved**: 91
+- **pending**: 88
 - **hold**: 20
 - **open**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 735
-- **Thundermail**: 443
+- **Account Hub**: 736
+- **Thundermail**: 442
 - **Send**: 28
 - **Appointment**: 15
 
@@ -353,7 +353,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 106
 - **curious** + **informed**: 64
 - **confused** + **informed**: 63
-- **confused** + **redirected**: 62
+- **confused** + **redirected**: 63
 - **blocked** + **redirected**: 59
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
@@ -408,6 +408,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — Account Hub trouble — 3 tickets
+
+- **[#11417](https://tbpro.zendesk.com/agent/tickets/11417)** · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci — why: **confused** · how: **redirected**
+  > Y a t'il une solution ?
+- **[#11411](https://tbpro.zendesk.com/agent/tickets/11411)** · Passwort  — why: **confused** · how: **redirected**
+  > Wie Stelle ich mein Passwort wieder her
+- **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen — why: **confused** · how: **redirected**
+  > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
+
 ### Aliases — 2 tickets
 
 - **[#11397](https://tbpro.zendesk.com/agent/tickets/11397)** · Creating new email accounts with a custom domain
@@ -415,22 +424,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11399](https://tbpro.zendesk.com/agent/tickets/11399)** · Alias Email — why: **confused** · how: **informed**
   > Good afternoon, I had emails with my DSN provider. I signed up for the thunderbird and created an alias address that is working perfectly on my PC. I use outlook on my mobile…
 
-### Account access issues — Account Hub trouble — 2 tickets
-
-- **[#11411](https://tbpro.zendesk.com/agent/tickets/11411)** · Passwort  — why: **confused** · how: **redirected**
-  > Wie Stelle ich mein Passwort wieder her
-- **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen — why: **confused** · how: **redirected**
-  > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11418](https://tbpro.zendesk.com/agent/tickets/11418)** · Apppintment
   > You have just sent an email circular entitled “Getting Started With Appointment and Send”. "Send" is obvious and straightforward, even though other email providers permit sending…
-
-### Other / uncategorized — 1 tickets
-
-- **[#11417](https://tbpro.zendesk.com/agent/tickets/11417)** · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
-  > Y a t'il une solution ?
 
 ### App setup / configuration — 1 tickets
 
@@ -467,7 +464,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11411](https://tbpro.zendesk.com/agent/tickets/11411) · [pending] · 2026-11-17T15:03 · Passwort 
 - [11415](https://tbpro.zendesk.com/agent/tickets/11415) · [open] · 2026-11-17T16:45 · password rest
 - [11416](https://tbpro.zendesk.com/agent/tickets/11416) · [open] · 2026-11-17T16:49 · Can't add account to Thunderbird.
-- [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [open] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
+- [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [pending] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
 - [11418](https://tbpro.zendesk.com/agent/tickets/11418) · [open] · 2026-11-17T17:14 · Apppintment
 - [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · 2026-11-17T17:30 · Refund request: Thunderbird Pro Annual
 
