@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 13:18 ET** · refreshes hourly_  
+_Updated: **2026-11-17 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
 
 ## At a glance
 
-- **11** new tickets in last 24h · **14** solved in last 24h
+- **11** new tickets in last 24h · **16** solved in last 24h
 - **1288** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 165.5h · mean 178.5h (proxy: updated_at − created_at, 72 solved tickets)
+- **Median AHT**: 165.5h · mean 178.8h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## Known problems — 15 problem(s), 161 incident(s)
 
@@ -153,7 +153,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [closed] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [closed] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [closed] · 2026-11-06 · _Cancellation + refund_
-  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [solved] · 2026-11-06 · _How to transfer my private domain users from [domain]_
+  - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [closed] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [solved] · 2026-11-07 · _Account termination_
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [pending] · 2026-11-07 · _Delete Account_
@@ -310,7 +310,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [new] · _Refund request: Thunderbird Pro Annual_
+- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [open] · _Refund request: Thunderbird Pro Annual_
   > Hi, I'd like to cancel my Thunderbird Pro Annual subscription and request a full refund. I bought it on November 14 for $72 through Paddle, so I'm within the 14-day refund window. I signed up planning to move my mail…
 
 ## New ideas on FeatureOS
@@ -328,12 +328,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1078
-- **pending**: 97
+- **closed**: 1079
+- **pending**: 98
 - **solved**: 72
-- **hold**: 21
-- **open**: 18
-- **new**: 2
+- **hold**: 20
+- **open**: 19
 
 ## Service (cumulative)
 
@@ -349,7 +348,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 244
 - **change request** + **actioned**: 185
 - **blocked** + **explained**: 120
-- **confused** + **explained**: 105
+- **confused** + **explained**: 106
 - **curious** + **informed**: 64
 - **confused** + **informed**: 64
 - **confused** + **redirected**: 62
@@ -446,9 +445,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11415](https://tbpro.zendesk.com/agent/tickets/11415)** · password rest
   > What does this mean? My password is going to stop working and I'm going to be shut out of email? Why would you do an update that locks out users that pay for the service? "Emails…
 
-### Early bird / invite / waitlist — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#11395](https://tbpro.zendesk.com/agent/tickets/11395)** · Thunderbird Signup
+- **[#11395](https://tbpro.zendesk.com/agent/tickets/11395)** · Thunderbird Signup — why: **confused** · how: **explained**
   > I wanted to join the thundermail and received an invite. but when I chose a username it sent an activation email to that address instead of my original?
 
 ### Account access issues — wrong product, redirected to SUMO — 1 tickets
@@ -459,7 +458,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [11394](https://tbpro.zendesk.com/agent/tickets/11394) · [pending] · 2026-11-16T23:07 · Compacting folders
-- [11395](https://tbpro.zendesk.com/agent/tickets/11395) · [open] · 2026-11-16T23:08 · Thunderbird Signup
+- [11395](https://tbpro.zendesk.com/agent/tickets/11395) · [pending] · 2026-11-16T23:08 · Thunderbird Signup
 - [11397](https://tbpro.zendesk.com/agent/tickets/11397) · [open] · 2026-11-17T02:42 · Creating new email accounts with a custom domain
 - [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [pending] · 2026-11-17T05:12 · Alias Email
 - [11401](https://tbpro.zendesk.com/agent/tickets/11401) · [pending] · 2026-11-17T07:47 · kündigen
@@ -467,8 +466,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11415](https://tbpro.zendesk.com/agent/tickets/11415) · [open] · 2026-11-17T16:45 · password rest
 - [11416](https://tbpro.zendesk.com/agent/tickets/11416) · [open] · 2026-11-17T16:49 · Can't add account to Thunderbird.
 - [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [open] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
-- [11418](https://tbpro.zendesk.com/agent/tickets/11418) · [new] · 2026-11-17T17:14 · Apppintment
-- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [new] · 2026-11-17T17:30 · Refund request: Thunderbird Pro Annual
+- [11418](https://tbpro.zendesk.com/agent/tickets/11418) · [open] · 2026-11-17T17:14 · Apppintment
+- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [open] · 2026-11-17T17:30 · Refund request: Thunderbird Pro Annual
 
 ## Solved — last 24h
 
@@ -486,6 +485,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11064](https://tbpro.zendesk.com/agent/tickets/11064) · 2026-11-17T18:01 · do you have an account 
 - · [10910](https://tbpro.zendesk.com/agent/tickets/10910) · 2026-11-17T18:01 · Setting up on Iphone Mail
 - · [10618](https://tbpro.zendesk.com/agent/tickets/10618) · 2026-11-17T18:01 · New Subscription Cancellation Information
+- · [11225](https://tbpro.zendesk.com/agent/tickets/11225) · 2026-11-17T19:02 · CardDAV contacts not syncing
+- · [11031](https://tbpro.zendesk.com/agent/tickets/11031) · 2026-11-17T19:02 · パスワードを忘れた
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
