@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-17 16:14 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,12 +11,12 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
 
 - **11** new tickets in last 24h · **24** solved in last 24h
 - **1288** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 95%  (215 good / 12 bad)
+- **CSAT (24h)**: 100%  (6 good / 0 bad)
+- **CSAT (since launch)**: 95%  (216 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 164.0h · mean 175.5h (proxy: updated_at − created_at, 80 solved tickets)
+- **Median AHT**: 163.9h · mean 175.7h (proxy: updated_at − created_at, 84 solved tickets)
 
-## Known problems — 15 problem(s), 161 incident(s)
+## Known problems — 15 problem(s), 162 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -34,7 +34,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 134 incident(s):
+- 135 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -150,6 +150,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [closed] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [closed] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [closed] · 2026-11-05 · _Delete account and refund _
+  - [#10859](https://tbpro.zendesk.com/agent/tickets/10859) · [pending] · 2026-11-05 · _Getting connected_
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [closed] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [closed] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [closed] · 2026-11-06 · _Cancellation + refund_
@@ -328,16 +329,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1079
-- **pending**: 91
-- **solved**: 80
+- **closed**: 1080
+- **pending**: 88
+- **solved**: 84
 - **hold**: 20
-- **open**: 18
+- **open**: 16
 
 ## Service (cumulative)
 
-- **Account Hub**: 733
-- **Thundermail**: 444
+- **Account Hub**: 734
+- **Thundermail**: 443
 - **Send**: 28
 - **Appointment**: 15
 
@@ -346,11 +347,11 @@ Henning Gerken_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 244
-- **change request** + **actioned**: 185
+- **change request** + **actioned**: 186
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 106
 - **curious** + **informed**: 64
-- **confused** + **informed**: 64
+- **confused** + **informed**: 63
 - **confused** + **redirected**: 62
 - **blocked** + **redirected**: 59
 - **blocked** + **investigated**: 53
@@ -400,8 +401,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **n/a**: 1
 - **blocked** + **n/a**: 1
 - **telling us** + **investigated**: 1
-- **confused** + **n/a**: 1
 - **change request** + **redirected**: 1
+- **confused** + **n/a**: 1
 - **telling us** + **actioned**: 1
 
 ## Tickets in last 24h — by theme
@@ -479,7 +480,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11059](https://tbpro.zendesk.com/agent/tickets/11059) · 2026-11-17T16:01 · Password funktioniert nicht
 - · [11052](https://tbpro.zendesk.com/agent/tickets/11052) · 2026-11-17T16:01 · srv records service field
 - · [10998](https://tbpro.zendesk.com/agent/tickets/10998) · 2026-11-17T16:01 · Thunderbird Konto
-- · [11144](https://tbpro.zendesk.com/agent/tickets/11144) · 2026-11-17T17:02 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 - · [11049](https://tbpro.zendesk.com/agent/tickets/11049) · 2026-11-17T17:02 · Unable to send messages 
 - · [11046](https://tbpro.zendesk.com/agent/tickets/11046) · 2026-11-17T17:02 · subscription
 - · [11064](https://tbpro.zendesk.com/agent/tickets/11064) · 2026-11-17T18:01 · do you have an account 
@@ -495,6 +495,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11114](https://tbpro.zendesk.com/agent/tickets/11114) · 2026-11-17T20:02 · Account Deletion
 - · [11043](https://tbpro.zendesk.com/agent/tickets/11043) · 2026-11-17T20:02 · entrar
 - · [11034](https://tbpro.zendesk.com/agent/tickets/11034) · 2026-11-17T20:02 · Thundermail upload stopped on 24 October 2026
+- 👍 [11144](https://tbpro.zendesk.com/agent/tickets/11144) · 2026-11-17T20:19 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
