@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 14:13 ET** · refreshes hourly_  
+_Updated: **2026-11-17 15:15 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
 
 ## At a glance
 
-- **11** new tickets in last 24h · **16** solved in last 24h
+- **11** new tickets in last 24h · **24** solved in last 24h
 - **1288** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (214 good / 12 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (215 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 165.5h · mean 178.8h (proxy: updated_at − created_at, 72 solved tickets)
+- **Median AHT**: 164.0h · mean 175.5h (proxy: updated_at − created_at, 80 solved tickets)
 
 ## Known problems — 15 problem(s), 161 incident(s)
 
@@ -160,9 +160,9 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [solved] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [solved] · 2026-11-10 · _cancelation_
-  - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [pending] · 2026-11-11 · _Account Deletion_
+  - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [solved] · 2026-11-11 · _Account Deletion_
   - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [pending] · 2026-11-11 · _Account Deletion_
-  - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [pending] · 2026-11-11 · _Permanently delete my account_
+  - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [solved] · 2026-11-11 · _Permanently delete my account_
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [pending] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [pending] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [pending] · 2026-11-14 · _Kontolöschung_
@@ -329,10 +329,10 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1079
-- **pending**: 98
-- **solved**: 72
+- **pending**: 91
+- **solved**: 80
 - **hold**: 20
-- **open**: 19
+- **open**: 18
 
 ## Service (cumulative)
 
@@ -485,8 +485,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11064](https://tbpro.zendesk.com/agent/tickets/11064) · 2026-11-17T18:01 · do you have an account 
 - · [10910](https://tbpro.zendesk.com/agent/tickets/10910) · 2026-11-17T18:01 · Setting up on Iphone Mail
 - · [10618](https://tbpro.zendesk.com/agent/tickets/10618) · 2026-11-17T18:01 · New Subscription Cancellation Information
-- · [11225](https://tbpro.zendesk.com/agent/tickets/11225) · 2026-11-17T19:02 · CardDAV contacts not syncing
 - · [11031](https://tbpro.zendesk.com/agent/tickets/11031) · 2026-11-17T19:02 · パスワードを忘れた
+- 👍 [11225](https://tbpro.zendesk.com/agent/tickets/11225) · 2026-11-17T19:26 · CardDAV contacts not syncing
+- · [11204](https://tbpro.zendesk.com/agent/tickets/11204) · 2026-11-17T20:02 · Browser pop up
+- · [11201](https://tbpro.zendesk.com/agent/tickets/11201) · 2026-11-17T20:02 · Re : Configuration d'un compte supplémentaire : toujours besoin d'aide ? Date :Thu, 05 Nov 2026 22:0
+- · [11193](https://tbpro.zendesk.com/agent/tickets/11193) · 2026-11-17T20:02 · Zero-Access and Post Quantum
+- · [11135](https://tbpro.zendesk.com/agent/tickets/11135) · 2026-11-17T20:02 · Permanently delete my account
+- · [11116](https://tbpro.zendesk.com/agent/tickets/11116) · 2026-11-17T20:02 · Bug Report: periods at the end of Name/Host for SRV
+- · [11114](https://tbpro.zendesk.com/agent/tickets/11114) · 2026-11-17T20:02 · Account Deletion
+- · [11043](https://tbpro.zendesk.com/agent/tickets/11043) · 2026-11-17T20:02 · entrar
+- · [11034](https://tbpro.zendesk.com/agent/tickets/11034) · 2026-11-17T20:02 · Thundermail upload stopped on 24 October 2026
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
