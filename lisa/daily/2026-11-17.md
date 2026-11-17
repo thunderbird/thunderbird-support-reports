@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 10:16 ET** · refreshes hourly_  
+_Updated: **2026-11-17 11:17 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1283 tickets** so 
 
 ## At a glance
 
-- **6** new tickets in last 24h · **4** solved in last 24h
+- **6** new tickets in last 24h · **8** solved in last 24h
 - **1283** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
-- **Median AHT**: 162.8h · mean 172.9h (proxy: updated_at − created_at, 65 solved tickets)
+- **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
+- **Median AHT**: 164.0h · mean 173.3h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 15 problem(s), 161 incident(s)
 
@@ -314,8 +314,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 3 new:
+**Last 24h** — 4 new:
 
+- [Ability to Drag and Reorder Folders in Webmail](https://ideas.tb.pro/p/ability-to-drag-and-reorder-folders-in-webmail) · 1 votes · _Community, Improvement, Webmail_
+  > Like in the desktop client, it would be helpful to drag folders into the order we want in the Thundermail webmail. This way, we can arrange folders by our own importance and use, not just the default…
 - [Integration and Customer Focus](https://ideas.tb.pro/p/integration-and-customer-focus) · 1 votes · _untagged_
   > This project started off well. Encouraged, I signed-up and paid for a year. But the same old insular issues are emerging. These ultimately resolve to expecting / requiring a customer to jump through…
 - [Price point !](https://ideas.tb.pro/p/price-point) · 1 votes · _untagged_
@@ -326,16 +328,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1078
-- **pending**: 95
-- **solved**: 65
-- **open**: 22
+- **pending**: 98
+- **solved**: 68
 - **hold**: 20
-- **new**: 3
+- **open**: 19
 
 ## Service (cumulative)
 
-- **Account Hub**: 731
-- **Thundermail**: 444
+- **Account Hub**: 733
+- **Thundermail**: 442
 - **Send**: 28
 - **Appointment**: 14
 
@@ -349,7 +350,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 105
 - **curious** + **informed**: 64
 - **confused** + **informed**: 63
-- **confused** + **redirected**: 60
+- **confused** + **redirected**: 62
 - **blocked** + **redirected**: 58
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
@@ -404,11 +405,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Account access issues — Account Hub trouble — 2 tickets
 
-- **[#11411](https://tbpro.zendesk.com/agent/tickets/11411)** · Passwort 
+- **[#11411](https://tbpro.zendesk.com/agent/tickets/11411)** · Passwort  — why: **confused** · how: **redirected**
   > Wie Stelle ich mein Passwort wieder her
-- **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen
+- **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen — why: **confused** · how: **redirected**
   > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
 
 ### Account creation / signup confusion — 1 tickets
@@ -436,9 +437,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11394](https://tbpro.zendesk.com/agent/tickets/11394) · [open] · 2026-11-16T23:07 · Compacting folders
 - [11395](https://tbpro.zendesk.com/agent/tickets/11395) · [open] · 2026-11-16T23:08 · Thunderbird Signup
 - [11397](https://tbpro.zendesk.com/agent/tickets/11397) · [open] · 2026-11-17T02:42 · Creating new email accounts with a custom domain
-- [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [new] · 2026-11-17T05:12 · Alias Email
-- [11401](https://tbpro.zendesk.com/agent/tickets/11401) · [new] · 2026-11-17T07:47 · kündigen
-- [11411](https://tbpro.zendesk.com/agent/tickets/11411) · [new] · 2026-11-17T15:03 · Passwort 
+- [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [open] · 2026-11-17T05:12 · Alias Email
+- [11401](https://tbpro.zendesk.com/agent/tickets/11401) · [pending] · 2026-11-17T07:47 · kündigen
+- [11411](https://tbpro.zendesk.com/agent/tickets/11411) · [pending] · 2026-11-17T15:03 · Passwort 
 
 ## Solved — last 24h
 
@@ -446,6 +447,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11008](https://tbpro.zendesk.com/agent/tickets/11008) · 2026-11-17T04:01 · Delete Account
 - · [11005](https://tbpro.zendesk.com/agent/tickets/11005) · 2026-11-17T04:01 · can I try the new mail client for free to start
 - · [11353](https://tbpro.zendesk.com/agent/tickets/11353) · 2026-11-17T15:02 · Email Deletions
+- · [11284](https://tbpro.zendesk.com/agent/tickets/11284) · 2026-11-17T16:01 · Re: [Thundermail] Re: Remove completely Thunderbird and Thundermail from my Linux / Zorin laptop
+- · [11059](https://tbpro.zendesk.com/agent/tickets/11059) · 2026-11-17T16:01 · Password funktioniert nicht
+- · [11052](https://tbpro.zendesk.com/agent/tickets/11052) · 2026-11-17T16:01 · srv records service field
+- · [10998](https://tbpro.zendesk.com/agent/tickets/10998) · 2026-11-17T16:01 · Thunderbird Konto
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
