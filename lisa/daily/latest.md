@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 20:16 ET** · refreshes hourly_  
+_Updated: **2026-11-16 21:20 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 99** of rollout — **35,000 invitees**, **1280 tickets** so f
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"abonnement beschikbaar"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
+- **"bepaalde periode"** — 2 tickets in 24h (new; baseline 0 cum) — [#11373](https://tbpro.zendesk.com/agent/tickets/11373), [#11374](https://tbpro.zendesk.com/agent/tickets/11374)
 
 ## Known problems — 15 problem(s), 160 incident(s)
 
