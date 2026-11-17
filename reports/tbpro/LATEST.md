@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 16:14 ET** · refreshes hourly_  
+_Updated: **2026-11-17 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,9 +14,9 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 95%  (216 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 163.9h · mean 175.7h (proxy: updated_at − created_at, 84 solved tickets)
+- **Median AHT**: 163.4h · mean 174.5h (proxy: updated_at − created_at, 86 solved tickets)
 
-## Known problems — 15 problem(s), 162 incident(s)
+## Known problems — 15 problem(s), 163 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -34,7 +34,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 135 incident(s):
+- 136 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -170,6 +170,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [pending] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [pending] · 2026-11-15 · _Cancellation And Refund_
+  - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -311,7 +312,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [open] · _Refund request: Thunderbird Pro Annual_
+- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · _Refund request: Thunderbird Pro Annual_
   > Hi, I'd like to cancel my Thunderbird Pro Annual subscription and request a full refund. I bought it on November 14 for $72 through Paddle, so I'm within the 14-day refund window. I signed up planning to move my mail…
 
 ## New ideas on FeatureOS
@@ -330,14 +331,14 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1080
-- **pending**: 88
-- **solved**: 84
+- **pending**: 93
+- **solved**: 86
 - **hold**: 20
-- **open**: 16
+- **open**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 734
+- **Account Hub**: 735
 - **Thundermail**: 443
 - **Send**: 28
 - **Appointment**: 15
@@ -347,7 +348,7 @@ Henning Gerken_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 244
-- **change request** + **actioned**: 186
+- **change request** + **actioned**: 188
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 106
 - **curious** + **informed**: 64
@@ -360,7 +361,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **informed**: 27
 - **blocked** + **escalated**: 21
 - **confused** + **—**: 16
-- **change request** + **explained**: 15
+- **change request** + **explained**: 14
 - **blocked** + **—**: 13
 - **concerned** + **investigated**: 11
 - **concerned** + **—**: 10
@@ -421,11 +422,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen — why: **confused** · how: **redirected**
   > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
 
-### Email migration / import — 1 tickets
-
-- **[#11419](https://tbpro.zendesk.com/agent/tickets/11419)** · Refund request: Thunderbird Pro Annual
-  > Hi, I'd like to cancel my Thunderbird Pro Annual subscription and request a full refund. I bought it on November 14 for $72 through Paddle, so I'm within the 14-day refund window.…
-
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11418](https://tbpro.zendesk.com/agent/tickets/11418)** · Apppintment
@@ -445,6 +441,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11415](https://tbpro.zendesk.com/agent/tickets/11415)** · password rest
   > What does this mean? My password is going to stop working and I'm going to be shut out of email? Why would you do an update that locks out users that pay for the service? "Emails…
+
+### Email migration / import — 1 tickets
+
+- **[#11419](https://tbpro.zendesk.com/agent/tickets/11419)** · Refund request: Thunderbird Pro Annual — why: **change request** · how: **actioned**
+  > Hi, I'd like to cancel my Thunderbird Pro Annual subscription and request a full refund. I bought it on November 14 for $72 through Paddle, so I'm within the 14-day refund window.…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -468,7 +469,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11416](https://tbpro.zendesk.com/agent/tickets/11416) · [open] · 2026-11-17T16:49 · Can't add account to Thunderbird.
 - [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [open] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
 - [11418](https://tbpro.zendesk.com/agent/tickets/11418) · [open] · 2026-11-17T17:14 · Apppintment
-- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [open] · 2026-11-17T17:30 · Refund request: Thunderbird Pro Annual
+- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · 2026-11-17T17:30 · Refund request: Thunderbird Pro Annual
 
 ## Solved — last 24h
 
