@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 12:15 ET** · refreshes hourly_  
+_Updated: **2026-11-17 13:18 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 100** of rollout — **35,000 invitees**, **1286 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **11** solved in last 24h
-- **1286** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **14** solved in last 24h
+- **1288** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 165.4h · mean 173.9h (proxy: updated_at − created_at, 69 solved tickets)
+- **Median AHT**: 165.5h · mean 178.5h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## Known problems — 15 problem(s), 161 incident(s)
 
@@ -308,9 +308,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [new] · _Refund request: Thunderbird Pro Annual_
+  > Hi, I'd like to cancel my Thunderbird Pro Annual subscription and request a full refund. I bought it on November 14 for $72 through Paddle, so I'm within the 14-day refund window. I signed up planning to move my mail…
 
 ## New ideas on FeatureOS
 
@@ -328,10 +329,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1078
-- **pending**: 98
-- **solved**: 69
-- **hold**: 20
-- **open**: 19
+- **pending**: 97
+- **solved**: 72
+- **hold**: 21
+- **open**: 18
 - **new**: 2
 
 ## Service (cumulative)
@@ -339,7 +340,7 @@ _(none in last 24h)_
 - **Account Hub**: 733
 - **Thundermail**: 444
 - **Send**: 28
-- **Appointment**: 14
+- **Appointment**: 15
 
 ## Why × How (cumulative)
 
@@ -350,9 +351,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 120
 - **confused** + **explained**: 105
 - **curious** + **informed**: 64
-- **confused** + **informed**: 63
+- **confused** + **informed**: 64
 - **confused** + **redirected**: 62
-- **blocked** + **redirected**: 58
+- **blocked** + **redirected**: 59
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
 - **concerned** + **explained**: 33
@@ -406,12 +407,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#11397](https://tbpro.zendesk.com/agent/tickets/11397)** · Creating new email accounts with a custom domain
+  > Hello, I was looking to create new email accounts for my custom domain that I've added to Thunderbird. But looking at the information, this only appears to be 5 alias that I can…
+- **[#11399](https://tbpro.zendesk.com/agent/tickets/11399)** · Alias Email — why: **confused** · how: **informed**
+  > Good afternoon, I had emails with my DSN provider. I signed up for the thunderbird and created an alias address that is working perfectly on my PC. I use outlook on my mobile…
+
 ### Account access issues — Account Hub trouble — 2 tickets
 
 - **[#11411](https://tbpro.zendesk.com/agent/tickets/11411)** · Passwort  — why: **confused** · how: **redirected**
   > Wie Stelle ich mein Passwort wieder her
 - **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen — why: **confused** · how: **redirected**
   > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
+
+### Email migration / import — 1 tickets
+
+- **[#11419](https://tbpro.zendesk.com/agent/tickets/11419)** · Refund request: Thunderbird Pro Annual
+  > Hi, I'd like to cancel my Thunderbird Pro Annual subscription and request a full refund. I bought it on November 14 for $72 through Paddle, so I'm within the 14-day refund window.…
+
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+
+- **[#11418](https://tbpro.zendesk.com/agent/tickets/11418)** · Apppintment
+  > You have just sent an email circular entitled “Getting Started With Appointment and Send”. "Send" is obvious and straightforward, even though other email providers permit sending…
 
 ### Other / uncategorized — 1 tickets
 
@@ -428,37 +446,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11415](https://tbpro.zendesk.com/agent/tickets/11415)** · password rest
   > What does this mean? My password is going to stop working and I'm going to be shut out of email? Why would you do an update that locks out users that pay for the service? "Emails…
 
-### Account creation / signup confusion — 1 tickets
-
-- **[#11399](https://tbpro.zendesk.com/agent/tickets/11399)** · Alias Email
-  > Good afternoon, I had emails with my DSN provider. I signed up for the thunderbird and created an alias address that is working perfectly on my PC. I use outlook on my mobile…
-
-### Aliases — 1 tickets
-
-- **[#11397](https://tbpro.zendesk.com/agent/tickets/11397)** · Creating new email accounts with a custom domain
-  > Hello, I was looking to create new email accounts for my custom domain that I've added to Thunderbird. But looking at the information, this only appears to be 5 alias that I can…
-
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#11395](https://tbpro.zendesk.com/agent/tickets/11395)** · Thunderbird Signup
   > I wanted to join the thundermail and received an invite. but when I chose a username it sent an activation email to that address instead of my original?
 
-### Appointment / calendar — 1 tickets
+### Account access issues — wrong product, redirected to SUMO — 1 tickets
 
-- **[#11394](https://tbpro.zendesk.com/agent/tickets/11394)** · Compacting folders
+- **[#11394](https://tbpro.zendesk.com/agent/tickets/11394)** · Compacting folders — why: **blocked** · how: **redirected**
   > I recently agreed to have Tmail compact my folders w/o asking me. I wonder if I could set a timer and have the folders compacted in the overnight hours? I looked around on the web…
 
 ## New tickets — last 24h
 
-- [11394](https://tbpro.zendesk.com/agent/tickets/11394) · [open] · 2026-11-16T23:07 · Compacting folders
+- [11394](https://tbpro.zendesk.com/agent/tickets/11394) · [pending] · 2026-11-16T23:07 · Compacting folders
 - [11395](https://tbpro.zendesk.com/agent/tickets/11395) · [open] · 2026-11-16T23:08 · Thunderbird Signup
 - [11397](https://tbpro.zendesk.com/agent/tickets/11397) · [open] · 2026-11-17T02:42 · Creating new email accounts with a custom domain
-- [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [open] · 2026-11-17T05:12 · Alias Email
+- [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [pending] · 2026-11-17T05:12 · Alias Email
 - [11401](https://tbpro.zendesk.com/agent/tickets/11401) · [pending] · 2026-11-17T07:47 · kündigen
 - [11411](https://tbpro.zendesk.com/agent/tickets/11411) · [pending] · 2026-11-17T15:03 · Passwort 
 - [11415](https://tbpro.zendesk.com/agent/tickets/11415) · [open] · 2026-11-17T16:45 · password rest
-- [11416](https://tbpro.zendesk.com/agent/tickets/11416) · [new] · 2026-11-17T16:49 · Can't add account to Thunderbird.
-- [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [new] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
+- [11416](https://tbpro.zendesk.com/agent/tickets/11416) · [open] · 2026-11-17T16:49 · Can't add account to Thunderbird.
+- [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [open] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
+- [11418](https://tbpro.zendesk.com/agent/tickets/11418) · [new] · 2026-11-17T17:14 · Apppintment
+- [11419](https://tbpro.zendesk.com/agent/tickets/11419) · [new] · 2026-11-17T17:30 · Refund request: Thunderbird Pro Annual
 
 ## Solved — last 24h
 
@@ -473,6 +483,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11144](https://tbpro.zendesk.com/agent/tickets/11144) · 2026-11-17T17:02 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
 - · [11049](https://tbpro.zendesk.com/agent/tickets/11049) · 2026-11-17T17:02 · Unable to send messages 
 - · [11046](https://tbpro.zendesk.com/agent/tickets/11046) · 2026-11-17T17:02 · subscription
+- · [11064](https://tbpro.zendesk.com/agent/tickets/11064) · 2026-11-17T18:01 · do you have an account 
+- · [10910](https://tbpro.zendesk.com/agent/tickets/10910) · 2026-11-17T18:01 · Setting up on Iphone Mail
+- · [10618](https://tbpro.zendesk.com/agent/tickets/10618) · 2026-11-17T18:01 · New Subscription Cancellation Information
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
