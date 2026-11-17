@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 11:17 ET** · refreshes hourly_  
+_Updated: **2026-11-17 12:15 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 100** of rollout — **35,000 invitees**, **1283 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 100** of rollout — **35,000 invitees**, **1286 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **8** solved in last 24h
-- **1283** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **11** solved in last 24h
+- **1286** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 164.0h · mean 173.3h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 165.4h · mean 173.9h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## Known problems — 15 problem(s), 161 incident(s)
 
@@ -329,14 +329,15 @@ _(none in last 24h)_
 
 - **closed**: 1078
 - **pending**: 98
-- **solved**: 68
+- **solved**: 69
 - **hold**: 20
 - **open**: 19
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 733
-- **Thundermail**: 442
+- **Thundermail**: 444
 - **Send**: 28
 - **Appointment**: 14
 
@@ -412,6 +413,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen — why: **confused** · how: **redirected**
   > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
 
+### Other / uncategorized — 1 tickets
+
+- **[#11417](https://tbpro.zendesk.com/agent/tickets/11417)** · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
+  > Y a t'il une solution ?
+
+### App setup / configuration — 1 tickets
+
+- **[#11416](https://tbpro.zendesk.com/agent/tickets/11416)** · Can't add account to Thunderbird.
+  > When I try to add the account it opens up Firefox with a JSON page, but the Thunderbird client does not seem to recognize that it has opened, and will continue to wait for…
+
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#11415](https://tbpro.zendesk.com/agent/tickets/11415)** · password rest
+  > What does this mean? My password is going to stop working and I'm going to be shut out of email? Why would you do an update that locks out users that pay for the service? "Emails…
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#11399](https://tbpro.zendesk.com/agent/tickets/11399)** · Alias Email
@@ -440,6 +456,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [open] · 2026-11-17T05:12 · Alias Email
 - [11401](https://tbpro.zendesk.com/agent/tickets/11401) · [pending] · 2026-11-17T07:47 · kündigen
 - [11411](https://tbpro.zendesk.com/agent/tickets/11411) · [pending] · 2026-11-17T15:03 · Passwort 
+- [11415](https://tbpro.zendesk.com/agent/tickets/11415) · [open] · 2026-11-17T16:45 · password rest
+- [11416](https://tbpro.zendesk.com/agent/tickets/11416) · [new] · 2026-11-17T16:49 · Can't add account to Thunderbird.
+- [11417](https://tbpro.zendesk.com/agent/tickets/11417) · [new] · 2026-11-17T17:13 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
 
 ## Solved — last 24h
 
@@ -451,6 +470,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11059](https://tbpro.zendesk.com/agent/tickets/11059) · 2026-11-17T16:01 · Password funktioniert nicht
 - · [11052](https://tbpro.zendesk.com/agent/tickets/11052) · 2026-11-17T16:01 · srv records service field
 - · [10998](https://tbpro.zendesk.com/agent/tickets/10998) · 2026-11-17T16:01 · Thunderbird Konto
+- · [11144](https://tbpro.zendesk.com/agent/tickets/11144) · 2026-11-17T17:02 · URGENT: Unauthorised Thundermail Account Created Through Hacked Microsoft Account.
+- · [11049](https://tbpro.zendesk.com/agent/tickets/11049) · 2026-11-17T17:02 · Unable to send messages 
+- · [11046](https://tbpro.zendesk.com/agent/tickets/11046) · 2026-11-17T17:02 · subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
