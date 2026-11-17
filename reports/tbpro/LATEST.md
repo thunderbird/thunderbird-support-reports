@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 02:16 ET** · refreshes hourly_  
+_Updated: **2026-11-17 03:20 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 100** of rollout — **35,000 invitees**, **1282 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 100** of rollout — **35,000 invitees**, **1283 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **3** solved in last 24h
-- **1282** tickets total since launch · contact rate **4%** of 35000 invitees
+- **5** new tickets in last 24h · **3** solved in last 24h
+- **1283** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
 - **Median AHT**: 165.4h · mean 174.9h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## Known problems — 15 problem(s), 161 incident(s)
@@ -314,8 +314,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 3 new:
 
+- [Integration and Customer Focus](https://ideas.tb.pro/p/integration-and-customer-focus) · 1 votes · _untagged_
+  > This project started off well. Encouraged, I signed-up and paid for a year. But the same old insular issues are emerging. These ultimately resolve to expecting / requiring a customer to jump through…
 - [Price point !](https://ideas.tb.pro/p/price-point) · 1 votes · _untagged_
   > What you’d like to see Briefly describe the feature or improvement. 6 USD per month ! Do you realize that your competition, ie gmail, offers the same, for free ? Why should I pay that price ? You’d…
 - [Lifetime one price subscription](https://ideas.tb.pro/p/lifetime-one-price-subscription) · 1 votes · _untagged_
@@ -324,16 +326,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1077
-- **pending**: 96
+- **pending**: 95
 - **solved**: 65
-- **open**: 22
+- **open**: 23
 - **hold**: 20
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 729
-- **Thundermail**: 445
+- **Thundermail**: 446
 - **Send**: 28
 - **Appointment**: 14
 
@@ -402,6 +404,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#11401](https://tbpro.zendesk.com/agent/tickets/11401)** · kündigen
+  > ich bei der telecom und ich kann meine E-mailss nicht bei Thunderbird abrufen
+
 ### Account creation / signup confusion — 1 tickets
 
 - **[#11399](https://tbpro.zendesk.com/agent/tickets/11399)** · Alias Email
@@ -428,6 +435,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11395](https://tbpro.zendesk.com/agent/tickets/11395) · [open] · 2026-11-16T23:08 · Thunderbird Signup
 - [11397](https://tbpro.zendesk.com/agent/tickets/11397) · [open] · 2026-11-17T02:42 · Creating new email accounts with a custom domain
 - [11399](https://tbpro.zendesk.com/agent/tickets/11399) · [new] · 2026-11-17T05:12 · Alias Email
+- [11401](https://tbpro.zendesk.com/agent/tickets/11401) · [new] · 2026-11-17T07:47 · kündigen
 
 ## Solved — last 24h
 
