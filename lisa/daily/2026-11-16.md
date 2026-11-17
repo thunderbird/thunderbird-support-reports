@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-16
 
-_Updated: **2026-11-16 22:17 ET** · refreshes hourly_  
+_Updated: **2026-11-16 23:17 ET** · refreshes hourly_  
 _24h window: 2026-11-15T16:00 → 2026-11-16T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 99** of rollout — **35,000 invitees**, **1281 tickets** so f
 - **CSAT (24h)**: 67%  (2 good / 1 bad)
 - **CSAT (since launch)**: 95%  (214 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 165.4h · mean 175.8h (proxy: updated_at − created_at, 63 solved tickets)
+- **Median AHT**: 165.5h · mean 175.5h (proxy: updated_at − created_at, 66 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -164,7 +164,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [pending] · 2026-11-07 · _Delete Account_
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [solved] · 2026-11-09 · _cancel and refund_
-  - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [pending] · 2026-11-10 · _cancelation_
+  - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [solved] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [pending] · 2026-11-11 · _Account Deletion_
   - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [pending] · 2026-11-11 · _Account Deletion_
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [pending] · 2026-11-11 · _Permanently delete my account_
@@ -327,10 +327,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1076
-- **pending**: 102
-- **solved**: 63
+- **pending**: 98
+- **solved**: 66
 - **hold**: 20
-- **open**: 18
+- **open**: 19
 - **new**: 2
 
 ## Service (cumulative)
