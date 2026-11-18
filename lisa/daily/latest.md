@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-17
 
-_Updated: **2026-11-17 19:36 ET** · refreshes hourly_  
+_Updated: **2026-11-17 20:16 ET** · refreshes hourly_  
 _24h window: 2026-11-16T16:00 → 2026-11-17T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
 - **CSAT (24h)**: 100%  (6 good / 0 bad)
 - **CSAT (since launch)**: 95%  (216 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 164.1h · mean 176.2h (proxy: updated_at − created_at, 93 solved tickets)
+- **Median AHT**: 163.5h · mean 175.6h (proxy: updated_at − created_at, 95 solved tickets)
 
 ## Known problems — 15 problem(s), 163 incident(s)
 
@@ -162,9 +162,9 @@ Flight 8 is **day 100** of rollout — **35,000 invitees**, **1288 tickets** so 
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [solved] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [solved] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [solved] · 2026-11-11 · _Account Deletion_
-  - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [pending] · 2026-11-11 · _Account Deletion_
+  - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [solved] · 2026-11-11 · _Account Deletion_
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [solved] · 2026-11-11 · _Permanently delete my account_
-  - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [pending] · 2026-11-12 · _Refund_
+  - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [pending] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [pending] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
@@ -331,10 +331,10 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1080
-- **solved**: 93
-- **pending**: 86
+- **solved**: 95
+- **pending**: 83
 - **hold**: 20
-- **open**: 9
+- **open**: 10
 
 ## Service (cumulative)
 
