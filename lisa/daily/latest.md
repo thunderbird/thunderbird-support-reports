@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 11:16 ET** · refreshes hourly_  
+_Updated: **2026-11-18 12:14 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 101** of rollout — **35,000 invitees**, **1291 tickets** so 
 
 ## At a glance
 
-- **3** new tickets in last 24h · **24** solved in last 24h
+- **3** new tickets in last 24h · **27** solved in last 24h
 - **1291** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
-- **CSAT (since launch)**: 95%  (216 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 163.4h · mean 175.4h (proxy: updated_at − created_at, 99 solved tickets)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (since launch)**: 95%  (217 good / 12 bad)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **Median AHT**: 163.4h · mean 174.8h (proxy: updated_at − created_at, 101 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -171,7 +171,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [solved] · 2026-11-11 · _Account Deletion_
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [solved] · 2026-11-11 · _Permanently delete my account_
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
-  - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [pending] · 2026-11-13 · _I want to delete my account_
+  - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [open] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [pending] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [pending] · 2026-11-14 · _Refund_
@@ -322,17 +322,18 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Add an option to PIN a message to the top](https://ideas.tb.pro/p/add-an-option-to-pin-a-message-to-the-top) · 1 votes · _untagged_
+  > What you’d like to see Been using Outlook email since like 2007, and it allows me to pin an email (like an upcoming flight) so that email always stays at the top of the email list. Currently in…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1081
-- **solved**: 99
-- **pending**: 83
+- **closed**: 1082
+- **solved**: 101
+- **pending**: 79
 - **hold**: 20
-- **open**: 8
+- **open**: 9
 
 ## Service (cumulative)
 
@@ -348,7 +349,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 244
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 121
-- **confused** + **explained**: 106
+- **confused** + **explained**: 107
 - **curious** + **informed**: 64
 - **confused** + **redirected**: 64
 - **confused** + **informed**: 63
@@ -450,9 +451,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10909](https://tbpro.zendesk.com/agent/tickets/10909) · 2026-11-18T04:01 · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
 - · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-18T14:54 · Unable to load Thundermail in Apple Mail
 - · [11349](https://tbpro.zendesk.com/agent/tickets/11349) · 2026-11-18T15:32 · Setting up identity etc
-- · [11353](https://tbpro.zendesk.com/agent/tickets/11353) · 2026-11-18T16:02 · Email Deletions
 - · [11230](https://tbpro.zendesk.com/agent/tickets/11230) · 2026-11-18T16:02 · Unable to contine sign-up
 - · [11226](https://tbpro.zendesk.com/agent/tickets/11226) · 2026-11-18T16:02 · Update billing email in Paddle
+- 👍 [11353](https://tbpro.zendesk.com/agent/tickets/11353) · 2026-11-18T16:27 · Email Deletions
+- · [11236](https://tbpro.zendesk.com/agent/tickets/11236) · 2026-11-18T17:02 · Planned Outage
+- · [11235](https://tbpro.zendesk.com/agent/tickets/11235) · 2026-11-18T17:02 · Upcoming Thundermail Outage
+- · [11065](https://tbpro.zendesk.com/agent/tickets/11065) · 2026-11-18T17:02 · Move from Gmail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
