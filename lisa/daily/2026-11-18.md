@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 16:14 ET** · refreshes hourly_  
+_Updated: **2026-11-18 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1295 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 101** of rollout — **35,000 invitees**, **1297 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **29** solved in last 24h
-- **1295** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **1297** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 155.7h · mean 172.5h (proxy: updated_at − created_at, 106 solved tickets)
+- **Median AHT**: 155.1h · mean 171.7h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"rocky demo"** — 2 tickets in 24h (new; baseline 0 cum) — [#11427](https://tbpro.zendesk.com/agent/tickets/11427), [#11428](https://tbpro.zendesk.com/agent/tickets/11428)
 
-## Known problems — 15 problem(s), 163 incident(s)
+## Known problems — 16 problem(s), 164 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -243,8 +243,14 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 1 incident(s):
   - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [solved] · 2026-10-26 · _Bug report on Send file upload_
 
-## Other tickets linked to GitHub — 10 ticket(s) → 11 issue(s)
+### [#11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · [stormbox/260] Inline picture pastes in Webmail set centre justification
+- 🔧 GitHub: [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260) · _Inline picture pastes in Webmail set centre justification_
+- 1 incident(s):
+  - [#11039](https://tbpro.zendesk.com/agent/tickets/11039) · [pending] · 2026-11-10 · _Missing features and questions_
 
+## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
+
+- 🔧 [zd #11454](https://tbpro.zendesk.com/agent/tickets/11454) → [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120) · _HTML Tags Appear in Message Preview_
 - 🔧 [zd #10078](https://tbpro.zendesk.com/agent/tickets/10078) → [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
 - 🔧 [zd #8852](https://tbpro.zendesk.com/agent/tickets/8852) → [thunderbird/stormbox#191](https://github.com/thunderbird/stormbox/issues/191) · _Light mode toggle doesn’t remember state in message preview_
@@ -333,15 +339,15 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1082
-- **solved**: 106
-- **pending**: 78
-- **hold**: 22
-- **open**: 7
+- **solved**: 108
+- **pending**: 77
+- **hold**: 24
+- **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 739
-- **Thundermail**: 446
+- **Account Hub**: 738
+- **Thundermail**: 449
 - **Send**: 29
 - **Appointment**: 15
 
@@ -349,7 +355,7 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 244
+- **curious** + **explained**: 245
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 122
 - **confused** + **explained**: 108
@@ -395,6 +401,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **investigated**: 2
 - **telling us** + **escalated**: 2
 - **concerned** + **n/a**: 2
+- **change request** + **—**: 2
 - **telling us** + **informed**: 1
 - **other** + **explained**: 1
 - **request** + **—**: 1
