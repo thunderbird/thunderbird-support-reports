@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 15:16 ET** · refreshes hourly_  
+_Updated: **2026-11-18 16:14 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1294 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 101** of rollout — **35,000 invitees**, **1295 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **29** solved in last 24h
-- **1294** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **29** solved in last 24h
+- **1295** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 162.8h · mean 173.7h (proxy: updated_at − created_at, 103 solved tickets)
+- **Median AHT**: 155.7h · mean 172.5h (proxy: updated_at − created_at, 106 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -333,14 +333,14 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1082
-- **solved**: 103
-- **pending**: 80
+- **solved**: 106
+- **pending**: 78
 - **hold**: 22
 - **open**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 738
+- **Account Hub**: 739
 - **Thundermail**: 446
 - **Send**: 29
 - **Appointment**: 15
@@ -352,7 +352,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 244
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 122
-- **confused** + **explained**: 107
+- **confused** + **explained**: 108
 - **curious** + **informed**: 64
 - **confused** + **redirected**: 64
 - **confused** + **informed**: 63
@@ -410,6 +410,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — Account Hub trouble — 2 tickets
+
+- **[#11451](https://tbpro.zendesk.com/agent/tickets/11451)** · My account?   — why: **confused** · how: **explained**
+  > I purchased a subscription on October 7, 2026, totaling $72.00 (invoice reference: 9312-14714) Invoice from [domain] Inc. When logging into the [domain] mail or [domain] mail…
+- **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
+  > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#11450](https://tbpro.zendesk.com/agent/tickets/11450)** · Refunds?
@@ -424,11 +431,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11447](https://tbpro.zendesk.com/agent/tickets/11447)** · OAUTH is broken on Firefox — why: **blocked** · how: **explained**
   > I use Firefox as my main browser on Mac, Windows and Linux. On all 3 I tried to configure Thunderbird to use the new mail service.. and whenever it gets to the Oauth redirect it…
-
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
-  > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -448,6 +450,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11447](https://tbpro.zendesk.com/agent/tickets/11447) · [pending] · 2026-11-18T17:22 · OAUTH is broken on Firefox
 - [11448](https://tbpro.zendesk.com/agent/tickets/11448) · [open] · 2026-11-18T18:43 · login issues
 - [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [open] · 2026-11-18T19:47 · Refunds?
+- [11451](https://tbpro.zendesk.com/agent/tickets/11451) · [pending] · 2026-11-18T20:21 · My account?  
 
 ## Solved — last 24h
 
