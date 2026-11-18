@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 08:16 ET** · refreshes hourly_  
+_Updated: **2026-11-18 09:16 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1290 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 101** of rollout — **35,000 invitees**, **1291 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **19** solved in last 24h
-- **1290** tickets total since launch · contact rate **4%** of 35000 invitees
+- **3** new tickets in last 24h · **19** solved in last 24h
+- **1291** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (216 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -330,14 +330,14 @@ _(none in last 24h)_
 
 - **closed**: 1080
 - **solved**: 96
-- **pending**: 82
+- **pending**: 86
 - **hold**: 20
-- **open**: 12
+- **open**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 737
-- **Thundermail**: 442
+- **Account Hub**: 738
+- **Thundermail**: 443
 - **Send**: 29
 - **Appointment**: 15
 
@@ -347,11 +347,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 244
 - **change request** + **actioned**: 188
-- **blocked** + **explained**: 120
+- **blocked** + **explained**: 121
 - **confused** + **explained**: 106
 - **curious** + **informed**: 64
+- **confused** + **redirected**: 64
 - **confused** + **informed**: 63
-- **confused** + **redirected**: 63
 - **blocked** + **redirected**: 59
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
@@ -361,8 +361,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **—**: 16
 - **change request** + **explained**: 14
 - **blocked** + **—**: 13
+- **concerned** + **—**: 11
 - **concerned** + **investigated**: 11
-- **concerned** + **—**: 10
 - **telling us** + **explained**: 9
 - **request** + **explained**: 9
 - **blocked** + **actioned**: 9
@@ -416,10 +416,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11427](https://tbpro.zendesk.com/agent/tickets/11427)** · Rocky Demo - Send upload fails: key to decrypt this container
   > Hi, Uploading a file in Send fails with the error "key to decrypt this container". A forum post says I should reset my key. Should I? And when will this work again? I need it for…
 
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
+  > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
+
 ## New tickets — last 24h
 
 - [11427](https://tbpro.zendesk.com/agent/tickets/11427) · [open] · 2026-11-18T05:11 · Rocky Demo - Send upload fails: key to decrypt this container
 - [11428](https://tbpro.zendesk.com/agent/tickets/11428) · [open] · 2026-11-18T05:13 · Rocky demo - Is there a free plan or monthly payment?
+- [11435](https://tbpro.zendesk.com/agent/tickets/11435) · [pending] · 2026-11-18T13:26 · die obige Mail-Adresse
 
 ## Solved — last 24h
 
