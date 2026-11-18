@@ -1,19 +1,19 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 13:16 ET** · refreshes hourly_  
+_Updated: **2026-11-18 14:12 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1292 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 101** of rollout — **35,000 invitees**, **1293 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **29** solved in last 24h
-- **1292** tickets total since launch · contact rate **4%** of 35000 invitees
+- **5** new tickets in last 24h · **29** solved in last 24h
+- **1293** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
 - **Median AHT**: 162.8h · mean 173.7h (proxy: updated_at − created_at, 103 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
@@ -322,8 +322,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Adding third-party caldav contacts and calendars to the webview](https://ideas.tb.pro/p/adding-third-party-caldav-contacts-and-calendars-to-the-webview) · 1 votes · _untagged_
+  > What you’d like to see It’d be wonderful if we could add third-party caldav calendars and contact books to the webmail view (such as from Nextcloud) so that, like in Thunderbird, we can have all our…
 - [Add an option to PIN a message to the top](https://ideas.tb.pro/p/add-an-option-to-pin-a-message-to-the-top) · 1 votes · _untagged_
   > What you’d like to see Been using Outlook email since like 2007, and it allows me to pin an email (like an upcoming flight) so that email always stays at the top of the email list. Currently in…
 
@@ -333,12 +335,12 @@ _(none in last 24h)_
 - **solved**: 103
 - **pending**: 80
 - **hold**: 22
-- **open**: 5
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 738
-- **Thundermail**: 444
+- **Thundermail**: 445
 - **Send**: 29
 - **Appointment**: 15
 
@@ -407,6 +409,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#11448](https://tbpro.zendesk.com/agent/tickets/11448)** · login issues
+  > I had to do a new install of W11 and cannot install Thunderbird. I suspect the password is incorrect and I can't proceed. I can receive emails at [email].
+
 ### Bug report / app crash / not working — 1 tickets
 
 - **[#11447](https://tbpro.zendesk.com/agent/tickets/11447)** · OAUTH is broken on Firefox — why: **blocked** · how: **explained**
@@ -433,6 +440,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11428](https://tbpro.zendesk.com/agent/tickets/11428) · [hold] · 2026-11-18T05:13 · Rocky demo - Is there a free plan or monthly payment?
 - [11435](https://tbpro.zendesk.com/agent/tickets/11435) · [pending] · 2026-11-18T13:26 · die obige Mail-Adresse
 - [11447](https://tbpro.zendesk.com/agent/tickets/11447) · [pending] · 2026-11-18T17:22 · OAUTH is broken on Firefox
+- [11448](https://tbpro.zendesk.com/agent/tickets/11448) · [open] · 2026-11-18T18:43 · login issues
 
 ## Solved — last 24h
 
