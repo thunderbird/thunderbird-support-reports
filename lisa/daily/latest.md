@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-18 10:14 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 101** of rollout — **35,000 invitees**, **1291 tickets** so 
 
 ## At a glance
 
-- **3** new tickets in last 24h · **19** solved in last 24h
+- **3** new tickets in last 24h · **20** solved in last 24h
 - **1291** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (216 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 163.8h · mean 176.5h (proxy: updated_at − created_at, 96 solved tickets)
+- **Median AHT**: 163.5h · mean 176.2h (proxy: updated_at − created_at, 97 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -329,8 +329,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1080
-- **solved**: 96
-- **pending**: 86
+- **solved**: 97
+- **pending**: 85
 - **hold**: 20
 - **open**: 9
 
@@ -448,6 +448,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11142](https://tbpro.zendesk.com/agent/tickets/11142) · 2026-11-18T01:01 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
 - · [11125](https://tbpro.zendesk.com/agent/tickets/11125) · 2026-11-18T01:01 · Account Deletion
 - · [10909](https://tbpro.zendesk.com/agent/tickets/10909) · 2026-11-18T04:01 · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
+- · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-18T14:54 · Unable to load Thundermail in Apple Mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
