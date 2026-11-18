@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 12:14 ET** · refreshes hourly_  
+_Updated: **2026-11-18 13:16 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1291 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
+Flight 8 is **day 101** of rollout — **35,000 invitees**, **1292 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **15 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **27** solved in last 24h
-- **1291** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **4** new tickets in last 24h · **29** solved in last 24h
+- **1292** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 163.4h · mean 174.8h (proxy: updated_at − created_at, 101 solved tickets)
+- **Median AHT**: 162.8h · mean 173.7h (proxy: updated_at − created_at, 103 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -171,7 +171,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [solved] · 2026-11-11 · _Account Deletion_
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [solved] · 2026-11-11 · _Permanently delete my account_
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
-  - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [open] · 2026-11-13 · _I want to delete my account_
+  - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [solved] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [pending] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [pending] · 2026-11-14 · _Refund_
@@ -330,15 +330,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1082
-- **solved**: 101
-- **pending**: 79
-- **hold**: 20
-- **open**: 9
+- **solved**: 103
+- **pending**: 80
+- **hold**: 22
+- **open**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 738
-- **Thundermail**: 443
+- **Thundermail**: 444
 - **Send**: 29
 - **Appointment**: 15
 
@@ -348,7 +348,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 244
 - **change request** + **actioned**: 188
-- **blocked** + **explained**: 121
+- **blocked** + **explained**: 122
 - **confused** + **explained**: 107
 - **curious** + **informed**: 64
 - **confused** + **redirected**: 64
@@ -407,6 +407,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Bug report / app crash / not working — 1 tickets
+
+- **[#11447](https://tbpro.zendesk.com/agent/tickets/11447)** · OAUTH is broken on Firefox — why: **blocked** · how: **explained**
+  > I use Firefox as my main browser on Mac, Windows and Linux. On all 3 I tried to configure Thunderbird to use the new mail service.. and whenever it gets to the Oauth redirect it…
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
+  > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
+
 ### Pricing / monthly plan / free tier — 1 tickets
 
 - **[#11428](https://tbpro.zendesk.com/agent/tickets/11428)** · Rocky demo - Is there a free plan or monthly payment?
@@ -417,16 +427,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11427](https://tbpro.zendesk.com/agent/tickets/11427)** · Rocky Demo - Send upload fails: key to decrypt this container
   > Hi, Uploading a file in Send fails with the error "key to decrypt this container". A forum post says I should reset my key. Should I? And when will this work again? I need it for…
 
-### Account access issues — Account Hub trouble — 1 tickets
-
-- **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
-  > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
-
 ## New tickets — last 24h
 
-- [11427](https://tbpro.zendesk.com/agent/tickets/11427) · [open] · 2026-11-18T05:11 · Rocky Demo - Send upload fails: key to decrypt this container
-- [11428](https://tbpro.zendesk.com/agent/tickets/11428) · [open] · 2026-11-18T05:13 · Rocky demo - Is there a free plan or monthly payment?
+- [11427](https://tbpro.zendesk.com/agent/tickets/11427) · [hold] · 2026-11-18T05:11 · Rocky Demo - Send upload fails: key to decrypt this container
+- [11428](https://tbpro.zendesk.com/agent/tickets/11428) · [hold] · 2026-11-18T05:13 · Rocky demo - Is there a free plan or monthly payment?
 - [11435](https://tbpro.zendesk.com/agent/tickets/11435) · [pending] · 2026-11-18T13:26 · die obige Mail-Adresse
+- [11447](https://tbpro.zendesk.com/agent/tickets/11447) · [pending] · 2026-11-18T17:22 · OAUTH is broken on Firefox
 
 ## Solved — last 24h
 
@@ -457,6 +463,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11236](https://tbpro.zendesk.com/agent/tickets/11236) · 2026-11-18T17:02 · Planned Outage
 - · [11235](https://tbpro.zendesk.com/agent/tickets/11235) · 2026-11-18T17:02 · Upcoming Thundermail Outage
 - · [11065](https://tbpro.zendesk.com/agent/tickets/11065) · 2026-11-18T17:02 · Move from Gmail
+- · [11285](https://tbpro.zendesk.com/agent/tickets/11285) · 2026-11-18T17:24 · I want to delete my account
+- · [11266](https://tbpro.zendesk.com/agent/tickets/11266) · 2026-11-18T18:02 · Update billing email in Paddle
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
