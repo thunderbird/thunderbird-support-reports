@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 06:14 ET** · refreshes hourly_  
+_Updated: **2026-11-19 07:21 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1305 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1306 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **7** solved in last 24h
-- **1305** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **7** solved in last 24h
+- **1306** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -20,8 +20,8 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1305 tickets** so 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"passe besoin retrouver"** — 2 tickets in 24h (new; baseline 0 cum) — [#11464](https://tbpro.zendesk.com/agent/tickets/11464), [#11466](https://tbpro.zendesk.com/agent/tickets/11466)
-- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"retrouver passe besoin"** — 2 tickets in 24h (new; baseline 0 cum) — [#11464](https://tbpro.zendesk.com/agent/tickets/11464), [#11466](https://tbpro.zendesk.com/agent/tickets/11466)
+- **"ticket link github"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 164 incident(s)
 
@@ -340,11 +340,11 @@ _(none in last 24h)_
 - **pending**: 71
 - **hold**: 24
 - **open**: 11
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 742
+- **Account Hub**: 743
 - **Thundermail**: 453
 - **Send**: 29
 - **Appointment**: 15
@@ -415,8 +415,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 6 tickets
+### Other / uncategorized — 7 tickets
 
+- **[#11472](https://tbpro.zendesk.com/agent/tickets/11472)** · neues Konto
+  > wie kann ich es einrichten
 - **[#11466](https://tbpro.zendesk.com/agent/tickets/11466)** · besoin de retrouver mon mot de passe Thunderbird
   > besoin de retrouver mon mot de passe Thunderbird
 - **[#11465](https://tbpro.zendesk.com/agent/tickets/11465)** · besoin de retouver mon mot de passe
@@ -459,6 +461,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11465](https://tbpro.zendesk.com/agent/tickets/11465) · [new] · 2026-11-19T10:01 · besoin de retouver mon mot de passe
 - [11466](https://tbpro.zendesk.com/agent/tickets/11466) · [new] · 2026-11-19T10:03 · besoin de retrouver mon mot de passe Thunderbird
 - [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [new] · 2026-11-19T10:04 · Add second email account
+- [11472](https://tbpro.zendesk.com/agent/tickets/11472) · [new] · 2026-11-19T11:54 · neues Konto
 
 ## Solved — last 24h
 
