@@ -1,26 +1,26 @@
-# Thundermail — Flight 8 Live Report · 2026-11-18
+# Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-18 23:17 ET** · refreshes hourly_  
-_24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-19 00:15 ET** · refreshes hourly_  
+_24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1298 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1298 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **29** solved in last 24h
+- **3** new tickets in last 24h · **7** solved in last 24h
 - **1298** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 155.1h · mean 172.4h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"rocky demo"** — 2 tickets in 24h (new; baseline 0 cum) — [#11427](https://tbpro.zendesk.com/agent/tickets/11427), [#11428](https://tbpro.zendesk.com/agent/tickets/11428)
+- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 164 incident(s)
 
@@ -322,19 +322,15 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [pending] · _Refunds?_
-  > Is there any way to get a refund on my subscription? I've already cancelled. There's nothing in Paddle about it.
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Adding third-party caldav contacts and calendars to the webview](https://ideas.tb.pro/p/adding-third-party-caldav-contacts-and-calendars-to-the-webview) · 1 votes · _untagged_
-  > What you’d like to see It’d be wonderful if we could add third-party caldav calendars and contact books to the webmail view (such as from Nextcloud) so that, like in Thunderbird, we can have all our…
-- [Add an option to PIN a message to the top](https://ideas.tb.pro/p/add-an-option-to-pin-a-message-to-the-top) · 1 votes · _untagged_
-  > What you’d like to see Been using Outlook email since like 2007, and it allows me to pin an email (like an upcoming flight) so that email always stays at the top of the email list. Currently in…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -417,79 +413,33 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Account access issues — Account Hub trouble — 2 tickets
+### Other / uncategorized — 2 tickets
 
-- **[#11451](https://tbpro.zendesk.com/agent/tickets/11451)** · My account?   — why: **confused** · how: **explained**
-  > I purchased a subscription on October 7, 2026, totaling $72.00 (invoice reference: 9312-14714) Invoice from [domain] Inc. When logging into the [domain] mail or [domain] mail…
-- **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
-  > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
+- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
+  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
+- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
+  > Creating ticket to link to GitHub
 
-### Account access issues — 1 tickets
+### Webmail — 1 tickets
 
-- **[#11448](https://tbpro.zendesk.com/agent/tickets/11448)** · login issues
-  > I had to do a new install of W11 and cannot install Thunderbird. I suspect the password is incorrect and I can't proceed. I can receive emails at [email].
-
-### Bug report / app crash / not working — 1 tickets
-
-- **[#11447](https://tbpro.zendesk.com/agent/tickets/11447)** · OAUTH is broken on Firefox — why: **blocked** · how: **explained**
-  > I use Firefox as my main browser on Mac, Windows and Linux. On all 3 I tried to configure Thunderbird to use the new mail service.. and whenever it gets to the Oauth redirect it…
-
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#11450](https://tbpro.zendesk.com/agent/tickets/11450)** · Refunds? — why: **curious** · how: **explained**
-  > Is there any way to get a refund on my subscription? I've already cancelled. There's nothing in Paddle about it.
-
-### Pricing / monthly plan / free tier — 1 tickets
-
-- **[#11428](https://tbpro.zendesk.com/agent/tickets/11428)** · Rocky demo - Is there a free plan or monthly payment?
-  > Hi, Is there a free plan? If not, can I at least pay monthly? I only need it for a few months. Thanks, [name]
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#11427](https://tbpro.zendesk.com/agent/tickets/11427)** · Rocky Demo - Send upload fails: key to decrypt this container
-  > Hi, Uploading a file in Send fails with the error "key to decrypt this container". A forum post says I should reset my key. Should I? And when will this work again? I need it for…
+- **[#11453](https://tbpro.zendesk.com/agent/tickets/11453)** · [stormbox/260] Inline picture pastes in Webmail set centre justification — why: **change request** · 🔗 [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260)
+  > Creating ticket to link to GitHub
 
 ## New tickets — last 24h
 
-- [11427](https://tbpro.zendesk.com/agent/tickets/11427) · [hold] · 2026-11-18T05:11 · Rocky Demo - Send upload fails: key to decrypt this container
-- [11428](https://tbpro.zendesk.com/agent/tickets/11428) · [hold] · 2026-11-18T05:13 · Rocky demo - Is there a free plan or monthly payment?
-- [11435](https://tbpro.zendesk.com/agent/tickets/11435) · [pending] · 2026-11-18T13:26 · die obige Mail-Adresse
-- [11447](https://tbpro.zendesk.com/agent/tickets/11447) · [open] · 2026-11-18T17:22 · OAUTH is broken on Firefox
-- [11448](https://tbpro.zendesk.com/agent/tickets/11448) · [open] · 2026-11-18T18:43 · login issues
-- [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [pending] · 2026-11-18T19:47 · Refunds?
-- [11451](https://tbpro.zendesk.com/agent/tickets/11451) · [pending] · 2026-11-18T20:21 · My account?  
+- [11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · 2026-11-18T21:29 · [stormbox/260] Inline picture pastes in Webmail set centre justification 🔗 [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260)
+- [11454](https://tbpro.zendesk.com/agent/tickets/11454) · [hold] · 2026-11-18T21:31 · [stormbox / 120] HTML Tags Appear in Message Preview 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
+- [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [open] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
 
 ## Solved — last 24h
 
-- · [11167](https://tbpro.zendesk.com/agent/tickets/11167) · 2026-11-17T21:02 · Join the Waitlist Request Blocked
-- · [11213](https://tbpro.zendesk.com/agent/tickets/11213) · 2026-11-17T21:02 · cant connect to mail on my mac
-- · [11206](https://tbpro.zendesk.com/agent/tickets/11206) · 2026-11-17T21:02 · outgoing email will not send
-- · [11100](https://tbpro.zendesk.com/agent/tickets/11100) · 2026-11-17T21:02 · impossible de crer un compte
-- · [11071](https://tbpro.zendesk.com/agent/tickets/11071) · 2026-11-17T21:02 · Importing stuff from other email clients
-- · [11067](https://tbpro.zendesk.com/agent/tickets/11067) · 2026-11-17T21:02 · Re: [Thundermail] Re: can't send attachments? Photos.
-- · [11215](https://tbpro.zendesk.com/agent/tickets/11215) · 2026-11-17T22:02 · Re: Important Notification - Planned Thundermail Outage November 19, 2026
-- · [11214](https://tbpro.zendesk.com/agent/tickets/11214) · 2026-11-17T22:02 · reliability
-- · [11075](https://tbpro.zendesk.com/agent/tickets/11075) · 2026-11-17T23:01 · Please delete my account.
-- · [11045](https://tbpro.zendesk.com/agent/tickets/11045) · 2026-11-17T23:01 · Password entry
-- · [10956](https://tbpro.zendesk.com/agent/tickets/10956) · 2026-11-17T23:01 · login to my thundermail account requested
-- · [10926](https://tbpro.zendesk.com/agent/tickets/10926) · 2026-11-17T23:01 · Delete Account
-- · [10906](https://tbpro.zendesk.com/agent/tickets/10906) · 2026-11-17T23:01 · Enter your email account password?
-- · [11123](https://tbpro.zendesk.com/agent/tickets/11123) · 2026-11-18T00:01 · Disable Loading Remote Images
-- · [11115](https://tbpro.zendesk.com/agent/tickets/11115) · 2026-11-18T00:01 · Ich kann keine E-mails lesen
-- · [11196](https://tbpro.zendesk.com/agent/tickets/11196) · 2026-11-18T01:01 · Refund
-- · [11142](https://tbpro.zendesk.com/agent/tickets/11142) · 2026-11-18T01:01 · Warum kann ich mein E-Mailkonto nicht mehr aufrufen?
-- · [11125](https://tbpro.zendesk.com/agent/tickets/11125) · 2026-11-18T01:01 · Account Deletion
-- · [10909](https://tbpro.zendesk.com/agent/tickets/10909) · 2026-11-18T04:01 · Thundermail Early Bird:  15 Email Addresses and 3 Custom Domains
-- · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-18T14:54 · Unable to load Thundermail in Apple Mail
-- · [11349](https://tbpro.zendesk.com/agent/tickets/11349) · 2026-11-18T15:32 · Setting up identity etc
-- · [11230](https://tbpro.zendesk.com/agent/tickets/11230) · 2026-11-18T16:02 · Unable to contine sign-up
-- · [11226](https://tbpro.zendesk.com/agent/tickets/11226) · 2026-11-18T16:02 · Update billing email in Paddle
-- 👍 [11353](https://tbpro.zendesk.com/agent/tickets/11353) · 2026-11-18T16:27 · Email Deletions
-- · [11236](https://tbpro.zendesk.com/agent/tickets/11236) · 2026-11-18T17:02 · Planned Outage
-- · [11235](https://tbpro.zendesk.com/agent/tickets/11235) · 2026-11-18T17:02 · Upcoming Thundermail Outage
-- · [11065](https://tbpro.zendesk.com/agent/tickets/11065) · 2026-11-18T17:02 · Move from Gmail
-- · [11285](https://tbpro.zendesk.com/agent/tickets/11285) · 2026-11-18T17:24 · I want to delete my account
-- · [11266](https://tbpro.zendesk.com/agent/tickets/11266) · 2026-11-18T18:02 · Update billing email in Paddle
+- · [11269](https://tbpro.zendesk.com/agent/tickets/11269) · 2026-11-18T21:01 · Duplication acount
+- · [11241](https://tbpro.zendesk.com/agent/tickets/11241) · 2026-11-18T21:01 · Custom domains and calendar invites
+- · [11229](https://tbpro.zendesk.com/agent/tickets/11229) · 2026-11-18T21:01 · error message
+- · [11238](https://tbpro.zendesk.com/agent/tickets/11238) · 2026-11-18T22:01 · Account deletion
+- · [11291](https://tbpro.zendesk.com/agent/tickets/11291) · 2026-11-18T22:11 · Thundermail 
+- · [11255](https://tbpro.zendesk.com/agent/tickets/11255) · 2026-11-19T00:01 · Setting Up Custom Domain
+- · [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-19T00:25 · Thundermail.  
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
