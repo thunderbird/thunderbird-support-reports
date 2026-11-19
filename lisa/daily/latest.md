@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 01:25 ET** · refreshes hourly_  
+_Updated: **2026-11-19 02:17 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1299 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1300 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
-- **1299** tickets total since launch · contact rate **4%** of 35000 invitees
+- **5** new tickets in last 24h · **7** solved in last 24h
+- **1300** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -339,12 +339,12 @@ _(none in last 24h)_
 - **pending**: 72
 - **hold**: 24
 - **open**: 10
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 738
-- **Thundermail**: 451
+- **Thundermail**: 452
 - **Send**: 29
 - **Appointment**: 15
 
@@ -414,17 +414,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#11461](https://tbpro.zendesk.com/agent/tickets/11461)** · deleting alias - can another account reuse?
+  > I read your thundermail support pages on deleting aliases. I also saw that they can be reinstated by adding them back after deleting. My question is about after I have deleted an…
+- **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion
+  > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
   > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
 - **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
   > Creating ticket to link to GitHub
-
-### Aliases — 1 tickets
-
-- **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion
-  > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
 
 ### Webmail — 1 tickets
 
@@ -437,6 +439,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11454](https://tbpro.zendesk.com/agent/tickets/11454) · [hold] · 2026-11-18T21:31 · [stormbox / 120] HTML Tags Appear in Message Preview 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
 - [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [open] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
 - [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [new] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
+- [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [new] · 2026-11-19T07:10 · deleting alias - can another account reuse?
 
 ## Solved — last 24h
 
