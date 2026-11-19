@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 13:18 ET** · refreshes hourly_  
+_Updated: **2026-11-19 14:12 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,20 +9,20 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1302 tickets** so 
 
 ## At a glance
 
-- **9** new tickets in last 24h · **11** solved in last 24h
+- **9** new tickets in last 24h · **12** solved in last 24h
 - **1302** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 155.1h · mean 172.0h (proxy: updated_at − created_at, 108 solved tickets)
+- **Median AHT**: 155.5h · mean 172.6h (proxy: updated_at − created_at, 109 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"creating ticket"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
-## Known problems — 16 problem(s), 164 incident(s)
+## Known problems — 16 problem(s), 165 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -199,9 +199,10 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
-- 2 incident(s):
+- 3 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
   - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [hold] · 2026-11-10 · _Send large files_
+  - [#11280](https://tbpro.zendesk.com/agent/tickets/11280) · [pending] · 2026-11-13 · _Thunderbird Sent not uploading from Thunderbird Desktop App_
 
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [closed] · [stormbox/202] Stars misaligned in message list with blank message body
 - ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
@@ -335,10 +336,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1085
-- **solved**: 108
+- **solved**: 109
 - **pending**: 79
 - **hold**: 22
-- **open**: 8
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -474,6 +475,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11349](https://tbpro.zendesk.com/agent/tickets/11349) · 2026-11-19T16:02 · Setting up identity etc
 - · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-19T17:20 · Suggestion
 - · [11285](https://tbpro.zendesk.com/agent/tickets/11285) · 2026-11-19T18:02 · I want to delete my account
+- · [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-19T18:18 · Email messages
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
