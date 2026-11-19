@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-19 10:16 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1304 tickets** so 
 
 ## At a glance
 
-- **9** new tickets in last 24h · **7** solved in last 24h
+- **9** new tickets in last 24h · **8** solved in last 24h
 - **1304** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 155.1h · mean 172.4h (proxy: updated_at − created_at, 108 solved tickets)
+- **Median AHT**: 155.7h · mean 172.6h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"ticket link github"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 164 incident(s)
 
@@ -336,14 +336,14 @@ _(none in last 24h)_
 
 - **closed**: 1084
 - **solved**: 108
-- **pending**: 73
+- **pending**: 75
 - **hold**: 24
-- **open**: 15
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 741
-- **Thundermail**: 452
+- **Account Hub**: 740
+- **Thundermail**: 453
 - **Send**: 30
 - **Appointment**: 15
 
@@ -357,7 +357,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 108
 - **confused** + **redirected**: 66
 - **curious** + **informed**: 64
-- **confused** + **informed**: 63
+- **confused** + **informed**: 64
 - **blocked** + **redirected**: 59
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 51
@@ -376,11 +376,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **—**: 7
 - **curious** + **actioned**: 6
 - **request** + **informed**: 5
+- **request** + **actioned**: 5
 - **other** + **n/a**: 4
 - **concerned** + **escalated**: 4
 - **telling us** + **n/a**: 4
 - **curious** + **investigated**: 4
-- **request** + **actioned**: 4
 - **curious** + **escalated**: 3
 - **concerned** + **informed**: 3
 - **change request** + **escalated**: 3
@@ -413,21 +413,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
-
-- **[#11473](https://tbpro.zendesk.com/agent/tickets/11473)** · Upload files to "Send" with a CLI tool
-  > Hello. I'm wondering whether it is possible to upload files to your Send application via some CLI tool. This would help me a lot.
-- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
-  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
-- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
-  > Creating ticket to link to GitHub
-
-### Aliases — 2 tickets
+### Aliases — 3 tickets
 
 - **[#11461](https://tbpro.zendesk.com/agent/tickets/11461)** · deleting alias - can another account reuse?
   > I read your thundermail support pages on deleting aliases. I also saw that they can be reinstated by adding them back after deleting. My question is about after I have deleted an…
 - **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion
   > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
+- **[#11467](https://tbpro.zendesk.com/agent/tickets/11467)** · Add second email account — why: **confused** · how: **informed**
+  > How do I add a second email account to Thunder mail
+
+### Other / uncategorized — 2 tickets
+
+- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
+  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
+- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
+  > Creating ticket to link to GitHub
 
 ### Account access issues — Account Hub trouble — 2 tickets
 
@@ -436,10 +436,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe — why: **confused** · how: **redirected**
   > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
 
-### App setup / configuration — 1 tickets
+### Request or complaint — 1 tickets
 
-- **[#11467](https://tbpro.zendesk.com/agent/tickets/11467)** · Add second email account
-  > How do I add a second email account to Thunder mail
+- **[#11473](https://tbpro.zendesk.com/agent/tickets/11473)** · Upload files to "Send" with a CLI tool — why: **request** · how: **actioned**
+  > Hello. I'm wondering whether it is possible to upload files to your Send application via some CLI tool. This would help me a lot.
 
 ### Webmail — 1 tickets
 
@@ -454,9 +454,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [open] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
 - [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [open] · 2026-11-19T07:10 · deleting alias - can another account reuse?
 - [11463](https://tbpro.zendesk.com/agent/tickets/11463) · [pending] · 2026-11-19T09:56 · perte de mon mot de passe
-- [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [open] · 2026-11-19T10:04 · Add second email account
+- [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [pending] · 2026-11-19T10:04 · Add second email account
 - [11472](https://tbpro.zendesk.com/agent/tickets/11472) · [pending] · 2026-11-19T11:54 · neues Konto
-- [11473](https://tbpro.zendesk.com/agent/tickets/11473) · [open] · 2026-11-19T12:26 · Upload files to "Send" with a CLI tool
+- [11473](https://tbpro.zendesk.com/agent/tickets/11473) · [pending] · 2026-11-19T12:26 · Upload files to "Send" with a CLI tool
 
 ## Solved — last 24h
 
@@ -467,6 +467,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11291](https://tbpro.zendesk.com/agent/tickets/11291) · 2026-11-18T22:11 · Thundermail 
 - · [11255](https://tbpro.zendesk.com/agent/tickets/11255) · 2026-11-19T00:01 · Setting Up Custom Domain
 - · [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-19T00:25 · Thundermail.  
+- · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-19T15:01 · Unable to load Thundermail in Apple Mail
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
