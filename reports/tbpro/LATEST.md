@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 16:14 ET** · refreshes hourly_  
+_Updated: **2026-11-19 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1302 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1303 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **12** solved in last 24h
-- **1302** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1303** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 154.8h · mean 168.9h (proxy: updated_at − created_at, 107 solved tickets)
+- **Median AHT**: 151.8h · mean 167.2h (proxy: updated_at − created_at, 98 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"creating ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"ticket link github"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -335,15 +335,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1087
-- **solved**: 107
-- **pending**: 80
+- **closed**: 1096
+- **solved**: 98
+- **pending**: 81
 - **hold**: 22
 - **open**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 740
+- **Account Hub**: 741
 - **Thundermail**: 451
 - **Send**: 29
 - **Appointment**: 15
@@ -352,7 +352,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 247
+- **curious** + **explained**: 248
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 122
 - **confused** + **explained**: 109
