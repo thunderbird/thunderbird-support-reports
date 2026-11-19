@@ -1,26 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 12:13 ET** · refreshes hourly_  
+_Updated: **2026-11-19 13:18 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1304 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1302 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **9** solved in last 24h
-- **1304** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **11** solved in last 24h
+- **1302** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 155.7h · mean 172.9h (proxy: updated_at − created_at, 108 solved tickets)
+- **Median AHT**: 155.1h · mean 172.0h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"creating ticket"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 164 incident(s)
 
@@ -334,17 +334,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1084
+- **closed**: 1085
 - **solved**: 108
-- **pending**: 78
-- **hold**: 24
-- **open**: 10
+- **pending**: 79
+- **hold**: 22
+- **open**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 740
-- **Thundermail**: 453
-- **Send**: 30
+- **Thundermail**: 452
+- **Send**: 29
 - **Appointment**: 15
 
 ## Why × How (cumulative)
@@ -358,10 +358,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **redirected**: 66
 - **confused** + **informed**: 64
 - **curious** + **informed**: 63
-- **blocked** + **redirected**: 59
+- **blocked** + **redirected**: 60
 - **blocked** + **investigated**: 53
 - **request** + **redirected**: 52
-- **concerned** + **explained**: 33
+- **concerned** + **explained**: 34
 - **blocked** + **informed**: 27
 - **blocked** + **escalated**: 21
 - **confused** + **—**: 16
@@ -413,13 +413,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 2 tickets
-
-- **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion
-  > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
-- **[#11467](https://tbpro.zendesk.com/agent/tickets/11467)** · Add second email account — why: **confused** · how: **informed**
-  > How do I add a second email account to Thunder mail
-
 ### Other / uncategorized — 2 tickets
 
 - **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
@@ -440,6 +433,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > wie kann ich es einrichten
 - **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe — why: **confused** · how: **redirected**
   > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
+
+### Spam / Junk Filtering — 1 tickets
+
+- **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion — why: **concerned** · how: **explained**
+  > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
+
+### Aliases — 1 tickets
+
+- **[#11467](https://tbpro.zendesk.com/agent/tickets/11467)** · Add second email account — why: **confused** · how: **informed**
+  > How do I add a second email account to Thunder mail
 
 ### Webmail — 1 tickets
 
@@ -469,6 +472,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-19T00:25 · Thundermail.  
 - · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-19T15:01 · Unable to load Thundermail in Apple Mail
 - · [11349](https://tbpro.zendesk.com/agent/tickets/11349) · 2026-11-19T16:02 · Setting up identity etc
+- · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-19T17:20 · Suggestion
+- · [11285](https://tbpro.zendesk.com/agent/tickets/11285) · 2026-11-19T18:02 · I want to delete my account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
