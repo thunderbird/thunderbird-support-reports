@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 04:17 ET** · refreshes hourly_  
+_Updated: **2026-11-19 05:15 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1300 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1305 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
-- **1300** tickets total since launch · contact rate **4%** of 35000 invitees
+- **10** new tickets in last 24h · **7** solved in last 24h
+- **1305** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -20,7 +20,8 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1300 tickets** so 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"creating ticket"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"passe besoin"** — 2 tickets in 24h (new; baseline 0 cum) — [#11464](https://tbpro.zendesk.com/agent/tickets/11464), [#11466](https://tbpro.zendesk.com/agent/tickets/11466)
+- **"creating ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 164 incident(s)
 
@@ -339,12 +340,12 @@ _(none in last 24h)_
 - **pending**: 71
 - **hold**: 24
 - **open**: 11
-- **new**: 2
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 738
-- **Thundermail**: 452
+- **Account Hub**: 742
+- **Thundermail**: 453
 - **Send**: 29
 - **Appointment**: 15
 
@@ -414,6 +415,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 6 tickets
+
+- **[#11466](https://tbpro.zendesk.com/agent/tickets/11466)** · besoin de retrouver mon mot de passe Thunderbird
+  > besoin de retrouver mon mot de passe Thunderbird
+- **[#11465](https://tbpro.zendesk.com/agent/tickets/11465)** · besoin de retouver mon mot de passe
+  > inscrit depuis 20 ans, je réinstalle mon systeme et je me souviens plus de mon mot de passe, Merci à vous
+- **[#11464](https://tbpro.zendesk.com/agent/tickets/11464)** · besoin de retrouver mon mot de passe Thunderbird
+  > besoin de retrouver mon mot de passe Thunderbird
+- **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe
+  > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
+- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
+  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
+- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
+  > Creating ticket to link to GitHub
+
 ### Aliases — 2 tickets
 
 - **[#11461](https://tbpro.zendesk.com/agent/tickets/11461)** · deleting alias - can another account reuse?
@@ -421,12 +437,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion
   > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
 
-### Other / uncategorized — 2 tickets
+### App setup / configuration — 1 tickets
 
-- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
-  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
-- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
-  > Creating ticket to link to GitHub
+- **[#11467](https://tbpro.zendesk.com/agent/tickets/11467)** · Add second email account
+  > How do I add a second email account to Thunder mail
 
 ### Webmail — 1 tickets
 
@@ -440,6 +454,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [open] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
 - [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [new] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
 - [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [new] · 2026-11-19T07:10 · deleting alias - can another account reuse?
+- [11463](https://tbpro.zendesk.com/agent/tickets/11463) · [new] · 2026-11-19T09:56 · perte de mon mot de passe
+- [11464](https://tbpro.zendesk.com/agent/tickets/11464) · [new] · 2026-11-19T09:58 · besoin de retrouver mon mot de passe Thunderbird
+- [11465](https://tbpro.zendesk.com/agent/tickets/11465) · [new] · 2026-11-19T10:01 · besoin de retouver mon mot de passe
+- [11466](https://tbpro.zendesk.com/agent/tickets/11466) · [new] · 2026-11-19T10:03 · besoin de retrouver mon mot de passe Thunderbird
+- [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [new] · 2026-11-19T10:04 · Add second email account
 
 ## Solved — last 24h
 
