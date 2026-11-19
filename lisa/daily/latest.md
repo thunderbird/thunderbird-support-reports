@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 08:20 ET** · refreshes hourly_  
+_Updated: **2026-11-19 09:16 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1307 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 102** of rollout — **35,000 invitees**, **1304 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **7** solved in last 24h
-- **1307** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **7** solved in last 24h
+- **1304** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -20,8 +20,7 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1307 tickets** so 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"passe besoin retrouver"** — 2 tickets in 24h (new; baseline 0 cum) — [#11464](https://tbpro.zendesk.com/agent/tickets/11464), [#11466](https://tbpro.zendesk.com/agent/tickets/11466)
-- **"creating ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 164 incident(s)
 
@@ -337,15 +336,14 @@ _(none in last 24h)_
 
 - **closed**: 1084
 - **solved**: 108
-- **pending**: 71
+- **pending**: 73
 - **hold**: 24
-- **open**: 11
-- **new**: 9
+- **open**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 743
-- **Thundermail**: 453
+- **Account Hub**: 741
+- **Thundermail**: 452
 - **Send**: 30
 - **Appointment**: 15
 
@@ -357,8 +355,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 122
 - **confused** + **explained**: 108
+- **confused** + **redirected**: 66
 - **curious** + **informed**: 64
-- **confused** + **redirected**: 64
 - **confused** + **informed**: 63
 - **blocked** + **redirected**: 59
 - **blocked** + **investigated**: 53
@@ -415,20 +413,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 8 tickets
+### Other / uncategorized — 3 tickets
 
 - **[#11473](https://tbpro.zendesk.com/agent/tickets/11473)** · Upload files to "Send" with a CLI tool
   > Hello. I'm wondering whether it is possible to upload files to your Send application via some CLI tool. This would help me a lot.
-- **[#11472](https://tbpro.zendesk.com/agent/tickets/11472)** · neues Konto
-  > wie kann ich es einrichten
-- **[#11466](https://tbpro.zendesk.com/agent/tickets/11466)** · besoin de retrouver mon mot de passe Thunderbird
-  > besoin de retrouver mon mot de passe Thunderbird
-- **[#11465](https://tbpro.zendesk.com/agent/tickets/11465)** · besoin de retouver mon mot de passe
-  > inscrit depuis 20 ans, je réinstalle mon systeme et je me souviens plus de mon mot de passe, Merci à vous
-- **[#11464](https://tbpro.zendesk.com/agent/tickets/11464)** · besoin de retrouver mon mot de passe Thunderbird
-  > besoin de retrouver mon mot de passe Thunderbird
-- **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe
-  > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
 - **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
   > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
 - **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
@@ -440,6 +428,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > I read your thundermail support pages on deleting aliases. I also saw that they can be reinstated by adding them back after deleting. My question is about after I have deleted an…
 - **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion
   > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
+
+### Account access issues — Account Hub trouble — 2 tickets
+
+- **[#11472](https://tbpro.zendesk.com/agent/tickets/11472)** · neues Konto — why: **confused** · how: **redirected**
+  > wie kann ich es einrichten
+- **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe — why: **confused** · how: **redirected**
+  > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
 
 ### App setup / configuration — 1 tickets
 
@@ -456,15 +451,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · 2026-11-18T21:29 · [stormbox/260] Inline picture pastes in Webmail set centre justification 🔗 [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260)
 - [11454](https://tbpro.zendesk.com/agent/tickets/11454) · [hold] · 2026-11-18T21:31 · [stormbox / 120] HTML Tags Appear in Message Preview 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
 - [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [open] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
-- [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [new] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
-- [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [new] · 2026-11-19T07:10 · deleting alias - can another account reuse?
-- [11463](https://tbpro.zendesk.com/agent/tickets/11463) · [new] · 2026-11-19T09:56 · perte de mon mot de passe
-- [11464](https://tbpro.zendesk.com/agent/tickets/11464) · [new] · 2026-11-19T09:58 · besoin de retrouver mon mot de passe Thunderbird
-- [11465](https://tbpro.zendesk.com/agent/tickets/11465) · [new] · 2026-11-19T10:01 · besoin de retouver mon mot de passe
-- [11466](https://tbpro.zendesk.com/agent/tickets/11466) · [new] · 2026-11-19T10:03 · besoin de retrouver mon mot de passe Thunderbird
-- [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [new] · 2026-11-19T10:04 · Add second email account
-- [11472](https://tbpro.zendesk.com/agent/tickets/11472) · [new] · 2026-11-19T11:54 · neues Konto
-- [11473](https://tbpro.zendesk.com/agent/tickets/11473) · [new] · 2026-11-19T12:26 · Upload files to "Send" with a CLI tool
+- [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [open] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
+- [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [open] · 2026-11-19T07:10 · deleting alias - can another account reuse?
+- [11463](https://tbpro.zendesk.com/agent/tickets/11463) · [pending] · 2026-11-19T09:56 · perte de mon mot de passe
+- [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [open] · 2026-11-19T10:04 · Add second email account
+- [11472](https://tbpro.zendesk.com/agent/tickets/11472) · [pending] · 2026-11-19T11:54 · neues Konto
+- [11473](https://tbpro.zendesk.com/agent/tickets/11473) · [open] · 2026-11-19T12:26 · Upload files to "Send" with a CLI tool
 
 ## Solved — last 24h
 
