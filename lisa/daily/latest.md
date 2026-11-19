@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 15:16 ET** · refreshes hourly_  
+_Updated: **2026-11-19 16:14 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -20,7 +20,7 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1302 tickets** so 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"ticket link github"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"creating ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -337,14 +337,14 @@ _(none in last 24h)_
 
 - **closed**: 1087
 - **solved**: 107
-- **pending**: 79
+- **pending**: 80
 - **hold**: 22
-- **open**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 740
-- **Thundermail**: 452
+- **Thundermail**: 451
 - **Send**: 29
 - **Appointment**: 15
 
@@ -355,7 +355,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 247
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 122
-- **confused** + **explained**: 108
+- **confused** + **explained**: 109
 - **confused** + **redirected**: 66
 - **confused** + **informed**: 64
 - **curious** + **informed**: 63
@@ -414,13 +414,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
-
-- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage
-  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
-- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
-  > Creating ticket to link to GitHub
-
 ### Request or complaint — 2 tickets
 
 - **[#11473](https://tbpro.zendesk.com/agent/tickets/11473)** · Upload files to "Send" with a CLI tool — why: **request** · how: **actioned**
@@ -434,6 +427,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > wie kann ich es einrichten
 - **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe — why: **confused** · how: **redirected**
   > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
+
+### Other / uncategorized — 2 tickets
+
+- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage — why: **confused** · how: **explained**
+  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
+- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
+  > Creating ticket to link to GitHub
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -454,7 +454,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · 2026-11-18T21:29 · [stormbox/260] Inline picture pastes in Webmail set centre justification 🔗 [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260)
 - [11454](https://tbpro.zendesk.com/agent/tickets/11454) · [hold] · 2026-11-18T21:31 · [stormbox / 120] HTML Tags Appear in Message Preview 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
-- [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [open] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
+- [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [pending] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
 - [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [open] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
 - [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [pending] · 2026-11-19T07:10 · deleting alias - can another account reuse?
 - [11463](https://tbpro.zendesk.com/agent/tickets/11463) · [pending] · 2026-11-19T09:56 · perte de mon mot de passe
