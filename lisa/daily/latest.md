@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-18
 
-_Updated: **2026-11-18 18:13 ET** · refreshes hourly_  
+_Updated: **2026-11-18 19:37 ET** · refreshes hourly_  
 _24h window: 2026-11-17T16:00 → 2026-11-18T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 101** of rollout — **35,000 invitees**, **1297 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 101** of rollout — **35,000 invitees**, **1298 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
 - **7** new tickets in last 24h · **29** solved in last 24h
-- **1297** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1298** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 155.7h · mean 173.5h (proxy: updated_at − created_at, 106 solved tickets)
+- **Median AHT**: 155.1h · mean 172.4h (proxy: updated_at − created_at, 108 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -324,7 +324,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [open] · _Refunds?_
+- [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [pending] · _Refunds?_
   > Is there any way to get a refund on my subscription? I've already cancelled. There's nothing in Paddle about it.
 
 ## New ideas on FeatureOS
@@ -339,15 +339,15 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1084
-- **solved**: 106
-- **pending**: 74
+- **solved**: 108
+- **pending**: 73
 - **hold**: 24
 - **open**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 738
-- **Thundermail**: 449
+- **Thundermail**: 450
 - **Send**: 29
 - **Appointment**: 15
 
@@ -355,7 +355,7 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 245
+- **curious** + **explained**: 246
 - **change request** + **actioned**: 188
 - **blocked** + **explained**: 122
 - **confused** + **explained**: 108
@@ -424,11 +424,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11435](https://tbpro.zendesk.com/agent/tickets/11435)** · die obige Mail-Adresse — why: **confused** · how: **redirected**
   > Guten Tag, Ich bin schon seit längerer Zeit auf Thunderbird angemeldet, die Anmeldung hatte jemand anderes für mich getan. Nun bin ich auf mich selbst gestellt. Ich komme zwar…
 
-### Subscription / billing / refund / cancel — 1 tickets
-
-- **[#11450](https://tbpro.zendesk.com/agent/tickets/11450)** · Refunds?
-  > Is there any way to get a refund on my subscription? I've already cancelled. There's nothing in Paddle about it.
-
 ### Account access issues — 1 tickets
 
 - **[#11448](https://tbpro.zendesk.com/agent/tickets/11448)** · login issues
@@ -438,6 +433,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11447](https://tbpro.zendesk.com/agent/tickets/11447)** · OAUTH is broken on Firefox — why: **blocked** · how: **explained**
   > I use Firefox as my main browser on Mac, Windows and Linux. On all 3 I tried to configure Thunderbird to use the new mail service.. and whenever it gets to the Oauth redirect it…
+
+### Subscription / billing / refund / cancel — 1 tickets
+
+- **[#11450](https://tbpro.zendesk.com/agent/tickets/11450)** · Refunds? — why: **curious** · how: **explained**
+  > Is there any way to get a refund on my subscription? I've already cancelled. There's nothing in Paddle about it.
 
 ### Pricing / monthly plan / free tier — 1 tickets
 
@@ -454,9 +454,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11427](https://tbpro.zendesk.com/agent/tickets/11427) · [hold] · 2026-11-18T05:11 · Rocky Demo - Send upload fails: key to decrypt this container
 - [11428](https://tbpro.zendesk.com/agent/tickets/11428) · [hold] · 2026-11-18T05:13 · Rocky demo - Is there a free plan or monthly payment?
 - [11435](https://tbpro.zendesk.com/agent/tickets/11435) · [pending] · 2026-11-18T13:26 · die obige Mail-Adresse
-- [11447](https://tbpro.zendesk.com/agent/tickets/11447) · [pending] · 2026-11-18T17:22 · OAUTH is broken on Firefox
+- [11447](https://tbpro.zendesk.com/agent/tickets/11447) · [open] · 2026-11-18T17:22 · OAUTH is broken on Firefox
 - [11448](https://tbpro.zendesk.com/agent/tickets/11448) · [open] · 2026-11-18T18:43 · login issues
-- [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [open] · 2026-11-18T19:47 · Refunds?
+- [11450](https://tbpro.zendesk.com/agent/tickets/11450) · [pending] · 2026-11-18T19:47 · Refunds?
 - [11451](https://tbpro.zendesk.com/agent/tickets/11451) · [pending] · 2026-11-18T20:21 · My account?  
 
 ## Solved — last 24h
