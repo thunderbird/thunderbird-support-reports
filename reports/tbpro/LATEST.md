@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 00:16 ET** · refreshes hourly_  
+_Updated: **2026-11-20 01:24 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1305 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1306 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **2** solved in last 24h
-- **1305** tickets total since launch · contact rate **4%** of 35000 invitees
+- **4** new tickets in last 24h · **2** solved in last 24h
+- **1306** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -331,7 +331,7 @@ _(none in last 24h)_
 
 - **closed**: 1108
 - **solved**: 86
-- **pending**: 80
+- **pending**: 81
 - **hold**: 22
 - **open**: 7
 - **new**: 2
@@ -340,7 +340,7 @@ _(none in last 24h)_
 
 - **Account Hub**: 742
 - **Thundermail**: 451
-- **Send**: 30
+- **Send**: 31
 - **Appointment**: 15
 
 ## Why × How (cumulative)
@@ -374,11 +374,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **informed**: 5
 - **request** + **actioned**: 5
 - **other** + **n/a**: 4
+- **concerned** + **informed**: 4
 - **concerned** + **escalated**: 4
 - **telling us** + **n/a**: 4
 - **curious** + **investigated**: 4
 - **curious** + **escalated**: 3
-- **concerned** + **informed**: 3
 - **change request** + **escalated**: 3
 - **other** + **escalated**: 3
 - **concerned** + **redirected**: 3
@@ -409,15 +409,20 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Email sending / receiving / SMTP / IMAP — 1 tickets
+### Send (file sharing) — 1 tickets
 
-- **[#11490](https://tbpro.zendesk.com/agent/tickets/11490)** · Send email not working 
-  > Hi, I receive the following when I send an email to a client. The address is valid.
+- **[#11491](https://tbpro.zendesk.com/agent/tickets/11491)** · encrypted send via Thunderbird on windows
+  > Is PDF a format available to send encrypted? I tried to upload a few times but I got the message "unable to upload" to Thunderbird send.
 
 ### Other / uncategorized — 1 tickets
 
 - **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
   > 特にない
+
+### Email sending / receiving / SMTP / IMAP — 1 tickets
+
+- **[#11490](https://tbpro.zendesk.com/agent/tickets/11490)** · Send email not working  — why: **concerned** · how: **informed**
+  > Hi, I receive the following when I send an email to a client. The address is valid.
 
 ### Early bird signup — 1 tickets
 
@@ -428,7 +433,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [11486](https://tbpro.zendesk.com/agent/tickets/11486) · [pending] · 2026-11-19T21:57 · Waitlist
 - [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [new] · 2026-11-20T03:58 · アカウント削除
-- [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [new] · 2026-11-20T04:47 · Send email not working 
+- [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [pending] · 2026-11-20T04:47 · Send email not working 
+- [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [new] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
 
 ## Solved — last 24h
 
