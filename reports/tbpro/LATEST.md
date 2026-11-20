@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 08:15 ET** · refreshes hourly_  
+_Updated: **2026-11-20 09:15 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1310 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1313 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **2** solved in last 24h
-- **1310** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **2** solved in last 24h
+- **1313** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -332,14 +332,14 @@ _(none in last 24h)_
 - **closed**: 1108
 - **solved**: 86
 - **pending**: 77
-- **hold**: 22
-- **open**: 11
-- **new**: 6
+- **hold**: 21
+- **open**: 12
+- **new**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
-- **Thundermail**: 455
+- **Thundermail**: 457
 - **Send**: 31
 - **Appointment**: 15
 
@@ -409,8 +409,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 5 tickets
+### Other / uncategorized — 6 tickets
 
+- **[#11502](https://tbpro.zendesk.com/agent/tickets/11502)** · Mails display
+  > Hello, When clicking on “inbox” or “sent mails” I don't go directly to the content of “inbox” or “sent mails” ; instead I have to click on the bottom-left button to unfold the…
 - **[#11499](https://tbpro.zendesk.com/agent/tickets/11499)** · trouver mon mot de passe
   > trouver mon mot de passe
 - **[#11497](https://tbpro.zendesk.com/agent/tickets/11497)** · App password for Thunderbird
@@ -421,6 +423,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
 - **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
   > 特にない
+
+### Account access issues — 1 tickets
+
+- **[#11504](https://tbpro.zendesk.com/agent/tickets/11504)** · URGENT: I am locked out of my thundermail account 
+  > I am being asked for a one time code I am not sure where it is being sent. My account is [email]. I use my password and then it asks me for a one time code I don’t know where it…
+
+### Webmail — 1 tickets
+
+- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect'
+  > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
 
 ### Send (file sharing) — 1 tickets
 
@@ -447,6 +459,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [new] · 2026-11-20T09:05 · Unable to change password on iPhone 
 - [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [new] · 2026-11-20T09:55 · App password for Thunderbird
 - [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [new] · 2026-11-20T12:49 · trouver mon mot de passe
+- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [new] · 2026-11-20T13:17 · Webmail says 'can't connect'
+- [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [new] · 2026-11-20T13:24 · Mails display
+- [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [new] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
 
 ## Solved — last 24h
 
