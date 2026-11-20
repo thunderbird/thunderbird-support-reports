@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 02:17 ET** · refreshes hourly_  
+_Updated: **2026-11-20 03:20 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1306 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1307 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **2** solved in last 24h
-- **1306** tickets total since launch · contact rate **4%** of 35000 invitees
+- **5** new tickets in last 24h · **2** solved in last 24h
+- **1307** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -334,12 +334,12 @@ _(none in last 24h)_
 - **pending**: 80
 - **hold**: 22
 - **open**: 8
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
-- **Thundermail**: 451
+- **Thundermail**: 452
 - **Send**: 31
 - **Appointment**: 15
 
@@ -409,15 +409,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email
+  > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
+- **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
+  > 特にない
+
 ### Send (file sharing) — 1 tickets
 
 - **[#11491](https://tbpro.zendesk.com/agent/tickets/11491)** · encrypted send via Thunderbird on windows
   > Is PDF a format available to send encrypted? I tried to upload a few times but I got the message "unable to upload" to Thunderbird send.
-
-### Other / uncategorized — 1 tickets
-
-- **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
-  > 特にない
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
 
@@ -435,6 +437,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [new] · 2026-11-20T03:58 · アカウント削除
 - [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [pending] · 2026-11-20T04:47 · Send email not working 
 - [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [new] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
+- [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [new] · 2026-11-20T07:21 · Name from Email
 
 ## Solved — last 24h
 
