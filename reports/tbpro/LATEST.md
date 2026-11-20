@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 20:15 ET** · refreshes hourly_  
+_Updated: **2026-11-19 21:19 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1303 tickets** so 
 - **9** new tickets in last 24h · **10** solved in last 24h
 - **1303** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (218 good / 12 bad)
+- **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 149.5h · mean 166.5h (proxy: updated_at − created_at, 87 solved tickets)
+- **Median AHT**: 149.2h · mean 165.0h (proxy: updated_at − created_at, 86 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -140,7 +140,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10566](https://tbpro.zendesk.com/agent/tickets/10566) · [closed] · 2026-10-29 · _Want to delete my account_
   - [#10600](https://tbpro.zendesk.com/agent/tickets/10600) · [closed] · 2026-10-30 · _Refund_
   - [#10645](https://tbpro.zendesk.com/agent/tickets/10645) · [closed] · 2026-11-01 · _Delete account_
-  - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [solved] · 2026-11-02 · _Cancel_
+  - [#10685](https://tbpro.zendesk.com/agent/tickets/10685) · [closed] · 2026-11-02 · _Cancel_
   - [#10688](https://tbpro.zendesk.com/agent/tickets/10688) · [closed] · 2026-11-02 · _Spam_
   - [#10700](https://tbpro.zendesk.com/agent/tickets/10700) · [closed] · 2026-11-02 · _cancel account_
   - [#10709](https://tbpro.zendesk.com/agent/tickets/10709) · [closed] · 2026-11-02 · _Refund question_
@@ -335,11 +335,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1107
-- **solved**: 87
-- **pending**: 80
+- **closed**: 1108
+- **solved**: 86
+- **pending**: 81
 - **hold**: 22
-- **open**: 7
+- **open**: 6
 
 ## Service (cumulative)
 
