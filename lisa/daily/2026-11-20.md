@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 07:21 ET** · refreshes hourly_  
+_Updated: **2026-11-20 08:15 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1309 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1310 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **2** solved in last 24h
-- **1309** tickets total since launch · contact rate **4%** of 35000 invitees
+- **8** new tickets in last 24h · **2** solved in last 24h
+- **1310** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -334,12 +334,12 @@ _(none in last 24h)_
 - **pending**: 77
 - **hold**: 22
 - **open**: 11
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
-- **Thundermail**: 454
+- **Thundermail**: 455
 - **Send**: 31
 - **Appointment**: 15
 
@@ -409,8 +409,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 4 tickets
+### Other / uncategorized — 5 tickets
 
+- **[#11499](https://tbpro.zendesk.com/agent/tickets/11499)** · trouver mon mot de passe
+  > trouver mon mot de passe
 - **[#11497](https://tbpro.zendesk.com/agent/tickets/11497)** · App password for Thunderbird
   > Post last night's maintenance outage I have set a new app password but I no longer have the ability to administer a custom password. The only option is a system generated…
 - **[#11494](https://tbpro.zendesk.com/agent/tickets/11494)** · Unable to change password on iPhone 
@@ -444,6 +446,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [new] · 2026-11-20T07:21 · Name from Email
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [new] · 2026-11-20T09:05 · Unable to change password on iPhone 
 - [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [new] · 2026-11-20T09:55 · App password for Thunderbird
+- [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [new] · 2026-11-20T12:49 · trouver mon mot de passe
 
 ## Solved — last 24h
 
