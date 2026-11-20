@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-20 18:13 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 103** of rollout — **35,000 invitees**, **1323 tickets** so 
 
 - **20** new tickets in last 24h · **6** solved in last 24h
 - **1323** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 154.8h · mean 162.4h (proxy: updated_at − created_at, 79 solved tickets)
+- **Median AHT**: 155.1h · mean 160.2h (proxy: updated_at − created_at, 80 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -168,7 +168,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [closed] · 2026-11-07 · _Account termination_
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [solved] · 2026-11-07 · _Delete Account_
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
-  - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [solved] · 2026-11-09 · _cancel and refund_
+  - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [closed] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [solved] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [solved] · 2026-11-11 · _Account Deletion_
   - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [solved] · 2026-11-11 · _Account Deletion_
@@ -222,7 +222,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 2 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
-  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [hold] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
+  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -339,11 +339,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1118
+- **closed**: 1120
 - **pending**: 87
-- **solved**: 79
-- **hold**: 22
-- **open**: 16
+- **solved**: 80
+- **hold**: 21
+- **open**: 14
 - **new**: 1
 
 ## Service (cumulative)
@@ -443,10 +443,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 3 tickets
 
-- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
-  > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
 - **[#11502](https://tbpro.zendesk.com/agent/tickets/11502)** · Mails display — why: **change request** · how: **investigated**
   > Hello, When clicking on “inbox” or “sent mails” I don't go directly to the content of “inbox” or “sent mails” ; instead I have to click on the bottom-left button to unfold the…
+- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
+  > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
 - **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email — why: **curious** · how: **informed**
   > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
 
@@ -500,9 +500,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [pending] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
 - [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [pending] · 2026-11-20T07:21 · Name from Email
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [pending] · 2026-11-20T09:05 · Unable to change password on iPhone 
-- [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [open] · 2026-11-20T09:55 · App password for Thunderbird
+- [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [solved] · 2026-11-20T09:55 · App password for Thunderbird
 - [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [pending] · 2026-11-20T12:49 · trouver mon mot de passe
-- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [open] · 2026-11-20T13:17 · Webmail says 'can't connect'
+- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [solved] · 2026-11-20T13:17 · Webmail says 'can't connect'
 - [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [pending] · 2026-11-20T13:24 · Mails display
 - [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [pending] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
 - [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [open] · 2026-11-20T14:25 · Custom domain question
