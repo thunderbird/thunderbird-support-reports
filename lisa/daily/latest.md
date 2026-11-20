@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 13:18 ET** · refreshes hourly_  
+_Updated: **2026-11-20 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 103** of rollout — **35,000 invitees**, **1320 tickets** so 
 
 ## At a glance
 
-- **18** new tickets in last 24h · **6** solved in last 24h
+- **18** new tickets in last 24h · **7** solved in last 24h
 - **1320** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 152.4h · mean 162.1h (proxy: updated_at − created_at, 87 solved tickets)
+- **Median AHT**: 152.4h · mean 161.5h (proxy: updated_at − created_at, 85 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -152,7 +152,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10771](https://tbpro.zendesk.com/agent/tickets/10771) · [closed] · 2026-11-04 · _Please cancel_
   - [#10789](https://tbpro.zendesk.com/agent/tickets/10789) · [closed] · 2026-11-04 · _Refund Thunderbird Pro subscription_
   - [#10791](https://tbpro.zendesk.com/agent/tickets/10791) · [closed] · 2026-11-04 · _Refund Request_
-  - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [solved] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
+  - [#10799](https://tbpro.zendesk.com/agent/tickets/10799) · [closed] · 2026-11-04 · _How do I get my email from the Free Thunderbird_
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [closed] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [closed] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [closed] · 2026-11-05 · _Delete account and refund _
@@ -335,11 +335,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1110
-- **solved**: 87
-- **pending**: 86
-- **hold**: 21
-- **open**: 16
+- **closed**: 1112
+- **pending**: 89
+- **solved**: 85
+- **hold**: 22
+- **open**: 12
 
 ## Service (cumulative)
 
@@ -354,10 +354,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 249
 - **change request** + **actioned**: 188
-- **blocked** + **explained**: 124
+- **blocked** + **explained**: 125
 - **confused** + **explained**: 109
 - **confused** + **redirected**: 67
-- **confused** + **informed**: 64
+- **confused** + **informed**: 65
 - **curious** + **informed**: 63
 - **blocked** + **redirected**: 60
 - **blocked** + **investigated**: 54
@@ -431,10 +431,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11521](https://tbpro.zendesk.com/agent/tickets/11521)** · can't add my main email address
   > I've moved my custom domain (tupelo.cc) over to thundermail. The DNS records are verified. However, when I try to add my primary email address as an alias ([email]), I get a error…
-- **[#11511](https://tbpro.zendesk.com/agent/tickets/11511)** · cannot send emails with my domain
-  > I tried to send email with From address [email]. umr.hu is my domain and it is verified. it worked a few week ago. I
 - **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question
   > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
+- **[#11511](https://tbpro.zendesk.com/agent/tickets/11511)** · cannot send emails with my domain — why: **confused** · how: **informed**
+  > I tried to send email with From address [email]. umr.hu is my domain and it is verified. it worked a few week ago. I
 
 ### Webmail — 2 tickets
 
@@ -455,15 +455,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11513](https://tbpro.zendesk.com/agent/tickets/11513)** · User-configurable Filters
   > Does Thundermail plan to implement user-configurable server side filters? That would be very useful to me. I subscribed to many mailing lists with my gmail account and the filters…
 
-### Account access issues — 1 tickets
-
-- **[#11508](https://tbpro.zendesk.com/agent/tickets/11508)** · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
-  > My IOS mail app stopped connecting to Thunderbird mail this morning. I reset the app password as described in your communication but no dice. IOS is accepting the password but…
-
 ### Pre-purchase / documentation gap — 1 tickets
 
 - **[#11510](https://tbpro.zendesk.com/agent/tickets/11510)** · App password is ridiculous along with the process and thundermail system and documentation — why: **concerned** · how: **informed**
   > What is its purpose? [domain] account still works within Thunderbird with my original PW.
+
+### Account access issues — 1 tickets
+
+- **[#11508](https://tbpro.zendesk.com/agent/tickets/11508)** · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update) — why: **blocked** · how: **explained**
+  > My IOS mail app stopped connecting to Thunderbird mail this morning. I reset the app password as described in your communication but no dice. IOS is accepting the password but…
 
 ### Send (file sharing) — 1 tickets
 
@@ -494,9 +494,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [pending] · 2026-11-20T13:24 · Mails display
 - [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [pending] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
 - [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [open] · 2026-11-20T14:25 · Custom domain question
-- [11508](https://tbpro.zendesk.com/agent/tickets/11508) · [open] · 2026-11-20T14:32 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
+- [11508](https://tbpro.zendesk.com/agent/tickets/11508) · [pending] · 2026-11-20T14:32 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
 - [11510](https://tbpro.zendesk.com/agent/tickets/11510) · [pending] · 2026-11-20T15:23 · App password is ridiculous along with the process and thundermail system and documentation
-- [11511](https://tbpro.zendesk.com/agent/tickets/11511) · [open] · 2026-11-20T15:32 · cannot send emails with my domain
+- [11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20T15:32 · cannot send emails with my domain
 - [11513](https://tbpro.zendesk.com/agent/tickets/11513) · [open] · 2026-11-20T15:50 · User-configurable Filters
 - [11518](https://tbpro.zendesk.com/agent/tickets/11518) · [open] · 2026-11-20T16:37 · Database error
 - [11521](https://tbpro.zendesk.com/agent/tickets/11521) · [open] · 2026-11-20T16:58 · can't add my main email address
@@ -509,6 +509,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-20T18:01 · Suggestion
 - · [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-20T18:08 · Thunderbird Sent not uploading from Thunderbird Desktop App
 - · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-20T18:15 · e mails
+- · [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-20T19:01 · Email messages
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
