@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 04:17 ET** · refreshes hourly_  
+_Updated: **2026-11-20 05:15 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1308 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1309 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **2** solved in last 24h
-- **1308** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **2** solved in last 24h
+- **1309** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -334,12 +334,12 @@ _(none in last 24h)_
 - **pending**: 77
 - **hold**: 22
 - **open**: 11
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
-- **Thundermail**: 453
+- **Thundermail**: 454
 - **Send**: 31
 - **Appointment**: 15
 
@@ -409,8 +409,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#11497](https://tbpro.zendesk.com/agent/tickets/11497)** · App password for Thunderbird
+  > Post last night's maintenance outage I have set a new app password but I no longer have the ability to administer a custom password. The only option is a system generated…
 - **[#11494](https://tbpro.zendesk.com/agent/tickets/11494)** · Unable to change password on iPhone 
   > I created a new app password and copied it but unable to change my account details on the mail on iPhone. It says invalid email address
 - **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email
@@ -441,6 +443,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [new] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
 - [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [new] · 2026-11-20T07:21 · Name from Email
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [new] · 2026-11-20T09:05 · Unable to change password on iPhone 
+- [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [new] · 2026-11-20T09:55 · App password for Thunderbird
 
 ## Solved — last 24h
 
