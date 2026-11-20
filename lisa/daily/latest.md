@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 03:20 ET** · refreshes hourly_  
+_Updated: **2026-11-20 04:17 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1307 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1308 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **2** solved in last 24h
-- **1307** tickets total since launch · contact rate **4%** of 35000 invitees
+- **6** new tickets in last 24h · **2** solved in last 24h
+- **1308** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -331,15 +331,15 @@ _(none in last 24h)_
 
 - **closed**: 1108
 - **solved**: 86
-- **pending**: 80
+- **pending**: 77
 - **hold**: 22
-- **open**: 8
-- **new**: 3
+- **open**: 11
+- **new**: 4
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
-- **Thundermail**: 452
+- **Thundermail**: 453
 - **Send**: 31
 - **Appointment**: 15
 
@@ -409,8 +409,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#11494](https://tbpro.zendesk.com/agent/tickets/11494)** · Unable to change password on iPhone 
+  > I created a new app password and copied it but unable to change my account details on the mail on iPhone. It says invalid email address
 - **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email
   > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
 - **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
@@ -438,6 +440,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [pending] · 2026-11-20T04:47 · Send email not working 
 - [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [new] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
 - [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [new] · 2026-11-20T07:21 · Name from Email
+- [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [new] · 2026-11-20T09:05 · Unable to change password on iPhone 
 
 ## Solved — last 24h
 
