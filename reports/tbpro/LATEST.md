@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 10:15 ET** · refreshes hourly_  
+_Updated: **2026-11-20 11:16 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1315 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1318 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **4** solved in last 24h
-- **1315** tickets total since launch · contact rate **4%** of 35000 invitees
+- **16** new tickets in last 24h · **4** solved in last 24h
+- **1318** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -26,7 +26,7 @@ Flight 8 is **day 103** of rollout — **35,000 invitees**, **1315 tickets** so 
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [closed] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
   - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [closed] · 2026-10-31 · _Thundermail acces_
-  - [#10848](https://tbpro.zendesk.com/agent/tickets/10848) · [open] · 2026-11-05 · _password_
+  - [#10848](https://tbpro.zendesk.com/agent/tickets/10848) · [pending] · 2026-11-05 · _password_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -331,15 +331,15 @@ _(none in last 24h)_
 
 - **closed**: 1108
 - **solved**: 88
-- **pending**: 77
+- **pending**: 81
 - **hold**: 21
-- **open**: 16
-- **new**: 5
+- **open**: 14
+- **new**: 6
 
 ## Service (cumulative)
 
-- **Account Hub**: 742
-- **Thundermail**: 459
+- **Account Hub**: 743
+- **Thundermail**: 461
 - **Send**: 31
 - **Appointment**: 15
 
@@ -349,13 +349,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 248
 - **change request** + **actioned**: 188
-- **blocked** + **explained**: 122
+- **blocked** + **explained**: 123
 - **confused** + **explained**: 109
 - **confused** + **redirected**: 66
 - **confused** + **informed**: 64
 - **curious** + **informed**: 63
 - **blocked** + **redirected**: 60
-- **blocked** + **investigated**: 53
+- **blocked** + **investigated**: 54
 - **request** + **redirected**: 52
 - **concerned** + **explained**: 34
 - **blocked** + **informed**: 27
@@ -424,6 +424,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
   > 特にない
 
+### Aliases — 2 tickets
+
+- **[#11511](https://tbpro.zendesk.com/agent/tickets/11511)** · cannot send emails with my domain
+  > I tried to send email with From address [email]. umr.hu is my domain and it is verified. it worked a few week ago. I
+- **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question
+  > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
+
 ### Account access issues — 2 tickets
 
 - **[#11508](https://tbpro.zendesk.com/agent/tickets/11508)** · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
@@ -431,19 +438,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11504](https://tbpro.zendesk.com/agent/tickets/11504)** · URGENT: I am locked out of my thundermail account 
   > I am being asked for a one time code I am not sure where it is being sent. My account is [email]. I use my password and then it asks me for a one time code I don’t know where it…
 
-### Aliases — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question
-  > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
+- **[#11513](https://tbpro.zendesk.com/agent/tickets/11513)** · User-configurable Filters
+  > Does Thundermail plan to implement user-configurable server side filters? That would be very useful to me. I subscribed to many mailing lists with my gmail account and the filters…
+
+### Pre-purchase / documentation gap — 1 tickets
+
+- **[#11510](https://tbpro.zendesk.com/agent/tickets/11510)** · App password is ridiculous along with the process and thundermail system and documentation
+  > What is its purpose? [domain] account still works within Thunderbird with my original PW.
 
 ### Webmail — 1 tickets
 
-- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect'
+- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
   > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
 
 ### Send (file sharing) — 1 tickets
 
-- **[#11491](https://tbpro.zendesk.com/agent/tickets/11491)** · encrypted send via Thunderbird on windows
+- **[#11491](https://tbpro.zendesk.com/agent/tickets/11491)** · encrypted send via Thunderbird on windows — why: **blocked** · how: **explained**
   > Is PDF a format available to send encrypted? I tried to upload a few times but I got the message "unable to upload" to Thunderbird send.
 
 ### Email sending / receiving / SMTP / IMAP — 1 tickets
@@ -461,16 +473,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11486](https://tbpro.zendesk.com/agent/tickets/11486) · [pending] · 2026-11-19T21:57 · Waitlist
 - [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [open] · 2026-11-20T03:58 · アカウント削除
 - [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [pending] · 2026-11-20T04:47 · Send email not working 
-- [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [open] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
+- [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [pending] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
 - [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [open] · 2026-11-20T07:21 · Name from Email
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [open] · 2026-11-20T09:05 · Unable to change password on iPhone 
 - [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [open] · 2026-11-20T09:55 · App password for Thunderbird
 - [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [open] · 2026-11-20T12:49 · trouver mon mot de passe
-- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [new] · 2026-11-20T13:17 · Webmail says 'can't connect'
-- [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [new] · 2026-11-20T13:24 · Mails display
+- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [pending] · 2026-11-20T13:17 · Webmail says 'can't connect'
+- [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [open] · 2026-11-20T13:24 · Mails display
 - [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [new] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
 - [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [new] · 2026-11-20T14:25 · Custom domain question
 - [11508](https://tbpro.zendesk.com/agent/tickets/11508) · [new] · 2026-11-20T14:32 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
+- [11510](https://tbpro.zendesk.com/agent/tickets/11510) · [new] · 2026-11-20T15:23 · App password is ridiculous along with the process and thundermail system and documentation
+- [11511](https://tbpro.zendesk.com/agent/tickets/11511) · [new] · 2026-11-20T15:32 · cannot send emails with my domain
+- [11513](https://tbpro.zendesk.com/agent/tickets/11513) · [new] · 2026-11-20T15:50 · User-configurable Filters
 
 ## Solved — last 24h
 
