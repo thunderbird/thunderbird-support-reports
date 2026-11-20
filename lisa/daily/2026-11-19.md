@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 19:33 ET** · refreshes hourly_  
+_Updated: **2026-11-19 20:15 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1303 tickets** so 
 
 ## At a glance
 
-- **9** new tickets in last 24h · **11** solved in last 24h
+- **9** new tickets in last 24h · **10** solved in last 24h
 - **1303** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (217 good / 12 bad)
+- **CSAT (since launch)**: 95%  (218 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 149.2h · mean 165.9h (proxy: updated_at − created_at, 88 solved tickets)
+- **Median AHT**: 149.5h · mean 166.5h (proxy: updated_at − created_at, 87 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"ticket link"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
+- **"ticket link github"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -336,10 +336,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1107
-- **solved**: 88
+- **solved**: 87
 - **pending**: 80
 - **hold**: 22
-- **open**: 6
+- **open**: 7
 
 ## Service (cumulative)
 
@@ -469,7 +469,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11229](https://tbpro.zendesk.com/agent/tickets/11229) · 2026-11-18T21:01 · error message
 - · [11238](https://tbpro.zendesk.com/agent/tickets/11238) · 2026-11-18T22:01 · Account deletion
 - · [11255](https://tbpro.zendesk.com/agent/tickets/11255) · 2026-11-19T00:01 · Setting Up Custom Domain
-- · [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-19T00:25 · Thundermail.  
 - · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-19T15:01 · Unable to load Thundermail in Apple Mail
 - · [11349](https://tbpro.zendesk.com/agent/tickets/11349) · 2026-11-19T16:02 · Setting up identity etc
 - · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-19T17:20 · Suggestion
