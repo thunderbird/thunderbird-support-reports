@@ -1,25 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-20 16:13 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1321 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1322 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **19** new tickets in last 24h · **8** solved in last 24h
-- **1321** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (219 good / 12 bad)
+- **20** new tickets in last 24h · **7** solved in last 24h
+- **1322** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (220 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 153.3h · mean 162.6h (proxy: updated_at − created_at, 84 solved tickets)
+- **Median AHT**: 153.3h · mean 161.5h (proxy: updated_at − created_at, 83 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"these addresses"** — 2 tickets in 24h (new; baseline 0 cum) — [#11530](https://tbpro.zendesk.com/agent/tickets/11530), [#11532](https://tbpro.zendesk.com/agent/tickets/11532)
+- **"send address"** — 2 tickets in 24h (40.8× baseline; baseline 5 cum) — [#11511](https://tbpro.zendesk.com/agent/tickets/11511), [#11532](https://tbpro.zendesk.com/agent/tickets/11532)
 - **"primary address"** — 2 tickets in 24h (12.0× baseline; baseline 17 cum) — [#11507](https://tbpro.zendesk.com/agent/tickets/11507), [#11521](https://tbpro.zendesk.com/agent/tickets/11521)
 - **"error message"** — 2 tickets in 24h (8.5× baseline; baseline 24 cum) — [#11521](https://tbpro.zendesk.com/agent/tickets/11521), [#11530](https://tbpro.zendesk.com/agent/tickets/11530)
 
@@ -338,14 +340,14 @@ _(none in last 24h)_
 
 - **closed**: 1114
 - **pending**: 88
-- **solved**: 84
-- **hold**: 22
-- **open**: 13
+- **solved**: 83
+- **hold**: 23
+- **open**: 14
 
 ## Service (cumulative)
 
 - **Account Hub**: 746
-- **Thundermail**: 461
+- **Thundermail**: 462
 - **Send**: 31
 - **Appointment**: 15
 
@@ -415,6 +417,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 4 tickets
+
+- **[#11532](https://tbpro.zendesk.com/agent/tickets/11532)** · Alias on verified custom domain disappeared, cannot be recreated, sending rejected
+  > Hello, my custom domain [domain] is shown as VERIFIED in my account. I had set up both a catch-all alias for the domain and an explicit alias [email], and both were working.…
+- **[#11521](https://tbpro.zendesk.com/agent/tickets/11521)** · can't add my main email address
+  > I've moved my custom domain (tupelo.cc) over to thundermail. The DNS records are verified. However, when I try to add my primary email address as an alias ([email]), I get a error…
+- **[#11511](https://tbpro.zendesk.com/agent/tickets/11511)** · cannot send emails with my domain — why: **confused** · how: **informed**
+  > I tried to send email with From address [email]. umr.hu is my domain and it is verified. it worked a few week ago. I
+- **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question
+  > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
+
 ### Other / uncategorized — 4 tickets
 
 - **[#11518](https://tbpro.zendesk.com/agent/tickets/11518)** · Database error
@@ -426,21 +439,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除 — why: **curious** · how: **explained**
   > 特にない
 
-### Aliases — 3 tickets
-
-- **[#11521](https://tbpro.zendesk.com/agent/tickets/11521)** · can't add my main email address
-  > I've moved my custom domain (tupelo.cc) over to thundermail. The DNS records are verified. However, when I try to add my primary email address as an alias ([email]), I get a error…
-- **[#11511](https://tbpro.zendesk.com/agent/tickets/11511)** · cannot send emails with my domain — why: **confused** · how: **informed**
-  > I tried to send email with From address [email]. umr.hu is my domain and it is verified. it worked a few week ago. I
-- **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question
-  > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
-
 ### Webmail — 3 tickets
 
-- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
-  > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
 - **[#11502](https://tbpro.zendesk.com/agent/tickets/11502)** · Mails display — why: **change request** · how: **investigated**
   > Hello, When clicking on “inbox” or “sent mails” I don't go directly to the content of “inbox” or “sent mails” ; instead I have to click on the bottom-left button to unfold the…
+- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
+  > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
 - **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email — why: **curious** · how: **informed**
   > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
 
@@ -496,7 +500,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [pending] · 2026-11-20T09:05 · Unable to change password on iPhone 
 - [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [open] · 2026-11-20T09:55 · App password for Thunderbird
 - [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [pending] · 2026-11-20T12:49 · trouver mon mot de passe
-- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [open] · 2026-11-20T13:17 · Webmail says 'can't connect'
+- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [hold] · 2026-11-20T13:17 · Webmail says 'can't connect'
 - [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [pending] · 2026-11-20T13:24 · Mails display
 - [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [pending] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
 - [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [open] · 2026-11-20T14:25 · Custom domain question
@@ -507,6 +511,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11518](https://tbpro.zendesk.com/agent/tickets/11518) · [open] · 2026-11-20T16:37 · Database error
 - [11521](https://tbpro.zendesk.com/agent/tickets/11521) · [open] · 2026-11-20T16:58 · can't add my main email address
 - [11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20T20:11 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
+- [11532](https://tbpro.zendesk.com/agent/tickets/11532) · [open] · 2026-11-20T20:52 · Alias on verified custom domain disappeared, cannot be recreated, sending rejected
 
 ## Solved — last 24h
 
@@ -516,7 +521,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-20T18:01 · Suggestion
 - · [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-20T18:08 · Thunderbird Sent not uploading from Thunderbird Desktop App
 - · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-20T18:15 · e mails
-- · [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-20T19:01 · Email messages
 - · [11127](https://tbpro.zendesk.com/agent/tickets/11127) · 2026-11-20T19:59 · DKIM Misalignment
 
 ---
