@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 16:13 ET** · refreshes hourly_  
+_Updated: **2026-11-20 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1322 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1323 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **7** solved in last 24h
-- **1322** tickets total since launch · contact rate **4%** of 35000 invitees
+- **20** new tickets in last 24h · **6** solved in last 24h
+- **1323** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 95%  (220 good / 12 bad)
+- **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 153.3h · mean 161.5h (proxy: updated_at − created_at, 83 solved tickets)
+- **Median AHT**: 154.8h · mean 162.4h (proxy: updated_at − created_at, 79 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -326,9 +326,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [11533](https://tbpro.zendesk.com/agent/tickets/11533) · [new] · _Refund_
+  > Can I get any type of refund on my Thundermail account if I delete it?
 
 ## New ideas on FeatureOS
 
@@ -338,15 +339,16 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1114
-- **pending**: 88
-- **solved**: 83
-- **hold**: 23
-- **open**: 14
+- **closed**: 1118
+- **pending**: 87
+- **solved**: 79
+- **hold**: 22
+- **open**: 16
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 746
+- **Account Hub**: 747
 - **Thundermail**: 462
 - **Send**: 31
 - **Appointment**: 15
@@ -411,8 +413,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **request** + **n/a**: 1
 - **blocked** + **n/a**: 1
 - **telling us** + **investigated**: 1
-- **change request** + **redirected**: 1
 - **confused** + **n/a**: 1
+- **change request** + **redirected**: 1
 - **telling us** + **actioned**: 1
 
 ## Tickets in last 24h — by theme
@@ -441,10 +443,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 3 tickets
 
-- **[#11502](https://tbpro.zendesk.com/agent/tickets/11502)** · Mails display — why: **change request** · how: **investigated**
-  > Hello, When clicking on “inbox” or “sent mails” I don't go directly to the content of “inbox” or “sent mails” ; instead I have to click on the bottom-left button to unfold the…
 - **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
   > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
+- **[#11502](https://tbpro.zendesk.com/agent/tickets/11502)** · Mails display — why: **change request** · how: **investigated**
+  > Hello, When clicking on “inbox” or “sent mails” I don't go directly to the content of “inbox” or “sent mails” ; instead I have to click on the bottom-left button to unfold the…
 - **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email — why: **curious** · how: **informed**
   > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
 
@@ -500,7 +502,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [pending] · 2026-11-20T09:05 · Unable to change password on iPhone 
 - [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [open] · 2026-11-20T09:55 · App password for Thunderbird
 - [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [pending] · 2026-11-20T12:49 · trouver mon mot de passe
-- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [hold] · 2026-11-20T13:17 · Webmail says 'can't connect'
+- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [open] · 2026-11-20T13:17 · Webmail says 'can't connect'
 - [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [pending] · 2026-11-20T13:24 · Mails display
 - [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [pending] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
 - [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [open] · 2026-11-20T14:25 · Custom domain question
@@ -518,7 +520,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-20T01:31 · Thundermail.  
 - · [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-20T15:00 · Thundermail not working
 - 👍 [11291](https://tbpro.zendesk.com/agent/tickets/11291) · 2026-11-20T15:00 · Thundermail 
-- · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-20T18:01 · Suggestion
 - · [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-20T18:08 · Thunderbird Sent not uploading from Thunderbird Desktop App
 - · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-20T18:15 · e mails
 - · [11127](https://tbpro.zendesk.com/agent/tickets/11127) · 2026-11-20T19:59 · DKIM Misalignment
