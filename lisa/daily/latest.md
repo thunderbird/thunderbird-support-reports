@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-19
 
-_Updated: **2026-11-19 18:13 ET** · refreshes hourly_  
+_Updated: **2026-11-19 19:33 ET** · refreshes hourly_  
 _24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 102** of rollout — **35,000 invitees**, **1303 tickets** so 
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (217 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 151.2h · mean 166.5h (proxy: updated_at − created_at, 91 solved tickets)
+- **Median AHT**: 149.2h · mean 165.9h (proxy: updated_at − created_at, 88 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -162,7 +162,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [closed] · 2026-11-06 · _Cancellation + refund_
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [closed] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
-  - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [solved] · 2026-11-07 · _Account termination_
+  - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [closed] · 2026-11-07 · _Account termination_
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [solved] · 2026-11-07 · _Delete Account_
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [solved] · 2026-11-09 · _cancel and refund_
@@ -202,7 +202,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 3 incident(s):
   - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
   - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [hold] · 2026-11-10 · _Send large files_
-  - [#11280](https://tbpro.zendesk.com/agent/tickets/11280) · [pending] · 2026-11-13 · _Thunderbird Sent not uploading from Thunderbird Desktop App_
+  - [#11280](https://tbpro.zendesk.com/agent/tickets/11280) · [open] · 2026-11-13 · _Thunderbird Sent not uploading from Thunderbird Desktop App_
 
 ### [#9298](https://tbpro.zendesk.com/agent/tickets/9298) · [closed] · [stormbox/202] Stars misaligned in message list with blank message body
 - ✅ GitHub: [thunderbird/stormbox#202](https://github.com/thunderbird/stormbox/issues/202) · _[stormbox] Stars misaligned in message list with blank message body_
@@ -335,11 +335,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1103
-- **solved**: 91
-- **pending**: 79
+- **closed**: 1107
+- **solved**: 88
+- **pending**: 80
 - **hold**: 22
-- **open**: 8
+- **open**: 6
 
 ## Service (cumulative)
 
