@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 09:15 ET** · refreshes hourly_  
+_Updated: **2026-11-20 10:15 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1313 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1315 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **2** solved in last 24h
-- **1313** tickets total since launch · contact rate **4%** of 35000 invitees
+- **13** new tickets in last 24h · **4** solved in last 24h
+- **1315** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 149.2h · mean 165.0h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 151.0h · mean 165.0h (proxy: updated_at − created_at, 88 solved tickets)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -330,16 +330,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1108
-- **solved**: 86
+- **solved**: 88
 - **pending**: 77
 - **hold**: 21
-- **open**: 12
-- **new**: 9
+- **open**: 16
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
-- **Thundermail**: 457
+- **Thundermail**: 459
 - **Send**: 31
 - **Appointment**: 15
 
@@ -424,10 +424,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
   > 特にない
 
-### Account access issues — 1 tickets
+### Account access issues — 2 tickets
 
+- **[#11508](https://tbpro.zendesk.com/agent/tickets/11508)** · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
+  > My IOS mail app stopped connecting to Thunderbird mail this morning. I reset the app password as described in your communication but no dice. IOS is accepting the password but…
 - **[#11504](https://tbpro.zendesk.com/agent/tickets/11504)** · URGENT: I am locked out of my thundermail account 
   > I am being asked for a one time code I am not sure where it is being sent. My account is [email]. I use my password and then it asks me for a one time code I don’t know where it…
+
+### Aliases — 1 tickets
+
+- **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question
+  > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
 
 ### Webmail — 1 tickets
 
@@ -452,21 +459,25 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [11486](https://tbpro.zendesk.com/agent/tickets/11486) · [pending] · 2026-11-19T21:57 · Waitlist
-- [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [new] · 2026-11-20T03:58 · アカウント削除
+- [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [open] · 2026-11-20T03:58 · アカウント削除
 - [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [pending] · 2026-11-20T04:47 · Send email not working 
-- [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [new] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
-- [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [new] · 2026-11-20T07:21 · Name from Email
-- [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [new] · 2026-11-20T09:05 · Unable to change password on iPhone 
-- [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [new] · 2026-11-20T09:55 · App password for Thunderbird
-- [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [new] · 2026-11-20T12:49 · trouver mon mot de passe
+- [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [open] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
+- [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [open] · 2026-11-20T07:21 · Name from Email
+- [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [open] · 2026-11-20T09:05 · Unable to change password on iPhone 
+- [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [open] · 2026-11-20T09:55 · App password for Thunderbird
+- [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [open] · 2026-11-20T12:49 · trouver mon mot de passe
 - [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [new] · 2026-11-20T13:17 · Webmail says 'can't connect'
 - [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [new] · 2026-11-20T13:24 · Mails display
 - [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [new] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
+- [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [new] · 2026-11-20T14:25 · Custom domain question
+- [11508](https://tbpro.zendesk.com/agent/tickets/11508) · [new] · 2026-11-20T14:32 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
 
 ## Solved — last 24h
 
 - · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-19T23:33 · e mails
 - 👍 [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-20T01:31 · Thundermail.  
+- · [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-20T15:00 · Thundermail not working
+- 👍 [11291](https://tbpro.zendesk.com/agent/tickets/11291) · 2026-11-20T15:00 · Thundermail 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
