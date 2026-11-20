@@ -1,26 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-11-19
+# Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-19 23:17 ET** · refreshes hourly_  
-_24h window: 2026-11-18T16:00 → 2026-11-19T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-20 00:16 ET** · refreshes hourly_  
+_24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 102** of rollout — **35,000 invitees**, **1304 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 103** of rollout — **35,000 invitees**, **1305 tickets** so far (3.7% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **10** solved in last 24h
-- **1304** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **3** new tickets in last 24h · **2** solved in last 24h
+- **1305** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (219 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 149.2h · mean 165.0h (proxy: updated_at − created_at, 86 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"ticket link github"** — 2 tickets in 24h (new; baseline 0 cum) — [#11453](https://tbpro.zendesk.com/agent/tickets/11453), [#11454](https://tbpro.zendesk.com/agent/tickets/11454)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -340,13 +334,13 @@ _(none in last 24h)_
 - **pending**: 80
 - **hold**: 22
 - **open**: 7
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
 - **Account Hub**: 742
 - **Thundermail**: 451
-- **Send**: 29
+- **Send**: 30
 - **Appointment**: 15
 
 ## Why × How (cumulative)
@@ -415,66 +409,31 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Request or complaint — 2 tickets
+### Email sending / receiving / SMTP / IMAP — 1 tickets
 
-- **[#11473](https://tbpro.zendesk.com/agent/tickets/11473)** · Upload files to "Send" with a CLI tool — why: **request** · how: **actioned**
-  > Hello. I'm wondering whether it is possible to upload files to your Send application via some CLI tool. This would help me a lot.
-- **[#11461](https://tbpro.zendesk.com/agent/tickets/11461)** · deleting alias - can another account reuse? — why: **request** · how: **redirected**
-  > I read your thundermail support pages on deleting aliases. I also saw that they can be reinstated by adding them back after deleting. My question is about after I have deleted an…
+- **[#11490](https://tbpro.zendesk.com/agent/tickets/11490)** · Send email not working 
+  > Hi, I receive the following when I send an email to a client. The address is valid.
 
-### Account access issues — Account Hub trouble — 2 tickets
+### Other / uncategorized — 1 tickets
 
-- **[#11472](https://tbpro.zendesk.com/agent/tickets/11472)** · neues Konto — why: **confused** · how: **redirected**
-  > wie kann ich es einrichten
-- **[#11463](https://tbpro.zendesk.com/agent/tickets/11463)** · perte de mon mot de passe — why: **confused** · how: **redirected**
-  > je suis en train de réinstaller mon système ! j'ai égaré mon mot de passe Thunderbird auquel je suis abonné depuis 20 ans
+- **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除
+  > 特にない
 
-### Other / uncategorized — 2 tickets
+### Early bird signup — 1 tickets
 
-- **[#11455](https://tbpro.zendesk.com/agent/tickets/11455)** · Scheduled Thunderbird Outage — why: **confused** · how: **explained**
-  > Question, is the outage for Thursday and Friday Evenings now? Thanks, [name]
-- **[#11454](https://tbpro.zendesk.com/agent/tickets/11454)** · [stormbox / 120] HTML Tags Appear in Message Preview — why: **change request** · 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
-  > Creating ticket to link to GitHub
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#11459](https://tbpro.zendesk.com/agent/tickets/11459)** · Mildly urgent issue/suggestion — why: **concerned** · how: **explained**
-  > Hello, I've been told by multiple people that when I sent an email from my main thundermail address and/or any of my aliases they end up in their junk/spam folders; and these…
-
-### Aliases — 1 tickets
-
-- **[#11467](https://tbpro.zendesk.com/agent/tickets/11467)** · Add second email account — why: **confused** · how: **informed**
-  > How do I add a second email account to Thunder mail
-
-### Webmail — 1 tickets
-
-- **[#11453](https://tbpro.zendesk.com/agent/tickets/11453)** · [stormbox/260] Inline picture pastes in Webmail set centre justification — why: **change request** · 🔗 [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260)
-  > Creating ticket to link to GitHub
+- **[#11486](https://tbpro.zendesk.com/agent/tickets/11486)** · Waitlist — why: **curious** · how: **explained**
+  > Greetings. I was granted acceptance into the thunderbird email list but I don't have the acceptance link anymore. Is this something that can be resent? It's either under [email]…
 
 ## New tickets — last 24h
 
-- [11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · 2026-11-18T21:29 · [stormbox/260] Inline picture pastes in Webmail set centre justification 🔗 [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260)
-- [11454](https://tbpro.zendesk.com/agent/tickets/11454) · [hold] · 2026-11-18T21:31 · [stormbox / 120] HTML Tags Appear in Message Preview 🔗 [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120)
-- [11455](https://tbpro.zendesk.com/agent/tickets/11455) · [pending] · 2026-11-18T23:30 · Scheduled Thunderbird Outage
-- [11459](https://tbpro.zendesk.com/agent/tickets/11459) · [open] · 2026-11-19T05:25 · Mildly urgent issue/suggestion
-- [11461](https://tbpro.zendesk.com/agent/tickets/11461) · [pending] · 2026-11-19T07:10 · deleting alias - can another account reuse?
-- [11463](https://tbpro.zendesk.com/agent/tickets/11463) · [pending] · 2026-11-19T09:56 · perte de mon mot de passe
-- [11467](https://tbpro.zendesk.com/agent/tickets/11467) · [pending] · 2026-11-19T10:04 · Add second email account
-- [11472](https://tbpro.zendesk.com/agent/tickets/11472) · [pending] · 2026-11-19T11:54 · neues Konto
-- [11473](https://tbpro.zendesk.com/agent/tickets/11473) · [pending] · 2026-11-19T12:26 · Upload files to "Send" with a CLI tool
+- [11486](https://tbpro.zendesk.com/agent/tickets/11486) · [pending] · 2026-11-19T21:57 · Waitlist
+- [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [new] · 2026-11-20T03:58 · アカウント削除
+- [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [new] · 2026-11-20T04:47 · Send email not working 
 
 ## Solved — last 24h
 
-- · [11269](https://tbpro.zendesk.com/agent/tickets/11269) · 2026-11-18T21:01 · Duplication acount
-- · [11241](https://tbpro.zendesk.com/agent/tickets/11241) · 2026-11-18T21:01 · Custom domains and calendar invites
-- · [11229](https://tbpro.zendesk.com/agent/tickets/11229) · 2026-11-18T21:01 · error message
-- · [11238](https://tbpro.zendesk.com/agent/tickets/11238) · 2026-11-18T22:01 · Account deletion
-- · [11255](https://tbpro.zendesk.com/agent/tickets/11255) · 2026-11-19T00:01 · Setting Up Custom Domain
-- · [11202](https://tbpro.zendesk.com/agent/tickets/11202) · 2026-11-19T15:01 · Unable to load Thundermail in Apple Mail
-- · [11349](https://tbpro.zendesk.com/agent/tickets/11349) · 2026-11-19T16:02 · Setting up identity etc
-- · [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-19T17:20 · Suggestion
-- · [11285](https://tbpro.zendesk.com/agent/tickets/11285) · 2026-11-19T18:02 · I want to delete my account
-- · [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-19T18:18 · Email messages
+- · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-19T23:33 · e mails
+- 👍 [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-20T01:31 · Thundermail.  
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
