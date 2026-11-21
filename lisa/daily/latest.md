@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 12:13 ET** · refreshes hourly_  
+_Updated: **2026-11-21 13:16 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1331 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1332 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **14** solved in last 24h
-- **1331** tickets total since launch · contact rate **4%** of 35000 invitees
+- **10** new tickets in last 24h · **15** solved in last 24h
+- **1332** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 158.2h · mean 172.4h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 158.2h · mean 172.6h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -166,7 +166,7 @@ Flight 8 is **day 104** of rollout — **35,000 invitees**, **1331 tickets** so 
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [solved] · 2026-11-11 · _Permanently delete my account_
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [solved] · 2026-11-13 · _I want to delete my account_
-  - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [pending] · 2026-11-14 · _Kontolöschung_
+  - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [solved] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [pending] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [pending] · 2026-11-15 · _Cancellation And Refund_
@@ -329,17 +329,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1135
-- **pending**: 79
+- **closed**: 1136
+- **pending**: 77
 - **solved**: 74
 - **hold**: 23
-- **open**: 12
-- **new**: 8
+- **open**: 13
+- **new**: 9
 
 ## Service (cumulative)
 
 - **Account Hub**: 749
-- **Thundermail**: 466
+- **Thundermail**: 467
 - **Send**: 32
 - **Appointment**: 15
 
@@ -418,6 +418,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11547](https://tbpro.zendesk.com/agent/tickets/11547)** · Unable to Sign-In on any browser on Windows 11 when using Thundermail
   > I use 1Password as a password manager to store my email details. I copy the details from it to [domain] website to sign in. It refuses to work on Windows. I even tried to enter…
 
+### Aliases — 2 tickets
+
+- **[#11557](https://tbpro.zendesk.com/agent/tickets/11557)** · Custom domain: How can I create aliases before switching MX records?
+  > Hello [name], I am migrating my domain [domain] from STRATO to my Thundermail account [email]. I have added the domain and configured the DNS records. The latest verification…
+- **[#11537](https://tbpro.zendesk.com/agent/tickets/11537)** · Can't create alias?
+  > I'm switching to Thunderbird, and I've linked my custom domain [domain]. I'm trying to set up my address [email] as an alias, but when I add it, it says "You cannot use this email…
+
 ### Account access issues — 2 tickets
 
 - **[#11549](https://tbpro.zendesk.com/agent/tickets/11549)** · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
@@ -435,11 +442,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11551](https://tbpro.zendesk.com/agent/tickets/11551)** · Sending from Thunderbird
   > hi I have started getting this message when sending from thunderbird client. "Sending of the message failed. An error occurred while sending mail. The mail server responded:…
 
-### Aliases — 1 tickets
-
-- **[#11537](https://tbpro.zendesk.com/agent/tickets/11537)** · Can't create alias?
-  > I'm switching to Thunderbird, and I've linked my custom domain [domain]. I'm trying to set up my address [email] as an alias, but when I add it, it says "You cannot use this email…
-
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#11533](https://tbpro.zendesk.com/agent/tickets/11533)** · Refund — why: **curious** · how: **informed**
@@ -456,6 +458,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11551](https://tbpro.zendesk.com/agent/tickets/11551) · [new] · 2026-11-21T13:25 · Sending from Thunderbird
 - [11553](https://tbpro.zendesk.com/agent/tickets/11553) · [new] · 2026-11-21T14:01 · Not receiving emails from Microsoft
 - [11554](https://tbpro.zendesk.com/agent/tickets/11554) · [new] · 2026-11-21T15:15 · lost my sign in information
+- [11557](https://tbpro.zendesk.com/agent/tickets/11557) · [new] · 2026-11-21T17:33 · Custom domain: How can I create aliases before switching MX records?
 
 ## Solved — last 24h
 
@@ -473,6 +476,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10938](https://tbpro.zendesk.com/agent/tickets/10938) · 2026-11-21T17:01 · Error
 - · [10903](https://tbpro.zendesk.com/agent/tickets/10903) · 2026-11-21T17:01 · I have an account, at least 10 years old.
 - · [10843](https://tbpro.zendesk.com/agent/tickets/10843) · 2026-11-21T17:01 · how do you add domains to the email account
+- · [11308](https://tbpro.zendesk.com/agent/tickets/11308) · 2026-11-21T18:01 · Kontolöschung
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
