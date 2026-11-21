@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 07:19 ET** · refreshes hourly_  
+_Updated: **2026-11-21 08:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1325 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1326 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **4** solved in last 24h
-- **1325** tickets total since launch · contact rate **4%** of 35000 invitees
+- **4** new tickets in last 24h · **4** solved in last 24h
+- **1326** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -334,12 +334,12 @@ _(none in last 24h)_
 - **solved**: 67
 - **hold**: 23
 - **open**: 11
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 748
-- **Thundermail**: 463
+- **Thundermail**: 464
 - **Send**: 31
 - **Appointment**: 15
 
@@ -409,6 +409,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#11547](https://tbpro.zendesk.com/agent/tickets/11547)** · Unable to Sign-In on any browser on Windows 11 when using Thundermail
+  > I use 1Password as a password manager to store my email details. I copy the details from it to [domain] website to sign in. It refuses to work on Windows. I even tried to enter…
+
 ### Account access issues — 1 tickets
 
 - **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
@@ -429,6 +434,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11533](https://tbpro.zendesk.com/agent/tickets/11533) · [open] · 2026-11-20T21:32 · Refund
 - [11537](https://tbpro.zendesk.com/agent/tickets/11537) · [new] · 2026-11-21T02:59 · Can't create alias?
 - [11539](https://tbpro.zendesk.com/agent/tickets/11539) · [new] · 2026-11-21T04:37 · Cannot connect using App Password
+- [11547](https://tbpro.zendesk.com/agent/tickets/11547) · [new] · 2026-11-21T12:27 · Unable to Sign-In on any browser on Windows 11 when using Thundermail
 
 ## Solved — last 24h
 
