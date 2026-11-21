@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 10:13 ET** · refreshes hourly_  
+_Updated: **2026-11-21 11:15 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1330 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1331 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **5** solved in last 24h
-- **1330** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **7** solved in last 24h
+- **1331** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 152.8h · mean 156.8h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 153.3h · mean 161.4h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -329,17 +329,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1133
-- **pending**: 87
+- **closed**: 1134
+- **pending**: 86
 - **solved**: 68
 - **hold**: 23
 - **open**: 12
-- **new**: 7
+- **new**: 8
 
 ## Service (cumulative)
 
 - **Account Hub**: 749
-- **Thundermail**: 465
+- **Thundermail**: 466
 - **Send**: 32
 - **Appointment**: 15
 
@@ -409,8 +409,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 2 tickets
+### Other / uncategorized — 3 tickets
 
+- **[#11554](https://tbpro.zendesk.com/agent/tickets/11554)** · lost my sign in information
+  > My laptop crashed, has been repaired but I have lost a my account details
 - **[#11550](https://tbpro.zendesk.com/agent/tickets/11550)** · Recovery Email Address
   > Please list another email address for me in case this account gets shut down before I can access email notification account is closed. Please use [email]
 - **[#11547](https://tbpro.zendesk.com/agent/tickets/11547)** · Unable to Sign-In on any browser on Windows 11 when using Thundermail
@@ -453,6 +455,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11550](https://tbpro.zendesk.com/agent/tickets/11550) · [new] · 2026-11-21T13:22 · Recovery Email Address
 - [11551](https://tbpro.zendesk.com/agent/tickets/11551) · [new] · 2026-11-21T13:25 · Sending from Thunderbird
 - [11553](https://tbpro.zendesk.com/agent/tickets/11553) · [new] · 2026-11-21T14:01 · Not receiving emails from Microsoft
+- [11554](https://tbpro.zendesk.com/agent/tickets/11554) · [new] · 2026-11-21T15:15 · lost my sign in information
 
 ## Solved — last 24h
 
@@ -461,6 +464,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11501](https://tbpro.zendesk.com/agent/tickets/11501) · 2026-11-20T22:17 · Webmail says 'can't connect'
 - · [11497](https://tbpro.zendesk.com/agent/tickets/11497) · 2026-11-20T22:17 · App password for Thunderbird
 - · [11277](https://tbpro.zendesk.com/agent/tickets/11277) · 2026-11-21T15:01 · New TB email & subscription
+- · [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-21T16:01 · Thundermail not working
+- · [10856](https://tbpro.zendesk.com/agent/tickets/10856) · 2026-11-21T16:01 · Calendar - Zoom Schedule
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
