@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 11:15 ET** · refreshes hourly_  
+_Updated: **2026-11-21 12:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 104** of rollout — **35,000 invitees**, **1331 tickets** so 
 
 ## At a glance
 
-- **9** new tickets in last 24h · **7** solved in last 24h
+- **9** new tickets in last 24h · **14** solved in last 24h
 - **1331** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 153.3h · mean 161.4h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 158.2h · mean 172.4h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -158,7 +158,7 @@ Flight 8 is **day 104** of rollout — **35,000 invitees**, **1331 tickets** so 
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [closed] · 2026-11-07 · _Account termination_
   - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [solved] · 2026-11-07 · _Delete Account_
-  - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [pending] · 2026-11-08 · _Error configuring SRV record at [domain]_
+  - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [solved] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [closed] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [solved] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [solved] · 2026-11-11 · _Account Deletion_
@@ -329,9 +329,9 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1134
-- **pending**: 86
-- **solved**: 68
+- **closed**: 1135
+- **pending**: 79
+- **solved**: 74
 - **hold**: 23
 - **open**: 12
 - **new**: 8
@@ -466,6 +466,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11277](https://tbpro.zendesk.com/agent/tickets/11277) · 2026-11-21T15:01 · New TB email & subscription
 - · [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-21T16:01 · Thundermail not working
 - · [10856](https://tbpro.zendesk.com/agent/tickets/10856) · 2026-11-21T16:01 · Calendar - Zoom Schedule
+- · [11342](https://tbpro.zendesk.com/agent/tickets/11342) · 2026-11-21T17:01 · Domains and Email accounts
+- · [11290](https://tbpro.zendesk.com/agent/tickets/11290) · 2026-11-21T17:01 · Can't get Thunderbird back
+- · [11258](https://tbpro.zendesk.com/agent/tickets/11258) · 2026-11-21T17:01 · You need to verify your email address to activate your account.
+- · [10945](https://tbpro.zendesk.com/agent/tickets/10945) · 2026-11-21T17:01 · Error configuring SRV record at [domain]
+- · [10938](https://tbpro.zendesk.com/agent/tickets/10938) · 2026-11-21T17:01 · Error
+- · [10903](https://tbpro.zendesk.com/agent/tickets/10903) · 2026-11-21T17:01 · I have an account, at least 10 years old.
+- · [10843](https://tbpro.zendesk.com/agent/tickets/10843) · 2026-11-21T17:01 · how do you add domains to the email account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
