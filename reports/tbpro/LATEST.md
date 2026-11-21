@@ -1,27 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-21 18:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1336 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1338 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **14** new tickets in last 24h · **28** solved in last 24h
-- **1336** tickets total since launch · contact rate **4%** of 35000 invitees
+- **14** new tickets in last 24h · **26** solved in last 24h
+- **1338** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 95%  (222 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 163.8h · mean 176.6h (proxy: updated_at − created_at, 88 solved tickets)
+- **Median AHT**: 161.7h · mean 174.5h (proxy: updated_at − created_at, 94 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"custom domain"** — 4 tickets in 24h (3.0× baseline; baseline 137 cum) — [#11537](https://tbpro.zendesk.com/agent/tickets/11537), [#11553](https://tbpro.zendesk.com/agent/tickets/11553), [#11557](https://tbpro.zendesk.com/agent/tickets/11557), [#11560](https://tbpro.zendesk.com/agent/tickets/11560)
-- **"mailbox exist"** — 2 tickets in 24h (new; baseline 0 cum) — [#11551](https://tbpro.zendesk.com/agent/tickets/11551), [#11561](https://tbpro.zendesk.com/agent/tickets/11561)
+- **"mailbox exist"** — 2 tickets in 24h (206.0× baseline; baseline 1 cum) — [#11551](https://tbpro.zendesk.com/agent/tickets/11551), [#11561](https://tbpro.zendesk.com/agent/tickets/11561)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -176,7 +176,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [solved] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [solved] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [solved] · 2026-11-14 · _Refund_
-  - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [pending] · 2026-11-15 · _Cancellation And Refund_
+  - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [solved] · 2026-11-15 · _Cancellation And Refund_
   - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
@@ -338,16 +338,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1138
-- **solved**: 88
-- **pending**: 60
+- **solved**: 94
+- **pending**: 54
 - **hold**: 22
 - **open**: 15
-- **new**: 13
+- **new**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 750
-- **Thundermail**: 469
+- **Thundermail**: 471
 - **Send**: 32
 - **Appointment**: 15
 
@@ -484,8 +484,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - 👍 [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-20T21:38 · Suggestion
 - 👍 [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-20T22:14 · Email messages
-- · [11501](https://tbpro.zendesk.com/agent/tickets/11501) · 2026-11-20T22:17 · Webmail says 'can't connect'
-- · [11497](https://tbpro.zendesk.com/agent/tickets/11497) · 2026-11-20T22:17 · App password for Thunderbird
 - · [11277](https://tbpro.zendesk.com/agent/tickets/11277) · 2026-11-21T15:01 · New TB email & subscription
 - · [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-21T16:01 · Thundermail not working
 - · [10856](https://tbpro.zendesk.com/agent/tickets/10856) · 2026-11-21T16:01 · Calendar - Zoom Schedule
