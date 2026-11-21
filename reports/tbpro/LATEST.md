@@ -1,29 +1,20 @@
-# Thundermail — Flight 8 Live Report · 2026-11-20
+# Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-20 23:17 ET** · refreshes hourly_  
-_24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-21 00:15 ET** · refreshes hourly_  
+_24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 103** of rollout — **35,000 invitees**, **1324 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1325 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **20** new tickets in last 24h · **6** solved in last 24h
-- **1324** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **3** new tickets in last 24h · **4** solved in last 24h
+- **1325** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 152.4h · mean 156.3h (proxy: updated_at − created_at, 67 solved tickets)
-
-## 🔎 Emerging patterns to investigate
-
-_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
-
-- **"these addresses"** — 2 tickets in 24h (new; baseline 0 cum) — [#11530](https://tbpro.zendesk.com/agent/tickets/11530), [#11532](https://tbpro.zendesk.com/agent/tickets/11532)
-- **"send address"** — 2 tickets in 24h (40.8× baseline; baseline 5 cum) — [#11511](https://tbpro.zendesk.com/agent/tickets/11511), [#11532](https://tbpro.zendesk.com/agent/tickets/11532)
-- **"primary address"** — 2 tickets in 24h (12.0× baseline; baseline 17 cum) — [#11507](https://tbpro.zendesk.com/agent/tickets/11507), [#11521](https://tbpro.zendesk.com/agent/tickets/11521)
-- **"error message"** — 2 tickets in 24h (8.5× baseline; baseline 24 cum) — [#11521](https://tbpro.zendesk.com/agent/tickets/11521), [#11530](https://tbpro.zendesk.com/agent/tickets/11530)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -326,10 +317,9 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 0
 
-- [11533](https://tbpro.zendesk.com/agent/tickets/11533) · [open] · _Refund_
-  > Can I get any type of refund on my Thundermail account if I delete it?
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
@@ -344,11 +334,11 @@ Henning Gerken_
 - **solved**: 67
 - **hold**: 23
 - **open**: 9
-- **new**: 1
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 747
+- **Account Hub**: 748
 - **Thundermail**: 463
 - **Send**: 31
 - **Appointment**: 15
@@ -419,107 +409,33 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 4 tickets
-
-- **[#11521](https://tbpro.zendesk.com/agent/tickets/11521)** · can't add my main email address
-  > I've moved my custom domain (tupelo.cc) over to thundermail. The DNS records are verified. However, when I try to add my primary email address as an alias ([email]), I get a error…
-- **[#11532](https://tbpro.zendesk.com/agent/tickets/11532)** · Alias on verified custom domain disappeared, cannot be recreated, sending rejected — why: **blocked** · how: **escalated**
-  > Hello, my custom domain [domain] is shown as VERIFIED in my account. I had set up both a catch-all alias for the domain and an explicit alias [email], and both were working.…
-- **[#11511](https://tbpro.zendesk.com/agent/tickets/11511)** · cannot send emails with my domain — why: **confused** · how: **informed**
-  > I tried to send email with From address [email]. umr.hu is my domain and it is verified. it worked a few week ago. I
-- **[#11507](https://tbpro.zendesk.com/agent/tickets/11507)** · Custom domain question — why: **curious** · how: **explained**
-  > If I add a custom domain to my existing Thundermail account, will it simply be an option as an alias for my primary address ([email]) or will it be a standalone email account…
-
-### Other / uncategorized — 4 tickets
-
-- **[#11518](https://tbpro.zendesk.com/agent/tickets/11518)** · Database error — why: **confused** · how: **explained**
-  > Hi, I'm experiencing a new issue with Thundermail. I can no longer access my mailbox, and the following error appears: **"database disk image is malformed"** The issue persists…
-- **[#11497](https://tbpro.zendesk.com/agent/tickets/11497)** · App password for Thunderbird — why: **curious** · how: **informed**
-  > Post last night's maintenance outage I have set a new app password but I no longer have the ability to administer a custom password. The only option is a system generated…
-- **[#11494](https://tbpro.zendesk.com/agent/tickets/11494)** · Unable to change password on iPhone  — why: **concerned**
-  > I created a new app password and copied it but unable to change my account details on the mail on iPhone. It says invalid email address
-- **[#11489](https://tbpro.zendesk.com/agent/tickets/11489)** · アカウント削除 — why: **curious** · how: **explained**
-  > 特にない
-
-### Webmail — 3 tickets
-
-- **[#11502](https://tbpro.zendesk.com/agent/tickets/11502)** · Mails display — why: **change request** · how: **investigated**
-  > Hello, When clicking on “inbox” or “sent mails” I don't go directly to the content of “inbox” or “sent mails” ; instead I have to click on the bottom-left button to unfold the…
-- **[#11501](https://tbpro.zendesk.com/agent/tickets/11501)** · Webmail says 'can't connect' — why: **blocked** · how: **investigated**
-  > Hello! After the scheduled maintenance, I can't connect to webmail, it says 'Could not connect. Failed to fetch', and attempting to send emails using SMTP returns "Failed to save…
-- **[#11492](https://tbpro.zendesk.com/agent/tickets/11492)** · Name from Email — why: **curious** · how: **informed**
-  > Hello, When sending a email, the recipient gets a email from [email] as the name. IE. Instead of showing my name as Mick Pervu, it shows as [email] how do I change this so when…
-
-### Email Protocols (IMAP/SMTP/POP) — 2 tickets
-
-- **[#11530](https://tbpro.zendesk.com/agent/tickets/11530)** · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX — why: **confused** · how: **explained**
-  > This is a follow-up to your previous request #10223 "Access through a Bookmark i..." Hi [name], Things have been going well up until today. I got the alert notice that y'all were…
-- **[#11513](https://tbpro.zendesk.com/agent/tickets/11513)** · User-configurable Filters — why: **curious** · how: **informed**
-  > Does Thundermail plan to implement user-configurable server side filters? That would be very useful to me. I subscribed to many mailing lists with my gmail account and the filters…
-
-### Account access issues — Account Hub trouble — 2 tickets
-
-- **[#11504](https://tbpro.zendesk.com/agent/tickets/11504)** · URGENT: I am locked out of my thundermail account  — why: **blocked** · how: **explained**
-  > I am being asked for a one time code I am not sure where it is being sent. My account is [email]. I use my password and then it asks me for a one time code I don’t know where it…
-- **[#11499](https://tbpro.zendesk.com/agent/tickets/11499)** · trouver mon mot de passe — why: **confused** · how: **redirected**
-  > trouver mon mot de passe
-
-### Pre-purchase / documentation gap — 1 tickets
-
-- **[#11510](https://tbpro.zendesk.com/agent/tickets/11510)** · App password is ridiculous along with the process and thundermail system and documentation — why: **concerned** · how: **informed**
-  > What is its purpose? [domain] account still works within Thunderbird with my original PW.
-
 ### Account access issues — 1 tickets
 
-- **[#11508](https://tbpro.zendesk.com/agent/tickets/11508)** · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update) — why: **blocked** · how: **explained**
-  > My IOS mail app stopped connecting to Thunderbird mail this morning. I reset the app password as described in your communication but no dice. IOS is accepting the password but…
+- **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
+  > I setup a new app password after this update and it will no longer work on iOS I am Sure I am useing the correct email address for login, the app password and the [domain] servers
 
-### Send (file sharing) — 1 tickets
+### Aliases — 1 tickets
 
-- **[#11491](https://tbpro.zendesk.com/agent/tickets/11491)** · encrypted send via Thunderbird on windows — why: **blocked** · how: **explained**
-  > Is PDF a format available to send encrypted? I tried to upload a few times but I got the message "unable to upload" to Thunderbird send.
+- **[#11537](https://tbpro.zendesk.com/agent/tickets/11537)** · Can't create alias?
+  > I'm switching to Thunderbird, and I've linked my custom domain [domain]. I'm trying to set up my address [email] as an alias, but when I add it, it says "You cannot use this email…
 
-### Email sending / receiving / SMTP / IMAP — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#11490](https://tbpro.zendesk.com/agent/tickets/11490)** · Send email not working  — why: **concerned** · how: **informed**
-  > Hi, I receive the following when I send an email to a client. The address is valid.
-
-### Early bird signup — 1 tickets
-
-- **[#11486](https://tbpro.zendesk.com/agent/tickets/11486)** · Waitlist — why: **curious** · how: **explained**
-  > Greetings. I was granted acceptance into the thunderbird email list but I don't have the acceptance link anymore. Is this something that can be resent? It's either under [email]…
+- **[#11533](https://tbpro.zendesk.com/agent/tickets/11533)** · Refund — why: **curious** · how: **informed**
+  > Can I get any type of refund on my Thundermail account if I delete it?
 
 ## New tickets — last 24h
 
-- [11486](https://tbpro.zendesk.com/agent/tickets/11486) · [pending] · 2026-11-19T21:57 · Waitlist
-- [11489](https://tbpro.zendesk.com/agent/tickets/11489) · [pending] · 2026-11-20T03:58 · アカウント削除
-- [11490](https://tbpro.zendesk.com/agent/tickets/11490) · [pending] · 2026-11-20T04:47 · Send email not working 
-- [11491](https://tbpro.zendesk.com/agent/tickets/11491) · [pending] · 2026-11-20T05:56 · encrypted send via Thunderbird on windows
-- [11492](https://tbpro.zendesk.com/agent/tickets/11492) · [pending] · 2026-11-20T07:21 · Name from Email
-- [11494](https://tbpro.zendesk.com/agent/tickets/11494) · [pending] · 2026-11-20T09:05 · Unable to change password on iPhone 
-- [11497](https://tbpro.zendesk.com/agent/tickets/11497) · [solved] · 2026-11-20T09:55 · App password for Thunderbird
-- [11499](https://tbpro.zendesk.com/agent/tickets/11499) · [pending] · 2026-11-20T12:49 · trouver mon mot de passe
-- [11501](https://tbpro.zendesk.com/agent/tickets/11501) · [solved] · 2026-11-20T13:17 · Webmail says 'can't connect'
-- [11502](https://tbpro.zendesk.com/agent/tickets/11502) · [pending] · 2026-11-20T13:24 · Mails display
-- [11504](https://tbpro.zendesk.com/agent/tickets/11504) · [pending] · 2026-11-20T13:48 · URGENT: I am locked out of my thundermail account 
-- [11507](https://tbpro.zendesk.com/agent/tickets/11507) · [pending] · 2026-11-20T14:25 · Custom domain question
-- [11508](https://tbpro.zendesk.com/agent/tickets/11508) · [pending] · 2026-11-20T14:32 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
-- [11510](https://tbpro.zendesk.com/agent/tickets/11510) · [pending] · 2026-11-20T15:23 · App password is ridiculous along with the process and thundermail system and documentation
-- [11511](https://tbpro.zendesk.com/agent/tickets/11511) · [hold] · 2026-11-20T15:32 · cannot send emails with my domain
-- [11513](https://tbpro.zendesk.com/agent/tickets/11513) · [pending] · 2026-11-20T15:50 · User-configurable Filters
-- [11518](https://tbpro.zendesk.com/agent/tickets/11518) · [pending] · 2026-11-20T16:37 · Database error
-- [11521](https://tbpro.zendesk.com/agent/tickets/11521) · [open] · 2026-11-20T16:58 · can't add my main email address
-- [11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20T20:11 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
-- [11532](https://tbpro.zendesk.com/agent/tickets/11532) · [hold] · 2026-11-20T20:52 · Alias on verified custom domain disappeared, cannot be recreated, sending rejected
+- [11533](https://tbpro.zendesk.com/agent/tickets/11533) · [open] · 2026-11-20T21:32 · Refund
+- [11537](https://tbpro.zendesk.com/agent/tickets/11537) · [new] · 2026-11-21T02:59 · Can't create alias?
+- [11539](https://tbpro.zendesk.com/agent/tickets/11539) · [new] · 2026-11-21T04:37 · Cannot connect using App Password
 
 ## Solved — last 24h
 
-- 👍 [11325](https://tbpro.zendesk.com/agent/tickets/11325) · 2026-11-20T01:31 · Thundermail.  
-- · [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-20T15:00 · Thundermail not working
-- 👍 [11291](https://tbpro.zendesk.com/agent/tickets/11291) · 2026-11-20T15:00 · Thundermail 
-- · [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-20T18:08 · Thunderbird Sent not uploading from Thunderbird Desktop App
-- · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-20T18:15 · e mails
-- · [11127](https://tbpro.zendesk.com/agent/tickets/11127) · 2026-11-20T19:59 · DKIM Misalignment
+- 👍 [11391](https://tbpro.zendesk.com/agent/tickets/11391) · 2026-11-20T21:38 · Suggestion
+- 👍 [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-20T22:14 · Email messages
+- · [11501](https://tbpro.zendesk.com/agent/tickets/11501) · 2026-11-20T22:17 · Webmail says 'can't connect'
+- · [11497](https://tbpro.zendesk.com/agent/tickets/11497) · 2026-11-20T22:17 · App password for Thunderbird
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
