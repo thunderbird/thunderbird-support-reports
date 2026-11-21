@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 08:13 ET** · refreshes hourly_  
+_Updated: **2026-11-21 09:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1326 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1330 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **4** solved in last 24h
-- **1326** tickets total since launch · contact rate **4%** of 35000 invitees
+- **8** new tickets in last 24h · **4** solved in last 24h
+- **1330** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -330,17 +330,17 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1133
-- **pending**: 89
+- **pending**: 88
 - **solved**: 67
 - **hold**: 23
-- **open**: 11
-- **new**: 3
+- **open**: 12
+- **new**: 7
 
 ## Service (cumulative)
 
-- **Account Hub**: 748
-- **Thundermail**: 464
-- **Send**: 31
+- **Account Hub**: 749
+- **Thundermail**: 465
+- **Send**: 32
 - **Appointment**: 15
 
 ## Why × How (cumulative)
@@ -409,15 +409,29 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### Other / uncategorized — 2 tickets
 
+- **[#11550](https://tbpro.zendesk.com/agent/tickets/11550)** · Recovery Email Address
+  > Please list another email address for me in case this account gets shut down before I can access email notification account is closed. Please use [email]
 - **[#11547](https://tbpro.zendesk.com/agent/tickets/11547)** · Unable to Sign-In on any browser on Windows 11 when using Thundermail
   > I use 1Password as a password manager to store my email details. I copy the details from it to [domain] website to sign in. It refuses to work on Windows. I even tried to enter…
 
-### Account access issues — 1 tickets
+### Account access issues — 2 tickets
 
+- **[#11549](https://tbpro.zendesk.com/agent/tickets/11549)** · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
+  > **Betroffenes Konto:** [email] **Folgendes Problem tritt auf:** 1. In Thunderbird auf meinem Windows-PC ist der Kalender „Thundermail Calendar“ eingerichtet. Neue Termine werden…
 - **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
   > I setup a new app password after this update and it will no longer work on iOS I am Sure I am useing the correct email address for login, the app password and the [domain] servers
+
+### Custom domain / DKIM / DNS — 1 tickets
+
+- **[#11553](https://tbpro.zendesk.com/agent/tickets/11553)** · Not receiving emails from Microsoft
+  > Hi I am using a custom domain and I have set up the required DNS records. I am not receiving any emails from Microsoft for some reason.
+
+### Webmail — 1 tickets
+
+- **[#11551](https://tbpro.zendesk.com/agent/tickets/11551)** · Sending from Thunderbird
+  > hi I have started getting this message when sending from thunderbird client. "Sending of the message failed. An error occurred while sending mail. The mail server responded:…
 
 ### Aliases — 1 tickets
 
@@ -435,6 +449,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11537](https://tbpro.zendesk.com/agent/tickets/11537) · [new] · 2026-11-21T02:59 · Can't create alias?
 - [11539](https://tbpro.zendesk.com/agent/tickets/11539) · [new] · 2026-11-21T04:37 · Cannot connect using App Password
 - [11547](https://tbpro.zendesk.com/agent/tickets/11547) · [new] · 2026-11-21T12:27 · Unable to Sign-In on any browser on Windows 11 when using Thundermail
+- [11549](https://tbpro.zendesk.com/agent/tickets/11549) · [new] · 2026-11-21T13:14 · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
+- [11550](https://tbpro.zendesk.com/agent/tickets/11550) · [new] · 2026-11-21T13:22 · Recovery Email Address
+- [11551](https://tbpro.zendesk.com/agent/tickets/11551) · [new] · 2026-11-21T13:25 · Sending from Thunderbird
+- [11553](https://tbpro.zendesk.com/agent/tickets/11553) · [new] · 2026-11-21T14:01 · Not receiving emails from Microsoft
 
 ## Solved — last 24h
 
