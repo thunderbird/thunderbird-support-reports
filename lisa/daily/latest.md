@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 15:13 ET** · refreshes hourly_  
+_Updated: **2026-11-21 16:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1335 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1336 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **28** solved in last 24h
-- **1335** tickets total since launch · contact rate **4%** of 35000 invitees
+- **14** new tickets in last 24h · **28** solved in last 24h
+- **1336** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 95%  (222 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 164.1h · mean 177.1h (proxy: updated_at − created_at, 83 solved tickets)
+- **Median AHT**: 163.8h · mean 177.0h (proxy: updated_at − created_at, 84 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -337,12 +337,12 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1137
-- **solved**: 83
-- **pending**: 67
+- **closed**: 1138
+- **solved**: 84
+- **pending**: 65
 - **hold**: 22
 - **open**: 14
-- **new**: 12
+- **new**: 13
 
 ## Service (cumulative)
 
@@ -417,6 +417,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 4 tickets
+
+- **[#11562](https://tbpro.zendesk.com/agent/tickets/11562)** · Subject: 2FA Reset Request: [email]
+  > Hello, I still have access to my account password for [email], but I have lost my 2FA codes by accident and am locked out of the second step of verification. I need a reset of the…
+- **[#11559](https://tbpro.zendesk.com/agent/tickets/11559)** · Email verification
+  > Which email address is used for that ? Can't find it on [domain]... So, I'm blocked.
+- **[#11549](https://tbpro.zendesk.com/agent/tickets/11549)** · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
+  > **Betroffenes Konto:** [email] **Folgendes Problem tritt auf:** 1. In Thunderbird auf meinem Windows-PC ist der Kalender „Thundermail Calendar“ eingerichtet. Neue Termine werden…
+- **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
+  > I setup a new app password after this update and it will no longer work on iOS I am Sure I am useing the correct email address for login, the app password and the [domain] servers
+
 ### Aliases — 4 tickets
 
 - **[#11561](https://tbpro.zendesk.com/agent/tickets/11561)** · Alias stopped forwarding 
@@ -427,15 +438,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Hello [name], I am migrating my domain [domain] from STRATO to my Thundermail account [email]. I have added the domain and configured the DNS records. The latest verification…
 - **[#11537](https://tbpro.zendesk.com/agent/tickets/11537)** · Can't create alias?
   > I'm switching to Thunderbird, and I've linked my custom domain [domain]. I'm trying to set up my address [email] as an alias, but when I add it, it says "You cannot use this email…
-
-### Account access issues — 3 tickets
-
-- **[#11559](https://tbpro.zendesk.com/agent/tickets/11559)** · Email verification
-  > Which email address is used for that ? Can't find it on [domain]... So, I'm blocked.
-- **[#11549](https://tbpro.zendesk.com/agent/tickets/11549)** · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
-  > **Betroffenes Konto:** [email] **Folgendes Problem tritt auf:** 1. In Thunderbird auf meinem Windows-PC ist der Kalender „Thundermail Calendar“ eingerichtet. Neue Termine werden…
-- **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
-  > I setup a new app password after this update and it will no longer work on iOS I am Sure I am useing the correct email address for login, the app password and the [domain] servers
 
 ### Other / uncategorized — 3 tickets
 
@@ -476,6 +478,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11559](https://tbpro.zendesk.com/agent/tickets/11559) · [new] · 2026-11-21T18:44 · Email verification
 - [11560](https://tbpro.zendesk.com/agent/tickets/11560) · [new] · 2026-11-21T18:45 · can't create catch all alias for custom domain
 - [11561](https://tbpro.zendesk.com/agent/tickets/11561) · [new] · 2026-11-21T19:25 · Alias stopped forwarding 
+- [11562](https://tbpro.zendesk.com/agent/tickets/11562) · [new] · 2026-11-21T20:27 · Subject: 2FA Reset Request: [email]
 
 ## Solved — last 24h
 
