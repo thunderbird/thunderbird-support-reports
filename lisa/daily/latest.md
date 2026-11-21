@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 09:13 ET** · refreshes hourly_  
+_Updated: **2026-11-21 10:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 104** of rollout — **35,000 invitees**, **1330 tickets** so 
 
 ## At a glance
 
-- **8** new tickets in last 24h · **4** solved in last 24h
+- **8** new tickets in last 24h · **5** solved in last 24h
 - **1330** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (221 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 152.4h · mean 156.3h (proxy: updated_at − created_at, 67 solved tickets)
+- **Median AHT**: 152.8h · mean 156.8h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -330,8 +330,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1133
-- **pending**: 88
-- **solved**: 67
+- **pending**: 87
+- **solved**: 68
 - **hold**: 23
 - **open**: 12
 - **new**: 7
@@ -460,6 +460,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [11018](https://tbpro.zendesk.com/agent/tickets/11018) · 2026-11-20T22:14 · Email messages
 - · [11501](https://tbpro.zendesk.com/agent/tickets/11501) · 2026-11-20T22:17 · Webmail says 'can't connect'
 - · [11497](https://tbpro.zendesk.com/agent/tickets/11497) · 2026-11-20T22:17 · App password for Thunderbird
+- · [11277](https://tbpro.zendesk.com/agent/tickets/11277) · 2026-11-21T15:01 · New TB email & subscription
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
