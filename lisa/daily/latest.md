@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-20
 
-_Updated: **2026-11-20 20:15 ET** · refreshes hourly_  
+_Updated: **2026-11-20 21:19 ET** · refreshes hourly_  
 _24h window: 2026-11-19T16:00 → 2026-11-20T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -328,7 +328,7 @@ Henning Gerken_
 
 ## Refund & cancellation tickets (last 24h) — 1
 
-- [11533](https://tbpro.zendesk.com/agent/tickets/11533) · [pending] · _Refund_
+- [11533](https://tbpro.zendesk.com/agent/tickets/11533) · [open] · _Refund_
   > Can I get any type of refund on my Thundermail account if I delete it?
 
 ## New ideas on FeatureOS
@@ -340,10 +340,10 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1133
-- **pending**: 92
+- **pending**: 91
 - **solved**: 67
 - **hold**: 23
-- **open**: 8
+- **open**: 9
 
 ## Service (cumulative)
 
