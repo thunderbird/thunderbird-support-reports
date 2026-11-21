@@ -1,26 +1,27 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 14:12 ET** · refreshes hourly_  
+_Updated: **2026-11-21 15:13 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1334 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1335 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **20** solved in last 24h
-- **1334** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **13** new tickets in last 24h · **28** solved in last 24h
+- **1335** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (5 good / 0 bad)
 - **CSAT (since launch)**: 95%  (222 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 163.4h · mean 176.3h (proxy: updated_at − created_at, 77 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **Median AHT**: 164.1h · mean 177.1h (proxy: updated_at − created_at, 83 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"custom domain"** — 4 tickets in 24h (3.0× baseline; baseline 137 cum) — [#11537](https://tbpro.zendesk.com/agent/tickets/11537), [#11553](https://tbpro.zendesk.com/agent/tickets/11553), [#11557](https://tbpro.zendesk.com/agent/tickets/11557), [#11560](https://tbpro.zendesk.com/agent/tickets/11560)
+- **"mailbox exist"** — 2 tickets in 24h (new; baseline 0 cum) — [#11551](https://tbpro.zendesk.com/agent/tickets/11551), [#11561](https://tbpro.zendesk.com/agent/tickets/11561)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -173,7 +174,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [solved] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [solved] · 2026-11-14 · _Kontolöschung_
-  - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [pending] · 2026-11-14 · _cancelation subscribe within 14 days_
+  - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [solved] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [pending] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [pending] · 2026-11-15 · _Cancellation And Refund_
   - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
@@ -329,23 +330,24 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [More advanced appointment features](https://ideas.tb.pro/p/more-advanced-appointment-features) · 1 votes · _Appointment_
+  > What you’d like to see Briefly describe the feature or improvement. Why it matters What problem does this solve, or what benefit does it bring? Your use case Share an example of how you’d use this…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1136
-- **solved**: 77
-- **pending**: 74
+- **closed**: 1137
+- **solved**: 83
+- **pending**: 67
 - **hold**: 22
 - **open**: 14
-- **new**: 11
+- **new**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 750
-- **Thundermail**: 468
+- **Thundermail**: 469
 - **Send**: 32
 - **Appointment**: 15
 
@@ -415,8 +417,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Aliases — 3 tickets
+### Aliases — 4 tickets
 
+- **[#11561](https://tbpro.zendesk.com/agent/tickets/11561)** · Alias stopped forwarding 
+  > Just getting started with Thundermail. One of my aliases stopped forwarding: Delivery has failed to these recipients or distribution lists: Server "[ip]:25" returned an error: *…
 - **[#11560](https://tbpro.zendesk.com/agent/tickets/11560)** · can't create catch all alias for custom domain
   > When trying to create catch all alias for custom domain I'm getting "You cannot use this email address." error. Tried with empty name, and with * There are no other aliases for…
 - **[#11557](https://tbpro.zendesk.com/agent/tickets/11557)** · Custom domain: How can I create aliases before switching MX records?
@@ -471,6 +475,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11557](https://tbpro.zendesk.com/agent/tickets/11557) · [new] · 2026-11-21T17:33 · Custom domain: How can I create aliases before switching MX records?
 - [11559](https://tbpro.zendesk.com/agent/tickets/11559) · [new] · 2026-11-21T18:44 · Email verification
 - [11560](https://tbpro.zendesk.com/agent/tickets/11560) · [new] · 2026-11-21T18:45 · can't create catch all alias for custom domain
+- [11561](https://tbpro.zendesk.com/agent/tickets/11561) · [new] · 2026-11-21T19:25 · Alias stopped forwarding 
 
 ## Solved — last 24h
 
@@ -489,11 +494,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10903](https://tbpro.zendesk.com/agent/tickets/10903) · 2026-11-21T17:01 · I have an account, at least 10 years old.
 - · [10843](https://tbpro.zendesk.com/agent/tickets/10843) · 2026-11-21T17:01 · how do you add domains to the email account
 - · [11308](https://tbpro.zendesk.com/agent/tickets/11308) · 2026-11-21T18:01 · Kontolöschung
-- 👍 [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-21T19:01 · Thunderbird Sent not uploading from Thunderbird Desktop App
 - · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-21T19:01 · e mails
 - · [11318](https://tbpro.zendesk.com/agent/tickets/11318) · 2026-11-21T19:01 · Failed thundermail account creation
 - · [11025](https://tbpro.zendesk.com/agent/tickets/11025) · 2026-11-21T19:01 · Setting up thunderbird 
 - · [10961](https://tbpro.zendesk.com/agent/tickets/10961) · 2026-11-21T19:01 · DNS Records: SRV Data
+- 👍 [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-21T19:11 · Thunderbird Sent not uploading from Thunderbird Desktop App
+- · [11127](https://tbpro.zendesk.com/agent/tickets/11127) · 2026-11-21T20:01 · DKIM Misalignment
+- · [11359](https://tbpro.zendesk.com/agent/tickets/11359) · 2026-11-21T20:01 · neues Thunderbird unfortunedly needs new profiles
+- · [11343](https://tbpro.zendesk.com/agent/tickets/11343) · 2026-11-21T20:01 · set up account on new android device
+- · [11322](https://tbpro.zendesk.com/agent/tickets/11322) · 2026-11-21T20:01 · set up filter for a folder
+- · [11309](https://tbpro.zendesk.com/agent/tickets/11309) · 2026-11-21T20:01 · cancelation subscribe within 14 days
+- · [11303](https://tbpro.zendesk.com/agent/tickets/11303) · 2026-11-21T20:01 · ログイン出来ない
+- · [11297](https://tbpro.zendesk.com/agent/tickets/11297) · 2026-11-21T20:01 · cancel subscription
+- · [11178](https://tbpro.zendesk.com/agent/tickets/11178) · 2026-11-21T20:01 · Adding Identity
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
