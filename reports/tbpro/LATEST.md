@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-21
 
-_Updated: **2026-11-21 13:16 ET** · refreshes hourly_  
+_Updated: **2026-11-21 14:12 ET** · refreshes hourly_  
 _24h window: 2026-11-20T16:00 → 2026-11-21T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 104** of rollout — **35,000 invitees**, **1332 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 104** of rollout — **35,000 invitees**, **1334 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **15** solved in last 24h
-- **1332** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (221 good / 12 bad)
+- **12** new tickets in last 24h · **20** solved in last 24h
+- **1334** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (222 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 158.2h · mean 172.6h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 163.4h · mean 176.3h (proxy: updated_at − created_at, 77 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domain"** — 4 tickets in 24h (3.0× baseline; baseline 137 cum) — [#11537](https://tbpro.zendesk.com/agent/tickets/11537), [#11553](https://tbpro.zendesk.com/agent/tickets/11553), [#11557](https://tbpro.zendesk.com/agent/tickets/11557), [#11560](https://tbpro.zendesk.com/agent/tickets/11560)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -330,16 +336,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1136
-- **pending**: 77
-- **solved**: 74
-- **hold**: 23
-- **open**: 13
-- **new**: 9
+- **solved**: 77
+- **pending**: 74
+- **hold**: 22
+- **open**: 14
+- **new**: 11
 
 ## Service (cumulative)
 
-- **Account Hub**: 749
-- **Thundermail**: 467
+- **Account Hub**: 750
+- **Thundermail**: 468
 - **Send**: 32
 - **Appointment**: 15
 
@@ -409,6 +415,24 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 3 tickets
+
+- **[#11560](https://tbpro.zendesk.com/agent/tickets/11560)** · can't create catch all alias for custom domain
+  > When trying to create catch all alias for custom domain I'm getting "You cannot use this email address." error. Tried with empty name, and with * There are no other aliases for…
+- **[#11557](https://tbpro.zendesk.com/agent/tickets/11557)** · Custom domain: How can I create aliases before switching MX records?
+  > Hello [name], I am migrating my domain [domain] from STRATO to my Thundermail account [email]. I have added the domain and configured the DNS records. The latest verification…
+- **[#11537](https://tbpro.zendesk.com/agent/tickets/11537)** · Can't create alias?
+  > I'm switching to Thunderbird, and I've linked my custom domain [domain]. I'm trying to set up my address [email] as an alias, but when I add it, it says "You cannot use this email…
+
+### Account access issues — 3 tickets
+
+- **[#11559](https://tbpro.zendesk.com/agent/tickets/11559)** · Email verification
+  > Which email address is used for that ? Can't find it on [domain]... So, I'm blocked.
+- **[#11549](https://tbpro.zendesk.com/agent/tickets/11549)** · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
+  > **Betroffenes Konto:** [email] **Folgendes Problem tritt auf:** 1. In Thunderbird auf meinem Windows-PC ist der Kalender „Thundermail Calendar“ eingerichtet. Neue Termine werden…
+- **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
+  > I setup a new app password after this update and it will no longer work on iOS I am Sure I am useing the correct email address for login, the app password and the [domain] servers
+
 ### Other / uncategorized — 3 tickets
 
 - **[#11554](https://tbpro.zendesk.com/agent/tickets/11554)** · lost my sign in information
@@ -417,20 +441,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Please list another email address for me in case this account gets shut down before I can access email notification account is closed. Please use [email]
 - **[#11547](https://tbpro.zendesk.com/agent/tickets/11547)** · Unable to Sign-In on any browser on Windows 11 when using Thundermail
   > I use 1Password as a password manager to store my email details. I copy the details from it to [domain] website to sign in. It refuses to work on Windows. I even tried to enter…
-
-### Aliases — 2 tickets
-
-- **[#11557](https://tbpro.zendesk.com/agent/tickets/11557)** · Custom domain: How can I create aliases before switching MX records?
-  > Hello [name], I am migrating my domain [domain] from STRATO to my Thundermail account [email]. I have added the domain and configured the DNS records. The latest verification…
-- **[#11537](https://tbpro.zendesk.com/agent/tickets/11537)** · Can't create alias?
-  > I'm switching to Thunderbird, and I've linked my custom domain [domain]. I'm trying to set up my address [email] as an alias, but when I add it, it says "You cannot use this email…
-
-### Account access issues — 2 tickets
-
-- **[#11549](https://tbpro.zendesk.com/agent/tickets/11549)** · CalDAV-Synchronisierung fehlerhaft – Thunderbird, DAVx⁵ und Appointment
-  > **Betroffenes Konto:** [email] **Folgendes Problem tritt auf:** 1. In Thunderbird auf meinem Windows-PC ist der Kalender „Thundermail Calendar“ eingerichtet. Neue Termine werden…
-- **[#11539](https://tbpro.zendesk.com/agent/tickets/11539)** · Cannot connect using App Password
-  > I setup a new app password after this update and it will no longer work on iOS I am Sure I am useing the correct email address for login, the app password and the [domain] servers
 
 ### Custom domain / DKIM / DNS — 1 tickets
 
@@ -459,6 +469,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11553](https://tbpro.zendesk.com/agent/tickets/11553) · [new] · 2026-11-21T14:01 · Not receiving emails from Microsoft
 - [11554](https://tbpro.zendesk.com/agent/tickets/11554) · [new] · 2026-11-21T15:15 · lost my sign in information
 - [11557](https://tbpro.zendesk.com/agent/tickets/11557) · [new] · 2026-11-21T17:33 · Custom domain: How can I create aliases before switching MX records?
+- [11559](https://tbpro.zendesk.com/agent/tickets/11559) · [new] · 2026-11-21T18:44 · Email verification
+- [11560](https://tbpro.zendesk.com/agent/tickets/11560) · [new] · 2026-11-21T18:45 · can't create catch all alias for custom domain
 
 ## Solved — last 24h
 
@@ -477,6 +489,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10903](https://tbpro.zendesk.com/agent/tickets/10903) · 2026-11-21T17:01 · I have an account, at least 10 years old.
 - · [10843](https://tbpro.zendesk.com/agent/tickets/10843) · 2026-11-21T17:01 · how do you add domains to the email account
 - · [11308](https://tbpro.zendesk.com/agent/tickets/11308) · 2026-11-21T18:01 · Kontolöschung
+- 👍 [11280](https://tbpro.zendesk.com/agent/tickets/11280) · 2026-11-21T19:01 · Thunderbird Sent not uploading from Thunderbird Desktop App
+- · [11252](https://tbpro.zendesk.com/agent/tickets/11252) · 2026-11-21T19:01 · e mails
+- · [11318](https://tbpro.zendesk.com/agent/tickets/11318) · 2026-11-21T19:01 · Failed thundermail account creation
+- · [11025](https://tbpro.zendesk.com/agent/tickets/11025) · 2026-11-21T19:01 · Setting up thunderbird 
+- · [10961](https://tbpro.zendesk.com/agent/tickets/10961) · 2026-11-21T19:01 · DNS Records: SRV Data
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
