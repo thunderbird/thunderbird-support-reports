@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 09:13 ET** · refreshes hourly_  
+_Updated: **2026-11-22 10:13 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1346 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1347 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **10** new tickets in last 24h · **14** solved in last 24h
-- **1346** tickets total since launch · contact rate **4%** of 35000 invitees
+- **11** new tickets in last 24h · **16** solved in last 24h
+- **1347** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 160.8h · mean 174.5h (proxy: updated_at − created_at, 90 solved tickets)
+- **Median AHT**: 161.7h · mean 178.1h (proxy: updated_at − created_at, 92 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -340,16 +340,16 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1141
-- **solved**: 90
-- **pending**: 54
-- **new**: 23
+- **solved**: 92
+- **pending**: 52
+- **new**: 24
 - **hold**: 22
 - **open**: 16
 
 ## Service (cumulative)
 
 - **Account Hub**: 752
-- **Thundermail**: 476
+- **Thundermail**: 477
 - **Send**: 33
 - **Appointment**: 15
 
@@ -419,6 +419,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 2 tickets
+
+- **[#11590](https://tbpro.zendesk.com/agent/tickets/11590)** · Can no longer get into thunderbird on my desktop
+  > I set a primary password, which I remember, but it won't take it. I've tried everything, including deleting and reinstalling the application. Nothing works. How do I get around a…
+- **[#11579](https://tbpro.zendesk.com/agent/tickets/11579)** · No monthly option
+  > Feedback- I will not pay an annual price directly, if Thundermail can't offer an monthly sub this is not for me
+
 ### Aliases — 2 tickets
 
 - **[#11589](https://tbpro.zendesk.com/agent/tickets/11589)** · Cannot create catch all alias for my custom domain.
@@ -430,11 +437,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11584](https://tbpro.zendesk.com/agent/tickets/11584)** · Firefox Relay emails to spam
   > I would really like to be able to put Firefox Relay ([email]) in a whitelist, cause I use it for so many services and it's very important to keep my information safe online…
-
-### Other / uncategorized — 1 tickets
-
-- **[#11579](https://tbpro.zendesk.com/agent/tickets/11579)** · No monthly option
-  > Feedback- I will not pay an annual price directly, if Thundermail can't offer an monthly sub this is not for me
 
 ### Account access issues — 1 tickets
 
@@ -478,6 +480,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11579](https://tbpro.zendesk.com/agent/tickets/11579) · [new] · 2026-11-22T08:48 · No monthly option
 - [11584](https://tbpro.zendesk.com/agent/tickets/11584) · [new] · 2026-11-22T12:17 · Firefox Relay emails to spam
 - [11589](https://tbpro.zendesk.com/agent/tickets/11589) · [new] · 2026-11-22T13:12 · Cannot create catch all alias for my custom domain.
+- [11590](https://tbpro.zendesk.com/agent/tickets/11590) · [new] · 2026-11-22T14:31 · Can no longer get into thunderbird on my desktop
 
 ## Solved — last 24h
 
@@ -495,6 +498,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11355](https://tbpro.zendesk.com/agent/tickets/11355) · 2026-11-21T23:01 · User name/password
 - · [11354](https://tbpro.zendesk.com/agent/tickets/11354) · 2026-11-21T23:01 · Change main adress
 - · [11350](https://tbpro.zendesk.com/agent/tickets/11350) · 2026-11-21T23:01 · Cancellation And Refund
+- · [11233](https://tbpro.zendesk.com/agent/tickets/11233) · 2026-11-22T15:01 · Forgot password, email response does not provide code to insert
+- · [10750](https://tbpro.zendesk.com/agent/tickets/10750) · 2026-11-22T15:01 · Alias management
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
