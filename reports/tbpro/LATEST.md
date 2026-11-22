@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 11:15 ET** · refreshes hourly_  
+_Updated: **2026-11-22 12:12 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1347 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1348 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **11** new tickets in last 24h · **21** solved in last 24h
-- **1347** tickets total since launch · contact rate **4%** of 35000 invitees
+- **12** new tickets in last 24h · **21** solved in last 24h
+- **1348** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 160.1h · mean 177.8h (proxy: updated_at − created_at, 94 solved tickets)
+- **Median AHT**: 159.4h · mean 177.9h (proxy: updated_at − created_at, 93 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -339,16 +339,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1144
-- **solved**: 94
+- **closed**: 1145
+- **solved**: 93
 - **pending**: 47
-- **new**: 24
+- **new**: 25
 - **hold**: 22
 - **open**: 16
 
 ## Service (cumulative)
 
-- **Account Hub**: 752
+- **Account Hub**: 753
 - **Thundermail**: 477
 - **Send**: 33
 - **Appointment**: 15
@@ -419,19 +419,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 3 tickets
+
+- **[#11592](https://tbpro.zendesk.com/agent/tickets/11592)** · Account email change
+  > Hi, I'm going through some identity changes and part of this is using a new name. I notice "[email]" is locked as the "primary" and "subscription" alias. I'd like to set these to…
+- **[#11589](https://tbpro.zendesk.com/agent/tickets/11589)** · Cannot create catch all alias for my custom domain.
+  > I got an error: “you can’t use this email address”
+- **[#11573](https://tbpro.zendesk.com/agent/tickets/11573)** · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work
+  > Hi, Two alias operations on my custom domain are rejected with the same generic message, while everything else on the same domain works. I cannot tell what rule I am violating, so…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#11590](https://tbpro.zendesk.com/agent/tickets/11590)** · Can no longer get into thunderbird on my desktop
   > I set a primary password, which I remember, but it won't take it. I've tried everything, including deleting and reinstalling the application. Nothing works. How do I get around a…
 - **[#11579](https://tbpro.zendesk.com/agent/tickets/11579)** · No monthly option
   > Feedback- I will not pay an annual price directly, if Thundermail can't offer an monthly sub this is not for me
-
-### Aliases — 2 tickets
-
-- **[#11589](https://tbpro.zendesk.com/agent/tickets/11589)** · Cannot create catch all alias for my custom domain.
-  > I got an error: “you can’t use this email address”
-- **[#11573](https://tbpro.zendesk.com/agent/tickets/11573)** · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work
-  > Hi, Two alias operations on my custom domain are rejected with the same generic message, while everything else on the same domain works. I cannot tell what rule I am violating, so…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -481,6 +483,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11584](https://tbpro.zendesk.com/agent/tickets/11584) · [new] · 2026-11-22T12:17 · Firefox Relay emails to spam
 - [11589](https://tbpro.zendesk.com/agent/tickets/11589) · [new] · 2026-11-22T13:12 · Cannot create catch all alias for my custom domain.
 - [11590](https://tbpro.zendesk.com/agent/tickets/11590) · [new] · 2026-11-22T14:31 · Can no longer get into thunderbird on my desktop
+- [11592](https://tbpro.zendesk.com/agent/tickets/11592) · [new] · 2026-11-22T17:01 · Account email change
 
 ## Solved — last 24h
 
