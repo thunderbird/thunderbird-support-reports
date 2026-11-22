@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 10:13 ET** · refreshes hourly_  
+_Updated: **2026-11-22 11:15 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 105** of rollout — **35,000 invitees**, **1347 tickets** so 
 
 ## At a glance
 
-- **11** new tickets in last 24h · **16** solved in last 24h
+- **11** new tickets in last 24h · **21** solved in last 24h
 - **1347** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 161.7h · mean 178.1h (proxy: updated_at − created_at, 92 solved tickets)
+- **Median AHT**: 160.1h · mean 177.8h (proxy: updated_at − created_at, 94 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -339,9 +339,9 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1141
-- **solved**: 92
-- **pending**: 52
+- **closed**: 1144
+- **solved**: 94
+- **pending**: 47
 - **new**: 24
 - **hold**: 22
 - **open**: 16
@@ -453,7 +453,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11571](https://tbpro.zendesk.com/agent/tickets/11571)** · Account options
   > I am looking at the thundermail options. Fist of all, on the web a page and an email I recieved to signup talked about $6 per month. I went to try a test account, and it is $8 /…
 
-### Early bird / invite / waitlist — 1 tickets
+### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11568](https://tbpro.zendesk.com/agent/tickets/11568)** · MTA-STS delivery issue
   > Hi, I was recently informed by a recruiter that an interview invitation had been sent to me, but unfortunately, I never received it. After several tests last night from my…
@@ -500,6 +500,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11350](https://tbpro.zendesk.com/agent/tickets/11350) · 2026-11-21T23:01 · Cancellation And Refund
 - · [11233](https://tbpro.zendesk.com/agent/tickets/11233) · 2026-11-22T15:01 · Forgot password, email response does not provide code to insert
 - · [10750](https://tbpro.zendesk.com/agent/tickets/10750) · 2026-11-22T15:01 · Alias management
+- · [11411](https://tbpro.zendesk.com/agent/tickets/11411) · 2026-11-22T16:01 · Passwort 
+- · [11401](https://tbpro.zendesk.com/agent/tickets/11401) · 2026-11-22T16:01 · kündigen
+- · [11373](https://tbpro.zendesk.com/agent/tickets/11373) · 2026-11-22T16:01 · Abonnement
+- · [11312](https://tbpro.zendesk.com/agent/tickets/11312) · 2026-11-22T16:01 · Message marked as spam
+- · [11137](https://tbpro.zendesk.com/agent/tickets/11137) · 2026-11-22T16:01 · Thundermail Send
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
