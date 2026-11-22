@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 14:12 ET** · refreshes hourly_  
+_Updated: **2026-11-22 15:15 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1348 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1350 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **12** new tickets in last 24h · **25** solved in last 24h
-- **1348** tickets total since launch · contact rate **4%** of 35000 invitees
+- **14** new tickets in last 24h · **26** solved in last 24h
+- **1350** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 153.3h · mean 173.8h (proxy: updated_at − created_at, 93 solved tickets)
+- **Median AHT**: 160.1h · mean 176.8h (proxy: updated_at − created_at, 86 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -169,9 +169,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [solved] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [closed] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [closed] · 2026-11-10 · _cancelation_
-  - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [solved] · 2026-11-11 · _Account Deletion_
+  - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [closed] · 2026-11-11 · _Account Deletion_
   - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [solved] · 2026-11-11 · _Account Deletion_
-  - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [solved] · 2026-11-11 · _Permanently delete my account_
+  - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [closed] · 2026-11-11 · _Permanently delete my account_
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [solved] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [solved] · 2026-11-14 · _Kontolöschung_
@@ -339,17 +339,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1149
-- **solved**: 93
-- **pending**: 43
-- **new**: 25
+- **closed**: 1157
+- **solved**: 86
+- **pending**: 42
+- **new**: 27
 - **hold**: 22
 - **open**: 16
 
 ## Service (cumulative)
 
 - **Account Hub**: 753
-- **Thundermail**: 477
+- **Thundermail**: 478
 - **Send**: 33
 - **Appointment**: 15
 
@@ -419,6 +419,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 3 tickets
+
+- **[#11600](https://tbpro.zendesk.com/agent/tickets/11600)** · Lost connection
+  > Hi [name] thunderbird program was not working properly and I deleted it. I have downloaded a new program and am being refused access as my password is said to be incorrect. How do…
+- **[#11590](https://tbpro.zendesk.com/agent/tickets/11590)** · Can no longer get into thunderbird on my desktop
+  > I set a primary password, which I remember, but it won't take it. I've tried everything, including deleting and reinstalling the application. Nothing works. How do I get around a…
+- **[#11579](https://tbpro.zendesk.com/agent/tickets/11579)** · No monthly option
+  > Feedback- I will not pay an annual price directly, if Thundermail can't offer an monthly sub this is not for me
+
 ### Aliases — 3 tickets
 
 - **[#11592](https://tbpro.zendesk.com/agent/tickets/11592)** · Account email change
@@ -428,12 +437,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11573](https://tbpro.zendesk.com/agent/tickets/11573)** · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work
   > Hi, Two alias operations on my custom domain are rejected with the same generic message, while everything else on the same domain works. I cannot tell what rule I am violating, so…
 
-### Other / uncategorized — 2 tickets
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
-- **[#11590](https://tbpro.zendesk.com/agent/tickets/11590)** · Can no longer get into thunderbird on my desktop
-  > I set a primary password, which I remember, but it won't take it. I've tried everything, including deleting and reinstalling the application. Nothing works. How do I get around a…
-- **[#11579](https://tbpro.zendesk.com/agent/tickets/11579)** · No monthly option
-  > Feedback- I will not pay an annual price directly, if Thundermail can't offer an monthly sub this is not for me
+- **[#11599](https://tbpro.zendesk.com/agent/tickets/11599)** · Imap not working
+  > Imap is not working at all after maintenance break. I have account [email].
+- **[#11568](https://tbpro.zendesk.com/agent/tickets/11568)** · MTA-STS delivery issue
+  > Hi, I was recently informed by a recruiter that an interview invitation had been sent to me, but unfortunately, I never received it. After several tests last night from my…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -454,11 +463,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11571](https://tbpro.zendesk.com/agent/tickets/11571)** · Account options
   > I am looking at the thundermail options. Fist of all, on the web a page and an email I recieved to signup talked about $6 per month. I went to try a test account, and it is $8 /…
-
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
-
-- **[#11568](https://tbpro.zendesk.com/agent/tickets/11568)** · MTA-STS delivery issue
-  > Hi, I was recently informed by a recruiter that an interview invitation had been sent to me, but unfortunately, I never received it. After several tests last night from my…
 
 ### Thunderbird for Android + Thundermail — 1 tickets
 
@@ -484,6 +488,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11589](https://tbpro.zendesk.com/agent/tickets/11589) · [new] · 2026-11-22T13:12 · Cannot create catch all alias for my custom domain.
 - [11590](https://tbpro.zendesk.com/agent/tickets/11590) · [new] · 2026-11-22T14:31 · Can no longer get into thunderbird on my desktop
 - [11592](https://tbpro.zendesk.com/agent/tickets/11592) · [new] · 2026-11-22T17:01 · Account email change
+- [11599](https://tbpro.zendesk.com/agent/tickets/11599) · [new] · 2026-11-22T19:57 · Imap not working
+- [11600](https://tbpro.zendesk.com/agent/tickets/11600) · [new] · 2026-11-22T20:03 · Lost connection
 
 ## Solved — last 24h
 
@@ -512,6 +518,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11296](https://tbpro.zendesk.com/agent/tickets/11296) · 2026-11-22T18:01 · username
 - · [11395](https://tbpro.zendesk.com/agent/tickets/11395) · 2026-11-22T19:01 · Thunderbird Signup
 - · [11337](https://tbpro.zendesk.com/agent/tickets/11337) · 2026-11-22T19:01 · Can't upload file with SEND
+- · [11317](https://tbpro.zendesk.com/agent/tickets/11317) · 2026-11-22T20:01 · mail account assistance
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
