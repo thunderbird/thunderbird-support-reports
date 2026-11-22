@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 06:12 ET** · refreshes hourly_  
+_Updated: **2026-11-22 07:19 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1344 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1345 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **14** solved in last 24h
-- **1344** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **14** solved in last 24h
+- **1345** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -342,14 +342,14 @@ Henning Gerken_
 - **solved**: 90
 - **pending**: 54
 - **hold**: 22
-- **new**: 21
+- **new**: 22
 - **open**: 16
 
 ## Service (cumulative)
 
 - **Account Hub**: 752
 - **Thundermail**: 475
-- **Send**: 32
+- **Send**: 33
 - **Appointment**: 15
 
 ## Why × How (cumulative)
@@ -418,6 +418,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#11584](https://tbpro.zendesk.com/agent/tickets/11584)** · Firefox Relay emails to spam
+  > I would really like to be able to put Firefox Relay ([email]) in a whitelist, cause I use it for so many services and it's very important to keep my information safe online…
+
 ### Other / uncategorized — 1 tickets
 
 - **[#11579](https://tbpro.zendesk.com/agent/tickets/11579)** · No monthly option
@@ -468,6 +473,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11573](https://tbpro.zendesk.com/agent/tickets/11573) · [new] · 2026-11-22T06:11 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
 - [11577](https://tbpro.zendesk.com/agent/tickets/11577) · [new] · 2026-11-22T08:07 · SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)
 - [11579](https://tbpro.zendesk.com/agent/tickets/11579) · [new] · 2026-11-22T08:48 · No monthly option
+- [11584](https://tbpro.zendesk.com/agent/tickets/11584) · [new] · 2026-11-22T12:17 · Firefox Relay emails to spam
 
 ## Solved — last 24h
 
