@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-22 16:13 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1350 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1351 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **26** solved in last 24h
-- **1350** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1351** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 160.1h · mean 176.8h (proxy: updated_at − created_at, 86 solved tickets)
+- **Median AHT**: 160.8h · mean 180.1h (proxy: updated_at − created_at, 82 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -325,10 +325,12 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 1
+## Refund & cancellation tickets (last 24h) — 2
 
 - [11572](https://tbpro.zendesk.com/agent/tickets/11572) · [new] · _Account cancellation and refund_
   > Hello. I'm just wanting to contact support so I can have my refund processed. My initial payment was on November 9th, so I'm still within the 14 day window for a full refund. Please let me know what the next steps would…
+- [11601](https://tbpro.zendesk.com/agent/tickets/11601) · [new] · _Refund request_
+  > I thought I had already cancelled the subscription earlier and didn't realise I hadn't requested it either. I'm unsure if this would be possible, but I thought I should ask.
 
 ## New ideas on FeatureOS
 
@@ -339,16 +341,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1157
-- **solved**: 86
-- **pending**: 42
-- **new**: 27
+- **closed**: 1162
+- **solved**: 82
+- **pending**: 41
+- **new**: 28
 - **hold**: 22
 - **open**: 16
 
 ## Service (cumulative)
 
-- **Account Hub**: 753
+- **Account Hub**: 754
 - **Thundermail**: 478
 - **Send**: 33
 - **Appointment**: 15
