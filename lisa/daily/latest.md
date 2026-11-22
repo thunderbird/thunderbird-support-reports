@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 17:14 ET** · refreshes hourly_  
+_Updated: **2026-11-22 18:13 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 105** of rollout — **35,000 invitees**, **1353 tickets** so 
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 165.3h · mean 186.8h (proxy: updated_at − created_at, 84 solved tickets)
+- **Median AHT**: 160.8h · mean 184.0h (proxy: updated_at − created_at, 82 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -165,7 +165,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10879](https://tbpro.zendesk.com/agent/tickets/10879) · [closed] · 2026-11-06 · _How to transfer my private domain users from [domain]_
   - [#10898](https://tbpro.zendesk.com/agent/tickets/10898) · [closed] · 2026-11-06 · _Refund_
   - [#10913](https://tbpro.zendesk.com/agent/tickets/10913) · [closed] · 2026-11-07 · _Account termination_
-  - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [solved] · 2026-11-07 · _Delete Account_
+  - [#10926](https://tbpro.zendesk.com/agent/tickets/10926) · [closed] · 2026-11-07 · _Delete Account_
   - [#10945](https://tbpro.zendesk.com/agent/tickets/10945) · [solved] · 2026-11-08 · _Error configuring SRV record at [domain]_
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [closed] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [closed] · 2026-11-10 · _cancelation_
@@ -178,7 +178,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [solved] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [solved] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [solved] · 2026-11-15 · _Cancellation And Refund_
-  - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [pending] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
+  - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [solved] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -341,9 +341,9 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1164
-- **solved**: 84
-- **pending**: 36
+- **closed**: 1169
+- **solved**: 82
+- **pending**: 33
 - **new**: 30
 - **hold**: 22
 - **open**: 17
