@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 02:15 ET** · refreshes hourly_  
+_Updated: **2026-11-22 03:18 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1342 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1343 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **14** solved in last 24h
-- **1342** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **14** solved in last 24h
+- **1343** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (222 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
@@ -21,6 +21,7 @@ Flight 8 is **day 105** of rollout — **35,000 invitees**, **1342 tickets** so 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"mailbox exist"** — 2 tickets in 24h (104.0× baseline; baseline 2 cum) — [#11566](https://tbpro.zendesk.com/agent/tickets/11566), [#11573](https://tbpro.zendesk.com/agent/tickets/11573)
+- **"primary address"** — 2 tickets in 24h (10.9× baseline; baseline 19 cum) — [#11573](https://tbpro.zendesk.com/agent/tickets/11573), [#11577](https://tbpro.zendesk.com/agent/tickets/11577)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -341,12 +342,12 @@ Henning Gerken_
 - **solved**: 91
 - **pending**: 54
 - **hold**: 22
-- **new**: 19
+- **new**: 20
 - **open**: 15
 
 ## Service (cumulative)
 
-- **Account Hub**: 751
+- **Account Hub**: 752
 - **Thundermail**: 474
 - **Send**: 32
 - **Appointment**: 15
@@ -417,6 +418,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 1 tickets
+
+- **[#11577](https://tbpro.zendesk.com/agent/tickets/11577)** · SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)
+  > Hi, Since your Nov 19 maintenance (cutover at 03:04 UTC), my account [email] can no longer send over SMTP from addresses on my custom domain [domain]. [domain]:465 answers MAIL…
+
 ### Aliases — 1 tickets
 
 - **[#11573](https://tbpro.zendesk.com/agent/tickets/11573)** · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work
@@ -455,6 +461,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11571](https://tbpro.zendesk.com/agent/tickets/11571) · [new] · 2026-11-22T01:23 · Account options
 - [11572](https://tbpro.zendesk.com/agent/tickets/11572) · [new] · 2026-11-22T05:01 · Account cancellation and refund
 - [11573](https://tbpro.zendesk.com/agent/tickets/11573) · [new] · 2026-11-22T06:11 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
+- [11577](https://tbpro.zendesk.com/agent/tickets/11577) · [new] · 2026-11-22T08:07 · SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)
 
 ## Solved — last 24h
 
