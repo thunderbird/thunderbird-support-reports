@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 16:13 ET** · refreshes hourly_  
+_Updated: **2026-11-22 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1351 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1353 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
 - **14** new tickets in last 24h · **26** solved in last 24h
-- **1351** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1353** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 160.8h · mean 180.1h (proxy: updated_at − created_at, 82 solved tickets)
+- **Median AHT**: 165.3h · mean 186.8h (proxy: updated_at − created_at, 84 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -158,7 +158,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#10800](https://tbpro.zendesk.com/agent/tickets/10800) · [closed] · 2026-11-04 · _Delete thundermail _
   - [#10809](https://tbpro.zendesk.com/agent/tickets/10809) · [closed] · 2026-11-04 · _Cancel, sorry!_
   - [#10845](https://tbpro.zendesk.com/agent/tickets/10845) · [closed] · 2026-11-05 · _Delete account and refund _
-  - [#10859](https://tbpro.zendesk.com/agent/tickets/10859) · [pending] · 2026-11-05 · _Getting connected_
+  - [#10859](https://tbpro.zendesk.com/agent/tickets/10859) · [solved] · 2026-11-05 · _Getting connected_
   - [#10870](https://tbpro.zendesk.com/agent/tickets/10870) · [closed] · 2026-11-05 · _change default account email_
   - [#10871](https://tbpro.zendesk.com/agent/tickets/10871) · [closed] · 2026-11-05 · _cancel my whole account_
   - [#10877](https://tbpro.zendesk.com/agent/tickets/10877) · [closed] · 2026-11-06 · _Cancellation + refund_
@@ -341,19 +341,19 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1162
-- **solved**: 82
-- **pending**: 41
-- **new**: 28
+- **closed**: 1164
+- **solved**: 84
+- **pending**: 36
+- **new**: 30
 - **hold**: 22
-- **open**: 16
+- **open**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 754
+- **Account Hub**: 755
 - **Thundermail**: 478
 - **Send**: 33
-- **Appointment**: 15
+- **Appointment**: 16
 
 ## Why × How (cumulative)
 
