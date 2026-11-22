@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 00:15 ET** · refreshes hourly_  
+_Updated: **2026-11-22 01:22 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 105** of rollout — **35,000 invitees**, **1341 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 105** of rollout — **35,000 invitees**, **1342 tickets** so far (3.8% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **14** solved in last 24h
-- **1341** tickets total since launch · contact rate **4%** of 35000 invitees
+- **6** new tickets in last 24h · **14** solved in last 24h
+- **1342** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (222 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
 - **Median AHT**: 160.9h · mean 174.7h (proxy: updated_at − created_at, 91 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"mailbox exist"** — 2 tickets in 24h (104.0× baseline; baseline 2 cum) — [#11566](https://tbpro.zendesk.com/agent/tickets/11566), [#11573](https://tbpro.zendesk.com/agent/tickets/11573)
 
 ## Known problems — 16 problem(s), 165 incident(s)
 
@@ -335,13 +341,13 @@ Henning Gerken_
 - **solved**: 91
 - **pending**: 54
 - **hold**: 22
-- **new**: 18
+- **new**: 19
 - **open**: 15
 
 ## Service (cumulative)
 
 - **Account Hub**: 751
-- **Thundermail**: 473
+- **Thundermail**: 474
 - **Send**: 32
 - **Appointment**: 15
 
@@ -411,6 +417,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 1 tickets
+
+- **[#11573](https://tbpro.zendesk.com/agent/tickets/11573)** · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work
+  > Hi, Two alias operations on my custom domain are rejected with the same generic message, while everything else on the same domain works. I cannot tell what rule I am violating, so…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#11572](https://tbpro.zendesk.com/agent/tickets/11572)** · Account cancellation and refund
@@ -443,6 +454,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11568](https://tbpro.zendesk.com/agent/tickets/11568) · [new] · 2026-11-21T23:27 · MTA-STS delivery issue
 - [11571](https://tbpro.zendesk.com/agent/tickets/11571) · [new] · 2026-11-22T01:23 · Account options
 - [11572](https://tbpro.zendesk.com/agent/tickets/11572) · [new] · 2026-11-22T05:01 · Account cancellation and refund
+- [11573](https://tbpro.zendesk.com/agent/tickets/11573) · [new] · 2026-11-22T06:11 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
 
 ## Solved — last 24h
 
