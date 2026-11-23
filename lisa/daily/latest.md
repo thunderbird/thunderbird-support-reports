@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-23 18:14 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 106** of rollout — **35,000 invitees**, **1373 tickets** so 
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 176.1h · mean 199.7h (proxy: updated_at − created_at, 70 solved tickets)
+- **Median AHT**: 176.5h · mean 200.7h (proxy: updated_at − created_at, 69 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"catch aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 - **"family members"** — 2 tickets in 24h (52.5× baseline; baseline 4 cum) — [#11603](https://tbpro.zendesk.com/agent/tickets/11603), [#11647](https://tbpro.zendesk.com/agent/tickets/11647)
 - **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
 - **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
@@ -377,12 +377,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1188
-- **solved**: 70
-- **pending**: 55
+- **closed**: 1189
+- **solved**: 69
+- **pending**: 57
 - **hold**: 35
-- **open**: 24
-- **new**: 1
+- **open**: 23
 
 ## Service (cumulative)
 
@@ -399,9 +398,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **actioned**: 190
 - **blocked** + **explained**: 129
 - **confused** + **explained**: 111
-- **curious** + **informed**: 68
+- **curious** + **informed**: 69
 - **confused** + **redirected**: 68
-- **confused** + **informed**: 66
+- **confused** + **informed**: 67
 - **blocked** + **redirected**: 60
 - **blocked** + **investigated**: 56
 - **request** + **redirected**: 52
@@ -483,10 +482,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11639](https://tbpro.zendesk.com/agent/tickets/11639)** · Appointment seems to be unable to sync to the calendar
   > Appointment seems to be unable to sync to the calendar
-- **[#11613](https://tbpro.zendesk.com/agent/tickets/11613)** · Appointment calendars
-  > Dear [name], I am struggling with Appointment to add additional calendars that are not requiring a username and password, but who will impact my availability. Is it possible to…
 - **[#11630](https://tbpro.zendesk.com/agent/tickets/11630)** · Appointment don't accept thunderbird calendar — why: **blocked** · how: **explained**
   > Hello [name] unable to add my thunderbird pro caldav to the appointments: https://[domain]/dashboard. I added the URL https://[domain]/dav/cal/rbran%[domain]/default/ using the…
+- **[#11613](https://tbpro.zendesk.com/agent/tickets/11613)** · Appointment calendars — why: **curious** · how: **informed**
+  > Dear [name], I am struggling with Appointment to add additional calendars that are not requiring a username and password, but who will impact my availability. Is it possible to…
 
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
@@ -544,7 +543,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11603](https://tbpro.zendesk.com/agent/tickets/11603) · [open] · 2026-11-22T22:09 · Multiple accounts
 - [11605](https://tbpro.zendesk.com/agent/tickets/11605) · [pending] · 2026-11-22T23:28 · 454 4.7.0 Temporary authentication failure
 - [11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23T05:45 · Sending email to Outlook.com
-- [11613](https://tbpro.zendesk.com/agent/tickets/11613) · [open] · 2026-11-23T08:22 · Appointment calendars
+- [11613](https://tbpro.zendesk.com/agent/tickets/11613) · [pending] · 2026-11-23T08:22 · Appointment calendars
 - [11615](https://tbpro.zendesk.com/agent/tickets/11615) · [pending] · 2026-11-23T08:35 · Cannot email Microsoft accounta
 - [11618](https://tbpro.zendesk.com/agent/tickets/11618) · [hold] · 2026-11-23T09:37 · Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist
 - [11619](https://tbpro.zendesk.com/agent/tickets/11619) · [hold] · 2026-11-23T09:49 · Catchall-Aliases for custom domains are gone and can't be re-added
