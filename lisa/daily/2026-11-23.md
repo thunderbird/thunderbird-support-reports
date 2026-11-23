@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 13:17 ET** · refreshes hourly_  
+_Updated: **2026-11-23 14:12 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,18 +9,18 @@ Flight 8 is **day 106** of rollout — **35,000 invitees**, **1368 tickets** so 
 
 ## At a glance
 
-- **19** new tickets in last 24h · **12** solved in last 24h
+- **19** new tickets in last 24h · **15** solved in last 24h
 - **1368** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (223 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 169.8h · mean 196.9h (proxy: updated_at − created_at, 71 solved tickets)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (224 good / 12 bad)
+- **New FeatureOS ideas (24h)**: 3 · **since launch**: 100
+- **Median AHT**: 172.8h · mean 199.5h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"catch aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 - **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
 - **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
 
@@ -357,23 +357,28 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 3 new:
 
-- _(none)_
+- [Transfer alias addresses to another Thunderbird user](https://ideas.tb.pro/p/transfer-alias-addresses-to-another-thunderbird-user) · 1 votes · _untagged_
+  > What you'd like to see The option to hand over an alias address to another Thunderbird user, for example by sending a transfer request that the recipient has to accept. Why it matters Aliases are…
+- [Confirmation dialog before deleting an alias](https://ideas.tb.pro/p/confirmation-dialog-before-deleting-an-alias) · 1 votes · _untagged_
+  > What you'd like to see A confirmation dialog that appears before an alias address is deleted, naming the address and warning that the action cannot be undone. Why it matters Deleting an alias can be…
+- [Swap the primary address with an alias](https://ideas.tb.pro/p/swap-the-primary-address-with-an-alias) · 1 votes · _untagged_
+  > What you'd like to see The ability to promote one of the up to 15 alias addresses to the primary address, with the current primary address becoming an alias in return. Why it matters Today the…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1184
-- **solved**: 71
-- **open**: 33
-- **pending**: 33
+- **closed**: 1185
+- **solved**: 72
+- **pending**: 36
+- **open**: 30
 - **hold**: 28
-- **new**: 19
+- **new**: 17
 
 ## Service (cumulative)
 
-- **Account Hub**: 752
-- **Thundermail**: 494
+- **Account Hub**: 753
+- **Thundermail**: 493
 - **Send**: 32
 - **Appointment**: 18
 
@@ -383,7 +388,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 251
 - **change request** + **actioned**: 188
-- **blocked** + **explained**: 126
+- **blocked** + **explained**: 127
 - **confused** + **explained**: 112
 - **curious** + **informed**: 67
 - **confused** + **redirected**: 67
@@ -413,6 +418,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **n/a**: 4
 - **curious** + **investigated**: 4
 - **curious** + **escalated**: 3
+- **curious** + **n/a**: 3
 - **change request** + **escalated**: 3
 - **change request** + **investigated**: 3
 - **other** + **escalated**: 3
@@ -422,7 +428,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **redirected**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
-- **curious** + **n/a**: 2
 - **request** + **escalated**: 2
 - **other** + **—**: 2
 - **telling us** + **escalated**: 2
@@ -464,10 +469,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11639](https://tbpro.zendesk.com/agent/tickets/11639)** · Appointment seems to be unable to sync to the calendar
   > Appointment seems to be unable to sync to the calendar
-- **[#11630](https://tbpro.zendesk.com/agent/tickets/11630)** · Appointment don't accept thunderbird calendar
-  > Hello [name] unable to add my thunderbird pro caldav to the appointments: https://[domain]/dashboard. I added the URL https://[domain]/dav/cal/rbran%[domain]/default/ using the…
 - **[#11613](https://tbpro.zendesk.com/agent/tickets/11613)** · Appointment calendars
   > Dear [name], I am struggling with Appointment to add additional calendars that are not requiring a username and password, but who will impact my availability. Is it possible to…
+- **[#11630](https://tbpro.zendesk.com/agent/tickets/11630)** · Appointment don't accept thunderbird calendar — why: **blocked** · how: **explained**
+  > Hello [name] unable to add my thunderbird pro caldav to the appointments: https://[domain]/dashboard. I added the URL https://[domain]/dav/cal/rbran%[domain]/default/ using the…
 
 ### Other / uncategorized — 2 tickets
 
@@ -524,11 +529,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11619](https://tbpro.zendesk.com/agent/tickets/11619) · [new] · 2026-11-23T09:49 · Catchall-Aliases for custom domains are gone and can't be re-added
 - [11623](https://tbpro.zendesk.com/agent/tickets/11623) · [new] · 2026-11-23T13:21 · Problême d'affichage dans la barre d'envoi 
 - [11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · 2026-11-23T14:13 · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
-- [11630](https://tbpro.zendesk.com/agent/tickets/11630) · [open] · 2026-11-23T14:59 · Appointment don't accept thunderbird calendar
+- [11630](https://tbpro.zendesk.com/agent/tickets/11630) · [pending] · 2026-11-23T14:59 · Appointment don't accept thunderbird calendar
 - [11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · 2026-11-23T15:05 · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address" 🔗 [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513)
 - [11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · 2026-11-23T15:19 · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all 🔗 [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507)
-- [11637](https://tbpro.zendesk.com/agent/tickets/11637) · [new] · 2026-11-23T17:06 · 'Too many mailboxes'?
-- [11639](https://tbpro.zendesk.com/agent/tickets/11639) · [new] · 2026-11-23T17:12 · Appointment seems to be unable to sync to the calendar
+- [11637](https://tbpro.zendesk.com/agent/tickets/11637) · [open] · 2026-11-23T17:06 · 'Too many mailboxes'?
+- [11639](https://tbpro.zendesk.com/agent/tickets/11639) · [open] · 2026-11-23T17:12 · Appointment seems to be unable to sync to the calendar
 - [11640](https://tbpro.zendesk.com/agent/tickets/11640) · [new] · 2026-11-23T17:17 · Obter conta 
 - [11643](https://tbpro.zendesk.com/agent/tickets/11643) · [new] · 2026-11-23T17:50 · [email]
 - [11645](https://tbpro.zendesk.com/agent/tickets/11645) · [new] · 2026-11-23T18:04 · Cannot add catch-all email address
@@ -547,6 +552,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11192](https://tbpro.zendesk.com/agent/tickets/11192) · 2026-11-23T15:01 · thundermail invite error
 - 👍 [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-23T16:04 · Thundermail not working
 - · [10862](https://tbpro.zendesk.com/agent/tickets/10862) · 2026-11-23T16:48 · account deletion
+- 👍 [11127](https://tbpro.zendesk.com/agent/tickets/11127) · 2026-11-23T18:49 · DKIM Misalignment
+- · [11016](https://tbpro.zendesk.com/agent/tickets/11016) · 2026-11-23T19:02 · Cancel + Refund
+- · [11435](https://tbpro.zendesk.com/agent/tickets/11435) · 2026-11-23T19:04 · die obige Mail-Adresse
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
