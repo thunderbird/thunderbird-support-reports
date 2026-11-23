@@ -1,31 +1,31 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 16:13 ET** · refreshes hourly_  
+_Updated: **2026-11-23 17:13 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1371 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1373 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
 - **22** new tickets in last 24h · **16** solved in last 24h
-- **1371** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1373** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 169.8h · mean 197.4h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 176.1h · mean 199.7h (proxy: updated_at − created_at, 70 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 - **"family members"** — 2 tickets in 24h (52.5× baseline; baseline 4 cum) — [#11603](https://tbpro.zendesk.com/agent/tickets/11603), [#11647](https://tbpro.zendesk.com/agent/tickets/11647)
 - **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
 - **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
 
-## Known problems — 19 problem(s), 185 incident(s)
+## Known problems — 19 problem(s), 186 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -224,7 +224,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 3 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
-  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
+  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [pending] · 2026-11-22 · _Firefox Relay emails to spam_
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
@@ -256,7 +256,8 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11039](https://tbpro.zendesk.com/agent/tickets/11039) · [pending] · 2026-11-10 · _Missing features and questions_
 
 ### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
-- 5 incident(s):
+- 6 incident(s):
+  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
   - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [pending] · 2026-11-21 · _Sending from Thunderbird_
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
@@ -376,18 +377,19 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1185
-- **solved**: 73
+- **closed**: 1188
+- **solved**: 70
 - **pending**: 55
-- **hold**: 34
+- **hold**: 35
 - **open**: 24
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 759
-- **Thundermail**: 491
+- **Thundermail**: 495
 - **Send**: 32
-- **Appointment**: 18
+- **Appointment**: 17
 
 ## Why × How (cumulative)
 
@@ -395,15 +397,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 254
 - **change request** + **actioned**: 190
-- **blocked** + **explained**: 128
-- **confused** + **explained**: 112
+- **blocked** + **explained**: 129
+- **confused** + **explained**: 111
+- **curious** + **informed**: 68
 - **confused** + **redirected**: 68
-- **curious** + **informed**: 67
 - **confused** + **informed**: 66
 - **blocked** + **redirected**: 60
 - **blocked** + **investigated**: 56
 - **request** + **redirected**: 52
-- **blocked** + **escalated**: 40
+- **blocked** + **escalated**: 41
 - **concerned** + **explained**: 34
 - **blocked** + **informed**: 28
 - **confused** + **—**: 16
@@ -437,12 +439,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **praise** + **n/a**: 2
 - **request** + **escalated**: 2
 - **other** + **—**: 2
+- **other** + **explained**: 2
 - **telling us** + **escalated**: 2
 - **concerned** + **n/a**: 2
 - **confused** + **n/a**: 2
 - **change request** + **—**: 2
 - **telling us** + **informed**: 1
-- **other** + **explained**: 1
 - **request** + **—**: 1
 - **other** + **actioned**: 1
 - **concerned** + **actioned**: 1
@@ -470,12 +472,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
+- **[#11648](https://tbpro.zendesk.com/agent/tickets/11648)** · Large files uploaded in Send — why: **blocked** · how: **investigated**
+  > Send. Using the send application to do zip files: any file over 100 MB tends to get dropped and then it tries to reload it again. It goes up to 68% and then it starts doing its…
 - **[#11647](https://tbpro.zendesk.com/agent/tickets/11647)** · Adding family members
   > If I want to add accounts for my family members, do they need to get on the waiting list? Would like to add their accounts now.
 - **[#11640](https://tbpro.zendesk.com/agent/tickets/11640)** · Obter conta 
   > App para e não desenrola
-- **[#11648](https://tbpro.zendesk.com/agent/tickets/11648)** · Large files uploaded in Send — why: **blocked** · how: **investigated**
-  > Send. Using the send application to do zip files: any file over 100 MB tends to get dropped and then it tries to reload it again. It goes up to 68% and then it starts doing its…
 
 ### Appointment / calendar — 3 tickets
 
@@ -486,10 +488,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11630](https://tbpro.zendesk.com/agent/tickets/11630)** · Appointment don't accept thunderbird calendar — why: **blocked** · how: **explained**
   > Hello [name] unable to add my thunderbird pro caldav to the appointments: https://[domain]/dashboard. I added the URL https://[domain]/dav/cal/rbran%[domain]/default/ using the…
 
-### Webmail — 3 tickets
+### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
 - **[#11637](https://tbpro.zendesk.com/agent/tickets/11637)** · 'Too many mailboxes'? — why: **blocked** · how: **explained**
   > I'm trying to transfer my entire Yahoo email structure to Thundermail. So far I haven't had any real problems. Until now. I have a parent folder which at present has three…
+- **[#11605](https://tbpro.zendesk.com/agent/tickets/11605)** · 454 4.7.0 Temporary authentication failure — why: **confused** · how: **n/a**
+  > Suddenly started getting 454 4.7.0 Temporary authentication failure when sending via SMTP, using the same creds/settings as I have since July. No changes on my side. Is there a…
+
+### Webmail — 2 tickets
+
 - **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
   > More details coming.
 - **[#11615](https://tbpro.zendesk.com/agent/tickets/11615)** · Cannot email Microsoft accounta — why: **blocked** · how: **escalated**
@@ -499,11 +506,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11649](https://tbpro.zendesk.com/agent/tickets/11649)** · my relay forwarded emails keep going to junk.
   > could you please add Firefox Relay (FR) to Thunderbird mail (TBM) or can you fix this bug I am having, where when I try to select my FR email in the junk folder, i get a message…
-
-### App setup / configuration — 1 tickets
-
-- **[#11602](https://tbpro.zendesk.com/agent/tickets/11602)** · How to create and synchronize my thundermail calander?
-  > Do you have a concise description of how to setup a thundermail calender and to connect and synchronize it succesfully to my thunderbird on my laptop.
 
 ### Early bird signup — 1 tickets
 
@@ -525,10 +527,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11607](https://tbpro.zendesk.com/agent/tickets/11607)** · Sending email to Outlook.com — why: **blocked** · how: **escalated**
   > Hi, I am having issues sending messages to outlook.com addresses from my thundermail account. Thunderbird on Android responds that no such mail box exists. Thanks
 
-### Email Protocols (IMAP/SMTP/POP) — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#11605](https://tbpro.zendesk.com/agent/tickets/11605)** · 454 4.7.0 Temporary authentication failure — why: **confused** · how: **n/a**
-  > Suddenly started getting 454 4.7.0 Temporary authentication failure when sending via SMTP, using the same creds/settings as I have since July. No changes on my side. Is there a…
+- **[#11602](https://tbpro.zendesk.com/agent/tickets/11602)** · How to create and synchronize my thundermail calander? — why: **curious** · how: **informed**
+  > Do you have a concise description of how to setup a thundermail calender and to connect and synchronize it succesfully to my thunderbird on my laptop.
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -538,7 +540,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [11601](https://tbpro.zendesk.com/agent/tickets/11601) · [pending] · 2026-11-22T21:06 · Refund request
-- [11602](https://tbpro.zendesk.com/agent/tickets/11602) · [open] · 2026-11-22T21:48 · How to create and synchronize my thundermail calander?
+- [11602](https://tbpro.zendesk.com/agent/tickets/11602) · [pending] · 2026-11-22T21:48 · How to create and synchronize my thundermail calander?
 - [11603](https://tbpro.zendesk.com/agent/tickets/11603) · [open] · 2026-11-22T22:09 · Multiple accounts
 - [11605](https://tbpro.zendesk.com/agent/tickets/11605) · [pending] · 2026-11-22T23:28 · 454 4.7.0 Temporary authentication failure
 - [11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23T05:45 · Sending email to Outlook.com
@@ -551,7 +553,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11630](https://tbpro.zendesk.com/agent/tickets/11630) · [pending] · 2026-11-23T14:59 · Appointment don't accept thunderbird calendar
 - [11631](https://tbpro.zendesk.com/agent/tickets/11631) · [open] · 2026-11-23T15:05 · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address" 🔗 [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513)
 - [11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · 2026-11-23T15:19 · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all 🔗 [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507)
-- [11637](https://tbpro.zendesk.com/agent/tickets/11637) · [pending] · 2026-11-23T17:06 · 'Too many mailboxes'?
+- [11637](https://tbpro.zendesk.com/agent/tickets/11637) · [open] · 2026-11-23T17:06 · 'Too many mailboxes'?
 - [11639](https://tbpro.zendesk.com/agent/tickets/11639) · [open] · 2026-11-23T17:12 · Appointment seems to be unable to sync to the calendar
 - [11640](https://tbpro.zendesk.com/agent/tickets/11640) · [open] · 2026-11-23T17:17 · Obter conta 
 - [11643](https://tbpro.zendesk.com/agent/tickets/11643) · [pending] · 2026-11-23T17:50 · [email]
