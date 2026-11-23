@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 00:18 ET** · refreshes hourly_  
+_Updated: **2026-11-23 01:33 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1354 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1355 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **8** solved in last 24h
-- **1354** tickets total since launch · contact rate **4%** of 35000 invitees
+- **5** new tickets in last 24h · **8** solved in last 24h
+- **1355** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -331,15 +331,15 @@ _(none in last 24h)_
 
 - **closed**: 1175
 - **solved**: 76
+- **new**: 32
 - **pending**: 32
-- **new**: 31
 - **hold**: 20
 - **open**: 20
 
 ## Service (cumulative)
 
 - **Account Hub**: 755
-- **Thundermail**: 479
+- **Thundermail**: 480
 - **Send**: 33
 - **Appointment**: 16
 
@@ -409,6 +409,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Thunderbird for Android + Thundermail — 1 tickets
+
+- **[#11607](https://tbpro.zendesk.com/agent/tickets/11607)** · Sending email to Outlook.com
+  > Hi, I am having issues sending messages to outlook.com addresses from my thundermail account. Thunderbird on Android responds that no such mail box exists. Thanks
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11605](https://tbpro.zendesk.com/agent/tickets/11605)** · 454 4.7.0 Temporary authentication failure
@@ -435,6 +440,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11602](https://tbpro.zendesk.com/agent/tickets/11602) · [new] · 2026-11-22T21:48 · How to create and synchronize my thundermail calander?
 - [11603](https://tbpro.zendesk.com/agent/tickets/11603) · [new] · 2026-11-22T22:09 · Multiple accounts
 - [11605](https://tbpro.zendesk.com/agent/tickets/11605) · [new] · 2026-11-22T23:28 · 454 4.7.0 Temporary authentication failure
+- [11607](https://tbpro.zendesk.com/agent/tickets/11607) · [new] · 2026-11-23T05:45 · Sending email to Outlook.com
 
 ## Solved — last 24h
 
