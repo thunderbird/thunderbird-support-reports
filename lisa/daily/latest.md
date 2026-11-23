@@ -1,29 +1,30 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 10:16 ET** · refreshes hourly_  
+_Updated: **2026-11-23 11:16 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1362 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1363 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **10** solved in last 24h
-- **1362** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **14** new tickets in last 24h · **11** solved in last 24h
+- **1363** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 164.5h · mean 185.9h (proxy: updated_at − created_at, 78 solved tickets)
+- **Median AHT**: 165.0h · mean 186.9h (proxy: updated_at − created_at, 78 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
 - **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
 
-## Known problems — 16 problem(s), 165 incident(s)
+## Known problems — 19 problem(s), 177 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -250,9 +251,31 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 1 incident(s):
   - [#11039](https://tbpro.zendesk.com/agent/tickets/11039) · [open] · 2026-11-10 · _Missing features and questions_
 
-## Other tickets linked to GitHub — 12 ticket(s) → 13 issue(s)
+### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+- 4 incident(s):
+  - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [new] · 2026-11-21 · _Sending from Thunderbird_
+  - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [new] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
+  - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [new] · 2026-11-23 · _Sending email to Outlook.com_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [new] · 2026-11-23 · _Cannot email Microsoft accounta_
 
-- 🔧 [zd #11631](https://tbpro.zendesk.com/agent/tickets/11631) → [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
+### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
+- 🔧 GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
+- 3 incident(s):
+  - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [open] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
+  - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [new] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
+  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [new] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
+
+### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
+- 🔧 GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
+- 5 incident(s):
+  - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [new] · 2026-11-21 · _can't create catch all alias for custom domain_
+  - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [new] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
+  - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [new] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
+  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [new] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
+  - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [new] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
+
+## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
+
 - 🔧 [zd #11454](https://tbpro.zendesk.com/agent/tickets/11454) → [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120) · _HTML Tags Appear in Message Preview_
 - 🔧 [zd #10078](https://tbpro.zendesk.com/agent/tickets/10078) → [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
@@ -337,17 +360,17 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1175
+- **closed**: 1176
 - **solved**: 78
-- **open**: 32
-- **pending**: 29
-- **new**: 26
-- **hold**: 22
+- **open**: 33
+- **pending**: 28
+- **new**: 25
+- **hold**: 23
 
 ## Service (cumulative)
 
 - **Account Hub**: 753
-- **Thundermail**: 488
+- **Thundermail**: 489
 - **Send**: 32
 - **Appointment**: 18
 
@@ -357,7 +380,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 250
 - **change request** + **actioned**: 188
-- **blocked** + **explained**: 125
+- **blocked** + **explained**: 126
 - **confused** + **explained**: 111
 - **curious** + **informed**: 67
 - **confused** + **redirected**: 67
@@ -459,6 +482,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11601](https://tbpro.zendesk.com/agent/tickets/11601)** · Refund request
   > I thought I had already cancelled the subscription earlier and didn't realise I hadn't requested it either. I'm unsure if this would be possible, but I thought I should ask.
 
+### Account creation / signup confusion — 1 tickets
+
+- **[#11632](https://tbpro.zendesk.com/agent/tickets/11632)** · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all — why: **blocked** · how: **explained** · 🔗 [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507)
+  > Post the upgrade to Stalwart 0.16, users are unable to create a catch-all alias on a custom domain. To recreate, go to [domain] and in the Alias Settings section, try to add a…
+
 ### Webmail — 1 tickets
 
 - **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
@@ -479,6 +507,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · 2026-11-23T14:13 · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - [11630](https://tbpro.zendesk.com/agent/tickets/11630) · [new] · 2026-11-23T14:59 · Appointment don't accept thunderbird calendar
 - [11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · 2026-11-23T15:05 · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address" 🔗 [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513)
+- [11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · 2026-11-23T15:19 · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all 🔗 [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507)
 
 ## Solved — last 24h
 
@@ -492,6 +521,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11419](https://tbpro.zendesk.com/agent/tickets/11419) · 2026-11-23T13:25 · Refund request: Thunderbird Pro Annual
 - · [11416](https://tbpro.zendesk.com/agent/tickets/11416) · 2026-11-23T14:01 · Can't add account to Thunderbird.
 - · [11192](https://tbpro.zendesk.com/agent/tickets/11192) · 2026-11-23T15:01 · thundermail invite error
+- 👍 [11261](https://tbpro.zendesk.com/agent/tickets/11261) · 2026-11-23T16:04 · Thundermail not working
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
