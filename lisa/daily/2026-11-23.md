@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 08:17 ET** · refreshes hourly_  
+_Updated: **2026-11-23 09:17 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1359 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1360 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **17 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **8** solved in last 24h
-- **1359** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **11** new tickets in last 24h · **9** solved in last 24h
+- **1360** tickets total since launch · contact rate **4%** of 35000 invitees
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 164.5h · mean 185.3h (proxy: updated_at − created_at, 76 solved tickets)
+- **Median AHT**: 162.6h · mean 184.9h (proxy: updated_at − created_at, 77 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -22,7 +22,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 - **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 
-## Known problems — 16 problem(s), 165 incident(s)
+## Known problems — 17 problem(s), 170 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -249,6 +249,14 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 1 incident(s):
   - [#11039](https://tbpro.zendesk.com/agent/tickets/11039) · [open] · 2026-11-10 · _Missing features and questions_
 
+### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+- 5 incident(s):
+  - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [new] · 2026-11-21 · _Sending from Thunderbird_
+  - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [new] · 2026-11-21 · _Alias stopped forwarding _
+  - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [new] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
+  - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [new] · 2026-11-23 · _Sending email to Outlook.com_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [new] · 2026-11-23 · _Cannot email Microsoft accounta_
+
 ## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
 
 - 🔧 [zd #11454](https://tbpro.zendesk.com/agent/tickets/11454) → [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120) · _HTML Tags Appear in Message Preview_
@@ -336,16 +344,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1175
-- **solved**: 76
+- **solved**: 77
 - **open**: 32
-- **pending**: 31
+- **pending**: 30
 - **new**: 25
-- **hold**: 20
+- **hold**: 21
 
 ## Service (cumulative)
 
 - **Account Hub**: 755
-- **Thundermail**: 483
+- **Thundermail**: 484
 - **Send**: 33
 - **Appointment**: 17
 
@@ -424,10 +432,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11603](https://tbpro.zendesk.com/agent/tickets/11603)** · Multiple accounts
   > Support, I would like to setup seperate email addresses for different family members. Looking through the Thunder Mail articles I found instructions for adding aliases. Management…
 
-### Webmail — 1 tickets
+### Webmail — 2 tickets
 
 - **[#11615](https://tbpro.zendesk.com/agent/tickets/11615)** · Cannot email Microsoft accounta
   > Hello. I have tried emailing multiple Microsoft email accounts through Thunderbird Android mobile app, and the new Webmail site. The app says the mail account does not exist, and…
+- **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+  > More details coming.
+
+### Other / uncategorized — 1 tickets
+
+- **[#11623](https://tbpro.zendesk.com/agent/tickets/11623)** · Problême d'affichage dans la barre d'envoi 
+  > Depuis hier, lorsque je souhaite répondre à un mail ou rédiger un nouveau mail , la barre des champs “de ; pour ; cci; sujet” glisse vers la droite (voir capture) et je ne sais…
 
 ### Appointment / calendar — 1 tickets
 
@@ -465,6 +480,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11615](https://tbpro.zendesk.com/agent/tickets/11615) · [new] · 2026-11-23T08:35 · Cannot email Microsoft accounta
 - [11618](https://tbpro.zendesk.com/agent/tickets/11618) · [new] · 2026-11-23T09:37 · Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist
 - [11619](https://tbpro.zendesk.com/agent/tickets/11619) · [new] · 2026-11-23T09:49 · Catchall-Aliases for custom domains are gone and can't be re-added
+- [11623](https://tbpro.zendesk.com/agent/tickets/11623) · [new] · 2026-11-23T13:21 · Problême d'affichage dans la barre d'envoi 
+- [11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · 2026-11-23T14:13 · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 
 ## Solved — last 24h
 
@@ -473,9 +490,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11168](https://tbpro.zendesk.com/agent/tickets/11168) · 2026-11-22T22:01 · email
 - · [11024](https://tbpro.zendesk.com/agent/tickets/11024) · 2026-11-22T22:01 ·  Thundermail Early Access
 - · [10859](https://tbpro.zendesk.com/agent/tickets/10859) · 2026-11-22T22:01 · Getting connected
-- · [11419](https://tbpro.zendesk.com/agent/tickets/11419) · 2026-11-22T23:01 · Refund request: Thunderbird Pro Annual
 - · [11417](https://tbpro.zendesk.com/agent/tickets/11417) · 2026-11-22T23:01 · je ne me souviens plus de mon mot de passe pour Thunderbird , Merci
 - · [11293](https://tbpro.zendesk.com/agent/tickets/11293) · 2026-11-22T23:01 · email - [email]
+- · [11419](https://tbpro.zendesk.com/agent/tickets/11419) · 2026-11-23T13:25 · Refund request: Thunderbird Pro Annual
+- · [11416](https://tbpro.zendesk.com/agent/tickets/11416) · 2026-11-23T14:01 · Can't add account to Thunderbird.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
