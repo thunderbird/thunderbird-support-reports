@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 03:22 ET** · refreshes hourly_  
+_Updated: **2026-11-23 04:21 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1355 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1357 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **16 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **8** solved in last 24h
-- **1355** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **8** solved in last 24h
+- **1357** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -331,17 +331,17 @@ _(none in last 24h)_
 
 - **closed**: 1175
 - **solved**: 76
-- **new**: 32
 - **pending**: 32
+- **open**: 31
+- **new**: 23
 - **hold**: 20
-- **open**: 20
 
 ## Service (cumulative)
 
 - **Account Hub**: 755
-- **Thundermail**: 480
+- **Thundermail**: 481
 - **Send**: 33
-- **Appointment**: 16
+- **Appointment**: 17
 
 ## Why × How (cumulative)
 
@@ -409,6 +409,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Webmail — 1 tickets
+
+- **[#11615](https://tbpro.zendesk.com/agent/tickets/11615)** · Cannot email Microsoft accounta
+  > Hello. I have tried emailing multiple Microsoft email accounts through Thunderbird Android mobile app, and the new Webmail site. The app says the mail account does not exist, and…
+
+### Appointment / calendar — 1 tickets
+
+- **[#11613](https://tbpro.zendesk.com/agent/tickets/11613)** · Appointment calendars
+  > Dear [name], I am struggling with Appointment to add additional calendars that are not requiring a username and password, but who will impact my availability. Is it possible to…
+
 ### Thunderbird for Android + Thundermail — 1 tickets
 
 - **[#11607](https://tbpro.zendesk.com/agent/tickets/11607)** · Sending email to Outlook.com
@@ -436,11 +446,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## New tickets — last 24h
 
-- [11601](https://tbpro.zendesk.com/agent/tickets/11601) · [new] · 2026-11-22T21:06 · Refund request
+- [11601](https://tbpro.zendesk.com/agent/tickets/11601) · [open] · 2026-11-22T21:06 · Refund request
 - [11602](https://tbpro.zendesk.com/agent/tickets/11602) · [new] · 2026-11-22T21:48 · How to create and synchronize my thundermail calander?
-- [11603](https://tbpro.zendesk.com/agent/tickets/11603) · [new] · 2026-11-22T22:09 · Multiple accounts
-- [11605](https://tbpro.zendesk.com/agent/tickets/11605) · [new] · 2026-11-22T23:28 · 454 4.7.0 Temporary authentication failure
+- [11603](https://tbpro.zendesk.com/agent/tickets/11603) · [open] · 2026-11-22T22:09 · Multiple accounts
+- [11605](https://tbpro.zendesk.com/agent/tickets/11605) · [open] · 2026-11-22T23:28 · 454 4.7.0 Temporary authentication failure
 - [11607](https://tbpro.zendesk.com/agent/tickets/11607) · [new] · 2026-11-23T05:45 · Sending email to Outlook.com
+- [11613](https://tbpro.zendesk.com/agent/tickets/11613) · [open] · 2026-11-23T08:22 · Appointment calendars
+- [11615](https://tbpro.zendesk.com/agent/tickets/11615) · [new] · 2026-11-23T08:35 · Cannot email Microsoft accounta
 
 ## Solved — last 24h
 
