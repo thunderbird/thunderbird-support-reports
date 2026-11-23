@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-22
 
-_Updated: **2026-11-22 19:39 ET** · refreshes hourly_  
+_Updated: **2026-11-22 20:17 ET** · refreshes hourly_  
 _24h window: 2026-11-21T16:00 → 2026-11-22T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,7 +14,7 @@ Flight 8 is **day 105** of rollout — **35,000 invitees**, **1354 tickets** so 
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (223 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 161.7h · mean 184.8h (proxy: updated_at − created_at, 80 solved tickets)
+- **Median AHT**: 166.4h · mean 186.4h (proxy: updated_at − created_at, 77 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -170,9 +170,9 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11003](https://tbpro.zendesk.com/agent/tickets/11003) · [closed] · 2026-11-09 · _cancel and refund_
   - [#11044](https://tbpro.zendesk.com/agent/tickets/11044) · [closed] · 2026-11-10 · _cancelation_
   - [#11114](https://tbpro.zendesk.com/agent/tickets/11114) · [closed] · 2026-11-11 · _Account Deletion_
-  - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [solved] · 2026-11-11 · _Account Deletion_
+  - [#11125](https://tbpro.zendesk.com/agent/tickets/11125) · [closed] · 2026-11-11 · _Account Deletion_
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [closed] · 2026-11-11 · _Permanently delete my account_
-  - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [solved] · 2026-11-12 · _Refund_
+  - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [closed] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [solved] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [solved] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [solved] · 2026-11-14 · _cancelation subscribe within 14 days_
@@ -341,12 +341,12 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1171
-- **solved**: 80
+- **closed**: 1174
+- **solved**: 77
 - **pending**: 33
 - **new**: 31
-- **hold**: 22
-- **open**: 17
+- **hold**: 20
+- **open**: 19
 
 ## Service (cumulative)
 
