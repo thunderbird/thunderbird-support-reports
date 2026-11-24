@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 18:14 ET** · refreshes hourly_  
+_Updated: **2026-11-23 19:33 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1373 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1374 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
 - **22** new tickets in last 24h · **16** solved in last 24h
-- **1373** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1374** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
@@ -20,7 +20,7 @@ Flight 8 is **day 106** of rollout — **35,000 invitees**, **1373 tickets** so 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"catch aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 - **"family members"** — 2 tickets in 24h (52.5× baseline; baseline 4 cum) — [#11603](https://tbpro.zendesk.com/agent/tickets/11603), [#11647](https://tbpro.zendesk.com/agent/tickets/11647)
 - **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
 - **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
@@ -379,14 +379,15 @@ _(none in last 24h)_
 
 - **closed**: 1189
 - **solved**: 69
-- **pending**: 57
+- **pending**: 58
 - **hold**: 35
-- **open**: 23
+- **open**: 22
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 759
-- **Thundermail**: 495
+- **Thundermail**: 496
 - **Send**: 32
 - **Appointment**: 17
 
@@ -440,6 +441,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **other** + **—**: 2
 - **other** + **explained**: 2
 - **telling us** + **escalated**: 2
+- **blocked** + **n/a**: 2
 - **concerned** + **n/a**: 2
 - **confused** + **n/a**: 2
 - **change request** + **—**: 2
@@ -449,7 +451,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **actioned**: 1
 - **other** + **investigated**: 1
 - **request** + **n/a**: 1
-- **blocked** + **n/a**: 1
 - **telling us** + **investigated**: 1
 - **change request** + **redirected**: 1
 - **telling us** + **actioned**: 1
