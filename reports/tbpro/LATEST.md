@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 00:16 ET** · refreshes hourly_  
+_Updated: **2026-11-24 01:24 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 107** of rollout — **35,000 invitees**, **1376 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 107** of rollout — **35,000 invitees**, **1377 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **2** solved in last 24h
-- **1376** tickets total since launch · contact rate **4%** of 35000 invitees
+- **6** new tickets in last 24h · **2** solved in last 24h
+- **1377** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -370,14 +370,14 @@ _(none in last 24h)_
 
 - **closed**: 1191
 - **solved**: 68
-- **pending**: 59
+- **pending**: 58
 - **hold**: 33
-- **open**: 24
-- **new**: 1
+- **open**: 25
+- **new**: 2
 
 ## Service (cumulative)
 
-- **Account Hub**: 759
+- **Account Hub**: 760
 - **Thundermail**: 496
 - **Send**: 32
 - **Appointment**: 17
@@ -455,6 +455,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11653](https://tbpro.zendesk.com/agent/tickets/11653)** · Invalid Aliases with * Outreach Tracker — why: **other** · how: **explained**
   > 5 users were able to register aliases including *, which isn't a valid character so these email addresses are not valid. This ticket is to track the outreach to them to let them…
 
+### Account access issues — 1 tickets
+
+- **[#11659](https://tbpro.zendesk.com/agent/tickets/11659)** · Can't remember my Thundermail address after waitlist sign-up
+  > Hello, I joined the Thunderbird Pro waitlist with [[email]](mailto:[email]) and was invited on August 24. I believe I completed the sign-up and chose a Thundermail address at the…
+
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11656](https://tbpro.zendesk.com/agent/tickets/11656)** · Is there a Thundermail SMTP outage happening right now or something?
@@ -477,6 +482,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11654](https://tbpro.zendesk.com/agent/tickets/11654) · [open] · 2026-11-23T23:41 · Email Loss Due to Forwarding Error
 - [11656](https://tbpro.zendesk.com/agent/tickets/11656) · [open] · 2026-11-24T01:18 · Is there a Thundermail SMTP outage happening right now or something?
 - [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [new] · 2026-11-24T01:51 · Custom domain alias count
+- [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [new] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
 
 ## Solved — last 24h
 
