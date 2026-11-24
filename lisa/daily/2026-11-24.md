@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-24 10:16 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 107** of rollout — **35,000 invitees**, **1379 tickets** so 
 
 ## At a glance
 
-- **8** new tickets in last 24h · **2** solved in last 24h
+- **8** new tickets in last 24h · **4** solved in last 24h
 - **1379** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 177.4h · mean 201.7h (proxy: updated_at − created_at, 68 solved tickets)
+- **Median AHT**: 176.1h · mean 199.5h (proxy: updated_at − created_at, 70 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -369,10 +369,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1191
-- **solved**: 68
-- **pending**: 55
+- **solved**: 70
+- **pending**: 54
 - **hold**: 32
-- **open**: 30
+- **open**: 29
 - **new**: 3
 
 ## Service (cumulative)
@@ -380,7 +380,7 @@ _(none in last 24h)_
 - **Account Hub**: 761
 - **Thundermail**: 497
 - **Send**: 32
-- **Appointment**: 17
+- **Appointment**: 18
 
 ## Why × How (cumulative)
 
@@ -410,7 +410,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **investigated**: 9
 - **curious** + **—**: 7
 - **curious** + **actioned**: 6
-- **concerned** + **informed**: 5
+- **concerned** + **informed**: 6
 - **request** + **informed**: 5
 - **curious** + **investigated**: 5
 - **request** + **actioned**: 5
@@ -497,6 +497,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - · [11302](https://tbpro.zendesk.com/agent/tickets/11302) · 2026-11-23T22:02 · Unsubscribe from Thunderbird Pro
 - · [11450](https://tbpro.zendesk.com/agent/tickets/11450) · 2026-11-24T01:01 · Refunds?
+- · [11472](https://tbpro.zendesk.com/agent/tickets/11472) · 2026-11-24T15:02 · neues Konto
+- · [11463](https://tbpro.zendesk.com/agent/tickets/11463) · 2026-11-24T15:02 · perte de mon mot de passe
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
