@@ -1,28 +1,31 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 13:18 ET** · refreshes hourly_  
+_Updated: **2026-11-24 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 107** of rollout — **35,000 invitees**, **1379 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 107** of rollout — **35,000 invitees**, **1380 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **9** solved in last 24h
-- **1379** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **10** solved in last 24h
+- **1380** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 176.5h · mean 200.8h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 176.1h · mean 200.0h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"network error"** — 2 tickets in 24h (new; baseline 0 cum) — [#11651](https://tbpro.zendesk.com/agent/tickets/11651), [#11654](https://tbpro.zendesk.com/agent/tickets/11654)
+- **"correct settings again"** — 2 tickets in 24h (212.0× baseline; baseline 1 cum) — [#11656](https://tbpro.zendesk.com/agent/tickets/11656), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
+- **"desktop android"** — 2 tickets in 24h (212.0× baseline; baseline 1 cum) — [#11651](https://tbpro.zendesk.com/agent/tickets/11651), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
+- **"custom domains"** — 2 tickets in 24h (3.6× baseline; baseline 59 cum) — [#11658](https://tbpro.zendesk.com/agent/tickets/11658), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
 
-## Known problems — 19 problem(s), 187 incident(s)
+## Known problems — 19 problem(s), 188 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -264,11 +267,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [open] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
-- 4 incident(s):
+- 5 incident(s):
   - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [hold] · 2026-11-20 · _cannot send emails with my domain_
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [hold] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
   - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [open] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
   - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [hold] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
+  - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [hold] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
 
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
@@ -369,15 +373,16 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1192
-- **solved**: 73
+- **solved**: 74
 - **pending**: 54
-- **hold**: 34
-- **open**: 26
+- **hold**: 35
+- **open**: 24
+- **new**: 1
 
 ## Service (cumulative)
 
 - **Account Hub**: 761
-- **Thundermail**: 497
+- **Thundermail**: 498
 - **Send**: 32
 - **Appointment**: 18
 
@@ -401,8 +406,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **—**: 16
 - **change request** + **explained**: 14
 - **blocked** + **—**: 13
+- **concerned** + **investigated**: 13
 - **concerned** + **—**: 12
-- **concerned** + **investigated**: 12
 - **telling us** + **explained**: 9
 - **request** + **explained**: 9
 - **blocked** + **actioned**: 9
@@ -447,6 +452,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 3 tickets
+
+- **[#11678](https://tbpro.zendesk.com/agent/tickets/11678)** · After recent maintenance can't send emails from Thunderbird (desktop, Android)
+  > I've notice since a couple of days ago that whenever I try to send an email I get the following error: "Sending of the message failed. An error occurred while sending mail. The…
+- **[#11658](https://tbpro.zendesk.com/agent/tickets/11658)** · Custom domain alias count
+  > How many aliases can I create for custom domains?
+- **[#11653](https://tbpro.zendesk.com/agent/tickets/11653)** · Invalid Aliases with * Outreach Tracker — why: **other** · how: **explained**
+  > 5 users were able to register aliases including *, which isn't a valid character so these email addresses are not valid. This ticket is to track the outreach to them to let them…
+
 ### Account access issues — 2 tickets
 
 - **[#11665](https://tbpro.zendesk.com/agent/tickets/11665)** · Does this operate the same as Windows Thunderbird?
@@ -454,27 +468,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11659](https://tbpro.zendesk.com/agent/tickets/11659)** · Can't remember my Thundermail address after waitlist sign-up
   > Hello, I joined the Thunderbird Pro waitlist with [[email]](mailto:[email]) and was invited on August 24. I believe I completed the sign-up and chose a Thundermail address at the…
 
-### Aliases — 2 tickets
+### Spam / Junk Filtering — 2 tickets
 
-- **[#11658](https://tbpro.zendesk.com/agent/tickets/11658)** · Custom domain alias count
-  > How many aliases can I create for custom domains?
-- **[#11653](https://tbpro.zendesk.com/agent/tickets/11653)** · Invalid Aliases with * Outreach Tracker — why: **other** · how: **explained**
-  > 5 users were able to register aliases including *, which isn't a valid character so these email addresses are not valid. This ticket is to track the outreach to them to let them…
-
-### Custom domain / DKIM / DNS — 1 tickets
-
-- **[#11662](https://tbpro.zendesk.com/agent/tickets/11662)** · Delivered-To headers are inconsistent for custom domain
+- **[#11662](https://tbpro.zendesk.com/agent/tickets/11662)** · Delivered-To headers are inconsistent for custom domain — why: **concerned** · how: **investigated**
   > Before the recent (Nov. 19th) updates, all mail for my domain ([domain]), regardless of whether it was flagged by Stalwart as spam or ham, was arriving in my Thundermail account…
+- **[#11654](https://tbpro.zendesk.com/agent/tickets/11654)** · Email Loss Due to Forwarding Error — why: **concerned** · how: **investigated**
+  > I am experiencing a loss of some emails. I route emails to two separate services and I have experienced two losses. One of them showed up after Thundermail was taken offline and…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
 - **[#11656](https://tbpro.zendesk.com/agent/tickets/11656)** · Is there a Thundermail SMTP outage happening right now or something?
   > Thunderbird on desktop tells me: “Sending of the message failed. An error occurred while sending mail. The mail server responded: You are not allowed to send from this address..…
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#11654](https://tbpro.zendesk.com/agent/tickets/11654)** · Email Loss Due to Forwarding Error — why: **concerned** · how: **investigated**
-  > I am experiencing a loss of some emails. I route emails to two separate services and I have experienced two losses. One of them showed up after Thundermail was taken offline and…
 
 ### Webmail — 1 tickets
 
@@ -489,8 +493,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11656](https://tbpro.zendesk.com/agent/tickets/11656) · [open] · 2026-11-24T01:18 · Is there a Thundermail SMTP outage happening right now or something?
 - [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [open] · 2026-11-24T01:51 · Custom domain alias count
 - [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [open] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
-- [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [open] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
+- [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [hold] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
 - [11665](https://tbpro.zendesk.com/agent/tickets/11665) · [open] · 2026-11-24T12:10 · Does this operate the same as Windows Thunderbird?
+- [11678](https://tbpro.zendesk.com/agent/tickets/11678) · [new] · 2026-11-24T18:29 · After recent maintenance can't send emails from Thunderbird (desktop, Android)
 
 ## Solved — last 24h
 
@@ -503,6 +508,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10862](https://tbpro.zendesk.com/agent/tickets/10862) · 2026-11-24T17:02 · account deletion
 - · [11461](https://tbpro.zendesk.com/agent/tickets/11461) · 2026-11-24T17:02 · deleting alias - can another account reuse?
 - · [11295](https://tbpro.zendesk.com/agent/tickets/11295) · 2026-11-24T17:02 · Where can I find a write-up of what Thundermail will support
+- · [11448](https://tbpro.zendesk.com/agent/tickets/11448) · 2026-11-24T19:02 · login issues
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
