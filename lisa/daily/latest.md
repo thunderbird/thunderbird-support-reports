@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 19:33 ET** · refreshes hourly_  
+_Updated: **2026-11-23 20:17 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 106** of rollout — **35,000 invitees**, **1374 tickets** so 
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
-- **Median AHT**: 176.5h · mean 200.7h (proxy: updated_at − created_at, 69 solved tickets)
+- **Median AHT**: 177.4h · mean 201.7h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"catch aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 - **"family members"** — 2 tickets in 24h (52.5× baseline; baseline 4 cum) — [#11603](https://tbpro.zendesk.com/agent/tickets/11603), [#11647](https://tbpro.zendesk.com/agent/tickets/11647)
 - **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
 - **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
@@ -262,7 +262,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
-  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [pending] · 2026-11-23 · _Cannot email Microsoft accounta_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [open] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
@@ -377,11 +377,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1189
-- **solved**: 69
-- **pending**: 58
+- **closed**: 1191
+- **solved**: 68
+- **pending**: 56
 - **hold**: 35
-- **open**: 22
+- **open**: 23
 - **new**: 1
 
 ## Service (cumulative)
@@ -497,10 +497,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Webmail — 2 tickets
 
-- **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
-  > More details coming.
 - **[#11615](https://tbpro.zendesk.com/agent/tickets/11615)** · Cannot email Microsoft accounta — why: **blocked** · how: **escalated**
   > Hello. I have tried emailing multiple Microsoft email accounts through Thunderbird Android mobile app, and the new Webmail site. The app says the mail account does not exist, and…
+- **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+  > More details coming.
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -545,7 +545,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11605](https://tbpro.zendesk.com/agent/tickets/11605) · [pending] · 2026-11-22T23:28 · 454 4.7.0 Temporary authentication failure
 - [11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23T05:45 · Sending email to Outlook.com
 - [11613](https://tbpro.zendesk.com/agent/tickets/11613) · [pending] · 2026-11-23T08:22 · Appointment calendars
-- [11615](https://tbpro.zendesk.com/agent/tickets/11615) · [pending] · 2026-11-23T08:35 · Cannot email Microsoft accounta
+- [11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23T08:35 · Cannot email Microsoft accounta
 - [11618](https://tbpro.zendesk.com/agent/tickets/11618) · [hold] · 2026-11-23T09:37 · Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist
 - [11619](https://tbpro.zendesk.com/agent/tickets/11619) · [hold] · 2026-11-23T09:49 · Catchall-Aliases for custom domains are gone and can't be re-added
 - [11623](https://tbpro.zendesk.com/agent/tickets/11623) · [pending] · 2026-11-23T13:21 · Problême d'affichage dans la barre d'envoi 
