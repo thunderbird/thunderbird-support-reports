@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 11:19 ET** · refreshes hourly_  
+_Updated: **2026-11-24 12:16 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 107** of rollout — **35,000 invitees**, **1379 tickets** so 
 
 ## At a glance
 
-- **8** new tickets in last 24h · **6** solved in last 24h
+- **8** new tickets in last 24h · **9** solved in last 24h
 - **1379** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 176.1h · mean 199.2h (proxy: updated_at − created_at, 72 solved tickets)
+- **Median AHT**: 176.1h · mean 199.4h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -255,7 +255,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - 6 incident(s):
-  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [pending] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
+  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
   - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [pending] · 2026-11-21 · _Sending from Thunderbird_
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
@@ -273,12 +273,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
 - 8 incident(s):
-  - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [hold] · 2026-11-20 · _can't add my main email address_
+  - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [open] · 2026-11-20 · _can't add my main email address_
   - [#11537](https://tbpro.zendesk.com/agent/tickets/11537) · [hold] · 2026-11-21 · _Can't create alias?_
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [hold] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [hold] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [hold] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
-  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [open] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
+  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [hold] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [hold] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [hold] · 2026-11-23 · _Cannot add catch-all email address_
 
@@ -369,11 +369,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1191
-- **solved**: 72
-- **pending**: 55
+- **solved**: 74
+- **pending**: 53
 - **hold**: 33
-- **open**: 26
-- **new**: 2
+- **open**: 28
 
 ## Service (cumulative)
 
@@ -489,9 +488,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11654](https://tbpro.zendesk.com/agent/tickets/11654) · [open] · 2026-11-23T23:41 · Email Loss Due to Forwarding Error
 - [11656](https://tbpro.zendesk.com/agent/tickets/11656) · [open] · 2026-11-24T01:18 · Is there a Thundermail SMTP outage happening right now or something?
 - [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [open] · 2026-11-24T01:51 · Custom domain alias count
-- [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [new] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
+- [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [open] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
 - [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [open] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
-- [11665](https://tbpro.zendesk.com/agent/tickets/11665) · [new] · 2026-11-24T12:10 · Does this operate the same as Windows Thunderbird?
+- [11665](https://tbpro.zendesk.com/agent/tickets/11665) · [open] · 2026-11-24T12:10 · Does this operate the same as Windows Thunderbird?
 
 ## Solved — last 24h
 
@@ -501,6 +500,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11463](https://tbpro.zendesk.com/agent/tickets/11463) · 2026-11-24T15:02 · perte de mon mot de passe
 - · [11467](https://tbpro.zendesk.com/agent/tickets/11467) · 2026-11-24T16:02 · Add second email account
 - · [11301](https://tbpro.zendesk.com/agent/tickets/11301) · 2026-11-24T16:02 · Webmail speeds
+- · [10862](https://tbpro.zendesk.com/agent/tickets/10862) · 2026-11-24T17:02 · account deletion
+- · [11461](https://tbpro.zendesk.com/agent/tickets/11461) · 2026-11-24T17:02 · deleting alias - can another account reuse?
+- · [11295](https://tbpro.zendesk.com/agent/tickets/11295) · 2026-11-24T17:02 · Where can I find a write-up of what Thundermail will support
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
