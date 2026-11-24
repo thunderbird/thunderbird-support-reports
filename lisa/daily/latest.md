@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 17:13 ET** · refreshes hourly_  
+_Updated: **2026-11-24 18:13 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -14,13 +14,13 @@ Flight 8 is **day 107** of rollout — **35,000 invitees**, **1382 tickets** so 
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 169.8h · mean 195.6h (proxy: updated_at − created_at, 78 solved tickets)
+- **Median AHT**: 169.7h · mean 194.7h (proxy: updated_at − created_at, 79 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"server responded allowed"** — 3 tickets in 24h (318.0× baseline; baseline 1 cum) — [#11656](https://tbpro.zendesk.com/agent/tickets/11656), [#11678](https://tbpro.zendesk.com/agent/tickets/11678), [#11682](https://tbpro.zendesk.com/agent/tickets/11682)
+- **"responded allowed send"** — 3 tickets in 24h (318.0× baseline; baseline 1 cum) — [#11656](https://tbpro.zendesk.com/agent/tickets/11656), [#11678](https://tbpro.zendesk.com/agent/tickets/11678), [#11682](https://tbpro.zendesk.com/agent/tickets/11682)
 - **"custom domains"** — 3 tickets in 24h (5.4× baseline; baseline 59 cum) — [#11658](https://tbpro.zendesk.com/agent/tickets/11658), [#11678](https://tbpro.zendesk.com/agent/tickets/11678), [#11682](https://tbpro.zendesk.com/agent/tickets/11682)
 - **"network error"** — 2 tickets in 24h (new; baseline 0 cum) — [#11651](https://tbpro.zendesk.com/agent/tickets/11651), [#11654](https://tbpro.zendesk.com/agent/tickets/11654)
 - **"before recent"** — 2 tickets in 24h (new; baseline 0 cum) — [#11662](https://tbpro.zendesk.com/agent/tickets/11662), [#11682](https://tbpro.zendesk.com/agent/tickets/11682)
@@ -278,7 +278,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - 🔧 GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
 - 10 incident(s):
-  - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [open] · 2026-11-20 · _can't add my main email address_
+  - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [hold] · 2026-11-20 · _can't add my main email address_
   - [#11537](https://tbpro.zendesk.com/agent/tickets/11537) · [hold] · 2026-11-21 · _Can't create alias?_
   - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [hold] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [hold] · 2026-11-21 · _can't create catch all alias for custom domain_
@@ -376,16 +376,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1192
-- **solved**: 78
-- **pending**: 57
-- **hold**: 39
-- **open**: 15
-- **new**: 1
+- **solved**: 79
+- **pending**: 58
+- **hold**: 40
+- **open**: 13
 
 ## Service (cumulative)
 
-- **Account Hub**: 763
-- **Thundermail**: 499
+- **Account Hub**: 762
+- **Thundermail**: 500
 - **Send**: 32
 - **Appointment**: 18
 
@@ -393,12 +392,12 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 254
+- **curious** + **explained**: 255
 - **change request** + **actioned**: 190
 - **blocked** + **explained**: 129
 - **confused** + **explained**: 112
+- **curious** + **informed**: 70
 - **confused** + **redirected**: 70
-- **curious** + **informed**: 69
 - **confused** + **informed**: 67
 - **blocked** + **redirected**: 60
 - **blocked** + **investigated**: 56
