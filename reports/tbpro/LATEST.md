@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 21:20 ET** · refreshes hourly_  
+_Updated: **2026-11-23 22:18 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -205,7 +205,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 ### [#9007](https://tbpro.zendesk.com/agent/tickets/9007) · [hold] · [send/1068] Uploading files fails with CORS and POST errors
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1068](https://github.com/thunderbird/tbpro-add-on/issues/1068) · _Thunderbird send: Uplodaing files fails with CORS and POST errors_
 - 3 incident(s):
-  - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [hold] · 2026-09-14 · _Slow and failing Send uploads_
+  - [#8689](https://tbpro.zendesk.com/agent/tickets/8689) · [open] · 2026-09-14 · _Slow and failing Send uploads_
   - [#11053](https://tbpro.zendesk.com/agent/tickets/11053) · [hold] · 2026-11-10 · _Send large files_
   - [#11280](https://tbpro.zendesk.com/agent/tickets/11280) · [solved] · 2026-11-13 · _Thunderbird Sent not uploading from Thunderbird Desktop App_
 
@@ -381,8 +381,8 @@ _(none in last 24h)_
 - **closed**: 1191
 - **solved**: 68
 - **pending**: 59
-- **hold**: 35
-- **open**: 22
+- **hold**: 34
+- **open**: 23
 - **new**: 1
 
 ## Service (cumulative)
