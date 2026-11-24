@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 06:15 ET** · refreshes hourly_  
+_Updated: **2026-11-24 07:22 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 107** of rollout — **35,000 invitees**, **1378 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 107** of rollout — **35,000 invitees**, **1379 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **2** solved in last 24h
-- **1378** tickets total since launch · contact rate **4%** of 35000 invitees
+- **8** new tickets in last 24h · **2** solved in last 24h
+- **1379** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -223,7 +223,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [pending] · 2026-11-22 · _Firefox Relay emails to spam_
-  - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23 · _my relay forwarded emails keep going to junk._
+  - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [open] · 2026-11-23 · _my relay forwarded emails keep going to junk._
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -370,14 +370,14 @@ _(none in last 24h)_
 
 - **closed**: 1191
 - **solved**: 68
-- **pending**: 57
+- **pending**: 56
 - **hold**: 32
-- **open**: 28
-- **new**: 2
+- **open**: 29
+- **new**: 3
 
 ## Service (cumulative)
 
-- **Account Hub**: 760
+- **Account Hub**: 761
 - **Thundermail**: 497
 - **Send**: 32
 - **Appointment**: 17
@@ -448,6 +448,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Account access issues — 2 tickets
+
+- **[#11665](https://tbpro.zendesk.com/agent/tickets/11665)** · Does this operate the same as Windows Thunderbird?
+  > I`m trying to logon with my login from my Window Thunderbird using my GMail account and Thunderbird wants 2 step Authentication which doesn`t exist for the Windows version and I…
+- **[#11659](https://tbpro.zendesk.com/agent/tickets/11659)** · Can't remember my Thundermail address after waitlist sign-up
+  > Hello, I joined the Thunderbird Pro waitlist with [[email]](mailto:[email]) and was invited on August 24. I believe I completed the sign-up and chose a Thundermail address at the…
+
 ### Aliases — 2 tickets
 
 - **[#11658](https://tbpro.zendesk.com/agent/tickets/11658)** · Custom domain alias count
@@ -459,11 +466,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11662](https://tbpro.zendesk.com/agent/tickets/11662)** · Delivered-To headers are inconsistent for custom domain
   > Before the recent (Nov. 19th) updates, all mail for my domain ([domain]), regardless of whether it was flagged by Stalwart as spam or ham, was arriving in my Thundermail account…
-
-### Account access issues — 1 tickets
-
-- **[#11659](https://tbpro.zendesk.com/agent/tickets/11659)** · Can't remember my Thundermail address after waitlist sign-up
-  > Hello, I joined the Thunderbird Pro waitlist with [[email]](mailto:[email]) and was invited on August 24. I believe I completed the sign-up and chose a Thundermail address at the…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
 
@@ -489,6 +491,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [open] · 2026-11-24T01:51 · Custom domain alias count
 - [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [new] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
 - [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [new] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
+- [11665](https://tbpro.zendesk.com/agent/tickets/11665) · [new] · 2026-11-24T12:10 · Does this operate the same as Windows Thunderbird?
 
 ## Solved — last 24h
 
