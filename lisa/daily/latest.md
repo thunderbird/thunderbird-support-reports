@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 10:16 ET** · refreshes hourly_  
+_Updated: **2026-11-24 11:19 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 107** of rollout — **35,000 invitees**, **1379 tickets** so 
 
 ## At a glance
 
-- **8** new tickets in last 24h · **4** solved in last 24h
+- **8** new tickets in last 24h · **6** solved in last 24h
 - **1379** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (1 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 176.1h · mean 199.5h (proxy: updated_at − created_at, 70 solved tickets)
+- **Median AHT**: 176.1h · mean 199.2h (proxy: updated_at − created_at, 72 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -255,12 +255,12 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - 6 incident(s):
-  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
+  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [pending] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
   - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [pending] · 2026-11-21 · _Sending from Thunderbird_
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
-  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [hold] · 2026-11-23 · _Cannot email Microsoft accounta_
 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [open] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
@@ -369,11 +369,11 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1191
-- **solved**: 70
-- **pending**: 54
-- **hold**: 32
-- **open**: 29
-- **new**: 3
+- **solved**: 72
+- **pending**: 55
+- **hold**: 33
+- **open**: 26
+- **new**: 2
 
 ## Service (cumulative)
 
@@ -490,7 +490,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11656](https://tbpro.zendesk.com/agent/tickets/11656) · [open] · 2026-11-24T01:18 · Is there a Thundermail SMTP outage happening right now or something?
 - [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [open] · 2026-11-24T01:51 · Custom domain alias count
 - [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [new] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
-- [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [new] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
+- [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [open] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
 - [11665](https://tbpro.zendesk.com/agent/tickets/11665) · [new] · 2026-11-24T12:10 · Does this operate the same as Windows Thunderbird?
 
 ## Solved — last 24h
@@ -499,6 +499,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11450](https://tbpro.zendesk.com/agent/tickets/11450) · 2026-11-24T01:01 · Refunds?
 - · [11472](https://tbpro.zendesk.com/agent/tickets/11472) · 2026-11-24T15:02 · neues Konto
 - · [11463](https://tbpro.zendesk.com/agent/tickets/11463) · 2026-11-24T15:02 · perte de mon mot de passe
+- · [11467](https://tbpro.zendesk.com/agent/tickets/11467) · 2026-11-24T16:02 · Add second email account
+- · [11301](https://tbpro.zendesk.com/agent/tickets/11301) · 2026-11-24T16:02 · Webmail speeds
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
