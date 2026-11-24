@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 14:13 ET** · refreshes hourly_  
+_Updated: **2026-11-24 15:14 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,20 +9,20 @@ Flight 8 is **day 107** of rollout — **35,000 invitees**, **1380 tickets** so 
 
 ## At a glance
 
-- **9** new tickets in last 24h · **10** solved in last 24h
+- **9** new tickets in last 24h · **12** solved in last 24h
 - **1380** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (224 good / 12 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 176.1h · mean 200.0h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 176.1h · mean 200.7h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
 - **"network error"** — 2 tickets in 24h (new; baseline 0 cum) — [#11651](https://tbpro.zendesk.com/agent/tickets/11651), [#11654](https://tbpro.zendesk.com/agent/tickets/11654)
-- **"correct settings again"** — 2 tickets in 24h (212.0× baseline; baseline 1 cum) — [#11656](https://tbpro.zendesk.com/agent/tickets/11656), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
 - **"desktop android"** — 2 tickets in 24h (212.0× baseline; baseline 1 cum) — [#11651](https://tbpro.zendesk.com/agent/tickets/11651), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
+- **"settings again"** — 2 tickets in 24h (212.0× baseline; baseline 1 cum) — [#11656](https://tbpro.zendesk.com/agent/tickets/11656), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
 - **"custom domains"** — 2 tickets in 24h (3.6× baseline; baseline 59 cum) — [#11658](https://tbpro.zendesk.com/agent/tickets/11658), [#11678](https://tbpro.zendesk.com/agent/tickets/11678)
 
 ## Known problems — 19 problem(s), 188 incident(s)
@@ -374,10 +374,9 @@ _(none in last 24h)_
 
 - **closed**: 1192
 - **solved**: 74
-- **pending**: 54
+- **pending**: 55
 - **hold**: 35
 - **open**: 24
-- **new**: 1
 
 ## Service (cumulative)
 
@@ -495,7 +494,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [open] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
 - [11662](https://tbpro.zendesk.com/agent/tickets/11662) · [hold] · 2026-11-24T09:18 · Delivered-To headers are inconsistent for custom domain
 - [11665](https://tbpro.zendesk.com/agent/tickets/11665) · [open] · 2026-11-24T12:10 · Does this operate the same as Windows Thunderbird?
-- [11678](https://tbpro.zendesk.com/agent/tickets/11678) · [new] · 2026-11-24T18:29 · After recent maintenance can't send emails from Thunderbird (desktop, Android)
+- [11678](https://tbpro.zendesk.com/agent/tickets/11678) · [open] · 2026-11-24T18:29 · After recent maintenance can't send emails from Thunderbird (desktop, Android)
 
 ## Solved — last 24h
 
@@ -509,6 +508,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11461](https://tbpro.zendesk.com/agent/tickets/11461) · 2026-11-24T17:02 · deleting alias - can another account reuse?
 - · [11295](https://tbpro.zendesk.com/agent/tickets/11295) · 2026-11-24T17:02 · Where can I find a write-up of what Thundermail will support
 - · [11448](https://tbpro.zendesk.com/agent/tickets/11448) · 2026-11-24T19:02 · login issues
+- · [11435](https://tbpro.zendesk.com/agent/tickets/11435) · 2026-11-24T20:02 · die obige Mail-Adresse
+- 👍 [11568](https://tbpro.zendesk.com/agent/tickets/11568) · 2026-11-24T20:03 · MTA-STS delivery issue
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
