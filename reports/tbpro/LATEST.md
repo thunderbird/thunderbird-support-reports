@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-23
 
-_Updated: **2026-11-23 20:17 ET** · refreshes hourly_  
+_Updated: **2026-11-23 21:20 ET** · refreshes hourly_  
 _24h window: 2026-11-22T16:00 → 2026-11-23T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 106** of rollout — **35,000 invitees**, **1374 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 106** of rollout — **35,000 invitees**, **1376 tickets** so far (3.9% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
 - **22** new tickets in last 24h · **16** solved in last 24h
-- **1374** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1376** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 4 · **since launch**: 100
@@ -20,12 +20,12 @@ Flight 8 is **day 106** of rollout — **35,000 invitees**, **1374 tickets** so 
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
-- **"catch aliases used"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
+- **"catch aliases"** — 2 tickets in 24h (210.0× baseline; baseline 1 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11619](https://tbpro.zendesk.com/agent/tickets/11619)
 - **"family members"** — 2 tickets in 24h (52.5× baseline; baseline 4 cum) — [#11603](https://tbpro.zendesk.com/agent/tickets/11603), [#11647](https://tbpro.zendesk.com/agent/tickets/11647)
 - **"catch alias"** — 2 tickets in 24h (42.0× baseline; baseline 5 cum) — [#11618](https://tbpro.zendesk.com/agent/tickets/11618), [#11632](https://tbpro.zendesk.com/agent/tickets/11632)
-- **"custom domains"** — 2 tickets in 24h (3.7× baseline; baseline 57 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
+- **"custom domains"** — 2 tickets in 24h (3.6× baseline; baseline 58 cum) — [#11619](https://tbpro.zendesk.com/agent/tickets/11619), [#11631](https://tbpro.zendesk.com/agent/tickets/11631)
 
-## Known problems — 19 problem(s), 186 incident(s)
+## Known problems — 19 problem(s), 187 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -222,10 +222,11 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
-- 3 incident(s):
+- 4 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [pending] · 2026-11-22 · _Firefox Relay emails to spam_
+  - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23 · _my relay forwarded emails keep going to junk._
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -379,9 +380,9 @@ _(none in last 24h)_
 
 - **closed**: 1191
 - **solved**: 68
-- **pending**: 56
+- **pending**: 59
 - **hold**: 35
-- **open**: 23
+- **open**: 22
 - **new**: 1
 
 ## Service (cumulative)
@@ -395,7 +396,7 @@ _(none in last 24h)_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 254
+- **curious** + **explained**: 253
 - **change request** + **actioned**: 190
 - **blocked** + **explained**: 129
 - **confused** + **explained**: 111
@@ -406,7 +407,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 56
 - **request** + **redirected**: 52
 - **blocked** + **escalated**: 41
-- **concerned** + **explained**: 34
+- **concerned** + **explained**: 35
 - **blocked** + **informed**: 28
 - **confused** + **—**: 16
 - **change request** + **explained**: 14
@@ -421,11 +422,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **actioned**: 6
 - **concerned** + **informed**: 5
 - **request** + **informed**: 5
+- **curious** + **investigated**: 5
 - **request** + **actioned**: 5
 - **other** + **n/a**: 4
 - **concerned** + **escalated**: 4
 - **telling us** + **n/a**: 4
-- **curious** + **investigated**: 4
 - **change request** + **informed**: 4
 - **curious** + **escalated**: 3
 - **curious** + **n/a**: 3
@@ -472,12 +473,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Other / uncategorized — 3 tickets
 
-- **[#11648](https://tbpro.zendesk.com/agent/tickets/11648)** · Large files uploaded in Send — why: **blocked** · how: **investigated**
-  > Send. Using the send application to do zip files: any file over 100 MB tends to get dropped and then it tries to reload it again. It goes up to 68% and then it starts doing its…
 - **[#11647](https://tbpro.zendesk.com/agent/tickets/11647)** · Adding family members
   > If I want to add accounts for my family members, do they need to get on the waiting list? Would like to add their accounts now.
 - **[#11640](https://tbpro.zendesk.com/agent/tickets/11640)** · Obter conta 
   > App para e não desenrola
+- **[#11648](https://tbpro.zendesk.com/agent/tickets/11648)** · Large files uploaded in Send — why: **blocked** · how: **investigated**
+  > Send. Using the send application to do zip files: any file over 100 MB tends to get dropped and then it tries to reload it again. It goes up to 68% and then it starts doing its…
 
 ### Appointment / calendar — 3 tickets
 
@@ -488,24 +489,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11613](https://tbpro.zendesk.com/agent/tickets/11613)** · Appointment calendars — why: **curious** · how: **informed**
   > Dear [name], I am struggling with Appointment to add additional calendars that are not requiring a username and password, but who will impact my availability. Is it possible to…
 
+### Webmail — 3 tickets
+
+- **[#11615](https://tbpro.zendesk.com/agent/tickets/11615)** · Cannot email Microsoft accounta — why: **blocked** · how: **escalated**
+  > Hello. I have tried emailing multiple Microsoft email accounts through Thunderbird Android mobile app, and the new Webmail site. The app says the mail account does not exist, and…
+- **[#11649](https://tbpro.zendesk.com/agent/tickets/11649)** · my relay forwarded emails keep going to junk. — why: **concerned** · how: **explained**
+  > could you please add Firefox Relay (FR) to Thunderbird mail (TBM) or can you fix this bug I am having, where when I try to select my FR email in the junk folder, i get a message…
+- **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+  > More details coming.
+
 ### Email Protocols (IMAP/SMTP/POP) — 2 tickets
 
 - **[#11637](https://tbpro.zendesk.com/agent/tickets/11637)** · 'Too many mailboxes'? — why: **blocked** · how: **explained**
   > I'm trying to transfer my entire Yahoo email structure to Thundermail. So far I haven't had any real problems. Until now. I have a parent folder which at present has three…
 - **[#11605](https://tbpro.zendesk.com/agent/tickets/11605)** · 454 4.7.0 Temporary authentication failure — why: **confused** · how: **n/a**
   > Suddenly started getting 454 4.7.0 Temporary authentication failure when sending via SMTP, using the same creds/settings as I have since July. No changes on my side. Is there a…
-
-### Webmail — 2 tickets
-
-- **[#11615](https://tbpro.zendesk.com/agent/tickets/11615)** · Cannot email Microsoft accounta — why: **blocked** · how: **escalated**
-  > Hello. I have tried emailing multiple Microsoft email accounts through Thunderbird Android mobile app, and the new Webmail site. The app says the mail account does not exist, and…
-- **[#11626](https://tbpro.zendesk.com/agent/tickets/11626)** · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
-  > More details coming.
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#11649](https://tbpro.zendesk.com/agent/tickets/11649)** · my relay forwarded emails keep going to junk.
-  > could you please add Firefox Relay (FR) to Thunderbird mail (TBM) or can you fix this bug I am having, where when I try to select my FR email in the junk folder, i get a message…
 
 ### Early bird signup — 1 tickets
 
@@ -559,8 +557,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11643](https://tbpro.zendesk.com/agent/tickets/11643) · [pending] · 2026-11-23T17:50 · [email]
 - [11645](https://tbpro.zendesk.com/agent/tickets/11645) · [hold] · 2026-11-23T18:04 · Cannot add catch-all email address
 - [11647](https://tbpro.zendesk.com/agent/tickets/11647) · [open] · 2026-11-23T20:32 · Adding family members
-- [11648](https://tbpro.zendesk.com/agent/tickets/11648) · [open] · 2026-11-23T20:51 · Large files uploaded in Send
-- [11649](https://tbpro.zendesk.com/agent/tickets/11649) · [open] · 2026-11-23T20:53 · my relay forwarded emails keep going to junk.
+- [11648](https://tbpro.zendesk.com/agent/tickets/11648) · [pending] · 2026-11-23T20:51 · Large files uploaded in Send
+- [11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23T20:53 · my relay forwarded emails keep going to junk.
 
 ## Solved — last 24h
 
