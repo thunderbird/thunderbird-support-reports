@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 01:24 ET** · refreshes hourly_  
+_Updated: **2026-11-24 02:17 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -372,8 +372,8 @@ _(none in last 24h)_
 - **solved**: 68
 - **pending**: 58
 - **hold**: 33
-- **open**: 25
-- **new**: 2
+- **open**: 26
+- **new**: 1
 
 ## Service (cumulative)
 
@@ -481,7 +481,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11653](https://tbpro.zendesk.com/agent/tickets/11653) · [hold] · 2026-11-23T21:47 · Invalid Aliases with * Outreach Tracker
 - [11654](https://tbpro.zendesk.com/agent/tickets/11654) · [open] · 2026-11-23T23:41 · Email Loss Due to Forwarding Error
 - [11656](https://tbpro.zendesk.com/agent/tickets/11656) · [open] · 2026-11-24T01:18 · Is there a Thundermail SMTP outage happening right now or something?
-- [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [new] · 2026-11-24T01:51 · Custom domain alias count
+- [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [open] · 2026-11-24T01:51 · Custom domain alias count
 - [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [new] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
 
 ## Solved — last 24h
