@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 12:16 ET** · refreshes hourly_  
+_Updated: **2026-11-24 13:18 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 107** of rollout — **35,000 invitees**, **1379 tickets** so 
 
 - **8** new tickets in last 24h · **9** solved in last 24h
 - **1379** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (224 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 176.1h · mean 199.4h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 176.5h · mean 200.8h (proxy: updated_at − created_at, 73 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -221,7 +221,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 4 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
-  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
+  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [pending] · 2026-11-22 · _Firefox Relay emails to spam_
   - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [open] · 2026-11-23 · _my relay forwarded emails keep going to junk._
 
@@ -368,11 +368,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1191
-- **solved**: 74
-- **pending**: 53
-- **hold**: 33
-- **open**: 28
+- **closed**: 1192
+- **solved**: 73
+- **pending**: 54
+- **hold**: 34
+- **open**: 26
 
 ## Service (cumulative)
 
@@ -388,7 +388,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 253
 - **change request** + **actioned**: 190
 - **blocked** + **explained**: 129
-- **confused** + **explained**: 111
+- **confused** + **explained**: 112
 - **curious** + **informed**: 69
 - **confused** + **redirected**: 68
 - **confused** + **informed**: 67
@@ -402,7 +402,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **change request** + **explained**: 14
 - **blocked** + **—**: 13
 - **concerned** + **—**: 12
-- **concerned** + **investigated**: 11
+- **concerned** + **investigated**: 12
 - **telling us** + **explained**: 9
 - **request** + **explained**: 9
 - **blocked** + **actioned**: 9
@@ -471,21 +471,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11656](https://tbpro.zendesk.com/agent/tickets/11656)** · Is there a Thundermail SMTP outage happening right now or something?
   > Thunderbird on desktop tells me: “Sending of the message failed. An error occurred while sending mail. The mail server responded: You are not allowed to send from this address..…
 
-### Email sending / receiving / SMTP / IMAP — 1 tickets
+### Spam / Junk Filtering — 1 tickets
 
-- **[#11654](https://tbpro.zendesk.com/agent/tickets/11654)** · Email Loss Due to Forwarding Error
+- **[#11654](https://tbpro.zendesk.com/agent/tickets/11654)** · Email Loss Due to Forwarding Error — why: **concerned** · how: **investigated**
   > I am experiencing a loss of some emails. I route emails to two separate services and I have experienced two losses. One of them showed up after Thundermail was taken offline and…
 
 ### Webmail — 1 tickets
 
-- **[#11651](https://tbpro.zendesk.com/agent/tickets/11651)** · Problem with mail, calendar and contacts
+- **[#11651](https://tbpro.zendesk.com/agent/tickets/11651)** · Problem with mail, calendar and contacts — why: **confused** · how: **explained**
   > Hi! I am having problem logging into thunderbird (desktop and android) and syncing my contacts and calendar with DAVx^5. Appointment still works. Thunderbird: Both android and…
 
 ## New tickets — last 24h
 
-- [11651](https://tbpro.zendesk.com/agent/tickets/11651) · [open] · 2026-11-23T21:41 · Problem with mail, calendar and contacts
+- [11651](https://tbpro.zendesk.com/agent/tickets/11651) · [pending] · 2026-11-23T21:41 · Problem with mail, calendar and contacts
 - [11653](https://tbpro.zendesk.com/agent/tickets/11653) · [hold] · 2026-11-23T21:47 · Invalid Aliases with * Outreach Tracker
-- [11654](https://tbpro.zendesk.com/agent/tickets/11654) · [open] · 2026-11-23T23:41 · Email Loss Due to Forwarding Error
+- [11654](https://tbpro.zendesk.com/agent/tickets/11654) · [pending] · 2026-11-23T23:41 · Email Loss Due to Forwarding Error
 - [11656](https://tbpro.zendesk.com/agent/tickets/11656) · [open] · 2026-11-24T01:18 · Is there a Thundermail SMTP outage happening right now or something?
 - [11658](https://tbpro.zendesk.com/agent/tickets/11658) · [open] · 2026-11-24T01:51 · Custom domain alias count
 - [11659](https://tbpro.zendesk.com/agent/tickets/11659) · [open] · 2026-11-24T06:13 · Can't remember my Thundermail address after waitlist sign-up
