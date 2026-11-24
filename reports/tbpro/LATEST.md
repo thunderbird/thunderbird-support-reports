@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 05:14 ET** · refreshes hourly_  
+_Updated: **2026-11-24 06:15 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -278,7 +278,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [hold] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [hold] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [hold] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
-  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [hold] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
+  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [open] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [hold] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [hold] · 2026-11-23 · _Cannot add catch-all email address_
 
@@ -370,9 +370,9 @@ _(none in last 24h)_
 
 - **closed**: 1191
 - **solved**: 68
-- **pending**: 58
-- **hold**: 33
-- **open**: 26
+- **pending**: 57
+- **hold**: 32
+- **open**: 28
 - **new**: 2
 
 ## Service (cumulative)
