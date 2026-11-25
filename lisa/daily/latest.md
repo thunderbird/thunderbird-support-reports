@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 10:16 ET** · refreshes hourly_  
+_Updated: **2026-11-25 11:20 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1383 tickets** so 
 
 ## At a glance
 
-- **2** new tickets in last 24h · **4** solved in last 24h
+- **2** new tickets in last 24h · **6** solved in last 24h
 - **1383** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: —  (0 good / 0 bad)
+- **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 169.3h · mean 193.8h (proxy: updated_at − created_at, 80 solved tickets)
+- **Median AHT**: 169.8h · mean 197.9h (proxy: updated_at − created_at, 81 solved tickets)
 
 ## Known problems — 19 problem(s), 190 incident(s)
 
@@ -26,7 +26,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1383 tickets** so 
   - [#9295](https://tbpro.zendesk.com/agent/tickets/9295) · [closed] · 2026-09-29 · _I got your Join The Early Bird Beta email but no authentication email received_
   - [#9350](https://tbpro.zendesk.com/agent/tickets/9350) · [closed] · 2026-10-01 · _Subscriptpion stuck a verifying email address_
   - [#10641](https://tbpro.zendesk.com/agent/tickets/10641) · [closed] · 2026-10-31 · _Thundermail acces_
-  - [#10848](https://tbpro.zendesk.com/agent/tickets/10848) · [pending] · 2026-11-05 · _password_
+  - [#10848](https://tbpro.zendesk.com/agent/tickets/10848) · [solved] · 2026-11-05 · _password_
 
 ### [#6905](https://tbpro.zendesk.com/agent/tickets/6905) · [closed] · [stormbox/60] Missing Custom Aliases from 'From' dropdown in Webmail
 - ✅ GitHub: [thunderbird/stormbox#60](https://github.com/thunderbird/stormbox/issues/60) · _Webmail - no mail from own domain_
@@ -259,16 +259,16 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1383 tickets** so 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
 - 5 incident(s):
-  - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [open] · 2026-11-20 · _cannot send emails with my domain_
-  - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [hold] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
-  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [hold] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
-  - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [hold] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
-  - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [hold] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
+  - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20 · _cannot send emails with my domain_
+  - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [pending] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
+  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [pending] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
+  - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [pending] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
+  - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
 - 10 incident(s):
-  - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [hold] · 2026-11-20 · _can't add my main email address_
+  - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [open] · 2026-11-20 · _can't add my main email address_
   - [#11537](https://tbpro.zendesk.com/agent/tickets/11537) · [hold] · 2026-11-21 · _Can't create alias?_
   - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [open] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [hold] · 2026-11-21 · _can't create catch all alias for custom domain_
@@ -368,11 +368,11 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1192
-- **solved**: 80
-- **pending**: 58
-- **hold**: 37
-- **open**: 16
+- **closed**: 1193
+- **solved**: 81
+- **pending**: 62
+- **hold**: 32
+- **open**: 15
 
 ## Service (cumulative)
 
@@ -391,18 +391,18 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **explained**: 112
 - **curious** + **informed**: 71
 - **confused** + **redirected**: 70
-- **confused** + **informed**: 67
+- **confused** + **informed**: 66
 - **blocked** + **redirected**: 61
 - **blocked** + **investigated**: 56
 - **request** + **redirected**: 52
-- **blocked** + **escalated**: 43
+- **blocked** + **escalated**: 45
 - **concerned** + **explained**: 35
 - **blocked** + **informed**: 28
 - **confused** + **—**: 16
 - **change request** + **explained**: 14
 - **blocked** + **—**: 13
-- **concerned** + **investigated**: 13
 - **concerned** + **—**: 12
+- **concerned** + **investigated**: 12
 - **telling us** + **explained**: 9
 - **request** + **explained**: 9
 - **blocked** + **actioned**: 9
@@ -468,6 +468,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11530](https://tbpro.zendesk.com/agent/tickets/11530) · 2026-11-24T22:05 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
 - · [11486](https://tbpro.zendesk.com/agent/tickets/11486) · 2026-11-24T23:01 · Waitlist
 - · [11490](https://tbpro.zendesk.com/agent/tickets/11490) · 2026-11-25T06:01 · Send email not working 
+- · [11394](https://tbpro.zendesk.com/agent/tickets/11394) · 2026-11-25T16:02 · Compacting folders
+- · [10848](https://tbpro.zendesk.com/agent/tickets/10848) · 2026-11-25T16:16 · password
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
