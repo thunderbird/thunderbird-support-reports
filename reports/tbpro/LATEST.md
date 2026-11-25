@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 16:15 ET** · refreshes hourly_  
+_Updated: **2026-11-25 17:15 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 108** of rollout — **35,000 invitees**, **1385 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **19** solved in last 24h
-- **1384** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1385** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (225 good / 12 bad)
+- **CSAT (since launch)**: 95%  (226 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 160.7h · mean 189.6h (proxy: updated_at − created_at, 93 solved tickets)
+- **Median AHT**: 160.1h · mean 188.5h (proxy: updated_at − created_at, 94 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -274,7 +274,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
   - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [pending] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [pending] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [pending] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
-  - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [open] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
+  - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [solved] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
   - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [pending] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [pending] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [pending] · 2026-11-23 · _Cannot add catch-all email address_
@@ -371,14 +371,14 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1195
-- **solved**: 93
-- **pending**: 67
+- **solved**: 94
+- **pending**: 70
 - **hold**: 21
-- **open**: 8
+- **open**: 5
 
 ## Service (cumulative)
 
-- **Account Hub**: 763
+- **Account Hub**: 764
 - **Thundermail**: 503
 - **Send**: 30
 - **Appointment**: 18
@@ -392,7 +392,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 130
 - **confused** + **explained**: 112
 - **curious** + **informed**: 72
-- **confused** + **redirected**: 69
+- **confused** + **redirected**: 70
 - **confused** + **informed**: 66
 - **blocked** + **redirected**: 62
 - **blocked** + **investigated**: 58
