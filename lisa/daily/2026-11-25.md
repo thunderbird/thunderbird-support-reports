@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-25 16:15 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
 
 ## At a glance
 
-- **3** new tickets in last 24h · **17** solved in last 24h
+- **3** new tickets in last 24h · **19** solved in last 24h
 - **1384** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 167.5h · mean 192.9h (proxy: updated_at − created_at, 89 solved tickets)
+- **Median AHT**: 160.7h · mean 189.6h (proxy: updated_at − created_at, 93 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -216,7 +216,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
 - 4 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
-  - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [pending] · 2026-11-22 · _Firefox Relay emails to spam_
+  - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [hold] · 2026-11-22 · _Firefox Relay emails to spam_
   - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23 · _my relay forwarded emails keep going to junk._
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
@@ -371,10 +371,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1195
-- **solved**: 89
-- **pending**: 70
-- **hold**: 20
-- **open**: 10
+- **solved**: 93
+- **pending**: 67
+- **hold**: 21
+- **open**: 8
 
 ## Service (cumulative)
 
@@ -394,7 +394,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **informed**: 72
 - **confused** + **redirected**: 69
 - **confused** + **informed**: 66
-- **blocked** + **redirected**: 61
+- **blocked** + **redirected**: 62
 - **blocked** + **investigated**: 58
 - **request** + **redirected**: 52
 - **blocked** + **escalated**: 45
@@ -449,11 +449,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Email migration / import — 1 tickets
-
-- **[#11683](https://tbpro.zendesk.com/agent/tickets/11683)** · Migrate 10GB of archived email into my account — why: **curious** · how: **informed**
-  > Hello, BIG Mozilla fan here. Product looks pretty good so far. I don't plan on using the webmail interface, just Thunderbird & Thunderbird Android. I need to migrate 10GB of…
-
 ### App setup / configuration — 1 tickets
 
 - **[#11751](https://tbpro.zendesk.com/agent/tickets/11751)** · Feedback - Saving Contacts — why: **blocked** · how: **investigated**
@@ -464,9 +459,14 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11733](https://tbpro.zendesk.com/agent/tickets/11733)** · Uploads schlagen in Thunderbird und Firefox fehl — why: **blocked** · how: **investigated**
   > Ich versuche, Dateien mit Send zu verschicken. In Thunderbird erhalte ich nach Auswahl der Datei, Anhang umwandeln in Send, und der Einstellung von Passwort und Gültigkeitsdauer…
 
+### Email migration / import — 1 tickets
+
+- **[#11683](https://tbpro.zendesk.com/agent/tickets/11683)** · Migrate 10GB of archived email into my account — why: **curious** · how: **informed**
+  > Hello, BIG Mozilla fan here. Product looks pretty good so far. I don't plan on using the webmail interface, just Thunderbird & Thunderbird Android. I need to migrate 10GB of…
+
 ## New tickets — last 24h
 
-- [11683](https://tbpro.zendesk.com/agent/tickets/11683) · [open] · 2026-11-24T21:56 · Migrate 10GB of archived email into my account
+- [11683](https://tbpro.zendesk.com/agent/tickets/11683) · [solved] · 2026-11-24T21:56 · Migrate 10GB of archived email into my account
 - [11733](https://tbpro.zendesk.com/agent/tickets/11733) · [pending] · 2026-11-25T13:45 · Uploads schlagen in Thunderbird und Firefox fehl
 - [11751](https://tbpro.zendesk.com/agent/tickets/11751) · [pending] · 2026-11-25T17:25 · Feedback - Saving Contacts
 
@@ -489,6 +489,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11510](https://tbpro.zendesk.com/agent/tickets/11510) · 2026-11-25T19:52 · App password is ridiculous along with the process and thundermail system and documentation
 - · [11508](https://tbpro.zendesk.com/agent/tickets/11508) · 2026-11-25T20:04 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
 - · [11504](https://tbpro.zendesk.com/agent/tickets/11504) · 2026-11-25T20:08 · URGENT: I am locked out of my thundermail account 
+- · [11507](https://tbpro.zendesk.com/agent/tickets/11507) · 2026-11-25T20:44 · Custom domain question
+- · [11683](https://tbpro.zendesk.com/agent/tickets/11683) · 2026-11-25T20:55 · Migrate 10GB of archived email into my account
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
