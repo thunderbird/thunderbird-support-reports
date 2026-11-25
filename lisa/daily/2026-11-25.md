@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 09:18 ET** · refreshes hourly_  
+_Updated: **2026-11-25 10:16 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -372,8 +372,7 @@ _(none in last 24h)_
 - **solved**: 80
 - **pending**: 58
 - **hold**: 37
-- **open**: 15
-- **new**: 1
+- **open**: 16
 
 ## Service (cumulative)
 
@@ -461,7 +460,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [11683](https://tbpro.zendesk.com/agent/tickets/11683) · [open] · 2026-11-24T21:56 · Migrate 10GB of archived email into my account
-- [11733](https://tbpro.zendesk.com/agent/tickets/11733) · [new] · 2026-11-25T13:45 · Uploads schlagen in Thunderbird und Firefox fehl
+- [11733](https://tbpro.zendesk.com/agent/tickets/11733) · [open] · 2026-11-25T13:45 · Uploads schlagen in Thunderbird und Firefox fehl
 
 ## Solved — last 24h
 
