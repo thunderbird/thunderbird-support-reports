@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 01:25 ET** · refreshes hourly_  
+_Updated: **2026-11-25 02:18 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -270,7 +270,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1382 tickets** so 
 - 10 incident(s):
   - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [hold] · 2026-11-20 · _can't add my main email address_
   - [#11537](https://tbpro.zendesk.com/agent/tickets/11537) · [hold] · 2026-11-21 · _Can't create alias?_
-  - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [hold] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
+  - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [open] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [hold] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [hold] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [hold] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
@@ -369,8 +369,8 @@ _(none in last 24h)_
 - **closed**: 1192
 - **solved**: 80
 - **pending**: 58
-- **hold**: 39
-- **open**: 13
+- **hold**: 38
+- **open**: 14
 
 ## Service (cumulative)
 
