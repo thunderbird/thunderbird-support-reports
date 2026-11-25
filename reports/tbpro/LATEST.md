@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 14:13 ET** · refreshes hourly_  
+_Updated: **2026-11-25 15:15 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
 
 ## At a glance
 
-- **3** new tickets in last 24h · **15** solved in last 24h
+- **3** new tickets in last 24h · **17** solved in last 24h
 - **1384** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 168.8h · mean 194.4h (proxy: updated_at − created_at, 87 solved tickets)
+- **Median AHT**: 167.5h · mean 192.9h (proxy: updated_at − created_at, 89 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -255,7 +255,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
-  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [pending] · 2026-11-23 · _Cannot email Microsoft accounta_
 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [pending] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
@@ -264,7 +264,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [pending] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
   - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [pending] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
   - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [pending] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
-  - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [open] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
+  - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [pending] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
@@ -280,8 +280,9 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so 
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [pending] · 2026-11-23 · _Cannot add catch-all email address_
   - [#11682](https://tbpro.zendesk.com/agent/tickets/11682) · [solved] · 2026-11-24 · _"You are not allowed to send from this address" + Catch-All Aliases Vanished_
 
-## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
+## Other tickets linked to GitHub — 12 ticket(s) → 13 issue(s)
 
+- 🔧 [zd #11502](https://tbpro.zendesk.com/agent/tickets/11502) → [thunderbird/stormbox#268](https://github.com/thunderbird/stormbox/issues/268) · _Mails display_
 - 🔧 [zd #11454](https://tbpro.zendesk.com/agent/tickets/11454) → [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120) · _HTML Tags Appear in Message Preview_
 - 🔧 [zd #10078](https://tbpro.zendesk.com/agent/tickets/10078) → [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 🔧 [zd #9487](https://tbpro.zendesk.com/agent/tickets/9487) → [thunderbird/mailstrom#262](https://github.com/thunderbird/mailstrom/issues/262) · _Fix RBL open resolver issues_
@@ -370,10 +371,10 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1195
-- **solved**: 87
-- **pending**: 66
+- **solved**: 89
+- **pending**: 70
 - **hold**: 20
-- **open**: 16
+- **open**: 10
 
 ## Service (cumulative)
 
@@ -388,10 +389,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **curious** + **explained**: 256
 - **change request** + **actioned**: 190
-- **blocked** + **explained**: 129
+- **blocked** + **explained**: 130
 - **confused** + **explained**: 112
 - **curious** + **informed**: 72
-- **confused** + **redirected**: 70
+- **confused** + **redirected**: 69
 - **confused** + **informed**: 66
 - **blocked** + **redirected**: 61
 - **blocked** + **investigated**: 58
@@ -479,13 +480,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11303](https://tbpro.zendesk.com/agent/tickets/11303) · 2026-11-25T16:58 · ログイン出来ない
 - · [11299](https://tbpro.zendesk.com/agent/tickets/11299) · 2026-11-25T17:06 · login credentials please 
 - · [11459](https://tbpro.zendesk.com/agent/tickets/11459) · 2026-11-25T18:15 · Mildly urgent issue/suggestion
-- · [11551](https://tbpro.zendesk.com/agent/tickets/11551) · 2026-11-25T18:33 · Sending from Thunderbird
-- · [11682](https://tbpro.zendesk.com/agent/tickets/11682) · 2026-11-25T18:35 · "You are not allowed to send from this address" + Catch-All Aliases Vanished
-- · [11510](https://tbpro.zendesk.com/agent/tickets/11510) · 2026-11-25T19:02 · App password is ridiculous along with the process and thundermail system and documentation
 - · [11499](https://tbpro.zendesk.com/agent/tickets/11499) · 2026-11-25T19:02 · trouver mon mot de passe
 - · [11489](https://tbpro.zendesk.com/agent/tickets/11489) · 2026-11-25T19:02 · アカウント削除
-- · [11447](https://tbpro.zendesk.com/agent/tickets/11447) · 2026-11-25T19:02 · OAUTH is broken on Firefox
 - · [11415](https://tbpro.zendesk.com/agent/tickets/11415) · 2026-11-25T19:03 · password rest
+- · [11447](https://tbpro.zendesk.com/agent/tickets/11447) · 2026-11-25T19:25 · OAUTH is broken on Firefox
+- · [11551](https://tbpro.zendesk.com/agent/tickets/11551) · 2026-11-25T19:26 · Sending from Thunderbird
+- · [11682](https://tbpro.zendesk.com/agent/tickets/11682) · 2026-11-25T19:27 · "You are not allowed to send from this address" + Catch-All Aliases Vanished
+- · [11510](https://tbpro.zendesk.com/agent/tickets/11510) · 2026-11-25T19:52 · App password is ridiculous along with the process and thundermail system and documentation
+- · [11508](https://tbpro.zendesk.com/agent/tickets/11508) · 2026-11-25T20:04 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
+- · [11504](https://tbpro.zendesk.com/agent/tickets/11504) · 2026-11-25T20:08 · URGENT: I am locked out of my thundermail account 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
