@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 12:13 ET** · refreshes hourly_  
+_Updated: **2026-11-25 13:18 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 108** of rollout — **35,000 invitees**, **1383 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 108** of rollout — **35,000 invitees**, **1384 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **2** new tickets in last 24h · **7** solved in last 24h
-- **1383** tickets total since launch · contact rate **4%** of 35000 invitees
+- **3** new tickets in last 24h · **8** solved in last 24h
+- **1384** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (1 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 175.7h · mean 201.0h (proxy: updated_at − created_at, 81 solved tickets)
+- **Median AHT**: 172.8h · mean 200.4h (proxy: updated_at − created_at, 82 solved tickets)
 
-## Known problems — 19 problem(s), 190 incident(s)
+## Known problems — 19 problem(s), 191 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -239,31 +239,32 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1383 tickets** so 
 
 ### [#10997](https://tbpro.zendesk.com/agent/tickets/10997) · [hold] · [tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow (1.5 Mega bits / second or slower) internet connections for f_
-- 1 incident(s):
+- 2 incident(s):
   - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [closed] · 2026-10-26 · _Bug report on Send file upload_
+  - [#11648](https://tbpro.zendesk.com/agent/tickets/11648) · [pending] · 2026-11-23 · _Large files uploaded in Send_
 
 ### [#11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · [stormbox/260] Inline picture pastes in Webmail set centre justification
 - 🔧 GitHub: [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260) · _Inline picture pastes in Webmail set centre justification_
 - 1 incident(s):
   - [#11039](https://tbpro.zendesk.com/agent/tickets/11039) · [pending] · 2026-11-10 · _Missing features and questions_
 
-### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [pending] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - 6 incident(s):
   - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [solved] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
-  - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [pending] · 2026-11-21 · _Sending from Thunderbird_
+  - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [open] · 2026-11-21 · _Sending from Thunderbird_
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
   - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
 
-### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
+### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [pending] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
 - 5 incident(s):
   - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20 · _cannot send emails with my domain_
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [pending] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
   - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [pending] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
   - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [pending] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
-  - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
+  - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [open] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [pending] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
@@ -277,7 +278,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1383 tickets** so 
   - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [pending] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [pending] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [pending] · 2026-11-23 · _Cannot add catch-all email address_
-  - [#11682](https://tbpro.zendesk.com/agent/tickets/11682) · [pending] · 2026-11-24 · _"You are not allowed to send from this address" + Catch-All Aliases Vanished_
+  - [#11682](https://tbpro.zendesk.com/agent/tickets/11682) · [open] · 2026-11-24 · _"You are not allowed to send from this address" + Catch-All Aliases Vanished_
 
 ## Other tickets linked to GitHub — 11 ticket(s) → 12 issue(s)
 
@@ -369,15 +370,15 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1193
-- **solved**: 81
-- **pending**: 70
-- **hold**: 23
-- **open**: 16
+- **solved**: 82
+- **pending**: 69
+- **hold**: 20
+- **open**: 20
 
 ## Service (cumulative)
 
 - **Account Hub**: 763
-- **Thundermail**: 501
+- **Thundermail**: 502
 - **Send**: 30
 - **Appointment**: 18
 
@@ -393,7 +394,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **confused** + **redirected**: 70
 - **confused** + **informed**: 66
 - **blocked** + **redirected**: 61
-- **blocked** + **investigated**: 56
+- **blocked** + **investigated**: 57
 - **request** + **redirected**: 52
 - **blocked** + **escalated**: 45
 - **concerned** + **explained**: 35
@@ -447,20 +448,26 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 1 tickets
+### App setup / configuration — 1 tickets
 
-- **[#11733](https://tbpro.zendesk.com/agent/tickets/11733)** · Uploads schlagen in Thunderbird und Firefox fehl
-  > Ich versuche, Dateien mit Send zu verschicken. In Thunderbird erhalte ich nach Auswahl der Datei, Anhang umwandeln in Send, und der Einstellung von Passwort und Gültigkeitsdauer…
+- **[#11751](https://tbpro.zendesk.com/agent/tickets/11751)** · Feedback - Saving Contacts
+  > Got my Thundermail Account today. Went to setup my first ‘contact’. While I could set it up, it took a good 60 - 90 seconds before the contact showed up under the list of contacts…
 
 ### Email migration / import — 1 tickets
 
 - **[#11683](https://tbpro.zendesk.com/agent/tickets/11683)** · Migrate 10GB of archived email into my account — why: **curious** · how: **informed**
   > Hello, BIG Mozilla fan here. Product looks pretty good so far. I don't plan on using the webmail interface, just Thunderbird & Thunderbird Android. I need to migrate 10GB of…
 
+### Other / uncategorized — 1 tickets
+
+- **[#11733](https://tbpro.zendesk.com/agent/tickets/11733)** · Uploads schlagen in Thunderbird und Firefox fehl — why: **blocked** · how: **investigated**
+  > Ich versuche, Dateien mit Send zu verschicken. In Thunderbird erhalte ich nach Auswahl der Datei, Anhang umwandeln in Send, und der Einstellung von Passwort und Gültigkeitsdauer…
+
 ## New tickets — last 24h
 
-- [11683](https://tbpro.zendesk.com/agent/tickets/11683) · [pending] · 2026-11-24T21:56 · Migrate 10GB of archived email into my account
-- [11733](https://tbpro.zendesk.com/agent/tickets/11733) · [open] · 2026-11-25T13:45 · Uploads schlagen in Thunderbird und Firefox fehl
+- [11683](https://tbpro.zendesk.com/agent/tickets/11683) · [open] · 2026-11-24T21:56 · Migrate 10GB of archived email into my account
+- [11733](https://tbpro.zendesk.com/agent/tickets/11733) · [pending] · 2026-11-25T13:45 · Uploads schlagen in Thunderbird und Firefox fehl
+- [11751](https://tbpro.zendesk.com/agent/tickets/11751) · [open] · 2026-11-25T17:25 · Feedback - Saving Contacts
 
 ## Solved — last 24h
 
@@ -471,6 +478,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10848](https://tbpro.zendesk.com/agent/tickets/10848) · 2026-11-25T16:16 · password
 - · [11303](https://tbpro.zendesk.com/agent/tickets/11303) · 2026-11-25T16:58 · ログイン出来ない
 - · [11299](https://tbpro.zendesk.com/agent/tickets/11299) · 2026-11-25T17:06 · login credentials please 
+- · [11459](https://tbpro.zendesk.com/agent/tickets/11459) · 2026-11-25T18:15 · Mildly urgent issue/suggestion
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
