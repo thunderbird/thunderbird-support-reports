@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 17:15 ET** · refreshes hourly_  
+_Updated: **2026-11-25 18:14 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 108** of rollout — **35,000 invitees**, **1385 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 108** of rollout — **35,000 invitees**, **1387 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **19** solved in last 24h
-- **1385** tickets total since launch · contact rate **4%** of 35000 invitees
+- **3** new tickets in last 24h · **18** solved in last 24h
+- **1387** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (226 good / 12 bad)
+- **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 160.1h · mean 188.5h (proxy: updated_at − created_at, 94 solved tickets)
+- **Median AHT**: 160.7h · mean 191.0h (proxy: updated_at − created_at, 91 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -241,7 +241,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1385 tickets** so 
 - 🔧 GitHub: [thunderbird/tbpro-add-on#1397](https://github.com/thunderbird/tbpro-add-on/issues/1397) · _SEND fails on slow (1.5 Mega bits / second or slower) internet connections for f_
 - 2 incident(s):
   - [#10491](https://tbpro.zendesk.com/agent/tickets/10491) · [closed] · 2026-10-26 · _Bug report on Send file upload_
-  - [#11648](https://tbpro.zendesk.com/agent/tickets/11648) · [pending] · 2026-11-23 · _Large files uploaded in Send_
+  - [#11648](https://tbpro.zendesk.com/agent/tickets/11648) · [open] · 2026-11-23 · _Large files uploaded in Send_
 
 ### [#11453](https://tbpro.zendesk.com/agent/tickets/11453) · [hold] · [stormbox/260] Inline picture pastes in Webmail set centre justification
 - 🔧 GitHub: [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260) · _Inline picture pastes in Webmail set centre justification_
@@ -250,10 +250,10 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1385 tickets** so 
 
 ### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [pending] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - 6 incident(s):
-  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [solved] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
+  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
   - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [solved] · 2026-11-21 · _Sending from Thunderbird_
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
-  - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [pending] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
+  - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [solved] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
   - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [pending] · 2026-11-23 · _Cannot email Microsoft accounta_
 
@@ -370,15 +370,15 @@ _(none in last 24h)_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1195
-- **solved**: 94
-- **pending**: 70
+- **closed**: 1198
+- **solved**: 91
+- **pending**: 69
 - **hold**: 21
-- **open**: 5
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 764
+- **Account Hub**: 766
 - **Thundermail**: 503
 - **Send**: 30
 - **Appointment**: 18
@@ -473,7 +473,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - · [11455](https://tbpro.zendesk.com/agent/tickets/11455) · 2026-11-24T21:02 · Scheduled Thunderbird Outage
-- · [11530](https://tbpro.zendesk.com/agent/tickets/11530) · 2026-11-24T22:05 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
 - · [11486](https://tbpro.zendesk.com/agent/tickets/11486) · 2026-11-24T23:01 · Waitlist
 - · [11394](https://tbpro.zendesk.com/agent/tickets/11394) · 2026-11-25T16:02 · Compacting folders
 - · [10848](https://tbpro.zendesk.com/agent/tickets/10848) · 2026-11-25T16:16 · password
