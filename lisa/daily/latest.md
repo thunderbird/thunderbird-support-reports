@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 06:15 ET** · refreshes hourly_  
+_Updated: **2026-11-25 07:23 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1382 tickets** so 
 - **1382** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
 - **Median AHT**: 169.3h · mean 193.8h (proxy: updated_at − created_at, 80 solved tickets)
 
 ## Known problems — 19 problem(s), 190 incident(s)
@@ -259,7 +259,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1382 tickets** so 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
 - 5 incident(s):
-  - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [hold] · 2026-11-20 · _cannot send emails with my domain_
+  - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [open] · 2026-11-20 · _cannot send emails with my domain_
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [hold] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
   - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [hold] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
   - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [hold] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
@@ -359,8 +359,10 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Seamless integration of all thundermail features in thunderbird](https://ideas.tb.pro/p/seamless-integration-of-all-thundermail-features-in-thunderbird) · 1 votes · _Thundermail_
+  > What you’d like to see When setting up my thundermail account in thunderbird I would especially like thundermail calendar to setup automatically with it, since thunderbird already has a built-in…
 - [Upload files to "Send" with a CLI tool](https://ideas.tb.pro/p/upload-files-to-send-with-a-cli-tool) · 2 votes · _Send, New Feature_
   > Request to use a CLI tool like SFTP, SCP, or AWS S3 to upload files to Send instead of the GUI in Thunderbird or the web application.
 
@@ -369,8 +371,8 @@ _(none in last 24h)_
 - **closed**: 1192
 - **solved**: 80
 - **pending**: 58
-- **hold**: 38
-- **open**: 14
+- **hold**: 37
+- **open**: 15
 
 ## Service (cumulative)
 
