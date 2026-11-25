@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-24
 
-_Updated: **2026-11-24 22:18 ET** · refreshes hourly_  
+_Updated: **2026-11-24 23:18 ET** · refreshes hourly_  
 _24h window: 2026-11-23T16:00 → 2026-11-24T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -225,7 +225,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
 - 4 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
-  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
+  - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [pending] · 2026-11-22 · _Firefox Relay emails to spam_
   - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23 · _my relay forwarded emails keep going to junk._
 
@@ -377,9 +377,9 @@ _(none in last 24h)_
 
 - **closed**: 1192
 - **solved**: 79
-- **pending**: 59
+- **pending**: 60
 - **hold**: 39
-- **open**: 13
+- **open**: 12
 
 ## Service (cumulative)
 
