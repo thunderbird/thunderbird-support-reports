@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 04:17 ET** · refreshes hourly_  
+_Updated: **2026-11-25 05:16 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -361,7 +361,7 @@ _(none in last 24h)_
 
 **Last 24h** — 1 new:
 
-- [Upload files to "Send" with a CLI tool](https://ideas.tb.pro/p/upload-files-to-send-with-a-cli-tool) · 1 votes · _Send, New Feature_
+- [Upload files to "Send" with a CLI tool](https://ideas.tb.pro/p/upload-files-to-send-with-a-cli-tool) · 2 votes · _Send, New Feature_
   > Request to use a CLI tool like SFTP, SCP, or AWS S3 to upload files to Send instead of the GUI in Thunderbird or the web application.
 
 ## Status breakdown (cumulative)
