@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 00:16 ET** · refreshes hourly_  
+_Updated: **2026-11-25 01:25 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1382 tickets** so 
 
 ## At a glance
 
-- **1** new tickets in last 24h · **3** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **1382** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: —  (0 good / 0 bad)
 - **CSAT (since launch)**: 95%  (225 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 169.7h · mean 194.7h (proxy: updated_at − created_at, 79 solved tickets)
+- **Median AHT**: 169.3h · mean 193.8h (proxy: updated_at − created_at, 80 solved tickets)
 
 ## Known problems — 19 problem(s), 190 incident(s)
 
@@ -367,8 +367,8 @@ _(none in last 24h)_
 ## Status breakdown (cumulative)
 
 - **closed**: 1192
-- **solved**: 79
-- **pending**: 59
+- **solved**: 80
+- **pending**: 58
 - **hold**: 39
 - **open**: 13
 
@@ -459,6 +459,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11455](https://tbpro.zendesk.com/agent/tickets/11455) · 2026-11-24T21:02 · Scheduled Thunderbird Outage
 - · [11530](https://tbpro.zendesk.com/agent/tickets/11530) · 2026-11-24T22:05 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
 - · [11486](https://tbpro.zendesk.com/agent/tickets/11486) · 2026-11-24T23:01 · Waitlist
+- · [11490](https://tbpro.zendesk.com/agent/tickets/11490) · 2026-11-25T06:01 · Send email not working 
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
