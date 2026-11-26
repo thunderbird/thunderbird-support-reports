@@ -1,20 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 07:22 ET** · refreshes hourly_  
+_Updated: **2026-11-26 08:16 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1391 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1392 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **6** solved in last 24h
-- **1391** tickets total since launch · contact rate **4%** of 35000 invitees
+- **8** new tickets in last 24h · **6** solved in last 24h
+- **1392** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 160.7h · mean 191.0h (proxy: updated_at − created_at, 91 solved tickets)
+
+## 🔎 Emerging patterns to investigate
+
+_Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
+
+- **"custom domains"** — 2 tickets in 24h (3.5× baseline; baseline 62 cum) — [#11788](https://tbpro.zendesk.com/agent/tickets/11788), [#11803](https://tbpro.zendesk.com/agent/tickets/11803)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -355,9 +361,10 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 0
+## Refund & cancellation tickets (last 24h) — 1
 
-_(none in last 24h)_
+- [11803](https://tbpro.zendesk.com/agent/tickets/11803) · [new] · _Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds_
+  > Hello [name] team, I have an Early Bird invitation (sent to [email] on 2026-08-18) and I'm considering Thundermail as my main mail service, replacing my own mail server. I haven't subscribed yet. Before I commit to an…
 
 ## New ideas on FeatureOS
 
@@ -372,12 +379,12 @@ _(none in last 24h)_
 - **pending**: 60
 - **hold**: 21
 - **open**: 17
-- **new**: 4
+- **new**: 5
 
 ## Service (cumulative)
 
 - **Account Hub**: 768
-- **Thundermail**: 505
+- **Thundermail**: 506
 - **Send**: 30
 - **Appointment**: 18
 
@@ -447,6 +454,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#11803](https://tbpro.zendesk.com/agent/tickets/11803)** · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
+  > Hello [name] team, I have an Early Bird invitation (sent to [email] on 2026-08-18) and I'm considering Thundermail as my main mail service, replacing my own mail server. I haven't…
+- **[#11788](https://tbpro.zendesk.com/agent/tickets/11788)** · Custom Domain DNS Records
+  > Hi guys, Given we're still in early access here it seems like a good chance to review. Why is the default DMARC setting custom domains p=none, not at least p=quarantine. I've set…
+
 ### Other / uncategorized — 2 tickets
 
 - **[#11778](https://tbpro.zendesk.com/agent/tickets/11778)** · Changement de téléphone 
@@ -458,11 +472,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11798](https://tbpro.zendesk.com/agent/tickets/11798)** · Inundaed by emails
   > Hi there, I'm encountering a serious problem with my Thundermail account and Thunderbird. To my surprise I don't see any mention of this problem anywhere, so let me explain. My…
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#11788](https://tbpro.zendesk.com/agent/tickets/11788)** · Custom Domain DNS Records
-  > Hi guys, Given we're still in early access here it seems like a good chance to review. Why is the default DMARC setting custom domains p=none, not at least p=quarantine. I've set…
 
 ### Subscription / billing / refund / cancel — 1 tickets
 
@@ -488,6 +497,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11778](https://tbpro.zendesk.com/agent/tickets/11778) · [new] · 2026-11-26T08:12 · Changement de téléphone 
 - [11788](https://tbpro.zendesk.com/agent/tickets/11788) · [new] · 2026-11-26T10:18 · Custom Domain DNS Records
 - [11798](https://tbpro.zendesk.com/agent/tickets/11798) · [new] · 2026-11-26T12:13 · Inundaed by emails
+- [11803](https://tbpro.zendesk.com/agent/tickets/11803) · [new] · 2026-11-26T12:56 · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
 
 ## Solved — last 24h
 
