@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 20:17 ET** · refreshes hourly_  
+_Updated: **2026-11-25 21:20 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 108** of rollout — **35,000 invitees**, **1387 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 108** of rollout — **35,000 invitees**, **1388 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
 - **3** new tickets in last 24h · **18** solved in last 24h
-- **1387** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1388** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
@@ -255,7 +255,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1387 tickets** so 
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [solved] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
-  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [pending] · 2026-11-23 · _Cannot email Microsoft accounta_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [pending] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
@@ -372,13 +372,14 @@ _(none in last 24h)_
 
 - **closed**: 1198
 - **solved**: 91
-- **pending**: 68
+- **pending**: 66
 - **hold**: 21
-- **open**: 9
+- **open**: 11
+- **new**: 1
 
 ## Service (cumulative)
 
-- **Account Hub**: 766
+- **Account Hub**: 767
 - **Thundermail**: 503
 - **Send**: 30
 - **Appointment**: 18
