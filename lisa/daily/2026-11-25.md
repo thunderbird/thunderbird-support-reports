@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-25
 
-_Updated: **2026-11-25 21:20 ET** · refreshes hourly_  
+_Updated: **2026-11-25 22:17 ET** · refreshes hourly_  
 _24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -262,7 +262,7 @@ Flight 8 is **day 108** of rollout — **35,000 invitees**, **1388 tickets** so 
 - 5 incident(s):
   - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20 · _cannot send emails with my domain_
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [pending] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
-  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [pending] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
+  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [open] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
   - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [pending] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
   - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
@@ -372,9 +372,9 @@ _(none in last 24h)_
 
 - **closed**: 1198
 - **solved**: 91
-- **pending**: 66
+- **pending**: 65
 - **hold**: 21
-- **open**: 11
+- **open**: 12
 - **new**: 1
 
 ## Service (cumulative)
