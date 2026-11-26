@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 17:14 ET** · refreshes hourly_  
+_Updated: **2026-11-26 18:14 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 109** of rollout — **35,000 invitees**, **1401 tickets** so 
 
 ## At a glance
 
-- **16** new tickets in last 24h · **10** solved in last 24h
+- **16** new tickets in last 24h · **9** solved in last 24h
 - **1401** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (227 good / 12 bad)
+- **CSAT (since launch)**: 95%  (228 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 141.5h · mean 175.4h (proxy: updated_at − created_at, 73 solved tickets)
+- **Median AHT**: 141.0h · mean 178.2h (proxy: updated_at − created_at, 68 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -175,7 +175,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [closed] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [closed] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [closed] · 2026-11-14 · _cancelation subscribe within 14 days_
-  - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [solved] · 2026-11-14 · _Refund_
+  - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [closed] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [solved] · 2026-11-15 · _Cancellation And Refund_
   - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [solved] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
   - [#11572](https://tbpro.zendesk.com/agent/tickets/11572) · [pending] · 2026-11-22 · _Account cancellation and refund_
@@ -377,11 +377,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1220
-- **solved**: 73
+- **closed**: 1224
+- **solved**: 68
 - **pending**: 56
 - **hold**: 26
-- **open**: 14
+- **open**: 15
 - **new**: 12
 
 ## Service (cumulative)
@@ -538,7 +538,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11492](https://tbpro.zendesk.com/agent/tickets/11492) · 2026-11-25T21:06 · Name from Email
 - · [11494](https://tbpro.zendesk.com/agent/tickets/11494) · 2026-11-25T21:06 · Unable to change password on iPhone 
 - 👍 [11533](https://tbpro.zendesk.com/agent/tickets/11533) · 2026-11-25T21:40 · Refund
-- · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-25T22:32 · "Email address does not exist", does exist, sent me an email (I am replying)
 - · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-26T17:49 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
 - · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-26T17:51 · Cannot email Microsoft accounta
 - · [11682](https://tbpro.zendesk.com/agent/tickets/11682) · 2026-11-26T19:01 · "You are not allowed to send from this address" + Catch-All Aliases Vanished
