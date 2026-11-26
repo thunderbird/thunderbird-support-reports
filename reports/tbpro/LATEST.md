@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 06:15 ET** · refreshes hourly_  
+_Updated: **2026-11-26 07:22 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1390 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1391 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **6** solved in last 24h
-- **1390** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **6** solved in last 24h
+- **1391** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -369,14 +369,14 @@ _(none in last 24h)_
 
 - **closed**: 1198
 - **solved**: 91
-- **pending**: 62
+- **pending**: 60
 - **hold**: 21
-- **open**: 15
-- **new**: 3
+- **open**: 17
+- **new**: 4
 
 ## Service (cumulative)
 
-- **Account Hub**: 767
+- **Account Hub**: 768
 - **Thundermail**: 505
 - **Send**: 30
 - **Appointment**: 18
@@ -454,6 +454,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email
   > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
 
+### App setup / configuration — 1 tickets
+
+- **[#11798](https://tbpro.zendesk.com/agent/tickets/11798)** · Inundaed by emails
+  > Hi there, I'm encountering a serious problem with my Thundermail account and Thunderbird. To my surprise I don't see any mention of this problem anywhere, so let me explain. My…
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#11788](https://tbpro.zendesk.com/agent/tickets/11788)** · Custom Domain DNS Records
@@ -482,6 +487,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11765](https://tbpro.zendesk.com/agent/tickets/11765) · [new] · 2026-11-26T02:01 · high payment
 - [11778](https://tbpro.zendesk.com/agent/tickets/11778) · [new] · 2026-11-26T08:12 · Changement de téléphone 
 - [11788](https://tbpro.zendesk.com/agent/tickets/11788) · [new] · 2026-11-26T10:18 · Custom Domain DNS Records
+- [11798](https://tbpro.zendesk.com/agent/tickets/11798) · [new] · 2026-11-26T12:13 · Inundaed by emails
 
 ## Solved — last 24h
 
