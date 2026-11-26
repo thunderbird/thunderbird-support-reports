@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 08:16 ET** · refreshes hourly_  
+_Updated: **2026-11-26 09:16 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1392 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1393 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **6** solved in last 24h
-- **1392** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **6** solved in last 24h
+- **1393** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -376,15 +376,15 @@ Henning Gerken_
 
 - **closed**: 1198
 - **solved**: 91
-- **pending**: 60
+- **pending**: 59
 - **hold**: 21
-- **open**: 17
-- **new**: 5
+- **open**: 18
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 768
-- **Thundermail**: 506
+- **Thundermail**: 507
 - **Send**: 30
 - **Appointment**: 18
 
@@ -468,6 +468,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email
   > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
 
+### Aliases — 1 tickets
+
+- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
+  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
+
 ### App setup / configuration — 1 tickets
 
 - **[#11798](https://tbpro.zendesk.com/agent/tickets/11798)** · Inundaed by emails
@@ -498,6 +503,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11788](https://tbpro.zendesk.com/agent/tickets/11788) · [new] · 2026-11-26T10:18 · Custom Domain DNS Records
 - [11798](https://tbpro.zendesk.com/agent/tickets/11798) · [new] · 2026-11-26T12:13 · Inundaed by emails
 - [11803](https://tbpro.zendesk.com/agent/tickets/11803) · [new] · 2026-11-26T12:56 · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
+- [11806](https://tbpro.zendesk.com/agent/tickets/11806) · [new] · 2026-11-26T13:36 · TLS handshake failure when sending to acewell.jp
 
 ## Solved — last 24h
 
