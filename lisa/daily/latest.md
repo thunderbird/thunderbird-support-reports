@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-11-25
+# Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-25 23:18 ET** · refreshes hourly_  
-_24h window: 2026-11-24T16:00 → 2026-11-25T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-26 00:15 ET** · refreshes hourly_  
+_24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 108** of rollout — **35,000 invitees**, **1388 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1388 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **3** new tickets in last 24h · **18** solved in last 24h
+- **4** new tickets in last 24h · **6** solved in last 24h
 - **1388** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 160.7h · mean 191.0h (proxy: updated_at − created_at, 91 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
@@ -361,12 +361,9 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Seamless integration of all thundermail features in thunderbird](https://ideas.tb.pro/p/seamless-integration-of-all-thundermail-features-in-thunderbird) · 1 votes · _Thundermail_
-  > What you’d like to see When setting up my thundermail account in thunderbird I would especially like thundermail calendar to setup automatically with it, since thunderbird already has a built-in…
-- [Upload files to "Send" with a CLI tool](https://ideas.tb.pro/p/upload-files-to-send-with-a-cli-tool) · 2 votes · _Send, New Feature_
-  > Request to use a CLI tool like SFTP, SCP, or AWS S3 to upload files to Send instead of the GUI in Thunderbird or the web application.
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -450,47 +447,41 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### App setup / configuration — 1 tickets
+### Subscription / billing / refund / cancel — 1 tickets
 
-- **[#11751](https://tbpro.zendesk.com/agent/tickets/11751)** · Feedback - Saving Contacts — why: **blocked** · how: **investigated**
-  > Got my Thundermail Account today. Went to setup my first ‘contact’. While I could set it up, it took a good 60 - 90 seconds before the contact showed up under the list of contacts…
+- **[#11765](https://tbpro.zendesk.com/agent/tickets/11765)** · high payment
+  > i was looking forward on low monthly payments
 
 ### Other / uncategorized — 1 tickets
 
-- **[#11733](https://tbpro.zendesk.com/agent/tickets/11733)** · Uploads schlagen in Thunderbird und Firefox fehl — why: **blocked** · how: **investigated**
-  > Ich versuche, Dateien mit Send zu verschicken. In Thunderbird erhalte ich nach Auswahl der Datei, Anhang umwandeln in Send, und der Einstellung von Passwort und Gültigkeitsdauer…
+- **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email
+  > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
 
-### Email migration / import — 1 tickets
+### Appointment / calendar — 1 tickets
 
-- **[#11683](https://tbpro.zendesk.com/agent/tickets/11683)** · Migrate 10GB of archived email into my account — why: **curious** · how: **informed**
-  > Hello, BIG Mozilla fan here. Product looks pretty good so far. I don't plan on using the webmail interface, just Thunderbird & Thunderbird Android. I need to migrate 10GB of…
+- **[#11759](https://tbpro.zendesk.com/agent/tickets/11759)** · Calendar Services
+  > Is there any way to open my T-bird calendar in a separate window or tab?
+
+### Account access issues — Account Hub trouble — 1 tickets
+
+- **[#11758](https://tbpro.zendesk.com/agent/tickets/11758)** · inloggen weigerd — why: **confused** · how: **redirected**
+  > kan niet inloggen
 
 ## New tickets — last 24h
 
-- [11683](https://tbpro.zendesk.com/agent/tickets/11683) · [solved] · 2026-11-24T21:56 · Migrate 10GB of archived email into my account
-- [11733](https://tbpro.zendesk.com/agent/tickets/11733) · [pending] · 2026-11-25T13:45 · Uploads schlagen in Thunderbird und Firefox fehl
-- [11751](https://tbpro.zendesk.com/agent/tickets/11751) · [pending] · 2026-11-25T17:25 · Feedback - Saving Contacts
+- [11758](https://tbpro.zendesk.com/agent/tickets/11758) · [pending] · 2026-11-25T21:44 · inloggen weigerd
+- [11759](https://tbpro.zendesk.com/agent/tickets/11759) · [open] · 2026-11-25T22:22 · Calendar Services
+- [11760](https://tbpro.zendesk.com/agent/tickets/11760) · [open] · 2026-11-25T23:08 · Account name and primary email
+- [11765](https://tbpro.zendesk.com/agent/tickets/11765) · [new] · 2026-11-26T02:01 · high payment
 
 ## Solved — last 24h
 
-- · [11455](https://tbpro.zendesk.com/agent/tickets/11455) · 2026-11-24T21:02 · Scheduled Thunderbird Outage
-- · [11486](https://tbpro.zendesk.com/agent/tickets/11486) · 2026-11-24T23:01 · Waitlist
-- · [11394](https://tbpro.zendesk.com/agent/tickets/11394) · 2026-11-25T16:02 · Compacting folders
-- · [10848](https://tbpro.zendesk.com/agent/tickets/10848) · 2026-11-25T16:16 · password
-- · [11303](https://tbpro.zendesk.com/agent/tickets/11303) · 2026-11-25T16:58 · ログイン出来ない
-- · [11299](https://tbpro.zendesk.com/agent/tickets/11299) · 2026-11-25T17:06 · login credentials please 
-- · [11459](https://tbpro.zendesk.com/agent/tickets/11459) · 2026-11-25T18:15 · Mildly urgent issue/suggestion
-- · [11499](https://tbpro.zendesk.com/agent/tickets/11499) · 2026-11-25T19:02 · trouver mon mot de passe
-- · [11489](https://tbpro.zendesk.com/agent/tickets/11489) · 2026-11-25T19:02 · アカウント削除
-- · [11415](https://tbpro.zendesk.com/agent/tickets/11415) · 2026-11-25T19:03 · password rest
-- · [11447](https://tbpro.zendesk.com/agent/tickets/11447) · 2026-11-25T19:25 · OAUTH is broken on Firefox
-- · [11551](https://tbpro.zendesk.com/agent/tickets/11551) · 2026-11-25T19:26 · Sending from Thunderbird
-- · [11682](https://tbpro.zendesk.com/agent/tickets/11682) · 2026-11-25T19:27 · "You are not allowed to send from this address" + Catch-All Aliases Vanished
-- · [11510](https://tbpro.zendesk.com/agent/tickets/11510) · 2026-11-25T19:52 · App password is ridiculous along with the process and thundermail system and documentation
-- · [11508](https://tbpro.zendesk.com/agent/tickets/11508) · 2026-11-25T20:04 · IOS mail app not connecting to Thunderbird (Yes, I reset the app password per your update)
-- · [11504](https://tbpro.zendesk.com/agent/tickets/11504) · 2026-11-25T20:08 · URGENT: I am locked out of my thundermail account 
-- · [11507](https://tbpro.zendesk.com/agent/tickets/11507) · 2026-11-25T20:44 · Custom domain question
-- · [11683](https://tbpro.zendesk.com/agent/tickets/11683) · 2026-11-25T20:55 · Migrate 10GB of archived email into my account
+- · [11559](https://tbpro.zendesk.com/agent/tickets/11559) · 2026-11-25T21:01 · Email verification
+- · [11492](https://tbpro.zendesk.com/agent/tickets/11492) · 2026-11-25T21:06 · Name from Email
+- · [11494](https://tbpro.zendesk.com/agent/tickets/11494) · 2026-11-25T21:06 · Unable to change password on iPhone 
+- · [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-25T21:29 · Cannot create catch all alias for my custom domain.
+- 👍 [11533](https://tbpro.zendesk.com/agent/tickets/11533) · 2026-11-25T21:40 · Refund
+- · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-25T22:32 · "Email address does not exist", does exist, sent me an email (I am replying)
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
