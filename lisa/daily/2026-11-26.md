@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 09:16 ET** · refreshes hourly_  
+_Updated: **2026-11-26 10:15 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1393 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1394 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **6** solved in last 24h
-- **1393** tickets total since launch · contact rate **4%** of 35000 invitees
+- **10** new tickets in last 24h · **6** solved in last 24h
+- **1394** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 160.7h · mean 191.0h (proxy: updated_at − created_at, 91 solved tickets)
+- **Median AHT**: 160.1h · mean 191.0h (proxy: updated_at − created_at, 90 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -254,7 +254,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 - 1 incident(s):
   - [#11039](https://tbpro.zendesk.com/agent/tickets/11039) · [pending] · 2026-11-10 · _Missing features and questions_
 
-### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [pending] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
+### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - 6 incident(s):
   - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
   - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [solved] · 2026-11-21 · _Sending from Thunderbird_
@@ -263,7 +263,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
   - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
 
-### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [pending] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
+### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
 - 5 incident(s):
   - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20 · _cannot send emails with my domain_
@@ -272,7 +272,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [open] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
   - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
-### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [pending] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
+### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) · _Stalwart Upgrade: Adding catch-all fails_
 - 10 incident(s):
   - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [pending] · 2026-11-20 · _can't add my main email address_
@@ -374,17 +374,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1198
-- **solved**: 91
-- **pending**: 59
-- **hold**: 21
+- **closed**: 1199
+- **solved**: 90
+- **pending**: 56
+- **hold**: 24
 - **open**: 18
-- **new**: 6
+- **new**: 7
 
 ## Service (cumulative)
 
 - **Account Hub**: 768
-- **Thundermail**: 507
+- **Thundermail**: 508
 - **Send**: 30
 - **Appointment**: 18
 
@@ -454,6 +454,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 2 tickets
+
+- **[#11811](https://tbpro.zendesk.com/agent/tickets/11811)** · DNS Verification
+  > Fix DNS entry confusion Domain: [domain] Attempting to establish email aliases for my domain [domain] in thundermail. My DNS was held by enomcentral for decades In 2016 they…
+- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
+  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
+
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#11803](https://tbpro.zendesk.com/agent/tickets/11803)** · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
@@ -467,11 +474,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Bonjour, j'avais cette application V25.0 sur mon Galaxy A34, je vient de passer au S23+ et je ne peux plus m'y connecter. Merci de votre aide. Cordialement
 - **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email
   > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
-
-### Aliases — 1 tickets
-
-- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
-  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
 
 ### App setup / configuration — 1 tickets
 
@@ -504,6 +506,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11798](https://tbpro.zendesk.com/agent/tickets/11798) · [new] · 2026-11-26T12:13 · Inundaed by emails
 - [11803](https://tbpro.zendesk.com/agent/tickets/11803) · [new] · 2026-11-26T12:56 · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
 - [11806](https://tbpro.zendesk.com/agent/tickets/11806) · [new] · 2026-11-26T13:36 · TLS handshake failure when sending to acewell.jp
+- [11811](https://tbpro.zendesk.com/agent/tickets/11811) · [new] · 2026-11-26T14:25 · DNS Verification
 
 ## Solved — last 24h
 
