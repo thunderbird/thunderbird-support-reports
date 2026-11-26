@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 16:20 ET** · refreshes hourly_  
+_Updated: **2026-11-26 17:14 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 109** of rollout — **35,000 invitees**, **1401 tickets** so 
 
 ## At a glance
 
-- **16** new tickets in last 24h · **11** solved in last 24h
+- **16** new tickets in last 24h · **10** solved in last 24h
 - **1401** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 142.9h · mean 174.9h (proxy: updated_at − created_at, 74 solved tickets)
+- **Median AHT**: 141.5h · mean 175.4h (proxy: updated_at − created_at, 73 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -257,7 +257,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
 
 ### [#11626](https://tbpro.zendesk.com/agent/tickets/11626) · [hold] · [Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook and Yahoo
 - 6 incident(s):
-  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [open] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
+  - [#11530](https://tbpro.zendesk.com/agent/tickets/11530) · [solved] · 2026-11-20 · _Re: [Thundermail] Re: Access through a Bookmark in FIREFOX_
   - [#11551](https://tbpro.zendesk.com/agent/tickets/11551) · [solved] · 2026-11-21 · _Sending from Thunderbird_
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [solved] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
@@ -377,9 +377,9 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1218
-- **solved**: 74
-- **pending**: 57
+- **closed**: 1220
+- **solved**: 73
+- **pending**: 56
 - **hold**: 26
 - **open**: 14
 - **new**: 12
@@ -461,10 +461,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11840](https://tbpro.zendesk.com/agent/tickets/11840)** · Custom domain for outgoing email only
   > Hello, I would like to use Thundermail to send emails from my custom domain, agilehair.it, while keeping my existing email provider for incoming mail. I have successfully…
-- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
-  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
 - **[#11811](https://tbpro.zendesk.com/agent/tickets/11811)** · DNS Verification — why: **confused** · how: **explained**
   > Fix DNS entry confusion Domain: [domain] Attempting to establish email aliases for my domain [domain] in thundermail. My DNS was held by enomcentral for decades In 2016 they…
+- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
+  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
 - **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email — why: **curious** · how: **explained**
   > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
 
@@ -524,7 +524,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11798](https://tbpro.zendesk.com/agent/tickets/11798) · [new] · 2026-11-26T12:13 · Inundaed by emails
 - [11803](https://tbpro.zendesk.com/agent/tickets/11803) · [new] · 2026-11-26T12:56 · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
 - [11806](https://tbpro.zendesk.com/agent/tickets/11806) · [new] · 2026-11-26T13:36 · TLS handshake failure when sending to acewell.jp
-- [11811](https://tbpro.zendesk.com/agent/tickets/11811) · [pending] · 2026-11-26T14:25 · DNS Verification
+- [11811](https://tbpro.zendesk.com/agent/tickets/11811) · [open] · 2026-11-26T14:25 · DNS Verification
 - [11820](https://tbpro.zendesk.com/agent/tickets/11820) · [new] · 2026-11-26T15:19 · Plus addressing
 - [11821](https://tbpro.zendesk.com/agent/tickets/11821) · [new] · 2026-11-26T15:23 · Signing in
 - [11824](https://tbpro.zendesk.com/agent/tickets/11824) · [new] · 2026-11-26T15:39 · Cancel Subscription
@@ -537,7 +537,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11559](https://tbpro.zendesk.com/agent/tickets/11559) · 2026-11-25T21:01 · Email verification
 - · [11492](https://tbpro.zendesk.com/agent/tickets/11492) · 2026-11-25T21:06 · Name from Email
 - · [11494](https://tbpro.zendesk.com/agent/tickets/11494) · 2026-11-25T21:06 · Unable to change password on iPhone 
-- · [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-25T21:29 · Cannot create catch all alias for my custom domain.
 - 👍 [11533](https://tbpro.zendesk.com/agent/tickets/11533) · 2026-11-25T21:40 · Refund
 - · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-25T22:32 · "Email address does not exist", does exist, sent me an email (I am replying)
 - · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-26T17:49 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
