@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 13:20 ET** · refreshes hourly_  
+_Updated: **2026-11-26 14:13 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1397 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1398 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **13** new tickets in last 24h · **8** solved in last 24h
-- **1397** tickets total since launch · contact rate **4%** of 35000 invitees
+- **14** new tickets in last 24h · **11** solved in last 24h
+- **1398** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 145.3h · mean 179.4h (proxy: updated_at − created_at, 83 solved tickets)
+- **Median AHT**: 145.2h · mean 178.1h (proxy: updated_at − created_at, 84 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -269,7 +269,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20 · _cannot send emails with my domain_
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [pending] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
   - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [solved] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
-  - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [open] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
+  - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [hold] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
   - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
 ### [#11632](https://tbpro.zendesk.com/agent/tickets/11632) · [hold] · [thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all
@@ -377,18 +377,18 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1208
-- **solved**: 83
-- **pending**: 55
-- **hold**: 24
-- **open**: 17
-- **new**: 10
+- **solved**: 84
+- **pending**: 56
+- **hold**: 26
+- **open**: 15
+- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 769
-- **Thundermail**: 510
+- **Account Hub**: 768
+- **Thundermail**: 511
 - **Send**: 30
-- **Appointment**: 18
+- **Appointment**: 19
 
 ## Why × How (cumulative)
 
@@ -397,7 +397,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **curious** + **explained**: 256
 - **change request** + **actioned**: 190
 - **blocked** + **explained**: 130
-- **confused** + **explained**: 112
+- **confused** + **explained**: 113
 - **curious** + **informed**: 72
 - **confused** + **redirected**: 70
 - **confused** + **informed**: 66
@@ -407,7 +407,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **escalated**: 45
 - **concerned** + **explained**: 35
 - **blocked** + **informed**: 29
-- **confused** + **—**: 16
+- **confused** + **—**: 17
 - **change request** + **explained**: 14
 - **blocked** + **—**: 13
 - **concerned** + **—**: 12
@@ -434,6 +434,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **concerned** + **redirected**: 3
 - **telling us** + **—**: 3
 - **curious** + **redirected**: 3
+- **confused** + **n/a**: 3
 - **confused** + **escalated**: 2
 - **praise** + **n/a**: 2
 - **request** + **escalated**: 2
@@ -442,7 +443,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **telling us** + **escalated**: 2
 - **blocked** + **n/a**: 2
 - **concerned** + **n/a**: 2
-- **confused** + **n/a**: 2
 - **change request** + **—**: 2
 - **telling us** + **informed**: 1
 - **request** + **—**: 1
@@ -456,8 +456,10 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Other / uncategorized — 3 tickets
+### Other / uncategorized — 4 tickets
 
+- **[#11833](https://tbpro.zendesk.com/agent/tickets/11833)** · パスワードの件
+  > パスワードがわからない
 - **[#11820](https://tbpro.zendesk.com/agent/tickets/11820)** · Plus addressing
   > Will Thundermail continue to support plus addressing/sub-addressing? Currently, I believe this works: Emails sent to “[email]” will be forwarded to my address “[email]”.
 - **[#11778](https://tbpro.zendesk.com/agent/tickets/11778)** · Changement de téléphone 
@@ -474,16 +476,16 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Aliases — 2 tickets
 
-- **[#11811](https://tbpro.zendesk.com/agent/tickets/11811)** · DNS Verification
-  > Fix DNS entry confusion Domain: [domain] Attempting to establish email aliases for my domain [domain] in thundermail. My DNS was held by enomcentral for decades In 2016 they…
 - **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
   > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
+- **[#11811](https://tbpro.zendesk.com/agent/tickets/11811)** · DNS Verification — why: **confused** · how: **explained**
+  > Fix DNS entry confusion Domain: [domain] Attempting to establish email aliases for my domain [domain] in thundermail. My DNS was held by enomcentral for decades In 2016 they…
 
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#11803](https://tbpro.zendesk.com/agent/tickets/11803)** · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
   > Hello [name] team, I have an Early Bird invitation (sent to [email] on 2026-08-18) and I'm considering Thundermail as my main mail service, replacing my own mail server. I haven't…
-- **[#11788](https://tbpro.zendesk.com/agent/tickets/11788)** · Custom Domain DNS Records
+- **[#11788](https://tbpro.zendesk.com/agent/tickets/11788)** · Custom Domain DNS Records — why: **confused**
   > Hi guys, Given we're still in early access here it seems like a good chance to review. Why is the default DMARC setting custom domains p=none, not at least p=quarantine. I've set…
 
 ### Email Protocols (IMAP/SMTP/POP) — 1 tickets
@@ -498,7 +500,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Appointment / calendar — 1 tickets
 
-- **[#11759](https://tbpro.zendesk.com/agent/tickets/11759)** · Calendar Services
+- **[#11759](https://tbpro.zendesk.com/agent/tickets/11759)** · Calendar Services — why: **confused** · how: **n/a**
   > Is there any way to open my T-bird calendar in a separate window or tab?
 
 ### Account access issues — Account Hub trouble — 1 tickets
@@ -509,18 +511,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [11758](https://tbpro.zendesk.com/agent/tickets/11758) · [pending] · 2026-11-25T21:44 · inloggen weigerd
-- [11759](https://tbpro.zendesk.com/agent/tickets/11759) · [open] · 2026-11-25T22:22 · Calendar Services
+- [11759](https://tbpro.zendesk.com/agent/tickets/11759) · [solved] · 2026-11-25T22:22 · Calendar Services
 - [11760](https://tbpro.zendesk.com/agent/tickets/11760) · [open] · 2026-11-25T23:08 · Account name and primary email
 - [11765](https://tbpro.zendesk.com/agent/tickets/11765) · [new] · 2026-11-26T02:01 · high payment
 - [11778](https://tbpro.zendesk.com/agent/tickets/11778) · [new] · 2026-11-26T08:12 · Changement de téléphone 
-- [11788](https://tbpro.zendesk.com/agent/tickets/11788) · [new] · 2026-11-26T10:18 · Custom Domain DNS Records
+- [11788](https://tbpro.zendesk.com/agent/tickets/11788) · [hold] · 2026-11-26T10:18 · Custom Domain DNS Records
 - [11798](https://tbpro.zendesk.com/agent/tickets/11798) · [new] · 2026-11-26T12:13 · Inundaed by emails
 - [11803](https://tbpro.zendesk.com/agent/tickets/11803) · [new] · 2026-11-26T12:56 · Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds
 - [11806](https://tbpro.zendesk.com/agent/tickets/11806) · [new] · 2026-11-26T13:36 · TLS handshake failure when sending to acewell.jp
-- [11811](https://tbpro.zendesk.com/agent/tickets/11811) · [new] · 2026-11-26T14:25 · DNS Verification
+- [11811](https://tbpro.zendesk.com/agent/tickets/11811) · [pending] · 2026-11-26T14:25 · DNS Verification
 - [11820](https://tbpro.zendesk.com/agent/tickets/11820) · [new] · 2026-11-26T15:19 · Plus addressing
 - [11821](https://tbpro.zendesk.com/agent/tickets/11821) · [new] · 2026-11-26T15:23 · Signing in
 - [11824](https://tbpro.zendesk.com/agent/tickets/11824) · [new] · 2026-11-26T15:39 · Cancel Subscription
+- [11833](https://tbpro.zendesk.com/agent/tickets/11833) · [new] · 2026-11-26T19:07 · パスワードの件
 
 ## Solved — last 24h
 
@@ -532,6 +535,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-25T22:32 · "Email address does not exist", does exist, sent me an email (I am replying)
 - · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-26T17:49 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
 - · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-26T17:51 · Cannot email Microsoft accounta
+- · [11682](https://tbpro.zendesk.com/agent/tickets/11682) · 2026-11-26T19:01 · "You are not allowed to send from this address" + Catch-All Aliases Vanished
+- · [11551](https://tbpro.zendesk.com/agent/tickets/11551) · 2026-11-26T19:01 · Sending from Thunderbird
+- · [11759](https://tbpro.zendesk.com/agent/tickets/11759) · 2026-11-26T19:02 · Calendar Services
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
