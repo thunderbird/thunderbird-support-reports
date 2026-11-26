@@ -1,25 +1,26 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 15:17 ET** · refreshes hourly_  
+_Updated: **2026-11-26 16:20 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1399 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1401 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **15** new tickets in last 24h · **11** solved in last 24h
-- **1399** tickets total since launch · contact rate **4%** of 35000 invitees
+- **16** new tickets in last 24h · **11** solved in last 24h
+- **1401** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 144.4h · mean 175.3h (proxy: updated_at − created_at, 81 solved tickets)
+- **Median AHT**: 142.9h · mean 174.9h (proxy: updated_at − created_at, 74 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
 _Phrases appearing in 24h tickets at significantly above-baseline rates. If a row points at multiple new tickets and the phrase doesn't match an existing known problem, it's a candidate for a new one._
 
+- **"best regards"** — 2 tickets in 24h (4.2× baseline; baseline 51 cum) — [#11803](https://tbpro.zendesk.com/agent/tickets/11803), [#11840](https://tbpro.zendesk.com/agent/tickets/11840)
 - **"custom domains"** — 2 tickets in 24h (3.5× baseline; baseline 62 cum) — [#11788](https://tbpro.zendesk.com/agent/tickets/11788), [#11803](https://tbpro.zendesk.com/agent/tickets/11803)
 
 ## Known problems — 19 problem(s), 191 incident(s)
@@ -173,7 +174,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [closed] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [closed] · 2026-11-13 · _I want to delete my account_
   - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [closed] · 2026-11-14 · _Kontolöschung_
-  - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [solved] · 2026-11-14 · _cancelation subscribe within 14 days_
+  - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [closed] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [solved] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [solved] · 2026-11-15 · _Cancellation And Refund_
   - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [solved] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
@@ -376,17 +377,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1211
-- **solved**: 81
+- **closed**: 1218
+- **solved**: 74
 - **pending**: 57
 - **hold**: 26
 - **open**: 14
-- **new**: 10
+- **new**: 12
 
 ## Service (cumulative)
 
 - **Account Hub**: 768
-- **Thundermail**: 512
+- **Thundermail**: 514
 - **Send**: 30
 - **Appointment**: 19
 
@@ -456,6 +457,17 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Aliases — 4 tickets
+
+- **[#11840](https://tbpro.zendesk.com/agent/tickets/11840)** · Custom domain for outgoing email only
+  > Hello, I would like to use Thundermail to send emails from my custom domain, agilehair.it, while keeping my existing email provider for incoming mail. I have successfully…
+- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
+  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
+- **[#11811](https://tbpro.zendesk.com/agent/tickets/11811)** · DNS Verification — why: **confused** · how: **explained**
+  > Fix DNS entry confusion Domain: [domain] Attempting to establish email aliases for my domain [domain] in thundermail. My DNS was held by enomcentral for decades In 2016 they…
+- **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email — why: **curious** · how: **explained**
+  > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
+
 ### Other / uncategorized — 4 tickets
 
 - **[#11839](https://tbpro.zendesk.com/agent/tickets/11839)** · Einloggen in Thunderbird nicht möglich
@@ -466,15 +478,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
   > Will Thundermail continue to support plus addressing/sub-addressing? Currently, I believe this works: Emails sent to “[email]” will be forwarded to my address “[email]”.
 - **[#11778](https://tbpro.zendesk.com/agent/tickets/11778)** · Changement de téléphone 
   > Bonjour, j'avais cette application V25.0 sur mon Galaxy A34, je vient de passer au S23+ et je ne peux plus m'y connecter. Merci de votre aide. Cordialement
-
-### Aliases — 3 tickets
-
-- **[#11806](https://tbpro.zendesk.com/agent/tickets/11806)** · TLS handshake failure when sending to acewell.jp
-  > Hello, Mail sent from my alias [email] (an alias on this account) to [email] (hosted by Sakura Internet, Japan) is not being delivered. I received this delay notice: "TLS error…
-- **[#11811](https://tbpro.zendesk.com/agent/tickets/11811)** · DNS Verification — why: **confused** · how: **explained**
-  > Fix DNS entry confusion Domain: [domain] Attempting to establish email aliases for my domain [domain] in thundermail. My DNS was held by enomcentral for decades In 2016 they…
-- **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email — why: **curious** · how: **explained**
-  > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
 
 ### Subscription / billing / refund / cancel — 2 tickets
 
@@ -527,6 +530,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11824](https://tbpro.zendesk.com/agent/tickets/11824) · [new] · 2026-11-26T15:39 · Cancel Subscription
 - [11833](https://tbpro.zendesk.com/agent/tickets/11833) · [new] · 2026-11-26T19:07 · パスワードの件
 - [11839](https://tbpro.zendesk.com/agent/tickets/11839) · [new] · 2026-11-26T20:12 · Einloggen in Thunderbird nicht möglich
+- [11840](https://tbpro.zendesk.com/agent/tickets/11840) · [new] · 2026-11-26T20:30 · Custom domain for outgoing email only
 
 ## Solved — last 24h
 
