@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 12:15 ET** · refreshes hourly_  
+_Updated: **2026-11-26 13:20 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 109** of rollout — **35,000 invitees**, **1397 tickets** so 
 
 ## At a glance
 
-- **13** new tickets in last 24h · **6** solved in last 24h
+- **13** new tickets in last 24h · **8** solved in last 24h
 - **1397** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 148.6h · mean 181.5h (proxy: updated_at − created_at, 82 solved tickets)
+- **Median AHT**: 145.3h · mean 179.4h (proxy: updated_at − created_at, 83 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -172,7 +172,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11135](https://tbpro.zendesk.com/agent/tickets/11135) · [closed] · 2026-11-11 · _Permanently delete my account_
   - [#11196](https://tbpro.zendesk.com/agent/tickets/11196) · [closed] · 2026-11-12 · _Refund_
   - [#11285](https://tbpro.zendesk.com/agent/tickets/11285) · [closed] · 2026-11-13 · _I want to delete my account_
-  - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [solved] · 2026-11-14 · _Kontolöschung_
+  - [#11308](https://tbpro.zendesk.com/agent/tickets/11308) · [closed] · 2026-11-14 · _Kontolöschung_
   - [#11309](https://tbpro.zendesk.com/agent/tickets/11309) · [solved] · 2026-11-14 · _cancelation subscribe within 14 days_
   - [#11315](https://tbpro.zendesk.com/agent/tickets/11315) · [solved] · 2026-11-14 · _Refund_
   - [#11350](https://tbpro.zendesk.com/agent/tickets/11350) · [solved] · 2026-11-15 · _Cancellation And Refund_
@@ -261,14 +261,14 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#11561](https://tbpro.zendesk.com/agent/tickets/11561) · [pending] · 2026-11-21 · _Alias stopped forwarding _
   - [#11566](https://tbpro.zendesk.com/agent/tickets/11566) · [solved] · 2026-11-21 · _"Email address does not exist", does exist, sent me an email (I am replying)_
   - [#11607](https://tbpro.zendesk.com/agent/tickets/11607) · [pending] · 2026-11-23 · _Sending email to Outlook.com_
-  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [open] · 2026-11-23 · _Cannot email Microsoft accounta_
+  - [#11615](https://tbpro.zendesk.com/agent/tickets/11615) · [solved] · 2026-11-23 · _Cannot email Microsoft accounta_
 
 ### [#11631](https://tbpro.zendesk.com/agent/tickets/11631) · [hold] · [thunderbird-accounts/1513] Adding an alias can result in "You cannot use this email address"
 - ✅ GitHub: [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) · _Adding an alias can result in ""You cannot use this email address"_
 - 5 incident(s):
   - [#11511](https://tbpro.zendesk.com/agent/tickets/11511) · [pending] · 2026-11-20 · _cannot send emails with my domain_
   - [#11532](https://tbpro.zendesk.com/agent/tickets/11532) · [pending] · 2026-11-20 · _Alias on verified custom domain disappeared, cannot be recreated, sending rejected_
-  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [open] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
+  - [#11573](https://tbpro.zendesk.com/agent/tickets/11573) · [solved] · 2026-11-22 · _Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on the same domain work_
   - [#11662](https://tbpro.zendesk.com/agent/tickets/11662) · [open] · 2026-11-24 · _Delivered-To headers are inconsistent for custom domain_
   - [#11678](https://tbpro.zendesk.com/agent/tickets/11678) · [pending] · 2026-11-24 · _After recent maintenance can't send emails from Thunderbird (desktop, Android)_
 
@@ -376,11 +376,11 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1207
-- **solved**: 82
+- **closed**: 1208
+- **solved**: 83
 - **pending**: 55
 - **hold**: 24
-- **open**: 19
+- **open**: 17
 - **new**: 10
 
 ## Service (cumulative)
@@ -530,6 +530,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-25T21:29 · Cannot create catch all alias for my custom domain.
 - 👍 [11533](https://tbpro.zendesk.com/agent/tickets/11533) · 2026-11-25T21:40 · Refund
 - · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-25T22:32 · "Email address does not exist", does exist, sent me an email (I am replying)
+- · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-26T17:49 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
+- · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-26T17:51 · Cannot email Microsoft accounta
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
