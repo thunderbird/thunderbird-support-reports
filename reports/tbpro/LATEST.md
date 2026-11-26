@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 05:16 ET** · refreshes hourly_  
+_Updated: **2026-11-26 06:15 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 109** of rollout — **35,000 invitees**, **1389 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 109** of rollout — **35,000 invitees**, **1390 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **6** solved in last 24h
-- **1389** tickets total since launch · contact rate **4%** of 35000 invitees
+- **6** new tickets in last 24h · **6** solved in last 24h
+- **1390** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (3 good / 0 bad)
 - **CSAT (since launch)**: 95%  (227 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -372,12 +372,12 @@ _(none in last 24h)_
 - **pending**: 62
 - **hold**: 21
 - **open**: 15
-- **new**: 2
+- **new**: 3
 
 ## Service (cumulative)
 
 - **Account Hub**: 767
-- **Thundermail**: 504
+- **Thundermail**: 505
 - **Send**: 30
 - **Appointment**: 18
 
@@ -454,6 +454,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11760](https://tbpro.zendesk.com/agent/tickets/11760)** · Account name and primary email
   > Hi there, I was one of the first to take out a Thundermail account, and I'm quite happy with it. However, I do have a question about my account name and the primary email, both…
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#11788](https://tbpro.zendesk.com/agent/tickets/11788)** · Custom Domain DNS Records
+  > Hi guys, Given we're still in early access here it seems like a good chance to review. Why is the default DMARC setting custom domains p=none, not at least p=quarantine. I've set…
+
 ### Subscription / billing / refund / cancel — 1 tickets
 
 - **[#11765](https://tbpro.zendesk.com/agent/tickets/11765)** · high payment
@@ -476,6 +481,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11760](https://tbpro.zendesk.com/agent/tickets/11760) · [open] · 2026-11-25T23:08 · Account name and primary email
 - [11765](https://tbpro.zendesk.com/agent/tickets/11765) · [new] · 2026-11-26T02:01 · high payment
 - [11778](https://tbpro.zendesk.com/agent/tickets/11778) · [new] · 2026-11-26T08:12 · Changement de téléphone 
+- [11788](https://tbpro.zendesk.com/agent/tickets/11788) · [new] · 2026-11-26T10:18 · Custom Domain DNS Records
 
 ## Solved — last 24h
 
