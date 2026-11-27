@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thundermail · Weekly Summary · 2026-11-16 → 2026-11-20</title>
+<title>Thundermail · Weekly Summary · 2026-11-23 → 2026-11-27</title>
 <style>
 
 :root {
@@ -93,13 +93,13 @@ ul.report-list li{font-size:.82rem;padding:.2rem 0;border-bottom:1px solid var(-
 ul.report-list li:last-child{border-bottom:none;}
 
 /* ── Verdict banner ── */
-.verdict-banner{border-radius:10px;overflow:hidden;margin-bottom:1.5rem;border:1px solid var(--warning);}
-.verdict-head{background:var(--warning);padding:.8rem 1.25rem;display:flex;align-items:center;gap:.9rem;}
+.verdict-banner{border-radius:10px;overflow:hidden;margin-bottom:1.5rem;border:1px solid var(--critical);}
+.verdict-head{background:var(--critical);padding:.8rem 1.25rem;display:flex;align-items:center;gap:.9rem;}
 .verdict-pill{font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#0d0c14;flex-shrink:0;}
 .verdict-title{font-size:.82rem;color:#0d0c14;opacity:.8;font-weight:500;}
 .verdict-body{background:var(--bg-card);padding:.65rem 1.25rem;}
 .verdict-signal{display:flex;align-items:baseline;gap:.5rem;font-size:.8rem;color:var(--text-2);padding:.2rem 0;}
-.verdict-signal-arrow{color:var(--warning);font-weight:700;flex-shrink:0;font-size:.75rem;}
+.verdict-signal-arrow{color:var(--critical);font-weight:700;flex-shrink:0;font-size:.75rem;}
 .verdict-clear{font-size:.8rem;color:var(--text-3);font-style:italic;padding:.25rem 0;}
 /* ── Theme drilldown ── */
 .theme-details{border-bottom:1px solid var(--border);}
@@ -130,158 +130,164 @@ ul.report-list li:last-child{border-bottom:none;}
 <div class="header">
   <div class="header-badge">Thundermail · Weekly</div>
   <div class="header-title">Weekly Executive Summary — Flight 8</div>
-  <div class="header-meta">2026-11-16 → 2026-11-20 &nbsp;·&nbsp; Flight 8 launch: 2026-08-10 &nbsp;·&nbsp; 35000 invitees &nbsp;·&nbsp; 0.1% contact rate</div>
+  <div class="header-meta">2026-11-23 → 2026-11-27 &nbsp;·&nbsp; Flight 8 launch: 2026-08-10 &nbsp;·&nbsp; 35000 invitees &nbsp;·&nbsp; 0.1% contact rate</div>
 </div>
 
-<div class="verdict-banner"><div class="verdict-head"><span class="verdict-pill">WATCH</span><span class="verdict-title">Wave invite status</span></div>
+<div class="verdict-banner"><div class="verdict-head"><span class="verdict-pill">BLOCK</span><span class="verdict-title">Wave invite status</span></div>
 <div class="verdict-body">
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span style="color:var(--critical)">8 unresolved escalated tickets this week: <a href="https://tbpro.zendesk.com/agent/tickets/11806">#11806</a> <em style="color:var(--text-2)">TLS handshake failure when sending to acewell.jp</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11618">#11618</a> <em style="color:var(--text-2)">Critical: Catch-all alias disappeared and cannot be…</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11678">#11678</a> <em style="color:var(--text-2)">After recent maintenance can&#x27;t send emails from…</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11662">#11662</a> <em style="color:var(--text-2)">Delivered-To headers are inconsistent for custom domain</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11645">#11645</a> <em style="color:var(--text-2)">Cannot add catch-all email address</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11631">#11631</a> <em style="color:var(--text-2)">[thunderbird-accounts/1513] Adding an alias can result…</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11619">#11619</a> <em style="color:var(--text-2)">Catchall-Aliases for custom domains are gone and can&#x27;t…</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11607">#11607</a> <em style="color:var(--text-2)">Sending email to Outlook.com</em></span></div>
 <div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>1 known problem with 3 linked reports (2 open) — <a href="https://tbpro.zendesk.com/agent/tickets/9007">[send/1068] Uploading files fails with CORS and POST errors</a></span></div>
-<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>7 ticket(s) with user urgency: critical still open: <a href="https://tbpro.zendesk.com/agent/tickets/11521">#11521</a> <em style="color:var(--text-2)">can&#x27;t add my main email address</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11501">#11501</a> <em style="color:var(--text-2)">Webmail says &#x27;can&#x27;t connect&#x27;</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11494">#11494</a> <em style="color:var(--text-2)">Unable to change password on iPhone </em>; <a href="https://tbpro.zendesk.com/agent/tickets/11504">#11504</a> <em style="color:var(--text-2)">URGENT: I am locked out of my thundermail account </em>; <a href="https://tbpro.zendesk.com/agent/tickets/11499">#11499</a> <em style="color:var(--text-2)">trouver mon mot de passe</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11463">#11463</a> <em style="color:var(--text-2)">perte de mon mot de passe</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11447">#11447</a> <em style="color:var(--text-2)">OAUTH is broken on Firefox</em></span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>1 known problem with 4 linked reports (3 open) — <a href="https://tbpro.zendesk.com/agent/tickets/9810">[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…</a></span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>1 known problem with 10 linked reports (8 open) — <a href="https://tbpro.zendesk.com/agent/tickets/11632">[thunderbird-accounts/#1507] Cannot create a new catch-all account or see…</a></span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>1 known problem with 5 linked reports (4 open) — <a href="https://tbpro.zendesk.com/agent/tickets/11631">[thunderbird-accounts/1513] Adding an alias can result in </a>You cannot use this…&quot;</span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>1 known problem with 6 linked reports (2 open) — <a href="https://tbpro.zendesk.com/agent/tickets/11626">[Tracking] Can&#x27;t send emails outside of webmail </a>Mailbox not found&quot; - Outlook…&quot;</span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>Refund/cancel rate 9% of real subscriber tickets (4 / 46)</span></div>
+<div class="verdict-signal"><span class="verdict-signal-arrow">→</span><span>6 ticket(s) with user urgency: critical still open: <a href="https://tbpro.zendesk.com/agent/tickets/11850">#11850</a> <em style="color:var(--text-2)">I&#x27;m already lost.</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11651">#11651</a> <em style="color:var(--text-2)">Problem with mail, calendar and contacts</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11618">#11618</a> <em style="color:var(--text-2)">Critical: Catch-all alias disappeared and cannot be…</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11824">#11824</a> <em style="color:var(--text-2)">Cancel Subscription</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11821">#11821</a> <em style="color:var(--text-2)">Signing in</em>; <a href="https://tbpro.zendesk.com/agent/tickets/11640">#11640</a> <em style="color:var(--text-2)">Obter conta </em></span></div>
 </div>
 </div>
 
 <h2>Last week at a glance</h2>
 <div class="metrics">
-<div class="metric blue"><div class="metric-val">49</div><div class="metric-label">New tickets</div><div class="metric-sub">-73 (-60% WoW)</div></div>
-<div class="metric blue"><div class="metric-val">30</div><div class="metric-label">Real subscriber issues</div></div>
-<div class="metric blue"><div class="metric-val">19</div><div class="metric-label">Misdirected</div><div class="metric-sub">non-subscribers</div></div>
-<div class="metric green"><div class="metric-val">133</div><div class="metric-label">Solved</div></div>
-<div class="metric green"><div class="metric-val">92%</div><div class="metric-label">CSAT</div><div class="metric-sub">12 responses</div></div>
-<div class="metric orange"><div class="metric-val">2</div><div class="metric-label">Refunds / cancels</div></div>
-<div class="metric orange"><div class="metric-val">12</div><div class="metric-label">Other-brand queue (now)</div></div>
-<div class="metric teal"><div class="metric-val">7</div><div class="metric-label">New ideas this week</div></div>
+<div class="metric blue"><div class="metric-val">55</div><div class="metric-label">New tickets</div><div class="metric-sub">-27 (-33% WoW)</div></div>
+<div class="metric blue"><div class="metric-val">46</div><div class="metric-label">Real subscriber issues</div></div>
+<div class="metric blue"><div class="metric-val">9</div><div class="metric-label">Misdirected</div><div class="metric-sub">non-subscribers</div></div>
+<div class="metric green"><div class="metric-val">114</div><div class="metric-label">Solved</div></div>
+<div class="metric green"><div class="metric-val">100%</div><div class="metric-label">CSAT</div><div class="metric-sub">15 responses</div></div>
+<div class="metric orange"><div class="metric-val">4</div><div class="metric-label">Refunds / cancels</div></div>
+<div class="metric orange"><div class="metric-val">25</div><div class="metric-label">Other-brand queue (now)</div></div>
+<div class="metric teal"><div class="metric-val">8</div><div class="metric-label">New ideas this week</div></div>
 </div>
 
 <h2>Refund reasons</h2>
 
 <p class="theme-drill-meta">Accounts What dropdown, plus the free-text Refund Reason. Tickets created this week.</p>
-<p>2 ticket(s), 2 people.</p>
-<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">1</span>Reason not shared</div>
-<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">1</span>Immature product / not yet ready</div>
-<p class="theme-drill-meta">What agents wrote</p>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11419">#11419</a> Immature product / not yet ready — I need a calendar that syncs to my Android phone, and Thundermail doesn&#x27;t offer that yet</div>
-<p class="theme-drill-meta">Refund or cancel tickets with no reason set: 1 <a href="https://tbpro.zendesk.com/agent/tickets/11450">#11450</a></p>
+<p class="theme-drill-meta">Refund or cancel tickets with no reason set: 4 <a href="https://tbpro.zendesk.com/agent/tickets/11847">#11847</a> <a href="https://tbpro.zendesk.com/agent/tickets/11844">#11844</a> <a href="https://tbpro.zendesk.com/agent/tickets/11803">#11803</a> <a href="https://tbpro.zendesk.com/agent/tickets/11824">#11824</a></p>
 
 
-<div class="csat-bar"><div class="csat-fill" style="width:91%"></div></div>
+<div class="csat-bar"><div class="csat-fill" style="width:100%"></div></div>
 
 <h2>Daily volume</h2>
 <div class="spark">
-<div class="spark-row"><span class="spark-date">2026-11-16</span><span class="spark-bar">████████</span><span class="spark-n">8</span></div>
-<div class="spark-row"><span class="spark-date">2026-11-17</span><span class="spark-bar">█████████</span><span class="spark-n">9</span></div>
-<div class="spark-row"><span class="spark-date">2026-11-18</span><span class="spark-bar">████████</span><span class="spark-n">8</span></div>
-<div class="spark-row"><span class="spark-date">2026-11-19</span><span class="spark-bar">███████</span><span class="spark-n">7</span></div>
-<div class="spark-row"><span class="spark-date">2026-11-20</span><span class="spark-bar">█████████████████</span><span class="spark-n">17</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-23</span><span class="spark-bar">██████████</span><span class="spark-n">21</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-24</span><span class="spark-bar">████</span><span class="spark-n">8</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-25</span><span class="spark-bar">██</span><span class="spark-n">5</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-26</span><span class="spark-bar">███████</span><span class="spark-n">14</span></div>
+<div class="spark-row"><span class="spark-date">2026-11-27</span><span class="spark-bar">███</span><span class="spark-n">7</span></div>
 </div>
 
 <h2>What we heard</h2>
 
 <details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Misdirected contacts<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-9 WoW</span></span><span class="theme-count">11</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:100%"></span></span></summary>
+<summary class="theme-summary"><span class="theme-name">Aliases<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-2 WoW</span></span><span class="theme-count">14</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:100%"></span></span></summary>
 <div class="theme-drill">
-<div class="theme-drill-meta">11 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11435">#11435</a> die obige Mail-Adresse</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11499">#11499</a> trouver mon mot de passe</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11472">#11472</a> neues Konto</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11463">#11463</a> perte de mon mot de passe</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11417">#11417</a> je ne me souviens plus de mon mot de passe pour Thunderbird , Merci</div>
+<div class="theme-drill-meta">14 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11840">#11840</a> Custom domain for outgoing email only</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11806">#11806</a> TLS handshake failure when sending to acewell.jp</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11811">#11811</a> DNS Verification</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11798">#11798</a> Inundaed by emails</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11760">#11760</a> Account name and primary email</div>
 </div>
 </details>
 <details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Aliases<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">+0 WoW</span></span><span class="theme-count">6</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:54%"></span></span></summary>
-<div class="theme-drill">
-<div class="theme-drill-meta">6 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11521">#11521</a> can&#x27;t add my main email address</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11507">#11507</a> Custom domain question</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11511">#11511</a> cannot send emails with my domain</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11467">#11467</a> Add second email account</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11399">#11399</a> Alias Email</div>
-</div>
-</details>
-<details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Other / uncategorized<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-6 WoW</span></span><span class="theme-count">6</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:54%"></span></span></summary>
-<div class="theme-drill">
-<div class="theme-drill-meta">6 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11518">#11518</a> Database error</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11497">#11497</a> App password for Thunderbird</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11494">#11494</a> Unable to change password on iPhone </div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11489">#11489</a> アカウント削除</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11455">#11455</a> Scheduled Thunderbird Outage</div>
-</div>
-</details>
-<details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Webmail<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-2 WoW</span></span><span class="theme-count">6</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:54%"></span></span></summary>
-<div class="theme-drill">
-<div class="theme-drill-meta">6 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11501">#11501</a> Webmail says &#x27;can&#x27;t connect&#x27;</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11502">#11502</a> Mails display</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11492">#11492</a> Name from Email</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11453">#11453</a> [stormbox/260] Inline picture pastes in Webmail set centre justification</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11418">#11418</a> Apppintment</div>
-</div>
-</details>
-<details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Account access issues<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-8 WoW</span></span><span class="theme-count">5</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:45%"></span></span></summary>
+<summary class="theme-summary"><span class="theme-name">Subscription / billing / refund / cancel<span style="font-size:.68rem;color:var(--success);margin-left:.35rem">+1 WoW</span></span><span class="theme-count">5</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:35%"></span></span></summary>
 <div class="theme-drill">
 <div class="theme-drill-meta">5 ticket(s) this theme</div>
-<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">2</span>Account hub trouble</div>
-<div class="theme-sample"><span style="color:var(--text-3);min-width:2rem;display:inline-block;text-align:right;margin-right:.4rem">2</span>Wrong product, redirected to sumo</div>
-<div style="font-size:.65rem;color:var(--text-3);padding:.25rem 0 0 .3rem"><a href="https://tbpro.zendesk.com/agent/tickets/11508">#11508</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11504">#11504</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11451">#11451</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11448">#11448</a>  <a href="https://tbpro.zendesk.com/agent/tickets/11394">#11394</a></div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11850">#11850</a> I&#x27;m already lost.</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11847">#11847</a> Account deletion and refund request</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11844">#11844</a> cancel my subscription for a full refund and Account deletion</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11765">#11765</a> high payment</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11824">#11824</a> Cancel Subscription</div>
 </div>
 </details>
 <details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Subscription / billing / refund / cancel<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-11 WoW</span></span><span class="theme-count">2</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:18%"></span></span></summary>
+<summary class="theme-summary"><span class="theme-name">Webmail<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-2 WoW</span></span><span class="theme-count">5</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:35%"></span></span></summary>
 <div class="theme-drill">
-<div class="theme-drill-meta">2 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11513">#11513</a> User-configurable Filters</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11450">#11450</a> Refunds?</div>
+<div class="theme-drill-meta">5 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11651">#11651</a> Problem with mail, calendar and contacts</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11649">#11649</a> my relay forwarded emails keep going to junk.</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11618">#11618</a> Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11626">#11626</a> [Tracking] Can&#x27;t send emails outside of webmail &quot;Mailbox not found&quot; - Outlook and Yahoo</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11615">#11615</a> Cannot email Microsoft accounta</div>
 </div>
 </details>
 <details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Request or complaint<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">+0 WoW</span></span><span class="theme-count">2</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:18%"></span></span></summary>
+<summary class="theme-summary"><span class="theme-name">Misdirected contacts<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-6 WoW</span></span><span class="theme-count">5</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:35%"></span></span></summary>
 <div class="theme-drill">
-<div class="theme-drill-meta">2 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11473">#11473</a> Upload files to &quot;Send&quot; with a CLI tool</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11461">#11461</a> deleting alias - can another account reuse?</div>
+<div class="theme-drill-meta">5 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11623">#11623</a> Problême d&#x27;affichage dans la barre d&#x27;envoi </div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11833">#11833</a> パスワードの件</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11758">#11758</a> inloggen weigerd</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11656">#11656</a> Is there a Thundermail SMTP outage happening right now or something?</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11640">#11640</a> Obter conta </div>
 </div>
 </details>
 <details class="theme-details">
-<summary class="theme-summary"><span class="theme-name">Spam / Junk Filtering<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-3 WoW</span></span><span class="theme-count">2</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:18%"></span></span></summary>
+<summary class="theme-summary"><span class="theme-name">Early bird / invite / waitlist<span style="font-size:.68rem;color:var(--success);margin-left:.35rem">+3 WoW</span></span><span class="theme-count">4</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:28%"></span></span></summary>
 <div class="theme-drill">
-<div class="theme-drill-meta">2 ticket(s) this theme</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11459">#11459</a> Mildly urgent issue/suggestion</div>
-<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11395">#11395</a> Thunderbird Signup</div>
+<div class="theme-drill-meta">4 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11872">#11872</a> trouble with first log in attemps</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11868">#11868</a> Fw: Your Thundermail address is waiting.</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11803">#11803</a> Pre-purchase questions: custom domains, subaddressing, app passwords, ManageSieve, refunds</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11788">#11788</a> Custom Domain DNS Records</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Other / uncategorized<span style="font-size:.68rem;color:var(--text-3);margin-left:.35rem">-5 WoW</span></span><span class="theme-count">4</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:28%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">4 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11778">#11778</a> Changement de téléphone </div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11648">#11648</a> Large files uploaded in Send</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11820">#11820</a> Plus addressing</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11733">#11733</a> Uploads schlagen in Thunderbird und Firefox fehl</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">Appointment / calendar<span style="font-size:.68rem;color:var(--success);margin-left:.35rem">+4 WoW</span></span><span class="theme-count">4</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:28%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">4 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11759">#11759</a> Calendar Services</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11639">#11639</a> Appointment seems to be unable to sync to the calendar</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11630">#11630</a> Appointment don&#x27;t accept thunderbird calendar</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11613">#11613</a> Appointment calendars</div>
+</div>
+</details>
+<details class="theme-details">
+<summary class="theme-summary"><span class="theme-name">App setup / configuration<span style="font-size:.68rem;color:var(--success);margin-left:.35rem">+1 WoW</span></span><span class="theme-count">3</span><span class="theme-bar-wrap"><span class="theme-bar-fill" style="width:21%"></span></span></summary>
+<div class="theme-drill">
+<div class="theme-drill-meta">3 ticket(s) this theme</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11871">#11871</a> Can&#x27;t set up thundermail account on Samsung email app </div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11841">#11841</a> Lost access to my thundermail account</div>
+<div class="theme-sample"><a href="https://tbpro.zendesk.com/agent/tickets/11751">#11751</a> Feedback - Saving Contacts</div>
 </div>
 </details>
 
 
 <h2>Known problems</h2>
 
-<div class="card" style="border-left:3px solid var(--critical);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/7053" style="color:inherit">[Tracker] Account refunded and canceled, purge queue</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">136 linked reports (7 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-10 new this wk</span></span></div>
-<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/6712" style="color:inherit">[Tracker] Who did we have to manually verify email for?</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">6 linked reports (1 open)</span></div>
-<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/9007" style="color:inherit">[send/1068] Uploading files fails with CORS and POST errors</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">3 linked reports (2 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-2 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--critical);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/7053" style="color:inherit">[Tracker] Account refunded and canceled, purge queue</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">139 linked reports (3 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-2 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--critical);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/11632" style="color:inherit">[thunderbird-accounts/#1507] Cannot create a new catch-all account or see existing catch-all</a></strong> &mdash; <a href="https://github.com/thunderbird/thunderbird-accounts/issues/1507" style="color:var(--warning);font-size:.8rem">thunderbird/thunderbird-accounts#1507</a> <span style="font-size:.68rem;color:var(--text-3)">closed</span> &mdash; <span style="color:var(--text-2);font-size:.85rem">10 linked reports (8 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-2 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/11626" style="color:inherit">[Tracking] Can&#x27;t send emails outside of webmail &quot;Mailbox not found&quot; - Outlook and Yahoo</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">6 linked reports (2 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-2 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--critical);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/11631" style="color:inherit">[thunderbird-accounts/1513] Adding an alias can result in &quot;You cannot use this email address&quot;</a></strong> &mdash; <a href="https://github.com/thunderbird/thunderbird-accounts/issues/1513" style="color:var(--warning);font-size:.8rem">thunderbird/thunderbird-accounts#1513</a> <span style="font-size:.68rem;color:var(--text-3)">closed</span> &mdash; <span style="color:var(--text-2);font-size:.85rem">5 linked reports (4 open) <span style="font-size:.72rem;color:var(--success);font-weight:600">-1 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--critical);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/9810" style="color:inherit">[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">4 linked reports (3 open) <span style="font-size:.72rem;color:var(--text-3);font-weight:600">+0 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/9007" style="color:inherit">[send/1068] Uploading files fails with CORS and POST errors</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">3 linked reports (2 open)</span></div>
 <div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/10009" style="color:inherit">[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 open reports</span></div>
-<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/9810" style="color:inherit">[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 linked reports (1 open)</span></div>
 <div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/10111" style="color:inherit">[stormbox/64] Mark or hide IMAP marked-as-deleted messages</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 linked reports (1 open)</span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/10997" style="color:inherit">[tbpro-add-on/1397] SEND fails on slow internet connections for files larger than 100MB</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">2 linked reports (1 open) <span style="font-size:.72rem;color:var(--critical);font-weight:600">+1 new this wk</span></span></div>
 <div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/8807" style="color:inherit">[routing/8] [domain] needs to be A record not CNAME</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
 <div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/8686" style="color:inherit">[stormbox/131] Aliases are not tied to JMAP identities</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
-<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/11453" style="color:inherit">[stormbox/260] Inline picture pastes in Webmail set centre justification</a></strong> &mdash; <a href="https://github.com/thunderbird/stormbox/issues/260" style="color:var(--warning);font-size:.8rem">thunderbird/stormbox#260</a> <span style="font-size:.68rem;color:var(--text-3)">open</span> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report <span style="font-size:.72rem;color:var(--success);font-weight:600">-1 new this wk</span></span></div>
+<div class="card" style="border-left:3px solid var(--warning);padding:.5rem 1rem;margin-bottom:.4rem"><strong><a href="https://tbpro.zendesk.com/agent/tickets/11453" style="color:inherit">[stormbox/260] Inline picture pastes in Webmail set centre justification</a></strong> &mdash; <span style="color:var(--text-2);font-size:.85rem">1 open report</span></div>
 
-
-<h2>Reported bugs</h2>
-<div class="card">
-<div class="bug-item"><span class="bug-ref"><a href="https://github.com/thunderbird/stormbox/issues/120" style="color:var(--warning)">thunderbird/stormbox#120</a></span><span class="bug-title">HTML Tags Appear in Message Preview</span><span class="bug-state">open</span></div>
-</div>
 
 <h2>New ideas this week</h2>
 <ul class="ideas-list">
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/adding-third-party-caldav-contacts-and-calendars-to-the-webview">Adding third-party caldav contacts and calendars to the webview</a></div><div class="idea-meta">2 &#9651;</div></li>
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/add-an-option-to-pin-a-message-to-the-top">Add an option to PIN a message to the top</a></div><div class="idea-meta">1 &#9651;</div></li>
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/ability-to-drag-and-reorder-folders-in-webmail">Ability to Drag and Reorder Folders in Webmail</a></div><div class="idea-meta">1 &#9651;</div></li>
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/integration-and-customer-focus">Integration and Customer Focus</a></div><div class="idea-meta">1 &#9651;</div></li>
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/price-point">Price point !</a></div><div class="idea-meta">1 &#9651;</div></li>
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/lifetime-one-price-subscription">Lifetime one price subscription</a></div><div class="idea-meta">2 &#9651;</div></li>
-<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/delete-drafts">Delete Drafts</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/send-only-email-accounts">Send only email accounts </a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/thundermail-low-level-logs-access-for-checking-email-sending-and-receiving">Thundermail low level logs access for checking email sending and receiving</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/seamless-integration-of-all-thundermail-features-in-thunderbird">Seamless integration of all thundermail features in thunderbird</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/upload-files-to-send-with-a-cli-tool">Upload files to &quot;Send&quot; with a CLI tool</a></div><div class="idea-meta">2 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/make-it-easier-to-add-custom-domains">Make it easier to add custom domains</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/transfer-alias-addresses-to-another-thunderbird-user">Transfer alias addresses to another Thunderbird user</a></div><div class="idea-meta">8 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/confirmation-dialog-before-deleting-an-alias">Confirmation dialog before deleting an alias</a></div><div class="idea-meta">1 &#9651;</div></li>
+<li class="idea-item"><div class="idea-title"><a href="https://ideas.tb.pro/p/swap-the-primary-address-with-an-alias">Swap the primary address with an alias</a></div><div class="idea-meta">1 &#9651;</div></li>
 </ul>
 
 <div style="font-size:.72rem;color:var(--text-3);margin:1.5rem 0 .5rem;padding-top:.75rem;border-top:1px solid var(--border)"><strong>Legend:</strong> ✅ CLEAR — no blockers, proceed &nbsp;&middot;&nbsp; 🟡 WATCH — monitor before acting &nbsp;&middot;&nbsp; 🔴 BLOCK — hold invites</div>

@@ -1,12 +1,20 @@
-# TB Pro — Weekly Executive Summary · 2026-11-16 → 2026-11-20
+# TB Pro — Weekly Executive Summary · 2026-11-23 → 2026-11-27
 
-_2026-08-10 launch · 35000 invitees · 0.1% contact rate · generated 2026-11-20_
+_2026-08-10 launch · 35000 invitees · 0.1% contact rate · generated 2026-11-27_
 
-## 🟡 Wave invite status: **WATCH**
+## 🔴 Wave invite status: **BLOCK**
+
+**Hard blockers:**
+- 🔴 8 unresolved escalated tickets this week
 
 **Watch signals:**
 - 🟡 1 known problem with 3 linked reports (2 open) — [[send/1068] Uploading files fails with CORS and POST errors](https://tbpro.zendesk.com/agent/tickets/9007)
-- 🟡 7 ticket(s) with user urgency: critical still open: [#11521](https://tbpro.zendesk.com/agent/tickets/11521) can't add my main email address; [#11501](https://tbpro.zendesk.com/agent/tickets/11501) Webmail says 'can't connect'; [#11494](https://tbpro.zendesk.com/agent/tickets/11494) Unable to change password on iPhone; [#11504](https://tbpro.zendesk.com/agent/tickets/11504) URGENT: I am locked out of my thundermail account; [#11499](https://tbpro.zendesk.com/agent/tickets/11499) trouver mon mot de passe; [#11463](https://tbpro.zendesk.com/agent/tickets/11463) perte de mon mot de passe; [#11447](https://tbpro.zendesk.com/agent/tickets/11447) OAUTH is broken on Firefox
+- 🟡 1 known problem with 4 linked reports (3 open) — [[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…](https://tbpro.zendesk.com/agent/tickets/9810)
+- 🟡 1 known problem with 10 linked reports (8 open) — [[thunderbird-accounts/#1507] Cannot create a new catch-all account or see…](https://tbpro.zendesk.com/agent/tickets/11632)
+- 🟡 1 known problem with 5 linked reports (4 open) — [[thunderbird-accounts/1513] Adding an alias can result in ](https://tbpro.zendesk.com/agent/tickets/11631)You cannot use this…"
+- 🟡 1 known problem with 6 linked reports (2 open) — [[Tracking] Can't send emails outside of webmail ](https://tbpro.zendesk.com/agent/tickets/11626)Mailbox not found" - Outlook…"
+- 🟡 Refund/cancel rate 9% of real subscriber tickets (4 / 46)
+- 🟡 6 ticket(s) with user urgency: critical still open: [#11850](https://tbpro.zendesk.com/agent/tickets/11850) I'm already lost.; [#11651](https://tbpro.zendesk.com/agent/tickets/11651) Problem with mail, calendar and contacts; [#11618](https://tbpro.zendesk.com/agent/tickets/11618) Critical: Catch-all alias disappeared and cannot be…; [#11824](https://tbpro.zendesk.com/agent/tickets/11824) Cancel Subscription; [#11821](https://tbpro.zendesk.com/agent/tickets/11821) Signing in; [#11640](https://tbpro.zendesk.com/agent/tickets/11640) Obter conta
 
 ---
 
@@ -14,75 +22,63 @@ _2026-08-10 launch · 35000 invitees · 0.1% contact rate · generated 2026-11-2
 
 | Metric | Value |
 |--------|-------|
-| New tickets | **49** (-73, -60% WoW) |
-| Real subscriber issues | **30** |
-| Misdirected (non-subscribers) | **19** |
-| Solved this week | **133** |
-| CSAT | **92% (12 responses)** |
-| Refunds / cancels | **2** |
-| Other-brand queue (now) | **12** |
-| New ideas this week | **7** |
+| New tickets | **55** (-27, -33% WoW) |
+| Real subscriber issues | **46** |
+| Misdirected (non-subscribers) | **9** |
+| Solved this week | **114** |
+| CSAT | **100% (15 responses)** |
+| Refunds / cancels | **4** |
+| Other-brand queue (now) | **25** |
+| New ideas this week | **8** |
 
 ## Refund reasons
 
 _Accounts What dropdown, plus the free-text Refund Reason. Counts are tickets created this week._
 
-2 ticket(s), 2 people.
-
-| Reason | Tickets |
-|--------|--------:|
-| Reason not shared | 1 |
-| Immature product / not yet ready | 1 |
-
-**What agents wrote:**
-
-- #11419 Immature product / not yet ready — I need a calendar that syncs to my Android phone, and Thundermail doesn't offer that yet
-
-**Refund or cancel tickets with no reason set:** 1 (#11450)
+**Refund or cancel tickets with no reason set:** 4 (#11847, #11844, #11803, #11824)
 
 **Daily ticket volume:**
-- `2026-11-16` ████████ 8
-- `2026-11-17` █████████ 9
-- `2026-11-18` ████████ 8
-- `2026-11-19` ███████ 7
-- `2026-11-20` █████████████████ 17
+- `2026-11-23` █████████████████████ 21
+- `2026-11-24` ████████ 8
+- `2026-11-25` █████ 5
+- `2026-11-26` ██████████████ 14
+- `2026-11-27` ███████ 7
 
 ## What we heard
 
-- **Misdirected contacts**: 11 (22%) (-9 WoW)
-- **Aliases**: 6 (12%) (+0 WoW)
-- **Other / uncategorized**: 6 (12%) (-6 WoW)
-- **Webmail**: 6 (12%) (-2 WoW)
-- **Account access issues**: 5 (10%) (-8 WoW)
-- **Subscription / billing / refund / cancel**: 2 (4%) (-11 WoW)
-- **Request or complaint**: 2 (4%) (+0 WoW)
-- **Spam / Junk Filtering**: 2 (4%) (-3 WoW)
+- **Aliases**: 14 (25%) (-2 WoW)
+- **Subscription / billing / refund / cancel**: 5 (9%) (+1 WoW)
+- **Webmail**: 5 (9%) (-2 WoW)
+- **Misdirected contacts**: 5 (9%) (-6 WoW)
+- **Early bird / invite / waitlist**: 4 (7%) (+3 WoW)
+- **Other / uncategorized**: 4 (7%) (-5 WoW)
+- **Appointment / calendar**: 4 (7%) (+4 WoW)
+- **App setup / configuration**: 3 (5%) (+1 WoW)
 
 ## Known problems
 
-- **[Tracker] Account refunded and canceled, purge queue** — 136 linked reports (7 open) (-10 new this wk)
-- **[Tracker] Who did we have to manually verify email for?** — 6 linked reports (1 open)
-- **[send/1068] Uploading files fails with CORS and POST errors** — 3 linked reports (2 open) (-2 new this wk)
+- **[Tracker] Account refunded and canceled, purge queue** — 139 linked reports (3 open) (-2 new this wk)
+- **[thunderbird-accounts/#1507] Cannot create a new catch-all account or see…** — 10 linked reports (8 open) (-2 new this wk) · [thunderbird/thunderbird-accounts#1507](https://github.com/thunderbird/thunderbird-accounts/issues/1507) _closed_
+- **[Tracking] Can't send emails outside of webmail "Mailbox not found" - Outlook…** — 6 linked reports (2 open) (-2 new this wk)
+- **[thunderbird-accounts/1513] Adding an alias can result in "You cannot use this…** — 5 linked reports (4 open) (-1 new this wk) · [thunderbird/thunderbird-accounts#1513](https://github.com/thunderbird/thunderbird-accounts/issues/1513) _closed_
+- **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 4 linked reports (3 open)
+- **[send/1068] Uploading files fails with CORS and POST errors** — 3 linked reports (2 open)
 - **[mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV** — 2 open reports
-- **[stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded…** — 2 linked reports (1 open)
 - **[stormbox/64] Mark or hide IMAP marked-as-deleted messages** — 2 linked reports (1 open)
+- **[tbpro-add-on/1397] SEND fails on slow internet connections for files larger…** — 2 linked reports (1 open) (+1 new this wk)
 - **[routing/8] [domain] needs to be A record not CNAME** — 1 open report
 - **[stormbox/131] Aliases are not tied to JMAP identities** — 1 open report
-- **[stormbox/260] Inline picture pastes in Webmail set centre justification** — 1 open report (-1 new this wk) · [thunderbird/stormbox#260](https://github.com/thunderbird/stormbox/issues/260) _open_
-
-## Reported bugs
-
-- [thunderbird/stormbox#120](https://github.com/thunderbird/stormbox/issues/120) — HTML Tags Appear in Message Preview _open_
-
+- **[stormbox/260] Inline picture pastes in Webmail set centre justification** — 1 open report
 ## New ideas this week
 
-- [Adding third-party caldav contacts and calendars to the webview](https://ideas.tb.pro/p/adding-third-party-caldav-contacts-and-calendars-to-the-webview) · 2 vote(s)
-- [Add an option to PIN a message to the top](https://ideas.tb.pro/p/add-an-option-to-pin-a-message-to-the-top) · 1 vote(s)
-- [Ability to Drag and Reorder Folders in Webmail](https://ideas.tb.pro/p/ability-to-drag-and-reorder-folders-in-webmail) · 1 vote(s)
-- [Integration and Customer Focus](https://ideas.tb.pro/p/integration-and-customer-focus) · 1 vote(s)
-- [Price point !](https://ideas.tb.pro/p/price-point) · 1 vote(s)
-- [Lifetime one price subscription](https://ideas.tb.pro/p/lifetime-one-price-subscription) · 2 vote(s)
-- [Delete Drafts](https://ideas.tb.pro/p/delete-drafts) · 1 vote(s)
+- [Send only email accounts ](https://ideas.tb.pro/p/send-only-email-accounts) · 1 vote(s)
+- [Thundermail low level logs access for checking email sending and receiving](https://ideas.tb.pro/p/thundermail-low-level-logs-access-for-checking-email-sending-and-receiving) · 1 vote(s)
+- [Seamless integration of all thundermail features in thunderbird](https://ideas.tb.pro/p/seamless-integration-of-all-thundermail-features-in-thunderbird) · 1 vote(s)
+- [Upload files to "Send" with a CLI tool](https://ideas.tb.pro/p/upload-files-to-send-with-a-cli-tool) · 2 vote(s)
+- [Make it easier to add custom domains](https://ideas.tb.pro/p/make-it-easier-to-add-custom-domains) · 1 vote(s)
+- [Transfer alias addresses to another Thunderbird user](https://ideas.tb.pro/p/transfer-alias-addresses-to-another-thunderbird-user) · 8 vote(s)
+- [Confirmation dialog before deleting an alias](https://ideas.tb.pro/p/confirmation-dialog-before-deleting-an-alias) · 1 vote(s)
+- [Swap the primary address with an alias](https://ideas.tb.pro/p/swap-the-primary-address-with-an-alias) · 1 vote(s)
 
 ---
 _**Legend:** ✅ CLEAR — no blockers, proceed · 🟡 WATCH — monitor before acting · 🔴 BLOCK — hold invites_
