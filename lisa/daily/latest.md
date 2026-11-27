@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 15:15 ET** · refreshes hourly_  
+_Updated: **2026-11-27 16:14 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1408 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1409 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **11** solved in last 24h
-- **1408** tickets total since launch · contact rate **4%** of 35000 invitees
+- **9** new tickets in last 24h · **12** solved in last 24h
+- **1409** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (230 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 141.2h · mean 188.1h (proxy: updated_at − created_at, 55 solved tickets)
+- **Median AHT**: 139.9h · mean 185.0h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## Known problems — 19 problem(s), 192 incident(s)
 
@@ -276,7 +276,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1408 tickets** so 
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [pending] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [pending] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [solved] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
-  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [open] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
+  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [pending] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [pending] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [pending] · 2026-11-23 · _Cannot add catch-all email address_
   - [#11682](https://tbpro.zendesk.com/agent/tickets/11682) · [solved] · 2026-11-24 · _"You are not allowed to send from this address" + Catch-All Aliases Vanished_
@@ -374,16 +374,16 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1241
-- **pending**: 61
+- **closed**: 1242
+- **pending**: 63
 - **solved**: 55
 - **hold**: 30
-- **open**: 11
-- **new**: 10
+- **new**: 11
+- **open**: 8
 
 ## Service (cumulative)
 
-- **Account Hub**: 770
+- **Account Hub**: 771
 - **Thundermail**: 518
 - **Send**: 30
 - **Appointment**: 18
@@ -477,6 +477,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account — why: **confused** · how: **informed**
   > Can you help regain access to my thundermail account. Since I cannot sign into my account, please contact me at [email] which I thought was my recovery account.
 
+### Other / uncategorized — 1 tickets
+
+- **[#11875](https://tbpro.zendesk.com/agent/tickets/11875)** · oubli du mot de passe
+  > retrouver mot de passe
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay
@@ -492,6 +497,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
 - [11871](https://tbpro.zendesk.com/agent/tickets/11871) · [new] · 2026-11-27T18:26 · Can't set up thundermail account on Samsung email app 
 - [11872](https://tbpro.zendesk.com/agent/tickets/11872) · [new] · 2026-11-27T19:13 · trouble with first log in attemps
+- [11875](https://tbpro.zendesk.com/agent/tickets/11875) · [new] · 2026-11-27T20:21 · oubli du mot de passe
 
 ## Solved — last 24h
 
@@ -506,6 +512,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-27T18:01 · Cannot email Microsoft accounta
 - · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-27T18:01 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
 - · [11759](https://tbpro.zendesk.com/agent/tickets/11759) · 2026-11-27T20:01 · Calendar Services
+- · [11590](https://tbpro.zendesk.com/agent/tickets/11590) · 2026-11-27T20:49 · Can no longer get into thunderbird on my desktop
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
