@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 04:17 ET** · refreshes hourly_  
+_Updated: **2026-11-27 05:16 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1404 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **4** new tickets in last 24h · **7** solved in last 24h
-- **1404** tickets total since launch · contact rate **4%** of 35000 invitees
+- **5** new tickets in last 24h · **7** solved in last 24h
+- **1405** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (230 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -374,13 +374,13 @@ Henning Gerken_
 - **solved**: 65
 - **pending**: 56
 - **hold**: 29
-- **new**: 14
+- **new**: 15
 - **open**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 769
-- **Thundermail**: 515
+- **Thundermail**: 516
 - **Send**: 30
 - **Appointment**: 19
 
@@ -459,6 +459,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion
   > cancel my subscription for a full refund and Account deletion
 
+### Spam / Junk Filtering — 1 tickets
+
+- **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay
+  > I use Firefox Relay extensively and currently all emails forwarded from there go into my junk folder without fail. I can't whitelist them either.
+
 ### App setup / configuration — 1 tickets
 
 - **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account
@@ -470,6 +475,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [new] · 2026-11-27T00:28 · cancel my subscription for a full refund and Account deletion
 - [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [new] · 2026-11-27T03:21 · Account deletion and refund request
 - [11850](https://tbpro.zendesk.com/agent/tickets/11850) · [new] · 2026-11-27T07:29 · I'm already lost.
+- [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [new] · 2026-11-27T09:55 · Firefox Relay
 
 ## Solved — last 24h
 
