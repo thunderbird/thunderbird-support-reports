@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 11:17 ET** · refreshes hourly_  
+_Updated: **2026-11-27 12:14 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -9,12 +9,12 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so 
 
 ## At a glance
 
-- **5** new tickets in last 24h · **7** solved in last 24h
+- **5** new tickets in last 24h · **8** solved in last 24h
 - **1405** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (230 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 141.2h · mean 174.2h (proxy: updated_at − created_at, 63 solved tickets)
+- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
+- **Median AHT**: 141.4h · mean 185.4h (proxy: updated_at − created_at, 60 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -275,7 +275,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so 
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [pending] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [pending] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [solved] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
-  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [pending] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
+  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [open] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [pending] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [pending] · 2026-11-23 · _Cannot add catch-all email address_
   - [#11682](https://tbpro.zendesk.com/agent/tickets/11682) · [solved] · 2026-11-24 · _"You are not allowed to send from this address" + Catch-All Aliases Vanished_
@@ -364,17 +364,18 @@ Henning Gerken_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 1 new:
 
-- _(none)_
+- [Thundermail low level logs access for checking email sending and receiving](https://ideas.tb.pro/p/thundermail-low-level-logs-access-for-checking-email-sending-and-receiving) · 1 votes · _Thundermail, New Feature, Improvement_
+  > My current legacy email SMTP server is Postfix. Its fabulously flexible in its configuration and logging. I can look back at any email transaction with another server and see the "OK" line logging…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1232
-- **solved**: 63
+- **closed**: 1236
+- **solved**: 60
 - **pending**: 56
 - **hold**: 29
-- **new**: 14
+- **new**: 13
 - **open**: 11
 
 ## Service (cumulative)
@@ -486,6 +487,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [11567](https://tbpro.zendesk.com/agent/tickets/11567) · 2026-11-26T23:38 · Search doesn't work on mobile.
 - 👍 [11507](https://tbpro.zendesk.com/agent/tickets/11507) · 2026-11-27T00:54 · Custom domain question
 - 👍 [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-27T06:00 · Cannot create catch all alias for my custom domain.
+- · [10535](https://tbpro.zendesk.com/agent/tickets/10535) · 2026-11-27T16:31 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
