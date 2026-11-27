@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 12:14 ET** · refreshes hourly_  
+_Updated: **2026-11-27 13:17 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1406 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **5** new tickets in last 24h · **8** solved in last 24h
-- **1405** tickets total since launch · contact rate **4%** of 35000 invitees
+- **6** new tickets in last 24h · **10** solved in last 24h
+- **1406** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (230 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 141.4h · mean 185.4h (proxy: updated_at − created_at, 60 solved tickets)
+- **Median AHT**: 141.4h · mean 186.7h (proxy: updated_at − created_at, 58 solved tickets)
 
-## Known problems — 19 problem(s), 191 incident(s)
+## Known problems — 19 problem(s), 192 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -34,7 +34,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so 
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 138 incident(s):
+- 139 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -173,6 +173,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so 
   - [#11419](https://tbpro.zendesk.com/agent/tickets/11419) · [solved] · 2026-11-17 · _Refund request: Thunderbird Pro Annual_
   - [#11572](https://tbpro.zendesk.com/agent/tickets/11572) · [pending] · 2026-11-22 · _Account cancellation and refund_
   - [#11601](https://tbpro.zendesk.com/agent/tickets/11601) · [pending] · 2026-11-22 · _Refund request_
+  - [#11824](https://tbpro.zendesk.com/agent/tickets/11824) · [pending] · 2026-11-26 · _Cancel Subscription_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -271,7 +272,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1405 tickets** so 
 - 10 incident(s):
   - [#11521](https://tbpro.zendesk.com/agent/tickets/11521) · [pending] · 2026-11-20 · _can't add my main email address_
   - [#11537](https://tbpro.zendesk.com/agent/tickets/11537) · [pending] · 2026-11-21 · _Can't create alias?_
-  - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [pending] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
+  - [#11557](https://tbpro.zendesk.com/agent/tickets/11557) · [open] · 2026-11-21 · _Custom domain: How can I create aliases before switching MX records?_
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [pending] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [pending] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [solved] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
@@ -371,12 +372,12 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1236
-- **solved**: 60
-- **pending**: 56
-- **hold**: 29
-- **new**: 13
+- **closed**: 1238
+- **pending**: 58
+- **solved**: 58
+- **hold**: 30
 - **open**: 11
+- **new**: 11
 
 ## Service (cumulative)
 
@@ -389,14 +390,14 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 257
-- **change request** + **actioned**: 190
+- **curious** + **explained**: 258
+- **change request** + **actioned**: 191
 - **blocked** + **explained**: 130
 - **confused** + **explained**: 114
 - **curious** + **informed**: 72
 - **confused** + **redirected**: 70
 - **confused** + **informed**: 66
-- **blocked** + **redirected**: 62
+- **blocked** + **redirected**: 63
 - **blocked** + **investigated**: 58
 - **request** + **redirected**: 52
 - **blocked** + **escalated**: 46
@@ -460,6 +461,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion
   > cancel my subscription for a full refund and Account deletion
 
+### Early bird / invite / waitlist — 1 tickets
+
+- **[#11868](https://tbpro.zendesk.com/agent/tickets/11868)** · Fw: Your Thundermail address is waiting.
+  > Below is the email I received to create an email mailbox I understood that it was not a paid service therefore was surprised Cordially Michele Get Outlook for…
+
 ### Spam / Junk Filtering — 1 tickets
 
 - **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay
@@ -477,6 +483,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [new] · 2026-11-27T03:21 · Account deletion and refund request
 - [11850](https://tbpro.zendesk.com/agent/tickets/11850) · [new] · 2026-11-27T07:29 · I'm already lost.
 - [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [new] · 2026-11-27T09:55 · Firefox Relay
+- [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
 
 ## Solved — last 24h
 
@@ -488,6 +495,8 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - 👍 [11507](https://tbpro.zendesk.com/agent/tickets/11507) · 2026-11-27T00:54 · Custom domain question
 - 👍 [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-27T06:00 · Cannot create catch all alias for my custom domain.
 - · [10535](https://tbpro.zendesk.com/agent/tickets/10535) · 2026-11-27T16:31 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
+- · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-27T18:01 · Cannot email Microsoft accounta
+- · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-27T18:01 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
