@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 09:15 ET** · refreshes hourly_  
+_Updated: **2026-11-27 10:15 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -374,8 +374,8 @@ Henning Gerken_
 - **solved**: 65
 - **pending**: 56
 - **hold**: 29
-- **new**: 15
-- **open**: 10
+- **new**: 14
+- **open**: 11
 
 ## Service (cumulative)
 
@@ -398,7 +398,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **redirected**: 62
 - **blocked** + **investigated**: 58
 - **request** + **redirected**: 52
-- **blocked** + **escalated**: 45
+- **blocked** + **escalated**: 46
 - **concerned** + **explained**: 35
 - **blocked** + **informed**: 29
 - **confused** + **—**: 17
