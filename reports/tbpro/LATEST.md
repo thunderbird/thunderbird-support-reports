@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 13:17 ET** · refreshes hourly_  
+_Updated: **2026-11-27 14:12 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1406 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1407 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **6** new tickets in last 24h · **10** solved in last 24h
-- **1406** tickets total since launch · contact rate **4%** of 35000 invitees
+- **7** new tickets in last 24h · **10** solved in last 24h
+- **1407** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (230 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 1 · **since launch**: 100
-- **Median AHT**: 141.4h · mean 186.7h (proxy: updated_at − created_at, 58 solved tickets)
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **Median AHT**: 141.4h · mean 187.8h (proxy: updated_at − created_at, 56 solved tickets)
 
 ## Known problems — 19 problem(s), 192 incident(s)
 
@@ -365,26 +365,28 @@ Henning Gerken_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 1 new:
+**Last 24h** — 2 new:
 
+- [Send only email accounts ](https://ideas.tb.pro/p/send-only-email-accounts) · 1 votes · _untagged_
+  > I would like to use Thundermail to send emails from my custom domain, while keeping my existing email provider for incoming mail.
 - [Thundermail low level logs access for checking email sending and receiving](https://ideas.tb.pro/p/thundermail-low-level-logs-access-for-checking-email-sending-and-receiving) · 1 votes · _Thundermail, New Feature, Improvement_
   > My current legacy email SMTP server is Postfix. Its fabulously flexible in its configuration and logging. I can look back at any email transaction with another server and see the "OK" line logging…
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1238
-- **pending**: 58
-- **solved**: 58
+- **closed**: 1240
+- **pending**: 61
+- **solved**: 56
 - **hold**: 30
 - **open**: 11
-- **new**: 11
+- **new**: 9
 
 ## Service (cumulative)
 
-- **Account Hub**: 769
-- **Thundermail**: 516
+- **Account Hub**: 770
+- **Thundermail**: 517
 - **Send**: 30
-- **Appointment**: 19
+- **Appointment**: 18
 
 ## Why × How (cumulative)
 
@@ -395,9 +397,9 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **explained**: 130
 - **confused** + **explained**: 114
 - **curious** + **informed**: 72
-- **confused** + **redirected**: 70
-- **confused** + **informed**: 66
-- **blocked** + **redirected**: 63
+- **confused** + **redirected**: 71
+- **confused** + **informed**: 67
+- **blocked** + **redirected**: 64
 - **blocked** + **investigated**: 58
 - **request** + **redirected**: 52
 - **blocked** + **escalated**: 46
@@ -461,6 +463,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion
   > cancel my subscription for a full refund and Account deletion
 
+### App setup / configuration — 2 tickets
+
+- **[#11871](https://tbpro.zendesk.com/agent/tickets/11871)** · Can't set up thundermail account on Samsung email app 
+  > Hi. Despite using the settings you show, the Samsun email app will not connect to my thundermail account.
+- **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account — why: **confused** · how: **informed**
+  > Can you help regain access to my thundermail account. Since I cannot sign into my account, please contact me at [email] which I thought was my recovery account.
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#11868](https://tbpro.zendesk.com/agent/tickets/11868)** · Fw: Your Thundermail address is waiting.
@@ -471,19 +480,15 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay
   > I use Firefox Relay extensively and currently all emails forwarded from there go into my junk folder without fail. I can't whitelist them either.
 
-### App setup / configuration — 1 tickets
-
-- **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account
-  > Can you help regain access to my thundermail account. Since I cannot sign into my account, please contact me at [email] which I thought was my recovery account.
-
 ## New tickets — last 24h
 
-- [11841](https://tbpro.zendesk.com/agent/tickets/11841) · [new] · 2026-11-26T21:18 · Lost access to my thundermail account
+- [11841](https://tbpro.zendesk.com/agent/tickets/11841) · [pending] · 2026-11-26T21:18 · Lost access to my thundermail account
 - [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [new] · 2026-11-27T00:28 · cancel my subscription for a full refund and Account deletion
 - [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [new] · 2026-11-27T03:21 · Account deletion and refund request
 - [11850](https://tbpro.zendesk.com/agent/tickets/11850) · [new] · 2026-11-27T07:29 · I'm already lost.
 - [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [new] · 2026-11-27T09:55 · Firefox Relay
 - [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
+- [11871](https://tbpro.zendesk.com/agent/tickets/11871) · [new] · 2026-11-27T18:26 · Can't set up thundermail account on Samsung email app 
 
 ## Solved — last 24h
 
