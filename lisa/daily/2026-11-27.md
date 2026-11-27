@@ -1,20 +1,20 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 14:12 ET** · refreshes hourly_  
+_Updated: **2026-11-27 15:15 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1407 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1408 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **7** new tickets in last 24h · **10** solved in last 24h
-- **1407** tickets total since launch · contact rate **4%** of 35000 invitees
+- **8** new tickets in last 24h · **11** solved in last 24h
+- **1408** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (230 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
-- **Median AHT**: 141.4h · mean 187.8h (proxy: updated_at − created_at, 56 solved tickets)
+- **Median AHT**: 141.2h · mean 188.1h (proxy: updated_at − created_at, 55 solved tickets)
 
 ## Known problems — 19 problem(s), 192 incident(s)
 
@@ -374,17 +374,17 @@ Henning Gerken_
 
 ## Status breakdown (cumulative)
 
-- **closed**: 1240
+- **closed**: 1241
 - **pending**: 61
-- **solved**: 56
+- **solved**: 55
 - **hold**: 30
 - **open**: 11
-- **new**: 9
+- **new**: 10
 
 ## Service (cumulative)
 
 - **Account Hub**: 770
-- **Thundermail**: 517
+- **Thundermail**: 518
 - **Send**: 30
 - **Appointment**: 18
 
@@ -463,17 +463,19 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion
   > cancel my subscription for a full refund and Account deletion
 
+### Early bird / invite / waitlist — 2 tickets
+
+- **[#11872](https://tbpro.zendesk.com/agent/tickets/11872)** · trouble with first log in attemps
+  > can i have a new invitation please
+- **[#11868](https://tbpro.zendesk.com/agent/tickets/11868)** · Fw: Your Thundermail address is waiting.
+  > Below is the email I received to create an email mailbox I understood that it was not a paid service therefore was surprised Cordially Michele Get Outlook for…
+
 ### App setup / configuration — 2 tickets
 
 - **[#11871](https://tbpro.zendesk.com/agent/tickets/11871)** · Can't set up thundermail account on Samsung email app 
   > Hi. Despite using the settings you show, the Samsun email app will not connect to my thundermail account.
 - **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account — why: **confused** · how: **informed**
   > Can you help regain access to my thundermail account. Since I cannot sign into my account, please contact me at [email] which I thought was my recovery account.
-
-### Early bird / invite / waitlist — 1 tickets
-
-- **[#11868](https://tbpro.zendesk.com/agent/tickets/11868)** · Fw: Your Thundermail address is waiting.
-  > Below is the email I received to create an email mailbox I understood that it was not a paid service therefore was surprised Cordially Michele Get Outlook for…
 
 ### Spam / Junk Filtering — 1 tickets
 
@@ -489,6 +491,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [new] · 2026-11-27T09:55 · Firefox Relay
 - [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
 - [11871](https://tbpro.zendesk.com/agent/tickets/11871) · [new] · 2026-11-27T18:26 · Can't set up thundermail account on Samsung email app 
+- [11872](https://tbpro.zendesk.com/agent/tickets/11872) · [new] · 2026-11-27T19:13 · trouble with first log in attemps
 
 ## Solved — last 24h
 
@@ -502,6 +505,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - · [10535](https://tbpro.zendesk.com/agent/tickets/10535) · 2026-11-27T16:31 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
 - · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-27T18:01 · Cannot email Microsoft accounta
 - · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-27T18:01 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
+- · [11759](https://tbpro.zendesk.com/agent/tickets/11759) · 2026-11-27T20:01 · Calendar Services
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
