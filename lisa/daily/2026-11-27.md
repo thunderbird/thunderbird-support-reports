@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 00:16 ET** · refreshes hourly_  
+_Updated: **2026-11-27 01:25 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -11,10 +11,10 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1403 tickets** so 
 
 - **3** new tickets in last 24h · **7** solved in last 24h
 - **1403** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (3 good / 0 bad)
-- **CSAT (since launch)**: 95%  (229 good / 12 bad)
+- **CSAT (24h)**: 100%  (4 good / 0 bad)
+- **CSAT (since launch)**: 95%  (230 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 141.5h · mean 179.2h (proxy: updated_at − created_at, 65 solved tickets)
+- **Median AHT**: 141.5h · mean 179.3h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## Known problems — 19 problem(s), 191 incident(s)
 
@@ -471,12 +471,12 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## Solved — last 24h
 
 - 👍 [11530](https://tbpro.zendesk.com/agent/tickets/11530) · 2026-11-26T21:37 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
-- · [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-26T22:01 · Cannot create catch all alias for my custom domain.
 - · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-26T23:01 · "Email address does not exist", does exist, sent me an email (I am replying)
 - · [11654](https://tbpro.zendesk.com/agent/tickets/11654) · 2026-11-26T23:29 · Email Loss Due to Forwarding Error
 - · [11518](https://tbpro.zendesk.com/agent/tickets/11518) · 2026-11-26T23:36 · Database error
 - · [11567](https://tbpro.zendesk.com/agent/tickets/11567) · 2026-11-26T23:38 · Search doesn't work on mobile.
 - 👍 [11507](https://tbpro.zendesk.com/agent/tickets/11507) · 2026-11-27T00:54 · Custom domain question
+- 👍 [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-27T06:00 · Cannot create catch all alias for my custom domain.
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
