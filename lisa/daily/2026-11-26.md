@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-26
 
-_Updated: **2026-11-26 19:35 ET** · refreshes hourly_  
+_Updated: **2026-11-26 20:17 ET** · refreshes hourly_  
 _24h window: 2026-11-25T16:00 → 2026-11-26T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -12,9 +12,9 @@ Flight 8 is **day 109** of rollout — **35,000 invitees**, **1402 tickets** so 
 - **16** new tickets in last 24h · **9** solved in last 24h
 - **1402** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
-- **CSAT (since launch)**: 95%  (228 good / 12 bad)
+- **CSAT (since launch)**: 95%  (229 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
-- **Median AHT**: 141.5h · mean 179.1h (proxy: updated_at − created_at, 65 solved tickets)
+- **Median AHT**: 141.5h · mean 179.2h (proxy: updated_at − created_at, 65 solved tickets)
 
 ## 🔎 Emerging patterns to investigate
 
@@ -224,7 +224,7 @@ _Phrases appearing in 24h tickets at significantly above-baseline rates. If a ro
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [pending] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [hold] · 2026-11-22 · _Firefox Relay emails to spam_
-  - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23 · _my relay forwarded emails keep going to junk._
+  - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [open] · 2026-11-23 · _my relay forwarded emails keep going to junk._
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -379,10 +379,10 @@ Henning Gerken_
 
 - **closed**: 1230
 - **solved**: 65
-- **pending**: 57
+- **pending**: 56
 - **hold**: 29
 - **new**: 12
-- **open**: 9
+- **open**: 10
 
 ## Service (cumulative)
 
