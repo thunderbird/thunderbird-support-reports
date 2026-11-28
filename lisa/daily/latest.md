@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 22:17 ET** · refreshes hourly_  
+_Updated: **2026-11-27 23:17 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1410 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1409 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **9** new tickets in last 24h · **8** solved in last 24h
-- **1410** tickets total since launch · contact rate **4%** of 35000 invitees
+- **8** new tickets in last 24h · **8** solved in last 24h
+- **1409** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (231 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
 - **Median AHT**: 134.4h · mean 179.1h (proxy: updated_at − created_at, 48 solved tickets)
 
-## Known problems — 19 problem(s), 194 incident(s)
+## Known problems — 19 problem(s), 195 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -216,11 +216,12 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1410 tickets** so 
 
 ### [#9810](https://tbpro.zendesk.com/agent/tickets/9810) · [hold] · [stormbox/208] Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Relay.
 - 🔧 GitHub: [thunderbird/stormbox#208](https://github.com/thunderbird/stormbox/issues/208) · _Thundermail Spam Filter Does Not Recognize Emails Forwarded Through Firefox Rela_
-- 4 incident(s):
+- 5 incident(s):
   - [#9638](https://tbpro.zendesk.com/agent/tickets/9638) · [closed] · 2026-10-11 · _Mails coming from Firefox Relax are always marked as Spam_
   - [#10076](https://tbpro.zendesk.com/agent/tickets/10076) · [open] · 2026-10-15 · _Thundermail Spam Filter Not Recognizing Firefox Relay Addresses _
   - [#11584](https://tbpro.zendesk.com/agent/tickets/11584) · [hold] · 2026-11-22 · _Firefox Relay emails to spam_
   - [#11649](https://tbpro.zendesk.com/agent/tickets/11649) · [pending] · 2026-11-23 · _my relay forwarded emails keep going to junk._
+  - [#11855](https://tbpro.zendesk.com/agent/tickets/11855) · [pending] · 2026-11-27 · _Firefox Relay_
 
 ### [#10009](https://tbpro.zendesk.com/agent/tickets/10009) · [hold] · [mailstrom/265] Apple Contacts ignores vCard 4 contacts over CardDAV
 - 🔧 GitHub: [thunderbird/mailstrom#265](https://github.com/thunderbird/mailstrom/issues/265) · _Apple contacts (and FritzBox)  fails to sync contacts (blocked on Stalwart v0.16_
@@ -278,7 +279,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1410 tickets** so 
   - [#11560](https://tbpro.zendesk.com/agent/tickets/11560) · [pending] · 2026-11-21 · _can't create catch all alias for custom domain_
   - [#11577](https://tbpro.zendesk.com/agent/tickets/11577) · [pending] · 2026-11-22 · _SMTP: catch-all addresses can no longer send since the Nov 19 Stalwart 0.16 migration (501 5.5.4)_
   - [#11589](https://tbpro.zendesk.com/agent/tickets/11589) · [solved] · 2026-11-22 · _Cannot create catch all alias for my custom domain._
-  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [open] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
+  - [#11618](https://tbpro.zendesk.com/agent/tickets/11618) · [pending] · 2026-11-23 · _Critical: Catch-all alias disappeared and cannot be recreated – 550 Mailbox does not exist_
   - [#11619](https://tbpro.zendesk.com/agent/tickets/11619) · [pending] · 2026-11-23 · _Catchall-Aliases for custom domains are gone and can't be re-added_
   - [#11645](https://tbpro.zendesk.com/agent/tickets/11645) · [pending] · 2026-11-23 · _Cannot add catch-all email address_
   - [#11682](https://tbpro.zendesk.com/agent/tickets/11682) · [solved] · 2026-11-24 · _"You are not allowed to send from this address" + Catch-All Aliases Vanished_
@@ -377,11 +378,11 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1249
-- **pending**: 66
+- **pending**: 68
 - **solved**: 48
 - **hold**: 30
-- **open**: 10
-- **new**: 7
+- **open**: 9
+- **new**: 5
 
 ## Service (cumulative)
 
@@ -405,7 +406,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **blocked** + **investigated**: 58
 - **request** + **redirected**: 52
 - **blocked** + **escalated**: 46
-- **concerned** + **explained**: 35
+- **concerned** + **explained**: 36
 - **blocked** + **informed**: 29
 - **confused** + **—**: 17
 - **change request** + **explained**: 14
@@ -456,15 +457,6 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Subscription / billing / refund / cancel — 3 tickets
-
-- **[#11850](https://tbpro.zendesk.com/agent/tickets/11850)** · I'm already lost.
-  > I really want to get into Thundermail, but thanks to "old age", I can't get past first base. What information do you have about me, and what do I do now? (It seems I've already…
-- **[#11847](https://tbpro.zendesk.com/agent/tickets/11847)** · Account deletion and refund request — why: **change request** · how: **actioned**
-  > I'd like to cancel and receive a refund
-- **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion — why: **change request** · how: **actioned**
-  > cancel my subscription for a full refund and Account deletion
-
 ### Early bird / invite / waitlist — 2 tickets
 
 - **[#11872](https://tbpro.zendesk.com/agent/tickets/11872)** · trouble with first log in attemps
@@ -479,6 +471,13 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account — why: **confused** · how: **informed**
   > Can you help regain access to my thundermail account. Since I cannot sign into my account, please contact me at [email] which I thought was my recovery account.
 
+### Subscription / billing / refund / cancel — 2 tickets
+
+- **[#11847](https://tbpro.zendesk.com/agent/tickets/11847)** · Account deletion and refund request — why: **change request** · how: **actioned**
+  > I'd like to cancel and receive a refund
+- **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion — why: **change request** · how: **actioned**
+  > cancel my subscription for a full refund and Account deletion
+
 ### Other / uncategorized — 1 tickets
 
 - **[#11875](https://tbpro.zendesk.com/agent/tickets/11875)** · oubli du mot de passe
@@ -486,7 +485,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ### Spam / Junk Filtering — 1 tickets
 
-- **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay
+- **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay — why: **concerned** · how: **explained**
   > I use Firefox Relay extensively and currently all emails forwarded from there go into my junk folder without fail. I can't whitelist them either.
 
 ## New tickets — last 24h
@@ -494,8 +493,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 - [11841](https://tbpro.zendesk.com/agent/tickets/11841) · [pending] · 2026-11-26T21:18 · Lost access to my thundermail account
 - [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [pending] · 2026-11-27T00:28 · cancel my subscription for a full refund and Account deletion
 - [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [pending] · 2026-11-27T03:21 · Account deletion and refund request
-- [11850](https://tbpro.zendesk.com/agent/tickets/11850) · [new] · 2026-11-27T07:29 · I'm already lost.
-- [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [new] · 2026-11-27T09:55 · Firefox Relay
+- [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [pending] · 2026-11-27T09:55 · Firefox Relay
 - [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
 - [11871](https://tbpro.zendesk.com/agent/tickets/11871) · [new] · 2026-11-27T18:26 · Can't set up thundermail account on Samsung email app 
 - [11872](https://tbpro.zendesk.com/agent/tickets/11872) · [new] · 2026-11-27T19:13 · trouble with first log in attemps
