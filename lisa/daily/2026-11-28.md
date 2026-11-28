@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-28
 
-_Updated: **2026-11-28 05:14 ET** · refreshes hourly_  
+_Updated: **2026-11-28 06:13 ET** · refreshes hourly_  
 _24h window: 2026-11-27T16:00 → 2026-11-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -13,7 +13,7 @@ Flight 8 is **day 111** of rollout — **35,000 invitees**, **1410 tickets** so 
 - **1410** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (232 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
+- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
 - **Median AHT**: 134.4h · mean 179.1h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## Known problems — 19 problem(s), 195 incident(s)
@@ -365,9 +365,12 @@ _(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 0 new:
+**Last 24h** — 2 new:
 
-- _(none)_
+- [Configurable subaddress delimiter (_ or - besides +)](https://ideas.tb.pro/p/configurable-subaddress-delimiter-_-or-besides) · 1 votes · _untagged_
+  > What you’d like to see Allow configuring additional subaddress delimiters per account or domain, e.g. "_" or "-" in addition to "+". Why it matters Some websites reject "+" in email addresses. A…
+- [Multiple app passwords, optionally limited to IMAP/SMTP](https://ideas.tb.pro/p/multiple-app-passwords-optionally-limited-to-imap-smtp) · 1 votes · _untagged_
+  > Allow creating several named app passwords that can be revoked individually, optionally restricted by protocol (IMAP, SMTP, JMAP, DAV) Why it matters Right now there is exactly one app password. My…
 
 ## Status breakdown (cumulative)
 
