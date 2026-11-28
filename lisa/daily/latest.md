@@ -1,22 +1,22 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 21:19 ET** · refreshes hourly_  
+_Updated: **2026-11-27 22:17 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1409 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 110** of rollout — **35,000 invitees**, **1410 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
 - **9** new tickets in last 24h · **8** solved in last 24h
-- **1409** tickets total since launch · contact rate **4%** of 35000 invitees
+- **1410** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (4 good / 0 bad)
 - **CSAT (since launch)**: 95%  (231 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
 - **Median AHT**: 134.4h · mean 179.1h (proxy: updated_at − created_at, 48 solved tickets)
 
-## Known problems — 19 problem(s), 193 incident(s)
+## Known problems — 19 problem(s), 194 incident(s)
 
 ### [#6712](https://tbpro.zendesk.com/agent/tickets/6712) · [hold] · [Tracker] Who did we have to manually verify email for?
 - 🔧 GitHub: [thunderbird/mailstrom#255](https://github.com/thunderbird/mailstrom/issues/255) · _Reach out to Mailfence to delist our sending IPs_
@@ -34,7 +34,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1409 tickets** so 
   - [#7714](https://tbpro.zendesk.com/agent/tickets/7714) · [closed] · 2026-08-17 · _Unable to Send From Custom Domain in Thundermail Webmail_
 
 ### [#7053](https://tbpro.zendesk.com/agent/tickets/7053) · [hold] · [Tracker] Account refunded and canceled, purge queue
-- 140 incident(s):
+- 141 incident(s):
   - [#7558](https://tbpro.zendesk.com/agent/tickets/7558) · [closed] · 2026-08-10 · _Delete Account and Refund Request_
   - [#7572](https://tbpro.zendesk.com/agent/tickets/7572) · [closed] · 2026-08-10 · _Refund request_
   - [#7580](https://tbpro.zendesk.com/agent/tickets/7580) · [closed] · 2026-08-10 · _Refund and account deletion_
@@ -175,6 +175,7 @@ Flight 8 is **day 110** of rollout — **35,000 invitees**, **1409 tickets** so 
   - [#11601](https://tbpro.zendesk.com/agent/tickets/11601) · [pending] · 2026-11-22 · _Refund request_
   - [#11824](https://tbpro.zendesk.com/agent/tickets/11824) · [open] · 2026-11-26 · _Cancel Subscription_
   - [#11844](https://tbpro.zendesk.com/agent/tickets/11844) · [pending] · 2026-11-27 · _cancel my subscription for a full refund and Account deletion_
+  - [#11847](https://tbpro.zendesk.com/agent/tickets/11847) · [pending] · 2026-11-27 · _Account deletion and refund request_
 
 ### [#8686](https://tbpro.zendesk.com/agent/tickets/8686) · [hold] · [stormbox/131] Aliases are not tied to JMAP identities
 - 🔧 GitHub: [thunderbird/stormbox#131](https://github.com/thunderbird/stormbox/issues/131) · _Aliases are not tied to JMAP identities_
@@ -376,7 +377,7 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1249
-- **pending**: 65
+- **pending**: 66
 - **solved**: 48
 - **hold**: 30
 - **open**: 10
@@ -384,7 +385,7 @@ Henning Gerken_
 
 ## Service (cumulative)
 
-- **Account Hub**: 771
+- **Account Hub**: 772
 - **Thundermail**: 518
 - **Send**: 30
 - **Appointment**: 18
@@ -394,7 +395,7 @@ Henning Gerken_
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
 - **curious** + **explained**: 261
-- **change request** + **actioned**: 192
+- **change request** + **actioned**: 193
 - **blocked** + **explained**: 130
 - **confused** + **explained**: 114
 - **curious** + **informed**: 72
@@ -459,7 +460,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - **[#11850](https://tbpro.zendesk.com/agent/tickets/11850)** · I'm already lost.
   > I really want to get into Thundermail, but thanks to "old age", I can't get past first base. What information do you have about me, and what do I do now? (It seems I've already…
-- **[#11847](https://tbpro.zendesk.com/agent/tickets/11847)** · Account deletion and refund request
+- **[#11847](https://tbpro.zendesk.com/agent/tickets/11847)** · Account deletion and refund request — why: **change request** · how: **actioned**
   > I'd like to cancel and receive a refund
 - **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion — why: **change request** · how: **actioned**
   > cancel my subscription for a full refund and Account deletion
@@ -492,7 +493,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 - [11841](https://tbpro.zendesk.com/agent/tickets/11841) · [pending] · 2026-11-26T21:18 · Lost access to my thundermail account
 - [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [pending] · 2026-11-27T00:28 · cancel my subscription for a full refund and Account deletion
-- [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [new] · 2026-11-27T03:21 · Account deletion and refund request
+- [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [pending] · 2026-11-27T03:21 · Account deletion and refund request
 - [11850](https://tbpro.zendesk.com/agent/tickets/11850) · [new] · 2026-11-27T07:29 · I'm already lost.
 - [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [new] · 2026-11-27T09:55 · Firefox Relay
 - [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
