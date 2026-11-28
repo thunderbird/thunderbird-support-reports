@@ -1,19 +1,19 @@
-# Thundermail — Flight 8 Live Report · 2026-11-27
+# Thundermail — Flight 8 Live Report · 2026-11-28
 
-_Updated: **2026-11-27 23:17 ET** · refreshes hourly_  
-_24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
+_Updated: **2026-11-28 00:15 ET** · refreshes hourly_  
+_24h window: 2026-11-27T16:00 → 2026-11-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 110** of rollout — **35,000 invitees**, **1409 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 111** of rollout — **35,000 invitees**, **1409 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **8** new tickets in last 24h · **8** solved in last 24h
+- **1** new tickets in last 24h · **4** solved in last 24h
 - **1409** tickets total since launch · contact rate **4%** of 35000 invitees
-- **CSAT (24h)**: 100%  (4 good / 0 bad)
-- **CSAT (since launch)**: 95%  (231 good / 12 bad)
-- **New FeatureOS ideas (24h)**: 2 · **since launch**: 100
+- **CSAT (24h)**: 100%  (2 good / 0 bad)
+- **CSAT (since launch)**: 95%  (232 good / 12 bad)
+- **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
 - **Median AHT**: 134.4h · mean 179.1h (proxy: updated_at − created_at, 48 solved tickets)
 
 ## Known problems — 19 problem(s), 195 incident(s)
@@ -359,21 +359,15 @@ Danke für Ihr Hilfe.
 Mfg
 Henning Gerken_
 
-## Refund & cancellation tickets (last 24h) — 2
+## Refund & cancellation tickets (last 24h) — 0
 
-- [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [pending] · _cancel my subscription for a full refund and Account deletion_
-  > cancel my subscription for a full refund and Account deletion
-- [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [pending] · _Account deletion and refund request_
-  > I'd like to cancel and receive a refund
+_(none in last 24h)_
 
 ## New ideas on FeatureOS
 
-**Last 24h** — 2 new:
+**Last 24h** — 0 new:
 
-- [Send only email accounts ](https://ideas.tb.pro/p/send-only-email-accounts) · 1 votes · _untagged_
-  > I would like to use Thundermail to send emails from my custom domain, while keeping my existing email provider for incoming mail.
-- [Thundermail low level logs access for checking email sending and receiving](https://ideas.tb.pro/p/thundermail-low-level-logs-access-for-checking-email-sending-and-receiving) · 1 votes · _Thundermail, New Feature, Improvement_
-  > My current legacy email SMTP server is Postfix. Its fabulously flexible in its configuration and logging. I can look back at any email transaction with another server and see the "OK" line logging…
+- _(none)_
 
 ## Status breakdown (cumulative)
 
@@ -457,58 +451,21 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
-### Early bird / invite / waitlist — 2 tickets
+### Early bird / invite / waitlist — 1 tickets
 
-- **[#11872](https://tbpro.zendesk.com/agent/tickets/11872)** · trouble with first log in attemps
-  > can i have a new invitation please
-- **[#11868](https://tbpro.zendesk.com/agent/tickets/11868)** · Fw: Your Thundermail address is waiting.
-  > Below is the email I received to create an email mailbox I understood that it was not a paid service therefore was surprised Cordially Michele Get Outlook for…
-
-### App setup / configuration — 2 tickets
-
-- **[#11871](https://tbpro.zendesk.com/agent/tickets/11871)** · Can't set up thundermail account on Samsung email app 
-  > Hi. Despite using the settings you show, the Samsun email app will not connect to my thundermail account.
-- **[#11841](https://tbpro.zendesk.com/agent/tickets/11841)** · Lost access to my thundermail account — why: **confused** · how: **informed**
-  > Can you help regain access to my thundermail account. Since I cannot sign into my account, please contact me at [email] which I thought was my recovery account.
-
-### Subscription / billing / refund / cancel — 2 tickets
-
-- **[#11847](https://tbpro.zendesk.com/agent/tickets/11847)** · Account deletion and refund request — why: **change request** · how: **actioned**
-  > I'd like to cancel and receive a refund
-- **[#11844](https://tbpro.zendesk.com/agent/tickets/11844)** · cancel my subscription for a full refund and Account deletion — why: **change request** · how: **actioned**
-  > cancel my subscription for a full refund and Account deletion
-
-### Other / uncategorized — 1 tickets
-
-- **[#11875](https://tbpro.zendesk.com/agent/tickets/11875)** · oubli du mot de passe
-  > retrouver mot de passe
-
-### Spam / Junk Filtering — 1 tickets
-
-- **[#11855](https://tbpro.zendesk.com/agent/tickets/11855)** · Firefox Relay — why: **concerned** · how: **explained**
-  > I use Firefox Relay extensively and currently all emails forwarded from there go into my junk folder without fail. I can't whitelist them either.
+- **[#11879](https://tbpro.zendesk.com/agent/tickets/11879)** · invitation to Join Account Creation
+  > Hello, I received an email to join Thundermail and in the process of creating the email for the Account details, I keep receiving an error message. Can you please help me create…
 
 ## New tickets — last 24h
 
-- [11841](https://tbpro.zendesk.com/agent/tickets/11841) · [pending] · 2026-11-26T21:18 · Lost access to my thundermail account
-- [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [pending] · 2026-11-27T00:28 · cancel my subscription for a full refund and Account deletion
-- [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [pending] · 2026-11-27T03:21 · Account deletion and refund request
-- [11855](https://tbpro.zendesk.com/agent/tickets/11855) · [pending] · 2026-11-27T09:55 · Firefox Relay
-- [11868](https://tbpro.zendesk.com/agent/tickets/11868) · [new] · 2026-11-27T17:28 · Fw: Your Thundermail address is waiting.
-- [11871](https://tbpro.zendesk.com/agent/tickets/11871) · [new] · 2026-11-27T18:26 · Can't set up thundermail account on Samsung email app 
-- [11872](https://tbpro.zendesk.com/agent/tickets/11872) · [new] · 2026-11-27T19:13 · trouble with first log in attemps
-- [11875](https://tbpro.zendesk.com/agent/tickets/11875) · [new] · 2026-11-27T20:21 · oubli du mot de passe
+- [11879](https://tbpro.zendesk.com/agent/tickets/11879) · [new] · 2026-11-28T03:09 · invitation to Join Account Creation
 
 ## Solved — last 24h
 
-- 👍 [11530](https://tbpro.zendesk.com/agent/tickets/11530) · 2026-11-26T21:37 · Re: [Thundermail] Re: Access through a Bookmark in FIREFOX
-- · [11566](https://tbpro.zendesk.com/agent/tickets/11566) · 2026-11-26T23:01 · "Email address does not exist", does exist, sent me an email (I am replying)
-- 👍 [11507](https://tbpro.zendesk.com/agent/tickets/11507) · 2026-11-27T00:54 · Custom domain question
-- 👍 [11589](https://tbpro.zendesk.com/agent/tickets/11589) · 2026-11-27T06:00 · Cannot create catch all alias for my custom domain.
-- · [10535](https://tbpro.zendesk.com/agent/tickets/10535) · 2026-11-27T16:31 · Re: Re: Support Feedback: MACOS installer for desktop connection issues?: still need help?
-- · [11615](https://tbpro.zendesk.com/agent/tickets/11615) · 2026-11-27T18:01 · Cannot email Microsoft accounta
-- · [11573](https://tbpro.zendesk.com/agent/tickets/11573) · 2026-11-27T18:01 · Cannot create [email] or a catch-all - "You cannot use this email address", while other aliases on t
-- · [11590](https://tbpro.zendesk.com/agent/tickets/11590) · 2026-11-27T20:49 · Can no longer get into thunderbird on my desktop
+- 👍 [11759](https://tbpro.zendesk.com/agent/tickets/11759) · 2026-11-27T21:18 · Calendar Services
+- · [11654](https://tbpro.zendesk.com/agent/tickets/11654) · 2026-11-28T00:01 · Email Loss Due to Forwarding Error
+- · [11567](https://tbpro.zendesk.com/agent/tickets/11567) · 2026-11-28T00:01 · Search doesn't work on mobile.
+- · [11518](https://tbpro.zendesk.com/agent/tickets/11518) · 2026-11-28T00:01 · Database error
 
 ---
 _**Legend:** 🔎 emerging pattern · 🔧 open GitHub issue · ✅ closed GitHub issue · 🔗 linked issue · 👍 positive CSAT · 👎 negative CSAT_
