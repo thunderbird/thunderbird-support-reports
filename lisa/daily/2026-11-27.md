@@ -1,6 +1,6 @@
 # Thundermail — Flight 8 Live Report · 2026-11-27
 
-_Updated: **2026-11-27 20:16 ET** · refreshes hourly_  
+_Updated: **2026-11-27 21:19 ET** · refreshes hourly_  
 _24h window: 2026-11-26T16:00 → 2026-11-27T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
@@ -361,7 +361,7 @@ Henning Gerken_
 
 - [11844](https://tbpro.zendesk.com/agent/tickets/11844) · [pending] · _cancel my subscription for a full refund and Account deletion_
   > cancel my subscription for a full refund and Account deletion
-- [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [new] · _Account deletion and refund request_
+- [11847](https://tbpro.zendesk.com/agent/tickets/11847) · [pending] · _Account deletion and refund request_
   > I'd like to cancel and receive a refund
 
 ## New ideas on FeatureOS
@@ -376,11 +376,11 @@ Henning Gerken_
 ## Status breakdown (cumulative)
 
 - **closed**: 1249
-- **pending**: 63
+- **pending**: 65
 - **solved**: 48
 - **hold**: 30
-- **open**: 11
-- **new**: 8
+- **open**: 10
+- **new**: 7
 
 ## Service (cumulative)
 
@@ -393,7 +393,7 @@ Henning Gerken_
 
 _How the user arrived (why) and how we resolved it (how) — agent-assigned per ticket._
 
-- **curious** + **explained**: 259
+- **curious** + **explained**: 261
 - **change request** + **actioned**: 192
 - **blocked** + **explained**: 130
 - **confused** + **explained**: 114
