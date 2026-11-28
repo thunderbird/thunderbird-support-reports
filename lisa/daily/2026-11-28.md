@@ -1,16 +1,16 @@
 # Thundermail — Flight 8 Live Report · 2026-11-28
 
-_Updated: **2026-11-28 02:15 ET** · refreshes hourly_  
+_Updated: **2026-11-28 03:17 ET** · refreshes hourly_  
 _24h window: 2026-11-27T16:00 → 2026-11-28T16:00 ET · Flight 8 launch: 2026-08-10 · 35000 invitees_
 
 ## TL;DR
 
-Flight 8 is **day 111** of rollout — **35,000 invitees**, **1409 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
+Flight 8 is **day 111** of rollout — **35,000 invitees**, **1410 tickets** so far (4.0% contact rate). CSAT since launch: **95%**. Top theme: **Aliases**. **19 known problem(s)** being tracked.
 
 ## At a glance
 
-- **1** new tickets in last 24h · **4** solved in last 24h
-- **1409** tickets total since launch · contact rate **4%** of 35000 invitees
+- **2** new tickets in last 24h · **4** solved in last 24h
+- **1410** tickets total since launch · contact rate **4%** of 35000 invitees
 - **CSAT (24h)**: 100%  (2 good / 0 bad)
 - **CSAT (since launch)**: 95%  (232 good / 12 bad)
 - **New FeatureOS ideas (24h)**: 0 · **since launch**: 100
@@ -376,12 +376,12 @@ _(none in last 24h)_
 - **solved**: 48
 - **hold**: 30
 - **open**: 9
-- **new**: 5
+- **new**: 6
 
 ## Service (cumulative)
 
 - **Account Hub**: 772
-- **Thundermail**: 518
+- **Thundermail**: 519
 - **Send**: 30
 - **Appointment**: 18
 
@@ -451,6 +451,11 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 
 ## Tickets in last 24h — by theme
 
+### Other / uncategorized — 1 tickets
+
+- **[#11883](https://tbpro.zendesk.com/agent/tickets/11883)** · EMAILS
+  > I am having a nightmare with the whole email scenario and finding it very difficult to see a solution
+
 ### Early bird / invite / waitlist — 1 tickets
 
 - **[#11879](https://tbpro.zendesk.com/agent/tickets/11879)** · invitation to Join Account Creation
@@ -459,6 +464,7 @@ _How the user arrived (why) and how we resolved it (how) — agent-assigned per 
 ## New tickets — last 24h
 
 - [11879](https://tbpro.zendesk.com/agent/tickets/11879) · [new] · 2026-11-28T03:09 · invitation to Join Account Creation
+- [11883](https://tbpro.zendesk.com/agent/tickets/11883) · [new] · 2026-11-28T08:14 · EMAILS
 
 ## Solved — last 24h
 
